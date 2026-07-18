@@ -1,0 +1,22 @@
+# Local work and browser QA artifacts
+work/
+.qa_vibe_plan/
+.agents/
+
+# Generated screenshots and intermediate inspection files
+outputs/*
+!outputs/019f5b8d-091b-74d0-b08b-64333753978d/
+outputs/019f5b8d-091b-74d0-b08b-64333753978d/*
+!outputs/019f5b8d-091b-74d0-b08b-64333753978d/中西餐菜品数据库_图片已补全.xlsx
+*.inspect.ndjson
+
+# Duplicate delivery bundles (the canonical source lives at repository root)
+烟火有谱_HTML_Demo_社区上传版_2026-07-15/
+烟火有谱_HTML_Demo补充交接包_2026-07-15/
+烟火有谱_Trae项目交接包_2026-07-14/
+*.zip
+
+# Operating-system noise
+.DS_Store
+Thumbs.db
+desktop.ini

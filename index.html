@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#173f36">
+  <meta name="description" content="烟火有谱：根据食材找菜谱，也可以根据菜谱生成食材与采购清单。">
+  <title>烟火有谱｜今天吃什么，家里有什么</title>
+  <link rel="stylesheet" href="src/styles/app.css">
+  <script src="data/recipes.js" defer></script>
+  <script src="data/ingredients.js" defer></script>
+  <script src="data/features.js" defer></script>
+  <script src="src/js/future-services.js" defer></script>
+  <script src="src/js/app.js" defer></script>
+</head>
+<body>
+  <div class="paper-grain" aria-hidden="true"></div>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#/home" aria-label="烟火有谱首页">
+        <span class="brand-seal">谱</span>
+        <span>
+          <strong>烟火有谱</strong>
+          <small>YAN HUO · RECIPE</small>
+        </span>
+      </a>
+      <div class="topbar-actions">
+        <button class="icon-button stage-button" type="button" data-action="open-stage-map" aria-label="查看开发阶段">
+          <span class="live-dot"></span>
+          <span>阶段一</span>
+        </button>
+        <button class="icon-button basket-button" type="button" data-nav="#/shopping" aria-label="打开采购清单">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 9h14l-1.2 10H6.2L5 9Zm3-3 4-3 4 3M9 12v4m6-4v4"/></svg>
+          <span class="count-badge" id="shopping-count">0</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="app-view" tabindex="-1" aria-live="polite"></main>
+
+    <nav class="bottom-nav" id="bottom-nav" aria-label="主要导航">
+      <button type="button" data-nav="#/home" data-tab="home">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 11 9-8 9 8v9h-6v-6H9v6H3v-9Z"/></svg>
+        <span>首页</span>
+      </button>
+      <button type="button" data-nav="#/recipes" data-tab="recipes">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h12a2 2 0 0 1 2 2v14H7a2 2 0 0 1-2-2V4Zm2 0v14a2 2 0 0 0 2 2M10 8h6m-6 4h6"/></svg>
+        <span>菜谱</span>
+      </button>
+      <button type="button" data-nav="#/pantry" data-tab="pantry">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h16v12H4V8Zm2-4h12v4H6V4Zm3 8h6m-3-3v6"/></svg>
+        <span>食材篮</span>
+      </button>
+      <button type="button" data-nav="#/me" data-tab="me">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm-7 8c.8-4 3.1-6 7-6s6.2 2 7 6H5Z"/></svg>
+        <span>我的</span>
+      </button>
+    </nav>
+  </div>
+
+  <dialog class="sheet" id="action-sheet" aria-labelledby="sheet-title">
+    <div class="sheet-handle" aria-hidden="true"></div>
+    <div id="sheet-content"></div>
+    <button class="sheet-close" type="button" data-action="close-sheet" aria-label="关闭弹层">×</button>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <noscript>
+    <div class="noscript">请开启 JavaScript 以体验食材匹配、采购清单和图文烹饪功能。</div>
+  </noscript>
+</body>
+</html>
+
