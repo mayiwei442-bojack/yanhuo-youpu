@@ -1,0 +1,15 @@
+{
+  "name": "yanhuo-youpu",
+  "version": "1.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node tools/test_html_demo.mjs",
+    "test:ai": "node tools/test_deepseek_integration.mjs",
+    "test:all": "npm run test && npm run test:ai"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
