@@ -1,0 +1,15 @@
+.git
+.gitignore
+.env
+.env.*
+!.env.example
+.agents
+.qa_vibe_plan
+work
+outputs
+tools
+*.zip
+烟火有谱_HTML_Demo_社区上传版_2026-07-15
+烟火有谱_HTML_Demo开发交接_2026-07-15
+烟火有谱_HTML_Demo补充交接包_2026-07-15
+烟火有谱_Trae项目交接包_2026-07-14

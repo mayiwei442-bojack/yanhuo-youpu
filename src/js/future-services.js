@@ -1,57 +1,143 @@
-(function attachFutureServices(global) {
+(function attachYanhuoServices(global) {
   "use strict";
 
-  const FEATURE_NOT_AVAILABLE = "FEATURE_NOT_AVAILABLE";
+  const catalog = Array.isArray(global.YANHUO_INGREDIENTS) ? global.YANHUO_INGREDIENTS : [];
+  const API_ROOT = "/api/ai";
+  const SERVICE_UNAVAILABLE = "AI_SERVICE_UNAVAILABLE";
+  let remoteStatusPromise = null;
+  let remoteStatusExpiresAt = 0;
 
-  function previewResult(featureId, message) {
-    const feature = (global.YANHUO_FEATURES || {})[featureId] || { phase: 2 };
-    return Promise.resolve({
-      ok: false,
-      data: null,
-      error: { code: FEATURE_NOT_AVAILABLE, message },
-      meta: {
-        featureId,
-        phase: feature.phase,
-        provider: "none",
-        fallback: true
-      }
-    });
+  function success(data, provider, extraMeta) {
+    return {
+      ok: true,
+      data,
+      error: null,
+      meta: { provider, fallback: false, ...(extraMeta || {}) }
+    };
   }
 
-  global.YanhuoFutureServices = {
-    FEATURE_NOT_AVAILABLE,
+  function failure(code, message, extraMeta) {
+    return {
+      ok: false,
+      data: null,
+      error: { code, message },
+      meta: { provider: "deepseek", fallback: false, ...(extraMeta || {}) }
+    };
+  }
+
+  async function remoteAiStatus(forceRefresh) {
+    if (!/^https?:$/.test(global.location?.protocol || "")) {
+      return {
+        configured: false,
+        provider: "deepseek",
+        capabilities: { text: true, vision: false },
+        reason: "AI 功能需要通过本地服务器（例如 http://127.0.0.1:8787）或公网部署网址打开，不能通过 file:// 安全调用。"
+      };
+    }
+    const now = Date.now();
+    if (forceRefresh || !remoteStatusPromise || now >= remoteStatusExpiresAt) {
+      remoteStatusExpiresAt = now + 10000;
+      remoteStatusPromise = fetch(`${API_ROOT}/status`, { headers: { Accept: "application/json" } })
+        .then(async (response) => {
+          if (!response.ok) return { configured: false, provider: "deepseek", capabilities: { text: true, vision: false }, reason: `AI 状态接口返回 ${response.status}` };
+          const result = await response.json().catch(() => null);
+          return {
+            configured: Boolean(result?.data?.configured),
+            provider: result?.data?.provider || "deepseek",
+            model: result?.data?.model || null,
+            capabilities: result?.data?.capabilities || { text: true, vision: false },
+            reason: result?.data?.configured ? "" : "DeepSeek API 尚未在服务端配置"
+          };
+        })
+        .catch((error) => {
+          remoteStatusExpiresAt = 0;
+          return {
+            configured: false,
+            provider: "deepseek",
+            capabilities: { text: true, vision: false },
+            reason: String(error?.message || error)
+          };
+        });
+    }
+    return remoteStatusPromise;
+  }
+
+  async function apiRequest(operation, payload) {
+    const status = await remoteAiStatus();
+    if (!status.configured) throw Object.assign(new Error(status.reason || "DeepSeek 服务尚未配置"), { code: SERVICE_UNAVAILABLE, status });
+    const controller = new AbortController();
+    const timer = global.setTimeout(() => controller.abort(), 50000);
+    try {
+      const response = await fetch(`${API_ROOT}/${operation}`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify(payload || {}),
+        signal: controller.signal
+      });
+      const result = await response.json().catch(() => null);
+      if (!response.ok || !result?.ok) {
+        const error = new Error(result?.error?.message || `DeepSeek 服务返回 ${response.status}`);
+        error.code = result?.error?.code || "AI_REQUEST_FAILED";
+        throw error;
+      }
+      return result;
+    } catch (error) {
+      if (error?.name === "AbortError") throw Object.assign(new Error("DeepSeek 响应超时，请稍后再试"), { code: "AI_TIMEOUT" });
+      throw error;
+    } finally {
+      global.clearTimeout(timer);
+    }
+  }
+
+  function catalogPayload() {
+    return catalog.map(({ id, name }) => ({ id, name }));
+  }
+
+  async function runAi(operation, payload) {
+    try {
+      return await apiRequest(operation, payload);
+    } catch (error) {
+      return failure(error?.code || SERVICE_UNAVAILABLE, error?.message || "DeepSeek 服务暂时不可用");
+    }
+  }
+
+  async function recognizeIngredientPhoto(payload) {
+    const status = await remoteAiStatus();
+    if (!status.configured) return failure(SERVICE_UNAVAILABLE, status.reason || "DeepSeek 服务尚未配置", { capability: "vision" });
+    if (!status.capabilities?.vision) {
+      return failure("AI_CAPABILITY_UNAVAILABLE", "当前 DeepSeek 文本接口不支持照片输入；照片没有上传，需要另接视觉模型。", {
+        capability: "vision",
+        privacy: "not-uploaded"
+      });
+    }
+    return runAi("recognize-ingredient-photo", { ...payload, ingredientCatalog: catalogPayload() });
+  }
+
+  const services = {
+    SERVICE_UNAVAILABLE,
+    status: remoteAiStatus,
+    refreshStatus() {
+      return remoteAiStatus(true);
+    },
     ai: {
-      parseIngredients: function () {
-        return previewResult("ai.ingredientNlp", "自然语言食材录入将在第二阶段接入");
+      parseIngredients(payload) {
+        return runAi("parse-ingredients", { ...payload, ingredientCatalog: catalogPayload() });
       },
-      recognizeIngredientPhoto: function () {
-        return previewResult("ai.ingredientVision", "食材照片识别将在第二阶段接入；当前不会上传照片");
+      recognizeIngredientPhoto,
+      explainRecommendation(payload) {
+        return runAi("explain-recommendation", payload);
       },
-      explainRecommendation: function () {
-        return previewResult("ai.recommendationExplanation", "AI 深度解释将在第二阶段接入");
-      },
-      suggestSubstitutions: function () {
-        return previewResult("ai.substitutionSuggestion", "AI 替换建议将在第二阶段接入");
+      suggestSubstitutions(payload) {
+        return runAi("suggest-substitutions", { ...payload, ingredientCatalog: catalogPayload() });
       }
     },
     game: {
-      start: function () {
-        return previewResult("cooking.beginnerGame", "烹饪小游戏将在第三阶段实现");
-      }
-    },
-    account: {
-      login: function () {
-        return previewResult("account.login", "登录与云同步将在小程序阶段接入");
-      },
-      sync: function () {
-        return previewResult("cloud.sync", "当前数据仅保存在本机");
-      }
-    },
-    share: {
-      createRecipeCard: function () {
-        return previewResult("platform.wechatShare", "微信分享卡片将在小程序阶段接入");
+      start(payload) {
+        return Promise.resolve(success({ sessionId: `game-${Date.now()}`, recipeId: payload?.recipeId }, "browser"));
       }
     }
   };
-})(window);
 
+  global.YanhuoServices = services;
+  global.YanhuoFutureServices = services;
+})(window);

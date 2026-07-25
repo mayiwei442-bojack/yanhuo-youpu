@@ -1026,6 +1026,18 @@ img {
   font-size: 13px;
 }
 
+.feature-shortcut.enabled {
+  border-style: solid;
+  border-color: rgba(23, 63, 54, 0.28);
+  background: linear-gradient(145deg, rgba(255, 250, 240, 0.9), rgba(219, 229, 214, 0.7));
+  box-shadow: 0 10px 24px rgba(23, 63, 54, 0.07);
+}
+
+.feature-shortcut.enabled span::before {
+  content: "● ";
+  color: var(--good);
+}
+
 .ingredient-grid {
   display: grid;
   gap: 10px;
@@ -2060,18 +2072,18 @@ body.cooking-mode .app-shell {
   font: 700 9px/1 var(--mono);
 }
 
-.legacy-link {
-  display: flex;
-  min-height: 54px;
-  padding: 0 14px;
-  align-items: center;
-  justify-content: space-between;
-  color: var(--smoke);
-  border: 1px solid var(--line);
-  border-radius: 14px;
-  background: rgba(255, 250, 240, 0.55);
-  text-decoration: none;
-  font-size: 12px;
+.feature-row.enabled {
+  border-style: solid;
+  border-color: rgba(23, 63, 54, 0.24);
+  background: linear-gradient(135deg, rgba(255, 250, 240, 0.86), rgba(219, 229, 214, 0.55));
+}
+
+.feature-row.enabled .feature-icon {
+  background: var(--smoke);
+}
+
+.feature-row.enabled > b {
+  color: var(--good);
 }
 
 /* 空状态 */
@@ -2331,6 +2343,627 @@ body.cooking-mode .app-shell {
   image-rendering: pixelated;
 }
 
+/* 阶段二：AI 确认式交互 */
+.provider-row {
+  display: flex;
+  margin: 6px 42px 10px 0;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.provider-row > span:last-child {
+  color: var(--muted);
+  font-size: 9px;
+}
+
+.provider-badge {
+  display: inline-flex;
+  min-height: 24px;
+  padding: 0 9px;
+  align-items: center;
+  color: var(--smoke);
+  border: 1px solid rgba(23, 63, 54, 0.22);
+  border-radius: 999px;
+  background: rgba(219, 229, 214, 0.7);
+  font: 700 8px/1 var(--mono);
+  letter-spacing: 0.04em;
+}
+
+.provider-badge.ai-live {
+  color: var(--paper-light);
+  border-color: var(--smoke);
+  background: var(--smoke);
+}
+
+.ai-error-card {
+  display: grid;
+  padding: 16px;
+  gap: 8px;
+  border-left: 0;
+  border: 1px solid rgba(197, 77, 50, 0.24);
+  border-radius: 16px;
+  background:
+    linear-gradient(135deg, rgba(197, 77, 50, 0.11), rgba(227, 168, 51, 0.07)),
+    var(--paper);
+}
+
+.ai-error-card .ai-error-code {
+  width: max-content;
+  padding: 5px 8px;
+  color: var(--paper-light);
+  border-radius: 999px;
+  background: var(--cinnabar);
+  font: 700 8px/1 var(--mono);
+  letter-spacing: 0.08em;
+}
+
+.ai-error-card strong {
+  color: var(--smoke);
+  font-size: 12px;
+  line-height: 1.55;
+}
+
+.ai-error-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 10px;
+  line-height: 1.6;
+}
+
+.ai-input-label,
+.game-control-title {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--smoke);
+  font: 700 10px/1 var(--mono);
+  letter-spacing: 0.06em;
+}
+
+.ai-textarea {
+  width: 100%;
+  min-height: 112px;
+  padding: 14px;
+  resize: vertical;
+  color: var(--smoke);
+  border: 1px solid var(--line-strong);
+  border-radius: 16px;
+  outline: none;
+  background: var(--paper);
+  font: 14px/1.7 var(--body);
+}
+
+.ai-textarea:focus {
+  border-color: var(--cinnabar);
+  box-shadow: 0 0 0 3px rgba(198, 74, 45, 0.1);
+}
+
+.privacy-note {
+  display: grid;
+  margin: 13px 0;
+  padding: 12px 13px;
+  gap: 4px;
+  color: var(--muted);
+  border: 1px solid rgba(23, 63, 54, 0.14);
+  border-radius: 13px;
+  background: rgba(219, 229, 214, 0.38);
+  font-size: 10px;
+  line-height: 1.55;
+}
+
+.privacy-note b {
+  color: var(--smoke);
+}
+
+.ai-loading {
+  display: flex;
+  min-height: 115px;
+  padding: 20px;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 18px;
+  background: var(--smoke);
+}
+
+.ai-loading span {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--fire);
+  animation: ai-pulse 1.05s ease-in-out infinite alternate;
+}
+
+.ai-loading span:nth-child(2) { animation-delay: 0.18s; }
+.ai-loading span:nth-child(3) { animation-delay: 0.36s; }
+
+.ai-loading b {
+  width: 100%;
+  color: rgba(255, 255, 255, 0.68);
+  text-align: center;
+  font-size: 9px;
+}
+
+@keyframes ai-pulse {
+  to { opacity: 0.28; transform: translateY(-5px); }
+}
+
+.ai-candidate-list,
+.substitution-results,
+.substitution-picker {
+  display: grid;
+  gap: 8px;
+}
+
+.ai-candidate,
+.substitution-picker > button,
+.substitution-result {
+  display: grid;
+  min-height: 68px;
+  padding: 10px 12px;
+  grid-template-columns: 52px 1fr auto;
+  gap: 10px;
+  align-items: center;
+  text-align: left;
+  color: var(--smoke);
+  border: 1px solid var(--line);
+  border-radius: 15px;
+  background: var(--paper);
+}
+
+.ai-candidate {
+  cursor: pointer;
+  opacity: 0.62;
+}
+
+.ai-candidate.selected {
+  opacity: 1;
+  border-color: var(--smoke);
+  background: rgba(219, 229, 214, 0.52);
+}
+
+.ai-candidate img,
+.substitution-result img,
+.ai-candidate .custom-pixel,
+.substitution-result .custom-pixel {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  image-rendering: pixelated;
+}
+
+.ai-candidate span,
+.ai-candidate strong,
+.substitution-picker span,
+.substitution-picker strong,
+.substitution-result span,
+.substitution-result strong {
+  display: block;
+}
+
+.ai-candidate small,
+.substitution-picker small,
+.substitution-result small {
+  display: block;
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 9px;
+  line-height: 1.45;
+}
+
+.ai-candidate > b {
+  display: grid;
+  width: 28px;
+  height: 28px;
+  place-items: center;
+  color: white;
+  border-radius: 50%;
+  background: var(--smoke);
+}
+
+.photo-drop {
+  display: grid;
+  min-height: 220px;
+  padding: 18px;
+  gap: 8px;
+  place-items: center;
+  overflow: hidden;
+  color: var(--smoke);
+  text-align: center;
+  border: 1px dashed var(--line-strong);
+  border-radius: 20px;
+  background: var(--paper);
+  cursor: pointer;
+}
+
+.photo-drop.compact { min-height: 145px; }
+.photo-drop input { position: absolute; width: 1px; height: 1px; opacity: 0; }
+.photo-drop img { width: 100%; max-height: 280px; object-fit: contain; border-radius: 13px; }
+.photo-drop small { color: var(--muted); font-size: 9px; }
+
+.photo-mark {
+  display: grid;
+  width: 54px;
+  height: 54px;
+  place-items: center;
+  color: var(--paper-light);
+  border-radius: 16px 16px 16px 5px;
+  background: var(--cinnabar);
+  font: 700 24px/1 var(--display);
+}
+
+.ai-bullet-list {
+  display: grid;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
+  list-style: none;
+}
+
+.ai-bullet-list li {
+  padding: 11px 12px 11px 32px;
+  color: var(--smoke);
+  border-radius: 12px;
+  background: var(--paper);
+  font-size: 11px;
+  line-height: 1.55;
+}
+
+.ai-bullet-list li::before {
+  margin-left: -19px;
+  margin-right: 9px;
+  color: var(--cinnabar);
+  content: "谱";
+  font-weight: 700;
+}
+
+.substitution-picker > button {
+  min-height: 64px;
+  padding-left: 14px;
+  grid-template-columns: 1fr auto;
+  cursor: pointer;
+}
+
+.substitution-picker > button > b {
+  color: var(--cinnabar);
+  font-size: 10px;
+}
+
+.substitution-result {
+  grid-template-columns: 48px 1fr auto;
+}
+
+.substitution-result button {
+  min-height: 34px;
+  padding: 0 9px;
+  color: white;
+  border: 0;
+  border-radius: 999px;
+  background: var(--smoke);
+  cursor: pointer;
+  font-size: 9px;
+}
+
+.primary-button:disabled,
+.secondary-button:disabled,
+.ghost-button:disabled {
+  opacity: 0.42;
+  cursor: not-allowed;
+}
+
+/* 阶段三：无失败烹饪新手小游戏 */
+.game-page {
+  padding-bottom: 34px;
+  background:
+    radial-gradient(circle at 25% 25%, rgba(227, 168, 51, 0.17), transparent 24rem),
+    linear-gradient(135deg, #173f36, #0e2d27);
+}
+
+.game-layout {
+  display: grid;
+  max-width: 1060px;
+  margin: 0 auto;
+  padding: 0 16px;
+  gap: 12px;
+}
+
+.game-stage,
+.game-controls {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.06);
+  box-shadow: 0 24px 45px rgba(0, 0, 0, 0.14);
+}
+
+.game-stage {
+  position: relative;
+  min-height: 395px;
+  padding: 23px;
+  overflow: hidden;
+}
+
+.game-stage::after {
+  position: absolute;
+  right: -60px;
+  bottom: -90px;
+  width: 240px;
+  height: 240px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 50%;
+  content: "";
+  box-shadow: 0 0 0 38px rgba(255, 255, 255, 0.025);
+}
+
+.game-step-tag {
+  color: var(--fire);
+  font: 700 9px/1 var(--mono);
+  letter-spacing: 0.08em;
+}
+
+.game-stage h1 {
+  position: relative;
+  z-index: 1;
+  max-width: 680px;
+  margin: 12px 0 10px;
+  font: 700 clamp(27px, 6vw, 44px)/1.16 var(--display);
+  letter-spacing: -0.035em;
+}
+
+.game-feedback {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  max-width: 520px;
+  padding: 9px 12px;
+  color: var(--smoke);
+  border-radius: 12px 12px 12px 3px;
+  background: var(--paper-light);
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+.game-pan-wrap {
+  position: absolute;
+  right: 50%;
+  bottom: 40px;
+  width: 190px;
+  height: 150px;
+  transform: translateX(50%);
+}
+
+.game-pan {
+  position: absolute;
+  z-index: 2;
+  right: 16px;
+  bottom: 37px;
+  display: grid;
+  width: 148px;
+  height: 83px;
+  place-items: center;
+  color: var(--fire);
+  border: 10px solid #121d19;
+  border-radius: 50% 50% 44% 44%;
+  background: #2a3b34;
+  box-shadow: 0 13px 0 #101916, 0 23px 28px rgba(0, 0, 0, 0.32);
+  font: 700 34px/1 var(--display);
+}
+
+.game-pan::after {
+  position: absolute;
+  top: 27px;
+  right: -70px;
+  width: 72px;
+  height: 15px;
+  border-radius: 0 999px 999px 0;
+  background: #121d19;
+  content: "";
+}
+
+.game-burner {
+  position: absolute;
+  right: 25px;
+  bottom: 0;
+  display: flex;
+  width: 130px;
+  justify-content: center;
+  gap: 2px;
+}
+
+.game-burner i {
+  display: block;
+  width: 19px;
+  height: 34px;
+  border-radius: 50% 50% 45% 45%;
+  background: var(--fire);
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+}
+
+.game-burner.low i:nth-child(n+2),
+.game-burner.medium i:nth-child(3) { opacity: 0.2; }
+
+.game-steam {
+  position: absolute;
+  z-index: 1;
+  right: 52px;
+  bottom: 110px;
+  display: flex;
+  gap: 18px;
+}
+
+.game-steam i {
+  display: block;
+  width: 12px;
+  height: 42px;
+  border-left: 3px solid rgba(255, 255, 255, 0.32);
+  border-radius: 50%;
+  animation: steam-rise 1.5s ease-in-out infinite alternate;
+}
+
+.game-steam i:nth-child(2) { animation-delay: .32s; }
+.game-steam i:nth-child(3) { animation-delay: .65s; }
+
+@keyframes steam-rise {
+  to { opacity: 0.16; transform: translateY(-10px) rotate(8deg); }
+}
+
+.game-heat-label {
+  position: absolute;
+  z-index: 2;
+  right: 20px;
+  bottom: 18px;
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 9px;
+}
+
+.game-heat-label strong { color: var(--fire); }
+
+.game-controls {
+  padding: 17px;
+}
+
+.game-control-block + .game-control-block {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.11);
+}
+
+.game-controls .game-control-title { color: rgba(255, 255, 255, 0.7); }
+
+.game-heat-buttons,
+.game-action-grid {
+  display: grid;
+  gap: 7px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.game-heat-buttons button,
+.game-action-grid button {
+  min-height: 46px;
+  color: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  cursor: pointer;
+}
+
+.game-heat-buttons button.active,
+.game-action-grid button.suggested {
+  color: var(--smoke);
+  border-color: var(--fire);
+  background: var(--fire);
+}
+
+.game-ingredient-tray {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+}
+
+.game-tray-empty {
+  width: 100%;
+  min-height: 58px;
+  padding: 13px;
+  color: rgba(255, 255, 255, 0.58);
+  border: 1px dashed rgba(255, 255, 255, 0.16);
+  border-radius: 13px;
+  font-size: 9px;
+  line-height: 1.55;
+}
+
+.game-ingredient-tray button {
+  position: relative;
+  display: grid;
+  min-width: 82px;
+  min-height: 90px;
+  padding: 8px;
+  place-items: center;
+  color: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(255, 255, 255, 0.13);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.05);
+  cursor: pointer;
+  font-size: 9px;
+}
+
+.game-ingredient-tray button.ready {
+  color: var(--smoke);
+  border-color: var(--fire);
+  background: var(--paper-light);
+}
+
+.game-ingredient-tray img,
+.game-ingredient-tray .custom-pixel {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  image-rendering: pixelated;
+}
+
+.game-ingredient-tray button > b {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  display: grid;
+  width: 19px;
+  height: 19px;
+  place-items: center;
+  color: white;
+  border-radius: 50%;
+  background: var(--good);
+}
+
+.game-action-grid {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.game-action-grid button {
+  display: grid;
+  min-width: 0;
+  min-height: 64px;
+  padding: 7px 3px;
+  place-items: center;
+  gap: 4px;
+}
+
+.game-action-grid b { font: 700 22px/1 var(--display); }
+.game-action-grid span { font-size: 8px; }
+
+.game-complete-page {
+  display: grid;
+  padding: 35px 16px;
+  place-items: center;
+}
+
+.game-complete-card {
+  width: min(100%, 650px);
+  padding: 28px;
+  color: var(--ink);
+  text-align: center;
+  border-radius: 28px;
+  background: var(--paper-light);
+}
+
+.game-complete-card h1 {
+  margin: 12px 0;
+  color: var(--smoke);
+  font: 700 clamp(29px, 7vw, 45px)/1.15 var(--display);
+}
+
+.game-complete-card p { color: var(--smoke); font-size: 13px; }
+.game-complete-card small { color: var(--muted); }
+
+.game-score {
+  display: flex;
+  margin: 20px auto;
+  align-items: baseline;
+  justify-content: center;
+  gap: 8px;
+}
+
+.game-score strong { color: var(--cinnabar); font: 700 70px/.8 var(--mono); }
+.game-score span { color: var(--muted); font-size: 10px; }
+
 .stage-timeline {
   display: grid;
   gap: 9px;
@@ -2487,6 +3120,24 @@ body.cooking-mode .app-shell {
     padding: 38px;
   }
 
+  .game-layout {
+    grid-template-columns: minmax(0, 1.2fr) minmax(320px, 0.8fr);
+  }
+
+  .game-stage {
+    min-height: 570px;
+  }
+
+  .game-pan-wrap {
+    right: 44%;
+    bottom: 90px;
+    transform: scale(1.35) translateX(37%);
+  }
+
+  .game-controls {
+    align-self: stretch;
+  }
+
   .feature-shortcuts {
     max-width: 620px;
   }
@@ -2554,6 +3205,18 @@ body.cooking-mode .app-shell {
 
   .recommendation-card {
     grid-template-columns: 108px 1fr;
+  }
+
+  .game-action-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .game-stage {
+    min-height: 420px;
+  }
+
+  .game-pan-wrap {
+    transform: translateX(50%) scale(0.9);
   }
 }
 
