@@ -1,8 +1,8 @@
 # 烟火有谱｜联网 HTML 产品
 
-当前版本：**v1.2.0（DeepSeek API 版）**
+当前版本：**v1.3.0（DeepSeek API＋Vercel 适配版）**
 
-更新日期：2026-07-23
+更新日期：2026-07-27
 
 烟火有谱围绕两条主线工作：根据现有食材选菜谱，以及根据菜谱整理所需食材。智能文字录入、推荐解释和食材替换已经统一接入服务端 DeepSeek API，不再使用本机规则生成 AI 替代结果。
 
@@ -75,6 +75,8 @@ http://127.0.0.1:8787/api/ai/status
 
 纯静态托管、GitHub Pages、只发送 Zip 或直接双击 HTML 都不能安全提供公共 AI。
 
+Vercel 适配已经在 `codex/vercel-deployment` 分支完成：公开网页会构建到 `dist/`，静态页面与图片交给 Vercel CDN，`/api/ai/*` 由 Vercel Functions 运行。真实密钥只在 Vercel Project Settings 的 Environment Variables 中配置。
+
 ## 五、DeepSeek 接口设计
 
 默认模型：`deepseek-v4-flash`。
@@ -105,7 +107,11 @@ DeepSeek 使用 JSON Output 返回结构化结果。服务端会再次检查食�
 
 ```text
 index.html                         # 网页入口
-server.mjs                         # 静态服务、DeepSeek 代理与安全控制
+server.mjs                         # 本机静态服务与 DeepSeek 接口
+vercel.json                        # Vercel 构建、路由、缓存和安全响应头
+api/
+  ai/[operation].mjs              # Vercel DeepSeek 动态函数路由
+  healthz.mjs                     # Vercel 健康检查函数
 Dockerfile                         # 公网容器部署
 DEPLOYMENT.md                      # 部署说明
 .env.example                       # DeepSeek 环境变量示例
@@ -116,8 +122,11 @@ data/
 src/
   js/app.js                       # 页面和业务逻辑
   js/future-services.js           # DeepSeek 前端服务适配器
+  server/ai-service.mjs           # 本机与 Vercel 共用的 DeepSeek 服务逻辑
   styles/app.css                  # 响应式视觉样式
+tools/build_vercel_output.mjs      # 生成只含公开网页资源的 dist
 tools/test_html_demo.mjs           # 浏览器自动化验收
+tools/test_vercel_functions.mjs    # Vercel 函数、构建与密钥边界验收
 docs/
   中西餐菜品数据库_图片已补全.xlsx   # 菜谱数据源与图片对应表
 ```
@@ -134,7 +143,7 @@ docs/
 ## 九、验证
 
 ```powershell
-npm test
+npm run test:all
 ```
 
-自动化测试覆盖首页、食材篮、DeepSeek 文字录入、推荐解释、菜谱详情、采购清单、图文烹饪、新手小游戏、菜谱搜索和“我的”。DeepSeek 联网流程使用本地模拟服务器验证，不消耗真实 API 额度。
+自动化测试覆盖首页、食材篮、DeepSeek 文字录入、推荐解释、菜谱详情、采购清单、图文烹饪、新手小游戏、菜谱搜索和“我的”，并检查 Vercel 函数路由、公开构建边界、90 张原图、90 张缩略图及密钥泄露风险。DeepSeek 联网流程使用本地模拟服务器验证，不消耗真实 API 额度。

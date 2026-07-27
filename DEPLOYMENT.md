@@ -1,6 +1,6 @@
 # 烟火有谱｜DeepSeek 公网部署说明
 
-版本：v1.2.0
+版本：v1.3.0
 
 ## 为什么必须部署后端
 
@@ -65,6 +65,53 @@ npm start
 ```text
 GET /healthz
 ```
+
+## Vercel 预览部署
+
+当前 Vercel 适配在 `codex/vercel-deployment` 分支开发。首次上线建议先部署这个分支生成 Preview，完整验收后再合并到 `main`。
+
+### 项目结构
+
+```text
+GitHub 分支
+   → npm run build
+dist/ 静态网页与图片
+   → Vercel CDN
+api/ai/[operation].mjs
+   → Vercel Node.js Function
+   → DeepSeek API
+```
+
+`tools/build_vercel_output.mjs` 只把 `index.html`、`assets/`、`data/`、`src/js/` 和 `src/styles/` 放入 `dist/`。`.env`、`server.mjs`、`package.json` 和服务端源码不会成为公开静态文件。
+
+### Vercel 控制台设置
+
+1. 使用 GitHub 登录 Vercel，并导入私有仓库 `mayiwei442-bojack/yanhuo-youpu`。
+2. Production Branch 保持 `main`；`codex/vercel-deployment` 只生成 Preview。
+3. `vercel.json` 已声明构建命令 `npm run build` 和输出目录 `dist`，通常不需要在控制台重复填写。
+4. 在 Project Settings → Environment Variables 添加下列变量，并至少勾选 Preview：
+
+| 变量 | Preview 建议值 | 是否必需 |
+|---|---|---|
+| `DEEPSEEK_API_KEY` | 你的真实 DeepSeek Key | 是 |
+| `DEEPSEEK_MODEL` | `deepseek-v4-flash` | 建议 |
+| `AI_RATE_LIMIT_PER_MINUTE` | `30` | 建议 |
+| `AI_TIMEOUT_MS` | `45000` | 建议 |
+
+Vercel 会自动提供端口和代理环境，不要配置 `PORT`，也不需要手动设置 `VERCEL`。真实密钥不得写入 `vercel.json`、GitHub Actions、HTML 或前端 JavaScript。
+
+### Preview 验收
+
+部署成功后依次检查：
+
+```text
+GET https://你的预览网址/healthz
+GET https://你的预览网址/api/ai/status
+```
+
+随后在网页中测试一句话录入、推荐解释和食材替换。三项功能都通过后，才把 `codex/vercel-deployment` 合并到 `main`。
+
+当前每 IP 限流使用函数实例内存，只是基础费用保护；Vercel 多实例之间不会共享计数。正式扩大访问量前，应改用 Vercel Firewall Rate Limiting 或持久化限流服务。
 
 ## Docker 部署
 
