@@ -18,7 +18,8 @@ const server = createServer(async (request, response) => {
   if (request.method === "GET" && request.url === "/healthz") return json(response, 200, { ok: true });
   if (request.method === "GET" && request.url === "/requests") return json(response, 200, { requests });
   if (request.method !== "POST" || request.url !== "/chat/completions") return json(response, 404, { error: { message: "Not found" } });
-  if (request.headers.authorization !== "Bearer test-deepseek-key") return json(response, 401, { error: { message: "Invalid test key" } });
+  const allowedKeys = new Set(["Bearer test-deepseek-key", "Bearer test-qwen-key"]);
+  if (!allowedKeys.has(request.headers.authorization)) return json(response, 401, { error: { message: "Invalid test key" } });
 
   const body = await readJson(request);
   requests.push(body);
@@ -45,6 +46,14 @@ const server = createServer(async (request, response) => {
         { ingredientId: "eggplant", name: "茄子", type: "texture", note: "可以提供柔软口感，但风味和传统做法会明显变化。" }
       ],
       note: "替换后请按实际使用配料重新检查过敏原和忌口。"
+    };
+  } else if (system.includes("厨房食材照片识别助手")) {
+    result = {
+      ingredients: [
+        { name: "番茄", canonicalId: "tomato", quantity: 2, unit: "个", confidence: 0.93 },
+        { name: "鸡蛋", canonicalId: "eggs", quantity: null, unit: "份", confidence: 0.88 }
+      ],
+      needsConfirmation: true
     };
   } else {
     return json(response, 400, { error: { message: "Unknown test prompt" } });

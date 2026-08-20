@@ -1,8 +1,11 @@
 const DEFAULT_MODEL = "deepseek-v4-flash";
 const DEFAULT_BASE_URL = "https://api.deepseek.com";
+const DEFAULT_QWEN_VISION_MODEL = "qwen-vl-max";
+const DEFAULT_QWEN_VISION_BASE_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1";
 const DEFAULT_RATE_LIMIT = 30;
 const DEFAULT_TIMEOUT_MS = 45000;
-const MAX_BODY_BYTES = 1024 * 1024;
+// 照片识别需要携带压缩后的 base64 图片，正文上限比纯文本接口放宽到 2MB
+const MAX_BODY_BYTES = 2 * 1024 * 1024;
 
 function environmentFlag(value, fallback = false) {
   if (value === undefined || value === null || value === "") return fallback;
@@ -36,6 +39,9 @@ export function createAiService(environment = process.env) {
   const deepseekApiKey = environment.DEEPSEEK_API_KEY || "";
   const deepseekModel = environment.DEEPSEEK_MODEL || DEFAULT_MODEL;
   const deepseekBaseUrl = String(environment.DEEPSEEK_BASE_URL || DEFAULT_BASE_URL).replace(/\/+$/, "");
+  const qwenApiKey = environment.QWEN_API_KEY || "";
+  const qwenVisionModel = environment.QWEN_VISION_MODEL || DEFAULT_QWEN_VISION_MODEL;
+  const qwenVisionBaseUrl = String(environment.QWEN_VISION_BASE_URL || DEFAULT_QWEN_VISION_BASE_URL).replace(/\/+$/, "");
   const trustProxy = environmentFlag(environment.TRUST_PROXY, environmentFlag(environment.VERCEL));
   const rateLimitPerMinute = Math.max(1, Number(environment.AI_RATE_LIMIT_PER_MINUTE || DEFAULT_RATE_LIMIT));
   const requestTimeoutMs = Math.max(5000, Number(environment.AI_TIMEOUT_MS || DEFAULT_TIMEOUT_MS));
@@ -92,7 +98,7 @@ export function createAiService(environment = process.env) {
   async function readJson(request) {
     if (request?.body !== undefined) {
       if (requestBodySize(request.body) > MAX_BODY_BYTES) {
-        throw Object.assign(new Error("请求内容超过 1MB"), { status: 413, code: "BODY_TOO_LARGE" });
+        throw Object.assign(new Error("请求内容超过 2MB"), { status: 413, code: "BODY_TOO_LARGE" });
       }
       return parseJsonValue(request.body);
     }
@@ -102,7 +108,7 @@ export function createAiService(environment = process.env) {
     for await (const chunk of request) {
       size += chunk.length;
       if (size > MAX_BODY_BYTES) {
-        throw Object.assign(new Error("请求内容超过 1MB"), { status: 413, code: "BODY_TOO_LARGE" });
+        throw Object.assign(new Error("请求内容超过 2MB"), { status: 413, code: "BODY_TOO_LARGE" });
       }
       chunks.push(chunk);
     }
@@ -293,6 +299,76 @@ export function createAiService(environment = process.env) {
     }
   }
 
+  function parseModelJson(output) {
+    const candidates = [String(output), String(output).match(/\{[\s\S]*\}/)?.[0]];
+    for (const candidate of candidates) {
+      if (!candidate) continue;
+      try {
+        return JSON.parse(candidate);
+      } catch (_error) {
+        // 继续尝试下一种提取方式
+      }
+    }
+    throw Object.assign(new Error("通义千问返回内容不是有效 JSON"), { code: "AI_INVALID_RESPONSE", status: 502 });
+  }
+
+  async function callQwenVision({ systemPrompt, userText, imageDataUrl, maxTokens = 1200 }) {
+    if (!qwenApiKey) {
+      throw Object.assign(new Error("服务端尚未设置 QWEN_API_KEY"), { code: "AI_NOT_CONFIGURED", status: 503 });
+    }
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), requestTimeoutMs);
+    try {
+      const apiResponse = await fetch(`${qwenVisionBaseUrl}/chat/completions`, {
+        method: "POST",
+        headers: {
+          Authorization: `Bearer ${qwenApiKey}`,
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          model: qwenVisionModel,
+          messages: [
+            { role: "system", content: `${systemPrompt}\n必须只输出一个合法 JSON 对象，不要使用 Markdown。` },
+            {
+              role: "user",
+              content: [
+                { type: "image_url", image_url: { url: imageDataUrl } },
+                { type: "text", text: userText }
+              ]
+            }
+          ],
+          max_tokens: maxTokens,
+          stream: false
+        }),
+        signal: controller.signal
+      });
+      const responseBody = await apiResponse.json().catch(() => null);
+      if (!apiResponse.ok) {
+        const providerMessage = responseBody?.error?.message || `通义千问视觉 API 返回 ${apiResponse.status}`;
+        const mapped = apiResponse.status === 401
+          ? { code: "AI_AUTH_FAILED", status: 502, message: "通义千问 API Key 无效，请检查服务器环境变量" }
+          : apiResponse.status === 402
+            ? { code: "AI_BALANCE_INSUFFICIENT", status: 502, message: "阿里云百炼额度不足，请检查计费后重试" }
+            : apiResponse.status === 429
+              ? { code: "AI_RATE_LIMITED", status: 429, message: "通义千问请求过于频繁，请稍后再试" }
+              : apiResponse.status >= 500
+                ? { code: "AI_PROVIDER_UNAVAILABLE", status: 502, message: "通义千问服务暂时不可用，请稍后再试" }
+                : { code: "AI_PROVIDER_ERROR", status: 502, message: providerMessage };
+        throw Object.assign(new Error(mapped.message), { code: mapped.code, status: mapped.status });
+      }
+      const output = responseBody?.choices?.[0]?.message?.content;
+      if (!output) throw Object.assign(new Error("通义千问没有返回可读取内容"), { code: "AI_EMPTY_RESPONSE", status: 502 });
+      return { data: parseModelJson(output), usage: responseBody?.usage || null };
+    } catch (error) {
+      if (error?.name === "AbortError") {
+        throw Object.assign(new Error("通义千问响应超时，请稍后再试"), { code: "AI_TIMEOUT", status: 504 });
+      }
+      throw error;
+    } finally {
+      clearTimeout(timer);
+    }
+  }
+
   async function handleAi(request, response, operation) {
     if (!originAllowed(request)) {
       return sendServiceError(response, "ORIGIN_NOT_ALLOWED", "只允许同源网页调用 AI 服务", 403);
@@ -312,35 +388,43 @@ export function createAiService(environment = process.env) {
         { ...rateHeaders, "Retry-After": String(limit.retryAfter) }
       );
     }
-    if (!deepseekApiKey) {
+    const isVisionOperation = operation === "recognize-ingredient-photo";
+    if (isVisionOperation ? !qwenApiKey : !deepseekApiKey) {
       return sendServiceError(
         response,
         "AI_NOT_CONFIGURED",
-        "服务端尚未配置 DEEPSEEK_API_KEY；不会使用本机规则伪造 AI 结果。",
+        isVisionOperation
+          ? "服务端尚未配置 QWEN_API_KEY；照片没有上传，不会使用本机规则伪造识别结果。"
+          : "服务端尚未配置 DEEPSEEK_API_KEY；不会使用本机规则伪造 AI 结果。",
         503,
         {},
-        rateHeaders
-      );
-    }
-    if (operation === "recognize-ingredient-photo") {
-      return sendServiceError(
-        response,
-        "AI_CAPABILITY_UNAVAILABLE",
-        "当前 DeepSeek Chat Completions 为文本输入，照片识别需要另接视觉模型。",
-        501,
-        { capability: "vision", supported: false },
         rateHeaders
       );
     }
 
     const body = await readJson(request);
     const catalog = cleanCatalog(body.ingredientCatalog);
-    if (!catalog.length && ["parse-ingredients", "suggest-substitutions"].includes(operation)) {
+    if (!catalog.length && ["parse-ingredients", "suggest-substitutions", "recognize-ingredient-photo"].includes(operation)) {
       return sendServiceError(response, "CATALOG_REQUIRED", "食材目录不能为空", 400, {}, rateHeaders);
     }
 
     let result;
-    if (operation === "parse-ingredients") {
+    if (operation === "recognize-ingredient-photo") {
+      const imageDataUrl = String(body.imageDataUrl || "");
+      if (!/^data:image\/(png|jpe?g|webp);base64,/.test(imageDataUrl)) {
+        return sendServiceError(response, "INVALID_IMAGE", "请上传 PNG、JPEG 或 WebP 格式的照片", 400, {}, rateHeaders);
+      }
+      const visionResponse = await callQwenVision({
+        systemPrompt: "你是厨房食材照片识别助手。只识别照片中清晰可见、可食用的食材；被遮挡、模糊或无法确认的物品不要返回，也不要推断照片外的食材。canonicalId 必须从目录选择；无法对应到目录的食材不要返回。输出 JSON 格式：{\"ingredients\":[{\"name\":\"番茄\",\"canonicalId\":\"tomato\",\"quantity\":2,\"unit\":\"个\",\"confidence\":0.92}],\"needsConfirmation\":true}。数量无法判断时 quantity 填 null。",
+        userText: `食材目录：${JSON.stringify(catalog)}\n请识别照片中可见的食材。`,
+        imageDataUrl
+      });
+      const sanitized = sanitizeIngredients(visionResponse.data, catalog);
+      result = {
+        data: { candidates: sanitized.ingredients, needsConfirmation: sanitized.needsConfirmation },
+        usage: visionResponse.usage
+      };
+    } else if (operation === "parse-ingredients") {
       const input = text(body.text, 500).trim();
       if (!input) return sendServiceError(response, "EMPTY_INPUT", "请先输入食材描述", 400, {}, rateHeaders);
       const deepseekResponse = await callDeepSeek({
@@ -387,8 +471,8 @@ export function createAiService(environment = process.env) {
       data: result.data,
       error: null,
       meta: {
-        provider: "deepseek",
-        model: deepseekModel,
+        provider: isVisionOperation ? "qwen-vision" : "deepseek",
+        model: isVisionOperation ? qwenVisionModel : deepseekModel,
         fallback: false,
         usage: result.usage
       }
@@ -407,7 +491,8 @@ export function createAiService(environment = process.env) {
             configured: Boolean(deepseekApiKey),
             provider: "deepseek",
             model: deepseekApiKey ? deepseekModel : null,
-            capabilities: { text: true, vision: false },
+            visionModel: qwenApiKey ? qwenVisionModel : null,
+            capabilities: { text: Boolean(deepseekApiKey), vision: Boolean(qwenApiKey) },
             deploymentRequired: true
           },
           error: null,
@@ -431,13 +516,16 @@ export function createAiService(environment = process.env) {
       ok: true,
       service: "yanhuo-youpu",
       runtime: environmentFlag(environment.VERCEL) ? "vercel" : "node",
-      aiConfigured: Boolean(deepseekApiKey)
+      aiConfigured: Boolean(deepseekApiKey),
+      visionConfigured: Boolean(qwenApiKey)
     });
   }
 
   return {
     configured: Boolean(deepseekApiKey),
     model: deepseekModel,
+    visionConfigured: Boolean(qwenApiKey),
+    visionModel: qwenVisionModel,
     securityHeaders,
     sendJson,
     sendServiceError,

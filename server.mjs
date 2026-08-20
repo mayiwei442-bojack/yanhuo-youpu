@@ -95,6 +95,7 @@ const server = createServer(async (request, response) => {
 server.listen(port, "0.0.0.0", () => {
   console.log(`烟火有谱已启动：http://127.0.0.1:${port}`);
   console.log(aiService.configured ? `DeepSeek 已配置：${aiService.model}` : "DeepSeek 未配置：AI 功能会明确不可用，不回退本机规则");
+  console.log(aiService.visionConfigured ? `通义千问视觉已配置：${aiService.visionModel}` : "通义千问视觉未配置：照片识别会明确不可用，不上传照片");
 });
 
 function closeServer() {

@@ -40,9 +40,9 @@
       fallback: "pantry"
     },
     "ai.ingredientVision": {
-      title: "食材照片识别待接视觉模型",
-      description: "DeepSeek 负责文字理解、推荐解释和替换建议；照片识别需要另接支持图像输入的模型。",
-      limitation: "当前 DeepSeek Chat Completions 是文本输入，本产品不会把照片错误发送给不支持视觉的接口。",
+      title: "食材照片识别",
+      description: "通义千问视觉模型识别照片中的食材，DeepSeek 负责文字理解、推荐解释和替换建议。",
+      limitation: "识别结果必须逐项确认后才会加入食材篮；服务端未配置视觉模型时会明确提示，照片不会上传。",
       fallbackLabel: "从食材库选择",
       fallback: "pantry"
     },
@@ -418,7 +418,7 @@
         <button class="status-ribbon" type="button" data-action="open-stage-map">
           <span>
             <strong>联网产品能力持续接入</strong>
-            <small>DeepSeek 智能录入、解释和替换已接服务端，小游戏与数据能力可用</small>
+            <small>DeepSeek 录入、解释、替换与通义千问拍照识别已接服务端，小游戏与数据能力可用</small>
           </span>
           <span class="stage-tag">查看能力图</span>
         </button>
@@ -467,8 +467,8 @@
             <span>阶段二 · DeepSeek AI</span>
             <strong>用一句话录入食材</strong>
           </button>
-          <button class="feature-shortcut" type="button" data-action="feature-preview" data-feature="ai.ingredientVision">
-            <span>阶段二 · 待视觉模型</span>
+          <button class="feature-shortcut enabled" type="button" data-action="open-ai-photo">
+            <span>阶段二 · 通义千问视觉</span>
             <strong>拍照识别桌面食材</strong>
           </button>
         </div>
@@ -1427,6 +1427,7 @@
 
   function providerBadge(meta) {
     if (meta?.provider === "deepseek") return `<span class="provider-badge ai-live">DeepSeek · ${esc(meta.model || "服务端 AI")}</span>`;
+    if (meta?.provider === "qwen-vision") return `<span class="provider-badge ai-live">通义千问视觉 · ${esc(meta.model || "服务端 AI")}</span>`;
     return `<span class="provider-badge">服务端 AI</span>`;
   }
 
@@ -1586,32 +1587,55 @@
         ${pendingPhotoDataUrl ? `<img src="${pendingPhotoDataUrl}" alt="待识别食材照片"><span>${esc(pendingPhotoName)}</span>` : `<span class="photo-mark">照</span><strong>选择或拍摄照片</strong><small>PNG、JPEG、WebP，最大 5MB</small>`}
         <input id="ai-photo-file" type="file" accept="image/png,image/jpeg,image/webp" capture="environment">
       </label>
-      <div class="privacy-note"><b>照片用途</b><span>仅用于本次食材候选识别，不写入本地历史；关闭弹层即清除预览。服务端不记录请求正文。</span></div>
+      <div class="privacy-note"><b>照片用途</b><span>仅用于本次食材候选识别；照片在本机压缩后上传，不写入本地历史，关闭弹层即清除预览。服务端不记录请求正文。</span></div>
       <div class="sheet-actions"><button class="primary-button fire" type="button" data-action="recognize-ai-photo" ${pendingPhotoDataUrl ? "" : "disabled"}>开始识别</button><button class="ghost-button" type="button" data-action="close-sheet">取消</button></div>
     `);
+  }
+
+  function compressImageFile(file) {
+    return new Promise((resolvePromise, rejectPromise) => {
+      const objectUrl = URL.createObjectURL(file);
+      const image = new Image();
+      image.onload = () => {
+        URL.revokeObjectURL(objectUrl);
+        const maxSide = 1280;
+        const scale = Math.min(1, maxSide / Math.max(image.width, image.height));
+        const canvas = document.createElement("canvas");
+        canvas.width = Math.max(1, Math.round(image.width * scale));
+        canvas.height = Math.max(1, Math.round(image.height * scale));
+        canvas.getContext("2d").drawImage(image, 0, 0, canvas.width, canvas.height);
+        resolvePromise(canvas.toDataURL("image/jpeg", 0.82));
+      };
+      image.onerror = () => {
+        URL.revokeObjectURL(objectUrl);
+        rejectPromise(new Error("图片无法读取"));
+      };
+      image.src = objectUrl;
+    });
   }
 
   function handlePhotoSelection(file) {
     if (!file) return;
     if (!/^image\/(png|jpeg|webp)$/i.test(file.type)) return showToast("请选择 PNG、JPEG 或 WebP 图片");
     if (file.size > 5 * 1024 * 1024) return showToast("图片不能超过 5MB");
-    const reader = new FileReader();
-    reader.onload = () => {
-      pendingPhotoDataUrl = String(reader.result || "");
-      pendingPhotoName = file.name;
-      renderAiPhotoSheet();
-    };
-    reader.readAsDataURL(file);
+    compressImageFile(file)
+      .then((dataUrl) => {
+        pendingPhotoDataUrl = dataUrl;
+        pendingPhotoName = file.name;
+        renderAiPhotoSheet();
+      })
+      .catch(() => showToast("图片无法读取，请换一张照片"));
   }
 
   async function recognizeAiPhoto() {
     if (!pendingPhotoDataUrl) return showToast("请先选择照片");
-    pendingAiRetry = null;
-    showAiLoading("正在识别照片", "照片只发送给本机配置的服务端 AI；未配置时不会上传。");
+    pendingAiRetry = () => recognizeAiPhoto();
+    showAiLoading("正在识别照片", "照片先在本机压缩，再发送给你配置的烟火有谱服务端，由通义千问视觉模型识别。");
     const result = await services.ai?.recognizeIngredientPhoto?.({ imageDataUrl: pendingPhotoDataUrl, locale: "zh-CN" });
+    if (!result?.ok) return showAiError("照片识别没有完成", result?.error, { fallbackAction: "close-sheet", fallbackLabel: "返回食材篮" });
+    pendingAiRetry = null;
     pendingPhotoDataUrl = "";
     pendingPhotoName = "";
-    if (!result?.ok) return showAiError("照片识别服务尚未配置", result?.error, { retry: false, fallbackAction: "close-sheet", fallbackLabel: "返回食材篮" });
     showAiCandidates("确认照片中的食材", result.data.candidates || [], result.meta, "photo");
   }
 
@@ -1727,9 +1751,9 @@
       <p class="sheet-lead">新增能力仍然服务于“根据食材选菜谱”和“根据菜谱选食材”，不会变成独立聊天栏目。</p>
       <div class="stage-timeline">
         <div class="stage-line current"><b>01</b><span><strong>HTML 核心产品</strong><span>找菜、配料、清单、图文烹饪与本地保存</span></span><b>完成</b></div>
-        <div class="stage-line current"><b>02</b><span><strong>DeepSeek 联网能力</strong><span>文字录入、推荐解释和替换统一走服务端 AI；照片识别等待视觉模型</span></span><b>已接入</b></div>
+        <div class="stage-line current"><b>02</b><span><strong>DeepSeek 联网能力</strong><span>文字录入、推荐解释和替换走 DeepSeek；照片识别由通义千问视觉模型完成</span></span><b>已接入</b></div>
         <div class="stage-line current"><b>03</b><span><strong>互动与数据能力</strong><span>烹饪小游戏、系统分享、数据备份已开放</span></span><b>可体验</b></div>
-        <div class="stage-line"><b>网</b><span><strong>公网部署</strong><span>让其他设备使用 AI 必须部署网页与服务端，并在服务器设置 DeepSeek 密钥</span></span><b>待上线</b></div>
+        <div class="stage-line"><b>网</b><span><strong>公网部署</strong><span>让其他设备使用 AI 必须部署网页与服务端，并在服务器设置 DeepSeek 与通义千问密钥</span></span><b>待上线</b></div>
         <div class="stage-line"><b>微</b><span><strong>微信平台接入</strong><span>登录、云同步和正式小程序仍需 AppID、云环境与审核配置</span></span><b>待配置</b></div>
       </div>
       <div class="sheet-actions"><button class="primary-button" type="button" data-action="close-sheet">继续体验</button></div>

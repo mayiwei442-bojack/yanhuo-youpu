@@ -62,9 +62,15 @@
     return remoteStatusPromise;
   }
 
-  async function apiRequest(operation, payload) {
+  async function apiRequest(operation, payload, capability = "text") {
     const status = await remoteAiStatus();
-    if (!status.configured) throw Object.assign(new Error(status.reason || "DeepSeek 服务尚未配置"), { code: SERVICE_UNAVAILABLE, status });
+    const ready = capability === "vision" ? Boolean(status.capabilities?.vision) : status.configured;
+    if (!ready) {
+      const reason = capability === "vision"
+        ? "服务端尚未配置通义千问视觉模型"
+        : status.reason || "DeepSeek 服务尚未配置";
+      throw Object.assign(new Error(reason), { code: SERVICE_UNAVAILABLE, status });
+    }
     const controller = new AbortController();
     const timer = global.setTimeout(() => controller.abort(), 50000);
     try {
@@ -82,7 +88,7 @@
       }
       return result;
     } catch (error) {
-      if (error?.name === "AbortError") throw Object.assign(new Error("DeepSeek 响应超时，请稍后再试"), { code: "AI_TIMEOUT" });
+      if (error?.name === "AbortError") throw Object.assign(new Error("AI 服务响应超时，请稍后再试"), { code: "AI_TIMEOUT" });
       throw error;
     } finally {
       global.clearTimeout(timer);
@@ -93,24 +99,23 @@
     return catalog.map(({ id, name }) => ({ id, name }));
   }
 
-  async function runAi(operation, payload) {
+  async function runAi(operation, payload, capability) {
     try {
-      return await apiRequest(operation, payload);
+      return await apiRequest(operation, payload, capability);
     } catch (error) {
-      return failure(error?.code || SERVICE_UNAVAILABLE, error?.message || "DeepSeek 服务暂时不可用");
+      return failure(error?.code || SERVICE_UNAVAILABLE, error?.message || "AI 服务暂时不可用");
     }
   }
 
   async function recognizeIngredientPhoto(payload) {
     const status = await remoteAiStatus();
-    if (!status.configured) return failure(SERVICE_UNAVAILABLE, status.reason || "DeepSeek 服务尚未配置", { capability: "vision" });
     if (!status.capabilities?.vision) {
-      return failure("AI_CAPABILITY_UNAVAILABLE", "当前 DeepSeek 文本接口不支持照片输入；照片没有上传，需要另接视觉模型。", {
+      return failure("AI_CAPABILITY_UNAVAILABLE", "服务端尚未配置通义千问视觉模型；照片没有上传。", {
         capability: "vision",
         privacy: "not-uploaded"
       });
     }
-    return runAi("recognize-ingredient-photo", { ...payload, ingredientCatalog: catalogPayload() });
+    return runAi("recognize-ingredient-photo", { ...payload, ingredientCatalog: catalogPayload() }, "vision");
   }
 
   const services = {

@@ -8,7 +8,7 @@ window.YANHUO_FEATURES = {
   "cooking.graphicTutorial": { phase: 1, status: "enabled" },
   "cooking.douyinSearch": { phase: 1, status: "enabled", fallback: "copy-search-query" },
   "ai.ingredientNlp": { phase: 2, status: "enabled", requires: "deepseek-server-api", fallback: null },
-  "ai.ingredientVision": { phase: 2, status: "preview", requires: "vision-capable-server-api", fallback: "manual-ingredient-selection" },
+  "ai.ingredientVision": { phase: 2, status: "enabled", requires: "qwen-vision-server-api", fallback: null },
   "ai.recommendationExplanation": { phase: 2, status: "enabled", requires: "deepseek-server-api", fallback: null },
   "ai.substitutionSuggestion": { phase: 2, status: "enabled", requires: "deepseek-server-api", fallback: null },
   "cooking.beginnerGame": { phase: 3, status: "enabled", fallback: "graphic-tutorial" },

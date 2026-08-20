@@ -26,3 +26,5 @@ desktop.ini
 .env.*
 !.env.example
 *.log
+.vercel
+.env*

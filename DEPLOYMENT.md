@@ -1,22 +1,22 @@
-# 烟火有谱｜DeepSeek 公网部署说明
+# 烟火有谱｜DeepSeek 与通义千问视觉公网部署说明
 
-版本：v1.3.0
+版本：v1.4.0
 
 ## 为什么必须部署后端
 
-一句话录入、推荐解释和食材替换现在全部调用 DeepSeek API，不再使用本机规则生成替代结果。
+一句话录入、推荐解释和食材替换调用 DeepSeek API，拍照识别食材调用通义千问视觉模型，都不再使用本机规则生成替代结果。
 
-访问者不需要自己的 DeepSeek 密钥，但必须通过你部署的网址访问：
+访问者不需要自己的 API 密钥，但必须通过你部署的网址访问：
 
 ```text
 用户浏览器
    ↓ 同源 /api/ai/*
 烟火有谱 Node 服务
-   ↓ 服务端 DEEPSEEK_API_KEY
-DeepSeek API
+   ↓ 服务端 DEEPSEEK_API_KEY / QWEN_API_KEY
+DeepSeek API / 通义千问视觉 API
 ```
 
-不能把 `DEEPSEEK_API_KEY` 写进 HTML、前端 JavaScript 或公开 GitHub 仓库。只发送 Zip 或使用纯静态托管时，AI 功能会明确不可用。
+不能把 `DEEPSEEK_API_KEY` 或 `QWEN_API_KEY` 写进 HTML、前端 JavaScript 或公开 GitHub 仓库。只发送 Zip 或使用纯静态托管时，AI 功能会明确不可用。
 
 ## 必需环境变量
 
@@ -24,12 +24,14 @@ DeepSeek API
 |---|---|---|
 | `DEEPSEEK_API_KEY` | `sk-...` | 必填，只放在部署平台的 Secret/Environment 设置中 |
 | `DEEPSEEK_MODEL` | `deepseek-v4-flash` | 默认模型，适合常规结构化任务 |
+| `QWEN_API_KEY` | `sk-...` | 拍照识别必填（阿里云百炼 DashScope 密钥）；不配置时照片识别明确不可用 |
+| `QWEN_VISION_MODEL` | `qwen-vl-max` | 视觉模型，默认即可 |
 | `PORT` | `8787` | 多数平台会自动注入 |
 | `AI_RATE_LIMIT_PER_MINUTE` | `30` | 单 IP 每分钟 AI 请求上限 |
-| `AI_TIMEOUT_MS` | `45000` | DeepSeek 请求超时 |
+| `AI_TIMEOUT_MS` | `45000` | DeepSeek 与通义千问请求超时 |
 | `TRUST_PROXY` | `true` | 仅在可信反向代理平台上开启 |
 
-不要在部署环境设置自定义 `DEEPSEEK_BASE_URL`，除非你明确使用可信代理。生产环境默认使用 `https://api.deepseek.com`。
+不要在部署环境设置自定义 `DEEPSEEK_BASE_URL` 或 `QWEN_VISION_BASE_URL`，除非你明确使用可信代理。生产环境默认使用 `https://api.deepseek.com` 和 `https://dashscope.aliyuncs.com/compatible-mode/v1`。
 
 ## 本机联网测试
 
@@ -95,6 +97,8 @@ api/ai/[operation].mjs
 |---|---|---|
 | `DEEPSEEK_API_KEY` | 你的真实 DeepSeek Key | 是 |
 | `DEEPSEEK_MODEL` | `deepseek-v4-flash` | 建议 |
+| `QWEN_API_KEY` | 你的真实阿里云百炼 Key | 拍照识别必需 |
+| `QWEN_VISION_MODEL` | `qwen-vl-max` | 建议 |
 | `AI_RATE_LIMIT_PER_MINUTE` | `30` | 建议 |
 | `AI_TIMEOUT_MS` | `45000` | 建议 |
 
@@ -135,15 +139,17 @@ docker run --rm -p 8787:8787 --env-file .env yanhuo-youpu
 - `POST /api/ai/parse-ingredients`
 - `POST /api/ai/explain-recommendation`
 - `POST /api/ai/suggest-substitutions`
+- `POST /api/ai/recognize-ingredient-photo`
 
-照片识别目前不走 DeepSeek。当前接口会返回明确的 `AI_CAPABILITY_UNAVAILABLE`，照片不会上传。后续需要另外接入支持图像输入的视觉模型。
+前三项文本能力由 DeepSeek 提供；照片识别由通义千问视觉模型提供，照片先在浏览器本机压缩（最长边 1280 像素）再上传，识别结果必须逐项确认后才会加入食材篮。未配置 `QWEN_API_KEY` 时该接口返回明确错误，照片不会上传。
 
 ## 上线前检查
 
 - DeepSeek 账户有可用余额。
+- 阿里云百炼账户已开通通义千问视觉模型（拍照识别需要）。
 - 密钥只存在部署平台 Secret 中。
 - 网址使用 HTTPS。
-- `/api/ai/status` 显示 DeepSeek 已配置。
-- 连续测试一句话录入、推荐解释和替换建议。
+- `/api/ai/status` 显示 DeepSeek 已配置，`capabilities.vision` 为 `true`。
+- 连续测试一句话录入、推荐解释、替换建议和拍照识别。
 - 根据真实访问量调整限流和费用告警。
 - 不把 `.env`、日志或用户输入提交到 Git。

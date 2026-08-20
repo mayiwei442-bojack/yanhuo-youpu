@@ -102,6 +102,9 @@ try {
   process.env.DEEPSEEK_API_KEY = "test-deepseek-key";
   process.env.DEEPSEEK_MODEL = "deepseek-v4-flash";
   process.env.DEEPSEEK_BASE_URL = `http://127.0.0.1:${mockPort}`;
+  process.env.QWEN_API_KEY = "test-qwen-key";
+  process.env.QWEN_VISION_MODEL = "qwen-vl-max-test";
+  process.env.QWEN_VISION_BASE_URL = `http://127.0.0.1:${mockPort}`;
   process.env.AI_RATE_LIMIT_PER_MINUTE = "50";
 
   const [{ default: aiHandler }, { default: healthHandler }] = await Promise.all([
@@ -113,11 +116,14 @@ try {
   assert(health.response.statusCode === 200, "Vercel 健康检查失败");
   assert(health.json.runtime === "vercel", "健康检查没有识别 Vercel 运行环境");
   assert(health.json.aiConfigured === true, "健康检查没有识别 DeepSeek 配置");
+  assert(health.json.visionConfigured === true, "健康检查没有识别通义千问视觉配置");
 
   const status = await invoke(aiHandler, { operation: "status", method: "GET" });
   assert(status.response.statusCode === 200, "Vercel AI 状态接口失败");
   assert(status.json.data?.configured === true, "Vercel AI 状态未显示已配置");
   assert(status.json.data?.model === "deepseek-v4-flash", "Vercel AI 状态模型不正确");
+  assert(status.json.data?.capabilities?.vision === true, "Vercel AI 状态未声明视觉能力");
+  assert(status.json.data?.visionModel === "qwen-vl-max-test", "Vercel AI 状态视觉模型不正确");
 
   const ingredientCatalog = [
     { id: "tomato", name: "番茄" },
@@ -151,6 +157,46 @@ try {
   assert(substitutions.response.statusCode === 200, `Vercel 食材替换失败：${substitutions.response.body}`);
   assert(substitutions.json.data?.suggestions?.[0]?.ingredientId === "eggplant", "Vercel 食材替换结果未通过目录校验");
 
+  const photo = await invoke(aiHandler, {
+    operation: "recognize-ingredient-photo",
+    body: { imageDataUrl: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAAAAAAD==", ingredientCatalog }
+  });
+  assert(photo.response.statusCode === 200, `Vercel 照片识别失败：${photo.response.body}`);
+  assert(photo.json.data?.candidates?.length === 2, "Vercel 照片识别候选结果不正确");
+  assert(photo.json.data?.needsConfirmation === true, "Vercel 照片识别结果没有要求确认");
+  assert(photo.json.meta?.provider === "qwen-vision", "Vercel 照片识别没有标记通义千问视觉提供方");
+
+  const invalidImage = await invoke(aiHandler, {
+    operation: "recognize-ingredient-photo",
+    body: { imageDataUrl: "https://example.com/not-base64.png", ingredientCatalog }
+  });
+  assert(invalidImage.response.statusCode === 400, "Vercel 函数没有拒绝非 base64 图片输入");
+
+  const missingCatalog = await invoke(aiHandler, {
+    operation: "recognize-ingredient-photo",
+    body: { imageDataUrl: "data:image/jpeg;base64,QUJD" }
+  });
+  assert(missingCatalog.response.statusCode === 400, "Vercel 照片识别没有校验食材目录");
+
+  const { createAiService } = await import("../src/server/ai-service.mjs");
+  const bareService = createAiService({ VERCEL: "1" });
+  const bareResponse = new MockResponse();
+  await bareService.handleRoute({
+    method: "POST",
+    url: "/api/ai/recognize-ingredient-photo",
+    body: { imageDataUrl: "data:image/jpeg;base64,QUJD", ingredientCatalog },
+    headers: {
+      host: "yanhuo-preview.vercel.app",
+      origin: "https://yanhuo-preview.vercel.app",
+      "x-forwarded-host": "yanhuo-preview.vercel.app",
+      "x-forwarded-for": "203.0.113.19"
+    },
+    socket: { remoteAddress: "127.0.0.1" }
+  }, bareResponse, "recognize-ingredient-photo");
+  const bareJson = JSON.parse(bareResponse.body || "{}");
+  assert(bareResponse.statusCode === 503 && bareJson.error?.code === "AI_NOT_CONFIGURED", "未配置视觉密钥时没有明确拒绝照片识别");
+  assert(bareJson.error?.message?.includes("照片没有上传"), "未配置视觉密钥时没有说明照片未上传");
+
   const blockedOrigin = await invoke(aiHandler, {
     operation: "parse-ingredients",
     origin: "https://unrelated.example",
@@ -162,7 +208,10 @@ try {
   assert(wrongMethod.response.statusCode === 405, "Vercel 状态接口没有限制请求方法");
 
   const providerRequests = await fetch(`http://127.0.0.1:${mockPort}/requests`).then((response) => response.json());
-  assert(providerRequests.requests.length === 3, "Vercel 函数没有完整覆盖三项 DeepSeek 文本能力");
+  assert(providerRequests.requests.length === 4, "Vercel 函数没有完整覆盖三项文本能力与一项视觉能力");
+  const visionRequest = providerRequests.requests.find((item) => JSON.stringify(item).includes("image_url"));
+  assert(visionRequest, "Vercel 照片识别没有向视觉模型发送图片内容");
+  assert(visionRequest.model === "qwen-vl-max-test", "Vercel 照片识别没有使用配置的视觉模型");
 
   const vercelConfig = JSON.parse(await readFile("vercel.json", "utf8"));
   assert(vercelConfig.outputDirectory === "dist", "Vercel 静态输出目录不是 dist");
@@ -195,14 +244,15 @@ try {
   assert(originalImageCount === 90, "Vercel 构建没有包含 90 张菜品原图");
   assert(thumbnailImageCount === 90, "Vercel 构建没有包含 90 张菜品缩略图");
 
-  const allBodies = [health, status, parsed, explanation, substitutions].map((item) => item.response.body).join("\n");
+  const allBodies = [health, status, parsed, explanation, substitutions, photo, invalidImage, missingCatalog].map((item) => item.response.body).join("\n");
   assert(!allBodies.includes("test-deepseek-key"), "Vercel 响应泄露了 DeepSeek 密钥");
+  assert(!allBodies.includes("test-qwen-key"), "Vercel 响应泄露了通义千问密钥");
 
   console.log(JSON.stringify({
     ok: true,
     runtime: "vercel",
     staticOutput: "dist",
-    deepseekCalls: providerRequests.requests.length,
+    providerCalls: providerRequests.requests.length,
     publicDishImages: {
       originals: originalImageCount,
       thumbnails: thumbnailImageCount
