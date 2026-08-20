@@ -214,7 +214,8 @@ try {
   assert(visionRequest.model === "qwen-vl-max-test", "Vercel 照片识别没有使用配置的视觉模型");
 
   const vercelConfig = JSON.parse(await readFile("vercel.json", "utf8"));
-  assert(vercelConfig.outputDirectory === "dist", "Vercel 静态输出目录不是 dist");
+  assert(vercelConfig.buildCommand === "npm run build", "Vercel 构建命令缺失");
+  assert(!vercelConfig.outputDirectory, "构建输出改由 .vercel/output 提供，不应再配置 outputDirectory");
   assert(vercelConfig.rewrites?.some((item) => item.source === "/healthz" && item.destination === "/api/healthz"), "Vercel 健康检查重写缺失");
   assert(!JSON.stringify(vercelConfig).includes("DEEPSEEK_API_KEY"), "vercel.json 不应包含 DeepSeek 密钥");
 
@@ -244,6 +245,38 @@ try {
   assert(originalImageCount === 90, "Vercel 构建没有包含 90 张菜品原图");
   assert(thumbnailImageCount === 90, "Vercel 构建没有包含 90 张菜品缩略图");
 
+  const outputConfig = JSON.parse(await readFile(".vercel/output/config.json", "utf8"));
+  assert(outputConfig.version === 3, "Build Output 配置版本不正确");
+  assert(outputConfig.routes?.some((route) => route.src === "/healthz" && route.dest === "/api/healthz"), "Build Output 缺少健康检查重写");
+  assert(outputConfig.routes?.some((route) => route.handle === "filesystem"), "Build Output 缺少 filesystem 路由");
+
+  const outputStaticFiles = [
+    ".vercel/output/static/index.html",
+    ".vercel/output/static/src/js/app.js",
+    ".vercel/output/static/src/styles/app.css",
+    ".vercel/output/static/data/recipes.js",
+    ".vercel/output/static/assets/dishes/thumbnails/01-fanqie-chaodan.jpg"
+  ];
+  for (const file of outputStaticFiles) assert(await fileExists(resolve(file)), `Build Output 静态层缺少 ${file}`);
+
+  for (const funcDir of ["api/healthz.func", "api/ai/[operation].func"]) {
+    const base = resolve(".vercel/output/functions", funcDir);
+    assert(await fileExists(resolve(base, "index.mjs")), `Build Output 函数缺少 ${funcDir}/index.mjs`);
+    assert(await fileExists(resolve(base, "ai-service.mjs")), `Build Output 函数缺少 ${funcDir}/ai-service.mjs`);
+    const funcConfig = JSON.parse(await readFile(resolve(base, ".vc-config.json"), "utf8"));
+    assert(funcConfig.runtime === "nodejs24.x" && funcConfig.handler === "index.mjs", `Build Output 函数配置不正确：${funcDir}`);
+    const entry = await readFile(resolve(base, "index.mjs"), "utf8");
+    assert(entry.includes("./ai-service.mjs") && !entry.includes("../src/server"), `Build Output 函数引用路径未改写：${funcDir}`);
+  }
+
+  const outputPrivateFiles = [
+    ".vercel/output/static/.env",
+    ".vercel/output/static/server.mjs",
+    ".vercel/output/static/package.json",
+    ".vercel/output/static/src/server/ai-service.mjs"
+  ];
+  for (const file of outputPrivateFiles) assert(!await fileExists(resolve(file)), `Build Output 错误公开了 ${file}`);
+
   const allBodies = [health, status, parsed, explanation, substitutions, photo, invalidImage, missingCatalog].map((item) => item.response.body).join("\n");
   assert(!allBodies.includes("test-deepseek-key"), "Vercel 响应泄露了 DeepSeek 密钥");
   assert(!allBodies.includes("test-qwen-key"), "Vercel 响应泄露了通义千问密钥");
@@ -252,6 +285,7 @@ try {
     ok: true,
     runtime: "vercel",
     staticOutput: "dist",
+    buildOutput: ".vercel/output",
     providerCalls: providerRequests.requests.length,
     publicDishImages: {
       originals: originalImageCount,
