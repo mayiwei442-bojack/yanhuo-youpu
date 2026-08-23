@@ -1594,23 +1594,24 @@
 
   function compressImageFile(file) {
     return new Promise((resolvePromise, rejectPromise) => {
-      const objectUrl = URL.createObjectURL(file);
-      const image = new Image();
-      image.onload = () => {
-        URL.revokeObjectURL(objectUrl);
-        const maxSide = 1280;
-        const scale = Math.min(1, maxSide / Math.max(image.width, image.height));
-        const canvas = document.createElement("canvas");
-        canvas.width = Math.max(1, Math.round(image.width * scale));
-        canvas.height = Math.max(1, Math.round(image.height * scale));
-        canvas.getContext("2d").drawImage(image, 0, 0, canvas.width, canvas.height);
-        resolvePromise(canvas.toDataURL("image/jpeg", 0.82));
+      const reader = new FileReader();
+      reader.onload = () => {
+        const image = new Image();
+        image.onload = () => {
+          const maxSide = 1280;
+          const scale = Math.min(1, maxSide / Math.max(image.width, image.height));
+          const canvas = document.createElement("canvas");
+          canvas.width = Math.max(1, Math.round(image.width * scale));
+          canvas.height = Math.max(1, Math.round(image.height * scale));
+          canvas.getContext("2d").drawImage(image, 0, 0, canvas.width, canvas.height);
+          resolvePromise(canvas.toDataURL("image/jpeg", 0.82));
+        };
+        image.onerror = () => rejectPromise(new Error("图片无法读取"));
+        // 用 data: URL 而非 blob: URL：站点 CSP 的 img-src 不放行 blob:
+        image.src = String(reader.result || "");
       };
-      image.onerror = () => {
-        URL.revokeObjectURL(objectUrl);
-        rejectPromise(new Error("图片无法读取"));
-      };
-      image.src = objectUrl;
+      reader.onerror = () => rejectPromise(new Error("图片无法读取"));
+      reader.readAsDataURL(file);
     });
   }
 

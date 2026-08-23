@@ -74,6 +74,12 @@ try {
   assert(photoSheet.includes("本机压缩"), "照片弹层没有说明本机压缩与用途边界");
   assert(await page.locator('[data-action="recognize-ai-photo"]').getAttribute("disabled") !== null, "未选择照片时不应允许开始识别");
   await page.screenshot({ path: "outputs/qa-html-ai-photo-mobile.png", fullPage: true });
+  await page.setInputFiles("#ai-photo-file", resolve("assets/pixel-food/selected/Tomato.png"));
+  await page.waitForFunction(() => {
+    const button = document.querySelector('[data-action="recognize-ai-photo"]');
+    return Boolean(button) && !button.hasAttribute("disabled");
+  }, { timeout: 10000 });
+  assert((await page.locator(".photo-drop img").getAttribute("src") || "").startsWith("data:image/"), "照片没有压缩为 data URL 预览（CSP 回归）");
   await page.locator('[data-action="close-sheet"]').last().click();
 
   await page.fill("#custom-ingredient", "香菜");
