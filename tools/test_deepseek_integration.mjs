@@ -52,6 +52,8 @@ try {
     DEEPSEEK_API_KEY: "test-deepseek-key",
     DEEPSEEK_MODEL: "deepseek-v4-flash",
     DEEPSEEK_BASE_URL: `http://127.0.0.1:${mockPort}`,
+    // 本用例只验证纯文本配置；显式置空避免本机 .env 里的视觉密钥影响断言
+    QWEN_API_KEY: "",
     AI_RATE_LIMIT_PER_MINUTE: "50",
     TRUST_PROXY: "false"
   });

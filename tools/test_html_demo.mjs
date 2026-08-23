@@ -1,4 +1,4 @@
-import { chromium } from "file:///C:/Users/myw/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/.pnpm/playwright@1.61.1/node_modules/playwright/index.mjs";
+import { chromium } from "playwright-core";
 import { pathToFileURL } from "node:url";
 import { resolve } from "node:path";
 
@@ -66,9 +66,20 @@ try {
     await page.locator('[data-action="close-sheet"]').last().click();
   }
 
-  await page.locator('[data-feature="ai.ingredientVision"]').click();
-  assert((await page.locator("#sheet-content").innerText()).includes("需要另接支持图像输入的模型"), "照片识别没有明确标记视觉模型边界");
+  await page.locator('[data-action="open-ai-photo"]').click();
+  await page.waitForSelector("#ai-photo-file");
+  const photoSheet = await page.locator("#sheet-content").innerText();
+  assert(photoSheet.includes("拍照识别桌面食材"), "照片识别入口没有打开拍照弹层");
+  assert(photoSheet.includes("选择或拍摄照片"), "照片弹层没有提供选择照片入口");
+  assert(photoSheet.includes("本机压缩"), "照片弹层没有说明本机压缩与用途边界");
+  assert(await page.locator('[data-action="recognize-ai-photo"]').getAttribute("disabled") !== null, "未选择照片时不应允许开始识别");
   await page.screenshot({ path: "outputs/qa-html-ai-photo-mobile.png", fullPage: true });
+  await page.setInputFiles("#ai-photo-file", resolve("assets/pixel-food/selected/Tomato.png"));
+  await page.waitForFunction(() => {
+    const button = document.querySelector('[data-action="recognize-ai-photo"]');
+    return Boolean(button) && !button.hasAttribute("disabled");
+  }, { timeout: 10000 });
+  assert((await page.locator(".photo-drop img").getAttribute("src") || "").startsWith("data:image/"), "照片没有压缩为 data URL 预览（CSP 回归）");
   await page.locator('[data-action="close-sheet"]').last().click();
 
   await page.fill("#custom-ingredient", "香菜");

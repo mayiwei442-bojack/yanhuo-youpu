@@ -6,6 +6,9 @@ work/
 # Generated screenshots and intermediate inspection files
 outputs/
 *.inspect.ndjson
+dist/
+.vercel/
+node_modules/
 
 # Historical demos and duplicate delivery bundles
 legacy/
@@ -23,3 +26,5 @@ desktop.ini
 .env.*
 !.env.example
 *.log
+.vercel
+.env*

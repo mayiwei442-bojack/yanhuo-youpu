@@ -1,0 +1,16 @@
+# 本机开发专用：Vercel 部署不应把 server.mjs 当作自定义服务器入口，
+# 生产流量由 dist 静态文件 + api/ 函数处理
+server.mjs
+Dockerfile
+.dockerignore
+.env
+.env.example
+docs/
+outputs/
+work/
+.agents/
+.qa_vibe_plan/
+烟火有谱_HTML_Demo_社区上传版_2026-07-15/
+烟火有谱_HTML_Demo补充交接包_2026-07-15/
+烟火有谱_HTML_Demo开发交接_2026-07-15/
+烟火有谱_Trae项目交接包_2026-07-14/
