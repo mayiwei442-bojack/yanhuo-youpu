@@ -73,7 +73,7 @@ export function createAiService(environment = process.env) {
         ok: false,
         data: null,
         error: { code, message },
-        meta: { provider: "deepseek", model: deepseekModel, fallback: false, ...meta }
+        meta: { fallback: false, ...meta }
       }
     };
   }
@@ -84,14 +84,21 @@ export function createAiService(environment = process.env) {
   }
 
   function handleError(response, error) {
-    return sendJson(response, error?.status || 500, {
+    const internalCode = String(error?.code || "SERVER_ERROR");
+    const status = Number(error?.status || 500);
+    console.error(`[AI service error] ${internalCode}: ${String(error?.message || "unknown error")}`);
+    const safeError = ["INVALID_JSON", "BODY_TOO_LARGE"].includes(internalCode)
+      ? { code: internalCode, message: String(error?.message || "请求内容不正确") }
+      : internalCode === "AI_TIMEOUT"
+        ? { code: "AI_TIMEOUT", message: "智能服务响应时间较长，请稍后再试" }
+        : ["RATE_LIMITED", "AI_RATE_LIMITED"].includes(internalCode)
+          ? { code: "RATE_LIMITED", message: "当前请求较多，请稍后再试" }
+          : { code: "AI_SERVICE_UNAVAILABLE", message: "智能服务暂时无法使用，请稍后再试" };
+    return sendJson(response, status, {
       ok: false,
       data: null,
-      error: {
-        code: error?.code || "SERVER_ERROR",
-        message: error?.message || "服务暂时不可用"
-      },
-      meta: { provider: "deepseek", model: deepseekModel, fallback: false }
+      error: safeError,
+      meta: { fallback: false }
     });
   }
 
@@ -392,10 +399,8 @@ export function createAiService(environment = process.env) {
     if (isVisionOperation ? !qwenApiKey : !deepseekApiKey) {
       return sendServiceError(
         response,
-        "AI_NOT_CONFIGURED",
-        isVisionOperation
-          ? "服务端尚未配置 QWEN_API_KEY；照片没有上传，不会使用本机规则伪造识别结果。"
-          : "服务端尚未配置 DEEPSEEK_API_KEY；不会使用本机规则伪造 AI 结果。",
+        "AI_SERVICE_UNAVAILABLE",
+        isVisionOperation ? "照片识别暂时无法使用；照片没有上传。" : "智能服务暂时无法使用，请稍后再试。",
         503,
         {},
         rateHeaders
@@ -470,12 +475,7 @@ export function createAiService(environment = process.env) {
       ok: true,
       data: result.data,
       error: null,
-      meta: {
-        provider: isVisionOperation ? "qwen-vision" : "deepseek",
-        model: isVisionOperation ? qwenVisionModel : deepseekModel,
-        fallback: false,
-        usage: result.usage
-      }
+      meta: { fallback: false }
     }, rateHeaders);
   }
 
@@ -489,14 +489,10 @@ export function createAiService(environment = process.env) {
           ok: true,
           data: {
             configured: Boolean(deepseekApiKey),
-            provider: "deepseek",
-            model: deepseekApiKey ? deepseekModel : null,
-            visionModel: qwenApiKey ? qwenVisionModel : null,
-            capabilities: { text: Boolean(deepseekApiKey), vision: Boolean(qwenApiKey) },
-            deploymentRequired: true
+            capabilities: { text: Boolean(deepseekApiKey), vision: Boolean(qwenApiKey) }
           },
           error: null,
-          meta: { provider: "deepseek", model: deepseekModel, fallback: false }
+          meta: { fallback: false }
         });
       }
       if (request.method !== "POST") {

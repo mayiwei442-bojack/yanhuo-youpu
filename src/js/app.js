@@ -3,7 +3,6 @@
 
   const recipes = Array.isArray(global.YANHUO_RECIPES) ? global.YANHUO_RECIPES : [];
   const ingredients = Array.isArray(global.YANHUO_INGREDIENTS) ? global.YANHUO_INGREDIENTS : [];
-  const features = global.YANHUO_FEATURES || {};
   const services = global.YanhuoServices || global.YanhuoFutureServices || {};
   const STORAGE_KEY = "yanhuo-html-demo-v1";
   const imageRoot = "assets/pixel-food/selected/";
@@ -31,85 +30,8 @@
     { id: "pregnancy", label: "孕期提醒" }
   ];
 
-  const FEATURE_COPY = {
-    "ai.ingredientNlp": {
-      title: "AI 自然语言录入",
-      description: "输入“两个番茄、三个鸡蛋和半颗洋葱”，由服务端 DeepSeek 整理为可确认的食材清单。",
-      limitation: "需要通过本地服务器或公网部署网址打开，并在服务端配置 DeepSeek API；不会在浏览器中保存密钥。",
-      fallbackLabel: "先手动选择食材",
-      fallback: "pantry"
-    },
-    "ai.ingredientVision": {
-      title: "食材照片识别",
-      description: "通义千问视觉模型识别照片中的食材，DeepSeek 负责文字理解、推荐解释和替换建议。",
-      limitation: "识别结果必须逐项确认后才会加入食材篮；服务端未配置视觉模型时会明确提示，照片不会上传。",
-      fallbackLabel: "从食材库选择",
-      fallback: "pantry"
-    },
-    "ai.recommendationExplanation": {
-      title: "AI 深度推荐解释",
-      description: "DeepSeek 结合菜谱、时间、现有食材和匹配结果，用自然语言解释推荐理由。",
-      limitation: "需要已部署的服务端与 DeepSeek API；AI 只解释，不修改排序和安全结论。",
-      fallbackLabel: "继续查看规则说明",
-      fallback: "close"
-    },
-    "ai.substitutionSuggestion": {
-      title: "AI 食材替换建议",
-      description: "DeepSeek 从风味、口感、饮食需求和应急替换角度给出候选，并说明与传统做法的差异。",
-      limitation: "需要已部署的服务端与 DeepSeek API；返回候选仍会经过食材库和忌口校验。",
-      fallbackLabel: "返回配料表",
-      fallback: "close"
-    },
-    "cooking.beginnerGame": {
-      title: "烹饪新手小游戏",
-      description: "以后会把下锅后的顺序、等待和翻炒做成无失败、无惩罚的新手教程，火力只有低、中、高三档。",
-      limitation: "本阶段只展示界面构想，操作逻辑和鼓励评分将在第三阶段实现。",
-      fallbackLabel: "改用图文教程",
-      fallback: "cook"
-    },
-    "account.login": {
-      title: "微信登录",
-      description: "小程序阶段登录后，可以在不同设备之间同步食材篮、收藏和采购清单。",
-      limitation: "当前 HTML Demo 不要求登录，所有数据仅保存在本机浏览器。",
-      fallbackLabel: "继续本机使用",
-      fallback: "close"
-    },
-    "cloud.sync": {
-      title: "云端同步",
-      description: "以后可以同步收藏、饮食设置、采购清单与未完成的烹饪进度。",
-      limitation: "当前没有连接云数据库；清理浏览器数据会同时清除本地记录。",
-      fallbackLabel: "知道了",
-      fallback: "close"
-    },
-    "platform.wechatShare": {
-      title: "微信分享卡片",
-      description: "小程序阶段可以分享菜谱卡片或采购清单给家人朋友。",
-      limitation: "HTML Demo 没有微信分享环境，目前可复制采购清单文字。",
-      fallbackLabel: "关闭预览",
-      fallback: "close"
-    },
-    "platform.wechatMiniProgram": {
-      title: "微信小程序版本",
-      description: "最终版本将把当前业务规则迁移到微信小程序，并接入平台导航、登录、分享和隐私能力。",
-      limitation: "当前优先验证完整 HTML 产品体验，尚未进入小程序适配与审核阶段。",
-      fallbackLabel: "继续体验 HTML",
-      fallback: "close"
-    },
-    "heritage.story": {
-      title: "地域技艺故事",
-      description: "以后会补充来源、代表工序、地域背景和可核验参考资料，让风味故事与菜谱操作真正连接。",
-      limitation: "相关名录与资料仍需核验，本阶段只使用“地域风味”标识，不直接作正式非遗认定。",
-      fallbackLabel: "返回菜谱",
-      fallback: "close"
-    }
-  };
-
   const defaultState = {
-    pantry: [
-      { id: "tomato", name: "番茄", custom: false },
-      { id: "eggs", name: "鸡蛋", custom: false },
-      { id: "scallion", name: "小葱", custom: false }
-    ],
+    pantry: [],
     favorites: [],
     history: [],
     shopping: [],
@@ -415,14 +337,6 @@
           </button>
         </div>
 
-        <button class="status-ribbon" type="button" data-action="open-stage-map">
-          <span>
-            <strong>联网产品能力持续接入</strong>
-            <small>DeepSeek 录入、解释、替换与通义千问拍照识别已接服务端，小游戏与数据能力可用</small>
-          </span>
-          <span class="stage-tag">查看能力图</span>
-        </button>
-
         <div class="section-head">
           <h2>你的食材篮</h2>
           <button class="text-action" type="button" data-nav="#/pantry">去调整 →</button>
@@ -454,7 +368,7 @@
           <div>
             <div class="eyebrow">PANTRY / 根据食材找菜</div>
             <h1 class="page-title">食材篮</h1>
-            <p class="page-subtitle">先告诉我家里有什么。示例食材已经放入篮中，你可以自由增删。</p>
+            <p class="page-subtitle">先告诉我家里有什么。可以手动选择，也可以用智能方式快速录入。</p>
           </div>
         </div>
 
@@ -464,12 +378,12 @@
 
         <div class="feature-shortcuts">
           <button class="feature-shortcut enabled" type="button" data-action="open-ai-text">
-            <span>阶段二 · DeepSeek AI</span>
+            <span>智能录入</span>
             <strong>用一句话录入食材</strong>
           </button>
           <button class="feature-shortcut enabled" type="button" data-action="open-ai-photo">
-            <span>阶段二 · 通义千问视觉</span>
-            <strong>拍照识别桌面食材</strong>
+            <span>照片识别</span>
+            <strong>识别照片中的食材</strong>
           </button>
         </div>
 
@@ -778,10 +692,9 @@
           ${recipe.isHeritageFlavor ? `
             <div class="section-head"><h2>地域风味</h2></div>
             <div class="heritage-preview">
-              <div class="sheet-kicker" style="color:#f2c46c">REGIONAL FLAVOR / 待资料核验</div>
-              <h3>一碗风味背后的技艺故事</h3>
-              <p>后续将连接来源、代表工序和可核验资料。当前不把地域美食直接等同于正式非遗项目。</p>
-              <button class="ghost-button" style="position:relative;z-index:2;color:white;border-color:rgba(255,255,255,.35)" type="button" data-action="feature-preview" data-feature="heritage.story">查看功能预览</button>
+              <div class="sheet-kicker" style="color:#f2c46c">REGIONAL FLAVOR / 地域风味</div>
+              <h3>一方水土，一方滋味</h3>
+              <p>这道菜带有鲜明的地方风味。不同家庭的用料和做法会略有差异，可以按自己的口味调整。</p>
             </div>
           ` : ""}
 
@@ -822,7 +735,7 @@
         ${state.shopping.length ? `
           <div class="shopping-summary">
             <span><strong>还要买 ${remaining} 样</strong><p>${checked ? `已有 ${checked} 项完成，可加入食材篮。` : "勾选买到的食材，进度会保存在本机。"}</p></span>
-            <span class="stage-tag" style="color:#f2c46c">LOCAL</span>
+            <span class="stage-tag" style="color:#f2c46c">本机保存</span>
           </div>
           <div class="shopping-list">
             ${state.shopping.map((item) => `
@@ -837,11 +750,11 @@
             `).join("")}
           </div>
           <div class="feature-shortcuts" style="margin-top:16px">
-            <button class="feature-shortcut" type="button" data-action="copy-shopping"><span>阶段一 · 可用</span><strong>复制清单文字</strong></button>
-            <button class="feature-shortcut" type="button" data-action="shopping-to-pantry"><span>阶段一 · 可用</span><strong>已购食材加入食材篮</strong></button>
+            <button class="feature-shortcut" type="button" data-action="copy-shopping"><span>复制与分享</span><strong>复制清单文字</strong></button>
+            <button class="feature-shortcut" type="button" data-action="shopping-to-pantry"><span>整理已购食材</span><strong>已购食材加入食材篮</strong></button>
           </div>
           <button class="feature-row wide-button enabled" type="button" data-action="share-shopping">
-            <span class="feature-icon">享</span><span><strong>分享采购清单</strong><span>优先调用系统分享，不支持时复制文字</span></span><b>可用</b>
+            <span class="feature-icon">享</span><span><strong>分享采购清单</strong><span>优先调用系统分享，不支持时复制文字</span></span><b>分享</b>
           </button>
           <button class="danger-button wide-button" style="margin-top:18px" type="button" data-action="clear-checked-shopping">清除已完成项目</button>
         ` : renderEmpty("单", "采购清单还是空的", "先选一道菜，在详情页把缺少的配料加入清单。", "去挑一道菜", "#/recipes")}
@@ -862,7 +775,7 @@
       <section class="cooking-page">
         <div class="cook-top">
           <button type="button" data-nav="#/recipe/${id}">← 返回菜谱</button>
-          <span style="font:10px var(--mono);color:rgba(255,255,255,.62)">图文教程 · 可用</span>
+          <span style="font:10px var(--mono);color:rgba(255,255,255,.62)">图文教程</span>
           <button type="button" data-action="open-cook-modes" data-id="${id}">切换方式</button>
         </div>
         <div class="cook-progress">
@@ -898,7 +811,7 @@
           <h1>这道 ${esc(recipe.name)}，你已经稳稳做完了。</h1>
           <p style="color:var(--muted);line-height:1.7;font-size:12px">完成度 100 · 步骤节奏很稳。这里的评分只用于鼓励，不设置惩罚或失败。</p>
           <div class="sheet-actions">
-            <button class="primary-button fire" type="button" data-nav="#/recipe/${recipe.id}">回到菜谱</button>
+            <button class="primary-button fire" type="button" data-nav="#/recipes">回到菜谱</button>
             <button class="ghost-button" type="button" data-action="restart-cook" data-id="${recipe.id}">再做一遍</button>
           </div>
         </div>
@@ -1103,7 +1016,7 @@
           <div class="game-score"><strong>${score}</strong><span>鼓励评分</span></div>
           <p>${esc(encouragement)}</p>
           <small>评分只用于鼓励，不设失败、排名或惩罚。</small>
-          <div class="sheet-actions"><button class="primary-button fire" type="button" data-action="restart-game" data-id="${recipe.id}">再练一次</button><button class="ghost-button" type="button" data-action="start-cook" data-id="${recipe.id}">进入图文教程</button><button class="ghost-button" type="button" data-nav="#/recipe/${recipe.id}">回到菜谱</button></div>
+          <div class="sheet-actions"><button class="primary-button fire" type="button" data-action="restart-game" data-id="${recipe.id}">再练一次</button><button class="ghost-button" type="button" data-action="start-cook" data-id="${recipe.id}">进入图文教程</button><button class="ghost-button" type="button" data-nav="#/recipes">回到菜谱</button></div>
         </div>
       </section>
     `;
@@ -1154,17 +1067,14 @@
           </div>
         </div>
 
-        <div class="section-head"><h2>数据与小程序能力</h2><span>本地增强已开放</span></div>
+        <div class="section-head"><h2>数据管理</h2><span>仅保存在当前设备</span></div>
         <div class="feature-list">
-          <button class="feature-row enabled" type="button" data-action="export-local-data"><span class="feature-icon">备</span><span><strong>导出本机数据</strong><span>备份食材篮、收藏、清单与进度</span></span><b>可用</b></button>
-          <button class="feature-row enabled" type="button" data-action="open-import-data"><span class="feature-icon">入</span><span><strong>恢复本机备份</strong><span>从烟火有谱 JSON 文件恢复</span></span><b>可用</b></button>
-          <button class="feature-row" type="button" data-action="feature-preview" data-feature="account.login"><span class="feature-icon">登</span><span><strong>微信登录</strong><span>不登录也能完整使用阶段一</span></span><b>阶段三</b></button>
-          <button class="feature-row" type="button" data-action="feature-preview" data-feature="cloud.sync"><span class="feature-icon">云</span><span><strong>跨设备云同步</strong><span>收藏、清单和烹饪进度</span></span><b>阶段三</b></button>
-          <button class="feature-row" type="button" data-action="feature-preview" data-feature="platform.wechatMiniProgram"><span class="feature-icon">微</span><span><strong>微信小程序版本</strong><span>最终产品形态与平台能力</span></span><b>阶段三</b></button>
+          <button class="feature-row enabled" type="button" data-action="export-local-data"><span class="feature-icon">备</span><span><strong>导出本机数据</strong><span>备份食材篮、收藏、清单与进度</span></span><b>导出</b></button>
+          <button class="feature-row enabled" type="button" data-action="open-import-data"><span class="feature-icon">入</span><span><strong>恢复本机备份</strong><span>从烟火有谱 JSON 文件恢复</span></span><b>恢复</b></button>
         </div>
 
-        <div class="section-head"><h2>项目与数据</h2></div>
-        <button class="danger-button wide-button" style="margin-top:10px" type="button" data-action="reset-local-data">清除本机体验数据</button>
+        <div class="section-head"><h2>数据清理</h2></div>
+        <button class="danger-button wide-button" style="margin-top:10px" type="button" data-action="reset-local-data">清除本机数据</button>
       </section>
     `;
   }
@@ -1340,7 +1250,7 @@
   function openImportData() {
     pendingBackupState = null;
     openSheet(`
-      <div class="sheet-kicker">PHASE 3 · LOCAL BACKUP</div>
+      <div class="sheet-kicker">本机数据备份</div>
       <h2 id="sheet-title">恢复本机备份</h2>
       <p class="sheet-lead">选择由烟火有谱导出的 JSON 文件。解析只在浏览器本机完成，确认前不会覆盖当前数据。</p>
       <label class="photo-drop compact" for="backup-file"><span class="photo-mark">入</span><strong>选择备份文件</strong><small>仅接受 .json</small><input id="backup-file" type="file" accept="application/json,.json"></label>
@@ -1425,28 +1335,26 @@
     pendingBackupState = null;
   }
 
-  function providerBadge(meta) {
-    if (meta?.provider === "deepseek") return `<span class="provider-badge ai-live">DeepSeek · ${esc(meta.model || "服务端 AI")}</span>`;
-    if (meta?.provider === "qwen-vision") return `<span class="provider-badge ai-live">通义千问视觉 · ${esc(meta.model || "服务端 AI")}</span>`;
-    return `<span class="provider-badge">服务端 AI</span>`;
+  function providerBadge() {
+    return `<span class="provider-badge ai-live">智能服务</span>`;
   }
 
   function openAiTextSheet(initialValue = "") {
     pendingAiInput = String(initialValue || "");
     openSheet(`
-      <div class="sheet-kicker">PHASE 2 · SMART INPUT</div>
+      <div class="sheet-kicker">智能录入</div>
       <h2 id="sheet-title">一句话加入食材</h2>
-      <p class="sheet-lead">例如：“两个番茄、三个鸡蛋和半颗洋葱”。内容会发送到烟火有谱服务端，再由 DeepSeek 整理为候选食材。</p>
+      <p class="sheet-lead">例如：“两个番茄、三个鸡蛋和半颗洋葱”。智能服务会把这句话整理成可确认的候选食材。</p>
       <label class="ai-input-label" for="ai-ingredient-text">你家里现在有什么？</label>
       <textarea class="ai-textarea" id="ai-ingredient-text" maxlength="500" rows="4" placeholder="两个番茄、三个鸡蛋、半颗洋葱">${esc(pendingAiInput)}</textarea>
-      <div class="privacy-note"><b>联网与安全</b><span>需要通过本地服务器或公网部署网址打开；结果必须由你确认后才会加入食材篮，DeepSeek 密钥不会进入浏览器。</span></div>
+      <div class="privacy-note"><b>联网与安全</b><span>内容仅用于本次识别；结果必须由你确认后才会加入食材篮。</span></div>
       <div class="sheet-actions"><button class="primary-button fire" type="button" data-action="parse-ai-text">开始整理</button><button class="ghost-button" type="button" data-action="close-sheet">取消</button></div>
     `);
   }
 
   function showAiLoading(title, message) {
     openSheet(`
-      <div class="sheet-kicker">PHASE 2 · WORKING</div>
+      <div class="sheet-kicker">正在处理</div>
       <h2 id="sheet-title">${esc(title)}</h2>
       <p class="sheet-lead">${esc(message)}</p>
       <div class="ai-loading" aria-live="polite"><span></span><span></span><span></span><b>正在整理候选，不会自动写入食材篮</b></div>
@@ -1462,7 +1370,7 @@
 
   async function requestAiText(text) {
     pendingAiRetry = () => requestAiText(text);
-    showAiLoading("DeepSeek 正在理解这句话", "正在调用烟火有谱服务端，不使用本机规则生成替代结果。");
+    showAiLoading("正在理解这句话", "智能服务正在整理你提到的食材，请稍候。");
     const result = await services.ai?.parseIngredients?.({ text, locale: "zh-CN" });
     if (!result?.ok) return showAiError("没有识别到可确认的食材", result?.error, { fallbackAction: "edit-ai-text", fallbackLabel: "修改原句" });
     pendingAiRetry = null;
@@ -1482,10 +1390,9 @@
   }
 
   function renderAiCandidateSheet(title, meta) {
-    const provider = meta || { provider: "deepseek", model: "服务端 AI" };
     openSheet(`
-      <div class="sheet-kicker">PHASE 2 · CONFIRM FIRST</div>
-      <div class="provider-row">${providerBadge(provider)}<span>识别结果不会自动保存</span></div>
+      <div class="sheet-kicker">确认后再加入</div>
+      <div class="provider-row">${providerBadge()}<span>识别结果不会自动保存</span></div>
       <h2 id="sheet-title">${esc(title)}</h2>
       <p class="sheet-lead">逐项确认，需要的保持选中，不准确的点一下取消。</p>
       <div class="ai-candidate-list">
@@ -1513,26 +1420,13 @@
 
   function aiErrorPresentation(error) {
     const code = String(error?.code || "AI_REQUEST_FAILED");
-    const message = String(error?.message || "DeepSeek 服务暂时不可用");
     if (code === "RATE_LIMITED" || code === "AI_RATE_LIMITED") {
-      return { label: "请求过快", message, guidance: "请稍等约一分钟再试，刚才的内容仍然保留。" };
-    }
-    if (code === "AI_BALANCE_INSUFFICIENT" || /余额|balance|insufficient/i.test(message)) {
-      return { label: "账户余额不足", message: "DeepSeek 账户当前没有足够余额完成请求。", guidance: "充值后可直接点击重新尝试，不需要重新填写内容。" };
-    }
-    if (code === "AI_AUTH_FAILED" || /authentication|api key|密钥/i.test(message)) {
-      return { label: "服务端密钥异常", message: "服务器没有通过 DeepSeek 身份验证。", guidance: "请检查服务器环境变量中的 API Key，密钥不会保存在浏览器。" };
+      return { label: "当前请求较多", message: "暂时无法立即处理这次请求。", guidance: "请稍等片刻再试，刚才的内容仍然保留。" };
     }
     if (code === "AI_TIMEOUT") {
-      return { label: "响应超时", message, guidance: "网络或模型响应较慢，可以保留当前内容重新尝试。" };
+      return { label: "响应时间较长", message: "这次处理没有在预期时间内完成。", guidance: "可以保留当前内容重新尝试。" };
     }
-    if (code === "AI_SERVICE_UNAVAILABLE" || code === "AI_NOT_CONFIGURED") {
-      return { label: "AI 服务未连接", message, guidance: "请从本地服务器或已部署网址打开，并确认服务端已经配置 DeepSeek。" };
-    }
-    if (code === "AI_CAPABILITY_UNAVAILABLE") {
-      return { label: "能力尚未接入", message, guidance: "本次内容没有上传或写入，可先使用页面中的现有方式完成操作。" };
-    }
-    return { label: "本次请求未完成", message, guidance: "没有写入任何结果。你可以重新尝试，或先使用页面中的普通功能。" };
+    return { label: "暂时无法完成", message: "智能服务现在无法完成这次请求。", guidance: "没有写入任何结果，请稍后重试或使用普通录入方式。" };
   }
 
   function showAiError(title, error, options = {}) {
@@ -1541,7 +1435,7 @@
     const fallbackAction = options.fallbackAction || "close-sheet";
     const fallbackLabel = options.fallbackLabel || "关闭";
     openSheet(`
-      <div class="sheet-kicker">PHASE 2 · AI SERVICE</div>
+      <div class="sheet-kicker">操作未完成</div>
       <h2 id="sheet-title">${esc(title)}</h2>
       <div class="preview-note ai-error-card"><span class="ai-error-code">${esc(detail.label)}</span><strong>${esc(detail.message)}</strong><p>${esc(detail.guidance)}</p></div>
       <div class="sheet-actions">${canRetry ? `<button class="primary-button fire" type="button" data-action="retry-ai">重新尝试</button>` : ""}<button class="ghost-button" type="button" data-action="${fallbackAction}">${esc(fallbackLabel)}</button></div>
@@ -1580,14 +1474,26 @@
 
   function renderAiPhotoSheet() {
     openSheet(`
-      <div class="sheet-kicker">PHASE 2 · INGREDIENT VISION</div>
+      <div class="sheet-kicker">照片识别</div>
       <h2 id="sheet-title">拍照识别桌面食材</h2>
-      <p class="sheet-lead">选择照片后先只在本机预览；只有点击“开始识别”才会上传到你配置的 AI 服务。</p>
-      <label class="photo-drop" for="ai-photo-file">
-        ${pendingPhotoDataUrl ? `<img src="${pendingPhotoDataUrl}" alt="待识别食材照片"><span>${esc(pendingPhotoName)}</span>` : `<span class="photo-mark">照</span><strong>选择或拍摄照片</strong><small>PNG、JPEG、WebP，最大 5MB</small>`}
-        <input id="ai-photo-file" type="file" accept="image/png,image/jpeg,image/webp" capture="environment">
-      </label>
-      <div class="privacy-note"><b>照片用途</b><span>仅用于本次食材候选识别；照片在本机压缩后上传，不写入本地历史，关闭弹层即清除预览。服务端不记录请求正文。</span></div>
+      <p class="sheet-lead">选择照片后先只在本机预览；只有点击“开始识别”才会发送给智能服务。</p>
+      ${pendingPhotoDataUrl ? `<div class="photo-preview"><img src="${pendingPhotoDataUrl}" alt="待识别食材照片"><span>${esc(pendingPhotoName)}</span></div>` : ""}
+      <div class="photo-source-actions" aria-label="添加食材照片">
+        <label class="photo-source-button" for="ai-photo-library-file">
+          <span class="photo-source-icon" aria-hidden="true">选</span>
+          <strong>${pendingPhotoDataUrl ? "重新选择" : "选择照片"}</strong>
+          <small>从手机相册或文件中选择</small>
+          <input id="ai-photo-library-file" type="file" accept="image/png,image/jpeg,image/webp">
+        </label>
+        <label class="photo-source-button camera" for="ai-photo-camera-file">
+          <span class="photo-source-icon" aria-hidden="true">拍</span>
+          <strong>${pendingPhotoDataUrl ? "重新拍摄" : "拍摄照片"}</strong>
+          <small>打开后置相机现场拍摄</small>
+          <input id="ai-photo-camera-file" type="file" accept="image/*" capture="environment">
+        </label>
+      </div>
+      <p class="photo-file-note">支持 PNG、JPEG、WebP，最大 5MB</p>
+      <div class="privacy-note"><b>照片用途</b><span>仅用于本次食材候选识别；照片在本机压缩后发送，不写入照片历史，关闭弹层即清除预览。</span></div>
       <div class="sheet-actions"><button class="primary-button fire" type="button" data-action="recognize-ai-photo" ${pendingPhotoDataUrl ? "" : "disabled"}>开始识别</button><button class="ghost-button" type="button" data-action="close-sheet">取消</button></div>
     `);
   }
@@ -1631,7 +1537,7 @@
   async function recognizeAiPhoto() {
     if (!pendingPhotoDataUrl) return showToast("请先选择照片");
     pendingAiRetry = () => recognizeAiPhoto();
-    showAiLoading("正在识别照片", "照片先在本机压缩，再发送给你配置的烟火有谱服务端，由通义千问视觉模型识别。");
+    showAiLoading("正在识别照片", "照片已在本机压缩，智能服务正在识别其中的食材。");
     const result = await services.ai?.recognizeIngredientPhoto?.({ imageDataUrl: pendingPhotoDataUrl, locale: "zh-CN" });
     if (!result?.ok) return showAiError("照片识别没有完成", result?.error, { fallbackAction: "close-sheet", fallbackLabel: "返回食材篮" });
     pendingAiRetry = null;
@@ -1645,13 +1551,13 @@
     if (!recipe) return;
     const matchResult = matchRecipe(recipe);
     pendingAiRetry = () => explainRecommendation(id);
-    showAiLoading(`DeepSeek 正在解释为什么推荐${recipe.name}`, "AI 负责自然语言解释；食材匹配、排序与安全校验保持可检查。");
+    showAiLoading(`正在整理${recipe.name}的推荐理由`, "智能说明不会改变食材匹配、排序与安全校验结果。");
     const result = await services.ai?.explainRecommendation?.({ recipe, pantry: state.pantry, matchResult, preferences: state.preferences });
     if (!result?.ok) return showAiError("暂时无法生成解释", result?.error, { fallbackAction: "close-sheet", fallbackLabel: "返回推荐结果" });
     pendingAiRetry = null;
     openSheet(`
-      <div class="sheet-kicker">PHASE 2 · EXPLAINABLE</div>
-      <div class="provider-row">${providerBadge(result.meta)}<span>不改变产品排序</span></div>
+      <div class="sheet-kicker">推荐说明</div>
+      <div class="provider-row">${providerBadge()}<span>不改变产品排序</span></div>
       <h2 id="sheet-title">为什么推荐 ${esc(recipe.name)}</h2>
       <p class="sheet-lead">${esc(result.data.summary)}</p>
       <ul class="ai-bullet-list">${(result.data.bullets || []).map((item) => `<li>${esc(item)}</li>`).join("")}</ul>
@@ -1680,22 +1586,22 @@
     const missing = substitutableMissingIngredients(recipe);
     pendingAiRetry = null;
     if (!allMissing.length) {
-      openSheet(`<div class="sheet-kicker">PHASE 2 · SUBSTITUTE</div><h2 id="sheet-title">现在不需要替换</h2><p class="sheet-lead">这道菜的配料已经都在食材篮中，可以直接按原菜谱准备。</p><div class="sheet-actions"><button class="primary-button" type="button" data-action="close-sheet">知道了</button></div>`);
+      openSheet(`<div class="sheet-kicker">食材替换</div><h2 id="sheet-title">现在不需要替换</h2><p class="sheet-lead">这道菜的配料已经都在食材篮中，可以直接按原菜谱准备。</p><div class="sheet-actions"><button class="primary-button" type="button" data-action="close-sheet">知道了</button></div>`);
       return;
     }
     if (!missing.length) {
       const missingNames = allMissing.slice(0, 5).map(({ ingredient }) => ingredient.name).join("、");
       openSheet(`
-        <div class="sheet-kicker">PHASE 2 · SUBSTITUTE</div>
+        <div class="sheet-kicker">食材替换</div>
         <h2 id="sheet-title">没有可校验的替换目标</h2>
-        <p class="sheet-lead">当前缺少：${esc(missingNames)}。这些项目不在现有常用食材目录中，因此不会让 AI 随意给出无法核验的替代。</p>
+        <p class="sheet-lead">当前缺少：${esc(missingNames)}。这些项目不在现有常用食材目录中，因此不会给出无法核验的替代。</p>
         <div class="privacy-note"><b>为什么这样处理</b><span>盐、糖、油等基础调味品暂不纳入食材篮；需要替换核心食材时，可选择“还差 1–2 样”的菜谱体验。</span></div>
         <div class="sheet-actions"><button class="primary-button" type="button" data-action="close-sheet">返回配料表</button></div>
       `, id);
       return;
     }
     openSheet(`
-      <div class="sheet-kicker">PHASE 2 · SUBSTITUTE</div>
+      <div class="sheet-kicker">食材替换</div>
       <h2 id="sheet-title">想替换哪样缺少的食材</h2>
       <p class="sheet-lead">替换会说明风味或口感差异；最终安全提醒按实际选用配料重新判断。</p>
       <div class="substitution-picker">
@@ -1711,7 +1617,7 @@
     if (!recipe || !missingIngredient) return;
     const catalogItem = catalogForRecipeIngredient(missingIngredient);
     pendingAiRetry = () => requestSubstitutions(id, ingredientId);
-    showAiLoading(`DeepSeek 正在为${missingIngredient.name}寻找替代`, "会同时考虑当前忌口设置，并明确风味或口感差异。");
+    showAiLoading(`正在为${missingIngredient.name}寻找替代`, "会同时考虑当前忌口设置，并说明风味或口感差异。");
     const result = await services.ai?.suggestSubstitutions?.({
       recipe,
       missingIngredient: { ...missingIngredient, canonicalId: catalogItem?.id || "" },
@@ -1721,15 +1627,15 @@
     pendingAiRetry = null;
     pendingSubstitutionSuggestions = (result.data.suggestions || []).filter((suggestion) => catalogById(suggestion.ingredientId));
     openSheet(`
-      <div class="sheet-kicker">PHASE 2 · SUBSTITUTE</div>
-      <div class="provider-row">${providerBadge(result.meta)}<span>原配料：${esc(missingIngredient.name)}</span></div>
+      <div class="sheet-kicker">食材替换</div>
+      <div class="provider-row">${providerBadge()}<span>原配料：${esc(missingIngredient.name)}</span></div>
       <h2 id="sheet-title">${pendingSubstitutionSuggestions.length ? "可以考虑这些替代" : "没有足够可靠的替代"}</h2>
       <div class="substitution-results">
         ${pendingSubstitutionSuggestions.map((suggestion, index) => `<div class="substitution-result">
           ${pantryItemImage({ id: suggestion.ingredientId, name: suggestion.name })}
           <span><strong>${esc(suggestion.name)}</strong><small>${esc(suggestion.note)}</small></span>
           <button type="button" data-action="add-substitution" data-index="${index}">加入食材篮</button>
-        </div>`).join("") || `<p class="sheet-lead">${esc(result.data.note || "DeepSeek 没有返回通过食材库与忌口校验的替代项。")}</p>`}
+        </div>`).join("") || `<p class="sheet-lead">${esc(result.data.note || "本次没有找到通过食材库与忌口校验的替代项。")}</p>`}
       </div>
       <div class="privacy-note"><b>注意</b><span>${esc(result.data.note || "替换会改变传统风味，过敏原仍按实际配料判断。")}</span></div>
       <div class="sheet-actions"><button class="ghost-button" type="button" data-action="close-sheet">关闭</button></div>
@@ -1745,75 +1651,17 @@
     showToast(`${item.name}已加入食材篮`);
   }
 
-  function openStageMap() {
-    openSheet(`
-      <div class="sheet-kicker">DEVELOPMENT ROADMAP</div>
-      <h2 id="sheet-title">阶段二、三已经推进到哪里</h2>
-      <p class="sheet-lead">新增能力仍然服务于“根据食材选菜谱”和“根据菜谱选食材”，不会变成独立聊天栏目。</p>
-      <div class="stage-timeline">
-        <div class="stage-line current"><b>01</b><span><strong>HTML 核心产品</strong><span>找菜、配料、清单、图文烹饪与本地保存</span></span><b>完成</b></div>
-        <div class="stage-line current"><b>02</b><span><strong>DeepSeek 联网能力</strong><span>文字录入、推荐解释和替换走 DeepSeek；照片识别由通义千问视觉模型完成</span></span><b>已接入</b></div>
-        <div class="stage-line current"><b>03</b><span><strong>互动与数据能力</strong><span>烹饪小游戏、系统分享、数据备份已开放</span></span><b>可体验</b></div>
-        <div class="stage-line"><b>网</b><span><strong>公网部署</strong><span>让其他设备使用 AI 必须部署网页与服务端，并在服务器设置 DeepSeek 与通义千问密钥</span></span><b>待上线</b></div>
-        <div class="stage-line"><b>微</b><span><strong>微信平台接入</strong><span>登录、云同步和正式小程序仍需 AppID、云环境与审核配置</span></span><b>待配置</b></div>
-      </div>
-      <div class="sheet-actions"><button class="primary-button" type="button" data-action="close-sheet">继续体验</button></div>
-    `);
-  }
-
-  function openFeaturePreview(featureId, context) {
-    const copy = FEATURE_COPY[featureId];
-    if (!copy) return;
-    const config = features[featureId] || { phase: featureId === "heritage.story" ? 3 : 2, status: "preview" };
-    if (featureId === "cooking.beginnerGame") {
-      if (context) navigate(`#/game/${context}`);
-      else openGamePreview(context);
-      return;
-    }
-    openSheet(`
-      <div class="sheet-kicker">PHASE ${config.phase} · FEATURE PREVIEW</div>
-      <h2 id="sheet-title">${copy.title}</h2>
-      <p class="sheet-lead">${copy.description}</p>
-      <div class="preview-note"><strong>为什么现在不能用：</strong><br>${copy.limitation}</div>
-      <div class="sheet-actions">
-        <button class="primary-button" type="button" data-action="feature-fallback" data-fallback="${copy.fallback}">${copy.fallbackLabel}</button>
-        <button class="ghost-button" type="button" data-action="close-sheet">关闭</button>
-      </div>
-    `, context);
-  }
-
-  function openGamePreview(recipeId) {
-    const recipe = recipeById(recipeId) || recipes[0];
-    const previewImages = recipe.ingredients.slice(0, 3).map((ingredient) => {
-      const catalog = ingredients.find((item) => item.aliases.some((alias) => normalize(ingredient.label).includes(normalize(alias))));
-      return catalog ? `<img src="${imageRoot}${catalog.file}" alt="${esc(catalog.name)}">` : "";
-    }).join("") || `<img src="${imageRoot}Tomato.png" alt="番茄"><img src="${imageRoot}Eggs.png" alt="鸡蛋">`;
-    const copy = FEATURE_COPY["cooking.beginnerGame"];
-    openSheet(`
-      <div class="sheet-kicker">PHASE 3 · INTERACTIVE PREVIEW</div>
-      <h2 id="sheet-title">${copy.title}</h2>
-      <p class="sheet-lead">${copy.description}</p>
-      <div class="game-preview" aria-label="烹饪小游戏界面预览">
-        <div class="game-hint">现在把提示的食材放进锅里。顺序不对也没关系，我会等你。</div>
-        <div class="game-stove"></div><div class="game-flame">▲ ▲</div>
-        <div class="game-tray">${previewImages}<span style="margin-left:auto;font:9px var(--mono);color:rgba(255,255,255,.6)">低火 · 中火 · 高火</span></div>
-      </div>
-      <div class="preview-note">${copy.limitation}</div>
-      <div class="sheet-actions"><button class="primary-button fire" type="button" data-action="feature-fallback" data-fallback="cook">改用图文教程</button><button class="ghost-button" type="button" data-action="close-sheet">关闭预览</button></div>
-    `, recipe.id);
-  }
-
   function openCookModes(id) {
     const recipe = recipeById(id);
     if (!recipe) return;
     openSheet(`
       <div class="sheet-kicker">START COOKING</div>
       <h2 id="sheet-title">怎么学习 ${esc(recipe.name)}</h2>
-      <p class="sheet-lead">三种学习方式都已保留在烹饪流程中；小游戏是无失败、无惩罚的新手教程。</p>
+      <p class="sheet-lead">选择适合自己的方式开始；小游戏采用无失败、无惩罚的新手引导。</p>
       <div class="mode-list">
-        <button class="mode-card" type="button" data-action="start-cook" data-id="${id}"><span class="mode-icon">文</span><span><strong>分步图文教程</strong><span>大字步骤、三档火力、计时和进度保存</span></span><b style="color:var(--good)">可用</b></button>
-        <button class="mode-card" type="button" data-action="douyin-preview" data-id="${id}"><span class="mode-icon">搜</span><span><strong>去抖音搜索教程</strong><span>生成“${esc(recipe.name)} 家常做法”搜索词</span></span><b style="color:var(--good)">可用</b></button>
-        <button class="mode-card" type="button" data-action="start-game" data-id="${id}"><span class="mode-icon">玩</span><span><strong>烹饪新手小游戏</strong><span>无关卡、无惩罚，重点练下锅后的顺序与时机</span></span><b style="color:var(--good)">可用</b></button>
+        <button class="mode-card" type="button" data-action="start-cook" data-id="${id}"><span class="mode-icon">文</span><span><strong>分步图文教程</strong><span>大字步骤、三档火力、计时和进度保存</span></span><b>进入</b></button>
+        <button class="mode-card" type="button" data-action="douyin-preview" data-id="${id}"><span class="mode-icon">搜</span><span><strong>去抖音搜索教程</strong><span>生成“${esc(recipe.name)} 家常做法”搜索词</span></span><b>进入</b></button>
+        <button class="mode-card" type="button" data-action="start-game" data-id="${id}"><span class="mode-icon">玩</span><span><strong>烹饪新手小游戏</strong><span>无关卡、无惩罚，重点练下锅后的顺序与时机</span></span><b>进入</b></button>
       </div>
     `, id);
   }
@@ -1837,13 +1685,6 @@
     const url = `https://www.douyin.com/search/${encodeURIComponent(clean)}`;
     const opened = window.open(url, "_blank", "noopener,noreferrer");
     if (!opened) copyText(clean, "浏览器阻止了跳转，搜索词已复制");
-  }
-
-  function handleFeatureFallback(fallback) {
-    const context = sheet.dataset.context;
-    closeSheet();
-    if (fallback === "pantry") navigate("#/pantry");
-    if (fallback === "cook" && context) navigate(`#/cook/${context}`);
   }
 
   function startTimer(seconds) {
@@ -1885,7 +1726,6 @@
     const action = target.dataset.action;
 
     if (action === "close-sheet") closeSheet();
-    else if (action === "open-stage-map") openStageMap();
     else if (action === "back") history.length > 1 ? history.back() : navigate("#/home");
     else if (action === "toggle-pantry") {
       togglePantry(target.dataset.id);
@@ -2006,11 +1846,9 @@
     else if (action === "reset-local-data") {
       if (confirm("确定清除食材篮、收藏、采购清单和设置吗？")) {
         state = structuredCloneSafe(defaultState);
-        saveState(); renderApp(false); showToast("本机体验数据已重置");
+        saveState(); renderApp(false); showToast("本机数据已清除");
       }
     }
-    else if (action === "feature-preview") openFeaturePreview(target.dataset.feature, target.dataset.context || target.dataset.id || "");
-    else if (action === "feature-fallback") handleFeatureFallback(target.dataset.fallback);
   }
 
   function handleInput(event) {
@@ -2031,7 +1869,7 @@
       ui.recipeDifficulty = event.target.value;
       updateRecipeGrid();
     }
-    if (event.target.id === "ai-photo-file") handlePhotoSelection(event.target.files?.[0]);
+    if (event.target.id === "ai-photo-library-file" || event.target.id === "ai-photo-camera-file") handlePhotoSelection(event.target.files?.[0]);
     if (event.target.id === "backup-file") handleBackupSelection(event.target.files?.[0]);
   }
 

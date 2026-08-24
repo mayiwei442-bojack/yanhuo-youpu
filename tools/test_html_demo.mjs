@@ -21,11 +21,17 @@ function assert(condition, message) {
   if (!condition) throw new Error(message);
 }
 
+function assertNoInternalAiCopy(text, context) {
+  const forbidden = ["PHASE", "DeepSeek", "通义千问", "API Key", "账户余额", "服务端密钥", "服务端配置"];
+  assert(!forbidden.some((term) => String(text).includes(term)), `${context}仍显示内部 AI 信息：${text}`);
+}
+
 try {
   await page.goto(`${baseUrl}#/home`, { waitUntil: "load" });
   await page.waitForSelector(".hero-title");
   assert(await page.locator("#bottom-nav button").count() === 4, "底部导航不是 4 项");
   assert((await page.locator(".hero-title").innerText()).includes("今天吃什么"), "首页主标题缺失");
+  assert(await page.locator(".status-ribbon, .stage-button").count() === 0, "首页仍显示开发阶段提示");
   const primaryBackground = await page.locator(".choice-card.primary").evaluate((element) => getComputedStyle(element, "::before").backgroundImage);
   assert(primaryBackground.includes("home-ingredient-basket-v1.png"), "第一张主入口卡没有食材篮背景图");
   const secondaryBackground = await page.locator(".choice-card.secondary").evaluate((element) => getComputedStyle(element, "::before").backgroundImage);
@@ -42,6 +48,8 @@ try {
   await page.goto(`${baseUrl}#/pantry`, { waitUntil: "load" });
   await page.waitForSelector("#ingredient-grid");
   assert(await page.locator(".ingredient-tile").count() === 35, "食材库不是 35 项");
+  assert((await page.locator(".pantry-board strong").innerText()).includes("0 样食材"), "新用户食材篮不是空的");
+  assert(!((await page.locator(".feature-shortcuts").innerText()).includes("阶段") || (await page.locator(".feature-shortcuts").innerText()).includes("DeepSeek") || (await page.locator(".feature-shortcuts").innerText()).includes("通义千问")), "食材入口仍显示阶段或模型名称");
 
   await page.locator('[data-action="open-ai-text"]').click();
   await page.fill("#ai-ingredient-text", "两个番茄、三个鸡蛋和半颗洋葱");
@@ -50,45 +58,55 @@ try {
     await page.waitForSelector(".ai-candidate-list, .preview-note");
     assert(await page.locator(".ai-candidate-list").count() === 1, `DeepSeek 文字录入失败：${await page.locator("#sheet-content").innerText()}`);
     assert(await page.locator(".ai-candidate").count() === 3, "DeepSeek 没有返回 3 样候选食材");
-    assert((await page.locator(".provider-badge").innerText()).includes("DeepSeek"), "没有显示 DeepSeek 提供方");
+    assert((await page.locator(".provider-badge").innerText()) === "智能服务", "AI 徽标没有改成通用名称");
+    assertNoInternalAiCopy(await page.locator("#sheet-content").innerText(), "文字识别弹层");
     await page.screenshot({ path: "outputs/qa-html-ai-text-mobile.png", fullPage: true });
     await page.locator('[data-action="apply-ai-candidates"]').click();
-    assert((await page.locator(".pantry-board strong").innerText()).includes("4 样食材"), "确认后的 DeepSeek 候选没有加入食材篮");
+    assert((await page.locator(".pantry-board strong").innerText()).includes("3 样食材"), "确认后的 DeepSeek 候选没有加入食材篮");
     await page.locator('.selected-pixel[title="洋葱"] .selected-remove').click();
-    assert((await page.locator(".pantry-board strong").innerText()).includes("3 样食材"), "DeepSeek 录入测试没有恢复初始食材篮");
+    assert((await page.locator(".pantry-board strong").innerText()).includes("2 样食材"), "DeepSeek 候选移除失败");
   } else {
     await page.waitForSelector(".preview-note");
     const aiError = await page.locator("#sheet-content").innerText();
-    assert(aiError.includes("本地服务器") || aiError.includes("DeepSeek API"), "file:// 模式没有明确说明 AI 服务要求");
-    assert(!aiError.includes("本机解析"), "AI 失败时仍然回退到了本机规则");
-    assert((await page.locator(".pantry-board strong").innerText()).includes("3 样食材"), "AI 失败时不应修改食材篮");
+    assert(aiError.includes("智能服务现在无法完成这次请求"), "AI 错误没有使用用户友好文案");
+    assertNoInternalAiCopy(aiError, "AI 错误弹层");
+    assert((await page.locator(".pantry-board strong").innerText()).includes("0 样食材"), "AI 失败时不应修改食材篮");
     await page.screenshot({ path: "outputs/qa-html-ai-unavailable-mobile.png", fullPage: true });
     await page.locator('[data-action="close-sheet"]').last().click();
   }
 
   await page.locator('[data-action="open-ai-photo"]').click();
-  await page.waitForSelector("#ai-photo-file");
+  await page.waitForSelector("#ai-photo-library-file");
   const photoSheet = await page.locator("#sheet-content").innerText();
   assert(photoSheet.includes("拍照识别桌面食材"), "照片识别入口没有打开拍照弹层");
-  assert(photoSheet.includes("选择或拍摄照片"), "照片弹层没有提供选择照片入口");
+  assert(photoSheet.includes("选择照片") && photoSheet.includes("拍摄照片"), "照片弹层没有分开选择与拍摄入口");
+  assertNoInternalAiCopy(photoSheet, "照片识别弹层");
+  assert(await page.locator(".photo-source-button").count() === 2, "照片入口不是两个独立圆角按钮");
+  assert(await page.locator("#ai-photo-library-file").getAttribute("capture") === null, "选择照片入口不应强制打开相机");
+  assert(await page.locator("#ai-photo-camera-file").getAttribute("capture") === "environment", "拍摄照片入口没有请求后置相机");
   assert(photoSheet.includes("本机压缩"), "照片弹层没有说明本机压缩与用途边界");
   assert(await page.locator('[data-action="recognize-ai-photo"]').getAttribute("disabled") !== null, "未选择照片时不应允许开始识别");
   await page.screenshot({ path: "outputs/qa-html-ai-photo-mobile.png", fullPage: true });
-  await page.setInputFiles("#ai-photo-file", resolve("assets/pixel-food/selected/Tomato.png"));
+  await page.setInputFiles("#ai-photo-library-file", resolve("assets/pixel-food/selected/Tomato.png"));
   await page.waitForFunction(() => {
     const button = document.querySelector('[data-action="recognize-ai-photo"]');
     return Boolean(button) && !button.hasAttribute("disabled");
   }, { timeout: 10000 });
-  assert((await page.locator(".photo-drop img").getAttribute("src") || "").startsWith("data:image/"), "照片没有压缩为 data URL 预览（CSP 回归）");
+  assert((await page.locator(".photo-preview img").getAttribute("src") || "").startsWith("data:image/"), "照片没有压缩为 data URL 预览（CSP 回归）");
   await page.locator('[data-action="close-sheet"]').last().click();
 
   await page.fill("#custom-ingredient", "香菜");
   await page.locator("#custom-ingredient-form button[type=submit]").click();
-  assert((await page.locator(".pantry-board strong").innerText()).includes("4 样食材"), "自定义食材未加入");
+  const pantryAfterCustomAdd = expectDeepSeek ? "3 样食材" : "1 样食材";
+  const pantryAfterCustomRemove = expectDeepSeek ? "2 样食材" : "0 样食材";
+  assert((await page.locator(".pantry-board strong").innerText()).includes(pantryAfterCustomAdd), "自定义食材未加入");
   await page.locator(".selected-pixel .custom-pixel").click();
-  assert((await page.locator(".pantry-board strong").innerText()).includes("4 样食材"), "点击已选食材图像不应直接删除");
+  assert((await page.locator(".pantry-board strong").innerText()).includes(pantryAfterCustomAdd), "点击已选食材图像不应直接删除");
   await page.locator(".selected-remove").last().click();
-  assert((await page.locator(".pantry-board strong").innerText()).includes("3 样食材"), "右上角删除按钮没有移除食材");
+  assert((await page.locator(".pantry-board strong").innerText()).includes(pantryAfterCustomRemove), "右上角删除按钮没有移除食材");
+  await page.locator('[data-action="clear-pantry"]').click();
+  for (const id of ["tomato", "eggs", "scallion"]) await page.locator(`.ingredient-tile[data-id="${id}"]`).click();
+  assert((await page.locator(".pantry-board strong").innerText()).includes("3 样食材"), "基础食材没有正确加入");
   await page.screenshot({ path: "outputs/qa-html-pantry-mobile.png", fullPage: true });
 
   await page.locator('[data-action="find-recipes"]').click();
@@ -100,12 +118,12 @@ try {
     await page.waitForSelector(".provider-badge, .preview-note");
     assert(await page.locator(".provider-badge").count() === 1, `DeepSeek 推荐解释失败：${await page.locator("#sheet-content").innerText()}`);
     assert((await page.locator("#sheet-content").innerText()).includes("为什么推荐"), "DeepSeek 推荐解释没有生成");
-    assert((await page.locator("#sheet-content").innerText()).includes("DeepSeek"), "推荐解释没有显示 DeepSeek 提供方");
+    assertNoInternalAiCopy(await page.locator("#sheet-content").innerText(), "推荐解释弹层");
   } else {
     await page.waitForSelector(".preview-note");
     const explanationError = await page.locator("#sheet-content").innerText();
-    assert(explanationError.includes("DeepSeek"), "未配置时推荐解释没有显示真实服务错误");
-    assert(!explanationError.includes("本机解析"), "推荐解释不应回退本机规则");
+    assert(explanationError.includes("智能服务现在无法完成这次请求"), "推荐解释错误没有使用通用文案");
+    assertNoInternalAiCopy(explanationError, "推荐解释错误弹层");
   }
   await page.locator('[data-action="close-sheet"]').last().click();
   await page.screenshot({ path: "outputs/qa-html-recommendations-mobile.png", fullPage: true });
@@ -125,7 +143,7 @@ try {
     await page.locator('.substitution-picker [data-action="ai-substitute"]').first().click();
     await page.waitForSelector(".provider-badge, .preview-note");
     assert(await page.locator(".provider-badge").count() === 1, `DeepSeek 食材替换失败：${await page.locator("#sheet-content").innerText()}`);
-    assert((await page.locator("#sheet-content").innerText()).includes("DeepSeek"), "食材替换没有显示 DeepSeek 提供方");
+    assertNoInternalAiCopy(await page.locator("#sheet-content").innerText(), "食材替换弹层");
     assert(await page.locator(".substitution-result").count() > 0, `DeepSeek 替换建议没有通过服务端校验（菜谱 ${recipeId}）：${await page.locator("#sheet-content").innerText()}`);
     await page.screenshot({ path: "outputs/qa-html-ai-substitution-mobile.png", fullPage: true });
     await page.locator('[data-action="close-sheet"]').last().click();
@@ -134,6 +152,7 @@ try {
   await page.locator('[data-action="open-cook-modes"]').click();
   await page.waitForSelector(".mode-list");
   assert(await page.locator(".mode-card").count() === 3, "烹饪方式不是 3 种");
+  assert(!(await page.locator(".mode-list").innerText()).includes("可用"), "烹饪方式仍显示可用状态");
   await page.locator('[data-action="start-game"]').click();
   await page.waitForSelector(".game-page");
   assert((await page.locator(".cook-top").innerText()).includes("新手小游戏"), "未进入烹饪新手小游戏");
@@ -161,16 +180,26 @@ try {
   await page.waitForSelector(".game-complete-card");
   assert(Number(await page.locator(".game-score strong").innerText()) >= 80, "小游戏鼓励评分低于设计下限");
   assert((await page.locator(".game-complete-card").innerText()).includes("不设失败、排名或惩罚"), "小游戏无奖惩说明缺失");
-  await page.locator('.game-complete-card [data-action="start-cook"]').click();
+  await page.locator('.game-complete-card [data-nav="#/recipes"]').click();
+  await page.waitForSelector(".recipes-page");
+  assert(new URL(page.url()).hash === "#/recipes", "小游戏完成后没有回到菜谱列表");
+  await page.goto(`${baseUrl}#/cook/${recipeId}`, { waitUntil: "load" });
   await page.waitForSelector(".cooking-page");
   assert((await page.locator(".cook-top").innerText()).includes("图文教程"), "未进入图文教程");
   await page.screenshot({ path: "outputs/qa-html-cook-mobile.png", fullPage: true });
   await page.locator('[data-action="cook-next"]').click();
   assert((await page.locator(".progress-label").innerText()).includes("2 /"), "烹饪进度没有前进");
+  while (await page.locator('[data-action="cook-next"]').count()) await page.locator('[data-action="cook-next"]').click();
+  await page.waitForSelector(".cook-done");
+  await page.locator('.cook-done [data-nav="#/recipes"]').click();
+  await page.waitForSelector(".recipes-page");
+  assert(new URL(page.url()).hash === "#/recipes", "烹饪完成后没有回到菜谱列表");
 
   await page.goto(`${baseUrl}#/shopping`, { waitUntil: "load" });
   await page.waitForSelector(".shopping-page");
   assert(await page.locator(".shopping-item").count() > 0, "采购清单没有生成");
+  const shoppingText = await page.locator(".shopping-page").innerText();
+  assert(!shoppingText.includes("阶段") && !shoppingText.includes("可用"), "采购清单仍显示开发阶段或可用状态");
 
   await page.goto(`${baseUrl}#/recipes`, { waitUntil: "load" });
   await page.waitForSelector("#recipe-grid");
@@ -182,11 +211,18 @@ try {
   await page.waitForSelector(".profile-page");
   assert(await page.locator('[data-action="export-local-data"]').count() === 1, "本机数据导出入口缺失");
   assert(await page.locator('[data-action="open-import-data"]').count() === 1, "本机数据恢复入口缺失");
-  await page.locator('[data-action="feature-preview"][data-feature="cloud.sync"]').click();
-  await page.waitForSelector("#action-sheet[open]");
-  assert((await page.locator("#sheet-content").innerText()).includes("当前没有连接云数据库"), "云同步预览说明缺失");
+  assert((await page.locator('[data-action="reset-local-data"]').innerText()) === "清除本机数据", "清除数据按钮仍带体验版措辞");
+  assert(await page.locator('[data-feature="account.login"], [data-feature="cloud.sync"], [data-feature="platform.wechatMiniProgram"]').count() === 0, "我的页面仍显示阶段规划入口");
+  await page.locator('[data-action="open-import-data"]').click();
+  const importSheet = await page.locator("#sheet-content").innerText();
+  assert(!importSheet.includes("PHASE") && !importSheet.includes("LOCAL BACKUP"), "数据恢复弹层仍显示开发阶段");
   await page.locator('[data-action="close-sheet"]').last().click();
   await page.screenshot({ path: "outputs/qa-html-me-mobile.png", fullPage: true });
+
+  await page.goto(`${baseUrl}#/recipe/cn-011`, { waitUntil: "load" });
+  await page.waitForSelector(".heritage-preview");
+  const heritageText = await page.locator(".heritage-preview").innerText();
+  assert(!["待资料核验", "后续将连接", "功能预览"].some((term) => heritageText.includes(term)), "地域风味仍显示开发期文案");
 
   await page.goto(`${baseUrl}#/recipe/${recipeId}`, { waitUntil: "load" });
   await page.waitForSelector(".detail-page");
