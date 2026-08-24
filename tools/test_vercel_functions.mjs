@@ -121,9 +121,8 @@ try {
   const status = await invoke(aiHandler, { operation: "status", method: "GET" });
   assert(status.response.statusCode === 200, "Vercel AI 状态接口失败");
   assert(status.json.data?.configured === true, "Vercel AI 状态未显示已配置");
-  assert(status.json.data?.model === "deepseek-v4-flash", "Vercel AI 状态模型不正确");
   assert(status.json.data?.capabilities?.vision === true, "Vercel AI 状态未声明视觉能力");
-  assert(status.json.data?.visionModel === "qwen-vl-max-test", "Vercel AI 状态视觉模型不正确");
+  assert(!["provider", "model", "deepseek-v4-flash", "qwen-vl-max-test"].some((term) => JSON.stringify(status.json).includes(term)), "公开 AI 状态泄露了供应商或模型信息");
 
   const ingredientCatalog = [
     { id: "tomato", name: "番茄" },
@@ -164,7 +163,7 @@ try {
   assert(photo.response.statusCode === 200, `Vercel 照片识别失败：${photo.response.body}`);
   assert(photo.json.data?.candidates?.length === 2, "Vercel 照片识别候选结果不正确");
   assert(photo.json.data?.needsConfirmation === true, "Vercel 照片识别结果没有要求确认");
-  assert(photo.json.meta?.provider === "qwen-vision", "Vercel 照片识别没有标记通义千问视觉提供方");
+  assert(!["provider", "model", "usage", "qwen-vision", "qwen-vl-max-test"].some((term) => JSON.stringify(photo.json).includes(term)), "照片识别响应泄露了供应商、模型或用量信息");
 
   const invalidImage = await invoke(aiHandler, {
     operation: "recognize-ingredient-photo",
@@ -194,8 +193,31 @@ try {
     socket: { remoteAddress: "127.0.0.1" }
   }, bareResponse, "recognize-ingredient-photo");
   const bareJson = JSON.parse(bareResponse.body || "{}");
-  assert(bareResponse.statusCode === 503 && bareJson.error?.code === "AI_NOT_CONFIGURED", "未配置视觉密钥时没有明确拒绝照片识别");
+  assert(bareResponse.statusCode === 503 && bareJson.error?.code === "AI_SERVICE_UNAVAILABLE", "未配置视觉能力时没有安全拒绝照片识别");
   assert(bareJson.error?.message?.includes("照片没有上传"), "未配置视觉密钥时没有说明照片未上传");
+  assert(!["QWEN", "API_KEY", "provider", "model", "余额", "密钥"].some((term) => JSON.stringify(bareJson).includes(term)), "AI 错误响应泄露了内部运维信息");
+
+  const authFailService = createAiService({
+    VERCEL: "1",
+    DEEPSEEK_API_KEY: "invalid-test-key",
+    DEEPSEEK_BASE_URL: `http://127.0.0.1:${mockPort}`
+  });
+  const authFailResponse = new MockResponse();
+  await authFailService.handleRoute({
+    method: "POST",
+    url: "/api/ai/parse-ingredients",
+    body: { text: "番茄", ingredientCatalog },
+    headers: {
+      host: "yanhuo-preview.vercel.app",
+      origin: "https://yanhuo-preview.vercel.app",
+      "x-forwarded-host": "yanhuo-preview.vercel.app",
+      "x-forwarded-for": "203.0.113.20"
+    },
+    socket: { remoteAddress: "127.0.0.1" }
+  }, authFailResponse, "parse-ingredients");
+  const authFailJson = JSON.parse(authFailResponse.body || "{}");
+  assert(authFailResponse.statusCode === 502 && authFailJson.error?.code === "AI_SERVICE_UNAVAILABLE", "上游认证错误没有转换为通用错误");
+  assert(!["DeepSeek", "API Key", "provider", "model", "余额", "密钥", "环境变量"].some((term) => JSON.stringify(authFailJson).includes(term)), "上游认证错误响应泄露了内部运维信息");
 
   const blockedOrigin = await invoke(aiHandler, {
     operation: "parse-ingredients",

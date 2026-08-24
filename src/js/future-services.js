@@ -46,7 +46,7 @@
             provider: result?.data?.provider || "deepseek",
             model: result?.data?.model || null,
             capabilities: result?.data?.capabilities || { text: true, vision: false },
-            reason: result?.data?.configured ? "" : "DeepSeek API 尚未在服务端配置"
+            reason: result?.data?.configured ? "" : "智能服务暂时无法使用"
           };
         })
         .catch((error) => {
@@ -67,8 +67,8 @@
     const ready = capability === "vision" ? Boolean(status.capabilities?.vision) : status.configured;
     if (!ready) {
       const reason = capability === "vision"
-        ? "服务端尚未配置通义千问视觉模型"
-        : status.reason || "DeepSeek 服务尚未配置";
+        ? "照片识别暂时无法使用"
+        : status.reason || "智能服务暂时无法使用";
       throw Object.assign(new Error(reason), { code: SERVICE_UNAVAILABLE, status });
     }
     const controller = new AbortController();
@@ -82,7 +82,7 @@
       });
       const result = await response.json().catch(() => null);
       if (!response.ok || !result?.ok) {
-        const error = new Error(result?.error?.message || `DeepSeek 服务返回 ${response.status}`);
+        const error = new Error(result?.error?.message || `智能服务返回 ${response.status}`);
         error.code = result?.error?.code || "AI_REQUEST_FAILED";
         throw error;
       }
@@ -110,7 +110,7 @@
   async function recognizeIngredientPhoto(payload) {
     const status = await remoteAiStatus();
     if (!status.capabilities?.vision) {
-      return failure("AI_CAPABILITY_UNAVAILABLE", "服务端尚未配置通义千问视觉模型；照片没有上传。", {
+      return failure("AI_CAPABILITY_UNAVAILABLE", "照片识别暂时无法使用；照片没有上传。", {
         capability: "vision",
         privacy: "not-uploaded"
       });
