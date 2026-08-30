@@ -1,0 +1,164 @@
+{
+  "batchId": "2026-08-30-initial-10",
+  "createdAt": "2026-08-30T00:00:00+08:00",
+  "book": {
+    "fileName": "贝太厨房：从小爱吃的菜2 (《贝太厨房》工作室) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+    "title": "贝太厨房:从小爱吃的菜2",
+    "author": "《贝太厨房》工作室",
+    "format": "EPUB",
+    "fixedPageNumbersAvailable": false
+  },
+  "selection": {
+    "existingRecipeRule": "从 EPUB 与当前 90 道 canonical 菜谱的 6 道精确重名交集中选择 5 道；番茄炒蛋保留为独立 Resource Test。",
+    "bookOnlyRule": "以 20260830 为固定种子排序，从项目尚无且能在白名单网站找到同名可访问完整教程的书中菜品取前 5 道。",
+    "seed": 20260830,
+    "excluded": [
+      {
+        "name": "墨鱼干炒肉丝",
+        "reason": "白名单网站只找到加入青萝卜等近似变体，按 Spec 的相关性规则不作为同一道菜入库。"
+      }
+    ]
+  },
+  "recipes": [
+    {
+      "key": "cn-010-disanxian",
+      "mode": "update_existing",
+      "recipeId": "cn-010",
+      "recipeName": "地三鲜",
+      "category": "chinese",
+      "website": {
+        "sourceName": "豆果美食",
+        "searchUrl": "https://m.douguo.com/caipu/%E5%9C%B0%E4%B8%89%E9%B2%9C",
+        "url": "https://www.douguo.com/cookbook/3355060.html",
+        "extractor": "douguo",
+        "titlePattern": "地三鲜"
+      }
+    },
+    {
+      "key": "cn-024-guobaorou",
+      "mode": "update_existing",
+      "recipeId": "cn-024",
+      "recipeName": "锅包肉",
+      "category": "chinese",
+      "website": {
+        "sourceName": "豆果美食",
+        "searchUrl": "https://m.douguo.com/caipu/%E9%94%85%E5%8C%85%E8%82%89",
+        "url": "https://www.douguo.com/cookbook/1489279.html",
+        "extractor": "douguo",
+        "titlePattern": "锅包肉"
+      }
+    },
+    {
+      "key": "cn-027-scallop-vermicelli",
+      "mode": "update_existing",
+      "recipeId": "cn-027",
+      "recipeName": "蒜蓉粉丝蒸扇贝",
+      "category": "chinese",
+      "website": {
+        "sourceName": "豆果美食",
+        "searchUrl": "https://m.douguo.com/caipu/%E8%92%9C%E8%93%89%E7%B2%89%E4%B8%9D%E8%92%B8%E6%89%87%E8%B4%9D",
+        "url": "https://www.douguo.com/cookbook/2292246.html",
+        "extractor": "douguo",
+        "titlePattern": "蒜蓉粉丝蒸扇贝"
+      }
+    },
+    {
+      "key": "cn-036-lotus-rib-soup",
+      "mode": "update_existing",
+      "recipeId": "cn-036",
+      "recipeName": "莲藕排骨汤",
+      "category": "chinese",
+      "website": {
+        "sourceName": "豆果美食",
+        "searchUrl": "https://m.douguo.com/caipu/%E8%8E%B2%E8%97%95%E6%8E%92%E9%AA%A8%E6%B1%A4",
+        "url": "https://www.douguo.com/cookbook/3356395.html",
+        "extractor": "douguo",
+        "titlePattern": "莲藕排骨汤"
+      }
+    },
+    {
+      "key": "cn-054-black-bean-ribs",
+      "mode": "update_existing",
+      "recipeId": "cn-054",
+      "recipeName": "豉汁蒸排骨",
+      "category": "chinese",
+      "website": {
+        "sourceName": "豆果美食",
+        "searchUrl": "https://m.douguo.com/caipu/%E8%B1%89%E6%B1%81%E8%92%B8%E6%8E%92%E9%AA%A8",
+        "url": "https://www.douguo.com/cookbook/3316845.html",
+        "extractor": "douguo",
+        "titlePattern": "豉汁蒸排骨"
+      }
+    },
+    {
+      "key": "book-001-pork-lapi",
+      "mode": "kb_only",
+      "recipeId": null,
+      "recipeName": "肉丝炒拉皮",
+      "category": "chinese",
+      "website": {
+        "sourceName": "下厨房",
+        "searchUrl": "https://www.xiachufang.com/search/?keyword=%E8%82%89%E4%B8%9D%E7%82%92%E6%8B%89%E7%9A%AE",
+        "url": "https://www.xiachufang.com/recipe/104755676/",
+        "extractor": "jsonld",
+        "titlePattern": "肉丝拉皮"
+      }
+    },
+    {
+      "key": "book-002-sweet-sour-fish",
+      "mode": "kb_only",
+      "recipeId": null,
+      "recipeName": "糖醋鱼",
+      "category": "chinese",
+      "website": {
+        "sourceName": "下厨房",
+        "searchUrl": "https://www.xiachufang.com/search/?keyword=%E7%B3%96%E9%86%8B%E9%B1%BC",
+        "url": "https://www.xiachufang.com/recipe/104253108/",
+        "extractor": "jsonld",
+        "titlePattern": "糖醋鱼"
+      }
+    },
+    {
+      "key": "book-003-cabbage-wood-ear",
+      "mode": "kb_only",
+      "recipeId": null,
+      "recipeName": "黑木耳炒大白菜",
+      "category": "chinese",
+      "website": {
+        "sourceName": "豆果美食",
+        "searchUrl": "https://m.douguo.com/caipu/%E9%BB%91%E6%9C%A8%E8%80%B3%E7%82%92%E5%A4%A7%E7%99%BD%E8%8F%9C",
+        "url": "https://www.douguo.com/cookbook/2061697.html",
+        "extractor": "douguo",
+        "titlePattern": "黑木耳炒大白菜"
+      }
+    },
+    {
+      "key": "book-004-beer-duck",
+      "mode": "kb_only",
+      "recipeId": null,
+      "recipeName": "啤酒鸭",
+      "category": "chinese",
+      "website": {
+        "sourceName": "豆果美食",
+        "searchUrl": "https://m.douguo.com/caipu/%E5%95%A4%E9%85%92%E9%B8%AD",
+        "url": "https://www.douguo.com/cookbook/3325755.html",
+        "extractor": "douguo",
+        "titlePattern": "啤酒鸭"
+      }
+    },
+    {
+      "key": "book-005-chestnut-chicken",
+      "mode": "kb_only",
+      "recipeId": null,
+      "recipeName": "栗子焖鸡",
+      "category": "chinese",
+      "website": {
+        "sourceName": "豆果美食",
+        "searchUrl": "https://m.douguo.com/caipu/%E6%A0%97%E5%AD%90%E7%84%96%E9%B8%A1",
+        "url": "https://www.douguo.com/cookbook/2074234.html",
+        "extractor": "douguo",
+        "titlePattern": "栗子焖鸡"
+      }
+    }
+  ]
+}

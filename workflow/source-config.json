@@ -1,0 +1,31 @@
+{
+  "chinese": [
+    {
+      "name": "The Woks of Life",
+      "baseUrl": "https://thewoksoflife.com/",
+      "enabled": true
+    },
+    {
+      "name": "豆果美食",
+      "baseUrl": "https://www.douguo.net/",
+      "enabled": true
+    },
+    {
+      "name": "下厨房",
+      "baseUrl": "https://www.xiachufang.com/",
+      "enabled": true
+    }
+  ],
+  "western": [
+    {
+      "name": "Serious Eats",
+      "baseUrl": "https://www.seriouseats.com/",
+      "enabled": true
+    },
+    {
+      "name": "BBC Good Food",
+      "baseUrl": "https://www.bbcgoodfood.com/",
+      "enabled": true
+    }
+  ]
+}

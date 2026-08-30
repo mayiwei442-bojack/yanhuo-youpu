@@ -1,0 +1,382 @@
+{
+  "recipeId": "cn-054",
+  "recipeName": "豉汁蒸排骨",
+  "category": "chinese",
+  "createdAt": "2026-08-29T18:47:18.905Z",
+  "sources": [
+    {
+      "sourceName": "贝太厨房:从小爱吃的菜2",
+      "sourceType": "book",
+      "url": null,
+      "documentId": "ea4f852f-37df-4285-ac9d-bff1aec25dc5",
+      "retrievalMethod": "EPUB XHTML section",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "肋排",
+          "amount": "500g",
+          "raw": "肋排 500g"
+        },
+        {
+          "name": "阳江豆豉",
+          "amount": "15g",
+          "raw": "阳江豆豉 15g"
+        },
+        {
+          "name": "白糖",
+          "amount": "3g",
+          "raw": "白糖 3g"
+        },
+        {
+          "name": "干淀粉",
+          "amount": "5g",
+          "raw": "干淀粉 5g"
+        },
+        {
+          "name": "盐",
+          "amount": "5g",
+          "raw": "盐 5g"
+        },
+        {
+          "name": "料酒",
+          "amount": "10ml",
+          "raw": "料酒 10ml"
+        },
+        {
+          "name": "生抽",
+          "amount": "15ml",
+          "raw": "生抽 15ml"
+        },
+        {
+          "name": "蚝油",
+          "amount": "5ml",
+          "raw": "蚝油 5ml"
+        },
+        {
+          "name": "姜",
+          "amount": "10g",
+          "raw": "姜 10g"
+        },
+        {
+          "name": "白胡椒粉",
+          "amount": "2g",
+          "raw": "白胡椒粉 2g"
+        },
+        {
+          "name": "朝天椒",
+          "amount": "1个",
+          "raw": "朝天椒 1个"
+        },
+        {
+          "name": "小葱",
+          "amount": "10g",
+          "raw": "小葱 10g"
+        },
+        {
+          "name": "油",
+          "amount": "10ml",
+          "raw": "油 10ml"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "将肋排斩成3cm见方的小块，这样较易蒸熟，如果剁得太大，容易里面不熟或者外面太老。把肋排冲洗干净后沥干水分。姜葱切末，红椒切粒。",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "将豆豉、姜末、部分红椒粒倒在排骨上，调入盐、白糖、白胡椒粉、生油、蚝油、料酒和油，抓拌均匀。（图2）",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "干淀粉加水调成水淀粉，倒入排骨拌匀，腌制2个小时，使排骨入味。（图3）",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "锅中放水大火烧开，将腌好的排骨放入盘中蒸30分钟，出锅后撒上葱花和剩下的红椒粒便可以了。",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [
+        "准备：15分钟（不含腌制时间）",
+        "烹饪：30分钟"
+      ],
+      "tips": [
+        "1.排骨最好选择有点肥肉的，这样吃起来口感更好，不会太柴。如果觉得豆豉不好买，也可以直接在超市买豆豉酱，然后将盐、生抽、蚝油和料酒的成分都相应减少就可以了。",
+        "2.如果你喜欢蒜香排骨的话，还可以在蒸之前加入蒜末。"
+      ],
+      "rawExcerpt": "豉汁蒸排骨\n\r\n\r\n准备：15分钟（不含腌制时间）　 \r\n烹饪：30分钟\n\r\n这道菜使用了阳江豆豉，蒸制的方法让排骨浓香软烂，但是又不油腻，做起来也很简单，是绝不会让人失望的下饭好菜，麻利又贤惠的主妇可不能不会哦！\n\r\n用料：\n\r\n肋排　　　　500g 阳江豆豉　　15g 白糖　　　　3g 干淀粉　　　5g 盐　　　　　5g 料酒　　　　10ml 生抽　　　　15ml 蚝油　　　　5ml 姜　　　　　10g 白胡椒粉　　2g 朝天椒　　　1个\n\r\n小葱　　　　10g 油　　　　　10ml 做法：\n\r\n1.将肋排斩成3cm见方的小块，这样较易蒸熟，如果剁得太大，容易里面不熟或者外面太老。把肋排冲洗干净后沥干水分。姜葱切末，红椒切粒。\n\r\n2.将豆豉、姜末、部分红椒粒倒在排骨上，调入盐、白糖、白胡椒粉、生油、蚝油、料酒和油，抓拌均匀。（图2）\n\r\n3.干淀粉加水调成水淀粉，倒入排骨拌匀，腌制2个小时，使排骨入味。（图3）\n\r\n4.锅中放水大火烧开，将腌好的排骨放入盘中蒸30分钟，出锅后撒上葱花和剩下的红椒粒便可以了。\n\r\n家传小诀窍：\n\r\n1.排骨最好选择有点肥肉的，这样吃起来口感更好，不会太柴。如果觉得豆豉不好买，也可以直接在超市买豆豉酱，然后将盐、生抽、蚝油和料酒的成分都相应减少就可以了。\n\r\n2.如果你喜欢蒜香排骨的话，还可以在蒸之前加入蒜末。",
+      "bookTitle": "贝太厨房:从小爱吃的菜2",
+      "pageStart": null,
+      "pageEnd": null,
+      "location": "text00025.html#subid15"
+    },
+    {
+      "sourceName": "豆果美食",
+      "sourceType": "website",
+      "url": "https://www.douguo.com/cookbook/3316845.html",
+      "documentId": "200aceeb-8159-4c77-bae0-5c9ca7e2117e",
+      "retrievalMethod": "HTML正文",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "排骨",
+          "amount": "500克",
+          "raw": "排骨 500克"
+        },
+        {
+          "name": "辅料",
+          "amount": "：陈皮5克",
+          "raw": "辅料 ：陈皮5克"
+        },
+        {
+          "name": "豆豉",
+          "amount": "50克",
+          "raw": "豆豉 50克"
+        },
+        {
+          "name": "高汤",
+          "amount": "50克",
+          "raw": "高汤 50克"
+        },
+        {
+          "name": "葱花",
+          "amount": "10克",
+          "raw": "葱花 10克"
+        },
+        {
+          "name": "青红椒末",
+          "amount": "适量",
+          "raw": "青红椒末 适量"
+        },
+        {
+          "name": "调料",
+          "amount": "：花生油55克",
+          "raw": "调料 ：花生油55克"
+        },
+        {
+          "name": "酱油",
+          "amount": "15克",
+          "raw": "酱油 15克"
+        },
+        {
+          "name": "蚝油",
+          "amount": "15克",
+          "raw": "蚝油 15克"
+        },
+        {
+          "name": "生粉",
+          "amount": "15克",
+          "raw": "生粉 15克"
+        },
+        {
+          "name": "姜末",
+          "amount": "10克",
+          "raw": "姜末 10克"
+        },
+        {
+          "name": "蒜末",
+          "amount": "10克",
+          "raw": "蒜末 10克"
+        },
+        {
+          "name": "糖",
+          "amount": "15克",
+          "raw": "糖 15克"
+        },
+        {
+          "name": "味精",
+          "amount": "10克",
+          "raw": "味精 10克"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "首先备好材料,把排骨去除背部脊骨和腩尾软骨部分后，切成3公分左右的段备用.青红辣椒切粒备用。姜和蒜末切碎备用。陈皮泡软切丝备用。",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "豆豉切碎。",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "添可料理锅将豆豉干煸一下",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "入陈皮丝继续煸炒出香味",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 5,
+          "instruction": "后下蒜末和姜末和厨邦花生油继续爆香约半分钟",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 6,
+          "instruction": "下少许高汤、糖、味精、煮至黏稠后",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 7,
+          "instruction": "加入10克酱油、10克蚝油煮至混合即可盛出。",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 8,
+          "instruction": "排骨加上豆豉汁充分翻拌均匀后再加入5克酱油、5克蚝油补味",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 9,
+          "instruction": "加少量高汤，生粉和花生油继续充分搅拌后腌制20分钟后备用。",
+          "duration": "20分钟",
+          "heat": null
+        },
+        {
+          "order": 10,
+          "instruction": "腌制好的排骨，换上添可料理蒸锅，水开上汽大火蒸25分钟出锅！",
+          "duration": "25分钟",
+          "heat": "大火"
+        },
+        {
+          "order": 11,
+          "instruction": "撒入葱花和青红椒末，淋上热油即可。",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 12,
+          "instruction": "1秒脱骨，嫩滑多汁！",
+          "duration": "1秒",
+          "heat": null
+        },
+        {
+          "order": 13,
+          "instruction": "成品",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [
+        "20分钟",
+        "25分钟",
+        "大火",
+        "1秒"
+      ],
+      "tips": [
+        "不喜欢陈皮的，可以不放陈皮。"
+      ],
+      "rawExcerpt": " 豉汁蒸排骨的做法大全豉汁蒸排骨怎么做_豆果美食 var _hmt = _hmt || []; (function() { var hm = document.createElement(\"script\"); hm.src = \"https://hm.baidu.com/hm.js?8061a800ae3bd3d0428690834ea0cb61\"; var s = document.getElementsByTagName(\"script\")[0]; s.parentNode.insertBefore(hm, s); })(); (function(){ var bp = document.createElement(\"script\"); var curProtocol = window.location.protocol.split(\":\")[0]; if (curProtocol === \"https\") { bp.src = \"https://zz.bdstatic.com/linksubmit/push.js\"; } else { bp.src = \"http://push.zhanzhang.baidu.com/push.js\"; } var s = document.getElementsByTagName(\"script\")[0]; s.parentNode.ins",
+      "bookTitle": null,
+      "pageStart": null,
+      "pageEnd": null,
+      "location": null
+    }
+  ],
+  "ragEvidence": [
+    {
+      "chunkId": "5297d9dd-3443-48de-a22d-0f62e954abbe",
+      "documentId": "200aceeb-8159-4c77-bae0-5c9ca7e2117e",
+      "sourceName": "豆果美食",
+      "chunkType": "steps",
+      "content": "菜名：豉汁蒸排骨\n1. 首先备好材料,把排骨去除背部脊骨和腩尾软骨部分后，切成3公分左右的段备用.青红辣椒切粒备用。姜和蒜末切碎备用。陈皮泡软切丝备用。\n2. 豆豉切碎。\n3. 添可料理锅将豆豉干煸一下\n4. 入陈皮丝继续煸炒出香味\n5. 后下蒜末和姜末和厨邦花生油继续爆香约半分钟\n6. 下少许高汤、糖、味精、煮至黏稠后\n7. 加入10克酱油、10克蚝油煮至混合即可盛出。\n8. 排骨加上豆豉汁充分翻拌均匀后再加入5克酱油、5克蚝油补味\n9. 加少量高汤，生粉和花生油继续充分搅拌后腌制20分钟后备用。（20分钟）\n10. 腌制好的排骨，换上添可料理蒸锅，水开上汽大火蒸25分钟出锅！（25分钟）【大火】\n11. 撒入葱花和青红椒末，淋上热油即可。\n12. 1秒脱骨，嫩滑多汁！（1秒）\n13. 成品",
+      "similarity": 0.711814186329073
+    },
+    {
+      "chunkId": "1dd1ceeb-af36-4be7-b77d-394e6903b930",
+      "documentId": "ea4f852f-37df-4285-ac9d-bff1aec25dc5",
+      "sourceName": "贝太厨房:从小爱吃的菜2",
+      "chunkType": "steps",
+      "content": "菜名：豉汁蒸排骨\n1. 将肋排斩成3cm见方的小块，这样较易蒸熟，如果剁得太大，容易里面不熟或者外面太老。把肋排冲洗干净后沥干水分。姜葱切末，红椒切粒。\n2. 将豆豉、姜末、部分红椒粒倒在排骨上，调入盐、白糖、白胡椒粉、生油、蚝油、料酒和油，抓拌均匀。（图2）\n3. 干淀粉加水调成水淀粉，倒入排骨拌匀，腌制2个小时，使排骨入味。（图3）\n4. 锅中放水大火烧开，将腌好的排骨放入盘中蒸30分钟，出锅后撒上葱花和剩下的红椒粒便可以了。",
+      "similarity": 0.710938296047995
+    },
+    {
+      "chunkId": "770f7a51-0181-499c-9f5c-7c3073d9ce48",
+      "documentId": "200aceeb-8159-4c77-bae0-5c9ca7e2117e",
+      "sourceName": "豆果美食",
+      "chunkType": "summary",
+      "content": "菜名：豉汁蒸排骨\n菜系：家常菜\n简介：豉汁蒸排骨的家常做法，食材简单步骤详细，食材 排骨怎么做好吃、辅料怎么做好吃、豆豉怎么做好吃、高汤怎么做好吃、葱花怎么做好吃、青红椒末怎么做好吃、调料怎么做好吃、酱油怎么做好吃、蚝油怎么做好吃、生粉怎么做好吃、姜末怎么做好吃、蒜末怎么做好吃、糖怎么做好吃、味精怎么做好吃 新手也能轻松学会。豆果美食有更多美食教程!",
+      "similarity": 0.69448792685677
+    },
+    {
+      "chunkId": "ef01d989-6081-4a07-8dac-e6a618d2fb0d",
+      "documentId": "ea4f852f-37df-4285-ac9d-bff1aec25dc5",
+      "sourceName": "贝太厨房:从小爱吃的菜2",
+      "chunkType": "tips",
+      "content": "菜名：豉汁蒸排骨\n- 1.排骨最好选择有点肥肉的，这样吃起来口感更好，不会太柴。如果觉得豆豉不好买，也可以直接在超市买豆豉酱，然后将盐、生抽、蚝油和料酒的成分都相应减少就可以了。\n- 2.如果你喜欢蒜香排骨的话，还可以在蒸之前加入蒜末。",
+      "similarity": 0.693484705298227
+    },
+    {
+      "chunkId": "9e48fdb8-f80a-4e25-91ce-07e476033921",
+      "documentId": "200aceeb-8159-4c77-bae0-5c9ca7e2117e",
+      "sourceName": "豆果美食",
+      "chunkType": "ingredients",
+      "content": "菜名：豉汁蒸排骨\n- 排骨 500克\n- 辅料 ：陈皮5克\n- 豆豉 50克\n- 高汤 50克\n- 葱花 10克\n- 青红椒末 适量\n- 调料 ：花生油55克\n- 酱油 15克\n- 蚝油 15克\n- 生粉 15克\n- 姜末 10克\n- 蒜末 10克\n- 糖 15克\n- 味精 10克",
+      "similarity": 0.693062725042945
+    },
+    {
+      "chunkId": "21c0f128-538d-4a51-b0aa-7e7ef1777ec5",
+      "documentId": "200aceeb-8159-4c77-bae0-5c9ca7e2117e",
+      "sourceName": "豆果美食",
+      "chunkType": "technique",
+      "content": "菜名：豉汁蒸排骨\n- 20分钟\n- 25分钟\n- 大火\n- 1秒\n- 20分钟\n- 25分钟\n- 大火\n- 1秒",
+      "similarity": 0.677681625874188
+    },
+    {
+      "chunkId": "35aa262f-a891-4437-bda1-c10f9ae7391c",
+      "documentId": "ea4f852f-37df-4285-ac9d-bff1aec25dc5",
+      "sourceName": "贝太厨房:从小爱吃的菜2",
+      "chunkType": "ingredients",
+      "content": "菜名：豉汁蒸排骨\n- 肋排 500g\n- 阳江豆豉 15g\n- 白糖 3g\n- 干淀粉 5g\n- 盐 5g\n- 料酒 10ml\n- 生抽 15ml\n- 蚝油 5ml\n- 姜 10g\n- 白胡椒粉 2g\n- 朝天椒 1个\n- 小葱 10g\n- 油 10ml",
+      "similarity": 0.67652525533811
+    },
+    {
+      "chunkId": "b85c7115-0956-4a36-b490-7261961bb119",
+      "documentId": "ea4f852f-37df-4285-ac9d-bff1aec25dc5",
+      "sourceName": "贝太厨房:从小爱吃的菜2",
+      "chunkType": "technique",
+      "content": "菜名：豉汁蒸排骨\n- 准备：15分钟（不含腌制时间）\n- 烹饪：30分钟",
+      "similarity": 0.623526398224265
+    },
+    {
+      "chunkId": "0c9282bf-bb9b-4e1f-abd2-451dfe20e1f1",
+      "documentId": "ea4f852f-37df-4285-ac9d-bff1aec25dc5",
+      "sourceName": "贝太厨房:从小爱吃的菜2",
+      "chunkType": "summary",
+      "content": "菜名：豉汁蒸排骨\n简介：这道菜使用了阳江豆豉，蒸制的方法让排骨浓香软烂，但是又不油腻，做起来也很简单，是绝不会让人失望的下饭好菜，麻利又贤惠的主妇可不能不会哦！",
+      "similarity": 0.610731619916309
+    },
+    {
+      "chunkId": "033a9002-ebbf-4c04-abe1-53773bbe1239",
+      "documentId": "200aceeb-8159-4c77-bae0-5c9ca7e2117e",
+      "sourceName": "豆果美食",
+      "chunkType": "tips",
+      "content": "菜名：豉汁蒸排骨\n- 不喜欢陈皮的，可以不放陈皮。",
+      "similarity": 0.605929356636725
+    }
+  ],
+  "notes": [
+    "Editor 与 Reviewer 必须使用本文件中的同一份 evidence package。",
+    "EPUB 无固定印刷页码；书籍来源使用 XHTML entry#anchor 定位。"
+  ]
+}

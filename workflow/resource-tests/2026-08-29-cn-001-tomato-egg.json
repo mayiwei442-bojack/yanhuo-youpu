@@ -1,0 +1,201 @@
+{
+  "recipeId": "cn-001",
+  "recipeName": "番茄炒蛋",
+  "category": "chinese",
+  "startedAt": "2026-08-29T18:17:19.980Z",
+  "completedAt": "2026-08-29T18:17:26.098Z",
+  "status": "FAIL",
+  "sources": [
+    {
+      "sourceName": "The Woks of Life",
+      "searchUrl": "https://thewoksoflife.com/?s=tomato+egg",
+      "originalUrl": "https://thewoksoflife.com/stir-fried-tomato-and-egg/",
+      "searchSucceeded": true,
+      "detailLocated": true,
+      "complete": true,
+      "retrievalMethod": "JSON-LD + HTML正文",
+      "recipeName": "番茄炒蛋",
+      "ingredients": [
+        {
+          "name": "small to medium tomatoes ((about 500 g, 1 pound))",
+          "amount": "4",
+          "raw": "4 small to medium tomatoes ((about 500 g, 1 pound))",
+          "evidence": "explicit"
+        },
+        {
+          "name": "scallion",
+          "amount": "1",
+          "raw": "1 scallion",
+          "evidence": "explicit"
+        },
+        {
+          "name": "eggs",
+          "amount": "4",
+          "raw": "4 eggs",
+          "evidence": "explicit"
+        },
+        {
+          "name": "salt ((divided, or to taste))",
+          "amount": "3/4 tsp",
+          "raw": "3/4 tsp salt ((divided, or to taste))",
+          "evidence": "explicit"
+        },
+        {
+          "name": "white pepper",
+          "amount": "1/4 tsp",
+          "raw": "1/4 tsp white pepper",
+          "evidence": "explicit"
+        },
+        {
+          "name": "sesame oil",
+          "amount": "1/2 tsp",
+          "raw": "1/2 tsp sesame oil",
+          "evidence": "explicit"
+        },
+        {
+          "name": "shaoxing wine",
+          "amount": "1 tsp",
+          "raw": "1 tsp shaoxing wine",
+          "evidence": "explicit"
+        },
+        {
+          "name": "vegetable oil ((divided))",
+          "amount": "3 tbsp",
+          "raw": "3 tbsp vegetable oil ((divided))",
+          "evidence": "explicit"
+        },
+        {
+          "name": "sugar",
+          "amount": "2 tsp",
+          "raw": "2 tsp sugar",
+          "evidence": "explicit"
+        },
+        {
+          "name": "water",
+          "amount": "1/4-1/2 cup",
+          "raw": "1/4-1/2 cup water",
+          "evidence": "explicit"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Start by cutting tomatoes into small wedges and finely chop the scallion.",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 2,
+          "instruction": "Crack 4 eggs into a bowl and season with ¼ teaspoon salt, ¼ teaspoon white pepper, ½ teaspoon sesame oil, and 1 teaspoon Shaoxing wine. Beat eggs for a minute.",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 3,
+          "instruction": "Preheat the wok over medium heat until it just starts to smoke. Then add 2 tablespoons of oil and immediately add the eggs. Scramble the eggs and remove from the wok immediately. Set aside.",
+          "duration": null,
+          "heat": "medium heat",
+          "evidence": "explicit"
+        },
+        {
+          "order": 4,
+          "instruction": "Add 1 more tablespoon oil to the wok, turn up the heat to high, and add the tomatoes and scallions. Stir-fry for 1 minute, and then add 2 teaspoons sugar, ½ teaspoon salt, and ¼ cup water (if your stove gets very hot and liquid tends to cook off very quickly in your wok, add a little more water). Add the cooked eggs.",
+          "duration": "1 minute",
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 5,
+          "instruction": "Mix everything together, cover the wok, and cook for 1-2 minutes, until the tomatoes are completely softened.",
+          "duration": "1-2 minutes",
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 6,
+          "instruction": "Uncover, and continue to stir-fry over high heat until the sauce thickens to your liking. Serve!",
+          "duration": null,
+          "heat": "high heat",
+          "evidence": "explicit"
+        }
+      ],
+      "cookingTime": "10分钟",
+      "normalized": true,
+      "ingested": true,
+      "chunks": 5,
+      "embeddingDimension": 1024,
+      "failureReason": null,
+      "documentId": "f9843bdb-9160-4001-9ef7-919e4f5734b8",
+      "recipeEntityId": "a4765a77-f159-466a-ab6c-9d65d927cf21",
+      "chunkTypes": [
+        "summary",
+        "ingredients",
+        "steps",
+        "technique",
+        "tips"
+      ],
+      "deduplicated": false
+    },
+    {
+      "sourceName": "豆果美食",
+      "searchUrl": "https://m.douguo.com/search/recipe/%E7%95%AA%E8%8C%84%E7%82%92%E8%9B%8B/0/20",
+      "originalUrl": "https://www.douguo.net/cookbook/1192179.html",
+      "searchSucceeded": false,
+      "detailLocated": false,
+      "complete": false,
+      "retrievalMethod": null,
+      "recipeName": null,
+      "ingredients": [],
+      "steps": [],
+      "cookingTime": null,
+      "normalized": false,
+      "ingested": false,
+      "chunks": 0,
+      "embeddingDimension": null,
+      "failureReason": "HTTP 500",
+      "finalUrl": null
+    },
+    {
+      "sourceName": "下厨房",
+      "searchUrl": "https://www.xiachufang.com/search/?keyword=%E7%95%AA%E8%8C%84%E7%82%92%E8%9B%8B",
+      "originalUrl": "https://www.xiachufang.com/recipe/106748907/",
+      "searchSucceeded": true,
+      "detailLocated": true,
+      "complete": false,
+      "retrievalMethod": null,
+      "recipeName": null,
+      "ingredients": [],
+      "steps": [],
+      "cookingTime": null,
+      "normalized": false,
+      "ingested": false,
+      "chunks": 0,
+      "embeddingDimension": null,
+      "failureReason": "访问被人机验证拦截（滑动验证）",
+      "finalUrl": "https://www.xiachufang.com/auth/humancheck_captcha/?xcf_token=XwnV9QxiBKxXwPeJpBDFyF2nVltMuwQ%2FIRIddSlQTyblpLlfAQcXki2SC5tKjKhX&next=%2Frecipe%2F106748907%2F"
+    }
+  ],
+  "summary": {
+    "successfulSources": 1,
+    "failedSources": 2,
+    "chunkTypes": [
+      "summary",
+      "ingredients",
+      "steps",
+      "technique",
+      "tips"
+    ],
+    "embeddingModel": "voyage-4",
+    "embeddingDimension": 1024,
+    "semanticResults": 0,
+    "hybridResults": 0,
+    "retrievedIndependentSources": 0
+  },
+  "retrievalFailure": "仅 1 个独立来源成功，至少需要 2 个",
+  "retrieval": {
+    "semantic": [],
+    "hybrid": []
+  }
+}

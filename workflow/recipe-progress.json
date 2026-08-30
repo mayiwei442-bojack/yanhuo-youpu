@@ -1,0 +1,636 @@
+{
+  "chinese": [
+    {
+      "id": "cn-001",
+      "name": "番茄炒蛋",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-002",
+      "name": "宫保鸡丁",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-003",
+      "name": "麻婆豆腐",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-004",
+      "name": "鱼香肉丝",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-005",
+      "name": "青椒肉丝",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-006",
+      "name": "红烧肉",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-007",
+      "name": "糖醋里脊",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-008",
+      "name": "扬州炒饭",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-009",
+      "name": "清蒸鲈鱼",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-010",
+      "name": "地三鲜",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-011",
+      "name": "桂林米粉",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-012",
+      "name": "羊肉泡馍",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-013",
+      "name": "胡辣汤",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-014",
+      "name": "柳州螺蛳粉",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-015",
+      "name": "兰州清汤牛肉面",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-016",
+      "name": "回锅肉",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-017",
+      "name": "水煮牛肉",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-018",
+      "name": "酸菜鱼",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-019",
+      "name": "东坡肉",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-020",
+      "name": "白切鸡",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-021",
+      "name": "口水鸡",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-022",
+      "name": "北京烤鸭",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-023",
+      "name": "小鸡炖蘑菇",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-024",
+      "name": "锅包肉",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-025",
+      "name": "西湖醋鱼",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-026",
+      "name": "龙井虾仁",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-027",
+      "name": "蒜蓉粉丝蒸扇贝",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-028",
+      "name": "清炒虾仁",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-029",
+      "name": "干煸四季豆",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-030",
+      "name": "蚂蚁上树",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-031",
+      "name": "家常豆腐",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-032",
+      "name": "虎皮青椒",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-033",
+      "name": "酸辣土豆丝",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-034",
+      "name": "韭菜炒鸡蛋",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-035",
+      "name": "冬瓜排骨汤",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-036",
+      "name": "莲藕排骨汤",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-037",
+      "name": "佛跳墙",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-038",
+      "name": "腊味煲仔饭",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-039",
+      "name": "海南鸡饭",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-040",
+      "name": "担担面",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-041",
+      "name": "炸酱面",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-042",
+      "name": "热干面",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-043",
+      "name": "重庆小面",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-044",
+      "name": "小笼包",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-045",
+      "name": "韭菜猪肉饺子",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-046",
+      "name": "馄饨",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-047",
+      "name": "葱油拌面",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-048",
+      "name": "炒河粉",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-049",
+      "name": "肉夹馍",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-050",
+      "name": "煎饼果子",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-051",
+      "name": "叉烧",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-052",
+      "name": "梅菜扣肉",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-053",
+      "name": "盐焗鸡",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-054",
+      "name": "豉汁蒸排骨",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-055",
+      "name": "干锅花菜",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-056",
+      "name": "上汤娃娃菜",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-057",
+      "name": "红烧茄子",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-058",
+      "name": "番茄牛腩",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-059",
+      "name": "紫菜蛋花汤",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "cn-060",
+      "name": "银耳莲子羹",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    }
+  ],
+  "western": [
+    {
+      "id": "west-001",
+      "name": "意大利肉酱面",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "west-002",
+      "name": "玛格丽特披萨",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "west-003",
+      "name": "香煎牛排",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "west-004",
+      "name": "凯撒沙拉",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "west-005",
+      "name": "芝士汉堡",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "west-006",
+      "name": "法式洋葱汤",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "west-007",
+      "name": "炸鱼薯条",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "west-008",
+      "name": "西班牙海鲜饭",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "west-009",
+      "name": "德式烤香肠",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "west-010",
+      "name": "香草烤鸡",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "west-011",
+      "name": "意式培根蛋面",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "west-012",
+      "name": "千层面",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "west-013",
+      "name": "奶油宽面",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "west-014",
+      "name": "蘑菇烩饭",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "west-015",
+      "name": "帕玛森鸡排",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "west-016",
+      "name": "惠灵顿牛排",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "west-017",
+      "name": "红酒炖鸡",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "west-018",
+      "name": "普罗旺斯炖菜",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "west-019",
+      "name": "马赛鱼汤",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "west-020",
+      "name": "牧羊人派",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "west-021",
+      "name": "法式红酒炖牛肉",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "west-022",
+      "name": "希腊穆萨卡",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "west-023",
+      "name": "希腊沙拉",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "west-024",
+      "name": "香煎鸡肉炸排",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "west-025",
+      "name": "瑞典肉丸",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "west-026",
+      "name": "匈牙利牛肉汤",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "west-027",
+      "name": "炸鱼塔可",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "west-028",
+      "name": "鸡肉芝士薄饼",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "west-029",
+      "name": "班尼迪克蛋",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "west-030",
+      "name": "酪乳煎饼",
+      "status": "pending",
+      "lastRunId": null,
+      "completedAt": null
+    }
+  ]
+}

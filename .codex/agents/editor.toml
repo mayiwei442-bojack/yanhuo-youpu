@@ -1,0 +1,3 @@
+name = "editor"
+description = "Rewrites exactly one canonical recipe from a supplied evidence package."
+developer_instructions = "Read and follow workflow/prompts/editor.md exactly. Do not browse, query RAG, edit data/recipes.js, or modify any recipe except the target record in tools/recipe_data.mjs."

@@ -998,57 +998,81 @@ window.YANHUO_RECIPES = [
     "ingredients": [
       {
         "id": "ingredient-01",
-        "name": "茄子",
-        "label": "茄子300克",
+        "name": "土豆",
+        "label": "土豆200克",
         "isCore": true
       },
       {
         "id": "ingredient-02",
-        "name": "土豆",
-        "label": "土豆250克",
+        "name": "茄子",
+        "label": "茄子150克",
         "isCore": true
       },
       {
         "id": "ingredient-03",
         "name": "青椒",
-        "label": "青椒120克",
+        "label": "青椒1个",
         "isCore": true
       },
       {
         "id": "ingredient-04",
-        "name": "蒜末",
-        "label": "蒜末15克",
+        "name": "蒜",
+        "label": "蒜4瓣",
         "isCore": false
       },
       {
         "id": "ingredient-05",
-        "name": "生抽",
-        "label": "生抽20毫升",
+        "name": "葱末",
+        "label": "葱末5克",
         "isCore": false
       },
       {
         "id": "ingredient-06",
-        "name": "糖",
-        "label": "糖5克",
+        "name": "生抽",
+        "label": "生抽2勺",
         "isCore": false
       },
       {
         "id": "ingredient-07",
-        "name": "淀粉",
-        "label": "淀粉8克",
+        "name": "蚝油",
+        "label": "蚝油1勺",
         "isCore": false
       },
       {
         "id": "ingredient-08",
+        "name": "白糖",
+        "label": "白糖1中勺",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-09",
         "name": "盐",
-        "label": "盐2克",
+        "label": "盐适量",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-10",
+        "name": "玉米淀粉",
+        "label": "玉米淀粉8克",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-11",
+        "name": "红薯淀粉",
+        "label": "红薯淀粉10克",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-12",
+        "name": "食用油",
+        "label": "食用油适量",
         "isCore": false
       }
     ],
     "steps": [
       {
         "id": "step-01",
-        "instruction": "茄子、土豆切滚刀块，青椒切片。",
+        "instruction": "土豆和茄子切滚刀块，青椒去籽掰块；茄子薄薄裹匀红薯淀粉，蒜切末。",
         "duration": 180,
         "heat": "medium",
         "timerRequired": false,
@@ -1058,19 +1082,29 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "step-02",
-        "instruction": "土豆炸熟，茄子炸软，青椒快速过油。",
+        "instruction": "中小火把土豆煎至表面金黄且基本熟透，盛出；再把茄子煎软、青椒煎至微焦后盛出。",
+        "duration": 180,
+        "heat": "low",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-03",
+        "instruction": "生抽、蚝油、白糖、盐、玉米淀粉和半碗清水调匀。",
         "duration": 180,
         "heat": "medium",
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "confirm",
-        "safetyNote": "注意热油飞溅"
+        "safetyNote": ""
       },
       {
-        "id": "step-03",
-        "instruction": "炒香蒜末，倒入酱油糖汁，回锅三样食材，勾薄芡。",
+        "id": "step-04",
+        "instruction": "锅中炒香一半蒜末，倒入料汁小火煮至微稠，回锅三样食材，大火快速裹汁，放入剩余蒜末翻匀出锅。",
         "duration": 180,
-        "heat": "medium",
+        "heat": "low",
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "add",
@@ -1080,7 +1114,7 @@ window.YANHUO_RECIPES = [
     "imageThumb": "assets/dishes/thumbnails/10-disanxian.jpg",
     "imageFull": "assets/dishes/ai/10-disanxian.png",
     "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
-    "time": 35,
+    "time": 40,
     "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [
@@ -2487,50 +2521,74 @@ window.YANHUO_RECIPES = [
       {
         "id": "ingredient-01",
         "name": "猪里脊",
-        "label": "猪里脊350克",
+        "label": "猪里脊500克",
         "isCore": true
       },
       {
         "id": "ingredient-02",
-        "name": "土豆淀粉",
-        "label": "土豆淀粉120克",
+        "name": "淀粉",
+        "label": "淀粉300克",
         "isCore": false
       },
       {
         "id": "ingredient-03",
-        "name": "胡萝卜葱姜丝",
-        "label": "胡萝卜葱姜丝适量",
-        "isCore": false
+        "name": "胡萝卜",
+        "label": "胡萝卜5克",
+        "isCore": true
       },
       {
         "id": "ingredient-04",
-        "name": "白糖",
-        "label": "白糖35克",
+        "name": "葱姜蒜",
+        "label": "葱姜蒜适量",
         "isCore": false
       },
       {
         "id": "ingredient-05",
-        "name": "白醋",
-        "label": "白醋35毫升",
-        "isCore": false
+        "name": "香菜",
+        "label": "香菜3克",
+        "isCore": true
       },
       {
         "id": "ingredient-06",
-        "name": "生抽",
-        "label": "生抽5毫升",
+        "name": "白糖",
+        "label": "白糖30克",
         "isCore": false
       },
       {
         "id": "ingredient-07",
+        "name": "白醋",
+        "label": "白醋10毫升",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-08",
+        "name": "酱油",
+        "label": "酱油3毫升",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-09",
         "name": "盐",
-        "label": "盐2克",
+        "label": "盐4克",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-10",
+        "name": "清水",
+        "label": "清水适量",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-11",
+        "name": "食用油",
+        "label": "食用油适量",
         "isCore": false
       }
     ],
     "steps": [
       {
         "id": "step-01",
-        "instruction": "里脊切大片，湿淀粉挂厚糊。",
+        "instruction": "里脊切成约2–3毫米厚的大片，加少许盐；淀粉分次加水调成能均匀挂住肉片的稠糊。胡萝卜、葱姜切丝，蒜切片，香菜切段。",
         "duration": 180,
         "heat": "medium",
         "timerRequired": false,
@@ -2540,7 +2598,7 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "step-02",
-        "instruction": "油温六成炸定形，升温复炸至酥脆。",
+        "instruction": "油温五至六成热时逐片下肉，中火炸熟捞出；升高油温后回锅快速复炸至外壳焦脆，沥油。",
         "duration": 180,
         "heat": "medium",
         "timerRequired": false,
@@ -2550,19 +2608,29 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "step-03",
-        "instruction": "锅中把糖醋汁熬至起泡，下肉片和配菜丝快速翻匀。",
+        "instruction": "白糖、白醋、酱油、盐和少量清水调成糖醋汁。",
         "duration": 180,
         "heat": "medium",
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "confirm",
         "safetyNote": ""
+      },
+      {
+        "id": "step-04",
+        "instruction": "锅留少许底油，大火炒香配菜丝，放入炸好的肉片，淋入糖醋汁快速翻匀，关火后放香菜出锅。",
+        "duration": 180,
+        "heat": "high",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "注意热油飞溅"
       }
     ],
     "imageThumb": "assets/dishes/thumbnails/34-guobaorou.jpg",
     "imageFull": "assets/dishes/ai/34-guobaorou.png",
     "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
-    "time": 35,
+    "time": 40,
     "difficulty": "进阶",
     "defaultServings": 2,
     "allergens": [
@@ -2799,87 +2867,122 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "ingredient-02",
-        "name": "龙口粉丝",
-        "label": "龙口粉丝80克",
+        "name": "粉丝",
+        "label": "粉丝30克",
         "isCore": true
       },
       {
         "id": "ingredient-03",
-        "name": "蒜末",
-        "label": "蒜末50克",
+        "name": "大蒜",
+        "label": "大蒜30克",
         "isCore": false
       },
       {
         "id": "ingredient-04",
+        "name": "姜片",
+        "label": "姜片10克",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-05",
+        "name": "红尖椒",
+        "label": "红尖椒1个",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-06",
+        "name": "料酒",
+        "label": "料酒10毫升",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-07",
         "name": "生抽",
         "label": "生抽20毫升",
         "isCore": false
       },
       {
-        "id": "ingredient-05",
-        "name": "蚝油",
-        "label": "蚝油10克",
+        "id": "ingredient-08",
+        "name": "白糖",
+        "label": "白糖3克",
         "isCore": false
       },
       {
-        "id": "ingredient-06",
-        "name": "糖",
-        "label": "糖2克",
+        "id": "ingredient-09",
+        "name": "芝麻香油",
+        "label": "芝麻香油10毫升",
         "isCore": false
       },
       {
-        "id": "ingredient-07",
-        "name": "葱花和热油",
-        "label": "葱花和热油适量",
+        "id": "ingredient-10",
+        "name": "白胡椒粉",
+        "label": "白胡椒粉少许",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-11",
+        "name": "食用油",
+        "label": "食用油35毫升",
         "isCore": false
       }
     ],
     "steps": [
       {
         "id": "step-01",
-        "instruction": "粉丝泡软剪段，扇贝洗净留半壳。",
-        "duration": 180,
-        "heat": "medium",
-        "timerRequired": false,
-        "ingredientsUsed": [],
-        "gameAction": "confirm",
-        "safetyNote": ""
-      },
-      {
-        "id": "step-02",
-        "instruction": "一半蒜末炸香，与生蒜、生抽、蚝油和糖拌匀。",
+        "instruction": "打开扇贝取肉，去除肠脏并冲洗干净，贝壳刷洗擦干；粉丝剪段后用温水泡软、沥干，以少许芝麻香油和白胡椒粉拌匀，分放在贝壳中，再摆上扇贝肉。",
         "duration": 120,
         "heat": "medium",
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "stir",
-        "safetyNote": "注意热油飞溅"
+        "safetyNote": ""
+      },
+      {
+        "id": "step-02",
+        "instruction": "锅中用少量油爆香姜片，转小火加入料酒、生抽、白糖、芝麻香油、白胡椒粉和少许水煮匀，取出姜片。",
+        "duration": 180,
+        "heat": "low",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
       },
       {
         "id": "step-03",
-        "instruction": "壳上铺粉丝和贝肉，盖蒜酱，水开蒸5–6分钟，撒葱浇热油。",
-        "duration": 360,
+        "instruction": "蒜蓉分成两半，一半用六成热油炸至金黄，再与生蒜蓉、红椒碎拌成金银蒜，铺在扇贝上并淋调味汁。",
+        "duration": 180,
         "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "注意热油飞溅"
+      },
+      {
+        "id": "step-04",
+        "instruction": "蒸锅水开后大火蒸5–6分钟；出锅后淋上烧至七成热的剩余食用油。",
+        "duration": 360,
+        "heat": "high",
         "timerRequired": true,
         "ingredientsUsed": [],
         "gameAction": "wait",
-        "safetyNote": "注意热油飞溅"
+        "safetyNote": ""
       }
     ],
     "imageThumb": "assets/dishes/thumbnails/37-suanrong-fensi-zheng-shanbei.jpg",
     "imageFull": "assets/dishes/ai/37-suanrong-fensi-zheng-shanbei.png",
     "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
     "time": 15,
-    "difficulty": "简单",
+    "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [
       "shellfish",
-      "soy"
+      "soy",
+      "sesame"
     ],
     "flags": {
       "containsPork": false,
       "containsBeef": false,
-      "containsAlcohol": false,
+      "containsAlcohol": true,
       "spicy": false,
       "vegetarian": false
     },
@@ -3709,7 +3812,7 @@ window.YANHUO_RECIPES = [
       {
         "id": "ingredient-01",
         "name": "排骨",
-        "label": "排骨500克",
+        "label": "排骨400克",
         "isCore": true
       },
       {
@@ -3721,52 +3824,58 @@ window.YANHUO_RECIPES = [
       {
         "id": "ingredient-03",
         "name": "姜",
-        "label": "姜20克",
+        "label": "姜2片",
         "isCore": false
       },
       {
         "id": "ingredient-04",
-        "name": "料酒",
-        "label": "料酒15毫升",
+        "name": "小葱",
+        "label": "小葱10克",
         "isCore": false
       },
       {
         "id": "ingredient-05",
-        "name": "盐",
-        "label": "盐适量",
+        "name": "料酒",
+        "label": "料酒适量",
         "isCore": false
       },
       {
         "id": "ingredient-06",
-        "name": "葱花",
-        "label": "葱花少许",
+        "name": "盐",
+        "label": "盐10克",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-07",
+        "name": "清水",
+        "label": "清水适量",
         "isCore": false
       }
     ],
     "steps": [
       {
         "id": "step-01",
-        "instruction": "排骨焯水，莲藕去皮切大块。",
+        "instruction": "排骨剁块，冷水下锅并加适量料酒，煮开焯去血沫，捞出冲洗干净；莲藕刮去外皮后切稍大的滚刀块。",
         "duration": 180,
         "heat": "medium",
         "timerRequired": false,
         "ingredientsUsed": [],
-        "gameAction": "confirm",
+        "gameAction": "add",
         "safetyNote": ""
       },
       {
         "id": "step-02",
-        "instruction": "排骨、莲藕和姜加足量热水，小火炖90分钟。",
-        "duration": 5400,
+        "instruction": "排骨、莲藕和姜片放入深汤锅，加水没过食材约8厘米，大火煮开后转小火，炖至排骨略松脱、筷子能轻松戳透莲藕。",
+        "duration": 180,
         "heat": "low",
-        "timerRequired": true,
+        "timerRequired": false,
         "ingredientsUsed": [],
-        "gameAction": "wait",
+        "gameAction": "add",
         "safetyNote": ""
       },
       {
         "id": "step-03",
-        "instruction": "加盐调味，撒葱花。",
+        "instruction": "起锅前加盐调味，撒葱花即可。",
         "duration": 180,
         "heat": "medium",
         "timerRequired": false,
@@ -3778,8 +3887,8 @@ window.YANHUO_RECIPES = [
     "imageThumb": "assets/dishes/thumbnails/46-lianou-paigu-tang.jpg",
     "imageFull": "assets/dishes/ai/46-lianou-paigu-tang.png",
     "source": "https://thewoksoflife.com/",
-    "time": 90,
-    "difficulty": "进阶",
+    "time": 35,
+    "difficulty": "适中",
     "defaultServings": 4,
     "allergens": [],
     "flags": {
@@ -5596,57 +5705,93 @@ window.YANHUO_RECIPES = [
     "ingredients": [
       {
         "id": "ingredient-01",
-        "name": "猪小排",
-        "label": "猪小排500克",
+        "name": "肋排",
+        "label": "肋排500克",
         "isCore": true
       },
       {
         "id": "ingredient-02",
-        "name": "豆豉",
-        "label": "豆豉20克",
+        "name": "阳江豆豉",
+        "label": "阳江豆豉15克",
         "isCore": true
       },
       {
         "id": "ingredient-03",
-        "name": "蒜末",
-        "label": "蒜末15克",
+        "name": "姜末",
+        "label": "姜末10克",
         "isCore": false
       },
       {
         "id": "ingredient-04",
-        "name": "生抽",
-        "label": "生抽15毫升",
+        "name": "蒜末",
+        "label": "蒜末10克",
         "isCore": false
       },
       {
         "id": "ingredient-05",
-        "name": "蚝油",
-        "label": "蚝油10克",
+        "name": "白糖",
+        "label": "白糖3克",
         "isCore": false
       },
       {
         "id": "ingredient-06",
+        "name": "干淀粉",
+        "label": "干淀粉5克",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-07",
+        "name": "盐",
+        "label": "盐5克",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-08",
         "name": "料酒",
         "label": "料酒10毫升",
         "isCore": false
       },
       {
-        "id": "ingredient-07",
-        "name": "淀粉",
-        "label": "淀粉10克",
+        "id": "ingredient-09",
+        "name": "生抽",
+        "label": "生抽15毫升",
         "isCore": false
       },
       {
-        "id": "ingredient-08",
-        "name": "糖",
-        "label": "糖3克",
+        "id": "ingredient-10",
+        "name": "蚝油",
+        "label": "蚝油5毫升",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-11",
+        "name": "白胡椒粉",
+        "label": "白胡椒粉2克",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-12",
+        "name": "朝天椒",
+        "label": "朝天椒1个",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-13",
+        "name": "小葱",
+        "label": "小葱10克",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-14",
+        "name": "食用油",
+        "label": "食用油10毫升",
         "isCore": false
       }
     ],
     "steps": [
       {
         "id": "step-01",
-        "instruction": "排骨泡去血水并擦干。",
+        "instruction": "肋排斩成约3厘米小块，充分冲洗去血水后沥干；姜、蒜、豆豉切末，朝天椒切粒。",
         "duration": 180,
         "heat": "medium",
         "timerRequired": false,
@@ -5656,18 +5801,28 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "step-02",
-        "instruction": "加入豆豉蒜末及所有调味料腌30分钟，平铺盘中。",
-        "duration": 1800,
+        "instruction": "排骨加入豆豉、姜蒜末、部分椒粒、盐、白糖、白胡椒粉、生抽、蚝油、料酒和食用油，抓拌均匀。",
+        "duration": 180,
         "heat": "medium",
-        "timerRequired": true,
+        "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "add",
         "safetyNote": ""
       },
       {
         "id": "step-03",
-        "instruction": "水开后大火蒸18–20分钟至熟。",
+        "instruction": "干淀粉加少量水调开后拌入排骨，腌至少20分钟；时间允许可延长至2小时。",
         "duration": 1200,
+        "heat": "medium",
+        "timerRequired": true,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-04",
+        "instruction": "排骨在盘中摊开，蒸锅水开上汽后大火蒸25–30分钟至熟，出锅撒葱花和剩余椒粒。",
+        "duration": 1800,
         "heat": "high",
         "timerRequired": true,
         "ingredientsUsed": [],
@@ -5678,18 +5833,18 @@ window.YANHUO_RECIPES = [
     "imageThumb": "assets/dishes/thumbnails/84-chizhi-zheng-paigu.jpg",
     "imageFull": "assets/dishes/ai/84-chizhi-zheng-paigu.png",
     "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
-    "time": 50,
-    "difficulty": "适中",
+    "time": 170,
+    "difficulty": "进阶",
     "defaultServings": 2,
     "allergens": [
       "soy"
     ],
     "flags": {
-      "containsPork": true,
+      "containsPork": false,
       "containsBeef": false,
       "containsAlcohol": true,
       "spicy": false,
-      "vegetarian": false
+      "vegetarian": true
     },
     "demoEnriched": true
   },
