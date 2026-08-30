@@ -1,0 +1,322 @@
+{
+  "recipeId": "cn-006",
+  "recipeName": "红烧肉",
+  "category": "chinese",
+  "createdAt": "2026-08-30T14:39:26.912Z",
+  "sources": [
+    {
+      "sourceName": "The Woks of Life",
+      "sourceType": "website",
+      "url": "https://thewoksoflife.com/shanghai-style-braised-pork-belly/",
+      "documentId": "b942e03a-0c79-4c86-97e5-4d4b2b674080",
+      "retrievalMethod": "JSON-LD + HTML正文",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "1/2 pounds lean, skin-on pork belly",
+          "amount": "1",
+          "raw": "1 1/2 pounds lean, skin-on pork belly",
+          "evidence": "explicit"
+        },
+        {
+          "name": "oil ((any neutral oil, such as canola, vegetable, or avocado oil))",
+          "amount": "2 tablespoons",
+          "raw": "2 tablespoons oil ((any neutral oil, such as canola, vegetable, or avocado oil))",
+          "evidence": "explicit"
+        },
+        {
+          "name": "rock sugar ((or granulated sugar))",
+          "amount": "2 tablespoons",
+          "raw": "2 tablespoons rock sugar ((or granulated sugar))",
+          "evidence": "explicit"
+        },
+        {
+          "name": "Shaoxing wine",
+          "amount": "1/3 cup",
+          "raw": "1/3 cup Shaoxing wine",
+          "evidence": "explicit"
+        },
+        {
+          "name": "soy sauce",
+          "amount": "2 tablespoons",
+          "raw": "2 tablespoons soy sauce",
+          "evidence": "explicit"
+        },
+        {
+          "name": "dark soy sauce",
+          "amount": "1 tablespoon",
+          "raw": "1 tablespoon dark soy sauce",
+          "evidence": "explicit"
+        },
+        {
+          "name": "water ((see note))",
+          "amount": "2-3 cups",
+          "raw": "2-3 cups water ((see note))",
+          "evidence": "explicit"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Cut your pork belly into 3/4-inch thick pieces. Add them to a medium pot and cover with water. Bring the water to a boil, and boil for about 1 minute, or just until the pork turns opaque. This removes impurities and starts the cooking process. Take the pork out of the pot, rinse, and set it aside. Discard the water and clean out your pot.",
+          "duration": "1 minute",
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 2,
+          "instruction": "Over low heat, add the oil and sugar to your wok or pot. Melt the sugar, and add the pork. Raise the heat to medium, and cook until the pork is lightly browned.",
+          "duration": null,
+          "heat": "low heat",
+          "evidence": "explicit"
+        },
+        {
+          "order": 3,
+          "instruction": "Reduce the heat to low, and add the wine. Cook for 2 minutes, then add the soy sauce, dark soy sauce, and water.",
+          "duration": "2 minutes",
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 4,
+          "instruction": "Cover and simmer over medium heat for about 45 minutes to 1 hour, until pork is fork tender. Every 5-10 minutes, stir to prevent burning and add more water if it gets too dry.",
+          "duration": "45 minutes",
+          "heat": "medium heat",
+          "evidence": "explicit"
+        },
+        {
+          "order": 5,
+          "instruction": "Once the pork is fork tender, if there is still a lot of visible liquid, uncover the wok, turn up the heat, and stir continuously until the sauce has reduced to a glistening coating.",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        }
+      ],
+      "technique": [
+        "准备：15分钟",
+        "烹饪：60分钟",
+        "总用时：75分钟"
+      ],
+      "tips": [
+        "Braised pork belly is an every-once-in-a-while indulgence in our household. As we creep towards middle age, Bill and I try to be healthier and avoid eating too much meat.",
+        "Looking for more authentic recipes? Subscribe to our email list and be sure to follow us on Pinterest , Facebook , Instagram , and Youtube!"
+      ],
+      "rawExcerpt": "菜名：红烧肉\n简介：Shanghai-Style Braised Pork Belly (hong shao rou, 红烧肉) is a very famous dish in China. Everyone knows hong shao rou (red cooked pork) is a Shanghai favorite.\n原料：1 1/2 pounds lean, skin-on pork belly；2 tablespoons oil ((any neutral oil, such as canola, vegetable, or avocado oil))；2 tablespoons rock sugar ((or granulated sugar))；1/3 cup Shaoxing wine；2 tablespoons soy sauce；1 tablespoon dark soy sauce；2-3 cups water ((see note))\n步骤：1. Cut your pork belly into 3/4-inch thick pieces. Add them to a medium pot and cover with water. Bring the water to a boil, and boil for about 1 minute, or just until the pork turns opaque. This removes impurities and starts the cooking process. Take the pork out of the pot, rinse, and set it aside. Discard the water and clean out your pot. 2. Over low heat, add the oil and sugar to your wok or pot. Melt the sugar, and add the pork. Raise the heat to medium, and cook until the pork is lightly browned. 3. Reduce the heat to low, and add the wine. Cook for 2 minutes, then add the soy sauce, dark soy sauce, and water. 4. Cover and simmer over medium heat for about 45 minutes to 1 hour, until pork is fork tender. Every 5-10 minutes, stir to prevent burning and add more water if it gets too dry. 5. Once the pork is fork tender, if there is still a lot of visible liquid, uncover the wok, turn up the heat, and stir continuously until the sauce has reduced to a glistening coating.\n技法：准备：15分钟；烹饪：60分钟；总用时：75分钟\n提示：Braised pork belly is an every-once-in-a-while indulgence in our household. As we creep towards middle age, Bill and I try to be healthier and avoid eating too much meat.；Looking for more authentic recipes? Subscribe to our email list and be sure to follow us on Pinterest , Facebook , Instagram , and Youtube!"
+    },
+    {
+      "sourceName": "豆果美食",
+      "sourceType": "website",
+      "url": "https://www.douguo.com/cookbook/3067833.html",
+      "documentId": "4fa3d2d6-5b4b-4269-beca-a0f8cd971223",
+      "retrievalMethod": "HTML正文",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "带皮五花肉",
+          "amount": "一斤半左右",
+          "raw": "带皮五花肉 一斤半左右",
+          "evidence": "explicit"
+        },
+        {
+          "name": "冰糖",
+          "amount": "小粒十来粒",
+          "raw": "冰糖 小粒十来粒",
+          "evidence": "explicit"
+        },
+        {
+          "name": "姜片",
+          "amount": "4片",
+          "raw": "姜片 4片",
+          "evidence": "explicit"
+        },
+        {
+          "name": "八角",
+          "amount": "1-2个（可选）",
+          "raw": "八角 1-2个（可选）",
+          "evidence": "explicit"
+        },
+        {
+          "name": "香叶",
+          "amount": "2-3片（可选）",
+          "raw": "香叶 2-3片（可选）",
+          "evidence": "explicit"
+        },
+        {
+          "name": "干辣椒",
+          "amount": "1个（可选）",
+          "raw": "干辣椒 1个（可选）",
+          "evidence": "explicit"
+        },
+        {
+          "name": "黄酒或花雕酒",
+          "amount": "2大勺",
+          "raw": "黄酒或花雕酒 2大勺",
+          "evidence": "explicit"
+        },
+        {
+          "name": "老抽",
+          "amount": "2大勺",
+          "raw": "老抽 2大勺",
+          "evidence": "explicit"
+        },
+        {
+          "name": "生抽",
+          "amount": "2大勺",
+          "raw": "生抽 2大勺",
+          "evidence": "explicit"
+        },
+        {
+          "name": "开水",
+          "amount": "没过肉",
+          "raw": "开水 没过肉",
+          "evidence": "explicit"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "选择肥瘦相间的带皮五花肉，洗净控干，切成小块。",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 2,
+          "instruction": "不放油，将肉块平铺在锅中，逐面煎至四面金黄并煎出油脂，盛出。",
+          "duration": null,
+          "heat": "小火",
+          "evidence": "explicit"
+        },
+        {
+          "order": 3,
+          "instruction": "保留锅内油，放入冰糖反复炒至微红，把煎好的五花肉倒回翻炒；放姜片、八角、香叶和可选干辣椒继续翻炒，加入花雕酒去腥提鲜。",
+          "duration": null,
+          "heat": "小火",
+          "evidence": "explicit"
+        },
+        {
+          "order": 4,
+          "instruction": "加入生抽和老抽调味上色，不另加盐。",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 5,
+          "instruction": "加入没过肉的开水，盖盖小火慢炖40至60分钟。",
+          "duration": "40-60分钟",
+          "heat": "小火",
+          "evidence": "explicit"
+        },
+        {
+          "order": 6,
+          "instruction": "最后大火翻拌收汁，保留浓稠挂汁，不要炒干。",
+          "duration": null,
+          "heat": "大火",
+          "evidence": "explicit"
+        },
+        {
+          "order": 7,
+          "instruction": "装盘食用。",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        }
+      ],
+      "technique": [
+        "小火",
+        "40-60分钟",
+        "大火"
+      ],
+      "tips": [],
+      "rawExcerpt": "菜名：红烧肉\n简介：不焯水、不另放油和盐的红烧肉做法，通过煎出五花肉自身油脂、冰糖上色、花雕酒和酱油调味后小火慢炖。\n原料：带皮五花肉 一斤半左右；冰糖 小粒十来粒；姜片 4片；八角 1-2个（可选）；香叶 2-3片（可选）；干辣椒 1个（可选）；黄酒或花雕酒 2大勺；老抽 2大勺；生抽 2大勺；开水 没过肉\n步骤：1. 选择肥瘦相间的带皮五花肉，洗净控干，切成小块。 2. 不放油，将肉块平铺在锅中，逐面煎至四面金黄并煎出油脂，盛出。 3. 保留锅内油，放入冰糖反复炒至微红，把煎好的五花肉倒回翻炒；放姜片、八角、香叶和可选干辣椒继续翻炒，加入花雕酒去腥提鲜。 4. 加入生抽和老抽调味上色，不另加盐。 5. 加入没过肉的开水，盖盖小火慢炖40至60分钟。 6. 最后大火翻拌收汁，保留浓稠挂汁，不要炒干。 7. 装盘食用。\n技法：小火；40-60分钟；大火"
+    }
+  ],
+  "ragEvidence": [
+    {
+      "chunkId": "c3180622-fb05-4954-ad48-c1a2fb69685a",
+      "documentId": "4fa3d2d6-5b4b-4269-beca-a0f8cd971223",
+      "sourceName": "豆果美食",
+      "chunkType": "steps",
+      "content": "菜名：红烧肉\n1. 选择肥瘦相间的带皮五花肉，洗净控干，切成小块。\n2. 不放油，将肉块平铺在锅中，逐面煎至四面金黄并煎出油脂，盛出。【小火】\n3. 保留锅内油，放入冰糖反复炒至微红，把煎好的五花肉倒回翻炒；放姜片、八角、香叶和可选干辣椒继续翻炒，加入花雕酒去腥提鲜。【小火】\n4. 加入生抽和老抽调味上色，不另加盐。\n5. 加入没过肉的开水，盖盖小火慢炖40至60分钟。（40-60分钟）【小火】\n6. 最后大火翻拌收汁，保留浓稠挂汁，不要炒干。【大火】\n7. 装盘食用。",
+      "similarity": 0.684231717334289
+    },
+    {
+      "chunkId": "65cab118-51b3-4f28-b9ed-768b36485c9d",
+      "documentId": "4fa3d2d6-5b4b-4269-beca-a0f8cd971223",
+      "sourceName": "豆果美食",
+      "chunkType": "technique",
+      "content": "菜名：红烧肉\n- 小火\n- 40-60分钟\n- 大火\n- 小火\n- 小火\n- 40-60分钟\n- 小火\n- 大火",
+      "similarity": 0.665762821941039
+    },
+    {
+      "chunkId": "c910d24a-c590-4ce0-b8d1-cb4847311dc4",
+      "documentId": "b942e03a-0c79-4c86-97e5-4d4b2b674080",
+      "sourceName": "The Woks of Life",
+      "chunkType": "steps",
+      "content": "菜名：红烧肉\n1. Cut your pork belly into 3/4-inch thick pieces. Add them to a medium pot and cover with water. Bring the water to a boil, and boil for about 1 minute, or just until the pork turns opaque. This removes impurities and starts the cooking process. Take the pork out of the pot, rinse, and set it aside. Discard the water and clean out your pot.（1 minute）\n2. Over low heat, add the oil and sugar to your wok or pot. Melt the sugar, and add the pork. Raise the heat to medium, and cook until the pork is lightly browned.【low heat】\n3. Reduce the heat to low, and add the wine. Cook for 2 minutes, then add the soy sauce, dark soy sauce, and water.（2 minutes）\n4. Cover and simmer over medium heat for about 45 minutes to 1 hour, until pork is fork tender. Every 5-10 minutes, stir to prevent burning and add more water if it gets too dry.（45 minutes）【medium heat】\n5. Once the pork is fork tender, if there is still a lot of visible liquid, uncover the wok, turn up the heat, and stir continuously until the sauce has reduced to a glistening coating.",
+      "similarity": 0.657939951665407
+    },
+    {
+      "chunkId": "a327eae6-b5ec-4549-a965-e0cd5c325cd6",
+      "documentId": "4fa3d2d6-5b4b-4269-beca-a0f8cd971223",
+      "sourceName": "豆果美食",
+      "chunkType": "ingredients",
+      "content": "菜名：红烧肉\n- 带皮五花肉 一斤半左右\n- 冰糖 小粒十来粒\n- 姜片 4片\n- 八角 1-2个（可选）\n- 香叶 2-3片（可选）\n- 干辣椒 1个（可选）\n- 黄酒或花雕酒 2大勺\n- 老抽 2大勺\n- 生抽 2大勺\n- 开水 没过肉",
+      "similarity": 0.646558484640213
+    },
+    {
+      "chunkId": "5899b74f-3cf8-4e34-8c0f-0421b883c9f7",
+      "documentId": "b942e03a-0c79-4c86-97e5-4d4b2b674080",
+      "sourceName": "The Woks of Life",
+      "chunkType": "ingredients",
+      "content": "菜名：红烧肉\n- 1 1/2 pounds lean, skin-on pork belly\n- 2 tablespoons oil ((any neutral oil, such as canola, vegetable, or avocado oil))\n- 2 tablespoons rock sugar ((or granulated sugar))\n- 1/3 cup Shaoxing wine\n- 2 tablespoons soy sauce\n- 1 tablespoon dark soy sauce\n- 2-3 cups water ((see note))",
+      "similarity": 0.638907275265023
+    },
+    {
+      "chunkId": "2bec3715-3dd5-4425-8859-61cb0b3f8440",
+      "documentId": "b942e03a-0c79-4c86-97e5-4d4b2b674080",
+      "sourceName": "The Woks of Life",
+      "chunkType": "technique",
+      "content": "菜名：红烧肉\n- 准备：15分钟\n- 烹饪：60分钟\n- 总用时：75分钟\n- 1 minute\n- low heat\n- 2 minutes\n- 45 minutes\n- medium heat",
+      "similarity": 0.625378966331486
+    },
+    {
+      "chunkId": "e6fee5c6-2f48-493f-9d27-15524964ce95",
+      "documentId": "4fa3d2d6-5b4b-4269-beca-a0f8cd971223",
+      "sourceName": "豆果美食",
+      "chunkType": "summary",
+      "content": "菜名：红烧肉\n别名：红烧肉（不焯水，不放油，不放盐，肉嫩软烂的做法）\n菜系：家常菜\n简介：不焯水、不另放油和盐的红烧肉做法，通过煎出五花肉自身油脂、冰糖上色、花雕酒和酱油调味后小火慢炖。",
+      "similarity": 0.616263710483093
+    },
+    {
+      "chunkId": "6917bb11-c965-47e3-8172-4aebaaab44b8",
+      "documentId": "b942e03a-0c79-4c86-97e5-4d4b2b674080",
+      "sourceName": "The Woks of Life",
+      "chunkType": "tips",
+      "content": "菜名：红烧肉\n- Braised pork belly is an every-once-in-a-while indulgence in our household. As we creep towards middle age, Bill and I try to be healthier and avoid eating too much meat.\n- Looking for more authentic recipes? Subscribe to our email list and be sure to follow us on Pinterest , Facebook , Instagram , and Youtube!",
+      "similarity": 0.566683888435368
+    },
+    {
+      "chunkId": "cf6f0c22-3f34-4897-8260-c0c26201c3dd",
+      "documentId": "b942e03a-0c79-4c86-97e5-4d4b2b674080",
+      "sourceName": "The Woks of Life",
+      "chunkType": "summary",
+      "content": "菜名：红烧肉\n别名：Shanghai-Style Braised Pork Belly (Hong Shao Rou)\n菜系：家常菜\n简介：Shanghai-Style Braised Pork Belly (hong shao rou, 红烧肉) is a very famous dish in China. Everyone knows hong shao rou (red cooked pork) is a Shanghai favorite.",
+      "similarity": 0.548744168952456
+    },
+    {
+      "chunkId": "9dccd7cc-225c-4bf2-9694-2e7778530263",
+      "documentId": "4fa3d2d6-5b4b-4269-beca-a0f8cd971223",
+      "sourceName": "豆果美食",
+      "chunkType": "tips",
+      "content": "菜名：红烧肉\n- 原文未提供额外提示。",
+      "similarity": 0.545983991744998
+    }
+  ],
+  "notes": [
+    "本证据包完全复用 Supabase 中已入库的两个独立完整网站来源；本次未重新浏览网站、未重新向量化文档。",
+    "rawExcerpt 由数据库 normalized_json 确定性格式化，仅包含已入库的菜名、简介、原料、步骤、技法和提示。",
+    "ragEvidence 来自 recipe_entity_id 限定的 voyage-4 semantic retrieval，并覆盖 The Woks of Life 与豆果美食。"
+  ]
+}

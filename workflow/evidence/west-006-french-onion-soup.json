@@ -1,0 +1,313 @@
+{
+  "recipeId": "west-006",
+  "recipeName": "法式洋葱汤",
+  "category": "western",
+  "createdAt": "2026-08-30T14:16:46.077Z",
+  "sources": [
+    {
+      "sourceName": "Serious Eats",
+      "sourceType": "website",
+      "url": "https://www.seriouseats.com/french-onion-soup-recipe",
+      "documentId": "28601ece-1f5b-4d42-bf1f-137df434ac02",
+      "retrievalMethod": "公开网页完整读取（Web）+ 正文结构化核对；仓库 fetchHtml 受 HTTP 403 限制",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "unsalted butter",
+          "amount": "6 tablespoons (90g)",
+          "raw": "6 tablespoons (90g) unsalted butter, plus more for bread"
+        },
+        {
+          "name": "yellow or mixed onions",
+          "amount": "3 pounds (1.4kg)",
+          "raw": "3 pounds (1.4kg) yellow or mixed onions, sliced 1/8 inch thick"
+        },
+        {
+          "name": "kosher salt and black pepper",
+          "amount": "to taste",
+          "raw": "Kosher salt and freshly ground black pepper to taste"
+        },
+        {
+          "name": "dry sherry",
+          "amount": "1/2 cup (120 ml)",
+          "raw": "1/2 cup (120 ml) dry sherry"
+        },
+        {
+          "name": "beef or low-sodium chicken stock",
+          "amount": "2 quarts (1.8L)",
+          "raw": "2 quarts (1.8L) homemade beef stock or homemade/store-bought low-sodium chicken stock"
+        },
+        {
+          "name": "thyme",
+          "amount": "2 sprigs",
+          "raw": "2 sprigs thyme"
+        },
+        {
+          "name": "bay leaf",
+          "amount": "1",
+          "raw": "1 bay leaf"
+        },
+        {
+          "name": "fish sauce",
+          "amount": "1 teaspoon (5 ml), optional",
+          "raw": "1 teaspoon (5 ml) fish sauce (optional)"
+        },
+        {
+          "name": "cider vinegar",
+          "amount": "1 teaspoon (5 ml)",
+          "raw": "1 teaspoon (5 ml) cider vinegar"
+        },
+        {
+          "name": "rustic bread",
+          "amount": "8 bowl-size slices",
+          "raw": "8 bowl-size slices rustic bread, toasted until crisp"
+        },
+        {
+          "name": "garlic",
+          "amount": "1 medium clove",
+          "raw": "1 medium clove garlic"
+        },
+        {
+          "name": "Gruyère cheese",
+          "amount": "1 pound (450 g)",
+          "raw": "1 pound (450 g) Gruyère cheese, grated"
+        },
+        {
+          "name": "fresh chives",
+          "amount": "2 tablespoons",
+          "raw": "2 tablespoons freshly minced chives, for garnish"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Melt butter over medium-high heat. Add onions and cook about 8 minutes until softened, then reduce to medium-low and stir frequently for 1 to 2 hours until very sweet and rich golden brown. Add a tablespoon of water and scrape the pan if browned juices threaten to burn; season.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "Add sherry, scrape up browned bits, and simmer about 3 minutes until the alcohol smell is mostly gone. Add stock, thyme, and bay leaf, bring to a simmer, then cook 20 minutes.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "Add optional fish sauce and cider vinegar, season with salt and pepper, and discard the thyme and bay leaf.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "Preheat the broiler. Butter toast and rub it with garlic. Layer broth, toast, cheese, soup, a second toast, and remaining cheese in ovenproof bowls. Broil until melted and browned; garnish with chives.",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [
+        "准备：20分钟",
+        "烹饪：120分钟",
+        "总用时：140分钟",
+        "洋葱需炒到浓郁金棕色且柔软甘甜，不必炒成深褐色",
+        "焦化过程中若锅底汁液将焦，可少量加水刮起"
+      ],
+      "tips": [
+        "黄洋葱最通用；混合黄洋葱、甜洋葱、红洋葱和红葱头可增加层次。",
+        "若没有优质自制牛高汤，低钠鸡高汤通常优于普通商用牛高汤。",
+        "鱼露、苹果醋和雪莉酒用于增加汤底层次。"
+      ],
+      "rawExcerpt": "菜名：法式洋葱汤\n简介：French onion soup built on slowly caramelized onions and flavorful stock, finished with crisp bread and melted Gruyère.\n原料：6 tablespoons (90g) unsalted butter, plus more for bread；3 pounds (1.4kg) yellow or mixed onions, sliced 1/8 inch thick；Kosher salt and freshly ground black pepper to taste；1/2 cup (120 ml) dry sherry；2 quarts (1.8L) homemade beef stock or homemade/store-bought low-sodium chicken stock；2 sprigs thyme；1 bay leaf；1 teaspoon (5 ml) fish sauce (optional)；1 teaspoon (5 ml) cider vinegar；8 bowl-size slices rustic bread, toasted until crisp；1 medium clove garlic；1 pound (450 g) Gruyère cheese, grated；2 tablespoons freshly minced chives, for garnish\n步骤：1. Melt butter"
+    },
+    {
+      "sourceName": "BBC Good Food",
+      "sourceType": "website",
+      "url": "https://www.bbcgoodfood.com/recipes/french-onion-soup",
+      "documentId": "e3fff22c-9f15-4ca9-b673-67e6a92126f5",
+      "retrievalMethod": "JSON-LD + HTML正文",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "butter",
+          "amount": "50g",
+          "raw": "50g butter"
+        },
+        {
+          "name": "olive oil",
+          "amount": "1 tbsp",
+          "raw": "1 tbsp olive oil"
+        },
+        {
+          "name": "onions halved and thinly sliced",
+          "amount": "1kg",
+          "raw": "1kg onions halved and thinly sliced"
+        },
+        {
+          "name": "sugar",
+          "amount": "1 tsp",
+          "raw": "1 tsp sugar"
+        },
+        {
+          "name": "garlic cloves thinly sliced",
+          "amount": "4",
+          "raw": "4 garlic cloves thinly sliced"
+        },
+        {
+          "name": "plain flour",
+          "amount": "2 tbsp",
+          "raw": "2 tbsp plain flour"
+        },
+        {
+          "name": "dry white wine",
+          "amount": "250ml",
+          "raw": "250ml dry white wine"
+        },
+        {
+          "name": "1.3l hot strongly-flavoured beef stock",
+          "amount": null,
+          "raw": "1.3l hot strongly-flavoured beef stock"
+        },
+        {
+          "name": "slices baguette (depending on size)",
+          "amount": "4-8",
+          "raw": "4-8 slices baguette (depending on size)"
+        },
+        {
+          "name": "gruyère finely grated",
+          "amount": "140g",
+          "raw": "140g gruyère finely grated"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Melt the butter with the olive oil in a large heavy-based pan. Add the onions and fry with the lid on for 10 mins until soft.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "Sprinkle in the sugar and cook for 20 mins more, stirring frequently, until caramelised. The onions should be really golden, full of flavour and soft when pinched between your fingers. Take care towards the end to ensure that they don’t burn.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "Add the garlic cloves for the final few minutes of the onions’ cooking time, then sprinkle in the plain flour and stir well.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "Increase the heat and keep stirring as you gradually add the wine, followed by the beef stock. Cover and simmer for 15-20 mins.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 5,
+          "instruction": "To serve, turn on the grill, and toast the bread. Ladle the soup into heatproof bowls.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 6,
+          "instruction": "Put a slice or two of toast on top of the bowls of soup, and pile on the gruyère. Grill until melted. Alternatively, you can cook the toasts under the grill, then add them to the soup to serve.",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [
+        "准备：15分钟",
+        "烹饪：55分钟",
+        "总用时：70分钟"
+      ],
+      "tips": [],
+      "rawExcerpt": "菜名：法式洋葱汤\n简介：Our French onion soup is deliciously rich and easy to make at home. This savoury soup is perfect for using up a garden glut and great for dinner parties\n原料：50g butter；1 tbsp olive oil；1kg onions halved and thinly sliced；1 tsp sugar；4 garlic cloves thinly sliced；2 tbsp plain flour；250ml dry white wine；1.3l hot strongly-flavoured beef stock；4-8 slices baguette (depending on size)；140g gruyère finely grated\n步骤：1. Melt the butter with the olive oil in a large heavy-based pan. Add the onions and fry with the lid on for 10 mins until soft. 2. Sprinkle in the sugar and cook for 20 mins more, stirring frequently, until caramelised. The onions should be really golden, full of flavour and "
+    }
+  ],
+  "ragEvidence": [
+    {
+      "chunkId": "5edd3a82-1b66-4d7e-bab6-2cc4aa4d5720",
+      "documentId": "28601ece-1f5b-4d42-bf1f-137df434ac02",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：法式洋葱汤\n1. Melt butter over medium-high heat. Add onions and cook about 8 minutes until softened, then reduce to medium-low and stir frequently for 1 to 2 hours until very sweet and rich golden brown. Add a tablespoon of water and scrape the pan if browned juices threaten to burn; season.\n2. Add sherry, scrape up browned bits, and simmer about 3 minutes until the alcohol smell is mostly gone. Add stock, thyme, and bay leaf, bring to a simmer, then cook 20 minutes.\n3. Add optional fish sauce and cider vinegar, season with salt and pepper, and discard the thyme and bay leaf.\n4. Preheat the broiler. Butter toast and rub it with garlic. Layer broth, toast, cheese, soup, a second toast, and remaining cheese in ovenproof bowls. Broil until melted and browned; garnish with chives.",
+      "similarity": 0.745398222302967
+    },
+    {
+      "chunkId": "924d2d87-7d94-47c1-a904-13dd952aa0bd",
+      "documentId": "28601ece-1f5b-4d42-bf1f-137df434ac02",
+      "sourceName": "Serious Eats",
+      "chunkType": "technique",
+      "content": "菜名：法式洋葱汤\n- 准备：20分钟\n- 烹饪：120分钟\n- 总用时：140分钟\n- 洋葱需炒到浓郁金棕色且柔软甘甜，不必炒成深褐色\n- 焦化过程中若锅底汁液将焦，可少量加水刮起",
+      "similarity": 0.739939018484307
+    },
+    {
+      "chunkId": "ea6167ac-2df9-48bc-960a-1fdf976fffd2",
+      "documentId": "e3fff22c-9f15-4ca9-b673-67e6a92126f5",
+      "sourceName": "BBC Good Food",
+      "chunkType": "steps",
+      "content": "菜名：法式洋葱汤\n1. Melt the butter with the olive oil in a large heavy-based pan. Add the onions and fry with the lid on for 10 mins until soft.\n2. Sprinkle in the sugar and cook for 20 mins more, stirring frequently, until caramelised. The onions should be really golden, full of flavour and soft when pinched between your fingers. Take care towards the end to ensure that they don’t burn.\n3. Add the garlic cloves for the final few minutes of the onions’ cooking time, then sprinkle in the plain flour and stir well.\n4. Increase the heat and keep stirring as you gradually add the wine, followed by the beef stock. Cover and simmer for 15-20 mins.\n5. To serve, turn on the grill, and toast the bread. Ladle the soup into heatproof bowls.\n6. Put a slice or two of toast on top of the bowls of soup, and pile on the gruyère. Grill until melted. Alternatively, you can cook the toasts under the grill, then add them to the soup to serve.",
+      "similarity": 0.737144351005575
+    },
+    {
+      "chunkId": "f947d8d0-4f7e-4d67-aab8-90e6ecb3741c",
+      "documentId": "28601ece-1f5b-4d42-bf1f-137df434ac02",
+      "sourceName": "Serious Eats",
+      "chunkType": "tips",
+      "content": "菜名：法式洋葱汤\n- 黄洋葱最通用；混合黄洋葱、甜洋葱、红洋葱和红葱头可增加层次。\n- 若没有优质自制牛高汤，低钠鸡高汤通常优于普通商用牛高汤。\n- 鱼露、苹果醋和雪莉酒用于增加汤底层次。",
+      "similarity": 0.732663837988839
+    },
+    {
+      "chunkId": "9f05b2c6-d8be-409d-b86d-c13992c1a320",
+      "documentId": "28601ece-1f5b-4d42-bf1f-137df434ac02",
+      "sourceName": "Serious Eats",
+      "chunkType": "ingredients",
+      "content": "菜名：法式洋葱汤\n- 6 tablespoons (90g) unsalted butter, plus more for bread\n- 3 pounds (1.4kg) yellow or mixed onions, sliced 1/8 inch thick\n- Kosher salt and freshly ground black pepper to taste\n- 1/2 cup (120 ml) dry sherry\n- 2 quarts (1.8L) homemade beef stock or homemade/store-bought low-sodium chicken stock\n- 2 sprigs thyme\n- 1 bay leaf\n- 1 teaspoon (5 ml) fish sauce (optional)\n- 1 teaspoon (5 ml) cider vinegar\n- 8 bowl-size slices rustic bread, toasted until crisp\n- 1 medium clove garlic\n- 1 pound (450 g) Gruyère cheese, grated\n- 2 tablespoons freshly minced chives, for garnish",
+      "similarity": 0.714476994151352
+    },
+    {
+      "chunkId": "bb334806-8aff-41f2-bb26-1b48e39a64a6",
+      "documentId": "e3fff22c-9f15-4ca9-b673-67e6a92126f5",
+      "sourceName": "BBC Good Food",
+      "chunkType": "ingredients",
+      "content": "菜名：法式洋葱汤\n- 50g butter\n- 1 tbsp olive oil\n- 1kg onions halved and thinly sliced\n- 1 tsp sugar\n- 4 garlic cloves thinly sliced\n- 2 tbsp plain flour\n- 250ml dry white wine\n- 1.3l hot strongly-flavoured beef stock\n- 4-8 slices baguette (depending on size)\n- 140g gruyère finely grated",
+      "similarity": 0.702866298131137
+    },
+    {
+      "chunkId": "ac36a7a2-f691-4a23-94b2-3a57fe2cc6e7",
+      "documentId": "e3fff22c-9f15-4ca9-b673-67e6a92126f5",
+      "sourceName": "BBC Good Food",
+      "chunkType": "summary",
+      "content": "菜名：法式洋葱汤\n别名：French onion soup\n菜系：家常菜\n简介：Our French onion soup is deliciously rich and easy to make at home. This savoury soup is perfect for using up a garden glut and great for dinner parties",
+      "similarity": 0.686087392102174
+    },
+    {
+      "chunkId": "af7a9291-6bf5-498c-9162-37e12b1c290e",
+      "documentId": "28601ece-1f5b-4d42-bf1f-137df434ac02",
+      "sourceName": "Serious Eats",
+      "chunkType": "summary",
+      "content": "菜名：法式洋葱汤\n别名：French Onion Soup (Soupe à l'Oignon Gratinée)\n菜系：法国\n简介：French onion soup built on slowly caramelized onions and flavorful stock, finished with crisp bread and melted Gruyère.",
+      "similarity": 0.663563211388975
+    },
+    {
+      "chunkId": "eeb8378a-3026-4c14-98d2-81eddba7e0a0",
+      "documentId": "e3fff22c-9f15-4ca9-b673-67e6a92126f5",
+      "sourceName": "BBC Good Food",
+      "chunkType": "tips",
+      "content": "菜名：法式洋葱汤\n- 原文未提供额外提示。",
+      "similarity": 0.657191751693206
+    },
+    {
+      "chunkId": "d1829dfe-eb33-4be1-9d02-e6e746a93c68",
+      "documentId": "e3fff22c-9f15-4ca9-b673-67e6a92126f5",
+      "sourceName": "BBC Good Food",
+      "chunkType": "technique",
+      "content": "菜名：法式洋葱汤\n- 准备：15分钟\n- 烹饪：55分钟\n- 总用时：70分钟",
+      "similarity": 0.646531559010085
+    }
+  ],
+  "notes": [
+    "两条来源均来自当前白名单，页面标题和正文均对应同一道目标菜。",
+    "Serious Eats 的仓库 fetchHtml 阻塞如实记录在本组报告；公开 Web 阅读器完整读取正文，未绕过访问控制。"
+  ]
+}

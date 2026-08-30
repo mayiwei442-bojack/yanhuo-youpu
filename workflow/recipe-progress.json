@@ -199,8 +199,8 @@
     {
       "id": "cn-029",
       "name": "干煸四季豆",
-      "status": "pending",
-      "lastRunId": null,
+      "status": "in_progress",
+      "lastRunId": "2026-08-30-cn-029-t10a",
       "completedAt": null
     },
     {

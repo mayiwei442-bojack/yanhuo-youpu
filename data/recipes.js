@@ -3107,62 +3107,80 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "ingredient-02",
-        "name": "猪肉末",
-        "label": "猪肉末100克",
-        "isCore": true
-      },
-      {
-        "id": "ingredient-03",
-        "name": "芽菜",
-        "label": "芽菜40克",
-        "isCore": true
-      },
-      {
-        "id": "ingredient-04",
-        "name": "干辣椒",
-        "label": "干辣椒6个",
+        "name": "盐",
+        "label": "盐1/2茶匙",
         "isCore": false
       },
       {
+        "id": "ingredient-03",
+        "name": "食用油",
+        "label": "食用油2汤匙",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-04",
+        "name": "猪肉末",
+        "label": "猪肉末1/4杯",
+        "isCore": true
+      },
+      {
         "id": "ingredient-05",
-        "name": "花椒",
-        "label": "花椒1茶匙",
+        "name": "大蒜",
+        "label": "大蒜2瓣",
         "isCore": false
       },
       {
         "id": "ingredient-06",
-        "name": "蒜末",
-        "label": "蒜末15克",
-        "isCore": false
+        "name": "干辣椒",
+        "label": "干辣椒2个",
+        "isCore": true
       },
       {
         "id": "ingredient-07",
-        "name": "生抽",
-        "label": "生抽10毫升",
+        "name": "碎米芽菜",
+        "label": "碎米芽菜2汤匙",
         "isCore": false
       },
       {
         "id": "ingredient-08",
-        "name": "盐",
-        "label": "盐适量",
+        "name": "绍兴酒",
+        "label": "绍兴酒1茶匙",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-09",
+        "name": "生抽",
+        "label": "生抽1又1/2茶匙",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-10",
+        "name": "白糖",
+        "label": "白糖1/8茶匙",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-11",
+        "name": "芝麻油",
+        "label": "芝麻油1茶匙",
         "isCore": false
       }
     ],
     "steps": [
       {
         "id": "step-01",
-        "instruction": "四季豆去筋擦干，少油煸至表皮起皱且完全熟透。",
-        "duration": 180,
-        "heat": "medium",
-        "timerRequired": false,
+        "instruction": "炒锅高火预热至刚开始冒烟，放入四季豆和盐，立即转中小火，偶尔翻动约20分钟，至表面出现焦斑并完全熟透，盛出备用。",
+        "duration": 1200,
+        "heat": "low",
+        "timerRequired": true,
         "ingredientsUsed": [],
-        "gameAction": "confirm",
+        "gameAction": "add",
         "safetyNote": ""
       },
       {
         "id": "step-02",
-        "instruction": "另锅炒酥肉末，加入芽菜、辣椒、花椒和蒜末。",
-        "duration": 180,
+        "instruction": "锅中加入食用油，中高火把猪肉末炒至褐色熟透；加入切碎的大蒜和干辣椒翻炒30秒，再放碎米芽菜炒1分钟。",
+        "duration": 60,
         "heat": "medium",
         "timerRequired": false,
         "ingredientsUsed": [],
@@ -3171,23 +3189,24 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "step-03",
-        "instruction": "回锅四季豆，加生抽和盐翻匀。",
-        "duration": 180,
+        "instruction": "倒回四季豆，加入绍兴酒、生抽、白糖和芝麻油，转高火翻炒1分钟后立即装盘。",
+        "duration": 60,
         "heat": "medium",
         "timerRequired": false,
         "ingredientsUsed": [],
-        "gameAction": "confirm",
+        "gameAction": "add",
         "safetyNote": ""
       }
     ],
     "imageThumb": "assets/dishes/thumbnails/39-ganbian-sijidou.jpg",
     "imageFull": "assets/dishes/ai/39-ganbian-sijidou.png",
     "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
-    "time": 35,
+    "time": 25,
     "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [
-      "soy"
+      "soy",
+      "sesame"
     ],
     "flags": {
       "containsPork": true,

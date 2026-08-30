@@ -1,0 +1,393 @@
+{
+  "recipeId": "cn-003",
+  "recipeName": "麻婆豆腐",
+  "category": "chinese",
+  "createdAt": "2026-08-30T14:39:21.061Z",
+  "sources": [
+    {
+      "sourceName": "The Woks of Life",
+      "sourceType": "website",
+      "url": "https://thewoksoflife.com/ma-po-tofu-real-deal/",
+      "documentId": "0c24a839-89d2-4372-bb85-a1ce573d4ba4",
+      "retrievalMethod": "JSON-LD + HTML正文",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "oil ((divided))",
+          "amount": "½ cup",
+          "raw": "½ cup oil ((divided))",
+          "evidence": "explicit"
+        },
+        {
+          "name": "fresh Thai bird chili peppers ((thinly sliced))",
+          "amount": "1-2",
+          "raw": "1-2 fresh Thai bird chili peppers ((thinly sliced))",
+          "evidence": "explicit"
+        },
+        {
+          "name": "dried red chilies ((roughly chopped))",
+          "amount": "6-8",
+          "raw": "6-8 dried red chilies ((roughly chopped))",
+          "evidence": "explicit"
+        },
+        {
+          "name": "1/2 tablespoons Sichuan peppercorns",
+          "amount": "1/2- 1",
+          "raw": "1/2- 1 1/2 tablespoons Sichuan peppercorns",
+          "evidence": "explicit"
+        },
+        {
+          "name": "ginger ((finely minced))",
+          "amount": "3 tablespoons",
+          "raw": "3 tablespoons ginger ((finely minced))",
+          "evidence": "explicit"
+        },
+        {
+          "name": "garlic ((finely minced))",
+          "amount": "3 tablespoons",
+          "raw": "3 tablespoons garlic ((finely minced))",
+          "evidence": "explicit"
+        },
+        {
+          "name": "ounces ground pork",
+          "amount": "8",
+          "raw": "8 ounces ground pork",
+          "evidence": "explicit"
+        },
+        {
+          "name": "spicy bean sauce ((depending on your desired salt/spice levels))",
+          "amount": "1-2 tablespoons",
+          "raw": "1-2 tablespoons spicy bean sauce ((depending on your desired salt/spice levels))",
+          "evidence": "explicit"
+        },
+        {
+          "name": "low sodium chicken broth ((or water))",
+          "amount": "2/3 cup",
+          "raw": "2/3 cup low sodium chicken broth ((or water))",
+          "evidence": "explicit"
+        },
+        {
+          "name": "silken tofu ((cut into 1 inch/2.5cm cubes))",
+          "amount": "1 pound",
+          "raw": "1 pound silken tofu ((cut into 1 inch/2.5cm cubes))",
+          "evidence": "explicit"
+        },
+        {
+          "name": "water",
+          "amount": "1/4 cup",
+          "raw": "1/4 cup water",
+          "evidence": "explicit"
+        },
+        {
+          "name": "1/2 teaspoons cornstarch",
+          "amount": "1",
+          "raw": "1 1/2 teaspoons cornstarch",
+          "evidence": "explicit"
+        },
+        {
+          "name": "sesame oil ((optional))",
+          "amount": "1/4 teaspoon",
+          "raw": "1/4 teaspoon sesame oil ((optional))",
+          "evidence": "explicit"
+        },
+        {
+          "name": "sugar ((optional))",
+          "amount": "1/4 teaspoon",
+          "raw": "1/4 teaspoon sugar ((optional))",
+          "evidence": "explicit"
+        },
+        {
+          "name": "scallion ((finely chopped))",
+          "amount": "1",
+          "raw": "1 scallion ((finely chopped))",
+          "evidence": "explicit"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "First, we toast the chilies. If you have homemade toasted chili oil, you can skip this step. Heat your wok or a small saucepan over low heat. Add half of the oil and throw in the fresh and dried peppers. Stir occasionally and heat until fragrant, about 5 minutes, ensuring that the peppers don’t burn. Remove from heat and set aside.",
+          "duration": "5 minutes",
+          "heat": "low heat",
+          "evidence": "explicit"
+        },
+        {
+          "order": 2,
+          "instruction": "Heat the remaining half of the oil in your wok over medium heat. Add the ginger. After 1 minute, add the garlic. Fry for another minute, and then turn up the heat to high and add the ground pork. Break up the meat and fry it until it’s cooked through. Add your ground Sichuan peppercorns and stir for about 15-30 seconds, taking care to not let it burn, as it will turn bitter if it does.",
+          "duration": "1 minute",
+          "heat": "medium heat",
+          "evidence": "explicit"
+        },
+        {
+          "order": 3,
+          "instruction": "Add the spicy bean sauce to the mixture and stir it in well. Add the chicken broth to the wok and stir. Let this simmer for a minute or so. While that's happening, ready your tofu and combine the water and cornstarch in a small bowl.",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 4,
+          "instruction": "Add the cornstarch mixture to your sauce and stir. Let it bubble away until the sauce starts to thicken. (If it gets too thick, splash in a little more water or chicken stock.)",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 5,
+          "instruction": "Then add your chili oil from before—peppers and all! If you are using homemade chili oil, ONLY use the standing oil, as it's likely that you have salted it and you only want the oil, not additional salt. Stir the oil into the sauce, and add the tofu. Use your spatula to gently toss the tofu in the sauce. Let everything cook for 3-5 minutes. Add the sesame oil and sugar (if using) along with the scallions and stir until the scallions are just wilted.",
+          "duration": "3-5 minutes",
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 6,
+          "instruction": "Serve with a last sprinkle of Sichuan peppercorn powder as a garnish if desired.",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        }
+      ],
+      "technique": [
+        "准备：10分钟",
+        "烹饪：25分钟",
+        "总用时：35分钟"
+      ],
+      "tips": [
+        "Looking for more authentic recipes? Subscribe to our email list and be sure to follow us on Pinterest , Facebook , Instagram , and Youtube!"
+      ],
+      "rawExcerpt": "菜名：麻婆豆腐\n简介：This mapo tofu recipe is the true blue, authentic real deal—the spicy, tongue-numbing, rice-is-absolutely-not-optional mapo tofu that you get in the restaurants!\n原料：½ cup oil ((divided))；1-2 fresh Thai bird chili peppers ((thinly sliced))；6-8 dried red chilies ((roughly chopped))；1/2- 1 1/2 tablespoons Sichuan peppercorns；3 tablespoons ginger ((finely minced))；3 tablespoons garlic ((finely minced))；8 ounces ground pork；1-2 tablespoons spicy bean sauce ((depending on your desired salt/spice levels))；2/3 cup low sodium chicken broth ((or water))；1 pound silken tofu ((cut into 1 inch/2.5cm cubes))；1/4 cup water；1 1/2 teaspoons cornstarch；1/4 teaspoon sesame oil ((optional))；1/4 teaspoon sugar ((optional))；1 scallion ((finely chopped))\n步骤：1. First, we toast the chilies. If you have homemade toasted chili oil, you can skip this step. Heat your wok or a small saucepan over low heat. Add half of the oil and throw in the fresh and dried peppers. Stir occasionally and heat until fragrant, about 5 minutes, ensuring that the peppers don’t burn. Remove from heat and set aside. 2. Heat the remaining half of the oil in your wok over medium heat. Add the ginger. After 1 minute, add the garlic. Fry for another minute, and then turn up the heat to high and add the ground pork. Break up the meat and fry it until it’s cooked through. Add your ground Sichuan peppercorns and stir for about 15-30 seconds, taking care to not let it burn, as it will turn bitter if it does. 3. Add the spicy bean sauce to the mixture and stir it in well. Add the chicken broth to the wok and stir. Let this simmer for a minute or so. While that's happening, ready your tofu and combine the water and cornstarch in a small bowl. 4. Add the cornstarch mixture to your sauce and stir. Let it bubble away until the sauce starts to thicken. (If it gets too thick, splash in a little more water or chicken stock.) 5. Then add your chili oil from before—peppers and all! If you are using homemade chili oil, ONLY use the standing oil, as it's likely that you have salted it and you only want the oil, not additional salt. Stir the oil into the sauce, and add the tofu. Use your spatula to gently toss the tofu in the sauce. Let everything cook for 3-5 minutes. Add the sesame oil and sugar (if using) along with the scallions and stir until the scallions are just wilted. 6. Serve with a last sprinkle of Sichuan peppercorn powder as a garnish if desired.\n技法：准备：10分钟；烹饪：25分钟；总用时：35分钟\n提示：Looking for more authentic recipes? Subscribe to our email list and be sure to follow us on Pinterest , Facebook , Instagram , and Youtube!"
+    },
+    {
+      "sourceName": "豆果美食",
+      "sourceType": "website",
+      "url": "https://www.douguo.com/cookbook/202827.html",
+      "documentId": "0ac7229f-3c30-4a2c-a8f9-e0e0546a5010",
+      "retrievalMethod": "HTML正文",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "豆腐",
+          "amount": "400克",
+          "raw": "豆腐 400克",
+          "evidence": "explicit"
+        },
+        {
+          "name": "牛肉末",
+          "amount": "100克",
+          "raw": "牛肉末 100克",
+          "evidence": "explicit"
+        },
+        {
+          "name": "酱油",
+          "amount": "10克",
+          "raw": "酱油 10克",
+          "evidence": "explicit"
+        },
+        {
+          "name": "郫县豆瓣酱",
+          "amount": "30克",
+          "raw": "郫县豆瓣酱 30克",
+          "evidence": "explicit"
+        },
+        {
+          "name": "白糖",
+          "amount": "10克",
+          "raw": "白糖 10克",
+          "evidence": "explicit"
+        },
+        {
+          "name": "豆豉",
+          "amount": "10克",
+          "raw": "豆豉 10克",
+          "evidence": "explicit"
+        },
+        {
+          "name": "料酒",
+          "amount": "15克",
+          "raw": "料酒 15克",
+          "evidence": "explicit"
+        },
+        {
+          "name": "盐",
+          "amount": null,
+          "raw": "盐",
+          "evidence": "explicit"
+        },
+        {
+          "name": "骨汤",
+          "amount": "300克",
+          "raw": "骨汤 300克",
+          "evidence": "explicit"
+        },
+        {
+          "name": "青蒜",
+          "amount": "1棵",
+          "raw": "青蒜 1棵",
+          "evidence": "explicit"
+        },
+        {
+          "name": "生姜",
+          "amount": "1小块",
+          "raw": "生姜 1小块",
+          "evidence": "explicit"
+        },
+        {
+          "name": "大蒜",
+          "amount": "一个",
+          "raw": "大蒜 一个",
+          "evidence": "explicit"
+        },
+        {
+          "name": "花椒",
+          "amount": "5克",
+          "raw": "花椒 5克",
+          "evidence": "explicit"
+        },
+        {
+          "name": "淀粉",
+          "amount": "适量",
+          "raw": "淀粉 适量",
+          "evidence": "explicit"
+        },
+        {
+          "name": "干辣椒",
+          "amount": "2个",
+          "raw": "干辣椒 2个",
+          "evidence": "explicit"
+        },
+        {
+          "name": "油",
+          "amount": "40克",
+          "raw": "油 40克",
+          "evidence": "explicit"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "青蒜、生姜、大蒜、干辣椒切细末，花椒放锅中小火炒香，冷后压成花椒末。豆豉、豆瓣酱剁碎。豆腐切成2厘米见方的块，放入加少许盐的沸水中汆一下，捞出用白开水浸泡。",
+          "duration": null,
+          "heat": "小火",
+          "evidence": "explicit"
+        },
+        {
+          "order": 2,
+          "instruction": "炒锅烧热，放入牛肉末小火干炒。待肉末炒至松散起酥，装碗。炒锅烧热放油，放入豆瓣酱，再放豆豉、姜末、蒜末和辣椒末炒香。",
+          "duration": null,
+          "heat": "小火",
+          "evidence": "explicit"
+        },
+        {
+          "order": 3,
+          "instruction": "放骨汤煮沸，加酱油、糖并按咸度加盐，放入沥水豆腐丁和料酒，大火烧开后小火煮2分钟，用湿淀粉勾薄芡；放牛肉末再烧2分钟，再勾一次芡。",
+          "duration": "2分钟",
+          "heat": "大火",
+          "evidence": "explicit"
+        },
+        {
+          "order": 4,
+          "instruction": "装碗后撒上花椒面、青蒜末。",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        }
+      ],
+      "technique": [
+        "小火",
+        "2分钟",
+        "大火"
+      ],
+      "tips": [
+        "豆腐焯水时在沸水中加少许盐，可去豆腥并保持软嫩。碎牛肉要煸炒至酥香；豆腐入锅后少搅动以保持块形完整；烧制过程中分两次勾芡。"
+      ],
+      "rawExcerpt": "菜名：麻婆豆腐\n简介：色泽红亮、味道麻辣、鲜香软嫩的川菜名品，以麻、辣、烫、鲜、嫩、香、酥见长。\n原料：豆腐 400克；牛肉末 100克；酱油 10克；郫县豆瓣酱 30克；白糖 10克；豆豉 10克；料酒 15克；盐；骨汤 300克；青蒜 1棵；生姜 1小块；大蒜 一个；花椒 5克；淀粉 适量；干辣椒 2个；油 40克\n步骤：1. 青蒜、生姜、大蒜、干辣椒切细末，花椒放锅中小火炒香，冷后压成花椒末。豆豉、豆瓣酱剁碎。豆腐切成2厘米见方的块，放入加少许盐的沸水中汆一下，捞出用白开水浸泡。 2. 炒锅烧热，放入牛肉末小火干炒。待肉末炒至松散起酥，装碗。炒锅烧热放油，放入豆瓣酱，再放豆豉、姜末、蒜末和辣椒末炒香。 3. 放骨汤煮沸，加酱油、糖并按咸度加盐，放入沥水豆腐丁和料酒，大火烧开后小火煮2分钟，用湿淀粉勾薄芡；放牛肉末再烧2分钟，再勾一次芡。 4. 装碗后撒上花椒面、青蒜末。\n技法：小火；2分钟；大火\n提示：豆腐焯水时在沸水中加少许盐，可去豆腥并保持软嫩。碎牛肉要煸炒至酥香；豆腐入锅后少搅动以保持块形完整；烧制过程中分两次勾芡。"
+    }
+  ],
+  "ragEvidence": [
+    {
+      "chunkId": "39ef688a-e070-40a4-a657-1e6086a54027",
+      "documentId": "0ac7229f-3c30-4a2c-a8f9-e0e0546a5010",
+      "sourceName": "豆果美食",
+      "chunkType": "technique",
+      "content": "菜名：麻婆豆腐\n- 小火\n- 2分钟\n- 大火\n- 小火\n- 小火\n- 2分钟\n- 大火",
+      "similarity": 0.676328918496241
+    },
+    {
+      "chunkId": "dadd9e29-5476-458e-88a8-6c9a8d4e0995",
+      "documentId": "0c24a839-89d2-4372-bb85-a1ce573d4ba4",
+      "sourceName": "The Woks of Life",
+      "chunkType": "steps",
+      "content": "菜名：麻婆豆腐\n1. First, we toast the chilies. If you have homemade toasted chili oil, you can skip this step. Heat your wok or a small saucepan over low heat. Add half of the oil and throw in the fresh and dried peppers. Stir occasionally and heat until fragrant, about 5 minutes, ensuring that the peppers don’t burn. Remove from heat and set aside.（5 minutes）【low heat】\n2. Heat the remaining half of the oil in your wok over medium heat. Add the ginger. After 1 minute, add the garlic. Fry for another minute, and then turn up the heat to high and add the ground pork. Break up the meat and fry it until it’s cooked through. Add your ground Sichuan peppercorns and stir for about 15-30 seconds, taking care to not let it burn, as it will turn bitter if it does.（1 minute）【medium heat】\n3. Add the spicy bean sauce to the mixture and stir it in well. Add the chicken broth to the wok and stir. Let this simmer for a minute or so. While that's happening, ready your tofu and combine the water and cornstarch in a small bowl.\n4. Add the cornstarch mixture to your sauce and stir. Let it bubble away until the sauce starts to thicken. (If it gets too thick, splash in a little more water or chicken stock.)",
+      "similarity": 0.675616900659616
+    },
+    {
+      "chunkId": "b5c2a550-2436-4da5-9afb-5e770a9b05e1",
+      "documentId": "0ac7229f-3c30-4a2c-a8f9-e0e0546a5010",
+      "sourceName": "豆果美食",
+      "chunkType": "steps",
+      "content": "菜名：麻婆豆腐\n1. 青蒜、生姜、大蒜、干辣椒切细末，花椒放锅中小火炒香，冷后压成花椒末。豆豉、豆瓣酱剁碎。豆腐切成2厘米见方的块，放入加少许盐的沸水中汆一下，捞出用白开水浸泡。【小火】\n2. 炒锅烧热，放入牛肉末小火干炒。待肉末炒至松散起酥，装碗。炒锅烧热放油，放入豆瓣酱，再放豆豉、姜末、蒜末和辣椒末炒香。【小火】\n3. 放骨汤煮沸，加酱油、糖并按咸度加盐，放入沥水豆腐丁和料酒，大火烧开后小火煮2分钟，用湿淀粉勾薄芡；放牛肉末再烧2分钟，再勾一次芡。（2分钟）【大火】\n4. 装碗后撒上花椒面、青蒜末。",
+      "similarity": 0.658593613933756
+    },
+    {
+      "chunkId": "cccdf435-a8cb-4fa8-9fe5-24c8ce8b923e",
+      "documentId": "0c24a839-89d2-4372-bb85-a1ce573d4ba4",
+      "sourceName": "The Woks of Life",
+      "chunkType": "steps",
+      "content": "菜名：麻婆豆腐\n5. Then add your chili oil from before—peppers and all! If you are using homemade chili oil, ONLY use the standing oil, as it's likely that you have salted it and you only want the oil, not additional salt. Stir the oil into the sauce, and add the tofu. Use your spatula to gently toss the tofu in the sauce. Let everything cook for 3-5 minutes. Add the sesame oil and sugar (if using) along with the scallions and stir until the scallions are just wilted.（3-5 minutes）\n6. Serve with a last sprinkle of Sichuan peppercorn powder as a garnish if desired.",
+      "similarity": 0.658181190490727
+    },
+    {
+      "chunkId": "8202afd1-4b0f-48b9-8610-a4b7d2e264e1",
+      "documentId": "0c24a839-89d2-4372-bb85-a1ce573d4ba4",
+      "sourceName": "The Woks of Life",
+      "chunkType": "ingredients",
+      "content": "菜名：麻婆豆腐\n- ½ cup oil ((divided))\n- 1-2 fresh Thai bird chili peppers ((thinly sliced))\n- 6-8 dried red chilies ((roughly chopped))\n- 1/2- 1 1/2 tablespoons Sichuan peppercorns\n- 3 tablespoons ginger ((finely minced))\n- 3 tablespoons garlic ((finely minced))\n- 8 ounces ground pork\n- 1-2 tablespoons spicy bean sauce ((depending on your desired salt/spice levels))\n- 2/3 cup low sodium chicken broth ((or water))\n- 1 pound silken tofu ((cut into 1 inch/2.5cm cubes))\n- 1/4 cup water\n- 1 1/2 teaspoons cornstarch\n- 1/4 teaspoon sesame oil ((optional))\n- 1/4 teaspoon sugar ((optional))\n- 1 scallion ((finely chopped))",
+      "similarity": 0.63478848856516
+    },
+    {
+      "chunkId": "425353ac-85b1-4617-89e5-0dbe26c330f0",
+      "documentId": "0ac7229f-3c30-4a2c-a8f9-e0e0546a5010",
+      "sourceName": "豆果美食",
+      "chunkType": "tips",
+      "content": "菜名：麻婆豆腐\n- 豆腐焯水时在沸水中加少许盐，可去豆腥并保持软嫩。碎牛肉要煸炒至酥香；豆腐入锅后少搅动以保持块形完整；烧制过程中分两次勾芡。",
+      "similarity": 0.626199178612086
+    },
+    {
+      "chunkId": "be007709-89f4-4f52-bbe4-bd7ee1c5bf6b",
+      "documentId": "0c24a839-89d2-4372-bb85-a1ce573d4ba4",
+      "sourceName": "The Woks of Life",
+      "chunkType": "technique",
+      "content": "菜名：麻婆豆腐\n- 准备：10分钟\n- 烹饪：25分钟\n- 总用时：35分钟\n- 5 minutes\n- low heat\n- 1 minute\n- medium heat\n- 3-5 minutes",
+      "similarity": 0.614178694139642
+    },
+    {
+      "chunkId": "8ff345fc-7a1a-4368-b172-b1d0383f7da5",
+      "documentId": "0ac7229f-3c30-4a2c-a8f9-e0e0546a5010",
+      "sourceName": "豆果美食",
+      "chunkType": "ingredients",
+      "content": "菜名：麻婆豆腐\n- 豆腐 400克\n- 牛肉末 100克\n- 酱油 10克\n- 郫县豆瓣酱 30克\n- 白糖 10克\n- 豆豉 10克\n- 料酒 15克\n- 盐\n- 骨汤 300克\n- 青蒜 1棵\n- 生姜 1小块\n- 大蒜 一个\n- 花椒 5克\n- 淀粉 适量\n- 干辣椒 2个\n- 油 40克",
+      "similarity": 0.612175381909335
+    },
+    {
+      "chunkId": "81783abb-8f18-4d3d-9620-e2a4721bb5fc",
+      "documentId": "0c24a839-89d2-4372-bb85-a1ce573d4ba4",
+      "sourceName": "The Woks of Life",
+      "chunkType": "summary",
+      "content": "菜名：麻婆豆腐\n别名：Mapo Tofu\n菜系：家常菜\n简介：This mapo tofu recipe is the true blue, authentic real deal—the spicy, tongue-numbing, rice-is-absolutely-not-optional mapo tofu that you get in the restaurants!",
+      "similarity": 0.592033946988953
+    },
+    {
+      "chunkId": "1e70fdb3-ba10-4824-a363-7d807c186583",
+      "documentId": "0ac7229f-3c30-4a2c-a8f9-e0e0546a5010",
+      "sourceName": "豆果美食",
+      "chunkType": "summary",
+      "content": "菜名：麻婆豆腐\n别名：正宗四川名品—麻婆豆腐\n菜系：川菜\n简介：色泽红亮、味道麻辣、鲜香软嫩的川菜名品，以麻、辣、烫、鲜、嫩、香、酥见长。",
+      "similarity": 0.571528528423819
+    }
+  ],
+  "notes": [
+    "本证据包完全复用 Supabase 中已入库的两个独立完整网站来源；本次未重新浏览网站、未重新向量化文档。",
+    "rawExcerpt 由数据库 normalized_json 确定性格式化，仅包含已入库的菜名、简介、原料、步骤、技法和提示。",
+    "ragEvidence 来自 recipe_entity_id 限定的 voyage-4 semantic retrieval，并覆盖 The Woks of Life 与豆果美食。"
+  ]
+}

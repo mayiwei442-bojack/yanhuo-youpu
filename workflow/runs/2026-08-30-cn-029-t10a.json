@@ -1,0 +1,25 @@
+{
+  "runId": "2026-08-30-cn-029-t10a",
+  "recipeId": "cn-029",
+  "recipeName": "干煸四季豆",
+  "category": "chinese",
+  "status": "in_progress",
+  "startedAt": "2026-08-30T14:41:05.713Z",
+  "completedAt": null,
+  "steps": {
+    "research": { "status": "done", "attempts": 1, "details": { "evidence": "workflow/evidence/cn-029-dry-fried-green-beans.json", "evidenceHash": "44193140272873be0d6de8271901b30301fc11e9977594107d39318d580f934a" } },
+    "ingestion": { "status": "done", "attempts": 1, "details": { "documents": 2, "chunks": 10, "embeddingDimension": 1024 } },
+    "edit": { "status": "done", "attempts": 1, "details": { "targetOnly": true, "changedFields": ["ingredients", "steps"] } },
+    "validator": { "status": "done", "attempts": 1, "details": { "status": "PASS", "ingredientCount": 11, "stepCount": 3 } },
+    "review": { "status": "done", "attempts": 1, "details": { "status": "PASS", "result": "workflow/reviews/cn-029-dry-fried-green-beans.json" } },
+    "build": { "status": "done", "attempts": 1, "details": { "status": "PASS", "command": "npm run test:workflow:deterministic" } },
+    "gitPush": { "status": "in_progress", "attempts": 1, "details": { "remote": "origin", "branch": "codex/recipe-automation" } }
+  },
+  "sources": [
+    { "name": "The Woks of Life", "url": "https://thewoksoflife.com/sichuan-dry-fried-green-beans/", "status": "success", "failureReason": null },
+    { "name": "豆果美食", "url": "https://www.douguo.com/cookbook/3327913.html", "status": "success", "failureReason": null }
+  ],
+  "errors": [],
+  "branch": "codex/recipe-automation",
+  "commit": null
+}
