@@ -66,9 +66,9 @@
     {
       "id": "cn-010",
       "name": "地三鲜",
-      "status": "pending",
-      "lastRunId": null,
-      "completedAt": null
+      "status": "done",
+      "lastRunId": "2026-08-30-cn-010-i10a",
+      "completedAt": "2026-08-30T03:41:13.492Z"
     },
     {
       "id": "cn-011",
@@ -164,9 +164,9 @@
     {
       "id": "cn-024",
       "name": "锅包肉",
-      "status": "pending",
-      "lastRunId": null,
-      "completedAt": null
+      "status": "done",
+      "lastRunId": "2026-08-30-cn-024-i10b",
+      "completedAt": "2026-08-30T03:41:13.492Z"
     },
     {
       "id": "cn-025",
@@ -185,9 +185,9 @@
     {
       "id": "cn-027",
       "name": "蒜蓉粉丝蒸扇贝",
-      "status": "pending",
-      "lastRunId": null,
-      "completedAt": null
+      "status": "done",
+      "lastRunId": "2026-08-30-cn-027-i10c",
+      "completedAt": "2026-08-30T03:41:13.492Z"
     },
     {
       "id": "cn-028",
@@ -248,9 +248,9 @@
     {
       "id": "cn-036",
       "name": "莲藕排骨汤",
-      "status": "pending",
-      "lastRunId": null,
-      "completedAt": null
+      "status": "done",
+      "lastRunId": "2026-08-30-cn-036-i10d",
+      "completedAt": "2026-08-30T03:41:13.492Z"
     },
     {
       "id": "cn-037",
@@ -374,9 +374,9 @@
     {
       "id": "cn-054",
       "name": "豉汁蒸排骨",
-      "status": "pending",
-      "lastRunId": null,
-      "completedAt": null
+      "status": "done",
+      "lastRunId": "2026-08-30-cn-054-i10e",
+      "completedAt": "2026-08-30T03:41:13.492Z"
     },
     {
       "id": "cn-055",
