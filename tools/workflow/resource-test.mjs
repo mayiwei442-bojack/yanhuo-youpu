@@ -19,16 +19,9 @@ const sources = [
   {
     name: "豆果美食",
     searchUrl: "https://m.douguo.com/caipu/%E7%95%AA%E8%8C%84%E7%82%92%E8%9B%8B",
-    detailUrl: "https://www.douguo.net/cookbook/1192179.html",
+    detailUrl: "https://www.douguo.com/cookbook/1192179.html",
     extractor: extractDouguoRecipe,
     searchEvidence: /番茄炒蛋的做法大全|\/cookbook\/\d+\.html/iu
-  },
-  {
-    name: "下厨房",
-    searchUrl: "https://www.xiachufang.com/search/?keyword=%E7%95%AA%E8%8C%84%E7%82%92%E8%9B%8B",
-    detailUrl: "https://www.xiachufang.com/recipe/106748907/",
-    extractor: extractJsonLdRecipe,
-    searchEvidence: /番茄炒蛋的搜索结果|\/recipe\/\d+\//iu
   }
 ];
 

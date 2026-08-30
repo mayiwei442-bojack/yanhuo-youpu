@@ -69,7 +69,10 @@ export function extractEpubRecipeSection(html, {
   const titleIndex = lines.findIndex((line) => line === recipeName);
   const content = titleIndex >= 0 ? lines.slice(titleIndex + 1) : lines;
   const ingredientIndex = content.findIndex((line) => /^用料[：:]?$/u.test(line));
-  const methodIndex = content.findIndex((line) => /做法[：:]?/u.test(line));
+  const relativeMethodIndex = ingredientIndex >= 0
+    ? content.slice(ingredientIndex + 1).findIndex((line) => /做法[：:]?/u.test(line))
+    : -1;
+  const methodIndex = relativeMethodIndex >= 0 ? ingredientIndex + relativeMethodIndex + 1 : -1;
   if (ingredientIndex < 0 || methodIndex < 0 || methodIndex <= ingredientIndex) {
     throw new Error(`${recipeName} 的 EPUB 结构缺少用料或做法标记`);
   }

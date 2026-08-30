@@ -5,12 +5,20 @@ import { createRecipeEntityRepository } from "./recipe-entity-repository.mjs";
 import { createDocumentRepository } from "./document-repository.mjs";
 import { createChunkRepository } from "./chunk-repository.mjs";
 
+export function canonicalWebsiteBaseUrl(url) {
+  const parsed = new URL(url);
+  if (["douguo.com", "www.douguo.com", "douguo.net", "www.douguo.net"].includes(parsed.hostname)) {
+    return "https://www.douguo.com/";
+  }
+  return `${parsed.origin}/`;
+}
+
 function sourceRecord(recipe) {
   return recipe.source.type === "website"
     ? {
         source_type: "website",
         name: recipe.source.name,
-        base_url: new URL(recipe.source.url).origin + "/",
+        base_url: canonicalWebsiteBaseUrl(recipe.source.url),
         metadata: { retrievalMethod: recipe.source.retrievalMethod }
       }
     : {

@@ -67,6 +67,9 @@ for (const recipe of manifest.recipes) {
   };
   report.recipes.push(item);
   try {
+    if (recipe.mode === "update_existing" && !recipe.website) {
+      throw new Error("更新现有菜谱必须配置网站来源");
+    }
     const book = extractRecipeFromEpub(epubPath, recipe.recipeName, {
       bookTitle: manifest.book.title,
       author: manifest.book.author
@@ -89,54 +92,57 @@ for (const recipe of manifest.recipes) {
       rawText: book.rawText
     });
 
-    const cachedDocuments = refreshWeb ? [] : await client.select("kb_documents", {
-      filters: { url: recipe.website.url },
-      order: "retrieved_at.desc",
-      limit: 1
-    });
-    const cachedWebsite = cachedDocuments[0] || null;
-    let websiteRawText;
-    let websiteFinalUrl;
-    let websiteNormalized;
-    if (cachedWebsite) {
-      websiteRawText = cachedWebsite.raw_text;
-      websiteFinalUrl = cachedWebsite.url;
-      websiteNormalized = cachedWebsite.normalized_json;
-    } else {
-      const websiteResponse = await fetchHtml(recipe.website.url);
-      const extractor = recipe.website.extractor === "douguo" ? extractDouguoRecipe : extractJsonLdRecipe;
-      websiteRawText = websiteResponse.html;
-      websiteFinalUrl = websiteResponse.finalUrl;
-      websiteNormalized = extractor(websiteResponse.html, {
-        canonicalName: recipe.recipeName,
-        category: recipe.category,
+    let websiteIngestion = null;
+    let websiteNormalized = null;
+    let websiteRawText = null;
+    if (recipe.website) {
+      const cachedDocuments = refreshWeb ? [] : await client.select("kb_documents", {
+        filters: { url: recipe.website.url },
+        order: "retrieved_at.desc",
+        limit: 1
+      });
+      const cachedWebsite = cachedDocuments[0] || null;
+      let websiteFinalUrl;
+      if (cachedWebsite) {
+        websiteRawText = cachedWebsite.raw_text;
+        websiteFinalUrl = cachedWebsite.url;
+        websiteNormalized = cachedWebsite.normalized_json;
+      } else {
+        const websiteResponse = await fetchHtml(recipe.website.url);
+        const extractor = recipe.website.extractor === "douguo" ? extractDouguoRecipe : extractJsonLdRecipe;
+        websiteRawText = websiteResponse.html;
+        websiteFinalUrl = websiteResponse.finalUrl;
+        websiteNormalized = extractor(websiteResponse.html, {
+          canonicalName: recipe.recipeName,
+          category: recipe.category,
+          sourceName: recipe.website.sourceName,
+          url: websiteResponse.finalUrl
+        });
+      }
+      const sourceTitle = websiteNormalized.metadata.sourceRecipeName || websiteNormalized.aliases[0] || recipe.recipeName;
+      if (!new RegExp(recipe.website.titlePattern, "u").test(sourceTitle)) {
+        throw new Error(`网站候选标题不匹配：${sourceTitle}`);
+      }
+      websiteIngestion = await ingestDocument({
+        normalizedRecipe: websiteNormalized,
+        rawText: websiteRawText,
+        client,
+        embeddingProvider
+      });
+      item.sources.push({
         sourceName: recipe.website.sourceName,
-        url: websiteResponse.finalUrl
+        sourceType: "website",
+        cached: Boolean(cachedWebsite),
+        searchUrl: recipe.website.searchUrl,
+        url: websiteFinalUrl,
+        documentId: websiteIngestion.document.id,
+        chunks: websiteIngestion.chunks.length,
+        embedded: websiteIngestion.embedded,
+        deduplicated: websiteIngestion.deduplicated,
+        normalized: websiteNormalized,
+        rawText: websiteRawText
       });
     }
-    const sourceTitle = websiteNormalized.metadata.sourceRecipeName || websiteNormalized.aliases[0] || recipe.recipeName;
-    if (!new RegExp(recipe.website.titlePattern, "u").test(sourceTitle)) {
-      throw new Error(`网站候选标题不匹配：${sourceTitle}`);
-    }
-    const websiteIngestion = await ingestDocument({
-      normalizedRecipe: websiteNormalized,
-      rawText: websiteRawText,
-      client,
-      embeddingProvider
-    });
-    item.sources.push({
-      sourceName: recipe.website.sourceName,
-      sourceType: "website",
-      cached: Boolean(cachedWebsite),
-      searchUrl: recipe.website.searchUrl,
-      url: websiteFinalUrl,
-      documentId: websiteIngestion.document.id,
-      chunks: websiteIngestion.chunks.length,
-      embedded: websiteIngestion.embedded,
-      deduplicated: websiteIngestion.deduplicated,
-      normalized: websiteNormalized,
-      rawText: websiteRawText
-    });
 
     const recipeEntityId = bookIngestion.entity.id;
     const semantic = await retrieve({
@@ -156,7 +162,10 @@ for (const recipe of manifest.recipes) {
       maxPerSource: 5
     });
     const independentSources = new Set(semantic.map((chunk) => chunk.source_id || chunk.metadata?.sourceId).filter(Boolean));
-    if (independentSources.size < 2) throw new Error(`检索只返回 ${independentSources.size} 个独立来源`);
+    const requiredIndependentSources = recipe.website ? 2 : 1;
+    if (independentSources.size < requiredIndependentSources) {
+      throw new Error(`检索只返回 ${independentSources.size} 个独立来源`);
+    }
     item.retrieval = {
       recipeEntityId,
       semanticResults: semantic.length,

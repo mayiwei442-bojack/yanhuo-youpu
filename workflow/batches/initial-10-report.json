@@ -241,24 +241,13 @@
           "embedded": false,
           "deduplicated": true,
           "location": "text00012.html#subid5"
-        },
-        {
-          "sourceName": "下厨房",
-          "sourceType": "website",
-          "cached": true,
-          "searchUrl": "https://www.xiachufang.com/search/?keyword=%E8%82%89%E4%B8%9D%E7%82%92%E6%8B%89%E7%9A%AE",
-          "url": "https://www.xiachufang.com/recipe/104755676/",
-          "documentId": "5da1d427-db19-4ad9-87b3-66ca176a92cc",
-          "chunks": 5,
-          "embedded": false,
-          "deduplicated": true
         }
       ],
       "retrieval": {
         "recipeEntityId": "187713ae-1273-4ff1-9992-660f8660590f",
-        "semanticResults": 10,
-        "hybridResults": 10,
-        "independentSources": 2,
+        "semanticResults": 5,
+        "hybridResults": 5,
+        "independentSources": 1,
         "chunkTypes": [
           "tips",
           "steps",
@@ -285,24 +274,13 @@
           "embedded": false,
           "deduplicated": true,
           "location": "text00068.html#subid44"
-        },
-        {
-          "sourceName": "下厨房",
-          "sourceType": "website",
-          "cached": true,
-          "searchUrl": "https://www.xiachufang.com/search/?keyword=%E7%B3%96%E9%86%8B%E9%B1%BC",
-          "url": "https://www.xiachufang.com/recipe/104253108/",
-          "documentId": "d9a94fe6-b1ba-4419-9c90-8a0f013be45f",
-          "chunks": 5,
-          "embedded": true,
-          "deduplicated": false
         }
       ],
       "retrieval": {
         "recipeEntityId": "49430371-e2ab-46c5-a48e-29bcd9480109",
-        "semanticResults": 10,
-        "hybridResults": 10,
-        "independentSources": 2,
+        "semanticResults": 5,
+        "hybridResults": 5,
+        "independentSources": 1,
         "chunkTypes": [
           "steps",
           "tips",

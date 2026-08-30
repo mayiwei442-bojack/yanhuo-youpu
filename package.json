@@ -8,6 +8,7 @@
     "rag:state:generate": "node tools/workflow/generate-recipe-progress.mjs",
     "rag:resource-test": "node tools/workflow/resource-test.mjs",
     "rag:batch:initial": "node tools/workflow/ingest-initial-batch.mjs",
+    "rag:book:ingest": "node tools/workflow/ingest-epub-book.mjs",
     "rag:snapshot": "node tools/workflow/create-recipe-snapshot.mjs",
     "rag:validate": "node tools/workflow/validate-recipe.mjs",
     "rag:validate:batch": "node tools/workflow/validate-recipe-batch.mjs",

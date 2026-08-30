@@ -44,7 +44,7 @@ assert.equal(douguo.ingredients.length, 2);
 assert.equal(douguo.steps.length, 2);
 assert.equal(douguo.tips.length, 2);
 
-const response = { status: 200, url: "https://www.xiachufang.com/auth/humancheck_captcha/" };
+const response = { status: 200, url: "https://blocked.example/auth/humancheck_captcha/" };
 assert.match(detectAccessBlock(response, "<title>滑动验证</title>"), /人机验证/u);
 
 console.log(JSON.stringify({

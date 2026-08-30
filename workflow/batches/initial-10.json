@@ -95,28 +95,14 @@
       "mode": "kb_only",
       "recipeId": null,
       "recipeName": "肉丝炒拉皮",
-      "category": "chinese",
-      "website": {
-        "sourceName": "下厨房",
-        "searchUrl": "https://www.xiachufang.com/search/?keyword=%E8%82%89%E4%B8%9D%E7%82%92%E6%8B%89%E7%9A%AE",
-        "url": "https://www.xiachufang.com/recipe/104755676/",
-        "extractor": "jsonld",
-        "titlePattern": "肉丝拉皮"
-      }
+      "category": "chinese"
     },
     {
       "key": "book-002-sweet-sour-fish",
       "mode": "kb_only",
       "recipeId": null,
       "recipeName": "糖醋鱼",
-      "category": "chinese",
-      "website": {
-        "sourceName": "下厨房",
-        "searchUrl": "https://www.xiachufang.com/search/?keyword=%E7%B3%96%E9%86%8B%E9%B1%BC",
-        "url": "https://www.xiachufang.com/recipe/104253108/",
-        "extractor": "jsonld",
-        "titlePattern": "糖醋鱼"
-      }
+      "category": "chinese"
     },
     {
       "key": "book-003-cabbage-wood-ear",

@@ -2,11 +2,15 @@ import assert from "node:assert/strict";
 import { normalizeRecipe } from "../../src/rag/normalize.mjs";
 import { CHUNK_TYPES, chunkRecipe } from "../../src/rag/chunker.mjs";
 import { createEmbeddingProvider } from "../../src/rag/embedding-provider.mjs";
-import { ingestDocument } from "../../src/rag/ingest-document.mjs";
+import { canonicalWebsiteBaseUrl, ingestDocument } from "../../src/rag/ingest-document.mjs";
 import { retrieve } from "../../src/rag/retrieve.mjs";
 import { hybridSearch } from "../../src/rag/hybrid-search.mjs";
 
 const embeddingCalls = [];
+assert.equal(canonicalWebsiteBaseUrl("https://www.douguo.com/cookbook/1.html"), "https://www.douguo.com/");
+assert.equal(canonicalWebsiteBaseUrl("https://www.douguo.net/cookbook/1.html"), "https://www.douguo.com/");
+assert.equal(canonicalWebsiteBaseUrl("https://example.com/recipe/1"), "https://example.com/");
+
 const embeddingProvider = createEmbeddingProvider({
   provider: "voyage",
   model: "voyage-4",

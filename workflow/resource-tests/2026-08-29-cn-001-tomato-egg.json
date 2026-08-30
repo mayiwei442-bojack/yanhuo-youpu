@@ -156,30 +156,11 @@
       "embeddingDimension": null,
       "failureReason": "HTTP 500",
       "finalUrl": null
-    },
-    {
-      "sourceName": "下厨房",
-      "searchUrl": "https://www.xiachufang.com/search/?keyword=%E7%95%AA%E8%8C%84%E7%82%92%E8%9B%8B",
-      "originalUrl": "https://www.xiachufang.com/recipe/106748907/",
-      "searchSucceeded": true,
-      "detailLocated": true,
-      "complete": false,
-      "retrievalMethod": null,
-      "recipeName": null,
-      "ingredients": [],
-      "steps": [],
-      "cookingTime": null,
-      "normalized": false,
-      "ingested": false,
-      "chunks": 0,
-      "embeddingDimension": null,
-      "failureReason": "访问被人机验证拦截（滑动验证）",
-      "finalUrl": "https://www.xiachufang.com/auth/humancheck_captcha/?xcf_token=XwnV9QxiBKxXwPeJpBDFyF2nVltMuwQ%2FIRIddSlQTyblpLlfAQcXki2SC5tKjKhX&next=%2Frecipe%2F106748907%2F"
     }
   ],
   "summary": {
     "successfulSources": 1,
-    "failedSources": 2,
+    "failedSources": 1,
     "chunkTypes": [
       "summary",
       "ingredients",
