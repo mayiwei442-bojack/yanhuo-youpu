@@ -1,13 +1,13 @@
 {
-  "runId": "2026-08-31-west-020-t10j", "recipeId": "west-020", "recipeName": "牧羊人派", "category": "western", "status": "in_progress",
-  "startedAt": "2026-08-31T05:52:49.810Z", "completedAt": null,
+  "runId": "2026-08-31-west-020-t10j", "recipeId": "west-020", "recipeName": "牧羊人派", "category": "western", "status": "done",
+  "startedAt": "2026-08-31T05:52:49.810Z", "completedAt": "2026-08-31T06:20:52.158Z",
   "steps": {
     "research": { "status": "done", "attempts": 1, "details": { "evidence": "workflow/evidence/west-020-shepherds-pie.json", "evidenceHash": "4434135145e2a2d80e08ef7bf7aecc8a83e1104844861a2cb7ad835d4aee400a" } },
     "ingestion": { "status": "done", "attempts": 1, "details": { "documents": 2, "chunks": 11, "embeddingDimension": 1024 } },
     "edit": { "status": "done", "attempts": 1, "details": { "targetOnly": true, "changedFields": ["ingredients", "steps"] } }, "validator": { "status": "done", "attempts": 1, "details": { "status": "PASS", "ingredientCount": 11, "stepCount": 5 } },
     "review": { "status": "done", "attempts": 1, "details": { "status": "PASS", "result": "workflow/reviews/west-020-shepherds-pie.json" } }, "build": { "status": "done", "attempts": 1, "details": { "status": "PASS", "command": "npm run test:workflow:deterministic" } },
-    "gitPush": { "status": "in_progress", "attempts": 1, "details": { "remote": "origin", "branch": "codex/recipe-automation" } }
+    "gitPush": { "status": "done", "attempts": 1, "details": { "remote": "origin", "branch": "codex/recipe-automation", "commit": "b91b94afa8f981222cc0562c82f31c0f6a0f80d9" } }
   },
   "sources": [{ "name": "BBC Good Food", "url": "https://www.bbcgoodfood.com/recipes/no-fuss-shepherds-pie", "status": "success", "failureReason": null }, { "name": "Serious Eats", "url": "https://www.seriouseats.com/shepherds-pie-beef-lamb-recipe", "status": "success", "failureReason": null }],
-  "errors": [], "branch": "codex/recipe-automation", "commit": null
+  "errors": [], "branch": "codex/recipe-automation", "commit": "b91b94afa8f981222cc0562c82f31c0f6a0f80d9"
 }

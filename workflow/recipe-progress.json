@@ -10,23 +10,23 @@
     {
       "id": "cn-002",
       "name": "宫保鸡丁",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-08-31-cn-002-t10b",
-      "completedAt": null
+      "completedAt": "2026-08-31T06:20:52.158Z"
     },
     {
       "id": "cn-003",
       "name": "麻婆豆腐",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-08-31-cn-003-t10c",
-      "completedAt": null
+      "completedAt": "2026-08-31T06:20:52.158Z"
     },
     {
       "id": "cn-004",
       "name": "鱼香肉丝",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-08-31-cn-004-t10d",
-      "completedAt": null
+      "completedAt": "2026-08-31T06:20:52.158Z"
     },
     {
       "id": "cn-005",
@@ -38,9 +38,9 @@
     {
       "id": "cn-006",
       "name": "红烧肉",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-08-31-cn-006-t10e",
-      "completedAt": null
+      "completedAt": "2026-08-31T06:20:52.158Z"
     },
     {
       "id": "cn-007",
@@ -446,9 +446,9 @@
     {
       "id": "west-004",
       "name": "凯撒沙拉",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-08-31-west-004-t10f",
-      "completedAt": null
+      "completedAt": "2026-08-31T06:20:52.158Z"
     },
     {
       "id": "west-005",
@@ -460,9 +460,9 @@
     {
       "id": "west-006",
       "name": "法式洋葱汤",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-08-31-west-006-t10g",
-      "completedAt": null
+      "completedAt": "2026-08-31T06:20:52.158Z"
     },
     {
       "id": "west-007",
@@ -495,16 +495,16 @@
     {
       "id": "west-011",
       "name": "意式培根蛋面",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-08-31-west-011-t10h",
-      "completedAt": null
+      "completedAt": "2026-08-31T06:20:52.158Z"
     },
     {
       "id": "west-012",
       "name": "千层面",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-08-31-west-012-t10i",
-      "completedAt": null
+      "completedAt": "2026-08-31T06:20:52.158Z"
     },
     {
       "id": "west-013",
@@ -558,9 +558,9 @@
     {
       "id": "west-020",
       "name": "牧羊人派",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-08-31-west-020-t10j",
-      "completedAt": null
+      "completedAt": "2026-08-31T06:20:52.158Z"
     },
     {
       "id": "west-021",

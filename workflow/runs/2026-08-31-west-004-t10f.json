@@ -1,13 +1,13 @@
 {
-  "runId": "2026-08-31-west-004-t10f", "recipeId": "west-004", "recipeName": "凯撒沙拉", "category": "western", "status": "in_progress",
-  "startedAt": "2026-08-31T05:52:49.810Z", "completedAt": null,
+  "runId": "2026-08-31-west-004-t10f", "recipeId": "west-004", "recipeName": "凯撒沙拉", "category": "western", "status": "done",
+  "startedAt": "2026-08-31T05:52:49.810Z", "completedAt": "2026-08-31T06:20:52.158Z",
   "steps": {
     "research": { "status": "done", "attempts": 1, "details": { "evidence": "workflow/evidence/west-004-caesar-salad.json", "evidenceHash": "66c1b60aeb1a8dba6c42db813b5231756fed6329d08bb15ca5a95138b91029a1" } },
     "ingestion": { "status": "done", "attempts": 1, "details": { "documents": 2, "chunks": 10, "embeddingDimension": 1024 } },
     "edit": { "status": "done", "attempts": 1, "details": { "targetOnly": true, "changedFields": ["ingredients", "steps"] } }, "validator": { "status": "done", "attempts": 1, "details": { "status": "PASS", "ingredientCount": 11, "stepCount": 4 } },
     "review": { "status": "done", "attempts": 1, "details": { "status": "PASS", "result": "workflow/reviews/west-004-caesar-salad.json" } }, "build": { "status": "done", "attempts": 1, "details": { "status": "PASS", "command": "npm run test:workflow:deterministic" } },
-    "gitPush": { "status": "in_progress", "attempts": 1, "details": { "remote": "origin", "branch": "codex/recipe-automation" } }
+    "gitPush": { "status": "done", "attempts": 1, "details": { "remote": "origin", "branch": "codex/recipe-automation", "commit": "b91b94afa8f981222cc0562c82f31c0f6a0f80d9" } }
   },
   "sources": [{ "name": "Serious Eats", "url": "https://www.seriouseats.com/the-best-caesar-salad-recipe", "status": "success", "failureReason": null }, { "name": "BBC Good Food", "url": "https://www.bbcgoodfood.com/recipes/perfect-caesar-salad", "status": "success", "failureReason": null }],
-  "errors": [], "branch": "codex/recipe-automation", "commit": null
+  "errors": [], "branch": "codex/recipe-automation", "commit": "b91b94afa8f981222cc0562c82f31c0f6a0f80d9"
 }
