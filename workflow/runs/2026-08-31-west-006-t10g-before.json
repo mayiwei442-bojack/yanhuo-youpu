@@ -1,0 +1,1267 @@
+{
+  "schemaVersion": 1,
+  "source": "tools/recipe_data.mjs",
+  "createdAt": "2026-08-31T06:07:16.626Z",
+  "recipes": [
+    {
+      "id": "cn-001",
+      "category": "chinese",
+      "index": 0,
+      "record": {
+        "name": "番茄炒蛋",
+        "en": "Tomato and Egg Stir-fry",
+        "region": "家常菜",
+        "ingredients": "鸡蛋3个；番茄2个约400克；小葱1根；盐3克；白糖3克；食用油25毫升",
+        "steps": "1）鸡蛋加少许盐打散，热锅多油炒至刚凝固后盛出。2）原锅下番茄炒软出汁，加盐和糖。3）倒回鸡蛋快速翻匀，撒葱花出锅。",
+        "img": "01-fanqie-chaodan.png",
+        "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/"
+      }
+    },
+    {
+      "id": "cn-002",
+      "category": "chinese",
+      "index": 1,
+      "record": {
+        "name": "宫保鸡丁",
+        "en": "Kung Pao Chicken",
+        "region": "川菜",
+        "ingredients": "生花生米1杯；炒花生用植物油1茶匙；鸡胸肉12盎司；腌料：植物油1茶匙、玉米淀粉1茶匙、绍兴酒1茶匙、盐1/8茶匙、白胡椒粉1撮；碗汁：生抽1汤匙、老抽1/2茶匙、米醋1汤匙、白糖1茶匙、清水3汤匙、玉米淀粉1茶匙；炒制用油3汤匙；大蒜3瓣；姜2薄片；干红辣椒2个；花椒粉1/2茶匙；葱白6根",
+        "steps": "1）中火烧热1茶匙植物油，放入生花生米，不断翻炒3分钟；关火后利用余温再炒1分钟，盛出彻底放凉。2）鸡胸肉切成约2厘米丁，与腌料拌匀，静置20分钟；另将全部碗汁材料搅匀备用。3）炒锅放2汤匙油烧至高温，下鸡丁煎至表面上色后盛出。4）转小火，加入剩余1汤匙油，放入切片的大蒜、切末的姜、干红辣椒、花椒粉和切成约2厘米段的葱白，炒1—2分钟至出香。5）鸡丁回锅，转高火翻炒1分钟；重新搅匀碗汁后倒入，再炒1分钟至酱汁迅速变稠。6）加入放凉的花生米，快速翻匀后出锅。",
+        "img": "02-gongbao-jiding.png",
+        "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/"
+      }
+    },
+    {
+      "id": "cn-003",
+      "category": "chinese",
+      "index": 2,
+      "record": {
+        "name": "麻婆豆腐",
+        "en": "Mapo Tofu",
+        "region": "川菜",
+        "ingredients": "豆腐400克；牛肉末100克；酱油10克；郫县豆瓣酱30克；白糖10克；豆豉10克；料酒15克；盐适量；骨汤300克；青蒜1棵；生姜1小块；大蒜1个；花椒5克；淀粉适量；干辣椒2个；食用油40克",
+        "steps": "1）青蒜、生姜、大蒜和干辣椒切细末；花椒放锅中小火炒香，冷却后压成花椒末；豆豉和豆瓣酱剁碎。豆腐切成约2厘米方块，放入加少许盐的沸水中汆一下，捞出浸入白开水。2）炒锅烧热，下牛肉末小火干炒至松散起酥，盛出；锅中再放食用油，依次加入豆瓣酱、豆豉、姜末、蒜末和辣椒末炒香。3）倒入骨汤煮沸，加酱油、白糖并按咸度放盐；加入沥水豆腐和料酒，大火烧开后转小火煮2分钟，豆腐入锅后少搅动。用湿淀粉勾一次薄芡，放回牛肉末再烧2分钟，然后再勾一次薄芡。4）装碗后撒花椒末和青蒜末。",
+        "img": "03-mapo-doufu.png",
+        "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/"
+      }
+    },
+    {
+      "id": "cn-004",
+      "category": "chinese",
+      "index": 3,
+      "record": {
+        "name": "鱼香肉丝",
+        "en": "Fish-fragrant Shredded Pork",
+        "region": "川菜",
+        "ingredients": "猪肉8盎司；腌料：食用油2茶匙、绍兴酒1茶匙、生抽2茶匙、白胡椒粉1/4茶匙、玉米淀粉1茶匙、清水1又1/2汤匙；鱼香汁：米醋1又1/2汤匙、白糖1又1/2汤匙、生抽1汤匙、绍兴酒1/2汤匙、清水1杯、玉米淀粉1又1/2汤匙；炒制用油3汤匙；辣豆瓣酱1汤匙；姜末2茶匙；蒜末2茶匙；干辣椒1/4杯；泡发木耳丝满1杯；莴笋8盎司；葱1根",
+        "steps": "1）猪肉与全部腌料拌匀，静置20分钟；莴笋去皮切丝，葱切末，另将全部鱼香汁材料搅匀备用。2）干净炒锅预热至微微冒烟，转高火加入1汤匙油，将腌好的猪肉炒至不透明，关火盛出。3）转中火，加入剩余2汤匙油和辣豆瓣酱，轻轻翻炒约1分钟至油变红，注意调低火力避免炒焦。4）加入姜末、蒜末和干辣椒炒约15秒；放入木耳丝，转高火炒30秒，若锅中太干可滴入少量水。5）待锅中液体开始冒泡，将鱼香汁重新搅匀后与莴笋丝、葱末和猪肉一同下锅，快速翻炒均匀后出锅。",
+        "img": "04-yuxiang-rousi.png",
+        "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/"
+      }
+    },
+    {
+      "id": "cn-005",
+      "category": "chinese",
+      "index": 4,
+      "record": {
+        "name": "青椒肉丝",
+        "en": "Shredded Pork with Green Pepper",
+        "region": "家常菜",
+        "ingredients": "猪里脊250克；青椒200克；姜蒜适量；生抽15毫升；料酒10毫升；淀粉8克；盐2克；食用油20毫升",
+        "steps": "1）肉切丝，用生抽、料酒和淀粉腌10分钟。2）青椒切丝，干锅炒至略软盛出。3）热油滑熟肉丝，加姜蒜和青椒，大火翻匀调盐。",
+        "img": "05-qingjiao-rousi.png",
+        "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/"
+      }
+    },
+    {
+      "id": "cn-006",
+      "category": "chinese",
+      "index": 5,
+      "record": {
+        "name": "红烧肉",
+        "en": "Red-braised Pork Belly",
+        "region": "江浙菜",
+        "ingredients": "带皮偏瘦五花肉1又1/2磅；中性食用油2汤匙；冰糖或白砂糖2汤匙；绍兴酒1/3杯；生抽2汤匙；老抽1汤匙；清水2—3杯",
+        "steps": "1）五花肉切成约3/4英寸厚的块，放入中号锅中加水没过；煮沸后继续煮约1分钟，至肉刚变得不透明。捞出冲洗，倒掉焯肉水并洗净锅。2）锅中放食用油和糖，小火将糖融化；加入五花肉，转中火煎至表面微微上色。3）转小火，倒入绍兴酒煮2分钟，再加入生抽、老抽和清水。4）加盖，以中火焖煮约45—60分钟，至五花肉可用叉子轻松插入；每隔5—10分钟翻动一次防止焦底，锅中太干时补少量水。5）肉软后若锅中仍有较多汤汁，揭盖调高火力并持续翻动，收至酱汁油亮地裹在肉块上。",
+        "img": "06-hongshao-rou.png",
+        "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/"
+      }
+    },
+    {
+      "id": "cn-007",
+      "category": "chinese",
+      "index": 6,
+      "record": {
+        "name": "糖醋里脊",
+        "en": "Sweet and Sour Pork Tenderloin",
+        "region": "鲁菜/家常",
+        "ingredients": "猪里脊350克；鸡蛋1个；淀粉80克；番茄酱45克；白醋25毫升；糖35克；盐2克；白芝麻适量",
+        "steps": "1）里脊切条，加盐和蛋液，裹淀粉。2）六成热油炸熟，升温复炸至脆。3）锅中熬匀番茄酱、糖、醋和少量水，倒入里脊快速挂汁。",
+        "img": "07-tangcu-liji.png",
+        "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/"
+      }
+    },
+    {
+      "id": "cn-008",
+      "category": "chinese",
+      "index": 7,
+      "record": {
+        "name": "扬州炒饭",
+        "en": "Yangzhou Fried Rice",
+        "region": "淮扬菜",
+        "ingredients": "隔夜米饭500克；鸡蛋2个；虾仁100克；火腿60克；胡萝卜50克；青豆50克；葱花适量；盐3克；白胡椒少许",
+        "steps": "1）虾仁焯熟，配料切小丁。2）鸡蛋炒散，下米饭大火炒至颗粒分明。3）加入虾仁、火腿、胡萝卜和青豆炒透，调盐和白胡椒，撒葱花。",
+        "img": "08-yangzhou-chaofan.png",
+        "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/"
+      }
+    },
+    {
+      "id": "cn-009",
+      "category": "chinese",
+      "index": 8,
+      "record": {
+        "name": "清蒸鲈鱼",
+        "en": "Steamed Sea Bass",
+        "region": "粤菜",
+        "ingredients": "鲈鱼1条约600克；姜20克；葱30克；蒸鱼豉油30毫升；料酒10毫升；食用油20毫升",
+        "steps": "1）鱼处理干净，两面划刀，放姜片和料酒。2）水开后大火蒸8–10分钟，关火焖2分钟。3）倒去盘中水，铺葱丝，淋豉油，再浇热油。",
+        "img": "09-qingzheng-luyu.png",
+        "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/"
+      }
+    },
+    {
+      "id": "cn-010",
+      "category": "chinese",
+      "index": 9,
+      "record": {
+        "name": "地三鲜",
+        "en": "Three Fresh Vegetables",
+        "region": "东北菜",
+        "ingredients": "土豆200克；茄子150克；青椒1个；蒜4瓣；葱末5克；生抽2勺；蚝油1勺；白糖1中勺；盐适量；玉米淀粉8克；红薯淀粉10克；食用油适量",
+        "steps": "1）土豆和茄子切滚刀块，青椒去籽掰块；茄子薄薄裹匀红薯淀粉，蒜切末。2）中小火把土豆煎至表面金黄且基本熟透，盛出；再把茄子煎软、青椒煎至微焦后盛出。3）生抽、蚝油、白糖、盐、玉米淀粉和半碗清水调匀。4）锅中炒香一半蒜末，倒入料汁小火煮至微稠，回锅三样食材，大火快速裹汁，放入剩余蒜末翻匀出锅。",
+        "img": "10-disanxian.png",
+        "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/"
+      }
+    },
+    {
+      "id": "cn-011",
+      "category": "chinese",
+      "index": 10,
+      "record": {
+        "name": "桂林米粉",
+        "en": "Guilin Rice Noodles",
+        "region": "广西",
+        "ingredients": "干米粉250克；卤牛肉150克；酸豆角60克；花生30克；卤水200毫升；高汤400毫升；葱花和辣椒油适量",
+        "steps": "1）米粉泡软煮熟，冲洗沥水。2）碗中放米粉，加入卤水和少量高汤拌匀。3）铺卤牛肉、酸豆角、花生和葱花，按口味加辣椒油。",
+        "img": "11-guilin-mifen.png",
+        "source": "https://thewoksoflife.com/"
+      }
+    },
+    {
+      "id": "cn-012",
+      "category": "chinese",
+      "index": 11,
+      "record": {
+        "name": "羊肉泡馍",
+        "en": "Lamb Paomo",
+        "region": "陕西",
+        "ingredients": "羊肉500克；面饼2个；粉丝80克；木耳30克；姜20克；花椒1茶匙；香菜和糖蒜适量；盐适量",
+        "steps": "1）羊肉加姜和花椒小火煮至软烂，切片，汤过滤。2）面饼掰成黄豆大小，粉丝木耳泡发。3）原汤煮馍粒、粉丝和木耳至入味，铺羊肉，配香菜与糖蒜。",
+        "img": "12-yangrou-paomo.png",
+        "source": "https://thewoksoflife.com/"
+      }
+    },
+    {
+      "id": "cn-013",
+      "category": "chinese",
+      "index": 12,
+      "record": {
+        "name": "胡辣汤",
+        "en": "Henan Spicy Pepper Soup",
+        "region": "河南",
+        "ingredients": "熟牛肉100克；面筋100克；木耳40克；海带50克；粉条80克；高汤800毫升；胡椒粉5克；香醋20毫升；淀粉25克",
+        "steps": "1）木耳海带切丝，粉条泡软。2）高汤烧开，下牛肉、面筋和配菜煮熟。3）加胡椒、盐和香醋，淀粉水缓慢勾成稠羹。",
+        "img": "13-hulatang.png",
+        "source": "https://thewoksoflife.com/"
+      }
+    },
+    {
+      "id": "cn-014",
+      "category": "chinese",
+      "index": 13,
+      "record": {
+        "name": "柳州螺蛳粉",
+        "en": "Liuzhou Luosifen",
+        "region": "广西",
+        "ingredients": "干米粉250克；螺蛳汤底700毫升；酸笋80克；腐竹50克；木耳40克；花生30克；青菜100克；辣椒油适量",
+        "steps": "1）米粉泡软煮熟。2）螺蛳汤底烧开，下酸笋、木耳和青菜。3）米粉入碗，浇热汤，放腐竹、花生，按口味加辣椒油。",
+        "img": "14-liuzhou-luosifen.png",
+        "source": "https://thewoksoflife.com/"
+      }
+    },
+    {
+      "id": "cn-015",
+      "category": "chinese",
+      "index": 14,
+      "record": {
+        "name": "兰州清汤牛肉面",
+        "en": "Lanzhou Beef Noodles",
+        "region": "甘肃",
+        "ingredients": "牛腱600克；鲜面条300克；白萝卜250克；姜20克；花椒和八角少许；香菜蒜苗适量；辣椒油适量；盐适量",
+        "steps": "1）牛腱焯水，与姜香料小火炖2小时，取出切片，汤过滤。2）萝卜片在清汤中煮熟。3）面条煮好入碗，浇牛肉清汤，铺牛肉、萝卜、香菜蒜苗。",
+        "img": "15-lanzhou-qingtang-niuroumian.png",
+        "source": "https://thewoksoflife.com/"
+      }
+    },
+    {
+      "id": "cn-016",
+      "category": "chinese",
+      "index": 15,
+      "record": {
+        "name": "回锅肉",
+        "en": "Twice-cooked Pork",
+        "region": "川菜",
+        "ingredients": "带皮五花肉350克；青蒜150克；郫县豆瓣酱20克；甜面酱10克；豆豉8克；姜片10克；糖3克",
+        "steps": "1）五花肉冷水下锅煮至八成熟，晾凉切薄片。2）小火煸至卷曲出油，加豆瓣、豆豉和甜面酱炒香。3）下青蒜梗叶和糖，大火翻匀。",
+        "img": "26-huiguo-rou.png",
+        "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/"
+      }
+    },
+    {
+      "id": "cn-017",
+      "category": "chinese",
+      "index": 16,
+      "record": {
+        "name": "水煮牛肉",
+        "en": "Sichuan Boiled Beef",
+        "region": "川菜",
+        "ingredients": "牛里脊300克；豆芽200克；莴笋150克；郫县豆瓣25克；干辣椒12个；花椒2茶匙；蒜末20克；高汤500毫升；淀粉10克",
+        "steps": "1）牛肉切薄片，用盐、淀粉和少量油腌10分钟，蔬菜焯熟垫碗。2）炒香豆瓣，加高汤煮开，逐片下牛肉至刚熟。3）连汤倒入碗，铺辣椒花椒蒜末，浇热油。",
+        "img": "27-shuizhu-niurou.png",
+        "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/"
+      }
+    },
+    {
+      "id": "cn-018",
+      "category": "chinese",
+      "index": 17,
+      "record": {
+        "name": "酸菜鱼",
+        "en": "Fish with Pickled Mustard Greens",
+        "region": "川渝",
+        "ingredients": "黑鱼片400克；酸菜250克；泡椒20克；姜蒜各15克；高汤700毫升；蛋清半个；淀粉10克；花椒和干辣椒适量",
+        "steps": "1）鱼片加盐、蛋清和淀粉上浆，鱼骨煎香。2）炒香酸菜、泡椒和姜蒜，加高汤及鱼骨煮10分钟。3）捞出底料，滑入鱼片至变白，倒碗后以辣椒花椒热油激香。",
+        "img": "28-suancai-yu.png",
+        "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/"
+      }
+    },
+    {
+      "id": "cn-019",
+      "category": "chinese",
+      "index": 18,
+      "record": {
+        "name": "东坡肉",
+        "en": "Dongpo Pork",
+        "region": "浙菜",
+        "ingredients": "方块五花肉800克；绍兴酒250毫升；生抽60毫升；老抽15毫升；冰糖50克；葱100克；姜40克",
+        "steps": "1）五花肉焯水，切大方块并扎绳定形。2）砂锅垫葱姜，肉皮向下，加酒、酱油和冰糖。3）小火焖90分钟，翻面再焖30分钟，蒸20分钟更酥软。",
+        "img": "29-dongpo-rou.png",
+        "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/"
+      }
+    },
+    {
+      "id": "cn-020",
+      "category": "chinese",
+      "index": 19,
+      "record": {
+        "name": "白切鸡",
+        "en": "Cantonese Poached Chicken",
+        "region": "粤菜",
+        "ingredients": "嫩鸡1只约1000克；姜40克；葱40克；盐10克；料酒20毫升；芝麻油10毫升；蘸料适量",
+        "steps": "1）大锅水加姜葱烧至微沸，提鸡三浸三提。2）鸡完全浸入，保持微沸约25分钟，关火焖15分钟。3）立即冰镇，擦干抹芝麻油，斩件配姜葱蘸料。",
+        "img": "30-baiqie-ji.png",
+        "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/"
+      }
+    },
+    {
+      "id": "cn-021",
+      "category": "chinese",
+      "index": 20,
+      "record": {
+        "name": "口水鸡",
+        "en": "Sichuan Mouthwatering Chicken",
+        "region": "川菜",
+        "ingredients": "鸡腿2只约500克；姜葱适量；花生碎30克；辣椒油50毫升；生抽25毫升；香醋15毫升；糖5克；花椒粉2克；蒜末15克",
+        "steps": "1）鸡腿加姜葱煮至熟，冰镇后斩块。2）辣椒油、生抽、醋、糖、花椒粉和蒜末调成料汁。3）浇在鸡块上，撒花生碎和葱花。",
+        "img": "31-koushui-ji.png",
+        "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/"
+      }
+    },
+    {
+      "id": "cn-022",
+      "category": "chinese",
+      "index": 21,
+      "record": {
+        "name": "北京烤鸭",
+        "en": "Peking Duck",
+        "region": "京菜",
+        "ingredients": "净鸭1只约1800克；麦芽糖30克；白醋15毫升；开水适量；荷叶饼20张；葱丝、黄瓜和甜面酱适量",
+        "steps": "1）鸭皮淋开水收紧，刷麦芽糖醋水，通风冷藏风干一夜。2）烤箱200℃烤约60分钟，中途翻面，至皮脆肉熟。3）片鸭皮肉，配荷叶饼、葱丝、黄瓜和甜面酱。",
+        "img": "32-beijing-kaoya.png",
+        "source": "https://thewoksoflife.com/"
+      }
+    },
+    {
+      "id": "cn-023",
+      "category": "chinese",
+      "index": 22,
+      "record": {
+        "name": "小鸡炖蘑菇",
+        "en": "Chicken Stew with Mushrooms",
+        "region": "东北菜",
+        "ingredients": "鸡块700克；干榛蘑80克；粉条100克；葱姜适量；生抽25毫升；料酒20毫升；八角1个；盐适量",
+        "steps": "1）榛蘑和粉条分别泡发，鸡块焯水。2）炒香葱姜八角，下鸡块、生抽和料酒翻炒。3）加热水与蘑菇炖40分钟，下粉条再煮10分钟调盐。",
+        "img": "33-xiaoji-dun-mogu.png",
+        "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/"
+      }
+    },
+    {
+      "id": "cn-024",
+      "category": "chinese",
+      "index": 23,
+      "record": {
+        "name": "锅包肉",
+        "en": "Northeastern Sweet-and-sour Pork",
+        "region": "东北菜",
+        "ingredients": "猪里脊500克；淀粉300克；胡萝卜5克；葱姜蒜适量；香菜3克；白糖30克；白醋10毫升；酱油3毫升；盐4克；清水适量；食用油适量",
+        "steps": "1）里脊切成约2–3毫米厚的大片，加少许盐；淀粉分次加水调成能均匀挂住肉片的稠糊。胡萝卜、葱姜切丝，蒜切片，香菜切段。2）油温五至六成热时逐片下肉，中火炸熟捞出；升高油温后回锅快速复炸至外壳焦脆，沥油。3）白糖、白醋、酱油、盐和少量清水调成糖醋汁。4）锅留少许底油，大火炒香配菜丝，放入炸好的肉片，淋入糖醋汁快速翻匀，关火后放香菜出锅。",
+        "img": "34-guobaorou.png",
+        "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/"
+      }
+    },
+    {
+      "id": "cn-025",
+      "category": "chinese",
+      "index": 24,
+      "record": {
+        "name": "西湖醋鱼",
+        "en": "West Lake Vinegar Fish",
+        "region": "浙菜",
+        "ingredients": "草鱼1条约700克；姜末15克；香醋60毫升；白糖40克；酱油20毫升；料酒15毫升；淀粉10克",
+        "steps": "1）鱼从背部剖开，沸水加料酒，鱼皮向上小火汆熟。2）鱼盛盘保温。3）原汤加酱油、糖、醋和姜末煮开，薄芡后浇鱼。",
+        "img": "35-xihu-cuyu.png",
+        "source": "https://thewoksoflife.com/"
+      }
+    },
+    {
+      "id": "cn-026",
+      "category": "chinese",
+      "index": 25,
+      "record": {
+        "name": "龙井虾仁",
+        "en": "Dragon Well Tea Shrimp",
+        "region": "浙菜",
+        "ingredients": "虾仁350克；龙井茶5克；蛋清半个；淀粉8克；料酒10毫升；盐3克；食用油适量",
+        "steps": "1）龙井用80℃水泡开，留茶汤和部分茶叶。2）虾仁以盐、蛋清和淀粉上浆，低温滑油至变色。3）锅留少油，下虾仁、茶汤和茶叶快速翻炒。",
+        "img": "36-longjing-xiaren.png",
+        "source": "https://thewoksoflife.com/"
+      }
+    },
+    {
+      "id": "cn-027",
+      "category": "chinese",
+      "index": 26,
+      "record": {
+        "name": "蒜蓉粉丝蒸扇贝",
+        "en": "Steamed Scallops with Garlic Vermicelli",
+        "region": "粤菜",
+        "ingredients": "扇贝6只；粉丝30克；大蒜30克；姜片10克；红尖椒1个；料酒10毫升；生抽20毫升；白糖3克；芝麻香油10毫升；白胡椒粉少许；食用油35毫升",
+        "steps": "1）打开扇贝取肉，去除肠脏并冲洗干净，贝壳刷洗擦干；粉丝剪段后用温水泡软、沥干，以少许芝麻香油和白胡椒粉拌匀，分放在贝壳中，再摆上扇贝肉。2）锅中用少量油爆香姜片，转小火加入料酒、生抽、白糖、芝麻香油、白胡椒粉和少许水煮匀，取出姜片。3）蒜蓉分成两半，一半用六成热油炸至金黄，再与生蒜蓉、红椒碎拌成金银蒜，铺在扇贝上并淋调味汁。4）蒸锅水开后大火蒸5–6分钟；出锅后淋上烧至七成热的剩余食用油。",
+        "img": "37-suanrong-fensi-zheng-shanbei.png",
+        "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/"
+      }
+    },
+    {
+      "id": "cn-028",
+      "category": "chinese",
+      "index": 27,
+      "record": {
+        "name": "清炒虾仁",
+        "en": "Stir-fried Shrimp",
+        "region": "淮扬菜",
+        "ingredients": "虾仁350克；黄瓜100克；蛋清半个；淀粉8克；盐3克；料酒10毫升；白胡椒少许",
+        "steps": "1）虾仁用盐、蛋清和淀粉上浆，黄瓜切丁。2）温油滑熟虾仁盛出。3）原锅下黄瓜，回锅虾仁，加料酒、盐和白胡椒快速翻匀。",
+        "img": "38-qingchao-xiaren.png",
+        "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/"
+      }
+    },
+    {
+      "id": "cn-029",
+      "category": "chinese",
+      "index": 28,
+      "record": {
+        "name": "干煸四季豆",
+        "en": "Dry-fried Green Beans",
+        "region": "川菜",
+        "ingredients": "四季豆450克；盐1/2茶匙；食用油2汤匙；猪肉末1/4杯；大蒜2瓣；干辣椒2个；碎米芽菜2汤匙；绍兴酒1茶匙；生抽1又1/2茶匙；白糖1/8茶匙；芝麻油1茶匙",
+        "steps": "1）炒锅高火预热至刚开始冒烟，放入四季豆和盐，立即转中小火，偶尔翻动约20分钟，至表面出现焦斑并完全熟透，盛出备用。2）锅中加入食用油，中高火把猪肉末炒至褐色熟透；加入切碎的大蒜和干辣椒翻炒30秒，再放碎米芽菜炒1分钟。3）倒回四季豆，加入绍兴酒、生抽、白糖和芝麻油，转高火翻炒1分钟后立即装盘。",
+        "img": "39-ganbian-sijidou.png",
+        "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/"
+      }
+    },
+    {
+      "id": "cn-030",
+      "category": "chinese",
+      "index": 29,
+      "record": {
+        "name": "蚂蚁上树",
+        "en": "Minced Pork with Glass Noodles",
+        "region": "川菜",
+        "ingredients": "红薯粉条150克；猪肉末150克；郫县豆瓣15克；姜蒜末适量；生抽15毫升；高汤300毫升；葱花适量",
+        "steps": "1）粉条泡软剪短。2）炒散肉末，加入豆瓣和姜蒜炒出红油。3）加高汤和生抽，下粉条焖至吸汁，撒葱花。",
+        "img": "40-mayi-shangshu.png",
+        "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/"
+      }
+    },
+    {
+      "id": "cn-031",
+      "category": "chinese",
+      "index": 30,
+      "record": {
+        "name": "家常豆腐",
+        "en": "Home-style Tofu",
+        "region": "川菜",
+        "ingredients": "北豆腐450克；猪肉片100克；木耳50克；青红椒各60克；豆瓣酱15克；生抽15毫升；蒜末10克；淀粉5克",
+        "steps": "1）豆腐切片煎至两面金黄。2）炒熟肉片，加入豆瓣和蒜末，再下木耳青红椒。3）倒入豆腐和少量水焖3分钟，以淀粉水薄芡。",
+        "img": "41-jiachang-doufu.png",
+        "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/"
+      }
+    },
+    {
+      "id": "cn-032",
+      "category": "chinese",
+      "index": 31,
+      "record": {
+        "name": "虎皮青椒",
+        "en": "Blistered Green Peppers",
+        "region": "川菜",
+        "ingredients": "薄皮青椒400克；蒜末15克；生抽20毫升；香醋15毫升；糖5克；盐2克；食用油15毫升",
+        "steps": "1）青椒去蒂去籽，擦干。2）干锅或少油中火按压煎至表面起虎皮。3）加蒜末、生抽、醋、糖和盐，翻炒收汁。",
+        "img": "42-hupi-qingjiao.png",
+        "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/"
+      }
+    },
+    {
+      "id": "cn-033",
+      "category": "chinese",
+      "index": 32,
+      "record": {
+        "name": "酸辣土豆丝",
+        "en": "Hot and Sour Shredded Potatoes",
+        "region": "家常菜",
+        "ingredients": "土豆400克；青红椒各40克；干辣椒4个；蒜末10克；米醋25毫升；盐3克；食用油20毫升",
+        "steps": "1）土豆切细丝，多次冲水去淀粉并沥干。2）热油爆香干辣椒蒜末，大火下土豆丝。3）沿锅边烹醋，加青红椒和盐，炒至断生仍脆。",
+        "img": "43-suanla-tudousi.png",
+        "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/"
+      }
+    },
+    {
+      "id": "cn-034",
+      "category": "chinese",
+      "index": 33,
+      "record": {
+        "name": "韭菜炒鸡蛋",
+        "en": "Chive and Egg Stir-fry",
+        "region": "家常菜",
+        "ingredients": "韭菜250克；鸡蛋4个；盐4克；白胡椒少许；食用油25毫升",
+        "steps": "1）韭菜切段，鸡蛋加盐打散。2）热油炒鸡蛋至蓬松，盛出。3）原锅大火炒韭菜梗再下叶，回锅鸡蛋，调盐迅速出锅。",
+        "img": "44-jiucai-chaodan.png",
+        "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/"
+      }
+    },
+    {
+      "id": "cn-035",
+      "category": "chinese",
+      "index": 34,
+      "record": {
+        "name": "冬瓜排骨汤",
+        "en": "Winter Melon Pork Rib Soup",
+        "region": "粤式家常",
+        "ingredients": "排骨500克；冬瓜500克；姜20克；葱1根；料酒15毫升；盐适量；白胡椒少许",
+        "steps": "1）排骨冷水焯去血沫。2）排骨加姜、葱和足量清水，小火炖50分钟。3）冬瓜切厚块入锅再煮20分钟，以盐和白胡椒调味。",
+        "img": "45-donggua-paigu-tang.png",
+        "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/"
+      }
+    },
+    {
+      "id": "cn-036",
+      "category": "chinese",
+      "index": 35,
+      "record": {
+        "name": "莲藕排骨汤",
+        "en": "Lotus Root Pork Rib Soup",
+        "region": "湖北",
+        "ingredients": "排骨400克；莲藕600克；姜2片；小葱10克；料酒适量；盐10克；清水适量",
+        "steps": "1）排骨剁块，冷水下锅并加适量料酒，煮开焯去血沫，捞出冲洗干净；莲藕刮去外皮后切稍大的滚刀块。2）排骨、莲藕和姜片放入深汤锅，加水没过食材约8厘米，大火煮开后转小火，炖至排骨略松脱、筷子能轻松戳透莲藕。3）起锅前加盐调味，撒葱花即可。",
+        "img": "46-lianou-paigu-tang.png",
+        "source": "https://thewoksoflife.com/"
+      }
+    },
+    {
+      "id": "cn-037",
+      "category": "chinese",
+      "index": 36,
+      "record": {
+        "name": "佛跳墙",
+        "en": "Buddha Jumps Over the Wall",
+        "region": "闽菜",
+        "ingredients": "泡发海参150克；鲍鱼6只；花胶100克；干贝50克；鸡块300克；排骨300克；香菇6朵；绍兴酒80毫升；高汤1200毫升",
+        "steps": "1）各类干货提前泡发处理，鸡块和排骨焯水。2）食材分层装入炖盅，加绍兴酒和高汤。3）密封后隔水小火炖3小时，最后按咸度调味。",
+        "img": "47-fotiaoqiang.png",
+        "source": "https://thewoksoflife.com/"
+      }
+    },
+    {
+      "id": "cn-038",
+      "category": "chinese",
+      "index": 37,
+      "record": {
+        "name": "腊味煲仔饭",
+        "en": "Claypot Rice with Chinese Sausage",
+        "region": "粤菜",
+        "ingredients": "大米300克；广式腊肠2根；腊肉100克；青菜150克；姜丝10克；生抽20毫升；蚝油10克；糖3克；芝麻油5毫升",
+        "steps": "1）大米浸30分钟，砂锅加水煮至表面见孔。2）铺腊肠、腊肉和姜丝，小火焖12分钟，沿锅边淋少量油。3）关火焖10分钟，放焯青菜，淋酱汁拌匀。",
+        "img": "48-lawei-baozai-fan.png",
+        "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/"
+      }
+    },
+    {
+      "id": "cn-039",
+      "category": "chinese",
+      "index": 38,
+      "record": {
+        "name": "海南鸡饭",
+        "en": "Hainanese Chicken Rice",
+        "region": "海南/东南亚",
+        "ingredients": "嫩鸡半只约700克；大米300克；鸡汤适量；姜蒜各20克；斑斓叶可选；黄瓜100克；辣椒姜蓉蘸料适量",
+        "steps": "1）鸡以姜葱微沸浸煮至熟，冰镇斩件，鸡汤留用。2）鸡油炒香米和姜蒜，用鸡汤煮成饭。3）鸡肉配鸡油饭、黄瓜及辣椒姜蓉蘸料。",
+        "img": "49-hainan-jifan.png",
+        "source": "https://thewoksoflife.com/"
+      }
+    },
+    {
+      "id": "cn-040",
+      "category": "chinese",
+      "index": 39,
+      "record": {
+        "name": "担担面",
+        "en": "Dan Dan Noodles",
+        "region": "川菜",
+        "ingredients": "鲜面条300克；猪肉末150克；芽菜50克；芝麻酱30克；辣椒油30毫升；生抽20毫升；香醋10毫升；花椒粉2克；青菜100克",
+        "steps": "1）肉末炒酥，加芽菜炒香。2）碗中调入芝麻酱、辣椒油、生抽、醋、花椒粉和少量面汤。3）面条和青菜煮熟入碗，铺肉臊拌匀。",
+        "img": "50-dandan-mian.png",
+        "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/"
+      }
+    },
+    {
+      "id": "cn-041",
+      "category": "chinese",
+      "index": 40,
+      "record": {
+        "name": "炸酱面",
+        "en": "Beijing Zhajiang Noodles",
+        "region": "京菜",
+        "ingredients": "鲜面条300克；五花肉丁180克；干黄酱50克；甜面酱30克；葱姜适量；黄瓜和豆芽等菜码200克",
+        "steps": "1）黄酱以水调开，与甜面酱混合。2）炒香肉丁和葱姜，倒酱小火炸10分钟至油酱分离。3）面条煮熟，放菜码和炸酱拌食。",
+        "img": "51-zhajiang-mian.png",
+        "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/"
+      }
+    },
+    {
+      "id": "cn-042",
+      "category": "chinese",
+      "index": 41,
+      "record": {
+        "name": "热干面",
+        "en": "Wuhan Hot Dry Noodles",
+        "region": "湖北",
+        "ingredients": "碱水面300克；芝麻酱50克；芝麻油15毫升；生抽15毫升；香醋8毫升；萝卜丁30克；葱花和辣椒油适量",
+        "steps": "1）碱水面煮至八成熟，拌少量油摊凉。2）食用时复烫30秒沥干。3）加入调稀的芝麻酱、生抽、醋、萝卜丁、葱花和辣椒油，趁热拌匀。",
+        "img": "52-regan-mian.png",
+        "source": "https://thewoksoflife.com/"
+      }
+    },
+    {
+      "id": "cn-043",
+      "category": "chinese",
+      "index": 42,
+      "record": {
+        "name": "重庆小面",
+        "en": "Chongqing Spicy Noodles",
+        "region": "重庆",
+        "ingredients": "鲜面条300克；青菜100克；辣椒油30毫升；生抽20毫升；香醋10毫升；花椒粉2克；蒜水20毫升；猪油5克；花生碎适量",
+        "steps": "1）碗中放辣椒油、生抽、醋、花椒粉、蒜水和猪油，冲入热汤。2）面条和青菜煮熟。3）捞入调料碗，撒花生碎和葱花。",
+        "img": "53-chongqing-xiaomian.png",
+        "source": "https://thewoksoflife.com/"
+      }
+    },
+    {
+      "id": "cn-044",
+      "category": "chinese",
+      "index": 43,
+      "record": {
+        "name": "小笼包",
+        "en": "Soup Dumplings",
+        "region": "江南",
+        "ingredients": "中筋面粉250克；温水130毫升；猪肉馅300克；皮冻180克；葱姜水80毫升；生抽15毫升；糖5克；盐4克",
+        "steps": "1）面粉加水揉成光滑面团，醒30分钟。2）肉馅分次打入葱姜水调味，拌入切碎皮冻。3）擀薄皮包馅捏褶，水开大火蒸8分钟。",
+        "img": "54-xiaolongbao.png",
+        "source": "https://thewoksoflife.com/"
+      }
+    },
+    {
+      "id": "cn-045",
+      "category": "chinese",
+      "index": 44,
+      "record": {
+        "name": "韭菜猪肉饺子",
+        "en": "Pork and Chive Dumplings",
+        "region": "北方家常",
+        "ingredients": "饺子皮40张；猪肉馅400克；韭菜300克；葱姜水80毫升；生抽20毫升；芝麻油10毫升；盐5克",
+        "steps": "1）肉馅分次搅入葱姜水、生抽和盐至上劲。2）韭菜切末拌芝麻油，再与肉馅混合。3）包入饺子皮，沸水下锅，点水两次煮至鼓起熟透。",
+        "img": "55-jiucai-zhurou-jiaozi.png",
+        "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/"
+      }
+    },
+    {
+      "id": "cn-046",
+      "category": "chinese",
+      "index": 45,
+      "record": {
+        "name": "馄饨",
+        "en": "Pork Wontons",
+        "region": "江南家常",
+        "ingredients": "馄饨皮30张；猪肉馅250克；虾仁100克；葱姜水60毫升；生抽15毫升；紫菜5克；虾皮10克；高汤700毫升",
+        "steps": "1）肉馅与虾仁碎调味，分次搅入葱姜水。2）包成馄饨，沸水煮至浮起后再煮2分钟。3）碗中放紫菜虾皮，冲高汤，捞入馄饨。",
+        "img": "76-huntun.png",
+        "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/"
+      }
+    },
+    {
+      "id": "cn-047",
+      "category": "chinese",
+      "index": 46,
+      "record": {
+        "name": "葱油拌面",
+        "en": "Scallion Oil Noodles",
+        "region": "上海",
+        "ingredients": "鲜面条300克；小葱120克；食用油80毫升；生抽35毫升；老抽8毫升；糖15克",
+        "steps": "1）葱切段擦干，冷油下锅小火炸至焦黄捞出。2）油中加生抽、老抽和糖，小火煮至起泡。3）面条煮熟沥干，拌葱油汁并放回酥葱。",
+        "img": "77-congyou-ban-mian.png",
+        "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/"
+      }
+    },
+    {
+      "id": "cn-048",
+      "category": "chinese",
+      "index": 47,
+      "record": {
+        "name": "炒河粉",
+        "en": "Beef Chow Fun",
+        "region": "粤菜",
+        "ingredients": "鲜河粉400克；牛肉180克；豆芽150克；韭黄80克；生抽20毫升；老抽8毫升；蚝油10克；淀粉5克",
+        "steps": "1）牛肉切片用生抽和淀粉腌10分钟，滑炒至七成熟盛出。2）大火把河粉煎炒出香气。3）加牛肉、豆芽、韭黄和调味料，快速翻匀避免碎断。",
+        "img": "78-chao-hefen.png",
+        "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/"
+      }
+    },
+    {
+      "id": "cn-049",
+      "category": "chinese",
+      "index": 48,
+      "record": {
+        "name": "肉夹馍",
+        "en": "Roujiamo",
+        "region": "陕西",
+        "ingredients": "白吉馍4个；带皮猪肉600克；冰糖20克；生抽30毫升；料酒30毫升；八角桂皮香叶适量；青椒可选",
+        "steps": "1）猪肉焯水，与香料、酱油、冰糖和热水小火卤90分钟。2）肉剁碎并拌少量卤汁。3）白吉馍烤热剖开，夹入肉末和可选青椒。",
+        "img": "79-roujiamo.png",
+        "source": "https://thewoksoflife.com/"
+      }
+    },
+    {
+      "id": "cn-050",
+      "category": "chinese",
+      "index": 49,
+      "record": {
+        "name": "煎饼果子",
+        "en": "Jianbing Guozi",
+        "region": "天津",
+        "ingredients": "绿豆面100克；中筋面粉50克；水260毫升；鸡蛋4个；薄脆4片；甜面酱30克；葱花香菜适量；芝麻和辣酱适量",
+        "steps": "1）两种面粉加水调成流动面糊。2）薄摊在平底锅，打蛋摊开，撒芝麻葱香菜后翻面。3）刷酱，放薄脆折起即可。",
+        "img": "80-jianbing-guozi.png",
+        "source": "https://thewoksoflife.com/"
+      }
+    },
+    {
+      "id": "cn-051",
+      "category": "chinese",
+      "index": 50,
+      "record": {
+        "name": "叉烧",
+        "en": "Cantonese Char Siu",
+        "region": "粤菜",
+        "ingredients": "梅花肉600克；叉烧酱60克；生抽20毫升；蜂蜜25克；料酒15毫升；蒜末10克",
+        "steps": "1）猪肉切粗条，以叉烧酱、生抽、料酒和蒜末冷藏腌一夜。2）200℃烤30–35分钟，中途翻面并刷腌汁。3）最后刷蜂蜜，升温烤至焦亮，静置后切片。",
+        "img": "81-chashao.png",
+        "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/"
+      }
+    },
+    {
+      "id": "cn-052",
+      "category": "chinese",
+      "index": 51,
+      "record": {
+        "name": "梅菜扣肉",
+        "en": "Pork Belly with Preserved Mustard Greens",
+        "region": "客家菜",
+        "ingredients": "五花肉700克；梅干菜150克；生抽30毫升；老抽10毫升；糖10克；姜蒜适量；料酒20毫升",
+        "steps": "1）五花肉煮至七成熟，抹老抽，肉皮向下煎至起泡，切片。2）梅干菜泡洗后与姜蒜炒香调味。3）肉片皮朝下码碗，铺梅菜，蒸90分钟后倒扣。",
+        "img": "82-meicai-kourou.png",
+        "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/"
+      }
+    },
+    {
+      "id": "cn-053",
+      "category": "chinese",
+      "index": 52,
+      "record": {
+        "name": "盐焗鸡",
+        "en": "Salt-baked Chicken",
+        "region": "客家菜",
+        "ingredients": "三黄鸡1只约1000克；粗盐1500克；沙姜粉10克；盐8克；葱姜适量；烘焙纸2张",
+        "steps": "1）鸡擦干，以沙姜粉和盐抹匀腌2小时。2）腹中塞葱姜，用纸严密包裹。3）锅中粗盐炒热，埋入鸡，小火焗45分钟，关火焖20分钟。",
+        "img": "83-yanju-ji.png",
+        "source": "https://thewoksoflife.com/"
+      }
+    },
+    {
+      "id": "cn-054",
+      "category": "chinese",
+      "index": 53,
+      "record": {
+        "name": "豉汁蒸排骨",
+        "en": "Steamed Pork Ribs with Black Bean",
+        "region": "粤菜",
+        "ingredients": "肋排500克；阳江豆豉15克；姜末10克；蒜末10克；白糖3克；干淀粉5克；盐5克；料酒10毫升；生抽15毫升；蚝油5毫升；白胡椒粉2克；朝天椒1个；小葱10克；食用油10毫升",
+        "steps": "1）肋排斩成约3厘米小块，充分冲洗去血水后沥干；姜、蒜、豆豉切末，朝天椒切粒。2）排骨加入豆豉、姜蒜末、部分椒粒、盐、白糖、白胡椒粉、生抽、蚝油、料酒和食用油，抓拌均匀。3）干淀粉加少量水调开后拌入排骨，腌至少20分钟；时间允许可延长至2小时。4）排骨在盘中摊开，蒸锅水开上汽后大火蒸25–30分钟至熟，出锅撒葱花和剩余椒粒。",
+        "img": "84-chizhi-zheng-paigu.png",
+        "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/"
+      }
+    },
+    {
+      "id": "cn-055",
+      "category": "chinese",
+      "index": 54,
+      "record": {
+        "name": "干锅花菜",
+        "en": "Dry-pot Cauliflower",
+        "region": "湘川风味",
+        "ingredients": "花菜500克；五花肉150克；青蒜80克；干辣椒6个；豆瓣酱15克；生抽15毫升；蒜片适量",
+        "steps": "1）花菜掰小朵，淡盐水浸洗后焯至七成熟。2）五花肉煸出油，加豆瓣、辣椒和蒜片。3）下花菜大火煸至边缘焦香，加生抽和青蒜。",
+        "img": "85-ganguo-huacai.png",
+        "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/"
+      }
+    },
+    {
+      "id": "cn-056",
+      "category": "chinese",
+      "index": 55,
+      "record": {
+        "name": "上汤娃娃菜",
+        "en": "Baby Napa Cabbage in Superior Broth",
+        "region": "粤菜",
+        "ingredients": "娃娃菜2棵；皮蛋1个；咸蛋黄1个；火腿30克；蒜片10克；高汤500毫升；盐适量",
+        "steps": "1）娃娃菜纵切，焯水后摆盘。2）炒香蒜片，下皮蛋、咸蛋黄和火腿丁。3）加入高汤煮浓，调盐后浇在娃娃菜上。",
+        "img": "86-shangtang-wawacai.png",
+        "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/"
+      }
+    },
+    {
+      "id": "cn-057",
+      "category": "chinese",
+      "index": 56,
+      "record": {
+        "name": "红烧茄子",
+        "en": "Red-braised Eggplant",
+        "region": "家常菜",
+        "ingredients": "茄子500克；青椒80克；蒜末15克；生抽20毫升；老抽5毫升；糖8克；香醋8毫升；淀粉8克",
+        "steps": "1）茄子切块撒少许盐，挤水后裹薄淀粉煎软。2）炒香蒜末和青椒。3）加入酱油糖醋汁及茄子，焖2分钟后收汁。",
+        "img": "87-hongshao-qiezi.png",
+        "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/"
+      }
+    },
+    {
+      "id": "cn-058",
+      "category": "chinese",
+      "index": 57,
+      "record": {
+        "name": "番茄牛腩",
+        "en": "Tomato Braised Beef Brisket",
+        "region": "家常菜",
+        "ingredients": "牛腩600克；番茄500克；洋葱150克；姜20克；番茄酱30克；生抽20毫升；八角1个；盐适量",
+        "steps": "1）牛腩焯水，番茄一半炒成酱。2）下牛腩、洋葱、姜、八角和热水，小火炖80分钟。3）加入剩余番茄再炖15分钟，调盐收至浓郁。",
+        "img": "88-fanqie-niunan.png",
+        "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/"
+      }
+    },
+    {
+      "id": "cn-059",
+      "category": "chinese",
+      "index": 58,
+      "record": {
+        "name": "紫菜蛋花汤",
+        "en": "Seaweed Egg Drop Soup",
+        "region": "家常汤",
+        "ingredients": "鸡蛋2个；干紫菜8克；虾皮10克；高汤700毫升；盐3克；白胡椒少许；芝麻油5毫升；葱花适量",
+        "steps": "1）高汤烧开，放虾皮和紫菜。2）保持微沸，蛋液细流淋入，静置数秒再轻推。3）加盐、白胡椒和芝麻油，撒葱花。",
+        "img": "89-zicai-danhua-tang.png",
+        "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/"
+      }
+    },
+    {
+      "id": "cn-060",
+      "category": "chinese",
+      "index": 59,
+      "record": {
+        "name": "银耳莲子羹",
+        "en": "Tremella and Lotus Seed Sweet Soup",
+        "region": "中式甜汤",
+        "ingredients": "干银耳20克；干莲子80克；红枣8颗；冰糖50克；枸杞10克；清水1200毫升",
+        "steps": "1）银耳泡发去蒂撕小朵，莲子泡软去芯。2）银耳莲子加水小火煮60–90分钟至胶质浓稠。3）加红枣和冰糖煮15分钟，关火前放枸杞。",
+        "img": "90-yiner-lianzi-geng.png",
+        "source": "https://thewoksoflife.com/"
+      }
+    },
+    {
+      "id": "west-001",
+      "category": "western",
+      "index": 0,
+      "record": {
+        "name": "意大利肉酱面",
+        "en": "Spaghetti Bolognese",
+        "region": "意大利",
+        "ingredients": "意大利面250克；牛肉末300克；番茄罐头400克；洋葱100克；胡萝卜80克；芹菜60克；红酒80毫升；橄榄油20毫升；帕玛森适量",
+        "steps": "1）橄榄油炒软洋葱、胡萝卜和芹菜，下牛肉末炒散上色。2）加红酒收干，倒番茄小火炖40分钟。3）面煮至有嚼劲，与肉酱拌匀，撒帕玛森。",
+        "img": "16-spaghetti-bolognese.png",
+        "source": "https://www.bbcgoodfood.com/howto/guide/21-essential-recipes-to-learn-for-life"
+      }
+    },
+    {
+      "id": "west-002",
+      "category": "western",
+      "index": 1,
+      "record": {
+        "name": "玛格丽特披萨",
+        "en": "Margherita Pizza",
+        "region": "意大利",
+        "ingredients": "披萨面团1份约300克；番茄酱100克；马苏里拉150克；罗勒叶10片；橄榄油10毫升；盐少许",
+        "steps": "1）烤箱和烤盘预热至最高温。2）面团拉成薄饼，抹番茄酱，铺马苏里拉。3）高温烤8–12分钟至边缘焦香，出炉放罗勒并淋橄榄油。",
+        "img": "17-margherita-pizza.png",
+        "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2"
+      }
+    },
+    {
+      "id": "west-003",
+      "category": "western",
+      "index": 2,
+      "record": {
+        "name": "香煎牛排",
+        "en": "Pan-seared Steak",
+        "region": "欧美",
+        "ingredients": "牛排2块每块约250克；盐5克；黑胡椒2克；橄榄油15毫升；黄油25克；大蒜3瓣；迷迭香2枝",
+        "steps": "1）牛排回温擦干，充分撒盐和黑胡椒。2）厚底锅高温煎至上色，加入黄油蒜和香草反复淋油。3）按厚度煎至目标熟度，静置5–8分钟再切。",
+        "img": "18-beef-steak.png",
+        "source": "https://www.bbcgoodfood.com/howto/guide/21-essential-recipes-to-learn-for-life"
+      }
+    },
+    {
+      "id": "west-004",
+      "category": "western",
+      "index": 3,
+      "record": {
+        "name": "凯撒沙拉",
+        "en": "Caesar Salad",
+        "region": "美式/意式",
+        "ingredients": "特级初榨橄榄油105毫升（分作3汤匙和1/4杯）；中等大小大蒜2瓣；结实面包3杯；帕玛森芝士2盎司（约1杯）；犹太盐和现磨黑胡椒适量；大蛋黄1个；柠檬汁1汤匙（15毫升）；鳀鱼2—6条；伍斯特酱1茶匙（5毫升）；菜籽油1/3杯（80毫升）；罗马生菜2棵",
+        "steps": "1）烤箱中层预热至190℃。大蒜切末，与3汤匙橄榄油搅拌30秒后过滤，保留压出的蒜末；面包切成约3/4英寸方块，与蒜香油拌匀。2）面包丁拌入2汤匙帕玛森并以盐、黑胡椒调味，烤约15分钟至浅金黄酥脆；出炉后再拌2汤匙帕玛森，放凉。3）将蛋黄、柠檬汁、鳀鱼、伍斯特酱、保留的蒜末和1/4杯帕玛森搅打，同时缓慢加入菜籽油使其乳化；再打入剩余1/4杯橄榄油，以盐和黑胡椒调味。对生蛋安全有顾虑时，使用巴氏杀菌蛋黄。4）取罗马生菜内层叶片，洗净并仔细擦干，与酱汁拌匀；加入剩余帕玛森的一半及3/4的面包丁轻拌，装碗后撒余下芝士和面包丁。",
+        "img": "19-caesar-salad.png",
+        "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2"
+      }
+    },
+    {
+      "id": "west-005",
+      "category": "western",
+      "index": 4,
+      "record": {
+        "name": "芝士汉堡",
+        "en": "Cheeseburger",
+        "region": "美国",
+        "ingredients": "牛肉馅360克；汉堡胚2个；切达芝士2片；生菜2片；番茄4片；洋葱适量；酸黄瓜适量；盐和黑胡椒；酱料适量",
+        "steps": "1）牛肉轻拢成2个肉饼，煎前撒盐胡椒。2）热锅每面煎2–4分钟，翻面后铺芝士融化。3）面包胚烤香，依次叠酱、生菜、肉饼、番茄和酸黄瓜。",
+        "img": "20-cheeseburger.png",
+        "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2"
+      }
+    },
+    {
+      "id": "west-006",
+      "category": "western",
+      "index": 5,
+      "record": {
+        "name": "法式洋葱汤",
+        "en": "French Onion Soup",
+        "region": "法国",
+        "ingredients": "黄洋葱600克；黄油35克；面粉10克；牛高汤900毫升；白葡萄酒100毫升；法棍4片；格鲁耶尔芝士120克；百里香适量",
+        "steps": "1）黄油中小火慢炒洋葱35–45分钟至深焦糖色。2）加面粉和白酒，倒高汤与百里香煮20分钟。3）盛入耐热碗，放法棍和芝士，烤至金黄起泡。",
+        "img": "21-french-onion-soup.png",
+        "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2"
+      }
+    },
+    {
+      "id": "west-007",
+      "category": "western",
+      "index": 6,
+      "record": {
+        "name": "炸鱼薯条",
+        "en": "Fish and Chips",
+        "region": "英国",
+        "ingredients": "鳕鱼柳400克；土豆500克；面粉150克；啤酒200毫升；泡打粉3克；盐和黑胡椒；食用油适量；塔塔酱适量",
+        "steps": "1）土豆条低温炸熟，升温复炸至脆。2）面粉、泡打粉和冰啤酒快速调糊，鱼柳调味后蘸糊。3）炸至金黄熟透，配薯条、柠檬和塔塔酱。",
+        "img": "22-fish-and-chips.png",
+        "source": "https://www.bbcgoodfood.com/howto/guide/great-british-seaside-recipes"
+      }
+    },
+    {
+      "id": "west-008",
+      "category": "western",
+      "index": 7,
+      "record": {
+        "name": "西班牙海鲜饭",
+        "en": "Seafood Paella",
+        "region": "西班牙",
+        "ingredients": "短粒米300克；虾8只；贻贝400克；鱿鱼150克；番茄150克；高汤750毫升；藏红花少许；甜椒粉3克；橄榄油25毫升",
+        "steps": "1）锅中炒香鱿鱼、番茄和甜椒粉，加入米拌匀。2）倒入藏红花高汤，铺虾和贻贝后不再搅动。3）中小火煮至米熟底部略焦，关火盖布焖5分钟。",
+        "img": "23-spanish-paella.png",
+        "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2"
+      }
+    },
+    {
+      "id": "west-009",
+      "category": "western",
+      "index": 8,
+      "record": {
+        "name": "德式烤香肠",
+        "en": "German Bratwurst",
+        "region": "德国",
+        "ingredients": "德式香肠6根；洋葱200克；啤酒330毫升；黄油20克；酸菜300克；芥末适量；黑胡椒少许",
+        "steps": "1）黄油炒软洋葱，加入香肠和啤酒小火煮10分钟。2）取出香肠煎烤至表面焦香。3）酸菜加热，与洋葱、香肠和芥末同食。",
+        "img": "24-german-bratwurst.png",
+        "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2"
+      }
+    },
+    {
+      "id": "west-010",
+      "category": "western",
+      "index": 9,
+      "record": {
+        "name": "香草烤鸡",
+        "en": "Herb Roast Chicken",
+        "region": "欧美",
+        "ingredients": "整鸡1只约1500克；黄油40克；柠檬1个；大蒜1头；迷迭香和百里香各适量；盐10克；黑胡椒3克",
+        "steps": "1）鸡擦干，皮下和表面抹香草黄油、盐和胡椒，腹中放柠檬蒜。2）200℃烤约65–80分钟至最厚处熟透。3）出炉静置15分钟再切。",
+        "img": "25-herb-roast-chicken.png",
+        "source": "https://www.bbcgoodfood.com/howto/guide/21-essential-recipes-to-learn-for-life"
+      }
+    },
+    {
+      "id": "west-011",
+      "category": "western",
+      "index": 10,
+      "record": {
+        "name": "意式培根蛋面",
+        "en": "Spaghetti Carbonara",
+        "region": "意大利",
+        "ingredients": "意大利面250克；意式腌猪颊肉120克；鸡蛋2个；蛋黄2个；佩科里诺芝士80克；黑胡椒2克",
+        "steps": "1）猪颊肉小火煎至酥香，保留油脂。2）鸡蛋、蛋黄、芝士和黑胡椒拌匀。3）面煮好与猪颊肉离火拌匀，分次加面汤乳化，避免蛋液凝块。",
+        "img": "56-spaghetti-carbonara.png",
+        "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2"
+      }
+    },
+    {
+      "id": "west-012",
+      "category": "western",
+      "index": 11,
+      "record": {
+        "name": "千层面",
+        "en": "Lasagna",
+        "region": "意大利",
+        "ingredients": "千层面片9张；牛肉末350克；番茄酱500克；洋葱100克；白酱400克；马苏里拉180克；帕玛森50克",
+        "steps": "1）炒香洋葱牛肉，加入番茄酱炖20分钟。2）烤盘依次铺肉酱、面片、白酱和芝士，重复三层。3）190℃烤35–40分钟，静置10分钟再切。",
+        "img": "57-lasagna.png",
+        "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2"
+      }
+    },
+    {
+      "id": "west-013",
+      "category": "western",
+      "index": 12,
+      "record": {
+        "name": "奶油宽面",
+        "en": "Fettuccine Alfredo",
+        "region": "意大利/美国",
+        "ingredients": "宽面250克；黄油50克；淡奶油200毫升；帕玛森100克；蒜1瓣；盐和黑胡椒；欧芹少许",
+        "steps": "1）宽面煮至有嚼劲，留面汤。2）黄油炒香蒜，加入奶油微沸。3）下宽面和帕玛森，少量面汤调至顺滑，撒黑胡椒和欧芹。",
+        "img": "58-fettuccine-alfredo.png",
+        "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2"
+      }
+    },
+    {
+      "id": "west-014",
+      "category": "western",
+      "index": 13,
+      "record": {
+        "name": "蘑菇烩饭",
+        "en": "Mushroom Risotto",
+        "region": "意大利",
+        "ingredients": "意大利烩饭米250克；蘑菇300克；洋葱80克；白葡萄酒100毫升；热高汤800毫升；黄油35克；帕玛森60克",
+        "steps": "1）蘑菇煎香盛出，原锅黄油炒软洋葱和米。2）加白酒收干，分次加入热高汤并不断搅拌。3）约18分钟米芯微硬时拌入蘑菇、黄油和帕玛森。",
+        "img": "59-mushroom-risotto.png",
+        "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2"
+      }
+    },
+    {
+      "id": "west-015",
+      "category": "western",
+      "index": 14,
+      "record": {
+        "name": "帕玛森鸡排",
+        "en": "Chicken Parmesan",
+        "region": "意大利裔美国",
+        "ingredients": "鸡胸肉2块约400克；面包糠100克；帕玛森50克；鸡蛋1个；番茄酱200克；马苏里拉120克；面粉50克",
+        "steps": "1）鸡胸拍薄，依次裹面粉、蛋液和帕玛森面包糠，煎至金黄。2）烤盘铺番茄酱和鸡排，盖马苏里拉。3）200℃烤12–15分钟至鸡肉熟透芝士上色。",
+        "img": "60-chicken-parmesan.png",
+        "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2"
+      }
+    },
+    {
+      "id": "west-016",
+      "category": "western",
+      "index": 15,
+      "record": {
+        "name": "惠灵顿牛排",
+        "en": "Beef Wellington",
+        "region": "英国",
+        "ingredients": "牛里脊中心段500克；蘑菇300克；帕尔马火腿8片；酥皮1张；第戎芥末20克；蛋黄1个；黄油20克",
+        "steps": "1）牛里脊煎上色，抹芥末冷却；蘑菇剁碎炒干水分。2）火腿铺膜，抹蘑菇蓉包牛肉冷藏定形，再包酥皮刷蛋黄。3）200℃烤25–35分钟，静置10分钟切片。",
+        "img": "61-beef-wellington.png",
+        "source": "https://www.bbcgoodfood.com/howto/guide/21-essential-recipes-to-learn-for-life"
+      }
+    },
+    {
+      "id": "west-017",
+      "category": "western",
+      "index": 16,
+      "record": {
+        "name": "红酒炖鸡",
+        "en": "Coq au Vin",
+        "region": "法国",
+        "ingredients": "鸡腿4只；红酒500毫升；培根100克；蘑菇200克；珍珠洋葱150克；胡萝卜150克；鸡汤300毫升；面粉15克；百里香适量",
+        "steps": "1）培根煎香，鸡腿拍干煎至上色。2）炒胡萝卜洋葱，撒面粉，倒红酒和鸡汤，放鸡腿与香草。3）小火炖45分钟，另煎蘑菇后拌入收汁。",
+        "img": "62-coq-au-vin.png",
+        "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2"
+      }
+    },
+    {
+      "id": "west-018",
+      "category": "western",
+      "index": 17,
+      "record": {
+        "name": "普罗旺斯炖菜",
+        "en": "Ratatouille",
+        "region": "法国",
+        "ingredients": "茄子250克；西葫芦250克；彩椒200克；番茄400克；洋葱120克；大蒜15克；橄榄油35毫升；百里香适量",
+        "steps": "1）蔬菜切块，茄子和西葫芦分别煎上色。2）炒软洋葱蒜和彩椒，加番茄和百里香煮成底汁。3）合入所有蔬菜小火炖20分钟，调盐胡椒。",
+        "img": "63-ratatouille.png",
+        "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2"
+      }
+    },
+    {
+      "id": "west-019",
+      "category": "western",
+      "index": 18,
+      "record": {
+        "name": "马赛鱼汤",
+        "en": "Bouillabaisse",
+        "region": "法国",
+        "ingredients": "白肉鱼300克；虾200克；贻贝300克；番茄300克；洋葱100克；茴香头150克；白葡萄酒150毫升；鱼汤700毫升；藏红花少许",
+        "steps": "1）橄榄油炒洋葱、茴香和番茄，加入白酒、鱼汤和藏红花煮20分钟。2）先下鱼块，再下虾和贻贝。3）煮至海鲜刚熟、贝壳打开，配烤面包食用。",
+        "img": "64-bouillabaisse.png",
+        "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2"
+      }
+    },
+    {
+      "id": "west-020",
+      "category": "western",
+      "index": 19,
+      "record": {
+        "name": "牧羊人派",
+        "en": "Shepherd's Pie",
+        "region": "英国",
+        "ingredients": "羊肉末400克；洋葱100克；胡萝卜120克；豌豆80克；番茄膏20克；高汤250毫升；土豆600克；黄油40克；牛奶80毫升",
+        "steps": "1）炒香羊肉末和蔬菜，加番茄膏与高汤炖至浓稠。2）土豆煮软，压成黄油牛奶薯泥。3）肉馅铺烤盘，盖薯泥划纹，200℃烤25分钟至金黄。",
+        "img": "65-shepherds-pie.png",
+        "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2"
+      }
+    },
+    {
+      "id": "west-021",
+      "category": "western",
+      "index": 20,
+      "record": {
+        "name": "法式红酒炖牛肉",
+        "en": "Beef Bourguignon",
+        "region": "法国",
+        "ingredients": "牛肩肉700克；红酒500毫升；牛高汤300毫升；培根100克；胡萝卜200克；珍珠洋葱150克；蘑菇200克；番茄膏20克；百里香适量",
+        "steps": "1）牛肉擦干分批煎上色，培根煎香。2）炒蔬菜和番茄膏，倒红酒刮锅，加入牛肉、高汤和香草。3）盖锅小火炖2小时，最后加入煎蘑菇和珍珠洋葱。",
+        "img": "66-beef-bourguignon.png",
+        "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2"
+      }
+    },
+    {
+      "id": "west-022",
+      "category": "western",
+      "index": 21,
+      "record": {
+        "name": "希腊穆萨卡",
+        "en": "Moussaka",
+        "region": "希腊",
+        "ingredients": "茄子600克；羊或牛肉末400克；番茄300克；洋葱100克；肉桂少许；白酱400克；帕玛森50克；橄榄油适量",
+        "steps": "1）茄子切片刷油烤软。2）洋葱肉末炒香，加番茄和少量肉桂炖浓。3）烤盘交替铺茄子与肉酱，顶层抹白酱撒芝士，190℃烤40分钟。",
+        "img": "67-moussaka.png",
+        "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2"
+      }
+    },
+    {
+      "id": "west-023",
+      "category": "western",
+      "index": 22,
+      "record": {
+        "name": "希腊沙拉",
+        "en": "Greek Salad",
+        "region": "希腊",
+        "ingredients": "番茄350克；黄瓜200克；红洋葱80克；卡拉马塔橄榄80克；菲达芝士150克；橄榄油25毫升；红酒醋10毫升；牛至2克",
+        "steps": "1）番茄黄瓜切大块，洋葱切薄片。2）与橄榄、橄榄油、醋和牛至轻拌。3）顶部放整块或大块菲达，略撒黑胡椒。",
+        "img": "68-greek-salad.png",
+        "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2"
+      }
+    },
+    {
+      "id": "west-024",
+      "category": "western",
+      "index": 23,
+      "record": {
+        "name": "香煎鸡肉炸排",
+        "en": "Chicken Schnitzel",
+        "region": "奥地利/德国",
+        "ingredients": "鸡胸肉2块约400克；面粉60克；鸡蛋1个；面包糠120克；盐和黑胡椒；食用油适量；柠檬1个",
+        "steps": "1）鸡胸横剖拍至约6毫米厚，调盐胡椒。2）依次裹面粉、蛋液和面包糠。3）浅油煎炸每面2–3分钟至金黄熟透，配柠檬。",
+        "img": "69-chicken-schnitzel.png",
+        "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2"
+      }
+    },
+    {
+      "id": "west-025",
+      "category": "western",
+      "index": 24,
+      "record": {
+        "name": "瑞典肉丸",
+        "en": "Swedish Meatballs",
+        "region": "瑞典",
+        "ingredients": "牛猪混合肉馅400克；洋葱80克；面包糠50克；牛奶80毫升；鸡蛋1个；黄油25克；面粉20克；牛高汤300毫升；淡奶油120毫升",
+        "steps": "1）肉馅与炒软洋葱、泡牛奶的面包糠和鸡蛋拌匀，搓丸煎熟。2）原锅黄油炒面粉，逐渐加入高汤和奶油煮成酱。3）肉丸回锅煨5分钟，配薯泥和越橘酱。",
+        "img": "70-swedish-meatballs.png",
+        "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2"
+      }
+    },
+    {
+      "id": "west-026",
+      "category": "western",
+      "index": 25,
+      "record": {
+        "name": "匈牙利牛肉汤",
+        "en": "Hungarian Goulash",
+        "region": "匈牙利",
+        "ingredients": "牛肩肉600克；洋葱250克；土豆300克；胡萝卜180克；甜椒粉20克；番茄200克；牛高汤800毫升；葛缕子1茶匙",
+        "steps": "1）洋葱慢炒至金黄，离火拌入甜椒粉避免焦苦。2）加入牛肉、番茄、高汤和葛缕子，小火炖60分钟。3）下土豆胡萝卜再煮30分钟至软。",
+        "img": "71-hungarian-goulash.png",
+        "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2"
+      }
+    },
+    {
+      "id": "west-027",
+      "category": "western",
+      "index": 26,
+      "record": {
+        "name": "炸鱼塔可",
+        "en": "Fish Tacos",
+        "region": "墨西哥/美国",
+        "ingredients": "白肉鱼350克；小玉米饼8张；面粉80克；啤酒100毫升；卷心菜180克；番茄莎莎120克；青柠2个；酸奶油60克",
+        "steps": "1）面粉和冰啤酒调糊，鱼条蘸糊炸至金黄熟透。2）玉米饼加热，酸奶油与青柠汁调酱。3）饼中放卷心菜、炸鱼、莎莎和青柠酱。",
+        "img": "72-fish-tacos.png",
+        "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2"
+      }
+    },
+    {
+      "id": "west-028",
+      "category": "western",
+      "index": 27,
+      "record": {
+        "name": "鸡肉芝士薄饼",
+        "en": "Chicken Quesadilla",
+        "region": "墨西哥/美国",
+        "ingredients": "面粉薄饼4张；熟鸡肉250克；切达或蒙特雷杰克芝士200克；彩椒100克；洋葱80克；孜然2克；莎莎酱适量",
+        "steps": "1）洋葱彩椒与鸡肉、孜然炒香。2）平底锅放薄饼，半边铺芝士和馅料，折叠。3）两面煎至金黄且芝士融化，切角配莎莎。",
+        "img": "73-chicken-quesadilla.png",
+        "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2"
+      }
+    },
+    {
+      "id": "west-029",
+      "category": "western",
+      "index": 28,
+      "record": {
+        "name": "班尼迪克蛋",
+        "en": "Eggs Benedict",
+        "region": "美国",
+        "ingredients": "英式松饼2个；鸡蛋4个；加拿大培根4片；蛋黄3个；黄油120克；柠檬汁15毫升；白醋15毫升；盐少许",
+        "steps": "1）蛋黄隔温水打发，缓慢加入融化黄油和柠檬汁制荷兰酱。2）水微沸加醋，鸡蛋水波煮约3分钟。3）烤热松饼，依次放培根、水波蛋和荷兰酱。",
+        "img": "74-eggs-benedict.png",
+        "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2"
+      }
+    },
+    {
+      "id": "west-030",
+      "category": "western",
+      "index": 29,
+      "record": {
+        "name": "酪乳煎饼",
+        "en": "Buttermilk Pancakes",
+        "region": "美国",
+        "ingredients": "中筋面粉200克；酪乳250毫升；鸡蛋1个；融化黄油30克；糖25克；泡打粉8克；小苏打2克；盐2克；枫糖浆适量",
+        "steps": "1）干料混匀，另将酪乳、鸡蛋和黄油混匀。2）湿料倒入干料，只拌至刚无干粉。3）平底锅中小火煎至表面冒泡后翻面，配黄油和枫糖浆。",
+        "img": "75-buttermilk-pancakes.png",
+        "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2"
+      }
+    }
+  ]
+}

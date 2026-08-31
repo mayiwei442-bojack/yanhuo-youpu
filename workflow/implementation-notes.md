@@ -52,3 +52,9 @@
 - The batch retained exactly 20 documents and 107 `voyage-4` / 1024-dimensional chunks. Entity-scoped semantic and hybrid retrieval both returned 10 diversified results from two sources for every target.
 - `炸鱼薯条` was initially considered but rejected because Serious Eats did not expose a complete exact target page. It was replaced by `千层面`; the one temporary BBC document, its six chunks, and its now-empty entity were deleted after exact-ID guards, while the shared BBC source remained.
 - Direct programmatic requests to Serious Eats returned HTTP 402/403, while its public page reader was available to the Researcher. Later repeat requests to Douguo returned HTTP 403 and one older red-braised-pork candidate returned HTTP 404. No access control was bypassed, and failed candidates were not treated as complete evidence.
+
+## 2026-08-31 — explicit ten-recipe canonical publication
+
+- The user explicitly requested that the five existing completed recipes plus the ten website-RAG targets be synchronized locally and to GitHub. The five earlier recipes remained unchanged in this publication; `cn-029` was completed and pushed first, then the remaining nine targets were handled as one explicit publication batch.
+- The nine-target batch kept per-recipe isolation: each target received its own pre-edit snapshot, exact evidence hash, Editor pass, target-only full validator, Reviewer result, and run log. Only the final deterministic suite and Git publication were shared across the batch.
+- Batch processing temporarily leaves multiple targets `in_progress`; none are marked `done` until the canonical recipe commit has successfully reached `origin/codex/recipe-automation`. This is the minimum compatibility adjustment for the user's explicit batch request and does not change the scheduled one-recipe runbook.

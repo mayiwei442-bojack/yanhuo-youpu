@@ -1,0 +1,13 @@
+{
+  "runId": "2026-08-31-west-012-t10i", "recipeId": "west-012", "recipeName": "千层面", "category": "western", "status": "in_progress",
+  "startedAt": "2026-08-31T05:52:49.810Z", "completedAt": null,
+  "steps": {
+    "research": { "status": "done", "attempts": 1, "details": { "evidence": "workflow/evidence/west-012-lasagna.json", "evidenceHash": "c84f91b100f7b5056420df8e97edb1a378e9f180a3614c5f63ede34b9a6dfcf8" } },
+    "ingestion": { "status": "done", "attempts": 1, "details": { "documents": 2, "chunks": 12, "embeddingDimension": 1024 } },
+    "edit": { "status": "done", "attempts": 1, "details": { "targetOnly": true, "changedFields": ["ingredients", "steps"] } }, "validator": { "status": "done", "attempts": 1, "details": { "status": "PASS", "ingredientCount": 6, "stepCount": 6 } },
+    "review": { "status": "done", "attempts": 1, "details": { "status": "PASS", "result": "workflow/reviews/west-012-lasagna.json" } }, "build": { "status": "done", "attempts": 1, "details": { "status": "PASS", "command": "npm run test:workflow:deterministic" } },
+    "gitPush": { "status": "in_progress", "attempts": 1, "details": { "remote": "origin", "branch": "codex/recipe-automation" } }
+  },
+  "sources": [{ "name": "BBC Good Food", "url": "https://www.bbcgoodfood.com/recipes/classic-italian-lasagne", "status": "success", "failureReason": null }, { "name": "Serious Eats", "url": "https://www.seriouseats.com/lasagna-bolognese-al-forno-recipe", "status": "success", "failureReason": null }],
+  "errors": [], "branch": "codex/recipe-automation", "commit": null
+}
