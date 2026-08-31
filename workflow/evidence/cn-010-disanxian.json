@@ -1,0 +1,351 @@
+{
+  "recipeId": "cn-010",
+  "recipeName": "地三鲜",
+  "category": "chinese",
+  "createdAt": "2026-08-29T18:47:03.196Z",
+  "sources": [
+    {
+      "sourceName": "贝太厨房:从小爱吃的菜2",
+      "sourceType": "book",
+      "url": null,
+      "documentId": "6b53a2db-bd73-4522-9332-0f058f1f679b",
+      "retrievalMethod": "EPUB XHTML section",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "土豆",
+          "amount": "200g",
+          "raw": "土豆 200g"
+        },
+        {
+          "name": "茄子",
+          "amount": "150g",
+          "raw": "茄子 150g"
+        },
+        {
+          "name": "大葱末",
+          "amount": "5g",
+          "raw": "大葱末 5g"
+        },
+        {
+          "name": "蒜蓉",
+          "amount": "10g",
+          "raw": "蒜蓉 10g"
+        },
+        {
+          "name": "盐",
+          "amount": "5g",
+          "raw": "盐 5g"
+        },
+        {
+          "name": "鸡精",
+          "amount": "3g",
+          "raw": "鸡精 3g"
+        },
+        {
+          "name": "水淀粉",
+          "amount": "20ml",
+          "raw": "水淀粉 20ml"
+        },
+        {
+          "name": "油",
+          "amount": "500ml",
+          "raw": "油 500ml"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "土豆和茄子去皮，分别切成适口的滚刀块。绿菜椒去籽去蒂，手撕成适口的块。（图2）",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "中火加热炸锅中的油至6成热，先放入土豆块炸至边缘呈金黄色，捞出沥干油分。然后再放入茄子块炸软，捞出沥干油分。（图3）",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "锅中留底油（1汤匙，15ml），中火烧至6成热，放入大葱末和蒜蓉爆香。然后将过油后的土豆、茄子及绿菜椒放入锅中煸炒。（图4）",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "炒约3、4分钟沿锅边淋入水淀粉，待所有材料均匀包裹薄芡，加入鸡精和盐调味即可。（图5）",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [
+        "准备：10分钟",
+        "烹饪：20分钟"
+      ],
+      "tips": [
+        "1.脆嫩的绿菜椒用手掰成块，比用刀切口味更佳。",
+        "2.炸土豆块时可以先用低一些的油温慢炸，使得土豆块内部熟透，再调大火快炸，让外面的颜色金黄好看。炸茄子最好一直用中火，至软身即可。",
+        "3.这道菜色泽简单清爽，突出材料的天然味道，所以过程中不用放多余的调味料，如：酱油、辣椒、花椒。"
+      ],
+      "rawExcerpt": "地三鲜\n\r\n\r\n准备：10分钟　 \r\n烹饪：20分钟\n\r\n浓浓的味道，绿色天然的材料，就这么滚刀乱切一通，扔到锅里爆炒一通，全没有多余的修饰，有的只是本色美味。\n\r\n用料：\n\r\n土豆　　　　200g\n\r\n茄子　　　　150g\n\r\n绿菜椒　　　1OOg\n\r\n大葱末　　　5g\n\r\n蒜蓉　　　　10g\n\r\n盐　　　　　5g\n\r\n鸡精　　　　3g\n\r\n水淀粉　　　20ml\n\r\n油　　　　　500ml\n\r\n　　　　　　（实耗20ml）\n\r\n做法：\n\r\n1.土豆和茄子去皮，分别切成适口的滚刀块。绿菜椒去籽去蒂，手撕成适口的块。（图2）\n\r\n2.中火加热炸锅中的油至6成热，先放入土豆块炸至边缘呈金黄色，捞出沥干油分。然后再放入茄子块炸软，捞出沥干油分。（图3）\n\r\n3.锅中留底油（1汤匙，15ml），中火烧至6成热，放入大葱末和蒜蓉爆香。然后将过油后的土豆、茄子及绿菜椒放入锅中煸炒。（图4）\n\r\n4.炒约3、4分钟沿锅边淋入水淀粉，待所有材料均匀包裹薄芡，加入鸡精和盐调味即可。（图5）\n\r\n家传小诀窍：\n\r\n1.脆嫩的绿菜椒用手掰成块，比用刀切口味更佳。\n\r\n2.炸土豆块时可以先用低一些的油温慢炸，使得土豆块内部熟透，再调大火快炸，让外面的颜色金黄好看。炸茄子最好一直用中火，至软身即可。\n\r\n3.这道菜色泽简单清爽，突出材料的天然味道，所以过程中不用放多余的调味料，如：酱油、辣椒、花椒。",
+      "bookTitle": "贝太厨房:从小爱吃的菜2",
+      "pageStart": null,
+      "pageEnd": null,
+      "location": "text00015.html#subid9"
+    },
+    {
+      "sourceName": "豆果美食",
+      "sourceType": "website",
+      "url": "https://www.douguo.com/cookbook/3355060.html",
+      "documentId": "df73cc80-5ff8-4c20-ae93-e1921334af40",
+      "retrievalMethod": "HTML正文",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "土豆",
+          "amount": "1个",
+          "raw": "土豆 1个"
+        },
+        {
+          "name": "长茄子",
+          "amount": "1个",
+          "raw": "长茄子 1个"
+        },
+        {
+          "name": "辣椒",
+          "amount": "1个",
+          "raw": "辣椒 1个"
+        },
+        {
+          "name": "蒜",
+          "amount": "4瓣",
+          "raw": "蒜 4瓣"
+        },
+        {
+          "name": "生抽",
+          "amount": "2勺",
+          "raw": "生抽 2勺"
+        },
+        {
+          "name": "蚝油",
+          "amount": "1勺",
+          "raw": "蚝油 1勺"
+        },
+        {
+          "name": "盐",
+          "amount": "1小勺",
+          "raw": "盐 1小勺"
+        },
+        {
+          "name": "白糖",
+          "amount": "1中勺",
+          "raw": "白糖 1中勺"
+        },
+        {
+          "name": "食用油",
+          "amount": "5勺",
+          "raw": "食用油 5勺"
+        },
+        {
+          "name": "玉米淀粉",
+          "amount": "8克",
+          "raw": "玉米淀粉 8克"
+        },
+        {
+          "name": "红薯淀粉",
+          "amount": "10克",
+          "raw": "红薯淀粉 10克"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "准备食材。",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "土豆洗净去皮切滚刀块，长茄子洗净去蒂切滚刀块，辣椒洗净去筋去籽切大片备用。",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "蒜去皮去蒂切蒜末备用。",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "切好的茄子放进容器中，均匀撒1勺红薯淀粉，颠匀，让每一块茄子裹薄薄一层淀粉，既吸油又更容易挂汁。",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 5,
+          "instruction": "小碗中加2勺生抽，1勺蚝油，加1中勺白糖、1小勺盐、1勺玉米淀粉，半碗清水搅拌均匀成料汁。",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 6,
+          "instruction": "锅中加入2勺食用油，烧至7成热，将土豆块下锅。",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 7,
+          "instruction": "中小火煎到表面金黄、基本熟透后盛出备用。",
+          "duration": null,
+          "heat": "中小火"
+        },
+        {
+          "order": 8,
+          "instruction": "锅中再补2勺食用油，烧热后放入茄子块。",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 9,
+          "instruction": "再下辣椒，煎到茄子变软，辣椒微焦，快速翻两下，先盛出备用。",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 10,
+          "instruction": "锅中再加入1勺食用油，下入一半的蒜末炒香。",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 11,
+          "instruction": "倒入提前调好的酱汁，小火煮到微微变稠。",
+          "duration": null,
+          "heat": "小火"
+        },
+        {
+          "order": 12,
+          "instruction": "倒回土豆、茄子和青椒，再加入剩下一半的蒜末。",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 13,
+          "instruction": "大火快速翻炒，让酱汁均匀裹住食材，收至明亮油润即可出锅。",
+          "duration": null,
+          "heat": "大火"
+        },
+        {
+          "order": 14,
+          "instruction": "茄子吸满汤汁，绵密不烂，辣椒提香开胃，简单家常却越吃越香。",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [
+        "中小火",
+        "小火",
+        "大火"
+      ],
+      "tips": [
+        "茄子裹一层薄淀粉，可以防止过多吸油",
+        "蒜末先炒香，出锅前补一点蒜末更香整道菜更有灵魂",
+        "青椒别炒太久，保持清脆最好吃",
+        "留一点汁，拌饭超绝"
+      ],
+      "rawExcerpt": " 地三鲜的做法大全地三鲜怎么做_豆果美食 var _hmt = _hmt || []; (function() { var hm = document.createElement(\"script\"); hm.src = \"https://hm.baidu.com/hm.js?8061a800ae3bd3d0428690834ea0cb61\"; var s = document.getElementsByTagName(\"script\")[0]; s.parentNode.insertBefore(hm, s); })(); (function(){ var bp = document.createElement(\"script\"); var curProtocol = window.location.protocol.split(\":\")[0]; if (curProtocol === \"https\") { bp.src = \"https://zz.bdstatic.com/linksubmit/push.js\"; } else { bp.src = \"http://push.zhanzhang.baidu.com/push.js\"; } var s = document.getElementsByTagName(\"script\")[0]; s.parentNode.insertB",
+      "bookTitle": null,
+      "pageStart": null,
+      "pageEnd": null,
+      "location": null
+    }
+  ],
+  "ragEvidence": [
+    {
+      "chunkId": "5f8d15da-eacc-4ce5-a593-eb7870f98e09",
+      "documentId": "df73cc80-5ff8-4c20-ae93-e1921334af40",
+      "sourceName": "豆果美食",
+      "chunkType": "technique",
+      "content": "菜名：地三鲜\n- 中小火\n- 小火\n- 大火\n- 中小火\n- 小火\n- 大火",
+      "similarity": 0.629550300267331
+    },
+    {
+      "chunkId": "004e7386-f7af-4fbc-b719-d85655c923e0",
+      "documentId": "df73cc80-5ff8-4c20-ae93-e1921334af40",
+      "sourceName": "豆果美食",
+      "chunkType": "tips",
+      "content": "菜名：地三鲜\n- 茄子裹一层薄淀粉，可以防止过多吸油\n- 蒜末先炒香，出锅前补一点蒜末更香整道菜更有灵魂\n- 青椒别炒太久，保持清脆最好吃\n- 留一点汁，拌饭超绝",
+      "similarity": 0.609648357096609
+    },
+    {
+      "chunkId": "64e67c6b-ac77-4f3e-80a7-5ce242a75262",
+      "documentId": "6b53a2db-bd73-4522-9332-0f058f1f679b",
+      "sourceName": "贝太厨房:从小爱吃的菜2",
+      "chunkType": "steps",
+      "content": "菜名：地三鲜\n1. 土豆和茄子去皮，分别切成适口的滚刀块。绿菜椒去籽去蒂，手撕成适口的块。（图2）\n2. 中火加热炸锅中的油至6成热，先放入土豆块炸至边缘呈金黄色，捞出沥干油分。然后再放入茄子块炸软，捞出沥干油分。（图3）\n3. 锅中留底油（1汤匙，15ml），中火烧至6成热，放入大葱末和蒜蓉爆香。然后将过油后的土豆、茄子及绿菜椒放入锅中煸炒。（图4）\n4. 炒约3、4分钟沿锅边淋入水淀粉，待所有材料均匀包裹薄芡，加入鸡精和盐调味即可。（图5）",
+      "similarity": 0.608901822036406
+    },
+    {
+      "chunkId": "2596c12b-40a1-42a9-9d49-2037e1899212",
+      "documentId": "6b53a2db-bd73-4522-9332-0f058f1f679b",
+      "sourceName": "贝太厨房:从小爱吃的菜2",
+      "chunkType": "tips",
+      "content": "菜名：地三鲜\n- 1.脆嫩的绿菜椒用手掰成块，比用刀切口味更佳。\n- 2.炸土豆块时可以先用低一些的油温慢炸，使得土豆块内部熟透，再调大火快炸，让外面的颜色金黄好看。炸茄子最好一直用中火，至软身即可。\n- 3.这道菜色泽简单清爽，突出材料的天然味道，所以过程中不用放多余的调味料，如：酱油、辣椒、花椒。",
+      "similarity": 0.605174409726337
+    },
+    {
+      "chunkId": "3f4f4814-2ca7-41a9-89c6-5a4d3f11f971",
+      "documentId": "df73cc80-5ff8-4c20-ae93-e1921334af40",
+      "sourceName": "豆果美食",
+      "chunkType": "summary",
+      "content": "菜名：地三鲜\n别名：地三鲜—东北菜里很朴实的一道\n菜系：家常菜\n简介：地三鲜的家常做法，食材简单步骤详细，食材 土豆怎么做好吃、长茄子怎么做好吃、辣椒怎么做好吃、蒜怎么做好吃、生抽怎么做好吃、蚝油怎么做好吃、盐怎么做好吃、白糖怎么做好吃、食用油怎么做好吃、玉米淀粉怎么做好吃、红薯淀粉怎么做好吃 新手也能轻松学会。豆果美食有更多美食教程!",
+      "similarity": 0.599113273726316
+    },
+    {
+      "chunkId": "32f8c9f4-c4c5-431d-b6a3-e377b6247023",
+      "documentId": "df73cc80-5ff8-4c20-ae93-e1921334af40",
+      "sourceName": "豆果美食",
+      "chunkType": "steps",
+      "content": "菜名：地三鲜\n1. 准备食材。\n2. 土豆洗净去皮切滚刀块，长茄子洗净去蒂切滚刀块，辣椒洗净去筋去籽切大片备用。\n3. 蒜去皮去蒂切蒜末备用。\n4. 切好的茄子放进容器中，均匀撒1勺红薯淀粉，颠匀，让每一块茄子裹薄薄一层淀粉，既吸油又更容易挂汁。\n5. 小碗中加2勺生抽，1勺蚝油，加1中勺白糖、1小勺盐、1勺玉米淀粉，半碗清水搅拌均匀成料汁。\n6. 锅中加入2勺食用油，烧至7成热，将土豆块下锅。\n7. 中小火煎到表面金黄、基本熟透后盛出备用。【中小火】\n8. 锅中再补2勺食用油，烧热后放入茄子块。\n9. 再下辣椒，煎到茄子变软，辣椒微焦，快速翻两下，先盛出备用。\n10. 锅中再加入1勺食用油，下入一半的蒜末炒香。\n11. 倒入提前调好的酱汁，小火煮到微微变稠。【小火】\n12. 倒回土豆、茄子和青椒，再加入剩下一半的蒜末。\n13. 大火快速翻炒，让酱汁均匀裹住食材，收至明亮油润即可出锅。【大火】\n14. 茄子吸满汤汁，绵密不烂，辣椒提香开胃，简单家常却越吃越香。",
+      "similarity": 0.593948913702564
+    },
+    {
+      "chunkId": "a7a3801e-3f99-4266-b31d-647a1a58a1f0",
+      "documentId": "df73cc80-5ff8-4c20-ae93-e1921334af40",
+      "sourceName": "豆果美食",
+      "chunkType": "ingredients",
+      "content": "菜名：地三鲜\n- 土豆 1个\n- 长茄子 1个\n- 辣椒 1个\n- 蒜 4瓣\n- 生抽 2勺\n- 蚝油 1勺\n- 盐 1小勺\n- 白糖 1中勺\n- 食用油 5勺\n- 玉米淀粉 8克\n- 红薯淀粉 10克",
+      "similarity": 0.587003329514663
+    },
+    {
+      "chunkId": "a72f70a0-4b51-4a8d-bc8b-34f943cc2285",
+      "documentId": "6b53a2db-bd73-4522-9332-0f058f1f679b",
+      "sourceName": "贝太厨房:从小爱吃的菜2",
+      "chunkType": "ingredients",
+      "content": "菜名：地三鲜\n- 土豆 200g\n- 茄子 150g\n- 大葱末 5g\n- 蒜蓉 10g\n- 盐 5g\n- 鸡精 3g\n- 水淀粉 20ml\n- 油 500ml",
+      "similarity": 0.58100597119189
+    },
+    {
+      "chunkId": "e7fc8be7-2482-46d4-b5da-33d6287f62ee",
+      "documentId": "6b53a2db-bd73-4522-9332-0f058f1f679b",
+      "sourceName": "贝太厨房:从小爱吃的菜2",
+      "chunkType": "technique",
+      "content": "菜名：地三鲜\n- 准备：10分钟\n- 烹饪：20分钟",
+      "similarity": 0.562611512826505
+    },
+    {
+      "chunkId": "d9fcca49-c6f9-4f82-812b-23f9fcceee91",
+      "documentId": "6b53a2db-bd73-4522-9332-0f058f1f679b",
+      "sourceName": "贝太厨房:从小爱吃的菜2",
+      "chunkType": "summary",
+      "content": "菜名：地三鲜\n简介：浓浓的味道，绿色天然的材料，就这么滚刀乱切一通，扔到锅里爆炒一通，全没有多余的修饰，有的只是本色美味。",
+      "similarity": 0.56228726359758
+    }
+  ],
+  "notes": [
+    "Editor 与 Reviewer 必须使用本文件中的同一份 evidence package。",
+    "EPUB 无固定印刷页码；书籍来源使用 XHTML entry#anchor 定位。"
+  ]
+}

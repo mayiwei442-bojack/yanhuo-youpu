@@ -1,0 +1,76 @@
+{
+  "batchId": "2026-08-30-target-10-rag",
+  "mode": "rag_only",
+  "minimumCompleteSourcesPerRecipe": 2,
+  "embeddingModel": "voyage-4",
+  "embeddingDimension": 1024,
+  "chunkTypes": [
+    "summary",
+    "ingredients",
+    "steps",
+    "technique",
+    "tips"
+  ],
+  "targets": [
+    {
+      "recipeId": "cn-002",
+      "recipeName": "宫保鸡丁",
+      "category": "chinese",
+      "expectedSources": ["The Woks of Life", "豆果美食"]
+    },
+    {
+      "recipeId": "cn-003",
+      "recipeName": "麻婆豆腐",
+      "category": "chinese",
+      "expectedSources": ["The Woks of Life", "豆果美食"]
+    },
+    {
+      "recipeId": "cn-004",
+      "recipeName": "鱼香肉丝",
+      "category": "chinese",
+      "expectedSources": ["The Woks of Life", "豆果美食"]
+    },
+    {
+      "recipeId": "cn-006",
+      "recipeName": "红烧肉",
+      "category": "chinese",
+      "expectedSources": ["The Woks of Life", "豆果美食"]
+    },
+    {
+      "recipeId": "cn-029",
+      "recipeName": "干煸四季豆",
+      "category": "chinese",
+      "expectedSources": ["The Woks of Life", "豆果美食"]
+    },
+    {
+      "recipeId": "west-004",
+      "recipeName": "凯撒沙拉",
+      "category": "western",
+      "expectedSources": ["Serious Eats", "BBC Good Food"]
+    },
+    {
+      "recipeId": "west-006",
+      "recipeName": "法式洋葱汤",
+      "category": "western",
+      "expectedSources": ["Serious Eats", "BBC Good Food"]
+    },
+    {
+      "recipeId": "west-011",
+      "recipeName": "意式培根蛋面",
+      "category": "western",
+      "expectedSources": ["Serious Eats", "BBC Good Food"]
+    },
+    {
+      "recipeId": "west-012",
+      "recipeName": "千层面",
+      "category": "western",
+      "expectedSources": ["Serious Eats", "BBC Good Food"]
+    },
+    {
+      "recipeId": "west-020",
+      "recipeName": "牧羊人派",
+      "category": "western",
+      "expectedSources": ["Serious Eats", "BBC Good Food"]
+    }
+  ]
+}

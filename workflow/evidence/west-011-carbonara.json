@@ -1,0 +1,327 @@
+{
+  "recipeId": "west-011",
+  "recipeName": "意式培根蛋面",
+  "category": "western",
+  "createdAt": "2026-08-30T14:37:16.591Z",
+  "sources": [
+    {
+      "sourceName": "BBC Good Food",
+      "sourceType": "website",
+      "url": "https://www.bbcgoodfood.com/recipes/ultimate-spaghetti-carbonara-recipe",
+      "documentId": "3778b897-2004-4e39-89d6-65fe0b15d27c",
+      "retrievalMethod": "JSON-LD + HTML正文",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "pancetta",
+          "amount": "100g",
+          "raw": "100g pancetta"
+        },
+        {
+          "name": "pecorino cheese",
+          "amount": "50g",
+          "raw": "50g pecorino cheese"
+        },
+        {
+          "name": "parmesan",
+          "amount": "50g",
+          "raw": "50g parmesan"
+        },
+        {
+          "name": "large eggs",
+          "amount": "3",
+          "raw": "3 large eggs"
+        },
+        {
+          "name": "spaghetti",
+          "amount": "350g",
+          "raw": "350g spaghetti"
+        },
+        {
+          "name": "plump garlic cloves peeled and left whole",
+          "amount": "2",
+          "raw": "2 plump garlic cloves peeled and left whole"
+        },
+        {
+          "name": "unsalted butter",
+          "amount": "50g",
+          "raw": "50g unsalted butter"
+        },
+        {
+          "name": "sea salt and freshly ground black pepper",
+          "amount": null,
+          "raw": "sea salt and freshly ground black pepper"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Put a large saucepan of water on to boil.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "Finely chop the 100g pancetta, having first removed any rind. Finely grate 50g pecorino cheese and 50g parmesan and mix them together.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "Beat the 3 large eggs in a medium bowl and season with a little freshly grated black pepper. Set everything aside.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "Add 1 tsp salt to the boiling water, add 350g spaghetti and when the water comes back to the boil, cook at a constant simmer, covered, for 10 minutes or until al dente (just cooked).",
+          "duration": "10 minutes",
+          "heat": null
+        },
+        {
+          "order": 5,
+          "instruction": "Squash 2 peeled plump garlic cloves with the blade of a knife, just to bruise it.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 6,
+          "instruction": "While the spaghetti is cooking, fry the pancetta with the garlic. Drop 50g unsalted butter into a large frying pan or wok and, as soon as the butter has melted, tip in the pancetta and garlic.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 7,
+          "instruction": "Leave to cook on a medium heat for about 5 minutes, stirring often, until the pancetta is golden and crisp. The garlic has now imparted its flavour, so take it out with a slotted spoon and discard.",
+          "duration": "5 minutes",
+          "heat": "medium heat"
+        },
+        {
+          "order": 8,
+          "instruction": "Keep the heat under the pancetta on low. When the pasta is ready, lift it from the water with a pasta fork or tongs and put it in the frying pan with the pancetta. Don’t worry if a little water drops in the pan as well (you want this to happen) and don’t throw the pasta water away yet.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 9,
+          "instruction": "Mix most of the cheese in with the eggs, keeping a small handful back for sprinkling over later.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 10,
+          "instruction": "Take the pan of spaghetti and pancetta off the heat. Now quickly pour in the eggs and cheese. Using the tongs or a long fork, lift up the spaghetti so it mixes easily with the egg mixture, which thickens but doesn’t scramble, and everything is coated.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 11,
+          "instruction": "Add extra pasta cooking water to keep it saucy (several tablespoons should do it). You don’t want it wet, just moist. Season with a little salt, if needed.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 12,
+          "instruction": "Use a long-pronged fork to twist the pasta on to the serving plate or bowl. Serve immediately with a little sprinkling of the remaining cheese and a grating of black pepper. If the dish does get a little dry before serving, splash in some more hot pasta water and the glossy sauciness will be revived.",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [
+        "准备：20分钟",
+        "烹饪：15分钟",
+        "总用时：35分钟"
+      ],
+      "tips": [],
+      "rawExcerpt": "Ultimate spaghetti carbonara recipe | Good Food Skip to main content Subscribe Sustainability Good Food Shows Download our app Newsletters Recipes Back to Main menu New and trending Back to Recipes School lunch ideas Crumble recipes Sausage pastas Quick family dinners Newsletter recipes Back to Recipes Fast midweek meals Batch cooking ideas Sign up today WhatsApp feed What to cook Back to Recipes Quick and easy Everyday recipes Family recipes One-pots Slow cooker recipes Traybakes Air fryer recipes Batch cooking All inspiration Occasion recipes Meal type Back to Recipes Breakfast Lunch Dinner"
+    },
+    {
+      "sourceName": "Serious Eats",
+      "sourceType": "website",
+      "url": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+      "documentId": "582b7bfe-c481-4cca-95b5-3a063f095c16",
+      "retrievalMethod": "公开网页正文（web reader；fetchHtml 直连失败）",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "Kosher salt",
+          "amount": null,
+          "raw": "Kosher salt"
+        },
+        {
+          "name": "dried spaghetti",
+          "amount": "1 pound (450 g)",
+          "raw": "1 pound (450 g) dried spaghetti"
+        },
+        {
+          "name": "guanciale, pancetta, or bacon",
+          "amount": "1/2 cup (about 3 ounces; 85 g)",
+          "raw": "1/2 cup diced guanciale, pancetta, or bacon (about 3 ounces; 85 g)"
+        },
+        {
+          "name": "extra-virgin olive oil",
+          "amount": "3 tablespoons (45 ml)",
+          "raw": "3 tablespoons (45 ml) extra-virgin olive oil, divided"
+        },
+        {
+          "name": "large eggs and yolks",
+          "amount": "2 whole eggs plus 6 yolks",
+          "raw": "2 whole large eggs plus 6 yolks"
+        },
+        {
+          "name": "Pecorino Romano",
+          "amount": "1/4 cup (25 g)",
+          "raw": "1/4 cup grated Pecorino Romano (25 g), plus more for serving"
+        },
+        {
+          "name": "Parmigiano-Reggiano",
+          "amount": "1/4 cup (25 g)",
+          "raw": "1/4 cup grated Parmigiano-Reggiano (25 g), plus more for serving"
+        },
+        {
+          "name": "black pepper",
+          "amount": "1 teaspoon",
+          "raw": "1 teaspoon freshly ground black pepper, plus more for serving"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Bring salted water to a boil and cook the spaghetti until al dente.",
+          "duration": null,
+          "heat": "high heat"
+        },
+        {
+          "order": 2,
+          "instruction": "Cook the guanciale with 2 tablespoons olive oil over medium heat, stirring frequently, until the fat renders and the pork is crisp.",
+          "duration": "about 7 minutes",
+          "heat": "medium heat"
+        },
+        {
+          "order": 3,
+          "instruction": "In a large metal heatproof bowl, whisk whole eggs, yolks, Pecorino, Parmigiano and black pepper.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "Transfer pasta to the pork skillet without draining the pasta pot, add remaining olive oil, cool slightly, then scrape pasta, pork and fat into the egg mixture; mix in 1/2 cup pasta water.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 5,
+          "instruction": "Set the bowl over the pot of boiling pasta water without letting it touch the water; stir quickly with tongs until the sauce is creamy, silky and leaves trails, then serve immediately.",
+          "duration": null,
+          "heat": "gentle steam heat"
+        }
+      ],
+      "technique": [
+        "Use mostly yolks with some whole eggs for a rich but balanced sauce.",
+        "Use equal Pecorino Romano and Parmigiano-Reggiano.",
+        "Finish in a makeshift double boiler, stirring constantly, to thicken the eggs without curdling."
+      ],
+      "tips": [
+        "Do not oversalt the pasta water because the pork and cheeses are salty.",
+        "Chill cured pork before dicing.",
+        "Serve immediately because the egg sauce continues to thicken as it sits."
+      ],
+      "rawExcerpt": "Spaghetti With Carbonara Sauce Recipe. Ingredients: kosher salt; 450 g spaghetti; 85 g guanciale, pancetta or bacon; 45 ml olive oil; 2 whole eggs plus 6 yolks; Pecorino Romano; Parmigiano-Reggiano; black pepper. Directions: cook pasta al dente; crisp pork; whisk eggs, cheeses and pepper; combine with pasta and pasta water; thicken over a double boiler while stirring constantly; serve immediately."
+    }
+  ],
+  "ragEvidence": [
+    {
+      "chunkId": "abfd0a9f-f70c-4443-9996-89690475bc83",
+      "documentId": "3778b897-2004-4e39-89d6-65fe0b15d27c",
+      "sourceName": "BBC Good Food",
+      "chunkType": "ingredients",
+      "content": "菜名：意式培根蛋面\n- 100g pancetta\n- 50g pecorino cheese\n- 50g parmesan\n- 3 large eggs\n- 350g spaghetti\n- 2 plump garlic cloves peeled and left whole\n- 50g unsalted butter\n- sea salt and freshly ground black pepper",
+      "similarity": null
+    },
+    {
+      "chunkId": "a1d124a1-6fa6-4324-8027-ce2ebb790afe",
+      "documentId": "3778b897-2004-4e39-89d6-65fe0b15d27c",
+      "sourceName": "BBC Good Food",
+      "chunkType": "steps",
+      "content": "菜名：意式培根蛋面\n1. Put a large saucepan of water on to boil.\n2. Finely chop the 100g pancetta, having first removed any rind. Finely grate 50g pecorino cheese and 50g parmesan and mix them together.\n3. Beat the 3 large eggs in a medium bowl and season with a little freshly grated black pepper. Set everything aside.\n4. Add 1 tsp salt to the boiling water, add 350g spaghetti and when the water comes back to the boil, cook at a constant simmer, covered, for 10 minutes or until al dente (just cooked).（10 minutes）\n5. Squash 2 peeled plump garlic cloves with the blade of a knife, just to bruise it.\n6. While the spaghetti is cooking, fry the pancetta with the garlic. Drop 50g unsalted butter into a large frying pan or wok and, as soon as the butter has melted, tip in the pancetta and garlic.\n7. Leave to cook on a medium heat for about 5 minutes, stirring often, until the pancetta is golden and crisp. The garlic has now imparted its flavour, so take it out with a slotted spoon and discard.（5 minutes）【medium heat】",
+      "similarity": null
+    },
+    {
+      "chunkId": "9536f0a1-01f3-4234-8250-6be7c9782358",
+      "documentId": "3778b897-2004-4e39-89d6-65fe0b15d27c",
+      "sourceName": "BBC Good Food",
+      "chunkType": "steps",
+      "content": "菜名：意式培根蛋面\n8. Keep the heat under the pancetta on low. When the pasta is ready, lift it from the water with a pasta fork or tongs and put it in the frying pan with the pancetta. Don’t worry if a little water drops in the pan as well (you want this to happen) and don’t throw the pasta water away yet.\n9. Mix most of the cheese in with the eggs, keeping a small handful back for sprinkling over later.\n10. Take the pan of spaghetti and pancetta off the heat. Now quickly pour in the eggs and cheese. Using the tongs or a long fork, lift up the spaghetti so it mixes easily with the egg mixture, which thickens but doesn’t scramble, and everything is coated.\n11. Add extra pasta cooking water to keep it saucy (several tablespoons should do it). You don’t want it wet, just moist. Season with a little salt, if needed.\n12. Use a long-pronged fork to twist the pasta on to the serving plate or bowl. Serve immediately with a little sprinkling of the remaining cheese and a grating of black pepper. If the dish does get a little dry before serving, splash in some more hot pasta water and the glossy sauciness will be revived.",
+      "similarity": null
+    },
+    {
+      "chunkId": "3da7b7bf-a665-425d-9ea8-0a22ebaca2bd",
+      "documentId": "3778b897-2004-4e39-89d6-65fe0b15d27c",
+      "sourceName": "BBC Good Food",
+      "chunkType": "summary",
+      "content": "菜名：意式培根蛋面\n别名：意式培根蛋面（Carbonara）、Ultimate spaghetti carbonara recipe\n菜系：家常菜\n简介：Discover how to make traditional spaghetti carbonara. This classic Italian pasta dish combines a silky cheese sauce with crisp pancetta and black pepper.",
+      "similarity": null
+    },
+    {
+      "chunkId": "a97d2b34-a0d7-44e2-9596-98bcdc6156a3",
+      "documentId": "3778b897-2004-4e39-89d6-65fe0b15d27c",
+      "sourceName": "BBC Good Food",
+      "chunkType": "technique",
+      "content": "菜名：意式培根蛋面\n- 准备：20分钟\n- 烹饪：15分钟\n- 总用时：35分钟\n- 10 minutes\n- 5 minutes\n- medium heat",
+      "similarity": null
+    },
+    {
+      "chunkId": "a5a97621-29cb-470b-a12d-56a1617d9d78",
+      "documentId": "3778b897-2004-4e39-89d6-65fe0b15d27c",
+      "sourceName": "BBC Good Food",
+      "chunkType": "tips",
+      "content": "菜名：意式培根蛋面\n- 原文未提供额外提示。",
+      "similarity": null
+    },
+    {
+      "chunkId": "a9d24ac8-283a-4984-9230-afd6d209f0a7",
+      "documentId": "582b7bfe-c481-4cca-95b5-3a063f095c16",
+      "sourceName": "Serious Eats",
+      "chunkType": "ingredients",
+      "content": "菜名：意式培根蛋面\n- Kosher salt\n- 1 pound (450 g) dried spaghetti\n- 1/2 cup diced guanciale, pancetta, or bacon (about 3 ounces; 85 g)\n- 3 tablespoons (45 ml) extra-virgin olive oil, divided\n- 2 whole large eggs plus 6 yolks\n- 1/4 cup grated Pecorino Romano (25 g), plus more for serving\n- 1/4 cup grated Parmigiano-Reggiano (25 g), plus more for serving\n- 1 teaspoon freshly ground black pepper, plus more for serving",
+      "similarity": null
+    },
+    {
+      "chunkId": "2e49c092-5f1c-4afa-bd86-bc297d91ee23",
+      "documentId": "582b7bfe-c481-4cca-95b5-3a063f095c16",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：意式培根蛋面\n1. Bring salted water to a boil and cook the spaghetti until al dente.【high heat】\n2. Cook the guanciale with 2 tablespoons olive oil over medium heat, stirring frequently, until the fat renders and the pork is crisp.（about 7 minutes）【medium heat】\n3. In a large metal heatproof bowl, whisk whole eggs, yolks, Pecorino, Parmigiano and black pepper.\n4. Transfer pasta to the pork skillet without draining the pasta pot, add remaining olive oil, cool slightly, then scrape pasta, pork and fat into the egg mixture; mix in 1/2 cup pasta water.\n5. Set the bowl over the pot of boiling pasta water without letting it touch the water; stir quickly with tongs until the sauce is creamy, silky and leaves trails, then serve immediately.【gentle steam heat】",
+      "similarity": null
+    },
+    {
+      "chunkId": "5312909d-ce4d-4b7e-84f6-ad49e03b26cf",
+      "documentId": "582b7bfe-c481-4cca-95b5-3a063f095c16",
+      "sourceName": "Serious Eats",
+      "chunkType": "summary",
+      "content": "菜名：意式培根蛋面\n别名：意式培根蛋面（Carbonara）、Spaghetti With Carbonara Sauce Recipe、Spaghetti Carbonara\n菜系：意大利\n简介：Foolproof silky spaghetti carbonara with cured pork, eggs, Pecorino Romano and Parmigiano-Reggiano; the sauce is thickened gently over a double boiler to avoid scrambling.",
+      "similarity": null
+    },
+    {
+      "chunkId": "86e33c7d-00ec-46d4-bbc4-8442d236ac79",
+      "documentId": "582b7bfe-c481-4cca-95b5-3a063f095c16",
+      "sourceName": "Serious Eats",
+      "chunkType": "technique",
+      "content": "菜名：意式培根蛋面\n- Use mostly yolks with some whole eggs for a rich but balanced sauce.\n- Use equal Pecorino Romano and Parmigiano-Reggiano.\n- Finish in a makeshift double boiler, stirring constantly, to thicken the eggs without curdling.\n- high heat\n- about 7 minutes\n- medium heat\n- gentle steam heat",
+      "similarity": null
+    },
+    {
+      "chunkId": "c3728321-bb6c-4edb-b6ae-6ed37c0e1bfb",
+      "documentId": "582b7bfe-c481-4cca-95b5-3a063f095c16",
+      "sourceName": "Serious Eats",
+      "chunkType": "tips",
+      "content": "菜名：意式培根蛋面\n- Do not oversalt the pasta water because the pork and cheeses are salty.\n- Chill cured pork before dicing.\n- Serve immediately because the egg sauce continues to thicken as it sits.",
+      "similarity": null
+    }
+  ],
+  "notes": [
+    "精确 RAG 实体：1ad08827-0d1d-4d97-8f37-11bb83e52e0f；本文件直接复用已入库 normalized_json、raw_text 与 chunks。",
+    "两个独立完整来源均来自 workflow/source-config.json 中启用的西餐网站。",
+    "本次生成未重新浏览网站，也未调用独立聊天模型 API。"
+  ]
+}

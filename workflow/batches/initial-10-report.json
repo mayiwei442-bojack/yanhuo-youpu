@@ -1,0 +1,429 @@
+{
+  "batchId": "2026-08-30-initial-10",
+  "startedAt": "2026-08-29T18:46:58.595Z",
+  "completedAt": "2026-08-29T18:47:48.401Z",
+  "status": "PASS",
+  "embeddingModel": "voyage-4",
+  "embeddingDimension": 1024,
+  "recipes": [
+    {
+      "key": "cn-010-disanxian",
+      "recipeId": "cn-010",
+      "recipeName": "地三鲜",
+      "mode": "update_existing",
+      "status": "done",
+      "sources": [
+        {
+          "sourceName": "贝太厨房:从小爱吃的菜2",
+          "sourceType": "book",
+          "documentId": "6b53a2db-bd73-4522-9332-0f058f1f679b",
+          "chunks": 5,
+          "embedded": false,
+          "deduplicated": true,
+          "location": "text00015.html#subid9"
+        },
+        {
+          "sourceName": "豆果美食",
+          "sourceType": "website",
+          "cached": true,
+          "searchUrl": "https://m.douguo.com/caipu/%E5%9C%B0%E4%B8%89%E9%B2%9C",
+          "url": "https://www.douguo.com/cookbook/3355060.html",
+          "documentId": "df73cc80-5ff8-4c20-ae93-e1921334af40",
+          "chunks": 5,
+          "embedded": false,
+          "deduplicated": true
+        }
+      ],
+      "retrieval": {
+        "recipeEntityId": "f181db98-de44-47f9-a144-35593f30ad43",
+        "semanticResults": 10,
+        "hybridResults": 10,
+        "independentSources": 2,
+        "chunkTypes": [
+          "technique",
+          "tips",
+          "steps",
+          "summary",
+          "ingredients"
+        ]
+      },
+      "evidencePath": "workflow/evidence/cn-010-disanxian.json",
+      "error": null
+    },
+    {
+      "key": "cn-024-guobaorou",
+      "recipeId": "cn-024",
+      "recipeName": "锅包肉",
+      "mode": "update_existing",
+      "status": "done",
+      "sources": [
+        {
+          "sourceName": "贝太厨房:从小爱吃的菜2",
+          "sourceType": "book",
+          "documentId": "36eb5007-72ce-4284-8cca-a4c056e0dcef",
+          "chunks": 5,
+          "embedded": false,
+          "deduplicated": true,
+          "location": "text00035.html#subid21"
+        },
+        {
+          "sourceName": "豆果美食",
+          "sourceType": "website",
+          "cached": true,
+          "searchUrl": "https://m.douguo.com/caipu/%E9%94%85%E5%8C%85%E8%82%89",
+          "url": "https://www.douguo.com/cookbook/1489279.html",
+          "documentId": "6fb6ec9e-408e-470e-88fc-2752da48c6f3",
+          "chunks": 5,
+          "embedded": false,
+          "deduplicated": true
+        }
+      ],
+      "retrieval": {
+        "recipeEntityId": "ccbb80d5-13bf-4446-989a-1f050016093e",
+        "semanticResults": 10,
+        "hybridResults": 10,
+        "independentSources": 2,
+        "chunkTypes": [
+          "tips",
+          "summary",
+          "steps",
+          "ingredients",
+          "technique"
+        ]
+      },
+      "evidencePath": "workflow/evidence/cn-024-guobaorou.json",
+      "error": null
+    },
+    {
+      "key": "cn-027-scallop-vermicelli",
+      "recipeId": "cn-027",
+      "recipeName": "蒜蓉粉丝蒸扇贝",
+      "mode": "update_existing",
+      "status": "done",
+      "sources": [
+        {
+          "sourceName": "贝太厨房:从小爱吃的菜2",
+          "sourceType": "book",
+          "documentId": "8754d01b-f4c1-4476-b27c-aaa16d38a0d4",
+          "chunks": 5,
+          "embedded": false,
+          "deduplicated": true,
+          "location": "text00059.html#subid38"
+        },
+        {
+          "sourceName": "豆果美食",
+          "sourceType": "website",
+          "cached": true,
+          "searchUrl": "https://m.douguo.com/caipu/%E8%92%9C%E8%93%89%E7%B2%89%E4%B8%9D%E8%92%B8%E6%89%87%E8%B4%9D",
+          "url": "https://www.douguo.com/cookbook/2292246.html",
+          "documentId": "877b6463-7452-4645-87e7-b97154c88899",
+          "chunks": 5,
+          "embedded": false,
+          "deduplicated": true
+        }
+      ],
+      "retrieval": {
+        "recipeEntityId": "7aef7b14-dc96-492f-b3dc-1856900f243d",
+        "semanticResults": 10,
+        "hybridResults": 10,
+        "independentSources": 2,
+        "chunkTypes": [
+          "steps",
+          "technique",
+          "ingredients",
+          "summary",
+          "tips"
+        ]
+      },
+      "evidencePath": "workflow/evidence/cn-027-scallop-vermicelli.json",
+      "error": null
+    },
+    {
+      "key": "cn-036-lotus-rib-soup",
+      "recipeId": "cn-036",
+      "recipeName": "莲藕排骨汤",
+      "mode": "update_existing",
+      "status": "done",
+      "sources": [
+        {
+          "sourceName": "贝太厨房:从小爱吃的菜2",
+          "sourceType": "book",
+          "documentId": "d7fff61a-ba12-4324-b6fe-6f1b9967cc9c",
+          "chunks": 5,
+          "embedded": false,
+          "deduplicated": true,
+          "location": "text00074.html#subid46"
+        },
+        {
+          "sourceName": "豆果美食",
+          "sourceType": "website",
+          "cached": true,
+          "searchUrl": "https://m.douguo.com/caipu/%E8%8E%B2%E8%97%95%E6%8E%92%E9%AA%A8%E6%B1%A4",
+          "url": "https://www.douguo.com/cookbook/3356395.html",
+          "documentId": "d6d3f275-8bf9-4743-93b0-c91f242728d8",
+          "chunks": 5,
+          "embedded": false,
+          "deduplicated": true
+        }
+      ],
+      "retrieval": {
+        "recipeEntityId": "45a00754-a30c-4280-90d5-073c6d61f0c0",
+        "semanticResults": 10,
+        "hybridResults": 10,
+        "independentSources": 2,
+        "chunkTypes": [
+          "steps",
+          "tips",
+          "summary",
+          "ingredients",
+          "technique"
+        ]
+      },
+      "evidencePath": "workflow/evidence/cn-036-lotus-rib-soup.json",
+      "error": null
+    },
+    {
+      "key": "cn-054-black-bean-ribs",
+      "recipeId": "cn-054",
+      "recipeName": "豉汁蒸排骨",
+      "mode": "update_existing",
+      "status": "done",
+      "sources": [
+        {
+          "sourceName": "贝太厨房:从小爱吃的菜2",
+          "sourceType": "book",
+          "documentId": "ea4f852f-37df-4285-ac9d-bff1aec25dc5",
+          "chunks": 5,
+          "embedded": false,
+          "deduplicated": true,
+          "location": "text00025.html#subid15"
+        },
+        {
+          "sourceName": "豆果美食",
+          "sourceType": "website",
+          "cached": true,
+          "searchUrl": "https://m.douguo.com/caipu/%E8%B1%89%E6%B1%81%E8%92%B8%E6%8E%92%E9%AA%A8",
+          "url": "https://www.douguo.com/cookbook/3316845.html",
+          "documentId": "200aceeb-8159-4c77-bae0-5c9ca7e2117e",
+          "chunks": 5,
+          "embedded": false,
+          "deduplicated": true
+        }
+      ],
+      "retrieval": {
+        "recipeEntityId": "2dcd0c7e-1483-4895-a99e-a0ebc9f65beb",
+        "semanticResults": 10,
+        "hybridResults": 10,
+        "independentSources": 2,
+        "chunkTypes": [
+          "steps",
+          "summary",
+          "tips",
+          "ingredients",
+          "technique"
+        ]
+      },
+      "evidencePath": "workflow/evidence/cn-054-black-bean-ribs.json",
+      "error": null
+    },
+    {
+      "key": "book-001-pork-lapi",
+      "recipeId": null,
+      "recipeName": "肉丝炒拉皮",
+      "mode": "kb_only",
+      "status": "done",
+      "sources": [
+        {
+          "sourceName": "贝太厨房:从小爱吃的菜2",
+          "sourceType": "book",
+          "documentId": "8a1c03a6-9b19-40e8-92a9-8620656b4e08",
+          "chunks": 5,
+          "embedded": false,
+          "deduplicated": true,
+          "location": "text00012.html#subid5"
+        }
+      ],
+      "retrieval": {
+        "recipeEntityId": "187713ae-1273-4ff1-9992-660f8660590f",
+        "semanticResults": 5,
+        "hybridResults": 5,
+        "independentSources": 1,
+        "chunkTypes": [
+          "tips",
+          "steps",
+          "summary",
+          "ingredients",
+          "technique"
+        ]
+      },
+      "evidencePath": null,
+      "error": null
+    },
+    {
+      "key": "book-002-sweet-sour-fish",
+      "recipeId": null,
+      "recipeName": "糖醋鱼",
+      "mode": "kb_only",
+      "status": "done",
+      "sources": [
+        {
+          "sourceName": "贝太厨房:从小爱吃的菜2",
+          "sourceType": "book",
+          "documentId": "db2baa77-0423-4fae-a283-9a8aff8fad4e",
+          "chunks": 5,
+          "embedded": false,
+          "deduplicated": true,
+          "location": "text00068.html#subid44"
+        }
+      ],
+      "retrieval": {
+        "recipeEntityId": "49430371-e2ab-46c5-a48e-29bcd9480109",
+        "semanticResults": 5,
+        "hybridResults": 5,
+        "independentSources": 1,
+        "chunkTypes": [
+          "steps",
+          "tips",
+          "ingredients",
+          "summary",
+          "technique"
+        ]
+      },
+      "evidencePath": null,
+      "error": null
+    },
+    {
+      "key": "book-003-cabbage-wood-ear",
+      "recipeId": null,
+      "recipeName": "黑木耳炒大白菜",
+      "mode": "kb_only",
+      "status": "done",
+      "sources": [
+        {
+          "sourceName": "贝太厨房:从小爱吃的菜2",
+          "sourceType": "book",
+          "documentId": "c9b40c55-81e8-4331-b4c7-bde9807f5d09",
+          "chunks": 5,
+          "embedded": false,
+          "deduplicated": true,
+          "location": "text00010.html#subid4"
+        },
+        {
+          "sourceName": "豆果美食",
+          "sourceType": "website",
+          "cached": true,
+          "searchUrl": "https://m.douguo.com/caipu/%E9%BB%91%E6%9C%A8%E8%80%B3%E7%82%92%E5%A4%A7%E7%99%BD%E8%8F%9C",
+          "url": "https://www.douguo.com/cookbook/2061697.html",
+          "documentId": "d923134f-ae15-45be-bcd5-0e6b0139c785",
+          "chunks": 5,
+          "embedded": false,
+          "deduplicated": true
+        }
+      ],
+      "retrieval": {
+        "recipeEntityId": "9f1b4927-7e58-470b-bf3e-605413a70bca",
+        "semanticResults": 10,
+        "hybridResults": 10,
+        "independentSources": 2,
+        "chunkTypes": [
+          "steps",
+          "tips",
+          "summary",
+          "technique",
+          "ingredients"
+        ]
+      },
+      "evidencePath": null,
+      "error": null
+    },
+    {
+      "key": "book-004-beer-duck",
+      "recipeId": null,
+      "recipeName": "啤酒鸭",
+      "mode": "kb_only",
+      "status": "done",
+      "sources": [
+        {
+          "sourceName": "贝太厨房:从小爱吃的菜2",
+          "sourceType": "book",
+          "documentId": "4ce9d762-6568-48b0-8ca8-0ce78966848c",
+          "chunks": 5,
+          "embedded": false,
+          "deduplicated": true,
+          "location": "text00056.html#subid35"
+        },
+        {
+          "sourceName": "豆果美食",
+          "sourceType": "website",
+          "cached": true,
+          "searchUrl": "https://m.douguo.com/caipu/%E5%95%A4%E9%85%92%E9%B8%AD",
+          "url": "https://www.douguo.com/cookbook/3325755.html",
+          "documentId": "ecd46ce3-8780-4075-bed8-5e4943c1ea85",
+          "chunks": 5,
+          "embedded": false,
+          "deduplicated": true
+        }
+      ],
+      "retrieval": {
+        "recipeEntityId": "e5a4d9bd-a747-4554-abad-f8bbac4c55c2",
+        "semanticResults": 10,
+        "hybridResults": 10,
+        "independentSources": 2,
+        "chunkTypes": [
+          "steps",
+          "tips",
+          "technique",
+          "summary",
+          "ingredients"
+        ]
+      },
+      "evidencePath": null,
+      "error": null
+    },
+    {
+      "key": "book-005-chestnut-chicken",
+      "recipeId": null,
+      "recipeName": "栗子焖鸡",
+      "mode": "kb_only",
+      "status": "done",
+      "sources": [
+        {
+          "sourceName": "贝太厨房:从小爱吃的菜2",
+          "sourceType": "book",
+          "documentId": "2098d2f1-0c1b-4e3c-b2bd-1377072e5923",
+          "chunks": 5,
+          "embedded": true,
+          "deduplicated": false,
+          "location": "text00051.html#subid33"
+        },
+        {
+          "sourceName": "豆果美食",
+          "sourceType": "website",
+          "cached": true,
+          "searchUrl": "https://m.douguo.com/caipu/%E6%A0%97%E5%AD%90%E7%84%96%E9%B8%A1",
+          "url": "https://www.douguo.com/cookbook/2074234.html",
+          "documentId": "63a49833-e5dc-48c2-bc90-7c9debc6b289",
+          "chunks": 5,
+          "embedded": false,
+          "deduplicated": true
+        }
+      ],
+      "retrieval": {
+        "recipeEntityId": "1a3ec9da-e99a-4b77-b539-1b361bc11c04",
+        "semanticResults": 10,
+        "hybridResults": 10,
+        "independentSources": 2,
+        "chunkTypes": [
+          "steps",
+          "technique",
+          "tips",
+          "ingredients",
+          "summary"
+        ]
+      },
+      "evidencePath": null,
+      "error": null
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://yanhuo-youpu.local/schemas/run-log.schema.json",
+  "title": "Yanhuo Youpu Recipe Automation Run Log",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "runId",
+    "recipeId",
+    "recipeName",
+    "category",
+    "status",
+    "startedAt",
+    "completedAt",
+    "steps",
+    "sources",
+    "errors",
+    "branch",
+    "commit"
+  ],
+  "properties": {
+    "runId": { "type": "string", "minLength": 1 },
+    "recipeId": { "type": "string", "pattern": "^(cn|west)-[0-9]{3}$" },
+    "recipeName": { "type": "string", "minLength": 1 },
+    "category": { "type": "string", "enum": ["chinese", "western"] },
+    "status": { "type": "string", "enum": ["in_progress", "done", "failed"] },
+    "startedAt": { "type": "string", "format": "date-time" },
+    "completedAt": {
+      "oneOf": [
+        { "type": "string", "format": "date-time" },
+        { "type": "null" }
+      ]
+    },
+    "steps": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["research", "ingestion", "edit", "validator", "review", "build", "gitPush"],
+      "properties": {
+        "research": { "$ref": "#/$defs/step" },
+        "ingestion": { "$ref": "#/$defs/step" },
+        "edit": { "$ref": "#/$defs/step" },
+        "validator": { "$ref": "#/$defs/step" },
+        "review": { "$ref": "#/$defs/step" },
+        "build": { "$ref": "#/$defs/step" },
+        "gitPush": { "$ref": "#/$defs/step" }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "url", "status", "failureReason"],
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "url": { "type": ["string", "null"] },
+          "status": { "type": "string", "enum": ["pending", "success", "failed"] },
+          "failureReason": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "errors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["step", "code", "message", "at"],
+        "properties": {
+          "step": { "type": "string", "minLength": 1 },
+          "code": { "type": "string", "minLength": 1 },
+          "message": { "type": "string", "minLength": 1 },
+          "at": { "type": "string", "format": "date-time" }
+        }
+      }
+    },
+    "branch": { "const": "codex/recipe-automation" },
+    "commit": { "type": ["string", "null"] }
+  },
+  "$defs": {
+    "step": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "attempts"],
+      "properties": {
+        "status": { "type": "string", "enum": ["pending", "in_progress", "done", "failed"] },
+        "attempts": { "type": "integer", "minimum": 0 },
+        "startedAt": { "type": ["string", "null"], "format": "date-time" },
+        "completedAt": { "type": ["string", "null"], "format": "date-time" },
+        "details": { "type": "object" }
+      }
+    }
+  }
+}
