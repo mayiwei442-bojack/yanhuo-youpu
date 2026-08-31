@@ -108,74 +108,68 @@ window.YANHUO_RECIPES = [
       {
         "id": "ingredient-01",
         "name": "生花生米",
-        "label": "生花生米1杯",
+        "label": "生花生米适量",
         "isCore": true
       },
       {
         "id": "ingredient-02",
-        "name": "炒花生用植物油",
-        "label": "炒花生用植物油5毫升",
-        "isCore": false
-      },
-      {
-        "id": "ingredient-03",
         "name": "鸡胸肉",
-        "label": "鸡胸肉约340克",
+        "label": "鸡胸肉约340克，切约2厘米丁",
         "isCore": true
       },
       {
+        "id": "ingredient-03",
+        "name": "食用油（分次用于炒花生、腌鸡、煎鸡和炒香料）",
+        "label": "食用油适量（分次用于炒花生、腌鸡、煎鸡和炒香料）",
+        "isCore": false
+      },
+      {
         "id": "ingredient-04",
-        "name": "腌料：植物油",
-        "label": "腌料：植物油5毫升、玉米淀粉1茶匙、绍兴酒5毫升、盐1/8茶匙、白胡椒粉1撮",
+        "name": "腌料：玉米淀粉",
+        "label": "腌料：玉米淀粉1茶匙、绍兴酒1茶匙、盐1/8茶匙、白胡椒粉1撮",
         "isCore": false
       },
       {
         "id": "ingredient-05",
         "name": "碗汁：生抽",
-        "label": "碗汁：生抽15毫升、老抽2.5毫升、米醋15毫升、白糖1茶匙、清水45毫升、玉米淀粉1茶匙",
+        "label": "碗汁：生抽1汤匙、老抽1/2茶匙、米醋1汤匙、白糖1茶匙、清水3汤匙、玉米淀粉1茶匙",
         "isCore": false
       },
       {
         "id": "ingredient-06",
-        "name": "炒制用植物油",
-        "label": "炒制用植物油45毫升",
-        "isCore": false
-      },
-      {
-        "id": "ingredient-07",
         "name": "大蒜",
         "label": "大蒜3瓣",
         "isCore": false
       },
       {
-        "id": "ingredient-08",
+        "id": "ingredient-07",
         "name": "姜",
         "label": "姜2薄片",
         "isCore": false
       },
       {
-        "id": "ingredient-09",
+        "id": "ingredient-08",
         "name": "干红辣椒",
         "label": "干红辣椒2个",
         "isCore": true
       },
       {
-        "id": "ingredient-10",
+        "id": "ingredient-09",
         "name": "花椒粉",
         "label": "花椒粉1/2茶匙",
         "isCore": false
       },
       {
-        "id": "ingredient-11",
+        "id": "ingredient-10",
         "name": "葱白",
-        "label": "葱白6根",
+        "label": "葱白6根，切约2厘米段",
         "isCore": false
       }
     ],
     "steps": [
       {
         "id": "step-01",
-        "instruction": "炒锅以中火烧热5毫升植物油，放入1杯生花生米，不断翻炒3分钟防止焦煳；关火后利用余温继续翻炒1分钟，盛出彻底放凉，花生会在冷却后变酥。",
+        "instruction": "炒锅以中火烧热，加入适量食用油，再放入适量生花生米，不断翻炒3分钟防止焦煳；关火后利用余温继续翻炒1分钟，盛出彻底放凉，花生会在冷却后变酥。",
         "duration": 180,
         "heat": "medium",
         "timerRequired": false,
@@ -185,7 +179,7 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "step-02",
-        "instruction": "鸡胸肉切成约2厘米丁，依次加入5毫升植物油、1茶匙玉米淀粉、5毫升绍兴酒、1/8茶匙盐和1撮白胡椒粉，拌匀后腌20分钟。",
+        "instruction": "将约340克鸡胸肉切成约2厘米丁，加入适量食用油、1茶匙玉米淀粉、1茶匙绍兴酒、1/8茶匙盐和1撮白胡椒粉，拌匀后腌20分钟。",
         "duration": 1200,
         "heat": "medium",
         "timerRequired": true,
@@ -195,7 +189,7 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "step-03",
-        "instruction": "将15毫升生抽、2.5毫升老抽、15毫升米醋、1茶匙白糖、45毫升清水和1茶匙玉米淀粉依次放入碗中，充分搅匀备用。",
+        "instruction": "将1汤匙生抽、1/2茶匙老抽、1汤匙米醋、1茶匙白糖、3汤匙清水和1茶匙玉米淀粉依次放入碗中，充分搅匀备用。",
         "duration": 180,
         "heat": "medium",
         "timerRequired": false,
@@ -205,17 +199,17 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "step-04",
-        "instruction": "炒锅以高火烧热30毫升植物油，下腌好的鸡丁煎至表面上色，盛出备用。",
+        "instruction": "炒锅以高火烧热，另加入适量食用油，下腌好的鸡丁煎至表面上色，盛出备用。",
         "duration": 120,
         "heat": "medium",
         "timerRequired": false,
         "ingredientsUsed": [],
-        "gameAction": "confirm",
+        "gameAction": "add",
         "safetyNote": ""
       },
       {
         "id": "step-05",
-        "instruction": "转小火，加入剩余15毫升植物油，依次放入切片的大蒜、切末的姜、干红辣椒、花椒粉和切成约2厘米段的葱白，翻炒1—2分钟至出香。",
+        "instruction": "转小火，再另加适量食用油，依次放入切片的大蒜、切末的姜、干红辣椒、花椒粉和切成约2厘米段的葱白，翻炒1—2分钟至出香。",
         "duration": 120,
         "heat": "low",
         "timerRequired": false,
@@ -248,7 +242,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/02-gongbao-jiding.png",
     "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
     "time": 30,
-    "difficulty": "适中",
+    "difficulty": "进阶",
     "defaultServings": 2,
     "allergens": [
       "peanut",
@@ -441,25 +435,25 @@ window.YANHUO_RECIPES = [
       {
         "id": "ingredient-01",
         "name": "猪肉",
-        "label": "猪肉约225克",
+        "label": "猪肉约227克",
         "isCore": true
       },
       {
         "id": "ingredient-02",
-        "name": "腌料：食用油",
-        "label": "腌料：食用油10毫升、绍兴酒5毫升、生抽10毫升、白胡椒粉1/4茶匙、玉米淀粉1茶匙、清水22.5毫升",
+        "name": "腌料：食用油、绍兴酒",
+        "label": "腌料：食用油适量、绍兴酒1茶匙、生抽2茶匙、白胡椒粉1/4茶匙、玉米淀粉1茶匙、清水1又1/2汤匙",
         "isCore": false
       },
       {
         "id": "ingredient-03",
         "name": "鱼香汁：米醋",
-        "label": "鱼香汁：米醋22.5毫升、白糖1又1/2汤匙、生抽15毫升、绍兴酒7.5毫升、清水约240毫升、玉米淀粉1又1/2汤匙",
+        "label": "鱼香汁：米醋1又1/2汤匙、白糖1又1/2汤匙、生抽1汤匙、绍兴酒1/2汤匙、清水适量、玉米淀粉1又1/2汤匙",
         "isCore": false
       },
       {
         "id": "ingredient-04",
-        "name": "炒制用植物油",
-        "label": "炒制用植物油45毫升",
+        "name": "炒制用食用油（分次使用）",
+        "label": "炒制用食用油适量（分次使用）",
         "isCore": false
       },
       {
@@ -483,19 +477,19 @@ window.YANHUO_RECIPES = [
       {
         "id": "ingredient-08",
         "name": "干辣椒",
-        "label": "干辣椒1/4杯",
+        "label": "干辣椒适量",
         "isCore": true
       },
       {
         "id": "ingredient-09",
-        "name": "泡发木耳丝满",
-        "label": "泡发木耳丝满1杯",
+        "name": "泡发木耳丝",
+        "label": "泡发木耳丝适量",
         "isCore": false
       },
       {
         "id": "ingredient-10",
         "name": "莴笋",
-        "label": "莴笋约225克",
+        "label": "莴笋约227克",
         "isCore": false
       },
       {
@@ -514,7 +508,7 @@ window.YANHUO_RECIPES = [
     "steps": [
       {
         "id": "step-01",
-        "instruction": "猪肉切丝，依次加入10毫升食用油、5毫升绍兴酒、10毫升生抽、1/4茶匙白胡椒粉、1茶匙玉米淀粉和22.5毫升清水，拌匀后腌20分钟。莴笋去皮切丝，泡发木耳切丝，葱切末，并备好姜末、蒜末和干辣椒。",
+        "instruction": "将约227克猪肉切丝，依次加入适量食用油、1茶匙绍兴酒、2茶匙生抽、1/4茶匙白胡椒粉、1茶匙玉米淀粉和1又1/2汤匙清水，拌匀后腌20分钟。其间将约227克莴笋去皮切丝、泡发木耳切丝、葱切末，并备好姜末、蒜末和干辣椒。",
         "duration": 1200,
         "heat": "medium",
         "timerRequired": true,
@@ -524,7 +518,7 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "step-02",
-        "instruction": "将22.5毫升米醋、1又1/2汤匙白糖、15毫升生抽、7.5毫升绍兴酒、约240毫升清水和1又1/2汤匙玉米淀粉依次放入碗中，充分搅匀成鱼香汁。",
+        "instruction": "将1又1/2汤匙米醋、1又1/2汤匙白糖、1汤匙生抽、1/2汤匙绍兴酒、适量清水和1又1/2汤匙玉米淀粉依次放入碗中，充分搅匀成鱼香汁。",
         "duration": 180,
         "heat": "medium",
         "timerRequired": false,
@@ -534,7 +528,7 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "step-03",
-        "instruction": "干净炒锅预热至微微冒烟，转高火加入15毫升植物油，下腌好的猪肉丝炒至不透明；关火，盛出备用。",
+        "instruction": "将干净炒锅预热至微微冒烟，转高火，先加入适量食用油，再下腌好的猪肉丝炒至不透明；关火，盛出备用。",
         "duration": 180,
         "heat": "medium",
         "timerRequired": false,
@@ -544,7 +538,7 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "step-04",
-        "instruction": "检查炒锅；若有残渣则洗净并擦干。开中火，加入剩余30毫升植物油和辣豆瓣酱，轻轻翻炒约1分钟至油变红，必要时调低火力以免炒焦。",
+        "instruction": "检查炒锅；若有残渣则洗净并擦干。开中火，另加入适量食用油和1汤匙辣豆瓣酱，轻轻翻炒约1分钟至油变红，必要时调低火力以免炒焦。",
         "duration": 60,
         "heat": "medium",
         "timerRequired": false,
@@ -554,7 +548,7 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "step-05",
-        "instruction": "依次加入姜末、蒜末和干辣椒，翻炒约15秒；放入木耳丝，转高火炒30秒，若锅中太干可滴入少量清水。",
+        "instruction": "依次加入2茶匙姜末、2茶匙蒜末和适量干辣椒，翻炒约15秒；放入适量木耳丝，转高火炒30秒，若锅中太干可滴入少量清水。",
         "duration": 120,
         "heat": "medium",
         "timerRequired": false,
@@ -577,7 +571,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/04-yuxiang-rousi.png",
     "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
     "time": 25,
-    "difficulty": "适中",
+    "difficulty": "进阶",
     "defaultServings": 2,
     "allergens": [
       "fish",
@@ -717,8 +711,8 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "ingredient-02",
-        "name": "气味清淡的食用油",
-        "label": "气味清淡的食用油30毫升（低芥酸菜籽油、普通植物油或牛油果油）",
+        "name": "食用油",
+        "label": "食用油适量",
         "isCore": false
       },
       {
@@ -730,19 +724,19 @@ window.YANHUO_RECIPES = [
       {
         "id": "ingredient-04",
         "name": "绍兴酒",
-        "label": "绍兴酒约80毫升",
+        "label": "绍兴酒适量",
         "isCore": true
       },
       {
         "id": "ingredient-05",
         "name": "生抽",
-        "label": "生抽30毫升",
+        "label": "生抽2汤匙",
         "isCore": false
       },
       {
         "id": "ingredient-06",
         "name": "老抽",
-        "label": "老抽15毫升",
+        "label": "老抽1汤匙",
         "isCore": false
       },
       {
@@ -754,7 +748,7 @@ window.YANHUO_RECIPES = [
       {
         "id": "ingredient-08",
         "name": "炖煮用清水",
-        "label": "炖煮用清水约480—720毫升",
+        "label": "炖煮用清水适量",
         "isCore": false
       },
       {
@@ -777,7 +771,7 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "step-02",
-        "instruction": "洗净的锅置于小火，一次性加入30毫升气味清淡的食用油和2汤匙冰糖或白砂糖；待糖融化后放入焯好的五花肉，转中火煎至表面微微上色。",
+        "instruction": "洗净的锅置于小火，加入适量食用油和2汤匙冰糖或白砂糖；待糖融化后放入焯好的五花肉，转中火煎至表面微微上色。",
         "duration": 120,
         "heat": "low",
         "timerRequired": false,
@@ -787,7 +781,7 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "step-03",
-        "instruction": "转小火，先倒入约80毫升绍兴酒，煮2分钟；再依次加入30毫升生抽、15毫升老抽和约480—720毫升清水。",
+        "instruction": "转小火，先倒入适量绍兴酒，煮2分钟；再依次加入2汤匙生抽、1汤匙老抽和适量炖煮用清水。",
         "duration": 120,
         "heat": "low",
         "timerRequired": false,
@@ -3281,25 +3275,25 @@ window.YANHUO_RECIPES = [
       {
         "id": "ingredient-03",
         "name": "食用油",
-        "label": "食用油30毫升",
+        "label": "食用油适量",
         "isCore": false
       },
       {
         "id": "ingredient-04",
         "name": "猪肉末",
-        "label": "猪肉末1/4杯",
+        "label": "猪肉末适量",
         "isCore": true
       },
       {
         "id": "ingredient-05",
         "name": "大蒜",
-        "label": "大蒜2瓣",
+        "label": "大蒜2瓣，拍碎粗切",
         "isCore": false
       },
       {
         "id": "ingredient-06",
         "name": "干辣椒",
-        "label": "干辣椒2个",
+        "label": "干辣椒2个，去籽切碎",
         "isCore": true
       },
       {
@@ -3311,13 +3305,13 @@ window.YANHUO_RECIPES = [
       {
         "id": "ingredient-08",
         "name": "绍兴酒",
-        "label": "绍兴酒5毫升",
+        "label": "绍兴酒1茶匙",
         "isCore": false
       },
       {
         "id": "ingredient-09",
         "name": "生抽",
-        "label": "生抽7.5毫升",
+        "label": "生抽1又1/2茶匙",
         "isCore": false
       },
       {
@@ -3329,14 +3323,14 @@ window.YANHUO_RECIPES = [
       {
         "id": "ingredient-11",
         "name": "芝麻油",
-        "label": "芝麻油5毫升",
+        "label": "芝麻油适量",
         "isCore": false
       }
     ],
     "steps": [
       {
         "id": "step-01",
-        "instruction": "此步不放油。炒锅以高火预热至刚开始冒烟，放入四季豆和1/2茶匙盐，立即转中小火；偶尔翻动，干煸约20分钟，至四季豆表面出现小焦斑、变软且完全熟透，盛出备用。",
+        "instruction": "此步不放油。炒锅以高火预热至刚开始冒烟，放入450克四季豆和1/2茶匙盐，立即转中小火；偶尔翻动，干煸约20分钟，至四季豆表面出现小焦斑、变软且充分加热至熟，盛出备用。",
         "duration": 1200,
         "heat": "low",
         "timerRequired": true,
@@ -3346,7 +3340,7 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "step-02",
-        "instruction": "四季豆盛出后，锅中一次性加入30毫升食用油，以中高火将猪肉末炒至褐色熟透；依次加入切碎的大蒜和干辣椒，翻炒30秒，再加入碎米芽菜，继续炒1分钟。",
+        "instruction": "四季豆盛出后，锅中加入适量食用油，以中高火将适量猪肉末炒至褐色；依次加入拍碎粗切的大蒜和去籽切碎的干辣椒，翻炒30秒，再加入2汤匙碎米芽菜，继续炒1分钟。",
         "duration": 60,
         "heat": "medium",
         "timerRequired": false,
@@ -3356,7 +3350,7 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "step-03",
-        "instruction": "倒回四季豆，依次加入5毫升绍兴酒、7.5毫升生抽、1/8茶匙白糖和5毫升芝麻油；转高火翻炒1分钟，立即装盘。",
+        "instruction": "倒回四季豆，依次加入1茶匙绍兴酒、1又1/2茶匙生抽、1/8茶匙白糖和适量芝麻油；转高火翻炒1分钟，立即装盘。",
         "duration": 60,
         "heat": "medium",
         "timerRequired": false,
@@ -6984,7 +6978,7 @@ window.YANHUO_RECIPES = [
       {
         "id": "ingredient-01",
         "name": "特级初榨橄榄油",
-        "label": "特级初榨橄榄油105毫升（45毫升制作蒜香油、60毫升调酱）",
+        "label": "特级初榨橄榄油105毫升（分次使用）",
         "isCore": false
       },
       {
@@ -6995,14 +6989,14 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "ingredient-03",
-        "name": "结实面包",
-        "label": "结实面包3杯",
+        "name": "结实面包，切成",
+        "label": "结实面包适量，切成约2厘米方块",
         "isCore": true
       },
       {
         "id": "ingredient-04",
         "name": "帕玛森芝士",
-        "label": "帕玛森芝士约57克（总量约1杯，分次使用）",
+        "label": "帕玛森芝士约57克（分次使用）",
         "isCore": true
       },
       {
@@ -7051,7 +7045,7 @@ window.YANHUO_RECIPES = [
     "steps": [
       {
         "id": "step-01",
-        "instruction": "将烤架调至烤箱中层，预热至190℃。大蒜切末，与45毫升橄榄油搅拌30秒后过滤；过滤出的蒜香油与切成约2厘米方块的3杯面包拌匀，压出的蒜末保留用于调酱。",
+        "instruction": "将烤架调至烤箱中层，预热至190℃。大蒜切末，取3汤匙特级初榨橄榄油与蒜末搅拌30秒后过滤；过滤出的蒜香油与切成约2厘米方块的适量面包拌匀，压出的蒜末保留用于调酱。",
         "duration": 120,
         "heat": "high",
         "timerRequired": false,
@@ -7071,7 +7065,7 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "step-03",
-        "instruction": "将大蛋黄、15毫升柠檬汁、鳀鱼、5毫升伍斯特酱、保留的蒜末和1/4杯帕玛森搅打；保持搅打并缓慢淋入80毫升菜籽油，直至乳化成酱，再打入剩余60毫升橄榄油，以盐和黑胡椒调味。对生蛋安全有顾虑时，使用巴氏杀菌蛋所取的蛋黄。",
+        "instruction": "将大蛋黄、15毫升柠檬汁、鳀鱼、5毫升伍斯特酱、保留的蒜末和1/4杯帕玛森搅打；保持搅打并缓慢淋入80毫升菜籽油，直至乳化成酱，再打入剩余1/4杯特级初榨橄榄油，以盐和黑胡椒调味。对生蛋安全有顾虑时，使用巴氏杀菌蛋所取的蛋黄。",
         "duration": 180,
         "heat": "medium",
         "timerRequired": false,
@@ -7100,8 +7094,7 @@ window.YANHUO_RECIPES = [
       "dairy",
       "egg",
       "fish",
-      "wheat",
-      "sesame"
+      "wheat"
     ],
     "flags": {
       "containsPork": false,
@@ -7251,7 +7244,7 @@ window.YANHUO_RECIPES = [
       {
         "id": "ingredient-03",
         "name": "防焦用清水",
-        "label": "防焦用清水15毫升",
+        "label": "防焦用清水1汤匙",
         "isCore": false
       },
       {
@@ -7324,7 +7317,7 @@ window.YANHUO_RECIPES = [
     "steps": [
       {
         "id": "step-01",
-        "instruction": "洋葱切成约3毫米薄片。锅中以中高火融化90克黄油，放入洋葱炒约8分钟至变软；转中小火，频繁翻动1—2小时，至洋葱浓郁金棕、柔软甘甜。若锅底褐色汁液将要焦煳，加入15毫升清水并刮起锅底，再以盐和黑胡椒调味。",
+        "instruction": "洋葱切成约3毫米薄片。锅中以中高火融化90克黄油，放入洋葱炒约8分钟至变软；转中小火，频繁翻动1—2小时，至洋葱浓郁金棕、柔软甘甜；焦糖化接近结束时尤其要勤看，避免烧焦。若锅底褐色汁液将要焦煳，加入1汤匙清水并刮起锅底，再以盐和黑胡椒调味。",
         "duration": 480,
         "heat": "low",
         "timerRequired": true,
@@ -7841,7 +7834,7 @@ window.YANHUO_RECIPES = [
       {
         "id": "ingredient-04",
         "name": "特级初榨橄榄油",
-        "label": "特级初榨橄榄油45毫升（30毫升煸肉、15毫升拌面）",
+        "label": "特级初榨橄榄油45毫升（分次使用）",
         "isCore": false
       },
       {
@@ -7877,14 +7870,14 @@ window.YANHUO_RECIPES = [
       {
         "id": "ingredient-10",
         "name": "预留煮面水",
-        "label": "预留煮面水约120毫升",
+        "label": "预留煮面水适量",
         "isCore": false
       }
     ],
     "steps": [
       {
         "id": "step-01",
-        "instruction": "大锅水中只加少量盐，以高火煮沸，放入450克意大利面煮至有嚼劲；腌猪肉和芝士本身较咸，不要过度加盐。面煮好时预留约120毫升煮面水，并让煮面锅中的其余水继续保持沸腾。",
+        "instruction": "大锅水中只加少量盐，以高火煮沸，放入450克意大利面煮至有嚼劲；腌猪肉和芝士本身较咸，不要过度加盐。面煮好时预留适量煮面水，并让煮面锅中的其余水继续保持沸腾。",
         "duration": 180,
         "heat": "medium",
         "timerRequired": false,
@@ -7894,7 +7887,7 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "step-02",
-        "instruction": "意式腌猪颊肉冷藏后切丁，与30毫升橄榄油一同放入锅中；中火频繁翻动约7分钟，至油脂析出、肉丁酥脆。",
+        "instruction": "意式腌猪颊肉冷藏后切丁，与2汤匙橄榄油一同放入锅中；中火频繁翻动约7分钟，至油脂析出、肉丁酥脆。",
         "duration": 420,
         "heat": "medium",
         "timerRequired": true,
@@ -7914,7 +7907,7 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "step-04",
-        "instruction": "将意大利面直接移入猪颊肉锅中，加入剩余15毫升橄榄油，拌匀后稍微降温；再将面、猪颊肉和锅中油脂全部倒入蛋液碗，加入约120毫升预留煮面水并拌匀。",
+        "instruction": "将意大利面直接移入猪颊肉锅中，加入剩余1汤匙橄榄油，拌匀后稍微降温；再将面、猪颊肉和锅中油脂全部倒入蛋液碗，加入适量预留煮面水并拌匀。",
         "duration": 120,
         "heat": "medium",
         "timerRequired": false,
@@ -8839,8 +8832,8 @@ window.YANHUO_RECIPES = [
     "ingredients": [
       {
         "id": "ingredient-01",
-        "name": "葵花籽油",
-        "label": "葵花籽油15毫升",
+        "name": "食用油",
+        "label": "食用油适量",
         "isCore": false
       },
       {
@@ -8894,7 +8887,7 @@ window.YANHUO_RECIPES = [
       {
         "id": "ingredient-10",
         "name": "牛奶",
-        "label": "牛奶45毫升",
+        "label": "牛奶3汤匙",
         "isCore": false
       },
       {
@@ -8907,7 +8900,7 @@ window.YANHUO_RECIPES = [
     "steps": [
       {
         "id": "step-01",
-        "instruction": "洋葱和胡萝卜切碎。中号锅中加入15毫升葵花籽油并烧热，放入洋葱和胡萝卜，翻炒几分钟至变软。",
+        "instruction": "洋葱和胡萝卜切碎。中号锅中加入适量食用油并烧热，放入洋葱和胡萝卜，翻炒几分钟至变软。",
         "duration": 120,
         "heat": "medium",
         "timerRequired": false,
@@ -8937,7 +8930,7 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "step-04",
-        "instruction": "同时将烤箱预热至180℃，风扇烤箱160℃。土豆切块，放入加盐水中煮10—15分钟至软；沥干后加入85克黄油和45毫升牛奶，压成薯泥。",
+        "instruction": "同时将烤箱预热至180℃，风扇烤箱160℃。土豆切块，放入加盐水中煮10—15分钟至软；沥干后加入85克黄油和3汤匙牛奶，压成薯泥。",
         "duration": 900,
         "heat": "high",
         "timerRequired": true,

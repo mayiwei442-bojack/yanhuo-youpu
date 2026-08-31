@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "完整采用 Serious Eats 变体。仅撤回防焦水的推算毫升，保留其明确给出的公制重量和容量，并仅增加防焦安全提示。",
+  "evidencePackageHash": "fe2fae9f1e02271e59f04288a1808caecbfc570a2bf3aad35022455b4d2fb4c7",
+  "validatorPassed": true
+}

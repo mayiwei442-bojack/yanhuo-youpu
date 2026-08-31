@@ -10,9 +10,9 @@
     {
       "id": "cn-002",
       "name": "宫保鸡丁",
-      "status": "done",
-      "lastRunId": "2026-08-31-cn-002-metric-detail",
-      "completedAt": "2026-08-31T10:40:00.000Z"
+      "status": "in_progress",
+      "lastRunId": "2026-08-31-cn-002-source-unit-fidelity",
+      "completedAt": null
     },
     {
       "id": "cn-003",
@@ -24,9 +24,9 @@
     {
       "id": "cn-004",
       "name": "鱼香肉丝",
-      "status": "done",
-      "lastRunId": "2026-08-31-cn-004-metric-detail",
-      "completedAt": "2026-08-31T10:40:00.000Z"
+      "status": "in_progress",
+      "lastRunId": "2026-08-31-cn-004-source-unit-fidelity",
+      "completedAt": null
     },
     {
       "id": "cn-005",
@@ -38,9 +38,9 @@
     {
       "id": "cn-006",
       "name": "红烧肉",
-      "status": "done",
-      "lastRunId": "2026-08-31-cn-006-metric-detail",
-      "completedAt": "2026-08-31T10:40:00.000Z"
+      "status": "in_progress",
+      "lastRunId": "2026-08-31-cn-006-source-unit-fidelity",
+      "completedAt": null
     },
     {
       "id": "cn-007",
@@ -199,9 +199,9 @@
     {
       "id": "cn-029",
       "name": "干煸四季豆",
-      "status": "done",
-      "lastRunId": "2026-08-31-cn-029-metric-detail",
-      "completedAt": "2026-08-31T10:40:00.000Z"
+      "status": "in_progress",
+      "lastRunId": "2026-08-31-cn-029-source-unit-fidelity",
+      "completedAt": null
     },
     {
       "id": "cn-030",
@@ -446,9 +446,9 @@
     {
       "id": "west-004",
       "name": "凯撒沙拉",
-      "status": "done",
-      "lastRunId": "2026-08-31-west-004-metric-detail",
-      "completedAt": "2026-08-31T10:40:00.000Z"
+      "status": "in_progress",
+      "lastRunId": "2026-08-31-west-004-source-unit-fidelity",
+      "completedAt": null
     },
     {
       "id": "west-005",
@@ -460,9 +460,9 @@
     {
       "id": "west-006",
       "name": "法式洋葱汤",
-      "status": "done",
-      "lastRunId": "2026-08-31-west-006-metric-detail",
-      "completedAt": "2026-08-31T10:40:00.000Z"
+      "status": "in_progress",
+      "lastRunId": "2026-08-31-west-006-source-unit-fidelity",
+      "completedAt": null
     },
     {
       "id": "west-007",
@@ -495,9 +495,9 @@
     {
       "id": "west-011",
       "name": "意式培根蛋面",
-      "status": "done",
-      "lastRunId": "2026-08-31-west-011-metric-detail",
-      "completedAt": "2026-08-31T10:40:00.000Z"
+      "status": "in_progress",
+      "lastRunId": "2026-08-31-west-011-source-unit-fidelity",
+      "completedAt": null
     },
     {
       "id": "west-012",
@@ -558,9 +558,9 @@
     {
       "id": "west-020",
       "name": "牧羊人派",
-      "status": "done",
-      "lastRunId": "2026-08-31-west-020-metric-detail",
-      "completedAt": "2026-08-31T10:40:00.000Z"
+      "status": "in_progress",
+      "lastRunId": "2026-08-31-west-020-source-unit-fidelity",
+      "completedAt": null
     },
     {
       "id": "west-021",

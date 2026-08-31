@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "完整采用 Serious Eats 变体。煮面水杯量改为适量，橄榄油仅保留来源明确总量45毫升并按原始勺量分配，未混入 BBC 变体。",
+  "evidencePackageHash": "02935e5b782479606b855cc35f7110f2e46a47923268422664d1107c210613c0",
+  "validatorPassed": true
+}
