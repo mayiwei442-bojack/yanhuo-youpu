@@ -1063,63 +1063,127 @@ window.YANHUO_RECIPES = [
     "ingredients": [
       {
         "id": "ingredient-01",
-        "name": "隔夜米饭",
-        "label": "隔夜米饭500克",
+        "name": "熟米饭",
+        "label": "熟米饭5杯",
         "isCore": true
       },
       {
         "id": "ingredient-02",
-        "name": "鸡蛋",
-        "label": "鸡蛋2个",
-        "isCore": true
+        "name": "煮饭用清水（按米包装说明略减）",
+        "label": "煮饭用清水适量（按米包装说明略减）",
+        "isCore": false
       },
       {
         "id": "ingredient-03",
-        "name": "虾仁",
-        "label": "虾仁100克",
-        "isCore": true
+        "name": "食用油",
+        "label": "食用油3汤匙（分次：炒蛋1汤匙、炒饭2汤匙",
+        "isCore": false
       },
       {
         "id": "ingredient-04",
-        "name": "火腿",
-        "label": "火腿60克",
-        "isCore": false
+        "name": "另备，米饭偏干时可选）",
+        "label": "另备少许，米饭偏干时可选）",
+        "isCore": true
       },
       {
         "id": "ingredient-05",
-        "name": "胡萝卜",
-        "label": "胡萝卜50克",
-        "isCore": false
+        "name": "大鸡蛋",
+        "label": "大鸡蛋2个，打散",
+        "isCore": true
       },
       {
         "id": "ingredient-06",
-        "name": "青豆",
-        "label": "青豆50克",
+        "name": "鲜虾仁",
+        "label": "鲜虾仁110克（40—60号，去壳去虾线）",
         "isCore": false
       },
       {
         "id": "ingredient-07",
-        "name": "葱花",
-        "label": "葱花适量",
+        "name": "焯虾仁用沸水",
+        "label": "焯虾仁用沸水适量",
         "isCore": false
       },
       {
         "id": "ingredient-08",
-        "name": "盐",
-        "label": "盐3克",
+        "name": "中等大小洋葱",
+        "label": "中等大小洋葱1个，切细丁",
         "isCore": false
       },
       {
         "id": "ingredient-09",
-        "name": "白胡椒",
-        "label": "白胡椒少许",
+        "name": "弗吉尼亚火腿",
+        "label": "弗吉尼亚火腿110克，切丁",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-10",
+        "name": "中式叉烧",
+        "label": "中式叉烧110克，切丁",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-11",
+        "name": "冷冻青豆",
+        "label": "冷冻青豆3/4杯，解冻",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-12",
+        "name": "盐",
+        "label": "盐1又1/2茶匙",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-13",
+        "name": "白糖",
+        "label": "白糖1/4茶匙",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-14",
+        "name": "绍兴酒",
+        "label": "绍兴酒1茶匙（可选）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-15",
+        "name": "小葱",
+        "label": "小葱2根，切碎",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-16",
+        "name": "罗马生菜或球生菜",
+        "label": "罗马生菜或球生菜2杯，切碎",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-17",
+        "name": "现磨白胡椒粉",
+        "label": "现磨白胡椒粉1/8茶匙",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-18",
+        "name": "清水或鸡汤少量（米饭偏干时可选）",
+        "label": "清水或鸡汤少量（米饭偏干时可选）",
         "isCore": false
       }
     ],
     "steps": [
       {
         "id": "step-01",
-        "instruction": "虾仁焯熟，配料切小丁。",
+        "instruction": "如需自煮5杯熟米饭，按包装说明煮饭，但清水比包装说明略少，避免米饭软黏；熟饭不加盖摊凉，停止冒蒸汽后用叉子拨松并打散饭团。也可将米饭冷藏过夜；炒前用手把冷饭团搓散成粒，手发黏时用冷水冲洗后继续。",
+        "duration": 180,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-02",
+        "instruction": "将2个大鸡蛋打散；洋葱切细丁，弗吉尼亚火腿和中式叉烧切丁，小葱及2杯罗马生菜或球生菜切碎；3/4杯冷冻青豆提前解冻。另烧一锅适量沸水，将110克去壳去虾线的鲜虾仁焯水，捞出沥干备用。",
         "duration": 180,
         "heat": "medium",
         "timerRequired": false,
@@ -1128,19 +1192,49 @@ window.YANHUO_RECIPES = [
         "safetyNote": ""
       },
       {
-        "id": "step-02",
-        "instruction": "鸡蛋炒散，下米饭大火炒至颗粒分明。",
+        "id": "step-03",
+        "instruction": "炒锅以中高火烧热，加入1汤匙食用油，倒入蛋液，轻轻翻折炒散，避免鸡蛋焦煳；鸡蛋凝成柔嫩小块后盛回碗中。",
         "duration": 180,
-        "heat": "high",
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-04",
+        "instruction": "炒锅转高火，加入剩余2汤匙食用油，放入洋葱丁翻炒至透明；加入火腿丁和叉烧丁翻炒30秒。倒入米饭，以锅铲压散饭团并不断翻炒2分钟，至米饭均匀受热；加入焯过的虾仁和解冻青豆，继续不断翻炒2分钟，至米饭完全热透。",
+        "duration": 120,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-05",
+        "instruction": "将1又1/2茶匙盐和1/4茶匙白糖均匀撒入锅中。若用绍兴酒，将1茶匙绍兴酒沿锅边淋入，使其发出滋滋声并让酒精挥发；翻炒至调味均匀。",
+        "duration": 120,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "stir",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-06",
+        "instruction": "检查米饭状态；若略显干，可撒入少量清水或鸡汤，或补少许食用油。若仍有大饭团，可将少量液体直接淋在饭团上帮助打散；不要一次加多，以免米饭湿软或油腻。",
+        "duration": 180,
+        "heat": "medium",
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "confirm",
         "safetyNote": ""
       },
       {
-        "id": "step-03",
-        "instruction": "加入虾仁、火腿、胡萝卜和青豆炒透，调盐和白胡椒，撒葱花。",
-        "duration": 180,
+        "id": "step-07",
+        "instruction": "加入炒好的鸡蛋、碎小葱、碎生菜和1/8茶匙现磨白胡椒粉，保持翻炒，只炒至生菜刚刚变蔫且仍保留爽脆口感，立即装盘。",
+        "duration": 120,
         "heat": "medium",
         "timerRequired": false,
         "ingredientsUsed": [],
@@ -1151,8 +1245,8 @@ window.YANHUO_RECIPES = [
     "imageThumb": "assets/dishes/thumbnails/08-yangzhou-chaofan.jpg",
     "imageFull": "assets/dishes/ai/08-yangzhou-chaofan.png",
     "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
-    "time": 35,
-    "difficulty": "适中",
+    "time": 15,
+    "difficulty": "进阶",
     "defaultServings": 2,
     "allergens": [
       "egg",

@@ -52,8 +52,8 @@
     {
       "id": "cn-008",
       "name": "扬州炒饭",
-      "status": "pending",
-      "lastRunId": null,
+      "status": "in_progress",
+      "lastRunId": "2026-09-06-cn-008-b20d",
       "completedAt": null
     },
     {
