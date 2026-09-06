@@ -621,67 +621,103 @@ window.YANHUO_RECIPES = [
     "ingredients": [
       {
         "id": "ingredient-01",
-        "name": "猪里脊",
-        "label": "猪里脊250克",
+        "name": "猪肩肉或猪里脊",
+        "label": "猪肩肉或猪里脊约227克，切细丝",
         "isCore": true
       },
       {
         "id": "ingredient-02",
-        "name": "青椒",
-        "label": "青椒200克",
-        "isCore": true
+        "name": "清水",
+        "label": "清水1汤匙",
+        "isCore": false
       },
       {
         "id": "ingredient-03",
-        "name": "姜蒜",
-        "label": "姜蒜适量",
+        "name": "玉米淀粉",
+        "label": "玉米淀粉1茶匙",
         "isCore": false
       },
       {
         "id": "ingredient-04",
-        "name": "生抽",
-        "label": "生抽15毫升",
+        "name": "食用油（腌肉用",
+        "label": "食用油适量（腌肉用适量",
         "isCore": false
       },
       {
         "id": "ingredient-05",
-        "name": "料酒",
-        "label": "料酒10毫升",
-        "isCore": false
+        "name": "炒制用，分两次加入）",
+        "label": "炒制用适量，分两次加入）",
+        "isCore": true
       },
       {
         "id": "ingredient-06",
-        "name": "淀粉",
-        "label": "淀粉8克",
-        "isCore": false
+        "name": "绍兴酒",
+        "label": "绍兴酒1茶匙",
+        "isCore": true
       },
       {
         "id": "ingredient-07",
-        "name": "盐",
-        "label": "盐2克",
+        "name": "蚝油",
+        "label": "蚝油1茶匙",
         "isCore": false
       },
       {
         "id": "ingredient-08",
-        "name": "食用油",
-        "label": "食用油20毫升",
+        "name": "生抽",
+        "label": "生抽1茶匙",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-09",
+        "name": "青辣椒",
+        "label": "青辣椒6个（约280—340克）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-10",
+        "name": "姜",
+        "label": "姜2片",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-11",
+        "name": "大蒜",
+        "label": "大蒜3瓣，切薄片",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-12",
+        "name": "绍兴酒",
+        "label": "绍兴酒1汤匙",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-13",
+        "name": "白糖",
+        "label": "白糖1/2茶匙",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-14",
+        "name": "老抽",
+        "label": "老抽1/2茶匙",
         "isCore": false
       }
     ],
     "steps": [
       {
         "id": "step-01",
-        "instruction": "肉切丝，用生抽、料酒和淀粉腌10分钟。",
-        "duration": 600,
+        "instruction": "将约227克猪肩肉或猪里脊切成细丝，加入1汤匙清水、1茶匙玉米淀粉、适量食用油、1茶匙绍兴酒、1茶匙蚝油和1茶匙生抽，充分拌匀后静置备用；静置期间处理其余配料。",
+        "duration": 120,
         "heat": "medium",
-        "timerRequired": true,
+        "timerRequired": false,
         "ingredientsUsed": [],
-        "gameAction": "confirm",
+        "gameAction": "add",
         "safetyNote": ""
       },
       {
         "id": "step-02",
-        "instruction": "青椒切丝，干锅炒至略软盛出。",
+        "instruction": "青辣椒6个去籽，斜切成薄片；备好姜2片，将大蒜3瓣切成薄片。",
         "duration": 180,
         "heat": "medium",
         "timerRequired": false,
@@ -691,20 +727,40 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "step-03",
-        "instruction": "热油滑熟肉丝，加姜蒜和青椒，大火翻匀调盐。",
+        "instruction": "炒锅以高火烧至冒烟，加入一半炒制用食用油，再下肉丝翻炒2—3分钟，至肉丝边缘微微上色，盛出备用。",
         "duration": 180,
-        "heat": "high",
+        "heat": "medium",
         "timerRequired": false,
         "ingredientsUsed": [],
-        "gameAction": "confirm",
-        "safetyNote": "注意热油飞溅"
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-04",
+        "instruction": "转中高火，加入剩余炒制用食用油，下姜片、蒜片和青辣椒翻炒30秒—1分钟，至青辣椒表面开始起泡；控制火力，避免蒜片焦煳。沿锅边倒入1汤匙绍兴酒，刮起锅底焦化物并继续翻炒10秒。",
+        "duration": 60,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-05",
+        "instruction": "倒回肉丝，加入1/2茶匙白糖和1/2茶匙老抽，转高火再翻炒数秒，至调料均匀裹住肉丝和青辣椒，立即出锅。",
+        "duration": 120,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
       }
     ],
     "imageThumb": "assets/dishes/thumbnails/05-qingjiao-rousi.jpg",
     "imageFull": "assets/dishes/ai/05-qingjiao-rousi.png",
     "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
     "time": 15,
-    "difficulty": "简单",
+    "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [
       "soy"
@@ -712,8 +768,8 @@ window.YANHUO_RECIPES = [
     "flags": {
       "containsPork": true,
       "containsBeef": false,
-      "containsAlcohol": true,
-      "spicy": false,
+      "containsAlcohol": false,
+      "spicy": true,
       "vegetarian": false
     },
     "demoEnriched": true

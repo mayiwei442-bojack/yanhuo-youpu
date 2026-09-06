@@ -1,0 +1,392 @@
+{
+  "recipeId": "cn-005",
+  "recipeName": "青椒肉丝",
+  "category": "chinese",
+  "createdAt": "2026-09-06T11:16:52.288Z",
+  "sources": [
+    {
+      "sourceName": "The Woks of Life",
+      "sourceType": "website",
+      "url": "https://thewoksoflife.com/pork-pepper-stir-fry/",
+      "documentId": "e71b3fc9-b183-4aa0-80e6-a1ddc66b6782",
+      "retrievalMethod": "JSON-LD + HTML正文",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "ounces pork shoulder or loin ((cut into thin strips))",
+          "amount": "8",
+          "raw": "8 ounces pork shoulder or loin ((cut into thin strips))",
+          "evidence": "explicit"
+        },
+        {
+          "name": "water",
+          "amount": "1 tablespoon",
+          "raw": "1 tablespoon water",
+          "evidence": "explicit"
+        },
+        {
+          "name": "cornstarch",
+          "amount": "1 teaspoon",
+          "raw": "1 teaspoon cornstarch",
+          "evidence": "explicit"
+        },
+        {
+          "name": "vegetable oil",
+          "amount": "2 teaspoons",
+          "raw": "2 teaspoons vegetable oil",
+          "evidence": "explicit"
+        },
+        {
+          "name": "Shaoxing wine",
+          "amount": "1 teaspoon",
+          "raw": "1 teaspoon Shaoxing wine",
+          "evidence": "explicit"
+        },
+        {
+          "name": "oyster sauce",
+          "amount": "1 teaspoon",
+          "raw": "1 teaspoon oyster sauce",
+          "evidence": "explicit"
+        },
+        {
+          "name": "light soy sauce",
+          "amount": "1 teaspoon",
+          "raw": "1 teaspoon light soy sauce",
+          "evidence": "explicit"
+        },
+        {
+          "name": "long hot green peppers ((6 peppers = 10-12 ounces/280-340g))",
+          "amount": "6",
+          "raw": "6 long hot green peppers ((6 peppers = 10-12 ounces/280-340g))",
+          "evidence": "explicit"
+        },
+        {
+          "name": "slices ginger",
+          "amount": "2",
+          "raw": "2 slices ginger",
+          "evidence": "explicit"
+        },
+        {
+          "name": "cloves garlic ((thinly sliced))",
+          "amount": "3",
+          "raw": "3 cloves garlic ((thinly sliced))",
+          "evidence": "explicit"
+        },
+        {
+          "name": "vegetable oil",
+          "amount": "2 tablespoons",
+          "raw": "2 tablespoons vegetable oil",
+          "evidence": "explicit"
+        },
+        {
+          "name": "Shaoxing wine",
+          "amount": "1 tablespoon",
+          "raw": "1 tablespoon Shaoxing wine",
+          "evidence": "explicit"
+        },
+        {
+          "name": "sugar",
+          "amount": "1/2 teaspoon",
+          "raw": "1/2 teaspoon sugar",
+          "evidence": "explicit"
+        },
+        {
+          "name": "dark soy sauce",
+          "amount": "1/2 teaspoon",
+          "raw": "1/2 teaspoon dark soy sauce",
+          "evidence": "explicit"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "In a bowl, combine the thin strips of pork, water, cornstarch, oil, Shaoxing wine, oyster sauce and light soy sauce. Mix well and set aside while you prepare the other ingredients.",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 2,
+          "instruction": "De-seed the peppers, and thinly slice them on a diagonal. Prepare your ginger and garlic.",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 3,
+          "instruction": "Heat your wok over high heat until smoking. Add 1 tablespoon of oil, and then add the pork. Stir-fry for 2-3 minutes, until the pork is lightly browned around the edges. Remove the pork from the wok and set aside.",
+          "duration": "2-3 minutes",
+          "heat": "high heat",
+          "evidence": "explicit"
+        },
+        {
+          "order": 4,
+          "instruction": "Over medium-high heat, add another tablespoon of oil, along with the ginger, garlic, and peppers, and fry for 30 seconds to 1 minute. The peppers should be beginning to blister from the heat, but control the heat to avoid burning the garlic! Add the Shaoxing wine to deglaze the wok. Stir for another 10 seconds.",
+          "duration": "30 seconds",
+          "heat": "medium-high heat",
+          "evidence": "explicit"
+        },
+        {
+          "order": 5,
+          "instruction": "Add the pork back to the wok along with the sugar and dark soy sauce. Stir-fry for another few seconds over high heat, and serve.",
+          "duration": null,
+          "heat": "high heat",
+          "evidence": "explicit"
+        }
+      ],
+      "technique": [
+        "准备：15分钟",
+        "烹饪：5分钟",
+        "总用时：20分钟"
+      ],
+      "tips": [
+        "If you’re concerned about spice level, substitute with cubanelle peppers, which are generally milder but have a similar sweetness and texture.",
+        "The peppers should be beginning to blister from the heat, but control the heat to avoid burning the garlic! Add the Shaoxing wine to deglaze the wok. Stir for another 10 seconds.",
+        "Looking for more authentic recipes? Subscribe to our email list and be sure to follow us on Pinterest , Facebook , Instagram , and Youtube!"
+      ],
+      "rawExcerpt": "菜名：青椒肉丝\n简介：This pork and pepper stir-fry recipe is a quick dish to put together with any cut of pork shoulder or pork loin (or even an odd pork chop).\n原料：8 ounces pork shoulder or loin ((cut into thin strips))；1 tablespoon water；1 teaspoon cornstarch；2 teaspoons vegetable oil；1 teaspoon Shaoxing wine；1 teaspoon oyster sauce；1 teaspoon light soy sauce；6 long hot green peppers ((6 peppers = 10-12 ounces/280-340g))；2 slices ginger；3 cloves garlic ((thinly sliced))；2 tablespoons vegetable oil；1 tablespoon Shaoxing wine；1/2 teaspoon sugar；1/2 teaspoon dark soy sauce\n步骤：1. In a bowl, combine the thin strips of pork, water, cornstarch, oil, Shaoxing wine, oyster sauce and light soy sauce. Mix well and set aside while you prepare the other ingredients. 2. De-seed the peppers, and thinly slice them on a diagonal. Prepare your ginger and garlic. 3. Heat your wok over high heat until smoking. Add 1 tablespoon of oil, and then add the pork. Stir-fry for 2-3 minutes, until the pork is lightly browned around the edges. Remove the pork from the wok and set aside. 4. Over medium-high heat, add another tablespoon of oil, along with the ginger, garlic, and peppers, and fry for 30 seconds to 1 minute. The peppers should be beginning to blister from the heat, but control the heat to avoid burning the garlic! Add the Shaoxing wine to deglaze the wok. Stir for another 10 seconds. 5. Add the pork back to the wok along with the sugar and dark soy sauce. Stir-fry for another few seconds over high heat, and serve.\n技法：准备：15分钟；烹饪：5分钟；总用时：20分钟\n提示：If you’re concerned about spice level, substitute with cubanelle peppers, which are generally milder but have a similar sweetness and texture.；The peppers should be beginning to blister from the heat, but control the heat to avoid burning the garlic! Add the Shaoxing wine to deglaze the wok. Stir for another 10 seconds.；Looking for more authentic recipes? Subscribe to our email list and be sure to follow us on Pinterest , Facebook , Instagram , and Youtube!"
+    },
+    {
+      "sourceName": "豆果美食",
+      "sourceType": "website",
+      "url": "https://www.douguo.com/cookbook/2428206.html",
+      "documentId": "35fd6395-88ff-4f98-8b01-237b0868ac19",
+      "retrievalMethod": "HTML正文",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "里脊肉",
+          "amount": "100g",
+          "raw": "里脊肉 100g",
+          "evidence": "explicit"
+        },
+        {
+          "name": "淀粉",
+          "amount": "3小勺",
+          "raw": "淀粉 3小勺",
+          "evidence": "explicit"
+        },
+        {
+          "name": "色拉油",
+          "amount": "适量",
+          "raw": "色拉油 适量",
+          "evidence": "explicit"
+        },
+        {
+          "name": "生抽",
+          "amount": "2小勺",
+          "raw": "生抽 2小勺",
+          "evidence": "explicit"
+        },
+        {
+          "name": "盐",
+          "amount": "1/2小勺",
+          "raw": "盐 1/2小勺",
+          "evidence": "explicit"
+        },
+        {
+          "name": "鸡精",
+          "amount": "适量",
+          "raw": "鸡精 适量",
+          "evidence": "explicit"
+        },
+        {
+          "name": "老姜",
+          "amount": "适量切碎",
+          "raw": "老姜 适量切碎",
+          "evidence": "explicit"
+        },
+        {
+          "name": "大蒜",
+          "amount": "2瓣切碎",
+          "raw": "大蒜 2瓣切碎",
+          "evidence": "explicit"
+        },
+        {
+          "name": "青椒",
+          "amount": "4个",
+          "raw": "青椒 4个",
+          "evidence": "explicit"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "里脊肉切丝，青椒切丝，姜蒜切碎",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 2,
+          "instruction": "肉丝里加入3小勺淀粉",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 3,
+          "instruction": "再加入2勺生抽",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 4,
+          "instruction": "再加入1勺色拉油",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 5,
+          "instruction": "把肉丝搅拌均匀，腌制3-5分钟",
+          "duration": "3-5分钟",
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 6,
+          "instruction": "热锅加油，油热后放入姜蒜爆香",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 7,
+          "instruction": "再倒入肉丝快速翻炒，炒好后装碗备用",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 8,
+          "instruction": "再倒入青椒炒至入味，放少许盐",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 9,
+          "instruction": "最后倒入炒好的肉丝翻炒几下",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 10,
+          "instruction": "加入适量鸡精",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 11,
+          "instruction": "起锅装盘，一盘美味的家庭版青椒肉丝就出炉啦",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        }
+      ],
+      "technique": [
+        "3-5分钟"
+      ],
+      "tips": [
+        "肉丝炒好后一定要先装碗，不能直接倒入青椒炒，不然这样肉就不嫩了。"
+      ],
+      "rawExcerpt": "菜名：青椒肉丝\n简介：青椒肉丝的家常做法，食材简单步骤详细，食材 里脊肉怎么做好吃、淀粉怎么做好吃、色拉油怎么做好吃、生抽怎么做好吃、盐怎么做好吃、鸡精怎么做好吃、老姜怎么做好吃、大蒜怎么做好吃、青椒怎么做好吃 新手也能轻松学会。豆果美食有更多美食教程!\n原料：里脊肉 100g；淀粉 3小勺；色拉油 适量；生抽 2小勺；盐 1/2小勺；鸡精 适量；老姜 适量切碎；大蒜 2瓣切碎；青椒 4个\n步骤：1. 里脊肉切丝，青椒切丝，姜蒜切碎 2. 肉丝里加入3小勺淀粉 3. 再加入2勺生抽 4. 再加入1勺色拉油 5. 把肉丝搅拌均匀，腌制3-5分钟 6. 热锅加油，油热后放入姜蒜爆香 7. 再倒入肉丝快速翻炒，炒好后装碗备用 8. 再倒入青椒炒至入味，放少许盐 9. 最后倒入炒好的肉丝翻炒几下 10. 加入适量鸡精 11. 起锅装盘，一盘美味的家庭版青椒肉丝就出炉啦\n技法：3-5分钟\n提示：肉丝炒好后一定要先装碗，不能直接倒入青椒炒，不然这样肉就不嫩了。"
+    }
+  ],
+  "ragEvidence": [
+    {
+      "chunkId": "abe12ca4-5414-4fa4-8aa5-28530bb5e4c9",
+      "documentId": "e71b3fc9-b183-4aa0-80e6-a1ddc66b6782",
+      "sourceName": "The Woks of Life",
+      "chunkType": "summary",
+      "content": "菜名：青椒肉丝\n别名：Pork and Pepper Stir-fry、辣椒小炒肉、Pork & Pepper Stir-fry\n菜系：家常菜\n简介：This pork and pepper stir-fry recipe is a quick dish to put together with any cut of pork shoulder or pork loin (or even an odd pork chop).",
+      "similarity": 0.715706284430069
+    },
+    {
+      "chunkId": "dc0ec5a3-1945-4070-bf56-135c0bb3ce1d",
+      "documentId": "e71b3fc9-b183-4aa0-80e6-a1ddc66b6782",
+      "sourceName": "The Woks of Life",
+      "chunkType": "steps",
+      "content": "菜名：青椒肉丝\n1. In a bowl, combine the thin strips of pork, water, cornstarch, oil, Shaoxing wine, oyster sauce and light soy sauce. Mix well and set aside while you prepare the other ingredients.\n2. De-seed the peppers, and thinly slice them on a diagonal. Prepare your ginger and garlic.\n3. Heat your wok over high heat until smoking. Add 1 tablespoon of oil, and then add the pork. Stir-fry for 2-3 minutes, until the pork is lightly browned around the edges. Remove the pork from the wok and set aside.（2-3 minutes）【high heat】\n4. Over medium-high heat, add another tablespoon of oil, along with the ginger, garlic, and peppers, and fry for 30 seconds to 1 minute. The peppers should be beginning to blister from the heat, but control the heat to avoid burning the garlic! Add the Shaoxing wine to deglaze the wok. Stir for another 10 seconds.（30 seconds）【medium-high heat】\n5. Add the pork back to the wok along with the sugar and dark soy sauce. Stir-fry for another few seconds over high heat, and serve.【high heat】",
+      "similarity": 0.712188822757563
+    },
+    {
+      "chunkId": "58ad97dd-9d55-42a9-b1b5-e9d01b3ef4d5",
+      "documentId": "e71b3fc9-b183-4aa0-80e6-a1ddc66b6782",
+      "sourceName": "The Woks of Life",
+      "chunkType": "ingredients",
+      "content": "菜名：青椒肉丝\n- 8 ounces pork shoulder or loin ((cut into thin strips))\n- 1 tablespoon water\n- 1 teaspoon cornstarch\n- 2 teaspoons vegetable oil\n- 1 teaspoon Shaoxing wine\n- 1 teaspoon oyster sauce\n- 1 teaspoon light soy sauce\n- 6 long hot green peppers ((6 peppers = 10-12 ounces/280-340g))\n- 2 slices ginger\n- 3 cloves garlic ((thinly sliced))\n- 2 tablespoons vegetable oil\n- 1 tablespoon Shaoxing wine\n- 1/2 teaspoon sugar\n- 1/2 teaspoon dark soy sauce",
+      "similarity": 0.688140548689305
+    },
+    {
+      "chunkId": "ec106fff-8a43-44fb-89ec-ed171581fcb1",
+      "documentId": "35fd6395-88ff-4f98-8b01-237b0868ac19",
+      "sourceName": "豆果美食",
+      "chunkType": "tips",
+      "content": "菜名：青椒肉丝\n- 肉丝炒好后一定要先装碗，不能直接倒入青椒炒，不然这样肉就不嫩了。",
+      "similarity": 0.683802880787511
+    },
+    {
+      "chunkId": "75846919-1692-4c9c-a35d-05b54ec5d692",
+      "documentId": "e71b3fc9-b183-4aa0-80e6-a1ddc66b6782",
+      "sourceName": "The Woks of Life",
+      "chunkType": "tips",
+      "content": "菜名：青椒肉丝\n- If you’re concerned about spice level, substitute with cubanelle peppers, which are generally milder but have a similar sweetness and texture.\n- The peppers should be beginning to blister from the heat, but control the heat to avoid burning the garlic! Add the Shaoxing wine to deglaze the wok. Stir for another 10 seconds.\n- Looking for more authentic recipes? Subscribe to our email list and be sure to follow us on Pinterest , Facebook , Instagram , and Youtube!",
+      "similarity": 0.662633042021632
+    },
+    {
+      "chunkId": "c10a0f4e-86f5-43d7-a350-5379601fafbd",
+      "documentId": "35fd6395-88ff-4f98-8b01-237b0868ac19",
+      "sourceName": "豆果美食",
+      "chunkType": "steps",
+      "content": "菜名：青椒肉丝\n1. 里脊肉切丝，青椒切丝，姜蒜切碎\n2. 肉丝里加入3小勺淀粉\n3. 再加入2勺生抽\n4. 再加入1勺色拉油\n5. 把肉丝搅拌均匀，腌制3-5分钟（3-5分钟）\n6. 热锅加油，油热后放入姜蒜爆香\n7. 再倒入肉丝快速翻炒，炒好后装碗备用\n8. 再倒入青椒炒至入味，放少许盐\n9. 最后倒入炒好的肉丝翻炒几下\n10. 加入适量鸡精\n11. 起锅装盘，一盘美味的家庭版青椒肉丝就出炉啦",
+      "similarity": 0.657272737351334
+    },
+    {
+      "chunkId": "3a00c1fd-db4c-476f-9350-d8c90cfb6d2a",
+      "documentId": "35fd6395-88ff-4f98-8b01-237b0868ac19",
+      "sourceName": "豆果美食",
+      "chunkType": "summary",
+      "content": "菜名：青椒肉丝\n别名：青椒肉丝家庭版\n菜系：家常菜\n简介：青椒肉丝的家常做法，食材简单步骤详细，食材 里脊肉怎么做好吃、淀粉怎么做好吃、色拉油怎么做好吃、生抽怎么做好吃、盐怎么做好吃、鸡精怎么做好吃、老姜怎么做好吃、大蒜怎么做好吃、青椒怎么做好吃 新手也能轻松学会。豆果美食有更多美食教程!",
+      "similarity": 0.643760802409584
+    },
+    {
+      "chunkId": "aa5c3fba-30c8-4143-a85d-33fbd6ce7736",
+      "documentId": "e71b3fc9-b183-4aa0-80e6-a1ddc66b6782",
+      "sourceName": "The Woks of Life",
+      "chunkType": "technique",
+      "content": "菜名：青椒肉丝\n- 准备：15分钟\n- 烹饪：5分钟\n- 总用时：20分钟\n- 2-3 minutes\n- high heat\n- 30 seconds\n- medium-high heat\n- high heat",
+      "similarity": 0.642759961752901
+    },
+    {
+      "chunkId": "abe0d073-9340-4ae9-8d03-aa52f3ca251b",
+      "documentId": "35fd6395-88ff-4f98-8b01-237b0868ac19",
+      "sourceName": "豆果美食",
+      "chunkType": "ingredients",
+      "content": "菜名：青椒肉丝\n- 里脊肉 100g\n- 淀粉 3小勺\n- 色拉油 适量\n- 生抽 2小勺\n- 盐 1/2小勺\n- 鸡精 适量\n- 老姜 适量切碎\n- 大蒜 2瓣切碎\n- 青椒 4个",
+      "similarity": 0.627262875167985
+    },
+    {
+      "chunkId": "e391cfc1-cea6-4adb-9e67-98fe95f90d6b",
+      "documentId": "35fd6395-88ff-4f98-8b01-237b0868ac19",
+      "sourceName": "豆果美食",
+      "chunkType": "technique",
+      "content": "菜名：青椒肉丝\n- 3-5分钟\n- 3-5分钟",
+      "similarity": 0.617544595818712
+    }
+  ],
+  "notes": [
+    "RAG-first 检查：搜索开始前，Supabase 中 canonical_name=青椒肉丝、category=chinese 的实体为 0，recipe_name=青椒肉丝 的网站文档为 0，别名匹配也为 0。",
+    "The Woks of Life 搜索 URL：https://thewoksoflife.com/?s=pork+pepper+stir+fry（HTTP 200，搜索页直接定位 /pork-pepper-stir-fry/）；详情页 HTTP 200，完整读取 JSON-LD 与 HTML 正文。页面标题为 Pork and Pepper Stir-fry (辣椒小炒肉)，不是青椒肉丝的逐字标题，但主料和完整工艺确为猪肉切细条、绿色长椒切片、肉和椒分炒后回锅，故作为同一核心菜式的最接近完整来源接受。Pepper Steak 因使用牛肉、Chinese Tofu Sheet Stir-Fry 因加入千张作为主要食材而不接受。",
+    "豆果美食搜索 URL：https://m.douguo.com/caipu/%E9%9D%92%E6%A4%92%E8%82%89%E4%B8%9D（HTTP 200）；站内结果直接定位 https://www.douguo.com/cookbook/2428206.html，详情页 HTTP 200，标题青椒肉丝家庭版，HTML 原料、11 个步骤和小贴士均完整读取。未选 cookbook/1633594：虽也是完整青椒肉丝，但额外使用红椒、葱、料酒等；2428206 更接近仅以猪肉丝和青椒为主体的目标，且为本轮同站唯一入库详情页。",
+    "The Woks of Life 是候选主变体：14 条原料覆盖腌肉、两次用油和回锅调味；步骤明确高火预热至冒烟、肉炒 2-3 分钟至边缘微焦、椒炒 30 秒至 1 分钟至起泡、绍兴酒炝锅 10 秒、回锅高火数秒。原文未给独立腌制分钟数，仅说明拌匀后在准备其他原料时静置；页面总准备 15 分钟、烹饪 5 分钟、总计 20 分钟。",
+    "豆果来源保留两个原文内部差异：原料表写生抽 2小勺，而步骤写 2勺；原料表写色拉油适量，而步骤明确腌肉用 1勺，后续热锅加油未给量。不得把勺换算成毫升，也不得补造炒制火候、时长或成熟判断；该来源只明确腌制 3-5 分钟。",
+    "两来源共同路线是猪肉切丝/细条、淀粉腌制、肉先炒并盛出、青椒另炒、肉回锅。调味存在实质差异：Woks 使用水、绍兴酒、蚝油、生抽、糖和老抽，并指定 long hot green peppers；豆果使用生抽、盐和鸡精。Editor 必须选择一个完整主变体，另一来源只能补充不冲突的操作信息，不得混合调味路线。",
+    "Supabase ingestion：实体 92d3313b-49e6-482a-b628-f5a711a1edcd；The Woks of Life 文档 e71b3fc9-b183-4aa0-80e6-a1ddc66b6782、豆果美食文档 35fd6395-88ff-4f98-8b01-237b0868ac19。每份文档生成 5 个 chunks，均以 voyage-4、document input_type、1024 维 float 向量新入库。",
+    "精确 entity_id 限定后的 semantic retrieval 返回 10 个 chunks，The Woks of Life 与豆果美食各 5 个；hybrid retrieval 同样返回 10 个 chunks，两个来源各 5 个，来源多样性验证通过。"
+  ]
+}
