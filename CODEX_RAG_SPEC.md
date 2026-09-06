@@ -1,8 +1,8 @@
 # 烟火有谱：RAG + Codex 自动菜谱更新系统 Spec
 
-> 版本：v0.2  
-> 状态：Implementation Spec  
-> 目标仓库：`mayiwei442-bojack/yanhuo-youpu`  
+> 版本：v0.2
+> 状态：Implementation Spec
+> 目标仓库：`mayiwei442-bojack/yanhuo-youpu`
 > 本文档是 Codex 的实施依据。除非实现上存在明确阻塞，不要自行改变本文已经确定的架构决策。
 
 ---
@@ -13,10 +13,10 @@
 
 系统需要同时满足两个长期目标：
 
-1. **自动更新现有菜谱**  
+1. **自动更新现有菜谱**
    按既有菜谱清单逐道处理。Codex 定时启动后，自动选择下一道待更新菜品，在指定可信网站中主动搜索该菜品教程，抓取完整内容，沉淀到知识库，再由 Editor 生成新菜谱、Reviewer 验收，最后提交到 GitHub 自动化分支。
 
-2. **沉淀长期知识库**  
+2. **沉淀长期知识库**
    网站抓取内容不能只用于一次生成，必须格式化后长期写入 Supabase RAG 知识库。未来用户会继续提供 PDF / EPUB 等菜谱书，由 Codex 读取、结构化并写入同一知识库，为后续自然语言找菜、问菜、生成菜谱提供数据基础。
 
 未来需要支持这类查询：
@@ -1303,4 +1303,3 @@ Codex 应按以下顺序开发，不要一开始同时修改所有模块。
 本项目第一版被视为完成，当且仅当：
 
 > Codex Scheduled Task 可以在无人交互情况下启动一个新的父 Agent；父 Agent 从进度文件选择下一道菜，Researcher 在对应白名单网站中主动搜索并抓取资料、把资料写入 Supabase RAG；Editor 根据 evidence package 完整重写目标菜谱；非 AI Validator 与 Reviewer 分别通过程序校验和语义验收；最后自动重新生成 `data/recipes.js`、运行测试、写入日志和进度、提交并 push 到 `codex/recipe-automation`。同时，网站资料已长期沉淀为可追溯的 Document / Chunk / Embedding，未来书籍资料可以通过相同 ingestion pipeline 写入同一知识库。
-
