@@ -3,8 +3,8 @@
     {
       "id": "cn-001",
       "name": "番茄炒蛋",
-      "status": "pending",
-      "lastRunId": null,
+      "status": "in_progress",
+      "lastRunId": "2026-09-06-cn-001-b20a",
       "completedAt": null
     },
     {

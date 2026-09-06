@@ -17,39 +17,33 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "ingredient-02",
-        "name": "番茄",
-        "label": "番茄2个约400克",
+        "name": "中等大小番茄",
+        "label": "中等大小番茄2个",
         "isCore": true
       },
       {
         "id": "ingredient-03",
-        "name": "小葱",
-        "label": "小葱1根",
+        "name": "盐",
+        "label": "盐1克",
         "isCore": false
       },
       {
         "id": "ingredient-04",
-        "name": "盐",
-        "label": "盐3克",
+        "name": "糖",
+        "label": "糖2克",
         "isCore": false
       },
       {
         "id": "ingredient-05",
-        "name": "白糖",
-        "label": "白糖3克",
-        "isCore": false
-      },
-      {
-        "id": "ingredient-06",
         "name": "食用油",
-        "label": "食用油25毫升",
+        "label": "食用油适量",
         "isCore": false
       }
     ],
     "steps": [
       {
         "id": "step-01",
-        "instruction": "鸡蛋加少许盐打散，热锅多油炒至刚凝固后盛出。",
+        "instruction": "准备鸡蛋3个、中等大小番茄2个、盐1克、糖2克和适量食用油。",
         "duration": 180,
         "heat": "medium",
         "timerRequired": false,
@@ -59,7 +53,7 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "step-02",
-        "instruction": "原锅下番茄炒软出汁，加盐和糖。",
+        "instruction": "鸡蛋去壳后充分打散，番茄切成小块备用。",
         "duration": 180,
         "heat": "medium",
         "timerRequired": false,
@@ -69,19 +63,49 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "step-03",
-        "instruction": "倒回鸡蛋快速翻匀，撒葱花出锅。",
+        "instruction": "锅中倒入适量食用油，油热后倒入蛋液。",
         "duration": 180,
         "heat": "medium",
         "timerRequired": false,
         "ingredientsUsed": [],
-        "gameAction": "confirm",
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-04",
+        "instruction": "待鸡蛋稍稍凝固，将鸡蛋推到锅的一边，放入番茄块，翻炒均匀。",
+        "duration": 120,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-05",
+        "instruction": "加入2克糖，翻炒均匀后以大火收汁。",
+        "duration": 120,
+        "heat": "high",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-06",
+        "instruction": "关火，加入1克盐翻炒均匀，装盘。",
+        "duration": 120,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
         "safetyNote": ""
       }
     ],
     "imageThumb": "assets/dishes/thumbnails/01-fanqie-chaodan.jpg",
     "imageFull": "assets/dishes/ai/01-fanqie-chaodan.png",
     "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
-    "time": 35,
+    "time": 55,
     "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [
