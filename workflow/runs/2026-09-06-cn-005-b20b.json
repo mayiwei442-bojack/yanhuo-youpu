@@ -3,9 +3,9 @@
   "recipeId": "cn-005",
   "recipeName": "青椒肉丝",
   "category": "chinese",
-  "status": "in_progress",
+  "status": "done",
   "startedAt": "2026-09-06T11:11:54.003Z",
-  "completedAt": null,
+  "completedAt": "2026-09-06T12:25:42.763Z",
   "steps": {
     "research": { "status": "done", "attempts": 1, "startedAt": "2026-09-06T11:11:54.003Z", "completedAt": "2026-09-06T11:21:33.918Z", "details": { "evidence": "workflow/evidence/cn-005-qingjiao-pork.json", "evidenceHash": "6f82d007759e08bb4846816501e9d945ca173c50979aec321f5f3eac80828e39", "independentSources": 2, "semanticResults": 10, "hybridResults": 10 } },
     "ingestion": { "status": "done", "attempts": 1, "startedAt": "2026-09-06T11:11:54.003Z", "completedAt": "2026-09-06T11:21:33.918Z", "details": { "documents": 2, "chunks": 10, "embeddingModel": "voyage-4", "embeddingDimension": 1024, "databaseWrites": 12 } },
@@ -13,7 +13,7 @@
     "validator": { "status": "done", "attempts": 2, "startedAt": "2026-09-06T11:24:04.047Z", "completedAt": "2026-09-06T11:29:01.432Z", "details": { "status": "PASS", "ingredientCount": 14, "stepCount": 5, "targetOnly": true, "commands": ["node tools/build_html_demo_data.mjs", "node tools/test_html_demo.mjs", "node tools/build_vercel_output.mjs"] } },
     "review": { "status": "done", "attempts": 2, "startedAt": "2026-09-06T11:24:44.956Z", "completedAt": "2026-09-06T12:24:07.880Z", "details": { "status": "PASS", "result": "workflow/reviews/cn-005-qingjiao-pork.json", "resolvedIssues": ["oil division wording", "unsupported 熟透 cue"] } },
     "build": { "status": "done", "attempts": 1, "startedAt": "2026-09-06T12:24:07.880Z", "completedAt": "2026-09-06T12:25:04.602Z", "details": { "status": "PASS", "command": "npm run test:workflow:deterministic", "note": "Historical evidence line endings were normalized only during hash-sensitive verification and restored unchanged." } },
-    "gitPush": { "status": "in_progress", "attempts": 1, "startedAt": "2026-09-06T12:25:04.602Z", "completedAt": null }
+    "gitPush": { "status": "done", "attempts": 1, "startedAt": "2026-09-06T12:25:04.602Z", "completedAt": "2026-09-06T12:25:42.763Z", "details": { "remote": "origin", "branch": "codex/recipe-automation", "commit": "29cbf698e526474321aa1c04578b5a3260b986f4" } }
   },
   "sources": [
     { "name": "The Woks of Life", "url": "https://thewoksoflife.com/pork-pepper-stir-fry/", "status": "success", "failureReason": null },
@@ -21,5 +21,5 @@
   ],
   "errors": [],
   "branch": "codex/recipe-automation",
-  "commit": null
+  "commit": "29cbf698e526474321aa1c04578b5a3260b986f4"
 }
