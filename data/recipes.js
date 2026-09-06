@@ -919,57 +919,71 @@ window.YANHUO_RECIPES = [
     "ingredients": [
       {
         "id": "ingredient-01",
-        "name": "猪里脊",
-        "label": "猪里脊350克",
+        "name": "里脊肉",
+        "label": "里脊肉200克",
         "isCore": true
       },
       {
         "id": "ingredient-02",
-        "name": "鸡蛋",
-        "label": "鸡蛋1个",
-        "isCore": true
+        "name": "腌料：盐、白胡椒粉、料酒",
+        "label": "腌料：盐少许、白胡椒粉少许、料酒1勺、鸡蛋1个、淀粉1勺",
+        "isCore": false
       },
       {
         "id": "ingredient-03",
-        "name": "淀粉",
-        "label": "淀粉80克",
+        "name": "玉米淀粉（裹里脊肉）",
+        "label": "玉米淀粉适量（裹里脊肉）",
         "isCore": false
       },
       {
         "id": "ingredient-04",
-        "name": "番茄酱",
-        "label": "番茄酱45克",
-        "isCore": true
+        "name": "糖醋汁：清水",
+        "label": "糖醋汁：清水3勺、白醋2勺、生抽1勺、番茄酱4勺、白糖2勺、淀粉1勺",
+        "isCore": false
       },
       {
         "id": "ingredient-05",
-        "name": "白醋",
-        "label": "白醋25毫升",
+        "name": "食用油（炸制并留少量底油煮糖醋汁）",
+        "label": "食用油适量（炸制并留少量底油煮糖醋汁）",
         "isCore": false
       },
       {
         "id": "ingredient-06",
-        "name": "糖",
-        "label": "糖35克",
-        "isCore": false
+        "name": "白芝麻",
+        "label": "白芝麻适量",
+        "isCore": true
       },
       {
         "id": "ingredient-07",
-        "name": "盐",
-        "label": "盐2克",
-        "isCore": false
-      },
-      {
-        "id": "ingredient-08",
-        "name": "白芝麻",
-        "label": "白芝麻适量",
-        "isCore": false
+        "name": "佐餐米饭一碗",
+        "label": "佐餐米饭一碗",
+        "isCore": true
       }
     ],
     "steps": [
       {
         "id": "step-01",
-        "instruction": "里脊切条，加盐和蛋液，裹淀粉。",
+        "instruction": "将200克里脊肉切成条，加入少许盐、少许白胡椒粉、1勺料酒、1个鸡蛋和1勺淀粉，搅拌均匀后腌制半小时。",
+        "duration": 180,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-02",
+        "instruction": "另取一碗，加入3勺清水、2勺白醋、1勺生抽、4勺番茄酱、2勺白糖和1勺淀粉，搅匀成糖醋汁备用。",
+        "duration": 180,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-03",
+        "instruction": "将腌好的里脊条逐条裹上适量玉米淀粉。",
         "duration": 180,
         "heat": "medium",
         "timerRequired": false,
@@ -978,9 +992,19 @@ window.YANHUO_RECIPES = [
         "safetyNote": ""
       },
       {
-        "id": "step-02",
-        "instruction": "六成热油炸熟，升温复炸至脆。",
-        "duration": 180,
+        "id": "step-04",
+        "instruction": "锅中放入适量食用油烧热；原方未说明具体油温或初炸火力。下入里脊条炸4分钟后捞出。",
+        "duration": 240,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "注意热油飞溅"
+      },
+      {
+        "id": "step-05",
+        "instruction": "将炸过的里脊条倒回原锅复炸1分钟，再捞出。",
+        "duration": 60,
         "heat": "medium",
         "timerRequired": false,
         "ingredientsUsed": [],
@@ -988,30 +1012,41 @@ window.YANHUO_RECIPES = [
         "safetyNote": "注意热油飞溅"
       },
       {
-        "id": "step-03",
-        "instruction": "锅中熬匀番茄酱、糖、醋和少量水，倒入里脊快速挂汁。",
+        "id": "step-06",
+        "instruction": "锅中留少量底油，倒入调好的糖醋汁，烧至冒泡后转小火。",
         "duration": 180,
-        "heat": "medium",
+        "heat": "low",
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "add",
         "safetyNote": ""
+      },
+      {
+        "id": "step-07",
+        "instruction": "倒入复炸好的里脊条，以小火快速翻炒，使每条肉都均匀裹上糖醋汁；装盘后撒适量白芝麻，配一碗米饭食用。",
+        "duration": 120,
+        "heat": "low",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "注意热油飞溅"
       }
     ],
     "imageThumb": "assets/dishes/thumbnails/07-tangcu-liji.jpg",
     "imageFull": "assets/dishes/ai/07-tangcu-liji.png",
     "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
-    "time": 35,
+    "time": 15,
     "difficulty": "进阶",
     "defaultServings": 2,
     "allergens": [
       "egg",
+      "soy",
       "sesame"
     ],
     "flags": {
-      "containsPork": true,
+      "containsPork": false,
       "containsBeef": false,
-      "containsAlcohol": false,
+      "containsAlcohol": true,
       "spicy": false,
       "vegetarian": false
     },

@@ -45,8 +45,8 @@
     {
       "id": "cn-007",
       "name": "糖醋里脊",
-      "status": "pending",
-      "lastRunId": null,
+      "status": "in_progress",
+      "lastRunId": "2026-09-06-cn-007-b20c",
       "completedAt": null
     },
     {
