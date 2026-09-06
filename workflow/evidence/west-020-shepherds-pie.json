@@ -1,0 +1,401 @@
+{
+  "recipeId": "west-020",
+  "recipeName": "牧羊人派",
+  "category": "western",
+  "createdAt": "2026-08-30T14:37:16.591Z",
+  "sources": [
+    {
+      "sourceName": "BBC Good Food",
+      "sourceType": "website",
+      "url": "https://www.bbcgoodfood.com/recipes/no-fuss-shepherds-pie",
+      "documentId": "cb283a82-14fe-499e-92fc-88467912f1be",
+      "retrievalMethod": "JSON-LD + HTML正文",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "sunflower oil",
+          "amount": "1 tbsp",
+          "raw": "1 tbsp sunflower oil"
+        },
+        {
+          "name": "large onion chopped",
+          "amount": "1",
+          "raw": "1 large onion chopped"
+        },
+        {
+          "name": "medium carrots chopped",
+          "amount": "2-3",
+          "raw": "2-3 medium carrots chopped"
+        },
+        {
+          "name": "pack lamb mince",
+          "amount": "500g",
+          "raw": "500g pack lamb mince"
+        },
+        {
+          "name": "tomato purée",
+          "amount": "2 tbsp",
+          "raw": "2 tbsp tomato purée"
+        },
+        {
+          "name": "large splash Worcestershire sauce",
+          "amount": null,
+          "raw": "large splash Worcestershire sauce"
+        },
+        {
+          "name": "beef stock",
+          "amount": "500ml",
+          "raw": "500ml beef stock"
+        },
+        {
+          "name": "potatoes cut into chunks",
+          "amount": "900g",
+          "raw": "900g potatoes cut into chunks"
+        },
+        {
+          "name": "butter",
+          "amount": "85g",
+          "raw": "85g butter"
+        },
+        {
+          "name": "milk",
+          "amount": "3 tbsp",
+          "raw": "3 tbsp milk"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Heat 1 tbsp sunflower oil in a medium saucepan, then soften 1 chopped onion and 2-3 chopped carrots for a few mins.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "When soft, turn up the heat, crumble in 500g lamb mince and brown, tipping off any excess fat.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "Add 2 tbsp tomato purée and a large splash of Worcestershire sauce, then fry for a few mins.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "Pour over 500ml beef stock, bring to a simmer, then cover and cook for 40 mins, uncovering halfway.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 5,
+          "instruction": "Meanwhile, heat the oven to 180C/fan 160C/gas 4, then make the mash. Boil the 900g potato, cut into chunks, in salted water for 10-15 mins until tender. Drain, then mash with 85g butter and 3 tbsp milk.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 6,
+          "instruction": "Put the mince into an ovenproof dish, top with the mash and ruffle with a fork. The pie can now be chilled and frozen for up to a month.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 7,
+          "instruction": "Bake for 20-25 mins until the top is starting to colour and the mince is bubbling through at the edges. (To bake from frozen, cook at 160C/fan 140C/gas 3 for 1 hr-1 hr 20 mins until piping hot in the centre. Flash under the grill to brown, if you like.)",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 8,
+          "instruction": "Leave to stand for 5 mins before serving.",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [
+        "准备：15分钟",
+        "烹饪：60分钟",
+        "总用时：75分钟"
+      ],
+      "tips": [],
+      "rawExcerpt": "No-fuss shepherd's pie recipe | Good Food Skip to main content Subscribe Sustainability Good Food Shows Download our app Newsletters Recipes Back to Main menu New and trending Back to Recipes School lunch ideas Crumble recipes Sausage pastas Quick family dinners Newsletter recipes Back to Recipes Fast midweek meals Batch cooking ideas Sign up today WhatsApp feed What to cook Back to Recipes Quick and easy Everyday recipes Family recipes One-pots Slow cooker recipes Traybakes Air fryer recipes Batch cooking All inspiration Occasion recipes Meal type Back to Recipes Breakfast Lunch Dinner Browse"
+    },
+    {
+      "sourceName": "Serious Eats",
+      "sourceType": "website",
+      "url": "https://www.seriouseats.com/shepherds-pie-beef-lamb-recipe",
+      "documentId": "1f2ef371-7676-47d9-b872-98dff43a9652",
+      "retrievalMethod": "公开网页正文（web reader；fetchHtml 直连失败）",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "russet potatoes",
+          "amount": "3 1/2 pounds (1.6 kg)",
+          "raw": "3 1/2 pounds (1.6 kg) russet potatoes, peeled and cubed"
+        },
+        {
+          "name": "Kosher salt",
+          "amount": null,
+          "raw": "Kosher salt"
+        },
+        {
+          "name": "unsalted butter",
+          "amount": "6 tablespoons (85 g)",
+          "raw": "6 tablespoons (85 g) unsalted butter, cubed"
+        },
+        {
+          "name": "low-sodium chicken stock",
+          "amount": "1 1/2 cups (360 ml)",
+          "raw": "1 1/2 cups (360 ml) low-sodium chicken stock"
+        },
+        {
+          "name": "unflavored gelatin",
+          "amount": "2 packets (14 g)",
+          "raw": "2 packets unflavored gelatin (about 14 g)"
+        },
+        {
+          "name": "vegetable oil",
+          "amount": "2 tablespoons (30 ml)",
+          "raw": "2 tablespoons (30 ml) vegetable oil"
+        },
+        {
+          "name": "ground lamb",
+          "amount": "2 1/2 pounds (1 kg)",
+          "raw": "2 1/2 pounds (1 kg) ground lamb (the source also permits beef or a combination)"
+        },
+        {
+          "name": "yellow onion",
+          "amount": "1 large (400 g)",
+          "raw": "1 large yellow onion (400 g), diced"
+        },
+        {
+          "name": "carrots",
+          "amount": "3 medium (225 g)",
+          "raw": "3 medium carrots (225 g), diced"
+        },
+        {
+          "name": "celery",
+          "amount": "2 ribs (110 g)",
+          "raw": "2 ribs celery (110 g), diced"
+        },
+        {
+          "name": "garlic",
+          "amount": "2 cloves",
+          "raw": "2 medium cloves garlic, minced"
+        },
+        {
+          "name": "tomato paste",
+          "amount": "2 tablespoons (30 ml)",
+          "raw": "2 tablespoons (30 ml) tomato paste"
+        },
+        {
+          "name": "dry red wine",
+          "amount": "1 cup (240 ml)",
+          "raw": "1 cup (240 ml) dry red wine"
+        },
+        {
+          "name": "thyme",
+          "amount": "2 sprigs",
+          "raw": "2 sprigs thyme"
+        },
+        {
+          "name": "bay leaf",
+          "amount": "1",
+          "raw": "1 bay leaf"
+        },
+        {
+          "name": "Worcestershire sauce",
+          "amount": "1 tablespoon (15 ml)",
+          "raw": "1 tablespoon (15 ml) Worcestershire sauce"
+        },
+        {
+          "name": "Marmite",
+          "amount": "1 teaspoon (optional)",
+          "raw": "1 teaspoon (5 ml) Marmite, optional"
+        },
+        {
+          "name": "all-purpose flour",
+          "amount": "2 tablespoons (15 g)",
+          "raw": "2 tablespoons (15 g) all-purpose flour"
+        },
+        {
+          "name": "frozen peas",
+          "amount": "8 ounces (225 g)",
+          "raw": "8 ounces (225 g) frozen peas"
+        },
+        {
+          "name": "black pepper",
+          "amount": null,
+          "raw": "Freshly ground black pepper"
+        },
+        {
+          "name": "heavy cream",
+          "amount": "1 1/2 cups (360 ml)",
+          "raw": "1 1/2 cups (360 ml) heavy cream"
+        },
+        {
+          "name": "Parmigiano-Reggiano",
+          "amount": null,
+          "raw": "Grated Parmigiano-Reggiano for topping, optional"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Rinse the cubed potatoes until the water runs clear, cover with cold salted water, simmer until tender, then drain and rinse with hot water.",
+          "duration": "10 to 15 minutes",
+          "heat": "medium-low heat"
+        },
+        {
+          "order": 2,
+          "instruction": "Mash the potatoes with butter, smooth the surface and cover directly to prevent a skin from forming.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "Sprinkle gelatin over the chicken stock and set aside.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "Brown half the lamb in hot oil, add the remaining lamb and break it into small bits, then remove excess fat and add onion, carrots, celery and garlic until they begin to soften.",
+          "duration": "about 13 to 15 minutes total",
+          "heat": "high heat"
+        },
+        {
+          "order": 5,
+          "instruction": "Cook tomato paste for 1 minute, add red wine and reduce almost fully; add stock, thyme, bay, Worcestershire and optional Marmite, stir in flour and simmer until thick. Remove herbs, stir in peas and season.",
+          "duration": "about 20 minutes",
+          "heat": "low heat"
+        },
+        {
+          "order": 6,
+          "instruction": "Heat the oven to 425°F (220°C). Simmer the cream, fold it into the mashed potatoes and season.",
+          "duration": null,
+          "heat": "425°F / 220°C"
+        },
+        {
+          "order": 7,
+          "instruction": "Place the meat sauce in a 9-by-13-inch baking dish, cover completely with mashed potatoes, texture the top and add Parmesan if desired.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 8,
+          "instruction": "Bake until browned and fully heated; optionally broil briefly for deeper color, then rest before serving.",
+          "duration": "20 minutes baking plus 15 to 20 minutes resting",
+          "heat": "425°F / 220°C"
+        }
+      ],
+      "technique": [
+        "Rinse potatoes before and after simmering to reduce surface starch and avoid gummy mash.",
+        "Brown only half the meat deeply, adding the other half later to preserve tenderness.",
+        "Reduce red wine before adding the gelatin-enriched stock, then thicken with flour."
+      ],
+      "tips": [
+        "Use lamb for the traditional shepherd’s pie version; the source also permits beef or a mixture.",
+        "Do not fill the baking dish more than halfway with meat sauce to limit spillover.",
+        "Rest the baked pie 15 to 20 minutes so the filling thickens slightly."
+      ],
+      "rawExcerpt": "Classic, Savory Shepherd's Pie (With Beef and/or Lamb). The source explicitly allows lamb; this record selects lamb. Ingredients include potatoes, butter, stock, gelatin, ground lamb, aromatics, tomato paste, red wine, herbs, Worcestershire, flour, peas, cream and optional Parmesan. Directions: rinse and mash potatoes; bloom gelatin; brown lamb; build and reduce the sauce; add peas; finish mash with cream; assemble; bake and rest."
+    }
+  ],
+  "ragEvidence": [
+    {
+      "chunkId": "9d03c3bf-1b9f-419d-83a3-047282bf8eca",
+      "documentId": "cb283a82-14fe-499e-92fc-88467912f1be",
+      "sourceName": "BBC Good Food",
+      "chunkType": "ingredients",
+      "content": "菜名：牧羊人派\n- 1 tbsp sunflower oil\n- 1 large onion chopped\n- 2-3 medium carrots chopped\n- 500g pack lamb mince\n- 2 tbsp tomato purée\n- large splash Worcestershire sauce\n- 500ml beef stock\n- 900g potatoes cut into chunks\n- 85g butter\n- 3 tbsp milk",
+      "similarity": null
+    },
+    {
+      "chunkId": "33fdb2b4-f5e7-45ac-8a1a-4d31f9cac242",
+      "documentId": "cb283a82-14fe-499e-92fc-88467912f1be",
+      "sourceName": "BBC Good Food",
+      "chunkType": "steps",
+      "content": "菜名：牧羊人派\n1. Heat 1 tbsp sunflower oil in a medium saucepan, then soften 1 chopped onion and 2-3 chopped carrots for a few mins.\n2. When soft, turn up the heat, crumble in 500g lamb mince and brown, tipping off any excess fat.\n3. Add 2 tbsp tomato purée and a large splash of Worcestershire sauce, then fry for a few mins.\n4. Pour over 500ml beef stock, bring to a simmer, then cover and cook for 40 mins, uncovering halfway.\n5. Meanwhile, heat the oven to 180C/fan 160C/gas 4, then make the mash. Boil the 900g potato, cut into chunks, in salted water for 10-15 mins until tender. Drain, then mash with 85g butter and 3 tbsp milk.\n6. Put the mince into an ovenproof dish, top with the mash and ruffle with a fork. The pie can now be chilled and frozen for up to a month.\n7. Bake for 20-25 mins until the top is starting to colour and the mince is bubbling through at the edges. (To bake from frozen, cook at 160C/fan 140C/gas 3 for 1 hr-1 hr 20 mins until piping hot in the centre. Flash under the grill to brown, if you like.)\n8. Leave to stand for 5 mins before serving.",
+      "similarity": null
+    },
+    {
+      "chunkId": "fdba826a-c14a-4c19-b01f-6698b5847790",
+      "documentId": "cb283a82-14fe-499e-92fc-88467912f1be",
+      "sourceName": "BBC Good Food",
+      "chunkType": "summary",
+      "content": "菜名：牧羊人派\n别名：No-fuss shepherd's pie\n菜系：家常菜\n简介：A classic comfort food favourite, this shepherd's pie sees succulent lamb mince and veg topped with a fluffy layer of mashed potato",
+      "similarity": null
+    },
+    {
+      "chunkId": "629d7b13-f234-47e5-9cf9-f43c1690e865",
+      "documentId": "cb283a82-14fe-499e-92fc-88467912f1be",
+      "sourceName": "BBC Good Food",
+      "chunkType": "technique",
+      "content": "菜名：牧羊人派\n- 准备：15分钟\n- 烹饪：60分钟\n- 总用时：75分钟",
+      "similarity": null
+    },
+    {
+      "chunkId": "0e64c967-df51-4a9d-8432-13f7fae6240b",
+      "documentId": "cb283a82-14fe-499e-92fc-88467912f1be",
+      "sourceName": "BBC Good Food",
+      "chunkType": "tips",
+      "content": "菜名：牧羊人派\n- 原文未提供额外提示。",
+      "similarity": null
+    },
+    {
+      "chunkId": "1829770a-c28f-416e-9bdd-52275e4f3fd3",
+      "documentId": "1f2ef371-7676-47d9-b872-98dff43a9652",
+      "sourceName": "Serious Eats",
+      "chunkType": "ingredients",
+      "content": "菜名：牧羊人派\n- 3 1/2 pounds (1.6 kg) russet potatoes, peeled and cubed\n- Kosher salt\n- 6 tablespoons (85 g) unsalted butter, cubed\n- 1 1/2 cups (360 ml) low-sodium chicken stock\n- 2 packets unflavored gelatin (about 14 g)\n- 2 tablespoons (30 ml) vegetable oil\n- 2 1/2 pounds (1 kg) ground lamb (the source also permits beef or a combination)\n- 1 large yellow onion (400 g), diced\n- 3 medium carrots (225 g), diced\n- 2 ribs celery (110 g), diced\n- 2 medium cloves garlic, minced\n- 2 tablespoons (30 ml) tomato paste\n- 1 cup (240 ml) dry red wine\n- 2 sprigs thyme\n- 1 bay leaf\n- 1 tablespoon (15 ml) Worcestershire sauce\n- 1 teaspoon (5 ml) Marmite, optional\n- 2 tablespoons (15 g) all-purpose flour\n- 8 ounces (225 g) frozen peas\n- Freshly ground black pepper\n- 1 1/2 cups (360 ml) heavy cream\n- Grated Parmigiano-Reggiano for topping, optional",
+      "similarity": null
+    },
+    {
+      "chunkId": "8d422de4-70f9-4ba9-a845-fffefce8db01",
+      "documentId": "1f2ef371-7676-47d9-b872-98dff43a9652",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：牧羊人派\n1. Rinse the cubed potatoes until the water runs clear, cover with cold salted water, simmer until tender, then drain and rinse with hot water.（10 to 15 minutes）【medium-low heat】\n2. Mash the potatoes with butter, smooth the surface and cover directly to prevent a skin from forming.\n3. Sprinkle gelatin over the chicken stock and set aside.\n4. Brown half the lamb in hot oil, add the remaining lamb and break it into small bits, then remove excess fat and add onion, carrots, celery and garlic until they begin to soften.（about 13 to 15 minutes total）【high heat】\n5. Cook tomato paste for 1 minute, add red wine and reduce almost fully; add stock, thyme, bay, Worcestershire and optional Marmite, stir in flour and simmer until thick. Remove herbs, stir in peas and season.（about 20 minutes）【low heat】\n6. Heat the oven to 425°F (220°C). Simmer the cream, fold it into the mashed potatoes and season.【425°F / 220°C】\n7. Place the meat sauce in a 9-by-13-inch baking dish, cover completely with mashed potatoes, texture the top and add Parmesan if desired.",
+      "similarity": null
+    },
+    {
+      "chunkId": "46e63d45-4df4-4c5b-a441-afa9fe5844c6",
+      "documentId": "1f2ef371-7676-47d9-b872-98dff43a9652",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：牧羊人派\n8. Bake until browned and fully heated; optionally broil briefly for deeper color, then rest before serving.（20 minutes baking plus 15 to 20 minutes resting）【425°F / 220°C】",
+      "similarity": null
+    },
+    {
+      "chunkId": "cc02cb8b-f417-49b9-baad-80426abf8df9",
+      "documentId": "1f2ef371-7676-47d9-b872-98dff43a9652",
+      "sourceName": "Serious Eats",
+      "chunkType": "summary",
+      "content": "菜名：牧羊人派\n别名：Classic, Savory Shepherd's Pie (With Beef and/or Lamb)、Shepherd's Pie\n菜系：英国\n简介：A classic mashed-potato-topped meat and vegetable casserole. The source explicitly permits lamb, beef or a combination; this normalized record selects its traditional lamb branch for the canonical shepherd’s pie target.",
+      "similarity": null
+    },
+    {
+      "chunkId": "5d32d50e-13b4-4b30-8694-8bf5eba9b9d0",
+      "documentId": "1f2ef371-7676-47d9-b872-98dff43a9652",
+      "sourceName": "Serious Eats",
+      "chunkType": "technique",
+      "content": "菜名：牧羊人派\n- Rinse potatoes before and after simmering to reduce surface starch and avoid gummy mash.\n- Brown only half the meat deeply, adding the other half later to preserve tenderness.\n- Reduce red wine before adding the gelatin-enriched stock, then thicken with flour.\n- 10 to 15 minutes\n- medium-low heat\n- about 13 to 15 minutes total\n- high heat\n- about 20 minutes\n- low heat\n- 425°F / 220°C\n- 20 minutes baking plus 15 to 20 minutes resting\n- 425°F / 220°C",
+      "similarity": null
+    },
+    {
+      "chunkId": "dcb7a199-1182-4942-8f01-bd1e0d66a2f2",
+      "documentId": "1f2ef371-7676-47d9-b872-98dff43a9652",
+      "sourceName": "Serious Eats",
+      "chunkType": "tips",
+      "content": "菜名：牧羊人派\n- Use lamb for the traditional shepherd’s pie version; the source also permits beef or a mixture.\n- Do not fill the baking dish more than halfway with meat sauce to limit spillover.\n- Rest the baked pie 15 to 20 minutes so the filling thickens slightly.",
+      "similarity": null
+    }
+  ],
+  "notes": [
+    "精确 RAG 实体：93d9b104-e908-4c11-b32a-cab88826ebb0；本文件直接复用已入库 normalized_json、raw_text 与 chunks。",
+    "两个独立完整来源均来自 workflow/source-config.json 中启用的西餐网站。",
+    "本次生成未重新浏览网站，也未调用独立聊天模型 API。"
+  ]
+}

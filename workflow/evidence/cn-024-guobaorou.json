@@ -1,0 +1,355 @@
+{
+  "recipeId": "cn-024",
+  "recipeName": "锅包肉",
+  "category": "chinese",
+  "createdAt": "2026-08-29T18:47:07.127Z",
+  "sources": [
+    {
+      "sourceName": "贝太厨房:从小爱吃的菜2",
+      "sourceType": "book",
+      "url": null,
+      "documentId": "36eb5007-72ce-4284-8cca-a4c056e0dcef",
+      "retrievalMethod": "EPUB XHTML section",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "猪里脊肉",
+          "amount": "300g",
+          "raw": "猪里脊肉 300g"
+        },
+        {
+          "name": "葱",
+          "amount": "80g",
+          "raw": "葱 80g"
+        },
+        {
+          "name": "姜",
+          "amount": "10g",
+          "raw": "姜 10g"
+        },
+        {
+          "name": "香菜",
+          "amount": "50g",
+          "raw": "香菜 50g"
+        },
+        {
+          "name": "胡萝卜",
+          "amount": "100g",
+          "raw": "胡萝卜 100g"
+        },
+        {
+          "name": "白糖",
+          "amount": "15g",
+          "raw": "白糖 15g"
+        },
+        {
+          "name": "白醋",
+          "amount": "3ml",
+          "raw": "白醋 3ml"
+        },
+        {
+          "name": "生抽",
+          "amount": "5ml",
+          "raw": "生抽 5ml"
+        },
+        {
+          "name": "盐",
+          "amount": "5g",
+          "raw": "盐 5g"
+        },
+        {
+          "name": "水淀粉",
+          "amount": "20ml",
+          "raw": "水淀粉 20ml"
+        },
+        {
+          "name": "鸡蛋",
+          "amount": "1个",
+          "raw": "鸡蛋 1个"
+        },
+        {
+          "name": "油",
+          "amount": "400ml",
+          "raw": "油 400ml"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "猪里脊肉切大片，厚约2～3mm，不能太薄，太薄就炸干了。把葱、姜、香菜、胡萝卜切丝，白糖、白醋、生抽、盐混合调成味汁。（图2、3）",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "水淀粉加少许蛋清和水调成适当稠度的面糊，把肉片全部蘸上面糊。（图4）",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "锅中油5～6成热时，一片片下入裹好面糊的肉片，中火炸熟之后捞出来。（图5）",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "将火调至大火，一次放入炸过的肉片，快速炸至焦脆捞出来沥干油。",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 5,
+          "instruction": "锅中留少许底油，大火烧热后放入葱、姜、香菜、胡萝卜丝翻炒均匀。这时再放入炸好的肉片翻炒均匀，淋入调汁，快速翻炒出锅即可。（图6）",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [
+        "准备：20分钟",
+        "烹饪：20分钟"
+      ],
+      "tips": [
+        "锅包肉成功与否的秘诀就在于挂糊，在调制面糊的过程中一定要注意水的分量。以肉片很容易均匀地裹上一层面糊、但又不是太厚为准。"
+      ],
+      "rawExcerpt": "锅包肉\n\r\n\r\n准备：20分钟　 \r\n烹饪：20分钟\n\r\n一般的东北菜给人的印象就是分量大、口味咸鲜，而这道锅包肉却是酸甜口味的。原来这道菜是哈尔滨道台府菜的创始人郑兴文当年为了适应外宾的口味而把“焦烧肉块”改成了酸甜口味。\n\r\n用料：\n\r\n猪里脊肉　　300g\n\r\n葱　　　　　80g\n\r\n姜　　　　　10g\n\r\n香菜　　　　50g\n\r\n胡萝卜　　　100g\n\r\n白糖　　　　15g\n\r\n白醋　　　　3ml\n\r\n生抽　　　　5ml\n\r\n盐　　　　　5g\n\r\n水淀粉　　　20ml\n\r\n鸡蛋　　　　1个\n\r\n油　　　　　400ml\n\r\n　　　　　　（实耗40ml）\n\r\n做法：\n\r\n1.猪里脊肉切大片，厚约2～3mm，不能太薄，太薄就炸干了。把葱、姜、香菜、胡萝卜切丝，白糖、白醋、生抽、盐混合调成味汁。（图2、3）\n\r\n2.水淀粉加少许蛋清和水调成适当稠度的面糊，把肉片全部蘸上面糊。（图4）\n\r\n3.锅中油5～6成热时，一片片下入裹好面糊的肉片，中火炸熟之后捞出来。（图5）\n\r\n4.将火调至大火，一次放入炸过的肉片，快速炸至焦脆捞出来沥干油。\n\r\n5.锅中留少许底油，大火烧热后放入葱、姜、香菜、胡萝卜丝翻炒均匀。这时再放入炸好的肉片翻炒均匀，淋入调汁，快速翻炒出锅即可。（图6）\n\r\n家传小诀窍：\n\r\n锅包肉成功与否的秘诀就在于挂糊，在调制面糊的过程中一定要注意水的分量。以肉片很容易均匀地裹",
+      "bookTitle": "贝太厨房:从小爱吃的菜2",
+      "pageStart": null,
+      "pageEnd": null,
+      "location": "text00035.html#subid21"
+    },
+    {
+      "sourceName": "豆果美食",
+      "sourceType": "website",
+      "url": "https://www.douguo.com/cookbook/1489279.html",
+      "documentId": "6fb6ec9e-408e-470e-88fc-2752da48c6f3",
+      "retrievalMethod": "HTML正文",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "里脊肉",
+          "amount": "500g",
+          "raw": "里脊肉 500g"
+        },
+        {
+          "name": "胡萝卜",
+          "amount": "5g",
+          "raw": "胡萝卜 5g"
+        },
+        {
+          "name": "葱姜蒜",
+          "amount": "适量",
+          "raw": "葱姜蒜 适量"
+        },
+        {
+          "name": "香菜",
+          "amount": "3g",
+          "raw": "香菜 3g"
+        },
+        {
+          "name": "淀粉",
+          "amount": "300g",
+          "raw": "淀粉 300g"
+        },
+        {
+          "name": "盐",
+          "amount": "4g",
+          "raw": "盐 4g"
+        },
+        {
+          "name": "白醋",
+          "amount": "10ml",
+          "raw": "白醋 10ml"
+        },
+        {
+          "name": "水",
+          "amount": "适量",
+          "raw": "水 适量"
+        },
+        {
+          "name": "白糖",
+          "amount": "30g",
+          "raw": "白糖 30g"
+        },
+        {
+          "name": "鸡精",
+          "amount": "2g",
+          "raw": "鸡精 2g"
+        },
+        {
+          "name": "酱油",
+          "amount": "3ml",
+          "raw": "酱油 3ml"
+        },
+        {
+          "name": "番茄酱",
+          "amount": "20g",
+          "raw": "番茄酱 20g"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "大块里脊肉切片，撒一点点盐入味，肉片不要切太薄，2-3mm左右，正常饭店里一大盘锅包肉是26片，三个人吃，我切了20片足够吃了",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "淀粉加水，水不能太多，调成筷子可以挑起来的糊状",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "起锅热油，炸东西的油一定不能太少，这样不容易粘锅，我用的大豆油，炸出来颜色好看",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "肉片放到淀粉糊里拌匀，要保证肉片上面都粘上淀粉",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 5,
+          "instruction": "开炸！肉片下锅的时候尽量不要打卷，尽量让肉片上面多裹点淀粉糊，这样炸出来才均匀",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 6,
+          "instruction": "好喜欢油锅炸东西的声音，有点迫不及待啦，哈哈",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 7,
+          "instruction": "香喷喷的大肉片炸好了，",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 8,
+          "instruction": "准备番茄酱或者番茄沙司，白醋、盐、糖等到入碗里，根据个人口味调好汁，葱姜胡萝卜切丝，蒜切片，香菜切小段，其实用洋葱更好",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 9,
+          "instruction": "锅内加少许油，葱姜蒜胡萝卜煸炒，加入番茄酱和预先调好的汁",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 10,
+          "instruction": "加入炸好的肉片快速翻炒，关火加入香菜，出锅装盘",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 11,
+          "instruction": "色香味俱全的锅包肉就做好啦！！",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [],
+      "tips": [
+        "肉片挂糊炸的过程，需要大家自己掌握，多练习就好了"
+      ],
+      "rawExcerpt": " 锅包肉的做法大全锅包肉怎么做_豆果美食 var _hmt = _hmt || []; (function() { var hm = document.createElement(\"script\"); hm.src = \"https://hm.baidu.com/hm.js?8061a800ae3bd3d0428690834ea0cb61\"; var s = document.getElementsByTagName(\"script\")[0]; s.parentNode.insertBefore(hm, s); })(); (function(){ var bp = document.createElement(\"script\"); var curProtocol = window.location.protocol.split(\":\")[0]; if (curProtocol === \"https\") { bp.src = \"https://zz.bdstatic.com/linksubmit/push.js\"; } else { bp.src = \"http://push.zhanzhang.baidu.com/push.js\"; } var s = document.getElementsByTagName(\"script\")[0]; s.parentNode.insertB",
+      "bookTitle": null,
+      "pageStart": null,
+      "pageEnd": null,
+      "location": null
+    }
+  ],
+  "ragEvidence": [
+    {
+      "chunkId": "36ce5ae2-a22a-477d-a3b7-df0de3e6f77c",
+      "documentId": "36eb5007-72ce-4284-8cca-a4c056e0dcef",
+      "sourceName": "贝太厨房:从小爱吃的菜2",
+      "chunkType": "tips",
+      "content": "菜名：锅包肉\n- 锅包肉成功与否的秘诀就在于挂糊，在调制面糊的过程中一定要注意水的分量。以肉片很容易均匀地裹上一层面糊、但又不是太厚为准。",
+      "similarity": 0.596888184547429
+    },
+    {
+      "chunkId": "d02cb9f3-1764-4ec4-b927-7d4d576462a1",
+      "documentId": "edc4a645-fec2-44fb-baff-86efd706d9fb",
+      "sourceName": "豆果美食",
+      "chunkType": "summary",
+      "content": "菜名：锅包肉\n菜系：家常菜\n简介：锅包肉的家常做法，食材简单步骤详细，食材 里脊肉怎么做好吃、胡萝卜怎么做好吃、葱姜蒜怎么做好吃、香菜怎么做好吃、淀粉怎么做好吃、盐怎么做好吃、白醋怎么做好吃、水怎么做好吃、白糖怎么做好吃、鸡精怎么做好吃、酱油怎么做好吃、番茄酱怎么做好吃 新手也能轻松学会。豆果美食有更多美食教程!",
+      "similarity": 0.592569911922819
+    },
+    {
+      "chunkId": "f8cef31a-c248-4e45-8dbb-5f9fd4928b73",
+      "documentId": "edc4a645-fec2-44fb-baff-86efd706d9fb",
+      "sourceName": "豆果美食",
+      "chunkType": "tips",
+      "content": "菜名：锅包肉\n- 肉片挂糊炸的过程，需要大家自己掌握，多练习就好了",
+      "similarity": 0.587866169575867
+    },
+    {
+      "chunkId": "8e552707-5549-43bb-94f0-42663c506776",
+      "documentId": "6fb6ec9e-408e-470e-88fc-2752da48c6f3",
+      "sourceName": "豆果美食",
+      "chunkType": "tips",
+      "content": "菜名：锅包肉\n- 肉片挂糊炸的过程，需要大家自己掌握，多练习就好了",
+      "similarity": 0.587635804696583
+    },
+    {
+      "chunkId": "2ab0e756-6b43-4fce-a01f-f4f71ed7c6f2",
+      "documentId": "6fb6ec9e-408e-470e-88fc-2752da48c6f3",
+      "sourceName": "豆果美食",
+      "chunkType": "steps",
+      "content": "菜名：锅包肉\n1. 大块里脊肉切片，撒一点点盐入味，肉片不要切太薄，2-3mm左右，正常饭店里一大盘锅包肉是26片，三个人吃，我切了20片足够吃了\n2. 淀粉加水，水不能太多，调成筷子可以挑起来的糊状\n3. 起锅热油，炸东西的油一定不能太少，这样不容易粘锅，我用的大豆油，炸出来颜色好看\n4. 肉片放到淀粉糊里拌匀，要保证肉片上面都粘上淀粉\n5. 开炸！肉片下锅的时候尽量不要打卷，尽量让肉片上面多裹点淀粉糊，这样炸出来才均匀\n6. 好喜欢油锅炸东西的声音，有点迫不及待啦，哈哈\n7. 香喷喷的大肉片炸好了，\n8. 准备番茄酱或者番茄沙司，白醋、盐、糖等到入碗里，根据个人口味调好汁，葱姜胡萝卜切丝，蒜切片，香菜切小段，其实用洋葱更好\n9. 锅内加少许油，葱姜蒜胡萝卜煸炒，加入番茄酱和预先调好的汁\n10. 加入炸好的肉片快速翻炒，关火加入香菜，出锅装盘\n11. 色香味俱全的锅包肉就做好啦！！",
+      "similarity": 0.583990216255192
+    },
+    {
+      "chunkId": "1509cd4e-cc9f-4c10-a74f-6e8ab97e2714",
+      "documentId": "edc4a645-fec2-44fb-baff-86efd706d9fb",
+      "sourceName": "豆果美食",
+      "chunkType": "steps",
+      "content": "菜名：锅包肉\n1. 大块里脊肉切片，撒一点点盐入味，肉片不要切太薄，2-3mm左右，正常饭店里一大盘锅包肉是26片，三个人吃，我切了20片足够吃了\n2. 淀粉加水，水不能太多，调成筷子可以挑起来的糊状\n3. 起锅热油，炸东西的油一定不能太少，这样不容易粘锅，我用的大豆油，炸出来颜色好看\n4. 肉片放到淀粉糊里拌匀，要保证肉片上面都粘上淀粉\n5. 开炸！肉片下锅的时候尽量不要打卷，尽量让肉片上面多裹点淀粉糊，这样炸出来才均匀\n6. 好喜欢油锅炸东西的声音，有点迫不及待啦，哈哈\n7. 香喷喷的大肉片炸好了，\n8. 准备番茄酱或者番茄沙司，白醋、盐、糖等到入碗里，根据个人口味调好汁，葱姜胡萝卜切丝，蒜切片，香菜切小段，其实用洋葱更好\n9. 锅内加少许油，葱姜蒜胡萝卜煸炒，加入番茄酱和预先调好的汁\n10. 加入炸好的肉片快速翻炒，关火加入香菜，出锅装盘\n11. 色香味俱全的锅包肉就做好啦！！",
+      "similarity": 0.583517755060331
+    },
+    {
+      "chunkId": "d905e829-082b-4fda-9de1-a167d386f321",
+      "documentId": "36eb5007-72ce-4284-8cca-a4c056e0dcef",
+      "sourceName": "贝太厨房:从小爱吃的菜2",
+      "chunkType": "steps",
+      "content": "菜名：锅包肉\n1. 猪里脊肉切大片，厚约2～3mm，不能太薄，太薄就炸干了。把葱、姜、香菜、胡萝卜切丝，白糖、白醋、生抽、盐混合调成味汁。（图2、3）\n2. 水淀粉加少许蛋清和水调成适当稠度的面糊，把肉片全部蘸上面糊。（图4）\n3. 锅中油5～6成热时，一片片下入裹好面糊的肉片，中火炸熟之后捞出来。（图5）\n4. 将火调至大火，一次放入炸过的肉片，快速炸至焦脆捞出来沥干油。\n5. 锅中留少许底油，大火烧热后放入葱、姜、香菜、胡萝卜丝翻炒均匀。这时再放入炸好的肉片翻炒均匀，淋入调汁，快速翻炒出锅即可。（图6）",
+      "similarity": 0.580760002136235
+    },
+    {
+      "chunkId": "7189b2b5-c54b-4177-a7ac-15ebe04e109d",
+      "documentId": "36eb5007-72ce-4284-8cca-a4c056e0dcef",
+      "sourceName": "贝太厨房:从小爱吃的菜2",
+      "chunkType": "ingredients",
+      "content": "菜名：锅包肉\n- 猪里脊肉 300g\n- 葱 80g\n- 姜 10g\n- 香菜 50g\n- 胡萝卜 100g\n- 白糖 15g\n- 白醋 3ml\n- 生抽 5ml\n- 盐 5g\n- 水淀粉 20ml\n- 鸡蛋 1个\n- 油 400ml",
+      "similarity": 0.554418060446871
+    },
+    {
+      "chunkId": "7715bed5-38fe-4a71-8e09-671b1139c890",
+      "documentId": "36eb5007-72ce-4284-8cca-a4c056e0dcef",
+      "sourceName": "贝太厨房:从小爱吃的菜2",
+      "chunkType": "technique",
+      "content": "菜名：锅包肉\n- 准备：20分钟\n- 烹饪：20分钟",
+      "similarity": 0.499888390309311
+    },
+    {
+      "chunkId": "dcc322f7-7084-4a06-8245-a58299c21431",
+      "documentId": "36eb5007-72ce-4284-8cca-a4c056e0dcef",
+      "sourceName": "贝太厨房:从小爱吃的菜2",
+      "chunkType": "summary",
+      "content": "菜名：锅包肉\n简介：一般的东北菜给人的印象就是分量大、口味咸鲜，而这道锅包肉却是酸甜口味的。原来这道菜是哈尔滨道台府菜的创始人郑兴文当年为了适应外宾的口味而把“焦烧肉块”改成了酸甜口味。",
+      "similarity": 0.393698562318344
+    }
+  ],
+  "notes": [
+    "Editor 与 Reviewer 必须使用本文件中的同一份 evidence package。",
+    "EPUB 无固定印刷页码；书籍来源使用 XHTML entry#anchor 定位。"
+  ]
+}

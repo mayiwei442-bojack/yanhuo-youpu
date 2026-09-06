@@ -1,0 +1,271 @@
+{
+  "recipeId": "cn-029",
+  "recipeName": "干煸四季豆",
+  "category": "chinese",
+  "createdAt": "2026-08-30T14:16:46.077Z",
+  "sources": [
+    {
+      "sourceName": "The Woks of Life",
+      "sourceType": "website",
+      "url": "https://thewoksoflife.com/sichuan-dry-fried-green-beans/",
+      "documentId": "f32e32e4-4303-4e27-9fc5-41f0f109401f",
+      "retrievalMethod": "JSON-LD + HTML正文",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "green beans ((450g))",
+          "amount": "1 pound",
+          "raw": "1 pound green beans ((450g))"
+        },
+        {
+          "name": "salt",
+          "amount": "1/2 teaspoon",
+          "raw": "1/2 teaspoon salt"
+        },
+        {
+          "name": "oil",
+          "amount": "2 tablespoons",
+          "raw": "2 tablespoons oil"
+        },
+        {
+          "name": "ground pork",
+          "amount": "1/4 cup",
+          "raw": "1/4 cup ground pork"
+        },
+        {
+          "name": "garlic ((smashed and coarsely diced))",
+          "amount": "2",
+          "raw": "2 garlic ((smashed and coarsely diced))"
+        },
+        {
+          "name": "dried red hot peppers ((de-seeded and diced))",
+          "amount": "2",
+          "raw": "2 dried red hot peppers ((de-seeded and diced))"
+        },
+        {
+          "name": "sui mi ya cai ((碎米芽菜, store bought))",
+          "amount": "2 tablespoon",
+          "raw": "2 tablespoon sui mi ya cai ((碎米芽菜, store bought))"
+        },
+        {
+          "name": "shaoxing wine",
+          "amount": "1 teaspoon",
+          "raw": "1 teaspoon shaoxing wine"
+        },
+        {
+          "name": "1/2 teaspoons soy sauce",
+          "amount": "1",
+          "raw": "1 1/2 teaspoons soy sauce"
+        },
+        {
+          "name": "sugar",
+          "amount": "1/8 teaspoon",
+          "raw": "1/8 teaspoon sugar"
+        },
+        {
+          "name": "sesame oil",
+          "amount": "1 teaspoon",
+          "raw": "1 teaspoon sesame oil"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Heat your wok over high heat until just starting to smoke, and add the green beans and salt. Immediately lower the heat to medium low, and sear the green beans for about 20 minutes, stirring occasionally. You want to see small scorch marks on the green beans. During this process, gather the rest of the ingredients and have them ready. Once the beans are somewhat tender, take them out of the wok and set aside.",
+          "duration": "20 minutes",
+          "heat": "high heat"
+        },
+        {
+          "order": 2,
+          "instruction": "Heat the oil in your wok over medium high heat and brown the pork. Add the garlic and chili, and stir for 30 seconds. Add the sui mi ya cai, and stir everything together. Cook for another minute.",
+          "duration": "30 seconds",
+          "heat": "high heat"
+        },
+        {
+          "order": 3,
+          "instruction": "Toss in the seared green beans, cooking wine, soy sauce, sugar, and sesame oil. Crank the heat back up to high and stir-fry for a final minute. Serve immediately.",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [
+        "准备：10分钟",
+        "烹饪：25分钟",
+        "总用时：35分钟"
+      ],
+      "tips": [
+        "Looking for more authentic recipes? Subscribe to our email list and be sure to follow us on Pinterest , Facebook , Instagram , and Youtube!"
+      ],
+      "rawExcerpt": "菜名：干煸四季豆\n简介：Sichuan Dry Fried Green Beans are popular both in China and the US. Restaurants deep-fry them but we made them healthy by searing them in a dry wok without oil.\n原料：1 pound green beans ((450g))；1/2 teaspoon salt；2 tablespoons oil；1/4 cup ground pork；2 garlic ((smashed and coarsely diced))；2 dried red hot peppers ((de-seeded and diced))；2 tablespoon sui mi ya cai ((碎米芽菜, store bought))；1 teaspoon shaoxing wine；1 1/2 teaspoons soy sauce；1/8 teaspoon sugar；1 teaspoon sesame oil\n步骤：1. Heat your wok over high heat until just starting to smoke, and add the green beans and salt. Immediately lower the heat to medium low, and sear the green beans for about 20 minutes, stirring occasionally"
+    },
+    {
+      "sourceName": "豆果美食",
+      "sourceType": "website",
+      "url": "https://www.douguo.com/cookbook/3327913.html",
+      "documentId": "7ec2854e-8df6-44bf-80ed-e50bf30bf5d6",
+      "retrievalMethod": "Recipe JSON-LD + 豆果公开移动版 HTML 正文",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "四季豆",
+          "amount": "300克",
+          "raw": "四季豆 300克"
+        },
+        {
+          "name": "生抽",
+          "amount": "10克",
+          "raw": "生抽 10克"
+        },
+        {
+          "name": "盐",
+          "amount": "1小勺",
+          "raw": "盐 1小勺"
+        },
+        {
+          "name": "葱",
+          "amount": "5克",
+          "raw": "葱 5克"
+        },
+        {
+          "name": "干辣椒",
+          "amount": "5克",
+          "raw": "干辣椒 5克"
+        },
+        {
+          "name": "白糖",
+          "amount": "1小勺",
+          "raw": "白糖 1小勺"
+        },
+        {
+          "name": "蒜",
+          "amount": "5克",
+          "raw": "蒜 5克"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "备好四季豆，干辣椒和蒜末",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "热锅凉油放入四季豆，快速翻炒均匀",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "加入大蒜和干辣椒",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "放适量的清水，盐，酱油，鸡精翻炒均匀",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 5,
+          "instruction": "装盘即可食用！",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [
+        "预计用时：10分钟左右",
+        "四季豆需充分加热至熟"
+      ],
+      "tips": [],
+      "rawExcerpt": "菜名：干煸四季豆\n简介：干煸四季豆的做法,干煸四季豆的家常做法,干煸四季豆的步骤,干煸四季豆怎么做好吃\n原料：四季豆 300克；生抽 10克；盐 1小勺；葱 5克；干辣椒 5克；白糖 1小勺；蒜 5克\n步骤：1. 备好四季豆，干辣椒和蒜末 2. 热锅凉油放入四季豆，快速翻炒均匀 3. 加入大蒜和干辣椒 4. 放适量的清水，盐，酱油，鸡精翻炒均匀 5. 装盘即可食用！\n技法：预计用时：10分钟左右；四季豆需充分加热至熟"
+    }
+  ],
+  "ragEvidence": [
+    {
+      "chunkId": "09fd5762-2d26-4423-9fe2-20758a843a48",
+      "documentId": "7ec2854e-8df6-44bf-80ed-e50bf30bf5d6",
+      "sourceName": "豆果美食",
+      "chunkType": "summary",
+      "content": "菜名：干煸四季豆\n菜系：家常菜\n简介：干煸四季豆的做法,干煸四季豆的家常做法,干煸四季豆的步骤,干煸四季豆怎么做好吃",
+      "similarity": 0.702148079872131
+    },
+    {
+      "chunkId": "3ab4149d-3ca3-47e7-a8c3-5c645d1ec315",
+      "documentId": "7ec2854e-8df6-44bf-80ed-e50bf30bf5d6",
+      "sourceName": "豆果美食",
+      "chunkType": "ingredients",
+      "content": "菜名：干煸四季豆\n- 四季豆 300克\n- 生抽 10克\n- 盐 1小勺\n- 葱 5克\n- 干辣椒 5克\n- 白糖 1小勺\n- 蒜 5克",
+      "similarity": 0.693082234057255
+    },
+    {
+      "chunkId": "663ad149-9dec-47da-9c08-7990076a58ab",
+      "documentId": "7ec2854e-8df6-44bf-80ed-e50bf30bf5d6",
+      "sourceName": "豆果美食",
+      "chunkType": "steps",
+      "content": "菜名：干煸四季豆\n1. 备好四季豆，干辣椒和蒜末\n2. 热锅凉油放入四季豆，快速翻炒均匀\n3. 加入大蒜和干辣椒\n4. 放适量的清水，盐，酱油，鸡精翻炒均匀\n5. 装盘即可食用！",
+      "similarity": 0.691219013405981
+    },
+    {
+      "chunkId": "9cca27b6-fe28-4d57-bf79-0ad9c797e6f3",
+      "documentId": "f32e32e4-4303-4e27-9fc5-41f0f109401f",
+      "sourceName": "The Woks of Life",
+      "chunkType": "technique",
+      "content": "菜名：干煸四季豆\n- 准备：10分钟\n- 烹饪：25分钟\n- 总用时：35分钟\n- 20 minutes\n- high heat\n- 30 seconds\n- high heat",
+      "similarity": 0.686730146408081
+    },
+    {
+      "chunkId": "4481258e-787d-456b-9514-d8c6ae329d50",
+      "documentId": "7ec2854e-8df6-44bf-80ed-e50bf30bf5d6",
+      "sourceName": "豆果美食",
+      "chunkType": "technique",
+      "content": "菜名：干煸四季豆\n- 预计用时：10分钟左右\n- 四季豆需充分加热至熟",
+      "similarity": 0.67114577717458
+    },
+    {
+      "chunkId": "e8ed6888-43fe-4cdd-8016-f61d13fa9344",
+      "documentId": "f32e32e4-4303-4e27-9fc5-41f0f109401f",
+      "sourceName": "The Woks of Life",
+      "chunkType": "tips",
+      "content": "菜名：干煸四季豆\n- Looking for more authentic recipes? Subscribe to our email list and be sure to follow us on Pinterest , Facebook , Instagram , and Youtube!",
+      "similarity": 0.668806076049805
+    },
+    {
+      "chunkId": "46acf545-017f-4f06-bbdf-03553b64396e",
+      "documentId": "f32e32e4-4303-4e27-9fc5-41f0f109401f",
+      "sourceName": "The Woks of Life",
+      "chunkType": "steps",
+      "content": "菜名：干煸四季豆\n1. Heat your wok over high heat until just starting to smoke, and add the green beans and salt. Immediately lower the heat to medium low, and sear the green beans for about 20 minutes, stirring occasionally. You want to see small scorch marks on the green beans. During this process, gather the rest of the ingredients and have them ready. Once the beans are somewhat tender, take them out of the wok and set aside.（20 minutes）【high heat】\n2. Heat the oil in your wok over medium high heat and brown the pork. Add the garlic and chili, and stir for 30 seconds. Add the sui mi ya cai, and stir everything together. Cook for another minute.（30 seconds）【high heat】\n3. Toss in the seared green beans, cooking wine, soy sauce, sugar, and sesame oil. Crank the heat back up to high and stir-fry for a final minute. Serve immediately.",
+      "similarity": 0.659413913453456
+    },
+    {
+      "chunkId": "f7e0c194-75f1-4693-ab69-f6adbf5912c4",
+      "documentId": "f32e32e4-4303-4e27-9fc5-41f0f109401f",
+      "sourceName": "The Woks of Life",
+      "chunkType": "ingredients",
+      "content": "菜名：干煸四季豆\n- 1 pound green beans ((450g))\n- 1/2 teaspoon salt\n- 2 tablespoons oil\n- 1/4 cup ground pork\n- 2 garlic ((smashed and coarsely diced))\n- 2 dried red hot peppers ((de-seeded and diced))\n- 2 tablespoon sui mi ya cai ((碎米芽菜, store bought))\n- 1 teaspoon shaoxing wine\n- 1 1/2 teaspoons soy sauce\n- 1/8 teaspoon sugar\n- 1 teaspoon sesame oil",
+      "similarity": 0.652936577796936
+    },
+    {
+      "chunkId": "c23462ca-01c4-42d3-ad62-e128ee84135a",
+      "documentId": "f32e32e4-4303-4e27-9fc5-41f0f109401f",
+      "sourceName": "The Woks of Life",
+      "chunkType": "summary",
+      "content": "菜名：干煸四季豆\n别名：Sichuan Dry Fried Green Beans\n菜系：家常菜\n简介：Sichuan Dry Fried Green Beans are popular both in China and the US. Restaurants deep-fry them but we made them healthy by searing them in a dry wok without oil.",
+      "similarity": 0.637827296192268
+    },
+    {
+      "chunkId": "a0cc4a23-ded7-4572-82d7-69bd2ebc0412",
+      "documentId": "7ec2854e-8df6-44bf-80ed-e50bf30bf5d6",
+      "sourceName": "豆果美食",
+      "chunkType": "tips",
+      "content": "菜名：干煸四季豆\n- 原文未提供额外提示。",
+      "similarity": 0.627485297472162
+    }
+  ],
+  "notes": [
+    "两条来源均来自当前白名单，页面标题和正文均对应同一道目标菜。",
+    "Serious Eats 的仓库 fetchHtml 阻塞如实记录在本组报告；公开 Web 阅读器完整读取正文，未绕过访问控制。"
+  ]
+}

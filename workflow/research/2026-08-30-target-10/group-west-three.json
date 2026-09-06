@@ -1,0 +1,1030 @@
+{
+  "createdAt": "2026-08-30T14:19:14.720Z",
+  "group": "west-three",
+  "status": "PASS",
+  "passedTargets": [
+    {
+      "recipeId": "west-011",
+      "recipeName": "意式培根蛋面",
+      "status": "PASS",
+      "recipeEntityId": "1ad08827-0d1d-4d97-8f37-11bb83e52e0f",
+      "sourceAttempts": [
+        {
+          "sourceName": "BBC Good Food",
+          "searchUrl": "https://www.bbcgoodfood.com/search?q=carbonara",
+          "canonicalUrl": "https://www.bbcgoodfood.com/recipes/ultimate-spaghetti-carbonara-recipe",
+          "pageTitle": "Ultimate spaghetti carbonara recipe",
+          "retrievalMethod": "JSON-LD + HTML正文",
+          "complete": true,
+          "failureReason": null,
+          "documentId": "3778b897-2004-4e39-89d6-65fe0b15d27c",
+          "chunks": 6,
+          "deduplicated": false,
+          "embedded": true
+        },
+        {
+          "sourceName": "Serious Eats",
+          "searchUrl": "https://www.seriouseats.com/search?q=carbonara",
+          "canonicalUrl": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+          "pageTitle": "Spaghetti With Carbonara Sauce Recipe",
+          "retrievalMethod": "公开网页正文（web reader；fetchHtml 直连失败）",
+          "complete": true,
+          "failureReason": null,
+          "documentId": "582b7bfe-c481-4cca-95b5-3a063f095c16",
+          "chunks": 5,
+          "deduplicated": false,
+          "embedded": true
+        }
+      ],
+      "verification": {
+        "semanticResults": 10,
+        "independentSources": 2,
+        "topSimilarity": 0.734578744496183
+      }
+    },
+    {
+      "recipeId": "west-020",
+      "recipeName": "牧羊人派",
+      "status": "PASS",
+      "recipeEntityId": "93d9b104-e908-4c11-b32a-cab88826ebb0",
+      "sourceAttempts": [
+        {
+          "sourceName": "BBC Good Food",
+          "searchUrl": "https://www.bbcgoodfood.com/search?q=shepherd%27s%20pie",
+          "canonicalUrl": "https://www.bbcgoodfood.com/recipes/no-fuss-shepherds-pie",
+          "pageTitle": "No-fuss shepherd's pie",
+          "retrievalMethod": "JSON-LD + HTML正文",
+          "complete": true,
+          "failureReason": null,
+          "documentId": "cb283a82-14fe-499e-92fc-88467912f1be",
+          "chunks": 5,
+          "deduplicated": false,
+          "embedded": true
+        },
+        {
+          "sourceName": "Serious Eats",
+          "searchUrl": "https://www.seriouseats.com/search?q=shepherd%27s%20pie",
+          "canonicalUrl": "https://www.seriouseats.com/shepherds-pie-beef-lamb-recipe",
+          "pageTitle": "Classic, Savory Shepherd's Pie (With Beef and/or Lamb)",
+          "retrievalMethod": "公开网页正文（web reader；fetchHtml 直连失败）",
+          "complete": true,
+          "failureReason": null,
+          "documentId": "1f2ef371-7676-47d9-b872-98dff43a9652",
+          "chunks": 6,
+          "deduplicated": false,
+          "embedded": true
+        }
+      ],
+      "verification": {
+        "semanticResults": 10,
+        "independentSources": 2,
+        "topSimilarity": 0.678914349014423
+      }
+    },
+    {
+      "recipeId": "west-012",
+      "recipeName": "千层面",
+      "status": "PASS",
+      "recipeEntityId": "59697b04-f6f2-4271-aea0-86ad3733deb2",
+      "sourceAttempts": [
+        {
+          "sourceName": "Serious Eats",
+          "searchUrl": "https://www.seriouseats.com/search?q=lasagna",
+          "canonicalUrl": "https://www.seriouseats.com/lasagna-bolognese-al-forno-recipe",
+          "pageTitle": "Lasagna Bolognese",
+          "retrievalMethod": "公开网页正文（web reader；fetchHtml 直连失败）",
+          "complete": true,
+          "failureReason": null,
+          "documentId": "a78ae6f6-c799-4978-a9f6-1fae11d8d11c",
+          "chunks": 6,
+          "deduplicated": false,
+          "embedded": true
+        },
+        {
+          "sourceName": "BBC Good Food",
+          "searchUrl": "https://www.bbcgoodfood.com/search?q=lasagne",
+          "canonicalUrl": "https://www.bbcgoodfood.com/recipes/classic-italian-lasagne",
+          "pageTitle": "Classic Italian lasagne",
+          "retrievalMethod": "JSON-LD + HTML正文",
+          "complete": true,
+          "failureReason": null,
+          "documentId": "d0f6ab80-5bba-43e5-a5ad-0ca0774e3003",
+          "chunks": 6,
+          "deduplicated": false,
+          "embedded": true
+        }
+      ],
+      "verification": {
+        "semanticResults": 10,
+        "independentSources": 2,
+        "topSimilarity": 0.606781029297053
+      }
+    }
+  ],
+  "evidencePackages": [
+    {
+      "recipeId": "west-011",
+      "recipeName": "意式培根蛋面",
+      "category": "western",
+      "createdAt": "2026-08-30T14:19:14.720Z",
+      "sources": [
+        {
+          "sourceName": "BBC Good Food",
+          "sourceType": "website",
+          "url": "https://www.bbcgoodfood.com/recipes/ultimate-spaghetti-carbonara-recipe",
+          "documentId": "3778b897-2004-4e39-89d6-65fe0b15d27c",
+          "retrievalMethod": "JSON-LD + HTML正文",
+          "complete": true,
+          "ingredients": [
+            {
+              "name": "pancetta",
+              "amount": "100g",
+              "raw": "100g pancetta"
+            },
+            {
+              "name": "pecorino cheese",
+              "amount": "50g",
+              "raw": "50g pecorino cheese"
+            },
+            {
+              "name": "parmesan",
+              "amount": "50g",
+              "raw": "50g parmesan"
+            },
+            {
+              "name": "large eggs",
+              "amount": "3",
+              "raw": "3 large eggs"
+            },
+            {
+              "name": "spaghetti",
+              "amount": "350g",
+              "raw": "350g spaghetti"
+            },
+            {
+              "name": "plump garlic cloves peeled and left whole",
+              "amount": "2",
+              "raw": "2 plump garlic cloves peeled and left whole"
+            },
+            {
+              "name": "unsalted butter",
+              "amount": "50g",
+              "raw": "50g unsalted butter"
+            },
+            {
+              "name": "sea salt and freshly ground black pepper",
+              "amount": null,
+              "raw": "sea salt and freshly ground black pepper"
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "instruction": "Put a large saucepan of water on to boil.",
+              "duration": null,
+              "heat": null
+            },
+            {
+              "order": 2,
+              "instruction": "Finely chop the 100g pancetta, having first removed any rind. Finely grate 50g pecorino cheese and 50g parmesan and mix them together.",
+              "duration": null,
+              "heat": null
+            },
+            {
+              "order": 3,
+              "instruction": "Beat the 3 large eggs in a medium bowl and season with a little freshly grated black pepper. Set everything aside.",
+              "duration": null,
+              "heat": null
+            },
+            {
+              "order": 4,
+              "instruction": "Add 1 tsp salt to the boiling water, add 350g spaghetti and when the water comes back to the boil, cook at a constant simmer, covered, for 10 minutes or until al dente (just cooked).",
+              "duration": "10 minutes",
+              "heat": null
+            },
+            {
+              "order": 5,
+              "instruction": "Squash 2 peeled plump garlic cloves with the blade of a knife, just to bruise it.",
+              "duration": null,
+              "heat": null
+            },
+            {
+              "order": 6,
+              "instruction": "While the spaghetti is cooking, fry the pancetta with the garlic. Drop 50g unsalted butter into a large frying pan or wok and, as soon as the butter has melted, tip in the pancetta and garlic.",
+              "duration": null,
+              "heat": null
+            },
+            {
+              "order": 7,
+              "instruction": "Leave to cook on a medium heat for about 5 minutes, stirring often, until the pancetta is golden and crisp. The garlic has now imparted its flavour, so take it out with a slotted spoon and discard.",
+              "duration": "5 minutes",
+              "heat": "medium heat"
+            },
+            {
+              "order": 8,
+              "instruction": "Keep the heat under the pancetta on low. When the pasta is ready, lift it from the water with a pasta fork or tongs and put it in the frying pan with the pancetta. Don’t worry if a little water drops in the pan as well (you want this to happen) and don’t throw the pasta water away yet.",
+              "duration": null,
+              "heat": null
+            },
+            {
+              "order": 9,
+              "instruction": "Mix most of the cheese in with the eggs, keeping a small handful back for sprinkling over later.",
+              "duration": null,
+              "heat": null
+            },
+            {
+              "order": 10,
+              "instruction": "Take the pan of spaghetti and pancetta off the heat. Now quickly pour in the eggs and cheese. Using the tongs or a long fork, lift up the spaghetti so it mixes easily with the egg mixture, which thickens but doesn’t scramble, and everything is coated.",
+              "duration": null,
+              "heat": null
+            },
+            {
+              "order": 11,
+              "instruction": "Add extra pasta cooking water to keep it saucy (several tablespoons should do it). You don’t want it wet, just moist. Season with a little salt, if needed.",
+              "duration": null,
+              "heat": null
+            },
+            {
+              "order": 12,
+              "instruction": "Use a long-pronged fork to twist the pasta on to the serving plate or bowl. Serve immediately with a little sprinkling of the remaining cheese and a grating of black pepper. If the dish does get a little dry before serving, splash in some more hot pasta water and the glossy sauciness will be revived.",
+              "duration": null,
+              "heat": null
+            }
+          ],
+          "technique": [
+            "准备：20分钟",
+            "烹饪：15分钟",
+            "总用时：35分钟"
+          ],
+          "tips": [],
+          "rawExcerpt": "Discover how to make traditional spaghetti carbonara. This classic Italian pasta dish combines a silky cheese sauce with crisp pancetta and black pepper. 100g pancetta 50g pecorino cheese 50g parmesan Put a large saucepan of water on to boil. Finely chop the 100g pancetta, having first removed any rind. Finely grate 50g pecorino cheese and 50g parmesan and mix them together."
+        },
+        {
+          "sourceName": "Serious Eats",
+          "sourceType": "website",
+          "url": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+          "documentId": "582b7bfe-c481-4cca-95b5-3a063f095c16",
+          "retrievalMethod": "公开网页正文（web reader；fetchHtml 直连失败）",
+          "complete": true,
+          "ingredients": [
+            {
+              "name": "Kosher salt",
+              "amount": null,
+              "raw": "Kosher salt"
+            },
+            {
+              "name": "dried spaghetti",
+              "amount": "1 pound (450 g)",
+              "raw": "1 pound (450 g) dried spaghetti"
+            },
+            {
+              "name": "guanciale, pancetta, or bacon",
+              "amount": "1/2 cup (about 3 ounces; 85 g)",
+              "raw": "1/2 cup diced guanciale, pancetta, or bacon (about 3 ounces; 85 g)"
+            },
+            {
+              "name": "extra-virgin olive oil",
+              "amount": "3 tablespoons (45 ml)",
+              "raw": "3 tablespoons (45 ml) extra-virgin olive oil, divided"
+            },
+            {
+              "name": "large eggs and yolks",
+              "amount": "2 whole eggs plus 6 yolks",
+              "raw": "2 whole large eggs plus 6 yolks"
+            },
+            {
+              "name": "Pecorino Romano",
+              "amount": "1/4 cup (25 g)",
+              "raw": "1/4 cup grated Pecorino Romano (25 g), plus more for serving"
+            },
+            {
+              "name": "Parmigiano-Reggiano",
+              "amount": "1/4 cup (25 g)",
+              "raw": "1/4 cup grated Parmigiano-Reggiano (25 g), plus more for serving"
+            },
+            {
+              "name": "black pepper",
+              "amount": "1 teaspoon",
+              "raw": "1 teaspoon freshly ground black pepper, plus more for serving"
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "instruction": "Bring salted water to a boil and cook the spaghetti until al dente.",
+              "duration": null,
+              "heat": "high heat"
+            },
+            {
+              "order": 2,
+              "instruction": "Cook the guanciale with 2 tablespoons olive oil over medium heat, stirring frequently, until the fat renders and the pork is crisp.",
+              "duration": "about 7 minutes",
+              "heat": "medium heat"
+            },
+            {
+              "order": 3,
+              "instruction": "In a large metal heatproof bowl, whisk whole eggs, yolks, Pecorino, Parmigiano and black pepper.",
+              "duration": null,
+              "heat": null
+            },
+            {
+              "order": 4,
+              "instruction": "Transfer pasta to the pork skillet without draining the pasta pot, add remaining olive oil, cool slightly, then scrape pasta, pork and fat into the egg mixture; mix in 1/2 cup pasta water.",
+              "duration": null,
+              "heat": null
+            },
+            {
+              "order": 5,
+              "instruction": "Set the bowl over the pot of boiling pasta water without letting it touch the water; stir quickly with tongs until the sauce is creamy, silky and leaves trails, then serve immediately.",
+              "duration": null,
+              "heat": "gentle steam heat"
+            }
+          ],
+          "technique": [
+            "Use mostly yolks with some whole eggs for a rich but balanced sauce.",
+            "Use equal Pecorino Romano and Parmigiano-Reggiano.",
+            "Finish in a makeshift double boiler, stirring constantly, to thicken the eggs without curdling."
+          ],
+          "tips": [
+            "Do not oversalt the pasta water because the pork and cheeses are salty.",
+            "Chill cured pork before dicing.",
+            "Serve immediately because the egg sauce continues to thicken as it sits."
+          ],
+          "rawExcerpt": "Foolproof silky spaghetti carbonara with cured pork, eggs, Pecorino Romano and Parmigiano-Reggiano; the sauce is thickened gently over a double boiler to avoid scrambling. Kosher salt 1 pound (450 g) dried spaghetti 1/2 cup diced guanciale, pancetta, or bacon (about 3 ounces; 85 g) Bring salted water to a boil and cook the spaghetti until al dente. Cook the guanciale with 2 tablespoons olive oil over medium heat, stirring frequently, until the fat renders and the pork is crisp."
+        }
+      ],
+      "ragEvidence": [],
+      "notes": [
+        "两个来源均为启用的西餐白名单网站并已写入 Supabase。",
+        "BBC Good Food 使用 fetchHtml + Recipe JSON-LD + HTML正文；Serious Eats 直连失败后使用公开网页正文，未绕过访问控制。"
+      ]
+    },
+    {
+      "recipeId": "west-020",
+      "recipeName": "牧羊人派",
+      "category": "western",
+      "createdAt": "2026-08-30T14:19:14.720Z",
+      "sources": [
+        {
+          "sourceName": "BBC Good Food",
+          "sourceType": "website",
+          "url": "https://www.bbcgoodfood.com/recipes/no-fuss-shepherds-pie",
+          "documentId": "cb283a82-14fe-499e-92fc-88467912f1be",
+          "retrievalMethod": "JSON-LD + HTML正文",
+          "complete": true,
+          "ingredients": [
+            {
+              "name": "sunflower oil",
+              "amount": "1 tbsp",
+              "raw": "1 tbsp sunflower oil"
+            },
+            {
+              "name": "large onion chopped",
+              "amount": "1",
+              "raw": "1 large onion chopped"
+            },
+            {
+              "name": "medium carrots chopped",
+              "amount": "2-3",
+              "raw": "2-3 medium carrots chopped"
+            },
+            {
+              "name": "pack lamb mince",
+              "amount": "500g",
+              "raw": "500g pack lamb mince"
+            },
+            {
+              "name": "tomato purée",
+              "amount": "2 tbsp",
+              "raw": "2 tbsp tomato purée"
+            },
+            {
+              "name": "large splash Worcestershire sauce",
+              "amount": null,
+              "raw": "large splash Worcestershire sauce"
+            },
+            {
+              "name": "beef stock",
+              "amount": "500ml",
+              "raw": "500ml beef stock"
+            },
+            {
+              "name": "potatoes cut into chunks",
+              "amount": "900g",
+              "raw": "900g potatoes cut into chunks"
+            },
+            {
+              "name": "butter",
+              "amount": "85g",
+              "raw": "85g butter"
+            },
+            {
+              "name": "milk",
+              "amount": "3 tbsp",
+              "raw": "3 tbsp milk"
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "instruction": "Heat 1 tbsp sunflower oil in a medium saucepan, then soften 1 chopped onion and 2-3 chopped carrots for a few mins.",
+              "duration": null,
+              "heat": null
+            },
+            {
+              "order": 2,
+              "instruction": "When soft, turn up the heat, crumble in 500g lamb mince and brown, tipping off any excess fat.",
+              "duration": null,
+              "heat": null
+            },
+            {
+              "order": 3,
+              "instruction": "Add 2 tbsp tomato purée and a large splash of Worcestershire sauce, then fry for a few mins.",
+              "duration": null,
+              "heat": null
+            },
+            {
+              "order": 4,
+              "instruction": "Pour over 500ml beef stock, bring to a simmer, then cover and cook for 40 mins, uncovering halfway.",
+              "duration": null,
+              "heat": null
+            },
+            {
+              "order": 5,
+              "instruction": "Meanwhile, heat the oven to 180C/fan 160C/gas 4, then make the mash. Boil the 900g potato, cut into chunks, in salted water for 10-15 mins until tender. Drain, then mash with 85g butter and 3 tbsp milk.",
+              "duration": null,
+              "heat": null
+            },
+            {
+              "order": 6,
+              "instruction": "Put the mince into an ovenproof dish, top with the mash and ruffle with a fork. The pie can now be chilled and frozen for up to a month.",
+              "duration": null,
+              "heat": null
+            },
+            {
+              "order": 7,
+              "instruction": "Bake for 20-25 mins until the top is starting to colour and the mince is bubbling through at the edges. (To bake from frozen, cook at 160C/fan 140C/gas 3 for 1 hr-1 hr 20 mins until piping hot in the centre. Flash under the grill to brown, if you like.)",
+              "duration": null,
+              "heat": null
+            },
+            {
+              "order": 8,
+              "instruction": "Leave to stand for 5 mins before serving.",
+              "duration": null,
+              "heat": null
+            }
+          ],
+          "technique": [
+            "准备：15分钟",
+            "烹饪：60分钟",
+            "总用时：75分钟"
+          ],
+          "tips": [],
+          "rawExcerpt": "A classic comfort food favourite, this shepherd's pie sees succulent lamb mince and veg topped with a fluffy layer of mashed potato 1 tbsp sunflower oil 1 large onion chopped 2-3 medium carrots chopped Heat 1 tbsp sunflower oil in a medium saucepan, then soften 1 chopped onion and 2-3 chopped carrots for a few mins. When soft, turn up the heat, crumble in 500g lamb mince and brown, tipping off any excess fat."
+        },
+        {
+          "sourceName": "Serious Eats",
+          "sourceType": "website",
+          "url": "https://www.seriouseats.com/shepherds-pie-beef-lamb-recipe",
+          "documentId": "1f2ef371-7676-47d9-b872-98dff43a9652",
+          "retrievalMethod": "公开网页正文（web reader；fetchHtml 直连失败）",
+          "complete": true,
+          "ingredients": [
+            {
+              "name": "russet potatoes",
+              "amount": "3 1/2 pounds (1.6 kg)",
+              "raw": "3 1/2 pounds (1.6 kg) russet potatoes, peeled and cubed"
+            },
+            {
+              "name": "Kosher salt",
+              "amount": null,
+              "raw": "Kosher salt"
+            },
+            {
+              "name": "unsalted butter",
+              "amount": "6 tablespoons (85 g)",
+              "raw": "6 tablespoons (85 g) unsalted butter, cubed"
+            },
+            {
+              "name": "low-sodium chicken stock",
+              "amount": "1 1/2 cups (360 ml)",
+              "raw": "1 1/2 cups (360 ml) low-sodium chicken stock"
+            },
+            {
+              "name": "unflavored gelatin",
+              "amount": "2 packets (14 g)",
+              "raw": "2 packets unflavored gelatin (about 14 g)"
+            },
+            {
+              "name": "vegetable oil",
+              "amount": "2 tablespoons (30 ml)",
+              "raw": "2 tablespoons (30 ml) vegetable oil"
+            },
+            {
+              "name": "ground lamb",
+              "amount": "2 1/2 pounds (1 kg)",
+              "raw": "2 1/2 pounds (1 kg) ground lamb (the source also permits beef or a combination)"
+            },
+            {
+              "name": "yellow onion",
+              "amount": "1 large (400 g)",
+              "raw": "1 large yellow onion (400 g), diced"
+            },
+            {
+              "name": "carrots",
+              "amount": "3 medium (225 g)",
+              "raw": "3 medium carrots (225 g), diced"
+            },
+            {
+              "name": "celery",
+              "amount": "2 ribs (110 g)",
+              "raw": "2 ribs celery (110 g), diced"
+            },
+            {
+              "name": "garlic",
+              "amount": "2 cloves",
+              "raw": "2 medium cloves garlic, minced"
+            },
+            {
+              "name": "tomato paste",
+              "amount": "2 tablespoons (30 ml)",
+              "raw": "2 tablespoons (30 ml) tomato paste"
+            },
+            {
+              "name": "dry red wine",
+              "amount": "1 cup (240 ml)",
+              "raw": "1 cup (240 ml) dry red wine"
+            },
+            {
+              "name": "thyme",
+              "amount": "2 sprigs",
+              "raw": "2 sprigs thyme"
+            },
+            {
+              "name": "bay leaf",
+              "amount": "1",
+              "raw": "1 bay leaf"
+            },
+            {
+              "name": "Worcestershire sauce",
+              "amount": "1 tablespoon (15 ml)",
+              "raw": "1 tablespoon (15 ml) Worcestershire sauce"
+            },
+            {
+              "name": "Marmite",
+              "amount": "1 teaspoon (optional)",
+              "raw": "1 teaspoon (5 ml) Marmite, optional"
+            },
+            {
+              "name": "all-purpose flour",
+              "amount": "2 tablespoons (15 g)",
+              "raw": "2 tablespoons (15 g) all-purpose flour"
+            },
+            {
+              "name": "frozen peas",
+              "amount": "8 ounces (225 g)",
+              "raw": "8 ounces (225 g) frozen peas"
+            },
+            {
+              "name": "black pepper",
+              "amount": null,
+              "raw": "Freshly ground black pepper"
+            },
+            {
+              "name": "heavy cream",
+              "amount": "1 1/2 cups (360 ml)",
+              "raw": "1 1/2 cups (360 ml) heavy cream"
+            },
+            {
+              "name": "Parmigiano-Reggiano",
+              "amount": null,
+              "raw": "Grated Parmigiano-Reggiano for topping, optional"
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "instruction": "Rinse the cubed potatoes until the water runs clear, cover with cold salted water, simmer until tender, then drain and rinse with hot water.",
+              "duration": "10 to 15 minutes",
+              "heat": "medium-low heat"
+            },
+            {
+              "order": 2,
+              "instruction": "Mash the potatoes with butter, smooth the surface and cover directly to prevent a skin from forming.",
+              "duration": null,
+              "heat": null
+            },
+            {
+              "order": 3,
+              "instruction": "Sprinkle gelatin over the chicken stock and set aside.",
+              "duration": null,
+              "heat": null
+            },
+            {
+              "order": 4,
+              "instruction": "Brown half the lamb in hot oil, add the remaining lamb and break it into small bits, then remove excess fat and add onion, carrots, celery and garlic until they begin to soften.",
+              "duration": "about 13 to 15 minutes total",
+              "heat": "high heat"
+            },
+            {
+              "order": 5,
+              "instruction": "Cook tomato paste for 1 minute, add red wine and reduce almost fully; add stock, thyme, bay, Worcestershire and optional Marmite, stir in flour and simmer until thick. Remove herbs, stir in peas and season.",
+              "duration": "about 20 minutes",
+              "heat": "low heat"
+            },
+            {
+              "order": 6,
+              "instruction": "Heat the oven to 425°F (220°C). Simmer the cream, fold it into the mashed potatoes and season.",
+              "duration": null,
+              "heat": "425°F / 220°C"
+            },
+            {
+              "order": 7,
+              "instruction": "Place the meat sauce in a 9-by-13-inch baking dish, cover completely with mashed potatoes, texture the top and add Parmesan if desired.",
+              "duration": null,
+              "heat": null
+            },
+            {
+              "order": 8,
+              "instruction": "Bake until browned and fully heated; optionally broil briefly for deeper color, then rest before serving.",
+              "duration": "20 minutes baking plus 15 to 20 minutes resting",
+              "heat": "425°F / 220°C"
+            }
+          ],
+          "technique": [
+            "Rinse potatoes before and after simmering to reduce surface starch and avoid gummy mash.",
+            "Brown only half the meat deeply, adding the other half later to preserve tenderness.",
+            "Reduce red wine before adding the gelatin-enriched stock, then thicken with flour."
+          ],
+          "tips": [
+            "Use lamb for the traditional shepherd’s pie version; the source also permits beef or a mixture.",
+            "Do not fill the baking dish more than halfway with meat sauce to limit spillover.",
+            "Rest the baked pie 15 to 20 minutes so the filling thickens slightly."
+          ],
+          "rawExcerpt": "A classic mashed-potato-topped meat and vegetable casserole. The source explicitly permits lamb, beef or a combination; this normalized record selects its traditional lamb branch for the canonical shepherd’s pie target. 3 1/2 pounds (1.6 kg) russet potatoes, peeled and cubed Kosher salt 6 tablespoons (85 g) unsalted butter, cubed Rinse the cubed potatoes until the water runs clear, cover with cold salted water, simmer until tender, then drain and rinse with hot water. Mash the potatoes with butter, smooth the surface and cover directly to prevent a skin from forming."
+        }
+      ],
+      "ragEvidence": [],
+      "notes": [
+        "两个来源均为启用的西餐白名单网站并已写入 Supabase。",
+        "BBC Good Food 使用 fetchHtml + Recipe JSON-LD + HTML正文；Serious Eats 直连失败后使用公开网页正文，未绕过访问控制。"
+      ]
+    },
+    {
+      "recipeId": "west-012",
+      "recipeName": "千层面",
+      "category": "western",
+      "createdAt": "2026-08-30T14:19:14.720Z",
+      "sources": [
+        {
+          "sourceName": "Serious Eats",
+          "sourceType": "website",
+          "url": "https://www.seriouseats.com/lasagna-bolognese-al-forno-recipe",
+          "documentId": "a78ae6f6-c799-4978-a9f6-1fae11d8d11c",
+          "retrievalMethod": "公开网页正文（web reader；fetchHtml 直连失败）",
+          "complete": true,
+          "ingredients": [
+            {
+              "name": "unsalted butter",
+              "amount": "4 tablespoons (60 g)",
+              "raw": "4 tablespoons (60 g) unsalted butter, plus more for greasing"
+            },
+            {
+              "name": "all-purpose flour",
+              "amount": "4 tablespoons (35 g)",
+              "raw": "4 tablespoons (35 g) all-purpose flour"
+            },
+            {
+              "name": "whole milk",
+              "amount": "3 cups (700 ml)",
+              "raw": "3 cups (700 ml) whole milk"
+            },
+            {
+              "name": "Kosher salt and black pepper",
+              "amount": null,
+              "raw": "Kosher salt and freshly ground black pepper"
+            },
+            {
+              "name": "nutmeg",
+              "amount": "a pinch",
+              "raw": "A pinch of freshly grated nutmeg"
+            },
+            {
+              "name": "lasagna noodles",
+              "amount": "900 g fresh or two 450 g boxes dry",
+              "raw": "900 g fresh egg or spinach pasta/lasagna noodles, or two 450 g boxes dry lasagna noodles"
+            },
+            {
+              "name": "vegetable oil",
+              "amount": null,
+              "raw": "Vegetable oil for greasing pasta"
+            },
+            {
+              "name": "warm ragù Bolognese",
+              "amount": "1 1/2 quarts (1.5 L)",
+              "raw": "1 1/2 quarts (1.5 L) warm ragù Bolognese"
+            },
+            {
+              "name": "Parmigiano-Reggiano",
+              "amount": "3 ounces (85 g)",
+              "raw": "3 ounces (85 g) Parmigiano-Reggiano cheese"
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "instruction": "Melt butter over medium-high heat without browning, whisk in flour and cook until its raw scent disappears; gradually whisk in milk to keep the béchamel smooth.",
+              "duration": "about 1 minute before adding milk",
+              "heat": "medium-high heat"
+            },
+            {
+              "order": 2,
+              "instruction": "Bring the sauce to a simmer, reduce heat and stir until it lightly coats the back of a wooden spoon.",
+              "duration": "about 3 minutes",
+              "heat": "low heat"
+            },
+            {
+              "order": 3,
+              "instruction": "Season the béchamel with salt, pepper and nutmeg; use immediately or cover its surface directly to prevent a skin.",
+              "duration": null,
+              "heat": null
+            },
+            {
+              "order": 4,
+              "instruction": "If using homemade pasta, roll and cut it into roughly 8-inch rectangles.",
+              "duration": null,
+              "heat": null
+            },
+            {
+              "order": 5,
+              "instruction": "Cook pasta sheets in salted boiling water until al dente, then transfer immediately to an ice bath.",
+              "duration": "about 1 minute less than package directions for store-bought pasta",
+              "heat": "boiling"
+            },
+            {
+              "order": 6,
+              "instruction": "Drain well and lightly oil both sides of each pasta sheet to prevent sticking.",
+              "duration": null,
+              "heat": null
+            },
+            {
+              "order": 7,
+              "instruction": "If using no-boil pasta, soak the sheets in warm water to partially hydrate, then drain.",
+              "duration": "30 minutes",
+              "heat": null
+            },
+            {
+              "order": 8,
+              "instruction": "Heat oven to 375°F (190°C), butter a 9-by-13-inch dish, add a thin ragù layer and cover with pasta.",
+              "duration": null,
+              "heat": "375°F / 190°C"
+            },
+            {
+              "order": 9,
+              "instruction": "Build about six thin layers of pasta, ragù, béchamel and Parmigiano; finish with pasta, remaining béchamel and a generous final layer of cheese.",
+              "duration": null,
+              "heat": null
+            },
+            {
+              "order": 10,
+              "instruction": "Bake until bubbling and browned, then rest before serving.",
+              "duration": "35 minutes baking plus 10 minutes resting",
+              "heat": "375°F / 190°C"
+            }
+          ],
+          "technique": [
+            "Keep individual ragù layers thin so the pasta remains distinct and the finished slices retain structure.",
+            "Make a deliberately loose béchamel because it thickens during baking.",
+            "Cool boiled pasta sheets in ice water and oil them lightly to prevent sticking."
+          ],
+          "tips": [
+            "Press plastic wrap directly onto béchamel if holding it to prevent a skin.",
+            "Put a rimmed baking sheet under the dish as insurance against bubbling over.",
+            "Rest the baked lasagna at least 10 minutes before cutting."
+          ],
+          "rawExcerpt": "Homemade ragù Bolognese and creamy besciamella layered thinly with pasta and Parmigiano-Reggiano, then baked until bubbling and browned. 4 tablespoons (60 g) unsalted butter, plus more for greasing 4 tablespoons (35 g) all-purpose flour 3 cups (700 ml) whole milk Melt butter over medium-high heat without browning, whisk in flour and cook until its raw scent disappears; gradually whisk in milk to keep the béchamel smooth. Bring the sauce to a simmer, reduce heat and stir until it lightly coats the back of a wooden spoon."
+        },
+        {
+          "sourceName": "BBC Good Food",
+          "sourceType": "website",
+          "url": "https://www.bbcgoodfood.com/recipes/classic-italian-lasagne",
+          "documentId": "d0f6ab80-5bba-43e5-a5ad-0ca0774e3003",
+          "retrievalMethod": "JSON-LD + HTML正文",
+          "complete": true,
+          "ingredients": [
+            {
+              "name": "pack fresh lasagne sheets",
+              "amount": "250g",
+              "raw": "250g pack fresh lasagne sheets"
+            },
+            {
+              "name": "olive oil for greasing",
+              "amount": null,
+              "raw": "olive oil for greasing"
+            },
+            {
+              "name": "large handful grated parmesan",
+              "amount": null,
+              "raw": "large handful grated parmesan"
+            },
+            {
+              "name": "unsalted butter",
+              "amount": "110g",
+              "raw": "110g unsalted butter"
+            },
+            {
+              "name": "celery stick finely chopped",
+              "amount": "1",
+              "raw": "1 celery stick finely chopped"
+            },
+            {
+              "name": "carrot finely chopped",
+              "amount": "1",
+              "raw": "1 carrot finely chopped"
+            },
+            {
+              "name": "small red onion finely chopped",
+              "amount": "1",
+              "raw": "1 small red onion finely chopped"
+            },
+            {
+              "name": "dried porcini soaked for 10 mins in hot water, drained and roughly chopped",
+              "amount": "25g",
+              "raw": "25g dried porcini soaked for 10 mins in hot water, drained and roughly chopped"
+            },
+            {
+              "name": "rosemary sprig, leaves picked and chopped",
+              "amount": "1",
+              "raw": "1 rosemary sprig, leaves picked and chopped"
+            },
+            {
+              "name": "trimmed beef or veal flank, finely chopped (ask your butcher to do this for you)",
+              "amount": "1kg",
+              "raw": "1kg trimmed beef or veal flank, finely chopped (ask your butcher to do this for you)"
+            },
+            {
+              "name": "dry white wine",
+              "amount": "125ml",
+              "raw": "125ml dry white wine"
+            },
+            {
+              "name": "can good-quality chopped tomatoes",
+              "amount": "400g",
+              "raw": "400g can good-quality chopped tomatoes"
+            },
+            {
+              "name": "1l full-fat milk",
+              "amount": null,
+              "raw": "1l full-fat milk"
+            },
+            {
+              "name": "bay leaf",
+              "amount": "1",
+              "raw": "1 bay leaf"
+            },
+            {
+              "name": "unsalted butter",
+              "amount": "75g",
+              "raw": "75g unsalted butter"
+            },
+            {
+              "name": "‘00’ pasta flour",
+              "amount": "125g",
+              "raw": "125g ‘00’ pasta flour"
+            },
+            {
+              "name": "good grating of nutmeg",
+              "amount": null,
+              "raw": "good grating of nutmeg"
+            },
+            {
+              "name": "parmesan finely grated",
+              "amount": "100g",
+              "raw": "100g parmesan finely grated"
+            },
+            {
+              "name": "egg yolks",
+              "amount": "2",
+              "raw": "2 egg yolks"
+            }
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "instruction": "For the ragu, melt the butter in a large flameproof casserole dish over a medium heat until foaming. Add the celery, carrot, onion, porcini, rosemary and some seasoning, and fry for 5 mins.",
+              "duration": null,
+              "heat": "medium heat"
+            },
+            {
+              "order": 2,
+              "instruction": "Season the meat, add to the dish and cook for 5 mins until browned. Pour in the wine, add the tomatoes and bring to the boil.",
+              "duration": null,
+              "heat": null
+            },
+            {
+              "order": 3,
+              "instruction": "Reduce the heat to low, put the lid on the dish and cook for 1hr 30 mins, removing the lid for the final 30 mins so the sauce can reduce. The meat should be tender but not too broken up, and the sauce should be thick. Taste for seasoning. You can cook it for longer if you have time - the flavour will only improve.",
+              "duration": null,
+              "heat": null
+            },
+            {
+              "order": 4,
+              "instruction": "For the béchamel sauce, pour the milk into a saucepan with the bay leaf. Bring to a simmer, turn off the heat and set aside. In a heavy-based saucepan, melt the butter over a medium heat, then whisk in the flour and hot milk. Whisk vigorously until smooth, then cook for 10-15 mins until very thick. Remove the bay leaf and season, grating in nutmeg to taste. Stir in the parmesan and egg yolks, then set aside to cool.",
+              "duration": null,
+              "heat": "medium heat"
+            },
+            {
+              "order": 5,
+              "instruction": "Heat oven to 180C/160C fan/gas 4. Working in batches of three, plunge the pasta sheets into a pan of boiling salted water for 20 secs, just to soften, then immediately put in a bowl of ice-cold water.",
+              "duration": null,
+              "heat": null
+            },
+            {
+              "order": 6,
+              "instruction": "Rub oil onto the base and sides of a large baking dish. Put a layer of pasta on the base, then add a layer of ragu, followed by a layer of béchamel sauce. A good tip, for really defined layers, is to pipe the béchamel sauce over.",
+              "duration": null,
+              "heat": null
+            },
+            {
+              "order": 7,
+              "instruction": "Repeat this process until you have used all the pasta and ragu, and finish with a layer of béchamel sauce on top. Sprinkle the top with a generous layer of parmesan.",
+              "duration": null,
+              "heat": null
+            },
+            {
+              "order": 8,
+              "instruction": "Bake in the oven for 40-45 mins or until bubbling and golden brown, then remove from the oven and leave to settle for 10 mins.",
+              "duration": null,
+              "heat": null
+            },
+            {
+              "order": 9,
+              "instruction": "Cut the lasagne into squares and let it sit for another 10 mins before serving – this keeps the layers defined and helps it cool down more quickly.",
+              "duration": null,
+              "heat": null
+            }
+          ],
+          "technique": [
+            "准备：40分钟",
+            "烹饪：170分钟",
+            "总用时：210分钟"
+          ],
+          "tips": [],
+          "rawExcerpt": "Theo Randall shares his authentic Italian lasagne recipe, with a creamy béchamel sauce and classic defined layers. Everyone's favourite family meal 250g pack fresh lasagne sheets olive oil for greasing large handful grated parmesan For the ragu, melt the butter in a large flameproof casserole dish over a medium heat until foaming. Add the celery, carrot, onion, porcini, rosemary and some seasoning, and fry for 5 mins. Season the meat, add to the dish and cook for 5 mins until browned. Pour in the wine, add the tomatoes and bring to the boil."
+        }
+      ],
+      "ragEvidence": [],
+      "notes": [
+        "两个来源均为启用的西餐白名单网站并已写入 Supabase。",
+        "BBC Good Food 使用 fetchHtml + Recipe JSON-LD + HTML正文；Serious Eats 直连失败后使用公开网页正文，未绕过访问控制。"
+      ]
+    }
+  ],
+  "rejectedTargets": [
+    {
+      "recipeId": "west-007",
+      "recipeName": "炸鱼薯条",
+      "status": "REJECTED_INSUFFICIENT_INDEPENDENT_SOURCES",
+      "reason": "BBC Good Food 有完整同名菜谱，但 Serious Eats 公开搜索未找到完整同名 Fish & Chips 菜谱，且站内搜索页不可读；未使用仅含炸鱼或其他变体的页面替代。",
+      "independentCompleteSources": 1,
+      "attempts": [
+        {
+          "sourceName": "BBC Good Food",
+          "searchUrl": "https://www.bbcgoodfood.com/search?q=fish%20and%20chips",
+          "canonicalUrl": "https://www.bbcgoodfood.com/recipes/next-level-fish-chips",
+          "pageTitle": "Classic fish & chips",
+          "retrievalMethod": "JSON-LD + HTML正文",
+          "complete": true,
+          "failureReason": null,
+          "documentId": "52453d9c-ccbe-4d0b-886a-7e6dc33520f9",
+          "chunks": 6,
+          "deduplicated": false,
+          "embedded": true
+        },
+        {
+          "sourceName": "Serious Eats",
+          "searchUrl": "https://www.seriouseats.com/search?q=fish%20and%20chips",
+          "canonicalUrl": null,
+          "pageTitle": null,
+          "retrievalMethod": "公开搜索 + 站内搜索尝试",
+          "complete": false,
+          "failureReason": "未找到完整同名菜谱；站内搜索页不可读，公开 site 搜索无结果。",
+          "documentId": null,
+          "chunks": 0,
+          "deduplicated": false,
+          "embedded": false
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "requestedFinalTargets": 3,
+    "passedTargets": 3,
+    "rejectedTargets": 1,
+    "documentsForPassedTargets": 6,
+    "chunksForPassedTargets": 34,
+    "embeddingModel": "voyage-4",
+    "embeddingDimension": 1024,
+    "standaloneChatModelApiCalls": 0
+  }
+}

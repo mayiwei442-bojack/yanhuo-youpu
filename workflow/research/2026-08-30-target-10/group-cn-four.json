@@ -1,0 +1,388 @@
+{
+  "group": "cn-four",
+  "startedAt": "2026-08-30T10:54:02.824Z",
+  "resumedAt": "2026-08-30T14:00:00.000Z",
+  "completedAt": "2026-08-30T14:14:18.163Z",
+  "category": "chinese",
+  "embeddingModel": "voyage-4",
+  "embeddingDimension": 1024,
+  "sourcePolicy": {
+    "enabledSources": [
+      "The Woks of Life",
+      "豆果美食"
+    ],
+    "accessControlsBypassed": false,
+    "standaloneChatModelApiUsed": false
+  },
+  "summary": {
+    "recipes": 4,
+    "passed": 4,
+    "failed": 0,
+    "successfulDocuments": 8,
+    "chunks": 43,
+    "retrievedIndependentSourcesPerRecipe": 2,
+    "historicalFailedAttempts": 5
+  },
+  "recipes": [
+    {
+      "recipeId": "cn-002",
+      "recipeName": "宫保鸡丁",
+      "category": "chinese",
+      "status": "PASS",
+      "recipeEntityId": "72b6de7e-d0bb-495d-93d4-4d43f5628c0a",
+      "attempts": [
+        {
+          "sourceName": "The Woks of Life",
+          "searchUrl": "https://thewoksoflife.com/?s=kung+pao+chicken",
+          "canonicalDetailUrl": "https://thewoksoflife.com/kung-pao-chicken/",
+          "pageTitle": "Kung Pao Chicken: An Authentic Chinese Recipe - The Woks of Life",
+          "retrievalMethod": "JSON-LD + HTML正文",
+          "initialFetch": "success",
+          "laterRefetch": "not-required",
+          "complete": true,
+          "failureReason": null,
+          "documentId": "364f8d36-ac14-4fba-a1c2-19f57b0cdaf3",
+          "chunks": 6,
+          "deduplicated": false,
+          "embedded": true
+        },
+        {
+          "sourceName": "豆果美食",
+          "searchUrl": "https://m.douguo.com/caipu/%E5%AE%AB%E4%BF%9D%E9%B8%A1%E4%B8%81",
+          "canonicalDetailUrl": "https://www.douguo.com/cookbook/3047016.html",
+          "pageTitle": "宫保鸡丁的做法_10分钟搞定_好吃下饭_豆果美食",
+          "retrievalMethod": "HTML正文",
+          "initialFetch": "success",
+          "laterRefetch": "HTTP 403",
+          "complete": true,
+          "failureReason": null,
+          "documentId": "cd54415e-cf51-4fa1-99e4-96260ce203f1",
+          "chunks": 5,
+          "deduplicated": false,
+          "embedded": true,
+          "normalizedRecipe": {
+            "recipeName": "宫保鸡丁",
+            "aliases": ["学会这酱汁比例，厨房新手也能成功—宫保鸡丁"],
+            "category": "chinese",
+            "cuisine": "家常菜",
+            "summary": "鸡腿肉配花生和葱段，以生抽、老抽、米醋和白糖调成宫保汁，大火快速炒成酸甜微辣的宫保鸡丁。",
+            "ingredients": [
+              {"name": "鸡腿", "amount": "2个", "raw": "鸡腿 2个", "evidence": "explicit"},
+              {"name": "大葱", "amount": "1根", "raw": "大葱 1根", "evidence": "explicit"},
+              {"name": "花生米", "amount": "适量", "raw": "花生米 适量", "evidence": "explicit"},
+              {"name": "生抽", "amount": "3大勺", "raw": "生抽 3大勺", "evidence": "explicit"},
+              {"name": "老抽", "amount": "1勺", "raw": "老抽 1勺", "evidence": "explicit"},
+              {"name": "料酒", "amount": "2大勺", "raw": "料酒 2大勺", "evidence": "explicit"},
+              {"name": "米醋", "amount": "2大勺", "raw": "米醋 2大勺", "evidence": "explicit"},
+              {"name": "白糖", "amount": "1大勺", "raw": "白糖 1大勺", "evidence": "explicit"},
+              {"name": "盐", "amount": "1小勺", "raw": "盐 1小勺", "evidence": "explicit"},
+              {"name": "蒜", "amount": "3瓣", "raw": "蒜 3瓣", "evidence": "explicit"},
+              {"name": "姜", "amount": "5片", "raw": "姜 5片", "evidence": "explicit"}
+            ],
+            "steps": [
+              {"order": 1, "instruction": "准备食材。", "duration": null, "heat": null, "evidence": "explicit"},
+              {"order": 2, "instruction": "蒜切片、姜切片。", "duration": null, "heat": null, "evidence": "explicit"},
+              {"order": 3, "instruction": "葱白顺着切成小丁。", "duration": null, "heat": null, "evidence": "explicit"},
+              {"order": 4, "instruction": "辣椒剪成段。", "duration": null, "heat": null, "evidence": "explicit"},
+              {"order": 5, "instruction": "鸡腿去掉骨头洗净控水，平铺用刀背轻轻拍几下，然后切成小丁。", "duration": null, "heat": null, "evidence": "explicit"},
+              {"order": 6, "instruction": "鸡丁加入料酒，用手抓匀。", "duration": null, "heat": null, "evidence": "explicit"},
+              {"order": 7, "instruction": "加1勺水淀粉再次抓匀，腌制10分钟。", "duration": "10分钟", "heat": null, "evidence": "explicit"},
+              {"order": 8, "instruction": "碗中加入2大勺生抽、2大勺米醋、1勺料酒、1勺老抽、1大勺白糖、1小勺白胡椒粉和3勺水淀粉，搅拌均匀成碗汁。", "duration": null, "heat": null, "evidence": "explicit"},
+              {"order": 9, "instruction": "锅内加油，倒入花生米，小火慢慢炒至酥脆，捞出去皮备用。", "duration": null, "heat": "小火", "evidence": "explicit"},
+              {"order": 10, "instruction": "锅内再加油烧至温热，倒入辣椒段、蒜片、姜片和一半葱丁炒出香味。", "duration": null, "heat": null, "evidence": "explicit"},
+              {"order": 11, "instruction": "转大火加入鸡肉丁，快速翻炒2至3分钟。", "duration": "2-3分钟", "heat": "大火", "evidence": "explicit"},
+              {"order": 12, "instruction": "倒入碗汁，大火炒至汤汁黏稠。", "duration": null, "heat": "大火", "evidence": "explicit"},
+              {"order": 13, "instruction": "最后倒入剩余葱丁和花生米，快速炒匀出锅。", "duration": null, "heat": null, "evidence": "explicit"},
+              {"order": 14, "instruction": "装盘食用。", "duration": null, "heat": null, "evidence": "explicit"}
+            ],
+            "technique": [
+              {"text": "10分钟", "evidence": "explicit"},
+              {"text": "小火", "evidence": "explicit"},
+              {"text": "2-3分钟", "evidence": "explicit"},
+              {"text": "大火", "evidence": "explicit"}
+            ],
+            "tips": [],
+            "source": {"type": "website", "name": "豆果美食", "url": "https://www.douguo.com/cookbook/3047016.html", "bookTitle": null, "author": null, "pageStart": null, "pageEnd": null, "location": null, "retrievalMethod": "HTML正文", "retrievedAt": "2026-08-30T10:52:00.000Z"},
+            "metadata": {"sourceRecipeName": "学会这酱汁比例，厨房新手也能成功—宫保鸡丁", "initialFetch": "success", "laterRefetch": "HTTP 403"}
+          },
+          "rawReadableText": "菜名：宫保鸡丁\n原料：鸡腿2个；大葱1根；花生米适量；生抽3大勺；老抽1勺；料酒2大勺；米醋2大勺；白糖1大勺；盐1小勺；蒜3瓣；姜5片。\n步骤：1.准备食材。2.蒜、姜切片。3.葱白切小丁。4.辣椒剪段。5.鸡腿去骨拍松切丁。6.鸡丁加料酒抓匀。7.加水淀粉腌10分钟。8.生抽、米醋、料酒、老抽、白糖、白胡椒粉和水淀粉调碗汁。9.小火炒酥花生。10.炒香辣椒、蒜、姜和葱丁。11.大火炒鸡丁2至3分钟。12.倒碗汁大火炒稠。13.拌入葱丁和花生出锅。"
+        }
+      ],
+      "retrieval": {
+        "semanticResults": 10,
+        "hybridResults": 10,
+        "retrievedIndependentSources": 2,
+        "totalChunks": 11,
+        "chunkTypes": ["summary", "ingredients", "steps", "technique", "tips"],
+        "semanticTop": {"documentId": "364f8d36-ac14-4fba-a1c2-19f57b0cdaf3", "chunkType": "steps", "similarity": 0.691623050473748}
+      }
+    },
+    {
+      "recipeId": "cn-003",
+      "recipeName": "麻婆豆腐",
+      "category": "chinese",
+      "status": "PASS",
+      "recipeEntityId": "5b7a0c8f-8c66-416c-aa25-601a5b26f3ac",
+      "attempts": [
+        {
+          "sourceName": "The Woks of Life",
+          "searchUrl": "https://thewoksoflife.com/?s=mapo+tofu",
+          "canonicalDetailUrl": "https://thewoksoflife.com/ma-po-tofu-real-deal/",
+          "pageTitle": "Mapo Tofu Recipe: The Real Deal - The Woks of Life",
+          "retrievalMethod": "JSON-LD + HTML正文",
+          "initialFetch": "success",
+          "laterRefetch": "not-required",
+          "complete": true,
+          "failureReason": null,
+          "documentId": "0c24a839-89d2-4372-bb85-a1ce573d4ba4",
+          "chunks": 6,
+          "deduplicated": false,
+          "embedded": true
+        },
+        {
+          "sourceName": "豆果美食",
+          "searchUrl": "https://m.douguo.com/caipu/%E9%BA%BB%E5%A9%86%E8%B1%86%E8%85%90",
+          "canonicalDetailUrl": "https://www.douguo.com/cookbook/202827.html",
+          "pageTitle": "麻婆豆腐的做法大全麻婆豆腐怎么做_豆果美食",
+          "retrievalMethod": "HTML正文",
+          "initialFetch": "success",
+          "laterRefetch": "HTTP 403",
+          "complete": true,
+          "failureReason": null,
+          "documentId": "0ac7229f-3c30-4a2c-a8f9-e0e0546a5010",
+          "chunks": 5,
+          "deduplicated": false,
+          "embedded": true,
+          "normalizedRecipe": {
+            "recipeName": "麻婆豆腐",
+            "aliases": ["正宗四川名品—麻婆豆腐"],
+            "category": "chinese",
+            "cuisine": "川菜",
+            "summary": "色泽红亮、味道麻辣、鲜香软嫩的川菜名品，以麻、辣、烫、鲜、嫩、香、酥见长。",
+            "ingredients": [
+              {"name": "豆腐", "amount": "400克", "raw": "豆腐 400克", "evidence": "explicit"},
+              {"name": "牛肉末", "amount": "100克", "raw": "牛肉末 100克", "evidence": "explicit"},
+              {"name": "酱油", "amount": "10克", "raw": "酱油 10克", "evidence": "explicit"},
+              {"name": "郫县豆瓣酱", "amount": "30克", "raw": "郫县豆瓣酱 30克", "evidence": "explicit"},
+              {"name": "白糖", "amount": "10克", "raw": "白糖 10克", "evidence": "explicit"},
+              {"name": "豆豉", "amount": "10克", "raw": "豆豉 10克", "evidence": "explicit"},
+              {"name": "料酒", "amount": "15克", "raw": "料酒 15克", "evidence": "explicit"},
+              {"name": "盐", "amount": null, "raw": "盐", "evidence": "explicit"},
+              {"name": "骨汤", "amount": "300克", "raw": "骨汤 300克", "evidence": "explicit"},
+              {"name": "青蒜", "amount": "1棵", "raw": "青蒜 1棵", "evidence": "explicit"},
+              {"name": "生姜", "amount": "1小块", "raw": "生姜 1小块", "evidence": "explicit"},
+              {"name": "大蒜", "amount": "一个", "raw": "大蒜 一个", "evidence": "explicit"},
+              {"name": "花椒", "amount": "5克", "raw": "花椒 5克", "evidence": "explicit"},
+              {"name": "淀粉", "amount": "适量", "raw": "淀粉 适量", "evidence": "explicit"},
+              {"name": "干辣椒", "amount": "2个", "raw": "干辣椒 2个", "evidence": "explicit"},
+              {"name": "油", "amount": "40克", "raw": "油 40克", "evidence": "explicit"}
+            ],
+            "steps": [
+              {"order": 1, "instruction": "青蒜、生姜、大蒜、干辣椒切细末，花椒放锅中小火炒香，冷后压成花椒末。豆豉、豆瓣酱剁碎。豆腐切成2厘米见方的块，放入加少许盐的沸水中汆一下，捞出用白开水浸泡。", "duration": null, "heat": "小火", "evidence": "explicit"},
+              {"order": 2, "instruction": "炒锅烧热，放入牛肉末小火干炒。待肉末炒至松散起酥，装碗。炒锅烧热放油，放入豆瓣酱，再放豆豉、姜末、蒜末和辣椒末炒香。", "duration": null, "heat": "小火", "evidence": "explicit"},
+              {"order": 3, "instruction": "放骨汤煮沸，加酱油、糖并按咸度加盐，放入沥水豆腐丁和料酒，大火烧开后小火煮2分钟，用湿淀粉勾薄芡；放牛肉末再烧2分钟，再勾一次芡。", "duration": "2分钟", "heat": "大火", "evidence": "explicit"},
+              {"order": 4, "instruction": "装碗后撒上花椒面、青蒜末。", "duration": null, "heat": null, "evidence": "explicit"}
+            ],
+            "technique": [{"text": "小火", "evidence": "explicit"}, {"text": "2分钟", "evidence": "explicit"}, {"text": "大火", "evidence": "explicit"}],
+            "tips": [{"text": "豆腐焯水时在沸水中加少许盐，可去豆腥并保持软嫩。碎牛肉要煸炒至酥香；豆腐入锅后少搅动以保持块形完整；烧制过程中分两次勾芡。", "evidence": "explicit"}],
+            "source": {"type": "website", "name": "豆果美食", "url": "https://www.douguo.com/cookbook/202827.html", "bookTitle": null, "author": null, "pageStart": null, "pageEnd": null, "location": null, "retrievalMethod": "HTML正文", "retrievedAt": "2026-08-30T10:52:00.000Z"},
+            "metadata": {"sourceRecipeName": "正宗四川名品—麻婆豆腐", "initialFetch": "success", "laterRefetch": "HTTP 403"}
+          },
+          "rawReadableText": "菜名：麻婆豆腐\n原料：豆腐400克；牛肉末100克；酱油10克；郫县豆瓣酱30克；白糖10克；豆豉10克；料酒15克；盐；骨汤300克；青蒜1棵；生姜1小块；大蒜一个；花椒5克；淀粉适量；干辣椒2个；油40克。\n步骤：1.香料切末，花椒炒香压末，豆腐切块淡盐水汆烫。2.牛肉末炒酥，炒香豆瓣、豆豉、姜蒜和辣椒。3.加骨汤和调味料，下豆腐烧煮，分两次勾芡并加入牛肉末。4.撒花椒面和青蒜末。\n技巧：豆腐焯水加盐，少搅动，牛肉末炒酥，分两次勾芡。"
+        }
+      ],
+      "retrieval": {
+        "semanticResults": 10,
+        "hybridResults": 10,
+        "retrievedIndependentSources": 2,
+        "totalChunks": 11,
+        "chunkTypes": ["summary", "ingredients", "steps", "technique", "tips"],
+        "semanticTop": {"documentId": "0ac7229f-3c30-4a2c-a8f9-e0e0546a5010", "chunkType": "technique", "similarity": 0.676249645166028}
+      }
+    },
+    {
+      "recipeId": "cn-004",
+      "recipeName": "鱼香肉丝",
+      "category": "chinese",
+      "status": "PASS",
+      "recipeEntityId": "13a4b446-f25a-4979-b5c0-b909bbc1149e",
+      "attempts": [
+        {
+          "sourceName": "The Woks of Life",
+          "searchUrl": "https://thewoksoflife.com/?s=yu+xiang+rou+si",
+          "canonicalDetailUrl": "https://thewoksoflife.com/pork-garlic-sauce/",
+          "pageTitle": "Pork with Garlic Sauce (鱼香肉丝） - The Woks of Life",
+          "retrievalMethod": "JSON-LD + HTML正文",
+          "initialFetch": "success",
+          "laterRefetch": "not-required",
+          "complete": true,
+          "failureReason": null,
+          "documentId": "e6c112e9-6d7d-4a60-961f-7057aafc2a6e",
+          "chunks": 6,
+          "deduplicated": false,
+          "embedded": true
+        },
+        {
+          "sourceName": "豆果美食",
+          "searchUrl": "https://m.douguo.com/caipu/%E9%B1%BC%E9%A6%99%E8%82%89%E4%B8%9D",
+          "canonicalDetailUrl": "https://www.douguo.com/cookbook/1301364.html",
+          "pageTitle": "鱼香肉丝的做法大全鱼香肉丝怎么做_豆果美食",
+          "retrievalMethod": "HTML正文",
+          "initialFetch": "success",
+          "laterRefetch": "HTTP 403",
+          "complete": true,
+          "failureReason": null,
+          "documentId": "516ad8cf-b08b-44a8-9937-0609b30126d2",
+          "chunks": 5,
+          "deduplicated": false,
+          "embedded": true,
+          "normalizedRecipe": {
+            "recipeName": "鱼香肉丝",
+            "aliases": [],
+            "category": "chinese",
+            "cuisine": "川菜",
+            "summary": "经典汉族传统川菜，以猪肉丝、黑木耳和胡萝卜配鱼香调味汁快速炒成。",
+            "ingredients": [
+              {"name": "猪肉", "amount": "150g", "raw": "猪肉 150g", "evidence": "explicit"},
+              {"name": "黑木耳", "amount": "一小把", "raw": "黑木耳 一小把", "evidence": "explicit"},
+              {"name": "胡萝卜", "amount": "半根", "raw": "胡萝卜 半根", "evidence": "explicit"},
+              {"name": "姜丝", "amount": "适量", "raw": "姜丝 适量", "evidence": "explicit"},
+              {"name": "葱段", "amount": "适量", "raw": "葱段 适量", "evidence": "explicit"},
+              {"name": "蒜蓉", "amount": "适量", "raw": "蒜蓉 适量", "evidence": "explicit"},
+              {"name": "辣椒酱", "amount": "适量", "raw": "辣椒酱 适量", "evidence": "explicit"},
+              {"name": "生抽", "amount": "10ml", "raw": "生抽 10ml", "evidence": "explicit"},
+              {"name": "老抽", "amount": "10ml", "raw": "老抽 10ml", "evidence": "explicit"},
+              {"name": "白糖", "amount": "10克", "raw": "白糖 10克", "evidence": "explicit"},
+              {"name": "醋", "amount": "半勺", "raw": "醋 半勺", "evidence": "explicit"},
+              {"name": "料酒", "amount": "半勺", "raw": "料酒 半勺", "evidence": "explicit"},
+              {"name": "植物油", "amount": "适量", "raw": "植物油 适量", "evidence": "explicit"},
+              {"name": "淀粉", "amount": "半勺", "raw": "淀粉 半勺", "evidence": "explicit"}
+            ],
+            "steps": [
+              {"order": 1, "instruction": "准备所有食材。", "duration": null, "heat": null, "evidence": "explicit"},
+              {"order": 2, "instruction": "用淀粉水和盐腌制肉丝3分钟。", "duration": "3分钟", "heat": null, "evidence": "explicit"},
+              {"order": 3, "instruction": "大火热锅加500ml水，下胡萝卜丝和木耳过水3分钟，捞起沥干。", "duration": "3分钟", "heat": "大火", "evidence": "explicit"},
+              {"order": 4, "instruction": "热锅下油50ml，下肉丝翻炒1分钟后捞起备用。", "duration": "1分钟", "heat": null, "evidence": "explicit"},
+              {"order": 5, "instruction": "保留锅中油，爆香蒜蓉、姜丝和葱段，下胡萝卜丝、木耳翻炒1分钟；加入肉丝、生抽、老抽、醋、辣椒酱、白糖、辣椒油和料酒，翻炒均匀后熄火起锅。", "duration": "1分钟", "heat": null, "evidence": "explicit"}
+            ],
+            "technique": [{"text": "3分钟", "evidence": "explicit"}, {"text": "大火", "evidence": "explicit"}, {"text": "1分钟", "evidence": "explicit"}],
+            "tips": [{"text": "调味可按口味调整，成品约400克；因含黑木耳，原作者建议午餐食用。", "evidence": "explicit"}],
+            "source": {"type": "website", "name": "豆果美食", "url": "https://www.douguo.com/cookbook/1301364.html", "bookTitle": null, "author": null, "pageStart": null, "pageEnd": null, "location": null, "retrievalMethod": "HTML正文", "retrievedAt": "2026-08-30T10:52:00.000Z"},
+            "metadata": {"sourceRecipeName": "鱼香肉丝", "initialFetch": "success", "laterRefetch": "HTTP 403"}
+          },
+          "rawReadableText": "菜名：鱼香肉丝\n原料：猪肉150g；黑木耳一小把；胡萝卜半根；姜丝、葱段、蒜蓉、辣椒酱适量；生抽10ml；老抽10ml；白糖10克；醋半勺；料酒半勺；植物油适量；淀粉半勺。\n步骤：1.准备食材。2.肉丝用淀粉水和盐腌3分钟。3.胡萝卜丝和木耳大火过水3分钟。4.肉丝炒1分钟盛出。5.爆香葱姜蒜，炒胡萝卜和木耳，加入肉丝及鱼香调味料快速炒匀。\n技巧：调味按口味调整，成品约400克。"
+        }
+      ],
+      "retrieval": {
+        "semanticResults": 10,
+        "hybridResults": 10,
+        "retrievedIndependentSources": 2,
+        "totalChunks": 11,
+        "chunkTypes": ["summary", "ingredients", "steps", "technique", "tips"],
+        "semanticTop": {"documentId": "516ad8cf-b08b-44a8-9937-0609b30126d2", "chunkType": "steps", "similarity": 0.700097125774452}
+      }
+    },
+    {
+      "recipeId": "cn-006",
+      "recipeName": "红烧肉",
+      "category": "chinese",
+      "status": "PASS",
+      "recipeEntityId": "430e1542-2dd5-4c56-97ee-94d985b567ff",
+      "attempts": [
+        {
+          "sourceName": "豆果美食",
+          "searchUrl": "https://m.douguo.com/caipu/%E7%BA%A2%E7%83%A7%E8%82%89",
+          "canonicalDetailUrl": "https://www.douguo.com/cookbook/1406803.html",
+          "pageTitle": "美味红烧肉",
+          "retrievalMethod": null,
+          "initialFetch": "HTTP 404",
+          "laterRefetch": "not-attempted",
+          "complete": false,
+          "failureReason": "HTTP 404",
+          "documentId": null,
+          "chunks": 0,
+          "deduplicated": false,
+          "embedded": false
+        },
+        {
+          "sourceName": "The Woks of Life",
+          "searchUrl": "https://thewoksoflife.com/?s=hong+shao+rou",
+          "canonicalDetailUrl": "https://thewoksoflife.com/shanghai-style-braised-pork-belly/",
+          "pageTitle": "Shanghai-Style Braised Pork Belly (Hong Shao Rou) - The Woks of Life",
+          "retrievalMethod": "JSON-LD + HTML正文",
+          "initialFetch": "success",
+          "laterRefetch": "not-required",
+          "complete": true,
+          "failureReason": null,
+          "documentId": "b942e03a-0c79-4c86-97e5-4d4b2b674080",
+          "chunks": 5,
+          "deduplicated": false,
+          "embedded": true
+        },
+        {
+          "sourceName": "豆果美食",
+          "searchUrl": "https://m.douguo.com/caipu/%E7%BA%A2%E7%83%A7%E8%82%89",
+          "canonicalDetailUrl": "https://www.douguo.com/cookbook/3067833.html",
+          "pageTitle": "红烧肉的做法大全红烧肉怎么做_豆果美食",
+          "retrievalMethod": "HTML正文",
+          "initialFetch": "success",
+          "laterRefetch": "HTTP 403",
+          "complete": true,
+          "failureReason": null,
+          "documentId": "4fa3d2d6-5b4b-4269-beca-a0f8cd971223",
+          "chunks": 5,
+          "deduplicated": false,
+          "embedded": true,
+          "normalizedRecipe": {
+            "recipeName": "红烧肉",
+            "aliases": ["红烧肉（不焯水，不放油，不放盐，肉嫩软烂的做法）"],
+            "category": "chinese",
+            "cuisine": "家常菜",
+            "summary": "不焯水、不另放油和盐的红烧肉做法，通过煎出五花肉自身油脂、冰糖上色、花雕酒和酱油调味后小火慢炖。",
+            "ingredients": [
+              {"name": "带皮五花肉", "amount": "一斤半左右", "raw": "带皮五花肉 一斤半左右", "evidence": "explicit"},
+              {"name": "冰糖", "amount": "小粒十来粒", "raw": "冰糖 小粒十来粒", "evidence": "explicit"},
+              {"name": "姜片", "amount": "4片", "raw": "姜片 4片", "evidence": "explicit"},
+              {"name": "八角", "amount": "1-2个（可选）", "raw": "八角 1-2个（可选）", "evidence": "explicit"},
+              {"name": "香叶", "amount": "2-3片（可选）", "raw": "香叶 2-3片（可选）", "evidence": "explicit"},
+              {"name": "干辣椒", "amount": "1个（可选）", "raw": "干辣椒 1个（可选）", "evidence": "explicit"},
+              {"name": "黄酒或花雕酒", "amount": "2大勺", "raw": "黄酒或花雕酒 2大勺", "evidence": "explicit"},
+              {"name": "老抽", "amount": "2大勺", "raw": "老抽 2大勺", "evidence": "explicit"},
+              {"name": "生抽", "amount": "2大勺", "raw": "生抽 2大勺", "evidence": "explicit"},
+              {"name": "开水", "amount": "没过肉", "raw": "开水 没过肉", "evidence": "explicit"}
+            ],
+            "steps": [
+              {"order": 1, "instruction": "选择肥瘦相间的带皮五花肉，洗净控干，切成小块。", "duration": null, "heat": null, "evidence": "explicit"},
+              {"order": 2, "instruction": "不放油，将肉块平铺在锅中，逐面煎至四面金黄并煎出油脂，盛出。", "duration": null, "heat": "小火", "evidence": "explicit"},
+              {"order": 3, "instruction": "保留锅内油，放入冰糖反复炒至微红，把煎好的五花肉倒回翻炒；放姜片、八角、香叶和可选干辣椒继续翻炒，加入花雕酒去腥提鲜。", "duration": null, "heat": "小火", "evidence": "explicit"},
+              {"order": 4, "instruction": "加入生抽和老抽调味上色，不另加盐。", "duration": null, "heat": null, "evidence": "explicit"},
+              {"order": 5, "instruction": "加入没过肉的开水，盖盖小火慢炖40至60分钟。", "duration": "40-60分钟", "heat": "小火", "evidence": "explicit"},
+              {"order": 6, "instruction": "最后大火翻拌收汁，保留浓稠挂汁，不要炒干。", "duration": null, "heat": "大火", "evidence": "explicit"},
+              {"order": 7, "instruction": "装盘食用。", "duration": null, "heat": null, "evidence": "explicit"}
+            ],
+            "technique": [{"text": "小火", "evidence": "explicit"}, {"text": "40-60分钟", "evidence": "explicit"}, {"text": "大火", "evidence": "explicit"}],
+            "tips": [],
+            "source": {"type": "website", "name": "豆果美食", "url": "https://www.douguo.com/cookbook/3067833.html", "bookTitle": null, "author": null, "pageStart": null, "pageEnd": null, "location": null, "retrievalMethod": "HTML正文", "retrievedAt": "2026-08-30T10:52:00.000Z"},
+            "metadata": {"sourceRecipeName": "红烧肉（不焯水，不放油，不放盐，肉嫩软烂的做法）", "initialFetch": "success", "laterRefetch": "HTTP 403", "initialExtractorCounts": {"ingredients": 11, "steps": 7}, "reconstructedIngredientCount": 10, "note": "首次成功提取终端仅保留11项计数；原始可读正文可确认10项，未臆造缺失项。"}
+          },
+          "rawReadableText": "菜名：红烧肉\n原料：带皮五花肉一斤半左右；冰糖小粒十来粒；姜片4片；八角1至2个；香叶2至3片；干辣椒1个；黄酒或花雕酒2大勺；老抽2大勺；生抽2大勺；开水没过肉。\n步骤：1.五花肉洗净控干切块。2.不放油逐面煎黄并煎出油脂。3.冰糖炒至微红，肉回锅上色，加入姜片、八角、香叶、干辣椒和花雕酒。4.加生抽老抽。5.加开水小火炖40至60分钟。6.大火收至挂汁但不炒干。7.装盘。"
+        }
+      ],
+      "retrieval": {
+        "semanticResults": 10,
+        "hybridResults": 10,
+        "retrievedIndependentSources": 2,
+        "totalChunks": 10,
+        "chunkTypes": ["summary", "ingredients", "steps", "technique", "tips"],
+        "semanticTop": {"documentId": "4fa3d2d6-5b4b-4269-beca-a0f8cd971223", "chunkType": "steps", "similarity": 0.684231717334289}
+      }
+    }
+  ],
+  "notes": [
+    "四个 The Woks of Life document 在恢复前已存在；恢复时先查询数据库并完整复用，未重新抓取、未重新向量化。",
+    "四个豆果详情页在初次研究阶段均由仓库 fetchHtml 与 HTML 提取器成功读取；入库阶段的再次请求统一返回 HTTP 403，未绕过访问控制。恢复后使用已保存的规范化证据直接调用 ingestDocument。",
+    "红烧肉首个豆果候选 1406803 返回 HTTP 404；同站同名 3067833 在首次公开读取时完整，随后用于最终入库。",
+    "红烧肉首次提取器输出显示 11 项配料，但首次终端未保存第 11 项正文；报告和最终入库只采用原始可读正文可确认的 10 项，未虚构缺失字段。",
+    "四道菜均有两个独立完整 website document，semantic 与 hybrid 各返回 10 条，且 entity-scoped semantic 检索均覆盖两个独立来源。"
+  ]
+}

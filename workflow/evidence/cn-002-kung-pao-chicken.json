@@ -1,0 +1,470 @@
+{
+  "recipeId": "cn-002",
+  "recipeName": "宫保鸡丁",
+  "category": "chinese",
+  "createdAt": "2026-08-30T14:39:18.042Z",
+  "sources": [
+    {
+      "sourceName": "The Woks of Life",
+      "sourceType": "website",
+      "url": "https://thewoksoflife.com/kung-pao-chicken/",
+      "documentId": "364f8d36-ac14-4fba-a1c2-19f57b0cdaf3",
+      "retrievalMethod": "JSON-LD + HTML正文",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "vegetable oil",
+          "amount": "1 teaspoon",
+          "raw": "1 teaspoon vegetable oil",
+          "evidence": "explicit"
+        },
+        {
+          "name": "raw peanuts ((shelled, with or without the skin))",
+          "amount": "1 cup",
+          "raw": "1 cup raw peanuts ((shelled, with or without the skin))",
+          "evidence": "explicit"
+        },
+        {
+          "name": "oz. chicken breast ((cut into 3/4-inch/2cm cubes))",
+          "amount": "12",
+          "raw": "12 oz. chicken breast ((cut into 3/4-inch/2cm cubes))",
+          "evidence": "explicit"
+        },
+        {
+          "name": "vegetable oil",
+          "amount": "1 teaspoon",
+          "raw": "1 teaspoon vegetable oil",
+          "evidence": "explicit"
+        },
+        {
+          "name": "cornstarch",
+          "amount": "1 teaspoon",
+          "raw": "1 teaspoon cornstarch",
+          "evidence": "explicit"
+        },
+        {
+          "name": "shaoxing wine",
+          "amount": "1 teaspoon",
+          "raw": "1 teaspoon shaoxing wine",
+          "evidence": "explicit"
+        },
+        {
+          "name": "salt",
+          "amount": "1/8 teaspoon",
+          "raw": "1/8 teaspoon salt",
+          "evidence": "explicit"
+        },
+        {
+          "name": "pinch white pepper",
+          "amount": "1",
+          "raw": "1 pinch white pepper",
+          "evidence": "explicit"
+        },
+        {
+          "name": "light soy sauce",
+          "amount": "1 tablespoon",
+          "raw": "1 tablespoon light soy sauce",
+          "evidence": "explicit"
+        },
+        {
+          "name": "dark soy sauce",
+          "amount": "1/2 teaspoon",
+          "raw": "1/2 teaspoon dark soy sauce",
+          "evidence": "explicit"
+        },
+        {
+          "name": "rice wine vinegar",
+          "amount": "1 tablespoon",
+          "raw": "1 tablespoon rice wine vinegar",
+          "evidence": "explicit"
+        },
+        {
+          "name": "sugar",
+          "amount": "1 teaspoon",
+          "raw": "1 teaspoon sugar",
+          "evidence": "explicit"
+        },
+        {
+          "name": "water",
+          "amount": "3 tablespoons",
+          "raw": "3 tablespoons water",
+          "evidence": "explicit"
+        },
+        {
+          "name": "cornstarch",
+          "amount": "1 teaspoon",
+          "raw": "1 teaspoon cornstarch",
+          "evidence": "explicit"
+        },
+        {
+          "name": "oil",
+          "amount": "3 tablespoons",
+          "raw": "3 tablespoons oil",
+          "evidence": "explicit"
+        },
+        {
+          "name": "cloves garlic ((smashed and sliced))",
+          "amount": "3",
+          "raw": "3 cloves garlic ((smashed and sliced))",
+          "evidence": "explicit"
+        },
+        {
+          "name": "thin slices ginger ((minced))",
+          "amount": "2",
+          "raw": "2 thin slices ginger ((minced))",
+          "evidence": "explicit"
+        },
+        {
+          "name": "dried red chilies",
+          "amount": "2",
+          "raw": "2 dried red chilies",
+          "evidence": "explicit"
+        },
+        {
+          "name": "Sichuan peppercorn powder",
+          "amount": "1/2 teaspoon",
+          "raw": "1/2 teaspoon Sichuan peppercorn powder",
+          "evidence": "explicit"
+        },
+        {
+          "name": "scallions ((white portions only, cut into 3/4-inch/2cm pieces)",
+          "amount": "6",
+          "raw": "6 scallions ((white portions only, cut into 3/4-inch/2cm pieces)",
+          "evidence": "explicit"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Heat a teaspoon of oil in a wok over medium heat and add a cup of raw shelled peanuts. Stir constantly (or they’ll burn) for 3 minutes. Turn off the heat and stir for another minute using the residual heat in the wok. Set aside to cool. They will turn crunchy once they’re cooled completely. You can also skip this step and use already roasted shelled peanuts.",
+          "duration": "3 minutes",
+          "heat": "medium heat",
+          "evidence": "explicit"
+        },
+        {
+          "order": 2,
+          "instruction": "Marinate the chicken. Mix together the chicken with all the marinade ingredients in a bowl and set aside for 20 minutes.",
+          "duration": "20 minutes",
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 3,
+          "instruction": "Prepare the sauce. Mix together all the sauce ingredients in a medium bowl and set aside.",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 4,
+          "instruction": "Heat 2 tablespoons oil in a wok over high heat. Sear the chicken, remove from the wok to a bowl, and set aside.",
+          "duration": null,
+          "heat": "high heat",
+          "evidence": "explicit"
+        },
+        {
+          "order": 5,
+          "instruction": "Turn the heat to low and add another tablespoon oil. Add the garlic, ginger, chilies, Sichuan peppercorn powder, and scallions. Cook for a minute or two until fragrant.",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 6,
+          "instruction": "Add the chicken back to the pan and turn up the heat to high. Stir-fry for a minute and then use your finger to stir up your prepared sauce (the cornstarch will have settled to the bottom, so make sure it’s well incorporated). Add the sauce to the wok and stir-fry for another minute. The sauce should thicken very quickly.",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 7,
+          "instruction": "Finally, add the peanuts. Give everything a final stir and serve.",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        }
+      ],
+      "technique": [
+        "准备：30分钟",
+        "烹饪：10分钟",
+        "总用时：40分钟"
+      ],
+      "tips": [
+        "Then stir up your prepared sauce (the cornstarch will have settled to the bottom, so make sure it’s well incorporated).",
+        "Looking for more authentic recipes? Subscribe to our email list and be sure to follow us on Pinterest , Facebook , Instagram , and Youtube!"
+      ],
+      "rawExcerpt": "菜名：宫保鸡丁\n简介：Kung Pao Chicken exists both in traditional Chinese cuisine and on takeout menus. This easy, authentic Sichuan kung pao chicken recipe is the real thing.\n原料：1 teaspoon vegetable oil；1 cup raw peanuts ((shelled, with or without the skin))；12 oz. chicken breast ((cut into 3/4-inch/2cm cubes))；1 teaspoon vegetable oil；1 teaspoon cornstarch；1 teaspoon shaoxing wine；1/8 teaspoon salt；1 pinch white pepper；1 tablespoon light soy sauce；1/2 teaspoon dark soy sauce；1 tablespoon rice wine vinegar；1 teaspoon sugar；3 tablespoons water；1 teaspoon cornstarch；3 tablespoons oil；3 cloves garlic ((smashed and sliced))；2 thin slices ginger ((minced))；2 dried red chilies；1/2 teaspoon Sichuan peppercorn powder；6 scallions ((white portions only, cut into 3/4-inch/2cm pieces)\n步骤：1. Heat a teaspoon of oil in a wok over medium heat and add a cup of raw shelled peanuts. Stir constantly (or they’ll burn) for 3 minutes. Turn off the heat and stir for another minute using the residual heat in the wok. Set aside to cool. They will turn crunchy once they’re cooled completely. You can also skip this step and use already roasted shelled peanuts. 2. Marinate the chicken. Mix together the chicken with all the marinade ingredients in a bowl and set aside for 20 minutes. 3. Prepare the sauce. Mix together all the sauce ingredients in a medium bowl and set aside. 4. Heat 2 tablespoons oil in a wok over high heat. Sear the chicken, remove from the wok to a bowl, and set aside. 5. Turn the heat to low and add another tablespoon oil. Add the garlic, ginger, chilies, Sichuan peppercorn powder, and scallions. Cook for a minute or two until fragrant. 6. Add the chicken back to the pan and turn up the heat to high. Stir-fry for a minute and then use your finger to stir up your prepared sauce (the cornstarch will have settled to the bottom, so make sure it’s well incorporated). Add the sauce to the wok and stir-fry for another minute. The sauce should thicken very quickly. 7. Finally, add the peanuts. Give everything a final stir and serve.\n技法：准备：30分钟；烹饪：10分钟；总用时：40分钟\n提示：Then stir up your prepared sauce (the cornstarch will have settled to the bottom, so make sure it’s well incorporated).；Looking for more authentic recipes? Subscribe to our email list and be sure to follow us on Pinterest , Facebook , Instagram , and Youtube!"
+    },
+    {
+      "sourceName": "豆果美食",
+      "sourceType": "website",
+      "url": "https://www.douguo.com/cookbook/3047016.html",
+      "documentId": "cd54415e-cf51-4fa1-99e4-96260ce203f1",
+      "retrievalMethod": "HTML正文",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "鸡腿",
+          "amount": "2个",
+          "raw": "鸡腿 2个",
+          "evidence": "explicit"
+        },
+        {
+          "name": "大葱",
+          "amount": "1根",
+          "raw": "大葱 1根",
+          "evidence": "explicit"
+        },
+        {
+          "name": "花生米",
+          "amount": "适量",
+          "raw": "花生米 适量",
+          "evidence": "explicit"
+        },
+        {
+          "name": "生抽",
+          "amount": "3大勺",
+          "raw": "生抽 3大勺",
+          "evidence": "explicit"
+        },
+        {
+          "name": "老抽",
+          "amount": "1勺",
+          "raw": "老抽 1勺",
+          "evidence": "explicit"
+        },
+        {
+          "name": "料酒",
+          "amount": "2大勺",
+          "raw": "料酒 2大勺",
+          "evidence": "explicit"
+        },
+        {
+          "name": "米醋",
+          "amount": "2大勺",
+          "raw": "米醋 2大勺",
+          "evidence": "explicit"
+        },
+        {
+          "name": "白糖",
+          "amount": "1大勺",
+          "raw": "白糖 1大勺",
+          "evidence": "explicit"
+        },
+        {
+          "name": "盐",
+          "amount": "1小勺",
+          "raw": "盐 1小勺",
+          "evidence": "explicit"
+        },
+        {
+          "name": "蒜",
+          "amount": "3瓣",
+          "raw": "蒜 3瓣",
+          "evidence": "explicit"
+        },
+        {
+          "name": "姜",
+          "amount": "5片",
+          "raw": "姜 5片",
+          "evidence": "explicit"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "准备食材。",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 2,
+          "instruction": "蒜切片、姜切片。",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 3,
+          "instruction": "葱白顺着切成小丁。",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 4,
+          "instruction": "辣椒剪成段。",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 5,
+          "instruction": "鸡腿去掉骨头洗净控水，平铺用刀背轻轻拍几下，然后切成小丁。",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 6,
+          "instruction": "鸡丁加入料酒，用手抓匀。",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 7,
+          "instruction": "加1勺水淀粉再次抓匀，腌制10分钟。",
+          "duration": "10分钟",
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 8,
+          "instruction": "碗中加入2大勺生抽、2大勺米醋、1勺料酒、1勺老抽、1大勺白糖、1小勺白胡椒粉和3勺水淀粉，搅拌均匀成碗汁。",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 9,
+          "instruction": "锅内加油，倒入花生米，小火慢慢炒至酥脆，捞出去皮备用。",
+          "duration": null,
+          "heat": "小火",
+          "evidence": "explicit"
+        },
+        {
+          "order": 10,
+          "instruction": "锅内再加油烧至温热，倒入辣椒段、蒜片、姜片和一半葱丁炒出香味。",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 11,
+          "instruction": "转大火加入鸡肉丁，快速翻炒2至3分钟。",
+          "duration": "2-3分钟",
+          "heat": "大火",
+          "evidence": "explicit"
+        },
+        {
+          "order": 12,
+          "instruction": "倒入碗汁，大火炒至汤汁黏稠。",
+          "duration": null,
+          "heat": "大火",
+          "evidence": "explicit"
+        },
+        {
+          "order": 13,
+          "instruction": "最后倒入剩余葱丁和花生米，快速炒匀出锅。",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 14,
+          "instruction": "装盘食用。",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        }
+      ],
+      "technique": [
+        "10分钟",
+        "小火",
+        "2-3分钟",
+        "大火"
+      ],
+      "tips": [],
+      "rawExcerpt": "菜名：宫保鸡丁\n简介：鸡腿肉配花生和葱段，以生抽、老抽、米醋和白糖调成宫保汁，大火快速炒成酸甜微辣的宫保鸡丁。\n原料：鸡腿 2个；大葱 1根；花生米 适量；生抽 3大勺；老抽 1勺；料酒 2大勺；米醋 2大勺；白糖 1大勺；盐 1小勺；蒜 3瓣；姜 5片\n步骤：1. 准备食材。 2. 蒜切片、姜切片。 3. 葱白顺着切成小丁。 4. 辣椒剪成段。 5. 鸡腿去掉骨头洗净控水，平铺用刀背轻轻拍几下，然后切成小丁。 6. 鸡丁加入料酒，用手抓匀。 7. 加1勺水淀粉再次抓匀，腌制10分钟。 8. 碗中加入2大勺生抽、2大勺米醋、1勺料酒、1勺老抽、1大勺白糖、1小勺白胡椒粉和3勺水淀粉，搅拌均匀成碗汁。 9. 锅内加油，倒入花生米，小火慢慢炒至酥脆，捞出去皮备用。 10. 锅内再加油烧至温热，倒入辣椒段、蒜片、姜片和一半葱丁炒出香味。 11. 转大火加入鸡肉丁，快速翻炒2至3分钟。 12. 倒入碗汁，大火炒至汤汁黏稠。 13. 最后倒入剩余葱丁和花生米，快速炒匀出锅。 14. 装盘食用。\n技法：10分钟；小火；2-3分钟；大火"
+    }
+  ],
+  "ragEvidence": [
+    {
+      "chunkId": "180044a6-2ed9-4508-bc1e-75eeb1a8b81b",
+      "documentId": "364f8d36-ac14-4fba-a1c2-19f57b0cdaf3",
+      "sourceName": "The Woks of Life",
+      "chunkType": "steps",
+      "content": "菜名：宫保鸡丁\n1. Heat a teaspoon of oil in a wok over medium heat and add a cup of raw shelled peanuts. Stir constantly (or they’ll burn) for 3 minutes. Turn off the heat and stir for another minute using the residual heat in the wok. Set aside to cool. They will turn crunchy once they’re cooled completely. You can also skip this step and use already roasted shelled peanuts.（3 minutes）【medium heat】\n2. Marinate the chicken. Mix together the chicken with all the marinade ingredients in a bowl and set aside for 20 minutes.（20 minutes）\n3. Prepare the sauce. Mix together all the sauce ingredients in a medium bowl and set aside.\n4. Heat 2 tablespoons oil in a wok over high heat. Sear the chicken, remove from the wok to a bowl, and set aside.【high heat】\n5. Turn the heat to low and add another tablespoon oil. Add the garlic, ginger, chilies, Sichuan peppercorn powder, and scallions. Cook for a minute or two until fragrant.",
+      "similarity": 0.691623050473748
+    },
+    {
+      "chunkId": "3291f0b6-46be-4189-b52a-5dc1a546da6e",
+      "documentId": "cd54415e-cf51-4fa1-99e4-96260ce203f1",
+      "sourceName": "豆果美食",
+      "chunkType": "steps",
+      "content": "菜名：宫保鸡丁\n1. 准备食材。\n2. 蒜切片、姜切片。\n3. 葱白顺着切成小丁。\n4. 辣椒剪成段。\n5. 鸡腿去掉骨头洗净控水，平铺用刀背轻轻拍几下，然后切成小丁。\n6. 鸡丁加入料酒，用手抓匀。\n7. 加1勺水淀粉再次抓匀，腌制10分钟。（10分钟）\n8. 碗中加入2大勺生抽、2大勺米醋、1勺料酒、1勺老抽、1大勺白糖、1小勺白胡椒粉和3勺水淀粉，搅拌均匀成碗汁。\n9. 锅内加油，倒入花生米，小火慢慢炒至酥脆，捞出去皮备用。【小火】\n10. 锅内再加油烧至温热，倒入辣椒段、蒜片、姜片和一半葱丁炒出香味。\n11. 转大火加入鸡肉丁，快速翻炒2至3分钟。（2-3分钟）【大火】\n12. 倒入碗汁，大火炒至汤汁黏稠。【大火】\n13. 最后倒入剩余葱丁和花生米，快速炒匀出锅。\n14. 装盘食用。",
+      "similarity": 0.682050664302668
+    },
+    {
+      "chunkId": "f4f6fc43-3927-493e-ba09-b5f724a78933",
+      "documentId": "364f8d36-ac14-4fba-a1c2-19f57b0cdaf3",
+      "sourceName": "The Woks of Life",
+      "chunkType": "steps",
+      "content": "菜名：宫保鸡丁\n6. Add the chicken back to the pan and turn up the heat to high. Stir-fry for a minute and then use your finger to stir up your prepared sauce (the cornstarch will have settled to the bottom, so make sure it’s well incorporated). Add the sauce to the wok and stir-fry for another minute. The sauce should thicken very quickly.\n7. Finally, add the peanuts. Give everything a final stir and serve.",
+      "similarity": 0.666761616862967
+    },
+    {
+      "chunkId": "afc62495-94e3-412d-84e4-bbc386caedae",
+      "documentId": "364f8d36-ac14-4fba-a1c2-19f57b0cdaf3",
+      "sourceName": "The Woks of Life",
+      "chunkType": "ingredients",
+      "content": "菜名：宫保鸡丁\n- 1 teaspoon vegetable oil\n- 1 cup raw peanuts ((shelled, with or without the skin))\n- 12 oz. chicken breast ((cut into 3/4-inch/2cm cubes))\n- 1 teaspoon vegetable oil\n- 1 teaspoon cornstarch\n- 1 teaspoon shaoxing wine\n- 1/8 teaspoon salt\n- 1 pinch white pepper\n- 1 tablespoon light soy sauce\n- 1/2 teaspoon dark soy sauce\n- 1 tablespoon rice wine vinegar\n- 1 teaspoon sugar\n- 3 tablespoons water\n- 1 teaspoon cornstarch\n- 3 tablespoons oil\n- 3 cloves garlic ((smashed and sliced))\n- 2 thin slices ginger ((minced))\n- 2 dried red chilies\n- 1/2 teaspoon Sichuan peppercorn powder\n- 6 scallions ((white portions only, cut into 3/4-inch/2cm pieces)",
+      "similarity": 0.66276190689916
+    },
+    {
+      "chunkId": "0ea29134-ee9f-4dcf-bf22-7c8d8cd51003",
+      "documentId": "cd54415e-cf51-4fa1-99e4-96260ce203f1",
+      "sourceName": "豆果美食",
+      "chunkType": "technique",
+      "content": "菜名：宫保鸡丁\n- 10分钟\n- 小火\n- 2-3分钟\n- 大火\n- 10分钟\n- 小火\n- 2-3分钟\n- 大火\n- 大火",
+      "similarity": 0.654177030672013
+    },
+    {
+      "chunkId": "ec49eb24-a998-4f19-94a3-42e06c81b5bd",
+      "documentId": "364f8d36-ac14-4fba-a1c2-19f57b0cdaf3",
+      "sourceName": "The Woks of Life",
+      "chunkType": "tips",
+      "content": "菜名：宫保鸡丁\n- Then stir up your prepared sauce (the cornstarch will have settled to the bottom, so make sure it’s well incorporated).\n- Looking for more authentic recipes? Subscribe to our email list and be sure to follow us on Pinterest , Facebook , Instagram , and Youtube!",
+      "similarity": 0.643749398738217
+    },
+    {
+      "chunkId": "06281d32-35a1-48ff-93a2-1b54a7b1e19e",
+      "documentId": "cd54415e-cf51-4fa1-99e4-96260ce203f1",
+      "sourceName": "豆果美食",
+      "chunkType": "ingredients",
+      "content": "菜名：宫保鸡丁\n- 鸡腿 2个\n- 大葱 1根\n- 花生米 适量\n- 生抽 3大勺\n- 老抽 1勺\n- 料酒 2大勺\n- 米醋 2大勺\n- 白糖 1大勺\n- 盐 1小勺\n- 蒜 3瓣\n- 姜 5片",
+      "similarity": 0.614164334113471
+    },
+    {
+      "chunkId": "72aba2e7-2b27-494d-8a6a-9d10929d84ce",
+      "documentId": "364f8d36-ac14-4fba-a1c2-19f57b0cdaf3",
+      "sourceName": "The Woks of Life",
+      "chunkType": "technique",
+      "content": "菜名：宫保鸡丁\n- 准备：30分钟\n- 烹饪：10分钟\n- 总用时：40分钟\n- 3 minutes\n- medium heat\n- 20 minutes\n- high heat",
+      "similarity": 0.61343952337268
+    },
+    {
+      "chunkId": "4700f862-fe5b-4fd1-8d36-16c3e0d8c482",
+      "documentId": "cd54415e-cf51-4fa1-99e4-96260ce203f1",
+      "sourceName": "豆果美食",
+      "chunkType": "summary",
+      "content": "菜名：宫保鸡丁\n别名：学会这酱汁比例，厨房新手也能成功—宫保鸡丁\n菜系：家常菜\n简介：鸡腿肉配花生和葱段，以生抽、老抽、米醋和白糖调成宫保汁，大火快速炒成酸甜微辣的宫保鸡丁。",
+      "similarity": 0.605265396990348
+    },
+    {
+      "chunkId": "ff72bd14-d16d-48eb-997c-7acad14354e4",
+      "documentId": "cd54415e-cf51-4fa1-99e4-96260ce203f1",
+      "sourceName": "豆果美食",
+      "chunkType": "tips",
+      "content": "菜名：宫保鸡丁\n- 原文未提供额外提示。",
+      "similarity": 0.538764087035413
+    }
+  ],
+  "notes": [
+    "本证据包完全复用 Supabase 中已入库的两个独立完整网站来源；本次未重新浏览网站、未重新向量化文档。",
+    "rawExcerpt 由数据库 normalized_json 确定性格式化，仅包含已入库的菜名、简介、原料、步骤、技法和提示。",
+    "ragEvidence 来自 recipe_entity_id 限定的 voyage-4 semantic retrieval，并覆盖 The Woks of Life 与豆果美食。"
+  ]
+}

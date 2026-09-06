@@ -1,0 +1,281 @@
+{
+  "recipeId": "west-004",
+  "recipeName": "凯撒沙拉",
+  "category": "western",
+  "createdAt": "2026-08-30T14:16:46.077Z",
+  "sources": [
+    {
+      "sourceName": "Serious Eats",
+      "sourceType": "website",
+      "url": "https://www.seriouseats.com/the-best-caesar-salad-recipe",
+      "documentId": "71f7a32d-f2e1-4ac0-9378-bcc682f6c245",
+      "retrievalMethod": "公开网页完整读取（Web）+ 正文结构化核对；仓库 fetchHtml 受 HTTP 402 限制",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "extra-virgin olive oil",
+          "amount": "3 tablespoons plus 1/4 cup (105 ml)",
+          "raw": "3 tablespoons plus 1/4 cup (105 ml) extra-virgin olive oil, divided"
+        },
+        {
+          "name": "garlic",
+          "amount": "2 medium cloves",
+          "raw": "2 medium cloves garlic, minced (about 2 teaspoons)"
+        },
+        {
+          "name": "hearty bread",
+          "amount": "3 cups",
+          "raw": "3 cups hearty bread, cut into 3/4-inch cubes"
+        },
+        {
+          "name": "parmesan cheese",
+          "amount": "2 ounces (about 1 cup)",
+          "raw": "2 ounces finely grated parmesan cheese (about 1 cup), divided"
+        },
+        {
+          "name": "kosher salt and black pepper",
+          "amount": "to taste",
+          "raw": "Kosher salt and freshly ground black pepper"
+        },
+        {
+          "name": "egg yolk",
+          "amount": "1 large",
+          "raw": "1 large egg yolk"
+        },
+        {
+          "name": "lemon juice",
+          "amount": "1 tablespoon (15 ml)",
+          "raw": "1 tablespoon (15 ml) juice from 1 lemon"
+        },
+        {
+          "name": "anchovies",
+          "amount": "2 to 6",
+          "raw": "2 to 6 anchovies"
+        },
+        {
+          "name": "Worcestershire sauce",
+          "amount": "1 teaspoon (5 ml)",
+          "raw": "1 teaspoon (5 ml) Worcestershire sauce"
+        },
+        {
+          "name": "canola oil",
+          "amount": "1/3 cup (80 ml)",
+          "raw": "1/3 cup (80 ml) canola oil"
+        },
+        {
+          "name": "romaine lettuce",
+          "amount": "2 heads",
+          "raw": "2 heads romaine lettuce, inner leaves only, washed and carefully dried"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Adjust oven rack to the middle and preheat to 375°F (190°C). Whisk 3 tablespoons olive oil with minced garlic for 30 seconds, strain, and reserve the pressed garlic. Toss bread cubes with the garlic oil.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "Toss bread with 2 tablespoons parmesan, season, and bake until pale golden and crisp, about 15 minutes. Toss with 2 more tablespoons parmesan and cool.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "Blend egg yolk, lemon juice, anchovies, Worcestershire sauce, reserved garlic, and 1/4 cup parmesan while slowly adding canola oil. Whisk in the remaining 1/4 cup olive oil and season.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "Toss lettuce with dressing, then add half the remaining cheese and three-quarters of the croutons. Transfer to a bowl and finish with the remaining cheese and croutons.",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [
+        "准备：5分钟",
+        "烹饪：20分钟",
+        "冷却：10分钟",
+        "总用时：35分钟",
+        "用蒜香橄榄油烤面包丁可避免蒜末焦苦",
+        "乳化调味汁能均匀附着在生菜上"
+      ],
+      "tips": [
+        "担心生蛋安全时使用巴氏杀菌蛋。",
+        "凤尾鱼和伍斯特酱用量可按口味调整。",
+        "多余调味汁可冷藏保存最多1周。"
+      ],
+      "rawExcerpt": "菜名：凯撒沙拉\n简介：A modern Caesar salad with crisp inner romaine leaves, garlic-Parmesan croutons, and an emulsified anchovy dressing.\n原料：3 tablespoons plus 1/4 cup (105 ml) extra-virgin olive oil, divided；2 medium cloves garlic, minced (about 2 teaspoons)；3 cups hearty bread, cut into 3/4-inch cubes；2 ounces finely grated parmesan cheese (about 1 cup), divided；Kosher salt and freshly ground black pepper；1 large egg yolk；1 tablespoon (15 ml) juice from 1 lemon；2 to 6 anchovies；1 teaspoon (5 ml) Worcestershire sauce；1/3 cup (80 ml) canola oil；2 heads romaine lettuce, inner leaves only, washed and carefully dried\n步骤：1. Adjust oven rack to the middle and preheat to 375°F (190°C). Whisk 3 tablespoons o"
+    },
+    {
+      "sourceName": "BBC Good Food",
+      "sourceType": "website",
+      "url": "https://www.bbcgoodfood.com/recipes/perfect-caesar-salad",
+      "documentId": "539bb781-8ce7-4a52-a8a3-caa5162775b0",
+      "retrievalMethod": "JSON-LD + HTML正文",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "day-old rustic Italian bread crusts discarded and bread torn into bite-sized pieces",
+          "amount": "225g",
+          "raw": "225g day-old rustic Italian bread crusts discarded and bread torn into bite-sized pieces"
+        },
+        {
+          "name": "anchovy fillets plus extra to serve",
+          "amount": "10",
+          "raw": "10 anchovy fillets plus extra to serve"
+        },
+        {
+          "name": "red wine vinegar",
+          "amount": "60ml",
+          "raw": "60ml red wine vinegar"
+        },
+        {
+          "name": "Dijon mustard",
+          "amount": "3 tbsp",
+          "raw": "3 tbsp Dijon mustard"
+        },
+        {
+          "name": "garlic cloves",
+          "amount": "2",
+          "raw": "2 garlic cloves"
+        },
+        {
+          "name": "large egg",
+          "amount": "1",
+          "raw": "1 large egg"
+        },
+        {
+          "name": "vegetable oil",
+          "amount": "240ml",
+          "raw": "240ml vegetable oil"
+        },
+        {
+          "name": "grated Parmigiano-Reggiano plus extra shaved to serve",
+          "amount": "30g",
+          "raw": "30g grated Parmigiano-Reggiano plus extra shaved to serve"
+        },
+        {
+          "name": "Little Gem lettuces leaves separated and chilled",
+          "amount": "4",
+          "raw": "4 Little Gem lettuces leaves separated and chilled"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Heat oven to 200C/180C fan/gas 6. Spread the bread out on a baking tray and bake for about 12 mins until golden and crisp, then leave to cool.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "Meanwhile, in a food processor, combine the 10 anchovy fillets with the vinegar, mustard and garlic, and purée until smooth. Add the egg and pulse until just incorporated. With the machine on, gradually drizzle in the vegetable oil until it emulsifies to create a creamy dressing. Scrape the dressing into a bowl and stir in the cheese. Season, cover with cling film and put in the fridge until well chilled and thickened, at least 30 mins.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "In a very large bowl, toss the chilled lettuce leaves with half the dressing, gently rubbing the dressing onto the leaves with your hands. (Save the remaining dressing for another salad or to serve with grilled chicken.) Divide the dressed lettuce between chilled bowls and scatter the croutons on top. Garnish with anchovy fillets and serve right away, passing round the extra cheese at the table.",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [
+        "准备：10分钟",
+        "烹饪：15分钟",
+        "总用时：25分钟"
+      ],
+      "tips": [],
+      "rawExcerpt": "菜名：凯撒沙拉\n简介：The ultimate New York salad with crunchy croutons, anchovies, crisp gem lettuce and a thick garlicky dressing, this recipe comes from The Breslin's brilliant chef April Bloomfield\n原料：225g day-old rustic Italian bread crusts discarded and bread torn into bite-sized pieces；10 anchovy fillets plus extra to serve；60ml red wine vinegar；3 tbsp Dijon mustard；2 garlic cloves；1 large egg；240ml vegetable oil；30g grated Parmigiano-Reggiano plus extra shaved to serve；4 Little Gem lettuces leaves separated and chilled\n步骤：1. Heat oven to 200C/180C fan/gas 6. Spread the bread out on a baking tray and bake for about 12 mins until golden and crisp, then leave to cool. 2. Meanwhile, in a food proce"
+    }
+  ],
+  "ragEvidence": [
+    {
+      "chunkId": "240bd7cd-c026-47d5-b868-11eaa3e89b21",
+      "documentId": "71f7a32d-f2e1-4ac0-9378-bcc682f6c245",
+      "sourceName": "Serious Eats",
+      "chunkType": "tips",
+      "content": "菜名：凯撒沙拉\n- 担心生蛋安全时使用巴氏杀菌蛋。\n- 凤尾鱼和伍斯特酱用量可按口味调整。\n- 多余调味汁可冷藏保存最多1周。",
+      "similarity": 0.711588144302368
+    },
+    {
+      "chunkId": "f3dc826f-34ca-4cc4-badd-c01af09bda3a",
+      "documentId": "539bb781-8ce7-4a52-a8a3-caa5162775b0",
+      "sourceName": "BBC Good Food",
+      "chunkType": "steps",
+      "content": "菜名：凯撒沙拉\n1. Heat oven to 200C/180C fan/gas 6. Spread the bread out on a baking tray and bake for about 12 mins until golden and crisp, then leave to cool.\n2. Meanwhile, in a food processor, combine the 10 anchovy fillets with the vinegar, mustard and garlic, and purée until smooth. Add the egg and pulse until just incorporated. With the machine on, gradually drizzle in the vegetable oil until it emulsifies to create a creamy dressing. Scrape the dressing into a bowl and stir in the cheese. Season, cover with cling film and put in the fridge until well chilled and thickened, at least 30 mins.\n3. In a very large bowl, toss the chilled lettuce leaves with half the dressing, gently rubbing the dressing onto the leaves with your hands. (Save the remaining dressing for another salad or to serve with grilled chicken.) Divide the dressed lettuce between chilled bowls and scatter the croutons on top. Garnish with anchovy fillets and serve right away, passing round the extra cheese at the table.",
+      "similarity": 0.69620543718338
+    },
+    {
+      "chunkId": "dd54fd82-102a-457e-adc5-b00dcf4b270c",
+      "documentId": "71f7a32d-f2e1-4ac0-9378-bcc682f6c245",
+      "sourceName": "Serious Eats",
+      "chunkType": "ingredients",
+      "content": "菜名：凯撒沙拉\n- 3 tablespoons plus 1/4 cup (105 ml) extra-virgin olive oil, divided\n- 2 medium cloves garlic, minced (about 2 teaspoons)\n- 3 cups hearty bread, cut into 3/4-inch cubes\n- 2 ounces finely grated parmesan cheese (about 1 cup), divided\n- Kosher salt and freshly ground black pepper\n- 1 large egg yolk\n- 1 tablespoon (15 ml) juice from 1 lemon\n- 2 to 6 anchovies\n- 1 teaspoon (5 ml) Worcestershire sauce\n- 1/3 cup (80 ml) canola oil\n- 2 heads romaine lettuce, inner leaves only, washed and carefully dried",
+      "similarity": 0.689669095238344
+    },
+    {
+      "chunkId": "5be2532a-dc52-45b8-b59a-5cd66cf71f7a",
+      "documentId": "71f7a32d-f2e1-4ac0-9378-bcc682f6c245",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：凯撒沙拉\n1. Adjust oven rack to the middle and preheat to 375°F (190°C). Whisk 3 tablespoons olive oil with minced garlic for 30 seconds, strain, and reserve the pressed garlic. Toss bread cubes with the garlic oil.\n2. Toss bread with 2 tablespoons parmesan, season, and bake until pale golden and crisp, about 15 minutes. Toss with 2 more tablespoons parmesan and cool.\n3. Blend egg yolk, lemon juice, anchovies, Worcestershire sauce, reserved garlic, and 1/4 cup parmesan while slowly adding canola oil. Whisk in the remaining 1/4 cup olive oil and season.\n4. Toss lettuce with dressing, then add half the remaining cheese and three-quarters of the croutons. Transfer to a bowl and finish with the remaining cheese and croutons.",
+      "similarity": 0.68297759789095
+    },
+    {
+      "chunkId": "73dbeb87-fe30-4aa4-b4f7-7c0bbbdd71ec",
+      "documentId": "539bb781-8ce7-4a52-a8a3-caa5162775b0",
+      "sourceName": "BBC Good Food",
+      "chunkType": "ingredients",
+      "content": "菜名：凯撒沙拉\n- 225g day-old rustic Italian bread crusts discarded and bread torn into bite-sized pieces\n- 10 anchovy fillets plus extra to serve\n- 60ml red wine vinegar\n- 3 tbsp Dijon mustard\n- 2 garlic cloves\n- 1 large egg\n- 240ml vegetable oil\n- 30g grated Parmigiano-Reggiano plus extra shaved to serve\n- 4 Little Gem lettuces leaves separated and chilled",
+      "similarity": 0.678880932130991
+    },
+    {
+      "chunkId": "2130d400-c3d9-49dd-a2b7-72b02c14e555",
+      "documentId": "71f7a32d-f2e1-4ac0-9378-bcc682f6c245",
+      "sourceName": "Serious Eats",
+      "chunkType": "technique",
+      "content": "菜名：凯撒沙拉\n- 准备：5分钟\n- 烹饪：20分钟\n- 冷却：10分钟\n- 总用时：35分钟\n- 用蒜香橄榄油烤面包丁可避免蒜末焦苦\n- 乳化调味汁能均匀附着在生菜上",
+      "similarity": 0.669476111813668
+    },
+    {
+      "chunkId": "224d9fcd-4926-4875-afa2-d95b3e42685f",
+      "documentId": "539bb781-8ce7-4a52-a8a3-caa5162775b0",
+      "sourceName": "BBC Good Food",
+      "chunkType": "summary",
+      "content": "菜名：凯撒沙拉\n别名：Perfect caesar salad\n菜系：家常菜\n简介：The ultimate New York salad with crunchy croutons, anchovies, crisp gem lettuce and a thick garlicky dressing, this recipe comes from The Breslin's brilliant chef April Bloomfield",
+      "similarity": 0.642905852621446
+    },
+    {
+      "chunkId": "a8e8bf95-cb7c-4093-9c9c-42f95a5a351d",
+      "documentId": "539bb781-8ce7-4a52-a8a3-caa5162775b0",
+      "sourceName": "BBC Good Food",
+      "chunkType": "tips",
+      "content": "菜名：凯撒沙拉\n- 原文未提供额外提示。",
+      "similarity": 0.626712203025818
+    },
+    {
+      "chunkId": "c173c801-42cb-4b68-9e0c-4c6b79f4334b",
+      "documentId": "71f7a32d-f2e1-4ac0-9378-bcc682f6c245",
+      "sourceName": "Serious Eats",
+      "chunkType": "summary",
+      "content": "菜名：凯撒沙拉\n别名：The Best Caesar Salad\n菜系：美式/意式\n简介：A modern Caesar salad with crisp inner romaine leaves, garlic-Parmesan croutons, and an emulsified anchovy dressing.",
+      "similarity": 0.623629055998979
+    },
+    {
+      "chunkId": "b8275fe6-02c4-41bb-b050-13cfab4eb1c3",
+      "documentId": "539bb781-8ce7-4a52-a8a3-caa5162775b0",
+      "sourceName": "BBC Good Food",
+      "chunkType": "technique",
+      "content": "菜名：凯撒沙拉\n- 准备：10分钟\n- 烹饪：15分钟\n- 总用时：25分钟",
+      "similarity": 0.605636441371654
+    }
+  ],
+  "notes": [
+    "两条来源均来自当前白名单，页面标题和正文均对应同一道目标菜。",
+    "Serious Eats 的仓库 fetchHtml 阻塞如实记录在本组报告；公开 Web 阅读器完整读取正文，未绕过访问控制。"
+  ]
+}

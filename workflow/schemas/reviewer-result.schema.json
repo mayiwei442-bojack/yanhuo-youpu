@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://yanhuo-youpu.local/schemas/reviewer-result.schema.json",
+  "title": "Recipe Reviewer Result",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["status", "issues", "summary", "evidencePackageHash", "validatorPassed"],
+  "properties": {
+    "status": { "type": "string", "enum": ["PASS", "FAIL"] },
+    "issues": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["field", "message"],
+        "properties": {
+          "field": { "type": "string", "minLength": 1 },
+          "message": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "summary": { "type": "string" },
+    "evidencePackageHash": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "validatorPassed": { "type": "boolean" }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "status": { "const": "PASS" } } },
+      "then": {
+        "properties": {
+          "issues": { "maxItems": 0 },
+          "validatorPassed": { "const": true }
+        }
+      }
+    },
+    {
+      "if": { "properties": { "status": { "const": "FAIL" } } },
+      "then": { "properties": { "issues": { "minItems": 1 } } }
+    }
+  ]
+}

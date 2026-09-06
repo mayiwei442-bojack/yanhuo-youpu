@@ -1,0 +1,797 @@
+{
+  "auditId": "2026-08-31-metric-detail-audit",
+  "createdAt": "2026-08-31T10:11:02.305Z",
+  "role": "Researcher",
+  "scope": {
+    "primaryRecipes": [
+      "cn-006",
+      "cn-029"
+    ],
+    "metricAuditRecipeIds": [
+      "cn-002",
+      "cn-003",
+      "cn-004",
+      "cn-006",
+      "cn-010",
+      "cn-024",
+      "cn-027",
+      "cn-029",
+      "cn-036",
+      "cn-054",
+      "west-004",
+      "west-006",
+      "west-011",
+      "west-012",
+      "west-020"
+    ],
+    "metricAuditRecipeCount": 15
+  },
+  "policy": {
+    "architectureAuthority": "D:/OneDrive/桌面/rag/CODEX_RAG_SPEC.md",
+    "enabledChineseSources": [
+      "The Woks of Life",
+      "豆果美食"
+    ],
+    "existingRagQueriedFirst": true,
+    "newWebsiteFetchAttempted": false,
+    "newDocumentIngested": false,
+    "documentReembedded": false,
+    "accessControlsBypassed": false,
+    "standaloneChatModelApiUsed": false,
+    "reasonNoNewFetch": "两个主审计菜品在 Supabase 中均已有两个启用来源的完整 document、五类 chunk 和可追溯 evidence package；现有证据足以回答全部单位、用油和加料顺序问题。"
+  },
+  "limitations": [
+    "本轮没有重新抓取网站；所有页面事实来自 Supabase 当前 document、既有 evidence package 和既有研究记录。这样避免对已成功来源重复抓取或重复向量化。",
+    "豆果干煸四季豆的页面正文已完整读取，但其原料表没有给出步骤所用食用油、清水和鸡精的用量；报告只记录这一缺口，不从另一变体借值。",
+    "公制建议区分理论精确换算、适合发布的舍入值和来源自带公制值；来源自带公制值优先。",
+    "固体体积量没有统一密度，报告不把花生、肉末、芝士、面粉、糖或香料的杯/匙量擅自换成克。"
+  ],
+  "conversionPolicy": {
+    "system": "US customary，除来源明确提供自己的公制对照外",
+    "exactConstants": {
+      "1 pound": "453.59237克",
+      "1 ounce": "28.349523125克",
+      "1 inch": "2.54厘米",
+      "1 US tablespoon": "14.78676478125毫升",
+      "1 US teaspoon": "4.92892159375毫升",
+      "1 US cup": "236.5882365毫升",
+      "1 US quart": "946.352946毫升"
+    },
+    "publicationRounding": {
+      "1 tablespoon liquid": "15毫升",
+      "1 teaspoon liquid": "5毫升",
+      "1/2 tablespoon liquid": "7.5毫升",
+      "1 1/2 tablespoons liquid": "22.5毫升",
+      "1/4 US cup liquid": "60毫升",
+      "1/3 US cup liquid": "约80毫升",
+      "1/2 US cup liquid": "约120毫升",
+      "2/3 US cup liquid": "约160毫升",
+      "1 US cup liquid": "约240毫升"
+    },
+    "sourceMetricPrecedence": "当来源同时给出英制和公制数值时，发布建议保留来源明确给出的公制数值，不用理论精确换算覆盖来源值。",
+    "dryMeasureCaution": "花生、肉末、芝士、面粉、糖、香料等固体的 cup/tablespoon/teaspoon 不能仅凭体积可靠换算为克；除非来源给出重量，否则保留体积单位或另找同一启用来源的明确称重证据，不推测密度。"
+  },
+  "ragPreflight": [
+    {
+      "recipeId": "cn-006",
+      "recipeName": "红烧肉",
+      "recipeEntityId": "430e1542-2dd5-4c56-97ee-94d985b567ff",
+      "documents": [
+        {
+          "sourceName": "The Woks of Life",
+          "sourceActive": true,
+          "documentId": "b942e03a-0c79-4c86-97e5-4d4b2b674080",
+          "url": "https://thewoksoflife.com/shanghai-style-braised-pork-belly/",
+          "contentHash": "ed97f213f2a9f4c6db698b005f22f7e14e70a6871860a89c2c30fe8ca397c9f4",
+          "retrievalMethod": "JSON-LD + HTML正文",
+          "ingredients": 7,
+          "steps": 5
+        },
+        {
+          "sourceName": "豆果美食",
+          "sourceActive": true,
+          "documentId": "4fa3d2d6-5b4b-4269-beca-a0f8cd971223",
+          "url": "https://www.douguo.com/cookbook/3067833.html",
+          "contentHash": "055d1baccf8aba902875e47d0138a311c28e6b3427ea5cff41d74394fd902d1c",
+          "retrievalMethod": "HTML正文",
+          "ingredients": 10,
+          "steps": 7
+        }
+      ],
+      "chunkCount": 10,
+      "chunkTypes": [
+        "summary",
+        "ingredients",
+        "steps",
+        "technique",
+        "tips"
+      ],
+      "embeddingModel": "voyage-4",
+      "embeddingDimension": 1024,
+      "entityScopedQuery": {
+        "query": "红烧肉 五花肉 重量 中性油 绍兴酒 酱油 清水 公制换算 每一步加入顺序",
+        "resultCount": 6,
+        "independentDocuments": 2,
+        "coveredChunkTypes": [
+          "ingredients",
+          "steps",
+          "technique"
+        ],
+        "topResult": {
+          "documentId": "b942e03a-0c79-4c86-97e5-4d4b2b674080",
+          "sourceName": "The Woks of Life",
+          "chunkType": "ingredients",
+          "similarity": 0.633470058441162
+        }
+      }
+    },
+    {
+      "recipeId": "cn-029",
+      "recipeName": "干煸四季豆",
+      "recipeEntityId": "e1e01f4f-82c9-47b5-9f26-79c7a577e06f",
+      "documents": [
+        {
+          "sourceName": "The Woks of Life",
+          "sourceActive": true,
+          "documentId": "f32e32e4-4303-4e27-9fc5-41f0f109401f",
+          "url": "https://thewoksoflife.com/sichuan-dry-fried-green-beans/",
+          "contentHash": "cf8018aac3314a3539bbc03e9fe113c5b29546cb979e81732b97317e574c0490",
+          "retrievalMethod": "JSON-LD + HTML正文",
+          "ingredients": 11,
+          "steps": 3
+        },
+        {
+          "sourceName": "豆果美食",
+          "sourceActive": true,
+          "documentId": "7ec2854e-8df6-44bf-80ed-e50bf30bf5d6",
+          "url": "https://www.douguo.com/cookbook/3327913.html",
+          "contentHash": "6296b932f9a1d9fd7f019a63ad397a732b2e5159481ede0efa6c9ec42ac39212",
+          "retrievalMethod": "Recipe JSON-LD + 豆果公开移动版 HTML 正文",
+          "ingredients": 7,
+          "steps": 5
+        }
+      ],
+      "chunkCount": 10,
+      "chunkTypes": [
+        "summary",
+        "ingredients",
+        "steps",
+        "technique",
+        "tips"
+      ],
+      "embeddingModel": "voyage-4",
+      "embeddingDimension": 1024,
+      "entityScopedQuery": {
+        "query": "干煸四季豆 两个来源 原料 步骤 用油顺序 四季豆 猪肉末 碎米芽菜",
+        "resultCount": 6,
+        "independentDocuments": 2,
+        "coveredChunkTypes": [
+          "ingredients",
+          "steps",
+          "technique"
+        ],
+        "topResult": {
+          "documentId": "f32e32e4-4303-4e27-9fc5-41f0f109401f",
+          "sourceName": "The Woks of Life",
+          "chunkType": "ingredients",
+          "similarity": 0.690428912639618
+        }
+      }
+    }
+  ],
+  "primaryRecipeAudits": [
+    {
+      "recipeId": "cn-006",
+      "recipeName": "红烧肉",
+      "evidenceFile": "workflow/evidence/cn-006-red-braised-pork.json",
+      "structuredSourceData": [
+        {
+          "sourceName": "The Woks of Life",
+          "documentId": "b942e03a-0c79-4c86-97e5-4d4b2b674080",
+          "url": "https://thewoksoflife.com/shanghai-style-braised-pork-belly/",
+          "completePageRead": true,
+          "ingredientsRaw": [
+            "1 1/2 pounds lean, skin-on pork belly",
+            "2 tablespoons oil ((any neutral oil, such as canola, vegetable, or avocado oil))",
+            "2 tablespoons rock sugar ((or granulated sugar))",
+            "1/3 cup Shaoxing wine",
+            "2 tablespoons soy sauce",
+            "1 tablespoon dark soy sauce",
+            "2-3 cups water ((see note))"
+          ],
+          "sourceStepInstructions": [
+            "Cut your pork belly into 3/4-inch thick pieces. Add them to a medium pot and cover with water. Bring the water to a boil, and boil for about 1 minute, or just until the pork turns opaque. This removes impurities and starts the cooking process. Take the pork out of the pot, rinse, and set it aside. Discard the water and clean out your pot.",
+            "Over low heat, add the oil and sugar to your wok or pot. Melt the sugar, and add the pork. Raise the heat to medium, and cook until the pork is lightly browned.",
+            "Reduce the heat to low, and add the wine. Cook for 2 minutes, then add the soy sauce, dark soy sauce, and water.",
+            "Cover and simmer over medium heat for about 45 minutes to 1 hour, until pork is fork tender. Every 5-10 minutes, stir to prevent burning and add more water if it gets too dry.",
+            "Once the pork is fork tender, if there is still a lot of visible liquid, uncover the wok, turn up the heat, and stir continuously until the sauce has reduced to a glistening coating."
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "instruction": "Cut the pork belly into 3/4-inch thick pieces, cover with water, boil about 1 minute until opaque, rinse, discard the blanching water, and clean the pot.",
+              "duration": "约1分钟",
+              "heat": null
+            },
+            {
+              "order": 2,
+              "instruction": "Over low heat add the oil and sugar; melt the sugar, add the pork, raise to medium, and brown lightly.",
+              "duration": null,
+              "heat": "先小火，后中火"
+            },
+            {
+              "order": 3,
+              "instruction": "Reduce to low, add Shaoxing wine, cook 2 minutes, then add soy sauce, dark soy sauce, and water.",
+              "duration": "酒加入后2分钟",
+              "heat": "小火"
+            },
+            {
+              "order": 4,
+              "instruction": "Cover and simmer 45-60 minutes until fork tender; stir every 5-10 minutes and add more water only if too dry.",
+              "duration": "45-60分钟",
+              "heat": "中火"
+            },
+            {
+              "order": 5,
+              "instruction": "If liquid remains, uncover, raise heat, and stir continuously until reduced to a glossy coating.",
+              "duration": null,
+              "heat": "提高火力收汁"
+            }
+          ],
+          "neutralOil": {
+            "sourceMeaning": "any neutral oil",
+            "sourceExamples": [
+              "canola oil",
+              "vegetable oil",
+              "avocado oil"
+            ],
+            "chineseRecommendation": "中性食用油，可选低芥酸菜籽油、普通植物油或牛油果油。这里的“中性”指气味和风味较淡，不会明显盖过糖色、绍兴酒和酱油。",
+            "amountSource": "2 tablespoons",
+            "exactMetric": "29.5735毫升",
+            "publicationMetric": "30毫升"
+          },
+          "metricConversions": [
+            {
+              "source": "1 1/2 pounds pork belly",
+              "exactMetric": "680.3886克",
+              "publicationMetric": "约680克"
+            },
+            {
+              "source": "3/4-inch thick pieces",
+              "exactMetric": "1.905厘米",
+              "publicationMetric": "约1.9厘米，面向普通读者可写约2厘米"
+            },
+            {
+              "source": "2 tablespoons neutral oil",
+              "exactMetric": "29.5735毫升",
+              "publicationMetric": "30毫升"
+            },
+            {
+              "source": "1/3 US cup Shaoxing wine",
+              "exactMetric": "78.8627毫升",
+              "publicationMetric": "约80毫升"
+            },
+            {
+              "source": "2 tablespoons soy sauce",
+              "exactMetric": "29.5735毫升",
+              "publicationMetric": "30毫升"
+            },
+            {
+              "source": "1 tablespoon dark soy sauce",
+              "exactMetric": "14.7868毫升",
+              "publicationMetric": "15毫升"
+            },
+            {
+              "source": "2-3 US cups water",
+              "exactMetric": "473.1765-709.7647毫升",
+              "publicationMetric": "约480-720毫升；实际以能完成焖煮且不过早烧干为准"
+            }
+          ],
+          "additionsByStep": [
+            "第1步：五花肉加清水没过，仅用于焯煮；焯肉水随后倒掉。",
+            "第2步：先下30毫升中性油和糖，小火融糖，再下焯好的五花肉；随后转中火上色。",
+            "第3步：先加约80毫升绍兴酒，煮2分钟；再加30毫升生抽、15毫升老抽和约480-720毫升清水。",
+            "第4步：焖煮期间每5-10分钟检查；只有锅中太干时才补少量水。",
+            "第5步：不再加料，揭盖提高火力收汁。"
+          ]
+        },
+        {
+          "sourceName": "豆果美食",
+          "documentId": "4fa3d2d6-5b4b-4269-beca-a0f8cd971223",
+          "url": "https://www.douguo.com/cookbook/3067833.html",
+          "completePageRead": true,
+          "ingredientsRaw": [
+            "带皮五花肉 一斤半左右",
+            "冰糖 小粒十来粒",
+            "姜片 4片",
+            "八角 1-2个（可选）",
+            "香叶 2-3片（可选）",
+            "干辣椒 1个（可选）",
+            "黄酒或花雕酒 2大勺",
+            "老抽 2大勺",
+            "生抽 2大勺",
+            "开水 没过肉"
+          ],
+          "sourceStepInstructions": [
+            "选择肥瘦相间的带皮五花肉，洗净控干，切成小块。",
+            "不放油，将肉块平铺在锅中，逐面煎至四面金黄并煎出油脂，盛出。",
+            "保留锅内油，放入冰糖反复炒至微红，把煎好的五花肉倒回翻炒；放姜片、八角、香叶和可选干辣椒继续翻炒，加入花雕酒去腥提鲜。",
+            "加入生抽和老抽调味上色，不另加盐。",
+            "加入没过肉的开水，盖盖小火慢炖40至60分钟。",
+            "最后大火翻拌收汁，保留浓稠挂汁，不要炒干。",
+            "装盘食用。"
+          ],
+          "steps": [
+            "选择肥瘦相间的带皮五花肉，洗净控干，切成小块。",
+            "不放油，小火将肉逐面煎黄并煎出油脂，盛出。",
+            "保留锅内油，小火炒冰糖至微红，肉回锅；加姜片、八角、香叶、可选干辣椒和花雕酒。",
+            "加入生抽和老抽，不另加盐。",
+            "加入没过肉的开水，小火慢炖40-60分钟。",
+            "大火收至浓稠挂汁，不炒干。",
+            "装盘。"
+          ],
+          "oilAndAdditionOrder": [
+            "此变体不另加食用油：先以五花肉自身脂肪煎制。",
+            "保留煎出的猪油炒冰糖，再把肉回锅。",
+            "香料和花雕酒在肉回锅后加入；生抽、老抽下一步加入；最后才加开水慢炖。"
+          ]
+        }
+      ],
+      "variantAssessment": {
+        "materialDifference": true,
+        "difference": "The Woks of Life 先焯水并使用30毫升外加中性油；豆果不焯水、不另放油，先煎出五花肉自身油脂，且香料配置不同。",
+        "currentCanonicalSelection": "当前 tools/recipe_data.mjs 的 cn-006 完整采用 The Woks of Life 变体。",
+        "classification": "完整变体选择，不是两站混合",
+        "doNotMix": "若继续采用 The Woks of Life 变体，不应再加入豆果的姜、八角、香叶和干辣椒，也不应删除焯水或外加中性油；若改用豆果变体，则应整体采用其不焯水、不加外油的顺序。"
+      }
+    },
+    {
+      "recipeId": "cn-029",
+      "recipeName": "干煸四季豆",
+      "evidenceFile": "workflow/evidence/cn-029-dry-fried-green-beans.json",
+      "structuredSourceData": [
+        {
+          "sourceName": "The Woks of Life",
+          "documentId": "f32e32e4-4303-4e27-9fc5-41f0f109401f",
+          "url": "https://thewoksoflife.com/sichuan-dry-fried-green-beans/",
+          "completePageRead": true,
+          "ingredients": [
+            {
+              "raw": "1 pound green beans ((450g))",
+              "metricAdvice": "采用来源已给出的450克"
+            },
+            {
+              "raw": "1/2 teaspoon salt",
+              "metricAdvice": "固体调味料无来源重量，不推测克数"
+            },
+            {
+              "raw": "2 tablespoons oil",
+              "metricAdvice": "30毫升"
+            },
+            {
+              "raw": "1/4 cup ground pork",
+              "metricAdvice": "来源未给重量；肉末体积不能仅凭通用换算可靠转克"
+            },
+            {
+              "raw": "2 garlic ((smashed and coarsely diced))",
+              "metricAdvice": "2瓣"
+            },
+            {
+              "raw": "2 dried red hot peppers ((de-seeded and diced))",
+              "metricAdvice": "2个"
+            },
+            {
+              "raw": "2 tablespoon sui mi ya cai ((碎米芽菜, store bought))",
+              "metricAdvice": "固体碎米芽菜无来源重量，保留2汤匙"
+            },
+            {
+              "raw": "1 teaspoon shaoxing wine",
+              "metricAdvice": "5毫升"
+            },
+            {
+              "raw": "1 1/2 teaspoons soy sauce",
+              "metricAdvice": "7.5毫升"
+            },
+            {
+              "raw": "1/8 teaspoon sugar",
+              "metricAdvice": "固体调味料无来源重量，不推测克数"
+            },
+            {
+              "raw": "1 teaspoon sesame oil",
+              "metricAdvice": "5毫升"
+            }
+          ],
+          "sourceStepInstructions": [
+            "Heat your wok over high heat until just starting to smoke, and add the green beans and salt. Immediately lower the heat to medium low, and sear the green beans for about 20 minutes, stirring occasionally. You want to see small scorch marks on the green beans. During this process, gather the rest of the ingredients and have them ready. Once the beans are somewhat tender, take them out of the wok and set aside.",
+            "Heat the oil in your wok over medium high heat and brown the pork. Add the garlic and chili, and stir for 30 seconds. Add the sui mi ya cai, and stir everything together. Cook for another minute.",
+            "Toss in the seared green beans, cooking wine, soy sauce, sugar, and sesame oil. Crank the heat back up to high and stir-fry for a final minute. Serve immediately."
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "instruction": "炒锅高火预热至刚冒烟，下四季豆和盐；立即转中小火，无油煸约20分钟，偶尔翻动，至焦斑出现、豆角较软，盛出。",
+              "oilUse": "不加油"
+            },
+            {
+              "order": 2,
+              "instruction": "锅中加入2汤匙油，中高火炒褐猪肉末；加蒜和干辣椒炒30秒，再加碎米芽菜炒1分钟。",
+              "oilUse": "此时一次性加入约30毫升食用油"
+            },
+            {
+              "order": 3,
+              "instruction": "倒回四季豆，加入绍兴酒、生抽、白糖和芝麻油，转高火再炒1分钟。",
+              "oilUse": "此步加入5毫升芝麻油作为调味油"
+            }
+          ],
+          "oilSequence": "先无油干煸四季豆；四季豆盛出后才加入约30毫升食用油炒肉末；最后回锅时加入5毫升芝麻油。"
+        },
+        {
+          "sourceName": "豆果美食",
+          "documentId": "7ec2854e-8df6-44bf-80ed-e50bf30bf5d6",
+          "url": "https://www.douguo.com/cookbook/3327913.html",
+          "completePageRead": true,
+          "ingredients": [
+            {
+              "raw": "四季豆 300克"
+            },
+            {
+              "raw": "生抽 10克"
+            },
+            {
+              "raw": "盐 1小勺"
+            },
+            {
+              "raw": "葱 5克"
+            },
+            {
+              "raw": "干辣椒 5克"
+            },
+            {
+              "raw": "白糖 1小勺"
+            },
+            {
+              "raw": "蒜 5克"
+            }
+          ],
+          "sourceStepInstructions": [
+            "备好四季豆，干辣椒和蒜末",
+            "热锅凉油放入四季豆，快速翻炒均匀",
+            "加入大蒜和干辣椒",
+            "放适量的清水，盐，酱油，鸡精翻炒均匀",
+            "装盘即可食用！"
+          ],
+          "steps": [
+            {
+              "order": 1,
+              "instruction": "备好四季豆、干辣椒和蒜末。",
+              "oilUse": null
+            },
+            {
+              "order": 2,
+              "instruction": "热锅凉油放入四季豆，快速翻炒均匀。",
+              "oilUse": "先放油再放四季豆，但原料表未列油且没有用量"
+            },
+            {
+              "order": 3,
+              "instruction": "加入大蒜和干辣椒。",
+              "oilUse": "沿用第2步锅内油"
+            },
+            {
+              "order": 4,
+              "instruction": "放适量清水、盐、酱油和鸡精翻炒均匀。",
+              "oilUse": null
+            },
+            {
+              "order": 5,
+              "instruction": "装盘。",
+              "oilUse": null
+            }
+          ],
+          "oilSequence": "热锅凉油后直接炒四季豆；后续没有再次加油。来源未给油量。",
+          "internalCompletenessNotes": [
+            "页面正文已完整读取，但原料表没有列出步骤使用的食用油、清水和鸡精。",
+            "不能从 The Woks of Life 借用30毫升油填入这个豆果变体，也不能臆造水和鸡精用量。"
+          ]
+        }
+      ],
+      "variantAssessment": {
+        "materialDifference": true,
+        "theWoksVariant": "450克四季豆，先无油煸20分钟；另用油炒猪肉末、蒜、干辣椒和碎米芽菜，最后加绍兴酒、生抽、糖和芝麻油。",
+        "douguoVariant": "300克四季豆，先放油炒四季豆，不含猪肉末或碎米芽菜，随后加蒜、辣椒、水、盐、酱油和鸡精。",
+        "currentCanonicalSelection": "当前 tools/recipe_data.mjs 的 cn-029 原料和三步顺序完整对应 The Woks of Life。",
+        "classification": "完整选择 The Woks of Life 变体，不是两站混合",
+        "doNotMix": "不得把豆果的先放油炒豆角、水和鸡精加入当前 Woks 变体；也不得把 Woks 的肉末、碎米芽菜、30毫升油量移植到豆果变体。"
+      }
+    }
+  ],
+  "fifteenRecipeMetricAudit": [
+    {
+      "recipeId": "cn-002",
+      "recipeName": "宫保鸡丁",
+      "evidenceFile": "workflow/evidence/cn-002-kung-pao-chicken.json",
+      "currentCanonicalVariant": "The Woks of Life",
+      "status": "ACTION_RECOMMENDED",
+      "weightAndLength": [
+        "鸡胸肉12盎司 = 340.194克，建议写约340克。",
+        "鸡丁和葱白3/4英寸 = 1.905厘米；当前已写约2厘米，合理。"
+      ],
+      "criticalLiquidMetric": [
+        "1茶匙液体约5毫升；1汤匙约15毫升；3汤匙约45毫升。",
+        "炒制用油3汤匙建议标45毫升，并在步骤保持2汤匙/30毫升煎鸡、1汤匙/15毫升炒香料。",
+        "碗汁生抽15毫升、老抽2.5毫升、米醋15毫升、清水45毫升；腌料绍兴酒5毫升、植物油5毫升。"
+      ],
+      "doNotConvertWithoutEvidence": [
+        "生花生米1杯",
+        "玉米淀粉和其他固体茶匙量"
+      ]
+    },
+    {
+      "recipeId": "cn-003",
+      "recipeName": "麻婆豆腐",
+      "evidenceFile": "workflow/evidence/cn-003-mapo-tofu.json",
+      "currentCanonicalVariant": "豆果美食",
+      "status": "NO_CANONICAL_IMPERIAL_ACTION",
+      "weightAndLength": [
+        "当前成品采用豆果的400克豆腐、100克牛肉末和2厘米豆腐块，不含英制重量或长度。",
+        "备用 Woks 来源若未来选用：8盎司猪肉约227克；1磅豆腐约454克；1英寸豆腐块约2.5厘米。"
+      ],
+      "criticalLiquidMetric": [
+        "备用 Woks 来源若未来选用：1/2杯油约120毫升、2/3杯高汤约160毫升、1/4杯水约60毫升。",
+        "当前豆果来源以克标酱油、料酒、骨汤和油；没有密度证据时不要擅自把克改成毫升。"
+      ]
+    },
+    {
+      "recipeId": "cn-004",
+      "recipeName": "鱼香肉丝",
+      "evidenceFile": "workflow/evidence/cn-004-yuxiang-pork.json",
+      "currentCanonicalVariant": "The Woks of Life",
+      "status": "ACTION_RECOMMENDED",
+      "weightAndLength": [
+        "猪肉8盎司 = 226.796克，建议约225克或约230克；同一稿件应统一一种舍入。",
+        "莴笋8盎司同样约227克，建议与猪肉统一写约225克或约230克。"
+      ],
+      "criticalLiquidMetric": [
+        "腌料：油2茶匙10毫升、绍兴酒1茶匙5毫升、生抽2茶匙10毫升、清水1又1/2汤匙22.5毫升。",
+        "鱼香汁：米醋22.5毫升、生抽15毫升、绍兴酒7.5毫升、清水约240毫升。",
+        "炒制油3汤匙45毫升，步骤为先15毫升炒肉、后30毫升炒豆瓣。"
+      ],
+      "doNotConvertWithoutEvidence": [
+        "干辣椒1/4杯",
+        "泡发木耳丝满1杯",
+        "糖和淀粉等固体汤匙量"
+      ]
+    },
+    {
+      "recipeId": "cn-006",
+      "recipeName": "红烧肉",
+      "evidenceFile": "workflow/evidence/cn-006-red-braised-pork.json",
+      "currentCanonicalVariant": "The Woks of Life",
+      "status": "HIGH_PRIORITY_ACTION_RECOMMENDED",
+      "weightAndLength": [
+        "五花肉1又1/2磅建议约680克。",
+        "肉块3/4英寸厚建议约1.9厘米或面向普通读者写约2厘米。"
+      ],
+      "criticalLiquidMetric": [
+        "中性食用油2汤匙建议30毫升。",
+        "绍兴酒1/3 US cup建议约80毫升。",
+        "生抽30毫升、老抽15毫升、清水约480-720毫升。"
+      ],
+      "detailReference": "primaryRecipeAudits[0]"
+    },
+    {
+      "recipeId": "cn-010",
+      "recipeName": "地三鲜",
+      "evidenceFile": "workflow/evidence/cn-010-disanxian.json",
+      "currentCanonicalVariant": "多来源兼容版本",
+      "status": "NO_IMPERIAL_WEIGHT_OR_LENGTH",
+      "weightAndLength": [],
+      "criticalLiquidMetric": [
+        "书籍证据中的底油1汤匙已明确为15毫升。",
+        "当前成品的生抽2勺、蚝油1勺和半碗清水不是英制单位，但容量含糊；现有同一变体证据不足以把这些词直接改成确定毫升，不能猜测。"
+      ]
+    },
+    {
+      "recipeId": "cn-024",
+      "recipeName": "锅包肉",
+      "evidenceFile": "workflow/evidence/cn-024-guobaorou.json",
+      "currentCanonicalVariant": "现有证据支持的公制版本",
+      "status": "NO_IMPERIAL_ACTION",
+      "weightAndLength": [],
+      "criticalLiquidMetric": [
+        "白醋10毫升、酱油3毫升已经是公制；清水和食用油仅有适量证据，不量化。"
+      ]
+    },
+    {
+      "recipeId": "cn-027",
+      "recipeName": "蒜蓉粉丝蒸扇贝",
+      "evidenceFile": "workflow/evidence/cn-027-scallop-vermicelli.json",
+      "currentCanonicalVariant": "现有证据支持的公制版本",
+      "status": "NO_IMPERIAL_ACTION",
+      "weightAndLength": [],
+      "criticalLiquidMetric": [
+        "料酒、生抽、芝麻油和食用油均已使用毫升，不需英制换算。"
+      ]
+    },
+    {
+      "recipeId": "cn-029",
+      "recipeName": "干煸四季豆",
+      "evidenceFile": "workflow/evidence/cn-029-dry-fried-green-beans.json",
+      "currentCanonicalVariant": "The Woks of Life",
+      "status": "ACTION_RECOMMENDED",
+      "weightAndLength": [
+        "四季豆1磅来源同时给450克，保留450克。",
+        "猪肉末1/4杯没有来源重量，不能仅凭通用体积换算为克。"
+      ],
+      "criticalLiquidMetric": [
+        "食用油2汤匙建议30毫升；必须到第2步炒肉末时才加入。",
+        "绍兴酒5毫升、生抽7.5毫升、芝麻油5毫升。"
+      ],
+      "detailReference": "primaryRecipeAudits[1]"
+    },
+    {
+      "recipeId": "cn-036",
+      "recipeName": "莲藕排骨汤",
+      "evidenceFile": "workflow/evidence/cn-036-lotus-rib-soup.json",
+      "currentCanonicalVariant": "现有证据支持的公制版本",
+      "status": "NO_IMPERIAL_ACTION",
+      "weightAndLength": [],
+      "criticalLiquidMetric": [
+        "料酒和清水只有适量/没过食材的证据，保持描述性用量，不编造毫升。"
+      ]
+    },
+    {
+      "recipeId": "cn-054",
+      "recipeName": "豉汁蒸排骨",
+      "evidenceFile": "workflow/evidence/cn-054-black-bean-ribs.json",
+      "currentCanonicalVariant": "现有证据支持的公制版本",
+      "status": "NO_IMPERIAL_ACTION",
+      "weightAndLength": [],
+      "criticalLiquidMetric": [
+        "料酒、生抽、蚝油和食用油均已使用毫升，不需英制换算。"
+      ]
+    },
+    {
+      "recipeId": "west-004",
+      "recipeName": "凯撒沙拉",
+      "evidenceFile": "workflow/evidence/west-004-caesar-salad.json",
+      "currentCanonicalVariant": "Serious Eats",
+      "status": "ACTION_RECOMMENDED",
+      "weightAndLength": [
+        "帕玛森2盎司 = 56.699克，建议约57克；来源还以约1杯描述总体积。",
+        "面包丁3/4英寸 = 1.905厘米，建议约2厘米。"
+      ],
+      "criticalLiquidMetric": [
+        "橄榄油总量105毫升已由来源明确给出，步骤拆分为45毫升和60毫升。",
+        "柠檬汁15毫升、伍斯特酱5毫升、菜籽油80毫升已经有来源公制对照。"
+      ],
+      "doNotConvertWithoutEvidence": [
+        "步骤中按汤匙和1/4杯分配的帕玛森属于固体体积；只能把总量写约57克，不能臆造每次撒入的克数。",
+        "面包3杯没有来源重量。"
+      ]
+    },
+    {
+      "recipeId": "west-006",
+      "recipeName": "法式洋葱汤",
+      "evidenceFile": "workflow/evidence/west-006-french-onion-soup.json",
+      "currentCanonicalVariant": "Serious Eats",
+      "status": "MINOR_ACTION_RECOMMENDED",
+      "weightAndLength": [
+        "洋葱3磅、格鲁耶尔1磅的来源公制分别是1.4千克和450克，当前已保留来源值。",
+        "洋葱1/8英寸厚 = 3.175毫米，建议写约3毫米。"
+      ],
+      "criticalLiquidMetric": [
+        "雪莉酒120毫升、高汤1.8升、鱼露5毫升和苹果醋5毫升均已采用来源公制。",
+        "防焦时补1汤匙水建议同时标15毫升。",
+        "2夸脱理论换算约1.893升，但来源明确标1.8升，应保留来源的1.8升，不用理论值覆盖。"
+      ]
+    },
+    {
+      "recipeId": "west-011",
+      "recipeName": "意式培根蛋面",
+      "evidenceFile": "workflow/evidence/west-011-carbonara.json",
+      "currentCanonicalVariant": "Serious Eats",
+      "status": "MINOR_ACTION_RECOMMENDED",
+      "weightAndLength": [
+        "意大利面1磅和腌猪肉3盎司已有来源公制450克和85克，当前已采用。"
+      ],
+      "criticalLiquidMetric": [
+        "橄榄油3汤匙已有来源公制45毫升，步骤拆分为30毫升和15毫升。",
+        "步骤加入1/2杯煮面水建议同时标约120毫升。"
+      ],
+      "variantNote": "当前成品完整采用 Serious Eats 的450克面、2全蛋+6蛋黄蒸汽乳化变体，不与 BBC 的350克面版本混合。"
+    },
+    {
+      "recipeId": "west-012",
+      "recipeName": "千层面",
+      "evidenceFile": "workflow/evidence/west-012-lasagna.json",
+      "currentCanonicalVariant": "BBC Good Food",
+      "status": "NO_CANONICAL_IMPERIAL_ACTION",
+      "weightAndLength": [
+        "当前 BBC 变体已使用克和毫升。",
+        "备用 Serious Eats 变体的8英寸面片约20.3厘米，建议约20厘米；9×13英寸烤盘约23×33厘米。"
+      ],
+      "criticalLiquidMetric": [
+        "备用 Serious Eats 来源同时给出3杯牛奶700毫升、1又1/2夸脱肉酱1.5升，应优先保留这些来源公制值。"
+      ],
+      "variantNote": "不要把 Serious Eats 的尺寸和配比移入当前 BBC 肉酱与白酱配方，除非整体切换变体。"
+    },
+    {
+      "recipeId": "west-020",
+      "recipeName": "牧羊人派",
+      "evidenceFile": "workflow/evidence/west-020-shepherds-pie.json",
+      "currentCanonicalVariant": "BBC Good Food",
+      "status": "ACTION_RECOMMENDED",
+      "weightAndLength": [
+        "当前 BBC 变体的羊肉、土豆和黄油已为公制重量，不含英制重量或长度。",
+        "备用 Serious Eats 变体的9×13英寸烤盘约23×33厘米，但不应无理由移入 BBC 变体。"
+      ],
+      "criticalLiquidMetric": [
+        "葵花籽油1汤匙建议15毫升；牛奶3汤匙建议45毫升。",
+        "番茄膏2汤匙是半固体体积，可保留2汤匙或写约30毫升，不应无密度证据换算成克。",
+        "伍斯特酱原文为a large splash，当前写适量正确，不能借用 Serious Eats 的15毫升量。"
+      ],
+      "variantNote": "当前成品完整采用 BBC 变体；Serious Eats 的红酒、奶油和鸡高汤配比属于另一完整变体，不应混合。"
+    }
+  ],
+  "historicalFetchFailuresAndAccessNotes": [
+    {
+      "recipeId": "cn-006",
+      "sourceName": "豆果美食",
+      "url": "https://www.douguo.com/cookbook/1406803.html",
+      "result": "HTTP 404",
+      "complete": false,
+      "documentId": null,
+      "handling": "记录失败并停止使用该候选；未绕过访问控制。"
+    },
+    {
+      "recipeId": "cn-006",
+      "sourceName": "豆果美食",
+      "url": "https://www.douguo.com/cookbook/3067833.html",
+      "result": "首次公开读取成功；后续重复请求 HTTP 403",
+      "complete": true,
+      "documentId": "4fa3d2d6-5b4b-4269-beca-a0f8cd971223",
+      "handling": "保留首次成功取得并已入库的证据；后续403后未绕过验证，本次直接复用。"
+    },
+    {
+      "recipeId": "cn-029",
+      "sourceName": "豆果美食",
+      "url": "https://www.douguo.com/cookbook/3327913.html",
+      "result": "桌面详情页后续 HTTP 403；同站公开移动版详情页曾成功读取 Recipe JSON-LD 与 HTML 正文",
+      "complete": true,
+      "documentId": "7ec2854e-8df6-44bf-80ed-e50bf30bf5d6",
+      "handling": "没有绕过验证；本次仅复用已入库 document。"
+    }
+  ],
+  "newFetchAttempts": [],
+  "summary": {
+    "primaryRecipesPassed": 2,
+    "primaryRecipesFailed": 0,
+    "metricRecipesAudited": 15,
+    "canonicalMetricActionRecommended": [
+      "cn-002",
+      "cn-004",
+      "cn-006",
+      "cn-029",
+      "west-004",
+      "west-006",
+      "west-011",
+      "west-020"
+    ],
+    "canonicalNoImperialAction": [
+      "cn-003",
+      "cn-010",
+      "cn-024",
+      "cn-027",
+      "cn-036",
+      "cn-054",
+      "west-012"
+    ],
+    "keyConclusions": [
+      "红烧肉的2汤匙中性油建议写30毫升，中性油可用低芥酸菜籽油、普通植物油或牛油果油；1/3 US cup绍兴酒建议约80毫升；五花肉约680克，肉块约1.9厘米或约2厘米。",
+      "红烧肉当前是完整的 The Woks of Life 变体，不是与豆果不焯水、不加外油变体的混合。",
+      "干煸四季豆当前是完整的 The Woks of Life 变体：先无油煸豆角，再加约30毫升油炒肉末，最后加5毫升芝麻油；不是豆果先放油素炒版的混合。",
+      "豆果干煸四季豆页面已完整读取，但自身原料表没有列出步骤中的油、水和鸡精；这些缺口不能用另一来源的数值补齐。",
+      "固体体积单位不能用通用液体换算直接变成克；报告只对重量、长度和明确液体给出公制建议。"
+    ]
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "recipeId": "cn-036",
+  "recipeName": "莲藕排骨汤",
+  "category": "chinese",
+  "createdAt": "2026-08-29T18:47:15.015Z",
+  "sources": [
+    {
+      "sourceName": "贝太厨房:从小爱吃的菜2",
+      "sourceType": "book",
+      "url": null,
+      "documentId": "d7fff61a-ba12-4324-b6fe-6f1b9967cc9c",
+      "retrievalMethod": "EPUB XHTML section",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "排骨",
+          "amount": "400g",
+          "raw": "排骨 400g"
+        },
+        {
+          "name": "莲藕",
+          "amount": "600g",
+          "raw": "莲藕 600g"
+        },
+        {
+          "name": "盐",
+          "amount": "10g",
+          "raw": "盐 10g"
+        },
+        {
+          "name": "小葱",
+          "amount": "10g",
+          "raw": "小葱 10g"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "将排骨剁成块。锅里水烧开后，下排骨焯去血水后捞起，将血沫冲掉。莲藕洗净后，用筷子的棱角刮去表皮，切成稍大的滚刀块。小葱洗净切葱花。（图2）",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "把排骨和莲藕放进一个深的汤锅，加水到没过材料约8cm。大火烧开后小火慢慢炖煮，一直炖到排骨有点松脱、筷子能够轻松戳透藕的时候就可以了。撒上葱花，加盐调味之后便可上桌。（图3）",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [
+        "准备：5分钟"
+      ],
+      "tips": [
+        "选藕要选中段的，不要选末梢的，选择肥短偏红的而不是瘦长偏白的，那样的藕才会是粉的。偏瘦偏白的藕是脆的，比较适合炒着吃。"
+      ],
+      "rawExcerpt": "莲藕排骨汤\n\r\n\r\n准备：5分钟　 \r\n烹饪：1小时\n\r\n秋风乍起，寒意萧瑟，天黑得比往常早了，看着别人家的灯火，我们加紧脚步往家赶。混合了莲藕与排骨的香味飘来，幸福的感觉已经涌上心头。吃饭之前，妈妈先盛好一碗满满的莲藕排骨汤，藕块很粉，排骨软烂，热乎乎的汤也带着说不出的鲜甜。\n\r\n用料：\n\r\n排骨　　　400g\n\r\n莲藕　　　600g\n\r\n盐　　　　10g\n\r\n小葱　　　10g\n\r\n做法：\n\r\n1.将排骨剁成块。锅里水烧开后，下排骨焯去血水后捞起，将血沫冲掉。莲藕洗净后，用筷子的棱角刮去表皮，切成稍大的滚刀块。小葱洗净切葱花。（图2）\n\r\n2.把排骨和莲藕放进一个深的汤锅，加水到没过材料约8cm。大火烧开后小火慢慢炖煮，一直炖到排骨有点松脱、筷子能够轻松戳透藕的时候就可以了。撒上葱花，加盐调味之后便可上桌。（图3）\n\r\n家传小诀窍：\n\r\n选藕要选中段的，不要选末梢的，选择肥短偏红的而不是瘦长偏白的，那样的藕才会是粉的。偏瘦偏白的藕是脆的，比较适合炒着吃。",
+      "bookTitle": "贝太厨房:从小爱吃的菜2",
+      "pageStart": null,
+      "pageEnd": null,
+      "location": "text00074.html#subid46"
+    },
+    {
+      "sourceName": "豆果美食",
+      "sourceType": "website",
+      "url": "https://www.douguo.com/cookbook/3356395.html",
+      "documentId": "d6d3f275-8bf9-4743-93b0-c91f242728d8",
+      "retrievalMethod": "HTML正文",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "排骨",
+          "amount": "适量克",
+          "raw": "排骨 适量克"
+        },
+        {
+          "name": "莲藕",
+          "amount": "一根",
+          "raw": "莲藕 一根"
+        },
+        {
+          "name": "葱",
+          "amount": "一段",
+          "raw": "葱 一段"
+        },
+        {
+          "name": "姜",
+          "amount": "2片",
+          "raw": "姜 2片"
+        },
+        {
+          "name": "盐",
+          "amount": "适量",
+          "raw": "盐 适量"
+        },
+        {
+          "name": "水",
+          "amount": "适量",
+          "raw": "水 适量"
+        },
+        {
+          "name": "葱花",
+          "amount": "适量克",
+          "raw": "葱花 适量克"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "排骨冷水入锅，加入料酒焯水去腥洗干净备用",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "高压锅放入莲藕排骨，加入葱段姜片",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "加入适量清水煮熟即可",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "加入葱花，适量盐调味即可饮用",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 5,
+          "instruction": "趁热喝吧",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 6,
+          "instruction": "汤鲜味美，营养好喝",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [],
+      "tips": [],
+      "rawExcerpt": " 莲藕排骨汤的做法_10分钟搞定_好吃下饭_豆果美食 var _hmt = _hmt || []; (function() { var hm = document.createElement(\"script\"); hm.src = \"https://hm.baidu.com/hm.js?8061a800ae3bd3d0428690834ea0cb61\"; var s = document.getElementsByTagName(\"script\")[0]; s.parentNode.insertBefore(hm, s); })(); (function(){ var bp = document.createElement(\"script\"); var curProtocol = window.location.protocol.split(\":\")[0]; if (curProtocol === \"https\") { bp.src = \"https://zz.bdstatic.com/linksubmit/push.js\"; } else { bp.src = \"http://push.zhanzhang.baidu.com/push.js\"; } var s = document.getElementsByTagName(\"script\")[0]; s.parentNode.i",
+      "bookTitle": null,
+      "pageStart": null,
+      "pageEnd": null,
+      "location": null
+    }
+  ],
+  "ragEvidence": [
+    {
+      "chunkId": "45a566a9-a786-4158-9264-9878a21bf1f2",
+      "documentId": "d7fff61a-ba12-4324-b6fe-6f1b9967cc9c",
+      "sourceName": "贝太厨房:从小爱吃的菜2",
+      "chunkType": "steps",
+      "content": "菜名：莲藕排骨汤\n1. 将排骨剁成块。锅里水烧开后，下排骨焯去血水后捞起，将血沫冲掉。莲藕洗净后，用筷子的棱角刮去表皮，切成稍大的滚刀块。小葱洗净切葱花。（图2）\n2. 把排骨和莲藕放进一个深的汤锅，加水到没过材料约8cm。大火烧开后小火慢慢炖煮，一直炖到排骨有点松脱、筷子能够轻松戳透藕的时候就可以了。撒上葱花，加盐调味之后便可上桌。（图3）",
+      "similarity": 0.758643791594731
+    },
+    {
+      "chunkId": "0d915018-4378-44de-be19-bc68368e24d6",
+      "documentId": "d6d3f275-8bf9-4743-93b0-c91f242728d8",
+      "sourceName": "豆果美食",
+      "chunkType": "steps",
+      "content": "菜名：莲藕排骨汤\n1. 排骨冷水入锅，加入料酒焯水去腥洗干净备用\n2. 高压锅放入莲藕排骨，加入葱段姜片\n3. 加入适量清水煮熟即可\n4. 加入葱花，适量盐调味即可饮用\n5. 趁热喝吧\n6. 汤鲜味美，营养好喝",
+      "similarity": 0.724487922325371
+    },
+    {
+      "chunkId": "e0253882-d90c-426c-b90f-5af9449df7b7",
+      "documentId": "d7fff61a-ba12-4324-b6fe-6f1b9967cc9c",
+      "sourceName": "贝太厨房:从小爱吃的菜2",
+      "chunkType": "tips",
+      "content": "菜名：莲藕排骨汤\n- 选藕要选中段的，不要选末梢的，选择肥短偏红的而不是瘦长偏白的，那样的藕才会是粉的。偏瘦偏白的藕是脆的，比较适合炒着吃。",
+      "similarity": 0.720099453934979
+    },
+    {
+      "chunkId": "d6fa473a-0413-4fd4-8567-0e991a4407aa",
+      "documentId": "d6d3f275-8bf9-4743-93b0-c91f242728d8",
+      "sourceName": "豆果美食",
+      "chunkType": "summary",
+      "content": "菜名：莲藕排骨汤\n菜系：家常菜\n简介：超好吃的莲藕排骨汤做法，用食材排骨怎么做好吃、莲藕怎么做好吃、葱怎么做好吃、姜怎么做好吃、盐怎么做好吃、水怎么做好吃、葱花怎么做好吃就能做，鲜香入味，全家都爱吃。",
+      "similarity": 0.717189333355109
+    },
+    {
+      "chunkId": "8940ebd0-8c49-4325-99fe-c96eaf251552",
+      "documentId": "d6d3f275-8bf9-4743-93b0-c91f242728d8",
+      "sourceName": "豆果美食",
+      "chunkType": "ingredients",
+      "content": "菜名：莲藕排骨汤\n- 排骨 适量克\n- 莲藕 一根\n- 葱 一段\n- 姜 2片\n- 盐 适量\n- 水 适量\n- 葱花 适量克",
+      "similarity": 0.708965739875011
+    },
+    {
+      "chunkId": "14d3248e-45ce-4dca-900d-df7baef9f623",
+      "documentId": "d6d3f275-8bf9-4743-93b0-c91f242728d8",
+      "sourceName": "豆果美食",
+      "chunkType": "technique",
+      "content": "菜名：莲藕排骨汤\n- 原文未明确说明技法。",
+      "similarity": 0.702476718947988
+    },
+    {
+      "chunkId": "8faa64c4-df64-41cb-a194-03214a287639",
+      "documentId": "d7fff61a-ba12-4324-b6fe-6f1b9967cc9c",
+      "sourceName": "贝太厨房:从小爱吃的菜2",
+      "chunkType": "ingredients",
+      "content": "菜名：莲藕排骨汤\n- 排骨 400g\n- 莲藕 600g\n- 盐 10g\n- 小葱 10g",
+      "similarity": 0.697238942898481
+    },
+    {
+      "chunkId": "c313b1e9-7bd0-4613-97da-0a4f63d56901",
+      "documentId": "d6d3f275-8bf9-4743-93b0-c91f242728d8",
+      "sourceName": "豆果美食",
+      "chunkType": "tips",
+      "content": "菜名：莲藕排骨汤\n- 原文未提供额外提示。",
+      "similarity": 0.653883932878131
+    },
+    {
+      "chunkId": "e2f21c73-1e5f-405a-9ff6-8216798d5935",
+      "documentId": "d7fff61a-ba12-4324-b6fe-6f1b9967cc9c",
+      "sourceName": "贝太厨房:从小爱吃的菜2",
+      "chunkType": "technique",
+      "content": "菜名：莲藕排骨汤\n- 准备：5分钟",
+      "similarity": 0.627892133107078
+    },
+    {
+      "chunkId": "64c687fc-4e88-4eb4-8372-576434f0c4af",
+      "documentId": "d7fff61a-ba12-4324-b6fe-6f1b9967cc9c",
+      "sourceName": "贝太厨房:从小爱吃的菜2",
+      "chunkType": "summary",
+      "content": "菜名：莲藕排骨汤\n简介：秋风乍起，寒意萧瑟，天黑得比往常早了，看着别人家的灯火，我们加紧脚步往家赶。混合了莲藕与排骨的香味飘来，幸福的感觉已经涌上心头。吃饭之前，妈妈先盛好一碗满满的莲藕排骨汤，藕块很粉，排骨软烂，热乎乎的汤也带着说不出的鲜甜。",
+      "similarity": 0.605355685470497
+    }
+  ],
+  "notes": [
+    "Editor 与 Reviewer 必须使用本文件中的同一份 evidence package。",
+    "EPUB 无固定印刷页码；书籍来源使用 XHTML entry#anchor 定位。"
+  ]
+}

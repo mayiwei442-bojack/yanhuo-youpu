@@ -1,0 +1,162 @@
+{
+  "batchId": "2026-08-30-target-10-rag",
+  "mode": "rag_only",
+  "completedAt": "2026-08-30T22:24:27+08:00",
+  "status": "PASS",
+  "embedding": {
+    "model": "voyage-4",
+    "dimension": 1024,
+    "inputTypes": ["document", "query"]
+  },
+  "summary": {
+    "selectedRecipes": 10,
+    "passedRecipes": 10,
+    "documents": 20,
+    "chunks": 107,
+    "independentSourcesPerRecipe": 2,
+    "semanticRetrievalPassed": 10,
+    "hybridRetrievalPassed": 10
+  },
+  "targets": [
+    {
+      "recipeId": "cn-002",
+      "recipeName": "宫保鸡丁",
+      "sources": ["The Woks of Life", "豆果美食"],
+      "documents": 2,
+      "chunks": 11,
+      "semanticResults": 10,
+      "hybridResults": 10,
+      "topSimilarity": 0.681038558483124,
+      "status": "PASS"
+    },
+    {
+      "recipeId": "cn-003",
+      "recipeName": "麻婆豆腐",
+      "sources": ["The Woks of Life", "豆果美食"],
+      "documents": 2,
+      "chunks": 11,
+      "semanticResults": 10,
+      "hybridResults": 10,
+      "topSimilarity": 0.66755354412379,
+      "status": "PASS"
+    },
+    {
+      "recipeId": "cn-004",
+      "recipeName": "鱼香肉丝",
+      "sources": ["The Woks of Life", "豆果美食"],
+      "documents": 2,
+      "chunks": 11,
+      "semanticResults": 10,
+      "hybridResults": 10,
+      "topSimilarity": 0.704279247308903,
+      "status": "PASS"
+    },
+    {
+      "recipeId": "cn-006",
+      "recipeName": "红烧肉",
+      "sources": ["The Woks of Life", "豆果美食"],
+      "documents": 2,
+      "chunks": 10,
+      "semanticResults": 10,
+      "hybridResults": 10,
+      "topSimilarity": 0.697319927572008,
+      "status": "PASS"
+    },
+    {
+      "recipeId": "cn-029",
+      "recipeName": "干煸四季豆",
+      "sources": ["The Woks of Life", "豆果美食"],
+      "documents": 2,
+      "chunks": 10,
+      "semanticResults": 10,
+      "hybridResults": 10,
+      "topSimilarity": 0.708051008465947,
+      "status": "PASS"
+    },
+    {
+      "recipeId": "west-004",
+      "recipeName": "凯撒沙拉",
+      "sources": ["BBC Good Food", "Serious Eats"],
+      "documents": 2,
+      "chunks": 10,
+      "semanticResults": 10,
+      "hybridResults": 10,
+      "topSimilarity": 0.72684225163964,
+      "status": "PASS"
+    },
+    {
+      "recipeId": "west-006",
+      "recipeName": "法式洋葱汤",
+      "sources": ["BBC Good Food", "Serious Eats"],
+      "documents": 2,
+      "chunks": 10,
+      "semanticResults": 10,
+      "hybridResults": 10,
+      "topSimilarity": 0.75973762513771,
+      "status": "PASS"
+    },
+    {
+      "recipeId": "west-011",
+      "recipeName": "意式培根蛋面",
+      "sources": ["BBC Good Food", "Serious Eats"],
+      "documents": 2,
+      "chunks": 11,
+      "semanticResults": 10,
+      "hybridResults": 10,
+      "topSimilarity": 0.771902799606323,
+      "status": "PASS"
+    },
+    {
+      "recipeId": "west-012",
+      "recipeName": "千层面",
+      "sources": ["BBC Good Food", "Serious Eats"],
+      "documents": 2,
+      "chunks": 12,
+      "semanticResults": 10,
+      "hybridResults": 10,
+      "topSimilarity": 0.550028204917912,
+      "status": "PASS"
+    },
+    {
+      "recipeId": "west-020",
+      "recipeName": "牧羊人派",
+      "sources": ["BBC Good Food", "Serious Eats"],
+      "documents": 2,
+      "chunks": 11,
+      "semanticResults": 10,
+      "hybridResults": 10,
+      "topSimilarity": 0.632833003997807,
+      "status": "PASS"
+    }
+  ],
+  "databaseVerification": {
+    "sources": 5,
+    "entities": 91,
+    "documents": 110,
+    "chunks": 557,
+    "duplicateTargetSourceGroups": 0,
+    "orphanEntities": 0,
+    "orphanDocuments": 0,
+    "orphanChunks": 0,
+    "allTargetVectorsValid": true,
+    "allTargetChunkTypesPresent": true
+  },
+  "replacement": {
+    "rejectedRecipeId": "west-007",
+    "rejectedRecipeName": "炸鱼薯条",
+    "replacementRecipeId": "west-012",
+    "replacementRecipeName": "千层面",
+    "reason": "Serious Eats 未找到可完整核验的同名目标页，无法满足每道菜两个完整独立来源。",
+    "temporaryDatabaseRecordsRemoved": true
+  },
+  "sourceNotes": [
+    "Serious Eats 的直接程序请求出现 HTTP 402/403；Researcher 仅使用当时可公开读取的页面内容，没有绕过访问控制。",
+    "豆果美食后续重复抓取出现 HTTP 403；保留已成功取得并完成结构核验的公开页面证据，没有绕过验证。",
+    "红烧肉一个旧候选 URL 返回 HTTP 404，未作为证据入库。"
+  ],
+  "artifacts": [
+    "workflow/research/2026-08-30-target-10/group-cn-four.json",
+    "workflow/research/2026-08-30-target-10/group-mixed-three.json",
+    "workflow/research/2026-08-30-target-10/group-west-three.json"
+  ]
+}

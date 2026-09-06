@@ -1,0 +1,407 @@
+{
+  "recipeId": "west-012",
+  "recipeName": "千层面",
+  "category": "western",
+  "createdAt": "2026-08-30T14:37:16.591Z",
+  "sources": [
+    {
+      "sourceName": "BBC Good Food",
+      "sourceType": "website",
+      "url": "https://www.bbcgoodfood.com/recipes/classic-italian-lasagne",
+      "documentId": "d0f6ab80-5bba-43e5-a5ad-0ca0774e3003",
+      "retrievalMethod": "JSON-LD + HTML正文",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "pack fresh lasagne sheets",
+          "amount": "250g",
+          "raw": "250g pack fresh lasagne sheets"
+        },
+        {
+          "name": "olive oil for greasing",
+          "amount": null,
+          "raw": "olive oil for greasing"
+        },
+        {
+          "name": "large handful grated parmesan",
+          "amount": null,
+          "raw": "large handful grated parmesan"
+        },
+        {
+          "name": "unsalted butter",
+          "amount": "110g",
+          "raw": "110g unsalted butter"
+        },
+        {
+          "name": "celery stick finely chopped",
+          "amount": "1",
+          "raw": "1 celery stick finely chopped"
+        },
+        {
+          "name": "carrot finely chopped",
+          "amount": "1",
+          "raw": "1 carrot finely chopped"
+        },
+        {
+          "name": "small red onion finely chopped",
+          "amount": "1",
+          "raw": "1 small red onion finely chopped"
+        },
+        {
+          "name": "dried porcini soaked for 10 mins in hot water, drained and roughly chopped",
+          "amount": "25g",
+          "raw": "25g dried porcini soaked for 10 mins in hot water, drained and roughly chopped"
+        },
+        {
+          "name": "rosemary sprig, leaves picked and chopped",
+          "amount": "1",
+          "raw": "1 rosemary sprig, leaves picked and chopped"
+        },
+        {
+          "name": "trimmed beef or veal flank, finely chopped (ask your butcher to do this for you)",
+          "amount": "1kg",
+          "raw": "1kg trimmed beef or veal flank, finely chopped (ask your butcher to do this for you)"
+        },
+        {
+          "name": "dry white wine",
+          "amount": "125ml",
+          "raw": "125ml dry white wine"
+        },
+        {
+          "name": "can good-quality chopped tomatoes",
+          "amount": "400g",
+          "raw": "400g can good-quality chopped tomatoes"
+        },
+        {
+          "name": "1l full-fat milk",
+          "amount": null,
+          "raw": "1l full-fat milk"
+        },
+        {
+          "name": "bay leaf",
+          "amount": "1",
+          "raw": "1 bay leaf"
+        },
+        {
+          "name": "unsalted butter",
+          "amount": "75g",
+          "raw": "75g unsalted butter"
+        },
+        {
+          "name": "‘00’ pasta flour",
+          "amount": "125g",
+          "raw": "125g ‘00’ pasta flour"
+        },
+        {
+          "name": "good grating of nutmeg",
+          "amount": null,
+          "raw": "good grating of nutmeg"
+        },
+        {
+          "name": "parmesan finely grated",
+          "amount": "100g",
+          "raw": "100g parmesan finely grated"
+        },
+        {
+          "name": "egg yolks",
+          "amount": "2",
+          "raw": "2 egg yolks"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "For the ragu, melt the butter in a large flameproof casserole dish over a medium heat until foaming. Add the celery, carrot, onion, porcini, rosemary and some seasoning, and fry for 5 mins.",
+          "duration": null,
+          "heat": "medium heat"
+        },
+        {
+          "order": 2,
+          "instruction": "Season the meat, add to the dish and cook for 5 mins until browned. Pour in the wine, add the tomatoes and bring to the boil.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "Reduce the heat to low, put the lid on the dish and cook for 1hr 30 mins, removing the lid for the final 30 mins so the sauce can reduce. The meat should be tender but not too broken up, and the sauce should be thick. Taste for seasoning. You can cook it for longer if you have time - the flavour will only improve.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "For the béchamel sauce, pour the milk into a saucepan with the bay leaf. Bring to a simmer, turn off the heat and set aside. In a heavy-based saucepan, melt the butter over a medium heat, then whisk in the flour and hot milk. Whisk vigorously until smooth, then cook for 10-15 mins until very thick. Remove the bay leaf and season, grating in nutmeg to taste. Stir in the parmesan and egg yolks, then set aside to cool.",
+          "duration": null,
+          "heat": "medium heat"
+        },
+        {
+          "order": 5,
+          "instruction": "Heat oven to 180C/160C fan/gas 4. Working in batches of three, plunge the pasta sheets into a pan of boiling salted water for 20 secs, just to soften, then immediately put in a bowl of ice-cold water.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 6,
+          "instruction": "Rub oil onto the base and sides of a large baking dish. Put a layer of pasta on the base, then add a layer of ragu, followed by a layer of béchamel sauce. A good tip, for really defined layers, is to pipe the béchamel sauce over.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 7,
+          "instruction": "Repeat this process until you have used all the pasta and ragu, and finish with a layer of béchamel sauce on top. Sprinkle the top with a generous layer of parmesan.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 8,
+          "instruction": "Bake in the oven for 40-45 mins or until bubbling and golden brown, then remove from the oven and leave to settle for 10 mins.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 9,
+          "instruction": "Cut the lasagne into squares and let it sit for another 10 mins before serving – this keeps the layers defined and helps it cool down more quickly.",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [
+        "准备：40分钟",
+        "烹饪：170分钟",
+        "总用时：210分钟"
+      ],
+      "tips": [],
+      "rawExcerpt": "Classic Italian lasagne recipe | Good Food Skip to main content Subscribe Sustainability Good Food Shows Download our app Newsletters Recipes Back to Main menu New and trending Back to Recipes School lunch ideas Crumble recipes Sausage pastas Quick family dinners Newsletter recipes Back to Recipes Fast midweek meals Batch cooking ideas Sign up today WhatsApp feed What to cook Back to Recipes Quick and easy Everyday recipes Family recipes One-pots Slow cooker recipes Traybakes Air fryer recipes Batch cooking All inspiration Occasion recipes Meal type Back to Recipes Breakfast Lunch Dinner Brows"
+    },
+    {
+      "sourceName": "Serious Eats",
+      "sourceType": "website",
+      "url": "https://www.seriouseats.com/lasagna-bolognese-al-forno-recipe",
+      "documentId": "a78ae6f6-c799-4978-a9f6-1fae11d8d11c",
+      "retrievalMethod": "公开网页正文（web reader；fetchHtml 直连失败）",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "unsalted butter",
+          "amount": "4 tablespoons (60 g)",
+          "raw": "4 tablespoons (60 g) unsalted butter, plus more for greasing"
+        },
+        {
+          "name": "all-purpose flour",
+          "amount": "4 tablespoons (35 g)",
+          "raw": "4 tablespoons (35 g) all-purpose flour"
+        },
+        {
+          "name": "whole milk",
+          "amount": "3 cups (700 ml)",
+          "raw": "3 cups (700 ml) whole milk"
+        },
+        {
+          "name": "Kosher salt and black pepper",
+          "amount": null,
+          "raw": "Kosher salt and freshly ground black pepper"
+        },
+        {
+          "name": "nutmeg",
+          "amount": "a pinch",
+          "raw": "A pinch of freshly grated nutmeg"
+        },
+        {
+          "name": "lasagna noodles",
+          "amount": "900 g fresh or two 450 g boxes dry",
+          "raw": "900 g fresh egg or spinach pasta/lasagna noodles, or two 450 g boxes dry lasagna noodles"
+        },
+        {
+          "name": "vegetable oil",
+          "amount": null,
+          "raw": "Vegetable oil for greasing pasta"
+        },
+        {
+          "name": "warm ragù Bolognese",
+          "amount": "1 1/2 quarts (1.5 L)",
+          "raw": "1 1/2 quarts (1.5 L) warm ragù Bolognese"
+        },
+        {
+          "name": "Parmigiano-Reggiano",
+          "amount": "3 ounces (85 g)",
+          "raw": "3 ounces (85 g) Parmigiano-Reggiano cheese"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Melt butter over medium-high heat without browning, whisk in flour and cook until its raw scent disappears; gradually whisk in milk to keep the béchamel smooth.",
+          "duration": "about 1 minute before adding milk",
+          "heat": "medium-high heat"
+        },
+        {
+          "order": 2,
+          "instruction": "Bring the sauce to a simmer, reduce heat and stir until it lightly coats the back of a wooden spoon.",
+          "duration": "about 3 minutes",
+          "heat": "low heat"
+        },
+        {
+          "order": 3,
+          "instruction": "Season the béchamel with salt, pepper and nutmeg; use immediately or cover its surface directly to prevent a skin.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "If using homemade pasta, roll and cut it into roughly 8-inch rectangles.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 5,
+          "instruction": "Cook pasta sheets in salted boiling water until al dente, then transfer immediately to an ice bath.",
+          "duration": "about 1 minute less than package directions for store-bought pasta",
+          "heat": "boiling"
+        },
+        {
+          "order": 6,
+          "instruction": "Drain well and lightly oil both sides of each pasta sheet to prevent sticking.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 7,
+          "instruction": "If using no-boil pasta, soak the sheets in warm water to partially hydrate, then drain.",
+          "duration": "30 minutes",
+          "heat": null
+        },
+        {
+          "order": 8,
+          "instruction": "Heat oven to 375°F (190°C), butter a 9-by-13-inch dish, add a thin ragù layer and cover with pasta.",
+          "duration": null,
+          "heat": "375°F / 190°C"
+        },
+        {
+          "order": 9,
+          "instruction": "Build about six thin layers of pasta, ragù, béchamel and Parmigiano; finish with pasta, remaining béchamel and a generous final layer of cheese.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 10,
+          "instruction": "Bake until bubbling and browned, then rest before serving.",
+          "duration": "35 minutes baking plus 10 minutes resting",
+          "heat": "375°F / 190°C"
+        }
+      ],
+      "technique": [
+        "Keep individual ragù layers thin so the pasta remains distinct and the finished slices retain structure.",
+        "Make a deliberately loose béchamel because it thickens during baking.",
+        "Cool boiled pasta sheets in ice water and oil them lightly to prevent sticking."
+      ],
+      "tips": [
+        "Press plastic wrap directly onto béchamel if holding it to prevent a skin.",
+        "Put a rimmed baking sheet under the dish as insurance against bubbling over.",
+        "Rest the baked lasagna at least 10 minutes before cutting."
+      ],
+      "rawExcerpt": "Lasagna Bolognese. Homemade ragù Bolognese and creamy béchamel layered with pasta and Parmigiano-Reggiano. Ingredients: butter, flour, milk, seasoning, nutmeg, lasagna noodles, oil, warm ragù and Parmesan. Directions: make thin béchamel; prepare and cool pasta; layer thinly with ragù, béchamel and cheese; bake at 190°C for 35 minutes and rest 10 minutes."
+    }
+  ],
+  "ragEvidence": [
+    {
+      "chunkId": "f3072d96-4c3e-40f7-adca-fc3e0721a59b",
+      "documentId": "a78ae6f6-c799-4978-a9f6-1fae11d8d11c",
+      "sourceName": "Serious Eats",
+      "chunkType": "ingredients",
+      "content": "菜名：千层面\n- 4 tablespoons (60 g) unsalted butter, plus more for greasing\n- 4 tablespoons (35 g) all-purpose flour\n- 3 cups (700 ml) whole milk\n- Kosher salt and freshly ground black pepper\n- A pinch of freshly grated nutmeg\n- 900 g fresh egg or spinach pasta/lasagna noodles, or two 450 g boxes dry lasagna noodles\n- Vegetable oil for greasing pasta\n- 1 1/2 quarts (1.5 L) warm ragù Bolognese\n- 3 ounces (85 g) Parmigiano-Reggiano cheese",
+      "similarity": null
+    },
+    {
+      "chunkId": "eaa29286-882d-4d54-bc60-f29c09178735",
+      "documentId": "a78ae6f6-c799-4978-a9f6-1fae11d8d11c",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：千层面\n1. Melt butter over medium-high heat without browning, whisk in flour and cook until its raw scent disappears; gradually whisk in milk to keep the béchamel smooth.（about 1 minute before adding milk）【medium-high heat】\n2. Bring the sauce to a simmer, reduce heat and stir until it lightly coats the back of a wooden spoon.（about 3 minutes）【low heat】\n3. Season the béchamel with salt, pepper and nutmeg; use immediately or cover its surface directly to prevent a skin.\n4. If using homemade pasta, roll and cut it into roughly 8-inch rectangles.\n5. Cook pasta sheets in salted boiling water until al dente, then transfer immediately to an ice bath.（about 1 minute less than package directions for store-bought pasta）【boiling】\n6. Drain well and lightly oil both sides of each pasta sheet to prevent sticking.\n7. If using no-boil pasta, soak the sheets in warm water to partially hydrate, then drain.（30 minutes）\n8. Heat oven to 375°F (190°C), butter a 9-by-13-inch dish, add a thin ragù layer and cover with pasta.【375°F / 190°C】\n9. Build about six thin layers of pasta, ragù, béchamel and Parmigiano; finish with pasta, remaining béchamel and a generous final layer of cheese.",
+      "similarity": null
+    },
+    {
+      "chunkId": "85acbb5b-cf09-4642-b46f-4bdade088eb8",
+      "documentId": "a78ae6f6-c799-4978-a9f6-1fae11d8d11c",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：千层面\n10. Bake until bubbling and browned, then rest before serving.（35 minutes baking plus 10 minutes resting）【375°F / 190°C】",
+      "similarity": null
+    },
+    {
+      "chunkId": "f40832a1-73da-4a4a-8010-7163cea3f3cb",
+      "documentId": "a78ae6f6-c799-4978-a9f6-1fae11d8d11c",
+      "sourceName": "Serious Eats",
+      "chunkType": "summary",
+      "content": "菜名：千层面\n别名：Lasagna Bolognese、Lasagne alla Bolognese\n菜系：意大利（博洛尼亚）\n简介：Homemade ragù Bolognese and creamy besciamella layered thinly with pasta and Parmigiano-Reggiano, then baked until bubbling and browned.",
+      "similarity": null
+    },
+    {
+      "chunkId": "99d16c17-b9a1-4a47-8b9e-f54255e84796",
+      "documentId": "a78ae6f6-c799-4978-a9f6-1fae11d8d11c",
+      "sourceName": "Serious Eats",
+      "chunkType": "technique",
+      "content": "菜名：千层面\n- Keep individual ragù layers thin so the pasta remains distinct and the finished slices retain structure.\n- Make a deliberately loose béchamel because it thickens during baking.\n- Cool boiled pasta sheets in ice water and oil them lightly to prevent sticking.\n- about 1 minute before adding milk\n- medium-high heat\n- about 3 minutes\n- low heat\n- about 1 minute less than package directions for store-bought pasta\n- boiling\n- 30 minutes\n- 375°F / 190°C\n- 35 minutes baking plus 10 minutes resting\n- 375°F / 190°C",
+      "similarity": null
+    },
+    {
+      "chunkId": "63d87480-c588-4cd0-b229-5787f24424fb",
+      "documentId": "a78ae6f6-c799-4978-a9f6-1fae11d8d11c",
+      "sourceName": "Serious Eats",
+      "chunkType": "tips",
+      "content": "菜名：千层面\n- Press plastic wrap directly onto béchamel if holding it to prevent a skin.\n- Put a rimmed baking sheet under the dish as insurance against bubbling over.\n- Rest the baked lasagna at least 10 minutes before cutting.",
+      "similarity": null
+    },
+    {
+      "chunkId": "b1c28d89-39d5-4532-96d4-040c3179b055",
+      "documentId": "d0f6ab80-5bba-43e5-a5ad-0ca0774e3003",
+      "sourceName": "BBC Good Food",
+      "chunkType": "ingredients",
+      "content": "菜名：千层面\n- 250g pack fresh lasagne sheets\n- olive oil for greasing\n- large handful grated parmesan\n- 110g unsalted butter\n- 1 celery stick finely chopped\n- 1 carrot finely chopped\n- 1 small red onion finely chopped\n- 25g dried porcini soaked for 10 mins in hot water, drained and roughly chopped\n- 1 rosemary sprig, leaves picked and chopped\n- 1kg trimmed beef or veal flank, finely chopped (ask your butcher to do this for you)\n- 125ml dry white wine\n- 400g can good-quality chopped tomatoes\n- 1l full-fat milk\n- 1 bay leaf\n- 75g unsalted butter\n- 125g ‘00’ pasta flour\n- good grating of nutmeg\n- 100g parmesan finely grated\n- 2 egg yolks",
+      "similarity": null
+    },
+    {
+      "chunkId": "7f8460c5-04e1-4e6f-9360-5ec9cb485434",
+      "documentId": "d0f6ab80-5bba-43e5-a5ad-0ca0774e3003",
+      "sourceName": "BBC Good Food",
+      "chunkType": "steps",
+      "content": "菜名：千层面\n1. For the ragu, melt the butter in a large flameproof casserole dish over a medium heat until foaming. Add the celery, carrot, onion, porcini, rosemary and some seasoning, and fry for 5 mins.【medium heat】\n2. Season the meat, add to the dish and cook for 5 mins until browned. Pour in the wine, add the tomatoes and bring to the boil.\n3. Reduce the heat to low, put the lid on the dish and cook for 1hr 30 mins, removing the lid for the final 30 mins so the sauce can reduce. The meat should be tender but not too broken up, and the sauce should be thick. Taste for seasoning. You can cook it for longer if you have time - the flavour will only improve.\n4. For the béchamel sauce, pour the milk into a saucepan with the bay leaf. Bring to a simmer, turn off the heat and set aside. In a heavy-based saucepan, melt the butter over a medium heat, then whisk in the flour and hot milk. Whisk vigorously until smooth, then cook for 10-15 mins until very thick. Remove the bay leaf and season, grating in nutmeg to taste. Stir in the parmesan and egg yolks, then set aside to cool.【medium heat】",
+      "similarity": null
+    },
+    {
+      "chunkId": "b13ab9e7-ea82-45c1-9516-7c730be38cb4",
+      "documentId": "d0f6ab80-5bba-43e5-a5ad-0ca0774e3003",
+      "sourceName": "BBC Good Food",
+      "chunkType": "steps",
+      "content": "菜名：千层面\n5. Heat oven to 180C/160C fan/gas 4. Working in batches of three, plunge the pasta sheets into a pan of boiling salted water for 20 secs, just to soften, then immediately put in a bowl of ice-cold water.\n6. Rub oil onto the base and sides of a large baking dish. Put a layer of pasta on the base, then add a layer of ragu, followed by a layer of béchamel sauce. A good tip, for really defined layers, is to pipe the béchamel sauce over.\n7. Repeat this process until you have used all the pasta and ragu, and finish with a layer of béchamel sauce on top. Sprinkle the top with a generous layer of parmesan.\n8. Bake in the oven for 40-45 mins or until bubbling and golden brown, then remove from the oven and leave to settle for 10 mins.\n9. Cut the lasagne into squares and let it sit for another 10 mins before serving – this keeps the layers defined and helps it cool down more quickly.",
+      "similarity": null
+    },
+    {
+      "chunkId": "95092ecd-fb83-4672-b736-3179ecabba7c",
+      "documentId": "d0f6ab80-5bba-43e5-a5ad-0ca0774e3003",
+      "sourceName": "BBC Good Food",
+      "chunkType": "summary",
+      "content": "菜名：千层面\n别名：Classic Italian lasagne\n菜系：家常菜\n简介：Theo Randall shares his authentic Italian lasagne recipe, with a creamy béchamel sauce and classic defined layers. Everyone's favourite family meal",
+      "similarity": null
+    },
+    {
+      "chunkId": "7d80aaa4-9285-4f9f-8803-10884b5672a2",
+      "documentId": "d0f6ab80-5bba-43e5-a5ad-0ca0774e3003",
+      "sourceName": "BBC Good Food",
+      "chunkType": "technique",
+      "content": "菜名：千层面\n- 准备：40分钟\n- 烹饪：170分钟\n- 总用时：210分钟\n- medium heat\n- medium heat",
+      "similarity": null
+    },
+    {
+      "chunkId": "a005aa87-1763-4d5c-beda-9c7835cde392",
+      "documentId": "d0f6ab80-5bba-43e5-a5ad-0ca0774e3003",
+      "sourceName": "BBC Good Food",
+      "chunkType": "tips",
+      "content": "菜名：千层面\n- 原文未提供额外提示。",
+      "similarity": null
+    }
+  ],
+  "notes": [
+    "精确 RAG 实体：59697b04-f6f2-4271-aea0-86ad3733deb2；本文件直接复用已入库 normalized_json、raw_text 与 chunks。",
+    "两个独立完整来源均来自 workflow/source-config.json 中启用的西餐网站。",
+    "本次生成未重新浏览网站，也未调用独立聊天模型 API。"
+  ]
+}

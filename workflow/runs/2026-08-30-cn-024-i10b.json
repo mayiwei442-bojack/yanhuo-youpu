@@ -1,0 +1,25 @@
+{
+  "runId": "2026-08-30-cn-024-i10b",
+  "recipeId": "cn-024",
+  "recipeName": "锅包肉",
+  "category": "chinese",
+  "status": "done",
+  "startedAt": "2026-08-29T18:43:00.000Z",
+  "completedAt": "2026-08-30T03:41:13.492Z",
+  "steps": {
+    "research": { "status": "done", "attempts": 1, "details": { "evidence": "workflow/evidence/cn-024-guobaorou.json" } },
+    "ingestion": { "status": "done", "attempts": 1, "details": { "documents": 2, "chunks": 10, "embeddingDimension": 1024 } },
+    "edit": { "status": "done", "attempts": 1, "details": { "targetOnly": true } },
+    "validator": { "status": "done", "attempts": 1, "details": { "status": "PASS" } },
+    "review": { "status": "done", "attempts": 1, "details": { "result": "workflow/reviews/cn-024-guobaorou.json" } },
+    "build": { "status": "done", "attempts": 1, "details": { "status": "PASS" } },
+    "gitPush": { "status": "done", "attempts": 1, "details": { "remote": "origin", "branch": "codex/recipe-automation", "commit": "b26d4da4a2bc6a3984b5acb511bba8f96705bf6f" } }
+  },
+  "sources": [
+    { "name": "贝太厨房:从小爱吃的菜2", "url": null, "status": "success", "failureReason": null },
+    { "name": "豆果美食", "url": "https://www.douguo.com/cookbook/1489279.html", "status": "success", "failureReason": null }
+  ],
+  "errors": [],
+  "branch": "codex/recipe-automation",
+  "commit": "b26d4da4a2bc6a3984b5acb511bba8f96705bf6f"
+}

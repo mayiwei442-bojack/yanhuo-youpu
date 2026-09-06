@@ -1,0 +1,414 @@
+{
+  "auditId": "2026-08-31-unit-source-fidelity-audit",
+  "createdAt": "2026-08-31T11:59:21.346Z",
+  "role": "Researcher",
+  "scopeRecipeIds": [
+    "cn-002",
+    "cn-004",
+    "cn-006",
+    "cn-029",
+    "west-004",
+    "west-006",
+    "west-011",
+    "west-020"
+  ],
+  "policy": {
+    "websiteBrowsingPerformed": false,
+    "ragReembeddingPerformed": false,
+    "recipeFilesModified": false,
+    "gitUsed": false,
+    "unitRules": [
+      "保留用户此前指定的磅/盎司到克、英寸到厘米换算。",
+      "汤匙、茶匙、杯不能默认按标准美制容量换算为毫升；只有来源原文同时明确写出公制容量时，才保留该公制值。",
+      "来源没有明确公制容量时，油写“食用油适量”。",
+      "来源没有明确公制容量或容器容量时，杯量写“适量”。",
+      "除油之外的汤匙、茶匙量保持原来的勺量，不推算毫升。"
+    ],
+    "multiSourceRule": "主体必须选择最完整、工艺最自洽的一套完整变体；其他来源只能补充不冲突的原料用量、时间、火候或安全提示，不得借用另一套操作顺序或关键食材造成拼方。",
+    "supersedesVolumeAdviceIn": "workflow/research/2026-08-31-metric-detail-audit.json"
+  },
+  "recipes": [
+    {
+      "recipeId": "cn-002",
+      "recipeName": "宫保鸡丁",
+      "primaryVariant": {
+        "sourceName": "The Woks of Life",
+        "documentId": "364f8d36-ac14-4fba-a1c2-19f57b0cdaf3",
+        "url": "https://thewoksoflife.com/kung-pao-chicken/"
+      },
+      "explicitMetricValuesToKeep": [
+        {
+          "sourceText": "12 oz. chicken breast ((cut into 3/4-inch/2cm cubes))",
+          "publicValue": "鸡胸肉约340克；切约2厘米丁",
+          "basis": "盎司到克按用户规则换算；2厘米由来源明确同时给出"
+        },
+        {
+          "sourceText": "6 scallions ((white portions only, cut into 3/4-inch/2cm pieces))",
+          "publicValue": "葱白切约2厘米段",
+          "basis": "来源明确同时给出2厘米"
+        }
+      ],
+      "volumeConversionsToWithdraw": [
+        "炒花生用油1茶匙→5毫升",
+        "腌料植物油1茶匙→5毫升",
+        "绍兴酒1茶匙→5毫升",
+        "生抽1汤匙→15毫升",
+        "老抽1/2茶匙→2.5毫升",
+        "米醋1汤匙→15毫升",
+        "清水3汤匙→45毫升",
+        "炒制用油3汤匙→45毫升及其30/15毫升拆分"
+      ],
+      "conservativePublicWording": [
+        "生花生米1杯改为生花生米适量。",
+        "所有炒制和腌制植物油统一写食用油适量。",
+        "绍兴酒1茶匙、生抽1汤匙、老抽1/2茶匙、米醋1汤匙、清水3汤匙保持原勺量。"
+      ],
+      "secondarySourceAssessment": {
+        "sourceName": "豆果美食",
+        "documentId": "cd54415e-cf51-4fa1-99e4-96260ce203f1",
+        "safeSupplements": [],
+        "limits": [
+          "豆果使用鸡腿、不同碗汁比例、10分钟腌制和另一套14步流程；不能用其数值或顺序补入鸡胸肉主变体。",
+          "豆果的花生适量不能反向证明主来源1杯的克数或容量。"
+        ],
+        "decision": "不补充，完整保留 The Woks of Life 变体。"
+      }
+    },
+    {
+      "recipeId": "cn-004",
+      "recipeName": "鱼香肉丝",
+      "primaryVariant": {
+        "sourceName": "The Woks of Life",
+        "documentId": "e6c112e9-6d7d-4a60-961f-7057aafc2a6e",
+        "url": "https://thewoksoflife.com/pork-garlic-sauce/"
+      },
+      "explicitMetricValuesToKeep": [
+        {
+          "sourceText": "8 ounces pork",
+          "publicValue": "猪肉约227克",
+          "basis": "盎司到克按用户规则换算"
+        },
+        {
+          "sourceText": "8 ounces celtuce",
+          "publicValue": "莴笋约227克",
+          "basis": "盎司到克按用户规则换算"
+        }
+      ],
+      "volumeConversionsToWithdraw": [
+        "腌料食用油2茶匙→10毫升",
+        "绍兴酒1茶匙→5毫升",
+        "生抽2茶匙→10毫升",
+        "清水1又1/2汤匙→22.5毫升",
+        "米醋1又1/2汤匙→22.5毫升",
+        "鱼香汁生抽1汤匙→15毫升",
+        "绍兴酒1/2汤匙→7.5毫升",
+        "清水1杯→约240毫升",
+        "炒制用油3汤匙→45毫升及其15/30毫升拆分"
+      ],
+      "conservativePublicWording": [
+        "全部炒制和腌制用油写食用油适量。",
+        "鱼香汁清水1杯改为清水适量。",
+        "干辣椒1/4杯改为干辣椒适量；泡发木耳丝满1杯改为泡发木耳丝适量。",
+        "绍兴酒、生抽、米醋、白糖、淀粉和非杯量清水保持来源原汤匙/茶匙量。"
+      ],
+      "secondarySourceAssessment": {
+        "sourceName": "豆果美食",
+        "documentId": "516ad8cf-b08b-44a8-9937-0609b30126d2",
+        "safeSupplements": [],
+        "limits": [
+          "豆果为150克猪肉、胡萝卜和木耳组合，并有蔬菜过水、50毫升炒肉油和不同调味顺序。",
+          "不能用豆果150克替代或解释主来源8盎司，也不能把过水、胡萝卜或其50毫升油加入莴笋主变体。"
+        ],
+        "decision": "不补充，完整保留 The Woks of Life 变体。"
+      }
+    },
+    {
+      "recipeId": "cn-006",
+      "recipeName": "红烧肉",
+      "primaryVariant": {
+        "sourceName": "The Woks of Life",
+        "documentId": "b942e03a-0c79-4c86-97e5-4d4b2b674080",
+        "url": "https://thewoksoflife.com/shanghai-style-braised-pork-belly/"
+      },
+      "explicitMetricValuesToKeep": [
+        {
+          "sourceText": "1 1/2 pounds lean, skin-on pork belly",
+          "publicValue": "带皮五花肉约680克",
+          "basis": "磅到克按用户规则换算"
+        },
+        {
+          "sourceText": "3/4-inch thick pieces",
+          "publicValue": "切成约1.9厘米厚，面向普通读者可写约2厘米厚",
+          "basis": "英寸到厘米按用户规则换算"
+        }
+      ],
+      "volumeConversionsToWithdraw": [
+        "中性食用油2汤匙→30毫升",
+        "绍兴酒1/3杯→约80毫升",
+        "生抽2汤匙→30毫升",
+        "老抽1汤匙→15毫升",
+        "清水2—3杯→约480—720毫升"
+      ],
+      "conservativePublicWording": [
+        "若原信源未指定具体油种，公开菜谱只写食用油适量，不保留任何具体油种示例。",
+        "绍兴酒1/3杯改为绍兴酒适量。",
+        "清水2—3杯改为清水适量，并保留焖煮中过干时少量补水的步骤。",
+        "冰糖2汤匙、生抽2汤匙、老抽1汤匙保持原勺量。"
+      ],
+      "secondarySourceAssessment": {
+        "sourceName": "豆果美食",
+        "documentId": "4fa3d2d6-5b4b-4269-beca-a0f8cd971223",
+        "safeSupplements": [],
+        "limits": [
+          "豆果是不焯水、不另加油、先煎出猪油并使用姜、八角、香叶和干辣椒的另一完整变体。",
+          "不能把豆果的一斤半、2大勺花雕酒或香料用于解释主来源的1又1/2磅、1/3杯绍兴酒或焯水加外油流程。"
+        ],
+        "decision": "不补充，完整保留 The Woks of Life 的焯水加外油变体。"
+      }
+    },
+    {
+      "recipeId": "cn-029",
+      "recipeName": "干煸四季豆",
+      "primaryVariant": {
+        "sourceName": "The Woks of Life",
+        "documentId": "f32e32e4-4303-4e27-9fc5-41f0f109401f",
+        "url": "https://thewoksoflife.com/sichuan-dry-fried-green-beans/"
+      },
+      "explicitMetricValuesToKeep": [
+        {
+          "sourceText": "1 pound green beans ((450g))",
+          "publicValue": "四季豆450克",
+          "basis": "来源明确同时给出450克"
+        }
+      ],
+      "volumeConversionsToWithdraw": [
+        "食用油2汤匙→30毫升",
+        "绍兴酒1茶匙→5毫升",
+        "生抽1又1/2茶匙→7.5毫升",
+        "芝麻油1茶匙→5毫升"
+      ],
+      "conservativePublicWording": [
+        "食用油2汤匙改为食用油适量。",
+        "猪肉末1/4杯改为猪肉末适量。",
+        "芝麻油1茶匙改为芝麻油适量。",
+        "绍兴酒1茶匙、生抽1又1/2茶匙、盐和糖的茶匙量保持原勺量。",
+        "碎米芽菜2汤匙保持原勺量。"
+      ],
+      "secondarySourceAssessment": {
+        "sourceName": "豆果美食",
+        "documentId": "7ec2854e-8df6-44bf-80ed-e50bf30bf5d6",
+        "safeSupplements": [
+          "可补充安全提示：四季豆需充分加热至熟。"
+        ],
+        "limits": [
+          "豆果先放油炒300克四季豆，不含猪肉末和碎米芽菜，随后加入水和鸡精，是另一套变体。",
+          "不能用豆果300克替换主来源450克，也不能把先放油、水或鸡精加入主来源先无油煸豆角的顺序。",
+          "豆果原料表没有列出步骤使用的油、水和鸡精用量，不能补造。"
+        ],
+        "decision": "主体完整保留 The Woks of Life；只允许补充四季豆必须熟透的安全提示。"
+      }
+    },
+    {
+      "recipeId": "west-004",
+      "recipeName": "凯撒沙拉",
+      "primaryVariant": {
+        "sourceName": "Serious Eats",
+        "documentId": "71f7a32d-f2e1-4ac0-9378-bcc682f6c245",
+        "url": "https://www.seriouseats.com/the-best-caesar-salad-recipe"
+      },
+      "explicitMetricValuesToKeep": [
+        {
+          "sourceText": "3 tablespoons plus 1/4 cup (105 ml) extra-virgin olive oil, divided",
+          "publicValue": "特级初榨橄榄油共105毫升",
+          "basis": "来源明确同时给出总量105毫升；原文3汤匙和1/4杯的分配可保留，但不得再推算为45/60毫升"
+        },
+        {
+          "sourceText": "2 ounces finely grated parmesan cheese",
+          "publicValue": "帕玛森芝士约57克",
+          "basis": "盎司到克按用户规则换算"
+        },
+        {
+          "sourceText": "3/4-inch cubes",
+          "publicValue": "面包切约1.9厘米丁，面向普通读者可写约2厘米丁",
+          "basis": "英寸到厘米按用户规则换算"
+        },
+        {
+          "sourceText": "1 tablespoon (15 ml) lemon juice; 1 teaspoon (5 ml) Worcestershire sauce; 1/3 cup (80 ml) canola oil",
+          "publicValue": "柠檬汁15毫升；伍斯特酱5毫升；菜籽油80毫升",
+          "basis": "三个公制容量均由来源明确同时给出"
+        },
+        {
+          "sourceText": "375°F (190°C)",
+          "publicValue": "190℃",
+          "basis": "来源明确同时给出"
+        }
+      ],
+      "volumeConversionsToWithdraw": [
+        "橄榄油3汤匙→45毫升",
+        "橄榄油1/4杯→60毫升"
+      ],
+      "conservativePublicWording": [
+        "橄榄油保留总量105毫升；步骤仍按来源写先用3汤匙、后加剩余1/4杯，不分别标毫升。",
+        "帕玛森总量可写约57克；来源的约1杯和步骤中的汤匙/1/4杯只是分配方式，不推算各次克数或毫升。",
+        "面包3杯在没有重量或容器容量时改为面包适量。"
+      ],
+      "secondarySourceAssessment": {
+        "sourceName": "BBC Good Food",
+        "documentId": "539bb781-8ce7-4a52-a8a3-caa5162775b0",
+        "safeSupplements": [],
+        "limits": [
+          "BBC 使用240毫升植物油、红酒醋、芥末、整蛋和Little Gem生菜，是另一套调味汁与生菜组合。",
+          "不能把BBC的225克面包、30克芝士或240毫升油加入Serious Eats的蛋黄、橄榄油和菜籽油乳化配方。"
+        ],
+        "decision": "不补充；保留 Serious Eats 完整变体及其巴氏杀菌蛋黄安全提示。"
+      }
+    },
+    {
+      "recipeId": "west-006",
+      "recipeName": "法式洋葱汤",
+      "primaryVariant": {
+        "sourceName": "Serious Eats",
+        "documentId": "28601ece-1f5b-4d42-bf1f-137df434ac02",
+        "url": "https://www.seriouseats.com/french-onion-soup-recipe"
+      },
+      "explicitMetricValuesToKeep": [
+        {
+          "sourceText": "6 tablespoons (90g) butter; 3 pounds (1.4kg) onions; 1 pound (450 g) Gruyère",
+          "publicValue": "黄油90克；洋葱1.4千克；格鲁耶尔450克",
+          "basis": "来源明确给出公制重量"
+        },
+        {
+          "sourceText": "onions sliced 1/8 inch thick",
+          "publicValue": "洋葱切约3毫米薄片",
+          "basis": "英寸到厘米/毫米按用户规则换算"
+        },
+        {
+          "sourceText": "1/2 cup (120 ml) sherry; 2 quarts (1.8L) stock; 1 teaspoon (5 ml) fish sauce; 1 teaspoon (5 ml) cider vinegar",
+          "publicValue": "雪莉酒120毫升；高汤1.8升；鱼露5毫升；苹果醋5毫升",
+          "basis": "来源明确同时给出公制容量"
+        }
+      ],
+      "volumeConversionsToWithdraw": [
+        "防焦补1汤匙水→15毫升"
+      ],
+      "conservativePublicWording": [
+        "防焦补水保持1汤匙水，不换算毫升。",
+        "细香葱2汤匙保持原勺量。",
+        "高汤保留来源明确的1.8升，不用理论夸脱换算覆盖。"
+      ],
+      "secondarySourceAssessment": {
+        "sourceName": "BBC Good Food",
+        "documentId": "e3fff22c-9f15-4ca9-b673-67e6a92126f5",
+        "safeSupplements": [
+          "可补充不冲突的安全提示：焦糖化接近结束时需频繁观察，避免洋葱烧焦。"
+        ],
+        "limits": [
+          "BBC 使用白葡萄酒、面粉、较少洋葱和55分钟流程；主变体使用雪莉酒、不加面粉并慢炒1—2小时。",
+          "不能借用BBC的1千克洋葱、250毫升白酒、1.3升高汤或20分钟焦糖化时间。"
+        ],
+        "decision": "主体保留 Serious Eats；只补充防焦安全提示。"
+      }
+    },
+    {
+      "recipeId": "west-011",
+      "recipeName": "意式培根蛋面",
+      "primaryVariant": {
+        "sourceName": "Serious Eats",
+        "documentId": "582b7bfe-c481-4cca-95b5-3a063f095c16",
+        "url": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe"
+      },
+      "explicitMetricValuesToKeep": [
+        {
+          "sourceText": "1 pound (450 g) spaghetti; about 3 ounces (85 g) cured pork",
+          "publicValue": "意大利面450克；意式腌猪肉85克",
+          "basis": "来源明确同时给出公制重量"
+        },
+        {
+          "sourceText": "3 tablespoons (45 ml) olive oil",
+          "publicValue": "橄榄油45毫升",
+          "basis": "来源明确同时给出45毫升"
+        },
+        {
+          "sourceText": "1/4 cup Pecorino (25 g); 1/4 cup Parmigiano (25 g)",
+          "publicValue": "佩科里诺25克；帕玛森25克",
+          "basis": "来源明确同时给出公制重量"
+        }
+      ],
+      "volumeConversionsToWithdraw": [
+        "煮面水1/2杯→约120毫升"
+      ],
+      "conservativePublicWording": [
+        "煮面水1/2杯改为煮面水适量。",
+        "橄榄油总量45毫升可保留；步骤按原文分作2汤匙和剩余1汤匙，不推算各自毫升。",
+        "黑胡椒1茶匙保持原勺量。"
+      ],
+      "secondarySourceAssessment": {
+        "sourceName": "BBC Good Food",
+        "documentId": "3778b897-2004-4e39-89d6-65fe0b15d27c",
+        "safeSupplements": [],
+        "limits": [
+          "BBC 为350克面、3个全蛋、黄油、蒜和离火拌蛋流程；主变体为450克面、2全蛋加6蛋黄、橄榄油和隔水温和加热。",
+          "不能把BBC的重量、黄油、蒜、10分钟煮面时间或离火顺序补入主变体。"
+        ],
+        "decision": "不补充，完整保留 Serious Eats 变体。"
+      }
+    },
+    {
+      "recipeId": "west-020",
+      "recipeName": "牧羊人派",
+      "primaryVariant": {
+        "sourceName": "BBC Good Food",
+        "documentId": "cb283a82-14fe-499e-92fc-88467912f1be",
+        "url": "https://www.bbcgoodfood.com/recipes/no-fuss-shepherds-pie"
+      },
+      "explicitMetricValuesToKeep": [
+        {
+          "sourceText": "500g lamb mince; 500ml beef stock; 900g potatoes; 85g butter",
+          "publicValue": "羊肉末500克；牛高汤500毫升；土豆900克；黄油85克",
+          "basis": "BBC来源直接使用公制"
+        },
+        {
+          "sourceText": "180C/fan 160C",
+          "publicValue": "烤箱180℃，风扇烤箱160℃",
+          "basis": "来源直接给出公制温度"
+        }
+      ],
+      "volumeConversionsToWithdraw": [
+        "葵花籽油1汤匙→15毫升",
+        "牛奶3汤匙→45毫升",
+        "番茄膏2汤匙→约30毫升"
+      ],
+      "conservativePublicWording": [
+        "葵花籽油1汤匙改为食用油适量。",
+        "番茄膏2汤匙和牛奶3汤匙保持原勺量。",
+        "伍斯特酱保持适量。"
+      ],
+      "secondarySourceAssessment": {
+        "sourceName": "Serious Eats",
+        "documentId": "1f2ef371-7676-47d9-b872-98dff43a9652",
+        "safeSupplements": [],
+        "limits": [
+          "Serious Eats 使用鸡高汤、明胶、红酒、奶油、豌豆和不同羊肉量，是另一套完整馅料和薯泥变体。",
+          "不能把其30毫升油、240毫升红酒、360毫升奶油、23×33厘米烤盘或15—20分钟静置时间补入BBC变体。"
+        ],
+        "decision": "不补充，完整保留 BBC Good Food 变体。"
+      }
+    }
+  ],
+  "summary": {
+    "recipeCount": 8,
+    "weightAndLengthConversionsRetained": true,
+    "volumeConversionsWithdrawn": true,
+    "sourceExplicitMetricVolumesRetained": [
+      "west-004：橄榄油总量105毫升、柠檬汁15毫升、伍斯特酱5毫升、菜籽油80毫升",
+      "west-006：雪莉酒120毫升、高汤1.8升、鱼露5毫升、苹果醋5毫升",
+      "west-011：橄榄油总量45毫升",
+      "west-020：牛高汤500毫升"
+    ],
+    "safeCrossSourceSupplements": [
+      "cn-029：四季豆必须充分加热至熟。",
+      "west-006：焦糖化接近结束时注意防焦。"
+    ],
+    "allOtherSecondaryVariantMixing": "禁止"
+  }
+}

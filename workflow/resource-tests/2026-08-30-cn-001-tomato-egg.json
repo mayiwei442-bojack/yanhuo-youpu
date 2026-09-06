@@ -1,0 +1,389 @@
+{
+  "recipeId": "cn-001",
+  "recipeName": "番茄炒蛋",
+  "category": "chinese",
+  "startedAt": "2026-08-30T09:13:12.144Z",
+  "completedAt": "2026-08-30T09:13:18.941Z",
+  "status": "PASS",
+  "sources": [
+    {
+      "sourceName": "The Woks of Life",
+      "searchUrl": "https://thewoksoflife.com/?s=tomato+egg",
+      "originalUrl": "https://thewoksoflife.com/stir-fried-tomato-and-egg/",
+      "searchSucceeded": true,
+      "detailLocated": true,
+      "complete": true,
+      "retrievalMethod": "JSON-LD + HTML正文",
+      "recipeName": "番茄炒蛋",
+      "ingredients": [
+        {
+          "name": "small to medium tomatoes ((about 500 g, 1 pound))",
+          "amount": "4",
+          "raw": "4 small to medium tomatoes ((about 500 g, 1 pound))",
+          "evidence": "explicit"
+        },
+        {
+          "name": "scallion",
+          "amount": "1",
+          "raw": "1 scallion",
+          "evidence": "explicit"
+        },
+        {
+          "name": "eggs",
+          "amount": "4",
+          "raw": "4 eggs",
+          "evidence": "explicit"
+        },
+        {
+          "name": "salt ((divided, or to taste))",
+          "amount": "3/4 tsp",
+          "raw": "3/4 tsp salt ((divided, or to taste))",
+          "evidence": "explicit"
+        },
+        {
+          "name": "white pepper",
+          "amount": "1/4 tsp",
+          "raw": "1/4 tsp white pepper",
+          "evidence": "explicit"
+        },
+        {
+          "name": "sesame oil",
+          "amount": "1/2 tsp",
+          "raw": "1/2 tsp sesame oil",
+          "evidence": "explicit"
+        },
+        {
+          "name": "shaoxing wine",
+          "amount": "1 tsp",
+          "raw": "1 tsp shaoxing wine",
+          "evidence": "explicit"
+        },
+        {
+          "name": "vegetable oil ((divided))",
+          "amount": "3 tbsp",
+          "raw": "3 tbsp vegetable oil ((divided))",
+          "evidence": "explicit"
+        },
+        {
+          "name": "sugar",
+          "amount": "2 tsp",
+          "raw": "2 tsp sugar",
+          "evidence": "explicit"
+        },
+        {
+          "name": "water",
+          "amount": "1/4-1/2 cup",
+          "raw": "1/4-1/2 cup water",
+          "evidence": "explicit"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Start by cutting tomatoes into small wedges and finely chop the scallion.",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 2,
+          "instruction": "Crack 4 eggs into a bowl and season with ¼ teaspoon salt, ¼ teaspoon white pepper, ½ teaspoon sesame oil, and 1 teaspoon Shaoxing wine. Beat eggs for a minute.",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 3,
+          "instruction": "Preheat the wok over medium heat until it just starts to smoke. Then add 2 tablespoons of oil and immediately add the eggs. Scramble the eggs and remove from the wok immediately. Set aside.",
+          "duration": null,
+          "heat": "medium heat",
+          "evidence": "explicit"
+        },
+        {
+          "order": 4,
+          "instruction": "Add 1 more tablespoon oil to the wok, turn up the heat to high, and add the tomatoes and scallions. Stir-fry for 1 minute, and then add 2 teaspoons sugar, ½ teaspoon salt, and ¼ cup water (if your stove gets very hot and liquid tends to cook off very quickly in your wok, add a little more water). Add the cooked eggs.",
+          "duration": "1 minute",
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 5,
+          "instruction": "Mix everything together, cover the wok, and cook for 1-2 minutes, until the tomatoes are completely softened.",
+          "duration": "1-2 minutes",
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 6,
+          "instruction": "Uncover, and continue to stir-fry over high heat until the sauce thickens to your liking. Serve!",
+          "duration": null,
+          "heat": "high heat",
+          "evidence": "explicit"
+        }
+      ],
+      "cookingTime": "10分钟",
+      "normalized": true,
+      "ingested": true,
+      "chunks": 5,
+      "embeddingDimension": 1024,
+      "failureReason": null,
+      "documentId": "c4baa8d5-85c7-4e9c-b385-10576f2cb200",
+      "recipeEntityId": "a4765a77-f159-466a-ab6c-9d65d927cf21",
+      "chunkTypes": [
+        "summary",
+        "ingredients",
+        "steps",
+        "technique",
+        "tips"
+      ],
+      "deduplicated": true
+    },
+    {
+      "sourceName": "豆果美食",
+      "searchUrl": "https://m.douguo.com/caipu/%E7%95%AA%E8%8C%84%E7%82%92%E8%9B%8B",
+      "originalUrl": "https://www.douguo.com/cookbook/1192179.html",
+      "searchSucceeded": true,
+      "detailLocated": true,
+      "complete": true,
+      "retrievalMethod": "HTML正文",
+      "recipeName": "番茄炒蛋",
+      "ingredients": [
+        {
+          "name": "鸡蛋",
+          "amount": "三个",
+          "raw": "鸡蛋 三个",
+          "evidence": "explicit"
+        },
+        {
+          "name": "西红柿",
+          "amount": "2个",
+          "raw": "西红柿 2个",
+          "evidence": "explicit"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "准备食材。鸡蛋三个、中等大小西红柿两个。盐1克、糖2克、食用油适量。",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 2,
+          "instruction": "将鸡蛋去皮打散、西红柿切小块备用。",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 3,
+          "instruction": "锅中倒入适量底油，油热之后，倒入蛋液。",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 4,
+          "instruction": "待鸡蛋稍稍凝固后，把鸡蛋推到一边。然后放到西红柿，煸炒匀均。",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 5,
+          "instruction": "往锅里加少许糖煸炒匀均，然后大火收汁。",
+          "duration": null,
+          "heat": "大火",
+          "evidence": "explicit"
+        },
+        {
+          "order": 6,
+          "instruction": "最后关火，放盐翻炒匀均即可装盘。",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        }
+      ],
+      "cookingTime": null,
+      "normalized": true,
+      "ingested": true,
+      "chunks": 5,
+      "embeddingDimension": 1024,
+      "failureReason": null,
+      "documentId": "4f32f250-6501-423c-a75a-fd9c463b7948",
+      "recipeEntityId": "a4765a77-f159-466a-ab6c-9d65d927cf21",
+      "chunkTypes": [
+        "summary",
+        "ingredients",
+        "steps",
+        "technique",
+        "tips"
+      ],
+      "deduplicated": true
+    }
+  ],
+  "summary": {
+    "successfulSources": 2,
+    "failedSources": 0,
+    "chunkTypes": [
+      "summary",
+      "ingredients",
+      "steps",
+      "technique",
+      "tips"
+    ],
+    "embeddingModel": "voyage-4",
+    "embeddingDimension": 1024,
+    "semanticResults": 10,
+    "hybridResults": 10,
+    "retrievedIndependentSources": 2
+  },
+  "retrievalFailure": null,
+  "retrieval": {
+    "semantic": [
+      {
+        "id": "2f1f07c5-cbb8-4cdc-8001-af5ef72d2aba",
+        "documentId": "4f32f250-6501-423c-a75a-fd9c463b7948",
+        "sourceId": "f3b6d834-5e5f-4228-b04d-5db423e9262a",
+        "chunkType": "steps",
+        "similarity": 0.708765702917237,
+        "contentPreview": "菜名：番茄炒蛋\n1. 准备食材。鸡蛋三个、中等大小西红柿两个。盐1克、糖2克、食用油适量。\n2. 将鸡蛋去皮打散、西红柿切小块备用。\n3. 锅中倒入适量底油，油热之后，倒入蛋液。\n4. 待鸡蛋稍稍凝固后，把鸡蛋推到一边。然后放到西红柿，煸炒匀均。\n5. 往锅里加少许糖煸炒匀均，然后大火收汁。【大火】\n6. 最后关火，放盐翻炒匀均即可装盘。"
+      },
+      {
+        "id": "6a628f22-312a-4dbd-a82a-e759cf665751",
+        "documentId": "4f32f250-6501-423c-a75a-fd9c463b7948",
+        "sourceId": "f3b6d834-5e5f-4228-b04d-5db423e9262a",
+        "chunkType": "tips",
+        "similarity": 0.707333343784015,
+        "contentPreview": "菜名：番茄炒蛋\n- 鸡蛋和西红柿用量的比例。总的来讲，就是重量1：1。西红柿不要太多，太多容易出汤，太少又会减轻味道。\n- 鸡蛋要充分打散。打至感觉没有阻力，表面有很多小气泡。\n- 打鸡蛋的时候，还要往蛋液里少放一点水。这会炒出来的鸡蛋才滑嫩可口。\n- 西红柿的块不要切的太大或太小。太大烹饪时间久，会影响鸡蛋鲜嫩的口感。太小又会出很多汤，影响成品效果。\n- "
+      },
+      {
+        "id": "2224ebe7-b078-4d50-accf-4cf4819c9648",
+        "documentId": "c4baa8d5-85c7-4e9c-b385-10576f2cb200",
+        "sourceId": "ff80c282-f473-40e2-9d38-f3e4941e289f",
+        "chunkType": "steps",
+        "similarity": 0.696359432177611,
+        "contentPreview": "菜名：番茄炒蛋\n1. Start by cutting tomatoes into small wedges and finely chop the scallion.\n2. Crack 4 eggs into a bowl and season with ¼ teaspoon salt, ¼ teaspoon white pepper, ½ teaspoo"
+      },
+      {
+        "id": "572d5e49-6b08-47a0-af06-b31a9e0ba857",
+        "documentId": "c4baa8d5-85c7-4e9c-b385-10576f2cb200",
+        "sourceId": "ff80c282-f473-40e2-9d38-f3e4941e289f",
+        "chunkType": "ingredients",
+        "similarity": 0.685892619384215,
+        "contentPreview": "菜名：番茄炒蛋\n- 4 small to medium tomatoes ((about 500 g, 1 pound))\n- 1 scallion\n- 4 eggs\n- 3/4 tsp salt ((divided, or to taste))\n- 1/4 tsp white pepper\n- 1/2 tsp sesame oil\n- 1 tsp shao"
+      },
+      {
+        "id": "80fe8d74-c16c-41a2-a4a2-7258b5fd3743",
+        "documentId": "4f32f250-6501-423c-a75a-fd9c463b7948",
+        "sourceId": "f3b6d834-5e5f-4228-b04d-5db423e9262a",
+        "chunkType": "technique",
+        "similarity": 0.676059563394812,
+        "contentPreview": "菜名：番茄炒蛋\n- 大火\n- 大火"
+      },
+      {
+        "id": "a387c969-2579-4ab8-a370-f803b52683dd",
+        "documentId": "4f32f250-6501-423c-a75a-fd9c463b7948",
+        "sourceId": "f3b6d834-5e5f-4228-b04d-5db423e9262a",
+        "chunkType": "summary",
+        "similarity": 0.670208910678755,
+        "contentPreview": "菜名：番茄炒蛋\n别名：西红柿炒鸡蛋\n菜系：家常菜\n简介：西红柿炒鸡蛋的家常做法，食材简单步骤详细，食材 鸡蛋怎么做好吃 新手也能轻松学会。豆果美食有更多美食教程!"
+      },
+      {
+        "id": "546e12c9-2b54-4860-a675-ed8373fe777c",
+        "documentId": "c4baa8d5-85c7-4e9c-b385-10576f2cb200",
+        "sourceId": "ff80c282-f473-40e2-9d38-f3e4941e289f",
+        "chunkType": "technique",
+        "similarity": 0.648643037757694,
+        "contentPreview": "菜名：番茄炒蛋\n- 准备：5分钟\n- 烹饪：5分钟\n- 总用时：10分钟\n- medium heat\n- 1 minute\n- 1-2 minutes\n- high heat"
+      },
+      {
+        "id": "c19a877a-00cd-416c-9ffb-1eeafa7b89d9",
+        "documentId": "4f32f250-6501-423c-a75a-fd9c463b7948",
+        "sourceId": "f3b6d834-5e5f-4228-b04d-5db423e9262a",
+        "chunkType": "ingredients",
+        "similarity": 0.635554118686423,
+        "contentPreview": "菜名：番茄炒蛋\n- 鸡蛋 三个\n- 西红柿 2个"
+      },
+      {
+        "id": "03ca4b1a-ad43-401a-946f-d6d7dcbaab76",
+        "documentId": "c4baa8d5-85c7-4e9c-b385-10576f2cb200",
+        "sourceId": "ff80c282-f473-40e2-9d38-f3e4941e289f",
+        "chunkType": "tips",
+        "similarity": 0.630222044573902,
+        "contentPreview": "菜名：番茄炒蛋\n- If you can’t find Shaoxing rice wine in your local grocery store, you can substitute a dry sherry or mirin (Japanese sweet rice wine).\n- Be sure to remove the stems.\n- Lo"
+      },
+      {
+        "id": "719a1960-8b2f-493f-8d14-500de6947c95",
+        "documentId": "c4baa8d5-85c7-4e9c-b385-10576f2cb200",
+        "sourceId": "ff80c282-f473-40e2-9d38-f3e4941e289f",
+        "chunkType": "summary",
+        "similarity": 0.620696663856511,
+        "contentPreview": "菜名：番茄炒蛋\n别名：Chinese Tomato Egg Stir-fry\n菜系：家常菜\n简介：This 10-minute Chinese tomato egg stir-fry is a dish you’ll find on many Chinese home dinner tables. It’s fast, easy, cheap, and de"
+      }
+    ],
+    "hybrid": [
+      {
+        "id": "a387c969-2579-4ab8-a370-f803b52683dd",
+        "chunkType": "summary",
+        "hybridScore": 0.038461538461538464,
+        "contentPreview": "菜名：番茄炒蛋\n别名：西红柿炒鸡蛋\n菜系：家常菜\n简介：西红柿炒鸡蛋的家常做法，食材简单步骤详细，食材 鸡蛋怎么做好吃 新手也能轻松学会。豆果美食有更多美食教程!"
+      },
+      {
+        "id": "2f1f07c5-cbb8-4cdc-8001-af5ef72d2aba",
+        "chunkType": "steps",
+        "hybridScore": 0.03812636165577342,
+        "contentPreview": "菜名：番茄炒蛋\n1. 准备食材。鸡蛋三个、中等大小西红柿两个。盐1克、糖2克、食用油适量。\n2. 将鸡蛋去皮打散、西红柿切小块备用。\n3. 锅中倒入适量底油，油热之后，倒入蛋液。\n4. 待鸡蛋稍稍凝固后，把鸡蛋推到一边。然后放到西红柿，煸炒匀均。\n5. 往锅里加少许糖煸炒匀均，然后大火收汁。【大火】\n6. 最后关火，放盐翻炒匀均即可装盘。"
+      },
+      {
+        "id": "6a628f22-312a-4dbd-a82a-e759cf665751",
+        "chunkType": "tips",
+        "hybridScore": 0.03684922244759973,
+        "contentPreview": "菜名：番茄炒蛋\n- 鸡蛋和西红柿用量的比例。总的来讲，就是重量1：1。西红柿不要太多，太多容易出汤，太少又会减轻味道。\n- 鸡蛋要充分打散。打至感觉没有阻力，表面有很多小气泡。\n- 打鸡蛋的时候，还要往蛋液里少放一点水。这会炒出来的鸡蛋才滑嫩可口。\n- 西红柿的块不要切的太大或太小。太大烹饪时间久，会影响鸡蛋鲜嫩的口感。太小又会出很多汤，影响成品效果。\n- "
+      },
+      {
+        "id": "719a1960-8b2f-493f-8d14-500de6947c95",
+        "chunkType": "summary",
+        "hybridScore": 0.036725067385444746,
+        "contentPreview": "菜名：番茄炒蛋\n别名：Chinese Tomato Egg Stir-fry\n菜系：家常菜\n简介：This 10-minute Chinese tomato egg stir-fry is a dish you’ll find on many Chinese home dinner tables. It’s fast, easy, cheap, and de"
+      },
+      {
+        "id": "c19a877a-00cd-416c-9ffb-1eeafa7b89d9",
+        "chunkType": "ingredients",
+        "hybridScore": 0.036725067385444746,
+        "contentPreview": "菜名：番茄炒蛋\n- 鸡蛋 三个\n- 西红柿 2个"
+      },
+      {
+        "id": "80fe8d74-c16c-41a2-a4a2-7258b5fd3743",
+        "chunkType": "technique",
+        "hybridScore": 0.03636363636363636,
+        "contentPreview": "菜名：番茄炒蛋\n- 大火\n- 大火"
+      },
+      {
+        "id": "572d5e49-6b08-47a0-af06-b31a9e0ba857",
+        "chunkType": "ingredients",
+        "hybridScore": 0.036062378167641324,
+        "contentPreview": "菜名：番茄炒蛋\n- 4 small to medium tomatoes ((about 500 g, 1 pound))\n- 1 scallion\n- 4 eggs\n- 3/4 tsp salt ((divided, or to taste))\n- 1/4 tsp white pepper\n- 1/2 tsp sesame oil\n- 1 tsp shao"
+      },
+      {
+        "id": "2224ebe7-b078-4d50-accf-4cf4819c9648",
+        "chunkType": "steps",
+        "hybridScore": 0.03478523895946763,
+        "contentPreview": "菜名：番茄炒蛋\n1. Start by cutting tomatoes into small wedges and finely chop the scallion.\n2. Crack 4 eggs into a bowl and season with ¼ teaspoon salt, ¼ teaspoon white pepper, ½ teaspoo"
+      },
+      {
+        "id": "03ca4b1a-ad43-401a-946f-d6d7dcbaab76",
+        "chunkType": "tips",
+        "hybridScore": 0.03361581920903955,
+        "contentPreview": "菜名：番茄炒蛋\n- If you can’t find Shaoxing rice wine in your local grocery store, you can substitute a dry sherry or mirin (Japanese sweet rice wine).\n- Be sure to remove the stems.\n- Lo"
+      },
+      {
+        "id": "546e12c9-2b54-4860-a675-ed8373fe777c",
+        "chunkType": "technique",
+        "hybridScore": 0.03361581920903955,
+        "contentPreview": "菜名：番茄炒蛋\n- 准备：5分钟\n- 烹饪：5分钟\n- 总用时：10分钟\n- medium heat\n- 1 minute\n- 1-2 minutes\n- high heat"
+      }
+    ]
+  }
+}

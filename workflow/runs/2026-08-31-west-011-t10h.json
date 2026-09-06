@@ -1,0 +1,13 @@
+{
+  "runId": "2026-08-31-west-011-t10h", "recipeId": "west-011", "recipeName": "意式培根蛋面", "category": "western", "status": "done",
+  "startedAt": "2026-08-31T05:52:49.810Z", "completedAt": "2026-08-31T06:20:52.158Z",
+  "steps": {
+    "research": { "status": "done", "attempts": 1, "details": { "evidence": "workflow/evidence/west-011-carbonara.json", "evidenceHash": "02935e5b782479606b855cc35f7110f2e46a47923268422664d1107c210613c0" } },
+    "ingestion": { "status": "done", "attempts": 1, "details": { "documents": 2, "chunks": 11, "embeddingDimension": 1024 } },
+    "edit": { "status": "done", "attempts": 1, "details": { "targetOnly": true, "changedFields": ["ingredients", "steps"] } }, "validator": { "status": "done", "attempts": 1, "details": { "status": "PASS", "ingredientCount": 9, "stepCount": 5 } },
+    "review": { "status": "done", "attempts": 1, "details": { "status": "PASS", "result": "workflow/reviews/west-011-carbonara.json" } }, "build": { "status": "done", "attempts": 1, "details": { "status": "PASS", "command": "npm run test:workflow:deterministic" } },
+    "gitPush": { "status": "done", "attempts": 1, "details": { "remote": "origin", "branch": "codex/recipe-automation", "commit": "b91b94afa8f981222cc0562c82f31c0f6a0f80d9" } }
+  },
+  "sources": [{ "name": "BBC Good Food", "url": "https://www.bbcgoodfood.com/recipes/ultimate-spaghetti-carbonara-recipe", "status": "success", "failureReason": null }, { "name": "Serious Eats", "url": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe", "status": "success", "failureReason": null }],
+  "errors": [], "branch": "codex/recipe-automation", "commit": "b91b94afa8f981222cc0562c82f31c0f6a0f80d9"
+}

@@ -1,0 +1,3 @@
+name = "reviewer"
+description = "Independently reviews one edited recipe against the same evidence package and deterministic validation result."
+developer_instructions = "Read and follow workflow/prompts/reviewer.md exactly. Do not browse, query RAG, edit files, or use Git. Return only a result conforming to workflow/schemas/reviewer-result.schema.json."

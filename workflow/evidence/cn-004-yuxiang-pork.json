@@ -1,0 +1,433 @@
+{
+  "recipeId": "cn-004",
+  "recipeName": "鱼香肉丝",
+  "category": "chinese",
+  "createdAt": "2026-08-30T14:39:24.210Z",
+  "sources": [
+    {
+      "sourceName": "The Woks of Life",
+      "sourceType": "website",
+      "url": "https://thewoksoflife.com/pork-garlic-sauce/",
+      "documentId": "e6c112e9-6d7d-4a60-961f-7057aafc2a6e",
+      "retrievalMethod": "JSON-LD + HTML正文",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "ounces pork",
+          "amount": "8",
+          "raw": "8 ounces pork",
+          "evidence": "explicit"
+        },
+        {
+          "name": "oil",
+          "amount": "2 teaspoons",
+          "raw": "2 teaspoons oil",
+          "evidence": "explicit"
+        },
+        {
+          "name": "Shaoxing wine",
+          "amount": "1 teaspoon",
+          "raw": "1 teaspoon Shaoxing wine",
+          "evidence": "explicit"
+        },
+        {
+          "name": "light soy sauce",
+          "amount": "2 teaspoon",
+          "raw": "2 teaspoon light soy sauce",
+          "evidence": "explicit"
+        },
+        {
+          "name": "ground white pepper",
+          "amount": "¼ teaspoon",
+          "raw": "¼ teaspoon ground white pepper",
+          "evidence": "explicit"
+        },
+        {
+          "name": "cornstarch",
+          "amount": "1 teaspoon",
+          "raw": "1 teaspoon cornstarch",
+          "evidence": "explicit"
+        },
+        {
+          "name": "1½ tablespoons water",
+          "amount": null,
+          "raw": "1½ tablespoons water",
+          "evidence": "explicit"
+        },
+        {
+          "name": "1½ tablespoons rice vinegar",
+          "amount": null,
+          "raw": "1½ tablespoons rice vinegar",
+          "evidence": "explicit"
+        },
+        {
+          "name": "1½ tablespoons sugar",
+          "amount": null,
+          "raw": "1½ tablespoons sugar",
+          "evidence": "explicit"
+        },
+        {
+          "name": "light soy sauce",
+          "amount": "1 tablespoon",
+          "raw": "1 tablespoon light soy sauce",
+          "evidence": "explicit"
+        },
+        {
+          "name": "Shaoxing wine",
+          "amount": "½ tablespoon",
+          "raw": "½ tablespoon Shaoxing wine",
+          "evidence": "explicit"
+        },
+        {
+          "name": "water",
+          "amount": "1 cup",
+          "raw": "1 cup water",
+          "evidence": "explicit"
+        },
+        {
+          "name": "1½ tablespoons cornstarch",
+          "amount": null,
+          "raw": "1½ tablespoons cornstarch",
+          "evidence": "explicit"
+        },
+        {
+          "name": "oil ((divided))",
+          "amount": "3 tablespoons",
+          "raw": "3 tablespoons oil ((divided))",
+          "evidence": "explicit"
+        },
+        {
+          "name": "spicy bean sauce",
+          "amount": "1 tablespoon",
+          "raw": "1 tablespoon spicy bean sauce",
+          "evidence": "explicit"
+        },
+        {
+          "name": "ginger ((minced))",
+          "amount": "2 teaspoons",
+          "raw": "2 teaspoons ginger ((minced))",
+          "evidence": "explicit"
+        },
+        {
+          "name": "garlic ((minced))",
+          "amount": "2 teaspoons",
+          "raw": "2 teaspoons garlic ((minced))",
+          "evidence": "explicit"
+        },
+        {
+          "name": "dried chili peppers",
+          "amount": "1/4 cup",
+          "raw": "1/4 cup dried chili peppers",
+          "evidence": "explicit"
+        },
+        {
+          "name": "heaping cup of rehydrated wood ears ((julienned))",
+          "amount": "1",
+          "raw": "1 heaping cup of rehydrated wood ears ((julienned))",
+          "evidence": "explicit"
+        },
+        {
+          "name": "ounces celtuce ((stem lettuce, peeled and julienned, may also substitute bamboo shoots or carrots))",
+          "amount": "8",
+          "raw": "8 ounces celtuce ((stem lettuce, peeled and julienned, may also substitute bamboo shoots or carrots))",
+          "evidence": "explicit"
+        },
+        {
+          "name": "scallion (finely chopped)",
+          "amount": "1",
+          "raw": "1 scallion (finely chopped)",
+          "evidence": "explicit"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "First, combine the pork with the marinade ingredients, and set aside for 20 minutes while you prepare the ingredients for the rest of the dish--namely, the celtuce, wood ears, ginger, garlic, etc.",
+          "duration": "20 minutes",
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 2,
+          "instruction": "Next, prepare the sauce--mix all of the sauce ingredients together and set aside.",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 3,
+          "instruction": "Now we can start cooking! To prevent sticking, preheat a clean wok until it starts to smoke lightly (this step is very important). Now turn up the heat to high, and add one tablespoon of oil to the wok. Cook the marinated pork just until it turns opaque. Turn off the heat, transfer the pork to a dish, and set aside.",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 4,
+          "instruction": "At this stage, your wok should still be pretty clean, as the technique used to cook the pork is fairly low impact. But if it’s not, it’s a good idea to wash the wok and wipe it dry before starting the next phase of cooking.",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 5,
+          "instruction": "Turn the heat on to medium. Add two tablespoons of oil and the spicy bean sauce. Stir lightly, and cook for about a minute until the oil turns red, adjusting the heat to avoid burning if needed.",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 6,
+          "instruction": "Now add the ginger, garlic, and dried chili peppers. Stir for about 15 seconds. Add the wood ears, turn up the heat, and stir fry for 30 seconds (you can add a few drops of water if it’s too dry), making sure everything is well-combined.",
+          "duration": "15 seconds",
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 7,
+          "instruction": "Once the liquid in the wok starts to bubble, give your sauce mixture a good stir, and add it along with the celtuce, scallion and cooked pork. Stir fry quickly to combine everything and serve.",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        }
+      ],
+      "technique": [
+        "准备：35分钟",
+        "烹饪：10分钟",
+        "总用时：45分钟"
+      ],
+      "tips": [
+        "Turn the heat on to medium. Add two tablespoons of oil and the spicy bean sauce . Stir and cook for about a minute until the oil turns red, adjusting the heat to avoid burning if needed.",
+        "Once the liquid in the wok starts to bubble, give your sauce mixture a good stir, and add it along with the celtuce (may substitute bamboo shoots or carrots), scallion and cooked pork.",
+        "Looking for more authentic recipes? Subscribe to our email list and be sure to follow us on Pinterest , Facebook , Instagram , and Youtube!"
+      ],
+      "rawExcerpt": "菜名：鱼香肉丝\n简介：An authentic version of Pork with Garlic Sauce involves just three main ingredients: pork, wood ear mushrooms, and celtuce, the stem part of a lettuce plant\n原料：8 ounces pork；2 teaspoons oil；1 teaspoon Shaoxing wine；2 teaspoon light soy sauce；¼ teaspoon ground white pepper；1 teaspoon cornstarch；1½ tablespoons water；1½ tablespoons rice vinegar；1½ tablespoons sugar；1 tablespoon light soy sauce；½ tablespoon Shaoxing wine；1 cup water；1½ tablespoons cornstarch；3 tablespoons oil ((divided))；1 tablespoon spicy bean sauce；2 teaspoons ginger ((minced))；2 teaspoons garlic ((minced))；1/4 cup dried chili peppers；1 heaping cup of rehydrated wood ears ((julienned))；8 ounces celtuce ((stem lettuce, peeled and julienned, may also substitute bamboo shoots or carrots))；1 scallion (finely chopped)\n步骤：1. First, combine the pork with the marinade ingredients, and set aside for 20 minutes while you prepare the ingredients for the rest of the dish--namely, the celtuce, wood ears, ginger, garlic, etc. 2. Next, prepare the sauce--mix all of the sauce ingredients together and set aside. 3. Now we can start cooking! To prevent sticking, preheat a clean wok until it starts to smoke lightly (this step is very important). Now turn up the heat to high, and add one tablespoon of oil to the wok. Cook the marinated pork just until it turns opaque. Turn off the heat, transfer the pork to a dish, and set aside. 4. At this stage, your wok should still be pretty clean, as the technique used to cook the pork is fairly low impact. But if it’s not, it’s a good idea to wash the wok and wipe it dry before starting the next phase of cooking. 5. Turn the heat on to medium. Add two tablespoons of oil and the spicy bean sauce. Stir lightly, and cook for about a minute until the oil turns red, adjusting the heat to avoid burning if needed. 6. Now add the ginger, garlic, and dried chili peppers. Stir for about 15 seconds. Add the wood ears, turn up the heat, and stir fry for 30 seconds (you can add a few drops of water if it’s too dry), making sure everything is well-combined. 7. Once the liquid in the wok starts to bubble, give your sauce mixture a good stir, and add it along with the celtuce, scallion and cooked pork. Stir fry quickly to combine everything and serve.\n技法：准备：35分钟；烹饪：10分钟；总用时：45分钟\n提示：Turn the heat on to medium. Add two tablespoons of oil and the spicy bean sauce . Stir and cook for about a minute until the oil turns red, adjusting the heat to avoid burning if needed.；Once the liquid in the wok starts to bubble, give your sauce mixture a good stir, and add it along with the celtuce (may substitute bamboo shoots or carrots), scallion and cooked pork.；Looking for more authentic recipes? Subscribe to our email list and be sure to follow us on Pinterest , Facebook , Instagram , and Youtube!"
+    },
+    {
+      "sourceName": "豆果美食",
+      "sourceType": "website",
+      "url": "https://www.douguo.com/cookbook/1301364.html",
+      "documentId": "516ad8cf-b08b-44a8-9937-0609b30126d2",
+      "retrievalMethod": "HTML正文",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "猪肉",
+          "amount": "150g",
+          "raw": "猪肉 150g",
+          "evidence": "explicit"
+        },
+        {
+          "name": "黑木耳",
+          "amount": "一小把",
+          "raw": "黑木耳 一小把",
+          "evidence": "explicit"
+        },
+        {
+          "name": "胡萝卜",
+          "amount": "半根",
+          "raw": "胡萝卜 半根",
+          "evidence": "explicit"
+        },
+        {
+          "name": "姜丝",
+          "amount": "适量",
+          "raw": "姜丝 适量",
+          "evidence": "explicit"
+        },
+        {
+          "name": "葱段",
+          "amount": "适量",
+          "raw": "葱段 适量",
+          "evidence": "explicit"
+        },
+        {
+          "name": "蒜蓉",
+          "amount": "适量",
+          "raw": "蒜蓉 适量",
+          "evidence": "explicit"
+        },
+        {
+          "name": "辣椒酱",
+          "amount": "适量",
+          "raw": "辣椒酱 适量",
+          "evidence": "explicit"
+        },
+        {
+          "name": "生抽",
+          "amount": "10ml",
+          "raw": "生抽 10ml",
+          "evidence": "explicit"
+        },
+        {
+          "name": "老抽",
+          "amount": "10ml",
+          "raw": "老抽 10ml",
+          "evidence": "explicit"
+        },
+        {
+          "name": "白糖",
+          "amount": "10克",
+          "raw": "白糖 10克",
+          "evidence": "explicit"
+        },
+        {
+          "name": "醋",
+          "amount": "半勺",
+          "raw": "醋 半勺",
+          "evidence": "explicit"
+        },
+        {
+          "name": "料酒",
+          "amount": "半勺",
+          "raw": "料酒 半勺",
+          "evidence": "explicit"
+        },
+        {
+          "name": "植物油",
+          "amount": "适量",
+          "raw": "植物油 适量",
+          "evidence": "explicit"
+        },
+        {
+          "name": "淀粉",
+          "amount": "半勺",
+          "raw": "淀粉 半勺",
+          "evidence": "explicit"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "准备所有食材。",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 2,
+          "instruction": "用淀粉水和盐腌制肉丝3分钟。",
+          "duration": "3分钟",
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 3,
+          "instruction": "大火热锅加500ml水，下胡萝卜丝和木耳过水3分钟，捞起沥干。",
+          "duration": "3分钟",
+          "heat": "大火",
+          "evidence": "explicit"
+        },
+        {
+          "order": 4,
+          "instruction": "热锅下油50ml，下肉丝翻炒1分钟后捞起备用。",
+          "duration": "1分钟",
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 5,
+          "instruction": "保留锅中油，爆香蒜蓉、姜丝和葱段，下胡萝卜丝、木耳翻炒1分钟；加入肉丝、生抽、老抽、醋、辣椒酱、白糖、辣椒油和料酒，翻炒均匀后熄火起锅。",
+          "duration": "1分钟",
+          "heat": null,
+          "evidence": "explicit"
+        }
+      ],
+      "technique": [
+        "3分钟",
+        "大火",
+        "1分钟"
+      ],
+      "tips": [
+        "调味可按口味调整，成品约400克；因含黑木耳，原作者建议午餐食用。"
+      ],
+      "rawExcerpt": "菜名：鱼香肉丝\n简介：经典汉族传统川菜，以猪肉丝、黑木耳和胡萝卜配鱼香调味汁快速炒成。\n原料：猪肉 150g；黑木耳 一小把；胡萝卜 半根；姜丝 适量；葱段 适量；蒜蓉 适量；辣椒酱 适量；生抽 10ml；老抽 10ml；白糖 10克；醋 半勺；料酒 半勺；植物油 适量；淀粉 半勺\n步骤：1. 准备所有食材。 2. 用淀粉水和盐腌制肉丝3分钟。 3. 大火热锅加500ml水，下胡萝卜丝和木耳过水3分钟，捞起沥干。 4. 热锅下油50ml，下肉丝翻炒1分钟后捞起备用。 5. 保留锅中油，爆香蒜蓉、姜丝和葱段，下胡萝卜丝、木耳翻炒1分钟；加入肉丝、生抽、老抽、醋、辣椒酱、白糖、辣椒油和料酒，翻炒均匀后熄火起锅。\n技法：3分钟；大火；1分钟\n提示：调味可按口味调整，成品约400克；因含黑木耳，原作者建议午餐食用。"
+    }
+  ],
+  "ragEvidence": [
+    {
+      "chunkId": "1f580501-be8f-42ee-9bc9-5bef7bb03808",
+      "documentId": "516ad8cf-b08b-44a8-9937-0609b30126d2",
+      "sourceName": "豆果美食",
+      "chunkType": "steps",
+      "content": "菜名：鱼香肉丝\n1. 准备所有食材。\n2. 用淀粉水和盐腌制肉丝3分钟。（3分钟）\n3. 大火热锅加500ml水，下胡萝卜丝和木耳过水3分钟，捞起沥干。（3分钟）【大火】\n4. 热锅下油50ml，下肉丝翻炒1分钟后捞起备用。（1分钟）\n5. 保留锅中油，爆香蒜蓉、姜丝和葱段，下胡萝卜丝、木耳翻炒1分钟；加入肉丝、生抽、老抽、醋、辣椒酱、白糖、辣椒油和料酒，翻炒均匀后熄火起锅。（1分钟）",
+      "similarity": 0.700097125774452
+    },
+    {
+      "chunkId": "2e862da1-4731-404a-a7c6-7aac5704e421",
+      "documentId": "516ad8cf-b08b-44a8-9937-0609b30126d2",
+      "sourceName": "豆果美食",
+      "chunkType": "technique",
+      "content": "菜名：鱼香肉丝\n- 3分钟\n- 大火\n- 1分钟\n- 3分钟\n- 3分钟\n- 大火\n- 1分钟\n- 1分钟",
+      "similarity": 0.696731507778168
+    },
+    {
+      "chunkId": "891e9124-db5a-4bc1-a60d-a549687805c2",
+      "documentId": "e6c112e9-6d7d-4a60-961f-7057aafc2a6e",
+      "sourceName": "The Woks of Life",
+      "chunkType": "steps",
+      "content": "菜名：鱼香肉丝\n6. Now add the ginger, garlic, and dried chili peppers. Stir for about 15 seconds. Add the wood ears, turn up the heat, and stir fry for 30 seconds (you can add a few drops of water if it’s too dry), making sure everything is well-combined.（15 seconds）\n7. Once the liquid in the wok starts to bubble, give your sauce mixture a good stir, and add it along with the celtuce, scallion and cooked pork. Stir fry quickly to combine everything and serve.",
+      "similarity": 0.694891473498687
+    },
+    {
+      "chunkId": "8c0d48a2-544d-4bbd-8d55-6072e4967608",
+      "documentId": "e6c112e9-6d7d-4a60-961f-7057aafc2a6e",
+      "sourceName": "The Woks of Life",
+      "chunkType": "steps",
+      "content": "菜名：鱼香肉丝\n1. First, combine the pork with the marinade ingredients, and set aside for 20 minutes while you prepare the ingredients for the rest of the dish--namely, the celtuce, wood ears, ginger, garlic, etc.（20 minutes）\n2. Next, prepare the sauce--mix all of the sauce ingredients together and set aside.\n3. Now we can start cooking! To prevent sticking, preheat a clean wok until it starts to smoke lightly (this step is very important). Now turn up the heat to high, and add one tablespoon of oil to the wok. Cook the marinated pork just until it turns opaque. Turn off the heat, transfer the pork to a dish, and set aside.\n4. At this stage, your wok should still be pretty clean, as the technique used to cook the pork is fairly low impact. But if it’s not, it’s a good idea to wash the wok and wipe it dry before starting the next phase of cooking.\n5. Turn the heat on to medium. Add two tablespoons of oil and the spicy bean sauce. Stir lightly, and cook for about a minute until the oil turns red, adjusting the heat to avoid burning if needed.",
+      "similarity": 0.688546737687193
+    },
+    {
+      "chunkId": "a99e7d7e-f322-424b-8eaa-c70c62a9d3ce",
+      "documentId": "e6c112e9-6d7d-4a60-961f-7057aafc2a6e",
+      "sourceName": "The Woks of Life",
+      "chunkType": "tips",
+      "content": "菜名：鱼香肉丝\n- Turn the heat on to medium. Add two tablespoons of oil and the spicy bean sauce . Stir and cook for about a minute until the oil turns red, adjusting the heat to avoid burning if needed.\n- Once the liquid in the wok starts to bubble, give your sauce mixture a good stir, and add it along with the celtuce (may substitute bamboo shoots or carrots), scallion and cooked pork.\n- Looking for more authentic recipes? Subscribe to our email list and be sure to follow us on Pinterest , Facebook , Instagram , and Youtube!",
+      "similarity": 0.646893739700317
+    },
+    {
+      "chunkId": "c312e198-6ceb-466c-8fce-33bb3e025738",
+      "documentId": "516ad8cf-b08b-44a8-9937-0609b30126d2",
+      "sourceName": "豆果美食",
+      "chunkType": "tips",
+      "content": "菜名：鱼香肉丝\n- 调味可按口味调整，成品约400克；因含黑木耳，原作者建议午餐食用。",
+      "similarity": 0.641070446904276
+    },
+    {
+      "chunkId": "25bd0e88-f249-451d-b2b5-fbab6c66608a",
+      "documentId": "e6c112e9-6d7d-4a60-961f-7057aafc2a6e",
+      "sourceName": "The Woks of Life",
+      "chunkType": "ingredients",
+      "content": "菜名：鱼香肉丝\n- 8 ounces pork\n- 2 teaspoons oil\n- 1 teaspoon Shaoxing wine\n- 2 teaspoon light soy sauce\n- ¼ teaspoon ground white pepper\n- 1 teaspoon cornstarch\n- 1½ tablespoons water\n- 1½ tablespoons rice vinegar\n- 1½ tablespoons sugar\n- 1 tablespoon light soy sauce\n- ½ tablespoon Shaoxing wine\n- 1 cup water\n- 1½ tablespoons cornstarch\n- 3 tablespoons oil ((divided))\n- 1 tablespoon spicy bean sauce\n- 2 teaspoons ginger ((minced))\n- 2 teaspoons garlic ((minced))\n- 1/4 cup dried chili peppers\n- 1 heaping cup of rehydrated wood ears ((julienned))\n- 8 ounces celtuce ((stem lettuce, peeled and julienned, may also substitute bamboo shoots or carrots))\n- 1 scallion (finely chopped)",
+      "similarity": 0.63785072339471
+    },
+    {
+      "chunkId": "3cc8dab2-6e83-4fa2-9440-1d775549c40b",
+      "documentId": "516ad8cf-b08b-44a8-9937-0609b30126d2",
+      "sourceName": "豆果美食",
+      "chunkType": "ingredients",
+      "content": "菜名：鱼香肉丝\n- 猪肉 150g\n- 黑木耳 一小把\n- 胡萝卜 半根\n- 姜丝 适量\n- 葱段 适量\n- 蒜蓉 适量\n- 辣椒酱 适量\n- 生抽 10ml\n- 老抽 10ml\n- 白糖 10克\n- 醋 半勺\n- 料酒 半勺\n- 植物油 适量\n- 淀粉 半勺",
+      "similarity": 0.613790558124718
+    },
+    {
+      "chunkId": "928c680c-749c-4ce5-8622-324bc1b0cd5a",
+      "documentId": "e6c112e9-6d7d-4a60-961f-7057aafc2a6e",
+      "sourceName": "The Woks of Life",
+      "chunkType": "technique",
+      "content": "菜名：鱼香肉丝\n- 准备：35分钟\n- 烹饪：10分钟\n- 总用时：45分钟\n- 20 minutes\n- 15 seconds",
+      "similarity": 0.591278349833391
+    },
+    {
+      "chunkId": "cc499592-994a-4470-8962-848ac54006db",
+      "documentId": "516ad8cf-b08b-44a8-9937-0609b30126d2",
+      "sourceName": "豆果美食",
+      "chunkType": "summary",
+      "content": "菜名：鱼香肉丝\n菜系：川菜\n简介：经典汉族传统川菜，以猪肉丝、黑木耳和胡萝卜配鱼香调味汁快速炒成。",
+      "similarity": 0.550414681434631
+    }
+  ],
+  "notes": [
+    "本证据包完全复用 Supabase 中已入库的两个独立完整网站来源；本次未重新浏览网站、未重新向量化文档。",
+    "rawExcerpt 由数据库 normalized_json 确定性格式化，仅包含已入库的菜名、简介、原料、步骤、技法和提示。",
+    "ragEvidence 来自 recipe_entity_id 限定的 voyage-4 semantic retrieval，并覆盖 The Woks of Life 与豆果美食。"
+  ]
+}
