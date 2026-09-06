@@ -3,9 +3,9 @@
     {
       "id": "cn-001",
       "name": "番茄炒蛋",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-09-06-cn-001-b20a",
-      "completedAt": null
+      "completedAt": "2026-09-06T11:10:06.948Z"
     },
     {
       "id": "cn-002",
