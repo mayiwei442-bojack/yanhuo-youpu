@@ -3,9 +3,9 @@
   "recipeId": "cn-007",
   "recipeName": "糖醋里脊",
   "category": "chinese",
-  "status": "in_progress",
+  "status": "done",
   "startedAt": "2026-09-06T12:26:18.297Z",
-  "completedAt": null,
+  "completedAt": "2026-09-06T12:44:41.070Z",
   "steps": {
     "research": { "status": "done", "attempts": 1, "startedAt": "2026-09-06T12:26:18.297Z", "completedAt": "2026-09-06T12:38:35.866Z", "details": { "evidence": "workflow/evidence/cn-007-sweet-sour-pork.json", "evidenceHash": "e31e10ad1009f24d004b072c6e0618547f50f15b7900ef48264854756dcf136c", "independentSources": 2, "semanticResults": 10, "hybridResults": 10 } },
     "ingestion": { "status": "done", "attempts": 1, "startedAt": "2026-09-06T12:26:18.297Z", "completedAt": "2026-09-06T12:38:35.866Z", "details": { "documents": 2, "chunks": 10, "embeddingModel": "voyage-4", "embeddingDimension": 1024 } },
@@ -13,7 +13,7 @@
     "validator": { "status": "done", "attempts": 1, "startedAt": "2026-09-06T12:40:25.290Z", "completedAt": "2026-09-06T12:41:05.226Z", "details": { "status": "PASS", "ingredientCount": 7, "stepCount": 7, "targetOnly": true, "commands": ["node tools/build_html_demo_data.mjs", "node tools/test_html_demo.mjs", "node tools/build_vercel_output.mjs"] } },
     "review": { "status": "done", "attempts": 1, "startedAt": "2026-09-06T12:41:05.226Z", "completedAt": "2026-09-06T12:42:28.538Z", "details": { "status": "PASS", "result": "workflow/reviews/cn-007-sweet-sour-pork.json" } },
     "build": { "status": "done", "attempts": 1, "startedAt": "2026-09-06T12:42:28.538Z", "completedAt": "2026-09-06T12:44:12.473Z", "details": { "status": "PASS", "command": "npm run test:workflow:deterministic", "note": "Historical evidence line endings were normalized only during hash-sensitive verification and restored unchanged." } },
-    "gitPush": { "status": "in_progress", "attempts": 1, "startedAt": "2026-09-06T12:44:12.473Z", "completedAt": null }
+    "gitPush": { "status": "done", "attempts": 1, "startedAt": "2026-09-06T12:44:12.473Z", "completedAt": "2026-09-06T12:44:41.070Z", "details": { "remote": "origin", "branch": "codex/recipe-automation", "commit": "c9fb04bcf69d8d4a4151cd51e6b4406fe2fcb975" } }
   },
   "sources": [
     { "name": "The Woks of Life", "url": "https://thewoksoflife.com/sweet-and-sour-pork/", "status": "success", "failureReason": null },
@@ -21,5 +21,5 @@
   ],
   "errors": [],
   "branch": "codex/recipe-automation",
-  "commit": null
+  "commit": "c9fb04bcf69d8d4a4151cd51e6b4406fe2fcb975"
 }
