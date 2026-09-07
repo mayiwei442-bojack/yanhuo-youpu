@@ -59,8 +59,8 @@
     {
       "id": "cn-009",
       "name": "清蒸鲈鱼",
-      "status": "pending",
-      "lastRunId": null,
+      "status": "in_progress",
+      "lastRunId": "2026-09-07-cn-009-b20e",
       "completedAt": null
     },
     {

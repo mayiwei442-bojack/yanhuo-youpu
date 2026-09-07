@@ -1272,45 +1272,75 @@ window.YANHUO_RECIPES = [
     "ingredients": [
       {
         "id": "ingredient-01",
-        "name": "鲈鱼",
-        "label": "鲈鱼1条约600克",
+        "name": "整条鲈鱼",
+        "label": "整条鲈鱼1条，约680克",
         "isCore": true
       },
       {
         "id": "ingredient-02",
         "name": "姜",
-        "label": "姜20克",
+        "label": "姜3汤匙，切细丝并分成两半",
         "isCore": false
       },
       {
         "id": "ingredient-03",
         "name": "葱",
-        "label": "葱30克",
+        "label": "葱2根，切细丝并将葱白、葱绿分开",
         "isCore": false
       },
       {
         "id": "ingredient-04",
-        "name": "蒸鱼豉油",
-        "label": "蒸鱼豉油30毫升",
-        "isCore": false
+        "name": "新鲜香菜",
+        "label": "新鲜香菜8枝，粗略切碎",
+        "isCore": true
       },
       {
         "id": "ingredient-05",
-        "name": "料酒",
-        "label": "料酒10毫升",
+        "name": "菜籽油",
+        "label": "菜籽油1/4杯加2汤匙（分次使用）",
         "isCore": false
       },
       {
         "id": "ingredient-06",
-        "name": "食用油",
-        "label": "食用油20毫升",
+        "name": "酱汁用清水",
+        "label": "酱汁用清水1/4杯",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-07",
+        "name": "盐",
+        "label": "盐1/4茶匙",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-08",
+        "name": "白砂糖",
+        "label": "白砂糖3/4茶匙",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-09",
+        "name": "生抽",
+        "label": "生抽1/4杯",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-10",
+        "name": "现磨白胡椒",
+        "label": "现磨白胡椒适量",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-11",
+        "name": "蒸锅用清水",
+        "label": "蒸锅用清水适量",
         "isCore": false
       }
     ],
     "steps": [
       {
         "id": "step-01",
-        "instruction": "鱼处理干净，两面划刀，放姜片和料酒。",
+        "instruction": "检查整条鲈鱼，用带锯齿的牛排刀刮净残留鱼鳞，重点检查鱼腹、边缘、背鳍附近和鱼头；用厨房剪刀小心剪除坚硬鱼鳍，保留鱼头和鱼尾，操作时谨防鱼鳍扎手。",
         "duration": 180,
         "heat": "medium",
         "timerRequired": false,
@@ -1320,38 +1350,99 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "step-02",
-        "instruction": "水开后大火蒸8–10分钟，关火焖2分钟。",
-        "duration": 600,
-        "heat": "high",
+        "instruction": "检查鱼腹内靠近脊骨的位置，刺破并剪开覆盖血线的膜，用手指或勺子彻底清净血线；确认鱼鳃已经去除，如有残留，用厨房剪刀剪掉并冲洗干净。",
+        "duration": 180,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-03",
+        "instruction": "将鱼最后冲洗一遍，抖掉多余水分但不要擦干，放在耐热长盘中；蒸制前不要在鲜鱼上放盐、调味料或料酒。",
+        "duration": 180,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-04",
+        "instruction": "炒锅中加入适量蒸锅用清水，放入金属蒸架，将装鱼的耐热盘置于蒸架上，确保盘子高于水面；如需增加高度，可将蒸架垫在两端均已去除的金属罐上。",
+        "duration": 180,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-05",
+        "instruction": "盖好锅盖蒸9分钟，然后关火；用黄油刀检查鱼肉，鱼肉应直到贴骨处均已不透明，而鱼骨仍略呈半透明。",
+        "duration": 540,
+        "heat": "medium",
         "timerRequired": true,
         "ingredientsUsed": [],
         "gameAction": "wait",
         "safetyNote": ""
       },
       {
-        "id": "step-03",
-        "instruction": "倒去盘中水，铺葱丝，淋豉油，再浇热油。",
+        "id": "step-06",
+        "instruction": "小心将盘中积聚的液体彻底倒掉，在鱼身上铺一半姜丝、葱绿丝和8枝粗略切碎的新鲜香菜。",
         "duration": 180,
         "heat": "medium",
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "confirm",
-        "safetyNote": "注意热油飞溅"
+        "safetyNote": ""
+      },
+      {
+        "id": "step-07",
+        "instruction": "将1/4杯清水、1/4茶匙盐、3/4茶匙白砂糖、1/4杯生抽和适量现磨白胡椒放入小碗或量杯，混合均匀。",
+        "duration": 180,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-08",
+        "instruction": "在小锅中放入额外的2汤匙菜籽油和剩余一半姜丝，加热至姜丝开始发出滋滋声；倒入调好的酱汁，继续加热至微沸。",
+        "duration": 180,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-09",
+        "instruction": "酱汁微沸后加入剩余1/4杯菜籽油和葱白丝，搅拌并加热至液体再次微沸并发出滋滋声；将全部酱汁均匀舀在鱼身上，趁热食用。",
+        "duration": 180,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
       }
     ],
     "imageThumb": "assets/dishes/thumbnails/09-qingzheng-luyu.jpg",
     "imageFull": "assets/dishes/ai/09-qingzheng-luyu.png",
     "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
     "time": 15,
-    "difficulty": "简单",
-    "defaultServings": 4,
+    "difficulty": "进阶",
+    "defaultServings": 2,
     "allergens": [
-      "fish"
+      "fish",
+      "soy"
     ],
     "flags": {
       "containsPork": false,
       "containsBeef": false,
-      "containsAlcohol": true,
+      "containsAlcohol": false,
       "spicy": false,
       "vegetarian": false
     },
