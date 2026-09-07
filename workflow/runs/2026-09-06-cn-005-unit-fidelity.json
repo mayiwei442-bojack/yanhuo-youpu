@@ -3,9 +3,9 @@
   "recipeId": "cn-005",
   "recipeName": "青椒肉丝",
   "category": "chinese",
-  "status": "in_progress",
+  "status": "done",
   "startedAt": "2026-09-06T13:12:19.348Z",
-  "completedAt": null,
+  "completedAt": "2026-09-07T02:23:41.396Z",
   "steps": {
     "research": { "status": "done", "attempts": 0, "startedAt": "2026-09-06T13:12:19.348Z", "completedAt": "2026-09-06T13:12:19.348Z", "details": { "evidence": "workflow/evidence/cn-005-qingjiao-pork.json", "evidenceHash": "6f82d007759e08bb4846816501e9d945ca173c50979aec321f5f3eac80828e39", "reused": true } },
     "ingestion": { "status": "done", "attempts": 0, "startedAt": "2026-09-06T13:12:19.348Z", "completedAt": "2026-09-06T13:12:19.348Z", "details": { "documents": 2, "chunks": 10, "embeddingModel": "voyage-4", "embeddingDimension": 1024, "reused": true } },
@@ -13,7 +13,7 @@
     "validator": { "status": "done", "attempts": 1, "startedAt": "2026-09-07T02:19:46.555Z", "completedAt": "2026-09-07T02:20:23.000Z", "details": { "passed": true, "mode": "full", "targetOnly": true } },
     "review": { "status": "done", "attempts": 1, "startedAt": "2026-09-07T02:20:23.000Z", "completedAt": "2026-09-07T02:22:17.448Z", "details": { "status": "PASS", "result": "workflow/reviews/cn-005-unit-fidelity.json" } },
     "build": { "status": "done", "attempts": 1, "startedAt": "2026-09-07T02:22:17.448Z", "completedAt": "2026-09-07T02:23:10.283Z", "details": { "deterministicTests": "PASS", "recipesGenerated": 90 } },
-    "gitPush": { "status": "in_progress", "attempts": 1, "startedAt": "2026-09-07T02:23:10.283Z", "completedAt": null }
+    "gitPush": { "status": "done", "attempts": 1, "startedAt": "2026-09-07T02:23:10.283Z", "completedAt": "2026-09-07T02:23:41.396Z", "details": { "contentCommit": "f05a1553e6eec334238eb7dc7fd8153171f2f557", "remote": "origin/codex/recipe-automation" } }
   },
   "sources": [
     { "name": "The Woks of Life", "url": "https://thewoksoflife.com/pork-pepper-stir-fry/", "status": "success", "failureReason": null },
@@ -21,5 +21,5 @@
   ],
   "errors": [],
   "branch": "codex/recipe-automation",
-  "commit": null
+  "commit": "f05a1553e6eec334238eb7dc7fd8153171f2f557"
 }

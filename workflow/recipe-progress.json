@@ -31,9 +31,9 @@
     {
       "id": "cn-005",
       "name": "青椒肉丝",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-09-06-cn-005-unit-fidelity",
-      "completedAt": null
+      "completedAt": "2026-09-07T02:23:41.396Z"
     },
     {
       "id": "cn-006",
