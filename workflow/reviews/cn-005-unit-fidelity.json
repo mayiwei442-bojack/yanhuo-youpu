@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "cn-005 保持 The Woks of Life 单一主变体，腌肉用食用油2茶匙、炒制用食用油2汤匙并在步骤中分两次各1汤匙，数值与单位均忠实于来源；其余配料、加入顺序、火力、时长、分炒回锅逻辑和成熟提示均与证据一致，且未加入不受支持的“熟透”。",
+  "evidencePackageHash": "6f82d007759e08bb4846816501e9d945ca173c50979aec321f5f3eac80828e39",
+  "validatorPassed": true
+}

@@ -639,15 +639,15 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "ingredient-04",
-        "name": "食用油（腌肉用",
-        "label": "食用油适量（腌肉用适量",
+        "name": "食用油",
+        "label": "食用油2茶匙（腌肉）",
         "isCore": false
       },
       {
         "id": "ingredient-05",
-        "name": "炒制用，分两次加入）",
-        "label": "炒制用适量，分两次加入）",
-        "isCore": true
+        "name": "食用油",
+        "label": "食用油2汤匙（炒制用，分两次各1汤匙）",
+        "isCore": false
       },
       {
         "id": "ingredient-06",
@@ -671,7 +671,7 @@ window.YANHUO_RECIPES = [
         "id": "ingredient-09",
         "name": "青辣椒",
         "label": "青辣椒6个（约280—340克）",
-        "isCore": false
+        "isCore": true
       },
       {
         "id": "ingredient-10",
@@ -707,7 +707,7 @@ window.YANHUO_RECIPES = [
     "steps": [
       {
         "id": "step-01",
-        "instruction": "将约227克猪肩肉或猪里脊切成细丝，加入1汤匙清水、1茶匙玉米淀粉、适量食用油、1茶匙绍兴酒、1茶匙蚝油和1茶匙生抽，充分拌匀后静置备用；静置期间处理其余配料。",
+        "instruction": "将约227克猪肩肉或猪里脊切成细丝，加入1汤匙清水、1茶匙玉米淀粉、2茶匙食用油、1茶匙绍兴酒、1茶匙蚝油和1茶匙生抽，充分拌匀后静置备用；静置期间处理其余配料。",
         "duration": 120,
         "heat": "medium",
         "timerRequired": false,
@@ -727,7 +727,7 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "step-03",
-        "instruction": "炒锅以高火烧至冒烟，加入一半炒制用食用油，再下肉丝翻炒2—3分钟，至肉丝边缘微微上色，盛出备用。",
+        "instruction": "炒锅以高火烧至冒烟，加入1汤匙食用油，再下肉丝翻炒2—3分钟，至肉丝边缘微微上色，盛出备用。",
         "duration": 180,
         "heat": "medium",
         "timerRequired": false,
@@ -737,7 +737,7 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "step-04",
-        "instruction": "转中高火，加入剩余炒制用食用油，下姜片、蒜片和青辣椒翻炒30秒—1分钟，至青辣椒表面开始起泡；控制火力，避免蒜片焦煳。沿锅边倒入1汤匙绍兴酒，刮起锅底焦化物并继续翻炒10秒。",
+        "instruction": "转中高火，加入剩余1汤匙食用油，下姜片、蒜片和青辣椒翻炒30秒—1分钟，至青辣椒表面开始起泡；控制火力，避免蒜片焦煳。沿锅边倒入1汤匙绍兴酒，刮起锅底焦化物并继续翻炒10秒。",
         "duration": 60,
         "heat": "medium",
         "timerRequired": false,
