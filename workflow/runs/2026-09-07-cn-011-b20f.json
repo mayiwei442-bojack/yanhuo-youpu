@@ -1,0 +1,27 @@
+{
+  "runId": "2026-09-07-cn-011-b20f",
+  "recipeId": "cn-011",
+  "recipeName": "桂林米粉",
+  "category": "chinese",
+  "status": "failed",
+  "startedAt": "2026-09-07T02:42:28.490Z",
+  "completedAt": "2026-09-07T02:47:09.499Z",
+  "steps": {
+    "research": { "status": "failed", "attempts": 1, "startedAt": "2026-09-07T02:42:28.490Z", "completedAt": "2026-09-07T02:47:09.499Z", "details": { "independentCompleteSources": 1, "requiredSources": 2, "evidenceCreated": false, "reason": "白名单内只有豆果美食提供完整同名菜谱；The Woks of Life 无桂林米粉菜谱，现有 KB 也无第二份精确同名完整文档" } },
+    "ingestion": { "status": "done", "attempts": 1, "startedAt": "2026-09-07T02:42:28.490Z", "completedAt": "2026-09-07T02:47:09.499Z", "details": { "partial": true, "entityId": "de5f36bc-942d-47e5-a9f0-a8694641a2f2", "documents": 1, "existingDocuments": 0, "newDocuments": 1, "documentId": "1ba3785d-c85e-4baa-a741-dfce177aad15", "contentHash": "ed5ab937f71b75fc26d6b71d186d6eb91d3e6602fd558e069bea926d07f26462", "chunks": 5, "embeddingModel": "voyage-4", "embeddingDimension": 1024, "semanticResults": 5, "hybridResults": 5 } },
+    "edit": { "status": "pending", "attempts": 0 },
+    "validator": { "status": "pending", "attempts": 0 },
+    "review": { "status": "pending", "attempts": 0 },
+    "build": { "status": "pending", "attempts": 0 },
+    "gitPush": { "status": "in_progress", "attempts": 1, "startedAt": "2026-09-07T02:47:09.499Z", "completedAt": null, "details": { "purpose": "persist failed run state only" } }
+  },
+  "sources": [
+    { "name": "The Woks of Life", "url": "https://thewoksoflife.com/?s=Guilin+rice+noodles", "status": "failed", "failureReason": "站内检索成功返回，但没有桂林米粉同名菜谱；Guilin 结果仅为地点相关文章" },
+    { "name": "豆果美食", "url": "https://www.douguo.com/cookbook/2331633.html", "status": "success", "failureReason": null }
+  ],
+  "errors": [
+    { "step": "research", "code": "INSUFFICIENT_INDEPENDENT_SOURCES", "message": "仅获得 1 份独立完整同名来源，低于 evidence schema 与工作流要求的 2 份；禁止用家庭简易版或不同卤味变体凑数。", "at": "2026-09-07T02:47:09.499Z" }
+  ],
+  "branch": "codex/recipe-automation",
+  "commit": null
+}
