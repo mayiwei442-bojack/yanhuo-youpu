@@ -1,0 +1,473 @@
+{
+  "recipeId": "cn-007",
+  "recipeName": "糖醋里脊",
+  "category": "chinese",
+  "createdAt": "2026-09-06T12:34:35.561Z",
+  "sources": [
+    {
+      "sourceName": "豆果美食",
+      "sourceType": "website",
+      "url": "https://m.douguo.com/cookbook/2343710.html",
+      "documentId": "9128467e-60d9-46e4-882a-86b77410e104",
+      "retrievalMethod": "Recipe JSON-LD + public mobile HTML body",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "里脊肉",
+          "amount": "200克",
+          "raw": "里脊肉 200克"
+        },
+        {
+          "name": "白芝麻",
+          "amount": "适量",
+          "raw": "白芝麻 适量"
+        },
+        {
+          "name": "米饭",
+          "amount": "一碗",
+          "raw": "米饭 一碗"
+        },
+        {
+          "name": "玉米淀粉（裹里脊肉）",
+          "amount": "适量",
+          "raw": "玉米淀粉（裹里脊肉） 适量"
+        },
+        {
+          "name": "盐（腌料）",
+          "amount": "少许",
+          "raw": "里脊肉腌料：盐 少许"
+        },
+        {
+          "name": "白胡椒粉",
+          "amount": "少许",
+          "raw": "白胡椒粉 少许"
+        },
+        {
+          "name": "料酒",
+          "amount": "1勺",
+          "raw": "料酒 1勺"
+        },
+        {
+          "name": "鸡蛋",
+          "amount": "1个",
+          "raw": "鸡蛋 1个"
+        },
+        {
+          "name": "淀粉（腌料）",
+          "amount": "1勺",
+          "raw": "淀粉 1勺"
+        },
+        {
+          "name": "清水（酱汁）",
+          "amount": "3勺",
+          "raw": "酱汁：清水 3勺"
+        },
+        {
+          "name": "白醋",
+          "amount": "2勺",
+          "raw": "白醋 2勺"
+        },
+        {
+          "name": "生抽",
+          "amount": "1勺",
+          "raw": "生抽 1勺"
+        },
+        {
+          "name": "番茄酱",
+          "amount": "4勺",
+          "raw": "番茄酱 4勺"
+        },
+        {
+          "name": "白糖",
+          "amount": "2勺",
+          "raw": "白糖 2勺"
+        },
+        {
+          "name": "淀粉（酱汁）",
+          "amount": "1勺",
+          "raw": "淀粉 1勺"
+        },
+        {
+          "name": "食用油",
+          "amount": "适量",
+          "raw": "食用油 适量"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "里脊肉切成条。",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "加入少许盐、少许白胡椒粉、1勺料酒、1个鸡蛋和1勺淀粉，搅拌均匀后腌制半小时。",
+          "duration": "半小时",
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "另碗加入3勺清水、2勺白醋、1勺生抽、4勺番茄酱、2勺白糖和1勺淀粉，搅匀成糖醋汁备用。",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "腌好的里脊条逐条裹上适量玉米淀粉。",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 5,
+          "instruction": "锅中放适量食用油烧热，下里脊条炸4分钟后捞出。原文未说明具体油温或火力。",
+          "duration": "4分钟",
+          "heat": null
+        },
+        {
+          "order": 6,
+          "instruction": "将里脊条倒回锅中复炸1分钟，捞出。",
+          "duration": "1分钟",
+          "heat": null
+        },
+        {
+          "order": 7,
+          "instruction": "锅中留底油，倒入调好的糖醋汁，烧至冒泡后转小火。",
+          "duration": null,
+          "heat": "冒泡后小火"
+        },
+        {
+          "order": 8,
+          "instruction": "倒入炸好的里脊条快速翻炒，使每条肉都均匀裹上糖醋汁；撒适量白芝麻即可。",
+          "duration": null,
+          "heat": "小火"
+        }
+      ],
+      "technique": [
+        "腌制半小时",
+        "初炸4分钟",
+        "复炸1分钟",
+        "酱汁烧至冒泡后转小火"
+      ],
+      "tips": [],
+      "rawExcerpt": "页面准确标题：#秋天怎么吃#糖醋里脊。原料明确使用里脊肉200克；肉切条后以盐、白胡椒粉、料酒、鸡蛋和淀粉腌制半小时，另裹玉米淀粉，初炸4分钟、复炸1分钟，再以清水、白醋、生抽、番茄酱、白糖和淀粉调成的糖醋汁裹匀。",
+      "bookTitle": null,
+      "pageStart": null,
+      "pageEnd": null,
+      "location": null
+    },
+    {
+      "sourceName": "The Woks of Life",
+      "sourceType": "website",
+      "url": "https://thewoksoflife.com/sweet-and-sour-pork/",
+      "documentId": "dd89a8d7-a296-442b-8a88-6c6aac7a9ab8",
+      "retrievalMethod": "Recipe JSON-LD + public HTML body",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "pork shoulder or pork tenderloin, bite-sized",
+          "amount": "1 pound",
+          "raw": "1 pound pork shoulder or pork tenderloin ((cut into bite-sized pieces))"
+        },
+        {
+          "name": "water, for marinade",
+          "amount": "2 tablespoons",
+          "raw": "2 tablespoons water"
+        },
+        {
+          "name": "garlic powder",
+          "amount": "1/8 teaspoon",
+          "raw": "1/8 teaspoon garlic powder"
+        },
+        {
+          "name": "onion powder",
+          "amount": "¼ teaspoon",
+          "raw": "¼ teaspoon onion powder"
+        },
+        {
+          "name": "sesame oil",
+          "amount": "½ teaspoon",
+          "raw": "½ teaspoon sesame oil"
+        },
+        {
+          "name": "soy sauce",
+          "amount": "1 teaspoon",
+          "raw": "1 teaspoon soy sauce"
+        },
+        {
+          "name": "oil, for sauce aromatics",
+          "amount": "1 teaspoon",
+          "raw": "1 teaspoon oil"
+        },
+        {
+          "name": "ginger, smashed",
+          "amount": "2 slices",
+          "raw": "2 slices ginger ((smashed))"
+        },
+        {
+          "name": "star anise",
+          "amount": "1",
+          "raw": "1 star anise"
+        },
+        {
+          "name": "tomato ketchup",
+          "amount": "¼ cup",
+          "raw": "¼ cup tomato ketchup"
+        },
+        {
+          "name": "white vinegar, 5% acidity or less",
+          "amount": "1½ cups",
+          "raw": "1½ cups white vinegar ((5% acidity or less))"
+        },
+        {
+          "name": "sugar",
+          "amount": "½ cup",
+          "raw": "½ cup sugar"
+        },
+        {
+          "name": "canola oil, for frying",
+          "amount": "3 cups",
+          "raw": "3 cups canola oil ((for frying))"
+        },
+        {
+          "name": "all-purpose flour",
+          "amount": "½ cup",
+          "raw": "½ cup all-purpose flour"
+        },
+        {
+          "name": "cornstarch, for dredging",
+          "amount": "¼ cup",
+          "raw": "¼ cup cornstarch"
+        },
+        {
+          "name": "salt",
+          "amount": "¼ teaspoon",
+          "raw": "¼ teaspoon salt"
+        },
+        {
+          "name": "pepper",
+          "amount": "1/8 teaspoon",
+          "raw": "1/8 teaspoon pepper"
+        },
+        {
+          "name": "egg, beaten",
+          "amount": "1",
+          "raw": "1 egg ((beaten))"
+        },
+        {
+          "name": "oil, for stir-frying vegetables",
+          "amount": "1 tablespoon",
+          "raw": "1 tablespoon oil"
+        },
+        {
+          "name": "green bell pepper, 1½-inch pieces",
+          "amount": "1/2",
+          "raw": "1/2 green bell pepper ((cut into 1½-inch square pieces))"
+        },
+        {
+          "name": "red pepper, 1½-inch pieces",
+          "amount": "1/2",
+          "raw": "1/2 red pepper ((cut into 1½-inch square pieces))"
+        },
+        {
+          "name": "onion, 1½-inch pieces",
+          "amount": "1/2",
+          "raw": "1/2 onion ((cut into 1½-inch square pieces))"
+        },
+        {
+          "name": "canned pineapple chunks and juice",
+          "amount": "8 ounce can",
+          "raw": "8 ounce can of pineapple chunks ((you'll use the juices from the can for the sauce))"
+        },
+        {
+          "name": "cornstarch slurry",
+          "amount": "2 teaspoons cornstarch + 2 teaspoons water",
+          "raw": "2 teaspoons cornstarch ((mixed into a slurry with 2 teaspoons water))"
+        },
+        {
+          "name": "water, optional sauce adjustment",
+          "amount": "as needed (not quantified)",
+          "raw": "water as needed if the sauce is too sweet or sour (quantity not specified in source instructions)"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "将所有腌料加入猪肉，充分拌到看不见游离液体，静置30分钟。",
+          "duration": "30 minutes",
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "小锅加1茶匙油、拍裂姜片和八角，中火约1分钟至姜开始焦糖化；加入番茄酱并持续搅拌约2分钟至番茄酱开始焦糖化，避免香料和番茄酱烧焦。",
+          "duration": "1 minute + 2 minutes",
+          "heat": "medium heat"
+        },
+        {
+          "order": 3,
+          "instruction": "加入白醋、糖和菠萝罐头汁，搅到开始微沸且糖溶解；转最低火，约30分钟收浓到酱汁刚能挂勺。",
+          "duration": "about 30 minutes",
+          "heat": "lowest heat"
+        },
+        {
+          "order": 4,
+          "instruction": "小锅中把3杯菜籽油加热到350°F，准备分批炸制；用完后必须待油完全冷却，再用细筛过滤并冷藏保存。",
+          "duration": null,
+          "heat": "350°F"
+        },
+        {
+          "order": 5,
+          "instruction": "浅盘混合面粉、玉米淀粉、盐和胡椒；猪肉先裹粉，再蘸打散的鸡蛋，最后再次裹粉。",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 6,
+          "instruction": "分批下锅炸约2至3分钟，刚开始呈金黄色时捞到烤盘沥油。",
+          "duration": "2 to 3 minutes",
+          "heat": "350°F oil"
+        },
+        {
+          "order": 7,
+          "instruction": "准备合菜前把猪肉分批复炸，使外层重新酥脆，减少接触酱汁后的回软。",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 8,
+          "instruction": "干净炒锅加1汤匙油，放青椒、红椒和洋葱炒30秒；加入糖醋汁和菠萝煮至微沸。玉米淀粉水先加一半，搅15秒后按稠度决定是否继续加；酱汁装盘冷却后还会变稠。",
+          "duration": "30 seconds + 15 seconds",
+          "heat": "simmer"
+        },
+        {
+          "order": 9,
+          "instruction": "尝味；若酱汁过甜或过酸，可加未定量的水调到合适强度和稠度。",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 10,
+          "instruction": "加入复炸酥脆的猪肉，快速翻拌至均匀裹汁，立即上桌。",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [
+        "准备30分钟",
+        "烹饪45分钟",
+        "总用时75分钟",
+        "炸油350°F",
+        "酱汁最低火收浓约30分钟",
+        "猪肉分批初炸后复炸"
+      ],
+      "tips": [
+        "小锅分批炸可减少所需炸油；炸油须完全冷却后再过滤冷藏。",
+        "复炸用于恢复外壳酥脆，减少裹汁后变软。",
+        "勾芡先加一半淀粉水，搅15秒后再判断；酱汁冷却后还会继续变稠。",
+        "原文在调味阶段允许酱汁过甜或过酸时加水，但没有给水量。"
+      ],
+      "rawExcerpt": "页面准确标题：Sweet and Sour Pork。原文明确肉类可选pork tenderloin，核心工艺为腌制、裹粉蘸蛋再裹粉、初炸、复炸、糖醋汁裹匀；菠萝、青红椒和洋葱是该美式中餐版本的组成部分。",
+      "bookTitle": null,
+      "pageStart": null,
+      "pageEnd": null,
+      "location": null
+    }
+  ],
+  "ragEvidence": [
+    {
+      "chunkId": "c200b9b6-065e-4c44-b7a9-9828c887cd48",
+      "documentId": "dd89a8d7-a296-442b-8a88-6c6aac7a9ab8",
+      "sourceName": "The Woks of Life",
+      "chunkType": "steps",
+      "content": "菜名：糖醋里脊\n1. 将所有腌料加入猪肉，充分拌到看不见游离液体，静置30分钟。（30 minutes）\n2. 小锅加1茶匙油、拍裂姜片和八角，中火约1分钟至姜开始焦糖化；加入番茄酱并持续搅拌约2分钟至番茄酱开始焦糖化，避免香料和番茄酱烧焦。（1 minute + 2 minutes）【medium heat】\n3. 加入白醋、糖和菠萝罐头汁，搅到开始微沸且糖溶解；转最低火，约30分钟收浓到酱汁刚能挂勺。（about 30 minutes）【lowest heat】\n4. 小锅中把3杯菜籽油加热到350°F，准备分批炸制；用完后必须待油完全冷却，再用细筛过滤并冷藏保存。【350°F】\n5. 浅盘混合面粉、玉米淀粉、盐和胡椒；猪肉先裹粉，再蘸打散的鸡蛋，最后再次裹粉。\n6. 分批下锅炸约2至3分钟，刚开始呈金黄色时捞到烤盘沥油。（2 to 3 minutes）【350°F oil】\n7. 准备合菜前把猪肉分批复炸，使外层重新酥脆，减少接触酱汁后的回软。\n8. 干净炒锅加1汤匙油，放青椒、红椒和洋葱炒30秒；加入糖醋汁和菠萝煮至微沸。玉米淀粉水先加一半，搅15秒后按稠度决定是否继续加；酱汁装盘冷却后还会变稠。（30 seconds + 15 seconds）【simmer】\n9. 尝味；若酱汁过甜或过酸，可加未定量的水调到合适强度和稠度。\n10. 加入复炸酥脆的猪肉，快速翻拌至均匀裹汁，立即上桌。",
+      "similarity": 0.738907195958284
+    },
+    {
+      "chunkId": "176b8ab7-4b59-4e5b-88da-1e4f83173fff",
+      "documentId": "dd89a8d7-a296-442b-8a88-6c6aac7a9ab8",
+      "sourceName": "The Woks of Life",
+      "chunkType": "tips",
+      "content": "菜名：糖醋里脊\n- 小锅分批炸可减少所需炸油；炸油须完全冷却后再过滤冷藏。\n- 复炸用于恢复外壳酥脆，减少裹汁后变软。\n- 勾芡先加一半淀粉水，搅15秒后再判断；酱汁冷却后还会继续变稠。\n- 原文在调味阶段允许酱汁过甜或过酸时加水，但没有给水量。",
+      "similarity": 0.732856549833523
+    },
+    {
+      "chunkId": "10f09846-8dc4-4e98-ab9d-9b578164acd8",
+      "documentId": "9128467e-60d9-46e4-882a-86b77410e104",
+      "sourceName": "豆果美食",
+      "chunkType": "steps",
+      "content": "菜名：糖醋里脊\n1. 里脊肉切成条。\n2. 加入少许盐、少许白胡椒粉、1勺料酒、1个鸡蛋和1勺淀粉，搅拌均匀后腌制半小时。（半小时）\n3. 另碗加入3勺清水、2勺白醋、1勺生抽、4勺番茄酱、2勺白糖和1勺淀粉，搅匀成糖醋汁备用。\n4. 腌好的里脊条逐条裹上适量玉米淀粉。\n5. 锅中放适量食用油烧热，下里脊条炸4分钟后捞出。原文未说明具体油温或火力。（4分钟）\n6. 将里脊条倒回锅中复炸1分钟，捞出。（1分钟）\n7. 锅中留底油，倒入调好的糖醋汁，烧至冒泡后转小火。【冒泡后小火】\n8. 倒入炸好的里脊条快速翻炒，使每条肉都均匀裹上糖醋汁；撒适量白芝麻即可。【小火】",
+      "similarity": 0.695367595415342
+    },
+    {
+      "chunkId": "bca6d0a4-0013-42da-92db-2c1cd912ecb4",
+      "documentId": "9128467e-60d9-46e4-882a-86b77410e104",
+      "sourceName": "豆果美食",
+      "chunkType": "summary",
+      "content": "菜名：糖醋里脊\n别名：#秋天怎么吃#糖醋里脊\n菜系：家常菜\n简介：猪里脊切条后以盐、白胡椒、料酒、鸡蛋和淀粉腌制，裹玉米淀粉初炸与复炸，再以清水、白醋、生抽、番茄酱、白糖和淀粉调成的糖醋汁快速裹匀。",
+      "similarity": 0.693705143961771
+    },
+    {
+      "chunkId": "b4d3b4dd-6840-4c48-8fca-73f4896bec73",
+      "documentId": "dd89a8d7-a296-442b-8a88-6c6aac7a9ab8",
+      "sourceName": "The Woks of Life",
+      "chunkType": "ingredients",
+      "content": "菜名：糖醋里脊\n- 1 pound pork shoulder or pork tenderloin ((cut into bite-sized pieces))\n- 2 tablespoons water\n- 1/8 teaspoon garlic powder\n- ¼ teaspoon onion powder\n- ½ teaspoon sesame oil\n- 1 teaspoon soy sauce\n- 1 teaspoon oil\n- 2 slices ginger ((smashed))\n- 1 star anise\n- ¼ cup tomato ketchup\n- 1½ cups white vinegar ((5% acidity or less))\n- ½ cup sugar\n- 3 cups canola oil ((for frying))\n- ½ cup all-purpose flour\n- ¼ cup cornstarch\n- ¼ teaspoon salt\n- 1/8 teaspoon pepper\n- 1 egg ((beaten))\n- 1 tablespoon oil\n- 1/2 green bell pepper ((cut into 1½-inch square pieces))\n- 1/2 red pepper ((cut into 1½-inch square pieces))\n- 1/2 onion ((cut into 1½-inch square pieces))\n- 8 ounce can of pineapple chunks ((you'll use the juices from the can for the sauce))\n- 2 teaspoons cornstarch ((mixed into a slurry with 2 teaspoons water))\n- water as needed if the sauce is too sweet or sour (quantity not specified in source instructions)",
+      "similarity": 0.685289662199596
+    },
+    {
+      "chunkId": "82569f80-36c3-4d40-b3ca-d8ebb5270824",
+      "documentId": "9128467e-60d9-46e4-882a-86b77410e104",
+      "sourceName": "豆果美食",
+      "chunkType": "technique",
+      "content": "菜名：糖醋里脊\n- 腌制半小时\n- 初炸4分钟\n- 复炸1分钟\n- 酱汁烧至冒泡后转小火\n- 半小时\n- 4分钟\n- 1分钟\n- 冒泡后小火\n- 小火",
+      "similarity": 0.684665461917683
+    },
+    {
+      "chunkId": "481d58a5-71fc-47a0-aac7-9c48cf71cbe2",
+      "documentId": "dd89a8d7-a296-442b-8a88-6c6aac7a9ab8",
+      "sourceName": "The Woks of Life",
+      "chunkType": "technique",
+      "content": "菜名：糖醋里脊\n- 准备30分钟\n- 烹饪45分钟\n- 总用时75分钟\n- 炸油350°F\n- 酱汁最低火收浓约30分钟\n- 猪肉分批初炸后复炸\n- 30 minutes\n- 1 minute + 2 minutes\n- medium heat\n- about 30 minutes\n- lowest heat\n- 350°F\n- 2 to 3 minutes\n- 350°F oil\n- 30 seconds + 15 seconds\n- simmer",
+      "similarity": 0.666180074171431
+    },
+    {
+      "chunkId": "305d7f39-2efb-4802-bf50-86bfe23e55f0",
+      "documentId": "dd89a8d7-a296-442b-8a88-6c6aac7a9ab8",
+      "sourceName": "The Woks of Life",
+      "chunkType": "summary",
+      "content": "菜名：糖醋里脊\n别名：Sweet and Sour Pork\n菜系：中式餐馆菜（美式中餐版本）\n简介：猪肩肉或猪里脊切块腌制，经过两次裹粉和两次炸制保持酥脆，再与由番茄酱、白醋、糖和菠萝汁熬成的糖醋汁，以及菠萝、彩椒、洋葱快速拌匀。",
+      "similarity": 0.643812833173231
+    },
+    {
+      "chunkId": "00adf627-693e-45b4-9039-214f9befa14c",
+      "documentId": "9128467e-60d9-46e4-882a-86b77410e104",
+      "sourceName": "豆果美食",
+      "chunkType": "ingredients",
+      "content": "菜名：糖醋里脊\n- 里脊肉 200克\n- 白芝麻 适量\n- 米饭 一碗\n- 玉米淀粉（裹里脊肉） 适量\n- 里脊肉腌料：盐 少许\n- 白胡椒粉 少许\n- 料酒 1勺\n- 鸡蛋 1个\n- 淀粉 1勺\n- 酱汁：清水 3勺\n- 白醋 2勺\n- 生抽 1勺\n- 番茄酱 4勺\n- 白糖 2勺\n- 淀粉 1勺\n- 食用油 适量",
+      "similarity": 0.639684121618151
+    },
+    {
+      "chunkId": "20c8b1dc-f371-4e1c-939f-aa8f874f0a38",
+      "documentId": "9128467e-60d9-46e4-882a-86b77410e104",
+      "sourceName": "豆果美食",
+      "chunkType": "tips",
+      "content": "菜名：糖醋里脊\n- 原文未提供额外提示。",
+      "similarity": 0.608301836499627
+    }
+  ],
+  "notes": [
+    "RAG-first exact lookup returned no pre-existing 糖醋里脊 entity; semantic/hybrid near hits such as 干炸里脊、糖醋鱼、锅包肉 were rejected as different dishes.",
+    "Selected primary candidate: 豆果美食 exact page title #秋天怎么吃#糖醋里脊. It directly uses pork loin strips and provides a coherent marinade, sauce ratio, first-fry time, refry time and coating sequence.",
+    "The 豆果 page lists 米饭一碗 but does not mention it in the method; it is treated only as a serving accompaniment. The page provides no specific tips and does not state the frying oil temperature or initial frying heat.",
+    "The 豆果 source uses 勺 as an unsupported vessel unit without a metric capacity. No milliliter conversion is permitted. 食用油适量 covers frying and the retained bottom oil, but the source does not divide the quantity.",
+    "Accepted secondary source: The Woks of Life exact page title Sweet and Sour Pork. The article explicitly allows pork tenderloin and shares the core target process: marinate pork, coat it, first fry, refry, make a ketchup-vinegar-sugar sweet-sour sauce, toss and serve immediately.",
+    "The Woks of Life page is a Chinese-American restaurant variant: pork shoulder is an alternative to tenderloin, and pineapple, green/red peppers, onion, ginger, star anise, long sauce reduction and slurry are variant-specific. These details conflict with the direct 豆果 primary variant and must not be mixed into it.",
+    "The Woks source uses tablespoon, teaspoon and cup vessel units without source-provided metric capacities. Preserve those units; do not convert them to milliliters. Its optional final water adjustment is named in the method but has no quantity and is recorded as unquantified.",
+    "Rejected candidate: 豆果 https://m.douguo.com/recipe/amp/3000395 is titled 糖醋里脊 but actually uses chicken breast, so it is not a pork-loin recipe.",
+    "Rejected candidate: The Woks of Life https://thewoksoflife.com/guo-bao-rou-dongbei/ is 锅包肉, a separate existing target dish, not cn-007 糖醋里脊.",
+    "Both accepted pages were lawfully fetched as public HTTP 200 pages without login, CAPTCHA bypass, rate-limit bypass or access-control circumvention.",
+    "Both documents were normalized and ingested under recipe entity 4003408c-1e4b-4f37-b905-b802ed55c42e. Each produced summary, ingredients, steps, technique and tips chunks embedded with Voyage voyage-4 at 1024 dimensions.",
+    "Post-ingestion exact-entity semantic retrieval returned 10 results across both source IDs ff80c282-f473-40e2-9d38-f3e4941e289f and 0c2f8c07-c18c-4be1-bdd9-2d6a33dcb5a1. Exact-name hybrid retrieval also returned 10 results across the same two independent sources.",
+    "Editor and Reviewer must use this same evidence package. The primary 豆果 variant should remain intact; secondary-source details may only support shared non-conflicting technique and safety guidance."
+  ]
+}

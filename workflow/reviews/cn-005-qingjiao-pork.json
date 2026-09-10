@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "确定性 Validator 已通过。当前 cn-005 记录完整采用 The Woks of Life 主变体：原料、用量、加入顺序、火力、时长和状态提示均与 evidence package 一致；食用油按 Editor 合同保留为适量，并明确区分腌肉用油及分两次加入的炒制用油；未混入豆果来源的盐、鸡精或不同腌制路线，也未发现无依据的成熟判断、单位换算、配料遗漏、烹饪逻辑或数据结构问题。",
+  "evidencePackageHash": "6f82d007759e08bb4846816501e9d945ca173c50979aec321f5f3eac80828e39",
+  "validatorPassed": true
+}

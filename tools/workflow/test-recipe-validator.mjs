@@ -27,11 +27,36 @@ const badStableField = validateRecipeChange({ beforeSnapshot, currentCatalog: st
 assert.equal(badStableField.ok, false);
 assert(badStableField.errors.some((error) => error.includes("img")));
 
+const correctedSource = structuredClone(validEdit);
+correctedSource.find((item) => item.id === "cn-001").record.source = "https://example.com/correct-source";
+const allowedSourceChange = validateRecipeChange({
+  beforeSnapshot,
+  currentCatalog: correctedSource,
+  targetId: "cn-001",
+  requireChange: true,
+  allowedStableFieldChanges: ["source"]
+});
+assert.equal(allowedSourceChange.ok, true);
+
+const stillRejectsImage = structuredClone(correctedSource);
+stillRejectsImage.find((item) => item.id === "cn-001").record.img = "changed.png";
+const sourceOnlyMeansSourceOnly = validateRecipeChange({
+  beforeSnapshot,
+  currentCatalog: stillRejectsImage,
+  targetId: "cn-001",
+  requireChange: true,
+  allowedStableFieldChanges: ["source"]
+});
+assert.equal(sourceOnlyMeansSourceOnly.ok, false);
+assert(sourceOnlyMeansSourceOnly.errors.some((error) => error.includes("img")));
+
 console.log(JSON.stringify({
   ok: true,
   phase: 6,
   validTargetOnlyEdit: valid.ok,
   detectsUnrelatedEdit: !unrelated.ok,
   detectsMalformedSteps: !badStructure.ok,
-  protectsStableFields: !badStableField.ok
+  protectsStableFields: !badStableField.ok,
+  allowsExplicitSourceCorrection: allowedSourceChange.ok,
+  sourceCorrectionDoesNotAllowOtherStableFields: !sourceOnlyMeansSourceOnly.ok
 }, null, 2));

@@ -3,9 +3,9 @@
     {
       "id": "cn-001",
       "name": "番茄炒蛋",
-      "status": "pending",
-      "lastRunId": null,
-      "completedAt": null
+      "status": "done",
+      "lastRunId": "2026-09-06-cn-001-b20a",
+      "completedAt": "2026-09-06T11:10:06.948Z"
     },
     {
       "id": "cn-002",
@@ -31,9 +31,9 @@
     {
       "id": "cn-005",
       "name": "青椒肉丝",
-      "status": "pending",
-      "lastRunId": null,
-      "completedAt": null
+      "status": "done",
+      "lastRunId": "2026-09-06-cn-005-unit-fidelity",
+      "completedAt": "2026-09-07T02:23:41.396Z"
     },
     {
       "id": "cn-006",
@@ -45,23 +45,23 @@
     {
       "id": "cn-007",
       "name": "糖醋里脊",
-      "status": "pending",
-      "lastRunId": null,
-      "completedAt": null
+      "status": "done",
+      "lastRunId": "2026-09-06-cn-007-b20c",
+      "completedAt": "2026-09-06T12:44:41.070Z"
     },
     {
       "id": "cn-008",
       "name": "扬州炒饭",
-      "status": "pending",
-      "lastRunId": null,
-      "completedAt": null
+      "status": "done",
+      "lastRunId": "2026-09-06-cn-008-b20d",
+      "completedAt": "2026-09-06T13:11:49.978Z"
     },
     {
       "id": "cn-009",
       "name": "清蒸鲈鱼",
-      "status": "pending",
-      "lastRunId": null,
-      "completedAt": null
+      "status": "done",
+      "lastRunId": "2026-09-07-cn-009-b20e",
+      "completedAt": "2026-09-07T02:41:54.115Z"
     },
     {
       "id": "cn-010",
@@ -73,9 +73,9 @@
     {
       "id": "cn-011",
       "name": "桂林米粉",
-      "status": "pending",
-      "lastRunId": null,
-      "completedAt": null
+      "status": "done",
+      "lastRunId": "2026-09-07-cn-011-b20f",
+      "completedAt": "2026-09-10T05:31:35.810Z"
     },
     {
       "id": "cn-012",

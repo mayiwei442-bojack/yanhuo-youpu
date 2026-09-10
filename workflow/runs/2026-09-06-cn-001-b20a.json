@@ -1,0 +1,25 @@
+{
+  "runId": "2026-09-06-cn-001-b20a",
+  "recipeId": "cn-001",
+  "recipeName": "番茄炒蛋",
+  "category": "chinese",
+  "status": "done",
+  "startedAt": "2026-09-06T10:45:26.103Z",
+  "completedAt": "2026-09-06T11:10:06.948Z",
+  "steps": {
+    "research": { "status": "done", "attempts": 1, "startedAt": "2026-09-06T10:45:26.103Z", "completedAt": "2026-09-06T10:55:11.933Z", "details": { "evidence": "workflow/evidence/cn-001-tomato-egg.json", "evidenceHash": "27de152e0a4b1f6a1e71161b0478dee2adf4de6b49a4b22f1886baa4f757c930", "independentSources": 2, "retrievalResults": 10 } },
+    "ingestion": { "status": "done", "attempts": 1, "startedAt": "2026-09-06T10:45:26.103Z", "completedAt": "2026-09-06T10:55:11.933Z", "details": { "documents": 2, "chunks": 10, "embeddingModel": "voyage-4", "embeddingDimension": 1024, "deduplicated": true, "databaseWrites": 0 } },
+    "edit": { "status": "done", "attempts": 3, "startedAt": "2026-09-06T10:55:11.933Z", "completedAt": "2026-09-06T11:05:10.057Z", "details": { "targetOnly": true, "changedFields": ["ingredients", "steps"], "primaryVariant": "豆果美食", "redoReason": "Reviewer found unsupported narrowing from generic 糖 to 白糖" } },
+    "validator": { "status": "done", "attempts": 3, "startedAt": "2026-09-06T10:57:48.643Z", "completedAt": "2026-09-06T11:05:54.657Z", "details": { "status": "PASS", "ingredientCount": 5, "stepCount": 6, "targetOnly": true, "commands": ["node tools/build_html_demo_data.mjs", "node tools/test_html_demo.mjs", "node tools/build_vercel_output.mjs"], "previousFailure": "基础调味品仍被当作 AI 替换目标" } },
+    "review": { "status": "done", "attempts": 3, "startedAt": "2026-09-06T11:01:21.906Z", "completedAt": "2026-09-06T11:06:40.385Z", "details": { "status": "PASS", "result": "workflow/reviews/cn-001-tomato-egg.json", "previousIssue": "generic 糖 was narrowed to 白糖 without evidence", "resolvedEarlierIssue": "legacy source metadata must remain stable" } },
+    "build": { "status": "done", "attempts": 2, "startedAt": "2026-09-06T11:06:40.385Z", "completedAt": "2026-09-06T11:09:12.918Z", "details": { "status": "PASS", "command": "npm run test:workflow:deterministic", "note": "First attempt exposed existing CRLF-sensitive evidence hashes; targeted historical evidence files were normalized only for verification and restored unchanged afterward." } },
+    "gitPush": { "status": "done", "attempts": 1, "startedAt": "2026-09-06T11:09:12.918Z", "completedAt": "2026-09-06T11:10:06.948Z", "details": { "remote": "origin", "branch": "codex/recipe-automation", "commit": "90b4b1f889aaa17625de460633f66984b0e9a5f9", "recreatedRemoteBranch": true } }
+  },
+  "sources": [
+    { "name": "The Woks of Life", "url": "https://thewoksoflife.com/stir-fried-tomato-and-egg/", "status": "success", "failureReason": null },
+    { "name": "豆果美食", "url": "https://www.douguo.com/cookbook/1192179.html", "status": "success", "failureReason": null }
+  ],
+  "errors": [],
+  "branch": "codex/recipe-automation",
+  "commit": "90b4b1f889aaa17625de460633f66984b0e9a5f9"
+}

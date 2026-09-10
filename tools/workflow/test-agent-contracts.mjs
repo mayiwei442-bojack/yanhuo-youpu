@@ -12,17 +12,22 @@ const evidenceSchema = JSON.parse(await readFile(new URL("../../workflow/schemas
 const reviewerSchema = JSON.parse(await readFile(new URL("../../workflow/schemas/reviewer-result.schema.json", import.meta.url), "utf8"));
 
 assert.match(prompts.researcher, /only role allowed to search/iu);
-assert.match(prompts.researcher, /At least two independent/iu);
+assert.match(prompts.researcher, /Prioritize multiple independent complete sources/iu);
+assert.match(prompts.researcher, /sourceMode: "single_source"/u);
 assert.match(prompts.editor, /Do not browse/iu);
 assert.match(prompts.editor, /only the target/iu);
 assert.match(prompts.reviewer, /Do not search websites, query RAG/iu);
 assert.match(prompts.orchestrator, /one recipe per scheduled run/iu);
+assert.match(prompts.orchestrator, /only one remains/iu);
+assert.match(prompts.orchestrator, /single-source marker and reason/iu);
 assert.match(prompts.orchestrator, /excludes `npm run test:ai`/iu);
 for (const role of roles) {
   assert.match(configs[role], new RegExp(`name = "${role}"`, "u"));
   assert.match(configs[role], /developer_instructions = /u);
 }
-assert.equal(evidenceSchema.properties.sources.minItems, 2);
+assert.equal(evidenceSchema.properties.sources.minItems, 1);
+assert.deepEqual(evidenceSchema.properties.sourceMode.enum, ["multi_source", "single_source"]);
+assert(evidenceSchema.allOf.some((rule) => rule.then?.required?.includes("singleSourceReason")));
 assert.equal(evidenceSchema.additionalProperties, false);
 assert.deepEqual(reviewerSchema.properties.status.enum, ["PASS", "FAIL"]);
 assert.equal(reviewerSchema.additionalProperties, false);

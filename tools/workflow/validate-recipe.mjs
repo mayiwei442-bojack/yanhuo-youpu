@@ -11,9 +11,10 @@ function same(left, right) {
   return JSON.stringify(left) === JSON.stringify(right);
 }
 
-export function validateRecipeChange({ beforeSnapshot, currentCatalog, targetId, requireChange = false }) {
+export function validateRecipeChange({ beforeSnapshot, currentCatalog, targetId, requireChange = false, allowedStableFieldChanges = [] }) {
   const errors = [];
   const checks = [];
+  const allowedStableFields = new Set(allowedStableFieldChanges);
   const beforeCatalog = beforeSnapshot?.recipes;
   if (!Array.isArray(beforeCatalog)) {
     return { ok: false, targetId, checks, errors: ["编辑前快照缺少 recipes 数组"] };
@@ -54,13 +55,14 @@ export function validateRecipeChange({ beforeSnapshot, currentCatalog, targetId,
     if (stepCount < 2) errors.push(`目标 steps 至少需要 2 条，实际 ${stepCount} 条`);
 
     for (const field of STABLE_TARGET_FIELDS) {
-      if (!same(target.record[field], beforeTarget.record[field])) {
+      if (!allowedStableFields.has(field) && !same(target.record[field], beforeTarget.record[field])) {
         errors.push(`目标稳定字段 ${field} 被修改`);
       }
     }
     checks.push({
       name: "stable_target_fields",
-      passed: STABLE_TARGET_FIELDS.every((field) => same(target.record[field], beforeTarget.record[field]))
+      passed: STABLE_TARGET_FIELDS.every((field) => allowedStableFields.has(field) || same(target.record[field], beforeTarget.record[field])),
+      allowedChanges: [...allowedStableFields]
     });
     if (requireChange && same(target.record, beforeTarget.record)) errors.push("目标菜谱内容没有发生变化");
     checks.push({ name: "target_changed", passed: !same(target.record, beforeTarget.record), required: requireChange });
@@ -98,14 +100,15 @@ async function main() {
   const targetId = option("--target");
   const beforePath = option("--before");
   if (!targetId || !beforePath) {
-    throw new Error("用法：npm run rag:validate -- --target <cn-001> --before <snapshot.json> [--require-change] [--full]");
+    throw new Error("用法：npm run rag:validate -- --target <cn-001> --before <snapshot.json> [--require-change] [--allow-source-change] [--full]");
   }
   const beforeSnapshot = JSON.parse(await readFile(resolve(process.cwd(), beforePath), "utf8"));
   const validation = validateRecipeChange({
     beforeSnapshot,
     currentCatalog: createRecipeCatalog(),
     targetId,
-    requireChange: process.argv.includes("--require-change")
+    requireChange: process.argv.includes("--require-change"),
+    allowedStableFieldChanges: process.argv.includes("--allow-source-change") ? ["source"] : []
   });
   const commands = [];
   if (validation.ok) {
