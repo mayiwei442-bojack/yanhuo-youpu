@@ -12,9 +12,11 @@
     "createdAt": { "type": "string", "format": "date-time" },
     "sources": {
       "type": "array",
-      "minItems": 2,
+      "minItems": 1,
       "items": { "$ref": "#/$defs/sourceEvidence" }
     },
+    "sourceMode": { "type": "string", "enum": ["multi_source", "single_source"] },
+    "singleSourceReason": { "type": "string", "minLength": 1 },
     "ragEvidence": {
       "type": "array",
       "items": {
@@ -33,6 +35,22 @@
     },
     "notes": { "type": "array", "items": { "type": "string" } }
   },
+  "allOf": [
+    {
+      "if": { "properties": { "sources": { "maxItems": 1 } } },
+      "then": {
+        "required": ["sourceMode", "singleSourceReason"],
+        "properties": { "sourceMode": { "const": "single_source" } }
+      }
+    },
+    {
+      "if": {
+        "required": ["sourceMode"],
+        "properties": { "sourceMode": { "const": "multi_source" } }
+      },
+      "then": { "properties": { "sources": { "minItems": 2 } } }
+    }
+  ],
   "$defs": {
     "ingredient": {
       "type": "object",

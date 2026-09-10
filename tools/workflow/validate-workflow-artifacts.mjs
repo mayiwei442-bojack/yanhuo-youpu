@@ -19,7 +19,12 @@ for (const [recipeId, slug, runId] of artifacts) {
   const hash = createHash("sha256").update(evidenceRaw).digest("hex");
 
   assert.equal(evidence.recipeId, recipeId);
-  assert(evidence.sources.length >= 2);
+  assert(evidence.sources.length >= 1);
+  if (evidence.sources.length === 1) {
+    assert.equal(evidence.sourceMode, "single_source");
+    assert.equal(typeof evidence.singleSourceReason, "string");
+    assert(evidence.singleSourceReason.length > 0);
+  }
   assert.equal(new Set(evidence.sources.map((source) => source.documentId)).size, evidence.sources.length);
   assert.deepEqual(new Set(evidence.sources.map((source) => source.sourceType)), new Set(["book", "website"]));
   assert(evidence.sources.every((source) => source.complete && source.ingredients.length > 0 && source.steps.length >= 2));
