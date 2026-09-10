@@ -1,0 +1,106 @@
+{
+  "recipeId": "cn-011",
+  "recipeName": "桂林米粉",
+  "category": "chinese",
+  "createdAt": "2026-09-10T05:15:29.448Z",
+  "sourceMode": "single_source",
+  "singleSourceReason": "检查已配置的中文网站、精确同名 RAG 实体及可靠历史资料后，只有豆果美食的《正宗桂林米粉》为名称匹配且内容完整的正式菜谱详情页。该页面给出从熬卤水、准备配料和肉料到烫粉装碗的完整路线，内部无自相矛盾；The Woks of Life 无同名菜谱，知识库也没有书籍或其他可靠同名、别名来源与其冲突。",
+  "sources": [
+    {
+      "sourceName": "豆果美食",
+      "sourceType": "website",
+      "url": "https://www.douguo.com/cookbook/2331633.html",
+      "documentId": "1ba3785d-c85e-4baa-a741-dfce177aad15",
+      "retrievalMethod": "HTML正文；2026-09-10 复核详情页 HTTP 200，并与已入库 normalized_json 及五类 RAG chunks 交叉核对",
+      "complete": true,
+      "ingredients": [
+        { "name": "猪骨", "amount": null, "raw": "猪骨", "evidence": "explicit" },
+        { "name": "牛骨", "amount": null, "raw": "牛骨", "evidence": "explicit" },
+        { "name": "肥五花肉", "amount": null, "raw": "肥五花肉", "evidence": "explicit" },
+        { "name": "里脊", "amount": null, "raw": "里脊", "evidence": "explicit" },
+        { "name": "卤料包", "amount": null, "raw": "卤料包", "evidence": "explicit" },
+        { "name": "酸豆角", "amount": null, "raw": "酸豆角", "evidence": "explicit" },
+        { "name": "花生", "amount": null, "raw": "花生", "evidence": "explicit" },
+        { "name": "香葱", "amount": null, "raw": "香葱", "evidence": "explicit" },
+        { "name": "卤水调味料", "amount": null, "raw": "调料（卤水调味，原文未具体列明）", "evidence": "derived" },
+        { "name": "辣椒", "amount": null, "raw": "辣椒（炒酸豆角用，原文未列用量）", "evidence": "derived" },
+        { "name": "干米粉", "amount": null, "raw": "干粉（原文未列用量）", "evidence": "derived" },
+        { "name": "开水（烫米粉）", "amount": null, "raw": "开水烫米粉（原文未列用量）", "evidence": "derived" },
+        { "name": "骨头汤（佐餐，可选）", "amount": null, "raw": "还可以熬一锅骨头汤边吃粉边喝汤（原文未列用量）", "evidence": "derived" }
+      ],
+      "steps": [
+        { "order": 1, "instruction": "卤料包加骨头熬卤水，然后加调料调味，卤水得熬上8小时以上才能出味", "duration": "8小时", "heat": null, "evidence": "explicit" },
+        { "order": 2, "instruction": "期间准备酸豆角", "duration": null, "heat": null, "evidence": "explicit" },
+        { "order": 3, "instruction": "切好锅里简单炒下加辣椒即可", "duration": null, "heat": null, "evidence": "explicit" },
+        { "order": 4, "instruction": "腌里脊", "duration": null, "heat": null, "evidence": "explicit" },
+        { "order": 5, "instruction": "白水煮肉", "duration": null, "heat": null, "evidence": "explicit" },
+        { "order": 6, "instruction": "炸叉烧", "duration": null, "heat": null, "evidence": "explicit" },
+        { "order": 7, "instruction": "炸锅烧，需要再重复炸一次，皮才能酥脆", "duration": null, "heat": null, "evidence": "explicit" },
+        { "order": 8, "instruction": "泡干粉", "duration": null, "heat": null, "evidence": "explicit" },
+        { "order": 9, "instruction": "所有东西好了以后开水烫米粉，加锅烧，叉烧，酸豆角，香葱，炸好的花生，卤水拌均匀即可，还可以熬一锅骨头汤边吃粉边喝汤", "duration": null, "heat": null, "evidence": "explicit" }
+      ],
+      "technique": [
+        "卤料包加猪骨、牛骨熬卤水，并以未具体列明的调料调味；卤水熬8小时以上出味。",
+        "酸豆角切好后下锅加辣椒简单炒香。",
+        "里脊先腌后白水煮，再制成炸叉烧；原文未给腌料、时间、火候和油量。",
+        "肥五花肉制成锅烧并复炸一次，使皮酥脆；原文未给油量、温度或时长。",
+        "干米粉先泡，食用前用开水烫。"
+      ],
+      "tips": [],
+      "rawExcerpt": "正宗桂林米粉。原料：猪骨、牛骨、肥五花肉、里脊、卤料包、酸豆角、花生、香葱。卤料包加骨头熬卤水并调味，熬8小时以上；准备并加辣椒炒酸豆角；腌里脊、白水煮肉、炸叉烧；锅烧复炸至皮酥；泡干粉后用开水烫，加入锅烧、叉烧、酸豆角、香葱、炸花生和卤水拌匀。",
+      "bookTitle": null,
+      "pageStart": null,
+      "pageEnd": null,
+      "location": null
+    }
+  ],
+  "ragEvidence": [
+    {
+      "chunkId": "21b024f3-7fdd-4e13-966e-9ea62f8052f4",
+      "documentId": "1ba3785d-c85e-4baa-a741-dfce177aad15",
+      "sourceName": "豆果美食",
+      "chunkType": "summary",
+      "content": "菜名：桂林米粉\n别名：正宗桂林米粉\n菜系：广西\n简介：正宗桂林米粉的家常做法，食材简单步骤详细，食材 猪骨怎么做好吃、牛骨怎么做好吃、肥五花肉怎么做好吃、里脊怎么做好吃、卤料包怎么做好吃、酸豆角怎么做好吃、花生怎么做好吃、香葱怎么做好吃 新手也能轻松学会。豆果美食有更多美食教程!",
+      "similarity": null
+    },
+    {
+      "chunkId": "4dc6031b-c31f-427e-abee-44f024aedeed",
+      "documentId": "1ba3785d-c85e-4baa-a741-dfce177aad15",
+      "sourceName": "豆果美食",
+      "chunkType": "ingredients",
+      "content": "菜名：桂林米粉\n- 猪骨\n- 牛骨\n- 肥五花肉\n- 里脊\n- 卤料包\n- 酸豆角\n- 花生\n- 香葱\n- 调料（卤水调味，原文未具体列明）\n- 辣椒（炒酸豆角用，原文未列用量）\n- 干粉（原文未列用量）\n- 开水烫米粉（原文未列用量）\n- 还可以熬一锅骨头汤边吃粉边喝汤（原文未列用量）",
+      "similarity": null
+    },
+    {
+      "chunkId": "5009485f-9767-4d98-a5d8-9e52cab7b5cf",
+      "documentId": "1ba3785d-c85e-4baa-a741-dfce177aad15",
+      "sourceName": "豆果美食",
+      "chunkType": "steps",
+      "content": "菜名：桂林米粉\n1. 卤料包加骨头熬卤水，然后加调料调味，卤水得熬上8小时以上才能出味（8小时）\n2. 期间准备酸豆角\n3. 切好锅里简单炒下加辣椒即可\n4. 腌里脊\n5. 白水煮肉\n6. 炸叉烧\n7. 炸锅烧，需要再重复炸一次，皮才能酥脆\n8. 泡干粉\n9. 所有东西好了以后开水烫米粉，加锅烧，叉烧，酸豆角，香葱，炸好的花生，卤水拌均匀即可，还可以熬一锅骨头汤边吃粉边喝汤",
+      "similarity": null
+    },
+    {
+      "chunkId": "dbd38033-b09a-49c3-8563-424b1914ba17",
+      "documentId": "1ba3785d-c85e-4baa-a741-dfce177aad15",
+      "sourceName": "豆果美食",
+      "chunkType": "technique",
+      "content": "菜名：桂林米粉\n- 卤料包加猪骨、牛骨熬卤水，并以未具体列明的调料调味；卤水熬8小时以上出味。\n- 酸豆角切好后下锅加辣椒简单炒香。\n- 里脊先腌后白水煮，再制成炸叉烧；原文未给腌料、时间、火候和油量。\n- 肥五花肉制成锅烧并复炸一次，使皮酥脆；原文未给油量、温度或时长。\n- 干米粉先泡，食用前用开水烫。\n- 8小时",
+      "similarity": null
+    },
+    {
+      "chunkId": "fea37934-cd8d-4a2d-babd-e63f3c092f3a",
+      "documentId": "1ba3785d-c85e-4baa-a741-dfce177aad15",
+      "sourceName": "豆果美食",
+      "chunkType": "tips",
+      "content": "菜名：桂林米粉\n- 原文未提供额外提示。",
+      "similarity": null
+    }
+  ],
+  "notes": [
+    "单来源：The Woks of Life 的 HTML 搜索及公开 WordPress 搜索 API 对 Guilin rice noodles、Guilin noodles、桂林米粉均无同名结果；Guilin 仅命中两篇无关地点文章。",
+    "单来源：豆果站内搜索页复核时返回 HTTP 403，未绕过访问控制；正式详情页可公开访问并返回 HTTP 200。",
+    "单来源：知识库精确实体、别名和书籍历史检查未发现第二份同名完整来源，也未发现与豆果内容冲突的可靠历史来源。",
+    "RAG 验证：document content hash 为 ed5ab937f71b75fc26d6b71d186d6eb91d3e6602fd558e069bea926d07f26462；summary、ingredients、steps、technique、tips 共 5 个 chunks，均为 voyage-4/1024 且 embedding 非空；semantic 与 hybrid 精确检索各返回 5 条。",
+    "来源没有给出任何原料数量，也未给腌料、卤水调料细项、炸制油量/温度/时长或泡粉时长；Editor 不得自行补造这些信息。"
+  ]
+}

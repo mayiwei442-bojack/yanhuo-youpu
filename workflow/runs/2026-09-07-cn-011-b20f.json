@@ -3,17 +3,17 @@
   "recipeId": "cn-011",
   "recipeName": "桂林米粉",
   "category": "chinese",
-  "status": "failed",
+  "status": "in_progress",
   "startedAt": "2026-09-07T02:42:28.490Z",
-  "completedAt": "2026-09-07T02:47:09.499Z",
+  "completedAt": null,
   "steps": {
-    "research": { "status": "failed", "attempts": 1, "startedAt": "2026-09-07T02:42:28.490Z", "completedAt": "2026-09-07T02:47:09.499Z", "details": { "independentCompleteSources": 1, "requiredSources": 2, "evidenceCreated": false, "reason": "白名单内只有豆果美食提供完整同名菜谱；The Woks of Life 无桂林米粉菜谱，现有 KB 也无第二份精确同名完整文档" } },
-    "ingestion": { "status": "done", "attempts": 1, "startedAt": "2026-09-07T02:42:28.490Z", "completedAt": "2026-09-07T02:47:09.499Z", "details": { "partial": true, "entityId": "de5f36bc-942d-47e5-a9f0-a8694641a2f2", "documents": 1, "existingDocuments": 0, "newDocuments": 1, "documentId": "1ba3785d-c85e-4baa-a741-dfce177aad15", "contentHash": "ed5ab937f71b75fc26d6b71d186d6eb91d3e6602fd558e069bea926d07f26462", "chunks": 5, "embeddingModel": "voyage-4", "embeddingDimension": 1024, "semanticResults": 5, "hybridResults": 5 } },
-    "edit": { "status": "pending", "attempts": 0 },
-    "validator": { "status": "pending", "attempts": 0 },
-    "review": { "status": "pending", "attempts": 0 },
-    "build": { "status": "pending", "attempts": 0 },
-    "gitPush": { "status": "done", "attempts": 1, "startedAt": "2026-09-07T02:47:09.499Z", "completedAt": "2026-09-07T02:48:27.654Z", "details": { "purpose": "persist failed run state only", "remote": "origin", "branch": "codex/recipe-automation", "commit": "489c1109f9aaefa5acdc46b78d04ff8d71a37d66" } }
+    "research": { "status": "done", "attempts": 2, "startedAt": "2026-09-10T04:56:04.289Z", "completedAt": "2026-09-10T05:15:29.448Z", "details": { "resumedFromFailure": true, "recoveredFromErrorCode": "INSUFFICIENT_INDEPENDENT_SOURCES", "ruleChangeCommit": "effb0c7c81c86d79e7c7403ad16633865098ed82", "singleSource": true, "sourceMode": "single_source", "singleSourceReason": "已配置来源及可靠历史 RAG 中只有豆果同名完整页面；名称匹配、内容完整、内部自洽，且无可靠历史来源冲突。", "independentCompleteSources": 1, "requiredSources": 1, "evidenceCreated": true, "evidencePath": "workflow/evidence/cn-011-guilin-rice-noodles.json", "attemptedAlternatives": ["The Woks of Life 精确检索无同名菜谱", "知识库无书籍或其他可靠同名、别名来源"], "reason": "符合 2026-09-10 同步的单来源降级规则，继续原运行。" } },
+    "ingestion": { "status": "done", "attempts": 1, "startedAt": "2026-09-07T02:42:28.490Z", "completedAt": "2026-09-10T05:15:29.448Z", "details": { "partial": false, "reusedExistingDocument": true, "entityId": "de5f36bc-942d-47e5-a9f0-a8694641a2f2", "documents": 1, "existingDocuments": 1, "newDocuments": 0, "documentId": "1ba3785d-c85e-4baa-a741-dfce177aad15", "contentHash": "ed5ab937f71b75fc26d6b71d186d6eb91d3e6602fd558e069bea926d07f26462", "chunks": 5, "embeddingModel": "voyage-4", "embeddingDimension": 1024, "embeddedChunks": 5, "semanticResults": 5, "hybridResults": 5 } },
+    "edit": { "status": "done", "attempts": 1, "startedAt": "2026-09-10T05:15:29.448Z", "completedAt": "2026-09-10T05:23:50.665Z", "details": { "evidencePath": "workflow/evidence/cn-011-guilin-rice-noodles.json", "evidencePackageHash": "af89aa879002cfa932cc49ed50bab92d280f803194be571f03267ed998c54cc7", "sourceMode": "single_source", "changedFields": ["ingredients", "steps", "source"], "targetOnly": true, "unresolvedSourceOmissions": ["所有原料数量", "卤水调料细项", "里脊腌料", "部分火候、时长、油温和用油量"] } },
+    "validator": { "status": "done", "attempts": 2, "startedAt": "2026-09-10T05:23:50.665Z", "completedAt": "2026-09-10T05:26:12.161Z", "details": { "status": "PASS", "previousFailure": "旧来源 The Woks of Life 必须更正为 evidence 的豆果正式页面，但原 Validator 无显式来源更正选项。", "sourceCorrectionAllowed": true, "allowedStableFieldChanges": ["source"], "uniqueIds": true, "targetExistsOnce": true, "requiredFields": true, "ingredientCount": 15, "stepCount": 7, "targetOnly": true, "generatedTargetExists": true, "fullCommandsPassed": ["node tools/build_html_demo_data.mjs", "node tools/test_html_demo.mjs", "node tools/build_vercel_output.mjs"] } },
+    "review": { "status": "done", "attempts": 1, "startedAt": "2026-09-10T05:26:12.161Z", "completedAt": "2026-09-10T05:28:47.449Z", "details": { "status": "PASS", "result": "workflow/reviews/cn-011-guilin-rice-noodles.json", "evidencePath": "workflow/evidence/cn-011-guilin-rice-noodles.json", "evidencePackageHash": "af89aa879002cfa932cc49ed50bab92d280f803194be571f03267ed998c54cc7", "validatorPassed": true, "sourceMode": "single_source", "issues": [] } },
+    "build": { "status": "done", "attempts": 1, "startedAt": "2026-09-10T05:28:47.449Z", "completedAt": "2026-09-10T05:30:18.191Z", "details": { "status": "PASS", "command": "npm run test:workflow:deterministic", "excludesAiTest": true, "recipes": 90, "htmlRoutesPassed": 9, "vercelBuildPassed": true } },
+    "gitPush": { "status": "in_progress", "attempts": 2, "startedAt": "2026-09-10T05:30:18.191Z", "completedAt": null, "details": { "previousPurpose": "persist failed run state only", "previousCommit": "489c1109f9aaefa5acdc46b78d04ff8d71a37d66", "remote": "origin", "branch": "codex/recipe-automation" } }
   },
   "sources": [
     { "name": "The Woks of Life", "url": "https://thewoksoflife.com/?s=Guilin+rice+noodles", "status": "failed", "failureReason": "站内检索成功返回，但没有桂林米粉同名菜谱；Guilin 结果仅为地点相关文章" },
@@ -23,5 +23,5 @@
     { "step": "research", "code": "INSUFFICIENT_INDEPENDENT_SOURCES", "message": "仅获得 1 份独立完整同名来源，低于 evidence schema 与工作流要求的 2 份；禁止用家庭简易版或不同卤味变体凑数。", "at": "2026-09-07T02:47:09.499Z" }
   ],
   "branch": "codex/recipe-automation",
-  "commit": "489c1109f9aaefa5acdc46b78d04ff8d71a37d66"
+  "commit": null
 }

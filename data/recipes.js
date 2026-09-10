@@ -1601,91 +1601,179 @@ window.YANHUO_RECIPES = [
     "ingredients": [
       {
         "id": "ingredient-01",
-        "name": "干米粉",
-        "label": "干米粉250克",
+        "name": "猪骨",
+        "label": "猪骨适量",
         "isCore": true
       },
       {
         "id": "ingredient-02",
-        "name": "卤牛肉",
-        "label": "卤牛肉150克",
+        "name": "牛骨",
+        "label": "牛骨适量",
         "isCore": true
       },
       {
         "id": "ingredient-03",
-        "name": "酸豆角",
-        "label": "酸豆角60克",
+        "name": "肥五花肉",
+        "label": "肥五花肉适量",
         "isCore": true
       },
       {
         "id": "ingredient-04",
-        "name": "花生",
-        "label": "花生30克",
+        "name": "里脊",
+        "label": "里脊适量",
         "isCore": false
       },
       {
         "id": "ingredient-05",
-        "name": "卤水",
-        "label": "卤水200毫升",
+        "name": "卤料包",
+        "label": "卤料包适量",
         "isCore": false
       },
       {
         "id": "ingredient-06",
-        "name": "高汤",
-        "label": "高汤400毫升",
+        "name": "卤水调味料（原文未具体列明）",
+        "label": "卤水调味料适量（原文未具体列明）",
         "isCore": false
       },
       {
         "id": "ingredient-07",
-        "name": "葱花和辣椒油",
-        "label": "葱花和辣椒油适量",
+        "name": "腌料（原文未具体列明）",
+        "label": "腌料适量（原文未具体列明）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-08",
+        "name": "酸豆角",
+        "label": "酸豆角适量",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-09",
+        "name": "辣椒",
+        "label": "辣椒适量",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-10",
+        "name": "花生",
+        "label": "花生适量",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-11",
+        "name": "香葱",
+        "label": "香葱适量",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-12",
+        "name": "干米粉",
+        "label": "干米粉适量",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-13",
+        "name": "清水（熬卤水、白水煮肉、泡发和烫米粉）",
+        "label": "清水适量（熬卤水、白水煮肉、泡发和烫米粉）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-14",
+        "name": "食用油（炒酸豆角、炸花生、炸叉烧和炸锅烧）",
+        "label": "食用油适量（炒酸豆角、炸花生、炸叉烧和炸锅烧）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-15",
+        "name": "骨头汤（佐餐，可选）",
+        "label": "骨头汤适量（佐餐，可选）",
         "isCore": false
       }
     ],
     "steps": [
       {
         "id": "step-01",
-        "instruction": "米粉泡软煮熟，冲洗沥水。",
-        "duration": 180,
-        "heat": "medium",
-        "timerRequired": false,
-        "ingredientsUsed": [],
-        "gameAction": "wait",
-        "safetyNote": ""
-      },
-      {
-        "id": "step-02",
-        "instruction": "碗中放米粉，加入卤水和少量高汤拌匀。",
-        "duration": 120,
-        "heat": "medium",
-        "timerRequired": false,
-        "ingredientsUsed": [],
-        "gameAction": "add",
-        "safetyNote": ""
-      },
-      {
-        "id": "step-03",
-        "instruction": "铺卤牛肉、酸豆角、花生和葱花，按口味加辣椒油。",
+        "instruction": "准备猪骨、牛骨、肥五花肉、里脊、卤料包、酸豆角、辣椒、花生、香葱和干米粉；来源未给出各项数量，也未列明卤水调味料和腌料的具体组成。",
         "duration": 180,
         "heat": "medium",
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "confirm",
         "safetyNote": ""
+      },
+      {
+        "id": "step-02",
+        "instruction": "将猪骨、牛骨和卤料包放入锅中，加适量清水熬卤水，再用来源未具体列明的调味料调味；卤水需熬8小时以上才能出味，原文未说明具体火候。",
+        "duration": 28800,
+        "heat": "medium",
+        "timerRequired": true,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-03",
+        "instruction": "熬卤水期间将酸豆角切好；锅中放适量食用油，加入酸豆角和辣椒简单翻炒后盛出，原文未给火候和时长。另将花生用适量食用油炸好备用，原文未给油温和时长。",
+        "duration": 120,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "注意热油飞溅"
+      },
+      {
+        "id": "step-04",
+        "instruction": "里脊用来源未具体列明的腌料腌制；随后放入清水中白水煮制，再用适量食用油炸成叉烧。原文未给腌制、煮制和炸制的火候、时长及用油量。",
+        "duration": 180,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "注意热油飞溅"
+      },
+      {
+        "id": "step-05",
+        "instruction": "肥五花肉用适量食用油制成锅烧，再重复炸一次，至皮酥脆；原文未给前处理方式、油温、时长及用油量。",
+        "duration": 180,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "注意热油飞溅"
+      },
+      {
+        "id": "step-06",
+        "instruction": "干米粉先用水泡发，原文未给泡发时长；食用前用开水烫米粉，沥水后装碗。",
+        "duration": 180,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-07",
+        "instruction": "依次加入锅烧、叉烧、炒酸豆角、香葱和炸花生，淋入卤水并拌匀即可；可另配骨头汤佐餐，原文未说明骨头汤的另用材料和熬制方法。",
+        "duration": 120,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "注意热油飞溅"
       }
     ],
     "imageThumb": "assets/dishes/thumbnails/11-guilin-mifen.jpg",
     "imageFull": "assets/dishes/ai/11-guilin-mifen.png",
-    "source": "https://thewoksoflife.com/",
-    "time": 35,
-    "difficulty": "适中",
+    "source": "https://www.douguo.com/cookbook/2331633.html",
+    "time": 180,
+    "difficulty": "进阶",
     "defaultServings": 2,
     "allergens": [
       "peanut"
     ],
     "flags": {
-      "containsPork": false,
-      "containsBeef": true,
+      "containsPork": true,
+      "containsBeef": false,
       "containsAlcohol": false,
       "spicy": true,
       "vegetarian": false

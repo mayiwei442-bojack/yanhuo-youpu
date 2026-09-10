@@ -73,9 +73,9 @@
     {
       "id": "cn-011",
       "name": "桂林米粉",
-      "status": "failed",
+      "status": "in_progress",
       "lastRunId": "2026-09-07-cn-011-b20f",
-      "completedAt": "2026-09-07T02:47:09.499Z"
+      "completedAt": null
     },
     {
       "id": "cn-012",
