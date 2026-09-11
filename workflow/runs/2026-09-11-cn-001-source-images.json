@@ -3,22 +3,22 @@
   "recipeId": "cn-001",
   "recipeName": "番茄炒蛋",
   "category": "chinese",
-  "status": "in_progress",
+  "status": "done",
   "startedAt": "2026-09-11T22:42:45.7335897+08:00",
-  "completedAt": null,
+  "completedAt": "2026-09-11T22:53:00.6669270+08:00",
   "steps": {
     "research": { "status": "done", "attempts": 1, "startedAt": "2026-09-11T22:24:00+08:00", "completedAt": "2026-09-11T22:42:45.7335897+08:00", "details": { "evidence": "workflow/evidence/2026-09-11-cn-001-source-images.json", "selectedSource": "豆果美食", "recipeUrl": "https://www.douguo.com/cookbook/1192179.html", "mediaPageUrl": "https://m.douguo.com/recipe/imgs/1192179", "heroImages": 1, "stepImages": 6, "sameSource": true, "reuseLicense": null, "rightsNotice": "未经授权不得转载", "storage": "remote_url_only" } },
     "ingestion": { "status": "done", "attempts": 0, "startedAt": null, "completedAt": "2026-09-11T22:42:45.7335897+08:00", "details": { "reason": "正文文档与分块已存在且内容未变；图片元数据不写入当前文本 RAG，未执行数据库写入。" } },
     "edit": { "status": "done", "attempts": 1, "startedAt": "2026-09-11T22:43:00+08:00", "completedAt": "2026-09-11T22:46:00+08:00", "details": { "changedFields": ["source", "media"], "textChanged": false, "targetOnly": true } },
     "validator": { "status": "done", "attempts": 2, "startedAt": "2026-09-11T22:46:00+08:00", "completedAt": "2026-09-11T22:48:00+08:00", "details": { "passed": true, "targetOnly": true, "ingredients": 5, "steps": 6, "stepImages": 6, "browser": "PASS", "build": "PASS", "firstAttemptEnvironmentError": "干净 worktree 缺少 playwright-core；npm ci 后同一校验通过" } },
     "review": { "status": "done", "attempts": 1, "startedAt": "2026-09-11T22:48:00+08:00", "completedAt": "2026-09-11T22:50:33.5202268+08:00", "details": { "status": "PASS", "result": "workflow/reviews/2026-09-11-cn-001-source-images.json", "evidencePackageHash": "5ac869efd93fa8f0c1d01e1c0c214b05ba7b2292b193a804a92515263b5bef6e" } },
-    "build": { "status": "done", "attempts": 1, "startedAt": "2026-09-11T22:50:33.5202268+08:00", "completedAt": "2026-09-11T22:54:00+08:00", "details": { "suite": "npm run test:workflow:deterministic", "passed": true, "recipes": 90, "sourceImageRecipes": 1, "browserErrors": [] } },
-    "gitPush": { "status": "in_progress", "attempts": 1, "startedAt": "2026-09-11T22:54:00+08:00", "completedAt": null, "details": {} }
+    "build": { "status": "done", "attempts": 1, "startedAt": "2026-09-11T22:50:33.5202268+08:00", "completedAt": "2026-09-11T22:52:00+08:00", "details": { "suite": "npm run test:workflow:deterministic", "passed": true, "recipes": 90, "sourceImageRecipes": 1, "browserErrors": [] } },
+    "gitPush": { "status": "done", "attempts": 1, "startedAt": "2026-09-11T22:52:00+08:00", "completedAt": "2026-09-11T22:53:00.6669270+08:00", "details": { "contentCommit": "4ac3d64", "branch": "codex/recipe-automation", "remote": "origin" } }
   },
   "sources": [
     { "name": "豆果美食", "url": "https://www.douguo.com/cookbook/1192179.html", "status": "success", "failureReason": null }
   ],
   "errors": [],
   "branch": "codex/recipe-automation",
-  "commit": null
+  "commit": "4ac3d64"
 }
