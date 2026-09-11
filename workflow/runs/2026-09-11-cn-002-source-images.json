@@ -1,0 +1,27 @@
+{
+  "runId": "2026-09-11-cn-002-source-images",
+  "recipeId": "cn-002",
+  "recipeName": "宫保鸡丁",
+  "category": "chinese",
+  "status": "failed",
+  "startedAt": "2026-09-11T22:53:30+08:00",
+  "completedAt": "2026-09-11T23:02:27.5321133+08:00",
+  "steps": {
+    "research": { "status": "failed", "attempts": 1, "startedAt": "2026-09-11T22:53:30+08:00", "completedAt": "2026-09-11T23:02:27.5321133+08:00", "details": { "result": "workflow/research/2026-09-11-cn-002-source-images.json", "sourceA": "6/7步骤图", "sourceAMissing": [3], "sourceB": "15/15图片但源步骤6空白且原料表漏项", "batchStopped": true } },
+    "ingestion": { "status": "pending", "attempts": 0, "startedAt": null, "completedAt": null, "details": { "reason": "Researcher 未选出合格同源完整来源，未执行写入。" } },
+    "edit": { "status": "pending", "attempts": 0, "startedAt": null, "completedAt": null, "details": { "reason": "研究失败，宫保鸡丁正文与图片均未修改。" } },
+    "validator": { "status": "pending", "attempts": 0, "startedAt": null, "completedAt": null, "details": {} },
+    "review": { "status": "pending", "attempts": 0, "startedAt": null, "completedAt": null, "details": {} },
+    "build": { "status": "pending", "attempts": 0, "startedAt": null, "completedAt": null, "details": {} },
+    "gitPush": { "status": "pending", "attempts": 0, "startedAt": null, "completedAt": null, "details": {} }
+  },
+  "sources": [
+    { "name": "The Woks of Life", "url": "https://thewoksoflife.com/kung-pao-chicken/", "status": "failed", "failureReason": "缺少当前第3步调碗汁图片，仅覆盖6/7步骤。" },
+    { "name": "豆果美食", "url": "https://www.douguo.com/cookbook/3047016.html", "status": "failed", "failureReason": "第6步源文字为空且原料表漏列干辣椒、食用油、白胡椒粉、水淀粉，不能整份切换。" }
+  ],
+  "errors": [
+    { "step": "research", "code": "NO_COMPLETE_SAME_SOURCE_IMAGE_SET", "message": "A缺1/7步骤图；B虽有15步图和成品图，但正文存在空白步骤且原料表不完整。", "at": "2026-09-11T23:02:27.5321133+08:00" }
+  ],
+  "branch": "codex/recipe-automation",
+  "commit": null
+}
