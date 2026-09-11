@@ -17,7 +17,7 @@ for (const [recipeId, slug, runId, expectedSourceTypes] of artifacts) {
   const evidence = JSON.parse(evidenceRaw);
   const review = JSON.parse(await readFile(new URL(`../../workflow/reviews/${slug}.json`, import.meta.url), "utf8"));
   const run = JSON.parse(await readFile(new URL(`../../workflow/runs/${runId}.json`, import.meta.url), "utf8"));
-  const hash = createHash("sha256").update(evidenceRaw).digest("hex");
+  const hash = createHash("sha256").update(evidenceRaw.replace(/\r\n/gu, "\n")).digest("hex");
 
   assert.equal(evidence.recipeId, recipeId);
   assert(evidence.sources.length >= 1);

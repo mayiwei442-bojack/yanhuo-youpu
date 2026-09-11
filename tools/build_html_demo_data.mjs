@@ -97,6 +97,24 @@ function estimateTime(text, steps) {
 function buildRecipe(recipe, index, type) {
   const ingredients = parseIngredients(recipe.ingredients);
   const steps = splitSteps(recipe.steps);
+  const media = recipe.media || null;
+  if (media) {
+    if (media.recipePageUrl !== recipe.source) {
+      throw new Error(`${recipe.name} 的媒体菜谱 URL 与正文信源不一致`);
+    }
+    if (!media.hero?.url) throw new Error(`${recipe.name} 缺少同源成品图`);
+    if (!Array.isArray(media.steps) || media.steps.length !== steps.length) {
+      throw new Error(`${recipe.name} 的步骤图数量与公开步骤数量不一致`);
+    }
+    for (const [stepIndex, step] of steps.entries()) {
+      const mapped = media.steps[stepIndex];
+      if (mapped.stepOrder !== stepIndex + 1 || !mapped.url) {
+        throw new Error(`${recipe.name} 第 ${stepIndex + 1} 步缺少按顺序映射的同源图片`);
+      }
+      step.image = mapped.url;
+      step.imageSource = media.recipePageUrl;
+    }
+  }
   const combined = `${recipe.ingredients} ${recipe.steps}`;
   const core = ingredients.filter((item) => !BASIC_INGREDIENT.test(item.name)).slice(0, 3);
   const coreIds = new Set(core.map((item) => item.id));
@@ -123,9 +141,21 @@ function buildRecipe(recipe, index, type) {
     heritageStatus: isHeritageFlavor ? "pending-verification" : null,
     ingredients,
     steps,
-    imageThumb: `assets/dishes/thumbnails/${recipe.img.replace(/\.png$/u, ".jpg")}`,
-    imageFull: `assets/dishes/ai/${recipe.img}`,
+    imageThumb: media?.hero?.url || `assets/dishes/thumbnails/${recipe.img.replace(/\.png$/u, ".jpg")}`,
+    imageFull: media?.hero?.url || `assets/dishes/ai/${recipe.img}`,
     source: recipe.source,
+    ...(media
+      ? {
+          media: {
+            sourceName: media.sourceName,
+            recipePageUrl: media.recipePageUrl,
+            mediaPageUrl: media.mediaPageUrl,
+            author: media.author || null,
+            rightsNotice: media.rightsNotice || null,
+            reuseLicense: media.reuseLicense || null
+          }
+        }
+      : {}),
     time,
     difficulty,
     defaultServings: /整鸡|600克|700克|800克/u.test(recipe.ingredients) ? 4 : 2,

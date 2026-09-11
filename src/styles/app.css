@@ -1553,6 +1553,45 @@ img {
   line-height: 1.6;
 }
 
+.step-image-link,
+.cook-step-image-link {
+  display: block;
+  overflow: hidden;
+  border-radius: 12px;
+  background: var(--paper);
+}
+
+.step-image-link {
+  margin-bottom: 10px;
+}
+
+.step-preview-image,
+.cook-step-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.image-attribution {
+  display: inline-block;
+  margin-top: 8px;
+  color: var(--muted);
+  font: 9px/1.4 var(--mono);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.hero-attribution {
+  display: block;
+  margin: 0;
+  padding: 8px 16px;
+  color: var(--muted);
+  background: var(--paper-light);
+  text-align: right;
+}
+
 .step-meta {
   display: flex;
   gap: 8px;
@@ -1764,6 +1803,14 @@ body.cooking-mode .app-shell {
   color: var(--cinnabar);
   font: 700 56px/0.8 var(--mono);
   letter-spacing: -0.11em;
+}
+
+.cook-step-image-link {
+  margin-top: 20px;
+}
+
+.cook-card > .image-attribution {
+  margin-top: 7px;
 }
 
 .cook-card h1 {

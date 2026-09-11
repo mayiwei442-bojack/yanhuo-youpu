@@ -3,11 +3,31 @@ const CN_HOME = "https://thewoksoflife.com/";
 const WEST_SOURCE = "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2";
 const WEST_ESSENTIAL = "https://www.bbcgoodfood.com/howto/guide/21-essential-recipes-to-learn-for-life";
 
-const c = (name, en, region, ingredients, steps, img = "", source = CN_SOURCE) => ({ name, en, region, ingredients, steps, img, source });
-const w = (name, en, region, ingredients, steps, img = "", source = WEST_SOURCE) => ({ name, en, region, ingredients, steps, img, source });
+const c = (name, en, region, ingredients, steps, img = "", source = CN_SOURCE, media = null) => ({ name, en, region, ingredients, steps, img, source, ...(media ? { media } : {}) });
+const w = (name, en, region, ingredients, steps, img = "", source = WEST_SOURCE, media = null) => ({ name, en, region, ingredients, steps, img, source, ...(media ? { media } : {}) });
 
 export const chinese = [
-  c("番茄炒蛋", "Tomato and Egg Stir-fry", "家常菜", "鸡蛋3个；中等大小番茄2个；盐1克；糖2克；食用油适量", "1）准备鸡蛋3个、中等大小番茄2个、盐1克、糖2克和适量食用油。2）鸡蛋去壳后充分打散，番茄切成小块备用。3）锅中倒入适量食用油，油热后倒入蛋液。4）待鸡蛋稍稍凝固，将鸡蛋推到锅的一边，放入番茄块，翻炒均匀。5）加入2克糖，翻炒均匀后以大火收汁。6）关火，加入1克盐翻炒均匀，装盘。", "01-fanqie-chaodan.png"),
+  c("番茄炒蛋", "Tomato and Egg Stir-fry", "家常菜", "鸡蛋3个；中等大小番茄2个；盐1克；糖2克；食用油适量", "1）准备鸡蛋3个、中等大小番茄2个、盐1克、糖2克和适量食用油。2）鸡蛋去壳后充分打散，番茄切成小块备用。3）锅中倒入适量食用油，油热后倒入蛋液。4）待鸡蛋稍稍凝固，将鸡蛋推到锅的一边，放入番茄块，翻炒均匀。5）加入2克糖，翻炒均匀后以大火收汁。6）关火，加入1克盐翻炒均匀，装盘。", "01-fanqie-chaodan.png", "https://www.douguo.com/cookbook/1192179.html", {
+    sourceName: "豆果美食",
+    recipePageUrl: "https://www.douguo.com/cookbook/1192179.html",
+    mediaPageUrl: "https://m.douguo.com/recipe/imgs/1192179",
+    author: "乐悠厨房",
+    rightsNotice: "©本菜谱的做法由 乐悠厨房 编写，未经授权不得转载",
+    reuseLicense: null,
+    hero: {
+      url: "https://cp1.douguo.com/upload/caiku/4/c/1/600_4c8a34f6246664ad31d9be666c411551.jpg",
+      httpStatus: 200,
+      contentType: "image/jpeg"
+    },
+    steps: [
+      { stepOrder: 1, url: "https://cp1.douguo.com/upload/caiku/d/1/5/600_d16ec4970939a44dc91b596784fa7145.jpg", httpStatus: 200, contentType: "image/jpeg" },
+      { stepOrder: 2, url: "https://cp1.douguo.com/upload/caiku/d/8/3/600_d8717ab7eb3ec403854a22f03ea79753.jpg", httpStatus: 200, contentType: "image/jpeg" },
+      { stepOrder: 3, url: "https://cp1.douguo.com/upload/caiku/f/6/1/600_f64de097ff0782fc2bd339ccead67341.jpg", httpStatus: 200, contentType: "image/jpeg" },
+      { stepOrder: 4, url: "https://cp1.douguo.com/upload/caiku/b/2/b/600_b258732cc6e830a7448cdec7baac38fb.jpg", httpStatus: 200, contentType: "image/jpeg" },
+      { stepOrder: 5, url: "https://cp1.douguo.com/upload/caiku/4/f/b/600_4f644799eed12ebf23400f2b6e6bc6fb.jpg", httpStatus: 200, contentType: "image/jpeg" },
+      { stepOrder: 6, url: "https://cp1.douguo.com/upload/caiku/3/e/2/600_3e57816522f39809b1903083c1baddb2.jpg", httpStatus: 200, contentType: "image/jpeg" }
+    ]
+  }),
   c("宫保鸡丁", "Kung Pao Chicken", "川菜", "生花生米适量；鸡胸肉约340克，切约2厘米丁；食用油适量（分次用于炒花生、腌鸡、煎鸡和炒香料）；腌料：玉米淀粉1茶匙、绍兴酒1茶匙、盐1/8茶匙、白胡椒粉1撮；碗汁：生抽1汤匙、老抽1/2茶匙、米醋1汤匙、白糖1茶匙、清水3汤匙、玉米淀粉1茶匙；大蒜3瓣；姜2薄片；干红辣椒2个；花椒粉1/2茶匙；葱白6根，切约2厘米段", "1）炒锅以中火烧热，加入适量食用油，再放入适量生花生米，不断翻炒3分钟防止焦煳；关火后利用余温继续翻炒1分钟，盛出彻底放凉，花生会在冷却后变酥。2）将约340克鸡胸肉切成约2厘米丁，加入适量食用油、1茶匙玉米淀粉、1茶匙绍兴酒、1/8茶匙盐和1撮白胡椒粉，拌匀后腌20分钟。3）将1汤匙生抽、1/2茶匙老抽、1汤匙米醋、1茶匙白糖、3汤匙清水和1茶匙玉米淀粉依次放入碗中，充分搅匀备用。4）炒锅以高火烧热，另加入适量食用油，下腌好的鸡丁煎至表面上色，盛出备用。5）转小火，再另加适量食用油，依次放入切片的大蒜、切末的姜、干红辣椒、花椒粉和切成约2厘米段的葱白，翻炒1—2分钟至出香。6）倒回鸡丁，转高火翻炒1分钟；再次搅匀碗汁，使沉底的淀粉重新混合后倒入锅中，再高火翻炒1分钟，至酱汁迅速变稠并均匀裹住鸡丁。7）加入完全放凉的花生米，快速翻匀后立即出锅。", "02-gongbao-jiding.png"),
   c("麻婆豆腐", "Mapo Tofu", "川菜", "豆腐400克；牛肉末100克；酱油10克；郫县豆瓣酱30克；白糖10克；豆豉10克；料酒15克；盐适量；骨汤300克；青蒜1棵；生姜1小块；大蒜1个；花椒5克；淀粉适量；干辣椒2个；食用油40克", "1）青蒜、生姜、大蒜和干辣椒切细末；花椒放锅中小火炒香，冷却后压成花椒末；豆豉和豆瓣酱剁碎。豆腐切成约2厘米方块，放入加少许盐的沸水中汆一下，捞出浸入白开水。2）炒锅烧热，下牛肉末小火干炒至松散起酥，盛出；锅中再放食用油，依次加入豆瓣酱、豆豉、姜末、蒜末和辣椒末炒香。3）倒入骨汤煮沸，加酱油、白糖并按咸度放盐；加入沥水豆腐和料酒，大火烧开后转小火煮2分钟，豆腐入锅后少搅动。用湿淀粉勾一次薄芡，放回牛肉末再烧2分钟，然后再勾一次薄芡。4）装碗后撒花椒末和青蒜末。", "03-mapo-doufu.png"),
   c("鱼香肉丝", "Fish-fragrant Shredded Pork", "川菜", "猪肉约227克；腌料：食用油适量、绍兴酒1茶匙、生抽2茶匙、白胡椒粉1/4茶匙、玉米淀粉1茶匙、清水1又1/2汤匙；鱼香汁：米醋1又1/2汤匙、白糖1又1/2汤匙、生抽1汤匙、绍兴酒1/2汤匙、清水适量、玉米淀粉1又1/2汤匙；炒制用食用油适量（分次使用）；辣豆瓣酱1汤匙；姜末2茶匙；蒜末2茶匙；干辣椒适量；泡发木耳丝适量；莴笋约227克；葱1根；防干用清水少量", "1）将约227克猪肉切丝，依次加入适量食用油、1茶匙绍兴酒、2茶匙生抽、1/4茶匙白胡椒粉、1茶匙玉米淀粉和1又1/2汤匙清水，拌匀后腌20分钟。其间将约227克莴笋去皮切丝、泡发木耳切丝、葱切末，并备好姜末、蒜末和干辣椒。2）将1又1/2汤匙米醋、1又1/2汤匙白糖、1汤匙生抽、1/2汤匙绍兴酒、适量清水和1又1/2汤匙玉米淀粉依次放入碗中，充分搅匀成鱼香汁。3）将干净炒锅预热至微微冒烟，转高火，先加入适量食用油，再下腌好的猪肉丝炒至不透明；关火，盛出备用。4）检查炒锅；若有残渣则洗净并擦干。开中火，另加入适量食用油和1汤匙辣豆瓣酱，轻轻翻炒约1分钟至油变红，必要时调低火力以免炒焦。5）依次加入2茶匙姜末、2茶匙蒜末和适量干辣椒，翻炒约15秒；放入适量木耳丝，转高火炒30秒，若锅中太干可滴入少量清水。6）若加了防干水，待锅中液体开始冒泡；将鱼香汁再次搅匀，使沉底淀粉重新混合，再与莴笋丝、葱末和炒过的猪肉丝一同下锅，快速翻炒均匀后出锅。", "04-yuxiang-rousi.png"),

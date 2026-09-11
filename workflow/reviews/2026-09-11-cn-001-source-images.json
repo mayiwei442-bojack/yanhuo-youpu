@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "确定性校验已通过。cn-001 正文、原料和六步做法均保持豆果美食 1192179 的同一完整变体；成品图存在，每个公开步骤均恰好对应一张同菜谱图片，顺序及语义映射一致。media.recipePageUrl 与正文 source 完全相同，未发现 Woks 图文残留、跨信源混用或本地图片复制，生成数据结构有效。",
+  "evidencePackageHash": "5ac869efd93fa8f0c1d01e1c0c214b05ba7b2292b193a804a92515263b5bef6e",
+  "validatorPassed": true
+}

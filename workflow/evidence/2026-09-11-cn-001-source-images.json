@@ -1,0 +1,66 @@
+{
+  "recipeId": "cn-001",
+  "recipeName": "番茄炒蛋",
+  "category": "chinese",
+  "createdAt": "2026-09-11T22:42:45.7335897+08:00",
+  "sourceMode": "single_source",
+  "singleSourceReason": "本次任务只允许采用一套与完整正文相同的图片信源；当前正文完整采用豆果美食菜谱 1192179，且该菜谱提供可逐步对应的完整图片组，无需混用第二信源。",
+  "sources": [
+    {
+      "sourceName": "豆果美食",
+      "sourceType": "website",
+      "url": "https://www.douguo.com/cookbook/1192179.html",
+      "documentId": "4f32f250-6501-423c-a75a-fd9c463b7948",
+      "retrievalMethod": "既有 Supabase RAG 正文 + 同站公开移动图片页 HTML；未绕过桌面正文 HTTP 403",
+      "complete": true,
+      "ingredients": [
+        { "name": "鸡蛋", "amount": "三个", "raw": "鸡蛋 三个" },
+        { "name": "西红柿", "amount": "2个", "raw": "西红柿 2个" },
+        { "name": "盐", "amount": "1克", "raw": "盐1克（步骤原文明确）" },
+        { "name": "糖", "amount": "2克", "raw": "糖2克（步骤原文明确）" },
+        { "name": "食用油", "amount": "适量", "raw": "食用油适量（步骤原文明确）" }
+      ],
+      "steps": [
+        { "order": 1, "instruction": "准备食材。鸡蛋三个、中等大小西红柿两个。盐1克、糖2克、食用油适量。", "duration": null, "heat": null },
+        { "order": 2, "instruction": "将鸡蛋去皮打散、西红柿切小块备用。", "duration": null, "heat": null },
+        { "order": 3, "instruction": "锅中倒入适量底油，油热之后，倒入蛋液。", "duration": null, "heat": null },
+        { "order": 4, "instruction": "待鸡蛋稍稍凝固后，把鸡蛋推到一边。然后放到西红柿，煸炒匀均。", "duration": null, "heat": null },
+        { "order": 5, "instruction": "往锅里加少许糖煸炒匀均，然后大火收汁。", "duration": null, "heat": "大火" },
+        { "order": 6, "instruction": "最后关火，放盐翻炒匀均即可装盘。", "duration": null, "heat": "关火" }
+      ],
+      "technique": [
+        "鸡蛋稍稍凝固后推到锅边，不盛出。",
+        "加糖后大火收汁，最后关火放盐。"
+      ],
+      "tips": [],
+      "rawExcerpt": "鸡蛋三个；中等大小西红柿两个；盐1克；糖2克；食用油适量。六步做法与图片页相邻步骤文字逐项一致。",
+      "media": {
+        "recipePageUrl": "https://www.douguo.com/cookbook/1192179.html",
+        "mediaPageUrl": "https://m.douguo.com/recipe/imgs/1192179",
+        "sourceName": "豆果美食",
+        "author": "乐悠厨房",
+        "rightsNotice": "©本菜谱的做法由 乐悠厨房 编写，未经授权不得转载",
+        "reuseLicense": null,
+        "hero": {
+          "url": "https://cp1.douguo.com/upload/caiku/4/c/1/600_4c8a34f6246664ad31d9be666c411551.jpg",
+          "httpStatus": 200,
+          "contentType": "image/jpeg"
+        },
+        "steps": [
+          { "stepOrder": 1, "adjacentText": "准备食材。鸡蛋三个、中等大小西红柿两个。盐1克、糖2克、食用油适量。", "url": "https://cp1.douguo.com/upload/caiku/d/1/5/600_d16ec4970939a44dc91b596784fa7145.jpg", "httpStatus": 200, "contentType": "image/jpeg" },
+          { "stepOrder": 2, "adjacentText": "将鸡蛋去皮打散、西红柿切小块备用。", "url": "https://cp1.douguo.com/upload/caiku/d/8/3/600_d8717ab7eb3ec403854a22f03ea79753.jpg", "httpStatus": 200, "contentType": "image/jpeg" },
+          { "stepOrder": 3, "adjacentText": "锅中倒入适量底油，油热之后，倒入蛋液。", "url": "https://cp1.douguo.com/upload/caiku/f/6/1/600_f64de097ff0782fc2bd339ccead67341.jpg", "httpStatus": 200, "contentType": "image/jpeg" },
+          { "stepOrder": 4, "adjacentText": "待鸡蛋稍稍凝固后，把鸡蛋推到一边。然后放到西红柿，煸炒匀均。", "url": "https://cp1.douguo.com/upload/caiku/b/2/b/600_b258732cc6e830a7448cdec7baac38fb.jpg", "httpStatus": 200, "contentType": "image/jpeg" },
+          { "stepOrder": 5, "adjacentText": "往锅里加少许糖煸炒匀均，然后大火收汁。", "url": "https://cp1.douguo.com/upload/caiku/4/f/b/600_4f644799eed12ebf23400f2b6e6bc6fb.jpg", "httpStatus": 200, "contentType": "image/jpeg" },
+          { "stepOrder": 6, "adjacentText": "最后关火，放盐翻炒匀均即可装盘。", "url": "https://cp1.douguo.com/upload/caiku/3/e/2/600_3e57816522f39809b1903083c1baddb2.jpg", "httpStatus": 200, "contentType": "image/jpeg" }
+        ]
+      }
+    }
+  ],
+  "ragEvidence": [],
+  "notes": [
+    "当前 tools/recipe_data.mjs 正文与豆果美食 1192179 的完整变体一致；原 source 字段为陈旧栏目 URL，不代表正文主信源。",
+    "公开移动图片页按同一菜谱顺序提供六张带相邻步骤文字的图片和一张末尾成品图；七张均经 HTTP 与逐张视觉核验。",
+    "页面未发现允许图片再使用的许可，并明确显示未经授权不得转载；实现只保存原始外链与归属信息，不复制图片文件到仓库。"
+  ]
+}

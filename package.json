@@ -22,7 +22,8 @@
     "test:workflow:agents": "node tools/workflow/test-agent-contracts.mjs",
     "test:workflow:artifacts": "node tools/workflow/validate-workflow-artifacts.mjs",
     "test:workflow:validator": "node tools/workflow/test-recipe-validator.mjs",
-    "test:workflow:deterministic": "npm run test:workflow:state && npm run test:rag:repositories && npm run test:rag:ingestion && npm run test:rag:resource && npm run test:rag:epub && npm run test:workflow:agents && npm run test:workflow:validator && npm run test:workflow:artifacts && node tools/build_html_demo_data.mjs && npm test && npm run build",
+    "test:workflow:source-images": "node tools/workflow/test-source-images.mjs",
+    "test:workflow:deterministic": "npm run test:workflow:state && npm run test:rag:repositories && npm run test:rag:ingestion && npm run test:rag:resource && npm run test:rag:epub && npm run test:workflow:agents && npm run test:workflow:validator && npm run test:workflow:source-images && npm run test:workflow:artifacts && node tools/build_html_demo_data.mjs && npm test && npm run build",
     "test:workflow:state": "node tools/workflow/generate-recipe-progress.mjs --check && node tools/workflow/validate-run-state.mjs",
     "test:vercel": "npm run build && node tools/test_vercel_functions.mjs",
     "test:all": "npm run test && npm run test:ai && npm run test:vercel"

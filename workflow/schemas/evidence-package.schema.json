@@ -93,6 +93,48 @@
         "pageStart": { "type": ["integer", "null"], "minimum": 1 },
         "pageEnd": { "type": ["integer", "null"], "minimum": 1 },
         "location": { "type": ["string", "null"] }
+        ,"media": { "$ref": "#/$defs/sourceMedia" }
+      }
+    },
+    "sourceMedia": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["recipePageUrl", "mediaPageUrl", "sourceName", "author", "rightsNotice", "reuseLicense", "hero", "steps"],
+      "properties": {
+        "recipePageUrl": { "type": "string", "format": "uri" },
+        "mediaPageUrl": { "type": "string", "format": "uri" },
+        "sourceName": { "type": "string", "minLength": 1 },
+        "author": { "type": ["string", "null"] },
+        "rightsNotice": { "type": ["string", "null"] },
+        "reuseLicense": { "type": ["string", "null"] },
+        "hero": { "$ref": "#/$defs/mediaItem" },
+        "steps": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "allOf": [
+              { "$ref": "#/$defs/mediaItem" },
+              {
+                "type": "object",
+                "required": ["stepOrder", "adjacentText"],
+                "properties": {
+                  "stepOrder": { "type": "integer", "minimum": 1 },
+                  "adjacentText": { "type": "string", "minLength": 1 }
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "mediaItem": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": ["url", "httpStatus", "contentType"],
+      "properties": {
+        "url": { "type": "string", "format": "uri" },
+        "httpStatus": { "const": 200 },
+        "contentType": { "type": "string", "pattern": "^image/" }
       }
     }
   }
