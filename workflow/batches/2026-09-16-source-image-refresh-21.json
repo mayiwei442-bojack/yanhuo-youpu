@@ -20,7 +20,7 @@
   "recipes": [
     { "id": "cn-001", "name": "番茄炒蛋", "status": "in_progress", "reason": "Migrating previously verified images from remote runtime URLs to repository-local assets." },
     { "id": "cn-002", "name": "宫保鸡丁", "status": "failed", "reason": "两次 Editor 返工后 Reviewer 仍检出未指定油种被补充为‘植物油’；按规则已恢复为本批次前状态，不发布。" },
-    { "id": "cn-003", "name": "麻婆豆腐", "status": "in_progress", "reason": "Reviewer PASS and deterministic suite PASS; awaiting commit and push." },
+    { "id": "cn-003", "name": "麻婆豆腐", "status": "done", "reason": "The Woks of Life 单一完整信源；Reviewer PASS，确定性测试 PASS，已提交并推送 a08f9f4。" },
     { "id": "cn-004", "name": "鱼香肉丝", "status": "pending", "reason": null },
     { "id": "cn-005", "name": "青椒肉丝", "status": "pending", "reason": null },
     { "id": "cn-006", "name": "红烧肉", "status": "pending", "reason": null },
