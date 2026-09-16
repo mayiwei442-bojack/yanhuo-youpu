@@ -1,0 +1,512 @@
+{
+  "recipeId": "cn-009",
+  "recipeName": "清蒸鲈鱼",
+  "category": "chinese",
+  "createdAt": "2026-09-16T15:30:00+08:00",
+  "sources": [
+    {
+      "sourceName": "The Woks of Life",
+      "sourceType": "website",
+      "url": "https://thewoksoflife.com/steamed-whole-fish/",
+      "documentId": "107eaa09-6452-403c-9bf4-70357d4691bc",
+      "retrievalMethod": "Public site search + Recipe JSON-LD + complete HTML body cross-check",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "whole striped bass or sea bass",
+          "amount": "1 whole fish (about 1 ½ lbs/680g)",
+          "raw": "1 whole striped bass or sea bass (about 1 ½ lbs/680g, cleaned; see instructions)"
+        },
+        {
+          "name": "fresh ginger",
+          "amount": "3 tablespoons",
+          "raw": "3 tablespoons fresh ginger (finely julienned)"
+        },
+        {
+          "name": "scallions",
+          "amount": "2",
+          "raw": "2 scallions (finely julienned with green and white parts separated)"
+        },
+        {
+          "name": "fresh cilantro",
+          "amount": "8 sprigs",
+          "raw": "8 sprigs fresh cilantro (roughly chopped)"
+        },
+        {
+          "name": "canola oil (divided)",
+          "amount": "¼ cup plus 2 tablespoons",
+          "raw": "¼ cup canola oil (plus 2 tablespoons)"
+        },
+        {
+          "name": "water (sauce)",
+          "amount": "¼ cup",
+          "raw": "¼ cup water"
+        },
+        {
+          "name": "salt",
+          "amount": "¼ teaspoon",
+          "raw": "¼ teaspoon salt"
+        },
+        {
+          "name": "sugar",
+          "amount": "¾ teaspoon",
+          "raw": "¾ teaspoon sugar"
+        },
+        {
+          "name": "light soy sauce",
+          "amount": "¼ cup",
+          "raw": "¼ cup light soy sauce (or seasoned soy sauce)"
+        },
+        {
+          "name": "freshly ground white pepper",
+          "amount": "to taste",
+          "raw": "Fresh ground white pepper to taste"
+        },
+        {
+          "name": "water in the wok for steaming",
+          "amount": null,
+          "raw": "water in the wok"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Remove any remaining scales with a serrated steak knife, checking the belly, edges, top near the dorsal fins, and head. Cut off the tough fins carefully with kitchen shears, leaving the tail and head intact for presentation.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "Inspect the cavity at the backbone; pierce and cut any membrane to expose the blood line, then clean it thoroughly with a finger or spoon. Check that the gills are gone; remove any remaining gills with kitchen shears and rinse the area clean.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "Give the fish a final rinse, shake off excess water without patting it dry, and put it on a heat-proof plate. Do not put salt, seasoning, or wine on the fresh fish before steaming.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "Set the elongated heat-proof plate on a metal steam rack in a wok, keeping the plate above the water. If more height is needed, the source places the rack on a metal can with both ends removed.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 5,
+          "instruction": "Steam for 9 minutes, then turn off the heat. Check the meat with a butter knife: it should be opaque down to the bone, while the bone itself remains slightly translucent.",
+          "duration": "9 minutes",
+          "heat": null
+        },
+        {
+          "order": 6,
+          "instruction": "Carefully pour off all liquid accumulated on the plate. Spread half of the ginger, the green portions of the scallions, and the cilantro over the fish.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 7,
+          "instruction": "Mix the ¼ cup water, ¼ teaspoon salt, ¾ teaspoon sugar, ¼ cup light soy sauce (or seasoned soy sauce), and freshly ground white pepper in a small bowl or measuring cup.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 8,
+          "instruction": "Heat the extra 2 tablespoons canola oil with the other half of the ginger in a saucepan until the ginger begins to sizzle. Add the sauce mixture and heat until simmering.",
+          "duration": "until ginger sizzles and sauce simmers",
+          "heat": null
+        },
+        {
+          "order": 9,
+          "instruction": "Once simmering, add the remaining ¼ cup canola oil and the white portions of the scallions; stir until the liquid simmers and sizzles again. Spoon the entire mixture evenly over the fish and serve hot.",
+          "duration": "until simmering and sizzling again",
+          "heat": null
+        }
+      ],
+      "technique": [
+        "Prep: 20 mins",
+        "Cook: 15 mins",
+        "Total: 35 mins",
+        "Steam the roughly 1½ lb/680g whole fish for 9 minutes, then turn off the heat.",
+        "Doneness: meat opaque down to the bone; bone slightly translucent.",
+        "Sauce: ginger first sizzles in the extra 2 tablespoons oil; sauce is brought to a simmer before the remaining ¼ cup oil and scallion whites are added."
+      ],
+      "tips": [
+        "Cook a fresh whole fish as soon as possible after bringing it home.",
+        "The page recommends whole fish in the 1 to 2 pound range; sea bass is explicitly listed as a common steaming fish.",
+        "Prepare this as the last dish so it can be served immediately.",
+        "Use caution when cutting the tough fins with kitchen shears."
+      ],
+      "rawExcerpt": "The selected whole-fish recipe explicitly allows sea bass, gives a source metric weight of about 680g, preserves a 9-minute steam and visual doneness cue, and divides the canola oil as 2 tablespoons first plus the remaining ¼ cup.",
+      "bookTitle": null,
+      "pageStart": null,
+      "pageEnd": null,
+      "location": null,
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 1,
+        "mappedStepImages": 5,
+        "stepImageCoverage": 0.5555555555555556,
+        "ingredientCount": 11,
+        "executableStepCount": 9,
+        "notes": [
+          "整鱼和海鲈鱼名称匹配；步骤更细，但步骤图片覆盖率较低。"
+        ]
+      }
+    },
+    {
+      "sourceName": "豆果美食",
+      "sourceType": "website",
+      "url": "https://www.douguo.com/cookbook/1426656.html",
+      "documentId": "e7817d54-783f-4025-bfab-01214d2b7324",
+      "retrievalMethod": "Public mobile site search + complete desktop HTML body",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "鲈鱼（日本真鲈、花鲈）",
+          "amount": "750g",
+          "raw": "鲈鱼（日本真鲈、花鲈） 750g"
+        },
+        {
+          "name": "小米辣",
+          "amount": "2个",
+          "raw": "小米辣 2个"
+        },
+        {
+          "name": "葱（绿色部分）",
+          "amount": "30g",
+          "raw": "葱（绿色部分） 30g"
+        },
+        {
+          "name": "姜",
+          "amount": "10g",
+          "raw": "姜 10g"
+        },
+        {
+          "name": "料酒",
+          "amount": "2汤匙",
+          "raw": "料酒 2汤匙"
+        },
+        {
+          "name": "盐",
+          "amount": "2调味匙",
+          "raw": "盐 2调味匙"
+        },
+        {
+          "name": "生抽",
+          "amount": "3调味匙",
+          "raw": "生抽 3调味匙"
+        },
+        {
+          "name": "糖",
+          "amount": "0.5调味匙",
+          "raw": "糖 0.5调味匙"
+        },
+        {
+          "name": "香油",
+          "amount": "少许",
+          "raw": "香油 少许"
+        },
+        {
+          "name": "食用油",
+          "amount": "30g",
+          "raw": "食用油 30g"
+        },
+        {
+          "name": "纯净水",
+          "amount": "2汤匙",
+          "raw": "纯净水 2汤匙"
+        },
+        {
+          "name": "冰水（浸泡葱丝）",
+          "amount": null,
+          "raw": "冰水（原文步骤使用，未列用量）"
+        },
+        {
+          "name": "蒸锅用水",
+          "amount": null,
+          "raw": "水开后（蒸锅用水，原文未列用量）"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "鲈鱼去鳞去内脏清洗干净，在背部2边各划一刀。淋上料酒，抹点盐腌制30分钟",
+          "duration": "30分钟",
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "葱洗净切细长丝泡冰水中，姜一半切丝，一般切片，小米辣切圈",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "盘子里放几片姜",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "放上腌制好的鲈鱼，鱼腹中放几片姜，表面放葱丝和姜丝",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 5,
+          "instruction": "水开后，蒸8分钟左右",
+          "duration": "8分钟",
+          "heat": null
+        },
+        {
+          "order": 6,
+          "instruction": "蒸制的过程中配个碗汁，生抽、糖、香油，纯净水混合均匀",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 7,
+          "instruction": "鱼蒸好后取出，倒掉蒸出的水，拿掉葱姜丝，重新放上葱姜丝，小米辣",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 8,
+          "instruction": "淋上料汁，油锅烧热至冒烟，热油浇到鱼身上即可",
+          "duration": null,
+          "heat": "油烧热至冒烟"
+        }
+      ],
+      "technique": [
+        "鲈鱼抹料酒和盐腌制30分钟",
+        "水开后蒸8分钟左右",
+        "蒸制时间根据鱼的大小调整，建议不超过10分钟",
+        "食用油烧热至冒烟后浇在鱼身上"
+      ],
+      "tips": [
+        "蒸的时间根据鱼的大小决定，蒸的时间太久鱼肉口感会太老，建议不超过10分钟。水开后再蒸鱼，更能保持鱼的鲜美！"
+      ],
+      "rawExcerpt": "页面标题为“清蒸鲈鱼”，原料表明确列出750g鲈鱼、2汤匙料酒、各种调味匙用量、30g食用油和2汤匙纯净水；正文还使用了未量化的冰水和蒸锅水。",
+      "bookTitle": null,
+      "pageStart": null,
+      "pageEnd": null,
+      "location": null,
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 4,
+        "mappedStepImages": 8,
+        "stepImageCoverage": 1,
+        "ingredientCount": 13,
+        "executableStepCount": 8,
+        "notes": [
+          "名称精确匹配，8个步骤全部有同页同作者图片。"
+        ]
+      },
+      "media": {
+        "recipePageUrl": "https://www.douguo.com/cookbook/1426656.html",
+        "mediaPageUrl": "https://www.douguo.com/cookbook/1426656.html",
+        "sourceName": "豆果美食",
+        "author": "mature11",
+        "rightsNotice": "页面署名 mature11；图片归原作者/豆果页面发布者所有。",
+        "reuseLicense": null,
+        "repositoryCopyAuthorized": true,
+        "hero": {
+          "originalUrl": "https://cp1.douguo.com/upload/caiku/3/2/c/800_32c3b877bb10a1b9140298274e8dd2bc.jpeg",
+          "repositoryPath": "assets/dishes/sources/cn-009-steamed-sea-bass/hero.jpeg",
+          "sha256": "76c879cebad8a411b50fea636bbed5dd372c89bdac0521ae1d20a23fabe60938",
+          "httpStatus": 200,
+          "contentType": "image/jpeg"
+        },
+        "steps": [
+          {
+            "stepOrder": 1,
+            "adjacentText": "鲈鱼处理后加料酒和盐腌制30分钟。",
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/c/e/7/800_cee257b8f8be7a99fed2016e16b48897.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-009-steamed-sea-bass/step-01.jpg",
+            "sha256": "be7ff6eee06b22a82d394bc4a59593c12e2d70e7de1de3a32a72d25b0b476137",
+            "httpStatus": 200,
+            "contentType": "image/jpeg"
+          },
+          {
+            "stepOrder": 2,
+            "adjacentText": "葱切丝泡冰水，姜和小米辣改刀。",
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/6/2/7/800_62edfeb94d070f6d8762a5ad1022a807.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-009-steamed-sea-bass/step-02.jpg",
+            "sha256": "ae1136f1d306c4e2a337c3ba26a7e7d181e18b7dd9a125f0de63994f77fb5e10",
+            "httpStatus": 200,
+            "contentType": "image/jpeg"
+          },
+          {
+            "stepOrder": 3,
+            "adjacentText": "盘子里放几片姜。",
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/2/3/a/800_23fd7567bafe3734c7dbca6123a71dfa.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-009-steamed-sea-bass/step-03.jpg",
+            "sha256": "7a4a3807de3c3ea67d458ff1d176abe18f39afc11a25b7a0284ac6b937415648",
+            "httpStatus": 200,
+            "contentType": "image/jpeg"
+          },
+          {
+            "stepOrder": 4,
+            "adjacentText": "放上鲈鱼，鱼腹和表面放葱姜。",
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/1/a/4/800_1af458ac86a055f13b0c61f06e094434.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-009-steamed-sea-bass/step-04.jpg",
+            "sha256": "8b02046cdc433544a2048229278c8dc7f320be300dbdc3892a457d03f0637f4e",
+            "httpStatus": 200,
+            "contentType": "image/jpeg"
+          },
+          {
+            "stepOrder": 5,
+            "adjacentText": "水开后蒸8分钟左右。",
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/0/b/7/800_0bf2dd4a5fbe3d47b91f750d292c7fe7.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-009-steamed-sea-bass/step-05.jpg",
+            "sha256": "6fb762bda07cccbc7c31ba9b52ca028d4020c8701277d033a6b9a71f1b293689",
+            "httpStatus": 200,
+            "contentType": "image/jpeg"
+          },
+          {
+            "stepOrder": 6,
+            "adjacentText": "生抽、糖、香油和纯净水调汁。",
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/1/6/e/800_16206d901e23138476f05358e3e8889e.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-009-steamed-sea-bass/step-06.jpg",
+            "sha256": "fa9c95b112e394e91c28fc3d3530403754ba19a3ba5923297bd727b048228972",
+            "httpStatus": 200,
+            "contentType": "image/jpeg"
+          },
+          {
+            "stepOrder": 7,
+            "adjacentText": "倒掉蒸鱼水，重新放葱姜丝和小米辣。",
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/1/7/c/800_178dc8fd4047d32a02dbc76850cdb7ac.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-009-steamed-sea-bass/step-07.jpg",
+            "sha256": "9aa58449ecf1568aabbdd98172583bffb44763d381c6ca3fb29fd06b544a8e3b",
+            "httpStatus": 200,
+            "contentType": "image/jpeg"
+          },
+          {
+            "stepOrder": 8,
+            "adjacentText": "淋料汁，热油浇鱼身。",
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/b/f/9/800_bf784ec6af27ddf2a904f72cbcaada19.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-009-steamed-sea-bass/step-08.jpg",
+            "sha256": "25f9c0fec24616f23839409e7c5c70e18098b98eb7a0d5cca91ee43895fd9c15",
+            "httpStatus": 200,
+            "contentType": "image/jpeg"
+          }
+        ]
+      }
+    }
+  ],
+  "ragEvidence": [
+    {
+      "chunkId": "9c67d0fd-7624-4765-a33f-d0eb81442c32",
+      "documentId": "e7817d54-783f-4025-bfab-01214d2b7324",
+      "sourceName": "豆果美食",
+      "chunkType": "steps",
+      "content": "菜名：清蒸鲈鱼\n1. 鲈鱼去鳞去内脏清洗干净，在背部2边各划一刀。淋上料酒，抹点盐腌制30分钟（30分钟）\n2. 葱洗净切细长丝泡冰水中，姜一半切丝，一般切片，小米辣切圈\n3. 盘子里放几片姜\n4. 放上腌制好的鲈鱼，鱼腹中放几片姜，表面放葱丝和姜丝\n5. 水开后，蒸8分钟左右（8分钟）\n6. 蒸制的过程中配个碗汁，生抽、糖、香油，纯净水混合均匀\n7. 鱼蒸好后取出，倒掉蒸出的水，拿掉葱姜丝，重新放上葱姜丝，小米辣\n8. 淋上料汁，油锅烧热至冒烟，热油浇到鱼身上即可",
+      "similarity": 0.73946550362891
+    },
+    {
+      "chunkId": "bb78666f-ed88-4381-a945-36288a66c9aa",
+      "documentId": "107eaa09-6452-403c-9bf4-70357d4691bc",
+      "sourceName": "The Woks of Life",
+      "chunkType": "steps",
+      "content": "菜名：清蒸鲈鱼\n1. Remove any remaining scales with a serrated steak knife, checking the belly, edges, top near the dorsal fins, and head. Cut off the tough fins carefully with kitchen shears, leaving the tail and head intact for presentation.\n2. Inspect the cavity at the backbone; pierce and cut any membrane to expose the blood line, then clean it thoroughly with a finger or spoon. Check that the gills are gone; remove any remaining gills with kitchen shears and rinse the area clean.\n3. Give the fish a final rinse, shake off excess water without patting it dry, and put it on a heat-proof plate. Do not put salt, seasoning, or wine on the fresh fish before steaming.\n4. Set the elongated heat-proof plate on a metal steam rack in a wok, keeping the plate above the water. If more height is needed, the source places the rack on a metal can with both ends removed.\n5. Steam for 9 minutes, then turn off the heat. Check the meat with a butter knife: it should be opaque down to the bone, while the bone itself remains slightly translucent.（9 minutes）\n6. Carefully pour off all liquid accumulated on the plate. Spread half of the ginger, the green portions of the scallions, and the cilantro over the fish.",
+      "similarity": 0.731467350212775
+    },
+    {
+      "chunkId": "6a824353-b367-427a-bb08-a50e94d4a387",
+      "documentId": "e7817d54-783f-4025-bfab-01214d2b7324",
+      "sourceName": "豆果美食",
+      "chunkType": "technique",
+      "content": "菜名：清蒸鲈鱼\n- 鲈鱼抹料酒和盐腌制30分钟\n- 水开后蒸8分钟左右\n- 蒸制时间根据鱼的大小调整，建议不超过10分钟\n- 食用油烧热至冒烟后浇在鱼身上\n- 30分钟\n- 8分钟",
+      "similarity": 0.731193488644972
+    },
+    {
+      "chunkId": "1b64f615-3717-4d70-972b-058a550d3c96",
+      "documentId": "107eaa09-6452-403c-9bf4-70357d4691bc",
+      "sourceName": "The Woks of Life",
+      "chunkType": "steps",
+      "content": "菜名：清蒸鲈鱼\n7. Mix the ¼ cup water, ¼ teaspoon salt, ¾ teaspoon sugar, ¼ cup light soy sauce (or seasoned soy sauce), and freshly ground white pepper in a small bowl or measuring cup.\n8. Heat the extra 2 tablespoons canola oil with the other half of the ginger in a saucepan until the ginger begins to sizzle. Add the sauce mixture and heat until simmering.（until ginger sizzles and sauce simmers）\n9. Once simmering, add the remaining ¼ cup canola oil and the white portions of the scallions; stir until the liquid simmers and sizzles again. Spoon the entire mixture evenly over the fish and serve hot.（until simmering and sizzling again）",
+      "similarity": 0.730594456195837
+    },
+    {
+      "chunkId": "6fcf9ed8-9881-49ef-be63-5c8bba15a84f",
+      "documentId": "e7817d54-783f-4025-bfab-01214d2b7324",
+      "sourceName": "豆果美食",
+      "chunkType": "ingredients",
+      "content": "菜名：清蒸鲈鱼\n- 鲈鱼（日本真鲈、花鲈） 750g\n- 小米辣 2个\n- 葱（绿色部分） 30g\n- 姜 10g\n- 料酒 2汤匙\n- 盐 2调味匙\n- 生抽 3调味匙\n- 糖 0.5调味匙\n- 香油 少许\n- 食用油 30g\n- 纯净水 2汤匙\n- 冰水（原文步骤使用，未列用量）\n- 水开后（蒸锅用水，原文未列用量）",
+      "similarity": 0.724346323272368
+    },
+    {
+      "chunkId": "b4d05470-ccab-4d67-99b8-bd54f1cb2413",
+      "documentId": "107eaa09-6452-403c-9bf4-70357d4691bc",
+      "sourceName": "The Woks of Life",
+      "chunkType": "technique",
+      "content": "菜名：清蒸鲈鱼\n- Prep: 20 mins\n- Cook: 15 mins\n- Total: 35 mins\n- Steam the roughly 1½ lb/680g whole fish for 9 minutes, then turn off the heat.\n- Doneness: meat opaque down to the bone; bone slightly translucent.\n- Sauce: ginger first sizzles in the extra 2 tablespoons oil; sauce is brought to a simmer before the remaining ¼ cup oil and scallion whites are added.\n- 9 minutes\n- until ginger sizzles and sauce simmers\n- until simmering and sizzling again",
+      "similarity": 0.714127983346937
+    },
+    {
+      "chunkId": "aa22acaf-85a7-4df0-9ab9-7b077fe2f9b5",
+      "documentId": "107eaa09-6452-403c-9bf4-70357d4691bc",
+      "sourceName": "The Woks of Life",
+      "chunkType": "ingredients",
+      "content": "菜名：清蒸鲈鱼\n- 1 whole striped bass or sea bass ((about 1 ½ lbs/680g, cleaned; see instructions))\n- 3 tablespoons fresh ginger ((finely julienned))\n- 2 scallions ((finely julienned with green and white parts separated))\n- 8 sprigs fresh cilantro ((roughly chopped))\n- ¼ cup canola oil (plus 2 tablespoons)\n- ¼ cup water\n- ¼ teaspoon salt\n- ¾ teaspoon sugar\n- ¼ cup light soy sauce\n- Fresh ground white pepper to taste\n- water in the wok",
+      "similarity": 0.70539250438124
+    },
+    {
+      "chunkId": "7c52351e-58e8-44e6-ad2c-40ab2cae0055",
+      "documentId": "107eaa09-6452-403c-9bf4-70357d4691bc",
+      "sourceName": "The Woks of Life",
+      "chunkType": "tips",
+      "content": "菜名：清蒸鲈鱼\n- Cook a fresh whole fish as soon as possible after bringing it home.\n- The page recommends whole fish in the 1 to 2 pound range; sea bass is explicitly listed as a common steaming fish.\n- Prepare this as the last dish so it can be served immediately.\n- Use caution when cutting the tough fins with kitchen shears.",
+      "similarity": 0.703134519048604
+    },
+    {
+      "chunkId": "b1647428-d407-44aa-a622-6ccdfbf60eab",
+      "documentId": "e7817d54-783f-4025-bfab-01214d2b7324",
+      "sourceName": "豆果美食",
+      "chunkType": "tips",
+      "content": "菜名：清蒸鲈鱼\n- 蒸的时间根据鱼的大小决定，蒸的时间太久鱼肉口感会太老的，建议不超过10分钟。水开后再蒸鱼，更能保持鱼的鲜美！",
+      "similarity": 0.688642464714344
+    },
+    {
+      "chunkId": "0d83aa48-5a87-45fc-80ab-bb60bd914e54",
+      "documentId": "e7817d54-783f-4025-bfab-01214d2b7324",
+      "sourceName": "豆果美食",
+      "chunkType": "summary",
+      "content": "菜名：清蒸鲈鱼\n菜系：家常菜\n简介：清蒸鲈鱼的家常做法，食材简单步骤详细，食材 鲈鱼（日本真鲈、花鲈）怎么做好吃、小米辣怎么做好吃、葱（绿色部分）怎么做好吃、姜怎么做好吃 新手也能轻松学会。豆果美食有更多美食教程!",
+      "similarity": 0.688322128801536
+    }
+  ],
+  "notes": [
+    "RAG-first exact lookup for canonical_name=清蒸鲈鱼 and category=chinese returned no existing entity or documents before website research.",
+    "Enabled-source attempt: The Woks of Life site search returned HTTP 200 and located the selected whole-fish detail page; the page returned HTTP 200 and was fully read through Recipe JSON-LD plus HTML cross-check.",
+    "The Woks of Life fillet candidate, https://thewoksoflife.com/cantonese-steamed-fish/, was rejected during site-restricted search because it is a fillet recipe rather than the required whole sea-bass variant.",
+    "Enabled-source attempt: 豆果美食 mobile exact-name search returned HTTP 200. Candidate 1426656 was selected because it is an exact 750g whole-sea-bass recipe with the most complete quantities, sauce construction, steaming time, hot-oil finish, and tip among the inspected same-site candidates.",
+    "Rejected 豆果 candidates: 1556505 removes the head, fan-cuts the fish, uses thirteen-spice absent from its ingredient list, and omits several method ingredients; 1538934 is less operationally detailed and uses a materially different roughly 15-minute steam; 3325068 duplicates oil as 30g cooking oil plus vague hot oil and gives fewer operational details. All inspected detail pages returned HTTP 200; none were ingested.",
+    "The two selected pages are independent complete website sources for the same whole steamed sea-bass dish. No source required login, CAPTCHA, access-control bypass, rate-limit circumvention, or anti-automation bypass.",
+    "Both selected documents were new. They resolved to recipe entity 25a32d54-f84c-4df3-a867-091fbaf3f1d9 and were ingested as documents 107eaa09-6452-403c-9bf4-70357d4691bc and e7817d54-783f-4025-bfab-01214d2b7324.",
+    "The Woks document has 6 chunks and the 豆果 document has 5 chunks. All 11 chunks store voyage-4 embeddings at 1024 dimensions; content hashes were used and no unchanged chunks were re-embedded.",
+    "Entity-scoped semantic retrieval returned 10 results across both sources and all five fixed chunk types. Entity-scoped hybrid retrieval also returned 10 results across both sources and all five fixed chunk types.",
+    "Primary candidate: The Woks of Life is the most operationally complete and internally coherent source. It provides full fish cleaning, an exact 9-minute steam, a visual doneness cue, exact sauce amounts, and the exact oil division and addition order.",
+    "Material conflict: The Woks primary explicitly forbids salt, seasoning, or wine before steaming; 豆果 marinates the fish with salt and 2 tablespoons cooking wine for 30 minutes. Do not import the 豆果 marinade into the primary route.",
+    "Other variant differences must remain isolated: The Woks route uses cilantro and no chili, canola oil as ¼ cup plus 2 tablespoons, and a cooked light-soy sauce; 豆果 uses 2 chilies, sesame oil, 30g cooking oil, and a different sauce. Do not combine these key ingredients or sauce routes.",
+    "Shared non-conflicting observations are limited to whole-fish steaming, draining accumulated plate liquid, ginger/scallion aromatics, soy-based seasoning, avoiding over-steaming, and serving promptly. These may corroborate the primary but must not alter its proportions or order.",
+    "The Woks ingredient card omits the separate, unquantified water used in the steamer; it is preserved as method-introduced water. The 豆果 ingredient card omits the unquantified ice water used for scallion soaking and the steaming water; both are preserved without invented quantities.",
+    "豆果 step 2 contains the source typo '姜一半切丝，一般切片'. The raw instruction is preserved; do not infer a new numeric division from the typo.",
+    "Unit-fidelity warning: preserve ¼ cup, tablespoons, teaspoons, 调味匙, and other source vessels exactly. The Woks source itself supplies about 680g for the fish, so that source metric amount may be used; do not convert its oil, sauce, salt, sugar, ginger, or water vessel units to millilitres or grams.",
+    "Editor and Reviewer must use this exact evidence package. Secondary material may only corroborate non-conflicting details and may not change the primary variant's ingredients, proportions, step order, or cooking route.",
+    "实时复核已有 entity 25a32d54-f84c-4df3-a867-091fbaf3f1d9；两份文档未变更，semantic 与 hybrid 检索均成功，未重复 embedding。",
+    "两个来源在蒸前调味和酱汁构造上存在实质差异，因此禁止混用。",
+    "用户已确认 2026-09-16 仓库图片复制授权；运行时只用本地路径。"
+  ],
+  "sourceMode": "multi_source",
+  "selectedSourceUrl": "https://www.douguo.com/cookbook/1426656.html",
+  "selectionReason": "两条来源均名称匹配、内容完整且内部自洽。豆果提供8个可执行步骤各自对应的8张步骤图；Woks的9个步骤仅有5个可靠图片映射。按图片覆盖率和原料丰富度，整份选择豆果。"
+}

@@ -1331,177 +1331,205 @@ window.YANHUO_RECIPES = [
     "ingredients": [
       {
         "id": "ingredient-01",
-        "name": "整条鲈鱼",
-        "label": "整条鲈鱼1条，约680克",
+        "name": "鲈鱼（日本真鲈、花鲈）",
+        "label": "鲈鱼（日本真鲈、花鲈）750克",
         "isCore": true
       },
       {
         "id": "ingredient-02",
-        "name": "姜",
-        "label": "姜3汤匙，切细丝并分成两半",
-        "isCore": false
+        "name": "小米辣",
+        "label": "小米辣2个",
+        "isCore": true
       },
       {
         "id": "ingredient-03",
-        "name": "葱",
-        "label": "葱2根，切细丝并将葱白、葱绿分开",
+        "name": "葱（绿色部分）",
+        "label": "葱（绿色部分）30克",
         "isCore": false
       },
       {
         "id": "ingredient-04",
-        "name": "新鲜香菜",
-        "label": "新鲜香菜8枝，粗略切碎",
-        "isCore": true
+        "name": "姜",
+        "label": "姜10克",
+        "isCore": false
       },
       {
         "id": "ingredient-05",
-        "name": "菜籽油",
-        "label": "菜籽油1/4杯加2汤匙（分次使用）",
+        "name": "料酒",
+        "label": "料酒2汤匙",
         "isCore": false
       },
       {
         "id": "ingredient-06",
-        "name": "酱汁用清水",
-        "label": "酱汁用清水1/4杯",
+        "name": "盐",
+        "label": "盐2调味匙",
         "isCore": false
       },
       {
         "id": "ingredient-07",
-        "name": "盐",
-        "label": "盐1/4茶匙",
+        "name": "生抽",
+        "label": "生抽3调味匙",
         "isCore": false
       },
       {
         "id": "ingredient-08",
-        "name": "白砂糖",
-        "label": "白砂糖3/4茶匙",
+        "name": "糖",
+        "label": "糖0.5调味匙",
         "isCore": false
       },
       {
         "id": "ingredient-09",
-        "name": "生抽",
-        "label": "生抽1/4杯",
+        "name": "香油",
+        "label": "香油少许",
         "isCore": false
       },
       {
         "id": "ingredient-10",
-        "name": "现磨白胡椒",
-        "label": "现磨白胡椒适量",
+        "name": "食用油",
+        "label": "食用油30克",
         "isCore": false
       },
       {
         "id": "ingredient-11",
-        "name": "蒸锅用清水",
-        "label": "蒸锅用清水适量",
+        "name": "纯净水",
+        "label": "纯净水2汤匙",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-12",
+        "name": "冰水（浸泡葱丝）",
+        "label": "冰水适量（浸泡葱丝）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-13",
+        "name": "蒸锅用水",
+        "label": "蒸锅用水适量",
         "isCore": false
       }
     ],
     "steps": [
       {
         "id": "step-01",
-        "instruction": "检查整条鲈鱼，用带锯齿的牛排刀刮净残留鱼鳞，重点检查鱼腹、边缘、背鳍附近和鱼头；用厨房剪刀小心剪除坚硬鱼鳍，保留鱼头和鱼尾，操作时谨防鱼鳍扎手。",
-        "duration": 180,
-        "heat": "medium",
-        "timerRequired": false,
-        "ingredientsUsed": [],
-        "gameAction": "confirm",
-        "safetyNote": ""
-      },
-      {
-        "id": "step-02",
-        "instruction": "检查鱼腹内靠近脊骨的位置，刺破并剪开覆盖血线的膜，用手指或勺子彻底清净血线；确认鱼鳃已经去除，如有残留，用厨房剪刀剪掉并冲洗干净。",
-        "duration": 180,
-        "heat": "medium",
-        "timerRequired": false,
-        "ingredientsUsed": [],
-        "gameAction": "confirm",
-        "safetyNote": ""
-      },
-      {
-        "id": "step-03",
-        "instruction": "将鱼最后冲洗一遍，抖掉多余水分但不要擦干，放在耐热长盘中；蒸制前不要在鲜鱼上放盐、调味料或料酒。",
-        "duration": 180,
-        "heat": "medium",
-        "timerRequired": false,
-        "ingredientsUsed": [],
-        "gameAction": "wait",
-        "safetyNote": ""
-      },
-      {
-        "id": "step-04",
-        "instruction": "炒锅中加入适量蒸锅用清水，放入金属蒸架，将装鱼的耐热盘置于蒸架上，确保盘子高于水面；如需增加高度，可将蒸架垫在两端均已去除的金属罐上。",
-        "duration": 180,
-        "heat": "medium",
-        "timerRequired": false,
-        "ingredientsUsed": [],
-        "gameAction": "add",
-        "safetyNote": ""
-      },
-      {
-        "id": "step-05",
-        "instruction": "盖好锅盖蒸9分钟，然后关火；用黄油刀检查鱼肉，鱼肉应直到贴骨处均已不透明，而鱼骨仍略呈半透明。",
-        "duration": 540,
+        "instruction": "鲈鱼去鳞、去内脏后清洗干净，在背部两边各划一刀；淋上2汤匙料酒，抹上2调味匙盐，腌制30分钟。",
+        "duration": 1800,
         "heat": "medium",
         "timerRequired": true,
         "ingredientsUsed": [],
-        "gameAction": "wait",
-        "safetyNote": ""
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-009-steamed-sea-bass/step-01.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1426656.html"
       },
       {
-        "id": "step-06",
-        "instruction": "小心将盘中积聚的液体彻底倒掉，在鱼身上铺一半姜丝、葱绿丝和8枝粗略切碎的新鲜香菜。",
+        "id": "step-02",
+        "instruction": "将30克葱洗净切成长细丝，泡入适量冰水；10克姜分别切丝、切片，小米辣2个切圈。",
         "duration": 180,
         "heat": "medium",
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "confirm",
-        "safetyNote": ""
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-009-steamed-sea-bass/step-02.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1426656.html"
+      },
+      {
+        "id": "step-03",
+        "instruction": "盘子里放几片姜。",
+        "duration": 180,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-009-steamed-sea-bass/step-03.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1426656.html"
+      },
+      {
+        "id": "step-04",
+        "instruction": "放上腌好的鲈鱼，在鱼腹中放几片姜，鱼表面放上葱丝和姜丝。",
+        "duration": 180,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-009-steamed-sea-bass/step-04.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1426656.html"
+      },
+      {
+        "id": "step-05",
+        "instruction": "蒸锅水烧开后，放入鱼蒸约8分钟；蒸制时间按鱼的大小调整，建议不超过10分钟，以免鱼肉过老。",
+        "duration": 480,
+        "heat": "medium",
+        "timerRequired": true,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-009-steamed-sea-bass/step-05.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1426656.html"
+      },
+      {
+        "id": "step-06",
+        "instruction": "蒸鱼期间，将3调味匙生抽、0.5调味匙糖、少许香油和2汤匙纯净水混合均匀，调成碗汁。",
+        "duration": 180,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-009-steamed-sea-bass/step-06.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1426656.html"
       },
       {
         "id": "step-07",
-        "instruction": "将1/4杯清水、1/4茶匙盐、3/4茶匙白砂糖、1/4杯生抽和适量现磨白胡椒放入小碗或量杯，混合均匀。",
+        "instruction": "鱼蒸好后取出，倒掉蒸出的水，拿掉原先的葱姜丝，再重新放上葱姜丝和小米辣圈。",
         "duration": 180,
         "heat": "medium",
         "timerRequired": false,
         "ingredientsUsed": [],
-        "gameAction": "add",
-        "safetyNote": ""
+        "gameAction": "wait",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-009-steamed-sea-bass/step-07.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1426656.html"
       },
       {
         "id": "step-08",
-        "instruction": "在小锅中放入额外的2汤匙菜籽油和剩余一半姜丝，加热至姜丝开始发出滋滋声；倒入调好的酱汁，继续加热至微沸。",
+        "instruction": "淋上碗汁；将30克食用油烧热至冒烟，把热油浇到鱼身上即可。",
         "duration": 180,
         "heat": "medium",
         "timerRequired": false,
         "ingredientsUsed": [],
-        "gameAction": "add",
-        "safetyNote": ""
-      },
-      {
-        "id": "step-09",
-        "instruction": "酱汁微沸后加入剩余1/4杯菜籽油和葱白丝，搅拌并加热至液体再次微沸并发出滋滋声；将全部酱汁均匀舀在鱼身上，趁热食用。",
-        "duration": 180,
-        "heat": "medium",
-        "timerRequired": false,
-        "ingredientsUsed": [],
-        "gameAction": "add",
-        "safetyNote": ""
+        "gameAction": "confirm",
+        "safetyNote": "注意热油飞溅",
+        "image": "assets/dishes/sources/cn-009-steamed-sea-bass/step-08.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1426656.html"
       }
     ],
-    "imageThumb": "assets/dishes/thumbnails/09-qingzheng-luyu.jpg",
-    "imageFull": "assets/dishes/ai/09-qingzheng-luyu.png",
-    "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
-    "time": 15,
-    "difficulty": "进阶",
+    "imageThumb": "assets/dishes/sources/cn-009-steamed-sea-bass/hero.jpeg",
+    "imageFull": "assets/dishes/sources/cn-009-steamed-sea-bass/hero.jpeg",
+    "source": "https://www.douguo.com/cookbook/1426656.html",
+    "media": {
+      "sourceName": "豆果美食",
+      "recipePageUrl": "https://www.douguo.com/cookbook/1426656.html",
+      "mediaPageUrl": "https://www.douguo.com/cookbook/1426656.html",
+      "author": "mature11",
+      "rightsNotice": "页面署名 mature11；图片归原作者/豆果页面发布者所有。",
+      "reuseLicense": null,
+      "repositoryCopyAuthorization": "user_confirmed_2026-09-16"
+    },
+    "time": 50,
+    "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [
       "fish",
-      "soy"
+      "soy",
+      "sesame"
     ],
     "flags": {
       "containsPork": false,
       "containsBeef": false,
-      "containsAlcohol": false,
+      "containsAlcohol": true,
       "spicy": false,
       "vegetarian": false
     },

@@ -1,0 +1,16 @@
+{
+  "recipeId": "cn-009",
+  "authorization": "user_confirmed_2026-09-16",
+  "referer": "https://www.douguo.com/cookbook/1426656.html",
+  "items": [
+    { "role": "hero", "originalUrl": "https://cp1.douguo.com/upload/caiku/3/2/c/800_32c3b877bb10a1b9140298274e8dd2bc.jpeg", "repositoryPath": "assets/dishes/sources/cn-009-steamed-sea-bass/hero.jpeg" },
+    { "role": "step", "stepOrder": 1, "originalUrl": "https://cp1.douguo.com/upload/caiku/c/e/7/800_cee257b8f8be7a99fed2016e16b48897.jpg", "repositoryPath": "assets/dishes/sources/cn-009-steamed-sea-bass/step-01.jpg" },
+    { "role": "step", "stepOrder": 2, "originalUrl": "https://cp1.douguo.com/upload/caiku/6/2/7/800_62edfeb94d070f6d8762a5ad1022a807.jpg", "repositoryPath": "assets/dishes/sources/cn-009-steamed-sea-bass/step-02.jpg" },
+    { "role": "step", "stepOrder": 3, "originalUrl": "https://cp1.douguo.com/upload/caiku/2/3/a/800_23fd7567bafe3734c7dbca6123a71dfa.jpg", "repositoryPath": "assets/dishes/sources/cn-009-steamed-sea-bass/step-03.jpg" },
+    { "role": "step", "stepOrder": 4, "originalUrl": "https://cp1.douguo.com/upload/caiku/1/a/4/800_1af458ac86a055f13b0c61f06e094434.jpg", "repositoryPath": "assets/dishes/sources/cn-009-steamed-sea-bass/step-04.jpg" },
+    { "role": "step", "stepOrder": 5, "originalUrl": "https://cp1.douguo.com/upload/caiku/0/b/7/800_0bf2dd4a5fbe3d47b91f750d292c7fe7.jpg", "repositoryPath": "assets/dishes/sources/cn-009-steamed-sea-bass/step-05.jpg" },
+    { "role": "step", "stepOrder": 6, "originalUrl": "https://cp1.douguo.com/upload/caiku/1/6/e/800_16206d901e23138476f05358e3e8889e.jpg", "repositoryPath": "assets/dishes/sources/cn-009-steamed-sea-bass/step-06.jpg" },
+    { "role": "step", "stepOrder": 7, "originalUrl": "https://cp1.douguo.com/upload/caiku/1/7/c/800_178dc8fd4047d32a02dbc76850cdb7ac.jpg", "repositoryPath": "assets/dishes/sources/cn-009-steamed-sea-bass/step-07.jpg" },
+    { "role": "step", "stepOrder": 8, "originalUrl": "https://cp1.douguo.com/upload/caiku/b/f/9/800_bf784ec6af27ddf2a904f72cbcaada19.jpg", "repositoryPath": "assets/dishes/sources/cn-009-steamed-sea-bass/step-08.jpg" }
+  ]
+}

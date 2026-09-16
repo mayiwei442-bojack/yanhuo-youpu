@@ -1,0 +1,42 @@
+{
+  "recipeId": "cn-009",
+  "createdAt": "2026-09-16T15:30:00+08:00",
+  "sourceMode": "multi_source",
+  "selectedSourceUrl": "https://www.douguo.com/cookbook/1426656.html",
+  "selectionReason": "两条来源均名称匹配、内容完整且内部自洽。豆果提供8个可执行步骤各自对应的8张步骤图；Woks的9个步骤仅有5个可靠图片映射。按图片覆盖率和原料丰富度，整份选择豆果。",
+  "qualifyingSourceUrls": ["https://thewoksoflife.com/steamed-whole-fish/", "https://www.douguo.com/cookbook/1426656.html"],
+  "assessments": {
+    "https://thewoksoflife.com/steamed-whole-fish/": {
+      "qualifies": true, "ingredientCoverage": "complete", "stepCoverage": "complete", "internalCoherence": "coherent", "heroImages": 1, "mappedStepImages": 5, "stepImageCoverage": 0.5555555555555556, "ingredientCount": 11, "executableStepCount": 9,
+      "notes": ["整鱼和海鲈鱼名称匹配；步骤更细，但步骤图片覆盖率较低。"]
+    },
+    "https://www.douguo.com/cookbook/1426656.html": {
+      "qualifies": true, "ingredientCoverage": "complete", "stepCoverage": "complete", "internalCoherence": "coherent", "heroImages": 4, "mappedStepImages": 8, "stepImageCoverage": 1, "ingredientCount": 13, "executableStepCount": 8,
+      "notes": ["名称精确匹配，8个步骤全部有同页同作者图片。"]
+    }
+  },
+  "media": {
+    "recipePageUrl": "https://www.douguo.com/cookbook/1426656.html",
+    "mediaPageUrl": "https://www.douguo.com/cookbook/1426656.html",
+    "sourceName": "豆果美食",
+    "author": "mature11",
+    "rightsNotice": "页面署名 mature11；图片归原作者/豆果页面发布者所有。",
+    "reuseLicense": null,
+    "hero": { "originalUrl": "https://cp1.douguo.com/upload/caiku/3/2/c/800_32c3b877bb10a1b9140298274e8dd2bc.jpeg" },
+    "steps": [
+      { "stepOrder": 1, "adjacentText": "鲈鱼处理后加料酒和盐腌制30分钟。", "originalUrl": "https://cp1.douguo.com/upload/caiku/c/e/7/800_cee257b8f8be7a99fed2016e16b48897.jpg" },
+      { "stepOrder": 2, "adjacentText": "葱切丝泡冰水，姜和小米辣改刀。", "originalUrl": "https://cp1.douguo.com/upload/caiku/6/2/7/800_62edfeb94d070f6d8762a5ad1022a807.jpg" },
+      { "stepOrder": 3, "adjacentText": "盘子里放几片姜。", "originalUrl": "https://cp1.douguo.com/upload/caiku/2/3/a/800_23fd7567bafe3734c7dbca6123a71dfa.jpg" },
+      { "stepOrder": 4, "adjacentText": "放上鲈鱼，鱼腹和表面放葱姜。", "originalUrl": "https://cp1.douguo.com/upload/caiku/1/a/4/800_1af458ac86a055f13b0c61f06e094434.jpg" },
+      { "stepOrder": 5, "adjacentText": "水开后蒸8分钟左右。", "originalUrl": "https://cp1.douguo.com/upload/caiku/0/b/7/800_0bf2dd4a5fbe3d47b91f750d292c7fe7.jpg" },
+      { "stepOrder": 6, "adjacentText": "生抽、糖、香油和纯净水调汁。", "originalUrl": "https://cp1.douguo.com/upload/caiku/1/6/e/800_16206d901e23138476f05358e3e8889e.jpg" },
+      { "stepOrder": 7, "adjacentText": "倒掉蒸鱼水，重新放葱姜丝和小米辣。", "originalUrl": "https://cp1.douguo.com/upload/caiku/1/7/c/800_178dc8fd4047d32a02dbc76850cdb7ac.jpg" },
+      { "stepOrder": 8, "adjacentText": "淋料汁，热油浇鱼身。", "originalUrl": "https://cp1.douguo.com/upload/caiku/b/f/9/800_bf784ec6af27ddf2a904f72cbcaada19.jpg" }
+    ]
+  },
+  "notes": [
+    "实时复核已有 entity 25a32d54-f84c-4df3-a867-091fbaf3f1d9；两份文档未变更，semantic 与 hybrid 检索均成功，未重复 embedding。",
+    "两个来源在蒸前调味和酱汁构造上存在实质差异，因此禁止混用。",
+    "用户已确认 2026-09-16 仓库图片复制授权；运行时只用本地路径。"
+  ]
+}
