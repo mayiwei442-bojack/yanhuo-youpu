@@ -1,0 +1,16 @@
+{
+  "recipeId": "cn-003",
+  "authorization": "user_confirmed_2026-09-16",
+  "referer": "https://thewoksoflife.com/ma-po-tofu-real-deal/",
+  "items": [
+    { "role": "hero", "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/06/mapo-tofu-10.jpg", "repositoryPath": "assets/dishes/sources/cn-003-mapo-tofu/hero.jpg" },
+    { "role": "step", "stepOrder": 2, "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/06/mapo-tofu-5.jpg", "repositoryPath": "assets/dishes/sources/cn-003-mapo-tofu/step-02-01.jpg" },
+    { "role": "step", "stepOrder": 3, "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/06/mapo-tofu-6.jpg", "repositoryPath": "assets/dishes/sources/cn-003-mapo-tofu/step-03-01.jpg" },
+    { "role": "step", "stepOrder": 3, "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/06/mapo-tofu-7.jpg", "repositoryPath": "assets/dishes/sources/cn-003-mapo-tofu/step-03-02.jpg" },
+    { "role": "step", "stepOrder": 3, "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/06/mapo-tofu-8.jpg", "repositoryPath": "assets/dishes/sources/cn-003-mapo-tofu/step-03-03.jpg" },
+    { "role": "step", "stepOrder": 3, "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/06/mapo-tofu-2.jpg", "repositoryPath": "assets/dishes/sources/cn-003-mapo-tofu/step-03-04.jpg" },
+    { "role": "step", "stepOrder": 5, "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/06/mapo-tofu-9.jpg", "repositoryPath": "assets/dishes/sources/cn-003-mapo-tofu/step-05.jpg" },
+    { "role": "step", "stepOrder": 6, "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/06/mapo-tofu-11.jpg", "repositoryPath": "assets/dishes/sources/cn-003-mapo-tofu/step-06-01.jpg" },
+    { "role": "step", "stepOrder": 6, "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/09/mapo-tofu-recipe-2.jpg", "repositoryPath": "assets/dishes/sources/cn-003-mapo-tofu/step-06-02.jpg" }
+  ]
+}

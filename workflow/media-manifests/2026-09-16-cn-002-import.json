@@ -1,0 +1,124 @@
+{
+  "recipeId": "cn-002",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/05/kung-pao-chicken-14.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-002-kung-pao-chicken/hero.jpg",
+      "sha256": "f5010a354ba31204ab8635fc99ecaacb2b08b6eedc20714cfc6018433b397072",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 308388
+    },
+    {
+      "role": "step",
+      "stepOrder": 1,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/05/kung-pao-chicken-2.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-002-kung-pao-chicken/step-01-01.jpg",
+      "sha256": "4bbd864f2237db1331ebc46476249c6f2da34dfddbfc4e51d6da1a6866398046",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 74546
+    },
+    {
+      "role": "step",
+      "stepOrder": 1,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/05/kung-pao-chicken-3.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-002-kung-pao-chicken/step-01-02.jpg",
+      "sha256": "0876d508263acac83ef43924def2ffec797e2a327e73ec7cd7a14885a61016c6",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 203882
+    },
+    {
+      "role": "step",
+      "stepOrder": 1,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/05/kung-pao-chicken-4.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-002-kung-pao-chicken/step-01-03.jpg",
+      "sha256": "6d5665b51c3cf3be1112a526d81d4115c6cf43cd44af7fa167db8280bd47355f",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 212294
+    },
+    {
+      "role": "step",
+      "stepOrder": 2,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/04/kung-pao-chicken.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-002-kung-pao-chicken/step-02.jpg",
+      "sha256": "86cda471dc9f35d02a97693d68c07f32c96869a8f7304191fc503a3d736c0391",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 24252
+    },
+    {
+      "role": "step",
+      "stepOrder": 4,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/05/kung-pao-chicken-5.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-002-kung-pao-chicken/step-04.jpg",
+      "sha256": "25d3300fc76b98d704c4b20300af6eb784985a0d14e608df5659cd562fa55f2c",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 223320
+    },
+    {
+      "role": "step",
+      "stepOrder": 5,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/05/kung-pao-chicken-6.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-002-kung-pao-chicken/step-05.jpg",
+      "sha256": "b37dc7112f961c87eece878385f0eb24fa8418f5ec680d8e1100384b81aeddf5",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 221538
+    },
+    {
+      "role": "step",
+      "stepOrder": 6,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/05/kung-pao-chicken-7.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-002-kung-pao-chicken/step-06.jpg",
+      "sha256": "fd3b5ddbe9c72f914eff5d9ba3a7c9b2fe8d7e72609cdc37fa39a93736c4135f",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 284046
+    },
+    {
+      "role": "step",
+      "stepOrder": 7,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/05/kung-pao-chicken-8.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-002-kung-pao-chicken/step-07-01.jpg",
+      "sha256": "52293921c484bba44ea3508eaeaca436d740b90a51e2f2e95b93836a3c8d2f39",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 268150
+    },
+    {
+      "role": "step",
+      "stepOrder": 7,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/05/kung-pao-chicken-11.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-002-kung-pao-chicken/step-07-02.jpg",
+      "sha256": "63c5be5025f79076ffa868e06cbccd98250c462124ab4a7cefb236dd0bac8c7a",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 561572
+    },
+    {
+      "role": "step",
+      "stepOrder": 7,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/05/kung-pao-chicken-9.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-002-kung-pao-chicken/step-07-03.jpg",
+      "sha256": "704b7d81d02f4801c6632f7308e3dc194aa72347f285672449f4afa157300d76",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 487166
+    },
+    {
+      "role": "step",
+      "stepOrder": 7,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/05/kung-pao-chicken-12.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-002-kung-pao-chicken/step-07-04.jpg",
+      "sha256": "e9ffdc58f128b8a4aa9866c8f441bb534da02b1476ae5ae022b0eb53515ac91b",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 533902
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "runId": "2026-09-16-cn-003-source-images",
+  "recipeId": "cn-003",
+  "recipeName": "麻婆豆腐",
+  "category": "chinese",
+  "status": "in_progress",
+  "startedAt": "2026-09-16T04:36:26.246Z",
+  "completedAt": null,
+  "steps": {
+    "research": { "status": "done", "attempts": 1, "details": { "evidence": "workflow/evidence/2026-09-16-cn-003-source-images.json", "selectedSource": "The Woks of Life", "sourceMode": "single_source", "reusedDocumentId": "0c24a839-89d2-4372-bb85-a1ce573d4ba4" } },
+    "ingestion": { "status": "done", "attempts": 0, "details": { "reason": "未变更的两份 RAG 文档已复用且检索验证。" } },
+    "edit": { "status": "done", "attempts": 1, "details": { "targetOnly": true, "selectedSource": "The Woks of Life", "localHeroImages": 1, "localMappedStepImages": 4 } },
+    "validator": { "status": "done", "attempts": 1, "details": { "passed": true, "before": "workflow/runs/2026-09-16-cn-003-source-images-before.json", "allowSourceChange": true } },
+    "review": { "status": "done", "attempts": 1, "details": { "status": "PASS", "evidencePackageHash": "531609279cf00c881f590bc1c740017bfb7ac8d5d92c4343e6cb8627b185448a" } },
+    "build": { "status": "done", "attempts": 1, "details": { "suite": "npm run test:workflow:deterministic", "passed": true, "refreshedRecipes": 2 } },
+    "gitPush": { "status": "in_progress", "attempts": 1, "details": { "branch": "codex/recipe-automation" } }
+  },
+  "sources": [
+    { "name": "The Woks of Life", "url": "https://thewoksoflife.com/ma-po-tofu-real-deal/", "status": "success", "failureReason": null },
+    { "name": "豆果美食", "url": "https://www.douguo.com/cookbook/202827.html", "status": "failed", "failureReason": "步骤图均为通用占位图，不可语义映射。" }
+  ],
+  "errors": [],
+  "branch": "codex/recipe-automation",
+  "commit": null
+}

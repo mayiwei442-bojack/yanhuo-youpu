@@ -313,156 +313,194 @@ window.YANHUO_RECIPES = [
     "ingredients": [
       {
         "id": "ingredient-01",
-        "name": "豆腐",
-        "label": "豆腐400克",
-        "isCore": true
+        "name": "食用油",
+        "label": "食用油1/2杯（分次使用）",
+        "isCore": false
       },
       {
         "id": "ingredient-02",
-        "name": "牛肉末",
-        "label": "牛肉末100克",
+        "name": "新鲜泰国小米椒",
+        "label": "新鲜泰国小米椒1—2个，切薄片",
         "isCore": true
       },
       {
         "id": "ingredient-03",
-        "name": "酱油",
-        "label": "酱油10克",
-        "isCore": false
-      },
-      {
-        "id": "ingredient-04",
-        "name": "郫县豆瓣酱",
-        "label": "郫县豆瓣酱30克",
+        "name": "干红辣椒",
+        "label": "干红辣椒6—8个，粗切",
         "isCore": true
       },
       {
-        "id": "ingredient-05",
-        "name": "白糖",
-        "label": "白糖10克",
+        "id": "ingredient-04",
+        "name": "花椒粒",
+        "label": "花椒粒1/2—1又1/2汤匙，磨成粉（炒制",
         "isCore": false
       },
       {
+        "id": "ingredient-05",
+        "name": "另取可选作装饰）",
+        "label": "另取少许可选作装饰）",
+        "isCore": true
+      },
+      {
         "id": "ingredient-06",
-        "name": "豆豉",
-        "label": "豆豉10克",
+        "name": "姜末",
+        "label": "姜末3汤匙",
         "isCore": false
       },
       {
         "id": "ingredient-07",
-        "name": "料酒",
-        "label": "料酒15克",
+        "name": "蒜末",
+        "label": "蒜末3汤匙",
         "isCore": false
       },
       {
         "id": "ingredient-08",
-        "name": "盐",
-        "label": "盐适量",
+        "name": "猪肉末",
+        "label": "猪肉末约227克",
         "isCore": false
       },
       {
         "id": "ingredient-09",
-        "name": "骨汤",
-        "label": "骨汤300克",
+        "name": "辣豆瓣酱",
+        "label": "辣豆瓣酱1—2汤匙",
         "isCore": false
       },
       {
         "id": "ingredient-10",
-        "name": "青蒜",
-        "label": "青蒜1棵",
+        "name": "低钠鸡汤",
+        "label": "低钠鸡汤2/3杯（或清水）",
         "isCore": false
       },
       {
         "id": "ingredient-11",
-        "name": "生姜",
-        "label": "生姜1小块",
+        "name": "嫩豆腐",
+        "label": "嫩豆腐约454克，切约2.5厘米方块",
         "isCore": false
       },
       {
         "id": "ingredient-12",
-        "name": "大蒜",
-        "label": "大蒜1个",
+        "name": "清水",
+        "label": "清水1/4杯",
         "isCore": false
       },
       {
         "id": "ingredient-13",
-        "name": "花椒",
-        "label": "花椒5克",
+        "name": "玉米淀粉",
+        "label": "玉米淀粉1又1/2茶匙",
         "isCore": false
       },
       {
         "id": "ingredient-14",
-        "name": "淀粉",
-        "label": "淀粉适量",
+        "name": "芝麻油",
+        "label": "芝麻油1/4茶匙（可选）",
         "isCore": false
       },
       {
         "id": "ingredient-15",
-        "name": "干辣椒",
-        "label": "干辣椒2个",
+        "name": "白糖",
+        "label": "白糖1/4茶匙（可选）",
         "isCore": false
       },
       {
         "id": "ingredient-16",
-        "name": "食用油",
-        "label": "食用油40克",
+        "name": "葱",
+        "label": "葱1根，切碎",
         "isCore": false
       }
     ],
     "steps": [
       {
         "id": "step-01",
-        "instruction": "青蒜、生姜、大蒜和干辣椒切细末；花椒放锅中小火炒香，冷却后压成花椒末；豆豉和豆瓣酱剁碎。豆腐切成约2厘米方块，放入加少许盐的沸水中汆一下，捞出浸入白开水。",
-        "duration": 180,
+        "instruction": "炒锅或小锅置小火，加入一半食用油、新鲜泰国小米椒片和干红辣椒，间或翻动约5分钟，至辣椒出香但不焦煳；离火，连同辣椒一起放在一旁备用。",
+        "duration": 300,
         "heat": "low",
-        "timerRequired": false,
+        "timerRequired": true,
         "ingredientsUsed": [],
         "gameAction": "add",
         "safetyNote": ""
       },
       {
         "id": "step-02",
-        "instruction": "炒锅烧热，下牛肉末小火干炒至松散起酥，盛出；锅中再放食用油，依次加入豆瓣酱、豆豉、姜末、蒜末和辣椒末炒香。",
-        "duration": 180,
-        "heat": "low",
+        "instruction": "炒锅中加入剩余食用油，以中火加姜末炒1分钟；加入蒜末再炒1分钟。转高火，加入猪肉末，铲散并炒至完全熟透；加入磨好的花椒粉翻炒约15—30秒，勿炒焦，以免发苦。",
+        "duration": 60,
+        "heat": "medium",
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "add",
-        "safetyNote": ""
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-003-mapo-tofu/step-02-01.jpg",
+        "imageSource": "https://thewoksoflife.com/ma-po-tofu-real-deal/"
       },
       {
         "id": "step-03",
-        "instruction": "倒入骨汤煮沸，加酱油、白糖并按咸度放盐；加入沥水豆腐和料酒，大火烧开后转小火煮2分钟，豆腐入锅后少搅动。用湿淀粉勾一次薄芡，放回牛肉末再烧2分钟，然后再勾一次薄芡。",
-        "duration": 120,
-        "heat": "low",
+        "instruction": "加入辣豆瓣酱炒匀，倒入低钠鸡汤或清水，煮约1分钟；其间将嫩豆腐备好，并把1/4杯清水与玉米淀粉调匀成淀粉水。",
+        "duration": 60,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-003-mapo-tofu/step-03-01.jpg",
+        "imageSource": "https://thewoksoflife.com/ma-po-tofu-real-deal/"
+      },
+      {
+        "id": "step-04",
+        "instruction": "将淀粉水倒入锅中搅匀，煮至酱汁开始变稠；若酱汁过稠，加入少许清水或鸡汤调整。",
+        "duration": 180,
+        "heat": "medium",
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "add",
         "safetyNote": ""
       },
       {
-        "id": "step-04",
-        "instruction": "装碗后撒花椒末和青蒜末。",
+        "id": "step-05",
+        "instruction": "加入步骤1做好的辣椒油和辣椒，拌匀后放入嫩豆腐，用锅铲轻轻翻拌使豆腐裹上酱汁；煮3—5分钟。加入可选的芝麻油、白糖和葱花，拌至葱花刚刚变蔫。",
+        "duration": 300,
+        "heat": "medium",
+        "timerRequired": true,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-003-mapo-tofu/step-05.jpg",
+        "imageSource": "https://thewoksoflife.com/ma-po-tofu-real-deal/"
+      },
+      {
+        "id": "step-06",
+        "instruction": "装盘；如需要，在表面撒少许花椒粉。",
         "duration": 180,
         "heat": "medium",
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "confirm",
-        "safetyNote": ""
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-003-mapo-tofu/step-06-01.jpg",
+        "imageSource": "https://thewoksoflife.com/ma-po-tofu-real-deal/"
       }
     ],
-    "imageThumb": "assets/dishes/thumbnails/03-mapo-doufu.jpg",
-    "imageFull": "assets/dishes/ai/03-mapo-doufu.png",
-    "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
+    "imageThumb": "assets/dishes/sources/cn-003-mapo-tofu/hero.jpg",
+    "imageFull": "assets/dishes/sources/cn-003-mapo-tofu/hero.jpg",
+    "source": "https://thewoksoflife.com/ma-po-tofu-real-deal/",
+    "media": {
+      "sourceName": "The Woks of Life",
+      "recipePageUrl": "https://thewoksoflife.com/ma-po-tofu-real-deal/",
+      "mediaPageUrl": "https://thewoksoflife.com/ma-po-tofu-real-deal/",
+      "author": "Kaitlin",
+      "rightsNotice": "All Rights Reserved © The Woks of Life",
+      "reuseLicense": null,
+      "repositoryCopyAuthorization": "user_confirmed_2026-09-16"
+    },
     "time": 15,
-    "difficulty": "适中",
+    "difficulty": "进阶",
     "defaultServings": 2,
     "allergens": [
-      "soy"
+      "soy",
+      "sesame"
     ],
     "flags": {
-      "containsPork": false,
-      "containsBeef": true,
-      "containsAlcohol": true,
+      "containsPork": true,
+      "containsBeef": false,
+      "containsAlcohol": false,
       "spicy": true,
       "vegetarian": false
     },

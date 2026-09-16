@@ -19,8 +19,8 @@
   "failurePolicy": "Persist and skip the failed recipe, then continue; stop the batch only when shared infrastructure or repository publication cannot safely continue.",
   "recipes": [
     { "id": "cn-001", "name": "番茄炒蛋", "status": "in_progress", "reason": "Migrating previously verified images from remote runtime URLs to repository-local assets." },
-    { "id": "cn-002", "name": "宫保鸡丁", "status": "pending", "reason": "Retrying the historical image failure under the new partial step-image coverage rule." },
-    { "id": "cn-003", "name": "麻婆豆腐", "status": "pending", "reason": null },
+    { "id": "cn-002", "name": "宫保鸡丁", "status": "failed", "reason": "两次 Editor 返工后 Reviewer 仍检出未指定油种被补充为‘植物油’；按规则已恢复为本批次前状态，不发布。" },
+    { "id": "cn-003", "name": "麻婆豆腐", "status": "in_progress", "reason": "Reviewer PASS and deterministic suite PASS; awaiting commit and push." },
     { "id": "cn-004", "name": "鱼香肉丝", "status": "pending", "reason": null },
     { "id": "cn-005", "name": "青椒肉丝", "status": "pending", "reason": null },
     { "id": "cn-006", "name": "红烧肉", "status": "pending", "reason": null },
