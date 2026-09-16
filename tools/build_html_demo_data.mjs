@@ -102,16 +102,23 @@ function buildRecipe(recipe, index, type) {
     if (media.recipePageUrl !== recipe.source) {
       throw new Error(`${recipe.name} 的媒体菜谱 URL 与正文信源不一致`);
     }
-    if (!media.hero?.url) throw new Error(`${recipe.name} 缺少同源成品图`);
-    if (!Array.isArray(media.steps) || media.steps.length !== steps.length) {
-      throw new Error(`${recipe.name} 的步骤图数量与公开步骤数量不一致`);
+    if (!media.hero?.path || /^https?:/u.test(media.hero.path)) {
+      throw new Error(`${recipe.name} 缺少仓库本地成品图`);
     }
-    for (const [stepIndex, step] of steps.entries()) {
-      const mapped = media.steps[stepIndex];
-      if (mapped.stepOrder !== stepIndex + 1 || !mapped.url) {
-        throw new Error(`${recipe.name} 第 ${stepIndex + 1} 步缺少按顺序映射的同源图片`);
+    if (!Array.isArray(media.steps) || media.steps.length < 1) {
+      throw new Error(`${recipe.name} 至少需要一张仓库本地步骤图`);
+    }
+    const mappedOrders = new Set();
+    for (const mapped of media.steps) {
+      if (!Number.isInteger(mapped.stepOrder) || mapped.stepOrder < 1 || mapped.stepOrder > steps.length || mappedOrders.has(mapped.stepOrder)) {
+        throw new Error(`${recipe.name} 的步骤图序号无效或重复`);
       }
-      step.image = mapped.url;
+      if (!mapped.path || /^https?:/u.test(mapped.path)) {
+        throw new Error(`${recipe.name} 第 ${mapped.stepOrder} 步缺少仓库本地图片路径`);
+      }
+      mappedOrders.add(mapped.stepOrder);
+      const step = steps[mapped.stepOrder - 1];
+      step.image = mapped.path;
       step.imageSource = media.recipePageUrl;
     }
   }
@@ -141,8 +148,8 @@ function buildRecipe(recipe, index, type) {
     heritageStatus: isHeritageFlavor ? "pending-verification" : null,
     ingredients,
     steps,
-    imageThumb: media?.hero?.url || `assets/dishes/thumbnails/${recipe.img.replace(/\.png$/u, ".jpg")}`,
-    imageFull: media?.hero?.url || `assets/dishes/ai/${recipe.img}`,
+    imageThumb: media?.hero?.path || `assets/dishes/thumbnails/${recipe.img.replace(/\.png$/u, ".jpg")}`,
+    imageFull: media?.hero?.path || `assets/dishes/ai/${recipe.img}`,
     source: recipe.source,
     ...(media
       ? {
@@ -152,7 +159,8 @@ function buildRecipe(recipe, index, type) {
             mediaPageUrl: media.mediaPageUrl,
             author: media.author || null,
             rightsNotice: media.rightsNotice || null,
-            reuseLicense: media.reuseLicense || null
+            reuseLicense: media.reuseLicense || null,
+            repositoryCopyAuthorization: media.repositoryCopyAuthorization || null
           }
         }
       : {}),

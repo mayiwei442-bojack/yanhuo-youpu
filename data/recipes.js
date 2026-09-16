@@ -50,7 +50,7 @@ window.YANHUO_RECIPES = [
         "ingredientsUsed": [],
         "gameAction": "confirm",
         "safetyNote": "",
-        "image": "https://cp1.douguo.com/upload/caiku/d/1/5/600_d16ec4970939a44dc91b596784fa7145.jpg",
+        "image": "assets/dishes/sources/cn-001-tomato-egg/step-01.jpg",
         "imageSource": "https://www.douguo.com/cookbook/1192179.html"
       },
       {
@@ -62,7 +62,7 @@ window.YANHUO_RECIPES = [
         "ingredientsUsed": [],
         "gameAction": "confirm",
         "safetyNote": "",
-        "image": "https://cp1.douguo.com/upload/caiku/d/8/3/600_d8717ab7eb3ec403854a22f03ea79753.jpg",
+        "image": "assets/dishes/sources/cn-001-tomato-egg/step-02.jpg",
         "imageSource": "https://www.douguo.com/cookbook/1192179.html"
       },
       {
@@ -74,7 +74,7 @@ window.YANHUO_RECIPES = [
         "ingredientsUsed": [],
         "gameAction": "add",
         "safetyNote": "",
-        "image": "https://cp1.douguo.com/upload/caiku/f/6/1/600_f64de097ff0782fc2bd339ccead67341.jpg",
+        "image": "assets/dishes/sources/cn-001-tomato-egg/step-03.jpg",
         "imageSource": "https://www.douguo.com/cookbook/1192179.html"
       },
       {
@@ -86,7 +86,7 @@ window.YANHUO_RECIPES = [
         "ingredientsUsed": [],
         "gameAction": "add",
         "safetyNote": "",
-        "image": "https://cp1.douguo.com/upload/caiku/b/2/b/600_b258732cc6e830a7448cdec7baac38fb.jpg",
+        "image": "assets/dishes/sources/cn-001-tomato-egg/step-04.jpg",
         "imageSource": "https://www.douguo.com/cookbook/1192179.html"
       },
       {
@@ -98,7 +98,7 @@ window.YANHUO_RECIPES = [
         "ingredientsUsed": [],
         "gameAction": "add",
         "safetyNote": "",
-        "image": "https://cp1.douguo.com/upload/caiku/4/f/b/600_4f644799eed12ebf23400f2b6e6bc6fb.jpg",
+        "image": "assets/dishes/sources/cn-001-tomato-egg/step-05.jpg",
         "imageSource": "https://www.douguo.com/cookbook/1192179.html"
       },
       {
@@ -110,12 +110,12 @@ window.YANHUO_RECIPES = [
         "ingredientsUsed": [],
         "gameAction": "add",
         "safetyNote": "",
-        "image": "https://cp1.douguo.com/upload/caiku/3/e/2/600_3e57816522f39809b1903083c1baddb2.jpg",
+        "image": "assets/dishes/sources/cn-001-tomato-egg/step-06.jpg",
         "imageSource": "https://www.douguo.com/cookbook/1192179.html"
       }
     ],
-    "imageThumb": "https://cp1.douguo.com/upload/caiku/4/c/1/600_4c8a34f6246664ad31d9be666c411551.jpg",
-    "imageFull": "https://cp1.douguo.com/upload/caiku/4/c/1/600_4c8a34f6246664ad31d9be666c411551.jpg",
+    "imageThumb": "assets/dishes/sources/cn-001-tomato-egg/hero.jpg",
+    "imageFull": "assets/dishes/sources/cn-001-tomato-egg/hero.jpg",
     "source": "https://www.douguo.com/cookbook/1192179.html",
     "media": {
       "sourceName": "豆果美食",
@@ -123,7 +123,8 @@ window.YANHUO_RECIPES = [
       "mediaPageUrl": "https://m.douguo.com/recipe/imgs/1192179",
       "author": "乐悠厨房",
       "rightsNotice": "©本菜谱的做法由 乐悠厨房 编写，未经授权不得转载",
-      "reuseLicense": null
+      "reuseLicense": null,
+      "repositoryCopyAuthorization": "user_confirmed_2026-09-16"
     },
     "time": 55,
     "difficulty": "适中",

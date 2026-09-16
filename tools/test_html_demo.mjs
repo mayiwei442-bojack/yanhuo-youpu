@@ -226,12 +226,12 @@ try {
 
   await page.goto(`${baseUrl}#/recipe/cn-001`, { waitUntil: "load" });
   await page.waitForSelector(".detail-page");
-  assert((await page.locator(".detail-hero > img").getAttribute("src") || "").includes("600_4c8a34f6246664ad31d9be666c411551.jpg"), "番茄炒蛋没有使用核验后的同源成品图");
+  assert((await page.locator(".detail-hero > img").getAttribute("src") || "").includes("assets/dishes/sources/cn-001-tomato-egg/hero.jpg"), "番茄炒蛋没有使用复制进仓库的同源成品图");
   assert(await page.locator(".step-preview-image").count() === 6, "番茄炒蛋没有为全部 6 个步骤显示同源图片");
   assert(await page.locator(".step-preview .image-attribution").count() === 6, "番茄炒蛋逐步图片缺少同源归属链接");
   await page.goto(`${baseUrl}#/cook/cn-001`, { waitUntil: "load" });
   await page.waitForSelector(".cook-step-image");
-  assert((await page.locator(".cook-step-image").getAttribute("src") || "").includes("600_d16ec4970939a44dc91b596784fa7145.jpg"), "图文烹饪模式没有显示番茄炒蛋第 1 步同源图片");
+  assert((await page.locator(".cook-step-image").getAttribute("src") || "").includes("assets/dishes/sources/cn-001-tomato-egg/step-01.jpg"), "图文烹饪模式没有显示番茄炒蛋第 1 步仓库图片");
 
   await page.goto(`${baseUrl}#/recipe/${recipeId}`, { waitUntil: "load" });
   await page.waitForSelector(".detail-page");

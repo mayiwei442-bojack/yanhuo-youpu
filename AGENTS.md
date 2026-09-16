@@ -13,4 +13,4 @@ For an automated recipe run:
 7. Never call DeepSeek, OpenAI Chat Completions, or another standalone chat-model API for the three roles. Do not run `npm run test:ai` in scheduled validation.
 8. Never edit `data/recipes.js` directly. Regenerate it with `node tools/build_html_demo_data.mjs`.
 9. A recipe is `done` only after Reviewer PASS, deterministic tests PASS, commit succeeds, and push to the automation branch succeeds.
-10. Stop and persist the failure if a required source, ingestion, validation, review, build, commit, or push step fails.
+10. If a required source, ingestion, validation, review, or recipe-specific build step fails, persist that recipe as `failed`, skip its publication, and continue with the next recipe in the batch. Stop the whole batch only when repository integrity, shared infrastructure, commit, or push failure makes safe continuation impossible.

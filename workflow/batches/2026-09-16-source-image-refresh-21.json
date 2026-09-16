@@ -1,0 +1,43 @@
+{
+  "batchId": "2026-09-16-source-image-refresh-21",
+  "startedAt": "2026-09-16T12:22:50.0734629+08:00",
+  "completedAt": null,
+  "status": "in_progress",
+  "branch": "codex/recipe-automation",
+  "policyVersion": "2026-09-16-single-whole-source-local-images",
+  "supersedes": "workflow/reports/recipe-source-image-refresh-2026-09-11.md",
+  "authorization": {
+    "repositoryImageCopy": true,
+    "confirmedByUserAt": "2026-09-16"
+  },
+  "selectionPolicy": [
+    "single qualifying source: use directly",
+    "multiple qualifying sources: completeness/internal coherence, then image availability and coverage, then step richness, then ingredient richness",
+    "publish exactly one whole source without cross-source supplementation",
+    "runtime images must be repository-local while original URLs remain provenance"
+  ],
+  "failurePolicy": "Persist and skip the failed recipe, then continue; stop the batch only when shared infrastructure or repository publication cannot safely continue.",
+  "recipes": [
+    { "id": "cn-001", "name": "番茄炒蛋", "status": "in_progress", "reason": "Migrating previously verified images from remote runtime URLs to repository-local assets." },
+    { "id": "cn-002", "name": "宫保鸡丁", "status": "pending", "reason": "Retrying the historical image failure under the new partial step-image coverage rule." },
+    { "id": "cn-003", "name": "麻婆豆腐", "status": "pending", "reason": null },
+    { "id": "cn-004", "name": "鱼香肉丝", "status": "pending", "reason": null },
+    { "id": "cn-005", "name": "青椒肉丝", "status": "pending", "reason": null },
+    { "id": "cn-006", "name": "红烧肉", "status": "pending", "reason": null },
+    { "id": "cn-007", "name": "糖醋里脊", "status": "pending", "reason": null },
+    { "id": "cn-008", "name": "扬州炒饭", "status": "pending", "reason": null },
+    { "id": "cn-009", "name": "清蒸鲈鱼", "status": "pending", "reason": null },
+    { "id": "cn-010", "name": "地三鲜", "status": "pending", "reason": null },
+    { "id": "cn-011", "name": "桂林米粉", "status": "pending", "reason": null },
+    { "id": "cn-024", "name": "锅包肉", "status": "pending", "reason": null },
+    { "id": "cn-027", "name": "蒜蓉粉丝蒸扇贝", "status": "pending", "reason": null },
+    { "id": "cn-029", "name": "干煸四季豆", "status": "pending", "reason": null },
+    { "id": "cn-036", "name": "莲藕排骨汤", "status": "pending", "reason": null },
+    { "id": "cn-054", "name": "豉汁蒸排骨", "status": "pending", "reason": null },
+    { "id": "west-004", "name": "凯撒沙拉", "status": "pending", "reason": null },
+    { "id": "west-006", "name": "法式洋葱汤", "status": "pending", "reason": null },
+    { "id": "west-011", "name": "意式培根蛋面", "status": "pending", "reason": null },
+    { "id": "west-012", "name": "千层面", "status": "pending", "reason": null },
+    { "id": "west-020", "name": "牧羊人派", "status": "pending", "reason": null }
+  ]
+}

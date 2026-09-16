@@ -14,18 +14,21 @@ export const chinese = [
     author: "乐悠厨房",
     rightsNotice: "©本菜谱的做法由 乐悠厨房 编写，未经授权不得转载",
     reuseLicense: null,
+    repositoryCopyAuthorization: "user_confirmed_2026-09-16",
     hero: {
-      url: "https://cp1.douguo.com/upload/caiku/4/c/1/600_4c8a34f6246664ad31d9be666c411551.jpg",
+      path: "assets/dishes/sources/cn-001-tomato-egg/hero.jpg",
+      originalUrl: "https://cp1.douguo.com/upload/caiku/4/c/1/600_4c8a34f6246664ad31d9be666c411551.jpg",
+      sha256: "3029a1cd4894c37c99a9768b3f33455d04185a10921b30625de476ce226a8c06",
       httpStatus: 200,
       contentType: "image/jpeg"
     },
     steps: [
-      { stepOrder: 1, url: "https://cp1.douguo.com/upload/caiku/d/1/5/600_d16ec4970939a44dc91b596784fa7145.jpg", httpStatus: 200, contentType: "image/jpeg" },
-      { stepOrder: 2, url: "https://cp1.douguo.com/upload/caiku/d/8/3/600_d8717ab7eb3ec403854a22f03ea79753.jpg", httpStatus: 200, contentType: "image/jpeg" },
-      { stepOrder: 3, url: "https://cp1.douguo.com/upload/caiku/f/6/1/600_f64de097ff0782fc2bd339ccead67341.jpg", httpStatus: 200, contentType: "image/jpeg" },
-      { stepOrder: 4, url: "https://cp1.douguo.com/upload/caiku/b/2/b/600_b258732cc6e830a7448cdec7baac38fb.jpg", httpStatus: 200, contentType: "image/jpeg" },
-      { stepOrder: 5, url: "https://cp1.douguo.com/upload/caiku/4/f/b/600_4f644799eed12ebf23400f2b6e6bc6fb.jpg", httpStatus: 200, contentType: "image/jpeg" },
-      { stepOrder: 6, url: "https://cp1.douguo.com/upload/caiku/3/e/2/600_3e57816522f39809b1903083c1baddb2.jpg", httpStatus: 200, contentType: "image/jpeg" }
+      { stepOrder: 1, path: "assets/dishes/sources/cn-001-tomato-egg/step-01.jpg", originalUrl: "https://cp1.douguo.com/upload/caiku/d/1/5/600_d16ec4970939a44dc91b596784fa7145.jpg", sha256: "bc2fea2d2906b7be606b78ff6ce56be27290c496dadeac585533f8279ed59018", httpStatus: 200, contentType: "image/jpeg" },
+      { stepOrder: 2, path: "assets/dishes/sources/cn-001-tomato-egg/step-02.jpg", originalUrl: "https://cp1.douguo.com/upload/caiku/d/8/3/600_d8717ab7eb3ec403854a22f03ea79753.jpg", sha256: "5385ff2b4774fe3e50c35d47f81279fd044acf6709e6cd8f42e4e78919f56640", httpStatus: 200, contentType: "image/jpeg" },
+      { stepOrder: 3, path: "assets/dishes/sources/cn-001-tomato-egg/step-03.jpg", originalUrl: "https://cp1.douguo.com/upload/caiku/f/6/1/600_f64de097ff0782fc2bd339ccead67341.jpg", sha256: "1f7d67f5a85ebf8369650a887f8c681954643deb40f1a14ed925ee655607ea5d", httpStatus: 200, contentType: "image/jpeg" },
+      { stepOrder: 4, path: "assets/dishes/sources/cn-001-tomato-egg/step-04.jpg", originalUrl: "https://cp1.douguo.com/upload/caiku/b/2/b/600_b258732cc6e830a7448cdec7baac38fb.jpg", sha256: "599c6275848ffaf522e27a81c69f6a7f6d3db2543b767d3c5e335e6e40fe9ff5", httpStatus: 200, contentType: "image/jpeg" },
+      { stepOrder: 5, path: "assets/dishes/sources/cn-001-tomato-egg/step-05.jpg", originalUrl: "https://cp1.douguo.com/upload/caiku/4/f/b/600_4f644799eed12ebf23400f2b6e6bc6fb.jpg", sha256: "b026da1a1bbc6ce4510769fca0f3e431b60685beb0bc44483e68b269c6a0b427", httpStatus: 200, contentType: "image/jpeg" },
+      { stepOrder: 6, path: "assets/dishes/sources/cn-001-tomato-egg/step-06.jpg", originalUrl: "https://cp1.douguo.com/upload/caiku/3/e/2/600_3e57816522f39809b1903083c1baddb2.jpg", sha256: "626474ca090cdc8b65a89b0e6cdaf7018c21f14ad5376ea0c79015111f5e489e", httpStatus: 200, contentType: "image/jpeg" }
     ]
   }),
   c("宫保鸡丁", "Kung Pao Chicken", "川菜", "生花生米适量；鸡胸肉约340克，切约2厘米丁；食用油适量（分次用于炒花生、腌鸡、煎鸡和炒香料）；腌料：玉米淀粉1茶匙、绍兴酒1茶匙、盐1/8茶匙、白胡椒粉1撮；碗汁：生抽1汤匙、老抽1/2茶匙、米醋1汤匙、白糖1茶匙、清水3汤匙、玉米淀粉1茶匙；大蒜3瓣；姜2薄片；干红辣椒2个；花椒粉1/2茶匙；葱白6根，切约2厘米段", "1）炒锅以中火烧热，加入适量食用油，再放入适量生花生米，不断翻炒3分钟防止焦煳；关火后利用余温继续翻炒1分钟，盛出彻底放凉，花生会在冷却后变酥。2）将约340克鸡胸肉切成约2厘米丁，加入适量食用油、1茶匙玉米淀粉、1茶匙绍兴酒、1/8茶匙盐和1撮白胡椒粉，拌匀后腌20分钟。3）将1汤匙生抽、1/2茶匙老抽、1汤匙米醋、1茶匙白糖、3汤匙清水和1茶匙玉米淀粉依次放入碗中，充分搅匀备用。4）炒锅以高火烧热，另加入适量食用油，下腌好的鸡丁煎至表面上色，盛出备用。5）转小火，再另加适量食用油，依次放入切片的大蒜、切末的姜、干红辣椒、花椒粉和切成约2厘米段的葱白，翻炒1—2分钟至出香。6）倒回鸡丁，转高火翻炒1分钟；再次搅匀碗汁，使沉底的淀粉重新混合后倒入锅中，再高火翻炒1分钟，至酱汁迅速变稠并均匀裹住鸡丁。7）加入完全放凉的花生米，快速翻匀后立即出锅。", "02-gongbao-jiding.png"),
