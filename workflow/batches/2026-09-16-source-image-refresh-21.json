@@ -18,26 +18,131 @@
   ],
   "failurePolicy": "Persist and skip the failed recipe, then continue; stop the batch only when shared infrastructure or repository publication cannot safely continue.",
   "recipes": [
-    { "id": "cn-001", "name": "番茄炒蛋", "status": "done", "reason": "豆果单一完整信源；本地图片迁移完成，对抗性复核 PASS。" },
-    { "id": "cn-002", "name": "宫保鸡丁", "status": "done", "reason": "The Woks of Life 单一完整信源；新运行修正油量和油种表达，Reviewer 对抗性复核及确定性测试 PASS，已提交并推送 f892dff。" },
-    { "id": "cn-003", "name": "麻婆豆腐", "status": "done", "reason": "The Woks of Life 单一完整信源；修复食材说明被分号拆成假食材的问题，对抗性复核及确定性测试 PASS，修复提交 f892dff 已推送。" },
-    { "id": "cn-004", "name": "鱼香肉丝", "status": "pending", "reason": null },
-    { "id": "cn-005", "name": "青椒肉丝", "status": "pending", "reason": null },
-    { "id": "cn-006", "name": "红烧肉", "status": "pending", "reason": null },
-    { "id": "cn-007", "name": "糖醋里脊", "status": "pending", "reason": null },
-    { "id": "cn-008", "name": "扬州炒饭", "status": "pending", "reason": null },
-    { "id": "cn-009", "name": "清蒸鲈鱼", "status": "done", "reason": "豆果两条完整候选中因 8/8 步骤图覆盖率被选中；Reviewer PASS 、确定性测试 PASS，已提交并推送 6981feb。" },
-    { "id": "cn-010", "name": "地三鲜", "status": "pending", "reason": null },
-    { "id": "cn-011", "name": "桂林米粉", "status": "pending", "reason": null },
-    { "id": "cn-024", "name": "锅包肉", "status": "pending", "reason": null },
-    { "id": "cn-027", "name": "蒜蓉粉丝蒸扇贝", "status": "pending", "reason": null },
-    { "id": "cn-029", "name": "干煸四季豆", "status": "pending", "reason": null },
-    { "id": "cn-036", "name": "莲藕排骨汤", "status": "pending", "reason": null },
-    { "id": "cn-054", "name": "豉汁蒸排骨", "status": "pending", "reason": null },
-    { "id": "west-004", "name": "凯撒沙拉", "status": "pending", "reason": null },
-    { "id": "west-006", "name": "法式洋葱汤", "status": "pending", "reason": null },
-    { "id": "west-011", "name": "意式培根蛋面", "status": "pending", "reason": null },
-    { "id": "west-012", "name": "千层面", "status": "pending", "reason": null },
-    { "id": "west-020", "name": "牧羊人派", "status": "pending", "reason": null }
+    {
+      "id": "cn-001",
+      "name": "番茄炒蛋",
+      "status": "done",
+      "reason": "豆果单一完整信源；本地图片迁移完成，对抗性复核 PASS。"
+    },
+    {
+      "id": "cn-002",
+      "name": "宫保鸡丁",
+      "status": "done",
+      "reason": "The Woks of Life 单一完整信源；新运行修正油量和油种表达，Reviewer 对抗性复核及确定性测试 PASS，已提交并推送 f892dff。"
+    },
+    {
+      "id": "cn-003",
+      "name": "麻婆豆腐",
+      "status": "done",
+      "reason": "The Woks of Life 单一完整信源；修复食材说明被分号拆成假食材的问题，对抗性复核及确定性测试 PASS，修复提交 f892dff 已推送。"
+    },
+    {
+      "id": "cn-004",
+      "name": "鱼香肉丝",
+      "status": "in_progress",
+      "reason": "2026-09-19 继续执行：内容、图片、验证和审查已完成，正在提交并推送。"
+    },
+    {
+      "id": "cn-005",
+      "name": "青椒肉丝",
+      "status": "pending",
+      "reason": null
+    },
+    {
+      "id": "cn-006",
+      "name": "红烧肉",
+      "status": "pending",
+      "reason": null
+    },
+    {
+      "id": "cn-007",
+      "name": "糖醋里脊",
+      "status": "pending",
+      "reason": null
+    },
+    {
+      "id": "cn-008",
+      "name": "扬州炒饭",
+      "status": "pending",
+      "reason": null
+    },
+    {
+      "id": "cn-009",
+      "name": "清蒸鲈鱼",
+      "status": "done",
+      "reason": "豆果两条完整候选中因 8/8 步骤图覆盖率被选中；Reviewer PASS 、确定性测试 PASS，已提交并推送 6981feb。"
+    },
+    {
+      "id": "cn-010",
+      "name": "地三鲜",
+      "status": "pending",
+      "reason": null
+    },
+    {
+      "id": "cn-011",
+      "name": "桂林米粉",
+      "status": "pending",
+      "reason": null
+    },
+    {
+      "id": "cn-024",
+      "name": "锅包肉",
+      "status": "pending",
+      "reason": null
+    },
+    {
+      "id": "cn-027",
+      "name": "蒜蓉粉丝蒸扇贝",
+      "status": "pending",
+      "reason": null
+    },
+    {
+      "id": "cn-029",
+      "name": "干煸四季豆",
+      "status": "pending",
+      "reason": null
+    },
+    {
+      "id": "cn-036",
+      "name": "莲藕排骨汤",
+      "status": "pending",
+      "reason": null
+    },
+    {
+      "id": "cn-054",
+      "name": "豉汁蒸排骨",
+      "status": "pending",
+      "reason": null
+    },
+    {
+      "id": "west-004",
+      "name": "凯撒沙拉",
+      "status": "pending",
+      "reason": null
+    },
+    {
+      "id": "west-006",
+      "name": "法式洋葱汤",
+      "status": "pending",
+      "reason": null
+    },
+    {
+      "id": "west-011",
+      "name": "意式培根蛋面",
+      "status": "pending",
+      "reason": null
+    },
+    {
+      "id": "west-012",
+      "name": "千层面",
+      "status": "pending",
+      "reason": null
+    },
+    {
+      "id": "west-020",
+      "name": "牧羊人派",
+      "status": "pending",
+      "reason": null
+    }
   ]
 }

@@ -1,0 +1,70 @@
+{
+  "recipeId": "cn-004",
+  "createdAt": "2026-09-19T16:22:00+08:00",
+  "sourceMode": "single_source",
+  "singleSourceReason": "两个白名单来源均已复核。The Woks of Life 的页面名称明确对应鱼香肉丝，原料表覆盖全部烹饪步骤所用食材，7 个步骤均完整且内部自洽，并有成品图和可准确映射至 5/7 个步骤的同页图片。豆果 1568192 的原料表未列食用油，步骤却两次要求加油，且原料表为剁椒、步骤写泡椒；因此不能作为完整自洽的候选，未用其补充文字或图片。",
+  "selectedSourceUrl": "https://thewoksoflife.com/pork-garlic-sauce/",
+  "selectionReason": "唯一合格来源 The Woks of Life 保留了腌肉、调汁、分次用油、火力变化、时间和成菜状态等完整操作细节；运行时只采用该页图片，步骤 2（调汁）和步骤 4（检查并清洗炒锅）无独立图片，保留为文字步骤。",
+  "qualifyingSourceUrls": [
+    "https://thewoksoflife.com/pork-garlic-sauce/"
+  ],
+  "assessments": {
+    "https://thewoksoflife.com/pork-garlic-sauce/": {
+      "qualifies": true,
+      "ingredientCoverage": "complete",
+      "stepCoverage": "complete",
+      "internalCoherence": "coherent",
+      "heroImages": 1,
+      "mappedStepImages": 5,
+      "stepImageCoverage": 0.7142857142857143,
+      "ingredientCount": 21,
+      "executableStepCount": 7,
+      "notes": [
+        "步骤 2 和步骤 4 没有可准确映射的独立图片；不以其他来源填补。"
+      ]
+    }
+  },
+  "media": {
+    "recipePageUrl": "https://thewoksoflife.com/pork-garlic-sauce/",
+    "mediaPageUrl": "https://thewoksoflife.com/pork-garlic-sauce/",
+    "sourceName": "The Woks of Life",
+    "author": "Judy",
+    "rightsNotice": "All Rights Reserved © The Woks of Life",
+    "reuseLicense": null,
+    "hero": {
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/07/pork-garlic-sauce-2.jpg"
+    },
+    "steps": [
+      {
+        "stepOrder": 1,
+        "adjacentText": "First, combine the pork with the marinade ingredients and prepare the remaining ingredients.",
+        "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/07/pork-garlic-sauce-7.jpg"
+      },
+      {
+        "stepOrder": 3,
+        "adjacentText": "Cook the marinated pork over high heat just until opaque, then transfer it out.",
+        "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/07/pork-garlic-sauce-8.jpg"
+      },
+      {
+        "stepOrder": 5,
+        "adjacentText": "Cook spicy bean sauce with aromatics until the oil turns red.",
+        "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/07/pork-garlic-sauce-9.jpg"
+      },
+      {
+        "stepOrder": 6,
+        "adjacentText": "Add the wood ears and celtuce to the wok with the aromatics.",
+        "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/07/pork-garlic-sauce-10.jpg"
+      },
+      {
+        "stepOrder": 7,
+        "adjacentText": "Return the cooked pork with the sauce and vegetables before the final stir-fry.",
+        "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/07/pork-garlic-sauce-11.jpg"
+      }
+    ]
+  },
+  "notes": [
+    "已复用未变更的 RAG 文档 e6c112e9-6d7d-4a60-961f-7057aafc2a6e；不重复向量化。",
+    "豆果 1568192 已作为尝试来源记录，但因原料与步骤不自洽被排除。",
+    "用户已于 2026-09-16 确认可复制授权图片；运行时仅使用仓库本地路径。"
+  ]
+}

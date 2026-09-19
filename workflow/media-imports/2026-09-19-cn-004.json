@@ -1,0 +1,64 @@
+{
+  "recipeId": "cn-004",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/07/pork-garlic-sauce-2.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-004-yuxiang-rousi/hero.jpg",
+      "sha256": "124933bdf24095babc7121368a721f3f582114ebd231050fea060a171d1d207b",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 138496
+    },
+    {
+      "role": "step",
+      "stepOrder": 1,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/07/pork-garlic-sauce-7.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-004-yuxiang-rousi/step-1.jpg",
+      "sha256": "34d952533a5b322b225c2d96ebb1f27535166d192aacbcf5ea56df6b200086bd",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 74536
+    },
+    {
+      "role": "step",
+      "stepOrder": 3,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/07/pork-garlic-sauce-8.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-004-yuxiang-rousi/step-3.jpg",
+      "sha256": "0eccb3383b2998f5e5b614f65ce1511b28a4eb86466e90d1fe684513af886e6a",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 50541
+    },
+    {
+      "role": "step",
+      "stepOrder": 5,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/07/pork-garlic-sauce-9.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-004-yuxiang-rousi/step-5.jpg",
+      "sha256": "e8ea3fa493ffbdf2610eeae0dea12bd4e48537e5d69ee8b474a78ff84e003dc6",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 41884
+    },
+    {
+      "role": "step",
+      "stepOrder": 6,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/07/pork-garlic-sauce-10.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-004-yuxiang-rousi/step-6.jpg",
+      "sha256": "59af79a8b2762de0091f2b632fa300f5cea5bdc9532c0a8810de360e788ac8af",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 46660
+    },
+    {
+      "role": "step",
+      "stepOrder": 7,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/07/pork-garlic-sauce-11.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-004-yuxiang-rousi/step-7.jpg",
+      "sha256": "4085bacb0b3d9419a5c75736a2f8ccb989fa0750ef1742a70ee2b59ed83cdac0",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 56562
+    }
+  ]
+}

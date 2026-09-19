@@ -539,25 +539,25 @@ window.YANHUO_RECIPES = [
       {
         "id": "ingredient-01",
         "name": "猪肉",
-        "label": "猪肉约227克",
+        "label": "猪肉8盎司，切丝",
         "isCore": true
       },
       {
         "id": "ingredient-02",
-        "name": "腌料：食用油、绍兴酒",
-        "label": "腌料：食用油适量、绍兴酒1茶匙、生抽2茶匙、白胡椒粉1/4茶匙、玉米淀粉1茶匙、清水1又1/2汤匙",
+        "name": "腌料：食用油",
+        "label": "腌料：食用油2茶匙、绍兴酒1茶匙、生抽2茶匙、白胡椒粉1/4茶匙、玉米淀粉1茶匙、清水1又1/2汤匙",
         "isCore": false
       },
       {
         "id": "ingredient-03",
         "name": "鱼香汁：米醋",
-        "label": "鱼香汁：米醋1又1/2汤匙、白糖1又1/2汤匙、生抽1汤匙、绍兴酒1/2汤匙、清水适量、玉米淀粉1又1/2汤匙",
+        "label": "鱼香汁：米醋1又1/2汤匙、白糖1又1/2汤匙、生抽1汤匙、绍兴酒1/2汤匙、清水1杯、玉米淀粉1又1/2汤匙",
         "isCore": false
       },
       {
         "id": "ingredient-04",
-        "name": "炒制用食用油（分次使用）",
-        "label": "炒制用食用油适量（分次使用）",
+        "name": "炒制用食用油",
+        "label": "炒制用食用油3汤匙，分次使用",
         "isCore": false
       },
       {
@@ -568,61 +568,63 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "ingredient-06",
-        "name": "姜末",
-        "label": "姜末2茶匙",
+        "name": "姜",
+        "label": "姜2茶匙，切末",
         "isCore": false
       },
       {
         "id": "ingredient-07",
-        "name": "蒜末",
-        "label": "蒜末2茶匙",
+        "name": "蒜",
+        "label": "蒜2茶匙，切末",
         "isCore": false
       },
       {
         "id": "ingredient-08",
         "name": "干辣椒",
-        "label": "干辣椒适量",
+        "label": "干辣椒1/4杯",
         "isCore": true
       },
       {
         "id": "ingredient-09",
-        "name": "泡发木耳丝",
-        "label": "泡发木耳丝适量",
+        "name": "泡发木耳",
+        "label": "泡发木耳1满杯，切丝",
         "isCore": false
       },
       {
         "id": "ingredient-10",
         "name": "莴笋",
-        "label": "莴笋约227克",
+        "label": "莴笋8盎司，去皮切丝",
         "isCore": false
       },
       {
         "id": "ingredient-11",
         "name": "葱",
-        "label": "葱1根",
+        "label": "葱1根，切碎",
         "isCore": false
       },
       {
         "id": "ingredient-12",
-        "name": "防干用清水少量",
-        "label": "防干用清水少量",
+        "name": "清水数滴（锅太干时）",
+        "label": "清水数滴（锅太干时）",
         "isCore": false
       }
     ],
     "steps": [
       {
         "id": "step-01",
-        "instruction": "将约227克猪肉切丝，依次加入适量食用油、1茶匙绍兴酒、2茶匙生抽、1/4茶匙白胡椒粉、1茶匙玉米淀粉和1又1/2汤匙清水，拌匀后腌20分钟。其间将约227克莴笋去皮切丝、泡发木耳切丝、葱切末，并备好姜末、蒜末和干辣椒。",
+        "instruction": "将8盎司猪肉切丝，加入2茶匙食用油、1茶匙绍兴酒、2茶匙生抽、1/4茶匙白胡椒粉、1茶匙玉米淀粉和1又1/2汤匙清水，拌匀后静置20分钟；其间将莴笋去皮切丝、泡发木耳切丝、葱切碎，并备好姜末、蒜末和干辣椒。",
         "duration": 1200,
         "heat": "medium",
         "timerRequired": true,
         "ingredientsUsed": [],
         "gameAction": "add",
-        "safetyNote": ""
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-004-yuxiang-rousi/step-1.jpg",
+        "imageSource": "https://thewoksoflife.com/pork-garlic-sauce/"
       },
       {
         "id": "step-02",
-        "instruction": "将1又1/2汤匙米醋、1又1/2汤匙白糖、1汤匙生抽、1/2汤匙绍兴酒、适量清水和1又1/2汤匙玉米淀粉依次放入碗中，充分搅匀成鱼香汁。",
+        "instruction": "将1又1/2汤匙米醋、1又1/2汤匙白糖、1汤匙生抽、1/2汤匙绍兴酒、1杯清水和1又1/2汤匙玉米淀粉放入碗中，充分搅匀成鱼香汁。",
         "duration": 180,
         "heat": "medium",
         "timerRequired": false,
@@ -632,48 +634,75 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "step-03",
-        "instruction": "将干净炒锅预热至微微冒烟，转高火，先加入适量食用油，再下腌好的猪肉丝炒至不透明；关火，盛出备用。",
+        "instruction": "将干净炒锅预热至微微冒烟，转高火，加入1汤匙炒制用食用油；下腌好的猪肉丝炒至刚刚不透明，关火后盛出备用。",
         "duration": 180,
         "heat": "medium",
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "add",
-        "safetyNote": ""
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-004-yuxiang-rousi/step-3.jpg",
+        "imageSource": "https://thewoksoflife.com/pork-garlic-sauce/"
       },
       {
         "id": "step-04",
-        "instruction": "检查炒锅；若有残渣则洗净并擦干。开中火，另加入适量食用油和1汤匙辣豆瓣酱，轻轻翻炒约1分钟至油变红，必要时调低火力以免炒焦。",
+        "instruction": "检查炒锅；若锅中不干净，洗净并擦干，再开始下一阶段。",
+        "duration": 180,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-05",
+        "instruction": "开中火，加入剩余2汤匙炒制用食用油和1汤匙辣豆瓣酱，轻轻翻炒约1分钟至油变红；如有必要调低火力，避免炒焦。",
         "duration": 60,
         "heat": "medium",
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "add",
-        "safetyNote": ""
-      },
-      {
-        "id": "step-05",
-        "instruction": "依次加入2茶匙姜末、2茶匙蒜末和适量干辣椒，翻炒约15秒；放入适量木耳丝，转高火炒30秒，若锅中太干可滴入少量清水。",
-        "duration": 120,
-        "heat": "medium",
-        "timerRequired": false,
-        "ingredientsUsed": [],
-        "gameAction": "add",
-        "safetyNote": ""
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-004-yuxiang-rousi/step-5.jpg",
+        "imageSource": "https://thewoksoflife.com/pork-garlic-sauce/"
       },
       {
         "id": "step-06",
-        "instruction": "若加了防干水，待锅中液体开始冒泡；将鱼香汁再次搅匀，使沉底淀粉重新混合，再与莴笋丝、葱末和炒过的猪肉丝一同下锅，快速翻炒均匀后出锅。",
+        "instruction": "加入2茶匙姜末、2茶匙蒜末和1/4杯干辣椒，翻炒约15秒；加入1满杯泡发木耳，转高火翻炒30秒至混合均匀，锅中太干时加入数滴清水。",
         "duration": 120,
         "heat": "medium",
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "add",
-        "safetyNote": ""
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-004-yuxiang-rousi/step-6.jpg",
+        "imageSource": "https://thewoksoflife.com/pork-garlic-sauce/"
+      },
+      {
+        "id": "step-07",
+        "instruction": "待锅中液体开始冒泡，将鱼香汁再次搅匀，使沉底的淀粉重新混合；随即与8盎司莴笋丝、1根葱和炒好的猪肉丝一同下锅，快速翻炒均匀后出锅。",
+        "duration": 120,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-004-yuxiang-rousi/step-7.jpg",
+        "imageSource": "https://thewoksoflife.com/pork-garlic-sauce/"
       }
     ],
-    "imageThumb": "assets/dishes/thumbnails/04-yuxiang-rousi.jpg",
-    "imageFull": "assets/dishes/ai/04-yuxiang-rousi.png",
-    "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
+    "imageThumb": "assets/dishes/sources/cn-004-yuxiang-rousi/hero.jpg",
+    "imageFull": "assets/dishes/sources/cn-004-yuxiang-rousi/hero.jpg",
+    "source": "https://thewoksoflife.com/pork-garlic-sauce/",
+    "media": {
+      "sourceName": "The Woks of Life",
+      "recipePageUrl": "https://thewoksoflife.com/pork-garlic-sauce/",
+      "mediaPageUrl": "https://thewoksoflife.com/pork-garlic-sauce/",
+      "author": "Judy",
+      "rightsNotice": "All Rights Reserved © The Woks of Life",
+      "reuseLicense": null,
+      "repositoryCopyAuthorization": "user_confirmed_2026-09-16"
+    },
     "time": 25,
     "difficulty": "进阶",
     "defaultServings": 2,

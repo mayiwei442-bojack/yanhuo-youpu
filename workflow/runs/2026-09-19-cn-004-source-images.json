@@ -1,0 +1,23 @@
+{
+  "runId": "2026-09-19-cn-004-source-images",
+  "recipeId": "cn-004",
+  "recipeName": "鱼香肉丝",
+  "category": "chinese",
+  "status": "in_progress",
+  "startedAt": "2026-09-19T16:05:00+08:00",
+  "steps": {
+    "research": { "status": "done", "attempts": 1, "details": { "selectedSource": "https://thewoksoflife.com/pork-garlic-sauce/", "sourceMode": "single_source", "rejectedSource": "https://www.douguo.com/cookbook/1568192.html", "rejectionReason": "原料表漏列食用油且剁椒/泡椒前后不一致。" } },
+    "ingestion": { "status": "done", "attempts": 0, "details": { "documentId": "e6c112e9-6d7d-4a60-961f-7057aafc2a6e", "result": "reused_unchanged" } },
+    "edit": { "status": "done", "attempts": 1, "details": { "source": "The Woks of Life", "localMedia": "hero + steps 1,3,5,6,7" } },
+    "validator": { "status": "done", "attempts": 2, "details": { "passed": true, "targetOnly": true, "sourceChangeAllowed": true } },
+    "review": { "status": "done", "attempts": 1, "details": { "status": "PASS", "artifact": "workflow/reviews/2026-09-19-cn-004-adversarial.json", "adversarialReviewPassed": true } },
+    "build": { "status": "done", "attempts": 1, "details": { "suite": "npm run test:workflow:deterministic", "passed": true, "localBrowser": "PASS: hero and five mapped images loaded; no console errors or overlay" } },
+    "gitPush": { "status": "in_progress", "attempts": 0, "details": { "branch": "codex/recipe-automation" } }
+  },
+  "sources": [
+    { "name": "The Woks of Life", "url": "https://thewoksoflife.com/pork-garlic-sauce/", "status": "success", "failureReason": null },
+    { "name": "豆果美食", "url": "https://www.douguo.com/cookbook/1568192.html", "status": "rejected", "failureReason": "原料表漏列食用油，且剁椒/泡椒前后不一致，不能作为完整自洽候选。" }
+  ],
+  "errors": [],
+  "branch": "codex/recipe-automation"
+}

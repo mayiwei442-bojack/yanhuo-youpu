@@ -77,7 +77,29 @@ export const chinese = [
       { stepOrder: 6, path: "assets/dishes/sources/cn-003-mapo-tofu/step-06-01.jpg", originalUrl: "https://thewoksoflife.com/wp-content/uploads/2019/06/mapo-tofu-11.jpg", sha256: "5514f23c1754966ad03101163e99df78ddd6e5418830f479c0b1b95d0d93c330", httpStatus: 200, contentType: "image/webp" }
     ]
   }),
-  c("鱼香肉丝", "Fish-fragrant Shredded Pork", "川菜", "猪肉约227克；腌料：食用油适量、绍兴酒1茶匙、生抽2茶匙、白胡椒粉1/4茶匙、玉米淀粉1茶匙、清水1又1/2汤匙；鱼香汁：米醋1又1/2汤匙、白糖1又1/2汤匙、生抽1汤匙、绍兴酒1/2汤匙、清水适量、玉米淀粉1又1/2汤匙；炒制用食用油适量（分次使用）；辣豆瓣酱1汤匙；姜末2茶匙；蒜末2茶匙；干辣椒适量；泡发木耳丝适量；莴笋约227克；葱1根；防干用清水少量", "1）将约227克猪肉切丝，依次加入适量食用油、1茶匙绍兴酒、2茶匙生抽、1/4茶匙白胡椒粉、1茶匙玉米淀粉和1又1/2汤匙清水，拌匀后腌20分钟。其间将约227克莴笋去皮切丝、泡发木耳切丝、葱切末，并备好姜末、蒜末和干辣椒。2）将1又1/2汤匙米醋、1又1/2汤匙白糖、1汤匙生抽、1/2汤匙绍兴酒、适量清水和1又1/2汤匙玉米淀粉依次放入碗中，充分搅匀成鱼香汁。3）将干净炒锅预热至微微冒烟，转高火，先加入适量食用油，再下腌好的猪肉丝炒至不透明；关火，盛出备用。4）检查炒锅；若有残渣则洗净并擦干。开中火，另加入适量食用油和1汤匙辣豆瓣酱，轻轻翻炒约1分钟至油变红，必要时调低火力以免炒焦。5）依次加入2茶匙姜末、2茶匙蒜末和适量干辣椒，翻炒约15秒；放入适量木耳丝，转高火炒30秒，若锅中太干可滴入少量清水。6）若加了防干水，待锅中液体开始冒泡；将鱼香汁再次搅匀，使沉底淀粉重新混合，再与莴笋丝、葱末和炒过的猪肉丝一同下锅，快速翻炒均匀后出锅。", "04-yuxiang-rousi.png"),
+  c("鱼香肉丝", "Fish-fragrant Shredded Pork", "川菜", "猪肉8盎司，切丝；腌料：食用油2茶匙、绍兴酒1茶匙、生抽2茶匙、白胡椒粉1/4茶匙、玉米淀粉1茶匙、清水1又1/2汤匙；鱼香汁：米醋1又1/2汤匙、白糖1又1/2汤匙、生抽1汤匙、绍兴酒1/2汤匙、清水1杯、玉米淀粉1又1/2汤匙；炒制用食用油3汤匙，分次使用；辣豆瓣酱1汤匙；姜2茶匙，切末；蒜2茶匙，切末；干辣椒1/4杯；泡发木耳1满杯，切丝；莴笋8盎司，去皮切丝；葱1根，切碎；清水数滴（锅太干时）", "1）将8盎司猪肉切丝，加入2茶匙食用油、1茶匙绍兴酒、2茶匙生抽、1/4茶匙白胡椒粉、1茶匙玉米淀粉和1又1/2汤匙清水，拌匀后静置20分钟；其间将莴笋去皮切丝、泡发木耳切丝、葱切碎，并备好姜末、蒜末和干辣椒。2）将1又1/2汤匙米醋、1又1/2汤匙白糖、1汤匙生抽、1/2汤匙绍兴酒、1杯清水和1又1/2汤匙玉米淀粉放入碗中，充分搅匀成鱼香汁。3）将干净炒锅预热至微微冒烟，转高火，加入1汤匙炒制用食用油；下腌好的猪肉丝炒至刚刚不透明，关火后盛出备用。4）检查炒锅；若锅中不干净，洗净并擦干，再开始下一阶段。5）开中火，加入剩余2汤匙炒制用食用油和1汤匙辣豆瓣酱，轻轻翻炒约1分钟至油变红；如有必要调低火力，避免炒焦。6）加入2茶匙姜末、2茶匙蒜末和1/4杯干辣椒，翻炒约15秒；加入1满杯泡发木耳，转高火翻炒30秒至混合均匀，锅中太干时加入数滴清水。7）待锅中液体开始冒泡，将鱼香汁再次搅匀，使沉底的淀粉重新混合；随即与8盎司莴笋丝、1根葱和炒好的猪肉丝一同下锅，快速翻炒均匀后出锅。", "04-yuxiang-rousi.png", "https://thewoksoflife.com/pork-garlic-sauce/", {
+    sourceName: "The Woks of Life",
+    recipePageUrl: "https://thewoksoflife.com/pork-garlic-sauce/",
+    mediaPageUrl: "https://thewoksoflife.com/pork-garlic-sauce/",
+    author: "Judy",
+    rightsNotice: "All Rights Reserved © The Woks of Life",
+    reuseLicense: null,
+    repositoryCopyAuthorization: "user_confirmed_2026-09-16",
+    hero: {
+      path: "assets/dishes/sources/cn-004-yuxiang-rousi/hero.jpg",
+      originalUrl: "https://thewoksoflife.com/wp-content/uploads/2017/07/pork-garlic-sauce-2.jpg",
+      sha256: "124933bdf24095babc7121368a721f3f582114ebd231050fea060a171d1d207b",
+      httpStatus: 200,
+      contentType: "image/jpeg"
+    },
+    steps: [
+      { stepOrder: 1, path: "assets/dishes/sources/cn-004-yuxiang-rousi/step-1.jpg", originalUrl: "https://thewoksoflife.com/wp-content/uploads/2017/07/pork-garlic-sauce-7.jpg", sha256: "34d952533a5b322b225c2d96ebb1f27535166d192aacbcf5ea56df6b200086bd", httpStatus: 200, contentType: "image/webp" },
+      { stepOrder: 3, path: "assets/dishes/sources/cn-004-yuxiang-rousi/step-3.jpg", originalUrl: "https://thewoksoflife.com/wp-content/uploads/2017/07/pork-garlic-sauce-8.jpg", sha256: "0eccb3383b2998f5e5b614f65ce1511b28a4eb86466e90d1fe684513af886e6a", httpStatus: 200, contentType: "image/jpeg" },
+      { stepOrder: 5, path: "assets/dishes/sources/cn-004-yuxiang-rousi/step-5.jpg", originalUrl: "https://thewoksoflife.com/wp-content/uploads/2017/07/pork-garlic-sauce-9.jpg", sha256: "e8ea3fa493ffbdf2610eeae0dea12bd4e48537e5d69ee8b474a78ff84e003dc6", httpStatus: 200, contentType: "image/jpeg" },
+      { stepOrder: 6, path: "assets/dishes/sources/cn-004-yuxiang-rousi/step-6.jpg", originalUrl: "https://thewoksoflife.com/wp-content/uploads/2017/07/pork-garlic-sauce-10.jpg", sha256: "59af79a8b2762de0091f2b632fa300f5cea5bdc9532c0a8810de360e788ac8af", httpStatus: 200, contentType: "image/jpeg" },
+      { stepOrder: 7, path: "assets/dishes/sources/cn-004-yuxiang-rousi/step-7.jpg", originalUrl: "https://thewoksoflife.com/wp-content/uploads/2017/07/pork-garlic-sauce-11.jpg", sha256: "4085bacb0b3d9419a5c75736a2f8ccb989fa0750ef1742a70ee2b59ed83cdac0", httpStatus: 200, contentType: "image/jpeg" }
+    ]
+  }),
   c("青椒肉丝", "Shredded Pork with Green Pepper", "家常菜", "猪肩肉或猪里脊约227克，切细丝；清水1汤匙；玉米淀粉1茶匙；食用油2茶匙（腌肉）；食用油2汤匙（炒制用，分两次各1汤匙）；绍兴酒1茶匙；蚝油1茶匙；生抽1茶匙；青辣椒6个（约280—340克）；姜2片；大蒜3瓣，切薄片；绍兴酒1汤匙；白糖1/2茶匙；老抽1/2茶匙", "1）将约227克猪肩肉或猪里脊切成细丝，加入1汤匙清水、1茶匙玉米淀粉、2茶匙食用油、1茶匙绍兴酒、1茶匙蚝油和1茶匙生抽，充分拌匀后静置备用；静置期间处理其余配料。2）青辣椒6个去籽，斜切成薄片；备好姜2片，将大蒜3瓣切成薄片。3）炒锅以高火烧至冒烟，加入1汤匙食用油，再下肉丝翻炒2—3分钟，至肉丝边缘微微上色，盛出备用。4）转中高火，加入剩余1汤匙食用油，下姜片、蒜片和青辣椒翻炒30秒—1分钟，至青辣椒表面开始起泡；控制火力，避免蒜片焦煳。沿锅边倒入1汤匙绍兴酒，刮起锅底焦化物并继续翻炒10秒。5）倒回肉丝，加入1/2茶匙白糖和1/2茶匙老抽，转高火再翻炒数秒，至调料均匀裹住肉丝和青辣椒，立即出锅。", "05-qingjiao-rousi.png"),
   c("红烧肉", "Red-braised Pork Belly", "江浙菜", "带皮偏瘦五花肉约680克；食用油适量；冰糖或白砂糖2汤匙；绍兴酒适量；生抽2汤匙；老抽1汤匙；焯水用清水适量（另计）；炖煮用清水适量；补水用清水少量", "1）五花肉切成约2厘米厚的块，放入中号锅中，加入另计的焯水用清水没过肉块；煮沸后继续煮约1分钟，至肉刚变得不透明。捞出五花肉并冲洗，焯肉水全部倒掉，再将锅洗净。2）洗净的锅置于小火，加入适量食用油和2汤匙冰糖或白砂糖；待糖融化后放入焯好的五花肉，转中火煎至表面微微上色。3）转小火，先倒入适量绍兴酒，煮2分钟；再依次加入2汤匙生抽、1汤匙老抽和适量炖煮用清水。4）加盖，以中火焖煮约45—60分钟，至五花肉可用叉子轻松插入；每隔5—10分钟翻动一次防止焦底，只有锅中太干时才补少量清水。5）肉已软嫩后，若锅中仍有较多可见汤汁，揭盖调高火力并持续翻动，收至酱汁成为油亮的薄层并均匀裹住肉块。", "06-hongshao-rou.png"),
   c("糖醋里脊", "Sweet and Sour Pork Tenderloin", "鲁菜/家常", "里脊肉200克；腌料：盐少许、白胡椒粉少许、料酒1勺、鸡蛋1个、淀粉1勺；玉米淀粉适量（裹里脊肉）；糖醋汁：清水3勺、白醋2勺、生抽1勺、番茄酱4勺、白糖2勺、淀粉1勺；食用油适量（炸制并留少量底油煮糖醋汁）；白芝麻适量；佐餐米饭一碗", "1）将200克里脊肉切成条，加入少许盐、少许白胡椒粉、1勺料酒、1个鸡蛋和1勺淀粉，搅拌均匀后腌制半小时。2）另取一碗，加入3勺清水、2勺白醋、1勺生抽、4勺番茄酱、2勺白糖和1勺淀粉，搅匀成糖醋汁备用。3）将腌好的里脊条逐条裹上适量玉米淀粉。4）锅中放入适量食用油烧热；原方未说明具体油温或初炸火力。下入里脊条炸4分钟后捞出。5）将炸过的里脊条倒回原锅复炸1分钟，再捞出。6）锅中留少量底油，倒入调好的糖醋汁，烧至冒泡后转小火。7）倒入复炸好的里脊条，以小火快速翻炒，使每条肉都均匀裹上糖醋汁；装盘后撒适量白芝麻，配一碗米饭食用。", "07-tangcu-liji.png"),
