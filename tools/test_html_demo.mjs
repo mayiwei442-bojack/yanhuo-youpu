@@ -228,7 +228,7 @@ try {
   await page.waitForSelector(".detail-page");
   assert((await page.locator(".detail-hero > img").getAttribute("src") || "").includes("assets/dishes/sources/cn-001-tomato-egg/hero.jpg"), "番茄炒蛋没有使用复制进仓库的同源成品图");
   assert(await page.locator(".step-preview-image").count() === 6, "番茄炒蛋没有为全部 6 个步骤显示同源图片");
-  assert(await page.locator(".step-preview .image-attribution").count() === 6, "番茄炒蛋逐步图片缺少同源归属链接");
+  assert(await page.locator(".step-preview .image-attribution").count() === 0, "步骤图下方仍显示来源说明");
   await page.goto(`${baseUrl}#/cook/cn-001`, { waitUntil: "load" });
   await page.waitForSelector(".cook-step-image");
   assert((await page.locator(".cook-step-image").getAttribute("src") || "").includes("assets/dishes/sources/cn-001-tomato-egg/step-01.jpg"), "图文烹饪模式没有显示番茄炒蛋第 1 步仓库图片");

@@ -708,7 +708,6 @@
                   ${step.image ? `<a class="step-image-link" href="${esc(step.imageSource)}" target="_blank" rel="noreferrer"><img class="step-preview-image" src="${esc(step.image)}" alt="${esc(recipe.name)}第 ${index + 1} 步：${esc(step.instruction)}" loading="lazy"></a>` : ""}
                   <p>${esc(step.instruction)}</p>
                   <span class="step-meta"><b>${heatLabel(step.heat)}火</b><b>${formatDuration(step.duration)}</b>${step.timerRequired ? "<b>可计时</b>" : ""}</span>
-                  ${step.image ? `<a class="image-attribution" href="${esc(step.imageSource)}" target="_blank" rel="noreferrer">步骤图来源：${esc(recipe.media.sourceName)}</a>` : ""}
                 </span>
               </div>
             `).join("")}
@@ -787,7 +786,7 @@
         </div>
         <div class="cook-card">
           <div class="step-big-number">${String(index + 1).padStart(2, "0")}</div>
-          ${step.image ? `<a class="cook-step-image-link" href="${esc(step.imageSource)}" target="_blank" rel="noreferrer"><img class="cook-step-image" src="${esc(step.image)}" alt="${esc(recipe.name)}第 ${index + 1} 步：${esc(step.instruction)}"></a><a class="image-attribution" href="${esc(step.imageSource)}" target="_blank" rel="noreferrer">步骤图来源：${esc(recipe.media.sourceName)}</a>` : ""}
+          ${step.image ? `<a class="cook-step-image-link" href="${esc(step.imageSource)}" target="_blank" rel="noreferrer"><img class="cook-step-image" src="${esc(step.image)}" alt="${esc(recipe.name)}第 ${index + 1} 步：${esc(step.instruction)}"></a>` : ""}
           <h1>${esc(step.instruction)}</h1>
           ${step.safetyNote ? `<div class="cook-note">${esc(step.safetyNote)}</div>` : `<div class="cook-note">先确认上一步已经完成，再继续操作。做饭不用赶，节奏稳定更重要。</div>`}
           <div class="heat-control" aria-label="当前建议火力">
