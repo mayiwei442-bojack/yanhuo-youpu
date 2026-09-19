@@ -1,0 +1,20 @@
+{
+  "runId": "2026-09-20-cn-006-source-images",
+  "recipeId": "cn-006",
+  "recipeName": "红烧肉",
+  "category": "chinese",
+  "status": "in_progress",
+  "startedAt": "2026-09-20T00:20:00+08:00",
+  "steps": {
+    "research": { "status": "in_progress", "attempts": 1, "details": {} },
+    "ingestion": { "status": "pending", "attempts": 0, "details": {} },
+    "edit": { "status": "pending", "attempts": 0, "details": {} },
+    "validator": { "status": "pending", "attempts": 0, "details": {} },
+    "review": { "status": "pending", "attempts": 0, "details": {} },
+    "build": { "status": "pending", "attempts": 0, "details": {} },
+    "gitPush": { "status": "pending", "attempts": 0, "details": {} }
+  },
+  "sources": [],
+  "errors": [],
+  "branch": "codex/recipe-automation"
+}

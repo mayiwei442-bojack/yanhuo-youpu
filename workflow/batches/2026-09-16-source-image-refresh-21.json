@@ -51,8 +51,8 @@
     {
       "id": "cn-006",
       "name": "红烧肉",
-      "status": "pending",
-      "reason": null
+      "status": "in_progress",
+      "reason": "2026-09-20 继续执行：已创建运行记录与编辑前快照，正在复核白名单信源及同源图片。"
     },
     {
       "id": "cn-007",
