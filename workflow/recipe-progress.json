@@ -11,15 +11,15 @@
       "id": "cn-002",
       "name": "宫保鸡丁",
       "status": "done",
-      "lastRunId": "2026-08-31-cn-002-source-unit-fidelity",
-      "completedAt": "2026-08-31T17:04:31.182Z"
+      "lastRunId": "2026-09-19-cn-002-source-images",
+      "completedAt": "2026-09-19T15:40:44.673+08:00"
     },
     {
       "id": "cn-003",
       "name": "麻婆豆腐",
       "status": "done",
-      "lastRunId": "2026-08-31-cn-003-t10c",
-      "completedAt": "2026-08-31T06:20:52.158Z"
+      "lastRunId": "2026-09-19-cn-003-adversarial-review",
+      "completedAt": "2026-09-19T15:40:44.673+08:00"
     },
     {
       "id": "cn-004",
