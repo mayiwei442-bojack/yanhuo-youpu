@@ -9,7 +9,7 @@ For an automated recipe run:
 3. Follow `workflow/prompts/orchestrator.md`. The role contracts are in `workflow/prompts/researcher.md`, `editor.md`, and `reviewer.md`.
 4. Researcher is the only role allowed to search or fetch websites. It may only use enabled sources in `workflow/source-config.json`, must not bypass access controls, and must not edit recipe data or use Git.
 5. Editor receives the evidence package and current target recipe. It must not browse or query RAG, and may modify only the target record in `tools/recipe_data.mjs`.
-6. Reviewer receives the exact same evidence package, edited target, and deterministic validator result. It must not browse, query RAG, edit files, or use Git.
+6. Reviewer receives the exact same evidence package, edited target, and deterministic validator result. It must not browse, query RAG, edit files, or use Git. After evidence and cooking-logic review, it must perform a separate adversarial language review of rendered ingredient rows and steps, including ingredient semantics, sentence grammar, punctuation, balanced brackets, and delimiter safety.
 7. Never call DeepSeek, OpenAI Chat Completions, or another standalone chat-model API for the three roles. Do not run `npm run test:ai` in scheduled validation.
 8. Never edit `data/recipes.js` directly. Regenerate it with `node tools/build_html_demo_data.mjs`.
 9. A recipe is `done` only after Reviewer PASS, deterministic tests PASS, commit succeeds, and push to the automation branch succeeds.

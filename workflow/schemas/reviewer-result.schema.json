@@ -4,7 +4,7 @@
   "title": "Recipe Reviewer Result",
   "type": "object",
   "additionalProperties": false,
-  "required": ["status", "issues", "summary", "evidencePackageHash", "validatorPassed"],
+  "required": ["status", "issues", "summary", "evidencePackageHash", "validatorPassed", "adversarialReview"],
   "properties": {
     "status": { "type": "string", "enum": ["PASS", "FAIL"] },
     "issues": {
@@ -21,7 +21,18 @@
     },
     "summary": { "type": "string" },
     "evidencePackageHash": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
-    "validatorPassed": { "type": "boolean" }
+    "validatorPassed": { "type": "boolean" },
+    "adversarialReview": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["ingredientSemantics", "stepGrammar", "punctuation", "renderedStructure"],
+      "properties": {
+        "ingredientSemantics": { "type": "boolean" },
+        "stepGrammar": { "type": "boolean" },
+        "punctuation": { "type": "boolean" },
+        "renderedStructure": { "type": "boolean" }
+      }
+    }
   },
   "allOf": [
     {
@@ -29,7 +40,15 @@
       "then": {
         "properties": {
           "issues": { "maxItems": 0 },
-          "validatorPassed": { "const": true }
+          "validatorPassed": { "const": true },
+          "adversarialReview": {
+            "properties": {
+              "ingredientSemantics": { "const": true },
+              "stepGrammar": { "const": true },
+              "punctuation": { "const": true },
+              "renderedStructure": { "const": true }
+            }
+          }
         }
       }
     },

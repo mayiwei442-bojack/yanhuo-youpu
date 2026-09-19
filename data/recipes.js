@@ -152,26 +152,26 @@ window.YANHUO_RECIPES = [
     "ingredients": [
       {
         "id": "ingredient-01",
-        "name": "生花生米",
-        "label": "生花生米适量",
-        "isCore": true
+        "name": "炒花生用植物油",
+        "label": "炒花生用植物油1茶匙",
+        "isCore": false
       },
       {
         "id": "ingredient-02",
+        "name": "生花生米",
+        "label": "生花生米1杯（去壳，可带皮或去皮）",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-03",
         "name": "鸡胸肉",
         "label": "鸡胸肉约340克，切约2厘米丁",
         "isCore": true
       },
       {
-        "id": "ingredient-03",
-        "name": "食用油（分次用于炒花生、腌鸡、煎鸡和炒香料）",
-        "label": "食用油适量（分次用于炒花生、腌鸡、煎鸡和炒香料）",
-        "isCore": false
-      },
-      {
         "id": "ingredient-04",
-        "name": "腌料：玉米淀粉",
-        "label": "腌料：玉米淀粉1茶匙、绍兴酒1茶匙、盐1/8茶匙、白胡椒粉1撮",
+        "name": "腌料：植物油",
+        "label": "腌料：植物油1茶匙、玉米淀粉1茶匙、绍兴酒1茶匙、盐1/8茶匙、白胡椒粉1撮",
         "isCore": false
       },
       {
@@ -182,30 +182,36 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "ingredient-06",
-        "name": "大蒜",
-        "label": "大蒜3瓣",
+        "name": "炒制用食用油",
+        "label": "炒制用食用油3汤匙",
         "isCore": false
       },
       {
         "id": "ingredient-07",
-        "name": "姜",
-        "label": "姜2薄片",
+        "name": "大蒜",
+        "label": "大蒜3瓣，拍碎后切片",
         "isCore": false
       },
       {
         "id": "ingredient-08",
+        "name": "姜",
+        "label": "姜2薄片，切末",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-09",
         "name": "干红辣椒",
         "label": "干红辣椒2个",
         "isCore": true
       },
       {
-        "id": "ingredient-09",
+        "id": "ingredient-10",
         "name": "花椒粉",
         "label": "花椒粉1/2茶匙",
         "isCore": false
       },
       {
-        "id": "ingredient-10",
+        "id": "ingredient-11",
         "name": "葱白",
         "label": "葱白6根，切约2厘米段",
         "isCore": false
@@ -214,27 +220,31 @@ window.YANHUO_RECIPES = [
     "steps": [
       {
         "id": "step-01",
-        "instruction": "炒锅以中火烧热，加入适量食用油，再放入适量生花生米，不断翻炒3分钟防止焦煳；关火后利用余温继续翻炒1分钟，盛出彻底放凉，花生会在冷却后变酥。",
+        "instruction": "炒锅置中火，加入1茶匙植物油和1杯生花生米，不断翻炒3分钟以免焦煳；关火后利用余温继续翻炒1分钟，盛出并彻底放凉，花生冷却后会变酥。也可以跳过炒花生，直接使用烤熟的去壳花生。",
         "duration": 180,
         "heat": "medium",
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "add",
-        "safetyNote": ""
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-002-kung-pao-chicken/step-01-01.jpg",
+        "imageSource": "https://thewoksoflife.com/kung-pao-chicken/"
       },
       {
         "id": "step-02",
-        "instruction": "将约340克鸡胸肉切成约2厘米丁，加入适量食用油、1茶匙玉米淀粉、1茶匙绍兴酒、1/8茶匙盐和1撮白胡椒粉，拌匀后腌20分钟。",
+        "instruction": "将约340克鸡胸肉切成约2厘米丁，加入1茶匙植物油、1茶匙玉米淀粉、1茶匙绍兴酒、1/8茶匙盐和1撮白胡椒粉，拌匀后腌制20分钟。",
         "duration": 1200,
         "heat": "medium",
         "timerRequired": true,
         "ingredientsUsed": [],
         "gameAction": "add",
-        "safetyNote": ""
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-002-kung-pao-chicken/step-02.jpg",
+        "imageSource": "https://thewoksoflife.com/kung-pao-chicken/"
       },
       {
         "id": "step-03",
-        "instruction": "将1汤匙生抽、1/2茶匙老抽、1汤匙米醋、1茶匙白糖、3汤匙清水和1茶匙玉米淀粉依次放入碗中，充分搅匀备用。",
+        "instruction": "将1汤匙生抽、1/2茶匙老抽、1汤匙米醋、1茶匙白糖、3汤匙清水和1茶匙玉米淀粉放入碗中，充分搅匀备用。",
         "duration": 180,
         "heat": "medium",
         "timerRequired": false,
@@ -244,23 +254,27 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "step-04",
-        "instruction": "炒锅以高火烧热，另加入适量食用油，下腌好的鸡丁煎至表面上色，盛出备用。",
+        "instruction": "炒锅以高火烧热，加入2汤匙食用油，下腌好的鸡丁煎至表面上色，盛出备用。",
         "duration": 120,
         "heat": "medium",
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "add",
-        "safetyNote": ""
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-002-kung-pao-chicken/step-04.jpg",
+        "imageSource": "https://thewoksoflife.com/kung-pao-chicken/"
       },
       {
         "id": "step-05",
-        "instruction": "转小火，再另加适量食用油，依次放入切片的大蒜、切末的姜、干红辣椒、花椒粉和切成约2厘米段的葱白，翻炒1—2分钟至出香。",
+        "instruction": "转小火，另加1汤匙食用油，依次放入大蒜片、姜末、干红辣椒、花椒粉和葱白段，翻炒1—2分钟至出香。",
         "duration": 120,
         "heat": "low",
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "add",
-        "safetyNote": ""
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-002-kung-pao-chicken/step-05.jpg",
+        "imageSource": "https://thewoksoflife.com/kung-pao-chicken/"
       },
       {
         "id": "step-06",
@@ -270,7 +284,9 @@ window.YANHUO_RECIPES = [
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "add",
-        "safetyNote": ""
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-002-kung-pao-chicken/step-06.jpg",
+        "imageSource": "https://thewoksoflife.com/kung-pao-chicken/"
       },
       {
         "id": "step-07",
@@ -280,14 +296,25 @@ window.YANHUO_RECIPES = [
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "add",
-        "safetyNote": ""
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-002-kung-pao-chicken/step-07-01.jpg",
+        "imageSource": "https://thewoksoflife.com/kung-pao-chicken/"
       }
     ],
-    "imageThumb": "assets/dishes/thumbnails/02-gongbao-jiding.jpg",
-    "imageFull": "assets/dishes/ai/02-gongbao-jiding.png",
-    "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
+    "imageThumb": "assets/dishes/sources/cn-002-kung-pao-chicken/hero.jpg",
+    "imageFull": "assets/dishes/sources/cn-002-kung-pao-chicken/hero.jpg",
+    "source": "https://thewoksoflife.com/kung-pao-chicken/",
+    "media": {
+      "sourceName": "The Woks of Life",
+      "recipePageUrl": "https://thewoksoflife.com/kung-pao-chicken/",
+      "mediaPageUrl": "https://thewoksoflife.com/kung-pao-chicken/",
+      "author": "Judy",
+      "rightsNotice": "All Rights Reserved © The Woks of Life",
+      "reuseLicense": null,
+      "repositoryCopyAuthorization": "user_confirmed_2026-09-16"
+    },
     "time": 30,
-    "difficulty": "进阶",
+    "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [
       "peanut",
@@ -332,77 +359,71 @@ window.YANHUO_RECIPES = [
       {
         "id": "ingredient-04",
         "name": "花椒粒",
-        "label": "花椒粒1/2—1又1/2汤匙，磨成粉（炒制",
+        "label": "花椒粒1/2—1又1/2汤匙，磨成粉用于炒制，另取少许可选作装饰",
         "isCore": false
       },
       {
         "id": "ingredient-05",
-        "name": "另取可选作装饰）",
-        "label": "另取少许可选作装饰）",
-        "isCore": true
-      },
-      {
-        "id": "ingredient-06",
         "name": "姜末",
         "label": "姜末3汤匙",
         "isCore": false
       },
       {
-        "id": "ingredient-07",
+        "id": "ingredient-06",
         "name": "蒜末",
         "label": "蒜末3汤匙",
         "isCore": false
       },
       {
-        "id": "ingredient-08",
+        "id": "ingredient-07",
         "name": "猪肉末",
         "label": "猪肉末约227克",
-        "isCore": false
+        "isCore": true
       },
       {
-        "id": "ingredient-09",
+        "id": "ingredient-08",
         "name": "辣豆瓣酱",
         "label": "辣豆瓣酱1—2汤匙",
         "isCore": false
       },
       {
-        "id": "ingredient-10",
+        "id": "ingredient-09",
         "name": "低钠鸡汤",
         "label": "低钠鸡汤2/3杯（或清水）",
         "isCore": false
       },
       {
-        "id": "ingredient-11",
+        "id": "ingredient-10",
         "name": "嫩豆腐",
         "label": "嫩豆腐约454克，切约2.5厘米方块",
         "isCore": false
       },
       {
-        "id": "ingredient-12",
+        "id": "ingredient-11",
         "name": "清水",
         "label": "清水1/4杯",
         "isCore": false
       },
       {
-        "id": "ingredient-13",
+        "id": "ingredient-12",
         "name": "玉米淀粉",
         "label": "玉米淀粉1又1/2茶匙",
         "isCore": false
       },
       {
-        "id": "ingredient-14",
+        "id": "ingredient-13",
         "name": "芝麻油",
         "label": "芝麻油1/4茶匙（可选）",
         "isCore": false
       },
       {
-        "id": "ingredient-15",
+        "id": "ingredient-14",
         "name": "白糖",
         "label": "白糖1/4茶匙（可选）",
         "isCore": false
       },
       {
-        "id": "ingredient-16",
+        "id": "ingredient-15",
         "name": "葱",
         "label": "葱1根，切碎",
         "isCore": false

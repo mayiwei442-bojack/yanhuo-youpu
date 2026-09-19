@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "清蒸鲈鱼的 13 个食材行均为有效食材，8 个步骤语法完整、标点正常、编号连续；每一步的本地图片与同一豆果信源步骤一一对应，前端渲染未产生孤立说明。",
+  "evidencePackageHash": "460cbf685475e72a2f6b5534c97f8d23524fc552e66ed48ae33813179167cddc",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

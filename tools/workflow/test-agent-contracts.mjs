@@ -23,8 +23,11 @@ assert.match(prompts.editor, /only the target/iu);
 assert.match(prompts.editor, /use it directly/iu);
 assert.match(prompts.editor, /Do not supplement it with any fact/iu);
 assert.match(prompts.editor, /Never write an HTTP\(S\) URL into a runtime image field/iu);
+assert.match(prompts.editor, /retain the source's original number and spoon, cup, bowl/iu);
 assert.match(prompts.reviewer, /Do not search websites, query RAG/iu);
 assert.match(prompts.reviewer, /runtime image field is an HTTP\(S\) URL/iu);
+assert.match(prompts.reviewer, /separate adversarial language review/iu);
+assert.match(prompts.reviewer, /splitting it exactly as the UI does/iu);
 assert.match(prompts.orchestrator, /one recipe per scheduled run/iu);
 assert.match(prompts.orchestrator, /exactly one qualifying source remains/iu);
 assert.match(prompts.orchestrator, /`sourceMode: "single_source"` plus `singleSourceReason`/iu);
@@ -42,6 +45,7 @@ assert.equal(evidenceSchema.additionalProperties, false);
 assert.equal(evidenceSchema.$defs.sourceMedia.properties.steps.minItems, 1);
 assert.deepEqual(evidenceSchema.$defs.sourceMedia.required, ["recipePageUrl", "mediaPageUrl", "sourceName", "author", "rightsNotice", "reuseLicense", "hero", "steps"]);
 assert.deepEqual(reviewerSchema.properties.status.enum, ["PASS", "FAIL"]);
+assert.deepEqual(reviewerSchema.properties.adversarialReview.required, ["ingredientSemantics", "stepGrammar", "punctuation", "renderedStructure"]);
 assert.equal(reviewerSchema.additionalProperties, false);
 
 console.log(JSON.stringify({

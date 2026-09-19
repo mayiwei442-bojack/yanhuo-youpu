@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "宫保鸡丁完整采用 The Woks of Life 单一信源。炒花生和腌鸡的植物油各 1 茶匙有明确油种依据，炒制用油保留为未指定油种的 3 汤匙并在第 4、5 步拆为 2 汤匙和 1 汤匙。11 个食材行和 7 个步骤经对抗性语言审查均可正常渲染和执行；第 3 步无源图，按规则保持纯文字。",
+  "evidencePackageHash": "1ddc04309e69e0f6dc81e5d1bb625429ff6e2acd26d1abe029b3aabe87f90da8",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

@@ -31,8 +31,31 @@ export const chinese = [
       { stepOrder: 6, path: "assets/dishes/sources/cn-001-tomato-egg/step-06.jpg", originalUrl: "https://cp1.douguo.com/upload/caiku/3/e/2/600_3e57816522f39809b1903083c1baddb2.jpg", sha256: "626474ca090cdc8b65a89b0e6cdaf7018c21f14ad5376ea0c79015111f5e489e", httpStatus: 200, contentType: "image/jpeg" }
     ]
   }),
-  c("宫保鸡丁", "Kung Pao Chicken", "川菜", "生花生米适量；鸡胸肉约340克，切约2厘米丁；食用油适量（分次用于炒花生、腌鸡、煎鸡和炒香料）；腌料：玉米淀粉1茶匙、绍兴酒1茶匙、盐1/8茶匙、白胡椒粉1撮；碗汁：生抽1汤匙、老抽1/2茶匙、米醋1汤匙、白糖1茶匙、清水3汤匙、玉米淀粉1茶匙；大蒜3瓣；姜2薄片；干红辣椒2个；花椒粉1/2茶匙；葱白6根，切约2厘米段", "1）炒锅以中火烧热，加入适量食用油，再放入适量生花生米，不断翻炒3分钟防止焦煳；关火后利用余温继续翻炒1分钟，盛出彻底放凉，花生会在冷却后变酥。2）将约340克鸡胸肉切成约2厘米丁，加入适量食用油、1茶匙玉米淀粉、1茶匙绍兴酒、1/8茶匙盐和1撮白胡椒粉，拌匀后腌20分钟。3）将1汤匙生抽、1/2茶匙老抽、1汤匙米醋、1茶匙白糖、3汤匙清水和1茶匙玉米淀粉依次放入碗中，充分搅匀备用。4）炒锅以高火烧热，另加入适量食用油，下腌好的鸡丁煎至表面上色，盛出备用。5）转小火，再另加适量食用油，依次放入切片的大蒜、切末的姜、干红辣椒、花椒粉和切成约2厘米段的葱白，翻炒1—2分钟至出香。6）倒回鸡丁，转高火翻炒1分钟；再次搅匀碗汁，使沉底的淀粉重新混合后倒入锅中，再高火翻炒1分钟，至酱汁迅速变稠并均匀裹住鸡丁。7）加入完全放凉的花生米，快速翻匀后立即出锅。", "02-gongbao-jiding.png"),
-  c("麻婆豆腐", "Mapo Tofu", "川菜", "食用油1/2杯（分次使用）；新鲜泰国小米椒1—2个，切薄片；干红辣椒6—8个，粗切；花椒粒1/2—1又1/2汤匙，磨成粉（炒制；另取少许可选作装饰）；姜末3汤匙；蒜末3汤匙；猪肉末约227克；辣豆瓣酱1—2汤匙；低钠鸡汤2/3杯（或清水）；嫩豆腐约454克，切约2.5厘米方块；清水1/4杯；玉米淀粉1又1/2茶匙；芝麻油1/4茶匙（可选）；白糖1/4茶匙（可选）；葱1根，切碎", "1）炒锅或小锅置小火，加入一半食用油、新鲜泰国小米椒片和干红辣椒，间或翻动约5分钟，至辣椒出香但不焦煳；离火，连同辣椒一起放在一旁备用。2）炒锅中加入剩余食用油，以中火加姜末炒1分钟；加入蒜末再炒1分钟。转高火，加入猪肉末，铲散并炒至完全熟透；加入磨好的花椒粉翻炒约15—30秒，勿炒焦，以免发苦。3）加入辣豆瓣酱炒匀，倒入低钠鸡汤或清水，煮约1分钟；其间将嫩豆腐备好，并把1/4杯清水与玉米淀粉调匀成淀粉水。4）将淀粉水倒入锅中搅匀，煮至酱汁开始变稠；若酱汁过稠，加入少许清水或鸡汤调整。5）加入步骤1做好的辣椒油和辣椒，拌匀后放入嫩豆腐，用锅铲轻轻翻拌使豆腐裹上酱汁；煮3—5分钟。加入可选的芝麻油、白糖和葱花，拌至葱花刚刚变蔫。6）装盘；如需要，在表面撒少许花椒粉。", "03-mapo-doufu.png", "https://thewoksoflife.com/ma-po-tofu-real-deal/", {
+  c("宫保鸡丁", "Kung Pao Chicken", "川菜", "炒花生用植物油1茶匙；生花生米1杯（去壳，可带皮或去皮）；鸡胸肉约340克，切约2厘米丁；腌料：植物油1茶匙、玉米淀粉1茶匙、绍兴酒1茶匙、盐1/8茶匙、白胡椒粉1撮；碗汁：生抽1汤匙、老抽1/2茶匙、米醋1汤匙、白糖1茶匙、清水3汤匙、玉米淀粉1茶匙；炒制用食用油3汤匙；大蒜3瓣，拍碎后切片；姜2薄片，切末；干红辣椒2个；花椒粉1/2茶匙；葱白6根，切约2厘米段", "1）炒锅置中火，加入1茶匙植物油和1杯生花生米，不断翻炒3分钟以免焦煳；关火后利用余温继续翻炒1分钟，盛出并彻底放凉，花生冷却后会变酥。也可以跳过炒花生，直接使用烤熟的去壳花生。2）将约340克鸡胸肉切成约2厘米丁，加入1茶匙植物油、1茶匙玉米淀粉、1茶匙绍兴酒、1/8茶匙盐和1撮白胡椒粉，拌匀后腌制20分钟。3）将1汤匙生抽、1/2茶匙老抽、1汤匙米醋、1茶匙白糖、3汤匙清水和1茶匙玉米淀粉放入碗中，充分搅匀备用。4）炒锅以高火烧热，加入2汤匙食用油，下腌好的鸡丁煎至表面上色，盛出备用。5）转小火，另加1汤匙食用油，依次放入大蒜片、姜末、干红辣椒、花椒粉和葱白段，翻炒1—2分钟至出香。6）倒回鸡丁，转高火翻炒1分钟；再次搅匀碗汁，使沉底的淀粉重新混合后倒入锅中，再高火翻炒1分钟，至酱汁迅速变稠并均匀裹住鸡丁。7）加入完全放凉的花生米，快速翻匀后立即出锅。", "02-gongbao-jiding.png", "https://thewoksoflife.com/kung-pao-chicken/", {
+    sourceName: "The Woks of Life",
+    recipePageUrl: "https://thewoksoflife.com/kung-pao-chicken/",
+    mediaPageUrl: "https://thewoksoflife.com/kung-pao-chicken/",
+    author: "Judy",
+    rightsNotice: "All Rights Reserved © The Woks of Life",
+    reuseLicense: null,
+    repositoryCopyAuthorization: "user_confirmed_2026-09-16",
+    hero: {
+      path: "assets/dishes/sources/cn-002-kung-pao-chicken/hero.jpg",
+      originalUrl: "https://thewoksoflife.com/wp-content/uploads/2019/05/kung-pao-chicken-14.jpg",
+      sha256: "f5010a354ba31204ab8635fc99ecaacb2b08b6eedc20714cfc6018433b397072",
+      httpStatus: 200,
+      contentType: "image/webp"
+    },
+    steps: [
+      { stepOrder: 1, path: "assets/dishes/sources/cn-002-kung-pao-chicken/step-01-01.jpg", originalUrl: "https://thewoksoflife.com/wp-content/uploads/2019/05/kung-pao-chicken-2.jpg", sha256: "4bbd864f2237db1331ebc46476249c6f2da34dfddbfc4e51d6da1a6866398046", httpStatus: 200, contentType: "image/webp" },
+      { stepOrder: 2, path: "assets/dishes/sources/cn-002-kung-pao-chicken/step-02.jpg", originalUrl: "https://thewoksoflife.com/wp-content/uploads/2019/04/kung-pao-chicken.jpg", sha256: "86cda471dc9f35d02a97693d68c07f32c96869a8f7304191fc503a3d736c0391", httpStatus: 200, contentType: "image/jpeg" },
+      { stepOrder: 4, path: "assets/dishes/sources/cn-002-kung-pao-chicken/step-04.jpg", originalUrl: "https://thewoksoflife.com/wp-content/uploads/2019/05/kung-pao-chicken-5.jpg", sha256: "25d3300fc76b98d704c4b20300af6eb784985a0d14e608df5659cd562fa55f2c", httpStatus: 200, contentType: "image/webp" },
+      { stepOrder: 5, path: "assets/dishes/sources/cn-002-kung-pao-chicken/step-05.jpg", originalUrl: "https://thewoksoflife.com/wp-content/uploads/2019/05/kung-pao-chicken-6.jpg", sha256: "b37dc7112f961c87eece878385f0eb24fa8418f5ec680d8e1100384b81aeddf5", httpStatus: 200, contentType: "image/webp" },
+      { stepOrder: 6, path: "assets/dishes/sources/cn-002-kung-pao-chicken/step-06.jpg", originalUrl: "https://thewoksoflife.com/wp-content/uploads/2019/05/kung-pao-chicken-7.jpg", sha256: "fd3b5ddbe9c72f914eff5d9ba3a7c9b2fe8d7e72609cdc37fa39a93736c4135f", httpStatus: 200, contentType: "image/webp" },
+      { stepOrder: 7, path: "assets/dishes/sources/cn-002-kung-pao-chicken/step-07-01.jpg", originalUrl: "https://thewoksoflife.com/wp-content/uploads/2019/05/kung-pao-chicken-8.jpg", sha256: "52293921c484bba44ea3508eaeaca436d740b90a51e2f2e95b93836a3c8d2f39", httpStatus: 200, contentType: "image/webp" }
+    ]
+  }),
+  c("麻婆豆腐", "Mapo Tofu", "川菜", "食用油1/2杯（分次使用）；新鲜泰国小米椒1—2个，切薄片；干红辣椒6—8个，粗切；花椒粒1/2—1又1/2汤匙，磨成粉用于炒制，另取少许可选作装饰；姜末3汤匙；蒜末3汤匙；猪肉末约227克；辣豆瓣酱1—2汤匙；低钠鸡汤2/3杯（或清水）；嫩豆腐约454克，切约2.5厘米方块；清水1/4杯；玉米淀粉1又1/2茶匙；芝麻油1/4茶匙（可选）；白糖1/4茶匙（可选）；葱1根，切碎", "1）炒锅或小锅置小火，加入一半食用油、新鲜泰国小米椒片和干红辣椒，间或翻动约5分钟，至辣椒出香但不焦煳；离火，连同辣椒一起放在一旁备用。2）炒锅中加入剩余食用油，以中火加姜末炒1分钟；加入蒜末再炒1分钟。转高火，加入猪肉末，铲散并炒至完全熟透；加入磨好的花椒粉翻炒约15—30秒，勿炒焦，以免发苦。3）加入辣豆瓣酱炒匀，倒入低钠鸡汤或清水，煮约1分钟；其间将嫩豆腐备好，并把1/4杯清水与玉米淀粉调匀成淀粉水。4）将淀粉水倒入锅中搅匀，煮至酱汁开始变稠；若酱汁过稠，加入少许清水或鸡汤调整。5）加入步骤1做好的辣椒油和辣椒，拌匀后放入嫩豆腐，用锅铲轻轻翻拌使豆腐裹上酱汁；煮3—5分钟。加入可选的芝麻油、白糖和葱花，拌至葱花刚刚变蔫。6）装盘；如需要，在表面撒少许花椒粉。", "03-mapo-doufu.png", "https://thewoksoflife.com/ma-po-tofu-real-deal/", {
     sourceName: "The Woks of Life",
     recipePageUrl: "https://thewoksoflife.com/ma-po-tofu-real-deal/",
     mediaPageUrl: "https://thewoksoflife.com/ma-po-tofu-real-deal/",
