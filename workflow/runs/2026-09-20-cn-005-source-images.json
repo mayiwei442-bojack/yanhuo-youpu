@@ -1,0 +1,26 @@
+{
+  "runId": "2026-09-20-cn-005-source-images",
+  "recipeId": "cn-005",
+  "recipeName": "青椒肉丝",
+  "category": "chinese",
+  "status": "failed",
+  "startedAt": "2026-09-20T00:05:00+08:00",
+  "steps": {
+    "research": { "status": "failed", "attempts": 1, "details": { "reason": "没有同时满足名称匹配、内容完整和内部自洽的白名单来源。" } },
+    "ingestion": { "status": "failed", "attempts": 0, "details": { "reason": "无合格来源，不入库。" } },
+    "edit": { "status": "pending", "attempts": 0, "details": {} },
+    "validator": { "status": "pending", "attempts": 0, "details": {} },
+    "review": { "status": "pending", "attempts": 0, "details": {} },
+    "build": { "status": "pending", "attempts": 0, "details": {} },
+    "gitPush": { "status": "pending", "attempts": 0, "details": {} }
+  },
+  "sources": [
+    { "name": "The Woks of Life", "url": "https://thewoksoflife.com/pork-pepper-stir-fry/", "status": "rejected", "failureReason": "原页菜名为辣椒小炒肉，按现行规则属于近名变体，不能作为青椒肉丝主来源。" },
+    { "name": "豆果美食", "url": "https://www.douguo.com/cookbook/2428206.html", "status": "rejected", "failureReason": "用料表为生抽2小勺，步骤为2勺，且后续炒制用油未列量。" },
+    { "name": "豆果美食", "url": "https://www.douguo.com/cookbook/1451866.html", "status": "rejected", "failureReason": "步骤把腌肉调味料笼统合并，无法确定重复盐、鸡粉、料酒及两种油的用途分配。" },
+    { "name": "豆果美食", "url": "https://www.douguo.com/cookbook/1633594.html", "status": "rejected", "failureReason": "步骤称肉丝吸饱水分，但用料和前序步骤均未列水，关键操作不自洽。" }
+  ],
+  "errors": ["未找到同时符合名称匹配、完整性和内部自洽要求的可用来源；未修改菜谱或图片。"],
+  "branch": "codex/recipe-automation",
+  "completedAt": "2026-09-20T00:15:00+08:00"
+}
