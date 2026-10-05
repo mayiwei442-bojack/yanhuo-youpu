@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import { createHash } from "node:crypto";
 import { readFile, stat } from "node:fs/promises";
 import { resolve } from "node:path";
 import { chinese, western } from "../recipe_data.mjs";
@@ -14,6 +15,8 @@ async function assertLocalImage(recipeName, label, mediaItem) {
   const fileStat = await stat(absolute);
   assert(fileStat.isFile() && fileStat.size > 0, `${recipeName}: ${label} 本地文件缺失或为空`);
   const bytes = await readFile(absolute);
+  assert.match(mediaItem.sha256 || "", /^[a-f0-9]{64}$/u, `${recipeName}: ${label} 缺少图片哈希`);
+  assert.equal(createHash("sha256").update(bytes).digest("hex"), mediaItem.sha256, `${recipeName}: ${label} 与已审核图片哈希不一致`);
   const jpeg = bytes[0] === 0xff && bytes[1] === 0xd8 && bytes.at(-2) === 0xff && bytes.at(-1) === 0xd9;
   const png = bytes.subarray(0, 8).equals(Buffer.from([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a]));
   const webp = bytes.subarray(0, 4).toString("ascii") === "RIFF" && bytes.subarray(8, 12).toString("ascii") === "WEBP";

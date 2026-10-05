@@ -46,15 +46,15 @@
       "id": "cn-007",
       "name": "糖醋里脊",
       "status": "done",
-      "lastRunId": "2026-09-06-cn-007-b20c",
-      "completedAt": "2026-09-06T12:44:41.070Z"
+      "lastRunId": "2026-10-05-cn-007-source-images",
+      "completedAt": "2026-10-05T14:49:56Z"
     },
     {
       "id": "cn-008",
       "name": "扬州炒饭",
-      "status": "done",
-      "lastRunId": "2026-09-06-cn-008-b20d",
-      "completedAt": "2026-09-06T13:11:49.978Z"
+      "status": "in_progress",
+      "lastRunId": "2026-10-05-cn-008-source-images",
+      "completedAt": null
     },
     {
       "id": "cn-009",

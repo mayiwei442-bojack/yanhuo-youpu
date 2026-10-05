@@ -233,6 +233,58 @@ try {
   await page.waitForSelector(".cook-step-image");
   assert((await page.locator(".cook-step-image").getAttribute("src") || "").includes("assets/dishes/sources/cn-001-tomato-egg/step-01.jpg"), "图文烹饪模式没有显示番茄炒蛋第 1 步仓库图片");
 
+  // Verify every refreshed recipe, not just the original tomato/egg fixture.
+  // Scroll lazy images before checking decoding, and walk all cooking steps.
+  const mediaPage = await browser.newPage({ viewport: { width: 938, height: 945 } });
+  const verifiedMedia = [];
+  try {
+    mediaPage.on("pageerror", (error) => errors.push(`media page: ${error.message}`));
+    await mediaPage.goto(`${baseUrl}#/home`, { waitUntil: "load" });
+    const refreshed = await mediaPage.evaluate(() => window.YANHUO_RECIPES.filter((recipe) => recipe.media));
+    for (const recipe of refreshed) {
+      await mediaPage.goto(`${baseUrl}#/recipe/${recipe.id}`, { waitUntil: "load" });
+      await mediaPage.waitForSelector(".detail-page");
+      const hero = mediaPage.locator(".detail-hero > img");
+      assert(await hero.getAttribute("src") === recipe.imageFull, `${recipe.id} 成品图与生成数据不一致`);
+      await hero.scrollIntoViewIfNeeded();
+      await hero.evaluate((element) => element.decode());
+      assert(await hero.evaluate((element) => element.naturalWidth > 0), `${recipe.id} 成品图没有真实加载`);
+      assert(await mediaPage.locator(".step-preview").count() === recipe.steps.length, `${recipe.id} 详情步骤数量不一致`);
+      for (const [index, step] of recipe.steps.entries()) {
+        const row = mediaPage.locator(".step-preview").nth(index);
+        const picture = row.locator(".step-preview-image");
+        assert(await picture.count() === (step.image ? 1 : 0), `${recipe.id} 第${index + 1}步图片缺失或误配`);
+        if (step.image) {
+          assert(await picture.getAttribute("src") === step.image, `${recipe.id} 第${index + 1}步图片路径不一致`);
+          assert(await row.locator(".step-image-link").getAttribute("href") === recipe.source, `${recipe.id} 第${index + 1}步图片来源不一致`);
+          await picture.scrollIntoViewIfNeeded();
+          await picture.evaluate((element) => element.decode());
+          assert(await picture.evaluate((element) => element.naturalWidth > 0), `${recipe.id} 第${index + 1}步图片没有真实加载`);
+        }
+      }
+      assert(await mediaPage.locator(".step-preview .image-attribution").count() === 0, `${recipe.id} 仍显示步骤图来源说明`);
+      await mediaPage.goto(`${baseUrl}#/cook/${recipe.id}`, { waitUntil: "load" });
+      for (const [index, step] of recipe.steps.entries()) {
+        await mediaPage.waitForFunction((instruction) => document.querySelector(".cook-card h1")?.textContent === instruction, step.instruction);
+        const picture = mediaPage.locator(".cook-step-image");
+        assert(await picture.count() === (step.image ? 1 : 0), `${recipe.id} 图文教程第${index + 1}步图片缺失或误配`);
+        if (step.image) {
+          assert(await picture.getAttribute("src") === step.image, `${recipe.id} 图文教程第${index + 1}步图片路径不一致`);
+          await picture.evaluate((element) => element.decode());
+          assert(await picture.evaluate((element) => element.naturalWidth > 0), `${recipe.id} 图文教程第${index + 1}步图片未加载`);
+        }
+        assert(await mediaPage.locator(".heat-control").count() === (step.heat ? 1 : 0), `${recipe.id} 第${index + 1}步火力显示无依据`);
+        assert(await mediaPage.locator(".timer-panel").count() === (step.duration > 0 ? 1 : 0), `${recipe.id} 第${index + 1}步计时器显示无依据`);
+        if (step.duration > 0) assert(Number(await mediaPage.locator('[data-action="start-timer"]').getAttribute("data-seconds")) === step.duration, `${recipe.id} 第${index + 1}步计时值错误`);
+        await mediaPage.locator('[data-action="cook-next"]').click();
+      }
+      await mediaPage.waitForSelector(".cook-done");
+      verifiedMedia.push({ id: recipe.id, steps: recipe.steps.length, stepImages: recipe.steps.filter((step) => step.image).length });
+    }
+  } finally {
+    await mediaPage.close();
+  }
+
   await page.evaluate(() => {
     const fixture = JSON.parse(JSON.stringify(window.YANHUO_RECIPES[0]));
     fixture.id = "qa-step-metadata";
@@ -274,6 +326,7 @@ try {
     ok: true,
     recipes: 90,
     pantryItems: 35,
+    verifiedMedia,
     testedRoutes: ["home", "pantry", "recommendations", "recipe", "game", "cook", "shopping", "recipes", "me"],
     browserErrors: errors
   }, null, 2));
