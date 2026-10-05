@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "复审通过：整体用时已按来源修正为40分钟。原料、单位、油量分配、九步时序、火力及步骤计时符合固定证据；五张本地图片哈希一致、映射正确，无图步骤保持纯文字。确定性验证及四项独立对抗性语言检查均通过。",
+  "evidencePackageHash": "02a5e6a548bd94492a24c6b00ffb631951190376c00755cab1b8d3ed24c4b1db",
+  "validatorPassed": true,
+  "adversarialReview": { "ingredientSemantics": true, "stepGrammar": true, "punctuation": true, "renderedStructure": true }
+}

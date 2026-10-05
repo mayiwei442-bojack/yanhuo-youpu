@@ -7,15 +7,19 @@
   "startedAt": "2026-10-05T14:52:05Z",
   "completedAt": null,
   "steps": {
-    "research": { "status": "in_progress", "attempts": 1, "details": {} },
-    "ingestion": { "status": "pending", "attempts": 0, "details": {} },
-    "edit": { "status": "pending", "attempts": 0, "details": {} },
-    "validator": { "status": "pending", "attempts": 0, "details": {} },
-    "review": { "status": "pending", "attempts": 0, "details": {} },
-    "build": { "status": "pending", "attempts": 0, "details": {} },
-    "gitPush": { "status": "pending", "attempts": 0, "details": {} }
+    "research": { "status": "done", "attempts": 1, "details": { "sourceMode": "single_source", "singleSourceReason": "Woks完整自洽；豆果的香葱未入锅、香肠回锅含糊，书籍的玉米和小葱未入正式步骤，缺漏独立记录而不补写。", "selectedSourceUrl": "https://thewoksoflife.com/young-chow-fried-rice/", "evidencePath": "workflow/evidence/2026-10-05-cn-008-source-images.json", "evidencePackageHash": "02a5e6a548bd94492a24c6b00ffb631951190376c00755cab1b8d3ed24c4b1db", "retrieval": "Woks普通web读取成功，Node公共请求403未绕过；豆果公共HTML200；书籍exact-name历史复用。", "decisionPath": "workflow/evidence-decisions/2026-10-05-cn-008.json" } },
+    "ingestion": { "status": "done", "attempts": 2, "details": { "documentId": "13d71b61-5b39-41a1-b75d-e1d019fc0ad8", "vectorChunks": 6, "vectorDimension": 1024, "alternativeChunks": "豆果5、书籍5；均1024维并复用", "rootSqlVerified": true, "imageImportPath": "workflow/media-imports/2026-10-05-cn-008.json", "localImages": 5, "mappedSteps": [4, 5, 6, 9], "invalidDraftDocumentId": "5fcc9b70-327c-47a2-8b07-05f14c7ebade", "normalizationCorrection": "洗手水只作卫生说明，不列食材；错误初稿及6分块保留审计并标记invalid，真实语义及关键词混合检索已验证排除。", "correctionAudit": "workflow/rag-audits/2026-10-05-cn-008-correction.json" } },
+    "edit": { "status": "done", "attempts": 2, "details": { "ingredients": 18, "sourceIngredients": 19, "steps": 9, "oilRowsMerged": true, "targetOnly": true, "timing": { "prepMinutes": 30, "cookMinutes": 10, "totalMinutes": 40 }, "evidencePackageHash": "02a5e6a548bd94492a24c6b00ffb631951190376c00755cab1b8d3ed24c4b1db" } },
+    "validator": { "status": "done", "attempts": 2, "details": { "passed": true, "checks": 10, "artifact": "workflow/validation-results/2026-10-05-cn-008.json", "generatedBuildBrowserPassed": true } },
+    "review": { "status": "done", "attempts": 2, "details": { "firstResult": "FAIL", "firstIssue": "生成总时长15分钟与信源30分钟准备、10分钟烹饪、40分钟总计冲突。", "firstArtifact": "workflow/reviews/2026-10-05-cn-008-initial.json", "correction": "新增source-supported timing字段，生成器直接保留来源40分钟，不以局部步骤时长覆盖。", "finalResult": "PASS", "artifact": "workflow/reviews/2026-10-05-cn-008-adversarial.json", "evidencePackageHash": "02a5e6a548bd94492a24c6b00ffb631951190376c00755cab1b8d3ed24c4b1db" } },
+    "build": { "status": "done", "attempts": 1, "details": { "deterministicSuite": "PASS", "browserErrors": [], "refreshedRecipeMediaVerified": 9, "sourceTotalTimeRegression": "PASS", "invalidHistoryRegression": "PASS", "staticBuild": "PASS" } },
+    "gitPush": { "status": "in_progress", "attempts": 1, "details": {} }
   },
-  "sources": [],
+  "sources": [
+    { "name": "The Woks of Life", "url": "https://thewoksoflife.com/young-chow-fried-rice/", "status": "success", "failureReason": null },
+    { "name": "豆果美食", "url": "https://www.douguo.com/cookbook/1180703.html", "status": "success", "failureReason": null },
+    { "name": "贝太厨房:从小爱吃的菜2", "url": null, "status": "success", "failureReason": null }
+  ],
   "errors": [],
   "branch": "codex/recipe-automation",
   "commit": null

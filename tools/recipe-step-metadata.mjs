@@ -10,6 +10,19 @@ export function explicitDurationSeconds(text) {
   return durationMentions(text).reduce((sum, item) => sum + item.seconds, 0);
 }
 
+export function recipeTotalMinutes(text, stepCount, timing = null) {
+  if (timing) {
+    if (!Number.isFinite(timing.totalMinutes) || timing.totalMinutes <= 0) throw new Error("来源总时长必须为正数分钟");
+    for (const field of ["prepMinutes", "cookMinutes"]) {
+      if (timing[field] != null && (!Number.isFinite(timing[field]) || timing[field] < 0)) throw new Error(`来源${field}必须为非负数分钟`);
+    }
+    return timing.totalMinutes;
+  }
+  const explicit = explicitDurationSeconds(text) / 60;
+  const estimate = explicit || 10 + stepCount * 7;
+  return Math.max(15, Math.min(180, Math.ceil(estimate / 5) * 5));
+}
+
 export function stepDuration(text) {
   const mentions = durationMentions(text);
   if (!mentions.length) return null;

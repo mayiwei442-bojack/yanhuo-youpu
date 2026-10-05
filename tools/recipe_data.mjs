@@ -3,8 +3,8 @@ const CN_HOME = "https://thewoksoflife.com/";
 const WEST_SOURCE = "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2";
 const WEST_ESSENTIAL = "https://www.bbcgoodfood.com/howto/guide/21-essential-recipes-to-learn-for-life";
 
-const c = (name, en, region, ingredients, steps, img = "", source = CN_SOURCE, media = null) => ({ name, en, region, ingredients, steps, img, source, ...(media ? { media } : {}) });
-const w = (name, en, region, ingredients, steps, img = "", source = WEST_SOURCE, media = null) => ({ name, en, region, ingredients, steps, img, source, ...(media ? { media } : {}) });
+const c = (name, en, region, ingredients, steps, img = "", source = CN_SOURCE, media = null, timing = null) => ({ name, en, region, ingredients, steps, img, source, ...(media ? { media } : {}), ...(timing ? { timing } : {}) });
+const w = (name, en, region, ingredients, steps, img = "", source = WEST_SOURCE, media = null, timing = null) => ({ name, en, region, ingredients, steps, img, source, ...(media ? { media } : {}), ...(timing ? { timing } : {}) });
 
 export const chinese = [
   c("番茄炒蛋", "Tomato and Egg Stir-fry", "家常菜", "鸡蛋3个；中等大小番茄2个；盐1克；糖2克；食用油适量", "1）准备鸡蛋3个、中等大小番茄2个、盐1克、糖2克和适量食用油。2）鸡蛋去壳后充分打散，番茄切成小块备用。3）锅中倒入适量食用油，油热后倒入蛋液。4）待鸡蛋稍稍凝固，将鸡蛋推到锅的一边，放入番茄块，翻炒均匀。5）加入2克糖，翻炒均匀后以大火收汁。6）关火，加入1克盐翻炒均匀，装盘。", "01-fanqie-chaodan.png", "https://www.douguo.com/cookbook/1192179.html", {
@@ -397,7 +397,56 @@ export const chinese = [
       }
     ]
   }),
-  c("扬州炒饭", "Yangzhou Fried Rice", "淮扬菜", "熟米饭5杯；煮饭用清水适量（按米包装说明略减）；食用油3汤匙（分次：炒蛋1汤匙、炒饭2汤匙；另备少许，米饭偏干时可选）；大鸡蛋2个，打散；鲜虾仁110克（40—60号，去壳去虾线）；焯虾仁用沸水适量；中等大小洋葱1个，切细丁；弗吉尼亚火腿110克，切丁；中式叉烧110克，切丁；冷冻青豆3/4杯，解冻；盐1又1/2茶匙；白糖1/4茶匙；绍兴酒1茶匙（可选）；小葱2根，切碎；罗马生菜或球生菜2杯，切碎；现磨白胡椒粉1/8茶匙；清水或鸡汤少量（米饭偏干时可选）", "1）如需自煮5杯熟米饭，按包装说明煮饭，但清水比包装说明略少，避免米饭软黏；熟饭不加盖摊凉，停止冒蒸汽后用叉子拨松并打散饭团。也可将米饭冷藏过夜；炒前用手把冷饭团搓散成粒，手发黏时用冷水冲洗后继续。2）将2个大鸡蛋打散；洋葱切细丁，弗吉尼亚火腿和中式叉烧切丁，小葱及2杯罗马生菜或球生菜切碎；3/4杯冷冻青豆提前解冻。另烧一锅适量沸水，将110克去壳去虾线的鲜虾仁焯水，捞出沥干备用。3）炒锅以中高火烧热，加入1汤匙食用油，倒入蛋液，轻轻翻折炒散，避免鸡蛋焦煳；鸡蛋凝成柔嫩小块后盛回碗中。4）炒锅转高火，加入剩余2汤匙食用油，放入洋葱丁翻炒至透明；加入火腿丁和叉烧丁翻炒30秒。倒入米饭，以锅铲压散饭团并不断翻炒2分钟，至米饭均匀受热；加入焯过的虾仁和解冻青豆，继续不断翻炒2分钟，至米饭完全热透。5）将1又1/2茶匙盐和1/4茶匙白糖均匀撒入锅中。若用绍兴酒，将1茶匙绍兴酒沿锅边淋入，使其发出滋滋声并让酒精挥发；翻炒至调味均匀。6）检查米饭状态；若略显干，可撒入少量清水或鸡汤，或补少许食用油。若仍有大饭团，可将少量液体直接淋在饭团上帮助打散；不要一次加多，以免米饭湿软或油腻。7）加入炒好的鸡蛋、碎小葱、碎生菜和1/8茶匙现磨白胡椒粉，保持翻炒，只炒至生菜刚刚变蔫且仍保留爽脆口感，立即装盘。", "08-yangzhou-chaofan.png"),
+  c("扬州炒饭", "Yangzhou Fried Rice", "淮扬菜", "熟米饭5杯；食用油3汤匙（炒蛋用1汤匙，炒饭用2汤匙，米饭偏干时可另加少许）；大鸡蛋2个，打散；鲜虾110克（40—60号，去壳去虾线）；中等大小洋葱1个，切细丁；弗吉尼亚火腿1/2杯（约110克），切丁；中式叉烧1/2杯（约110克），切丁；冷冻青豆3/4杯，解冻；盐1又1/2茶匙；白糖1/4茶匙；绍兴酒1茶匙（可选）；小葱2根，切碎；罗马生菜或球生菜2杯，切碎；现磨白胡椒粉1/8茶匙；煮饭用清水适量（比米包装说明略少）；焯虾用沸水适量；清水或鸡汤少量（米饭偏干时可选）；辣酱或辣椒油适量（可选配餐）", "1）按米包装说明煮饭，清水用量比包装说明略少，避免米饭软黏，备好5杯熟米饭。不加盖放凉，停止冒蒸汽后用叉子拨松并打散饭团，剩下的饭团可在炒锅中继续打散。2）若将米饭冷藏过夜，炒前用手将冷饭团搓散成粒，手发黏时不时用冷水冲洗，再继续搓散。3）炒锅以中高火烧热，加入1汤匙食用油，倒入打散的2个大鸡蛋，轻轻翻折炒散，避免焦煳，再将炒蛋盛回碗中。另备一锅沸水，将110克去壳去虾线的鲜虾焯水，沥干备用。4）炒锅转大火烧热，加入剩余2汤匙食用油和洋葱丁，翻炒至洋葱透明。加入切丁的弗吉尼亚火腿和中式叉烧，翻炒30秒。5）倒入5杯熟米饭，以大火翻炒2分钟，使米饭均匀受热，并用锅铲压散剩余饭团。6）加入焯过的虾和解冻的3/4杯青豆，以大火继续不断翻炒2分钟，至米饭完全热透。7）将1又1/2茶匙盐和1/4茶匙白糖撒在米饭上。若使用绍兴酒，将1茶匙绍兴酒沿锅边淋入，使其发出滋滋声并让酒精挥发，翻炒至调味均匀。8）若米饭略显干，可撒入少量清水或鸡汤，或补少许食用油。将少量液体直接淋在大饭团上可帮助打散，但水加多会使米饭湿软，油加多会使米饭油腻。9）加入炒好的鸡蛋、碎小葱、碎生菜和1/8茶匙现磨白胡椒粉，翻炒至生菜刚刚变蔫便停止，立即装盘。可另配适量辣酱或辣椒油食用。", "08-yangzhou-chaofan.png", "https://thewoksoflife.com/young-chow-fried-rice/", {
+    "sourceName": "The Woks of Life",
+    "recipePageUrl": "https://thewoksoflife.com/young-chow-fried-rice/",
+    "mediaPageUrl": "https://thewoksoflife.com/young-chow-fried-rice/",
+    "author": "Bill",
+    "rightsNotice": "The Woks of Life source photographs; repository copy separately authorized by user.",
+    "reuseLicense": null,
+    "repositoryCopyAuthorization": "user_confirmed_2026-09-16",
+    "hero": {
+      "path": "assets/dishes/sources/cn-008-yangzhou-fried-rice/hero.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/12/young-chow-fried-rice-8.jpg",
+      "sha256": "20a85d56c9bf1f2b8aff0c013b51ec802b9c9426fd48c10923d11ba812fc3aab",
+      "httpStatus": 200,
+      "contentType": "image/jpeg"
+    },
+    "steps": [
+      {
+        "stepOrder": 4,
+        "path": "assets/dishes/sources/cn-008-yangzhou-fried-rice/step-4.jpg",
+        "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/12/young-chow-fried-rice-1.jpg",
+        "sha256": "e5fea97180369ddaf6d6041a3ac318f71dd9cd8753c1040140081f396ccd8479",
+        "httpStatus": 200,
+        "contentType": "image/webp"
+      },
+      {
+        "stepOrder": 5,
+        "path": "assets/dishes/sources/cn-008-yangzhou-fried-rice/step-5.jpg",
+        "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/12/young-chow-fried-rice-2.jpg",
+        "sha256": "5d16bb2eb1043906a981d20f39dd348f9c2a3d35f5dd018e24ac4f3811749dea",
+        "httpStatus": 200,
+        "contentType": "image/webp"
+      },
+      {
+        "stepOrder": 6,
+        "path": "assets/dishes/sources/cn-008-yangzhou-fried-rice/step-6.jpg",
+        "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/12/young-chow-fried-rice-3.jpg",
+        "sha256": "990ce9c89e6ab8bbd5f3c2d6d650ef5c4ea6d9098a44e0e91780001b117b3a0b",
+        "httpStatus": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "stepOrder": 9,
+        "path": "assets/dishes/sources/cn-008-yangzhou-fried-rice/step-9.jpg",
+        "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/12/young-chow-fried-rice-5.jpg",
+        "sha256": "8bc1c01cf1f59c764f5a0ba35f817fd80e3851ae6b01b092f371f190eb75dfee",
+        "httpStatus": 200,
+        "contentType": "image/jpeg"
+      }
+    ]
+  }, { prepMinutes: 30, cookMinutes: 10, totalMinutes: 40 }),
   c("清蒸鲈鱼", "Steamed Sea Bass", "粤菜", "鲈鱼（日本真鲈、花鲈）750克；小米辣2个；葱（绿色部分）30克；姜10克；料酒2汤匙；盐2调味匙；生抽3调味匙；糖0.5调味匙；香油少许；食用油30克；纯净水2汤匙；冰水适量（浸泡葱丝）；蒸锅用水适量", "1）鲈鱼去鳞、去内脏后清洗干净，在背部两边各划一刀；淋上2汤匙料酒，抹上2调味匙盐，腌制30分钟。2）将30克葱洗净切成长细丝，泡入适量冰水；10克姜分别切丝、切片，小米辣2个切圈。3）盘子里放几片姜。4）放上腌好的鲈鱼，在鱼腹中放几片姜，鱼表面放上葱丝和姜丝。5）蒸锅水烧开后，放入鱼蒸约8分钟；蒸制时间按鱼的大小调整，建议不超过10分钟，以免鱼肉过老。6）蒸鱼期间，将3调味匙生抽、0.5调味匙糖、少许香油和2汤匙纯净水混合均匀，调成碗汁。7）鱼蒸好后取出，倒掉蒸出的水，拿掉原先的葱姜丝，再重新放上葱姜丝和小米辣圈。8）淋上碗汁；将30克食用油烧热至冒烟，把热油浇到鱼身上即可。", "09-qingzheng-luyu.png", "https://www.douguo.com/cookbook/1426656.html", {
     sourceName: "豆果美食",
     recipePageUrl: "https://www.douguo.com/cookbook/1426656.html",

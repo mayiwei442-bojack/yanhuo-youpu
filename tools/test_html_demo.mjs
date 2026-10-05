@@ -1,6 +1,7 @@
 import { chromium } from "playwright-core";
 import { pathToFileURL } from "node:url";
 import { resolve } from "node:path";
+import { chinese, western } from "./recipe_data.mjs";
 
 const baseUrl = process.env.DEMO_URL || pathToFileURL(resolve(process.env.DEMO_ENTRY || "index.html")).href;
 const expectDeepSeek = process.env.EXPECT_DEEPSEEK === "1";
@@ -12,6 +13,10 @@ const browser = await chromium.launch({
 
 const page = await browser.newPage({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 1 });
 const errors = [];
+const sourceTotals = new Map([
+  ...chinese.map((recipe, index) => [`cn-${String(index + 1).padStart(3, "0")}`, recipe.timing?.totalMinutes]),
+  ...western.map((recipe, index) => [`west-${String(index + 1).padStart(3, "0")}`, recipe.timing?.totalMinutes])
+]);
 page.on("console", (message) => {
   if (message.type() === "error") errors.push(`console: ${message.text()}`);
 });
@@ -244,6 +249,11 @@ try {
     for (const recipe of refreshed) {
       await mediaPage.goto(`${baseUrl}#/recipe/${recipe.id}`, { waitUntil: "load" });
       await mediaPage.waitForSelector(".detail-page");
+      const sourceTotal = sourceTotals.get(recipe.id);
+      if (sourceTotal != null) {
+        assert(recipe.time === sourceTotal, `${recipe.id} 生成总时长与所选信源不一致`);
+        assert((await mediaPage.locator(".fact-row .fact strong").first().innerText()).trim() === `${sourceTotal} 分`, `${recipe.id} 详情总时长没有正确显示`);
+      }
       const hero = mediaPage.locator(".detail-hero > img");
       assert(await hero.getAttribute("src") === recipe.imageFull, `${recipe.id} 成品图与生成数据不一致`);
       await hero.scrollIntoViewIfNeeded();

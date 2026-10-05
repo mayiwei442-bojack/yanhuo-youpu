@@ -1,0 +1,36 @@
+{
+  "recipeId": "cn-008",
+  "authorization": "user_confirmed_2026-09-16",
+  "referer": "https://thewoksoflife.com/young-chow-fried-rice/",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/12/young-chow-fried-rice-8.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-008-yangzhou-fried-rice/hero.jpg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 4,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/12/young-chow-fried-rice-1.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-008-yangzhou-fried-rice/step-4.jpg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 5,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/12/young-chow-fried-rice-2.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-008-yangzhou-fried-rice/step-5.jpg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 6,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/12/young-chow-fried-rice-3.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-008-yangzhou-fried-rice/step-6.jpg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 9,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/12/young-chow-fried-rice-5.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-008-yangzhou-fried-rice/step-9.jpg"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "recipeId": "cn-008",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/12/young-chow-fried-rice-8.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-008-yangzhou-fried-rice/hero.jpg",
+      "sha256": "20a85d56c9bf1f2b8aff0c013b51ec802b9c9426fd48c10923d11ba812fc3aab",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 86318
+    },
+    {
+      "role": "step",
+      "stepOrder": 4,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/12/young-chow-fried-rice-1.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-008-yangzhou-fried-rice/step-4.jpg",
+      "sha256": "e5fea97180369ddaf6d6041a3ac318f71dd9cd8753c1040140081f396ccd8479",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 38104
+    },
+    {
+      "role": "step",
+      "stepOrder": 5,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/12/young-chow-fried-rice-2.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-008-yangzhou-fried-rice/step-5.jpg",
+      "sha256": "5d16bb2eb1043906a981d20f39dd348f9c2a3d35f5dd018e24ac4f3811749dea",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 36776
+    },
+    {
+      "role": "step",
+      "stepOrder": 6,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/12/young-chow-fried-rice-3.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-008-yangzhou-fried-rice/step-6.jpg",
+      "sha256": "990ce9c89e6ab8bbd5f3c2d6d650ef5c4ea6d9098a44e0e91780001b117b3a0b",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 44849
+    },
+    {
+      "role": "step",
+      "stepOrder": 9,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/12/young-chow-fried-rice-5.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-008-yangzhou-fried-rice/step-9.jpg",
+      "sha256": "8bc1c01cf1f59c764f5a0ba35f817fd80e3851ae6b01b092f371f190eb75dfee",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 46476
+    }
+  ]
+}

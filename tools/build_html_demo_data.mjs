@@ -1,6 +1,6 @@
 import { writeFile } from "node:fs/promises";
 import { chinese, western } from "./recipe_data.mjs";
-import { stepDuration, stepHeat, explicitDurationSeconds } from "./recipe-step-metadata.mjs";
+import { stepDuration, stepHeat, recipeTotalMinutes } from "./recipe-step-metadata.mjs";
 
 const HERITAGE_FLAVORS = new Set([
   "桂林米粉",
@@ -76,12 +76,6 @@ function detectAllergens(text) {
   return rules.filter(([, pattern]) => pattern.test(text)).map(([id]) => id);
 }
 
-function estimateTime(text, steps) {
-  const explicit = explicitDurationSeconds(text) / 60;
-  const estimate = explicit || 10 + steps.length * 7;
-  return Math.max(15, Math.min(180, Math.ceil(estimate / 5) * 5));
-}
-
 function buildRecipe(recipe, index, type) {
   const ingredients = parseIngredients(recipe.ingredients);
   const steps = splitSteps(recipe.steps);
@@ -116,7 +110,7 @@ function buildRecipe(recipe, index, type) {
   ingredients.forEach((item) => {
     item.isCore = coreIds.has(item.id);
   });
-  const time = estimateTime(combined, steps);
+  const time = recipeTotalMinutes(combined, steps.length, recipe.timing);
   const difficulty = time >= 70 || /复炸|酥皮|乳化|分次|隔水|发酵/u.test(combined)
     ? "进阶"
     : time <= 30 && ingredients.length <= 8

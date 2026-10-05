@@ -1,0 +1,8 @@
+{
+  "status": "FAIL",
+  "issues": [{ "field": "data/recipes.js[cn-008].time", "message": "生成值15分钟与信源明确准备30、烹饪10、总计40分钟冲突，不可用局部炒制时间兜底作整道菜时长。" }],
+  "summary": "目标验证通过，原料、九步操作、五张本地图片及语言结构通过，但整体用时元数据与信源冲突。",
+  "evidencePackageHash": "02a5e6a548bd94492a24c6b00ffb631951190376c00755cab1b8d3ed24c4b1db",
+  "validatorPassed": true,
+  "adversarialReview": { "ingredientSemantics": true, "stepGrammar": true, "punctuation": true, "renderedStructure": true }
+}

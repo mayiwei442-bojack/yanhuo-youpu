@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { stepDuration, stepHeat } from "../recipe-step-metadata.mjs";
+import { stepDuration, stepHeat, recipeTotalMinutes } from "../recipe-step-metadata.mjs";
 
 assert.equal(stepDuration("腌制半小时。"), 1800);
 assert.equal(stepDuration("静置0.5小时。"), 1800);
@@ -17,4 +17,10 @@ assert.equal(stepHeat("用中火。"), "medium");
 assert.equal(stepHeat("中高火炒制。"), null);
 assert.equal(stepHeat("小火化糖，转中火煎肉。"), null);
 assert.equal(stepHeat("不要大火。"), null);
+assert.equal(recipeTotalMinutes("炒30秒，再炒2分钟。", 9, { prepMinutes: 30, cookMinutes: 10, totalMinutes: 40 }), 40);
+assert.equal(recipeTotalMinutes("炒1分钟。", 2, { totalMinutes: 400 }), 400);
+assert.equal(recipeTotalMinutes("炒1分钟。", 2), 15);
+assert.throws(() => recipeTotalMinutes("", 2, { totalMinutes: 0 }));
+assert.throws(() => recipeTotalMinutes("", 2, { totalMinutes: "40" }));
+assert.throws(() => recipeTotalMinutes("", 2, { totalMinutes: 40, prepMinutes: -1 }));
 console.log(JSON.stringify({ ok: true, check: "source_supported_step_metadata" }));

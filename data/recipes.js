@@ -1481,111 +1481,111 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "ingredient-02",
-        "name": "煮饭用清水（按米包装说明略减）",
-        "label": "煮饭用清水适量（按米包装说明略减）",
+        "name": "食用油",
+        "label": "食用油3汤匙（炒蛋用1汤匙，炒饭用2汤匙，米饭偏干时可另加少许）",
         "isCore": false
       },
       {
         "id": "ingredient-03",
-        "name": "食用油",
-        "label": "食用油3汤匙（分次：炒蛋1汤匙、炒饭2汤匙",
-        "isCore": false
-      },
-      {
-        "id": "ingredient-04",
-        "name": "另备，米饭偏干时可选）",
-        "label": "另备少许，米饭偏干时可选）",
-        "isCore": true
-      },
-      {
-        "id": "ingredient-05",
         "name": "大鸡蛋",
         "label": "大鸡蛋2个，打散",
         "isCore": true
       },
       {
-        "id": "ingredient-06",
-        "name": "鲜虾仁",
-        "label": "鲜虾仁110克（40—60号，去壳去虾线）",
-        "isCore": false
+        "id": "ingredient-04",
+        "name": "鲜虾",
+        "label": "鲜虾110克（40—60号，去壳去虾线）",
+        "isCore": true
       },
       {
-        "id": "ingredient-07",
-        "name": "焯虾仁用沸水",
-        "label": "焯虾仁用沸水适量",
-        "isCore": false
-      },
-      {
-        "id": "ingredient-08",
+        "id": "ingredient-05",
         "name": "中等大小洋葱",
         "label": "中等大小洋葱1个，切细丁",
         "isCore": false
       },
       {
-        "id": "ingredient-09",
+        "id": "ingredient-06",
         "name": "弗吉尼亚火腿",
-        "label": "弗吉尼亚火腿110克，切丁",
+        "label": "弗吉尼亚火腿1/2杯（约110克），切丁",
         "isCore": false
       },
       {
-        "id": "ingredient-10",
+        "id": "ingredient-07",
         "name": "中式叉烧",
-        "label": "中式叉烧110克，切丁",
+        "label": "中式叉烧1/2杯（约110克），切丁",
         "isCore": false
       },
       {
-        "id": "ingredient-11",
+        "id": "ingredient-08",
         "name": "冷冻青豆",
         "label": "冷冻青豆3/4杯，解冻",
         "isCore": false
       },
       {
-        "id": "ingredient-12",
+        "id": "ingredient-09",
         "name": "盐",
         "label": "盐1又1/2茶匙",
         "isCore": false
       },
       {
-        "id": "ingredient-13",
+        "id": "ingredient-10",
         "name": "白糖",
         "label": "白糖1/4茶匙",
         "isCore": false
       },
       {
-        "id": "ingredient-14",
+        "id": "ingredient-11",
         "name": "绍兴酒",
         "label": "绍兴酒1茶匙（可选）",
         "isCore": false
       },
       {
-        "id": "ingredient-15",
+        "id": "ingredient-12",
         "name": "小葱",
         "label": "小葱2根，切碎",
         "isCore": false
       },
       {
-        "id": "ingredient-16",
+        "id": "ingredient-13",
         "name": "罗马生菜或球生菜",
         "label": "罗马生菜或球生菜2杯，切碎",
         "isCore": false
       },
       {
-        "id": "ingredient-17",
+        "id": "ingredient-14",
         "name": "现磨白胡椒粉",
         "label": "现磨白胡椒粉1/8茶匙",
         "isCore": false
       },
       {
-        "id": "ingredient-18",
+        "id": "ingredient-15",
+        "name": "煮饭用清水（比米包装说明略少）",
+        "label": "煮饭用清水适量（比米包装说明略少）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-16",
+        "name": "焯虾用沸水",
+        "label": "焯虾用沸水适量",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-17",
         "name": "清水或鸡汤少量（米饭偏干时可选）",
         "label": "清水或鸡汤少量（米饭偏干时可选）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-18",
+        "name": "辣酱或辣椒油（可选配餐）",
+        "label": "辣酱或辣椒油适量（可选配餐）",
         "isCore": false
       }
     ],
     "steps": [
       {
         "id": "step-01",
-        "instruction": "如需自煮5杯熟米饭，按包装说明煮饭，但清水比包装说明略少，避免米饭软黏；熟饭不加盖摊凉，停止冒蒸汽后用叉子拨松并打散饭团。也可将米饭冷藏过夜；炒前用手把冷饭团搓散成粒，手发黏时用冷水冲洗后继续。",
+        "instruction": "按米包装说明煮饭，清水用量比包装说明略少，避免米饭软黏，备好5杯熟米饭。不加盖放凉，停止冒蒸汽后用叉子拨松并打散饭团，剩下的饭团可在炒锅中继续打散。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
@@ -1595,7 +1595,7 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "step-02",
-        "instruction": "将2个大鸡蛋打散；洋葱切细丁，弗吉尼亚火腿和中式叉烧切丁，小葱及2杯罗马生菜或球生菜切碎；3/4杯冷冻青豆提前解冻。另烧一锅适量沸水，将110克去壳去虾线的鲜虾仁焯水，捞出沥干备用。",
+        "instruction": "若将米饭冷藏过夜，炒前用手将冷饭团搓散成粒，手发黏时不时用冷水冲洗，再继续搓散。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
@@ -1605,7 +1605,7 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "step-03",
-        "instruction": "炒锅以中高火烧热，加入1汤匙食用油，倒入蛋液，轻轻翻折炒散，避免鸡蛋焦煳；鸡蛋凝成柔嫩小块后盛回碗中。",
+        "instruction": "炒锅以中高火烧热，加入1汤匙食用油，倒入打散的2个大鸡蛋，轻轻翻折炒散，避免焦煳，再将炒蛋盛回碗中。另备一锅沸水，将110克去壳去虾线的鲜虾焯水，沥干备用。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
@@ -1615,17 +1615,43 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "step-04",
-        "instruction": "炒锅转高火，加入剩余2汤匙食用油，放入洋葱丁翻炒至透明；加入火腿丁和叉烧丁翻炒30秒。倒入米饭，以锅铲压散饭团并不断翻炒2分钟，至米饭均匀受热；加入焯过的虾仁和解冻青豆，继续不断翻炒2分钟，至米饭完全热透。",
-        "duration": null,
+        "instruction": "炒锅转大火烧热，加入剩余2汤匙食用油和洋葱丁，翻炒至洋葱透明。加入切丁的弗吉尼亚火腿和中式叉烧，翻炒30秒。",
+        "duration": 30,
         "heat": "high",
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "add",
-        "safetyNote": ""
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-008-yangzhou-fried-rice/step-4.jpg",
+        "imageSource": "https://thewoksoflife.com/young-chow-fried-rice/"
       },
       {
         "id": "step-05",
-        "instruction": "将1又1/2茶匙盐和1/4茶匙白糖均匀撒入锅中。若用绍兴酒，将1茶匙绍兴酒沿锅边淋入，使其发出滋滋声并让酒精挥发；翻炒至调味均匀。",
+        "instruction": "倒入5杯熟米饭，以大火翻炒2分钟，使米饭均匀受热，并用锅铲压散剩余饭团。",
+        "duration": 120,
+        "heat": "high",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-008-yangzhou-fried-rice/step-5.jpg",
+        "imageSource": "https://thewoksoflife.com/young-chow-fried-rice/"
+      },
+      {
+        "id": "step-06",
+        "instruction": "加入焯过的虾和解冻的3/4杯青豆，以大火继续不断翻炒2分钟，至米饭完全热透。",
+        "duration": 120,
+        "heat": "high",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-008-yangzhou-fried-rice/step-6.jpg",
+        "imageSource": "https://thewoksoflife.com/young-chow-fried-rice/"
+      },
+      {
+        "id": "step-07",
+        "instruction": "将1又1/2茶匙盐和1/4茶匙白糖撒在米饭上。若使用绍兴酒，将1茶匙绍兴酒沿锅边淋入，使其发出滋滋声并让酒精挥发，翻炒至调味均匀。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
@@ -1634,8 +1660,8 @@ window.YANHUO_RECIPES = [
         "safetyNote": ""
       },
       {
-        "id": "step-06",
-        "instruction": "检查米饭状态；若略显干，可撒入少量清水或鸡汤，或补少许食用油。若仍有大饭团，可将少量液体直接淋在饭团上帮助打散；不要一次加多，以免米饭湿软或油腻。",
+        "id": "step-08",
+        "instruction": "若米饭略显干，可撒入少量清水或鸡汤，或补少许食用油。将少量液体直接淋在大饭团上可帮助打散，但水加多会使米饭湿软，油加多会使米饭油腻。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
@@ -1644,21 +1670,32 @@ window.YANHUO_RECIPES = [
         "safetyNote": ""
       },
       {
-        "id": "step-07",
-        "instruction": "加入炒好的鸡蛋、碎小葱、碎生菜和1/8茶匙现磨白胡椒粉，保持翻炒，只炒至生菜刚刚变蔫且仍保留爽脆口感，立即装盘。",
+        "id": "step-09",
+        "instruction": "加入炒好的鸡蛋、碎小葱、碎生菜和1/8茶匙现磨白胡椒粉，翻炒至生菜刚刚变蔫便停止，立即装盘。可另配适量辣酱或辣椒油食用。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "add",
-        "safetyNote": ""
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-008-yangzhou-fried-rice/step-9.jpg",
+        "imageSource": "https://thewoksoflife.com/young-chow-fried-rice/"
       }
     ],
-    "imageThumb": "assets/dishes/thumbnails/08-yangzhou-chaofan.jpg",
-    "imageFull": "assets/dishes/ai/08-yangzhou-chaofan.png",
-    "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
-    "time": 15,
-    "difficulty": "进阶",
+    "imageThumb": "assets/dishes/sources/cn-008-yangzhou-fried-rice/hero.jpg",
+    "imageFull": "assets/dishes/sources/cn-008-yangzhou-fried-rice/hero.jpg",
+    "source": "https://thewoksoflife.com/young-chow-fried-rice/",
+    "media": {
+      "sourceName": "The Woks of Life",
+      "recipePageUrl": "https://thewoksoflife.com/young-chow-fried-rice/",
+      "mediaPageUrl": "https://thewoksoflife.com/young-chow-fried-rice/",
+      "author": "Bill",
+      "rightsNotice": "The Woks of Life source photographs; repository copy separately authorized by user.",
+      "reuseLicense": null,
+      "repositoryCopyAuthorization": "user_confirmed_2026-09-16"
+    },
+    "time": 40,
+    "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [
       "egg",
@@ -1668,7 +1705,7 @@ window.YANHUO_RECIPES = [
       "containsPork": true,
       "containsBeef": false,
       "containsAlcohol": false,
-      "spicy": false,
+      "spicy": true,
       "vegetarian": false
     },
     "demoEnriched": true

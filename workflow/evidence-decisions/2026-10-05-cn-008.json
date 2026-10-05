@@ -1,0 +1,281 @@
+{
+  "recipeId": "cn-008",
+  "createdAt": "2026-10-05T15:02:28.270Z",
+  "sourceMode": "single_source",
+  "singleSourceReason": "配置来源和可靠历史均已核对。Woks为名称匹配、完整且内部自洽的扬州来源作者版本；豆果和书籍的原料去向有具体未解决缺漏，不作为本轮可编辑整份来源。不同既有版本不得混用；Woks与其可靠历史原料和操作一致，仅拆细阶段并补记原文明示辅料。",
+  "selectedSourceUrl": "https://thewoksoflife.com/young-chow-fried-rice/",
+  "selectionReason": "完整性和内部自洽优先：Woks明确全部核心原料去向、3汤匙油的1+2分配、中高火炒蛋/大火炒饭、30秒及两个2分钟阶段、补水/高汤/少油条件和生菜刚萎软即停。保留其整份菜谱；不因豆果11/11图片覆盖而忽略其香葱未入步骤缺漏。",
+  "qualifyingSourceUrls": [
+    "https://thewoksoflife.com/young-chow-fried-rice/"
+  ],
+  "assessments": {
+    "https://thewoksoflife.com/young-chow-fried-rice/": {
+      "qualifies": true,
+      "ingredientCoverage": "complete",
+      "stepCoverage": "complete",
+      "internalCoherence": "coherent",
+      "heroImages": 1,
+      "mappedStepImages": 4,
+      "stepImageCoverage": 0.4444444444444444,
+      "ingredientCount": 19,
+      "executableStepCount": 9,
+      "notes": [
+        "9 structured stages retain the full source recipe, with the original combined stir-fry paragraph separated into the 30-second meat, 2-minute rice and 2-minute shrimp/pea stages.",
+        "Two alternate in-wok photographs are recorded but not imported as duplicate instructions. Image7 is a plated finished dish, not a cooking step, and is not assigned to one.",
+        "Cooking oil, water, optional stock/extra oil and optional serving sauce included; cold water for rinsing hands is hygiene instruction, not edible recipe ingredient.",
+        "No rice cup, tablespoon or teaspoon capacity is defined; retain source vessels without metric conversion."
+      ]
+    },
+    "https://www.douguo.com/cookbook/1180703.html": {
+      "qualifies": false,
+      "ingredientCoverage": "complete",
+      "stepCoverage": "incomplete",
+      "internalCoherence": "conflicted",
+      "heroImages": 1,
+      "mappedStepImages": 11,
+      "stepImageCoverage": 1,
+      "ingredientCount": 18,
+      "executableStepCount": 11,
+      "notes": [
+        "The ingredients and preparation list scallions and chop them, but no cooking or serving step ever uses them. Do not invent an addition.",
+        "Sausage is cooked with vegetables and removed in source step7; step10 says only various vegetables return, so sausage return is ambiguous.",
+        "Half an egg white for shrimp is separately required in addition to the two eggs; no source evidence authorizes subtracting it from those eggs.",
+        "The detailed raw source and all original method-introduced oil, water, starch, salt and sesame oil were preserved; unchanged RAG document/5 embeddings reused."
+      ]
+    },
+    "book:3f3418ae-5819-4829-8630-500cb56187a6": {
+      "qualifies": false,
+      "ingredientCoverage": "incomplete",
+      "stepCoverage": "incomplete",
+      "internalCoherence": "conflicted",
+      "heroImages": 0,
+      "mappedStepImages": 0,
+      "stepImageCoverage": 0,
+      "ingredientCount": 12,
+      "executableStepCount": 3,
+      "notes": [
+        "Corn is in ingredients and blanching tip, but no formal cooking/assembly step uses corn; scallions are chopped but never added.",
+        "Boiling water named in method not represented in original ingredient normalization. Historical RAG preserved unchanged rather than silently correcting omissions.",
+        "No verified image assets or exact media URL in existing book RAG; not a current source-image candidate."
+      ]
+    }
+  },
+  "media": {
+    "recipePageUrl": "https://thewoksoflife.com/young-chow-fried-rice/",
+    "mediaPageUrl": "https://thewoksoflife.com/young-chow-fried-rice/",
+    "sourceName": "The Woks of Life",
+    "author": "Bill",
+    "rightsNotice": "The Woks of Life source photographs; repository copy separately authorized by user.",
+    "reuseLicense": null,
+    "repositoryCopyAuthorized": true,
+    "hero": {
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/12/young-chow-fried-rice-8.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-008-yangzhou-fried-rice/hero.jpg",
+      "httpStatus": 200,
+      "contentType": "image/jpeg"
+    },
+    "steps": [
+      {
+        "stepOrder": 4,
+        "sourceStepOrder": 4,
+        "pageOrder": 1,
+        "adjacentText": "Heat the wok now over high heat. Add 2 tablespoons of oil and the diced onion. Stir-fry until the onions are translucent. Next, add the diced ham and Chinese Roast Pork, and stir-fry for 30 seconds.",
+        "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/12/young-chow-fried-rice-1.jpg",
+        "repositoryPath": "assets/dishes/sources/cn-008-yangzhou-fried-rice/step-4.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "stepOrder": 5,
+        "sourceStepOrder": 4,
+        "pageOrder": 2,
+        "adjacentText": "Add the rice and stir-fry for 2 minutes, being sure to heat the rice uniformly. Use your wok spatula to flatten out and break up any remaining rice clumps.",
+        "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/12/young-chow-fried-rice-2.jpg",
+        "repositoryPath": "assets/dishes/sources/cn-008-yangzhou-fried-rice/step-5.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "stepOrder": 6,
+        "sourceStepOrder": 4,
+        "pageOrder": 3,
+        "adjacentText": "Add the shrimp and peas, and stir fry continuously for another 2 minutes until the rice is heated through.",
+        "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/12/young-chow-fried-rice-3.jpg",
+        "repositoryPath": "assets/dishes/sources/cn-008-yangzhou-fried-rice/step-6.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg",
+        "alternateImages": [
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/12/young-chow-fried-rice-4.jpg",
+            "pageOrder": 4,
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "adjacentText": "Same shrimp and peas stir-fry phase; alternate angle, not a separate operation."
+          }
+        ]
+      },
+      {
+        "stepOrder": 9,
+        "sourceStepOrder": 7,
+        "pageOrder": 5,
+        "adjacentText": "Next, mix in the scrambled eggs, scallions, chopped lettuce, and white pepper. Lettuce is one of the signature ingredients of this young chow fried rice providing a refreshing crunch so be sure not to overcook it!",
+        "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/12/young-chow-fried-rice-5.jpg",
+        "repositoryPath": "assets/dishes/sources/cn-008-yangzhou-fried-rice/step-9.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg",
+        "alternateImages": [
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/12/young-chow-fried-rice-6.jpg",
+            "pageOrder": 6,
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "adjacentText": "Same egg, scallion, lettuce and white pepper phase; alternate angle, not another operation."
+          }
+        ]
+      }
+    ]
+  },
+  "attempts": [
+    {
+      "sourceName": "The Woks of Life",
+      "url": "https://thewoksoflife.com/young-chow-fried-rice/",
+      "status": "success",
+      "method": "Public web reader",
+      "directNodeStatus": 403,
+      "documentId": "13d71b61-5b39-41a1-b75d-e1d019fc0ad8"
+    },
+    {
+      "sourceName": "豆果美食",
+      "url": "https://www.douguo.com/cookbook/1180703.html",
+      "status": "success",
+      "method": "Node public HTTP200 HTML; unchanged normalization reused",
+      "documentId": "4c33307b-a444-4c42-a85d-b0ee10df0a0c"
+    },
+    {
+      "sourceName": "贝太厨房:从小爱吃的菜2",
+      "url": null,
+      "status": "success",
+      "method": "Existing exact-name RAG complete document",
+      "documentId": "3f3418ae-5819-4829-8630-500cb56187a6"
+    }
+  ],
+  "candidateMedia": {
+    "https://www.douguo.com/cookbook/1180703.html": {
+      "hero": {
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/8/2/9/960_82aba9cfb8cc83efc9286bd95716ba29.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8"
+      },
+      "steps": [
+        {
+          "sourceStepOrder": 1,
+          "pageOrder": 1,
+          "adjacentText": "准备食材。泰国香米300克、胡萝卜丁适量、青豆适量、玉米粒适量、黄瓜适量、鸡蛋两个、香肠适量、虾仁适量、香葱适量。",
+          "originalUrl": "https://cp1.douguo.com/upload/caiku/6/3/4/800_639e3de4cb32e745c5ef03be9332e314.jpg",
+          "httpStatus": 200,
+          "contentType": "image/jpeg;charset=UTF-8"
+        },
+        {
+          "sourceStepOrder": 2,
+          "pageOrder": 2,
+          "adjacentText": "将香米淘洗干净，然后放到电饭煲中，加适量的清水开始煮饭，饭煮好后，晾凉备用。",
+          "originalUrl": "https://cp1.douguo.com/upload/caiku/7/c/6/800_7c09a95ea65e496046e3f7cd8feb8286.jpg",
+          "httpStatus": 200,
+          "contentType": "image/jpeg;charset=UTF-8"
+        },
+        {
+          "sourceStepOrder": 3,
+          "pageOrder": 3,
+          "adjacentText": "黄瓜切丁、香肠切丁、鸡蛋打散、香葱切碎备用。",
+          "originalUrl": "https://cp1.douguo.com/upload/caiku/7/1/2/800_713f80247c75b7412201943a8bbdf6b2.jpg",
+          "httpStatus": 200,
+          "contentType": "image/jpeg;charset=UTF-8"
+        },
+        {
+          "sourceStepOrder": 4,
+          "pageOrder": 4,
+          "adjacentText": "虾仁中加半只蛋清、一小勺淀粉抓均后腌制10分钟备用。",
+          "originalUrl": "https://cp1.douguo.com/upload/caiku/3/5/7/800_35878dc463942c828292c93938b21dd7.jpg",
+          "httpStatus": 200,
+          "contentType": "image/jpeg;charset=UTF-8"
+        },
+        {
+          "sourceStepOrder": 5,
+          "pageOrder": 5,
+          "adjacentText": "锅中加适量清水，水烧开后加将玉米、青豆、胡萝卜倒入锅中焯水备用。",
+          "originalUrl": "https://cp1.douguo.com/upload/caiku/c/b/2/800_cbd68af2ffb6887c6c1d468019c40732.jpg",
+          "httpStatus": 200,
+          "contentType": "image/jpeg;charset=UTF-8"
+        },
+        {
+          "sourceStepOrder": 6,
+          "pageOrder": 6,
+          "adjacentText": "锅中加少许油，油热后倒入虾仁滑炒。虾仁变白成熟即可盛出备用。",
+          "originalUrl": "https://cp1.douguo.com/upload/caiku/8/7/4/800_87e3b4cb7b9a558d16a55eb60da5c994.jpg",
+          "httpStatus": 200,
+          "contentType": "image/jpeg;charset=UTF-8"
+        },
+        {
+          "sourceStepOrder": 7,
+          "pageOrder": 7,
+          "adjacentText": "锅中加少许油，油热后将玉米、青豆、胡萝卜、黄瓜、香肠倒入锅中，加入少许盐煸炒匀后盛出备用。",
+          "originalUrl": "https://cp1.douguo.com/upload/caiku/3/d/f/800_3dc585c2b60fa3edfae3813bcd4c8d3f.jpg",
+          "httpStatus": 200,
+          "contentType": "image/jpeg;charset=UTF-8"
+        },
+        {
+          "sourceStepOrder": 8,
+          "pageOrder": 8,
+          "adjacentText": "锅中加少许油，油热之后倒入蛋液，边炒边将鸡蛋打散。",
+          "originalUrl": "https://cp1.douguo.com/upload/caiku/f/f/8/800_ffd38b574bda7bc9d02a67b6a21d34e8.jpg",
+          "httpStatus": 200,
+          "contentType": "image/jpeg;charset=UTF-8"
+        },
+        {
+          "sourceStepOrder": 9,
+          "pageOrder": 9,
+          "adjacentText": "将米饭倒入锅中翻炒匀均。",
+          "originalUrl": "https://cp1.douguo.com/upload/caiku/9/8/1/800_98d7bd42f22cdbeafe05b03299a72311.jpg",
+          "httpStatus": 200,
+          "contentType": "image/jpeg;charset=UTF-8"
+        },
+        {
+          "sourceStepOrder": 10,
+          "pageOrder": 10,
+          "adjacentText": "将各种蔬菜倒入锅中翻炒匀均。",
+          "originalUrl": "https://cp1.douguo.com/upload/caiku/5/3/7/800_53e850ea525350645aa08e54245c47c7.jpg",
+          "httpStatus": 200,
+          "contentType": "image/jpeg;charset=UTF-8"
+        },
+        {
+          "sourceStepOrder": 11,
+          "pageOrder": 11,
+          "adjacentText": "将虾仁倒入锅中，然后滴少许香油翻炒匀均后即可出锅。",
+          "originalUrl": "https://cp1.douguo.com/upload/caiku/2/4/6/800_2471447494be686a021ae46be5d87886.jpg",
+          "httpStatus": 200,
+          "contentType": "image/jpeg;charset=UTF-8"
+        }
+      ]
+    },
+    "https://thewoksoflife.com/young-chow-fried-rice/": {
+      "additionalFinishedDish": {
+        "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/12/young-chow-fried-rice-7.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg",
+        "adjacentText": "Stir fry to combine, until the lettuce is just wilted, and plate!",
+        "role": "finished_dish_not_action_image"
+      }
+    }
+  },
+  "notes": [
+    "RAG-first exact canonical-name lookup returned entity d764c850-62bb-4c70-b027-e953d74000ec and book 3f3418ae-5819-4829-8630-500cb56187a6, Woks1309ee70-5ff3-4cf0-b9d6-58b9bd4a6d3b and Douguo4c33307b-a444-4c42-a85d-b0ee10df0a0c before page research.",
+    "Woks ordinary web reader successfully read full public current page and recipe card; direct configured Node HTTP fetch returned403 and was not bypassed. Therefore it is false to report the source entirely inaccessible. Image URLs linked in successful public page returned HEAD200 image/jpeg.",
+    "Douguo1180703 ordinary Node public page200; web tool independently403. Its full ingredient/method content is unchanged against normalized history; ingestDocument deduplicated=true, embedded=false. 5 voyage-4 chunks with actual vector_dims1024 verified.",
+    "Book reliable existing document reused unchanged; 5 voyage-4 chunks with actual vector_dims1024 verified. Exact EPUB locator text00113.html#subid75; no fixed pages. Omissions remain recorded, not filled from another source.",
+    "Woks 9-stage normalization with19 ingredients ingested as 13d71b61-5b39-41a1-b75d-e1d019fc0ad8; six voyage-4/1024 chunks. A preliminary normalization 5fcc9b70-327c-47a2-8b07-05f14c7ebade included hand-rinsing water as an ingredient; corrected current document classifies that solely as hygiene in the unchanged instruction. Neither document modifies recipe data.",
+    "Current source title Young Chow Fried Rice explicitly explains Yangzhou origin and authored takeout variant. Preserve Virginia ham/Chinese roast pork/lettuce route; no Douguo sausage/cucumber or book chicken/corn supplementation.",
+    "All four selected cooking photos are exact adjacent in-wok action photos. Two alternates retained as provenance but each displayed step uses one image; image7 is plated finished dish, image8 selected hero. Missing step photos remain text-only.",
+    "Source volumes cups/tablespoons/teaspoons are undefined in metric capacity. Source-provided110g protein equivalents may be retained; no inventedml quantities. Medium-high remains literal 中高火, not silently rounded to 中火.",
+    "Every tried candidate retains its separate ingredients and detailed steps in base evidence; final package contains only the eligible Woks source, with explicit single-source reason and the excluded-source assessments in decision artifact."
+  ]
+}

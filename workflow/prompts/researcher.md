@@ -6,7 +6,7 @@ Inputs: target recipe ID, name, category, the enabled entries for that category 
 
 Required sequence:
 
-1. Query the existing knowledge base for the exact entity/name first.
+1. Query the existing knowledge base for the exact entity/name first. Documents/chunks whose metadata `evidenceStatus` is `invalid`, `superseded`, or `rejected` are audit history, not current recipe evidence; exclude them even when reading rows directly rather than using the normal retrieval functions. When correcting an erroneous normalization, retain the old document/chunks, mark both with that status and `replacementDocumentId`, and verify that semantic and hybrid retrieval do not return them.
 2. Search only enabled configured websites. Reject a near-name or materially different variant.
 3. Fetch accessible recipe pages without bypassing login, CAPTCHA, rate limits, or anti-automation controls.
 4. Record success and failure for every attempted source. Preserve source name, canonical URL, retrieval method, completeness, document ID, and extracted fields.
