@@ -1,0 +1,49 @@
+{
+  "recipeId": "cn-027",
+  "verifiedAt": "2026-10-05T23:33:41Z",
+  "newDocuments": [
+    {
+      "documentId": "ad33a49e-fb00-4472-bf31-4ef8cd5e90fc",
+      "url": "https://www.douguo.com/cookbook/2292246.html",
+      "chunks": 5,
+      "embeddingModel": "voyage-4",
+      "actualVectorDimension": 1024,
+      "documentAndChunkStatus": null
+    },
+    {
+      "documentId": "a6d19544-cac1-4e56-b7eb-211a350a3136",
+      "url": "https://thewoksoflife.com/steamed-scallops-noodles/",
+      "chunks": 6,
+      "embeddingModel": "voyage-4",
+      "actualVectorDimension": 1024,
+      "documentAndChunkStatus": null
+    }
+  ],
+  "supersededDocument": {
+    "documentId": "877b6463-7452-4645-87e7-b97154c88899",
+    "documentStatus": "superseded",
+    "chunksRetained": 5,
+    "allChunkStatuses": "superseded",
+    "replacementDocumentId": "ad33a49e-fb00-4472-bf31-4ef8cd5e90fc",
+    "allFiveChunkReplacementIdsVerified": true,
+    "sameSourceUrl": true,
+    "reason": "旧规范化漏同页方法水，并将成品/宣传行计作步骤；同源更正，不改原文或混源。"
+  },
+  "verification": {
+    "rootReadOnlySqlDocumentAndChunkMetadataVerified": true,
+    "rootActualVectorDimensionsVerified": true,
+    "researcherRealSemanticResults": 16,
+    "researcherRealHybridResults": 16,
+    "oldDocumentReturned": 0,
+    "bothNewDocumentsRetrieved": true,
+    "retrievalAuditLocation": "workflow/evidence/2026-10-06-cn-027-base.json notes"
+  },
+  "notes": [
+    "两个独立网站文档均单独正常入库；仅采用豆果整份菜谱和媒体。",
+    "书籍原料表与方法本身油量冲突，不伪改原量，也不删除或标invalid其合法历史资料。",
+    "Root恢复阶段仅SQL核验；未重复入库、重新embedding、删除数据或改数据库架构。",
+    "2026-10-06恢复执行再次只读SQL核实两份新文档及旧文档/全部分块状态、替代ID与实际向量维度，结果一致。"
+  ],
+  "reverifiedAt": "2026-10-05T23:44:04Z",
+  "projectId": "lbvrzckkyzjbgwnconse"
+}

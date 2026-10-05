@@ -4211,128 +4211,306 @@ window.YANHUO_RECIPES = [
       {
         "id": "ingredient-01",
         "name": "扇贝",
-        "label": "扇贝6只",
+        "label": "扇贝10个",
         "isCore": true
       },
       {
         "id": "ingredient-02",
-        "name": "粉丝",
-        "label": "粉丝30克",
+        "name": "龙口粉丝",
+        "label": "龙口粉丝1小把",
         "isCore": true
       },
       {
         "id": "ingredient-03",
         "name": "大蒜",
-        "label": "大蒜30克",
+        "label": "大蒜7瓣",
         "isCore": false
       },
       {
         "id": "ingredient-04",
-        "name": "姜片",
-        "label": "姜片10克",
+        "name": "味极鲜酱油",
+        "label": "味极鲜酱油15克",
         "isCore": false
       },
       {
         "id": "ingredient-05",
-        "name": "红尖椒",
-        "label": "红尖椒1个",
-        "isCore": true
+        "name": "蚝油",
+        "label": "蚝油15克",
+        "isCore": false
       },
       {
         "id": "ingredient-06",
-        "name": "料酒",
-        "label": "料酒10毫升",
+        "name": "盐",
+        "label": "盐适量（抓洗扇贝肉和调料汁用，分次使用，原页未区分用量）",
         "isCore": false
       },
       {
         "id": "ingredient-07",
-        "name": "生抽",
-        "label": "生抽20毫升",
-        "isCore": false
+        "name": "鸡精",
+        "label": "鸡精适量",
+        "isCore": true
       },
       {
         "id": "ingredient-08",
         "name": "白糖",
-        "label": "白糖3克",
+        "label": "白糖适量",
         "isCore": false
       },
       {
         "id": "ingredient-09",
-        "name": "芝麻香油",
-        "label": "芝麻香油10毫升",
+        "name": "小米辣",
+        "label": "小米辣2个",
         "isCore": false
       },
       {
         "id": "ingredient-10",
-        "name": "白胡椒粉",
-        "label": "白胡椒粉少许",
+        "name": "小葱",
+        "label": "小葱1根",
         "isCore": false
       },
       {
         "id": "ingredient-11",
         "name": "食用油",
-        "label": "食用油35毫升",
+        "label": "食用油20克",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-12",
+        "name": "水",
+        "label": "水适量（泡粉丝、清洗和蒸制用，原页未注明用量）",
         "isCore": false
       }
     ],
     "steps": [
       {
         "id": "step-01",
-        "instruction": "打开扇贝取肉，去除肠脏并冲洗干净，贝壳刷洗擦干；粉丝剪段后用温水泡软、沥干，以少许芝麻香油和白胡椒粉拌匀，分放在贝壳中，再摆上扇贝肉。",
-        "duration": null,
-        "heat": null,
-        "timerRequired": false,
-        "ingredientsUsed": [],
-        "gameAction": "stir",
-        "safetyNote": ""
-      },
-      {
-        "id": "step-02",
-        "instruction": "锅中用少量油爆香姜片，转小火加入料酒、生抽、白糖、芝麻香油、白胡椒粉和少许水煮匀，取出姜片。",
-        "duration": null,
-        "heat": "low",
-        "timerRequired": false,
-        "ingredientsUsed": [],
-        "gameAction": "add",
-        "safetyNote": ""
-      },
-      {
-        "id": "step-03",
-        "instruction": "蒜蓉分成两半，一半用六成热油炸至金黄，再与生蒜蓉、红椒碎拌成金银蒜，铺在扇贝上并淋调味汁。",
+        "instruction": "准备扇贝、龙口粉丝、大蒜、味极鲜酱油、蚝油、盐、鸡精、白糖、小米辣、小葱、食用油和水。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "confirm",
-        "safetyNote": "注意热油飞溅"
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-027-scallop-vermicelli/step-1.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/2292246.html"
+      },
+      {
+        "id": "step-02",
+        "instruction": "龙口粉丝用温水泡软，备用。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-027-scallop-vermicelli/step-2.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/2292246.html"
+      },
+      {
+        "id": "step-03",
+        "instruction": "大蒜切末，小米辣和小葱切圈，备用。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-027-scallop-vermicelli/step-3.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/2292246.html"
       },
       {
         "id": "step-04",
-        "instruction": "蒸锅水开后大火蒸5–6分钟；出锅后淋上烧至七成热的剩余食用油。",
-        "duration": 360,
+        "instruction": "用刷子将扇贝刷洗干净。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-027-scallop-vermicelli/step-4.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/2292246.html"
+      },
+      {
+        "id": "step-05",
+        "instruction": "用小刀将扇贝肉与壳分离。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-027-scallop-vermicelli/step-5.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/2292246.html"
+      },
+      {
+        "id": "step-06",
+        "instruction": "扇贝肉去掉裙边和泥肠等，用清水冲洗干净，再用盐抓洗干净。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-027-scallop-vermicelli/step-6.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/2292246.html"
+      },
+      {
+        "id": "step-07",
+        "instruction": "将扇贝壳也刷洗干净。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-027-scallop-vermicelli/step-7.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/2292246.html"
+      },
+      {
+        "id": "step-08",
+        "instruction": "将泡软的粉丝捞出、沥水，用手卷一下，放入扇贝壳中。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-027-scallop-vermicelli/step-8.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/2292246.html"
+      },
+      {
+        "id": "step-09",
+        "instruction": "将扇贝肉放在粉丝上。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-027-scallop-vermicelli/step-9.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/2292246.html"
+      },
+      {
+        "id": "step-10",
+        "instruction": "将15克味极鲜酱油、15克蚝油与适量盐、鸡精、白糖放入碗中，搅拌均匀成料汁，尝一下味道，按个人喜好调整咸淡。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-027-scallop-vermicelli/step-10.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/2292246.html"
+      },
+      {
+        "id": "step-11",
+        "instruction": "锅中加入20克食用油，烧热后放入蒜末，炒出香味并炒至金黄。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-027-scallop-vermicelli/step-11.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/2292246.html"
+      },
+      {
+        "id": "step-12",
+        "instruction": "倒入调好的料汁。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-027-scallop-vermicelli/step-12.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/2292246.html"
+      },
+      {
+        "id": "step-13",
+        "instruction": "用大火煮开，至汤汁浓郁。",
+        "duration": null,
+        "heat": "high",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-027-scallop-vermicelli/step-13.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/2292246.html"
+      },
+      {
+        "id": "step-14",
+        "instruction": "将制作好的汤汁浇在扇贝肉上。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-027-scallop-vermicelli/step-14.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/2292246.html"
+      },
+      {
+        "id": "step-15",
+        "instruction": "撒上小米辣圈。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-027-scallop-vermicelli/step-15.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/2292246.html"
+      },
+      {
+        "id": "step-16",
+        "instruction": "蒸锅中加水，将扇贝放入蒸锅，隔水加盖，用大火蒸5–8分钟。",
+        "duration": 480,
         "heat": "high",
         "timerRequired": true,
         "ingredientsUsed": [],
-        "gameAction": "wait",
-        "safetyNote": ""
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-027-scallop-vermicelli/step-16.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/2292246.html"
+      },
+      {
+        "id": "step-17",
+        "instruction": "出锅后撒上适量小葱圈。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-027-scallop-vermicelli/step-17.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/2292246.html"
       }
     ],
-    "imageThumb": "assets/dishes/thumbnails/37-suanrong-fensi-zheng-shanbei.jpg",
-    "imageFull": "assets/dishes/ai/37-suanrong-fensi-zheng-shanbei.png",
-    "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
-    "time": 15,
-    "timeBasis": "estimated",
-    "difficulty": "适中",
+    "imageThumb": "assets/dishes/sources/cn-027-scallop-vermicelli/hero.jpg",
+    "imageFull": "assets/dishes/sources/cn-027-scallop-vermicelli/hero.jpg",
+    "source": "https://www.douguo.com/cookbook/2292246.html",
+    "media": {
+      "sourceName": "豆果美食",
+      "recipePageUrl": "https://www.douguo.com/cookbook/2292246.html",
+      "mediaPageUrl": "https://www.douguo.com/cookbook/2292246.html",
+      "author": "沙小囡",
+      "rightsNotice": "©本菜谱的做法由 沙小囡 编写，未经授权不得转载",
+      "reuseLicense": null,
+      "repositoryCopyAuthorization": "user_confirmed_2026-09-16"
+    },
+    "time": null,
+    "timeBasis": "unspecified",
+    "difficulty": "进阶",
     "defaultServings": 2,
     "allergens": [
       "shellfish",
-      "soy",
-      "sesame"
+      "soy"
     ],
     "flags": {
       "containsPork": false,
       "containsBeef": false,
-      "containsAlcohol": true,
+      "containsAlcohol": false,
       "spicy": false,
       "vegetarian": false
     },
