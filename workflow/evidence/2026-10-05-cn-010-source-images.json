@@ -1,0 +1,876 @@
+{
+  "recipeId": "cn-010",
+  "recipeName": "地三鲜",
+  "category": "chinese",
+  "createdAt": "2026-10-05T15:44:58.991Z",
+  "sourceMode": "multi_source",
+  "selectedSourceUrl": "https://www.douguo.com/cookbook/3355060.html",
+  "selectionReason": "三份资料均名称匹配、文字完整且各自自洽。按完整性/自洽优先后比较可用源图：豆果13个可执行操作有13张逐步语义正确的照片（100%），Woks9执行阶段4个阶段有图（44.4%），书籍没有已核验图。选择豆果整份作者版本；不因Woks原料更多或其40分钟总时长覆盖更高的完整豆果图片证据。不混用其他两来源。",
+  "sources": [
+    {
+      "sourceName": "The Woks of Life",
+      "sourceType": "website",
+      "url": "https://thewoksoflife.com/di-san-xian-stir-fry/",
+      "documentId": "f292079a-944f-41b5-b180-42b54daef3ff",
+      "retrievalMethod": "ordinary public web reader full recipe body and recipe card; direct Node page 403",
+      "complete": true,
+      "ingredients": [
+        {
+          "raw": "3 cloves garlic (smashed and peeled)",
+          "name": "garlic",
+          "amount": "3 cloves",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "2 scallions (chopped)",
+          "name": "scallions",
+          "amount": "2",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "1½ tablespoons cornstarch",
+          "name": "cornstarch",
+          "amount": "1½ tablespoons",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "3 tablespoons water",
+          "name": "water",
+          "amount": "3 tablespoons",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "2 long Chinese eggplants (cut on an angle into large bite-sized pieces)",
+          "name": "long Chinese eggplants",
+          "amount": "2",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "1 large potato (about 8 ounces/225g, peeled and cut on an angle into large bite-sized pieces)",
+          "name": "potato",
+          "amount": "1 large (about 8 ounces/225g)",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "½ red bell pepper (cut into large bite-sized pieces)",
+          "name": "red bell pepper",
+          "amount": "½",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "½ orange bell pepper (cut into large bite-sized pieces)",
+          "name": "orange bell pepper",
+          "amount": "½",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "4 tablespoons oil; Add a bit of oil if the wok is very dry at this point.",
+          "name": "oil",
+          "amount": "4 tablespoons; a bit more only if wok is very dry",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "1 tablespoon Shaoxing wine",
+          "name": "Shaoxing wine",
+          "amount": "1 tablespoon",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "2 tablespoons light soy sauce",
+          "name": "light soy sauce",
+          "amount": "2 tablespoons",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "½ teaspoon sugar",
+          "name": "sugar",
+          "amount": "½ teaspoon",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "¼ teaspoon white pepper",
+          "name": "white pepper",
+          "amount": "¼ teaspoon",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "½ teaspoon sesame oil",
+          "name": "sesame oil",
+          "amount": "½ teaspoon",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "Salt to taste",
+          "name": "salt",
+          "amount": "to taste",
+          "evidence": "explicit"
+        }
+      ],
+      "steps": [
+        {
+          "heat": null,
+          "order": 1,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "Smash and peel the garlic, chop the scallions, and mix the cornstarch with the water in a small bowl. Set everything aside."
+        },
+        {
+          "heat": null,
+          "order": 2,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "Wash and wipe all the vegetables dry using a clean kitchen towel before cutting them into large bite-sized pieces. Peel the potato and cut on an angle; cut the eggplants on an angle and the bell peppers into large bite-sized pieces. Do not let cut potato and eggplants sit for too long before cooking, because they oxidize and become discolored."
+        },
+        {
+          "heat": "medium heat",
+          "order": 3,
+          "duration": "about 8 minutes",
+          "evidence": "explicit",
+          "instruction": "Heat the oil in the wok over medium heat. Add the potato and brown lightly for about 8 minutes until cooked through. Stir occasionally to avoid burning."
+        },
+        {
+          "heat": null,
+          "order": 4,
+          "duration": "1 minute",
+          "evidence": "explicit",
+          "instruction": "Add the bell peppers and stir-fry for another minute. Transfer everything to a dish and set aside."
+        },
+        {
+          "heat": null,
+          "order": 5,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "There should be oil left in the wok. Add the eggplant and brown slightly. Spread the eggplant pieces into a single layer, cover the lid for a minute, uncover and stir to avoid burning, then repeat. Do this 2-3 times until cooked through. Transfer to a dish."
+        },
+        {
+          "heat": null,
+          "order": 6,
+          "duration": "a few seconds",
+          "evidence": "explicit",
+          "instruction": "Add a bit of oil only if the wok is very dry. The author did not need additional oil. Add the garlic, cook for a few seconds, and return all the vegetables to the wok."
+        },
+        {
+          "heat": null,
+          "order": 7,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "Quickly add the Shaoxing wine, light soy sauce, sugar, white pepper, and sesame oil. Stir and mix well."
+        },
+        {
+          "heat": "turn up the heat",
+          "order": 8,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "Turn up the heat. Stir the cornstarch slurry well before adding it, as cornstarch settles to the bottom, then add the slurry and scallions."
+        },
+        {
+          "heat": null,
+          "order": 9,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "Stir a couple of times to coat the vegetables with sauce, add salt to taste, and serve."
+        }
+      ],
+      "technique": [
+        "Prep: 20 mins",
+        "Cook: 20 mins",
+        "Total: 40 mins",
+        "Serves: 2 servings",
+        "Shallow-fry rather than deep-fry; eggplant last.",
+        "Cover eggplant for one minute, uncover and stir, repeat 2-3 times; no single total timer is stated."
+      ],
+      "tips": [
+        "Wipe washed vegetables dry with a clean kitchen towel.",
+        "Cook cut potato and eggplant promptly to avoid oxidation.",
+        "Potato takes longest; peppers shortest.",
+        "Only add extra oil if the wok is very dry.",
+        "Re-stir slurry immediately before adding.",
+        "Source body introductory color note says red/yellow; authoritative ingredient card specifically gives half red and half orange."
+      ],
+      "rawExcerpt": "Smash and peel the garlic, chop the scallions, and mix the cornstarch with the water in a small bowl. Set everything aside.\nWash and wipe all the vegetables dry using a clean kitchen towel before cutting them into large bite-sized pieces. Peel the potato and cut on an angle; cut the eggplants on an angle and the bell peppers into large bite-sized pieces. Do not let cut potato and eggplants sit for too long before cooking, because they oxidize and become discolored.\nHeat the oil in the wok over medium heat. Add the potato and brown lightly for about 8 minutes until cooked through. Stir occasionally to avoid burning.\nAdd the bell peppers and stir-fry for another minute. Transfer everything to a dish and set aside.\nThere should be oil left in the wok. Add the eggplant and brown slightly. Spread the eggplant pieces into a single layer, cover the lid for a minute, uncover and stir to avoid burning, then repeat. Do this 2-3 times until cooked through. Transfer to a dish.\nAdd a bit of oil only if the wok is very dry. The author did not need additional oil. Add the garlic, cook for a few seconds, and return all the vegetables to the wok.\nQuickly add the Shaoxing wine, light soy sauce, sugar, white pepper, and sesame oil. Stir and mix well.\nTurn up the heat. Stir the cornstarch slurry well before adding it, as cornstarch settles to the bottom, then add the slurry and scallions.\nStir a couple of times to coat the vegetables with sauce, add salt to taste, and serve.\n3 cloves garlic (smashed and peeled)\n2 scallions (chopped)\n1½ tablespoons cornstarch\n3 tablespoons water\n2 long Chinese eggplants (cut on an angle into large bite-sized pieces)\n1 large potato (about 8 ounces/225g, peeled and cut on an angle into large bite-sized pieces)\n½ red bell pepper (cut into large bite-sized pieces)\n½ orange bell pepper (cut into large bite-sized pieces)\n4 tablespoons oil; Add a bit of oil if the wok is very dry at this point.\n1 tablespoon Shaoxing wine\n2 tablespoons light soy sauce\n½ teaspoon sugar\n¼ teaspoon white pepper\n½ teaspoon sesame oil\nSalt to taste\nPrep:20 mins; Cook:20 mins; Total:40 mins",
+      "bookTitle": null,
+      "pageStart": null,
+      "pageEnd": null,
+      "location": null,
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 1,
+        "mappedStepImages": 4,
+        "stepImageCoverage": 0.4444444444444444,
+        "ingredientCount": 15,
+        "executableStepCount": 9,
+        "notes": [
+          "完整保留15原料包含条件追加食用油（归同一油行）、9分解执行stage。",
+          "4 distinct action stage photos map to stages3/4/5/8; second stage8 action photo is retained only as alternate.",
+          "Prep20/Cook20/Total40明示，留在此候选证据不移植到豆果。",
+          "前言提及red/yellow，原料表实际red/orange；此候选依recipe card保留red/orange并记录差异。",
+          "名称Di San Xian(地三鲜)明确；不同调料和甜椒颜色为独立作者版本，不跨源融合。"
+        ]
+      }
+    },
+    {
+      "sourceName": "贝太厨房:从小爱吃的菜2",
+      "sourceType": "book",
+      "url": null,
+      "documentId": "0ccf6dd7-83ed-4601-a184-f2b9ac406a86",
+      "retrievalMethod": "existing reliable corrected EPUB XHTML section; hash-deduplicated ingestion reused",
+      "complete": true,
+      "ingredients": [
+        {
+          "raw": "土豆 200g",
+          "name": "土豆",
+          "amount": "200g",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "茄子 150g",
+          "name": "茄子",
+          "amount": "150g",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "绿菜椒 1OOg",
+          "name": "绿菜椒",
+          "amount": "1OOg",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "大葱末 5g",
+          "name": "大葱末",
+          "amount": "5g",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "蒜蓉 10g",
+          "name": "蒜蓉",
+          "amount": "10g",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "盐 5g",
+          "name": "盐",
+          "amount": "5g",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "鸡精 3g",
+          "name": "鸡精",
+          "amount": "3g",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "水淀粉 20ml",
+          "name": "水淀粉",
+          "amount": "20ml",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "油 500ml（实耗20ml）",
+          "name": "油",
+          "amount": "500ml（实耗20ml）",
+          "evidence": "explicit"
+        }
+      ],
+      "steps": [
+        {
+          "heat": null,
+          "order": 1,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "土豆和茄子去皮，分别切成适口的滚刀块。绿菜椒去籽去蒂，手撕成适口的块。（图2）"
+        },
+        {
+          "heat": null,
+          "order": 2,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "中火加热炸锅中的油至6成热，先放入土豆块炸至边缘呈金黄色，捞出沥干油分。然后再放入茄子块炸软，捞出沥干油分。（图3）"
+        },
+        {
+          "heat": null,
+          "order": 3,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "锅中留底油（1汤匙，15ml），中火烧至6成热，放入大葱末和蒜蓉爆香。然后将过油后的土豆、茄子及绿菜椒放入锅中煸炒。（图4）"
+        },
+        {
+          "heat": null,
+          "order": 4,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "炒约3、4分钟沿锅边淋入水淀粉，待所有材料均匀包裹薄芡，加入鸡精和盐调味即可。（图5）"
+        }
+      ],
+      "technique": [
+        "准备：10分钟",
+        "烹饪：20分钟"
+      ],
+      "tips": [
+        "1.脆嫩的绿菜椒用手掰成块，比用刀切口味更佳。",
+        "2.炸土豆块时可以先用低一些的油温慢炸，使得土豆块内部熟透，再调大火快炸，让外面的颜色金黄好看。炸茄子最好一直用中火，至软身即可。",
+        "3.这道菜色泽简单清爽，突出材料的天然味道，所以过程中不用放多余的调味料，如：酱油、辣椒、花椒。"
+      ],
+      "rawExcerpt": "地三鲜\n\r\n\r\n准备：10分钟　 \r\n烹饪：20分钟\n\r\n浓浓的味道，绿色天然的材料，就这么滚刀乱切一通，扔到锅里爆炒一通，全没有多余的修饰，有的只是本色美味。\n\r\n用料：\n\r\n土豆　　　　200g\n\r\n茄子　　　　150g\n\r\n绿菜椒　　　1OOg\n\r\n大葱末　　　5g\n\r\n蒜蓉　　　　10g\n\r\n盐　　　　　5g\n\r\n鸡精　　　　3g\n\r\n水淀粉　　　20ml\n\r\n油　　　　　500ml\n\r\n　　　　　　（实耗20ml）\n\r\n做法：\n\r\n1.土豆和茄子去皮，分别切成适口的滚刀块。绿菜椒去籽去蒂，手撕成适口的块。（图2）\n\r\n2.中火加热炸锅中的油至6成热，先放入土豆块炸至边缘呈金黄色，捞出沥干油分。然后再放入茄子块炸软，捞出沥干油分。（图3）\n\r\n3.锅中留底油（1汤匙，15ml），中火烧至6成热，放入大葱末和蒜蓉爆香。然后将过油后的土豆、茄子及绿菜椒放入锅中煸炒。（图4）\n\r\n4.炒约3、4分钟沿锅边淋入水淀粉，待所有材料均匀包裹薄芡，加入鸡精和盐调味即可。（图5）\n\r\n家传小诀窍：\n\r\n1.脆嫩的绿菜椒用手掰成块，比用刀切口味更佳。\n\r\n2.炸土豆块时可以先用低一些的油温慢炸，使得土豆块内部熟透，再调大火快炸，让外面的颜色金黄好看。炸茄子最好一直用中火，至软身即可。\n\r\n3.这道菜色泽简单清爽，突出材料的天然味道，所以过程中不用放多余的调味料，如：酱油、辣椒、花椒。",
+      "bookTitle": "贝太厨房:从小爱吃的菜2",
+      "pageStart": null,
+      "pageEnd": null,
+      "location": "text00015.html#subid9",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 0,
+        "mappedStepImages": 0,
+        "stepImageCoverage": 0,
+        "ingredientCount": 9,
+        "executableStepCount": 4,
+        "notes": [
+          "完整文字版本已补齐绿菜椒1OOg和500ml油（实耗20ml）；保留原文1OOg字符，不猜测修订原稿。",
+          "书籍无固定页码，以text00015.html#subid9定位；没有已核验图片URL。",
+          "完整可靠文字资料应独立计数，不因无图称不完整；本轮source-image发布不选无图书籍。",
+          "原文明示底油1汤匙15ml，可保留15ml；不可推到其他来源匙容量。",
+          "准备10分钟/烹饪20分钟保留；该无酱油清爽炸法独立于两网页作者版本。"
+        ]
+      }
+    },
+    {
+      "sourceName": "豆果美食",
+      "sourceType": "website",
+      "url": "https://www.douguo.com/cookbook/3355060.html",
+      "documentId": "774a9bcc-9b94-4706-b9a8-4c32362661ab",
+      "retrievalMethod": "ordinary Node HTTPS GET200 complete public HTML; existing corrected normalization reused; web reader403",
+      "complete": true,
+      "ingredients": [
+        {
+          "raw": "土豆 1个",
+          "name": "土豆",
+          "amount": "1个",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "长茄子 1个",
+          "name": "长茄子",
+          "amount": "1个",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "辣椒 1个",
+          "name": "辣椒",
+          "amount": "1个",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "蒜 4瓣",
+          "name": "蒜",
+          "amount": "4瓣",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "生抽 2勺",
+          "name": "生抽",
+          "amount": "2勺",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "蚝油 1勺",
+          "name": "蚝油",
+          "amount": "1勺",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "盐 1小勺",
+          "name": "盐",
+          "amount": "1小勺",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "白糖 1中勺",
+          "name": "白糖",
+          "amount": "1中勺",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "食用油 5勺",
+          "name": "食用油",
+          "amount": "5勺",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "玉米淀粉 8克",
+          "name": "玉米淀粉",
+          "amount": "8克",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "红薯淀粉 10克",
+          "name": "红薯淀粉",
+          "amount": "10克",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "清水 半碗（原文步骤使用）",
+          "name": "清水",
+          "amount": "半碗",
+          "evidence": "explicit"
+        }
+      ],
+      "steps": [
+        {
+          "heat": null,
+          "order": 1,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "准备食材。"
+        },
+        {
+          "heat": null,
+          "order": 2,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "土豆洗净去皮切滚刀块，长茄子洗净去蒂切滚刀块，辣椒洗净去筋去籽切大片备用。"
+        },
+        {
+          "heat": null,
+          "order": 3,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "蒜去皮去蒂切蒜末备用。"
+        },
+        {
+          "heat": null,
+          "order": 4,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "切好的茄子放进容器中，均匀撒1勺红薯淀粉，颠匀，让每一块茄子裹薄薄一层淀粉，既吸油又更容易挂汁。"
+        },
+        {
+          "heat": null,
+          "order": 5,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "小碗中加2勺生抽，1勺蚝油，加1中勺白糖、1小勺盐、1勺玉米淀粉，半碗清水搅拌均匀成料汁。"
+        },
+        {
+          "heat": null,
+          "order": 6,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "锅中加入2勺食用油，烧至7成热，将土豆块下锅。"
+        },
+        {
+          "heat": "中小火",
+          "order": 7,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "中小火煎到表面金黄、基本熟透后盛出备用。"
+        },
+        {
+          "heat": null,
+          "order": 8,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "锅中再补2勺食用油，烧热后放入茄子块。"
+        },
+        {
+          "heat": null,
+          "order": 9,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "再下辣椒，煎到茄子变软，辣椒微焦，快速翻两下，先盛出备用。"
+        },
+        {
+          "heat": null,
+          "order": 10,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "锅中再加入1勺食用油，下入一半的蒜末炒香。"
+        },
+        {
+          "heat": "小火",
+          "order": 11,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "倒入提前调好的酱汁，小火煮到微微变稠。"
+        },
+        {
+          "heat": null,
+          "order": 12,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "倒回土豆、茄子和青椒，再加入剩下一半的蒜末。"
+        },
+        {
+          "heat": "大火",
+          "order": 13,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "大火快速翻炒，让酱汁均匀裹住食材，收至明亮油润即可出锅。"
+        },
+        {
+          "heat": null,
+          "order": 14,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "茄子吸满汤汁，绵密不烂，辣椒提香开胃，简单家常却越吃越香。",
+          "executable": false,
+          "role": "finished_dish_description"
+        }
+      ],
+      "technique": [
+        "中小火",
+        "小火",
+        "大火"
+      ],
+      "tips": [
+        "茄子裹一层薄淀粉，可以防止过多吸油",
+        "蒜末先炒香，出锅前补一点蒜末更香整道菜更有灵魂",
+        "青椒别炒太久，保持清脆最好吃",
+        "留一点汁，拌饭超绝"
+      ],
+      "rawExcerpt": "土豆 1个\n长茄子 1个\n辣椒 1个\n蒜 4瓣\n生抽 2勺\n蚝油 1勺\n盐 1小勺\n白糖 1中勺\n食用油 5勺\n玉米淀粉 8克\n红薯淀粉 10克\n清水 半碗（原文步骤使用）\n1. 准备食材。\n2. 土豆洗净去皮切滚刀块，长茄子洗净去蒂切滚刀块，辣椒洗净去筋去籽切大片备用。\n3. 蒜去皮去蒂切蒜末备用。\n4. 切好的茄子放进容器中，均匀撒1勺红薯淀粉，颠匀，让每一块茄子裹薄薄一层淀粉，既吸油又更容易挂汁。\n5. 小碗中加2勺生抽，1勺蚝油，加1中勺白糖、1小勺盐、1勺玉米淀粉，半碗清水搅拌均匀成料汁。\n6. 锅中加入2勺食用油，烧至7成热，将土豆块下锅。\n7. 中小火煎到表面金黄、基本熟透后盛出备用。\n8. 锅中再补2勺食用油，烧热后放入茄子块。\n9. 再下辣椒，煎到茄子变软，辣椒微焦，快速翻两下，先盛出备用。\n10. 锅中再加入1勺食用油，下入一半的蒜末炒香。\n11. 倒入提前调好的酱汁，小火煮到微微变稠。\n12. 倒回土豆、茄子和青椒，再加入剩下一半的蒜末。\n13. 大火快速翻炒，让酱汁均匀裹住食材，收至明亮油润即可出锅。\n14. 茄子吸满汤汁，绵密不烂，辣椒提香开胃，简单家常却越吃越香。\n茄子裹一层薄淀粉，可以防止过多吸油\n蒜末先炒香，出锅前补一点蒜末更香整道菜更有灵魂\n青椒别炒太久，保持清脆最好吃\n留一点汁，拌饭超绝",
+      "bookTitle": null,
+      "pageStart": null,
+      "pageEnd": null,
+      "location": null,
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 1,
+        "mappedStepImages": 13,
+        "stepImageCoverage": 1,
+        "ingredientCount": 12,
+        "executableStepCount": 13,
+        "notes": [
+          "清水半碗来自原文步骤5，保留12原料完整版本。",
+          "网页第14条为成品风味说明，非可执行操作，不计13个操作分母且其成品图不可贴作过程图。",
+          "两种淀粉清单分别8克/10克，步骤各1勺；原文没有勺容量或克-勺等值定义。保留两个位置原文，不自行换算，也不把不同单位直接断言为数值冲突。",
+          "完整保留2+2+1勺油、一半+剩余一半蒜、7成热、中小火煎至基本熟透、小火汁变稠、大火收汁。",
+          "无明确Prep/Cook/Total或单阶段分钟数，不得从Woks40分钟移植timing。",
+          "锅中两种蔬菜煎后盛出、全部回锅的去向明确；13动作照片全部实际视觉核对。"
+        ]
+      },
+      "media": {
+        "recipePageUrl": "https://www.douguo.com/cookbook/3355060.html",
+        "mediaPageUrl": "https://www.douguo.com/cookbook/3355060.html",
+        "sourceName": "豆果美食",
+        "author": "沙小囡",
+        "rightsNotice": "©本菜谱的做法由 沙小囡 编写，未经授权不得转载",
+        "reuseLicense": null,
+        "repositoryCopyAuthorized": true,
+        "hero": {
+          "originalUrl": "https://cp1.douguo.com/upload/caiku/1/9/6/960_1911ac25f2a9d758f10eb61676a0b686.jpg",
+          "repositoryPath": "assets/dishes/sources/cn-010-di-san-xian/hero.jpg",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "pageOrder": 0,
+          "adjacentText": "地三鲜—东北菜里很朴实的一道",
+          "role": "finished_dish",
+          "sha256": "a4bb4c552d3de037cec4f62e7a327b0e939944b1c56d0e704e4d766d364ae28e"
+        },
+        "steps": [
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/4/d/d/800_4d2335fbd7ea0a245b39bf8d3cfbf85d.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-010-di-san-xian/step-1.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "stepOrder": 1,
+            "sourceStepOrder": 1,
+            "pageOrder": 1,
+            "adjacentText": "准备食材。",
+            "sha256": "308a39ae21f1eccce4ea6b354366505ec3f8454efdc98b226bc719e19b3721f0"
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/3/5/3/800_35e6d418d61d7d6102e4c32b85546003.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-010-di-san-xian/step-2.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "stepOrder": 2,
+            "sourceStepOrder": 2,
+            "pageOrder": 2,
+            "adjacentText": "土豆洗净去皮切滚刀块，长茄子洗净去蒂切滚刀块，辣椒洗净去筋去籽切大片备用。",
+            "sha256": "2c6403fcb4c18d62e2fbbba2b5a9da033010e6ba4163855f74b2f9b640ec309d"
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/f/4/d/800_f4e86200b3a885f42b062a334d0cd17d.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-010-di-san-xian/step-3.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "stepOrder": 3,
+            "sourceStepOrder": 3,
+            "pageOrder": 3,
+            "adjacentText": "蒜去皮去蒂切蒜末备用。",
+            "sha256": "c12d888e5c60b5245ee627068548c8d6d255b2fc9ab864c6736dcff2b433cd14"
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/9/4/b/800_9412ea75b89494d67ce9a3acfa3577fb.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-010-di-san-xian/step-4.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "stepOrder": 4,
+            "sourceStepOrder": 4,
+            "pageOrder": 4,
+            "adjacentText": "切好的茄子放进容器中，均匀撒1勺红薯淀粉，颠匀，让每一块茄子裹薄薄一层淀粉，既吸油又更容易挂汁。",
+            "sha256": "d2663ccffdd075ee0ec4fdfd2bab42a21d66e94cf93a0a70bffbcd61da59bf9b"
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/0/5/d/800_05ae16b393bc5498955e38263a09d4bd.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-010-di-san-xian/step-5.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "stepOrder": 5,
+            "sourceStepOrder": 5,
+            "pageOrder": 5,
+            "adjacentText": "小碗中加2勺生抽，1勺蚝油，加1中勺白糖、1小勺盐、1勺玉米淀粉，半碗清水搅拌均匀成料汁。",
+            "sha256": "a552ebc806554089f2f595eb71fcb2902bf2a86113f6ce8026cb54d84324ca61"
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/9/f/5/800_9f56899ddacfbcffd51f78c91b2a31c5.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-010-di-san-xian/step-6.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "stepOrder": 6,
+            "sourceStepOrder": 6,
+            "pageOrder": 6,
+            "adjacentText": "锅中加入2勺食用油，烧至7成热，将土豆块下锅。",
+            "sha256": "ab33347bacd7f5d684861a3757bb88b23303cc8c234a9e29ae205a4c63c78d0d"
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/7/5/f/800_75b8cad0641fa7f65a7e10c324027a1f.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-010-di-san-xian/step-7.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "stepOrder": 7,
+            "sourceStepOrder": 7,
+            "pageOrder": 7,
+            "adjacentText": "中小火煎到表面金黄、基本熟透后盛出备用。",
+            "sha256": "31b8ad13c5b7dd5478e611ae923af6f3a19e02dc72901cd1c165fd59a0146c46"
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/4/2/5/800_42cb2309df54ef42e0a150423170bc35.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-010-di-san-xian/step-8.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "stepOrder": 8,
+            "sourceStepOrder": 8,
+            "pageOrder": 8,
+            "adjacentText": "锅中再补2勺食用油，烧热后放入茄子块。",
+            "sha256": "4fc75edd8bd16f82e832372b007359f754593150837ba0454e4c76547571099c"
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/e/4/2/800_e4cb75af13455ecbba1070b88fb34372.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-010-di-san-xian/step-9.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "stepOrder": 9,
+            "sourceStepOrder": 9,
+            "pageOrder": 9,
+            "adjacentText": "再下辣椒，煎到茄子变软，辣椒微焦，快速翻两下，先盛出备用。",
+            "sha256": "a8d45a98d5a06dc8976463b8b168537cc46761580e0970f6971d9fc2546e0160"
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/8/8/2/800_88ad5247700b33edf8dfcbd1cca87542.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-010-di-san-xian/step-10.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "stepOrder": 10,
+            "sourceStepOrder": 10,
+            "pageOrder": 10,
+            "adjacentText": "锅中再加入1勺食用油，下入一半的蒜末炒香。",
+            "sha256": "5cf62d5563bda3f880ff3b0f003e05589881c3c848b1bbea839c020c87929f15"
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/d/7/2/800_d73ba164f2e1235187067a1061a36982.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-010-di-san-xian/step-11.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "stepOrder": 11,
+            "sourceStepOrder": 11,
+            "pageOrder": 11,
+            "adjacentText": "倒入提前调好的酱汁，小火煮到微微变稠。",
+            "sha256": "5b80133157a7c8638b3aae22e1cd30cb1cd7af5d6a309a588c3f05a78bbc8589"
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/7/2/5/800_72bb739e5db652f92d168efc30ae0925.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-010-di-san-xian/step-12.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "stepOrder": 12,
+            "sourceStepOrder": 12,
+            "pageOrder": 12,
+            "adjacentText": "倒回土豆、茄子和青椒，再加入剩下一半的蒜末。",
+            "sha256": "f7b29e5a698c2550b342e9b1600e3c3cf64c9216b3a5ea010d6bbb2aa089ef90"
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/0/a/a/800_0ab6838ea80607c82f8d10a53394ce2a.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-010-di-san-xian/step-13.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "stepOrder": 13,
+            "sourceStepOrder": 13,
+            "pageOrder": 13,
+            "adjacentText": "大火快速翻炒，让酱汁均匀裹住食材，收至明亮油润即可出锅。",
+            "sha256": "b8409500b01fb3456397d92a5e7937a480e0f7d73056f9775c74265846f5b605"
+          }
+        ]
+      }
+    }
+  ],
+  "ragEvidence": [
+    {
+      "chunkId": "de237288-c78a-43b3-b795-b3d963e9163f",
+      "documentId": "f292079a-944f-41b5-b180-42b54daef3ff",
+      "sourceName": "The Woks of Life",
+      "chunkType": "summary",
+      "content": "菜名：地三鲜\n别名：Di San Xian、Stir-fried Eggplant, Potatoes & Peppers (Di San Xian)\n菜系：东北菜\n简介：Judy's shallow-fried Di San Xian using eggplant, potato and red/orange bell peppers.",
+      "similarity": null
+    },
+    {
+      "chunkId": "8d3fad1c-6bc5-486e-8bc1-13bce61c9d3f",
+      "documentId": "f292079a-944f-41b5-b180-42b54daef3ff",
+      "sourceName": "The Woks of Life",
+      "chunkType": "ingredients",
+      "content": "菜名：地三鲜\n- 3 cloves garlic (smashed and peeled)\n- 2 scallions (chopped)\n- 1½ tablespoons cornstarch\n- 3 tablespoons water\n- 2 long Chinese eggplants (cut on an angle into large bite-sized pieces)\n- 1 large potato (about 8 ounces/225g, peeled and cut on an angle into large bite-sized pieces)\n- ½ red bell pepper (cut into large bite-sized pieces)\n- ½ orange bell pepper (cut into large bite-sized pieces)\n- 4 tablespoons oil; Add a bit of oil if the wok is very dry at this point.\n- 1 tablespoon Shaoxing wine\n- 2 tablespoons light soy sauce\n- ½ teaspoon sugar\n- ¼ teaspoon white pepper\n- ½ teaspoon sesame oil\n- Salt to taste",
+      "similarity": null
+    },
+    {
+      "chunkId": "3443c444-c9b3-45c5-90a3-6b71bdf2758d",
+      "documentId": "f292079a-944f-41b5-b180-42b54daef3ff",
+      "sourceName": "The Woks of Life",
+      "chunkType": "steps",
+      "content": "菜名：地三鲜\n1. Smash and peel the garlic, chop the scallions, and mix the cornstarch with the water in a small bowl. Set everything aside.\n2. Wash and wipe all the vegetables dry using a clean kitchen towel before cutting them into large bite-sized pieces. Peel the potato and cut on an angle; cut the eggplants on an angle and the bell peppers into large bite-sized pieces. Do not let cut potato and eggplants sit for too long before cooking, because they oxidize and become discolored.\n3. Heat the oil in the wok over medium heat. Add the potato and brown lightly for about 8 minutes until cooked through. Stir occasionally to avoid burning.（about 8 minutes）【medium heat】\n4. Add the bell peppers and stir-fry for another minute. Transfer everything to a dish and set aside.（1 minute）\n5. There should be oil left in the wok. Add the eggplant and brown slightly. Spread the eggplant pieces into a single layer, cover the lid for a minute, uncover and stir to avoid burning, then repeat. Do this 2-3 times until cooked through. Transfer to a dish.",
+      "similarity": null
+    },
+    {
+      "chunkId": "c2c4d452-56dd-4d31-836e-8d905d0614f7",
+      "documentId": "f292079a-944f-41b5-b180-42b54daef3ff",
+      "sourceName": "The Woks of Life",
+      "chunkType": "steps",
+      "content": "菜名：地三鲜\n6. Add a bit of oil only if the wok is very dry. The author did not need additional oil. Add the garlic, cook for a few seconds, and return all the vegetables to the wok.（a few seconds）\n7. Quickly add the Shaoxing wine, light soy sauce, sugar, white pepper, and sesame oil. Stir and mix well.\n8. Turn up the heat. Stir the cornstarch slurry well before adding it, as cornstarch settles to the bottom, then add the slurry and scallions.【turn up the heat】\n9. Stir a couple of times to coat the vegetables with sauce, add salt to taste, and serve.",
+      "similarity": null
+    },
+    {
+      "chunkId": "2cbadcd3-cbbf-442c-9c42-e3e61b4aa1a1",
+      "documentId": "f292079a-944f-41b5-b180-42b54daef3ff",
+      "sourceName": "The Woks of Life",
+      "chunkType": "technique",
+      "content": "菜名：地三鲜\n- Prep: 20 mins\n- Cook: 20 mins\n- Total: 40 mins\n- Serves: 2 servings\n- Shallow-fry rather than deep-fry; eggplant last.\n- Cover eggplant for one minute, uncover and stir, repeat 2-3 times; no single total timer is stated.\n- about 8 minutes\n- medium heat\n- 1 minute\n- a few seconds\n- turn up the heat",
+      "similarity": null
+    },
+    {
+      "chunkId": "5d2a7f14-8397-473d-a51c-c79614066915",
+      "documentId": "f292079a-944f-41b5-b180-42b54daef3ff",
+      "sourceName": "The Woks of Life",
+      "chunkType": "tips",
+      "content": "菜名：地三鲜\n- Wipe washed vegetables dry with a clean kitchen towel.\n- Cook cut potato and eggplant promptly to avoid oxidation.\n- Potato takes longest; peppers shortest.\n- Only add extra oil if the wok is very dry.\n- Re-stir slurry immediately before adding.\n- Source body introductory color note says red/yellow; authoritative ingredient card specifically gives half red and half orange.",
+      "similarity": null
+    },
+    {
+      "chunkId": "baff5f43-a3f5-4e49-bf90-034f1584d1ea",
+      "documentId": "0ccf6dd7-83ed-4601-a184-f2b9ac406a86",
+      "sourceName": "贝太厨房:从小爱吃的菜2",
+      "chunkType": "summary",
+      "content": "菜名：地三鲜\n简介：浓浓的味道，绿色天然的材料，就这么滚刀乱切一通，扔到锅里爆炒一通，全没有多余的修饰，有的只是本色美味。",
+      "similarity": null
+    },
+    {
+      "chunkId": "e63c798b-5252-43e8-ac0a-fe88b4c60537",
+      "documentId": "0ccf6dd7-83ed-4601-a184-f2b9ac406a86",
+      "sourceName": "贝太厨房:从小爱吃的菜2",
+      "chunkType": "ingredients",
+      "content": "菜名：地三鲜\n- 土豆 200g\n- 茄子 150g\n- 绿菜椒 1OOg\n- 大葱末 5g\n- 蒜蓉 10g\n- 盐 5g\n- 鸡精 3g\n- 水淀粉 20ml\n- 油 500ml（实耗20ml）",
+      "similarity": null
+    },
+    {
+      "chunkId": "4406ef5c-c606-4849-921b-489e22a095b5",
+      "documentId": "0ccf6dd7-83ed-4601-a184-f2b9ac406a86",
+      "sourceName": "贝太厨房:从小爱吃的菜2",
+      "chunkType": "steps",
+      "content": "菜名：地三鲜\n1. 土豆和茄子去皮，分别切成适口的滚刀块。绿菜椒去籽去蒂，手撕成适口的块。（图2）\n2. 中火加热炸锅中的油至6成热，先放入土豆块炸至边缘呈金黄色，捞出沥干油分。然后再放入茄子块炸软，捞出沥干油分。（图3）\n3. 锅中留底油（1汤匙，15ml），中火烧至6成热，放入大葱末和蒜蓉爆香。然后将过油后的土豆、茄子及绿菜椒放入锅中煸炒。（图4）\n4. 炒约3、4分钟沿锅边淋入水淀粉，待所有材料均匀包裹薄芡，加入鸡精和盐调味即可。（图5）",
+      "similarity": null
+    },
+    {
+      "chunkId": "7b97d975-7b37-4989-a6f0-ca964f37f195",
+      "documentId": "0ccf6dd7-83ed-4601-a184-f2b9ac406a86",
+      "sourceName": "贝太厨房:从小爱吃的菜2",
+      "chunkType": "technique",
+      "content": "菜名：地三鲜\n- 准备：10分钟\n- 烹饪：20分钟",
+      "similarity": null
+    },
+    {
+      "chunkId": "abf4f9bc-3109-4804-a8cc-563242a24b80",
+      "documentId": "0ccf6dd7-83ed-4601-a184-f2b9ac406a86",
+      "sourceName": "贝太厨房:从小爱吃的菜2",
+      "chunkType": "tips",
+      "content": "菜名：地三鲜\n- 1.脆嫩的绿菜椒用手掰成块，比用刀切口味更佳。\n- 2.炸土豆块时可以先用低一些的油温慢炸，使得土豆块内部熟透，再调大火快炸，让外面的颜色金黄好看。炸茄子最好一直用中火，至软身即可。\n- 3.这道菜色泽简单清爽，突出材料的天然味道，所以过程中不用放多余的调味料，如：酱油、辣椒、花椒。",
+      "similarity": null
+    },
+    {
+      "chunkId": "0f145bbf-72dc-47f8-88ad-fbe6406adc65",
+      "documentId": "774a9bcc-9b94-4706-b9a8-4c32362661ab",
+      "sourceName": "豆果美食",
+      "chunkType": "summary",
+      "content": "菜名：地三鲜\n别名：地三鲜—东北菜里很朴实的一道\n菜系：家常菜\n简介：地三鲜的家常做法，食材简单步骤详细，食材 土豆怎么做好吃、长茄子怎么做好吃、辣椒怎么做好吃、蒜怎么做好吃、生抽怎么做好吃、蚝油怎么做好吃、盐怎么做好吃、白糖怎么做好吃、食用油怎么做好吃、玉米淀粉怎么做好吃、红薯淀粉怎么做好吃 新手也能轻松学会。豆果美食有更多美食教程!",
+      "similarity": null
+    },
+    {
+      "chunkId": "92d48166-60c0-4ce2-ba00-8a7744a89480",
+      "documentId": "774a9bcc-9b94-4706-b9a8-4c32362661ab",
+      "sourceName": "豆果美食",
+      "chunkType": "ingredients",
+      "content": "菜名：地三鲜\n- 土豆 1个\n- 长茄子 1个\n- 辣椒 1个\n- 蒜 4瓣\n- 生抽 2勺\n- 蚝油 1勺\n- 盐 1小勺\n- 白糖 1中勺\n- 食用油 5勺\n- 玉米淀粉 8克\n- 红薯淀粉 10克\n- 清水 半碗（原文步骤使用）",
+      "similarity": null
+    },
+    {
+      "chunkId": "630a2519-d97b-4ba7-9c70-b554f491ae1c",
+      "documentId": "774a9bcc-9b94-4706-b9a8-4c32362661ab",
+      "sourceName": "豆果美食",
+      "chunkType": "steps",
+      "content": "菜名：地三鲜\n1. 准备食材。\n2. 土豆洗净去皮切滚刀块，长茄子洗净去蒂切滚刀块，辣椒洗净去筋去籽切大片备用。\n3. 蒜去皮去蒂切蒜末备用。\n4. 切好的茄子放进容器中，均匀撒1勺红薯淀粉，颠匀，让每一块茄子裹薄薄一层淀粉，既吸油又更容易挂汁。\n5. 小碗中加2勺生抽，1勺蚝油，加1中勺白糖、1小勺盐、1勺玉米淀粉，半碗清水搅拌均匀成料汁。\n6. 锅中加入2勺食用油，烧至7成热，将土豆块下锅。\n7. 中小火煎到表面金黄、基本熟透后盛出备用。【中小火】\n8. 锅中再补2勺食用油，烧热后放入茄子块。\n9. 再下辣椒，煎到茄子变软，辣椒微焦，快速翻两下，先盛出备用。\n10. 锅中再加入1勺食用油，下入一半的蒜末炒香。\n11. 倒入提前调好的酱汁，小火煮到微微变稠。【小火】\n12. 倒回土豆、茄子和青椒，再加入剩下一半的蒜末。\n13. 大火快速翻炒，让酱汁均匀裹住食材，收至明亮油润即可出锅。【大火】\n14. 茄子吸满汤汁，绵密不烂，辣椒提香开胃，简单家常却越吃越香。",
+      "similarity": null
+    },
+    {
+      "chunkId": "db77e97d-02ae-4c07-a8cc-35481774ac79",
+      "documentId": "774a9bcc-9b94-4706-b9a8-4c32362661ab",
+      "sourceName": "豆果美食",
+      "chunkType": "technique",
+      "content": "菜名：地三鲜\n- 中小火\n- 小火\n- 大火\n- 中小火\n- 小火\n- 大火",
+      "similarity": null
+    },
+    {
+      "chunkId": "26d5cf83-f7c8-4024-a003-f04295f46834",
+      "documentId": "774a9bcc-9b94-4706-b9a8-4c32362661ab",
+      "sourceName": "豆果美食",
+      "chunkType": "tips",
+      "content": "菜名：地三鲜\n- 茄子裹一层薄淀粉，可以防止过多吸油\n- 蒜末先炒香，出锅前补一点蒜末更香整道菜更有灵魂\n- 青椒别炒太久，保持清脆最好吃\n- 留一点汁，拌饭超绝",
+      "similarity": null
+    }
+  ],
+  "notes": [
+    "Exact-name KB query preceded configured website research; entity f181db98-de44-47f9-a144-35593f30ad43.",
+    "Configured Woks search matched Di San Xian exact target. Ordinary web reader fetched full body/card successfully; direct Node page403 was recorded without bypass.",
+    "Configured Douguo3355060 ordinary Node public pageGET200; web reader403. All original image URLs traced through public HTML and independently type/status checked; actual pixels reviewed.",
+    "Woks independent normalization ingested document f292079a-944f-41b5-b180-42b54daef3ff;6 voyage-4 chunks actual vector_dims1024. Source tablespoons/teaspoons remain unchanged, no metric capacity invention.",
+    "Corrected book0ccf6dd7 and Douguo774a9bcc ingestion deduplicated=true embedded=false; each5 voyage-4 chunks actual vector_dims1024; no re-embedding of unchanged history.",
+    "Old omitted-ingredient book6b53a2db and Douguodf73cc80 retained for audit with doc AND all5 chunks evidenceStatus=superseded and replacementDocumentId to reliable corrected versions. Real semantic and hybrid retrieval both returned16 current chunks from exactly3 current documents, no old document.",
+    "All three complete independent sources retained; select exactly one whole Douguo source by completeness/coherence then its13/13 action image coverage versus Woks4/9 and book0/4.",
+    "Douguo source step14 is finished-dish prose and plated photo; retain as provenance/tip, exclude from executable steps/photos. Do not borrow any Woks/book ingredients, times, methods or photos.",
+    "Author rights restriction recorded; repository copy authorization is separately user_confirmed_2026-09-16 as supplied by orchestrator, not a website reuse license.",
+    "Source original table starch weights and method spoon quantities are both evidence. Undefined spoon/bowl capacity cannot be converted to ml or reconciled with invented equivalence.",
+    "Exact-name KB query preceded configured website research; entity f181db98-de44-47f9-a144-35593f30ad43.",
+    "Configured Woks search matched Di San Xian exact target. Ordinary web reader fetched full body/card successfully; direct Node page403 was recorded without bypass.",
+    "Configured Douguo3355060 ordinary Node public pageGET200; web reader403. All original image URLs traced through public HTML and independently type/status checked; actual pixels reviewed.",
+    "Woks independent normalization ingested document f292079a-944f-41b5-b180-42b54daef3ff;6 voyage-4 chunks actual vector_dims1024. Source tablespoons/teaspoons remain unchanged, no metric capacity invention.",
+    "Corrected book0ccf6dd7 and Douguo774a9bcc ingestion deduplicated=true embedded=false; each5 voyage-4 chunks actual vector_dims1024; no re-embedding of unchanged history.",
+    "Old omitted-ingredient book6b53a2db and Douguodf73cc80 retained for audit with doc AND all5 chunks evidenceStatus=superseded and replacementDocumentId to reliable corrected versions. Real semantic and hybrid retrieval both returned16 current chunks from exactly3 current documents, no old document.",
+    "All three complete independent sources retained; select exactly one whole Douguo source by completeness/coherence then its13/13 action image coverage versus Woks4/9 and book0/4.",
+    "Douguo source step14 is finished-dish prose and plated photo; retain as provenance/tip, exclude from executable steps/photos. Do not borrow any Woks/book ingredients, times, methods or photos.",
+    "Author rights restriction recorded; repository copy authorization is separately user_confirmed_2026-09-16 as supplied by orchestrator, not a website reuse license.",
+    "Source original table starch weights and method spoon quantities are both evidence. Undefined spoon/bowl capacity cannot be converted to ml or reconciled with invented equivalence."
+  ]
+}

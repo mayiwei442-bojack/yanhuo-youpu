@@ -10,7 +10,7 @@ export function explicitDurationSeconds(text) {
   return durationMentions(text).reduce((sum, item) => sum + item.seconds, 0);
 }
 
-export function recipeTotalMinutes(text, stepCount, timing = null) {
+export function recipeTotalMinutes(text, stepCount, timing = null, { requireSourceTotal = false } = {}) {
   if (timing) {
     if (!Number.isFinite(timing.totalMinutes) || timing.totalMinutes <= 0) throw new Error("来源总时长必须为正数分钟");
     for (const field of ["prepMinutes", "cookMinutes"]) {
@@ -18,6 +18,7 @@ export function recipeTotalMinutes(text, stepCount, timing = null) {
     }
     return timing.totalMinutes;
   }
+  if (requireSourceTotal) return null;
   const explicit = explicitDurationSeconds(text) / 60;
   const estimate = explicit || 10 + stepCount * 7;
   return Math.max(15, Math.min(180, Math.ceil(estimate / 5) * 5));
@@ -34,7 +35,7 @@ export function stepDuration(text) {
 }
 
 export function stepHeat(text) {
-  const matches = [...String(text).matchAll(/中高火|中低火|小火|低火|中火|大火|高火/gu)].filter((match) => !/(?:不要|避免|不可|不能|不宜|勿|禁止)[^，。；]{0,8}$/u.test(String(text).slice(Math.max(0, match.index - 12), match.index)));
+  const matches = [...String(text).matchAll(/中高火|中低火|中小火|中大火|小火|低火|中火|大火|高火/gu)].filter((match) => !/(?:不要|避免|不可|不能|不宜|勿|禁止)[^，。；]{0,8}$/u.test(String(text).slice(Math.max(0, match.index - 12), match.index)));
   const values = new Set(matches.map((match) => ({ 小火: "low", 低火: "low", 中火: "medium", 大火: "high", 高火: "high" })[match[0]]));
   return values.size === 1 && !values.has(undefined) ? [...values][0] : null;
 }

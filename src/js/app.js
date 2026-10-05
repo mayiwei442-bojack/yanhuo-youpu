@@ -233,7 +233,7 @@
       .sort((a, b) => {
         if (order[a.group] !== order[b.group]) return order[a.group] - order[b.group];
         if (b.coverage !== a.coverage) return b.coverage - a.coverage;
-        return a.recipe.time - b.recipe.time;
+        return (a.recipe.time ?? Infinity) - (b.recipe.time ?? Infinity);
       });
   }
 
@@ -579,7 +579,7 @@
       const queryMatch = !query || normalize(`${recipe.name}${recipe.en}${recipe.cuisine}${recipe.ingredients.map((item) => item.name).join("")}`).includes(query);
       const categoryMatch = ui.recipeCategory === "全部" || recipe.category === ui.recipeCategory;
       const difficultyMatch = ui.recipeDifficulty === "全部" || recipe.difficulty === ui.recipeDifficulty;
-      const timeMatch = ui.recipeTime === "全部" || recipe.time <= Number(ui.recipeTime);
+      const timeMatch = ui.recipeTime === "全部" || (recipe.time !== null && recipe.time <= Number(ui.recipeTime));
       return queryMatch && categoryMatch && difficultyMatch && timeMatch;
     });
   }
@@ -609,7 +609,7 @@
           <button class="favorite-button ${saved ? "saved" : ""}" type="button" data-action="toggle-favorite" data-id="${recipe.id}" aria-label="${saved ? "取消收藏" : "收藏"}${esc(recipe.name)}">${saved ? "♥" : "♡"}</button>
         </div>
         <div class="recipe-card-body">
-          <div class="card-meta"><span>${esc(recipe.category)} · ${esc(recipe.cuisine)}</span><span>${recipe.time} MIN</span></div>
+          <div class="card-meta"><span>${esc(recipe.category)} · ${esc(recipe.cuisine)}</span>${recipe.time !== null ? `<span>${recipe.timeBasis === "estimated" ? "约 " : ""}${recipe.time} MIN</span>` : ""}</div>
           <h3>${esc(recipe.name)}</h3>
           <div class="en-name">${esc(recipe.en)}</div>
           ${matchLine}
@@ -647,7 +647,7 @@
 
         <div class="detail-content">
           <div class="fact-row">
-            <div class="fact"><strong>${recipe.time} 分</strong><span>预计用时</span></div>
+            <div class="fact"><strong>${recipe.time !== null ? `${recipe.time} 分` : "未注明"}</strong><span>${recipe.timeBasis === "source" ? "来源总用时" : recipe.time !== null ? "预计用时" : "来源总用时"}</span></div>
             <div class="fact"><strong>${recipe.difficulty}</strong><span>烹饪难度</span></div>
             <div class="fact"><strong>${recipe.steps.length} 步</strong><span>图文教程</span></div>
           </div>
@@ -1232,7 +1232,8 @@
   function shareRecipe(id) {
     const recipe = recipeById(id);
     if (!recipe) return;
-    const text = `${recipe.name}｜${recipe.category} · ${recipe.cuisine}\n预计 ${recipe.time} 分钟，共 ${recipe.steps.length} 步。\n来自烟火有谱。`;
+    const timeText = recipe.time === null ? "来源未注明总用时" : `${recipe.timeBasis === "source" ? "总用时" : "预计"} ${recipe.time} 分钟`;
+    const text = `${recipe.name}｜${recipe.category} · ${recipe.cuisine}\n${timeText}，共 ${recipe.steps.length} 步。\n来自烟火有谱。`;
     const url = /^https?:$/.test(location.protocol) ? `${location.origin}${location.pathname}#/recipe/${id}` : "";
     shareContent(`${recipe.name}｜烟火有谱`, text, url);
   }

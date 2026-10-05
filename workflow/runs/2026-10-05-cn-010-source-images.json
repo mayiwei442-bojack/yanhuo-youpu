@@ -7,15 +7,19 @@
   "startedAt": "2026-10-05T15:30:30Z",
   "completedAt": null,
   "steps": {
-    "research": { "status": "in_progress", "attempts": 1, "details": {} },
-    "ingestion": { "status": "pending", "attempts": 0, "details": {} },
-    "edit": { "status": "pending", "attempts": 0, "details": {} },
-    "validator": { "status": "pending", "attempts": 0, "details": {} },
-    "review": { "status": "pending", "attempts": 0, "details": {} },
-    "build": { "status": "pending", "attempts": 0, "details": {} },
-    "gitPush": { "status": "pending", "attempts": 0, "details": {} }
+    "research": { "status": "done", "attempts": 1, "details": { "sourceMode": "multi_source", "selectedSourceUrl": "https://www.douguo.com/cookbook/3355060.html", "evidencePath": "workflow/evidence/2026-10-05-cn-010-source-images.json", "evidencePackageHash": "ba750d0334c79ba356f92b4c4396028b297df5d03bd44a693df56a59ea3a98ab", "decisionPath": "workflow/evidence-decisions/2026-10-05-cn-010.json", "selectionReason": "三个独立来源均完整自洽；豆果13/13执行步骤图片覆盖优于Woks4/9和书籍无图，完整采用豆果。", "retrieval": "exact-name RAG先查；Woks普通web全文成功、Node403未绕过；豆果普通公开HTML200；书籍完整历史复用。" } },
+    "ingestion": { "status": "done", "attempts": 1, "details": { "selectedDocumentId": "774a9bcc-9b94-4706-b9a8-4c32362661ab", "woksDocumentId": "f292079a-944f-41b5-b180-42b54daef3ff", "bookDocumentId": "0ccf6dd7-83ed-4601-a184-f2b9ac406a86", "selectedChunks": 5, "woksChunks": 6, "bookChunks": 5, "embeddingModel": "voyage-4", "vectorDimension": 1024, "rootSqlVerified": true, "unchangedBookAndDouguoReused": true, "oldNormalizationVersions": "漏绿菜椒/实耗油书籍及漏半碗水豆果的旧文档和各5分块保留并标记superseded；真实语义/混合检索16个当前分块且旧版零返回。", "imageImportPath": "workflow/media-imports/2026-10-05-cn-010.json", "localImages": 14, "mappedStepImages": 13, "localHeroAndRepresentativeStepViewed": true } },
+    "edit": { "status": "done", "attempts": 1, "details": { "ingredients": 12, "steps": 13, "localImages": 14, "targetOnly": true, "explicitTiming": false, "evidencePackageHash": "ba750d0334c79ba356f92b4c4396028b297df5d03bd44a693df56a59ea3a98ab", "canonicalTargetHash": "02439710387454244c704b36107aa80ae94f6b7de3545a91d31fa956f3875187", "notes": "淀粉清单克数和步骤勺数原样保留，注明未给等值关系；油量2+2+1勺、蒜两次各半保留。" } },
+    "validator": { "status": "done", "attempts": 3, "details": { "passed": true, "checks": 10, "artifact": "workflow/validation-results/2026-10-05-cn-010.json", "initialArtifact": "workflow/validation-results/2026-10-05-cn-010-initial.json", "corrections": ["中小火子串误识别已修复，第7步生成null", "来源未注明总用时生成null，卡片/详情/分享/筛选浏览器回归PASS", "食材名称剥离半碗等中文数量，原label不变；清水实际显示PASS"], "canonicalAndEvidenceUnchanged": true, "unrelatedRecipeChanges": [], "generatedBuildBrowserPassed": true, "refreshedRecipesVerified": 10 } },
+    "review": { "status": "done", "attempts": 2, "details": { "firstResult": "FAIL", "firstArtifact": "workflow/reviews/2026-10-05-cn-010-initial.json", "firstIssues": ["无来源总时长却显示105分钟", "清水半碗的数量混入生成食材身份"], "correction": "source-image菜无timing生成time=null且卡片/详情/分享/筛选正确处理；数量只留label，清水name恢复；共享生成/UI回归及三角色合同、外部Spec同步。", "finalResult": "PASS", "artifact": "workflow/reviews/2026-10-05-cn-010-adversarial.json", "evidencePackageHash": "ba750d0334c79ba356f92b4c4396028b297df5d03bd44a693df56a59ea3a98ab" } },
+    "build": { "status": "done", "attempts": 1, "details": { "deterministicSuite": "PASS", "artifact": "workflow/validation-results/2026-10-05-cn-010-deterministic.txt", "browserErrors": [], "refreshedRecipesVerified": 10, "verifiedSteps": 91, "verifiedLocalImages": 89, "nullableSourceTotalRegression": "PASS", "ingredientIdentityRegression": "PASS", "staticBuild": "PASS" } },
+    "gitPush": { "status": "in_progress", "attempts": 1, "details": {} }
   },
-  "sources": [],
+  "sources": [
+    { "name": "The Woks of Life", "url": "https://thewoksoflife.com/di-san-xian-stir-fry/", "status": "success", "failureReason": null },
+    { "name": "贝太厨房:从小爱吃的菜2", "url": null, "status": "success", "failureReason": null },
+    { "name": "豆果美食", "url": "https://www.douguo.com/cookbook/3355060.html", "status": "success", "failureReason": null }
+  ],
   "errors": [],
   "branch": "codex/recipe-automation",
   "commit": null

@@ -473,7 +473,37 @@ export const chinese = [
       { stepOrder: 8, path: "assets/dishes/sources/cn-009-steamed-sea-bass/step-08.jpg", originalUrl: "https://cp1.douguo.com/upload/caiku/b/f/9/800_bf784ec6af27ddf2a904f72cbcaada19.jpg", sha256: "25f9c0fec24616f23839409e7c5c70e18098b98eb7a0d5cca91ee43895fd9c15", httpStatus: 200, contentType: "image/jpeg" }
     ]
   }),
-  c("地三鲜", "Three Fresh Vegetables", "东北菜", "土豆200克；茄子150克；青椒1个；蒜4瓣；葱末5克；生抽2勺；蚝油1勺；白糖1中勺；盐适量；玉米淀粉8克；红薯淀粉10克；食用油适量", "1）土豆和茄子切滚刀块，青椒去籽掰块；茄子薄薄裹匀红薯淀粉，蒜切末。2）中小火把土豆煎至表面金黄且基本熟透，盛出；再把茄子煎软、青椒煎至微焦后盛出。3）生抽、蚝油、白糖、盐、玉米淀粉和半碗清水调匀。4）锅中炒香一半蒜末，倒入料汁小火煮至微稠，回锅三样食材，大火快速裹汁，放入剩余蒜末翻匀出锅。", "10-disanxian.png"),
+  c("地三鲜", "Three Fresh Vegetables", "东北菜", "土豆1个；长茄子1个；辣椒1个（原文回锅步骤称青椒）；蒜4瓣（切末，分两次各用一半）；生抽2勺；蚝油1勺；盐1小勺；白糖1中勺；食用油5勺（煎土豆2勺，煎茄子和辣椒2勺，炒蒜末1勺）；玉米淀粉8克（原料表用量，原文调汁步骤写1勺，未注明二者等值）；红薯淀粉10克（原料表用量，原文裹茄子步骤写1勺，未注明二者等值）；清水半碗", "1）备齐土豆1个、长茄子1个、辣椒1个、蒜4瓣及清单中的其余调料。2）土豆洗净、去皮，切成滚刀块；长茄子洗净、去蒂，切成滚刀块；辣椒洗净、去筋、去籽，切大片备用。3）蒜去皮、去蒂，切成蒜末备用。4）将切好的茄子块放入容器，均匀撒入1勺红薯淀粉，颠匀，使每块茄子都裹上薄薄一层淀粉。5）小碗中加入2勺生抽、1勺蚝油、1中勺白糖、1小勺盐、1勺玉米淀粉和半碗清水，搅拌均匀成料汁。6）锅中加入2勺食用油，烧至7成热后放入土豆块。7）用中小火煎土豆块，待表面金黄、基本熟透后盛出备用。8）锅中再补入2勺食用油，烧热后放入裹好淀粉的茄子块。9）接着放入辣椒，煎至茄子变软、辣椒微焦，快速翻两下，将茄子和辣椒盛出备用。10）锅中再加入1勺食用油，下入一半蒜末，炒出香味。11）倒入提前调好的料汁，用小火煮至微微变稠。12）将土豆、茄子和辣椒倒回锅中，加入剩余一半蒜末。13）转大火快速翻炒，使酱汁均匀裹住食材，收至明亮油润后出锅。", "10-disanxian.png", "https://www.douguo.com/cookbook/3355060.html", {
+    sourceName: "豆果美食",
+    recipePageUrl: "https://www.douguo.com/cookbook/3355060.html",
+    mediaPageUrl: "https://www.douguo.com/cookbook/3355060.html",
+    author: "沙小囡",
+    rightsNotice: "©本菜谱的做法由 沙小囡 编写，未经授权不得转载",
+    reuseLicense: null,
+    repositoryCopyAuthorization: "user_confirmed_2026-09-16",
+    hero: {
+      path: "assets/dishes/sources/cn-010-di-san-xian/hero.jpg",
+      originalUrl: "https://cp1.douguo.com/upload/caiku/1/9/6/960_1911ac25f2a9d758f10eb61676a0b686.jpg",
+      sha256: "a4bb4c552d3de037cec4f62e7a327b0e939944b1c56d0e704e4d766d364ae28e",
+      httpStatus: 200,
+      contentType: "image/jpeg"
+    },
+    steps: [
+      { stepOrder: 1, sourceStepOrder: 1, path: "assets/dishes/sources/cn-010-di-san-xian/step-1.jpg", originalUrl: "https://cp1.douguo.com/upload/caiku/4/d/d/800_4d2335fbd7ea0a245b39bf8d3cfbf85d.jpg", sha256: "308a39ae21f1eccce4ea6b354366505ec3f8454efdc98b226bc719e19b3721f0", httpStatus: 200, contentType: "image/jpeg" },
+      { stepOrder: 2, sourceStepOrder: 2, path: "assets/dishes/sources/cn-010-di-san-xian/step-2.jpg", originalUrl: "https://cp1.douguo.com/upload/caiku/3/5/3/800_35e6d418d61d7d6102e4c32b85546003.jpg", sha256: "2c6403fcb4c18d62e2fbbba2b5a9da033010e6ba4163855f74b2f9b640ec309d", httpStatus: 200, contentType: "image/jpeg" },
+      { stepOrder: 3, sourceStepOrder: 3, path: "assets/dishes/sources/cn-010-di-san-xian/step-3.jpg", originalUrl: "https://cp1.douguo.com/upload/caiku/f/4/d/800_f4e86200b3a885f42b062a334d0cd17d.jpg", sha256: "c12d888e5c60b5245ee627068548c8d6d255b2fc9ab864c6736dcff2b433cd14", httpStatus: 200, contentType: "image/jpeg" },
+      { stepOrder: 4, sourceStepOrder: 4, path: "assets/dishes/sources/cn-010-di-san-xian/step-4.jpg", originalUrl: "https://cp1.douguo.com/upload/caiku/9/4/b/800_9412ea75b89494d67ce9a3acfa3577fb.jpg", sha256: "d2663ccffdd075ee0ec4fdfd2bab42a21d66e94cf93a0a70bffbcd61da59bf9b", httpStatus: 200, contentType: "image/jpeg" },
+      { stepOrder: 5, sourceStepOrder: 5, path: "assets/dishes/sources/cn-010-di-san-xian/step-5.jpg", originalUrl: "https://cp1.douguo.com/upload/caiku/0/5/d/800_05ae16b393bc5498955e38263a09d4bd.jpg", sha256: "a552ebc806554089f2f595eb71fcb2902bf2a86113f6ce8026cb54d84324ca61", httpStatus: 200, contentType: "image/jpeg" },
+      { stepOrder: 6, sourceStepOrder: 6, path: "assets/dishes/sources/cn-010-di-san-xian/step-6.jpg", originalUrl: "https://cp1.douguo.com/upload/caiku/9/f/5/800_9f56899ddacfbcffd51f78c91b2a31c5.jpg", sha256: "ab33347bacd7f5d684861a3757bb88b23303cc8c234a9e29ae205a4c63c78d0d", httpStatus: 200, contentType: "image/jpeg" },
+      { stepOrder: 7, sourceStepOrder: 7, path: "assets/dishes/sources/cn-010-di-san-xian/step-7.jpg", originalUrl: "https://cp1.douguo.com/upload/caiku/7/5/f/800_75b8cad0641fa7f65a7e10c324027a1f.jpg", sha256: "31b8ad13c5b7dd5478e611ae923af6f3a19e02dc72901cd1c165fd59a0146c46", httpStatus: 200, contentType: "image/jpeg" },
+      { stepOrder: 8, sourceStepOrder: 8, path: "assets/dishes/sources/cn-010-di-san-xian/step-8.jpg", originalUrl: "https://cp1.douguo.com/upload/caiku/4/2/5/800_42cb2309df54ef42e0a150423170bc35.jpg", sha256: "4fc75edd8bd16f82e832372b007359f754593150837ba0454e4c76547571099c", httpStatus: 200, contentType: "image/jpeg" },
+      { stepOrder: 9, sourceStepOrder: 9, path: "assets/dishes/sources/cn-010-di-san-xian/step-9.jpg", originalUrl: "https://cp1.douguo.com/upload/caiku/e/4/2/800_e4cb75af13455ecbba1070b88fb34372.jpg", sha256: "a8d45a98d5a06dc8976463b8b168537cc46761580e0970f6971d9fc2546e0160", httpStatus: 200, contentType: "image/jpeg" },
+      { stepOrder: 10, sourceStepOrder: 10, path: "assets/dishes/sources/cn-010-di-san-xian/step-10.jpg", originalUrl: "https://cp1.douguo.com/upload/caiku/8/8/2/800_88ad5247700b33edf8dfcbd1cca87542.jpg", sha256: "5cf62d5563bda3f880ff3b0f003e05589881c3c848b1bbea839c020c87929f15", httpStatus: 200, contentType: "image/jpeg" },
+      { stepOrder: 11, sourceStepOrder: 11, path: "assets/dishes/sources/cn-010-di-san-xian/step-11.jpg", originalUrl: "https://cp1.douguo.com/upload/caiku/d/7/2/800_d73ba164f2e1235187067a1061a36982.jpg", sha256: "5b80133157a7c8638b3aae22e1cd30cb1cd7af5d6a309a588c3f05a78bbc8589", httpStatus: 200, contentType: "image/jpeg" },
+      { stepOrder: 12, sourceStepOrder: 12, path: "assets/dishes/sources/cn-010-di-san-xian/step-12.jpg", originalUrl: "https://cp1.douguo.com/upload/caiku/7/2/5/800_72bb739e5db652f92d168efc30ae0925.jpg", sha256: "f7b29e5a698c2550b342e9b1600e3c3cf64c9216b3a5ea010d6bbb2aa089ef90", httpStatus: 200, contentType: "image/jpeg" },
+      { stepOrder: 13, sourceStepOrder: 13, path: "assets/dishes/sources/cn-010-di-san-xian/step-13.jpg", originalUrl: "https://cp1.douguo.com/upload/caiku/0/a/a/800_0ab6838ea80607c82f8d10a53394ce2a.jpg", sha256: "b8409500b01fb3456397d92a5e7937a480e0f7d73056f9775c74265846f5b605", httpStatus: 200, contentType: "image/jpeg" }
+    ]
+  }),
   c("桂林米粉", "Guilin Rice Noodles", "广西", "猪骨适量；牛骨适量；肥五花肉适量；里脊适量；卤料包适量；卤水调味料适量（原文未具体列明）；腌料适量（原文未具体列明）；酸豆角适量；辣椒适量；花生适量；香葱适量；干米粉适量；清水适量（熬卤水、白水煮肉、泡发和烫米粉）；食用油适量（炒酸豆角、炸花生、炸叉烧和炸锅烧）；骨头汤适量（佐餐，可选）", "1）准备猪骨、牛骨、肥五花肉、里脊、卤料包、酸豆角、辣椒、花生、香葱和干米粉；来源未给出各项数量，也未列明卤水调味料和腌料的具体组成。2）将猪骨、牛骨和卤料包放入锅中，加适量清水熬卤水，再用来源未具体列明的调味料调味；卤水需熬8小时以上才能出味，原文未说明具体火候。3）熬卤水期间将酸豆角切好；锅中放适量食用油，加入酸豆角和辣椒简单翻炒后盛出，原文未给火候和时长。另将花生用适量食用油炸好备用，原文未给油温和时长。4）里脊用来源未具体列明的腌料腌制；随后放入清水中白水煮制，再用适量食用油炸成叉烧。原文未给腌制、煮制和炸制的火候、时长及用油量。5）肥五花肉用适量食用油制成锅烧，再重复炸一次，至皮酥脆；原文未给前处理方式、油温、时长及用油量。6）干米粉先用水泡发，原文未给泡发时长；食用前用开水烫米粉，沥水后装碗。7）依次加入锅烧、叉烧、炒酸豆角、香葱和炸花生，淋入卤水并拌匀即可；可另配骨头汤佐餐，原文未说明骨头汤的另用材料和熬制方法。", "11-guilin-mifen.png", "https://www.douguo.com/cookbook/2331633.html"),
   c("羊肉泡馍", "Lamb Paomo", "陕西", "羊肉500克；面饼2个；粉丝80克；木耳30克；姜20克；花椒1茶匙；香菜和糖蒜适量；盐适量", "1）羊肉加姜和花椒小火煮至软烂，切片，汤过滤。2）面饼掰成黄豆大小，粉丝木耳泡发。3）原汤煮馍粒、粉丝和木耳至入味，铺羊肉，配香菜与糖蒜。", "12-yangrou-paomo.png", CN_HOME),
   c("胡辣汤", "Henan Spicy Pepper Soup", "河南", "熟牛肉100克；面筋100克；木耳40克；海带50克；粉条80克；高汤800毫升；胡椒粉5克；香醋20毫升；淀粉25克", "1）木耳海带切丝，粉条泡软。2）高汤烧开，下牛肉、面筋和配菜煮熟。3）加胡椒、盐和香醋，淀粉水缓慢勾成稠羹。", "13-hulatang.png", CN_HOME),

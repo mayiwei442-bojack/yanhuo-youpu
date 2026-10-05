@@ -1,0 +1,22 @@
+{
+  "status": "FAIL",
+  "issues": [
+    {
+      "field": "generated.cn-010.time",
+      "message": "所选豆果来源未提供总时长，生成器却按步骤数推算为105分钟，界面卡片、详情和分享均展示该数值。无来源支持的总时长应保持null，相关显示不得提供默认分钟数。"
+    },
+    {
+      "field": "generated.cn-010.ingredients[11].name",
+      "message": "生成的食材名称为“清水半碗”，将数量混入食材身份；详情、采购清单及匹配逻辑使用该name。应生成name“清水”，保留label“清水半碗”。"
+    }
+  ],
+  "summary": "确定性验证通过。单一完整来源选择、12项用料、13步操作、分次用油用蒜、火候及熟度依据均符合证据；14张本地图片非空、哈希及步骤映射一致，像素内容匹配。逐行逐步对抗审查确认分隔符安全、括号平衡、编号连续、句法标点完整；但生成总时长和食材名称存在上述问题。",
+  "evidencePackageHash": "ba750d0334c79ba356f92b4c4396028b297df5d03bd44a693df56a59ea3a98ab",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": false,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

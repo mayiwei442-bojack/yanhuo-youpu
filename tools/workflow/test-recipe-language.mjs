@@ -1,5 +1,13 @@
 import assert from "node:assert/strict";
 import { chinese, western } from "../recipe_data.mjs";
+import { cleanIngredientName } from "../recipe-ingredient-metadata.mjs";
+
+assert.equal(cleanIngredientName("清水半碗"), "清水");
+assert.equal(cleanIngredientName("高汤一杯（可选）"), "高汤");
+assert.equal(cleanIngredientName("蒜4瓣（切末）"), "蒜");
+assert.equal(cleanIngredientName("四季豆300克"), "四季豆");
+assert.equal(cleanIngredientName("八角2颗"), "八角");
+assert.equal(cleanIngredientName("三文鱼200克"), "三文鱼");
 
 const refreshedRecipes = [...chinese, ...western].filter((recipe) => recipe.media);
 const repeatedPunctuation = /，，|。。|；；|、、|，。|；。|。；/u;

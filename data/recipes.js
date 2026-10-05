@@ -126,7 +126,8 @@ window.YANHUO_RECIPES = [
       "reuseLicense": null,
       "repositoryCopyAuthorization": "user_confirmed_2026-09-16"
     },
-    "time": 55,
+    "time": null,
+    "timeBasis": "unspecified",
     "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [
@@ -313,7 +314,8 @@ window.YANHUO_RECIPES = [
       "reuseLicense": null,
       "repositoryCopyAuthorization": "user_confirmed_2026-09-16"
     },
-    "time": 30,
+    "time": null,
+    "timeBasis": "unspecified",
     "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [
@@ -511,7 +513,8 @@ window.YANHUO_RECIPES = [
       "reuseLicense": null,
       "repositoryCopyAuthorization": "user_confirmed_2026-09-16"
     },
-    "time": 15,
+    "time": null,
+    "timeBasis": "unspecified",
     "difficulty": "进阶",
     "defaultServings": 2,
     "allergens": [
@@ -604,7 +607,7 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "ingredient-12",
-        "name": "清水数滴（锅太干时）",
+        "name": "清水数滴",
         "label": "清水数滴（锅太干时）",
         "isCore": false
       }
@@ -703,7 +706,8 @@ window.YANHUO_RECIPES = [
       "reuseLicense": null,
       "repositoryCopyAuthorization": "user_confirmed_2026-09-16"
     },
-    "time": 25,
+    "time": null,
+    "timeBasis": "unspecified",
     "difficulty": "进阶",
     "defaultServings": 2,
     "allergens": [
@@ -766,13 +770,13 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "ingredient-07",
-        "name": "盐（腌肉与出锅前调味，分次使用）",
+        "name": "盐",
         "label": "盐适量（腌肉与出锅前调味，分次使用）",
         "isCore": false
       },
       {
         "id": "ingredient-08",
-        "name": "鸡精（腌肉与出锅前调味，分次使用）",
+        "name": "鸡精",
         "label": "鸡精适量（腌肉与出锅前调味，分次使用）",
         "isCore": false
       },
@@ -947,7 +951,8 @@ window.YANHUO_RECIPES = [
       "reuseLicense": null,
       "repositoryCopyAuthorization": "user_confirmed_2026-09-16"
     },
-    "time": 15,
+    "time": null,
+    "timeBasis": "unspecified",
     "difficulty": "进阶",
     "defaultServings": 2,
     "allergens": [
@@ -1084,8 +1089,9 @@ window.YANHUO_RECIPES = [
       "reuseLicense": null,
       "repositoryCopyAuthorization": "user_confirmed_2026-09-16"
     },
-    "time": 120,
-    "difficulty": "进阶",
+    "time": null,
+    "timeBasis": "unspecified",
+    "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [
       "soy"
@@ -1122,25 +1128,25 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "ingredient-03",
-        "name": "米饭一碗（配餐）",
+        "name": "米饭",
         "label": "米饭一碗（配餐）",
         "isCore": true
       },
       {
         "id": "ingredient-04",
-        "name": "玉米淀粉（裹里脊肉）",
+        "name": "玉米淀粉",
         "label": "玉米淀粉适量（裹里脊肉）",
         "isCore": false
       },
       {
         "id": "ingredient-05",
-        "name": "盐（腌料）",
+        "name": "盐",
         "label": "盐少许（腌料）",
         "isCore": false
       },
       {
         "id": "ingredient-06",
-        "name": "白胡椒粉（腌料）",
+        "name": "白胡椒粉",
         "label": "白胡椒粉少许（腌料）",
         "isCore": false
       },
@@ -1200,7 +1206,7 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "ingredient-16",
-        "name": "食用油（炸制并留底油煮酱汁）",
+        "name": "食用油",
         "label": "食用油适量（炸制并留底油煮酱汁）",
         "isCore": false
       }
@@ -1447,7 +1453,8 @@ window.YANHUO_RECIPES = [
       "reuseLicense": null,
       "repositoryCopyAuthorization": "user_confirmed_2026-09-16"
     },
-    "time": 35,
+    "time": null,
+    "timeBasis": "unspecified",
     "difficulty": "进阶",
     "defaultServings": 2,
     "allergens": [
@@ -1559,7 +1566,7 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "ingredient-15",
-        "name": "煮饭用清水（比米包装说明略少）",
+        "name": "煮饭用清水",
         "label": "煮饭用清水适量（比米包装说明略少）",
         "isCore": false
       },
@@ -1571,13 +1578,13 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "ingredient-17",
-        "name": "清水或鸡汤少量（米饭偏干时可选）",
+        "name": "清水或鸡汤少量",
         "label": "清水或鸡汤少量（米饭偏干时可选）",
         "isCore": false
       },
       {
         "id": "ingredient-18",
-        "name": "辣酱或辣椒油（可选配餐）",
+        "name": "辣酱或辣椒油",
         "label": "辣酱或辣椒油适量（可选配餐）",
         "isCore": false
       }
@@ -1695,6 +1702,7 @@ window.YANHUO_RECIPES = [
       "repositoryCopyAuthorization": "user_confirmed_2026-09-16"
     },
     "time": 40,
+    "timeBasis": "source",
     "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [
@@ -1721,7 +1729,7 @@ window.YANHUO_RECIPES = [
     "ingredients": [
       {
         "id": "ingredient-01",
-        "name": "鲈鱼（日本真鲈、花鲈）",
+        "name": "鲈鱼",
         "label": "鲈鱼（日本真鲈、花鲈）750克",
         "isCore": true
       },
@@ -1733,7 +1741,7 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "ingredient-03",
-        "name": "葱（绿色部分）",
+        "name": "葱",
         "label": "葱（绿色部分）30克",
         "isCore": false
       },
@@ -1787,7 +1795,7 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "ingredient-12",
-        "name": "冰水（浸泡葱丝）",
+        "name": "冰水",
         "label": "冰水适量（浸泡葱丝）",
         "isCore": false
       },
@@ -1908,7 +1916,8 @@ window.YANHUO_RECIPES = [
       "reuseLicense": null,
       "repositoryCopyAuthorization": "user_confirmed_2026-09-16"
     },
-    "time": 50,
+    "time": null,
+    "timeBasis": "unspecified",
     "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [
@@ -1937,43 +1946,43 @@ window.YANHUO_RECIPES = [
       {
         "id": "ingredient-01",
         "name": "土豆",
-        "label": "土豆200克",
+        "label": "土豆1个",
         "isCore": true
       },
       {
         "id": "ingredient-02",
-        "name": "茄子",
-        "label": "茄子150克",
+        "name": "长茄子",
+        "label": "长茄子1个",
         "isCore": true
       },
       {
         "id": "ingredient-03",
-        "name": "青椒",
-        "label": "青椒1个",
+        "name": "辣椒",
+        "label": "辣椒1个（原文回锅步骤称青椒）",
         "isCore": true
       },
       {
         "id": "ingredient-04",
         "name": "蒜",
-        "label": "蒜4瓣",
+        "label": "蒜4瓣（切末，分两次各用一半）",
         "isCore": false
       },
       {
         "id": "ingredient-05",
-        "name": "葱末",
-        "label": "葱末5克",
-        "isCore": false
-      },
-      {
-        "id": "ingredient-06",
         "name": "生抽",
         "label": "生抽2勺",
         "isCore": false
       },
       {
-        "id": "ingredient-07",
+        "id": "ingredient-06",
         "name": "蚝油",
         "label": "蚝油1勺",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-07",
+        "name": "盐",
+        "label": "盐1小勺",
         "isCore": false
       },
       {
@@ -1984,75 +1993,201 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "ingredient-09",
-        "name": "盐",
-        "label": "盐适量",
+        "name": "食用油",
+        "label": "食用油5勺（煎土豆2勺，煎茄子和辣椒2勺，炒蒜末1勺）",
         "isCore": false
       },
       {
         "id": "ingredient-10",
         "name": "玉米淀粉",
-        "label": "玉米淀粉8克",
+        "label": "玉米淀粉8克（原料表用量，原文调汁步骤写1勺，未注明二者等值）",
         "isCore": false
       },
       {
         "id": "ingredient-11",
         "name": "红薯淀粉",
-        "label": "红薯淀粉10克",
+        "label": "红薯淀粉10克（原料表用量，原文裹茄子步骤写1勺，未注明二者等值）",
         "isCore": false
       },
       {
         "id": "ingredient-12",
-        "name": "食用油",
-        "label": "食用油适量",
+        "name": "清水",
+        "label": "清水半碗",
         "isCore": false
       }
     ],
     "steps": [
       {
         "id": "step-01",
-        "instruction": "土豆和茄子切滚刀块，青椒去籽掰块；茄子薄薄裹匀红薯淀粉，蒜切末。",
+        "instruction": "备齐土豆1个、长茄子1个、辣椒1个、蒜4瓣及清单中的其余调料。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "confirm",
-        "safetyNote": ""
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-010-di-san-xian/step-1.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/3355060.html"
       },
       {
         "id": "step-02",
-        "instruction": "中小火把土豆煎至表面金黄且基本熟透，盛出；再把茄子煎软、青椒煎至微焦后盛出。",
-        "duration": null,
-        "heat": "low",
-        "timerRequired": false,
-        "ingredientsUsed": [],
-        "gameAction": "confirm",
-        "safetyNote": ""
-      },
-      {
-        "id": "step-03",
-        "instruction": "生抽、蚝油、白糖、盐、玉米淀粉和半碗清水调匀。",
+        "instruction": "土豆洗净、去皮，切成滚刀块；长茄子洗净、去蒂，切成滚刀块；辣椒洗净、去筋、去籽，切大片备用。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "confirm",
-        "safetyNote": ""
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-010-di-san-xian/step-2.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/3355060.html"
+      },
+      {
+        "id": "step-03",
+        "instruction": "蒜去皮、去蒂，切成蒜末备用。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-010-di-san-xian/step-3.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/3355060.html"
       },
       {
         "id": "step-04",
-        "instruction": "锅中炒香一半蒜末，倒入料汁小火煮至微稠，回锅三样食材，大火快速裹汁，放入剩余蒜末翻匀出锅。",
+        "instruction": "将切好的茄子块放入容器，均匀撒入1勺红薯淀粉，颠匀，使每块茄子都裹上薄薄一层淀粉。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "add",
-        "safetyNote": ""
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-010-di-san-xian/step-4.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/3355060.html"
+      },
+      {
+        "id": "step-05",
+        "instruction": "小碗中加入2勺生抽、1勺蚝油、1中勺白糖、1小勺盐、1勺玉米淀粉和半碗清水，搅拌均匀成料汁。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-010-di-san-xian/step-5.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/3355060.html"
+      },
+      {
+        "id": "step-06",
+        "instruction": "锅中加入2勺食用油，烧至7成热后放入土豆块。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-010-di-san-xian/step-6.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/3355060.html"
+      },
+      {
+        "id": "step-07",
+        "instruction": "用中小火煎土豆块，待表面金黄、基本熟透后盛出备用。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-010-di-san-xian/step-7.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/3355060.html"
+      },
+      {
+        "id": "step-08",
+        "instruction": "锅中再补入2勺食用油，烧热后放入裹好淀粉的茄子块。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-010-di-san-xian/step-8.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/3355060.html"
+      },
+      {
+        "id": "step-09",
+        "instruction": "接着放入辣椒，煎至茄子变软、辣椒微焦，快速翻两下，将茄子和辣椒盛出备用。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-010-di-san-xian/step-9.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/3355060.html"
+      },
+      {
+        "id": "step-10",
+        "instruction": "锅中再加入1勺食用油，下入一半蒜末，炒出香味。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-010-di-san-xian/step-10.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/3355060.html"
+      },
+      {
+        "id": "step-11",
+        "instruction": "倒入提前调好的料汁，用小火煮至微微变稠。",
+        "duration": null,
+        "heat": "low",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-010-di-san-xian/step-11.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/3355060.html"
+      },
+      {
+        "id": "step-12",
+        "instruction": "将土豆、茄子和辣椒倒回锅中，加入剩余一半蒜末。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-010-di-san-xian/step-12.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/3355060.html"
+      },
+      {
+        "id": "step-13",
+        "instruction": "转大火快速翻炒，使酱汁均匀裹住食材，收至明亮油润后出锅。",
+        "duration": null,
+        "heat": "high",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "stir",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-010-di-san-xian/step-13.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/3355060.html"
       }
     ],
-    "imageThumb": "assets/dishes/thumbnails/10-disanxian.jpg",
-    "imageFull": "assets/dishes/ai/10-disanxian.png",
-    "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
-    "time": 40,
+    "imageThumb": "assets/dishes/sources/cn-010-di-san-xian/hero.jpg",
+    "imageFull": "assets/dishes/sources/cn-010-di-san-xian/hero.jpg",
+    "source": "https://www.douguo.com/cookbook/3355060.html",
+    "media": {
+      "sourceName": "豆果美食",
+      "recipePageUrl": "https://www.douguo.com/cookbook/3355060.html",
+      "mediaPageUrl": "https://www.douguo.com/cookbook/3355060.html",
+      "author": "沙小囡",
+      "rightsNotice": "©本菜谱的做法由 沙小囡 编写，未经授权不得转载",
+      "reuseLicense": null,
+      "repositoryCopyAuthorization": "user_confirmed_2026-09-16"
+    },
+    "time": null,
+    "timeBasis": "unspecified",
     "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [
@@ -2062,7 +2197,7 @@ window.YANHUO_RECIPES = [
       "containsPork": false,
       "containsBeef": false,
       "containsAlcohol": false,
-      "spicy": false,
+      "spicy": true,
       "vegetarian": true
     },
     "demoEnriched": true
@@ -2108,13 +2243,13 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "ingredient-06",
-        "name": "卤水调味料（原文未具体列明）",
+        "name": "卤水调味料",
         "label": "卤水调味料适量（原文未具体列明）",
         "isCore": false
       },
       {
         "id": "ingredient-07",
-        "name": "腌料（原文未具体列明）",
+        "name": "腌料",
         "label": "腌料适量（原文未具体列明）",
         "isCore": false
       },
@@ -2150,19 +2285,19 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "ingredient-13",
-        "name": "清水（熬卤水、白水煮肉、泡发和烫米粉）",
+        "name": "清水",
         "label": "清水适量（熬卤水、白水煮肉、泡发和烫米粉）",
         "isCore": false
       },
       {
         "id": "ingredient-14",
-        "name": "食用油（炒酸豆角、炸花生、炸叉烧和炸锅烧）",
+        "name": "食用油",
         "label": "食用油适量（炒酸豆角、炸花生、炸叉烧和炸锅烧）",
         "isCore": false
       },
       {
         "id": "ingredient-15",
-        "name": "骨头汤（佐餐，可选）",
+        "name": "骨头汤",
         "label": "骨头汤适量（佐餐，可选）",
         "isCore": false
       }
@@ -2243,6 +2378,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/11-guilin-mifen.png",
     "source": "https://www.douguo.com/cookbook/2331633.html",
     "time": 180,
+    "timeBasis": "estimated",
     "difficulty": "进阶",
     "defaultServings": 2,
     "allergens": [
@@ -2351,6 +2487,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/12-yangrou-paomo.png",
     "source": "https://thewoksoflife.com/",
     "time": 35,
+    "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [],
@@ -2463,6 +2600,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/13-hulatang.png",
     "source": "https://thewoksoflife.com/",
     "time": 35,
+    "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [],
@@ -2569,6 +2707,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/14-liuzhou-luosifen.png",
     "source": "https://thewoksoflife.com/",
     "time": 35,
+    "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [
@@ -2678,6 +2817,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/15-lanzhou-qingtang-niuroumian.png",
     "source": "https://thewoksoflife.com/",
     "time": 120,
+    "timeBasis": "estimated",
     "difficulty": "进阶",
     "defaultServings": 4,
     "allergens": [
@@ -2780,6 +2920,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/26-huiguo-rou.png",
     "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
     "time": 35,
+    "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [
@@ -2894,6 +3035,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/27-shuizhu-niurou.png",
     "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
     "time": 15,
+    "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [],
@@ -2947,7 +3089,7 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "ingredient-06",
-        "name": "蛋清半个",
+        "name": "蛋清",
         "label": "蛋清半个",
         "isCore": false
       },
@@ -3000,6 +3142,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/28-suancai-yu.png",
     "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
     "time": 15,
+    "timeBasis": "estimated",
     "difficulty": "简单",
     "defaultServings": 2,
     "allergens": [
@@ -3102,6 +3245,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/29-dongpo-rou.png",
     "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
     "time": 140,
+    "timeBasis": "estimated",
     "difficulty": "进阶",
     "defaultServings": 4,
     "allergens": [
@@ -3204,6 +3348,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/30-baiqie-ji.png",
     "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
     "time": 40,
+    "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [
@@ -3318,6 +3463,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/31-koushui-ji.png",
     "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
     "time": 35,
+    "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [
@@ -3415,6 +3561,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/32-beijing-kaoya.png",
     "source": "https://thewoksoflife.com/",
     "time": 60,
+    "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 4,
     "allergens": [],
@@ -3521,6 +3668,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/33-xiaoji-dun-mogu.png",
     "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
     "time": 50,
+    "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 4,
     "allergens": [
@@ -3657,6 +3805,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/34-guobaorou.png",
     "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
     "time": 40,
+    "timeBasis": "estimated",
     "difficulty": "进阶",
     "defaultServings": 2,
     "allergens": [
@@ -3759,6 +3908,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/35-xihu-cuyu.png",
     "source": "https://thewoksoflife.com/",
     "time": 35,
+    "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 4,
     "allergens": [
@@ -3797,7 +3947,7 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "ingredient-03",
-        "name": "蛋清半个",
+        "name": "蛋清",
         "label": "蛋清半个",
         "isCore": true
       },
@@ -3862,6 +4012,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/36-longjing-xiaren.png",
     "source": "https://thewoksoflife.com/",
     "time": 35,
+    "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [
@@ -3998,6 +4149,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/37-suanrong-fensi-zheng-shanbei.png",
     "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
     "time": 15,
+    "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [
@@ -4037,7 +4189,7 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "ingredient-03",
-        "name": "蛋清半个",
+        "name": "蛋清",
         "label": "蛋清半个",
         "isCore": true
       },
@@ -4102,6 +4254,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/38-qingchao-xiaren.png",
     "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
     "time": 35,
+    "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [
@@ -4228,6 +4381,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/39-ganbian-sijidou.png",
     "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
     "time": 25,
+    "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [
@@ -4331,6 +4485,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/40-mayi-shangshu.png",
     "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
     "time": 35,
+    "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [
@@ -4439,6 +4594,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/41-jiachang-doufu.png",
     "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
     "time": 15,
+    "timeBasis": "estimated",
     "difficulty": "简单",
     "defaultServings": 2,
     "allergens": [
@@ -4541,6 +4697,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/42-hupi-qingjiao.png",
     "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
     "time": 35,
+    "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [
@@ -4643,6 +4800,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/43-suanla-tudousi.png",
     "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
     "time": 35,
+    "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [],
@@ -4731,6 +4889,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/44-jiucai-chaodan.png",
     "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
     "time": 35,
+    "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [
@@ -4833,6 +4992,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/45-donggua-paigu-tang.png",
     "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
     "time": 70,
+    "timeBasis": "estimated",
     "difficulty": "进阶",
     "defaultServings": 2,
     "allergens": [],
@@ -4933,6 +5093,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/46-lianou-paigu-tang.png",
     "source": "https://thewoksoflife.com/",
     "time": 35,
+    "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 4,
     "allergens": [],
@@ -5045,6 +5206,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/47-fotiaoqiang.png",
     "source": "https://thewoksoflife.com/",
     "time": 180,
+    "timeBasis": "estimated",
     "difficulty": "进阶",
     "defaultServings": 2,
     "allergens": [
@@ -5160,6 +5322,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/48-lawei-baozai-fan.png",
     "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
     "time": 55,
+    "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [
@@ -5263,6 +5426,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/49-hainan-jifan.png",
     "source": "https://thewoksoflife.com/",
     "time": 35,
+    "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 4,
     "allergens": [],
@@ -5375,6 +5539,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/50-dandan-mian.png",
     "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
     "time": 35,
+    "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [
@@ -5473,6 +5638,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/51-zhajiang-mian.png",
     "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
     "time": 15,
+    "timeBasis": "estimated",
     "difficulty": "简单",
     "defaultServings": 2,
     "allergens": [
@@ -5575,6 +5741,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/52-regan-mian.png",
     "source": "https://thewoksoflife.com/",
     "time": 15,
+    "timeBasis": "estimated",
     "difficulty": "简单",
     "defaultServings": 2,
     "allergens": [
@@ -5690,6 +5857,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/53-chongqing-xiaomian.png",
     "source": "https://thewoksoflife.com/",
     "time": 35,
+    "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [
@@ -5800,6 +5968,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/54-xiaolongbao.png",
     "source": "https://thewoksoflife.com/",
     "time": 40,
+    "timeBasis": "estimated",
     "difficulty": "进阶",
     "defaultServings": 2,
     "allergens": [
@@ -5903,6 +6072,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/55-jiucai-zhurou-jiaozi.png",
     "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
     "time": 35,
+    "timeBasis": "estimated",
     "difficulty": "进阶",
     "defaultServings": 2,
     "allergens": [
@@ -6013,6 +6183,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/76-huntun.png",
     "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
     "time": 15,
+    "timeBasis": "estimated",
     "difficulty": "进阶",
     "defaultServings": 2,
     "allergens": [
@@ -6111,6 +6282,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/77-congyou-ban-mian.png",
     "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
     "time": 35,
+    "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [
@@ -6220,6 +6392,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/78-chao-hefen.png",
     "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
     "time": 15,
+    "timeBasis": "estimated",
     "difficulty": "简单",
     "defaultServings": 2,
     "allergens": [
@@ -6322,6 +6495,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/79-roujiamo.png",
     "source": "https://thewoksoflife.com/",
     "time": 90,
+    "timeBasis": "estimated",
     "difficulty": "进阶",
     "defaultServings": 4,
     "allergens": [
@@ -6431,6 +6605,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/80-jianbing-guozi.png",
     "source": "https://thewoksoflife.com/",
     "time": 35,
+    "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [
@@ -6529,6 +6704,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/81-chashao.png",
     "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
     "time": 35,
+    "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 4,
     "allergens": [
@@ -6631,6 +6807,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/82-meicai-kourou.png",
     "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
     "time": 90,
+    "timeBasis": "estimated",
     "difficulty": "进阶",
     "defaultServings": 4,
     "allergens": [
@@ -6727,6 +6904,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/83-yanju-ji.png",
     "source": "https://thewoksoflife.com/",
     "time": 180,
+    "timeBasis": "estimated",
     "difficulty": "进阶",
     "defaultServings": 2,
     "allergens": [],
@@ -6879,6 +7057,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/84-chizhi-zheng-paigu.png",
     "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
     "time": 170,
+    "timeBasis": "estimated",
     "difficulty": "进阶",
     "defaultServings": 2,
     "allergens": [
@@ -6981,6 +7160,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/85-ganguo-huacai.png",
     "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
     "time": 35,
+    "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [
@@ -7083,6 +7263,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/86-shangtang-wawacai.png",
     "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
     "time": 35,
+    "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [
@@ -7191,6 +7372,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/87-hongshao-qiezi.png",
     "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
     "time": 15,
+    "timeBasis": "estimated",
     "difficulty": "简单",
     "defaultServings": 2,
     "allergens": [
@@ -7299,6 +7481,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/88-fanqie-niunan.png",
     "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
     "time": 95,
+    "timeBasis": "estimated",
     "difficulty": "进阶",
     "defaultServings": 4,
     "allergens": [
@@ -7407,6 +7590,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/89-zicai-danhua-tang.png",
     "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
     "time": 35,
+    "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [
@@ -7505,6 +7689,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/90-yiner-lianzi-geng.png",
     "source": "https://thewoksoflife.com/",
     "time": 105,
+    "timeBasis": "estimated",
     "difficulty": "进阶",
     "defaultServings": 2,
     "allergens": [],
@@ -7617,6 +7802,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/16-spaghetti-bolognese.png",
     "source": "https://www.bbcgoodfood.com/howto/guide/21-essential-recipes-to-learn-for-life",
     "time": 40,
+    "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [
@@ -7714,6 +7900,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/17-margherita-pizza.png",
     "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2",
     "time": 15,
+    "timeBasis": "estimated",
     "difficulty": "简单",
     "defaultServings": 2,
     "allergens": [
@@ -7817,6 +8004,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/18-beef-steak.png",
     "source": "https://www.bbcgoodfood.com/howto/guide/21-essential-recipes-to-learn-for-life",
     "time": 15,
+    "timeBasis": "estimated",
     "difficulty": "简单",
     "defaultServings": 2,
     "allergens": [
@@ -7953,6 +8141,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/19-caesar-salad.png",
     "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2",
     "time": 20,
+    "timeBasis": "estimated",
     "difficulty": "进阶",
     "defaultServings": 2,
     "allergens": [
@@ -8070,6 +8259,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/20-cheeseburger.png",
     "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2",
     "time": 15,
+    "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [
@@ -8225,6 +8415,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/21-french-onion-soup.png",
     "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2",
     "time": 155,
+    "timeBasis": "estimated",
     "difficulty": "进阶",
     "defaultServings": 2,
     "allergens": [
@@ -8335,6 +8526,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/22-fish-and-chips.png",
     "source": "https://www.bbcgoodfood.com/howto/guide/great-british-seaside-recipes",
     "time": 35,
+    "timeBasis": "estimated",
     "difficulty": "进阶",
     "defaultServings": 2,
     "allergens": [
@@ -8439,7 +8631,7 @@ window.YANHUO_RECIPES = [
         "id": "step-03",
         "instruction": "中小火煮至米熟底部略焦，关火盖布焖5分钟。",
         "duration": 300,
-        "heat": "low",
+        "heat": null,
         "timerRequired": true,
         "ingredientsUsed": [],
         "gameAction": "wait",
@@ -8450,6 +8642,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/23-spanish-paella.png",
     "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2",
     "time": 15,
+    "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [
@@ -8553,6 +8746,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/24-german-bratwurst.png",
     "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2",
     "time": 15,
+    "timeBasis": "estimated",
     "difficulty": "简单",
     "defaultServings": 2,
     "allergens": [
@@ -8655,6 +8849,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/25-herb-roast-chicken.png",
     "source": "https://www.bbcgoodfood.com/howto/guide/21-essential-recipes-to-learn-for-life",
     "time": 95,
+    "timeBasis": "estimated",
     "difficulty": "进阶",
     "defaultServings": 4,
     "allergens": [
@@ -8795,6 +8990,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/56-spaghetti-carbonara.png",
     "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2",
     "time": 15,
+    "timeBasis": "estimated",
     "difficulty": "进阶",
     "defaultServings": 2,
     "allergens": [
@@ -8923,6 +9119,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/57-lasagna.png",
     "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2",
     "time": 180,
+    "timeBasis": "estimated",
     "difficulty": "进阶",
     "defaultServings": 2,
     "allergens": [
@@ -9027,6 +9224,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/58-fettuccine-alfredo.png",
     "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2",
     "time": 35,
+    "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [
@@ -9129,6 +9327,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/59-mushroom-risotto.png",
     "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2",
     "time": 20,
+    "timeBasis": "estimated",
     "difficulty": "进阶",
     "defaultServings": 2,
     "allergens": [
@@ -9231,6 +9430,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/60-chicken-parmesan.png",
     "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2",
     "time": 15,
+    "timeBasis": "estimated",
     "difficulty": "简单",
     "defaultServings": 2,
     "allergens": [
@@ -9335,6 +9535,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/61-beef-wellington.png",
     "source": "https://www.bbcgoodfood.com/howto/guide/21-essential-recipes-to-learn-for-life",
     "time": 45,
+    "timeBasis": "estimated",
     "difficulty": "进阶",
     "defaultServings": 2,
     "allergens": [
@@ -9451,6 +9652,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/62-coq-au-vin.png",
     "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2",
     "time": 45,
+    "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [
@@ -9559,6 +9761,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/63-ratatouille.png",
     "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2",
     "time": 20,
+    "timeBasis": "estimated",
     "difficulty": "简单",
     "defaultServings": 2,
     "allergens": [],
@@ -9671,6 +9874,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/64-bouillabaisse.png",
     "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2",
     "time": 20,
+    "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [
@@ -9818,6 +10022,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/65-shepherds-pie.png",
     "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2",
     "time": 125,
+    "timeBasis": "estimated",
     "difficulty": "进阶",
     "defaultServings": 2,
     "allergens": [
@@ -9932,6 +10137,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/66-beef-bourguignon.png",
     "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2",
     "time": 120,
+    "timeBasis": "estimated",
     "difficulty": "进阶",
     "defaultServings": 4,
     "allergens": [],
@@ -10038,6 +10244,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/67-moussaka.png",
     "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2",
     "time": 40,
+    "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 4,
     "allergens": [
@@ -10146,6 +10353,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/68-greek-salad.png",
     "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2",
     "time": 35,
+    "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [
@@ -10248,6 +10456,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/69-chicken-schnitzel.png",
     "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2",
     "time": 15,
+    "timeBasis": "estimated",
     "difficulty": "简单",
     "defaultServings": 2,
     "allergens": [
@@ -10363,6 +10572,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/70-swedish-meatballs.png",
     "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2",
     "time": 15,
+    "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [
@@ -10473,6 +10683,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/71-hungarian-goulash.png",
     "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2",
     "time": 90,
+    "timeBasis": "estimated",
     "difficulty": "进阶",
     "defaultServings": 4,
     "allergens": [],
@@ -10579,6 +10790,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/72-fish-tacos.png",
     "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2",
     "time": 35,
+    "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [
@@ -10683,6 +10895,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/73-chicken-quesadilla.png",
     "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2",
     "time": 35,
+    "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [
@@ -10792,6 +11005,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/74-eggs-benedict.png",
     "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2",
     "time": 15,
+    "timeBasis": "estimated",
     "difficulty": "简单",
     "defaultServings": 2,
     "allergens": [
@@ -10897,7 +11111,7 @@ window.YANHUO_RECIPES = [
         "id": "step-03",
         "instruction": "平底锅中小火煎至表面冒泡后翻面，配黄油和枫糖浆。",
         "duration": null,
-        "heat": "low",
+        "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "confirm",
@@ -10908,6 +11122,7 @@ window.YANHUO_RECIPES = [
     "imageFull": "assets/dishes/ai/75-buttermilk-pancakes.png",
     "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2",
     "time": 35,
+    "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [

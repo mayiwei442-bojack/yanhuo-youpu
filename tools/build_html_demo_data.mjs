@@ -1,6 +1,7 @@
 import { writeFile } from "node:fs/promises";
 import { chinese, western } from "./recipe_data.mjs";
 import { stepDuration, stepHeat, recipeTotalMinutes } from "./recipe-step-metadata.mjs";
+import { cleanIngredientName } from "./recipe-ingredient-metadata.mjs";
 
 const HERITAGE_FLAVORS = new Set([
   "桂林米粉",
@@ -11,15 +12,6 @@ const HERITAGE_FLAVORS = new Set([
 ]);
 
 const BASIC_INGREDIENT = /盐|糖|油|水|淀粉|胡椒|料酒|醋|生抽|老抽|酱油|香料|八角|香叶|花椒|葱|姜|蒜|高汤|鸡汤|鱼汤|牛高汤|百里香|迷迭香|孜然|泡打粉|小苏打/;
-
-function cleanIngredientName(raw) {
-  return raw
-    .replace(/约\s*\d.*$/u, "")
-    .replace(/\d.*$/u, "")
-    .replace(/各适量|适量|少许|若干|一头|一瓣|一根|一块|一张|一罐|一袋/gu, "")
-    .replace(/[；，,。]+$/u, "")
-    .trim();
-}
 
 function parseIngredients(text) {
   return text
@@ -110,10 +102,10 @@ function buildRecipe(recipe, index, type) {
   ingredients.forEach((item) => {
     item.isCore = coreIds.has(item.id);
   });
-  const time = recipeTotalMinutes(combined, steps.length, recipe.timing);
+  const time = recipeTotalMinutes(combined, steps.length, recipe.timing, { requireSourceTotal: Boolean(media) });
   const difficulty = time >= 70 || /复炸|酥皮|乳化|分次|隔水|发酵/u.test(combined)
     ? "进阶"
-    : time <= 30 && ingredients.length <= 8
+    : time !== null && time <= 30 && ingredients.length <= 8
       ? "简单"
       : "适中";
   const isHeritageFlavor = HERITAGE_FLAVORS.has(recipe.name);
@@ -147,6 +139,7 @@ function buildRecipe(recipe, index, type) {
         }
       : {}),
     time,
+    timeBasis: recipe.timing ? "source" : media ? "unspecified" : "estimated",
     difficulty,
     defaultServings: /整鸡|600克|700克|800克/u.test(recipe.ingredients) ? 4 : 2,
     allergens: detectAllergens(recipe.ingredients),

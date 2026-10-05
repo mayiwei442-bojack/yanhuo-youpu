@@ -253,6 +253,23 @@ try {
       if (sourceTotal != null) {
         assert(recipe.time === sourceTotal, `${recipe.id} 生成总时长与所选信源不一致`);
         assert((await mediaPage.locator(".fact-row .fact strong").first().innerText()).trim() === `${sourceTotal} 分`, `${recipe.id} 详情总时长没有正确显示`);
+      } else {
+        assert(recipe.time === null && recipe.timeBasis === "unspecified", `${recipe.id} 无来源总时长却生成默认分钟数`);
+        assert((await mediaPage.locator(".fact-row .fact strong").first().innerText()).trim() === "未注明", `${recipe.id} 未注明总时长却显示数字`);
+        await mediaPage.evaluate(() => Object.defineProperty(navigator, "share", { configurable: true, value: async (content) => { window.qaSharedRecipe = content; } }));
+        await mediaPage.locator('[data-action="share-recipe"]').click();
+        const shared = await mediaPage.evaluate(() => window.qaSharedRecipe?.text || "");
+        assert(shared.includes("来源未注明总用时") && !/\d+\s*分钟/u.test(shared), `${recipe.id} 分享包含无依据总时长`);
+      }
+      if (recipe.id === "cn-010") {
+        assert(recipe.ingredients[11].name === "清水" && recipe.ingredients[11].label === "清水半碗", "地三鲜的半碗水量混入食材身份");
+        assert((await mediaPage.locator(".ingredient-copy strong").nth(11).innerText()).trim() === "清水", "地三鲜食材名称未正确显示");
+        await mediaPage.goto(`${baseUrl}#/recipes`, { waitUntil: "load" });
+        assert(await mediaPage.locator('[data-action="open-recipe"][data-id="cn-010"] .card-meta').count() === 1, "地三鲜菜谱卡片不存在");
+        assert(!(await mediaPage.locator('[data-action="open-recipe"][data-id="cn-010"] .card-meta').innerText()).includes("MIN"), "地三鲜卡片仍显示默认总时长");
+        await mediaPage.selectOption("#recipe-time", "30");
+        assert(await mediaPage.locator('[data-action="open-recipe"][data-id="cn-010"]').count() === 0, "未知总时长被错误纳入30分钟以内筛选");
+        await mediaPage.goto(`${baseUrl}#/recipe/${recipe.id}`, { waitUntil: "load" });
       }
       const hero = mediaPage.locator(".detail-hero > img");
       assert(await hero.getAttribute("src") === recipe.imageFull, `${recipe.id} 成品图与生成数据不一致`);

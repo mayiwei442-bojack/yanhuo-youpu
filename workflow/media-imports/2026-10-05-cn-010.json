@@ -1,0 +1,144 @@
+{
+  "recipeId": "cn-010",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/1/9/6/960_1911ac25f2a9d758f10eb61676a0b686.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-010-di-san-xian/hero.jpg",
+      "sha256": "a4bb4c552d3de037cec4f62e7a327b0e939944b1c56d0e704e4d766d364ae28e",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 271603
+    },
+    {
+      "role": "step",
+      "stepOrder": 1,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/4/d/d/800_4d2335fbd7ea0a245b39bf8d3cfbf85d.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-010-di-san-xian/step-1.jpg",
+      "sha256": "308a39ae21f1eccce4ea6b354366505ec3f8454efdc98b226bc719e19b3721f0",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 148679
+    },
+    {
+      "role": "step",
+      "stepOrder": 2,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/3/5/3/800_35e6d418d61d7d6102e4c32b85546003.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-010-di-san-xian/step-2.jpg",
+      "sha256": "2c6403fcb4c18d62e2fbbba2b5a9da033010e6ba4163855f74b2f9b640ec309d",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 139188
+    },
+    {
+      "role": "step",
+      "stepOrder": 3,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/f/4/d/800_f4e86200b3a885f42b062a334d0cd17d.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-010-di-san-xian/step-3.jpg",
+      "sha256": "c12d888e5c60b5245ee627068548c8d6d255b2fc9ab864c6736dcff2b433cd14",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 108802
+    },
+    {
+      "role": "step",
+      "stepOrder": 4,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/9/4/b/800_9412ea75b89494d67ce9a3acfa3577fb.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-010-di-san-xian/step-4.jpg",
+      "sha256": "d2663ccffdd075ee0ec4fdfd2bab42a21d66e94cf93a0a70bffbcd61da59bf9b",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 130253
+    },
+    {
+      "role": "step",
+      "stepOrder": 5,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/0/5/d/800_05ae16b393bc5498955e38263a09d4bd.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-010-di-san-xian/step-5.jpg",
+      "sha256": "a552ebc806554089f2f595eb71fcb2902bf2a86113f6ce8026cb54d84324ca61",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 96104
+    },
+    {
+      "role": "step",
+      "stepOrder": 6,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/9/f/5/800_9f56899ddacfbcffd51f78c91b2a31c5.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-010-di-san-xian/step-6.jpg",
+      "sha256": "ab33347bacd7f5d684861a3757bb88b23303cc8c234a9e29ae205a4c63c78d0d",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 111824
+    },
+    {
+      "role": "step",
+      "stepOrder": 7,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/7/5/f/800_75b8cad0641fa7f65a7e10c324027a1f.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-010-di-san-xian/step-7.jpg",
+      "sha256": "31b8ad13c5b7dd5478e611ae923af6f3a19e02dc72901cd1c165fd59a0146c46",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 149979
+    },
+    {
+      "role": "step",
+      "stepOrder": 8,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/4/2/5/800_42cb2309df54ef42e0a150423170bc35.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-010-di-san-xian/step-8.jpg",
+      "sha256": "4fc75edd8bd16f82e832372b007359f754593150837ba0454e4c76547571099c",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 151405
+    },
+    {
+      "role": "step",
+      "stepOrder": 9,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/e/4/2/800_e4cb75af13455ecbba1070b88fb34372.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-010-di-san-xian/step-9.jpg",
+      "sha256": "a8d45a98d5a06dc8976463b8b168537cc46761580e0970f6971d9fc2546e0160",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 174100
+    },
+    {
+      "role": "step",
+      "stepOrder": 10,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/8/8/2/800_88ad5247700b33edf8dfcbd1cca87542.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-010-di-san-xian/step-10.jpg",
+      "sha256": "5cf62d5563bda3f880ff3b0f003e05589881c3c848b1bbea839c020c87929f15",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 132298
+    },
+    {
+      "role": "step",
+      "stepOrder": 11,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/d/7/2/800_d73ba164f2e1235187067a1061a36982.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-010-di-san-xian/step-11.jpg",
+      "sha256": "5b80133157a7c8638b3aae22e1cd30cb1cd7af5d6a309a588c3f05a78bbc8589",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 82204
+    },
+    {
+      "role": "step",
+      "stepOrder": 12,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/7/2/5/800_72bb739e5db652f92d168efc30ae0925.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-010-di-san-xian/step-12.jpg",
+      "sha256": "f7b29e5a698c2550b342e9b1600e3c3cf64c9216b3a5ea010d6bbb2aa089ef90",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 141343
+    },
+    {
+      "role": "step",
+      "stepOrder": 13,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/0/a/a/800_0ab6838ea80607c82f8d10a53394ce2a.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-010-di-san-xian/step-13.jpg",
+      "sha256": "b8409500b01fb3456397d92a5e7937a480e0f7d73056f9775c74265846f5b605",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 191340
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "recipeId": "cn-010",
+  "recipeName": "地三鲜",
+  "policy": "Retain erroneous normalizations for audit, mark document and chunks superseded, exclude them from current evidence.",
+  "corrections": [
+    { "oldDocumentId": "6b53a2db-bd73-4522-9332-0f058f1f679b", "replacementDocumentId": "0ccf6dd7-83ed-4601-a184-f2b9ac406a86", "source": "贝太厨房:从小爱吃的菜2", "reason": "旧规范化漏绿菜椒与实耗油说明", "evidenceStatus": "superseded", "retainedChunks": 5, "rootSqlVerifiedMarkedChunks": 5 },
+    { "oldDocumentId": "df73cc80-5ff8-4c20-ae93-e1921334af40", "replacementDocumentId": "774a9bcc-9b94-4706-b9a8-4c32362661ab", "source": "豆果美食", "reason": "旧规范化漏步骤中使用的半碗清水", "evidenceStatus": "superseded", "retainedChunks": 5, "rootSqlVerifiedMarkedChunks": 5 }
+  ],
+  "currentDocuments": [
+    { "documentId": "f292079a-944f-41b5-b180-42b54daef3ff", "chunks": 6, "embeddingModel": "voyage-4", "actualVectorDimension": 1024, "rootSqlVerified": true },
+    { "documentId": "0ccf6dd7-83ed-4601-a184-f2b9ac406a86", "chunks": 5, "embeddingModel": "voyage-4", "actualVectorDimension": 1024, "rootSqlVerified": true },
+    { "documentId": "774a9bcc-9b94-4706-b9a8-4c32362661ab", "chunks": 5, "embeddingModel": "voyage-4", "actualVectorDimension": 1024, "rootSqlVerified": true }
+  ],
+  "liveRetrieval": {
+    "performedBy": "research_cn010_remaining12",
+    "parameters": { "query": "地三鲜", "recipeEntityId": "f181db98-de44-47f9-a144-35593f30ad43", "limit": 100, "maxPerSource": 100 },
+    "semanticReturnedChunks": 16,
+    "hybridReturnedChunks": 16,
+    "returnedDocumentIds": ["f292079a-944f-41b5-b180-42b54daef3ff", "774a9bcc-9b94-4706-b9a8-4c32362661ab", "0ccf6dd7-83ed-4601-a184-f2b9ac406a86"],
+    "oldDocumentReturnedChunks": 0,
+    "oldVersionsExcluded": true,
+    "rawOutput": "本轮Researcher工具执行记录；结果亦记录在base evidence和decision notes。"
+  },
+  "noDocumentsOrVectorsDeleted": true,
+  "noSchemaChange": true
+}
