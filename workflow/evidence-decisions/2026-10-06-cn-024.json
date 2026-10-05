@@ -1,0 +1,246 @@
+{
+  "recipeId": "cn-024",
+  "createdAt": "2026-10-05T16:33:56.817Z",
+  "sourceMode": "multi_source",
+  "selectedSourceUrl": "https://www.douguo.com/cookbook/1111868.html",
+  "selectionReason": "书籍及两位豆果作者的来源均名称匹配、文字完整、各自工艺自洽。先按完整性核对，再比较源图：大鹤子版本16个执行步骤中15个有核验过程图，另有成品图；新鲜果蔬版本只有成品照片及5个无图执行步骤，书籍无已核验图片。因此选择大鹤子完整图文版本，不混用其他来源。",
+  "qualifyingSourceUrls": [
+    null,
+    "https://www.douguo.com/cookbook/1111868.html",
+    "https://www.douguo.com/cookbook/748055.html"
+  ],
+  "assessments": {
+    "null": {
+      "qualifies": true,
+      "ingredientCoverage": "complete",
+      "stepCoverage": "complete",
+      "internalCoherence": "coherent",
+      "heroImages": 0,
+      "mappedStepImages": 0,
+      "stepImageCoverage": 0,
+      "ingredientCount": 13,
+      "executableStepCount": 5,
+      "notes": [
+        "完整可靠书籍文字独立保留，以text00035.html#subid21定位，无固定页码；无已核验图。",
+        "修正方法水、鸡蛋只用少许蛋清及油400ml（实耗40ml），保留20分钟准备、20分钟烹饪，不移植到winner。"
+      ]
+    },
+    "https://www.douguo.com/cookbook/1111868.html": {
+      "qualifies": true,
+      "ingredientCoverage": "complete",
+      "stepCoverage": "complete",
+      "internalCoherence": "coherent",
+      "heroImages": 1,
+      "mappedStepImages": 15,
+      "stepImageCoverage": 0.9375,
+      "ingredientCount": 13,
+      "executableStepCount": 16,
+      "notes": [
+        "原料表9项加方法明确使用的水、料酒、盐、油，共13项。葱花适量及鸡蛋一个分离身份与数量，raw保留原文。",
+        "一斤半为原始重量，糖四勺/酱油两勺/桂花醋两勺/湿淀粉油一勺均保留原始单位，不赋予容器容量。",
+        "干淀粉裹粉、湿淀粉挂糊、末段湿淀粉均有来源操作；原文数量适量，无指定比例，不发明留取或额外克数。",
+        "source9为炸后尚未调汁的中间肉片；source10为黄瓜准备；source16仅成品装盘照片，步骤收汁盛出保留文字而不配过程图。",
+        "source3料酒瓶为该步原料准备图片，source4盐腌肉；不声称照片能量化用量。",
+        "无明确单阶段时间、火候或全程总时长，duration/heat/timing保持未注明；不要从书籍补齐。",
+        "盐、料酒、炸油用量无数值，公开行可以注明适量或未注明；食用油种类未固定统一为食用油。"
+      ]
+    },
+    "https://www.douguo.com/cookbook/748055.html": {
+      "qualifies": true,
+      "ingredientCoverage": "complete",
+      "stepCoverage": "complete",
+      "internalCoherence": "coherent",
+      "heroImages": 1,
+      "mappedStepImages": 0,
+      "stepImageCoverage": 0,
+      "ingredientCount": 13,
+      "executableStepCount": 5,
+      "notes": [
+        "新鲜果蔬的完整独立作者版本，清单5项加方法明确8项，共13项。",
+        "半碗醋、3小勺糖、1小勺盐原样保留，无碗/勺公制容量。",
+        "网页source1–5无图片（cookno.jpg占位）；source6味道不错哦只为成品照片，不冒称操作图。"
+      ]
+    }
+  },
+  "media": {
+    "recipePageUrl": "https://www.douguo.com/cookbook/1111868.html",
+    "mediaPageUrl": "https://www.douguo.com/cookbook/1111868.html",
+    "sourceName": "豆果美食",
+    "author": "大鹤子",
+    "rightsNotice": "©本菜谱的做法由 大鹤子 编写，未经授权不得转载",
+    "reuseLicense": null,
+    "repositoryCopyAuthorized": true,
+    "hero": {
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/5/1/d/800_51d40f71bf739ac9178900712744e42d.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/hero.jpg",
+      "httpStatus": 200,
+      "contentType": "image/jpeg;charset=UTF-8",
+      "pageOrder": 0,
+      "adjacentText": "老式传统锅包肉（糖醋版）",
+      "role": "finished_dish"
+    },
+    "steps": [
+      {
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/5/0/d/800_507390088b2482718c7f495c200fbffd.jpg",
+        "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-1.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8",
+        "stepOrder": 1,
+        "sourceStepOrder": 1,
+        "pageOrder": 1,
+        "adjacentText": "里脊肉切成薄薄的小片，然后用水泡上，去除血腥"
+      },
+      {
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/d/f/a/800_df11cdd685e8463f16055bf59e37296a.jpg",
+        "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-2.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8",
+        "stepOrder": 2,
+        "sourceStepOrder": 2,
+        "pageOrder": 2,
+        "adjacentText": "将肉捞出控水"
+      },
+      {
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/a/5/5/800_a5d4b15a22a4df00c5f0795045421875.jpg",
+        "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-3.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8",
+        "stepOrder": 3,
+        "sourceStepOrder": 3,
+        "pageOrder": 3,
+        "adjacentText": "加料酒腌制，为了去腥味"
+      },
+      {
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/7/3/7/800_73b990cecd994e681e042f790beb67b7.jpg",
+        "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-4.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8",
+        "stepOrder": 4,
+        "sourceStepOrder": 4,
+        "pageOrder": 4,
+        "adjacentText": "加料酒同时加点盐腌制"
+      },
+      {
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/f/d/1/800_fdba01bf9b8f827135117f0d397506d1.jpg",
+        "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-5.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8",
+        "stepOrder": 5,
+        "sourceStepOrder": 5,
+        "pageOrder": 5,
+        "adjacentText": "腌制过程中准备干淀粉"
+      },
+      {
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/e/3/6/800_e39c6b971f6c2ec74c4e909850167666.jpg",
+        "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-6.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8",
+        "stepOrder": 6,
+        "sourceStepOrder": 6,
+        "pageOrder": 6,
+        "adjacentText": "将每一片肉打来沾上淀粉"
+      },
+      {
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/b/c/d/800_bc174da8b1f0a7da3ca304c99479598d.jpg",
+        "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-7.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8",
+        "stepOrder": 7,
+        "sourceStepOrder": 7,
+        "pageOrder": 7,
+        "adjacentText": "肉肉放一边准备湿淀粉，就是淀粉里放少量水，在加一勺油，搅匀"
+      },
+      {
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/c/a/2/800_ca1ad6420e75dd4f76f39a26d323a2b2.jpg",
+        "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-8.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8",
+        "stepOrder": 8,
+        "sourceStepOrder": 8,
+        "pageOrder": 8,
+        "adjacentText": "将加了油的湿淀粉和鸡蛋加入肉里，用手搅拌匀，记住不要用筷子搅拌，要用手抓"
+      },
+      {
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/5/3/d/800_53530322c45e0f688b1a92d902d1e0fd.jpg",
+        "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-9.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8",
+        "stepOrder": 9,
+        "sourceStepOrder": 9,
+        "pageOrder": 9,
+        "adjacentText": "肉肉一片一片打来用油炸金黄然后控油"
+      },
+      {
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/3/c/d/800_3c2d0cfebb09ccbd0b4df29f2aeb41fd.jpg",
+        "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-10.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8",
+        "stepOrder": 10,
+        "sourceStepOrder": 10,
+        "pageOrder": 10,
+        "adjacentText": "肉一共炸两次，然后准备黄瓜片备用"
+      },
+      {
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/9/9/0/800_997b576b175b235545a4dd39ed1b8890.jpg",
+        "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-11.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8",
+        "stepOrder": 11,
+        "sourceStepOrder": 11,
+        "pageOrder": 11,
+        "adjacentText": "这是最重要的酱汁，就是把酱油，糖 醋 葱花 姜 盐 按照前面的量放在一起调匀，"
+      },
+      {
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/3/a/b/800_3a7f596e1f0f99c4a10f91693d8e4f2b.jpg",
+        "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-12.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8",
+        "stepOrder": 12,
+        "sourceStepOrder": 12,
+        "pageOrder": 12,
+        "adjacentText": "锅里留点油，剩下的倒出去，油热后把酱汁倒入"
+      },
+      {
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/9/0/8/800_9012630f855c9f7a577f941db6f529c8.jpg",
+        "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-13.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8",
+        "stepOrder": 13,
+        "sourceStepOrder": 13,
+        "pageOrder": 13,
+        "adjacentText": "酱汁起泡了马上下肉，开始翻炒"
+      },
+      {
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/5/f/0/800_5faceab6e9847e3f0887753e21cea0c0.jpg",
+        "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-14.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8",
+        "stepOrder": 14,
+        "sourceStepOrder": 14,
+        "pageOrder": 14,
+        "adjacentText": "翻炒到酱汁上肉色了就加入瓜片"
+      },
+      {
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/7/1/b/800_71afd1fd42f19f7a5e7c31bb07192efb.jpg",
+        "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-15.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8",
+        "stepOrder": 15,
+        "sourceStepOrder": 15,
+        "pageOrder": 15,
+        "adjacentText": "翻炒均匀后倒入湿淀粉"
+      }
+    ]
+  },
+  "notes": [
+    "Woks准确匹配https://thewoksoflife.com/guo-bao-rou-dongbei/直接GET返回HTTP403，记录停止访问，不绕过。",
+    "豆果站内搜索https://www.douguo.com/caipu/锅包肉返回HTTP403，停止访问该端点；公开详情页正常200。",
+    "豆果1489279完整原文中调汁/入锅两次番茄酱用量归属未明，鸡精/酱油清单在方法仅等字，保留合法部分历史资料，不拼补，也不标invalid。",
+    "豆果1512701清单醋精(30度醋)5g与方法白醋不一致，不能发明稀释或替换关系，未采用。",
+    "同站两位作者独立完整文字按本轮用户要求分别入库；共享kb_sources网站身份，不伪造第二网站。",
+    "Repository copy authorization separately supplied as user_confirmed_2026-09-16; author restriction is not a public reuse license.",
+    "实际视觉检查15/16动作图；source16成品图仅作未选图片审计，原始URL https://cp1.douguo.com/upload/caiku/e/1/5/800_e1dec90dd3db718e5efc75832bd975b5.jpg",
+    "Unselected media audit (actual pixels inspected): {\"url\":\"https://www.douguo.com/cookbook/748055.html\",\"author\":\"新鲜果蔬\",\"rightsNotice\":\"©本菜谱的做法由 新鲜果蔬 编写，未经授权不得转载\",\"reuseLicense\":null,\"recipePageUrl\":\"https://www.douguo.com/cookbook/748055.html\",\"mediaPageUrl\":\"https://www.douguo.com/cookbook/748055.html\",\"images\":[{\"originalUrl\":\"https://cp1.douguo.com/upload/caiku/9/7/c/800_97064ae86d650ad7da7a10073bde281c.jpg\",\"pageOrder\":0,\"adjacentText\":\"糖醋锅包肉\",\"httpStatus\":200,\"contentType\":\"image/jpeg;charset=UTF-8\",\"bytes\":187873,\"classification\":\"finished_dish\",\"mappedToExecutableStep\":false},{\"stepOrder\":6,\"sourceStepOrder\":6,\"pageOrder\":6,\"originalUrl\":\"https://cp1.douguo.com/upload/caiku/8/8/0/800_881d3c3c561b640704266deabe7c6d40.jpg\",\"adjacentText\":\"味道不错哦！\",\"httpStatus\":200,\"contentType\":\"image/jpeg;charset=UTF-8\",\"bytes\":187873,\"classification\":\"finished_dish\",\"mappedToExecutableStep\":false}],\"placeholderStepOrders\":[1,2,3,4,5],\"visualResult\":\"两URL均为同一盘装盘成品，非操作图；没有借图映射。\"}",
+    "SQL database verification: all15 newly ingested chunk vectors have vector_dims(embedding)=1024, embedding_dim=1024 and model=voyage-4; retained oldbookdoc+5chunks all superseded, replacementDocumentId same correctedbook."
+  ]
+}

@@ -3694,127 +3694,299 @@ window.YANHUO_RECIPES = [
     "ingredients": [
       {
         "id": "ingredient-01",
-        "name": "猪里脊",
-        "label": "猪里脊500克",
+        "name": "里脊肉",
+        "label": "里脊肉750克（原文一斤半）",
         "isCore": true
       },
       {
         "id": "ingredient-02",
-        "name": "淀粉",
-        "label": "淀粉300克",
-        "isCore": false
-      },
-      {
-        "id": "ingredient-03",
-        "name": "胡萝卜",
-        "label": "胡萝卜5克",
+        "name": "黄瓜",
+        "label": "黄瓜半根",
         "isCore": true
       },
       {
+        "id": "ingredient-03",
+        "name": "糖",
+        "label": "糖4勺",
+        "isCore": false
+      },
+      {
         "id": "ingredient-04",
-        "name": "葱姜蒜",
-        "label": "葱姜蒜适量",
+        "name": "酱油",
+        "label": "酱油2勺",
         "isCore": false
       },
       {
         "id": "ingredient-05",
-        "name": "香菜",
-        "label": "香菜3克",
-        "isCore": true
+        "name": "桂花醋",
+        "label": "桂花醋2勺",
+        "isCore": false
       },
       {
         "id": "ingredient-06",
-        "name": "白糖",
-        "label": "白糖30克",
+        "name": "葱花",
+        "label": "葱花适量",
         "isCore": false
       },
       {
         "id": "ingredient-07",
-        "name": "白醋",
-        "label": "白醋10毫升",
+        "name": "姜",
+        "label": "姜适量",
         "isCore": false
       },
       {
         "id": "ingredient-08",
-        "name": "酱油",
-        "label": "酱油3毫升",
+        "name": "淀粉",
+        "label": "淀粉适量（裹粉、挂糊与收汁时分次使用，各部分用量未注明）",
         "isCore": false
       },
       {
         "id": "ingredient-09",
-        "name": "盐",
-        "label": "盐4克",
-        "isCore": false
+        "name": "鸡蛋",
+        "label": "鸡蛋1个",
+        "isCore": true
       },
       {
         "id": "ingredient-10",
-        "name": "清水",
-        "label": "清水适量",
+        "name": "水",
+        "label": "水适量（泡肉用量未注明，调湿淀粉用少量）",
         "isCore": false
       },
       {
         "id": "ingredient-11",
+        "name": "料酒",
+        "label": "料酒适量（腌肉用，原文未注明用量）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-12",
+        "name": "盐",
+        "label": "盐适量（腌肉用少许，调汁用量未注明）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-13",
         "name": "食用油",
-        "label": "食用油适量",
+        "label": "食用油1勺（调挂糊用湿淀粉），另备适量炸肉用油，炒制时锅中留少许底油",
         "isCore": false
       }
     ],
     "steps": [
       {
         "id": "step-01",
-        "instruction": "里脊切成约2–3毫米厚的大片，加少许盐；淀粉分次加水调成能均匀挂住肉片的稠糊。胡萝卜、葱姜切丝，蒜切片，香菜切段。",
+        "instruction": "将750克里脊肉切成薄薄的小片，放入水中浸泡，去除血腥味。",
         "duration": null,
         "heat": null,
-        "timerRequired": false,
-        "ingredientsUsed": [],
-        "gameAction": "confirm",
-        "safetyNote": ""
-      },
-      {
-        "id": "step-02",
-        "instruction": "油温五至六成热时逐片下肉，中火炸熟捞出；升高油温后回锅快速复炸至外壳焦脆，沥油。",
-        "duration": null,
-        "heat": "medium",
-        "timerRequired": false,
-        "ingredientsUsed": [],
-        "gameAction": "confirm",
-        "safetyNote": "注意热油飞溅"
-      },
-      {
-        "id": "step-03",
-        "instruction": "白糖、白醋、酱油、盐和少量清水调成糖醋汁。",
-        "duration": null,
-        "heat": null,
-        "timerRequired": false,
-        "ingredientsUsed": [],
-        "gameAction": "confirm",
-        "safetyNote": ""
-      },
-      {
-        "id": "step-04",
-        "instruction": "锅留少许底油，大火炒香配菜丝，放入炸好的肉片，淋入糖醋汁快速翻匀，关火后放香菜出锅。",
-        "duration": null,
-        "heat": "high",
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "add",
-        "safetyNote": "注意热油飞溅"
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-024-guo-bao-rou/step-1.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1111868.html"
+      },
+      {
+        "id": "step-02",
+        "instruction": "捞出肉片，控水。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-024-guo-bao-rou/step-2.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1111868.html"
+      },
+      {
+        "id": "step-03",
+        "instruction": "肉片中加入适量料酒，去腥腌制。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-024-guo-bao-rou/step-3.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1111868.html"
+      },
+      {
+        "id": "step-04",
+        "instruction": "在上述同一次腌制中加入少许盐，与上一步的料酒一起腌制肉片。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-024-guo-bao-rou/step-4.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1111868.html"
+      },
+      {
+        "id": "step-05",
+        "instruction": "腌制过程中准备裹粉用的干淀粉。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-024-guo-bao-rou/step-5.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1111868.html"
+      },
+      {
+        "id": "step-06",
+        "instruction": "将每片肉展开，沾上干淀粉。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-024-guo-bao-rou/step-6.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1111868.html"
+      },
+      {
+        "id": "step-07",
+        "instruction": "将裹粉的肉片放在一旁。另取适量淀粉，加入少量水和1勺食用油，搅匀成挂糊用的湿淀粉。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-024-guo-bao-rou/step-7.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1111868.html"
+      },
+      {
+        "id": "step-08",
+        "instruction": "把挂糊用的湿淀粉和1个鸡蛋加入肉片，用手抓匀，不用筷子搅拌。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-024-guo-bao-rou/step-8.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1111868.html"
+      },
+      {
+        "id": "step-09",
+        "instruction": "锅中加入炸肉用的食用油并加热，将肉片逐片展开下锅，炸至金黄后捞出控油。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "注意热油飞溅",
+        "image": "assets/dishes/sources/cn-024-guo-bao-rou/step-9.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1111868.html"
+      },
+      {
+        "id": "step-10",
+        "instruction": "将肉片再炸一次，肉片共炸两次。随后将半根黄瓜切片备用。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "注意热油飞溅",
+        "image": "assets/dishes/sources/cn-024-guo-bao-rou/step-10.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1111868.html"
+      },
+      {
+        "id": "step-11",
+        "instruction": "将2勺酱油、4勺糖、2勺桂花醋、适量葱花、姜和盐放在一起，调匀成酱汁。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-024-guo-bao-rou/step-11.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1111868.html"
+      },
+      {
+        "id": "step-12",
+        "instruction": "锅中留少许底油，将剩余的油倒出。加热底油，油热后倒入酱汁。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-024-guo-bao-rou/step-12.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1111868.html"
+      },
+      {
+        "id": "step-13",
+        "instruction": "酱汁起泡时，立即放入炸好的肉片，开始翻炒。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "注意热油飞溅",
+        "image": "assets/dishes/sources/cn-024-guo-bao-rou/step-13.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1111868.html"
+      },
+      {
+        "id": "step-14",
+        "instruction": "翻炒至酱汁使肉片上色，加入黄瓜片。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-024-guo-bao-rou/step-14.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1111868.html"
+      },
+      {
+        "id": "step-15",
+        "instruction": "翻炒均匀后，倒入收汁用的湿淀粉，其用量原文未注明。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-024-guo-bao-rou/step-15.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1111868.html"
+      },
+      {
+        "id": "step-16",
+        "instruction": "收汁后盛出。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
       }
     ],
-    "imageThumb": "assets/dishes/thumbnails/34-guobaorou.jpg",
-    "imageFull": "assets/dishes/ai/34-guobaorou.png",
-    "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
-    "time": 40,
-    "timeBasis": "estimated",
+    "imageThumb": "assets/dishes/sources/cn-024-guo-bao-rou/hero.jpg",
+    "imageFull": "assets/dishes/sources/cn-024-guo-bao-rou/hero.jpg",
+    "source": "https://www.douguo.com/cookbook/1111868.html",
+    "media": {
+      "sourceName": "豆果美食",
+      "recipePageUrl": "https://www.douguo.com/cookbook/1111868.html",
+      "mediaPageUrl": "https://www.douguo.com/cookbook/1111868.html",
+      "author": "大鹤子",
+      "rightsNotice": "©本菜谱的做法由 大鹤子 编写，未经授权不得转载",
+      "reuseLicense": null,
+      "repositoryCopyAuthorization": "user_confirmed_2026-09-16"
+    },
+    "time": null,
+    "timeBasis": "unspecified",
     "difficulty": "进阶",
     "defaultServings": 2,
     "allergens": [
+      "egg",
       "soy"
     ],
     "flags": {
-      "containsPork": true,
+      "containsPork": false,
       "containsBeef": false,
-      "containsAlcohol": false,
+      "containsAlcohol": true,
       "spicy": false,
       "vegetarian": false
     },

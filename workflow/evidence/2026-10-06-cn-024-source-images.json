@@ -1,0 +1,880 @@
+{
+  "recipeId": "cn-024",
+  "recipeName": "锅包肉",
+  "category": "chinese",
+  "createdAt": "2026-10-05T16:33:56.817Z",
+  "sourceMode": "multi_source",
+  "selectedSourceUrl": "https://www.douguo.com/cookbook/1111868.html",
+  "selectionReason": "书籍及两位豆果作者的来源均名称匹配、文字完整、各自工艺自洽。先按完整性核对，再比较源图：大鹤子版本16个执行步骤中15个有核验过程图，另有成品图；新鲜果蔬版本只有成品照片及5个无图执行步骤，书籍无已核验图片。因此选择大鹤子完整图文版本，不混用其他来源。",
+  "sources": [
+    {
+      "sourceName": "贝太厨房:从小爱吃的菜2",
+      "sourceType": "book",
+      "url": null,
+      "documentId": "6d91098c-47e2-46d8-a69a-888665007aec",
+      "retrievalMethod": "EPUB XHTML section",
+      "complete": true,
+      "ingredients": [
+        {
+          "raw": "猪里脊肉 300g",
+          "name": "猪里脊肉",
+          "amount": "300g",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "葱 80g",
+          "name": "葱",
+          "amount": "80g",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "姜 10g",
+          "name": "姜",
+          "amount": "10g",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "香菜 50g",
+          "name": "香菜",
+          "amount": "50g",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "胡萝卜 100g",
+          "name": "胡萝卜",
+          "amount": "100g",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "白糖 15g",
+          "name": "白糖",
+          "amount": "15g",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "白醋 3ml",
+          "name": "白醋",
+          "amount": "3ml",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "生抽 5ml",
+          "name": "生抽",
+          "amount": "5ml",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "盐 5g",
+          "name": "盐",
+          "amount": "5g",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "水淀粉 20ml",
+          "name": "水淀粉",
+          "amount": "20ml",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "鸡蛋 1个；做法使用少许蛋清",
+          "name": "鸡蛋",
+          "amount": "1个",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "油 400ml（实耗40ml）",
+          "name": "油",
+          "amount": "400ml（实耗40ml）",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "水淀粉加少许蛋清和水调成适当稠度的面糊",
+          "name": "水",
+          "amount": null,
+          "evidence": "explicit"
+        }
+      ],
+      "steps": [
+        {
+          "heat": null,
+          "order": 1,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "猪里脊肉切大片，厚约2～3mm，不能太薄，太薄就炸干了。把葱、姜、香菜、胡萝卜切丝，白糖、白醋、生抽、盐混合调成味汁。（图2、3）"
+        },
+        {
+          "heat": null,
+          "order": 2,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "水淀粉加少许蛋清和水调成适当稠度的面糊，把肉片全部蘸上面糊。（图4）"
+        },
+        {
+          "heat": "中火；油5～6成热",
+          "order": 3,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "锅中油5～6成热时，一片片下入裹好面糊的肉片，中火炸熟之后捞出来。（图5）"
+        },
+        {
+          "heat": "大火",
+          "order": 4,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "将火调至大火，一次放入炸过的肉片，快速炸至焦脆捞出来沥干油。"
+        },
+        {
+          "heat": "大火",
+          "order": 5,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "锅中留少许底油，大火烧热后放入葱、姜、香菜、胡萝卜丝翻炒均匀。这时再放入炸好的肉片翻炒均匀，淋入调汁，快速翻炒出锅即可。（图6）"
+        }
+      ],
+      "technique": [
+        "准备：20分钟",
+        "烹饪：20分钟"
+      ],
+      "tips": [
+        "锅包肉成功与否的秘诀就在于挂糊，在调制面糊的过程中一定要注意水的分量。以肉片很容易均匀地裹上一层面糊、但又不是太厚为准。"
+      ],
+      "rawExcerpt": "锅包肉\n\r\n\r\n准备：20分钟　 \r\n烹饪：20分钟\n\r\n一般的东北菜给人的印象就是分量大、口味咸鲜，而这道锅包肉却是酸甜口味的。原来这道菜是哈尔滨道台府菜的创始人郑兴文当年为了适应外宾的口味而把“焦烧肉块”改成了酸甜口味。\n\r\n用料：\n\r\n猪里脊肉　　300g\n\r\n葱　　　　　80g\n\r\n姜　　　　　10g\n\r\n香菜　　　　50g\n\r\n胡萝卜　　　100g\n\r\n白糖　　　　15g\n\r\n白醋　　　　3ml\n\r\n生抽　　　　5ml\n\r\n盐　　　　　5g\n\r\n水淀粉　　　20ml\n\r\n鸡蛋　　　　1个\n\r\n油　　　　　400ml\n\r\n　　　　　　（实耗40ml）\n\r\n做法：\n\r\n1.猪里脊肉切大片，厚约2～3mm，不能太薄，太薄就炸干了。把葱、姜、香菜、胡萝卜切丝，白糖、白醋、生抽、盐混合调成味汁。（图2、3）\n\r\n2.水淀粉加少许蛋清和水调成适当稠度的面糊，把肉片全部蘸上面糊。（图4）\n\r\n3.锅中油5～6成热时，一片片下入裹好面糊的肉片，中火炸熟之后捞出来。（图5）\n\r\n4.将火调至大火，一次放入炸过的肉片，快速炸至焦脆捞出来沥干油。\n\r\n5.锅中留少许底油，大火烧热后放入葱、姜、香菜、胡萝卜丝翻炒均匀。这时再放入炸好的肉片翻炒均匀，淋入调汁，快速翻炒出锅即可。（图6）\n\r\n家传小诀窍：\n\r\n锅包肉成功与否的秘诀就在于挂糊，在调制面糊的过程中一定要注意水的分量。以肉片很容易均匀地裹上一层面糊、但又不是太厚为准。",
+      "bookTitle": "贝太厨房:从小爱吃的菜2",
+      "pageStart": null,
+      "pageEnd": null,
+      "location": "text00035.html#subid21",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 0,
+        "mappedStepImages": 0,
+        "stepImageCoverage": 0,
+        "ingredientCount": 13,
+        "executableStepCount": 5,
+        "notes": [
+          "完整可靠书籍文字独立保留，以text00035.html#subid21定位，无固定页码；无已核验图。",
+          "修正方法水、鸡蛋只用少许蛋清及油400ml（实耗40ml），保留20分钟准备、20分钟烹饪，不移植到winner。"
+        ]
+      }
+    },
+    {
+      "sourceName": "豆果美食",
+      "sourceType": "website",
+      "url": "https://www.douguo.com/cookbook/1111868.html",
+      "documentId": "adbd324f-5f4b-4416-b934-47dca742a5b1",
+      "retrievalMethod": "HTML正文",
+      "complete": true,
+      "ingredients": [
+        {
+          "raw": "里脊肉 一斤半",
+          "name": "里脊肉",
+          "amount": "一斤半",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "黄瓜 半根",
+          "name": "黄瓜",
+          "amount": "半根",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "糖 四勺",
+          "name": "糖",
+          "amount": "四勺",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "酱油 两勺",
+          "name": "酱油",
+          "amount": "两勺",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "桂花醋 两勺",
+          "name": "桂花醋",
+          "amount": "两勺",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "葱花适量",
+          "name": "葱花",
+          "amount": "适量",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "姜 适量",
+          "name": "姜",
+          "amount": "适量",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "淀粉 适量",
+          "name": "淀粉",
+          "amount": "适量",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "鸡蛋一个",
+          "name": "鸡蛋",
+          "amount": "1个",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "里脊肉切成薄薄的小片，然后用水泡上；淀粉里放少量水",
+          "name": "水",
+          "amount": "少量（湿淀粉）；泡肉用量未注明",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "加料酒腌制，为了去腥味",
+          "name": "料酒",
+          "amount": null,
+          "evidence": "explicit"
+        },
+        {
+          "raw": "加料酒同时加点盐腌制；酱油，糖 醋 葱花 姜 盐 按照前面的量放在一起调匀",
+          "name": "盐",
+          "amount": "加点（腌制）；调汁用量未注明",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "淀粉里放少量水，在加一勺油，搅匀；用油炸金黄然后控油；锅里留点油，剩下的倒出去",
+          "name": "油",
+          "amount": "一勺（湿淀粉）；炸油未注明；底油留点",
+          "evidence": "explicit"
+        }
+      ],
+      "steps": [
+        {
+          "heat": null,
+          "order": 1,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "里脊肉切成薄薄的小片，然后用水泡上，去除血腥"
+        },
+        {
+          "heat": null,
+          "order": 2,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "将肉捞出控水"
+        },
+        {
+          "heat": null,
+          "order": 3,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "加料酒腌制，为了去腥味"
+        },
+        {
+          "heat": null,
+          "order": 4,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "加料酒同时加点盐腌制"
+        },
+        {
+          "heat": null,
+          "order": 5,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "腌制过程中准备干淀粉"
+        },
+        {
+          "heat": null,
+          "order": 6,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "将每一片肉打来沾上淀粉"
+        },
+        {
+          "heat": null,
+          "order": 7,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "肉肉放一边准备湿淀粉，就是淀粉里放少量水，在加一勺油，搅匀"
+        },
+        {
+          "heat": null,
+          "order": 8,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "将加了油的湿淀粉和鸡蛋加入肉里，用手搅拌匀，记住不要用筷子搅拌，要用手抓"
+        },
+        {
+          "heat": null,
+          "order": 9,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "肉肉一片一片打来用油炸金黄然后控油"
+        },
+        {
+          "heat": null,
+          "order": 10,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "肉一共炸两次，然后准备黄瓜片备用"
+        },
+        {
+          "heat": null,
+          "order": 11,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "这是最重要的酱汁，就是把酱油，糖 醋 葱花 姜 盐 按照前面的量放在一起调匀，"
+        },
+        {
+          "heat": null,
+          "order": 12,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "锅里留点油，剩下的倒出去，油热后把酱汁倒入"
+        },
+        {
+          "heat": null,
+          "order": 13,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "酱汁起泡了马上下肉，开始翻炒"
+        },
+        {
+          "heat": null,
+          "order": 14,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "翻炒到酱汁上肉色了就加入瓜片"
+        },
+        {
+          "heat": null,
+          "order": 15,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "翻炒均匀后倒入湿淀粉"
+        },
+        {
+          "heat": null,
+          "order": 16,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "收汁剩出"
+        }
+      ],
+      "technique": [],
+      "tips": [],
+      "rawExcerpt": "老式传统锅包肉（糖醋版）\n用料原表：\n里脊肉 一斤半\n黄瓜 半根\n糖 四勺\n酱油 两勺\n桂花醋 两勺\n葱花适量\n姜 适量\n淀粉 适量\n鸡蛋一个\n做法：\n1. 里脊肉切成薄薄的小片，然后用水泡上，去除血腥\n2. 将肉捞出控水\n3. 加料酒腌制，为了去腥味\n4. 加料酒同时加点盐腌制\n5. 腌制过程中准备干淀粉\n6. 将每一片肉打来沾上淀粉\n7. 肉肉放一边准备湿淀粉，就是淀粉里放少量水，在加一勺油，搅匀\n8. 将加了油的湿淀粉和鸡蛋加入肉里，用手搅拌匀，记住不要用筷子搅拌，要用手抓\n9. 肉肉一片一片打来用油炸金黄然后控油\n10. 肉一共炸两次，然后准备黄瓜片备用\n11. 这是最重要的酱汁，就是把酱油，糖 醋 葱花 姜 盐 按照前面的量放在一起调匀，\n12. 锅里留点油，剩下的倒出去，油热后把酱汁倒入\n13. 酱汁起泡了马上下肉，开始翻炒\n14. 翻炒到酱汁上肉色了就加入瓜片\n15. 翻炒均匀后倒入湿淀粉\n16. 收汁剩出\n小贴士：\n来源：https://www.douguo.com/cookbook/1111868.html\n作者：大鹤子",
+      "bookTitle": null,
+      "pageStart": null,
+      "pageEnd": null,
+      "location": null,
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 1,
+        "mappedStepImages": 15,
+        "stepImageCoverage": 0.9375,
+        "ingredientCount": 13,
+        "executableStepCount": 16,
+        "notes": [
+          "原料表9项加方法明确使用的水、料酒、盐、油，共13项。葱花适量及鸡蛋一个分离身份与数量，raw保留原文。",
+          "一斤半为原始重量，糖四勺/酱油两勺/桂花醋两勺/湿淀粉油一勺均保留原始单位，不赋予容器容量。",
+          "干淀粉裹粉、湿淀粉挂糊、末段湿淀粉均有来源操作；原文数量适量，无指定比例，不发明留取或额外克数。",
+          "source9为炸后尚未调汁的中间肉片；source10为黄瓜准备；source16仅成品装盘照片，步骤收汁盛出保留文字而不配过程图。",
+          "source3料酒瓶为该步原料准备图片，source4盐腌肉；不声称照片能量化用量。",
+          "无明确单阶段时间、火候或全程总时长，duration/heat/timing保持未注明；不要从书籍补齐。",
+          "盐、料酒、炸油用量无数值，公开行可以注明适量或未注明；食用油种类未固定统一为食用油。"
+        ]
+      },
+      "media": {
+        "recipePageUrl": "https://www.douguo.com/cookbook/1111868.html",
+        "mediaPageUrl": "https://www.douguo.com/cookbook/1111868.html",
+        "sourceName": "豆果美食",
+        "author": "大鹤子",
+        "rightsNotice": "©本菜谱的做法由 大鹤子 编写，未经授权不得转载",
+        "reuseLicense": null,
+        "repositoryCopyAuthorized": true,
+        "hero": {
+          "originalUrl": "https://cp1.douguo.com/upload/caiku/5/1/d/800_51d40f71bf739ac9178900712744e42d.jpg",
+          "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/hero.jpg",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "pageOrder": 0,
+          "adjacentText": "老式传统锅包肉（糖醋版）",
+          "role": "finished_dish",
+          "sha256": "126dec6a968385a080dbe47067f87a0461370d86c6928131a647956bbc868a2c"
+        },
+        "steps": [
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/5/0/d/800_507390088b2482718c7f495c200fbffd.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-1.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "stepOrder": 1,
+            "sourceStepOrder": 1,
+            "pageOrder": 1,
+            "adjacentText": "里脊肉切成薄薄的小片，然后用水泡上，去除血腥",
+            "sha256": "f6758bec9b4e76ef9ecbb1874cb880a0b07a73a1a5f6e8e3e2a26bfb950d8042"
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/d/f/a/800_df11cdd685e8463f16055bf59e37296a.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-2.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "stepOrder": 2,
+            "sourceStepOrder": 2,
+            "pageOrder": 2,
+            "adjacentText": "将肉捞出控水",
+            "sha256": "e7347e3b4c64d5f2d70793ae903be5bdd867020a1a387ee373263263291f09b9"
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/a/5/5/800_a5d4b15a22a4df00c5f0795045421875.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-3.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "stepOrder": 3,
+            "sourceStepOrder": 3,
+            "pageOrder": 3,
+            "adjacentText": "加料酒腌制，为了去腥味",
+            "sha256": "278468d1a03fdb81a71b054ddfd00e399c18add4c914cac2314f4fb1e6a07f78"
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/7/3/7/800_73b990cecd994e681e042f790beb67b7.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-4.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "stepOrder": 4,
+            "sourceStepOrder": 4,
+            "pageOrder": 4,
+            "adjacentText": "加料酒同时加点盐腌制",
+            "sha256": "09e588f3bbe17e9d1852b4dad2bb8fdd25695100bec0619c57bb0ff0a21083a5"
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/f/d/1/800_fdba01bf9b8f827135117f0d397506d1.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-5.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "stepOrder": 5,
+            "sourceStepOrder": 5,
+            "pageOrder": 5,
+            "adjacentText": "腌制过程中准备干淀粉",
+            "sha256": "dd0cf734a00b5c15cea9e52130a0391c91632d1cb4d14fa71a98dfd814f5b755"
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/e/3/6/800_e39c6b971f6c2ec74c4e909850167666.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-6.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "stepOrder": 6,
+            "sourceStepOrder": 6,
+            "pageOrder": 6,
+            "adjacentText": "将每一片肉打来沾上淀粉",
+            "sha256": "b4646a5bfa918788d901441d88c1c978938a43ba0a64e077b655dc7a7c50bcd4"
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/b/c/d/800_bc174da8b1f0a7da3ca304c99479598d.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-7.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "stepOrder": 7,
+            "sourceStepOrder": 7,
+            "pageOrder": 7,
+            "adjacentText": "肉肉放一边准备湿淀粉，就是淀粉里放少量水，在加一勺油，搅匀",
+            "sha256": "0cae2962e0f1c4a4ddb2a2882a13ff203ad4c1304ce231e34806da1704d5dfa6"
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/c/a/2/800_ca1ad6420e75dd4f76f39a26d323a2b2.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-8.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "stepOrder": 8,
+            "sourceStepOrder": 8,
+            "pageOrder": 8,
+            "adjacentText": "将加了油的湿淀粉和鸡蛋加入肉里，用手搅拌匀，记住不要用筷子搅拌，要用手抓",
+            "sha256": "0713f503ed153c73e4b870e98633db48143804400ac55f068d316ce7d6cdcd46"
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/5/3/d/800_53530322c45e0f688b1a92d902d1e0fd.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-9.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "stepOrder": 9,
+            "sourceStepOrder": 9,
+            "pageOrder": 9,
+            "adjacentText": "肉肉一片一片打来用油炸金黄然后控油",
+            "sha256": "853cf135cf18486f4cc3dfe19bb58ca4db3e93c65eec0cc14119536b4a298aaa"
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/3/c/d/800_3c2d0cfebb09ccbd0b4df29f2aeb41fd.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-10.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "stepOrder": 10,
+            "sourceStepOrder": 10,
+            "pageOrder": 10,
+            "adjacentText": "肉一共炸两次，然后准备黄瓜片备用",
+            "sha256": "78e6668c8fb8cffbb461bf06a8583624ad5378cb6bdfe14ca26772e78c77cd50"
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/9/9/0/800_997b576b175b235545a4dd39ed1b8890.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-11.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "stepOrder": 11,
+            "sourceStepOrder": 11,
+            "pageOrder": 11,
+            "adjacentText": "这是最重要的酱汁，就是把酱油，糖 醋 葱花 姜 盐 按照前面的量放在一起调匀，",
+            "sha256": "0f46e3b2a19364d7893247d26648c8ac065831f21e9948a8b1cf15721203facb"
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/3/a/b/800_3a7f596e1f0f99c4a10f91693d8e4f2b.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-12.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "stepOrder": 12,
+            "sourceStepOrder": 12,
+            "pageOrder": 12,
+            "adjacentText": "锅里留点油，剩下的倒出去，油热后把酱汁倒入",
+            "sha256": "f3caacbd4d5895c3c5e3da010183bf1a153f1426167fc599979c8cdebbc2a536"
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/9/0/8/800_9012630f855c9f7a577f941db6f529c8.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-13.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "stepOrder": 13,
+            "sourceStepOrder": 13,
+            "pageOrder": 13,
+            "adjacentText": "酱汁起泡了马上下肉，开始翻炒",
+            "sha256": "b44cb72d0da7c20304ce0a0aac04de0319f1f621fbc3eb2146665550654564a3"
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/5/f/0/800_5faceab6e9847e3f0887753e21cea0c0.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-14.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "stepOrder": 14,
+            "sourceStepOrder": 14,
+            "pageOrder": 14,
+            "adjacentText": "翻炒到酱汁上肉色了就加入瓜片",
+            "sha256": "8d6134531d51e80c009d2824420f012dcae3ac1361fde8c7a7c6b1b299f1e19d"
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/7/1/b/800_71afd1fd42f19f7a5e7c31bb07192efb.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-15.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "stepOrder": 15,
+            "sourceStepOrder": 15,
+            "pageOrder": 15,
+            "adjacentText": "翻炒均匀后倒入湿淀粉",
+            "sha256": "2174949a27ff06fb175e9132c199a795d6a706e7b5579dcc4ed562a8a51dffeb"
+          }
+        ]
+      }
+    },
+    {
+      "sourceName": "豆果美食",
+      "sourceType": "website",
+      "url": "https://www.douguo.com/cookbook/748055.html",
+      "documentId": "ac236f83-d7be-4173-9772-eb75c9a08c2d",
+      "retrievalMethod": "HTML正文",
+      "complete": true,
+      "ingredients": [
+        {
+          "raw": "猪肉里脊",
+          "name": "猪肉里脊",
+          "amount": null,
+          "evidence": "explicit"
+        },
+        {
+          "raw": "葱",
+          "name": "葱",
+          "amount": null,
+          "evidence": "explicit"
+        },
+        {
+          "raw": "姜",
+          "name": "姜",
+          "amount": null,
+          "evidence": "explicit"
+        },
+        {
+          "raw": "胡萝卜",
+          "name": "胡萝卜",
+          "amount": null,
+          "evidence": "explicit"
+        },
+        {
+          "raw": "香菜",
+          "name": "香菜",
+          "amount": null,
+          "evidence": "explicit"
+        },
+        {
+          "raw": "土豆淀粉加水，鸡蛋，调成糊状",
+          "name": "土豆淀粉",
+          "amount": null,
+          "evidence": "explicit"
+        },
+        {
+          "raw": "土豆淀粉加水，鸡蛋，调成糊状",
+          "name": "水",
+          "amount": null,
+          "evidence": "explicit"
+        },
+        {
+          "raw": "土豆淀粉加水，鸡蛋，调成糊状",
+          "name": "鸡蛋",
+          "amount": null,
+          "evidence": "explicit"
+        },
+        {
+          "raw": "锅里放油烧至六成热；将油锅里的油倒出留少许",
+          "name": "油",
+          "amount": "炸油未注明；底油少许",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "半碗醋",
+          "name": "醋",
+          "amount": "半碗",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "加3小勺糖（可根据个人口味调制）",
+          "name": "糖",
+          "amount": "3小勺",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "1小勺盐",
+          "name": "盐",
+          "amount": "1小勺",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "1小勺盐，鸡精",
+          "name": "鸡精",
+          "amount": null,
+          "evidence": "explicit"
+        }
+      ],
+      "steps": [
+        {
+          "heat": null,
+          "order": 1,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "将猪里脊切片，用刀背敲打切成片的里脊"
+        },
+        {
+          "heat": null,
+          "order": 2,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "土豆淀粉加水，鸡蛋，调成糊状，将胡萝卜，葱，姜，香菜洗净切丝备用"
+        },
+        {
+          "heat": null,
+          "order": 3,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "锅里放油烧至六成热，将里脊肉正反面蘸上调好的糊状淀粉入油锅，炸至变色捞出沥干"
+        },
+        {
+          "heat": null,
+          "order": 4,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "待所有里脊肉过完一遍油，将油烧热，将肉再入油锅，炸成金黄色沥干待用"
+        },
+        {
+          "heat": null,
+          "order": 5,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "半碗醋，加3小勺糖（可根据个人口味调制），1小勺盐，鸡精，将油锅里的油倒出留少许，烧热，把之前的备好的葱姜胡萝卜丝倒入油锅炒出香味，然后将过二遍油的里脊肉和调好的汁倒入锅中，撒上香菜丝，出锅"
+        },
+        {
+          "heat": null,
+          "order": 6,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "味道不错哦！"
+        }
+      ],
+      "technique": [],
+      "tips": [],
+      "rawExcerpt": "糖醋锅包肉\n用料原表：\n猪肉里脊\n葱\n姜\n胡萝卜\n香菜\n做法：\n1. 将猪里脊切片，用刀背敲打切成片的里脊\n2. 土豆淀粉加水，鸡蛋，调成糊状，将胡萝卜，葱，姜，香菜洗净切丝备用\n3. 锅里放油烧至六成热，将里脊肉正反面蘸上调好的糊状淀粉入油锅，炸至变色捞出沥干\n4. 待所有里脊肉过完一遍油，将油烧热，将肉再入油锅，炸成金黄色沥干待用\n5. 半碗醋，加3小勺糖（可根据个人口味调制），1小勺盐，鸡精，将油锅里的油倒出留少许，烧热，把之前的备好的葱姜胡萝卜丝倒入油锅炒出香味，然后将过二遍油的里脊肉和调好的汁倒入锅中，撒上香菜丝，出锅\n6. 味道不错哦！\n小贴士：\n来源：https://www.douguo.com/cookbook/748055.html\n作者：新鲜果蔬",
+      "bookTitle": null,
+      "pageStart": null,
+      "pageEnd": null,
+      "location": null,
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 1,
+        "mappedStepImages": 0,
+        "stepImageCoverage": 0,
+        "ingredientCount": 13,
+        "executableStepCount": 5,
+        "notes": [
+          "新鲜果蔬的完整独立作者版本，清单5项加方法明确8项，共13项。",
+          "半碗醋、3小勺糖、1小勺盐原样保留，无碗/勺公制容量。",
+          "网页source1–5无图片（cookno.jpg占位）；source6味道不错哦只为成品照片，不冒称操作图。"
+        ]
+      }
+    }
+  ],
+  "ragEvidence": [
+    {
+      "chunkId": "067d1b07-9ac3-4781-9a0a-a0c825aa3a56",
+      "documentId": "6d91098c-47e2-46d8-a69a-888665007aec",
+      "sourceName": "贝太厨房:从小爱吃的菜2",
+      "chunkType": "summary",
+      "content": "菜名：锅包肉\n简介：一般的东北菜给人的印象就是分量大、口味咸鲜，而这道锅包肉却是酸甜口味的。原来这道菜是哈尔滨道台府菜的创始人郑兴文当年为了适应外宾的口味而把“焦烧肉块”改成了酸甜口味。",
+      "similarity": null
+    },
+    {
+      "chunkId": "dac5bb28-eea0-4af2-b1f1-3389fdd94749",
+      "documentId": "6d91098c-47e2-46d8-a69a-888665007aec",
+      "sourceName": "贝太厨房:从小爱吃的菜2",
+      "chunkType": "ingredients",
+      "content": "菜名：锅包肉\n- 猪里脊肉 300g\n- 葱 80g\n- 姜 10g\n- 香菜 50g\n- 胡萝卜 100g\n- 白糖 15g\n- 白醋 3ml\n- 生抽 5ml\n- 盐 5g\n- 水淀粉 20ml\n- 鸡蛋 1个；做法使用少许蛋清\n- 油 400ml（实耗40ml）\n- 水淀粉加少许蛋清和水调成适当稠度的面糊",
+      "similarity": null
+    },
+    {
+      "chunkId": "3a87faad-831b-4352-acf0-af4fec2dbaa2",
+      "documentId": "6d91098c-47e2-46d8-a69a-888665007aec",
+      "sourceName": "贝太厨房:从小爱吃的菜2",
+      "chunkType": "steps",
+      "content": "菜名：锅包肉\n1. 猪里脊肉切大片，厚约2～3mm，不能太薄，太薄就炸干了。把葱、姜、香菜、胡萝卜切丝，白糖、白醋、生抽、盐混合调成味汁。（图2、3）\n2. 水淀粉加少许蛋清和水调成适当稠度的面糊，把肉片全部蘸上面糊。（图4）\n3. 锅中油5～6成热时，一片片下入裹好面糊的肉片，中火炸熟之后捞出来。（图5）【中火；油5～6成热】\n4. 将火调至大火，一次放入炸过的肉片，快速炸至焦脆捞出来沥干油。【大火】\n5. 锅中留少许底油，大火烧热后放入葱、姜、香菜、胡萝卜丝翻炒均匀。这时再放入炸好的肉片翻炒均匀，淋入调汁，快速翻炒出锅即可。（图6）【大火】",
+      "similarity": null
+    },
+    {
+      "chunkId": "153d8f05-f161-4fcc-a59f-42868d360ff2",
+      "documentId": "6d91098c-47e2-46d8-a69a-888665007aec",
+      "sourceName": "贝太厨房:从小爱吃的菜2",
+      "chunkType": "technique",
+      "content": "菜名：锅包肉\n- 准备：20分钟\n- 烹饪：20分钟\n- 中火；油5～6成热\n- 大火\n- 大火",
+      "similarity": null
+    },
+    {
+      "chunkId": "b12c6dcf-c7b2-4458-bf58-41cf5210a25d",
+      "documentId": "6d91098c-47e2-46d8-a69a-888665007aec",
+      "sourceName": "贝太厨房:从小爱吃的菜2",
+      "chunkType": "tips",
+      "content": "菜名：锅包肉\n- 锅包肉成功与否的秘诀就在于挂糊，在调制面糊的过程中一定要注意水的分量。以肉片很容易均匀地裹上一层面糊、但又不是太厚为准。",
+      "similarity": null
+    },
+    {
+      "chunkId": "93a3d810-0f95-47ed-8e9d-ab39da521ed2",
+      "documentId": "adbd324f-5f4b-4416-b934-47dca742a5b1",
+      "sourceName": "豆果美食",
+      "chunkType": "summary",
+      "content": "菜名：锅包肉\n别名：老式传统锅包肉（糖醋版）\n菜系：家常菜\n简介：超好吃的传统锅包肉做法，用食材里脊肉怎么做好吃、黄瓜怎么做好吃、糖怎么做好吃、酱油怎么做好吃、桂花醋怎么做好吃、葱花适量怎么做好吃、姜怎么做好吃、淀粉怎么做好吃、鸡蛋一个怎么做好吃就能做，鲜香入味，全家都爱吃。",
+      "similarity": null
+    },
+    {
+      "chunkId": "3c2efb47-9e3e-4185-a518-dbe4c56038e3",
+      "documentId": "adbd324f-5f4b-4416-b934-47dca742a5b1",
+      "sourceName": "豆果美食",
+      "chunkType": "ingredients",
+      "content": "菜名：锅包肉\n- 里脊肉 一斤半\n- 黄瓜 半根\n- 糖 四勺\n- 酱油 两勺\n- 桂花醋 两勺\n- 葱花适量\n- 姜 适量\n- 淀粉 适量\n- 鸡蛋一个\n- 里脊肉切成薄薄的小片，然后用水泡上；淀粉里放少量水\n- 加料酒腌制，为了去腥味\n- 加料酒同时加点盐腌制；酱油，糖 醋 葱花 姜 盐 按照前面的量放在一起调匀\n- 淀粉里放少量水，在加一勺油，搅匀；用油炸金黄然后控油；锅里留点油，剩下的倒出去",
+      "similarity": null
+    },
+    {
+      "chunkId": "03c226df-fb16-4333-a5f0-22ee3a564773",
+      "documentId": "adbd324f-5f4b-4416-b934-47dca742a5b1",
+      "sourceName": "豆果美食",
+      "chunkType": "steps",
+      "content": "菜名：锅包肉\n1. 里脊肉切成薄薄的小片，然后用水泡上，去除血腥\n2. 将肉捞出控水\n3. 加料酒腌制，为了去腥味\n4. 加料酒同时加点盐腌制\n5. 腌制过程中准备干淀粉\n6. 将每一片肉打来沾上淀粉\n7. 肉肉放一边准备湿淀粉，就是淀粉里放少量水，在加一勺油，搅匀\n8. 将加了油的湿淀粉和鸡蛋加入肉里，用手搅拌匀，记住不要用筷子搅拌，要用手抓\n9. 肉肉一片一片打来用油炸金黄然后控油\n10. 肉一共炸两次，然后准备黄瓜片备用\n11. 这是最重要的酱汁，就是把酱油，糖 醋 葱花 姜 盐 按照前面的量放在一起调匀，\n12. 锅里留点油，剩下的倒出去，油热后把酱汁倒入\n13. 酱汁起泡了马上下肉，开始翻炒\n14. 翻炒到酱汁上肉色了就加入瓜片\n15. 翻炒均匀后倒入湿淀粉\n16. 收汁剩出",
+      "similarity": null
+    },
+    {
+      "chunkId": "12cb6741-a486-45c9-b1c4-f57f509dc812",
+      "documentId": "adbd324f-5f4b-4416-b934-47dca742a5b1",
+      "sourceName": "豆果美食",
+      "chunkType": "technique",
+      "content": "菜名：锅包肉\n- 原文未明确说明技法。",
+      "similarity": null
+    },
+    {
+      "chunkId": "cd28d1d8-f5d4-4c88-9175-2f3c1f16135f",
+      "documentId": "adbd324f-5f4b-4416-b934-47dca742a5b1",
+      "sourceName": "豆果美食",
+      "chunkType": "tips",
+      "content": "菜名：锅包肉\n- 原文未提供额外提示。",
+      "similarity": null
+    },
+    {
+      "chunkId": "62e6ae4d-ab56-4485-9655-a45355978007",
+      "documentId": "ac236f83-d7be-4173-9772-eb75c9a08c2d",
+      "sourceName": "豆果美食",
+      "chunkType": "summary",
+      "content": "菜名：锅包肉\n别名：糖醋锅包肉\n菜系：家常菜\n简介：糖醋锅包肉的家常做法，食材简单步骤详细，食材 猪肉里脊怎么做好吃 新手也能轻松学会。豆果美食有更多美食教程!",
+      "similarity": null
+    },
+    {
+      "chunkId": "f0c96c40-3034-42b3-8b61-83f7b202c779",
+      "documentId": "ac236f83-d7be-4173-9772-eb75c9a08c2d",
+      "sourceName": "豆果美食",
+      "chunkType": "ingredients",
+      "content": "菜名：锅包肉\n- 猪肉里脊\n- 葱\n- 姜\n- 胡萝卜\n- 香菜\n- 土豆淀粉加水，鸡蛋，调成糊状\n- 土豆淀粉加水，鸡蛋，调成糊状\n- 土豆淀粉加水，鸡蛋，调成糊状\n- 锅里放油烧至六成热；将油锅里的油倒出留少许\n- 半碗醋\n- 加3小勺糖（可根据个人口味调制）\n- 1小勺盐\n- 1小勺盐，鸡精",
+      "similarity": null
+    },
+    {
+      "chunkId": "463adf34-473e-49d7-ac8b-2fd03187bcd9",
+      "documentId": "ac236f83-d7be-4173-9772-eb75c9a08c2d",
+      "sourceName": "豆果美食",
+      "chunkType": "steps",
+      "content": "菜名：锅包肉\n1. 将猪里脊切片，用刀背敲打切成片的里脊\n2. 土豆淀粉加水，鸡蛋，调成糊状，将胡萝卜，葱，姜，香菜洗净切丝备用\n3. 锅里放油烧至六成热，将里脊肉正反面蘸上调好的糊状淀粉入油锅，炸至变色捞出沥干\n4. 待所有里脊肉过完一遍油，将油烧热，将肉再入油锅，炸成金黄色沥干待用\n5. 半碗醋，加3小勺糖（可根据个人口味调制），1小勺盐，鸡精，将油锅里的油倒出留少许，烧热，把之前的备好的葱姜胡萝卜丝倒入油锅炒出香味，然后将过二遍油的里脊肉和调好的汁倒入锅中，撒上香菜丝，出锅\n6. 味道不错哦！",
+      "similarity": null
+    },
+    {
+      "chunkId": "e6100387-6a9c-403f-968d-ec9e45149750",
+      "documentId": "ac236f83-d7be-4173-9772-eb75c9a08c2d",
+      "sourceName": "豆果美食",
+      "chunkType": "technique",
+      "content": "菜名：锅包肉\n- 原文未明确说明技法。",
+      "similarity": null
+    },
+    {
+      "chunkId": "cc125aef-9bd1-42d9-9ba0-134c32715b95",
+      "documentId": "ac236f83-d7be-4173-9772-eb75c9a08c2d",
+      "sourceName": "豆果美食",
+      "chunkType": "tips",
+      "content": "菜名：锅包肉\n- 原文未提供额外提示。",
+      "similarity": null
+    }
+  ],
+  "notes": [
+    "Woks准确匹配https://thewoksoflife.com/guo-bao-rou-dongbei/直接GET返回HTTP403，记录停止访问，不绕过。",
+    "豆果站内搜索https://www.douguo.com/caipu/锅包肉返回HTTP403，停止访问该端点；公开详情页正常200。",
+    "豆果1489279完整原文中调汁/入锅两次番茄酱用量归属未明，鸡精/酱油清单在方法仅等字，保留合法部分历史资料，不拼补，也不标invalid。",
+    "豆果1512701清单醋精(30度醋)5g与方法白醋不一致，不能发明稀释或替换关系，未采用。",
+    "同站两位作者独立完整文字按本轮用户要求分别入库；共享kb_sources网站身份，不伪造第二网站。",
+    "Repository copy authorization separately supplied as user_confirmed_2026-09-16; author restriction is not a public reuse license.",
+    "实际视觉检查15/16动作图；source16成品图仅作未选图片审计，原始URL https://cp1.douguo.com/upload/caiku/e/1/5/800_e1dec90dd3db718e5efc75832bd975b5.jpg",
+    "每份完整文字候选单独入库；同站作者共享网站级source记录。源料表缺项全部由同一来源方法补足，未借用其他作者。",
+    "Ingestion audit [{\"documentId\":\"6d91098c-47e2-46d8-a69a-888665007aec\",\"sourceId\":\"78e1b835-4629-40f1-bbb5-b655eabc9974\",\"contentHash\":\"cbf1a860caeed2b667cdbc3aaf4a1ab6ca0cb5db3c0580793bdd73ed1c4c6109\",\"deduplicated\":false,\"embedded\":true,\"chunks\":5,\"models\":[\"voyage-4\"],\"dimensions\":[1024]},{\"documentId\":\"adbd324f-5f4b-4416-b934-47dca742a5b1\",\"sourceId\":\"f3b6d834-5e5f-4228-b04d-5db423e9262a\",\"contentHash\":\"7a0524c6af493d9d1d5b04e6d4291806d32c24428d6fee3f81aca0fcfa60f20d\",\"deduplicated\":false,\"embedded\":true,\"chunks\":5,\"models\":[\"voyage-4\"],\"dimensions\":[1024]},{\"documentId\":\"ac236f83-d7be-4173-9772-eb75c9a08c2d\",\"sourceId\":\"f3b6d834-5e5f-4228-b04d-5db423e9262a\",\"contentHash\":\"6c49296085379f58a976e732133af916aac397a5eb441a2aa423e9a8ef0aab87\",\"deduplicated\":false,\"embedded\":true,\"chunks\":5,\"models\":[\"voyage-4\"],\"dimensions\":[1024]}]",
+    "Retrieval audit {\"parameters\":{\"query\":\"锅包肉\",\"recipeEntityId\":\"ccbb80d5-13bf-4446-989a-1f050016093e\",\"limit\":30,\"maxPerSource\":30},\"semanticCount\":20,\"hybridCount\":20,\"semanticDocumentIds\":[\"6fb6ec9e-408e-470e-88fc-2752da48c6f3\",\"6d91098c-47e2-46d8-a69a-888665007aec\",\"ac236f83-d7be-4173-9772-eb75c9a08c2d\",\"adbd324f-5f4b-4416-b934-47dca742a5b1\"],\"hybridDocumentIds\":[\"ac236f83-d7be-4173-9772-eb75c9a08c2d\",\"adbd324f-5f4b-4416-b934-47dca742a5b1\",\"6d91098c-47e2-46d8-a69a-888665007aec\",\"6fb6ec9e-408e-470e-88fc-2752da48c6f3\"],\"excludedDocumentId\":\"36eb5007-72ce-4284-8cca-a4c056e0dcef\",\"replacementDocumentId\":\"6d91098c-47e2-46d8-a69a-888665007aec\",\"supersededExcluded\":true}",
+    "原料与步骤保留原始source操作；1111868中的淀粉分次用量未注明、盐料酒炸油无数值，均显式记录。未声明未注明值为数字。",
+    "暂无本地sha256；父编排器下载选中素材后准备最终同一证据包供Editor/Reviewer。",
+    "Unselected media audit (actual pixels inspected): {\"url\":\"https://www.douguo.com/cookbook/748055.html\",\"author\":\"新鲜果蔬\",\"rightsNotice\":\"©本菜谱的做法由 新鲜果蔬 编写，未经授权不得转载\",\"reuseLicense\":null,\"recipePageUrl\":\"https://www.douguo.com/cookbook/748055.html\",\"mediaPageUrl\":\"https://www.douguo.com/cookbook/748055.html\",\"images\":[{\"originalUrl\":\"https://cp1.douguo.com/upload/caiku/9/7/c/800_97064ae86d650ad7da7a10073bde281c.jpg\",\"pageOrder\":0,\"adjacentText\":\"糖醋锅包肉\",\"httpStatus\":200,\"contentType\":\"image/jpeg;charset=UTF-8\",\"bytes\":187873,\"classification\":\"finished_dish\",\"mappedToExecutableStep\":false},{\"stepOrder\":6,\"sourceStepOrder\":6,\"pageOrder\":6,\"originalUrl\":\"https://cp1.douguo.com/upload/caiku/8/8/0/800_881d3c3c561b640704266deabe7c6d40.jpg\",\"adjacentText\":\"味道不错哦！\",\"httpStatus\":200,\"contentType\":\"image/jpeg;charset=UTF-8\",\"bytes\":187873,\"classification\":\"finished_dish\",\"mappedToExecutableStep\":false}],\"placeholderStepOrders\":[1,2,3,4,5],\"visualResult\":\"两URL均为同一盘装盘成品，非操作图；没有借图映射。\"}",
+    "SQL database verification: all15 newly ingested chunk vectors have vector_dims(embedding)=1024, embedding_dim=1024 and model=voyage-4; retained oldbookdoc+5chunks all superseded, replacementDocumentId same correctedbook.",
+    "Woks准确匹配https://thewoksoflife.com/guo-bao-rou-dongbei/直接GET返回HTTP403，记录停止访问，不绕过。",
+    "豆果站内搜索https://www.douguo.com/caipu/锅包肉返回HTTP403，停止访问该端点；公开详情页正常200。",
+    "豆果1489279完整原文中调汁/入锅两次番茄酱用量归属未明，鸡精/酱油清单在方法仅等字，保留合法部分历史资料，不拼补，也不标invalid。",
+    "豆果1512701清单醋精(30度醋)5g与方法白醋不一致，不能发明稀释或替换关系，未采用。",
+    "同站两位作者独立完整文字按本轮用户要求分别入库；共享kb_sources网站身份，不伪造第二网站。",
+    "Repository copy authorization separately supplied as user_confirmed_2026-09-16; author restriction is not a public reuse license.",
+    "实际视觉检查15/16动作图；source16成品图仅作未选图片审计，原始URL https://cp1.douguo.com/upload/caiku/e/1/5/800_e1dec90dd3db718e5efc75832bd975b5.jpg",
+    "Unselected media audit (actual pixels inspected): {\"url\":\"https://www.douguo.com/cookbook/748055.html\",\"author\":\"新鲜果蔬\",\"rightsNotice\":\"©本菜谱的做法由 新鲜果蔬 编写，未经授权不得转载\",\"reuseLicense\":null,\"recipePageUrl\":\"https://www.douguo.com/cookbook/748055.html\",\"mediaPageUrl\":\"https://www.douguo.com/cookbook/748055.html\",\"images\":[{\"originalUrl\":\"https://cp1.douguo.com/upload/caiku/9/7/c/800_97064ae86d650ad7da7a10073bde281c.jpg\",\"pageOrder\":0,\"adjacentText\":\"糖醋锅包肉\",\"httpStatus\":200,\"contentType\":\"image/jpeg;charset=UTF-8\",\"bytes\":187873,\"classification\":\"finished_dish\",\"mappedToExecutableStep\":false},{\"stepOrder\":6,\"sourceStepOrder\":6,\"pageOrder\":6,\"originalUrl\":\"https://cp1.douguo.com/upload/caiku/8/8/0/800_881d3c3c561b640704266deabe7c6d40.jpg\",\"adjacentText\":\"味道不错哦！\",\"httpStatus\":200,\"contentType\":\"image/jpeg;charset=UTF-8\",\"bytes\":187873,\"classification\":\"finished_dish\",\"mappedToExecutableStep\":false}],\"placeholderStepOrders\":[1,2,3,4,5],\"visualResult\":\"两URL均为同一盘装盘成品，非操作图；没有借图映射。\"}",
+    "SQL database verification: all15 newly ingested chunk vectors have vector_dims(embedding)=1024, embedding_dim=1024 and model=voyage-4; retained oldbookdoc+5chunks all superseded, replacementDocumentId same correctedbook."
+  ]
+}

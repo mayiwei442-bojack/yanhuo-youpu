@@ -1,0 +1,164 @@
+{
+  "recipeId": "cn-024",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/5/1/d/800_51d40f71bf739ac9178900712744e42d.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/hero.jpg",
+      "sha256": "126dec6a968385a080dbe47067f87a0461370d86c6928131a647956bbc868a2c",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 103373
+    },
+    {
+      "role": "step",
+      "stepOrder": 1,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/5/0/d/800_507390088b2482718c7f495c200fbffd.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-1.jpg",
+      "sha256": "f6758bec9b4e76ef9ecbb1874cb880a0b07a73a1a5f6e8e3e2a26bfb950d8042",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 63494
+    },
+    {
+      "role": "step",
+      "stepOrder": 2,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/d/f/a/800_df11cdd685e8463f16055bf59e37296a.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-2.jpg",
+      "sha256": "e7347e3b4c64d5f2d70793ae903be5bdd867020a1a387ee373263263291f09b9",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 75046
+    },
+    {
+      "role": "step",
+      "stepOrder": 3,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/a/5/5/800_a5d4b15a22a4df00c5f0795045421875.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-3.jpg",
+      "sha256": "278468d1a03fdb81a71b054ddfd00e399c18add4c914cac2314f4fb1e6a07f78",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 65407
+    },
+    {
+      "role": "step",
+      "stepOrder": 4,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/7/3/7/800_73b990cecd994e681e042f790beb67b7.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-4.jpg",
+      "sha256": "09e588f3bbe17e9d1852b4dad2bb8fdd25695100bec0619c57bb0ff0a21083a5",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 73697
+    },
+    {
+      "role": "step",
+      "stepOrder": 5,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/f/d/1/800_fdba01bf9b8f827135117f0d397506d1.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-5.jpg",
+      "sha256": "dd0cf734a00b5c15cea9e52130a0391c91632d1cb4d14fa71a98dfd814f5b755",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 66162
+    },
+    {
+      "role": "step",
+      "stepOrder": 6,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/e/3/6/800_e39c6b971f6c2ec74c4e909850167666.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-6.jpg",
+      "sha256": "b4646a5bfa918788d901441d88c1c978938a43ba0a64e077b655dc7a7c50bcd4",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 57868
+    },
+    {
+      "role": "step",
+      "stepOrder": 7,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/b/c/d/800_bc174da8b1f0a7da3ca304c99479598d.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-7.jpg",
+      "sha256": "0cae2962e0f1c4a4ddb2a2882a13ff203ad4c1304ce231e34806da1704d5dfa6",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 56453
+    },
+    {
+      "role": "step",
+      "stepOrder": 8,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/c/a/2/800_ca1ad6420e75dd4f76f39a26d323a2b2.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-8.jpg",
+      "sha256": "0713f503ed153c73e4b870e98633db48143804400ac55f068d316ce7d6cdcd46",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 70157
+    },
+    {
+      "role": "step",
+      "stepOrder": 9,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/5/3/d/800_53530322c45e0f688b1a92d902d1e0fd.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-9.jpg",
+      "sha256": "853cf135cf18486f4cc3dfe19bb58ca4db3e93c65eec0cc14119536b4a298aaa",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 84008
+    },
+    {
+      "role": "step",
+      "stepOrder": 10,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/3/c/d/800_3c2d0cfebb09ccbd0b4df29f2aeb41fd.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-10.jpg",
+      "sha256": "78e6668c8fb8cffbb461bf06a8583624ad5378cb6bdfe14ca26772e78c77cd50",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 57571
+    },
+    {
+      "role": "step",
+      "stepOrder": 11,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/9/9/0/800_997b576b175b235545a4dd39ed1b8890.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-11.jpg",
+      "sha256": "0f46e3b2a19364d7893247d26648c8ac065831f21e9948a8b1cf15721203facb",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 98301
+    },
+    {
+      "role": "step",
+      "stepOrder": 12,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/3/a/b/800_3a7f596e1f0f99c4a10f91693d8e4f2b.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-12.jpg",
+      "sha256": "f3caacbd4d5895c3c5e3da010183bf1a153f1426167fc599979c8cdebbc2a536",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 83689
+    },
+    {
+      "role": "step",
+      "stepOrder": 13,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/9/0/8/800_9012630f855c9f7a577f941db6f529c8.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-13.jpg",
+      "sha256": "b44cb72d0da7c20304ce0a0aac04de0319f1f621fbc3eb2146665550654564a3",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 76734
+    },
+    {
+      "role": "step",
+      "stepOrder": 14,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/5/f/0/800_5faceab6e9847e3f0887753e21cea0c0.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-14.jpg",
+      "sha256": "8d6134531d51e80c009d2824420f012dcae3ac1361fde8c7a7c6b1b299f1e19d",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 84472
+    },
+    {
+      "role": "step",
+      "stepOrder": 15,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/7/1/b/800_71afd1fd42f19f7a5e7c31bb07192efb.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-15.jpg",
+      "sha256": "2174949a27ff06fb175e9132c199a795d6a706e7b5579dcc4ed562a8a51dffeb",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 48478
+    }
+  ]
+}

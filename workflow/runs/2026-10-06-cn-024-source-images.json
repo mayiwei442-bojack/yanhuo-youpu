@@ -7,15 +7,20 @@
   "startedAt": "2026-10-05T16:20:37Z",
   "completedAt": null,
   "steps": {
-    "research": { "status": "in_progress", "attempts": 1, "details": {} },
-    "ingestion": { "status": "pending", "attempts": 0, "details": {} },
-    "edit": { "status": "pending", "attempts": 0, "details": {} },
-    "validator": { "status": "pending", "attempts": 0, "details": {} },
-    "review": { "status": "pending", "attempts": 0, "details": {} },
-    "build": { "status": "pending", "attempts": 0, "details": {} },
-    "gitPush": { "status": "pending", "attempts": 0, "details": {} }
+    "research": { "status": "done", "attempts": 1, "details": { "sourceMode": "multi_source", "evidencePath": "workflow/evidence/2026-10-06-cn-024-source-images.json", "evidencePackageHash": "3113f0be5d3f93f056460c5d058aad849351283a9c7feb5309a78a42cd417b31", "decisionPath": "workflow/evidence-decisions/2026-10-06-cn-024.json", "completeCandidateDocuments": 3, "independentWebsiteOrBookSources": 2, "selectedSourceUrl": "https://www.douguo.com/cookbook/1111868.html", "selectionReason": "书籍和两位豆果作者各自完整文本保留，比较后采用大鹤子版本15/16步骤图片；两位作者共享一个网站source，不冒称三个独立网站。最终只采用一份完整菜谱。", "interruptionRecovery": "Researcher用量限制退出前已写入base、decision与manifest；恢复时核验现有证据，不重复抓取或embedding。" } },
+    "ingestion": { "status": "done", "attempts": 1, "details": { "documentIds": ["6d91098c-47e2-46d8-a69a-888665007aec", "adbd324f-5f4b-4416-b934-47dca742a5b1", "ac236f83-d7be-4173-9772-eb75c9a08c2d"], "chunksPerDocument": 5, "embeddingModel": "voyage-4", "actualVectorDimension": 1024, "rootSqlVerified": true, "supersededBookDocumentId": "36eb5007-72ce-4284-8cca-a4c056e0dcef", "replacementDocumentId": "6d91098c-47e2-46d8-a69a-888665007aec", "researcherRetrievalAudit": "实际semantic/hybrid各20结果，旧书籍文档及5分块保留superseded且零返回。", "imageImportPath": "workflow/media-imports/2026-10-06-cn-024.json", "localImages": 16, "mappedStepImages": 15, "heroAndRepresentativeStepViewed": true, "imageImportCompletedAt": "2026-10-05T23:08:33Z" } },
+    "edit": { "status": "done", "attempts": 1, "details": { "agent": "edit_cn024_remaining10", "evidencePackageHash": "3113f0be5d3f93f056460c5d058aad849351283a9c7feb5309a78a42cd417b31", "ownership": "tools/recipe_data.mjs chinese[23] only", "ingredients": 13, "steps": 16, "heroImages": 1, "stepImages": 15, "lastStepTextOnly": true, "explicitTiming": false, "sourceChangeReason": "旧canonical沿用混合材料与定量字段，替换为本轮完整主来源豆果1111868整份菜谱，source指向确切匹配页。", "notes": "淀粉各阶段用量不编造，料酒盐为同一次腌制；源缺时间火候保留未注明。" } },
+    "validator": { "status": "done", "attempts": 1, "details": { "passed": true, "artifact": "workflow/validation-results/2026-10-06-cn-024.json", "checks": 10, "unrelatedRecipeChanges": [], "generatedBuildBrowserPassed": true, "refreshedRecipesVerified": 11, "verifiedSteps": 107, "verifiedLocalImages": 105 } },
+    "review": { "status": "done", "attempts": 1, "details": { "result": "PASS", "artifact": "workflow/reviews/2026-10-06-cn-024-adversarial.json", "evidencePackageHash": "3113f0be5d3f93f056460c5d058aad849351283a9c7feb5309a78a42cd417b31", "canonicalTargetHash": "1bee210a81ac6c20178f8afa160d196ce08985ff1fb534532ee8e330602f4af8", "adversarialChecks": 4, "actualLocalImagesVisuallyInspected": 16, "independentRenderedPageVerification": "PASS" } },
+    "build": { "status": "done", "attempts": 1, "details": { "command": "npm run test:workflow:deterministic", "result": "PASS", "artifact": "workflow/validation-results/2026-10-06-cn-024-deterministic.txt", "refreshedRecipesVerified": 11, "verifiedSteps": 107, "verifiedHeroImages": 11, "verifiedStepImages": 94, "verifiedLocalImages": 105, "browserErrors": [], "staticBuild": "PASS", "standaloneChatApiUsed": false } },
+    "gitPush": { "status": "in_progress", "attempts": 1, "details": { "branch": "codex/recipe-automation" } }
   },
-  "sources": [],
+  "sources": [
+    { "name": "贝太厨房:从小爱吃的菜2", "url": null, "status": "success", "failureReason": null },
+    { "name": "豆果美食（大鹤子）", "url": "https://www.douguo.com/cookbook/1111868.html", "status": "success", "failureReason": null },
+    { "name": "豆果美食（新鲜果蔬）", "url": "https://www.douguo.com/cookbook/748055.html", "status": "success", "failureReason": null },
+    { "name": "The Woks of Life", "url": "https://thewoksoflife.com/guo-bao-rou-dongbei/", "status": "failed", "failureReason": "普通公开GET HTTP403，停止访问，未绕过访问控制。" }
+  ],
   "errors": [],
   "branch": "codex/recipe-automation",
   "commit": null
