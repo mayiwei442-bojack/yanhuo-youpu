@@ -1,0 +1,22 @@
+{
+  "runId": "2026-10-05-cn-008-source-images",
+  "recipeId": "cn-008",
+  "recipeName": "扬州炒饭",
+  "category": "chinese",
+  "status": "in_progress",
+  "startedAt": "2026-10-05T14:52:05Z",
+  "completedAt": null,
+  "steps": {
+    "research": { "status": "in_progress", "attempts": 1, "details": {} },
+    "ingestion": { "status": "pending", "attempts": 0, "details": {} },
+    "edit": { "status": "pending", "attempts": 0, "details": {} },
+    "validator": { "status": "pending", "attempts": 0, "details": {} },
+    "review": { "status": "pending", "attempts": 0, "details": {} },
+    "build": { "status": "pending", "attempts": 0, "details": {} },
+    "gitPush": { "status": "pending", "attempts": 0, "details": {} }
+  },
+  "sources": [],
+  "errors": [],
+  "branch": "codex/recipe-automation",
+  "commit": null
+}

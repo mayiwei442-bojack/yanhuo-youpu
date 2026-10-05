@@ -63,8 +63,8 @@
     {
       "id": "cn-008",
       "name": "扬州炒饭",
-      "status": "pending",
-      "reason": null
+      "status": "in_progress",
+      "reason": "正在核验可靠历史、完整来源和同源图片。"
     },
     {
       "id": "cn-009",
