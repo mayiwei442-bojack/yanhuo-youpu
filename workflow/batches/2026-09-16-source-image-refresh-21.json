@@ -57,8 +57,8 @@
     {
       "id": "cn-007",
       "name": "糖醋里脊",
-      "status": "pending",
-      "reason": null
+      "status": "in_progress",
+      "reason": "继续剩余 14 道：正在复核完整来源和同源图片。"
     },
     {
       "id": "cn-008",

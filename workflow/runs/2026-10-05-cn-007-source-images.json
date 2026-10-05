@@ -1,0 +1,50 @@
+{
+  "runId": "2026-10-05-cn-007-source-images",
+  "recipeId": "cn-007",
+  "recipeName": "糖醋里脊",
+  "category": "chinese",
+  "status": "in_progress",
+  "startedAt": "2026-10-05T14:16:06Z",
+  "steps": {
+    "research": {
+      "status": "in_progress",
+      "attempts": 1,
+      "details": {}
+    },
+    "ingestion": {
+      "status": "pending",
+      "attempts": 0,
+      "details": {}
+    },
+    "edit": {
+      "status": "pending",
+      "attempts": 0,
+      "details": {}
+    },
+    "validator": {
+      "status": "pending",
+      "attempts": 0,
+      "details": {}
+    },
+    "review": {
+      "status": "pending",
+      "attempts": 0,
+      "details": {}
+    },
+    "build": {
+      "status": "pending",
+      "attempts": 0,
+      "details": {}
+    },
+    "gitPush": {
+      "status": "pending",
+      "attempts": 0,
+      "details": {}
+    }
+  },
+  "completedAt": null,
+  "sources": [],
+  "errors": [],
+  "branch": "codex/recipe-automation",
+  "commit": null
+}
