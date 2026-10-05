@@ -164,9 +164,9 @@
     {
       "id": "cn-024",
       "name": "锅包肉",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-06-cn-024-source-images",
-      "completedAt": null
+      "completedAt": "2026-10-05T23:20:13Z"
     },
     {
       "id": "cn-025",
