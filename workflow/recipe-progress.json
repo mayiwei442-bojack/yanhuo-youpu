@@ -52,9 +52,9 @@
     {
       "id": "cn-008",
       "name": "扬州炒饭",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-05-cn-008-source-images",
-      "completedAt": null
+      "completedAt": "2026-10-05T15:28:35Z"
     },
     {
       "id": "cn-009",
