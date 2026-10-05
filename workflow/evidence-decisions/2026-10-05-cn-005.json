@@ -1,0 +1,55 @@
+{
+  "recipeId": "cn-005",
+  "createdAt": "2026-10-05T12:31:11+08:00",
+  "sourceMode": "single_source",
+  "singleSourceReason": "用户指定豆果美食。豆果 1633594 的页面标题与目标菜名完全一致，12 项原料覆盖 11 个可执行步骤，并提供成品图及逐步图。其步骤 4 的“吸饱水份”由同一页面小贴士解释为腌肉时的调味料汁水，没有要求额外加水。豆果 2428206 的原料表生抽 2小勺与步骤 2勺存在未消解的单位冲突；The Woks of Life 页面原标题为辣椒小炒肉，名称不匹配。",
+  "selectedSourceUrl": "https://www.douguo.com/cookbook/1633594.html",
+  "selectionReason": "豆果 1633594 是名称精确匹配、食材和做法完整、内文自洽的整套图文；原料表列油适量，步骤 5 明示肉丝拌油 5g，步骤 6 明示炒锅用油适量。只使用该页文字和图片，不加入独立的水或其他来源材料。",
+  "qualifyingSourceUrls": ["https://www.douguo.com/cookbook/1633594.html"],
+  "assessments": {
+    "https://www.douguo.com/cookbook/1633594.html": {
+      "qualifies": true,
+      "ingredientCoverage": "complete",
+      "stepCoverage": "complete",
+      "internalCoherence": "coherent",
+      "heroImages": 1,
+      "mappedStepImages": 11,
+      "stepImageCoverage": 1,
+      "ingredientCount": 12,
+      "executableStepCount": 11,
+      "notes": [
+        "步骤 1-11 为可执行操作；原页步骤 12 为“成品”，步骤 13 为配饭感想，均非独立烹饪步骤，图片不应硬配给其他操作。",
+        "步骤 4 原文为“当肉丝吸饱水份后，加入干淀粉，继续抓匀”；小贴士原文为“肉丝吸饱了调味料汁水后再裹上淀粉可以使肉里的水份被包裹住”。该页未要求另加水。",
+        "步骤 5 原文提供“5g食用油或麻油”选项；原料表仅写“油 适量”。正式菜谱应保留同页的选项和来源用量，不推定炒锅用油的具体重量。"
+      ]
+    }
+  },
+  "media": {
+    "recipePageUrl": "https://www.douguo.com/cookbook/1633594.html",
+    "mediaPageUrl": "https://www.douguo.com/cookbook/1633594.html",
+    "sourceName": "豆果美食",
+    "author": "沙小囡",
+    "rightsNotice": "©本菜谱的做法由 沙小囡 编写，未经授权不得转载",
+    "reuseLicense": null,
+    "hero": { "originalUrl": "https://cp1.douguo.com/upload/caiku/1/3/e/960_13d4aaeae19767ba533c8077f33abf9e.jpg" },
+    "steps": [
+      { "stepOrder": 1, "adjacentText": "准备食材。猪里脊肉微冻一下后切丝。", "originalUrl": "https://cp1.douguo.com/upload/caiku/f/0/4/800_f0a2d4dd230a3858c585ea00e7d3bbd4.jpg" },
+      { "stepOrder": 2, "adjacentText": "葱切小段，蒜切片，姜切丝。青椒，红椒洗净去蒂去筋，切成和肉丝一样粗细的丝。", "originalUrl": "https://cp1.douguo.com/upload/caiku/2/d/a/800_2d32d23db9e7f3e2e4123af4d7e368ba.jpg" },
+      { "stepOrder": 3, "adjacentText": "在猪里脊肉丝中加入少许盐，鸡精，料酒，味极鲜酱油抓匀，腌制15分钟。", "originalUrl": "https://cp1.douguo.com/upload/caiku/6/5/1/800_65d06ca9b36f7228d26d59a8b6c67bf1.jpg" },
+      { "stepOrder": 4, "adjacentText": "当肉丝吸饱水份后，加入干淀粉，继续抓匀。", "originalUrl": "https://cp1.douguo.com/upload/caiku/8/5/7/800_85806a153034e629970570afc7ea2287.jpg" },
+      { "stepOrder": 5, "adjacentText": "最后加入5g食用油或麻油拌匀。", "originalUrl": "https://cp1.douguo.com/upload/caiku/4/9/7/800_491bbd410525b77a2aa45d0937ea0517.jpg" },
+      { "stepOrder": 6, "adjacentText": "锅中适量油烧至7成热，放入葱花，蒜瓣和姜丝爆出香味儿。", "originalUrl": "https://cp1.douguo.com/upload/caiku/9/4/9/800_943c0b78c5643eda816c86e1246717e9.jpg" },
+      { "stepOrder": 7, "adjacentText": "然后下入肉丝。", "originalUrl": "https://cp1.douguo.com/upload/caiku/d/1/d/800_d15e4108be2b4d4f57a22ba2f0da057d.jpg" },
+      { "stepOrder": 8, "adjacentText": "转大火，快速划散。", "originalUrl": "https://cp1.douguo.com/upload/caiku/8/8/c/800_889bd641e798de5374776f503ae970bc.jpg" },
+      { "stepOrder": 9, "adjacentText": "炒至肉丝变色后加入青红椒丝，翻炒断生。", "originalUrl": "https://cp1.douguo.com/upload/caiku/c/b/a/800_cb0f2ec5e5fb71e987ebe0e989be619a.jpg" },
+      { "stepOrder": 10, "adjacentText": "最后加入适量的盐和鸡精翻炒均匀。", "originalUrl": "https://cp1.douguo.com/upload/caiku/3/3/5/800_335c603d925a4a0677291afa8afd8c95.jpg" },
+      { "stepOrder": 11, "adjacentText": "装盘上桌。", "originalUrl": "https://cp1.douguo.com/upload/caiku/0/6/a/800_06bd451fc1341d8fc5bbb7b78fc6711a.jpg" }
+    ]
+  },
+  "notes": [
+    "已读取豆果 1633594 的完整 HTML 正文并与移动版 MIP 交叉核对；同页成品图、步骤 1-13 图均 HEAD 200，Content-Type 为 image/jpeg；媒体清单只选步骤 1-11。",
+    "豆果 2428206 有 2小勺/2勺的原页冲突，豆果 1451866 的调味料用途分配不清；The Woks of Life /pork-pepper-stir-fry/ 原标题为辣椒小炒肉，均未用作正式菜谱文字或图片。",
+    "2026-09-06 旧 RAG evidence 含豆果 2428206（documentId 35fd6395-88ff-4f98-8b01-237b0868ac19）；本次选定的豆果 1633594 已独立入库为 documentId 7d2bc972-b772-4ee9-8a53-e13038f46f36，5 个 voyage-4 / 1024 维分块。",
+    "用户已确认网站图片可复制入仓库；运行时仅使用本地图片路径。"
+  ]
+}

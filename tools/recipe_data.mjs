@@ -100,7 +100,112 @@ export const chinese = [
       { stepOrder: 7, path: "assets/dishes/sources/cn-004-yuxiang-rousi/step-7.jpg", originalUrl: "https://thewoksoflife.com/wp-content/uploads/2017/07/pork-garlic-sauce-11.jpg", sha256: "4085bacb0b3d9419a5c75736a2f8ccb989fa0750ef1742a70ee2b59ed83cdac0", httpStatus: 200, contentType: "image/jpeg" }
     ]
   }),
-  c("青椒肉丝", "Shredded Pork with Green Pepper", "家常菜", "猪肩肉或猪里脊约227克，切细丝；清水1汤匙；玉米淀粉1茶匙；食用油2茶匙（腌肉）；食用油2汤匙（炒制用，分两次各1汤匙）；绍兴酒1茶匙；蚝油1茶匙；生抽1茶匙；青辣椒6个（约280—340克）；姜2片；大蒜3瓣，切薄片；绍兴酒1汤匙；白糖1/2茶匙；老抽1/2茶匙", "1）将约227克猪肩肉或猪里脊切成细丝，加入1汤匙清水、1茶匙玉米淀粉、2茶匙食用油、1茶匙绍兴酒、1茶匙蚝油和1茶匙生抽，充分拌匀后静置备用；静置期间处理其余配料。2）青辣椒6个去籽，斜切成薄片；备好姜2片，将大蒜3瓣切成薄片。3）炒锅以高火烧至冒烟，加入1汤匙食用油，再下肉丝翻炒2—3分钟，至肉丝边缘微微上色，盛出备用。4）转中高火，加入剩余1汤匙食用油，下姜片、蒜片和青辣椒翻炒30秒—1分钟，至青辣椒表面开始起泡；控制火力，避免蒜片焦煳。沿锅边倒入1汤匙绍兴酒，刮起锅底焦化物并继续翻炒10秒。5）倒回肉丝，加入1/2茶匙白糖和1/2茶匙老抽，转高火再翻炒数秒，至调料均匀裹住肉丝和青辣椒，立即出锅。", "05-qingjiao-rousi.png"),
+  c("青椒肉丝", "Shredded Pork with Green Pepper", "家常菜", "青椒250克；猪里脊肉100克；干淀粉5克；红椒20克；味极鲜酱油15克；料酒15克；盐适量（腌肉与出锅前调味，分次使用）；鸡精适量（腌肉与出锅前调味，分次使用）；食用油5克（拌肉用，原页也可选麻油），另备适量用于炒制；葱10克；姜2片；蒜2瓣", "1）准备食材，将猪里脊肉稍微冷冻后取出，沿肉的纹理切成整齐的肉丝。2）葱切小段，蒜切片，姜切丝。青椒和红椒洗净，去蒂、去筋，切成与肉丝粗细相近的丝。3）肉丝中加入少许盐、鸡精、15克料酒和15克味极鲜酱油，用手抓匀后腌制15分钟。4）待肉丝吸收腌制时的调味料汁水，加入5克干淀粉，继续抓匀。5）加入5克食用油拌匀，使肉丝炒制时容易划散、不黏连，原页也可选用麻油。6）锅中倒入适量食用油，加热至七成热，放入葱段、蒜片和姜丝，炒出香味。7）将腌好的肉丝放入锅中。8）转大火，快速将肉丝划散。9）炒至肉丝变色，加入青椒丝和红椒丝，翻炒至断生。10）加入适量盐和鸡精，翻炒均匀。11）装盘上桌。", "05-qingjiao-rousi.png", "https://www.douguo.com/cookbook/1633594.html", {
+    "sourceName": "豆果美食",
+    "recipePageUrl": "https://www.douguo.com/cookbook/1633594.html",
+    "mediaPageUrl": "https://www.douguo.com/cookbook/1633594.html",
+    "author": "沙小囡",
+    "rightsNotice": "©本菜谱的做法由 沙小囡 编写，未经授权不得转载",
+    "reuseLicense": null,
+    "repositoryCopyAuthorization": "user_confirmed_2026-09-16",
+    "hero": {
+      "path": "assets/dishes/sources/cn-005-qingjiao-rousi/hero.jpg",
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/1/3/e/960_13d4aaeae19767ba533c8077f33abf9e.jpg",
+      "sha256": "c5d382edb7b2d6b99fd7d2ee5196eb69e75053dfbdf8ace6612c488881ac4f60",
+      "httpStatus": 200,
+      "contentType": "image/jpeg"
+    },
+    "steps": [
+      {
+        "stepOrder": 1,
+        "path": "assets/dishes/sources/cn-005-qingjiao-rousi/step-1.jpg",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/f/0/4/800_f0a2d4dd230a3858c585ea00e7d3bbd4.jpg",
+        "sha256": "90cddfcb3eac1233947f5fb6da3ec571d12f2cccb95a0f7286298d5079010d82",
+        "httpStatus": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "stepOrder": 2,
+        "path": "assets/dishes/sources/cn-005-qingjiao-rousi/step-2.jpg",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/2/d/a/800_2d32d23db9e7f3e2e4123af4d7e368ba.jpg",
+        "sha256": "e10d338d137deab31d1e24ffcd9f4929326483f1bf6694c7fddce6f4cab8a000",
+        "httpStatus": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "stepOrder": 3,
+        "path": "assets/dishes/sources/cn-005-qingjiao-rousi/step-3.jpg",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/6/5/1/800_65d06ca9b36f7228d26d59a8b6c67bf1.jpg",
+        "sha256": "5f92442253f3059f8a88c61e923c3d56f703e56da9a63b333899a8648c2bb5c6",
+        "httpStatus": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "stepOrder": 4,
+        "path": "assets/dishes/sources/cn-005-qingjiao-rousi/step-4.jpg",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/8/5/7/800_85806a153034e629970570afc7ea2287.jpg",
+        "sha256": "f54b8b750aa4f7a07d0ccf42b9e28992a7812e092e8398d4deb56e3a114dd6df",
+        "httpStatus": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "stepOrder": 5,
+        "path": "assets/dishes/sources/cn-005-qingjiao-rousi/step-5.jpg",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/4/9/7/800_491bbd410525b77a2aa45d0937ea0517.jpg",
+        "sha256": "9ce2a504ea4b1e178fbf73618abe75bfc471c7c0aa1e901f35c73e0460cd6348",
+        "httpStatus": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "stepOrder": 6,
+        "path": "assets/dishes/sources/cn-005-qingjiao-rousi/step-6.jpg",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/9/4/9/800_943c0b78c5643eda816c86e1246717e9.jpg",
+        "sha256": "081e62ff30948c3cc1a2c69ba2c11044236d66eb9211805cca62353d27fbb843",
+        "httpStatus": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "stepOrder": 7,
+        "path": "assets/dishes/sources/cn-005-qingjiao-rousi/step-7.jpg",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/d/1/d/800_d15e4108be2b4d4f57a22ba2f0da057d.jpg",
+        "sha256": "7e579f509d8177611c38e0629ea6fa9dc4d5bdf5e0eb1b2f2019aa14c0655259",
+        "httpStatus": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "stepOrder": 8,
+        "path": "assets/dishes/sources/cn-005-qingjiao-rousi/step-8.jpg",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/8/8/c/800_889bd641e798de5374776f503ae970bc.jpg",
+        "sha256": "3bfaa04ea268246283a52177d09cd5b890254d15ffae8353dbb8d2dd362b133e",
+        "httpStatus": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "stepOrder": 9,
+        "path": "assets/dishes/sources/cn-005-qingjiao-rousi/step-9.jpg",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/c/b/a/800_cb0f2ec5e5fb71e987ebe0e989be619a.jpg",
+        "sha256": "c04c992a4a37bd76641b4803ae7ee73ae7b00d295b5959dec744ed44bab488c1",
+        "httpStatus": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "stepOrder": 10,
+        "path": "assets/dishes/sources/cn-005-qingjiao-rousi/step-10.jpg",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/3/3/5/800_335c603d925a4a0677291afa8afd8c95.jpg",
+        "sha256": "086875b1d23c544b4f9f845aa6170847584e95ac7dfe2d798cd5ae9f0e53511b",
+        "httpStatus": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "stepOrder": 11,
+        "path": "assets/dishes/sources/cn-005-qingjiao-rousi/step-11.jpg",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/0/6/a/800_06bd451fc1341d8fc5bbb7b78fc6711a.jpg",
+        "sha256": "639d89d2f673e369fc27a46557583b74ab736a7358b0fa5aa8607130ba91d468",
+        "httpStatus": 200,
+        "contentType": "image/jpeg"
+      }
+    ]
+  }),
   c("红烧肉", "Red-braised Pork Belly", "江浙菜", "带皮偏瘦五花肉约680克；食用油2汤匙；冰糖2汤匙（或白砂糖）；绍兴酒1/3杯；生抽2汤匙；老抽1汤匙；清水2—3杯（炖煮用，另备适量用于焯肉及锅干时补水）", "1）将五花肉切成约2厘米厚的块，放入中号锅中，加入清水没过肉块。煮沸后继续煮约1分钟，至肉块刚变得不透明；捞出冲洗，倒掉焯肉水并洗净锅。2）洗净的炒锅或锅置于小火，加入2汤匙食用油和2汤匙冰糖（或白砂糖）；待糖融化后放入焯好的五花肉，转中火煎至肉块表面微微上色。3）转小火，倒入1/3杯绍兴酒，煮2分钟；再加入2汤匙生抽、1汤匙老抽和2—3杯清水。4）加盖，以中火焖煮约45分钟至1小时，至五花肉可用叉子轻松插入；每隔5—10分钟翻动一次以防焦底，锅中太干时补少量清水。5）肉已软嫩后，如锅中仍有较多可见汤汁，揭盖转大火并持续翻动，直至酱汁收成油亮薄层、均匀裹住肉块；若汤汁已收至此状态即可出锅。", "06-hongshao-rou.png", "https://thewoksoflife.com/shanghai-style-braised-pork-belly/", {
     sourceName: "The Woks of Life",
     recipePageUrl: "https://thewoksoflife.com/shanghai-style-braised-pork-belly/",

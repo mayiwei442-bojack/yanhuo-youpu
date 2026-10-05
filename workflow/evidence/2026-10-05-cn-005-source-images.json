@@ -1,0 +1,352 @@
+{
+  "recipeId": "cn-005",
+  "recipeName": "青椒肉丝",
+  "category": "chinese",
+  "createdAt": "2026-10-05T12:31:11+08:00",
+  "sources": [
+    {
+      "sourceName": "豆果美食",
+      "sourceType": "website",
+      "url": "https://www.douguo.com/cookbook/1633594.html",
+      "documentId": "7d2bc972-b772-4ee9-8a53-e13038f46f36",
+      "retrievalMethod": "HTML正文",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "青椒",
+          "amount": "250g",
+          "raw": "青椒 250g"
+        },
+        {
+          "name": "猪里脊肉",
+          "amount": "100g",
+          "raw": "猪里脊肉 100g"
+        },
+        {
+          "name": "干淀粉",
+          "amount": "5g",
+          "raw": "干淀粉 5g"
+        },
+        {
+          "name": "红椒",
+          "amount": "20g",
+          "raw": "红椒 20g"
+        },
+        {
+          "name": "味极鲜酱油",
+          "amount": "15g",
+          "raw": "味极鲜酱油 15g"
+        },
+        {
+          "name": "料酒",
+          "amount": "15g",
+          "raw": "料酒 15g"
+        },
+        {
+          "name": "盐",
+          "amount": "适量",
+          "raw": "盐 适量"
+        },
+        {
+          "name": "鸡精",
+          "amount": "适量",
+          "raw": "鸡精 适量"
+        },
+        {
+          "name": "油",
+          "amount": "适量",
+          "raw": "油 适量"
+        },
+        {
+          "name": "葱",
+          "amount": "10g",
+          "raw": "葱 10g"
+        },
+        {
+          "name": "姜",
+          "amount": "2片",
+          "raw": "姜 2片"
+        },
+        {
+          "name": "蒜",
+          "amount": "2瓣",
+          "raw": "蒜 2瓣"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "准备食材。猪里脊肉微冻一下后切丝。",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "葱切小段，蒜切片，姜切丝。青椒，红椒洗净去蒂去筋，切成和肉丝一样粗细的丝。",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "在猪里脊肉丝中加入少许盐，鸡精，料酒，味极鲜酱油抓匀，腌制15分钟。",
+          "duration": "15分钟",
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "当肉丝吸饱水份后，加入干淀粉，继续抓匀。",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 5,
+          "instruction": "最后加入5g食用油或麻油拌匀。",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 6,
+          "instruction": "锅中适量油烧至7成热，放入葱花，蒜瓣和姜丝爆出香味儿。",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 7,
+          "instruction": "然后下入肉丝。",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 8,
+          "instruction": "转大火，快速划散。",
+          "duration": null,
+          "heat": "大火"
+        },
+        {
+          "order": 9,
+          "instruction": "炒至肉丝变色后加入青红椒丝，翻炒断生。",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 10,
+          "instruction": "最后加入适量的盐和鸡精翻炒均匀。",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 11,
+          "instruction": "装盘上桌。",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 12,
+          "instruction": "成品。",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 13,
+          "instruction": "青椒肉丝配米饭，没有最下饭，只有更下饭。",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [
+        "15分钟",
+        "大火"
+      ],
+      "tips": [
+        "肉在微冷冻后取出，按照肉的纹理更容易切出整齐的肉丝。",
+        "肉丝先加各种调味料用手抓匀后再腌制会更好的入味。",
+        "肉丝吸饱了调味料汁水后再裹上淀粉可以使肉里的水份被包裹住，炒的时候肉丝才会嫩。",
+        "最后拌入一点油在肉丝里是为了让肉丝在炒的时候更容易划开，不黏连。"
+      ],
+      "rawExcerpt": "菜名：青椒肉丝\n简介：青椒肉丝的家常做法，食材简单步骤详细，食材 青椒怎么做好吃、猪里脊肉怎么做好吃、干淀粉怎么做好吃、红椒怎么做好吃、味极鲜酱油怎么做好吃、料酒怎么做好吃、盐怎么做好吃、鸡精怎么做好吃、油怎么做好吃、葱怎么做好吃、姜怎么做好吃、蒜怎么做好吃 新手也能轻松学会。豆果美食有更多美食教程!\n原料：青椒 250g；猪里脊肉 100g；干淀粉 5g；红椒 20g；味极鲜酱油 15g；料酒 15g；盐 适量；鸡精 适量；油 适量；葱 10g；姜 2片；蒜 2瓣\n步骤：1. 准备食材。猪里脊肉微冻一下后切丝。 2. 葱切小段，蒜切片，姜切丝。青椒，红椒洗净去蒂去筋，切成和肉丝一样粗细的丝。 3. 在猪里脊肉丝中加入少许盐，鸡精，料酒，味极鲜酱油抓匀，腌制15分钟。 4. 当肉丝吸饱水份后，加入干淀粉，继续抓匀。 5. 最后加入5g食用油或麻油拌匀。 6. 锅中适量油烧至7成热，放入葱花，蒜瓣和姜丝爆出香味儿。 7. 然后下入肉丝。 8. 转大火，快速划散。 9. 炒至肉丝变色后加入青红椒丝，翻炒断生。 10. 最后加入适量的盐和鸡精翻炒均匀。 11. 装盘上桌。 12. 成品。 13. 青椒肉丝配米饭，没有最下饭，只有更下饭。\n技法：15分钟；大火\n提示：肉在微冷冻后取出，按照肉的纹理更容易切出整齐的肉丝。；肉丝先加各种调味料用手抓匀后再腌制会更好的入味。；肉丝吸饱了调味料汁水后再裹上淀粉可以使肉里的水份被包裹住，炒的时候肉丝才会嫩。；最后拌入一点油在肉丝里是为了让肉丝在炒的时候更容易划开，不黏连。",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 1,
+        "mappedStepImages": 11,
+        "stepImageCoverage": 1,
+        "ingredientCount": 12,
+        "executableStepCount": 11,
+        "notes": [
+          "步骤 1-11 为可执行操作；原页步骤 12 为“成品”，步骤 13 为配饭感想，均非独立烹饪步骤，图片不应硬配给其他操作。",
+          "步骤 4 原文为“当肉丝吸饱水份后，加入干淀粉，继续抓匀”；小贴士原文为“肉丝吸饱了调味料汁水后再裹上淀粉可以使肉里的水份被包裹住”。该页未要求另加水。",
+          "步骤 5 原文提供“5g食用油或麻油”选项；原料表仅写“油 适量”。正式菜谱应保留同页的选项和来源用量，不推定炒锅用油的具体重量。"
+        ]
+      },
+      "media": {
+        "recipePageUrl": "https://www.douguo.com/cookbook/1633594.html",
+        "mediaPageUrl": "https://www.douguo.com/cookbook/1633594.html",
+        "sourceName": "豆果美食",
+        "author": "沙小囡",
+        "rightsNotice": "©本菜谱的做法由 沙小囡 编写，未经授权不得转载",
+        "reuseLicense": null,
+        "repositoryCopyAuthorized": true,
+        "hero": {
+          "originalUrl": "https://cp1.douguo.com/upload/caiku/1/3/e/960_13d4aaeae19767ba533c8077f33abf9e.jpg",
+          "repositoryPath": "assets/dishes/sources/cn-005-qingjiao-rousi/hero.jpg",
+          "sha256": "c5d382edb7b2d6b99fd7d2ee5196eb69e75053dfbdf8ace6612c488881ac4f60",
+          "httpStatus": 200,
+          "contentType": "image/jpeg"
+        },
+        "steps": [
+          {
+            "stepOrder": 1,
+            "adjacentText": "准备食材。猪里脊肉微冻一下后切丝。",
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/f/0/4/800_f0a2d4dd230a3858c585ea00e7d3bbd4.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-005-qingjiao-rousi/step-1.jpg",
+            "sha256": "90cddfcb3eac1233947f5fb6da3ec571d12f2cccb95a0f7286298d5079010d82",
+            "httpStatus": 200,
+            "contentType": "image/jpeg"
+          },
+          {
+            "stepOrder": 2,
+            "adjacentText": "葱切小段，蒜切片，姜切丝。青椒，红椒洗净去蒂去筋，切成和肉丝一样粗细的丝。",
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/2/d/a/800_2d32d23db9e7f3e2e4123af4d7e368ba.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-005-qingjiao-rousi/step-2.jpg",
+            "sha256": "e10d338d137deab31d1e24ffcd9f4929326483f1bf6694c7fddce6f4cab8a000",
+            "httpStatus": 200,
+            "contentType": "image/jpeg"
+          },
+          {
+            "stepOrder": 3,
+            "adjacentText": "在猪里脊肉丝中加入少许盐，鸡精，料酒，味极鲜酱油抓匀，腌制15分钟。",
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/6/5/1/800_65d06ca9b36f7228d26d59a8b6c67bf1.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-005-qingjiao-rousi/step-3.jpg",
+            "sha256": "5f92442253f3059f8a88c61e923c3d56f703e56da9a63b333899a8648c2bb5c6",
+            "httpStatus": 200,
+            "contentType": "image/jpeg"
+          },
+          {
+            "stepOrder": 4,
+            "adjacentText": "当肉丝吸饱水份后，加入干淀粉，继续抓匀。",
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/8/5/7/800_85806a153034e629970570afc7ea2287.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-005-qingjiao-rousi/step-4.jpg",
+            "sha256": "f54b8b750aa4f7a07d0ccf42b9e28992a7812e092e8398d4deb56e3a114dd6df",
+            "httpStatus": 200,
+            "contentType": "image/jpeg"
+          },
+          {
+            "stepOrder": 5,
+            "adjacentText": "最后加入5g食用油或麻油拌匀。",
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/4/9/7/800_491bbd410525b77a2aa45d0937ea0517.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-005-qingjiao-rousi/step-5.jpg",
+            "sha256": "9ce2a504ea4b1e178fbf73618abe75bfc471c7c0aa1e901f35c73e0460cd6348",
+            "httpStatus": 200,
+            "contentType": "image/jpeg"
+          },
+          {
+            "stepOrder": 6,
+            "adjacentText": "锅中适量油烧至7成热，放入葱花，蒜瓣和姜丝爆出香味儿。",
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/9/4/9/800_943c0b78c5643eda816c86e1246717e9.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-005-qingjiao-rousi/step-6.jpg",
+            "sha256": "081e62ff30948c3cc1a2c69ba2c11044236d66eb9211805cca62353d27fbb843",
+            "httpStatus": 200,
+            "contentType": "image/jpeg"
+          },
+          {
+            "stepOrder": 7,
+            "adjacentText": "然后下入肉丝。",
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/d/1/d/800_d15e4108be2b4d4f57a22ba2f0da057d.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-005-qingjiao-rousi/step-7.jpg",
+            "sha256": "7e579f509d8177611c38e0629ea6fa9dc4d5bdf5e0eb1b2f2019aa14c0655259",
+            "httpStatus": 200,
+            "contentType": "image/jpeg"
+          },
+          {
+            "stepOrder": 8,
+            "adjacentText": "转大火，快速划散。",
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/8/8/c/800_889bd641e798de5374776f503ae970bc.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-005-qingjiao-rousi/step-8.jpg",
+            "sha256": "3bfaa04ea268246283a52177d09cd5b890254d15ffae8353dbb8d2dd362b133e",
+            "httpStatus": 200,
+            "contentType": "image/jpeg"
+          },
+          {
+            "stepOrder": 9,
+            "adjacentText": "炒至肉丝变色后加入青红椒丝，翻炒断生。",
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/c/b/a/800_cb0f2ec5e5fb71e987ebe0e989be619a.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-005-qingjiao-rousi/step-9.jpg",
+            "sha256": "c04c992a4a37bd76641b4803ae7ee73ae7b00d295b5959dec744ed44bab488c1",
+            "httpStatus": 200,
+            "contentType": "image/jpeg"
+          },
+          {
+            "stepOrder": 10,
+            "adjacentText": "最后加入适量的盐和鸡精翻炒均匀。",
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/3/3/5/800_335c603d925a4a0677291afa8afd8c95.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-005-qingjiao-rousi/step-10.jpg",
+            "sha256": "086875b1d23c544b4f9f845aa6170847584e95ac7dfe2d798cd5ae9f0e53511b",
+            "httpStatus": 200,
+            "contentType": "image/jpeg"
+          },
+          {
+            "stepOrder": 11,
+            "adjacentText": "装盘上桌。",
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/0/6/a/800_06bd451fc1341d8fc5bbb7b78fc6711a.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-005-qingjiao-rousi/step-11.jpg",
+            "sha256": "639d89d2f673e369fc27a46557583b74ab736a7358b0fa5aa8607130ba91d468",
+            "httpStatus": 200,
+            "contentType": "image/jpeg"
+          }
+        ]
+      }
+    }
+  ],
+  "sourceMode": "single_source",
+  "singleSourceReason": "用户指定豆果美食。豆果 1633594 的页面标题与目标菜名完全一致，12 项原料覆盖 11 个可执行步骤，并提供成品图及逐步图。其步骤 4 的“吸饱水份”由同一页面小贴士解释为腌肉时的调味料汁水，没有要求额外加水。豆果 2428206 的原料表生抽 2小勺与步骤 2勺存在未消解的单位冲突；The Woks of Life 页面原标题为辣椒小炒肉，名称不匹配。",
+  "selectedSourceUrl": "https://www.douguo.com/cookbook/1633594.html",
+  "selectionReason": "豆果 1633594 是名称精确匹配、食材和做法完整、内文自洽的整套图文；原料表列油适量，步骤 5 明示肉丝拌油 5g，步骤 6 明示炒锅用油适量。只使用该页文字和图片，不加入独立的水或其他来源材料。",
+  "ragEvidence": [
+    {
+      "chunkId": "a2db54f3-aced-47c4-aea7-ad624715993a",
+      "documentId": "7d2bc972-b772-4ee9-8a53-e13038f46f36",
+      "sourceName": "豆果美食",
+      "chunkType": "technique",
+      "content": "菜名：青椒肉丝\n- 15分钟\n- 大火\n- 15分钟\n- 大火"
+    },
+    {
+      "chunkId": "e8760c40-ced6-4148-ad00-c9554d612a95",
+      "documentId": "7d2bc972-b772-4ee9-8a53-e13038f46f36",
+      "sourceName": "豆果美食",
+      "chunkType": "summary",
+      "content": "菜名：青椒肉丝\n菜系：家常菜\n简介：青椒肉丝的家常做法，食材简单步骤详细，食材 青椒怎么做好吃、猪里脊肉怎么做好吃、干淀粉怎么做好吃、红椒怎么做好吃、味极鲜酱油怎么做好吃、料酒怎么做好吃、盐怎么做好吃、鸡精怎么做好吃、油怎么做好吃、葱怎么做好吃、姜怎么做好吃、蒜怎么做好吃 新手也能轻松学会。豆果美食有更多美食教程!"
+    },
+    {
+      "chunkId": "7c639d7d-dbd4-411f-abd2-87dc62bcbdd1",
+      "documentId": "7d2bc972-b772-4ee9-8a53-e13038f46f36",
+      "sourceName": "豆果美食",
+      "chunkType": "ingredients",
+      "content": "菜名：青椒肉丝\n- 青椒 250g\n- 猪里脊肉 100g\n- 干淀粉 5g\n- 红椒 20g\n- 味极鲜酱油 15g\n- 料酒 15g\n- 盐 适量\n- 鸡精 适量\n- 油 适量\n- 葱 10g\n- 姜 2片\n- 蒜 2瓣"
+    },
+    {
+      "chunkId": "94548dce-65c7-4b62-be47-132ff281cd03",
+      "documentId": "7d2bc972-b772-4ee9-8a53-e13038f46f36",
+      "sourceName": "豆果美食",
+      "chunkType": "steps",
+      "content": "菜名：青椒肉丝\n1. 准备食材。猪里脊肉微冻一下后切丝。\n2. 葱切小段，蒜切片，姜切丝。青椒，红椒洗净去蒂去筋，切成和肉丝一样粗细的丝。\n3. 在猪里脊肉丝中加入少许盐，鸡精，料酒，味极鲜酱油抓匀，腌制15分钟。（15分钟）\n4. 当肉丝吸饱水份后，加入干淀粉，继续抓匀。\n5. 最后加入5g食用油或麻油拌匀。\n6. 锅中适量油烧至7成热，放入葱花，蒜瓣和姜丝爆出香味儿。\n7. 然后下入肉丝。\n8. 转大火，快速划散。【大火】\n9. 炒至肉丝变色后加入青红椒丝，翻炒断生。\n10. 最后加入适量的盐和鸡精翻炒均匀。\n11. 装盘上桌。\n12. 成品。\n13. 青椒肉丝配米饭，没有最下饭，只有更下饭。"
+    },
+    {
+      "chunkId": "466ed8d4-43dc-4142-85df-71c371b0f88c",
+      "documentId": "7d2bc972-b772-4ee9-8a53-e13038f46f36",
+      "sourceName": "豆果美食",
+      "chunkType": "tips",
+      "content": "菜名：青椒肉丝\n- 肉在微冷冻后取出，按照肉的纹理更容易切出整齐的肉丝。\n- 肉丝先加各种调味料用手抓匀后再腌制会更好的入味。\n- 肉丝吸饱了调味料汁水后再裹上淀粉可以使肉里的水份被包裹住，炒的时候肉丝才会嫩。\n- 最后拌入一点油在肉丝里是为了让肉丝在炒的时候更容易划开，不黏连。"
+    }
+  ],
+  "notes": [
+    "本轮先检查现有 RAG：同名实体已有 Woks 辣椒小炒肉与豆果 2428206 两份历史文档；选定的豆果 1633594 是新文档。",
+    "豆果 1633594 已独立入库为文档 7d2bc972-b772-4ee9-8a53-e13038f46f36、5 个 voyage-4 / 1024 维分块；源页标题、原料、步骤和小贴士在抓取时复核。",
+    "步骤 4 的水份由同页小贴士的调味料汁水解释，正式菜谱不另加水。",
+    "已读取豆果 1633594 的完整 HTML 正文并与移动版 MIP 交叉核对；同页成品图、步骤 1-13 图均 HEAD 200，Content-Type 为 image/jpeg；媒体清单只选步骤 1-11。",
+    "豆果 2428206 有 2小勺/2勺的原页冲突，豆果 1451866 的调味料用途分配不清；The Woks of Life /pork-pepper-stir-fry/ 原标题为辣椒小炒肉，均未用作正式菜谱文字或图片。",
+    "2026-09-06 旧 RAG evidence 含豆果 2428206（documentId 35fd6395-88ff-4f98-8b01-237b0868ac19）；本次选定的豆果 1633594 已独立入库为 documentId 7d2bc972-b772-4ee9-8a53-e13038f46f36，5 个 voyage-4 / 1024 维分块。",
+    "用户已确认网站图片可复制入仓库；运行时仅使用本地图片路径。"
+  ]
+}

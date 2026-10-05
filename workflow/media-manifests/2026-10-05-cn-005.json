@@ -1,0 +1,19 @@
+{
+  "recipeId": "cn-005",
+  "authorization": "user_confirmed_2026-09-16",
+  "referer": "https://www.douguo.com/cookbook/1633594.html",
+  "items": [
+    { "role": "hero", "originalUrl": "https://cp1.douguo.com/upload/caiku/1/3/e/960_13d4aaeae19767ba533c8077f33abf9e.jpg", "repositoryPath": "assets/dishes/sources/cn-005-qingjiao-rousi/hero.jpg" },
+    { "role": "step", "stepOrder": 1, "originalUrl": "https://cp1.douguo.com/upload/caiku/f/0/4/800_f0a2d4dd230a3858c585ea00e7d3bbd4.jpg", "repositoryPath": "assets/dishes/sources/cn-005-qingjiao-rousi/step-1.jpg" },
+    { "role": "step", "stepOrder": 2, "originalUrl": "https://cp1.douguo.com/upload/caiku/2/d/a/800_2d32d23db9e7f3e2e4123af4d7e368ba.jpg", "repositoryPath": "assets/dishes/sources/cn-005-qingjiao-rousi/step-2.jpg" },
+    { "role": "step", "stepOrder": 3, "originalUrl": "https://cp1.douguo.com/upload/caiku/6/5/1/800_65d06ca9b36f7228d26d59a8b6c67bf1.jpg", "repositoryPath": "assets/dishes/sources/cn-005-qingjiao-rousi/step-3.jpg" },
+    { "role": "step", "stepOrder": 4, "originalUrl": "https://cp1.douguo.com/upload/caiku/8/5/7/800_85806a153034e629970570afc7ea2287.jpg", "repositoryPath": "assets/dishes/sources/cn-005-qingjiao-rousi/step-4.jpg" },
+    { "role": "step", "stepOrder": 5, "originalUrl": "https://cp1.douguo.com/upload/caiku/4/9/7/800_491bbd410525b77a2aa45d0937ea0517.jpg", "repositoryPath": "assets/dishes/sources/cn-005-qingjiao-rousi/step-5.jpg" },
+    { "role": "step", "stepOrder": 6, "originalUrl": "https://cp1.douguo.com/upload/caiku/9/4/9/800_943c0b78c5643eda816c86e1246717e9.jpg", "repositoryPath": "assets/dishes/sources/cn-005-qingjiao-rousi/step-6.jpg" },
+    { "role": "step", "stepOrder": 7, "originalUrl": "https://cp1.douguo.com/upload/caiku/d/1/d/800_d15e4108be2b4d4f57a22ba2f0da057d.jpg", "repositoryPath": "assets/dishes/sources/cn-005-qingjiao-rousi/step-7.jpg" },
+    { "role": "step", "stepOrder": 8, "originalUrl": "https://cp1.douguo.com/upload/caiku/8/8/c/800_889bd641e798de5374776f503ae970bc.jpg", "repositoryPath": "assets/dishes/sources/cn-005-qingjiao-rousi/step-8.jpg" },
+    { "role": "step", "stepOrder": 9, "originalUrl": "https://cp1.douguo.com/upload/caiku/c/b/a/800_cb0f2ec5e5fb71e987ebe0e989be619a.jpg", "repositoryPath": "assets/dishes/sources/cn-005-qingjiao-rousi/step-9.jpg" },
+    { "role": "step", "stepOrder": 10, "originalUrl": "https://cp1.douguo.com/upload/caiku/3/3/5/800_335c603d925a4a0677291afa8afd8c95.jpg", "repositoryPath": "assets/dishes/sources/cn-005-qingjiao-rousi/step-10.jpg" },
+    { "role": "step", "stepOrder": 11, "originalUrl": "https://cp1.douguo.com/upload/caiku/0/6/a/800_06bd451fc1341d8fc5bbb7b78fc6711a.jpg", "repositoryPath": "assets/dishes/sources/cn-005-qingjiao-rousi/step-11.jpg" }
+  ]
+}

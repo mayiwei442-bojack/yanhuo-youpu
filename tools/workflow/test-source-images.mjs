@@ -21,7 +21,7 @@ async function assertLocalImage(recipeName, label, mediaItem) {
 }
 
 for (const recipe of refreshed) {
-  const stepCount = recipe.steps.split(/(?=\d+[）)])/u).map((part) => part.trim()).filter(Boolean).length;
+  const stepCount = recipe.steps.split(/(?<!\d)(?=\d+[）)])/u).map((part) => part.trim()).filter(Boolean).length;
   assert.equal(recipe.media.recipePageUrl, recipe.source, `${recipe.name}: 媒体菜谱 URL 与正文主信源不一致`);
   assert.equal(recipe.media.repositoryCopyAuthorization, "user_confirmed_2026-09-16", `${recipe.name}: 缺少用户授权记录`);
   assert(Array.isArray(recipe.media.steps) && recipe.media.steps.length >= 1, `${recipe.name}: 没有本地步骤图`);

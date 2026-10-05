@@ -37,7 +37,7 @@ function parseIngredients(text) {
 }
 
 function splitSteps(text) {
-  const parts = text.split(/(?=\d+[）)])/u).map((part) => part.trim()).filter(Boolean);
+  const parts = text.split(/(?<!\d)(?=\d+[）)])/u).map((part) => part.trim()).filter(Boolean);
   return parts.map((part, index) => {
     const instruction = part.replace(/^\d+[）)]\s*/u, "").trim();
     const durationMatch = [...instruction.matchAll(/(\d+)(?:[–—-](\d+))?\s*(分钟|小时)/gu)][0];

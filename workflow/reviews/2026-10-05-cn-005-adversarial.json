@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "完整采用豆果美食1633594单一信源。12项食材覆盖11个步骤，保留腌制15分钟、拌肉油5克、七成油温、大火划散及断生判断；未误加清水。同源本地成品图与11张步骤图哈希一致。实际生成数据连续编号01至11，食材、语法、标点及结构审查通过。",
+  "evidencePackageHash": "906c34d632122a1352e1a244767f6bb71516f88b2d9326ed88e6ef06888f086e",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

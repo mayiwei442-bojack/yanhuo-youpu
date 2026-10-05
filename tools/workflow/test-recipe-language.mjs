@@ -41,7 +41,8 @@ for (const recipe of refreshedRecipes) {
   numberedSteps.forEach((match, index) => {
     assert.equal(Number(match[1]), index + 1, `${recipe.name} 步骤编号不连续`);
   });
-  const stepRows = recipe.steps.split(/(?=\d+[）)])/u).map((row) => row.trim()).filter(Boolean);
+  const stepRows = recipe.steps.split(/(?<!\d)(?=\d+[）)])/u).map((row) => row.trim()).filter(Boolean);
+  assert.equal(stepRows.length, numberedSteps.length, `${recipe.name} 步骤拆分数量与编号不一致`);
   stepRows.forEach((row, index) => {
     const instruction = row.replace(/^\d+[）)]\s*/u, "");
     assertBalanced(instruction, `${recipe.name} 第 ${index + 1} 步`);

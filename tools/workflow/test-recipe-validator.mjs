@@ -1,8 +1,12 @@
 import assert from "node:assert/strict";
-import { createRecipeCatalog, createRecipeSnapshot } from "./recipe-state.mjs";
+import { createRecipeCatalog, createRecipeSnapshot, splitRecipeSteps } from "./recipe-state.mjs";
 import { validateRecipeChange } from "./validate-recipe.mjs";
 
 const original = createRecipeCatalog();
+const elevenSteps = Array.from({ length: 11 }, (_, index) => `${index + 1}）操作${index + 1}。`).join("");
+assert.equal(splitRecipeSteps(elevenSteps).length, 11);
+assert.equal(splitRecipeSteps(elevenSteps)[9], "10）操作10。");
+assert.equal(splitRecipeSteps(elevenSteps)[10], "11）操作11。");
 const beforeSnapshot = createRecipeSnapshot(original);
 const validEdit = structuredClone(original);
 validEdit.find((item) => item.id === "cn-001").record.ingredients += "；白胡椒少许";

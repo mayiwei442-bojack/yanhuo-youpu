@@ -4,14 +4,14 @@
   "recipeName": "青椒肉丝",
   "category": "chinese",
   "status": "in_progress",
-  "startedAt": "2026-10-05T12:54:00+08:00",
+  "startedAt": "2026-10-05T13:50:00.925+08:00",
   "steps": {
     "research": { "status": "done", "attempts": 1, "details": { "sourceMode": "single_source", "selectedSourceUrl": "https://www.douguo.com/cookbook/1633594.html", "evidencePath": "workflow/evidence/2026-10-05-cn-005-source-images.json", "priorFailureCorrection": "同页小贴士已说明吸收的是调味料汁水，先前将其判断为漏列清水不成立。" } },
     "ingestion": { "status": "done", "attempts": 1, "details": { "documentId": "7d2bc972-b772-4ee9-8a53-e13038f46f36", "vectorChunks": 5, "vectorDimension": 1024, "imageImportPath": "workflow/media-imports/2026-10-05-cn-005.json" } },
-    "edit": { "status": "in_progress", "attempts": 1, "details": {} },
-    "validator": { "status": "pending", "attempts": 0, "details": {} },
-    "review": { "status": "pending", "attempts": 0, "details": {} },
-    "build": { "status": "pending", "attempts": 0, "details": {} },
+    "edit": { "status": "done", "attempts": 1, "details": { "ingredients": 12, "steps": 11, "images": "hero + steps 1–11" } },
+    "validator": { "status": "done", "attempts": 2, "details": { "passed": true, "targetOnly": true, "sourceChangeAllowed": true, "parserCorrection": "修复双位数步骤编号被拆成多段的问题，11 步与 11 张图一一对应。" } },
+    "review": { "status": "done", "attempts": 1, "details": { "status": "PASS", "artifact": "workflow/reviews/2026-10-05-cn-005-adversarial.json", "adversarialReviewPassed": true } },
+    "build": { "status": "done", "attempts": 1, "details": { "suite": "npm run test:workflow:deterministic", "passed": true } },
     "gitPush": { "status": "pending", "attempts": 0, "details": {} }
   },
   "sources": [

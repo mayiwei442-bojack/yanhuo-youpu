@@ -730,146 +730,225 @@ window.YANHUO_RECIPES = [
     "ingredients": [
       {
         "id": "ingredient-01",
-        "name": "猪肩肉或猪里脊",
-        "label": "猪肩肉或猪里脊约227克，切细丝",
+        "name": "青椒",
+        "label": "青椒250克",
         "isCore": true
       },
       {
         "id": "ingredient-02",
-        "name": "清水",
-        "label": "清水1汤匙",
-        "isCore": false
+        "name": "猪里脊肉",
+        "label": "猪里脊肉100克",
+        "isCore": true
       },
       {
         "id": "ingredient-03",
-        "name": "玉米淀粉",
-        "label": "玉米淀粉1茶匙",
+        "name": "干淀粉",
+        "label": "干淀粉5克",
         "isCore": false
       },
       {
         "id": "ingredient-04",
-        "name": "食用油",
-        "label": "食用油2茶匙（腌肉）",
-        "isCore": false
+        "name": "红椒",
+        "label": "红椒20克",
+        "isCore": true
       },
       {
         "id": "ingredient-05",
-        "name": "食用油",
-        "label": "食用油2汤匙（炒制用，分两次各1汤匙）",
+        "name": "味极鲜酱油",
+        "label": "味极鲜酱油15克",
         "isCore": false
       },
       {
         "id": "ingredient-06",
-        "name": "绍兴酒",
-        "label": "绍兴酒1茶匙",
-        "isCore": true
+        "name": "料酒",
+        "label": "料酒15克",
+        "isCore": false
       },
       {
         "id": "ingredient-07",
-        "name": "蚝油",
-        "label": "蚝油1茶匙",
+        "name": "盐（腌肉与出锅前调味，分次使用）",
+        "label": "盐适量（腌肉与出锅前调味，分次使用）",
         "isCore": false
       },
       {
         "id": "ingredient-08",
-        "name": "生抽",
-        "label": "生抽1茶匙",
+        "name": "鸡精（腌肉与出锅前调味，分次使用）",
+        "label": "鸡精适量（腌肉与出锅前调味，分次使用）",
         "isCore": false
       },
       {
         "id": "ingredient-09",
-        "name": "青辣椒",
-        "label": "青辣椒6个（约280—340克）",
-        "isCore": true
+        "name": "食用油",
+        "label": "食用油5克（拌肉用，原页也可选麻油），另备适量用于炒制",
+        "isCore": false
       },
       {
         "id": "ingredient-10",
+        "name": "葱",
+        "label": "葱10克",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-11",
         "name": "姜",
         "label": "姜2片",
         "isCore": false
       },
       {
-        "id": "ingredient-11",
-        "name": "大蒜",
-        "label": "大蒜3瓣，切薄片",
-        "isCore": false
-      },
-      {
         "id": "ingredient-12",
-        "name": "绍兴酒",
-        "label": "绍兴酒1汤匙",
-        "isCore": false
-      },
-      {
-        "id": "ingredient-13",
-        "name": "白糖",
-        "label": "白糖1/2茶匙",
-        "isCore": false
-      },
-      {
-        "id": "ingredient-14",
-        "name": "老抽",
-        "label": "老抽1/2茶匙",
+        "name": "蒜",
+        "label": "蒜2瓣",
         "isCore": false
       }
     ],
     "steps": [
       {
         "id": "step-01",
-        "instruction": "将约227克猪肩肉或猪里脊切成细丝，加入1汤匙清水、1茶匙玉米淀粉、2茶匙食用油、1茶匙绍兴酒、1茶匙蚝油和1茶匙生抽，充分拌匀后静置备用；静置期间处理其余配料。",
-        "duration": 120,
-        "heat": "medium",
-        "timerRequired": false,
-        "ingredientsUsed": [],
-        "gameAction": "add",
-        "safetyNote": ""
-      },
-      {
-        "id": "step-02",
-        "instruction": "青辣椒6个去籽，斜切成薄片；备好姜2片，将大蒜3瓣切成薄片。",
+        "instruction": "准备食材，将猪里脊肉稍微冷冻后取出，沿肉的纹理切成整齐的肉丝。",
         "duration": 180,
         "heat": "medium",
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "confirm",
-        "safetyNote": ""
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-005-qingjiao-rousi/step-1.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1633594.html"
+      },
+      {
+        "id": "step-02",
+        "instruction": "葱切小段，蒜切片，姜切丝。青椒和红椒洗净，去蒂、去筋，切成与肉丝粗细相近的丝。",
+        "duration": 180,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-005-qingjiao-rousi/step-2.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1633594.html"
       },
       {
         "id": "step-03",
-        "instruction": "炒锅以高火烧至冒烟，加入1汤匙食用油，再下肉丝翻炒2—3分钟，至肉丝边缘微微上色，盛出备用。",
+        "instruction": "肉丝中加入少许盐、鸡精、15克料酒和15克味极鲜酱油，用手抓匀后腌制15分钟。",
+        "duration": 900,
+        "heat": "medium",
+        "timerRequired": true,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-005-qingjiao-rousi/step-3.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1633594.html"
+      },
+      {
+        "id": "step-04",
+        "instruction": "待肉丝吸收腌制时的调味料汁水，加入5克干淀粉，继续抓匀。",
         "duration": 180,
         "heat": "medium",
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "add",
-        "safetyNote": ""
-      },
-      {
-        "id": "step-04",
-        "instruction": "转中高火，加入剩余1汤匙食用油，下姜片、蒜片和青辣椒翻炒30秒—1分钟，至青辣椒表面开始起泡；控制火力，避免蒜片焦煳。沿锅边倒入1汤匙绍兴酒，刮起锅底焦化物并继续翻炒10秒。",
-        "duration": 60,
-        "heat": "medium",
-        "timerRequired": false,
-        "ingredientsUsed": [],
-        "gameAction": "add",
-        "safetyNote": ""
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-005-qingjiao-rousi/step-4.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1633594.html"
       },
       {
         "id": "step-05",
-        "instruction": "倒回肉丝，加入1/2茶匙白糖和1/2茶匙老抽，转高火再翻炒数秒，至调料均匀裹住肉丝和青辣椒，立即出锅。",
+        "instruction": "加入5克食用油拌匀，使肉丝炒制时容易划散、不黏连，原页也可选用麻油。",
         "duration": 120,
         "heat": "medium",
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "add",
-        "safetyNote": ""
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-005-qingjiao-rousi/step-5.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1633594.html"
+      },
+      {
+        "id": "step-06",
+        "instruction": "锅中倒入适量食用油，加热至七成热，放入葱段、蒜片和姜丝，炒出香味。",
+        "duration": 180,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-005-qingjiao-rousi/step-6.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1633594.html"
+      },
+      {
+        "id": "step-07",
+        "instruction": "将腌好的肉丝放入锅中。",
+        "duration": 180,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-005-qingjiao-rousi/step-7.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1633594.html"
+      },
+      {
+        "id": "step-08",
+        "instruction": "转大火，快速将肉丝划散。",
+        "duration": 180,
+        "heat": "high",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-005-qingjiao-rousi/step-8.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1633594.html"
+      },
+      {
+        "id": "step-09",
+        "instruction": "炒至肉丝变色，加入青椒丝和红椒丝，翻炒至断生。",
+        "duration": 120,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-005-qingjiao-rousi/step-9.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1633594.html"
+      },
+      {
+        "id": "step-10",
+        "instruction": "加入适量盐和鸡精，翻炒均匀。",
+        "duration": 120,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-005-qingjiao-rousi/step-10.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1633594.html"
+      },
+      {
+        "id": "step-11",
+        "instruction": "装盘上桌。",
+        "duration": 180,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-005-qingjiao-rousi/step-11.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1633594.html"
       }
     ],
-    "imageThumb": "assets/dishes/thumbnails/05-qingjiao-rousi.jpg",
-    "imageFull": "assets/dishes/ai/05-qingjiao-rousi.png",
-    "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
+    "imageThumb": "assets/dishes/sources/cn-005-qingjiao-rousi/hero.jpg",
+    "imageFull": "assets/dishes/sources/cn-005-qingjiao-rousi/hero.jpg",
+    "source": "https://www.douguo.com/cookbook/1633594.html",
+    "media": {
+      "sourceName": "豆果美食",
+      "recipePageUrl": "https://www.douguo.com/cookbook/1633594.html",
+      "mediaPageUrl": "https://www.douguo.com/cookbook/1633594.html",
+      "author": "沙小囡",
+      "rightsNotice": "©本菜谱的做法由 沙小囡 编写，未经授权不得转载",
+      "reuseLicense": null,
+      "repositoryCopyAuthorization": "user_confirmed_2026-09-16"
+    },
     "time": 15,
-    "difficulty": "适中",
+    "difficulty": "进阶",
     "defaultServings": 2,
     "allergens": [
       "soy"
@@ -877,8 +956,8 @@ window.YANHUO_RECIPES = [
     "flags": {
       "containsPork": true,
       "containsBeef": false,
-      "containsAlcohol": false,
-      "spicy": true,
+      "containsAlcohol": true,
+      "spicy": false,
       "vegetarian": false
     },
     "demoEnriched": true
