@@ -3,9 +3,9 @@
   "recipeId": "cn-027",
   "recipeName": "蒜蓉粉丝蒸扇贝",
   "category": "chinese",
-  "status": "in_progress",
+  "status": "done",
   "startedAt": "2026-10-05T23:21:23Z",
-  "completedAt": null,
+  "completedAt": "2026-10-05T23:47:58Z",
   "steps": {
     "research": {
       "status": "done",
@@ -114,11 +114,12 @@
       }
     },
     "gitPush": {
-      "status": "in_progress",
+      "status": "done",
       "attempts": 1,
       "details": {
         "branch": "codex/recipe-automation",
-        "result": "awaiting commit and push"
+        "result": "PASS",
+        "contentCommit": "7c96d8fabb16e9465379ddf7a1d3603c267a597a"
       }
     }
   },
@@ -144,5 +145,5 @@
   ],
   "errors": [],
   "branch": "codex/recipe-automation",
-  "commit": null
+  "commit": "7c96d8fabb16e9465379ddf7a1d3603c267a597a"
 }
