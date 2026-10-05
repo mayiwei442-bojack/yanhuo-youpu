@@ -66,9 +66,9 @@
     {
       "id": "cn-010",
       "name": "地三鲜",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-05-cn-010-source-images",
-      "completedAt": null
+      "completedAt": "2026-10-05T16:07:02Z"
     },
     {
       "id": "cn-011",
