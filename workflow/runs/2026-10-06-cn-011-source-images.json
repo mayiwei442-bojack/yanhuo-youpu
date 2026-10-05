@@ -13,7 +13,7 @@
     "validator": { "status": "pending", "attempts": 0, "details": {} },
     "review": { "status": "pending", "attempts": 0, "details": {} },
     "build": { "status": "pending", "attempts": 0, "details": {} },
-    "gitPush": { "status": "pending", "attempts": 0, "details": {} }
+    "gitPush": { "status": "done", "attempts": 1, "details": { "failureRecordOnly": true, "recipePublicationSkipped": true, "failureRecordCommit": "17cfea3e0eaefbe3867cd607068787f4c789e480", "pushedBranch": "codex/recipe-automation", "result": "PASS" } }
   },
   "sources": [
     { "name": "The Woks of Life", "url": "https://thewoksoflife.com/", "status": "failed", "failureReason": "未找到精确同名菜谱；Guilin命中地点介绍而非桂林米粉。" },
