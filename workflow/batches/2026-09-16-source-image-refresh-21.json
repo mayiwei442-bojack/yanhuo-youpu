@@ -81,8 +81,8 @@
     {
       "id": "cn-011",
       "name": "桂林米粉",
-      "status": "pending",
-      "reason": null
+      "status": "in_progress",
+      "reason": "正在复核exact-name历史、当前完整同名来源及同源步骤图。单来源合格可继续，不以缺第二来源终止。"
     },
     {
       "id": "cn-024",
