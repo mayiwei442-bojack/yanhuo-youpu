@@ -901,19 +901,19 @@ window.YANHUO_RECIPES = [
       {
         "id": "ingredient-02",
         "name": "食用油",
-        "label": "食用油适量",
+        "label": "食用油2汤匙",
         "isCore": false
       },
       {
         "id": "ingredient-03",
-        "name": "冰糖或白砂糖",
-        "label": "冰糖或白砂糖2汤匙",
+        "name": "冰糖",
+        "label": "冰糖2汤匙（或白砂糖）",
         "isCore": false
       },
       {
         "id": "ingredient-04",
         "name": "绍兴酒",
-        "label": "绍兴酒适量",
+        "label": "绍兴酒1/3杯",
         "isCore": true
       },
       {
@@ -930,47 +930,39 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "ingredient-07",
-        "name": "焯水用清水（另计）",
-        "label": "焯水用清水适量（另计）",
-        "isCore": false
-      },
-      {
-        "id": "ingredient-08",
-        "name": "炖煮用清水",
-        "label": "炖煮用清水适量",
-        "isCore": false
-      },
-      {
-        "id": "ingredient-09",
-        "name": "补水用清水少量",
-        "label": "补水用清水少量",
+        "name": "清水",
+        "label": "清水2—3杯（炖煮用，另备适量用于焯肉及锅干时补水）",
         "isCore": false
       }
     ],
     "steps": [
       {
         "id": "step-01",
-        "instruction": "五花肉切成约2厘米厚的块，放入中号锅中，加入另计的焯水用清水没过肉块；煮沸后继续煮约1分钟，至肉刚变得不透明。捞出五花肉并冲洗，焯肉水全部倒掉，再将锅洗净。",
+        "instruction": "将五花肉切成约2厘米厚的块，放入中号锅中，加入清水没过肉块。煮沸后继续煮约1分钟，至肉块刚变得不透明；捞出冲洗，倒掉焯肉水并洗净锅。",
         "duration": 60,
         "heat": "medium",
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "add",
-        "safetyNote": ""
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-006-red-braised-pork/step-01.jpg",
+        "imageSource": "https://thewoksoflife.com/shanghai-style-braised-pork-belly/"
       },
       {
         "id": "step-02",
-        "instruction": "洗净的锅置于小火，加入适量食用油和2汤匙冰糖或白砂糖；待糖融化后放入焯好的五花肉，转中火煎至表面微微上色。",
+        "instruction": "洗净的炒锅或锅置于小火，加入2汤匙食用油和2汤匙冰糖（或白砂糖）；待糖融化后放入焯好的五花肉，转中火煎至肉块表面微微上色。",
         "duration": 120,
         "heat": "low",
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "add",
-        "safetyNote": ""
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-006-red-braised-pork/step-02.jpg",
+        "imageSource": "https://thewoksoflife.com/shanghai-style-braised-pork-belly/"
       },
       {
         "id": "step-03",
-        "instruction": "转小火，先倒入适量绍兴酒，煮2分钟；再依次加入2汤匙生抽、1汤匙老抽和适量炖煮用清水。",
+        "instruction": "转小火，倒入1/3杯绍兴酒，煮2分钟；再加入2汤匙生抽、1汤匙老抽和2—3杯清水。",
         "duration": 120,
         "heat": "low",
         "timerRequired": false,
@@ -980,8 +972,8 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "step-04",
-        "instruction": "加盖，以中火焖煮约45—60分钟，至五花肉可用叉子轻松插入；每隔5—10分钟翻动一次防止焦底，只有锅中太干时才补少量清水。",
-        "duration": 3600,
+        "instruction": "加盖，以中火焖煮约45分钟至1小时，至五花肉可用叉子轻松插入；每隔5—10分钟翻动一次以防焦底，锅中太干时补少量清水。",
+        "duration": 2700,
         "heat": "medium",
         "timerRequired": true,
         "ingredientsUsed": [],
@@ -990,19 +982,30 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "step-05",
-        "instruction": "肉已软嫩后，若锅中仍有较多可见汤汁，揭盖调高火力并持续翻动，收至酱汁成为油亮的薄层并均匀裹住肉块。",
+        "instruction": "肉已软嫩后，如锅中仍有较多可见汤汁，揭盖转大火并持续翻动，直至酱汁收成油亮薄层、均匀裹住肉块；若汤汁已收至此状态即可出锅。",
         "duration": 180,
-        "heat": "medium",
+        "heat": "high",
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "confirm",
-        "safetyNote": ""
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-006-red-braised-pork/step-05.jpg",
+        "imageSource": "https://thewoksoflife.com/shanghai-style-braised-pork-belly/"
       }
     ],
-    "imageThumb": "assets/dishes/thumbnails/06-hongshao-rou.jpg",
-    "imageFull": "assets/dishes/ai/06-hongshao-rou.png",
-    "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
-    "time": 75,
+    "imageThumb": "assets/dishes/sources/cn-006-red-braised-pork/hero.jpg",
+    "imageFull": "assets/dishes/sources/cn-006-red-braised-pork/hero.jpg",
+    "source": "https://thewoksoflife.com/shanghai-style-braised-pork-belly/",
+    "media": {
+      "sourceName": "The Woks of Life",
+      "recipePageUrl": "https://thewoksoflife.com/shanghai-style-braised-pork-belly/",
+      "mediaPageUrl": "https://thewoksoflife.com/shanghai-style-braised-pork-belly/",
+      "author": "Judy",
+      "rightsNotice": "All Rights Reserved © The Woks of Life",
+      "reuseLicense": null,
+      "repositoryCopyAuthorization": "user_confirmed_2026-09-16"
+    },
+    "time": 120,
     "difficulty": "进阶",
     "defaultServings": 2,
     "allergens": [

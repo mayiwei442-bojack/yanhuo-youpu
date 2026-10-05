@@ -1,0 +1,44 @@
+{
+  "recipeId": "cn-006",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2013/07/shanghai-braised-pork-belly.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-006-red-braised-pork/hero.jpg",
+      "sha256": "7ffb99fc6458a42ec791309afb0fca8edcbda9a18aed89548e8be5b67d729492",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 290654
+    },
+    {
+      "role": "step",
+      "stepOrder": 1,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/09/hongshao-rou-shanghai-braised-pork-belly.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-006-red-braised-pork/step-01.jpg",
+      "sha256": "4ada19cfd7a6483aad0f295d28f8a95e1fffdd5eb8395c58d796a64a1a2b078c",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 99644
+    },
+    {
+      "role": "step",
+      "stepOrder": 2,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/09/hongshao-rou-shanghai-braised-pork-belly-5.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-006-red-braised-pork/step-02.jpg",
+      "sha256": "147c102383f40ea9cd1946ecab406643cfe657d69f06ea015d4106199b9105d2",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 104376
+    },
+    {
+      "role": "step",
+      "stepOrder": 5,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2013/07/hongshao-rou-3-e1570056864719.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-006-red-braised-pork/step-05.jpg",
+      "sha256": "71423b7898e31368c3dd09db8cf41d5c3bfa8d820b771324fc635e71e0722bfb",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 276520
+    }
+  ]
+}

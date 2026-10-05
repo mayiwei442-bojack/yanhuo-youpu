@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "第 5 步正文与图文教程火力现均为大火。食材、用量、步骤顺序和烹饪要点符合所选信源；成品图及第 1、2、5 步图片为同源本地文件，第 3、4 步保持纯文字。食材行、语法、标点及渲染结构复审通过。",
+  "evidencePackageHash": "6b33c650ba10f53a5b3e0628ac7a51b1c5f385264e598bc7dc4d4f854a8a7b80",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

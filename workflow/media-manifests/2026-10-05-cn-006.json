@@ -1,0 +1,30 @@
+{
+  "recipeId": "cn-006",
+  "authorization": "user_confirmed_2026-09-16",
+  "referer": "https://thewoksoflife.com/shanghai-style-braised-pork-belly/",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2013/07/shanghai-braised-pork-belly.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-006-red-braised-pork/hero.jpg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 1,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/09/hongshao-rou-shanghai-braised-pork-belly.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-006-red-braised-pork/step-01.jpg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 2,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/09/hongshao-rou-shanghai-braised-pork-belly-5.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-006-red-braised-pork/step-02.jpg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 5,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2013/07/hongshao-rou-3-e1570056864719.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-006-red-braised-pork/step-05.jpg"
+    }
+  ]
+}
