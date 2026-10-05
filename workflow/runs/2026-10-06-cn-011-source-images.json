@@ -3,20 +3,27 @@
   "recipeId": "cn-011",
   "recipeName": "桂林米粉",
   "category": "chinese",
-  "status": "in_progress",
+  "status": "failed",
   "startedAt": "2026-10-05T16:09:10Z",
-  "completedAt": null,
+  "completedAt": "2026-10-05T16:18:11Z",
   "steps": {
-    "research": { "status": "in_progress", "attempts": 1, "details": {} },
-    "ingestion": { "status": "pending", "attempts": 0, "details": {} },
+    "research": { "status": "failed", "attempts": 1, "details": { "decisionPath": "workflow/evidence-decisions/2026-10-06-cn-011.json", "failureCode": "NO_COMPLETE_MATCHING_SOURCE", "failureReason": "2331633缺卤水调料、里脊腌料、白煮肉去向/熟度、炸制用油与花生准备；1484491依赖其他菜谱页；2519998缺卤料添加及姜蒜汁工序且鸡翅根鸡蛋变体不同；3118880肥肠汤粉、2412630反传统干拌均非目标路线。", "notDualSourceFailure": true, "qualifyingSources": 0, "alternativesChecked": 4, "noUntruthfulCompletePackageCreated": true, "canonicalCatalogUnchanged": true, "canonicalRecipesChecked": 90 } },
+    "ingestion": { "status": "done", "attempts": 1, "details": { "documentId": "1ba3785d-c85e-4baa-a741-dfce177aad15", "reusedUnchanged": true, "chunks": 5, "embeddingModel": "voyage-4", "actualVectorDimension": 1024, "semanticCount": 5, "hybridCount": 5, "rootSqlVerified": true, "newQualifyingSources": 0, "noRagMutation": true, "localImagesDownloaded": 0, "note": "真实但不完整网页的已有事实保留；不足以支持完整菜谱发布，不伪造新入库，也不把全部局部事实标无效。" } },
     "edit": { "status": "pending", "attempts": 0, "details": {} },
     "validator": { "status": "pending", "attempts": 0, "details": {} },
     "review": { "status": "pending", "attempts": 0, "details": {} },
     "build": { "status": "pending", "attempts": 0, "details": {} },
     "gitPush": { "status": "pending", "attempts": 0, "details": {} }
   },
-  "sources": [],
-  "errors": [],
+  "sources": [
+    { "name": "The Woks of Life", "url": "https://thewoksoflife.com/", "status": "failed", "failureReason": "未找到精确同名菜谱；Guilin命中地点介绍而非桂林米粉。" },
+    { "name": "豆果美食", "url": "https://www.douguo.com/cookbook/2331633.html", "status": "failed", "failureReason": "HTTP200及图片存在，但关键卤水调味、腌料、肉料煮制和炸制准备不完整。" },
+    { "name": "豆果美食", "url": "https://www.douguo.com/cookbook/1484491.html", "status": "failed", "failureReason": "HTTP200，卤水及锅烧依赖其他页面，不能独立支持完整菜谱。" },
+    { "name": "豆果美食", "url": "https://www.douguo.com/cookbook/2519998.html", "status": "failed", "failureReason": "HTTP200，漏卤料添加和姜蒜汁制备，且鸡翅根鸡蛋变体实质不同。" },
+    { "name": "豆果美食", "url": "https://www.douguo.com/cookbook/3118880.html", "status": "failed", "failureReason": "初取200，后续404；使用现成卤肥肠的不同汤粉，缺目标完整路线。" },
+    { "name": "豆果美食", "url": "https://www.douguo.com/cookbook/2412630.html", "status": "failed", "failureReason": "初取200，后续404；作者明确反传统干拌版本，不能替换目标路线。" }
+  ],
+  "errors": [{ "step": "research", "code": "NO_COMPLETE_MATCHING_SOURCE", "message": "无独立完整且匹配目标路线的信源；单来源本身允许，本次失败不是缺少第二来源。保留原菜谱与RAG事实，按授权跳过并继续下一道。", "at": "2026-10-05T16:18:11Z" }],
   "branch": "codex/recipe-automation",
   "commit": null
 }
