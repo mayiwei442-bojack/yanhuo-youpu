@@ -1,0 +1,204 @@
+{
+  "recipeId": "cn-007",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/8/f/e/800_8fb88804e4509baa10e9695fba9c3d1e.jpeg",
+      "repositoryPath": "assets/dishes/sources/cn-007-tangcu-liji/hero.jpeg",
+      "sha256": "f769ef18eb44c1bd2a08765ab7b4b01b330f78a7a4987c38e49cd4b9421006b8",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 110473
+    },
+    {
+      "role": "step",
+      "stepOrder": 1,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/3/e/e/800_3ed9ae94ec212029a7115165bbbbad1e.jpeg",
+      "repositoryPath": "assets/dishes/sources/cn-007-tangcu-liji/step-1.jpeg",
+      "sha256": "f19efaca28f3265f85ca8583ced815f68f28351962bc7a56ff35285fd7aa3fa7",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 164189
+    },
+    {
+      "role": "step",
+      "stepOrder": 2,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/e/4/e/800_e4ef094a1012a49f690a8b36a3a7193e.jpeg",
+      "repositoryPath": "assets/dishes/sources/cn-007-tangcu-liji/step-2.jpeg",
+      "sha256": "0cbb58154ff856ba28398ddcbf3386a4b763dba223adda7fcdfca64fd32461a2",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 137201
+    },
+    {
+      "role": "step",
+      "stepOrder": 3,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/7/b/6/800_7b628d70a47b25ac20b76ed5c11f3d76.jpeg",
+      "repositoryPath": "assets/dishes/sources/cn-007-tangcu-liji/step-3.jpeg",
+      "sha256": "a0dfb085336189e2051cb5ccbc1e196655d64680658df2317743e64bdbf78d47",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 155815
+    },
+    {
+      "role": "step",
+      "stepOrder": 4,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/0/b/4/800_0ba33a21c7e096571d0c02b8ebbc9a84.jpeg",
+      "repositoryPath": "assets/dishes/sources/cn-007-tangcu-liji/step-4.jpeg",
+      "sha256": "a375cd8b334c292872d9cd3de69b9bba067461d929ac8f0ab44d9bd433551992",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 140893
+    },
+    {
+      "role": "step",
+      "stepOrder": 5,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/6/1/8/800_6102e2cfdb0ee878a7af35b1557082c8.jpeg",
+      "repositoryPath": "assets/dishes/sources/cn-007-tangcu-liji/step-5.jpeg",
+      "sha256": "9bf11a987fe9a173da1449361e6787f4d6027f9949e1d0485bec46150ce25223",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 179246
+    },
+    {
+      "role": "step",
+      "stepOrder": 6,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/6/3/a/800_63845e90d7a5a7853febabeb1b3e740a.jpeg",
+      "repositoryPath": "assets/dishes/sources/cn-007-tangcu-liji/step-6.jpeg",
+      "sha256": "61e250f5a27ec62e3ba91cacf0e7cf4fde00dd647de297074c25345243c39b96",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 199857
+    },
+    {
+      "role": "step",
+      "stepOrder": 7,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/7/2/5/800_72871c26892392b2acb3823ae6583565.jpeg",
+      "repositoryPath": "assets/dishes/sources/cn-007-tangcu-liji/step-7.jpeg",
+      "sha256": "4f90786531e7b422684e3200d28c22fcad53a92ba692c33133d2db35bb09faf4",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 92525
+    },
+    {
+      "role": "step",
+      "stepOrder": 8,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/5/d/d/800_5d3f24304fc662245f5d2bffa4624ffd.jpeg",
+      "repositoryPath": "assets/dishes/sources/cn-007-tangcu-liji/step-8.jpeg",
+      "sha256": "b86f6e30087f0671f33e7a5a349ff8a65a3adae582f7c3b9c8390f0c014823e2",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 79300
+    },
+    {
+      "role": "step",
+      "stepOrder": 9,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/c/7/a/800_c7c0043bef3e96072485f0973a5ced9a.jpeg",
+      "repositoryPath": "assets/dishes/sources/cn-007-tangcu-liji/step-9.jpeg",
+      "sha256": "1683ce4541f91b660684070e9fa01c94d96ce4b7b6ddbdc9f0b2eb39413c667f",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 86205
+    },
+    {
+      "role": "step",
+      "stepOrder": 10,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/7/0/3/800_7041b35311edad0edebe2834f904c6e3.jpeg",
+      "repositoryPath": "assets/dishes/sources/cn-007-tangcu-liji/step-10.jpeg",
+      "sha256": "227c3210a4d956c9c93f75d17e6843e0d724d0ec8f4828948ced2f472c1c5492",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 103236
+    },
+    {
+      "role": "step",
+      "stepOrder": 11,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/7/2/e/800_72265dc7d9538b97b5fcee09c15a12ee.jpeg",
+      "repositoryPath": "assets/dishes/sources/cn-007-tangcu-liji/step-11.jpeg",
+      "sha256": "0ad649f060abd46dd7f84b74f39ff31fe5bfa53bba4a2560ec9235bafa623fd6",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 96947
+    },
+    {
+      "role": "step",
+      "stepOrder": 12,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/3/b/7/800_3bc668fb49757d74257f145e4ed12377.jpeg",
+      "repositoryPath": "assets/dishes/sources/cn-007-tangcu-liji/step-12.jpeg",
+      "sha256": "bc14a5a5a0e9c6a59337bf95abad06706c3865c68004fd46df95f3c16e9df2c3",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 108175
+    },
+    {
+      "role": "step",
+      "stepOrder": 13,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/8/6/f/800_86fbf696e04455b48edc031c586d5c7f.jpeg",
+      "repositoryPath": "assets/dishes/sources/cn-007-tangcu-liji/step-13.jpeg",
+      "sha256": "7308b445ec7966c959eecdd53c670a748ebbc197f980ad91c66f10d7b85ad633",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 130230
+    },
+    {
+      "role": "step",
+      "stepOrder": 14,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/5/6/3/800_56b67cfc7dc8f5bf7bb5dd31bd926f03.jpeg",
+      "repositoryPath": "assets/dishes/sources/cn-007-tangcu-liji/step-14.jpeg",
+      "sha256": "9d0572e350c2f31a07a5eb39afe025f529c8eb8491f36f2332632005009d1720",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 113483
+    },
+    {
+      "role": "step",
+      "stepOrder": 15,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/a/3/e/800_a3c2625fbc135dde780109fd9118fbae.jpeg",
+      "repositoryPath": "assets/dishes/sources/cn-007-tangcu-liji/step-15.jpeg",
+      "sha256": "d478dc76d8646ec3d39a0380b9c37ec2b3b1ca4ed971c8f7a0755b16ed7077e1",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 199972
+    },
+    {
+      "role": "step",
+      "stepOrder": 16,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/a/d/4/800_ad4b5898cc8101bcbdae5bfff3e527d4.jpeg",
+      "repositoryPath": "assets/dishes/sources/cn-007-tangcu-liji/step-16.jpeg",
+      "sha256": "178ca6256da128ec216475ffa1e4239825e81d8a22ee2cbe9e076690cd39424f",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 211608
+    },
+    {
+      "role": "step",
+      "stepOrder": 17,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/9/4/4/800_94bc9bbeafee242641d8eb2d7e0fcd14.jpeg",
+      "repositoryPath": "assets/dishes/sources/cn-007-tangcu-liji/step-17.jpeg",
+      "sha256": "b24831fac53aaa2d62b5374aeac917de60236713e43176da9e07c9859b8e0777",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 169929
+    },
+    {
+      "role": "step",
+      "stepOrder": 18,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/a/1/e/800_a1eb68c011e1040fa9130bdd9b35a64e.jpeg",
+      "repositoryPath": "assets/dishes/sources/cn-007-tangcu-liji/step-18.jpeg",
+      "sha256": "cb75cbb019192135d9d745f86c7e3a2d633763d7bfa54e8578f9af3d530d20ae",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 166909
+    },
+    {
+      "role": "step",
+      "stepOrder": 19,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/3/b/1/800_3b7b3fb377c757bda55516ac0facfce1.jpeg",
+      "repositoryPath": "assets/dishes/sources/cn-007-tangcu-liji/step-19.jpeg",
+      "sha256": "377250635e0458db18b5c5f0526b77e2af9e41d0c675cf508166dda14b2645fa",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 142409
+    }
+  ]
+}

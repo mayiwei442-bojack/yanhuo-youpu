@@ -233,6 +233,38 @@ try {
   await page.waitForSelector(".cook-step-image");
   assert((await page.locator(".cook-step-image").getAttribute("src") || "").includes("assets/dishes/sources/cn-001-tomato-egg/step-01.jpg"), "图文烹饪模式没有显示番茄炒蛋第 1 步仓库图片");
 
+  await page.evaluate(() => {
+    const fixture = JSON.parse(JSON.stringify(window.YANHUO_RECIPES[0]));
+    fixture.id = "qa-step-metadata";
+    fixture.ingredients = [];
+    fixture.steps = [
+      { id: "step-01", instruction: "准备食材。", duration: null, heat: null, timerRequired: false, ingredientsUsed: [], gameAction: "confirm" },
+      { id: "step-02", instruction: "腌制半小时。", duration: 1800, heat: null, timerRequired: true, ingredientsUsed: [], gameAction: "confirm" },
+      { id: "step-03", instruction: "大火翻炒30秒。", duration: 30, heat: "high", timerRequired: false, ingredientsUsed: [], gameAction: "stir" }
+    ];
+    window.YANHUO_RECIPES.push(fixture);
+    const gameFixture = JSON.parse(JSON.stringify(fixture));
+    gameFixture.id = "qa-unknown-heat";
+    gameFixture.steps = [{ id: "step-01", instruction: "翻炒至均匀。", duration: null, heat: null, timerRequired: false, ingredientsUsed: [], gameAction: "stir" }];
+    window.YANHUO_RECIPES.push(gameFixture);
+    location.hash = "#/cook/qa-step-metadata";
+  });
+  await page.waitForFunction(() => document.querySelector(".cook-card h1")?.textContent === "准备食材。");
+  assert(await page.locator(".heat-control, .timer-panel").count() === 0, "未说明火力或时长的步骤仍显示默认火力/计时器");
+  await page.locator('[data-action="cook-next"]').click();
+  assert(await page.locator("#timer-display").innerText() === "30:00", "半小时没有显示为30分钟");
+  assert(await page.locator('[data-action="start-timer"]').getAttribute("data-seconds") === "1800", "半小时计时值错误");
+  assert(await page.locator(".heat-control").count() === 0, "腌制步骤凭空显示火力要求");
+  await page.evaluate(() => { location.hash = "#/recipe/qa-step-metadata"; });
+  await page.waitForSelector(".detail-page");
+  assert(await page.locator(".step-preview").nth(0).locator(".step-meta").count() === 0, "详情未说明的步骤仍有默认火力/时长");
+  assert((await page.locator(".step-preview").nth(2).locator(".step-meta").innerText()).includes("30 秒"), "秒数被错误显示为1分钟");
+  await page.evaluate(() => { location.hash = "#/game/qa-unknown-heat"; });
+  await page.waitForSelector(".game-action-grid");
+  assert(await page.locator(".game-heat-buttons, .game-heat-label, .game-burner").count() === 0, "无火力要求的小游戏仍有默认火力");
+  await page.locator('[data-game-action="stir"]').click();
+  await page.waitForSelector(".game-complete-page");
+
   await page.goto(`${baseUrl}#/recipe/${recipeId}`, { waitUntil: "load" });
   await page.waitForSelector(".detail-page");
   await page.screenshot({ path: "outputs/qa-html-detail-mobile.png", fullPage: true });

@@ -1,5 +1,6 @@
 import { writeFile } from "node:fs/promises";
 import { chinese, western } from "./recipe_data.mjs";
+import { stepDuration, stepHeat, explicitDurationSeconds } from "./recipe-step-metadata.mjs";
 
 const HERITAGE_FLAVORS = new Set([
   "桂林米粉",
@@ -40,23 +41,14 @@ function splitSteps(text) {
   const parts = text.split(/(?<!\d)(?=\d+[）)])/u).map((part) => part.trim()).filter(Boolean);
   return parts.map((part, index) => {
     const instruction = part.replace(/^\d+[）)]\s*/u, "").trim();
-    const durationMatch = [...instruction.matchAll(/(\d+)(?:[–—-](\d+))?\s*(分钟|小时)/gu)][0];
-    const duration = durationMatch
-      ? Number(durationMatch[2] || durationMatch[1]) * (durationMatch[3] === "小时" ? 3600 : 60)
-      : /翻炒|拌匀|收汁|上色/u.test(instruction)
-        ? 120
-        : 180;
-    const heat = /小火|低温/u.test(instruction)
-      ? "low"
-      : /大火|高温|200℃|190℃|180℃/u.test(instruction)
-        ? "high"
-        : "medium";
+    const duration = stepDuration(instruction);
+    const heat = stepHeat(instruction);
     return {
       id: `step-${String(index + 1).padStart(2, "0")}`,
       instruction,
       duration,
       heat,
-      timerRequired: duration >= 300,
+      timerRequired: duration !== null && duration >= 300,
       ingredientsUsed: [],
       gameAction: /倒入|加入|放入|下锅/u.test(instruction)
         ? "add"
@@ -85,11 +77,7 @@ function detectAllergens(text) {
 }
 
 function estimateTime(text, steps) {
-  const ranges = [...text.matchAll(/(\d+)(?:[–—-](\d+))?\s*(分钟|小时)/gu)].map((match) => {
-    const value = Number(match[2] || match[1]);
-    return value * (match[3] === "小时" ? 60 : 1);
-  });
-  const explicit = ranges.reduce((sum, value) => sum + value, 0);
+  const explicit = explicitDurationSeconds(text) / 60;
   const estimate = explicit || 10 + steps.length * 7;
   return Math.max(15, Math.min(180, Math.ceil(estimate / 5) * 5));
 }

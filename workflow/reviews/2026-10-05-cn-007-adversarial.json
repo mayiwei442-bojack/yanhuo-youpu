@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "复审通过。16项食材和19个连续步骤均符合所选豆果完整菜谱，无跨来源混用。20个本地图片文件非空且哈希全部匹配，成品图与19张步骤图映射一致。生成数据保留未说明的火力和时长为null；第6步半小时为1800秒，第18步仅保留小火且时长为null，第19步无加热或计时要求。前端隐藏未知控件，游戏不要求未知火力匹配。食材语义、步骤语法、标点括号及连续编号均通过对抗性审查；完整目标验证10项及生成、浏览器测试、构建通过。",
+  "evidencePackageHash": "b0f52e030c6785df85376bd54320e796bb287186e29020dd40d274395fb1ba10",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

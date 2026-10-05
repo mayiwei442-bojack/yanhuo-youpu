@@ -1,0 +1,20 @@
+import assert from "node:assert/strict";
+import { stepDuration, stepHeat } from "../recipe-step-metadata.mjs";
+
+assert.equal(stepDuration("腌制半小时。"), 1800);
+assert.equal(stepDuration("静置0.5小时。"), 1800);
+assert.equal(stepDuration("炒30秒。"), 30);
+assert.equal(stepDuration("炖1小时30分钟。"), 5400);
+assert.equal(stepDuration("煮45—60分钟。"), 3600);
+assert.equal(stepDuration("翻炒至全部裹汁。"), null);
+assert.equal(stepDuration("翻炒3分钟，关火再拌1分钟。"), null);
+assert.equal(stepDuration("煮1/2小时。"), null);
+assert.equal(stepHeat("切肉，腌制后备用。"), null);
+assert.equal(stepHeat("初炸油温与火力未说明。"), null);
+assert.equal(stepHeat("小火翻炒至裹汁。"), "low");
+assert.equal(stepHeat("转高火。"), "high");
+assert.equal(stepHeat("用中火。"), "medium");
+assert.equal(stepHeat("中高火炒制。"), null);
+assert.equal(stepHeat("小火化糖，转中火煎肉。"), null);
+assert.equal(stepHeat("不要大火。"), null);
+console.log(JSON.stringify({ ok: true, check: "source_supported_step_metadata" }));

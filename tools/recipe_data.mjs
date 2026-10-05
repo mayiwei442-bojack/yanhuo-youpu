@@ -227,7 +227,176 @@ export const chinese = [
       { stepOrder: 5, path: "assets/dishes/sources/cn-006-red-braised-pork/step-05.jpg", originalUrl: "https://thewoksoflife.com/wp-content/uploads/2013/07/hongshao-rou-3-e1570056864719.jpg", sha256: "71423b7898e31368c3dd09db8cf41d5c3bfa8d820b771324fc635e71e0722bfb", httpStatus: 200, contentType: "image/webp" }
     ]
   }),
-  c("糖醋里脊", "Sweet and Sour Pork Tenderloin", "鲁菜/家常", "里脊肉200克；腌料：盐少许、白胡椒粉少许、料酒1勺、鸡蛋1个、淀粉1勺；玉米淀粉适量（裹里脊肉）；糖醋汁：清水3勺、白醋2勺、生抽1勺、番茄酱4勺、白糖2勺、淀粉1勺；食用油适量（炸制并留少量底油煮糖醋汁）；白芝麻适量；佐餐米饭一碗", "1）将200克里脊肉切成条，加入少许盐、少许白胡椒粉、1勺料酒、1个鸡蛋和1勺淀粉，搅拌均匀后腌制半小时。2）另取一碗，加入3勺清水、2勺白醋、1勺生抽、4勺番茄酱、2勺白糖和1勺淀粉，搅匀成糖醋汁备用。3）将腌好的里脊条逐条裹上适量玉米淀粉。4）锅中放入适量食用油烧热；原方未说明具体油温或初炸火力。下入里脊条炸4分钟后捞出。5）将炸过的里脊条倒回原锅复炸1分钟，再捞出。6）锅中留少量底油，倒入调好的糖醋汁，烧至冒泡后转小火。7）倒入复炸好的里脊条，以小火快速翻炒，使每条肉都均匀裹上糖醋汁；装盘后撒适量白芝麻，配一碗米饭食用。", "07-tangcu-liji.png"),
+  c("糖醋里脊", "Sweet and Sour Pork Tenderloin", "鲁菜/家常", "里脊肉200克；白芝麻适量；米饭一碗（配餐）；玉米淀粉适量（裹里脊肉）；盐少许（腌料）；白胡椒粉少许（腌料）；料酒1勺（腌料）；鸡蛋1个（腌料）；淀粉1勺（腌料）；清水3勺（酱汁）；白醋2勺（酱汁）；生抽1勺（酱汁）；番茄酱4勺（酱汁）；白糖2勺（酱汁）；淀粉1勺（酱汁）；食用油适量（炸制并留底油煮酱汁）", "1）将200克里脊肉切成条。2）在里脊肉中加入少许盐。3）在里脊肉中加入少许白胡椒粉。4）在里脊肉中加入1勺料酒。5）在里脊肉中打入1个鸡蛋。6）在里脊肉中加入1勺淀粉，搅拌均匀后腌制半小时。7）另取一只碗调酱汁，加入3勺清水。8）在酱汁碗中加入2勺白醋。9）在酱汁碗中加入1勺生抽。10）在酱汁碗中加入4勺番茄酱。11）在酱汁碗中加入2勺白糖。12）在酱汁碗中加入1勺淀粉。13）将酱汁搅拌均匀，备用。14）腌制完成后，将里脊肉条裹上适量玉米淀粉。15）锅中加入适量食用油烧热，放入里脊肉条炸4分钟后捞出。16）将里脊肉条倒回锅中复炸1分钟，捞出。17）锅中留底油，倒入调好的酱汁，烧至冒泡后转小火。18）倒入复炸好的里脊肉条，以小火翻炒，使里脊肉全部裹上酱汁。19）撒上适量白芝麻，即可配一碗米饭食用。", "07-tangcu-liji.png", "https://www.douguo.com/cookbook/2343710.html", {
+    "sourceName": "豆果美食",
+    "recipePageUrl": "https://www.douguo.com/cookbook/2343710.html",
+    "mediaPageUrl": "https://www.douguo.com/cookbook/2343710.html",
+    "author": "青春妹m",
+    "rightsNotice": "©本菜谱的做法由 青春妹m 编写，未经授权不得转载",
+    "reuseLicense": null,
+    "repositoryCopyAuthorization": "user_confirmed_2026-09-16",
+    "hero": {
+      "path": "assets/dishes/sources/cn-007-tangcu-liji/hero.jpeg",
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/8/f/e/800_8fb88804e4509baa10e9695fba9c3d1e.jpeg",
+      "sha256": "f769ef18eb44c1bd2a08765ab7b4b01b330f78a7a4987c38e49cd4b9421006b8",
+      "httpStatus": 200,
+      "contentType": "image/jpeg"
+    },
+    "steps": [
+      {
+        "stepOrder": 1,
+        "path": "assets/dishes/sources/cn-007-tangcu-liji/step-1.jpeg",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/3/e/e/800_3ed9ae94ec212029a7115165bbbbad1e.jpeg",
+        "sha256": "f19efaca28f3265f85ca8583ced815f68f28351962bc7a56ff35285fd7aa3fa7",
+        "httpStatus": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "stepOrder": 2,
+        "path": "assets/dishes/sources/cn-007-tangcu-liji/step-2.jpeg",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/e/4/e/800_e4ef094a1012a49f690a8b36a3a7193e.jpeg",
+        "sha256": "0cbb58154ff856ba28398ddcbf3386a4b763dba223adda7fcdfca64fd32461a2",
+        "httpStatus": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "stepOrder": 3,
+        "path": "assets/dishes/sources/cn-007-tangcu-liji/step-3.jpeg",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/7/b/6/800_7b628d70a47b25ac20b76ed5c11f3d76.jpeg",
+        "sha256": "a0dfb085336189e2051cb5ccbc1e196655d64680658df2317743e64bdbf78d47",
+        "httpStatus": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "stepOrder": 4,
+        "path": "assets/dishes/sources/cn-007-tangcu-liji/step-4.jpeg",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/0/b/4/800_0ba33a21c7e096571d0c02b8ebbc9a84.jpeg",
+        "sha256": "a375cd8b334c292872d9cd3de69b9bba067461d929ac8f0ab44d9bd433551992",
+        "httpStatus": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "stepOrder": 5,
+        "path": "assets/dishes/sources/cn-007-tangcu-liji/step-5.jpeg",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/6/1/8/800_6102e2cfdb0ee878a7af35b1557082c8.jpeg",
+        "sha256": "9bf11a987fe9a173da1449361e6787f4d6027f9949e1d0485bec46150ce25223",
+        "httpStatus": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "stepOrder": 6,
+        "path": "assets/dishes/sources/cn-007-tangcu-liji/step-6.jpeg",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/6/3/a/800_63845e90d7a5a7853febabeb1b3e740a.jpeg",
+        "sha256": "61e250f5a27ec62e3ba91cacf0e7cf4fde00dd647de297074c25345243c39b96",
+        "httpStatus": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "stepOrder": 7,
+        "path": "assets/dishes/sources/cn-007-tangcu-liji/step-7.jpeg",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/7/2/5/800_72871c26892392b2acb3823ae6583565.jpeg",
+        "sha256": "4f90786531e7b422684e3200d28c22fcad53a92ba692c33133d2db35bb09faf4",
+        "httpStatus": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "stepOrder": 8,
+        "path": "assets/dishes/sources/cn-007-tangcu-liji/step-8.jpeg",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/5/d/d/800_5d3f24304fc662245f5d2bffa4624ffd.jpeg",
+        "sha256": "b86f6e30087f0671f33e7a5a349ff8a65a3adae582f7c3b9c8390f0c014823e2",
+        "httpStatus": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "stepOrder": 9,
+        "path": "assets/dishes/sources/cn-007-tangcu-liji/step-9.jpeg",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/c/7/a/800_c7c0043bef3e96072485f0973a5ced9a.jpeg",
+        "sha256": "1683ce4541f91b660684070e9fa01c94d96ce4b7b6ddbdc9f0b2eb39413c667f",
+        "httpStatus": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "stepOrder": 10,
+        "path": "assets/dishes/sources/cn-007-tangcu-liji/step-10.jpeg",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/7/0/3/800_7041b35311edad0edebe2834f904c6e3.jpeg",
+        "sha256": "227c3210a4d956c9c93f75d17e6843e0d724d0ec8f4828948ced2f472c1c5492",
+        "httpStatus": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "stepOrder": 11,
+        "path": "assets/dishes/sources/cn-007-tangcu-liji/step-11.jpeg",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/7/2/e/800_72265dc7d9538b97b5fcee09c15a12ee.jpeg",
+        "sha256": "0ad649f060abd46dd7f84b74f39ff31fe5bfa53bba4a2560ec9235bafa623fd6",
+        "httpStatus": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "stepOrder": 12,
+        "path": "assets/dishes/sources/cn-007-tangcu-liji/step-12.jpeg",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/3/b/7/800_3bc668fb49757d74257f145e4ed12377.jpeg",
+        "sha256": "bc14a5a5a0e9c6a59337bf95abad06706c3865c68004fd46df95f3c16e9df2c3",
+        "httpStatus": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "stepOrder": 13,
+        "path": "assets/dishes/sources/cn-007-tangcu-liji/step-13.jpeg",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/8/6/f/800_86fbf696e04455b48edc031c586d5c7f.jpeg",
+        "sha256": "7308b445ec7966c959eecdd53c670a748ebbc197f980ad91c66f10d7b85ad633",
+        "httpStatus": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "stepOrder": 14,
+        "path": "assets/dishes/sources/cn-007-tangcu-liji/step-14.jpeg",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/5/6/3/800_56b67cfc7dc8f5bf7bb5dd31bd926f03.jpeg",
+        "sha256": "9d0572e350c2f31a07a5eb39afe025f529c8eb8491f36f2332632005009d1720",
+        "httpStatus": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "stepOrder": 15,
+        "path": "assets/dishes/sources/cn-007-tangcu-liji/step-15.jpeg",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/a/3/e/800_a3c2625fbc135dde780109fd9118fbae.jpeg",
+        "sha256": "d478dc76d8646ec3d39a0380b9c37ec2b3b1ca4ed971c8f7a0755b16ed7077e1",
+        "httpStatus": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "stepOrder": 16,
+        "path": "assets/dishes/sources/cn-007-tangcu-liji/step-16.jpeg",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/a/d/4/800_ad4b5898cc8101bcbdae5bfff3e527d4.jpeg",
+        "sha256": "178ca6256da128ec216475ffa1e4239825e81d8a22ee2cbe9e076690cd39424f",
+        "httpStatus": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "stepOrder": 17,
+        "path": "assets/dishes/sources/cn-007-tangcu-liji/step-17.jpeg",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/9/4/4/800_94bc9bbeafee242641d8eb2d7e0fcd14.jpeg",
+        "sha256": "b24831fac53aaa2d62b5374aeac917de60236713e43176da9e07c9859b8e0777",
+        "httpStatus": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "stepOrder": 18,
+        "path": "assets/dishes/sources/cn-007-tangcu-liji/step-18.jpeg",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/a/1/e/800_a1eb68c011e1040fa9130bdd9b35a64e.jpeg",
+        "sha256": "cb75cbb019192135d9d745f86c7e3a2d633763d7bfa54e8578f9af3d530d20ae",
+        "httpStatus": 200,
+        "contentType": "image/jpeg"
+      },
+      {
+        "stepOrder": 19,
+        "path": "assets/dishes/sources/cn-007-tangcu-liji/step-19.jpeg",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/3/b/1/800_3b7b3fb377c757bda55516ac0facfce1.jpeg",
+        "sha256": "377250635e0458db18b5c5f0526b77e2af9e41d0c675cf508166dda14b2645fa",
+        "httpStatus": 200,
+        "contentType": "image/jpeg"
+      }
+    ]
+  }),
   c("扬州炒饭", "Yangzhou Fried Rice", "淮扬菜", "熟米饭5杯；煮饭用清水适量（按米包装说明略减）；食用油3汤匙（分次：炒蛋1汤匙、炒饭2汤匙；另备少许，米饭偏干时可选）；大鸡蛋2个，打散；鲜虾仁110克（40—60号，去壳去虾线）；焯虾仁用沸水适量；中等大小洋葱1个，切细丁；弗吉尼亚火腿110克，切丁；中式叉烧110克，切丁；冷冻青豆3/4杯，解冻；盐1又1/2茶匙；白糖1/4茶匙；绍兴酒1茶匙（可选）；小葱2根，切碎；罗马生菜或球生菜2杯，切碎；现磨白胡椒粉1/8茶匙；清水或鸡汤少量（米饭偏干时可选）", "1）如需自煮5杯熟米饭，按包装说明煮饭，但清水比包装说明略少，避免米饭软黏；熟饭不加盖摊凉，停止冒蒸汽后用叉子拨松并打散饭团。也可将米饭冷藏过夜；炒前用手把冷饭团搓散成粒，手发黏时用冷水冲洗后继续。2）将2个大鸡蛋打散；洋葱切细丁，弗吉尼亚火腿和中式叉烧切丁，小葱及2杯罗马生菜或球生菜切碎；3/4杯冷冻青豆提前解冻。另烧一锅适量沸水，将110克去壳去虾线的鲜虾仁焯水，捞出沥干备用。3）炒锅以中高火烧热，加入1汤匙食用油，倒入蛋液，轻轻翻折炒散，避免鸡蛋焦煳；鸡蛋凝成柔嫩小块后盛回碗中。4）炒锅转高火，加入剩余2汤匙食用油，放入洋葱丁翻炒至透明；加入火腿丁和叉烧丁翻炒30秒。倒入米饭，以锅铲压散饭团并不断翻炒2分钟，至米饭均匀受热；加入焯过的虾仁和解冻青豆，继续不断翻炒2分钟，至米饭完全热透。5）将1又1/2茶匙盐和1/4茶匙白糖均匀撒入锅中。若用绍兴酒，将1茶匙绍兴酒沿锅边淋入，使其发出滋滋声并让酒精挥发；翻炒至调味均匀。6）检查米饭状态；若略显干，可撒入少量清水或鸡汤，或补少许食用油。若仍有大饭团，可将少量液体直接淋在饭团上帮助打散；不要一次加多，以免米饭湿软或油腻。7）加入炒好的鸡蛋、碎小葱、碎生菜和1/8茶匙现磨白胡椒粉，保持翻炒，只炒至生菜刚刚变蔫且仍保留爽脆口感，立即装盘。", "08-yangzhou-chaofan.png"),
   c("清蒸鲈鱼", "Steamed Sea Bass", "粤菜", "鲈鱼（日本真鲈、花鲈）750克；小米辣2个；葱（绿色部分）30克；姜10克；料酒2汤匙；盐2调味匙；生抽3调味匙；糖0.5调味匙；香油少许；食用油30克；纯净水2汤匙；冰水适量（浸泡葱丝）；蒸锅用水适量", "1）鲈鱼去鳞、去内脏后清洗干净，在背部两边各划一刀；淋上2汤匙料酒，抹上2调味匙盐，腌制30分钟。2）将30克葱洗净切成长细丝，泡入适量冰水；10克姜分别切丝、切片，小米辣2个切圈。3）盘子里放几片姜。4）放上腌好的鲈鱼，在鱼腹中放几片姜，鱼表面放上葱丝和姜丝。5）蒸锅水烧开后，放入鱼蒸约8分钟；蒸制时间按鱼的大小调整，建议不超过10分钟，以免鱼肉过老。6）蒸鱼期间，将3调味匙生抽、0.5调味匙糖、少许香油和2汤匙纯净水混合均匀，调成碗汁。7）鱼蒸好后取出，倒掉蒸出的水，拿掉原先的葱姜丝，再重新放上葱姜丝和小米辣圈。8）淋上碗汁；将30克食用油烧热至冒烟，把热油浇到鱼身上即可。", "09-qingzheng-luyu.png", "https://www.douguo.com/cookbook/1426656.html", {
     sourceName: "豆果美食",
