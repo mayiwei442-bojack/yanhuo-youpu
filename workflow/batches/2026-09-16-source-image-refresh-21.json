@@ -75,8 +75,8 @@
     {
       "id": "cn-010",
       "name": "地三鲜",
-      "status": "pending",
-      "reason": null
+      "status": "in_progress",
+      "reason": "正在复核完整来源、可靠历史及同源图片。"
     },
     {
       "id": "cn-011",
