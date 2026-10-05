@@ -185,9 +185,9 @@
     {
       "id": "cn-027",
       "name": "蒜蓉粉丝蒸扇贝",
-      "status": "done",
-      "lastRunId": "2026-08-30-cn-027-i10c",
-      "completedAt": "2026-08-30T03:41:13.492Z"
+      "status": "in_progress",
+      "lastRunId": "2026-10-06-cn-027-source-images",
+      "completedAt": null
     },
     {
       "id": "cn-028",

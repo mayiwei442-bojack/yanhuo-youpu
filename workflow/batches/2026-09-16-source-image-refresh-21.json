@@ -93,8 +93,8 @@
     {
       "id": "cn-027",
       "name": "蒜蓉粉丝蒸扇贝",
-      "status": "pending",
-      "reason": null
+      "status": "in_progress",
+      "reason": "锅包肉已完成并推送，开始本菜的完整信源、本地图片与RAG核验；旧文字更新不作本轮图文完成证明。"
     },
     {
       "id": "cn-029",
