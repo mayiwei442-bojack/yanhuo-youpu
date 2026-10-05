@@ -99,8 +99,8 @@
     {
       "id": "cn-029",
       "name": "干煸四季豆",
-      "status": "pending",
-      "reason": null
+      "status": "in_progress",
+      "reason": "蒜蓉粉丝蒸扇贝已完成并推送，开始本菜完整信源、本地图片及RAG核验；历史done仅代表旧文字更新。"
     },
     {
       "id": "cn-036",
