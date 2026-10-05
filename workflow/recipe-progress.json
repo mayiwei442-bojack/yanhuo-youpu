@@ -4,8 +4,8 @@
       "id": "cn-001",
       "name": "番茄炒蛋",
       "status": "done",
-      "lastRunId": "2026-09-06-cn-001-b20a",
-      "completedAt": "2026-09-06T11:10:06.948Z"
+      "lastRunId": "2026-09-16-cn-001-source-images",
+      "completedAt": "2026-10-05T23:27:17Z"
     },
     {
       "id": "cn-002",
@@ -25,22 +25,22 @@
       "id": "cn-004",
       "name": "鱼香肉丝",
       "status": "done",
-      "lastRunId": "2026-08-31-cn-004-source-unit-fidelity",
-      "completedAt": "2026-08-31T17:04:31.182Z"
+      "lastRunId": "2026-09-19-cn-004-source-images",
+      "completedAt": "2026-09-19T16:45:00+08:00"
     },
     {
       "id": "cn-005",
       "name": "青椒肉丝",
       "status": "done",
-      "lastRunId": "2026-09-06-cn-005-unit-fidelity",
-      "completedAt": "2026-09-07T02:23:41.396Z"
+      "lastRunId": "2026-10-05-cn-005-source-images",
+      "completedAt": "2026-10-05T14:01:20+08:00"
     },
     {
       "id": "cn-006",
       "name": "红烧肉",
       "status": "done",
-      "lastRunId": "2026-08-31-cn-006-source-unit-fidelity",
-      "completedAt": "2026-08-31T17:04:31.182Z"
+      "lastRunId": "2026-09-20-cn-006-source-images",
+      "completedAt": "2026-10-05T13:49:43+08:00"
     },
     {
       "id": "cn-007",
@@ -60,8 +60,8 @@
       "id": "cn-009",
       "name": "清蒸鲈鱼",
       "status": "done",
-      "lastRunId": "2026-09-07-cn-009-b20e",
-      "completedAt": "2026-09-07T02:41:54.115Z"
+      "lastRunId": "2026-09-16-cn-009-source-images",
+      "completedAt": "2026-09-16T17:05:00+08:00"
     },
     {
       "id": "cn-010",

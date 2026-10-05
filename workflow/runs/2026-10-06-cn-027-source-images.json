@@ -7,7 +7,7 @@
   "startedAt": "2026-10-05T23:21:23Z",
   "completedAt": null,
   "steps": {
-    "research": { "status": "in_progress", "attempts": 1, "details": { "batchId": "2026-09-16-source-image-refresh-21", "selectionReason": "锅包肉已审核测试并推送，恢复本批次下一道未完成图片刷新菜品；此前done仅为旧文字/RAG更新，不冒充本轮图文完成。" } },
+    "research": { "status": "in_progress", "attempts": 1, "details": { "batchId": "2026-09-16-source-image-refresh-21", "selectionReason": "锅包肉已审核测试并推送，恢复本批次下一道未完成图片刷新菜品；此前done仅为旧文字/RAG更新，不冒充本轮图文完成。", "candidateProgress": "Researcher已实际目检豆果2292246成品图及17/17过程图；结尾两张成品/宣传不计过程。Woks完整公开工具正文独立成功、5/7文字步骤有语义对应过程图；原生请求403已停止未绕过。两完整网页按图片覆盖比较拟选豆果，正在入库与制作证据包，不计完成。", "bookConflict": "原料表油35ml与方法10+15+15ml冲突，保留历史事实但不作为完整主来源。", "normalizationCorrectionPending": "旧豆果规范化漏同页方法水、计宣传为步骤，Researcher将同源纠正后保留旧doc/chunks superseded并实测检索排除。" } },
     "ingestion": { "status": "pending", "attempts": 0, "details": {} },
     "edit": { "status": "pending", "attempts": 0, "details": {} },
     "validator": { "status": "pending", "attempts": 0, "details": {} },
