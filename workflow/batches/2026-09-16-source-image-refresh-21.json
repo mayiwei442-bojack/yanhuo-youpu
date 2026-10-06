@@ -117,8 +117,8 @@
     {
       "id": "west-004",
       "name": "凯撒沙拉",
-      "status": "pending",
-      "reason": null
+      "status": "in_progress",
+      "reason": "豉汁蒸排骨已完成推送，开始本菜整份来源与本地图文更新；核验旧来源单位/总时长，旧文字done不当本轮完成。"
     },
     {
       "id": "west-006",
