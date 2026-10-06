@@ -1225,7 +1225,35 @@ export const western = [
   w("红酒炖鸡", "Coq au Vin", "法国", "鸡腿4只；红酒500毫升；培根100克；蘑菇200克；珍珠洋葱150克；胡萝卜150克；鸡汤300毫升；面粉15克；百里香适量", "1）培根煎香，鸡腿拍干煎至上色。2）炒胡萝卜洋葱，撒面粉，倒红酒和鸡汤，放鸡腿与香草。3）小火炖45分钟，另煎蘑菇后拌入收汁。", "62-coq-au-vin.png"),
   w("普罗旺斯炖菜", "Ratatouille", "法国", "茄子250克；西葫芦250克；彩椒200克；番茄400克；洋葱120克；大蒜15克；橄榄油35毫升；百里香适量", "1）蔬菜切块，茄子和西葫芦分别煎上色。2）炒软洋葱蒜和彩椒，加番茄和百里香煮成底汁。3）合入所有蔬菜小火炖20分钟，调盐胡椒。", "63-ratatouille.png"),
   w("马赛鱼汤", "Bouillabaisse", "法国", "白肉鱼300克；虾200克；贻贝300克；番茄300克；洋葱100克；茴香头150克；白葡萄酒150毫升；鱼汤700毫升；藏红花少许", "1）橄榄油炒洋葱、茴香和番茄，加入白酒、鱼汤和藏红花煮20分钟。2）先下鱼块，再下虾和贻贝。3）煮至海鲜刚熟、贝壳打开，配烤面包食用。", "64-bouillabaisse.png"),
-  w("牧羊人派", "Shepherd's Pie", "英国", "食用油适量；大洋葱1个；中等胡萝卜2—3根；羊肉末500克；番茄膏2汤匙；伍斯特酱适量；牛高汤500毫升；土豆900克；黄油85克；牛奶3汤匙；盐适量", "1）洋葱和胡萝卜切碎。中号锅中加入适量食用油并烧热，放入洋葱和胡萝卜，翻炒几分钟至变软。2）调高火力，将500克羊肉末掰散入锅，边炒边继续拨散，至羊肉上色；倒掉锅中多余油脂。加入2汤匙番茄膏和适量伍斯特酱，再炒几分钟。3）倒入500毫升牛高汤，煮至微沸后加盖煮40分钟；煮到20分钟时揭盖，继续煮余下20分钟。4）同时将烤箱预热至180℃，风扇烤箱160℃。土豆切块，放入加盐水中煮10—15分钟至软；沥干后加入85克黄油和3汤匙牛奶，压成薯泥。5）将羊肉馅铺入耐热烤盘，完全盖上薯泥并用叉子划出纹路。放入预热好的烤箱烤20—25分钟，至顶部开始上色且羊肉馅从边缘冒泡；出炉静置5分钟再食用。", "65-shepherds-pie.png"),
+  w(
+    "牧羊人派", "Shepherd's Pie", "英国",
+    "淀粉质土豆（Russet）1.6千克，约4个大土豆，去皮切约2.5厘米块；清水适量（漂洗和煮土豆用）；犹太盐适量（煮土豆及调味）；无盐黄油85克，切块；低钠鸡汤360毫升；无味明胶14克；植物油30毫升；羊肉末1千克（采用传统羊肉版本）；大黄洋葱1个约400克，切丁；中等胡萝卜3根约225克，切丁；芹菜梗2根约110克，切丁；中等蒜瓣2瓣，切末；番茄膏30毫升；干红葡萄酒240毫升；百里香枝2枝；月桂叶1片；伍斯特酱15毫升；Marmite酵母酱5毫升（可选）；通用面粉15克；冷冻豌豆225克；现磨黑胡椒适量；浓奶油360毫升；帕玛森芝士碎适量（可选）",
+    "1）将土豆块放入漏篮，用冷水冲洗至水变清。放入大锅，加冷水至高出土豆至少5厘米；加犹太盐，咸度接近海水。大火煮沸后转中小火，煮10—15分钟，至刀尖能毫无阻力地刺穿土豆。沥水后用热水冲洗30秒，倒入大碗。2）用土豆压泥器、食物磨或薯泥压榨器把土豆与85克黄油压成泥，抹平表面并紧贴薯泥覆盖保鲜膜以防表面结皮，备用。3）将360毫升低钠鸡汤倒入量杯，均匀撒入14克无味明胶，静置备用。4）大号荷兰锅中高火加热30毫升植物油至油面发亮。放入一半羊肉末，边炒边刮锅底，煎6—8分钟至充分褐变，用土豆压泥器或大号打蛋器拨散；加入剩余羊肉末，继续拨散约3分钟至碎小颗粒，必要时调低火力以免焦煳。若析出油脂过多，舀出大部分，仅留几汤匙；加入洋葱、胡萝卜、芹菜和蒜，翻炒并刮锅底约4分钟，至刚开始变软。5）转中火加入番茄膏，边搅拌边炒1分钟。倒入干红葡萄酒并以高火煮至微沸，刮起锅底褐色焦香物，继续煮至酒液几乎收干。加入预先混合的鸡汤和明胶、百里香、月桂叶、伍斯特酱及可选Marmite；将面粉均匀撒在肉馅上并拌匀。煮至微沸后转小火，煮约20分钟至肉汁收浓；取出百里香枝和月桂叶，拌入冷冻豌豆，以犹太盐和黑胡椒调味。6）烤箱架调至中层并预热至220℃。组装前将浓奶油加热至微沸，倒入薯泥中轻轻拌匀，再以盐和黑胡椒调味。7）将肉馅盛入约23×33厘米的烤盘，肉馅高度不要超过烤盘一半（视烤盘大小，可能不必用完全部肉馅）。上面铺满薯泥，用刮刀抹平并做出起伏纹理；按需撒帕玛森芝士。将烤盘放在铺有锡纸的带边烤盘上接住溢出的肉汁。8）入220℃烤箱烤约20分钟，至顶部上色且整盘热透。如需更深的焦色，可在最后短暂移至距上火约15厘米处炙烤，并密切观察以免薯泥烤焦。出炉静置15—20分钟再分装食用。",
+    "65-shepherds-pie.png", "https://www.seriouseats.com/shepherds-pie-beef-lamb-recipe", {
+      sourceName: "Serious Eats",
+      recipePageUrl: "https://www.seriouseats.com/shepherds-pie-beef-lamb-recipe",
+      mediaPageUrl: "https://www.seriouseats.com/shepherds-pie-beef-lamb-recipe",
+      author: "Vicky Wasik",
+      recipeAuthor: "Daniel Gritzer",
+      rightsNotice: "Serious Eats / Vicky Wasik",
+      reuseLicense: null,
+      repositoryCopyAuthorization: "user_confirmed_2026-09-16",
+      hero: {
+        path: "assets/dishes/sources/west-020-shepherds-pie/hero.webp",
+        originalUrl: "https://www.seriouseats.com/thmb/cWyyokLX1T9Jx3pq__8v1wLcUy8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2016__10__20161012-shepherds-pie-vicky-wasik-Version-A-21-ceea33d28eb440278d297b2cf60a9f32.jpg",
+        sha256: "1bec7af510d22174d25ddf14babef51fc2ed054cf496c52a5ceb904e6482198e",
+        httpStatus: 200,
+        contentType: "image/webp"
+      },
+      steps: [
+        { stepOrder: 2, sourceStepOrder: 2, path: "assets/dishes/sources/west-020-shepherds-pie/step-02.webp", originalUrl: "https://www.seriouseats.com/thmb/vb8J6GjsQQNUwKFukxcY22MfpUg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2014__11__20141113-make-ahead-mashed-potatoes-vicky-wasik-4-a47238f541dd48a2994a0b127db34397.jpg", sha256: "b80266e379b3eb3774a8b0d008532be56a111b64387be92cde0f8ac7cc4579b1", httpStatus: 200, contentType: "image/webp" },
+        { stepOrder: 4, sourceStepOrder: 4, path: "assets/dishes/sources/west-020-shepherds-pie/step-04.webp", originalUrl: "https://www.seriouseats.com/thmb/pJs9I0eBhzEYqqvl8OK8oDtqjKM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2016__10__20161012-shepherds-pie-vicky-wasik-collage-1-16171107127f4a2f867c3c02620b1438.jpg", sha256: "52a1abceda566aa17d0cce3ccae01764d13621bed1f5d9fad29704fec92f95d8", httpStatus: 200, contentType: "image/webp" },
+        { stepOrder: 5, sourceStepOrder: 5, path: "assets/dishes/sources/west-020-shepherds-pie/step-05.webp", originalUrl: "https://www.seriouseats.com/thmb/A43eozN2u-XgEwqBpwkn6B7_h3Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2016__10__20161012-shepherds-pie-vicky-wasik-collage-2-4f3ba460995c4b1ca24798704a5ad4b9.jpg", sha256: "7592d443a01e4774d88fa5fc70841210d17be154f32aa13579e7f970cd90eca6", httpStatus: 200, contentType: "image/webp" },
+        { stepOrder: 6, sourceStepOrder: 6, path: "assets/dishes/sources/west-020-shepherds-pie/step-06.webp", originalUrl: "https://www.seriouseats.com/thmb/KUGdnz6fOXyb6bIBsuIHju6ZeH8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2014__11__20141113-make-ahead-mashed-potatoes-vicky-wasik-6-df341d6476e140b6a096a046cd21ce55.jpg", sha256: "0d8ea91e93f9cd5481e4cae1b7f495bd97b70d7506e15b03ca9933ebdf3817cf", httpStatus: 200, contentType: "image/webp" },
+        { stepOrder: 8, sourceStepOrder: 8, path: "assets/dishes/sources/west-020-shepherds-pie/step-08.webp", originalUrl: "https://www.seriouseats.com/thmb/6ZPC3bFKrK3xBBdbkawb0Txk5IM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2016__10__20161012-shepherds-pie-vicky-wasik-Version-A-18-34a6fde7e3d141388ffbf857713688a4.jpg", sha256: "c2de5723050023b6f21391de56ed2f22aec0d3c1e04480cfefda08d7bb741ff9", httpStatus: 200, contentType: "image/webp" }
+      ]
+    }, { totalMinutes: 145, prepMinutes: 15, cookMinutes: 110, stepDurations: [null, null, null, null, null, null, null, null] }, 8
+  ),
   w("法式红酒炖牛肉", "Beef Bourguignon", "法国", "牛肩肉700克；红酒500毫升；牛高汤300毫升；培根100克；胡萝卜200克；珍珠洋葱150克；蘑菇200克；番茄膏20克；百里香适量", "1）牛肉擦干分批煎上色，培根煎香。2）炒蔬菜和番茄膏，倒红酒刮锅，加入牛肉、高汤和香草。3）盖锅小火炖2小时，最后加入煎蘑菇和珍珠洋葱。", "66-beef-bourguignon.png"),
   w("希腊穆萨卡", "Moussaka", "希腊", "茄子600克；羊或牛肉末400克；番茄300克；洋葱100克；肉桂少许；白酱400克；帕玛森50克；橄榄油适量", "1）茄子切片刷油烤软。2）洋葱肉末炒香，加番茄和少量肉桂炖浓。3）烤盘交替铺茄子与肉酱，顶层抹白酱撒芝士，190℃烤40分钟。", "67-moussaka.png"),
   w("希腊沙拉", "Greek Salad", "希腊", "番茄350克；黄瓜200克；红洋葱80克；卡拉马塔橄榄80克；菲达芝士150克；橄榄油25毫升；红酒醋10毫升；牛至2克", "1）番茄黄瓜切大块，洋葱切薄片。2）与橄榄、橄榄油、醋和牛至轻拌。3）顶部放整块或大块菲达，略撒黑胡椒。", "68-greek-salad.png"),

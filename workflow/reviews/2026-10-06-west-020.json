@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "Serious Eats is a complete internally coherent single recipe source, and the lamb branch is explicitly allowed and traditional; the edit imports no BBC recipe detail. All 23 rendered semicolon-delimited rows are actual ingredients or cooking water explicitly used by the source, with no orphaned note/qualifier. The eight instructions are grammatically executable and sequential, quantities/order/heat/times/temperature/resting and 8-serving yield match the selected source. No step receives an invented single timer where the text contains ranges or multiple phases. The hero and five local Serious Eats process images were visually checked and mapped to source steps 2, 4, 5, 6, and 8; step 8 now correctly receives the browned finished-top image. Steps 1, 3, and 7 remain text-only because no matching selected-source photo was available. Generated ingredient identities, labels, timing, local paths, and source provenance are consistent with the passing validator.",
+  "evidencePackageHash": "dbec40b13088ae4848135985328693e9eac000a37411d48a288f7a394c4982c3",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

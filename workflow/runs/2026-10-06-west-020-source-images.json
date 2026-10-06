@@ -7,15 +7,128 @@
   "startedAt": "2026-10-06T11:41:34Z",
   "completedAt": null,
   "steps": {
-    "research": { "status": "in_progress", "attempts": 1, "details": { "batchId": "2026-09-16-source-image-refresh-21", "beforeSnapshot": "workflow/snapshots/2026-10-06-west-020-before.json", "sourceConfig": "workflow/source-config.json", "historicalEvidence": "workflow/evidence/west-020-shepherds-pie.json", "historicalAudit": "An older text-and-unit run exists; it does not complete this local-image refresh batch." } },
-    "ingestion": { "status": "pending", "attempts": 0 },
-    "edit": { "status": "pending", "attempts": 0 },
-    "validator": { "status": "pending", "attempts": 0 },
-    "review": { "status": "pending", "attempts": 0 },
-    "build": { "status": "pending", "attempts": 0 },
-    "gitPush": { "status": "pending", "attempts": 0 }
+    "research": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "batchId": "2026-09-16-source-image-refresh-21",
+        "beforeSnapshot": "workflow/snapshots/2026-10-06-west-020-before.json",
+        "sourceConfig": "workflow/source-config.json",
+        "historicalEvidence": "workflow/evidence/west-020-shepherds-pie.json",
+        "historicalAudit": "An older text-and-unit run exists; it does not complete this local-image refresh batch.",
+        "agent": "Codex researcher role",
+        "sourceMode": "multi_source",
+        "selectedSourceUrl": "https://www.seriouseats.com/shepherds-pie-beef-lamb-recipe",
+        "evidencePath": "workflow/evidence/2026-10-06-west-020-source-images-final.json",
+        "evidenceSha256LF": "dbec40b13088ae4848135985328693e9eac000a37411d48a288f7a394c4982c3",
+        "decisionPath": "workflow/evidence-decisions/2026-10-06-west-020.json",
+        "decisionSha256LF": "ede61a894dd8fbbc797dc2bd87bb02eeb31f031bb47e8c0b11c862f12e429000",
+        "manifestSha256LF": "7840e70c043939f2a8405be8b075294935959d4f3da128b0aef159923680a4b3",
+        "qualifyingSources": 2,
+        "allQualifyingSourcesIngested": true
+      }
+    },
+    "ingestion": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "mediaManifestPath": "workflow/media-manifests/2026-10-06-west-020.json",
+        "mediaImportPath": "workflow/media-imports/2026-10-06-west-020.json",
+        "localImages": 6,
+        "heroImages": 1,
+        "mappedStepImages": 5,
+        "totalBytes": 704672,
+        "httpStatus": 200,
+        "imageTypeAndSha256Verified": true,
+        "orchestratorViewedAllImages": true,
+        "ragCorrectionAndRetrieval": "PASS",
+        "selectedDocumentId": "1f2ef371-7676-47d9-b872-98dff43a9652",
+        "otherQualifyingDocumentId": "cb283a82-14fe-499e-92fc-88467912f1be",
+        "documentsDeduplicated": 2,
+        "embedded": false,
+        "currentDocuments": 2,
+        "currentChunks": 11,
+        "semanticResults": 10,
+        "hybridResults": 10,
+        "embeddingModel": "voyage-4",
+        "actualEmbeddingDimension": 1024,
+        "ragAuditPath": "workflow/evidence/2026-10-06-west-020-source-images-final.json#notes"
+      }
+    },
+    "edit": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "agent": "Codex editor role",
+        "evidencePath": "workflow/evidence/2026-10-06-west-020-source-images-final.json",
+        "evidenceSha256LF": "dbec40b13088ae4848135985328693e9eac000a37411d48a288f7a394c4982c3",
+        "targetOnlyDiff": true,
+        "ingredientRows": 23,
+        "steps": 8,
+        "sourceStepImages": 5
+      }
+    },
+    "validator": {
+      "status": "done",
+        "attempts": 4,
+      "details": {
+        "resultPath": "workflow/validation-results/2026-10-06-west-020.json",
+        "ok": true,
+        "checksPassed": 10,
+        "errors": 0,
+        "htmlDemo": "PASS",
+        "browserRoutes": 9,
+        "browserErrors": 0,
+        "staticBuild": "PASS",
+        "timerOverrides": "all nullable because no published step has a single supported phase duration"
+      }
+    },
+    "review": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "resultPath": "workflow/reviews/2026-10-06-west-020.json",
+        "status": "PASS",
+        "evidencePackageHash": "dbec40b13088ae4848135985328693e9eac000a37411d48a288f7a394c4982c3",
+        "validatorPassed": true,
+        "adversarialReview": {
+          "ingredientSemantics": true,
+          "stepGrammar": true,
+          "punctuation": true,
+          "renderedStructure": true
+        }
+      }
+    },
+    "build": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "deterministicCommand": "npm run test:workflow:deterministic",
+        "resultPath": "workflow/validation-results/2026-10-06-west-020-deterministic.json",
+        "testsPassed": true,
+        "staticBuild": "PASS",
+        "routesChecked": 9,
+        "browserErrors": 0
+      }
+    },
+    "gitPush": { "status": "in_progress", "attempts": 1 }
   },
-  "sources": [],
+  "sources": [
+    {
+      "name": "BBC Good Food",
+      "url": "https://www.bbcgoodfood.com/recipes/no-fuss-shepherds-pie",
+      "qualified": true,
+      "selected": false,
+      "images": { "hero": 1, "mappedSteps": 0 }
+    },
+    {
+      "name": "Serious Eats",
+      "url": "https://www.seriouseats.com/shepherds-pie-beef-lamb-recipe",
+      "qualified": true,
+      "selected": true,
+      "images": { "hero": 1, "mappedSteps": 5 }
+    }
+  ],
   "errors": [],
   "branch": "codex/recipe-automation",
   "commit": null

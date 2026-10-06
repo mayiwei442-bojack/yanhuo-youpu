@@ -10610,75 +10610,147 @@ window.YANHUO_RECIPES = [
     "ingredients": [
       {
         "id": "ingredient-01",
-        "name": "食用油",
-        "label": "食用油适量",
+        "name": "淀粉质土豆",
+        "label": "淀粉质土豆（Russet）1.6千克，约4个大土豆，去皮切约2.5厘米块",
         "isCore": false
       },
       {
         "id": "ingredient-02",
-        "name": "大洋葱",
-        "label": "大洋葱1个",
+        "name": "清水",
+        "label": "清水适量（漂洗和煮土豆用）",
         "isCore": false
       },
       {
         "id": "ingredient-03",
-        "name": "中等胡萝卜",
-        "label": "中等胡萝卜2—3根",
-        "isCore": true
-      },
-      {
-        "id": "ingredient-04",
-        "name": "羊肉末",
-        "label": "羊肉末500克",
-        "isCore": true
-      },
-      {
-        "id": "ingredient-05",
-        "name": "番茄膏",
-        "label": "番茄膏2汤匙",
-        "isCore": true
-      },
-      {
-        "id": "ingredient-06",
-        "name": "伍斯特酱",
-        "label": "伍斯特酱适量",
+        "name": "犹太盐",
+        "label": "犹太盐适量（煮土豆及调味）",
         "isCore": false
       },
       {
+        "id": "ingredient-04",
+        "name": "无盐黄油",
+        "label": "无盐黄油85克，切块",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-05",
+        "name": "低钠鸡汤",
+        "label": "低钠鸡汤360毫升",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-06",
+        "name": "无味明胶",
+        "label": "无味明胶14克",
+        "isCore": true
+      },
+      {
         "id": "ingredient-07",
-        "name": "牛高汤",
-        "label": "牛高汤500毫升",
+        "name": "植物油",
+        "label": "植物油30毫升",
         "isCore": false
       },
       {
         "id": "ingredient-08",
-        "name": "土豆",
-        "label": "土豆900克",
-        "isCore": false
+        "name": "羊肉末",
+        "label": "羊肉末1千克（采用传统羊肉版本）",
+        "isCore": true
       },
       {
         "id": "ingredient-09",
-        "name": "黄油",
-        "label": "黄油85克",
+        "name": "大黄洋葱",
+        "label": "大黄洋葱1个约400克，切丁",
         "isCore": false
       },
       {
         "id": "ingredient-10",
-        "name": "牛奶",
-        "label": "牛奶3汤匙",
-        "isCore": false
+        "name": "中等胡萝卜",
+        "label": "中等胡萝卜3根约225克，切丁",
+        "isCore": true
       },
       {
         "id": "ingredient-11",
-        "name": "盐",
-        "label": "盐适量",
+        "name": "芹菜梗",
+        "label": "芹菜梗2根约110克，切丁",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-12",
+        "name": "中等蒜瓣",
+        "label": "中等蒜瓣2瓣，切末",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-13",
+        "name": "番茄膏",
+        "label": "番茄膏30毫升",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-14",
+        "name": "干红葡萄酒",
+        "label": "干红葡萄酒240毫升",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-15",
+        "name": "百里香枝",
+        "label": "百里香枝2枝",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-16",
+        "name": "月桂叶",
+        "label": "月桂叶1片",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-17",
+        "name": "伍斯特酱",
+        "label": "伍斯特酱15毫升",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-18",
+        "name": "Marmite酵母酱",
+        "label": "Marmite酵母酱5毫升（可选）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-19",
+        "name": "通用面粉",
+        "label": "通用面粉15克",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-20",
+        "name": "冷冻豌豆",
+        "label": "冷冻豌豆225克",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-21",
+        "name": "现磨黑胡椒",
+        "label": "现磨黑胡椒适量",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-22",
+        "name": "浓奶油",
+        "label": "浓奶油360毫升",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-23",
+        "name": "帕玛森芝士碎",
+        "label": "帕玛森芝士碎适量（可选）",
         "isCore": false
       }
     ],
     "steps": [
       {
         "id": "step-01",
-        "instruction": "洋葱和胡萝卜切碎。中号锅中加入适量食用油并烧热，放入洋葱和胡萝卜，翻炒几分钟至变软。",
+        "instruction": "将土豆块放入漏篮，用冷水冲洗至水变清。放入大锅，加冷水至高出土豆至少5厘米；加犹太盐，咸度接近海水。大火煮沸后转中小火，煮10—15分钟，至刀尖能毫无阻力地刺穿土豆。沥水后用热水冲洗30秒，倒入大碗。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
@@ -10688,17 +10760,19 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "step-02",
-        "instruction": "调高火力，将500克羊肉末掰散入锅，边炒边继续拨散，至羊肉上色；倒掉锅中多余油脂。加入2汤匙番茄膏和适量伍斯特酱，再炒几分钟。",
+        "instruction": "用土豆压泥器、食物磨或薯泥压榨器把土豆与85克黄油压成泥，抹平表面并紧贴薯泥覆盖保鲜膜以防表面结皮，备用。",
         "duration": null,
-        "heat": "high",
+        "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
-        "gameAction": "add",
-        "safetyNote": ""
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/west-020-shepherds-pie/step-02.webp",
+        "imageSource": "https://www.seriouseats.com/shepherds-pie-beef-lamb-recipe"
       },
       {
         "id": "step-03",
-        "instruction": "倒入500毫升牛高汤，煮至微沸后加盖煮40分钟；煮到20分钟时揭盖，继续煮余下20分钟。",
+        "instruction": "将360毫升低钠鸡汤倒入量杯，均匀撒入14克无味明胶，静置备用。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
@@ -10708,39 +10782,87 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "step-04",
-        "instruction": "同时将烤箱预热至180℃，风扇烤箱160℃。土豆切块，放入加盐水中煮10—15分钟至软；沥干后加入85克黄油和3汤匙牛奶，压成薯泥。",
-        "duration": 900,
-        "heat": null,
-        "timerRequired": true,
-        "ingredientsUsed": [],
-        "gameAction": "add",
-        "safetyNote": ""
-      },
-      {
-        "id": "step-05",
-        "instruction": "将羊肉馅铺入耐热烤盘，完全盖上薯泥并用叉子划出纹路。放入预热好的烤箱烤20—25分钟，至顶部开始上色且羊肉馅从边缘冒泡；出炉静置5分钟再食用。",
+        "instruction": "大号荷兰锅中高火加热30毫升植物油至油面发亮。放入一半羊肉末，边炒边刮锅底，煎6—8分钟至充分褐变，用土豆压泥器或大号打蛋器拨散；加入剩余羊肉末，继续拨散约3分钟至碎小颗粒，必要时调低火力以免焦煳。若析出油脂过多，舀出大部分，仅留几汤匙；加入洋葱、胡萝卜、芹菜和蒜，翻炒并刮锅底约4分钟，至刚开始变软。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/west-020-shepherds-pie/step-04.webp",
+        "imageSource": "https://www.seriouseats.com/shepherds-pie-beef-lamb-recipe"
+      },
+      {
+        "id": "step-05",
+        "instruction": "转中火加入番茄膏，边搅拌边炒1分钟。倒入干红葡萄酒并以高火煮至微沸，刮起锅底褐色焦香物，继续煮至酒液几乎收干。加入预先混合的鸡汤和明胶、百里香、月桂叶、伍斯特酱及可选Marmite；将面粉均匀撒在肉馅上并拌匀。煮至微沸后转小火，煮约20分钟至肉汁收浓；取出百里香枝和月桂叶，拌入冷冻豌豆，以犹太盐和黑胡椒调味。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/west-020-shepherds-pie/step-05.webp",
+        "imageSource": "https://www.seriouseats.com/shepherds-pie-beef-lamb-recipe"
+      },
+      {
+        "id": "step-06",
+        "instruction": "烤箱架调至中层并预热至220℃。组装前将浓奶油加热至微沸，倒入薯泥中轻轻拌匀，再以盐和黑胡椒调味。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/west-020-shepherds-pie/step-06.webp",
+        "imageSource": "https://www.seriouseats.com/shepherds-pie-beef-lamb-recipe"
+      },
+      {
+        "id": "step-07",
+        "instruction": "将肉馅盛入约23×33厘米的烤盘，肉馅高度不要超过烤盘一半（视烤盘大小，可能不必用完全部肉馅）。上面铺满薯泥，用刮刀抹平并做出起伏纹理；按需撒帕玛森芝士。将烤盘放在铺有锡纸的带边烤盘上接住溢出的肉汁。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
         "safetyNote": ""
+      },
+      {
+        "id": "step-08",
+        "instruction": "入220℃烤箱烤约20分钟，至顶部上色且整盘热透。如需更深的焦色，可在最后短暂移至距上火约15厘米处炙烤，并密切观察以免薯泥烤焦。出炉静置15—20分钟再分装食用。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/west-020-shepherds-pie/step-08.webp",
+        "imageSource": "https://www.seriouseats.com/shepherds-pie-beef-lamb-recipe"
       }
     ],
-    "imageThumb": "assets/dishes/thumbnails/65-shepherds-pie.jpg",
-    "imageFull": "assets/dishes/ai/65-shepherds-pie.png",
-    "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2",
-    "time": 125,
-    "timeBasis": "estimated",
+    "imageThumb": "assets/dishes/sources/west-020-shepherds-pie/hero.webp",
+    "imageFull": "assets/dishes/sources/west-020-shepherds-pie/hero.webp",
+    "source": "https://www.seriouseats.com/shepherds-pie-beef-lamb-recipe",
+    "media": {
+      "sourceName": "Serious Eats",
+      "recipePageUrl": "https://www.seriouseats.com/shepherds-pie-beef-lamb-recipe",
+      "mediaPageUrl": "https://www.seriouseats.com/shepherds-pie-beef-lamb-recipe",
+      "author": "Vicky Wasik",
+      "rightsNotice": "Serious Eats / Vicky Wasik",
+      "reuseLicense": null,
+      "repositoryCopyAuthorization": "user_confirmed_2026-09-16"
+    },
+    "time": 145,
+    "timeBasis": "source",
     "difficulty": "进阶",
-    "defaultServings": 2,
+    "defaultServings": 8,
     "allergens": [
-      "dairy"
+      "dairy",
+      "wheat"
     ],
     "flags": {
       "containsPork": false,
-      "containsBeef": true,
-      "containsAlcohol": false,
+      "containsBeef": false,
+      "containsAlcohol": true,
       "spicy": false,
       "vegetarian": false
     },
