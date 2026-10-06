@@ -9574,20 +9574,20 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "ingredient-02",
-        "name": "干意大利面",
-        "label": "干意大利面450克",
+        "name": "干意大利长面",
+        "label": "干意大利长面450克",
         "isCore": true
       },
       {
         "id": "ingredient-03",
         "name": "意式腌猪颊肉",
-        "label": "意式腌猪颊肉85克",
+        "label": "意式腌猪颊肉85克（可用意式腌五花肉或培根替代）",
         "isCore": true
       },
       {
         "id": "ingredient-04",
         "name": "特级初榨橄榄油",
-        "label": "特级初榨橄榄油45毫升（分次使用）",
+        "label": "特级初榨橄榄油45毫升（分次使用，先用30毫升，另留15毫升）",
         "isCore": false
       },
       {
@@ -9605,34 +9605,34 @@ window.YANHUO_RECIPES = [
       {
         "id": "ingredient-07",
         "name": "佩科里诺罗马诺芝士",
-        "label": "佩科里诺罗马诺芝士25克，另备少许装盘",
+        "label": "佩科里诺罗马诺芝士25克，另备适量装盘",
         "isCore": false
       },
       {
         "id": "ingredient-08",
         "name": "帕玛森芝士",
-        "label": "帕玛森芝士25克，另备少许装盘",
+        "label": "帕玛森芝士25克，另备适量装盘",
         "isCore": false
       },
       {
         "id": "ingredient-09",
         "name": "现磨黑胡椒",
-        "label": "现磨黑胡椒1茶匙，另备少许装盘",
+        "label": "现磨黑胡椒1茶匙（磨至中粗，另备适量装盘）",
         "isCore": false
       },
       {
         "id": "ingredient-10",
-        "name": "预留煮面水",
-        "label": "预留煮面水适量",
+        "name": "清水",
+        "label": "清水适量（煮面用，另预留120毫升煮面水）",
         "isCore": false
       }
     ],
     "steps": [
       {
         "id": "step-01",
-        "instruction": "大锅水中只加少量盐，以高火煮沸，放入450克意大利面煮至有嚼劲；腌猪肉和芝士本身较咸，不要过度加盐。面煮好时预留适量煮面水，并让煮面锅中的其余水继续保持沸腾。",
+        "instruction": "锅中加入足量清水以浸没意面，加入犹太盐并煮至沸腾；面水不要过咸。放入450克干意大利长面，边搅拌边煮至有嚼劲。煮好后量取并预留120毫升煮面水，锅中其余沸腾煮面水不要倒掉，留作后续隔水加热。",
         "duration": null,
-        "heat": "high",
+        "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "add",
@@ -9640,56 +9640,72 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "step-02",
-        "instruction": "意式腌猪颊肉冷藏后切丁，与2汤匙橄榄油一同放入锅中；中火频繁翻动约7分钟，至油脂析出、肉丁酥脆。",
+        "instruction": "意式腌猪颊肉（或意式腌五花肉、培根）切丁前可充分冷藏，便于操作。将85克肉丁与2汤匙（30毫升）特级初榨橄榄油放入大煎锅，中火加热并频繁翻动约7分钟，至油脂析出、肉丁酥脆。",
         "duration": 420,
         "heat": "medium",
         "timerRequired": true,
         "ingredientsUsed": [],
         "gameAction": "add",
-        "safetyNote": ""
+        "safetyNote": "",
+        "image": "assets/dishes/sources/west-011-carbonara/step-2.webp",
+        "imageSource": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe"
       },
       {
         "id": "step-03",
-        "instruction": "在大号金属耐热碗中，将2个全蛋、6个蛋黄、25克佩科里诺、25克帕玛森和1茶匙黑胡椒充分搅匀。",
+        "instruction": "在大号金属耐热搅拌碗中，将2个大鸡蛋的全蛋液、6个蛋黄、25克磨碎的佩科里诺罗马诺芝士、25克磨碎的帕玛森芝士和1茶匙中粗现磨黑胡椒充分搅匀；选用能架在煮面锅上且碗底不碰水的碗。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
-        "gameAction": "confirm",
-        "safetyNote": ""
+        "gameAction": "stir",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/west-011-carbonara/step-3.webp",
+        "imageSource": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe"
       },
       {
         "id": "step-04",
-        "instruction": "将意大利面直接移入猪颊肉锅中，加入剩余1汤匙橄榄油，拌匀后稍微降温；再将面、猪颊肉和锅中油脂全部倒入蛋液碗，加入适量预留煮面水并拌匀。",
+        "instruction": "用夹子和/或滤网把意面移入有酥脆肉丁及其油脂的煎锅，不要倒掉沸腾的煮面水。加入剩余1汤匙（15毫升）特级初榨橄榄油并拌匀，稍微放凉。把意面、肉丁和全部油脂刮入蛋液混合物，加入预留的1/2杯（120毫升）煮面水并充分拌匀。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "add",
-        "safetyNote": ""
+        "safetyNote": "",
+        "image": "assets/dishes/sources/west-011-carbonara/step-4.webp",
+        "imageSource": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe"
       },
       {
         "id": "step-05",
-        "instruction": "将耐热碗架在仍沸腾的煮面水锅上，碗底不要接触水；利用温和蒸汽加热，同时用夹子快速、持续翻拌，至蛋液乳化成顺滑浓稠、划过会留下纹路的酱汁。立即装盘，撒预留芝士和黑胡椒。",
+        "instruction": "将搅拌碗架在盛有沸腾煮面水的锅上，确保碗底不碰水。用夹子快速、持续翻拌，至酱汁变得浓稠、顺滑且搅拌会留下纹路；持续翻拌以免蛋液凝结成块。达到状态后立即离火，必要时加盐调味，分装入碗，按需撒额外芝士和现磨黑胡椒，立即食用。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
-        "gameAction": "wait",
-        "safetyNote": ""
+        "gameAction": "stir",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/west-011-carbonara/step-5.webp",
+        "imageSource": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe"
       }
     ],
-    "imageThumb": "assets/dishes/thumbnails/56-spaghetti-carbonara.jpg",
-    "imageFull": "assets/dishes/ai/56-spaghetti-carbonara.png",
-    "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2",
-    "time": 15,
-    "timeBasis": "estimated",
+    "imageThumb": "assets/dishes/sources/west-011-carbonara/hero.webp",
+    "imageFull": "assets/dishes/sources/west-011-carbonara/hero.webp",
+    "source": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+    "media": {
+      "sourceName": "Serious Eats",
+      "recipePageUrl": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+      "mediaPageUrl": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+      "author": "Vicky Wasik",
+      "rightsNotice": "Serious Eats / Vicky Wasik",
+      "reuseLicense": null,
+      "repositoryCopyAuthorization": "user_confirmed_2026-09-16"
+    },
+    "time": 30,
+    "timeBasis": "source",
     "difficulty": "进阶",
-    "defaultServings": 2,
+    "defaultServings": 4,
     "allergens": [
       "dairy",
-      "egg",
-      "wheat"
+      "egg"
     ],
     "flags": {
       "containsPork": true,

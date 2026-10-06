@@ -1,0 +1,574 @@
+{
+  "recipeId": "west-011",
+  "recipeName": "意式培根蛋面",
+  "category": "western",
+  "createdAt": "2026-10-06T11:16:42Z",
+  "sourceMode": "multi_source",
+  "selectedSourceUrl": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+  "selectionReason": "两独立来源配方完整且内部自洽；Serious Eats有成品及4张清晰过程拼图，覆盖4/5源步骤，优于BBC的1/12低清过程缩略图，因此按图片优先顺序整份采用Serious Eats，不跨源补事实或照片。",
+  "sources": [
+    {
+      "sourceName": "Serious Eats",
+      "sourceType": "website",
+      "url": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+      "documentId": "17a2aed3-bf61-47d1-ae2b-a38436d55521",
+      "retrievalMethod": "公开web reader当前完整配方、原文Notes/Equipment/低风险技法；普通fetch402已记录",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "犹太盐",
+          "amount": null,
+          "raw": "Kosher salt (see notes)"
+        },
+        {
+          "name": "干意大利长面",
+          "amount": "1 pound (450 g)",
+          "raw": "1 pound (450 g) dried spaghetti (see notes)"
+        },
+        {
+          "name": "意式腌猪颊肉（可选意式腌五花肉或培根）",
+          "amount": "1/2 cup (about 3 ounces; 85 g)",
+          "raw": "1/2 cup diced guanciale, pancetta, or bacon (about 3 ounces; 85 g) (see notes)"
+        },
+        {
+          "name": "特级初榨橄榄油",
+          "amount": "3 tablespoons (45 ml), divided; 30ml + 15ml",
+          "raw": "3 tablespoons (45 ml) extra-virgin olive oil, divided"
+        },
+        {
+          "name": "大鸡蛋",
+          "amount": "2 whole large eggs",
+          "raw": "2 whole large eggs plus 6 yolks"
+        },
+        {
+          "name": "蛋黄",
+          "amount": "6 yolks",
+          "raw": "2 whole large eggs plus 6 yolks"
+        },
+        {
+          "name": "佩科里诺罗马诺芝士",
+          "amount": "1/4 cup (about 1 ounce; 25 g), plus more for serving",
+          "raw": "1/4 cup grated Pecorino Romano (about 1 ounce; 25 g), plus more for serving"
+        },
+        {
+          "name": "帕玛森芝士",
+          "amount": "1/4 cup (about 1 ounce; 25 g), plus more for serving",
+          "raw": "1/4 cup grated Parmigiano-Reggiano (about 1 ounce; 25 g), plus more for serving"
+        },
+        {
+          "name": "现磨黑胡椒",
+          "amount": "1 teaspoon, plus more for serving",
+          "raw": "1 teaspoon freshly ground black pepper (ground medium-coarse), plus more for serving"
+        },
+        {
+          "name": "煮面用水及预留煮面水",
+          "amount": "submerging water unspecified; 1/2 cup (120ml) reserved",
+          "raw": "Bring a pot of salted water to a boil. Measure 1/2 cup (120ml) pasta-cooking water and add to pasta and egg mixture."
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "一锅水加盐煮沸，放入450克干意大利长面，边搅拌边煮至有嚼劲。注意煮面水不要过咸，用水以能浸没意面为宜，稍后要保留沸腾的煮面水。",
+          "duration": null,
+          "heat": null,
+          "originalInstruction": "Bring a pot of salted water to a boil. Add pasta and cook, stirring, until al dente."
+        },
+        {
+          "order": 2,
+          "instruction": "同时将切丁的85克意式腌猪颊肉（可选意式腌五花肉或培根）与2汤匙（30毫升）特级初榨橄榄油放入大煎锅，中火加热并频繁翻动，约7分钟至油脂析出、肉丁酥脆。肉切丁前充分冷藏更易操作。",
+          "duration": "约7分钟",
+          "heat": "中火",
+          "originalInstruction": "Meanwhile, combine guanciale (or pancetta or bacon) with 2 tablespoons (30ml) olive oil in a large skillet and cook, stirring frequently, over medium heat, until fat has rendered and guanciale is crisp, about 7 minutes."
+        },
+        {
+          "order": 3,
+          "instruction": "在大号金属耐热搅拌碗中，将2个大鸡蛋的全蛋液、6个蛋黄、25克磨碎的佩科里诺罗马诺芝士、25克磨碎的帕玛森芝士和1茶匙中粗度现磨黑胡椒充分搅匀。选碗要能架在煮面锅上，碗底不碰水。",
+          "duration": null,
+          "heat": null,
+          "originalInstruction": "In a large, metal heatproof mixing bowl, whisk together whole eggs and yolks, Pecorino Romano, Parmigiano-Reggiano, and black pepper."
+        },
+        {
+          "order": 4,
+          "instruction": "用夹子和/或滤网把煮好的意面移入有酥脆肉丁及其油脂的煎锅，不要倒掉锅中的沸腾煮面水。加入剩余1汤匙（15毫升）橄榄油并拌匀，稍微放凉。把意面、肉丁及全部油脂刮入蛋液混合物，量取1/2杯（120毫升）煮面水加入，再充分拌匀。",
+          "duration": null,
+          "heat": null,
+          "originalInstruction": "Using tongs and/or a strainer, transfer pasta to skillet with crisped guanciale and its fat; be sure not to drain boiling pasta water. Add remaining 1 tablespoon (15ml) olive oil to pasta and stir to combine; let cool slightly. Scrape pasta, pork, and all the fat into the egg mixture. Measure 1/2 cup (120ml) pasta-cooking water and add to pasta and egg mixture. Stir well to combine."
+        },
+        {
+          "order": 5,
+          "instruction": "将搅拌碗架在盛有沸腾煮面水的锅上，确保碗底不碰水。用夹子快速、持续翻拌，至酱汁变得浓稠、顺滑且搅拌会留下纹路。即使隔水加热也需不停翻拌以免蛋液凝结成块。移离热源，必要时加盐调味，分装入碗。按需撒额外磨碎的芝士和现磨黑胡椒，立即食用。",
+          "duration": null,
+          "heat": null,
+          "originalInstruction": "Set mixing bowl over pot of boiling pasta water (make sure bottom of bowl does not touch the water) and cook, stirring quickly with tongs, until sauce thickens to a creamy, silky consistency and leaves trails as you stir. Remove from heat, season with salt if needed, and divide into bowls. Serve right away, topping with more grated cheese and freshly ground pepper as desired."
+        }
+      ],
+      "technique": [
+        "准备5分钟，烹饪25分钟，整道总用时30分钟，4人份。",
+        "大号金属耐热搅拌碗须能架在煮面锅上，碗底不能接触沸水。",
+        "用多数蛋黄搭配少量全蛋，两种芝士各半，隔水加热完成酱汁；这是配方采用的低风险路线，不采用正文另外讨论的平底锅直接加热路线。"
+      ],
+      "tips": [
+        "煮面水不要过咸，因为部分面水要加入已含咸肉与咸芝士的酱汁。",
+        "腌猪肉切丁前充分冷藏，室温下富含脂肪的肉不易切。",
+        "可选其他干面如通心粉；腌猪颊肉脂肪和香料风味较重，意式腌五花肉猪肉味较纯，烟熏培根带烟熏味，按喜好选择。",
+        "隔水加热仍要持续翻拌，蛋液最终也会炒散；酱汁达标立即分碗食用，不能久放。"
+      ],
+      "rawExcerpt": "Spaghetti With Carbonara Sauce Recipe\nFoolproof silky, guanciale- and cheese-sauced spaghetti carbonara.\nBy Daniel Gritzer\nUpdated on January 16, 2026\nWhy It Works\nUsing mostly egg yolks with a few whole eggs results in a perfectly rich and tight sauce, showcasing the ideal balance of texture without becoming overwhelming.\nChoosing a 50/50 mix of Pecorino Romano and Parmigiano-Reggiano delivers that essential Roman flavor without making the pasta taste excessively salty or sharp.\nUsing a double boiler technique to combine everything at the end ensures the egg yolks thicken into a creamy, cohesive sauce without curdling, providing a silky finish.\nNo matter which type of cured pork you end up using, it always helps to chill it well before attempting to dice it, since fatty pork can be frustratingly squirmy at room temperature.\nLet's quickly review the way we finish most pastas: First, we cook the pasta in salted water (but don't make it too salty), using only as much water as we need to submerge the pasta. The less water we use relative to the pasta, the starchier the water will be, which will help bind and thicken the final sauce.\nLower Risk: The Double-Boiler Hack\nIt occurred to me while I was working on this that I had everything I needed to set up a makeshift double boiler: a pot of boiling water and a large mixing bowl that I can nest on top. As anyone who's ever made an egg-based sauce like hollandaise or crème anglaise knows, one of the best ways to ensure that you don't scramble the egg is to cook it in a double boiler, as the steam heat on the bottom of the top chamber is gentler than a direct flame under a pan.\nSince carbonara is essentially a savory custard sauce, it's a trick that works just as well here. This is now my preferred method, and the one I'm giving in this recipe. The key is to not drain the pasta pot, since you'll use the boiling water to heat the mixing bowl.\nTo do it, cook the pasta and pork as usual, and mix the eggs and cheese in a large mixing bowl, just as described above. Make sure to choose a mixing bowl that will nest well over the pasta pot without the bottom touching the water. Then, using tongs and/or a strainer, transfer the pasta to the skillet with the pork and scrape it all together into the big mixing bowl with the egg-and-cheese mixture. Once again, add some of that pasta water and give it all a good toss.\nThen nest the mixing bowl on top of the still-simmering pasta pot and stir constantly until the sauce thickens up. You still need to stir constantly, because the egg will eventually scramble even in a double boiler, but this setup gives you some insurance against it happening so rapidly that you don't even realize it before it's too late.\nAs soon as it's ready, transfer it to bowls and serve. Then eat it right away: This is not a dish that gets better as it sits.\nPrep Time: 5 mins\nCook Time: 25 mins\nTotal Time: 30 mins\nServings: 4 servings\nYield: Serves 4\nIngredients\nKosher salt (see notes)\n1 pound (450 g) dried spaghetti (see notes)\n1/2 cup diced guanciale, pancetta, or bacon (about 3 ounces; 85 g) (see notes)\n3 tablespoons (45 ml) extra-virgin olive oil, divided\n2 whole large eggs plus 6 yolks\n1/4 cup grated Pecorino Romano (about 1 ounce; 25 g), plus more for serving\n1/4 cup grated Parmigiano-Reggiano (about 1 ounce; 25 g), plus more for serving\n1 teaspoon freshly ground black pepper (ground medium-coarse), plus more for serving\nDirections\n1. Bring a pot of salted water to a boil. Add pasta and cook, stirring, until al dente.\n2. Meanwhile, combine guanciale (or pancetta or bacon) with 2 tablespoons (30ml) olive oil in a large skillet and cook, stirring frequently, over medium heat, until fat has rendered and guanciale is crisp, about 7 minutes.\n3. In a large, metal heatproof mixing bowl, whisk together whole eggs and yolks, Pecorino Romano, Parmigiano-Reggiano, and black pepper.\n4. Using tongs and/or a strainer, transfer pasta to skillet with crisped guanciale and its fat; be sure not to drain boiling pasta water. Add remaining 1 tablespoon (15ml) olive oil to pasta and stir to combine; let cool slightly. Scrape pasta, pork, and all the fat into the egg mixture. Measure 1/2 cup (120ml) pasta-cooking water and add to pasta and egg mixture. Stir well to combine.\n5. Set mixing bowl over pot of boiling pasta water (make sure bottom of bowl does not touch the water) and cook, stirring quickly with tongs, until sauce thickens to a creamy, silky consistency and leaves trails as you stir. Remove from heat, season with salt if needed, and divide into bowls. Serve right away, topping with more grated cheese and freshly ground pepper as desired.\nSpecial Equipment\nLarge, metal heatproof mixing bowl (large enough to nest on top of the pasta pot without the bottom touching the boiling water)\nNotes\nRemember not to oversalt your pasta water; you'll add some of it to your sauce, which will already have salty ingredients. Feel free to substitute another dried pasta, such as penne, if desired. Guanciale, cured pork jowl, is generally considered the most authentic choice here; it's fattier than pancetta or bacon and often more heavily spiced, creating a pasta with pronounced spice notes and an extra-unctuous texture.\nPancetta delivers the cleanest porky flavor, while American bacon, though less traditional, adds a hit of pleasant smoke. Use whichever you prefer.",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 1,
+        "mappedStepImages": 4,
+        "stepImageCoverage": 0.8,
+        "ingredientCount": 10,
+        "executableStepCount": 5,
+        "notes": [
+          "8行源食材拆开全蛋/蛋黄，并补步骤明确的煮面水，共10项。全部5步完整保留；第1步无独立图片，保持文字。",
+          "总30分钟，准备5/烹饪25，4份；操作无任意默认火力和温度。"
+        ]
+      },
+      "media": {
+        "recipePageUrl": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+        "mediaPageUrl": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+        "sourceName": "Serious Eats",
+        "author": "Vicky Wasik",
+        "rightsNotice": "Serious Eats / Vicky Wasik",
+        "reuseLicense": null,
+        "repositoryCopyAuthorized": true,
+        "hero": {
+          "role": "hero",
+          "originalUrl": "https://www.seriouseats.com/thmb/5aKCalIkNFzVMKs-dFYlEkkCnR8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2016__02__20151118-spaghetti-carbonara-vicky-wasik-27-5ed8e4c860c945f0a3c4315a25a7001b.jpg",
+          "repositoryPath": "assets/dishes/sources/west-011-carbonara/hero.webp",
+          "httpStatus": 200,
+          "contentType": "image/webp",
+          "pageOrder": 1,
+          "adjacentText": "Carbonara sauce is quick, easy, and requires just a little finesse. .",
+          "author": "Vicky Wasik",
+          "recipeAuthor": "Daniel Gritzer",
+          "sourceName": "Serious Eats",
+          "rightsNotice": "Serious Eats / Vicky Wasik",
+          "reuseLicense": null,
+          "recipePageUrl": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+          "mediaPageUrl": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+          "visualVerified": true,
+          "visualReview": "成品意面挂满光滑酱汁，叉子卷起一束；不是步骤图。",
+          "sourceBytesSha256": "012d0b0ac82f41b608f753b83eaf66d935bd8426684230fc03a48b6ee933cd7b",
+          "sha256": "012d0b0ac82f41b608f753b83eaf66d935bd8426684230fc03a48b6ee933cd7b"
+        },
+        "steps": [
+          {
+            "role": "step",
+            "originalUrl": "https://www.seriouseats.com/thmb/22GqBrLR3NgyGtsy07VGrn121Sk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2015__11__20151118-spaghetti-carbonara-COLLAGE-3-033d6a7784d140e4ae984bb9b72a0ade.jpg",
+            "repositoryPath": "assets/dishes/sources/west-011-carbonara/step-2.webp",
+            "stepOrder": 2,
+            "sourceStepOrder": 2,
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "pageOrder": 7,
+            "adjacentText": "Meanwhile, combine guanciale (or pancetta or bacon) with 2 tablespoons (30ml) olive oil in a large skillet and cook, stirring frequently, over medium heat, until fat has rendered and guanciale is crisp, about 7 minutes.",
+            "author": "Vicky Wasik",
+            "recipeAuthor": "Daniel Gritzer",
+            "sourceName": "Serious Eats",
+            "rightsNotice": "Serious Eats / Vicky Wasik",
+            "reuseLicense": null,
+            "recipePageUrl": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+            "mediaPageUrl": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+            "visualVerified": true,
+            "visualReview": "两格：左格切腌猪颊肉，右格肉丁与油在大煎锅内翻炒，准确对应源方向2。",
+            "sourceBytesSha256": "4df487115c5154df961905fdfb5942fa054f535141c192f82b120cf221e68cd7",
+            "sha256": "4df487115c5154df961905fdfb5942fa054f535141c192f82b120cf221e68cd7"
+          },
+          {
+            "role": "step",
+            "originalUrl": "https://www.seriouseats.com/thmb/8IdexrEMEXVpnfglj6_KIscFC_U=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2015__11__20151118-spaghetti-carbonara-COLLAGE-5-f513acc2cc29485c924e29d4cab34e72.jpg",
+            "repositoryPath": "assets/dishes/sources/west-011-carbonara/step-3.webp",
+            "stepOrder": 3,
+            "sourceStepOrder": 3,
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "pageOrder": 8,
+            "adjacentText": "In a large, metal heatproof mixing bowl, whisk together whole eggs and yolks, Pecorino Romano, Parmigiano-Reggiano, and black pepper.",
+            "author": "Vicky Wasik",
+            "recipeAuthor": "Daniel Gritzer",
+            "sourceName": "Serious Eats",
+            "rightsNotice": "Serious Eats / Vicky Wasik",
+            "reuseLicense": null,
+            "recipePageUrl": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+            "mediaPageUrl": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+            "visualVerified": true,
+            "visualReview": "两格：左格鸡蛋/蛋黄、芝士、黑胡椒放在大金属碗内，右格用打蛋器搅匀，准确对应源方向3。",
+            "sourceBytesSha256": "d5786fd05770f0ab27527720aa96261d0ee95520e9863172bdc2d27e254efed6",
+            "sha256": "d5786fd05770f0ab27527720aa96261d0ee95520e9863172bdc2d27e254efed6"
+          },
+          {
+            "role": "step",
+            "originalUrl": "https://www.seriouseats.com/thmb/zR54CkYMmz52-UFoE2wim0NUr8E=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2015__11__20151118-spaghetti-carbonara-COLLAGE-1-cff1bf96d3e64da1acf122b9aea52170.jpg",
+            "repositoryPath": "assets/dishes/sources/west-011-carbonara/step-4.webp",
+            "stepOrder": 4,
+            "sourceStepOrder": 4,
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "pageOrder": 9,
+            "adjacentText": "Using tongs and/or a strainer, transfer pasta to skillet with crisped guanciale and its fat; be sure not to drain boiling pasta water. Add remaining 1 tablespoon (15ml) olive oil to pasta and stir to combine; let cool slightly. Scrape pasta, pork, and all the fat into the egg mixture. Measure 1/2 cup (120ml) pasta-cooking water and add to pasta and egg mixture. Stir well to combine.",
+            "author": "Vicky Wasik",
+            "recipeAuthor": "Daniel Gritzer",
+            "sourceName": "Serious Eats",
+            "rightsNotice": "Serious Eats / Vicky Wasik",
+            "reuseLicense": null,
+            "recipePageUrl": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+            "mediaPageUrl": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+            "visualVerified": true,
+            "visualReview": "四格：左上从煮面锅夹出意面、右上意面拌入肉丁油脂、左下倒入蛋液碗、右下倒煮面水，准确对应源方向4，不另映射步骤1。",
+            "sourceBytesSha256": "59277f0d2b0276194f5b411749efd0d8868579fd4c771ff93e2c97e3b4750e98",
+            "sha256": "59277f0d2b0276194f5b411749efd0d8868579fd4c771ff93e2c97e3b4750e98"
+          },
+          {
+            "role": "step",
+            "originalUrl": "https://www.seriouseats.com/thmb/PLRRWkMnLzh5zq8XmEhvFmZcwtI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2015__11__20151118-spaghetti-carbonara-COLLAGE-2-6780e7da09a04dc5a1a6e86b886c376d.jpg",
+            "repositoryPath": "assets/dishes/sources/west-011-carbonara/step-5.webp",
+            "stepOrder": 5,
+            "sourceStepOrder": 5,
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "pageOrder": 10,
+            "adjacentText": "Set mixing bowl over pot of boiling pasta water (make sure bottom of bowl does not touch the water) and cook, stirring quickly with tongs, until sauce thickens to a creamy, silky consistency and leaves trails as you stir. Remove from heat, season with salt if needed, and divide into bowls. Serve right away, topping with more grated cheese and freshly ground pepper as desired.",
+            "author": "Vicky Wasik",
+            "recipeAuthor": "Daniel Gritzer",
+            "sourceName": "Serious Eats",
+            "rightsNotice": "Serious Eats / Vicky Wasik",
+            "reuseLicense": null,
+            "recipePageUrl": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+            "mediaPageUrl": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+            "visualVerified": true,
+            "visualReview": "四格：左上金属碗架在煮面锅上持续翻拌、右上酱汁逐渐变稠、左下继续翻拌、右下夹起意面观察挂汁，准确对应源方向5隔水加热，不是平底锅直接加热。",
+            "sourceBytesSha256": "df5191f1718e55560e355fc442d7d96c860e993ef71ad8181d083dd500c3d57d",
+            "sha256": "df5191f1718e55560e355fc442d7d96c860e993ef71ad8181d083dd500c3d57d"
+          }
+        ]
+      }
+    },
+    {
+      "sourceName": "BBC Good Food",
+      "sourceType": "website",
+      "url": "https://www.bbcgoodfood.com/recipes/ultimate-spaghetti-carbonara-recipe",
+      "documentId": "b27715a8-f50c-45b0-a62a-baea36adc476",
+      "retrievalMethod": "普通HTTP200当前HTML中真实Recipe JSON-LD完整字段+公开正文FAQ",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "意式腌五花肉",
+          "amount": "100g",
+          "raw": "100g pancetta"
+        },
+        {
+          "name": "佩科里诺芝士",
+          "amount": "50g",
+          "raw": "50g pecorino cheese"
+        },
+        {
+          "name": "帕玛森芝士",
+          "amount": "50g",
+          "raw": "50g parmesan"
+        },
+        {
+          "name": "大鸡蛋",
+          "amount": "3",
+          "raw": "3 large eggs"
+        },
+        {
+          "name": "干意大利长面",
+          "amount": "350g",
+          "raw": "350g spaghetti"
+        },
+        {
+          "name": "大蒜",
+          "amount": "2 cloves",
+          "raw": "2 plump garlic cloves peeled and left whole"
+        },
+        {
+          "name": "无盐黄油",
+          "amount": "50g",
+          "raw": "50g unsalted butter"
+        },
+        {
+          "name": "海盐",
+          "amount": "1 tsp to boiling water; a little if needed",
+          "raw": "sea salt and freshly ground black pepper; Add 1 tsp salt to the boiling water; Season with a little salt, if needed."
+        },
+        {
+          "name": "现磨黑胡椒",
+          "amount": null,
+          "raw": "sea salt and freshly ground black pepper"
+        },
+        {
+          "name": "煮面用水及预留煮面水",
+          "amount": "initial water unspecified; several tablespoons and further splash as needed",
+          "raw": "Put a large saucepan of water on to boil. Add extra pasta cooking water to keep it saucy (several tablespoons should do it)."
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "大号长柄锅中加入水，烧至沸腾。",
+          "duration": null,
+          "heat": null,
+          "originalInstruction": "Put a large saucepan of water on to boil."
+        },
+        {
+          "order": 2,
+          "instruction": "100克意式腌五花肉先去皮，再切细。将50克佩科里诺芝士与50克帕玛森芝士细细磨碎并混合。",
+          "duration": null,
+          "heat": null,
+          "originalInstruction": "Finely chop the 100g pancetta, having first removed any rind. Finely grate 50g pecorino cheese and 50g parmesan and mix them together."
+        },
+        {
+          "order": 3,
+          "instruction": "在中号碗中打散3个大鸡蛋，用少量现磨黑胡椒调味；所有备料放在一旁备用。",
+          "duration": null,
+          "heat": null,
+          "originalInstruction": "Beat the 3 large eggs in a medium bowl and season with a little freshly grated black pepper. Set everything aside."
+        },
+        {
+          "order": 4,
+          "instruction": "沸水中加入1茶匙盐、350克意大利长面，待重新沸腾后，盖上锅盖以持续微沸状态煮10分钟或至有嚼劲、刚熟。",
+          "duration": "10分钟",
+          "heat": null,
+          "originalInstruction": "Add 1 tsp salt to the boiling water, add 350g spaghetti and when the water comes back to the boil, cook at a constant simmer, covered, for 10 minutes or until al dente (just cooked)."
+        },
+        {
+          "order": 5,
+          "instruction": "将2瓣去皮的饱满蒜瓣用刀面压一下，只需压破以释放香味。",
+          "duration": null,
+          "heat": null,
+          "originalInstruction": "Squash 2 peeled plump garlic cloves with the blade of a knife, just to bruise it."
+        },
+        {
+          "order": 6,
+          "instruction": "煮面的同时煎肉和蒜：大煎锅或炒锅中加入50克无盐黄油，黄油刚融化就倒入腌五花肉和蒜。",
+          "duration": null,
+          "heat": null,
+          "originalInstruction": "While the spaghetti is cooking, fry the pancetta with the garlic. Drop 50g unsalted butter into a large frying pan or wok and, as soon as the butter has melted, tip in the pancetta and garlic."
+        },
+        {
+          "order": 7,
+          "instruction": "中火煎约5分钟，常翻动，至肉金黄酥脆；蒜香已进入油脂，用漏勺捞出蒜并丢弃。",
+          "duration": "约5分钟",
+          "heat": "中火",
+          "originalInstruction": "Leave to cook on a medium heat for about 5 minutes, stirring often, until the pancetta is golden and crisp. The garlic has now imparted its flavour, so take it out with a slotted spoon and discard."
+        },
+        {
+          "order": 8,
+          "instruction": "肉丁锅保持小火。面煮好后，用意面叉或夹子从水中捞入肉丁锅，少许面水带入锅中是需要的，不要倒掉煮面水。",
+          "duration": null,
+          "heat": "小火",
+          "originalInstruction": "Keep the heat under the pancetta on low. When the pasta is ready, lift it from the water with a pasta fork or tongs and put it in the frying pan with the pancetta. Don’t worry if a little water drops in the pan as well (you want this to happen) and don’t throw the pasta water away yet."
+        },
+        {
+          "order": 9,
+          "instruction": "大部分芝士拌入鸡蛋，留一小把稍后撒在面上。",
+          "duration": null,
+          "heat": null,
+          "originalInstruction": "Mix most of the cheese in with the eggs, keeping a small handful back for sprinkling over later."
+        },
+        {
+          "order": 10,
+          "instruction": "意面肉丁锅移离热源，快速倒入蛋液和芝士；用夹子或长叉挑起意面，使蛋液充分混匀、增稠但不凝结成炒蛋，均匀裹住所有意面。",
+          "duration": null,
+          "heat": "离火",
+          "originalInstruction": "Take the pan of spaghetti and pancetta off the heat. Now quickly pour in the eggs and cheese. Using the tongs or a long fork, lift up the spaghetti so it mixes easily with the egg mixture, which thickens but doesn’t scramble, and everything is coated."
+        },
+        {
+          "order": 11,
+          "instruction": "加入额外煮面水让酱汁保持顺滑，数汤匙即可；要湿润而非水汪汪，必要时加少量盐调味。",
+          "duration": null,
+          "heat": null,
+          "originalInstruction": "Add extra pasta cooking water to keep it saucy (several tablespoons should do it). You don’t want it wet, just moist. Season with a little salt, if needed."
+        },
+        {
+          "order": 12,
+          "instruction": "用长齿叉把意面卷到盘或碗中，撒上预留的芝士和现磨黑胡椒，立即上桌。如果上桌前变干，再加少量热煮面水恢复光泽。",
+          "duration": null,
+          "heat": null,
+          "originalInstruction": "Use a long-pronged fork to twist the pasta on to the serving plate or bowl. Serve immediately with a little sprinkling of the remaining cheese and a grating of black pepper. If the dish does get a little dry before serving, splash in some more hot pasta water and the glossy sauciness will be revived."
+        }
+      ],
+      "technique": [
+        "网页准备15—20分钟，JSON-LD准备20分钟，烹饪15分钟，JSON-LD明确总用时35分钟，4人份。",
+        "蛋液加入前必须离火，用长叉或夹子挑拌至增稠但不凝结成炒蛋。"
+      ],
+      "tips": [
+        "最好现做现吃以保持丝滑；若需重新加热，可加少量水以很小火持续翻拌，或放入耐热碗架在微沸水锅上持续搅拌至热。",
+        "任何面形都可，长面更易挂汁，可选bucatini、tagliatelle或linguine。",
+        "传统配方无需奶油，鸡蛋和芝士乳化成酱汁。",
+        "煮面水是使酱汁轻盈顺滑的关键，可在捞面入锅时带入。"
+      ],
+      "rawExcerpt": "{\n  \"@context\": \"https://schema.org\",\n  \"@id\": \"https://www.bbcgoodfood.com/recipes/ultimate-spaghetti-carbonara-recipe#Recipe\",\n  \"@type\": \"Recipe\",\n  \"description\": \"Discover how to make traditional spaghetti carbonara. This classic Italian pasta dish combines a silky cheese sauce with crisp pancetta and black pepper.\",\n  \"image\": [\n    {\n      \"@type\": \"ImageObject\",\n      \"url\": \"https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1001491_11-2e0fa5c.jpg?resize=440,400\",\n      \"width\": 440,\n      \"height\": 400\n    }\n  ],\n  \"mainEntityOfPage\": {\n    \"@type\": \"WebPage\",\n    \"@id\": \"https://www.bbcgoodfood.com/recipes/ultimate-spaghetti-carbonara-recipe\"\n  },\n  \"name\": \"Ultimate spaghetti carbonara recipe\",\n  \"url\": \"https://www.bbcgoodfood.com/recipes/ultimate-spaghetti-carbonara-recipe\",\n  \"author\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Angela Nilsen\",\n      \"url\": \"https://www.bbcgoodfood.com/author/angelanilsen\"\n    }\n  ],\n  \"dateModified\": \"2025-03-31T18:05:13+01:00\",\n  \"datePublished\": \"2025-03-31T18:05:13+01:00\",\n  \"headline\": \"Ultimate spaghetti carbonara recipe\",\n  \"keywords\": \"Angela Nilsen, Authentic Italian, Carbonara, Creamy, Pancetta, Parmesan, Pasta, Pecorino, Spaghetti\",\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Good Food\",\n    \"url\": \"https://www.bbcgoodfood.com\",\n    \"logo\": {\n      \"@type\": \"ImageObject\",\n      \"height\": 325,\n      \"url\": \"https://images.immediate.co.uk/production/volatile/sites/30/2026/02/goodfood.logo-f37096c.png?resize=1312,325\",\n      \"width\": 1312\n    }\n  },\n  \"cookTime\": \"PT15M\",\n  \"nutrition\": {\n    \"@type\": \"NutritionInformation\",\n    \"calories\": \"656 calories\",\n    \"fatContent\": \"30.03 grams fat\",\n    \"saturatedFatContent\": \"15 grams saturated fat\",\n    \"carbohydrateContent\": \"66 grams carbohydrates\",\n    \"sugarContent\": \"4 grams sugar\",\n    \"fiberContent\": \"4 grams fiber\",\n    \"proteinContent\": \"29 grams protein\",\n    \"sodiumContent\": \"1.65 milligram of sodium\"\n  },\n  \"prepTime\": \"PT20M\",\n  \"recipeCategory\": \"Dinner, Main course\",\n  \"recipeCuisine\": \"Italian\",\n  \"recipeIngredient\": [\n    \"100g pancetta\",\n    \"50g pecorino cheese\",\n    \"50g parmesan\",\n    \"3 large eggs\",\n    \"350g spaghetti\",\n    \"2 plump garlic cloves peeled and left whole\",\n    \"50g unsalted butter\",\n    \"sea salt and freshly ground black pepper\"\n  ],\n  \"recipeInstructions\": [\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Put a large saucepan of water on to boil.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Finely chop the 100g pancetta, having first removed any rind. Finely grate 50g pecorino cheese and 50g parmesan and mix them together.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Beat the 3 large eggs in a medium bowl and season with a little freshly grated black pepper. Set everything aside.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Add 1 tsp salt to the boiling water, add 350g spaghetti and when the water comes back to the boil, cook at a constant simmer, covered, for 10 minutes or until al dente (just cooked).\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Squash 2 peeled plump garlic cloves with the blade of a knife, just to bruise it.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"While the spaghetti is cooking, fry the pancetta with the garlic. Drop 50g unsalted butter into a large frying pan or wok and, as soon as the butter has melted, tip in the pancetta and garlic.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Leave to cook on a medium heat for about 5 minutes, stirring often, until the pancetta is golden and crisp. The garlic has now imparted its flavour, so take it out with a slotted spoon and discard.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Keep the heat under the pancetta on low. When the pasta is ready, lift it from the water with a pasta fork or tongs and put it in the frying pan with the pancetta. Don’t worry if a little water drops in the pan as well (you want this to happen) and don’t throw the pasta water away yet.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Mix most of the cheese in with the eggs, keeping a small handful back for sprinkling over later.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Take the pan of spaghetti and pancetta off the heat. Now quickly pour in the eggs and cheese. Using the tongs or a long fork, lift up the spaghetti so it mixes easily with the egg mixture, which thickens but doesn’t scramble, and everything is coated.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Add extra pasta cooking water to keep it saucy (several tablespoons should do it). You don’t want it wet, just moist. Season with a little salt, if needed.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Use a long-pronged fork to twist the pasta on to the serving plate or bowl. Serve immediately with a little sprinkling of the remaining cheese and a grating of black pepper. If the dish does get a little dry before serving, splash in some more hot pasta water and the glossy sauciness will be revived.\"\n    }\n  ],\n  \"recipeYield\": 4,\n  \"totalTime\": \"PT35M\"\n}\nPrep: 15 mins - 20 mins\nCook: 15 mins\nServes 4\nCan you reheat carbonara?\nIt is possible reheat carbonara, however fresh will give you the creamiest, silkiest texture. If you do wish to reheat, either add back to a frying pan with a splash of water and stir over a very low heat. Or tip into a heatproof bowl and set over a pan of just simmering water and keep stirring until hot.\nWhat pasta is best for carbonara?\nYou can use almost any shape for carbonara, however it is long pasta that holds the sauce the best. Try bucatini, tagliatelle or linguine.\nCan you use cream in carbonara?\nAn authentic carbonara does not use cream as the combination of the egg and cheese emulsified into a sauce provides the creamy, silky texture. However some prefer it with cream.\nTHE MAGIC INGREDIENT…\nPasta water can be dripped in as you transfer the spaghetti to the hot frying pan. Everything mingles to make a light, silky smooth sauce.\nRecipe from Good Food magazine, November 2002",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 1,
+        "mappedStepImages": 1,
+        "stepImageCoverage": 0.08333333333333333,
+        "ingredientCount": 10,
+        "executableStepCount": 12,
+        "notes": [
+          "8行源食材拆开盐/胡椒，并补步骤中的煮面水，共10项。",
+          "VideoObject缩略图真实搅蛋，100×56；不能提升清晰度或重复映射其他步骤。Prep网页15–20min，JSON-LD20min，Cook15min、totalTimePT35M、yield4；属于范围上限不是内部矛盾。"
+        ]
+      },
+      "media": {
+        "recipePageUrl": "https://www.bbcgoodfood.com/recipes/ultimate-spaghetti-carbonara-recipe",
+        "mediaPageUrl": "https://www.bbcgoodfood.com/recipes/ultimate-spaghetti-carbonara-recipe",
+        "sourceName": "BBC Good Food",
+        "author": null,
+        "rightsNotice": null,
+        "reuseLicense": null,
+        "repositoryCopyAuthorized": true,
+        "hero": {
+          "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1001491_11-2e0fa5c.jpg?resize=440,400",
+          "repositoryPath": "assets/dishes/sources/west-011-carbonara-bbc/hero.jpg",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "pageOrder": 1,
+          "adjacentText": "Ultimate spaghetti carbonara recipe",
+          "photoAuthor": null,
+          "recipeAuthor": "Angela Nilsen",
+          "visualVerified": true,
+          "visualReview": "实际成品盘，意面、酱汁、肉丁与芝士，非过程图。",
+          "sourceBytesSha256": "5bc341b17bc2019d1d86ad4b4f846a553438785b5cb987ebc7961f98c2d49f6e"
+        },
+        "steps": [
+          {
+            "originalUrl": "https://media.delight.video/0c18e53b610964fac175fe0e757adc30557e79b7/790e43d0a5925884291cf76b8250e1a5717cd4b7/MEDIA/v0/THUMBS/media.0000019.jpg",
+            "repositoryPath": "assets/dishes/sources/west-011-carbonara-bbc/step-3.jpg",
+            "stepOrder": 3,
+            "sourceStepOrder": 3,
+            "adjacentText": "Beat the 3 large eggs in a medium bowl and season with a little freshly grated black pepper. Set everything aside.",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "pageOrder": 2,
+            "width": 100,
+            "height": 56,
+            "sourceVideoTitle": "How to make spaghetti carbonara",
+            "photoAuthor": null,
+            "recipeAuthor": "Angela Nilsen",
+            "visualVerified": true,
+            "visualReview": "同菜谱VideoObject真实缩略图：手用打蛋器搅拌碗内蛋液，对应源步骤3；100×56分辨率有限，不能据此确认具体蛋数或再映射芝士混合。",
+            "sourceBytesSha256": "75a46ba2750bf0bddd920df6016c87b84e31e42c901c3ddc9c203e5e098ca9ba"
+          }
+        ]
+      }
+    }
+  ],
+  "ragEvidence": [
+    {
+      "chunkId": "6cfa46ef-71e1-46f9-a35a-a34b92aee50b",
+      "documentId": "17a2aed3-bf61-47d1-ae2b-a38436d55521",
+      "sourceName": "Serious Eats",
+      "chunkType": "tips",
+      "content": "菜名：意式培根蛋面\n- 煮面水不要过咸，因为部分面水要加入已含咸肉与咸芝士的酱汁。\n- 腌猪肉切丁前充分冷藏，室温下富含脂肪的肉不易切。\n- 可选其他干面如通心粉；腌猪颊肉脂肪和香料风味较重，意式腌五花肉猪肉味较纯，烟熏培根带烟熏味，按喜好选择。\n- 隔水加热仍要持续翻拌，蛋液最终也会炒散；酱汁达标立即分碗食用，不能久放。",
+      "similarity": 0.750817939687846
+    },
+    {
+      "chunkId": "d04b6e29-cd85-41d0-b268-4f3ace09fe1f",
+      "documentId": "17a2aed3-bf61-47d1-ae2b-a38436d55521",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：意式培根蛋面\n1. 一锅水加盐煮沸，放入450克干意大利长面，边搅拌边煮至有嚼劲。注意煮面水不要过咸，用水以能浸没意面为宜，稍后要保留沸腾的煮面水。\n2. 同时将切丁的85克意式腌猪颊肉（可选意式腌五花肉或培根）与2汤匙（30毫升）特级初榨橄榄油放入大煎锅，中火加热并频繁翻动，约7分钟至油脂析出、肉丁酥脆。肉切丁前充分冷藏更易操作。（约7分钟）【中火】\n3. 在大号金属耐热搅拌碗中，将2个大鸡蛋的全蛋液、6个蛋黄、25克磨碎的佩科里诺罗马诺芝士、25克磨碎的帕玛森芝士和1茶匙中粗度现磨黑胡椒充分搅匀。选碗要能架在煮面锅上，碗底不碰水。\n4. 用夹子和/或滤网把煮好的意面移入有酥脆肉丁及其油脂的煎锅，不要倒掉锅中的沸腾煮面水。加入剩余1汤匙（15毫升）橄榄油并拌匀，稍微放凉。把意面、肉丁及全部油脂刮入蛋液混合物，量取1/2杯（120毫升）煮面水加入，再充分拌匀。\n5. 将搅拌碗架在盛有沸腾煮面水的锅上，确保碗底不碰水。用夹子快速、持续翻拌，至酱汁变得浓稠、顺滑且搅拌会留下纹路。即使隔水加热也需不停翻拌以免蛋液凝结成块。移离热源，必要时加盐调味，分装入碗。按需撒额外磨碎的芝士和现磨黑胡椒，立即食用。",
+      "similarity": 0.745757624254086
+    },
+    {
+      "chunkId": "6b73e606-ecfd-4be0-8e20-262540644894",
+      "documentId": "b27715a8-f50c-45b0-a62a-baea36adc476",
+      "sourceName": "BBC Good Food",
+      "chunkType": "steps",
+      "content": "菜名：意式培根蛋面\n1. 大号长柄锅中加入水，烧至沸腾。\n2. 100克意式腌五花肉先去皮，再切细。将50克佩科里诺芝士与50克帕玛森芝士细细磨碎并混合。\n3. 在中号碗中打散3个大鸡蛋，用少量现磨黑胡椒调味；所有备料放在一旁备用。\n4. 沸水中加入1茶匙盐、350克意大利长面，待重新沸腾后，盖上锅盖以持续微沸状态煮10分钟或至有嚼劲、刚熟。（10分钟）\n5. 将2瓣去皮的饱满蒜瓣用刀面压一下，只需压破以释放香味。\n6. 煮面的同时煎肉和蒜：大煎锅或炒锅中加入50克无盐黄油，黄油刚融化就倒入腌五花肉和蒜。\n7. 中火煎约5分钟，常翻动，至肉金黄酥脆；蒜香已进入油脂，用漏勺捞出蒜并丢弃。（约5分钟）【中火】\n8. 肉丁锅保持小火。面煮好后，用意面叉或夹子从水中捞入肉丁锅，少许面水带入锅中是需要的，不要倒掉煮面水。【小火】\n9. 大部分芝士拌入鸡蛋，留一小把稍后撒在面上。\n10. 意面肉丁锅移离热源，快速倒入蛋液和芝士；用夹子或长叉挑起意面，使蛋液充分混匀、增稠但不凝结成炒蛋，均匀裹住所有意面。【离火】\n11. 加入额外煮面水让酱汁保持顺滑，数汤匙即可；要湿润而非水汪汪，必要时加少量盐调味。\n12. 用长齿叉把意面卷到盘或碗中，撒上预留的芝士和现磨黑胡椒，立即上桌。如果上桌前变干，再加少量热煮面水恢复光泽。",
+      "similarity": 0.7368818364669
+    },
+    {
+      "chunkId": "2d47ab98-a238-404f-8ece-ecce57f623b0",
+      "documentId": "17a2aed3-bf61-47d1-ae2b-a38436d55521",
+      "sourceName": "Serious Eats",
+      "chunkType": "ingredients",
+      "content": "菜名：意式培根蛋面\n- Kosher salt (see notes)\n- 1 pound (450 g) dried spaghetti (see notes)\n- 1/2 cup diced guanciale, pancetta, or bacon (about 3 ounces; 85 g) (see notes)\n- 3 tablespoons (45 ml) extra-virgin olive oil, divided\n- 2 whole large eggs plus 6 yolks\n- 2 whole large eggs plus 6 yolks\n- 1/4 cup grated Pecorino Romano (about 1 ounce; 25 g), plus more for serving\n- 1/4 cup grated Parmigiano-Reggiano (about 1 ounce; 25 g), plus more for serving\n- 1 teaspoon freshly ground black pepper (ground medium-coarse), plus more for serving\n- Bring a pot of salted water to a boil. Measure 1/2 cup (120ml) pasta-cooking water and add to pasta and egg mixture.",
+      "similarity": 0.735850064259775
+    },
+    {
+      "chunkId": "9c3f7c44-1c14-4f36-a8b4-0979932b2497",
+      "documentId": "b27715a8-f50c-45b0-a62a-baea36adc476",
+      "sourceName": "BBC Good Food",
+      "chunkType": "tips",
+      "content": "菜名：意式培根蛋面\n- 最好现做现吃以保持丝滑；若需重新加热，可加少量水以很小火持续翻拌，或放入耐热碗架在微沸水锅上持续搅拌至热。\n- 任何面形都可，长面更易挂汁，可选bucatini、tagliatelle或linguine。\n- 传统配方无需奶油，鸡蛋和芝士乳化成酱汁。\n- 煮面水是使酱汁轻盈顺滑的关键，可在捞面入锅时带入。",
+      "similarity": 0.725080771749067
+    },
+    {
+      "chunkId": "7faaf0dc-0c61-4c93-a555-4c6928368943",
+      "documentId": "b27715a8-f50c-45b0-a62a-baea36adc476",
+      "sourceName": "BBC Good Food",
+      "chunkType": "ingredients",
+      "content": "菜名：意式培根蛋面\n- 100g pancetta\n- 50g pecorino cheese\n- 50g parmesan\n- 3 large eggs\n- 350g spaghetti\n- 2 plump garlic cloves peeled and left whole\n- 50g unsalted butter\n- sea salt and freshly ground black pepper; Add 1 tsp salt to the boiling water; Season with a little salt, if needed.\n- sea salt and freshly ground black pepper\n- Put a large saucepan of water on to boil. Add extra pasta cooking water to keep it saucy (several tablespoons should do it).",
+      "similarity": 0.72373984597563
+    },
+    {
+      "chunkId": "1c2c0484-e9bf-4162-86f5-5667b9115358",
+      "documentId": "17a2aed3-bf61-47d1-ae2b-a38436d55521",
+      "sourceName": "Serious Eats",
+      "chunkType": "summary",
+      "content": "菜名：意式培根蛋面\n别名：Spaghetti With Carbonara Sauce Recipe、Spaghetti Carbonara\n菜系：意大利\n简介：Foolproof silky, guanciale- and cheese-sauced spaghetti carbonara.",
+      "similarity": 0.716501040250126
+    },
+    {
+      "chunkId": "70c798fd-b6a1-4f17-8eb1-0e83acecc14b",
+      "documentId": "b27715a8-f50c-45b0-a62a-baea36adc476",
+      "sourceName": "BBC Good Food",
+      "chunkType": "summary",
+      "content": "菜名：意式培根蛋面\n别名：Ultimate spaghetti carbonara recipe、Spaghetti Carbonara\n菜系：意大利\n简介：Discover how to make traditional spaghetti carbonara. This classic Italian pasta dish combines a silky cheese sauce with crisp pancetta and black pepper.",
+      "similarity": 0.703314542770391
+    },
+    {
+      "chunkId": "e423d9e8-2b5d-4702-bebc-26e8dfedba9d",
+      "documentId": "b27715a8-f50c-45b0-a62a-baea36adc476",
+      "sourceName": "BBC Good Food",
+      "chunkType": "technique",
+      "content": "菜名：意式培根蛋面\n- 网页准备15—20分钟，JSON-LD准备20分钟，烹饪15分钟，JSON-LD明确总用时35分钟，4人份。\n- 蛋液加入前必须离火，用长叉或夹子挑拌至增稠但不凝结成炒蛋。\n- 10分钟\n- 约5分钟\n- 中火\n- 小火\n- 离火",
+      "similarity": 0.70208970916806
+    },
+    {
+      "chunkId": "6a2f0dbe-e35f-42e4-b876-699b6a6bdf70",
+      "documentId": "17a2aed3-bf61-47d1-ae2b-a38436d55521",
+      "sourceName": "Serious Eats",
+      "chunkType": "technique",
+      "content": "菜名：意式培根蛋面\n- 准备5分钟，烹饪25分钟，整道总用时30分钟，4人份。\n- 大号金属耐热搅拌碗须能架在煮面锅上，碗底不能接触沸水。\n- 用多数蛋黄搭配少量全蛋，两种芝士各半，隔水加热完成酱汁；这是配方采用的低风险路线，不采用正文另外讨论的平底锅直接加热路线。\n- 约7分钟\n- 中火",
+      "similarity": 0.692899387651647
+    }
+  ],
+  "notes": [
+    "照片版权署名Vicky Wasik，与菜谱作者Daniel Gritzer分开；页面未提供可复用许可，reuseLicense为null，用户已于2026-09-16确认仓库复制授权。",
+    "普通Serious菜谱fetchHTTP402/612字；公开web reader正文完整可读。web图click返回restricted/robots工具限制，普通原图fetch13张全部HTTP200，未伪装/绕登录验证码。",
+    "旧canonical的来源字段是BBC列表页，但文本系Serious路线；本轮Editor应改为选中详情页。",
+    "对比中BBC黄油蒜瓣路线与Serious隔水蛋液路线是合理独立变体，不是需混补的冲突。",
+    "源锅中煮面盐/后调味量未给；Serious面水120ml明确，橄榄油总45ml拆30ml+15ml明确；没有自行杯匙容量换算。",
+    "独立图片页序（去重、忽略作者头像和视频封面）：Serious正文成品1、切肉2、蛋黄对比3、次成品4、直热拼图5、撒芝士6、directions2/3/4/5拼图7/8/9/10。全部10张逐张view。BBC另3张均逐张view。",
+    "rawExcerpt保留当前源英文完整配方及所有操作相关原文、Notes、Equipment、时间份数，中文规范化独立；未把正文历史笑话、非选中直接加热备选路线或营养表转成配方操作。",
+    "RAG PASS：5文档27分块中两份current共10分块，三份旧superseded共17分块；真实semantic/hybrid各10，全部来自两份当前文档，旧证据返回0。",
+    "精确RAG实体1ad08827-0d1d-4d97-8f37-11bb83e52e0f，已查该实体全部3旧文档，无书籍；记录3旧资料状态与替代ID，不把同站2版本算独立来源。",
+    "选中配方明确整道总30分钟、准备5/烹饪25、4人份；timing.stepDurations=[null,420,null,null,null]，禁止将约7分钟阶段合计成整道时间或给其余步骤默认时长。",
+    "当前Serious原料共有8源行，分开全蛋/蛋黄并补步骤煮面水，共10独立原料项。两芝士及胡椒的额外装盘量未指定，保留另备适量；煮面总水量和盐未指定。",
+    "DB纠错与真实检索完整审计见workflow/evidence-decisions/2026-10-06-west-011.json（ragAudit），当前原文SHA与字节数已保存。",
+    "Serious Eats doc=17a2aed3-bf61-47d1-ae2b-a38436d55521; hash=eb4de36a5ddd7c53e322ac3a508101837b28d559e34655d2786a42a9bac922c4; chunks=5; model=voyage-4 actualDimensions=1024,1024,1024,1024,1024; rawTextSha256=abaf447bbc980f3f2d30086519a8b03305e3203928d81b479b239ef02ff1ed49; bytes=5389",
+    "BBC Good Food doc=b27715a8-f50c-45b0-a62a-baea36adc476; hash=affeaafb5292834159af017021f8d52a5d49eda87cc8315c6fdd3aa98e4893ea; chunks=5; model=voyage-4 actualDimensions=1024,1024,1024,1024,1024; rawTextSha256=e88f5832a84b32f12ddd8d0446415544b2902a6384d8421a71fc438bbc8f4a14; bytes=6156",
+    "照片版权署名Vicky Wasik，与菜谱作者Daniel Gritzer分开；页面未提供可复用许可，reuseLicense为null，用户已于2026-09-16确认仓库复制授权。",
+    "普通Serious菜谱fetchHTTP402/612字；公开web reader正文完整可读。web图click返回restricted/robots工具限制，普通原图fetch13张全部HTTP200，未伪装/绕登录验证码。",
+    "旧canonical的来源字段是BBC列表页，但文本系Serious路线；本轮Editor应改为选中详情页。",
+    "对比中BBC黄油蒜瓣路线与Serious隔水蛋液路线是合理独立变体，不是需混补的冲突。",
+    "源锅中煮面盐/后调味量未给；Serious面水120ml明确，橄榄油总45ml拆30ml+15ml明确；没有自行杯匙容量换算。",
+    "独立图片页序（去重、忽略作者头像和视频封面）：Serious正文成品1、切肉2、蛋黄对比3、次成品4、直热拼图5、撒芝士6、directions2/3/4/5拼图7/8/9/10。全部10张逐张view。BBC另3张均逐张view。",
+    "rawExcerpt保留当前源英文完整配方及所有操作相关原文、Notes、Equipment、时间份数，中文规范化独立；未把正文历史笑话、非选中直接加热备选路线或营养表转成配方操作。",
+    "RAG PASS：5文档27分块中两份current共10分块，三份旧superseded共17分块；真实semantic/hybrid各10，全部来自两份当前文档，旧证据返回0。"
+  ]
+}

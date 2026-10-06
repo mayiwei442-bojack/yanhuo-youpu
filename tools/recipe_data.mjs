@@ -1189,7 +1189,34 @@ export const western = [
   w("西班牙海鲜饭", "Seafood Paella", "西班牙", "短粒米300克；虾8只；贻贝400克；鱿鱼150克；番茄150克；高汤750毫升；藏红花少许；甜椒粉3克；橄榄油25毫升", "1）锅中炒香鱿鱼、番茄和甜椒粉，加入米拌匀。2）倒入藏红花高汤，铺虾和贻贝后不再搅动。3）中小火煮至米熟底部略焦，关火盖布焖5分钟。", "23-spanish-paella.png"),
   w("德式烤香肠", "German Bratwurst", "德国", "德式香肠6根；洋葱200克；啤酒330毫升；黄油20克；酸菜300克；芥末适量；黑胡椒少许", "1）黄油炒软洋葱，加入香肠和啤酒小火煮10分钟。2）取出香肠煎烤至表面焦香。3）酸菜加热，与洋葱、香肠和芥末同食。", "24-german-bratwurst.png"),
   w("香草烤鸡", "Herb Roast Chicken", "欧美", "整鸡1只约1500克；黄油40克；柠檬1个；大蒜1头；迷迭香和百里香各适量；盐10克；黑胡椒3克", "1）鸡擦干，皮下和表面抹香草黄油、盐和胡椒，腹中放柠檬蒜。2）200℃烤约65–80分钟至最厚处熟透。3）出炉静置15分钟再切。", "25-herb-roast-chicken.png", WEST_ESSENTIAL),
-  w("意式培根蛋面", "Spaghetti Carbonara", "意大利", "犹太盐适量；干意大利面450克；意式腌猪颊肉85克；特级初榨橄榄油45毫升（分次使用）；大鸡蛋2个；蛋黄6个；佩科里诺罗马诺芝士25克，另备少许装盘；帕玛森芝士25克，另备少许装盘；现磨黑胡椒1茶匙，另备少许装盘；预留煮面水适量", "1）大锅水中只加少量盐，以高火煮沸，放入450克意大利面煮至有嚼劲；腌猪肉和芝士本身较咸，不要过度加盐。面煮好时预留适量煮面水，并让煮面锅中的其余水继续保持沸腾。2）意式腌猪颊肉冷藏后切丁，与2汤匙橄榄油一同放入锅中；中火频繁翻动约7分钟，至油脂析出、肉丁酥脆。3）在大号金属耐热碗中，将2个全蛋、6个蛋黄、25克佩科里诺、25克帕玛森和1茶匙黑胡椒充分搅匀。4）将意大利面直接移入猪颊肉锅中，加入剩余1汤匙橄榄油，拌匀后稍微降温；再将面、猪颊肉和锅中油脂全部倒入蛋液碗，加入适量预留煮面水并拌匀。5）将耐热碗架在仍沸腾的煮面水锅上，碗底不要接触水；利用温和蒸汽加热，同时用夹子快速、持续翻拌，至蛋液乳化成顺滑浓稠、划过会留下纹路的酱汁。立即装盘，撒预留芝士和黑胡椒。", "56-spaghetti-carbonara.png"),
+  w(
+    "意式培根蛋面", "Spaghetti Carbonara", "意大利",
+    "犹太盐适量；干意大利长面450克；意式腌猪颊肉85克（可用意式腌五花肉或培根替代）；特级初榨橄榄油45毫升（分次使用，先用30毫升，另留15毫升）；大鸡蛋2个；蛋黄6个；佩科里诺罗马诺芝士25克，另备适量装盘；帕玛森芝士25克，另备适量装盘；现磨黑胡椒1茶匙（磨至中粗，另备适量装盘）；清水适量（煮面用，另预留120毫升煮面水）",
+    "1）锅中加入足量清水以浸没意面，加入犹太盐并煮至沸腾；面水不要过咸。放入450克干意大利长面，边搅拌边煮至有嚼劲。煮好后量取并预留120毫升煮面水，锅中其余沸腾煮面水不要倒掉，留作后续隔水加热。2）意式腌猪颊肉（或意式腌五花肉、培根）切丁前可充分冷藏，便于操作。将85克肉丁与2汤匙（30毫升）特级初榨橄榄油放入大煎锅，中火加热并频繁翻动约7分钟，至油脂析出、肉丁酥脆。3）在大号金属耐热搅拌碗中，将2个大鸡蛋的全蛋液、6个蛋黄、25克磨碎的佩科里诺罗马诺芝士、25克磨碎的帕玛森芝士和1茶匙中粗现磨黑胡椒充分搅匀；选用能架在煮面锅上且碗底不碰水的碗。4）用夹子和/或滤网把意面移入有酥脆肉丁及其油脂的煎锅，不要倒掉沸腾的煮面水。加入剩余1汤匙（15毫升）特级初榨橄榄油并拌匀，稍微放凉。把意面、肉丁和全部油脂刮入蛋液混合物，加入预留的1/2杯（120毫升）煮面水并充分拌匀。5）将搅拌碗架在盛有沸腾煮面水的锅上，确保碗底不碰水。用夹子快速、持续翻拌，至酱汁变得浓稠、顺滑且搅拌会留下纹路；持续翻拌以免蛋液凝结成块。达到状态后立即离火，必要时加盐调味，分装入碗，按需撒额外芝士和现磨黑胡椒，立即食用。",
+    "56-spaghetti-carbonara.png", "https://www.seriouseats.com/pasta-carbonara-sauce-recipe", {
+      sourceName: "Serious Eats",
+      recipePageUrl: "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+      mediaPageUrl: "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+      author: "Vicky Wasik",
+      recipeAuthor: "Daniel Gritzer",
+      rightsNotice: "Serious Eats / Vicky Wasik",
+      reuseLicense: null,
+      repositoryCopyAuthorization: "user_confirmed_2026-09-16",
+      hero: {
+        path: "assets/dishes/sources/west-011-carbonara/hero.webp",
+        originalUrl: "https://www.seriouseats.com/thmb/5aKCalIkNFzVMKs-dFYlEkkCnR8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2016__02__20151118-spaghetti-carbonara-vicky-wasik-27-5ed8e4c860c945f0a3c4315a25a7001b.jpg",
+        sha256: "012d0b0ac82f41b608f753b83eaf66d935bd8426684230fc03a48b6ee933cd7b",
+        httpStatus: 200,
+        contentType: "image/webp"
+      },
+      steps: [
+        { stepOrder: 2, sourceStepOrder: 2, path: "assets/dishes/sources/west-011-carbonara/step-2.webp", originalUrl: "https://www.seriouseats.com/thmb/22GqBrLR3NgyGtsy07VGrn121Sk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2015__11__20151118-spaghetti-carbonara-COLLAGE-3-033d6a7784d140e4ae984bb9b72a0ade.jpg", sha256: "4df487115c5154df961905fdfb5942fa054f535141c192f82b120cf221e68cd7", httpStatus: 200, contentType: "image/webp" },
+        { stepOrder: 3, sourceStepOrder: 3, path: "assets/dishes/sources/west-011-carbonara/step-3.webp", originalUrl: "https://www.seriouseats.com/thmb/8IdexrEMEXVpnfglj6_KIscFC_U=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2015__11__20151118-spaghetti-carbonara-COLLAGE-5-f513acc2cc29485c924e29d4cab34e72.jpg", sha256: "d5786fd05770f0ab27527720aa96261d0ee95520e9863172bdc2d27e254efed6", httpStatus: 200, contentType: "image/webp" },
+        { stepOrder: 4, sourceStepOrder: 4, path: "assets/dishes/sources/west-011-carbonara/step-4.webp", originalUrl: "https://www.seriouseats.com/thmb/zR54CkYMz52-UFoE2wim0NUr8E=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2015__11__20151118-spaghetti-carbonara-COLLAGE-1-cff1bf96d3e64da1acf122b9aea52170.jpg", sha256: "59277f0d2b0276194f5b411749efd0d8868579fd4c771ff93e2c97e3b4750e98", httpStatus: 200, contentType: "image/webp" },
+        { stepOrder: 5, sourceStepOrder: 5, path: "assets/dishes/sources/west-011-carbonara/step-5.webp", originalUrl: "https://www.seriouseats.com/thmb/PLRRWkMnLzh5zq8XmEhvFmZcwtI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2015__11__20151118-spaghetti-carbonara-COLLAGE-2-6780e7da09a04dc5a1a6e86b886c376d.jpg", sha256: "df5191f1718e55560e355fc442d7d96c860e993ef71ad8181d083dd500c3d57d", httpStatus: 200, contentType: "image/webp" }
+      ]
+    }, { totalMinutes: 30, prepMinutes: 5, cookMinutes: 25, stepDurations: [null, 420, null, null, null] }, 4
+  ),
   w("千层面", "Lasagna", "意大利", "鲜千层面片250克；橄榄油适量；帕玛森芝士碎一大把；肉酱：无盐黄油110克、芹菜梗1根、胡萝卜1根、小红洋葱1个、干牛肝菌25克、迷迭香1枝、去筋牛腹肉或小牛腹肉1千克、干白葡萄酒125毫升、优质番茄碎罐头400克；白酱：全脂牛奶1升、月桂叶1片、无盐黄油75克、00号面粉125克、现磨肉豆蔻适量、帕玛森芝士100克、蛋黄2个；调味料适量", "1）干牛肝菌用热水浸泡10分钟，沥干后粗切；芹菜、胡萝卜、小红洋葱切细，迷迭香取叶切碎。耐火炖锅中以中火将110克黄油烧至起泡，加入上述蔬菜、牛肝菌和迷迭香，适量调味后炒5分钟。2）牛腹肉切细并调味，放入锅中炒5分钟至上色；倒入白葡萄酒和番茄碎，煮沸后转小火，加盖煮1小时30分钟，最后30分钟揭盖收浓，至肉质软嫩但仍有结构、肉酱浓稠。3）牛奶与月桂叶放入锅中煮至微沸，关火备用；厚底锅中火融化75克黄油，打入面粉和热牛奶，持续用力搅打至顺滑，再煮10—15分钟至非常浓稠。取出月桂叶，适量调味并磨入肉豆蔻，拌入100克帕玛森和2个蛋黄，放凉。4）烤箱预热至180℃，风扇烤箱160℃。千层面片每3张一批放入加盐沸水中20秒使其变软，立即移入冰水。5）大烤盘底部和四周抹橄榄油，依次铺面片、肉酱和白酱，重复至面片和肉酱用完，顶层以白酱收尾并撒一大把帕玛森。6）烤40—45分钟至表面金黄、酱汁冒泡；出炉静置10分钟后切块，再静置10分钟再食用。", "57-lasagna.png"),
   w("奶油宽面", "Fettuccine Alfredo", "意大利/美国", "宽面250克；黄油50克；淡奶油200毫升；帕玛森100克；蒜1瓣；盐和黑胡椒；欧芹少许", "1）宽面煮至有嚼劲，留面汤。2）黄油炒香蒜，加入奶油微沸。3）下宽面和帕玛森，少量面汤调至顺滑，撒黑胡椒和欧芹。", "58-fettuccine-alfredo.png"),
   w("蘑菇烩饭", "Mushroom Risotto", "意大利", "意大利烩饭米250克；蘑菇300克；洋葱80克；白葡萄酒100毫升；热高汤800毫升；黄油35克；帕玛森60克", "1）蘑菇煎香盛出，原锅黄油炒软洋葱和米。2）加白酒收干，分次加入热高汤并不断搅拌。3）约18分钟米芯微硬时拌入蘑菇、黄油和帕玛森。", "59-mushroom-risotto.png"),
