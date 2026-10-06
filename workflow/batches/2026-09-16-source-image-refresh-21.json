@@ -117,8 +117,8 @@
     {
       "id": "west-004",
       "name": "凯撒沙拉",
-      "status": "in_progress",
-      "reason": "豉汁蒸排骨已完成推送，开始本菜整份来源与本地图文更新；核验旧来源单位/总时长，旧文字done不当本轮完成。"
+      "status": "done",
+      "reason": "Serious Eats整份13原料4步骤，总35分钟/4人份，1成品+4步骤拼图共5本地WebP；新文档5个voyage-4/实际1024维分块，旧两份与拒选BBC保留审计且真实检索排除。首审显示缺陷已修复，第二次独立Reviewer、真实UI及全量确定性测试PASS，1deef6c已推送。"
     },
     {
       "id": "west-006",

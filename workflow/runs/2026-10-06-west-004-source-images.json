@@ -3,9 +3,9 @@
   "recipeId": "west-004",
   "recipeName": "凯撒沙拉",
   "category": "western",
-  "status": "in_progress",
+  "status": "done",
   "startedAt": "2026-10-06T06:25:53Z",
-  "completedAt": null,
+  "completedAt": "2026-10-06T06:53:09Z",
   "steps": {
     "research": {
       "status": "done",
@@ -76,7 +76,7 @@
         "passed": true,
         "sessionId": 98179,
         "command": "node tools/workflow/validate-recipe.mjs --target west-004 --before workflow/snapshots/2026-10-06-west-004-before.json --full --allow-source-change --require-change",
-        "knownSemanticGap": "已修正来源支持的复合步骤null、4人份及干酪dairy，实际浏览器回归PASS，等待独立复审。"
+        "knownSemanticGap": "已修复并经独立第二次Reviewer及最终全量测试验证，无未解决问题。"
       }
     },
     "review": {
@@ -115,13 +115,15 @@
       }
     },
     "gitPush": {
-      "status": "in_progress",
+      "status": "done",
       "attempts": 1,
       "details": {
         "branch": "codex/recipe-automation",
         "reviewerResult": "PASS",
         "deterministicTests": "PASS",
-        "publicationPending": true
+        "publicationPending": false,
+        "contentCommit": "1deef6c8788aca101505cb11c76fd821d7f0d88f",
+        "pushSucceeded": true
       }
     }
   },
@@ -141,5 +143,5 @@
   ],
   "errors": [],
   "branch": "codex/recipe-automation",
-  "commit": null
+  "commit": "1deef6c8788aca101505cb11c76fd821d7f0d88f"
 }

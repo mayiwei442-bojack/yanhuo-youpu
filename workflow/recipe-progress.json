@@ -446,9 +446,9 @@
     {
       "id": "west-004",
       "name": "凯撒沙拉",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-06-west-004-source-images",
-      "completedAt": null
+      "completedAt": "2026-10-06T06:53:09Z"
     },
     {
       "id": "west-005",
