@@ -8,42 +8,144 @@
   "completedAt": null,
   "steps": {
     "research": {
-      "status": "in_progress",
+      "status": "done",
       "attempts": 1,
       "details": {
         "batchId": "2026-09-16-source-image-refresh-21",
         "beforeSnapshot": "workflow/snapshots/2026-10-06-west-006-before.json",
         "historicalEvidence": "workflow/evidence/west-006-french-onion-soup.json",
         "historicalAudit": "核验旧英文摘要/HTML是否完整原文、洋葱焦糖化多阶段时长、来源单位及source默认BBC失配；新增来源正常入库，不跨来源补图。",
-        "agent": "research_west004_remaining5"
+        "agent": "research_west004_remaining5",
+        "recipeEntityId": "7d84cf26-7af9-4b08-8dcf-2daaec954e48",
+        "candidateProgress": "两完整独立来源已纠正并正常入库，Serious整份选用，BBC保留完整候选不混用；各5actual1024chunks。实际semantic/hybrid旧两份零返回，新两份各5。",
+        "mediaInspectionSessionId": 35808,
+        "sourceMode": "multi_source",
+        "evidencePath": "workflow/evidence/2026-10-06-west-006-source-images.json",
+        "evidenceSha256LF": "69aee0b2c5c533b3e856910138d81346829fa0d3cfa07873370bef54388a74c4",
+        "baseEvidencePath": "workflow/evidence/2026-10-06-west-006-base.json",
+        "baseEvidenceSha256LF": "5954d0c8737d9458f6db40f9c89c0867f42c74e3bb4487cad112190bf071d057",
+        "selectedSourceUrl": "https://www.seriouseats.com/french-onion-soup-recipe"
       }
     },
     "ingestion": {
-      "status": "pending",
-      "attempts": 0
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "mediaManifestPath": "workflow/media-manifests/2026-10-06-west-006.json",
+        "mediaImportPath": "workflow/media-imports/2026-10-06-west-006.json",
+        "localImages": 5,
+        "heroImages": 1,
+        "mappedStepImages": 4,
+        "totalBytes": 635020,
+        "httpStatus": 200,
+        "imageTypeAndSha256Verified": true,
+        "orchestratorViewedAllImages": true,
+        "ragCorrectionAndRetrieval": "PASS",
+        "selectedDocumentId": "61876a9e-c20b-4c13-9520-f98b82650b43",
+        "otherQualifyingDocumentId": "b90977fc-d6ff-445f-a86e-bf3073077bd1",
+        "normalIngestedDocuments": 2,
+        "newActualChunks": 10,
+        "actualEmbeddingDimension": 1024,
+        "embeddingModel": "voyage-4",
+        "ragCorrectionSessionId": 50770,
+        "ragAuditPath": "workflow/rag-audits/2026-10-06-west-006-correction.json",
+        "currentChunks": 10,
+        "supersededChunks": 10,
+        "semanticResults": 10,
+        "hybridResults": 10,
+        "excludedDocumentResults": 0,
+        "rootSqlVerified": true
+      }
     },
     "edit": {
-      "status": "pending",
-      "attempts": 0
+      "status": "done",
+      "attempts": 3,
+      "details": {
+        "agent": "west006_editor_resume",
+        "evidencePath": "workflow/evidence/2026-10-06-west-006-source-images.json",
+        "evidenceSha256LF": "69aee0b2c5c533b3e856910138d81346829fa0d3cfa07873370bef54388a74c4",
+        "changedFields": ["ingredients: 清水 quantity moved before the parenthetical usage qualifier so generated identity is exactly 清水"],
+        "confirmation": "Editor confirmed the evidence-backed beef-stock alternative is already correct in the target recipe; containsBeef is an Orchestrator generator metadata bug."
+      }
     },
     "validator": {
-      "status": "pending",
-      "attempts": 0
+      "status": "done",
+      "attempts": 3,
+      "details": {
+        "resultPath": "workflow/validation-results/2026-10-06-west-006.json",
+        "ok": true,
+        "ingredients": 15,
+        "steps": 4,
+        "generatedWaterIngredientName": "清水",
+        "generatedWaterIngredientLabel": "清水15毫升（每次在锅底洋葱汁液将要焦煳时使用）",
+        "generatedContainsBeef": true,
+        "generatedBrowserTests": "PASS",
+        "mediaImagesLoaded": 4,
+        "routes": 9,
+        "browserErrors": 0,
+        "fullStaticBuild": "PASS"
+      }
     },
     "review": {
-      "status": "pending",
-      "attempts": 0
+      "status": "done",
+      "attempts": 3,
+      "details": {
+        "resultPath": "workflow/reviews/2026-10-06-west-006-adversarial.json",
+        "priorResultPaths": [
+          "workflow/reviews/2026-10-06-west-006-adversarial-attempt-1.json",
+          "workflow/reviews/2026-10-06-west-006-adversarial-attempt-1-correction.json",
+          "workflow/reviews/2026-10-06-west-006-adversarial-attempt-2.json"
+        ],
+        "status": "PASS",
+        "evidenceSha256LF": "69aee0b2c5c533b3e856910138d81346829fa0d3cfa07873370bef54388a74c4",
+        "resolvedIssues": [
+          "Ingredient identity is 清水; 15ml/use condition stays in label.",
+          "Beef stock option now sets containsBeef true."
+        ],
+        "stepNumberFinding": "withdrawn after actual generated output verification",
+        "adversarialReview": {
+          "ingredientSemantics": true,
+          "stepGrammar": true,
+          "punctuation": true,
+          "renderedStructure": true
+        },
+        "attemptHistory": [
+          "attempt-1: ingredient identity; false step-number finding subsequently withdrawn",
+          "attempt-2: containsBeef false negative from beef stock alternative",
+          "attempt-3: PASS after ingredient and generator metadata fixes"
+        ]
+      }
     },
     "build": {
-      "status": "pending",
-      "attempts": 0
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "command": "npm run test:workflow:deterministic",
+        "resultPath": "workflow/validation-results/2026-10-06-west-006-deterministic.json",
+        "passed": true,
+        "productionBuild": "PASS",
+        "testAiCalled": false
+      }
     },
     "gitPush": {
-      "status": "pending",
-      "attempts": 0
+      "status": "in_progress",
+      "attempts": 1
     }
   },
-  "sources": [],
+  "sources": [
+    {
+      "name": "Serious Eats",
+      "url": "https://www.seriouseats.com/french-onion-soup-recipe",
+      "status": "success",
+      "failureReason": null
+    },
+    {
+      "name": "BBC Good Food",
+      "url": "https://www.bbcgoodfood.com/recipes/french-onion-soup",
+      "status": "success",
+      "failureReason": null
+    }
+  ],
   "errors": [],
   "branch": "codex/recipe-automation",
   "commit": null

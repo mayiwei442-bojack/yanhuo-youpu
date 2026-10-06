@@ -1,0 +1,126 @@
+{
+  "recipeId": "west-006",
+  "recipeEntityId": "7d84cf26-7af9-4b08-8dcf-2daaec954e48",
+  "verifiedAt": "2026-10-06T07:04:16Z",
+  "method": "Orchestrator independent read-only Supabase SQL: document/chunk metadata, raw MD5, vector_dims; frozen evidence rawExcerpt byte/MD5 equality independently checked",
+  "selectedDocumentId": "61876a9e-c20b-4c13-9520-f98b82650b43",
+  "otherQualifyingDocumentId": "b90977fc-d6ff-445f-a86e-bf3073077bd1",
+  "activeDocuments": 2,
+  "activeChunks": 10,
+  "auditOnlyDocuments": 2,
+  "auditOnlyChunks": 10,
+  "totalChunks": 20,
+  "allActualVectorDimensions": 1024,
+  "allEmbeddingModels": "voyage-4",
+  "allCurrentRawExcerptsMatchDatabase": true,
+  "rows": [
+    {
+      "id": "28601ece-1f5b-4d42-bf1f-137df434ac02",
+      "url": "https://www.seriouseats.com/french-onion-soup-recipe",
+      "source_type": "website",
+      "evidence_status": "superseded",
+      "replacement_document_id": "61876a9e-c20b-4c13-9520-f98b82650b43",
+      "raw_text_md5": "98fb63e1d9e5d69a2c924b3c9389810e",
+      "raw_text_bytes": 2107,
+      "chunks": 5,
+      "embedding_models": [
+        "voyage-4"
+      ],
+      "declared_dimensions": [
+        1024
+      ],
+      "actual_dimensions": [
+        1024
+      ],
+      "chunk_evidence_statuses": [
+        "superseded"
+      ],
+      "chunk_replacements": [
+        "61876a9e-c20b-4c13-9520-f98b82650b43"
+      ]
+    },
+    {
+      "id": "e3fff22c-9f15-4ca9-b673-67e6a92126f5",
+      "url": "https://www.bbcgoodfood.com/recipes/french-onion-soup",
+      "source_type": "website",
+      "evidence_status": "superseded",
+      "replacement_document_id": "b90977fc-d6ff-445f-a86e-bf3073077bd1",
+      "raw_text_md5": "77e1cd75be15bb7e8051e4ce18ba0760",
+      "raw_text_bytes": 561932,
+      "chunks": 5,
+      "embedding_models": [
+        "voyage-4"
+      ],
+      "declared_dimensions": [
+        1024
+      ],
+      "actual_dimensions": [
+        1024
+      ],
+      "chunk_evidence_statuses": [
+        "superseded"
+      ],
+      "chunk_replacements": [
+        "b90977fc-d6ff-445f-a86e-bf3073077bd1"
+      ]
+    },
+    {
+      "id": "61876a9e-c20b-4c13-9520-f98b82650b43",
+      "url": "https://www.seriouseats.com/french-onion-soup-recipe",
+      "source_type": "website",
+      "evidence_status": null,
+      "replacement_document_id": null,
+      "raw_text_md5": "ac022e18435fe5711886a29891663931",
+      "raw_text_bytes": 5227,
+      "chunks": 5,
+      "embedding_models": [
+        "voyage-4"
+      ],
+      "declared_dimensions": [
+        1024
+      ],
+      "actual_dimensions": [
+        1024
+      ],
+      "chunk_evidence_statuses": [
+        null
+      ],
+      "chunk_replacements": [
+        null
+      ]
+    },
+    {
+      "id": "b90977fc-d6ff-445f-a86e-bf3073077bd1",
+      "url": "https://www.bbcgoodfood.com/recipes/french-onion-soup",
+      "source_type": "website",
+      "evidence_status": null,
+      "replacement_document_id": null,
+      "raw_text_md5": "42ba5c01bc723eebeab21d230a1b1492",
+      "raw_text_bytes": 3896,
+      "chunks": 5,
+      "embedding_models": [
+        "voyage-4"
+      ],
+      "declared_dimensions": [
+        1024
+      ],
+      "actual_dimensions": [
+        1024
+      ],
+      "chunk_evidence_statuses": [
+        null
+      ],
+      "chunk_replacements": [
+        null
+      ]
+    }
+  ],
+  "researcherLiveRetrievalVerification": {
+    "sessionId": 50770,
+    "exitCode": 0,
+    "semanticResults": 10,
+    "hybridResults": 10,
+    "historicalDocumentResults": 0,
+    "finalTipCorrection": "vermouth译名纠正为味美思（vermouth）；仅变化tips chunk重嵌1次，其余4chunks复用，文档ID未变。"
+  }
+}

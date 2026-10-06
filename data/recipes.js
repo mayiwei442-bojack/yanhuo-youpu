@@ -8957,37 +8957,37 @@ window.YANHUO_RECIPES = [
       {
         "id": "ingredient-01",
         "name": "无盐黄油",
-        "label": "无盐黄油90克，另备少许涂面包",
+        "label": "无盐黄油90克，另取适量涂面包",
         "isCore": false
       },
       {
         "id": "ingredient-02",
-        "name": "黄洋葱或混合洋葱",
-        "label": "黄洋葱或混合洋葱1.4千克",
+        "name": "洋葱",
+        "label": "洋葱1.4千克（黄洋葱或混合洋葱，切约3.2毫米厚片）",
         "isCore": false
       },
       {
         "id": "ingredient-03",
-        "name": "防焦用清水",
-        "label": "防焦用清水1汤匙",
+        "name": "犹太盐",
+        "label": "犹太盐适量（分次调味）",
         "isCore": false
       },
       {
         "id": "ingredient-04",
-        "name": "犹太盐和现磨黑胡椒",
-        "label": "犹太盐和现磨黑胡椒适量",
+        "name": "现磨黑胡椒",
+        "label": "现磨黑胡椒适量（分次调味）",
         "isCore": false
       },
       {
         "id": "ingredient-05",
-        "name": "干型雪莉酒",
-        "label": "干型雪莉酒120毫升",
+        "name": "干雪莉酒",
+        "label": "干雪莉酒120毫升（如Amontillado，可选味美思、白葡萄酒、红葡萄酒或波特酒替代，替代用量来源未给出）",
         "isCore": true
       },
       {
         "id": "ingredient-06",
-        "name": "自制牛高汤或低钠鸡高汤",
-        "label": "自制牛高汤或低钠鸡高汤1.8升",
+        "name": "高汤",
+        "label": "高汤1.8升（自制牛高汤，或自制鸡高汤，或低钠市售鸡高汤）",
         "isCore": false
       },
       {
@@ -9016,78 +9016,101 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "ingredient-11",
-        "name": "碗口大小的乡村面包",
-        "label": "碗口大小的乡村面包8片",
+        "name": "乡村面包",
+        "label": "乡村面包8片（与碗口大小相称，烤至酥脆）",
         "isCore": false
       },
       {
         "id": "ingredient-12",
-        "name": "中等大小大蒜",
-        "label": "中等大小大蒜1瓣",
+        "name": "大蒜",
+        "label": "大蒜1瓣（中等大小）",
         "isCore": false
       },
       {
         "id": "ingredient-13",
-        "name": "格鲁耶尔芝士",
-        "label": "格鲁耶尔芝士450克",
+        "name": "格鲁耶尔干酪",
+        "label": "格鲁耶尔干酪450克（磨碎，分次使用）",
         "isCore": false
       },
       {
         "id": "ingredient-14",
         "name": "细香葱末",
-        "label": "细香葱末2汤匙",
+        "label": "细香葱末2汤匙（装饰用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-15",
+        "name": "清水",
+        "label": "清水15毫升（每次在锅底洋葱汁液将要焦煳时使用）",
         "isCore": false
       }
     ],
     "steps": [
       {
         "id": "step-01",
-        "instruction": "洋葱切成约3毫米薄片。锅中以中高火融化90克黄油，放入洋葱炒约8分钟至变软；转中小火，频繁翻动1—2小时，至洋葱浓郁金棕、柔软甘甜；焦糖化接近结束时尤其要勤看，避免烧焦。若锅底褐色汁液将要焦煳，加入1汤匙清水并刮起锅底，再以盐和黑胡椒调味。",
+        "instruction": "将1.4千克洋葱切成约3.2毫米厚片。黄洋葱适合这道汤，也可混用黄洋葱、甜洋葱（如Vidalia）、红洋葱和红葱头，以增加风味层次。在一个大不锈钢汤锅，或两个大不锈钢或铸铁平底锅中，以中高火融化90克无盐黄油至起泡。加入洋葱，偶尔翻动，炒约8分钟至变软；转中低火，经常翻动，继续炒1—2小时，至洋葱非常软、甘甜且呈浓郁金棕色，避免炒得过深而发苦。焦糖化速度会随锅具、批量和脂肪而变化。若锅底褐色洋葱汁液将要焦煳，加入15毫升清水，刮起褐色附着物，再继续炒，必要时按此方法加水。用适量犹太盐和现磨黑胡椒调味。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "add",
-        "safetyNote": ""
+        "safetyNote": "",
+        "image": "assets/dishes/sources/west-006-french-onion-soup/step-1.webp",
+        "imageSource": "https://www.seriouseats.com/french-onion-soup-recipe"
       },
       {
         "id": "step-02",
-        "instruction": "倒入120毫升雪莉酒，边搅动边刮起锅底焦化物，煮约3分钟，至酒精气味大致散去；加入1.8升高汤、百里香和月桂叶，煮至微沸后继续煮20分钟。",
+        "instruction": "加入120毫升干雪莉酒，煮至微沸，同时刮起锅底褐色附着物。若用了两个平底锅，将雪莉酒分加至两锅，再把两锅中的洋葱和液体刮入一个汤锅或荷兰锅，继续煮约3分钟，至酒精气味基本散去。雪莉酒也可用味美思（vermouth）、白葡萄酒、红葡萄酒或波特酒替代，来源未列出各替代用量。加入1.8升高汤、2枝百里香和1片月桂叶，升至中高火，煮到微沸，再调低火力，保持微沸20分钟。高汤优先用自制牛高汤，也可用自制鸡高汤或低钠市售鸡高汤。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "add",
-        "safetyNote": ""
+        "safetyNote": "",
+        "image": "assets/dishes/sources/west-006-french-onion-soup/step-2.webp",
+        "imageSource": "https://www.seriouseats.com/french-onion-soup-recipe"
       },
       {
         "id": "step-03",
-        "instruction": "加入可选的5毫升鱼露和5毫升苹果醋，以盐和黑胡椒调味；取出并丢弃百里香和月桂叶。",
+        "instruction": "加入5毫升苹果醋；如选用鱼露，此时一并加入5毫升鱼露。以适量犹太盐和现磨黑胡椒调味，取出并丢弃百里香枝和月桂叶。鱼露、苹果醋和雪莉酒可增加汤底的风味层次。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "add",
-        "safetyNote": ""
+        "safetyNote": "",
+        "image": "assets/dishes/sources/west-006-french-onion-soup/step-3.webp",
+        "imageSource": "https://www.seriouseats.com/french-onion-soup-recipe"
       },
       {
         "id": "step-04",
-        "instruction": "预热烤架。将面包烤至酥脆，抹少许黄油并用蒜瓣擦香。耐热碗中先舀入少量汤汁，放一片烤面包和一层格鲁耶尔；再添洋葱汤，放第二片烤面包，盖上剩余格鲁耶尔。置于烤架下烤至芝士完全融化并上色，最后撒细香葱末。",
+        "instruction": "将8片与碗口大小相称的乡村面包烤至酥脆。预热烤箱上火，将烤架调至最上层。用另取的适量无盐黄油涂抹烤面包片，再用1瓣大蒜擦至有香气。在4个可入烤箱的汤碗底部各舀少量汤汁，先用其中4片烤面包，每碗各放1片，撒一些磨碎的格鲁耶尔干酪。继续舀入汤和洋葱，至接近碗满，再将剩余4片烤面包各放1片入碗，向下轻压至几乎浸入汤中。覆盖余下的干酪，将4个汤碗放在有边沿的烤盘上，用上火烤至干酪融化且局部呈棕色，最后撒上2汤匙细香葱末，即可食用。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "wait",
-        "safetyNote": ""
+        "safetyNote": "",
+        "image": "assets/dishes/sources/west-006-french-onion-soup/step-4.webp",
+        "imageSource": "https://www.seriouseats.com/french-onion-soup-recipe"
       }
     ],
-    "imageThumb": "assets/dishes/thumbnails/21-french-onion-soup.jpg",
-    "imageFull": "assets/dishes/ai/21-french-onion-soup.png",
-    "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2",
-    "time": 155,
-    "timeBasis": "estimated",
+    "imageThumb": "assets/dishes/sources/west-006-french-onion-soup/hero.webp",
+    "imageFull": "assets/dishes/sources/west-006-french-onion-soup/hero.webp",
+    "source": "https://www.seriouseats.com/french-onion-soup-recipe",
+    "media": {
+      "sourceName": "Serious Eats",
+      "recipePageUrl": "https://www.seriouseats.com/french-onion-soup-recipe",
+      "mediaPageUrl": "https://www.seriouseats.com/french-onion-soup-recipe",
+      "author": "Julia Estrada",
+      "rightsNotice": "Serious Eats / Julia Estrada",
+      "reuseLicense": null,
+      "repositoryCopyAuthorization": "user_confirmed_2026-09-16"
+    },
+    "time": 140,
+    "timeBasis": "source",
     "difficulty": "进阶",
-    "defaultServings": 2,
+    "defaultServings": 4,
     "allergens": [
       "dairy",
       "fish",
@@ -9095,8 +9118,8 @@ window.YANHUO_RECIPES = [
     ],
     "flags": {
       "containsPork": false,
-      "containsBeef": false,
-      "containsAlcohol": false,
+      "containsBeef": true,
+      "containsAlcohol": true,
       "spicy": false,
       "vegetarian": false
     },
@@ -10700,7 +10723,7 @@ window.YANHUO_RECIPES = [
     ],
     "flags": {
       "containsPork": false,
-      "containsBeef": false,
+      "containsBeef": true,
       "containsAlcohol": false,
       "spicy": false,
       "vegetarian": false
@@ -11252,7 +11275,7 @@ window.YANHUO_RECIPES = [
     ],
     "flags": {
       "containsPork": true,
-      "containsBeef": false,
+      "containsBeef": true,
       "containsAlcohol": false,
       "spicy": false,
       "vegetarian": false

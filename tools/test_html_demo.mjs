@@ -288,6 +288,15 @@ try {
       await hero.scrollIntoViewIfNeeded();
       await hero.evaluate((element) => element.decode());
       assert(await hero.evaluate((element) => element.naturalWidth > 0), `${recipe.id} 成品图没有真实加载`);
+      if (recipe.id === "west-006") {
+        assert(recipe.time === 140 && recipe.defaultServings === 4, "法式洋葱汤的来源总时长或4人份被默认值覆盖");
+        assert(recipe.flags.containsAlcohol && recipe.allergens.includes("dairy") && recipe.allergens.includes("wheat"), "雪莉酒、黄油/干酪或面包的饮食提示遗漏");
+        assert(recipe.flags.containsBeef, "可选牛高汤没有触发含牛肉筛选标记");
+        assert(recipe.steps.every((step) => step.duration === null && step.heat === null && !step.timerRequired), "法式洋葱汤复合阶段或中间火力被误作单个计时/火力");
+        assert(recipe.steps[0].instruction.includes("8分钟") && /1[至—–-]2小时/u.test(recipe.steps[0].instruction), "洋葱的两阶段时间丢失");
+        assert(recipe.steps[1].instruction.includes("3分钟") && recipe.steps[1].instruction.includes("20分钟"), "加酒和煨汤的分阶段时间丢失");
+        assert((await mediaPage.locator(".serving-control").innerText()).includes("4"), "洋葱汤实际详情没有显示来源4人份");
+      }
       if (recipe.id === "west-004") {
         assert(recipe.time === 35 && recipe.defaultServings === 4, "凯撒沙拉的来源总时长或4人份被默认值覆盖");
         assert(recipe.allergens.includes("dairy"), "帕尔马干酪缺少乳制品过敏原");

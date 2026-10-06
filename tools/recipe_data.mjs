@@ -1162,7 +1162,29 @@ export const western = [
     ]
   }, { totalMinutes: 35, prepMinutes: 5, cookMinutes: 20, stepDurations: [null, null, null, null] }, 4),
   w("芝士汉堡", "Cheeseburger", "美国", "牛肉馅360克；汉堡胚2个；切达芝士2片；生菜2片；番茄4片；洋葱适量；酸黄瓜适量；盐和黑胡椒；酱料适量", "1）牛肉轻拢成2个肉饼，煎前撒盐胡椒。2）热锅每面煎2–4分钟，翻面后铺芝士融化。3）面包胚烤香，依次叠酱、生菜、肉饼、番茄和酸黄瓜。", "20-cheeseburger.png"),
-  w("法式洋葱汤", "French Onion Soup", "法国", "无盐黄油90克，另备少许涂面包；黄洋葱或混合洋葱1.4千克；防焦用清水1汤匙；犹太盐和现磨黑胡椒适量；干型雪莉酒120毫升；自制牛高汤或低钠鸡高汤1.8升；百里香2枝；月桂叶1片；鱼露5毫升（可选）；苹果醋5毫升；碗口大小的乡村面包8片；中等大小大蒜1瓣；格鲁耶尔芝士450克；细香葱末2汤匙", "1）洋葱切成约3毫米薄片。锅中以中高火融化90克黄油，放入洋葱炒约8分钟至变软；转中小火，频繁翻动1—2小时，至洋葱浓郁金棕、柔软甘甜；焦糖化接近结束时尤其要勤看，避免烧焦。若锅底褐色汁液将要焦煳，加入1汤匙清水并刮起锅底，再以盐和黑胡椒调味。2）倒入120毫升雪莉酒，边搅动边刮起锅底焦化物，煮约3分钟，至酒精气味大致散去；加入1.8升高汤、百里香和月桂叶，煮至微沸后继续煮20分钟。3）加入可选的5毫升鱼露和5毫升苹果醋，以盐和黑胡椒调味；取出并丢弃百里香和月桂叶。4）预热烤架。将面包烤至酥脆，抹少许黄油并用蒜瓣擦香。耐热碗中先舀入少量汤汁，放一片烤面包和一层格鲁耶尔；再添洋葱汤，放第二片烤面包，盖上剩余格鲁耶尔。置于烤架下烤至芝士完全融化并上色，最后撒细香葱末。", "21-french-onion-soup.png"),
+  w("法式洋葱汤", "French Onion Soup", "法国", "无盐黄油90克，另取适量涂面包；洋葱1.4千克（黄洋葱或混合洋葱，切约3.2毫米厚片）；犹太盐适量（分次调味）；现磨黑胡椒适量（分次调味）；干雪莉酒120毫升（如Amontillado，可选味美思、白葡萄酒、红葡萄酒或波特酒替代，替代用量来源未给出）；高汤1.8升（自制牛高汤，或自制鸡高汤，或低钠市售鸡高汤）；百里香2枝；月桂叶1片；鱼露5毫升（可选）；苹果醋5毫升；乡村面包8片（与碗口大小相称，烤至酥脆）；大蒜1瓣（中等大小）；格鲁耶尔干酪450克（磨碎，分次使用）；细香葱末2汤匙（装饰用）；清水15毫升（每次在锅底洋葱汁液将要焦煳时使用）", "1）将1.4千克洋葱切成约3.2毫米厚片。黄洋葱适合这道汤，也可混用黄洋葱、甜洋葱（如Vidalia）、红洋葱和红葱头，以增加风味层次。在一个大不锈钢汤锅，或两个大不锈钢或铸铁平底锅中，以中高火融化90克无盐黄油至起泡。加入洋葱，偶尔翻动，炒约8分钟至变软；转中低火，经常翻动，继续炒1—2小时，至洋葱非常软、甘甜且呈浓郁金棕色，避免炒得过深而发苦。焦糖化速度会随锅具、批量和脂肪而变化。若锅底褐色洋葱汁液将要焦煳，加入15毫升清水，刮起褐色附着物，再继续炒，必要时按此方法加水。用适量犹太盐和现磨黑胡椒调味。2）加入120毫升干雪莉酒，煮至微沸，同时刮起锅底褐色附着物。若用了两个平底锅，将雪莉酒分加至两锅，再把两锅中的洋葱和液体刮入一个汤锅或荷兰锅，继续煮约3分钟，至酒精气味基本散去。雪莉酒也可用味美思（vermouth）、白葡萄酒、红葡萄酒或波特酒替代，来源未列出各替代用量。加入1.8升高汤、2枝百里香和1片月桂叶，升至中高火，煮到微沸，再调低火力，保持微沸20分钟。高汤优先用自制牛高汤，也可用自制鸡高汤或低钠市售鸡高汤。3）加入5毫升苹果醋；如选用鱼露，此时一并加入5毫升鱼露。以适量犹太盐和现磨黑胡椒调味，取出并丢弃百里香枝和月桂叶。鱼露、苹果醋和雪莉酒可增加汤底的风味层次。4）将8片与碗口大小相称的乡村面包烤至酥脆。预热烤箱上火，将烤架调至最上层。用另取的适量无盐黄油涂抹烤面包片，再用1瓣大蒜擦至有香气。在4个可入烤箱的汤碗底部各舀少量汤汁，先用其中4片烤面包，每碗各放1片，撒一些磨碎的格鲁耶尔干酪。继续舀入汤和洋葱，至接近碗满，再将剩余4片烤面包各放1片入碗，向下轻压至几乎浸入汤中。覆盖余下的干酪，将4个汤碗放在有边沿的烤盘上，用上火烤至干酪融化且局部呈棕色，最后撒上2汤匙细香葱末，即可食用。", "21-french-onion-soup.png", "https://www.seriouseats.com/french-onion-soup-recipe", {
+    sourceName: "Serious Eats",
+    recipePageUrl: "https://www.seriouseats.com/french-onion-soup-recipe",
+    mediaPageUrl: "https://www.seriouseats.com/french-onion-soup-recipe",
+    author: "Julia Estrada",
+    recipeAuthor: "Daniel Gritzer",
+    rightsNotice: "Serious Eats / Julia Estrada",
+    reuseLicense: null,
+    repositoryCopyAuthorization: "user_confirmed_2026-09-16",
+    hero: {
+      path: "assets/dishes/sources/west-006-french-onion-soup/hero.webp",
+      originalUrl: "https://www.seriouseats.com/thmb/LrfQvaX1S3PgpfxshU55RMSwHDo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/SEA-french-onion-soup-recipe-hero-01-cbeea4db88344d00bc2254d4d2df602e.jpg",
+      sha256: "7770b56f9992e1b88a37d53185dbc8e0f1155e8b9cf85e550aebd1649ca43dbd",
+      httpStatus: 200,
+      contentType: "image/webp"
+    },
+    steps: [
+      { stepOrder: 1, sourceStepOrder: 1, path: "assets/dishes/sources/west-006-french-onion-soup/step-1.webp", originalUrl: "https://www.seriouseats.com/thmb/6Xq4Ki9mPtZHyn-0OIgv3y5eWyE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/SEA-french-onion-soup-recipe-step-1-91802185e9974b5ca0783d63be59354b.jpg", sha256: "e5d65400ca392b8c6cd8aab5561306fece39d5a203d9b2403f689af053702bf6", httpStatus: 200, contentType: "image/webp" },
+      { stepOrder: 2, sourceStepOrder: 2, path: "assets/dishes/sources/west-006-french-onion-soup/step-2.webp", originalUrl: "https://www.seriouseats.com/thmb/qTDM_j4mtUB8BZ7dogvgZGRWLCQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/SEA-french-onion-soup-recipe-step-2-ce9e81870c034814a10f667e2e59b19b.jpg", sha256: "d1f10cc3bb1b356df944ba6a80d9874ad5d9bc8907984ebb2fe0402eea43aeb8", httpStatus: 200, contentType: "image/webp" },
+      { stepOrder: 3, sourceStepOrder: 3, path: "assets/dishes/sources/west-006-french-onion-soup/step-3.webp", originalUrl: "https://www.seriouseats.com/thmb/jsYMjwBbqDyFH5AFQfV_jSabDh0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/SEA-french-onion-soup-recipe-step-03-1-5491d6b1f31c426b803e6eb20f9ea8b3.jpg", sha256: "4b53bf1009ca0e755c120f61f445cc8ad5b84691ea90ae183faf7f256a07b56b", httpStatus: 200, contentType: "image/webp" },
+      { stepOrder: 4, sourceStepOrder: 4, path: "assets/dishes/sources/west-006-french-onion-soup/step-4.webp", originalUrl: "https://www.seriouseats.com/thmb/UY7jZudw10sC5sx21huU5-DziLI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/SEA-french-onion-soup-recipe-step-04-69e8eef9e229429ca589dffcd7e6e04c.jpg", sha256: "d6f77bb911d562cf9478ea86a97d937d4d4b00fadcaa18f7fe524e72640ba5ee", httpStatus: 200, contentType: "image/webp" }
+    ]
+  }, { totalMinutes: 140, prepMinutes: 20, cookMinutes: 120, stepDurations: [null, null, null, null] }, 4),
   w("炸鱼薯条", "Fish and Chips", "英国", "鳕鱼柳400克；土豆500克；面粉150克；啤酒200毫升；泡打粉3克；盐和黑胡椒；食用油适量；塔塔酱适量", "1）土豆条低温炸熟，升温复炸至脆。2）面粉、泡打粉和冰啤酒快速调糊，鱼柳调味后蘸糊。3）炸至金黄熟透，配薯条、柠檬和塔塔酱。", "22-fish-and-chips.png", "https://www.bbcgoodfood.com/howto/guide/great-british-seaside-recipes"),
   w("西班牙海鲜饭", "Seafood Paella", "西班牙", "短粒米300克；虾8只；贻贝400克；鱿鱼150克；番茄150克；高汤750毫升；藏红花少许；甜椒粉3克；橄榄油25毫升", "1）锅中炒香鱿鱼、番茄和甜椒粉，加入米拌匀。2）倒入藏红花高汤，铺虾和贻贝后不再搅动。3）中小火煮至米熟底部略焦，关火盖布焖5分钟。", "23-spanish-paella.png"),
   w("德式烤香肠", "German Bratwurst", "德国", "德式香肠6根；洋葱200克；啤酒330毫升；黄油20克；酸菜300克；芥末适量；黑胡椒少许", "1）黄油炒软洋葱，加入香肠和啤酒小火煮10分钟。2）取出香肠煎烤至表面焦香。3）酸菜加热，与洋葱、香肠和芥末同食。", "24-german-bratwurst.png"),

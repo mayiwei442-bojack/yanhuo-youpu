@@ -1,0 +1,22 @@
+{
+  "status": "FAIL",
+  "issues": [
+    {
+      "field": "ingredients[14].name",
+      "message": "生成数据的食材名为“清水每次”；“每次”是用量/使用条件，不属于食材身份。应将名称设为“清水”，在显示标签中保留每次15毫升及防焦条件。"
+    },
+    {
+      "field": "steps[0..3].instruction",
+      "message": "菜谱详情渲染器已单独显示01–04步骤号，但四条正文又分别以“1）”至“4）”开头，造成重复编号；应从正文移除前缀，保留连续的四步显示编号。"
+    }
+  ],
+  "summary": "来源、配料数量与剂量、140分钟总时长、4人份、可选计时/火力、过敏原标签及五张本地图片和来源映射均通过核对；对抗性检查发现食材身份污染和详情页重复步骤编号，因此未通过。",
+  "evidencePackageHash": "69aee0b2c5c533b3e856910138d81346829fa0d3cfa07873370bef54388a74c4",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": false,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": false
+  }
+}

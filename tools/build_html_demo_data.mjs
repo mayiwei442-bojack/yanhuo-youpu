@@ -151,8 +151,8 @@ function buildRecipe(recipe, index, type) {
     allergens: detectAllergens(recipe.ingredients),
     flags: {
       containsPork: /猪|五花肉|培根|火腿|香肠|叉烧|排骨|腊肠|腊味/u.test(recipe.ingredients),
-      containsBeef: /牛肉|牛排|牛里脊|牛肩/u.test(recipe.ingredients),
-      containsAlcohol: /红酒|白酒|料酒|啤酒|葡萄酒/u.test(recipe.ingredients),
+      containsBeef: /牛肉|牛排|牛里脊|牛肩|牛高汤/u.test(recipe.ingredients),
+      containsAlcohol: /红酒|白酒|料酒|啤酒|葡萄酒|雪莉酒|味美思|波特酒/u.test(recipe.ingredients),
       spicy: /辣椒|辣椒粉|泡椒|胡辣|花椒/u.test(recipe.ingredients),
       vegetarian: !/鸡|鸭|鱼|虾|蟹|贝|猪|牛|羊|肉|培根|火腿|香肠|排骨|螺蛳|螺狮|螺丝|海鲜|高汤|鸡汤|鱼汤|牛高汤/u.test(vegetarianCheckText)
     },

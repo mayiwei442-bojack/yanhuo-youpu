@@ -1,0 +1,50 @@
+{
+  "ok": true,
+  "attempt": 3,
+  "targetId": "west-006",
+  "checks": {
+    "unique_ids": true,
+    "target_exists_once": true,
+    "required_fields": true,
+    "target_name": true,
+    "target_ingredients": { "passed": true, "count": 15 },
+    "target_steps": { "passed": true, "count": 4 },
+    "stable_target_fields": true,
+    "target_changed": true,
+    "target_only_diff": true,
+    "generated_target_exists": true
+  },
+  "commands": [
+    {
+      "command": "node tools/build_html_demo_data.mjs",
+      "passed": true,
+      "status": 0,
+      "stdout": "Generated 90 recipes."
+    },
+    {
+      "command": "node tools/test_html_demo.mjs",
+      "passed": true,
+      "status": 0,
+      "stdoutSummary": {
+        "ok": true,
+        "recipes": 90,
+        "pantryItems": 35,
+        "west006": { "steps": 4, "stepImages": 4 },
+        "west006ContainsBeef": true,
+        "west006LastIngredient": {
+          "name": "清水",
+          "label": "清水15毫升（每次在锅底洋葱汁液将要焦煳时使用）"
+        },
+        "west006RenderedStepPrefixes": false,
+        "testedRoutes": ["home", "pantry", "recommendations", "recipe", "game", "cook", "shopping", "recipes", "me"],
+        "browserErrors": []
+      }
+    },
+    {
+      "command": "node tools/build_vercel_output.mjs",
+      "passed": true,
+      "status": 0
+    }
+  ],
+  "errors": []
+}

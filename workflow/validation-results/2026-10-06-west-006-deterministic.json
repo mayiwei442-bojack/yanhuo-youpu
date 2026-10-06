@@ -1,0 +1,30 @@
+{
+  "command": "npm run test:workflow:deterministic",
+  "passed": true,
+  "excluded": ["npm run test:ai"],
+  "checks": {
+    "workflowState": true,
+    "ragRepositories": true,
+    "ragIngestion": true,
+    "resourceExtractors": true,
+    "epubExtractor": true,
+    "agentContracts": true,
+    "recipeValidator": true,
+    "stepMetadata": true,
+    "sourceImages": true,
+    "adversarialLanguage": true,
+    "workflowArtifacts": true,
+    "htmlDemo": true,
+    "unitTests": true,
+    "productionBuild": true
+  },
+  "htmlDemo": {
+    "recipes": 90,
+    "pantryItems": 35,
+    "west006Steps": 4,
+    "west006LocalStepImages": 4,
+    "testedRoutes": ["home", "pantry", "recommendations", "recipe", "game", "cook", "shopping", "recipes", "me"],
+    "browserErrors": []
+  },
+  "buildOutput": "Vercel static build completed successfully"
+}

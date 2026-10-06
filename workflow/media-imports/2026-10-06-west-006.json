@@ -1,0 +1,54 @@
+{
+  "recipeId": "west-006",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://www.seriouseats.com/thmb/LrfQvaX1S3PgpfxshU55RMSwHDo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/SEA-french-onion-soup-recipe-hero-01-cbeea4db88344d00bc2254d4d2df602e.jpg",
+      "repositoryPath": "assets/dishes/sources/west-006-french-onion-soup/hero.webp",
+      "sha256": "7770b56f9992e1b88a37d53185dbc8e0f1155e8b9cf85e550aebd1649ca43dbd",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 140166
+    },
+    {
+      "role": "step",
+      "stepOrder": 1,
+      "originalUrl": "https://www.seriouseats.com/thmb/6Xq4Ki9mPtZHyn-0OIgv3y5eWyE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/SEA-french-onion-soup-recipe-step-1-91802185e9974b5ca0783d63be59354b.jpg",
+      "repositoryPath": "assets/dishes/sources/west-006-french-onion-soup/step-1.webp",
+      "sha256": "e5d65400ca392b8c6cd8aab5561306fece39d5a203d9b2403f689af053702bf6",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 140572
+    },
+    {
+      "role": "step",
+      "stepOrder": 2,
+      "originalUrl": "https://www.seriouseats.com/thmb/qTDM_j4mtUB8BZ7dogvgZGRWLCQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/SEA-french-onion-soup-recipe-step-2-ce9e81870c034814a10f667e2e59b19b.jpg",
+      "repositoryPath": "assets/dishes/sources/west-006-french-onion-soup/step-2.webp",
+      "sha256": "d1f10cc3bb1b356df944ba6a80d9874ad5d9bc8907984ebb2fe0402eea43aeb8",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 142972
+    },
+    {
+      "role": "step",
+      "stepOrder": 3,
+      "originalUrl": "https://www.seriouseats.com/thmb/jsYMjwBbqDyFH5AFQfV_jSabDh0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/SEA-french-onion-soup-recipe-step-03-1-5491d6b1f31c426b803e6eb20f9ea8b3.jpg",
+      "repositoryPath": "assets/dishes/sources/west-006-french-onion-soup/step-3.webp",
+      "sha256": "4b53bf1009ca0e755c120f61f445cc8ad5b84691ea90ae183faf7f256a07b56b",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 87454
+    },
+    {
+      "role": "step",
+      "stepOrder": 4,
+      "originalUrl": "https://www.seriouseats.com/thmb/UY7jZudw10sC5sx21huU5-DziLI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/SEA-french-onion-soup-recipe-step-04-69e8eef9e229429ca589dffcd7e6e04c.jpg",
+      "repositoryPath": "assets/dishes/sources/west-006-french-onion-soup/step-4.webp",
+      "sha256": "d6f77bb911d562cf9478ea86a97d937d4d4b00fadcaa18f7fe524e72640ba5ee",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 123856
+    }
+  ]
+}
