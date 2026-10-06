@@ -1,0 +1,322 @@
+
+> yanhuo-youpu@1.4.0 test:workflow:deterministic
+> npm run test:workflow:state && npm run test:rag:repositories && npm run test:rag:ingestion && npm run test:rag:resource && npm run test:rag:epub && npm run test:workflow:agents && npm run test:workflow:validator && npm run test:workflow:source-images && npm run test:workflow:language && npm run test:workflow:artifacts && node tools/build_html_demo_data.mjs && npm test && npm run build
+
+
+> yanhuo-youpu@1.4.0 test:workflow:state
+> node tools/workflow/generate-recipe-progress.mjs --check && node tools/workflow/validate-run-state.mjs
+
+recipe-progress.json 已同步：90 道菜。
+{
+  "ok": true,
+  "phase": 1,
+  "recipes": 90,
+  "chinese": 60,
+  "western": 30,
+  "enabledSources": 4,
+  "firstRecipe": {
+    "id": "cn-001",
+    "name": "番茄炒蛋",
+    "status": "done",
+    "lastRunId": "2026-09-16-cn-001-source-images",
+    "completedAt": "2026-10-05T23:27:17Z"
+  }
+}
+
+> yanhuo-youpu@1.4.0 test:rag:repositories
+> node tools/workflow/test-rag-repositories.mjs
+
+{
+  "ok": true,
+  "phase": 2,
+  "repositories": [
+    "sources",
+    "documents",
+    "chunks"
+  ],
+  "rlsTables": 4,
+  "embeddingDimension": 1024,
+  "secretInUrl": false
+}
+
+> yanhuo-youpu@1.4.0 test:rag:ingestion
+> node tools/workflow/test-rag-ingestion.mjs
+
+{
+  "ok": true,
+  "phase": 3,
+  "chunkTypes": [
+    "summary",
+    "ingredients",
+    "steps",
+    "technique",
+    "tips"
+  ],
+  "chunks": 5,
+  "embeddingDimension": 1024,
+  "documentInputType": "document",
+  "queryInputType": "query",
+  "retrievalResults": 3,
+  "hybridResults": 3,
+  "invalidHistoryExcluded": true,
+  "filteredSemanticResults": 2,
+  "filteredHybridResults": 2
+}
+
+> yanhuo-youpu@1.4.0 test:rag:resource
+> node tools/workflow/test-resource-extractors.mjs
+
+{
+  "ok": true,
+  "phase": 4,
+  "extractors": [
+    "JSON-LD",
+    "豆果HTML"
+  ],
+  "blockedAccessDetected": true,
+  "bypassAttempted": false
+}
+
+> yanhuo-youpu@1.4.0 test:rag:epub
+> node tools/workflow/test-epub-extractor.mjs
+
+{
+  "ok": true,
+  "phase": 8,
+  "recipe": "测试炒菜",
+  "ingredients": 3,
+  "steps": 2,
+  "fixedPageNumbersAvailable": false,
+  "chunkTypes": [
+    "summary",
+    "ingredients",
+    "steps",
+    "technique",
+    "tips"
+  ]
+}
+
+> yanhuo-youpu@1.4.0 test:workflow:agents
+> node tools/workflow/test-agent-contracts.mjs
+
+{
+  "ok": true,
+  "phase": 5,
+  "roles": [
+    "researcher",
+    "editor",
+    "reviewer"
+  ],
+  "evidenceMinimumSources": 1,
+  "reviewerStatuses": [
+    "PASS",
+    "FAIL"
+  ],
+  "scheduledActivationValidated": false
+}
+
+> yanhuo-youpu@1.4.0 test:workflow:validator
+> node tools/workflow/test-recipe-validator.mjs && node tools/workflow/test-step-metadata.mjs
+
+{
+  "ok": true,
+  "phase": 6,
+  "validTargetOnlyEdit": true,
+  "detectsUnrelatedEdit": true,
+  "detectsMalformedSteps": true,
+  "protectsStableFields": true,
+  "allowsExplicitSourceCorrection": true,
+  "sourceCorrectionDoesNotAllowOtherStableFields": true
+}
+{"ok":true,"check":"source_supported_step_metadata"}
+
+> yanhuo-youpu@1.4.0 test:workflow:source-images
+> node tools/workflow/test-source-images.mjs
+
+{
+  "ok": true,
+  "refreshedRecipes": 15
+}
+
+> yanhuo-youpu@1.4.0 test:workflow:language
+> node tools/workflow/test-recipe-language.mjs
+
+{
+  "ok": true,
+  "check": "adversarial_recipe_language",
+  "refreshedRecipes": [
+    "番茄炒蛋",
+    "宫保鸡丁",
+    "麻婆豆腐",
+    "鱼香肉丝",
+    "青椒肉丝",
+    "红烧肉",
+    "糖醋里脊",
+    "扬州炒饭",
+    "清蒸鲈鱼",
+    "地三鲜",
+    "锅包肉",
+    "蒜蓉粉丝蒸扇贝",
+    "干煸四季豆",
+    "莲藕排骨汤",
+    "豉汁蒸排骨"
+  ]
+}
+
+> yanhuo-youpu@1.4.0 test:workflow:artifacts
+> node tools/workflow/validate-workflow-artifacts.mjs
+
+{
+  "ok": true,
+  "scope": "historical_text_rag_fixtures_only",
+  "currentImageRefreshCompletionValidated": false,
+  "historicalArtifacts": [
+    {
+      "recipeId": "cn-010",
+      "sources": 2,
+      "ragEvidence": 10,
+      "review": "PASS",
+      "runStatus": "done"
+    },
+    {
+      "recipeId": "cn-011",
+      "sources": 1,
+      "ragEvidence": 5,
+      "review": "PASS",
+      "runStatus": "done"
+    },
+    {
+      "recipeId": "cn-024",
+      "sources": 2,
+      "ragEvidence": 10,
+      "review": "PASS",
+      "runStatus": "done"
+    },
+    {
+      "recipeId": "cn-027",
+      "sources": 2,
+      "ragEvidence": 10,
+      "review": "PASS",
+      "runStatus": "done"
+    },
+    {
+      "recipeId": "cn-036",
+      "sources": 2,
+      "ragEvidence": 10,
+      "review": "PASS",
+      "runStatus": "done"
+    },
+    {
+      "recipeId": "cn-054",
+      "sources": 2,
+      "ragEvidence": 10,
+      "review": "PASS",
+      "runStatus": "done"
+    }
+  ]
+}
+Generated 90 recipes.
+
+> yanhuo-youpu@1.4.0 test
+> node tools/test_html_demo.mjs
+
+{
+  "ok": true,
+  "recipes": 90,
+  "pantryItems": 35,
+  "verifiedMedia": [
+    {
+      "id": "cn-001",
+      "steps": 6,
+      "stepImages": 6
+    },
+    {
+      "id": "cn-002",
+      "steps": 7,
+      "stepImages": 6
+    },
+    {
+      "id": "cn-003",
+      "steps": 6,
+      "stepImages": 4
+    },
+    {
+      "id": "cn-004",
+      "steps": 7,
+      "stepImages": 5
+    },
+    {
+      "id": "cn-005",
+      "steps": 11,
+      "stepImages": 11
+    },
+    {
+      "id": "cn-006",
+      "steps": 5,
+      "stepImages": 3
+    },
+    {
+      "id": "cn-007",
+      "steps": 19,
+      "stepImages": 19
+    },
+    {
+      "id": "cn-008",
+      "steps": 9,
+      "stepImages": 4
+    },
+    {
+      "id": "cn-009",
+      "steps": 8,
+      "stepImages": 8
+    },
+    {
+      "id": "cn-010",
+      "steps": 13,
+      "stepImages": 13
+    },
+    {
+      "id": "cn-024",
+      "steps": 16,
+      "stepImages": 15
+    },
+    {
+      "id": "cn-027",
+      "steps": 17,
+      "stepImages": 17
+    },
+    {
+      "id": "cn-029",
+      "steps": 13,
+      "stepImages": 12
+    },
+    {
+      "id": "cn-036",
+      "steps": 4,
+      "stepImages": 3
+    },
+    {
+      "id": "cn-054",
+      "steps": 11,
+      "stepImages": 9
+    }
+  ],
+  "testedRoutes": [
+    "home",
+    "pantry",
+    "recommendations",
+    "recipe",
+    "game",
+    "cook",
+    "shopping",
+    "recipes",
+    "me"
+  ],
+  "browserErrors": []
+}
+
+> yanhuo-youpu@1.4.0 build
+> node tools/build_vercel_output.mjs
+
+Vercel 静态构建完成：C:\Users\myw\Documents\recipe-automation\dist
+Vercel Build Output 已生成：C:\Users\myw\Documents\recipe-automation\.vercel\output

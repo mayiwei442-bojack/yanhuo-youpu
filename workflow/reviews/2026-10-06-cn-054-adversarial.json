@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "cn-054独立审查通过。冻结证据与目标哈希一致，确定性验证通过。15项原料、11步操作忠实采用豆果3316845整套来源，保留分次用量、先干煸后加油顺序及30秒、20分钟、上汽大火25分钟。10张本地图片逐张目检、JPEG与哈希核验通过，步骤2—10映射正确，步骤1和11保持纯文字。独立Chrome实际页面检查通过：15行原料、11步详情及教程、图片真实加载、计时与火力控件正确；未知总时长显示未注明，卡片和分享无数字总时长，时间筛选排除未知值。另行对抗性检查原料语义、逐步语法、标点括号及分隔与编号结构，均通过。",
+  "evidencePackageHash": "88684559e46e21bd3ce023f75f4d221b80294d52b48837acd7a49101195ef4be",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

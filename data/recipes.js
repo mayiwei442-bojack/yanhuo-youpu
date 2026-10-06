@@ -7465,93 +7465,99 @@ window.YANHUO_RECIPES = [
     "ingredients": [
       {
         "id": "ingredient-01",
-        "name": "肋排",
-        "label": "肋排500克",
+        "name": "排骨",
+        "label": "排骨500克",
         "isCore": true
       },
       {
         "id": "ingredient-02",
-        "name": "阳江豆豉",
-        "label": "阳江豆豉15克",
+        "name": "陈皮",
+        "label": "陈皮5克（不喜欢可不放）",
         "isCore": true
       },
       {
         "id": "ingredient-03",
+        "name": "豆豉",
+        "label": "豆豉50克",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-04",
+        "name": "高汤",
+        "label": "高汤50克（制汁与腌制时分次使用，各次用量未注明）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-05",
+        "name": "葱花",
+        "label": "葱花10克",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-06",
+        "name": "青红椒末",
+        "label": "青红椒末适量",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-07",
+        "name": "花生油",
+        "label": "花生油55克（爆香、腌制与淋热油时分次使用，各次用量未注明）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-08",
+        "name": "酱油",
+        "label": "酱油15克（制汁用10克，拌排骨用5克）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-09",
+        "name": "蚝油",
+        "label": "蚝油15克（制汁用10克，拌排骨用5克）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-10",
+        "name": "生粉",
+        "label": "生粉15克",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-11",
         "name": "姜末",
         "label": "姜末10克",
         "isCore": false
       },
       {
-        "id": "ingredient-04",
+        "id": "ingredient-12",
         "name": "蒜末",
         "label": "蒜末10克",
         "isCore": false
       },
       {
-        "id": "ingredient-05",
-        "name": "白糖",
-        "label": "白糖3克",
-        "isCore": false
-      },
-      {
-        "id": "ingredient-06",
-        "name": "干淀粉",
-        "label": "干淀粉5克",
-        "isCore": false
-      },
-      {
-        "id": "ingredient-07",
-        "name": "盐",
-        "label": "盐5克",
-        "isCore": false
-      },
-      {
-        "id": "ingredient-08",
-        "name": "料酒",
-        "label": "料酒10毫升",
-        "isCore": false
-      },
-      {
-        "id": "ingredient-09",
-        "name": "生抽",
-        "label": "生抽15毫升",
-        "isCore": false
-      },
-      {
-        "id": "ingredient-10",
-        "name": "蚝油",
-        "label": "蚝油5毫升",
-        "isCore": false
-      },
-      {
-        "id": "ingredient-11",
-        "name": "白胡椒粉",
-        "label": "白胡椒粉2克",
-        "isCore": false
-      },
-      {
-        "id": "ingredient-12",
-        "name": "朝天椒",
-        "label": "朝天椒1个",
-        "isCore": true
-      },
-      {
         "id": "ingredient-13",
-        "name": "小葱",
-        "label": "小葱10克",
+        "name": "糖",
+        "label": "糖15克",
         "isCore": false
       },
       {
         "id": "ingredient-14",
-        "name": "食用油",
-        "label": "食用油10毫升",
+        "name": "味精",
+        "label": "味精10克",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-15",
+        "name": "水",
+        "label": "水（泡陈皮与蒸锅用，用量未注明）",
         "isCore": false
       }
     ],
     "steps": [
       {
         "id": "step-01",
-        "instruction": "肋排斩成约3厘米小块，充分冲洗去血水后沥干；姜、蒜、豆豉切末，朝天椒切粒。",
+        "instruction": "排骨去除背部脊骨和腩尾软骨部分，切成约3厘米的段备用。青红椒切粒，姜和蒜切末。陈皮用水泡软后切丝备用（不喜欢陈皮可不放）。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
@@ -7561,51 +7567,149 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "step-02",
-        "instruction": "排骨加入豆豉、姜蒜末、部分椒粒、盐、白糖、白胡椒粉、生抽、蚝油、料酒和食用油，抓拌均匀。",
+        "instruction": "将50克豆豉切碎。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-054-black-bean-ribs/step-2.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/3316845.html"
+      },
+      {
+        "id": "step-03",
+        "instruction": "料理锅加热，不加油，放入切碎的豆豉干煸。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "add",
-        "safetyNote": ""
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-054-black-bean-ribs/step-3.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/3316845.html"
       },
       {
-        "id": "step-03",
-        "instruction": "干淀粉加少量水调开后拌入排骨，腌至少20分钟；时间允许可延长至2小时。",
+        "id": "step-04",
+        "instruction": "加入陈皮丝，继续煸炒至出香味（不放陈皮时省略此步）。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-054-black-bean-ribs/step-4.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/3316845.html"
+      },
+      {
+        "id": "step-05",
+        "instruction": "加入10克蒜末、10克姜末和爆香用的花生油，继续爆香约30秒。",
+        "duration": 30,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-054-black-bean-ribs/step-5.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/3316845.html"
+      },
+      {
+        "id": "step-06",
+        "instruction": "从50克高汤中取少许加入锅中，再加入15克糖和10克味精，煮至酱汁黏稠。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-054-black-bean-ribs/step-6.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/3316845.html"
+      },
+      {
+        "id": "step-07",
+        "instruction": "加入10克酱油和10克蚝油，煮至混合均匀，盛出豆豉汁。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-054-black-bean-ribs/step-7.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/3316845.html"
+      },
+      {
+        "id": "step-08",
+        "instruction": "将豆豉汁加入排骨，充分翻拌均匀，再加入剩余的5克酱油和5克蚝油补味。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-054-black-bean-ribs/step-8.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/3316845.html"
+      },
+      {
+        "id": "step-09",
+        "instruction": "加入少量高汤、15克生粉和腌制用的花生油，充分搅拌均匀，腌制20分钟备用。高汤与花生油各次用量原文未注明，花生油需留出最后淋热油的部分。",
+        "duration": 1200,
+        "heat": null,
+        "timerRequired": true,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "注意热油飞溅",
+        "image": "assets/dishes/sources/cn-054-black-bean-ribs/step-9.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/3316845.html"
+      },
+      {
+        "id": "step-10",
+        "instruction": "将腌制好的排骨放入蒸锅，蒸锅中加水，待水开上汽后大火蒸25分钟，出锅。",
+        "duration": 1500,
+        "heat": "high",
+        "timerRequired": true,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-054-black-bean-ribs/step-10.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/3316845.html"
+      },
+      {
+        "id": "step-11",
+        "instruction": "撒入10克葱花和适量青红椒末，将预留的花生油加热后淋在排骨上。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "confirm",
         "safetyNote": ""
-      },
-      {
-        "id": "step-04",
-        "instruction": "排骨在盘中摊开，蒸锅水开上汽后大火蒸25–30分钟至熟，出锅撒葱花和剩余椒粒。",
-        "duration": 1800,
-        "heat": "high",
-        "timerRequired": true,
-        "ingredientsUsed": [],
-        "gameAction": "wait",
-        "safetyNote": ""
       }
     ],
-    "imageThumb": "assets/dishes/thumbnails/84-chizhi-zheng-paigu.jpg",
-    "imageFull": "assets/dishes/ai/84-chizhi-zheng-paigu.png",
-    "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
-    "time": 170,
-    "timeBasis": "estimated",
+    "imageThumb": "assets/dishes/sources/cn-054-black-bean-ribs/hero.jpg",
+    "imageFull": "assets/dishes/sources/cn-054-black-bean-ribs/hero.jpg",
+    "source": "https://www.douguo.com/cookbook/3316845.html",
+    "media": {
+      "sourceName": "豆果美食",
+      "recipePageUrl": "https://www.douguo.com/cookbook/3316845.html",
+      "mediaPageUrl": "https://www.douguo.com/cookbook/3316845.html",
+      "author": "清幽梅花2",
+      "rightsNotice": "©本菜谱的做法由 清幽梅花2 编写，未经授权不得转载",
+      "reuseLicense": null,
+      "repositoryCopyAuthorization": "user_confirmed_2026-09-16"
+    },
+    "time": null,
+    "timeBasis": "unspecified",
     "difficulty": "进阶",
     "defaultServings": 2,
     "allergens": [
+      "peanut",
       "soy"
     ],
     "flags": {
-      "containsPork": false,
+      "containsPork": true,
       "containsBeef": false,
-      "containsAlcohol": true,
+      "containsAlcohol": false,
       "spicy": false,
-      "vegetarian": true
+      "vegetarian": false
     },
     "demoEnriched": true
   },

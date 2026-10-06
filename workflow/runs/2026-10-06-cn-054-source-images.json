@@ -8,42 +8,161 @@
   "completedAt": null,
   "steps": {
     "research": {
-      "status": "in_progress",
+      "status": "done",
       "attempts": 1,
       "details": {
         "batchId": "2026-09-16-source-image-refresh-21",
         "beforeSnapshot": "workflow/snapshots/2026-10-06-cn-054-before.json",
         "historicalEvidence": "workflow/evidence/cn-054-black-bean-ribs.json",
         "historicalAudit": "旧canonical混入蒜10克、腌20分钟等网站/书籍不同内容；旧豆果错误食材名辅料/调料及广告1秒计时不得复用，旧书籍生油/生抽原文需核验。",
-        "selectionReason": "上一道莲藕排骨汤已正式完成内容3b93d69及状态8642b5e推送；按批次顺序继续cn-054。"
+        "selectionReason": "上一道莲藕排骨汤已正式完成内容3b93d69及状态8642b5e推送；按批次顺序继续cn-054。",
+        "agent": "research_cn054_remaining6",
+        "exactRagQuerySessionId": 3076,
+        "candidateProgress": "书籍生油歧义、Woks时间冲突及Nicole葱用途缺失拒选；唯一豆果3316845完整整份选中。",
+        "recipeEntityId": "2dcd0c7e-1483-4895-a99e-a0ebc9f65beb",
+        "exactRagQuerySessionStatus": "terminal_timeout_recovered_with_configured_proxy",
+        "connectionRecovered": true,
+        "sourceMode": "single_source",
+        "singleSourceReason": "配置来源和可靠历史核验后仅豆果3316845完整自洽，其他存在原文歧义、时间冲突或用途缺项。",
+        "baseEvidencePath": "workflow/evidence/2026-10-06-cn-054-base.json",
+        "baseEvidencePackageHash": "3927d976f1ca34b263274f87a953c854574bd2a392d6f691437ded69ca4fe9c5",
+        "evidencePath": "workflow/evidence/2026-10-06-cn-054-source-images.json",
+        "evidencePackageHash": "88684559e46e21bd3ce023f75f4d221b80294d52b48837acd7a49101195ef4be",
+        "decisionPath": "workflow/evidence-decisions/2026-10-06-cn-054.json",
+        "selectedSourceUrl": "https://www.douguo.com/cookbook/3316845.html",
+        "selectionComplete": true
       }
     },
     "ingestion": {
-      "status": "pending",
-      "attempts": 0
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "imageImportPath": "workflow/media-imports/2026-10-06-cn-054.json",
+        "mediaManifestPath": "workflow/media-manifests/2026-10-06-cn-054.json",
+        "localImages": 10,
+        "heroImages": 1,
+        "mappedStepImages": 9,
+        "httpStatus": 200,
+        "imageTypeAndSha256Verified": true,
+        "allTenImagesRootViewed": true,
+        "ragCorrectionAndRetrieval": "PASS",
+        "selectedDocumentId": "c694ed44-fa88-4650-8242-95407ed20025",
+        "activeChunks": 5,
+        "auditOnlyDocuments": 7,
+        "auditOnlyChunks": 35,
+        "totalChunks": 40,
+        "embeddingModel": "voyage-4",
+        "actualVectorDimension": 1024,
+        "semanticResults": 5,
+        "hybridResults": 5,
+        "excludedDocumentResults": 0,
+        "rootSqlVerified": true,
+        "ragAuditPath": "workflow/rag-audits/2026-10-06-cn-054-correction.json"
+      }
     },
     "edit": {
-      "status": "pending",
-      "attempts": 0
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "agent": "edit_cn054_remaining6",
+        "evidencePath": "workflow/evidence/2026-10-06-cn-054-source-images.json",
+        "evidencePackageHash": "88684559e46e21bd3ce023f75f4d221b80294d52b48837acd7a49101195ef4be",
+        "targetOnly": "tools/recipe_data.mjs chinese[53]",
+        "ingredients": 15,
+        "steps": 11,
+        "heroImages": 1,
+        "stepImages": 9,
+        "explicitTiming": false,
+        "canonicalTargetHash": "b218041fcdfb522396f86698123c60cc50cdd3110688ce2d4b368246a1865d2b",
+        "sourceChangeReason": "旧默认Woks字段与混源正文不匹配；按来源完整自洽及图片核验采用清幽梅花2豆果3316845整套。"
+      }
     },
     "validator": {
-      "status": "pending",
-      "attempts": 0
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "command": "node tools/workflow/validate-recipe.mjs --target cn-054 --before workflow/snapshots/2026-10-06-cn-054-before.json --full --allow-source-change --require-change",
+        "passed": true,
+        "artifact": "workflow/validation-results/2026-10-06-cn-054.json",
+        "checks": 10,
+        "unrelatedRecipeChanges": [],
+        "generatedBuildBrowserPassed": true,
+        "refreshedRecipesVerified": 15,
+        "verifiedSteps": 152,
+        "verifiedLocalImages": 150,
+        "sessionId": 82050
+      }
     },
     "review": {
-      "status": "pending",
-      "attempts": 0
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "agent": "review_cn054_remaining6",
+        "evidencePath": "workflow/evidence/2026-10-06-cn-054-source-images.json",
+        "evidencePackageHash": "88684559e46e21bd3ce023f75f4d221b80294d52b48837acd7a49101195ef4be",
+        "canonicalTargetHash": "b218041fcdfb522396f86698123c60cc50cdd3110688ce2d4b368246a1865d2b",
+        "validatorArtifact": "workflow/validation-results/2026-10-06-cn-054.json",
+        "result": "PASS",
+        "artifact": "workflow/reviews/2026-10-06-cn-054-adversarial.json",
+        "adversarialChecks": 4,
+        "actualLocalImagesVisuallyInspected": 10,
+        "independentRenderedPageVerification": "PASS"
+      }
     },
     "build": {
-      "status": "pending",
-      "attempts": 0
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "command": "npm run test:workflow:deterministic",
+        "sessionId": 48545,
+        "result": "PASS",
+        "artifact": "workflow/validation-results/2026-10-06-cn-054-deterministic.txt",
+        "refreshedRecipesVerified": 15,
+        "verifiedSteps": 152,
+        "verifiedHeroImages": 15,
+        "verifiedStepImages": 135,
+        "verifiedLocalImages": 150,
+        "browserErrors": [],
+        "staticBuild": "PASS",
+        "standaloneChatApiUsed": false
+      }
     },
     "gitPush": {
-      "status": "pending",
-      "attempts": 0
+      "status": "in_progress",
+      "attempts": 1,
+      "details": {
+        "branch": "codex/recipe-automation",
+        "reviewerResult": "PASS",
+        "fullDeterministicTests": "PASS"
+      }
     }
   },
-  "sources": [],
+  "sources": [
+    {
+      "name": "豆果美食（清幽梅花2）",
+      "url": "https://www.douguo.com/cookbook/3316845.html",
+      "status": "success",
+      "failureReason": null
+    },
+    {
+      "name": "豆果美食（Nicole）",
+      "url": "https://www.douguo.com/cookbook/1412894.html",
+      "status": "failed",
+      "failureReason": "原料香葱切末后无后续用途；曾入库后复核拒选，document/chunks已标记rejected。"
+    },
+    {
+      "name": "The Woks of Life",
+      "url": "https://thewoksoflife.com/dim-sum-spare-ribs-w-black-beans/",
+      "status": "failed",
+      "failureReason": "普通fetch403，正常web.open读到全文；配方卡Cook10min与正文蒸20min冲突，拒选保留审计。"
+    },
+    {
+      "name": "贝太厨房:从小爱吃的菜2",
+      "url": null,
+      "status": "failed",
+      "failureReason": "原EPUB写生油，与原料生抽存在字面歧义，不擅改；拒选保留审计。"
+    }
+  ],
   "errors": [],
   "branch": "codex/recipe-automation",
   "commit": null

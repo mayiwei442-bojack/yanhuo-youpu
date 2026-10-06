@@ -1100,7 +1100,33 @@ export const chinese = [
   c("叉烧", "Cantonese Char Siu", "粤菜", "梅花肉600克；叉烧酱60克；生抽20毫升；蜂蜜25克；料酒15毫升；蒜末10克", "1）猪肉切粗条，以叉烧酱、生抽、料酒和蒜末冷藏腌一夜。2）200℃烤30–35分钟，中途翻面并刷腌汁。3）最后刷蜂蜜，升温烤至焦亮，静置后切片。", "81-chashao.png"),
   c("梅菜扣肉", "Pork Belly with Preserved Mustard Greens", "客家菜", "五花肉700克；梅干菜150克；生抽30毫升；老抽10毫升；糖10克；姜蒜适量；料酒20毫升", "1）五花肉煮至七成熟，抹老抽，肉皮向下煎至起泡，切片。2）梅干菜泡洗后与姜蒜炒香调味。3）肉片皮朝下码碗，铺梅菜，蒸90分钟后倒扣。", "82-meicai-kourou.png"),
   c("盐焗鸡", "Salt-baked Chicken", "客家菜", "三黄鸡1只约1000克；粗盐1500克；沙姜粉10克；盐8克；葱姜适量；烘焙纸2张", "1）鸡擦干，以沙姜粉和盐抹匀腌2小时。2）腹中塞葱姜，用纸严密包裹。3）锅中粗盐炒热，埋入鸡，小火焗45分钟，关火焖20分钟。", "83-yanju-ji.png", CN_HOME),
-  c("豉汁蒸排骨", "Steamed Pork Ribs with Black Bean", "粤菜", "肋排500克；阳江豆豉15克；姜末10克；蒜末10克；白糖3克；干淀粉5克；盐5克；料酒10毫升；生抽15毫升；蚝油5毫升；白胡椒粉2克；朝天椒1个；小葱10克；食用油10毫升", "1）肋排斩成约3厘米小块，充分冲洗去血水后沥干；姜、蒜、豆豉切末，朝天椒切粒。2）排骨加入豆豉、姜蒜末、部分椒粒、盐、白糖、白胡椒粉、生抽、蚝油、料酒和食用油，抓拌均匀。3）干淀粉加少量水调开后拌入排骨，腌至少20分钟；时间允许可延长至2小时。4）排骨在盘中摊开，蒸锅水开上汽后大火蒸25–30分钟至熟，出锅撒葱花和剩余椒粒。", "84-chizhi-zheng-paigu.png"),
+  c("豉汁蒸排骨", "Steamed Pork Ribs with Black Bean", "粤菜", "排骨500克；陈皮5克（不喜欢可不放）；豆豉50克；高汤50克（制汁与腌制时分次使用，各次用量未注明）；葱花10克；青红椒末适量；花生油55克（爆香、腌制与淋热油时分次使用，各次用量未注明）；酱油15克（制汁用10克，拌排骨用5克）；蚝油15克（制汁用10克，拌排骨用5克）；生粉15克；姜末10克；蒜末10克；糖15克；味精10克；水（泡陈皮与蒸锅用，用量未注明）", "1）排骨去除背部脊骨和腩尾软骨部分，切成约3厘米的段备用。青红椒切粒，姜和蒜切末。陈皮用水泡软后切丝备用（不喜欢陈皮可不放）。2）将50克豆豉切碎。3）料理锅加热，不加油，放入切碎的豆豉干煸。4）加入陈皮丝，继续煸炒至出香味（不放陈皮时省略此步）。5）加入10克蒜末、10克姜末和爆香用的花生油，继续爆香约30秒。6）从50克高汤中取少许加入锅中，再加入15克糖和10克味精，煮至酱汁黏稠。7）加入10克酱油和10克蚝油，煮至混合均匀，盛出豆豉汁。8）将豆豉汁加入排骨，充分翻拌均匀，再加入剩余的5克酱油和5克蚝油补味。9）加入少量高汤、15克生粉和腌制用的花生油，充分搅拌均匀，腌制20分钟备用。高汤与花生油各次用量原文未注明，花生油需留出最后淋热油的部分。10）将腌制好的排骨放入蒸锅，蒸锅中加水，待水开上汽后大火蒸25分钟，出锅。11）撒入10克葱花和适量青红椒末，将预留的花生油加热后淋在排骨上。", "84-chizhi-zheng-paigu.png", "https://www.douguo.com/cookbook/3316845.html", {
+    sourceName: "豆果美食",
+    recipePageUrl: "https://www.douguo.com/cookbook/3316845.html",
+    mediaPageUrl: "https://www.douguo.com/cookbook/3316845.html",
+    author: "清幽梅花2",
+    rightsNotice: "©本菜谱的做法由 清幽梅花2 编写，未经授权不得转载",
+    reuseLicense: null,
+    repositoryCopyAuthorization: "user_confirmed_2026-09-16",
+    hero: {
+      path: "assets/dishes/sources/cn-054-black-bean-ribs/hero.jpg",
+      originalUrl: "https://cp1.douguo.com/upload/caiku/3/2/1/960_322b54e34a4ad2a4ba53f21a3c7115f1.jpg",
+      sha256: "73d59bbfff1010fce910c76117bda5a1b0f9077610dd2580b79429cf22bde123",
+      httpStatus: 200,
+      contentType: "image/jpeg"
+    },
+    steps: [
+      { stepOrder: 2, path: "assets/dishes/sources/cn-054-black-bean-ribs/step-2.jpg", originalUrl: "https://cp1.douguo.com/upload/caiku/d/f/f/800_dfbc9ce3fcee54d21c4e9f0663b7c4df.jpg", sha256: "f21ccd3437c5dc2ebb81adc0323e20d43ad17dab299f3cc408cbd60d918540bf", httpStatus: 200, contentType: "image/jpeg" },
+      { stepOrder: 3, path: "assets/dishes/sources/cn-054-black-bean-ribs/step-3.jpg", originalUrl: "https://cp1.douguo.com/upload/caiku/7/c/a/800_7c1405449e240169454b69a2c03e019a.jpg", sha256: "b7086c839eeb698477eb8d6ea077d2702a23d84c547dede8875d266037484433", httpStatus: 200, contentType: "image/jpeg" },
+      { stepOrder: 4, path: "assets/dishes/sources/cn-054-black-bean-ribs/step-4.jpg", originalUrl: "https://cp1.douguo.com/upload/caiku/5/c/f/800_5c1d2056e4a08b693fbbdf344f1fab5f.jpg", sha256: "d9b21bc5339dac55cc0d24da70626ebcccb4bd749218753dd86befef004d4ced", httpStatus: 200, contentType: "image/jpeg" },
+      { stepOrder: 5, path: "assets/dishes/sources/cn-054-black-bean-ribs/step-5.jpg", originalUrl: "https://cp1.douguo.com/upload/caiku/e/0/2/800_e0047cf0ff651e1fb0efa345de2d7d82.jpg", sha256: "77aaeb5aa6c7e5f9d43dd2008e1bf7ff51bbe5bd020e26022eb8d55e588b15e5", httpStatus: 200, contentType: "image/jpeg" },
+      { stepOrder: 6, path: "assets/dishes/sources/cn-054-black-bean-ribs/step-6.jpg", originalUrl: "https://cp1.douguo.com/upload/caiku/3/9/4/800_399e1038b1787b9546fb340fb5ba2674.jpg", sha256: "a8589343502c4faa9afcb84b936d09b72695317dd92f48b61520987596789a57", httpStatus: 200, contentType: "image/jpeg" },
+      { stepOrder: 7, path: "assets/dishes/sources/cn-054-black-bean-ribs/step-7.jpg", originalUrl: "https://cp1.douguo.com/upload/caiku/1/9/0/800_198e7a52b2a05533d44de396ad3bb690.jpg", sha256: "24e8625fc5a5bc968e87a2fc1ff7a257dc5ae2e4798e27a5f5001b24d49c3d35", httpStatus: 200, contentType: "image/jpeg" },
+      { stepOrder: 8, path: "assets/dishes/sources/cn-054-black-bean-ribs/step-8.jpg", originalUrl: "https://cp1.douguo.com/upload/caiku/a/5/4/800_a5d17f3276a4c840fc07f38855d125b4.jpg", sha256: "deb22442238082a5d6a2b76df27e4dff7282382347faed40055efecb2b731372", httpStatus: 200, contentType: "image/jpeg" },
+      { stepOrder: 9, path: "assets/dishes/sources/cn-054-black-bean-ribs/step-9.jpg", originalUrl: "https://cp1.douguo.com/upload/caiku/0/3/d/800_03b7bd9186eab89c3dcfaf07989395ed.jpg", sha256: "86f0f56833f41e33e1def3c7ca826e5aa6710a45c532210e1815cf6d24ef93c1", httpStatus: 200, contentType: "image/jpeg" },
+      { stepOrder: 10, path: "assets/dishes/sources/cn-054-black-bean-ribs/step-10.jpg", originalUrl: "https://cp1.douguo.com/upload/caiku/f/4/c/800_f4cbb216ebc518d59e15581d5bdf996c.jpg", sha256: "b942e6d2c6c28fa0316f3c8f61464ef7f5551f8525274c0249689dad713b4e6c", httpStatus: 200, contentType: "image/jpeg" }
+    ]
+  }),
   c("干锅花菜", "Dry-pot Cauliflower", "湘川风味", "花菜500克；五花肉150克；青蒜80克；干辣椒6个；豆瓣酱15克；生抽15毫升；蒜片适量", "1）花菜掰小朵，淡盐水浸洗后焯至七成熟。2）五花肉煸出油，加豆瓣、辣椒和蒜片。3）下花菜大火煸至边缘焦香，加生抽和青蒜。", "85-ganguo-huacai.png"),
   c("上汤娃娃菜", "Baby Napa Cabbage in Superior Broth", "粤菜", "娃娃菜2棵；皮蛋1个；咸蛋黄1个；火腿30克；蒜片10克；高汤500毫升；盐适量", "1）娃娃菜纵切，焯水后摆盘。2）炒香蒜片，下皮蛋、咸蛋黄和火腿丁。3）加入高汤煮浓，调盐后浇在娃娃菜上。", "86-shangtang-wawacai.png"),
   c("红烧茄子", "Red-braised Eggplant", "家常菜", "茄子500克；青椒80克；蒜末15克；生抽20毫升；老抽5毫升；糖8克；香醋8毫升；淀粉8克", "1）茄子切块撒少许盐，挤水后裹薄淀粉煎软。2）炒香蒜末和青椒。3）加入酱油糖醋汁及茄子，焖2分钟后收汁。", "87-hongshao-qiezi.png"),

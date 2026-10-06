@@ -1,0 +1,104 @@
+{
+  "recipeId": "cn-054",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/3/2/1/960_322b54e34a4ad2a4ba53f21a3c7115f1.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-054-black-bean-ribs/hero.jpg",
+      "sha256": "73d59bbfff1010fce910c76117bda5a1b0f9077610dd2580b79429cf22bde123",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 353202
+    },
+    {
+      "role": "step",
+      "stepOrder": 2,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/d/f/f/800_dfbc9ce3fcee54d21c4e9f0663b7c4df.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-054-black-bean-ribs/step-2.jpg",
+      "sha256": "f21ccd3437c5dc2ebb81adc0323e20d43ad17dab299f3cc408cbd60d918540bf",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 154405
+    },
+    {
+      "role": "step",
+      "stepOrder": 3,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/7/c/a/800_7c1405449e240169454b69a2c03e019a.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-054-black-bean-ribs/step-3.jpg",
+      "sha256": "b7086c839eeb698477eb8d6ea077d2702a23d84c547dede8875d266037484433",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 132414
+    },
+    {
+      "role": "step",
+      "stepOrder": 4,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/5/c/f/800_5c1d2056e4a08b693fbbdf344f1fab5f.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-054-black-bean-ribs/step-4.jpg",
+      "sha256": "d9b21bc5339dac55cc0d24da70626ebcccb4bd749218753dd86befef004d4ced",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 164647
+    },
+    {
+      "role": "step",
+      "stepOrder": 5,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/e/0/2/800_e0047cf0ff651e1fb0efa345de2d7d82.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-054-black-bean-ribs/step-5.jpg",
+      "sha256": "77aaeb5aa6c7e5f9d43dd2008e1bf7ff51bbe5bd020e26022eb8d55e588b15e5",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 134999
+    },
+    {
+      "role": "step",
+      "stepOrder": 6,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/3/9/4/800_399e1038b1787b9546fb340fb5ba2674.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-054-black-bean-ribs/step-6.jpg",
+      "sha256": "a8589343502c4faa9afcb84b936d09b72695317dd92f48b61520987596789a57",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 185668
+    },
+    {
+      "role": "step",
+      "stepOrder": 7,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/1/9/0/800_198e7a52b2a05533d44de396ad3bb690.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-054-black-bean-ribs/step-7.jpg",
+      "sha256": "24e8625fc5a5bc968e87a2fc1ff7a257dc5ae2e4798e27a5f5001b24d49c3d35",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 199571
+    },
+    {
+      "role": "step",
+      "stepOrder": 8,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/a/5/4/800_a5d17f3276a4c840fc07f38855d125b4.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-054-black-bean-ribs/step-8.jpg",
+      "sha256": "deb22442238082a5d6a2b76df27e4dff7282382347faed40055efecb2b731372",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 148559
+    },
+    {
+      "role": "step",
+      "stepOrder": 9,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/0/3/d/800_03b7bd9186eab89c3dcfaf07989395ed.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-054-black-bean-ribs/step-9.jpg",
+      "sha256": "86f0f56833f41e33e1def3c7ca826e5aa6710a45c532210e1815cf6d24ef93c1",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 187449
+    },
+    {
+      "role": "step",
+      "stepOrder": 10,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/f/4/c/800_f4cbb216ebc518d59e15581d5bdf996c.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-054-black-bean-ribs/step-10.jpg",
+      "sha256": "b942e6d2c6c28fa0316f3c8f61464ef7f5551f8525274c0249689dad713b4e6c",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 157091
+    }
+  ]
+}
