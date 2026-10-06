@@ -129,8 +129,8 @@
     {
       "id": "west-011",
       "name": "意式培根蛋面",
-      "status": "in_progress",
-      "reason": "开始本轮来源及本地图文更新；2026-08-31的文字/单位运行不计入本批次。"
+      "status": "done",
+      "reason": "Serious Eats整份采用，BBC完整候选仅作比较；成品图和第2–5步图共5张本地WebP，第1步无源图而保留文字。两来源各5个voyage-4/实际1024维分块，旧资料检索排除；Reviewer四项对抗审查、目标校验和全量确定性测试PASS，8feb47b已推送。"
     },
     {
       "id": "west-012",
