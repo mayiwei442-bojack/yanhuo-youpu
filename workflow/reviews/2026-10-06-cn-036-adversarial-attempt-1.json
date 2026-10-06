@@ -1,0 +1,18 @@
+{
+  "status": "FAIL",
+  "issues": [
+    {
+      "field": "generated.cn-036.ingredients[2].name",
+      "message": "食材名称生成成“葱一段”，将数量“一段”混入食材身份。独立 Chrome 核验确认详情第 3 行名称和采购清单名称均显示“葱一段”。name 应为“葱”，数量保留在 label“葱一段”中；当前不符合 Reviewer 对匹配和采购食材身份的要求。"
+    }
+  ],
+  "summary": "证据及目标哈希吻合，确定性验证 10 项通过。所选晓筱家来源完整，未混入其他来源的量、切法或时长；四张图片已逐张查看并核对哈希和映射。Chrome 实测 8 行食材、连续 4 步及全部图片加载正常，第 4 步无图；未知总时长、火力和计时显示符合合同。独立对抗审查发现葱的生成食材身份包含数量，故 FAIL。",
+  "evidencePackageHash": "2c53d0d3c7535600ba4cc0ac4ed427792ad659dd7ab2a997b20922a6c69cf1ba",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": false,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

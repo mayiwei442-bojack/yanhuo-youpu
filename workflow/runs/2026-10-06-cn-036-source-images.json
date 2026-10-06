@@ -8,43 +8,190 @@
   "completedAt": null,
   "steps": {
     "research": {
-      "status": "in_progress",
+      "status": "done",
       "attempts": 1,
       "details": {
         "batchId": "2026-09-16-source-image-refresh-21",
         "selectionReason": "上一道干煸四季豆已审核测试并推送；旧文字done不代表本批次本地图文更新完成。",
         "beforeSnapshot": "workflow/snapshots/2026-10-06-cn-036-before.json",
         "historicalEvidenceAudit": "旧canonical将书籍数量与豆果料酒、姜、冷水焯水混用；历史包书籍漏水和烹饪1小时、豆果原料漏料酒，rawExcerpt含脚本，交Researcher实际核验修正，不沿用混源。",
-        "agent": "research_cn036_remaining7"
+        "agent": "research_cn036_remaining7",
+        "candidateProgress": "四份完整文字候选分别保留：书籍、Woks、豆果晓筱家3356395、豆果食域家2386719（Woks译文，不另计独立内容来源）。推荐晓筱家整套4操作、成品及第1/2/3过程图，第4成汤不重复映射，时长未注明。",
+        "sourceMode": "multi_source",
+        "baseEvidencePath": "workflow/evidence/2026-10-06-cn-036-base.json",
+        "baseEvidencePackageHash": "27969e86fbc06aff6a4464ece03dfb595b0196c8ab6410cf5ab468dc6d927dd9",
+        "decisionPath": "workflow/evidence-decisions/2026-10-06-cn-036.json",
+        "evidencePath": "workflow/evidence/2026-10-06-cn-036-source-images.json",
+        "evidencePackageHash": "2c53d0d3c7535600ba4cc0ac4ed427792ad659dd7ab2a997b20922a6c69cf1ba",
+        "selectedSourceUrl": "https://www.douguo.com/cookbook/3356395.html",
+        "selectionComplete": true,
+        "completeDocuments": 4,
+        "websiteSelectionDocuments": 3,
+        "websiteIdentities": 2,
+        "translatedDuplicateDoesNotIncreaseIndependence": true,
+        "rawTextCorrectionVerified": true,
+        "quotaInterruptionRecovered": true,
+        "publicAccessAttempts": "豆果3356395普通公开Node fetch200（web open不可读）、站内搜索web/Node403；限定豆果搜索取得2386719普通公开HTML200。Woks普通Node/curl403，官方web open全文可读，普通公开原图GET200；没有绕控。完整失败/成功方法由同一证据base.notes追溯。"
       }
     },
     "ingestion": {
-      "status": "pending",
-      "attempts": 0
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "documentIds": [
+          "43434ec5-101c-4bf4-bf07-84a12a27bf07",
+          "169fd21a-f21d-4b89-bda2-1696c39abf0d",
+          "b2ffd848-0269-4544-ae1f-8d177bea0648",
+          "2a4babd8-1c35-4415-9b0c-415b93640369"
+        ],
+        "chunksPerDocument": 5,
+        "embeddingModel": "voyage-4",
+        "actualVectorDimension": 1024,
+        "rootSqlVerified": true,
+        "ragAuditPath": "workflow/rag-audits/2026-10-06-cn-036-correction.json",
+        "mediaManifestPath": "workflow/media-manifests/2026-10-06-cn-036.json",
+        "imageImportPath": "workflow/media-imports/2026-10-06-cn-036.json",
+        "localImages": 4,
+        "heroImages": 1,
+        "mappedStepImages": 3,
+        "httpStatus": 200,
+        "imageTypeAndSha256Verified": true,
+        "importedBytes": 900078,
+        "allFourImagesRootViewed": true,
+        "semanticResults": 20,
+        "hybridResults": 20,
+        "oldDocumentsReturned": 0,
+        "researcherSessionId": 61911,
+        "researcherSessionExitCode": 0
+      }
     },
     "edit": {
-      "status": "pending",
-      "attempts": 0
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "agent": "edit_cn036_remaining7",
+        "evidencePath": "workflow/evidence/2026-10-06-cn-036-source-images.json",
+        "evidencePackageHash": "2c53d0d3c7535600ba4cc0ac4ed427792ad659dd7ab2a997b20922a6c69cf1ba",
+        "targetOnly": "tools/recipe_data.mjs chinese[35]",
+        "ingredients": 8,
+        "steps": 4,
+        "heroImages": 1,
+        "stepImages": 3,
+        "lastStepTextOnly": true,
+        "explicitTiming": false,
+        "canonicalTargetHash": "734656ea1e99b261e03451c478e00a986abacfac49f5e7ac3481d7078c6a1d04",
+        "sourceChangeReason": "旧CN_HOME首页字段与混源正文不匹配；按本轮图片覆盖和完整自洽选择晓筱家3356395整份高压锅路线，不借书籍固定用量或时长。"
+      }
     },
     "validator": {
-      "status": "pending",
-      "attempts": 0
+      "status": "done",
+      "attempts": 2,
+      "details": {
+        "command": "node tools/workflow/validate-recipe.mjs --target cn-036 --before workflow/snapshots/2026-10-06-cn-036-before.json --full --allow-source-change --require-change",
+        "passed": true,
+        "artifact": "workflow/validation-results/2026-10-06-cn-036-attempt-2.json",
+        "checks": 10,
+        "unrelatedRecipeChanges": [],
+        "generatedBuildBrowserPassed": true,
+        "refreshedRecipesVerified": 14,
+        "verifiedSteps": 141,
+        "verifiedLocalImages": 140,
+        "sessionId": 4259,
+        "rerunReason": "Reviewer独立真实详情及采购发现葱一段数量污染identity，Root共享解析器补段单位和正向/保护性及真实UI回归；canonical与证据均不变。",
+        "ingredientIdentityAndShoppingRegressionPassed": true,
+        "oldParserFailureReproduced": true,
+        "originalLabelPreserved": true
+      }
     },
     "review": {
-      "status": "pending",
-      "attempts": 0
+      "status": "done",
+      "attempts": 2,
+      "details": {
+        "agent": "review_cn036_remaining7",
+        "evidencePath": "workflow/evidence/2026-10-06-cn-036-source-images.json",
+        "evidencePackageHash": "2c53d0d3c7535600ba4cc0ac4ed427792ad659dd7ab2a997b20922a6c69cf1ba",
+        "canonicalTargetHash": "734656ea1e99b261e03451c478e00a986abacfac49f5e7ac3481d7078c6a1d04",
+        "validatorArtifact": "workflow/validation-results/2026-10-06-cn-036-attempt-2.json",
+        "firstResult": "FAIL",
+        "firstArtifact": "workflow/reviews/2026-10-06-cn-036-adversarial-attempt-1.json",
+        "firstIssue": "generated.cn-036.ingredients[2].name含一段数量，详情与采购同样出错。",
+        "editorRecheck": "已确认原文用量葱一段及原target正确，不改canonical以规避；共享生成器修复由Root负责。",
+        "result": "PASS",
+        "artifact": "workflow/reviews/2026-10-06-cn-036-adversarial.json",
+        "adversarialChecks": 4,
+        "actualLocalImagesVisuallyInspected": 4,
+        "independentRenderedPageVerification": "PASS",
+        "ingredientIdentityDetailAndShoppingVerified": true
+      }
     },
     "build": {
-      "status": "pending",
-      "attempts": 0
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "command": "npm run test:workflow:deterministic",
+        "result": "PASS",
+        "artifact": "workflow/validation-results/2026-10-06-cn-036-deterministic.txt",
+        "refreshedRecipesVerified": 14,
+        "verifiedSteps": 141,
+        "verifiedHeroImages": 14,
+        "verifiedStepImages": 126,
+        "verifiedLocalImages": 140,
+        "browserErrors": [],
+        "staticBuild": "PASS",
+        "ingredientIdentityDetailAndShoppingRegression": "PASS",
+        "standaloneChatApiUsed": false
+      }
     },
     "gitPush": {
-      "status": "pending",
-      "attempts": 0
+      "status": "in_progress",
+      "attempts": 1,
+      "details": {
+        "branch": "codex/recipe-automation",
+        "reviewerResult": "PASS",
+        "fullDeterministicTests": "PASS"
+      }
     }
   },
-  "sources": [],
-  "errors": [],
+  "sources": [
+    {
+      "name": "贝太厨房:从小爱吃的菜2",
+      "url": null,
+      "status": "success",
+      "failureReason": null
+    },
+    {
+      "name": "豆果美食（晓筱家）",
+      "url": "https://www.douguo.com/cookbook/3356395.html",
+      "status": "success",
+      "failureReason": null
+    },
+    {
+      "name": "The Woks of Life",
+      "url": "https://thewoksoflife.com/lotus-root-pork-soup/",
+      "status": "success",
+      "failureReason": null
+    },
+    {
+      "name": "豆果美食（食域家，Woks译介）",
+      "url": "https://www.douguo.com/cookbook/2386719.html",
+      "status": "success",
+      "failureReason": null
+    }
+  ],
+  "errors": [
+    {
+      "step": "research",
+      "code": "CODEX_USAGE_LIMIT_RECOVERED",
+      "message": "恢复检查记录此前Researcher因Codex额度提示中断；提示恢复时间已过，同agent仅完成既有Woks原文同步核验与重新冻结，没有重复入库/embedding。",
+      "at": "2026-10-06T05:34:36Z"
+    },
+    {
+      "step": "review",
+      "code": "INGREDIENT_IDENTITY_QUANTITY",
+      "message": "首审FAIL：葱一段的数量进入generated ingredient name及采购identity。Root已补解析器段量词，保留label与canonical；正在重跑真实UI和校验，待复审。",
+      "at": "2026-10-06T05:48:02Z"
+    }
+  ],
   "branch": "codex/recipe-automation",
   "commit": null
 }

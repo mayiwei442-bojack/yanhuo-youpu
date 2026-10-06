@@ -271,6 +271,18 @@ try {
         assert(await mediaPage.locator('[data-action="open-recipe"][data-id="cn-010"]').count() === 0, "未知总时长被错误纳入30分钟以内筛选");
         await mediaPage.goto(`${baseUrl}#/recipe/${recipe.id}`, { waitUntil: "load" });
       }
+      if (recipe.id === "cn-036") {
+        assert(recipe.ingredients[2].name === "葱" && recipe.ingredients[2].label === "葱一段", "莲藕排骨汤的一段葱量混入食材身份");
+        assert((await mediaPage.locator(".ingredient-copy strong").nth(2).innerText()).trim() === "葱", "莲藕排骨汤详情没有显示葱的正确身份");
+        await mediaPage.locator('[data-action="add-shopping"]').click();
+        await mediaPage.goto(`${baseUrl}#/shopping`, { waitUntil: "load" });
+        await mediaPage.waitForSelector(".shopping-page");
+        const shoppingRows = await mediaPage.locator(".shopping-copy").evaluateAll((rows) => rows.map((row) => ({ name: row.querySelector("strong")?.textContent.trim(), label: row.querySelector("span")?.textContent.trim() })));
+        assert(shoppingRows.some((row) => row.name === "葱" && row.label.startsWith("葱一段")), "采购清单没有分离葱身份和一段用量");
+        assert(shoppingRows.every((row) => row.name !== "葱一段"), "采购清单仍把葱一段当成食材身份");
+        await mediaPage.goto(`${baseUrl}#/recipe/${recipe.id}`, { waitUntil: "load" });
+        await mediaPage.waitForSelector(".detail-page");
+      }
       const hero = mediaPage.locator(".detail-hero > img");
       assert(await hero.getAttribute("src") === recipe.imageFull, `${recipe.id} 成品图与生成数据不一致`);
       await hero.scrollIntoViewIfNeeded();

@@ -1,0 +1,148 @@
+{
+  "recipeId": "cn-036",
+  "recipeName": "莲藕排骨汤",
+  "createdAt": "2026-10-06T00:28:03.228Z",
+  "status": "PASS",
+  "qualifyingSourceUrls": [
+    "https://www.douguo.com/cookbook/3356395.html",
+    "https://thewoksoflife.com/lotus-root-pork-soup/",
+    "https://www.douguo.com/cookbook/2386719.html"
+  ],
+  "assessments": {
+    "null": {
+      "qualifies": false,
+      "ingredientCoverage": "complete",
+      "stepCoverage": "complete",
+      "internalCoherence": "coherent",
+      "heroImages": 0,
+      "mappedStepImages": 0,
+      "stepImageCoverage": 0,
+      "ingredientCount": 5,
+      "executableStepCount": 2,
+      "notes": [
+        "书籍原EPUB全文实际核验：5项含方法用水，2条详细操作，准备5分钟、烹饪1小时，不推造整道总时长。",
+        "Image00015.jpg实际查看三联图：1原料、2切料、3炖锅，缺独立成品图和公开HTTP原URL；只作完整历史文字候选，不进本次网页图像选择池。",
+        "排骨400g、莲藕600g、盐10g、小葱10g、水淹没材料约8cm均为该书完整变体；不得混入另源姜或料酒。"
+      ]
+    },
+    "https://www.douguo.com/cookbook/3356395.html": {
+      "qualifies": true,
+      "ingredientCoverage": "complete",
+      "stepCoverage": "complete",
+      "internalCoherence": "coherent",
+      "heroImages": 1,
+      "mappedStepImages": 3,
+      "stepImageCoverage": 0.75,
+      "ingredientCount": 8,
+      "executableStepCount": 4,
+      "notes": [
+        "原料表7项，方法明确用料酒而表中漏列，补证据原料料酒、amount=null，原文未注明用量。",
+        "来源排骨和葱花原量是“适量克”，保留raw，不把适量变为数值。",
+        "四条操作全文自洽：冷水料酒焯洗→排骨莲藕入高压锅加葱姜→适量清水煮熟→葱花盐调味；没有原文压力、火候、时长、排气数值，不补估算。",
+        "照片2显示莲藕已切好，但文本没写削皮/滚刀/尺寸，不能从书籍补回；配图1/2/3仅分别覆盖冷水入锅/装料/加水阶段。",
+        "原文步骤5趁热喝吧/6汤鲜味美属于成品感受，raw保留而规范化操作排除。图4为葱花已加的锅内成汤、图5/6纯成品，不映射过程。",
+        "3张准确过程图覆盖3/4=75%；第四调味步骤保留纯文字；全页无整道prep/cook/total，time必须null。"
+      ]
+    },
+    "https://thewoksoflife.com/lotus-root-pork-soup/": {
+      "qualifies": true,
+      "ingredientCoverage": "complete",
+      "stepCoverage": "complete",
+      "internalCoherence": "coherent",
+      "heroImages": 1,
+      "mappedStepImages": 1,
+      "stepImageCoverage": 0.25,
+      "ingredientCount": 10,
+      "executableStepCount": 4,
+      "notes": [
+        "同名莲藕排骨汤，海带与枸杞在原文均可选，不因一般可选食材拒绝。",
+        "整套900g带骨肉、450g莲藕、1cup海带可选、4片姜、1tablespoon枸杞可选、12cups冷水、盐to taste、小葱1根；另收原文用于处理的水与可选生抽蘸料，未给用量。",
+        "原文Prep3h/Cook4h/Total7h，原料、焯水方法和长炖路线独立完整；杯/汤匙容量未定义，不换毫升。",
+        "浸泡1小时与再沸1分钟属同一复合步骤，不赋单个duration；干海带至少3小时明确；慢炖至少4小时不等于整步骤固定计时。",
+        "原料摆盘图lotus-root-pork-soup.jpg实际查看，仅备料展示，不能当浸泡焯水。装锅图-3准确映射步骤4，1/4=25%。图-6及hero实际查看均成品，不映射过程。"
+      ]
+    },
+    "https://www.douguo.com/cookbook/2386719.html": {
+      "qualifies": true,
+      "ingredientCoverage": "complete",
+      "stepCoverage": "complete",
+      "internalCoherence": "coherent",
+      "heroImages": 1,
+      "mappedStepImages": 2,
+      "stepImageCoverage": 0.4,
+      "ingredientCount": 10,
+      "executableStepCount": 5,
+      "notes": [
+        "全页完整同名资料，作者食域家；正文故事、人物Bill、配图与Woks相同，视为译介来源关联，不计额外独立内容源。同站两个豆果page共用一个source identity。",
+        "该页自行明确海带200g、冷水2.8L，保留这页数值；不由Woks1cup/12cups推导公制。可选生抽及准备/焯洗水方法正文提到，用量未注明另收。",
+        "原始6条页面文字，第6宣传关注不作操作；保留前5条全操作。方法1同时浸泡1小时和再煮1分钟，duration留null；方法2含海带/莲藕两阶段，duration留null。",
+        "图1原料摆盘不支持浸泡焯水；图2准确支持步骤2后半切藕、图3装锅；图4/5/6实际逐张看都是成品/宣传，无慢炖过程，保留2/5=40%。",
+        "本页没有整道total；不用Woks的Total7h补充；正文中煲汤少加水、必须加开水等tips完整保留，默认站内宣传和营养分割垃圾排除。"
+      ]
+    }
+  },
+  "selectedSourceUrl": "https://www.douguo.com/cookbook/3356395.html",
+  "sourceMode": "multi_source",
+  "selectionReason": "四份完整资料各自独立规范化入库，三种来源身份（书籍、豆果、Woks），食域家译介与Woks相关不额外计独立性。网页三候选完整且各自自洽，书籍缺本次要求的成品图。按完整性/内部自洽→可用图片与覆盖→步骤丰富度→原料覆盖选择豆果晓筱家3356395整套：3张实际过程图覆盖3/4=75%，高于食域家2/5=40%与Woks1/4=25%。不因行数差异淘汰其他完整候选，不跨来源补料、水量、步骤、时长或图片。",
+  "media": {
+    "recipePageUrl": "https://www.douguo.com/cookbook/3356395.html",
+    "mediaPageUrl": "https://www.douguo.com/cookbook/3356395.html",
+    "sourceName": "豆果美食",
+    "author": "晓筱家",
+    "rightsNotice": "©本菜谱的做法由 晓筱家 编写，未经授权不得转载",
+    "reuseLicense": null,
+    "repositoryCopyAuthorized": true,
+    "hero": {
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/8/b/2/960_8b7aa39fe852849a6c1d090c7be76772.jpeg",
+      "repositoryPath": "assets/dishes/sources/cn-036-lotus-rib-soup/hero.jpeg",
+      "adjacentText": "莲藕排骨汤",
+      "pageOrder": 1,
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "visualVerified": true,
+      "visualReview": "已实际查看：白碗成品汤，莲藕、排骨和葱花清晰可见。"
+    },
+    "steps": [
+      {
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/8/9/b/800_890ec4de1dc03a845eb9b10641fe8b1b.jpeg",
+        "repositoryPath": "assets/dishes/sources/cn-036-lotus-rib-soup/step-1.jpeg",
+        "adjacentText": "排骨冷水入锅，加入料酒焯水去腥洗干净备用",
+        "pageOrder": 2,
+        "httpStatus": 200,
+        "contentType": "image/jpeg",
+        "visualVerified": true,
+        "visualReview": "实际高分辨图为锅内排骨与冷水，支持本步冷水入锅阶段；不声称图中能看出料酒或完成焯洗。",
+        "stepOrder": 1,
+        "sourceStepOrder": 1
+      },
+      {
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/9/6/9/800_961a2ea48ae0e294b2cd3d8eb4d66fc9.jpeg",
+        "repositoryPath": "assets/dishes/sources/cn-036-lotus-rib-soup/step-2.jpeg",
+        "adjacentText": "高压锅放入莲藕排骨，加入葱段姜片",
+        "pageOrder": 3,
+        "httpStatus": 200,
+        "contentType": "image/jpeg",
+        "visualVerified": true,
+        "visualReview": "实际高分辨图为锅内排骨和切好的莲藕，支持装入阶段；此帧尚无葱姜，不声称整步所有动作均在图中。",
+        "stepOrder": 2,
+        "sourceStepOrder": 2
+      },
+      {
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/6/6/3/800_66752cfe1707b1ba49b518014de0ea33.jpeg",
+        "repositoryPath": "assets/dishes/sources/cn-036-lotus-rib-soup/step-3.jpeg",
+        "adjacentText": "加入适量清水煮熟即可",
+        "pageOrder": 4,
+        "httpStatus": 200,
+        "contentType": "image/jpeg",
+        "visualVerified": true,
+        "visualReview": "实际高分辨图为装锅排骨莲藕葱姜浸在清水中，支持加水阶段；不拿照片推算用水量或压力烹饪时长。",
+        "stepOrder": 3,
+        "sourceStepOrder": 3
+      }
+    ]
+  },
+  "notes": [
+    "Base包含书籍与三个网页完整候选，图片阶段只留下符合hero+process要求的三个网页；书籍缺hero不会进入网页导入筛选，可靠书籍内容与新chunks仍保留在base/RAG及审计。",
+    "译介页面2386719保留整份独立document，和Woks资料相关且两个豆果URL计同website，独立身份不凑数。"
+  ]
+}

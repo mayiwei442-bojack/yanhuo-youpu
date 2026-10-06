@@ -5523,85 +5523,116 @@ window.YANHUO_RECIPES = [
       {
         "id": "ingredient-01",
         "name": "排骨",
-        "label": "排骨400克",
+        "label": "排骨适量",
         "isCore": true
       },
       {
         "id": "ingredient-02",
         "name": "莲藕",
-        "label": "莲藕600克",
+        "label": "莲藕一根",
         "isCore": true
       },
       {
         "id": "ingredient-03",
+        "name": "葱",
+        "label": "葱一段",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-04",
         "name": "姜",
         "label": "姜2片",
         "isCore": false
       },
       {
-        "id": "ingredient-04",
-        "name": "小葱",
-        "label": "小葱10克",
-        "isCore": false
-      },
-      {
         "id": "ingredient-05",
-        "name": "料酒",
-        "label": "料酒适量",
+        "name": "盐",
+        "label": "盐适量",
         "isCore": false
       },
       {
         "id": "ingredient-06",
-        "name": "盐",
-        "label": "盐10克",
+        "name": "清水",
+        "label": "清水适量（用于焯水、清洗和煮汤）",
         "isCore": false
       },
       {
         "id": "ingredient-07",
-        "name": "清水",
-        "label": "清水适量",
+        "name": "葱花",
+        "label": "葱花适量",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-08",
+        "name": "料酒",
+        "label": "料酒适量（用量未注明）",
         "isCore": false
       }
     ],
     "steps": [
       {
         "id": "step-01",
-        "instruction": "排骨剁块，冷水下锅并加适量料酒，煮开焯去血沫，捞出冲洗干净；莲藕刮去外皮后切稍大的滚刀块。",
+        "instruction": "排骨冷水入锅，加入料酒焯水去腥，再洗干净备用。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "add",
-        "safetyNote": ""
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-036-lotus-rib-soup/step-1.jpeg",
+        "imageSource": "https://www.douguo.com/cookbook/3356395.html"
       },
       {
         "id": "step-02",
-        "instruction": "排骨、莲藕和姜片放入深汤锅，加水没过食材约8厘米，大火煮开后转小火，炖至排骨略松脱、筷子能轻松戳透莲藕。",
+        "instruction": "将莲藕和排骨放入高压锅，加入葱段和姜片。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-036-lotus-rib-soup/step-2.jpeg",
+        "imageSource": "https://www.douguo.com/cookbook/3356395.html"
+      },
+      {
+        "id": "step-03",
+        "instruction": "加入适量清水，将食材煮熟。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-036-lotus-rib-soup/step-3.jpeg",
+        "imageSource": "https://www.douguo.com/cookbook/3356395.html"
+      },
+      {
+        "id": "step-04",
+        "instruction": "加入葱花和适量盐调味，即可饮用。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "add",
         "safetyNote": ""
-      },
-      {
-        "id": "step-03",
-        "instruction": "起锅前加盐调味，撒葱花即可。",
-        "duration": null,
-        "heat": null,
-        "timerRequired": false,
-        "ingredientsUsed": [],
-        "gameAction": "confirm",
-        "safetyNote": ""
       }
     ],
-    "imageThumb": "assets/dishes/thumbnails/46-lianou-paigu-tang.jpg",
-    "imageFull": "assets/dishes/ai/46-lianou-paigu-tang.png",
-    "source": "https://thewoksoflife.com/",
-    "time": 35,
-    "timeBasis": "estimated",
+    "imageThumb": "assets/dishes/sources/cn-036-lotus-rib-soup/hero.jpeg",
+    "imageFull": "assets/dishes/sources/cn-036-lotus-rib-soup/hero.jpeg",
+    "source": "https://www.douguo.com/cookbook/3356395.html",
+    "media": {
+      "sourceName": "豆果美食",
+      "recipePageUrl": "https://www.douguo.com/cookbook/3356395.html",
+      "mediaPageUrl": "https://www.douguo.com/cookbook/3356395.html",
+      "author": "晓筱家",
+      "rightsNotice": "©本菜谱的做法由 晓筱家 编写，未经授权不得转载",
+      "reuseLicense": null,
+      "repositoryCopyAuthorization": "user_confirmed_2026-09-16"
+    },
+    "time": null,
+    "timeBasis": "unspecified",
     "difficulty": "适中",
-    "defaultServings": 4,
+    "defaultServings": 2,
     "allergens": [],
     "flags": {
       "containsPork": true,

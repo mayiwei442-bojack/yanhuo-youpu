@@ -1,0 +1,779 @@
+{
+  "recipeId": "cn-036",
+  "recipeName": "莲藕排骨汤",
+  "category": "chinese",
+  "createdAt": "2026-10-06T00:28:03.228Z",
+  "sourceMode": "multi_source",
+  "selectedSourceUrl": "https://www.douguo.com/cookbook/3356395.html",
+  "selectionReason": "四份完整资料各自独立规范化入库，三种来源身份（书籍、豆果、Woks），食域家译介与Woks相关不额外计独立性。网页三候选完整且各自自洽，书籍缺本次要求的成品图。按完整性/内部自洽→可用图片与覆盖→步骤丰富度→原料覆盖选择豆果晓筱家3356395整套：3张实际过程图覆盖3/4=75%，高于食域家2/5=40%与Woks1/4=25%。不因行数差异淘汰其他完整候选，不跨来源补料、水量、步骤、时长或图片。",
+  "sources": [
+    {
+      "sourceName": "贝太厨房:从小爱吃的菜2",
+      "sourceType": "book",
+      "url": null,
+      "documentId": "43434ec5-101c-4bf4-bf07-84a12a27bf07",
+      "retrievalMethod": "EPUB XHTML section",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "排骨",
+          "amount": "400g",
+          "raw": "排骨 400g",
+          "evidence": "explicit"
+        },
+        {
+          "name": "莲藕",
+          "amount": "600g",
+          "raw": "莲藕 600g",
+          "evidence": "explicit"
+        },
+        {
+          "name": "盐",
+          "amount": "10g",
+          "raw": "盐 10g",
+          "evidence": "explicit"
+        },
+        {
+          "name": "小葱",
+          "amount": "10g",
+          "raw": "小葱 10g",
+          "evidence": "explicit"
+        },
+        {
+          "name": "水",
+          "amount": "炖汤加至没过材料约8cm；焯洗用量未注明",
+          "raw": "锅里水烧开后，下排骨焯去血水；将血沫冲掉；加水到没过材料约8cm"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "将排骨剁成块。锅里水烧开后，下排骨焯去血水后捞起，将血沫冲掉。莲藕洗净后，用筷子的棱角刮去表皮，切成稍大的滚刀块。小葱洗净切葱花。（图2）",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 2,
+          "instruction": "把排骨和莲藕放进一个深的汤锅，加水到没过材料约8cm。大火烧开后小火慢慢炖煮，一直炖到排骨有点松脱、筷子能够轻松戳透藕的时候就可以了。撒上葱花，加盐调味之后便可上桌。（图3）",
+          "duration": null,
+          "heat": "大火烧开后小火慢慢炖煮",
+          "evidence": "explicit"
+        }
+      ],
+      "technique": [
+        "准备：5分钟",
+        "烹饪：1小时"
+      ],
+      "tips": [
+        "选藕要选中段的，不要选末梢的，选择肥短偏红的而不是瘦长偏白的，那样的藕才会是粉的。偏瘦偏白的藕是脆的，比较适合炒着吃。"
+      ],
+      "rawExcerpt": "莲藕排骨汤\n\r\n\r\n准备：5分钟　 \r\n烹饪：1小时\n\r\n秋风乍起，寒意萧瑟，天黑得比往常早了，看着别人家的灯火，我们加紧脚步往家赶。混合了莲藕与排骨的香味飘来，幸福的感觉已经涌上心头。吃饭之前，妈妈先盛好一碗满满的莲藕排骨汤，藕块很粉，排骨软烂，热乎乎的汤也带着说不出的鲜甜。\n\r\n用料：\n\r\n排骨　　　400g\n\r\n莲藕　　　600g\n\r\n盐　　　　10g\n\r\n小葱　　　10g\n\r\n做法：\n\r\n1.将排骨剁成块。锅里水烧开后，下排骨焯去血水后捞起，将血沫冲掉。莲藕洗净后，用筷子的棱角刮去表皮，切成稍大的滚刀块。小葱洗净切葱花。（图2）\n\r\n2.把排骨和莲藕放进一个深的汤锅，加水到没过材料约8cm。大火烧开后小火慢慢炖煮，一直炖到排骨有点松脱、筷子能够轻松戳透藕的时候就可以了。撒上葱花，加盐调味之后便可上桌。（图3）\n\r\n家传小诀窍：\n\r\n选藕要选中段的，不要选末梢的，选择肥短偏红的而不是瘦长偏白的，那样的藕才会是粉的。偏瘦偏白的藕是脆的，比较适合炒着吃。",
+      "bookTitle": "贝太厨房:从小爱吃的菜2",
+      "pageStart": null,
+      "pageEnd": null,
+      "location": "text00074.html#subid46",
+      "selectionAssessment": {
+        "qualifies": false,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 0,
+        "mappedStepImages": 0,
+        "stepImageCoverage": 0,
+        "ingredientCount": 5,
+        "executableStepCount": 2,
+        "notes": [
+          "书籍原EPUB全文实际核验：5项含方法用水，2条详细操作，准备5分钟、烹饪1小时，不推造整道总时长。",
+          "Image00015.jpg实际查看三联图：1原料、2切料、3炖锅，缺独立成品图和公开HTTP原URL；只作完整历史文字候选，不进本次网页图像选择池。",
+          "排骨400g、莲藕600g、盐10g、小葱10g、水淹没材料约8cm均为该书完整变体；不得混入另源姜或料酒。"
+        ]
+      }
+    },
+    {
+      "sourceName": "豆果美食",
+      "sourceType": "website",
+      "url": "https://www.douguo.com/cookbook/3356395.html",
+      "documentId": "169fd21a-f21d-4b89-bda2-1696c39abf0d",
+      "retrievalMethod": "HTTP 200 HTML正文、data-origin图片画廊；逐张实际视觉核验",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "排骨",
+          "amount": "适量克",
+          "raw": "排骨 适量克",
+          "evidence": "explicit"
+        },
+        {
+          "name": "莲藕",
+          "amount": "一根",
+          "raw": "莲藕 一根",
+          "evidence": "explicit"
+        },
+        {
+          "name": "葱",
+          "amount": "一段",
+          "raw": "葱 一段",
+          "evidence": "explicit"
+        },
+        {
+          "name": "姜",
+          "amount": "2片",
+          "raw": "姜 2片",
+          "evidence": "explicit"
+        },
+        {
+          "name": "盐",
+          "amount": "适量",
+          "raw": "盐 适量",
+          "evidence": "explicit"
+        },
+        {
+          "name": "水",
+          "amount": "适量",
+          "raw": "水 适量",
+          "evidence": "explicit"
+        },
+        {
+          "name": "葱花",
+          "amount": "适量克",
+          "raw": "葱花 适量克",
+          "evidence": "explicit"
+        },
+        {
+          "name": "料酒",
+          "amount": null,
+          "raw": "排骨冷水入锅，加入料酒焯水去腥洗干净备用"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "排骨冷水入锅，加入料酒焯水去腥洗干净备用",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 2,
+          "instruction": "高压锅放入莲藕排骨，加入葱段姜片",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 3,
+          "instruction": "加入适量清水煮熟即可",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 4,
+          "instruction": "加入葱花，适量盐调味即可饮用",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        }
+      ],
+      "technique": [],
+      "tips": [],
+      "rawExcerpt": "莲藕排骨汤\n独家\n10.2万 浏览\n2972 收藏\n收藏\n分享到\nQQ空间\n新浪微博\n-->\n晓筱家\n＋ 关注\n参与活动:\n#食愈体态计划，每一餐都为更好的自己好好吃饭#\n莲藕排骨汤的用料\n排骨\n适量克\n莲藕\n一根\n葱\n一段\n姜\n2片\n盐\n适量\n水\n适量\n葱花\n适量克\n莲藕排骨汤的做法\n步骤1\n排骨冷水入锅，加入料酒焯水去腥洗干净备用\n步骤2\n高压锅放入莲藕排骨，加入葱段姜片\n步骤3\n加入适量清水煮熟即可\n步骤4\n加入葱花，适量盐调味即可饮用\n步骤5\n趁热喝吧\n步骤6\n汤鲜味美，营养好喝\n莲藕排骨汤的烹饪技巧\n做菜好吃都有技巧，我的每道菜都有小妙招，大家搜索“豆果”可以直接查看我的菜谱！",
+      "bookTitle": null,
+      "pageStart": null,
+      "pageEnd": null,
+      "location": null,
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 1,
+        "mappedStepImages": 3,
+        "stepImageCoverage": 0.75,
+        "ingredientCount": 8,
+        "executableStepCount": 4,
+        "notes": [
+          "原料表7项，方法明确用料酒而表中漏列，补证据原料料酒、amount=null，原文未注明用量。",
+          "来源排骨和葱花原量是“适量克”，保留raw，不把适量变为数值。",
+          "四条操作全文自洽：冷水料酒焯洗→排骨莲藕入高压锅加葱姜→适量清水煮熟→葱花盐调味；没有原文压力、火候、时长、排气数值，不补估算。",
+          "照片2显示莲藕已切好，但文本没写削皮/滚刀/尺寸，不能从书籍补回；配图1/2/3仅分别覆盖冷水入锅/装料/加水阶段。",
+          "原文步骤5趁热喝吧/6汤鲜味美属于成品感受，raw保留而规范化操作排除。图4为葱花已加的锅内成汤、图5/6纯成品，不映射过程。",
+          "3张准确过程图覆盖3/4=75%；第四调味步骤保留纯文字；全页无整道prep/cook/total，time必须null。"
+        ]
+      },
+      "media": {
+        "recipePageUrl": "https://www.douguo.com/cookbook/3356395.html",
+        "mediaPageUrl": "https://www.douguo.com/cookbook/3356395.html",
+        "sourceName": "豆果美食",
+        "author": "晓筱家",
+        "rightsNotice": "©本菜谱的做法由 晓筱家 编写，未经授权不得转载",
+        "reuseLicense": null,
+        "repositoryCopyAuthorized": true,
+        "hero": {
+          "originalUrl": "https://cp1.douguo.com/upload/caiku/8/b/2/960_8b7aa39fe852849a6c1d090c7be76772.jpeg",
+          "repositoryPath": "assets/dishes/sources/cn-036-lotus-rib-soup/hero.jpeg",
+          "adjacentText": "莲藕排骨汤",
+          "pageOrder": 1,
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "visualVerified": true,
+          "visualReview": "已实际查看：白碗成品汤，莲藕、排骨和葱花清晰可见。"
+        },
+        "steps": [
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/8/9/b/800_890ec4de1dc03a845eb9b10641fe8b1b.jpeg",
+            "repositoryPath": "assets/dishes/sources/cn-036-lotus-rib-soup/step-1.jpeg",
+            "adjacentText": "排骨冷水入锅，加入料酒焯水去腥洗干净备用",
+            "pageOrder": 2,
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "visualVerified": true,
+            "visualReview": "实际高分辨图为锅内排骨与冷水，支持本步冷水入锅阶段；不声称图中能看出料酒或完成焯洗。",
+            "stepOrder": 1,
+            "sourceStepOrder": 1
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/9/6/9/800_961a2ea48ae0e294b2cd3d8eb4d66fc9.jpeg",
+            "repositoryPath": "assets/dishes/sources/cn-036-lotus-rib-soup/step-2.jpeg",
+            "adjacentText": "高压锅放入莲藕排骨，加入葱段姜片",
+            "pageOrder": 3,
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "visualVerified": true,
+            "visualReview": "实际高分辨图为锅内排骨和切好的莲藕，支持装入阶段；此帧尚无葱姜，不声称整步所有动作均在图中。",
+            "stepOrder": 2,
+            "sourceStepOrder": 2
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/6/6/3/800_66752cfe1707b1ba49b518014de0ea33.jpeg",
+            "repositoryPath": "assets/dishes/sources/cn-036-lotus-rib-soup/step-3.jpeg",
+            "adjacentText": "加入适量清水煮熟即可",
+            "pageOrder": 4,
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "visualVerified": true,
+            "visualReview": "实际高分辨图为装锅排骨莲藕葱姜浸在清水中，支持加水阶段；不拿照片推算用水量或压力烹饪时长。",
+            "stepOrder": 3,
+            "sourceStepOrder": 3
+          }
+        ]
+      }
+    },
+    {
+      "sourceName": "The Woks of Life",
+      "sourceType": "website",
+      "url": "https://thewoksoflife.com/lotus-root-pork-soup/",
+      "documentId": "b2ffd848-0269-4544-ae1f-8d177bea0648",
+      "retrievalMethod": "官方网页web open全文；普通Node/curl页403已记录，不绕控；公开原图GET200",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "猪排骨或猪颈骨",
+          "amount": "2 pounds（900g）",
+          "raw": "2 pounds pork ribs or pork neck bones (900g)"
+        },
+        {
+          "name": "泡发海带（可选）",
+          "amount": "1 cup",
+          "raw": "1 cup re-hydrated seaweed/kelp (optional)"
+        },
+        {
+          "name": "莲藕",
+          "amount": "1 pound（450g）",
+          "raw": "1 pound lotus root (450g)"
+        },
+        {
+          "name": "姜",
+          "amount": "4 slices",
+          "raw": "4 slices ginger"
+        },
+        {
+          "name": "干枸杞（可选）",
+          "amount": "1 tablespoon",
+          "raw": "1 tablespoon dried goji berries (optional)"
+        },
+        {
+          "name": "冷水",
+          "amount": "12 cups",
+          "raw": "12 cups cold water"
+        },
+        {
+          "name": "盐",
+          "amount": "to taste",
+          "raw": "salt (to taste)"
+        },
+        {
+          "name": "小葱",
+          "amount": "1根，切碎",
+          "raw": "1 scallion (finely chopped)"
+        },
+        {
+          "name": "浸泡、焯洗及必要补水用水",
+          "amount": null,
+          "raw": "cold-water soak; rinse; large pot of boiling water for blanching; wash; basin of water for seaweed; if water must be added during cooking use boiling water"
+        },
+        {
+          "name": "生抽（可选蘸料）",
+          "amount": null,
+          "raw": "light soy sauce as a dipping sauce for the pork and lotus roots"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "排骨或颈骨在冷水中浸泡1小时，彻底冲洗、沥干备用。另烧开一大锅水，放入猪骨焯水；再次沸腾后再煮1分钟，关火，沥干并洗净猪骨。",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "若选用海带，可买干海带或已泡发的海带；避免含沙较多的海带结。干海带至少浸泡3小时，也可提前一晚浸泡。泡好后在一盆水中洗至水完全清澈，再沥干。",
+          "duration": "至少3小时",
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "临煮汤时将莲藕削皮并切成大块；不要过早切开，以免氧化。",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "将处理好的猪骨、可选海带、莲藕、姜、可选干枸杞和冷水放入汤锅或砂锅。烧开后立即转为缓慢炖煮，盖盖至少炖4小时，时间越长越好。隔天再次加热会更入味。加盐调味，撒切碎的小葱上桌。",
+          "duration": null,
+          "heat": "烧开后立即缓慢炖煮"
+        }
+      ],
+      "technique": [
+        "Prep: 3 hrs",
+        "Cook: 4 hrs",
+        "Total: 7 hrs"
+      ],
+      "tips": [
+        "炖煮时尽量不再加水；若必须加水，只加沸水。",
+        "尽量使用带骨肉，可选猪排骨或猪颈骨。",
+        "可提前一天做好，隔天再次加热风味更足。",
+        "买不到鲜藕时可用干藕，先泡发。",
+        "可用生抽作排骨和莲藕的蘸料。"
+      ],
+      "rawExcerpt": "Lotus Root & Pork Soup\nby: Judy\nUpdated: 11/3/2023\n\nImportant Recipe Tips\nDon’t add any additional water during the cooking process. If you must, add boiling water only.\nWhenever possible, use meat on the bone. We used pork ribs for this recipe, but you could also use pork neck bones.\nSoup is like stew…it always tastes better the 2nd day. Bill strongly believes that the last bowl of soup always tastes the best! With that in mind, feel free to prepare this soup a day in advance if you have the time.\nIf you can’t find fresh lotus roots, you can substitute dried lotus roots. You’ll just have to rehydrate them first.\nI like to serve the soup with light soy sauce as a dipping sauce for the pork and lotus roots. I’ll let you in on a secret if you don’t know this already: pork (on the bone) and light soy sauce is a combination made in heaven.\n\nRecipe Instructions\nSoak the pork ribs or neck bones in cold water for an hour. Then rinse thoroughly, drain, and set aside. Boil a large pot of water, and add the pork bones to blanch. Once the water is boiling again, let it cook for 1 more minute. Turn off the heat, drain, and wash the pork bones clean. This process will give you a really clear (rather than cloudy) soup.\nIf you want to include re-hydrated seaweed, you can buy dried seaweed (kelp/kombu) or rehydrated seaweed at your Asian supermarket. Just try to avoid seaweed “knots,” as they tend to be a bit sandy. It takes at least 3 hours to rehydrate dried seaweed kelp, so you can soak it the night before. Once soaked, simply wash the seaweed in a basin of water until the water is completely clear. Then drain, and it’s ready to add to the pot.\nRight before you’re ready to start the soup, peel the lotus root and cut it into large chunks (If you do this too early, the lotus root will oxidize, similar to a potato. So hold off until you’re about to start cooking).\nTo start the lotus root soup, add all the prepared ingredients to a stock pot or earthen pot: the (blanched) pork, seaweed/kelp, lotus root, ginger, dried goji berries (if using), and cold water.\nBring it to boil, and then immediately turn it to down to a slow simmer. Cover and let it simmer for at least 4 hours…the longer the better. Reheating it the next day will make it even more flavorful. Add salt to taste, and serve with chopped scallion on top.\n\nRecipe\nLotus Root & Pork Soup\nby: Judy\nServes: 12\nPrep: 3 hrs\nCook: 4 hrs\nTotal: 7 hrs\n\nIngredients\n2 pounds pork ribs or pork neck bones (900g)\n1 cup re-hydrated seaweed/kelp (optional)\n1 pound lotus root (450g)\n4 slices ginger\n1 tablespoon dried goji berries (optional)\n12 cups cold water\nsalt (to taste)\n1 scallion (finely chopped)\n\nAll Rights Reserved © The Woks of Life",
+      "bookTitle": null,
+      "pageStart": null,
+      "pageEnd": null,
+      "location": null,
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 1,
+        "mappedStepImages": 1,
+        "stepImageCoverage": 0.25,
+        "ingredientCount": 10,
+        "executableStepCount": 4,
+        "notes": [
+          "同名莲藕排骨汤，海带与枸杞在原文均可选，不因一般可选食材拒绝。",
+          "整套900g带骨肉、450g莲藕、1cup海带可选、4片姜、1tablespoon枸杞可选、12cups冷水、盐to taste、小葱1根；另收原文用于处理的水与可选生抽蘸料，未给用量。",
+          "原文Prep3h/Cook4h/Total7h，原料、焯水方法和长炖路线独立完整；杯/汤匙容量未定义，不换毫升。",
+          "浸泡1小时与再沸1分钟属同一复合步骤，不赋单个duration；干海带至少3小时明确；慢炖至少4小时不等于整步骤固定计时。",
+          "原料摆盘图lotus-root-pork-soup.jpg实际查看，仅备料展示，不能当浸泡焯水。装锅图-3准确映射步骤4，1/4=25%。图-6及hero实际查看均成品，不映射过程。"
+        ]
+      },
+      "media": {
+        "recipePageUrl": "https://thewoksoflife.com/lotus-root-pork-soup/",
+        "mediaPageUrl": "https://thewoksoflife.com/lotus-root-pork-soup/",
+        "sourceName": "The Woks of Life",
+        "author": "Judy",
+        "rightsNotice": "All Rights Reserved © The Woks of Life",
+        "reuseLicense": null,
+        "repositoryCopyAuthorized": true,
+        "hero": {
+          "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2016/01/lotus-root-pork-soup-7.jpg",
+          "repositoryPath": "assets/dishes/sources/cn-036-lotus-rib-soup/woks-candidate/hero.jpg",
+          "adjacentText": "Lotus Root & Pork Soup",
+          "pageOrder": 1,
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "visualVerified": true,
+          "visualReview": "实际查看成品碗及汤锅，带排骨莲藕、葱花。"
+        },
+        "steps": [
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2016/01/lotus-root-pork-soup-3.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-036-lotus-rib-soup/woks-candidate/step-4.jpg",
+            "adjacentText": "To start the lotus root soup, add all the prepared ingredients to a stock pot or earthen pot: the (blanched) pork, seaweed/kelp, lotus root, ginger, dried goji berries (if using), and cold water.",
+            "pageOrder": 4,
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "visualVerified": true,
+            "visualReview": "实际查看原料在锅中浸水，支持步骤4装锅加水阶段，不能当作完成慢炖图。",
+            "stepOrder": 4,
+            "sourceStepOrder": 4
+          }
+        ]
+      }
+    },
+    {
+      "sourceName": "豆果美食",
+      "sourceType": "website",
+      "url": "https://www.douguo.com/cookbook/2386719.html",
+      "documentId": "2a4babd8-1c35-4415-9b0c-415b93640369",
+      "retrievalMethod": "HTTP 200 HTML正文、data-origin图片画廊；逐张实际视觉核验",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "猪排骨或颈骨",
+          "amount": "900g",
+          "raw": "猪排骨或颈骨 900g",
+          "evidence": "explicit"
+        },
+        {
+          "name": "莲藕",
+          "amount": "450g",
+          "raw": "莲藕 450g",
+          "evidence": "explicit"
+        },
+        {
+          "name": "泡软的干海带或鲜海带（可选）",
+          "amount": "200g",
+          "raw": "泡软的干海带或鲜海带（可选） 200g",
+          "evidence": "explicit"
+        },
+        {
+          "name": "姜",
+          "amount": "4片",
+          "raw": "姜 4片",
+          "evidence": "explicit"
+        },
+        {
+          "name": "盐",
+          "amount": "适量",
+          "raw": "盐 适量",
+          "evidence": "explicit"
+        },
+        {
+          "name": "枸杞干（可选）",
+          "amount": "1汤匙",
+          "raw": "枸杞干（可选） 1汤匙",
+          "evidence": "explicit"
+        },
+        {
+          "name": "冷水",
+          "amount": "2.8L",
+          "raw": "冷水 2.8L",
+          "evidence": "explicit"
+        },
+        {
+          "name": "小葱，切葱花",
+          "amount": "1颗",
+          "raw": "小葱，切葱花 1颗",
+          "evidence": "explicit"
+        },
+        {
+          "name": "生抽（可选蘸料）",
+          "amount": null,
+          "raw": "上桌的时候可以备点生抽，当作排骨的蘸料"
+        },
+        {
+          "name": "浸泡、焯洗用水",
+          "amount": null,
+          "raw": "将排骨放入冷水中浸泡一小时；排骨加冷水烧开；泡好的海带在盆中清洗几次至水完全清澈；必须补水时加开水"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "将排骨放入冷水中浸泡一小时，再冲洗干净后沥水备用。这样煲出来的汤会比较清澈。 排骨加冷水烧开后焯一下。水开后再煮1分钟，然后关火捞出，沥干后把排骨表面冲洗干净。这个步骤能让做出的汤清澈不浑浊。",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 2,
+          "instruction": "如果你也想加点海带，可以买干的或者新鲜海带（但不要用海带结，很难洗干净）。干海带需要至少提前浸泡3小时，泡好的海带在盆中清洗几次至水完全清澈。然后沥干，切丝备用。 煮汤之前把莲藕削皮切成较大的块，但不要太早切，不然会氧化变黑。",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 3,
+          "instruction": "开始煲汤，将所有准备好的食材放入汤锅或砂锅中。包括排骨、莲藕、海带、姜、枸杞和冷水。",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 4,
+          "instruction": "大火煮开后，马上转小火慢炖。盖上盖子，文火慢炖至少4个小时，时间越长越好。头一天晚上炖好，第二天再加热会使它更美味。",
+          "duration": null,
+          "heat": "大火煮开后马上转小火文火慢炖",
+          "evidence": "explicit"
+        },
+        {
+          "order": 5,
+          "instruction": "吃之前加盐调味，撒上葱花即可。",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        }
+      ],
+      "technique": [
+        "排骨浸泡一小时；沸水后再煮1分钟",
+        "可选干海带至少提前浸泡3小时",
+        "盖盖文火慢炖至少4个小时"
+      ],
+      "tips": [
+        "煲汤过程中尽量不要加水，如果必须加，请加开水。",
+        "尽量选择用带肉的猪肋条，也可以用猪颈骨，不要用肉很少的猪骨。",
+        "煲汤隔夜后更入味。",
+        "尽量选择新鲜的莲藕，越新鲜味道越好。",
+        "上桌的时候可以备点生抽，当作排骨的蘸料。"
+      ],
+      "rawExcerpt": "莲藕排骨汤 | 一碗鲜美的暖汤\n188.6万 浏览\n1.2万 收藏\n收藏\n分享到\nQQ空间\n新浪微博\n-->\n食域家\n＋ 关注\n对我来说，这是一篇有温度的菜谱，满含着我童年时代最美好的回忆。\n小的时候我住在湖北，村子里有大片荷塘，每到收获的季节就会像过节一样热闹。荷塘中的水会被排掉一些，池塘里的鲤鱼在浅水中蹦蹦跳跳。\n男人们都赤脚进到荷塘中摸莲藕，女人和孩子们在岸上呐喊着加油。当谁摸出一节特别大的莲藕时，大家都会惊叹着为他鼓掌。\n在那个季节，莲藕排骨汤就经常出现在我们的餐桌上。\n它制作简单又美味可口，不仅是家常菜，湖北人也喜欢用这道汤款待最珍贵的客人。如今我在美国生活多年，仍然很喜欢给家人做这道汤。\n我做的时候还另外添加了海带和枸杞，这是可选的。海带是为了让汤更鲜美，枸杞是从我妈妈那学来的，她做汤的时候总喜欢放点枸杞增加营养。\n如果你不常煲汤，还需要注意这几点：\n1）煲汤过程中尽量不要加水，如果必须加，请加开水。\n2）尽量选择用带肉的猪肋条，也可以用猪颈骨，不要用肉很少的猪骨。\n3）煲汤就像炖肉一样，隔夜后更入味。我先生Bill总是说最后一碗汤是最好喝的。\n4）尽量选择新鲜的莲藕，越新鲜味道越好。\n5）上桌的时候可以备点生抽，当作排骨的蘸料。煲过汤后的排骨和生抽是绝配，不信你试试。\n莲藕排骨汤的用料\n猪排骨或颈骨\n900g\n莲藕\n450g\n泡软的干海带或鲜海带（可选）\n200g\n姜\n4片\n盐\n适量\n枸杞干（可选）\n1汤匙\n冷水\n2.8L\n小葱，切葱花\n1颗\n莲藕排骨汤的做法\n步骤1\n将排骨放入冷水中浸泡一小时，再冲洗干净后沥水备用。这样煲出来的汤会比较清澈。\n排骨加冷水烧开后焯一下。水开后再煮1分钟，然后关火捞出，沥干后把排骨表面冲洗干净。这个步骤能让做出的汤清澈不浑浊。\n步骤2\n如果你也想加点海带，可以买干的或者新鲜海带（但不要用海带结，很难洗干净）。干海带需要至少提前浸泡3小时，泡好的海带在盆中清洗几次至水完全清澈。然后沥干，切丝备用。\n煮汤之前把莲藕削皮切成较大的块，但不要太早切，不然会氧化变黑。\n步骤3\n开始煲汤，将所有准备好的食材放入汤锅或砂锅中。包括排骨、莲藕、海带、姜、枸杞和冷水。\n步骤4\n大火煮开后，马上转小火慢炖。盖上盖子，文火慢炖至少4个小时，时间越长越好。头一天晚上炖好，第二天再加热会使它更美味。\n步骤5\n吃之前加盐调味，撒上葱花即可。\n步骤6\n请关注【食域家】，一起分享更多美食和见闻。\n莲藕排骨汤的烹饪技巧\n热量：176kcal |\n碳水化合物：7g | 蛋白质：9g | 脂肪：12g | 饱和脂肪：4g | 胆固醇：42mg | 钠：72mg | 钾：338mg | 膳食纤维：2g | 糖：1g | 维生素A：10IU | 维生素C：16.8mg | 钙：32mg | 铁：0.9mg\n做菜好吃都有技巧，我的每道菜都有小妙招，大家搜索“豆果”可以直接查看我的菜谱！",
+      "bookTitle": null,
+      "pageStart": null,
+      "pageEnd": null,
+      "location": null,
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 1,
+        "mappedStepImages": 2,
+        "stepImageCoverage": 0.4,
+        "ingredientCount": 10,
+        "executableStepCount": 5,
+        "notes": [
+          "全页完整同名资料，作者食域家；正文故事、人物Bill、配图与Woks相同，视为译介来源关联，不计额外独立内容源。同站两个豆果page共用一个source identity。",
+          "该页自行明确海带200g、冷水2.8L，保留这页数值；不由Woks1cup/12cups推导公制。可选生抽及准备/焯洗水方法正文提到，用量未注明另收。",
+          "原始6条页面文字，第6宣传关注不作操作；保留前5条全操作。方法1同时浸泡1小时和再煮1分钟，duration留null；方法2含海带/莲藕两阶段，duration留null。",
+          "图1原料摆盘不支持浸泡焯水；图2准确支持步骤2后半切藕、图3装锅；图4/5/6实际逐张看都是成品/宣传，无慢炖过程，保留2/5=40%。",
+          "本页没有整道total；不用Woks的Total7h补充；正文中煲汤少加水、必须加开水等tips完整保留，默认站内宣传和营养分割垃圾排除。"
+        ]
+      },
+      "media": {
+        "recipePageUrl": "https://www.douguo.com/cookbook/2386719.html",
+        "mediaPageUrl": "https://www.douguo.com/cookbook/2386719.html",
+        "sourceName": "豆果美食",
+        "author": "食域家",
+        "rightsNotice": "©本菜谱的做法由 食域家 编写，未经授权不得转载",
+        "reuseLicense": null,
+        "repositoryCopyAuthorized": true,
+        "hero": {
+          "originalUrl": "https://cp1.douguo.com/upload/caiku/6/3/5/960_636e47172d5a9b382dd0b5221f253d55.jpg",
+          "repositoryPath": "assets/dishes/sources/cn-036-lotus-rib-soup/douguo-2386719-candidate/hero.jpg",
+          "adjacentText": "莲藕排骨汤 | 一碗鲜美的暖汤",
+          "pageOrder": 1,
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "visualVerified": true,
+          "visualReview": "实际查看碗中成品汤。"
+        },
+        "steps": [
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/3/c/6/800_3c652ebaa032b167646f43c62d55c846.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-036-lotus-rib-soup/douguo-2386719-candidate/step-2.jpg",
+            "adjacentText": "如果你也想加点海带，可以买干的或者新鲜海带（但不要用海带结，很难洗干净）。干海带需要至少提前浸泡3小时，泡好的海带在盆中清洗几次至水完全清澈。然后沥干，切丝备用。 煮汤之前把莲藕削皮切成较大的块，但不要太早切，不然会氧化变黑。",
+            "pageOrder": 3,
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "visualVerified": true,
+            "visualReview": "实际查看削皮切块后的莲藕，准确支持步骤2后半的莲藕准备；不声称展示海带清洗。",
+            "stepOrder": 2,
+            "sourceStepOrder": 2
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/2/2/1/800_22a3ff4fc455cee9e6154d80fcadc1c1.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-036-lotus-rib-soup/douguo-2386719-candidate/step-3.jpg",
+            "adjacentText": "开始煲汤，将所有准备好的食材放入汤锅或砂锅中。包括排骨、莲藕、海带、姜、枸杞和冷水。",
+            "pageOrder": 4,
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "visualVerified": true,
+            "visualReview": "实际查看汤锅内排骨莲藕海带枸杞浸水，支持装锅操作。",
+            "stepOrder": 3,
+            "sourceStepOrder": 3
+          }
+        ]
+      }
+    }
+  ],
+  "ragEvidence": [
+    {
+      "chunkId": "08cbda87-dc25-4ba8-9719-29c4a1f71d19",
+      "documentId": "43434ec5-101c-4bf4-bf07-84a12a27bf07",
+      "sourceName": "贝太厨房:从小爱吃的菜2",
+      "chunkType": "summary",
+      "content": "菜名：莲藕排骨汤\n简介：秋风乍起，寒意萧瑟，天黑得比往常早了，看着别人家的灯火，我们加紧脚步往家赶。混合了莲藕与排骨的香味飘来，幸福的感觉已经涌上心头。吃饭之前，妈妈先盛好一碗满满的莲藕排骨汤，藕块很粉，排骨软烂，热乎乎的汤也带着说不出的鲜甜。",
+      "similarity": 0.677549282385433
+    },
+    {
+      "chunkId": "037761f6-411a-4c0e-aabb-a6c8458e2837",
+      "documentId": "43434ec5-101c-4bf4-bf07-84a12a27bf07",
+      "sourceName": "贝太厨房:从小爱吃的菜2",
+      "chunkType": "ingredients",
+      "content": "菜名：莲藕排骨汤\n- 排骨 400g\n- 莲藕 600g\n- 盐 10g\n- 小葱 10g\n- 锅里水烧开后，下排骨焯去血水；将血沫冲掉；加水到没过材料约8cm",
+      "similarity": 0.774636401257731
+    },
+    {
+      "chunkId": "91dfabec-8ce0-4b2b-8893-816dcf47e06f",
+      "documentId": "43434ec5-101c-4bf4-bf07-84a12a27bf07",
+      "sourceName": "贝太厨房:从小爱吃的菜2",
+      "chunkType": "steps",
+      "content": "菜名：莲藕排骨汤\n1. 将排骨剁成块。锅里水烧开后，下排骨焯去血水后捞起，将血沫冲掉。莲藕洗净后，用筷子的棱角刮去表皮，切成稍大的滚刀块。小葱洗净切葱花。（图2）\n2. 把排骨和莲藕放进一个深的汤锅，加水到没过材料约8cm。大火烧开后小火慢慢炖煮，一直炖到排骨有点松脱、筷子能够轻松戳透藕的时候就可以了。撒上葱花，加盐调味之后便可上桌。（图3）【大火烧开后小火慢慢炖煮】",
+      "similarity": 0.79277498765141
+    },
+    {
+      "chunkId": "b5f501fd-56b7-43a7-9f07-cb060f1e7f6d",
+      "documentId": "43434ec5-101c-4bf4-bf07-84a12a27bf07",
+      "sourceName": "贝太厨房:从小爱吃的菜2",
+      "chunkType": "technique",
+      "content": "菜名：莲藕排骨汤\n- 准备：5分钟\n- 烹饪：1小时\n- 大火烧开后小火慢慢炖煮",
+      "similarity": 0.691725114234536
+    },
+    {
+      "chunkId": "6bc5b299-3484-41b0-ba79-7bceb61f2c9a",
+      "documentId": "43434ec5-101c-4bf4-bf07-84a12a27bf07",
+      "sourceName": "贝太厨房:从小爱吃的菜2",
+      "chunkType": "tips",
+      "content": "菜名：莲藕排骨汤\n- 选藕要选中段的，不要选末梢的，选择肥短偏红的而不是瘦长偏白的，那样的藕才会是粉的。偏瘦偏白的藕是脆的，比较适合炒着吃。",
+      "similarity": 0.762794733047491
+    },
+    {
+      "chunkId": "89282583-1640-473d-9035-0ed430e54025",
+      "documentId": "169fd21a-f21d-4b89-bda2-1696c39abf0d",
+      "sourceName": "豆果美食",
+      "chunkType": "tips",
+      "content": "菜名：莲藕排骨汤\n- 原文未提供额外提示。",
+      "similarity": 0.725864887237554
+    },
+    {
+      "chunkId": "3b32c785-cc32-4e23-beec-ca466174ca7d",
+      "documentId": "169fd21a-f21d-4b89-bda2-1696c39abf0d",
+      "sourceName": "豆果美食",
+      "chunkType": "summary",
+      "content": "菜名：莲藕排骨汤\n菜系：家常菜\n简介：莲藕排骨汤：排骨冷水加料酒焯洗，莲藕排骨与葱姜在高压锅加清水煮熟，再加葱花和盐。",
+      "similarity": 0.75708489162237
+    },
+    {
+      "chunkId": "55a56cb1-768e-464c-bcb4-da26f0ccdf0f",
+      "documentId": "169fd21a-f21d-4b89-bda2-1696c39abf0d",
+      "sourceName": "豆果美食",
+      "chunkType": "ingredients",
+      "content": "菜名：莲藕排骨汤\n- 排骨 适量克\n- 莲藕 一根\n- 葱 一段\n- 姜 2片\n- 盐 适量\n- 水 适量\n- 葱花 适量克\n- 排骨冷水入锅，加入料酒焯水去腥洗干净备用",
+      "similarity": 0.774675813355945
+    },
+    {
+      "chunkId": "4c720e08-ee43-4375-b03c-b15b7e31921c",
+      "documentId": "169fd21a-f21d-4b89-bda2-1696c39abf0d",
+      "sourceName": "豆果美食",
+      "chunkType": "steps",
+      "content": "菜名：莲藕排骨汤\n1. 排骨冷水入锅，加入料酒焯水去腥洗干净备用\n2. 高压锅放入莲藕排骨，加入葱段姜片\n3. 加入适量清水煮熟即可\n4. 加入葱花，适量盐调味即可饮用",
+      "similarity": 0.773815943371301
+    },
+    {
+      "chunkId": "b00dfde0-080d-40fd-87ba-fb4a909da105",
+      "documentId": "169fd21a-f21d-4b89-bda2-1696c39abf0d",
+      "sourceName": "豆果美食",
+      "chunkType": "technique",
+      "content": "菜名：莲藕排骨汤\n- 原文未明确说明技法。",
+      "similarity": 0.72639540119226
+    },
+    {
+      "chunkId": "59a22134-cad3-4083-814e-65f9fef11eb7",
+      "documentId": "b2ffd848-0269-4544-ae1f-8d177bea0648",
+      "sourceName": "The Woks of Life",
+      "chunkType": "summary",
+      "content": "菜名：莲藕排骨汤\n别名：Lotus Root & Pork Soup\n菜系：湖北菜\n简介：莲藕与带骨猪肉炖汤；原文海带及干枸杞均可选。",
+      "similarity": 0.756638899049826
+    },
+    {
+      "chunkId": "b3b9295a-20d1-4597-a4ba-65150f0e85e7",
+      "documentId": "b2ffd848-0269-4544-ae1f-8d177bea0648",
+      "sourceName": "The Woks of Life",
+      "chunkType": "ingredients",
+      "content": "菜名：莲藕排骨汤\n- 2 pounds pork ribs or pork neck bones (900g)\n- 1 cup re-hydrated seaweed/kelp (optional)\n- 1 pound lotus root (450g)\n- 4 slices ginger\n- 1 tablespoon dried goji berries (optional)\n- 12 cups cold water\n- salt (to taste)\n- 1 scallion (finely chopped)\n- cold-water soak; rinse; large pot of boiling water for blanching; wash; basin of water for seaweed; if water must be added during cooking use boiling water\n- light soy sauce as a dipping sauce for the pork and lotus roots",
+      "similarity": 0.744417936275251
+    },
+    {
+      "chunkId": "260d4f52-4f63-4b62-90ac-d79954a1b70b",
+      "documentId": "b2ffd848-0269-4544-ae1f-8d177bea0648",
+      "sourceName": "The Woks of Life",
+      "chunkType": "steps",
+      "content": "菜名：莲藕排骨汤\n1. 排骨或颈骨在冷水中浸泡1小时，彻底冲洗、沥干备用。另烧开一大锅水，放入猪骨焯水；再次沸腾后再煮1分钟，关火，沥干并洗净猪骨。\n2. 若选用海带，可买干海带或已泡发的海带；避免含沙较多的海带结。干海带至少浸泡3小时，也可提前一晚浸泡。泡好后在一盆水中洗至水完全清澈，再沥干。（至少3小时）\n3. 临煮汤时将莲藕削皮并切成大块；不要过早切开，以免氧化。\n4. 将处理好的猪骨、可选海带、莲藕、姜、可选干枸杞和冷水放入汤锅或砂锅。烧开后立即转为缓慢炖煮，盖盖至少炖4小时，时间越长越好。隔天再次加热会更入味。加盐调味，撒切碎的小葱上桌。【烧开后立即缓慢炖煮】",
+      "similarity": 0.748148277512297
+    },
+    {
+      "chunkId": "5a1c3aed-178d-4d07-82f1-017c296abe16",
+      "documentId": "b2ffd848-0269-4544-ae1f-8d177bea0648",
+      "sourceName": "The Woks of Life",
+      "chunkType": "technique",
+      "content": "菜名：莲藕排骨汤\n- Prep: 3 hrs\n- Cook: 4 hrs\n- Total: 7 hrs\n- 至少3小时\n- 烧开后立即缓慢炖煮",
+      "similarity": 0.634876053485991
+    },
+    {
+      "chunkId": "a8847149-55d0-4ee1-bb0e-ca6cfae0a6ba",
+      "documentId": "b2ffd848-0269-4544-ae1f-8d177bea0648",
+      "sourceName": "The Woks of Life",
+      "chunkType": "tips",
+      "content": "菜名：莲藕排骨汤\n- 炖煮时尽量不再加水；若必须加水，只加沸水。\n- 尽量使用带骨肉，可选猪排骨或猪颈骨。\n- 可提前一天做好，隔天再次加热风味更足。\n- 买不到鲜藕时可用干藕，先泡发。\n- 可用生抽作排骨和莲藕的蘸料。",
+      "similarity": 0.770481063694892
+    },
+    {
+      "chunkId": "d46c2fe8-32de-415a-a76c-d3533979dbb7",
+      "documentId": "2a4babd8-1c35-4415-9b0c-415b93640369",
+      "sourceName": "豆果美食",
+      "chunkType": "summary",
+      "content": "菜名：莲藕排骨汤\n别名：莲藕排骨汤 | 一碗鲜美的暖汤\n菜系：家常菜\n简介：莲藕排骨汤，海带和枸杞为可选；排骨浸泡焯洗，莲藕临煮削皮切块，汤锅或砂锅大火烧开转文火至少4小时。",
+      "similarity": 0.76038830044201
+    },
+    {
+      "chunkId": "928feee9-a6d5-4b8f-b640-b4fdf83aa8df",
+      "documentId": "2a4babd8-1c35-4415-9b0c-415b93640369",
+      "sourceName": "豆果美食",
+      "chunkType": "ingredients",
+      "content": "菜名：莲藕排骨汤\n- 猪排骨或颈骨 900g\n- 莲藕 450g\n- 泡软的干海带或鲜海带（可选） 200g\n- 姜 4片\n- 盐 适量\n- 枸杞干（可选） 1汤匙\n- 冷水 2.8L\n- 小葱，切葱花 1颗\n- 上桌的时候可以备点生抽，当作排骨的蘸料\n- 将排骨放入冷水中浸泡一小时；排骨加冷水烧开；泡好的海带在盆中清洗几次至水完全清澈；必须补水时加开水",
+      "similarity": 0.741252228096272
+    },
+    {
+      "chunkId": "933148b2-0b18-47b7-adf3-7d0f69598117",
+      "documentId": "2a4babd8-1c35-4415-9b0c-415b93640369",
+      "sourceName": "豆果美食",
+      "chunkType": "steps",
+      "content": "菜名：莲藕排骨汤\n1. 将排骨放入冷水中浸泡一小时，再冲洗干净后沥水备用。这样煲出来的汤会比较清澈。 排骨加冷水烧开后焯一下。水开后再煮1分钟，然后关火捞出，沥干后把排骨表面冲洗干净。这个步骤能让做出的汤清澈不浑浊。\n2. 如果你也想加点海带，可以买干的或者新鲜海带（但不要用海带结，很难洗干净）。干海带需要至少提前浸泡3小时，泡好的海带在盆中清洗几次至水完全清澈。然后沥干，切丝备用。 煮汤之前把莲藕削皮切成较大的块，但不要太早切，不然会氧化变黑。\n3. 开始煲汤，将所有准备好的食材放入汤锅或砂锅中。包括排骨、莲藕、海带、姜、枸杞和冷水。\n4. 大火煮开后，马上转小火慢炖。盖上盖子，文火慢炖至少4个小时，时间越长越好。头一天晚上炖好，第二天再加热会使它更美味。【大火煮开后马上转小火文火慢炖】\n5. 吃之前加盐调味，撒上葱花即可。",
+      "similarity": 0.75306822341274
+    },
+    {
+      "chunkId": "b0f4360c-25ac-4559-a1ba-107bf3049412",
+      "documentId": "2a4babd8-1c35-4415-9b0c-415b93640369",
+      "sourceName": "豆果美食",
+      "chunkType": "technique",
+      "content": "菜名：莲藕排骨汤\n- 排骨浸泡一小时；沸水后再煮1分钟\n- 可选干海带至少提前浸泡3小时\n- 盖盖文火慢炖至少4个小时\n- 大火煮开后马上转小火文火慢炖",
+      "similarity": 0.733820394645907
+    },
+    {
+      "chunkId": "50c64dea-25dc-47cb-bae5-3e5121cb0d1b",
+      "documentId": "2a4babd8-1c35-4415-9b0c-415b93640369",
+      "sourceName": "豆果美食",
+      "chunkType": "tips",
+      "content": "菜名：莲藕排骨汤\n- 煲汤过程中尽量不要加水，如果必须加，请加开水。\n- 尽量选择用带肉的猪肋条，也可以用猪颈骨，不要用肉很少的猪骨。\n- 煲汤隔夜后更入味。\n- 尽量选择新鲜的莲藕，越新鲜味道越好。\n- 上桌的时候可以备点生抽，当作排骨的蘸料。",
+      "similarity": 0.773047662584556
+    }
+  ],
+  "notes": [
+    "先查询精确实体及同名历史：recipeEntityId=45a00754-a30c-4280-90d5-073c6d61f0c0；nameDocs仅两个旧书籍/豆果documents，读取时排除invalid/superseded/rejected，没有其他可靠同名资料。随后仅搜索启用中文Woks+豆果；官方Supabase文档用于入库接口核对。",
+    "来源尝试：豆果3356395 web open不可访问，普通Node fetch成功HTTP200；豆果站内caipu查询web403且普通Node fetch403，未绕控。限定douguo.com搜索找到2386719并普通Node fetchHTTP200。部分精确限定搜索无结果；冬瓜/番茄/玉米等非同名结果未抓取亦未入库。Woks搜索及官方web open可读完整正文/卡；普通Node/curl详情页403均记录，未重试绕控，正常公开图片GET200。Woks英雄图web click与photo-5偶有timeout；英雄图curl普通公开GET200，photo-5非过程图且不选。",
+    "每来源原料/操作/模糊用量忠实单独保留。书籍沸水焯与豆果冷水料酒焯、高压锅与长炖等是来源间真实变体差异，不构成各自内部错误，不合成。可靠书籍原文没有否定豆果路线，历史冲突是旧canonical混源而非原文互相冲突。",
+    "书籍原文author=《贝太厨房》工作室，bookTitle=贝太厨房:从小爱吃的菜2，location=text00074.html#subid46，EPUB无固定页码。实际读取原EPUB保留。配图OEBPS/Image00015.jpg实际查看为三联原料/切料/炖锅；无独立成品图，不进image候选。准备5分钟/烹饪1小时只属于书籍，绝不借给selected。",
+    "所选豆果author晓筱家；8项原料含方法漏表的料酒未注明。排骨和葱花保留原量适量克，莲藕一根、葱一段、姜2片、盐适量、水适量。不添加油，也不补源外高压锅压力/时间、莲藕削皮形状等。四条源操作全保留；莲藕已切好照片只给视觉证据不补未经说明的尺寸/刀法。",
+    "时长审计：所选页无prep/cook/total、每步没有明确duration或heat，源整道时间未注明，generated.time应null/timeBasis unspecified。历史HTML SEO“10分钟搞定”不是作者整道计时，当前抓取未含计时字段，不作时长。Woks整道7小时和书籍5+60分钟绝不混给所选页。",
+    "图片授权沿用现有user_confirmed_2026-09-16；各作者版权声明与reuseLicense=null均保留；Researcher只记录原URL及计划路径，没有图片下载到仓库。临时实际查看文件位于系统TEMP，父Agent另按manifest导入并记录本地hash。",
+    "额外同源图片审计：{\"douguo3356395\":[{\"pageOrder\":5,\"sourceStepOrder\":4,\"originalUrl\":\"https://cp1.douguo.com/upload/caiku/5/5/9/800_550ef186ee4047f19ddd3705d719b879.jpeg\",\"httpStatus\":200,\"contentType\":\"image/jpeg\",\"adjacentText\":\"加入葱花，适量盐调味即可饮用\",\"visualVerified\":true,\"rejectedReason\":\"调味后成汤静态锅内图，保守不作操作过程\"},{\"pageOrder\":6,\"sourceStepOrder\":5,\"originalUrl\":\"https://cp1.douguo.com/upload/caiku/7/0/0/800_70f2bacc84efa3f5ec1f8a04ea01cca0.jpeg\",\"httpStatus\":200,\"contentType\":\"image/jpeg\",\"adjacentText\":\"趁热喝吧\",\"visualVerified\":true,\"rejectedReason\":\"纯成品，无操作\"},{\"pageOrder\":7,\"sourceStepOrder\":6,\"originalUrl\":\"https://cp1.douguo.com/upload/caiku/9/7/6/800_97fbfd7591233b618497cb6f17f70446.jpeg\",\"httpStatus\":200,\"contentType\":\"image/jpeg\",\"adjacentText\":\"汤鲜味美，营养好喝\",\"visualVerified\":true,\"rejectedReason\":\"纯成品感受，无操作\"}],\"douguo2386719\":[{\"pageOrder\":2,\"sourceStepOrder\":1,\"originalUrl\":\"https://cp1.douguo.com/upload/caiku/e/e/a/800_ee47fd3a500351e73931ee79938ad9ea.jpg\",\"httpStatus\":200,\"contentType\":\"image/jpeg\",\"visualVerified\":true,\"adjacentText\":\"将排骨放入冷水中浸泡一小时，再冲洗干净后沥水备用。这样煲出来的汤会比较清澈。 排骨加冷水烧开后焯一下。水开后再煮1分钟，然后关火捞出，沥干后把排骨表面冲洗干净。这个步骤能让做出的汤清澈不浑浊。\",\"rejectedReason\":\"原料展示不支持浸泡焯洗\"},{\"pageOrder\":5,\"sourceStepOrder\":4,\"originalUrl\":\"https://cp1.douguo.com/upload/caiku/f/5/b/800_f56601ba59d368f155ebc4c82591650b.jpg\",\"httpStatus\":200,\"contentType\":\"image/jpeg\",\"visualVerified\":true,\"adjacentText\":\"大火煮开后，马上转小火慢炖。盖上盖子，文火慢炖至少4个小时，时间越长越好。头一天晚上炖好，第二天再加热会使它更美味。\",\"rejectedReason\":\"已撒葱花盛碗成品，不是盖盖文火过程\"},{\"pageOrder\":6,\"sourceStepOrder\":5,\"originalUrl\":\"https://cp1.douguo.com/upload/caiku/e/e/8/800_ee691e987589d29a450cae0fd3581e28.jpg\",\"httpStatus\":200,\"contentType\":\"image/jpeg\",\"visualVerified\":true,\"adjacentText\":\"吃之前加盐调味，撒上葱花即可。\",\"rejectedReason\":\"摆拍成品非调味动作\"},{\"pageOrder\":7,\"sourceStepOrder\":6,\"originalUrl\":\"https://cp1.douguo.com/upload/caiku/7/b/d/800_7b903ad6fadaedae19ca0bfee803d70d.jpg\",\"httpStatus\":200,\"contentType\":\"image/jpeg\",\"visualVerified\":true,\"adjacentText\":\"请关注【食域家】，一起分享更多美食和见闻。\",\"rejectedReason\":\"成品勺子图与宣传，非步骤\"}],\"woks\":[{\"pageOrder\":3,\"originalUrl\":\"https://thewoksoflife.com/wp-content/uploads/2016/01/lotus-root-pork-soup.jpg\",\"httpStatus\":200,\"contentType\":\"image/jpeg\",\"visualVerified\":true,\"adjacentText\":\"Recipe Instructions; soak the pork ribs or neck bones in cold water for an hour.\",\"rejectedReason\":\"静态原料摆盘，未展示所邻浸泡焯洗；不编造映射\"},{\"pageOrder\":2,\"originalUrl\":\"https://thewoksoflife.com/wp-content/uploads/2016/01/lotus-root-pork-soup-6.jpg\",\"httpStatus\":200,\"contentType\":\"image/jpeg\",\"visualVerified\":true,\"adjacentText\":\"Important Recipe Tips\",\"rejectedReason\":\"纯成品图不是过程\"}]}",
+    "入库实测每份新/修正完整资料各1document+5类chunks，deduplicated=false/embedded=true；两豆果page复用同source_id f3b6d834-5e5f-4228-b04d-5db423e9262a，Woks source_id ff80c282-f473-40e2-9d38-f3e4941e289f，书籍source_id 78e1b835-4629-40f1-bbb5-b655eabc9974。[{\"documentId\":\"43434ec5-101c-4bf4-bf07-84a12a27bf07\",\"contentHash\":\"6a2d4226e87de17c3d813310091da5adc6660cfdc1fa87f22e5cecece06d1e8a\",\"sourceUrl\":null,\"deduplicated\":false,\"embedded\":true,\"chunks\":[{\"chunkId\":\"08cbda87-dc25-4ba8-9719-29c4a1f71d19\",\"chunkType\":\"summary\",\"model\":\"voyage-4\",\"declaredDimensions\":1024,\"actualVectorLength\":1024},{\"chunkId\":\"037761f6-411a-4c0e-aabb-a6c8458e2837\",\"chunkType\":\"ingredients\",\"model\":\"voyage-4\",\"declaredDimensions\":1024,\"actualVectorLength\":1024},{\"chunkId\":\"91dfabec-8ce0-4b2b-8893-816dcf47e06f\",\"chunkType\":\"steps\",\"model\":\"voyage-4\",\"declaredDimensions\":1024,\"actualVectorLength\":1024},{\"chunkId\":\"b5f501fd-56b7-43a7-9f07-cb060f1e7f6d\",\"chunkType\":\"technique\",\"model\":\"voyage-4\",\"declaredDimensions\":1024,\"actualVectorLength\":1024},{\"chunkId\":\"6bc5b299-3484-41b0-ba79-7bceb61f2c9a\",\"chunkType\":\"tips\",\"model\":\"voyage-4\",\"declaredDimensions\":1024,\"actualVectorLength\":1024}]},{\"documentId\":\"169fd21a-f21d-4b89-bda2-1696c39abf0d\",\"contentHash\":\"e2a85339ba560ca6e95b4039ebaeb891a7211b7ee1aeb01cc228763b72fe6c1f\",\"sourceUrl\":\"https://www.douguo.com/cookbook/3356395.html\",\"deduplicated\":false,\"embedded\":true,\"chunks\":[{\"chunkId\":\"89282583-1640-473d-9035-0ed430e54025\",\"chunkType\":\"tips\",\"model\":\"voyage-4\",\"declaredDimensions\":1024,\"actualVectorLength\":1024},{\"chunkId\":\"3b32c785-cc32-4e23-beec-ca466174ca7d\",\"chunkType\":\"summary\",\"model\":\"voyage-4\",\"declaredDimensions\":1024,\"actualVectorLength\":1024},{\"chunkId\":\"55a56cb1-768e-464c-bcb4-da26f0ccdf0f\",\"chunkType\":\"ingredients\",\"model\":\"voyage-4\",\"declaredDimensions\":1024,\"actualVectorLength\":1024},{\"chunkId\":\"4c720e08-ee43-4375-b03c-b15b7e31921c\",\"chunkType\":\"steps\",\"model\":\"voyage-4\",\"declaredDimensions\":1024,\"actualVectorLength\":1024},{\"chunkId\":\"b00dfde0-080d-40fd-87ba-fb4a909da105\",\"chunkType\":\"technique\",\"model\":\"voyage-4\",\"declaredDimensions\":1024,\"actualVectorLength\":1024}]},{\"documentId\":\"b2ffd848-0269-4544-ae1f-8d177bea0648\",\"contentHash\":\"8a56eeb58d2b29243a8136ded169ce793389fced41905f8ea15c2f575829ac36\",\"sourceUrl\":\"https://thewoksoflife.com/lotus-root-pork-soup/\",\"deduplicated\":false,\"embedded\":true,\"chunks\":[{\"chunkId\":\"59a22134-cad3-4083-814e-65f9fef11eb7\",\"chunkType\":\"summary\",\"model\":\"voyage-4\",\"declaredDimensions\":1024,\"actualVectorLength\":1024},{\"chunkId\":\"b3b9295a-20d1-4597-a4ba-65150f0e85e7\",\"chunkType\":\"ingredients\",\"model\":\"voyage-4\",\"declaredDimensions\":1024,\"actualVectorLength\":1024},{\"chunkId\":\"260d4f52-4f63-4b62-90ac-d79954a1b70b\",\"chunkType\":\"steps\",\"model\":\"voyage-4\",\"declaredDimensions\":1024,\"actualVectorLength\":1024},{\"chunkId\":\"5a1c3aed-178d-4d07-82f1-017c296abe16\",\"chunkType\":\"technique\",\"model\":\"voyage-4\",\"declaredDimensions\":1024,\"actualVectorLength\":1024},{\"chunkId\":\"a8847149-55d0-4ee1-bb0e-ca6cfae0a6ba\",\"chunkType\":\"tips\",\"model\":\"voyage-4\",\"declaredDimensions\":1024,\"actualVectorLength\":1024}]},{\"documentId\":\"2a4babd8-1c35-4415-9b0c-415b93640369\",\"contentHash\":\"08e4d712fa014577186f787cc3f6a4fdfb34e21adaaba7303515035fa91236fc\",\"sourceUrl\":\"https://www.douguo.com/cookbook/2386719.html\",\"deduplicated\":false,\"embedded\":true,\"chunks\":[{\"chunkId\":\"d46c2fe8-32de-415a-a76c-d3533979dbb7\",\"chunkType\":\"summary\",\"model\":\"voyage-4\",\"declaredDimensions\":1024,\"actualVectorLength\":1024},{\"chunkId\":\"928feee9-a6d5-4b8f-b640-b4fdf83aa8df\",\"chunkType\":\"ingredients\",\"model\":\"voyage-4\",\"declaredDimensions\":1024,\"actualVectorLength\":1024},{\"chunkId\":\"933148b2-0b18-47b7-adf3-7d0f69598117\",\"chunkType\":\"steps\",\"model\":\"voyage-4\",\"declaredDimensions\":1024,\"actualVectorLength\":1024},{\"chunkId\":\"b0f4360c-25ac-4559-a1ba-107bf3049412\",\"chunkType\":\"technique\",\"model\":\"voyage-4\",\"declaredDimensions\":1024,\"actualVectorLength\":1024},{\"chunkId\":\"50c64dea-25dc-47cb-bae5-3e5121cb0d1b\",\"chunkType\":\"tips\",\"model\":\"voyage-4\",\"declaredDimensions\":1024,\"actualVectorLength\":1024}]}]",
+    "历史纠错保留旧documents+其5chunks，均实际metadata标superseded/replacementDocumentId：[{\"oldDocumentId\":\"d7fff61a-ba12-4324-b6fe-6f1b9967cc9c\",\"replacementDocumentId\":\"43434ec5-101c-4bf4-bf07-84a12a27bf07\",\"evidenceStatus\":\"superseded\",\"oldChunkIds\":[\"64c687fc-4e88-4eb4-8372-576434f0c4af\",\"8faa64c4-df64-41cb-a194-03214a287639\",\"45a566a9-a786-4158-9264-9878a21bf1f2\",\"e2f21c73-1e5f-405a-9ff6-8216798d5935\",\"e0253882-d90c-426c-b90f-5af9449df7b7\"],\"reason\":\"历史EPUB规范化漏方法水及烹饪1小时，实际原EPUB同location核验修正。\"},{\"oldDocumentId\":\"d6d3f275-8bf9-4743-93b0-c91f242728d8\",\"replacementDocumentId\":\"169fd21a-f21d-4b89-bda2-1696c39abf0d\",\"evidenceStatus\":\"superseded\",\"oldChunkIds\":[\"d6fa473a-0413-4fd4-8567-0e991a4407aa\",\"8940ebd0-8c49-4325-99fe-c96eaf251552\",\"0d915018-4378-44de-be19-bc68368e24d6\",\"14d3248e-45ce-4dca-900d-df7baef9f623\",\"c313b1e9-7bd0-4613-97da-0a4f63d56901\"],\"reason\":\"历史豆果规范化漏方法料酒且将趁热喝吧/汤鲜味美当操作，rawExcerpt夹脚本；原raw_html完整保留供审计。\"}]；新documents/chunks未标不可用状态，正常current evidence。",
+    "实际semantic retrieve与hybridSearch：query=莲藕排骨汤，recipeEntityId=45a00754-a30c-4280-90d5-073c6d61f0c0，limit40/maxPerSource20，各返回20个新chunks，旧两个document及10chunks返回0。semantic=[{\"chunkId\":\"91dfabec-8ce0-4b2b-8893-816dcf47e06f\",\"documentId\":\"43434ec5-101c-4bf4-bf07-84a12a27bf07\",\"sourceId\":\"78e1b835-4629-40f1-bbb5-b655eabc9974\",\"similarity\":0.79277498765141,\"hybridScore\":null},{\"chunkId\":\"55a56cb1-768e-464c-bcb4-da26f0ccdf0f\",\"documentId\":\"169fd21a-f21d-4b89-bda2-1696c39abf0d\",\"sourceId\":\"f3b6d834-5e5f-4228-b04d-5db423e9262a\",\"similarity\":0.774675813355945,\"hybridScore\":null},{\"chunkId\":\"037761f6-411a-4c0e-aabb-a6c8458e2837\",\"documentId\":\"43434ec5-101c-4bf4-bf07-84a12a27bf07\",\"sourceId\":\"78e1b835-4629-40f1-bbb5-b655eabc9974\",\"similarity\":0.774636401257731,\"hybridScore\":null},{\"chunkId\":\"4c720e08-ee43-4375-b03c-b15b7e31921c\",\"documentId\":\"169fd21a-f21d-4b89-bda2-1696c39abf0d\",\"sourceId\":\"f3b6d834-5e5f-4228-b04d-5db423e9262a\",\"similarity\":0.773815943371301,\"hybridScore\":null},{\"chunkId\":\"50c64dea-25dc-47cb-bae5-3e5121cb0d1b\",\"documentId\":\"2a4babd8-1c35-4415-9b0c-415b93640369\",\"sourceId\":\"f3b6d834-5e5f-4228-b04d-5db423e9262a\",\"similarity\":0.773047662584556,\"hybridScore\":null},{\"chunkId\":\"a8847149-55d0-4ee1-bb0e-ca6cfae0a6ba\",\"documentId\":\"b2ffd848-0269-4544-ae1f-8d177bea0648\",\"sourceId\":\"ff80c282-f473-40e2-9d38-f3e4941e289f\",\"similarity\":0.770481063694892,\"hybridScore\":null},{\"chunkId\":\"6bc5b299-3484-41b0-ba79-7bceb61f2c9a\",\"documentId\":\"43434ec5-101c-4bf4-bf07-84a12a27bf07\",\"sourceId\":\"78e1b835-4629-40f1-bbb5-b655eabc9974\",\"similarity\":0.762794733047491,\"hybridScore\":null},{\"chunkId\":\"d46c2fe8-32de-415a-a76c-d3533979dbb7\",\"documentId\":\"2a4babd8-1c35-4415-9b0c-415b93640369\",\"sourceId\":\"f3b6d834-5e5f-4228-b04d-5db423e9262a\",\"similarity\":0.76038830044201,\"hybridScore\":null},{\"chunkId\":\"3b32c785-cc32-4e23-beec-ca466174ca7d\",\"documentId\":\"169fd21a-f21d-4b89-bda2-1696c39abf0d\",\"sourceId\":\"f3b6d834-5e5f-4228-b04d-5db423e9262a\",\"similarity\":0.75708489162237,\"hybridScore\":null},{\"chunkId\":\"59a22134-cad3-4083-814e-65f9fef11eb7\",\"documentId\":\"b2ffd848-0269-4544-ae1f-8d177bea0648\",\"sourceId\":\"ff80c282-f473-40e2-9d38-f3e4941e289f\",\"similarity\":0.756638899049826,\"hybridScore\":null},{\"chunkId\":\"933148b2-0b18-47b7-adf3-7d0f69598117\",\"documentId\":\"2a4babd8-1c35-4415-9b0c-415b93640369\",\"sourceId\":\"f3b6d834-5e5f-4228-b04d-5db423e9262a\",\"similarity\":0.75306822341274,\"hybridScore\":null},{\"chunkId\":\"260d4f52-4f63-4b62-90ac-d79954a1b70b\",\"documentId\":\"b2ffd848-0269-4544-ae1f-8d177bea0648\",\"sourceId\":\"ff80c282-f473-40e2-9d38-f3e4941e289f\",\"similarity\":0.748148277512297,\"hybridScore\":null},{\"chunkId\":\"b3b9295a-20d1-4597-a4ba-65150f0e85e7\",\"documentId\":\"b2ffd848-0269-4544-ae1f-8d177bea0648\",\"sourceId\":\"ff80c282-f473-40e2-9d38-f3e4941e289f\",\"similarity\":0.744417936275251,\"hybridScore\":null},{\"chunkId\":\"928feee9-a6d5-4b8f-b640-b4fdf83aa8df\",\"documentId\":\"2a4babd8-1c35-4415-9b0c-415b93640369\",\"sourceId\":\"f3b6d834-5e5f-4228-b04d-5db423e9262a\",\"similarity\":0.741252228096272,\"hybridScore\":null},{\"chunkId\":\"b0f4360c-25ac-4559-a1ba-107bf3049412\",\"documentId\":\"2a4babd8-1c35-4415-9b0c-415b93640369\",\"sourceId\":\"f3b6d834-5e5f-4228-b04d-5db423e9262a\",\"similarity\":0.733820394645907,\"hybridScore\":null},{\"chunkId\":\"b00dfde0-080d-40fd-87ba-fb4a909da105\",\"documentId\":\"169fd21a-f21d-4b89-bda2-1696c39abf0d\",\"sourceId\":\"f3b6d834-5e5f-4228-b04d-5db423e9262a\",\"similarity\":0.72639540119226,\"hybridScore\":null},{\"chunkId\":\"89282583-1640-473d-9035-0ed430e54025\",\"documentId\":\"169fd21a-f21d-4b89-bda2-1696c39abf0d\",\"sourceId\":\"f3b6d834-5e5f-4228-b04d-5db423e9262a\",\"similarity\":0.725864887237554,\"hybridScore\":null},{\"chunkId\":\"b5f501fd-56b7-43a7-9f07-cb060f1e7f6d\",\"documentId\":\"43434ec5-101c-4bf4-bf07-84a12a27bf07\",\"sourceId\":\"78e1b835-4629-40f1-bbb5-b655eabc9974\",\"similarity\":0.691725114234536,\"hybridScore\":null},{\"chunkId\":\"08cbda87-dc25-4ba8-9719-29c4a1f71d19\",\"documentId\":\"43434ec5-101c-4bf4-bf07-84a12a27bf07\",\"sourceId\":\"78e1b835-4629-40f1-bbb5-b655eabc9974\",\"similarity\":0.677549282385433,\"hybridScore\":null},{\"chunkId\":\"5a1c3aed-178d-4d07-82f1-017c296abe16\",\"documentId\":\"b2ffd848-0269-4544-ae1f-8d177bea0648\",\"sourceId\":\"ff80c282-f473-40e2-9d38-f3e4941e289f\",\"similarity\":0.634876053485991,\"hybridScore\":null}]; hybrid=[{\"chunkId\":\"50c64dea-25dc-47cb-bae5-3e5121cb0d1b\",\"documentId\":\"2a4babd8-1c35-4415-9b0c-415b93640369\",\"sourceId\":\"f3b6d834-5e5f-4228-b04d-5db423e9262a\",\"similarity\":0.773047662584556,\"hybridScore\":0.0367003367003367},{\"chunkId\":\"933148b2-0b18-47b7-adf3-7d0f69598117\",\"documentId\":\"2a4babd8-1c35-4415-9b0c-415b93640369\",\"sourceId\":\"f3b6d834-5e5f-4228-b04d-5db423e9262a\",\"similarity\":0.75306822341274,\"hybridScore\":0.035624211853720056},{\"chunkId\":\"d46c2fe8-32de-415a-a76c-d3533979dbb7\",\"documentId\":\"2a4babd8-1c35-4415-9b0c-415b93640369\",\"sourceId\":\"f3b6d834-5e5f-4228-b04d-5db423e9262a\",\"similarity\":0.76038830044201,\"hybridScore\":0.03542319749216301},{\"chunkId\":\"a8847149-55d0-4ee1-bb0e-ca6cfae0a6ba\",\"documentId\":\"b2ffd848-0269-4544-ae1f-8d177bea0648\",\"sourceId\":\"ff80c282-f473-40e2-9d38-f3e4941e289f\",\"similarity\":0.770481063694892,\"hybridScore\":0.03540100250626566},{\"chunkId\":\"928feee9-a6d5-4b8f-b640-b4fdf83aa8df\",\"documentId\":\"2a4babd8-1c35-4415-9b0c-415b93640369\",\"sourceId\":\"f3b6d834-5e5f-4228-b04d-5db423e9262a\",\"similarity\":0.741252228096272,\"hybridScore\":0.0352328431372549},{\"chunkId\":\"55a56cb1-768e-464c-bcb4-da26f0ccdf0f\",\"documentId\":\"169fd21a-f21d-4b89-bda2-1696c39abf0d\",\"sourceId\":\"f3b6d834-5e5f-4228-b04d-5db423e9262a\",\"similarity\":0.774675813355945,\"hybridScore\":0.03485576923076923},{\"chunkId\":\"4c720e08-ee43-4375-b03c-b15b7e31921c\",\"documentId\":\"169fd21a-f21d-4b89-bda2-1696c39abf0d\",\"sourceId\":\"f3b6d834-5e5f-4228-b04d-5db423e9262a\",\"similarity\":0.773815943371301,\"hybridScore\":0.03439153439153439},{\"chunkId\":\"b0f4360c-25ac-4559-a1ba-107bf3049412\",\"documentId\":\"2a4babd8-1c35-4415-9b0c-415b93640369\",\"sourceId\":\"f3b6d834-5e5f-4228-b04d-5db423e9262a\",\"similarity\":0.733820394645907,\"hybridScore\":0.03425253991291727},{\"chunkId\":\"91dfabec-8ce0-4b2b-8893-816dcf47e06f\",\"documentId\":\"43434ec5-101c-4bf4-bf07-84a12a27bf07\",\"sourceId\":\"78e1b835-4629-40f1-bbb5-b655eabc9974\",\"similarity\":0.79277498765141,\"hybridScore\":0.03410059676044331},{\"chunkId\":\"260d4f52-4f63-4b62-90ac-d79954a1b70b\",\"documentId\":\"b2ffd848-0269-4544-ae1f-8d177bea0648\",\"sourceId\":\"ff80c282-f473-40e2-9d38-f3e4941e289f\",\"similarity\":0.748148277512297,\"hybridScore\":0.03398617511520737},{\"chunkId\":\"59a22134-cad3-4083-814e-65f9fef11eb7\",\"documentId\":\"b2ffd848-0269-4544-ae1f-8d177bea0648\",\"sourceId\":\"ff80c282-f473-40e2-9d38-f3e4941e289f\",\"similarity\":0.756638899049826,\"hybridScore\":0.03361581920903955},{\"chunkId\":\"037761f6-411a-4c0e-aabb-a6c8458e2837\",\"documentId\":\"43434ec5-101c-4bf4-bf07-84a12a27bf07\",\"sourceId\":\"78e1b835-4629-40f1-bbb5-b655eabc9974\",\"similarity\":0.774636401257731,\"hybridScore\":0.03357380688124306},{\"chunkId\":\"6bc5b299-3484-41b0-ba79-7bceb61f2c9a\",\"documentId\":\"43434ec5-101c-4bf4-bf07-84a12a27bf07\",\"sourceId\":\"78e1b835-4629-40f1-bbb5-b655eabc9974\",\"similarity\":0.762794733047491,\"hybridScore\":0.03269537480063796},{\"chunkId\":\"b3b9295a-20d1-4597-a4ba-65150f0e85e7\",\"documentId\":\"b2ffd848-0269-4544-ae1f-8d177bea0648\",\"sourceId\":\"ff80c282-f473-40e2-9d38-f3e4941e289f\",\"similarity\":0.744417936275251,\"hybridScore\":0.032539682539682535},{\"chunkId\":\"3b32c785-cc32-4e23-beec-ca466174ca7d\",\"documentId\":\"169fd21a-f21d-4b89-bda2-1696c39abf0d\",\"sourceId\":\"f3b6d834-5e5f-4228-b04d-5db423e9262a\",\"similarity\":0.75708489162237,\"hybridScore\":0.03233376792698826},{\"chunkId\":\"5a1c3aed-178d-4d07-82f1-017c296abe16\",\"documentId\":\"b2ffd848-0269-4544-ae1f-8d177bea0648\",\"sourceId\":\"ff80c282-f473-40e2-9d38-f3e4941e289f\",\"similarity\":0.634876053485991,\"hybridScore\":0.03152709359605911},{\"chunkId\":\"89282583-1640-473d-9035-0ed430e54025\",\"documentId\":\"169fd21a-f21d-4b89-bda2-1696c39abf0d\",\"sourceId\":\"f3b6d834-5e5f-4228-b04d-5db423e9262a\",\"similarity\":0.725864887237554,\"hybridScore\":0.03131881575727918},{\"chunkId\":\"b00dfde0-080d-40fd-87ba-fb4a909da105\",\"documentId\":\"169fd21a-f21d-4b89-bda2-1696c39abf0d\",\"sourceId\":\"f3b6d834-5e5f-4228-b04d-5db423e9262a\",\"similarity\":0.72639540119226,\"hybridScore\":0.03128054740957967},{\"chunkId\":\"08cbda87-dc25-4ba8-9719-29c4a1f71d19\",\"documentId\":\"43434ec5-101c-4bf4-bf07-84a12a27bf07\",\"sourceId\":\"78e1b835-4629-40f1-bbb5-b655eabc9974\",\"similarity\":0.677549282385433,\"hybridScore\":0.029418126757516764},{\"chunkId\":\"b5f501fd-56b7-43a7-9f07-cb060f1e7f6d\",\"documentId\":\"43434ec5-101c-4bf4-bf07-84a12a27bf07\",\"sourceId\":\"78e1b835-4629-40f1-bbb5-b655eabc9974\",\"similarity\":0.691725114234536,\"hybridScore\":0.028991596638655463}]",
+    "Supabase技能要求已核对changelog.md（web markdown不支持后普通curl成功）与JavaScript update官方文档；2026-09-25 PostgreSQL breaking-change条目已查，其ltree/legacy pgcrypto/btree_gist/custom operator变更不改变本次既有REST入库metadata接口。仅Voyage4/1024 embedding API，无独立聊天模型调用。"
+  ]
+}
