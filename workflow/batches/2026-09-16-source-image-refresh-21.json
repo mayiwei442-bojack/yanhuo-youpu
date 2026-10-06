@@ -105,8 +105,8 @@
     {
       "id": "cn-036",
       "name": "莲藕排骨汤",
-      "status": "pending",
-      "reason": null
+      "status": "in_progress",
+      "reason": "干煸四季豆已完成推送，开始本菜整份来源与本地图文更新；纠正旧文字混用书籍与豆果内容，先核验现有RAG，不将旧done当成本轮完成。"
     },
     {
       "id": "cn-054",

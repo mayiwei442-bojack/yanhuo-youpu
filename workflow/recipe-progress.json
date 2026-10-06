@@ -248,9 +248,9 @@
     {
       "id": "cn-036",
       "name": "莲藕排骨汤",
-      "status": "done",
-      "lastRunId": "2026-08-30-cn-036-i10d",
-      "completedAt": "2026-08-30T03:41:13.492Z"
+      "status": "in_progress",
+      "lastRunId": "2026-10-06-cn-036-source-images",
+      "completedAt": null
     },
     {
       "id": "cn-037",
