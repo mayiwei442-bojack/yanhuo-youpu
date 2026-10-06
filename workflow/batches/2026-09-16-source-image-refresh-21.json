@@ -1,0 +1,148 @@
+{
+  "batchId": "2026-09-16-source-image-refresh-21",
+  "startedAt": "2026-09-16T12:22:50.0734629+08:00",
+  "completedAt": "2026-10-06T20:05:46+08:00",
+  "status": "completed",
+  "branch": "codex/recipe-automation",
+  "policyVersion": "2026-09-16-single-whole-source-local-images",
+  "supersedes": "workflow/reports/recipe-source-image-refresh-2026-09-11.md",
+  "authorization": {
+    "repositoryImageCopy": true,
+    "confirmedByUserAt": "2026-09-16"
+  },
+  "selectionPolicy": [
+    "single qualifying source: use directly",
+    "multiple qualifying sources: completeness/internal coherence, then image availability and coverage, then step richness, then ingredient richness",
+    "publish exactly one whole source without cross-source supplementation",
+    "runtime images must be repository-local while original URLs remain provenance"
+  ],
+  "failurePolicy": "Persist and skip the failed recipe, then continue; stop the batch only when shared infrastructure or repository publication cannot safely continue.",
+  "recipes": [
+    {
+      "id": "cn-001",
+      "name": "番茄炒蛋",
+      "status": "done",
+      "reason": "豆果单一完整信源；本地图片迁移完成，对抗性复核 PASS。"
+    },
+    {
+      "id": "cn-002",
+      "name": "宫保鸡丁",
+      "status": "done",
+      "reason": "The Woks of Life 单一完整信源；新运行修正油量和油种表达，Reviewer 对抗性复核及确定性测试 PASS，已提交并推送 f892dff。"
+    },
+    {
+      "id": "cn-003",
+      "name": "麻婆豆腐",
+      "status": "done",
+      "reason": "The Woks of Life 单一完整信源；修复食材说明被分号拆成假食材的问题，对抗性复核及确定性测试 PASS，修复提交 f892dff 已推送。"
+    },
+    {
+      "id": "cn-004",
+      "name": "鱼香肉丝",
+      "status": "done",
+      "reason": "The Woks of Life 单一完整信源；本地成品图与第 1、3、5、6、7 步图迁移完成，步骤 2、4 保持文字；Reviewer 对抗性复核、确定性测试和本地浏览器复核均 PASS，内容提交 b5822be 已推送。"
+    },
+    {
+      "id": "cn-005",
+      "name": "青椒肉丝",
+      "status": "done",
+      "reason": "按用户指定采用豆果 1633594 的完整菜谱；新来源已入库为 5 个 1024 维分块，成品图与全部 11 步图已复制进仓库；Reviewer、目标校验与全量确定性测试 PASS，内容提交 e4e27a4 已推送。"
+    },
+    {
+      "id": "cn-006",
+      "name": "红烧肉",
+      "status": "done",
+      "reason": "The Woks of Life 单一完整信源；本地成品图和第 1、2、5 步图完成，第 3、4 步保持文字；Reviewer 对抗性复审、全量确定性测试 PASS，内容提交 0cff918 已推送。"
+    },
+    {
+      "id": "cn-007",
+      "name": "糖醋里脊",
+      "status": "done",
+      "reason": "豆果2343710完整单来源；16项食材、19步及20张本地图片，新文档5个1024维分块已入库；修复默认火力、时长及半小时解析问题，Reviewer复审、目标校验和全量确定性测试PASS，39845ea已推送。"
+    },
+    {
+      "id": "cn-008",
+      "name": "扬州炒饭",
+      "status": "done",
+      "reason": "Woks完整单来源，18行原料覆盖19项证据、9步骤，成品图和第4/5/6/9步图已入仓库；RAG6个1024维分块。纠正40分钟总时长并排除错误初稿检索，复审和全量测试PASS，d1cfbed已推送。"
+    },
+    {
+      "id": "cn-009",
+      "name": "清蒸鲈鱼",
+      "status": "done",
+      "reason": "豆果两条完整候选中因 8/8 步骤图覆盖率被选中；Reviewer PASS 、确定性测试 PASS，已提交并推送 6981feb。"
+    },
+    {
+      "id": "cn-010",
+      "name": "地三鲜",
+      "status": "done",
+      "reason": "三完整来源比较后采用豆果3355060整份12食材13步骤，14图已入仓库；Woks新增6分块、豆果和书籍各复用5分块，均voyage-4/1024维。修复中小火映射、虚构总时长及清水身份；Reviewer复审和全量测试PASS，ba8ffe4已推送。"
+    },
+    {
+      "id": "cn-011",
+      "name": "桂林米粉",
+      "status": "failed",
+      "reason": "本轮跳过：旧豆果2331633缺卤水调味、里脊腌料、白煮肉去向/熟度、炸油及花生准备；4替代候选依赖其他页或不同路线且仍缺工序，无完整匹配来源。不是缺第二来源或图片；原菜谱和RAG保留，下一道继续。"
+    },
+    {
+      "id": "cn-024",
+      "name": "锅包肉",
+      "status": "done",
+      "reason": "书籍与两位豆果作者3份完整文档比较后采用豆果1111868整份13原料16步骤；3文档各5个voyage-4/实际1024维分块，属于2个网站/书籍来源身份。成品图和15步骤图共16张已入仓库，第16步纯文字；独立Reviewer和全量确定性测试PASS，44c58b7已推送。"
+    },
+    {
+      "id": "cn-027",
+      "name": "蒜蓉粉丝蒸扇贝",
+      "status": "done",
+      "reason": "豆果2292246整份12食材17步骤，成品图及17过程图共18张本地图片；两完整网站独立入库共11个voyage-4/实际1024维分块，旧豆果规范化保留superseded并排除检索。独立Reviewer逐张目检和四项对抗审查、全量确定性测试PASS，7c96d8f已推送。"
+    },
+    {
+      "id": "cn-029",
+      "name": "干煸四季豆",
+      "status": "done",
+      "reason": "豆果1228444完整15食材13步骤，成品图和1–12步骤图共13张本地图，最后装盘文字；两独立完整网站各5个voyage-4/实际1024维分块，历史错误版本保留审计且实际semantic/hybrid排除。独立Reviewer逐图、真实Chrome和四项对抗审查以及全量确定性测试PASS，edfc080已推送。"
+    },
+    {
+      "id": "cn-036",
+      "name": "莲藕排骨汤",
+      "status": "done",
+      "reason": "整份采用豆果3356395的8原料4步骤，成品及3过程图共4张本地图；四份完整资料各5个voyage-4/实际1024维分块，译介不增加独立来源。修复葱一段的生成identity缺陷，第二次独立Reviewer、目标校验及最终全量确定性测试PASS，3b93d69已推送。"
+    },
+    {
+      "id": "cn-054",
+      "name": "豉汁蒸排骨",
+      "status": "done",
+      "reason": "整份采用豆果3316845清幽梅花2的15原料11步骤，成品及第2–10过程图共10张本地图；纠正版5个voyage-4/实际1024维分块，7个历史/拒选文档35分块保留审计且实际检索排除。独立Reviewer逐图/真实UI/四项对抗审查、目标校验及全量确定性测试PASS，25c996e已推送。"
+    },
+    {
+      "id": "west-004",
+      "name": "凯撒沙拉",
+      "status": "done",
+      "reason": "Serious Eats整份13原料4步骤，总35分钟/4人份，1成品+4步骤拼图共5本地WebP；新文档5个voyage-4/实际1024维分块，旧两份与拒选BBC保留审计且真实检索排除。首审显示缺陷已修复，第二次独立Reviewer、真实UI及全量确定性测试PASS，1deef6c已推送。"
+    },
+    {
+      "id": "west-006",
+      "name": "法式洋葱汤",
+      "status": "done",
+      "reason": "Serious Eats整份15原料4步骤，总140分钟（准备20/烹饪120）/4人份，成品与4步图共5张本地WebP；Serious与BBC各5个voyage-4/实际1024维分块，历史两份保留审计且检索排除。对抗审查修正清水食材名与牛高汤筛选标记；Reviewer PASS、全量确定性测试和静态构建PASS，d0d3654已推送。"
+    },
+    {
+      "id": "west-011",
+      "name": "意式培根蛋面",
+      "status": "done",
+      "reason": "Serious Eats整份采用，BBC完整候选仅作比较；成品图和第2–5步图共5张本地WebP，第1步无源图而保留文字。两来源各5个voyage-4/实际1024维分块，旧资料检索排除；Reviewer四项对抗审查、目标校验和全量确定性测试PASS，8feb47b已推送。"
+    },
+    {
+      "id": "west-012",
+      "name": "千层面",
+      "status": "failed",
+      "reason": "本轮跳过：BBC完整菜谱只有成品图、没有对应步骤图；Serious Eats虽有过程图，但核心1.5升肉酱被委托到独立菜谱，不满足单一完整来源。不能混用BBC菜谱和Serious图片；未改 canonical、未导入图片。"
+    },
+    {
+      "id": "west-020",
+      "name": "牧羊人派",
+      "status": "done",
+      "reason": "Serious Eats整份采用，BBC完整候选仅作比较；1张成品图和第2、4、5、6、8步图共6张本地WebP；两来源均入库并经实际voyage-4/1024维语义及混合检索核验。第1、3、7步无匹配过程图而保留文字；Reviewer对抗审查、全量确定性测试与静态构建PASS，a0d757b已推送。"
+    }
+  ]
+}

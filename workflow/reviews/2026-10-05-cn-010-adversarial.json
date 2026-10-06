@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "复审通过。证据包、目标记录及14张本地图片哈希未变，原来源忠实性与图片映射核验仍有效。总时长现为null，详情显示未注明，卡片和分享不显示虚构分钟数，限时筛选排除未知时长；食材名称已为清水，标签保留清水半碗。13步计时均为空，中小火保留原文且不强映射，小火和大火控件依据正确。12行食材及13步分别通过语义、句法、标点、括号和分隔结构对抗审查。最新确定性验证、浏览器检查及构建均通过。",
+  "evidencePackageHash": "ba750d0334c79ba356f92b4c4396028b297df5d03bd44a693df56a59ea3a98ab",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

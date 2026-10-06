@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "首次对抗性复核发现花椒说明内部误用结构分号，导致前端拆出“另取少许可选作装饰”假食材。现已改为同一花椒粒食材行中的逗号说明；修复后 15 个食材行、6 个步骤、标点和括号均通过，证据和图片映射未改变。",
+  "evidencePackageHash": "531609279cf00c881f590bc1c740017bfb7ac8d5d92c4343e6cb8627b185448a",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

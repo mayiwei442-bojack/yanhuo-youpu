@@ -1,0 +1,42 @@
+{
+  "recipeId": "cn-004",
+  "authorization": "user_confirmed_2026-09-16",
+  "referer": "https://thewoksoflife.com/pork-garlic-sauce/",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/07/pork-garlic-sauce-2.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-004-yuxiang-rousi/hero.jpg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 1,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/07/pork-garlic-sauce-7.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-004-yuxiang-rousi/step-1.jpg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 3,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/07/pork-garlic-sauce-8.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-004-yuxiang-rousi/step-3.jpg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 5,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/07/pork-garlic-sauce-9.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-004-yuxiang-rousi/step-5.jpg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 6,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/07/pork-garlic-sauce-10.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-004-yuxiang-rousi/step-6.jpg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 7,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/07/pork-garlic-sauce-11.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-004-yuxiang-rousi/step-7.jpg"
+    }
+  ]
+}

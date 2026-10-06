@@ -1,0 +1,219 @@
+{
+  "recipeId": "cn-054",
+  "recipeEntityId": "2dcd0c7e-1483-4895-a99e-a0ebc9f65beb",
+  "verifiedAt": "2026-10-06T06:10:22Z",
+  "method": "Orchestrator independent read-only Supabase SQL: document/chunk metadata, raw MD5, vector_dims",
+  "selectedDocumentId": "c694ed44-fa88-4650-8242-95407ed20025",
+  "activeDocuments": 1,
+  "activeChunks": 5,
+  "auditOnlyDocuments": 7,
+  "auditOnlyChunks": 35,
+  "totalChunks": 40,
+  "allActualVectorDimensions": 1024,
+  "allEmbeddingModels": "voyage-4",
+  "selectedRawExcerptMatchesDatabase": true,
+  "selectedRawExcerptMd5": "ccb6022c32ce6fb62a0298689afec355",
+  "selectedRawExcerptBytes": 1342,
+  "rows": [
+    {
+      "id": "ea4f852f-37df-4285-ac9d-bff1aec25dc5",
+      "url": null,
+      "source_type": "book",
+      "evidence_status": "superseded",
+      "replacement_document_id": "920e9b45-971f-4e7d-9455-8932515370a5",
+      "raw_text_md5": "b815b8b32e5e1a66ad82b02489ae7f9c",
+      "raw_text_bytes": 1518,
+      "chunks": 5,
+      "embedding_models": [
+        "voyage-4"
+      ],
+      "declared_dimensions": [
+        1024
+      ],
+      "actual_dimensions": [
+        1024
+      ],
+      "chunk_evidence_statuses": [
+        "superseded"
+      ],
+      "chunk_replacements": [
+        "920e9b45-971f-4e7d-9455-8932515370a5"
+      ]
+    },
+    {
+      "id": "200aceeb-8159-4c77-bae0-5c9ca7e2117e",
+      "url": "https://www.douguo.com/cookbook/3316845.html",
+      "source_type": "website",
+      "evidence_status": "superseded",
+      "replacement_document_id": "c694ed44-fa88-4650-8242-95407ed20025",
+      "raw_text_md5": "1fdb0c63b2a0ec69e11b2c4d0afb7064",
+      "raw_text_bytes": 67296,
+      "chunks": 5,
+      "embedding_models": [
+        "voyage-4"
+      ],
+      "declared_dimensions": [
+        1024
+      ],
+      "actual_dimensions": [
+        1024
+      ],
+      "chunk_evidence_statuses": [
+        "superseded"
+      ],
+      "chunk_replacements": [
+        "c694ed44-fa88-4650-8242-95407ed20025"
+      ]
+    },
+    {
+      "id": "1721eef7-49bc-4869-8bb4-0eecd835c6ca",
+      "url": "https://www.douguo.com/cookbook/3316845.html",
+      "source_type": "website",
+      "evidence_status": "superseded",
+      "replacement_document_id": "c694ed44-fa88-4650-8242-95407ed20025",
+      "raw_text_md5": "8396790cf755577076844b3c2b628fa3",
+      "raw_text_bytes": 68149,
+      "chunks": 5,
+      "embedding_models": [
+        "voyage-4"
+      ],
+      "declared_dimensions": [
+        1024
+      ],
+      "actual_dimensions": [
+        1024
+      ],
+      "chunk_evidence_statuses": [
+        "superseded"
+      ],
+      "chunk_replacements": [
+        "c694ed44-fa88-4650-8242-95407ed20025"
+      ]
+    },
+    {
+      "id": "0827a3a1-7f94-496f-b2bd-8b792bb62a52",
+      "url": "https://thewoksoflife.com/dim-sum-spare-ribs-w-black-beans/",
+      "source_type": "website",
+      "evidence_status": "superseded",
+      "replacement_document_id": "fd1a657a-4c0d-467e-8d72-e27345e5c50e",
+      "raw_text_md5": "0ea0c129e08af12012badbf481945b5f",
+      "raw_text_bytes": 553222,
+      "chunks": 5,
+      "embedding_models": [
+        "voyage-4"
+      ],
+      "declared_dimensions": [
+        1024
+      ],
+      "actual_dimensions": [
+        1024
+      ],
+      "chunk_evidence_statuses": [
+        "superseded"
+      ],
+      "chunk_replacements": [
+        "fd1a657a-4c0d-467e-8d72-e27345e5c50e"
+      ]
+    },
+    {
+      "id": "c694ed44-fa88-4650-8242-95407ed20025",
+      "url": "https://www.douguo.com/cookbook/3316845.html",
+      "source_type": "website",
+      "evidence_status": null,
+      "replacement_document_id": null,
+      "raw_text_md5": "ccb6022c32ce6fb62a0298689afec355",
+      "raw_text_bytes": 1342,
+      "chunks": 5,
+      "embedding_models": [
+        "voyage-4"
+      ],
+      "declared_dimensions": [
+        1024
+      ],
+      "actual_dimensions": [
+        1024
+      ],
+      "chunk_evidence_statuses": [
+        null
+      ],
+      "chunk_replacements": [
+        null
+      ]
+    },
+    {
+      "id": "24dd0735-31c9-4778-b127-ab3ac81bd2a6",
+      "url": "https://www.douguo.com/cookbook/1412894.html",
+      "source_type": "website",
+      "evidence_status": "rejected",
+      "replacement_document_id": null,
+      "raw_text_md5": "ee94350189409b00952b53f70ac2ceca",
+      "raw_text_bytes": 803,
+      "chunks": 5,
+      "embedding_models": [
+        "voyage-4"
+      ],
+      "declared_dimensions": [
+        1024
+      ],
+      "actual_dimensions": [
+        1024
+      ],
+      "chunk_evidence_statuses": [
+        "rejected"
+      ],
+      "chunk_replacements": [
+        null
+      ]
+    },
+    {
+      "id": "920e9b45-971f-4e7d-9455-8932515370a5",
+      "url": null,
+      "source_type": "book",
+      "evidence_status": "rejected",
+      "replacement_document_id": null,
+      "raw_text_md5": "b815b8b32e5e1a66ad82b02489ae7f9c",
+      "raw_text_bytes": 1518,
+      "chunks": 5,
+      "embedding_models": [
+        "voyage-4"
+      ],
+      "declared_dimensions": [
+        1024
+      ],
+      "actual_dimensions": [
+        1024
+      ],
+      "chunk_evidence_statuses": [
+        "rejected"
+      ],
+      "chunk_replacements": [
+        null
+      ]
+    },
+    {
+      "id": "fd1a657a-4c0d-467e-8d72-e27345e5c50e",
+      "url": "https://thewoksoflife.com/dim-sum-spare-ribs-w-black-beans/",
+      "source_type": "website",
+      "evidence_status": "rejected",
+      "replacement_document_id": null,
+      "raw_text_md5": "0ea0c129e08af12012badbf481945b5f",
+      "raw_text_bytes": 553222,
+      "chunks": 5,
+      "embedding_models": [
+        "voyage-4"
+      ],
+      "declared_dimensions": [
+        1024
+      ],
+      "actual_dimensions": [
+        1024
+      ],
+      "chunk_evidence_statuses": [
+        "rejected"
+      ],
+      "chunk_replacements": [
+        null
+      ]
+    }
+  ]
+}

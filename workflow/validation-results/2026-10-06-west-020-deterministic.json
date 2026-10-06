@@ -1,0 +1,30 @@
+{
+  "recipeId": "west-020",
+  "recipeName": "牧羊人派",
+  "runId": "2026-10-06-west-020-source-images",
+  "branch": "codex/recipe-automation",
+  "command": "npm run test:workflow:deterministic",
+  "status": "PASS",
+  "finishedAt": "2026-10-06T12:03:38Z",
+  "checks": {
+    "workflowState": "PASS",
+    "ragRepositoriesAndIngestion": "PASS",
+    "resourceAndEpub": "PASS",
+    "agentContracts": "PASS",
+    "recipeValidatorAndStepMetadata": "PASS",
+    "sourceImages": "PASS",
+    "adversarialLanguage": "PASS",
+    "workflowArtifacts": "PASS",
+    "htmlDemo": "PASS",
+    "recipeCount": 90,
+    "pantryItemCount": 35,
+    "verifiedRecipeMedia": 19,
+    "testedRoutes": 9,
+    "browserErrors": 0,
+    "staticBuild": "PASS"
+  },
+  "notes": [
+    "west-020 passed adversarial ingredient semantics, step grammar, punctuation, and rendered-structure checks.",
+    "Final target validator is workflow/validation-results/2026-10-06-west-020.json."
+  ]
+}

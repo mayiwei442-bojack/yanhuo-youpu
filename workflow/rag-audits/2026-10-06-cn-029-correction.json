@@ -1,0 +1,58 @@
+{
+  "recipeId": "cn-029",
+  "projectId": "lbvrzckkyzjbgwnconse",
+  "verifiedAt": "2026-10-05T23:58:17Z",
+  "newDocuments": [
+    {
+      "documentId": "6c4eb05d-e3de-4ce7-bbef-89e50e5bfc08",
+      "url": "https://www.douguo.com/cookbook/1228444.html",
+      "chunks": 5,
+      "embeddingModel": "voyage-4",
+      "declaredDimension": 1024,
+      "actualVectorDimension": 1024,
+      "documentAndChunkStatus": null
+    },
+    {
+      "documentId": "fd2d4121-7f94-473d-a13a-2e9efac0bffe",
+      "url": "https://thewoksoflife.com/sichuan-dry-fried-green-beans/",
+      "chunks": 5,
+      "embeddingModel": "voyage-4",
+      "declaredDimension": 1024,
+      "actualVectorDimension": 1024,
+      "documentAndChunkStatus": null
+    }
+  ],
+  "history": [
+    {
+      "documentId": "f32e32e4-4303-4e27-9fc5-41f0f109401f",
+      "status": "superseded",
+      "chunksRetained": 5,
+      "allChunkStatuses": "superseded",
+      "replacementDocumentId": "fd2d4121-7f94-473d-a13a-2e9efac0bffe",
+      "allChunkReplacementIdsVerified": true,
+      "sameSourceUrl": true,
+      "reason": "纠正同页规范化的数量/名称、火力时长和广告污染，保留旧版本审计。"
+    },
+    {
+      "documentId": "7ec2854e-8df6-44bf-80ed-e50bf30bf5d6",
+      "status": "rejected",
+      "chunksRetained": 5,
+      "allChunkStatuses": "rejected",
+      "replacementDocumentId": null,
+      "reason": "Researcher当前同页正文核实旧规范化technique的10min/加热提示不在页面；不因图片少或未选中而拒绝，不将新豆果不同URL错误记为replacement。"
+    }
+  ],
+  "verification": {
+    "rootReadOnlySqlDocumentAndChunkMetadataVerified": true,
+    "rootActualVectorDimensionsVerified": true,
+    "researcherRealSemanticResults": 10,
+    "researcherRealHybridResults": 10,
+    "bothNewDocumentsRetrieved": true,
+    "oldDocumentsReturned": 0
+  },
+  "notes": [
+    "Root只读核对，未重入库、embedding、删除数据或改架构。",
+    "Researcher保留真实旧raw/ingredients/steps作审计；旧有错误规范化整版本不作当前正式检索证据。",
+    "两独立完整来源均正常入库；最终只用选中豆果整份图文，不借Woks总时长。"
+  ]
+}

@@ -1,0 +1,459 @@
+{
+  "recipeId": "west-006",
+  "recipeName": "法式洋葱汤",
+  "createdAt": "2026-10-06T07:00:10.094Z",
+  "status": "PASS",
+  "sourceMode": "multi_source",
+  "qualifyingSourceUrls": [
+    "https://www.seriouseats.com/french-onion-soup-recipe",
+    "https://www.bbcgoodfood.com/recipes/french-onion-soup"
+  ],
+  "selectedSourceUrl": "https://www.seriouseats.com/french-onion-soup-recipe",
+  "selectionReason": "两站独立完整同名配方均自洽；Serious Eats有清晰成品图和准确映射四方向图，覆盖4/4，优先于BBC仅100x56的视频过程缩略图覆盖1/6。完整采用Serious原料、操作、技术、提示和图片。",
+  "assessments": {
+    "https://www.seriouseats.com/french-onion-soup-recipe": {
+      "qualifies": true,
+      "ingredientCoverage": "complete",
+      "stepCoverage": "complete",
+      "internalCoherence": "coherent",
+      "heroImages": 1,
+      "mappedStepImages": 4,
+      "stepImageCoverage": 1,
+      "ingredientCount": 15,
+      "executableStepCount": 4,
+      "notes": [
+        "13源列表行，盐和黑胡椒拆成2行、补方法明确防焦水为第15食材；黄油90克另涂面包未给量，保留适量不从90克扣算。",
+        "源1/8英寸厚洋葱约3.2毫米为确定长度换算；高汤1.8L、黄油90g、洋葱1.4kg、干酪450g、水15ml、雪莉120ml、鱼露5ml和醋5ml均来源明确公制，不用理论换算覆盖。",
+        "细香葱2汤匙不换算g/ml；洋葱多阶段8分钟/1至2小时、雪莉酒3分钟/汤20分钟完整保留，4published sourceDirections皆复合或无时长，timing.stepDurations建议[null,null,null,null]。",
+        "wholeRecipeTotal140 prep20 cook120、servings4源明确；烤箱上火的温度/分钟未给不填数字。",
+        "新4direction图逐panel实际view且正常HTTP200，sourceDirections覆盖4/4；文章研究替代锅具/烤箱/小苏打实验图不是本配方步骤，不能伪映射。"
+      ]
+    },
+    "https://www.bbcgoodfood.com/recipes/french-onion-soup": {
+      "qualifies": true,
+      "ingredientCoverage": "complete",
+      "stepCoverage": "complete",
+      "internalCoherence": "coherent",
+      "heroImages": 1,
+      "mappedStepImages": 1,
+      "stepImageCoverage": 0.16666666666666666,
+      "ingredientCount": 10,
+      "executableStepCount": 6,
+      "notes": [
+        "10原料及6步骤完整，1.3l牛高汤应amount1.3L、identity仅牛高汤，旧normalization未正确提取。",
+        "prep15 cook55 total70分钟、servings4来源明确，15-20分钟是步骤4原文范围，不从常识指定灶火或均值。",
+        "没有正文分步照片；VideoObject同配方公开thumbnailURL实际是倒beefstock的过程，明确对应步骤4，但只有100x56像素，使用价值受分辨率限制。",
+        "video customPoster实际加品牌文字成品宣传封面，不能作步骤图；页面hero成品另记录。",
+        "完整同名独立变体正常入库，即使未selected仍保留完整来源；不从本候选借糖/面粉/白葡萄酒或图片给Serious。"
+      ]
+    }
+  },
+  "media": {
+    "recipePageUrl": "https://www.seriouseats.com/french-onion-soup-recipe",
+    "mediaPageUrl": "https://www.seriouseats.com/french-onion-soup-recipe",
+    "sourceName": "Serious Eats",
+    "author": "Julia Estrada",
+    "rightsNotice": "Serious Eats / Julia Estrada",
+    "reuseLicense": null,
+    "repositoryCopyAuthorized": true,
+    "hero": {
+      "role": "hero",
+      "originalUrl": "https://www.seriouseats.com/thmb/LrfQvaX1S3PgpfxshU55RMSwHDo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/SEA-french-onion-soup-recipe-hero-01-cbeea4db88344d00bc2254d4d2df602e.jpg",
+      "repositoryPath": "assets/dishes/sources/west-006-french-onion-soup/hero.webp",
+      "adjacentText": "Here's the recipe you need to get the best caramelized onion- and cheese-filled flavor in every steamy, crouton-topped bowl of French onion soup.",
+      "pageOrder": 1,
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "visualVerified": true,
+      "visualReview": "实际成品图：蓝色双耳碗中洋葱汤、烤面包及已融化金黄干酪。",
+      "sourceName": "Serious Eats",
+      "author": "Julia Estrada",
+      "rightsNotice": "Serious Eats / Julia Estrada",
+      "recipePageUrl": "https://www.seriouseats.com/french-onion-soup-recipe",
+      "mediaPageUrl": "https://www.seriouseats.com/french-onion-soup-recipe"
+    },
+    "steps": [
+      {
+        "role": "step",
+        "originalUrl": "https://www.seriouseats.com/thmb/6Xq4Ki9mPtZHyn-0OIgv3y5eWyE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/SEA-french-onion-soup-recipe-step-1-91802185e9974b5ca0783d63be59354b.jpg",
+        "repositoryPath": "assets/dishes/sources/west-006-french-onion-soup/step-1.webp",
+        "stepOrder": 1,
+        "sourceStepOrder": 1,
+        "adjacentText": "In a large stainless steel saucepan, or in 2 large stainless steel or cast iron skillets, melt butter over medium-high heat until foaming. Add onions and cook, stirring occasionally, until softened, about 8 minutes. Lower heat to medium-low and cook, stirring frequently, until onions are very sweet and a rich golden-brown color, 1 to 2 hours. If browned onion juices on bottom of pot threaten to burn, add 1 tablespoon (15ml) water, scrape up browned bits, and continue cooking. Season with salt and pepper.",
+        "pageOrder": 15,
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "visualVerified": true,
+        "visualReview": "两格同锅：上格浅色正在加热的洋葱、下格已软化浓缩金棕色的洋葱，准确对应方向1两阶段；图不证明具体分钟。",
+        "sourceName": "Serious Eats",
+        "author": "Julia Estrada",
+        "rightsNotice": "Serious Eats / Julia Estrada",
+        "recipePageUrl": "https://www.seriouseats.com/french-onion-soup-recipe",
+        "mediaPageUrl": "https://www.seriouseats.com/french-onion-soup-recipe"
+      },
+      {
+        "role": "step",
+        "originalUrl": "https://www.seriouseats.com/thmb/qTDM_j4mtUB8BZ7dogvgZGRWLCQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/SEA-french-onion-soup-recipe-step-2-ce9e81870c034814a10f667e2e59b19b.jpg",
+        "repositoryPath": "assets/dishes/sources/west-006-french-onion-soup/step-2.webp",
+        "stepOrder": 2,
+        "sourceStepOrder": 2,
+        "adjacentText": "Add sherry and bring to a simmer, scraping up any browned bits. (If using 2 skillets, divide sherry between them, then scrape onions and liquid from both pans into a pot or Dutch oven to continue.) Cook until alcohol smell is mostly gone, about 3 minutes. Add stock, thyme, and bay leaf; raise heat to medium-high; and bring to a simmer. Lower heat and simmer for 20 minutes.",
+        "pageOrder": 16,
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "visualVerified": true,
+        "visualReview": "两格：上格洋葱加雪莉酒后的液体冒泡，下格加入高汤、百里香和月桂叶微沸，准确对应方向2。",
+        "sourceName": "Serious Eats",
+        "author": "Julia Estrada",
+        "rightsNotice": "Serious Eats / Julia Estrada",
+        "recipePageUrl": "https://www.seriouseats.com/french-onion-soup-recipe",
+        "mediaPageUrl": "https://www.seriouseats.com/french-onion-soup-recipe"
+      },
+      {
+        "role": "step",
+        "originalUrl": "https://www.seriouseats.com/thmb/jsYMjwBbqDyFH5AFQfV_jSabDh0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/SEA-french-onion-soup-recipe-step-03-1-5491d6b1f31c426b803e6eb20f9ea8b3.jpg",
+        "repositoryPath": "assets/dishes/sources/west-006-french-onion-soup/step-3.webp",
+        "stepOrder": 3,
+        "sourceStepOrder": 3,
+        "adjacentText": "Add fish sauce, if using, and cider vinegar. Season with salt and pepper. Discard thyme sprigs and bay leaf.",
+        "pageOrder": 17,
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "visualVerified": true,
+        "visualReview": "真实手持小碗向锅内汤底加入调味液，准确对应方向3加苹果醋/可选鱼露的阶段；不凭液体颜色额外确认成分。",
+        "sourceName": "Serious Eats",
+        "author": "Julia Estrada",
+        "rightsNotice": "Serious Eats / Julia Estrada",
+        "recipePageUrl": "https://www.seriouseats.com/french-onion-soup-recipe",
+        "mediaPageUrl": "https://www.seriouseats.com/french-onion-soup-recipe"
+      },
+      {
+        "role": "step",
+        "originalUrl": "https://www.seriouseats.com/thmb/UY7jZudw10sC5sx21huU5-DziLI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/SEA-french-onion-soup-recipe-step-04-69e8eef9e229429ca589dffcd7e6e04c.jpg",
+        "repositoryPath": "assets/dishes/sources/west-006-french-onion-soup/step-4.webp",
+        "stepOrder": 4,
+        "sourceStepOrder": 4,
+        "adjacentText": "Preheat broiler and adjust oven rack to top position. Butter toasts and rub with garlic clove until fragrant. Spoon a small amount of broth into the bottoms of 4 ovenproof serving bowls, then top with half the toasts. Sprinkle some grated cheese on top of toasts, then spoon more soup and onions on top, nearly filling bowls. Set remaining 4 toasts in bowls, pushing to nearly submerge them. Top with remaining grated cheese and set bowls on a rimmed baking sheet. Broil until cheese is melted and browned in spots. Garnish with chives and serve.",
+        "pageOrder": 18,
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "visualVerified": true,
+        "visualReview": "四格：左上第一层面包撒干酪，右上再舀汤洋葱，左下第二层面包和干酪，右下4碗置有边沿烤盘已焗融，准确对应方向4完整分层。",
+        "sourceName": "Serious Eats",
+        "author": "Julia Estrada",
+        "rightsNotice": "Serious Eats / Julia Estrada",
+        "recipePageUrl": "https://www.seriouseats.com/french-onion-soup-recipe",
+        "mediaPageUrl": "https://www.seriouseats.com/french-onion-soup-recipe"
+      }
+    ]
+  },
+  "notes": [
+    "精确RAG查法式洋葱汤entity7d84cf26-7af9-4b08-8dcf-2daaec954e48：只有两站旧资料，无书籍。Serious旧raw_text是自写1729字中英摘要，压缩原文且漏防焦水等细节，需要完整来源纠错；BBC旧rawHTML真实，stock字段错需修正。",
+    "Serious普通菜谱fetch402/612字错误响应，公开web正文正常完整310行，未绕登录验证码或访问控制。Web图click restricted错误记录，正常公开原图HTTP200可读。",
+    "BBC当前正常HTML HTTP200，JSON-LD完整配方及VideoObject，普通Web open同站官方tollbit子域；新旧变体差异不等同来源内部矛盾，不能混补。",
+    "12张媒体（Seriousselected5、article操作4、BBChero/thumbnail/poster3）均正常HTTP200并逐张实际view；正文实验图未作为当前配方步骤候选。",
+    "页面照片顺序按独立图片：hero1，次成品2，洋葱摆盘3、切片4、炒洋葱5、烤箱实验6、搪瓷锅实验7、刮锅实验8、小苏打对比9、小苏打实验10、擦蒜面包11、第一层干酪12、第二层面包13、舀成品14、四direction15-18。",
+    "BBC搜索另见“Next level French onion soup”新闻/变体，其来源明确说明 veers towards a baked cheese and onion gratin，以整锅高温烤制、酵母抽提物等形成不同烤制变体；只记录搜索，未作为本次经典同名候选详情fetch或入库。焦糖化洋葱guide非完整目标汤配方，不跨页面借图。"
+  ],
+  "otherInspectedMedia": [
+    {
+      "originalUrl": "https://www.seriouseats.com/thmb/1gxHcZS1m-TLCw-mrFBrRzY6BG4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2015__01__20150116-french-onion-soup-vicky-wasik-3-194361f90cab402bbc617d370db8c01c.jpg",
+      "sourceName": "Serious Eats",
+      "author": "Vicky Wasik",
+      "rightsNotice": "Serious Eats / Vicky Wasik",
+      "recipePageUrl": "https://www.seriouseats.com/french-onion-soup-recipe",
+      "mediaPageUrl": "https://www.seriouseats.com/french-onion-soup-recipe",
+      "pageOrder": 5,
+      "sourceStepOrder": 1,
+      "adjacentText": "Caramelization can be a wildly inconsistent process.",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "visualVerified": true,
+      "visualReview": "锅中加热浅色混合洋葱，支持方向1早期加热；selected两格已经覆盖早晚阶段。",
+      "selected": false
+    },
+    {
+      "originalUrl": "https://www.seriouseats.com/thmb/wz6eqDybObgtMoKXJ5UMZkRn4nQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2015__01__20150116-french-onion-soup-vicky-wasik-11-b118c87d2b8e4da691277189fddff51c.jpg",
+      "sourceName": "Serious Eats",
+      "author": "Vicky Wasik",
+      "rightsNotice": "Serious Eats / Vicky Wasik",
+      "recipePageUrl": "https://www.seriouseats.com/french-onion-soup-recipe",
+      "mediaPageUrl": "https://www.seriouseats.com/french-onion-soup-recipe",
+      "pageOrder": 11,
+      "sourceStepOrder": 4,
+      "adjacentText": "I start by buttering warm croutons and rubbing them with garlic.",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "visualVerified": true,
+      "visualReview": "真实用蒜瓣擦黄油面包，支持方向4准备面包片。",
+      "selected": false
+    },
+    {
+      "originalUrl": "https://www.seriouseats.com/thmb/u7qWd1YPVjtoAPcWWqLsdDroAoI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2015__01__20150116-french-onion-soup-vicky-wasik-14-b60d4c89216b435992dbf4c2d3d37152.jpg",
+      "sourceName": "Serious Eats",
+      "author": "Vicky Wasik",
+      "rightsNotice": "Serious Eats / Vicky Wasik",
+      "recipePageUrl": "https://www.seriouseats.com/french-onion-soup-recipe",
+      "mediaPageUrl": "https://www.seriouseats.com/french-onion-soup-recipe",
+      "pageOrder": 12,
+      "sourceStepOrder": 4,
+      "adjacentText": "I set a crouton on top and top that with cheese.",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "visualVerified": true,
+      "visualReview": "真实手撒干酪到第一层面包上，支持方向4第一层撒干酪。",
+      "selected": false
+    },
+    {
+      "originalUrl": "https://www.seriouseats.com/thmb/Rt4ZCytHdvhOtycWSc2Yh_SSqRU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2015__01__20150116-french-onion-soup-vicky-wasik-16-f6ef7877a1d9447181b79482ad101825.jpg",
+      "sourceName": "Serious Eats",
+      "author": "Vicky Wasik",
+      "rightsNotice": "Serious Eats / Vicky Wasik",
+      "recipePageUrl": "https://www.seriouseats.com/french-onion-soup-recipe",
+      "mediaPageUrl": "https://www.seriouseats.com/french-onion-soup-recipe",
+      "pageOrder": 13,
+      "sourceStepOrder": 4,
+      "adjacentText": "Then I ladle in the bulk of the soup, nearly filling up each bowl. I add another crouton on top of that.",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "visualVerified": true,
+      "visualReview": "正在放好第二片面包的汤碗，支持方向4第二层面包；并非完全焗烤成品。",
+      "selected": false
+    },
+    {
+      "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/french-onion-soup-1e33029.jpg?quality=90&resize=500,454",
+      "repositoryPath": "assets/dishes/sources/west-006-french-onion-soup-bbc/hero.jpg",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "pageOrder": 1,
+      "adjacentText": "French onion soup",
+      "visualVerified": true,
+      "visualReview": "白色碗中成品洋葱汤和融化干酪面包；独立成品图。",
+      "photoAuthor": null,
+      "recipeAuthor": "Sara Buenfeld",
+      "sourceName": "BBC Good Food",
+      "recipePageUrl": "https://www.bbcgoodfood.com/recipes/french-onion-soup",
+      "mediaPageUrl": "https://www.bbcgoodfood.com/recipes/french-onion-soup",
+      "selected": false
+    },
+    {
+      "originalUrl": "https://media.delight.video/0c18e53b610964fac175fe0e757adc30557e79b7/4aaa36373f54a78633ca77565b07c108e355b7dc/MEDIA/v0/THUMBS/media.0000006.jpg",
+      "repositoryPath": "assets/dishes/sources/west-006-french-onion-soup-bbc/step-4.jpg",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "pageOrder": 2,
+      "stepOrder": 4,
+      "sourceStepOrder": 4,
+      "adjacentText": "Increase the heat and keep stirring as you gradually add the wine, followed by the beef stock. Cover and simmer for 15-20 mins.",
+      "sourceVideoTitle": "French onion soup",
+      "sourceVideoVisibleLabel": "beef stock",
+      "width": 100,
+      "height": 56,
+      "visualVerified": true,
+      "visualReview": "实际小尺寸公开视频缩略图：手持容器把牛高汤倒入锅内，画面文字beef stock，与源步骤4加高汤一致；100x56分辨率不适于高清教程，不虚增至其他步骤。",
+      "photoAuthor": null,
+      "recipeAuthor": "Sara Buenfeld",
+      "sourceName": "BBC Good Food",
+      "recipePageUrl": "https://www.bbcgoodfood.com/recipes/french-onion-soup",
+      "mediaPageUrl": "https://www.bbcgoodfood.com/recipes/french-onion-soup",
+      "selected": false
+    },
+    {
+      "originalUrl": "https://media.delight.video/0c18e53b610964fac175fe0e757adc30557e79b7/4aaa36373f54a78633ca77565b07c108e355b7dc/POSTER_USER/v0/4aaa36373f54a78633ca77565b07c108e355b7dc.jpeg",
+      "sourceName": "BBC Good Food",
+      "recipePageUrl": "https://www.bbcgoodfood.com/recipes/french-onion-soup",
+      "mediaPageUrl": "https://www.bbcgoodfood.com/recipes/french-onion-soup",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "pageOrder": 3,
+      "adjacentText": "French onion soup (VideoObject customPosterUrl)",
+      "visualVerified": true,
+      "visualReview": "640x360品牌框及Good Food/French Onion Soup标题的成品宣传封面，不能映射为过程图。",
+      "selected": false,
+      "photoAuthor": null,
+      "recipeAuthor": "Sara Buenfeld"
+    }
+  ],
+  "ragAudit": {
+    "status": "PASS",
+    "recipeEntityId": "7d84cf26-7af9-4b08-8dcf-2daaec954e48",
+    "query": "法式洋葱汤",
+    "initialDocumentIds": [
+      "28601ece-1f5b-4d42-bf1f-137df434ac02",
+      "e3fff22c-9f15-4ca9-b673-67e6a92126f5"
+    ],
+    "initialBookDocuments": 0,
+    "ingestion": [
+      {
+        "sourceName": "Serious Eats",
+        "documentId": "61876a9e-c20b-4c13-9520-f98b82650b43",
+        "embedded": true,
+        "reused": false,
+        "chunkCount": 5,
+        "embeddingModel": "voyage-4",
+        "actualEmbeddingDimensions": [
+          1024,
+          1024,
+          1024,
+          1024,
+          1024
+        ],
+        "contentHash": "3394e64565f767911abf6759d02545040b480ebb0a3b036f9cc3da0568e17ef4",
+        "evidenceStatus": "current"
+      },
+      {
+        "sourceName": "BBC Good Food",
+        "documentId": "b90977fc-d6ff-445f-a86e-bf3073077bd1",
+        "embedded": true,
+        "reused": false,
+        "chunkCount": 5,
+        "embeddingModel": "voyage-4",
+        "actualEmbeddingDimensions": [
+          1024,
+          1024,
+          1024,
+          1024,
+          1024
+        ],
+        "contentHash": "524361f681f48743ccb6e0f748d214035f894dbb53b83ad0d53502288572134d",
+        "evidenceStatus": "current"
+      }
+    ],
+    "preFreezeRefinement": {
+      "changedChunkId": "4b002d37-f053-45a2-8530-7d01e2edab4c",
+      "reason": "vermouth中文味美思，避免误写为absinthe苦艾酒",
+      "changedChunksReembedded": 1,
+      "unchangedChunksReembedded": 0,
+      "actualDim": 1024,
+      "bbcLiteralTipsAddedToRawText": true,
+      "bbcReembeddedForRawTextOnly": false
+    },
+    "documentStatuses": [
+      {
+        "documentId": "e3fff22c-9f15-4ca9-b673-67e6a92126f5",
+        "evidenceStatus": "superseded",
+        "replacementDocumentId": "b90977fc-d6ff-445f-a86e-bf3073077bd1"
+      },
+      {
+        "documentId": "28601ece-1f5b-4d42-bf1f-137df434ac02",
+        "evidenceStatus": "superseded",
+        "replacementDocumentId": "61876a9e-c20b-4c13-9520-f98b82650b43"
+      },
+      {
+        "documentId": "61876a9e-c20b-4c13-9520-f98b82650b43",
+        "evidenceStatus": "current",
+        "replacementDocumentId": null
+      },
+      {
+        "documentId": "b90977fc-d6ff-445f-a86e-bf3073077bd1",
+        "evidenceStatus": "current",
+        "replacementDocumentId": null
+      }
+    ],
+    "totalDocuments": 4,
+    "totalChunks": 20,
+    "currentDocuments": 2,
+    "currentChunks": 10,
+    "supersededDocuments": 2,
+    "supersededChunks": 10,
+    "rejectedDocuments": 0,
+    "rejectedChunks": 0,
+    "semanticCount": 10,
+    "hybridCount": 10,
+    "semanticDocumentIds": [
+      "61876a9e-c20b-4c13-9520-f98b82650b43",
+      "b90977fc-d6ff-445f-a86e-bf3073077bd1"
+    ],
+    "hybridDocumentIds": [
+      "b90977fc-d6ff-445f-a86e-bf3073077bd1",
+      "61876a9e-c20b-4c13-9520-f98b82650b43"
+    ],
+    "excludedAuditReturned": false,
+    "verifiedBy": "repository retrieve() and hybridSearch(); real voyage-4 query embeddings; metadata audit documents/chunks direct read excluded from current evidence"
+  },
+  "sourceAttempts": [
+    {
+      "sourceName": "Serious Eats",
+      "canonicalUrl": "https://www.seriouseats.com/french-onion-soup-recipe",
+      "retrievalMethod": "公开Web完整正文+原图普通HTTP200，普通菜谱HTMLfetch402已记录",
+      "complete": true,
+      "ordinaryRecipeHttpStatus": 402,
+      "errorBodyBytes": 612,
+      "documentId": "61876a9e-c20b-4c13-9520-f98b82650b43",
+      "ingredients": 15,
+      "executableSteps": 4,
+      "heroImages": 1,
+      "mappedStepImages": 4,
+      "stepImageCoverage": 1,
+      "outcome": "selected",
+      "wholeRecipeTiming": {
+        "prepMinutes": 20,
+        "cookMinutes": 120,
+        "totalMinutes": 140,
+        "servings": 4
+      }
+    },
+    {
+      "sourceName": "BBC Good Food",
+      "canonicalUrl": "https://www.bbcgoodfood.com/recipes/french-onion-soup",
+      "retrievalMethod": "当前普通HTTP200 HTML+真实JSON-LD完整配方; complete video-thumbnail provenance",
+      "complete": true,
+      "ordinaryRecipeHttpStatus": 200,
+      "ordinaryHtmlBytes": 568156,
+      "documentId": "b90977fc-d6ff-445f-a86e-bf3073077bd1",
+      "ingredients": 10,
+      "executableSteps": 6,
+      "heroImages": 1,
+      "mappedStepImages": 1,
+      "stepImageCoverage": 0.16666666666666666,
+      "outcome": "complete_independent_unselected",
+      "wholeRecipeTiming": {
+        "prepMinutes": 15,
+        "cookMinutes": 55,
+        "totalMinutes": 70,
+        "servings": 4
+      },
+      "media": {
+        "recipePageUrl": "https://www.bbcgoodfood.com/recipes/french-onion-soup",
+        "mediaPageUrl": "https://www.bbcgoodfood.com/recipes/french-onion-soup",
+        "sourceName": "BBC Good Food",
+        "author": null,
+        "rightsNotice": null,
+        "reuseLicense": null,
+        "repositoryCopyAuthorized": true,
+        "hero": {
+          "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/french-onion-soup-1e33029.jpg?quality=90&resize=500,454",
+          "repositoryPath": "assets/dishes/sources/west-006-french-onion-soup-bbc/hero.jpg",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "pageOrder": 1,
+          "adjacentText": "French onion soup",
+          "visualVerified": true,
+          "visualReview": "白色碗中成品洋葱汤和融化干酪面包；独立成品图。",
+          "photoAuthor": null,
+          "recipeAuthor": "Sara Buenfeld"
+        },
+        "steps": [
+          {
+            "originalUrl": "https://media.delight.video/0c18e53b610964fac175fe0e757adc30557e79b7/4aaa36373f54a78633ca77565b07c108e355b7dc/MEDIA/v0/THUMBS/media.0000006.jpg",
+            "repositoryPath": "assets/dishes/sources/west-006-french-onion-soup-bbc/step-4.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "pageOrder": 2,
+            "stepOrder": 4,
+            "sourceStepOrder": 4,
+            "adjacentText": "Increase the heat and keep stirring as you gradually add the wine, followed by the beef stock. Cover and simmer for 15-20 mins.",
+            "sourceVideoTitle": "French onion soup",
+            "sourceVideoVisibleLabel": "beef stock",
+            "width": 100,
+            "height": 56,
+            "visualVerified": true,
+            "visualReview": "实际小尺寸公开视频缩略图：手持容器把牛高汤倒入锅内，画面文字beef stock，与源步骤4加高汤一致；100x56分辨率不适于高清教程，不虚增至其他步骤。",
+            "photoAuthor": null,
+            "recipeAuthor": "Sara Buenfeld"
+          }
+        ]
+      }
+    }
+  ]
+}

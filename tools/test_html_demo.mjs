@@ -1,6 +1,7 @@
 import { chromium } from "playwright-core";
 import { pathToFileURL } from "node:url";
 import { resolve } from "node:path";
+import { chinese, western } from "./recipe_data.mjs";
 
 const baseUrl = process.env.DEMO_URL || pathToFileURL(resolve(process.env.DEMO_ENTRY || "index.html")).href;
 const expectDeepSeek = process.env.EXPECT_DEEPSEEK === "1";
@@ -12,6 +13,10 @@ const browser = await chromium.launch({
 
 const page = await browser.newPage({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 1 });
 const errors = [];
+const sourceTotals = new Map([
+  ...chinese.map((recipe, index) => [`cn-${String(index + 1).padStart(3, "0")}`, recipe.timing?.totalMinutes]),
+  ...western.map((recipe, index) => [`west-${String(index + 1).padStart(3, "0")}`, recipe.timing?.totalMinutes])
+]);
 page.on("console", (message) => {
   if (message.type() === "error") errors.push(`console: ${message.text()}`);
 });
@@ -206,6 +211,26 @@ try {
   assert(await page.locator(".recipe-card").count() === 90, "菜谱库不是 90 道菜");
   await page.fill("#recipe-search", "番茄炒蛋");
   assert(await page.locator(".recipe-card").count() === 1, "菜谱搜索结果不正确");
+  await page.fill("#recipe-search", "回锅肉");
+  const importedRecipeCard = page.locator('.recipe-card[data-id="cn-016"]');
+  assert(await importedRecipeCard.count() === 1, "HowToCook 回锅肉没有进入菜谱搜索结果");
+  await page.goto(`${baseUrl}#/recipe/cn-016`, { waitUntil: "load" });
+  await page.waitForSelector(".detail-page");
+  const importedRecipeText = await page.locator(".detail-page").innerText();
+  assert(importedRecipeText.includes("回锅肉") && importedRecipeText.includes("男性每人0.5斤") && importedRecipeText.includes("豆瓣酱10毫升"), "回锅肉详情缺少上游配方数据");
+  const importedRecipeImage = page.locator('.detail-hero img[alt="回锅肉"]');
+  await importedRecipeImage.waitFor();
+  assert((await importedRecipeImage.getAttribute("src") || "").includes("26-huiguo-rou.jpeg"), "回锅肉详情没有使用迁入图片");
+  assert(await importedRecipeImage.evaluate((image) => image.complete && image.naturalWidth > 0), "回锅肉迁入图片加载失败");
+  const importedRecipeGallery = page.locator(".recipe-image-section");
+  assert((await importedRecipeGallery.locator("h2").innerText()) === "图片", "回锅肉烹饪步骤下缺少图片标题");
+  const importedRecipeGalleryImages = importedRecipeGallery.locator(".recipe-image-card img");
+  assert(await importedRecipeGalleryImages.count() === 1, "回锅肉篇尾图片区应只展示一张 HowToCook 正文图片");
+  assert((await importedRecipeGalleryImages.getAttribute("src") || "").endsWith("assets/dishes/howtocook/huiguo-rou/1.jpeg"), "回锅肉篇尾图片路径不正确");
+  await importedRecipeGalleryImages.scrollIntoViewIfNeeded();
+  await page.waitForFunction(() => [...document.querySelectorAll(".recipe-image-card img")].every((image) => image.complete && image.naturalWidth > 0));
+  assert(await importedRecipeGalleryImages.evaluateAll((images) => images.every((image) => image.complete && image.naturalWidth > 0)), "回锅肉图片区存在加载失败的图片");
+  await page.screenshot({ path: "outputs/qa-html-huiguo-rou-mobile.png", fullPage: true });
 
   await page.goto(`${baseUrl}#/me`, { waitUntil: "load" });
   await page.waitForSelector(".profile-page");
@@ -224,6 +249,149 @@ try {
   const heritageText = await page.locator(".heritage-preview").innerText();
   assert(!["待资料核验", "后续将连接", "功能预览"].some((term) => heritageText.includes(term)), "地域风味仍显示开发期文案");
 
+  await page.goto(`${baseUrl}#/recipe/cn-001`, { waitUntil: "load" });
+  await page.waitForSelector(".detail-page");
+  assert((await page.locator(".detail-hero > img").getAttribute("src") || "").includes("assets/dishes/sources/cn-001-tomato-egg/hero.jpg"), "番茄炒蛋没有使用复制进仓库的同源成品图");
+  assert(await page.locator(".step-preview-image").count() === 6, "番茄炒蛋没有为全部 6 个步骤显示同源图片");
+  assert(await page.locator(".step-preview .image-attribution").count() === 0, "步骤图下方仍显示来源说明");
+  await page.goto(`${baseUrl}#/cook/cn-001`, { waitUntil: "load" });
+  await page.waitForSelector(".cook-step-image");
+  assert((await page.locator(".cook-step-image").getAttribute("src") || "").includes("assets/dishes/sources/cn-001-tomato-egg/step-01.jpg"), "图文烹饪模式没有显示番茄炒蛋第 1 步仓库图片");
+
+  // Verify every refreshed recipe, not just the original tomato/egg fixture.
+  // Scroll lazy images before checking decoding, and walk all cooking steps.
+  const mediaPage = await browser.newPage({ viewport: { width: 938, height: 945 } });
+  const verifiedMedia = [];
+  try {
+    mediaPage.on("pageerror", (error) => errors.push(`media page: ${error.message}`));
+    await mediaPage.goto(`${baseUrl}#/home`, { waitUntil: "load" });
+    const refreshed = await mediaPage.evaluate(() => window.YANHUO_RECIPES.filter((recipe) => recipe.media));
+    for (const recipe of refreshed) {
+      await mediaPage.goto(`${baseUrl}#/recipe/${recipe.id}`, { waitUntil: "load" });
+      await mediaPage.waitForSelector(".detail-page");
+      const sourceTotal = sourceTotals.get(recipe.id);
+      if (sourceTotal != null) {
+        assert(recipe.time === sourceTotal, `${recipe.id} 生成总时长与所选信源不一致`);
+        assert((await mediaPage.locator(".fact-row .fact strong").first().innerText()).trim() === `${sourceTotal} 分`, `${recipe.id} 详情总时长没有正确显示`);
+      } else {
+        assert(recipe.time === null && recipe.timeBasis === "unspecified", `${recipe.id} 无来源总时长却生成默认分钟数`);
+        assert((await mediaPage.locator(".fact-row .fact strong").first().innerText()).trim() === "未注明", `${recipe.id} 未注明总时长却显示数字`);
+        await mediaPage.evaluate(() => Object.defineProperty(navigator, "share", { configurable: true, value: async (content) => { window.qaSharedRecipe = content; } }));
+        await mediaPage.locator('[data-action="share-recipe"]').click();
+        const shared = await mediaPage.evaluate(() => window.qaSharedRecipe?.text || "");
+        assert(shared.includes("来源未注明总用时") && !/\d+\s*分钟/u.test(shared), `${recipe.id} 分享包含无依据总时长`);
+      }
+      if (recipe.id === "cn-010") {
+        assert(recipe.ingredients[11].name === "清水" && recipe.ingredients[11].label === "清水半碗", "地三鲜的半碗水量混入食材身份");
+        assert((await mediaPage.locator(".ingredient-copy strong").nth(11).innerText()).trim() === "清水", "地三鲜食材名称未正确显示");
+        await mediaPage.goto(`${baseUrl}#/recipes`, { waitUntil: "load" });
+        assert(await mediaPage.locator('[data-action="open-recipe"][data-id="cn-010"] .card-meta').count() === 1, "地三鲜菜谱卡片不存在");
+        assert(!(await mediaPage.locator('[data-action="open-recipe"][data-id="cn-010"] .card-meta').innerText()).includes("MIN"), "地三鲜卡片仍显示默认总时长");
+        await mediaPage.selectOption("#recipe-time", "30");
+        assert(await mediaPage.locator('[data-action="open-recipe"][data-id="cn-010"]').count() === 0, "未知总时长被错误纳入30分钟以内筛选");
+        await mediaPage.goto(`${baseUrl}#/recipe/${recipe.id}`, { waitUntil: "load" });
+      }
+      if (recipe.id === "cn-036") {
+        assert(recipe.ingredients[2].name === "葱" && recipe.ingredients[2].label === "葱一段", "莲藕排骨汤的一段葱量混入食材身份");
+        assert((await mediaPage.locator(".ingredient-copy strong").nth(2).innerText()).trim() === "葱", "莲藕排骨汤详情没有显示葱的正确身份");
+        await mediaPage.locator('[data-action="add-shopping"]').click();
+        await mediaPage.goto(`${baseUrl}#/shopping`, { waitUntil: "load" });
+        await mediaPage.waitForSelector(".shopping-page");
+        const shoppingRows = await mediaPage.locator(".shopping-copy").evaluateAll((rows) => rows.map((row) => ({ name: row.querySelector("strong")?.textContent.trim(), label: row.querySelector("span")?.textContent.trim() })));
+        assert(shoppingRows.some((row) => row.name === "葱" && row.label.startsWith("葱一段")), "采购清单没有分离葱身份和一段用量");
+        assert(shoppingRows.every((row) => row.name !== "葱一段"), "采购清单仍把葱一段当成食材身份");
+        await mediaPage.goto(`${baseUrl}#/recipe/${recipe.id}`, { waitUntil: "load" });
+        await mediaPage.waitForSelector(".detail-page");
+      }
+      const hero = mediaPage.locator(".detail-hero > img");
+      assert(await hero.getAttribute("src") === recipe.imageFull, `${recipe.id} 成品图与生成数据不一致`);
+      await hero.scrollIntoViewIfNeeded();
+      await hero.evaluate((element) => element.decode());
+      assert(await hero.evaluate((element) => element.naturalWidth > 0), `${recipe.id} 成品图没有真实加载`);
+      if (recipe.id === "west-006") {
+        assert(recipe.time === 140 && recipe.defaultServings === 4, "法式洋葱汤的来源总时长或4人份被默认值覆盖");
+        assert(recipe.flags.containsAlcohol && recipe.allergens.includes("dairy") && recipe.allergens.includes("wheat"), "雪莉酒、黄油/干酪或面包的饮食提示遗漏");
+        assert(recipe.flags.containsBeef, "可选牛高汤没有触发含牛肉筛选标记");
+        assert(recipe.steps.every((step) => step.duration === null && step.heat === null && !step.timerRequired), "法式洋葱汤复合阶段或中间火力被误作单个计时/火力");
+        assert(recipe.steps[0].instruction.includes("8分钟") && /1[至—–-]2小时/u.test(recipe.steps[0].instruction), "洋葱的两阶段时间丢失");
+        assert(recipe.steps[1].instruction.includes("3分钟") && recipe.steps[1].instruction.includes("20分钟"), "加酒和煨汤的分阶段时间丢失");
+        assert((await mediaPage.locator(".serving-control").innerText()).includes("4"), "洋葱汤实际详情没有显示来源4人份");
+      }
+      if (recipe.id === "west-004") {
+        assert(recipe.time === 35 && recipe.defaultServings === 4, "凯撒沙拉的来源总时长或4人份被默认值覆盖");
+        assert(recipe.allergens.includes("dairy"), "帕尔马干酪缺少乳制品过敏原");
+        assert(recipe.steps.every((step) => step.duration === null && step.heat === null && !step.timerRequired), "复合步骤或可选鸡蛋处理被误作必需计时/火力");
+        assert(recipe.steps[0].instruction.includes("30秒") && recipe.steps[2].instruction.includes("2小时"), "不能为消除错误计时而删除来源时间或安全提示");
+        assert((await mediaPage.locator(".serving-control").innerText()).includes("4"), "实际详情没有显示来源4人份");
+      }
+      assert(await mediaPage.locator(".step-preview").count() === recipe.steps.length, `${recipe.id} 详情步骤数量不一致`);
+      for (const [index, step] of recipe.steps.entries()) {
+        const row = mediaPage.locator(".step-preview").nth(index);
+        const picture = row.locator(".step-preview-image");
+        assert(await picture.count() === (step.image ? 1 : 0), `${recipe.id} 第${index + 1}步图片缺失或误配`);
+        if (step.image) {
+          assert(await picture.getAttribute("src") === step.image, `${recipe.id} 第${index + 1}步图片路径不一致`);
+          assert(await row.locator(".step-image-link").getAttribute("href") === recipe.source, `${recipe.id} 第${index + 1}步图片来源不一致`);
+          await picture.scrollIntoViewIfNeeded();
+          await picture.evaluate((element) => element.decode());
+          assert(await picture.evaluate((element) => element.naturalWidth > 0), `${recipe.id} 第${index + 1}步图片没有真实加载`);
+        }
+      }
+      assert(await mediaPage.locator(".step-preview .image-attribution").count() === 0, `${recipe.id} 仍显示步骤图来源说明`);
+      await mediaPage.goto(`${baseUrl}#/cook/${recipe.id}`, { waitUntil: "load" });
+      for (const [index, step] of recipe.steps.entries()) {
+        await mediaPage.waitForFunction((instruction) => document.querySelector(".cook-card h1")?.textContent === instruction, step.instruction);
+        const picture = mediaPage.locator(".cook-step-image");
+        assert(await picture.count() === (step.image ? 1 : 0), `${recipe.id} 图文教程第${index + 1}步图片缺失或误配`);
+        if (step.image) {
+          assert(await picture.getAttribute("src") === step.image, `${recipe.id} 图文教程第${index + 1}步图片路径不一致`);
+          await picture.evaluate((element) => element.decode());
+          assert(await picture.evaluate((element) => element.naturalWidth > 0), `${recipe.id} 图文教程第${index + 1}步图片未加载`);
+        }
+        assert(await mediaPage.locator(".heat-control").count() === (step.heat ? 1 : 0), `${recipe.id} 第${index + 1}步火力显示无依据`);
+        assert(await mediaPage.locator(".timer-panel").count() === (step.duration > 0 ? 1 : 0), `${recipe.id} 第${index + 1}步计时器显示无依据`);
+        if (step.duration > 0) assert(Number(await mediaPage.locator('[data-action="start-timer"]').getAttribute("data-seconds")) === step.duration, `${recipe.id} 第${index + 1}步计时值错误`);
+        await mediaPage.locator('[data-action="cook-next"]').click();
+      }
+      await mediaPage.waitForSelector(".cook-done");
+      verifiedMedia.push({ id: recipe.id, steps: recipe.steps.length, stepImages: recipe.steps.filter((step) => step.image).length });
+    }
+  } finally {
+    await mediaPage.close();
+  }
+
+  await page.evaluate(() => {
+    const fixture = JSON.parse(JSON.stringify(window.YANHUO_RECIPES[0]));
+    fixture.id = "qa-step-metadata";
+    fixture.ingredients = [];
+    fixture.steps = [
+      { id: "step-01", instruction: "准备食材。", duration: null, heat: null, timerRequired: false, ingredientsUsed: [], gameAction: "confirm" },
+      { id: "step-02", instruction: "腌制半小时。", duration: 1800, heat: null, timerRequired: true, ingredientsUsed: [], gameAction: "confirm" },
+      { id: "step-03", instruction: "大火翻炒30秒。", duration: 30, heat: "high", timerRequired: false, ingredientsUsed: [], gameAction: "stir" }
+    ];
+    window.YANHUO_RECIPES.push(fixture);
+    const gameFixture = JSON.parse(JSON.stringify(fixture));
+    gameFixture.id = "qa-unknown-heat";
+    gameFixture.steps = [{ id: "step-01", instruction: "翻炒至均匀。", duration: null, heat: null, timerRequired: false, ingredientsUsed: [], gameAction: "stir" }];
+    window.YANHUO_RECIPES.push(gameFixture);
+    location.hash = "#/cook/qa-step-metadata";
+  });
+  await page.waitForFunction(() => document.querySelector(".cook-card h1")?.textContent === "准备食材。");
+  assert(await page.locator(".heat-control, .timer-panel").count() === 0, "未说明火力或时长的步骤仍显示默认火力/计时器");
+  await page.locator('[data-action="cook-next"]').click();
+  assert(await page.locator("#timer-display").innerText() === "30:00", "半小时没有显示为30分钟");
+  assert(await page.locator('[data-action="start-timer"]').getAttribute("data-seconds") === "1800", "半小时计时值错误");
+  assert(await page.locator(".heat-control").count() === 0, "腌制步骤凭空显示火力要求");
+  await page.evaluate(() => { location.hash = "#/recipe/qa-step-metadata"; });
+  await page.waitForSelector(".detail-page");
+  assert(await page.locator(".step-preview").nth(0).locator(".step-meta").count() === 0, "详情未说明的步骤仍有默认火力/时长");
+  assert((await page.locator(".step-preview").nth(2).locator(".step-meta").innerText()).includes("30 秒"), "秒数被错误显示为1分钟");
+  await page.evaluate(() => { location.hash = "#/game/qa-unknown-heat"; });
+  await page.waitForSelector(".game-action-grid");
+  assert(await page.locator(".game-heat-buttons, .game-heat-label, .game-burner").count() === 0, "无火力要求的小游戏仍有默认火力");
+  await page.locator('[data-game-action="stir"]').click();
+  await page.waitForSelector(".game-complete-page");
+
   await page.goto(`${baseUrl}#/recipe/${recipeId}`, { waitUntil: "load" });
   await page.waitForSelector(".detail-page");
   await page.screenshot({ path: "outputs/qa-html-detail-mobile.png", fullPage: true });
@@ -233,6 +401,7 @@ try {
     ok: true,
     recipes: 90,
     pantryItems: 35,
+    verifiedMedia,
     testedRoutes: ["home", "pantry", "recommendations", "recipe", "game", "cook", "shopping", "recipes", "me"],
     browserErrors: errors
   }, null, 2));

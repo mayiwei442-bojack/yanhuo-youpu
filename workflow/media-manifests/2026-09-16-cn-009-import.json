@@ -1,0 +1,94 @@
+{
+  "recipeId": "cn-009",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/3/2/c/800_32c3b877bb10a1b9140298274e8dd2bc.jpeg",
+      "repositoryPath": "assets/dishes/sources/cn-009-steamed-sea-bass/hero.jpeg",
+      "sha256": "76c879cebad8a411b50fea636bbed5dd372c89bdac0521ae1d20a23fabe60938",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 126325
+    },
+    {
+      "role": "step",
+      "stepOrder": 1,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/c/e/7/800_cee257b8f8be7a99fed2016e16b48897.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-009-steamed-sea-bass/step-01.jpg",
+      "sha256": "be7ff6eee06b22a82d394bc4a59593c12e2d70e7de1de3a32a72d25b0b476137",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 99693
+    },
+    {
+      "role": "step",
+      "stepOrder": 2,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/6/2/7/800_62edfeb94d070f6d8762a5ad1022a807.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-009-steamed-sea-bass/step-02.jpg",
+      "sha256": "ae1136f1d306c4e2a337c3ba26a7e7d181e18b7dd9a125f0de63994f77fb5e10",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 105729
+    },
+    {
+      "role": "step",
+      "stepOrder": 3,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/2/3/a/800_23fd7567bafe3734c7dbca6123a71dfa.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-009-steamed-sea-bass/step-03.jpg",
+      "sha256": "7a4a3807de3c3ea67d458ff1d176abe18f39afc11a25b7a0284ac6b937415648",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 73340
+    },
+    {
+      "role": "step",
+      "stepOrder": 4,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/1/a/4/800_1af458ac86a055f13b0c61f06e094434.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-009-steamed-sea-bass/step-04.jpg",
+      "sha256": "8b02046cdc433544a2048229278c8dc7f320be300dbdc3892a457d03f0637f4e",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 121204
+    },
+    {
+      "role": "step",
+      "stepOrder": 5,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/0/b/7/800_0bf2dd4a5fbe3d47b91f750d292c7fe7.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-009-steamed-sea-bass/step-05.jpg",
+      "sha256": "6fb762bda07cccbc7c31ba9b52ca028d4020c8701277d033a6b9a71f1b293689",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 103551
+    },
+    {
+      "role": "step",
+      "stepOrder": 6,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/1/6/e/800_16206d901e23138476f05358e3e8889e.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-009-steamed-sea-bass/step-06.jpg",
+      "sha256": "fa9c95b112e394e91c28fc3d3530403754ba19a3ba5923297bd727b048228972",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 81785
+    },
+    {
+      "role": "step",
+      "stepOrder": 7,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/1/7/c/800_178dc8fd4047d32a02dbc76850cdb7ac.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-009-steamed-sea-bass/step-07.jpg",
+      "sha256": "9aa58449ecf1568aabbdd98172583bffb44763d381c6ca3fb29fd06b544a8e3b",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 123252
+    },
+    {
+      "role": "step",
+      "stepOrder": 8,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/b/f/9/800_bf784ec6af27ddf2a904f72cbcaada19.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-009-steamed-sea-bass/step-08.jpg",
+      "sha256": "25f9c0fec24616f23839409e7c5c70e18098b98eb7a0d5cca91ee43895fd9c15",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 109841
+    }
+  ]
+}

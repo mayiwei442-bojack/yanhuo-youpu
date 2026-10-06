@@ -1,0 +1,19 @@
+{
+  "recipeId": "cn-002",
+  "authorization": "user_confirmed_2026-09-16",
+  "referer": "https://thewoksoflife.com/kung-pao-chicken/",
+  "items": [
+    { "role": "hero", "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/05/kung-pao-chicken-14.jpg", "repositoryPath": "assets/dishes/sources/cn-002-kung-pao-chicken/hero.jpg" },
+    { "role": "step", "stepOrder": 1, "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/05/kung-pao-chicken-2.jpg", "repositoryPath": "assets/dishes/sources/cn-002-kung-pao-chicken/step-01-01.jpg" },
+    { "role": "step", "stepOrder": 1, "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/05/kung-pao-chicken-3.jpg", "repositoryPath": "assets/dishes/sources/cn-002-kung-pao-chicken/step-01-02.jpg" },
+    { "role": "step", "stepOrder": 1, "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/05/kung-pao-chicken-4.jpg", "repositoryPath": "assets/dishes/sources/cn-002-kung-pao-chicken/step-01-03.jpg" },
+    { "role": "step", "stepOrder": 2, "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/04/kung-pao-chicken.jpg", "repositoryPath": "assets/dishes/sources/cn-002-kung-pao-chicken/step-02.jpg" },
+    { "role": "step", "stepOrder": 4, "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/05/kung-pao-chicken-5.jpg", "repositoryPath": "assets/dishes/sources/cn-002-kung-pao-chicken/step-04.jpg" },
+    { "role": "step", "stepOrder": 5, "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/05/kung-pao-chicken-6.jpg", "repositoryPath": "assets/dishes/sources/cn-002-kung-pao-chicken/step-05.jpg" },
+    { "role": "step", "stepOrder": 6, "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/05/kung-pao-chicken-7.jpg", "repositoryPath": "assets/dishes/sources/cn-002-kung-pao-chicken/step-06.jpg" },
+    { "role": "step", "stepOrder": 7, "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/05/kung-pao-chicken-8.jpg", "repositoryPath": "assets/dishes/sources/cn-002-kung-pao-chicken/step-07-01.jpg" },
+    { "role": "step", "stepOrder": 7, "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/05/kung-pao-chicken-11.jpg", "repositoryPath": "assets/dishes/sources/cn-002-kung-pao-chicken/step-07-02.jpg" },
+    { "role": "step", "stepOrder": 7, "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/05/kung-pao-chicken-9.jpg", "repositoryPath": "assets/dishes/sources/cn-002-kung-pao-chicken/step-07-03.jpg" },
+    { "role": "step", "stepOrder": 7, "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/05/kung-pao-chicken-12.jpg", "repositoryPath": "assets/dishes/sources/cn-002-kung-pao-chicken/step-07-04.jpg" }
+  ]
+}

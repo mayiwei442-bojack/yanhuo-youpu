@@ -1,0 +1,223 @@
+{
+  "recipeId": "cn-008",
+  "projectId": "lbvrzckkyzjbgwnconse",
+  "verifiedAt": "2026-10-05T15:18:47.593Z",
+  "status": "PASS",
+  "invalidDocumentId": "5fcc9b70-327c-47a2-8b07-05f14c7ebade",
+  "replacementDocumentId": "13d71b61-5b39-41a1-b75d-e1d019fc0ad8",
+  "reason": "误将洗手水列作食材；冷水只在拆散冷米饭时用于清洗黏手，不属于可食用原料。",
+  "mutation": {
+    "existingMetadataMerged": true,
+    "documentRowsMarked": 1,
+    "chunkRowsMarked": 6,
+    "evidenceStatus": "invalid",
+    "updatedAt": "2026-10-05T15:18:08.549143Z",
+    "documentsDeleted": 0,
+    "chunksDeleted": 0,
+    "embeddingsChanged": 0,
+    "schemaChanged": false,
+    "correctDocumentChanged": false,
+    "evidencePackageChanged": false
+  },
+  "preservation": [
+    {
+      "documentId": "5fcc9b70-327c-47a2-8b07-05f14c7ebade",
+      "contentHashBefore": "299210ee4a7436d541aeabeec939f6ba2da3bd923c425bf3e86badfcc420d587",
+      "contentHashAfter": "299210ee4a7436d541aeabeec939f6ba2da3bd923c425bf3e86badfcc420d587",
+      "chunkCountBefore": 6,
+      "chunkCountAfter": 6,
+      "invalidChunksAfter": 6,
+      "contentAndEmbeddingDigestBefore": "701ceaf5fc728c2faef0df1c00ff2fbb",
+      "contentAndEmbeddingDigestAfter": "701ceaf5fc728c2faef0df1c00ff2fbb",
+      "embeddingModel": "voyage-4",
+      "actualVectorDimensions": 1024
+    },
+    {
+      "documentId": "13d71b61-5b39-41a1-b75d-e1d019fc0ad8",
+      "contentHashBefore": "41719f3dc9354bb271e7d60d567a5aaf15b760e981860cb43cf5c3720bc20d94",
+      "contentHashAfter": "41719f3dc9354bb271e7d60d567a5aaf15b760e981860cb43cf5c3720bc20d94",
+      "chunkCountBefore": 6,
+      "chunkCountAfter": 6,
+      "invalidChunksAfter": 0,
+      "contentAndEmbeddingDigestBefore": "f5630285ac9a743c1166ef4fc78e8056",
+      "contentAndEmbeddingDigestAfter": "f5630285ac9a743c1166ef4fc78e8056",
+      "embeddingModel": "voyage-4",
+      "actualVectorDimensions": 1024,
+      "metadataUnchanged": true
+    }
+  ],
+  "digestMethod": "md5(string_agg(chunk.content_hash || ':' || md5(chunk.embedding::text), ',' order by chunk.id)); equal before/after proves no content-hash or vector mutation.",
+  "retrievalBefore": {
+    "query": "扬州炒饭 原料",
+    "recipeEntityId": "d764c850-62bb-4c70-b027-e953d74000ec",
+    "chunkTypes": [
+      "ingredients"
+    ],
+    "limit": 10,
+    "maxPerSource": 3,
+    "badDraftReturnedByBoth": true,
+    "badChunkId": "91c35ed3-7a6d-4862-ab54-2f0d8b4e40d5",
+    "badDraftSimilarity": 0.685195861590286
+  },
+  "retrievalAfter": {
+    "verifiedAt": "2026-10-05T15:18:47.593Z",
+    "recipeEntityId": "d764c850-62bb-4c70-b027-e953d74000ec",
+    "chunkTypes": [
+      "ingredients"
+    ],
+    "limit": 10,
+    "maxPerSource": 3,
+    "checks": [
+      {
+        "mode": "retrieve",
+        "query": "扬州炒饭 原料",
+        "badDraftReturned": false,
+        "correctFinalReturned": true,
+        "results": [
+          {
+            "chunkId": "266b2e4b-cb46-48f7-8418-533de615976a",
+            "documentId": "4c33307b-a444-4c42-a85d-b0ee10df0a0c",
+            "similarity": 0.697789547044981,
+            "hybridScore": null,
+            "keywordRank": null
+          },
+          {
+            "chunkId": "fae3c1b2-5f0b-4545-b87c-3708534277b5",
+            "documentId": "1309ee70-5ff3-4cf0-b9d6-58b9bd4a6d3b",
+            "similarity": 0.695184109045504,
+            "hybridScore": null,
+            "keywordRank": null
+          },
+          {
+            "chunkId": "9b4912c3-1e70-4467-93ca-cbc9b8c12620",
+            "documentId": "3f3418ae-5819-4829-8630-500cb56187a6",
+            "similarity": 0.691438156876685,
+            "hybridScore": null,
+            "keywordRank": null
+          },
+          {
+            "chunkId": "c94652f8-ff1a-4ac7-b887-5e9ae1f993bb",
+            "documentId": "13d71b61-5b39-41a1-b75d-e1d019fc0ad8",
+            "similarity": 0.684419809184695,
+            "hybridScore": null,
+            "keywordRank": null
+          }
+        ]
+      },
+      {
+        "mode": "hybridSearch",
+        "query": "扬州炒饭 原料",
+        "badDraftReturned": false,
+        "correctFinalReturned": true,
+        "results": [
+          {
+            "chunkId": "266b2e4b-cb46-48f7-8418-533de615976a",
+            "documentId": "4c33307b-a444-4c42-a85d-b0ee10df0a0c",
+            "similarity": 0.697789547044981,
+            "hybridScore": 0.0196078431372549,
+            "keywordRank": null
+          },
+          {
+            "chunkId": "fae3c1b2-5f0b-4545-b87c-3708534277b5",
+            "documentId": "1309ee70-5ff3-4cf0-b9d6-58b9bd4a6d3b",
+            "similarity": 0.695184109045504,
+            "hybridScore": 0.019230769230769232,
+            "keywordRank": null
+          },
+          {
+            "chunkId": "9b4912c3-1e70-4467-93ca-cbc9b8c12620",
+            "documentId": "3f3418ae-5819-4829-8630-500cb56187a6",
+            "similarity": 0.691438156876685,
+            "hybridScore": 0.018867924528301886,
+            "keywordRank": null
+          },
+          {
+            "chunkId": "c94652f8-ff1a-4ac7-b887-5e9ae1f993bb",
+            "documentId": "13d71b61-5b39-41a1-b75d-e1d019fc0ad8",
+            "similarity": 0.684419809184695,
+            "hybridScore": 0.018518518518518517,
+            "keywordRank": null
+          }
+        ]
+      },
+      {
+        "mode": "retrieve",
+        "query": "扬州炒饭",
+        "badDraftReturned": false,
+        "correctFinalReturned": true,
+        "results": [
+          {
+            "chunkId": "266b2e4b-cb46-48f7-8418-533de615976a",
+            "documentId": "4c33307b-a444-4c42-a85d-b0ee10df0a0c",
+            "similarity": 0.676784953687783,
+            "hybridScore": null,
+            "keywordRank": null
+          },
+          {
+            "chunkId": "fae3c1b2-5f0b-4545-b87c-3708534277b5",
+            "documentId": "1309ee70-5ff3-4cf0-b9d6-58b9bd4a6d3b",
+            "similarity": 0.649932044736392,
+            "hybridScore": null,
+            "keywordRank": null
+          },
+          {
+            "chunkId": "c94652f8-ff1a-4ac7-b887-5e9ae1f993bb",
+            "documentId": "13d71b61-5b39-41a1-b75d-e1d019fc0ad8",
+            "similarity": 0.648599225115685,
+            "hybridScore": null,
+            "keywordRank": null
+          },
+          {
+            "chunkId": "9b4912c3-1e70-4467-93ca-cbc9b8c12620",
+            "documentId": "3f3418ae-5819-4829-8630-500cb56187a6",
+            "similarity": 0.627133284082008,
+            "hybridScore": null,
+            "keywordRank": null
+          }
+        ]
+      },
+      {
+        "mode": "hybridSearch",
+        "query": "扬州炒饭",
+        "badDraftReturned": false,
+        "correctFinalReturned": true,
+        "results": [
+          {
+            "chunkId": "266b2e4b-cb46-48f7-8418-533de615976a",
+            "documentId": "4c33307b-a444-4c42-a85d-b0ee10df0a0c",
+            "similarity": 0.677021066964928,
+            "hybridScore": 0.038838612368024134,
+            "keywordRank": 2
+          },
+          {
+            "chunkId": "c94652f8-ff1a-4ac7-b887-5e9ae1f993bb",
+            "documentId": "13d71b61-5b39-41a1-b75d-e1d019fc0ad8",
+            "similarity": 0.648814895678454,
+            "hybridScore": 0.038475767665556784,
+            "keywordRank": 1
+          },
+          {
+            "chunkId": "fae3c1b2-5f0b-4545-b87c-3708534277b5",
+            "documentId": "1309ee70-5ff3-4cf0-b9d6-58b9bd4a6d3b",
+            "similarity": 0.650103428966011,
+            "hybridScore": 0.038098693759071114,
+            "keywordRank": 3
+          },
+          {
+            "chunkId": "9b4912c3-1e70-4467-93ca-cbc9b8c12620",
+            "documentId": "3f3418ae-5819-4829-8630-500cb56187a6",
+            "similarity": 0.627525802927536,
+            "hybridScore": 0.037037037037037035,
+            "keywordRank": 4
+          }
+        ]
+      }
+    ]
+  },
+  "notes": [
+    "Existing repository retrieve filters unusable chunk metadata before diversification; hybrid keyword candidates are filtered before rank merge.",
+    "Both exact same original query and an additional recipe-name query passed. The latter produced non-null keywordRank, explicitly exercising the keyword branch.",
+    "Raw match_kb_chunks RPC and direct service-role table reads still expose historical rows for audit. Formal retrieve/hybrid APIs exclude invalid metadata; no false claim that raw SQL removes historical rows.",
+    "No base, decision, selected evidence or recipe data changed by this correction audit."
+  ]
+}

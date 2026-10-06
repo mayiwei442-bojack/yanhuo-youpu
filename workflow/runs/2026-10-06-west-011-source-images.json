@@ -1,0 +1,142 @@
+{
+  "runId": "2026-10-06-west-011-source-images",
+  "recipeId": "west-011",
+  "recipeName": "意式培根蛋面",
+  "category": "western",
+  "status": "done",
+  "startedAt": "2026-10-06T11:08:51Z",
+  "completedAt": "2026-10-06T11:33:58Z",
+  "steps": {
+    "research": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "batchId": "2026-09-16-source-image-refresh-21",
+        "beforeSnapshot": "workflow/snapshots/2026-10-06-west-011-before.json",
+        "historicalEvidence": "workflow/evidence/west-011-carbonara.json",
+        "sourceConfig": "workflow/source-config.json",
+        "historicalAudit": "Old text/unit-fidelity run does not satisfy current local-image refresh batch.",
+        "agent": "research_west004_remaining5",
+        "sourceMode": "multi_source",
+        "selectedSourceUrl": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+        "evidencePath": "workflow/evidence/2026-10-06-west-011-source-images.json",
+        "evidenceSha256LF": "0447d96cab3834d97f5b94c1bf953ebbcd6da0076b2b14bcd9072c1d9987ff04",
+        "baseEvidencePath": "workflow/evidence/2026-10-06-west-011-base.json",
+        "baseEvidenceSha256LF": "19f57563aca158154b0d9f86247e85feadc3c1cac738621e7df2cb4bd6fd8822",
+        "decisionPath": "workflow/evidence-decisions/2026-10-06-west-011.json",
+        "decisionSha256LF": "3edb634f6648cf1c8623dc00bf21f8e1fec263dfb26025330ef38e1315cd0308",
+        "manifestSha256LF": "5f3400e4e90af2090aefba39024c1b6930045cacceb3f93253cd50c41b0b0ea1",
+        "qualifyingSources": 2,
+        "allQualifyingSourcesIngested": true
+      }
+    },
+    "ingestion": {
+      "status": "done",
+      "attempts": 2,
+      "details": {
+        "mediaManifestPath": "workflow/media-manifests/2026-10-06-west-011.json",
+        "mediaImportPath": "workflow/media-imports/2026-10-06-west-011.json",
+        "localImages": 5,
+        "heroImages": 1,
+        "mappedStepImages": 4,
+        "totalBytes": 537234,
+        "httpStatus": 200,
+        "imageTypeAndSha256Verified": true,
+        "orchestratorViewedAllImages": true,
+        "retrievalNote": "Direct Node fetch timed out; retry through existing local proxy succeeded without access-control bypass.",
+        "ragCorrectionAndRetrieval": "PASS",
+        "selectedDocumentId": "17a2aed3-bf61-47d1-ae2b-a38436d55521",
+        "otherQualifyingDocumentId": "b27715a8-f50c-45b0-a62a-baea36adc476",
+        "currentDocuments": 2,
+        "currentChunks": 10,
+        "supersededDocuments": 3,
+        "supersededChunks": 17,
+        "semanticResults": 10,
+        "hybridResults": 10,
+        "excludedAuditResults": 0,
+        "embeddingModel": "voyage-4",
+        "actualEmbeddingDimension": 1024,
+        "ragAuditPath": "workflow/evidence-decisions/2026-10-06-west-011.json#ragAudit"
+      }
+    },
+    "edit": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "agent": "west006_editor_resume",
+        "evidencePath": "workflow/evidence/2026-10-06-west-011-source-images.json",
+        "evidenceSha256LF": "0447d96cab3834d97f5b94c1bf953ebbcd6da0076b2b14bcd9072c1d9987ff04",
+        "targetOnlyDiff": true
+      }
+    },
+    "validator": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "resultPath": "workflow/validation-results/2026-10-06-west-011.json",
+        "ok": true,
+        "checksPassed": 10,
+        "errors": 0,
+        "htmlDemo": "PASS",
+        "browserRoutes": 9,
+        "browserErrors": 0,
+        "staticBuild": "PASS"
+      }
+    },
+    "review": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "resultPath": "workflow/reviews/2026-10-06-west-011.json",
+        "status": "PASS",
+        "evidencePackageHash": "0447d96cab3834d97f5b94c1bf953ebbcd6da0076b2b14bcd9072c1d9987ff04",
+        "validatorPassed": true,
+        "adversarialReview": {
+          "ingredientSemantics": true,
+          "stepGrammar": true,
+          "punctuation": true,
+          "renderedStructure": true
+        }
+      }
+    },
+    "build": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "deterministicResultPath": "workflow/validation-results/2026-10-06-west-011-deterministic.json",
+        "command": "npm run test:workflow:deterministic",
+        "ok": true,
+        "aiTestsRun": false,
+        "browserRoutes": 9,
+        "browserErrors": 0,
+        "staticBuild": "PASS"
+      }
+    },
+    "gitPush": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "commit": "8feb47b15d16b323e99a86d1ebb8b7cb1e73533e",
+        "branch": "codex/recipe-automation",
+        "pushed": true
+      }
+    }
+  },
+  "sources": [
+    {
+      "name": "Serious Eats",
+      "url": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+      "status": "success",
+      "failureReason": null
+    },
+    {
+      "name": "BBC Good Food",
+      "url": "https://www.bbcgoodfood.com/recipes/ultimate-spaghetti-carbonara-recipe",
+      "status": "success",
+      "failureReason": null
+    }
+  ],
+  "errors": [],
+  "branch": "codex/recipe-automation",
+  "commit": "8feb47b15d16b323e99a86d1ebb8b7cb1e73533e"
+}

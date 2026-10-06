@@ -1,0 +1,50 @@
+{
+  "recipeId": "cn-002",
+  "createdAt": "2026-09-16T04:33:09.716Z",
+  "sourceMode": "single_source",
+  "singleSourceReason": "已检查两个白名单来源。The Woks of Life 名称匹配、正文完整、内部自洽，并具备成品图及可准确映射至 6/7 个步骤的图片。豆果页面第 6 步正文为空，且步骤使用了用料表未列出的干辣椒、白胡椒粉、水淀粉和炒制用油，因此只有一个合格来源。",
+  "selectedSourceUrl": "https://thewoksoflife.com/kung-pao-chicken/",
+  "selectionReason": "The Woks of Life 保留完整原料、7个非空可执行步骤、分次用油、腌制时间、火力变化和酱汁勾芡状态；豆果候选因不完整和不自洽先行排除。",
+  "qualifyingSourceUrls": ["https://thewoksoflife.com/kung-pao-chicken/"],
+  "assessments": {
+    "https://thewoksoflife.com/kung-pao-chicken/": {
+      "qualifies": true,
+      "ingredientCoverage": "complete",
+      "stepCoverage": "complete",
+      "internalCoherence": "coherent",
+      "heroImages": 1,
+      "mappedStepImages": 6,
+      "stepImageCoverage": 0.8571428571428571,
+      "ingredientCount": 20,
+      "executableStepCount": 7,
+      "notes": ["步骤3无独立图片，按新规则保留纯文字；其他6六个步骤有同页图片。"]
+    }
+  },
+  "media": {
+    "recipePageUrl": "https://thewoksoflife.com/kung-pao-chicken/",
+    "mediaPageUrl": "https://thewoksoflife.com/kung-pao-chicken/",
+    "sourceName": "The Woks of Life",
+    "author": "Judy",
+    "rightsNotice": "All Rights Reserved © The Woks of Life",
+    "reuseLicense": null,
+    "hero": { "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/05/kung-pao-chicken-14.jpg" },
+    "steps": [
+      { "stepOrder": 1, "adjacentText": "Roast the raw peanuts over medium heat.", "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/05/kung-pao-chicken-2.jpg" },
+      { "stepOrder": 1, "adjacentText": "Stir the peanuts constantly.", "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/05/kung-pao-chicken-3.jpg" },
+      { "stepOrder": 1, "adjacentText": "Set the roasted peanuts aside to cool.", "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/05/kung-pao-chicken-4.jpg" },
+      { "stepOrder": 2, "adjacentText": "Combine chicken with marinade ingredients.", "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/04/kung-pao-chicken.jpg" },
+      { "stepOrder": 4, "adjacentText": "Sear the chicken over high heat.", "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/05/kung-pao-chicken-5.jpg" },
+      { "stepOrder": 5, "adjacentText": "Cook aromatics until fragrant.", "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/05/kung-pao-chicken-6.jpg" },
+      { "stepOrder": 6, "adjacentText": "Return chicken and add the sauce.", "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/05/kung-pao-chicken-7.jpg" },
+      { "stepOrder": 7, "adjacentText": "Finally add the peanuts.", "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/05/kung-pao-chicken-8.jpg" },
+      { "stepOrder": 7, "adjacentText": "Give everything a final stir and serve.", "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/05/kung-pao-chicken-11.jpg" },
+      { "stepOrder": 7, "adjacentText": "Finished Kung Pao Chicken.", "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/05/kung-pao-chicken-9.jpg" },
+      { "stepOrder": 7, "adjacentText": "Finished dish ready to serve.", "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/05/kung-pao-chicken-12.jpg" }
+    ]
+  },
+  "notes": [
+    "本次复用未变更的 Woks documentId=364f8d36-ac14-4fba-a1c2-19f57b0cdaf3，未重复向量化。",
+    "豆果 3047016 因空白步骤和原料表遗漏被排除，其历史 RAG 文档保留但不用于补充。",
+    "用户已确认 2026-09-16 仓库图片复制授权；运行时只用本地路径。"
+  ]
+}

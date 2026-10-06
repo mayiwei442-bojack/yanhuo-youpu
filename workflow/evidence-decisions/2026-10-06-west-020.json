@@ -1,0 +1,168 @@
+{
+  "recipeId": "west-020",
+  "recipeName": "牧羊人派",
+  "createdAt": "2026-10-06T11:54:00Z",
+  "status": "PASS",
+  "sourceMode": "multi_source",
+  "qualifyingSourceUrls": [
+    "https://www.bbcgoodfood.com/recipes/no-fuss-shepherds-pie",
+    "https://www.seriouseats.com/shepherds-pie-beef-lamb-recipe"
+  ],
+  "selectedSourceUrl": "https://www.seriouseats.com/shepherds-pie-beef-lamb-recipe",
+  "selectionReason": "两份当前独立菜谱均完整且内部自洽。Serious Eats 同样提供完整肉酱与薯泥配方，并含多张与具体步骤对应的清晰拼图，且原料和技法更详尽；按完整性优先、再比较图片与内容丰富度，整份选择 Serious Eats，不从 BBC 补原料、步骤或图片。采用该源允许的传统羊肉分支，保留8人份原配比。",
+  "assessments": {
+    "https://www.bbcgoodfood.com/recipes/no-fuss-shepherds-pie": {
+      "qualifies": true,
+      "ingredientCoverage": "complete",
+      "stepCoverage": "complete",
+      "internalCoherence": "coherent",
+      "heroImages": 1,
+      "mappedStepImages": 0,
+      "stepImageCoverage": 0,
+      "ingredientCount": 10,
+      "executableStepCount": 8,
+      "notes": [
+        "当前页面包含羊肉馅、蔬菜、土豆泥、烘烤全过程，配方完整；能确认成品图，但当前菜谱页没有对应过程图。",
+        "原料简洁、8步可执行；图片覆盖低于Serious Eats。"
+      ]
+    },
+    "https://www.seriouseats.com/shepherds-pie-beef-lamb-recipe": {
+      "qualifies": true,
+      "ingredientCoverage": "complete",
+      "stepCoverage": "complete",
+      "internalCoherence": "coherent",
+      "heroImages": 1,
+      "mappedStepImages": 5,
+      "stepImageCoverage": 0.625,
+      "ingredientCount": 22,
+      "executableStepCount": 8,
+      "notes": [
+        "当前菜谱含薯泥、肉酱、组装全部食材与完整8步，不依赖外部子菜谱；羊肉是页面明确允许且传统的选项。",
+        "选中的5张过程图逐一对应源步骤2、4、5、6、8；源步骤1、3、7没有匹配图，保持文字，不重复或串源。第8步图为烤至顶部金黄的成品状态，故对应烘烤而非入炉前组装。",
+        "页面总时间145分钟（准备15、烹饪110、静置20），8人份；明确火力、温度、阶段时长按原文保留，范围时间不硬塞单一计时器。"
+      ]
+    }
+  },
+  "media": {
+    "recipePageUrl": "https://www.seriouseats.com/shepherds-pie-beef-lamb-recipe",
+    "mediaPageUrl": "https://www.seriouseats.com/shepherds-pie-beef-lamb-recipe",
+    "sourceName": "Serious Eats",
+    "author": "Vicky Wasik",
+    "rightsNotice": "Serious Eats / Vicky Wasik",
+    "reuseLicense": null,
+    "repositoryCopyAuthorized": true,
+    "hero": {
+      "role": "hero",
+      "originalUrl": "https://www.seriouseats.com/thmb/cWyyokLX1T9Jx3pq__8v1wLcUy8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2016__10__20161012-shepherds-pie-vicky-wasik-Version-A-21-ceea33d28eb440278d297b2cf60a9f32.jpg",
+      "repositoryPath": "assets/dishes/sources/west-020-shepherds-pie/hero.webp",
+      "pageOrder": 1,
+      "author": "Vicky Wasik",
+      "recipeAuthor": "Daniel Gritzer",
+      "sourceName": "Serious Eats",
+      "rightsNotice": "Serious Eats / Vicky Wasik",
+      "reuseLicense": null,
+      "recipePageUrl": "https://www.seriouseats.com/shepherds-pie-beef-lamb-recipe",
+      "mediaPageUrl": "https://www.seriouseats.com/shepherds-pie-beef-lamb-recipe",
+      "visualVerified": true,
+      "visualReview": "完成的牧羊人派置于红色烤盘，表面金黄薯泥，切口可见羊肉馅和豌豆，确为成品图。"
+    },
+    "steps": [
+      {
+        "role": "step",
+        "originalUrl": "https://www.seriouseats.com/thmb/vb8J6GjsQQNUwKFukxcY22MfpUg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2014__11__20141113-make-ahead-mashed-potatoes-vicky-wasik-4-a47238f541dd48a2994a0b127db34397.jpg",
+        "repositoryPath": "assets/dishes/sources/west-020-shepherds-pie/step-02.webp",
+        "stepOrder": 2,
+        "sourceStepOrder": 2,
+        "pageOrder": 6,
+        "adjacentText": "Using a potato masher, food mill, or ricer, mash potatoes with butter. Press surface smooth, then press plastic wrap directly against surface to prevent a skin from forming.",
+        "author": "Vicky Wasik",
+        "recipeAuthor": "Daniel Gritzer",
+        "sourceName": "Serious Eats",
+        "rightsNotice": "Serious Eats / Vicky Wasik",
+        "reuseLicense": null,
+        "recipePageUrl": "https://www.seriouseats.com/shepherds-pie-beef-lamb-recipe",
+        "mediaPageUrl": "https://www.seriouseats.com/shepherds-pie-beef-lamb-recipe",
+        "visualVerified": true,
+        "visualReview": "碗内薯泥表面贴有保鲜膜，精确对应压平并贴膜防结皮的源步骤2。"
+      },
+      {
+        "role": "step",
+        "originalUrl": "https://www.seriouseats.com/thmb/pJs9I0eBhzEYqqvl8OK8oDtqjKM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2016__10__20161012-shepherds-pie-vicky-wasik-collage-1-16171107127f4a2f867c3c02620b1438.jpg",
+        "repositoryPath": "assets/dishes/sources/west-020-shepherds-pie/step-04.webp",
+        "stepOrder": 4,
+        "sourceStepOrder": 4,
+        "pageOrder": 7,
+        "adjacentText": "Sear half the ground meat until browned; add the remaining meat, break it into small bits, then add onion, carrots, celery, and garlic until they begin to soften.",
+        "author": "Vicky Wasik",
+        "recipeAuthor": "Daniel Gritzer",
+        "sourceName": "Serious Eats",
+        "rightsNotice": "Serious Eats / Vicky Wasik",
+        "reuseLicense": null,
+        "recipePageUrl": "https://www.seriouseats.com/shepherds-pie-beef-lamb-recipe",
+        "mediaPageUrl": "https://www.seriouseats.com/shepherds-pie-beef-lamb-recipe",
+        "visualVerified": true,
+        "visualReview": "四格拼图展示绞肉褐变、用捣泥器拨散及加入胡萝卜芹菜洋葱，匹配源步骤4。"
+      },
+      {
+        "role": "step",
+        "originalUrl": "https://www.seriouseats.com/thmb/A43eozN2u-XgEwqBpwkn6B7_h3Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2016__10__20161012-shepherds-pie-vicky-wasik-collage-2-4f3ba460995c4b1ca24798704a5ad4b9.jpg",
+        "repositoryPath": "assets/dishes/sources/west-020-shepherds-pie/step-05.webp",
+        "stepOrder": 5,
+        "sourceStepOrder": 5,
+        "pageOrder": 8,
+        "adjacentText": "Cook tomato paste, reduce wine, add stock and seasonings, thicken with flour, then stir in peas.",
+        "author": "Vicky Wasik",
+        "recipeAuthor": "Daniel Gritzer",
+        "sourceName": "Serious Eats",
+        "rightsNotice": "Serious Eats / Vicky Wasik",
+        "reuseLicense": null,
+        "recipePageUrl": "https://www.seriouseats.com/shepherds-pie-beef-lamb-recipe",
+        "mediaPageUrl": "https://www.seriouseats.com/shepherds-pie-beef-lamb-recipe",
+        "visualVerified": true,
+        "visualReview": "六格拼图显示加入番茄膏、红酒、鸡汤、伍斯特酱和面粉并熬至浓稠，匹配源步骤5。"
+      },
+      {
+        "role": "step",
+        "originalUrl": "https://www.seriouseats.com/thmb/KUGdnz6fOXyb6bIBsuIHju6ZeH8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2014__11__20141113-make-ahead-mashed-potatoes-vicky-wasik-6-df341d6476e140b6a096a046cd21ce55.jpg",
+        "repositoryPath": "assets/dishes/sources/west-020-shepherds-pie/step-06.webp",
+        "stepOrder": 6,
+        "sourceStepOrder": 6,
+        "pageOrder": 3,
+        "adjacentText": "Heat cream, fold it into the mashed potatoes, and season before assembly.",
+        "author": "Vicky Wasik",
+        "recipeAuthor": "Daniel Gritzer",
+        "sourceName": "Serious Eats",
+        "rightsNotice": "Serious Eats / Vicky Wasik",
+        "reuseLicense": null,
+        "recipePageUrl": "https://www.seriouseats.com/shepherds-pie-beef-lamb-recipe",
+        "mediaPageUrl": "https://www.seriouseats.com/shepherds-pie-beef-lamb-recipe",
+        "visualVerified": true,
+        "visualReview": "锅内刮刀正在拌合奶油与薯泥，匹配源步骤6。"
+      },
+      {
+        "role": "step",
+        "originalUrl": "https://www.seriouseats.com/thmb/6ZPC3bFKrK3xBBdbkawb0Txk5IM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2016__10__20161012-shepherds-pie-vicky-wasik-Version-A-18-34a6fde7e3d141388ffbf857713688a4.jpg",
+        "repositoryPath": "assets/dishes/sources/west-020-shepherds-pie/step-08.webp",
+        "stepOrder": 8,
+        "sourceStepOrder": 8,
+        "pageOrder": 9,
+        "adjacentText": "Bake until the top is browned and the casserole is fully heated through; this image shows the source's golden baked topping.",
+        "author": "Vicky Wasik",
+        "recipeAuthor": "Daniel Gritzer",
+        "sourceName": "Serious Eats",
+        "rightsNotice": "Serious Eats / Vicky Wasik",
+        "reuseLicense": null,
+        "recipePageUrl": "https://www.seriouseats.com/shepherds-pie-beef-lamb-recipe",
+        "mediaPageUrl": "https://www.seriouseats.com/shepherds-pie-beef-lamb-recipe",
+        "visualVerified": true,
+        "visualReview": "深金色薯泥表面已烤上色，匹配源步骤8烘烤到顶部变褐的完成状态；不映射入炉前组装。"
+      }
+    ]
+  },
+  "notes": [
+    "旧 evidence package 的两个来源均在本轮重新打开并核对当前页面；页面步骤、用料与旧 normalized evidence 一致。",
+    "RAG 实体93d9b104-e908-4c11-b32a-cab88826ebb0下两份文档已按当前 normalized_json/raw_text 再经 ingestDocument 校验：均deduplicated=true、embedded=false、无需数据库写入；Serious Eats 6 chunks、BBC 5 chunks。",
+    "实际Voyage voyage-4 / 1024维语义检索和hybrid检索各返回10条，均来自该实体下的BBC Good Food与Serious Eats两份当前文档；没有旧或无关文档。",
+    "照片作者署名 Vicky Wasik，与菜谱作者 Daniel Gritzer 区分；reuseLicense为空，仓库复制依赖用户于2026-09-16的明确授权。"
+  ]
+}

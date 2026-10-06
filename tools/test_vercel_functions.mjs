@@ -246,7 +246,9 @@ try {
     "dist/src/js/app.js",
     "dist/src/styles/app.css",
     "dist/data/recipes.js",
-    "dist/assets/dishes/thumbnails/01-fanqie-chaodan.jpg"
+    "dist/assets/dishes/thumbnails/01-fanqie-chaodan.jpg",
+    "dist/assets/dishes/howtocook/huiguo-rou/1.jpeg",
+    "dist/assets/dishes/howtocook/huiguo-rou/2.jpeg"
   ];
   for (const file of publicFiles) assert(await fileExists(resolve(file)), `Vercel 静态产物缺少 ${file}`);
 
@@ -277,7 +279,9 @@ try {
     ".vercel/output/static/src/js/app.js",
     ".vercel/output/static/src/styles/app.css",
     ".vercel/output/static/data/recipes.js",
-    ".vercel/output/static/assets/dishes/thumbnails/01-fanqie-chaodan.jpg"
+    ".vercel/output/static/assets/dishes/thumbnails/01-fanqie-chaodan.jpg",
+    ".vercel/output/static/assets/dishes/howtocook/huiguo-rou/1.jpeg",
+    ".vercel/output/static/assets/dishes/howtocook/huiguo-rou/2.jpeg"
   ];
   for (const file of outputStaticFiles) assert(await fileExists(resolve(file)), `Build Output 静态层缺少 ${file}`);
 

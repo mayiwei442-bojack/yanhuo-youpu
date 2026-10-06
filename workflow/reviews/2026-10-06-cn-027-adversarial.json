@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "独立核验同一证据包及目标记录哈希匹配。按完整性和图片覆盖排序选择豆果2292246整份来源，未混入Woks或冲突书籍细节。12项食材与17个步骤保留同源用量、顺序和状态提示，未指定油种或容器容量。逐张检查成品图及17张过程图，语义、路径、来源、授权和全部文件哈希一致；第16图对应加盖蒸制，第17图对应出锅撒葱。生成数据仅第13、16步标大火，第16步480秒落在原文5–8分钟范围，其余未知火力和时长为null；总用时为null/unspecified。现有实际Chrome验证和前端渲染逻辑支持未知控件隐藏及总时长正确展示。另行对抗审查12个分隔后食材行和全部步骤，食材身份、语法、标点、括号、分隔符及连续编号均通过。确定性验证10项及生成、浏览器测试、静态构建全部通过。",
+  "evidencePackageHash": "abf69450bedff4e8879c4ad5df9ae7c78f6578a9d40676777e250118154e0ca2",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

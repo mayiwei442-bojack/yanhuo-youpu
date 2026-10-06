@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "通过独立复审：已选 Serious Eats 的完整配方，15项食材与用量、140分钟总时长、20分钟准备、120分钟烹饪及4人份均与证据一致。复合步骤保留来源时长正文，未生成默认计时或火力；过敏原与牛高汤筛选标记正确。成品图和4张本地步骤图具有来源信息且映射准确。清水食材名干净，条件保留在标签中；步骤语法、标点及实际渲染编号均无问题。确定性校验和浏览器测试通过。",
+  "evidencePackageHash": "69aee0b2c5c533b3e856910138d81346829fa0d3cfa07873370bef54388a74c4",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

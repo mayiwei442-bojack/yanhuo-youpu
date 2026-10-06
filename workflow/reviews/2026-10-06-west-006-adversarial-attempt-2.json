@@ -1,0 +1,18 @@
+{
+  "status": "FAIL",
+  "issues": [
+    {
+      "field": "flags.containsBeef",
+      "message": "Generated metadata sets this false although the ingredient label allows homemade beef stock. A no-beef filter can therefore incorrectly include this recipe; mark the flag true or otherwise avoid the false classification."
+    }
+  ],
+  "summary": "Ingredient identity is now exactly 清水 with the 15ml/use condition preserved; generated step text contains no duplicated numeric prefixes. Source fidelity, quantities, timing, servings, timer/heat, allergens and local source-image mappings passed. The beef-stock alternative is not represented by containsBeef, so review fails pending derived-metadata correction.",
+  "evidencePackageHash": "69aee0b2c5c533b3e856910138d81346829fa0d3cfa07873370bef54388a74c4",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": false
+  }
+}

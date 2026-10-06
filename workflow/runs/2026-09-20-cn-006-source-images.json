@@ -1,0 +1,25 @@
+{
+  "runId": "2026-09-20-cn-006-source-images",
+  "recipeId": "cn-006",
+  "recipeName": "红烧肉",
+  "category": "chinese",
+  "status": "done",
+  "startedAt": "2026-09-20T00:20:00+08:00",
+  "steps": {
+    "research": { "status": "done", "attempts": 1, "details": { "sourceMode": "single_source", "selectedSourceUrl": "https://thewoksoflife.com/shanghai-style-braised-pork-belly/", "evidencePath": "workflow/evidence/2026-10-05-cn-006-source-images.json", "mediaManifestPath": "workflow/media-manifests/2026-10-05-cn-006.json" } },
+    "ingestion": { "status": "done", "attempts": 1, "details": { "reusedDocumentId": "b942e03a-0c79-4c86-97e5-4d4b2b674080", "vectorChunks": 5, "imageImportPath": "workflow/media-imports/2026-10-05-cn-006.json" } },
+    "edit": { "status": "done", "attempts": 1, "details": { "targetFile": "tools/recipe_data.mjs", "sourceUrl": "https://thewoksoflife.com/shanghai-style-braised-pork-belly/" } },
+    "validator": { "status": "done", "attempts": 2, "details": { "ok": true, "checkCount": 10, "errors": 0 } },
+    "review": { "status": "done", "attempts": 2, "details": { "status": "PASS", "artifact": "workflow/reviews/2026-10-05-cn-006-adversarial.json", "firstIssue": "第 5 步图文教程火力标记为中火；Editor 改为大火后复审通过。" } },
+    "build": { "status": "done", "attempts": 1, "details": { "suite": "npm run test:workflow:deterministic", "passed": true } },
+    "gitPush": { "status": "done", "attempts": 2, "details": { "branch": "codex/recipe-automation", "commit": "0cff918", "networkRetry": "首次直连超时，使用本机系统代理重试成功。" } }
+  },
+  "sources": [
+    { "name": "The Woks of Life", "url": "https://thewoksoflife.com/shanghai-style-braised-pork-belly/", "status": "success", "failureReason": null },
+    { "name": "豆果美食", "url": "https://www.douguo.com/cookbook/3067833.html", "status": "rejected", "failureReason": "现页原料表列有干辣椒与桂皮，但七段步骤均未说明其使用时机；现页数量与旧 RAG 摘录也有冲突。" }
+  ],
+  "errors": [],
+  "branch": "codex/recipe-automation",
+  "commit": "0cff918",
+  "completedAt": "2026-10-05T13:49:43+08:00"
+}

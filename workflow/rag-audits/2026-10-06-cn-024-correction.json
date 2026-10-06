@@ -1,0 +1,23 @@
+{
+  "recipeId": "cn-024",
+  "verifiedAt": "2026-10-05T23:15:21Z",
+  "newDocuments": [
+    { "documentId": "6d91098c-47e2-46d8-a69a-888665007aec", "sourceType": "book", "chunks": 5, "embeddingModel": "voyage-4", "actualVectorDimension": 1024, "evidenceStatus": null },
+    { "documentId": "adbd324f-5f4b-4416-b934-47dca742a5b1", "sourceType": "website", "url": "https://www.douguo.com/cookbook/1111868.html", "chunks": 5, "embeddingModel": "voyage-4", "actualVectorDimension": 1024, "evidenceStatus": null },
+    { "documentId": "ac236f83-d7be-4173-9772-eb75c9a08c2d", "sourceType": "website", "url": "https://www.douguo.com/cookbook/748055.html", "chunks": 5, "embeddingModel": "voyage-4", "actualVectorDimension": 1024, "evidenceStatus": null }
+  ],
+  "supersededDocument": {
+    "documentId": "36eb5007-72ce-4284-8cca-a4c056e0dcef",
+    "documentEvidenceStatus": "superseded",
+    "chunkEvidenceStatus": "superseded",
+    "chunksRetained": 5,
+    "replacementDocumentId": "6d91098c-47e2-46d8-a69a-888665007aec",
+    "allFiveChunkReplacementIdsVerified": true,
+    "replacementIsSameBookSource": true
+  },
+  "verification": {
+    "researcherRealRetrieval": { "query": "锅包肉", "recipeEntityId": "ccbb80d5-13bf-4446-989a-1f050016093e", "limit": 30, "maxPerSource": 30, "semanticResults": 20, "hybridResults": 20, "oldDocumentExcluded": true, "evidenceAuditLocation": "workflow/evidence/2026-10-06-cn-024-base.json notes: Retrieval audit" },
+    "rootReadOnlySql": { "chunkCountsModelsAndActualVectorDimensionsVerified": true, "documentAndChunkMetadataVerified": true, "newDocumentsAreCurrent": true, "websiteSourceIdSharedByBothDouguoAuthors": "f3b6d834-5e5f-4228-b04d-5db423e9262a", "bookSourceId": "78e1b835-4629-40f1-bbb5-b655eabc9974" }
+  },
+  "notes": ["三份完整候选文档属于两个网站/书籍来源身份，不冒称三个网站。", "Root仅核验已有数据；本次恢复未重复入库、重新embedding、删除历史数据或改表结构。", "1489279的有效部分历史资料不因未满足整份菜谱要求而标invalid。"]
+}

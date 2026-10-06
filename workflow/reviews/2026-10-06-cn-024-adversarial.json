@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "cn-024独立审查通过。证据包与目标哈希一致，仅采用大鹤子完整版本；13项食材、16步操作及分次用量忠于来源，未虚构容量、时间或火力。成品图及15张步骤图已逐张目检，文件哈希匹配，第16步保持纯文字。实际页面食材名称、标签、连续编号及句法标点通过对抗性检查；未知总时长显示、分享、卡片和筛选正确，16步均无默认火力或计时控件，页面无错误。本菜确定性验证通过。",
+  "evidencePackageHash": "3113f0be5d3f93f056460c5d058aad849351283a9c7feb5309a78a42cd417b31",
+  "validatorPassed": true,
+  "adversarialReview": { "ingredientSemantics": true, "stepGrammar": true, "punctuation": true, "renderedStructure": true }
+}

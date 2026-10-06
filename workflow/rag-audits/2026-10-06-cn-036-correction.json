@@ -1,0 +1,159 @@
+{
+  "recipeId": "cn-036",
+  "projectId": "lbvrzckkyzjbgwnconse",
+  "recipeEntityId": "45a00754-a30c-4280-90d5-073c6d61f0c0",
+  "verifiedAt": "2026-10-06T00:30:52Z",
+  "verificationMethod": "Root independent read-only Supabase SQL; grouped documents/chunks with vector_dims(c.embedding).",
+  "rows": [
+    {
+      "id": "2a4babd8-1c35-4415-9b0c-415b93640369",
+      "url": "https://www.douguo.com/cookbook/2386719.html",
+      "source_type": "website",
+      "evidence_status": null,
+      "replacement_document_id": null,
+      "chunks": 5,
+      "models": [
+        "voyage-4"
+      ],
+      "declared_dimensions": [
+        1024
+      ],
+      "actual_dimensions": [
+        1024
+      ],
+      "chunk_statuses": [
+        "current"
+      ]
+    },
+    {
+      "id": "b2ffd848-0269-4544-ae1f-8d177bea0648",
+      "url": "https://thewoksoflife.com/lotus-root-pork-soup/",
+      "source_type": "website",
+      "evidence_status": null,
+      "replacement_document_id": null,
+      "chunks": 5,
+      "models": [
+        "voyage-4"
+      ],
+      "declared_dimensions": [
+        1024
+      ],
+      "actual_dimensions": [
+        1024
+      ],
+      "chunk_statuses": [
+        "current"
+      ]
+    },
+    {
+      "id": "169fd21a-f21d-4b89-bda2-1696c39abf0d",
+      "url": "https://www.douguo.com/cookbook/3356395.html",
+      "source_type": "website",
+      "evidence_status": null,
+      "replacement_document_id": null,
+      "chunks": 5,
+      "models": [
+        "voyage-4"
+      ],
+      "declared_dimensions": [
+        1024
+      ],
+      "actual_dimensions": [
+        1024
+      ],
+      "chunk_statuses": [
+        "current"
+      ]
+    },
+    {
+      "id": "43434ec5-101c-4bf4-bf07-84a12a27bf07",
+      "url": null,
+      "source_type": "book",
+      "evidence_status": null,
+      "replacement_document_id": null,
+      "chunks": 5,
+      "models": [
+        "voyage-4"
+      ],
+      "declared_dimensions": [
+        1024
+      ],
+      "actual_dimensions": [
+        1024
+      ],
+      "chunk_statuses": [
+        "current"
+      ]
+    },
+    {
+      "id": "d6d3f275-8bf9-4743-93b0-c91f242728d8",
+      "url": "https://www.douguo.com/cookbook/3356395.html",
+      "source_type": "website",
+      "evidence_status": "superseded",
+      "replacement_document_id": "169fd21a-f21d-4b89-bda2-1696c39abf0d",
+      "chunks": 5,
+      "models": [
+        "voyage-4"
+      ],
+      "declared_dimensions": [
+        1024
+      ],
+      "actual_dimensions": [
+        1024
+      ],
+      "chunk_statuses": [
+        "superseded"
+      ]
+    },
+    {
+      "id": "d7fff61a-ba12-4324-b6fe-6f1b9967cc9c",
+      "url": null,
+      "source_type": "book",
+      "evidence_status": "superseded",
+      "replacement_document_id": "43434ec5-101c-4bf4-bf07-84a12a27bf07",
+      "chunks": 5,
+      "models": [
+        "voyage-4"
+      ],
+      "declared_dimensions": [
+        1024
+      ],
+      "actual_dimensions": [
+        1024
+      ],
+      "chunk_statuses": [
+        "superseded"
+      ]
+    }
+  ],
+  "activeDocuments": 4,
+  "activeChunks": 20,
+  "retainedSupersededDocuments": 2,
+  "retainedSupersededChunks": 10,
+  "allDeclaredAndActualDimensions": 1024,
+  "model": "voyage-4",
+  "normalRetrieval": {
+    "verificationBy": "Researcher existing semantic/hybrid server tools on exact name/entity",
+    "query": "莲藕排骨汤",
+    "semanticResults": 20,
+    "hybridResults": 20,
+    "currentDocumentCount": 4,
+    "oldDocumentResults": 0,
+    "researcherSessionId": 61911,
+    "researcherSessionExitCode": 0
+  },
+  "databaseSchemaChanged": false,
+  "rowsDeleted": false,
+  "secretsLogged": false,
+  "rawTextCorrection": {
+    "documentId": "b2ffd848-0269-4544-ae1f-8d177bea0648",
+    "verifiedAt": "2026-10-06T05:37:28Z",
+    "rootSqlRawMd5": "da09949ba991701ab1ee9051d758359f",
+    "localEvidenceRawMd5": "da09949ba991701ab1ee9051d758359f",
+    "databaseAndEvidenceMatch": true,
+    "originalEnglishExcerpt": true,
+    "contentHashUnchanged": "8a56eeb58d2b29243a8136ded169ce793389fced41905f8ea15c2f575829ac36",
+    "correctedAt": "2026-10-06T00:32:52.046Z",
+    "reEmbedded": false
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "runId": "2026-10-05-cn-007-source-images",
+  "recipeId": "cn-007",
+  "recipeName": "糖醋里脊",
+  "category": "chinese",
+  "status": "done",
+  "startedAt": "2026-10-05T14:16:06Z",
+  "steps": {
+    "research": {
+      "status": "done",
+      "attempts": 1,
+      "details": { "sourceMode": "single_source", "singleSourceReason": "豆果2343710完整匹配；Woks当前403且历史配方属于菠萝彩椒块状咕噜肉变体。", "evidencePath": "workflow/evidence/2026-10-05-cn-007-source-images.json", "selectedSourceUrl": "https://www.douguo.com/cookbook/2343710.html" }
+    },
+    "ingestion": {
+      "status": "done",
+      "attempts": 1,
+      "details": { "documentId": "75753780-69bb-43f5-b723-742ee85686d8", "vectorChunks": 5, "vectorDimension": 1024, "imageImportPath": "workflow/media-imports/2026-10-05-cn-007.json", "localImages": 20 }
+    },
+    "edit": {
+      "status": "done",
+      "attempts": 1,
+      "details": { "ingredients": 16, "steps": 19, "images": "hero + steps 1–19", "evidencePackageHash": "b0f52e030c6785df85376bd54320e796bb287186e29020dd40d274395fb1ba10" }
+    },
+    "validator": {
+      "status": "done",
+      "attempts": 2,
+      "details": { "passed": true, "targetOnly": true, "sourceChangeAllowed": true, "artifact": "workflow/validation-results/2026-10-05-cn-007.json" }
+    },
+    "review": {
+      "status": "done",
+      "attempts": 2,
+      "details": { "firstResult": "FAIL", "firstIssue": "生成器为无依据步骤补默认中火与时长，并将半小时误显示为3分钟。", "sharedRendererCorrection": "未说明值改为null并隐藏控件；半小时识别1800秒；未知火力小游戏不强制匹配。已增加元数据与真实浏览器回归，测试PASS。", "finalResult": "PASS", "artifact": "workflow/reviews/2026-10-05-cn-007-adversarial.json", "evidencePackageHash": "b0f52e030c6785df85376bd54320e796bb287186e29020dd40d274395fb1ba10" }
+    },
+    "build": {
+      "status": "done",
+      "attempts": 1,
+      "details": { "deterministicSuite": "PASS", "browserRecipes": 90, "browserRoutes": 9, "browserErrors": [], "metadataRegression": "PASS", "staticBuild": "PASS" }
+    },
+    "gitPush": {
+      "status": "done",
+      "attempts": 1,
+      "details": { "contentCommit": "39845eaf7be6e532a1ac57b0473760748c0bf918", "pushedBranch": "codex/recipe-automation", "result": "PASS" }
+    }
+  },
+  "completedAt": "2026-10-05T14:49:56Z",
+  "sources": [
+    { "name": "豆果美食", "url": "https://www.douguo.com/cookbook/2343710.html", "status": "success", "failureReason": null },
+    { "name": "The Woks of Life", "url": "https://thewoksoflife.com/sweet-and-sour-pork/", "status": "failed", "failureReason": "当前HTTP403，历史配方属于不同变体。" }
+  ],
+  "errors": [],
+  "branch": "codex/recipe-automation",
+  "commit": "39845eaf7be6e532a1ac57b0473760748c0bf918"
+}

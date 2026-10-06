@@ -29,7 +29,9 @@
 
 ## 2026-08-30 — Phase 7
 
-- The repository is already on the required long-lived `codex/recipe-automation` branch. The orchestrator runbook processes one recipe, resumes incomplete state, bounds Editor retries, stops on failure, and does not run paid chat-model tests.
+- The repository is already on the required long-lived `codex/recipe-automation` branch. The orchestrator processes and logs one recipe at a time, resumes incomplete state, bounds Editor retries, records recipe-level failure and continues the batch, and does not run paid chat-model tests. Whole-batch stop is reserved for repository integrity, shared infrastructure, commit, or push failure that prevents safe continuation.
+
+- Source selection policy updated 2026-09-16: Researcher independently ingests every new or changed qualifying source; Editor uses a single qualifying source directly or, when several exist, selects exactly one whole source by completeness/internal coherence, usable source images and coverage, executable step richness, then ingredient richness. No secondary-source supplementation is allowed. Authorized selected-source images are copied under `assets/dishes/sources/<recipe-id>-<slug>/`; runtime data uses local paths only while preserving original URLs as provenance.
 - The Spec recommends daily scheduling but gives no execution time. No desktop automation was activated without that user choice; activation remains the final operational switch after this seed batch is pushed.
 
 ## 2026-08-30 — Phase 8 / initial seed batch

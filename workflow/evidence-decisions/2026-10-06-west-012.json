@@ -1,0 +1,42 @@
+{
+  "recipeId": "west-012",
+  "recipeName": "千层面",
+  "runId": "2026-10-06-west-012-source-images",
+  "decision": "FAIL_AND_SKIP",
+  "failureCode": "NO_MAPPED_STEP_IMAGES_FOR_COMPLETE_SOURCE",
+  "selectionPolicy": [
+    "Prefer complete, internally coherent recipe sources before image coverage.",
+    "Publish one whole source; do not combine recipe content or images across sources.",
+    "At least one source-matched mapped step image is required; a hero alone does not satisfy it."
+  ],
+  "sources": [
+    {
+      "sourceName": "BBC Good Food",
+      "url": "https://www.bbcgoodfood.com/recipes/classic-italian-lasagne",
+      "enabled": true,
+      "currentPageChecked": true,
+      "recipeAssessment": "Complete and internally coherent; includes ragu ingredients and instructions, bechamel, pasta preparation, layering and baking.",
+      "mediaAssessment": "Page exposes a finished-dish hero image; no step image is present/mapped to any of its nine method steps.",
+      "qualifiesAsWholeRecipe": true,
+      "publishableUnderBatchMediaRule": false
+    },
+    {
+      "sourceName": "Serious Eats",
+      "url": "https://www.seriouseats.com/lasagna-bolognese-al-forno-recipe",
+      "enabled": true,
+      "currentPageChecked": true,
+      "recipeAssessment": "Detailed assembly recipe with process collages, but it requires 1.5 L warm ragu selected from separate recipes and does not itself give that ragu recipe; therefore not a complete single-source recipe for this batch.",
+      "mediaAssessment": "Several process images exist, but they cannot be cross-used for the complete BBC recipe.",
+      "qualifiesAsWholeRecipe": false,
+      "publishableUnderBatchMediaRule": false
+    }
+  ],
+  "finalDisposition": {
+    "canonicalRecipeChanged": false,
+    "generatedDataChangedForTarget": false,
+    "imageImportAttempted": false,
+    "ragMutation": false,
+    "reason": "No candidate simultaneously meets the whole-source completeness rule and the minimum mapped-step-image rule. BBC meets recipe completeness but has no mapped step image; Serious Eats has images but delegates the core ragu component to other recipes. Do not fabricate or cross-source images; leave existing recipe untouched and skip this recipe."
+  },
+  "checkedAt": "2026-10-06T11:40:00Z"
+}

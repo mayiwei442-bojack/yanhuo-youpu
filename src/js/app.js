@@ -233,7 +233,7 @@
       .sort((a, b) => {
         if (order[a.group] !== order[b.group]) return order[a.group] - order[b.group];
         if (b.coverage !== a.coverage) return b.coverage - a.coverage;
-        return a.recipe.time - b.recipe.time;
+        return (a.recipe.time ?? Infinity) - (b.recipe.time ?? Infinity);
       });
   }
 
@@ -579,7 +579,7 @@
       const queryMatch = !query || normalize(`${recipe.name}${recipe.en}${recipe.cuisine}${recipe.ingredients.map((item) => item.name).join("")}`).includes(query);
       const categoryMatch = ui.recipeCategory === "全部" || recipe.category === ui.recipeCategory;
       const difficultyMatch = ui.recipeDifficulty === "全部" || recipe.difficulty === ui.recipeDifficulty;
-      const timeMatch = ui.recipeTime === "全部" || recipe.time <= Number(ui.recipeTime);
+      const timeMatch = ui.recipeTime === "全部" || (recipe.time !== null && recipe.time <= Number(ui.recipeTime));
       return queryMatch && categoryMatch && difficultyMatch && timeMatch;
     });
   }
@@ -609,7 +609,7 @@
           <button class="favorite-button ${saved ? "saved" : ""}" type="button" data-action="toggle-favorite" data-id="${recipe.id}" aria-label="${saved ? "取消收藏" : "收藏"}${esc(recipe.name)}">${saved ? "♥" : "♡"}</button>
         </div>
         <div class="recipe-card-body">
-          <div class="card-meta"><span>${esc(recipe.category)} · ${esc(recipe.cuisine)}</span><span>${recipe.time} MIN</span></div>
+          <div class="card-meta"><span>${esc(recipe.category)} · ${esc(recipe.cuisine)}</span>${recipe.time !== null ? `<span>${recipe.timeBasis === "estimated" ? "约 " : ""}${recipe.time} MIN</span>` : ""}</div>
           <h3>${esc(recipe.name)}</h3>
           <div class="en-name">${esc(recipe.en)}</div>
           ${matchLine}
@@ -643,10 +643,11 @@
             <p>${esc(recipe.en)}</p>
           </div>
         </div>
+        ${recipe.media ? `<div class="image-attribution hero-attribution">图片来源：<a href="${esc(recipe.media.recipePageUrl)}" target="_blank" rel="noreferrer">${esc(recipe.media.sourceName)}${recipe.media.author ? ` · ${esc(recipe.media.author)}` : ""}</a></div>` : ""}
 
         <div class="detail-content">
           <div class="fact-row">
-            <div class="fact"><strong>${recipe.time} 分</strong><span>预计用时</span></div>
+            <div class="fact"><strong>${recipe.time !== null ? `${recipe.time} 分` : "未注明"}</strong><span>${recipe.timeBasis === "source" ? "来源总用时" : recipe.time !== null ? "预计用时" : "来源总用时"}</span></div>
             <div class="fact"><strong>${recipe.difficulty}</strong><span>烹饪难度</span></div>
             <div class="fact"><strong>${recipe.steps.length} 步</strong><span>图文教程</span></div>
           </div>
@@ -698,18 +699,35 @@
             </div>
           ` : ""}
 
-          <div class="section-head"><h2>烹饪步骤</h2><span>${recipe.steps.length} 步 · 火力已简化</span></div>
+          <div class="section-head"><h2>烹饪步骤</h2><span>${recipe.steps.length} 步</span></div>
           <div class="step-preview-list">
             ${recipe.steps.map((step, index) => `
               <div class="step-preview">
                 <span class="step-number">${String(index + 1).padStart(2, "0")}</span>
                 <span>
+                  ${step.image ? `<a class="step-image-link" href="${esc(step.imageSource)}" target="_blank" rel="noreferrer"><img class="step-preview-image" src="${esc(step.image)}" alt="${esc(recipe.name)}第 ${index + 1} 步：${esc(step.instruction)}" loading="lazy"></a>` : ""}
                   <p>${esc(step.instruction)}</p>
-                  <span class="step-meta"><b>${heatLabel(step.heat)}火</b><b>${formatDuration(step.duration)}</b>${step.timerRequired ? "<b>可计时</b>" : ""}</span>
+                  ${(step.heat || step.duration > 0) ? `<span class="step-meta">${step.heat ? `<b>${heatLabel(step.heat)}火</b>` : ""}${step.duration > 0 ? `<b>${formatDuration(step.duration)}</b>` : ""}${step.timerRequired ? "<b>可计时</b>" : ""}</span>` : ""}
                 </span>
               </div>
             `).join("")}
           </div>
+
+          ${recipe.relatedImages?.length ? `
+            <section class="recipe-image-section" aria-labelledby="recipe-image-title-${esc(id)}">
+              <div class="section-head">
+                <h2 id="recipe-image-title-${esc(id)}">图片</h2>
+                <span>${recipe.relatedImages.length} 张</span>
+              </div>
+              <div class="recipe-image-gallery">
+                ${recipe.relatedImages.map((image) => `
+                  <figure class="recipe-image-card">
+                    <img src="${esc(image.src)}" alt="${esc(image.alt)}" loading="lazy">
+                  </figure>
+                `).join("")}
+              </div>
+            </section>
+          ` : ""}
 
           <div class="sticky-action">
             <button class="secondary-button" type="button" data-action="add-shopping" data-id="${id}">加入采购清单</button>
@@ -784,15 +802,16 @@
         </div>
         <div class="cook-card">
           <div class="step-big-number">${String(index + 1).padStart(2, "0")}</div>
+          ${step.image ? `<a class="cook-step-image-link" href="${esc(step.imageSource)}" target="_blank" rel="noreferrer"><img class="cook-step-image" src="${esc(step.image)}" alt="${esc(recipe.name)}第 ${index + 1} 步：${esc(step.instruction)}"></a>` : ""}
           <h1>${esc(step.instruction)}</h1>
           ${step.safetyNote ? `<div class="cook-note">${esc(step.safetyNote)}</div>` : `<div class="cook-note">先确认上一步已经完成，再继续操作。做饭不用赶，节奏稳定更重要。</div>`}
-          <div class="heat-control" aria-label="当前建议火力">
+          ${step.heat ? `<div class="heat-control" aria-label="当前建议火力">
             ${["low", "medium", "high"].map((heat) => `<div class="heat-level ${heat} ${step.heat === heat ? "active" : ""}">${heatLabel(heat)}火</div>`).join("")}
-          </div>
-          <div class="timer-panel">
-            <span><strong id="timer-display">${formatClock(step.duration)}</strong><span>${step.timerRequired ? "这一步建议使用计时器" : "参考时长，可按实际状态调整"}</span></span>
+          </div>` : ""}
+          ${step.duration > 0 ? `<div class="timer-panel">
+            <span><strong id="timer-display">${formatClock(step.duration)}</strong><span>按步骤描述计时，结合实际状态判断</span></span>
             <button class="secondary-button" type="button" data-action="start-timer" data-seconds="${step.duration}">开始计时</button>
-          </div>
+          </div>` : ""}
         </div>
         <div class="cook-actions">
           <button class="ghost-button" style="color:white;border-color:rgba(255,255,255,.25)" type="button" data-action="cook-prev" data-id="${id}" ${index === 0 ? "disabled" : ""}>上一步</button>
@@ -840,7 +859,7 @@
     const cookingWords = /(锅|油|火|炒|煎|炸|煮|炖|焖|蒸|烤|倒入|加入|放入|出锅|盛出|收汁|定型|调味)/;
     const expanded = recipe.steps.flatMap((step) => {
       const parts = String(step.instruction || "").split(/[，；。]|后(?=[^，；。])/).map((part) => part.trim()).filter(Boolean);
-      return parts.map((instruction) => ({ ...step, instruction, duration: Math.max(15, Math.round(Number(step.duration || 60) / parts.length)) }));
+      return parts.map((instruction) => ({ ...step, instruction }));
     });
     const filtered = expanded.filter((step) => cookingWords.test(step.instruction));
     return (filtered.length ? filtered : expanded).map((step, index) => {
@@ -861,7 +880,7 @@
     if (!state.game[recipe.id]) {
       state.game[recipe.id] = {
         stepIndex: 0,
-        heat: steps[0]?.heat || "medium",
+        heat: steps[0]?.heat || null,
         attempts: 0,
         readyIngredients: [],
         completed: false,
@@ -910,17 +929,17 @@
             <div class="game-pan-wrap">
               <div class="game-steam"><i></i><i></i><i></i></div>
               <div class="game-pan"><span>${esc(action.icon)}</span></div>
-              <div class="game-burner ${session.heat}"><i></i><i></i><i></i></div>
+              ${step.heat ? `<div class="game-burner ${session.heat || ""}"><i></i><i></i><i></i></div>` : ""}
             </div>
-            <div class="game-heat-label">建议火力：<strong>${heatLabel(step.heat)}火</strong></div>
+            ${step.heat ? `<div class="game-heat-label">建议火力：<strong>${heatLabel(step.heat)}火</strong></div>` : ""}
           </div>
           <aside class="game-controls">
-            <div class="game-control-block">
+            ${step.heat ? `<div class="game-control-block">
               <span class="game-control-title">① 选择火力</span>
               <div class="game-heat-buttons">
                 ${["low", "medium", "high"].map((heat) => `<button class="${session.heat === heat ? "active" : ""}" type="button" data-action="game-heat" data-id="${id}" data-heat="${heat}">${heatLabel(heat)}火</button>`).join("")}
               </div>
-            </div>
+            </div>` : ""}
             <div class="game-control-block">
               <span class="game-control-title">② 食材托盘${step.ingredientsUsed.length ? " · 按提示选择" : ""}</span>
               <div class="game-ingredient-tray">
@@ -946,8 +965,9 @@
     const recipe = recipeById(id);
     if (!recipe || !["low", "medium", "high"].includes(heat)) return;
     const session = gameSessionFor(recipe);
-    session.heat = heat;
     const step = gameSteps(recipe)[session.stepIndex];
+    if (!step?.heat) return;
+    session.heat = heat;
     session.feedback = heat === step.heat ? `火力调到${heatLabel(heat)}火，正合适。` : `已经调到${heatLabel(heat)}火；看看提示是否需要再调整。`;
     saveState(); renderApp(true);
   }
@@ -975,7 +995,7 @@
     const steps = gameSteps(recipe);
     const session = gameSessionFor(recipe);
     const step = steps[session.stepIndex];
-    if (session.heat !== step.heat) {
+    if (step.heat && session.heat !== step.heat) {
       session.attempts += 1;
       session.feedback = `这一步更适合${heatLabel(step.heat)}火。先调整火力，我会等你。`;
       saveState(); renderApp(true); return;
@@ -1104,15 +1124,19 @@
   }
 
   function heatLabel(heat) {
-    return ({ low: "低", medium: "中", high: "高" })[heat] || "中";
+    return ({ low: "低", medium: "中", high: "高" })[heat] || "";
   }
 
   function formatDuration(seconds) {
-    if (seconds >= 3600) return `${Math.round(seconds / 3600)} 小时`;
-    return `${Math.max(1, Math.round(seconds / 60))} 分钟`;
+    if (!Number.isFinite(seconds) || seconds <= 0) return "";
+    if (seconds < 60) return `${seconds} 秒`;
+    if (seconds % 3600 === 0) return `${seconds / 3600} 小时`;
+    if (seconds % 60 === 0) return `${seconds / 60} 分钟`;
+    return `${Math.floor(seconds / 60)} 分 ${seconds % 60} 秒`;
   }
 
   function formatClock(seconds) {
+    if (!Number.isFinite(seconds) || seconds < 0) return "";
     const minutes = Math.floor(seconds / 60);
     const rest = seconds % 60;
     return `${String(minutes).padStart(2, "0")}:${String(rest).padStart(2, "0")}`;
@@ -1224,7 +1248,8 @@
   function shareRecipe(id) {
     const recipe = recipeById(id);
     if (!recipe) return;
-    const text = `${recipe.name}｜${recipe.category} · ${recipe.cuisine}\n预计 ${recipe.time} 分钟，共 ${recipe.steps.length} 步。\n来自烟火有谱。`;
+    const timeText = recipe.time === null ? "来源未注明总用时" : `${recipe.timeBasis === "source" ? "总用时" : "预计"} ${recipe.time} 分钟`;
+    const text = `${recipe.name}｜${recipe.category} · ${recipe.cuisine}\n${timeText}，共 ${recipe.steps.length} 步。\n来自烟火有谱。`;
     const url = /^https?:$/.test(location.protocol) ? `${location.origin}${location.pathname}#/recipe/${id}` : "";
     shareContent(`${recipe.name}｜烟火有谱`, text, url);
   }
@@ -1688,8 +1713,10 @@
   }
 
   function startTimer(seconds) {
+    const duration = Number(seconds);
+    if (!Number.isFinite(duration) || duration <= 0) return;
     stopTimer();
-    timerRemaining = Math.max(1, Number(seconds) || 60);
+    timerRemaining = duration;
     updateTimerDisplay();
     timerInterval = setInterval(() => {
       timerRemaining -= 1;

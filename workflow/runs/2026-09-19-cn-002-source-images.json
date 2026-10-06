@@ -1,0 +1,25 @@
+{
+  "runId": "2026-09-19-cn-002-source-images",
+  "recipeId": "cn-002",
+  "recipeName": "宫保鸡丁",
+  "category": "chinese",
+  "status": "done",
+  "startedAt": "2026-09-19T14:55:00+08:00",
+  "completedAt": "2026-09-19T15:40:44.673+08:00",
+  "steps": {
+    "research": { "status": "done", "attempts": 0, "details": { "reason": "复用已完成 evidence package 与检索结果。", "evidence": "workflow/evidence/2026-09-16-cn-002-source-images.json", "sourceMode": "single_source" } },
+    "ingestion": { "status": "done", "attempts": 0, "details": { "reason": "未变化文档复用既有 Supabase document/chunk/embedding。" } },
+    "edit": { "status": "done", "attempts": 1, "details": { "reason": "保留信源原单位：炒花生和腌鸡各 1 茶匙植物油；炒制用未指定油种 3 汤匙，步骤拆分为 2 汤匙和 1 汤匙。" } },
+    "validator": { "status": "done", "attempts": 1, "details": { "passed": true, "targetOnly": true, "allowedSourceCorrection": true } },
+    "review": { "status": "done", "attempts": 1, "details": { "status": "PASS", "artifact": "workflow/reviews/2026-09-19-cn-002-adversarial.json", "adversarialReviewPassed": true } },
+    "build": { "status": "done", "attempts": 1, "details": { "suite": "npm run test:workflow:deterministic", "passed": true } },
+    "gitPush": { "status": "done", "attempts": 1, "details": { "branch": "codex/recipe-automation", "commit": "f892dff" } }
+  },
+  "sources": [
+    { "name": "The Woks of Life", "url": "https://thewoksoflife.com/kung-pao-chicken/", "status": "success", "failureReason": null },
+    { "name": "豆果美食", "url": "https://www.douguo.com/cookbook/3047016.html", "status": "failed", "failureReason": "步骤和原料表不完整，不作主信源。" }
+  ],
+  "errors": [],
+  "branch": "codex/recipe-automation",
+  "commit": "f892dff"
+}

@@ -1,0 +1,44 @@
+{
+  "recipeId": "cn-036",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/8/b/2/960_8b7aa39fe852849a6c1d090c7be76772.jpeg",
+      "repositoryPath": "assets/dishes/sources/cn-036-lotus-rib-soup/hero.jpeg",
+      "sha256": "f8fd97d27d2b9a21f1af83be75146d8b4dad3fc69daa27c7353cc9c7711a5be6",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 290164
+    },
+    {
+      "role": "step",
+      "stepOrder": 1,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/8/9/b/800_890ec4de1dc03a845eb9b10641fe8b1b.jpeg",
+      "repositoryPath": "assets/dishes/sources/cn-036-lotus-rib-soup/step-1.jpeg",
+      "sha256": "a3f6f1ddaebab4f7ac630a9a0aacb2b15d639af78db8a5a68bed5e5a86a2c02b",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 205757
+    },
+    {
+      "role": "step",
+      "stepOrder": 2,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/9/6/9/800_961a2ea48ae0e294b2cd3d8eb4d66fc9.jpeg",
+      "repositoryPath": "assets/dishes/sources/cn-036-lotus-rib-soup/step-2.jpeg",
+      "sha256": "f31ca73faf749836d3db4e7d887a6cadb90d86f298be67fda90c2b4e62268f2e",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 203386
+    },
+    {
+      "role": "step",
+      "stepOrder": 3,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/6/6/3/800_66752cfe1707b1ba49b518014de0ea33.jpeg",
+      "repositoryPath": "assets/dishes/sources/cn-036-lotus-rib-soup/step-3.jpeg",
+      "sha256": "5d2c35757af43ed67c1f5bbe5619fa0d8fd10e4cbac193dd1f7d9540b3fe5cf3",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 200771
+    }
+  ]
+}

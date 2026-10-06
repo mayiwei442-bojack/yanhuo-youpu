@@ -1,0 +1,161 @@
+{
+  "recipeId": "cn-011",
+  "recipeName": "桂林米粉",
+  "createdAt": "2026-10-05T16:17:32.986Z",
+  "result": "FAIL",
+  "selectedSourceUrl": null,
+  "qualifyingSourceUrls": [],
+  "failureCode": "NO_COMPLETE_MATCHING_SOURCE",
+  "failureReason": "旧同名页存在关键工序/原料身份缺漏；其他公开同站候选或依赖另外菜谱，或改成鸡翅根/鸡蛋卤味、肥肠汤粉、反传统干拌等不同路线。未取得可独立执行且符合现有卤水、肉料、烫粉路线的完整单一来源，因此不可把任何候选声明complete:true，不生成伪造的schema合格成功包。",
+  "ragHistory": {
+    "exactNameFirst": true,
+    "entityId": "de5f36bc-942d-47e5-a9f0-a8694641a2f2",
+    "aliases": [
+      "正宗桂林米粉"
+    ],
+    "documents": [
+      {
+        "documentId": "1ba3785d-c85e-4baa-a741-dfce177aad15",
+        "url": "https://www.douguo.com/cookbook/2331633.html",
+        "sourceName": "豆果美食",
+        "contentHash": "ed5ab937f71b75fc26d6b71d186d6eb91d3e6602fd558e069bea926d07f26462",
+        "chunkCount": 5,
+        "embeddingModel": "voyage-4",
+        "embeddingDimension": 1024,
+        "actualVectorDimensions": [
+          1024,
+          1024,
+          1024,
+          1024,
+          1024
+        ],
+        "currentStatus": null,
+        "qualifiesForCompleteRewrite": false
+      }
+    ],
+    "bookDocuments": 0,
+    "otherMatchingDocuments": 0,
+    "semanticCount": 5,
+    "hybridCount": 5,
+    "retrievedDocumentIds": [
+      "1ba3785d-c85e-4baa-a741-dfce177aad15"
+    ],
+    "changes": "No RAG mutation or ingestion: no new/changed qualifying document. A genuinely incomplete source is not automatically an erroneous normalization; retained unchanged for audit and partial factual reference."
+  },
+  "attempts": [
+    {
+      "sourceName": "The Woks of Life",
+      "retrievalMethod": "Configured-domain exact-name web search plus reliable 2026-09-10 historical HTML/WordPress search record",
+      "queries": [
+        "site:thewoksoflife.com \"Guilin rice noodles\"",
+        "site:thewoksoflife.com Guilin"
+      ],
+      "url": "https://thewoksoflife.com/",
+      "result": "No exact-name recipe; Guilin search only Garlic Chive Stir Fry location discussion, rejected as different dish."
+    },
+    {
+      "sourceName": "豆果美食",
+      "url": "https://www.douguo.com/search/recipe/桂林米粉",
+      "httpStatus": 404,
+      "retrievalMethod": "ordinary public Node fetch",
+      "result": "Endpoint unavailable; no access-control bypass. Domain web search and public recipe related links used."
+    },
+    {
+      "sourceName": "豆果美食",
+      "url": "https://www.douguo.com/cookbook/2331633.html",
+      "httpStatus": 200,
+      "retrievalMethod": "ordinary public Node HTML; web reader Internal Error",
+      "title": "正宗桂林米粉",
+      "qualifies": false,
+      "ingredientCount": 8,
+      "sourceTextStepCount": 11,
+      "executableStepCount": 9,
+      "omissions": [
+        "卤水步骤只写加调料调味，未明确调料身份。",
+        "腌里脊未给腌料、腌制方法/时间。",
+        "白水煮肉未明确两种肉各自去向、煮制完成条件。",
+        "炸叉烧、炸锅烧未说明炸制所需油及操作火候或完成条件；锅烧仅说明复炸皮脆。",
+        "清单花生在装碗时称炸好的花生，缺炸花生准备步骤。"
+      ],
+      "timing": "仅卤水8小时以上为局部阶段，不是整道总时间。",
+      "images": {
+        "heroPresentInHTML": true,
+        "heroUrl": "https://cp1.douguo.com/upload/caiku/9/f/1/960_9f69de3a9edecb6f0ff659fa1f247681.jpg",
+        "sourceStepImageCount": 11,
+        "nonActionTextOrders": [
+          10,
+          11
+        ],
+        "pixelReviewed": false,
+        "note": "Text incomplete before media qualification; no image downloads/selection or unverifiable action mappings."
+      }
+    },
+    {
+      "sourceName": "豆果美食",
+      "url": "https://www.douguo.com/cookbook/1484491.html",
+      "httpStatus": 200,
+      "retrievalMethod": "ordinary public Node HTML; domain search indexed mobile version",
+      "title": "家庭简易版桂林米粉",
+      "qualifies": false,
+      "sourceTextStepCount": 9,
+      "omissions": [
+        "卤水原料/熬制工序未在本页给出；只写再煮开和提前一晚做好。",
+        "锅烧制作要求移步作者另一菜谱；本页不含制作路线。"
+      ],
+      "images": {
+        "heroPresentInHTML": true,
+        "sourceStepImageCount": 9,
+        "pixelReviewed": false
+      },
+      "reason": "需要合并其他页才能得到肉料和卤水完整路线，且作者自述相似度只有4成。"
+    },
+    {
+      "sourceName": "豆果美食",
+      "url": "https://www.douguo.com/cookbook/2519998.html",
+      "httpStatus": 200,
+      "retrievalMethod": "ordinary public Node HTML via related-recipe link",
+      "title": "卤味广西桂林米粉",
+      "qualifies": false,
+      "ingredientCount": 16,
+      "sourceTextStepCount": 9,
+      "omissions": [
+        "清单自家卤（或卤料）20克，步骤中没有加入该原料的明确工序。",
+        "姜汁、蒜汁在装碗时使用，清单只有姜片、蒜瓣，未说明汁液如何制备或与此前卤锅用量的关系。"
+      ],
+      "images": {
+        "heroPresentInHTML": true,
+        "sourceStepImageCount": 9,
+        "pixelReviewed": false
+      },
+      "reason": "主肉料改为卤鸡翅根和鸡蛋，与原目标叉烧、锅烧完整路线实质不同；即使允许鸡肉变体，本页卤料添加工序仍缺漏。"
+    },
+    {
+      "sourceName": "豆果美食",
+      "url": "https://www.douguo.com/cookbook/3118880.html",
+      "httpStatus": 200,
+      "followupHttpStatus": 404,
+      "retrievalMethod": "ordinary public Node HTML related-recipe link",
+      "title": "桂林米粉vs肥肠",
+      "qualifies": false,
+      "sourceTextStepCount": 3,
+      "reason": "以卤好的肥肠作现成配料，未提供卤肥肠路线，实质为不同肥肠汤粉；不得补造。"
+    },
+    {
+      "sourceName": "豆果美食",
+      "url": "https://www.douguo.com/cookbook/2412630.html",
+      "httpStatus": 200,
+      "followupHttpStatus": 404,
+      "retrievalMethod": "ordinary public Node HTML related-recipe link",
+      "title": "一碗反传统的干拌桂林米粉",
+      "qualifies": false,
+      "sourceTextStepCount": 8,
+      "reason": "作者明确反传统，以炒肉丝、火腿、酸笋干拌，不含目标卤水/叉烧/锅烧工序；不能用近似菜充数。"
+    }
+  ],
+  "notes": [
+    "Single source is allowed; failure is completeness/target route, not lack of a second source.",
+    "All candidate pages remained separate; no ingredients, times or images mixed.",
+    "No recipe, generated-data, run-log, batch-report edits; no Git command; no repository image download; no standalone chat model API.",
+    "The evidence schema requires ≥1 complete:true source, so no truthful successful evidence package can validate for this failed recipe. Orchestrator should persist recipe failed and continue the authorized batch."
+  ]
+}

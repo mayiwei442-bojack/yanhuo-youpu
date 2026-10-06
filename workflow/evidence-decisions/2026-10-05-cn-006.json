@@ -1,0 +1,63 @@
+{
+  "recipeId": "cn-006",
+  "createdAt": "2026-10-05T12:34:20+08:00",
+  "sourceMode": "single_source",
+  "singleSourceReason": "两个已启用网站均已复核。The Woks of Life 的上海式红烧肉页面明确对应红烧肉，原料与五段操作相符、工艺自洽，并有同页成品图及可准确映射到第 1、2、5 步的图片。豆果 3067833 当前页面原料表列有干辣椒和桂皮，但七段正文没有给出这两种香料的使用时机；当前食材数量也与既有 RAG 摘录不同，不能以旧摘录代替现页。按完整性和内部自洽优先的规则，豆果不列为有效候选。",
+  "selectedSourceUrl": "https://thewoksoflife.com/shanghai-style-braised-pork-belly/",
+  "selectionReason": "唯一合格来源提供五段可执行的完整做法，明确五花肉切块、焯水、低温化糖、中火煎肉、加酒和两种酱油、中火焖煮及最后收汁。成品图和三段步骤图均来自同一菜谱页面；第 3、4 步没有可靠独立配图，保留为纯文字。",
+  "qualifyingSourceUrls": [
+    "https://thewoksoflife.com/shanghai-style-braised-pork-belly/"
+  ],
+  "assessments": {
+    "https://thewoksoflife.com/shanghai-style-braised-pork-belly/": {
+      "qualifies": true,
+      "ingredientCoverage": "complete",
+      "stepCoverage": "complete",
+      "internalCoherence": "coherent",
+      "heroImages": 1,
+      "mappedStepImages": 3,
+      "stepImageCoverage": 0.6,
+      "ingredientCount": 7,
+      "executableStepCount": 5,
+      "notes": [
+        "焯肉和防干补水均来自同页正文；焯肉用水在原料卡片未单列，正式菜谱应保留原文未量化的表达。",
+        "第 3、4 步无准确对应的独立图片；不得借用成品图或豆果图片。",
+        "页面说明过程图中的肉块来自另一拍摄批次，成品照为较小方块；两者属于同一作者同一菜谱页面，厚度约 3/4 英寸。"
+      ]
+    }
+  },
+  "media": {
+    "recipePageUrl": "https://thewoksoflife.com/shanghai-style-braised-pork-belly/",
+    "mediaPageUrl": "https://thewoksoflife.com/shanghai-style-braised-pork-belly/",
+    "sourceName": "The Woks of Life",
+    "author": "Judy",
+    "rightsNotice": "All Rights Reserved © The Woks of Life",
+    "reuseLicense": null,
+    "hero": {
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2013/07/shanghai-braised-pork-belly.jpg"
+    },
+    "steps": [
+      {
+        "stepOrder": 1,
+        "adjacentText": "Cut the pork belly into 3/4-inch pieces; cover with water and boil for about 1 minute until opaque, then rinse.",
+        "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/09/hongshao-rou-shanghai-braised-pork-belly.jpg"
+      },
+      {
+        "stepOrder": 2,
+        "adjacentText": "Melt sugar in oil over low heat, add the blanched pork, raise to medium heat and brown lightly.",
+        "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/09/hongshao-rou-shanghai-braised-pork-belly-5.jpg"
+      },
+      {
+        "stepOrder": 5,
+        "adjacentText": "Turn up the heat and stir until the sauce reduces to a glistening coating on the pork.",
+        "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2013/07/hongshao-rou-3-e1570056864719.jpg"
+      }
+    ]
+  },
+  "notes": [
+    "The Woks of Life 现页和既有 RAG 文档 b942e03a-0c79-4c86-97e5-4d4b2b674080 的核心原料与五段步骤一致；可复用原文内容哈希及已有向量，待 Supabase 恢复后核验文档仍存在。",
+    "豆果 3067833 的原料表当前写五花肉 800 克、冰糖 8–10 颗、姜片 2–3 片、干辣椒 2 个和桂皮小块；旧 RAG 摘录写一斤半、十来粒、姜片 4 片、干辣椒 1 个且未列桂皮。淘汰该不完整候选，不使用其图片或步骤，也不据旧摘录编辑。",
+    "页面和所有四张选定图片在 2026-10-05 公开访问均返回 HTTP 200，图片类型为 image/jpeg。",
+    "用户已确认仓库图片复制授权；运行时只引用本地文件路径。"
+  ]
+}

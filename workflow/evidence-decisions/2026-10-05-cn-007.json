@@ -1,0 +1,246 @@
+{
+  "recipeId": "cn-007",
+  "createdAt": "2026-10-05T14:22:58.758Z",
+  "sourceMode": "single_source",
+  "singleSourceReason": "配置来源和可靠历史已检查：豆果2343710为名称匹配且完整自洽的糖醋里脊；Woks当前403，历史资料属于菠萝彩椒块状咕噜肉变体，不能替代目标菜品。",
+  "selectedSourceUrl": "https://www.douguo.com/cookbook/2343710.html",
+  "selectionReason": "唯一名称匹配且完整自洽候选，16 项原料、19 步操作和完整同页图片；保留其整套菜谱。",
+  "qualifyingSourceUrls": [
+    "https://www.douguo.com/cookbook/2343710.html"
+  ],
+  "assessments": {
+    "https://www.douguo.com/cookbook/2343710.html": {
+      "qualifies": true,
+      "ingredientCoverage": "complete",
+      "stepCoverage": "complete",
+      "internalCoherence": "coherent",
+      "heroImages": 1,
+      "mappedStepImages": 19,
+      "stepImageCoverage": 1,
+      "ingredientCount": 16,
+      "executableStepCount": 19,
+      "notes": [
+        "19 个操作步骤全有同页图片；源步骤20-21仅成品感想，不计步骤。",
+        "未标明初炸油温/火力；保持来源未量化。",
+        "米饭为配餐，非锅内原料。"
+      ]
+    }
+  },
+  "media": {
+    "recipePageUrl": "https://www.douguo.com/cookbook/2343710.html",
+    "mediaPageUrl": "https://www.douguo.com/cookbook/2343710.html",
+    "sourceName": "豆果美食",
+    "author": "青春妹m",
+    "rightsNotice": "©本菜谱的做法由 青春妹m 编写，未经授权不得转载",
+    "reuseLicense": null,
+    "repositoryCopyAuthorized": true,
+    "hero": {
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/8/f/e/800_8fb88804e4509baa10e9695fba9c3d1e.jpeg",
+      "repositoryPath": "assets/dishes/sources/cn-007-tangcu-liji/hero.jpeg",
+      "httpStatus": 200,
+      "contentType": "image/jpeg;charset=UTF-8"
+    },
+    "steps": [
+      {
+        "stepOrder": 1,
+        "sourceStepOrder": 1,
+        "pageOrder": 1,
+        "adjacentText": "里脊肉切成条",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/3/e/e/800_3ed9ae94ec212029a7115165bbbbad1e.jpeg",
+        "repositoryPath": "assets/dishes/sources/cn-007-tangcu-liji/step-1.jpeg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8"
+      },
+      {
+        "stepOrder": 2,
+        "sourceStepOrder": 2,
+        "pageOrder": 2,
+        "adjacentText": "少许盐",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/e/4/e/800_e4ef094a1012a49f690a8b36a3a7193e.jpeg",
+        "repositoryPath": "assets/dishes/sources/cn-007-tangcu-liji/step-2.jpeg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8"
+      },
+      {
+        "stepOrder": 3,
+        "sourceStepOrder": 3,
+        "pageOrder": 3,
+        "adjacentText": "少许白胡椒粉",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/7/b/6/800_7b628d70a47b25ac20b76ed5c11f3d76.jpeg",
+        "repositoryPath": "assets/dishes/sources/cn-007-tangcu-liji/step-3.jpeg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8"
+      },
+      {
+        "stepOrder": 4,
+        "sourceStepOrder": 4,
+        "pageOrder": 4,
+        "adjacentText": "一勺料酒",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/0/b/4/800_0ba33a21c7e096571d0c02b8ebbc9a84.jpeg",
+        "repositoryPath": "assets/dishes/sources/cn-007-tangcu-liji/step-4.jpeg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8"
+      },
+      {
+        "stepOrder": 5,
+        "sourceStepOrder": 5,
+        "pageOrder": 5,
+        "adjacentText": "一个鸡蛋",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/6/1/8/800_6102e2cfdb0ee878a7af35b1557082c8.jpeg",
+        "repositoryPath": "assets/dishes/sources/cn-007-tangcu-liji/step-5.jpeg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8"
+      },
+      {
+        "stepOrder": 6,
+        "sourceStepOrder": 6,
+        "pageOrder": 6,
+        "adjacentText": "一勺淀粉，搅拌均匀腌制半小时",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/6/3/a/800_63845e90d7a5a7853febabeb1b3e740a.jpeg",
+        "repositoryPath": "assets/dishes/sources/cn-007-tangcu-liji/step-6.jpeg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8"
+      },
+      {
+        "stepOrder": 7,
+        "sourceStepOrder": 7,
+        "pageOrder": 7,
+        "adjacentText": "现在做酱汁，3勺清水",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/7/2/5/800_72871c26892392b2acb3823ae6583565.jpeg",
+        "repositoryPath": "assets/dishes/sources/cn-007-tangcu-liji/step-7.jpeg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8"
+      },
+      {
+        "stepOrder": 8,
+        "sourceStepOrder": 8,
+        "pageOrder": 8,
+        "adjacentText": "2勺白醋",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/5/d/d/800_5d3f24304fc662245f5d2bffa4624ffd.jpeg",
+        "repositoryPath": "assets/dishes/sources/cn-007-tangcu-liji/step-8.jpeg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8"
+      },
+      {
+        "stepOrder": 9,
+        "sourceStepOrder": 9,
+        "pageOrder": 9,
+        "adjacentText": "1勺生抽",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/c/7/a/800_c7c0043bef3e96072485f0973a5ced9a.jpeg",
+        "repositoryPath": "assets/dishes/sources/cn-007-tangcu-liji/step-9.jpeg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8"
+      },
+      {
+        "stepOrder": 10,
+        "sourceStepOrder": 10,
+        "pageOrder": 10,
+        "adjacentText": "4勺番茄酱",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/7/0/3/800_7041b35311edad0edebe2834f904c6e3.jpeg",
+        "repositoryPath": "assets/dishes/sources/cn-007-tangcu-liji/step-10.jpeg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8"
+      },
+      {
+        "stepOrder": 11,
+        "sourceStepOrder": 11,
+        "pageOrder": 11,
+        "adjacentText": "2勺白糖",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/7/2/e/800_72265dc7d9538b97b5fcee09c15a12ee.jpeg",
+        "repositoryPath": "assets/dishes/sources/cn-007-tangcu-liji/step-11.jpeg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8"
+      },
+      {
+        "stepOrder": 12,
+        "sourceStepOrder": 12,
+        "pageOrder": 12,
+        "adjacentText": "一勺淀粉",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/3/b/7/800_3bc668fb49757d74257f145e4ed12377.jpeg",
+        "repositoryPath": "assets/dishes/sources/cn-007-tangcu-liji/step-12.jpeg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8"
+      },
+      {
+        "stepOrder": 13,
+        "sourceStepOrder": 13,
+        "pageOrder": 13,
+        "adjacentText": "搅拌均匀备用",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/8/6/f/800_86fbf696e04455b48edc031c586d5c7f.jpeg",
+        "repositoryPath": "assets/dishes/sources/cn-007-tangcu-liji/step-13.jpeg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8"
+      },
+      {
+        "stepOrder": 14,
+        "sourceStepOrder": 14,
+        "pageOrder": 14,
+        "adjacentText": "腌制好以后裹上淀粉",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/5/6/3/800_56b67cfc7dc8f5bf7bb5dd31bd926f03.jpeg",
+        "repositoryPath": "assets/dishes/sources/cn-007-tangcu-liji/step-14.jpeg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8"
+      },
+      {
+        "stepOrder": 15,
+        "sourceStepOrder": 15,
+        "pageOrder": 15,
+        "adjacentText": "锅中油烧热，放入里脊肉炸4分钟捞出",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/a/3/e/800_a3c2625fbc135dde780109fd9118fbae.jpeg",
+        "repositoryPath": "assets/dishes/sources/cn-007-tangcu-liji/step-15.jpeg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8"
+      },
+      {
+        "stepOrder": 16,
+        "sourceStepOrder": 16,
+        "pageOrder": 16,
+        "adjacentText": "再倒入锅中复炸一分钟",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/a/d/4/800_ad4b5898cc8101bcbdae5bfff3e527d4.jpeg",
+        "repositoryPath": "assets/dishes/sources/cn-007-tangcu-liji/step-16.jpeg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8"
+      },
+      {
+        "stepOrder": 17,
+        "sourceStepOrder": 17,
+        "pageOrder": 17,
+        "adjacentText": "锅中留底油，倒入酱汁，烧至冒泡关小火",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/9/4/4/800_94bc9bbeafee242641d8eb2d7e0fcd14.jpeg",
+        "repositoryPath": "assets/dishes/sources/cn-007-tangcu-liji/step-17.jpeg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8"
+      },
+      {
+        "stepOrder": 18,
+        "sourceStepOrder": 18,
+        "pageOrder": 18,
+        "adjacentText": "倒入里脊肉翻炒，让里脊肉全部裹上酱汁",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/a/1/e/800_a1eb68c011e1040fa9130bdd9b35a64e.jpeg",
+        "repositoryPath": "assets/dishes/sources/cn-007-tangcu-liji/step-18.jpeg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8"
+      },
+      {
+        "stepOrder": 19,
+        "sourceStepOrder": 19,
+        "pageOrder": 19,
+        "adjacentText": "撒上白芝麻即可",
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/3/b/1/800_3b7b3fb377c757bda55516ac0facfce1.jpeg",
+        "repositoryPath": "assets/dishes/sources/cn-007-tangcu-liji/step-19.jpeg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8"
+      }
+    ]
+  },
+  "notes": [
+    "Exact-name RAG-first lookup returned entity 4003408c-1e4b-4f37-b905-b802ed55c42e with Douguo2343710 and Woks Sweet and Sour Pork. No exact-target book document was returned.",
+    "Douguo2343710 public desktop page HTTP200; title 糖醋里脊. Same ingredient quantities and cooking operations as historical mobile document 9128467e-60d9-46e4-882a-86b77410e104; source now normalized with 19 operational rows instead of the old 8-step consolidation, retaining all original per-operation photos.",
+    "Woks current page https://thewoksoflife.com/sweet-and-sour-pork/ returned HTTP403; no bypass attempted. Exact Chinese-name site search returned no result. Historical Woks document dd89a8d7-a296-442b-8a88-6c6aac7a9ab8 is pork shoulder/tenderloin chunks with pineapple, peppers and onion; reject as materially different 咕噜肉 variant instead of combining it.",
+    "Source rows2-5 and8-12 are ingredient-addition captions; structured steps make the implied addition verbs explicit without changing any quantity or operation. Rows20-21 are finished-dish praise captions, excluded from cooking steps.",
+    "米饭一碗 is a serving accompaniment listed by the source, not added to the frying pan. Source oil适量 covers frying and retained bottom oil. No oil temperature or initial heat is specified; do not invent a temperature or initial heat.",
+    "All 勺 and 碗 units lack defined metric capacity and are preserved without conversion. 盐/淀粉/清水 group labels are structural, not extra ingredients.",
+    "All 20 selected image URLs returned HEAD200 image/jpeg. Same-page adjacent text and page order provide exact source-step mapping; no cross-source media.",
+    "Ingested normalized 19-step document 75753780-69bb-43f5-b723-742ee85686d8; verified 5 chunks, voyage-4/1024. Historical source content is coherent with current page; only normalization granularity changed."
+  ]
+}

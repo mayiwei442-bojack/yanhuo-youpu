@@ -1,0 +1,866 @@
+{
+  "recipeId": "cn-027",
+  "recipeName": "蒜蓉粉丝蒸扇贝",
+  "category": "chinese",
+  "createdAt": "2026-10-05T23:32:03.516Z",
+  "sources": [
+    {
+      "sourceName": "豆果美食",
+      "sourceType": "website",
+      "url": "https://www.douguo.com/cookbook/2292246.html",
+      "documentId": "ad33a49e-fb00-4472-bf31-4ef8cd5e90fc",
+      "retrievalMethod": "HTML正文",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "扇贝",
+          "amount": "10个",
+          "raw": "扇贝 10个",
+          "evidence": "explicit"
+        },
+        {
+          "name": "龙口粉丝",
+          "amount": "1小把",
+          "raw": "龙口粉丝 1小把",
+          "evidence": "explicit"
+        },
+        {
+          "name": "大蒜",
+          "amount": "7瓣",
+          "raw": "大蒜 7瓣",
+          "evidence": "explicit"
+        },
+        {
+          "name": "味极鲜酱油",
+          "amount": "15克",
+          "raw": "味极鲜酱油 15克",
+          "evidence": "explicit"
+        },
+        {
+          "name": "蚝油",
+          "amount": "15克",
+          "raw": "蚝油 15克",
+          "evidence": "explicit"
+        },
+        {
+          "name": "盐",
+          "amount": "适量",
+          "raw": "盐 适量",
+          "evidence": "explicit"
+        },
+        {
+          "name": "鸡精",
+          "amount": "适量",
+          "raw": "鸡精 适量",
+          "evidence": "explicit"
+        },
+        {
+          "name": "白糖",
+          "amount": "适量",
+          "raw": "白糖 适量",
+          "evidence": "explicit"
+        },
+        {
+          "name": "小米辣",
+          "amount": "2个",
+          "raw": "小米辣 2个",
+          "evidence": "explicit"
+        },
+        {
+          "name": "小葱",
+          "amount": "1根",
+          "raw": "小葱 1根",
+          "evidence": "explicit"
+        },
+        {
+          "name": "油",
+          "amount": "20克",
+          "raw": "油 20克",
+          "evidence": "explicit"
+        },
+        {
+          "name": "水",
+          "amount": null,
+          "raw": "粉丝用温水泡软备用。扇贝肉去裙边和泥肠等，过清水冲洗净，在用盐抓洗干净。上锅隔水大火加盖蒸5-8分钟即可。",
+          "evidence": "explicit"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "准备食材。",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 2,
+          "instruction": "粉丝用温水泡软备用。",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 3,
+          "instruction": "蒜切末，小米辣和小葱切圈备用。",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 4,
+          "instruction": "扇贝用刷子刷净。",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 5,
+          "instruction": "再用小刀将扇贝肉与壳分离。",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 6,
+          "instruction": "扇贝肉去裙边和泥肠等，过清水冲洗净，在用盐抓洗干净。",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 7,
+          "instruction": "扇贝壳也要刷洗干净。",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 8,
+          "instruction": "粉丝沥水捞出，用手卷一下放入扇贝壳中这样不会横七竖八的影响美观。",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 9,
+          "instruction": "放上扇贝肉。",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 10,
+          "instruction": "用味极鲜酱油，蚝油，盐，鸡精，白糖调一碗料汁，搅拌均匀，自己尝一下口味，咸淡根据个人喜好调整就行。",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 11,
+          "instruction": "锅里放点油烧热，将蒜末下锅爆出香味炒至金黄。",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 12,
+          "instruction": "倒入调好的料汁。",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 13,
+          "instruction": "大火煮开至汤汁浓郁。",
+          "duration": null,
+          "heat": "大火",
+          "evidence": "explicit"
+        },
+        {
+          "order": 14,
+          "instruction": "在扇贝肉上浇上制作好的汤汁。",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 15,
+          "instruction": "撒上小米辣圈。",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 16,
+          "instruction": "上锅隔水大火加盖蒸5-8分钟即可。",
+          "duration": "5-8分钟",
+          "heat": "大火",
+          "evidence": "explicit"
+        },
+        {
+          "order": 17,
+          "instruction": "出锅撒适量葱花。",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        }
+      ],
+      "technique": [
+        "大火",
+        "5-8分钟"
+      ],
+      "tips": [],
+      "rawExcerpt": "蒜蓉粉丝蒸扇贝\n作者：沙小囡\n扇贝 10个\n龙口粉丝 1小把\n大蒜 7瓣\n味极鲜酱油 15克\n蚝油 15克\n盐 适量\n鸡精 适量\n白糖 适量\n小米辣 2个\n小葱 1根\n油 20克\n粉丝用温水泡软备用。扇贝肉去裙边和泥肠等，过清水冲洗净，在用盐抓洗干净。上锅隔水大火加盖蒸5-8分钟即可。\n1. 准备食材。\n2. 粉丝用温水泡软备用。\n3. 蒜切末，小米辣和小葱切圈备用。\n4. 扇贝用刷子刷净。\n5. 再用小刀将扇贝肉与壳分离。\n6. 扇贝肉去裙边和泥肠等，过清水冲洗净，在用盐抓洗干净。\n7. 扇贝壳也要刷洗干净。\n8. 粉丝沥水捞出，用手卷一下放入扇贝壳中这样不会横七竖八的影响美观。\n9. 放上扇贝肉。\n10. 用味极鲜酱油，蚝油，盐，鸡精，白糖调一碗料汁，搅拌均匀，自己尝一下口味，咸淡根据个人喜好调整就行。\n11. 锅里放点油烧热，将蒜末下锅爆出香味炒至金黄。\n12. 倒入调好的料汁。\n13. 大火煮开至汤汁浓郁。\n14. 在扇贝肉上浇上制作好的汤汁。\n15. 撒上小米辣圈。\n16. 上锅隔水大火加盖蒸5-8分钟即可。\n17. 出锅撒适量葱花。\n来源展示行18：上桌啦！\n来源展示行19：烧烤的时候就喜欢经常点这个呢！ 当然啦，爱吃蒜蓉粉丝的都不会错过！",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 1,
+        "mappedStepImages": 17,
+        "stepImageCoverage": 1,
+        "ingredientCount": 12,
+        "executableStepCount": 17,
+        "notes": [
+          "原表11项；同页步骤2、6、16明确的水补为第12项，量未指定。",
+          "原步骤18、19为成品展示和宣传，不计可执行步骤或过程图。",
+          "油20克保持原量，未固定油种；没有整份总用时，5-8分钟仅蒸制阶段。"
+        ]
+      },
+      "media": {
+        "recipePageUrl": "https://www.douguo.com/cookbook/2292246.html",
+        "mediaPageUrl": "https://www.douguo.com/cookbook/2292246.html",
+        "sourceName": "豆果美食",
+        "author": "沙小囡",
+        "rightsNotice": "©本菜谱的做法由 沙小囡 编写，未经授权不得转载",
+        "reuseLicense": null,
+        "repositoryCopyAuthorized": true,
+        "hero": {
+          "originalUrl": "https://cp1.douguo.com/upload/caiku/3/e/b/960_3e0f481aebc6ee996e0e14693b8bb89b.jpg",
+          "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/hero.jpg",
+          "adjacentText": "蒜蓉粉丝蒸扇贝",
+          "pageOrder": 1,
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "recipePageUrl": "https://www.douguo.com/cookbook/2292246.html",
+          "mediaPageUrl": "https://www.douguo.com/cookbook/2292246.html",
+          "visualVerified": true
+        },
+        "steps": [
+          {
+            "stepOrder": 1,
+            "sourceStepOrder": 1,
+            "pageOrder": 2,
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/5/b/1/800_5b42634ec2b58bedd425a73b36158f01.jpg",
+            "adjacentText": "准备食材。",
+            "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/step-1.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "recipePageUrl": "https://www.douguo.com/cookbook/2292246.html",
+            "mediaPageUrl": "https://www.douguo.com/cookbook/2292246.html",
+            "visualVerified": true
+          },
+          {
+            "stepOrder": 2,
+            "sourceStepOrder": 2,
+            "pageOrder": 3,
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/1/f/c/800_1fd6c4e362e4474a540d6db72a26e5ec.jpg",
+            "adjacentText": "粉丝用温水泡软备用。",
+            "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/step-2.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "recipePageUrl": "https://www.douguo.com/cookbook/2292246.html",
+            "mediaPageUrl": "https://www.douguo.com/cookbook/2292246.html",
+            "visualVerified": true
+          },
+          {
+            "stepOrder": 3,
+            "sourceStepOrder": 3,
+            "pageOrder": 4,
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/5/a/b/800_5a973960d12202bda6b4932644136c6b.jpg",
+            "adjacentText": "蒜切末，小米辣和小葱切圈备用。",
+            "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/step-3.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "recipePageUrl": "https://www.douguo.com/cookbook/2292246.html",
+            "mediaPageUrl": "https://www.douguo.com/cookbook/2292246.html",
+            "visualVerified": true
+          },
+          {
+            "stepOrder": 4,
+            "sourceStepOrder": 4,
+            "pageOrder": 5,
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/4/0/c/800_40560493df4d1e45ec5af17fd289756c.jpg",
+            "adjacentText": "扇贝用刷子刷净。",
+            "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/step-4.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "recipePageUrl": "https://www.douguo.com/cookbook/2292246.html",
+            "mediaPageUrl": "https://www.douguo.com/cookbook/2292246.html",
+            "visualVerified": true
+          },
+          {
+            "stepOrder": 5,
+            "sourceStepOrder": 5,
+            "pageOrder": 6,
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/8/2/3/800_8275d80c827ca01170a12ac3589a67d3.jpg",
+            "adjacentText": "再用小刀将扇贝肉与壳分离。",
+            "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/step-5.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "recipePageUrl": "https://www.douguo.com/cookbook/2292246.html",
+            "mediaPageUrl": "https://www.douguo.com/cookbook/2292246.html",
+            "visualVerified": true
+          },
+          {
+            "stepOrder": 6,
+            "sourceStepOrder": 6,
+            "pageOrder": 7,
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/9/5/2/800_95e393f499167a620755a68737bc7212.jpg",
+            "adjacentText": "扇贝肉去裙边和泥肠等，过清水冲洗净，在用盐抓洗干净。",
+            "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/step-6.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "recipePageUrl": "https://www.douguo.com/cookbook/2292246.html",
+            "mediaPageUrl": "https://www.douguo.com/cookbook/2292246.html",
+            "visualVerified": true
+          },
+          {
+            "stepOrder": 7,
+            "sourceStepOrder": 7,
+            "pageOrder": 8,
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/3/f/f/800_3f843bf0383865ea677990bcfd2d01bf.jpg",
+            "adjacentText": "扇贝壳也要刷洗干净。",
+            "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/step-7.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "recipePageUrl": "https://www.douguo.com/cookbook/2292246.html",
+            "mediaPageUrl": "https://www.douguo.com/cookbook/2292246.html",
+            "visualVerified": true
+          },
+          {
+            "stepOrder": 8,
+            "sourceStepOrder": 8,
+            "pageOrder": 9,
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/4/a/4/800_4a32f3e821daf15e1a46f67c1fb37ae4.jpg",
+            "adjacentText": "粉丝沥水捞出，用手卷一下放入扇贝壳中这样不会横七竖八的影响美观。",
+            "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/step-8.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "recipePageUrl": "https://www.douguo.com/cookbook/2292246.html",
+            "mediaPageUrl": "https://www.douguo.com/cookbook/2292246.html",
+            "visualVerified": true
+          },
+          {
+            "stepOrder": 9,
+            "sourceStepOrder": 9,
+            "pageOrder": 10,
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/f/d/b/800_fd5ddaf377b10be5c0da7bfbc64e1c5b.jpg",
+            "adjacentText": "放上扇贝肉。",
+            "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/step-9.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "recipePageUrl": "https://www.douguo.com/cookbook/2292246.html",
+            "mediaPageUrl": "https://www.douguo.com/cookbook/2292246.html",
+            "visualVerified": true
+          },
+          {
+            "stepOrder": 10,
+            "sourceStepOrder": 10,
+            "pageOrder": 11,
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/9/d/2/800_9dd754894676a29c8f3c193f73ab1b02.jpg",
+            "adjacentText": "用味极鲜酱油，蚝油，盐，鸡精，白糖调一碗料汁，搅拌均匀，自己尝一下口味，咸淡根据个人喜好调整就行。",
+            "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/step-10.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "recipePageUrl": "https://www.douguo.com/cookbook/2292246.html",
+            "mediaPageUrl": "https://www.douguo.com/cookbook/2292246.html",
+            "visualVerified": true
+          },
+          {
+            "stepOrder": 11,
+            "sourceStepOrder": 11,
+            "pageOrder": 12,
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/d/9/d/800_d9a6d1a53b3f0dff93726b08a70d283d.jpg",
+            "adjacentText": "锅里放点油烧热，将蒜末下锅爆出香味炒至金黄。",
+            "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/step-11.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "recipePageUrl": "https://www.douguo.com/cookbook/2292246.html",
+            "mediaPageUrl": "https://www.douguo.com/cookbook/2292246.html",
+            "visualVerified": true
+          },
+          {
+            "stepOrder": 12,
+            "sourceStepOrder": 12,
+            "pageOrder": 13,
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/1/5/3/800_15f8e56ee80fa4205ecc090eb9fb1383.jpg",
+            "adjacentText": "倒入调好的料汁。",
+            "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/step-12.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "recipePageUrl": "https://www.douguo.com/cookbook/2292246.html",
+            "mediaPageUrl": "https://www.douguo.com/cookbook/2292246.html",
+            "visualVerified": true
+          },
+          {
+            "stepOrder": 13,
+            "sourceStepOrder": 13,
+            "pageOrder": 14,
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/c/7/6/800_c77d4031b8d7f4a7a2581888ce3296e6.jpg",
+            "adjacentText": "大火煮开至汤汁浓郁。",
+            "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/step-13.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "recipePageUrl": "https://www.douguo.com/cookbook/2292246.html",
+            "mediaPageUrl": "https://www.douguo.com/cookbook/2292246.html",
+            "visualVerified": true
+          },
+          {
+            "stepOrder": 14,
+            "sourceStepOrder": 14,
+            "pageOrder": 15,
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/a/5/3/800_a5becd603f0b15b6c8c0aa93fc885663.jpg",
+            "adjacentText": "在扇贝肉上浇上制作好的汤汁。",
+            "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/step-14.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "recipePageUrl": "https://www.douguo.com/cookbook/2292246.html",
+            "mediaPageUrl": "https://www.douguo.com/cookbook/2292246.html",
+            "visualVerified": true
+          },
+          {
+            "stepOrder": 15,
+            "sourceStepOrder": 15,
+            "pageOrder": 16,
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/3/e/8/800_3e7b7e8172c30afe7d71c2dcf1697d68.jpg",
+            "adjacentText": "撒上小米辣圈。",
+            "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/step-15.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "recipePageUrl": "https://www.douguo.com/cookbook/2292246.html",
+            "mediaPageUrl": "https://www.douguo.com/cookbook/2292246.html",
+            "visualVerified": true
+          },
+          {
+            "stepOrder": 16,
+            "sourceStepOrder": 16,
+            "pageOrder": 17,
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/7/2/7/800_7238b40457f088370515512d88692837.jpg",
+            "adjacentText": "上锅隔水大火加盖蒸5-8分钟即可。",
+            "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/step-16.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "recipePageUrl": "https://www.douguo.com/cookbook/2292246.html",
+            "mediaPageUrl": "https://www.douguo.com/cookbook/2292246.html",
+            "visualVerified": true
+          },
+          {
+            "stepOrder": 17,
+            "sourceStepOrder": 17,
+            "pageOrder": 18,
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/c/3/8/800_c3ae099a6d803013da9d58cefccd2a28.jpg",
+            "adjacentText": "出锅撒适量葱花。",
+            "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/step-17.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "recipePageUrl": "https://www.douguo.com/cookbook/2292246.html",
+            "mediaPageUrl": "https://www.douguo.com/cookbook/2292246.html",
+            "visualVerified": true
+          }
+        ]
+      }
+    },
+    {
+      "sourceName": "The Woks of Life",
+      "sourceType": "website",
+      "url": "https://thewoksoflife.com/steamed-scallops-noodles/",
+      "documentId": "a6d19544-cac1-4e56-b7eb-211a350a3136",
+      "retrievalMethod": "Public web tool complete HTML body and recipe card; direct ordinary requests 403 stopped",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "mung bean vermicelli noodles",
+          "amount": "1 bundle (50g or 1.76 ounces)",
+          "raw": "1 bundle mung bean vermicelli noodles (50g or 1.76 ounces)",
+          "evidence": "explicit"
+        },
+        {
+          "name": "garlic",
+          "amount": "2 cloves",
+          "raw": "2 cloves garlic (finely chopped)",
+          "evidence": "explicit"
+        },
+        {
+          "name": "canola oil",
+          "amount": "3 tablespoons",
+          "raw": "3 tablespoons canola oil",
+          "evidence": "explicit"
+        },
+        {
+          "name": "sea scallops",
+          "amount": "1 pound (450g)",
+          "raw": "1 pound sea scallops (450g, cleaned and rinsed)",
+          "evidence": "explicit"
+        },
+        {
+          "name": "light soy sauce",
+          "amount": "2 tablespoons",
+          "raw": "2 tablespoons light soy sauce (or seasoned soy sauce)",
+          "evidence": "explicit"
+        },
+        {
+          "name": "sugar",
+          "amount": "1/8 teaspoon",
+          "raw": "1/8 teaspoon sugar",
+          "evidence": "explicit"
+        },
+        {
+          "name": "water (for sauce)",
+          "amount": "1/3 cup",
+          "raw": "1/3 cup water",
+          "evidence": "explicit"
+        },
+        {
+          "name": "cilantro leaves",
+          "amount": "1/4 cup",
+          "raw": "1/4 cup cilantro leaves",
+          "evidence": "explicit"
+        },
+        {
+          "name": "water (for noodles, rinsing and steaming)",
+          "amount": null,
+          "raw": "Boil a small pot of water and remove from heat. Rinse with cold water and transfer to a colander to drain. Heat water in your steamer or pot/wok set up with a steamer rack until boiling and turn off the heat.",
+          "evidence": "explicit"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Boil a small pot of water and remove from heat. Immediately add the dry vermicelli noodles and let cook, stirring for 30 seconds. Rinse with cold water and transfer to a colander to drain. Set aside. This step is needed to hydrate and soften the noodles, but be careful not to overcook them!",
+          "duration": "30 seconds",
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 2,
+          "instruction": "Heat a saucepan over medium heat. Add the garlic and oil, and stir until just starting to sizzle. Remove from the heat and set aside to cool.",
+          "duration": null,
+          "heat": "medium heat",
+          "evidence": "explicit"
+        },
+        {
+          "order": 3,
+          "instruction": "If using a single shallow serving plate, spread the cooked mung bean noodles evenly. If using small dim sum style plates or scallop shells, distribute the noodles evenly (one shell/plate per scallop). Be sure that the dishes you use have enough rim to contain the sauce.",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 4,
+          "instruction": "Place the scallops on top of the mung bean vermicelli, and spoon a small amount of garlic on top of each scallop. Add 2 tablespoons of soy sauce, the sugar, 1/3 cup water to the remaining garlic and oil in your pot and bring to a simmer, stirring occasionally. Set aside.",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 5,
+          "instruction": "Heat water in your steamer or pot/wok set up with a steamer rack until boiling and turn off the heat. Carefully place the shells/plate(s) of scallops into the steamer and cover tightly. Turn the heat back up to a boil. Steam the scallops for 2 minutes if using medium or large sized scallops and 4 minutes for jumbo scallops like we used in this post.",
+          "duration": "2 minutes if medium or large; 4 minutes if jumbo",
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 6,
+          "instruction": "Immediately remove the scallops from the steamer and pour off some of the liquid if there is too much to safely transfer them. Wet scallops will release more liquid than dry scallops.",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 7,
+          "instruction": "Reheat the sauce if needed and distribute it evenly over each scallop until all the sauce is gone. Garnish with cilantro and serve hot!",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        }
+      ],
+      "technique": [
+        "Prep: 20 mins",
+        "Cook: 10 mins",
+        "Total: 30 mins",
+        "Serves: 4"
+      ],
+      "tips": [],
+      "rawExcerpt": "Steamed Scallops with Glass Noodles\nby Bill\nPrep: 20 mins\nCook: 10 mins\nTotal: 30 mins\nServes: 4\n1 bundle mung bean vermicelli noodles (50g or 1.76 ounces)\n2 cloves garlic (finely chopped)\n3 tablespoons canola oil\n1 pound sea scallops (450g, cleaned and rinsed)\n2 tablespoons light soy sauce (or seasoned soy sauce)\n1/8 teaspoon sugar\n1/3 cup water\n1/4 cup cilantro leaves\nBoil a small pot of water and remove from heat. Rinse with cold water and transfer to a colander to drain. Heat water in your steamer or pot/wok set up with a steamer rack until boiling and turn off the heat.\n1. Boil a small pot of water and remove from heat. Immediately add the dry vermicelli noodles and let cook, stirring for 30 seconds. Rinse with cold water and transfer to a colander to drain. Set aside. This step is needed to hydrate and soften the noodles, but be careful not to overcook them!\n2. Heat a saucepan over medium heat. Add the garlic and oil, and stir until just starting to sizzle. Remove from the heat and set aside to cool.\n3. If using a single shallow serving plate, spread the cooked mung bean noodles evenly. If using small dim sum style plates or scallop shells, distribute the noodles evenly (one shell/plate per scallop). Be sure that the dishes you use have enough rim to contain the sauce.\n4. Place the scallops on top of the mung bean vermicelli, and spoon a small amount of garlic on top of each scallop. Add 2 tablespoons of soy sauce, the sugar, 1/3 cup water to the remaining garlic and oil in your pot and bring to a simmer, stirring occasionally. Set aside.\n5. Heat water in your steamer or pot/wok set up with a steamer rack until boiling and turn off the heat. Carefully place the shells/plate(s) of scallops into the steamer and cover tightly. Turn the heat back up to a boil. Steam the scallops for 2 minutes if using medium or large sized scallops and 4 minutes for jumbo scallops like we used in this post.\n6. Immediately remove the scallops from the steamer and pour off some of the liquid if there is too much to safely transfer them. Wet scallops will release more liquid than dry scallops.\n7. Reheat the sauce if needed and distribute it evenly over each scallop until all the sauce is gone. Garnish with cilantro and serve hot!",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 1,
+        "mappedStepImages": 10,
+        "stepImageCoverage": 0.7142857142857143,
+        "ingredientCount": 9,
+        "executableStepCount": 7,
+        "notes": [
+          "原表8项；方法泡煮粉丝、冷水冲洗和蒸锅用水另记1项未定量过程水，不覆盖料汁1/3 cup。",
+          "10张过程图准确对应2/3/4/5/7，步骤1与6无源图。",
+          "原料表公制50g和450g优先，容器3 tablespoons、2 tablespoons、1/8 teaspoon、1/3 cup、1/4 cup不假定容量。",
+          "medium or large 2 minutes、jumbo 4 minutes是条件时长，不能压成单计时。",
+          "网站正文公开web工具完整成功；native Node和IWR普通访问403已停止不绕过，公开原图普通IWR200。"
+        ]
+      },
+      "media": {
+        "recipePageUrl": "https://thewoksoflife.com/steamed-scallops-noodles/",
+        "mediaPageUrl": "https://thewoksoflife.com/steamed-scallops-noodles/",
+        "sourceName": "The Woks of Life",
+        "author": "Bill",
+        "rightsNotice": "All Rights Reserved © The Woks of Life",
+        "reuseLicense": null,
+        "repositoryCopyAuthorized": true,
+        "hero": {
+          "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/12/steamed-scallops-11.jpg",
+          "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/woks-candidate/hero.jpg",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "pageOrder": 1,
+          "adjacentText": "Steamed Scallops with Glass Noodles",
+          "visualVerified": true
+        },
+        "steps": [
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/12/steamed-scallops-5.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/woks-candidate/step-2-1.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "stepOrder": 2,
+            "sourceStepOrder": 2,
+            "pageOrder": 3,
+            "adjacentText": "Heat a saucepan over medium heat. Add the garlic and oil, and stir until just starting to sizzle. Remove from the heat and set aside to cool.",
+            "visualDescription": "锅中蒜末与油；步骤2",
+            "visualVerified": true
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/12/steamed-scallops.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/woks-candidate/step-3-2.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "stepOrder": 3,
+            "sourceStepOrder": 3,
+            "pageOrder": 4,
+            "adjacentText": "If using a single shallow serving plate, spread the cooked mung bean noodles evenly.",
+            "visualDescription": "手将粉丝置于贝壳；步骤3",
+            "visualVerified": true
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/12/steamed-scallops-2.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/woks-candidate/step-3-3.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "stepOrder": 3,
+            "sourceStepOrder": 3,
+            "pageOrder": 5,
+            "adjacentText": "If using small dim sum style plates or scallop shells, distribute the noodles evenly (one shell/plate per scallop).",
+            "visualDescription": "贝壳内粉丝分配；步骤3",
+            "visualVerified": true
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/12/steamed-scallops-4.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/woks-candidate/step-4-4.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "stepOrder": 4,
+            "sourceStepOrder": 4,
+            "pageOrder": 6,
+            "adjacentText": "Place the scallops on top of the mung bean vermicelli, and spoon a small amount of garlic on top of each scallop.",
+            "visualDescription": "粉丝上放贝肉；步骤4前半",
+            "visualVerified": true
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/12/steamed-scallops-3.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/woks-candidate/step-4-5.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "stepOrder": 4,
+            "sourceStepOrder": 4,
+            "pageOrder": 7,
+            "adjacentText": "Place the scallops on top of the mung bean vermicelli, and spoon a small amount of garlic on top of each scallop.",
+            "visualDescription": "粉丝和贝肉局部；步骤4前半",
+            "visualVerified": true
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/12/steamed-scallops-6.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/woks-candidate/step-4-6.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "stepOrder": 4,
+            "sourceStepOrder": 4,
+            "pageOrder": 8,
+            "adjacentText": "Place the scallops on top of the mung bean vermicelli, and spoon a small amount of garlic on top of each scallop.",
+            "visualDescription": "勺子放蒜末到贝肉上；步骤4前半",
+            "visualVerified": true
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/12/steamed-scallops-7.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/woks-candidate/step-4-7.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "stepOrder": 4,
+            "sourceStepOrder": 4,
+            "pageOrder": 9,
+            "adjacentText": "Place the scallops on top of the mung bean vermicelli, and spoon a small amount of garlic on top of each scallop.",
+            "visualDescription": "蒜末加到贝肉上；步骤4前半另一视角",
+            "visualVerified": true
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/12/steamed-scallops-9.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/woks-candidate/step-4-8.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "stepOrder": 4,
+            "sourceStepOrder": 4,
+            "pageOrder": 10,
+            "adjacentText": "Add 2 tablespoons of light soy sauce or seasoned soy sauce, the sugar, 1/3 cup water to the remaining garlic and oil in your pot and bring to a simmer, stirring occasionally. Set aside.",
+            "visualDescription": "含蒜末酱汁，步骤4后半",
+            "visualVerified": true
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/12/steamed-scallops-8.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/woks-candidate/step-5-9.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "stepOrder": 5,
+            "sourceStepOrder": 5,
+            "pageOrder": 11,
+            "adjacentText": "Carefully place the shells/plate(s) of scallops into the steamer and cover tightly. Turn the heat back up to a boil.",
+            "visualDescription": "贝壳置于蒸架；步骤5",
+            "visualVerified": true
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/12/steamed-scallops-10.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/woks-candidate/step-7-10.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "stepOrder": 7,
+            "sourceStepOrder": 7,
+            "pageOrder": 12,
+            "adjacentText": "Reheat the sauce if needed and distribute it evenly over each scallop until all the sauce is gone.",
+            "visualDescription": "勺子淋调味汁到蒸好贝肉；步骤7",
+            "visualVerified": true
+          }
+        ]
+      }
+    }
+  ],
+  "sourceMode": "multi_source",
+  "selectedSourceUrl": "https://www.douguo.com/cookbook/2292246.html",
+  "selectionReason": "豆果与The Woks of Life是两个独立完整同名来源，分别保留和入库。按完整性与内部自洽、可用图片及覆盖、步骤和原料丰富度顺序比较，豆果提供17个可执行步骤和17张语义准确过程图（17/17），Woks提供7个步骤且覆盖5/7。选择豆果2292246的整套菜谱及图片。",
+  "ragEvidence": [
+    {
+      "chunkId": "1d326852-49d9-49ee-98ee-699ff94149bf",
+      "documentId": "ad33a49e-fb00-4472-bf31-4ef8cd5e90fc",
+      "sourceName": "豆果美食",
+      "chunkType": "summary",
+      "content": "菜名：蒜蓉粉丝蒸扇贝\n菜系：家常菜\n简介：蒜蓉粉丝蒸扇贝",
+      "similarity": 0.737629652023315
+    },
+    {
+      "chunkId": "8f10f807-ea68-4c46-869a-84d7db8e60ee",
+      "documentId": "ad33a49e-fb00-4472-bf31-4ef8cd5e90fc",
+      "sourceName": "豆果美食",
+      "chunkType": "ingredients",
+      "content": "菜名：蒜蓉粉丝蒸扇贝\n- 扇贝 10个\n- 龙口粉丝 1小把\n- 大蒜 7瓣\n- 味极鲜酱油 15克\n- 蚝油 15克\n- 盐 适量\n- 鸡精 适量\n- 白糖 适量\n- 小米辣 2个\n- 小葱 1根\n- 油 20克\n- 粉丝用温水泡软备用。扇贝肉去裙边和泥肠等，过清水冲洗净，在用盐抓洗干净。上锅隔水大火加盖蒸5-8分钟即可。",
+      "similarity": 0.74792206287384
+    },
+    {
+      "chunkId": "fbfeb5dd-2be3-4d23-9b63-1d9ff51f4ffe",
+      "documentId": "ad33a49e-fb00-4472-bf31-4ef8cd5e90fc",
+      "sourceName": "豆果美食",
+      "chunkType": "steps",
+      "content": "菜名：蒜蓉粉丝蒸扇贝\n1. 准备食材。\n2. 粉丝用温水泡软备用。\n3. 蒜切末，小米辣和小葱切圈备用。\n4. 扇贝用刷子刷净。\n5. 再用小刀将扇贝肉与壳分离。\n6. 扇贝肉去裙边和泥肠等，过清水冲洗净，在用盐抓洗干净。\n7. 扇贝壳也要刷洗干净。\n8. 粉丝沥水捞出，用手卷一下放入扇贝壳中这样不会横七竖八的影响美观。\n9. 放上扇贝肉。\n10. 用味极鲜酱油，蚝油，盐，鸡精，白糖调一碗料汁，搅拌均匀，自己尝一下口味，咸淡根据个人喜好调整就行。\n11. 锅里放点油烧热，将蒜末下锅爆出香味炒至金黄。\n12. 倒入调好的料汁。\n13. 大火煮开至汤汁浓郁。【大火】\n14. 在扇贝肉上浇上制作好的汤汁。\n15. 撒上小米辣圈。\n16. 上锅隔水大火加盖蒸5-8分钟即可。（5-8分钟）【大火】\n17. 出锅撒适量葱花。",
+      "similarity": 0.765708982944489
+    },
+    {
+      "chunkId": "35520ee7-a495-40a6-906b-83489c4c31f5",
+      "documentId": "ad33a49e-fb00-4472-bf31-4ef8cd5e90fc",
+      "sourceName": "豆果美食",
+      "chunkType": "technique",
+      "content": "菜名：蒜蓉粉丝蒸扇贝\n- 大火\n- 5-8分钟\n- 大火\n- 5-8分钟\n- 大火",
+      "similarity": 0.739364884476808
+    },
+    {
+      "chunkId": "5fb74979-f805-44eb-827a-ca8a1b57d639",
+      "documentId": "ad33a49e-fb00-4472-bf31-4ef8cd5e90fc",
+      "sourceName": "豆果美食",
+      "chunkType": "tips",
+      "content": "菜名：蒜蓉粉丝蒸扇贝\n- 原文未提供额外提示。",
+      "similarity": 0.71760618686676
+    },
+    {
+      "chunkId": "19323a59-50a4-4f7f-b450-232a88253b04",
+      "documentId": "a6d19544-cac1-4e56-b7eb-211a350a3136",
+      "sourceName": "The Woks of Life",
+      "chunkType": "summary",
+      "content": "菜名：蒜蓉粉丝蒸扇贝\n别名：Steamed Scallops with Glass Noodles\n菜系：Chinese\n简介：Steamed scallops with glass noodles was one of my favorite dishes when we lived in Beijing. Fresh steamed sea scallops were served with a salty-sweet soy sauce, and caramelized minced garlic over glass noodles on the half shell.",
+      "similarity": 0.74985945224762
+    },
+    {
+      "chunkId": "5c7a698b-8d89-4b80-8f81-0dcc8bd230d4",
+      "documentId": "a6d19544-cac1-4e56-b7eb-211a350a3136",
+      "sourceName": "The Woks of Life",
+      "chunkType": "ingredients",
+      "content": "菜名：蒜蓉粉丝蒸扇贝\n- 1 bundle mung bean vermicelli noodles (50g or 1.76 ounces)\n- 2 cloves garlic (finely chopped)\n- 3 tablespoons canola oil\n- 1 pound sea scallops (450g, cleaned and rinsed)\n- 2 tablespoons light soy sauce (or seasoned soy sauce)\n- 1/8 teaspoon sugar\n- 1/3 cup water\n- 1/4 cup cilantro leaves\n- Boil a small pot of water and remove from heat. Rinse with cold water and transfer to a colander to drain. Heat water in your steamer or pot/wok set up with a steamer rack until boiling and turn off the heat.",
+      "similarity": 0.748977273824545
+    },
+    {
+      "chunkId": "9532a602-f1e4-4531-affb-a559e6d82fbf",
+      "documentId": "a6d19544-cac1-4e56-b7eb-211a350a3136",
+      "sourceName": "The Woks of Life",
+      "chunkType": "steps",
+      "content": "菜名：蒜蓉粉丝蒸扇贝\n1. Boil a small pot of water and remove from heat. Immediately add the dry vermicelli noodles and let cook, stirring for 30 seconds. Rinse with cold water and transfer to a colander to drain. Set aside. This step is needed to hydrate and soften the noodles, but be careful not to overcook them!（30 seconds）\n2. Heat a saucepan over medium heat. Add the garlic and oil, and stir until just starting to sizzle. Remove from the heat and set aside to cool.【medium heat】\n3. If using a single shallow serving plate, spread the cooked mung bean noodles evenly. If using small dim sum style plates or scallop shells, distribute the noodles evenly (one shell/plate per scallop). Be sure that the dishes you use have enough rim to contain the sauce.\n4. Place the scallops on top of the mung bean vermicelli, and spoon a small amount of garlic on top of each scallop. Add 2 tablespoons of soy sauce, the sugar, 1/3 cup water to the remaining garlic and oil in your pot and bring to a simmer, stirring occasionally. Set aside.",
+      "similarity": 0.747116461568091
+    },
+    {
+      "chunkId": "92a20b2d-8a9b-4d98-af68-87b1e744037c",
+      "documentId": "a6d19544-cac1-4e56-b7eb-211a350a3136",
+      "sourceName": "The Woks of Life",
+      "chunkType": "steps",
+      "content": "菜名：蒜蓉粉丝蒸扇贝\n5. Heat water in your steamer or pot/wok set up with a steamer rack until boiling and turn off the heat. Carefully place the shells/plate(s) of scallops into the steamer and cover tightly. Turn the heat back up to a boil. Steam the scallops for 2 minutes if using medium or large sized scallops and 4 minutes for jumbo scallops like we used in this post.（2 minutes if medium or large; 4 minutes if jumbo）\n6. Immediately remove the scallops from the steamer and pour off some of the liquid if there is too much to safely transfer them. Wet scallops will release more liquid than dry scallops.\n7. Reheat the sauce if needed and distribute it evenly over each scallop until all the sauce is gone. Garnish with cilantro and serve hot!",
+      "similarity": 0.742896526205131
+    },
+    {
+      "chunkId": "8b52d9de-b02d-45e7-8801-a1dd30dda9ae",
+      "documentId": "a6d19544-cac1-4e56-b7eb-211a350a3136",
+      "sourceName": "The Woks of Life",
+      "chunkType": "technique",
+      "content": "菜名：蒜蓉粉丝蒸扇贝\n- Prep: 20 mins\n- Cook: 10 mins\n- Total: 30 mins\n- Serves: 4\n- 30 seconds\n- medium heat\n- 2 minutes if medium or large; 4 minutes if jumbo",
+      "similarity": 0.697212240016825
+    },
+    {
+      "chunkId": "562a3520-e817-4b5d-86f1-43fe40a40c0d",
+      "documentId": "a6d19544-cac1-4e56-b7eb-211a350a3136",
+      "sourceName": "The Woks of Life",
+      "chunkType": "tips",
+      "content": "菜名：蒜蓉粉丝蒸扇贝\n- 原文未提供额外提示。",
+      "similarity": 0.717867276604989
+    }
+  ],
+  "notes": [
+    "Researcher only：未修改正式菜谱、生成数据、Git、进度/批次/日志；只写本菜base evidence、decision、manifest及经授权同源RAG。",
+    "Exact KB first：实体7aef7b14-dc96-492f-b3dc-1856900f243d，当前历史书籍8754d01b-f4c1-4476-b27c-aaa16d38a0d4及豆果877b6463-7452-4645-87e7-b97154c88899。直接行读取排除evidenceStatus invalid/superseded/rejected。",
+    "历史书籍贝太厨房:从小爱吃的菜2，text00059.html#subid38，原表油35ml但方法10ml+15ml+剩余15ml=40ml，并有方法水未入原表；该冲突是原文自身冲突，不改成40ml，不把真实历史标invalid，不作为完整自洽whole source；未核得实图不能声称hero/过程图可用。",
+    "已配置两个独立网站均查：普通公开site搜索找到Woks同名对应蒜蓉/粉丝/扇贝整套方法；豆果2292246普通Node HTML fetch200，公开网页HTML 11原料19原步骤，去非操作展示18/19后17操作步骤，原方法水补入源内原料为12项，油20克种类未固定。没有尝试登录/CAPTCHA/403绕过。",
+    "Woks公开web工具完整HTML正文和recipe card成功；native Node fetch403、IWR Security Verification403已记录并停止该方式。公开图片11张正常IWR200 image/jpeg，逐图语义核验；有10过程图但只覆盖2/3/4/5/7，1/6无图。照片重复同一操作角度不伪造新步骤。",
+    "豆果hero及19原步骤图片全部IWR200 image/jpeg并临时download后view_image检查contact sheet。第18/19为成品宣传，selected只hero+1–17的18张。没有Researcher仓库图片download；Root授权导入另供本地hash。",
+    "来源的容器单位不假定容量。Woks用源明确50g与450g，3 tablespoons canola oil、2 tablespoons light soy sauce、1/8 teaspoon sugar、1/3 cup sauce water及1/4 cup cilantro leaves保留原数值单位；过程水量未给。两个source不互补量、时间、油种、提示或图。",
+    "豆果没有整份total，5-8分钟仅步骤16蒸制，不转whole total，不补开水起计或固定蒸汽沸腾火力。Woks明确整份Total30mins；其步骤5中medium/large2min、jumbo4min是条件时长，未明确某种固定火力等级，不发明默认。",
+    "独立入库完成：豆果document ad33a49e-fb00-4472-bf31-4ef8cd5e90fc，source f3b6d834-5e5f-4228-b04d-5db423e9262a，5chunks；Woks document a6d19544-cac1-4e56-b7eb-211a350a3136，6chunks。两份均新/变更并正常normalize→ingest→chunk→voyage-4 document embedding；新向量11个，全部1024维。没有额外聊天模型API。",
+    "同源更正：保留旧豆果document877b6463-7452-4645-87e7-b97154c88899及5个chunks，全部metadata evidenceStatus=superseded，replacementDocumentId=ad33a49e-fb00-4472-bf31-4ef8cd5e90fc，原因是原方法明确的水未进入原料及非操作展示旧计为步骤；未删除旧审计。",
+    "实际检索audit：query=蒜蓉粉丝蒸扇贝，recipeEntityId=7aef7b14-dc96-492f-b3dc-1856900f243d；调用正常retrieve和hybridSearch，各真实voyage-4 query embedding1个/1024维；semantic返回16，hybrid返回16；两者均返回两个当前web documents，旧877b6463…没有返回。书籍未invalid化，仍可能正常检索返回，但经人工whole-source完整自洽筛选未纳入编辑evidence。",
+    "retrievalAudit={\"query\":\"蒜蓉粉丝蒸扇贝\",\"recipeEntityId\":\"7aef7b14-dc96-492f-b3dc-1856900f243d\",\"excludedDocumentIds\":[\"877b6463-7452-4645-87e7-b97154c88899\"],\"semantic\":[{\"id\":\"7354bf82-e639-428b-882c-eaa7b6e4983c\",\"documentId\":\"8754d01b-f4c1-4476-b27c-aaa16d38a0d4\",\"chunkType\":\"steps\",\"similarity\":0.779669569711065},{\"id\":\"fbfeb5dd-2be3-4d23-9b63-1d9ff51f4ffe\",\"documentId\":\"ad33a49e-fb00-4472-bf31-4ef8cd5e90fc\",\"chunkType\":\"steps\",\"similarity\":0.765708982944489},{\"id\":\"19323a59-50a4-4f7f-b450-232a88253b04\",\"documentId\":\"a6d19544-cac1-4e56-b7eb-211a350a3136\",\"chunkType\":\"summary\",\"similarity\":0.74985945224762},{\"id\":\"5c7a698b-8d89-4b80-8f81-0dcc8bd230d4\",\"documentId\":\"a6d19544-cac1-4e56-b7eb-211a350a3136\",\"chunkType\":\"ingredients\",\"similarity\":0.748977273824545},{\"id\":\"af6a4231-c8a3-4268-8c19-9585c2380512\",\"documentId\":\"8754d01b-f4c1-4476-b27c-aaa16d38a0d4\",\"chunkType\":\"tips\",\"similarity\":0.748621128458415},{\"id\":\"8f10f807-ea68-4c46-869a-84d7db8e60ee\",\"documentId\":\"ad33a49e-fb00-4472-bf31-4ef8cd5e90fc\",\"chunkType\":\"ingredients\",\"similarity\":0.74792206287384},{\"id\":\"9532a602-f1e4-4531-affb-a559e6d82fbf\",\"documentId\":\"a6d19544-cac1-4e56-b7eb-211a350a3136\",\"chunkType\":\"steps\",\"similarity\":0.747116461568091},{\"id\":\"92a20b2d-8a9b-4d98-af68-87b1e744037c\",\"documentId\":\"a6d19544-cac1-4e56-b7eb-211a350a3136\",\"chunkType\":\"steps\",\"similarity\":0.742896526205131},{\"id\":\"f6ff6e2f-0249-4286-a7f8-790071ebb7b5\",\"documentId\":\"8754d01b-f4c1-4476-b27c-aaa16d38a0d4\",\"chunkType\":\"ingredients\",\"similarity\":0.74226301908493},{\"id\":\"35520ee7-a495-40a6-906b-83489c4c31f5\",\"documentId\":\"ad33a49e-fb00-4472-bf31-4ef8cd5e90fc\",\"chunkType\":\"technique\",\"similarity\":0.739364884476808},{\"id\":\"1d326852-49d9-49ee-98ee-699ff94149bf\",\"documentId\":\"ad33a49e-fb00-4472-bf31-4ef8cd5e90fc\",\"chunkType\":\"summary\",\"similarity\":0.737629652023315},{\"id\":\"1cc21ba9-a7c9-4e8d-a0fa-9cfa52c76b03\",\"documentId\":\"8754d01b-f4c1-4476-b27c-aaa16d38a0d4\",\"chunkType\":\"summary\",\"similarity\":0.731777548789978},{\"id\":\"562a3520-e817-4b5d-86f1-43fe40a40c0d\",\"documentId\":\"a6d19544-cac1-4e56-b7eb-211a350a3136\",\"chunkType\":\"tips\",\"similarity\":0.717867276604989},{\"id\":\"5fb74979-f805-44eb-827a-ca8a1b57d639\",\"documentId\":\"ad33a49e-fb00-4472-bf31-4ef8cd5e90fc\",\"chunkType\":\"tips\",\"similarity\":0.71760618686676},{\"id\":\"8b52d9de-b02d-45e7-8801-a1dd30dda9ae\",\"documentId\":\"a6d19544-cac1-4e56-b7eb-211a350a3136\",\"chunkType\":\"technique\",\"similarity\":0.697212240016825},{\"id\":\"25c36bf7-6568-472e-bf19-a861034e7179\",\"documentId\":\"8754d01b-f4c1-4476-b27c-aaa16d38a0d4\",\"chunkType\":\"technique\",\"similarity\":0.688056409358978}],\"hybrid\":[{\"id\":\"19323a59-50a4-4f7f-b450-232a88253b04\",\"documentId\":\"a6d19544-cac1-4e56-b7eb-211a350a3136\",\"chunkType\":\"summary\",\"hybridScore\":0.038475767665556784},{\"id\":\"fbfeb5dd-2be3-4d23-9b63-1d9ff51f4ffe\",\"documentId\":\"ad33a49e-fb00-4472-bf31-4ef8cd5e90fc\",\"chunkType\":\"steps\",\"hybridScore\":0.03677462887989204},{\"id\":\"5c7a698b-8d89-4b80-8f81-0dcc8bd230d4\",\"documentId\":\"a6d19544-cac1-4e56-b7eb-211a350a3136\",\"chunkType\":\"ingredients\",\"hybridScore\":0.036375661375661374},{\"id\":\"92a20b2d-8a9b-4d98-af68-87b1e744037c\",\"documentId\":\"a6d19544-cac1-4e56-b7eb-211a350a3136\",\"chunkType\":\"steps\",\"hybridScore\":0.035759897828863345},{\"id\":\"9532a602-f1e4-4531-affb-a559e6d82fbf\",\"documentId\":\"a6d19544-cac1-4e56-b7eb-211a350a3136\",\"chunkType\":\"steps\",\"hybridScore\":0.03572567783094099},{\"id\":\"562a3520-e817-4b5d-86f1-43fe40a40c0d\",\"documentId\":\"a6d19544-cac1-4e56-b7eb-211a350a3136\",\"chunkType\":\"tips\",\"hybridScore\":0.035103785103785104},{\"id\":\"8f10f807-ea68-4c46-869a-84d7db8e60ee\",\"documentId\":\"ad33a49e-fb00-4472-bf31-4ef8cd5e90fc\",\"chunkType\":\"ingredients\",\"hybridScore\":0.03480629539951574},{\"id\":\"7354bf82-e639-428b-882c-eaa7b6e4983c\",\"documentId\":\"8754d01b-f4c1-4476-b27c-aaa16d38a0d4\",\"chunkType\":\"steps\",\"hybridScore\":0.034759358288770054},{\"id\":\"8b52d9de-b02d-45e7-8801-a1dd30dda9ae\",\"documentId\":\"a6d19544-cac1-4e56-b7eb-211a350a3136\",\"chunkType\":\"technique\",\"hybridScore\":0.03425253991291727},{\"id\":\"af6a4231-c8a3-4268-8c19-9585c2380512\",\"documentId\":\"8754d01b-f4c1-4476-b27c-aaa16d38a0d4\",\"chunkType\":\"tips\",\"hybridScore\":0.03380681818181818},{\"id\":\"1d326852-49d9-49ee-98ee-699ff94149bf\",\"documentId\":\"ad33a49e-fb00-4472-bf31-4ef8cd5e90fc\",\"chunkType\":\"summary\",\"hybridScore\":0.033634821933295644},{\"id\":\"35520ee7-a495-40a6-906b-83489c4c31f5\",\"documentId\":\"ad33a49e-fb00-4472-bf31-4ef8cd5e90fc\",\"chunkType\":\"technique\",\"hybridScore\":0.03333333333333333},{\"id\":\"f6ff6e2f-0249-4286-a7f8-790071ebb7b5\",\"documentId\":\"8754d01b-f4c1-4476-b27c-aaa16d38a0d4\",\"chunkType\":\"ingredients\",\"hybridScore\":0.03282216841538875},{\"id\":\"1cc21ba9-a7c9-4e8d-a0fa-9cfa52c76b03\",\"documentId\":\"8754d01b-f4c1-4476-b27c-aaa16d38a0d4\",\"chunkType\":\"summary\",\"hybridScore\":0.03225806451612903},{\"id\":\"5fb74979-f805-44eb-827a-ca8a1b57d639\",\"documentId\":\"ad33a49e-fb00-4472-bf31-4ef8cd5e90fc\",\"chunkType\":\"tips\",\"hybridScore\":0.032018442622950824},{\"id\":\"25c36bf7-6568-472e-bf19-a861034e7179\",\"documentId\":\"8754d01b-f4c1-4476-b27c-aaa16d38a0d4\",\"chunkType\":\"technique\",\"hybridScore\":0.030536130536130537}],\"excludedVersionsReturned\":false,\"bothCurrentSourcesReturned\":true}",
+    "ingestionContentHashes=[{\"documentId\":\"ad33a49e-fb00-4472-bf31-4ef8cd5e90fc\",\"contentHash\":\"076157a454b7b8d533d8a98163fcff57eeb72e60533d6d1a4d793d753830cf40\",\"chunks\":5,\"deduplicated\":false,\"embedded\":true},{\"documentId\":\"a6d19544-cac1-4e56-b7eb-211a350a3136\",\"contentHash\":\"66fd4b148cee9b8ee01c0cefb8480ba56eb5b52a3028cc3ec92364262e1f14cd\",\"chunks\":6,\"deduplicated\":false,\"embedded\":true}]",
+    "最终选择豆果whole source，不能借用Woks30min总时间、香菜或不同的蒸制条件；其水只来自同页方法，源未写量保守展示。"
+  ]
+}

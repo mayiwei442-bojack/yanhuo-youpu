@@ -1,0 +1,119 @@
+{
+  "recipeId": "west-004",
+  "recipeEntityId": "b56871a9-b7a5-43bd-befe-ec7a601ef95d",
+  "verifiedAt": "2026-10-06T06:39:16Z",
+  "method": "Orchestrator independent read-only Supabase SQL: document/chunk metadata, raw MD5, vector_dims",
+  "selectedDocumentId": "3b2ce1c5-754a-41ef-a9c0-ba80ad92e157",
+  "activeDocuments": 1,
+  "activeChunks": 5,
+  "auditOnlyDocuments": 3,
+  "auditOnlyChunks": 15,
+  "totalChunks": 20,
+  "allActualVectorDimensions": 1024,
+  "allEmbeddingModels": "voyage-4",
+  "selectedRawExcerptMatchesDatabase": true,
+  "selectedRawExcerptMd5": "0f9429dc92beb9474b57f58bd1578bdc",
+  "selectedRawExcerptBytes": 5706,
+  "rows": [
+    {
+      "id": "71f7a32d-f2e1-4ac0-9378-bcc682f6c245",
+      "url": "https://www.seriouseats.com/the-best-caesar-salad-recipe",
+      "source_type": "website",
+      "evidence_status": "superseded",
+      "replacement_document_id": "3b2ce1c5-754a-41ef-a9c0-ba80ad92e157",
+      "raw_text_md5": "0ec389d6fcf52c5e8d4d993b87d10758",
+      "raw_text_bytes": 1842,
+      "chunks": 5,
+      "embedding_models": [
+        "voyage-4"
+      ],
+      "declared_dimensions": [
+        1024
+      ],
+      "actual_dimensions": [
+        1024
+      ],
+      "chunk_evidence_statuses": [
+        "superseded"
+      ],
+      "chunk_replacements": [
+        "3b2ce1c5-754a-41ef-a9c0-ba80ad92e157"
+      ]
+    },
+    {
+      "id": "539bb781-8ce7-4a52-a8a3-caa5162775b0",
+      "url": "https://www.bbcgoodfood.com/recipes/perfect-caesar-salad",
+      "source_type": "website",
+      "evidence_status": "superseded",
+      "replacement_document_id": "38dffe7e-ff12-4d8e-a76d-cff549dcdcdd",
+      "raw_text_md5": "ee3e90f1e32671a4f5723cca009e627f",
+      "raw_text_bytes": 551090,
+      "chunks": 5,
+      "embedding_models": [
+        "voyage-4"
+      ],
+      "declared_dimensions": [
+        1024
+      ],
+      "actual_dimensions": [
+        1024
+      ],
+      "chunk_evidence_statuses": [
+        "superseded"
+      ],
+      "chunk_replacements": [
+        "38dffe7e-ff12-4d8e-a76d-cff549dcdcdd"
+      ]
+    },
+    {
+      "id": "3b2ce1c5-754a-41ef-a9c0-ba80ad92e157",
+      "url": "https://www.seriouseats.com/the-best-caesar-salad-recipe",
+      "source_type": "website",
+      "evidence_status": null,
+      "replacement_document_id": null,
+      "raw_text_md5": "0f9429dc92beb9474b57f58bd1578bdc",
+      "raw_text_bytes": 5706,
+      "chunks": 5,
+      "embedding_models": [
+        "voyage-4"
+      ],
+      "declared_dimensions": [
+        1024
+      ],
+      "actual_dimensions": [
+        1024
+      ],
+      "chunk_evidence_statuses": [
+        null
+      ],
+      "chunk_replacements": [
+        null
+      ]
+    },
+    {
+      "id": "38dffe7e-ff12-4d8e-a76d-cff549dcdcdd",
+      "url": "https://www.bbcgoodfood.com/recipes/perfect-caesar-salad",
+      "source_type": "website",
+      "evidence_status": "rejected",
+      "replacement_document_id": null,
+      "raw_text_md5": "f69404d75517312cb3fc252ce2c5e11e",
+      "raw_text_bytes": 3638,
+      "chunks": 5,
+      "embedding_models": [
+        "voyage-4"
+      ],
+      "declared_dimensions": [
+        1024
+      ],
+      "actual_dimensions": [
+        1024
+      ],
+      "chunk_evidence_statuses": [
+        "rejected"
+      ],
+      "chunk_replacements": [
+        null
+      ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "recipeId": "cn-005",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/1/3/e/960_13d4aaeae19767ba533c8077f33abf9e.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-005-qingjiao-rousi/hero.jpg",
+      "sha256": "c5d382edb7b2d6b99fd7d2ee5196eb69e75053dfbdf8ace6612c488881ac4f60",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 133102
+    },
+    {
+      "role": "step",
+      "stepOrder": 1,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/f/0/4/800_f0a2d4dd230a3858c585ea00e7d3bbd4.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-005-qingjiao-rousi/step-1.jpg",
+      "sha256": "90cddfcb3eac1233947f5fb6da3ec571d12f2cccb95a0f7286298d5079010d82",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 191280
+    },
+    {
+      "role": "step",
+      "stepOrder": 2,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/2/d/a/800_2d32d23db9e7f3e2e4123af4d7e368ba.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-005-qingjiao-rousi/step-2.jpg",
+      "sha256": "e10d338d137deab31d1e24ffcd9f4929326483f1bf6694c7fddce6f4cab8a000",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 187974
+    },
+    {
+      "role": "step",
+      "stepOrder": 3,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/6/5/1/800_65d06ca9b36f7228d26d59a8b6c67bf1.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-005-qingjiao-rousi/step-3.jpg",
+      "sha256": "5f92442253f3059f8a88c61e923c3d56f703e56da9a63b333899a8648c2bb5c6",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 142640
+    },
+    {
+      "role": "step",
+      "stepOrder": 4,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/8/5/7/800_85806a153034e629970570afc7ea2287.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-005-qingjiao-rousi/step-4.jpg",
+      "sha256": "f54b8b750aa4f7a07d0ccf42b9e28992a7812e092e8398d4deb56e3a114dd6df",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 185258
+    },
+    {
+      "role": "step",
+      "stepOrder": 5,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/4/9/7/800_491bbd410525b77a2aa45d0937ea0517.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-005-qingjiao-rousi/step-5.jpg",
+      "sha256": "9ce2a504ea4b1e178fbf73618abe75bfc471c7c0aa1e901f35c73e0460cd6348",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 184776
+    },
+    {
+      "role": "step",
+      "stepOrder": 6,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/9/4/9/800_943c0b78c5643eda816c86e1246717e9.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-005-qingjiao-rousi/step-6.jpg",
+      "sha256": "081e62ff30948c3cc1a2c69ba2c11044236d66eb9211805cca62353d27fbb843",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 149738
+    },
+    {
+      "role": "step",
+      "stepOrder": 7,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/d/1/d/800_d15e4108be2b4d4f57a22ba2f0da057d.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-005-qingjiao-rousi/step-7.jpg",
+      "sha256": "7e579f509d8177611c38e0629ea6fa9dc4d5bdf5e0eb1b2f2019aa14c0655259",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 141453
+    },
+    {
+      "role": "step",
+      "stepOrder": 8,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/8/8/c/800_889bd641e798de5374776f503ae970bc.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-005-qingjiao-rousi/step-8.jpg",
+      "sha256": "3bfaa04ea268246283a52177d09cd5b890254d15ffae8353dbb8d2dd362b133e",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 190029
+    },
+    {
+      "role": "step",
+      "stepOrder": 9,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/c/b/a/800_cb0f2ec5e5fb71e987ebe0e989be619a.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-005-qingjiao-rousi/step-9.jpg",
+      "sha256": "c04c992a4a37bd76641b4803ae7ee73ae7b00d295b5959dec744ed44bab488c1",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 182282
+    },
+    {
+      "role": "step",
+      "stepOrder": 10,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/3/3/5/800_335c603d925a4a0677291afa8afd8c95.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-005-qingjiao-rousi/step-10.jpg",
+      "sha256": "086875b1d23c544b4f9f845aa6170847584e95ac7dfe2d798cd5ae9f0e53511b",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 228698
+    },
+    {
+      "role": "step",
+      "stepOrder": 11,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/0/6/a/800_06bd451fc1341d8fc5bbb7b78fc6711a.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-005-qingjiao-rousi/step-11.jpg",
+      "sha256": "639d89d2f673e369fc27a46557583b74ab736a7358b0fa5aa8607130ba91d468",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 240523
+    }
+  ]
+}

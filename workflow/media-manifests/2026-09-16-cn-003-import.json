@@ -1,0 +1,94 @@
+{
+  "recipeId": "cn-003",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/06/mapo-tofu-10.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-003-mapo-tofu/hero.jpg",
+      "sha256": "93bbb7e6b5f22a03f97524fbf7d41861320df3a6fd9978b6283ef214ab4c4998",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 626644
+    },
+    {
+      "role": "step",
+      "stepOrder": 2,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/06/mapo-tofu-5.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-003-mapo-tofu/step-02-01.jpg",
+      "sha256": "adc9d610637d3b2a100df18292b31ac7a50c575aa82afb3b1cf030a37394ed56",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 328468
+    },
+    {
+      "role": "step",
+      "stepOrder": 3,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/06/mapo-tofu-6.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-003-mapo-tofu/step-03-01.jpg",
+      "sha256": "cf07bc4739d7b4c060f34dc4c169e4f90d45c508ce2f7ddbfc0f302ea2f170b5",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 334136
+    },
+    {
+      "role": "step",
+      "stepOrder": 3,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/06/mapo-tofu-7.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-003-mapo-tofu/step-03-02.jpg",
+      "sha256": "2989199ddb45dd253a0d2f10fa6d335d870908cfb8a4ff24655647f19a296574",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 328338
+    },
+    {
+      "role": "step",
+      "stepOrder": 3,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/06/mapo-tofu-8.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-003-mapo-tofu/step-03-03.jpg",
+      "sha256": "9c26d06d5a605e789ec0c69156885fb7544797661cd55037650811a1710f4e78",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 306066
+    },
+    {
+      "role": "step",
+      "stepOrder": 3,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/06/mapo-tofu-2.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-003-mapo-tofu/step-03-04.jpg",
+      "sha256": "44af7fb9ec6b458d4839ea54c0c709557b09955513d0766ebbffd50657683881",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 178564
+    },
+    {
+      "role": "step",
+      "stepOrder": 5,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/06/mapo-tofu-9.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-003-mapo-tofu/step-05.jpg",
+      "sha256": "f3344f82db52d90f15e3945f8a939a579eb0100c2358d8b444a32797890ff121",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 272482
+    },
+    {
+      "role": "step",
+      "stepOrder": 6,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/06/mapo-tofu-11.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-003-mapo-tofu/step-06-01.jpg",
+      "sha256": "5514f23c1754966ad03101163e99df78ddd6e5418830f479c0b1b95d0d93c330",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 543590
+    },
+    {
+      "role": "step",
+      "stepOrder": 6,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/09/mapo-tofu-recipe-2.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-003-mapo-tofu/step-06-02.jpg",
+      "sha256": "d02af18c8413109fe74f204916fea5d075d94b0d61c2b9eb760085c6a6d44667",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 309958
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "runId": "2026-10-06-cn-027-source-images",
+  "recipeId": "cn-027",
+  "recipeName": "蒜蓉粉丝蒸扇贝",
+  "category": "chinese",
+  "status": "done",
+  "startedAt": "2026-10-05T23:21:23Z",
+  "completedAt": "2026-10-05T23:47:58Z",
+  "steps": {
+    "research": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "batchId": "2026-09-16-source-image-refresh-21",
+        "selectionReason": "锅包肉已审核测试并推送，恢复本批次下一道未完成图片刷新菜品；此前done仅为旧文字/RAG更新，不冒充本轮图文完成。",
+        "candidateProgress": "两完整网页完成入库和独立比选，采用豆果17/17过程图，Woks为5/7；书籍冲突保留但不作为完整主来源。",
+        "bookConflict": "原料表油35ml与方法10+15+15ml冲突，保留历史事实但不作为完整主来源。",
+        "normalizationCorrectionPending": false,
+        "sourceMode": "multi_source",
+        "evidencePath": "workflow/evidence/2026-10-06-cn-027-source-images.json",
+        "evidencePackageHash": "abf69450bedff4e8879c4ad5df9ae7c78f6578a9d40676777e250118154e0ca2",
+        "decisionPath": "workflow/evidence-decisions/2026-10-06-cn-027.json",
+        "selectedSourceUrl": "https://www.douguo.com/cookbook/2292246.html",
+        "selectionComplete": true,
+        "completeIndependentSources": 2,
+        "normalizationCorrectionComplete": true
+      }
+    },
+    "ingestion": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "imageImportPath": "workflow/media-imports/2026-10-06-cn-027.json",
+        "localImages": 18,
+        "heroImages": 1,
+        "mappedStepImages": 17,
+        "httpStatus": 200,
+        "imageTypeAndSha256Verified": true,
+        "importedBytes": 3102639,
+        "heroAndSteps16And17Viewed": true,
+        "ragIngestionAndRetrievalAudit": "Researcher实际语义和混合检索各16结果，新两文档均命中，旧被替代文档0返回；书籍冲突事实保留未标invalid。",
+        "selectedDocumentId": "ad33a49e-fb00-4472-bf31-4ef8cd5e90fc",
+        "selectedChunks": 5,
+        "woksDocumentId": "a6d19544-cac1-4e56-b7eb-211a350a3136",
+        "woksChunks": 6,
+        "embeddingModel": "voyage-4",
+        "actualVectorDimension": 1024,
+        "rootSqlVerified": true,
+        "supersededDocumentId": "877b6463-7452-4645-87e7-b97154c88899",
+        "replacementDocumentId": "ad33a49e-fb00-4472-bf31-4ef8cd5e90fc",
+        "oldDocumentAndFiveChunksMetadataVerified": true
+      }
+    },
+    "edit": {
+      "status": "done",
+      "attempts": 2,
+      "details": {
+        "agent": "edit_cn027_remaining9",
+        "evidencePath": "workflow/evidence/2026-10-06-cn-027-source-images.json",
+        "evidencePackageHash": "abf69450bedff4e8879c4ad5df9ae7c78f6578a9d40676777e250118154e0ca2",
+        "targetOnly": "tools/recipe_data.mjs chinese[26]",
+        "precheckFailure": "图片授权字段 user_authorized 与既有授权清单 user_confirmed_2026-09-16 不一致；不是缺少授权，交 Editor 仅修正字段后重新验证。",
+        "ingredients": 12,
+        "steps": 17,
+        "heroImages": 1,
+        "stepImages": 17,
+        "authorizationCorrected": "user_confirmed_2026-09-16",
+        "precheckAfterCorrection": "PASS; 12 refreshed recipes",
+        "sourceChangeReason": "本轮选择豆果2292246整份来源，替换旧混合/书籍文本，不跨源补充。"
+      }
+    },
+    "validator": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "passed": true,
+        "artifact": "workflow/validation-results/2026-10-06-cn-027.json",
+        "checks": 10,
+        "unrelatedRecipeChanges": [],
+        "generatedBuildBrowserPassed": true,
+        "refreshedRecipesVerified": 12,
+        "verifiedSteps": 124,
+        "verifiedLocalImages": 123
+      }
+    },
+    "review": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "evidencePackageHash": "abf69450bedff4e8879c4ad5df9ae7c78f6578a9d40676777e250118154e0ca2",
+        "canonicalTargetHash": "6d81f7f73dd0b46e30b324e8e56350dcd71c630377af10d2d117d700e532f859",
+        "validatorArtifact": "workflow/validation-results/2026-10-06-cn-027.json",
+        "result": "PASS",
+        "artifact": "workflow/reviews/2026-10-06-cn-027-adversarial.json",
+        "adversarialChecks": 4,
+        "actualLocalImagesVisuallyInspected": 18
+      }
+    },
+    "build": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "command": "npm run test:workflow:deterministic",
+        "result": "PASS",
+        "artifact": "workflow/validation-results/2026-10-06-cn-027-deterministic.txt",
+        "refreshedRecipesVerified": 12,
+        "verifiedSteps": 124,
+        "verifiedHeroImages": 12,
+        "verifiedStepImages": 111,
+        "verifiedLocalImages": 123,
+        "browserErrors": [],
+        "staticBuild": "PASS",
+        "standaloneChatApiUsed": false
+      }
+    },
+    "gitPush": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "branch": "codex/recipe-automation",
+        "result": "PASS",
+        "contentCommit": "7c96d8fabb16e9465379ddf7a1d3603c267a597a"
+      }
+    }
+  },
+  "sources": [
+    {
+      "name": "豆果美食",
+      "url": "https://www.douguo.com/cookbook/2292246.html",
+      "status": "success",
+      "failureReason": null
+    },
+    {
+      "name": "The Woks of Life",
+      "url": "https://thewoksoflife.com/steamed-scallops-noodles/",
+      "status": "success",
+      "failureReason": null
+    },
+    {
+      "name": "贝太厨房:从小爱吃的菜2",
+      "url": null,
+      "status": "failed",
+      "failureReason": "候选完整性未通过：原文油35ml与方法10+15+15ml自身冲突；不篡改原量，不删除或标invalid其有效历史事实。"
+    }
+  ],
+  "errors": [],
+  "branch": "codex/recipe-automation",
+  "commit": "7c96d8fabb16e9465379ddf7a1d3603c267a597a"
+}

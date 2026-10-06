@@ -1,0 +1,102 @@
+{
+  "recipeId": "cn-024",
+  "authorization": "user_confirmed_2026-09-16",
+  "referer": "https://www.douguo.com/cookbook/1111868.html",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/5/1/d/800_51d40f71bf739ac9178900712744e42d.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/hero.jpg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 1,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/5/0/d/800_507390088b2482718c7f495c200fbffd.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-1.jpg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 2,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/d/f/a/800_df11cdd685e8463f16055bf59e37296a.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-2.jpg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 3,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/a/5/5/800_a5d4b15a22a4df00c5f0795045421875.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-3.jpg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 4,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/7/3/7/800_73b990cecd994e681e042f790beb67b7.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-4.jpg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 5,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/f/d/1/800_fdba01bf9b8f827135117f0d397506d1.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-5.jpg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 6,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/e/3/6/800_e39c6b971f6c2ec74c4e909850167666.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-6.jpg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 7,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/b/c/d/800_bc174da8b1f0a7da3ca304c99479598d.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-7.jpg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 8,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/c/a/2/800_ca1ad6420e75dd4f76f39a26d323a2b2.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-8.jpg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 9,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/5/3/d/800_53530322c45e0f688b1a92d902d1e0fd.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-9.jpg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 10,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/3/c/d/800_3c2d0cfebb09ccbd0b4df29f2aeb41fd.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-10.jpg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 11,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/9/9/0/800_997b576b175b235545a4dd39ed1b8890.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-11.jpg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 12,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/3/a/b/800_3a7f596e1f0f99c4a10f91693d8e4f2b.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-12.jpg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 13,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/9/0/8/800_9012630f855c9f7a577f941db6f529c8.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-13.jpg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 14,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/5/f/0/800_5faceab6e9847e3f0887753e21cea0c0.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-14.jpg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 15,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/7/1/b/800_71afd1fd42f19f7a5e7c31bb07192efb.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-024-guo-bao-rou/step-15.jpg"
+    }
+  ]
+}

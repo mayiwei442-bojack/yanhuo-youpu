@@ -1,0 +1,406 @@
+{
+  "recipeId": "cn-054",
+  "recipeName": "豉汁蒸排骨",
+  "category": "chinese",
+  "createdAt": "2026-10-06T06:10:51.945Z",
+  "sources": [
+    {
+      "sourceName": "豆果美食",
+      "sourceType": "website",
+      "url": "https://www.douguo.com/cookbook/3316845.html",
+      "documentId": "c694ed44-fa88-4650-8242-95407ed20025",
+      "retrievalMethod": "HTTP 200 HTML正文人工完整核验",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "排骨",
+          "amount": "500克",
+          "raw": "排骨 500克",
+          "evidence": "explicit"
+        },
+        {
+          "name": "陈皮",
+          "amount": "5克",
+          "raw": "辅料 ：陈皮5克",
+          "evidence": "explicit"
+        },
+        {
+          "name": "豆豉",
+          "amount": "50克",
+          "raw": "豆豉 50克",
+          "evidence": "explicit"
+        },
+        {
+          "name": "高汤",
+          "amount": "50克",
+          "raw": "高汤 50克",
+          "evidence": "explicit"
+        },
+        {
+          "name": "葱花",
+          "amount": "10克",
+          "raw": "葱花 10克",
+          "evidence": "explicit"
+        },
+        {
+          "name": "青红椒末",
+          "amount": "适量",
+          "raw": "青红椒末 适量",
+          "evidence": "explicit"
+        },
+        {
+          "name": "花生油",
+          "amount": "55克",
+          "raw": "调料 ：花生油55克",
+          "evidence": "explicit"
+        },
+        {
+          "name": "酱油",
+          "amount": "15克",
+          "raw": "酱油 15克",
+          "evidence": "explicit"
+        },
+        {
+          "name": "蚝油",
+          "amount": "15克",
+          "raw": "蚝油 15克",
+          "evidence": "explicit"
+        },
+        {
+          "name": "生粉",
+          "amount": "15克",
+          "raw": "生粉 15克",
+          "evidence": "explicit"
+        },
+        {
+          "name": "姜末",
+          "amount": "10克",
+          "raw": "姜末 10克",
+          "evidence": "explicit"
+        },
+        {
+          "name": "蒜末",
+          "amount": "10克",
+          "raw": "蒜末 10克",
+          "evidence": "explicit"
+        },
+        {
+          "name": "糖",
+          "amount": "15克",
+          "raw": "糖 15克",
+          "evidence": "explicit"
+        },
+        {
+          "name": "味精",
+          "amount": "10克",
+          "raw": "味精 10克",
+          "evidence": "explicit"
+        },
+        {
+          "name": "水",
+          "amount": null,
+          "raw": "陈皮泡软切丝备用；水开上汽大火蒸25分钟出锅！",
+          "evidence": "explicit"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "首先备好材料,把排骨去除背部脊骨和腩尾软骨部分后，切成3公分左右的段备用.青红辣椒切粒备用。姜和蒜末切碎备用。陈皮泡软切丝备用。",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 2,
+          "instruction": "豆豉切碎。",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 3,
+          "instruction": "添可料理锅将豆豉干煸一下",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 4,
+          "instruction": "入陈皮丝继续煸炒出香味",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 5,
+          "instruction": "后下蒜末和姜末和厨邦花生油继续爆香约半分钟",
+          "duration": "约半分钟",
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 6,
+          "instruction": "下少许高汤、糖、味精、煮至黏稠后",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 7,
+          "instruction": "加入10克酱油、10克蚝油煮至混合即可盛出。",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 8,
+          "instruction": "排骨加上豆豉汁充分翻拌均匀后再加入5克酱油、5克蚝油补味",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 9,
+          "instruction": "加少量高汤，生粉和花生油继续充分搅拌后腌制20分钟后备用。",
+          "duration": "20分钟",
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 10,
+          "instruction": "腌制好的排骨，换上添可料理蒸锅，水开上汽大火蒸25分钟出锅！",
+          "duration": "25分钟",
+          "heat": "大火",
+          "evidence": "explicit"
+        },
+        {
+          "order": 11,
+          "instruction": "撒入葱花和青红椒末，淋上热油即可。",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        }
+      ],
+      "technique": [
+        "爆香约半分钟",
+        "腌制20分钟",
+        "水开上汽大火蒸25分钟"
+      ],
+      "tips": [
+        "不喜欢陈皮的，可以不放陈皮。"
+      ],
+      "rawExcerpt": "豉汁蒸排骨的用料 排骨 500克 辅料 ：陈皮5克 豆豉 50克 高汤 50克 葱花 10克 青红椒末 适量 调料 ：花生油55克 酱油 15克 蚝油 15克 生粉 15克 姜末 10克 蒜末 10克 糖 15克 味精 10克 豉汁蒸排骨的做法 步骤1 首先备好材料,把排骨去除背部脊骨和腩尾软骨部分后，切成3公分左右的段备用.青红辣椒切粒备用。姜和蒜末切碎备用。陈皮泡软切丝备用。 步骤2 豆豉切碎。 步骤3 添可料理锅将豆豉干煸一下 步骤4 入陈皮丝继续煸炒出香味 步骤5 后下蒜末和姜末和厨邦花生油继续爆香约半分钟 步骤6 下少许高汤、糖、味精、煮至黏稠后 步骤7 加入10克酱油、10克蚝油煮至混合即可盛出。 步骤8 排骨加上豆豉汁充分翻拌均匀后再加入5克酱油、5克蚝油补味 步骤9 加少量高汤，生粉和花生油继续充分搅拌后腌制20分钟后备用。 步骤10 腌制好的排骨，换上添可料理蒸锅，水开上汽大火蒸25分钟出锅！ 步骤11 撒入葱花和青红椒末，淋上热油即可。 步骤12 1秒脱骨，嫩滑多汁！ 步骤13 成品 豉汁蒸排骨的烹饪技巧 不喜欢陈皮的，可以不放陈皮。 做菜好吃都有技巧，我的每道菜都有小妙招，大家搜索“豆果”可以直接查看我的菜谱！",
+      "bookTitle": null,
+      "pageStart": null,
+      "pageEnd": null,
+      "location": null,
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 1,
+        "mappedStepImages": 9,
+        "stepImageCoverage": 0.8181818181818182,
+        "ingredientCount": 15,
+        "executableStepCount": 11,
+        "notes": [
+          "14条页面原料修正：辅料/调料是栏目名，真实为陈皮5克/花生油55克；保留raw栏目文字不冒充食材。",
+          "方法陈皮泡水、蒸锅水补入水amount=null；酱油/蚝油各15克分10克制汁+5克拌排骨；高汤50克、花生油55克分次量未给不分配，热油属于原文花生油用途。",
+          "步骤5约半分钟爆香、步骤9腌20分钟、步骤10水开上汽大火蒸25分钟明确。无whole-recipe总用时；time必须null，不以阶段合计填总时长。",
+          "页面13文字项只有11操作；12广告1秒脱骨、13成品保留raw排除规范化；1备料摆盘及11-13成品图不作真实过程图，2-10九图准确覆盖9/11。",
+          "本候选原料和操作完整，设备名称添可与油品牌厨邦可忠实保留但不借此补参数。"
+        ]
+      },
+      "media": {
+        "recipePageUrl": "https://www.douguo.com/cookbook/3316845.html",
+        "mediaPageUrl": "https://www.douguo.com/cookbook/3316845.html",
+        "sourceName": "豆果美食",
+        "author": "清幽梅花2",
+        "rightsNotice": "©本菜谱的做法由 清幽梅花2 编写，未经授权不得转载",
+        "reuseLicense": null,
+        "repositoryCopyAuthorized": true,
+        "hero": {
+          "originalUrl": "https://cp1.douguo.com/upload/caiku/3/2/1/960_322b54e34a4ad2a4ba53f21a3c7115f1.jpg",
+          "repositoryPath": "assets/dishes/sources/cn-054-black-bean-ribs/hero.jpg",
+          "adjacentText": "豉汁蒸排骨",
+          "pageOrder": 1,
+          "httpStatus": 200,
+          "contentType": "image/jpeg;charset=UTF-8",
+          "visualVerified": true,
+          "visualReview": "实际查看：筷子夹起熟排骨、盘中葱花青红椒与排骨酱汁的成品图"
+        },
+        "steps": [
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/d/f/f/800_dfbc9ce3fcee54d21c4e9f0663b7c4df.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-054-black-bean-ribs/step-2.jpg",
+            "stepOrder": 2,
+            "sourceStepOrder": 2,
+            "adjacentText": "豆豉切碎。",
+            "pageOrder": 3,
+            "httpStatus": 200,
+            "contentType": "image/jpeg;charset=UTF-8",
+            "visualVerified": true,
+            "visualReview": "切碎豆豉置于砧板"
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/7/c/a/800_7c1405449e240169454b69a2c03e019a.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-054-black-bean-ribs/step-3.jpg",
+            "stepOrder": 3,
+            "sourceStepOrder": 3,
+            "adjacentText": "添可料理锅将豆豉干煸一下",
+            "pageOrder": 4,
+            "httpStatus": 200,
+            "contentType": "image/jpeg;charset=UTF-8",
+            "visualVerified": true,
+            "visualReview": "锅中散布切碎豆豉，干煸阶段"
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/5/c/f/800_5c1d2056e4a08b693fbbdf344f1fab5f.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-054-black-bean-ribs/step-4.jpg",
+            "stepOrder": 4,
+            "sourceStepOrder": 4,
+            "adjacentText": "入陈皮丝继续煸炒出香味",
+            "pageOrder": 5,
+            "httpStatus": 200,
+            "contentType": "image/jpeg;charset=UTF-8",
+            "visualVerified": true,
+            "visualReview": "豆豉和陈皮丝在锅中煸炒"
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/e/0/2/800_e0047cf0ff651e1fb0efa345de2d7d82.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-054-black-bean-ribs/step-5.jpg",
+            "stepOrder": 5,
+            "sourceStepOrder": 5,
+            "adjacentText": "后下蒜末和姜末和厨邦花生油继续爆香约半分钟",
+            "pageOrder": 6,
+            "httpStatus": 200,
+            "contentType": "image/jpeg;charset=UTF-8",
+            "visualVerified": true,
+            "visualReview": "锅中豆豉陈皮与姜蒜末，支持加入姜蒜阶段，照片不证明油量或时长"
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/3/9/4/800_399e1038b1787b9546fb340fb5ba2674.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-054-black-bean-ribs/step-6.jpg",
+            "stepOrder": 6,
+            "sourceStepOrder": 6,
+            "adjacentText": "下少许高汤、糖、味精、煮至黏稠后",
+            "pageOrder": 7,
+            "httpStatus": 200,
+            "contentType": "image/jpeg;charset=UTF-8",
+            "visualVerified": true,
+            "visualReview": "锅中酱汁冒泡，支持加入高汤糖味精后的煮制，不由颜色识别成分"
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/1/9/0/800_198e7a52b2a05533d44de396ad3bb690.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-054-black-bean-ribs/step-7.jpg",
+            "stepOrder": 7,
+            "sourceStepOrder": 7,
+            "adjacentText": "加入10克酱油、10克蚝油煮至混合即可盛出。",
+            "pageOrder": 8,
+            "httpStatus": 200,
+            "contentType": "image/jpeg;charset=UTF-8",
+            "visualVerified": true,
+            "visualReview": "锅内煮制酱汁，支持混合酱油蚝油的阶段，不由照片识别各克数"
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/a/5/4/800_a5d17f3276a4c840fc07f38855d125b4.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-054-black-bean-ribs/step-8.jpg",
+            "stepOrder": 8,
+            "sourceStepOrder": 8,
+            "adjacentText": "排骨加上豆豉汁充分翻拌均匀后再加入5克酱油、5克蚝油补味",
+            "pageOrder": 9,
+            "httpStatus": 200,
+            "contentType": "image/jpeg;charset=UTF-8",
+            "visualVerified": true,
+            "visualReview": "生排骨上加入豉汁，支持拌料初始阶段，照片不声称已完成翻拌"
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/0/3/d/800_03b7bd9186eab89c3dcfaf07989395ed.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-054-black-bean-ribs/step-9.jpg",
+            "stepOrder": 9,
+            "sourceStepOrder": 9,
+            "adjacentText": "加少量高汤，生粉和花生油继续充分搅拌后腌制20分钟后备用。",
+            "pageOrder": 10,
+            "httpStatus": 200,
+            "contentType": "image/jpeg;charset=UTF-8",
+            "visualVerified": true,
+            "visualReview": "拌酱排骨上加入生粉，支持加生粉阶段，不声称已腌完20分钟"
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/f/4/c/800_f4cbb216ebc518d59e15581d5bdf996c.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-054-black-bean-ribs/step-10.jpg",
+            "stepOrder": 10,
+            "sourceStepOrder": 10,
+            "adjacentText": "腌制好的排骨，换上添可料理蒸锅，水开上汽大火蒸25分钟出锅！",
+            "pageOrder": 11,
+            "httpStatus": 200,
+            "contentType": "image/jpeg;charset=UTF-8",
+            "visualVerified": true,
+            "visualReview": "盘中排骨置于蒸锅内，支持蒸制阶段，照片不推造火候或时长"
+          }
+        ]
+      }
+    }
+  ],
+  "sourceMode": "single_source",
+  "singleSourceReason": "仅豆果3316845完整自洽：Nicole葱用途遗漏、Woks卡片正文计时冲突、书籍生油/生抽字面歧义均拒选；同站第二页不增加独立来源数量。",
+  "selectedSourceUrl": "https://www.douguo.com/cookbook/3316845.html",
+  "selectionReason": "先完整性/内部自洽：3316845保留15项原料含方法水、11可执行操作与全部分次；Nicole步骤缺葱用途、Woks时间冲突、book生油歧义先排除。唯一合格3316845直接采用整套，hero及9/11真实过程图完整核验，不从他源补料/计时/图片。",
+  "ragEvidence": [
+    {
+      "chunkId": "8dcf4cc4-23ef-415e-bb47-3341c71b0087",
+      "documentId": "c694ed44-fa88-4650-8242-95407ed20025",
+      "sourceName": "豆果美食",
+      "chunkType": "summary",
+      "content": "菜名：豉汁蒸排骨\n菜系：家常菜",
+      "similarity": 0.664643287477788
+    },
+    {
+      "chunkId": "c8136387-e81f-48dd-b516-2ed93e91c31c",
+      "documentId": "c694ed44-fa88-4650-8242-95407ed20025",
+      "sourceName": "豆果美食",
+      "chunkType": "ingredients",
+      "content": "菜名：豉汁蒸排骨\n- 排骨 500克\n- 辅料 ：陈皮5克\n- 豆豉 50克\n- 高汤 50克\n- 葱花 10克\n- 青红椒末 适量\n- 调料 ：花生油55克\n- 酱油 15克\n- 蚝油 15克\n- 生粉 15克\n- 姜末 10克\n- 蒜末 10克\n- 糖 15克\n- 味精 10克\n- 陈皮泡软切丝备用；水开上汽大火蒸25分钟出锅！",
+      "similarity": 0.71610085464125
+    },
+    {
+      "chunkId": "19dc6ced-debf-4f3c-b8a0-f4f44e3908db",
+      "documentId": "c694ed44-fa88-4650-8242-95407ed20025",
+      "sourceName": "豆果美食",
+      "chunkType": "steps",
+      "content": "菜名：豉汁蒸排骨\n1. 首先备好材料,把排骨去除背部脊骨和腩尾软骨部分后，切成3公分左右的段备用.青红辣椒切粒备用。姜和蒜末切碎备用。陈皮泡软切丝备用。\n2. 豆豉切碎。\n3. 添可料理锅将豆豉干煸一下\n4. 入陈皮丝继续煸炒出香味\n5. 后下蒜末和姜末和厨邦花生油继续爆香约半分钟（约半分钟）\n6. 下少许高汤、糖、味精、煮至黏稠后\n7. 加入10克酱油、10克蚝油煮至混合即可盛出。\n8. 排骨加上豆豉汁充分翻拌均匀后再加入5克酱油、5克蚝油补味\n9. 加少量高汤，生粉和花生油继续充分搅拌后腌制20分钟后备用。（20分钟）\n10. 腌制好的排骨，换上添可料理蒸锅，水开上汽大火蒸25分钟出锅！（25分钟）【大火】\n11. 撒入葱花和青红椒末，淋上热油即可。",
+      "similarity": 0.729823692430478
+    },
+    {
+      "chunkId": "d41657e3-a760-4124-aa23-e08a4284dae4",
+      "documentId": "c694ed44-fa88-4650-8242-95407ed20025",
+      "sourceName": "豆果美食",
+      "chunkType": "technique",
+      "content": "菜名：豉汁蒸排骨\n- 爆香约半分钟\n- 腌制20分钟\n- 水开上汽大火蒸25分钟\n- 约半分钟\n- 20分钟\n- 25分钟\n- 大火",
+      "similarity": 0.683919669740171
+    },
+    {
+      "chunkId": "8f74becf-abf4-4d88-be28-fb87b2ce00c8",
+      "documentId": "c694ed44-fa88-4650-8242-95407ed20025",
+      "sourceName": "豆果美食",
+      "chunkType": "tips",
+      "content": "菜名：豉汁蒸排骨\n- 不喜欢陈皮的，可以不放陈皮。",
+      "similarity": 0.655301788765299
+    }
+  ],
+  "notes": [
+    "独立有效来源仅豆果美食一个网站；3316845是唯一完整自洽且媒体合格候选，直接选中整套。",
+    "Nicole1412894公开HTTP200，曾按完整入库24dd0735-31c9-4778-b127-ab3ac81bd2a6，复核原料香葱1根仅切末却无后续用途，认定步骤不完整，doc/chunks已实际标记rejected；不从成品图编造撒葱。",
+    "Woks服务端正常fetch403已记录；web.open可正常全文阅读，原卡片Prep8h/Cook10min/Total8h10min与正文蒸20min真实冲突；book原EPUB核验确写生油而非生抽，不能擅改，皆拒选。",
+    "所有21张两豆果页面公开原图HTTP200image/jpeg且逐张实际目检；selected媒体9过程+1hero。",
+    "RAG排除核验完成：exact entity2dcd0c7e-1483-4895-a99e-a0ebc9f65beb，正常retrieve/hybridSearch各5chunks全部只返回选中c694ed44，7排除文档35chunks返回0；共8documents40chunks实际voyage-4/1024。",
+    "本轮查到书籍ea4f852f、豆果200aceeb/1721eef7、Woks0827a3a1共4既有文档，均存在缺项或错误；新增4documents20chunks（完整自洽选中1、Nicole完整性复核失败1、书籍/Woks纠正审计2），最终只有选中1文档5chunks可用，不将拒选审计算有效来源。",
+    "首次node直接及未设置代理的--use-env-proxy连接Supabase均timeout（session3076/51852已退出），设置系统正常HTTP/HTTPS_PROXY127.0.0.1:7897后成功，不重启任何进行中ingest；未删除历史documents/chunks。",
+    "来源原料花生油55克总量分制汁/腌制/热油三个用途；原文未分别定量，不能自行分配。高汤50克分两次少许/少量，不编每次数字。来源酱油和蚝油各10+5=15克明确。",
+    "图1仅备料摆盘，图11和图12是相同成品，图13另成品。均保存审计原URL/页面对应而不映射操作；步骤1及步骤11保留纯文字，不补跨源图。",
+    "每次新增文档独立通过现有ingestDocument入口与Voyage document embeddings；查询由query embeddings正常retrieve/hybrid执行。未变化content hash复用能力保留，本轮均为纠正/新增内容，不重复embedding未变资料。",
+    "用户已确认仓库图片复制授权；网站原权利声明与reuseLicense=null如实保留，不声称开放许可。"
+  ]
+}

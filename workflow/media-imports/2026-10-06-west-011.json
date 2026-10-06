@@ -1,0 +1,54 @@
+{
+  "recipeId": "west-011",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://www.seriouseats.com/thmb/5aKCalIkNFzVMKs-dFYlEkkCnR8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2016__02__20151118-spaghetti-carbonara-vicky-wasik-27-5ed8e4c860c945f0a3c4315a25a7001b.jpg",
+      "repositoryPath": "assets/dishes/sources/west-011-carbonara/hero.webp",
+      "sha256": "012d0b0ac82f41b608f753b83eaf66d935bd8426684230fc03a48b6ee933cd7b",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 75294
+    },
+    {
+      "role": "step",
+      "stepOrder": 2,
+      "originalUrl": "https://www.seriouseats.com/thmb/22GqBrLR3NgyGtsy07VGrn121Sk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2015__11__20151118-spaghetti-carbonara-COLLAGE-3-033d6a7784d140e4ae984bb9b72a0ade.jpg",
+      "repositoryPath": "assets/dishes/sources/west-011-carbonara/step-2.webp",
+      "sha256": "4df487115c5154df961905fdfb5942fa054f535141c192f82b120cf221e68cd7",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 71952
+    },
+    {
+      "role": "step",
+      "stepOrder": 3,
+      "originalUrl": "https://www.seriouseats.com/thmb/8IdexrEMEXVpnfglj6_KIscFC_U=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2015__11__20151118-spaghetti-carbonara-COLLAGE-5-f513acc2cc29485c924e29d4cab34e72.jpg",
+      "repositoryPath": "assets/dishes/sources/west-011-carbonara/step-3.webp",
+      "sha256": "d5786fd05770f0ab27527720aa96261d0ee95520e9863172bdc2d27e254efed6",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 135888
+    },
+    {
+      "role": "step",
+      "stepOrder": 4,
+      "originalUrl": "https://www.seriouseats.com/thmb/zR54CkYMmz52-UFoE2wim0NUr8E=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2015__11__20151118-spaghetti-carbonara-COLLAGE-1-cff1bf96d3e64da1acf122b9aea52170.jpg",
+      "repositoryPath": "assets/dishes/sources/west-011-carbonara/step-4.webp",
+      "sha256": "59277f0d2b0276194f5b411749efd0d8868579fd4c771ff93e2c97e3b4750e98",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 142394
+    },
+    {
+      "role": "step",
+      "stepOrder": 5,
+      "originalUrl": "https://www.seriouseats.com/thmb/PLRRWkMnLzh5zq8XmEhvFmZcwtI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2015__11__20151118-spaghetti-carbonara-COLLAGE-2-6780e7da09a04dc5a1a6e86b886c376d.jpg",
+      "repositoryPath": "assets/dishes/sources/west-011-carbonara/step-5.webp",
+      "sha256": "df5191f1718e55560e355fc442d7d96c860e993ef71ad8181d083dd500c3d57d",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 111706
+    }
+  ]
+}

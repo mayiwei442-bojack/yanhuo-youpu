@@ -1,0 +1,114 @@
+{
+  "recipeId": "cn-027",
+  "authorization": "user_confirmed_2026-09-16",
+  "referer": "https://www.douguo.com/cookbook/2292246.html",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/3/e/b/960_3e0f481aebc6ee996e0e14693b8bb89b.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/hero.jpg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 1,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/5/b/1/800_5b42634ec2b58bedd425a73b36158f01.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/step-1.jpg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 2,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/1/f/c/800_1fd6c4e362e4474a540d6db72a26e5ec.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/step-2.jpg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 3,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/5/a/b/800_5a973960d12202bda6b4932644136c6b.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/step-3.jpg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 4,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/4/0/c/800_40560493df4d1e45ec5af17fd289756c.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/step-4.jpg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 5,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/8/2/3/800_8275d80c827ca01170a12ac3589a67d3.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/step-5.jpg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 6,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/9/5/2/800_95e393f499167a620755a68737bc7212.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/step-6.jpg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 7,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/3/f/f/800_3f843bf0383865ea677990bcfd2d01bf.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/step-7.jpg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 8,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/4/a/4/800_4a32f3e821daf15e1a46f67c1fb37ae4.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/step-8.jpg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 9,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/f/d/b/800_fd5ddaf377b10be5c0da7bfbc64e1c5b.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/step-9.jpg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 10,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/9/d/2/800_9dd754894676a29c8f3c193f73ab1b02.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/step-10.jpg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 11,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/d/9/d/800_d9a6d1a53b3f0dff93726b08a70d283d.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/step-11.jpg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 12,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/1/5/3/800_15f8e56ee80fa4205ecc090eb9fb1383.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/step-12.jpg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 13,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/c/7/6/800_c77d4031b8d7f4a7a2581888ce3296e6.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/step-13.jpg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 14,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/a/5/3/800_a5becd603f0b15b6c8c0aa93fc885663.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/step-14.jpg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 15,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/3/e/8/800_3e7b7e8172c30afe7d71c2dcf1697d68.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/step-15.jpg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 16,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/7/2/7/800_7238b40457f088370515512d88692837.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/step-16.jpg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 17,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/c/3/8/800_c3ae099a6d803013da9d58cefccd2a28.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-027-scallop-vermicelli/step-17.jpg"
+    }
+  ]
+}

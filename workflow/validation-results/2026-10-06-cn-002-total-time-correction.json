@@ -1,0 +1,34 @@
+{
+  "recipeId": "cn-002",
+  "recipeName": "宫保鸡丁",
+  "runId": "2026-10-06-cn-002-total-time-correction",
+  "branch": "codex/recipe-automation",
+  "targetValidator": {
+    "command": "npm run rag:validate -- --target cn-002 --before workflow/snapshots/2026-10-06-cn-002-total-time-before.json --full",
+    "status": "PASS",
+    "checksPassed": 10,
+    "errors": 0,
+    "targetRecipe": "cn-002",
+    "generatedDataBuild": "PASS",
+    "htmlDemo": "PASS",
+    "staticBuild": "PASS",
+    "generatedTime": 40,
+    "timeBasis": "source"
+  },
+  "deterministic": {
+    "command": "npm run test:workflow:deterministic",
+    "status": "PASS",
+    "workflowState": "PASS",
+    "ragRepositoriesAndIngestion": "PASS",
+    "resourceAndEpub": "PASS",
+    "agentContracts": "PASS",
+    "validatorAndStepMetadata": "PASS",
+    "sourceImages": "PASS",
+    "adversarialLanguage": "PASS",
+    "workflowArtifacts": "PASS",
+    "recipeCount": 90,
+    "testedRoutes": 9,
+    "browserErrors": 0,
+    "staticBuild": "PASS"
+  }
+}

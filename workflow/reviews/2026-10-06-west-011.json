@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "Serious Eats is selected as one complete coherent source; all ingredient identities and quantities map to it, the five steps retain its sequence and supported method, totals and servings match, and there are no cross-source instructions. Adversarially checked semicolon-delimited ingredients and each rendered step: no orphaned qualifier, non-ingredient row, grammar/punctuation defect, broken numbering, or incoherent instruction. Hero and four mapped step images are local and source-matched; step 1 correctly remains text-only. Generated timing, ingredient display, provenance, and validator result are consistent.",
+  "evidencePackageHash": "0447d96cab3834d97f5b94c1bf953ebbcd6da0076b2b14bcd9072c1d9987ff04",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

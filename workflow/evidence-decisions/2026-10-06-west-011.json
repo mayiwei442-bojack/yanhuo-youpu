@@ -1,0 +1,514 @@
+{
+  "recipeId": "west-011",
+  "recipeName": "意式培根蛋面",
+  "createdAt": "2026-10-06T11:16:42Z",
+  "status": "PASS",
+  "sourceMode": "multi_source",
+  "qualifyingSourceUrls": [
+    "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+    "https://www.bbcgoodfood.com/recipes/ultimate-spaghetti-carbonara-recipe"
+  ],
+  "selectedSourceUrl": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+  "selectionReason": "两独立来源配方完整且内部自洽；Serious Eats有成品及4张清晰过程拼图，覆盖4/5源步骤，优于BBC的1/12低清过程缩略图，因此按图片优先顺序整份采用Serious Eats，不跨源补事实或照片。",
+  "assessments": {
+    "https://www.seriouseats.com/pasta-carbonara-sauce-recipe": {
+      "qualifies": true,
+      "ingredientCoverage": "complete",
+      "stepCoverage": "complete",
+      "internalCoherence": "coherent",
+      "heroImages": 1,
+      "mappedStepImages": 4,
+      "stepImageCoverage": 0.8,
+      "ingredientCount": 10,
+      "executableStepCount": 5,
+      "notes": [
+        "8行源食材拆开全蛋/蛋黄，并补步骤明确的煮面水，共10项。全部5步完整保留；第1步无独立图片，保持文字。",
+        "总30分钟，准备5/烹饪25，4份；操作无任意默认火力和温度。"
+      ]
+    },
+    "https://www.bbcgoodfood.com/recipes/ultimate-spaghetti-carbonara-recipe": {
+      "qualifies": true,
+      "ingredientCoverage": "complete",
+      "stepCoverage": "complete",
+      "internalCoherence": "coherent",
+      "heroImages": 1,
+      "mappedStepImages": 1,
+      "stepImageCoverage": 0.08333333333333333,
+      "ingredientCount": 10,
+      "executableStepCount": 12,
+      "notes": [
+        "8行源食材拆开盐/胡椒，并补步骤中的煮面水，共10项。",
+        "VideoObject缩略图真实搅蛋，100×56；不能提升清晰度或重复映射其他步骤。Prep网页15–20min，JSON-LD20min，Cook15min、totalTimePT35M、yield4；属于范围上限不是内部矛盾。"
+      ]
+    }
+  },
+  "media": {
+    "recipePageUrl": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+    "mediaPageUrl": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+    "sourceName": "Serious Eats",
+    "author": "Vicky Wasik",
+    "rightsNotice": "Serious Eats / Vicky Wasik",
+    "reuseLicense": null,
+    "repositoryCopyAuthorized": true,
+    "hero": {
+      "role": "hero",
+      "originalUrl": "https://www.seriouseats.com/thmb/5aKCalIkNFzVMKs-dFYlEkkCnR8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2016__02__20151118-spaghetti-carbonara-vicky-wasik-27-5ed8e4c860c945f0a3c4315a25a7001b.jpg",
+      "repositoryPath": "assets/dishes/sources/west-011-carbonara/hero.webp",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "pageOrder": 1,
+      "adjacentText": "Carbonara sauce is quick, easy, and requires just a little finesse. .",
+      "author": "Vicky Wasik",
+      "recipeAuthor": "Daniel Gritzer",
+      "sourceName": "Serious Eats",
+      "rightsNotice": "Serious Eats / Vicky Wasik",
+      "reuseLicense": null,
+      "recipePageUrl": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+      "mediaPageUrl": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+      "visualVerified": true,
+      "visualReview": "成品意面挂满光滑酱汁，叉子卷起一束；不是步骤图。",
+      "sourceBytesSha256": "012d0b0ac82f41b608f753b83eaf66d935bd8426684230fc03a48b6ee933cd7b"
+    },
+    "steps": [
+      {
+        "role": "step",
+        "originalUrl": "https://www.seriouseats.com/thmb/22GqBrLR3NgyGtsy07VGrn121Sk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2015__11__20151118-spaghetti-carbonara-COLLAGE-3-033d6a7784d140e4ae984bb9b72a0ade.jpg",
+        "repositoryPath": "assets/dishes/sources/west-011-carbonara/step-2.webp",
+        "stepOrder": 2,
+        "sourceStepOrder": 2,
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "pageOrder": 7,
+        "adjacentText": "Meanwhile, combine guanciale (or pancetta or bacon) with 2 tablespoons (30ml) olive oil in a large skillet and cook, stirring frequently, over medium heat, until fat has rendered and guanciale is crisp, about 7 minutes.",
+        "author": "Vicky Wasik",
+        "recipeAuthor": "Daniel Gritzer",
+        "sourceName": "Serious Eats",
+        "rightsNotice": "Serious Eats / Vicky Wasik",
+        "reuseLicense": null,
+        "recipePageUrl": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+        "mediaPageUrl": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+        "visualVerified": true,
+        "visualReview": "两格：左格切腌猪颊肉，右格肉丁与油在大煎锅内翻炒，准确对应源方向2。",
+        "sourceBytesSha256": "4df487115c5154df961905fdfb5942fa054f535141c192f82b120cf221e68cd7"
+      },
+      {
+        "role": "step",
+        "originalUrl": "https://www.seriouseats.com/thmb/8IdexrEMEXVpnfglj6_KIscFC_U=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2015__11__20151118-spaghetti-carbonara-COLLAGE-5-f513acc2cc29485c924e29d4cab34e72.jpg",
+        "repositoryPath": "assets/dishes/sources/west-011-carbonara/step-3.webp",
+        "stepOrder": 3,
+        "sourceStepOrder": 3,
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "pageOrder": 8,
+        "adjacentText": "In a large, metal heatproof mixing bowl, whisk together whole eggs and yolks, Pecorino Romano, Parmigiano-Reggiano, and black pepper.",
+        "author": "Vicky Wasik",
+        "recipeAuthor": "Daniel Gritzer",
+        "sourceName": "Serious Eats",
+        "rightsNotice": "Serious Eats / Vicky Wasik",
+        "reuseLicense": null,
+        "recipePageUrl": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+        "mediaPageUrl": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+        "visualVerified": true,
+        "visualReview": "两格：左格鸡蛋/蛋黄、芝士、黑胡椒放在大金属碗内，右格用打蛋器搅匀，准确对应源方向3。",
+        "sourceBytesSha256": "d5786fd05770f0ab27527720aa96261d0ee95520e9863172bdc2d27e254efed6"
+      },
+      {
+        "role": "step",
+        "originalUrl": "https://www.seriouseats.com/thmb/zR54CkYMmz52-UFoE2wim0NUr8E=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2015__11__20151118-spaghetti-carbonara-COLLAGE-1-cff1bf96d3e64da1acf122b9aea52170.jpg",
+        "repositoryPath": "assets/dishes/sources/west-011-carbonara/step-4.webp",
+        "stepOrder": 4,
+        "sourceStepOrder": 4,
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "pageOrder": 9,
+        "adjacentText": "Using tongs and/or a strainer, transfer pasta to skillet with crisped guanciale and its fat; be sure not to drain boiling pasta water. Add remaining 1 tablespoon (15ml) olive oil to pasta and stir to combine; let cool slightly. Scrape pasta, pork, and all the fat into the egg mixture. Measure 1/2 cup (120ml) pasta-cooking water and add to pasta and egg mixture. Stir well to combine.",
+        "author": "Vicky Wasik",
+        "recipeAuthor": "Daniel Gritzer",
+        "sourceName": "Serious Eats",
+        "rightsNotice": "Serious Eats / Vicky Wasik",
+        "reuseLicense": null,
+        "recipePageUrl": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+        "mediaPageUrl": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+        "visualVerified": true,
+        "visualReview": "四格：左上从煮面锅夹出意面、右上意面拌入肉丁油脂、左下倒入蛋液碗、右下倒煮面水，准确对应源方向4，不另映射步骤1。",
+        "sourceBytesSha256": "59277f0d2b0276194f5b411749efd0d8868579fd4c771ff93e2c97e3b4750e98"
+      },
+      {
+        "role": "step",
+        "originalUrl": "https://www.seriouseats.com/thmb/PLRRWkMnLzh5zq8XmEhvFmZcwtI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2015__11__20151118-spaghetti-carbonara-COLLAGE-2-6780e7da09a04dc5a1a6e86b886c376d.jpg",
+        "repositoryPath": "assets/dishes/sources/west-011-carbonara/step-5.webp",
+        "stepOrder": 5,
+        "sourceStepOrder": 5,
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "pageOrder": 10,
+        "adjacentText": "Set mixing bowl over pot of boiling pasta water (make sure bottom of bowl does not touch the water) and cook, stirring quickly with tongs, until sauce thickens to a creamy, silky consistency and leaves trails as you stir. Remove from heat, season with salt if needed, and divide into bowls. Serve right away, topping with more grated cheese and freshly ground pepper as desired.",
+        "author": "Vicky Wasik",
+        "recipeAuthor": "Daniel Gritzer",
+        "sourceName": "Serious Eats",
+        "rightsNotice": "Serious Eats / Vicky Wasik",
+        "reuseLicense": null,
+        "recipePageUrl": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+        "mediaPageUrl": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+        "visualVerified": true,
+        "visualReview": "四格：左上金属碗架在煮面锅上持续翻拌、右上酱汁逐渐变稠、左下继续翻拌、右下夹起意面观察挂汁，准确对应源方向5隔水加热，不是平底锅直接加热。",
+        "sourceBytesSha256": "df5191f1718e55560e355fc442d7d96c860e993ef71ad8181d083dd500c3d57d"
+      }
+    ]
+  },
+  "notes": [
+    "照片版权署名Vicky Wasik，与菜谱作者Daniel Gritzer分开；页面未提供可复用许可，reuseLicense为null，用户已于2026-09-16确认仓库复制授权。",
+    "普通Serious菜谱fetchHTTP402/612字；公开web reader正文完整可读。web图click返回restricted/robots工具限制，普通原图fetch13张全部HTTP200，未伪装/绕登录验证码。",
+    "旧canonical的来源字段是BBC列表页，但文本系Serious路线；本轮Editor应改为选中详情页。",
+    "对比中BBC黄油蒜瓣路线与Serious隔水蛋液路线是合理独立变体，不是需混补的冲突。",
+    "源锅中煮面盐/后调味量未给；Serious面水120ml明确，橄榄油总45ml拆30ml+15ml明确；没有自行杯匙容量换算。",
+    "独立图片页序（去重、忽略作者头像和视频封面）：Serious正文成品1、切肉2、蛋黄对比3、次成品4、直热拼图5、撒芝士6、directions2/3/4/5拼图7/8/9/10。全部10张逐张view。BBC另3张均逐张view。",
+    "rawExcerpt保留当前源英文完整配方及所有操作相关原文、Notes、Equipment、时间份数，中文规范化独立；未把正文历史笑话、非选中直接加热备选路线或营养表转成配方操作。",
+    "RAG PASS：5文档27分块中两份current共10分块，三份旧superseded共17分块；真实semantic/hybrid各10，全部来自两份当前文档，旧证据返回0。"
+  ],
+  "ragAudit": {
+    "status": "PASS",
+    "recipeEntityId": "1ad08827-0d1d-4d97-8f37-11bb83e52e0f",
+    "query": "意式培根蛋面",
+    "initialDocumentIds": [
+      "3778b897-2004-4e39-89d6-65fe0b15d27c",
+      "582b7bfe-c481-4cca-95b5-3a063f095c16",
+      "ec7598c1-5dbd-49be-bd98-3eecebd34f66"
+    ],
+    "initialBookDocuments": 0,
+    "ingestion": [
+      {
+        "sourceName": "Serious Eats",
+        "documentId": "17a2aed3-bf61-47d1-ae2b-a38436d55521",
+        "contentHash": "eb4de36a5ddd7c53e322ac3a508101837b28d559e34655d2786a42a9bac922c4",
+        "embedded": true,
+        "reused": false,
+        "chunkCount": 5,
+        "embeddingModel": "voyage-4",
+        "actualEmbeddingDimensions": [
+          1024,
+          1024,
+          1024,
+          1024,
+          1024
+        ],
+        "rawTextSha256": "abaf447bbc980f3f2d30086519a8b03305e3203928d81b479b239ef02ff1ed49",
+        "rawTextBytes": 5389
+      },
+      {
+        "sourceName": "BBC Good Food",
+        "documentId": "b27715a8-f50c-45b0-a62a-baea36adc476",
+        "contentHash": "affeaafb5292834159af017021f8d52a5d49eda87cc8315c6fdd3aa98e4893ea",
+        "embedded": true,
+        "reused": false,
+        "chunkCount": 5,
+        "embeddingModel": "voyage-4",
+        "actualEmbeddingDimensions": [
+          1024,
+          1024,
+          1024,
+          1024,
+          1024
+        ],
+        "rawTextSha256": "e88f5832a84b32f12ddd8d0446415544b2902a6384d8421a71fc438bbc8f4a14",
+        "rawTextBytes": 6156
+      }
+    ],
+    "totalDocuments": 5,
+    "totalChunks": 27,
+    "currentDocuments": 2,
+    "currentChunks": 10,
+    "supersededDocuments": 3,
+    "supersededChunks": 17,
+    "documentStatuses": [
+      {
+        "documentId": "3778b897-2004-4e39-89d6-65fe0b15d27c",
+        "evidenceStatus": "superseded",
+        "replacementDocumentId": "b27715a8-f50c-45b0-a62a-baea36adc476"
+      },
+      {
+        "documentId": "17a2aed3-bf61-47d1-ae2b-a38436d55521",
+        "evidenceStatus": "current",
+        "replacementDocumentId": null
+      },
+      {
+        "documentId": "582b7bfe-c481-4cca-95b5-3a063f095c16",
+        "evidenceStatus": "superseded",
+        "replacementDocumentId": "17a2aed3-bf61-47d1-ae2b-a38436d55521"
+      },
+      {
+        "documentId": "b27715a8-f50c-45b0-a62a-baea36adc476",
+        "evidenceStatus": "current",
+        "replacementDocumentId": null
+      },
+      {
+        "documentId": "ec7598c1-5dbd-49be-bd98-3eecebd34f66",
+        "evidenceStatus": "superseded",
+        "replacementDocumentId": "b27715a8-f50c-45b0-a62a-baea36adc476"
+      }
+    ],
+    "semanticCount": 10,
+    "hybridCount": 10,
+    "semanticChunkIds": [
+      "6cfa46ef-71e1-46f9-a35a-a34b92aee50b",
+      "d04b6e29-cd85-41d0-b268-4f3ace09fe1f",
+      "6b73e606-ecfd-4be0-8e20-262540644894",
+      "2d47ab98-a238-404f-8ece-ecce57f623b0",
+      "9c3f7c44-1c14-4f36-a8b4-0979932b2497",
+      "7faaf0dc-0c61-4c93-a555-4c6928368943",
+      "1c2c0484-e9bf-4162-86f5-5667b9115358",
+      "70c798fd-b6a1-4f17-8eb1-0e83acecc14b",
+      "e423d9e8-2b5d-4702-bebc-26e8dfedba9d",
+      "6a2f0dbe-e35f-42e4-b876-699b6a6bdf70"
+    ],
+    "hybridChunkIds": [
+      "6b73e606-ecfd-4be0-8e20-262540644894",
+      "7faaf0dc-0c61-4c93-a555-4c6928368943",
+      "9c3f7c44-1c14-4f36-a8b4-0979932b2497",
+      "d04b6e29-cd85-41d0-b268-4f3ace09fe1f",
+      "6cfa46ef-71e1-46f9-a35a-a34b92aee50b",
+      "70c798fd-b6a1-4f17-8eb1-0e83acecc14b",
+      "2d47ab98-a238-404f-8ece-ecce57f623b0",
+      "1c2c0484-e9bf-4162-86f5-5667b9115358",
+      "e423d9e8-2b5d-4702-bebc-26e8dfedba9d",
+      "6a2f0dbe-e35f-42e4-b876-699b6a6bdf70"
+    ],
+    "semanticDocumentIds": [
+      "17a2aed3-bf61-47d1-ae2b-a38436d55521",
+      "b27715a8-f50c-45b0-a62a-baea36adc476"
+    ],
+    "hybridDocumentIds": [
+      "b27715a8-f50c-45b0-a62a-baea36adc476",
+      "17a2aed3-bf61-47d1-ae2b-a38436d55521"
+    ],
+    "excludedAuditReturned": false,
+    "verifiedAt": "2026-10-06T11:21:19.219Z",
+    "verifiedBy": "existing retrieve() and hybridSearch(), real voyage-4 query embeddings, full entity metadata-scoped direct audit excluding invalid/superseded/rejected"
+  },
+  "sourceAttempts": [
+    {
+      "sourceName": "Serious Eats",
+      "canonicalUrl": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+      "complete": true,
+      "ordinaryRecipeHttpStatus": 402,
+      "errorBodyBytes": 612,
+      "retrievalMethod": "公开web完整正文+普通原图HTTP200",
+      "outcome": "selected",
+      "wholeRecipeTiming": {
+        "prepMinutes": 5,
+        "cookMinutes": 25,
+        "totalMinutes": 30,
+        "servings": 4,
+        "stepDurations": [
+          null,
+          420,
+          null,
+          null,
+          null
+        ]
+      },
+      "documentId": "17a2aed3-bf61-47d1-ae2b-a38436d55521"
+    },
+    {
+      "sourceName": "BBC Good Food",
+      "canonicalUrl": "https://www.bbcgoodfood.com/recipes/ultimate-spaghetti-carbonara-recipe",
+      "complete": true,
+      "ordinaryRecipeHttpStatus": 200,
+      "ordinaryHtmlBytes": 582463,
+      "retrievalMethod": "正常HTML+JSON-LD+公开web正文",
+      "outcome": "complete_independent_unselected",
+      "wholeRecipeTiming": {
+        "prepMinutes": 20,
+        "cookMinutes": 15,
+        "totalMinutes": 35,
+        "servings": 4,
+        "stepDurations": [
+          null,
+          null,
+          null,
+          600,
+          null,
+          null,
+          300,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "media": {
+        "recipePageUrl": "https://www.bbcgoodfood.com/recipes/ultimate-spaghetti-carbonara-recipe",
+        "mediaPageUrl": "https://www.bbcgoodfood.com/recipes/ultimate-spaghetti-carbonara-recipe",
+        "sourceName": "BBC Good Food",
+        "author": null,
+        "rightsNotice": null,
+        "reuseLicense": null,
+        "repositoryCopyAuthorized": true,
+        "hero": {
+          "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1001491_11-2e0fa5c.jpg?resize=440,400",
+          "repositoryPath": "assets/dishes/sources/west-011-carbonara-bbc/hero.jpg",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "pageOrder": 1,
+          "adjacentText": "Ultimate spaghetti carbonara recipe",
+          "photoAuthor": null,
+          "recipeAuthor": "Angela Nilsen",
+          "visualVerified": true,
+          "visualReview": "实际成品盘，意面、酱汁、肉丁与芝士，非过程图。",
+          "sourceBytesSha256": "5bc341b17bc2019d1d86ad4b4f846a553438785b5cb987ebc7961f98c2d49f6e"
+        },
+        "steps": [
+          {
+            "originalUrl": "https://media.delight.video/0c18e53b610964fac175fe0e757adc30557e79b7/790e43d0a5925884291cf76b8250e1a5717cd4b7/MEDIA/v0/THUMBS/media.0000019.jpg",
+            "repositoryPath": "assets/dishes/sources/west-011-carbonara-bbc/step-3.jpg",
+            "stepOrder": 3,
+            "sourceStepOrder": 3,
+            "adjacentText": "Beat the 3 large eggs in a medium bowl and season with a little freshly grated black pepper. Set everything aside.",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "pageOrder": 2,
+            "width": 100,
+            "height": 56,
+            "sourceVideoTitle": "How to make spaghetti carbonara",
+            "photoAuthor": null,
+            "recipeAuthor": "Angela Nilsen",
+            "visualVerified": true,
+            "visualReview": "同菜谱VideoObject真实缩略图：手用打蛋器搅拌碗内蛋液，对应源步骤3；100×56分辨率有限，不能据此确认具体蛋数或再映射芝士混合。",
+            "sourceBytesSha256": "75a46ba2750bf0bddd920df6016c87b84e31e42c901c3ddc9c203e5e098ca9ba"
+          }
+        ]
+      },
+      "documentId": "b27715a8-f50c-45b0-a62a-baea36adc476"
+    }
+  ],
+  "otherInspectedMedia": [
+    {
+      "originalUrl": "https://www.seriouseats.com/thmb/xZuoikXQIwWk24jrZndR0DaqIJo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2016__12__20151118-spaghetti-carbonara-vicky-wasik-2-4c290623ee40446dab2d984237fbbd7b.jpg",
+      "sourceName": "Serious Eats",
+      "author": "Vicky Wasik",
+      "rightsNotice": "Serious Eats / Vicky Wasik",
+      "recipePageUrl": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+      "mediaPageUrl": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+      "pageOrder": 2,
+      "adjacentText": "Guanciale, as you can see in the photo above, tends to have the highest ratio of fat to lean meat",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "visualVerified": true,
+      "visualReview": "切片腌猪颊肉，正文准备图，与方向2切肉相关但选中拼图已有覆盖。",
+      "selected": false
+    },
+    {
+      "originalUrl": "https://www.seriouseats.com/thmb/zaWsaTPxZFEPIePqCOmw5a5Oma0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2015__11__20151118-spaghetti-carbonara-vicky-wasik-9-4ef970c7eae14ab2a91f50468a60410a.jpg",
+      "sourceName": "Serious Eats",
+      "author": "Vicky Wasik",
+      "rightsNotice": "Serious Eats / Vicky Wasik",
+      "recipePageUrl": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+      "mediaPageUrl": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+      "pageOrder": 3,
+      "adjacentText": "In my test, I made a single portion of carbonara using 100 grams of dried pasta",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "visualVerified": true,
+      "visualReview": "蛋黄和全蛋试验成品对比，不映射步骤。",
+      "selected": false
+    },
+    {
+      "originalUrl": "https://www.seriouseats.com/thmb/64GX4iZSHP1ahB_8FueAUAAibwE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2015__11__20151118-spaghetti-carbonara-vicky-wasik-25-fe6cf01710bd421b8a71125e9068f0e9.jpg",
+      "sourceName": "Serious Eats",
+      "author": "Vicky Wasik",
+      "rightsNotice": "Serious Eats / Vicky Wasik",
+      "recipePageUrl": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+      "mediaPageUrl": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+      "pageOrder": 4,
+      "adjacentText": "Okay, now it's time to actually cook the dish.",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "visualVerified": true,
+      "visualReview": "纯成品，不映射步骤。",
+      "selected": false
+    },
+    {
+      "originalUrl": "https://www.seriouseats.com/thmb/bi2typOxEv3DLIerA1TqVmG-_TQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2015__11__20151118-spaghetti-carbonara-COLLAGE-4-e2262eccab2e4d21b4192e96ddcc3537.jpg",
+      "sourceName": "Serious Eats",
+      "author": "Vicky Wasik",
+      "rightsNotice": "Serious Eats / Vicky Wasik",
+      "recipePageUrl": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+      "mediaPageUrl": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+      "pageOrder": 5,
+      "adjacentText": "Higher Risk: The Skillet Method",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "visualVerified": true,
+      "visualReview": "平底锅直接加热的三格操作，是正文另一高风险路线，不映射选中隔水步骤5。",
+      "selected": false
+    },
+    {
+      "originalUrl": "https://www.seriouseats.com/thmb/EI5U4JWMhb8NdMiw7hUd2Qz1_UQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2015__11__20151118-spaghetti-carbonara-vicky-wasik-24-573f8a35c510494ebb1e1ba3c1fdb4d6.jpg",
+      "sourceName": "Serious Eats",
+      "author": "Vicky Wasik",
+      "rightsNotice": "Serious Eats / Vicky Wasik",
+      "recipePageUrl": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+      "mediaPageUrl": "https://www.seriouseats.com/pasta-carbonara-sauce-recipe",
+      "pageOrder": 6,
+      "adjacentText": "As soon as the sauce reaches the right consistency, transfer the pasta to a warm serving bowl.",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "visualVerified": true,
+      "visualReview": "手向成品撒芝士，可支持方向5装盘部分，选中拼图已覆盖方向5。",
+      "selected": false
+    },
+    {
+      "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1001491_11-2e0fa5c.jpg?resize=440,400",
+      "repositoryPath": "assets/dishes/sources/west-011-carbonara-bbc/hero.jpg",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "pageOrder": 1,
+      "adjacentText": "Ultimate spaghetti carbonara recipe",
+      "photoAuthor": null,
+      "recipeAuthor": "Angela Nilsen",
+      "visualVerified": true,
+      "visualReview": "实际成品盘，意面、酱汁、肉丁与芝士，非过程图。",
+      "sourceBytesSha256": "5bc341b17bc2019d1d86ad4b4f846a553438785b5cb987ebc7961f98c2d49f6e",
+      "sourceName": "BBC Good Food",
+      "recipePageUrl": "https://www.bbcgoodfood.com/recipes/ultimate-spaghetti-carbonara-recipe",
+      "selected": false
+    },
+    {
+      "originalUrl": "https://media.delight.video/0c18e53b610964fac175fe0e757adc30557e79b7/790e43d0a5925884291cf76b8250e1a5717cd4b7/MEDIA/v0/THUMBS/media.0000019.jpg",
+      "repositoryPath": "assets/dishes/sources/west-011-carbonara-bbc/step-3.jpg",
+      "stepOrder": 3,
+      "sourceStepOrder": 3,
+      "adjacentText": "Beat the 3 large eggs in a medium bowl and season with a little freshly grated black pepper. Set everything aside.",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "pageOrder": 2,
+      "width": 100,
+      "height": 56,
+      "sourceVideoTitle": "How to make spaghetti carbonara",
+      "photoAuthor": null,
+      "recipeAuthor": "Angela Nilsen",
+      "visualVerified": true,
+      "visualReview": "同菜谱VideoObject真实缩略图：手用打蛋器搅拌碗内蛋液，对应源步骤3；100×56分辨率有限，不能据此确认具体蛋数或再映射芝士混合。",
+      "sourceBytesSha256": "75a46ba2750bf0bddd920df6016c87b84e31e42c901c3ddc9c203e5e098ca9ba",
+      "sourceName": "BBC Good Food",
+      "recipePageUrl": "https://www.bbcgoodfood.com/recipes/ultimate-spaghetti-carbonara-recipe",
+      "selected": false
+    },
+    {
+      "originalUrl": "https://media.delight.video/0c18e53b610964fac175fe0e757adc30557e79b7/790e43d0a5925884291cf76b8250e1a5717cd4b7/POSTER_USER/v0/790e43d0a5925884291cf76b8250e1a5717cd4b7.jpeg",
+      "sourceName": "BBC Good Food",
+      "recipePageUrl": "https://www.bbcgoodfood.com/recipes/ultimate-spaghetti-carbonara-recipe",
+      "mediaPageUrl": "https://www.bbcgoodfood.com/recipes/ultimate-spaghetti-carbonara-recipe",
+      "pageOrder": 3,
+      "adjacentText": "How to make spaghetti carbonara (VideoObject customPosterUrl)",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "photoAuthor": null,
+      "recipeAuthor": "Angela Nilsen",
+      "visualVerified": true,
+      "visualReview": "纯成品意面宣传封面，不可作为步骤图。",
+      "selected": false
+    }
+  ]
+}

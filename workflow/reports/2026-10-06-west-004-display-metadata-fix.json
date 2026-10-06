@@ -1,0 +1,19 @@
+{
+  "recipeId": "west-004",
+  "status": "published",
+  "issue": "Optional source egg safety alternative2hours misrepresented as mandatory dressing step timer; compoundsteps evidence null, yield4 displayed2, 干酪dairy classification missing.",
+  "implementation": "Add source-backed optional timing.stepDurations with exact count and positive supported seconds/null; source explicit yield tenthservings; detect干酪 dairy. Preserve allsourceprose and images, allothercanonicalrecords unchanged.",
+  "externalSpecPath": "D:/OneDrive/桌面/rag/CODEX_RAG_SPEC.md",
+  "externalSpecSha256LF": "95ef772d082033789251d792885dda5634bae0c986914c584c4abba4c71704d0",
+  "contractsUpdated": [
+    "workflow/prompts/editor.md",
+    "workflow/prompts/reviewer.md",
+    "workflow/prompts/orchestrator.md"
+  ],
+  "unitTest": "node tools/workflow/test-step-metadata.mjs PASS",
+  "note": "No infrastructure, table, externalservice, media or source substitution.",
+  "independentReview": "workflow/reviews/2026-10-06-west-004-adversarial.json",
+  "finalTests": "workflow/validation-results/2026-10-06-west-004-deterministic.txt",
+  "contentCommit": "1deef6c8788aca101505cb11c76fd821d7f0d88f",
+  "completedAt": "2026-10-06T06:53:09Z"
+}

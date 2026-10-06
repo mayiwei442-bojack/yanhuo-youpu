@@ -1,0 +1,353 @@
+{
+  "recipeId": "cn-010",
+  "createdAt": "2026-10-05T15:44:58.991Z",
+  "sourceMode": "multi_source",
+  "selectedSourceUrl": "https://www.douguo.com/cookbook/3355060.html",
+  "selectionReason": "三份资料均名称匹配、文字完整且各自自洽。按完整性/自洽优先后比较可用源图：豆果13个可执行操作有13张逐步语义正确的照片（100%），Woks9执行阶段4个阶段有图（44.4%），书籍没有已核验图。选择豆果整份作者版本；不因Woks原料更多或其40分钟总时长覆盖更高的完整豆果图片证据。不混用其他两来源。",
+  "qualifyingSourceUrls": [
+    "https://thewoksoflife.com/di-san-xian-stir-fry/",
+    null,
+    "https://www.douguo.com/cookbook/3355060.html"
+  ],
+  "assessments": {
+    "https://www.douguo.com/cookbook/3355060.html": {
+      "qualifies": true,
+      "ingredientCoverage": "complete",
+      "stepCoverage": "complete",
+      "internalCoherence": "coherent",
+      "heroImages": 1,
+      "mappedStepImages": 13,
+      "stepImageCoverage": 1,
+      "ingredientCount": 12,
+      "executableStepCount": 13,
+      "notes": [
+        "清水半碗来自原文步骤5，保留12原料完整版本。",
+        "网页第14条为成品风味说明，非可执行操作，不计13个操作分母且其成品图不可贴作过程图。",
+        "两种淀粉清单分别8克/10克，步骤各1勺；原文没有勺容量或克-勺等值定义。保留两个位置原文，不自行换算，也不把不同单位直接断言为数值冲突。",
+        "完整保留2+2+1勺油、一半+剩余一半蒜、7成热、中小火煎至基本熟透、小火汁变稠、大火收汁。",
+        "无明确Prep/Cook/Total或单阶段分钟数，不得从Woks40分钟移植timing。",
+        "锅中两种蔬菜煎后盛出、全部回锅的去向明确；13动作照片全部实际视觉核对。"
+      ]
+    },
+    "https://thewoksoflife.com/di-san-xian-stir-fry/": {
+      "qualifies": true,
+      "ingredientCoverage": "complete",
+      "stepCoverage": "complete",
+      "internalCoherence": "coherent",
+      "heroImages": 1,
+      "mappedStepImages": 4,
+      "stepImageCoverage": 0.4444444444444444,
+      "ingredientCount": 15,
+      "executableStepCount": 9,
+      "notes": [
+        "完整保留15原料包含条件追加食用油（归同一油行）、9分解执行stage。",
+        "4 distinct action stage photos map to stages3/4/5/8; second stage8 action photo is retained only as alternate.",
+        "Prep20/Cook20/Total40明示，留在此候选证据不移植到豆果。",
+        "前言提及red/yellow，原料表实际red/orange；此候选依recipe card保留red/orange并记录差异。",
+        "名称Di San Xian(地三鲜)明确；不同调料和甜椒颜色为独立作者版本，不跨源融合。"
+      ]
+    },
+    "null": {
+      "qualifies": true,
+      "ingredientCoverage": "complete",
+      "stepCoverage": "complete",
+      "internalCoherence": "coherent",
+      "heroImages": 0,
+      "mappedStepImages": 0,
+      "stepImageCoverage": 0,
+      "ingredientCount": 9,
+      "executableStepCount": 4,
+      "notes": [
+        "完整文字版本已补齐绿菜椒1OOg和500ml油（实耗20ml）；保留原文1OOg字符，不猜测修订原稿。",
+        "书籍无固定页码，以text00015.html#subid9定位；没有已核验图片URL。",
+        "完整可靠文字资料应独立计数，不因无图称不完整；本轮source-image发布不选无图书籍。",
+        "原文明示底油1汤匙15ml，可保留15ml；不可推到其他来源匙容量。",
+        "准备10分钟/烹饪20分钟保留；该无酱油清爽炸法独立于两网页作者版本。"
+      ]
+    }
+  },
+  "media": {
+    "recipePageUrl": "https://www.douguo.com/cookbook/3355060.html",
+    "mediaPageUrl": "https://www.douguo.com/cookbook/3355060.html",
+    "sourceName": "豆果美食",
+    "author": "沙小囡",
+    "rightsNotice": "©本菜谱的做法由 沙小囡 编写，未经授权不得转载",
+    "reuseLicense": null,
+    "repositoryCopyAuthorized": true,
+    "hero": {
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/1/9/6/960_1911ac25f2a9d758f10eb61676a0b686.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-010-di-san-xian/hero.jpg",
+      "httpStatus": 200,
+      "contentType": "image/jpeg;charset=UTF-8",
+      "pageOrder": 0,
+      "adjacentText": "地三鲜—东北菜里很朴实的一道",
+      "role": "finished_dish"
+    },
+    "steps": [
+      {
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/4/d/d/800_4d2335fbd7ea0a245b39bf8d3cfbf85d.jpg",
+        "repositoryPath": "assets/dishes/sources/cn-010-di-san-xian/step-1.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8",
+        "stepOrder": 1,
+        "sourceStepOrder": 1,
+        "pageOrder": 1,
+        "adjacentText": "准备食材。"
+      },
+      {
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/3/5/3/800_35e6d418d61d7d6102e4c32b85546003.jpg",
+        "repositoryPath": "assets/dishes/sources/cn-010-di-san-xian/step-2.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg",
+        "stepOrder": 2,
+        "sourceStepOrder": 2,
+        "pageOrder": 2,
+        "adjacentText": "土豆洗净去皮切滚刀块，长茄子洗净去蒂切滚刀块，辣椒洗净去筋去籽切大片备用。"
+      },
+      {
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/f/4/d/800_f4e86200b3a885f42b062a334d0cd17d.jpg",
+        "repositoryPath": "assets/dishes/sources/cn-010-di-san-xian/step-3.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8",
+        "stepOrder": 3,
+        "sourceStepOrder": 3,
+        "pageOrder": 3,
+        "adjacentText": "蒜去皮去蒂切蒜末备用。"
+      },
+      {
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/9/4/b/800_9412ea75b89494d67ce9a3acfa3577fb.jpg",
+        "repositoryPath": "assets/dishes/sources/cn-010-di-san-xian/step-4.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8",
+        "stepOrder": 4,
+        "sourceStepOrder": 4,
+        "pageOrder": 4,
+        "adjacentText": "切好的茄子放进容器中，均匀撒1勺红薯淀粉，颠匀，让每一块茄子裹薄薄一层淀粉，既吸油又更容易挂汁。"
+      },
+      {
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/0/5/d/800_05ae16b393bc5498955e38263a09d4bd.jpg",
+        "repositoryPath": "assets/dishes/sources/cn-010-di-san-xian/step-5.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8",
+        "stepOrder": 5,
+        "sourceStepOrder": 5,
+        "pageOrder": 5,
+        "adjacentText": "小碗中加2勺生抽，1勺蚝油，加1中勺白糖、1小勺盐、1勺玉米淀粉，半碗清水搅拌均匀成料汁。"
+      },
+      {
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/9/f/5/800_9f56899ddacfbcffd51f78c91b2a31c5.jpg",
+        "repositoryPath": "assets/dishes/sources/cn-010-di-san-xian/step-6.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8",
+        "stepOrder": 6,
+        "sourceStepOrder": 6,
+        "pageOrder": 6,
+        "adjacentText": "锅中加入2勺食用油，烧至7成热，将土豆块下锅。"
+      },
+      {
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/7/5/f/800_75b8cad0641fa7f65a7e10c324027a1f.jpg",
+        "repositoryPath": "assets/dishes/sources/cn-010-di-san-xian/step-7.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8",
+        "stepOrder": 7,
+        "sourceStepOrder": 7,
+        "pageOrder": 7,
+        "adjacentText": "中小火煎到表面金黄、基本熟透后盛出备用。"
+      },
+      {
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/4/2/5/800_42cb2309df54ef42e0a150423170bc35.jpg",
+        "repositoryPath": "assets/dishes/sources/cn-010-di-san-xian/step-8.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8",
+        "stepOrder": 8,
+        "sourceStepOrder": 8,
+        "pageOrder": 8,
+        "adjacentText": "锅中再补2勺食用油，烧热后放入茄子块。"
+      },
+      {
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/e/4/2/800_e4cb75af13455ecbba1070b88fb34372.jpg",
+        "repositoryPath": "assets/dishes/sources/cn-010-di-san-xian/step-9.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8",
+        "stepOrder": 9,
+        "sourceStepOrder": 9,
+        "pageOrder": 9,
+        "adjacentText": "再下辣椒，煎到茄子变软，辣椒微焦，快速翻两下，先盛出备用。"
+      },
+      {
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/8/8/2/800_88ad5247700b33edf8dfcbd1cca87542.jpg",
+        "repositoryPath": "assets/dishes/sources/cn-010-di-san-xian/step-10.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8",
+        "stepOrder": 10,
+        "sourceStepOrder": 10,
+        "pageOrder": 10,
+        "adjacentText": "锅中再加入1勺食用油，下入一半的蒜末炒香。"
+      },
+      {
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/d/7/2/800_d73ba164f2e1235187067a1061a36982.jpg",
+        "repositoryPath": "assets/dishes/sources/cn-010-di-san-xian/step-11.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8",
+        "stepOrder": 11,
+        "sourceStepOrder": 11,
+        "pageOrder": 11,
+        "adjacentText": "倒入提前调好的酱汁，小火煮到微微变稠。"
+      },
+      {
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/7/2/5/800_72bb739e5db652f92d168efc30ae0925.jpg",
+        "repositoryPath": "assets/dishes/sources/cn-010-di-san-xian/step-12.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg",
+        "stepOrder": 12,
+        "sourceStepOrder": 12,
+        "pageOrder": 12,
+        "adjacentText": "倒回土豆、茄子和青椒，再加入剩下一半的蒜末。"
+      },
+      {
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/0/a/a/800_0ab6838ea80607c82f8d10a53394ce2a.jpg",
+        "repositoryPath": "assets/dishes/sources/cn-010-di-san-xian/step-13.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8",
+        "stepOrder": 13,
+        "sourceStepOrder": 13,
+        "pageOrder": 13,
+        "adjacentText": "大火快速翻炒，让酱汁均匀裹住食材，收至明亮油润即可出锅。"
+      }
+    ]
+  },
+  "otherSourceMedia": {
+    "https://thewoksoflife.com/di-san-xian-stir-fry/": {
+      "recipePageUrl": "https://thewoksoflife.com/di-san-xian-stir-fry/",
+      "mediaPageUrl": "https://thewoksoflife.com/di-san-xian-stir-fry/",
+      "sourceName": "The Woks of Life",
+      "author": "Judy",
+      "rightsNotice": "All Rights Reserved © The Woks of Life",
+      "reuseLicense": null,
+      "repositoryCopyAuthorized": true,
+      "hero": {
+        "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2016/07/di-san-xian-7.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg",
+        "stepOrder": null,
+        "sourceStepOrder": null,
+        "adjacentText": "Finished Di San Xian hero",
+        "pageOrder": 0
+      },
+      "steps": [
+        {
+          "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2016/07/di-san-xian.jpg",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "stepOrder": 3,
+          "sourceStepOrder": 3,
+          "adjacentText": "Add the potato, and brown lightly for about 8 minutes until cooked through.",
+          "pageOrder": 2
+        },
+        {
+          "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2016/07/di-san-xian-2.jpg",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "stepOrder": 4,
+          "sourceStepOrder": 3,
+          "adjacentText": "Now add the bell peppers, and stir-fry for another minute.",
+          "pageOrder": 3
+        },
+        {
+          "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2016/07/di-san-xian-3.jpg",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "stepOrder": 5,
+          "sourceStepOrder": 4,
+          "adjacentText": "Spread the eggplant pieces into a single layer, cover the lid for a minute, uncover, stir, then repeat 2-3 times.",
+          "pageOrder": 4
+        },
+        {
+          "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2016/07/di-san-xian-4.jpg",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "stepOrder": 8,
+          "sourceStepOrder": 5,
+          "adjacentText": "Turn up the heat and add the cornstarch slurry and scallions.",
+          "pageOrder": 5
+        }
+      ],
+      "alternates": [
+        {
+          "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2016/07/di-san-xian-5.jpg",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "stepOrder": 8,
+          "sourceStepOrder": 5,
+          "adjacentText": "Cornstarch slurry and scallions being added; alternative photograph of the same source step.",
+          "pageOrder": 6
+        }
+      ],
+      "finishedDishAlternates": [
+        {
+          "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2016/07/di-san-xian-8.jpg",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "stepOrder": null,
+          "sourceStepOrder": null,
+          "adjacentText": "Plated finished dish; not process evidence",
+          "pageOrder": 1,
+          "role": "finished_dish_not_action_image"
+        },
+        {
+          "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2016/07/di-san-xian-6.jpg",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "stepOrder": null,
+          "sourceStepOrder": null,
+          "adjacentText": "Plated finished dish; not process evidence",
+          "pageOrder": 7,
+          "role": "finished_dish_not_action_image"
+        },
+        {
+          "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2016/07/di-san-xian-9.jpg",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "stepOrder": null,
+          "sourceStepOrder": null,
+          "adjacentText": "Plated finished dish; not process evidence",
+          "pageOrder": 8,
+          "role": "finished_dish_not_action_image"
+        }
+      ]
+    },
+    "null": {
+      "sourceName": "贝太厨房:从小爱吃的菜2",
+      "author": "《贝太厨房》工作室",
+      "location": "text00015.html#subid9",
+      "hero": null,
+      "steps": [],
+      "notes": [
+        "No verified media URLs in existing complete text evidence."
+      ]
+    },
+    "https://www.douguo.com/cookbook/3355060.html": {
+      "additionalFinishedDish": {
+        "originalUrl": "https://cp1.douguo.com/upload/caiku/0/2/f/800_02d4cddd21a1f779c7062f7cb06a212f.jpg",
+        "httpStatus": 200,
+        "contentType": "image/jpeg;charset=UTF-8",
+        "sourceStepOrder": 14,
+        "pageOrder": 14,
+        "adjacentText": "茄子吸满汤汁，绵密不烂，辣椒提香开胃，简单家常却越吃越香。",
+        "role": "finished_dish_not_action_image"
+      }
+    }
+  },
+  "notes": [
+    "Exact-name KB query preceded configured website research; entity f181db98-de44-47f9-a144-35593f30ad43.",
+    "Configured Woks search matched Di San Xian exact target. Ordinary web reader fetched full body/card successfully; direct Node page403 was recorded without bypass.",
+    "Configured Douguo3355060 ordinary Node public pageGET200; web reader403. All original image URLs traced through public HTML and independently type/status checked; actual pixels reviewed.",
+    "Woks independent normalization ingested document f292079a-944f-41b5-b180-42b54daef3ff;6 voyage-4 chunks actual vector_dims1024. Source tablespoons/teaspoons remain unchanged, no metric capacity invention.",
+    "Corrected book0ccf6dd7 and Douguo774a9bcc ingestion deduplicated=true embedded=false; each5 voyage-4 chunks actual vector_dims1024; no re-embedding of unchanged history.",
+    "Old omitted-ingredient book6b53a2db and Douguodf73cc80 retained for audit with doc AND all5 chunks evidenceStatus=superseded and replacementDocumentId to reliable corrected versions. Real semantic and hybrid retrieval both returned16 current chunks from exactly3 current documents, no old document.",
+    "All three complete independent sources retained; select exactly one whole Douguo source by completeness/coherence then its13/13 action image coverage versus Woks4/9 and book0/4.",
+    "Douguo source step14 is finished-dish prose and plated photo; retain as provenance/tip, exclude from executable steps/photos. Do not borrow any Woks/book ingredients, times, methods or photos.",
+    "Author rights restriction recorded; repository copy authorization is separately user_confirmed_2026-09-16 as supplied by orchestrator, not a website reuse license.",
+    "Source original table starch weights and method spoon quantities are both evidence. Undefined spoon/bowl capacity cannot be converted to ml or reconciled with invented equivalence."
+  ]
+}

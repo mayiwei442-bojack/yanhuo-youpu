@@ -24,7 +24,7 @@ export function createRecipeSnapshot(catalog = createRecipeCatalog()) {
 }
 
 export function splitRecipeSteps(text) {
-  return String(text || "").split(/(?=\d+[）)])/u).map((part) => part.trim()).filter(Boolean);
+  return String(text || "").split(/(?<!\d)(?=\d+[）)])/u).map((part) => part.trim()).filter(Boolean);
 }
 
 export function splitRecipeIngredients(text) {

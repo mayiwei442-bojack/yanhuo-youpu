@@ -1,3 +1,5 @@
+import { isUsableEvidenceChunk } from "./evidence-status.mjs";
+
 function diversify(results, { limit, maxPerSource }) {
   const counts = new Map();
   const diversified = [];
@@ -29,5 +31,5 @@ export async function retrieve({
     filter_recipe_entity_id: recipeEntityId,
     filter_chunk_types: chunkTypes
   });
-  return diversify(results || [], { limit, maxPerSource });
+  return diversify((results || []).filter(isUsableEvidenceChunk), { limit, maxPerSource });
 }

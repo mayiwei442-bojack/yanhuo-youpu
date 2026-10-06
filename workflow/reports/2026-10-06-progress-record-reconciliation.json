@@ -1,0 +1,15 @@
+{
+  "verifiedAt": "2026-10-05T23:27:17Z",
+  "scope": "已完成菜品的进度索引及漏记审核记录，仅工作流记录，不改菜谱或新增完成数",
+  "canonicalRecipesChanged": false,
+  "batchCompletedCountChanged": false,
+  "items": [
+    { "recipeId": "cn-001", "runId": "2026-09-16-cn-001-source-images", "contentCommit": "9c753fd", "reviewCommit": "f892dff", "reviewArtifact": "workflow/reviews/2026-09-19-cn-001-adversarial.json", "evidencePackageHashVerified": "0e8497dd8e9cc00ba8dc06b4b2786a2586d916aceef5af510b7cd169124dd7bf", "change": "既有Reviewer PASS漏记；进度原指旧文字更新。当前审计确认后闭合旧run，completedAt明确为记录核验时间，不伪造历史审核时间。" },
+    { "recipeId": "cn-004", "runId": "2026-09-19-cn-004-source-images", "contentCommit": "b5822be", "change": "进度索引与completedAt同步既有done run" },
+    { "recipeId": "cn-005", "runId": "2026-10-05-cn-005-source-images", "contentCommit": "e4e27a4", "change": "进度索引与completedAt同步既有done run" },
+    { "recipeId": "cn-006", "runId": "2026-09-20-cn-006-source-images", "contentCommit": "0cff918", "change": "沿用原run文件ID，索引和完成时间同步其实际Oct5完成记录，不更名历史run" },
+    { "recipeId": "cn-009", "runId": "2026-09-16-cn-009-source-images", "contentCommit": "6981feb", "change": "进度索引与completedAt同步既有done run" }
+  ],
+  "verification": { "existingReviewsPass": true, "allSixPublicationCommitsAreAncestorsOfPublishedAutomationBranch": true, "currentAll11MediaRecipesBrowserAndDeterministicTestsPass": "workflow/validation-results/2026-10-06-cn-024-deterministic.txt" },
+  "unchangedFollowups": "四道菜的同源timing回填与青椒肉丝孤立15分钟上下文核验仍待完成，不因记录修正而宣称已完成。"
+}

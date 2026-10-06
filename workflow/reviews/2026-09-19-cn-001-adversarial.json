@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "番茄炒蛋的 5 个食材行均为有效食材，6 个步骤语法完整、标点正常、编号连续；前端分隔后未产生孤立说明，证据、正文和图片仍属于同一豆果信源。",
+  "evidencePackageHash": "0e8497dd8e9cc00ba8dc06b4b2786a2586d916aceef5af510b7cd169124dd7bf",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "ok": true,
+  "targetId": "west-020",
+  "attempts": 4,
+  "checks": [
+    { "name": "unique_ids", "passed": true },
+    { "name": "target_exists_once", "passed": true },
+    { "name": "required_fields", "passed": true },
+    { "name": "target_name", "passed": true },
+    { "name": "target_ingredients", "passed": true, "count": 23 },
+    { "name": "target_steps", "passed": true, "count": 8 },
+    { "name": "stable_target_fields", "passed": true, "allowedChanges": ["source"] },
+    { "name": "target_changed", "passed": true, "required": true },
+    { "name": "target_only_diff", "passed": true, "changed": [] },
+    { "name": "generated_target_exists", "passed": true }
+  ],
+  "errors": [],
+  "attemptHistory": [
+    { "attempt": 1, "passed": false, "reason": "The step 8 override 1200 seconds was rejected because the step contains both baking and a separate resting phase; changed its timer to null while retaining both durations in prose." },
+    { "attempt": 2, "passed": true, "note": "A subsequent adversarial ingredient audit identified source-directed cooking/rinsing water absent from the shopping rows; added a supported 清水 row and reran validation." },
+    { "attempt": 3, "passed": true, "note": "Re-mapped the browned topping image from assembly step 7 to the source's baked-until-browned step 8, then reran validation." },
+    { "attempt": 4, "passed": true, "final": true }
+  ],
+  "commands": [
+    { "command": "node tools/build_html_demo_data.mjs", "passed": true, "status": 0, "stdout": "Generated 90 recipes.", "stderr": "" },
+    { "command": "node tools/test_html_demo.mjs", "passed": true, "status": 0, "summary": { "recipes": 90, "pantryItems": 35, "target": { "id": "west-020", "steps": 8, "stepImages": 5 }, "testedRoutes": ["home", "pantry", "recommendations", "recipe", "game", "cook", "shopping", "recipes", "me"], "browserErrors": [] } },
+    { "command": "node tools/build_vercel_output.mjs", "passed": true, "status": 0, "summary": "Static production build generated." }
+  ]
+}

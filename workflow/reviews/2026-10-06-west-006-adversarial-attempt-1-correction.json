@@ -1,0 +1,18 @@
+{
+  "status": "FAIL",
+  "issues": [
+    {
+      "field": "ingredients[14].name",
+      "message": "The previously generated data still has the pre-edit ingredient identity 清水每次; rerun the validator/generator after the Editor correction, then review the regenerated value."
+    }
+  ],
+  "summary": "Reviewer withdrew the duplicate step-number finding after confirming splitSteps removes the canonical 1）-4） delimiters. This pre-rerun result still fails on stale generated ingredient data and is superseded by a post-edit validator and review.",
+  "evidencePackageHash": "69aee0b2c5c533b3e856910138d81346829fa0d3cfa07873370bef54388a74c4",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": false,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

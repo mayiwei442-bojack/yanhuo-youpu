@@ -1,0 +1,30 @@
+{
+  "recipeId": "cn-003",
+  "createdAt": "2026-09-16T04:36:26.246Z",
+  "sourceMode": "single_source",
+  "singleSourceReason": "两份来源的正文都完整自洽，但豆果四个步骤都只有非本菜谱的 cookno.jpg 占位图，不可作语义映射。Woks 具备成品图和可准确映射的真实步骤图，因此是唯一合格主信源。",
+  "selectedSourceUrl": "https://thewoksoflife.com/ma-po-tofu-real-deal/",
+  "selectionReason": "Woks 步骤更丰富，包含分次用油、火力、时间和状态判断，且有同页真实图片。豆果的占位图不能用于该菜步骤。",
+  "qualifyingSourceUrls": ["https://thewoksoflife.com/ma-po-tofu-real-deal/"],
+  "assessments": {
+    "https://thewoksoflife.com/ma-po-tofu-real-deal/": {
+      "qualifies": true, "ingredientCoverage": "complete", "stepCoverage": "complete", "internalCoherence": "coherent", "heroImages": 1, "mappedStepImages": 4, "stepImageCoverage": 0.6666666666666666, "ingredientCount": 15, "executableStepCount": 6,
+      "notes": ["步骤2、3、5、6有可准确映射的真实图片；步骤1和4保留纯文字。"]
+    }
+  },
+  "media": {
+    "recipePageUrl": "https://thewoksoflife.com/ma-po-tofu-real-deal/", "mediaPageUrl": "https://thewoksoflife.com/ma-po-tofu-real-deal/", "sourceName": "The Woks of Life", "author": "Kaitlin", "rightsNotice": "All Rights Reserved © The Woks of Life", "reuseLicense": null,
+    "hero": { "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/06/mapo-tofu-10.jpg" },
+    "steps": [
+      { "stepOrder": 2, "adjacentText": "Fry the ground pork until cooked through.", "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/06/mapo-tofu-5.jpg" },
+      { "stepOrder": 3, "adjacentText": "Add spicy bean sauce.", "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/06/mapo-tofu-6.jpg" },
+      { "stepOrder": 3, "adjacentText": "Stir in the bean sauce.", "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/06/mapo-tofu-7.jpg" },
+      { "stepOrder": 3, "adjacentText": "Add broth and simmer.", "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/06/mapo-tofu-8.jpg" },
+      { "stepOrder": 3, "adjacentText": "Prepare tofu and cornstarch slurry.", "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/06/mapo-tofu-2.jpg" },
+      { "stepOrder": 5, "adjacentText": "Add chili oil and tofu, then scallions.", "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/06/mapo-tofu-9.jpg" },
+      { "stepOrder": 6, "adjacentText": "Finish with optional Sichuan peppercorn.", "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/06/mapo-tofu-11.jpg" },
+      { "stepOrder": 6, "adjacentText": "Finished mapo tofu.", "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/09/mapo-tofu-recipe-2.jpg" }
+    ]
+  },
+  "notes": ["复用未变更 Woks documentId=0c24a839-89d2-4372-bb85-a1ce573d4ba4，已完成 RAG 检索验证。", "豆果文本完整但步骤媒体均为通用占位图，保留为 RAG 独立来源，不补充本菜。", "用户已确认 2026-09-16 仓库图片复制授权；运行时只用本地路径。"]
+}

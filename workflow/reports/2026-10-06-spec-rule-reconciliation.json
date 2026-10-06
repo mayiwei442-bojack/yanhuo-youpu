@@ -1,0 +1,47 @@
+{
+  "verifiedAt": "2026-10-06T00:08:37Z",
+  "scope": "Reconcile stale external Spec clauses with already user-requested and implemented workflow rules; no new infrastructure, recipe facts or services.",
+  "architectureSpec": "D:/OneDrive/桌面/rag/CODEX_RAG_SPEC.md",
+  "externalSpecLfSha256": "d6e02c622f1b268509ee8042e452d4fc9d7399f02511c77c207d03fb161e0eb2",
+  "verifiedWorktrees": [
+    {
+      "path": "C:/Users/myw/Documents/recipe-automation",
+      "branch": "codex/recipe-automation"
+    },
+    {
+      "path": "C:/Users/myw/Documents/做饭",
+      "branch": "codex/howtocook",
+      "modifiedByThisReconciliation": false
+    }
+  ],
+  "changes": [
+    {
+      "old": "第一版不使用 worktree；直接使用现有本地仓库工作目录。",
+      "now": "使用用户确认的现有 C:/Users/myw/Documents/recipe-automation 独立工作树及 codex/recipe-automation；不新建或改其他工作树。"
+    },
+    {
+      "old": "其他来源允许补充与主变体不冲突的信息。",
+      "now": "选择恰好一个完整来源，其他来源的原料、操作、提示和图片一律不补入，即使不冲突。"
+    },
+    {
+      "old": "同一网站最多一份详情作为document，未选中候选不入库。",
+      "now": "每份新增或变化的有效完整资料独立正常入库，不因Editor未选中排除；同站仍共享website source且不增加独立网站来源计数。"
+    },
+    {
+      "old": "任意不可恢复错误记录日志并停止。",
+      "now": "单道失败只停止发布该菜并继续；共享基础设施/仓库/Git安全无法继续才停整批。"
+    }
+  ],
+  "checks": {
+    "obsoleteCrossSourceSupplementClauseAbsent": true,
+    "obsoleteWholeBatchStopClauseAbsent": true,
+    "obsoleteNoWorktreeClauseAbsent": true,
+    "sameWebsiteNotIndependentCountInflation": true,
+    "recipeDataChangedBySpecReconciliation": false,
+    "externalFileNotInRepository": true
+  },
+  "notes": [
+    "外部文件在本机同步，不冒称已作为外部文件本身Git提交；此记录用于审计。",
+    "只协调当前已确认工作流，RAG数据库架构、Embedding provider、正式菜谱静态链路均未改变。"
+  ]
+}

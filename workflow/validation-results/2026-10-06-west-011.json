@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "targetId": "west-011",
+  "checks": [
+    { "name": "unique_ids", "passed": true },
+    { "name": "target_exists_once", "passed": true },
+    { "name": "required_fields", "passed": true },
+    { "name": "target_name", "passed": true },
+    { "name": "target_ingredients", "passed": true, "count": 10 },
+    { "name": "target_steps", "passed": true, "count": 5 },
+    { "name": "stable_target_fields", "passed": true, "allowedChanges": ["source"] },
+    { "name": "target_changed", "passed": true, "required": true },
+    { "name": "target_only_diff", "passed": true, "changed": [] },
+    { "name": "generated_target_exists", "passed": true }
+  ],
+  "errors": [],
+  "commands": [
+    { "command": "node tools/build_html_demo_data.mjs", "passed": true, "status": 0, "stdout": "Generated 90 recipes.", "stderr": "" },
+    { "command": "node tools/test_html_demo.mjs", "passed": true, "status": 0, "summary": { "ok": true, "recipes": 90, "pantryItems": 35, "verifiedMedia": ["cn-001:6/6", "cn-002:6/7", "cn-003:4/6", "cn-004:5/7", "cn-005:11/11", "cn-006:3/5", "cn-007:19/19", "cn-008:4/9", "cn-009:8/8", "cn-010:13/13", "cn-024:15/16", "cn-027:17/17", "cn-029:12/13", "cn-036:3/4", "cn-054:9/11", "west-004:4/4", "west-006:4/4", "west-011:4/5"], "testedRoutes": ["home", "pantry", "recommendations", "recipe", "game", "cook", "shopping", "recipes", "me"], "browserErrors": [] } },
+    { "command": "node tools/build_vercel_output.mjs", "passed": true, "status": 0, "stdout": "Vercel static build completed", "stderr": "" }
+  ]
+}

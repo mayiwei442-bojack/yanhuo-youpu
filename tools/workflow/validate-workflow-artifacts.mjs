@@ -17,7 +17,7 @@ for (const [recipeId, slug, runId, expectedSourceTypes] of artifacts) {
   const evidence = JSON.parse(evidenceRaw);
   const review = JSON.parse(await readFile(new URL(`../../workflow/reviews/${slug}.json`, import.meta.url), "utf8"));
   const run = JSON.parse(await readFile(new URL(`../../workflow/runs/${runId}.json`, import.meta.url), "utf8"));
-  const hash = createHash("sha256").update(evidenceRaw).digest("hex");
+  const hash = createHash("sha256").update(evidenceRaw.replace(/\r\n/gu, "\n")).digest("hex");
 
   assert.equal(evidence.recipeId, recipeId);
   assert(evidence.sources.length >= 1);
@@ -47,4 +47,10 @@ for (const [recipeId, slug, runId, expectedSourceTypes] of artifacts) {
   results.push({ recipeId, sources: evidence.sources.length, ragEvidence: evidence.ragEvidence.length, review: review.status, runStatus: run.status });
 }
 
-console.log(JSON.stringify({ ok: true, recipes: results }, null, 2));
+// These retained fixtures prove historical text/RAG runs, not the current image batch.
+console.log(JSON.stringify({
+  ok: true,
+  scope: "historical_text_rag_fixtures_only",
+  currentImageRefreshCompletionValidated: false,
+  historicalArtifacts: results
+}, null, 2));

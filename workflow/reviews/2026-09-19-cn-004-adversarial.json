@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "选定的 The Woks of Life 单一完整信源与正文、成品图及第 1、3、5、6、7 步本地图片一致。豆果不完整候选未进入运行时。逐项核对腌料、鱼香汁、三汤匙分次用油、火力、20 分钟腌制、约 1 分钟豆瓣酱阶段、15 秒与 30 秒翻炒及不透明/油变红/冒泡等状态；步骤 2、4 无图且未被借图。对抗性审查确认分号拆分后的 12 行均为真实食材或明确食材组，括号和标点闭合，7 个步骤连续且均可执行。",
+  "evidencePackageHash": "5c682bfe290be3d9f5fd7babc853e135dad0e0eb9bb942110c7f2d6de514540f",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

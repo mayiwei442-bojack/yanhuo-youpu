@@ -1,0 +1,147 @@
+{
+  "runId": "2026-10-06-west-004-source-images",
+  "recipeId": "west-004",
+  "recipeName": "凯撒沙拉",
+  "category": "western",
+  "status": "done",
+  "startedAt": "2026-10-06T06:25:53Z",
+  "completedAt": "2026-10-06T06:53:09Z",
+  "steps": {
+    "research": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "batchId": "2026-09-16-source-image-refresh-21",
+        "beforeSnapshot": "workflow/snapshots/2026-10-06-west-004-before.json",
+        "historicalEvidence": "workflow/evidence/west-004-caesar-salad.json",
+        "historicalAudit": "旧canonical面包适量不保留来源3 cups，原RAG/rawExcerpt需核验真实全文不是英译摘要；旧source默认BBC与Serious配方失配，来源明示总35分钟需核验。",
+        "selectionReason": "上一道豉汁蒸排骨已完成Reviewer和全量测试且内容25c996e/状态95ecbdb已推送，按批次继续西餐。",
+        "agent": "research_west004_remaining5",
+        "recipeEntityId": "b56871a9-b7a5-43bd-befe-ec7a601ef95d",
+        "candidateProgress": "Serious Eats纠正原文已入库且冻结；BBC纠正版审计拒选，旧两份及chunks保留superseded，实际semantic/hybrid仅返回5current Serious分块。",
+        "sourceMode": "single_source",
+        "singleSourceReason": "Serious Eats名称匹配、完整且自洽并有同源图；BBC总时长与正文冷藏要求冲突且无过程图，可靠RAG无其他完整独立资料。",
+        "evidencePath": "workflow/evidence/2026-10-06-west-004-source-images.json",
+        "evidenceSha256LF": "9d507843dfbda4386de60640d5356b82b573ed9ec13cbb2383dcc3f6d6f8c050"
+      }
+    },
+    "ingestion": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "selectedDocumentId": "3b2ce1c5-754a-41ef-a9c0-ba80ad92e157",
+        "auditPath": "workflow/rag-audits/2026-10-06-west-004-correction.json",
+        "activeDocuments": 1,
+        "activeChunks": 5,
+        "auditOnlyDocuments": 3,
+        "auditOnlyChunks": 15,
+        "embeddingModel": "voyage-4",
+        "actualEmbeddingDimensions": 1024,
+        "mediaImportPath": "workflow/media-imports/2026-10-06-west-004.json",
+        "localImages": 5,
+        "heroImages": 1,
+        "mappedStepImages": 4,
+        "totalBytes": 637826,
+        "httpAndMagicAndHashesVerified": true,
+        "orchestratorViewedAllImages": true
+      }
+    },
+    "edit": {
+      "status": "done",
+      "attempts": 2,
+      "details": {
+        "agent": "edit_west004_source_images",
+        "evidencePath": "workflow/evidence/2026-10-06-west-004-source-images.json",
+        "evidenceSha256LF": "9d507843dfbda4386de60640d5356b82b573ed9ec13cbb2383dcc3f6d6f8c050",
+        "canonicalTargetHash": "12417fb5077c76c62acb9ad6df4c86cdcbe9f100bf8151d39e0e9f82ade9f20b",
+        "ingredients": 13,
+        "steps": 4,
+        "heroImages": 1,
+        "stepImages": 4,
+        "redoReason": "独立审核发现复合步骤误计时及来源4人份显示2人，增加明确null步骤时长与份数；正文/媒体/其他记录保持不变。",
+        "stepDurations": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "servings": 4
+      }
+    },
+    "validator": {
+      "status": "done",
+      "attempts": 2,
+      "details": {
+        "artifact": "workflow/validation-results/2026-10-06-west-004-attempt-2.json",
+        "passed": true,
+        "sessionId": 98179,
+        "command": "node tools/workflow/validate-recipe.mjs --target west-004 --before workflow/snapshots/2026-10-06-west-004-before.json --full --allow-source-change --require-change",
+        "knownSemanticGap": "已修复并经独立第二次Reviewer及最终全量测试验证，无未解决问题。"
+      }
+    },
+    "review": {
+      "status": "done",
+      "attempts": 2,
+      "details": {
+        "agent": "review_west004_source_images",
+        "evidencePath": "workflow/evidence/2026-10-06-west-004-source-images.json",
+        "evidenceSha256LF": "9d507843dfbda4386de60640d5356b82b573ed9ec13cbb2383dcc3f6d6f8c050",
+        "validatorArtifact": "workflow/validation-results/2026-10-06-west-004-attempt-2.json",
+        "initialResult": "FAIL",
+        "initialArtifact": "workflow/reviews/2026-10-06-west-004-adversarial-attempt-1.json",
+        "canonicalTargetHash": "12417fb5077c76c62acb9ad6df4c86cdcbe9f100bf8151d39e0e9f82ade9f20b",
+        "result": "PASS",
+        "artifact": "workflow/reviews/2026-10-06-west-004-adversarial.json",
+        "actualLocalImagesVisuallyInspected": 5,
+        "independentRenderedPageVerification": "PASS",
+        "adversarialChecks": 4
+      }
+    },
+    "build": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "command": "npm run test:workflow:deterministic",
+        "sessionId": 17427,
+        "result": "PASS",
+        "artifact": "workflow/validation-results/2026-10-06-west-004-deterministic.txt",
+        "refreshedRecipesVerified": 16,
+        "verifiedSteps": 156,
+        "verifiedHeroImages": 16,
+        "verifiedStepImages": 139,
+        "verifiedLocalImages": 155,
+        "browserErrors": [],
+        "standaloneChatApiUsed": false
+      }
+    },
+    "gitPush": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "branch": "codex/recipe-automation",
+        "reviewerResult": "PASS",
+        "deterministicTests": "PASS",
+        "publicationPending": false,
+        "contentCommit": "1deef6c8788aca101505cb11c76fd821d7f0d88f",
+        "pushSucceeded": true
+      }
+    }
+  },
+  "sources": [
+    {
+      "name": "Serious Eats",
+      "url": "https://www.seriouseats.com/the-best-caesar-salad-recipe",
+      "status": "success",
+      "failureReason": null
+    },
+    {
+      "name": "BBC Good Food",
+      "url": "https://www.bbcgoodfood.com/recipes/perfect-caesar-salad",
+      "status": "failed",
+      "failureReason": "总时长25分钟与正文至少30分钟冷藏冲突，无过程图；纠正版已入库作rejected审计。"
+    }
+  ],
+  "errors": [],
+  "branch": "codex/recipe-automation",
+  "commit": "1deef6c8788aca101505cb11c76fd821d7f0d88f"
+}

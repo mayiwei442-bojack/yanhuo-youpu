@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "宫保鸡丁仍完整采用同一份 The Woks of Life 菜谱，原料、步骤、图片和所有显示说明均未改动。当前来源与原始 RAG 记录一致：准备30分钟、烹饪10分钟、总计40分钟；生成数据 time=40、timeBasis=source。仅修复来源支持的 timing 元数据。原有 ingredient semantics、步骤语法、标点及渲染结构对抗审查继续通过。",
+  "evidencePackageHash": "1ddc04309e69e0f6dc81e5d1bb625429ff6e2acd26d1abe029b3aabe87f90da8",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

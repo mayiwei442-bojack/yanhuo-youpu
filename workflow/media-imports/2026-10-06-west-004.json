@@ -1,0 +1,54 @@
+{
+  "recipeId": "west-004",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://www.seriouseats.com/thmb/CI40mF5sQEuUr1voWRdbA2bjscs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/the-best-caesar-salad-recipe-06-40e70f549ba2489db09355abd62f79a9.jpg",
+      "repositoryPath": "assets/dishes/sources/west-004-caesar-salad/hero.webp",
+      "sha256": "64348ee15db8056b758bb69957f60843575fe3483c2ed3431b801bd4d2a674ad",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 133292
+    },
+    {
+      "role": "step",
+      "stepOrder": 1,
+      "originalUrl": "https://www.seriouseats.com/thmb/x02Ditablcpk_F8mzO_kr57MCkU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/the-best-caesar-salad-recipe-step-1-collage-72fb5db0685240df9a3cd425054941a2.jpg",
+      "repositoryPath": "assets/dishes/sources/west-004-caesar-salad/step-1.webp",
+      "sha256": "1aadb67ac217f654647fcef945d588403b032328b42a6827d016d5e9b48c807e",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 149006
+    },
+    {
+      "role": "step",
+      "stepOrder": 2,
+      "originalUrl": "https://www.seriouseats.com/thmb/NKCebTxWM6fs-7mgL60f5FJuN6A=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/the-best-caesar-salad-recipe-step-2-collage-9e2703813f5f4310b2aa2b75d4ef2ffb.jpg",
+      "repositoryPath": "assets/dishes/sources/west-004-caesar-salad/step-2.webp",
+      "sha256": "25d49bf6642a803a9e237a0ff92f8ffe769b6f44a801dc650ac43bdab2c5d8bb",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 132252
+    },
+    {
+      "role": "step",
+      "stepOrder": 3,
+      "originalUrl": "https://www.seriouseats.com/thmb/aoDBKKQVT_TM69Iv1DscCSvAjvg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/the-best-caesar-salad-recipe-step-3-collage-fa335ddff899490db49c70cb7b49ad79.jpg",
+      "repositoryPath": "assets/dishes/sources/west-004-caesar-salad/step-3.webp",
+      "sha256": "81484293448f7c526bd15236762a9b98fd264bab9293bb985e35e0e96a39cfaf",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 85620
+    },
+    {
+      "role": "step",
+      "stepOrder": 4,
+      "originalUrl": "https://www.seriouseats.com/thmb/YLDOfEhM9I761R44rsZPa3346JA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/the-best-caesar-salad-recipe-step-4-collage-34f35d856f93430c8f4938ccea3af5b8.jpg",
+      "repositoryPath": "assets/dishes/sources/west-004-caesar-salad/step-4.webp",
+      "sha256": "abbe7ef92f4d7a9e828f23bacfa52a8ce3c28116d96e33b84ade379bae09d7e3",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 137656
+    }
+  ]
+}

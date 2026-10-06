@@ -98,6 +98,26 @@ const hybrid = await hybridSearch({ query: "番茄炒蛋", client: queryClient, 
 assert.equal(hybrid.length, 3);
 assert(hybrid.every((item) => item.hybridScore > 0));
 
+// Invalid historical candidates must not consume source quotas or re-enter
+// through the keyword side of hybrid search. Unmarked history stays usable.
+const invalidHistory = ["invalid", "superseded", "rejected"].map((status, index) => ({
+  ...storedChunks[0], id: `excluded-${index}`, source_id: "source-valid",
+  metadata: { evidenceStatus: status }, similarity: 1
+}));
+const currentEvidence = [0, 1].map((index) => ({
+  ...storedChunks[index], id: `current-${index}`, source_id: "source-valid",
+  metadata: index ? { evidenceStatus: "valid" } : {}, similarity: 0.9 - index / 100
+}));
+const historyClient = {
+  async rpc() { return [...invalidHistory, ...currentEvidence]; },
+  async select() { return [...invalidHistory, ...currentEvidence]; }
+};
+const filteredSemantic = await retrieve({ query: "测试", client: historyClient, embeddingProvider, limit: 2, maxPerSource: 2 });
+const filteredHybrid = await hybridSearch({ query: "测试", client: historyClient, embeddingProvider, limit: 2, maxPerSource: 2 });
+for (const rows of [filteredSemantic, filteredHybrid]) {
+  assert.deepEqual(rows.map((row) => row.id), ["current-0", "current-1"]);
+}
+
 console.log(JSON.stringify({
   ok: true,
   phase: 3,
@@ -107,5 +127,8 @@ console.log(JSON.stringify({
   documentInputType: embeddingCalls[0].input_type,
   queryInputType: embeddingCalls.at(-1).input_type,
   retrievalResults: retrieved.length,
-  hybridResults: hybrid.length
+  hybridResults: hybrid.length,
+  invalidHistoryExcluded: true,
+  filteredSemanticResults: filteredSemantic.length,
+  filteredHybridResults: filteredHybrid.length
 }, null, 2));

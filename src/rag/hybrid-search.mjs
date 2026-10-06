@@ -1,4 +1,5 @@
 import { retrieve } from "./retrieve.mjs";
+import { isUsableEvidenceChunk } from "./evidence-status.mjs";
 
 function reciprocalRank(rank, k) {
   return 1 / (k + rank + 1);
@@ -57,5 +58,5 @@ export async function hybridSearch({
     order: "created_at.desc",
     limit: limit * 2
   });
-  return mergeRanks(semantic, keyword || [], { limit, rrfK, maxPerSource });
+  return mergeRanks(semantic, (keyword || []).filter(isUsableEvidenceChunk), { limit, rrfK, maxPerSource });
 }

@@ -1,0 +1,64 @@
+{
+  "recipeId": "west-020",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://www.seriouseats.com/thmb/cWyyokLX1T9Jx3pq__8v1wLcUy8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2016__10__20161012-shepherds-pie-vicky-wasik-Version-A-21-ceea33d28eb440278d297b2cf60a9f32.jpg",
+      "repositoryPath": "assets/dishes/sources/west-020-shepherds-pie/hero.webp",
+      "sha256": "1bec7af510d22174d25ddf14babef51fc2ed054cf496c52a5ceb904e6482198e",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 121682
+    },
+    {
+      "role": "step",
+      "stepOrder": 2,
+      "originalUrl": "https://www.seriouseats.com/thmb/vb8J6GjsQQNUwKFukxcY22MfpUg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2014__11__20141113-make-ahead-mashed-potatoes-vicky-wasik-4-a47238f541dd48a2994a0b127db34397.jpg",
+      "repositoryPath": "assets/dishes/sources/west-020-shepherds-pie/step-02.webp",
+      "sha256": "b80266e379b3eb3774a8b0d008532be56a111b64387be92cde0f8ac7cc4579b1",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 114978
+    },
+    {
+      "role": "step",
+      "stepOrder": 4,
+      "originalUrl": "https://www.seriouseats.com/thmb/pJs9I0eBhzEYqqvl8OK8oDtqjKM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2016__10__20161012-shepherds-pie-vicky-wasik-collage-1-16171107127f4a2f867c3c02620b1438.jpg",
+      "repositoryPath": "assets/dishes/sources/west-020-shepherds-pie/step-04.webp",
+      "sha256": "52a1abceda566aa17d0cce3ccae01764d13621bed1f5d9fad29704fec92f95d8",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 140554
+    },
+    {
+      "role": "step",
+      "stepOrder": 5,
+      "originalUrl": "https://www.seriouseats.com/thmb/A43eozN2u-XgEwqBpwkn6B7_h3Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2016__10__20161012-shepherds-pie-vicky-wasik-collage-2-4f3ba460995c4b1ca24798704a5ad4b9.jpg",
+      "repositoryPath": "assets/dishes/sources/west-020-shepherds-pie/step-05.webp",
+      "sha256": "7592d443a01e4774d88fa5fc70841210d17be154f32aa13579e7f970cd90eca6",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 118354
+    },
+    {
+      "role": "step",
+      "stepOrder": 6,
+      "originalUrl": "https://www.seriouseats.com/thmb/KUGdnz6fOXyb6bIBsuIHju6ZeH8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2014__11__20141113-make-ahead-mashed-potatoes-vicky-wasik-6-df341d6476e140b6a096a046cd21ce55.jpg",
+      "repositoryPath": "assets/dishes/sources/west-020-shepherds-pie/step-06.webp",
+      "sha256": "0d8ea91e93f9cd5481e4cae1b7f495bd97b70d7506e15b03ca9933ebdf3817cf",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 66206
+    },
+    {
+      "role": "step",
+      "stepOrder": 8,
+      "originalUrl": "https://www.seriouseats.com/thmb/6ZPC3bFKrK3xBBdbkawb0Txk5IM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2016__10__20161012-shepherds-pie-vicky-wasik-Version-A-18-34a6fde7e3d141388ffbf857713688a4.jpg",
+      "repositoryPath": "assets/dishes/sources/west-020-shepherds-pie/step-08.webp",
+      "sha256": "c2de5723050023b6f21391de56ed2f22aec0d3c1e04480cfefda08d7bb741ff9",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 142898
+    }
+  ]
+}

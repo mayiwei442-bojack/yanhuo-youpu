@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "command": "npm run test:workflow:deterministic",
+  "suite": "PASS",
+  "checks": {
+    "workflowState": "PASS",
+    "ragRepositoriesAndIngestion": "PASS",
+    "resourceAndEpubExtractors": "PASS",
+    "agentContracts": "PASS",
+    "targetValidatorAndStepMetadata": "PASS",
+    "sourceImages": "PASS",
+    "adversarialRecipeLanguage": "PASS",
+    "workflowArtifacts": "PASS",
+    "recipeData": { "recipes": 90, "pantryItems": 35 },
+    "verifiedMedia": { "west-011": { "steps": 5, "stepImages": 4 } },
+    "browserRoutes": 9,
+    "browserErrors": 0,
+    "staticBuild": "PASS"
+  },
+  "aiTestsRun": false
+}

@@ -1,0 +1,708 @@
+{
+  "recipeId": "cn-029",
+  "recipeName": "干煸四季豆",
+  "category": "chinese",
+  "createdAt": "2026-10-05T23:56:29.469Z",
+  "sources": [
+    {
+      "sourceName": "豆果美食",
+      "sourceType": "website",
+      "url": "https://www.douguo.com/cookbook/1228444.html",
+      "documentId": "6c4eb05d-e3de-4ce7-bbef-89e50e5bfc08",
+      "retrievalMethod": "公开HTML正文 HTTP200 + data-origin原图 HTTP200 + view_image逐张核验",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "四季豆",
+          "amount": "400g",
+          "raw": "四季豆 400g",
+          "evidence": "explicit"
+        },
+        {
+          "name": "猪肉末",
+          "amount": "50g",
+          "raw": "猪肉末 50g",
+          "evidence": "explicit"
+        },
+        {
+          "name": "碎米芽菜",
+          "amount": "15g",
+          "raw": "碎米芽菜 15g",
+          "evidence": "explicit"
+        },
+        {
+          "name": "油",
+          "amount": "适量",
+          "raw": "油 适量",
+          "evidence": "explicit"
+        },
+        {
+          "name": "盐",
+          "amount": "2g",
+          "raw": "盐 2g",
+          "evidence": "explicit"
+        },
+        {
+          "name": "葱花",
+          "amount": "5g",
+          "raw": "葱花 5g",
+          "evidence": "explicit"
+        },
+        {
+          "name": "姜末",
+          "amount": "10g",
+          "raw": "姜末 10g",
+          "evidence": "explicit"
+        },
+        {
+          "name": "蒜末",
+          "amount": "10g",
+          "raw": "蒜末 10g",
+          "evidence": "explicit"
+        },
+        {
+          "name": "干辣椒",
+          "amount": "2个",
+          "raw": "干辣椒 2个",
+          "evidence": "explicit"
+        },
+        {
+          "name": "鲜酱油",
+          "amount": "8g",
+          "raw": "鲜酱油 8g",
+          "evidence": "explicit"
+        },
+        {
+          "name": "老抽",
+          "amount": "5g",
+          "raw": "老抽 5g",
+          "evidence": "explicit"
+        },
+        {
+          "name": "糖",
+          "amount": "1勺",
+          "raw": "糖 1勺",
+          "evidence": "explicit"
+        },
+        {
+          "name": "料酒",
+          "amount": "5g",
+          "raw": "料酒 5g",
+          "evidence": "explicit"
+        },
+        {
+          "name": "白胡椒粉",
+          "amount": "1g",
+          "raw": "白胡椒粉 1g",
+          "evidence": "explicit"
+        },
+        {
+          "name": "清洗用水",
+          "amount": null,
+          "raw": "四季豆洗净",
+          "evidence": "derived"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "准备好食材：猪肉末、葱花、姜末、蒜末、碎米芽菜和干辣椒去籽后斜切小段",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 2,
+          "instruction": "四季豆洗净后摘去两头的老茎，掰成段",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 3,
+          "instruction": "锅里倒油，放少许盐，开中火",
+          "duration": null,
+          "heat": "中火",
+          "evidence": "explicit"
+        },
+        {
+          "order": 4,
+          "instruction": "油热后倒入四季豆进行煸炒，在煸炒时可多次翻炒多次盖盖闷小会，可加快成熟度",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 5,
+          "instruction": "直到煎制两面起皱，带点微焦即可盛出",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 6,
+          "instruction": "锅中留油，放入肉末",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 7,
+          "instruction": "肉末炒至变白加入料酒、葱姜蒜末、干辣椒翻炒片刻",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 8,
+          "instruction": "放入芽菜炒香",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 9,
+          "instruction": "放入鲜酱油",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 10,
+          "instruction": "放入老抽",
+          "duration": null,
+          "heat": null,
+          "evidence": "derived"
+        },
+        {
+          "order": 11,
+          "instruction": "放入糖和白胡椒粉后翻炒片刻",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 12,
+          "instruction": "倒入煎好的四季豆，再把盐撒在四季豆上翻炒均匀",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        },
+        {
+          "order": 13,
+          "instruction": "出锅装盘即可享用，非常下饭哟！",
+          "duration": null,
+          "heat": null,
+          "evidence": "explicit"
+        }
+      ],
+      "technique": [
+        "中火"
+      ],
+      "tips": [
+        "四季豆一定要煎熟，否则吃后容易引起中毒",
+        "煎制的时候要注意火候，不要煎糊了",
+        "碎米芽菜超市或网上可以买到"
+      ],
+      "rawExcerpt": "原料：四季豆 400g；猪肉末 50g；碎米芽菜 15g；油 适量；盐 2g；葱花 5g；姜末 10g；蒜末 10g；干辣椒 2个；鲜酱油 8g；老抽 5g；糖 1勺；料酒 5g；白胡椒粉 1g\n步骤：1. 准备好食材：猪肉末、葱花、姜末、蒜末、碎米芽菜和干辣椒去籽后斜切小段\n2. 四季豆洗净后摘去两头的老茎，掰成段\n3. 锅里倒油，放少许盐，开中火\n4. 油热后倒入四季豆进行煸炒，在煸炒时可多次翻炒多次盖盖闷小会，可加快成熟度\n5. 直到煎制两面起皱，带点微焦即可盛出\n6. 锅中留油，放入肉末\n7. 肉末炒至变白加入料酒、葱姜蒜末、干辣椒翻炒片刻\n8. 放入芽菜炒香\n9. 放入鲜酱油\n10. 老抽\n11. 放入糖和白胡椒粉后翻炒片刻\n12. 倒入煎好的四季豆，再把盐撒在四季豆上翻炒均匀\n13. 出锅装盘即可享用，非常下饭哟！\n技法：中火\n提示：四季豆一定要煎熟，否则吃后容易引起中毒；煎制的时候要注意火候，不要煎糊了；碎米芽菜超市或网上可以买到",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 1,
+        "mappedStepImages": 12,
+        "stepImageCoverage": 0.9230769230769231,
+        "ingredientCount": 15,
+        "executableStepCount": 13,
+        "notes": [
+          "原表14项，步骤2的清洗用水另记无指定用量；油适量未指定种类，使用原锅留油。",
+          "盐2g在步骤3少许与步骤12剩余分次使用，原文未分配具体克数，不各计2g。",
+          "步骤10原文仅“老抽”，相邻放入鲜酱油及同页过程图直接支持“放入老抽”，只补操作动词。",
+          "步骤13是出锅装盘操作但配图纯成品，保留文字、不当过程图；1至12图片实际逐张查看。",
+          "原文仅中火、闷小会、片刻，没有整份prep/cook/total，不估算。"
+        ]
+      },
+      "media": {
+        "recipePageUrl": "https://www.douguo.com/cookbook/1228444.html",
+        "mediaPageUrl": "https://www.douguo.com/cookbook/1228444.html",
+        "sourceName": "豆果美食",
+        "author": "i粗茶淡饭1",
+        "rightsNotice": "©本菜谱的做法由 i粗茶淡饭1 编写，未经授权不得转载",
+        "reuseLicense": null,
+        "repositoryCopyAuthorized": true,
+        "hero": {
+          "originalUrl": "https://cp1.douguo.com/upload/caiku/d/1/e/960_d12823d95a67dad60b9abd54bd06c58e.jpg",
+          "repositoryPath": "assets/dishes/sources/cn-029-dry-fried-green-beans/hero.jpg",
+          "adjacentText": "干煸四季豆",
+          "pageOrder": 1,
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "visualVerified": true
+        },
+        "steps": [
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/d/4/d/800_d46b10961291e8ed516cb237390d833d.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-029-dry-fried-green-beans/step-1.jpg",
+            "adjacentText": "准备好食材：猪肉末、葱花、姜末、蒜末、碎米芽菜和干辣椒去籽后斜切小段",
+            "pageOrder": 2,
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "visualVerified": true,
+            "stepOrder": 1,
+            "sourceStepOrder": 1
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/1/3/e/800_1355da7e1d2822367c418ea6b9d3492e.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-029-dry-fried-green-beans/step-2.jpg",
+            "adjacentText": "四季豆洗净后摘去两头的老茎，掰成段",
+            "pageOrder": 3,
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "visualVerified": true,
+            "stepOrder": 2,
+            "sourceStepOrder": 2
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/b/4/b/800_b486cf1af758d506e76fe9a2e94cd50b.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-029-dry-fried-green-beans/step-3.jpg",
+            "adjacentText": "锅里倒油，放少许盐，开中火",
+            "pageOrder": 4,
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "visualVerified": true,
+            "stepOrder": 3,
+            "sourceStepOrder": 3
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/7/5/5/800_7509dbfbae09ad5329b3f0e974776bc5.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-029-dry-fried-green-beans/step-4.jpg",
+            "adjacentText": "油热后倒入四季豆进行煸炒，在煸炒时可多次翻炒多次盖盖闷小会，可加快成熟度",
+            "pageOrder": 5,
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "visualVerified": true,
+            "stepOrder": 4,
+            "sourceStepOrder": 4
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/a/9/3/800_a9a1c78518e4ee1d097f10feeb207463.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-029-dry-fried-green-beans/step-5.jpg",
+            "adjacentText": "直到煎制两面起皱，带点微焦即可盛出",
+            "pageOrder": 6,
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "visualVerified": true,
+            "stepOrder": 5,
+            "sourceStepOrder": 5
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/2/6/f/800_260f535e42438355c5d0184ea5447c8f.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-029-dry-fried-green-beans/step-6.jpg",
+            "adjacentText": "锅中留油，放入肉末",
+            "pageOrder": 7,
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "visualVerified": true,
+            "stepOrder": 6,
+            "sourceStepOrder": 6
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/1/1/1/800_1110c9ca7f8a5b6d2514dc8dcb18a2a1.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-029-dry-fried-green-beans/step-7.jpg",
+            "adjacentText": "肉末炒至变白加入料酒、葱姜蒜末、干辣椒翻炒片刻",
+            "pageOrder": 8,
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "visualVerified": true,
+            "stepOrder": 7,
+            "sourceStepOrder": 7
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/a/f/0/800_af89c08ff108634c2ec8e43ae18ad2e0.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-029-dry-fried-green-beans/step-8.jpg",
+            "adjacentText": "放入芽菜炒香",
+            "pageOrder": 9,
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "visualVerified": true,
+            "stepOrder": 8,
+            "sourceStepOrder": 8
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/3/d/f/800_3d595d3def74f5c87cd47fef56aa27cf.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-029-dry-fried-green-beans/step-9.jpg",
+            "adjacentText": "放入鲜酱油",
+            "pageOrder": 10,
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "visualVerified": true,
+            "stepOrder": 9,
+            "sourceStepOrder": 9
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/a/2/7/800_a2b0df69f40c0b877c0dd6b1ce550447.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-029-dry-fried-green-beans/step-10.jpg",
+            "adjacentText": "老抽",
+            "pageOrder": 11,
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "visualVerified": true,
+            "stepOrder": 10,
+            "sourceStepOrder": 10
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/b/d/8/800_bd3cc9b3328aa5f948ed9a0be7e89c08.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-029-dry-fried-green-beans/step-11.jpg",
+            "adjacentText": "放入糖和白胡椒粉后翻炒片刻",
+            "pageOrder": 12,
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "visualVerified": true,
+            "stepOrder": 11,
+            "sourceStepOrder": 11
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/a/5/f/800_a565cbc2666adab6ea7aae58a2ef228f.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-029-dry-fried-green-beans/step-12.jpg",
+            "adjacentText": "倒入煎好的四季豆，再把盐撒在四季豆上翻炒均匀",
+            "pageOrder": 13,
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "visualVerified": true,
+            "stepOrder": 12,
+            "sourceStepOrder": 12
+          }
+        ]
+      }
+    },
+    {
+      "sourceName": "The Woks of Life",
+      "sourceType": "website",
+      "url": "https://thewoksoflife.com/sichuan-dry-fried-green-beans/",
+      "documentId": "fd2d4121-7f94-473d-a13a-2e9efac0bffe",
+      "retrievalMethod": "公开web工具完整HTML正文+recipe卡；原图普通IWR代理HTTP200，view_image逐张核验",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "green beans",
+          "amount": "1 pound (450g)",
+          "raw": "1 pound green beans (450g)"
+        },
+        {
+          "name": "salt",
+          "amount": "1/2 teaspoon",
+          "raw": "1/2 teaspoon salt"
+        },
+        {
+          "name": "oil",
+          "amount": "2 tablespoons",
+          "raw": "2 tablespoons oil"
+        },
+        {
+          "name": "ground pork",
+          "amount": "1/4 cup",
+          "raw": "1/4 cup ground pork"
+        },
+        {
+          "name": "garlic",
+          "amount": "2",
+          "raw": "2 garlic (smashed and coarsely diced)"
+        },
+        {
+          "name": "dried red hot peppers",
+          "amount": "2",
+          "raw": "2 dried red hot peppers (de-seeded and diced)"
+        },
+        {
+          "name": "sui mi ya cai",
+          "amount": "2 tablespoon",
+          "raw": "2 tablespoon sui mi ya cai (碎米芽菜, store bought)"
+        },
+        {
+          "name": "shaoxing wine",
+          "amount": "1 teaspoon",
+          "raw": "1 teaspoon shaoxing wine"
+        },
+        {
+          "name": "soy sauce",
+          "amount": "1 1/2 teaspoons",
+          "raw": "1 1/2 teaspoons soy sauce"
+        },
+        {
+          "name": "sugar",
+          "amount": "1/8 teaspoon",
+          "raw": "1/8 teaspoon sugar"
+        },
+        {
+          "name": "sesame oil",
+          "amount": "1 teaspoon",
+          "raw": "1 teaspoon sesame oil"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Heat your wok over high heat until just starting to smoke, and add the green beans and salt. Immediately lower the heat to medium low, and sear the green beans for about 20 minutes, stirring occasionally. You want to see small scorch marks on the green beans.",
+          "duration": "about 20 minutes",
+          "heat": "high heat, then immediately medium low"
+        },
+        {
+          "order": 2,
+          "instruction": "During this process, gather the rest of the ingredients and have them ready. Garlic is smashed and coarsely diced; dried red hot peppers are de-seeded and diced.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "Once the beans are somewhat tender, take them out of the wok and set aside.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "Heat the oil in your wok over medium high heat and brown the pork. It should only take a couple minutes.",
+          "duration": "a couple minutes",
+          "heat": "medium high"
+        },
+        {
+          "order": 5,
+          "instruction": "Add the garlic and dried red chili peppers, and stir for 30 seconds.",
+          "duration": "30 seconds",
+          "heat": null
+        },
+        {
+          "order": 6,
+          "instruction": "Add the sui mi ya cai (碎米芽菜), and stir everything together. Cook for another minute.",
+          "duration": "1 minute",
+          "heat": null
+        },
+        {
+          "order": 7,
+          "instruction": "Toss in the seared green beans, shaoxing wine, soy sauce, sugar, and sesame oil. Crank the heat back up to high and stir-fry for a final minute. Serve immediately.",
+          "duration": "1 minute",
+          "heat": "high"
+        }
+      ],
+      "technique": [
+        "Prep: 10 mins",
+        "Cook: 25 mins",
+        "Total: 35 mins",
+        "Green beans are seared in a dry wok without oil during the first stage."
+      ],
+      "tips": [
+        "Vegetarians and vegans may omit the ground pork altogether or replace it with more pickled suimi yacai; the page does not quantify the replacement."
+      ],
+      "rawExcerpt": "Sichuan Dry Fried Green Beans\nby: Judy\nServes: 4 servings\nPrep: 10 mins\nCook: 25 mins\nTotal: 35 mins\nIngredients:\n1 pound green beans (450g)\n1/2 teaspoon salt\n2 tablespoons oil\n1/4 cup ground pork\n2 garlic (smashed and coarsely diced)\n2 dried red hot peppers (de-seeded and diced)\n2 tablespoon sui mi ya cai (碎米芽菜, store bought)\n1 teaspoon shaoxing wine\n1 1/2 teaspoons soy sauce\n1/8 teaspoon sugar\n1 teaspoon sesame oil\nRecipe Instructions (body):\nHeat your wok over high heat until just starting to smoke, and add the green beans and salt. Immediately lower the heat to medium low, and sear the green beans for about 20 minutes, stirring occasionally.\nYou want to see small scorch marks on the green beans.\nDuring this process, gather the rest of the ingredients and have them ready. This is always very important to Chinese cooking—the actual time on the stove is usually very short, so having everything prepared and ready to go is essential!\nOnce the beans are somewhat tender, take them out of the wok and set aside.\nHeat the oil in your wok over medium high heat and brown the pork. It should only take a couple minutes.\nAdd the garlic and dried red chili peppers, and stir for 30 seconds.\nAdd the sui mi ya cai (碎米芽菜), and stir everything together. Cook for another minute.\nToss in the seared green beans, shaoxing wine, soy sauce, sugar, and sesame oil. Crank the heat back up to high and stir-fry for a final minute.\nAnd you’re done! Wasn’t that fast? Serve these healthy Sichuan Dry Fried Green Beans immediately.\nSource introduction:\nSo rather than deep-frying the green beans (a method used in restaurants because it’s a faster process), I did just that—seared them in a dry wok without oil. The outcome was brilliant.\nAlso, just as a shout out to any vegetarians and vegans, you can easily omit the ground pork (you can just omit it all together or replace it with more of the pickled suimi yacai). It will still be super tasty.",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 1,
+        "mappedStepImages": 6,
+        "stepImageCoverage": 0.8571428571428571,
+        "ingredientCount": 11,
+        "executableStepCount": 7,
+        "notes": [
+          "同页body比recipe卡补充brown pork仅需a couple minutes，保持模糊程度。",
+          "原文2 garlic没有明确cloves单位，保留2，不从照片猜补单位。",
+          "1 1/2 teaspoons soy sauce完整归属，杯/匙无给定容量不换毫升。",
+          "第一阶段high立即medium low，猪肉medium high，最后high；其余热量不从旧摘要沿用。",
+          "body图按真实相邻文字映射；step3取出四季豆无源图。",
+          "Prep10/Cook25/Total35分钟完整计时。"
+        ]
+      },
+      "media": {
+        "recipePageUrl": "https://thewoksoflife.com/sichuan-dry-fried-green-beans/",
+        "mediaPageUrl": "https://thewoksoflife.com/sichuan-dry-fried-green-beans/",
+        "sourceName": "The Woks of Life",
+        "author": "Judy",
+        "rightsNotice": "All Rights Reserved © The Woks of Life",
+        "reuseLicense": null,
+        "repositoryCopyAuthorized": true,
+        "hero": {
+          "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dry-fried-string-beans-10.jpg",
+          "repositoryPath": "assets/dishes/sources/cn-029-dry-fried-green-beans/woks-hero.jpg",
+          "adjacentText": "Sichuan Dry Fried Green Beans",
+          "pageOrder": 1,
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "visualVerified": true
+        },
+        "steps": [
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dry-fried-string-beans-3.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-029-dry-fried-green-beans/woks-step-1.jpg",
+            "adjacentText": "Heat your wok over high heat until just starting to smoke, and add the green beans and salt. Immediately lower the heat to medium low, and sear the green beans for about 20 minutes, stirring occasionally. You want to see small scorch marks on the green beans.",
+            "pageOrder": 3,
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "visualVerified": true,
+            "stepOrder": 1,
+            "sourceStepOrder": 1
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dry-fried-string-beans-2.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-029-dry-fried-green-beans/woks-step-2.jpg",
+            "adjacentText": "During this process, gather the rest of the ingredients and have them ready. Garlic is smashed and coarsely diced; dried red hot peppers are de-seeded and diced.",
+            "pageOrder": 4,
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "visualVerified": true,
+            "stepOrder": 2,
+            "sourceStepOrder": 1
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dry-fried-string-beans-4.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-029-dry-fried-green-beans/woks-step-4.jpg",
+            "adjacentText": "Heat the oil in your wok over medium high heat and brown the pork. It should only take a couple minutes.",
+            "pageOrder": 5,
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "visualVerified": true,
+            "stepOrder": 4,
+            "sourceStepOrder": 2
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dry-fried-string-beans-5.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-029-dry-fried-green-beans/woks-step-5.jpg",
+            "adjacentText": "Add the garlic and dried red chili peppers, and stir for 30 seconds.",
+            "pageOrder": 6,
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "visualVerified": true,
+            "stepOrder": 5,
+            "sourceStepOrder": 2
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dry-fried-string-beans-6.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-029-dry-fried-green-beans/woks-step-6.jpg",
+            "adjacentText": "Add the sui mi ya cai (碎米芽菜), and stir everything together. Cook for another minute.",
+            "pageOrder": 7,
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "visualVerified": true,
+            "stepOrder": 6,
+            "sourceStepOrder": 2
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dry-fried-string-beans-7.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-029-dry-fried-green-beans/woks-step-7.jpg",
+            "adjacentText": "Toss in the seared green beans, shaoxing wine, soy sauce, sugar, and sesame oil. Crank the heat back up to high and stir-fry for a final minute. Serve immediately.",
+            "pageOrder": 8,
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "visualVerified": true,
+            "stepOrder": 7,
+            "sourceStepOrder": 3
+          }
+        ]
+      }
+    }
+  ],
+  "sourceMode": "multi_source",
+  "selectedSourceUrl": "https://www.douguo.com/cookbook/1228444.html",
+  "selectionReason": "两个独立完整来源均保留整份，正文与图片独立入库。按完整性/内部自洽、可用图片及覆盖、步骤丰富度、原料覆盖顺序：豆果1228444有12张准确过程图覆盖12/13，Woks有6张覆盖6/7；两者完整自洽，豆果覆盖率更高且提供更细步骤，因此选其整套15项原料/13步及同源图片，不跨源补充。",
+  "ragEvidence": [
+    {
+      "chunkId": "06f94460-afed-4009-8550-0be8f14ef796",
+      "documentId": "fd2d4121-7f94-473d-a13a-2e9efac0bffe",
+      "sourceName": "The Woks of Life",
+      "chunkType": "summary",
+      "content": "菜名：干煸四季豆\n别名：Sichuan Dry Fried Green Beans\n菜系：家常菜\n简介：Sichuan Dry Fried Green Beans: beans dry-seared without oil, then stir-fried with ground pork, garlic, chili, suimi yacai and seasonings.",
+      "similarity": 0.714087784290314
+    },
+    {
+      "chunkId": "0f97f5c7-1a29-48b2-a844-f339fef69bd7",
+      "documentId": "6c4eb05d-e3de-4ce7-bbef-89e50e5bfc08",
+      "sourceName": "豆果美食",
+      "chunkType": "summary",
+      "content": "菜名：干煸四季豆\n菜系：家常菜\n简介：干煸四季豆：四季豆用油煸炒并间歇盖盖至煎熟、两面起皱微焦，与猪肉末、碎米芽菜及调味料炒匀。",
+      "similarity": 0.705568986799183
+    },
+    {
+      "chunkId": "e587ecb5-62ff-46cf-ba6d-ec52e875d564",
+      "documentId": "6c4eb05d-e3de-4ce7-bbef-89e50e5bfc08",
+      "sourceName": "豆果美食",
+      "chunkType": "tips",
+      "content": "菜名：干煸四季豆\n- 四季豆一定要煎熟，否则吃后容易引起中毒\n- 煎制的时候要注意火候，不要煎糊了\n- 碎米芽菜超市或网上可以买到",
+      "similarity": 0.703612166427842
+    },
+    {
+      "chunkId": "e4362984-a2d7-49bd-928c-ed9cb8f21c98",
+      "documentId": "6c4eb05d-e3de-4ce7-bbef-89e50e5bfc08",
+      "sourceName": "豆果美食",
+      "chunkType": "steps",
+      "content": "菜名：干煸四季豆\n1. 准备好食材：猪肉末、葱花、姜末、蒜末、碎米芽菜和干辣椒去籽后斜切小段\n2. 四季豆洗净后摘去两头的老茎，掰成段\n3. 锅里倒油，放少许盐，开中火【中火】\n4. 油热后倒入四季豆进行煸炒，在煸炒时可多次翻炒多次盖盖闷小会，可加快成熟度\n5. 直到煎制两面起皱，带点微焦即可盛出\n6. 锅中留油，放入肉末\n7. 肉末炒至变白加入料酒、葱姜蒜末、干辣椒翻炒片刻\n8. 放入芽菜炒香\n9. 放入鲜酱油\n10. 放入老抽\n11. 放入糖和白胡椒粉后翻炒片刻\n12. 倒入煎好的四季豆，再把盐撒在四季豆上翻炒均匀\n13. 出锅装盘即可享用，非常下饭哟！",
+      "similarity": 0.694084667454327
+    },
+    {
+      "chunkId": "edc3118a-38f1-4fbb-ad4e-c6be414b0a05",
+      "documentId": "6c4eb05d-e3de-4ce7-bbef-89e50e5bfc08",
+      "sourceName": "豆果美食",
+      "chunkType": "ingredients",
+      "content": "菜名：干煸四季豆\n- 四季豆 400g\n- 猪肉末 50g\n- 碎米芽菜 15g\n- 油 适量\n- 盐 2g\n- 葱花 5g\n- 姜末 10g\n- 蒜末 10g\n- 干辣椒 2个\n- 鲜酱油 8g\n- 老抽 5g\n- 糖 1勺\n- 料酒 5g\n- 白胡椒粉 1g\n- 四季豆洗净",
+      "similarity": 0.691628896192186
+    },
+    {
+      "chunkId": "fd5f1ceb-3d66-411f-9a63-aecf341cce4d",
+      "documentId": "6c4eb05d-e3de-4ce7-bbef-89e50e5bfc08",
+      "sourceName": "豆果美食",
+      "chunkType": "technique",
+      "content": "菜名：干煸四季豆\n- 中火\n- 中火",
+      "similarity": 0.675366878509521
+    },
+    {
+      "chunkId": "b7bd4de8-200c-4544-a03d-9e34ed22f31e",
+      "documentId": "fd2d4121-7f94-473d-a13a-2e9efac0bffe",
+      "sourceName": "The Woks of Life",
+      "chunkType": "technique",
+      "content": "菜名：干煸四季豆\n- Prep: 10 mins\n- Cook: 25 mins\n- Total: 35 mins\n- Green beans are seared in a dry wok without oil during the first stage.\n- about 20 minutes\n- high heat, then immediately medium low\n- a couple minutes\n- medium high\n- 30 seconds\n- 1 minute\n- 1 minute\n- high",
+      "similarity": 0.670928160603534
+    },
+    {
+      "chunkId": "23c9198f-1b8c-4200-a994-804c49388869",
+      "documentId": "fd2d4121-7f94-473d-a13a-2e9efac0bffe",
+      "sourceName": "The Woks of Life",
+      "chunkType": "ingredients",
+      "content": "菜名：干煸四季豆\n- 1 pound green beans (450g)\n- 1/2 teaspoon salt\n- 2 tablespoons oil\n- 1/4 cup ground pork\n- 2 garlic (smashed and coarsely diced)\n- 2 dried red hot peppers (de-seeded and diced)\n- 2 tablespoon sui mi ya cai (碎米芽菜, store bought)\n- 1 teaspoon shaoxing wine\n- 1 1/2 teaspoons soy sauce\n- 1/8 teaspoon sugar\n- 1 teaspoon sesame oil",
+      "similarity": 0.66792243719101
+    },
+    {
+      "chunkId": "0b7bf50d-1a32-44e0-a3ff-14008adac840",
+      "documentId": "fd2d4121-7f94-473d-a13a-2e9efac0bffe",
+      "sourceName": "The Woks of Life",
+      "chunkType": "steps",
+      "content": "菜名：干煸四季豆\n1. Heat your wok over high heat until just starting to smoke, and add the green beans and salt. Immediately lower the heat to medium low, and sear the green beans for about 20 minutes, stirring occasionally. You want to see small scorch marks on the green beans.（about 20 minutes）【high heat, then immediately medium low】\n2. During this process, gather the rest of the ingredients and have them ready. Garlic is smashed and coarsely diced; dried red hot peppers are de-seeded and diced.\n3. Once the beans are somewhat tender, take them out of the wok and set aside.\n4. Heat the oil in your wok over medium high heat and brown the pork. It should only take a couple minutes.（a couple minutes）【medium high】\n5. Add the garlic and dried red chili peppers, and stir for 30 seconds.（30 seconds）\n6. Add the sui mi ya cai (碎米芽菜), and stir everything together. Cook for another minute.（1 minute）\n7. Toss in the seared green beans, shaoxing wine, soy sauce, sugar, and sesame oil. Crank the heat back up to high and stir-fry for a final minute. Serve immediately.（1 minute）【high】",
+      "similarity": 0.658331751823425
+    },
+    {
+      "chunkId": "82b72777-2512-4512-9897-cd768e096562",
+      "documentId": "fd2d4121-7f94-473d-a13a-2e9efac0bffe",
+      "sourceName": "The Woks of Life",
+      "chunkType": "tips",
+      "content": "菜名：干煸四季豆\n- Vegetarians and vegans may omit the ground pork altogether or replace it with more pickled suimi yacai; the page does not quantify the replacement.",
+      "similarity": 0.654778242111206
+    }
+  ],
+  "notes": [
+    "先查询exact实体e1e01f4f-82c9-47b5-9f26-79c7a577e06f与四季豆/green bean宽名称：旧Woks f32e32e4-4303-4e27-9fc5-41f0f109401f、旧豆果7ec2854e-8df6-44bf-80ed-e50bf30bf5d6。",
+    "书籍历史1f1312bd-d0e7-4f00-9bb3-3449c55f9658为贝太厨房:从小爱吃的菜2/榄菜肉末四季豆/text00076.html#subid48，无excluded状态，但切0.5cm粒+橄榄菜加水焖是不同菜，不计本菜独立来源或工艺冲突，保留历史。",
+    "豆果3327913公开HTML200，完整读取但不合格：原表葱/糖方法未用，方法油/水/鸡精漏表；没有四季豆煎熟过程和熟度细节。旧notes中的10分钟及充分加热并非原文，本輪不迁入。",
+    "豆果2166547公开HTML200：原表姜而步骤7为葱，缺葱且姜未用，内部冲突，淘汰不入库。",
+    "豆果1515839公开HTML200：四季豆斜切成丝，形态不同，本轮按完整段状干煸变体比选未选，按Spec7.1只记录同站候选，不批量入库凑来源。",
+    "豆果站内https://m.douguo.com/caipu/%E5%B9%B2%E7%85%B8%E5%9B%9B%E5%AD%A3%E8%B1%86公开HTTP200定位候选；错误站内路径/search/recipe/干煸四季豆 HTTP404，记录后改用公开分类链接，未绕过控制。",
+    "Woks同站搜索命中dry-fried-string-beans-sichuan为另一个浅炸花椒变体，仅搜索摘要识别未作为本轮正式来源；每网站最多一份正式详情页。",
+    "Woks公开web工具正文成功，图片部分web点击超时后普通IWR原图HTTP200，无访问控制绕过。",
+    "豆果步骤13原图https://cp1.douguo.com/upload/caiku/2/f/a/800_2faf55808e9b0a3c6e338c2992b6663a.jpg HTTP200 image/jpeg已实际查看，纯成品，仅作可用成品备选不当过程图。",
+    "Woks正文前第二成品图及body后两张成品图只作为展示，不计过程图；正文映射六张原图全部实际查看。",
+    "所有图片仅下载系统临时目录用于实际视图核验，未写仓库资产。",
+    "Supabase技能官方changelog.md普通代理HTTP200已检查，无本任务现有Data API相关breaking change；官方select文档核对，沿用现有REST客户端，无schema/服务变更。",
+    "入库实测：豆果1228444新document 6c4eb05d-e3de-4ce7-bbef-89e50e5bfc08/contentHash 1803073ab83a9e1d3793fe651a008e7d9cec18aa6173aa84c95c01d90edbdad0，Woks同URL修正版 fd2d4121-7f94-473d-a13a-2e9efac0bffe/contentHash 801d4adb5151137534b879f5ce56eecfcf25e7288cd2b034688c326c67f9cf42。各5chunks、deduplicated=false/embedded=true；新增/纠正内容独立入库，各website复用已有source identity。",
+    "实际数据库向量读回核验：10chunks每条embedding_model=voyage-4、embedding_dim=1024、实际embedding数组长度1024。[{\"chunkId\":\"0f97f5c7-1a29-48b2-a844-f339fef69bd7\",\"documentId\":\"6c4eb05d-e3de-4ce7-bbef-89e50e5bfc08\",\"chunkType\":\"summary\",\"model\":\"voyage-4\",\"dim\":1024,\"actualVectorLength\":1024},{\"chunkId\":\"edc3118a-38f1-4fbb-ad4e-c6be414b0a05\",\"documentId\":\"6c4eb05d-e3de-4ce7-bbef-89e50e5bfc08\",\"chunkType\":\"ingredients\",\"model\":\"voyage-4\",\"dim\":1024,\"actualVectorLength\":1024},{\"chunkId\":\"e4362984-a2d7-49bd-928c-ed9cb8f21c98\",\"documentId\":\"6c4eb05d-e3de-4ce7-bbef-89e50e5bfc08\",\"chunkType\":\"steps\",\"model\":\"voyage-4\",\"dim\":1024,\"actualVectorLength\":1024},{\"chunkId\":\"fd5f1ceb-3d66-411f-9a63-aecf341cce4d\",\"documentId\":\"6c4eb05d-e3de-4ce7-bbef-89e50e5bfc08\",\"chunkType\":\"technique\",\"model\":\"voyage-4\",\"dim\":1024,\"actualVectorLength\":1024},{\"chunkId\":\"e587ecb5-62ff-46cf-ba6d-ec52e875d564\",\"documentId\":\"6c4eb05d-e3de-4ce7-bbef-89e50e5bfc08\",\"chunkType\":\"tips\",\"model\":\"voyage-4\",\"dim\":1024,\"actualVectorLength\":1024},{\"chunkId\":\"06f94460-afed-4009-8550-0be8f14ef796\",\"documentId\":\"fd2d4121-7f94-473d-a13a-2e9efac0bffe\",\"chunkType\":\"summary\",\"model\":\"voyage-4\",\"dim\":1024,\"actualVectorLength\":1024},{\"chunkId\":\"23c9198f-1b8c-4200-a994-804c49388869\",\"documentId\":\"fd2d4121-7f94-473d-a13a-2e9efac0bffe\",\"chunkType\":\"ingredients\",\"model\":\"voyage-4\",\"dim\":1024,\"actualVectorLength\":1024},{\"chunkId\":\"0b7bf50d-1a32-44e0-a3ff-14008adac840\",\"documentId\":\"fd2d4121-7f94-473d-a13a-2e9efac0bffe\",\"chunkType\":\"steps\",\"model\":\"voyage-4\",\"dim\":1024,\"actualVectorLength\":1024},{\"chunkId\":\"b7bd4de8-200c-4544-a03d-9e34ed22f31e\",\"documentId\":\"fd2d4121-7f94-473d-a13a-2e9efac0bffe\",\"chunkType\":\"technique\",\"model\":\"voyage-4\",\"dim\":1024,\"actualVectorLength\":1024},{\"chunkId\":\"82b72777-2512-4512-9897-cd768e096562\",\"documentId\":\"fd2d4121-7f94-473d-a13a-2e9efac0bffe\",\"chunkType\":\"tips\",\"model\":\"voyage-4\",\"dim\":1024,\"actualVectorLength\":1024}]",
+    "旧Woks f32e32e4-4303-4e27-9fc5-41f0f109401f文档及5chunks保留标superseded，replacementDocumentId=fd2d4121-7f94-473d-a13a-2e9efac0bffe。依据：酱油数量拆错、heat标签矛盾、tips广告、漏body couple minutes。旧豆果7ec2854e-8df6-44bf-80ed-e50bf30bf5d6及5chunks保留标rejected，只因technique预计10分钟/四季豆充分加热不来自当前该URL原文；旧raw/真实食材步骤全保留，未以不同URL作replacement。",
+    "实际normal semantic retrieve和hybridSearch均query=干煸四季豆、recipeEntityId=e1e01f4f-82c9-47b5-9f26-79c7a577e06f、limit20/maxPerSource10，返回新两来源各5共10chunks，旧superseded/rejected两document及其chunks返回0。semantic:[{\"chunkId\":\"06f94460-afed-4009-8550-0be8f14ef796\",\"documentId\":\"fd2d4121-7f94-473d-a13a-2e9efac0bffe\",\"similarity\":0.714087784290314},{\"chunkId\":\"0f97f5c7-1a29-48b2-a844-f339fef69bd7\",\"documentId\":\"6c4eb05d-e3de-4ce7-bbef-89e50e5bfc08\",\"similarity\":0.705568986799183},{\"chunkId\":\"e587ecb5-62ff-46cf-ba6d-ec52e875d564\",\"documentId\":\"6c4eb05d-e3de-4ce7-bbef-89e50e5bfc08\",\"similarity\":0.703612166427842},{\"chunkId\":\"e4362984-a2d7-49bd-928c-ed9cb8f21c98\",\"documentId\":\"6c4eb05d-e3de-4ce7-bbef-89e50e5bfc08\",\"similarity\":0.694084667454327},{\"chunkId\":\"edc3118a-38f1-4fbb-ad4e-c6be414b0a05\",\"documentId\":\"6c4eb05d-e3de-4ce7-bbef-89e50e5bfc08\",\"similarity\":0.691628896192186},{\"chunkId\":\"fd5f1ceb-3d66-411f-9a63-aecf341cce4d\",\"documentId\":\"6c4eb05d-e3de-4ce7-bbef-89e50e5bfc08\",\"similarity\":0.675366878509521},{\"chunkId\":\"b7bd4de8-200c-4544-a03d-9e34ed22f31e\",\"documentId\":\"fd2d4121-7f94-473d-a13a-2e9efac0bffe\",\"similarity\":0.670928160603534},{\"chunkId\":\"23c9198f-1b8c-4200-a994-804c49388869\",\"documentId\":\"fd2d4121-7f94-473d-a13a-2e9efac0bffe\",\"similarity\":0.66792243719101},{\"chunkId\":\"0b7bf50d-1a32-44e0-a3ff-14008adac840\",\"documentId\":\"fd2d4121-7f94-473d-a13a-2e9efac0bffe\",\"similarity\":0.658331751823425},{\"chunkId\":\"82b72777-2512-4512-9897-cd768e096562\",\"documentId\":\"fd2d4121-7f94-473d-a13a-2e9efac0bffe\",\"similarity\":0.654778242111206}]; hybrid:[{\"chunkId\":\"06f94460-afed-4009-8550-0be8f14ef796\",\"documentId\":\"fd2d4121-7f94-473d-a13a-2e9efac0bffe\",\"hybridScore\":0.0392156862745098},{\"chunkId\":\"0f97f5c7-1a29-48b2-a844-f339fef69bd7\",\"documentId\":\"6c4eb05d-e3de-4ce7-bbef-89e50e5bfc08\",\"hybridScore\":0.03708791208791209},{\"chunkId\":\"23c9198f-1b8c-4200-a994-804c49388869\",\"documentId\":\"fd2d4121-7f94-473d-a13a-2e9efac0bffe\",\"hybridScore\":0.03647214854111406},{\"chunkId\":\"b7bd4de8-200c-4544-a03d-9e34ed22f31e\",\"documentId\":\"fd2d4121-7f94-473d-a13a-2e9efac0bffe\",\"hybridScore\":0.036062378167641324},{\"chunkId\":\"0b7bf50d-1a32-44e0-a3ff-14008adac840\",\"documentId\":\"fd2d4121-7f94-473d-a13a-2e9efac0bffe\",\"hybridScore\":0.03581707707067477},{\"chunkId\":\"e4362984-a2d7-49bd-928c-ed9cb8f21c98\",\"documentId\":\"6c4eb05d-e3de-4ce7-bbef-89e50e5bfc08\",\"hybridScore\":0.035759897828863345},{\"chunkId\":\"edc3118a-38f1-4fbb-ad4e-c6be414b0a05\",\"documentId\":\"6c4eb05d-e3de-4ce7-bbef-89e50e5bfc08\",\"hybridScore\":0.03572567783094099},{\"chunkId\":\"e587ecb5-62ff-46cf-ba6d-ec52e875d564\",\"documentId\":\"6c4eb05d-e3de-4ce7-bbef-89e50e5bfc08\",\"hybridScore\":0.03553459119496855},{\"chunkId\":\"82b72777-2512-4512-9897-cd768e096562\",\"documentId\":\"fd2d4121-7f94-473d-a13a-2e9efac0bffe\",\"hybridScore\":0.03484848484848485},{\"chunkId\":\"fd5f1ceb-3d66-411f-9a63-aecf341cce4d\",\"documentId\":\"6c4eb05d-e3de-4ce7-bbef-89e50e5bfc08\",\"hybridScore\":0.03480629539951574}]",
+    "各来源差异不是内部错误：Woks四季豆无油中小火约20分钟+1/4cup猪肉，豆果有油中火间歇盖盖+50g猪肉及两种酱油。最终仅采用豆果整套；没有可靠同名书籍历史冲突。未解决来源遗漏：豆果油种/油量具体数、盐2g的两阶段分配、水量、各阶段时长及总时长均未指定；Woks2 garlic未指定单位、couple minutes未精确量化、杯匙容量未指定。保留模糊或null，不猜测。"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "第二次独立复审通过。证据与目标哈希未变，确定性验证10项通过。Chrome实测详情及采购清单名称均为“葱”，数量保留在“葱一段”标签中，前次缺陷已修复。8行食材身份、4步语法、标点括号及分隔编号均通过对抗审查。四张同源图片哈希与映射一致且实际加载，第4步保持纯文字；未混入其他来源细节。总时长为null并显示未注明，卡片和分享无虚构分钟数，时间筛选排除未知值，全部火力和计时控件隐藏。",
+  "evidencePackageHash": "2c53d0d3c7535600ba4cc0ac4ed427792ad659dd7ab2a997b20922a6c69cf1ba",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "runId": "2026-09-16-cn-002-source-images",
+  "recipeId": "cn-002",
+  "recipeName": "宫保鸡丁",
+  "category": "chinese",
+  "status": "failed",
+  "startedAt": "2026-09-16T04:33:09.716Z",
+  "completedAt": "2026-09-16T16:40:00+08:00",
+  "steps": {
+    "research": { "status": "done", "attempts": 1, "details": { "evidence": "workflow/evidence/2026-09-16-cn-002-source-images.json", "selectedSource": "The Woks of Life", "sourceMode": "single_source", "reusedDocumentId": "364f8d36-ac14-4fba-a1c2-19f57b0cdaf3" } },
+    "ingestion": { "status": "done", "attempts": 0, "details": { "reason": "未变更文档已复用，检索已验证。" } },
+    "edit": { "status": "failed", "attempts": 3, "details": { "reason": "Reviewer 在允许的两次返工后仍发现第4/5步为未指定的 oil 擅自添加‘植物油’。已恢复目标记录为批次前状态，不发布。" } },
+    "validator": { "status": "done", "attempts": 3, "details": { "passedBeforeReview": true, "targetOnly": true } },
+    "review": { "status": "failed", "attempts": 3, "details": { "status": "FAIL", "reason": "超出信源的油种指定在两次返工后仍存在。" } },
+    "build": { "status": "done", "attempts": 1, "details": { "suite": "npm run test:workflow:deterministic", "passed": true, "afterRollback": true } },
+    "gitPush": { "status": "pending", "attempts": 0, "details": { "reason": "失败菜品不发布。" } }
+  },
+  "sources": [
+    { "name": "The Woks of Life", "url": "https://thewoksoflife.com/kung-pao-chicken/", "status": "success", "failureReason": null },
+    { "name": "豆果美食", "url": "https://www.douguo.com/cookbook/3047016.html", "status": "failed", "failureReason": "空白步骤和原料表遗漏，不作主信源。" }
+  ],
+  "errors": [
+    { "step": "review", "code": "EDITOR_REDO_LIMIT", "message": "两次返工后仍存在超出信源的油种补充，按工作流终止该菜。", "at": "2026-09-16T16:40:00+08:00" }
+  ],
+  "branch": "codex/recipe-automation",
+  "commit": null
+}

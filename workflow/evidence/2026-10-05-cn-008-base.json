@@ -1,0 +1,737 @@
+{
+  "recipeId": "cn-008",
+  "recipeName": "扬州炒饭",
+  "category": "chinese",
+  "createdAt": "2026-10-05T15:02:28.270Z",
+  "sourceMode": "multi_source",
+  "selectedSourceUrl": "https://thewoksoflife.com/young-chow-fried-rice/",
+  "selectionReason": "完整性和内部自洽优先：Woks明确全部核心原料去向、3汤匙油的1+2分配、中高火炒蛋/大火炒饭、30秒及两个2分钟阶段、补水/高汤/少油条件和生菜刚萎软即停。保留其整份菜谱；不因豆果11/11图片覆盖而忽略其香葱未入步骤缺漏。",
+  "sources": [
+    {
+      "sourceName": "The Woks of Life",
+      "sourceType": "website",
+      "url": "https://thewoksoflife.com/young-chow-fried-rice/",
+      "documentId": "13d71b61-5b39-41a1-b75d-e1d019fc0ad8",
+      "retrievalMethod": "Public web reader HTML body and Recipe card; direct Node HTML403 recorded separately",
+      "complete": true,
+      "ingredients": [
+        {
+          "raw": "5 cups cooked rice (see instructions)",
+          "name": "cooked rice",
+          "amount": "5 cups",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "3 tablespoons oil",
+          "name": "oil",
+          "amount": "3 tablespoons",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "2 large eggs (beaten)",
+          "name": "large eggs, beaten",
+          "amount": "2",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "4 ounces fresh shrimp (110g, 40-60 size, deveined and shells removed)",
+          "name": "fresh shrimp, 40-60 size, deveined and shells removed",
+          "amount": "4 ounces (110g)",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "1 medium onion (finely diced)",
+          "name": "medium onion, finely diced",
+          "amount": "1",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "1/2 cup Virginia ham, cut into cubes (about 4 ounces/110g)",
+          "name": "Virginia ham, cut into cubes",
+          "amount": "1/2 cup (about 4 ounces/110g)",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "1/2 cup Chinese Roast Pork (about 4 ounces/110g)",
+          "name": "Chinese Roast Pork",
+          "amount": "1/2 cup (about 4 ounces/110g)",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "3/4 cup frozen peas (thawed)",
+          "name": "frozen peas, thawed",
+          "amount": "3/4 cup",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "1 1/2 teaspoons salt",
+          "name": "salt",
+          "amount": "1 1/2 teaspoons",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "¼ teaspoon sugar",
+          "name": "sugar",
+          "amount": "¼ teaspoon",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "1 teaspoon Shaoxing wine (optional)",
+          "name": "Shaoxing wine, optional",
+          "amount": "1 teaspoon",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "2 scallions (finely chopped)",
+          "name": "scallions, finely chopped",
+          "amount": "2",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "2 cups romaine or iceberg lettuce (finely chopped)",
+          "name": "romaine or iceberg lettuce, finely chopped",
+          "amount": "2 cups",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "1/8 teaspoon freshly ground white pepper",
+          "name": "freshly ground white pepper",
+          "amount": "1/8 teaspoon",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "use a little bit less water when cooking the rice; exact quantity not specified",
+          "name": "water for cooking rice",
+          "amount": "a little less than package directions; exact quantity not specified",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "a pot of boiling water for blanching the shrimp; quantity not specified",
+          "name": "boiling water for blanching shrimp",
+          "amount": null,
+          "evidence": "explicit"
+        },
+        {
+          "raw": "sprinkle in some water or chicken stock if the rice looks a little dry; exact quantity not specified",
+          "name": "water or chicken stock, optional dryness adjustment",
+          "amount": "some; exact quantity not specified",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "a touch more oil if the rice looks a little dry; exact quantity not specified",
+          "name": "additional oil, optional dryness adjustment",
+          "amount": "a touch more; exact quantity not specified",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "Serve your Young Chow Fried Rice with some hot sauce or chili oil on the side!",
+          "name": "hot sauce or chili oil (optional serving accompaniment)",
+          "amount": "quantity not specified",
+          "evidence": "explicit"
+        }
+      ],
+      "steps": [
+        {
+          "heat": null,
+          "order": 1,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "Cook the rice according to package directions, using a little less water to avoid mushy, sticky rice. Let it cool uncovered; when it stops steaming, fluff with a fork and break it apart. Remaining clumps can be handled in the wok."
+        },
+        {
+          "heat": null,
+          "order": 2,
+          "duration": "overnight (optional refrigeration)",
+          "evidence": "explicit",
+          "instruction": "If refrigerating the rice overnight, break the cold clumps into individual grains by hand; rinse hands periodically with cold water if they become sticky."
+        },
+        {
+          "heat": "medium-high heat",
+          "order": 3,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "Heat the wok over medium-high heat. Add 1 tablespoon of the oil, then the beaten eggs; fold and scramble gently without scorching. Transfer the eggs back to their bowl. Separately, blanch the shrimp in boiling water, drain, and set aside."
+        },
+        {
+          "heat": "high heat",
+          "order": 4,
+          "duration": "30 seconds",
+          "evidence": "explicit",
+          "instruction": "Heat the wok now over high heat. Add the remaining 2 tablespoons of oil and the diced onion. Stir-fry until the onions are translucent. Next, add the diced ham and Chinese roast pork, and stir-fry for 30 seconds."
+        },
+        {
+          "heat": "high heat",
+          "order": 5,
+          "duration": "2 minutes",
+          "evidence": "explicit",
+          "instruction": "Add the rice and stir-fry for 2 minutes, being sure to heat the rice uniformly. Use your wok spatula to flatten out and break up any remaining rice clumps."
+        },
+        {
+          "heat": "high heat",
+          "order": 6,
+          "duration": "2 minutes",
+          "evidence": "explicit",
+          "instruction": "Add the shrimp and peas, and stir-fry continuously for another 2 minutes until the rice is heated through."
+        },
+        {
+          "heat": null,
+          "order": 7,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "Sprinkle salt and sugar over the rice. If using Shaoxing wine, drizzle it around the perimeter of the wok so it sizzles and the alcohol cooks off. Mix until seasonings are uniformly incorporated."
+        },
+        {
+          "heat": null,
+          "order": 8,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "If the rice looks dry, sprinkle in some water or chicken stock, or add just a touch more oil. Adding liquid directly to large rice clumps helps break them up; too much water makes the rice soggy and too much oil makes it greasy."
+        },
+        {
+          "heat": null,
+          "order": 9,
+          "duration": "until lettuce is just wilted",
+          "evidence": "explicit",
+          "instruction": "Mix in the scrambled eggs, scallions, chopped lettuce, and white pepper. Stir-fry only until the lettuce is just wilted, then plate."
+        }
+      ],
+      "technique": [
+        "Prep: 30 mins",
+        "Cook: 10 mins",
+        "Total: 40 mins",
+        "Eggs: medium-high heat, fold and scramble gently without scorching",
+        "Rice stir-fry: high heat; ham and pork 30 seconds, rice 2 minutes, then shrimp and peas 2 minutes",
+        "Shaoxing wine is drizzled around the wok perimeter for sizzling and alcohol evaporation"
+      ],
+      "tips": [
+        "Use a little less water than usual when cooking the rice, then cool it uncovered and fluff it before stir-frying.",
+        "Cold overnight rice clumps can be broken apart by hand; wet sticky hands periodically with cold water.",
+        "Do not overcook the lettuce; it should be just wilted to retain its refreshing crunch.",
+        "For dry rice, add only a little water, chicken stock, or oil: too much liquid makes it soggy and too much oil makes it greasy.",
+        "Serve with some hot sauce or chili oil on the side, if desired."
+      ],
+      "rawExcerpt": "Young Chow fried rice originated from Yangzhou; this recipe is The Woks of Life's own take on the restaurant/takeout classic.\n5 cups cooked rice (see instructions); 3 tablespoons oil; 2 large eggs (beaten); 4 ounces fresh shrimp (110g, 40-60 size, deveined and shells removed); 1 medium onion (finely diced); 1/2 cup Virginia ham, cut into cubes (about 4 ounces/110g); 1/2 cup Chinese Roast Pork (about 4 ounces/110g); 3/4 cup frozen peas (thawed); 1 1/2 teaspoons salt; ¼ teaspoon sugar; 1 teaspoon Shaoxing wine (optional); 2 scallions (finely chopped); 2 cups romaine or iceberg lettuce (finely chopped); 1/8 teaspoon freshly ground white pepper; use a little bit less water when cooking the rice; exact quantity not specified; a pot of boiling water for blanching the shrimp; quantity not specified; sprinkle in some water or chicken stock if the rice looks a little dry; exact quantity not specified; a touch more oil if the rice looks a little dry; exact quantity not specified; Serve your Young Chow Fried Rice with some hot sauce or chili oil on the side!\n1. Cook the rice according to package directions, using a little less water to avoid mushy, sticky rice. Let it cool uncovered; when it stops steaming, fluff with a fork and break it apart. Remaining clumps can be handled in the wok.\n2. If refrigerating the rice overnight, break the cold clumps into individual grains by hand; rinse hands periodically with cold water if they become sticky.\n3. Heat the wok over medium-high heat. Add 1 tablespoon of the oil, then the beaten eggs; fold and scramble gently without scorching. Transfer the eggs back to their bowl. Separately, blanch the shrimp in boiling water, drain, and set aside.\n4. Heat the wok now over high heat. Add the remaining 2 tablespoons of oil and the diced onion. Stir-fry until the onions are translucent. Next, add the diced ham and Chinese roast pork, and stir-fry for 30 seconds.\n5. Add the rice and stir-fry for 2 minutes, being sure to heat the rice uniformly. Use your wok spatula to flatten out and break up any remaining rice clumps.\n6. Add the shrimp and peas, and stir-fry continuously for another 2 minutes until the rice is heated through.\n7. Sprinkle salt and sugar over the rice. If using Shaoxing wine, drizzle it around the perimeter of the wok so it sizzles and the alcohol cooks off. Mix until seasonings are uniformly incorporated.\n8. If the rice looks dry, sprinkle in some water or chicken stock, or add just a touch more oil. Adding liquid directly to large rice clumps helps break them up; too much water makes the rice soggy and too much oil makes it greasy.\n9. Mix in the scrambled eggs, scallions, chopped lettuce, and white pepper. Stir-fry only until the lettuce is just wilted, then plate.\nUse a little less water than usual when cooking the rice, then cool it uncovered and fluff it before stir-frying.\nCold overnight rice clumps can be broken apart by hand; wet sticky hands periodically with cold water.\nDo not overcook the lettuce; it should be just wilted to retain its refreshing crunch.\nFor dry rice, add only a little water, chicken stock, or oil: too much liquid makes it soggy and too much oil makes it greasy.\nServe with some hot sauce or chili oil on the side, if desired.",
+      "bookTitle": null,
+      "pageStart": null,
+      "pageEnd": null,
+      "location": null,
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 1,
+        "mappedStepImages": 4,
+        "stepImageCoverage": 0.4444444444444444,
+        "ingredientCount": 19,
+        "executableStepCount": 9,
+        "notes": [
+          "9 structured stages retain the full source recipe, with the original combined stir-fry paragraph separated into the 30-second meat, 2-minute rice and 2-minute shrimp/pea stages.",
+          "Two alternate in-wok photographs are recorded but not imported as duplicate instructions. Image7 is a plated finished dish, not a cooking step, and is not assigned to one.",
+          "Cooking oil, water, optional stock/extra oil and optional serving sauce included; cold water for rinsing hands is hygiene instruction, not edible recipe ingredient.",
+          "No rice cup, tablespoon or teaspoon capacity is defined; retain source vessels without metric conversion."
+        ]
+      },
+      "media": {
+        "recipePageUrl": "https://thewoksoflife.com/young-chow-fried-rice/",
+        "mediaPageUrl": "https://thewoksoflife.com/young-chow-fried-rice/",
+        "sourceName": "The Woks of Life",
+        "author": "Bill",
+        "rightsNotice": "The Woks of Life source photographs; repository copy separately authorized by user.",
+        "reuseLicense": null,
+        "repositoryCopyAuthorized": true,
+        "hero": {
+          "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/12/young-chow-fried-rice-8.jpg",
+          "repositoryPath": "assets/dishes/sources/cn-008-yangzhou-fried-rice/hero.jpg",
+          "httpStatus": 200,
+          "contentType": "image/jpeg"
+        },
+        "steps": [
+          {
+            "stepOrder": 4,
+            "sourceStepOrder": 4,
+            "pageOrder": 1,
+            "adjacentText": "Heat the wok now over high heat. Add 2 tablespoons of oil and the diced onion. Stir-fry until the onions are translucent. Next, add the diced ham and Chinese Roast Pork, and stir-fry for 30 seconds.",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/12/young-chow-fried-rice-1.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-008-yangzhou-fried-rice/step-4.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg"
+          },
+          {
+            "stepOrder": 5,
+            "sourceStepOrder": 4,
+            "pageOrder": 2,
+            "adjacentText": "Add the rice and stir-fry for 2 minutes, being sure to heat the rice uniformly. Use your wok spatula to flatten out and break up any remaining rice clumps.",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/12/young-chow-fried-rice-2.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-008-yangzhou-fried-rice/step-5.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg"
+          },
+          {
+            "stepOrder": 6,
+            "sourceStepOrder": 4,
+            "pageOrder": 3,
+            "adjacentText": "Add the shrimp and peas, and stir fry continuously for another 2 minutes until the rice is heated through.",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/12/young-chow-fried-rice-3.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-008-yangzhou-fried-rice/step-6.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "alternateImages": [
+              {
+                "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/12/young-chow-fried-rice-4.jpg",
+                "pageOrder": 4,
+                "httpStatus": 200,
+                "contentType": "image/jpeg",
+                "adjacentText": "Same shrimp and peas stir-fry phase; alternate angle, not a separate operation."
+              }
+            ]
+          },
+          {
+            "stepOrder": 9,
+            "sourceStepOrder": 7,
+            "pageOrder": 5,
+            "adjacentText": "Next, mix in the scrambled eggs, scallions, chopped lettuce, and white pepper. Lettuce is one of the signature ingredients of this young chow fried rice providing a refreshing crunch so be sure not to overcook it!",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/12/young-chow-fried-rice-5.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-008-yangzhou-fried-rice/step-9.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "alternateImages": [
+              {
+                "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/12/young-chow-fried-rice-6.jpg",
+                "pageOrder": 6,
+                "httpStatus": 200,
+                "contentType": "image/jpeg",
+                "adjacentText": "Same egg, scallion, lettuce and white pepper phase; alternate angle, not another operation."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "sourceName": "豆果美食",
+      "sourceType": "website",
+      "url": "https://www.douguo.com/cookbook/1180703.html",
+      "documentId": "4c33307b-a444-4c42-a85d-b0ee10df0a0c",
+      "retrievalMethod": "Public HTML body",
+      "complete": true,
+      "ingredients": [
+        {
+          "raw": "泰国香米 300克",
+          "name": "泰国香米",
+          "amount": "300克",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "青豆 适量",
+          "name": "青豆",
+          "amount": "适量",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "黄瓜 适量",
+          "name": "黄瓜",
+          "amount": "适量",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "香肠 适量",
+          "name": "香肠",
+          "amount": "适量",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "虾仁 适量",
+          "name": "虾仁",
+          "amount": "适量",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "胡萝卜丁（用料表未列用量；步骤1写“适量”）",
+          "name": "胡萝卜丁",
+          "amount": "适量",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "玉米粒 适量",
+          "name": "玉米粒",
+          "amount": "适量",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "鸡蛋 2个",
+          "name": "鸡蛋",
+          "amount": "2个",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "香葱 适量",
+          "name": "香葱",
+          "amount": "适量",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "加适量的清水开始煮饭（步骤2）",
+          "name": "清水（煮饭）",
+          "amount": "适量",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "虾仁中加半只蛋清（步骤4）",
+          "name": "蛋清（腌虾仁）",
+          "amount": "半只",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "一小勺淀粉（步骤4）",
+          "name": "淀粉（腌虾仁）",
+          "amount": "一小勺",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "锅中加适量清水（步骤5）",
+          "name": "清水（焯蔬菜）",
+          "amount": "适量",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "锅中加少许油（步骤6）",
+          "name": "食用油（炒虾仁）",
+          "amount": "少许",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "锅中加少许油（步骤7）",
+          "name": "食用油（炒蔬菜）",
+          "amount": "少许",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "加入少许盐（步骤7）",
+          "name": "盐",
+          "amount": "少许",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "锅中加少许油（步骤8）",
+          "name": "食用油（炒鸡蛋）",
+          "amount": "少许",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "滴少许香油（步骤11）",
+          "name": "香油",
+          "amount": "少许",
+          "evidence": "explicit"
+        }
+      ],
+      "steps": [
+        {
+          "heat": null,
+          "order": 1,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "准备食材：泰国香米300克，胡萝卜丁、青豆、玉米粒、黄瓜、香肠、虾仁、香葱均适量，鸡蛋2个。"
+        },
+        {
+          "heat": null,
+          "order": 2,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "将香米淘洗干净，放入电饭煲，加适量清水煮饭；饭煮好后晾凉备用。"
+        },
+        {
+          "heat": null,
+          "order": 3,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "黄瓜切丁、香肠切丁、鸡蛋打散、香葱切碎备用。"
+        },
+        {
+          "heat": null,
+          "order": 4,
+          "duration": "10分钟",
+          "evidence": "explicit",
+          "instruction": "虾仁加入半只蛋清和一小勺淀粉抓匀，腌制10分钟备用。"
+        },
+        {
+          "heat": "水烧开",
+          "order": 5,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "锅中加适量清水，水烧开后放入玉米、青豆、胡萝卜焯水备用。"
+        },
+        {
+          "heat": "油热",
+          "order": 6,
+          "duration": "至虾仁变白成熟",
+          "evidence": "explicit",
+          "instruction": "锅中加少许食用油，油热后倒入虾仁滑炒；虾仁变白成熟即盛出备用。"
+        },
+        {
+          "heat": "油热",
+          "order": 7,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "锅中加少许食用油，油热后放入玉米、青豆、胡萝卜、黄瓜和香肠，加入少许盐煸炒均匀，盛出备用。"
+        },
+        {
+          "heat": "油热",
+          "order": 8,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "锅中加少许食用油，油热后倒入蛋液，边炒边将鸡蛋打散。"
+        },
+        {
+          "heat": null,
+          "order": 9,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "将米饭倒入锅中翻炒均匀。"
+        },
+        {
+          "heat": null,
+          "order": 10,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "将各种蔬菜倒入锅中翻炒均匀。"
+        },
+        {
+          "heat": null,
+          "order": 11,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "倒入虾仁，滴少许香油，翻炒均匀后出锅。"
+        }
+      ],
+      "technique": [
+        "虾仁以半只蛋清和一小勺淀粉抓匀，腌制10分钟",
+        "玉米、青豆、胡萝卜先在沸水中焯水",
+        "虾仁滑炒至变白成熟",
+        "鸡蛋边炒边滑成小块，不要炒得太过"
+      ],
+      "tips": [
+        "米饭一定要在晾凉后再炒。",
+        "胡萝卜、玉米、青豆短时间不容易炒熟，所以要先焯一下水。",
+        "鸡蛋不要炒得太过，而且边炒要边滑成小块。"
+      ],
+      "rawExcerpt": "相传蛋炒饭传入扬州后经创新形成配料丰富、色泽漂亮、米粒分明、入口清香的扬州炒饭。\n泰国香米 300克; 青豆 适量; 黄瓜 适量; 香肠 适量; 虾仁 适量; 胡萝卜丁（用料表未列用量；步骤1写“适量”）; 玉米粒 适量; 鸡蛋 2个; 香葱 适量; 加适量的清水开始煮饭（步骤2）; 虾仁中加半只蛋清（步骤4）; 一小勺淀粉（步骤4）; 锅中加适量清水（步骤5）; 锅中加少许油（步骤6）; 锅中加少许油（步骤7）; 加入少许盐（步骤7）; 锅中加少许油（步骤8）; 滴少许香油（步骤11）\n1. 准备食材：泰国香米300克，胡萝卜丁、青豆、玉米粒、黄瓜、香肠、虾仁、香葱均适量，鸡蛋2个。\n2. 将香米淘洗干净，放入电饭煲，加适量清水煮饭；饭煮好后晾凉备用。\n3. 黄瓜切丁、香肠切丁、鸡蛋打散、香葱切碎备用。\n4. 虾仁加入半只蛋清和一小勺淀粉抓匀，腌制10分钟备用。\n5. 锅中加适量清水，水烧开后放入玉米、青豆、胡萝卜焯水备用。\n6. 锅中加少许食用油，油热后倒入虾仁滑炒；虾仁变白成熟即盛出备用。\n7. 锅中加少许食用油，油热后放入玉米、青豆、胡萝卜、黄瓜和香肠，加入少许盐煸炒均匀，盛出备用。\n8. 锅中加少许食用油，油热后倒入蛋液，边炒边将鸡蛋打散。\n9. 将米饭倒入锅中翻炒均匀。\n10. 将各种蔬菜倒入锅中翻炒均匀。\n11. 倒入虾仁，滴少许香油，翻炒均匀后出锅。\n米饭一定要在晾凉后再炒。\n胡萝卜、玉米、青豆短时间不容易炒熟，所以要先焯一下水。\n鸡蛋不要炒得太过，而且边炒要边滑成小块。",
+      "bookTitle": null,
+      "pageStart": null,
+      "pageEnd": null,
+      "location": null,
+      "selectionAssessment": {
+        "qualifies": false,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "incomplete",
+        "internalCoherence": "conflicted",
+        "heroImages": 1,
+        "mappedStepImages": 11,
+        "stepImageCoverage": 1,
+        "ingredientCount": 18,
+        "executableStepCount": 11,
+        "notes": [
+          "The ingredients and preparation list scallions and chop them, but no cooking or serving step ever uses them. Do not invent an addition.",
+          "Sausage is cooked with vegetables and removed in source step7; step10 says only various vegetables return, so sausage return is ambiguous.",
+          "Half an egg white for shrimp is separately required in addition to the two eggs; no source evidence authorizes subtracting it from those eggs.",
+          "The detailed raw source and all original method-introduced oil, water, starch, salt and sesame oil were preserved; unchanged RAG document/5 embeddings reused."
+        ]
+      }
+    },
+    {
+      "sourceName": "贝太厨房:从小爱吃的菜2",
+      "sourceType": "book",
+      "url": null,
+      "documentId": "3f3418ae-5819-4829-8630-500cb56187a6",
+      "retrievalMethod": "EPUB XHTML section",
+      "complete": true,
+      "ingredients": [
+        {
+          "raw": "粳米饭 150g",
+          "name": "粳米饭",
+          "amount": "150g",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "小虾仁 20g",
+          "name": "小虾仁",
+          "amount": "20g",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "火腿 20g",
+          "name": "火腿",
+          "amount": "20g",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "鸡胸肉 20g",
+          "name": "鸡胸肉",
+          "amount": "20g",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "灌装玉米粒 20g",
+          "name": "灌装玉米粒",
+          "amount": "20g",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "青豆仁 20g",
+          "name": "青豆仁",
+          "amount": "20g",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "小葱 30g",
+          "name": "小葱",
+          "amount": "30g",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "胡萝卜 20g",
+          "name": "胡萝卜",
+          "amount": "20g",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "鸡蛋 3个",
+          "name": "鸡蛋",
+          "amount": "3个",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "盐 5g",
+          "name": "盐",
+          "amount": "5g",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "鸡精 3g",
+          "name": "鸡精",
+          "amount": "3g",
+          "evidence": "explicit"
+        },
+        {
+          "raw": "油 30ml",
+          "name": "油",
+          "amount": "30ml",
+          "evidence": "explicit"
+        }
+      ],
+      "steps": [
+        {
+          "heat": null,
+          "order": 1,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "胡萝卜洗净，去皮后切成0.5cm大小的丁，和青豆一起用开水汆烫断生，捞起晾干水。把火腿、鸡胸肉也都切成0.5cm大小的丁。小葱洗净切成葱花。鸡蛋在碗中打散。（图1、2）"
+        },
+        {
+          "heat": null,
+          "order": 2,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "大火烧热锅中的油（15ml），放入鸡胸肉丁和虾仁滑炒，再加入火腿丁一起炒熟，然后盛起备用。（图3）"
+        },
+        {
+          "heat": null,
+          "order": 3,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "锅里重新放油（15ml），当油烧至5成热，倒入蛋液，边炒边用铲子将凝固的蛋皮划散成小块，然后放入米饭炒散，倒入炒好的鸡丁、虾仁和火腿丁，及焯熟的胡萝卜丁和青豆，最后调入盐和鸡精，翻炒均匀后就可以了。（图4）"
+        }
+      ],
+      "technique": [
+        "准备：20分钟",
+        "烹饪：30分钟"
+      ],
+      "tips": [
+        "1.胡萝卜、玉米和青豆短时间不容易炒熟，所以用水烫熟了备用。",
+        "2.鸡蛋炒到半熟就可以下米饭，这样才能粘在饭粒上，吃起来比较均匀。"
+      ],
+      "rawExcerpt": "扬州炒饭在全国上下，可以说是无人不知无人不晓，基本上在所有的饭馆你都可以吃到它。但是说到正宗的扬州炒饭，其用料之丰富，做法之讲究，还是得自己亲力亲为才吃得到啊。\n粳米饭 150g; 小虾仁 20g; 火腿 20g; 鸡胸肉 20g; 灌装玉米粒 20g; 青豆仁 20g; 小葱 30g; 胡萝卜 20g; 鸡蛋 3个; 盐 5g; 鸡精 3g; 油 30ml\n1. 胡萝卜洗净，去皮后切成0.5cm大小的丁，和青豆一起用开水汆烫断生，捞起晾干水。把火腿、鸡胸肉也都切成0.5cm大小的丁。小葱洗净切成葱花。鸡蛋在碗中打散。（图1、2）\n2. 大火烧热锅中的油（15ml），放入鸡胸肉丁和虾仁滑炒，再加入火腿丁一起炒熟，然后盛起备用。（图3）\n3. 锅里重新放油（15ml），当油烧至5成热，倒入蛋液，边炒边用铲子将凝固的蛋皮划散成小块，然后放入米饭炒散，倒入炒好的鸡丁、虾仁和火腿丁，及焯熟的胡萝卜丁和青豆，最后调入盐和鸡精，翻炒均匀后就可以了。（图4）\n1.胡萝卜、玉米和青豆短时间不容易炒熟，所以用水烫熟了备用。\n2.鸡蛋炒到半熟就可以下米饭，这样才能粘在饭粒上，吃起来比较均匀。",
+      "bookTitle": "贝太厨房:从小爱吃的菜2",
+      "pageStart": null,
+      "pageEnd": null,
+      "location": "text00113.html#subid75",
+      "selectionAssessment": {
+        "qualifies": false,
+        "ingredientCoverage": "incomplete",
+        "stepCoverage": "incomplete",
+        "internalCoherence": "conflicted",
+        "heroImages": 0,
+        "mappedStepImages": 0,
+        "stepImageCoverage": 0,
+        "ingredientCount": 12,
+        "executableStepCount": 3,
+        "notes": [
+          "Corn is in ingredients and blanching tip, but no formal cooking/assembly step uses corn; scallions are chopped but never added.",
+          "Boiling water named in method not represented in original ingredient normalization. Historical RAG preserved unchanged rather than silently correcting omissions.",
+          "No verified image assets or exact media URL in existing book RAG; not a current source-image candidate."
+        ]
+      }
+    }
+  ],
+  "ragEvidence": [
+    {
+      "chunkId": "d9fa83d6-6aa6-4217-87d7-5fff68eeb8c8",
+      "documentId": "13d71b61-5b39-41a1-b75d-e1d019fc0ad8",
+      "sourceName": "The Woks of Life",
+      "chunkType": "summary",
+      "content": "菜名：扬州炒饭\n别名：Young Chow Fried Rice、Yung Chow Fried Rice、Yeung Chow Fried Rice\n菜系：扬州炒饭（作者自述版本）\n简介：Young Chow fried rice originated from Yangzhou; this recipe is The Woks of Life's own take on the restaurant/takeout classic.",
+      "similarity": null
+    },
+    {
+      "chunkId": "c94652f8-ff1a-4ac7-b887-5e9ae1f993bb",
+      "documentId": "13d71b61-5b39-41a1-b75d-e1d019fc0ad8",
+      "sourceName": "The Woks of Life",
+      "chunkType": "ingredients",
+      "content": "菜名：扬州炒饭\n- 5 cups cooked rice (see instructions)\n- 3 tablespoons oil\n- 2 large eggs (beaten)\n- 4 ounces fresh shrimp (110g, 40-60 size, deveined and shells removed)\n- 1 medium onion (finely diced)\n- 1/2 cup Virginia ham, cut into cubes (about 4 ounces/110g)\n- 1/2 cup Chinese Roast Pork (about 4 ounces/110g)\n- 3/4 cup frozen peas (thawed)\n- 1 1/2 teaspoons salt\n- ¼ teaspoon sugar\n- 1 teaspoon Shaoxing wine (optional)\n- 2 scallions (finely chopped)\n- 2 cups romaine or iceberg lettuce (finely chopped)\n- 1/8 teaspoon freshly ground white pepper\n- use a little bit less water when cooking the rice; exact quantity not specified\n- a pot of boiling water for blanching the shrimp; quantity not specified\n- sprinkle in some water or chicken stock if the rice looks a little dry; exact quantity not specified\n- a touch more oil if the rice looks a little dry; exact quantity not specified\n- Serve your Young Chow Fried Rice with some hot sauce or chili oil on the side!",
+      "similarity": null
+    },
+    {
+      "chunkId": "1d93cefa-53f5-4bcf-8b98-0ee058aa98cd",
+      "documentId": "13d71b61-5b39-41a1-b75d-e1d019fc0ad8",
+      "sourceName": "The Woks of Life",
+      "chunkType": "steps",
+      "content": "菜名：扬州炒饭\n1. Cook the rice according to package directions, using a little less water to avoid mushy, sticky rice. Let it cool uncovered; when it stops steaming, fluff with a fork and break it apart. Remaining clumps can be handled in the wok.\n2. If refrigerating the rice overnight, break the cold clumps into individual grains by hand; rinse hands periodically with cold water if they become sticky.（overnight (optional refrigeration)）\n3. Heat the wok over medium-high heat. Add 1 tablespoon of the oil, then the beaten eggs; fold and scramble gently without scorching. Transfer the eggs back to their bowl. Separately, blanch the shrimp in boiling water, drain, and set aside.【medium-high heat】\n4. Heat the wok now over high heat. Add the remaining 2 tablespoons of oil and the diced onion. Stir-fry until the onions are translucent. Next, add the diced ham and Chinese roast pork, and stir-fry for 30 seconds.（30 seconds）【high heat】\n5. Add the rice and stir-fry for 2 minutes, being sure to heat the rice uniformly. Use your wok spatula to flatten out and break up any remaining rice clumps.（2 minutes）【high heat】",
+      "similarity": null
+    },
+    {
+      "chunkId": "4ff316d9-5124-4685-9eb1-28e84636bc7a",
+      "documentId": "13d71b61-5b39-41a1-b75d-e1d019fc0ad8",
+      "sourceName": "The Woks of Life",
+      "chunkType": "steps",
+      "content": "菜名：扬州炒饭\n6. Add the shrimp and peas, and stir-fry continuously for another 2 minutes until the rice is heated through.（2 minutes）【high heat】\n7. Sprinkle salt and sugar over the rice. If using Shaoxing wine, drizzle it around the perimeter of the wok so it sizzles and the alcohol cooks off. Mix until seasonings are uniformly incorporated.\n8. If the rice looks dry, sprinkle in some water or chicken stock, or add just a touch more oil. Adding liquid directly to large rice clumps helps break them up; too much water makes the rice soggy and too much oil makes it greasy.\n9. Mix in the scrambled eggs, scallions, chopped lettuce, and white pepper. Stir-fry only until the lettuce is just wilted, then plate.（until lettuce is just wilted）",
+      "similarity": null
+    },
+    {
+      "chunkId": "049e2c1c-2959-4a18-88e4-91518cd04919",
+      "documentId": "13d71b61-5b39-41a1-b75d-e1d019fc0ad8",
+      "sourceName": "The Woks of Life",
+      "chunkType": "technique",
+      "content": "菜名：扬州炒饭\n- Prep: 30 mins\n- Cook: 10 mins\n- Total: 40 mins\n- Eggs: medium-high heat, fold and scramble gently without scorching\n- Rice stir-fry: high heat; ham and pork 30 seconds, rice 2 minutes, then shrimp and peas 2 minutes\n- Shaoxing wine is drizzled around the wok perimeter for sizzling and alcohol evaporation\n- overnight (optional refrigeration)\n- medium-high heat\n- 30 seconds\n- high heat\n- 2 minutes\n- high heat\n- 2 minutes\n- high heat\n- until lettuce is just wilted",
+      "similarity": null
+    },
+    {
+      "chunkId": "2a17ad07-11e7-4f31-a46f-f3b783a11cf3",
+      "documentId": "13d71b61-5b39-41a1-b75d-e1d019fc0ad8",
+      "sourceName": "The Woks of Life",
+      "chunkType": "tips",
+      "content": "菜名：扬州炒饭\n- Use a little less water than usual when cooking the rice, then cool it uncovered and fluff it before stir-frying.\n- Cold overnight rice clumps can be broken apart by hand; wet sticky hands periodically with cold water.\n- Do not overcook the lettuce; it should be just wilted to retain its refreshing crunch.\n- For dry rice, add only a little water, chicken stock, or oil: too much liquid makes it soggy and too much oil makes it greasy.\n- Serve with some hot sauce or chili oil on the side, if desired.",
+      "similarity": null
+    }
+  ],
+  "notes": [
+    "RAG-first exact canonical-name lookup returned entity d764c850-62bb-4c70-b027-e953d74000ec and book 3f3418ae-5819-4829-8630-500cb56187a6, Woks1309ee70-5ff3-4cf0-b9d6-58b9bd4a6d3b and Douguo4c33307b-a444-4c42-a85d-b0ee10df0a0c before page research.",
+    "Woks ordinary web reader successfully read full public current page and recipe card; direct configured Node HTTP fetch returned403 and was not bypassed. Therefore it is false to report the source entirely inaccessible. Image URLs linked in successful public page returned HEAD200 image/jpeg.",
+    "Douguo1180703 ordinary Node public page200; web tool independently403. Its full ingredient/method content is unchanged against normalized history; ingestDocument deduplicated=true, embedded=false. 5 voyage-4 chunks with actual vector_dims1024 verified.",
+    "Book reliable existing document reused unchanged; 5 voyage-4 chunks with actual vector_dims1024 verified. Exact EPUB locator text00113.html#subid75; no fixed pages. Omissions remain recorded, not filled from another source.",
+    "Woks 9-stage normalization with19 ingredients ingested as 13d71b61-5b39-41a1-b75d-e1d019fc0ad8; six voyage-4/1024 chunks. A preliminary normalization 5fcc9b70-327c-47a2-8b07-05f14c7ebade included hand-rinsing water as an ingredient; corrected current document classifies that solely as hygiene in the unchanged instruction. Neither document modifies recipe data.",
+    "Current source title Young Chow Fried Rice explicitly explains Yangzhou origin and authored takeout variant. Preserve Virginia ham/Chinese roast pork/lettuce route; no Douguo sausage/cucumber or book chicken/corn supplementation.",
+    "All four selected cooking photos are exact adjacent in-wok action photos. Two alternates retained as provenance but each displayed step uses one image; image7 is plated finished dish, image8 selected hero. Missing step photos remain text-only.",
+    "Source volumes cups/tablespoons/teaspoons are undefined in metric capacity. Source-provided110g protein equivalents may be retained; no inventedml quantities. Medium-high remains literal 中高火, not silently rounded to 中火.",
+    "Every tried candidate retains its separate ingredients and detailed steps in base evidence; final package contains only the eligible Woks source, with explicit single-source reason and the excluded-source assessments in decision artifact."
+  ]
+}

@@ -4,78 +4,78 @@
       "id": "cn-001",
       "name": "番茄炒蛋",
       "status": "done",
-      "lastRunId": "2026-09-06-cn-001-b20a",
-      "completedAt": "2026-09-06T11:10:06.948Z"
+      "lastRunId": "2026-09-16-cn-001-source-images",
+      "completedAt": "2026-10-05T23:27:17Z"
     },
     {
       "id": "cn-002",
       "name": "宫保鸡丁",
       "status": "done",
-      "lastRunId": "2026-08-31-cn-002-source-unit-fidelity",
-      "completedAt": "2026-08-31T17:04:31.182Z"
+      "lastRunId": "2026-09-19-cn-002-source-images",
+      "completedAt": "2026-09-19T15:40:44.673+08:00"
     },
     {
       "id": "cn-003",
       "name": "麻婆豆腐",
       "status": "done",
-      "lastRunId": "2026-08-31-cn-003-t10c",
-      "completedAt": "2026-08-31T06:20:52.158Z"
+      "lastRunId": "2026-09-19-cn-003-adversarial-review",
+      "completedAt": "2026-09-19T15:40:44.673+08:00"
     },
     {
       "id": "cn-004",
       "name": "鱼香肉丝",
       "status": "done",
-      "lastRunId": "2026-08-31-cn-004-source-unit-fidelity",
-      "completedAt": "2026-08-31T17:04:31.182Z"
+      "lastRunId": "2026-09-19-cn-004-source-images",
+      "completedAt": "2026-09-19T16:45:00+08:00"
     },
     {
       "id": "cn-005",
       "name": "青椒肉丝",
       "status": "done",
-      "lastRunId": "2026-09-06-cn-005-unit-fidelity",
-      "completedAt": "2026-09-07T02:23:41.396Z"
+      "lastRunId": "2026-10-05-cn-005-source-images",
+      "completedAt": "2026-10-05T14:01:20+08:00"
     },
     {
       "id": "cn-006",
       "name": "红烧肉",
       "status": "done",
-      "lastRunId": "2026-08-31-cn-006-source-unit-fidelity",
-      "completedAt": "2026-08-31T17:04:31.182Z"
+      "lastRunId": "2026-09-20-cn-006-source-images",
+      "completedAt": "2026-10-05T13:49:43+08:00"
     },
     {
       "id": "cn-007",
       "name": "糖醋里脊",
       "status": "done",
-      "lastRunId": "2026-09-06-cn-007-b20c",
-      "completedAt": "2026-09-06T12:44:41.070Z"
+      "lastRunId": "2026-10-05-cn-007-source-images",
+      "completedAt": "2026-10-05T14:49:56Z"
     },
     {
       "id": "cn-008",
       "name": "扬州炒饭",
       "status": "done",
-      "lastRunId": "2026-09-06-cn-008-b20d",
-      "completedAt": "2026-09-06T13:11:49.978Z"
+      "lastRunId": "2026-10-05-cn-008-source-images",
+      "completedAt": "2026-10-05T15:28:35Z"
     },
     {
       "id": "cn-009",
       "name": "清蒸鲈鱼",
       "status": "done",
-      "lastRunId": "2026-09-07-cn-009-b20e",
-      "completedAt": "2026-09-07T02:41:54.115Z"
+      "lastRunId": "2026-09-16-cn-009-source-images",
+      "completedAt": "2026-09-16T17:05:00+08:00"
     },
     {
       "id": "cn-010",
       "name": "地三鲜",
       "status": "done",
-      "lastRunId": "2026-08-30-cn-010-i10a",
-      "completedAt": "2026-08-30T03:41:13.492Z"
+      "lastRunId": "2026-10-05-cn-010-source-images",
+      "completedAt": "2026-10-05T16:07:02Z"
     },
     {
       "id": "cn-011",
       "name": "桂林米粉",
-      "status": "done",
-      "lastRunId": "2026-09-07-cn-011-b20f",
-      "completedAt": "2026-09-10T05:31:35.810Z"
+      "status": "failed",
+      "lastRunId": "2026-10-06-cn-011-source-images",
+      "completedAt": "2026-10-05T16:18:11Z"
     },
     {
       "id": "cn-012",
@@ -165,8 +165,8 @@
       "id": "cn-024",
       "name": "锅包肉",
       "status": "done",
-      "lastRunId": "2026-08-30-cn-024-i10b",
-      "completedAt": "2026-08-30T03:41:13.492Z"
+      "lastRunId": "2026-10-06-cn-024-source-images",
+      "completedAt": "2026-10-05T23:20:13Z"
     },
     {
       "id": "cn-025",
@@ -186,8 +186,8 @@
       "id": "cn-027",
       "name": "蒜蓉粉丝蒸扇贝",
       "status": "done",
-      "lastRunId": "2026-08-30-cn-027-i10c",
-      "completedAt": "2026-08-30T03:41:13.492Z"
+      "lastRunId": "2026-10-06-cn-027-source-images",
+      "completedAt": "2026-10-05T23:47:58Z"
     },
     {
       "id": "cn-028",
@@ -200,8 +200,8 @@
       "id": "cn-029",
       "name": "干煸四季豆",
       "status": "done",
-      "lastRunId": "2026-08-31-cn-029-source-unit-fidelity",
-      "completedAt": "2026-08-31T17:04:31.182Z"
+      "lastRunId": "2026-10-06-cn-029-source-images",
+      "completedAt": "2026-10-06T00:13:21Z"
     },
     {
       "id": "cn-030",
@@ -249,8 +249,8 @@
       "id": "cn-036",
       "name": "莲藕排骨汤",
       "status": "done",
-      "lastRunId": "2026-08-30-cn-036-i10d",
-      "completedAt": "2026-08-30T03:41:13.492Z"
+      "lastRunId": "2026-10-06-cn-036-source-images",
+      "completedAt": "2026-10-06T05:55:49Z"
     },
     {
       "id": "cn-037",
@@ -375,8 +375,8 @@
       "id": "cn-054",
       "name": "豉汁蒸排骨",
       "status": "done",
-      "lastRunId": "2026-08-30-cn-054-i10e",
-      "completedAt": "2026-08-30T03:41:13.492Z"
+      "lastRunId": "2026-10-06-cn-054-source-images",
+      "completedAt": "2026-10-06T06:24:46Z"
     },
     {
       "id": "cn-055",
@@ -447,8 +447,8 @@
       "id": "west-004",
       "name": "凯撒沙拉",
       "status": "done",
-      "lastRunId": "2026-08-31-west-004-source-unit-fidelity",
-      "completedAt": "2026-08-31T17:04:31.182Z"
+      "lastRunId": "2026-10-06-west-004-source-images",
+      "completedAt": "2026-10-06T06:53:09Z"
     },
     {
       "id": "west-005",
@@ -461,8 +461,8 @@
       "id": "west-006",
       "name": "法式洋葱汤",
       "status": "done",
-      "lastRunId": "2026-08-31-west-006-source-unit-fidelity",
-      "completedAt": "2026-08-31T17:04:31.182Z"
+      "lastRunId": "2026-10-06-west-006-source-images",
+      "completedAt": "2026-10-06T11:07:08Z"
     },
     {
       "id": "west-007",
@@ -496,15 +496,15 @@
       "id": "west-011",
       "name": "意式培根蛋面",
       "status": "done",
-      "lastRunId": "2026-08-31-west-011-source-unit-fidelity",
-      "completedAt": "2026-08-31T17:04:31.182Z"
+      "lastRunId": "2026-10-06-west-011-source-images",
+      "completedAt": "2026-10-06T11:33:58Z"
     },
     {
       "id": "west-012",
       "name": "千层面",
-      "status": "done",
-      "lastRunId": "2026-08-31-west-012-t10i",
-      "completedAt": "2026-08-31T06:20:52.158Z"
+      "status": "failed",
+      "lastRunId": "2026-10-06-west-012-source-images",
+      "completedAt": null
     },
     {
       "id": "west-013",
@@ -559,8 +559,8 @@
       "id": "west-020",
       "name": "牧羊人派",
       "status": "done",
-      "lastRunId": "2026-08-31-west-020-source-unit-fidelity",
-      "completedAt": "2026-08-31T17:04:31.182Z"
+      "lastRunId": "2026-10-06-west-020-source-images",
+      "completedAt": "2026-10-06T12:05:46Z"
     },
     {
       "id": "west-021",
