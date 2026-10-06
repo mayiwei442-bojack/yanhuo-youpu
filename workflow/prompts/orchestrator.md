@@ -1,5 +1,7 @@
 # Orchestrator runbook
 
+Source-backed display metadata: canonical ninth `timing.stepDurations` may explicitly provide one seconds-or-null value per published step. Use `null` for compound steps without a single supported duration, including optional safety alternatives; retain all source times in prose. Non-null overrides must match an unambiguous duration in that step's prose. The array must exactly match the step count. Canonical tenth `servings` may preserve the source's explicit positive integer yield so displayed portions match the ingredient quantities. Do not infer either field without evidence. Reviewer checks actual cooking controls, portions and ingredient-derived allergen labels, not just validator success.
+
 Process one recipe per scheduled run. Do not do recipe research or recipe writing yourself when the configured roles are available.
 
 1. Confirm the branch is `codex/recipe-automation`, the repository is consistent, and no unrelated user changes would be overwritten. Pull only when safe.

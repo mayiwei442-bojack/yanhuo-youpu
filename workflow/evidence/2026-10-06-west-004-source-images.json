@@ -1,0 +1,309 @@
+{
+  "recipeId": "west-004",
+  "recipeName": "凯撒沙拉",
+  "category": "western",
+  "createdAt": "2026-10-06T06:33:58.891Z",
+  "sourceMode": "single_source",
+  "singleSourceReason": "白名单两站与精确菜名历史RAG均已检查；Serious Eats全文与4个来源方向完整自洽，有成品图及方向1至4真实过程拼图。BBC Good Food完整正文存在total25分钟与冷藏至少30分钟冲突，Season未说明具体调味料，且只有成品图无过程图；无可靠书籍记录。仅Serious Eats符合本次要求，直接单来源采用。",
+  "selectedSourceUrl": "https://www.seriouseats.com/the-best-caesar-salad-recipe",
+  "selectionReason": "Serious Eats在完整性和内部自洽上合格，并有成品图及四方向完整过程图片覆盖4/4，完整采用其原料、步骤、技法、提示和图片。",
+  "sources": [
+    {
+      "sourceName": "Serious Eats",
+      "sourceType": "website",
+      "url": "https://www.seriouseats.com/the-best-caesar-salad-recipe",
+      "documentId": "3b2ce1c5-754a-41ef-a9c0-ba80ad92e157",
+      "retrievalMethod": "公开Web完整正文（2026-10-06）及原图HTTP200; 普通HTML fetch402，未绕过访问控制",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "特级初榨橄榄油",
+          "amount": "3汤匙加1/4杯（来源共105毫升，分次45毫升及60毫升）",
+          "raw": "3 tablespoons plus 1/4 cup (105 ml) extra-virgin olive oil, divided"
+        },
+        {
+          "name": "蒜",
+          "amount": "2瓣中等大小，切末约2茶匙",
+          "raw": "2 medium cloves garlic, minced (about 2 teaspoons)"
+        },
+        {
+          "name": "质地结实的面包",
+          "amount": "3杯，切成3/4英寸方丁（约1.9厘米）",
+          "raw": "3 cups hearty bread, cut into 3/4-inch cubes"
+        },
+        {
+          "name": "帕尔马干酪",
+          "amount": "2盎司（约57克，细磨约1杯），分次使用",
+          "raw": "2 ounces finely grated parmesan cheese (about 1 cup), divided"
+        },
+        {
+          "name": "盐",
+          "amount": "按口味",
+          "raw": "Kosher salt and freshly ground black pepper"
+        },
+        {
+          "name": "现磨黑胡椒",
+          "amount": "按口味",
+          "raw": "Kosher salt and freshly ground black pepper"
+        },
+        {
+          "name": "大鸡蛋蛋黄",
+          "amount": "1个",
+          "raw": "1 large egg yolk (see note)"
+        },
+        {
+          "name": "柠檬汁",
+          "amount": "1汤匙（15毫升），取自1个柠檬",
+          "raw": "1 tablespoon (15 ml) juice from 1 lemon"
+        },
+        {
+          "name": "凤尾鱼",
+          "amount": "2至6条",
+          "raw": "2 to 6 anchovies (see note)"
+        },
+        {
+          "name": "伍斯特酱",
+          "amount": "1茶匙（5毫升）",
+          "raw": "1 teaspoon (5 ml) Worcestershire sauce (see note)"
+        },
+        {
+          "name": "菜籽油",
+          "amount": "1/3杯（80毫升）",
+          "raw": "1/3 cup (80 ml) canola oil"
+        },
+        {
+          "name": "罗马生菜",
+          "amount": "2棵，只取内叶，洗净仔细擦干，大叶撕小、小叶完整",
+          "raw": "2 heads romaine lettuce, inner leaves only, washed and carefully dried, large leaves torn into smaller pieces, smaller leaves left intact"
+        },
+        {
+          "name": "冷水",
+          "amount": null,
+          "raw": "even prewashed romaine heads need a good rinse in cold water before serving"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "烤架放在烤箱中层，预热至190℃。小碗里将3汤匙（来源明确为45毫升）橄榄油与蒜末搅拌30秒。将细网滤筛架在大碗上，倒入蒜油，用勺背按压，尽量挤出油并滤下蒜末；挤过的蒜末另留备用。面包切成3/4英寸（约1.9厘米）方丁，加入蒜香油拌匀。",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "加入2汤匙帕尔马干酪拌匀，用盐和现磨黑胡椒按口味调味，移至有边沿的烤盘。烤约15分钟，至面包丁呈浅金黄色且酥脆。取出，再拌入2汤匙帕尔马干酪，放凉。",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "烤面包丁期间制作酱汁：将蛋黄、柠檬汁、凤尾鱼、伍斯特酱、留存的蒜末和1/4杯帕尔马干酪放入刚好容纳手持搅拌器头的杯底，或食品料理机底部。开动机器，慢慢淋入菜籽油，直至形成细滑乳化酱汁。倒入中碗，持续用手动打蛋器搅拌，缓缓淋入剩余1/4杯（来源明确为60毫升）特级初榨橄榄油，最后用盐和黑胡椒充分调味。",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "罗马生菜取洗净并仔细擦干的内层叶，大叶撕小，小叶保留完整。用足够大的碗，将生菜与几汤匙酱汁用手轻轻拌匀，需要时再加酱汁。叶片裹匀后，加入剩余帕尔马干酪的一半和面包丁的四分之三，再拌匀。装入沙拉碗，撒上余下的干酪和面包丁，食用。",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [
+        "准备5分钟、烹饪20分钟、冷却10分钟，来源明确整道总用时35分钟，4人份。",
+        "生菜剥去松软外叶，保留脆挺内叶；切去基部约1英寸（2.54厘米）分离叶片，再切去约1英寸分离剩余中心叶。即使预洗生菜也用冷水仔细冲洗；用多层厨房纸擦干避免碰伤，最大的叶片撕半。",
+        "蒜与橄榄油混合再过滤，蒜香进入油中而面包丁不带易焦蒜末，滤下的蒜末用于酱汁。",
+        "干酪分烤前2汤匙、出炉后2汤匙、酱汁1/4杯，剩余部分在拌沙拉时先用一半、装碗后再用另一半，不换算这些容器的容量。",
+        "先用菜籽油机打乳化，形成稳定酱汁后以手动打蛋器缓慢混入特级初榨橄榄油，避免电动搅打造成苦味。",
+        "用大碗手拌，避免脆叶被撞伤或弄碎。"
+      ],
+      "tips": [
+        "来源提示：担心生蛋安全（例如怀孕期间或一般担忧）时，可购买已经巴氏杀菌的蛋；原文另给家庭低温循环器135°F（57°C）处理2小时的选项，完整保留来源而不另推时间温度。",
+        "伍斯特酱与凤尾鱼的用量可按口味调整。",
+        "本配方的酱汁会多于4份沙拉所需；额外酱汁可冷藏最多1周。"
+      ],
+      "rawExcerpt": "The Best Caesar Salad\nThe crowd-pleasing salad of crisp romaine leaves, crunchy croutons, and a little or a lot of anchovy, as you like.\nBy J. Kenji López-Alt\nUpdated on January 10, 2025\nWhy It Works\nUsing the inner romaine lettuce leaves keeps the salad crisp.\nBaking croutons with infused garlic oil prevents burnt garlic.\nAn emulsified dressing evenly coats the lettuce for better flavor in each bite.\nAdding anchovies and Worcestershire sauce to the dressing preserves the modern flavor identity of the salad.\nPrepping Your Lettuce\nThis is one part of Julia/Caesar's method that I really dig—using only the ultra-crisp inner leaves of a head of romaine, and keeping the leaves large so that they take a few bites to finish. I remove the outer leaves until I get to the point where there's no flop to the greens at all, then separate the leaves by cutting off the bottom inch of the base. After removing all the free leaves, I cut off another inch to separate the remaining leaves in the center.\nLike leeks and belly buttons, romaine leaves can hide bits of grit or dirt in their inner depths, so even prewashed romaine heads need a good rinse in cold water before serving. In order to maximize their freshness and prevent any bruising, I dry mine on layers of paper towels rather than attempting to spin them in a salad spinner and tear the very largest leaves in half.\nHow to Make the Best Garlic Croutons\nMaking garlic croutons seems super easy—just toss some bread cubes with minced garlic and oil, then bake them until crisp and light brown, right? Yes. Except: Garlic browns faster than bread, so if you do this, you'll end up with bits of dark garlic on otherwise perfect croutons. Here's where a bit of Julia's genius from the original recipe comes into play. Rather than tossing the bread with straight-up garlic, mix the garlic with olive oil, then press it out through a fine-mesh strainer.\nThe olive oil becomes infused with garlic flavor, which then gets transferred to the croutons.\nAll the garlic, none of the burning. The pressed garlic can then be reused in the dressing, making it a no-waste endeavor.\nFor added flavor, I also like to toss the bread with some of the Parmesan cheese before toasting. It's a trick that I often employ with pizza, adding some cheese before baking and a fresh sprinkle after the croutons come out of the oven, giving you the nuttiness of cooked Parm with the sharp bite of freshly grated.\nA Modern Caesar Salad Dressing\nJust as with a regular mayonnaise, you don't want to use extra-virgin olive oil with an electric blender. It causes the olive oil to break down and turn bitter. Instead, use a neutral oil, like canola, to begin the emulsion. Then, when it's stable, whisk in the extra-virgin by hand.\nTo toss the salad, the key is to use a really large bowl and to toss by hand, so that those nice big leaves you picked and washed don't get bruised or broken in the process.\nPrep Time: 5 mins\nCook Time: 20 mins\nCooling Time: 10 mins\nTotal Time: 35 mins\nServings: 4 servings\nYield: Serves 4\nIngredients\n3 tablespoons plus 1/4 cup (105 ml) extra-virgin olive oil, divided\n2 medium cloves garlic, minced (about 2 teaspoons)\n3 cups hearty bread, cut into 3/4-inch cubes\n2 ounces finely grated parmesan cheese (about 1 cup), divided\nKosher salt and freshly ground black pepper\n1 large egg yolk (see note)\n1 tablespoon (15 ml) juice from 1 lemon\n2 to 6 anchovies (see note)\n1 teaspoon (5 ml) Worcestershire sauce (see note)\n1/3 cup (80 ml) canola oil\n2 heads romaine lettuce, inner leaves only, washed and carefully dried, large leaves torn into smaller pieces, smaller leaves left intact\nDirections\n1. Adjust oven rack to middle position and preheat oven to 375°F (190°C). In a small bowl, combine 3 tablespoons (45ml) olive oil with minced garlic and whisk for 30 seconds. Transfer to a fine-mesh strainer set over a large bowl and press with the back of a spoon to extract as much oil as possible, leaving garlic behind. Reserve pressed garlic separately. Add bread cubes to garlic oil and toss to coat.\n2. Add 2 tablespoons parmesan cheese, toss again, and season to taste with salt and pepper. Transfer to a rimmed baking sheet. Bake until croutons are pale golden brown and crisp, about 15 minutes. Remove from oven and toss with 2 more tablespoons parmesan. Allow to cool.\n3. While croutons bake, make the dressing. Combine egg yolk, lemon juice, anchovies, Worcestershire sauce, pressed garlic, and 1/4 cup parmesan cheese in the bottom of a cup that just fits the head of an immersion blender or in the bottom of a food processor. With blender or processor running, slowly drizzle in canola oil until a smooth emulsion forms. Transfer mixture to a medium bowl. Whisking constantly, slowly drizzle in remaining 1/4 cup (60ml) extra-virgin olive oil. Season to taste generously with salt and pepper.\n4. To serve, toss lettuce with a few tablespoons of dressing, adding more if desired. Once lettuce is coated, add half of remaining cheese and three-quarters of croutons and toss again. Transfer to a salad bowl and sprinkle with remaining cheese and croutons. Serve.\nSpecial Equipment\nImmersion blender or food processor, fine-mesh strainer, rimmed baking sheet\nNotes\nIf you're concerned about the safety of using raw egg in this recipe (while pregnant, or just in general), you can either purchase already-pasteurized eggs, or pasteurize yours at home using a sous vide circulator set at 135°F (57°C) for two hours.\nThe amounts of Worcestershire sauce and anchovies used can be varied according to taste. This recipe will make more dressing than you need for four servings. Extra dressing can be stored in the refrigerator for up to 1 week.",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 1,
+        "mappedStepImages": 4,
+        "stepImageCoverage": 1,
+        "ingredientCount": 13,
+        "executableStepCount": 4,
+        "notes": [
+          "11行原料中的盐和黑胡椒拆成两项；文章明确冷水冲洗补入冷水，故13食材，不虚构冷水量。",
+          "3杯面包不能改适量或换算重量/容积；2盎司约57克、3/4英寸约1.9厘米仅确定物理单位转换。",
+          "105毫升橄榄油分次45毫升及60毫升分别在方向1与3明确；不是自行按容器容量换算。干酪汤匙/杯不转换毫升或克。",
+          "方向1搅拌30秒、方向2烤15分钟、冷却时长10分钟为整页时长栏；复合步骤duration保持null，不伪装单阶段timer。190℃烤箱温度非灶火。",
+          "准备5/烹饪20/冷却10/总35分钟均源明示；canonical timing第9参数可totalMinutes35 prepMinutes5 cookMinutes20，冷却另保留文字。",
+          "来源正文的纸巾擦干、手拌、酱汁几汤匙按需、干酪分四次、烤面包同时做酱完整保留。"
+        ]
+      },
+      "media": {
+        "recipePageUrl": "https://www.seriouseats.com/the-best-caesar-salad-recipe",
+        "mediaPageUrl": "https://www.seriouseats.com/the-best-caesar-salad-recipe",
+        "sourceName": "Serious Eats",
+        "author": "Diana Chistruga",
+        "rightsNotice": "Serious Eats / Diana Chistruga",
+        "reuseLicense": null,
+        "repositoryCopyAuthorized": true,
+        "hero": {
+          "role": "hero",
+          "originalUrl": "https://www.seriouseats.com/thmb/CI40mF5sQEuUr1voWRdbA2bjscs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/the-best-caesar-salad-recipe-06-40e70f549ba2489db09355abd62f79a9.jpg",
+          "repositoryPath": "assets/dishes/sources/west-004-caesar-salad/hero.webp",
+          "adjacentText": "The crowd-pleasing salad of crisp romaine leaves, crunchy croutons, and a little or a lot of anchovy, as you like.",
+          "pageOrder": 1,
+          "httpStatus": 200,
+          "contentType": "image/webp",
+          "visualVerified": true,
+          "visualReview": "实际成品：棕色盘中拌酱罗马生菜、金黄面包丁和干酪。",
+          "sourceName": "Serious Eats",
+          "author": "Diana Chistruga",
+          "rightsNotice": "Serious Eats / Diana Chistruga",
+          "recipePageUrl": "https://www.seriouseats.com/the-best-caesar-salad-recipe",
+          "mediaPageUrl": "https://www.seriouseats.com/the-best-caesar-salad-recipe",
+          "sha256": "64348ee15db8056b758bb69957f60843575fe3483c2ed3431b801bd4d2a674ad"
+        },
+        "steps": [
+          {
+            "role": "step",
+            "originalUrl": "https://www.seriouseats.com/thmb/x02Ditablcpk_F8mzO_kr57MCkU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/the-best-caesar-salad-recipe-step-1-collage-72fb5db0685240df9a3cd425054941a2.jpg",
+            "repositoryPath": "assets/dishes/sources/west-004-caesar-salad/step-1.webp",
+            "stepOrder": 1,
+            "sourceStepOrder": 1,
+            "adjacentText": "Adjust oven rack to middle position and preheat oven to 375°F (190°C). In a small bowl, combine 3 tablespoons (45ml) olive oil with minced garlic and whisk for 30 seconds. Transfer to a fine-mesh strainer set over a large bowl and press with the back of a spoon to extract as much oil as possible, leaving garlic behind. Reserve pressed garlic separately. Add bread cubes to garlic oil and toss to coat.",
+            "pageOrder": 6,
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "visualVerified": true,
+            "visualReview": "四格左上蒜与油混合，右上倒入滤筛，左下按压滤油，右下面包丁拌蒜香油；对应来源方向1。",
+            "sourceName": "Serious Eats",
+            "author": "Diana Chistruga",
+            "rightsNotice": "Serious Eats / Diana Chistruga",
+            "recipePageUrl": "https://www.seriouseats.com/the-best-caesar-salad-recipe",
+            "mediaPageUrl": "https://www.seriouseats.com/the-best-caesar-salad-recipe",
+            "sha256": "1aadb67ac217f654647fcef945d588403b032328b42a6827d016d5e9b48c807e"
+          },
+          {
+            "role": "step",
+            "originalUrl": "https://www.seriouseats.com/thmb/NKCebTxWM6fs-7mgL60f5FJuN6A=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/the-best-caesar-salad-recipe-step-2-collage-9e2703813f5f4310b2aa2b75d4ef2ffb.jpg",
+            "repositoryPath": "assets/dishes/sources/west-004-caesar-salad/step-2.webp",
+            "stepOrder": 2,
+            "sourceStepOrder": 2,
+            "adjacentText": "Add 2 tablespoons parmesan cheese, toss again, and season to taste with salt and pepper. Transfer to a rimmed baking sheet. Bake until croutons are pale golden brown and crisp, about 15 minutes. Remove from oven and toss with 2 more tablespoons parmesan. Allow to cool.",
+            "pageOrder": 7,
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "visualVerified": true,
+            "visualReview": "四格左上面包丁加干酪，右上铺烤盘，左下烤后金黄酥脆，右下出炉再撒干酪拌匀；对应方向2。",
+            "sourceName": "Serious Eats",
+            "author": "Diana Chistruga",
+            "rightsNotice": "Serious Eats / Diana Chistruga",
+            "recipePageUrl": "https://www.seriouseats.com/the-best-caesar-salad-recipe",
+            "mediaPageUrl": "https://www.seriouseats.com/the-best-caesar-salad-recipe",
+            "sha256": "25d49bf6642a803a9e237a0ff92f8ffe769b6f44a801dc650ac43bdab2c5d8bb"
+          },
+          {
+            "role": "step",
+            "originalUrl": "https://www.seriouseats.com/thmb/aoDBKKQVT_TM69Iv1DscCSvAjvg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/the-best-caesar-salad-recipe-step-3-collage-fa335ddff899490db49c70cb7b49ad79.jpg",
+            "repositoryPath": "assets/dishes/sources/west-004-caesar-salad/step-3.webp",
+            "stepOrder": 3,
+            "sourceStepOrder": 3,
+            "adjacentText": "While croutons bake, make the dressing. Combine egg yolk, lemon juice, anchovies, Worcestershire sauce, pressed garlic, and 1/4 cup parmesan cheese in the bottom of a cup that just fits the head of an immersion blender or in the bottom of a food processor. With blender or processor running, slowly drizzle in canola oil until a smooth emulsion forms. Transfer mixture to a medium bowl. Whisking constantly, slowly drizzle in remaining 1/4 cup (60ml) extra-virgin olive oil. Season to taste generously with salt and pepper.",
+            "pageOrder": 8,
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "visualVerified": true,
+            "visualReview": "四格左上酱汁材料在杯底，右上手持搅拌器边搅边加油，左下中碗手动搅入橄榄油，右下加黑胡椒的乳化酱汁；对应方向3。",
+            "sourceName": "Serious Eats",
+            "author": "Diana Chistruga",
+            "rightsNotice": "Serious Eats / Diana Chistruga",
+            "recipePageUrl": "https://www.seriouseats.com/the-best-caesar-salad-recipe",
+            "mediaPageUrl": "https://www.seriouseats.com/the-best-caesar-salad-recipe",
+            "sha256": "81484293448f7c526bd15236762a9b98fd264bab9293bb985e35e0e96a39cfaf"
+          },
+          {
+            "role": "step",
+            "originalUrl": "https://www.seriouseats.com/thmb/YLDOfEhM9I761R44rsZPa3346JA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/the-best-caesar-salad-recipe-step-4-collage-34f35d856f93430c8f4938ccea3af5b8.jpg",
+            "repositoryPath": "assets/dishes/sources/west-004-caesar-salad/step-4.webp",
+            "stepOrder": 4,
+            "sourceStepOrder": 4,
+            "adjacentText": "To serve, toss lettuce with a few tablespoons of dressing, adding more if desired. Once lettuce is coated, add half of remaining cheese and three-quarters of croutons and toss again. Transfer to a salad bowl and sprinkle with remaining cheese and croutons. Serve.",
+            "pageOrder": 9,
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "visualVerified": true,
+            "visualReview": "四格左上生菜加酱，右上加干酪，左下再加面包丁，右下装盘成品；前三格是实际拌沙拉阶段，整张对应方向4。",
+            "sourceName": "Serious Eats",
+            "author": "Diana Chistruga",
+            "rightsNotice": "Serious Eats / Diana Chistruga",
+            "recipePageUrl": "https://www.seriouseats.com/the-best-caesar-salad-recipe",
+            "mediaPageUrl": "https://www.seriouseats.com/the-best-caesar-salad-recipe",
+            "sha256": "abbe7ef92f4d7a9e828f23bacfa52a8ce3c28116d96e33b84ade379bae09d7e3"
+          }
+        ]
+      }
+    }
+  ],
+  "ragEvidence": [
+    {
+      "chunkId": "9120962f-08d0-4c6b-bed4-19db3278c1a0",
+      "documentId": "3b2ce1c5-754a-41ef-a9c0-ba80ad92e157",
+      "sourceName": "Serious Eats",
+      "chunkType": "summary",
+      "content": "菜名：凯撒沙拉\n别名：The Best Caesar Salad、Caesar salad\n菜系：美式/意式\n简介：The crowd-pleasing salad of crisp romaine leaves, crunchy croutons, and a little or a lot of anchovy, as you like.",
+      "similarity": 0.416985164048056
+    },
+    {
+      "chunkId": "0ba481b3-5419-4c96-8a1a-bbe601b98259",
+      "documentId": "3b2ce1c5-754a-41ef-a9c0-ba80ad92e157",
+      "sourceName": "Serious Eats",
+      "chunkType": "tips",
+      "content": "菜名：凯撒沙拉\n- 来源提示：担心生蛋安全（例如怀孕期间或一般担忧）时，可购买已经巴氏杀菌的蛋；原文另给家庭低温循环器135°F（57°C）处理2小时的选项，完整保留来源而不另推时间温度。\n- 伍斯特酱与凤尾鱼的用量可按口味调整。\n- 本配方的酱汁会多于4份沙拉所需；额外酱汁可冷藏最多1周。",
+      "similarity": 0.399292051792148
+    },
+    {
+      "chunkId": "4343d364-e2b0-4d1c-9d6a-6b30fb4b1283",
+      "documentId": "3b2ce1c5-754a-41ef-a9c0-ba80ad92e157",
+      "sourceName": "Serious Eats",
+      "chunkType": "ingredients",
+      "content": "菜名：凯撒沙拉\n- 3 tablespoons plus 1/4 cup (105 ml) extra-virgin olive oil, divided\n- 2 medium cloves garlic, minced (about 2 teaspoons)\n- 3 cups hearty bread, cut into 3/4-inch cubes\n- 2 ounces finely grated parmesan cheese (about 1 cup), divided\n- Kosher salt and freshly ground black pepper\n- Kosher salt and freshly ground black pepper\n- 1 large egg yolk (see note)\n- 1 tablespoon (15 ml) juice from 1 lemon\n- 2 to 6 anchovies (see note)\n- 1 teaspoon (5 ml) Worcestershire sauce (see note)\n- 1/3 cup (80 ml) canola oil\n- 2 heads romaine lettuce, inner leaves only, washed and carefully dried, large leaves torn into smaller pieces, smaller leaves left intact\n- even prewashed romaine heads need a good rinse in cold water before serving",
+      "similarity": 0.365507849126587
+    },
+    {
+      "chunkId": "ee183a37-4b49-47c8-8d7a-5f37eb163220",
+      "documentId": "3b2ce1c5-754a-41ef-a9c0-ba80ad92e157",
+      "sourceName": "Serious Eats",
+      "chunkType": "technique",
+      "content": "菜名：凯撒沙拉\n- 准备5分钟、烹饪20分钟、冷却10分钟，来源明确整道总用时35分钟，4人份。\n- 生菜剥去松软外叶，保留脆挺内叶；切去基部约1英寸（2.54厘米）分离叶片，再切去约1英寸分离剩余中心叶。即使预洗生菜也用冷水仔细冲洗；用多层厨房纸擦干避免碰伤，最大的叶片撕半。\n- 蒜与橄榄油混合再过滤，蒜香进入油中而面包丁不带易焦蒜末，滤下的蒜末用于酱汁。\n- 干酪分烤前2汤匙、出炉后2汤匙、酱汁1/4杯，剩余部分在拌沙拉时先用一半、装碗后再用另一半，不换算这些容器的容量。\n- 先用菜籽油机打乳化，形成稳定酱汁后以手动打蛋器缓慢混入特级初榨橄榄油，避免电动搅打造成苦味。\n- 用大碗手拌，避免脆叶被撞伤或弄碎。",
+      "similarity": 0.363614098594892
+    },
+    {
+      "chunkId": "06cd5945-39fe-4412-8aaf-1f30e328d741",
+      "documentId": "3b2ce1c5-754a-41ef-a9c0-ba80ad92e157",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：凯撒沙拉\n1. 烤架放在烤箱中层，预热至190℃。小碗里将3汤匙（来源明确为45毫升）橄榄油与蒜末搅拌30秒。将细网滤筛架在大碗上，倒入蒜油，用勺背按压，尽量挤出油并滤下蒜末；挤过的蒜末另留备用。面包切成3/4英寸（约1.9厘米）方丁，加入蒜香油拌匀。\n2. 加入2汤匙帕尔马干酪拌匀，用盐和现磨黑胡椒按口味调味，移至有边沿的烤盘。烤约15分钟，至面包丁呈浅金黄色且酥脆。取出，再拌入2汤匙帕尔马干酪，放凉。\n3. 烤面包丁期间制作酱汁：将蛋黄、柠檬汁、凤尾鱼、伍斯特酱、留存的蒜末和1/4杯帕尔马干酪放入刚好容纳手持搅拌器头的杯底，或食品料理机底部。开动机器，慢慢淋入菜籽油，直至形成细滑乳化酱汁。倒入中碗，持续用手动打蛋器搅拌，缓缓淋入剩余1/4杯（来源明确为60毫升）特级初榨橄榄油，最后用盐和黑胡椒充分调味。\n4. 罗马生菜取洗净并仔细擦干的内层叶，大叶撕小，小叶保留完整。用足够大的碗，将生菜与几汤匙酱汁用手轻轻拌匀，需要时再加酱汁。叶片裹匀后，加入剩余帕尔马干酪的一半和面包丁的四分之三，再拌匀。装入沙拉碗，撒上余下的干酪和面包丁，食用。",
+      "similarity": 0.358682096004489
+    }
+  ],
+  "notes": [
+    "白名单两站与精确菜名历史RAG均已检查；Serious Eats全文与4个来源方向完整自洽，有成品图及方向1至4真实过程拼图。BBC Good Food完整正文存在total25分钟与冷藏至少30分钟冲突，Season未说明具体调味料，且只有成品图无过程图；无可靠书籍记录。仅Serious Eats符合本次要求，直接单来源采用。",
+    "Node普通Serious Eats菜谱fetch HTTP402;公开web阅读器完整返回正文，原始直接网站图片fetch200，未绕登录验证码或访问控制。",
+    "Web阅读器图片click restricted URL错误已记录，采用公开原图正常HTTP读取，9张已实际查看（Serious5selected+3article、BBC1hero）。",
+    "页面媒体顺序按独立图片计数：hero1，文章内叶2、擦干3、面包丁4、第二成品5，direction1-4为6-9。",
+    "RAG先exact canonical_name查entity b56871a9-b7a5-43bd-befe-ec7a601ef95d，仅旧Serious/BBC两份资料，无可靠书籍候选。当前有效资料与Serious历史同一完整变体，BBC醋/芥末变体的差异不混借。",
+    "新增Serious完整纠错doc3b2ce1c5-754a-41ef-a9c0-ba80ad92e157，5chunks正常voyage-4实际1024维；新增BBC纠正审计doc38dffe7e-ff12-4d8e-a76d-cff549dcdcdd也独立正常入库5chunks后因内部时间冲突、Season未知、无步骤图标rejected。",
+    "两旧documents及其10chunks保留audit且superseded，各replacementDocumentId分别准确指向其新资料；新BBC及5chunks rejected。20chunks其中current5/superseded10/rejected5，4documents其中current1/superseded2/rejected1。",
+    "真实semantic retrieve与hybridSearch均用query凯撒沙拉+exact entity scope，分别返回5current chunks全部只属新Serious；两旧版本和BBC拒选版均未返回（PASS）。完整审计状态与hash见同日decision.ragAudit。",
+    "rawExcerpt为真实来源英文原料、Directions四段完整原文、时间栏、Special Equipment、Notes及操作相关文章段落；中文normalized字段另存，历史讨论/营养/推荐未作为配方执行依据。",
+    "Supabase技能：changelog.md正常HTTP200检查breaking变更，无本次既有表row写入适用架构变化；官方semantic-search当前文档已核对，未新建基础设施。",
+    "本包只包含1条合格来源，13食材、4完整复合source directions、成品1张、准确mapped source step images4张、覆盖4/4；复合步骤timer/heat未知保持null，明确烤箱190℃与15分钟正文保留。",
+    "白名单两站与精确菜名历史RAG均已检查；Serious Eats全文与4个来源方向完整自洽，有成品图及方向1至4真实过程拼图。BBC Good Food完整正文存在total25分钟与冷藏至少30分钟冲突，Season未说明具体调味料，且只有成品图无过程图；无可靠书籍记录。仅Serious Eats符合本次要求，直接单来源采用。",
+    "Node普通Serious Eats菜谱fetch HTTP402;公开web阅读器完整返回正文，原始直接网站图片fetch200，未绕登录验证码或访问控制。",
+    "Web阅读器图片click restricted URL错误已记录，采用公开原图正常HTTP读取，9张已实际查看（Serious5selected+3article、BBC1hero）。",
+    "页面媒体顺序按独立图片计数：hero1，文章内叶2、擦干3、面包丁4、第二成品5，direction1-4为6-9。"
+  ]
+}

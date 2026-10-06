@@ -3,8 +3,8 @@ const CN_HOME = "https://thewoksoflife.com/";
 const WEST_SOURCE = "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2";
 const WEST_ESSENTIAL = "https://www.bbcgoodfood.com/howto/guide/21-essential-recipes-to-learn-for-life";
 
-const c = (name, en, region, ingredients, steps, img = "", source = CN_SOURCE, media = null, timing = null) => ({ name, en, region, ingredients, steps, img, source, ...(media ? { media } : {}), ...(timing ? { timing } : {}) });
-const w = (name, en, region, ingredients, steps, img = "", source = WEST_SOURCE, media = null, timing = null) => ({ name, en, region, ingredients, steps, img, source, ...(media ? { media } : {}), ...(timing ? { timing } : {}) });
+const c = (name, en, region, ingredients, steps, img = "", source = CN_SOURCE, media = null, timing = null, servings = null) => ({ name, en, region, ingredients, steps, img, source, ...(media ? { media } : {}), ...(timing ? { timing } : {}), ...(servings != null ? { servings } : {}) });
+const w = (name, en, region, ingredients, steps, img = "", source = WEST_SOURCE, media = null, timing = null, servings = null) => ({ name, en, region, ingredients, steps, img, source, ...(media ? { media } : {}), ...(timing ? { timing } : {}), ...(servings != null ? { servings } : {}) });
 
 export const chinese = [
   c("番茄炒蛋", "Tomato and Egg Stir-fry", "家常菜", "鸡蛋3个；中等大小番茄2个；盐1克；糖2克；食用油适量", "1）准备鸡蛋3个、中等大小番茄2个、盐1克、糖2克和适量食用油。2）鸡蛋去壳后充分打散，番茄切成小块备用。3）锅中倒入适量食用油，油热后倒入蛋液。4）待鸡蛋稍稍凝固，将鸡蛋推到锅的一边，放入番茄块，翻炒均匀。5）加入2克糖，翻炒均匀后以大火收汁。6）关火，加入1克盐翻炒均匀，装盘。", "01-fanqie-chaodan.png", "https://www.douguo.com/cookbook/1192179.html", {
@@ -1139,7 +1139,28 @@ export const western = [
   w("意大利肉酱面", "Spaghetti Bolognese", "意大利", "意大利面250克；牛肉末300克；番茄罐头400克；洋葱100克；胡萝卜80克；芹菜60克；红酒80毫升；橄榄油20毫升；帕玛森适量", "1）橄榄油炒软洋葱、胡萝卜和芹菜，下牛肉末炒散上色。2）加红酒收干，倒番茄小火炖40分钟。3）面煮至有嚼劲，与肉酱拌匀，撒帕玛森。", "16-spaghetti-bolognese.png", WEST_ESSENTIAL),
   w("玛格丽特披萨", "Margherita Pizza", "意大利", "披萨面团1份约300克；番茄酱100克；马苏里拉150克；罗勒叶10片；橄榄油10毫升；盐少许", "1）烤箱和烤盘预热至最高温。2）面团拉成薄饼，抹番茄酱，铺马苏里拉。3）高温烤8–12分钟至边缘焦香，出炉放罗勒并淋橄榄油。", "17-margherita-pizza.png"),
   w("香煎牛排", "Pan-seared Steak", "欧美", "牛排2块每块约250克；盐5克；黑胡椒2克；橄榄油15毫升；黄油25克；大蒜3瓣；迷迭香2枝", "1）牛排回温擦干，充分撒盐和黑胡椒。2）厚底锅高温煎至上色，加入黄油蒜和香草反复淋油。3）按厚度煎至目标熟度，静置5–8分钟再切。", "18-beef-steak.png", WEST_ESSENTIAL),
-  w("凯撒沙拉", "Caesar Salad", "美式/意式", "特级初榨橄榄油105毫升（分次使用）；中等大小大蒜2瓣；结实面包适量，切成约2厘米方块；帕玛森芝士约57克（分次使用）；犹太盐和现磨黑胡椒适量；大蛋黄1个；柠檬汁15毫升；鳀鱼2—6条；伍斯特酱5毫升；菜籽油80毫升；罗马生菜2棵", "1）将烤架调至烤箱中层，预热至190℃。大蒜切末，取3汤匙特级初榨橄榄油与蒜末搅拌30秒后过滤；过滤出的蒜香油与切成约2厘米方块的适量面包拌匀，压出的蒜末保留用于调酱。2）面包丁先拌入2汤匙帕玛森，再以盐和黑胡椒调味；烤约15分钟，至浅金黄且酥脆。出炉后立即再拌入2汤匙帕玛森，放凉。3）将大蛋黄、15毫升柠檬汁、鳀鱼、5毫升伍斯特酱、保留的蒜末和1/4杯帕玛森搅打；保持搅打并缓慢淋入80毫升菜籽油，直至乳化成酱，再打入剩余1/4杯特级初榨橄榄油，以盐和黑胡椒调味。对生蛋安全有顾虑时，使用巴氏杀菌蛋所取的蛋黄。4）取罗马生菜内层叶片，洗净后仔细擦干；先与酱汁拌匀，再加入尚余帕玛森的一半和3/4的面包丁轻拌。移入沙拉碗，最后撒上余下帕玛森和面包丁。", "19-caesar-salad.png"),
+  w("凯撒沙拉", "Caesar Salad", "美式/意式", "特级初榨橄榄油3汤匙加1/4杯（共105毫升，面包丁用45毫升，酱汁用60毫升）；大蒜2瓣（中等大小，切末约2茶匙）；质地结实的面包3杯（切成约1.9厘米方丁）；帕尔马干酪约57克（2盎司，细磨后约1杯，烤前与出炉后各用2汤匙，酱汁用1/4杯，余下分次拌入和撒在沙拉上）；犹太盐适量；现磨黑胡椒适量；大鸡蛋蛋黄1个；柠檬汁1汤匙（15毫升，取自1个柠檬）；凤尾鱼2—6条；伍斯特酱1茶匙（5毫升）；菜籽油1/3杯（80毫升）；罗马生菜2棵（只取内叶，大叶撕小，小叶完整）；冷水适量（冲洗生菜用）", "1）将烤架放在烤箱中层，预热至190℃。将2瓣大蒜切末，放入小碗，与3汤匙（45毫升）特级初榨橄榄油搅拌30秒。将细网滤筛架在大碗上，倒入蒜油，用勺背按压蒜末，尽量挤出油，滤下的蒜末另留备用。将3杯面包切成约1.9厘米方丁，加入滤出的蒜香油拌匀，让面包丁裹上油。2）加入2汤匙细磨帕尔马干酪，再次拌匀，以适量犹太盐和现磨黑胡椒调味，移至有边沿的烤盘。烤约15分钟，至面包丁呈浅金黄色且酥脆；取出，再拌入2汤匙帕尔马干酪，放凉。来源整道菜的时间栏列出冷却10分钟，此处烤制方向只要求放凉。3）趁面包丁烘烤时制作酱汁。将1个大鸡蛋蛋黄、1汤匙（15毫升）柠檬汁、2—6条凤尾鱼、1茶匙（5毫升）伍斯特酱、步骤1留存的蒜末和1/4杯帕尔马干酪放入刚好容纳手持搅拌器头的杯底，也可放入食品料理机底部。开动机器，缓缓淋入1/3杯（80毫升）菜籽油，直至形成细滑的乳化酱汁。倒入中碗，持续用手动打蛋器搅拌，缓缓淋入剩余1/4杯（60毫升）特级初榨橄榄油，以适量犹太盐和现磨黑胡椒充分调味。特级初榨橄榄油应在乳化后手动搅入，避免电动搅打造成苦味。凤尾鱼和伍斯特酱的用量可按口味调整。来源生蛋提示：怀孕期间或对生蛋安全有顾虑时，可购买已巴氏杀菌的鸡蛋；来源另给出用低温循环器在57℃（135°F）处理鸡蛋2小时的家庭选项。4）剥去2棵罗马生菜松软的外叶，只保留脆挺的内叶；切去基部约2.54厘米以分离叶片，取下已松开的叶片后，再切去约2.54厘米以分离中心的剩余叶片。即使生菜已预洗，也用冷水仔细冲洗，再放在多层厨房纸上仔细擦干，避免碰伤。最大的叶片撕半，大叶撕小，小叶保留完整。取足够大的碗，先加入生菜和几汤匙酱汁，用手轻轻拌匀，需要时再加酱汁，避免撞伤或弄碎叶片。叶片裹匀后，加入剩余帕尔马干酪的一半和面包丁的四分之三，再拌匀。装入沙拉碗，撒上余下的干酪和面包丁，即可食用。本配方为4人份，制成的酱汁会多于4份沙拉所需，额外酱汁可冷藏最多1周。", "19-caesar-salad.png", "https://www.seriouseats.com/the-best-caesar-salad-recipe", {
+    sourceName: "Serious Eats",
+    recipePageUrl: "https://www.seriouseats.com/the-best-caesar-salad-recipe",
+    mediaPageUrl: "https://www.seriouseats.com/the-best-caesar-salad-recipe",
+    author: "Diana Chistruga",
+    rightsNotice: "Serious Eats / Diana Chistruga",
+    reuseLicense: null,
+    repositoryCopyAuthorization: "user_confirmed_2026-09-16",
+    hero: {
+      path: "assets/dishes/sources/west-004-caesar-salad/hero.webp",
+      originalUrl: "https://www.seriouseats.com/thmb/CI40mF5sQEuUr1voWRdbA2bjscs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/the-best-caesar-salad-recipe-06-40e70f549ba2489db09355abd62f79a9.jpg",
+      sha256: "64348ee15db8056b758bb69957f60843575fe3483c2ed3431b801bd4d2a674ad",
+      httpStatus: 200,
+      contentType: "image/webp"
+    },
+    steps: [
+      { stepOrder: 1, sourceStepOrder: 1, path: "assets/dishes/sources/west-004-caesar-salad/step-1.webp", originalUrl: "https://www.seriouseats.com/thmb/x02Ditablcpk_F8mzO_kr57MCkU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/the-best-caesar-salad-recipe-step-1-collage-72fb5db0685240df9a3cd425054941a2.jpg", sha256: "1aadb67ac217f654647fcef945d588403b032328b42a6827d016d5e9b48c807e", httpStatus: 200, contentType: "image/webp" },
+      { stepOrder: 2, sourceStepOrder: 2, path: "assets/dishes/sources/west-004-caesar-salad/step-2.webp", originalUrl: "https://www.seriouseats.com/thmb/NKCebTxWM6fs-7mgL60f5FJuN6A=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/the-best-caesar-salad-recipe-step-2-collage-9e2703813f5f4310b2aa2b75d4ef2ffb.jpg", sha256: "25d49bf6642a803a9e237a0ff92f8ffe769b6f44a801dc650ac43bdab2c5d8bb", httpStatus: 200, contentType: "image/webp" },
+      { stepOrder: 3, sourceStepOrder: 3, path: "assets/dishes/sources/west-004-caesar-salad/step-3.webp", originalUrl: "https://www.seriouseats.com/thmb/aoDBKKQVT_TM69Iv1DscCSvAjvg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/the-best-caesar-salad-recipe-step-3-collage-fa335ddff899490db49c70cb7b49ad79.jpg", sha256: "81484293448f7c526bd15236762a9b98fd264bab9293bb985e35e0e96a39cfaf", httpStatus: 200, contentType: "image/webp" },
+      { stepOrder: 4, sourceStepOrder: 4, path: "assets/dishes/sources/west-004-caesar-salad/step-4.webp", originalUrl: "https://www.seriouseats.com/thmb/YLDOfEhM9I761R44rsZPa3346JA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/the-best-caesar-salad-recipe-step-4-collage-34f35d856f93430c8f4938ccea3af5b8.jpg", sha256: "abbe7ef92f4d7a9e828f23bacfa52a8ce3c28116d96e33b84ade379bae09d7e3", httpStatus: 200, contentType: "image/webp" }
+    ]
+  }, { totalMinutes: 35, prepMinutes: 5, cookMinutes: 20, stepDurations: [null, null, null, null] }, 4),
   w("芝士汉堡", "Cheeseburger", "美国", "牛肉馅360克；汉堡胚2个；切达芝士2片；生菜2片；番茄4片；洋葱适量；酸黄瓜适量；盐和黑胡椒；酱料适量", "1）牛肉轻拢成2个肉饼，煎前撒盐胡椒。2）热锅每面煎2–4分钟，翻面后铺芝士融化。3）面包胚烤香，依次叠酱、生菜、肉饼、番茄和酸黄瓜。", "20-cheeseburger.png"),
   w("法式洋葱汤", "French Onion Soup", "法国", "无盐黄油90克，另备少许涂面包；黄洋葱或混合洋葱1.4千克；防焦用清水1汤匙；犹太盐和现磨黑胡椒适量；干型雪莉酒120毫升；自制牛高汤或低钠鸡高汤1.8升；百里香2枝；月桂叶1片；鱼露5毫升（可选）；苹果醋5毫升；碗口大小的乡村面包8片；中等大小大蒜1瓣；格鲁耶尔芝士450克；细香葱末2汤匙", "1）洋葱切成约3毫米薄片。锅中以中高火融化90克黄油，放入洋葱炒约8分钟至变软；转中小火，频繁翻动1—2小时，至洋葱浓郁金棕、柔软甘甜；焦糖化接近结束时尤其要勤看，避免烧焦。若锅底褐色汁液将要焦煳，加入1汤匙清水并刮起锅底，再以盐和黑胡椒调味。2）倒入120毫升雪莉酒，边搅动边刮起锅底焦化物，煮约3分钟，至酒精气味大致散去；加入1.8升高汤、百里香和月桂叶，煮至微沸后继续煮20分钟。3）加入可选的5毫升鱼露和5毫升苹果醋，以盐和黑胡椒调味；取出并丢弃百里香和月桂叶。4）预热烤架。将面包烤至酥脆，抹少许黄油并用蒜瓣擦香。耐热碗中先舀入少量汤汁，放一片烤面包和一层格鲁耶尔；再添洋葱汤，放第二片烤面包，盖上剩余格鲁耶尔。置于烤架下烤至芝士完全融化并上色，最后撒细香葱末。", "21-french-onion-soup.png"),
   w("炸鱼薯条", "Fish and Chips", "英国", "鳕鱼柳400克；土豆500克；面粉150克；啤酒200毫升；泡打粉3克；盐和黑胡椒；食用油适量；塔塔酱适量", "1）土豆条低温炸熟，升温复炸至脆。2）面粉、泡打粉和冰啤酒快速调糊，鱼柳调味后蘸糊。3）炸至金黄熟透，配薯条、柠檬和塔塔酱。", "22-fish-and-chips.png", "https://www.bbcgoodfood.com/howto/guide/great-british-seaside-recipes"),

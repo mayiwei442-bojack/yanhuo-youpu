@@ -288,6 +288,13 @@ try {
       await hero.scrollIntoViewIfNeeded();
       await hero.evaluate((element) => element.decode());
       assert(await hero.evaluate((element) => element.naturalWidth > 0), `${recipe.id} 成品图没有真实加载`);
+      if (recipe.id === "west-004") {
+        assert(recipe.time === 35 && recipe.defaultServings === 4, "凯撒沙拉的来源总时长或4人份被默认值覆盖");
+        assert(recipe.allergens.includes("dairy"), "帕尔马干酪缺少乳制品过敏原");
+        assert(recipe.steps.every((step) => step.duration === null && step.heat === null && !step.timerRequired), "复合步骤或可选鸡蛋处理被误作必需计时/火力");
+        assert(recipe.steps[0].instruction.includes("30秒") && recipe.steps[2].instruction.includes("2小时"), "不能为消除错误计时而删除来源时间或安全提示");
+        assert((await mediaPage.locator(".serving-control").innerText()).includes("4"), "实际详情没有显示来源4人份");
+      }
       assert(await mediaPage.locator(".step-preview").count() === recipe.steps.length, `${recipe.id} 详情步骤数量不一致`);
       for (const [index, step] of recipe.steps.entries()) {
         const row = mediaPage.locator(".step-preview").nth(index);

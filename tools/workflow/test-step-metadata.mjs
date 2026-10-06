@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { stepDuration, stepHeat, recipeTotalMinutes } from "../recipe-step-metadata.mjs";
+import { stepDuration, stepHeat, recipeTotalMinutes, sourceStepDurations } from "../recipe-step-metadata.mjs";
 
 assert.equal(stepDuration("腌制半小时。"), 1800);
 assert.equal(stepDuration("静置0.5小时。"), 1800);
@@ -30,3 +30,10 @@ assert.throws(() => recipeTotalMinutes("", 2, { totalMinutes: 0 }));
 assert.throws(() => recipeTotalMinutes("", 2, { totalMinutes: "40" }));
 assert.throws(() => recipeTotalMinutes("", 2, { totalMinutes: 40, prepMinutes: -1 }));
 console.log(JSON.stringify({ ok: true, check: "source_supported_step_metadata" }));
+assert.deepEqual(sourceStepDurations(null, ["炒30秒。", "备用。"]), [30, null]);
+assert.deepEqual(sourceStepDurations({ stepDurations: [null, null] }, ["预热烤箱，搅拌30秒再过滤。", "搅打酱汁。可选蛋处理2小时。"]), [null, null]);
+assert.deepEqual(sourceStepDurations({ stepDurations: [30] }, ["炒30秒。"]), [30]);
+assert.throws(() => sourceStepDurations({ stepDurations: [null] }, ["备用。", "装盘。"]));
+assert.throws(() => sourceStepDurations({ stepDurations: [45] }, ["炒30秒。"]));
+assert.throws(() => sourceStepDurations({ stepDurations: [0] }, ["备用。"]));
+assert.throws(() => sourceStepDurations({ stepDurations: ["30"] }, ["炒30秒。"]));

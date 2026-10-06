@@ -1,0 +1,30 @@
+{
+  "status": "FAIL",
+  "issues": [
+    {
+      "field": "generated.steps[0].duration",
+      "message": "生成值30秒使详情及实际烹饪页显示整个复合步骤的计时器，但30秒仅属于搅拌蒜油阶段。证据明确该复合步骤duration为null；应隐藏单步骤计时器并保留正文30秒。"
+    },
+    {
+      "field": "generated.steps[2].duration / timerRequired",
+      "message": "生成值7200秒及timerRequired=true使酱汁步骤显示2小时计时器。来源2小时仅是可选家庭鸡蛋处理方案，不是制作酱汁的必需时长；应保持duration=null、timerRequired=false并完整保留可选方案文字。"
+    },
+    {
+      "field": "generated.defaultServings",
+      "message": "生成值2使实际详情页显示2人，但来源明确4人份，当前原料量和步骤正文也对应4人份。应保存来源份数4，避免份数调整按错误基准计算。"
+    },
+    {
+      "field": "generated.allergens",
+      "message": "原料含帕尔马干酪，但生成过敏原仅有egg、fish、wheat，实际详情页遗漏乳制品提示。应包含dairy。"
+    }
+  ],
+  "summary": "对目标SHA256 e82f7932a1041be5a07b545e09e57dd679074497f65f94a3bcac55d5587b5cef的初次审核：实际确定性验证通过，但上述显示元数据问题要求FAIL。单一来源原料、执行顺序、用量、正文时间和温度忠实；13条实际食材行及4条连续编号步骤通过独立语言审查。五张本地图片已逐张查看、核对映射及来源，文件非空且哈希匹配，实际页面均成功加载。详情、卡片及分享正确显示来源总用时35分钟。",
+  "evidencePackageHash": "9d507843dfbda4386de60640d5356b82b573ed9ec13cbb2383dcc3f6d6f8c050",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

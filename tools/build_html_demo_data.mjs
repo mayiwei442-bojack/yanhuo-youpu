@@ -1,6 +1,6 @@
 import { writeFile } from "node:fs/promises";
 import { chinese, western } from "./recipe_data.mjs";
-import { stepDuration, stepHeat, recipeTotalMinutes } from "./recipe-step-metadata.mjs";
+import { stepDuration, stepHeat, recipeTotalMinutes, sourceStepDurations } from "./recipe-step-metadata.mjs";
 import { cleanIngredientName } from "./recipe-ingredient-metadata.mjs";
 
 const HERITAGE_FLAVORS = new Set([
@@ -57,7 +57,7 @@ function splitSteps(text) {
 function detectAllergens(text) {
   const rules = [
     ["peanut", /花生/u],
-    ["dairy", /牛奶|奶油|黄油|芝士|奶酪|马苏里拉|帕玛森|酪乳|白酱/u],
+    ["dairy", /牛奶|奶油|黄油|芝士|奶酪|干酪|马苏里拉|帕玛森|酪乳|白酱/u],
     ["egg", /鸡蛋|蛋黄|蛋液|蛋白/u],
     ["fish", /鱼|鳕|鲈|凤尾鱼|三文鱼|鱼汤/u],
     ["shellfish", /虾|蟹|贝|蛤|青口|贻贝|鱿鱼/u],
@@ -71,6 +71,12 @@ function detectAllergens(text) {
 function buildRecipe(recipe, index, type) {
   const ingredients = parseIngredients(recipe.ingredients);
   const steps = splitSteps(recipe.steps);
+  const durations = sourceStepDurations(recipe.timing, steps.map((step) => step.instruction));
+  steps.forEach((step, index) => {
+    step.duration = durations[index];
+    step.timerRequired = step.duration !== null && step.duration >= 300;
+  });
+  if (recipe.servings != null && (!Number.isInteger(recipe.servings) || recipe.servings <= 0)) throw new Error(`${recipe.name} 的来源份数必须是正整数`);
   const media = recipe.media || null;
   if (media) {
     if (media.recipePageUrl !== recipe.source) {
@@ -141,7 +147,7 @@ function buildRecipe(recipe, index, type) {
     time,
     timeBasis: recipe.timing ? "source" : media ? "unspecified" : "estimated",
     difficulty,
-    defaultServings: /整鸡|600克|700克|800克/u.test(recipe.ingredients) ? 4 : 2,
+    defaultServings: recipe.servings ?? (/整鸡|600克|700克|800克/u.test(recipe.ingredients) ? 4 : 2),
     allergens: detectAllergens(recipe.ingredients),
     flags: {
       containsPork: /猪|五花肉|培根|火腿|香肠|叉烧|排骨|腊肠|腊味/u.test(recipe.ingredients),

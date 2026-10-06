@@ -8672,119 +8672,148 @@ window.YANHUO_RECIPES = [
       {
         "id": "ingredient-01",
         "name": "特级初榨橄榄油",
-        "label": "特级初榨橄榄油105毫升（分次使用）",
+        "label": "特级初榨橄榄油3汤匙加1/4杯（共105毫升，面包丁用45毫升，酱汁用60毫升）",
         "isCore": false
       },
       {
         "id": "ingredient-02",
-        "name": "中等大小大蒜",
-        "label": "中等大小大蒜2瓣",
+        "name": "大蒜",
+        "label": "大蒜2瓣（中等大小，切末约2茶匙）",
         "isCore": false
       },
       {
         "id": "ingredient-03",
-        "name": "结实面包，切成",
-        "label": "结实面包适量，切成约2厘米方块",
+        "name": "质地结实的面包",
+        "label": "质地结实的面包3杯（切成约1.9厘米方丁）",
         "isCore": true
       },
       {
         "id": "ingredient-04",
-        "name": "帕玛森芝士",
-        "label": "帕玛森芝士约57克（分次使用）",
+        "name": "帕尔马干酪",
+        "label": "帕尔马干酪约57克（2盎司，细磨后约1杯，烤前与出炉后各用2汤匙，酱汁用1/4杯，余下分次拌入和撒在沙拉上）",
         "isCore": true
       },
       {
         "id": "ingredient-05",
-        "name": "犹太盐和现磨黑胡椒",
-        "label": "犹太盐和现磨黑胡椒适量",
+        "name": "犹太盐",
+        "label": "犹太盐适量",
         "isCore": false
       },
       {
         "id": "ingredient-06",
-        "name": "大蛋黄",
-        "label": "大蛋黄1个",
-        "isCore": true
-      },
-      {
-        "id": "ingredient-07",
-        "name": "柠檬汁",
-        "label": "柠檬汁15毫升",
+        "name": "现磨黑胡椒",
+        "label": "现磨黑胡椒适量",
         "isCore": false
       },
       {
+        "id": "ingredient-07",
+        "name": "大鸡蛋蛋黄",
+        "label": "大鸡蛋蛋黄1个",
+        "isCore": true
+      },
+      {
         "id": "ingredient-08",
-        "name": "鳀鱼",
-        "label": "鳀鱼2—6条",
+        "name": "柠檬汁",
+        "label": "柠檬汁1汤匙（15毫升，取自1个柠檬）",
         "isCore": false
       },
       {
         "id": "ingredient-09",
-        "name": "伍斯特酱",
-        "label": "伍斯特酱5毫升",
+        "name": "凤尾鱼",
+        "label": "凤尾鱼2—6条",
         "isCore": false
       },
       {
         "id": "ingredient-10",
-        "name": "菜籽油",
-        "label": "菜籽油80毫升",
+        "name": "伍斯特酱",
+        "label": "伍斯特酱1茶匙（5毫升）",
         "isCore": false
       },
       {
         "id": "ingredient-11",
+        "name": "菜籽油",
+        "label": "菜籽油1/3杯（80毫升）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-12",
         "name": "罗马生菜",
-        "label": "罗马生菜2棵",
+        "label": "罗马生菜2棵（只取内叶，大叶撕小，小叶完整）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-13",
+        "name": "冷水",
+        "label": "冷水适量（冲洗生菜用）",
         "isCore": false
       }
     ],
     "steps": [
       {
         "id": "step-01",
-        "instruction": "将烤架调至烤箱中层，预热至190℃。大蒜切末，取3汤匙特级初榨橄榄油与蒜末搅拌30秒后过滤；过滤出的蒜香油与切成约2厘米方块的适量面包拌匀，压出的蒜末保留用于调酱。",
-        "duration": 30,
-        "heat": null,
-        "timerRequired": false,
-        "ingredientsUsed": [],
-        "gameAction": "stir",
-        "safetyNote": ""
-      },
-      {
-        "id": "step-02",
-        "instruction": "面包丁先拌入2汤匙帕玛森，再以盐和黑胡椒调味；烤约15分钟，至浅金黄且酥脆。出炉后立即再拌入2汤匙帕玛森，放凉。",
-        "duration": 900,
-        "heat": null,
-        "timerRequired": true,
-        "ingredientsUsed": [],
-        "gameAction": "wait",
-        "safetyNote": ""
-      },
-      {
-        "id": "step-03",
-        "instruction": "将大蛋黄、15毫升柠檬汁、鳀鱼、5毫升伍斯特酱、保留的蒜末和1/4杯帕玛森搅打；保持搅打并缓慢淋入80毫升菜籽油，直至乳化成酱，再打入剩余1/4杯特级初榨橄榄油，以盐和黑胡椒调味。对生蛋安全有顾虑时，使用巴氏杀菌蛋所取的蛋黄。",
-        "duration": null,
-        "heat": null,
-        "timerRequired": false,
-        "ingredientsUsed": [],
-        "gameAction": "confirm",
-        "safetyNote": ""
-      },
-      {
-        "id": "step-04",
-        "instruction": "取罗马生菜内层叶片，洗净后仔细擦干；先与酱汁拌匀，再加入尚余帕玛森的一半和3/4的面包丁轻拌。移入沙拉碗，最后撒上余下帕玛森和面包丁。",
+        "instruction": "将烤架放在烤箱中层，预热至190℃。将2瓣大蒜切末，放入小碗，与3汤匙（45毫升）特级初榨橄榄油搅拌30秒。将细网滤筛架在大碗上，倒入蒜油，用勺背按压蒜末，尽量挤出油，滤下的蒜末另留备用。将3杯面包切成约1.9厘米方丁，加入滤出的蒜香油拌匀，让面包丁裹上油。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "add",
-        "safetyNote": ""
+        "safetyNote": "",
+        "image": "assets/dishes/sources/west-004-caesar-salad/step-1.webp",
+        "imageSource": "https://www.seriouseats.com/the-best-caesar-salad-recipe"
+      },
+      {
+        "id": "step-02",
+        "instruction": "加入2汤匙细磨帕尔马干酪，再次拌匀，以适量犹太盐和现磨黑胡椒调味，移至有边沿的烤盘。烤约15分钟，至面包丁呈浅金黄色且酥脆；取出，再拌入2汤匙帕尔马干酪，放凉。来源整道菜的时间栏列出冷却10分钟，此处烤制方向只要求放凉。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/west-004-caesar-salad/step-2.webp",
+        "imageSource": "https://www.seriouseats.com/the-best-caesar-salad-recipe"
+      },
+      {
+        "id": "step-03",
+        "instruction": "趁面包丁烘烤时制作酱汁。将1个大鸡蛋蛋黄、1汤匙（15毫升）柠檬汁、2—6条凤尾鱼、1茶匙（5毫升）伍斯特酱、步骤1留存的蒜末和1/4杯帕尔马干酪放入刚好容纳手持搅拌器头的杯底，也可放入食品料理机底部。开动机器，缓缓淋入1/3杯（80毫升）菜籽油，直至形成细滑的乳化酱汁。倒入中碗，持续用手动打蛋器搅拌，缓缓淋入剩余1/4杯（60毫升）特级初榨橄榄油，以适量犹太盐和现磨黑胡椒充分调味。特级初榨橄榄油应在乳化后手动搅入，避免电动搅打造成苦味。凤尾鱼和伍斯特酱的用量可按口味调整。来源生蛋提示：怀孕期间或对生蛋安全有顾虑时，可购买已巴氏杀菌的鸡蛋；来源另给出用低温循环器在57℃（135°F）处理鸡蛋2小时的家庭选项。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/west-004-caesar-salad/step-3.webp",
+        "imageSource": "https://www.seriouseats.com/the-best-caesar-salad-recipe"
+      },
+      {
+        "id": "step-04",
+        "instruction": "剥去2棵罗马生菜松软的外叶，只保留脆挺的内叶；切去基部约2.54厘米以分离叶片，取下已松开的叶片后，再切去约2.54厘米以分离中心的剩余叶片。即使生菜已预洗，也用冷水仔细冲洗，再放在多层厨房纸上仔细擦干，避免碰伤。最大的叶片撕半，大叶撕小，小叶保留完整。取足够大的碗，先加入生菜和几汤匙酱汁，用手轻轻拌匀，需要时再加酱汁，避免撞伤或弄碎叶片。叶片裹匀后，加入剩余帕尔马干酪的一半和面包丁的四分之三，再拌匀。装入沙拉碗，撒上余下的干酪和面包丁，即可食用。本配方为4人份，制成的酱汁会多于4份沙拉所需，额外酱汁可冷藏最多1周。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/west-004-caesar-salad/step-4.webp",
+        "imageSource": "https://www.seriouseats.com/the-best-caesar-salad-recipe"
       }
     ],
-    "imageThumb": "assets/dishes/thumbnails/19-caesar-salad.jpg",
-    "imageFull": "assets/dishes/ai/19-caesar-salad.png",
-    "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2",
-    "time": 20,
-    "timeBasis": "estimated",
+    "imageThumb": "assets/dishes/sources/west-004-caesar-salad/hero.webp",
+    "imageFull": "assets/dishes/sources/west-004-caesar-salad/hero.webp",
+    "source": "https://www.seriouseats.com/the-best-caesar-salad-recipe",
+    "media": {
+      "sourceName": "Serious Eats",
+      "recipePageUrl": "https://www.seriouseats.com/the-best-caesar-salad-recipe",
+      "mediaPageUrl": "https://www.seriouseats.com/the-best-caesar-salad-recipe",
+      "author": "Diana Chistruga",
+      "rightsNotice": "Serious Eats / Diana Chistruga",
+      "reuseLicense": null,
+      "repositoryCopyAuthorization": "user_confirmed_2026-09-16"
+    },
+    "time": 35,
+    "timeBasis": "source",
     "difficulty": "进阶",
-    "defaultServings": 2,
+    "defaultServings": 4,
     "allergens": [
       "dairy",
       "egg",

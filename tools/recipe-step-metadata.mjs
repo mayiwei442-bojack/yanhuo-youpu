@@ -24,6 +24,17 @@ export function recipeTotalMinutes(text, stepCount, timing = null, { requireSour
   return Math.max(15, Math.min(180, Math.ceil(estimate / 5) * 5));
 }
 
+export function sourceStepDurations(timing, instructions) {
+  const overrides = timing?.stepDurations;
+  if (overrides === undefined) return instructions.map(stepDuration);
+  if (!Array.isArray(overrides) || overrides.length !== instructions.length) throw new Error("来源步骤时长必须与公开步骤逐一对应");
+  return overrides.map((seconds, index) => {
+    if (seconds === null) return null;
+    if (!Number.isFinite(seconds) || seconds <= 0 || seconds !== stepDuration(instructions[index])) throw new Error("来源步骤时长必须为有正文支持的正数秒数或null");
+    return seconds;
+  });
+}
+
 export function stepDuration(text) {
   const mentions = durationMentions(text);
   if (!mentions.length) return null;

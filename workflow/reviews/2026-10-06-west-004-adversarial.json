@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "复核目标SHA256 12417fb5077c76c62acb9ad6df4c86cdcbe9f100bf8151d39e0e9f82ade9f20b及实际attempt-2验证结果，全部通过。移除新增步骤时长和份数字段后，目标哈希与初审一致，正文及媒体未改动。实际Chrome页面显示4人份及乳制品、蛋类、鱼类、小麦过敏原；四个复合步骤均无计时器或火力控件，正文完整保留30秒搅拌、190℃烤约15分钟、冷却说明及可选57℃处理鸡蛋2小时。详情、卡片和分享均显示来源总用时35分钟。13条食材行与连续编号01—04步骤通过独立语言审查，无孤立备注、括号或分隔符缺陷。此前逐张查看的五张图片哈希复核一致，映射及来源正确，实际页面均成功加载本地图片。",
+  "evidencePackageHash": "9d507843dfbda4386de60640d5356b82b573ed9ec13cbb2383dcc3f6d6f8c050",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

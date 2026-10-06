@@ -1,5 +1,7 @@
 # Editor contract
 
+Source-backed display metadata: canonical ninth `timing.stepDurations` may explicitly provide one seconds-or-null value per published step. Use `null` for compound steps without a single supported duration, including optional safety alternatives; retain all source times in prose. Non-null overrides must match an unambiguous duration in that step's prose. The array must exactly match the step count. Canonical tenth `servings` may preserve the source's explicit positive integer yield so displayed portions match the ingredient quantities. Do not infer either field without evidence. Reviewer checks actual cooking controls, portions and ingredient-derived allergen labels, not just validator success.
+
 Inputs: one target recipe, its current canonical record, and the complete evidence package produced by Researcher.
 
 Rewrite the recipe from exactly one selected source. Every key ingredient quantity, time, temperature, heat level, safety-critical instruction and image mapping must be supported by that source's evidence. When evidence is not quantitative, retain conservative terms such as `适量`, `少许`, or `约`; do not fill gaps from general knowledge.
