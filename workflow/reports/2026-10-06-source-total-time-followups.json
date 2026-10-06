@@ -3,7 +3,7 @@
   "status": "in_progress",
   "items": [
     { "recipeId": "cn-002", "name": "宫保鸡丁", "evidencePath": "workflow/evidence/2026-09-16-cn-002-source-images.json", "timing": { "prepMinutes": 30, "cookMinutes": 10, "totalMinutes": 40 }, "status": "done", "runId": "2026-10-06-cn-002-total-time-correction", "commit": "06be70be4c4cd70a4650b06e734efafece54175b" },
-    { "recipeId": "cn-003", "name": "麻婆豆腐", "evidencePath": "workflow/evidence/2026-09-16-cn-003-source-images.json", "timing": { "prepMinutes": 10, "cookMinutes": 25, "totalMinutes": 35 }, "status": "pending" },
+    { "recipeId": "cn-003", "name": "麻婆豆腐", "evidencePath": "workflow/evidence/2026-09-16-cn-003-source-images.json", "timing": { "prepMinutes": 10, "cookMinutes": 25, "totalMinutes": 35 }, "status": "in_progress", "runId": "2026-10-06-cn-003-total-time-correction" },
     { "recipeId": "cn-004", "name": "鱼香肉丝", "evidencePath": "workflow/evidence/cn-004-yuxiang-pork-source-images.json", "timing": { "prepMinutes": 35, "cookMinutes": 10, "totalMinutes": 45 }, "status": "pending" },
     { "recipeId": "cn-006", "name": "红烧肉", "evidencePath": "workflow/evidence/2026-10-05-cn-006-source-images.json", "timing": { "prepMinutes": 15, "cookMinutes": 60, "totalMinutes": 75 }, "status": "pending" }
   ],
