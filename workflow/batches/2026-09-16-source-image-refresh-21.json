@@ -123,8 +123,8 @@
     {
       "id": "west-006",
       "name": "法式洋葱汤",
-      "status": "in_progress",
-      "reason": "凯撒沙拉内容1deef6c/状态a8ad392已推送，开始整份法式洋葱汤来源及本地图文核验；旧文字done不计本轮完成。"
+      "status": "done",
+      "reason": "Serious Eats整份15原料4步骤，总140分钟（准备20/烹饪120）/4人份，成品与4步图共5张本地WebP；Serious与BBC各5个voyage-4/实际1024维分块，历史两份保留审计且检索排除。对抗审查修正清水食材名与牛高汤筛选标记；Reviewer PASS、全量确定性测试和静态构建PASS，d0d3654已推送。"
     },
     {
       "id": "west-011",

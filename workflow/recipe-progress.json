@@ -460,9 +460,9 @@
     {
       "id": "west-006",
       "name": "法式洋葱汤",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-06-west-006-source-images",
-      "completedAt": null
+      "completedAt": "2026-10-06T11:07:08Z"
     },
     {
       "id": "west-007",
