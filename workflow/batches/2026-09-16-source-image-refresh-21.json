@@ -135,8 +135,8 @@
     {
       "id": "west-012",
       "name": "千层面",
-      "status": "in_progress",
-      "reason": "开始本轮来源及本地图文更新；先复核既有来源证据，并重新检查当前来源页面和图片。"
+      "status": "failed",
+      "reason": "本轮跳过：BBC完整菜谱只有成品图、没有对应步骤图；Serious Eats虽有过程图，但核心1.5升肉酱被委托到独立菜谱，不满足单一完整来源。不能混用BBC菜谱和Serious图片；未改 canonical、未导入图片。"
     },
     {
       "id": "west-020",

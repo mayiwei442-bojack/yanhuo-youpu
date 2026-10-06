@@ -502,7 +502,7 @@
     {
       "id": "west-012",
       "name": "千层面",
-      "status": "in_progress",
+      "status": "failed",
       "lastRunId": "2026-10-06-west-012-source-images",
       "completedAt": null
     },
