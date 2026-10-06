@@ -713,6 +713,22 @@
             `).join("")}
           </div>
 
+          ${recipe.relatedImages?.length ? `
+            <section class="recipe-image-section" aria-labelledby="recipe-image-title-${esc(id)}">
+              <div class="section-head">
+                <h2 id="recipe-image-title-${esc(id)}">图片</h2>
+                <span>${recipe.relatedImages.length} 张</span>
+              </div>
+              <div class="recipe-image-gallery">
+                ${recipe.relatedImages.map((image) => `
+                  <figure class="recipe-image-card">
+                    <img src="${esc(image.src)}" alt="${esc(image.alt)}" loading="lazy">
+                  </figure>
+                `).join("")}
+              </div>
+            </section>
+          ` : ""}
+
           <div class="sticky-action">
             <button class="secondary-button" type="button" data-action="add-shopping" data-id="${id}">加入采购清单</button>
             <button class="primary-button fire" type="button" data-action="open-cook-modes" data-id="${id}">开始烹饪</button>

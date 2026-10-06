@@ -109,11 +109,11 @@ function buildRecipe(recipe, index, type) {
     item.isCore = coreIds.has(item.id);
   });
   const time = recipeTotalMinutes(combined, steps.length, recipe.timing, { requireSourceTotal: Boolean(media) });
-  const difficulty = time >= 70 || /复炸|酥皮|乳化|分次|隔水|发酵/u.test(combined)
+  const difficulty = recipe.difficulty ?? (time >= 70 || /复炸|酥皮|乳化|分次|隔水|发酵/u.test(combined)
     ? "进阶"
     : time !== null && time <= 30 && ingredients.length <= 8
       ? "简单"
-      : "适中";
+      : "适中");
   const isHeritageFlavor = HERITAGE_FLAVORS.has(recipe.name);
   const id = `${type === "chinese" ? "cn" : "west"}-${String(index + 1).padStart(3, "0")}`;
   const vegetarianCheckText = recipe.ingredients.replace(/鸡蛋|蛋黄|蛋液|蛋白/gu, "");
@@ -128,6 +128,9 @@ function buildRecipe(recipe, index, type) {
     heritageStatus: isHeritageFlavor ? "pending-verification" : null,
     ingredients,
     steps,
+    ...(Array.isArray(recipe.relatedImages) && recipe.relatedImages.length
+      ? { relatedImages: recipe.relatedImages }
+      : {}),
     imageThumb: media?.hero?.path || `assets/dishes/thumbnails/${recipe.img.replace(/\.png$/u, ".jpg")}`,
     imageFull: media?.hero?.path || `assets/dishes/ai/${recipe.img}`,
     source: recipe.source,

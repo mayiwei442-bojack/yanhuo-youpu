@@ -211,6 +211,26 @@ try {
   assert(await page.locator(".recipe-card").count() === 90, "菜谱库不是 90 道菜");
   await page.fill("#recipe-search", "番茄炒蛋");
   assert(await page.locator(".recipe-card").count() === 1, "菜谱搜索结果不正确");
+  await page.fill("#recipe-search", "回锅肉");
+  const importedRecipeCard = page.locator('.recipe-card[data-id="cn-016"]');
+  assert(await importedRecipeCard.count() === 1, "HowToCook 回锅肉没有进入菜谱搜索结果");
+  await page.goto(`${baseUrl}#/recipe/cn-016`, { waitUntil: "load" });
+  await page.waitForSelector(".detail-page");
+  const importedRecipeText = await page.locator(".detail-page").innerText();
+  assert(importedRecipeText.includes("回锅肉") && importedRecipeText.includes("男性每人0.5斤") && importedRecipeText.includes("豆瓣酱10毫升"), "回锅肉详情缺少上游配方数据");
+  const importedRecipeImage = page.locator('.detail-hero img[alt="回锅肉"]');
+  await importedRecipeImage.waitFor();
+  assert((await importedRecipeImage.getAttribute("src") || "").includes("26-huiguo-rou.jpeg"), "回锅肉详情没有使用迁入图片");
+  assert(await importedRecipeImage.evaluate((image) => image.complete && image.naturalWidth > 0), "回锅肉迁入图片加载失败");
+  const importedRecipeGallery = page.locator(".recipe-image-section");
+  assert((await importedRecipeGallery.locator("h2").innerText()) === "图片", "回锅肉烹饪步骤下缺少图片标题");
+  const importedRecipeGalleryImages = importedRecipeGallery.locator(".recipe-image-card img");
+  assert(await importedRecipeGalleryImages.count() === 1, "回锅肉篇尾图片区应只展示一张 HowToCook 正文图片");
+  assert((await importedRecipeGalleryImages.getAttribute("src") || "").endsWith("assets/dishes/howtocook/huiguo-rou/1.jpeg"), "回锅肉篇尾图片路径不正确");
+  await importedRecipeGalleryImages.scrollIntoViewIfNeeded();
+  await page.waitForFunction(() => [...document.querySelectorAll(".recipe-image-card img")].every((image) => image.complete && image.naturalWidth > 0));
+  assert(await importedRecipeGalleryImages.evaluateAll((images) => images.every((image) => image.complete && image.naturalWidth > 0)), "回锅肉图片区存在加载失败的图片");
+  await page.screenshot({ path: "outputs/qa-html-huiguo-rou-mobile.png", fullPage: true });
 
   await page.goto(`${baseUrl}#/me`, { waitUntil: "load" });
   await page.waitForSelector(".profile-page");

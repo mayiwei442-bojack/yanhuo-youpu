@@ -2843,51 +2843,105 @@ window.YANHUO_RECIPES = [
     "ingredients": [
       {
         "id": "ingredient-01",
-        "name": "带皮五花肉",
-        "label": "带皮五花肉350克",
+        "name": "二刀肉",
+        "label": "二刀肉（臀尖）或带皮五花肉按人数准备：男性每人0.5斤、女性每人0.3斤",
         "isCore": true
       },
       {
         "id": "ingredient-02",
-        "name": "青蒜",
-        "label": "青蒜150克",
+        "name": "小葱",
+        "label": "小葱2棵",
         "isCore": false
       },
       {
         "id": "ingredient-03",
-        "name": "郫县豆瓣酱",
-        "label": "郫县豆瓣酱20克",
-        "isCore": true
+        "name": "生姜",
+        "label": "生姜10—40克",
+        "isCore": false
       },
       {
         "id": "ingredient-04",
-        "name": "甜面酱",
-        "label": "甜面酱10克",
+        "name": "青红椒",
+        "label": "青红椒0—30克（按受辣程度选择，不建议用肉厚的菜椒）",
         "isCore": true
       },
       {
         "id": "ingredient-05",
-        "name": "豆豉",
-        "label": "豆豉8克",
+        "name": "蒜苗",
+        "label": "蒜苗1把",
         "isCore": false
       },
       {
         "id": "ingredient-06",
-        "name": "姜片",
-        "label": "姜片10克",
+        "name": "料酒",
+        "label": "料酒5毫升",
         "isCore": false
       },
       {
         "id": "ingredient-07",
-        "name": "糖",
-        "label": "糖3克",
+        "name": "豆瓣酱",
+        "label": "豆瓣酱10毫升（分两次各5毫升）",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-08",
+        "name": "味精",
+        "label": "味精5克",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-09",
+        "name": "生抽",
+        "label": "生抽5毫升",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-10",
+        "name": "食用油",
+        "label": "食用油适量（滑锅）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-11",
+        "name": "冷水",
+        "label": "冷水适量（煮肉及冷却）",
         "isCore": false
       }
     ],
     "steps": [
       {
         "id": "step-01",
-        "instruction": "五花肉冷水下锅煮至八成熟，晾凉切薄片。",
+        "instruction": "炒锅烧热，将猪肉皮面紧贴锅面炙皮，至猪皮黑色部分炭化；用钢丝球把猪皮彻底刷净，黑色炭化层未刷净会有苦味。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-02",
+        "instruction": "将2棵小葱打结，取部分生姜切片；猪肉放入锅中，加入足量冷水没过猪肉，再放入姜片、葱结和5毫升料酒。开大火煮，水开后撇去浮沫，继续煮15分钟，至筷子能轻松刺穿瘦肉部分。",
+        "duration": 900,
+        "heat": "high",
+        "timerRequired": true,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-03",
+        "instruction": "青红椒切圈，蒜苗切段，剩余生姜切小薄片；将5毫升豆瓣酱与5毫升生抽提前混合，另留5毫升豆瓣酱备用。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-04",
+        "instruction": "捞出煮熟的猪肉，放入冷水中晾凉；擦干表面水分以免炒制时爆油，再切成上肥下瘦、约2毫米厚的薄片，切得过厚会口感油腻。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
@@ -2896,32 +2950,58 @@ window.YANHUO_RECIPES = [
         "safetyNote": ""
       },
       {
-        "id": "step-02",
-        "instruction": "小火煸至卷曲出油，加豆瓣、豆豉和甜面酱炒香。",
+        "id": "step-05",
+        "instruction": "后续操作要迅速以免糊锅。锅烧热，加入适量食用油铺成一层底油滑锅；放入肉片煸炒，至肥肉透明、肉片微卷。",
         "duration": null,
-        "heat": "low",
+        "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
-        "gameAction": "confirm",
+        "gameAction": "add",
         "safetyNote": ""
       },
       {
-        "id": "step-03",
-        "instruction": "下青蒜梗叶和糖，大火翻匀。",
-        "duration": null,
-        "heat": "high",
+        "id": "step-06",
+        "instruction": "倒入豆瓣酱生抽混合物，加入5克味精，翻炒15秒。",
+        "duration": 15,
+        "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
-        "gameAction": "confirm",
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-07",
+        "instruction": "加入青红椒圈、姜片和剩余5毫升豆瓣酱，翻炒30秒。",
+        "duration": 30,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-08",
+        "instruction": "加入蒜苗段翻炒60秒，立即出锅。",
+        "duration": 60,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
         "safetyNote": ""
       }
     ],
-    "imageThumb": "assets/dishes/thumbnails/26-huiguo-rou.jpg",
-    "imageFull": "assets/dishes/ai/26-huiguo-rou.png",
-    "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
-    "time": 35,
-    "timeBasis": "estimated",
-    "difficulty": "适中",
+    "relatedImages": [
+      {
+        "src": "assets/dishes/howtocook/huiguo-rou/1.jpeg",
+        "alt": "回锅肉备料图"
+      }
+    ],
+    "imageThumb": "assets/dishes/thumbnails/26-huiguo-rou.jpeg",
+    "imageFull": "assets/dishes/ai/26-huiguo-rou.jpeg",
+    "source": "https://github.com/Anduin2017/HowToCook/blob/2b19c9e9ee926fd925a68207a57582a338813f9c/dishes/meat_dish/%E5%9B%9E%E9%94%85%E8%82%89/%E5%9B%9E%E9%94%85%E8%82%89.md",
+    "time": 40,
+    "timeBasis": "source",
+    "difficulty": "进阶",
     "defaultServings": 2,
     "allergens": [
       "soy"
@@ -2929,7 +3009,7 @@ window.YANHUO_RECIPES = [
     "flags": {
       "containsPork": true,
       "containsBeef": false,
-      "containsAlcohol": false,
+      "containsAlcohol": true,
       "spicy": false,
       "vegetarian": false
     },

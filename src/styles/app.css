@@ -1600,6 +1600,28 @@ img {
   font: 9px/1 var(--mono);
 }
 
+.recipe-image-gallery {
+  display: grid;
+  gap: 12px;
+}
+
+.recipe-image-card {
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: rgba(255, 250, 240, 0.62);
+  box-shadow: 0 12px 28px rgba(36, 31, 26, 0.08);
+}
+
+.recipe-image-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  background: var(--paper-deep);
+}
+
 .heritage-preview {
   position: relative;
   padding: 20px;
@@ -3185,6 +3207,10 @@ body.cooking-mode .app-shell {
   .detail-hero,
   .detail-hero > img {
     height: 510px;
+  }
+
+  .recipe-image-gallery {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   }
 
   .cook-card,

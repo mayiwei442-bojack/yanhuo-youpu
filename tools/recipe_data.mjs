@@ -3,7 +3,7 @@ const CN_HOME = "https://thewoksoflife.com/";
 const WEST_SOURCE = "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2";
 const WEST_ESSENTIAL = "https://www.bbcgoodfood.com/howto/guide/21-essential-recipes-to-learn-for-life";
 
-const c = (name, en, region, ingredients, steps, img = "", source = CN_SOURCE, media = null, timing = null, servings = null) => ({ name, en, region, ingredients, steps, img, source, ...(media ? { media } : {}), ...(timing ? { timing } : {}), ...(servings != null ? { servings } : {}) });
+const c = (name, en, region, ingredients, steps, img = "", source = CN_SOURCE, media = null, timing = null, servings = null, extra = {}) => ({ name, en, region, ingredients, steps, img, source, ...(media ? { media } : {}), ...(timing ? { timing } : {}), ...(servings != null ? { servings } : {}), ...extra });
 const w = (name, en, region, ingredients, steps, img = "", source = WEST_SOURCE, media = null, timing = null, servings = null) => ({ name, en, region, ingredients, steps, img, source, ...(media ? { media } : {}), ...(timing ? { timing } : {}), ...(servings != null ? { servings } : {}) });
 
 export const chinese = [
@@ -509,7 +509,20 @@ export const chinese = [
   c("胡辣汤", "Henan Spicy Pepper Soup", "河南", "熟牛肉100克；面筋100克；木耳40克；海带50克；粉条80克；高汤800毫升；胡椒粉5克；香醋20毫升；淀粉25克", "1）木耳海带切丝，粉条泡软。2）高汤烧开，下牛肉、面筋和配菜煮熟。3）加胡椒、盐和香醋，淀粉水缓慢勾成稠羹。", "13-hulatang.png", CN_HOME),
   c("柳州螺蛳粉", "Liuzhou Luosifen", "广西", "干米粉250克；螺蛳汤底700毫升；酸笋80克；腐竹50克；木耳40克；花生30克；青菜100克；辣椒油适量", "1）米粉泡软煮熟。2）螺蛳汤底烧开，下酸笋、木耳和青菜。3）米粉入碗，浇热汤，放腐竹、花生，按口味加辣椒油。", "14-liuzhou-luosifen.png", CN_HOME),
   c("兰州清汤牛肉面", "Lanzhou Beef Noodles", "甘肃", "牛腱600克；鲜面条300克；白萝卜250克；姜20克；花椒和八角少许；香菜蒜苗适量；辣椒油适量；盐适量", "1）牛腱焯水，与姜香料小火炖2小时，取出切片，汤过滤。2）萝卜片在清汤中煮熟。3）面条煮好入碗，浇牛肉清汤，铺牛肉、萝卜、香菜蒜苗。", "15-lanzhou-qingtang-niuroumian.png", CN_HOME),
-  c("回锅肉", "Twice-cooked Pork", "川菜", "带皮五花肉350克；青蒜150克；郫县豆瓣酱20克；甜面酱10克；豆豉8克；姜片10克；糖3克", "1）五花肉冷水下锅煮至八成熟，晾凉切薄片。2）小火煸至卷曲出油，加豆瓣、豆豉和甜面酱炒香。3）下青蒜梗叶和糖，大火翻匀。", "26-huiguo-rou.png"),
+  c(
+    "回锅肉", "Twice-cooked Pork", "川菜",
+    "二刀肉（臀尖）或带皮五花肉按人数准备：男性每人0.5斤、女性每人0.3斤；小葱2棵；生姜10—40克；青红椒0—30克（按受辣程度选择，不建议用肉厚的菜椒）；蒜苗1把；料酒5毫升；豆瓣酱10毫升（分两次各5毫升）；味精5克；生抽5毫升；食用油适量（滑锅）；冷水适量（煮肉及冷却）",
+    "1）炒锅烧热，将猪肉皮面紧贴锅面炙皮，至猪皮黑色部分炭化；用钢丝球把猪皮彻底刷净，黑色炭化层未刷净会有苦味。2）将2棵小葱打结，取部分生姜切片；猪肉放入锅中，加入足量冷水没过猪肉，再放入姜片、葱结和5毫升料酒。开大火煮，水开后撇去浮沫，继续煮15分钟，至筷子能轻松刺穿瘦肉部分。3）青红椒切圈，蒜苗切段，剩余生姜切小薄片；将5毫升豆瓣酱与5毫升生抽提前混合，另留5毫升豆瓣酱备用。4）捞出煮熟的猪肉，放入冷水中晾凉；擦干表面水分以免炒制时爆油，再切成上肥下瘦、约2毫米厚的薄片，切得过厚会口感油腻。5）后续操作要迅速以免糊锅。锅烧热，加入适量食用油铺成一层底油滑锅；放入肉片煸炒，至肥肉透明、肉片微卷。6）倒入豆瓣酱生抽混合物，加入5克味精，翻炒15秒。7）加入青红椒圈、姜片和剩余5毫升豆瓣酱，翻炒30秒。8）加入蒜苗段翻炒60秒，立即出锅。",
+    "26-huiguo-rou.jpeg",
+    "https://github.com/Anduin2017/HowToCook/blob/2b19c9e9ee926fd925a68207a57582a338813f9c/dishes/meat_dish/%E5%9B%9E%E9%94%85%E8%82%89/%E5%9B%9E%E9%94%85%E8%82%89.md",
+    null,
+    { totalMinutes: 40 },
+    2,
+    {
+      difficulty: "进阶",
+      relatedImages: [{ src: "assets/dishes/howtocook/huiguo-rou/1.jpeg", alt: "回锅肉备料图" }]
+    }
+  ),
   c("水煮牛肉", "Sichuan Boiled Beef", "川菜", "牛里脊300克；豆芽200克；莴笋150克；郫县豆瓣25克；干辣椒12个；花椒2茶匙；蒜末20克；高汤500毫升；淀粉10克", "1）牛肉切薄片，用盐、淀粉和少量油腌10分钟，蔬菜焯熟垫碗。2）炒香豆瓣，加高汤煮开，逐片下牛肉至刚熟。3）连汤倒入碗，铺辣椒花椒蒜末，浇热油。", "27-shuizhu-niurou.png"),
   c("酸菜鱼", "Fish with Pickled Mustard Greens", "川渝", "黑鱼片400克；酸菜250克；泡椒20克；姜蒜各15克；高汤700毫升；蛋清半个；淀粉10克；花椒和干辣椒适量", "1）鱼片加盐、蛋清和淀粉上浆，鱼骨煎香。2）炒香酸菜、泡椒和姜蒜，加高汤及鱼骨煮10分钟。3）捞出底料，滑入鱼片至变白，倒碗后以辣椒花椒热油激香。", "28-suancai-yu.png"),
   c("东坡肉", "Dongpo Pork", "浙菜", "方块五花肉800克；绍兴酒250毫升；生抽60毫升；老抽15毫升；冰糖50克；葱100克；姜40克", "1）五花肉焯水，切大方块并扎绳定形。2）砂锅垫葱姜，肉皮向下，加酒、酱油和冰糖。3）小火焖90分钟，翻面再焖30分钟，蒸20分钟更酥软。", "29-dongpo-rou.png"),
