@@ -1,0 +1,40 @@
+{
+  "runId": "2026-10-06-cn-002-total-time-correction",
+  "recipeId": "cn-002",
+  "recipeName": "宫保鸡丁",
+  "category": "chinese",
+  "status": "in_progress",
+  "startedAt": "2026-10-06T12:13:43Z",
+  "completedAt": null,
+  "steps": {
+    "research": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "batchId": "source-total-time-followups",
+        "evidencePath": "workflow/evidence/2026-09-16-cn-002-source-images.json",
+        "selectedSource": "The Woks of Life",
+        "selectedSourceUrl": "https://thewoksoflife.com/kung-pao-chicken/",
+        "currentPageVerified": true,
+        "liveRagQuery": "Supabase exact entity query returned current source documents and chunks; Woks document 364f8d36-ac14-4fba-a1c2-19f57b0cdaf3 records prep 30, cook 10, total 40 minutes.",
+        "otherSourceConflicts": "豆果 is a materially different candidate and not the selected whole recipe; timing is taken only from Woks."
+      }
+    },
+    "ingestion": {
+      "status": "done",
+      "attempts": 1,
+      "details": { "changedDocuments": 0, "reason": "Existing selected evidence was current and already ingested; no source content changed, so no new embedding or write was made." }
+    },
+    "edit": { "status": "pending", "attempts": 0 },
+    "validator": { "status": "pending", "attempts": 0 },
+    "review": { "status": "pending", "attempts": 0 },
+    "build": { "status": "pending", "attempts": 0 },
+    "gitPush": { "status": "pending", "attempts": 0 }
+  },
+  "sources": [
+    { "name": "The Woks of Life", "url": "https://thewoksoflife.com/kung-pao-chicken/", "status": "success", "failureReason": null }
+  ],
+  "errors": [],
+  "branch": "codex/recipe-automation",
+  "commit": null
+}
