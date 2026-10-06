@@ -3,9 +3,9 @@
   "recipeId": "cn-036",
   "recipeName": "莲藕排骨汤",
   "category": "chinese",
-  "status": "in_progress",
+  "status": "done",
   "startedAt": "2026-10-06T00:18:06Z",
-  "completedAt": null,
+  "completedAt": "2026-10-06T05:55:49Z",
   "steps": {
     "research": {
       "status": "done",
@@ -143,12 +143,15 @@
       }
     },
     "gitPush": {
-      "status": "in_progress",
+      "status": "done",
       "attempts": 1,
       "details": {
         "branch": "codex/recipe-automation",
         "reviewerResult": "PASS",
-        "fullDeterministicTests": "PASS"
+        "fullDeterministicTests": "PASS",
+        "result": "PASS",
+        "contentCommit": "3b93d69c474e6aedd7b35a9c6d6dad0fd5b38b0b",
+        "pushedAt": "2026-10-06T05:55:49Z"
       }
     }
   },
@@ -188,10 +191,10 @@
     {
       "step": "review",
       "code": "INGREDIENT_IDENTITY_QUANTITY",
-      "message": "首审FAIL：葱一段的数量进入generated ingredient name及采购identity。Root已补解析器段量词，保留label与canonical；正在重跑真实UI和校验，待复审。",
+      "message": "首审FAIL：葱一段的数量进入generated ingredient name及采购identity。共享解析器补段量词并新增单位和真实UI回归，保留label与canonical；第二次目标校验、独立复审和最终全量确定性测试PASS，已提交推送。",
       "at": "2026-10-06T05:48:02Z"
     }
   ],
   "branch": "codex/recipe-automation",
-  "commit": null
+  "commit": "3b93d69c474e6aedd7b35a9c6d6dad0fd5b38b0b"
 }
