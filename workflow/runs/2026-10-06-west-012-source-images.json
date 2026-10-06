@@ -5,7 +5,7 @@
   "category": "western",
   "status": "failed",
   "startedAt": "2026-10-06T11:35:00Z",
-  "completedAt": "2026-10-06T11:40:00Z",
+  "completedAt": "2026-10-06T11:40:38Z",
   "steps": {
     "research": { "status": "failed", "attempts": 1, "details": { "batchId": "2026-09-16-source-image-refresh-21", "beforeSnapshot": "workflow/snapshots/2026-10-06-west-012-before.json", "sourceConfig": "workflow/source-config.json", "historicalEvidence": "workflow/evidence/west-012-lasagna.json", "historicalAudit": "An older text-and-unit run exists; it does not complete this local-image refresh batch.", "decisionPath": "workflow/evidence-decisions/2026-10-06-west-012.json", "failureCode": "NO_MAPPED_STEP_IMAGES_FOR_COMPLETE_SOURCE", "failureReason": "BBC Good Food is complete but has no mapped step image; Serious Eats has process images but delegates the core 1.5 L ragu to separate recipes and is not a complete whole-source candidate.", "qualifyingWholeSources": 1, "publishableSources": 0, "canonicalCatalogUnchanged": true } },
     "ingestion": { "status": "pending", "attempts": 0 },
@@ -13,7 +13,7 @@
     "validator": { "status": "pending", "attempts": 0 },
     "review": { "status": "pending", "attempts": 0 },
     "build": { "status": "pending", "attempts": 0 },
-    "gitPush": { "status": "in_progress", "attempts": 1, "details": { "failureRecordOnly": true, "recipePublicationSkipped": true } }
+    "gitPush": { "status": "done", "attempts": 1, "details": { "failureRecordOnly": true, "recipePublicationSkipped": true, "failureRecordCommit": "8296266ba3fa210851f70214bfd108c96f844039", "pushedBranch": "codex/recipe-automation", "result": "PASS" } }
   },
   "sources": [
     { "name": "BBC Good Food", "url": "https://www.bbcgoodfood.com/recipes/classic-italian-lasagne", "status": "failed", "failureReason": "Complete source page has a hero image but no mapped step image; no cross-source image substitution is allowed." },
@@ -21,5 +21,5 @@
   ],
   "errors": [{ "step": "research", "code": "NO_MAPPED_STEP_IMAGES_FOR_COMPLETE_SOURCE", "message": "No candidate simultaneously satisfies whole-source completeness and the minimum mapped-step-image rule. Existing recipe data and historical RAG documents remain unchanged; skipping this recipe and continuing.", "at": "2026-10-06T11:40:00Z" }],
   "branch": "codex/recipe-automation",
-  "commit": null
+  "commit": "8296266ba3fa210851f70214bfd108c96f844039"
 }
