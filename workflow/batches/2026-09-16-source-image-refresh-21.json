@@ -135,8 +135,8 @@
     {
       "id": "west-012",
       "name": "千层面",
-      "status": "pending",
-      "reason": null
+      "status": "in_progress",
+      "reason": "开始本轮来源及本地图文更新；先复核既有来源证据，并重新检查当前来源页面和图片。"
     },
     {
       "id": "west-020",
