@@ -14,7 +14,8 @@
         "batchId": "2026-09-16-source-image-refresh-21",
         "beforeSnapshot": "workflow/snapshots/2026-10-06-west-006-before.json",
         "historicalEvidence": "workflow/evidence/west-006-french-onion-soup.json",
-        "historicalAudit": "核验旧英文摘要/HTML是否完整原文、洋葱焦糖化多阶段时长、来源单位及source默认BBC失配；新增来源正常入库，不跨来源补图。"
+        "historicalAudit": "核验旧英文摘要/HTML是否完整原文、洋葱焦糖化多阶段时长、来源单位及source默认BBC失配；新增来源正常入库，不跨来源补图。",
+        "agent": "research_west004_remaining5"
       }
     },
     "ingestion": {
