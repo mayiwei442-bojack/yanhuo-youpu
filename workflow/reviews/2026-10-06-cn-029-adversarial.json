@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "独立核实证据包及目标哈希，目标SHA256为5e3629b4189485b9c3087c60f39fe83421e4fe618e70d5541549fa19896b93c6。采用图片覆盖率更高的豆果完整来源，15项食材、13步操作与其一致，无跨源混入。盐总量2克分次使用，糖1勺未换算，清洗用水未加入锅中；煎熟与防煎糊提示保留。逐张目检全部13张图片，文件非空、哈希与出处匹配；第5图为单独盛出的熟豆，第13步保持纯文字，无重复图片。独立Chrome本地核验实际食材行和全部步骤：13图均成功解码，仅第3步显示中火，全部计时器隐藏；总用时显示未注明，卡片与分享无虚构分钟数，30分钟筛选排除该菜。另行完成食材语义、逐步语法、标点括号及分隔结构对抗审查，编号连续、末尾标点完整。确定性验证10项及所附浏览器和静态构建结果通过。",
+  "evidencePackageHash": "c6d804362145ad9db53ab027a5f95194f3cf515413a2eed158b6c7b2f29b21da",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

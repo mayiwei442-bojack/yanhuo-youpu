@@ -1,0 +1,134 @@
+{
+  "recipeId": "cn-029",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/d/1/e/960_d12823d95a67dad60b9abd54bd06c58e.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-029-dry-fried-green-beans/hero.jpg",
+      "sha256": "05730ea8170f478019fc954567e52b727e90d9ff40ed3a0d0a171c683d071334",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 196732
+    },
+    {
+      "role": "step",
+      "stepOrder": 1,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/d/4/d/800_d46b10961291e8ed516cb237390d833d.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-029-dry-fried-green-beans/step-1.jpg",
+      "sha256": "397d72203b8f1dfbfb272896ee701b2bedbb574b2729a5072bbe905116ea793c",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 124215
+    },
+    {
+      "role": "step",
+      "stepOrder": 2,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/1/3/e/800_1355da7e1d2822367c418ea6b9d3492e.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-029-dry-fried-green-beans/step-2.jpg",
+      "sha256": "e0cbdebf2af5e6e74b94f903b85f01039eb465e426f20b94a4e4f0aa769ef89d",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 124092
+    },
+    {
+      "role": "step",
+      "stepOrder": 3,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/b/4/b/800_b486cf1af758d506e76fe9a2e94cd50b.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-029-dry-fried-green-beans/step-3.jpg",
+      "sha256": "4fdb16f20e5a5deeab83c39fb0351b9574cb84a314a5c57ef4fdf7c84cae933c",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 96748
+    },
+    {
+      "role": "step",
+      "stepOrder": 4,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/7/5/5/800_7509dbfbae09ad5329b3f0e974776bc5.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-029-dry-fried-green-beans/step-4.jpg",
+      "sha256": "14d379dc3f1f10e8c086eb82076a9e7dffd219bf88baf93eba0e13cb553d40a1",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 185674
+    },
+    {
+      "role": "step",
+      "stepOrder": 5,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/a/9/3/800_a9a1c78518e4ee1d097f10feeb207463.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-029-dry-fried-green-beans/step-5.jpg",
+      "sha256": "24b9e2de49fce37a29bb3477423a1ffe365038c0d41900c1c5a00b153ba2d6ee",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 148225
+    },
+    {
+      "role": "step",
+      "stepOrder": 6,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/2/6/f/800_260f535e42438355c5d0184ea5447c8f.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-029-dry-fried-green-beans/step-6.jpg",
+      "sha256": "898089d85533d15b15dcabc31d1bb94789dbd4cf25db72afa9f32843e6c36c68",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 141989
+    },
+    {
+      "role": "step",
+      "stepOrder": 7,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/1/1/1/800_1110c9ca7f8a5b6d2514dc8dcb18a2a1.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-029-dry-fried-green-beans/step-7.jpg",
+      "sha256": "546ac6d79176f803e80add81f7b54e4589c66dc39a0e3f4c2e770fed9a9db932",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 155430
+    },
+    {
+      "role": "step",
+      "stepOrder": 8,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/a/f/0/800_af89c08ff108634c2ec8e43ae18ad2e0.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-029-dry-fried-green-beans/step-8.jpg",
+      "sha256": "9349a0ce560a68cedee5c50d5e769c2f2883be662f0aa11d212e516d3266623f",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 216146
+    },
+    {
+      "role": "step",
+      "stepOrder": 9,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/3/d/f/800_3d595d3def74f5c87cd47fef56aa27cf.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-029-dry-fried-green-beans/step-9.jpg",
+      "sha256": "92a453ac23d63ad52d79140c48b8f016c23eba2a172f235305a3fd40443ce44b",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 91784
+    },
+    {
+      "role": "step",
+      "stepOrder": 10,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/a/2/7/800_a2b0df69f40c0b877c0dd6b1ce550447.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-029-dry-fried-green-beans/step-10.jpg",
+      "sha256": "9abf6015045276a88c8ccb2696a95e34c975b16c6e3ad09c426380146f3ec3e6",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 178999
+    },
+    {
+      "role": "step",
+      "stepOrder": 11,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/b/d/8/800_bd3cc9b3328aa5f948ed9a0be7e89c08.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-029-dry-fried-green-beans/step-11.jpg",
+      "sha256": "f41da55f3da2518a0502d679429d22cf443011ce2aea156122c145fb9c99e591",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 77467
+    },
+    {
+      "role": "step",
+      "stepOrder": 12,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/a/5/f/800_a565cbc2666adab6ea7aae58a2ef228f.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-029-dry-fried-green-beans/step-12.jpg",
+      "sha256": "8061f4c5ee28cf84351cebb35293fb0346d2f6bfd626ac9e96bf941e6a4913e5",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 98489
+    }
+  ]
+}

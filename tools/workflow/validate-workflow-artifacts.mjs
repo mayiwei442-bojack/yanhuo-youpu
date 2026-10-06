@@ -47,4 +47,10 @@ for (const [recipeId, slug, runId, expectedSourceTypes] of artifacts) {
   results.push({ recipeId, sources: evidence.sources.length, ragEvidence: evidence.ragEvidence.length, review: review.status, runStatus: run.status });
 }
 
-console.log(JSON.stringify({ ok: true, recipes: results }, null, 2));
+// These retained fixtures prove historical text/RAG runs, not the current image batch.
+console.log(JSON.stringify({
+  ok: true,
+  scope: "historical_text_rag_fixtures_only",
+  currentImageRefreshCompletionValidated: false,
+  historicalArtifacts: results
+}, null, 2));

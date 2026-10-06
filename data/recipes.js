@@ -4631,117 +4631,273 @@ window.YANHUO_RECIPES = [
       {
         "id": "ingredient-01",
         "name": "四季豆",
-        "label": "四季豆450克",
+        "label": "四季豆400克",
         "isCore": true
       },
       {
         "id": "ingredient-02",
-        "name": "盐",
-        "label": "盐1/2茶匙",
-        "isCore": false
+        "name": "猪肉末",
+        "label": "猪肉末50克",
+        "isCore": true
       },
       {
         "id": "ingredient-03",
+        "name": "碎米芽菜",
+        "label": "碎米芽菜15克",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-04",
         "name": "食用油",
         "label": "食用油适量",
         "isCore": false
       },
       {
-        "id": "ingredient-04",
-        "name": "猪肉末",
-        "label": "猪肉末适量",
-        "isCore": true
-      },
-      {
         "id": "ingredient-05",
-        "name": "大蒜",
-        "label": "大蒜2瓣，拍碎粗切",
+        "name": "盐",
+        "label": "盐2克（分次使用，来源未注明两次的用量分配）",
         "isCore": false
       },
       {
         "id": "ingredient-06",
-        "name": "干辣椒",
-        "label": "干辣椒2个，去籽切碎",
-        "isCore": true
+        "name": "葱花",
+        "label": "葱花5克",
+        "isCore": false
       },
       {
         "id": "ingredient-07",
-        "name": "碎米芽菜",
-        "label": "碎米芽菜2汤匙",
+        "name": "姜末",
+        "label": "姜末10克",
         "isCore": false
       },
       {
         "id": "ingredient-08",
-        "name": "绍兴酒",
-        "label": "绍兴酒1茶匙",
+        "name": "蒜末",
+        "label": "蒜末10克",
         "isCore": false
       },
       {
         "id": "ingredient-09",
-        "name": "生抽",
-        "label": "生抽1又1/2茶匙",
+        "name": "干辣椒",
+        "label": "干辣椒2个，去籽后斜切小段",
         "isCore": false
       },
       {
         "id": "ingredient-10",
-        "name": "白糖",
-        "label": "白糖1/8茶匙",
+        "name": "鲜酱油",
+        "label": "鲜酱油8克",
         "isCore": false
       },
       {
         "id": "ingredient-11",
-        "name": "芝麻油",
-        "label": "芝麻油适量",
+        "name": "老抽",
+        "label": "老抽5克",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-12",
+        "name": "糖",
+        "label": "糖1勺",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-13",
+        "name": "料酒",
+        "label": "料酒5克",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-14",
+        "name": "白胡椒粉",
+        "label": "白胡椒粉1克",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-15",
+        "name": "清洗用水",
+        "label": "清洗用水（仅用于清洗四季豆，用量未注明）",
         "isCore": false
       }
     ],
     "steps": [
       {
         "id": "step-01",
-        "instruction": "此步不放油。炒锅以高火预热至刚开始冒烟，放入450克四季豆和1/2茶匙盐，立即转中小火；偶尔翻动，干煸约20分钟，至四季豆表面出现小焦斑、变软且充分加热至熟，盛出备用。",
-        "duration": 1200,
+        "instruction": "备齐猪肉末、葱花、姜末、蒜末、碎米芽菜及其余食材，将2个干辣椒去籽后斜切成小段。",
+        "duration": null,
         "heat": null,
-        "timerRequired": true,
+        "timerRequired": false,
         "ingredientsUsed": [],
-        "gameAction": "add",
-        "safetyNote": ""
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-029-dry-fried-green-beans/step-1.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1228444.html"
       },
       {
         "id": "step-02",
-        "instruction": "四季豆盛出后，锅中加入适量食用油，以中高火将适量猪肉末炒至褐色；依次加入拍碎粗切的大蒜和去籽切碎的干辣椒，翻炒30秒，再加入2汤匙碎米芽菜，继续炒1分钟。",
+        "instruction": "四季豆用清洗用水洗净后，摘去两头的老茎，掰成段。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-029-dry-fried-green-beans/step-2.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1228444.html"
+      },
+      {
+        "id": "step-03",
+        "instruction": "锅里倒入适量食用油，从总量2克的盐中取少许放入锅中，开中火。",
+        "duration": null,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-029-dry-fried-green-beans/step-3.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1228444.html"
+      },
+      {
+        "id": "step-04",
+        "instruction": "油热后倒入四季豆煸炒，其间可多次翻炒，并多次加盖焖一小会，以加快成熟。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "add",
-        "safetyNote": ""
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-029-dry-fried-green-beans/step-4.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1228444.html"
       },
       {
-        "id": "step-03",
-        "instruction": "倒回四季豆，依次加入1茶匙绍兴酒、1又1/2茶匙生抽、1/8茶匙白糖和适量芝麻油；转高火翻炒1分钟，立即装盘。",
-        "duration": 60,
-        "heat": "high",
+        "id": "step-05",
+        "instruction": "煎制时注意火候，避免煎糊。待四季豆两面起皱、略带微焦且煎熟后，盛出备用。四季豆一定要煎熟，否则食用后容易引起中毒。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-029-dry-fried-green-beans/step-5.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1228444.html"
+      },
+      {
+        "id": "step-06",
+        "instruction": "锅中留油，放入50克猪肉末。",
+        "duration": null,
+        "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-029-dry-fried-green-beans/step-6.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1228444.html"
+      },
+      {
+        "id": "step-07",
+        "instruction": "将肉末炒至变白，加入5克料酒、5克葱花、10克姜末、10克蒜末和干辣椒段，翻炒片刻。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-029-dry-fried-green-beans/step-7.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1228444.html"
+      },
+      {
+        "id": "step-08",
+        "instruction": "放入15克碎米芽菜，炒出香味。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-029-dry-fried-green-beans/step-8.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1228444.html"
+      },
+      {
+        "id": "step-09",
+        "instruction": "放入8克鲜酱油。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-029-dry-fried-green-beans/step-9.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1228444.html"
+      },
+      {
+        "id": "step-10",
+        "instruction": "放入5克老抽。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-029-dry-fried-green-beans/step-10.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1228444.html"
+      },
+      {
+        "id": "step-11",
+        "instruction": "放入1勺糖和1克白胡椒粉，翻炒片刻。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-029-dry-fried-green-beans/step-11.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1228444.html"
+      },
+      {
+        "id": "step-12",
+        "instruction": "倒入煎好的四季豆，将剩余的盐撒在四季豆上，翻炒均匀。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-029-dry-fried-green-beans/step-12.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/1228444.html"
+      },
+      {
+        "id": "step-13",
+        "instruction": "出锅装盘。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
         "safetyNote": ""
       }
     ],
-    "imageThumb": "assets/dishes/thumbnails/39-ganbian-sijidou.jpg",
-    "imageFull": "assets/dishes/ai/39-ganbian-sijidou.png",
-    "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
-    "time": 25,
-    "timeBasis": "estimated",
-    "difficulty": "适中",
+    "imageThumb": "assets/dishes/sources/cn-029-dry-fried-green-beans/hero.jpg",
+    "imageFull": "assets/dishes/sources/cn-029-dry-fried-green-beans/hero.jpg",
+    "source": "https://www.douguo.com/cookbook/1228444.html",
+    "media": {
+      "sourceName": "豆果美食",
+      "recipePageUrl": "https://www.douguo.com/cookbook/1228444.html",
+      "mediaPageUrl": "https://www.douguo.com/cookbook/1228444.html",
+      "author": "i粗茶淡饭1",
+      "rightsNotice": "©本菜谱的做法由 i粗茶淡饭1 编写，未经授权不得转载",
+      "reuseLicense": null,
+      "repositoryCopyAuthorization": "user_confirmed_2026-09-16"
+    },
+    "time": null,
+    "timeBasis": "unspecified",
+    "difficulty": "进阶",
     "defaultServings": 2,
     "allergens": [
-      "soy",
-      "sesame"
+      "soy"
     ],
     "flags": {
       "containsPork": true,
       "containsBeef": false,
-      "containsAlcohol": false,
+      "containsAlcohol": true,
       "spicy": true,
       "vegetarian": false
     },
