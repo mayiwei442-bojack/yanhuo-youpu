@@ -3,9 +3,9 @@
   "recipeId": "cn-029",
   "recipeName": "干煸四季豆",
   "category": "chinese",
-  "status": "in_progress",
+  "status": "done",
   "startedAt": "2026-10-05T23:48:50Z",
-  "completedAt": null,
+  "completedAt": "2026-10-06T00:13:21Z",
   "steps": {
     "research": {
       "status": "done",
@@ -128,11 +128,12 @@
       }
     },
     "gitPush": {
-      "status": "in_progress",
+      "status": "done",
       "attempts": 1,
       "details": {
         "branch": "codex/recipe-automation",
-        "result": "awaiting commit and push"
+        "result": "PASS",
+        "contentCommit": "edfc080bf6e888327b2b3c78253897ae1fdeca63"
       }
     }
   },
@@ -170,5 +171,5 @@
   ],
   "errors": [],
   "branch": "codex/recipe-automation",
-  "commit": null
+  "commit": "edfc080bf6e888327b2b3c78253897ae1fdeca63"
 }
