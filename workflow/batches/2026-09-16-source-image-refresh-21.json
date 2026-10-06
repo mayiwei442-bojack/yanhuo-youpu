@@ -111,8 +111,8 @@
     {
       "id": "cn-054",
       "name": "豉汁蒸排骨",
-      "status": "pending",
-      "reason": null
+      "status": "in_progress",
+      "reason": "莲藕排骨汤已审核测试并推送完成，继续本菜整份来源与本地图文刷新；旧文字done不代表本轮完成。"
     },
     {
       "id": "west-004",
