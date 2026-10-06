@@ -25,11 +25,56 @@
       "attempts": 1,
       "details": { "changedDocuments": 0, "reason": "Existing selected evidence was current and already ingested; no source content changed, so no new embedding or write was made." }
     },
-    "edit": { "status": "pending", "attempts": 0 },
-    "validator": { "status": "pending", "attempts": 0 },
-    "review": { "status": "pending", "attempts": 0 },
-    "build": { "status": "pending", "attempts": 0 },
-    "gitPush": { "status": "pending", "attempts": 0 }
+    "edit": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "targetOnlyDiff": true,
+        "changedField": "timing",
+        "timing": { "totalMinutes": 40, "prepMinutes": 30, "cookMinutes": 10 },
+        "recipeTextAndMediaChanged": false
+      }
+    },
+    "validator": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "resultPath": "workflow/validation-results/2026-10-06-cn-002-total-time-correction.json",
+        "passed": true,
+        "checksPassed": 10,
+        "errors": 0,
+        "generatedTime": 40,
+        "timeBasis": "source"
+      }
+    },
+    "review": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "resultPath": "workflow/reviews/2026-10-06-cn-002-total-time-correction.json",
+        "status": "PASS",
+        "evidencePackageHash": "1ddc04309e69e0f6dc81e5d1bb625429ff6e2acd26d1abe029b3aabe87f90da8",
+        "adversarialReview": {
+          "ingredientSemantics": true,
+          "stepGrammar": true,
+          "punctuation": true,
+          "renderedStructure": true
+        }
+      }
+    },
+    "build": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "deterministicCommand": "npm run test:workflow:deterministic",
+        "resultPath": "workflow/validation-results/2026-10-06-cn-002-deterministic.json",
+        "testsPassed": true,
+        "routesChecked": 9,
+        "browserErrors": 0,
+        "staticBuild": "PASS"
+      }
+    },
+    "gitPush": { "status": "in_progress", "attempts": 1 }
   },
   "sources": [
     { "name": "The Woks of Life", "url": "https://thewoksoflife.com/kung-pao-chicken/", "status": "success", "failureReason": null }

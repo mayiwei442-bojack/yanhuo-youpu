@@ -314,8 +314,8 @@ window.YANHUO_RECIPES = [
       "reuseLicense": null,
       "repositoryCopyAuthorization": "user_confirmed_2026-09-16"
     },
-    "time": null,
-    "timeBasis": "unspecified",
+    "time": 40,
+    "timeBasis": "source",
     "difficulty": "适中",
     "defaultServings": 2,
     "allergens": [
