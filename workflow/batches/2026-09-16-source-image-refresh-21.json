@@ -141,8 +141,8 @@
     {
       "id": "west-020",
       "name": "牧羊人派",
-      "status": "pending",
-      "reason": null
+      "status": "in_progress",
+      "reason": "开始本轮来源及本地图文更新；旧来源证据仅供候选审查，需重新核对当前页面与图片。"
     }
   ]
 }

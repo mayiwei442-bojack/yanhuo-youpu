@@ -1,0 +1,22 @@
+{
+  "runId": "2026-10-06-west-020-source-images",
+  "recipeId": "west-020",
+  "recipeName": "牧羊人派",
+  "category": "western",
+  "status": "in_progress",
+  "startedAt": "2026-10-06T11:41:34Z",
+  "completedAt": null,
+  "steps": {
+    "research": { "status": "in_progress", "attempts": 1, "details": { "batchId": "2026-09-16-source-image-refresh-21", "beforeSnapshot": "workflow/snapshots/2026-10-06-west-020-before.json", "sourceConfig": "workflow/source-config.json", "historicalEvidence": "workflow/evidence/west-020-shepherds-pie.json", "historicalAudit": "An older text-and-unit run exists; it does not complete this local-image refresh batch." } },
+    "ingestion": { "status": "pending", "attempts": 0 },
+    "edit": { "status": "pending", "attempts": 0 },
+    "validator": { "status": "pending", "attempts": 0 },
+    "review": { "status": "pending", "attempts": 0 },
+    "build": { "status": "pending", "attempts": 0 },
+    "gitPush": { "status": "pending", "attempts": 0 }
+  },
+  "sources": [],
+  "errors": [],
+  "branch": "codex/recipe-automation",
+  "commit": null
+}
