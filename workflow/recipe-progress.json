@@ -495,9 +495,9 @@
     {
       "id": "west-011",
       "name": "意式培根蛋面",
-      "status": "done",
-      "lastRunId": "2026-08-31-west-011-source-unit-fidelity",
-      "completedAt": "2026-08-31T17:04:31.182Z"
+      "status": "in_progress",
+      "lastRunId": "2026-10-06-west-011-source-images",
+      "completedAt": null
     },
     {
       "id": "west-012",
