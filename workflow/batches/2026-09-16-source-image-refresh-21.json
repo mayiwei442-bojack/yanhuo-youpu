@@ -1,8 +1,8 @@
 {
   "batchId": "2026-09-16-source-image-refresh-21",
   "startedAt": "2026-09-16T12:22:50.0734629+08:00",
-  "completedAt": null,
-  "status": "in_progress",
+  "completedAt": "2026-10-06T20:05:46+08:00",
+  "status": "completed",
   "branch": "codex/recipe-automation",
   "policyVersion": "2026-09-16-single-whole-source-local-images",
   "supersedes": "workflow/reports/recipe-source-image-refresh-2026-09-11.md",
@@ -141,8 +141,8 @@
     {
       "id": "west-020",
       "name": "牧羊人派",
-      "status": "in_progress",
-      "reason": "开始本轮来源及本地图文更新；旧来源证据仅供候选审查，需重新核对当前页面与图片。"
+      "status": "done",
+      "reason": "Serious Eats整份采用，BBC完整候选仅作比较；1张成品图和第2、4、5、6、8步图共6张本地WebP；两来源均入库并经实际voyage-4/1024维语义及混合检索核验。第1、3、7步无匹配过程图而保留文字；Reviewer对抗审查、全量确定性测试与静态构建PASS，a0d757b已推送。"
     }
   ]
 }

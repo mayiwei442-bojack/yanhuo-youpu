@@ -3,9 +3,9 @@
   "recipeId": "west-020",
   "recipeName": "牧羊人派",
   "category": "western",
-  "status": "in_progress",
+  "status": "done",
   "startedAt": "2026-10-06T11:41:34Z",
-  "completedAt": null,
+  "completedAt": "2026-10-06T12:05:46Z",
   "steps": {
     "research": {
       "status": "done",
@@ -111,7 +111,15 @@
         "browserErrors": 0
       }
     },
-    "gitPush": { "status": "in_progress", "attempts": 1 }
+    "gitPush": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "contentCommit": "a0d757b2fc12776fdb60254634e12c22aa33282e",
+        "branch": "codex/recipe-automation",
+        "pushed": true
+      }
+    }
   },
   "sources": [
     {
@@ -131,5 +139,5 @@
   ],
   "errors": [],
   "branch": "codex/recipe-automation",
-  "commit": null
+  "commit": "a0d757b2fc12776fdb60254634e12c22aa33282e"
 }

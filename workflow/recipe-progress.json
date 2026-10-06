@@ -558,9 +558,9 @@
     {
       "id": "west-020",
       "name": "牧羊人派",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-06-west-020-source-images",
-      "completedAt": null
+      "completedAt": "2026-10-06T12:05:46Z"
     },
     {
       "id": "west-021",
