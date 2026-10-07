@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "west-031 重审通过：肉豆蔻名称排除一撮，条件性调低火力不再作固定小火。14原料6步骤、225分钟16份2夸脱、末尾追加ID、同源本地成品图及本菜限定的用户例外正确，独立对抗审查通过。",
+  "evidencePackageHash": "2962d67a9345eed68c708a7495a219ac0cf6a0d91ae017d75284376482e46ecd",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

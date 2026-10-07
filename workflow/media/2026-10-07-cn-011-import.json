@@ -1,0 +1,104 @@
+{
+  "recipeId": "cn-011",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/9/f/1/800_9f69de3a9edecb6f0ff659fa1f247681.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-011-douguo/hero.jpg",
+      "sha256": "940e8fad7534c1765c941e8459ee0560b75b092ab37f6009378eb8057ed9f348",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 257482
+    },
+    {
+      "role": "step",
+      "stepOrder": 1,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/d/8/b/800_d8765386261ec38ad699e3fe893ff1bb.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-011-douguo/step-1.jpg",
+      "sha256": "75f524326b847e6771dda4e29ccd87ccbbc64aa8d3c318bc4c53824e6b60bfc9",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 253458
+    },
+    {
+      "role": "step",
+      "stepOrder": 2,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/1/f/9/800_1f016fe7b995d932b449e52dad043e49.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-011-douguo/step-2.jpg",
+      "sha256": "9b69cd8084a5d2c16e34ee75cfb1b255c8a7132b1c7e6255d017e796c3447c23",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 207837
+    },
+    {
+      "role": "step",
+      "stepOrder": 3,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/f/5/5/800_f5f0e8b7b969d2a22845998e4de6aa35.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-011-douguo/step-3.jpg",
+      "sha256": "a274bffad0439403bea3618b718a2b0cb678e35b2ef0ff2251eb71f309fe70bf",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 236401
+    },
+    {
+      "role": "step",
+      "stepOrder": 4,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/8/d/4/800_8d4d640096f0b53eae29454d7ea8ea14.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-011-douguo/step-4.jpg",
+      "sha256": "83af0721a3d7d175aa4b8af9cfdb4d79e0534c0a50e8992041fada079aaacceb",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 77530
+    },
+    {
+      "role": "step",
+      "stepOrder": 5,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/c/c/a/800_cc745d49a0128ad590214ac97deea17a.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-011-douguo/step-5.jpg",
+      "sha256": "2a0ea01e1addfe5c8acd22e1821a3b1122c8e474fdc9e2a02e8ea5738a56b066",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 170682
+    },
+    {
+      "role": "step",
+      "stepOrder": 6,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/f/e/9/800_fe0a3f1381c612fd30fede4d64a55759.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-011-douguo/step-6.jpg",
+      "sha256": "e8a548843f5235b95f3355fc7040eb42a2f6ec47c294f2d932ebce0ee1157768",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 209222
+    },
+    {
+      "role": "step",
+      "stepOrder": 7,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/d/5/b/800_d57c432bfdbdf9ab8aff22a77adcf12b.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-011-douguo/step-7.jpg",
+      "sha256": "560541c366b38993f47c1e3870ac524b4a040f41a8374efea43d1ae4e112b3bb",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 192695
+    },
+    {
+      "role": "step",
+      "stepOrder": 8,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/3/a/6/800_3a0c95db3f7110b4781f930fae716bc6.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-011-douguo/step-8.jpg",
+      "sha256": "8db0dd244f28d1753afcc7dd5affd5581ecb28cdf76c46f14188b1304f5af974",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 86618
+    },
+    {
+      "role": "step",
+      "stepOrder": 9,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/d/d/2/800_dd211d8d5aa7e6c0b7b0d74e783f6a42.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-011-douguo/step-9.jpg",
+      "sha256": "940e8fad7534c1765c941e8459ee0560b75b092ab37f6009378eb8057ed9f348",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 257482
+    }
+  ]
+}

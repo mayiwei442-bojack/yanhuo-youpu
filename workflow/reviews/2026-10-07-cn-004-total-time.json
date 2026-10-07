@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "cn-004 重审通过：35分钟准备、10分钟烹饪、45分钟总计有同源支持；22个真实食材行和7个步骤通过对抗语言及结构审查，allergens=[soy]、containsAlcohol=true。",
+  "evidencePackageHash": "5c682bfe290be3d9f5fd7babc853e135dad0e0eb9bb942110c7f2d6de514540f",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

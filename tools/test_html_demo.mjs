@@ -208,7 +208,7 @@ try {
 
   await page.goto(`${baseUrl}#/recipes`, { waitUntil: "load" });
   await page.waitForSelector("#recipe-grid");
-  assert(await page.locator(".recipe-card").count() === 90, "菜谱库不是 90 道菜");
+  assert(await page.locator(".recipe-card").count() === chinese.length + western.length, "菜谱库数量与 canonical 不一致");
   await page.fill("#recipe-search", "番茄炒蛋");
   assert(await page.locator(".recipe-card").count() === 1, "菜谱搜索结果不正确");
   await page.fill("#recipe-search", "回锅肉");
@@ -231,6 +231,42 @@ try {
   await page.waitForFunction(() => [...document.querySelectorAll(".recipe-image-card img")].every((image) => image.complete && image.naturalWidth > 0));
   assert(await importedRecipeGalleryImages.evaluateAll((images) => images.every((image) => image.complete && image.naturalWidth > 0)), "回锅肉图片区存在加载失败的图片");
   await page.screenshot({ path: "outputs/qa-html-huiguo-rou-mobile.png", fullPage: true });
+
+  await page.goto(`${baseUrl}#/recipe/west-012`, { waitUntil: "load" });
+  await page.waitForSelector(".detail-page");
+  assert(await page.locator('.ingredient-row a.recipe-component-link[href="#/recipe/west-031"]').count() >= 1, "千层面原料没有肉酱内部链接");
+  assert(await page.locator('.step-preview a.recipe-component-link[href="#/recipe/west-031"]').count() >= 1, "千层面步骤没有肉酱内部链接");
+  const lasagnaNotes = await page.locator(".recipe-source-notes").innerText();
+  assert(lasagnaNotes.includes("80") && lasagnaNotes.includes("225"), "千层面未说明总时间不包含另做肉酱");
+  await page.locator('.ingredient-row a.recipe-component-link').first().click();
+  await page.waitForFunction(() => location.hash === "#/recipe/west-031" && document.querySelector(".detail-page"));
+  assert((await page.locator(".detail-page").innerText()).includes("博洛尼亚肉酱"), "肉酱链接未进入独立菜谱");
+  assert(await page.locator(".step-preview-image").count() === 0, "仅成品图的肉酱被插入步骤图");
+  await page.screenshot({ path: "outputs/qa-html-bolognese-mobile.png", fullPage: true });
+  await page.goto(`${baseUrl}#/recipe/cn-011`, { waitUntil: "load" });
+  await page.waitForSelector(".detail-page");
+  assert(await page.locator(".recipe-source-notes li").count() >= 6, "桂林米粉的已知缺失未公开说明");
+  assert(await page.locator(".serving-control").count() === 0 && (await page.locator(".serving-unspecified").innerText()).includes("未注明"), "未知份数仍被强加或允许缩放");
+  assert(await page.locator(".step-preview-image").count() === 9, "桂林米粉未保留9张同源步骤图");
+  await page.screenshot({ path: "outputs/qa-html-guilin-mifen-mobile.png", fullPage: true });
+
+  await page.evaluate(() => {
+    const fixture = JSON.parse(JSON.stringify(window.YANHUO_RECIPES.find((recipe) => recipe.id === "west-012")));
+    fixture.id = "qa-component-escape";
+    const unsafeText = '<img src=x onerror="window.__recipeXss=true">博洛尼亚肉酱';
+    fixture.ingredients = [{ id: "qa-ingredient", name: unsafeText, label: unsafeText, core: true }];
+    fixture.steps = [{ id: "step-01", instruction: unsafeText, duration: null, heat: null, ingredientsUsed: [], timerRequired: false }];
+    fixture.recipeLinks = [
+      { recipeId: 'west-031" onclick="window.__recipeXss=true', name: unsafeText },
+      { recipeId: "west-999", name: "博洛尼亚肉酱" }
+    ];
+    window.YANHUO_RECIPES.push(fixture);
+    location.hash = "#/recipe/qa-component-escape";
+  });
+  await page.waitForSelector(".detail-page");
+  await page.waitForFunction(() => location.hash === "#/recipe/qa-component-escape" && document.querySelector(".ingredient-row strong")?.textContent.includes("onerror"));
+  assert(await page.locator(".ingredient-row img, .step-preview p img, .recipe-component-link").count() === 0, "非法子菜谱链接或文字未安全转义");
+  assert(await page.evaluate(() => !window.__recipeXss), "菜谱文字触发脚本执行");
 
   await page.goto(`${baseUrl}#/me`, { waitUntil: "load" });
   await page.waitForSelector(".profile-page");
@@ -317,6 +353,28 @@ try {
         assert(recipe.steps[1].instruction.includes("3分钟") && recipe.steps[1].instruction.includes("20分钟"), "加酒和煨汤的分阶段时间丢失");
         assert((await mediaPage.locator(".serving-control").innerText()).includes("4"), "洋葱汤实际详情没有显示来源4人份");
       }
+      if (recipe.id === "west-012") {
+        assert(recipe.time === 80 && recipe.defaultServings === 8, "千层面80分钟/8份被覆盖");
+        assert(recipe.recipeLinks?.[0]?.recipeId === "west-031", "千层面组件引用丢失");
+        assert(recipe.steps[4].duration === null, "少煮约1分钟被误作煮制时间");
+        assert(recipe.allergens.includes("fish") && recipe.flags.containsBeef && recipe.flags.containsPork && recipe.flags.containsAlcohol, "千层面漏掉肉酱组件饮食提示");
+      }
+      if (recipe.id === "cn-011") {
+        assert(recipe.defaultServings === null && recipe.servingsBasis === "unspecified", "桂林米粉被推定为默认份数");
+        assert(recipe.steps[0].duration === null && !recipe.steps[0].timerRequired, "8小时以上仍被当成固定完成计时");
+        assert(recipe.flags.containsBeef, "牛骨没有触发含牛源提示");
+      }
+      if (recipe.id === "west-031") {
+        assert(recipe.time === 225 && recipe.defaultServings === 16, "肉酱225分钟/16份被覆盖");
+        assert(recipe.source === "https://www.seriouseats.com/basic-ragu-bolognese-recipe", "肉酱信源串用");
+        assert(recipe.steps.every((step) => !step.image), "用户允许的肉酱成品图例外被错误补图");
+        assert(recipe.ingredients[11].name === "现磨肉豆蔻粉", "肉豆蔻一撮被保留在食材身份中");
+        assert(recipe.steps[2].heat === null, "按需调低火力被作固定小火");
+      }
+      if (recipe.id === "cn-004") {
+        assert(recipe.time === 45 && !recipe.allergens.includes("fish") && recipe.flags.containsAlcohol, "鱼香名称误作鱼过敏原或绍兴酒遗漏");
+        assert(recipe.ingredients.length === 22, "鱼香肉丝分组食材被错误拆分或合并");
+      }
       if (recipe.id === "west-004") {
         assert(recipe.time === 35 && recipe.defaultServings === 4, "凯撒沙拉的来源总时长或4人份被默认值覆盖");
         assert(recipe.allergens.includes("dairy"), "帕尔马干酪缺少乳制品过敏原");
@@ -399,7 +457,7 @@ try {
   assert(errors.length === 0, `发现浏览器错误：${errors.join(" | ")}`);
   console.log(JSON.stringify({
     ok: true,
-    recipes: 90,
+    recipes: chinese.length + western.length,
     pantryItems: 35,
     verifiedMedia,
     testedRoutes: ["home", "pantry", "recommendations", "recipe", "game", "cook", "shopping", "recipes", "me"],

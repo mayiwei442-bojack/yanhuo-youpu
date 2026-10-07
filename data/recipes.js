@@ -129,7 +129,8 @@ window.YANHUO_RECIPES = [
     "time": null,
     "timeBasis": "unspecified",
     "difficulty": "适中",
-    "defaultServings": 2,
+    "defaultServings": null,
+    "servingsBasis": "unspecified",
     "allergens": [
       "egg"
     ],
@@ -317,7 +318,8 @@ window.YANHUO_RECIPES = [
     "time": 40,
     "timeBasis": "source",
     "difficulty": "适中",
-    "defaultServings": 2,
+    "defaultServings": null,
+    "servingsBasis": "unspecified",
     "allergens": [
       "peanut",
       "soy"
@@ -325,7 +327,7 @@ window.YANHUO_RECIPES = [
     "flags": {
       "containsPork": false,
       "containsBeef": false,
-      "containsAlcohol": false,
+      "containsAlcohol": true,
       "spicy": true,
       "vegetarian": false
     },
@@ -513,10 +515,11 @@ window.YANHUO_RECIPES = [
       "reuseLicense": null,
       "repositoryCopyAuthorization": "user_confirmed_2026-09-16"
     },
-    "time": null,
-    "timeBasis": "unspecified",
+    "time": 35,
+    "timeBasis": "source",
     "difficulty": "进阶",
-    "defaultServings": 2,
+    "defaultServings": null,
+    "servingsBasis": "unspecified",
     "allergens": [
       "soy",
       "sesame"
@@ -547,68 +550,128 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "ingredient-02",
-        "name": "腌料：食用油",
-        "label": "腌料：食用油2茶匙、绍兴酒1茶匙、生抽2茶匙、白胡椒粉1/4茶匙、玉米淀粉1茶匙、清水1又1/2汤匙",
+        "name": "食用油",
+        "label": "食用油2茶匙（腌肉用）",
         "isCore": false
       },
       {
         "id": "ingredient-03",
-        "name": "鱼香汁：米醋",
-        "label": "鱼香汁：米醋1又1/2汤匙、白糖1又1/2汤匙、生抽1汤匙、绍兴酒1/2汤匙、清水1杯、玉米淀粉1又1/2汤匙",
-        "isCore": false
+        "name": "绍兴酒",
+        "label": "绍兴酒1茶匙（腌肉用）",
+        "isCore": true
       },
       {
         "id": "ingredient-04",
-        "name": "炒制用食用油",
-        "label": "炒制用食用油3汤匙，分次使用",
+        "name": "生抽",
+        "label": "生抽2茶匙（腌肉用）",
         "isCore": false
       },
       {
         "id": "ingredient-05",
-        "name": "辣豆瓣酱",
-        "label": "辣豆瓣酱1汤匙",
-        "isCore": true
+        "name": "白胡椒粉",
+        "label": "白胡椒粉1/4茶匙（腌肉用）",
+        "isCore": false
       },
       {
         "id": "ingredient-06",
+        "name": "玉米淀粉",
+        "label": "玉米淀粉1茶匙（腌肉用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-07",
+        "name": "清水",
+        "label": "清水1又1/2汤匙（腌肉用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-08",
+        "name": "米醋",
+        "label": "米醋1又1/2汤匙（调汁用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-09",
+        "name": "白糖",
+        "label": "白糖1又1/2汤匙（调汁用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-10",
+        "name": "生抽",
+        "label": "生抽1汤匙（调汁用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-11",
+        "name": "绍兴酒",
+        "label": "绍兴酒1/2汤匙（调汁用）",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-12",
+        "name": "清水",
+        "label": "清水1杯（调汁用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-13",
+        "name": "玉米淀粉",
+        "label": "玉米淀粉1又1/2汤匙（调汁用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-14",
+        "name": "食用油",
+        "label": "食用油3汤匙（炒制用，分次使用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-15",
+        "name": "辣豆瓣酱",
+        "label": "辣豆瓣酱1汤匙",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-16",
         "name": "姜",
         "label": "姜2茶匙，切末",
         "isCore": false
       },
       {
-        "id": "ingredient-07",
+        "id": "ingredient-17",
         "name": "蒜",
         "label": "蒜2茶匙，切末",
         "isCore": false
       },
       {
-        "id": "ingredient-08",
+        "id": "ingredient-18",
         "name": "干辣椒",
         "label": "干辣椒1/4杯",
-        "isCore": true
+        "isCore": false
       },
       {
-        "id": "ingredient-09",
+        "id": "ingredient-19",
         "name": "泡发木耳",
         "label": "泡发木耳1满杯，切丝",
         "isCore": false
       },
       {
-        "id": "ingredient-10",
+        "id": "ingredient-20",
         "name": "莴笋",
         "label": "莴笋8盎司，去皮切丝",
         "isCore": false
       },
       {
-        "id": "ingredient-11",
+        "id": "ingredient-21",
         "name": "葱",
         "label": "葱1根，切碎",
         "isCore": false
       },
       {
-        "id": "ingredient-12",
-        "name": "清水数滴",
-        "label": "清水数滴（锅太干时）",
+        "id": "ingredient-22",
+        "name": "清水",
+        "label": "清水少许（锅太干时按需加数滴）",
         "isCore": false
       }
     ],
@@ -661,7 +724,7 @@ window.YANHUO_RECIPES = [
         "id": "step-05",
         "instruction": "开中火，加入剩余2汤匙炒制用食用油和1汤匙辣豆瓣酱，轻轻翻炒约1分钟至油变红；如有必要调低火力，避免炒焦。",
         "duration": 60,
-        "heat": null,
+        "heat": "medium",
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "add",
@@ -706,18 +769,18 @@ window.YANHUO_RECIPES = [
       "reuseLicense": null,
       "repositoryCopyAuthorization": "user_confirmed_2026-09-16"
     },
-    "time": null,
-    "timeBasis": "unspecified",
+    "time": 45,
+    "timeBasis": "source",
     "difficulty": "进阶",
-    "defaultServings": 2,
+    "defaultServings": null,
+    "servingsBasis": "unspecified",
     "allergens": [
-      "fish",
       "soy"
     ],
     "flags": {
       "containsPork": true,
       "containsBeef": false,
-      "containsAlcohol": false,
+      "containsAlcohol": true,
       "spicy": true,
       "vegetarian": false
     },
@@ -954,7 +1017,8 @@ window.YANHUO_RECIPES = [
     "time": null,
     "timeBasis": "unspecified",
     "difficulty": "进阶",
-    "defaultServings": 2,
+    "defaultServings": null,
+    "servingsBasis": "unspecified",
     "allergens": [
       "soy"
     ],
@@ -1089,17 +1153,18 @@ window.YANHUO_RECIPES = [
       "reuseLicense": null,
       "repositoryCopyAuthorization": "user_confirmed_2026-09-16"
     },
-    "time": null,
-    "timeBasis": "unspecified",
-    "difficulty": "适中",
-    "defaultServings": 2,
+    "time": 75,
+    "timeBasis": "source",
+    "difficulty": "进阶",
+    "defaultServings": null,
+    "servingsBasis": "unspecified",
     "allergens": [
       "soy"
     ],
     "flags": {
       "containsPork": true,
       "containsBeef": false,
-      "containsAlcohol": false,
+      "containsAlcohol": true,
       "spicy": false,
       "vegetarian": false
     },
@@ -1456,7 +1521,8 @@ window.YANHUO_RECIPES = [
     "time": null,
     "timeBasis": "unspecified",
     "difficulty": "进阶",
-    "defaultServings": 2,
+    "defaultServings": null,
+    "servingsBasis": "unspecified",
     "allergens": [
       "egg",
       "soy",
@@ -1704,7 +1770,8 @@ window.YANHUO_RECIPES = [
     "time": 40,
     "timeBasis": "source",
     "difficulty": "适中",
-    "defaultServings": 2,
+    "defaultServings": null,
+    "servingsBasis": "unspecified",
     "allergens": [
       "egg",
       "shellfish"
@@ -1712,7 +1779,7 @@ window.YANHUO_RECIPES = [
     "flags": {
       "containsPork": true,
       "containsBeef": false,
-      "containsAlcohol": false,
+      "containsAlcohol": true,
       "spicy": true,
       "vegetarian": false
     },
@@ -1919,7 +1986,8 @@ window.YANHUO_RECIPES = [
     "time": null,
     "timeBasis": "unspecified",
     "difficulty": "适中",
-    "defaultServings": 2,
+    "defaultServings": null,
+    "servingsBasis": "unspecified",
     "allergens": [
       "fish",
       "soy",
@@ -2189,7 +2257,8 @@ window.YANHUO_RECIPES = [
     "time": null,
     "timeBasis": "unspecified",
     "difficulty": "适中",
-    "defaultServings": 2,
+    "defaultServings": null,
+    "servingsBasis": "unspecified",
     "allergens": [
       "soy"
     ],
@@ -2214,179 +2283,241 @@ window.YANHUO_RECIPES = [
       {
         "id": "ingredient-01",
         "name": "猪骨",
-        "label": "猪骨适量",
+        "label": "猪骨（原文未给用量）",
         "isCore": true
       },
       {
         "id": "ingredient-02",
         "name": "牛骨",
-        "label": "牛骨适量",
+        "label": "牛骨（原文未给用量）",
         "isCore": true
       },
       {
         "id": "ingredient-03",
         "name": "肥五花肉",
-        "label": "肥五花肉适量",
+        "label": "肥五花肉（原文未给用量）",
         "isCore": true
       },
       {
         "id": "ingredient-04",
         "name": "里脊",
-        "label": "里脊适量",
+        "label": "里脊（原文未给用量）",
         "isCore": false
       },
       {
         "id": "ingredient-05",
         "name": "卤料包",
-        "label": "卤料包适量",
+        "label": "卤料包（原文未给用量）",
         "isCore": false
       },
       {
         "id": "ingredient-06",
         "name": "卤水调味料",
-        "label": "卤水调味料适量（原文未具体列明）",
+        "label": "卤水调味料（原文未列组成和用量）",
         "isCore": false
       },
       {
         "id": "ingredient-07",
         "name": "腌料",
-        "label": "腌料适量（原文未具体列明）",
+        "label": "腌料（原文未列组成和用量）",
         "isCore": false
       },
       {
         "id": "ingredient-08",
         "name": "酸豆角",
-        "label": "酸豆角适量",
+        "label": "酸豆角（原文未给用量）",
         "isCore": false
       },
       {
         "id": "ingredient-09",
         "name": "辣椒",
-        "label": "辣椒适量",
+        "label": "辣椒（炒酸豆角用，原文未给用量）",
         "isCore": false
       },
       {
         "id": "ingredient-10",
         "name": "花生",
-        "label": "花生适量",
+        "label": "花生（装碗时用炸好的花生，原文未给用量）",
         "isCore": false
       },
       {
         "id": "ingredient-11",
         "name": "香葱",
-        "label": "香葱适量",
+        "label": "香葱（原文未给用量）",
         "isCore": false
       },
       {
         "id": "ingredient-12",
         "name": "干米粉",
-        "label": "干米粉适量",
+        "label": "干米粉（原文未给用量）",
         "isCore": false
       },
       {
         "id": "ingredient-13",
         "name": "清水",
-        "label": "清水适量（熬卤水、白水煮肉、泡发和烫米粉）",
+        "label": "清水（熬卤水、白水煮肉和泡粉用，原文未给用量）",
         "isCore": false
       },
       {
         "id": "ingredient-14",
-        "name": "食用油",
-        "label": "食用油适量（炒酸豆角、炸花生、炸叉烧和炸锅烧）",
+        "name": "开水",
+        "label": "开水（烫米粉用，原文未给用量）",
         "isCore": false
       },
       {
         "id": "ingredient-15",
+        "name": "食用油",
+        "label": "食用油（炸制用，原文未列油种和用量）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-16",
         "name": "骨头汤",
-        "label": "骨头汤适量（佐餐，可选）",
+        "label": "骨头汤（佐餐，可选，原文未给材料和用量）",
         "isCore": false
       }
     ],
     "steps": [
       {
         "id": "step-01",
-        "instruction": "准备猪骨、牛骨、肥五花肉、里脊、卤料包、酸豆角、辣椒、花生、香葱和干米粉；来源未给出各项数量，也未列明卤水调味料和腌料的具体组成。",
+        "instruction": "用卤料包与猪骨、牛骨熬卤水，再加调料调味；卤水需熬8小时以上才能出味，原文未说明调料的具体组成、用量和熬制火候。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "confirm",
-        "safetyNote": ""
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-011-douguo/step-1.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/2331633.html"
       },
       {
         "id": "step-02",
-        "instruction": "将猪骨、牛骨和卤料包放入锅中，加适量清水熬卤水，再用来源未具体列明的调味料调味；卤水需熬8小时以上才能出味，原文未说明具体火候。",
-        "duration": 28800,
+        "instruction": "熬卤水期间准备酸豆角。",
+        "duration": null,
         "heat": null,
-        "timerRequired": true,
+        "timerRequired": false,
         "ingredientsUsed": [],
-        "gameAction": "add",
-        "safetyNote": ""
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-011-douguo/step-2.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/2331633.html"
       },
       {
         "id": "step-03",
-        "instruction": "熬卤水期间将酸豆角切好；锅中放适量食用油，加入酸豆角和辣椒简单翻炒后盛出，原文未给火候和时长。另将花生用适量食用油炸好备用，原文未给油温和时长。",
+        "instruction": "将酸豆角切好，放入锅中简单炒一下，加入辣椒即可；原文未说明炒制火候、时长和用油量。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "add",
-        "safetyNote": "注意热油飞溅"
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-011-douguo/step-3.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/2331633.html"
       },
       {
         "id": "step-04",
-        "instruction": "里脊用来源未具体列明的腌料腌制；随后放入清水中白水煮制，再用适量食用油炸成叉烧。原文未给腌制、煮制和炸制的火候、时长及用油量。",
+        "instruction": "腌里脊；原文未给出腌料组成、腌制方法和时间。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
-        "gameAction": "add",
-        "safetyNote": "注意热油飞溅"
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-011-douguo/step-4.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/2331633.html"
       },
       {
         "id": "step-05",
-        "instruction": "肥五花肉用适量食用油制成锅烧，再重复炸一次，至皮酥脆；原文未给前处理方式、油温、时长及用油量。",
+        "instruction": "白水煮肉；原文未指定所煮肉的种类、后续去向、煮制火候、时长和完成条件。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
-        "gameAction": "confirm",
-        "safetyNote": "注意热油飞溅"
+        "gameAction": "wait",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-011-douguo/step-5.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/2331633.html"
       },
       {
         "id": "step-06",
-        "instruction": "干米粉先用水泡发，原文未给泡发时长；食用前用开水烫米粉，沥水后装碗。",
+        "instruction": "炸叉烧；原文未说明前处理方法、油种、用油量、火候、时长和完成条件。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "confirm",
-        "safetyNote": ""
+        "safetyNote": "注意热油飞溅",
+        "image": "assets/dishes/sources/cn-011-douguo/step-6.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/2331633.html"
       },
       {
         "id": "step-07",
-        "instruction": "依次加入锅烧、叉烧、炒酸豆角、香葱和炸花生，淋入卤水并拌匀即可；可另配骨头汤佐餐，原文未说明骨头汤的另用材料和熬制方法。",
+        "instruction": "炸锅烧，再重复炸一次，使皮酥脆；原文未说明前处理方法、油种、用油量、火候和时长。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "注意热油飞溅",
+        "image": "assets/dishes/sources/cn-011-douguo/step-7.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/2331633.html"
+      },
+      {
+        "id": "step-08",
+        "instruction": "泡干米粉；原文未说明泡粉方法和时间。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-011-douguo/step-8.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/2331633.html"
+      },
+      {
+        "id": "step-09",
+        "instruction": "所有材料准备好后，用开水烫米粉，加入锅烧、叉烧、酸豆角、香葱、炸好的花生和卤水，拌匀即可；还可另熬一锅骨头汤佐餐。原文未提供炸花生和另熬骨头汤的具体做法。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "add",
-        "safetyNote": "注意热油飞溅"
+        "safetyNote": "注意热油飞溅",
+        "image": "assets/dishes/sources/cn-011-douguo/step-9.jpg",
+        "imageSource": "https://www.douguo.com/cookbook/2331633.html"
       }
     ],
-    "imageThumb": "assets/dishes/thumbnails/11-guilin-mifen.jpg",
-    "imageFull": "assets/dishes/ai/11-guilin-mifen.png",
+    "sourceLimitations": [
+      "卤水调料身份未列明。",
+      "里脊腌料、腌制时间和方法未列明。",
+      "白水煮肉未指定肉种去向、煮制火候/时间和完成条件。",
+      "炸叉烧/锅烧油种、油量、火候、时间未给，锅烧仅给复炸皮脆条件。",
+      "炸花生的准备工序未给。",
+      "原料数量、泡粉时间、整道菜总时长未给；8小时以上仅为卤水阶段。"
+    ],
+    "imageThumb": "assets/dishes/sources/cn-011-douguo/hero.jpg",
+    "imageFull": "assets/dishes/sources/cn-011-douguo/hero.jpg",
     "source": "https://www.douguo.com/cookbook/2331633.html",
-    "time": 180,
-    "timeBasis": "estimated",
+    "media": {
+      "sourceName": "豆果美食",
+      "recipePageUrl": "https://www.douguo.com/cookbook/2331633.html",
+      "mediaPageUrl": null,
+      "author": "云私房",
+      "rightsNotice": "©本菜谱的做法由云私房编写，未经授权不得转载。",
+      "reuseLicense": null,
+      "repositoryCopyAuthorization": "user_confirmed_2026-10-07"
+    },
+    "time": null,
+    "timeBasis": "unspecified",
     "difficulty": "进阶",
-    "defaultServings": 2,
+    "defaultServings": null,
+    "servingsBasis": "unspecified",
     "allergens": [
       "peanut"
     ],
     "flags": {
       "containsPork": true,
-      "containsBeef": false,
+      "containsBeef": true,
       "containsAlcohol": false,
       "spicy": true,
       "vegetarian": false
@@ -2490,6 +2621,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [],
     "flags": {
       "containsPork": false,
@@ -2603,6 +2735,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [],
     "flags": {
       "containsPork": false,
@@ -2710,6 +2843,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "peanut",
       "soy"
@@ -2820,6 +2954,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "进阶",
     "defaultServings": 4,
+    "servingsBasis": "estimated",
     "allergens": [
       "wheat"
     ],
@@ -3003,6 +3138,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "source",
     "difficulty": "进阶",
     "defaultServings": 2,
+    "servingsBasis": "source",
     "allergens": [
       "soy"
     ],
@@ -3083,9 +3219,9 @@ window.YANHUO_RECIPES = [
       {
         "id": "step-01",
         "instruction": "牛肉切薄片，用盐、淀粉和少量油腌10分钟，蔬菜焯熟垫碗。",
-        "duration": 600,
+        "duration": null,
         "heat": null,
-        "timerRequired": true,
+        "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "confirm",
         "safetyNote": ""
@@ -3118,6 +3254,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [],
     "flags": {
       "containsPork": false,
@@ -3225,6 +3362,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "简单",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "fish"
     ],
@@ -3328,13 +3466,14 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "进阶",
     "defaultServings": 4,
+    "servingsBasis": "estimated",
     "allergens": [
       "soy"
     ],
     "flags": {
       "containsPork": true,
       "containsBeef": false,
-      "containsAlcohol": false,
+      "containsAlcohol": true,
       "spicy": false,
       "vegetarian": false
     },
@@ -3431,6 +3570,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "sesame"
     ],
@@ -3546,6 +3686,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "peanut",
       "soy"
@@ -3644,6 +3785,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 4,
+    "servingsBasis": "estimated",
     "allergens": [],
     "flags": {
       "containsPork": false,
@@ -3751,6 +3893,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 4,
+    "servingsBasis": "estimated",
     "allergens": [
       "soy"
     ],
@@ -4058,7 +4201,8 @@ window.YANHUO_RECIPES = [
     "time": null,
     "timeBasis": "unspecified",
     "difficulty": "进阶",
-    "defaultServings": 2,
+    "defaultServings": null,
+    "servingsBasis": "unspecified",
     "allergens": [
       "egg",
       "soy"
@@ -4163,6 +4307,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 4,
+    "servingsBasis": "estimated",
     "allergens": [
       "fish",
       "soy"
@@ -4267,6 +4412,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "shellfish"
     ],
@@ -4582,7 +4728,8 @@ window.YANHUO_RECIPES = [
     "time": null,
     "timeBasis": "unspecified",
     "difficulty": "进阶",
-    "defaultServings": 2,
+    "defaultServings": null,
+    "servingsBasis": "unspecified",
     "allergens": [
       "shellfish",
       "soy"
@@ -4687,6 +4834,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "shellfish"
     ],
@@ -4970,7 +5118,8 @@ window.YANHUO_RECIPES = [
     "time": null,
     "timeBasis": "unspecified",
     "difficulty": "进阶",
-    "defaultServings": 2,
+    "defaultServings": null,
+    "servingsBasis": "unspecified",
     "allergens": [
       "soy"
     ],
@@ -5074,6 +5223,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "soy"
     ],
@@ -5168,7 +5318,7 @@ window.YANHUO_RECIPES = [
       {
         "id": "step-03",
         "instruction": "倒入豆腐和少量水焖3分钟，以淀粉水薄芡。",
-        "duration": 180,
+        "duration": null,
         "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
@@ -5183,6 +5333,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "简单",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "soy"
     ],
@@ -5286,6 +5437,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "soy"
     ],
@@ -5389,6 +5541,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [],
     "flags": {
       "containsPork": false,
@@ -5478,6 +5631,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "egg"
     ],
@@ -5581,6 +5735,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "进阶",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [],
     "flags": {
       "containsPork": true,
@@ -5712,7 +5867,8 @@ window.YANHUO_RECIPES = [
     "time": null,
     "timeBasis": "unspecified",
     "difficulty": "适中",
-    "defaultServings": 2,
+    "defaultServings": null,
+    "servingsBasis": "unspecified",
     "allergens": [],
     "flags": {
       "containsPork": true,
@@ -5826,6 +5982,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "进阶",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "fish",
       "shellfish"
@@ -5833,7 +5990,7 @@ window.YANHUO_RECIPES = [
     "flags": {
       "containsPork": true,
       "containsBeef": false,
-      "containsAlcohol": false,
+      "containsAlcohol": true,
       "spicy": false,
       "vegetarian": false
     },
@@ -5942,6 +6099,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "soy",
       "sesame"
@@ -6046,6 +6204,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 4,
+    "servingsBasis": "estimated",
     "allergens": [],
     "flags": {
       "containsPork": false,
@@ -6159,6 +6318,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "wheat",
       "soy",
@@ -6258,6 +6418,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "简单",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "wheat"
     ],
@@ -6361,6 +6522,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "简单",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "soy",
       "sesame"
@@ -6477,6 +6639,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "peanut",
       "wheat",
@@ -6588,6 +6751,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "进阶",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "wheat",
       "soy"
@@ -6692,6 +6856,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "进阶",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "wheat",
       "soy",
@@ -6803,6 +6968,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "进阶",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "shellfish",
       "wheat",
@@ -6902,6 +7068,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "wheat",
       "soy"
@@ -7012,6 +7179,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "简单",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "soy"
     ],
@@ -7115,6 +7283,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "进阶",
     "defaultServings": 4,
+    "servingsBasis": "estimated",
     "allergens": [
       "wheat",
       "soy"
@@ -7225,6 +7394,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "egg",
       "wheat",
@@ -7324,6 +7494,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 4,
+    "servingsBasis": "estimated",
     "allergens": [
       "soy"
     ],
@@ -7427,6 +7598,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "进阶",
     "defaultServings": 4,
+    "servingsBasis": "estimated",
     "allergens": [
       "soy"
     ],
@@ -7524,6 +7696,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "进阶",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [],
     "flags": {
       "containsPork": false,
@@ -7779,7 +7952,8 @@ window.YANHUO_RECIPES = [
     "time": null,
     "timeBasis": "unspecified",
     "difficulty": "进阶",
-    "defaultServings": 2,
+    "defaultServings": null,
+    "servingsBasis": "unspecified",
     "allergens": [
       "peanut",
       "soy"
@@ -7884,6 +8058,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "soy"
     ],
@@ -7987,6 +8162,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "egg"
     ],
@@ -8096,6 +8272,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "简单",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "soy"
     ],
@@ -8205,6 +8382,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "进阶",
     "defaultServings": 4,
+    "servingsBasis": "estimated",
     "allergens": [
       "soy"
     ],
@@ -8314,6 +8492,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "egg",
       "shellfish",
@@ -8413,6 +8592,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "进阶",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [],
     "flags": {
       "containsPork": false,
@@ -8526,6 +8706,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "dairy",
       "wheat"
@@ -8624,6 +8805,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "简单",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "dairy",
       "wheat"
@@ -8728,6 +8910,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "简单",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "dairy"
     ],
@@ -8894,6 +9077,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "source",
     "difficulty": "进阶",
     "defaultServings": 4,
+    "servingsBasis": "source",
     "allergens": [
       "dairy",
       "egg",
@@ -9012,6 +9196,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "dairy",
       "wheat"
@@ -9191,6 +9376,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "source",
     "difficulty": "进阶",
     "defaultServings": 4,
+    "servingsBasis": "source",
     "allergens": [
       "dairy",
       "fish",
@@ -9302,6 +9488,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "进阶",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "fish",
       "wheat"
@@ -9418,6 +9605,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "fish",
       "shellfish"
@@ -9522,6 +9710,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "简单",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "dairy"
     ],
@@ -9625,6 +9814,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "进阶",
     "defaultServings": 4,
+    "servingsBasis": "estimated",
     "allergens": [
       "dairy"
     ],
@@ -9783,6 +9973,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "source",
     "difficulty": "进阶",
     "defaultServings": 4,
+    "servingsBasis": "source",
     "allergens": [
       "dairy",
       "egg"
@@ -9807,85 +9998,141 @@ window.YANHUO_RECIPES = [
     "ingredients": [
       {
         "id": "ingredient-01",
-        "name": "鲜千层面片",
-        "label": "鲜千层面片250克",
-        "isCore": true
-      },
-      {
-        "id": "ingredient-02",
-        "name": "橄榄油",
-        "label": "橄榄油适量",
+        "name": "无盐黄油",
+        "label": "无盐黄油60克（白酱用，另备适量涂烤盘）",
         "isCore": false
       },
       {
+        "id": "ingredient-02",
+        "name": "通用面粉",
+        "label": "通用面粉35克",
+        "isCore": true
+      },
+      {
         "id": "ingredient-03",
-        "name": "帕玛森芝士碎一大把",
-        "label": "帕玛森芝士碎一大把",
+        "name": "全脂牛奶",
+        "label": "全脂牛奶700毫升",
         "isCore": true
       },
       {
         "id": "ingredient-04",
-        "name": "肉酱：无盐黄油",
-        "label": "肉酱：无盐黄油110克、芹菜梗1根、胡萝卜1根、小红洋葱1个、干牛肝菌25克、迷迭香1枝、去筋牛腹肉或小牛腹肉1千克、干白葡萄酒125毫升、优质番茄碎罐头400克",
+        "name": "粗粒盐",
+        "label": "粗粒盐适量（白酱调味及煮面用）",
         "isCore": false
       },
       {
         "id": "ingredient-05",
-        "name": "白酱：全脂牛奶",
-        "label": "白酱：全脂牛奶1升、月桂叶1片、无盐黄油75克、00号面粉125克、现磨肉豆蔻适量、帕玛森芝士100克、蛋黄2个",
-        "isCore": true
+        "name": "现磨黑胡椒",
+        "label": "现磨黑胡椒适量",
+        "isCore": false
       },
       {
         "id": "ingredient-06",
-        "name": "调味料",
-        "label": "调味料适量",
+        "name": "现磨肉豆蔻粉",
+        "label": "现磨肉豆蔻粉一撮",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-07",
+        "name": "千层面片",
+        "label": "千层面片900克（鲜面片可选自制普通鸡蛋或菠菜面片、或市售鲜面片，干面片可选2盒，每盒450克，普通或免煮路线仅选一种，可能用不完全部面片）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-08",
+        "name": "植物油",
+        "label": "植物油适量（给面片涂油用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-09",
+        "name": "博洛尼亚肉酱",
+        "label": "博洛尼亚肉酱1.5升（提前做好并保持温热）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-10",
+        "name": "帕玛森芝士",
+        "label": "帕玛森芝士85克，磨碎",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-11",
+        "name": "清水",
+        "label": "清水适量（普通面片煮制用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-12",
+        "name": "冰水",
+        "label": "冰水适量（普通面片过冷用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-13",
+        "name": "温水",
+        "label": "温水适量（仅免煮面片浸泡用）",
         "isCore": false
       }
     ],
     "steps": [
       {
         "id": "step-01",
-        "instruction": "干牛肝菌用热水浸泡10分钟，沥干后粗切；芹菜、胡萝卜、小红洋葱切细，迷迭香取叶切碎。耐火炖锅中以中火将110克黄油烧至起泡，加入上述蔬菜、牛肝菌和迷迭香，适量调味后炒5分钟。",
-        "duration": null,
-        "heat": "medium",
+        "instruction": "小锅置于中高火，融化60克无盐黄油，不让黄油变褐；用打蛋器拌入35克通用面粉，搅成糊状，边搅边炒约1分钟，至生面粉气味消失。持续搅打，将700毫升全脂牛奶以细流倒入，或每次加几汤匙、分次加入；锅的边角也要搅到，使酱汁均匀。混合物会先明显变稠，待牛奶全部加入后重新变稀。",
+        "duration": 60,
+        "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "add",
-        "safetyNote": ""
+        "safetyNote": "",
+        "image": "assets/dishes/sources/west-012-serious-eats/step-1.webp",
+        "imageSource": "https://www.seriouseats.com/lasagna-bolognese-al-forno-recipe"
       },
       {
         "id": "step-02",
-        "instruction": "牛腹肉切细并调味，放入锅中炒5分钟至上色；倒入白葡萄酒和番茄碎，煮沸后转小火，加盖煮1小时30分钟，最后30分钟揭盖收浓，至肉质软嫩但仍有结构、肉酱浓稠。",
-        "duration": null,
+        "instruction": "继续边加热边搅拌，至白酱开始微沸并稍稍变稠；转小火，边搅边煮约3分钟，至白酱能在木勺背面留下薄薄一层。",
+        "duration": 180,
         "heat": "low",
         "timerRequired": false,
         "ingredientsUsed": [],
-        "gameAction": "add",
+        "gameAction": "stir",
         "safetyNote": ""
       },
       {
         "id": "step-03",
-        "instruction": "牛奶与月桂叶放入锅中煮至微沸，关火备用；厚底锅中火融化75克黄油，打入面粉和热牛奶，持续用力搅打至顺滑，再煮10—15分钟至非常浓稠。取出月桂叶，适量调味并磨入肉豆蔻，拌入100克帕玛森和2个蛋黄，放凉。",
-        "duration": 900,
-        "heat": "medium",
-        "timerRequired": true,
+        "instruction": "加入适量粗粒盐、现磨黑胡椒和一撮现磨肉豆蔻粉，搅打均匀；小结块可直接搅散，顽固大结块可用手持或台式搅拌机打匀。白酱可立即使用，或将保鲜膜贴在表面并保持温热；也可密封冷藏数天，使用前在灶上或微波炉中轻柔加热。白酱此时保留较稀状态，烤制时还会继续变稠。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "add",
         "safetyNote": ""
       },
       {
         "id": "step-04",
-        "instruction": "烤箱预热至180℃，风扇烤箱160℃。千层面片每3张一批放入加盐沸水中20秒使其变软，立即移入冰水。",
-        "duration": 20,
+        "instruction": "先选定一种面片路线：市售鲜面片、普通干面片或免煮面片均不需制作面团，跳过本步的自制操作。仅选自制鲜面片时，依原信源链接的鲜面团配方做到其第10步，使用双倍配方制成约900克面片；压面机可选第6或第7档，将长面片切成约20厘米长的矩形。多备一些面片可防叠层时不够，实际可能用不完。普通鲜面片或干面片执行步骤5、6后跳过步骤7，免煮面片跳过步骤5、6，仅执行步骤7。",
+        "duration": null,
         "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
-        "gameAction": "add",
+        "gameAction": "wait",
         "safetyNote": ""
       },
       {
         "id": "step-05",
-        "instruction": "大烤盘底部和四周抹橄榄油，依次铺面片、肉酱和白酱，重复至面片和肉酱用完，顶层以白酱收尾并撒一大把帕玛森。",
+        "instruction": "仅鲜面片或普通干面片执行：准备一锅加盐的沸水，必要时分批将面片煮至有嚼劲；市售面片通常比包装建议时间少煮约1分钟。用漏勺或网筛捞出，立即放入一大盆冰水中。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/west-012-serious-eats/step-5.webp",
+        "imageSource": "https://www.seriouseats.com/lasagna-bolognese-al-forno-recipe"
+      },
+      {
+        "id": "step-06",
+        "instruction": "仅步骤5煮过的面片执行：将冷却的面片充分沥干，两面薄薄涂植物油以防黏连；可暂存最多3小时。如需暂存，将面片摊在铺有烘焙纸的烤盘上，多层面片之间用保鲜膜隔开；随后跳过步骤7，进入步骤8。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
@@ -9894,31 +10141,86 @@ window.YANHUO_RECIPES = [
         "safetyNote": ""
       },
       {
-        "id": "step-06",
-        "instruction": "烤40—45分钟至表面金黄、酱汁冒泡；出炉静置10分钟后切块，再静置10分钟再食用。",
+        "id": "step-07",
+        "instruction": "仅免煮面片执行，不能再重复步骤5、6：用温水浸泡30分钟，使面片部分吸水，再用纸巾或厨房巾沥干，进入步骤8。",
+        "duration": 1800,
+        "heat": null,
+        "timerRequired": true,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-08",
+        "instruction": "确保已备好1.5升温热的博洛尼亚肉酱，烤箱预热至190℃。在约23×33厘米的烤盘（原文9×13英寸）内涂无盐黄油；底部均匀铺一层薄薄的博洛尼亚肉酱，再铺面片。面片略有重叠无妨，过大的面片应剪裁，避免形成不必要的双层厚面片。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "wait",
         "safetyNote": ""
+      },
+      {
+        "id": "step-09",
+        "instruction": "面片上再铺很薄一层博洛尼亚肉酱，使部分位置仍能透过肉酱看到面片；淋少量白酱，再撒帕玛森芝士碎。按面片、博洛尼亚肉酱、白酱、芝士的顺序继续叠至烤盘装满，约6层；最上面以一层面片收尾，均匀铺上全部剩余白酱，再磨上丰厚一层芝士。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/west-012-serious-eats/step-9.webp",
+        "imageSource": "https://www.seriouseats.com/lasagna-bolognese-al-forno-recipe"
+      },
+      {
+        "id": "step-10",
+        "instruction": "放入190℃烤箱烤约35分钟，至酱汁冒泡、表面上色；烤盘下可放带边烤盘接住溢出的酱汁。出炉后静置10分钟，再切块食用。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/west-012-serious-eats/step-10.webp",
+        "imageSource": "https://www.seriouseats.com/lasagna-bolognese-al-forno-recipe"
       }
     ],
-    "imageThumb": "assets/dishes/thumbnails/57-lasagna.jpg",
-    "imageFull": "assets/dishes/ai/57-lasagna.png",
-    "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2",
-    "time": 180,
-    "timeBasis": "estimated",
+    "recipeLinks": [
+      {
+        "recipeId": "west-031",
+        "name": "博洛尼亚肉酱"
+      }
+    ],
+    "sourceLimitations": [
+      "来源总用时80分钟从已备好温热博洛尼亚肉酱开始，不包含另做肉酱的225分钟。",
+      "鲜面片或普通干面片走煮制及冰水冷却路线，免煮面片仅走温水浸泡路线；同一批面片不能重复执行两条路线。"
+    ],
+    "imageThumb": "assets/dishes/sources/west-012-serious-eats/hero.webp",
+    "imageFull": "assets/dishes/sources/west-012-serious-eats/hero.webp",
+    "source": "https://www.seriouseats.com/lasagna-bolognese-al-forno-recipe",
+    "media": {
+      "sourceName": "Serious Eats",
+      "recipePageUrl": "https://www.seriouseats.com/lasagna-bolognese-al-forno-recipe",
+      "mediaPageUrl": null,
+      "author": "Daniel Gritzer; photographs Vicky Wasik",
+      "rightsNotice": "Serious Eats; photographs credited to Vicky Wasik.",
+      "reuseLicense": null,
+      "repositoryCopyAuthorization": "user_confirmed_2026-10-07"
+    },
+    "time": 80,
+    "timeBasis": "source",
     "difficulty": "进阶",
-    "defaultServings": 2,
+    "defaultServings": 8,
+    "servingsBasis": "source",
     "allergens": [
       "dairy",
       "egg",
-      "wheat"
+      "wheat",
+      "fish"
     ],
     "flags": {
-      "containsPork": false,
-      "containsBeef": false,
+      "containsPork": true,
+      "containsBeef": true,
       "containsAlcohol": true,
       "spicy": false,
       "vegetarian": false
@@ -10016,6 +10318,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "dairy"
     ],
@@ -10119,6 +10422,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "进阶",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "dairy"
     ],
@@ -10222,6 +10526,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "简单",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "dairy",
       "egg",
@@ -10327,6 +10632,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "进阶",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "dairy",
       "egg",
@@ -10444,6 +10750,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "wheat"
     ],
@@ -10553,6 +10860,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "简单",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [],
     "flags": {
       "containsPork": false,
@@ -10666,6 +10974,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "fish",
       "shellfish"
@@ -10935,6 +11244,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "source",
     "difficulty": "进阶",
     "defaultServings": 8,
+    "servingsBasis": "source",
     "allergens": [
       "dairy",
       "wheat"
@@ -11051,6 +11361,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "进阶",
     "defaultServings": 4,
+    "servingsBasis": "estimated",
     "allergens": [],
     "flags": {
       "containsPork": true,
@@ -11158,6 +11469,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 4,
+    "servingsBasis": "estimated",
     "allergens": [
       "dairy"
     ],
@@ -11267,6 +11579,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "dairy"
     ],
@@ -11370,6 +11683,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "简单",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "egg",
       "wheat"
@@ -11486,6 +11800,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "dairy",
       "egg",
@@ -11597,6 +11912,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "进阶",
     "defaultServings": 4,
+    "servingsBasis": "estimated",
     "allergens": [],
     "flags": {
       "containsPork": false,
@@ -11704,6 +12020,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "dairy",
       "fish",
@@ -11809,6 +12126,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "dairy",
       "wheat"
@@ -11919,6 +12237,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "简单",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "dairy",
       "egg",
@@ -12036,6 +12355,7 @@ window.YANHUO_RECIPES = [
     "timeBasis": "estimated",
     "difficulty": "适中",
     "defaultServings": 2,
+    "servingsBasis": "estimated",
     "allergens": [
       "dairy",
       "egg",
@@ -12047,6 +12367,197 @@ window.YANHUO_RECIPES = [
       "containsAlcohol": false,
       "spicy": false,
       "vegetarian": true
+    },
+    "demoEnriched": true
+  },
+  {
+    "id": "west-031",
+    "name": "博洛尼亚肉酱",
+    "en": "Ragù Bolognese",
+    "cuisine": "意大利",
+    "category": "西餐",
+    "isHeritageFlavor": false,
+    "heritageStatus": null,
+    "ingredients": [
+      {
+        "id": "ingredient-01",
+        "name": "无味吉利丁粉",
+        "label": "无味吉利丁粉15克（2包）",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-02",
+        "name": "低钠高汤",
+        "label": "低钠高汤475毫升（自制或市售）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-03",
+        "name": "无盐黄油",
+        "label": "无盐黄油45克",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-04",
+        "name": "胡萝卜",
+        "label": "胡萝卜2大根，约375克，去皮切细末",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-05",
+        "name": "芹菜",
+        "label": "芹菜3中根，约240克，切细末",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-06",
+        "name": "黄洋葱",
+        "label": "黄洋葱2中个，约480克，切细末",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-07",
+        "name": "肉末",
+        "label": "肉末1800克（可全用牛肉末，或用牛肉末2磅、猪肉末1磅和小牛肉末1磅混合，分两次下锅）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-08",
+        "name": "番茄膏",
+        "label": "番茄膏60毫升",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-09",
+        "name": "干白葡萄酒或干红葡萄酒",
+        "label": "干白葡萄酒或干红葡萄酒350毫升",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-10",
+        "name": "月桂叶",
+        "label": "月桂叶2片",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-11",
+        "name": "粗粒盐",
+        "label": "粗粒盐适量",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-12",
+        "name": "现磨肉豆蔻粉",
+        "label": "现磨肉豆蔻粉一撮",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-13",
+        "name": "亚洲鱼露",
+        "label": "亚洲鱼露3毫升",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-14",
+        "name": "淡奶油",
+        "label": "淡奶油120毫升",
+        "isCore": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-01",
+        "instruction": "将475毫升低钠高汤倒入宽口容器，将15克无味吉利丁粉均匀撒在液面上，放在一旁，让吉利丁吸水。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-02",
+        "instruction": "大炖锅置于中高火，放入45克无盐黄油，融化至起泡；加入切细末的胡萝卜、芹菜和黄洋葱，边翻动边炒约6分钟，至蔬菜呈半透明。仅加入一半肉末，即2磅；炒约15分钟，间或翻动并铲散大块肉团，至锅底形成明显的焦褐色煎炒层。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-03",
+        "instruction": "加入剩余2磅肉末，翻动并刮起锅底的焦褐色煎炒层，将新下的肉末铲得很细；继续炒约6分钟，至全部肉末熟透。必要时随时调低火力，避免烧焦。",
+        "duration": 360,
+        "heat": null,
+        "timerRequired": true,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-04",
+        "instruction": "拌入60毫升番茄膏，边翻动边炒2分钟；倒入350毫升干白或干红葡萄酒，刮起锅底附着物，煮至沸腾。再煮约5分钟，至生酒精气味消失，加入2片月桂叶。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-05",
+        "instruction": "倒入步骤1的高汤，将容器中全部吸水吉利丁也刮入锅中。煮至微沸后调低火力，保持非常轻柔的微沸；加入适量粗粒盐、一撮现磨肉豆蔻粉和3毫升鱼露。间或翻动，微沸约3小时，至肉酱浓稠且基本没有多余液体；撇去并丢弃表面浮油，取出月桂叶。拌入120毫升淡奶油，再按口味调整盐量。",
+        "duration": 10800,
+        "heat": null,
+        "timerRequired": true,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-06",
+        "instruction": "肉酱可立即使用，也可用于制作千层面；或冷藏保存最多5天，或冷冻保存最多3个月。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      }
+    ],
+    "sourceLimitations": [
+      "本配方产出约2夸脱，来源标为16份；不将2夸脱改写为2升。",
+      "本肉酱总用时225分钟；用于千层面时需先准备好，千层面的80分钟不包含本肉酱制作时间。"
+    ],
+    "imageThumb": "assets/dishes/sources/west-031-serious-eats/hero.webp",
+    "imageFull": "assets/dishes/sources/west-031-serious-eats/hero.webp",
+    "source": "https://www.seriouseats.com/basic-ragu-bolognese-recipe",
+    "media": {
+      "sourceName": "Serious Eats",
+      "recipePageUrl": "https://www.seriouseats.com/basic-ragu-bolognese-recipe",
+      "mediaPageUrl": null,
+      "author": "Daniel Gritzer; photograph Vicky Wasik",
+      "rightsNotice": "Serious Eats; photography Vicky Wasik.",
+      "reuseLicense": null,
+      "repositoryCopyAuthorization": "user_confirmed_2026-10-07",
+      "heroOnlyAuthorization": "user_explicit_2026-10-07_west-031"
+    },
+    "time": 225,
+    "timeBasis": "source",
+    "difficulty": "进阶",
+    "defaultServings": 16,
+    "servingsBasis": "source",
+    "allergens": [
+      "dairy",
+      "fish"
+    ],
+    "flags": {
+      "containsPork": true,
+      "containsBeef": true,
+      "containsAlcohol": true,
+      "spicy": false,
+      "vegetarian": false
     },
     "demoEnriched": true
   }

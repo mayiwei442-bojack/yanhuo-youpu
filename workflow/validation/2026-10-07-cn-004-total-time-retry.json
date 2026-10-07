@@ -1,0 +1,61 @@
+{
+  "ok": true,
+  "targetId": "cn-004",
+  "checks": [
+    {
+      "name": "unique_ids",
+      "passed": true
+    },
+    {
+      "name": "target_exists_once",
+      "passed": true
+    },
+    {
+      "name": "required_fields",
+      "passed": true
+    },
+    {
+      "name": "target_name",
+      "passed": true
+    },
+    {
+      "name": "target_ingredients",
+      "passed": true,
+      "count": 22
+    },
+    {
+      "name": "target_steps",
+      "passed": true,
+      "count": 7
+    },
+    {
+      "name": "stable_target_fields",
+      "passed": true,
+      "allowedChanges": []
+    },
+    {
+      "name": "target_changed",
+      "passed": true,
+      "required": true
+    },
+    {
+      "name": "target_only_diff",
+      "passed": true,
+      "changed": []
+    },
+    {
+      "name": "generated_target_exists",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "commands": [
+    {
+      "command": "D:\\node.exe tools/build_html_demo_data.mjs",
+      "passed": true,
+      "status": 0,
+      "stdout": "Generated 90 recipes.",
+      "stderr": ""
+    }
+  ]
+}

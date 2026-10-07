@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "cn-003 仅新增有同一选定信源直接支持的 timing：准备 10 分钟、烹饪 25 分钟、总计 35 分钟；生成数据 time=35、timeBasis=source。其余原料、步骤、图片及出处保持不变，全部引用图片存在且校验和匹配。独立复核烹饪顺序、火力与时间，没有跨来源补充；对 15 个实际食材行和 6 个步骤另行完成对抗性语言及生成结构审查，装饰说明未被拆成独立食材，标点、括号与编号均正常。",
+  "evidencePackageHash": "531609279cf00c881f590bc1c740017bfb7ac8d5d92c4343e6cb8627b185448a",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

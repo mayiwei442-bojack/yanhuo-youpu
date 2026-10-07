@@ -1,0 +1,368 @@
+{
+  "recipeId": "cn-011",
+  "recipeName": "桂林米粉",
+  "category": "chinese",
+  "createdAt": "2026-10-07T11:36:18Z",
+  "sourceMode": "single_source",
+  "singleSourceReason": "用户定点选择豆果2331633；此例外并不声明来源完整，不重新选择另一变体或跨源补全。",
+  "selectedSourceUrl": "https://www.douguo.com/cookbook/2331633.html",
+  "selectionReason": "用户明确接受此来源缺口，保留全部原步骤与缺口声明。",
+  "sources": [
+    {
+      "sourceName": "豆果美食",
+      "sourceType": "website",
+      "url": "https://www.douguo.com/cookbook/2331633.html",
+      "documentId": "c6f9c9c2-acaf-46a9-9956-79412598d085",
+      "retrievalMethod": "Exact RAG query first; stored original HTML stepcont/data-origin extraction; ordinary PowerShell Invoke-WebRequest public recipe page HTTP200; web reader403 and Node fetch failure recorded without bypass.",
+      "complete": false,
+      "userAuthorizedIncomplete": {
+        "authorization": "user_explicit_2026-10-07_cn-011",
+        "recipeId": "cn-011",
+        "sourceUrl": "https://www.douguo.com/cookbook/2331633.html",
+        "omissions": [
+          "卤水调料身份未列明。",
+          "里脊腌料、腌制时间和方法未列明。",
+          "白水煮肉未指定肉种去向、煮制火候/时间和完成条件。",
+          "炸叉烧/锅烧油种、油量、火候、时间未给，锅烧仅给复炸皮脆条件。",
+          "炸花生的准备工序未给。",
+          "原料数量、泡粉时间、整道菜总时长未给；8小时以上仅为卤水阶段。"
+        ]
+      },
+      "ingredients": [
+        {
+          "raw": "猪骨",
+          "name": "猪骨",
+          "amount": null,
+          "evidence": "explicit"
+        },
+        {
+          "raw": "牛骨",
+          "name": "牛骨",
+          "amount": null,
+          "evidence": "explicit"
+        },
+        {
+          "raw": "肥五花肉",
+          "name": "肥五花肉",
+          "amount": null,
+          "evidence": "explicit"
+        },
+        {
+          "raw": "里脊",
+          "name": "里脊",
+          "amount": null,
+          "evidence": "explicit"
+        },
+        {
+          "raw": "卤料包",
+          "name": "卤料包",
+          "amount": null,
+          "evidence": "explicit"
+        },
+        {
+          "raw": "酸豆角",
+          "name": "酸豆角",
+          "amount": null,
+          "evidence": "explicit"
+        },
+        {
+          "raw": "花生",
+          "name": "花生",
+          "amount": null,
+          "evidence": "explicit"
+        },
+        {
+          "raw": "香葱",
+          "name": "香葱",
+          "amount": null,
+          "evidence": "explicit"
+        },
+        {
+          "raw": "调料（卤水调味，原文未具体列明）",
+          "name": "卤水调味料",
+          "amount": null,
+          "evidence": "derived"
+        },
+        {
+          "raw": "辣椒（炒酸豆角用，原文未列用量）",
+          "name": "辣椒",
+          "amount": null,
+          "evidence": "derived"
+        },
+        {
+          "raw": "干粉（原文未列用量）",
+          "name": "干米粉",
+          "amount": null,
+          "evidence": "derived"
+        },
+        {
+          "raw": "开水烫米粉（原文未列用量）",
+          "name": "开水（烫米粉）",
+          "amount": null,
+          "evidence": "derived"
+        },
+        {
+          "raw": "还可以熬一锅骨头汤边吃粉边喝汤（原文未列用量）",
+          "name": "骨头汤（佐餐，可选）",
+          "amount": null,
+          "evidence": "derived"
+        },
+        {
+          "raw": "白水煮肉、泡干粉及熬卤水所用清水（操作介质，原文未列用量）",
+          "name": "清水",
+          "amount": null,
+          "evidence": "derived_required_medium"
+        },
+        {
+          "raw": "炸叉烧、炸锅烧所需食用油（操作介质，原文未列油种、油量或油温）",
+          "name": "食用油",
+          "amount": null,
+          "evidence": "derived_required_medium"
+        },
+        {
+          "raw": "腌里脊所需腌料（来源没有列出身份、用量，不得自行补造组成）",
+          "name": "腌料",
+          "amount": null,
+          "evidence": "derived_missing_identity"
+        }
+      ],
+      "steps": [
+        {
+          "heat": null,
+          "order": 1,
+          "duration": "8小时以上",
+          "evidence": "explicit",
+          "instruction": "卤料包加骨头熬卤水，然后加调料调味，卤水得熬上8小时以上才能出味"
+        },
+        {
+          "heat": null,
+          "order": 2,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "期间准备酸豆角"
+        },
+        {
+          "heat": null,
+          "order": 3,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "切好锅里简单炒下加辣椒即可"
+        },
+        {
+          "heat": null,
+          "order": 4,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "腌里脊"
+        },
+        {
+          "heat": null,
+          "order": 5,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "白水煮肉"
+        },
+        {
+          "heat": null,
+          "order": 6,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "炸叉烧"
+        },
+        {
+          "heat": null,
+          "order": 7,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "炸锅烧，需要再重复炸一次，皮才能酥脆"
+        },
+        {
+          "heat": null,
+          "order": 8,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "泡干粉"
+        },
+        {
+          "heat": null,
+          "order": 9,
+          "duration": null,
+          "evidence": "explicit",
+          "instruction": "所有东西好了以后开水烫米粉，加锅烧，叉烧，酸豆角，香葱，炸好的花生，卤水拌均匀即可，还可以熬一锅骨头汤边吃粉边喝汤"
+        }
+      ],
+      "technique": [
+        "卤料包加猪骨、牛骨熬卤水，并以未具体列明的调料调味；卤水熬8小时以上出味。",
+        "酸豆角切好后下锅加辣椒简单炒香。",
+        "原文依次写腌里脊、白水煮肉、炸叉烧，但白煮肉使用的具体肉种及后续去向未说明，不得因步骤相邻就推定这三步针对同一种肉。腌料、时间、火候和油量均未给。",
+        "原文写炸锅烧并再炸一次使皮酥脆，但没有明确说明哪种肉制作锅烧；肥五花肉虽在清单中，不能把其用途当作已知。油量、油温或时长未给。",
+        "干米粉先泡，食用前用开水烫。"
+      ],
+      "tips": [
+        "来源关键做法未交代，项目必须公开sourceLimitations；不能把未知腌料、调味料、炸油温度当作已知。"
+      ],
+      "rawExcerpt": "正宗桂林米粉\n原料：猪骨、牛骨、肥五花肉、里脊、卤料包、酸豆角、花生、香葱。\n1. 卤料包加骨头熬卤水，然后加调料调味，卤水得熬上8小时以上才能出味\n2. 期间准备酸豆角\n3. 切好锅里简单炒下加辣椒即可\n4. 腌里脊\n5. 白水煮肉\n6. 炸叉烧\n7. 炸锅烧，需要再重复炸一次，皮才能酥脆\n8. 泡干粉\n9. 所有东西好了以后开水烫米粉，加锅烧，叉烧，酸豆角，香葱，炸好的花生，卤水拌均匀即可，还可以熬一锅骨头汤边吃粉边喝汤",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "incomplete",
+        "stepCoverage": "incomplete",
+        "internalCoherence": "coherent",
+        "heroImages": 1,
+        "mappedStepImages": 9,
+        "stepImageCoverage": 1,
+        "ingredientCount": 16,
+        "executableStepCount": 9,
+        "notes": [
+          "qualifies仅表示用户授权原样发布，不表示烹饪完整；总时长null。"
+        ]
+      },
+      "media": {
+        "recipePageUrl": "https://www.douguo.com/cookbook/2331633.html",
+        "mediaPageUrl": null,
+        "sourceName": "豆果美食",
+        "author": "云私房",
+        "rightsNotice": "©本菜谱的做法由云私房编写，未经授权不得转载。",
+        "reuseLicense": null,
+        "repositoryCopyAuthorized": true,
+        "hero": {
+          "originalUrl": "https://cp1.douguo.com/upload/caiku/9/f/1/800_9f69de3a9edecb6f0ff659fa1f247681.jpg",
+          "repositoryPath": "assets/dishes/sources/cn-011-douguo/hero.jpg",
+          "httpStatus": 200,
+          "contentType": "image/jpeg"
+        },
+        "steps": [
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/d/8/b/800_d8765386261ec38ad699e3fe893ff1bb.jpg",
+            "adjacentText": "卤料包加骨头熬卤水，然后加调料调味，卤水得熬上8小时以上才能出味",
+            "stepOrder": 1,
+            "pageOrder": 1,
+            "repositoryPath": "assets/dishes/sources/cn-011-douguo/step-1.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg"
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/1/f/9/800_1f016fe7b995d932b449e52dad043e49.jpg",
+            "adjacentText": "期间准备酸豆角",
+            "stepOrder": 2,
+            "pageOrder": 2,
+            "repositoryPath": "assets/dishes/sources/cn-011-douguo/step-2.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg"
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/f/5/5/800_f5f0e8b7b969d2a22845998e4de6aa35.jpg",
+            "adjacentText": "切好锅里简单炒下加辣椒即可",
+            "stepOrder": 3,
+            "pageOrder": 3,
+            "repositoryPath": "assets/dishes/sources/cn-011-douguo/step-3.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg"
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/8/d/4/800_8d4d640096f0b53eae29454d7ea8ea14.jpg",
+            "adjacentText": "腌里脊",
+            "stepOrder": 4,
+            "pageOrder": 4,
+            "repositoryPath": "assets/dishes/sources/cn-011-douguo/step-4.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg"
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/c/c/a/800_cc745d49a0128ad590214ac97deea17a.jpg",
+            "adjacentText": "白水煮肉",
+            "stepOrder": 5,
+            "pageOrder": 5,
+            "repositoryPath": "assets/dishes/sources/cn-011-douguo/step-5.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg"
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/f/e/9/800_fe0a3f1381c612fd30fede4d64a55759.jpg",
+            "adjacentText": "炸叉烧",
+            "stepOrder": 6,
+            "pageOrder": 6,
+            "repositoryPath": "assets/dishes/sources/cn-011-douguo/step-6.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg"
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/d/5/b/800_d57c432bfdbdf9ab8aff22a77adcf12b.jpg",
+            "adjacentText": "炸锅烧，需要再重复炸一次，皮才能酥脆",
+            "stepOrder": 7,
+            "pageOrder": 7,
+            "repositoryPath": "assets/dishes/sources/cn-011-douguo/step-7.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg"
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/3/a/6/800_3a0c95db3f7110b4781f930fae716bc6.jpg",
+            "adjacentText": "泡干粉",
+            "stepOrder": 8,
+            "pageOrder": 8,
+            "repositoryPath": "assets/dishes/sources/cn-011-douguo/step-8.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg"
+          },
+          {
+            "originalUrl": "https://cp1.douguo.com/upload/caiku/d/d/2/800_dd211d8d5aa7e6c0b7b0d74e783f6a42.jpg",
+            "adjacentText": "所有东西好了以后开水烫米粉，加锅烧，叉烧，酸豆角，香葱，炸好的花生，卤水拌均匀即可，还可以熬一锅骨头汤边吃粉边喝汤",
+            "stepOrder": 9,
+            "pageOrder": 9,
+            "repositoryPath": "assets/dishes/sources/cn-011-douguo/step-9.jpg",
+            "httpStatus": 200,
+            "contentType": "image/jpeg"
+          }
+        ]
+      }
+    }
+  ],
+  "ragEvidence": [
+    {
+      "chunkId": "b9399a40-c3f0-407d-aeee-e3aa9e6b0313",
+      "documentId": "c6f9c9c2-acaf-46a9-9956-79412598d085",
+      "sourceName": "豆果美食",
+      "chunkType": "summary",
+      "content": "菜名：桂林米粉\n菜系：广西\n简介：正宗桂林米粉 原料：猪骨、牛骨、肥五花肉、里脊、卤料包、酸豆角、花生、香葱。 1. 卤料包加骨头熬卤水，然后加调料调味，卤水得熬上8小时以上才能出味 2. 期间准备酸豆角 3. 切好锅里简单炒下加辣椒即可 4. 腌里脊 5. 白水煮肉 6. 炸叉烧 7. 炸锅烧，需要再重复炸一次，皮才能酥脆 8. 泡干粉 9. 所有东西好了以后开水烫米粉，加锅烧，叉烧，酸豆角，香葱，炸好的花生，卤水拌均匀即可，还可以熬一锅骨头汤边吃粉边喝汤",
+      "similarity": 0.675157011314364
+    },
+    {
+      "chunkId": "49a3eb7c-679d-4dd6-a66c-f20c690bec97",
+      "documentId": "c6f9c9c2-acaf-46a9-9956-79412598d085",
+      "sourceName": "豆果美食",
+      "chunkType": "steps",
+      "content": "菜名：桂林米粉\n1. 卤料包加骨头熬卤水，然后加调料调味，卤水得熬上8小时以上才能出味（8小时以上）\n2. 期间准备酸豆角\n3. 切好锅里简单炒下加辣椒即可\n4. 腌里脊\n5. 白水煮肉\n6. 炸叉烧\n7. 炸锅烧，需要再重复炸一次，皮才能酥脆\n8. 泡干粉\n9. 所有东西好了以后开水烫米粉，加锅烧，叉烧，酸豆角，香葱，炸好的花生，卤水拌均匀即可，还可以熬一锅骨头汤边吃粉边喝汤",
+      "similarity": 0.659185231400864
+    },
+    {
+      "chunkId": "c2e365b6-cf02-46c5-a0e4-72513aa11909",
+      "documentId": "c6f9c9c2-acaf-46a9-9956-79412598d085",
+      "sourceName": "豆果美食",
+      "chunkType": "tips",
+      "content": "菜名：桂林米粉\n- 来源关键做法未交代，项目必须公开sourceLimitations；不能把未知腌料、调味料、炸油温度当作已知。",
+      "similarity": 0.652498383894515
+    },
+    {
+      "chunkId": "1dff7138-28b5-438f-852f-38135951a72a",
+      "documentId": "c6f9c9c2-acaf-46a9-9956-79412598d085",
+      "sourceName": "豆果美食",
+      "chunkType": "technique",
+      "content": "菜名：桂林米粉\n- 卤料包加猪骨、牛骨熬卤水，并以未具体列明的调料调味；卤水熬8小时以上出味。\n- 酸豆角切好后下锅加辣椒简单炒香。\n- 原文依次写腌里脊、白水煮肉、炸叉烧，但白煮肉使用的具体肉种及后续去向未说明，不得因步骤相邻就推定这三步针对同一种肉。腌料、时间、火候和油量均未给。\n- 原文写炸锅烧并再炸一次使皮酥脆，但没有明确说明哪种肉制作锅烧；肥五花肉虽在清单中，不能把其用途当作已知。油量、油温或时长未给。\n- 干米粉先泡，食用前用开水烫。\n- 8小时以上",
+      "similarity": 0.632621344860317
+    },
+    {
+      "chunkId": "2de22888-bd04-48a2-8928-4eda45b3efea",
+      "documentId": "c6f9c9c2-acaf-46a9-9956-79412598d085",
+      "sourceName": "豆果美食",
+      "chunkType": "ingredients",
+      "content": "菜名：桂林米粉\n- 猪骨\n- 牛骨\n- 肥五花肉\n- 里脊\n- 卤料包\n- 酸豆角\n- 花生\n- 香葱\n- 调料（卤水调味，原文未具体列明）\n- 辣椒（炒酸豆角用，原文未列用量）\n- 干粉（原文未列用量）\n- 开水烫米粉（原文未列用量）\n- 还可以熬一锅骨头汤边吃粉边喝汤（原文未列用量）\n- 白水煮肉、泡干粉及熬卤水所用清水（操作介质，原文未列用量）\n- 炸叉烧、炸锅烧所需食用油（操作介质，原文未列油种、油量或油温）\n- 腌里脊所需腌料（来源没有列出身份、用量，不得自行补造组成）",
+      "similarity": 0.625376142583856
+    }
+  ],
+  "notes": [
+    "Exact KB document remains 1ba3785d-c85e-4baa-a741-dfce177aad15; metadata completeness/media corrections awaiting parent ingestion before Editor. No DB mutation performed by this Researcher.",
+    "Configured Woks exact-name history and other Douguo candidate routes were checked previously; user now fixes this exact URL. No unrelated sources selected.",
+    "HTML11 photo blocks: orders1-9 actionable;10细米粉 and11锅烧切粉 are non-action captions excluded from executable steps and media mapping.",
+    "All10 selected image URLs ordinaryHEAD verified HTTP200 image/jpeg; image files not downloaded by Researcher.",
+    "Current ordinary public recipe requestHTTP200; native Node fetch failed; web readerHTTP403; no access-control bypass."
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "recipeId": "west-031",
+  "recipeName": "博洛尼亚肉酱",
+  "category": "western",
+  "createdAt": "2026-10-07T11:36:18Z",
+  "sourceMode": "single_source",
+  "singleSourceReason": "Userrequests the exact classic meat-sauce recipe explicitly linked by the chosenSeriousEatslasagna; other variants notselected. ExactexistingRAGcheckfoundnodocument.",
+  "selectedSourceUrl": "https://www.seriouseats.com/basic-ragu-bolognese-recipe",
+  "selectionReason": "DanielGritzer'sownrecipe developed for thislasagna, with complete14ingredients and6proceduralsteps; hero-only authorized.",
+  "sources": [
+    {
+      "sourceName": "Serious Eats",
+      "sourceType": "website",
+      "url": "https://www.seriouseats.com/basic-ragu-bolognese-recipe",
+      "documentId": null,
+      "retrievalMethod": "Exact name and sourceURLRAG query before fetching: no existing document. Public web reader full source ingredients/method/time/yield; ordinarydirect Node andPowerShellrecipefetch402 recorded. Ownpagehero HEAD200. Awaiting parent ingestion.",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "unflavored powdered gelatin",
+          "amount": "2 packets (1/2 ounce;15 g)",
+          "raw": "2 packets unflavored powdered gelatin (1/2 ounce; 15 g)"
+        },
+        {
+          "name": "low-sodium broth",
+          "amount": "2 cups (475 ml)",
+          "raw": "2 cups homemade or store-bought low-sodium broth (475 ml)"
+        },
+        {
+          "name": "unsalted butter",
+          "amount": "3 tablespoons (45 g)",
+          "raw": "3 tablespoons (45 g) unsalted butter"
+        },
+        {
+          "name": "carrots",
+          "amount": "2 large (about375 g;12ounces)",
+          "raw": "2 large carrots (about 375 g; 12 ounces), peeled and finely minced"
+        },
+        {
+          "name": "celery ribs",
+          "amount": "3 medium (about240 g;8ounces)",
+          "raw": "3 medium celery ribs (about 240 g; 8 ounces), finely minced"
+        },
+        {
+          "name": "yellow onions",
+          "amount": "2 medium (about480 g;1pound)",
+          "raw": "2 medium yellow onions (about 480 g; 1 pound), finely minced"
+        },
+        {
+          "name": "ground meat",
+          "amount": "4pounds (1.8kg), divided",
+          "raw": "4 pounds (1.8 kg) ground meat, either all beef or 2 pounds beef with 1 pound each ground pork and veal, divided"
+        },
+        {
+          "name": "tomato paste",
+          "amount": "1/4cup (60 ml)",
+          "raw": "1/4 cup (60 ml) tomato paste"
+        },
+        {
+          "name": "dry white or red wine",
+          "amount": "1 1/2cups (350 ml)",
+          "raw": "1 1/2 cups (350 ml) dry white or red wine"
+        },
+        {
+          "name": "bay leaves",
+          "amount": "2",
+          "raw": "2 bay leaves"
+        },
+        {
+          "name": "Kosher salt",
+          "amount": null,
+          "raw": "Kosher salt"
+        },
+        {
+          "name": "freshly grated nutmeg",
+          "amount": "pinch",
+          "raw": "Pinch freshly grated nutmeg"
+        },
+        {
+          "name": "Asian fish sauce",
+          "amount": "1/2teaspoon (3 ml)",
+          "raw": "1/2 teaspoon (3 ml) Asian fish sauce"
+        },
+        {
+          "name": "heavy cream",
+          "amount": "1/2cup (120 ml)",
+          "raw": "1/2 cup (120 ml) heavy cream"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Put the broth in a wide container, distribute the powdered gelatin over its surface, and set it aside to hydrate.",
+          "duration": null,
+          "heat": null,
+          "evidence": "source_operational_detail_reexpressed"
+        },
+        {
+          "order": 2,
+          "instruction": "In a large Dutch oven, melt butter at medium-high heat until foamy. Add the finely minced carrots, celery and onions. Stir while cooking about 6 minutes, until they become translucent. Add only half of the ground meat (2 pounds). Cook about 15 minutes, occasionally stirring and breaking apart large clumps, until the pot bottom develops pronounced browning.",
+          "duration": "vegetables about6min; firsthalfmeat about15min",
+          "heat": "medium-high",
+          "evidence": "source_operational_detail_reexpressed"
+        },
+        {
+          "order": 3,
+          "instruction": "Add the remaining 2 pounds ground meat. Stir, scrape the browned pot bottom, and break this addition into very fine pieces. Continue about 6 minutes, until all meat has cooked through. Reduce heat whenever necessary to avoid scorching.",
+          "duration": "about6min",
+          "heat": "lower whenever needed to avoid scorch",
+          "evidence": "source_operational_detail_reexpressed"
+        },
+        {
+          "order": 4,
+          "instruction": "Stir in tomato paste and cook with stirring for 2 minutes. Pour in wine, scraping the bottom, and bring it to a boil. Cook about 5 minutes so the raw alcohol odor disappears, then add both bay leaves.",
+          "duration": "tomato paste2min; wineabout5min",
+          "heat": "boil after wine addition",
+          "evidence": "source_operational_detail_reexpressed"
+        },
+        {
+          "order": 5,
+          "instruction": "Add the set-aside broth, including every bit of hydrated gelatin scraped from its container. Bring to a simmer, then lower heat so the simmer is very gentle. Add salt, the pinch of freshly grated nutmeg and fish sauce. Simmer around 3 hours with occasional stirring, until the sauce is thick and essentially no surplus liquid remains. Skim surface fat, discard it and remove the bay leaves. Stir in heavy cream, then adjust salt to taste.",
+          "duration": "about3hours gentle simmer",
+          "heat": "very gentle simmer",
+          "evidence": "source_operational_detail_reexpressed"
+        },
+        {
+          "order": 6,
+          "instruction": "Use the sauce immediately, or keep it refrigerated for up to 5 days, or frozen for up to 3 months.",
+          "duration": "refrigerate up to5days; freezeup to3months",
+          "heat": null,
+          "evidence": "source_operational_detail_reexpressed"
+        }
+      ],
+      "technique": [
+        "Source totalTime3h45min (225min), cookTime3h45min, no separate prepTime displayed.",
+        "Source yield2quarts;16servings. Do not silently convert yield to2litres: thatmetric equivalence is not explicitly provided.",
+        "Brown half the meat strongly for flavor; secondhalf retainedfor softertexture. Gelatin hydratesin broth before potaddition. Fish sauce3ml sourceprovided; no unsupported spoonconversion."
+      ],
+      "tips": [
+        "For minced aromaticvegetables, manualknife or foodprocessor allowed bysource.",
+        "Allgroundbeef is anexplicit option. For improvedflavor/texture the sourcealternatively allows beef2pounds+pork1pound+veal1pound. Preserve alternatives without makingallthree compulsory.",
+        "Userauthorizedhero-onlypublication; recipeownpagecontains no executableprocessphotos. Allsteps remain textual; no lasagnaphotosborrowed."
+      ],
+      "rawExcerpt": "Basic Ragù Bolognese | Daniel Gritzer | Serious Eats\nSource timing: total225minutes; cook225minutes; yield2quarts;16servings.\nINGREDIENTS\n2 packets unflavored powdered gelatin (1/2 ounce; 15 g)\n2 cups homemade or store-bought low-sodium broth (475 ml)\n3 tablespoons (45 g) unsalted butter\n2 large carrots (about 375 g; 12 ounces), peeled and finely minced\n3 medium celery ribs (about 240 g; 8 ounces), finely minced\n2 medium yellow onions (about 480 g; 1 pound), finely minced\n4 pounds (1.8 kg) ground meat, either all beef or 2 pounds beef with 1 pound each ground pork and veal, divided\n1/4 cup (60 ml) tomato paste\n1 1/2 cups (350 ml) dry white or red wine\n2 bay leaves\nKosher salt\nPinch freshly grated nutmeg\n1/2 teaspoon (3 ml) Asian fish sauce\n1/2 cup (120 ml) heavy cream\nMETHOD (all operational details reexpressed, not untouched HTML)\n1. Put the broth in a wide container, distribute the powdered gelatin over its surface, and set it aside to hydrate.\n2. In a large Dutch oven, melt butter at medium-high heat until foamy. Add the finely minced carrots, celery and onions. Stir while cooking about 6 minutes, until they become translucent. Add only half of the ground meat (2 pounds). Cook about 15 minutes, occasionally stirring and breaking apart large clumps, until the pot bottom develops pronounced browning.\n3. Add the remaining 2 pounds ground meat. Stir, scrape the browned pot bottom, and break this addition into very fine pieces. Continue about 6 minutes, until all meat has cooked through. Reduce heat whenever necessary to avoid scorching.\n4. Stir in tomato paste and cook with stirring for 2 minutes. Pour in wine, scraping the bottom, and bring it to a boil. Cook about 5 minutes so the raw alcohol odor disappears, then add both bay leaves.\n5. Add the set-aside broth, including every bit of hydrated gelatin scraped from its container. Bring to a simmer, then lower heat so the simmer is very gentle. Add salt, the pinch of freshly grated nutmeg and fish sauce. Simmer around 3 hours with occasional stirring, until the sauce is thick and essentially no surplus liquid remains. Skim surface fat, discard it and remove the bay leaves. Stir in heavy cream, then adjust salt to taste.\n6. Use the sauce immediately, or keep it refrigerated for up to 5 days, or frozen for up to 3 months.",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 1,
+        "mappedStepImages": 0,
+        "stepImageCoverage": 0,
+        "ingredientCount": 14,
+        "executableStepCount": 6,
+        "notes": [
+          "No processphotos on own recipepage; user explicitlyallowshero-onlynew dish."
+        ]
+      },
+      "media": {
+        "recipePageUrl": "https://www.seriouseats.com/basic-ragu-bolognese-recipe",
+        "mediaPageUrl": null,
+        "sourceName": "Serious Eats",
+        "author": "Daniel Gritzer; photograph Vicky Wasik",
+        "rightsNotice": "Serious Eats; photography Vicky Wasik.",
+        "reuseLicense": null,
+        "repositoryCopyAuthorized": true,
+        "heroOnlyAuthorization": "user_explicit_2026-10-07_west-031",
+        "hero": {
+          "role": "hero",
+          "originalUrl": "https://www.seriouseats.com/thmb/gYEUSQ6BRH7u1huNwwjHRZtzHuQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2016__12__20161118-lasagne-bolognese-vicky-wasik-5-a9ff0574a41746ff92fde42483d40b02.jpg",
+          "repositoryPath": "assets/dishes/sources/west-031-serious-eats/hero.webp",
+          "httpStatus": 200,
+          "contentType": "image/webp"
+        },
+        "steps": []
+      }
+    }
+  ],
+  "ragEvidence": [],
+  "notes": [
+    "documentId:null truthfully indicates not ingested at evidence-base creation. Parent must ingest before Editor and replace with actualUUID. No newDB writebyResearcher.",
+    "This is a separatecomponentrecipe, not a meat-sauceparagraph pasted into lasagna. Lasagna dependency amount1.5L and source total80min remain unchanged.",
+    "The ownrecipehero is a finishedpotofsauce, not an importedstepimage; explicitauthorizationuser_explicit_2026-10-07_west-031 appliesonlywest-031.",
+    "Knownsourcefacts:3h45min225min,16servings,2quarts output. Source's225min coversrecipe; lasagnastartswithwarmreadyragù."
+  ]
+}

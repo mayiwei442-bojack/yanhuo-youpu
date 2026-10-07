@@ -1,5 +1,14 @@
 # 菜品图片来源
 
+## 2026-10-07 定点选源与新增肉酱
+
+以下图片根据用户授权原样复制到仓库，运行时不读取原始外链；原 URL、HTTP 类型、SHA-256 与步骤序号保留在 canonical media、evidence 和 RAG metadata 中。
+
+- 桂林米粉：豆果美食 [2331633](https://www.douguo.com/cookbook/2331633.html)，作者云私房。`assets/dishes/sources/cn-011-douguo/` 内成品图1张、步骤图9张；来源仍标不完整，按用户明确接受的版本发布并公开缺口。
+- 千层面：Serious Eats [Lasagna Bolognese al Forno](https://www.seriouseats.com/lasagna-bolognese-al-forno-recipe)。`assets/dishes/sources/west-012-serious-eats/` 内成品图1张、步骤图4张，对应公开步骤1、5、9、10；不借用肉酱页面图片作为千层面步骤图。
+- 博洛尼亚肉酱：Serious Eats [Basic Ragù Bolognese](https://www.seriouseats.com/basic-ragu-bolognese-recipe)。`assets/dishes/sources/west-031-serious-eats/hero.webp` 为该页面成品图。用户明确允许此菜仅成品图，6个烹饪步骤保留文字，无伪造或借用的步骤图。
+- 详细导入映射：`workflow/media/2026-10-07-<recipe-id>-manifest.json`；校验结果：同目录 `-import.json`。
+
 ## 回锅肉
 
 - 项目：Anduin2017/HowToCook

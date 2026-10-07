@@ -25,16 +25,50 @@
     "ingestion": {
       "status": "done",
       "attempts": 1,
-      "details": { "changedDocuments": 0, "reason": "No source content changed; existing selected document and chunks were reused." }
+      "details": {
+        "changedDocuments": 0,
+        "reason": "No source content changed; existing selected document and chunks were reused."
+      }
     },
-    "edit": { "status": "pending", "attempts": 0 },
-    "validator": { "status": "pending", "attempts": 0 },
-    "review": { "status": "pending", "attempts": 0 },
-    "build": { "status": "pending", "attempts": 0 },
-    "gitPush": { "status": "pending", "attempts": 0 }
+    "edit": {
+      "status": "done",
+      "attempts": 1
+    },
+    "validator": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "resultPath": "workflow/validation/2026-10-07-cn-003-total-time.json"
+      }
+    },
+    "review": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "resultPath": "workflow/reviews/2026-10-07-cn-003-total-time.json",
+        "status": "PASS"
+      }
+    },
+    "build": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "command": "npm run test:workflow:deterministic",
+        "passed": true
+      }
+    },
+    "gitPush": {
+      "status": "pending",
+      "attempts": 0
+    }
   },
   "sources": [
-    { "name": "The Woks of Life", "url": "https://thewoksoflife.com/ma-po-tofu-real-deal/", "status": "success", "failureReason": null }
+    {
+      "name": "The Woks of Life",
+      "url": "https://thewoksoflife.com/ma-po-tofu-real-deal/",
+      "status": "success",
+      "failureReason": null
+    }
   ],
   "errors": [],
   "branch": "codex/recipe-automation",

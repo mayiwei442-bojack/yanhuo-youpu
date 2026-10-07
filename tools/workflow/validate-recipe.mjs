@@ -80,6 +80,24 @@ export function validateRecipeChange({ beforeSnapshot, currentCatalog, targetId,
   return { ok: errors.length === 0, targetId, checks, errors };
 }
 
+export function validateRecipeAddition({ beforeSnapshot, currentCatalog, targetId }) {
+  const errors = [];
+  const before = beforeSnapshot?.recipes;
+  if (!Array.isArray(before)) return { ok: false, targetId, checks: [], errors: ["缺少编辑前快照"] };
+  const matches = currentCatalog.filter((item) => item.id === targetId);
+  if (before.some((item) => item.id === targetId)) errors.push("追加目标在原快照中已存在");
+  if (matches.length !== 1 || currentCatalog.length !== before.length + 1) errors.push("必须只追加一个唯一目标");
+  for (const item of before) if (!same(item, currentCatalog.find((candidate) => candidate.id === item.id))) errors.push(`追加时已有菜谱被修改：${item.id}`);
+  const target = matches[0];
+  if (target) {
+    const oldGroup = before.filter((item) => item.category === target.category);
+    if (target.index !== oldGroup.length || targetId !== `${target.category === "chinese" ? "cn" : "west"}-${String(oldGroup.length + 1).padStart(3, "0")}`) errors.push("新菜品必须追加到分类末尾且保留既有ID");
+    for (const field of REQUIRED_FIELDS) if (typeof target.record[field] !== "string" || !target.record[field].trim()) errors.push(`新增菜谱缺少字段 ${field}`);
+    if (splitRecipeIngredients(target.record.ingredients).length === 0 || splitRecipeSteps(target.record.steps).length < 2) errors.push("新增菜谱原料或步骤不足");
+  }
+  return { ok: !errors.length, targetId, checks: [{ name: "explicit_single_append", passed: !errors.length }], errors };
+}
+
 function option(name) {
   const index = process.argv.indexOf(name);
   return index >= 0 ? process.argv[index + 1] : null;
@@ -103,7 +121,7 @@ async function main() {
     throw new Error("用法：npm run rag:validate -- --target <cn-001> --before <snapshot.json> [--require-change] [--allow-source-change] [--full]");
   }
   const beforeSnapshot = JSON.parse(await readFile(resolve(process.cwd(), beforePath), "utf8"));
-  const validation = validateRecipeChange({
+  const validation = process.argv.includes("--allow-addition") ? validateRecipeAddition({ beforeSnapshot, currentCatalog: createRecipeCatalog(), targetId }) : validateRecipeChange({
     beforeSnapshot,
     currentCatalog: createRecipeCatalog(),
     targetId,

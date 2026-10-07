@@ -1,0 +1,26 @@
+{
+  "status": "FAIL",
+  "issues": [
+    {
+      "field": "generated.steps[4].duration",
+      "message": "包装时间少煮1分钟误作实际煮制时长。"
+    },
+    {
+      "field": "generated.allergens",
+      "message": "未继承肉酱中鱼露的fish过敏原。"
+    },
+    {
+      "field": "generated.flags",
+      "message": "未继承关联肉酱的牛源、猪源和酒类提示。"
+    }
+  ],
+  "summary": "同源正文、80分钟8份、组件链接及本地图片通过，生成计时和饮食标签须修正。",
+  "evidencePackageHash": "cd084e57910994dc4e100678b6103fecbd0fd36e7894e9d3f83df77106b5537f",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": false
+  }
+}

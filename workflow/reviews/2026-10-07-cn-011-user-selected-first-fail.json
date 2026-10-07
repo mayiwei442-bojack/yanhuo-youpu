@@ -1,0 +1,26 @@
+{
+  "status": "FAIL",
+  "issues": [
+    {
+      "field": "generated.defaultServings",
+      "message": "来源未注明份数，却生成2人并启用缩放。"
+    },
+    {
+      "field": "generated.steps[0].duration",
+      "message": "8小时以上误作固定完成计时。"
+    },
+    {
+      "field": "generated.flags.containsBeef",
+      "message": "牛骨未触发含牛源提示。"
+    }
+  ],
+  "summary": "来源和对抗语言审查通过，实际渲染元数据不通过，需纠正。",
+  "evidencePackageHash": "30764f7c2108651ad2654261e587c5f5a8e3f2ce11385d28e0f6be8103c5ae7a",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": false
+  }
+}

@@ -51,6 +51,14 @@
         "properties": { "sourceMode": { "const": "multi_source" } }
       },
       "then": { "properties": { "sources": { "minItems": 2 } } }
+    },
+    {
+      "if": { "properties": { "sources": { "contains": { "properties": { "complete": { "const": false } }, "required": ["complete"] } } } },
+      "then": { "properties": { "recipeId": { "const": "cn-011" } } }
+    },
+    {
+      "if": { "properties": { "sources": { "contains": { "properties": { "media": { "required": ["heroOnlyAuthorization"] } }, "required": ["media"] } } } },
+      "then": { "properties": { "recipeId": { "const": "west-031" } } }
     }
   ],
   "$defs": {
@@ -85,7 +93,19 @@
         "url": { "type": ["string", "null"] },
         "documentId": { "type": "string", "minLength": 1 },
         "retrievalMethod": { "type": "string", "minLength": 1 },
-        "complete": { "const": true },
+        "complete": { "type": "boolean" },
+        "userAuthorizedIncomplete": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["authorization", "recipeId", "sourceUrl", "omissions"],
+          "properties": {
+            "authorization": { "const": "user_explicit_2026-10-07_cn-011" },
+            "recipeId": { "const": "cn-011" },
+            "sourceUrl": { "const": "https://www.douguo.com/cookbook/2331633.html" },
+            "omissions": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } }
+          }
+        },
+        "recipeDependencies": { "type": "array", "items": { "type": "object", "required": ["recipeId", "name", "url"], "properties": { "recipeId": { "type": "string" }, "name": { "type": "string" }, "url": { "type": "string", "format": "uri" } } } },
         "ingredients": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/ingredient" } },
         "steps": { "type": "array", "minItems": 2, "items": { "$ref": "#/$defs/step" } },
         "technique": { "type": "array", "items": { "type": "string" } },
@@ -97,7 +117,13 @@
         "location": { "type": ["string", "null"] },
         "selectionAssessment": { "$ref": "#/$defs/selectionAssessment" },
         "media": { "$ref": "#/$defs/sourceMedia" }
-      }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "complete": { "const": false } }, "required": ["complete"] },
+          "then": { "required": ["userAuthorizedIncomplete"], "properties": { "url": { "const": "https://www.douguo.com/cookbook/2331633.html" } } }
+        }
+      ]
     },
     "selectionAssessment": {
       "type": "object",
@@ -128,10 +154,11 @@
         "rightsNotice": { "type": ["string", "null"] },
         "reuseLicense": { "type": ["string", "null"] },
         "repositoryCopyAuthorized": { "type": "boolean" },
+        "heroOnlyAuthorization": { "const": "user_explicit_2026-10-07_west-031" },
         "hero": { "$ref": "#/$defs/mediaItem" },
         "steps": {
           "type": "array",
-          "minItems": 1,
+          "minItems": 0,
           "items": {
             "allOf": [
               { "$ref": "#/$defs/mediaItem" },
@@ -146,7 +173,8 @@
             ]
           }
         }
-      }
+      },
+      "allOf": [{ "if": { "required": ["heroOnlyAuthorization"] }, "then": { "properties": { "recipePageUrl": { "const": "https://www.seriouseats.com/basic-ragu-bolognese-recipe" } } }, "else": { "properties": { "steps": { "minItems": 1 } } } }]
     },
     "mediaItem": {
       "type": "object",

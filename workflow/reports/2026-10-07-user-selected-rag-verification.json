@@ -1,0 +1,58 @@
+{
+  "ok": true,
+  "checkedAt": "2026-10-07T12:06:38.810Z",
+  "databaseWrites": false,
+  "embeddingModel": "voyage-4",
+  "dimension": 1024,
+  "targets": [
+    {
+      "recipeId": "cn-016",
+      "name": "回锅肉",
+      "documentId": "8291b14c-022b-4706-b35c-4d6231b9284a",
+      "expectedChunks": 5,
+      "semanticSelectedChunks": 5,
+      "hybridSelectedChunks": 5,
+      "invalidHistoryExcluded": true,
+      "sourceComplete": true,
+      "stepImageReferences": 0,
+      "heroImageSha256": null
+    },
+    {
+      "recipeId": "cn-011",
+      "name": "桂林米粉",
+      "documentId": "c6f9c9c2-acaf-46a9-9956-79412598d085",
+      "expectedChunks": 5,
+      "semanticSelectedChunks": 5,
+      "hybridSelectedChunks": 5,
+      "invalidHistoryExcluded": true,
+      "sourceComplete": false,
+      "stepImageReferences": 9,
+      "heroImageSha256": "940e8fad7534c1765c941e8459ee0560b75b092ab37f6009378eb8057ed9f348"
+    },
+    {
+      "recipeId": "west-012",
+      "name": "千层面",
+      "documentId": "59f561e7-5520-4137-ac4e-c657cadcae71",
+      "expectedChunks": 8,
+      "semanticSelectedChunks": 8,
+      "hybridSelectedChunks": 8,
+      "invalidHistoryExcluded": true,
+      "sourceComplete": true,
+      "stepImageReferences": 4,
+      "heroImageSha256": "5650a643a4f3533469c44b8415e006b8fe266c2819a5f3c8e52b7a678d65bd3f"
+    },
+    {
+      "recipeId": "west-031",
+      "name": "博洛尼亚肉酱",
+      "documentId": "19217549-e928-440d-90eb-3a164426854f",
+      "expectedChunks": 6,
+      "semanticSelectedChunks": 6,
+      "hybridSelectedChunks": 6,
+      "invalidHistoryExcluded": true,
+      "sourceComplete": true,
+      "stepImageReferences": 0,
+      "heroImageSha256": "69986f354c3d4b5f33e62e26d16d4458a25355d1ecc3d2b260736260586fd5e3"
+    }
+  ],
+  "note": "图片文件留在仓库；数据库保存来源、路径、校验和和步骤映射，不是上传图片二进制到 Storage。历史错误保留审计且正常检索排除。"
+}

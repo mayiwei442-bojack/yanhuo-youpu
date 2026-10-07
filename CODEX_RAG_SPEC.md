@@ -492,8 +492,8 @@ Reviewer PASS 后：
 
 - 父 Agent 再执行最终 build/test。
 - 全部通过后，Reviewer 阶段负责确认可以发布。
-- 更新 `recipe-progress.json` 为 `done`。
 - 完成 Git commit/push。
+- 仅在上述提交与推送成功后，更新 `recipe-progress.json` 为 `done`，再提交并推送状态记录。
 
 ---
 
@@ -1092,6 +1092,13 @@ https://www.douguo.com/
 禁止绕过登录、验证码、访问控制或平台反自动化措施。
 
 ---
+
+### 2026-10-07 用户定点授权补充
+
+- cn-016 回锅肉可直接把用户已验收的项目版本回填 RAG；metadata 标记 projectAcceptedBackfill，保留 HowToCook 来源链接，不冒充网站原文重新抓取。
+- cn-011 固定采用豆果 2331633 的不完整版本。evidence 的 complete 保持 false，并记录 userAuthorizedIncomplete（authorization=user_explicit_2026-10-07_cn-011、recipeId、sourceUrl、omissions）。前端保留 sourceLimitations；不得补造卤料、腌料、时间、火候。该例外只对本次明确菜品与 URL 有效，不改变自动选源的完整性门槛。
+- 千层面采用 Serious Eats，可将其明确链接的博洛尼亚肉酱作为独立菜品/Document，菜谱通过结构化 recipeLinks 和 recipeDependencies 关联。不得混用 BBC 版本；千层面总时长不含另做肉酱。新增菜品只追加到数组末尾，不改变既有 ID。
+- 新增子菜品若只有成品图，须取得用户明确的仅成品图例外，不能借用另一菜谱步骤图。本次用户已同意 west-031（Serious Eats basic-ragu-bolognese-recipe）仅使用成品图，授权标记 user_explicit_2026-10-07_west-031；不得扩大到其他菜品。
 
 ## 20. Supabase 安全要求
 

@@ -1,0 +1,87 @@
+{
+  "sourceUrl": "https://www.douguo.com/cookbook/2331633.html",
+  "storedDocumentId": "1ba3785d-c85e-4baa-a741-dfce177aad15",
+  "originalSourceAuthor": "云私房",
+  "retrieval": "Existing kb_documents.raw_text original HTML; same page publicGET200 thisturn. This archive is a lossless extract of recipe stepcont blocks, not a complete websiteHTML archive.",
+  "extractedAt": "2026-10-07T11:49:04Z",
+  "originalIngredientRows": [
+    "猪骨",
+    "牛骨",
+    "肥五花肉",
+    "里脊",
+    "卤料包",
+    "酸豆角",
+    "花生",
+    "香葱"
+  ],
+  "originalStepsAndMedia": [
+    {
+      "sourceStepOrder": 1,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/d/8/b/800_d8765386261ec38ad699e3fe893ff1bb.jpg",
+      "adjacentText": "卤料包加骨头熬卤水，然后加调料调味，卤水得熬上8小时以上才能出味"
+    },
+    {
+      "sourceStepOrder": 2,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/1/f/9/800_1f016fe7b995d932b449e52dad043e49.jpg",
+      "adjacentText": "期间准备酸豆角"
+    },
+    {
+      "sourceStepOrder": 3,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/f/5/5/800_f5f0e8b7b969d2a22845998e4de6aa35.jpg",
+      "adjacentText": "切好锅里简单炒下加辣椒即可"
+    },
+    {
+      "sourceStepOrder": 4,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/8/d/4/800_8d4d640096f0b53eae29454d7ea8ea14.jpg",
+      "adjacentText": "腌里脊"
+    },
+    {
+      "sourceStepOrder": 5,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/c/c/a/800_cc745d49a0128ad590214ac97deea17a.jpg",
+      "adjacentText": "白水煮肉"
+    },
+    {
+      "sourceStepOrder": 6,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/f/e/9/800_fe0a3f1381c612fd30fede4d64a55759.jpg",
+      "adjacentText": "炸叉烧"
+    },
+    {
+      "sourceStepOrder": 7,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/d/5/b/800_d57c432bfdbdf9ab8aff22a77adcf12b.jpg",
+      "adjacentText": "炸锅烧，需要再重复炸一次，皮才能酥脆"
+    },
+    {
+      "sourceStepOrder": 8,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/3/a/6/800_3a0c95db3f7110b4781f930fae716bc6.jpg",
+      "adjacentText": "泡干粉"
+    },
+    {
+      "sourceStepOrder": 9,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/d/d/2/800_dd211d8d5aa7e6c0b7b0d74e783f6a42.jpg",
+      "adjacentText": "所有东西好了以后开水烫米粉，加锅烧，叉烧，酸豆角，香葱，炸好的花生，卤水拌均匀即可，还可以熬一锅骨头汤边吃粉边喝汤"
+    },
+    {
+      "sourceStepOrder": 10,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/2/1/6/800_21141302eafcea13d3681accf813c8a6.jpg",
+      "adjacentText": "细米粉"
+    },
+    {
+      "sourceStepOrder": 11,
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/a/0/1/800_a0995aacaccb2dafdbb6c6e3fd91c9e1.jpg",
+      "adjacentText": "锅烧切粉"
+    }
+  ],
+  "recipeStepHtml": [
+    "<div class=\"stepcont clearfix\">\r\n                <a class=\"cboxElement cboxElement2\" data-snum=\"2\" rel=\"recipe_img\" href=\"https://cp1.douguo.com/upload/caiku/d/8/b/800_d8765386261ec38ad699e3fe893ff1bb.jpg\" data-origin=\"https://cp1.douguo.com/upload/caiku/d/8/b/800_d8765386261ec38ad699e3fe893ff1bb.jpg\">\r\n                                                                    <!--不包含gif -->\r\n                            <img class=\"br8\" src=\"https://cp1.douguo.com/upload/caiku/d/8/b/200_d8765386261ec38ad699e3fe893ff1bb.jpg\" alt=\"正宗桂林米粉的做法图解1\" width=\"200\" height=\"200\" />\r\n                                                            </a>\r\n                <div class=\"stepinfo\">\r\n                    <p>步骤1</p>\r\n                    卤料包加骨头熬卤水，然后加调料调味，卤水得熬上8小时以上才能出味\r\n                </div>\r\n            </div>",
+    "<div class=\"stepcont clearfix\">\r\n                <a class=\"cboxElement cboxElement3\" data-snum=\"3\" rel=\"recipe_img\" href=\"https://cp1.douguo.com/upload/caiku/1/f/9/800_1f016fe7b995d932b449e52dad043e49.jpg\" data-origin=\"https://cp1.douguo.com/upload/caiku/1/f/9/800_1f016fe7b995d932b449e52dad043e49.jpg\">\r\n                                                                    <!--不包含gif -->\r\n                            <img class=\"br8\" src=\"https://cp1.douguo.com/upload/caiku/1/f/9/200_1f016fe7b995d932b449e52dad043e49.jpg\" alt=\"正宗桂林米粉的做法图解2\" width=\"200\" height=\"200\" />\r\n                                                            </a>\r\n                <div class=\"stepinfo\">\r\n                    <p>步骤2</p>\r\n                    期间准备酸豆角\r\n                </div>\r\n            </div>",
+    "<div class=\"stepcont clearfix\">\r\n                <a class=\"cboxElement cboxElement4\" data-snum=\"4\" rel=\"recipe_img\" href=\"https://cp1.douguo.com/upload/caiku/f/5/5/800_f5f0e8b7b969d2a22845998e4de6aa35.jpg\" data-origin=\"https://cp1.douguo.com/upload/caiku/f/5/5/800_f5f0e8b7b969d2a22845998e4de6aa35.jpg\">\r\n                                                                    <!--不包含gif -->\r\n                            <img class=\"br8\" src=\"https://cp1.douguo.com/upload/caiku/f/5/5/200_f5f0e8b7b969d2a22845998e4de6aa35.jpg\" alt=\"正宗桂林米粉的做法图解3\" width=\"200\" height=\"200\" />\r\n                                                            </a>\r\n                <div class=\"stepinfo\">\r\n                    <p>步骤3</p>\r\n                    切好锅里简单炒下加辣椒即可\r\n                </div>\r\n            </div>",
+    "<div class=\"stepcont clearfix\">\r\n                <a class=\"cboxElement cboxElement5\" data-snum=\"5\" rel=\"recipe_img\" href=\"https://cp1.douguo.com/upload/caiku/8/d/4/800_8d4d640096f0b53eae29454d7ea8ea14.jpg\" data-origin=\"https://cp1.douguo.com/upload/caiku/8/d/4/800_8d4d640096f0b53eae29454d7ea8ea14.jpg\">\r\n                                                                    <!--不包含gif -->\r\n                            <img class=\"br8\" src=\"https://cp1.douguo.com/upload/caiku/8/d/4/200_8d4d640096f0b53eae29454d7ea8ea14.jpg\" alt=\"正宗桂林米粉的做法图解4\" width=\"200\" height=\"200\" />\r\n                                                            </a>\r\n                <div class=\"stepinfo\">\r\n                    <p>步骤4</p>\r\n                    腌里脊\r\n                </div>\r\n            </div>",
+    "<div class=\"stepcont clearfix\">\r\n                <a class=\"cboxElement cboxElement6\" data-snum=\"6\" rel=\"recipe_img\" href=\"https://cp1.douguo.com/upload/caiku/c/c/a/800_cc745d49a0128ad590214ac97deea17a.jpg\" data-origin=\"https://cp1.douguo.com/upload/caiku/c/c/a/800_cc745d49a0128ad590214ac97deea17a.jpg\">\r\n                                                                    <!--不包含gif -->\r\n                            <img class=\"br8\" src=\"https://cp1.douguo.com/upload/caiku/c/c/a/200_cc745d49a0128ad590214ac97deea17a.jpg\" alt=\"正宗桂林米粉的做法图解5\" width=\"200\" height=\"200\" />\r\n                                                            </a>\r\n                <div class=\"stepinfo\">\r\n                    <p>步骤5</p>\r\n                    白水煮肉\r\n                </div>\r\n            </div>",
+    "<div class=\"stepcont clearfix\">\r\n                <a class=\"cboxElement cboxElement7\" data-snum=\"7\" rel=\"recipe_img\" href=\"https://cp1.douguo.com/upload/caiku/f/e/9/800_fe0a3f1381c612fd30fede4d64a55759.jpg\" data-origin=\"https://cp1.douguo.com/upload/caiku/f/e/9/800_fe0a3f1381c612fd30fede4d64a55759.jpg\">\r\n                                                                    <!--不包含gif -->\r\n                            <img class=\"br8\" src=\"https://cp1.douguo.com/upload/caiku/f/e/9/200_fe0a3f1381c612fd30fede4d64a55759.jpg\" alt=\"正宗桂林米粉的做法图解6\" width=\"200\" height=\"200\" />\r\n                                                            </a>\r\n                <div class=\"stepinfo\">\r\n                    <p>步骤6</p>\r\n                    炸叉烧\r\n                </div>\r\n            </div>",
+    "<div class=\"stepcont clearfix\">\r\n                <a class=\"cboxElement cboxElement8\" data-snum=\"8\" rel=\"recipe_img\" href=\"https://cp1.douguo.com/upload/caiku/d/5/b/800_d57c432bfdbdf9ab8aff22a77adcf12b.jpg\" data-origin=\"https://cp1.douguo.com/upload/caiku/d/5/b/800_d57c432bfdbdf9ab8aff22a77adcf12b.jpg\">\r\n                                                                    <!--不包含gif -->\r\n                            <img class=\"br8\" src=\"https://cp1.douguo.com/upload/caiku/d/5/b/200_d57c432bfdbdf9ab8aff22a77adcf12b.jpg\" alt=\"正宗桂林米粉的做法图解7\" width=\"200\" height=\"200\" />\r\n                                                            </a>\r\n                <div class=\"stepinfo\">\r\n                    <p>步骤7</p>\r\n                    炸锅烧，需要再重复炸一次，皮才能酥脆\r\n                </div>\r\n            </div>",
+    "<div class=\"stepcont clearfix\">\r\n                <a class=\"cboxElement cboxElement9\" data-snum=\"9\" rel=\"recipe_img\" href=\"https://cp1.douguo.com/upload/caiku/3/a/6/800_3a0c95db3f7110b4781f930fae716bc6.jpg\" data-origin=\"https://cp1.douguo.com/upload/caiku/3/a/6/800_3a0c95db3f7110b4781f930fae716bc6.jpg\">\r\n                                                                    <!--不包含gif -->\r\n                            <img class=\"br8\" src=\"https://cp1.douguo.com/upload/caiku/3/a/6/200_3a0c95db3f7110b4781f930fae716bc6.jpg\" alt=\"正宗桂林米粉的做法图解8\" width=\"200\" height=\"200\" />\r\n                                                            </a>\r\n                <div class=\"stepinfo\">\r\n                    <p>步骤8</p>\r\n                    泡干粉\r\n                </div>\r\n            </div>",
+    "<div class=\"stepcont clearfix\">\r\n                <a class=\"cboxElement cboxElement10\" data-snum=\"10\" rel=\"recipe_img\" href=\"https://cp1.douguo.com/upload/caiku/d/d/2/800_dd211d8d5aa7e6c0b7b0d74e783f6a42.jpg\" data-origin=\"https://cp1.douguo.com/upload/caiku/d/d/2/800_dd211d8d5aa7e6c0b7b0d74e783f6a42.jpg\">\r\n                                                                    <!--不包含gif -->\r\n                            <img class=\"br8\" src=\"https://cp1.douguo.com/upload/caiku/d/d/2/200_dd211d8d5aa7e6c0b7b0d74e783f6a42.jpg\" alt=\"正宗桂林米粉的做法图解9\" width=\"200\" height=\"200\" />\r\n                                                            </a>\r\n                <div class=\"stepinfo\">\r\n                    <p>步骤9</p>\r\n                    所有东西好了以后开水烫米粉，加锅烧，叉烧，酸豆角，香葱，炸好的花生，卤水拌均匀即可，还可以熬一锅骨头汤边吃粉边喝汤\r\n                </div>\r\n            </div>",
+    "<div class=\"stepcont clearfix\">\r\n                <a class=\"cboxElement cboxElement11\" data-snum=\"11\" rel=\"recipe_img\" href=\"https://cp1.douguo.com/upload/caiku/2/1/6/800_21141302eafcea13d3681accf813c8a6.jpg\" data-origin=\"https://cp1.douguo.com/upload/caiku/2/1/6/800_21141302eafcea13d3681accf813c8a6.jpg\">\r\n                                                                    <!--不包含gif -->\r\n                            <img class=\"br8\" src=\"https://cp1.douguo.com/upload/caiku/2/1/6/200_21141302eafcea13d3681accf813c8a6.jpg\" alt=\"正宗桂林米粉的做法图解10\" width=\"200\" height=\"200\" />\r\n                                                            </a>\r\n                <div class=\"stepinfo\">\r\n                    <p>步骤10</p>\r\n                    细米粉\r\n                </div>\r\n            </div>",
+    "<div class=\"stepcont clearfix\">\r\n                <a class=\"cboxElement cboxElement12\" data-snum=\"12\" rel=\"recipe_img\" href=\"https://cp1.douguo.com/upload/caiku/a/0/1/800_a0995aacaccb2dafdbb6c6e3fd91c9e1.jpg\" data-origin=\"https://cp1.douguo.com/upload/caiku/a/0/1/800_a0995aacaccb2dafdbb6c6e3fd91c9e1.jpg\">\r\n                                                                    <!--不包含gif -->\r\n                            <img class=\"br8\" src=\"https://cp1.douguo.com/upload/caiku/a/0/1/200_a0995aacaccb2dafdbb6c6e3fd91c9e1.jpg\" alt=\"正宗桂林米粉的做法图解11\" width=\"200\" height=\"200\" />\r\n                                                            </a>\r\n                <div class=\"stepinfo\">\r\n                    <p>步骤11</p>\r\n                    锅烧切粉\r\n                </div>\r\n            </div>"
+  ]
+}

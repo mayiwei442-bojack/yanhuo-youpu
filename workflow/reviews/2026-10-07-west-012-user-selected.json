@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "west-012 重审通过：包装时间减1分钟不作固定timer，组件鱼类过敏原与牛猪酒标签已合并，80分钟不累加肉酱225分钟。13食材10步骤、8份、面片路线互斥、同源4步骤图、本地链接、独立对抗审查通过。",
+  "evidencePackageHash": "cd084e57910994dc4e100678b6103fecbd0fd36e7894e9d3f83df77106b5537f",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

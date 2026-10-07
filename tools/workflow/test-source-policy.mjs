@@ -1,0 +1,11 @@
+import assert from "node:assert/strict";
+import { isAuthorizedHeroOnly, isAuthorizedIncomplete } from "./source-policy.mjs";
+const approval = { recipeId: "west-031", sourceUrl: "https://www.seriouseats.com/basic-ragu-bolognese-recipe", authorization: "user_explicit_2026-10-07_west-031" };
+assert.equal(isAuthorizedHeroOnly(approval), true);
+for (const patch of [{ recipeId: "west-012" }, { sourceUrl: "https://example.com/" }, { authorization: "guessed" }]) assert.equal(isAuthorizedHeroOnly({ ...approval, ...patch }), false);
+const source = { complete: false, url: "https://www.douguo.com/cookbook/2331633.html", userAuthorizedIncomplete: { authorization: "user_explicit_2026-10-07_cn-011", recipeId: "cn-011", sourceUrl: "https://www.douguo.com/cookbook/2331633.html", omissions: ["未列明腌料"] } };
+assert.equal(isAuthorizedIncomplete({ recipeId: "cn-011", source }), true);
+assert.equal(isAuthorizedIncomplete({ recipeId: "cn-010", source }), false);
+assert.equal(isAuthorizedIncomplete({ recipeId: "cn-011", source: { ...source, userAuthorizedIncomplete: undefined } }), false);
+assert.equal(isAuthorizedIncomplete({ recipeId: "cn-011", source: { ...source, userAuthorizedIncomplete: { ...source.userAuthorizedIncomplete, omissions: [] } } }), false);
+console.log(JSON.stringify({ ok: true, scopedExceptions: true }));

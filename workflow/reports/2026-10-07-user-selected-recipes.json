@@ -1,0 +1,73 @@
+{
+  "batchId": "2026-10-07-user-selected-recipes",
+  "startedAt": "2026-10-07T11:39:27Z",
+  "status": "review_tests_pass_awaiting_publication",
+  "branch": "codex/recipe-automation",
+  "requestedItems": [
+    {
+      "recipeId": "cn-016",
+      "operation": "user_accepted_project_rag_backfill",
+      "status": "ingested_verified",
+      "documentId": "8291b14c-022b-4706-b35c-4d6231b9284a"
+    },
+    {
+      "recipeId": "cn-011",
+      "operation": "explicit_incomplete_source_acceptance",
+      "status": "review_tests_pass_awaiting_publication"
+    },
+    {
+      "recipeId": "west-012",
+      "operation": "Serious Eats recipe replacement with linked component",
+      "status": "review_tests_pass_awaiting_publication"
+    },
+    {
+      "recipeId": "west-031",
+      "operation": "append Bolognese component",
+      "status": "review_tests_pass_awaiting_publication",
+      "heroOnlyAuthorization": "user_explicit_2026-10-07_west-031"
+    },
+    {
+      "recipeId": "cn-003",
+      "operation": "total_time_correction",
+      "status": "review_tests_pass_awaiting_publication"
+    },
+    {
+      "recipeId": "cn-004",
+      "operation": "total_time_correction",
+      "status": "review_tests_pass_awaiting_publication"
+    },
+    {
+      "recipeId": "cn-006",
+      "operation": "total_time_correction",
+      "status": "review_tests_pass_awaiting_publication"
+    },
+    {
+      "recipeId": "cn-005",
+      "operation": "verify source whole_recipe_time",
+      "status": "verified_unspecified",
+      "totalMinutes": null
+    }
+  ],
+  "notes": [
+    "原有图文完成状态不因单独时长补修重新计数。",
+    "新图文菜谱仅在review/tests/commit/push通过后登记done。",
+    "数据库写入已获本轮用户授权。"
+  ],
+  "validation": {
+    "deterministicWorkflowPassed": true,
+    "fullLasagnaValidatorPassed": true,
+    "canonicalScopeReport": "workflow/validation/2026-10-07-canonical-scope.json",
+    "ragReport": "workflow/reports/2026-10-07-user-selected-rag-verification.json"
+  },
+  "correctedIssues": [
+    "首次回锅肉请求中文编码错误已修正；旧文档/分块标invalid并从正常检索排除。",
+    "桂林米粉历史未支持的肉种用途推断已纠正；旧规范化文档/分块标superseded。",
+    "Reviewer发现并纠正未知份数默认两人、8小时以上固定timer、牛骨标签、肉豆蔻一撮身份、调低火力档位、相对煮制timer、关联肉酱饮食风险漏传。",
+    "鱼香肉丝分组食材明确拆为22个真实原料行，修正鱼香误作鱼过敏原及绍兴酒遗漏。"
+  ],
+  "currentLimitations": [
+    "桂林米粉保留6项来源缺失且总时长/份数未注明；PASS不认证来源完整性。",
+    "青椒肉丝选中信源未提供总时长，仍显示未注明，核对记录已结案。",
+    "数据库存图片引用/校验和/映射，图片二进制在仓库，未上传Storage。"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "recipeId": "west-031",
+  "authorization": "user_confirmed_2026-09-16",
+  "heroOnlyAuthorization": "user_explicit_2026-10-07_west-031",
+  "sourceName": "Serious Eats",
+  "sourceUrl": "https://www.seriouseats.com/basic-ragu-bolognese-recipe",
+  "author": "Daniel Gritzer; photograph Vicky Wasik",
+  "items": [
+    {"role":"hero","originalUrl":"https://www.seriouseats.com/thmb/gYEUSQ6BRH7u1huNwwjHRZtzHuQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2016__12__20161118-lasagne-bolognese-vicky-wasik-5-a9ff0574a41746ff92fde42483d40b02.jpg","repositoryPath":"assets/dishes/sources/west-031-serious-eats/hero.webp"}
+  ]
+}

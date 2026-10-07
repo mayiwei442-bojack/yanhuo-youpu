@@ -1,0 +1,33 @@
+{
+  "ok": true,
+  "checkedAt": "2026-10-07T12:17:08Z",
+  "command": "npm run test:workflow:deterministic",
+  "exitCode": 0,
+  "fullTargetValidator": {
+    "targetId": "west-012",
+    "command": "node tools/workflow/validate-recipe.mjs --target west-012 --before workflow/snapshots/2026-10-07-west-012-user-selected-reviewed-before.json --allow-source-change --full",
+    "ok": true,
+    "browserPassed": true,
+    "buildPassed": true
+  },
+  "recipes": 91,
+  "sourceImageRecipesVerified": 22,
+  "browserErrors": [],
+  "testAiRun": false,
+  "standaloneChatModelApiUsed": false,
+  "checks": [
+    "progress/canonical sync",
+    "RAG repository/ingestion/resource/EPUB regressions",
+    "role contracts",
+    "single-target diff and append-only ID validation",
+    "source image local files and SHA-256",
+    "source duration/heat boundary handling",
+    "component dietary metadata propagation/cycle rejection",
+    "adversarial recipe language",
+    "same evidence hash and scoped authorizations",
+    "UTF-8 local HTTP round trip and HTTP403 preserved",
+    "all source image recipes detail/cooking media decoded",
+    "lasagna internal component navigation and text escaping",
+    "Vercel static build"
+  ]
+}

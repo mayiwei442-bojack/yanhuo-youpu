@@ -73,9 +73,9 @@
     {
       "id": "cn-011",
       "name": "桂林米粉",
-      "status": "failed",
-      "lastRunId": "2026-10-06-cn-011-source-images",
-      "completedAt": "2026-10-05T16:18:11Z"
+      "status": "in_progress",
+      "lastRunId": "2026-10-07-cn-011-user-selected",
+      "completedAt": null
     },
     {
       "id": "cn-012",
@@ -108,9 +108,9 @@
     {
       "id": "cn-016",
       "name": "回锅肉",
-      "status": "pending",
+      "status": "done",
       "lastRunId": null,
-      "completedAt": null
+      "completedAt": "2026-10-07T06:05:04Z"
     },
     {
       "id": "cn-017",
@@ -502,8 +502,8 @@
     {
       "id": "west-012",
       "name": "千层面",
-      "status": "failed",
-      "lastRunId": "2026-10-06-west-012-source-images",
+      "status": "in_progress",
+      "lastRunId": "2026-10-07-west-012-user-selected",
       "completedAt": null
     },
     {
@@ -630,6 +630,13 @@
       "name": "酪乳煎饼",
       "status": "pending",
       "lastRunId": null,
+      "completedAt": null
+    },
+    {
+      "id": "west-031",
+      "name": "博洛尼亚肉酱",
+      "status": "in_progress",
+      "lastRunId": "2026-10-07-west-031-append",
       "completedAt": null
     }
   ]

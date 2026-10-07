@@ -16,12 +16,21 @@ if (!target || !priorPath || !output) {
 
 const prior = JSON.parse(await readFile(resolve(process.cwd(), priorPath), "utf8"));
 const priorTarget = prior.recipes?.find((recipe) => recipe.id === target);
-if (!priorTarget) throw new Error(`Target ${target} is absent from prior snapshot.`);
+const allowAddition = process.argv.includes("--allow-addition");
+if (!priorTarget && !allowAddition) throw new Error(`Target ${target} is absent from prior snapshot.`);
+if (priorTarget && allowAddition) throw new Error(`Target ${target} already exists in prior snapshot.`);
 
 const baseline = createRecipeSnapshot();
 const targetIndex = baseline.recipes.findIndex((recipe) => recipe.id === target);
 if (targetIndex < 0) throw new Error(`Target ${target} is absent from current snapshot.`);
-baseline.recipes[targetIndex] = priorTarget;
+if (allowAddition) {
+  baseline.recipes.splice(targetIndex, 1);
+  if (JSON.stringify(baseline.recipes.map((recipe) => recipe.id)) !== JSON.stringify(prior.recipes.map((recipe) => recipe.id))) {
+    throw new Error("Addition baseline must preserve the prior catalog IDs and order.");
+  }
+} else {
+  baseline.recipes[targetIndex] = priorTarget;
+}
 
 const absoluteOutput = resolve(process.cwd(), output);
 await mkdir(dirname(absoluteOutput), { recursive: true });

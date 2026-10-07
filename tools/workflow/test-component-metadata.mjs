@@ -1,0 +1,18 @@
+import assert from "node:assert/strict";
+import { applyComponentDietaryMetadata } from "../recipe-component-metadata.mjs";
+const item = (id, name, extra = {}) => ({ id, name, time: 80, allergens: [], flags: { containsPork: false, containsBeef: false, containsAlcohol: false, spicy: false, vegetarian: true }, ...extra });
+const sauce = item("west-031", "肉酱", { time: 225, allergens: ["fish", "dairy"], flags: { containsPork: true, containsBeef: true, containsAlcohol: true, spicy: false, vegetarian: false } });
+const lasagna = item("west-012", "千层面", { allergens: ["dairy", "wheat"], recipeLinks: [{ recipeId: sauce.id, name: sauce.name }] });
+const nested = item("cn-001", "组合菜", { recipeLinks: [{ recipeId: lasagna.id, name: lasagna.name }] });
+applyComponentDietaryMetadata([nested, lasagna, sauce]);
+assert.deepEqual(lasagna.allergens, ["dairy", "wheat", "fish"]);
+assert.equal(lasagna.flags.containsBeef, true);
+assert.equal(lasagna.flags.containsPork, true);
+assert.equal(lasagna.flags.containsAlcohol, true);
+assert.equal(lasagna.flags.vegetarian, false);
+assert.equal(nested.flags.containsBeef, true);
+assert.equal(lasagna.time, 80);
+assert.equal(sauce.time, 225);
+assert.throws(() => applyComponentDietaryMetadata([item("a", "A", { recipeLinks: [{ recipeId: "missing", name: "缺失" }] })]));
+assert.throws(() => applyComponentDietaryMetadata([item("a", "A", { recipeLinks: [{ recipeId: "b", name: "B" }] }), item("b", "B", { recipeLinks: [{ recipeId: "a", name: "A" }] })]));
+console.log(JSON.stringify({ ok: true, dietaryRisksInherited: true, nestedComponents: true, cookingTimesNotCombined: true, cyclesRejected: true }));

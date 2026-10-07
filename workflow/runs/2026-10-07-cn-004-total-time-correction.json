@@ -1,0 +1,70 @@
+{
+  "runId": "2026-10-07-cn-004-total-time-correction",
+  "recipeId": "cn-004",
+  "recipeName": "鱼香肉丝",
+  "category": "chinese",
+  "status": "in_progress",
+  "startedAt": "2026-10-07T11:39:27Z",
+  "completedAt": null,
+  "steps": {
+    "research": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "evidencePath": "workflow/evidence/cn-004-yuxiang-pork-source-images.json",
+        "selectedSourceUrl": "https://thewoksoflife.com/pork-garlic-sauce/"
+      }
+    },
+    "ingestion": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "selectedDocumentId": "e6c112e9-6d7d-4a60-961f-7057aafc2a6e",
+        "changedDocuments": 0,
+        "reused": true
+      }
+    },
+    "edit": {
+      "status": "done",
+      "attempts": 1
+    },
+    "validator": {
+      "status": "done",
+      "attempts": 2,
+      "details": {
+        "resultPath": "workflow/validation/2026-10-07-cn-004-total-time-retry.json"
+      }
+    },
+    "review": {
+      "status": "done",
+      "attempts": 2,
+      "details": {
+        "resultPath": "workflow/reviews/2026-10-07-cn-004-total-time.json",
+        "status": "PASS"
+      }
+    },
+    "build": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "command": "npm run test:workflow:deterministic",
+        "passed": true
+      }
+    },
+    "gitPush": {
+      "status": "pending",
+      "attempts": 0
+    }
+  },
+  "sources": [
+    {
+      "name": "The Woks of Life",
+      "url": "https://thewoksoflife.com/pork-garlic-sauce/",
+      "status": "success",
+      "failureReason": null
+    }
+  ],
+  "errors": [],
+  "branch": "codex/recipe-automation",
+  "commit": null
+}

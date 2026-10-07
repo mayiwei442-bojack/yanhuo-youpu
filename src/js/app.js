@@ -113,6 +113,23 @@
       .replace(/'/g, "&#039;");
   }
 
+  function renderRecipeText(recipe, value) {
+    let text = String(value ?? "");
+    const links = (recipe.recipeLinks || []).filter((link) =>
+      /^(cn|west)-\d{3}$/.test(link.recipeId) && link.name &&
+      recipes.some((target) => target.id === link.recipeId && target.name === link.name));
+    let html = "";
+    while (text) {
+      const matches = links.map((link) => ({ link, index: text.indexOf(link.name) }))
+        .filter((match) => match.index >= 0).sort((a, b) => a.index - b.index || b.link.name.length - a.link.name.length);
+      if (!matches.length) return html + esc(text);
+      const { link, index } = matches[0];
+      html += esc(text.slice(0, index)) + `<a class="recipe-component-link" href="#/recipe/${esc(link.recipeId)}">${esc(link.name)}</a>`;
+      text = text.slice(index + link.name.length);
+    }
+    return html;
+  }
+
   function normalize(value) {
     return String(value || "")
       .toLowerCase()
@@ -624,8 +641,9 @@
     rememberHistory(id);
     const match = matchRecipe(recipe);
     const availability = ingredientAvailability(recipe);
-    const servings = Number(state.servings[id] || recipe.defaultServings);
-    const factor = servings / recipe.defaultServings;
+    const hasServings = Number.isFinite(recipe.defaultServings) && recipe.defaultServings > 0;
+    const servings = hasServings ? Number(state.servings[id] || recipe.defaultServings) : null;
+    const factor = hasServings ? servings / recipe.defaultServings : 1;
     const safety = evaluateSafety(recipe);
     const inherentAllergens = recipe.allergens.map((allergen) => ALLERGENS.find((item) => item.id === allergen)?.label).filter(Boolean);
     const availableCount = availability.filter((item) => item.available).length;
@@ -660,21 +678,22 @@
             <span class="match-ring">${Math.round(match.coverage * 100)}%</span>
           </div>
 
+          ${recipe.sourceLimitations?.length ? `<section class="safety-card recipe-source-notes"><h3>菜谱说明</h3><ul>${recipe.sourceLimitations.map((note) => `<li>${esc(note)}</li>`).join("")}</ul></section>` : ""}
           <div class="section-head">
             <h2>准备食材</h2>
-            <div class="serving-control" aria-label="调整份数">
+            ${hasServings ? `<div class="serving-control" aria-label="调整份数">
               <button type="button" data-action="servings" data-id="${id}" data-delta="-1" aria-label="减少一份">−</button>
               <strong>${servings} 人</strong>
               <button type="button" data-action="servings" data-id="${id}" data-delta="1" aria-label="增加一份">+</button>
-            </div>
+            </div>` : `<span class="serving-unspecified">来源未注明份数 · 按原配方展示</span>`}
           </div>
           <div class="ingredient-list">
             ${availability.map(({ ingredient, available }) => `
               <div class="ingredient-row">
                 <span class="ingredient-state ${available ? "" : "missing"}">${available ? "✓" : "+"}</span>
                 <span class="ingredient-copy">
-                  <strong>${esc(ingredient.name)}</strong>
-                  <span>${esc(ingredient.label)}${factor !== 1 ? ` · 按 ${servings} 人约 ×${factor.toFixed(1)}` : ""}</span>
+                  <strong>${renderRecipeText(recipe, ingredient.name)}</strong>
+                  <span>${renderRecipeText(recipe, ingredient.label)}${factor !== 1 ? ` · 按 ${servings} 人约 ×${factor.toFixed(1)}` : ""}</span>
                 </span>
                 ${ingredient.isCore ? `<span class="core-label">核心食材</span>` : ""}
               </div>
@@ -706,7 +725,7 @@
                 <span class="step-number">${String(index + 1).padStart(2, "0")}</span>
                 <span>
                   ${step.image ? `<a class="step-image-link" href="${esc(step.imageSource)}" target="_blank" rel="noreferrer"><img class="step-preview-image" src="${esc(step.image)}" alt="${esc(recipe.name)}第 ${index + 1} 步：${esc(step.instruction)}" loading="lazy"></a>` : ""}
-                  <p>${esc(step.instruction)}</p>
+                  <p>${renderRecipeText(recipe, step.instruction)}</p>
                   ${(step.heat || step.duration > 0) ? `<span class="step-meta">${step.heat ? `<b>${heatLabel(step.heat)}火</b>` : ""}${step.duration > 0 ? `<b>${formatDuration(step.duration)}</b>` : ""}${step.timerRequired ? "<b>可计时</b>" : ""}</span>` : ""}
                 </span>
               </div>
@@ -803,7 +822,7 @@
         <div class="cook-card">
           <div class="step-big-number">${String(index + 1).padStart(2, "0")}</div>
           ${step.image ? `<a class="cook-step-image-link" href="${esc(step.imageSource)}" target="_blank" rel="noreferrer"><img class="cook-step-image" src="${esc(step.image)}" alt="${esc(recipe.name)}第 ${index + 1} 步：${esc(step.instruction)}"></a>` : ""}
-          <h1>${esc(step.instruction)}</h1>
+          <h1>${renderRecipeText(recipe, step.instruction)}</h1>
           ${step.safetyNote ? `<div class="cook-note">${esc(step.safetyNote)}</div>` : `<div class="cook-note">先确认上一步已经完成，再继续操作。做饭不用赶，节奏稳定更重要。</div>`}
           ${step.heat ? `<div class="heat-control" aria-label="当前建议火力">
             ${["low", "medium", "high"].map((heat) => `<div class="heat-level ${heat} ${step.heat === heat ? "active" : ""}">${heatLabel(heat)}火</div>`).join("")}
@@ -1802,8 +1821,9 @@
     }
     else if (action === "servings") {
       const recipe = recipeById(target.dataset.id);
+      if (!recipe || !Number.isFinite(recipe.defaultServings) || recipe.defaultServings <= 0) return;
       const current = Number(state.servings[target.dataset.id] || recipe.defaultServings);
-      state.servings[target.dataset.id] = Math.max(1, Math.min(12, current + Number(target.dataset.delta)));
+      state.servings[target.dataset.id] = Math.max(1, Math.min(Math.max(24, recipe.defaultServings), current + Number(target.dataset.delta)));
       saveState();
       renderApp(true);
     }

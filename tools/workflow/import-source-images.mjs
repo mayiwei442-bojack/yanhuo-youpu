@@ -1,8 +1,11 @@
 import { createHash } from "node:crypto";
 import { mkdir, rename, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { isAuthorizedHeroOnly } from "./source-policy.mjs";
+import { createWindowsHttpFetch } from "../../src/rag/windows-http.mjs";
 
 const args = process.argv.slice(2);
+const download = args.includes("--windows-http") ? createWindowsHttpFetch() : globalThis.fetch;
 const manifestIndex = args.indexOf("--manifest");
 const outputIndex = args.indexOf("--output");
 
@@ -23,13 +26,14 @@ if (manifest.authorization !== "user_confirmed_2026-09-16") {
   throw new Error("Manifest must record authorization=user_confirmed_2026-09-16.");
 }
 
-if (!Array.isArray(manifest.items) || manifest.items.length < 2) {
+const heroOnly = isAuthorizedHeroOnly({ recipeId: manifest.recipeId, sourceUrl: manifest.sourceUrl ?? manifest.recipePageUrl, authorization: manifest.heroOnlyAuthorization });
+if (!Array.isArray(manifest.items) || manifest.items.length < (heroOnly ? 1 : 2)) {
   throw new Error("Manifest must contain at least one hero and one step image.");
 }
 
 const heroes = manifest.items.filter((item) => item.role === "hero");
 const steps = manifest.items.filter((item) => item.role === "step");
-if (heroes.length !== 1 || steps.length < 1) {
+if (heroes.length !== 1 || (steps.length < 1 && !heroOnly)) {
   throw new Error("Manifest must contain exactly one hero and at least one step image.");
 }
 
@@ -68,7 +72,7 @@ for (const item of manifest.items) {
     throw new Error(`Target escapes assets/dishes/sources: ${item.repositoryPath}`);
   }
 
-  const response = await fetch(item.originalUrl, {
+  const response = await download(item.originalUrl, {
     redirect: "follow",
     headers: {
       "User-Agent": "YanhuoYoupuAuthorizedMediaImport/1.0",
