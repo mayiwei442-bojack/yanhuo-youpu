@@ -18,15 +18,15 @@
       "id": "cn-003",
       "name": "麻婆豆腐",
       "status": "done",
-      "lastRunId": "2026-09-19-cn-003-adversarial-review",
-      "completedAt": "2026-09-19T15:40:44.673+08:00"
+      "lastRunId": "2026-10-06-cn-003-total-time-correction",
+      "completedAt": "2026-10-07T12:18:56Z"
     },
     {
       "id": "cn-004",
       "name": "鱼香肉丝",
       "status": "done",
-      "lastRunId": "2026-09-19-cn-004-source-images",
-      "completedAt": "2026-09-19T16:45:00+08:00"
+      "lastRunId": "2026-10-07-cn-004-total-time-correction",
+      "completedAt": "2026-10-07T12:18:56Z"
     },
     {
       "id": "cn-005",
@@ -39,8 +39,8 @@
       "id": "cn-006",
       "name": "红烧肉",
       "status": "done",
-      "lastRunId": "2026-09-20-cn-006-source-images",
-      "completedAt": "2026-10-05T13:49:43+08:00"
+      "lastRunId": "2026-10-07-cn-006-total-time-correction",
+      "completedAt": "2026-10-07T12:18:56Z"
     },
     {
       "id": "cn-007",
@@ -73,9 +73,9 @@
     {
       "id": "cn-011",
       "name": "桂林米粉",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-07-cn-011-user-selected",
-      "completedAt": null
+      "completedAt": "2026-10-07T12:18:56Z"
     },
     {
       "id": "cn-012",
@@ -502,9 +502,9 @@
     {
       "id": "west-012",
       "name": "千层面",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-07-west-012-user-selected",
-      "completedAt": null
+      "completedAt": "2026-10-07T12:18:56Z"
     },
     {
       "id": "west-013",
@@ -635,9 +635,9 @@
     {
       "id": "west-031",
       "name": "博洛尼亚肉酱",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-07-west-031-append",
-      "completedAt": null
+      "completedAt": "2026-10-07T12:18:56Z"
     }
   ]
 }

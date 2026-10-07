@@ -1,6 +1,6 @@
 {
   "reason": "Nullable source-backed total-time enforcement revealed previously refreshed canonical calls with missing source-supported timing arguments. Restore their evidenced totals without redoing recipe prose/media or borrowing another source.",
-  "status": "in_progress",
+  "status": "done",
   "items": [
     {
       "recipeId": "cn-002",
@@ -24,8 +24,9 @@
         "cookMinutes": 25,
         "totalMinutes": 35
       },
-      "status": "review_pass_awaiting_publication",
-      "runId": "2026-10-06-cn-003-total-time-correction"
+      "status": "done",
+      "runId": "2026-10-06-cn-003-total-time-correction",
+      "commit": "85ccd764fa81ad5f5aae78c2b94023a017e5c78d"
     },
     {
       "recipeId": "cn-004",
@@ -36,8 +37,9 @@
         "cookMinutes": 10,
         "totalMinutes": 45
       },
-      "status": "review_pass_awaiting_publication",
-      "runId": "2026-10-07-cn-004-total-time-correction"
+      "status": "done",
+      "runId": "2026-10-07-cn-004-total-time-correction",
+      "commit": "85ccd764fa81ad5f5aae78c2b94023a017e5c78d"
     },
     {
       "recipeId": "cn-006",
@@ -48,8 +50,9 @@
         "cookMinutes": 60,
         "totalMinutes": 75
       },
-      "status": "review_pass_awaiting_publication",
-      "runId": "2026-10-07-cn-006-total-time-correction"
+      "status": "done",
+      "runId": "2026-10-07-cn-006-total-time-correction",
+      "commit": "85ccd764fa81ad5f5aae78c2b94023a017e5c78d"
     }
   ],
   "additionalEvidenceCheck": {
@@ -58,7 +61,10 @@
     "status": "verified_unspecified",
     "totalMinutes": null,
     "result": "豆果1633594仅注明腌制15分钟，无整道菜总时长；核对结案，不填其他信源时长。",
-    "reportPath": "workflow/reports/2026-10-07-source-total-time-research.json"
+    "reportPath": "workflow/reports/2026-10-07-source-total-time-research.json",
+    "completedAt": "2026-10-07T12:18:56Z",
+    "commit": "85ccd764fa81ad5f5aae78c2b94023a017e5c78d"
   },
-  "acceptance": "Each correction needs target-only Editor change, same evidence Reviewer PASS, deterministic tests, commit and push. Do not count these repairs as newly completed dishes in the remaining14 request. Final goal audit must include them."
+  "acceptance": "Each correction needs target-only Editor change, same evidence Reviewer PASS, deterministic tests, commit and push. Do not count these repairs as newly completed dishes in the remaining14 request. Final goal audit must include them.",
+  "completedAt": "2026-10-07T12:18:56Z"
 }
