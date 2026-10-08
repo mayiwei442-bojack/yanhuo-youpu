@@ -661,7 +661,6 @@
             <p>${esc(recipe.en)}</p>
           </div>
         </div>
-        ${recipe.media ? `<div class="image-attribution hero-attribution">图片来源：<a href="${esc(recipe.media.recipePageUrl)}" target="_blank" rel="noreferrer">${esc(recipe.media.sourceName)}${recipe.media.author ? ` · ${esc(recipe.media.author)}` : ""}</a></div>` : ""}
 
         <div class="detail-content">
           <div class="fact-row">
@@ -724,7 +723,7 @@
               <div class="step-preview">
                 <span class="step-number">${String(index + 1).padStart(2, "0")}</span>
                 <span>
-                  ${step.image ? `<a class="step-image-link" href="${esc(step.imageSource)}" target="_blank" rel="noreferrer"><img class="step-preview-image" src="${esc(step.image)}" alt="${esc(recipe.name)}第 ${index + 1} 步：${esc(step.instruction)}" loading="lazy"></a>` : ""}
+                  ${step.image ? `<div class="step-image-frame"><img class="step-preview-image" src="${esc(step.image)}" alt="${esc(recipe.name)}第 ${index + 1} 步：${esc(step.instruction)}" loading="lazy"></div>` : ""}
                   <p>${renderRecipeText(recipe, step.instruction)}</p>
                   ${(step.heat || step.duration > 0) ? `<span class="step-meta">${step.heat ? `<b>${heatLabel(step.heat)}火</b>` : ""}${step.duration > 0 ? `<b>${formatDuration(step.duration)}</b>` : ""}${step.timerRequired ? "<b>可计时</b>" : ""}</span>` : ""}
                 </span>
@@ -821,7 +820,7 @@
         </div>
         <div class="cook-card">
           <div class="step-big-number">${String(index + 1).padStart(2, "0")}</div>
-          ${step.image ? `<a class="cook-step-image-link" href="${esc(step.imageSource)}" target="_blank" rel="noreferrer"><img class="cook-step-image" src="${esc(step.image)}" alt="${esc(recipe.name)}第 ${index + 1} 步：${esc(step.instruction)}"></a>` : ""}
+          ${step.image ? `<div class="cook-step-image-frame"><img class="cook-step-image" src="${esc(step.image)}" alt="${esc(recipe.name)}第 ${index + 1} 步：${esc(step.instruction)}"></div>` : ""}
           <h1>${renderRecipeText(recipe, step.instruction)}</h1>
           ${step.safetyNote ? `<div class="cook-note">${esc(step.safetyNote)}</div>` : `<div class="cook-note">先确认上一步已经完成，再继续操作。做饭不用赶，节奏稳定更重要。</div>`}
           ${step.heat ? `<div class="heat-control" aria-label="当前建议火力">

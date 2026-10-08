@@ -389,7 +389,8 @@ try {
         assert(await picture.count() === (step.image ? 1 : 0), `${recipe.id} 第${index + 1}步图片缺失或误配`);
         if (step.image) {
           assert(await picture.getAttribute("src") === step.image, `${recipe.id} 第${index + 1}步图片路径不一致`);
-          assert(await row.locator(".step-image-link").getAttribute("href") === recipe.source, `${recipe.id} 第${index + 1}步图片来源不一致`);
+          assert(step.imageSource === recipe.source, `${recipe.id} 第${index + 1}步内部图片溯源不一致`);
+          assert(await picture.locator("xpath=ancestor::a").count() === 0, `${recipe.id} 第${index + 1}步仍可跳转外部信源`);
           await picture.scrollIntoViewIfNeeded();
           await picture.evaluate((element) => element.decode());
           assert(await picture.evaluate((element) => element.naturalWidth > 0), `${recipe.id} 第${index + 1}步图片没有真实加载`);
