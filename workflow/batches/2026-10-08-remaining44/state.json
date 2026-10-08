@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T17:36:00.554Z",
+  "updatedAt": "2026-10-08T17:38:46.061Z",
   "branch": "codex/recipe-automation",
   "recipes": [
     {
@@ -225,7 +225,7 @@
     {
       "recipeId": "cn-019",
       "name": "东坡肉",
-      "status": "in_progress",
+      "status": "done",
       "steps": {
         "research": {
           "status": "done",
@@ -364,8 +364,11 @@
           }
         },
         "gitPush": {
-          "status": "pending",
-          "attempts": 0
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "publishedCommit": "e4745812e9873225d4b9ef9a44f138db3f0a2d08"
+          }
         }
       },
       "errors": []
@@ -373,7 +376,7 @@
     {
       "recipeId": "cn-020",
       "name": "白切鸡",
-      "status": "in_progress",
+      "status": "done",
       "steps": {
         "research": {
           "status": "done",
@@ -512,8 +515,11 @@
           }
         },
         "gitPush": {
-          "status": "pending",
-          "attempts": 0
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "publishedCommit": "e4745812e9873225d4b9ef9a44f138db3f0a2d08"
+          }
         }
       },
       "errors": []
@@ -811,7 +817,7 @@
     {
       "recipeId": "cn-031",
       "name": "家常豆腐",
-      "status": "in_progress",
+      "status": "done",
       "steps": {
         "research": {
           "status": "done",
@@ -948,8 +954,11 @@
           }
         },
         "gitPush": {
-          "status": "pending",
-          "attempts": 0
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "publishedCommit": "e4745812e9873225d4b9ef9a44f138db3f0a2d08"
+          }
         }
       },
       "errors": []
@@ -957,7 +966,7 @@
     {
       "recipeId": "cn-035",
       "name": "冬瓜排骨汤",
-      "status": "in_progress",
+      "status": "done",
       "steps": {
         "research": {
           "status": "done",
@@ -1094,8 +1103,11 @@
           }
         },
         "gitPush": {
-          "status": "pending",
-          "attempts": 0
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "publishedCommit": "e4745812e9873225d4b9ef9a44f138db3f0a2d08"
+          }
         }
       },
       "errors": []
@@ -1161,7 +1173,7 @@
     {
       "recipeId": "cn-039",
       "name": "海南鸡饭",
-      "status": "in_progress",
+      "status": "done",
       "steps": {
         "research": {
           "status": "done",
@@ -1300,8 +1312,11 @@
           }
         },
         "gitPush": {
-          "status": "pending",
-          "attempts": 0
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "publishedCommit": "e4745812e9873225d4b9ef9a44f138db3f0a2d08"
+          }
         }
       },
       "errors": []
@@ -1309,7 +1324,7 @@
     {
       "recipeId": "cn-040",
       "name": "担担面",
-      "status": "in_progress",
+      "status": "done",
       "steps": {
         "research": {
           "status": "done",
@@ -1448,8 +1463,11 @@
           }
         },
         "gitPush": {
-          "status": "pending",
-          "attempts": 0
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "publishedCommit": "e4745812e9873225d4b9ef9a44f138db3f0a2d08"
+          }
         }
       },
       "errors": []
@@ -1515,7 +1533,7 @@
     {
       "recipeId": "cn-044",
       "name": "小笼包",
-      "status": "in_progress",
+      "status": "done",
       "steps": {
         "research": {
           "status": "done",
@@ -1654,8 +1672,11 @@
           }
         },
         "gitPush": {
-          "status": "pending",
-          "attempts": 0
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "publishedCommit": "e4745812e9873225d4b9ef9a44f138db3f0a2d08"
+          }
         }
       },
       "errors": []
@@ -1772,7 +1793,7 @@
     {
       "recipeId": "cn-051",
       "name": "叉烧",
-      "status": "in_progress",
+      "status": "done",
       "steps": {
         "research": {
           "status": "done",
@@ -1911,8 +1932,11 @@
           }
         },
         "gitPush": {
-          "status": "pending",
-          "attempts": 0
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "publishedCommit": "e4745812e9873225d4b9ef9a44f138db3f0a2d08"
+          }
         }
       },
       "errors": []
@@ -1920,7 +1944,7 @@
     {
       "recipeId": "cn-053",
       "name": "盐焗鸡",
-      "status": "in_progress",
+      "status": "done",
       "steps": {
         "research": {
           "status": "done",
@@ -2059,8 +2083,11 @@
           }
         },
         "gitPush": {
-          "status": "pending",
-          "attempts": 0
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "publishedCommit": "e4745812e9873225d4b9ef9a44f138db3f0a2d08"
+          }
         }
       },
       "errors": []
@@ -2836,7 +2863,7 @@
     {
       "recipeId": "west-024",
       "name": "香煎鸡肉炸排",
-      "status": "in_progress",
+      "status": "done",
       "steps": {
         "research": {
           "status": "done",
@@ -2975,8 +3002,11 @@
           }
         },
         "gitPush": {
-          "status": "pending",
-          "attempts": 0
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "publishedCommit": "e4745812e9873225d4b9ef9a44f138db3f0a2d08"
+          }
         }
       },
       "errors": []

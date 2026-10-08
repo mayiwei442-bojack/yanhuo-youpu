@@ -3,9 +3,9 @@
   "recipeId": "cn-044",
   "recipeName": "小笼包",
   "category": "chinese",
-  "status": "in_progress",
+  "status": "done",
   "startedAt": "2026-10-08T11:56:52.318Z",
-  "completedAt": null,
+  "completedAt": "2026-10-08T17:38:45.794Z",
   "steps": {
     "research": {
       "status": "done",
@@ -144,8 +144,11 @@
       }
     },
     "gitPush": {
-      "status": "pending",
-      "attempts": 0
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "publishedCommit": "e4745812e9873225d4b9ef9a44f138db3f0a2d08"
+      }
     }
   },
   "sources": [
@@ -158,5 +161,5 @@
   ],
   "errors": [],
   "branch": "codex/recipe-automation",
-  "commit": null
+  "commit": "e4745812e9873225d4b9ef9a44f138db3f0a2d08"
 }
