@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-08",
+  "timezone": "Asia/Shanghai",
+  "branch": "codex/recipe-automation",
+  "status": "validated_for_publication",
+  "scope": "Front-end presentation only; no recipe prose, recipe progress or database writes",
+  "changes": [
+    "Remove finished-dish image credits and external source hyperlinks from all recipe detail pages.",
+    "Render detail and cooking step images as non-link containers; retain provenance metadata and internal component-recipe links.",
+    "Keep detail action buttons in normal flow after recipe content rather than allowing the sticky bottom offset to overlay the final step. Other pages' sticky controls remain unchanged."
+  ],
+  "reproductionBeforeFix": {
+    "recipeId": "cn-001",
+    "viewport": {
+      "width": 875,
+      "height": 811
+    },
+    "actionOverlappedLastLine": true,
+    "lastLineReceivedHitTest": false
+  },
+  "validation": {
+    "deterministicWorkflow": "PASS",
+    "command": "npm run test:workflow:deterministic",
+    "presentationTest": "tools/test_recipe_presentation.mjs",
+    "recipeCount": 91,
+    "viewportCount": 4,
+    "recipeViewportChecks": 364,
+    "viewports": [
+      "875x811",
+      "390x844",
+      "320x640",
+      "1200x900"
+    ],
+    "checks": [
+      "Exact last-step text",
+      "Last line in viewport",
+      "No action/navigation overlap",
+      "Last-line hit testing",
+      "No horizontal overflow",
+      "No image source attribution or external links in detail/cooking pages"
+    ],
+    "existingSourceImageRecipesDecoded": 22,
+    "internalLasagnaToSauceLink": "PASS",
+    "build": "PASS",
+    "browserErrors": []
+  },
+  "visualReview": {
+    "screenshot": "outputs/qa-recipe-last-step-875.png",
+    "inspected": true,
+    "result": "Lasagna step 10 text is fully visible above the action buttons and bottom navigation."
+  },
+  "localService": {
+    "url": "http://127.0.0.1:8787/",
+    "httpStatus": 200,
+    "servesUpdatedAppAndStyles": true
+  },
+  "publicationMethod": "Isolated temporary worktree; exclude concurrent howtocook changes"
+}
