@@ -1,12 +1,13 @@
 import assert from "node:assert/strict";
 import { createRecipeCatalog, createRecipeSnapshot, splitRecipeSteps } from "./recipe-state.mjs";
-import { validateRecipeChange } from "./validate-recipe.mjs";
+import { validateRecipeChange, validateRecipeAddition } from "./validate-recipe.mjs";
 
 const original = createRecipeCatalog();
 const elevenSteps = Array.from({ length: 11 }, (_, index) => `${index + 1}）操作${index + 1}。`).join("");
 assert.equal(splitRecipeSteps(elevenSteps).length, 11);
 assert.equal(splitRecipeSteps(elevenSteps)[9], "10）操作10。");
 assert.equal(splitRecipeSteps(elevenSteps)[10], "11）操作11。");
+assert.deepEqual(splitRecipeSteps("1）加入（面粉 / 20）克盐。2）加入（份数 * 5）g油。"), ["1）加入（面粉 / 20）克盐。", "2）加入（份数 * 5）g油。"]);
 const beforeSnapshot = createRecipeSnapshot(original);
 const validEdit = structuredClone(original);
 validEdit.find((item) => item.id === "cn-001").record.ingredients += "；白胡椒少许";
@@ -53,6 +54,15 @@ const sourceOnlyMeansSourceOnly = validateRecipeChange({
 });
 assert.equal(sourceOnlyMeansSourceOnly.ok, false);
 assert(sourceOnlyMeansSourceOnly.errors.some((error) => error.includes("img")));
+
+const appendTarget = { id: "west-999", category: "western", index: original.filter((item) => item.category === "western").length, record: { ...original.find((item) => item.id === "west-001").record, name: "测试肉酱" } };
+appendTarget.id = `west-${String(appendTarget.index + 1).padStart(3, "0")}`;
+const appended = [...structuredClone(original), appendTarget];
+assert.equal(validateRecipeAddition({ beforeSnapshot, currentCatalog: appended, targetId: appendTarget.id }).ok, true);
+const shifted = structuredClone(appended);
+shifted[0].record.name = "误改旧菜谱";
+assert.equal(validateRecipeAddition({ beforeSnapshot, currentCatalog: shifted, targetId: appendTarget.id }).ok, false);
+assert.equal(validateRecipeAddition({ beforeSnapshot, currentCatalog: appended, targetId: "west-999" }).ok, false);
 
 console.log(JSON.stringify({
   ok: true,

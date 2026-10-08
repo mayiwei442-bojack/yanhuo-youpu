@@ -1,0 +1,189 @@
+{
+  "recipeId": "cn-033",
+  "recipeName": "酸辣土豆丝",
+  "category": "chinese",
+  "createdAt": "2026-10-08T07:14:35.262630+00:00",
+  "sources": [
+    {
+      "sourceName": "HowToCook",
+      "sourceType": "website",
+      "url": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/vegetable_dish/%E9%85%B8%E8%BE%A3%E5%9C%9F%E8%B1%86%E4%B8%9D.md",
+      "documentId": "13a4b348-354c-445e-ab7a-fe15ef3b4759",
+      "retrievalMethod": "GitHub immutable raw Markdown via configured local HTTP proxy; no access-control bypass",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "土豆",
+          "raw": "土豆 240g（越细越长更好）",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "大蒜",
+          "raw": "大蒜 4 瓣",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "青椒",
+          "raw": "青椒 0.5 个",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "红椒",
+          "raw": "红椒 0.5 个",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "干辣椒",
+          "raw": "干辣椒 3 个",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "葱",
+          "raw": "葱 1 根",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "生抽",
+          "raw": "生抽 5ml",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "陈醋",
+          "raw": "陈醋 10ml",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "盐",
+          "raw": "盐 2g",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "食用油",
+          "raw": "食用油 10-15ml",
+          "amount": null,
+          "sourceSection": "计算"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "土豆去皮、切丝（或用刨丝器）。",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 1
+        },
+        {
+          "order": 2,
+          "instruction": "切好的土豆丝用清水清洗，去除多余的淀粉，然后对土豆丝焯水 10 秒。沥干，备用。",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 2
+        },
+        {
+          "order": 3,
+          "instruction": "葱切成葱花；大蒜拍碎切成蒜末（分为两等份备用）；干辣椒切小段；青红椒切丝。",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 3
+        },
+        {
+          "order": 4,
+          "instruction": "热锅，小火热油，下入一半的葱花（葱白部分）、一半的蒜末和干辣椒爆香。",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 4
+        },
+        {
+          "order": 5,
+          "instruction": "加入青红椒翻炒几下，加入土豆丝翻炒至变色。",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 5
+        },
+        {
+          "order": 6,
+          "instruction": "加 5ml 生抽，10ml 陈醋，倒入剩下的一半蒜末和 2g 盐快速翻炒均匀。",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 6
+        },
+        {
+          "order": 7,
+          "instruction": "出锅前撒上剩余的葱花，翻匀即可装盘。",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 7
+        }
+      ],
+      "technique": [
+        "每份：\n\n- 土豆 240g（越细越长更好）\n- 大蒜 4 瓣\n- 青椒 0.5 个\n- 红椒 0.5 个\n- 干辣椒 3 个\n- 葱 1 根\n- 生抽 5ml\n- 陈醋 10ml\n- 盐 2g\n- 食用油 10-15ml"
+      ],
+      "tips": [
+        "- 清洗土豆丝淀粉一定要去干净，不然会全黏在一起\n- 加入蒜末、盐后应尽快出锅，保留蒜香以及避免破坏口感。\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+      ],
+      "rawExcerpt": "# 酸辣土豆丝的做法\n\n酸辣开胃的经典家常菜，口感脆爽，色泽鲜亮，属于大众喜爱的快手小炒。土豆提供碳水化合物和钾元素，辣椒富含维生素 C，有助于增进食欲。操作步骤简单明了，对新手十分友好，从备料到出锅大约只需 20 分钟。\n\n预估烹饪难度：★★\n\n预估卡路里：374 大卡\n\n## 必备原料和工具\n\n- 土豆\n- 大蒜\n- 青椒\n- 红椒\n- 干辣椒\n- 葱\n- 生抽\n- 陈醋\n- 盐\n\n## 计算\n\n每份：\n\n- 土豆 240g（越细越长更好）\n- 大蒜 4 瓣\n- 青椒 0.5 个\n- 红椒 0.5 个\n- 干辣椒 3 个\n- 葱 1 根\n- 生抽 5ml\n- 陈醋 10ml\n- 盐 2g\n- 食用油 10-15ml\n\n## 操作\n\n1. 土豆去皮、切丝（或用刨丝器）。\n2. 切好的土豆丝用清水清洗，去除多余的淀粉，然后对土豆丝焯水 10 秒。沥干，备用。\n3. 葱切成葱花；大蒜拍碎切成蒜末（分为两等份备用）；干辣椒切小段；青红椒切丝。\n4. 热锅，小火热油，下入一半的葱花（葱白部分）、一半的蒜末和干辣椒爆香。\n5. 加入青红椒翻炒几下，加入土豆丝翻炒至变色。\n6. 加 5ml 生抽，10ml 陈醋，倒入剩下的一半蒜末和 2g 盐快速翻炒均匀。\n7. 出锅前撒上剩余的葱花，翻匀即可装盘。\n\n## 附加内容\n\n- 清洗土豆丝淀粉一定要去干净，不然会全黏在一起\n- 加入蒜末、盐后应尽快出锅，保留蒜香以及避免破坏口感。\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n"
+    }
+  ],
+  "sourceMode": "single_source",
+  "singleSourceReason": "User explicitly directed exclusive HowToCook source and exact upstream transcription.",
+  "selectedSourceUrl": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/vegetable_dish/%E9%85%B8%E8%BE%A3%E5%9C%9F%E8%B1%86%E4%B8%9D.md",
+  "selectionReason": "上游菜谱文件名与指定菜名完全一致。",
+  "ragEvidence": [
+    {
+      "chunkId": "e0ec73f4-9c17-4bda-b9ef-bf84de42db4f",
+      "documentId": "13a4b348-354c-445e-ab7a-fe15ef3b4759",
+      "sourceName": "HowToCook",
+      "chunkType": "tips",
+      "content": "菜名：酸辣土豆丝\n- - 清洗土豆丝淀粉一定要去干净，不然会全黏在一起 - 加入蒜末、盐后应尽快出锅，保留蒜香以及避免破坏口感。 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。",
+      "similarity": 0.710879347052563
+    },
+    {
+      "chunkId": "331aa791-2d1a-40e1-95b5-37289a390bcd",
+      "documentId": "13a4b348-354c-445e-ab7a-fe15ef3b4759",
+      "sourceName": "HowToCook",
+      "chunkType": "steps",
+      "content": "菜名：酸辣土豆丝\n1. 土豆去皮、切丝（或用刨丝器）。\n2. 切好的土豆丝用清水清洗，去除多余的淀粉，然后对土豆丝焯水 10 秒。沥干，备用。\n3. 葱切成葱花；大蒜拍碎切成蒜末（分为两等份备用）；干辣椒切小段；青红椒切丝。\n4. 热锅，小火热油，下入一半的葱花（葱白部分）、一半的蒜末和干辣椒爆香。\n5. 加入青红椒翻炒几下，加入土豆丝翻炒至变色。\n6. 加 5ml 生抽，10ml 陈醋，倒入剩下的一半蒜末和 2g 盐快速翻炒均匀。\n7. 出锅前撒上剩余的葱花，翻匀即可装盘。",
+      "similarity": 0.71003383785789
+    },
+    {
+      "chunkId": "7a68fcc8-e0d8-45cc-84f4-5825821a7dbf",
+      "documentId": "13a4b348-354c-445e-ab7a-fe15ef3b4759",
+      "sourceName": "HowToCook",
+      "chunkType": "technique",
+      "content": "菜名：酸辣土豆丝\n- 每份： - 土豆 240g（越细越长更好） - 大蒜 4 瓣 - 青椒 0.5 个 - 红椒 0.5 个 - 干辣椒 3 个 - 葱 1 根 - 生抽 5ml - 陈醋 10ml - 盐 2g - 食用油 10-15ml",
+      "similarity": 0.706202969879355
+    },
+    {
+      "chunkId": "1747a4d4-f818-479d-9db2-4e0b991f4205",
+      "documentId": "13a4b348-354c-445e-ab7a-fe15ef3b4759",
+      "sourceName": "HowToCook",
+      "chunkType": "ingredients",
+      "content": "菜名：酸辣土豆丝\n- 土豆 240g（越细越长更好）\n- 大蒜 4 瓣\n- 青椒 0.5 个\n- 红椒 0.5 个\n- 干辣椒 3 个\n- 葱 1 根\n- 生抽 5ml\n- 陈醋 10ml\n- 盐 2g\n- 食用油 10-15ml",
+      "similarity": 0.699424090929996
+    },
+    {
+      "chunkId": "23003ba9-91aa-437a-8ec1-1f456f91b890",
+      "documentId": "13a4b348-354c-445e-ab7a-fe15ef3b4759",
+      "sourceName": "HowToCook",
+      "chunkType": "summary",
+      "content": "菜名：酸辣土豆丝\n简介：# 酸辣土豆丝的做法 酸辣开胃的经典家常菜，口感脆爽，色泽鲜亮，属于大众喜爱的快手小炒。土豆提供碳水化合物和钾元素，辣椒富含维生素 C，有助于增进食欲。操作步骤简单明了，对新手十分友好，从备料到出锅大约只需 20 分钟。 预估烹饪难度：★★ 预估卡路里：374 大卡",
+      "similarity": 0.665207624304979
+    }
+  ],
+  "notes": [
+    "用户明确要求仅用 HowToCook，原文完整转录；complete=true 表示上游文档完整抓取，不表示烹饪参数无遗漏。",
+    "Source limitations: 本上游菜谱无图片，按用户要求不补造图片。 原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。",
+    "GitHub commit a2d45c6984dff9ee941da0e7c452f7965965d962; path dishes/vegetable_dish/酸辣土豆丝.md",
+    "媒体按原文位置保留；未要求映射的照片不伪称步骤图。",
+    "Existing exact-name knowledge-base documents checked before source fetching: 0"
+  ]
+}

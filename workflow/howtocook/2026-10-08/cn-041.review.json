@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "菜码食材身份已规范，标签保留总量35克与择选说明。1人份、约30分钟和7步保持；10食材行及7步独立四项审查通过。",
+  "evidencePackageHash": "6d038caf9a2bcf76e294f4ba96315e3b03bc50fe6a414b3f01abfc20ff79979c",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

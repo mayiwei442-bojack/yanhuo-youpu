@@ -1,0 +1,58 @@
+{
+  "runId": "2026-10-08-howtocook-cn-052",
+  "recipeId": "cn-052",
+  "recipeName": "梅菜扣肉",
+  "category": "chinese",
+  "status": "done",
+  "startedAt": "2026-10-08T07:12:46.996Z",
+  "completedAt": "2026-10-08T07:51:09.246Z",
+  "branch": "howtocook",
+  "branchAuthorization": "user_explicit_2026-10-08",
+  "commit": "1f8675fc207bfce0c467a38e42c63be99dd93c38",
+  "steps": {
+    "research": {
+      "status": "done",
+      "attempts": 1
+    },
+    "ingestion": {
+      "status": "done",
+      "attempts": 1
+    },
+    "edit": {
+      "status": "done",
+      "attempts": 1
+    },
+    "validator": {
+      "status": "done",
+      "attempts": 1
+    },
+    "review": {
+      "status": "done",
+      "attempts": 1
+    },
+    "build": {
+      "status": "done",
+      "attempts": 1
+    },
+    "gitPush": {
+      "status": "done",
+      "attempts": 1
+    }
+  },
+  "sources": [
+    {
+      "name": "HowToCook",
+      "url": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/meat_dish/%E6%A2%85%E8%8F%9C%E6%89%A3%E8%82%89/%E6%A2%85%E8%8F%9C%E6%89%A3%E8%82%89.md",
+      "status": "success",
+      "documentId": "231fe5d0-427d-4d09-bc7b-d80b10b92c7f"
+    }
+  ],
+  "errors": [],
+  "evidencePackageHash": "7c22b83d7abda27ada2cd612068e413648ab190721ade4cb923bc38d2d90af99",
+  "reviewPath": "workflow/howtocook/2026-10-08/cn-052.review.json",
+  "validationPath": "workflow/howtocook/2026-10-08/cn-052.validation.json",
+  "sourceLimitations": [
+    "原文包含挂掉猪皮、后端、散上等用字；保留未经纠错的原文。",
+    "原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。"
+  ]
+}

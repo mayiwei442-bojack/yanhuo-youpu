@@ -1,0 +1,60 @@
+{
+  "recipeId": "cn-016",
+  "recipeName": "回锅肉",
+  "startedAt": "2026-10-07T11:37:48.039Z",
+  "documents": [
+    {
+      "documentId": "116d3e27-9d09-481f-9b79-aa8df9a14aaf",
+      "url": "https://github.com/Anduin2017/HowToCook/blob/2b19c9e9ee926fd925a68207a57582a338813f9c/dishes/meat_dish/%E5%9B%9E%E9%94%85%E8%82%89/%E5%9B%9E%E9%94%85%E8%82%89.md",
+      "sourceName": "HowToCook",
+      "deduplicated": false,
+      "embedded": true,
+      "chunkCount": 5,
+      "embeddingModel": "voyage-4",
+      "dimension": 1024,
+      "metadata": {
+        "projectRecipeId": "cn-016",
+        "sourceComplete": true,
+        "projectAcceptedBackfill": true,
+        "acceptedProjectRecord": {
+          "name": "回锅肉",
+          "en": "Twice-cooked Pork",
+          "region": "川菜",
+          "ingredients": "二刀肉（臀尖）或带皮五花肉按人数准备：男性每人0.5斤、女性每人0.3斤；小葱2棵；生姜10—40克；青红椒0—30克（按受辣程度选择，不建议用肉厚的菜椒）；蒜苗1把；料酒5毫升；豆瓣酱10毫升（分两次各5毫升）；味精5克；生抽5毫升；食用油适量（滑锅）；冷水适量（煮肉及冷却）",
+          "steps": "1）炒锅烧热，将猪肉皮面紧贴锅面炙皮，至猪皮黑色部分炭化；用钢丝球把猪皮彻底刷净，黑色炭化层未刷净会有苦味。2）将2棵小葱打结，取部分生姜切片；猪肉放入锅中，加入足量冷水没过猪肉，再放入姜片、葱结和5毫升料酒。开大火煮，水开后撇去浮沫，继续煮15分钟，至筷子能轻松刺穿瘦肉部分。3）青红椒切圈，蒜苗切段，剩余生姜切小薄片；将5毫升豆瓣酱与5毫升生抽提前混合，另留5毫升豆瓣酱备用。4）捞出煮熟的猪肉，放入冷水中晾凉；擦干表面水分以免炒制时爆油，再切成上肥下瘦、约2毫米厚的薄片，切得过厚会口感油腻。5）后续操作要迅速以免糊锅。锅烧热，加入适量食用油铺成一层底油滑锅；放入肉片煸炒，至肥肉透明、肉片微卷。6）倒入豆瓣酱生抽混合物，加入5克味精，翻炒15秒。7）加入青红椒圈、姜片和剩余5毫升豆瓣酱，翻炒30秒。8）加入蒜苗段翻炒60秒，立即出锅。",
+          "img": "26-huiguo-rou.jpeg",
+          "source": "https://github.com/Anduin2017/HowToCook/blob/2b19c9e9ee926fd925a68207a57582a338813f9c/dishes/meat_dish/%E5%9B%9E%E9%94%85%E8%82%89/%E5%9B%9E%E9%94%85%E8%82%89.md",
+          "timing": {
+            "totalMinutes": 40
+          },
+          "servings": 2,
+          "difficulty": "进阶",
+          "relatedImages": [
+            {
+              "src": "assets/dishes/howtocook/huiguo-rou/1.jpeg",
+              "alt": "回锅肉备料图"
+            }
+          ]
+        },
+        "acceptedAt": "2026-10-07",
+        "mediaReferences": {
+          "hero": "assets/dishes/ai/26-huiguo-rou.jpeg",
+          "relatedImages": [
+            {
+              "src": "assets/dishes/howtocook/huiguo-rou/1.jpeg",
+              "alt": "回锅肉备料图"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "retrieval": {
+    "semanticCount": 5,
+    "hybridCount": 5
+  },
+  "completedAt": "2026-10-07T11:38:16.100Z",
+  "status": "invalid_encoding_superseded",
+  "supersededBy": "workflow/reports/2026-10-07-cn-016-rag-backfill-verified.json",
+  "auditNote": "首次 Windows HTTP 传输未指定 UTF-8 请求字节，中文记录损坏。已纠正传输并重新入库；旧文档及全部5个分块标invalid，实体改为编码错误审计。旧检索计数不能证明其内容正确。"
+}

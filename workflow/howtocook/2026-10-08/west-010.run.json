@@ -1,0 +1,58 @@
+{
+  "runId": "2026-10-08-howtocook-west-010",
+  "recipeId": "west-010",
+  "recipeName": "香草烤鸡",
+  "category": "western",
+  "status": "done",
+  "startedAt": "2026-10-08T07:12:46.996Z",
+  "completedAt": "2026-10-08T07:51:09.246Z",
+  "branch": "howtocook",
+  "branchAuthorization": "user_explicit_2026-10-08",
+  "commit": "1f8675fc207bfce0c467a38e42c63be99dd93c38",
+  "steps": {
+    "research": {
+      "status": "done",
+      "attempts": 1
+    },
+    "ingestion": {
+      "status": "done",
+      "attempts": 1
+    },
+    "edit": {
+      "status": "done",
+      "attempts": 1
+    },
+    "validator": {
+      "status": "done",
+      "attempts": 1
+    },
+    "review": {
+      "status": "done",
+      "attempts": 1
+    },
+    "build": {
+      "status": "done",
+      "attempts": 1
+    },
+    "gitPush": {
+      "status": "done",
+      "attempts": 1
+    }
+  },
+  "sources": [
+    {
+      "name": "HowToCook",
+      "url": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/meat_dish/%E6%84%8F%E5%BC%8F%E7%83%A4%E9%B8%A1.md",
+      "status": "success",
+      "documentId": "d911693b-0400-4b60-a49d-1053077523b9"
+    }
+  ],
+  "errors": [],
+  "evidencePackageHash": "aa939650e457e5eff789cd58bb676bdf6354594ca84869ba58c242359736b0b5",
+  "reviewPath": "workflow/howtocook/2026-10-08/west-010.review.json",
+  "validationPath": "workflow/howtocook/2026-10-08/west-010.validation.json",
+  "sourceLimitations": [
+    "本上游菜谱无图片，按用户要求不补造图片。",
+    "原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。"
+  ]
+}

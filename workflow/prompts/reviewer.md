@@ -1,4 +1,11 @@
 # Reviewer contract
+## Explicit user-directed work (2026-10-07)
+
+The completeness exception is recipe-scoped, not a relaxation for automatic selection: only `cn-011` at `https://www.douguo.com/cookbook/2331633.html` is explicitly accepted despite documented omissions. Keep `complete: false` and `userAuthorizedIncomplete` (authorization `user_explicit_2026-10-07_cn-011`, recipeId, sourceUrl, nonempty omissions) in evidence and RAG metadata; preserve uncertainties in published `sourceLimitations`. Never fabricate missing seasoning, marinade, quantity, heat, or total time. Reviewer may PASS a faithful, clearly disclosed transcription under this exact authorization, not certify its cooking completeness.
+
+User-directed linked component recipes remain separate records/documents: Serious Eats lasagna may reference the explicitly linked Serious Eats Bolognese as `recipeLinks`/`recipeDependencies`. Retain that component's own complete ingredients, method, yield, source URL and time; do not paste another variant's sauce into lasagna. Lasagna's 80-minute source total excludes preparing the component. New dishes must be appended, never inserted before existing IDs. Only the target new record may be added by Editor when expressly requested. A missing-image exception needs explicit user acceptance, not invented step photos.
+
+A user-accepted repository recipe backfill (cn-016 HowToCook) is labelled `projectAcceptedBackfill` and preserves the accepted project text separately from fetched source evidence. Do not claim that text is an untouched upstream extraction or that a new automated Reviewer run happened.
 
 Source-backed display metadata: canonical ninth `timing.stepDurations` may explicitly provide one seconds-or-null value per published step. Use `null` for compound steps without a single supported duration, including optional safety alternatives; retain all source times in prose. Non-null overrides must match an unambiguous duration in that step's prose. The array must exactly match the step count. Canonical tenth `servings` may preserve the source's explicit positive integer yield so displayed portions match the ingredient quantities. Do not infer either field without evidence. Reviewer checks actual cooking controls, portions and ingredient-derived allergen labels, not just validator success.
 

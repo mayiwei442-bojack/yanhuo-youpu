@@ -1,0 +1,168 @@
+{
+  "scope": "Independent reviewer feedback; all recovered within one redo",
+  "results": [
+    {
+      "recipeId": "cn-014",
+      "initialStatus": "FAIL",
+      "issues": [
+        "Source star difficulty mapping",
+        "Range time incorrectly fixed to upper endpoint"
+      ],
+      "corrected": true,
+      "finalStatus": "PASS",
+      "evidencePackageHash": "dc141b72b2c2f08c8a04f593ab72428c8daf5a1493302b70f612c65838630d3d"
+    },
+    {
+      "recipeId": "cn-017",
+      "initialStatus": "FAIL",
+      "issues": [
+        "Rendered adverbial grammar 的 to 地"
+      ],
+      "corrected": true,
+      "finalStatus": "PASS",
+      "evidencePackageHash": "e10f698a38f2b6ed9471fc7fb94a0165204dd8d06f87cd8b1b82fc73f5fe79e6"
+    },
+    {
+      "recipeId": "cn-021",
+      "initialStatus": "FAIL",
+      "issues": [
+        "Missing preposition in plating instruction"
+      ],
+      "corrected": true,
+      "finalStatus": "PASS",
+      "evidencePackageHash": "292262aa28c22578e6808209c10618d5b152b8b7fec46a9fb6b4c77e3b71299d"
+    },
+    {
+      "recipeId": "cn-032",
+      "initialStatus": "FAIL",
+      "issues": [
+        "Relative heat increase incorrectly classified as fixed high"
+      ],
+      "corrected": true,
+      "finalStatus": "PASS",
+      "evidencePackageHash": "ffe3c8308efc25dc34517ed01769602747077e6521125ec2efc64c7422a7941b"
+    },
+    {
+      "recipeId": "cn-038",
+      "initialStatus": "FAIL",
+      "issues": [
+        "Elapsed stage time duplicated as second timer"
+      ],
+      "corrected": true,
+      "finalStatus": "PASS",
+      "evidencePackageHash": "29a6766ce9ee81cb8d63f7c85399a83886b8f43bc16f7adfb234b2d1ec948050"
+    },
+    {
+      "recipeId": "cn-041",
+      "initialStatus": "FAIL",
+      "issues": [
+        "Ingredient identity retained total quantity qualifier"
+      ],
+      "corrected": true,
+      "finalStatus": "PASS",
+      "evidencePackageHash": "6d038caf9a2bcf76e294f4ba96315e3b03bc50fe6a414b3f01abfc20ff79979c"
+    },
+    {
+      "recipeId": "cn-042",
+      "initialStatus": "FAIL",
+      "issues": [
+        "Alkaline noodles missing wheat allergen"
+      ],
+      "corrected": true,
+      "finalStatus": "PASS",
+      "evidencePackageHash": "641dcb52c20110ca8957a12676b8380c0464733db81b3016d74d3877088a581d"
+    },
+    {
+      "recipeId": "cn-045",
+      "initialStatus": "FAIL",
+      "issues": [
+        "Water quantity and frequency qualifiers in ingredient identity",
+        "Missing tool preposition",
+        "Dough flour must be distinct from dusting flour"
+      ],
+      "corrected": true,
+      "finalStatus": "PASS",
+      "evidencePackageHash": "567523b91c614f21aff3e9dc8bb6ceff36e6001ac4829601d48a6653db870540"
+    },
+    {
+      "recipeId": "cn-046",
+      "initialStatus": "FAIL",
+      "issues": [
+        "Optional poached egg missing egg allergen"
+      ],
+      "corrected": true,
+      "finalStatus": "PASS",
+      "evidencePackageHash": "9995e4e6cf43b9068897f82ea7cc33ba5223fea0924837ff6467cb4d1d69390c"
+    },
+    {
+      "recipeId": "cn-048",
+      "initialStatus": "FAIL",
+      "issues": [
+        "Gluten missing wheat allergen"
+      ],
+      "corrected": true,
+      "finalStatus": "PASS",
+      "evidencePackageHash": "c0691a88db433e4d860892f41de15f217c5ac8d9cb450a6395daef5c43a24075"
+    },
+    {
+      "recipeId": "cn-056",
+      "initialStatus": "FAIL",
+      "issues": [
+        "Oyster sauce missing shellfish allergen"
+      ],
+      "corrected": true,
+      "finalStatus": "PASS",
+      "evidencePackageHash": "8f09f62533f4a29185f27d47377edcf29051f430d361806fcff7b300a3d57546"
+    },
+    {
+      "recipeId": "cn-057",
+      "initialStatus": "FAIL",
+      "issues": [
+        "Half-piece quantity and small-amount qualifier in ingredient names"
+      ],
+      "corrected": true,
+      "finalStatus": "PASS",
+      "evidencePackageHash": "49e56496fe089419ae34326cddd2a32b93a8800efe61965a008f8efdbedd7a97"
+    },
+    {
+      "recipeId": "cn-058",
+      "initialStatus": "FAIL",
+      "issues": [
+        "Incomplete dimension noun phrase"
+      ],
+      "corrected": true,
+      "finalStatus": "PASS",
+      "evidencePackageHash": "9acd9abf7dd8e6c4746883a8187b25c4a64801aa264a057646059c87af99ff36"
+    },
+    {
+      "recipeId": "cn-060",
+      "initialStatus": "FAIL",
+      "issues": [
+        "Heat after addition incorrectly applied to preceding timed phase"
+      ],
+      "corrected": true,
+      "finalStatus": "PASS",
+      "evidencePackageHash": "9947995f6317aea83769360b38bee8c3c2bb36e58e232e35f62f48f9bfc56cc5"
+    },
+    {
+      "recipeId": "west-001",
+      "initialStatus": "FAIL",
+      "issues": [
+        "Large-half quantity left modifier in onion identity"
+      ],
+      "corrected": true,
+      "finalStatus": "PASS",
+      "evidencePackageHash": "440457d44f92ebad3e9b9980fb05eb8954744c1e235ed4ca4a0502e4e303dee8"
+    },
+    {
+      "recipeId": "west-003",
+      "initialStatus": "FAIL",
+      "issues": [
+        "Overnight thaw plus room-temperature phase incorrectly fixed as single timer"
+      ],
+      "corrected": true,
+      "finalStatus": "PASS",
+      "evidencePackageHash": "9c75ce75e3ebce51e82027940d30dc2d040ced87e81831862bb316f0953028cf"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "9步浸泡/焯水/凉透沥水/煸油/大火/关火焖要求保留，40分钟有来源。原文葱蒜指代及盐用法缺项披露未补造；14食材行和9步独立四项审查通过。",
+  "evidencePackageHash": "1ccaf912f782847ecbba1c7ace644760108719136de5ad25a167f65a1cfd944f",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

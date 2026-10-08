@@ -1,0 +1,345 @@
+{
+  "recipeId": "cn-045",
+  "recipeName": "韭菜猪肉饺子",
+  "category": "chinese",
+  "createdAt": "2026-10-08T07:19:16.258364+00:00",
+  "sources": [
+    {
+      "sourceName": "HowToCook",
+      "sourceType": "website",
+      "url": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/staple/%E6%89%8B%E5%B7%A5%E6%B0%B4%E9%A5%BA.md",
+      "documentId": "6a326ea0-56f9-4fc5-af0d-401a8e6266d8",
+      "retrievalMethod": "GitHub immutable raw Markdown via configured local HTTP proxy; no access-control bypass",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "面粉",
+          "raw": "面粉 200g",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "冷水",
+          "raw": "冷水 150ml",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "芝麻香油",
+          "raw": "芝麻香油 2-3ml",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "瘦肉末",
+          "raw": "瘦肉末 250g",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "肥肉末",
+          "raw": "肥肉末 20g #不喜可不加",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "姜",
+          "raw": "姜 3g",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "葱",
+          "raw": "葱 15g",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "盐",
+          "raw": "盐 3g",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "蚝油",
+          "raw": "蚝油 2ml",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "香油",
+          "raw": "香油 2ml",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "生抽",
+          "raw": "生抽 2ml",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "鸡蛋",
+          "raw": "鸡蛋 1 个",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "韭菜",
+          "raw": "手工水饺是一道中式经典主食，皮薄馅大、鲜美多汁，饱腹又可以根据个人口味随意调味。猪肉馅提供优质蛋白质和脂肪，搭配韭菜还能补充维生素与膳食纤维。这道菜品对新手来说难度较高，需要掌握和面、擀皮、调馅和煮饺的火候，预计制作时间约 3 小时。",
+          "amount": null,
+          "sourceSection": "操作/附加内容"
+        },
+        {
+          "name": "黑醋",
+          "raw": "黑醋 10ml",
+          "amount": null,
+          "sourceSection": "操作/附加内容"
+        },
+        {
+          "name": "大蒜/蒜泥",
+          "raw": "大蒜/蒜泥 3 瓣/人",
+          "amount": null,
+          "sourceSection": "操作/附加内容"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "盆中加入所有面粉",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 1
+        },
+        {
+          "order": 2,
+          "instruction": "加入芝麻香油",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 2
+        },
+        {
+          "order": 3,
+          "instruction": "面粉中央挖小洞",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 3
+        },
+        {
+          "order": 4,
+          "instruction": "分 4-5 次加入水，并搅和，当出现碎末状的稍微干燥面团时",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 4
+        },
+        {
+          "order": 5,
+          "instruction": "取消加水，用手将面团压实",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 5
+        },
+        {
+          "order": 6,
+          "instruction": "面团压实至可把盆周围的面粉纳入即可，此步骤为面光盆光",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 6
+        },
+        {
+          "order": 7,
+          "instruction": "将面团置于桌上，盆倒扣于桌上，环境温度为 25 度，使面团醒发约 45 分钟",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 7
+        },
+        {
+          "order": 8,
+          "instruction": "醒发完成后，将面团搓成条状，合成一团，再次搓成条，重复 3 次",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 8
+        },
+        {
+          "order": 9,
+          "instruction": "擀成条状，切成 20 份均匀大小面团，并搓成直径约 3-3.5cm 的球状",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 9
+        },
+        {
+          "order": 10,
+          "instruction": "压扁面团，在手上，桌上，擀面杖上，及面团上撒上面粉，此步骤防止面团发粘",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 10
+        },
+        {
+          "order": 11,
+          "instruction": "用擀面杖将面团擀平，约 8cm 直径，厚约 2mm，中间略微比四周厚 1mm\n\n### 拌馅",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 11
+        },
+        {
+          "order": 12,
+          "instruction": "猪肉去皮，保留部分肥肉,切成小块",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 1
+        },
+        {
+          "order": 13,
+          "instruction": "菜刀（建议两把）将猪肉剁成肉沫，放入碗中",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 2
+        },
+        {
+          "order": 14,
+          "instruction": "葱、姜切成末，放入肉碗中搅拌均匀",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 3
+        },
+        {
+          "order": 15,
+          "instruction": "韭菜洗净，切短至 3mm 以下长度",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 4
+        },
+        {
+          "order": 16,
+          "instruction": "韭菜和肉沫混合，加入蚝油、生抽、香油各 2ml，加入一个鸡蛋的蛋清，用手混合搅拌均匀",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 5
+        },
+        {
+          "order": 17,
+          "instruction": "放置 30 分钟即可开始包饺子\n\n### 包饺子",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 6
+        },
+        {
+          "order": 18,
+          "instruction": "左手上放面皮，放饺子馅一面尽量不要粘到面粉，防止无法合拢",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 1
+        },
+        {
+          "order": 19,
+          "instruction": "右手用筷子夹约面皮 1/2 直径的馅",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 2
+        },
+        {
+          "order": 20,
+          "instruction": "沿饺子皮圆周进行合拢，捏实，个人吃无需捏花，饺子皮不漏即可\n\n### 煮饺子",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 3
+        },
+        {
+          "order": 21,
+          "instruction": "使用可放下 20 只饺子的锅，或分批量煮",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 1
+        },
+        {
+          "order": 22,
+          "instruction": "烧水，水约 3/4 锅的高度",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 2
+        },
+        {
+          "order": 23,
+          "instruction": "大火烧开水后放入饺子，调至中火",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 3
+        },
+        {
+          "order": 24,
+          "instruction": "第一次放入饺子，且水冒泡后，锅边加入 50ml 冷水（重复此步骤两次）",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 4
+        },
+        {
+          "order": 25,
+          "instruction": "第三次水开后加入冷水 50ml，水开后调至小火等 60s 即可出锅",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 5
+        }
+      ],
+      "technique": [
+        "-单人，约 20 只\n\n每份：\n\n- 面粉 200g\n- 冷水 150ml\n- 芝麻香油 2-3ml\n- 瘦肉末 250g\n- 肥肉末 20g #不喜可不加\n- 姜 3g\n- 葱 15g\n- 盐 3g\n- 蚝油 2ml\n- 香油 2ml\n- 生抽 2ml\n- 鸡蛋 1 个"
+      ],
+      "tips": [
+        "- 煮水饺不需要盖锅盖，加三次水就是为了不让饺子一直处于沸腾状态导致表皮破损变成面片。\n\n这道菜存在一些补充做法，包括但不限于：\n\n额外添加下列材料：\n\n* 黑醋 10ml\n* 姜 一小块 50 克\n* 香油 2 滴\n* 大蒜/蒜泥 3 瓣/人\n\n* 考虑搭配黑醋食用。建议用量：10-20ml。\n* 考虑姜切丝，在小碗加入 20ml 的黑醋与姜丝搅拌当蘸料，味道更丰富。\n* 考虑搭配黑醋时加入 1~3 滴香油，搅拌当蘸料。\n* 考虑搭配黑醋时加入砸好的蒜泥，搅拌当蘸料。（口腔内会残留蒜味，若饭后需要与他人面对面谈话建议放弃或清洁口腔）\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+      ],
+      "rawExcerpt": "# 手工水饺的做法\n\n手工水饺是一道中式经典主食，皮薄馅大、鲜美多汁，饱腹又可以根据个人口味随意调味。猪肉馅提供优质蛋白质和脂肪，搭配韭菜还能补充维生素与膳食纤维。这道菜品对新手来说难度较高，需要掌握和面、擀皮、调馅和煮饺的火候，预计制作时间约 3 小时。\n\n预估烹饪难度：★★★★★\n\n预估卡路里：1313 大卡\n\n## 必备原料和工具\n\n- 擀面杖\n- 面粉\n- 冷水\n- 直径 30cm 以上的盆\n- 芝麻香油\n\n## 计算\n\n-单人，约 20 只\n\n每份：\n\n- 面粉 200g\n- 冷水 150ml\n- 芝麻香油 2-3ml\n- 瘦肉末 250g\n- 肥肉末 20g #不喜可不加\n- 姜 3g\n- 葱 15g\n- 盐 3g\n- 蚝油 2ml\n- 香油 2ml\n- 生抽 2ml\n- 鸡蛋 1 个\n\n## 操作\n\n### 制作饺子皮\n\n1. 盆中加入所有面粉\n2. 加入芝麻香油\n3. 面粉中央挖小洞\n4. 分 4-5 次加入水，并搅和，当出现碎末状的稍微干燥面团时\n5. 取消加水，用手将面团压实\n6. 面团压实至可把盆周围的面粉纳入即可，此步骤为面光盆光\n7. 将面团置于桌上，盆倒扣于桌上，环境温度为 25 度，使面团醒发约 45 分钟\n8. 醒发完成后，将面团搓成条状，合成一团，再次搓成条，重复 3 次\n9. 擀成条状，切成 20 份均匀大小面团，并搓成直径约 3-3.5cm 的球状\n10. 压扁面团，在手上，桌上，擀面杖上，及面团上撒上面粉，此步骤防止面团发粘\n11. 用擀面杖将面团擀平，约 8cm 直径，厚约 2mm，中间略微比四周厚 1mm\n\n### 拌馅\n\n1. 猪肉去皮，保留部分肥肉,切成小块\n2. 菜刀（建议两把）将猪肉剁成肉沫，放入碗中\n3. 葱、姜切成末，放入肉碗中搅拌均匀\n4. 韭菜洗净，切短至 3mm 以下长度\n5. 韭菜和肉沫混合，加入蚝油、生抽、香油各 2ml，加入一个鸡蛋的蛋清，用手混合搅拌均匀\n6. 放置 30 分钟即可开始包饺子\n\n### 包饺子\n\n1. 左手上放面皮，放饺子馅一面尽量不要粘到面粉，防止无法合拢\n2. 右手用筷子夹约面皮 1/2 直径的馅\n3. 沿饺子皮圆周进行合拢，捏实，个人吃无需捏花，饺子皮不漏即可\n\n### 煮饺子\n\n1. 使用可放下 20 只饺子的锅，或分批量煮\n2. 烧水，水约 3/4 锅的高度\n3. 大火烧开水后放入饺子，调至中火\n4. 第一次放入饺子，且水冒泡后，锅边加入 50ml 冷水（重复此步骤两次）\n5. 第三次水开后加入冷水 50ml，水开后调至小火等 60s 即可出锅\n\n## 附加内容\n\n- 煮水饺不需要盖锅盖，加三次水就是为了不让饺子一直处于沸腾状态导致表皮破损变成面片。\n\n这道菜存在一些补充做法，包括但不限于：\n\n额外添加下列材料：\n\n* 黑醋 10ml\n* 姜 一小块 50 克\n* 香油 2 滴\n* 大蒜/蒜泥 3 瓣/人\n\n* 考虑搭配黑醋食用。建议用量：10-20ml。\n* 考虑姜切丝，在小碗加入 20ml 的黑醋与姜丝搅拌当蘸料，味道更丰富。\n* 考虑搭配黑醋时加入 1~3 滴香油，搅拌当蘸料。\n* 考虑搭配黑醋时加入砸好的蒜泥，搅拌当蘸料。（口腔内会残留蒜味，若饭后需要与他人面对面谈话建议放弃或清洁口腔）\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n"
+    }
+  ],
+  "sourceMode": "single_source",
+  "singleSourceReason": "User explicitly directed exclusive HowToCook source and exact upstream transcription.",
+  "selectedSourceUrl": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/staple/%E6%89%8B%E5%B7%A5%E6%B0%B4%E9%A5%BA.md",
+  "selectionReason": "手工水饺正文明确韭菜和猪肉馅，对应韭菜猪肉饺子。",
+  "ragEvidence": [
+    {
+      "chunkId": "7193acce-c9de-42ed-a123-4aab5fb0591f",
+      "documentId": "6a326ea0-56f9-4fc5-af0d-401a8e6266d8",
+      "sourceName": "HowToCook",
+      "chunkType": "tips",
+      "content": "菜名：韭菜猪肉饺子\n- - 煮水饺不需要盖锅盖，加三次水就是为了不让饺子一直处于沸腾状态导致表皮破损变成面片。 这道菜存在一些补充做法，包括但不限于： 额外添加下列材料： * 黑醋 10ml * 姜 一小块 50 克 * 香油 2 滴 * 大蒜/蒜泥 3 瓣/人 * 考虑搭配黑醋食用。建议用量：10-20ml。 * 考虑姜切丝，在小碗加入 20ml 的黑醋与姜丝搅拌当蘸料，味道更丰富。 * 考虑搭配黑醋时加入 1~3 滴香油，搅拌当蘸料。 * 考虑搭配黑醋时加入砸好的蒜泥，搅拌当蘸料。（口腔内会残留蒜味，若饭后需要与他人面对面谈话建议放弃或清洁口腔） 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。",
+      "similarity": 0.711930751800557
+    },
+    {
+      "chunkId": "7b891117-ed5d-4b76-bc9d-49236da619e7",
+      "documentId": "6a326ea0-56f9-4fc5-af0d-401a8e6266d8",
+      "sourceName": "HowToCook",
+      "chunkType": "steps",
+      "content": "菜名：韭菜猪肉饺子\n1. 盆中加入所有面粉\n2. 加入芝麻香油\n3. 面粉中央挖小洞\n4. 分 4-5 次加入水，并搅和，当出现碎末状的稍微干燥面团时\n5. 取消加水，用手将面团压实\n6. 面团压实至可把盆周围的面粉纳入即可，此步骤为面光盆光\n7. 将面团置于桌上，盆倒扣于桌上，环境温度为 25 度，使面团醒发约 45 分钟\n8. 醒发完成后，将面团搓成条状，合成一团，再次搓成条，重复 3 次\n9. 擀成条状，切成 20 份均匀大小面团，并搓成直径约 3-3.5cm 的球状\n10. 压扁面团，在手上，桌上，擀面杖上，及面团上撒上面粉，此步骤防止面团发粘\n11. 用擀面杖将面团擀平，约 8cm 直径，厚约 2mm，中间略微比四周厚 1mm ### 拌馅\n12. 猪肉去皮，保留部分肥肉,切成小块\n13. 菜刀（建议两把）将猪肉剁成肉沫，放入碗中\n14. 葱、姜切成末，放入肉碗中搅拌均匀\n15. 韭菜洗净，切短至 3mm 以下长度\n16. 韭菜和肉沫混合，加入蚝油、生抽、香油各 2ml，加入一个鸡蛋的蛋清，用手混合搅拌均匀\n17. 放置 30 分钟即可开始包饺子 ### 包饺子\n18. 左手上放面皮，放饺子馅一面尽量不要粘到面粉，防止无法合拢\n19. 右手用筷子夹约面皮 1/2 直径的馅\n20. 沿饺子皮圆周进行合拢，捏实，个人吃无需捏花，饺子皮不漏即可 ### 煮饺子\n21. 使用可放下 20 只饺子的锅，或分批量煮\n22. 烧水，水约 3/4 锅的高度\n23. 大火烧开水后放入饺子，调至中火\n24. 第一次放入饺子，且水冒泡后，锅边加入 50ml 冷水（重复此步骤两次）\n25. 第三次水开后加入冷水 50ml，水开后调至小火等 60s 即可出锅",
+      "similarity": 0.693339861233256
+    },
+    {
+      "chunkId": "0e1bb3fc-6ff1-4fb1-ba36-b10e0855ae33",
+      "documentId": "6a326ea0-56f9-4fc5-af0d-401a8e6266d8",
+      "sourceName": "HowToCook",
+      "chunkType": "technique",
+      "content": "菜名：韭菜猪肉饺子\n- -单人，约 20 只 每份： - 面粉 200g - 冷水 150ml - 芝麻香油 2-3ml - 瘦肉末 250g - 肥肉末 20g #不喜可不加 - 姜 3g - 葱 15g - 盐 3g - 蚝油 2ml - 香油 2ml - 生抽 2ml - 鸡蛋 1 个",
+      "similarity": 0.68034815788271
+    },
+    {
+      "chunkId": "befd1d8c-4cbc-45ec-94b1-7f149ee36370",
+      "documentId": "6a326ea0-56f9-4fc5-af0d-401a8e6266d8",
+      "sourceName": "HowToCook",
+      "chunkType": "ingredients",
+      "content": "菜名：韭菜猪肉饺子\n- 面粉 200g\n- 冷水 150ml\n- 芝麻香油 2-3ml\n- 瘦肉末 250g\n- 肥肉末 20g #不喜可不加\n- 姜 3g\n- 葱 15g\n- 盐 3g\n- 蚝油 2ml\n- 香油 2ml\n- 生抽 2ml\n- 鸡蛋 1 个\n- 手工水饺是一道中式经典主食，皮薄馅大、鲜美多汁，饱腹又可以根据个人口味随意调味。猪肉馅提供优质蛋白质和脂肪，搭配韭菜还能补充维生素与膳食纤维。这道菜品对新手来说难度较高，需要掌握和面、擀皮、调馅和煮饺的火候，预计制作时间约 3 小时。\n- 黑醋 10ml\n- 大蒜/蒜泥 3 瓣/人",
+      "similarity": 0.677273570542918
+    },
+    {
+      "chunkId": "d013e0f6-de1c-456a-b2f3-79f13fa692e2",
+      "documentId": "6a326ea0-56f9-4fc5-af0d-401a8e6266d8",
+      "sourceName": "HowToCook",
+      "chunkType": "summary",
+      "content": "菜名：韭菜猪肉饺子\n别名：手工水饺\n简介：# 手工水饺的做法 手工水饺是一道中式经典主食，皮薄馅大、鲜美多汁，饱腹又可以根据个人口味随意调味。猪肉馅提供优质蛋白质和脂肪，搭配韭菜还能补充维生素与膳食纤维。这道菜品对新手来说难度较高，需要掌握和面、擀皮、调馅和煮饺的火候，预计制作时间约 3 小时。 预估烹饪难度：★★★★★ 预估卡路里：1313 大卡",
+      "similarity": 0.677112280388576
+    }
+  ],
+  "notes": [
+    "用户明确要求仅用 HowToCook，原文完整转录；complete=true 表示上游文档完整抓取，不表示烹饪参数无遗漏。",
+    "Source limitations: 本上游菜谱无图片，按用户要求不补造图片。 原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。",
+    "GitHub commit a2d45c6984dff9ee941da0e7c452f7965965d962; path dishes/staple/手工水饺.md",
+    "媒体按原文位置保留；未要求映射的照片不伪称步骤图。",
+    "Existing exact-name knowledge-base documents checked before source fetching: 0"
+  ]
+}

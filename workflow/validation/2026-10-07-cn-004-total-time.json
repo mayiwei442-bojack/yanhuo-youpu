@@ -1,0 +1,53 @@
+{
+  "ok": false,
+  "targetId": "cn-004",
+  "checks": [
+    {
+      "name": "unique_ids",
+      "passed": true
+    },
+    {
+      "name": "target_exists_once",
+      "passed": true
+    },
+    {
+      "name": "required_fields",
+      "passed": true
+    },
+    {
+      "name": "target_name",
+      "passed": true
+    },
+    {
+      "name": "target_ingredients",
+      "passed": true,
+      "count": 12
+    },
+    {
+      "name": "target_steps",
+      "passed": true,
+      "count": 7
+    },
+    {
+      "name": "stable_target_fields",
+      "passed": true,
+      "allowedChanges": []
+    },
+    {
+      "name": "target_changed",
+      "passed": true,
+      "required": true
+    },
+    {
+      "name": "target_only_diff",
+      "passed": false,
+      "changed": [
+        "cn-006"
+      ]
+    }
+  ],
+  "errors": [
+    "目标外菜谱发生变化：cn-006"
+  ],
+  "commands": []
+}

@@ -1,0 +1,1576 @@
+{
+  "commit": "a2d45c6984dff9ee941da0e7c452f7965965d962",
+  "createdAt": "2026-10-08T07:14:35.262630+00:00",
+  "licenseRaw": "This is free and unencumbered software released into the public domain.\n\nAnyone is free to copy, modify, publish, use, compile, sell, or\ndistribute this software, either in source code form or as a compiled\nbinary, for any purpose, commercial or non-commercial, and by any\nmeans.\n\nIn jurisdictions that recognize copyright laws, the author or authors\nof this software dedicate any and all copyright interest in the\nsoftware to the public domain. We make this dedication for the benefit\nof the public at large and to the detriment of our heirs and\nsuccessors. We intend this dedication to be an overt act of\nrelinquishment in perpetuity of all present and future rights to this\nsoftware under copyright law.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR\nOTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,\nARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR\nOTHER DEALINGS IN THE SOFTWARE.\n\nFor more information, please refer to <https://unlicense.org>\n",
+  "recipes": [
+    {
+      "recipeId": "cn-017",
+      "recipeName": "水煮牛肉",
+      "category": "chinese",
+      "status": "matched",
+      "path": "dishes/meat_dish/水煮牛肉/水煮牛肉.md",
+      "candidates": [
+        "dishes/meat_dish/水煮牛肉/水煮牛肉.md"
+      ],
+      "upstreamName": "水煮牛肉",
+      "rawMarkdown": "# 水煮牛肉的做法\n\n![水煮牛肉-预览图-1](./sznr1.jpg)\n\n水煮牛肉是川菜中的经典麻辣味型，口感滑嫩、汤汁红亮、香辣烫鲜。牛肉富含优质蛋白质和铁，搭配豆芽可补充膳食纤维。这道菜对新手来说不算太难，但需注意火候和泼油安全，整体制作约需四十分钟。\n\n预估烹饪难度：★★★\n\n预估卡路里：431 大卡\n\n## 必备原料和工具\n\n- 牛肉\n- 豆芽\n- 鸡蛋\n- 香菜\n- 豆瓣酱\n- 料酒\n- 淀粉\n- 干辣椒粉\n- 姜\n- 蒜\n- 红辣椒\n- 蚝油\n\n## 计算\n\n每次制作前需要确定计划做几份。一份正好够 2 个人吃。\n\n这是一份的量：\n\n- 牛肉 300g\n- 豆芽 100g\n- 鸡蛋 1 个\n- 香菜 5 根\n- 豆瓣酱 10g\n- 料酒 10ml\n- 淀粉 15g\n- 干辣椒粉 5g\n- 姜 20g\n- 蒜 3 瓣\n- 红辣椒 1 根\n- 蚝油 8g\n\n## 操作\n\n1. 牛肉洗干净切片。\n\n![水煮牛肉-预览图-2](./sznr2.jpg)\n\n2. 加入 15g 姜丝，1 个鸡蛋，15g 淀粉，8g 蚝油，10ml 料酒搅拌均匀，腌制 15 分钟。\n\n![水煮牛肉-预览图-3](./sznr3.jpg)\n\n3. 香菜洗干净切好。\n\n![水煮牛肉-预览图-4](./sznr4.jpg)\n\n4. 锅里倒油，加入豆瓣酱，5g 姜丝，蒜片。\n\n![水煮牛肉-预览图-5](./sznr5.jpg)\n\n5. 倒入开水，煮成红汤。\n\n![水煮牛肉-预览图-6](./sznr6.jpg)\n\n6. 豆芽洗干净去掉尾须，放进开水里焯熟。\n\n![水煮牛肉-预览图-7](./sznr7.jpg)\n\n7. 将豆芽铺入碗底。\n\n![水煮牛肉-预览图-8](./sznr8.jpg)\n\n8. 将牛肉片一片一片的放进红汤中，煮熟以后捞出。\n\n![水煮牛肉-预览图-9](./sznr9.jpg)\n\n9. 将牛肉铺在豆芽上，撒上香菜梗。\n\n![水煮牛肉-预览图-10](./sznr10.jpg)\n\n10. 撒上香菜叶，辣椒粉，辣椒圈。\n\n![水煮牛肉-预览图-11](./sznr11.jpg)\n\n11. 另起锅烧热油，将热油淋在菜上面，就完成了。\n\n![水煮牛肉-预览图-12](./sznr12.jpg)\n\n## 附加内容\n\n- 参考: [水煮牛肉的详细步骤](https://www.zhms.cn/recipe/blrqm.html?source=2)\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+      "sha256": "829ef95e88845f21bb832a1171b268d1121df5dbf74bd8c68a7db28a3e932eeb",
+      "sections": [
+        {
+          "title": "水煮牛肉的做法",
+          "markdown": "\n![水煮牛肉-预览图-1](./sznr1.jpg)\n\n水煮牛肉是川菜中的经典麻辣味型，口感滑嫩、汤汁红亮、香辣烫鲜。牛肉富含优质蛋白质和铁，搭配豆芽可补充膳食纤维。这道菜对新手来说不算太难，但需注意火候和泼油安全，整体制作约需四十分钟。\n\n预估烹饪难度：★★★\n\n预估卡路里：431 大卡\n\n",
+          "level": 1
+        },
+        {
+          "title": "必备原料和工具",
+          "markdown": "\n- 牛肉\n- 豆芽\n- 鸡蛋\n- 香菜\n- 豆瓣酱\n- 料酒\n- 淀粉\n- 干辣椒粉\n- 姜\n- 蒜\n- 红辣椒\n- 蚝油\n\n",
+          "level": 2
+        },
+        {
+          "title": "计算",
+          "markdown": "\n每次制作前需要确定计划做几份。一份正好够 2 个人吃。\n\n这是一份的量：\n\n- 牛肉 300g\n- 豆芽 100g\n- 鸡蛋 1 个\n- 香菜 5 根\n- 豆瓣酱 10g\n- 料酒 10ml\n- 淀粉 15g\n- 干辣椒粉 5g\n- 姜 20g\n- 蒜 3 瓣\n- 红辣椒 1 根\n- 蚝油 8g\n\n",
+          "level": 2
+        },
+        {
+          "title": "操作",
+          "markdown": "\n1. 牛肉洗干净切片。\n\n![水煮牛肉-预览图-2](./sznr2.jpg)\n\n2. 加入 15g 姜丝，1 个鸡蛋，15g 淀粉，8g 蚝油，10ml 料酒搅拌均匀，腌制 15 分钟。\n\n![水煮牛肉-预览图-3](./sznr3.jpg)\n\n3. 香菜洗干净切好。\n\n![水煮牛肉-预览图-4](./sznr4.jpg)\n\n4. 锅里倒油，加入豆瓣酱，5g 姜丝，蒜片。\n\n![水煮牛肉-预览图-5](./sznr5.jpg)\n\n5. 倒入开水，煮成红汤。\n\n![水煮牛肉-预览图-6](./sznr6.jpg)\n\n6. 豆芽洗干净去掉尾须，放进开水里焯熟。\n\n![水煮牛肉-预览图-7](./sznr7.jpg)\n\n7. 将豆芽铺入碗底。\n\n![水煮牛肉-预览图-8](./sznr8.jpg)\n\n8. 将牛肉片一片一片的放进红汤中，煮熟以后捞出。\n\n![水煮牛肉-预览图-9](./sznr9.jpg)\n\n9. 将牛肉铺在豆芽上，撒上香菜梗。\n\n![水煮牛肉-预览图-10](./sznr10.jpg)\n\n10. 撒上香菜叶，辣椒粉，辣椒圈。\n\n![水煮牛肉-预览图-11](./sznr11.jpg)\n\n11. 另起锅烧热油，将热油淋在菜上面，就完成了。\n\n![水煮牛肉-预览图-12](./sznr12.jpg)\n\n",
+          "level": 2
+        },
+        {
+          "title": "附加内容",
+          "markdown": "\n- 参考: [水煮牛肉的详细步骤](https://www.zhms.cn/recipe/blrqm.html?source=2)\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+          "level": 2
+        }
+      ],
+      "images": [
+        {
+          "originalReference": "./sznr1.jpg",
+          "originalUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/meat_dish/%E6%B0%B4%E7%85%AE%E7%89%9B%E8%82%89/sznr1.jpg",
+          "path": "assets/dishes/howtocook/cn-017/1.jpg",
+          "alt": "水煮牛肉-预览图-1",
+          "pageOrder": 1,
+          "adjacentText": "# 水煮牛肉的做法\n\n![水煮牛肉-预览图-1](./sznr1.jpg)\n\n水煮牛肉是川菜中的经典麻辣味型，口感滑嫩、汤汁红亮、香辣烫鲜。牛肉富含优质蛋白质和铁，搭配豆芽可补充膳食纤维。这道菜对新手来说不算太难，但需注意火候和泼油安全，整体制作约需四十分钟。\n\n预估烹饪难度：★★★\n\n预估卡路里：431 大卡\n\n## 必备原料和工具\n\n- 牛肉\n- 豆芽\n- 鸡蛋\n- 香菜\n- 豆瓣酱\n- 料酒\n- 淀粉\n- 干辣椒粉\n- 姜\n"
+        },
+        {
+          "originalReference": "./sznr2.jpg",
+          "originalUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/meat_dish/%E6%B0%B4%E7%85%AE%E7%89%9B%E8%82%89/sznr2.jpg",
+          "path": "assets/dishes/howtocook/cn-017/2.jpg",
+          "alt": "水煮牛肉-预览图-2",
+          "pageOrder": 2,
+          "adjacentText": "油\n\n## 计算\n\n每次制作前需要确定计划做几份。一份正好够 2 个人吃。\n\n这是一份的量：\n\n- 牛肉 300g\n- 豆芽 100g\n- 鸡蛋 1 个\n- 香菜 5 根\n- 豆瓣酱 10g\n- 料酒 10ml\n- 淀粉 15g\n- 干辣椒粉 5g\n- 姜 20g\n- 蒜 3 瓣\n- 红辣椒 1 根\n- 蚝油 8g\n\n## 操作\n\n1. 牛肉洗干净切片。\n\n![水煮牛肉-预览图-2](./sznr2.jpg)\n\n2. 加入 15g 姜丝，1 个鸡蛋，15g 淀粉，8g 蚝油，10ml 料酒搅拌均匀，腌制 15 分钟。\n\n![水煮牛肉-预览图-3](./sznr3.jpg)\n\n3. 香菜洗干净切好。\n\n![水煮牛肉-预览图-4](./sznr4.jpg)\n\n4. 锅里倒油，加入豆瓣酱，5g 姜丝，蒜片。\n\n![水煮牛肉-预览图-5](./sznr5.jpg)\n\n5"
+        },
+        {
+          "originalReference": "./sznr3.jpg",
+          "originalUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/meat_dish/%E6%B0%B4%E7%85%AE%E7%89%9B%E8%82%89/sznr3.jpg",
+          "path": "assets/dishes/howtocook/cn-017/3.jpg",
+          "alt": "水煮牛肉-预览图-3",
+          "pageOrder": 3,
+          "adjacentText": " 根\n- 豆瓣酱 10g\n- 料酒 10ml\n- 淀粉 15g\n- 干辣椒粉 5g\n- 姜 20g\n- 蒜 3 瓣\n- 红辣椒 1 根\n- 蚝油 8g\n\n## 操作\n\n1. 牛肉洗干净切片。\n\n![水煮牛肉-预览图-2](./sznr2.jpg)\n\n2. 加入 15g 姜丝，1 个鸡蛋，15g 淀粉，8g 蚝油，10ml 料酒搅拌均匀，腌制 15 分钟。\n\n![水煮牛肉-预览图-3](./sznr3.jpg)\n\n3. 香菜洗干净切好。\n\n![水煮牛肉-预览图-4](./sznr4.jpg)\n\n4. 锅里倒油，加入豆瓣酱，5g 姜丝，蒜片。\n\n![水煮牛肉-预览图-5](./sznr5.jpg)\n\n5. 倒入开水，煮成红汤。\n\n![水煮牛肉-预览图-6](./sznr6.jpg)\n\n6. 豆芽洗干净去掉尾须，放进开水里焯熟。\n\n![水煮牛肉-预览图-7](./sz"
+        },
+        {
+          "originalReference": "./sznr4.jpg",
+          "originalUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/meat_dish/%E6%B0%B4%E7%85%AE%E7%89%9B%E8%82%89/sznr4.jpg",
+          "path": "assets/dishes/howtocook/cn-017/4.jpg",
+          "alt": "水煮牛肉-预览图-4",
+          "pageOrder": 4,
+          "adjacentText": "\n- 姜 20g\n- 蒜 3 瓣\n- 红辣椒 1 根\n- 蚝油 8g\n\n## 操作\n\n1. 牛肉洗干净切片。\n\n![水煮牛肉-预览图-2](./sznr2.jpg)\n\n2. 加入 15g 姜丝，1 个鸡蛋，15g 淀粉，8g 蚝油，10ml 料酒搅拌均匀，腌制 15 分钟。\n\n![水煮牛肉-预览图-3](./sznr3.jpg)\n\n3. 香菜洗干净切好。\n\n![水煮牛肉-预览图-4](./sznr4.jpg)\n\n4. 锅里倒油，加入豆瓣酱，5g 姜丝，蒜片。\n\n![水煮牛肉-预览图-5](./sznr5.jpg)\n\n5. 倒入开水，煮成红汤。\n\n![水煮牛肉-预览图-6](./sznr6.jpg)\n\n6. 豆芽洗干净去掉尾须，放进开水里焯熟。\n\n![水煮牛肉-预览图-7](./sznr7.jpg)\n\n7. 将豆芽铺入碗底。\n\n![水煮牛肉-预览图-8](./sz"
+        },
+        {
+          "originalReference": "./sznr5.jpg",
+          "originalUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/meat_dish/%E6%B0%B4%E7%85%AE%E7%89%9B%E8%82%89/sznr5.jpg",
+          "path": "assets/dishes/howtocook/cn-017/5.jpg",
+          "alt": "水煮牛肉-预览图-5",
+          "pageOrder": 5,
+          "adjacentText": "。\n\n![水煮牛肉-预览图-2](./sznr2.jpg)\n\n2. 加入 15g 姜丝，1 个鸡蛋，15g 淀粉，8g 蚝油，10ml 料酒搅拌均匀，腌制 15 分钟。\n\n![水煮牛肉-预览图-3](./sznr3.jpg)\n\n3. 香菜洗干净切好。\n\n![水煮牛肉-预览图-4](./sznr4.jpg)\n\n4. 锅里倒油，加入豆瓣酱，5g 姜丝，蒜片。\n\n![水煮牛肉-预览图-5](./sznr5.jpg)\n\n5. 倒入开水，煮成红汤。\n\n![水煮牛肉-预览图-6](./sznr6.jpg)\n\n6. 豆芽洗干净去掉尾须，放进开水里焯熟。\n\n![水煮牛肉-预览图-7](./sznr7.jpg)\n\n7. 将豆芽铺入碗底。\n\n![水煮牛肉-预览图-8](./sznr8.jpg)\n\n8. 将牛肉片一片一片的放进红汤中，煮熟以后捞出。\n\n![水煮牛肉-预览图-9](./"
+        },
+        {
+          "originalReference": "./sznr6.jpg",
+          "originalUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/meat_dish/%E6%B0%B4%E7%85%AE%E7%89%9B%E8%82%89/sznr6.jpg",
+          "path": "assets/dishes/howtocook/cn-017/6.jpg",
+          "alt": "水煮牛肉-预览图-6",
+          "pageOrder": 6,
+          "adjacentText": "，1 个鸡蛋，15g 淀粉，8g 蚝油，10ml 料酒搅拌均匀，腌制 15 分钟。\n\n![水煮牛肉-预览图-3](./sznr3.jpg)\n\n3. 香菜洗干净切好。\n\n![水煮牛肉-预览图-4](./sznr4.jpg)\n\n4. 锅里倒油，加入豆瓣酱，5g 姜丝，蒜片。\n\n![水煮牛肉-预览图-5](./sznr5.jpg)\n\n5. 倒入开水，煮成红汤。\n\n![水煮牛肉-预览图-6](./sznr6.jpg)\n\n6. 豆芽洗干净去掉尾须，放进开水里焯熟。\n\n![水煮牛肉-预览图-7](./sznr7.jpg)\n\n7. 将豆芽铺入碗底。\n\n![水煮牛肉-预览图-8](./sznr8.jpg)\n\n8. 将牛肉片一片一片的放进红汤中，煮熟以后捞出。\n\n![水煮牛肉-预览图-9](./sznr9.jpg)\n\n9. 将牛肉铺在豆芽上，撒上香菜梗。\n\n![水煮牛肉-预览图-"
+        },
+        {
+          "originalReference": "./sznr7.jpg",
+          "originalUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/meat_dish/%E6%B0%B4%E7%85%AE%E7%89%9B%E8%82%89/sznr7.jpg",
+          "path": "assets/dishes/howtocook/cn-017/7.jpg",
+          "alt": "水煮牛肉-预览图-7",
+          "pageOrder": 7,
+          "adjacentText": "览图-3](./sznr3.jpg)\n\n3. 香菜洗干净切好。\n\n![水煮牛肉-预览图-4](./sznr4.jpg)\n\n4. 锅里倒油，加入豆瓣酱，5g 姜丝，蒜片。\n\n![水煮牛肉-预览图-5](./sznr5.jpg)\n\n5. 倒入开水，煮成红汤。\n\n![水煮牛肉-预览图-6](./sznr6.jpg)\n\n6. 豆芽洗干净去掉尾须，放进开水里焯熟。\n\n![水煮牛肉-预览图-7](./sznr7.jpg)\n\n7. 将豆芽铺入碗底。\n\n![水煮牛肉-预览图-8](./sznr8.jpg)\n\n8. 将牛肉片一片一片的放进红汤中，煮熟以后捞出。\n\n![水煮牛肉-预览图-9](./sznr9.jpg)\n\n9. 将牛肉铺在豆芽上，撒上香菜梗。\n\n![水煮牛肉-预览图-10](./sznr10.jpg)\n\n10. 撒上香菜叶，辣椒粉，辣椒圈。\n\n![水煮牛肉-预览图-1"
+        },
+        {
+          "originalReference": "./sznr8.jpg",
+          "originalUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/meat_dish/%E6%B0%B4%E7%85%AE%E7%89%9B%E8%82%89/sznr8.jpg",
+          "path": "assets/dishes/howtocook/cn-017/8.jpg",
+          "alt": "水煮牛肉-预览图-8",
+          "pageOrder": 8,
+          "adjacentText": "览图-4](./sznr4.jpg)\n\n4. 锅里倒油，加入豆瓣酱，5g 姜丝，蒜片。\n\n![水煮牛肉-预览图-5](./sznr5.jpg)\n\n5. 倒入开水，煮成红汤。\n\n![水煮牛肉-预览图-6](./sznr6.jpg)\n\n6. 豆芽洗干净去掉尾须，放进开水里焯熟。\n\n![水煮牛肉-预览图-7](./sznr7.jpg)\n\n7. 将豆芽铺入碗底。\n\n![水煮牛肉-预览图-8](./sznr8.jpg)\n\n8. 将牛肉片一片一片的放进红汤中，煮熟以后捞出。\n\n![水煮牛肉-预览图-9](./sznr9.jpg)\n\n9. 将牛肉铺在豆芽上，撒上香菜梗。\n\n![水煮牛肉-预览图-10](./sznr10.jpg)\n\n10. 撒上香菜叶，辣椒粉，辣椒圈。\n\n![水煮牛肉-预览图-11](./sznr11.jpg)\n\n11. 另起锅烧热油，将热油淋在菜上面，就完成"
+        },
+        {
+          "originalReference": "./sznr9.jpg",
+          "originalUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/meat_dish/%E6%B0%B4%E7%85%AE%E7%89%9B%E8%82%89/sznr9.jpg",
+          "path": "assets/dishes/howtocook/cn-017/9.jpg",
+          "alt": "水煮牛肉-预览图-9",
+          "pageOrder": 9,
+          "adjacentText": "-5](./sznr5.jpg)\n\n5. 倒入开水，煮成红汤。\n\n![水煮牛肉-预览图-6](./sznr6.jpg)\n\n6. 豆芽洗干净去掉尾须，放进开水里焯熟。\n\n![水煮牛肉-预览图-7](./sznr7.jpg)\n\n7. 将豆芽铺入碗底。\n\n![水煮牛肉-预览图-8](./sznr8.jpg)\n\n8. 将牛肉片一片一片的放进红汤中，煮熟以后捞出。\n\n![水煮牛肉-预览图-9](./sznr9.jpg)\n\n9. 将牛肉铺在豆芽上，撒上香菜梗。\n\n![水煮牛肉-预览图-10](./sznr10.jpg)\n\n10. 撒上香菜叶，辣椒粉，辣椒圈。\n\n![水煮牛肉-预览图-11](./sznr11.jpg)\n\n11. 另起锅烧热油，将热油淋在菜上面，就完成了。\n\n![水煮牛肉-预览图-12](./sznr12.jpg)\n\n## 附加内容\n\n- 参考: [水煮牛肉的"
+        },
+        {
+          "originalReference": "./sznr10.jpg",
+          "originalUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/meat_dish/%E6%B0%B4%E7%85%AE%E7%89%9B%E8%82%89/sznr10.jpg",
+          "path": "assets/dishes/howtocook/cn-017/10.jpg",
+          "alt": "水煮牛肉-预览图-10",
+          "pageOrder": 10,
+          "adjacentText": "/sznr6.jpg)\n\n6. 豆芽洗干净去掉尾须，放进开水里焯熟。\n\n![水煮牛肉-预览图-7](./sznr7.jpg)\n\n7. 将豆芽铺入碗底。\n\n![水煮牛肉-预览图-8](./sznr8.jpg)\n\n8. 将牛肉片一片一片的放进红汤中，煮熟以后捞出。\n\n![水煮牛肉-预览图-9](./sznr9.jpg)\n\n9. 将牛肉铺在豆芽上，撒上香菜梗。\n\n![水煮牛肉-预览图-10](./sznr10.jpg)\n\n10. 撒上香菜叶，辣椒粉，辣椒圈。\n\n![水煮牛肉-预览图-11](./sznr11.jpg)\n\n11. 另起锅烧热油，将热油淋在菜上面，就完成了。\n\n![水煮牛肉-预览图-12](./sznr12.jpg)\n\n## 附加内容\n\n- 参考: [水煮牛肉的详细步骤](https://www.zhms.cn/recipe/blrqm.html?source"
+        },
+        {
+          "originalReference": "./sznr11.jpg",
+          "originalUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/meat_dish/%E6%B0%B4%E7%85%AE%E7%89%9B%E8%82%89/sznr11.jpg",
+          "path": "assets/dishes/howtocook/cn-017/11.jpg",
+          "alt": "水煮牛肉-预览图-11",
+          "pageOrder": 11,
+          "adjacentText": "./sznr7.jpg)\n\n7. 将豆芽铺入碗底。\n\n![水煮牛肉-预览图-8](./sznr8.jpg)\n\n8. 将牛肉片一片一片的放进红汤中，煮熟以后捞出。\n\n![水煮牛肉-预览图-9](./sznr9.jpg)\n\n9. 将牛肉铺在豆芽上，撒上香菜梗。\n\n![水煮牛肉-预览图-10](./sznr10.jpg)\n\n10. 撒上香菜叶，辣椒粉，辣椒圈。\n\n![水煮牛肉-预览图-11](./sznr11.jpg)\n\n11. 另起锅烧热油，将热油淋在菜上面，就完成了。\n\n![水煮牛肉-预览图-12](./sznr12.jpg)\n\n## 附加内容\n\n- 参考: [水煮牛肉的详细步骤](https://www.zhms.cn/recipe/blrqm.html?source=2)\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull "
+        },
+        {
+          "originalReference": "./sznr12.jpg",
+          "originalUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/meat_dish/%E6%B0%B4%E7%85%AE%E7%89%9B%E8%82%89/sznr12.jpg",
+          "path": "assets/dishes/howtocook/cn-017/12.jpg",
+          "alt": "水煮牛肉-预览图-12",
+          "pageOrder": 12,
+          "adjacentText": " 将牛肉片一片一片的放进红汤中，煮熟以后捞出。\n\n![水煮牛肉-预览图-9](./sznr9.jpg)\n\n9. 将牛肉铺在豆芽上，撒上香菜梗。\n\n![水煮牛肉-预览图-10](./sznr10.jpg)\n\n10. 撒上香菜叶，辣椒粉，辣椒圈。\n\n![水煮牛肉-预览图-11](./sznr11.jpg)\n\n11. 另起锅烧热油，将热油淋在菜上面，就完成了。\n\n![水煮牛肉-预览图-12](./sznr12.jpg)\n\n## 附加内容\n\n- 参考: [水煮牛肉的详细步骤](https://www.zhms.cn/recipe/blrqm.html?source=2)\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n"
+        }
+      ],
+      "limitations": [
+        "原料/计算未列炒制及泼油的油类型、用量；操作另用开水但无定量。",
+        "原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。"
+      ],
+      "introduction": "# 水煮牛肉的做法\n\n![水煮牛肉-预览图-1](./sznr1.jpg)\n\n水煮牛肉是川菜中的经典麻辣味型，口感滑嫩、汤汁红亮、香辣烫鲜。牛肉富含优质蛋白质和铁，搭配豆芽可补充膳食纤维。这道菜对新手来说不算太难，但需注意火候和泼油安全，整体制作约需四十分钟。\n\n预估烹饪难度：★★★\n\n预估卡路里：431 大卡\n\n",
+      "evidence": {
+        "recipeId": "cn-017",
+        "recipeName": "水煮牛肉",
+        "category": "chinese",
+        "createdAt": "2026-10-08T07:14:35.262630+00:00",
+        "sources": [
+          {
+            "sourceName": "HowToCook",
+            "sourceType": "website",
+            "url": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/meat_dish/%E6%B0%B4%E7%85%AE%E7%89%9B%E8%82%89/%E6%B0%B4%E7%85%AE%E7%89%9B%E8%82%89.md",
+            "documentId": "c8991fdc-cd72-436d-90fe-538e4fe50f97",
+            "retrievalMethod": "GitHub immutable raw Markdown via configured local HTTP proxy; no access-control bypass",
+            "complete": true,
+            "ingredients": [
+              {
+                "name": "牛肉",
+                "raw": "牛肉 300g",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "豆芽",
+                "raw": "豆芽 100g",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "鸡蛋",
+                "raw": "鸡蛋 1 个",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "香菜",
+                "raw": "香菜 5 根",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "豆瓣酱",
+                "raw": "豆瓣酱 10g",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "料酒",
+                "raw": "料酒 10ml",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "淀粉",
+                "raw": "淀粉 15g",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "干辣椒粉",
+                "raw": "干辣椒粉 5g",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "姜",
+                "raw": "姜 20g",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "蒜",
+                "raw": "蒜 3 瓣",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "红辣椒",
+                "raw": "红辣椒 1 根",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "蚝油",
+                "raw": "蚝油 8g",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "油",
+                "raw": "锅里倒油，加入豆瓣酱，5g 姜丝，蒜片。",
+                "amount": null,
+                "sourceSection": "操作"
+              },
+              {
+                "name": "开水",
+                "raw": "倒入开水，煮成红汤。",
+                "amount": null,
+                "sourceSection": "操作/附加内容"
+              }
+            ],
+            "steps": [
+              {
+                "order": 1,
+                "instruction": "牛肉洗干净切片。\n\n![水煮牛肉-预览图-2](./sznr2.jpg)",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 1
+              },
+              {
+                "order": 2,
+                "instruction": "加入 15g 姜丝，1 个鸡蛋，15g 淀粉，8g 蚝油，10ml 料酒搅拌均匀，腌制 15 分钟。\n\n![水煮牛肉-预览图-3](./sznr3.jpg)",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 2
+              },
+              {
+                "order": 3,
+                "instruction": "香菜洗干净切好。\n\n![水煮牛肉-预览图-4](./sznr4.jpg)",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 3
+              },
+              {
+                "order": 4,
+                "instruction": "锅里倒油，加入豆瓣酱，5g 姜丝，蒜片。\n\n![水煮牛肉-预览图-5](./sznr5.jpg)",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 4
+              },
+              {
+                "order": 5,
+                "instruction": "倒入开水，煮成红汤。\n\n![水煮牛肉-预览图-6](./sznr6.jpg)",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 5
+              },
+              {
+                "order": 6,
+                "instruction": "豆芽洗干净去掉尾须，放进开水里焯熟。\n\n![水煮牛肉-预览图-7](./sznr7.jpg)",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 6
+              },
+              {
+                "order": 7,
+                "instruction": "将豆芽铺入碗底。\n\n![水煮牛肉-预览图-8](./sznr8.jpg)",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 7
+              },
+              {
+                "order": 8,
+                "instruction": "将牛肉片一片一片的放进红汤中，煮熟以后捞出。\n\n![水煮牛肉-预览图-9](./sznr9.jpg)",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 8
+              },
+              {
+                "order": 9,
+                "instruction": "将牛肉铺在豆芽上，撒上香菜梗。\n\n![水煮牛肉-预览图-10](./sznr10.jpg)",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 9
+              },
+              {
+                "order": 10,
+                "instruction": "撒上香菜叶，辣椒粉，辣椒圈。\n\n![水煮牛肉-预览图-11](./sznr11.jpg)",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 10
+              },
+              {
+                "order": 11,
+                "instruction": "另起锅烧热油，将热油淋在菜上面，就完成了。\n\n![水煮牛肉-预览图-12](./sznr12.jpg)",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 11
+              }
+            ],
+            "technique": [
+              "每次制作前需要确定计划做几份。一份正好够 2 个人吃。\n\n这是一份的量：\n\n- 牛肉 300g\n- 豆芽 100g\n- 鸡蛋 1 个\n- 香菜 5 根\n- 豆瓣酱 10g\n- 料酒 10ml\n- 淀粉 15g\n- 干辣椒粉 5g\n- 姜 20g\n- 蒜 3 瓣\n- 红辣椒 1 根\n- 蚝油 8g"
+            ],
+            "tips": [
+              "- 参考: [水煮牛肉的详细步骤](https://www.zhms.cn/recipe/blrqm.html?source=2)\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+            ],
+            "rawExcerpt": "# 水煮牛肉的做法\n\n![水煮牛肉-预览图-1](./sznr1.jpg)\n\n水煮牛肉是川菜中的经典麻辣味型，口感滑嫩、汤汁红亮、香辣烫鲜。牛肉富含优质蛋白质和铁，搭配豆芽可补充膳食纤维。这道菜对新手来说不算太难，但需注意火候和泼油安全，整体制作约需四十分钟。\n\n预估烹饪难度：★★★\n\n预估卡路里：431 大卡\n\n## 必备原料和工具\n\n- 牛肉\n- 豆芽\n- 鸡蛋\n- 香菜\n- 豆瓣酱\n- 料酒\n- 淀粉\n- 干辣椒粉\n- 姜\n- 蒜\n- 红辣椒\n- 蚝油\n\n## 计算\n\n每次制作前需要确定计划做几份。一份正好够 2 个人吃。\n\n这是一份的量：\n\n- 牛肉 300g\n- 豆芽 100g\n- 鸡蛋 1 个\n- 香菜 5 根\n- 豆瓣酱 10g\n- 料酒 10ml\n- 淀粉 15g\n- 干辣椒粉 5g\n- 姜 20g\n- 蒜 3 瓣\n- 红辣椒 1 根\n- 蚝油 8g\n\n## 操作\n\n1. 牛肉洗干净切片。\n\n![水煮牛肉-预览图-2](./sznr2.jpg)\n\n2. 加入 15g 姜丝，1 个鸡蛋，15g 淀粉，8g 蚝油，10ml 料酒搅拌均匀，腌制 15 分钟。\n\n![水煮牛肉-预览图-3](./sznr3.jpg)\n\n3. 香菜洗干净切好。\n\n![水煮牛肉-预览图-4](./sznr4.jpg)\n\n4. 锅里倒油，加入豆瓣酱，5g 姜丝，蒜片。\n\n![水煮牛肉-预览图-5](./sznr5.jpg)\n\n5. 倒入开水，煮成红汤。\n\n![水煮牛肉-预览图-6](./sznr6.jpg)\n\n6. 豆芽洗干净去掉尾须，放进开水里焯熟。\n\n![水煮牛肉-预览图-7](./sznr7.jpg)\n\n7. 将豆芽铺入碗底。\n\n![水煮牛肉-预览图-8](./sznr8.jpg)\n\n8. 将牛肉片一片一片的放进红汤中，煮熟以后捞出。\n\n![水煮牛肉-预览图-9](./sznr9.jpg)\n\n9. 将牛肉铺在豆芽上，撒上香菜梗。\n\n![水煮牛肉-预览图-10](./sznr10.jpg)\n\n10. 撒上香菜叶，辣椒粉，辣椒圈。\n\n![水煮牛肉-预览图-11](./sznr11.jpg)\n\n11. 另起锅烧热油，将热油淋在菜上面，就完成了。\n\n![水煮牛肉-预览图-12](./sznr12.jpg)\n\n## 附加内容\n\n- 参考: [水煮牛肉的详细步骤](https://www.zhms.cn/recipe/blrqm.html?source=2)\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n"
+          }
+        ],
+        "sourceMode": "single_source",
+        "singleSourceReason": "User explicitly directed exclusive HowToCook source and exact upstream transcription.",
+        "selectedSourceUrl": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/meat_dish/%E6%B0%B4%E7%85%AE%E7%89%9B%E8%82%89/%E6%B0%B4%E7%85%AE%E7%89%9B%E8%82%89.md",
+        "selectionReason": "上游菜谱文件名与指定菜名完全一致。",
+        "ragEvidence": [
+          {
+            "chunkId": "20ce8bd3-e00e-401c-aadc-42e47ad4b7a3",
+            "documentId": "c8991fdc-cd72-436d-90fe-538e4fe50f97",
+            "sourceName": "HowToCook",
+            "chunkType": "tips",
+            "content": "菜名：水煮牛肉\n- - 参考: [水煮牛肉的详细步骤](https://www.zhms.cn/recipe/blrqm.html?source=2) 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。",
+            "similarity": 0.730720102787023
+          },
+          {
+            "chunkId": "b9b3ce8c-5971-4957-a4eb-e4185b170f4c",
+            "documentId": "c8991fdc-cd72-436d-90fe-538e4fe50f97",
+            "sourceName": "HowToCook",
+            "chunkType": "steps",
+            "content": "菜名：水煮牛肉\n1. 牛肉洗干净切片。 ![水煮牛肉-预览图-2](./sznr2.jpg)\n2. 加入 15g 姜丝，1 个鸡蛋，15g 淀粉，8g 蚝油，10ml 料酒搅拌均匀，腌制 15 分钟。 ![水煮牛肉-预览图-3](./sznr3.jpg)\n3. 香菜洗干净切好。 ![水煮牛肉-预览图-4](./sznr4.jpg)\n4. 锅里倒油，加入豆瓣酱，5g 姜丝，蒜片。 ![水煮牛肉-预览图-5](./sznr5.jpg)\n5. 倒入开水，煮成红汤。 ![水煮牛肉-预览图-6](./sznr6.jpg)\n6. 豆芽洗干净去掉尾须，放进开水里焯熟。 ![水煮牛肉-预览图-7](./sznr7.jpg)\n7. 将豆芽铺入碗底。 ![水煮牛肉-预览图-8](./sznr8.jpg)\n8. 将牛肉片一片一片的放进红汤中，煮熟以后捞出。 ![水煮牛肉-预览图-9](./sznr9.jpg)\n9. 将牛肉铺在豆芽上，撒上香菜梗。 ![水煮牛肉-预览图-10](./sznr10.jpg)\n10. 撒上香菜叶，辣椒粉，辣椒圈。 ![水煮牛肉-预览图-11](./sznr11.jpg)\n11. 另起锅烧热油，将热油淋在菜上面，就完成了。 ![水煮牛肉-预览图-12](./sznr12.jpg)",
+            "similarity": 0.684269607067113
+          },
+          {
+            "chunkId": "39e20079-e42c-4a43-86bd-cefb1d6f4a9b",
+            "documentId": "c8991fdc-cd72-436d-90fe-538e4fe50f97",
+            "sourceName": "HowToCook",
+            "chunkType": "summary",
+            "content": "菜名：水煮牛肉\n简介：# 水煮牛肉的做法 ![水煮牛肉-预览图-1](./sznr1.jpg) 水煮牛肉是川菜中的经典麻辣味型，口感滑嫩、汤汁红亮、香辣烫鲜。牛肉富含优质蛋白质和铁，搭配豆芽可补充膳食纤维。这道菜对新手来说不算太难，但需注意火候和泼油安全，整体制作约需四十分钟。 预估烹饪难度：★★★ 预估卡路里：431 大卡",
+            "similarity": 0.666147450575082
+          },
+          {
+            "chunkId": "dc3a3da4-f072-4284-9022-49c829c035c6",
+            "documentId": "c8991fdc-cd72-436d-90fe-538e4fe50f97",
+            "sourceName": "HowToCook",
+            "chunkType": "ingredients",
+            "content": "菜名：水煮牛肉\n- 牛肉 300g\n- 豆芽 100g\n- 鸡蛋 1 个\n- 香菜 5 根\n- 豆瓣酱 10g\n- 料酒 10ml\n- 淀粉 15g\n- 干辣椒粉 5g\n- 姜 20g\n- 蒜 3 瓣\n- 红辣椒 1 根\n- 蚝油 8g\n- 锅里倒油，加入豆瓣酱，5g 姜丝，蒜片。\n- 倒入开水，煮成红汤。",
+            "similarity": 0.642528533935551
+          },
+          {
+            "chunkId": "cb734cc8-b57e-473e-bad2-3c3068bf18db",
+            "documentId": "c8991fdc-cd72-436d-90fe-538e4fe50f97",
+            "sourceName": "HowToCook",
+            "chunkType": "technique",
+            "content": "菜名：水煮牛肉\n- 每次制作前需要确定计划做几份。一份正好够 2 个人吃。 这是一份的量： - 牛肉 300g - 豆芽 100g - 鸡蛋 1 个 - 香菜 5 根 - 豆瓣酱 10g - 料酒 10ml - 淀粉 15g - 干辣椒粉 5g - 姜 20g - 蒜 3 瓣 - 红辣椒 1 根 - 蚝油 8g",
+            "similarity": 0.623134888597423
+          }
+        ],
+        "notes": [
+          "用户明确要求仅用 HowToCook，原文完整转录；complete=true 表示上游文档完整抓取，不表示烹饪参数无遗漏。",
+          "Source limitations: 原料/计算未列炒制及泼油的油类型、用量；操作另用开水但无定量。 原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。",
+          "GitHub commit a2d45c6984dff9ee941da0e7c452f7965965d962; path dishes/meat_dish/水煮牛肉/水煮牛肉.md",
+          "媒体按原文位置保留；未要求映射的照片不伪称步骤图。",
+          "Existing exact-name knowledge-base documents checked before source fetching: 0",
+          "Existing exact-name knowledge-base documents checked before source fetching: 0",
+          "Structured ingredient audit corrected only explicit ingredient names and matching raw source text; no amount was invented.",
+          "Existing exact-name knowledge-base documents checked before source fetching: 0"
+        ]
+      },
+      "ingestion": {
+        "ok": true,
+        "documentId": "c8991fdc-cd72-436d-90fe-538e4fe50f97",
+        "entityId": "23b19661-5fd1-4ce5-a3ed-39797d780b18",
+        "deduplicated": false,
+        "embedded": true,
+        "chunkCount": 5,
+        "model": "voyage-4",
+        "dimension": 1024,
+        "semanticCount": 5,
+        "hybridCount": 5,
+        "supersededDocumentIds": [
+          "8d1817f2-8548-4f76-95b4-a5dc20806811",
+          "c80d93dc-e9b1-48b5-a8ec-3cf2cdcbb828"
+        ],
+        "excludedFromSemantic": true,
+        "excludedFromHybrid": true
+      }
+    },
+    {
+      "recipeId": "cn-021",
+      "recipeName": "口水鸡",
+      "category": "chinese",
+      "status": "matched",
+      "path": "dishes/meat_dish/口水鸡/口水鸡.md",
+      "candidates": [
+        "dishes/meat_dish/口水鸡/口水鸡.md"
+      ],
+      "upstreamName": "口水鸡",
+      "rawMarkdown": "# 口水鸡的做法\n\n![口水鸡](./口水鸡.jpg)\n\n口水鸡是一道经典的四川凉菜，红油包裹的鸡肉冰爽 Q 弹、麻辣鲜香，夏季食用开胃解腻。鸡肉富含优质蛋白，搭配花生碎和香料，提供能量与风味。制作难度中等，需注意煮鸡火候和红油调味，适合有一定下厨经验的烹饪者。从备料、煮鸡、冷却到淋汁完成，预计耗时约 1.5 小时。\n\n预估烹饪难度：★★★\n\n预估卡路里：1392 大卡\n\n## 必备原料和工具\n\n- 半只鸡\n- 辣椒粉\n- 花椒\n- 花生\n- 葱姜蒜\n- 花椒\n- 白糖\n- 生抽\n- 醋\n- 味精\n\n## 计算\n\n每份：\n\n- 食用油   20ml\n- 鸡     半只(500g)\n- 辣椒粉   20g\n- 花椒     30 颗(20g)\n- 花生     10 颗(30g)\n- 小葱     2 颗(50g)\n- 姜       1 小块(20g)\n- 蒜       2 个 (10g)\n- 白糖     5g\n- 生抽     5ml\n- 醋       5ml\n- 味精     5g\n- 花椒粉   5g\n- 香菜     5g\n\n## 操作\n\n1. 姜切片，1 颗小葱，15 颗花椒备用\n2. 鸡肉洗干净，放入锅中，清水没过鸡肉，放入姜片、小葱和花椒，开大火烧开。\n3. 大火烧开后，转中小火 20 分钟关火\n4. 取出鸡肉，放入冰水中，直至冰凉\n5. 取出鸡肉，切块摆盘子中，备用\n6. 小火把锅烧热，导入花生，烘烤至表皮爆裂。（注意随时翻动，不要糊了）\n7. 一颗葱切成段，蒜拍成末，花椒 15 颗，花生去皮切碎。\n8. 锅内导入油烧热后，放入葱段，花椒和一半蒜末，炒香\n9. 炒至油温 8 成热，关火，滤出热油\n10. 将热油倒入放辣椒粉的碗中，搅拌，并滤出红油\n11. 红油中放入剩余蒜末、生抽、醋、盐、味精、糖、香油、花椒粉。拌匀放凉\n12. 在鸡肉上撒上花生碎，把红油淋到切好的鸡肉上，撒上香菜。成盘\n\n## 附加内容\n\n- 口水鸡第二种做法待更\n- 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+      "sha256": "331e18f5de20a5091df167ea9b85d5a00a32216789e62780909b1b74fdc6c701",
+      "sections": [
+        {
+          "title": "口水鸡的做法",
+          "markdown": "\n![口水鸡](./口水鸡.jpg)\n\n口水鸡是一道经典的四川凉菜，红油包裹的鸡肉冰爽 Q 弹、麻辣鲜香，夏季食用开胃解腻。鸡肉富含优质蛋白，搭配花生碎和香料，提供能量与风味。制作难度中等，需注意煮鸡火候和红油调味，适合有一定下厨经验的烹饪者。从备料、煮鸡、冷却到淋汁完成，预计耗时约 1.5 小时。\n\n预估烹饪难度：★★★\n\n预估卡路里：1392 大卡\n\n",
+          "level": 1
+        },
+        {
+          "title": "必备原料和工具",
+          "markdown": "\n- 半只鸡\n- 辣椒粉\n- 花椒\n- 花生\n- 葱姜蒜\n- 花椒\n- 白糖\n- 生抽\n- 醋\n- 味精\n\n",
+          "level": 2
+        },
+        {
+          "title": "计算",
+          "markdown": "\n每份：\n\n- 食用油   20ml\n- 鸡     半只(500g)\n- 辣椒粉   20g\n- 花椒     30 颗(20g)\n- 花生     10 颗(30g)\n- 小葱     2 颗(50g)\n- 姜       1 小块(20g)\n- 蒜       2 个 (10g)\n- 白糖     5g\n- 生抽     5ml\n- 醋       5ml\n- 味精     5g\n- 花椒粉   5g\n- 香菜     5g\n\n",
+          "level": 2
+        },
+        {
+          "title": "操作",
+          "markdown": "\n1. 姜切片，1 颗小葱，15 颗花椒备用\n2. 鸡肉洗干净，放入锅中，清水没过鸡肉，放入姜片、小葱和花椒，开大火烧开。\n3. 大火烧开后，转中小火 20 分钟关火\n4. 取出鸡肉，放入冰水中，直至冰凉\n5. 取出鸡肉，切块摆盘子中，备用\n6. 小火把锅烧热，导入花生，烘烤至表皮爆裂。（注意随时翻动，不要糊了）\n7. 一颗葱切成段，蒜拍成末，花椒 15 颗，花生去皮切碎。\n8. 锅内导入油烧热后，放入葱段，花椒和一半蒜末，炒香\n9. 炒至油温 8 成热，关火，滤出热油\n10. 将热油倒入放辣椒粉的碗中，搅拌，并滤出红油\n11. 红油中放入剩余蒜末、生抽、醋、盐、味精、糖、香油、花椒粉。拌匀放凉\n12. 在鸡肉上撒上花生碎，把红油淋到切好的鸡肉上，撒上香菜。成盘\n\n",
+          "level": 2
+        },
+        {
+          "title": "附加内容",
+          "markdown": "\n- 口水鸡第二种做法待更\n- 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+          "level": 2
+        }
+      ],
+      "images": [
+        {
+          "originalReference": "./口水鸡.jpg",
+          "originalUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/meat_dish/%E5%8F%A3%E6%B0%B4%E9%B8%A1/%E5%8F%A3%E6%B0%B4%E9%B8%A1.jpg",
+          "path": "assets/dishes/howtocook/cn-021/1.jpg",
+          "alt": "口水鸡",
+          "pageOrder": 1,
+          "adjacentText": "# 口水鸡的做法\n\n![口水鸡](./口水鸡.jpg)\n\n口水鸡是一道经典的四川凉菜，红油包裹的鸡肉冰爽 Q 弹、麻辣鲜香，夏季食用开胃解腻。鸡肉富含优质蛋白，搭配花生碎和香料，提供能量与风味。制作难度中等，需注意煮鸡火候和红油调味，适合有一定下厨经验的烹饪者。从备料、煮鸡、冷却到淋汁完成，预计耗时约 1.5 小时。\n\n预估烹饪难度：★★★\n\n预估卡路里：1392 大卡\n\n## 必备原料和工具\n\n- 半只鸡\n-"
+        }
+      ],
+      "limitations": [
+        "操作使用盐、香油但原料/计算未列用量；计算有食用油、花椒粉、香菜但必备表缺列；原必备表重复花椒。",
+        "原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。"
+      ],
+      "introduction": "# 口水鸡的做法\n\n![口水鸡](./口水鸡.jpg)\n\n口水鸡是一道经典的四川凉菜，红油包裹的鸡肉冰爽 Q 弹、麻辣鲜香，夏季食用开胃解腻。鸡肉富含优质蛋白，搭配花生碎和香料，提供能量与风味。制作难度中等，需注意煮鸡火候和红油调味，适合有一定下厨经验的烹饪者。从备料、煮鸡、冷却到淋汁完成，预计耗时约 1.5 小时。\n\n预估烹饪难度：★★★\n\n预估卡路里：1392 大卡\n\n",
+      "evidence": {
+        "recipeId": "cn-021",
+        "recipeName": "口水鸡",
+        "category": "chinese",
+        "createdAt": "2026-10-08T07:14:35.262630+00:00",
+        "sources": [
+          {
+            "sourceName": "HowToCook",
+            "sourceType": "website",
+            "url": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/meat_dish/%E5%8F%A3%E6%B0%B4%E9%B8%A1/%E5%8F%A3%E6%B0%B4%E9%B8%A1.md",
+            "documentId": "9719b586-9a9e-4793-8a48-9af003999c5b",
+            "retrievalMethod": "GitHub immutable raw Markdown via configured local HTTP proxy; no access-control bypass",
+            "complete": true,
+            "ingredients": [
+              {
+                "name": "鸡",
+                "raw": "鸡     半只(500g)",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "食用油",
+                "raw": "食用油   20ml",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "辣椒粉",
+                "raw": "辣椒粉   20g",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "花椒",
+                "raw": "花椒     30 颗(20g)",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "花生",
+                "raw": "花生     10 颗(30g)",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "小葱",
+                "raw": "小葱     2 颗(50g)",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "姜",
+                "raw": "姜       1 小块(20g)",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "蒜",
+                "raw": "蒜       2 个 (10g)",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "白糖",
+                "raw": "白糖     5g",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "生抽",
+                "raw": "生抽     5ml",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "醋",
+                "raw": "醋       5ml",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "味精",
+                "raw": "味精     5g",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "花椒粉",
+                "raw": "花椒粉   5g",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "香菜",
+                "raw": "香菜     5g",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "盐",
+                "raw": "红油中放入剩余蒜末、生抽、醋、盐、味精、糖、香油、花椒粉。拌匀放凉",
+                "amount": null,
+                "sourceSection": "操作/附加内容"
+              },
+              {
+                "name": "香油",
+                "raw": "红油中放入剩余蒜末、生抽、醋、盐、味精、糖、香油、花椒粉。拌匀放凉",
+                "amount": null,
+                "sourceSection": "操作/附加内容"
+              },
+              {
+                "name": "冰水",
+                "raw": "取出鸡肉，放入冰水中，直至冰凉",
+                "amount": null,
+                "sourceSection": "操作/附加内容"
+              },
+              {
+                "name": "清水",
+                "raw": "鸡肉洗干净，放入锅中，清水没过鸡肉，放入姜片、小葱和花椒，开大火烧开。",
+                "amount": null,
+                "sourceSection": "操作"
+              }
+            ],
+            "steps": [
+              {
+                "order": 1,
+                "instruction": "姜切片，1 颗小葱，15 颗花椒备用",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 1
+              },
+              {
+                "order": 2,
+                "instruction": "鸡肉洗干净，放入锅中，清水没过鸡肉，放入姜片、小葱和花椒，开大火烧开。",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 2
+              },
+              {
+                "order": 3,
+                "instruction": "大火烧开后，转中小火 20 分钟关火",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 3
+              },
+              {
+                "order": 4,
+                "instruction": "取出鸡肉，放入冰水中，直至冰凉",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 4
+              },
+              {
+                "order": 5,
+                "instruction": "取出鸡肉，切块摆盘子中，备用",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 5
+              },
+              {
+                "order": 6,
+                "instruction": "小火把锅烧热，导入花生，烘烤至表皮爆裂。（注意随时翻动，不要糊了）",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 6
+              },
+              {
+                "order": 7,
+                "instruction": "一颗葱切成段，蒜拍成末，花椒 15 颗，花生去皮切碎。",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 7
+              },
+              {
+                "order": 8,
+                "instruction": "锅内导入油烧热后，放入葱段，花椒和一半蒜末，炒香",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 8
+              },
+              {
+                "order": 9,
+                "instruction": "炒至油温 8 成热，关火，滤出热油",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 9
+              },
+              {
+                "order": 10,
+                "instruction": "将热油倒入放辣椒粉的碗中，搅拌，并滤出红油",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 10
+              },
+              {
+                "order": 11,
+                "instruction": "红油中放入剩余蒜末、生抽、醋、盐、味精、糖、香油、花椒粉。拌匀放凉",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 11
+              },
+              {
+                "order": 12,
+                "instruction": "在鸡肉上撒上花生碎，把红油淋到切好的鸡肉上，撒上香菜。成盘",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 12
+              }
+            ],
+            "technique": [
+              "每份：\n\n- 食用油   20ml\n- 鸡     半只(500g)\n- 辣椒粉   20g\n- 花椒     30 颗(20g)\n- 花生     10 颗(30g)\n- 小葱     2 颗(50g)\n- 姜       1 小块(20g)\n- 蒜       2 个 (10g)\n- 白糖     5g\n- 生抽     5ml\n- 醋       5ml\n- 味精     5g\n- 花椒粉   5g\n- 香菜     5g"
+            ],
+            "tips": [
+              "- 口水鸡第二种做法待更\n- 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+            ],
+            "rawExcerpt": "# 口水鸡的做法\n\n![口水鸡](./口水鸡.jpg)\n\n口水鸡是一道经典的四川凉菜，红油包裹的鸡肉冰爽 Q 弹、麻辣鲜香，夏季食用开胃解腻。鸡肉富含优质蛋白，搭配花生碎和香料，提供能量与风味。制作难度中等，需注意煮鸡火候和红油调味，适合有一定下厨经验的烹饪者。从备料、煮鸡、冷却到淋汁完成，预计耗时约 1.5 小时。\n\n预估烹饪难度：★★★\n\n预估卡路里：1392 大卡\n\n## 必备原料和工具\n\n- 半只鸡\n- 辣椒粉\n- 花椒\n- 花生\n- 葱姜蒜\n- 花椒\n- 白糖\n- 生抽\n- 醋\n- 味精\n\n## 计算\n\n每份：\n\n- 食用油   20ml\n- 鸡     半只(500g)\n- 辣椒粉   20g\n- 花椒     30 颗(20g)\n- 花生     10 颗(30g)\n- 小葱     2 颗(50g)\n- 姜       1 小块(20g)\n- 蒜       2 个 (10g)\n- 白糖     5g\n- 生抽     5ml\n- 醋       5ml\n- 味精     5g\n- 花椒粉   5g\n- 香菜     5g\n\n## 操作\n\n1. 姜切片，1 颗小葱，15 颗花椒备用\n2. 鸡肉洗干净，放入锅中，清水没过鸡肉，放入姜片、小葱和花椒，开大火烧开。\n3. 大火烧开后，转中小火 20 分钟关火\n4. 取出鸡肉，放入冰水中，直至冰凉\n5. 取出鸡肉，切块摆盘子中，备用\n6. 小火把锅烧热，导入花生，烘烤至表皮爆裂。（注意随时翻动，不要糊了）\n7. 一颗葱切成段，蒜拍成末，花椒 15 颗，花生去皮切碎。\n8. 锅内导入油烧热后，放入葱段，花椒和一半蒜末，炒香\n9. 炒至油温 8 成热，关火，滤出热油\n10. 将热油倒入放辣椒粉的碗中，搅拌，并滤出红油\n11. 红油中放入剩余蒜末、生抽、醋、盐、味精、糖、香油、花椒粉。拌匀放凉\n12. 在鸡肉上撒上花生碎，把红油淋到切好的鸡肉上，撒上香菜。成盘\n\n## 附加内容\n\n- 口水鸡第二种做法待更\n- 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n"
+          }
+        ],
+        "sourceMode": "single_source",
+        "singleSourceReason": "User explicitly directed exclusive HowToCook source and exact upstream transcription.",
+        "selectedSourceUrl": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/meat_dish/%E5%8F%A3%E6%B0%B4%E9%B8%A1/%E5%8F%A3%E6%B0%B4%E9%B8%A1.md",
+        "selectionReason": "上游菜谱文件名与指定菜名完全一致。",
+        "ragEvidence": [
+          {
+            "chunkId": "86127f7d-3d4a-4038-8f1e-279bd49618f9",
+            "documentId": "9719b586-9a9e-4793-8a48-9af003999c5b",
+            "sourceName": "HowToCook",
+            "chunkType": "tips",
+            "content": "菜名：口水鸡\n- - 口水鸡第二种做法待更 - 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。",
+            "similarity": 0.600171804428101
+          },
+          {
+            "chunkId": "b856a4ed-08f2-4082-827d-5d9b9b731631",
+            "documentId": "9719b586-9a9e-4793-8a48-9af003999c5b",
+            "sourceName": "HowToCook",
+            "chunkType": "summary",
+            "content": "菜名：口水鸡\n简介：# 口水鸡的做法 ![口水鸡](./口水鸡.jpg) 口水鸡是一道经典的四川凉菜，红油包裹的鸡肉冰爽 Q 弹、麻辣鲜香，夏季食用开胃解腻。鸡肉富含优质蛋白，搭配花生碎和香料，提供能量与风味。制作难度中等，需注意煮鸡火候和红油调味，适合有一定下厨经验的烹饪者。从备料、煮鸡、冷却到淋汁完成，预计耗时约 1.5 小时。 预估烹饪难度：★★★ 预估卡路里：1392 大卡",
+            "similarity": 0.491319313386658
+          },
+          {
+            "chunkId": "baa5060d-ae08-4f34-a568-5af0b273843b",
+            "documentId": "9719b586-9a9e-4793-8a48-9af003999c5b",
+            "sourceName": "HowToCook",
+            "chunkType": "ingredients",
+            "content": "菜名：口水鸡\n- 鸡 半只(500g)\n- 食用油 20ml\n- 辣椒粉 20g\n- 花椒 30 颗(20g)\n- 花生 10 颗(30g)\n- 小葱 2 颗(50g)\n- 姜 1 小块(20g)\n- 蒜 2 个 (10g)\n- 白糖 5g\n- 生抽 5ml\n- 醋 5ml\n- 味精 5g\n- 花椒粉 5g\n- 香菜 5g\n- 红油中放入剩余蒜末、生抽、醋、盐、味精、糖、香油、花椒粉。拌匀放凉\n- 红油中放入剩余蒜末、生抽、醋、盐、味精、糖、香油、花椒粉。拌匀放凉\n- 取出鸡肉，放入冰水中，直至冰凉\n- 鸡肉洗干净，放入锅中，清水没过鸡肉，放入姜片、小葱和花椒，开大火烧开。",
+            "similarity": 0.489575386047363
+          },
+          {
+            "chunkId": "ef2fc201-5ddd-47d6-851a-430eba2c3581",
+            "documentId": "9719b586-9a9e-4793-8a48-9af003999c5b",
+            "sourceName": "HowToCook",
+            "chunkType": "technique",
+            "content": "菜名：口水鸡\n- 每份： - 食用油 20ml - 鸡 半只(500g) - 辣椒粉 20g - 花椒 30 颗(20g) - 花生 10 颗(30g) - 小葱 2 颗(50g) - 姜 1 小块(20g) - 蒜 2 个 (10g) - 白糖 5g - 生抽 5ml - 醋 5ml - 味精 5g - 花椒粉 5g - 香菜 5g",
+            "similarity": 0.489570587873459
+          },
+          {
+            "chunkId": "1a755b3e-9cce-4811-92b0-c1ddb530fec0",
+            "documentId": "9719b586-9a9e-4793-8a48-9af003999c5b",
+            "sourceName": "HowToCook",
+            "chunkType": "steps",
+            "content": "菜名：口水鸡\n1. 姜切片，1 颗小葱，15 颗花椒备用\n2. 鸡肉洗干净，放入锅中，清水没过鸡肉，放入姜片、小葱和花椒，开大火烧开。\n3. 大火烧开后，转中小火 20 分钟关火\n4. 取出鸡肉，放入冰水中，直至冰凉\n5. 取出鸡肉，切块摆盘子中，备用\n6. 小火把锅烧热，导入花生，烘烤至表皮爆裂。（注意随时翻动，不要糊了）\n7. 一颗葱切成段，蒜拍成末，花椒 15 颗，花生去皮切碎。\n8. 锅内导入油烧热后，放入葱段，花椒和一半蒜末，炒香\n9. 炒至油温 8 成热，关火，滤出热油\n10. 将热油倒入放辣椒粉的碗中，搅拌，并滤出红油\n11. 红油中放入剩余蒜末、生抽、醋、盐、味精、糖、香油、花椒粉。拌匀放凉\n12. 在鸡肉上撒上花生碎，把红油淋到切好的鸡肉上，撒上香菜。成盘",
+            "similarity": 0.489322483539581
+          }
+        ],
+        "notes": [
+          "用户明确要求仅用 HowToCook，原文完整转录；complete=true 表示上游文档完整抓取，不表示烹饪参数无遗漏。",
+          "Source limitations: 操作使用盐、香油但原料/计算未列用量；计算有食用油、花椒粉、香菜但必备表缺列；原必备表重复花椒。 原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。",
+          "GitHub commit a2d45c6984dff9ee941da0e7c452f7965965d962; path dishes/meat_dish/口水鸡/口水鸡.md",
+          "媒体按原文位置保留；未要求映射的照片不伪称步骤图。",
+          "Existing exact-name knowledge-base documents checked before source fetching: 0",
+          "Existing exact-name knowledge-base documents checked before source fetching: 0",
+          "Structured ingredient audit corrected only explicit ingredient names and matching raw source text; no amount was invented.",
+          "Existing exact-name knowledge-base documents checked before source fetching: 0"
+        ]
+      },
+      "ingestion": {
+        "ok": true,
+        "documentId": "9719b586-9a9e-4793-8a48-9af003999c5b",
+        "entityId": "9b808a2c-9222-48f7-8430-c0d1b434f83e",
+        "deduplicated": false,
+        "embedded": true,
+        "chunkCount": 5,
+        "model": "voyage-4",
+        "dimension": 1024,
+        "semanticCount": 5,
+        "hybridCount": 5,
+        "supersededDocumentIds": [
+          "28c4bd94-cccd-4adb-96e8-c870fd904bd4",
+          "d2021f78-c184-4903-adc4-abd74ce4c1eb"
+        ],
+        "excludedFromSemantic": true,
+        "excludedFromHybrid": true
+      }
+    },
+    {
+      "recipeId": "cn-030",
+      "recipeName": "蚂蚁上树",
+      "category": "chinese",
+      "status": "matched",
+      "path": "dishes/meat_dish/蚂蚁上树.md",
+      "candidates": [
+        "dishes/meat_dish/蚂蚁上树.md"
+      ],
+      "upstreamName": "蚂蚁上树",
+      "rawMarkdown": "# 蚂蚁上树的做法\n\n蚂蚁上树是一道经典的川味家常菜，咸香微辣，粉丝软滑吸汁，肉末细嫩鲜香。以红薯粉丝和肉末为主料，富含碳水化合物与蛋白质，能快速补充能量。制作难度中等，步骤清晰，对新手比较友好，全程约需 20 分钟即可完成。\n\n预估烹饪难度：★★★\n\n预估卡路里：791 大卡\n\n## 必备原料和工具\n\n- 红薯粉丝\n- 猪肉末（或牛肉末）\n- 郫县豆瓣酱\n- 生抽\n- 老抽\n- 食用油\n- 蒜末、姜末\n- 小葱（可选）\n\n## 计算\n\n每次制作前需要确定计划做几份。一份正好够 2 个人吃。\n\n每份：\n\n- 红薯粉丝 80g（干重）\n- 猪肉末 150g\n- 郫县豆瓣酱 15g\n- 生抽 10ml\n- 老抽 5ml\n- 食用油 10ml\n- 蒜末 10g\n- 姜末 5g\n- 清水 300ml（用于煮粉丝）\n\n## 操作\n\n1. 红薯粉丝提前泡软，泡水时间为 20 分钟，备用\n2. 将蒜、姜分别剁碎，备用\n3. 锅烧热，加入 10ml 食用油，加入蒜末、姜末炒香\n4. 加入猪肉末翻炒至**肉色发白且微微出油**\n5. 加入郫县豆瓣酱，炒至**红油析出**\n6. 加入生抽和老抽，翻炒均匀\n7. 倒入 300ml 清水，煮沸\n8. 放入泡软沥干的粉丝，用筷子轻轻拨动防止粘连\n9. 中小火煮约 5 分钟，直至粉丝**完全吸收汤汁**、呈现微微收干状态\n10. 依据口味可撒入小葱末，关火装盘\n\n## 附加内容\n\n- 粉丝不建议煮太久，易断且口感变差；若时间过长汤汁应适当减少\n- 郫县豆瓣酱含盐量较高，可根据口味酌情减少生抽用量\n- 可加入 0.5g 白胡椒粉调味，风味更佳\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+      "sha256": "547feef7fc58df68756bac4e753ef9519e6f23426b734a90252f3f5cb4184e7e",
+      "sections": [
+        {
+          "title": "蚂蚁上树的做法",
+          "markdown": "\n蚂蚁上树是一道经典的川味家常菜，咸香微辣，粉丝软滑吸汁，肉末细嫩鲜香。以红薯粉丝和肉末为主料，富含碳水化合物与蛋白质，能快速补充能量。制作难度中等，步骤清晰，对新手比较友好，全程约需 20 分钟即可完成。\n\n预估烹饪难度：★★★\n\n预估卡路里：791 大卡\n\n",
+          "level": 1
+        },
+        {
+          "title": "必备原料和工具",
+          "markdown": "\n- 红薯粉丝\n- 猪肉末（或牛肉末）\n- 郫县豆瓣酱\n- 生抽\n- 老抽\n- 食用油\n- 蒜末、姜末\n- 小葱（可选）\n\n",
+          "level": 2
+        },
+        {
+          "title": "计算",
+          "markdown": "\n每次制作前需要确定计划做几份。一份正好够 2 个人吃。\n\n每份：\n\n- 红薯粉丝 80g（干重）\n- 猪肉末 150g\n- 郫县豆瓣酱 15g\n- 生抽 10ml\n- 老抽 5ml\n- 食用油 10ml\n- 蒜末 10g\n- 姜末 5g\n- 清水 300ml（用于煮粉丝）\n\n",
+          "level": 2
+        },
+        {
+          "title": "操作",
+          "markdown": "\n1. 红薯粉丝提前泡软，泡水时间为 20 分钟，备用\n2. 将蒜、姜分别剁碎，备用\n3. 锅烧热，加入 10ml 食用油，加入蒜末、姜末炒香\n4. 加入猪肉末翻炒至**肉色发白且微微出油**\n5. 加入郫县豆瓣酱，炒至**红油析出**\n6. 加入生抽和老抽，翻炒均匀\n7. 倒入 300ml 清水，煮沸\n8. 放入泡软沥干的粉丝，用筷子轻轻拨动防止粘连\n9. 中小火煮约 5 分钟，直至粉丝**完全吸收汤汁**、呈现微微收干状态\n10. 依据口味可撒入小葱末，关火装盘\n\n",
+          "level": 2
+        },
+        {
+          "title": "附加内容",
+          "markdown": "\n- 粉丝不建议煮太久，易断且口感变差；若时间过长汤汁应适当减少\n- 郫县豆瓣酱含盐量较高，可根据口味酌情减少生抽用量\n- 可加入 0.5g 白胡椒粉调味，风味更佳\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+          "level": 2
+        }
+      ],
+      "images": [],
+      "limitations": [
+        "小葱为可选未定量；附加内容提及可选白胡椒粉0.5g。",
+        "引言全程约20分钟，但操作单列泡粉20分钟及后续煮5分钟；保留原文不校正总时长。",
+        "本上游菜谱无图片，按用户要求不补造图片。",
+        "原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。"
+      ],
+      "introduction": "# 蚂蚁上树的做法\n\n蚂蚁上树是一道经典的川味家常菜，咸香微辣，粉丝软滑吸汁，肉末细嫩鲜香。以红薯粉丝和肉末为主料，富含碳水化合物与蛋白质，能快速补充能量。制作难度中等，步骤清晰，对新手比较友好，全程约需 20 分钟即可完成。\n\n预估烹饪难度：★★★\n\n预估卡路里：791 大卡\n\n",
+      "evidence": {
+        "recipeId": "cn-030",
+        "recipeName": "蚂蚁上树",
+        "category": "chinese",
+        "createdAt": "2026-10-08T07:14:35.262630+00:00",
+        "sources": [
+          {
+            "sourceName": "HowToCook",
+            "sourceType": "website",
+            "url": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/meat_dish/%E8%9A%82%E8%9A%81%E4%B8%8A%E6%A0%91.md",
+            "documentId": "5b5ce493-18f1-45da-a20e-ee36d7a89025",
+            "retrievalMethod": "GitHub immutable raw Markdown via configured local HTTP proxy; no access-control bypass",
+            "complete": true,
+            "ingredients": [
+              {
+                "name": "红薯粉丝",
+                "raw": "红薯粉丝 80g（干重）",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "猪肉末",
+                "raw": "猪肉末 150g",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "郫县豆瓣酱",
+                "raw": "郫县豆瓣酱 15g",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "生抽",
+                "raw": "生抽 10ml",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "老抽",
+                "raw": "老抽 5ml",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "食用油",
+                "raw": "食用油 10ml",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "蒜末",
+                "raw": "蒜末 10g",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "姜末",
+                "raw": "姜末 5g",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "小葱",
+                "raw": "小葱（可选）",
+                "amount": null,
+                "sourceSection": "必备原料和工具"
+              },
+              {
+                "name": "清水",
+                "raw": "清水 300ml（用于煮粉丝）",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "白胡椒粉",
+                "raw": "可加入 0.5g 白胡椒粉调味，风味更佳",
+                "amount": null,
+                "sourceSection": "操作/附加内容"
+              },
+              {
+                "name": "牛肉末（替代猪肉末）",
+                "raw": "猪肉末（或牛肉末）",
+                "amount": null,
+                "sourceSection": "必备原料和工具"
+              }
+            ],
+            "steps": [
+              {
+                "order": 1,
+                "instruction": "红薯粉丝提前泡软，泡水时间为 20 分钟，备用",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 1
+              },
+              {
+                "order": 2,
+                "instruction": "将蒜、姜分别剁碎，备用",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 2
+              },
+              {
+                "order": 3,
+                "instruction": "锅烧热，加入 10ml 食用油，加入蒜末、姜末炒香",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 3
+              },
+              {
+                "order": 4,
+                "instruction": "加入猪肉末翻炒至**肉色发白且微微出油**",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 4
+              },
+              {
+                "order": 5,
+                "instruction": "加入郫县豆瓣酱，炒至**红油析出**",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 5
+              },
+              {
+                "order": 6,
+                "instruction": "加入生抽和老抽，翻炒均匀",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 6
+              },
+              {
+                "order": 7,
+                "instruction": "倒入 300ml 清水，煮沸",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 7
+              },
+              {
+                "order": 8,
+                "instruction": "放入泡软沥干的粉丝，用筷子轻轻拨动防止粘连",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 8
+              },
+              {
+                "order": 9,
+                "instruction": "中小火煮约 5 分钟，直至粉丝**完全吸收汤汁**、呈现微微收干状态",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 9
+              },
+              {
+                "order": 10,
+                "instruction": "依据口味可撒入小葱末，关火装盘",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 10
+              }
+            ],
+            "technique": [
+              "每次制作前需要确定计划做几份。一份正好够 2 个人吃。\n\n每份：\n\n- 红薯粉丝 80g（干重）\n- 猪肉末 150g\n- 郫县豆瓣酱 15g\n- 生抽 10ml\n- 老抽 5ml\n- 食用油 10ml\n- 蒜末 10g\n- 姜末 5g\n- 清水 300ml（用于煮粉丝）"
+            ],
+            "tips": [
+              "- 粉丝不建议煮太久，易断且口感变差；若时间过长汤汁应适当减少\n- 郫县豆瓣酱含盐量较高，可根据口味酌情减少生抽用量\n- 可加入 0.5g 白胡椒粉调味，风味更佳\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+            ],
+            "rawExcerpt": "# 蚂蚁上树的做法\n\n蚂蚁上树是一道经典的川味家常菜，咸香微辣，粉丝软滑吸汁，肉末细嫩鲜香。以红薯粉丝和肉末为主料，富含碳水化合物与蛋白质，能快速补充能量。制作难度中等，步骤清晰，对新手比较友好，全程约需 20 分钟即可完成。\n\n预估烹饪难度：★★★\n\n预估卡路里：791 大卡\n\n## 必备原料和工具\n\n- 红薯粉丝\n- 猪肉末（或牛肉末）\n- 郫县豆瓣酱\n- 生抽\n- 老抽\n- 食用油\n- 蒜末、姜末\n- 小葱（可选）\n\n## 计算\n\n每次制作前需要确定计划做几份。一份正好够 2 个人吃。\n\n每份：\n\n- 红薯粉丝 80g（干重）\n- 猪肉末 150g\n- 郫县豆瓣酱 15g\n- 生抽 10ml\n- 老抽 5ml\n- 食用油 10ml\n- 蒜末 10g\n- 姜末 5g\n- 清水 300ml（用于煮粉丝）\n\n## 操作\n\n1. 红薯粉丝提前泡软，泡水时间为 20 分钟，备用\n2. 将蒜、姜分别剁碎，备用\n3. 锅烧热，加入 10ml 食用油，加入蒜末、姜末炒香\n4. 加入猪肉末翻炒至**肉色发白且微微出油**\n5. 加入郫县豆瓣酱，炒至**红油析出**\n6. 加入生抽和老抽，翻炒均匀\n7. 倒入 300ml 清水，煮沸\n8. 放入泡软沥干的粉丝，用筷子轻轻拨动防止粘连\n9. 中小火煮约 5 分钟，直至粉丝**完全吸收汤汁**、呈现微微收干状态\n10. 依据口味可撒入小葱末，关火装盘\n\n## 附加内容\n\n- 粉丝不建议煮太久，易断且口感变差；若时间过长汤汁应适当减少\n- 郫县豆瓣酱含盐量较高，可根据口味酌情减少生抽用量\n- 可加入 0.5g 白胡椒粉调味，风味更佳\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n"
+          }
+        ],
+        "sourceMode": "single_source",
+        "singleSourceReason": "User explicitly directed exclusive HowToCook source and exact upstream transcription.",
+        "selectedSourceUrl": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/meat_dish/%E8%9A%82%E8%9A%81%E4%B8%8A%E6%A0%91.md",
+        "selectionReason": "上游菜谱文件名与指定菜名完全一致。",
+        "ragEvidence": [
+          {
+            "chunkId": "4b91b593-2e38-48ea-9011-e8c9c8e6eb29",
+            "documentId": "5b5ce493-18f1-45da-a20e-ee36d7a89025",
+            "sourceName": "HowToCook",
+            "chunkType": "summary",
+            "content": "菜名：蚂蚁上树\n简介：# 蚂蚁上树的做法 蚂蚁上树是一道经典的川味家常菜，咸香微辣，粉丝软滑吸汁，肉末细嫩鲜香。以红薯粉丝和肉末为主料，富含碳水化合物与蛋白质，能快速补充能量。制作难度中等，步骤清晰，对新手比较友好，全程约需 20 分钟即可完成。 预估烹饪难度：★★★ 预估卡路里：791 大卡",
+            "similarity": 0.327152877493461
+          },
+          {
+            "chunkId": "8571b0a8-2a27-4eb3-b8cd-9bd596cff91c",
+            "documentId": "5b5ce493-18f1-45da-a20e-ee36d7a89025",
+            "sourceName": "HowToCook",
+            "chunkType": "tips",
+            "content": "菜名：蚂蚁上树\n- - 粉丝不建议煮太久，易断且口感变差；若时间过长汤汁应适当减少 - 郫县豆瓣酱含盐量较高，可根据口味酌情减少生抽用量 - 可加入 0.5g 白胡椒粉调味，风味更佳 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。",
+            "similarity": 0.316182713736134
+          },
+          {
+            "chunkId": "c61f1762-8912-4f2c-8073-01a22730f928",
+            "documentId": "5b5ce493-18f1-45da-a20e-ee36d7a89025",
+            "sourceName": "HowToCook",
+            "chunkType": "technique",
+            "content": "菜名：蚂蚁上树\n- 每次制作前需要确定计划做几份。一份正好够 2 个人吃。 每份： - 红薯粉丝 80g（干重） - 猪肉末 150g - 郫县豆瓣酱 15g - 生抽 10ml - 老抽 5ml - 食用油 10ml - 蒜末 10g - 姜末 5g - 清水 300ml（用于煮粉丝）",
+            "similarity": 0.26106203380412
+          },
+          {
+            "chunkId": "87bf7f78-2720-4081-8d08-27af05658d19",
+            "documentId": "5b5ce493-18f1-45da-a20e-ee36d7a89025",
+            "sourceName": "HowToCook",
+            "chunkType": "ingredients",
+            "content": "菜名：蚂蚁上树\n- 红薯粉丝 80g（干重）\n- 猪肉末 150g\n- 郫县豆瓣酱 15g\n- 生抽 10ml\n- 老抽 5ml\n- 食用油 10ml\n- 蒜末 10g\n- 姜末 5g\n- 小葱（可选）\n- 清水 300ml（用于煮粉丝）\n- 可加入 0.5g 白胡椒粉调味，风味更佳\n- 猪肉末（或牛肉末）",
+            "similarity": 0.255034089688552
+          },
+          {
+            "chunkId": "af5503da-6324-4cc1-a3ee-823adc34d7c8",
+            "documentId": "5b5ce493-18f1-45da-a20e-ee36d7a89025",
+            "sourceName": "HowToCook",
+            "chunkType": "steps",
+            "content": "菜名：蚂蚁上树\n1. 红薯粉丝提前泡软，泡水时间为 20 分钟，备用\n2. 将蒜、姜分别剁碎，备用\n3. 锅烧热，加入 10ml 食用油，加入蒜末、姜末炒香\n4. 加入猪肉末翻炒至**肉色发白且微微出油**\n5. 加入郫县豆瓣酱，炒至**红油析出**\n6. 加入生抽和老抽，翻炒均匀\n7. 倒入 300ml 清水，煮沸\n8. 放入泡软沥干的粉丝，用筷子轻轻拨动防止粘连\n9. 中小火煮约 5 分钟，直至粉丝**完全吸收汤汁**、呈现微微收干状态\n10. 依据口味可撒入小葱末，关火装盘",
+            "similarity": 0.235928721306584
+          }
+        ],
+        "notes": [
+          "用户明确要求仅用 HowToCook，原文完整转录；complete=true 表示上游文档完整抓取，不表示烹饪参数无遗漏。",
+          "Source limitations: 小葱为可选未定量；附加内容提及可选白胡椒粉0.5g。 引言全程约20分钟，但操作单列泡粉20分钟及后续煮5分钟；保留原文不校正总时长。 本上游菜谱无图片，按用户要求不补造图片。 原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。",
+          "GitHub commit a2d45c6984dff9ee941da0e7c452f7965965d962; path dishes/meat_dish/蚂蚁上树.md",
+          "媒体按原文位置保留；未要求映射的照片不伪称步骤图。",
+          "Existing exact-name knowledge-base documents checked before source fetching: 0",
+          "Structured ingredient audit corrected only explicit ingredient names and matching raw source text; no amount was invented.",
+          "Existing exact-name knowledge-base documents checked before source fetching: 0"
+        ]
+      },
+      "ingestion": {
+        "ok": true,
+        "documentId": "5b5ce493-18f1-45da-a20e-ee36d7a89025",
+        "entityId": "ba3e4e6b-fb66-4414-af1b-738c2d65dc51",
+        "deduplicated": false,
+        "embedded": true,
+        "chunkCount": 5,
+        "model": "voyage-4",
+        "dimension": 1024,
+        "semanticCount": 5,
+        "hybridCount": 5,
+        "supersededDocumentIds": [
+          "841ad0a4-5894-432b-9e42-55d4e1ccd0b7",
+          "a6680e61-8520-4b14-8a23-ed33df14fdb0"
+        ],
+        "excludedFromSemantic": true,
+        "excludedFromHybrid": true
+      }
+    },
+    {
+      "recipeId": "cn-041",
+      "recipeName": "炸酱面",
+      "category": "chinese",
+      "status": "matched",
+      "path": "dishes/staple/炸酱面.md",
+      "candidates": [
+        "dishes/staple/炸酱面.md"
+      ],
+      "upstreamName": "炸酱面",
+      "rawMarkdown": "# 炸酱面的做法\n\n炸酱面是一道酱香浓郁、面条劲道的传统北京家常面食，搭配清爽菜码，咸甜适口。主要营养来自瘦肉蛋白质和蔬菜维生素，能为人体提供充足能量。做法对新手友好，预计制作时长约 30 分钟，熟练掌握后可通过备菜与炒酱并行进一步缩短时间。\n\n预估烹饪难度：★★★\n\n预估卡路里：1272 大卡\n\n## 必备原料和工具\n\n* 肉丁/肉末\n* 面条（挂面或普通面条）\n* 蒜\n* 菜码（根据个人喜好选择，通常 4-10 种，可选择黄瓜、白菜、萝卜等）\n* 豆瓣酱\n* 甜面酱\n\n## 计算\n\n每次制作前需要确定计划做几份。一份正好够 1 个人食用\n\n每份：\n\n* 肉丁/肉末 150g\n* 如果 *面条* 选择了*挂面*：150g  \n  如果 *面条* 选择了*普通面条*：250g\n* 葱 15g\n* 菜码 总量 35g\n* 食用油 10g\n* 豆瓣酱 20g\n* 甜面酱 20g\n\n## 操作\n\n1. 菜码切丝备用。\n2. 葱切碎。油锅烧热，下葱和肉，炒至肉完全熟透（无红色）\n3. 下豆瓣酱和甜面酱，继续炒至**微微粘稠**。盛出，得到*炸酱*。\n4. 取大碗，加凉水备用。\n5. 煮面条至断生（无白芯），盛入第 4 步装有凉水的碗中。\n6. 立即控水捞出，盛入干净的碗中。\n7. 取第 3 步炸酱，倒入碗中，拌匀。然后取第 1 步菜码，倒入碗中，拌匀。\n\n## 附加内容\n\n* 肉推荐瘦肉丁，口感更好，推荐现买现用。\n* *面条*推荐使用*普通面条*。\n* 面条口感关键在于劲道。勿选龙须等细面。\n* 如有条件（另一个锅）且熟练后，第 2、3 步和 1、4、5、6 步可分时并行执行。\n* 甜咸口个人有爱好，两种酱的配比需要自己迭代优化。\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+      "sha256": "dc8249046f936141ba2e95c0a6d206825692c42c5eedb2f443245c174375ed99",
+      "sections": [
+        {
+          "title": "炸酱面的做法",
+          "markdown": "\n炸酱面是一道酱香浓郁、面条劲道的传统北京家常面食，搭配清爽菜码，咸甜适口。主要营养来自瘦肉蛋白质和蔬菜维生素，能为人体提供充足能量。做法对新手友好，预计制作时长约 30 分钟，熟练掌握后可通过备菜与炒酱并行进一步缩短时间。\n\n预估烹饪难度：★★★\n\n预估卡路里：1272 大卡\n\n",
+          "level": 1
+        },
+        {
+          "title": "必备原料和工具",
+          "markdown": "\n* 肉丁/肉末\n* 面条（挂面或普通面条）\n* 蒜\n* 菜码（根据个人喜好选择，通常 4-10 种，可选择黄瓜、白菜、萝卜等）\n* 豆瓣酱\n* 甜面酱\n\n",
+          "level": 2
+        },
+        {
+          "title": "计算",
+          "markdown": "\n每次制作前需要确定计划做几份。一份正好够 1 个人食用\n\n每份：\n\n* 肉丁/肉末 150g\n* 如果 *面条* 选择了*挂面*：150g  \n  如果 *面条* 选择了*普通面条*：250g\n* 葱 15g\n* 菜码 总量 35g\n* 食用油 10g\n* 豆瓣酱 20g\n* 甜面酱 20g\n\n",
+          "level": 2
+        },
+        {
+          "title": "操作",
+          "markdown": "\n1. 菜码切丝备用。\n2. 葱切碎。油锅烧热，下葱和肉，炒至肉完全熟透（无红色）\n3. 下豆瓣酱和甜面酱，继续炒至**微微粘稠**。盛出，得到*炸酱*。\n4. 取大碗，加凉水备用。\n5. 煮面条至断生（无白芯），盛入第 4 步装有凉水的碗中。\n6. 立即控水捞出，盛入干净的碗中。\n7. 取第 3 步炸酱，倒入碗中，拌匀。然后取第 1 步菜码，倒入碗中，拌匀。\n\n",
+          "level": 2
+        },
+        {
+          "title": "附加内容",
+          "markdown": "\n* 肉推荐瘦肉丁，口感更好，推荐现买现用。\n* *面条*推荐使用*普通面条*。\n* 面条口感关键在于劲道。勿选龙须等细面。\n* 如有条件（另一个锅）且熟练后，第 2、3 步和 1、4、5、6 步可分时并行执行。\n* 甜咸口个人有爱好，两种酱的配比需要自己迭代优化。\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+          "level": 2
+        }
+      ],
+      "images": [],
+      "limitations": [
+        "必备表列蒜，但计算和操作使用葱；蒜未说明用量及加入时点。",
+        "本上游菜谱无图片，按用户要求不补造图片。",
+        "原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。"
+      ],
+      "introduction": "# 炸酱面的做法\n\n炸酱面是一道酱香浓郁、面条劲道的传统北京家常面食，搭配清爽菜码，咸甜适口。主要营养来自瘦肉蛋白质和蔬菜维生素，能为人体提供充足能量。做法对新手友好，预计制作时长约 30 分钟，熟练掌握后可通过备菜与炒酱并行进一步缩短时间。\n\n预估烹饪难度：★★★\n\n预估卡路里：1272 大卡\n\n",
+      "evidence": {
+        "recipeId": "cn-041",
+        "recipeName": "炸酱面",
+        "category": "chinese",
+        "createdAt": "2026-10-08T07:14:35.262630+00:00",
+        "sources": [
+          {
+            "sourceName": "HowToCook",
+            "sourceType": "website",
+            "url": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/staple/%E7%82%B8%E9%85%B1%E9%9D%A2.md",
+            "documentId": "575a3c45-12c1-4f06-82df-2b2b183a1883",
+            "retrievalMethod": "GitHub immutable raw Markdown via configured local HTTP proxy; no access-control bypass",
+            "complete": true,
+            "ingredients": [
+              {
+                "name": "肉丁/肉末",
+                "raw": "肉丁/肉末 150g",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "面条",
+                "raw": "如果 *面条* 选择了*挂面*：150g",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "蒜",
+                "raw": "蒜",
+                "amount": null,
+                "sourceSection": "必备原料和工具"
+              },
+              {
+                "name": "葱",
+                "raw": "葱 15g",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "菜码",
+                "raw": "菜码 总量 35g",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "食用油",
+                "raw": "食用油 10g",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "豆瓣酱",
+                "raw": "豆瓣酱 20g",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "甜面酱",
+                "raw": "甜面酱 20g",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "黄瓜、白菜、萝卜等可选菜码",
+                "raw": "菜码（根据个人喜好选择，通常 4-10 种，可选择黄瓜、白菜、萝卜等）",
+                "amount": null,
+                "sourceSection": "必备原料和工具"
+              }
+            ],
+            "steps": [
+              {
+                "order": 1,
+                "instruction": "菜码切丝备用。",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 1
+              },
+              {
+                "order": 2,
+                "instruction": "葱切碎。油锅烧热，下葱和肉，炒至肉完全熟透（无红色）",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 2
+              },
+              {
+                "order": 3,
+                "instruction": "下豆瓣酱和甜面酱，继续炒至**微微粘稠**。盛出，得到*炸酱*。",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 3
+              },
+              {
+                "order": 4,
+                "instruction": "取大碗，加凉水备用。",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 4
+              },
+              {
+                "order": 5,
+                "instruction": "煮面条至断生（无白芯），盛入第 4 步装有凉水的碗中。",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 5
+              },
+              {
+                "order": 6,
+                "instruction": "立即控水捞出，盛入干净的碗中。",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 6
+              },
+              {
+                "order": 7,
+                "instruction": "取第 3 步炸酱，倒入碗中，拌匀。然后取第 1 步菜码，倒入碗中，拌匀。",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 7
+              }
+            ],
+            "technique": [
+              "每次制作前需要确定计划做几份。一份正好够 1 个人食用\n\n每份：\n\n* 肉丁/肉末 150g\n* 如果 *面条* 选择了*挂面*：150g  \n  如果 *面条* 选择了*普通面条*：250g\n* 葱 15g\n* 菜码 总量 35g\n* 食用油 10g\n* 豆瓣酱 20g\n* 甜面酱 20g"
+            ],
+            "tips": [
+              "* 肉推荐瘦肉丁，口感更好，推荐现买现用。\n* *面条*推荐使用*普通面条*。\n* 面条口感关键在于劲道。勿选龙须等细面。\n* 如有条件（另一个锅）且熟练后，第 2、3 步和 1、4、5、6 步可分时并行执行。\n* 甜咸口个人有爱好，两种酱的配比需要自己迭代优化。\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+            ],
+            "rawExcerpt": "# 炸酱面的做法\n\n炸酱面是一道酱香浓郁、面条劲道的传统北京家常面食，搭配清爽菜码，咸甜适口。主要营养来自瘦肉蛋白质和蔬菜维生素，能为人体提供充足能量。做法对新手友好，预计制作时长约 30 分钟，熟练掌握后可通过备菜与炒酱并行进一步缩短时间。\n\n预估烹饪难度：★★★\n\n预估卡路里：1272 大卡\n\n## 必备原料和工具\n\n* 肉丁/肉末\n* 面条（挂面或普通面条）\n* 蒜\n* 菜码（根据个人喜好选择，通常 4-10 种，可选择黄瓜、白菜、萝卜等）\n* 豆瓣酱\n* 甜面酱\n\n## 计算\n\n每次制作前需要确定计划做几份。一份正好够 1 个人食用\n\n每份：\n\n* 肉丁/肉末 150g\n* 如果 *面条* 选择了*挂面*：150g  \n  如果 *面条* 选择了*普通面条*：250g\n* 葱 15g\n* 菜码 总量 35g\n* 食用油 10g\n* 豆瓣酱 20g\n* 甜面酱 20g\n\n## 操作\n\n1. 菜码切丝备用。\n2. 葱切碎。油锅烧热，下葱和肉，炒至肉完全熟透（无红色）\n3. 下豆瓣酱和甜面酱，继续炒至**微微粘稠**。盛出，得到*炸酱*。\n4. 取大碗，加凉水备用。\n5. 煮面条至断生（无白芯），盛入第 4 步装有凉水的碗中。\n6. 立即控水捞出，盛入干净的碗中。\n7. 取第 3 步炸酱，倒入碗中，拌匀。然后取第 1 步菜码，倒入碗中，拌匀。\n\n## 附加内容\n\n* 肉推荐瘦肉丁，口感更好，推荐现买现用。\n* *面条*推荐使用*普通面条*。\n* 面条口感关键在于劲道。勿选龙须等细面。\n* 如有条件（另一个锅）且熟练后，第 2、3 步和 1、4、5、6 步可分时并行执行。\n* 甜咸口个人有爱好，两种酱的配比需要自己迭代优化。\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n"
+          }
+        ],
+        "sourceMode": "single_source",
+        "singleSourceReason": "User explicitly directed exclusive HowToCook source and exact upstream transcription.",
+        "selectedSourceUrl": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/staple/%E7%82%B8%E9%85%B1%E9%9D%A2.md",
+        "selectionReason": "上游菜谱文件名与指定菜名完全一致。",
+        "ragEvidence": [
+          {
+            "chunkId": "d621c7b6-f50a-4a66-80d3-1bf43bb3037d",
+            "documentId": "575a3c45-12c1-4f06-82df-2b2b183a1883",
+            "sourceName": "HowToCook",
+            "chunkType": "tips",
+            "content": "菜名：炸酱面\n- * 肉推荐瘦肉丁，口感更好，推荐现买现用。 * *面条*推荐使用*普通面条*。 * 面条口感关键在于劲道。勿选龙须等细面。 * 如有条件（另一个锅）且熟练后，第 2、3 步和 1、4、5、6 步可分时并行执行。 * 甜咸口个人有爱好，两种酱的配比需要自己迭代优化。 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。",
+            "similarity": 0.722438249297356
+          },
+          {
+            "chunkId": "53ccce3c-e32f-4f6b-b432-26a9a6c07036",
+            "documentId": "575a3c45-12c1-4f06-82df-2b2b183a1883",
+            "sourceName": "HowToCook",
+            "chunkType": "steps",
+            "content": "菜名：炸酱面\n1. 菜码切丝备用。\n2. 葱切碎。油锅烧热，下葱和肉，炒至肉完全熟透（无红色）\n3. 下豆瓣酱和甜面酱，继续炒至**微微粘稠**。盛出，得到*炸酱*。\n4. 取大碗，加凉水备用。\n5. 煮面条至断生（无白芯），盛入第 4 步装有凉水的碗中。\n6. 立即控水捞出，盛入干净的碗中。\n7. 取第 3 步炸酱，倒入碗中，拌匀。然后取第 1 步菜码，倒入碗中，拌匀。",
+            "similarity": 0.719711678045304
+          },
+          {
+            "chunkId": "57fc9bdf-cd1d-4828-ba38-fa29a4a7f148",
+            "documentId": "575a3c45-12c1-4f06-82df-2b2b183a1883",
+            "sourceName": "HowToCook",
+            "chunkType": "technique",
+            "content": "菜名：炸酱面\n- 每次制作前需要确定计划做几份。一份正好够 1 个人食用 每份： * 肉丁/肉末 150g * 如果 *面条* 选择了*挂面*：150g 如果 *面条* 选择了*普通面条*：250g * 葱 15g * 菜码 总量 35g * 食用油 10g * 豆瓣酱 20g * 甜面酱 20g",
+            "similarity": 0.690567789325025
+          },
+          {
+            "chunkId": "4301519b-025e-497d-8b8e-ae255c272e77",
+            "documentId": "575a3c45-12c1-4f06-82df-2b2b183a1883",
+            "sourceName": "HowToCook",
+            "chunkType": "ingredients",
+            "content": "菜名：炸酱面\n- 肉丁/肉末 150g\n- 如果 *面条* 选择了*挂面*：150g\n- 蒜\n- 葱 15g\n- 菜码 总量 35g\n- 食用油 10g\n- 豆瓣酱 20g\n- 甜面酱 20g\n- 菜码（根据个人喜好选择，通常 4-10 种，可选择黄瓜、白菜、萝卜等）",
+            "similarity": 0.67552618080066
+          },
+          {
+            "chunkId": "1fd43f51-dcf9-40f2-b91c-661647b7d4e5",
+            "documentId": "575a3c45-12c1-4f06-82df-2b2b183a1883",
+            "sourceName": "HowToCook",
+            "chunkType": "summary",
+            "content": "菜名：炸酱面\n简介：# 炸酱面的做法 炸酱面是一道酱香浓郁、面条劲道的传统北京家常面食，搭配清爽菜码，咸甜适口。主要营养来自瘦肉蛋白质和蔬菜维生素，能为人体提供充足能量。做法对新手友好，预计制作时长约 30 分钟，熟练掌握后可通过备菜与炒酱并行进一步缩短时间。 预估烹饪难度：★★★ 预估卡路里：1272 大卡",
+            "similarity": 0.67461055375149
+          }
+        ],
+        "notes": [
+          "用户明确要求仅用 HowToCook，原文完整转录；complete=true 表示上游文档完整抓取，不表示烹饪参数无遗漏。",
+          "Source limitations: 必备表列蒜，但计算和操作使用葱；蒜未说明用量及加入时点。 本上游菜谱无图片，按用户要求不补造图片。 原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。",
+          "GitHub commit a2d45c6984dff9ee941da0e7c452f7965965d962; path dishes/staple/炸酱面.md",
+          "媒体按原文位置保留；未要求映射的照片不伪称步骤图。",
+          "Existing exact-name knowledge-base documents checked before source fetching: 0",
+          "Structured ingredient audit corrected only explicit ingredient names and matching raw source text; no amount was invented.",
+          "Existing exact-name knowledge-base documents checked before source fetching: 0"
+        ]
+      },
+      "ingestion": {
+        "ok": true,
+        "documentId": "575a3c45-12c1-4f06-82df-2b2b183a1883",
+        "entityId": "090a13c8-f02c-464e-b3d5-0306bf265e37",
+        "deduplicated": false,
+        "embedded": true,
+        "chunkCount": 5,
+        "model": "voyage-4",
+        "dimension": 1024,
+        "semanticCount": 5,
+        "hybridCount": 5,
+        "supersededDocumentIds": [
+          "8326631d-aac3-4ee4-8a87-ada13c89ddd2"
+        ],
+        "excludedFromSemantic": true,
+        "excludedFromHybrid": true
+      }
+    },
+    {
+      "recipeId": "cn-046",
+      "recipeName": "馄饨",
+      "category": "chinese",
+      "status": "matched",
+      "path": "dishes/semi-finished/速冻馄饨.md",
+      "candidates": [
+        "dishes/semi-finished/速冻馄饨.md"
+      ],
+      "skipReason": "近名菜谱做法不同，不替代指定菜谱。",
+      "matchReason": "原文为电饭煲煮速冻馄饨版本，不包含自制馄饨皮馅步骤。",
+      "upstreamName": "速冻馄饨",
+      "rawMarkdown": "# 速冻馄饨的做法\n\n速冻馄饨皮薄馅嫩，汤清味鲜，是一道便捷的家常面食。主要提供碳水化合物和蛋白质，便于快速补充能量。做法简单，对新手非常友好，使用电饭煲即可完成，从烧水到出锅大约需要 55 分钟。\n\n预估烹饪难度：★★\n\n预估卡路里：540 大卡\n\n## 必备原料和工具\n\n* 未过期的一袋速冻馄饨（自带调味料包更佳）\n* 电饭煲（推荐品牌小米智能电饭煲）\n* 盐（速冻馄饨无调味料包时）\n* 鸡精（速冻馄饨无调味料包时）\n* 胡椒粉（速冻馄饨无调味料包时）\n* 香油（速冻馄饨无调味料包时）\n* 香菜 1 根（可选）\n\n> 注意，使用的烹饪工具不同速冻馄饨可能有不同的做法，这里仅介绍使用「电饭煲」的做法。\n\n## 计算\n\n* 一般一个人一顿可以食用 12～20 个馄饨\n* 当所有馄饨放入电饭煲中时，能刚好没过所有馄饨的水乘以 2~3 倍的水量（一人食用的馄饨约需要 600ml 水量）\n\n## 操作\n\n### 烧开水\n\n1. 将水倒入电饭煲中，按炖或煮的模式运行 35 分钟，此时揭开电饭煲应看到水为沸腾状态。\n\n### 下馄饨\n\n1. 将速冻馄饨小心放入水中，注意不要烫伤。\n2. 放入电饭煲前可以适当用水过一下。\n3. 如果馄饨有调料包，此时可一并加入水中。\n\n### 煮馄饨\n\n1. 盖上电饭煲，按同样炖或煮的模式运行 20 分钟。\n\n### 盛馄饨\n\n1. 将所有馄饨连同能没过所有馄饨的水一同盛入碗中。\n2. 如果此前没有加入调料包，此时可按自身口味轻重加入盐、鸡精、胡椒粉、香油调味。\n3. 也可撒上 5~8 片香菜叶佐味（仅适用于对香菜味道不敏感的人）。\n\n## 附加内容\n\n* 出锅后也可以加入水煮荷包蛋（[太阳蛋](../../dishes/breakfast/太阳蛋.md)）一起食用。\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+      "sha256": "09e3d026b9bffacc414465cb0748550f7c791a87501c5d0edd737498f25e8f3b",
+      "sections": [
+        {
+          "title": "速冻馄饨的做法",
+          "markdown": "\n速冻馄饨皮薄馅嫩，汤清味鲜，是一道便捷的家常面食。主要提供碳水化合物和蛋白质，便于快速补充能量。做法简单，对新手非常友好，使用电饭煲即可完成，从烧水到出锅大约需要 55 分钟。\n\n预估烹饪难度：★★\n\n预估卡路里：540 大卡\n\n",
+          "level": 1
+        },
+        {
+          "title": "必备原料和工具",
+          "markdown": "\n* 未过期的一袋速冻馄饨（自带调味料包更佳）\n* 电饭煲（推荐品牌小米智能电饭煲）\n* 盐（速冻馄饨无调味料包时）\n* 鸡精（速冻馄饨无调味料包时）\n* 胡椒粉（速冻馄饨无调味料包时）\n* 香油（速冻馄饨无调味料包时）\n* 香菜 1 根（可选）\n\n> 注意，使用的烹饪工具不同速冻馄饨可能有不同的做法，这里仅介绍使用「电饭煲」的做法。\n\n",
+          "level": 2
+        },
+        {
+          "title": "计算",
+          "markdown": "\n* 一般一个人一顿可以食用 12～20 个馄饨\n* 当所有馄饨放入电饭煲中时，能刚好没过所有馄饨的水乘以 2~3 倍的水量（一人食用的馄饨约需要 600ml 水量）\n\n",
+          "level": 2
+        },
+        {
+          "title": "操作",
+          "markdown": "\n",
+          "level": 2
+        },
+        {
+          "title": "烧开水",
+          "markdown": "\n1. 将水倒入电饭煲中，按炖或煮的模式运行 35 分钟，此时揭开电饭煲应看到水为沸腾状态。\n\n",
+          "level": 3
+        },
+        {
+          "title": "下馄饨",
+          "markdown": "\n1. 将速冻馄饨小心放入水中，注意不要烫伤。\n2. 放入电饭煲前可以适当用水过一下。\n3. 如果馄饨有调料包，此时可一并加入水中。\n\n",
+          "level": 3
+        },
+        {
+          "title": "煮馄饨",
+          "markdown": "\n1. 盖上电饭煲，按同样炖或煮的模式运行 20 分钟。\n\n",
+          "level": 3
+        },
+        {
+          "title": "盛馄饨",
+          "markdown": "\n1. 将所有馄饨连同能没过所有馄饨的水一同盛入碗中。\n2. 如果此前没有加入调料包，此时可按自身口味轻重加入盐、鸡精、胡椒粉、香油调味。\n3. 也可撒上 5~8 片香菜叶佐味（仅适用于对香菜味道不敏感的人）。\n\n",
+          "level": 3
+        },
+        {
+          "title": "附加内容",
+          "markdown": "\n* 出锅后也可以加入水煮荷包蛋（[太阳蛋](../../dishes/breakfast/太阳蛋.md)）一起食用。\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+          "level": 2
+        }
+      ],
+      "images": [],
+      "limitations": [
+        "本上游菜谱无图片，按用户要求不补造图片。",
+        "原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。"
+      ],
+      "introduction": "# 速冻馄饨的做法\n\n速冻馄饨皮薄馅嫩，汤清味鲜，是一道便捷的家常面食。主要提供碳水化合物和蛋白质，便于快速补充能量。做法简单，对新手非常友好，使用电饭煲即可完成，从烧水到出锅大约需要 55 分钟。\n\n预估烹饪难度：★★\n\n预估卡路里：540 大卡\n\n",
+      "evidence": {
+        "recipeId": "cn-046",
+        "recipeName": "馄饨",
+        "category": "chinese",
+        "createdAt": "2026-10-08T07:19:16.258364+00:00",
+        "sources": [
+          {
+            "sourceName": "HowToCook",
+            "sourceType": "website",
+            "url": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/semi-finished/%E9%80%9F%E5%86%BB%E9%A6%84%E9%A5%A8.md",
+            "documentId": "02823834-484e-480a-843e-35c5b10c8c62",
+            "retrievalMethod": "GitHub immutable raw Markdown via configured local HTTP proxy; no access-control bypass",
+            "complete": true,
+            "ingredients": [
+              {
+                "name": "速冻馄饨",
+                "raw": "未过期的一袋速冻馄饨（自带调味料包更佳）",
+                "amount": null,
+                "sourceSection": "必备原料和工具"
+              },
+              {
+                "name": "盐",
+                "raw": "盐（速冻馄饨无调味料包时）",
+                "amount": null,
+                "sourceSection": "必备原料和工具"
+              },
+              {
+                "name": "鸡精",
+                "raw": "鸡精（速冻馄饨无调味料包时）",
+                "amount": null,
+                "sourceSection": "必备原料和工具"
+              },
+              {
+                "name": "胡椒粉",
+                "raw": "胡椒粉（速冻馄饨无调味料包时）",
+                "amount": null,
+                "sourceSection": "必备原料和工具"
+              },
+              {
+                "name": "香油",
+                "raw": "香油（速冻馄饨无调味料包时）",
+                "amount": null,
+                "sourceSection": "必备原料和工具"
+              },
+              {
+                "name": "香菜",
+                "raw": "香菜 1 根（可选）",
+                "amount": null,
+                "sourceSection": "必备原料和工具"
+              },
+              {
+                "name": "水",
+                "raw": "当所有馄饨放入电饭煲中时，能刚好没过所有馄饨的水乘以 2~3 倍的水量（一人食用的馄饨约需要 600ml 水量）",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "调料包",
+                "raw": "如果馄饨有调料包，此时可一并加入水中。",
+                "amount": null,
+                "sourceSection": "操作/附加内容"
+              },
+              {
+                "name": "水煮荷包蛋（可选搭配）",
+                "raw": "出锅后也可以加入水煮荷包蛋（[太阳蛋](../../dishes/breakfast/太阳蛋.md)）一起食用。",
+                "amount": null,
+                "sourceSection": "附加内容"
+              }
+            ],
+            "steps": [
+              {
+                "order": 1,
+                "instruction": "将水倒入电饭煲中，按炖或煮的模式运行 35 分钟，此时揭开电饭煲应看到水为沸腾状态。\n\n### 下馄饨",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 1
+              },
+              {
+                "order": 2,
+                "instruction": "将速冻馄饨小心放入水中，注意不要烫伤。",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 1
+              },
+              {
+                "order": 3,
+                "instruction": "放入电饭煲前可以适当用水过一下。",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 2
+              },
+              {
+                "order": 4,
+                "instruction": "如果馄饨有调料包，此时可一并加入水中。\n\n### 煮馄饨",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 3
+              },
+              {
+                "order": 5,
+                "instruction": "盖上电饭煲，按同样炖或煮的模式运行 20 分钟。\n\n### 盛馄饨",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 1
+              },
+              {
+                "order": 6,
+                "instruction": "将所有馄饨连同能没过所有馄饨的水一同盛入碗中。",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 1
+              },
+              {
+                "order": 7,
+                "instruction": "如果此前没有加入调料包，此时可按自身口味轻重加入盐、鸡精、胡椒粉、香油调味。",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 2
+              },
+              {
+                "order": 8,
+                "instruction": "也可撒上 5~8 片香菜叶佐味（仅适用于对香菜味道不敏感的人）。",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 3
+              }
+            ],
+            "technique": [
+              "* 一般一个人一顿可以食用 12～20 个馄饨\n* 当所有馄饨放入电饭煲中时，能刚好没过所有馄饨的水乘以 2~3 倍的水量（一人食用的馄饨约需要 600ml 水量）"
+            ],
+            "tips": [
+              "* 出锅后也可以加入水煮荷包蛋（[太阳蛋](../../dishes/breakfast/太阳蛋.md)）一起食用。\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+            ],
+            "rawExcerpt": "# 速冻馄饨的做法\n\n速冻馄饨皮薄馅嫩，汤清味鲜，是一道便捷的家常面食。主要提供碳水化合物和蛋白质，便于快速补充能量。做法简单，对新手非常友好，使用电饭煲即可完成，从烧水到出锅大约需要 55 分钟。\n\n预估烹饪难度：★★\n\n预估卡路里：540 大卡\n\n## 必备原料和工具\n\n* 未过期的一袋速冻馄饨（自带调味料包更佳）\n* 电饭煲（推荐品牌小米智能电饭煲）\n* 盐（速冻馄饨无调味料包时）\n* 鸡精（速冻馄饨无调味料包时）\n* 胡椒粉（速冻馄饨无调味料包时）\n* 香油（速冻馄饨无调味料包时）\n* 香菜 1 根（可选）\n\n> 注意，使用的烹饪工具不同速冻馄饨可能有不同的做法，这里仅介绍使用「电饭煲」的做法。\n\n## 计算\n\n* 一般一个人一顿可以食用 12～20 个馄饨\n* 当所有馄饨放入电饭煲中时，能刚好没过所有馄饨的水乘以 2~3 倍的水量（一人食用的馄饨约需要 600ml 水量）\n\n## 操作\n\n### 烧开水\n\n1. 将水倒入电饭煲中，按炖或煮的模式运行 35 分钟，此时揭开电饭煲应看到水为沸腾状态。\n\n### 下馄饨\n\n1. 将速冻馄饨小心放入水中，注意不要烫伤。\n2. 放入电饭煲前可以适当用水过一下。\n3. 如果馄饨有调料包，此时可一并加入水中。\n\n### 煮馄饨\n\n1. 盖上电饭煲，按同样炖或煮的模式运行 20 分钟。\n\n### 盛馄饨\n\n1. 将所有馄饨连同能没过所有馄饨的水一同盛入碗中。\n2. 如果此前没有加入调料包，此时可按自身口味轻重加入盐、鸡精、胡椒粉、香油调味。\n3. 也可撒上 5~8 片香菜叶佐味（仅适用于对香菜味道不敏感的人）。\n\n## 附加内容\n\n* 出锅后也可以加入水煮荷包蛋（[太阳蛋](../../dishes/breakfast/太阳蛋.md)）一起食用。\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n"
+          }
+        ],
+        "sourceMode": "single_source",
+        "singleSourceReason": "User explicitly directed exclusive HowToCook source and exact upstream transcription.",
+        "selectedSourceUrl": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/semi-finished/%E9%80%9F%E5%86%BB%E9%A6%84%E9%A5%A8.md",
+        "selectionReason": "原文为电饭煲煮速冻馄饨版本，不包含自制馄饨皮馅步骤。",
+        "ragEvidence": [
+          {
+            "chunkId": "7ba0ec43-5ae4-4271-b62a-ea33f5a4ee3b",
+            "documentId": "02823834-484e-480a-843e-35c5b10c8c62",
+            "sourceName": "HowToCook",
+            "chunkType": "tips",
+            "content": "菜名：馄饨\n- * 出锅后也可以加入水煮荷包蛋（[太阳蛋](../../dishes/breakfast/太阳蛋.md)）一起食用。 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。",
+            "similarity": 0.67964494228363
+          },
+          {
+            "chunkId": "b1f04fca-86b9-4ad3-93b5-e3960f2c5123",
+            "documentId": "02823834-484e-480a-843e-35c5b10c8c62",
+            "sourceName": "HowToCook",
+            "chunkType": "ingredients",
+            "content": "菜名：馄饨\n- 未过期的一袋速冻馄饨（自带调味料包更佳）\n- 盐（速冻馄饨无调味料包时）\n- 鸡精（速冻馄饨无调味料包时）\n- 胡椒粉（速冻馄饨无调味料包时）\n- 香油（速冻馄饨无调味料包时）\n- 香菜 1 根（可选）\n- 当所有馄饨放入电饭煲中时，能刚好没过所有馄饨的水乘以 2~3 倍的水量（一人食用的馄饨约需要 600ml 水量）\n- 如果馄饨有调料包，此时可一并加入水中。\n- 出锅后也可以加入水煮荷包蛋（[太阳蛋](../../dishes/breakfast/太阳蛋.md)）一起食用。",
+            "similarity": 0.620499134063721
+          },
+          {
+            "chunkId": "bc562445-a288-419d-8c95-36f3422adbe2",
+            "documentId": "02823834-484e-480a-843e-35c5b10c8c62",
+            "sourceName": "HowToCook",
+            "chunkType": "summary",
+            "content": "菜名：馄饨\n别名：速冻馄饨\n简介：# 速冻馄饨的做法 速冻馄饨皮薄馅嫩，汤清味鲜，是一道便捷的家常面食。主要提供碳水化合物和蛋白质，便于快速补充能量。做法简单，对新手非常友好，使用电饭煲即可完成，从烧水到出锅大约需要 55 分钟。 预估烹饪难度：★★ 预估卡路里：540 大卡",
+            "similarity": 0.606845319271088
+          },
+          {
+            "chunkId": "442bacd4-d2aa-4d6c-abaf-71a6ac591083",
+            "documentId": "02823834-484e-480a-843e-35c5b10c8c62",
+            "sourceName": "HowToCook",
+            "chunkType": "technique",
+            "content": "菜名：馄饨\n- * 一般一个人一顿可以食用 12～20 个馄饨 * 当所有馄饨放入电饭煲中时，能刚好没过所有馄饨的水乘以 2~3 倍的水量（一人食用的馄饨约需要 600ml 水量）",
+            "similarity": 0.602340316911956
+          },
+          {
+            "chunkId": "1ddf4247-efd3-4b88-84b1-2092cd8f8f77",
+            "documentId": "02823834-484e-480a-843e-35c5b10c8c62",
+            "sourceName": "HowToCook",
+            "chunkType": "steps",
+            "content": "菜名：馄饨\n1. 将水倒入电饭煲中，按炖或煮的模式运行 35 分钟，此时揭开电饭煲应看到水为沸腾状态。 ### 下馄饨\n2. 将速冻馄饨小心放入水中，注意不要烫伤。\n3. 放入电饭煲前可以适当用水过一下。\n4. 如果馄饨有调料包，此时可一并加入水中。 ### 煮馄饨\n5. 盖上电饭煲，按同样炖或煮的模式运行 20 分钟。 ### 盛馄饨\n6. 将所有馄饨连同能没过所有馄饨的水一同盛入碗中。\n7. 如果此前没有加入调料包，此时可按自身口味轻重加入盐、鸡精、胡椒粉、香油调味。\n8. 也可撒上 5~8 片香菜叶佐味（仅适用于对香菜味道不敏感的人）。",
+            "similarity": 0.570958852767944
+          }
+        ],
+        "notes": [
+          "用户明确要求仅用 HowToCook，原文完整转录；complete=true 表示上游文档完整抓取，不表示烹饪参数无遗漏。",
+          "Source limitations: 本上游菜谱无图片，按用户要求不补造图片。 原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。",
+          "GitHub commit a2d45c6984dff9ee941da0e7c452f7965965d962; path dishes/semi-finished/速冻馄饨.md",
+          "媒体按原文位置保留；未要求映射的照片不伪称步骤图。",
+          "Existing exact-name knowledge-base documents checked before source fetching: 0",
+          "Structured ingredient audit corrected only explicit ingredient names and matching raw source text; no amount was invented.",
+          "Existing exact-name knowledge-base documents checked before source fetching: 0"
+        ]
+      },
+      "ingestion": {
+        "ok": true,
+        "documentId": "02823834-484e-480a-843e-35c5b10c8c62",
+        "entityId": "b72fff66-4dda-4af7-907d-8627634c73f9",
+        "deduplicated": false,
+        "embedded": true,
+        "chunkCount": 5,
+        "model": "voyage-4",
+        "dimension": 1024,
+        "semanticCount": 5,
+        "hybridCount": 5,
+        "supersededDocumentIds": [
+          "7d62c0ff-54ab-4f83-afe6-a789e42e492e"
+        ],
+        "excludedFromSemantic": true,
+        "excludedFromHybrid": true
+      }
+    }
+  ]
+}

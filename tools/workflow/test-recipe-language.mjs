@@ -6,12 +6,18 @@ assert.equal(cleanIngredientName("清水半碗"), "清水");
 assert.equal(cleanIngredientName("高汤一杯（可选）"), "高汤");
 assert.equal(cleanIngredientName("蒜4瓣（切末）"), "蒜");
 assert.equal(cleanIngredientName("葱一段"), "葱");
+assert.equal(cleanIngredientName("大葱半颗"), "大葱");
+assert.equal(cleanIngredientName("水少量（调面糊用）"), "水");
+assert.equal(cleanIngredientName("菜码总量35克"), "菜码");
+assert.equal(cleanIngredientName("冷水每次50毫升"), "冷水");
+assert.equal(cleanIngredientName("白洋葱大半个（约150克）"), "白洋葱");
 assert.equal(cleanIngredientName("姜半段"), "姜");
 assert.equal(cleanIngredientName("莲藕两段"), "莲藕");
 assert.equal(cleanIngredientName("段木香菇200克"), "段木香菇");
 assert.equal(cleanIngredientName("四季豆300克"), "四季豆");
 assert.equal(cleanIngredientName("八角2颗"), "八角");
 assert.equal(cleanIngredientName("三文鱼200克"), "三文鱼");
+assert.equal(cleanIngredientName("现磨肉豆蔻粉一撮"), "现磨肉豆蔻粉");
 
 const refreshedRecipes = [...chinese, ...western].filter((recipe) => recipe.media);
 const repeatedPunctuation = /，，|。。|；；|、、|，。|；。|。；/u;

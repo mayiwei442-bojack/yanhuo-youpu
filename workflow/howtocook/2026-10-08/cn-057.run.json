@@ -1,0 +1,63 @@
+{
+  "runId": "2026-10-08-howtocook-cn-057",
+  "recipeId": "cn-057",
+  "recipeName": "红烧茄子",
+  "category": "chinese",
+  "status": "done",
+  "startedAt": "2026-10-08T07:12:46.996Z",
+  "completedAt": "2026-10-08T07:51:09.246Z",
+  "branch": "howtocook",
+  "branchAuthorization": "user_explicit_2026-10-08",
+  "commit": "1f8675fc207bfce0c467a38e42c63be99dd93c38",
+  "steps": {
+    "research": {
+      "status": "done",
+      "attempts": 1
+    },
+    "ingestion": {
+      "status": "done",
+      "attempts": 1
+    },
+    "edit": {
+      "status": "done",
+      "attempts": 1
+    },
+    "validator": {
+      "status": "done",
+      "attempts": 1
+    },
+    "review": {
+      "status": "done",
+      "attempts": 2,
+      "details": {
+        "correctionsPath": "workflow/howtocook/2026-10-08/review-corrections.json",
+        "finalStatus": "PASS"
+      }
+    },
+    "build": {
+      "status": "done",
+      "attempts": 1
+    },
+    "gitPush": {
+      "status": "done",
+      "attempts": 1
+    }
+  },
+  "sources": [
+    {
+      "name": "HowToCook",
+      "url": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/vegetable_dish/%E7%BA%A2%E7%83%A7%E8%8C%84%E5%AD%90.md",
+      "status": "success",
+      "documentId": "0151a446-1cf6-419a-aa9f-a144a5126ba7"
+    }
+  ],
+  "errors": [],
+  "evidencePackageHash": "49e56496fe089419ae34326cddd2a32b93a8800efe61965a008f8efdbedd7a97",
+  "reviewPath": "workflow/howtocook/2026-10-08/cn-057.review.json",
+  "validationPath": "workflow/howtocook/2026-10-08/cn-057.validation.json",
+  "sourceLimitations": [
+    "计算是份数公式；不将公式擅自展开为单份克数。",
+    "本上游菜谱无图片，按用户要求不补造图片。",
+    "原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。"
+  ]
+}

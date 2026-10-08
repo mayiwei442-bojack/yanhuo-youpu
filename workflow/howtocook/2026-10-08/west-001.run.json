@@ -1,0 +1,62 @@
+{
+  "runId": "2026-10-08-howtocook-west-001",
+  "recipeId": "west-001",
+  "recipeName": "意大利肉酱面",
+  "category": "western",
+  "status": "done",
+  "startedAt": "2026-10-08T07:12:46.996Z",
+  "completedAt": "2026-10-08T07:51:09.246Z",
+  "branch": "howtocook",
+  "branchAuthorization": "user_explicit_2026-10-08",
+  "commit": "1f8675fc207bfce0c467a38e42c63be99dd93c38",
+  "steps": {
+    "research": {
+      "status": "done",
+      "attempts": 1
+    },
+    "ingestion": {
+      "status": "done",
+      "attempts": 1
+    },
+    "edit": {
+      "status": "done",
+      "attempts": 1
+    },
+    "validator": {
+      "status": "done",
+      "attempts": 1
+    },
+    "review": {
+      "status": "done",
+      "attempts": 2,
+      "details": {
+        "correctionsPath": "workflow/howtocook/2026-10-08/review-corrections.json",
+        "finalStatus": "PASS"
+      }
+    },
+    "build": {
+      "status": "done",
+      "attempts": 1
+    },
+    "gitPush": {
+      "status": "done",
+      "attempts": 1
+    }
+  },
+  "sources": [
+    {
+      "name": "HowToCook",
+      "url": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/staple/%E6%84%8F%E5%BC%8F%E8%82%89%E9%85%B1%E9%9D%A2/%E6%84%8F%E5%BC%8F%E8%82%89%E9%85%B1%E9%9D%A2.md",
+      "status": "success",
+      "documentId": "5b47be81-a205-43f4-9c8e-d8410aefd59a"
+    }
+  ],
+  "errors": [],
+  "evidencePackageHash": "440457d44f92ebad3e9b9980fb05eb8954744c1e235ed4ca4a0502e4e303dee8",
+  "reviewPath": "workflow/howtocook/2026-10-08/west-001.review.json",
+  "validationPath": "workflow/howtocook/2026-10-08/west-001.validation.json",
+  "sourceLimitations": [
+    "意式即意大利式；原版使用成品意大利面酱加肉末。",
+    "原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。"
+  ]
+}

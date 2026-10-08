@@ -1,0 +1,349 @@
+{
+  "recipeId": "cn-055",
+  "record": {
+    "name": "干锅花菜",
+    "en": "Dry-pot Cauliflower",
+    "region": "湘川风味",
+    "ingredients": "花菜400克；五花肉100克；辣椒1—2根（操作称小红辣椒）；生抽10毫升；白糖5克；蒜瓣3—4个；盐2克（原文未说明使用时机）；食用油10毫升；大蒜白色部分适量（原文指代不明，未注明用量）；大葱白适量（原文与大蒜白色指代不一致，未注明用量）；大蒜叶适量（原文未注明用量）；淡盐水适量（泡花菜用，原文未注明用量及浓度）；水适量（清洗及焯水用，原文未注明用量）；冷水适量（冲淋用，原文未注明用量）",
+    "steps": "1）花菜朵朝下，浸入淡盐水中浸泡 20 分钟。然后洗净用小刀拆成小朵。2）放入开水锅中焯水 1 分钟，捞出立即用冷水冲淋至完全凉透，沥水备用。3）五花肉切成薄片，将大蒜白色部分切下，用刀背拍扁，小红辣椒切成段。4）锅烧热后放油，油热后下大葱白爆香。5）将五花肉片下入锅中，用中火煸炒至表面全部变色，继续煸炒一会儿，把肥肉部分的油份逼出一部分。6）倒入红辣椒段和花菜，翻炒几下。7）加入 10 ml 生抽。8）再加入 5 g 白糖，转大火不断翻炒 1 分钟。9）把大蒜叶部分切成段，放入锅中，翻炒几下后，关火盖上盖子焖 1 分钟即可。",
+    "img": "85-ganguo-huacai.png",
+    "source": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/vegetable_dish/%E5%B9%B2%E9%94%85%E8%8A%B1%E8%8F%9C/%E5%B9%B2%E9%94%85%E8%8A%B1%E8%8F%9C.md",
+    "timing": {
+      "totalMinutes": 40
+    },
+    "howtocook": {
+      "commit": "a2d45c6984dff9ee941da0e7c452f7965965d962",
+      "path": "dishes/vegetable_dish/干锅花菜/干锅花菜.md",
+      "sha256": "7bc7117f7735d73eee88229f81bc4e64ecd750205fa2543a4e1392905cda7780",
+      "rawMarkdown": "# 干锅花菜的做法\n\n![干锅花菜成品](./干锅花菜.jpg)\n\n干锅花菜是一道湘味家常菜，口感脆嫩干香，五花肉焦香四溢，带着微微辣意。花菜富含维生素 C 和膳食纤维，搭配五花肉补充蛋白质与能量。制作难度适中，只需注意焯水后充分沥干并把五花肉煸出油脂，适合有一定基础的烹饪新手。从准备到出锅大约需要 40 分钟。\n\n预估烹饪难度：★★★\n\n预估卡路里：759 大卡\n\n## 必备原料和工具\n\n- 花菜\n- 五花肉\n- 辣椒\n- 生抽\n- 白糖\n- 蒜\n- 盐\n- 油\n\n## 计算\n\n每份：\n\n- 花菜 400 g\n- 五花肉 100 g\n- 辣椒 1-2 根\n- 生抽 10 ml\n- 白糖 5g\n- 蒜瓣 3-4 个\n- 盐 2 g\n- 油 10 ml\n\n## 操作\n\n1. 花菜朵朝下，没入淡盐水中浸泡 20 分钟。然后洗净用小刀拆成小朵\n2. 入开水锅中焯水 1 分钟，捞出立即用冷水冲淋至完全凉透，沥水备用\n3. 五花肉切成薄片，大蒜白色切下用刀背拍扁，小红辣椒切成段\n4. 锅烧热放油，油热下大葱白爆香\n5. 下五花肉片入锅，用中火煸炒至表面全部变色，继续煸炒一会儿，把肥肉部分的油份逼出一部分\n6. 倒入红辣椒段和花菜，翻炒几下\n7. 加入 10 ml 生抽\n8. 再加入 5 g 白糖，转大火不断翻炒 1 分钟\n9. 把大蒜叶部分切成段，放入锅中，翻炒几下后，关火盖上盖子焖 1 分钟即可\n\n## 附加内容\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+      "sections": [
+        {
+          "title": "干锅花菜的做法",
+          "markdown": "\n![干锅花菜成品](./干锅花菜.jpg)\n\n干锅花菜是一道湘味家常菜，口感脆嫩干香，五花肉焦香四溢，带着微微辣意。花菜富含维生素 C 和膳食纤维，搭配五花肉补充蛋白质与能量。制作难度适中，只需注意焯水后充分沥干并把五花肉煸出油脂，适合有一定基础的烹饪新手。从准备到出锅大约需要 40 分钟。\n\n预估烹饪难度：★★★\n\n预估卡路里：759 大卡\n\n",
+          "level": 1
+        },
+        {
+          "title": "必备原料和工具",
+          "markdown": "\n- 花菜\n- 五花肉\n- 辣椒\n- 生抽\n- 白糖\n- 蒜\n- 盐\n- 油\n\n",
+          "level": 2
+        },
+        {
+          "title": "计算",
+          "markdown": "\n每份：\n\n- 花菜 400 g\n- 五花肉 100 g\n- 辣椒 1-2 根\n- 生抽 10 ml\n- 白糖 5g\n- 蒜瓣 3-4 个\n- 盐 2 g\n- 油 10 ml\n\n",
+          "level": 2
+        },
+        {
+          "title": "操作",
+          "markdown": "\n1. 花菜朵朝下，没入淡盐水中浸泡 20 分钟。然后洗净用小刀拆成小朵\n2. 入开水锅中焯水 1 分钟，捞出立即用冷水冲淋至完全凉透，沥水备用\n3. 五花肉切成薄片，大蒜白色切下用刀背拍扁，小红辣椒切成段\n4. 锅烧热放油，油热下大葱白爆香\n5. 下五花肉片入锅，用中火煸炒至表面全部变色，继续煸炒一会儿，把肥肉部分的油份逼出一部分\n6. 倒入红辣椒段和花菜，翻炒几下\n7. 加入 10 ml 生抽\n8. 再加入 5 g 白糖，转大火不断翻炒 1 分钟\n9. 把大蒜叶部分切成段，放入锅中，翻炒几下后，关火盖上盖子焖 1 分钟即可\n\n",
+          "level": 2
+        },
+        {
+          "title": "附加内容",
+          "markdown": "\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+          "level": 2
+        }
+      ],
+      "images": [
+        {
+          "originalReference": "./干锅花菜.jpg",
+          "originalUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/vegetable_dish/%E5%B9%B2%E9%94%85%E8%8A%B1%E8%8F%9C/%E5%B9%B2%E9%94%85%E8%8A%B1%E8%8F%9C.jpg",
+          "path": "assets/dishes/howtocook/cn-055/1.jpg",
+          "alt": "干锅花菜成品",
+          "pageOrder": 1,
+          "adjacentText": "# 干锅花菜的做法\n\n![干锅花菜成品](./干锅花菜.jpg)\n\n干锅花菜是一道湘味家常菜，口感脆嫩干香，五花肉焦香四溢，带着微微辣意。花菜富含维生素 C 和膳食纤维，搭配五花肉补充蛋白质与能量。制作难度适中，只需注意焯水后充分沥干并把五花肉煸出油脂，适合有一定基础的烹饪新手。从准备到出锅大约需要 40 分钟。\n\n预估烹饪难度：★★★\n\n预估卡路里：759 大卡\n\n## 必备原料和工具\n\n- 花菜\n- 五花肉\n- 辣椒"
+        }
+      ]
+    },
+    "sourceLimitations": [
+      "原文从准备到出锅大约40分钟，总用时40分钟为约值；每份未注明食客人数，不推测。",
+      "计算列蒜瓣3—4个，操作先写大蒜白色、后写大葱白和大蒜叶，指代不一致，保留各原词，不自行统一为蒜苗，也不推测各自用量或替换关系。",
+      "计算列盐2克，操作未说明其添加时机；浸泡另要求淡盐水，未说明配制浓度、用量或与2克盐的关系，不补造。",
+      "油未限定种类，规范食材写食用油10毫升；清洗、焯水及冷水冲淋用水未定量。",
+      "继续煸炒一会儿及翻炒几下未给具体时长，保持原文观察状态及原有中火、大火和关火焖制顺序。"
+    ]
+  },
+  "generated": {
+    "id": "cn-055",
+    "name": "干锅花菜",
+    "en": "Dry-pot Cauliflower",
+    "cuisine": "湘川风味",
+    "category": "中餐",
+    "isHeritageFlavor": false,
+    "heritageStatus": null,
+    "ingredients": [
+      {
+        "id": "ingredient-01",
+        "name": "花菜",
+        "label": "花菜400克",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-02",
+        "name": "五花肉",
+        "label": "五花肉100克",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-03",
+        "name": "辣椒",
+        "label": "辣椒1—2根（操作称小红辣椒）",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-04",
+        "name": "生抽",
+        "label": "生抽10毫升",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-05",
+        "name": "白糖",
+        "label": "白糖5克",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-06",
+        "name": "蒜瓣",
+        "label": "蒜瓣3—4个",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-07",
+        "name": "盐",
+        "label": "盐2克（原文未说明使用时机）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-08",
+        "name": "食用油",
+        "label": "食用油10毫升",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-09",
+        "name": "大蒜白色部分",
+        "label": "大蒜白色部分适量（原文指代不明，未注明用量）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-10",
+        "name": "大葱白",
+        "label": "大葱白适量（原文与大蒜白色指代不一致，未注明用量）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-11",
+        "name": "大蒜叶",
+        "label": "大蒜叶适量（原文未注明用量）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-12",
+        "name": "淡盐水",
+        "label": "淡盐水适量（泡花菜用，原文未注明用量及浓度）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-13",
+        "name": "水",
+        "label": "水适量（清洗及焯水用，原文未注明用量）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-14",
+        "name": "冷水",
+        "label": "冷水适量（冲淋用，原文未注明用量）",
+        "isCore": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-01",
+        "instruction": "花菜朵朝下，浸入淡盐水中浸泡 20 分钟。然后洗净用小刀拆成小朵。",
+        "duration": 1200,
+        "heat": null,
+        "timerRequired": true,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-02",
+        "instruction": "放入开水锅中焯水 1 分钟，捞出立即用冷水冲淋至完全凉透，沥水备用。",
+        "duration": 60,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-03",
+        "instruction": "五花肉切成薄片，将大蒜白色部分切下，用刀背拍扁，小红辣椒切成段。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-04",
+        "instruction": "锅烧热后放油，油热后下大葱白爆香。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-05",
+        "instruction": "将五花肉片下入锅中，用中火煸炒至表面全部变色，继续煸炒一会儿，把肥肉部分的油份逼出一部分。",
+        "duration": null,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-06",
+        "instruction": "倒入红辣椒段和花菜，翻炒几下。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-07",
+        "instruction": "加入 10 ml 生抽。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-08",
+        "instruction": "再加入 5 g 白糖，转大火不断翻炒 1 分钟。",
+        "duration": 60,
+        "heat": "high",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-09",
+        "instruction": "把大蒜叶部分切成段，放入锅中，翻炒几下后，关火盖上盖子焖 1 分钟即可。",
+        "duration": 60,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      }
+    ],
+    "howtocook": {
+      "commit": "a2d45c6984dff9ee941da0e7c452f7965965d962",
+      "path": "dishes/vegetable_dish/干锅花菜/干锅花菜.md",
+      "sha256": "7bc7117f7735d73eee88229f81bc4e64ecd750205fa2543a4e1392905cda7780",
+      "rawMarkdown": "# 干锅花菜的做法\n\n![干锅花菜成品](./干锅花菜.jpg)\n\n干锅花菜是一道湘味家常菜，口感脆嫩干香，五花肉焦香四溢，带着微微辣意。花菜富含维生素 C 和膳食纤维，搭配五花肉补充蛋白质与能量。制作难度适中，只需注意焯水后充分沥干并把五花肉煸出油脂，适合有一定基础的烹饪新手。从准备到出锅大约需要 40 分钟。\n\n预估烹饪难度：★★★\n\n预估卡路里：759 大卡\n\n## 必备原料和工具\n\n- 花菜\n- 五花肉\n- 辣椒\n- 生抽\n- 白糖\n- 蒜\n- 盐\n- 油\n\n## 计算\n\n每份：\n\n- 花菜 400 g\n- 五花肉 100 g\n- 辣椒 1-2 根\n- 生抽 10 ml\n- 白糖 5g\n- 蒜瓣 3-4 个\n- 盐 2 g\n- 油 10 ml\n\n## 操作\n\n1. 花菜朵朝下，没入淡盐水中浸泡 20 分钟。然后洗净用小刀拆成小朵\n2. 入开水锅中焯水 1 分钟，捞出立即用冷水冲淋至完全凉透，沥水备用\n3. 五花肉切成薄片，大蒜白色切下用刀背拍扁，小红辣椒切成段\n4. 锅烧热放油，油热下大葱白爆香\n5. 下五花肉片入锅，用中火煸炒至表面全部变色，继续煸炒一会儿，把肥肉部分的油份逼出一部分\n6. 倒入红辣椒段和花菜，翻炒几下\n7. 加入 10 ml 生抽\n8. 再加入 5 g 白糖，转大火不断翻炒 1 分钟\n9. 把大蒜叶部分切成段，放入锅中，翻炒几下后，关火盖上盖子焖 1 分钟即可\n\n## 附加内容\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+      "sections": [
+        {
+          "title": "干锅花菜的做法",
+          "markdown": "\n![干锅花菜成品](./干锅花菜.jpg)\n\n干锅花菜是一道湘味家常菜，口感脆嫩干香，五花肉焦香四溢，带着微微辣意。花菜富含维生素 C 和膳食纤维，搭配五花肉补充蛋白质与能量。制作难度适中，只需注意焯水后充分沥干并把五花肉煸出油脂，适合有一定基础的烹饪新手。从准备到出锅大约需要 40 分钟。\n\n预估烹饪难度：★★★\n\n预估卡路里：759 大卡\n\n",
+          "level": 1
+        },
+        {
+          "title": "必备原料和工具",
+          "markdown": "\n- 花菜\n- 五花肉\n- 辣椒\n- 生抽\n- 白糖\n- 蒜\n- 盐\n- 油\n\n",
+          "level": 2
+        },
+        {
+          "title": "计算",
+          "markdown": "\n每份：\n\n- 花菜 400 g\n- 五花肉 100 g\n- 辣椒 1-2 根\n- 生抽 10 ml\n- 白糖 5g\n- 蒜瓣 3-4 个\n- 盐 2 g\n- 油 10 ml\n\n",
+          "level": 2
+        },
+        {
+          "title": "操作",
+          "markdown": "\n1. 花菜朵朝下，没入淡盐水中浸泡 20 分钟。然后洗净用小刀拆成小朵\n2. 入开水锅中焯水 1 分钟，捞出立即用冷水冲淋至完全凉透，沥水备用\n3. 五花肉切成薄片，大蒜白色切下用刀背拍扁，小红辣椒切成段\n4. 锅烧热放油，油热下大葱白爆香\n5. 下五花肉片入锅，用中火煸炒至表面全部变色，继续煸炒一会儿，把肥肉部分的油份逼出一部分\n6. 倒入红辣椒段和花菜，翻炒几下\n7. 加入 10 ml 生抽\n8. 再加入 5 g 白糖，转大火不断翻炒 1 分钟\n9. 把大蒜叶部分切成段，放入锅中，翻炒几下后，关火盖上盖子焖 1 分钟即可\n\n",
+          "level": 2
+        },
+        {
+          "title": "附加内容",
+          "markdown": "\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+          "level": 2
+        }
+      ],
+      "images": [
+        {
+          "originalReference": "./干锅花菜.jpg",
+          "originalUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/vegetable_dish/%E5%B9%B2%E9%94%85%E8%8A%B1%E8%8F%9C/%E5%B9%B2%E9%94%85%E8%8A%B1%E8%8F%9C.jpg",
+          "path": "assets/dishes/howtocook/cn-055/1.jpg",
+          "alt": "干锅花菜成品",
+          "pageOrder": 1,
+          "adjacentText": "# 干锅花菜的做法\n\n![干锅花菜成品](./干锅花菜.jpg)\n\n干锅花菜是一道湘味家常菜，口感脆嫩干香，五花肉焦香四溢，带着微微辣意。花菜富含维生素 C 和膳食纤维，搭配五花肉补充蛋白质与能量。制作难度适中，只需注意焯水后充分沥干并把五花肉煸出油脂，适合有一定基础的烹饪新手。从准备到出锅大约需要 40 分钟。\n\n预估烹饪难度：★★★\n\n预估卡路里：759 大卡\n\n## 必备原料和工具\n\n- 花菜\n- 五花肉\n- 辣椒"
+        }
+      ],
+      "difficultyStars": "★★★"
+    },
+    "sourceLimitations": [
+      "原文从准备到出锅大约40分钟，总用时40分钟为约值；每份未注明食客人数，不推测。",
+      "计算列蒜瓣3—4个，操作先写大蒜白色、后写大葱白和大蒜叶，指代不一致，保留各原词，不自行统一为蒜苗，也不推测各自用量或替换关系。",
+      "计算列盐2克，操作未说明其添加时机；浸泡另要求淡盐水，未说明配制浓度、用量或与2克盐的关系，不补造。",
+      "油未限定种类，规范食材写食用油10毫升；清洗、焯水及冷水冲淋用水未定量。",
+      "继续煸炒一会儿及翻炒几下未给具体时长，保持原文观察状态及原有中火、大火和关火焖制顺序。"
+    ],
+    "imageThumb": "assets/dishes/thumbnails/85-ganguo-huacai.jpg",
+    "imageFull": "assets/dishes/ai/85-ganguo-huacai.png",
+    "source": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/vegetable_dish/%E5%B9%B2%E9%94%85%E8%8A%B1%E8%8F%9C/%E5%B9%B2%E9%94%85%E8%8A%B1%E8%8F%9C.md",
+    "time": 40,
+    "timeBasis": "source",
+    "difficulty": "适中",
+    "defaultServings": null,
+    "servingsBasis": "unspecified",
+    "allergens": [
+      "soy"
+    ],
+    "flags": {
+      "containsPork": true,
+      "containsBeef": false,
+      "containsAlcohol": false,
+      "spicy": true,
+      "vegetarian": false
+    },
+    "demoEnriched": true
+  },
+  "renderedIngredientRows": [
+    "花菜400克",
+    "五花肉100克",
+    "辣椒1—2根（操作称小红辣椒）",
+    "生抽10毫升",
+    "白糖5克",
+    "蒜瓣3—4个",
+    "盐2克（原文未说明使用时机）",
+    "食用油10毫升",
+    "大蒜白色部分适量（原文指代不明，未注明用量）",
+    "大葱白适量（原文与大蒜白色指代不一致，未注明用量）",
+    "大蒜叶适量（原文未注明用量）",
+    "淡盐水适量（泡花菜用，原文未注明用量及浓度）",
+    "水适量（清洗及焯水用，原文未注明用量）",
+    "冷水适量（冲淋用，原文未注明用量）"
+  ],
+  "renderedSteps": [
+    "花菜朵朝下，浸入淡盐水中浸泡 20 分钟。然后洗净用小刀拆成小朵。",
+    "放入开水锅中焯水 1 分钟，捞出立即用冷水冲淋至完全凉透，沥水备用。",
+    "五花肉切成薄片，将大蒜白色部分切下，用刀背拍扁，小红辣椒切成段。",
+    "锅烧热后放油，油热后下大葱白爆香。",
+    "将五花肉片下入锅中，用中火煸炒至表面全部变色，继续煸炒一会儿，把肥肉部分的油份逼出一部分。",
+    "倒入红辣椒段和花菜，翻炒几下。",
+    "加入 10 ml 生抽。",
+    "再加入 5 g 白糖，转大火不断翻炒 1 分钟。",
+    "把大蒜叶部分切成段，放入锅中，翻炒几下后，关火盖上盖子焖 1 分钟即可。"
+  ]
+}

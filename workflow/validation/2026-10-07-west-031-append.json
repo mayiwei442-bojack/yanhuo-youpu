@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "targetId": "west-031",
+  "checks": [
+    {
+      "name": "explicit_single_append",
+      "passed": true
+    },
+    {
+      "name": "generated_target_exists",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "commands": [
+    {
+      "command": "D:\\node.exe tools/build_html_demo_data.mjs",
+      "passed": true,
+      "status": 0,
+      "stdout": "Generated 91 recipes.",
+      "stderr": ""
+    }
+  ]
+}

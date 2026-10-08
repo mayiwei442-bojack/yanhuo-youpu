@@ -3,6 +3,7 @@ import { createHash } from "node:crypto";
 import { readFile, stat } from "node:fs/promises";
 import { resolve } from "node:path";
 import { chinese, western } from "../recipe_data.mjs";
+import { isAuthorizedHeroOnly } from "./source-policy.mjs";
 
 const recipes = [...chinese, ...western];
 const refreshed = recipes.filter((recipe) => recipe.media);
@@ -26,8 +27,11 @@ async function assertLocalImage(recipeName, label, mediaItem) {
 for (const recipe of refreshed) {
   const stepCount = recipe.steps.split(/(?<!\d)(?=\d+[）)])/u).map((part) => part.trim()).filter(Boolean).length;
   assert.equal(recipe.media.recipePageUrl, recipe.source, `${recipe.name}: 媒体菜谱 URL 与正文主信源不一致`);
-  assert.equal(recipe.media.repositoryCopyAuthorization, "user_confirmed_2026-09-16", `${recipe.name}: 缺少用户授权记录`);
-  assert(Array.isArray(recipe.media.steps) && recipe.media.steps.length >= 1, `${recipe.name}: 没有本地步骤图`);
+  const recipeId = `${chinese.includes(recipe) ? "cn" : "west"}-${String((chinese.includes(recipe) ? chinese : western).indexOf(recipe) + 1).padStart(3, "0")}`;
+  const authorization = ["cn-011", "west-012", "west-031"].includes(recipeId) ? "user_confirmed_2026-10-07" : "user_confirmed_2026-09-16";
+  assert.equal(recipe.media.repositoryCopyAuthorization, authorization, `${recipe.name}: 缺少对应批次用户授权记录`);
+  const heroOnly = isAuthorizedHeroOnly({ recipeId, sourceUrl: recipe.source, authorization: recipe.media.heroOnlyAuthorization });
+  assert(Array.isArray(recipe.media.steps) && (recipe.media.steps.length >= 1 || heroOnly), `${recipe.name}: 没有本地步骤图或明确授权例外`);
   assert(recipe.media.steps.length <= stepCount, `${recipe.name}: 步骤图数量超过公开步骤`);
   assert.equal(new Set(recipe.media.steps.map((item) => item.stepOrder)).size, recipe.media.steps.length, `${recipe.name}: 步骤图序号重复`);
   await assertLocalImage(recipe.name, "成品图", recipe.media.hero);

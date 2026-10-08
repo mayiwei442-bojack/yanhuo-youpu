@@ -1,0 +1,63 @@
+{
+  "runId": "2026-10-08-howtocook-cn-014",
+  "recipeId": "cn-014",
+  "recipeName": "柳州螺蛳粉",
+  "category": "chinese",
+  "status": "done",
+  "startedAt": "2026-10-08T07:12:46.996Z",
+  "completedAt": "2026-10-08T07:51:09.246Z",
+  "branch": "howtocook",
+  "branchAuthorization": "user_explicit_2026-10-08",
+  "commit": "1f8675fc207bfce0c467a38e42c63be99dd93c38",
+  "steps": {
+    "research": {
+      "status": "done",
+      "attempts": 1
+    },
+    "ingestion": {
+      "status": "done",
+      "attempts": 1
+    },
+    "edit": {
+      "status": "done",
+      "attempts": 1
+    },
+    "validator": {
+      "status": "done",
+      "attempts": 1
+    },
+    "review": {
+      "status": "done",
+      "attempts": 2,
+      "details": {
+        "correctionsPath": "workflow/howtocook/2026-10-08/review-corrections.json",
+        "finalStatus": "PASS"
+      }
+    },
+    "build": {
+      "status": "done",
+      "attempts": 1
+    },
+    "gitPush": {
+      "status": "done",
+      "attempts": 1
+    }
+  },
+  "sources": [
+    {
+      "name": "HowToCook",
+      "url": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/staple/%E8%9E%BA%E8%9B%B3%E7%B2%89.md",
+      "status": "success",
+      "documentId": "60a04e20-23c1-407b-a88e-59d36b3a2796"
+    }
+  ],
+  "errors": [],
+  "evidencePackageHash": "dc141b72b2c2f08c8a04f593ab72428c8daf5a1493302b70f612c65838630d3d",
+  "reviewPath": "workflow/howtocook/2026-10-08/cn-014.review.json",
+  "validationPath": "workflow/howtocook/2026-10-08/cn-014.validation.json",
+  "sourceLimitations": [
+    "正文明确广西柳州；原版为袋装螺蛳粉，不是自制螺蛳汤。",
+    "本上游菜谱无图片，按用户要求不补造图片。",
+    "原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "大葱/水身份已规范，标签保留原量用途。12步、份数公式、约45分钟与各火候时长忠实；18食材行和12步独立四项复审通过。",
+  "evidencePackageHash": "49e56496fe089419ae34326cddd2a32b93a8800efe61965a008f8efdbedd7a97",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

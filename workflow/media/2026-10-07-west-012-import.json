@@ -1,0 +1,54 @@
+{
+  "recipeId": "west-012",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://www.seriouseats.com/thmb/kog6qJ8iuNbyhyyTn2EyA-5Z19c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2016__11__20161118-lasagne-bolognese-vicky-wasik-22-3edfa22e77c64a27817cb27bfa5fee3e.jpg",
+      "repositoryPath": "assets/dishes/sources/west-012-serious-eats/hero.webp",
+      "sha256": "5650a643a4f3533469c44b8415e006b8fe266c2819a5f3c8e52b7a678d65bd3f",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 73480
+    },
+    {
+      "role": "step",
+      "stepOrder": 1,
+      "originalUrl": "https://www.seriouseats.com/thmb/Ecv1y4jteVR_cips3cd-3yFz9m8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2016__09__20160901-bechamel-sauce-vicky-wasik-11-cdb54a7a215542a9bea561d384e67bc1.jpg",
+      "repositoryPath": "assets/dishes/sources/west-012-serious-eats/step-1.webp",
+      "sha256": "7591bf55d649fb81f6f143c38ec9a0c4b8f65286b3c33570202fe82304f95381",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 45812
+    },
+    {
+      "role": "step",
+      "stepOrder": 5,
+      "originalUrl": "https://www.seriouseats.com/thmb/q10Imnq7aFha7ks8EDfREJNUE4s=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2016__11__20161118-lasagne-bolognese-vicky-wasik-pasta-collage-034a983deb0642a59ea8e12c0ff28804.jpg",
+      "repositoryPath": "assets/dishes/sources/west-012-serious-eats/step-5.webp",
+      "sha256": "f4df1a56005240c39cf986b89652c1267646532f1462357070ed0dc4dc22b395",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 103330
+    },
+    {
+      "role": "step",
+      "stepOrder": 9,
+      "originalUrl": "https://www.seriouseats.com/thmb/fVPbxARHb0JyD-2IUfeZEl1BPhw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2016__11__20161118-lasagne-bolognese-vicky-wasik-assembly-collage-8fe6ff78c00049448b5505458f94aebe.jpg",
+      "repositoryPath": "assets/dishes/sources/west-012-serious-eats/step-9.webp",
+      "sha256": "b463357c2d17c3ecbe589e97be3092ce8ac5ba1161e0eeefbf84f6a168fc924d",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 130516
+    },
+    {
+      "role": "step",
+      "stepOrder": 10,
+      "originalUrl": "https://www.seriouseats.com/thmb/e1-c68vJZl2Dbqw5iM6wGqKVyYE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2016__11__20161118-lasagne-bolognese-vicky-wasik-top-collage-e5a3bd2486aa4947844350f20ce9a999.jpg",
+      "repositoryPath": "assets/dishes/sources/west-012-serious-eats/step-10.webp",
+      "sha256": "53ab42393606eef72c314b728411dcedae7b4035186e89b6a1dd3e54770e3d79",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 98530
+    }
+  ]
+}

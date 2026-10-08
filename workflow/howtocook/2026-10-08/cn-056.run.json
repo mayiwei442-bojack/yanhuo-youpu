@@ -1,0 +1,63 @@
+{
+  "runId": "2026-10-08-howtocook-cn-056",
+  "recipeId": "cn-056",
+  "recipeName": "上汤娃娃菜",
+  "category": "chinese",
+  "status": "done",
+  "startedAt": "2026-10-08T07:12:46.996Z",
+  "completedAt": "2026-10-08T07:51:09.246Z",
+  "branch": "howtocook",
+  "branchAuthorization": "user_explicit_2026-10-08",
+  "commit": "1f8675fc207bfce0c467a38e42c63be99dd93c38",
+  "steps": {
+    "research": {
+      "status": "done",
+      "attempts": 1
+    },
+    "ingestion": {
+      "status": "done",
+      "attempts": 1
+    },
+    "edit": {
+      "status": "done",
+      "attempts": 1
+    },
+    "validator": {
+      "status": "done",
+      "attempts": 1
+    },
+    "review": {
+      "status": "done",
+      "attempts": 2,
+      "details": {
+        "correctionsPath": "workflow/howtocook/2026-10-08/review-corrections.json",
+        "finalStatus": "PASS"
+      }
+    },
+    "build": {
+      "status": "done",
+      "attempts": 1
+    },
+    "gitPush": {
+      "status": "done",
+      "attempts": 1
+    }
+  },
+  "sources": [
+    {
+      "name": "HowToCook",
+      "url": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/vegetable_dish/%E4%B8%8A%E6%B1%A4%E5%A8%83%E5%A8%83%E8%8F%9C/%E4%B8%8A%E6%B1%A4%E5%A8%83%E5%A8%83%E8%8F%9C.md",
+      "status": "success",
+      "documentId": "ccc935f0-7827-461c-8e8a-434fae092cdf"
+    }
+  ],
+  "errors": [],
+  "evidencePackageHash": "8f09f62533f4a29185f27d47377edcf29051f430d361806fcff7b300a3d57546",
+  "reviewPath": "workflow/howtocook/2026-10-08/cn-056.review.json",
+  "validationPath": "workflow/howtocook/2026-10-08/cn-056.validation.json",
+  "sourceLimitations": [
+    "午餐肉、油、蚝油、糖、盐、味精未定量；必备淀粉未说明操作，金针菇/蚝油/味精未列必备。",
+    "原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。",
+    "原文称素菜但含午餐肉和皮蛋；不改动上游描述。"
+  ]
+}

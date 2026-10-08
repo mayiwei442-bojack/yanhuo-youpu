@@ -1,0 +1,58 @@
+{
+  "runId": "2026-10-08-howtocook-cn-047",
+  "recipeId": "cn-047",
+  "recipeName": "葱油拌面",
+  "category": "chinese",
+  "status": "done",
+  "startedAt": "2026-10-08T07:12:46.996Z",
+  "completedAt": "2026-10-08T07:51:09.246Z",
+  "branch": "howtocook",
+  "branchAuthorization": "user_explicit_2026-10-08",
+  "commit": "1f8675fc207bfce0c467a38e42c63be99dd93c38",
+  "steps": {
+    "research": {
+      "status": "done",
+      "attempts": 1
+    },
+    "ingestion": {
+      "status": "done",
+      "attempts": 1
+    },
+    "edit": {
+      "status": "done",
+      "attempts": 1
+    },
+    "validator": {
+      "status": "done",
+      "attempts": 1
+    },
+    "review": {
+      "status": "done",
+      "attempts": 1
+    },
+    "build": {
+      "status": "done",
+      "attempts": 1
+    },
+    "gitPush": {
+      "status": "done",
+      "attempts": 1
+    }
+  },
+  "sources": [
+    {
+      "name": "HowToCook",
+      "url": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/staple/%E8%91%B1%E6%B2%B9%E6%8B%8C%E9%9D%A2.md",
+      "status": "success",
+      "documentId": "55fce09c-0d6d-4b98-90ba-68ff7737e0fb"
+    }
+  ],
+  "errors": [],
+  "evidencePackageHash": "287bb6348aac6118625f8a5d628f5507224a91f4e23bc513c818727f6850e38f",
+  "reviewPath": "workflow/howtocook/2026-10-08/cn-047.review.json",
+  "validationPath": "workflow/howtocook/2026-10-08/cn-047.validation.json",
+  "sourceLimitations": [
+    "本上游菜谱无图片，按用户要求不补造图片。",
+    "原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。"
+  ]
+}

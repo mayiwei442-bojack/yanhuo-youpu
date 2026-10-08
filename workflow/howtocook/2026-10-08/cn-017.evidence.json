@@ -1,0 +1,244 @@
+{
+  "recipeId": "cn-017",
+  "recipeName": "水煮牛肉",
+  "category": "chinese",
+  "createdAt": "2026-10-08T07:14:35.262630+00:00",
+  "sources": [
+    {
+      "sourceName": "HowToCook",
+      "sourceType": "website",
+      "url": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/meat_dish/%E6%B0%B4%E7%85%AE%E7%89%9B%E8%82%89/%E6%B0%B4%E7%85%AE%E7%89%9B%E8%82%89.md",
+      "documentId": "c8991fdc-cd72-436d-90fe-538e4fe50f97",
+      "retrievalMethod": "GitHub immutable raw Markdown via configured local HTTP proxy; no access-control bypass",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "牛肉",
+          "raw": "牛肉 300g",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "豆芽",
+          "raw": "豆芽 100g",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "鸡蛋",
+          "raw": "鸡蛋 1 个",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "香菜",
+          "raw": "香菜 5 根",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "豆瓣酱",
+          "raw": "豆瓣酱 10g",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "料酒",
+          "raw": "料酒 10ml",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "淀粉",
+          "raw": "淀粉 15g",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "干辣椒粉",
+          "raw": "干辣椒粉 5g",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "姜",
+          "raw": "姜 20g",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "蒜",
+          "raw": "蒜 3 瓣",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "红辣椒",
+          "raw": "红辣椒 1 根",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "蚝油",
+          "raw": "蚝油 8g",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "油",
+          "raw": "锅里倒油，加入豆瓣酱，5g 姜丝，蒜片。",
+          "amount": null,
+          "sourceSection": "操作"
+        },
+        {
+          "name": "开水",
+          "raw": "倒入开水，煮成红汤。",
+          "amount": null,
+          "sourceSection": "操作/附加内容"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "牛肉洗干净切片。\n\n![水煮牛肉-预览图-2](./sznr2.jpg)",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 1
+        },
+        {
+          "order": 2,
+          "instruction": "加入 15g 姜丝，1 个鸡蛋，15g 淀粉，8g 蚝油，10ml 料酒搅拌均匀，腌制 15 分钟。\n\n![水煮牛肉-预览图-3](./sznr3.jpg)",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 2
+        },
+        {
+          "order": 3,
+          "instruction": "香菜洗干净切好。\n\n![水煮牛肉-预览图-4](./sznr4.jpg)",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 3
+        },
+        {
+          "order": 4,
+          "instruction": "锅里倒油，加入豆瓣酱，5g 姜丝，蒜片。\n\n![水煮牛肉-预览图-5](./sznr5.jpg)",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 4
+        },
+        {
+          "order": 5,
+          "instruction": "倒入开水，煮成红汤。\n\n![水煮牛肉-预览图-6](./sznr6.jpg)",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 5
+        },
+        {
+          "order": 6,
+          "instruction": "豆芽洗干净去掉尾须，放进开水里焯熟。\n\n![水煮牛肉-预览图-7](./sznr7.jpg)",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 6
+        },
+        {
+          "order": 7,
+          "instruction": "将豆芽铺入碗底。\n\n![水煮牛肉-预览图-8](./sznr8.jpg)",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 7
+        },
+        {
+          "order": 8,
+          "instruction": "将牛肉片一片一片的放进红汤中，煮熟以后捞出。\n\n![水煮牛肉-预览图-9](./sznr9.jpg)",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 8
+        },
+        {
+          "order": 9,
+          "instruction": "将牛肉铺在豆芽上，撒上香菜梗。\n\n![水煮牛肉-预览图-10](./sznr10.jpg)",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 9
+        },
+        {
+          "order": 10,
+          "instruction": "撒上香菜叶，辣椒粉，辣椒圈。\n\n![水煮牛肉-预览图-11](./sznr11.jpg)",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 10
+        },
+        {
+          "order": 11,
+          "instruction": "另起锅烧热油，将热油淋在菜上面，就完成了。\n\n![水煮牛肉-预览图-12](./sznr12.jpg)",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 11
+        }
+      ],
+      "technique": [
+        "每次制作前需要确定计划做几份。一份正好够 2 个人吃。\n\n这是一份的量：\n\n- 牛肉 300g\n- 豆芽 100g\n- 鸡蛋 1 个\n- 香菜 5 根\n- 豆瓣酱 10g\n- 料酒 10ml\n- 淀粉 15g\n- 干辣椒粉 5g\n- 姜 20g\n- 蒜 3 瓣\n- 红辣椒 1 根\n- 蚝油 8g"
+      ],
+      "tips": [
+        "- 参考: [水煮牛肉的详细步骤](https://www.zhms.cn/recipe/blrqm.html?source=2)\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+      ],
+      "rawExcerpt": "# 水煮牛肉的做法\n\n![水煮牛肉-预览图-1](./sznr1.jpg)\n\n水煮牛肉是川菜中的经典麻辣味型，口感滑嫩、汤汁红亮、香辣烫鲜。牛肉富含优质蛋白质和铁，搭配豆芽可补充膳食纤维。这道菜对新手来说不算太难，但需注意火候和泼油安全，整体制作约需四十分钟。\n\n预估烹饪难度：★★★\n\n预估卡路里：431 大卡\n\n## 必备原料和工具\n\n- 牛肉\n- 豆芽\n- 鸡蛋\n- 香菜\n- 豆瓣酱\n- 料酒\n- 淀粉\n- 干辣椒粉\n- 姜\n- 蒜\n- 红辣椒\n- 蚝油\n\n## 计算\n\n每次制作前需要确定计划做几份。一份正好够 2 个人吃。\n\n这是一份的量：\n\n- 牛肉 300g\n- 豆芽 100g\n- 鸡蛋 1 个\n- 香菜 5 根\n- 豆瓣酱 10g\n- 料酒 10ml\n- 淀粉 15g\n- 干辣椒粉 5g\n- 姜 20g\n- 蒜 3 瓣\n- 红辣椒 1 根\n- 蚝油 8g\n\n## 操作\n\n1. 牛肉洗干净切片。\n\n![水煮牛肉-预览图-2](./sznr2.jpg)\n\n2. 加入 15g 姜丝，1 个鸡蛋，15g 淀粉，8g 蚝油，10ml 料酒搅拌均匀，腌制 15 分钟。\n\n![水煮牛肉-预览图-3](./sznr3.jpg)\n\n3. 香菜洗干净切好。\n\n![水煮牛肉-预览图-4](./sznr4.jpg)\n\n4. 锅里倒油，加入豆瓣酱，5g 姜丝，蒜片。\n\n![水煮牛肉-预览图-5](./sznr5.jpg)\n\n5. 倒入开水，煮成红汤。\n\n![水煮牛肉-预览图-6](./sznr6.jpg)\n\n6. 豆芽洗干净去掉尾须，放进开水里焯熟。\n\n![水煮牛肉-预览图-7](./sznr7.jpg)\n\n7. 将豆芽铺入碗底。\n\n![水煮牛肉-预览图-8](./sznr8.jpg)\n\n8. 将牛肉片一片一片的放进红汤中，煮熟以后捞出。\n\n![水煮牛肉-预览图-9](./sznr9.jpg)\n\n9. 将牛肉铺在豆芽上，撒上香菜梗。\n\n![水煮牛肉-预览图-10](./sznr10.jpg)\n\n10. 撒上香菜叶，辣椒粉，辣椒圈。\n\n![水煮牛肉-预览图-11](./sznr11.jpg)\n\n11. 另起锅烧热油，将热油淋在菜上面，就完成了。\n\n![水煮牛肉-预览图-12](./sznr12.jpg)\n\n## 附加内容\n\n- 参考: [水煮牛肉的详细步骤](https://www.zhms.cn/recipe/blrqm.html?source=2)\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n"
+    }
+  ],
+  "sourceMode": "single_source",
+  "singleSourceReason": "User explicitly directed exclusive HowToCook source and exact upstream transcription.",
+  "selectedSourceUrl": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/meat_dish/%E6%B0%B4%E7%85%AE%E7%89%9B%E8%82%89/%E6%B0%B4%E7%85%AE%E7%89%9B%E8%82%89.md",
+  "selectionReason": "上游菜谱文件名与指定菜名完全一致。",
+  "ragEvidence": [
+    {
+      "chunkId": "20ce8bd3-e00e-401c-aadc-42e47ad4b7a3",
+      "documentId": "c8991fdc-cd72-436d-90fe-538e4fe50f97",
+      "sourceName": "HowToCook",
+      "chunkType": "tips",
+      "content": "菜名：水煮牛肉\n- - 参考: [水煮牛肉的详细步骤](https://www.zhms.cn/recipe/blrqm.html?source=2) 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。",
+      "similarity": 0.730720102787023
+    },
+    {
+      "chunkId": "b9b3ce8c-5971-4957-a4eb-e4185b170f4c",
+      "documentId": "c8991fdc-cd72-436d-90fe-538e4fe50f97",
+      "sourceName": "HowToCook",
+      "chunkType": "steps",
+      "content": "菜名：水煮牛肉\n1. 牛肉洗干净切片。 ![水煮牛肉-预览图-2](./sznr2.jpg)\n2. 加入 15g 姜丝，1 个鸡蛋，15g 淀粉，8g 蚝油，10ml 料酒搅拌均匀，腌制 15 分钟。 ![水煮牛肉-预览图-3](./sznr3.jpg)\n3. 香菜洗干净切好。 ![水煮牛肉-预览图-4](./sznr4.jpg)\n4. 锅里倒油，加入豆瓣酱，5g 姜丝，蒜片。 ![水煮牛肉-预览图-5](./sznr5.jpg)\n5. 倒入开水，煮成红汤。 ![水煮牛肉-预览图-6](./sznr6.jpg)\n6. 豆芽洗干净去掉尾须，放进开水里焯熟。 ![水煮牛肉-预览图-7](./sznr7.jpg)\n7. 将豆芽铺入碗底。 ![水煮牛肉-预览图-8](./sznr8.jpg)\n8. 将牛肉片一片一片的放进红汤中，煮熟以后捞出。 ![水煮牛肉-预览图-9](./sznr9.jpg)\n9. 将牛肉铺在豆芽上，撒上香菜梗。 ![水煮牛肉-预览图-10](./sznr10.jpg)\n10. 撒上香菜叶，辣椒粉，辣椒圈。 ![水煮牛肉-预览图-11](./sznr11.jpg)\n11. 另起锅烧热油，将热油淋在菜上面，就完成了。 ![水煮牛肉-预览图-12](./sznr12.jpg)",
+      "similarity": 0.684269607067113
+    },
+    {
+      "chunkId": "39e20079-e42c-4a43-86bd-cefb1d6f4a9b",
+      "documentId": "c8991fdc-cd72-436d-90fe-538e4fe50f97",
+      "sourceName": "HowToCook",
+      "chunkType": "summary",
+      "content": "菜名：水煮牛肉\n简介：# 水煮牛肉的做法 ![水煮牛肉-预览图-1](./sznr1.jpg) 水煮牛肉是川菜中的经典麻辣味型，口感滑嫩、汤汁红亮、香辣烫鲜。牛肉富含优质蛋白质和铁，搭配豆芽可补充膳食纤维。这道菜对新手来说不算太难，但需注意火候和泼油安全，整体制作约需四十分钟。 预估烹饪难度：★★★ 预估卡路里：431 大卡",
+      "similarity": 0.666147450575082
+    },
+    {
+      "chunkId": "dc3a3da4-f072-4284-9022-49c829c035c6",
+      "documentId": "c8991fdc-cd72-436d-90fe-538e4fe50f97",
+      "sourceName": "HowToCook",
+      "chunkType": "ingredients",
+      "content": "菜名：水煮牛肉\n- 牛肉 300g\n- 豆芽 100g\n- 鸡蛋 1 个\n- 香菜 5 根\n- 豆瓣酱 10g\n- 料酒 10ml\n- 淀粉 15g\n- 干辣椒粉 5g\n- 姜 20g\n- 蒜 3 瓣\n- 红辣椒 1 根\n- 蚝油 8g\n- 锅里倒油，加入豆瓣酱，5g 姜丝，蒜片。\n- 倒入开水，煮成红汤。",
+      "similarity": 0.642528533935551
+    },
+    {
+      "chunkId": "cb734cc8-b57e-473e-bad2-3c3068bf18db",
+      "documentId": "c8991fdc-cd72-436d-90fe-538e4fe50f97",
+      "sourceName": "HowToCook",
+      "chunkType": "technique",
+      "content": "菜名：水煮牛肉\n- 每次制作前需要确定计划做几份。一份正好够 2 个人吃。 这是一份的量： - 牛肉 300g - 豆芽 100g - 鸡蛋 1 个 - 香菜 5 根 - 豆瓣酱 10g - 料酒 10ml - 淀粉 15g - 干辣椒粉 5g - 姜 20g - 蒜 3 瓣 - 红辣椒 1 根 - 蚝油 8g",
+      "similarity": 0.623134888597423
+    }
+  ],
+  "notes": [
+    "用户明确要求仅用 HowToCook，原文完整转录；complete=true 表示上游文档完整抓取，不表示烹饪参数无遗漏。",
+    "Source limitations: 原料/计算未列炒制及泼油的油类型、用量；操作另用开水但无定量。 原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。",
+    "GitHub commit a2d45c6984dff9ee941da0e7c452f7965965d962; path dishes/meat_dish/水煮牛肉/水煮牛肉.md",
+    "媒体按原文位置保留；未要求映射的照片不伪称步骤图。",
+    "Existing exact-name knowledge-base documents checked before source fetching: 0",
+    "Existing exact-name knowledge-base documents checked before source fetching: 0",
+    "Structured ingredient audit corrected only explicit ingredient names and matching raw source text; no amount was invented.",
+    "Existing exact-name knowledge-base documents checked before source fetching: 0"
+  ]
+}

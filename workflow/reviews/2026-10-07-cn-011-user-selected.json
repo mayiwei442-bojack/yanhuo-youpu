@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "cn-011 重审通过：未知份数为null且不缩放，8小时以上不作固定完成倒计时，牛骨提示正确。16食材、9步骤、同源本地图片及6项来源缺口通过独立对抗审查；仅认证用户授权下的忠实转述与披露，不认证来源烹饪完整性。",
+  "evidencePackageHash": "30764f7c2108651ad2654261e587c5f5a8e3f2ce11385d28e0f6be8103c5ae7a",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

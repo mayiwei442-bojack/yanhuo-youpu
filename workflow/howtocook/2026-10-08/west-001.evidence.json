@@ -1,0 +1,172 @@
+{
+  "recipeId": "west-001",
+  "recipeName": "意大利肉酱面",
+  "category": "western",
+  "createdAt": "2026-10-08T07:14:35.262630+00:00",
+  "sources": [
+    {
+      "sourceName": "HowToCook",
+      "sourceType": "website",
+      "url": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/staple/%E6%84%8F%E5%BC%8F%E8%82%89%E9%85%B1%E9%9D%A2/%E6%84%8F%E5%BC%8F%E8%82%89%E9%85%B1%E9%9D%A2.md",
+      "documentId": "5b47be81-a205-43f4-9c8e-d8410aefd59a",
+      "retrievalMethod": "GitHub immutable raw Markdown via configured local HTTP proxy; no access-control bypass",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "意大利面",
+          "raw": "意大利面 180 克（可以根据食量上下浮动）",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "意大利面酱",
+          "raw": "意大利面酱 300 克（可以看情况上下浮动）",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "肉沫",
+          "raw": "肉沫 80 克（可以根据食量上下浮动）",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "洋葱",
+          "raw": "洋葱大半个 （大约 150 克，通常是肉的两倍重）",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "食用油",
+          "raw": "食用油 10-15ml",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "水",
+          "raw": "意式肉酱面是一道简单快手的家常西餐，酱汁浓郁、面条筋道，适合忙碌的日常。肉末和洋葱搭配成品意面酱，能快速补充蛋白质与碳水化合物，洋葱还含有膳食纤维。做法对初学者十分友好，全程只需简单切炒，熟练后 15 分钟就能端上桌，比方便面更满足。",
+          "amount": null,
+          "sourceSection": "操作/附加内容"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "锅中加水，烧开后放入意面（等待 6 - 12 分钟）",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 1
+        },
+        {
+          "order": 2,
+          "instruction": "在烧水的时候可以进行下面这些步骤，但请注意煮面的时间",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 2
+        },
+        {
+          "order": 3,
+          "instruction": "洋葱切成小丁",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 3
+        },
+        {
+          "order": 4,
+          "instruction": "空锅中倒油，中火下入洋葱碎",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 4
+        },
+        {
+          "order": 5,
+          "instruction": "时刻搅拌，注意不要让洋葱烧糊，直到洋葱变成半透明状",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 5
+        },
+        {
+          "order": 6,
+          "instruction": "下入肉沫，继续搅拌（搅散），直到肉末变成棕色",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 6
+        },
+        {
+          "order": 7,
+          "instruction": "加入意大利面酱，稍微搅拌一下即可",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 7
+        },
+        {
+          "order": 8,
+          "instruction": "把煮好的意大利面沥干水分并倒入肉酱中搅拌均匀即可（或者直接把做好的肉酱倒在意面上也行）",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 8
+        }
+      ],
+      "technique": [
+        "每次制作前需要确定计划做几份。一份正好够 2 个人吃。\n\n每份：\n\n- 意大利面 180 克（可以根据食量上下浮动）\n- 肉沫 80 克（可以根据食量上下浮动）\n- 洋葱大半个 （大约 150 克，通常是肉的两倍重）\n- 意大利面酱 300 克（可以看情况上下浮动）\n- 食用油 10-15ml"
+      ],
+      "tips": [
+        "- 意大利面分为很多不同的粗细，煮面条之前请注意意面盒子上标注的时间\n- 意大利面酱并不是番茄酱，平常用的番茄酱准确是叫番茄沙司，而意大利面酱虽然和番茄沙司都是调味过的番茄酱，但加的调味料不同\n\n![不同种类的意面](./spaghetti.jpg)\n![意大利面酱](./sauce.jpg)\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+      ],
+      "rawExcerpt": "# 意式肉酱面的做法\n\n![意式肉酱面-预览图-1](./final.jpg)\n\n意式肉酱面是一道简单快手的家常西餐，酱汁浓郁、面条筋道，适合忙碌的日常。肉末和洋葱搭配成品意面酱，能快速补充蛋白质与碳水化合物，洋葱还含有膳食纤维。做法对初学者十分友好，全程只需简单切炒，熟练后 15 分钟就能端上桌，比方便面更满足。\n\n预估烹饪难度：★\n\n预估卡路里：1199 大卡\n\n## 必备原料和工具\n\n- 意大利面\n- 意大利面酱\n- 肉沫\n- 白洋葱（紫洋葱也可以）\n\n## 计算\n\n每次制作前需要确定计划做几份。一份正好够 2 个人吃。\n\n每份：\n\n- 意大利面 180 克（可以根据食量上下浮动）\n- 肉沫 80 克（可以根据食量上下浮动）\n- 洋葱大半个 （大约 150 克，通常是肉的两倍重）\n- 意大利面酱 300 克（可以看情况上下浮动）\n- 食用油 10-15ml\n\n## 操作\n\n1. 锅中加水，烧开后放入意面（等待 6 - 12 分钟）\n2. 在烧水的时候可以进行下面这些步骤，但请注意煮面的时间\n3. 洋葱切成小丁\n4. 空锅中倒油，中火下入洋葱碎\n5. 时刻搅拌，注意不要让洋葱烧糊，直到洋葱变成半透明状\n6. 下入肉沫，继续搅拌（搅散），直到肉末变成棕色\n7. 加入意大利面酱，稍微搅拌一下即可\n8. 把煮好的意大利面沥干水分并倒入肉酱中搅拌均匀即可（或者直接把做好的肉酱倒在意面上也行）\n\n## 附加内容\n\n- 意大利面分为很多不同的粗细，煮面条之前请注意意面盒子上标注的时间\n- 意大利面酱并不是番茄酱，平常用的番茄酱准确是叫番茄沙司，而意大利面酱虽然和番茄沙司都是调味过的番茄酱，但加的调味料不同\n\n![不同种类的意面](./spaghetti.jpg)\n![意大利面酱](./sauce.jpg)\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n"
+    }
+  ],
+  "sourceMode": "single_source",
+  "singleSourceReason": "User explicitly directed exclusive HowToCook source and exact upstream transcription.",
+  "selectedSourceUrl": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/staple/%E6%84%8F%E5%BC%8F%E8%82%89%E9%85%B1%E9%9D%A2/%E6%84%8F%E5%BC%8F%E8%82%89%E9%85%B1%E9%9D%A2.md",
+  "selectionReason": "意式即意大利式；原版使用成品意大利面酱加肉末。",
+  "ragEvidence": [
+    {
+      "chunkId": "1d9a5a0f-352b-4faf-a589-5fac97ad1aaa",
+      "documentId": "5b47be81-a205-43f4-9c8e-d8410aefd59a",
+      "sourceName": "HowToCook",
+      "chunkType": "tips",
+      "content": "菜名：意大利肉酱面\n- - 意大利面分为很多不同的粗细，煮面条之前请注意意面盒子上标注的时间 - 意大利面酱并不是番茄酱，平常用的番茄酱准确是叫番茄沙司，而意大利面酱虽然和番茄沙司都是调味过的番茄酱，但加的调味料不同 ![不同种类的意面](./spaghetti.jpg) ![意大利面酱](./sauce.jpg) 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。",
+      "similarity": 0.750412583351135
+    },
+    {
+      "chunkId": "89505ece-603d-4716-90fd-e56d8b28cbe1",
+      "documentId": "5b47be81-a205-43f4-9c8e-d8410aefd59a",
+      "sourceName": "HowToCook",
+      "chunkType": "summary",
+      "content": "菜名：意大利肉酱面\n别名：意式肉酱面\n简介：# 意式肉酱面的做法 ![意式肉酱面-预览图-1](./final.jpg) 意式肉酱面是一道简单快手的家常西餐，酱汁浓郁、面条筋道，适合忙碌的日常。肉末和洋葱搭配成品意面酱，能快速补充蛋白质与碳水化合物，洋葱还含有膳食纤维。做法对初学者十分友好，全程只需简单切炒，熟练后 15 分钟就能端上桌，比方便面更满足。 预估烹饪难度：★ 预估卡路里：1199 大卡",
+      "similarity": 0.731246336176774
+    },
+    {
+      "chunkId": "e5f30809-f472-4acb-81df-f806a4fa06f2",
+      "documentId": "5b47be81-a205-43f4-9c8e-d8410aefd59a",
+      "sourceName": "HowToCook",
+      "chunkType": "technique",
+      "content": "菜名：意大利肉酱面\n- 每次制作前需要确定计划做几份。一份正好够 2 个人吃。 每份： - 意大利面 180 克（可以根据食量上下浮动） - 肉沫 80 克（可以根据食量上下浮动） - 洋葱大半个 （大约 150 克，通常是肉的两倍重） - 意大利面酱 300 克（可以看情况上下浮动） - 食用油 10-15ml",
+      "similarity": 0.719624519348145
+    },
+    {
+      "chunkId": "bcec7c58-a23b-4f26-9b6e-c33914fa6e13",
+      "documentId": "5b47be81-a205-43f4-9c8e-d8410aefd59a",
+      "sourceName": "HowToCook",
+      "chunkType": "steps",
+      "content": "菜名：意大利肉酱面\n1. 锅中加水，烧开后放入意面（等待 6 - 12 分钟）\n2. 在烧水的时候可以进行下面这些步骤，但请注意煮面的时间\n3. 洋葱切成小丁\n4. 空锅中倒油，中火下入洋葱碎\n5. 时刻搅拌，注意不要让洋葱烧糊，直到洋葱变成半透明状\n6. 下入肉沫，继续搅拌（搅散），直到肉末变成棕色\n7. 加入意大利面酱，稍微搅拌一下即可\n8. 把煮好的意大利面沥干水分并倒入肉酱中搅拌均匀即可（或者直接把做好的肉酱倒在意面上也行）",
+      "similarity": 0.716099858283997
+    },
+    {
+      "chunkId": "4cf9b76b-9d93-4e8a-967f-c34ede8a857b",
+      "documentId": "5b47be81-a205-43f4-9c8e-d8410aefd59a",
+      "sourceName": "HowToCook",
+      "chunkType": "ingredients",
+      "content": "菜名：意大利肉酱面\n- 意大利面 180 克（可以根据食量上下浮动）\n- 意大利面酱 300 克（可以看情况上下浮动）\n- 肉沫 80 克（可以根据食量上下浮动）\n- 洋葱大半个 （大约 150 克，通常是肉的两倍重）\n- 食用油 10-15ml\n- 意式肉酱面是一道简单快手的家常西餐，酱汁浓郁、面条筋道，适合忙碌的日常。肉末和洋葱搭配成品意面酱，能快速补充蛋白质与碳水化合物，洋葱还含有膳食纤维。做法对初学者十分友好，全程只需简单切炒，熟练后 15 分钟就能端上桌，比方便面更满足。",
+      "similarity": 0.712908642714702
+    }
+  ],
+  "notes": [
+    "用户明确要求仅用 HowToCook，原文完整转录；complete=true 表示上游文档完整抓取，不表示烹饪参数无遗漏。",
+    "Source limitations: 意式即意大利式；原版使用成品意大利面酱加肉末。 原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。",
+    "GitHub commit a2d45c6984dff9ee941da0e7c452f7965965d962; path dishes/staple/意式肉酱面/意式肉酱面.md",
+    "媒体按原文位置保留；未要求映射的照片不伪称步骤图。",
+    "Existing exact-name knowledge-base documents checked before source fetching: 0"
+  ]
+}

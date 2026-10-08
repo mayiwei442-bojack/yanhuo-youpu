@@ -1,0 +1,61 @@
+{
+  "runId": "2026-10-08-howtocook-cn-060",
+  "recipeId": "cn-060",
+  "recipeName": "银耳莲子羹",
+  "category": "chinese",
+  "status": "done",
+  "startedAt": "2026-10-08T07:12:46.996Z",
+  "completedAt": "2026-10-08T07:51:09.246Z",
+  "branch": "howtocook",
+  "branchAuthorization": "user_explicit_2026-10-08",
+  "commit": "1f8675fc207bfce0c467a38e42c63be99dd93c38",
+  "steps": {
+    "research": {
+      "status": "done",
+      "attempts": 1
+    },
+    "ingestion": {
+      "status": "done",
+      "attempts": 1
+    },
+    "edit": {
+      "status": "done",
+      "attempts": 1
+    },
+    "validator": {
+      "status": "done",
+      "attempts": 1
+    },
+    "review": {
+      "status": "done",
+      "attempts": 2,
+      "details": {
+        "correctionsPath": "workflow/howtocook/2026-10-08/review-corrections.json",
+        "finalStatus": "PASS"
+      }
+    },
+    "build": {
+      "status": "done",
+      "attempts": 1
+    },
+    "gitPush": {
+      "status": "done",
+      "attempts": 1
+    }
+  },
+  "sources": [
+    {
+      "name": "HowToCook",
+      "url": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/soup/%E9%93%B6%E8%80%B3%E8%8E%B2%E5%AD%90%E7%B2%A5/%E9%93%B6%E8%80%B3%E8%8E%B2%E5%AD%90%E7%B2%A5.md",
+      "status": "success",
+      "documentId": "5f0c49d0-41a8-4e90-8e2c-a71b48a2e160"
+    }
+  ],
+  "errors": [],
+  "evidencePackageHash": "9947995f6317aea83769360b38bee8c3c2bb36e58e232e35f62f48f9bfc56cc5",
+  "reviewPath": "workflow/howtocook/2026-10-08/cn-060.review.json",
+  "validationPath": "workflow/howtocook/2026-10-08/cn-060.validation.json",
+  "sourceLimitations": [
+    "原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。"
+  ]
+}

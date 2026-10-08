@@ -1,0 +1,92 @@
+{
+  "createdAt": "2026-10-07T11:49:04Z",
+  "purpose": "Read-only time evidence verification for user-authorized followup; does not repeat media completion or edit recipes.",
+  "items": [
+    {
+      "recipeId": "cn-003",
+      "name": "麻婆豆腐",
+      "documentId": "0c24a839-89d2-4372-bb85-a1ce573d4ba4",
+      "sourceUrl": "https://thewoksoflife.com/ma-po-tofu-real-deal/",
+      "sourceTimingMetadata": {
+        "cookTime": "25分钟",
+        "prepTime": "10分钟",
+        "totalTime": "35分钟",
+        "recipeYield": "6,6 servings"
+      },
+      "timing": {
+        "prepMinutes": 10,
+        "cookMinutes": 25,
+        "totalMinutes": 35
+      },
+      "decision": "source_supported_total",
+      "evidence": "准备：10分钟; 烹饪：25分钟; 总用时：35分钟"
+    },
+    {
+      "recipeId": "cn-004",
+      "name": "鱼香肉丝",
+      "documentId": "e6c112e9-6d7d-4a60-961f-7057aafc2a6e",
+      "sourceUrl": "https://thewoksoflife.com/pork-garlic-sauce/",
+      "sourceTimingMetadata": {
+        "cookTime": "10分钟",
+        "prepTime": "35分钟",
+        "totalTime": "45分钟",
+        "recipeYield": "4"
+      },
+      "timing": {
+        "prepMinutes": 35,
+        "cookMinutes": 10,
+        "totalMinutes": 45
+      },
+      "decision": "source_supported_total",
+      "evidence": "准备：35分钟; 烹饪：10分钟; 总用时：45分钟"
+    },
+    {
+      "recipeId": "cn-006",
+      "name": "红烧肉",
+      "documentId": "b942e03a-0c79-4c86-97e5-4d4b2b674080",
+      "sourceUrl": "https://thewoksoflife.com/shanghai-style-braised-pork-belly/",
+      "sourceTimingMetadata": {
+        "cookTime": "60分钟",
+        "prepTime": "15分钟",
+        "totalTime": "75分钟",
+        "recipeYield": "8,8 servings"
+      },
+      "timing": {
+        "prepMinutes": 15,
+        "cookMinutes": 60,
+        "totalMinutes": 75
+      },
+      "decision": "source_supported_total",
+      "evidence": "准备：15分钟; 烹饪：60分钟; 总用时：75分钟"
+    },
+    {
+      "recipeId": "cn-005",
+      "name": "青椒肉丝",
+      "documentId": "7d2bc972-b772-4ee9-8a53-e13038f46f36",
+      "sourceUrl": "https://www.douguo.com/cookbook/1633594.html",
+      "sourceTimingMetadata": {
+        "sourceRecipeName": "青椒肉丝"
+      },
+      "timing": {
+        "totalMinutes": null
+      },
+      "decision": "verified_unspecified",
+      "evidence": "Existing raw HTML and this-turn public PowerShellGET200 page both show only recipe marinade15min; no totalTime/prepTime/cookTime fields. JavaScript time mentions are article publication time, not cooking time. SelectedDouguo method step3 explicitly says腌制15分钟. Do not import20min total from the distinctWoks source."
+    }
+  ],
+  "cn005CurrentPage": {
+    "url": "https://www.douguo.com/cookbook/1633594.html",
+    "ordinaryPublicPowerShellGETStatus": 200,
+    "htmlLength": 67100,
+    "recipeTimeMentions": [
+      "腌制15分钟"
+    ],
+    "totalTimeFieldPresent": false,
+    "prepTimeFieldPresent": false,
+    "cookTimeFieldPresent": false,
+    "webReaderStatus": 403,
+    "nodeFetchFailure": true,
+    "accessControlsBypassed": false
+  },
+  "publicationCaution": "Report verifies source data only; parent must record separate Editor/Reviewer/test/git completion. cn005 can close as verified_unspecified without fabricating a total."
+}

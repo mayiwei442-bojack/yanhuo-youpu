@@ -1,0 +1,61 @@
+{
+  "runId": "2026-10-08-howtocook-west-003",
+  "recipeId": "west-003",
+  "recipeName": "香煎牛排",
+  "category": "western",
+  "status": "done",
+  "startedAt": "2026-10-08T07:12:46.996Z",
+  "completedAt": "2026-10-08T07:51:09.246Z",
+  "branch": "howtocook",
+  "branchAuthorization": "user_explicit_2026-10-08",
+  "commit": "1f8675fc207bfce0c467a38e42c63be99dd93c38",
+  "steps": {
+    "research": {
+      "status": "done",
+      "attempts": 1
+    },
+    "ingestion": {
+      "status": "done",
+      "attempts": 1
+    },
+    "edit": {
+      "status": "done",
+      "attempts": 1
+    },
+    "validator": {
+      "status": "done",
+      "attempts": 1
+    },
+    "review": {
+      "status": "done",
+      "attempts": 2,
+      "details": {
+        "correctionsPath": "workflow/howtocook/2026-10-08/review-corrections.json",
+        "finalStatus": "PASS"
+      }
+    },
+    "build": {
+      "status": "done",
+      "attempts": 1
+    },
+    "gitPush": {
+      "status": "done",
+      "attempts": 1
+    }
+  },
+  "sources": [
+    {
+      "name": "HowToCook",
+      "url": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/meat_dish/%E7%89%9B%E6%8E%92/%E7%89%9B%E6%8E%92.md",
+      "status": "success",
+      "documentId": "846ed124-1e89-4e3f-9282-3f0dc0df13fa"
+    }
+  ],
+  "errors": [],
+  "evidencePackageHash": "9c75ce75e3ebce51e82027940d30dc2d040ced87e81831862bb316f0953028cf",
+  "reviewPath": "workflow/howtocook/2026-10-08/west-003.review.json",
+  "validationPath": "workflow/howtocook/2026-10-08/west-003.validation.json",
+  "sourceLimitations": [
+    "原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。"
+  ]
+}

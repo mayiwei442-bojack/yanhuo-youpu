@@ -1,0 +1,275 @@
+{
+  "recipeId": "cn-021",
+  "recipeName": "口水鸡",
+  "category": "chinese",
+  "createdAt": "2026-10-08T07:14:35.262630+00:00",
+  "sources": [
+    {
+      "sourceName": "HowToCook",
+      "sourceType": "website",
+      "url": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/meat_dish/%E5%8F%A3%E6%B0%B4%E9%B8%A1/%E5%8F%A3%E6%B0%B4%E9%B8%A1.md",
+      "documentId": "9719b586-9a9e-4793-8a48-9af003999c5b",
+      "retrievalMethod": "GitHub immutable raw Markdown via configured local HTTP proxy; no access-control bypass",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "鸡",
+          "raw": "鸡     半只(500g)",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "食用油",
+          "raw": "食用油   20ml",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "辣椒粉",
+          "raw": "辣椒粉   20g",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "花椒",
+          "raw": "花椒     30 颗(20g)",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "花生",
+          "raw": "花生     10 颗(30g)",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "小葱",
+          "raw": "小葱     2 颗(50g)",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "姜",
+          "raw": "姜       1 小块(20g)",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "蒜",
+          "raw": "蒜       2 个 (10g)",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "白糖",
+          "raw": "白糖     5g",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "生抽",
+          "raw": "生抽     5ml",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "醋",
+          "raw": "醋       5ml",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "味精",
+          "raw": "味精     5g",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "花椒粉",
+          "raw": "花椒粉   5g",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "香菜",
+          "raw": "香菜     5g",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "盐",
+          "raw": "红油中放入剩余蒜末、生抽、醋、盐、味精、糖、香油、花椒粉。拌匀放凉",
+          "amount": null,
+          "sourceSection": "操作/附加内容"
+        },
+        {
+          "name": "香油",
+          "raw": "红油中放入剩余蒜末、生抽、醋、盐、味精、糖、香油、花椒粉。拌匀放凉",
+          "amount": null,
+          "sourceSection": "操作/附加内容"
+        },
+        {
+          "name": "冰水",
+          "raw": "取出鸡肉，放入冰水中，直至冰凉",
+          "amount": null,
+          "sourceSection": "操作/附加内容"
+        },
+        {
+          "name": "清水",
+          "raw": "鸡肉洗干净，放入锅中，清水没过鸡肉，放入姜片、小葱和花椒，开大火烧开。",
+          "amount": null,
+          "sourceSection": "操作"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "姜切片，1 颗小葱，15 颗花椒备用",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 1
+        },
+        {
+          "order": 2,
+          "instruction": "鸡肉洗干净，放入锅中，清水没过鸡肉，放入姜片、小葱和花椒，开大火烧开。",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 2
+        },
+        {
+          "order": 3,
+          "instruction": "大火烧开后，转中小火 20 分钟关火",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 3
+        },
+        {
+          "order": 4,
+          "instruction": "取出鸡肉，放入冰水中，直至冰凉",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 4
+        },
+        {
+          "order": 5,
+          "instruction": "取出鸡肉，切块摆盘子中，备用",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 5
+        },
+        {
+          "order": 6,
+          "instruction": "小火把锅烧热，导入花生，烘烤至表皮爆裂。（注意随时翻动，不要糊了）",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 6
+        },
+        {
+          "order": 7,
+          "instruction": "一颗葱切成段，蒜拍成末，花椒 15 颗，花生去皮切碎。",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 7
+        },
+        {
+          "order": 8,
+          "instruction": "锅内导入油烧热后，放入葱段，花椒和一半蒜末，炒香",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 8
+        },
+        {
+          "order": 9,
+          "instruction": "炒至油温 8 成热，关火，滤出热油",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 9
+        },
+        {
+          "order": 10,
+          "instruction": "将热油倒入放辣椒粉的碗中，搅拌，并滤出红油",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 10
+        },
+        {
+          "order": 11,
+          "instruction": "红油中放入剩余蒜末、生抽、醋、盐、味精、糖、香油、花椒粉。拌匀放凉",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 11
+        },
+        {
+          "order": 12,
+          "instruction": "在鸡肉上撒上花生碎，把红油淋到切好的鸡肉上，撒上香菜。成盘",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 12
+        }
+      ],
+      "technique": [
+        "每份：\n\n- 食用油   20ml\n- 鸡     半只(500g)\n- 辣椒粉   20g\n- 花椒     30 颗(20g)\n- 花生     10 颗(30g)\n- 小葱     2 颗(50g)\n- 姜       1 小块(20g)\n- 蒜       2 个 (10g)\n- 白糖     5g\n- 生抽     5ml\n- 醋       5ml\n- 味精     5g\n- 花椒粉   5g\n- 香菜     5g"
+      ],
+      "tips": [
+        "- 口水鸡第二种做法待更\n- 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+      ],
+      "rawExcerpt": "# 口水鸡的做法\n\n![口水鸡](./口水鸡.jpg)\n\n口水鸡是一道经典的四川凉菜，红油包裹的鸡肉冰爽 Q 弹、麻辣鲜香，夏季食用开胃解腻。鸡肉富含优质蛋白，搭配花生碎和香料，提供能量与风味。制作难度中等，需注意煮鸡火候和红油调味，适合有一定下厨经验的烹饪者。从备料、煮鸡、冷却到淋汁完成，预计耗时约 1.5 小时。\n\n预估烹饪难度：★★★\n\n预估卡路里：1392 大卡\n\n## 必备原料和工具\n\n- 半只鸡\n- 辣椒粉\n- 花椒\n- 花生\n- 葱姜蒜\n- 花椒\n- 白糖\n- 生抽\n- 醋\n- 味精\n\n## 计算\n\n每份：\n\n- 食用油   20ml\n- 鸡     半只(500g)\n- 辣椒粉   20g\n- 花椒     30 颗(20g)\n- 花生     10 颗(30g)\n- 小葱     2 颗(50g)\n- 姜       1 小块(20g)\n- 蒜       2 个 (10g)\n- 白糖     5g\n- 生抽     5ml\n- 醋       5ml\n- 味精     5g\n- 花椒粉   5g\n- 香菜     5g\n\n## 操作\n\n1. 姜切片，1 颗小葱，15 颗花椒备用\n2. 鸡肉洗干净，放入锅中，清水没过鸡肉，放入姜片、小葱和花椒，开大火烧开。\n3. 大火烧开后，转中小火 20 分钟关火\n4. 取出鸡肉，放入冰水中，直至冰凉\n5. 取出鸡肉，切块摆盘子中，备用\n6. 小火把锅烧热，导入花生，烘烤至表皮爆裂。（注意随时翻动，不要糊了）\n7. 一颗葱切成段，蒜拍成末，花椒 15 颗，花生去皮切碎。\n8. 锅内导入油烧热后，放入葱段，花椒和一半蒜末，炒香\n9. 炒至油温 8 成热，关火，滤出热油\n10. 将热油倒入放辣椒粉的碗中，搅拌，并滤出红油\n11. 红油中放入剩余蒜末、生抽、醋、盐、味精、糖、香油、花椒粉。拌匀放凉\n12. 在鸡肉上撒上花生碎，把红油淋到切好的鸡肉上，撒上香菜。成盘\n\n## 附加内容\n\n- 口水鸡第二种做法待更\n- 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n"
+    }
+  ],
+  "sourceMode": "single_source",
+  "singleSourceReason": "User explicitly directed exclusive HowToCook source and exact upstream transcription.",
+  "selectedSourceUrl": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/meat_dish/%E5%8F%A3%E6%B0%B4%E9%B8%A1/%E5%8F%A3%E6%B0%B4%E9%B8%A1.md",
+  "selectionReason": "上游菜谱文件名与指定菜名完全一致。",
+  "ragEvidence": [
+    {
+      "chunkId": "86127f7d-3d4a-4038-8f1e-279bd49618f9",
+      "documentId": "9719b586-9a9e-4793-8a48-9af003999c5b",
+      "sourceName": "HowToCook",
+      "chunkType": "tips",
+      "content": "菜名：口水鸡\n- - 口水鸡第二种做法待更 - 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。",
+      "similarity": 0.600171804428101
+    },
+    {
+      "chunkId": "b856a4ed-08f2-4082-827d-5d9b9b731631",
+      "documentId": "9719b586-9a9e-4793-8a48-9af003999c5b",
+      "sourceName": "HowToCook",
+      "chunkType": "summary",
+      "content": "菜名：口水鸡\n简介：# 口水鸡的做法 ![口水鸡](./口水鸡.jpg) 口水鸡是一道经典的四川凉菜，红油包裹的鸡肉冰爽 Q 弹、麻辣鲜香，夏季食用开胃解腻。鸡肉富含优质蛋白，搭配花生碎和香料，提供能量与风味。制作难度中等，需注意煮鸡火候和红油调味，适合有一定下厨经验的烹饪者。从备料、煮鸡、冷却到淋汁完成，预计耗时约 1.5 小时。 预估烹饪难度：★★★ 预估卡路里：1392 大卡",
+      "similarity": 0.491319313386658
+    },
+    {
+      "chunkId": "baa5060d-ae08-4f34-a568-5af0b273843b",
+      "documentId": "9719b586-9a9e-4793-8a48-9af003999c5b",
+      "sourceName": "HowToCook",
+      "chunkType": "ingredients",
+      "content": "菜名：口水鸡\n- 鸡 半只(500g)\n- 食用油 20ml\n- 辣椒粉 20g\n- 花椒 30 颗(20g)\n- 花生 10 颗(30g)\n- 小葱 2 颗(50g)\n- 姜 1 小块(20g)\n- 蒜 2 个 (10g)\n- 白糖 5g\n- 生抽 5ml\n- 醋 5ml\n- 味精 5g\n- 花椒粉 5g\n- 香菜 5g\n- 红油中放入剩余蒜末、生抽、醋、盐、味精、糖、香油、花椒粉。拌匀放凉\n- 红油中放入剩余蒜末、生抽、醋、盐、味精、糖、香油、花椒粉。拌匀放凉\n- 取出鸡肉，放入冰水中，直至冰凉\n- 鸡肉洗干净，放入锅中，清水没过鸡肉，放入姜片、小葱和花椒，开大火烧开。",
+      "similarity": 0.489575386047363
+    },
+    {
+      "chunkId": "ef2fc201-5ddd-47d6-851a-430eba2c3581",
+      "documentId": "9719b586-9a9e-4793-8a48-9af003999c5b",
+      "sourceName": "HowToCook",
+      "chunkType": "technique",
+      "content": "菜名：口水鸡\n- 每份： - 食用油 20ml - 鸡 半只(500g) - 辣椒粉 20g - 花椒 30 颗(20g) - 花生 10 颗(30g) - 小葱 2 颗(50g) - 姜 1 小块(20g) - 蒜 2 个 (10g) - 白糖 5g - 生抽 5ml - 醋 5ml - 味精 5g - 花椒粉 5g - 香菜 5g",
+      "similarity": 0.489570587873459
+    },
+    {
+      "chunkId": "1a755b3e-9cce-4811-92b0-c1ddb530fec0",
+      "documentId": "9719b586-9a9e-4793-8a48-9af003999c5b",
+      "sourceName": "HowToCook",
+      "chunkType": "steps",
+      "content": "菜名：口水鸡\n1. 姜切片，1 颗小葱，15 颗花椒备用\n2. 鸡肉洗干净，放入锅中，清水没过鸡肉，放入姜片、小葱和花椒，开大火烧开。\n3. 大火烧开后，转中小火 20 分钟关火\n4. 取出鸡肉，放入冰水中，直至冰凉\n5. 取出鸡肉，切块摆盘子中，备用\n6. 小火把锅烧热，导入花生，烘烤至表皮爆裂。（注意随时翻动，不要糊了）\n7. 一颗葱切成段，蒜拍成末，花椒 15 颗，花生去皮切碎。\n8. 锅内导入油烧热后，放入葱段，花椒和一半蒜末，炒香\n9. 炒至油温 8 成热，关火，滤出热油\n10. 将热油倒入放辣椒粉的碗中，搅拌，并滤出红油\n11. 红油中放入剩余蒜末、生抽、醋、盐、味精、糖、香油、花椒粉。拌匀放凉\n12. 在鸡肉上撒上花生碎，把红油淋到切好的鸡肉上，撒上香菜。成盘",
+      "similarity": 0.489322483539581
+    }
+  ],
+  "notes": [
+    "用户明确要求仅用 HowToCook，原文完整转录；complete=true 表示上游文档完整抓取，不表示烹饪参数无遗漏。",
+    "Source limitations: 操作使用盐、香油但原料/计算未列用量；计算有食用油、花椒粉、香菜但必备表缺列；原必备表重复花椒。 原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。",
+    "GitHub commit a2d45c6984dff9ee941da0e7c452f7965965d962; path dishes/meat_dish/口水鸡/口水鸡.md",
+    "媒体按原文位置保留；未要求映射的照片不伪称步骤图。",
+    "Existing exact-name knowledge-base documents checked before source fetching: 0",
+    "Existing exact-name knowledge-base documents checked before source fetching: 0",
+    "Structured ingredient audit corrected only explicit ingredient names and matching raw source text; no amount was invented.",
+    "Existing exact-name knowledge-base documents checked before source fetching: 0"
+  ]
+}

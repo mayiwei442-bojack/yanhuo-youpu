@@ -1,0 +1,30 @@
+{
+  "recipeId": "cn-016",
+  "recipeName": "回锅肉",
+  "status": "accepted",
+  "acceptedAt": "2026-10-07T06:05:04Z",
+  "acceptedBy": "user",
+  "acceptanceEvidence": "用户本轮明确确认：信源是 HowToCook，已验收。",
+  "sourceName": "HowToCook",
+  "sourceUrl": "https://github.com/Anduin2017/HowToCook/blob/2b19c9e9ee926fd925a68207a57582a338813f9c/dishes/meat_dish/%E5%9B%9E%E9%94%85%E8%82%89/%E5%9B%9E%E9%94%85%E8%82%89.md",
+  "publishedContentCommit": "22da1bfa1d93be3c85bb9ed2a3429d8498bd47b5",
+  "mergedMainCommit": "6d266a71497a47124a9af4ad2bc28c87ffbda1e4",
+  "progressUpdate": {
+    "previousStatus": "pending",
+    "status": "done",
+    "lastRunId": null
+  },
+  "acceptanceType": "manual_user_acceptance_of_already_published_recipe",
+  "notes": [
+    "该记录是用户对已经提交、推送并合入 main 的 HowToCook 菜谱的人工验收，不是新建自动化菜谱运行。",
+    "lastRunId 保留 null：没有为此补造 Researcher、Editor 或 Reviewer 运行记录。",
+    "不将用户验收冒充 Reviewer PASS，也不冒充此次完成 RAG 入库。",
+    "本轮只读查询未发现 recipe_name=回锅肉 的 kb_documents 记录；数据库未修改。",
+    "本轮未修改菜谱、图片、生成数据、时长追补记录，也未执行 Git 提交或推送。"
+  ],
+  "subsequentRagBackfill": {
+    "reportPath": "workflow/reports/2026-10-07-cn-016-rag-backfill-verified.json",
+    "documentId": "8291b14c-022b-4706-b35c-4d6231b9284a",
+    "note": "以上 notes 是本轮回填前人工验收的历史记录，数据库状态随后由用户授权回填更新；不补造自动Reviewer。"
+  }
+}

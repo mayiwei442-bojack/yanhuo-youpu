@@ -1,0 +1,206 @@
+{
+  "recipeId": "cn-042",
+  "recipeName": "热干面",
+  "category": "chinese",
+  "createdAt": "2026-10-08T07:14:35.262630+00:00",
+  "sources": [
+    {
+      "sourceName": "HowToCook",
+      "sourceType": "website",
+      "url": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/staple/%E7%83%AD%E5%B9%B2%E9%9D%A2.md",
+      "documentId": "26dd90e2-3f46-4ee2-adac-1e1555a39b80",
+      "retrievalMethod": "GitHub immutable raw Markdown via configured local HTTP proxy; no access-control bypass",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "热干面特有的碱水面",
+          "raw": "热干面特有的碱水面 (250g)",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "小葱",
+          "raw": "小葱 (10g)",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "酸豆角",
+          "raw": "酸豆角 (20g)",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "肉末",
+          "raw": "肉末 (30g)",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "蒜水",
+          "raw": "蒜水 (30ml)",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "肉汤汁",
+          "raw": "肉汤汁 (30ml)",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "萝卜干",
+          "raw": "萝卜干 (50g)",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "芝麻酱",
+          "raw": "芝麻酱 (40ml)",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "辣椒油",
+          "raw": "辣椒油 (0-10ml)",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "胡椒粉",
+          "raw": "胡椒粉(0-10g)",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "酱油",
+          "raw": "酱油(5ml)",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "食盐",
+          "raw": "食盐(3g)",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "鸡精",
+          "raw": "鸡精(0-3g)",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "水",
+          "raw": "热干面特有的碱水面 (250g)",
+          "amount": null,
+          "sourceSection": "计算"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "水煮沸，并加入碱水面，焯烫 25 秒钟捞起",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 1
+        },
+        {
+          "order": 2,
+          "instruction": "撒上食盐、鸡精和胡椒粉",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 2
+        },
+        {
+          "order": 3,
+          "instruction": "芝麻酱用 90ml 水稀释，搅匀，然后加入",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 3
+        },
+        {
+          "order": 4,
+          "instruction": "加入 5ml 酱油，加入 30ml 肉汤汁和蒜水",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 4
+        },
+        {
+          "order": 5,
+          "instruction": "加入萝卜干，肉末，酸豆角，葱花",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 5
+        },
+        {
+          "order": 6,
+          "instruction": "拌均匀后开吃",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 6
+        }
+      ],
+      "technique": [
+        "每份：\n\n* 热干面特有的碱水面 (250g)\n* 小葱 (10g)\n* 酸豆角 (20g)\n* 肉末 (30g)\n* 蒜水 (30ml)\n* 肉汤汁 (30ml)\n* 萝卜干 (50g)\n* 芝麻酱 (40ml)\n* 辣椒油 (0-10ml)\n* 胡椒粉(0-10g)\n* 酱油(5ml)\n* 食盐(3g)\n* 鸡精(0-3g)"
+      ],
+      "tips": [
+        "* 辣椒油看个人口味添加\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+      ],
+      "rawExcerpt": "# 热干面的做法\n\n热干面是武汉最具代表性的小吃之一，属于鄂菜系。碱水面条筋道爽滑，裹满浓稠的芝麻酱，搭配酸豆角、萝卜干和肉末，咸香微辣，滋味醇厚。主要提供碳水化合物和蛋白质，芝麻酱也富含钙质。制作简单快捷，新手也能轻松上手，从煮面到拌好大约只需十几分钟。\n\n预估烹饪难度：★★★\n\n预估卡路里：1341 大卡\n\n## 必备原料和工具\n\n* 热干面特有的碱水面\n* 小葱\n* 酸豆角\n* 肉末\n* 蒜水\n* 肉汤汁\n* 萝卜干\n* 芝麻酱\n* 辣椒油\n* 胡椒粉\n* 酱油\n* 食盐\n* 鸡精\n\n## 计算\n\n每份：\n\n* 热干面特有的碱水面 (250g)\n* 小葱 (10g)\n* 酸豆角 (20g)\n* 肉末 (30g)\n* 蒜水 (30ml)\n* 肉汤汁 (30ml)\n* 萝卜干 (50g)\n* 芝麻酱 (40ml)\n* 辣椒油 (0-10ml)\n* 胡椒粉(0-10g)\n* 酱油(5ml)\n* 食盐(3g)\n* 鸡精(0-3g)\n\n## 操作\n\n1. 水煮沸，并加入碱水面，焯烫 25 秒钟捞起\n2. 撒上食盐、鸡精和胡椒粉\n3. 芝麻酱用 90ml 水稀释，搅匀，然后加入\n4. 加入 5ml 酱油，加入 30ml 肉汤汁和蒜水\n5. 加入萝卜干，肉末，酸豆角，葱花\n6. 拌均匀后开吃\n\n## 附加内容\n\n* 辣椒油看个人口味添加\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n"
+    }
+  ],
+  "sourceMode": "single_source",
+  "singleSourceReason": "User explicitly directed exclusive HowToCook source and exact upstream transcription.",
+  "selectedSourceUrl": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/staple/%E7%83%AD%E5%B9%B2%E9%9D%A2.md",
+  "selectionReason": "上游菜谱文件名与指定菜名完全一致。",
+  "ragEvidence": [
+    {
+      "chunkId": "9a3dc8af-427d-4e47-8910-223d853a86ef",
+      "documentId": "26dd90e2-3f46-4ee2-adac-1e1555a39b80",
+      "sourceName": "HowToCook",
+      "chunkType": "tips",
+      "content": "菜名：热干面\n- * 辣椒油看个人口味添加 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。",
+      "similarity": 0.698750615119934
+    },
+    {
+      "chunkId": "dafd883e-a90b-4065-b267-817abda6d00e",
+      "documentId": "26dd90e2-3f46-4ee2-adac-1e1555a39b80",
+      "sourceName": "HowToCook",
+      "chunkType": "ingredients",
+      "content": "菜名：热干面\n- 热干面特有的碱水面 (250g)\n- 小葱 (10g)\n- 酸豆角 (20g)\n- 肉末 (30g)\n- 蒜水 (30ml)\n- 肉汤汁 (30ml)\n- 萝卜干 (50g)\n- 芝麻酱 (40ml)\n- 辣椒油 (0-10ml)\n- 胡椒粉(0-10g)\n- 酱油(5ml)\n- 食盐(3g)\n- 鸡精(0-3g)\n- 热干面特有的碱水面 (250g)",
+      "similarity": 0.648902693325443
+    },
+    {
+      "chunkId": "7209a471-911d-4f89-95b6-e9f6f8bb4667",
+      "documentId": "26dd90e2-3f46-4ee2-adac-1e1555a39b80",
+      "sourceName": "HowToCook",
+      "chunkType": "technique",
+      "content": "菜名：热干面\n- 每份： * 热干面特有的碱水面 (250g) * 小葱 (10g) * 酸豆角 (20g) * 肉末 (30g) * 蒜水 (30ml) * 肉汤汁 (30ml) * 萝卜干 (50g) * 芝麻酱 (40ml) * 辣椒油 (0-10ml) * 胡椒粉(0-10g) * 酱油(5ml) * 食盐(3g) * 鸡精(0-3g)",
+      "similarity": 0.648278436167334
+    },
+    {
+      "chunkId": "79adae2f-a054-4bbe-91c6-7da9222ba7ae",
+      "documentId": "26dd90e2-3f46-4ee2-adac-1e1555a39b80",
+      "sourceName": "HowToCook",
+      "chunkType": "steps",
+      "content": "菜名：热干面\n1. 水煮沸，并加入碱水面，焯烫 25 秒钟捞起\n2. 撒上食盐、鸡精和胡椒粉\n3. 芝麻酱用 90ml 水稀释，搅匀，然后加入\n4. 加入 5ml 酱油，加入 30ml 肉汤汁和蒜水\n5. 加入萝卜干，肉末，酸豆角，葱花\n6. 拌均匀后开吃",
+      "similarity": 0.630607843399048
+    },
+    {
+      "chunkId": "f22b6032-4fbe-4861-aaa4-4666df481316",
+      "documentId": "26dd90e2-3f46-4ee2-adac-1e1555a39b80",
+      "sourceName": "HowToCook",
+      "chunkType": "summary",
+      "content": "菜名：热干面\n简介：# 热干面的做法 热干面是武汉最具代表性的小吃之一，属于鄂菜系。碱水面条筋道爽滑，裹满浓稠的芝麻酱，搭配酸豆角、萝卜干和肉末，咸香微辣，滋味醇厚。主要提供碳水化合物和蛋白质，芝麻酱也富含钙质。制作简单快捷，新手也能轻松上手，从煮面到拌好大约只需十几分钟。 预估烹饪难度：★★★ 预估卡路里：1341 大卡",
+      "similarity": 0.616125070087609
+    }
+  ],
+  "notes": [
+    "用户明确要求仅用 HowToCook，原文完整转录；complete=true 表示上游文档完整抓取，不表示烹饪参数无遗漏。",
+    "Source limitations: 肉末和肉汤汁的预制方式未说明；原文碱水面仅焯25秒，未说明是生面或预熟面。 本上游菜谱无图片，按用户要求不补造图片。 原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。",
+    "GitHub commit a2d45c6984dff9ee941da0e7c452f7965965d962; path dishes/staple/热干面.md",
+    "媒体按原文位置保留；未要求映射的照片不伪称步骤图。",
+    "Existing exact-name knowledge-base documents checked before source fetching: 0"
+  ]
+}

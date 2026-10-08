@@ -1,0 +1,1955 @@
+{
+  "commit": "a2d45c6984dff9ee941da0e7c452f7965965d962",
+  "createdAt": "2026-10-08T07:19:16.258364+00:00",
+  "licenseRaw": "This is free and unencumbered software released into the public domain.\n\nAnyone is free to copy, modify, publish, use, compile, sell, or\ndistribute this software, either in source code form or as a compiled\nbinary, for any purpose, commercial or non-commercial, and by any\nmeans.\n\nIn jurisdictions that recognize copyright laws, the author or authors\nof this software dedicate any and all copyright interest in the\nsoftware to the public domain. We make this dedication for the benefit\nof the public at large and to the detriment of our heirs and\nsuccessors. We intend this dedication to be an overt act of\nrelinquishment in perpetuity of all present and future rights to this\nsoftware under copyright law.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR\nOTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,\nARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR\nOTHER DEALINGS IN THE SOFTWARE.\n\nFor more information, please refer to <https://unlicense.org>\n",
+  "recipes": [
+    {
+      "recipeId": "cn-034",
+      "recipeName": "韭菜炒鸡蛋",
+      "category": "chinese",
+      "status": "matched",
+      "path": "dishes/vegetable_dish/韭菜炒蛋/韭菜炒蛋.md",
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。",
+      "matchReason": "韭菜炒蛋正文明确鸡蛋，与韭菜炒鸡蛋同菜。",
+      "upstreamName": "韭菜炒蛋",
+      "rawMarkdown": "# 韭菜炒蛋的做法\n\n韭菜炒蛋是一道经典的家常菜，韭菜香气浓郁，鸡蛋嫩滑鲜美，简单易做，营养丰富。韭菜含有丰富的维生素和纤维素，鸡蛋提供优质蛋白质。这道菜制作简单，原材料易得，特别适合厨房新手入门，从头备菜到盛盘出锅大约只需 10 分钟。\n\n预估烹饪难度：★★\n\n预估卡路里：180 大卡\n\n## 必备原料和工具\n\n* 韭菜\n* 鸡蛋\n* 食用油\n* 盐\n\n## 计算\n\n每次制作前需要确定计划做几份。一份正好够 1 个人食用\n\n总量：\n\n* 韭菜 = 100g * 份数\n* 鸡蛋 = 2 个 * 份数\n* 食用油 = 10ml * 份数\n* 盐 = 2g * 份数\n\n## 操作\n\n1. 韭菜洗净，沥干水分\n2. 韭菜切成约 3cm 长的小段，即为 `韭菜段`\n3. 将鸡蛋打入碗中，搅匀，即为 `鸡蛋液`\n4. 热锅，加入食用油\n5. 油热后，倒入 `鸡蛋液`，快速翻炒至鸡蛋凝固成块，盛出备用，即为 `炒好的鸡蛋`\n6. 锅中再加 5ml 食用油，放入 `韭菜段`，大火快速翻炒 30 秒\n7. 向锅中加入 `炒好的鸡蛋`，翻炒均匀\n8. 加入盐，翻炒均匀\n9. 关火，盛盘\n\n## 附加内容\n\n* 韭菜炒蛋讲究大火快炒，韭菜炒久了容易失去香气和脆嫩口感\n* 如果喜欢韭菜更软烂，可以适当延长翻炒时间\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+      "sha256": "b6adaa156b2a5d821069e12fd84544e323e02f7fe305c65645dc93fb03669561",
+      "sections": [
+        {
+          "title": "韭菜炒蛋的做法",
+          "markdown": "\n韭菜炒蛋是一道经典的家常菜，韭菜香气浓郁，鸡蛋嫩滑鲜美，简单易做，营养丰富。韭菜含有丰富的维生素和纤维素，鸡蛋提供优质蛋白质。这道菜制作简单，原材料易得，特别适合厨房新手入门，从头备菜到盛盘出锅大约只需 10 分钟。\n\n预估烹饪难度：★★\n\n预估卡路里：180 大卡\n\n",
+          "level": 1
+        },
+        {
+          "title": "必备原料和工具",
+          "markdown": "\n* 韭菜\n* 鸡蛋\n* 食用油\n* 盐\n\n",
+          "level": 2
+        },
+        {
+          "title": "计算",
+          "markdown": "\n每次制作前需要确定计划做几份。一份正好够 1 个人食用\n\n总量：\n\n* 韭菜 = 100g * 份数\n* 鸡蛋 = 2 个 * 份数\n* 食用油 = 10ml * 份数\n* 盐 = 2g * 份数\n\n",
+          "level": 2
+        },
+        {
+          "title": "操作",
+          "markdown": "\n1. 韭菜洗净，沥干水分\n2. 韭菜切成约 3cm 长的小段，即为 `韭菜段`\n3. 将鸡蛋打入碗中，搅匀，即为 `鸡蛋液`\n4. 热锅，加入食用油\n5. 油热后，倒入 `鸡蛋液`，快速翻炒至鸡蛋凝固成块，盛出备用，即为 `炒好的鸡蛋`\n6. 锅中再加 5ml 食用油，放入 `韭菜段`，大火快速翻炒 30 秒\n7. 向锅中加入 `炒好的鸡蛋`，翻炒均匀\n8. 加入盐，翻炒均匀\n9. 关火，盛盘\n\n",
+          "level": 2
+        },
+        {
+          "title": "附加内容",
+          "markdown": "\n* 韭菜炒蛋讲究大火快炒，韭菜炒久了容易失去香气和脆嫩口感\n* 如果喜欢韭菜更软烂，可以适当延长翻炒时间\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+          "level": 2
+        }
+      ],
+      "images": [],
+      "limitations": [
+        "本上游菜谱无图片，按用户要求不补造图片。",
+        "原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。"
+      ],
+      "introduction": "# 韭菜炒蛋的做法\n\n韭菜炒蛋是一道经典的家常菜，韭菜香气浓郁，鸡蛋嫩滑鲜美，简单易做，营养丰富。韭菜含有丰富的维生素和纤维素，鸡蛋提供优质蛋白质。这道菜制作简单，原材料易得，特别适合厨房新手入门，从头备菜到盛盘出锅大约只需 10 分钟。\n\n预估烹饪难度：★★\n\n预估卡路里：180 大卡\n\n",
+      "evidence": {
+        "recipeId": "cn-034",
+        "recipeName": "韭菜炒鸡蛋",
+        "category": "chinese",
+        "createdAt": "2026-10-08T07:19:16.258364+00:00",
+        "sources": [
+          {
+            "sourceName": "HowToCook",
+            "sourceType": "website",
+            "url": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/vegetable_dish/%E9%9F%AD%E8%8F%9C%E7%82%92%E8%9B%8B/%E9%9F%AD%E8%8F%9C%E7%82%92%E8%9B%8B.md",
+            "documentId": "ded84796-7eb5-4229-943e-ef5e68ca248e",
+            "retrievalMethod": "GitHub immutable raw Markdown via configured local HTTP proxy; no access-control bypass",
+            "complete": true,
+            "ingredients": [
+              {
+                "name": "韭菜",
+                "raw": "韭菜 = 100g * 份数",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "鸡蛋",
+                "raw": "鸡蛋 = 2 个 * 份数",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "食用油",
+                "raw": "食用油 = 10ml * 份数",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "盐",
+                "raw": "盐 = 2g * 份数",
+                "amount": null,
+                "sourceSection": "计算"
+              }
+            ],
+            "steps": [
+              {
+                "order": 1,
+                "instruction": "韭菜洗净，沥干水分",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 1
+              },
+              {
+                "order": 2,
+                "instruction": "韭菜切成约 3cm 长的小段，即为 `韭菜段`",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 2
+              },
+              {
+                "order": 3,
+                "instruction": "将鸡蛋打入碗中，搅匀，即为 `鸡蛋液`",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 3
+              },
+              {
+                "order": 4,
+                "instruction": "热锅，加入食用油",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 4
+              },
+              {
+                "order": 5,
+                "instruction": "油热后，倒入 `鸡蛋液`，快速翻炒至鸡蛋凝固成块，盛出备用，即为 `炒好的鸡蛋`",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 5
+              },
+              {
+                "order": 6,
+                "instruction": "锅中再加 5ml 食用油，放入 `韭菜段`，大火快速翻炒 30 秒",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 6
+              },
+              {
+                "order": 7,
+                "instruction": "向锅中加入 `炒好的鸡蛋`，翻炒均匀",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 7
+              },
+              {
+                "order": 8,
+                "instruction": "加入盐，翻炒均匀",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 8
+              },
+              {
+                "order": 9,
+                "instruction": "关火，盛盘",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 9
+              }
+            ],
+            "technique": [
+              "每次制作前需要确定计划做几份。一份正好够 1 个人食用\n\n总量：\n\n* 韭菜 = 100g * 份数\n* 鸡蛋 = 2 个 * 份数\n* 食用油 = 10ml * 份数\n* 盐 = 2g * 份数"
+            ],
+            "tips": [
+              "* 韭菜炒蛋讲究大火快炒，韭菜炒久了容易失去香气和脆嫩口感\n* 如果喜欢韭菜更软烂，可以适当延长翻炒时间\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+            ],
+            "rawExcerpt": "# 韭菜炒蛋的做法\n\n韭菜炒蛋是一道经典的家常菜，韭菜香气浓郁，鸡蛋嫩滑鲜美，简单易做，营养丰富。韭菜含有丰富的维生素和纤维素，鸡蛋提供优质蛋白质。这道菜制作简单，原材料易得，特别适合厨房新手入门，从头备菜到盛盘出锅大约只需 10 分钟。\n\n预估烹饪难度：★★\n\n预估卡路里：180 大卡\n\n## 必备原料和工具\n\n* 韭菜\n* 鸡蛋\n* 食用油\n* 盐\n\n## 计算\n\n每次制作前需要确定计划做几份。一份正好够 1 个人食用\n\n总量：\n\n* 韭菜 = 100g * 份数\n* 鸡蛋 = 2 个 * 份数\n* 食用油 = 10ml * 份数\n* 盐 = 2g * 份数\n\n## 操作\n\n1. 韭菜洗净，沥干水分\n2. 韭菜切成约 3cm 长的小段，即为 `韭菜段`\n3. 将鸡蛋打入碗中，搅匀，即为 `鸡蛋液`\n4. 热锅，加入食用油\n5. 油热后，倒入 `鸡蛋液`，快速翻炒至鸡蛋凝固成块，盛出备用，即为 `炒好的鸡蛋`\n6. 锅中再加 5ml 食用油，放入 `韭菜段`，大火快速翻炒 30 秒\n7. 向锅中加入 `炒好的鸡蛋`，翻炒均匀\n8. 加入盐，翻炒均匀\n9. 关火，盛盘\n\n## 附加内容\n\n* 韭菜炒蛋讲究大火快炒，韭菜炒久了容易失去香气和脆嫩口感\n* 如果喜欢韭菜更软烂，可以适当延长翻炒时间\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n"
+          }
+        ],
+        "sourceMode": "single_source",
+        "singleSourceReason": "User explicitly directed exclusive HowToCook source and exact upstream transcription.",
+        "selectedSourceUrl": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/vegetable_dish/%E9%9F%AD%E8%8F%9C%E7%82%92%E8%9B%8B/%E9%9F%AD%E8%8F%9C%E7%82%92%E8%9B%8B.md",
+        "selectionReason": "韭菜炒蛋正文明确鸡蛋，与韭菜炒鸡蛋同菜。",
+        "ragEvidence": [
+          {
+            "chunkId": "a69b6f4b-6280-4052-a07e-e45e9207c9ca",
+            "documentId": "ded84796-7eb5-4229-943e-ef5e68ca248e",
+            "sourceName": "HowToCook",
+            "chunkType": "tips",
+            "content": "菜名：韭菜炒鸡蛋\n- * 韭菜炒蛋讲究大火快炒，韭菜炒久了容易失去香气和脆嫩口感 * 如果喜欢韭菜更软烂，可以适当延长翻炒时间 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。",
+            "similarity": 0.735085904598236
+          },
+          {
+            "chunkId": "e743145a-db5f-4fc8-9d4c-208e87228d76",
+            "documentId": "ded84796-7eb5-4229-943e-ef5e68ca248e",
+            "sourceName": "HowToCook",
+            "chunkType": "summary",
+            "content": "菜名：韭菜炒鸡蛋\n别名：韭菜炒蛋\n简介：# 韭菜炒蛋的做法 韭菜炒蛋是一道经典的家常菜，韭菜香气浓郁，鸡蛋嫩滑鲜美，简单易做，营养丰富。韭菜含有丰富的维生素和纤维素，鸡蛋提供优质蛋白质。这道菜制作简单，原材料易得，特别适合厨房新手入门，从头备菜到盛盘出锅大约只需 10 分钟。 预估烹饪难度：★★ 预估卡路里：180 大卡",
+            "similarity": 0.695509573683428
+          },
+          {
+            "chunkId": "ad8d30ad-ed53-4907-b05c-e27280a96b39",
+            "documentId": "ded84796-7eb5-4229-943e-ef5e68ca248e",
+            "sourceName": "HowToCook",
+            "chunkType": "steps",
+            "content": "菜名：韭菜炒鸡蛋\n1. 韭菜洗净，沥干水分\n2. 韭菜切成约 3cm 长的小段，即为 `韭菜段`\n3. 将鸡蛋打入碗中，搅匀，即为 `鸡蛋液`\n4. 热锅，加入食用油\n5. 油热后，倒入 `鸡蛋液`，快速翻炒至鸡蛋凝固成块，盛出备用，即为 `炒好的鸡蛋`\n6. 锅中再加 5ml 食用油，放入 `韭菜段`，大火快速翻炒 30 秒\n7. 向锅中加入 `炒好的鸡蛋`，翻炒均匀\n8. 加入盐，翻炒均匀\n9. 关火，盛盘",
+            "similarity": 0.695089480134532
+          },
+          {
+            "chunkId": "141077ba-4f98-435b-820a-7684faed01d7",
+            "documentId": "ded84796-7eb5-4229-943e-ef5e68ca248e",
+            "sourceName": "HowToCook",
+            "chunkType": "ingredients",
+            "content": "菜名：韭菜炒鸡蛋\n- 韭菜 = 100g * 份数\n- 鸡蛋 = 2 个 * 份数\n- 食用油 = 10ml * 份数\n- 盐 = 2g * 份数",
+            "similarity": 0.668483257293701
+          },
+          {
+            "chunkId": "116ca5b6-6b84-42ee-b486-075410f3314e",
+            "documentId": "ded84796-7eb5-4229-943e-ef5e68ca248e",
+            "sourceName": "HowToCook",
+            "chunkType": "technique",
+            "content": "菜名：韭菜炒鸡蛋\n- 每次制作前需要确定计划做几份。一份正好够 1 个人食用 总量： * 韭菜 = 100g * 份数 * 鸡蛋 = 2 个 * 份数 * 食用油 = 10ml * 份数 * 盐 = 2g * 份数",
+            "similarity": 0.667274534756651
+          }
+        ],
+        "notes": [
+          "用户明确要求仅用 HowToCook，原文完整转录；complete=true 表示上游文档完整抓取，不表示烹饪参数无遗漏。",
+          "Source limitations: 本上游菜谱无图片，按用户要求不补造图片。 原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。",
+          "GitHub commit a2d45c6984dff9ee941da0e7c452f7965965d962; path dishes/vegetable_dish/韭菜炒蛋/韭菜炒蛋.md",
+          "媒体按原文位置保留；未要求映射的照片不伪称步骤图。",
+          "Existing exact-name knowledge-base documents checked before source fetching: 0"
+        ]
+      },
+      "ingestion": {
+        "ok": true,
+        "documentId": "ded84796-7eb5-4229-943e-ef5e68ca248e",
+        "entityId": "281dfe61-2333-41f0-86a9-c2d21b4790db",
+        "deduplicated": false,
+        "embedded": true,
+        "chunkCount": 5,
+        "model": "voyage-4",
+        "dimension": 1024,
+        "semanticCount": 5,
+        "hybridCount": 5,
+        "supersededDocumentIds": [],
+        "excludedFromSemantic": true,
+        "excludedFromHybrid": true
+      }
+    },
+    {
+      "recipeId": "cn-038",
+      "recipeName": "腊味煲仔饭",
+      "category": "chinese",
+      "status": "matched",
+      "path": "dishes/staple/微波炉腊肠煲仔饭/微波炉腊肠煲仔饭.md",
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。",
+      "matchReason": "原文为微波炉腊肠煲仔饭版腊味饭，保留原题与工具。",
+      "upstreamName": "微波炉腊肠煲仔饭",
+      "rawMarkdown": "# 微波炉腊肠煲仔饭的做法\n\n![微波炉腊肠煲仔饭](微波炉腊肠煲仔饭.png)\n\n这是一道简单快手的粤式风味主食，米饭吸足腊肠油脂后油润咸香，搭配脆嫩青菜和胡萝卜，口感层次丰富。富含碳水化合物、蛋白质和多种维生素，营养均衡。烹饪用微波炉操作，对新手十分友好，预计全程仅需 15 分钟即可享用。\n\n预估烹饪难度：★★\n\n预估卡路里：1039 大卡\n\n## 必备原料和工具\n\n- 工具\n  - 微波炉\n  - 2 个大碗（推荐微波炉专用碗）\n  - 1 个小碗\n- 原料\n  - 米 200 ml\n  - 腊肠 1 根\n  - 鸡蛋 1 个\n  - 红萝卜 1 个\n  - 盐\n  - 油 15 ml\n  - 生抽 10 ml\n  - 香葱 1 颗\n\n## 计算\n\n1 人份。\n\n## 操作\n\n1. 将米淘洗干净后倒入 `饭碗` 内，加入 400ml 的水，**盖上盖**\n2. 放入微波炉，高火，`6` 分钟，煮饭途中准备原料\n\n  - 切好腊肠\n  - 洗好青菜\n  - 切好红萝卜片\n  - 切好葱花\n  - `青菜碗` 中放入青菜、红萝卜片，倒入 10 ml 油，放入 5 g 盐\n  - `小碗` 中倒入 10 ml 生抽、5 ml 油\n\n3. 6 分钟后，用毛巾或隔热手套取出碗，可以看见米饭已经八分熟\n4. 在米饭上摆入切片的腊肠，继续高火 `2` 分钟\n5. 取出腊肠饭，放入 `青菜碗`，高火 `4-5` 分钟\n6. 在腊肠饭上摆好青菜，磕入鸡蛋，看个人喜好继续高火 `40-60` 秒\n7. 取出腊肠饭，此时已经基本完成。\n8. 将 `小碗` 放入，继续高火 `30` 秒\n9. 在腊肠饭上淋上叮热的生抽，撒上葱花即可\n10. 多余的青菜可以沾着酱油吃\n\n## 附加内容\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+      "sha256": "854102c03d1874b1f06669894bbbda166e96bdbb3be9a77c7823d65d739d9cf6",
+      "sections": [
+        {
+          "title": "微波炉腊肠煲仔饭的做法",
+          "markdown": "\n![微波炉腊肠煲仔饭](微波炉腊肠煲仔饭.png)\n\n这是一道简单快手的粤式风味主食，米饭吸足腊肠油脂后油润咸香，搭配脆嫩青菜和胡萝卜，口感层次丰富。富含碳水化合物、蛋白质和多种维生素，营养均衡。烹饪用微波炉操作，对新手十分友好，预计全程仅需 15 分钟即可享用。\n\n预估烹饪难度：★★\n\n预估卡路里：1039 大卡\n\n",
+          "level": 1
+        },
+        {
+          "title": "必备原料和工具",
+          "markdown": "\n- 工具\n  - 微波炉\n  - 2 个大碗（推荐微波炉专用碗）\n  - 1 个小碗\n- 原料\n  - 米 200 ml\n  - 腊肠 1 根\n  - 鸡蛋 1 个\n  - 红萝卜 1 个\n  - 盐\n  - 油 15 ml\n  - 生抽 10 ml\n  - 香葱 1 颗\n\n",
+          "level": 2
+        },
+        {
+          "title": "计算",
+          "markdown": "\n1 人份。\n\n",
+          "level": 2
+        },
+        {
+          "title": "操作",
+          "markdown": "\n1. 将米淘洗干净后倒入 `饭碗` 内，加入 400ml 的水，**盖上盖**\n2. 放入微波炉，高火，`6` 分钟，煮饭途中准备原料\n\n  - 切好腊肠\n  - 洗好青菜\n  - 切好红萝卜片\n  - 切好葱花\n  - `青菜碗` 中放入青菜、红萝卜片，倒入 10 ml 油，放入 5 g 盐\n  - `小碗` 中倒入 10 ml 生抽、5 ml 油\n\n3. 6 分钟后，用毛巾或隔热手套取出碗，可以看见米饭已经八分熟\n4. 在米饭上摆入切片的腊肠，继续高火 `2` 分钟\n5. 取出腊肠饭，放入 `青菜碗`，高火 `4-5` 分钟\n6. 在腊肠饭上摆好青菜，磕入鸡蛋，看个人喜好继续高火 `40-60` 秒\n7. 取出腊肠饭，此时已经基本完成。\n8. 将 `小碗` 放入，继续高火 `30` 秒\n9. 在腊肠饭上淋上叮热的生抽，撒上葱花即可\n10. 多余的青菜可以沾着酱油吃\n\n",
+          "level": 2
+        },
+        {
+          "title": "附加内容",
+          "markdown": "\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+          "level": 2
+        }
+      ],
+      "images": [
+        {
+          "originalReference": "微波炉腊肠煲仔饭.png",
+          "originalUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/staple/%E5%BE%AE%E6%B3%A2%E7%82%89%E8%85%8A%E8%82%A0%E7%85%B2%E4%BB%94%E9%A5%AD/%E5%BE%AE%E6%B3%A2%E7%82%89%E8%85%8A%E8%82%A0%E7%85%B2%E4%BB%94%E9%A5%AD.png",
+          "path": "assets/dishes/howtocook/cn-038/1.png",
+          "alt": "微波炉腊肠煲仔饭",
+          "pageOrder": 1,
+          "adjacentText": "# 微波炉腊肠煲仔饭的做法\n\n![微波炉腊肠煲仔饭](微波炉腊肠煲仔饭.png)\n\n这是一道简单快手的粤式风味主食，米饭吸足腊肠油脂后油润咸香，搭配脆嫩青菜和胡萝卜，口感层次丰富。富含碳水化合物、蛋白质和多种维生素，营养均衡。烹饪用微波炉操作，对新手十分友好，预计全程仅需 15 分钟即可享用。\n\n预估烹饪难度：★★\n\n预估卡路里：1039 大卡\n\n## 必备原料和工具\n\n- 工具\n  - 微波炉\n  - 2 个大碗（推荐微波炉专用碗）\n"
+        }
+      ],
+      "limitations": [
+        "原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。"
+      ],
+      "introduction": "# 微波炉腊肠煲仔饭的做法\n\n![微波炉腊肠煲仔饭](微波炉腊肠煲仔饭.png)\n\n这是一道简单快手的粤式风味主食，米饭吸足腊肠油脂后油润咸香，搭配脆嫩青菜和胡萝卜，口感层次丰富。富含碳水化合物、蛋白质和多种维生素，营养均衡。烹饪用微波炉操作，对新手十分友好，预计全程仅需 15 分钟即可享用。\n\n预估烹饪难度：★★\n\n预估卡路里：1039 大卡\n\n",
+      "evidence": {
+        "recipeId": "cn-038",
+        "recipeName": "腊味煲仔饭",
+        "category": "chinese",
+        "createdAt": "2026-10-08T07:19:16.258364+00:00",
+        "sources": [
+          {
+            "sourceName": "HowToCook",
+            "sourceType": "website",
+            "url": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/staple/%E5%BE%AE%E6%B3%A2%E7%82%89%E8%85%8A%E8%82%A0%E7%85%B2%E4%BB%94%E9%A5%AD/%E5%BE%AE%E6%B3%A2%E7%82%89%E8%85%8A%E8%82%A0%E7%85%B2%E4%BB%94%E9%A5%AD.md",
+            "documentId": "1beb2ded-016f-4a48-b328-0dc7a7b96951",
+            "retrievalMethod": "GitHub immutable raw Markdown via configured local HTTP proxy; no access-control bypass",
+            "complete": true,
+            "ingredients": [
+              {
+                "name": "米",
+                "raw": "米 200 ml",
+                "amount": null,
+                "sourceSection": "必备原料和工具"
+              },
+              {
+                "name": "腊肠",
+                "raw": "腊肠 1 根",
+                "amount": null,
+                "sourceSection": "必备原料和工具"
+              },
+              {
+                "name": "鸡蛋",
+                "raw": "鸡蛋 1 个",
+                "amount": null,
+                "sourceSection": "必备原料和工具"
+              },
+              {
+                "name": "红萝卜",
+                "raw": "红萝卜 1 个",
+                "amount": null,
+                "sourceSection": "必备原料和工具"
+              },
+              {
+                "name": "盐",
+                "raw": "盐",
+                "amount": null,
+                "sourceSection": "必备原料和工具"
+              },
+              {
+                "name": "油",
+                "raw": "油 15 ml",
+                "amount": null,
+                "sourceSection": "必备原料和工具"
+              },
+              {
+                "name": "生抽",
+                "raw": "生抽 10 ml",
+                "amount": null,
+                "sourceSection": "必备原料和工具"
+              },
+              {
+                "name": "香葱",
+                "raw": "香葱 1 颗",
+                "amount": null,
+                "sourceSection": "必备原料和工具"
+              },
+              {
+                "name": "青菜",
+                "raw": "这是一道简单快手的粤式风味主食，米饭吸足腊肠油脂后油润咸香，搭配脆嫩青菜和胡萝卜，口感层次丰富。富含碳水化合物、蛋白质和多种维生素，营养均衡。烹饪用微波炉操作，对新手十分友好，预计全程仅需 15 分钟即可享用。",
+                "amount": null,
+                "sourceSection": "操作/附加内容"
+              },
+              {
+                "name": "水",
+                "raw": "这是一道简单快手的粤式风味主食，米饭吸足腊肠油脂后油润咸香，搭配脆嫩青菜和胡萝卜，口感层次丰富。富含碳水化合物、蛋白质和多种维生素，营养均衡。烹饪用微波炉操作，对新手十分友好，预计全程仅需 15 分钟即可享用。",
+                "amount": null,
+                "sourceSection": "操作/附加内容"
+              }
+            ],
+            "steps": [
+              {
+                "order": 1,
+                "instruction": "将米淘洗干净后倒入 `饭碗` 内，加入 400ml 的水，**盖上盖**",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 1
+              },
+              {
+                "order": 2,
+                "instruction": "放入微波炉，高火，`6` 分钟，煮饭途中准备原料\n\n  - 切好腊肠\n  - 洗好青菜\n  - 切好红萝卜片\n  - 切好葱花\n  - `青菜碗` 中放入青菜、红萝卜片，倒入 10 ml 油，放入 5 g 盐\n  - `小碗` 中倒入 10 ml 生抽、5 ml 油",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 2
+              },
+              {
+                "order": 3,
+                "instruction": "6 分钟后，用毛巾或隔热手套取出碗，可以看见米饭已经八分熟",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 3
+              },
+              {
+                "order": 4,
+                "instruction": "在米饭上摆入切片的腊肠，继续高火 `2` 分钟",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 4
+              },
+              {
+                "order": 5,
+                "instruction": "取出腊肠饭，放入 `青菜碗`，高火 `4-5` 分钟",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 5
+              },
+              {
+                "order": 6,
+                "instruction": "在腊肠饭上摆好青菜，磕入鸡蛋，看个人喜好继续高火 `40-60` 秒",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 6
+              },
+              {
+                "order": 7,
+                "instruction": "取出腊肠饭，此时已经基本完成。",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 7
+              },
+              {
+                "order": 8,
+                "instruction": "将 `小碗` 放入，继续高火 `30` 秒",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 8
+              },
+              {
+                "order": 9,
+                "instruction": "在腊肠饭上淋上叮热的生抽，撒上葱花即可",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 9
+              },
+              {
+                "order": 10,
+                "instruction": "多余的青菜可以沾着酱油吃",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 10
+              }
+            ],
+            "technique": [
+              "1 人份。"
+            ],
+            "tips": [
+              "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+            ],
+            "rawExcerpt": "# 微波炉腊肠煲仔饭的做法\n\n![微波炉腊肠煲仔饭](微波炉腊肠煲仔饭.png)\n\n这是一道简单快手的粤式风味主食，米饭吸足腊肠油脂后油润咸香，搭配脆嫩青菜和胡萝卜，口感层次丰富。富含碳水化合物、蛋白质和多种维生素，营养均衡。烹饪用微波炉操作，对新手十分友好，预计全程仅需 15 分钟即可享用。\n\n预估烹饪难度：★★\n\n预估卡路里：1039 大卡\n\n## 必备原料和工具\n\n- 工具\n  - 微波炉\n  - 2 个大碗（推荐微波炉专用碗）\n  - 1 个小碗\n- 原料\n  - 米 200 ml\n  - 腊肠 1 根\n  - 鸡蛋 1 个\n  - 红萝卜 1 个\n  - 盐\n  - 油 15 ml\n  - 生抽 10 ml\n  - 香葱 1 颗\n\n## 计算\n\n1 人份。\n\n## 操作\n\n1. 将米淘洗干净后倒入 `饭碗` 内，加入 400ml 的水，**盖上盖**\n2. 放入微波炉，高火，`6` 分钟，煮饭途中准备原料\n\n  - 切好腊肠\n  - 洗好青菜\n  - 切好红萝卜片\n  - 切好葱花\n  - `青菜碗` 中放入青菜、红萝卜片，倒入 10 ml 油，放入 5 g 盐\n  - `小碗` 中倒入 10 ml 生抽、5 ml 油\n\n3. 6 分钟后，用毛巾或隔热手套取出碗，可以看见米饭已经八分熟\n4. 在米饭上摆入切片的腊肠，继续高火 `2` 分钟\n5. 取出腊肠饭，放入 `青菜碗`，高火 `4-5` 分钟\n6. 在腊肠饭上摆好青菜，磕入鸡蛋，看个人喜好继续高火 `40-60` 秒\n7. 取出腊肠饭，此时已经基本完成。\n8. 将 `小碗` 放入，继续高火 `30` 秒\n9. 在腊肠饭上淋上叮热的生抽，撒上葱花即可\n10. 多余的青菜可以沾着酱油吃\n\n## 附加内容\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n"
+          }
+        ],
+        "sourceMode": "single_source",
+        "singleSourceReason": "User explicitly directed exclusive HowToCook source and exact upstream transcription.",
+        "selectedSourceUrl": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/staple/%E5%BE%AE%E6%B3%A2%E7%82%89%E8%85%8A%E8%82%A0%E7%85%B2%E4%BB%94%E9%A5%AD/%E5%BE%AE%E6%B3%A2%E7%82%89%E8%85%8A%E8%82%A0%E7%85%B2%E4%BB%94%E9%A5%AD.md",
+        "selectionReason": "原文为微波炉腊肠煲仔饭版腊味饭，保留原题与工具。",
+        "ragEvidence": [
+          {
+            "chunkId": "43d9418a-e25d-4148-8519-729051837e10",
+            "documentId": "1beb2ded-016f-4a48-b328-0dc7a7b96951",
+            "sourceName": "HowToCook",
+            "chunkType": "tips",
+            "content": "菜名：腊味煲仔饭\n- 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。",
+            "similarity": 0.721149346862714
+          },
+          {
+            "chunkId": "3ecd937c-78bd-4816-a860-043b02259d89",
+            "documentId": "1beb2ded-016f-4a48-b328-0dc7a7b96951",
+            "sourceName": "HowToCook",
+            "chunkType": "technique",
+            "content": "菜名：腊味煲仔饭\n- 1 人份。",
+            "similarity": 0.665943384170532
+          },
+          {
+            "chunkId": "c48aa7e7-ced6-459e-9cb9-5b43e23de415",
+            "documentId": "1beb2ded-016f-4a48-b328-0dc7a7b96951",
+            "sourceName": "HowToCook",
+            "chunkType": "summary",
+            "content": "菜名：腊味煲仔饭\n别名：微波炉腊肠煲仔饭\n简介：# 微波炉腊肠煲仔饭的做法 ![微波炉腊肠煲仔饭](微波炉腊肠煲仔饭.png) 这是一道简单快手的粤式风味主食，米饭吸足腊肠油脂后油润咸香，搭配脆嫩青菜和胡萝卜，口感层次丰富。富含碳水化合物、蛋白质和多种维生素，营养均衡。烹饪用微波炉操作，对新手十分友好，预计全程仅需 15 分钟即可享用。 预估烹饪难度：★★ 预估卡路里：1039 大卡",
+            "similarity": 0.655687212944031
+          },
+          {
+            "chunkId": "dacf807c-1985-461f-a525-beba276b5ec8",
+            "documentId": "1beb2ded-016f-4a48-b328-0dc7a7b96951",
+            "sourceName": "HowToCook",
+            "chunkType": "ingredients",
+            "content": "菜名：腊味煲仔饭\n- 米 200 ml\n- 腊肠 1 根\n- 鸡蛋 1 个\n- 红萝卜 1 个\n- 盐\n- 油 15 ml\n- 生抽 10 ml\n- 香葱 1 颗\n- 这是一道简单快手的粤式风味主食，米饭吸足腊肠油脂后油润咸香，搭配脆嫩青菜和胡萝卜，口感层次丰富。富含碳水化合物、蛋白质和多种维生素，营养均衡。烹饪用微波炉操作，对新手十分友好，预计全程仅需 15 分钟即可享用。\n- 这是一道简单快手的粤式风味主食，米饭吸足腊肠油脂后油润咸香，搭配脆嫩青菜和胡萝卜，口感层次丰富。富含碳水化合物、蛋白质和多种维生素，营养均衡。烹饪用微波炉操作，对新手十分友好，预计全程仅需 15 分钟即可享用。",
+            "similarity": 0.630665797909075
+          },
+          {
+            "chunkId": "09adfd40-c9d3-4232-963c-83540d354f72",
+            "documentId": "1beb2ded-016f-4a48-b328-0dc7a7b96951",
+            "sourceName": "HowToCook",
+            "chunkType": "steps",
+            "content": "菜名：腊味煲仔饭\n1. 将米淘洗干净后倒入 `饭碗` 内，加入 400ml 的水，**盖上盖**\n2. 放入微波炉，高火，`6` 分钟，煮饭途中准备原料 - 切好腊肠 - 洗好青菜 - 切好红萝卜片 - 切好葱花 - `青菜碗` 中放入青菜、红萝卜片，倒入 10 ml 油，放入 5 g 盐 - `小碗` 中倒入 10 ml 生抽、5 ml 油\n3. 6 分钟后，用毛巾或隔热手套取出碗，可以看见米饭已经八分熟\n4. 在米饭上摆入切片的腊肠，继续高火 `2` 分钟\n5. 取出腊肠饭，放入 `青菜碗`，高火 `4-5` 分钟\n6. 在腊肠饭上摆好青菜，磕入鸡蛋，看个人喜好继续高火 `40-60` 秒\n7. 取出腊肠饭，此时已经基本完成。\n8. 将 `小碗` 放入，继续高火 `30` 秒\n9. 在腊肠饭上淋上叮热的生抽，撒上葱花即可\n10. 多余的青菜可以沾着酱油吃",
+            "similarity": 0.629928312901956
+          }
+        ],
+        "notes": [
+          "用户明确要求仅用 HowToCook，原文完整转录；complete=true 表示上游文档完整抓取，不表示烹饪参数无遗漏。",
+          "Source limitations: 原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。",
+          "GitHub commit a2d45c6984dff9ee941da0e7c452f7965965d962; path dishes/staple/微波炉腊肠煲仔饭/微波炉腊肠煲仔饭.md",
+          "媒体按原文位置保留；未要求映射的照片不伪称步骤图。",
+          "Existing exact-name knowledge-base documents checked before source fetching: 0"
+        ]
+      },
+      "ingestion": {
+        "ok": true,
+        "documentId": "1beb2ded-016f-4a48-b328-0dc7a7b96951",
+        "entityId": "c27ef55f-b6ae-437f-b682-8933ddfcd058",
+        "deduplicated": false,
+        "embedded": true,
+        "chunkCount": 5,
+        "model": "voyage-4",
+        "dimension": 1024,
+        "semanticCount": 5,
+        "hybridCount": 5,
+        "supersededDocumentIds": [],
+        "excludedFromSemantic": true,
+        "excludedFromHybrid": true
+      }
+    },
+    {
+      "recipeId": "cn-045",
+      "recipeName": "韭菜猪肉饺子",
+      "category": "chinese",
+      "status": "matched",
+      "path": "dishes/staple/手工水饺.md",
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。",
+      "matchReason": "手工水饺正文明确韭菜和猪肉馅，对应韭菜猪肉饺子。",
+      "upstreamName": "手工水饺",
+      "rawMarkdown": "# 手工水饺的做法\n\n手工水饺是一道中式经典主食，皮薄馅大、鲜美多汁，饱腹又可以根据个人口味随意调味。猪肉馅提供优质蛋白质和脂肪，搭配韭菜还能补充维生素与膳食纤维。这道菜品对新手来说难度较高，需要掌握和面、擀皮、调馅和煮饺的火候，预计制作时间约 3 小时。\n\n预估烹饪难度：★★★★★\n\n预估卡路里：1313 大卡\n\n## 必备原料和工具\n\n- 擀面杖\n- 面粉\n- 冷水\n- 直径 30cm 以上的盆\n- 芝麻香油\n\n## 计算\n\n-单人，约 20 只\n\n每份：\n\n- 面粉 200g\n- 冷水 150ml\n- 芝麻香油 2-3ml\n- 瘦肉末 250g\n- 肥肉末 20g #不喜可不加\n- 姜 3g\n- 葱 15g\n- 盐 3g\n- 蚝油 2ml\n- 香油 2ml\n- 生抽 2ml\n- 鸡蛋 1 个\n\n## 操作\n\n### 制作饺子皮\n\n1. 盆中加入所有面粉\n2. 加入芝麻香油\n3. 面粉中央挖小洞\n4. 分 4-5 次加入水，并搅和，当出现碎末状的稍微干燥面团时\n5. 取消加水，用手将面团压实\n6. 面团压实至可把盆周围的面粉纳入即可，此步骤为面光盆光\n7. 将面团置于桌上，盆倒扣于桌上，环境温度为 25 度，使面团醒发约 45 分钟\n8. 醒发完成后，将面团搓成条状，合成一团，再次搓成条，重复 3 次\n9. 擀成条状，切成 20 份均匀大小面团，并搓成直径约 3-3.5cm 的球状\n10. 压扁面团，在手上，桌上，擀面杖上，及面团上撒上面粉，此步骤防止面团发粘\n11. 用擀面杖将面团擀平，约 8cm 直径，厚约 2mm，中间略微比四周厚 1mm\n\n### 拌馅\n\n1. 猪肉去皮，保留部分肥肉,切成小块\n2. 菜刀（建议两把）将猪肉剁成肉沫，放入碗中\n3. 葱、姜切成末，放入肉碗中搅拌均匀\n4. 韭菜洗净，切短至 3mm 以下长度\n5. 韭菜和肉沫混合，加入蚝油、生抽、香油各 2ml，加入一个鸡蛋的蛋清，用手混合搅拌均匀\n6. 放置 30 分钟即可开始包饺子\n\n### 包饺子\n\n1. 左手上放面皮，放饺子馅一面尽量不要粘到面粉，防止无法合拢\n2. 右手用筷子夹约面皮 1/2 直径的馅\n3. 沿饺子皮圆周进行合拢，捏实，个人吃无需捏花，饺子皮不漏即可\n\n### 煮饺子\n\n1. 使用可放下 20 只饺子的锅，或分批量煮\n2. 烧水，水约 3/4 锅的高度\n3. 大火烧开水后放入饺子，调至中火\n4. 第一次放入饺子，且水冒泡后，锅边加入 50ml 冷水（重复此步骤两次）\n5. 第三次水开后加入冷水 50ml，水开后调至小火等 60s 即可出锅\n\n## 附加内容\n\n- 煮水饺不需要盖锅盖，加三次水就是为了不让饺子一直处于沸腾状态导致表皮破损变成面片。\n\n这道菜存在一些补充做法，包括但不限于：\n\n额外添加下列材料：\n\n* 黑醋 10ml\n* 姜 一小块 50 克\n* 香油 2 滴\n* 大蒜/蒜泥 3 瓣/人\n\n* 考虑搭配黑醋食用。建议用量：10-20ml。\n* 考虑姜切丝，在小碗加入 20ml 的黑醋与姜丝搅拌当蘸料，味道更丰富。\n* 考虑搭配黑醋时加入 1~3 滴香油，搅拌当蘸料。\n* 考虑搭配黑醋时加入砸好的蒜泥，搅拌当蘸料。（口腔内会残留蒜味，若饭后需要与他人面对面谈话建议放弃或清洁口腔）\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+      "sha256": "7f8d99109472b07cb8459259fbfde9c97d8294e811c6a8f3b539e44110268adc",
+      "sections": [
+        {
+          "title": "手工水饺的做法",
+          "markdown": "\n手工水饺是一道中式经典主食，皮薄馅大、鲜美多汁，饱腹又可以根据个人口味随意调味。猪肉馅提供优质蛋白质和脂肪，搭配韭菜还能补充维生素与膳食纤维。这道菜品对新手来说难度较高，需要掌握和面、擀皮、调馅和煮饺的火候，预计制作时间约 3 小时。\n\n预估烹饪难度：★★★★★\n\n预估卡路里：1313 大卡\n\n",
+          "level": 1
+        },
+        {
+          "title": "必备原料和工具",
+          "markdown": "\n- 擀面杖\n- 面粉\n- 冷水\n- 直径 30cm 以上的盆\n- 芝麻香油\n\n",
+          "level": 2
+        },
+        {
+          "title": "计算",
+          "markdown": "\n-单人，约 20 只\n\n每份：\n\n- 面粉 200g\n- 冷水 150ml\n- 芝麻香油 2-3ml\n- 瘦肉末 250g\n- 肥肉末 20g #不喜可不加\n- 姜 3g\n- 葱 15g\n- 盐 3g\n- 蚝油 2ml\n- 香油 2ml\n- 生抽 2ml\n- 鸡蛋 1 个\n\n",
+          "level": 2
+        },
+        {
+          "title": "操作",
+          "markdown": "\n",
+          "level": 2
+        },
+        {
+          "title": "制作饺子皮",
+          "markdown": "\n1. 盆中加入所有面粉\n2. 加入芝麻香油\n3. 面粉中央挖小洞\n4. 分 4-5 次加入水，并搅和，当出现碎末状的稍微干燥面团时\n5. 取消加水，用手将面团压实\n6. 面团压实至可把盆周围的面粉纳入即可，此步骤为面光盆光\n7. 将面团置于桌上，盆倒扣于桌上，环境温度为 25 度，使面团醒发约 45 分钟\n8. 醒发完成后，将面团搓成条状，合成一团，再次搓成条，重复 3 次\n9. 擀成条状，切成 20 份均匀大小面团，并搓成直径约 3-3.5cm 的球状\n10. 压扁面团，在手上，桌上，擀面杖上，及面团上撒上面粉，此步骤防止面团发粘\n11. 用擀面杖将面团擀平，约 8cm 直径，厚约 2mm，中间略微比四周厚 1mm\n\n",
+          "level": 3
+        },
+        {
+          "title": "拌馅",
+          "markdown": "\n1. 猪肉去皮，保留部分肥肉,切成小块\n2. 菜刀（建议两把）将猪肉剁成肉沫，放入碗中\n3. 葱、姜切成末，放入肉碗中搅拌均匀\n4. 韭菜洗净，切短至 3mm 以下长度\n5. 韭菜和肉沫混合，加入蚝油、生抽、香油各 2ml，加入一个鸡蛋的蛋清，用手混合搅拌均匀\n6. 放置 30 分钟即可开始包饺子\n\n",
+          "level": 3
+        },
+        {
+          "title": "包饺子",
+          "markdown": "\n1. 左手上放面皮，放饺子馅一面尽量不要粘到面粉，防止无法合拢\n2. 右手用筷子夹约面皮 1/2 直径的馅\n3. 沿饺子皮圆周进行合拢，捏实，个人吃无需捏花，饺子皮不漏即可\n\n",
+          "level": 3
+        },
+        {
+          "title": "煮饺子",
+          "markdown": "\n1. 使用可放下 20 只饺子的锅，或分批量煮\n2. 烧水，水约 3/4 锅的高度\n3. 大火烧开水后放入饺子，调至中火\n4. 第一次放入饺子，且水冒泡后，锅边加入 50ml 冷水（重复此步骤两次）\n5. 第三次水开后加入冷水 50ml，水开后调至小火等 60s 即可出锅\n\n",
+          "level": 3
+        },
+        {
+          "title": "附加内容",
+          "markdown": "\n- 煮水饺不需要盖锅盖，加三次水就是为了不让饺子一直处于沸腾状态导致表皮破损变成面片。\n\n这道菜存在一些补充做法，包括但不限于：\n\n额外添加下列材料：\n\n* 黑醋 10ml\n* 姜 一小块 50 克\n* 香油 2 滴\n* 大蒜/蒜泥 3 瓣/人\n\n* 考虑搭配黑醋食用。建议用量：10-20ml。\n* 考虑姜切丝，在小碗加入 20ml 的黑醋与姜丝搅拌当蘸料，味道更丰富。\n* 考虑搭配黑醋时加入 1~3 滴香油，搅拌当蘸料。\n* 考虑搭配黑醋时加入砸好的蒜泥，搅拌当蘸料。（口腔内会残留蒜味，若饭后需要与他人面对面谈话建议放弃或清洁口腔）\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+          "level": 2
+        }
+      ],
+      "images": [],
+      "limitations": [
+        "本上游菜谱无图片，按用户要求不补造图片。",
+        "原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。"
+      ],
+      "introduction": "# 手工水饺的做法\n\n手工水饺是一道中式经典主食，皮薄馅大、鲜美多汁，饱腹又可以根据个人口味随意调味。猪肉馅提供优质蛋白质和脂肪，搭配韭菜还能补充维生素与膳食纤维。这道菜品对新手来说难度较高，需要掌握和面、擀皮、调馅和煮饺的火候，预计制作时间约 3 小时。\n\n预估烹饪难度：★★★★★\n\n预估卡路里：1313 大卡\n\n",
+      "evidence": {
+        "recipeId": "cn-045",
+        "recipeName": "韭菜猪肉饺子",
+        "category": "chinese",
+        "createdAt": "2026-10-08T07:19:16.258364+00:00",
+        "sources": [
+          {
+            "sourceName": "HowToCook",
+            "sourceType": "website",
+            "url": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/staple/%E6%89%8B%E5%B7%A5%E6%B0%B4%E9%A5%BA.md",
+            "documentId": "6a326ea0-56f9-4fc5-af0d-401a8e6266d8",
+            "retrievalMethod": "GitHub immutable raw Markdown via configured local HTTP proxy; no access-control bypass",
+            "complete": true,
+            "ingredients": [
+              {
+                "name": "面粉",
+                "raw": "面粉 200g",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "冷水",
+                "raw": "冷水 150ml",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "芝麻香油",
+                "raw": "芝麻香油 2-3ml",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "瘦肉末",
+                "raw": "瘦肉末 250g",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "肥肉末",
+                "raw": "肥肉末 20g #不喜可不加",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "姜",
+                "raw": "姜 3g",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "葱",
+                "raw": "葱 15g",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "盐",
+                "raw": "盐 3g",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "蚝油",
+                "raw": "蚝油 2ml",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "香油",
+                "raw": "香油 2ml",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "生抽",
+                "raw": "生抽 2ml",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "鸡蛋",
+                "raw": "鸡蛋 1 个",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "韭菜",
+                "raw": "手工水饺是一道中式经典主食，皮薄馅大、鲜美多汁，饱腹又可以根据个人口味随意调味。猪肉馅提供优质蛋白质和脂肪，搭配韭菜还能补充维生素与膳食纤维。这道菜品对新手来说难度较高，需要掌握和面、擀皮、调馅和煮饺的火候，预计制作时间约 3 小时。",
+                "amount": null,
+                "sourceSection": "操作/附加内容"
+              },
+              {
+                "name": "黑醋",
+                "raw": "黑醋 10ml",
+                "amount": null,
+                "sourceSection": "操作/附加内容"
+              },
+              {
+                "name": "大蒜/蒜泥",
+                "raw": "大蒜/蒜泥 3 瓣/人",
+                "amount": null,
+                "sourceSection": "操作/附加内容"
+              }
+            ],
+            "steps": [
+              {
+                "order": 1,
+                "instruction": "盆中加入所有面粉",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 1
+              },
+              {
+                "order": 2,
+                "instruction": "加入芝麻香油",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 2
+              },
+              {
+                "order": 3,
+                "instruction": "面粉中央挖小洞",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 3
+              },
+              {
+                "order": 4,
+                "instruction": "分 4-5 次加入水，并搅和，当出现碎末状的稍微干燥面团时",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 4
+              },
+              {
+                "order": 5,
+                "instruction": "取消加水，用手将面团压实",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 5
+              },
+              {
+                "order": 6,
+                "instruction": "面团压实至可把盆周围的面粉纳入即可，此步骤为面光盆光",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 6
+              },
+              {
+                "order": 7,
+                "instruction": "将面团置于桌上，盆倒扣于桌上，环境温度为 25 度，使面团醒发约 45 分钟",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 7
+              },
+              {
+                "order": 8,
+                "instruction": "醒发完成后，将面团搓成条状，合成一团，再次搓成条，重复 3 次",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 8
+              },
+              {
+                "order": 9,
+                "instruction": "擀成条状，切成 20 份均匀大小面团，并搓成直径约 3-3.5cm 的球状",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 9
+              },
+              {
+                "order": 10,
+                "instruction": "压扁面团，在手上，桌上，擀面杖上，及面团上撒上面粉，此步骤防止面团发粘",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 10
+              },
+              {
+                "order": 11,
+                "instruction": "用擀面杖将面团擀平，约 8cm 直径，厚约 2mm，中间略微比四周厚 1mm\n\n### 拌馅",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 11
+              },
+              {
+                "order": 12,
+                "instruction": "猪肉去皮，保留部分肥肉,切成小块",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 1
+              },
+              {
+                "order": 13,
+                "instruction": "菜刀（建议两把）将猪肉剁成肉沫，放入碗中",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 2
+              },
+              {
+                "order": 14,
+                "instruction": "葱、姜切成末，放入肉碗中搅拌均匀",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 3
+              },
+              {
+                "order": 15,
+                "instruction": "韭菜洗净，切短至 3mm 以下长度",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 4
+              },
+              {
+                "order": 16,
+                "instruction": "韭菜和肉沫混合，加入蚝油、生抽、香油各 2ml，加入一个鸡蛋的蛋清，用手混合搅拌均匀",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 5
+              },
+              {
+                "order": 17,
+                "instruction": "放置 30 分钟即可开始包饺子\n\n### 包饺子",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 6
+              },
+              {
+                "order": 18,
+                "instruction": "左手上放面皮，放饺子馅一面尽量不要粘到面粉，防止无法合拢",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 1
+              },
+              {
+                "order": 19,
+                "instruction": "右手用筷子夹约面皮 1/2 直径的馅",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 2
+              },
+              {
+                "order": 20,
+                "instruction": "沿饺子皮圆周进行合拢，捏实，个人吃无需捏花，饺子皮不漏即可\n\n### 煮饺子",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 3
+              },
+              {
+                "order": 21,
+                "instruction": "使用可放下 20 只饺子的锅，或分批量煮",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 1
+              },
+              {
+                "order": 22,
+                "instruction": "烧水，水约 3/4 锅的高度",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 2
+              },
+              {
+                "order": 23,
+                "instruction": "大火烧开水后放入饺子，调至中火",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 3
+              },
+              {
+                "order": 24,
+                "instruction": "第一次放入饺子，且水冒泡后，锅边加入 50ml 冷水（重复此步骤两次）",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 4
+              },
+              {
+                "order": 25,
+                "instruction": "第三次水开后加入冷水 50ml，水开后调至小火等 60s 即可出锅",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 5
+              }
+            ],
+            "technique": [
+              "-单人，约 20 只\n\n每份：\n\n- 面粉 200g\n- 冷水 150ml\n- 芝麻香油 2-3ml\n- 瘦肉末 250g\n- 肥肉末 20g #不喜可不加\n- 姜 3g\n- 葱 15g\n- 盐 3g\n- 蚝油 2ml\n- 香油 2ml\n- 生抽 2ml\n- 鸡蛋 1 个"
+            ],
+            "tips": [
+              "- 煮水饺不需要盖锅盖，加三次水就是为了不让饺子一直处于沸腾状态导致表皮破损变成面片。\n\n这道菜存在一些补充做法，包括但不限于：\n\n额外添加下列材料：\n\n* 黑醋 10ml\n* 姜 一小块 50 克\n* 香油 2 滴\n* 大蒜/蒜泥 3 瓣/人\n\n* 考虑搭配黑醋食用。建议用量：10-20ml。\n* 考虑姜切丝，在小碗加入 20ml 的黑醋与姜丝搅拌当蘸料，味道更丰富。\n* 考虑搭配黑醋时加入 1~3 滴香油，搅拌当蘸料。\n* 考虑搭配黑醋时加入砸好的蒜泥，搅拌当蘸料。（口腔内会残留蒜味，若饭后需要与他人面对面谈话建议放弃或清洁口腔）\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+            ],
+            "rawExcerpt": "# 手工水饺的做法\n\n手工水饺是一道中式经典主食，皮薄馅大、鲜美多汁，饱腹又可以根据个人口味随意调味。猪肉馅提供优质蛋白质和脂肪，搭配韭菜还能补充维生素与膳食纤维。这道菜品对新手来说难度较高，需要掌握和面、擀皮、调馅和煮饺的火候，预计制作时间约 3 小时。\n\n预估烹饪难度：★★★★★\n\n预估卡路里：1313 大卡\n\n## 必备原料和工具\n\n- 擀面杖\n- 面粉\n- 冷水\n- 直径 30cm 以上的盆\n- 芝麻香油\n\n## 计算\n\n-单人，约 20 只\n\n每份：\n\n- 面粉 200g\n- 冷水 150ml\n- 芝麻香油 2-3ml\n- 瘦肉末 250g\n- 肥肉末 20g #不喜可不加\n- 姜 3g\n- 葱 15g\n- 盐 3g\n- 蚝油 2ml\n- 香油 2ml\n- 生抽 2ml\n- 鸡蛋 1 个\n\n## 操作\n\n### 制作饺子皮\n\n1. 盆中加入所有面粉\n2. 加入芝麻香油\n3. 面粉中央挖小洞\n4. 分 4-5 次加入水，并搅和，当出现碎末状的稍微干燥面团时\n5. 取消加水，用手将面团压实\n6. 面团压实至可把盆周围的面粉纳入即可，此步骤为面光盆光\n7. 将面团置于桌上，盆倒扣于桌上，环境温度为 25 度，使面团醒发约 45 分钟\n8. 醒发完成后，将面团搓成条状，合成一团，再次搓成条，重复 3 次\n9. 擀成条状，切成 20 份均匀大小面团，并搓成直径约 3-3.5cm 的球状\n10. 压扁面团，在手上，桌上，擀面杖上，及面团上撒上面粉，此步骤防止面团发粘\n11. 用擀面杖将面团擀平，约 8cm 直径，厚约 2mm，中间略微比四周厚 1mm\n\n### 拌馅\n\n1. 猪肉去皮，保留部分肥肉,切成小块\n2. 菜刀（建议两把）将猪肉剁成肉沫，放入碗中\n3. 葱、姜切成末，放入肉碗中搅拌均匀\n4. 韭菜洗净，切短至 3mm 以下长度\n5. 韭菜和肉沫混合，加入蚝油、生抽、香油各 2ml，加入一个鸡蛋的蛋清，用手混合搅拌均匀\n6. 放置 30 分钟即可开始包饺子\n\n### 包饺子\n\n1. 左手上放面皮，放饺子馅一面尽量不要粘到面粉，防止无法合拢\n2. 右手用筷子夹约面皮 1/2 直径的馅\n3. 沿饺子皮圆周进行合拢，捏实，个人吃无需捏花，饺子皮不漏即可\n\n### 煮饺子\n\n1. 使用可放下 20 只饺子的锅，或分批量煮\n2. 烧水，水约 3/4 锅的高度\n3. 大火烧开水后放入饺子，调至中火\n4. 第一次放入饺子，且水冒泡后，锅边加入 50ml 冷水（重复此步骤两次）\n5. 第三次水开后加入冷水 50ml，水开后调至小火等 60s 即可出锅\n\n## 附加内容\n\n- 煮水饺不需要盖锅盖，加三次水就是为了不让饺子一直处于沸腾状态导致表皮破损变成面片。\n\n这道菜存在一些补充做法，包括但不限于：\n\n额外添加下列材料：\n\n* 黑醋 10ml\n* 姜 一小块 50 克\n* 香油 2 滴\n* 大蒜/蒜泥 3 瓣/人\n\n* 考虑搭配黑醋食用。建议用量：10-20ml。\n* 考虑姜切丝，在小碗加入 20ml 的黑醋与姜丝搅拌当蘸料，味道更丰富。\n* 考虑搭配黑醋时加入 1~3 滴香油，搅拌当蘸料。\n* 考虑搭配黑醋时加入砸好的蒜泥，搅拌当蘸料。（口腔内会残留蒜味，若饭后需要与他人面对面谈话建议放弃或清洁口腔）\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n"
+          }
+        ],
+        "sourceMode": "single_source",
+        "singleSourceReason": "User explicitly directed exclusive HowToCook source and exact upstream transcription.",
+        "selectedSourceUrl": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/staple/%E6%89%8B%E5%B7%A5%E6%B0%B4%E9%A5%BA.md",
+        "selectionReason": "手工水饺正文明确韭菜和猪肉馅，对应韭菜猪肉饺子。",
+        "ragEvidence": [
+          {
+            "chunkId": "7193acce-c9de-42ed-a123-4aab5fb0591f",
+            "documentId": "6a326ea0-56f9-4fc5-af0d-401a8e6266d8",
+            "sourceName": "HowToCook",
+            "chunkType": "tips",
+            "content": "菜名：韭菜猪肉饺子\n- - 煮水饺不需要盖锅盖，加三次水就是为了不让饺子一直处于沸腾状态导致表皮破损变成面片。 这道菜存在一些补充做法，包括但不限于： 额外添加下列材料： * 黑醋 10ml * 姜 一小块 50 克 * 香油 2 滴 * 大蒜/蒜泥 3 瓣/人 * 考虑搭配黑醋食用。建议用量：10-20ml。 * 考虑姜切丝，在小碗加入 20ml 的黑醋与姜丝搅拌当蘸料，味道更丰富。 * 考虑搭配黑醋时加入 1~3 滴香油，搅拌当蘸料。 * 考虑搭配黑醋时加入砸好的蒜泥，搅拌当蘸料。（口腔内会残留蒜味，若饭后需要与他人面对面谈话建议放弃或清洁口腔） 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。",
+            "similarity": 0.711930751800557
+          },
+          {
+            "chunkId": "7b891117-ed5d-4b76-bc9d-49236da619e7",
+            "documentId": "6a326ea0-56f9-4fc5-af0d-401a8e6266d8",
+            "sourceName": "HowToCook",
+            "chunkType": "steps",
+            "content": "菜名：韭菜猪肉饺子\n1. 盆中加入所有面粉\n2. 加入芝麻香油\n3. 面粉中央挖小洞\n4. 分 4-5 次加入水，并搅和，当出现碎末状的稍微干燥面团时\n5. 取消加水，用手将面团压实\n6. 面团压实至可把盆周围的面粉纳入即可，此步骤为面光盆光\n7. 将面团置于桌上，盆倒扣于桌上，环境温度为 25 度，使面团醒发约 45 分钟\n8. 醒发完成后，将面团搓成条状，合成一团，再次搓成条，重复 3 次\n9. 擀成条状，切成 20 份均匀大小面团，并搓成直径约 3-3.5cm 的球状\n10. 压扁面团，在手上，桌上，擀面杖上，及面团上撒上面粉，此步骤防止面团发粘\n11. 用擀面杖将面团擀平，约 8cm 直径，厚约 2mm，中间略微比四周厚 1mm ### 拌馅\n12. 猪肉去皮，保留部分肥肉,切成小块\n13. 菜刀（建议两把）将猪肉剁成肉沫，放入碗中\n14. 葱、姜切成末，放入肉碗中搅拌均匀\n15. 韭菜洗净，切短至 3mm 以下长度\n16. 韭菜和肉沫混合，加入蚝油、生抽、香油各 2ml，加入一个鸡蛋的蛋清，用手混合搅拌均匀\n17. 放置 30 分钟即可开始包饺子 ### 包饺子\n18. 左手上放面皮，放饺子馅一面尽量不要粘到面粉，防止无法合拢\n19. 右手用筷子夹约面皮 1/2 直径的馅\n20. 沿饺子皮圆周进行合拢，捏实，个人吃无需捏花，饺子皮不漏即可 ### 煮饺子\n21. 使用可放下 20 只饺子的锅，或分批量煮\n22. 烧水，水约 3/4 锅的高度\n23. 大火烧开水后放入饺子，调至中火\n24. 第一次放入饺子，且水冒泡后，锅边加入 50ml 冷水（重复此步骤两次）\n25. 第三次水开后加入冷水 50ml，水开后调至小火等 60s 即可出锅",
+            "similarity": 0.693339861233256
+          },
+          {
+            "chunkId": "0e1bb3fc-6ff1-4fb1-ba36-b10e0855ae33",
+            "documentId": "6a326ea0-56f9-4fc5-af0d-401a8e6266d8",
+            "sourceName": "HowToCook",
+            "chunkType": "technique",
+            "content": "菜名：韭菜猪肉饺子\n- -单人，约 20 只 每份： - 面粉 200g - 冷水 150ml - 芝麻香油 2-3ml - 瘦肉末 250g - 肥肉末 20g #不喜可不加 - 姜 3g - 葱 15g - 盐 3g - 蚝油 2ml - 香油 2ml - 生抽 2ml - 鸡蛋 1 个",
+            "similarity": 0.68034815788271
+          },
+          {
+            "chunkId": "befd1d8c-4cbc-45ec-94b1-7f149ee36370",
+            "documentId": "6a326ea0-56f9-4fc5-af0d-401a8e6266d8",
+            "sourceName": "HowToCook",
+            "chunkType": "ingredients",
+            "content": "菜名：韭菜猪肉饺子\n- 面粉 200g\n- 冷水 150ml\n- 芝麻香油 2-3ml\n- 瘦肉末 250g\n- 肥肉末 20g #不喜可不加\n- 姜 3g\n- 葱 15g\n- 盐 3g\n- 蚝油 2ml\n- 香油 2ml\n- 生抽 2ml\n- 鸡蛋 1 个\n- 手工水饺是一道中式经典主食，皮薄馅大、鲜美多汁，饱腹又可以根据个人口味随意调味。猪肉馅提供优质蛋白质和脂肪，搭配韭菜还能补充维生素与膳食纤维。这道菜品对新手来说难度较高，需要掌握和面、擀皮、调馅和煮饺的火候，预计制作时间约 3 小时。\n- 黑醋 10ml\n- 大蒜/蒜泥 3 瓣/人",
+            "similarity": 0.677273570542918
+          },
+          {
+            "chunkId": "d013e0f6-de1c-456a-b2f3-79f13fa692e2",
+            "documentId": "6a326ea0-56f9-4fc5-af0d-401a8e6266d8",
+            "sourceName": "HowToCook",
+            "chunkType": "summary",
+            "content": "菜名：韭菜猪肉饺子\n别名：手工水饺\n简介：# 手工水饺的做法 手工水饺是一道中式经典主食，皮薄馅大、鲜美多汁，饱腹又可以根据个人口味随意调味。猪肉馅提供优质蛋白质和脂肪，搭配韭菜还能补充维生素与膳食纤维。这道菜品对新手来说难度较高，需要掌握和面、擀皮、调馅和煮饺的火候，预计制作时间约 3 小时。 预估烹饪难度：★★★★★ 预估卡路里：1313 大卡",
+            "similarity": 0.677112280388576
+          }
+        ],
+        "notes": [
+          "用户明确要求仅用 HowToCook，原文完整转录；complete=true 表示上游文档完整抓取，不表示烹饪参数无遗漏。",
+          "Source limitations: 本上游菜谱无图片，按用户要求不补造图片。 原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。",
+          "GitHub commit a2d45c6984dff9ee941da0e7c452f7965965d962; path dishes/staple/手工水饺.md",
+          "媒体按原文位置保留；未要求映射的照片不伪称步骤图。",
+          "Existing exact-name knowledge-base documents checked before source fetching: 0"
+        ]
+      },
+      "ingestion": {
+        "ok": true,
+        "documentId": "6a326ea0-56f9-4fc5-af0d-401a8e6266d8",
+        "entityId": "6130c4b0-63f8-4e01-9779-8d468366df91",
+        "deduplicated": false,
+        "embedded": true,
+        "chunkCount": 5,
+        "model": "voyage-4",
+        "dimension": 1024,
+        "semanticCount": 5,
+        "hybridCount": 5,
+        "supersededDocumentIds": [],
+        "excludedFromSemantic": true,
+        "excludedFromHybrid": true
+      }
+    },
+    {
+      "recipeId": "cn-046",
+      "recipeName": "馄饨",
+      "category": "chinese",
+      "status": "matched",
+      "path": "dishes/semi-finished/速冻馄饨.md",
+      "candidates": [
+        "dishes/semi-finished/速冻馄饨.md"
+      ],
+      "skipReason": "近名菜谱做法不同，不替代指定菜谱。",
+      "matchReason": "原文为电饭煲煮速冻馄饨版本，不包含自制馄饨皮馅步骤。",
+      "upstreamName": "速冻馄饨",
+      "rawMarkdown": "# 速冻馄饨的做法\n\n速冻馄饨皮薄馅嫩，汤清味鲜，是一道便捷的家常面食。主要提供碳水化合物和蛋白质，便于快速补充能量。做法简单，对新手非常友好，使用电饭煲即可完成，从烧水到出锅大约需要 55 分钟。\n\n预估烹饪难度：★★\n\n预估卡路里：540 大卡\n\n## 必备原料和工具\n\n* 未过期的一袋速冻馄饨（自带调味料包更佳）\n* 电饭煲（推荐品牌小米智能电饭煲）\n* 盐（速冻馄饨无调味料包时）\n* 鸡精（速冻馄饨无调味料包时）\n* 胡椒粉（速冻馄饨无调味料包时）\n* 香油（速冻馄饨无调味料包时）\n* 香菜 1 根（可选）\n\n> 注意，使用的烹饪工具不同速冻馄饨可能有不同的做法，这里仅介绍使用「电饭煲」的做法。\n\n## 计算\n\n* 一般一个人一顿可以食用 12～20 个馄饨\n* 当所有馄饨放入电饭煲中时，能刚好没过所有馄饨的水乘以 2~3 倍的水量（一人食用的馄饨约需要 600ml 水量）\n\n## 操作\n\n### 烧开水\n\n1. 将水倒入电饭煲中，按炖或煮的模式运行 35 分钟，此时揭开电饭煲应看到水为沸腾状态。\n\n### 下馄饨\n\n1. 将速冻馄饨小心放入水中，注意不要烫伤。\n2. 放入电饭煲前可以适当用水过一下。\n3. 如果馄饨有调料包，此时可一并加入水中。\n\n### 煮馄饨\n\n1. 盖上电饭煲，按同样炖或煮的模式运行 20 分钟。\n\n### 盛馄饨\n\n1. 将所有馄饨连同能没过所有馄饨的水一同盛入碗中。\n2. 如果此前没有加入调料包，此时可按自身口味轻重加入盐、鸡精、胡椒粉、香油调味。\n3. 也可撒上 5~8 片香菜叶佐味（仅适用于对香菜味道不敏感的人）。\n\n## 附加内容\n\n* 出锅后也可以加入水煮荷包蛋（[太阳蛋](../../dishes/breakfast/太阳蛋.md)）一起食用。\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+      "sha256": "09e3d026b9bffacc414465cb0748550f7c791a87501c5d0edd737498f25e8f3b",
+      "sections": [
+        {
+          "title": "速冻馄饨的做法",
+          "markdown": "\n速冻馄饨皮薄馅嫩，汤清味鲜，是一道便捷的家常面食。主要提供碳水化合物和蛋白质，便于快速补充能量。做法简单，对新手非常友好，使用电饭煲即可完成，从烧水到出锅大约需要 55 分钟。\n\n预估烹饪难度：★★\n\n预估卡路里：540 大卡\n\n",
+          "level": 1
+        },
+        {
+          "title": "必备原料和工具",
+          "markdown": "\n* 未过期的一袋速冻馄饨（自带调味料包更佳）\n* 电饭煲（推荐品牌小米智能电饭煲）\n* 盐（速冻馄饨无调味料包时）\n* 鸡精（速冻馄饨无调味料包时）\n* 胡椒粉（速冻馄饨无调味料包时）\n* 香油（速冻馄饨无调味料包时）\n* 香菜 1 根（可选）\n\n> 注意，使用的烹饪工具不同速冻馄饨可能有不同的做法，这里仅介绍使用「电饭煲」的做法。\n\n",
+          "level": 2
+        },
+        {
+          "title": "计算",
+          "markdown": "\n* 一般一个人一顿可以食用 12～20 个馄饨\n* 当所有馄饨放入电饭煲中时，能刚好没过所有馄饨的水乘以 2~3 倍的水量（一人食用的馄饨约需要 600ml 水量）\n\n",
+          "level": 2
+        },
+        {
+          "title": "操作",
+          "markdown": "\n",
+          "level": 2
+        },
+        {
+          "title": "烧开水",
+          "markdown": "\n1. 将水倒入电饭煲中，按炖或煮的模式运行 35 分钟，此时揭开电饭煲应看到水为沸腾状态。\n\n",
+          "level": 3
+        },
+        {
+          "title": "下馄饨",
+          "markdown": "\n1. 将速冻馄饨小心放入水中，注意不要烫伤。\n2. 放入电饭煲前可以适当用水过一下。\n3. 如果馄饨有调料包，此时可一并加入水中。\n\n",
+          "level": 3
+        },
+        {
+          "title": "煮馄饨",
+          "markdown": "\n1. 盖上电饭煲，按同样炖或煮的模式运行 20 分钟。\n\n",
+          "level": 3
+        },
+        {
+          "title": "盛馄饨",
+          "markdown": "\n1. 将所有馄饨连同能没过所有馄饨的水一同盛入碗中。\n2. 如果此前没有加入调料包，此时可按自身口味轻重加入盐、鸡精、胡椒粉、香油调味。\n3. 也可撒上 5~8 片香菜叶佐味（仅适用于对香菜味道不敏感的人）。\n\n",
+          "level": 3
+        },
+        {
+          "title": "附加内容",
+          "markdown": "\n* 出锅后也可以加入水煮荷包蛋（[太阳蛋](../../dishes/breakfast/太阳蛋.md)）一起食用。\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+          "level": 2
+        }
+      ],
+      "images": [],
+      "limitations": [
+        "本上游菜谱无图片，按用户要求不补造图片。",
+        "原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。"
+      ],
+      "introduction": "# 速冻馄饨的做法\n\n速冻馄饨皮薄馅嫩，汤清味鲜，是一道便捷的家常面食。主要提供碳水化合物和蛋白质，便于快速补充能量。做法简单，对新手非常友好，使用电饭煲即可完成，从烧水到出锅大约需要 55 分钟。\n\n预估烹饪难度：★★\n\n预估卡路里：540 大卡\n\n",
+      "evidence": {
+        "recipeId": "cn-046",
+        "recipeName": "馄饨",
+        "category": "chinese",
+        "createdAt": "2026-10-08T07:19:16.258364+00:00",
+        "sources": [
+          {
+            "sourceName": "HowToCook",
+            "sourceType": "website",
+            "url": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/semi-finished/%E9%80%9F%E5%86%BB%E9%A6%84%E9%A5%A8.md",
+            "documentId": "7d62c0ff-54ab-4f83-afe6-a789e42e492e",
+            "retrievalMethod": "GitHub immutable raw Markdown via configured local HTTP proxy; no access-control bypass",
+            "complete": true,
+            "ingredients": [
+              {
+                "name": "速冻馄饨",
+                "raw": "未过期的一袋速冻馄饨（自带调味料包更佳）",
+                "amount": null,
+                "sourceSection": "必备原料和工具"
+              },
+              {
+                "name": "盐",
+                "raw": "盐（速冻馄饨无调味料包时）",
+                "amount": null,
+                "sourceSection": "必备原料和工具"
+              },
+              {
+                "name": "鸡精",
+                "raw": "鸡精（速冻馄饨无调味料包时）",
+                "amount": null,
+                "sourceSection": "必备原料和工具"
+              },
+              {
+                "name": "胡椒粉",
+                "raw": "胡椒粉（速冻馄饨无调味料包时）",
+                "amount": null,
+                "sourceSection": "必备原料和工具"
+              },
+              {
+                "name": "香油",
+                "raw": "香油（速冻馄饨无调味料包时）",
+                "amount": null,
+                "sourceSection": "必备原料和工具"
+              },
+              {
+                "name": "香菜",
+                "raw": "香菜 1 根（可选）",
+                "amount": null,
+                "sourceSection": "必备原料和工具"
+              },
+              {
+                "name": "水",
+                "raw": "当所有馄饨放入电饭煲中时，能刚好没过所有馄饨的水乘以 2~3 倍的水量（一人食用的馄饨约需要 600ml 水量）",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "调料包",
+                "raw": "如果馄饨有调料包，此时可一并加入水中。",
+                "amount": null,
+                "sourceSection": "操作/附加内容"
+              }
+            ],
+            "steps": [
+              {
+                "order": 1,
+                "instruction": "将水倒入电饭煲中，按炖或煮的模式运行 35 分钟，此时揭开电饭煲应看到水为沸腾状态。\n\n### 下馄饨",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 1
+              },
+              {
+                "order": 2,
+                "instruction": "将速冻馄饨小心放入水中，注意不要烫伤。",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 1
+              },
+              {
+                "order": 3,
+                "instruction": "放入电饭煲前可以适当用水过一下。",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 2
+              },
+              {
+                "order": 4,
+                "instruction": "如果馄饨有调料包，此时可一并加入水中。\n\n### 煮馄饨",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 3
+              },
+              {
+                "order": 5,
+                "instruction": "盖上电饭煲，按同样炖或煮的模式运行 20 分钟。\n\n### 盛馄饨",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 1
+              },
+              {
+                "order": 6,
+                "instruction": "将所有馄饨连同能没过所有馄饨的水一同盛入碗中。",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 1
+              },
+              {
+                "order": 7,
+                "instruction": "如果此前没有加入调料包，此时可按自身口味轻重加入盐、鸡精、胡椒粉、香油调味。",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 2
+              },
+              {
+                "order": 8,
+                "instruction": "也可撒上 5~8 片香菜叶佐味（仅适用于对香菜味道不敏感的人）。",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 3
+              }
+            ],
+            "technique": [
+              "* 一般一个人一顿可以食用 12～20 个馄饨\n* 当所有馄饨放入电饭煲中时，能刚好没过所有馄饨的水乘以 2~3 倍的水量（一人食用的馄饨约需要 600ml 水量）"
+            ],
+            "tips": [
+              "* 出锅后也可以加入水煮荷包蛋（[太阳蛋](../../dishes/breakfast/太阳蛋.md)）一起食用。\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+            ],
+            "rawExcerpt": "# 速冻馄饨的做法\n\n速冻馄饨皮薄馅嫩，汤清味鲜，是一道便捷的家常面食。主要提供碳水化合物和蛋白质，便于快速补充能量。做法简单，对新手非常友好，使用电饭煲即可完成，从烧水到出锅大约需要 55 分钟。\n\n预估烹饪难度：★★\n\n预估卡路里：540 大卡\n\n## 必备原料和工具\n\n* 未过期的一袋速冻馄饨（自带调味料包更佳）\n* 电饭煲（推荐品牌小米智能电饭煲）\n* 盐（速冻馄饨无调味料包时）\n* 鸡精（速冻馄饨无调味料包时）\n* 胡椒粉（速冻馄饨无调味料包时）\n* 香油（速冻馄饨无调味料包时）\n* 香菜 1 根（可选）\n\n> 注意，使用的烹饪工具不同速冻馄饨可能有不同的做法，这里仅介绍使用「电饭煲」的做法。\n\n## 计算\n\n* 一般一个人一顿可以食用 12～20 个馄饨\n* 当所有馄饨放入电饭煲中时，能刚好没过所有馄饨的水乘以 2~3 倍的水量（一人食用的馄饨约需要 600ml 水量）\n\n## 操作\n\n### 烧开水\n\n1. 将水倒入电饭煲中，按炖或煮的模式运行 35 分钟，此时揭开电饭煲应看到水为沸腾状态。\n\n### 下馄饨\n\n1. 将速冻馄饨小心放入水中，注意不要烫伤。\n2. 放入电饭煲前可以适当用水过一下。\n3. 如果馄饨有调料包，此时可一并加入水中。\n\n### 煮馄饨\n\n1. 盖上电饭煲，按同样炖或煮的模式运行 20 分钟。\n\n### 盛馄饨\n\n1. 将所有馄饨连同能没过所有馄饨的水一同盛入碗中。\n2. 如果此前没有加入调料包，此时可按自身口味轻重加入盐、鸡精、胡椒粉、香油调味。\n3. 也可撒上 5~8 片香菜叶佐味（仅适用于对香菜味道不敏感的人）。\n\n## 附加内容\n\n* 出锅后也可以加入水煮荷包蛋（[太阳蛋](../../dishes/breakfast/太阳蛋.md)）一起食用。\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n"
+          }
+        ],
+        "sourceMode": "single_source",
+        "singleSourceReason": "User explicitly directed exclusive HowToCook source and exact upstream transcription.",
+        "selectedSourceUrl": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/semi-finished/%E9%80%9F%E5%86%BB%E9%A6%84%E9%A5%A8.md",
+        "selectionReason": "原文为电饭煲煮速冻馄饨版本，不包含自制馄饨皮馅步骤。",
+        "ragEvidence": [
+          {
+            "chunkId": "a9f4a664-1451-412e-aba5-1b0bad81ae06",
+            "documentId": "7d62c0ff-54ab-4f83-afe6-a789e42e492e",
+            "sourceName": "HowToCook",
+            "chunkType": "tips",
+            "content": "菜名：馄饨\n- * 出锅后也可以加入水煮荷包蛋（[太阳蛋](../../dishes/breakfast/太阳蛋.md)）一起食用。 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。",
+            "similarity": 0.67964494228363
+          },
+          {
+            "chunkId": "31dd3f12-7c66-4ebf-acd5-cdd9d77511d7",
+            "documentId": "7d62c0ff-54ab-4f83-afe6-a789e42e492e",
+            "sourceName": "HowToCook",
+            "chunkType": "summary",
+            "content": "菜名：馄饨\n别名：速冻馄饨\n简介：# 速冻馄饨的做法 速冻馄饨皮薄馅嫩，汤清味鲜，是一道便捷的家常面食。主要提供碳水化合物和蛋白质，便于快速补充能量。做法简单，对新手非常友好，使用电饭煲即可完成，从烧水到出锅大约需要 55 分钟。 预估烹饪难度：★★ 预估卡路里：540 大卡",
+            "similarity": 0.606845319271088
+          },
+          {
+            "chunkId": "0d7bc85d-eeeb-458b-ad31-66a85c0ed643",
+            "documentId": "7d62c0ff-54ab-4f83-afe6-a789e42e492e",
+            "sourceName": "HowToCook",
+            "chunkType": "technique",
+            "content": "菜名：馄饨\n- * 一般一个人一顿可以食用 12～20 个馄饨 * 当所有馄饨放入电饭煲中时，能刚好没过所有馄饨的水乘以 2~3 倍的水量（一人食用的馄饨约需要 600ml 水量）",
+            "similarity": 0.602340316911956
+          },
+          {
+            "chunkId": "2a1a1dac-a1f5-4b60-b792-bf34b1c1e6d2",
+            "documentId": "7d62c0ff-54ab-4f83-afe6-a789e42e492e",
+            "sourceName": "HowToCook",
+            "chunkType": "ingredients",
+            "content": "菜名：馄饨\n- 未过期的一袋速冻馄饨（自带调味料包更佳）\n- 盐（速冻馄饨无调味料包时）\n- 鸡精（速冻馄饨无调味料包时）\n- 胡椒粉（速冻馄饨无调味料包时）\n- 香油（速冻馄饨无调味料包时）\n- 香菜 1 根（可选）\n- 当所有馄饨放入电饭煲中时，能刚好没过所有馄饨的水乘以 2~3 倍的水量（一人食用的馄饨约需要 600ml 水量）\n- 如果馄饨有调料包，此时可一并加入水中。",
+            "similarity": 0.596111595630646
+          },
+          {
+            "chunkId": "f830436d-aa80-4088-95d6-af85e285a702",
+            "documentId": "7d62c0ff-54ab-4f83-afe6-a789e42e492e",
+            "sourceName": "HowToCook",
+            "chunkType": "steps",
+            "content": "菜名：馄饨\n1. 将水倒入电饭煲中，按炖或煮的模式运行 35 分钟，此时揭开电饭煲应看到水为沸腾状态。 ### 下馄饨\n2. 将速冻馄饨小心放入水中，注意不要烫伤。\n3. 放入电饭煲前可以适当用水过一下。\n4. 如果馄饨有调料包，此时可一并加入水中。 ### 煮馄饨\n5. 盖上电饭煲，按同样炖或煮的模式运行 20 分钟。 ### 盛馄饨\n6. 将所有馄饨连同能没过所有馄饨的水一同盛入碗中。\n7. 如果此前没有加入调料包，此时可按自身口味轻重加入盐、鸡精、胡椒粉、香油调味。\n8. 也可撒上 5~8 片香菜叶佐味（仅适用于对香菜味道不敏感的人）。",
+            "similarity": 0.570958852767944
+          }
+        ],
+        "notes": [
+          "用户明确要求仅用 HowToCook，原文完整转录；complete=true 表示上游文档完整抓取，不表示烹饪参数无遗漏。",
+          "Source limitations: 本上游菜谱无图片，按用户要求不补造图片。 原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。",
+          "GitHub commit a2d45c6984dff9ee941da0e7c452f7965965d962; path dishes/semi-finished/速冻馄饨.md",
+          "媒体按原文位置保留；未要求映射的照片不伪称步骤图。",
+          "Existing exact-name knowledge-base documents checked before source fetching: 0"
+        ]
+      },
+      "ingestion": {
+        "ok": true,
+        "documentId": "7d62c0ff-54ab-4f83-afe6-a789e42e492e",
+        "entityId": "b72fff66-4dda-4af7-907d-8627634c73f9",
+        "deduplicated": false,
+        "embedded": true,
+        "chunkCount": 5,
+        "model": "voyage-4",
+        "dimension": 1024,
+        "semanticCount": 5,
+        "hybridCount": 5,
+        "supersededDocumentIds": [],
+        "excludedFromSemantic": true,
+        "excludedFromHybrid": true
+      }
+    },
+    {
+      "recipeId": "cn-058",
+      "recipeName": "番茄牛腩",
+      "category": "chinese",
+      "status": "matched",
+      "path": "dishes/meat_dish/西红柿牛腩/西红柿牛腩.md",
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。",
+      "matchReason": "西红柿与番茄同义，同菜。",
+      "upstreamName": "西红柿牛腩",
+      "rawMarkdown": "# 西红柿牛腩的做法\n\n西红柿牛腩汤汁浓厚酸甜可口，牛肉软绵醇香，是道开胃下饭的家常菜。富含蛋白质、维生素和番茄红素，营养均衡。对新手有一定挑战，需要掌握炖肉火候和番茄炒汁的技巧。一般初学者大约需要 90 分钟完成。\n\n预估烹饪难度：★★★★★\n\n预估卡路里：1569 大卡\n\n## 必备原料和工具\n\n* 西红柿\n* 牛腩\n* 燃气灶（西红柿去皮用）\n* 高压锅/砂锅/普通铝锅（铁锅）\n* 2cm 两段葱段、两片姜片，葱花、姜各 10g\n* 生抽、白胡椒粉，白糖，料/黄酒，八角三小片\n* 牛腩（挑选肥瘦相间的口感比较好）\n\n## 计算\n\n每份：\n\n- 西红柿 3-4 个（每个约 200g）\n- 牛腩 500g\n- 食用油 20-30ml\n\n## 操作\n\n1. 牛腩切条、切块成长宽高均 2cm ，冷水下锅，开锅煮制 2 分钟去除血水，捞出冲洗干净\n2. 另起锅 2L 水烧开，加入 2cm 两段葱段、两片姜片、八角、料/黄酒 5-10ml，放入焯好的牛肉，盖盖炖制（砂锅 1 小时，高压锅炖肉模式 45 分钟），筷子能轻松插透就证明炖好了\n3. 西红柿去皮：西红柿头部滑十字至腰线，筷子/刀叉从果蒂捅入，煤气灶小火，一边转动一边烤，及时拿下来查看，起皮后撕下来，切块。越小越好\n\n  - 撕皮小心烫，去皮后的西红柿特别滑，慢切注意安全\n\n4. 起锅烧油，油温 7 成热，葱、姜各 10g，番茄下锅，炒透炒出番茄红色，加入煮好的牛腩和原汤，原汤刚刚没过牛肉即可\n5. 根据个人口味放入盐、糖、生抽调味盖盖\n6. 开锅后大火继续炒制 3-5 分钟\n7. 待番茄汁呈中等粘稠程度后关火，散入葱花，盛盘\n\n## 附加内容\n\n- 用火注意安全、用火注意安全、用火注意安全\n- 用砂锅/铝锅炖肉时，水开后转中小火/小火，使用高压锅见[学习使用压力锅](./../../../tips/learn/高压力锅.md)\n- 教程中的番茄去皮方式是目前为止本人实践最快的方式\n- 绝对不用番茄酱和少加佐料，尽可能还原食材的原味\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+      "sha256": "82f1ae878a443d109e8fd9291f0d0854d41f586080440351417fc665726f2c31",
+      "sections": [
+        {
+          "title": "西红柿牛腩的做法",
+          "markdown": "\n西红柿牛腩汤汁浓厚酸甜可口，牛肉软绵醇香，是道开胃下饭的家常菜。富含蛋白质、维生素和番茄红素，营养均衡。对新手有一定挑战，需要掌握炖肉火候和番茄炒汁的技巧。一般初学者大约需要 90 分钟完成。\n\n预估烹饪难度：★★★★★\n\n预估卡路里：1569 大卡\n\n",
+          "level": 1
+        },
+        {
+          "title": "必备原料和工具",
+          "markdown": "\n* 西红柿\n* 牛腩\n* 燃气灶（西红柿去皮用）\n* 高压锅/砂锅/普通铝锅（铁锅）\n* 2cm 两段葱段、两片姜片，葱花、姜各 10g\n* 生抽、白胡椒粉，白糖，料/黄酒，八角三小片\n* 牛腩（挑选肥瘦相间的口感比较好）\n\n",
+          "level": 2
+        },
+        {
+          "title": "计算",
+          "markdown": "\n每份：\n\n- 西红柿 3-4 个（每个约 200g）\n- 牛腩 500g\n- 食用油 20-30ml\n\n",
+          "level": 2
+        },
+        {
+          "title": "操作",
+          "markdown": "\n1. 牛腩切条、切块成长宽高均 2cm ，冷水下锅，开锅煮制 2 分钟去除血水，捞出冲洗干净\n2. 另起锅 2L 水烧开，加入 2cm 两段葱段、两片姜片、八角、料/黄酒 5-10ml，放入焯好的牛肉，盖盖炖制（砂锅 1 小时，高压锅炖肉模式 45 分钟），筷子能轻松插透就证明炖好了\n3. 西红柿去皮：西红柿头部滑十字至腰线，筷子/刀叉从果蒂捅入，煤气灶小火，一边转动一边烤，及时拿下来查看，起皮后撕下来，切块。越小越好\n\n  - 撕皮小心烫，去皮后的西红柿特别滑，慢切注意安全\n\n4. 起锅烧油，油温 7 成热，葱、姜各 10g，番茄下锅，炒透炒出番茄红色，加入煮好的牛腩和原汤，原汤刚刚没过牛肉即可\n5. 根据个人口味放入盐、糖、生抽调味盖盖\n6. 开锅后大火继续炒制 3-5 分钟\n7. 待番茄汁呈中等粘稠程度后关火，散入葱花，盛盘\n\n",
+          "level": 2
+        },
+        {
+          "title": "附加内容",
+          "markdown": "\n- 用火注意安全、用火注意安全、用火注意安全\n- 用砂锅/铝锅炖肉时，水开后转中小火/小火，使用高压锅见[学习使用压力锅](./../../../tips/learn/高压力锅.md)\n- 教程中的番茄去皮方式是目前为止本人实践最快的方式\n- 绝对不用番茄酱和少加佐料，尽可能还原食材的原味\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+          "level": 2
+        }
+      ],
+      "images": [],
+      "limitations": [
+        "本上游菜谱无图片，按用户要求不补造图片。",
+        "原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。"
+      ],
+      "introduction": "# 西红柿牛腩的做法\n\n西红柿牛腩汤汁浓厚酸甜可口，牛肉软绵醇香，是道开胃下饭的家常菜。富含蛋白质、维生素和番茄红素，营养均衡。对新手有一定挑战，需要掌握炖肉火候和番茄炒汁的技巧。一般初学者大约需要 90 分钟完成。\n\n预估烹饪难度：★★★★★\n\n预估卡路里：1569 大卡\n\n",
+      "evidence": {
+        "recipeId": "cn-058",
+        "recipeName": "番茄牛腩",
+        "category": "chinese",
+        "createdAt": "2026-10-08T07:19:16.258364+00:00",
+        "sources": [
+          {
+            "sourceName": "HowToCook",
+            "sourceType": "website",
+            "url": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/meat_dish/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E7%89%9B%E8%85%A9/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E7%89%9B%E8%85%A9.md",
+            "documentId": "b089f530-1fda-4adf-8d78-df84b24113c0",
+            "retrievalMethod": "GitHub immutable raw Markdown via configured local HTTP proxy; no access-control bypass",
+            "complete": true,
+            "ingredients": [
+              {
+                "name": "西红柿",
+                "raw": "西红柿 3-4 个（每个约 200g）",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "牛腩",
+                "raw": "牛腩 500g",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "食用油",
+                "raw": "食用油 20-30ml",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "葱",
+                "raw": "2cm 两段葱段、两片姜片，葱花、姜各 10g",
+                "amount": null,
+                "sourceSection": "必备原料和工具"
+              },
+              {
+                "name": "姜",
+                "raw": "2cm 两段葱段、两片姜片，葱花、姜各 10g",
+                "amount": null,
+                "sourceSection": "必备原料和工具"
+              },
+              {
+                "name": "生抽",
+                "raw": "生抽、白胡椒粉，白糖，料/黄酒，八角三小片",
+                "amount": null,
+                "sourceSection": "必备原料和工具"
+              },
+              {
+                "name": "白胡椒粉",
+                "raw": "生抽、白胡椒粉，白糖，料/黄酒，八角三小片",
+                "amount": null,
+                "sourceSection": "必备原料和工具"
+              },
+              {
+                "name": "白糖",
+                "raw": "生抽、白胡椒粉，白糖，料/黄酒，八角三小片",
+                "amount": null,
+                "sourceSection": "必备原料和工具"
+              },
+              {
+                "name": "料/黄酒",
+                "raw": "生抽、白胡椒粉，白糖，料/黄酒，八角三小片",
+                "amount": null,
+                "sourceSection": "必备原料和工具"
+              },
+              {
+                "name": "八角",
+                "raw": "生抽、白胡椒粉，白糖，料/黄酒，八角三小片",
+                "amount": null,
+                "sourceSection": "必备原料和工具"
+              },
+              {
+                "name": "盐",
+                "raw": "根据个人口味放入盐、糖、生抽调味盖盖",
+                "amount": null,
+                "sourceSection": "操作/附加内容"
+              },
+              {
+                "name": "水",
+                "raw": "牛腩切条、切块成长宽高均 2cm ，冷水下锅，开锅煮制 2 分钟去除血水，捞出冲洗干净",
+                "amount": null,
+                "sourceSection": "操作/附加内容"
+              }
+            ],
+            "steps": [
+              {
+                "order": 1,
+                "instruction": "牛腩切条、切块成长宽高均 2cm ，冷水下锅，开锅煮制 2 分钟去除血水，捞出冲洗干净",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 1
+              },
+              {
+                "order": 2,
+                "instruction": "另起锅 2L 水烧开，加入 2cm 两段葱段、两片姜片、八角、料/黄酒 5-10ml，放入焯好的牛肉，盖盖炖制（砂锅 1 小时，高压锅炖肉模式 45 分钟），筷子能轻松插透就证明炖好了",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 2
+              },
+              {
+                "order": 3,
+                "instruction": "西红柿去皮：西红柿头部滑十字至腰线，筷子/刀叉从果蒂捅入，煤气灶小火，一边转动一边烤，及时拿下来查看，起皮后撕下来，切块。越小越好\n\n  - 撕皮小心烫，去皮后的西红柿特别滑，慢切注意安全",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 3
+              },
+              {
+                "order": 4,
+                "instruction": "起锅烧油，油温 7 成热，葱、姜各 10g，番茄下锅，炒透炒出番茄红色，加入煮好的牛腩和原汤，原汤刚刚没过牛肉即可",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 4
+              },
+              {
+                "order": 5,
+                "instruction": "根据个人口味放入盐、糖、生抽调味盖盖",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 5
+              },
+              {
+                "order": 6,
+                "instruction": "开锅后大火继续炒制 3-5 分钟",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 6
+              },
+              {
+                "order": 7,
+                "instruction": "待番茄汁呈中等粘稠程度后关火，散入葱花，盛盘",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 7
+              }
+            ],
+            "technique": [
+              "每份：\n\n- 西红柿 3-4 个（每个约 200g）\n- 牛腩 500g\n- 食用油 20-30ml"
+            ],
+            "tips": [
+              "- 用火注意安全、用火注意安全、用火注意安全\n- 用砂锅/铝锅炖肉时，水开后转中小火/小火，使用高压锅见[学习使用压力锅](./../../../tips/learn/高压力锅.md)\n- 教程中的番茄去皮方式是目前为止本人实践最快的方式\n- 绝对不用番茄酱和少加佐料，尽可能还原食材的原味\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+            ],
+            "rawExcerpt": "# 西红柿牛腩的做法\n\n西红柿牛腩汤汁浓厚酸甜可口，牛肉软绵醇香，是道开胃下饭的家常菜。富含蛋白质、维生素和番茄红素，营养均衡。对新手有一定挑战，需要掌握炖肉火候和番茄炒汁的技巧。一般初学者大约需要 90 分钟完成。\n\n预估烹饪难度：★★★★★\n\n预估卡路里：1569 大卡\n\n## 必备原料和工具\n\n* 西红柿\n* 牛腩\n* 燃气灶（西红柿去皮用）\n* 高压锅/砂锅/普通铝锅（铁锅）\n* 2cm 两段葱段、两片姜片，葱花、姜各 10g\n* 生抽、白胡椒粉，白糖，料/黄酒，八角三小片\n* 牛腩（挑选肥瘦相间的口感比较好）\n\n## 计算\n\n每份：\n\n- 西红柿 3-4 个（每个约 200g）\n- 牛腩 500g\n- 食用油 20-30ml\n\n## 操作\n\n1. 牛腩切条、切块成长宽高均 2cm ，冷水下锅，开锅煮制 2 分钟去除血水，捞出冲洗干净\n2. 另起锅 2L 水烧开，加入 2cm 两段葱段、两片姜片、八角、料/黄酒 5-10ml，放入焯好的牛肉，盖盖炖制（砂锅 1 小时，高压锅炖肉模式 45 分钟），筷子能轻松插透就证明炖好了\n3. 西红柿去皮：西红柿头部滑十字至腰线，筷子/刀叉从果蒂捅入，煤气灶小火，一边转动一边烤，及时拿下来查看，起皮后撕下来，切块。越小越好\n\n  - 撕皮小心烫，去皮后的西红柿特别滑，慢切注意安全\n\n4. 起锅烧油，油温 7 成热，葱、姜各 10g，番茄下锅，炒透炒出番茄红色，加入煮好的牛腩和原汤，原汤刚刚没过牛肉即可\n5. 根据个人口味放入盐、糖、生抽调味盖盖\n6. 开锅后大火继续炒制 3-5 分钟\n7. 待番茄汁呈中等粘稠程度后关火，散入葱花，盛盘\n\n## 附加内容\n\n- 用火注意安全、用火注意安全、用火注意安全\n- 用砂锅/铝锅炖肉时，水开后转中小火/小火，使用高压锅见[学习使用压力锅](./../../../tips/learn/高压力锅.md)\n- 教程中的番茄去皮方式是目前为止本人实践最快的方式\n- 绝对不用番茄酱和少加佐料，尽可能还原食材的原味\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n"
+          }
+        ],
+        "sourceMode": "single_source",
+        "singleSourceReason": "User explicitly directed exclusive HowToCook source and exact upstream transcription.",
+        "selectedSourceUrl": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/meat_dish/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E7%89%9B%E8%85%A9/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E7%89%9B%E8%85%A9.md",
+        "selectionReason": "西红柿与番茄同义，同菜。",
+        "ragEvidence": [
+          {
+            "chunkId": "ab6a0760-528e-42d2-b01c-2e809327749b",
+            "documentId": "b089f530-1fda-4adf-8d78-df84b24113c0",
+            "sourceName": "HowToCook",
+            "chunkType": "ingredients",
+            "content": "菜名：番茄牛腩\n- 西红柿 3-4 个（每个约 200g）\n- 牛腩 500g\n- 食用油 20-30ml\n- 2cm 两段葱段、两片姜片，葱花、姜各 10g\n- 2cm 两段葱段、两片姜片，葱花、姜各 10g\n- 生抽、白胡椒粉，白糖，料/黄酒，八角三小片\n- 生抽、白胡椒粉，白糖，料/黄酒，八角三小片\n- 生抽、白胡椒粉，白糖，料/黄酒，八角三小片\n- 生抽、白胡椒粉，白糖，料/黄酒，八角三小片\n- 生抽、白胡椒粉，白糖，料/黄酒，八角三小片\n- 根据个人口味放入盐、糖、生抽调味盖盖\n- 牛腩切条、切块成长宽高均 2cm ，冷水下锅，开锅煮制 2 分钟去除血水，捞出冲洗干净",
+            "similarity": 0.73218952599012
+          },
+          {
+            "chunkId": "e54f6e8c-2589-461e-9189-9dfcba03a152",
+            "documentId": "b089f530-1fda-4adf-8d78-df84b24113c0",
+            "sourceName": "HowToCook",
+            "chunkType": "steps",
+            "content": "菜名：番茄牛腩\n1. 牛腩切条、切块成长宽高均 2cm ，冷水下锅，开锅煮制 2 分钟去除血水，捞出冲洗干净\n2. 另起锅 2L 水烧开，加入 2cm 两段葱段、两片姜片、八角、料/黄酒 5-10ml，放入焯好的牛肉，盖盖炖制（砂锅 1 小时，高压锅炖肉模式 45 分钟），筷子能轻松插透就证明炖好了\n3. 西红柿去皮：西红柿头部滑十字至腰线，筷子/刀叉从果蒂捅入，煤气灶小火，一边转动一边烤，及时拿下来查看，起皮后撕下来，切块。越小越好 - 撕皮小心烫，去皮后的西红柿特别滑，慢切注意安全\n4. 起锅烧油，油温 7 成热，葱、姜各 10g，番茄下锅，炒透炒出番茄红色，加入煮好的牛腩和原汤，原汤刚刚没过牛肉即可\n5. 根据个人口味放入盐、糖、生抽调味盖盖\n6. 开锅后大火继续炒制 3-5 分钟\n7. 待番茄汁呈中等粘稠程度后关火，散入葱花，盛盘",
+            "similarity": 0.726016369583179
+          },
+          {
+            "chunkId": "789faf33-7ac1-4c51-bbe7-4650db00bafb",
+            "documentId": "b089f530-1fda-4adf-8d78-df84b24113c0",
+            "sourceName": "HowToCook",
+            "chunkType": "summary",
+            "content": "菜名：番茄牛腩\n别名：西红柿牛腩\n简介：# 西红柿牛腩的做法 西红柿牛腩汤汁浓厚酸甜可口，牛肉软绵醇香，是道开胃下饭的家常菜。富含蛋白质、维生素和番茄红素，营养均衡。对新手有一定挑战，需要掌握炖肉火候和番茄炒汁的技巧。一般初学者大约需要 90 分钟完成。 预估烹饪难度：★★★★★ 预估卡路里：1569 大卡",
+            "similarity": 0.716892123222372
+          },
+          {
+            "chunkId": "d6520c00-4b51-40ff-b57b-a84e35d9d428",
+            "documentId": "b089f530-1fda-4adf-8d78-df84b24113c0",
+            "sourceName": "HowToCook",
+            "chunkType": "technique",
+            "content": "菜名：番茄牛腩\n- 每份： - 西红柿 3-4 个（每个约 200g） - 牛腩 500g - 食用油 20-30ml",
+            "similarity": 0.696460568482949
+          },
+          {
+            "chunkId": "f33bdf6e-01a6-43a9-bb22-7c616ce946a9",
+            "documentId": "b089f530-1fda-4adf-8d78-df84b24113c0",
+            "sourceName": "HowToCook",
+            "chunkType": "tips",
+            "content": "菜名：番茄牛腩\n- - 用火注意安全、用火注意安全、用火注意安全 - 用砂锅/铝锅炖肉时，水开后转中小火/小火，使用高压锅见[学习使用压力锅](./../../../tips/learn/高压力锅.md) - 教程中的番茄去皮方式是目前为止本人实践最快的方式 - 绝对不用番茄酱和少加佐料，尽可能还原食材的原味 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。",
+            "similarity": 0.694844328742548
+          }
+        ],
+        "notes": [
+          "用户明确要求仅用 HowToCook，原文完整转录；complete=true 表示上游文档完整抓取，不表示烹饪参数无遗漏。",
+          "Source limitations: 本上游菜谱无图片，按用户要求不补造图片。 原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。",
+          "GitHub commit a2d45c6984dff9ee941da0e7c452f7965965d962; path dishes/meat_dish/西红柿牛腩/西红柿牛腩.md",
+          "媒体按原文位置保留；未要求映射的照片不伪称步骤图。",
+          "Existing exact-name knowledge-base documents checked before source fetching: 0"
+        ]
+      },
+      "ingestion": {
+        "ok": true,
+        "documentId": "b089f530-1fda-4adf-8d78-df84b24113c0",
+        "entityId": "29a1833a-c8e0-4245-a7bc-18e28a0614fe",
+        "deduplicated": false,
+        "embedded": true,
+        "chunkCount": 5,
+        "model": "voyage-4",
+        "dimension": 1024,
+        "semanticCount": 5,
+        "hybridCount": 5,
+        "supersededDocumentIds": [],
+        "excludedFromSemantic": true,
+        "excludedFromHybrid": true
+      }
+    },
+    {
+      "recipeId": "cn-060",
+      "recipeName": "银耳莲子羹",
+      "category": "chinese",
+      "status": "matched",
+      "path": "dishes/soup/银耳莲子粥/银耳莲子粥.md",
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。",
+      "matchReason": "原名银耳莲子粥，材料不含米或谷物，实际为银耳莲子甜羹；保留原题。",
+      "upstreamName": "银耳莲子粥",
+      "rawMarkdown": "# 银耳莲子粥的做法\n\n![银耳莲子粥](./银耳莲子粥.png)\n\n银耳莲子粥清甜润滑，银耳软糯、莲子绵密，是常见的滋补粥品。富含天然胶质、膳食纤维及多种微量元素，有助养心安神。制作需经历浸泡和慢熬，对新手的耐心是个考验，全程大约需要 3.5 小时。\n\n预估烹饪难度：★★★★\n\n预估卡路里：282 大卡\n\n## 必备原料和工具\n\n- 银耳\n- 去心莲子\n- 红枣\n- 枸杞（可选）\n- 冰糖\n\n## 计算\n\n按照 1 人的份量：\n\n- 银耳 60g\n- 去心莲子 20g\n- 红枣 6g\n- 枸杞 5-6g\n- 冰糖 10-20g\n\n## 操作\n\n1. 把银耳、莲子用清水浸泡 2 个小时，红枣浸泡 10 - 20 分钟，枸杞洗净，备用\n2. 在锅中倒入 600ml 水，烧开后依次放入银耳、莲子、红枣\n3. 等待水再次烧开后，盖上锅盖，转至中火继续熬\n4. 熬到大约 1 小时后，放入 5g - 10g 冰糖和 5g - 6g 枸杞，转至小火熬\n5. 小火继续熬 30 分钟，此时银耳开始呈现粘稠状态\n6. 再次放入 5g - 10g 冰糖，用勺子搅拌 5 - 10 分钟\n7. 关火，用勺子盛出\n\n## 附加内容\n\n- 当银耳呈现粘稠状态时，需要用勺子及时搅拌，防止银耳糊在锅底\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+      "sha256": "26b2d70247e989e283a21319280f9f2e38bab15b21be2019127717cf6235d404",
+      "sections": [
+        {
+          "title": "银耳莲子粥的做法",
+          "markdown": "\n![银耳莲子粥](./银耳莲子粥.png)\n\n银耳莲子粥清甜润滑，银耳软糯、莲子绵密，是常见的滋补粥品。富含天然胶质、膳食纤维及多种微量元素，有助养心安神。制作需经历浸泡和慢熬，对新手的耐心是个考验，全程大约需要 3.5 小时。\n\n预估烹饪难度：★★★★\n\n预估卡路里：282 大卡\n\n",
+          "level": 1
+        },
+        {
+          "title": "必备原料和工具",
+          "markdown": "\n- 银耳\n- 去心莲子\n- 红枣\n- 枸杞（可选）\n- 冰糖\n\n",
+          "level": 2
+        },
+        {
+          "title": "计算",
+          "markdown": "\n按照 1 人的份量：\n\n- 银耳 60g\n- 去心莲子 20g\n- 红枣 6g\n- 枸杞 5-6g\n- 冰糖 10-20g\n\n",
+          "level": 2
+        },
+        {
+          "title": "操作",
+          "markdown": "\n1. 把银耳、莲子用清水浸泡 2 个小时，红枣浸泡 10 - 20 分钟，枸杞洗净，备用\n2. 在锅中倒入 600ml 水，烧开后依次放入银耳、莲子、红枣\n3. 等待水再次烧开后，盖上锅盖，转至中火继续熬\n4. 熬到大约 1 小时后，放入 5g - 10g 冰糖和 5g - 6g 枸杞，转至小火熬\n5. 小火继续熬 30 分钟，此时银耳开始呈现粘稠状态\n6. 再次放入 5g - 10g 冰糖，用勺子搅拌 5 - 10 分钟\n7. 关火，用勺子盛出\n\n",
+          "level": 2
+        },
+        {
+          "title": "附加内容",
+          "markdown": "\n- 当银耳呈现粘稠状态时，需要用勺子及时搅拌，防止银耳糊在锅底\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+          "level": 2
+        }
+      ],
+      "images": [
+        {
+          "originalReference": "./银耳莲子粥.png",
+          "originalUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/soup/%E9%93%B6%E8%80%B3%E8%8E%B2%E5%AD%90%E7%B2%A5/%E9%93%B6%E8%80%B3%E8%8E%B2%E5%AD%90%E7%B2%A5.png",
+          "path": "assets/dishes/howtocook/cn-060/1.png",
+          "alt": "银耳莲子粥",
+          "pageOrder": 1,
+          "adjacentText": "# 银耳莲子粥的做法\n\n![银耳莲子粥](./银耳莲子粥.png)\n\n银耳莲子粥清甜润滑，银耳软糯、莲子绵密，是常见的滋补粥品。富含天然胶质、膳食纤维及多种微量元素，有助养心安神。制作需经历浸泡和慢熬，对新手的耐心是个考验，全程大约需要 3.5 小时。\n\n预估烹饪难度：★★★★\n\n预估卡路里：282 大卡\n\n## 必备原料和工具\n\n- 银耳\n- 去心莲子\n- 红枣\n- 枸杞（可选）\n- 冰糖\n\n## 计算\n\n按照 1 人的"
+        }
+      ],
+      "limitations": [
+        "原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。"
+      ],
+      "introduction": "# 银耳莲子粥的做法\n\n![银耳莲子粥](./银耳莲子粥.png)\n\n银耳莲子粥清甜润滑，银耳软糯、莲子绵密，是常见的滋补粥品。富含天然胶质、膳食纤维及多种微量元素，有助养心安神。制作需经历浸泡和慢熬，对新手的耐心是个考验，全程大约需要 3.5 小时。\n\n预估烹饪难度：★★★★\n\n预估卡路里：282 大卡\n\n",
+      "evidence": {
+        "recipeId": "cn-060",
+        "recipeName": "银耳莲子羹",
+        "category": "chinese",
+        "createdAt": "2026-10-08T07:19:16.258364+00:00",
+        "sources": [
+          {
+            "sourceName": "HowToCook",
+            "sourceType": "website",
+            "url": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/soup/%E9%93%B6%E8%80%B3%E8%8E%B2%E5%AD%90%E7%B2%A5/%E9%93%B6%E8%80%B3%E8%8E%B2%E5%AD%90%E7%B2%A5.md",
+            "documentId": "5f0c49d0-41a8-4e90-8e2c-a71b48a2e160",
+            "retrievalMethod": "GitHub immutable raw Markdown via configured local HTTP proxy; no access-control bypass",
+            "complete": true,
+            "ingredients": [
+              {
+                "name": "银耳",
+                "raw": "银耳 60g",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "去心莲子",
+                "raw": "去心莲子 20g",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "红枣",
+                "raw": "红枣 6g",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "枸杞",
+                "raw": "枸杞 5-6g",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "冰糖",
+                "raw": "冰糖 10-20g",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "水",
+                "raw": "把银耳、莲子用清水浸泡 2 个小时，红枣浸泡 10 - 20 分钟，枸杞洗净，备用",
+                "amount": null,
+                "sourceSection": "操作/附加内容"
+              }
+            ],
+            "steps": [
+              {
+                "order": 1,
+                "instruction": "把银耳、莲子用清水浸泡 2 个小时，红枣浸泡 10 - 20 分钟，枸杞洗净，备用",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 1
+              },
+              {
+                "order": 2,
+                "instruction": "在锅中倒入 600ml 水，烧开后依次放入银耳、莲子、红枣",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 2
+              },
+              {
+                "order": 3,
+                "instruction": "等待水再次烧开后，盖上锅盖，转至中火继续熬",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 3
+              },
+              {
+                "order": 4,
+                "instruction": "熬到大约 1 小时后，放入 5g - 10g 冰糖和 5g - 6g 枸杞，转至小火熬",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 4
+              },
+              {
+                "order": 5,
+                "instruction": "小火继续熬 30 分钟，此时银耳开始呈现粘稠状态",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 5
+              },
+              {
+                "order": 6,
+                "instruction": "再次放入 5g - 10g 冰糖，用勺子搅拌 5 - 10 分钟",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 6
+              },
+              {
+                "order": 7,
+                "instruction": "关火，用勺子盛出",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 7
+              }
+            ],
+            "technique": [
+              "按照 1 人的份量：\n\n- 银耳 60g\n- 去心莲子 20g\n- 红枣 6g\n- 枸杞 5-6g\n- 冰糖 10-20g"
+            ],
+            "tips": [
+              "- 当银耳呈现粘稠状态时，需要用勺子及时搅拌，防止银耳糊在锅底\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+            ],
+            "rawExcerpt": "# 银耳莲子粥的做法\n\n![银耳莲子粥](./银耳莲子粥.png)\n\n银耳莲子粥清甜润滑，银耳软糯、莲子绵密，是常见的滋补粥品。富含天然胶质、膳食纤维及多种微量元素，有助养心安神。制作需经历浸泡和慢熬，对新手的耐心是个考验，全程大约需要 3.5 小时。\n\n预估烹饪难度：★★★★\n\n预估卡路里：282 大卡\n\n## 必备原料和工具\n\n- 银耳\n- 去心莲子\n- 红枣\n- 枸杞（可选）\n- 冰糖\n\n## 计算\n\n按照 1 人的份量：\n\n- 银耳 60g\n- 去心莲子 20g\n- 红枣 6g\n- 枸杞 5-6g\n- 冰糖 10-20g\n\n## 操作\n\n1. 把银耳、莲子用清水浸泡 2 个小时，红枣浸泡 10 - 20 分钟，枸杞洗净，备用\n2. 在锅中倒入 600ml 水，烧开后依次放入银耳、莲子、红枣\n3. 等待水再次烧开后，盖上锅盖，转至中火继续熬\n4. 熬到大约 1 小时后，放入 5g - 10g 冰糖和 5g - 6g 枸杞，转至小火熬\n5. 小火继续熬 30 分钟，此时银耳开始呈现粘稠状态\n6. 再次放入 5g - 10g 冰糖，用勺子搅拌 5 - 10 分钟\n7. 关火，用勺子盛出\n\n## 附加内容\n\n- 当银耳呈现粘稠状态时，需要用勺子及时搅拌，防止银耳糊在锅底\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n"
+          }
+        ],
+        "sourceMode": "single_source",
+        "singleSourceReason": "User explicitly directed exclusive HowToCook source and exact upstream transcription.",
+        "selectedSourceUrl": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/soup/%E9%93%B6%E8%80%B3%E8%8E%B2%E5%AD%90%E7%B2%A5/%E9%93%B6%E8%80%B3%E8%8E%B2%E5%AD%90%E7%B2%A5.md",
+        "selectionReason": "原名银耳莲子粥，材料不含米或谷物，实际为银耳莲子甜羹；保留原题。",
+        "ragEvidence": [
+          {
+            "chunkId": "0633c180-81f3-4f3b-b26e-c31be6b2cddc",
+            "documentId": "5f0c49d0-41a8-4e90-8e2c-a71b48a2e160",
+            "sourceName": "HowToCook",
+            "chunkType": "tips",
+            "content": "菜名：银耳莲子羹\n- - 当银耳呈现粘稠状态时，需要用勺子及时搅拌，防止银耳糊在锅底 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。",
+            "similarity": 0.75480563909974
+          },
+          {
+            "chunkId": "494f0aa2-b60f-43af-b27e-2012e0f84c3d",
+            "documentId": "5f0c49d0-41a8-4e90-8e2c-a71b48a2e160",
+            "sourceName": "HowToCook",
+            "chunkType": "steps",
+            "content": "菜名：银耳莲子羹\n1. 把银耳、莲子用清水浸泡 2 个小时，红枣浸泡 10 - 20 分钟，枸杞洗净，备用\n2. 在锅中倒入 600ml 水，烧开后依次放入银耳、莲子、红枣\n3. 等待水再次烧开后，盖上锅盖，转至中火继续熬\n4. 熬到大约 1 小时后，放入 5g - 10g 冰糖和 5g - 6g 枸杞，转至小火熬\n5. 小火继续熬 30 分钟，此时银耳开始呈现粘稠状态\n6. 再次放入 5g - 10g 冰糖，用勺子搅拌 5 - 10 分钟\n7. 关火，用勺子盛出",
+            "similarity": 0.725357949733734
+          },
+          {
+            "chunkId": "63efbba1-56ec-49b3-b1ad-93a84fa5a4ea",
+            "documentId": "5f0c49d0-41a8-4e90-8e2c-a71b48a2e160",
+            "sourceName": "HowToCook",
+            "chunkType": "summary",
+            "content": "菜名：银耳莲子羹\n别名：银耳莲子粥\n简介：# 银耳莲子粥的做法 ![银耳莲子粥](./银耳莲子粥.png) 银耳莲子粥清甜润滑，银耳软糯、莲子绵密，是常见的滋补粥品。富含天然胶质、膳食纤维及多种微量元素，有助养心安神。制作需经历浸泡和慢熬，对新手的耐心是个考验，全程大约需要 3.5 小时。 预估烹饪难度：★★★★ 预估卡路里：282 大卡",
+            "similarity": 0.716090266355005
+          },
+          {
+            "chunkId": "4055cb00-a9e9-40d8-b32a-7622fdfd5693",
+            "documentId": "5f0c49d0-41a8-4e90-8e2c-a71b48a2e160",
+            "sourceName": "HowToCook",
+            "chunkType": "ingredients",
+            "content": "菜名：银耳莲子羹\n- 银耳 60g\n- 去心莲子 20g\n- 红枣 6g\n- 枸杞 5-6g\n- 冰糖 10-20g\n- 把银耳、莲子用清水浸泡 2 个小时，红枣浸泡 10 - 20 分钟，枸杞洗净，备用",
+            "similarity": 0.715219378471375
+          },
+          {
+            "chunkId": "d3645966-16da-48fa-8f15-709f4059d6f7",
+            "documentId": "5f0c49d0-41a8-4e90-8e2c-a71b48a2e160",
+            "sourceName": "HowToCook",
+            "chunkType": "technique",
+            "content": "菜名：银耳莲子羹\n- 按照 1 人的份量： - 银耳 60g - 去心莲子 20g - 红枣 6g - 枸杞 5-6g - 冰糖 10-20g",
+            "similarity": 0.702322721481323
+          }
+        ],
+        "notes": [
+          "用户明确要求仅用 HowToCook，原文完整转录；complete=true 表示上游文档完整抓取，不表示烹饪参数无遗漏。",
+          "Source limitations: 原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。",
+          "GitHub commit a2d45c6984dff9ee941da0e7c452f7965965d962; path dishes/soup/银耳莲子粥/银耳莲子粥.md",
+          "媒体按原文位置保留；未要求映射的照片不伪称步骤图。",
+          "Existing exact-name knowledge-base documents checked before source fetching: 0"
+        ]
+      },
+      "ingestion": {
+        "ok": true,
+        "documentId": "5f0c49d0-41a8-4e90-8e2c-a71b48a2e160",
+        "entityId": "bc4b6cd7-1afa-4c86-9411-784dc456b652",
+        "deduplicated": false,
+        "embedded": true,
+        "chunkCount": 5,
+        "model": "voyage-4",
+        "dimension": 1024,
+        "semanticCount": 5,
+        "hybridCount": 5,
+        "supersededDocumentIds": [],
+        "excludedFromSemantic": true,
+        "excludedFromHybrid": true
+      }
+    },
+    {
+      "recipeId": "west-010",
+      "recipeName": "香草烤鸡",
+      "category": "western",
+      "status": "matched",
+      "path": "dishes/meat_dish/意式烤鸡.md",
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。",
+      "matchReason": "鸡腿肉配欧芹香草的意式烤鸡，对应香草烤鸡；保留上游原名与具体配方。",
+      "upstreamName": "意式烤鸡",
+      "rawMarkdown": "# 意式烤鸡的做法\n\n意式烤鸡是一道带有地中海风味的家常烤箱菜。鸡腿肉经过蒜香橄榄油腌制，烤后外皮微焦、内里鲜嫩多汁，搭配柠檬汁和欧芹，口感清爽不腻。鸡肉富含优质蛋白质，橄榄油提供不饱和脂肪酸，营养均衡。制作难度适中，需要提前预热烤箱，新手跟着步骤也能顺利完成，从腌制到出炉总计约五十分钟。\n\n预估烹饪难度：★★★\n\n预估卡路里：315 大卡\n\n## 必备原料和工具\n\n- 鸡腿肉\n- 盐\n- 黑胡椒\n- 橄榄油\n- 蒜\n- 柠檬汁\n- 欧芹\n\n## 计算\n\n- 鸡腿肉用量通常来说为 1-2 个/人\n- 盐用量为 2 g/人\n- 黑胡椒用量为 0.5 g/人\n- 橄榄油用量为 5 ml/人\n- 蒜用量为 1 瓣/人\n- 柠檬汁用量为 5ml/人\n- 欧芹用量为 1 根/人\n\n使用上述条件，计算出计划使用的原材料比例。\n\n## 操作\n\n### 鸡肉的预处理\n\n1. 鸡腿肉涂上盐、黑胡椒、橄榄油和蒜末\n2. 放入预热至 180 度的烤箱中，烤 30-40 分钟或至熟\n\n### 佐料的准备\n\n1. 欧芹切成碎末备用\n2. 柠檬挤出汁备用\n\n### 烤制\n\n1. 烤好的鸡肉取出，淋上柠檬汁\n2. 撒上欧芹碎即可\n\n## 附加内容\n\n- 烤制时可以将鸡肉淋上蜂蜜或其他烤肉酱提升口感\n- 烤箱预热至 180 度，烤制时间根据鸡肉的大小和厚度而定，需确保鸡肉熟透\n- 鸡肉必须全熟才能吃，吃未全熟的鸡肉可能会导致食物中毒和感染细菌，如沙门氏菌和福氏杆菌等。\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+      "sha256": "858f0a7409f90deb98cd61c34263c897f63e233a6104e5fc9dc3ba81f27a559c",
+      "sections": [
+        {
+          "title": "意式烤鸡的做法",
+          "markdown": "\n意式烤鸡是一道带有地中海风味的家常烤箱菜。鸡腿肉经过蒜香橄榄油腌制，烤后外皮微焦、内里鲜嫩多汁，搭配柠檬汁和欧芹，口感清爽不腻。鸡肉富含优质蛋白质，橄榄油提供不饱和脂肪酸，营养均衡。制作难度适中，需要提前预热烤箱，新手跟着步骤也能顺利完成，从腌制到出炉总计约五十分钟。\n\n预估烹饪难度：★★★\n\n预估卡路里：315 大卡\n\n",
+          "level": 1
+        },
+        {
+          "title": "必备原料和工具",
+          "markdown": "\n- 鸡腿肉\n- 盐\n- 黑胡椒\n- 橄榄油\n- 蒜\n- 柠檬汁\n- 欧芹\n\n",
+          "level": 2
+        },
+        {
+          "title": "计算",
+          "markdown": "\n- 鸡腿肉用量通常来说为 1-2 个/人\n- 盐用量为 2 g/人\n- 黑胡椒用量为 0.5 g/人\n- 橄榄油用量为 5 ml/人\n- 蒜用量为 1 瓣/人\n- 柠檬汁用量为 5ml/人\n- 欧芹用量为 1 根/人\n\n使用上述条件，计算出计划使用的原材料比例。\n\n",
+          "level": 2
+        },
+        {
+          "title": "操作",
+          "markdown": "\n",
+          "level": 2
+        },
+        {
+          "title": "鸡肉的预处理",
+          "markdown": "\n1. 鸡腿肉涂上盐、黑胡椒、橄榄油和蒜末\n2. 放入预热至 180 度的烤箱中，烤 30-40 分钟或至熟\n\n",
+          "level": 3
+        },
+        {
+          "title": "佐料的准备",
+          "markdown": "\n1. 欧芹切成碎末备用\n2. 柠檬挤出汁备用\n\n",
+          "level": 3
+        },
+        {
+          "title": "烤制",
+          "markdown": "\n1. 烤好的鸡肉取出，淋上柠檬汁\n2. 撒上欧芹碎即可\n\n",
+          "level": 3
+        },
+        {
+          "title": "附加内容",
+          "markdown": "\n- 烤制时可以将鸡肉淋上蜂蜜或其他烤肉酱提升口感\n- 烤箱预热至 180 度，烤制时间根据鸡肉的大小和厚度而定，需确保鸡肉熟透\n- 鸡肉必须全熟才能吃，吃未全熟的鸡肉可能会导致食物中毒和感染细菌，如沙门氏菌和福氏杆菌等。\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+          "level": 2
+        }
+      ],
+      "images": [],
+      "limitations": [
+        "本上游菜谱无图片，按用户要求不补造图片。",
+        "原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。"
+      ],
+      "introduction": "# 意式烤鸡的做法\n\n意式烤鸡是一道带有地中海风味的家常烤箱菜。鸡腿肉经过蒜香橄榄油腌制，烤后外皮微焦、内里鲜嫩多汁，搭配柠檬汁和欧芹，口感清爽不腻。鸡肉富含优质蛋白质，橄榄油提供不饱和脂肪酸，营养均衡。制作难度适中，需要提前预热烤箱，新手跟着步骤也能顺利完成，从腌制到出炉总计约五十分钟。\n\n预估烹饪难度：★★★\n\n预估卡路里：315 大卡\n\n",
+      "evidence": {
+        "recipeId": "west-010",
+        "recipeName": "香草烤鸡",
+        "category": "western",
+        "createdAt": "2026-10-08T07:19:16.258364+00:00",
+        "sources": [
+          {
+            "sourceName": "HowToCook",
+            "sourceType": "website",
+            "url": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/meat_dish/%E6%84%8F%E5%BC%8F%E7%83%A4%E9%B8%A1.md",
+            "documentId": "d911693b-0400-4b60-a49d-1053077523b9",
+            "retrievalMethod": "GitHub immutable raw Markdown via configured local HTTP proxy; no access-control bypass",
+            "complete": true,
+            "ingredients": [
+              {
+                "name": "鸡腿肉",
+                "raw": "鸡腿肉用量通常来说为 1-2 个/人",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "盐",
+                "raw": "盐用量为 2 g/人",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "黑胡椒",
+                "raw": "黑胡椒用量为 0.5 g/人",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "橄榄油",
+                "raw": "橄榄油用量为 5 ml/人",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "蒜",
+                "raw": "蒜用量为 1 瓣/人",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "柠檬汁",
+                "raw": "柠檬汁用量为 5ml/人",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "欧芹",
+                "raw": "欧芹用量为 1 根/人",
+                "amount": null,
+                "sourceSection": "计算"
+              },
+              {
+                "name": "蜂蜜",
+                "raw": "烤制时可以将鸡肉淋上蜂蜜或其他烤肉酱提升口感",
+                "amount": null,
+                "sourceSection": "操作/附加内容"
+              },
+              {
+                "name": "烤肉酱",
+                "raw": "烤制时可以将鸡肉淋上蜂蜜或其他烤肉酱提升口感",
+                "amount": null,
+                "sourceSection": "操作/附加内容"
+              }
+            ],
+            "steps": [
+              {
+                "order": 1,
+                "instruction": "鸡腿肉涂上盐、黑胡椒、橄榄油和蒜末",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 1
+              },
+              {
+                "order": 2,
+                "instruction": "放入预热至 180 度的烤箱中，烤 30-40 分钟或至熟\n\n### 佐料的准备",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 2
+              },
+              {
+                "order": 3,
+                "instruction": "欧芹切成碎末备用",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 1
+              },
+              {
+                "order": 4,
+                "instruction": "柠檬挤出汁备用\n\n### 烤制",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 2
+              },
+              {
+                "order": 5,
+                "instruction": "烤好的鸡肉取出，淋上柠檬汁",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 1
+              },
+              {
+                "order": 6,
+                "instruction": "撒上欧芹碎即可",
+                "duration": null,
+                "heat": null,
+                "sourceOrder": 2
+              }
+            ],
+            "technique": [
+              "- 鸡腿肉用量通常来说为 1-2 个/人\n- 盐用量为 2 g/人\n- 黑胡椒用量为 0.5 g/人\n- 橄榄油用量为 5 ml/人\n- 蒜用量为 1 瓣/人\n- 柠檬汁用量为 5ml/人\n- 欧芹用量为 1 根/人\n\n使用上述条件，计算出计划使用的原材料比例。"
+            ],
+            "tips": [
+              "- 烤制时可以将鸡肉淋上蜂蜜或其他烤肉酱提升口感\n- 烤箱预热至 180 度，烤制时间根据鸡肉的大小和厚度而定，需确保鸡肉熟透\n- 鸡肉必须全熟才能吃，吃未全熟的鸡肉可能会导致食物中毒和感染细菌，如沙门氏菌和福氏杆菌等。\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+            ],
+            "rawExcerpt": "# 意式烤鸡的做法\n\n意式烤鸡是一道带有地中海风味的家常烤箱菜。鸡腿肉经过蒜香橄榄油腌制，烤后外皮微焦、内里鲜嫩多汁，搭配柠檬汁和欧芹，口感清爽不腻。鸡肉富含优质蛋白质，橄榄油提供不饱和脂肪酸，营养均衡。制作难度适中，需要提前预热烤箱，新手跟着步骤也能顺利完成，从腌制到出炉总计约五十分钟。\n\n预估烹饪难度：★★★\n\n预估卡路里：315 大卡\n\n## 必备原料和工具\n\n- 鸡腿肉\n- 盐\n- 黑胡椒\n- 橄榄油\n- 蒜\n- 柠檬汁\n- 欧芹\n\n## 计算\n\n- 鸡腿肉用量通常来说为 1-2 个/人\n- 盐用量为 2 g/人\n- 黑胡椒用量为 0.5 g/人\n- 橄榄油用量为 5 ml/人\n- 蒜用量为 1 瓣/人\n- 柠檬汁用量为 5ml/人\n- 欧芹用量为 1 根/人\n\n使用上述条件，计算出计划使用的原材料比例。\n\n## 操作\n\n### 鸡肉的预处理\n\n1. 鸡腿肉涂上盐、黑胡椒、橄榄油和蒜末\n2. 放入预热至 180 度的烤箱中，烤 30-40 分钟或至熟\n\n### 佐料的准备\n\n1. 欧芹切成碎末备用\n2. 柠檬挤出汁备用\n\n### 烤制\n\n1. 烤好的鸡肉取出，淋上柠檬汁\n2. 撒上欧芹碎即可\n\n## 附加内容\n\n- 烤制时可以将鸡肉淋上蜂蜜或其他烤肉酱提升口感\n- 烤箱预热至 180 度，烤制时间根据鸡肉的大小和厚度而定，需确保鸡肉熟透\n- 鸡肉必须全熟才能吃，吃未全熟的鸡肉可能会导致食物中毒和感染细菌，如沙门氏菌和福氏杆菌等。\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n"
+          }
+        ],
+        "sourceMode": "single_source",
+        "singleSourceReason": "User explicitly directed exclusive HowToCook source and exact upstream transcription.",
+        "selectedSourceUrl": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/meat_dish/%E6%84%8F%E5%BC%8F%E7%83%A4%E9%B8%A1.md",
+        "selectionReason": "鸡腿肉配欧芹香草的意式烤鸡，对应香草烤鸡；保留上游原名与具体配方。",
+        "ragEvidence": [
+          {
+            "chunkId": "06e1c1a3-c4bc-4ec6-8bab-8bef4a5bd08a",
+            "documentId": "d911693b-0400-4b60-a49d-1053077523b9",
+            "sourceName": "HowToCook",
+            "chunkType": "tips",
+            "content": "菜名：香草烤鸡\n- - 烤制时可以将鸡肉淋上蜂蜜或其他烤肉酱提升口感 - 烤箱预热至 180 度，烤制时间根据鸡肉的大小和厚度而定，需确保鸡肉熟透 - 鸡肉必须全熟才能吃，吃未全熟的鸡肉可能会导致食物中毒和感染细菌，如沙门氏菌和福氏杆菌等。 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。",
+            "similarity": 0.738773829231307
+          },
+          {
+            "chunkId": "eb6be3db-6c16-4014-babd-60c8cb1713ea",
+            "documentId": "d911693b-0400-4b60-a49d-1053077523b9",
+            "sourceName": "HowToCook",
+            "chunkType": "summary",
+            "content": "菜名：香草烤鸡\n别名：意式烤鸡\n简介：# 意式烤鸡的做法 意式烤鸡是一道带有地中海风味的家常烤箱菜。鸡腿肉经过蒜香橄榄油腌制，烤后外皮微焦、内里鲜嫩多汁，搭配柠檬汁和欧芹，口感清爽不腻。鸡肉富含优质蛋白质，橄榄油提供不饱和脂肪酸，营养均衡。制作难度适中，需要提前预热烤箱，新手跟着步骤也能顺利完成，从腌制到出炉总计约五十分钟。 预估烹饪难度：★★★ 预估卡路里：315 大卡",
+            "similarity": 0.664255837455741
+          },
+          {
+            "chunkId": "6b391d7b-eafe-4bb7-b0c5-8ee7f040a7eb",
+            "documentId": "d911693b-0400-4b60-a49d-1053077523b9",
+            "sourceName": "HowToCook",
+            "chunkType": "steps",
+            "content": "菜名：香草烤鸡\n1. 鸡腿肉涂上盐、黑胡椒、橄榄油和蒜末\n2. 放入预热至 180 度的烤箱中，烤 30-40 分钟或至熟 ### 佐料的准备\n3. 欧芹切成碎末备用\n4. 柠檬挤出汁备用 ### 烤制\n5. 烤好的鸡肉取出，淋上柠檬汁\n6. 撒上欧芹碎即可",
+            "similarity": 0.663132131099706
+          },
+          {
+            "chunkId": "7a2fcde0-2879-4603-ac8d-47bfffc5ba3e",
+            "documentId": "d911693b-0400-4b60-a49d-1053077523b9",
+            "sourceName": "HowToCook",
+            "chunkType": "ingredients",
+            "content": "菜名：香草烤鸡\n- 鸡腿肉用量通常来说为 1-2 个/人\n- 盐用量为 2 g/人\n- 黑胡椒用量为 0.5 g/人\n- 橄榄油用量为 5 ml/人\n- 蒜用量为 1 瓣/人\n- 柠檬汁用量为 5ml/人\n- 欧芹用量为 1 根/人\n- 烤制时可以将鸡肉淋上蜂蜜或其他烤肉酱提升口感\n- 烤制时可以将鸡肉淋上蜂蜜或其他烤肉酱提升口感",
+            "similarity": 0.654707690792828
+          },
+          {
+            "chunkId": "0f87a9ab-5cbf-4557-9fc0-f769c691d781",
+            "documentId": "d911693b-0400-4b60-a49d-1053077523b9",
+            "sourceName": "HowToCook",
+            "chunkType": "technique",
+            "content": "菜名：香草烤鸡\n- - 鸡腿肉用量通常来说为 1-2 个/人 - 盐用量为 2 g/人 - 黑胡椒用量为 0.5 g/人 - 橄榄油用量为 5 ml/人 - 蒜用量为 1 瓣/人 - 柠檬汁用量为 5ml/人 - 欧芹用量为 1 根/人 使用上述条件，计算出计划使用的原材料比例。",
+            "similarity": 0.596715092659001
+          }
+        ],
+        "notes": [
+          "用户明确要求仅用 HowToCook，原文完整转录；complete=true 表示上游文档完整抓取，不表示烹饪参数无遗漏。",
+          "Source limitations: 本上游菜谱无图片，按用户要求不补造图片。 原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。",
+          "GitHub commit a2d45c6984dff9ee941da0e7c452f7965965d962; path dishes/meat_dish/意式烤鸡.md",
+          "媒体按原文位置保留；未要求映射的照片不伪称步骤图。",
+          "Existing exact-name knowledge-base documents checked before source fetching: 0"
+        ]
+      },
+      "ingestion": {
+        "ok": true,
+        "documentId": "d911693b-0400-4b60-a49d-1053077523b9",
+        "entityId": "9b48c281-3a13-4eba-99a0-5c2f55ed9ecd",
+        "deduplicated": false,
+        "embedded": true,
+        "chunkCount": 5,
+        "model": "voyage-4",
+        "dimension": 1024,
+        "semanticCount": 5,
+        "hybridCount": 5,
+        "supersededDocumentIds": [],
+        "excludedFromSemantic": true,
+        "excludedFromHybrid": true
+      }
+    }
+  ]
+}

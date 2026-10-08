@@ -1,0 +1,22 @@
+{
+  "status": "FAIL",
+  "issues": [
+    {
+      "field": "generated.ingredients[11].name",
+      "message": "现磨肉豆蔻粉一撮将数量包含在身份中。"
+    },
+    {
+      "field": "generated.steps[2].heat",
+      "message": "调低火力误作固定小火。"
+    }
+  ],
+  "summary": "新增位置、同源忠实性、产量时长及成品图授权正确，但生成语义/渲染须修正。",
+  "evidencePackageHash": "2962d67a9345eed68c708a7495a219ac0cf6a0d91ae017d75284376482e46ecd",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": false,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": false
+  }
+}

@@ -1,0 +1,331 @@
+{
+  "recipeId": "cn-030",
+  "record": {
+    "name": "蚂蚁上树",
+    "en": "Minced Pork with Glass Noodles",
+    "region": "川菜",
+    "ingredients": "红薯粉丝80克（干重）；猪肉末150克；郫县豆瓣酱15克；生抽10毫升（可根据口味酌情减少）；老抽5毫升；食用油10毫升；蒜末10克；姜末5克；清水300毫升（煮粉丝用）；水适量（泡粉丝用，原文未注明用量）；小葱适量（可选，原文未注明用量）；白胡椒粉0.5克（可选）",
+    "steps": "1）红薯粉丝提前泡软，泡水时间为 20 分钟，备用。2）将蒜、姜分别剁碎，备用。3）锅烧热，加入 10ml 食用油，加入蒜末、姜末炒香。4）加入猪肉末翻炒至肉色发白且微微出油。5）加入郫县豆瓣酱，炒至红油析出。6）加入生抽和老抽，翻炒均匀。7）倒入 300ml 清水，煮沸。8）放入泡软沥干的粉丝，用筷子轻轻拨动防止粘连。9）中小火煮约 5 分钟，直至粉丝完全吸收汤汁、呈现微微收干状态。10）依据口味可撒入小葱末，关火装盘。",
+    "img": "40-mayi-shangshu.png",
+    "source": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/meat_dish/%E8%9A%82%E8%9A%81%E4%B8%8A%E6%A0%91.md",
+    "timing": {
+      "totalMinutes": 20
+    },
+    "servings": 2,
+    "howtocook": {
+      "commit": "a2d45c6984dff9ee941da0e7c452f7965965d962",
+      "path": "dishes/meat_dish/蚂蚁上树.md",
+      "sha256": "547feef7fc58df68756bac4e753ef9519e6f23426b734a90252f3f5cb4184e7e",
+      "rawMarkdown": "# 蚂蚁上树的做法\n\n蚂蚁上树是一道经典的川味家常菜，咸香微辣，粉丝软滑吸汁，肉末细嫩鲜香。以红薯粉丝和肉末为主料，富含碳水化合物与蛋白质，能快速补充能量。制作难度中等，步骤清晰，对新手比较友好，全程约需 20 分钟即可完成。\n\n预估烹饪难度：★★★\n\n预估卡路里：791 大卡\n\n## 必备原料和工具\n\n- 红薯粉丝\n- 猪肉末（或牛肉末）\n- 郫县豆瓣酱\n- 生抽\n- 老抽\n- 食用油\n- 蒜末、姜末\n- 小葱（可选）\n\n## 计算\n\n每次制作前需要确定计划做几份。一份正好够 2 个人吃。\n\n每份：\n\n- 红薯粉丝 80g（干重）\n- 猪肉末 150g\n- 郫县豆瓣酱 15g\n- 生抽 10ml\n- 老抽 5ml\n- 食用油 10ml\n- 蒜末 10g\n- 姜末 5g\n- 清水 300ml（用于煮粉丝）\n\n## 操作\n\n1. 红薯粉丝提前泡软，泡水时间为 20 分钟，备用\n2. 将蒜、姜分别剁碎，备用\n3. 锅烧热，加入 10ml 食用油，加入蒜末、姜末炒香\n4. 加入猪肉末翻炒至**肉色发白且微微出油**\n5. 加入郫县豆瓣酱，炒至**红油析出**\n6. 加入生抽和老抽，翻炒均匀\n7. 倒入 300ml 清水，煮沸\n8. 放入泡软沥干的粉丝，用筷子轻轻拨动防止粘连\n9. 中小火煮约 5 分钟，直至粉丝**完全吸收汤汁**、呈现微微收干状态\n10. 依据口味可撒入小葱末，关火装盘\n\n## 附加内容\n\n- 粉丝不建议煮太久，易断且口感变差；若时间过长汤汁应适当减少\n- 郫县豆瓣酱含盐量较高，可根据口味酌情减少生抽用量\n- 可加入 0.5g 白胡椒粉调味，风味更佳\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+      "sections": [
+        {
+          "title": "蚂蚁上树的做法",
+          "markdown": "\n蚂蚁上树是一道经典的川味家常菜，咸香微辣，粉丝软滑吸汁，肉末细嫩鲜香。以红薯粉丝和肉末为主料，富含碳水化合物与蛋白质，能快速补充能量。制作难度中等，步骤清晰，对新手比较友好，全程约需 20 分钟即可完成。\n\n预估烹饪难度：★★★\n\n预估卡路里：791 大卡\n\n",
+          "level": 1
+        },
+        {
+          "title": "必备原料和工具",
+          "markdown": "\n- 红薯粉丝\n- 猪肉末（或牛肉末）\n- 郫县豆瓣酱\n- 生抽\n- 老抽\n- 食用油\n- 蒜末、姜末\n- 小葱（可选）\n\n",
+          "level": 2
+        },
+        {
+          "title": "计算",
+          "markdown": "\n每次制作前需要确定计划做几份。一份正好够 2 个人吃。\n\n每份：\n\n- 红薯粉丝 80g（干重）\n- 猪肉末 150g\n- 郫县豆瓣酱 15g\n- 生抽 10ml\n- 老抽 5ml\n- 食用油 10ml\n- 蒜末 10g\n- 姜末 5g\n- 清水 300ml（用于煮粉丝）\n\n",
+          "level": 2
+        },
+        {
+          "title": "操作",
+          "markdown": "\n1. 红薯粉丝提前泡软，泡水时间为 20 分钟，备用\n2. 将蒜、姜分别剁碎，备用\n3. 锅烧热，加入 10ml 食用油，加入蒜末、姜末炒香\n4. 加入猪肉末翻炒至**肉色发白且微微出油**\n5. 加入郫县豆瓣酱，炒至**红油析出**\n6. 加入生抽和老抽，翻炒均匀\n7. 倒入 300ml 清水，煮沸\n8. 放入泡软沥干的粉丝，用筷子轻轻拨动防止粘连\n9. 中小火煮约 5 分钟，直至粉丝**完全吸收汤汁**、呈现微微收干状态\n10. 依据口味可撒入小葱末，关火装盘\n\n",
+          "level": 2
+        },
+        {
+          "title": "附加内容",
+          "markdown": "\n- 粉丝不建议煮太久，易断且口感变差；若时间过长汤汁应适当减少\n- 郫县豆瓣酱含盐量较高，可根据口味酌情减少生抽用量\n- 可加入 0.5g 白胡椒粉调味，风味更佳\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+          "level": 2
+        }
+      ],
+      "images": []
+    },
+    "sourceLimitations": [
+      "本用量为原文一份，够2人食用。",
+      "简介写全程约20分钟，操作另写泡水20分钟及中小火煮约5分钟，存在原文总估计与分段时长不一致；总用时20分钟保留原简介约值，不自行合计。",
+      "泡粉丝的水及可选小葱未注明用量，不作定量补充。",
+      "必备原料列猪肉末或牛肉末，计算及操作采用猪肉末，保留该完整做法。",
+      "附加内容可选白胡椒粉0.5克，原文未说明添加时机，不新增操作。",
+      "上游无图片，保留的原有展示图不属于本次 HowToCook 来源图片。"
+    ]
+  },
+  "generated": {
+    "id": "cn-030",
+    "name": "蚂蚁上树",
+    "en": "Minced Pork with Glass Noodles",
+    "cuisine": "川菜",
+    "category": "中餐",
+    "isHeritageFlavor": false,
+    "heritageStatus": null,
+    "ingredients": [
+      {
+        "id": "ingredient-01",
+        "name": "红薯粉丝",
+        "label": "红薯粉丝80克（干重）",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-02",
+        "name": "猪肉末",
+        "label": "猪肉末150克",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-03",
+        "name": "郫县豆瓣酱",
+        "label": "郫县豆瓣酱15克",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-04",
+        "name": "生抽",
+        "label": "生抽10毫升（可根据口味酌情减少）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-05",
+        "name": "老抽",
+        "label": "老抽5毫升",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-06",
+        "name": "食用油",
+        "label": "食用油10毫升",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-07",
+        "name": "蒜末",
+        "label": "蒜末10克",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-08",
+        "name": "姜末",
+        "label": "姜末5克",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-09",
+        "name": "清水",
+        "label": "清水300毫升（煮粉丝用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-10",
+        "name": "水",
+        "label": "水适量（泡粉丝用，原文未注明用量）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-11",
+        "name": "小葱",
+        "label": "小葱适量（可选，原文未注明用量）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-12",
+        "name": "白胡椒粉",
+        "label": "白胡椒粉0.5克（可选）",
+        "isCore": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-01",
+        "instruction": "红薯粉丝提前泡软，泡水时间为 20 分钟，备用。",
+        "duration": 1200,
+        "heat": null,
+        "timerRequired": true,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-02",
+        "instruction": "将蒜、姜分别剁碎，备用。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-03",
+        "instruction": "锅烧热，加入 10ml 食用油，加入蒜末、姜末炒香。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-04",
+        "instruction": "加入猪肉末翻炒至肉色发白且微微出油。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-05",
+        "instruction": "加入郫县豆瓣酱，炒至红油析出。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-06",
+        "instruction": "加入生抽和老抽，翻炒均匀。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-07",
+        "instruction": "倒入 300ml 清水，煮沸。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-08",
+        "instruction": "放入泡软沥干的粉丝，用筷子轻轻拨动防止粘连。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-09",
+        "instruction": "中小火煮约 5 分钟，直至粉丝完全吸收汤汁、呈现微微收干状态。",
+        "duration": 300,
+        "heat": null,
+        "timerRequired": true,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-10",
+        "instruction": "依据口味可撒入小葱末，关火装盘。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      }
+    ],
+    "howtocook": {
+      "commit": "a2d45c6984dff9ee941da0e7c452f7965965d962",
+      "path": "dishes/meat_dish/蚂蚁上树.md",
+      "sha256": "547feef7fc58df68756bac4e753ef9519e6f23426b734a90252f3f5cb4184e7e",
+      "rawMarkdown": "# 蚂蚁上树的做法\n\n蚂蚁上树是一道经典的川味家常菜，咸香微辣，粉丝软滑吸汁，肉末细嫩鲜香。以红薯粉丝和肉末为主料，富含碳水化合物与蛋白质，能快速补充能量。制作难度中等，步骤清晰，对新手比较友好，全程约需 20 分钟即可完成。\n\n预估烹饪难度：★★★\n\n预估卡路里：791 大卡\n\n## 必备原料和工具\n\n- 红薯粉丝\n- 猪肉末（或牛肉末）\n- 郫县豆瓣酱\n- 生抽\n- 老抽\n- 食用油\n- 蒜末、姜末\n- 小葱（可选）\n\n## 计算\n\n每次制作前需要确定计划做几份。一份正好够 2 个人吃。\n\n每份：\n\n- 红薯粉丝 80g（干重）\n- 猪肉末 150g\n- 郫县豆瓣酱 15g\n- 生抽 10ml\n- 老抽 5ml\n- 食用油 10ml\n- 蒜末 10g\n- 姜末 5g\n- 清水 300ml（用于煮粉丝）\n\n## 操作\n\n1. 红薯粉丝提前泡软，泡水时间为 20 分钟，备用\n2. 将蒜、姜分别剁碎，备用\n3. 锅烧热，加入 10ml 食用油，加入蒜末、姜末炒香\n4. 加入猪肉末翻炒至**肉色发白且微微出油**\n5. 加入郫县豆瓣酱，炒至**红油析出**\n6. 加入生抽和老抽，翻炒均匀\n7. 倒入 300ml 清水，煮沸\n8. 放入泡软沥干的粉丝，用筷子轻轻拨动防止粘连\n9. 中小火煮约 5 分钟，直至粉丝**完全吸收汤汁**、呈现微微收干状态\n10. 依据口味可撒入小葱末，关火装盘\n\n## 附加内容\n\n- 粉丝不建议煮太久，易断且口感变差；若时间过长汤汁应适当减少\n- 郫县豆瓣酱含盐量较高，可根据口味酌情减少生抽用量\n- 可加入 0.5g 白胡椒粉调味，风味更佳\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+      "sections": [
+        {
+          "title": "蚂蚁上树的做法",
+          "markdown": "\n蚂蚁上树是一道经典的川味家常菜，咸香微辣，粉丝软滑吸汁，肉末细嫩鲜香。以红薯粉丝和肉末为主料，富含碳水化合物与蛋白质，能快速补充能量。制作难度中等，步骤清晰，对新手比较友好，全程约需 20 分钟即可完成。\n\n预估烹饪难度：★★★\n\n预估卡路里：791 大卡\n\n",
+          "level": 1
+        },
+        {
+          "title": "必备原料和工具",
+          "markdown": "\n- 红薯粉丝\n- 猪肉末（或牛肉末）\n- 郫县豆瓣酱\n- 生抽\n- 老抽\n- 食用油\n- 蒜末、姜末\n- 小葱（可选）\n\n",
+          "level": 2
+        },
+        {
+          "title": "计算",
+          "markdown": "\n每次制作前需要确定计划做几份。一份正好够 2 个人吃。\n\n每份：\n\n- 红薯粉丝 80g（干重）\n- 猪肉末 150g\n- 郫县豆瓣酱 15g\n- 生抽 10ml\n- 老抽 5ml\n- 食用油 10ml\n- 蒜末 10g\n- 姜末 5g\n- 清水 300ml（用于煮粉丝）\n\n",
+          "level": 2
+        },
+        {
+          "title": "操作",
+          "markdown": "\n1. 红薯粉丝提前泡软，泡水时间为 20 分钟，备用\n2. 将蒜、姜分别剁碎，备用\n3. 锅烧热，加入 10ml 食用油，加入蒜末、姜末炒香\n4. 加入猪肉末翻炒至**肉色发白且微微出油**\n5. 加入郫县豆瓣酱，炒至**红油析出**\n6. 加入生抽和老抽，翻炒均匀\n7. 倒入 300ml 清水，煮沸\n8. 放入泡软沥干的粉丝，用筷子轻轻拨动防止粘连\n9. 中小火煮约 5 分钟，直至粉丝**完全吸收汤汁**、呈现微微收干状态\n10. 依据口味可撒入小葱末，关火装盘\n\n",
+          "level": 2
+        },
+        {
+          "title": "附加内容",
+          "markdown": "\n- 粉丝不建议煮太久，易断且口感变差；若时间过长汤汁应适当减少\n- 郫县豆瓣酱含盐量较高，可根据口味酌情减少生抽用量\n- 可加入 0.5g 白胡椒粉调味，风味更佳\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+          "level": 2
+        }
+      ],
+      "images": [],
+      "difficultyStars": "★★★"
+    },
+    "sourceLimitations": [
+      "本用量为原文一份，够2人食用。",
+      "简介写全程约20分钟，操作另写泡水20分钟及中小火煮约5分钟，存在原文总估计与分段时长不一致；总用时20分钟保留原简介约值，不自行合计。",
+      "泡粉丝的水及可选小葱未注明用量，不作定量补充。",
+      "必备原料列猪肉末或牛肉末，计算及操作采用猪肉末，保留该完整做法。",
+      "附加内容可选白胡椒粉0.5克，原文未说明添加时机，不新增操作。",
+      "上游无图片，保留的原有展示图不属于本次 HowToCook 来源图片。"
+    ],
+    "imageThumb": "assets/dishes/thumbnails/40-mayi-shangshu.jpg",
+    "imageFull": "assets/dishes/ai/40-mayi-shangshu.png",
+    "source": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/meat_dish/%E8%9A%82%E8%9A%81%E4%B8%8A%E6%A0%91.md",
+    "time": 20,
+    "timeBasis": "source",
+    "difficulty": "适中",
+    "defaultServings": 2,
+    "servingsBasis": "source",
+    "allergens": [
+      "soy"
+    ],
+    "flags": {
+      "containsPork": true,
+      "containsBeef": false,
+      "containsAlcohol": false,
+      "spicy": false,
+      "vegetarian": false
+    },
+    "demoEnriched": true
+  },
+  "renderedIngredientRows": [
+    "红薯粉丝80克（干重）",
+    "猪肉末150克",
+    "郫县豆瓣酱15克",
+    "生抽10毫升（可根据口味酌情减少）",
+    "老抽5毫升",
+    "食用油10毫升",
+    "蒜末10克",
+    "姜末5克",
+    "清水300毫升（煮粉丝用）",
+    "水适量（泡粉丝用，原文未注明用量）",
+    "小葱适量（可选，原文未注明用量）",
+    "白胡椒粉0.5克（可选）"
+  ],
+  "renderedSteps": [
+    "红薯粉丝提前泡软，泡水时间为 20 分钟，备用。",
+    "将蒜、姜分别剁碎，备用。",
+    "锅烧热，加入 10ml 食用油，加入蒜末、姜末炒香。",
+    "加入猪肉末翻炒至肉色发白且微微出油。",
+    "加入郫县豆瓣酱，炒至红油析出。",
+    "加入生抽和老抽，翻炒均匀。",
+    "倒入 300ml 清水，煮沸。",
+    "放入泡软沥干的粉丝，用筷子轻轻拨动防止粘连。",
+    "中小火煮约 5 分钟，直至粉丝完全吸收汤汁、呈现微微收干状态。",
+    "依据口味可撒入小葱末，关火装盘。"
+  ]
+}

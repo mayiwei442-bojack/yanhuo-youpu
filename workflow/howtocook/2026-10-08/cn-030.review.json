@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "完整原文、10步、2人份及可选项保持一致；原文总用时与分段时长矛盾已披露；独立四项语言审查通过。",
+  "evidencePackageHash": "bc2d34f810f116e6bdee42055ea1b6548f2d6787b7c66b06e1670445fbd8593c",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

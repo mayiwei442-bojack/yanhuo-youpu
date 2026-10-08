@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "白洋葱身份规范，标签保留数量和替代。2人、熟练后15分钟、成品酱路线和8步一致，未指定肉种；6食材行及8步独立四项复审通过。",
+  "evidencePackageHash": "440457d44f92ebad3e9b9980fb05eb8954744c1e235ed4ca4a0502e4e303dee8",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

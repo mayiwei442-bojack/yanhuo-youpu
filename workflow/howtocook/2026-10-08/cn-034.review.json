@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "一人份、约10分钟及九步操作与原文一致；食用油总量10毫升与另加5毫升的关系已披露，未推算首次用量。五条食材行和九条步骤独立对抗语言审查通过。",
+  "evidencePackageHash": "663901dff427f49e6fa4ca3ae96b4b052dadfb136041a61d9cab0f88e3bd31c1",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

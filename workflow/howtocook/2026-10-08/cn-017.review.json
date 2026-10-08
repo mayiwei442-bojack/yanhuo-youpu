@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "第8步展示语法已修正，上游原文不变。来源、用量、顺序、计时、份数、原图及缺项披露通过；独立食材语义、步骤语法、标点与渲染结构复审均通过。",
+  "evidencePackageHash": "e10f698a38f2b6ed9471fc7fb94a0165204dd8d06f87cd8b1b82fc73f5fe79e6",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

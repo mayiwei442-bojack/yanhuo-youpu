@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "Quantities, divided garlic and spring onions, blanching and heat faithful; all ingredient and step language checks passed.",
+  "evidencePackageHash": "468d41476c810a861916788418da575499d9f0a5c41a0f4af8d0b746a8942495",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

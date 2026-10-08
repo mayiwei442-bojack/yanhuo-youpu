@@ -1,0 +1,339 @@
+{
+  "recipeId": "west-012",
+  "recipeName": "千层面",
+  "category": "western",
+  "createdAt": "2026-10-07T11:36:18Z",
+  "sourceMode": "single_source",
+  "singleSourceReason": "User explicitly selects Serious Eats and separately authorizes its linkedclassic meat sauce as a distinct new dish; reliable KB BBC version remains separate, not mixed.",
+  "selectedSourceUrl": "https://www.seriouseats.com/lasagna-bolognese-al-forno-recipe",
+  "selectionReason": "User-selected whole Serious Eats recipe with explicit component dependency and its own media.",
+  "sources": [
+    {
+      "sourceName": "Serious Eats",
+      "sourceType": "website",
+      "url": "https://www.seriouseats.com/lasagna-bolognese-al-forno-recipe",
+      "documentId": "59f561e7-5520-4137-ac4e-c657cadcae71",
+      "retrievalMethod": "Exact KB first; ordinary public web reader full recipe ingredients/instructions/timing and declared image captions; direct Node/PowerShell recipe GET402 recorded. Images ordinary PowerShell HEAD200. New operational-detail normalization awaiting parent ingestion.",
+      "complete": true,
+      "recipeDependencies": [
+        {
+          "recipeId": "west-031",
+          "name": "博洛尼亚肉酱",
+          "url": "https://www.seriouseats.com/basic-ragu-bolognese-recipe",
+          "amount": "1 1/2 quarts (1.5 L)",
+          "author": "Daniel Gritzer",
+          "sourceLinkLabel": "classic slow-cooked version"
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "unsalted butter",
+          "amount": "4 tablespoons (2 ounces;60 g), plus additional for greasing",
+          "raw": "4 tablespoons unsalted butter (2 ounces; 60 g), plus more for greasing baking dish"
+        },
+        {
+          "name": "all-purpose flour",
+          "amount": "4 tablespoons (1.25 ounces;35 g)",
+          "raw": "4 tablespoons all-purpose flour (1.25 ounces; 35 g)"
+        },
+        {
+          "name": "whole milk",
+          "amount": "3 cups (700 ml)",
+          "raw": "3 cups (700 ml) whole milk"
+        },
+        {
+          "name": "Kosher salt",
+          "amount": null,
+          "raw": "Kosher salt and freshly ground black pepper"
+        },
+        {
+          "name": "freshly ground black pepper",
+          "amount": null,
+          "raw": "Kosher salt and freshly ground black pepper"
+        },
+        {
+          "name": "freshly grated nutmeg",
+          "amount": "pinch",
+          "raw": "Pinch freshly grated nutmeg"
+        },
+        {
+          "name": "lasagna noodles",
+          "amount": "2 pounds (900 g) fresh or 2 boxes (450 g each) dry",
+          "raw": "2 pounds (900 g) fresh homemade plain egg or spinach pasta or store-bought fresh lasagna noodles, or 2 (450 g) boxes dry lasagna noodles (see note)"
+        },
+        {
+          "name": "vegetable oil",
+          "amount": null,
+          "raw": "Vegetable oil, for greasing pasta"
+        },
+        {
+          "name": "warm ragù bolognese",
+          "amount": "1 1/2 quarts (1.5 L)",
+          "raw": "1 1/2 quarts (1.5 L) warm ragù bolognese"
+        },
+        {
+          "name": "Parmigiano-Reggiano cheese",
+          "amount": "3 ounces (85 g)",
+          "raw": "3 ounces (85 g) Parmigiano-Reggiano cheese"
+        },
+        {
+          "name": "water for boiling pasta",
+          "amount": null,
+          "raw": "In a pot of salted boiling water (instructions)"
+        },
+        {
+          "name": "ice water for chilling pasta",
+          "amount": null,
+          "raw": "transfer immediately to a large ice bath (instructions)"
+        },
+        {
+          "name": "warm water for no-boil pasta",
+          "amount": null,
+          "raw": "If Using No-Boil Pasta: Soak in warm water for 30 minutes (instructions)"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Use a small saucepan on medium-high heat to melt the butter, stopping it from browning. Whisk in flour to make a paste, and stir about 1 minute until the uncooked flour smell disappears. Add milk while whisking continuously, either pouring a thin steady stream or adding a few tablespoons per addition. Whisk into the corners as well, keeping the mixture uniform. It first thickens substantially, then becomes thin when the milk has all been incorporated.",
+          "duration": "about 1 minute before milk is added",
+          "heat": "medium-high",
+          "evidence": "source_operational_detail_reexpressed"
+        },
+        {
+          "order": 2,
+          "instruction": "Continue stirring while heating until the sauce starts simmering and thickens a little. Turn heat down to low, and cook with stirring for about 3 minutes, stopping when a thin coating stays on the back of a wooden spoon.",
+          "duration": "about 3 minutes",
+          "heat": "low",
+          "evidence": "source_operational_detail_reexpressed"
+        },
+        {
+          "order": 3,
+          "instruction": "Add salt and black pepper, then whisk in nutmeg. Whisk away any small lumps; stubborn larger lumps can be removed with an immersion or countertop blender. Either use the white sauce immediately or cover its surface directly with plastic wrap and hold it warm. Alternatively refrigerate in a sealed container for several days and reheat very gently on the stovetop or in the microwave.",
+          "duration": null,
+          "heat": null,
+          "evidence": "source_operational_detail_reexpressed"
+        },
+        {
+          "order": 4,
+          "instruction": "For homemade fresh pasta only, use the linked Serious Eats fresh-pasta dough recipe through its step 10, making twice that recipe to obtain 2 pounds of sheets. Cut long sheets into rectangles around 8 inches long. Having extra sheets avoids running short during assembly. Store-bought fresh or dry lasagna sheets are already allowed in the ingredient list and do not require making fresh dough.",
+          "duration": null,
+          "heat": null,
+          "evidence": "source_operational_detail_reexpressed"
+        },
+        {
+          "order": 5,
+          "instruction": "For fresh or ordinary dry sheets, prepare a pot of salted boiling water. Cook in batches if needed until al dente; commercial sheets usually require about 1 minute less than their package direction. Lift them out with a spider or mesh strainer and immediately move them into a large ice-water bath.",
+          "duration": "about 1 minute less than package directions for commercial sheets",
+          "heat": "boiling",
+          "evidence": "source_operational_detail_reexpressed"
+        },
+        {
+          "order": 6,
+          "instruction": "Drain the chilled sheets well, and coat each side lightly with vegetable oil so they do not stick together. They can be held up to 3 hours; for holding, spread them on a parchment-lined baking tray and separate sheet layers with plastic wrap.",
+          "duration": "holding optional up to 3 hours",
+          "heat": null,
+          "evidence": "source_operational_detail_reexpressed"
+        },
+        {
+          "order": 7,
+          "instruction": "As an alternative only for no-boil sheets, soak them in warm water for 30 minutes to partially hydrate, then drain using paper towels or kitchen towels. This alternative does not also require boiling and ice-bathing the same sheets.",
+          "duration": "30 minutes",
+          "heat": null,
+          "evidence": "source_operational_detail_reexpressed"
+        },
+        {
+          "order": 8,
+          "instruction": "With the 1.5 L warm ragù already prepared, heat the oven to 375°F (190°C). Butter a 9-by-13-inch baking dish. Cover its base with a thin even coating of ragù, then lay on pasta sheets. Small overlaps are fine; cut oversized sheets to avoid unnecessary double-thickness areas.",
+          "duration": null,
+          "heat": "375°F (190°C)",
+          "evidence": "source_operational_detail_reexpressed"
+        },
+        {
+          "order": 9,
+          "instruction": "Spread another very thin coating of ragù over the sheets, leaving the pasta visible through the sauce in a few places. Drizzle on a little béchamel, then scatter grated Parmigiano-Reggiano. Continue alternating pasta, ragù, béchamel and grated cheese until the dish is filled, approximately 6 layers. Finish with a pasta layer covered evenly with all remaining béchamel, and grate a generous final covering of cheese over it.",
+          "duration": null,
+          "heat": null,
+          "evidence": "source_operational_detail_reexpressed"
+        },
+        {
+          "order": 10,
+          "instruction": "Bake about 35 minutes, stopping when the sauce bubbles and the top is browned. A rimmed baking tray beneath the dish can catch overflow. Rest the lasagna for 10 minutes after baking before cutting and serving.",
+          "duration": "about 35 minutes bake + 10 minutes rest",
+          "heat": "375°F (190°C)",
+          "evidence": "source_operational_detail_reexpressed"
+        }
+      ],
+      "technique": [
+        "Source prep15min, cook65min, total80min; 8servings in a9-by-13-inch dish. Source's80min starts with ready warm ragù, excludes independent225min component preparation.",
+        "Keep sauce layers thin; approximately6layers; no ricotta/mozzarella or other source-variant additions.",
+        "Fresh pasta optional machine setting6or7; sheets cut approximately8inches; store-bought pasta explicitly valid."
+      ],
+      "tips": [
+        "Fresh pasta 2pounds/dry two boxes is surplus insurance; source says you likely will not need all of it.",
+        "Keep béchamel loose before baking; it thickens in oven.",
+        "Preserve choice of fresh/dry versus no-boil pasta paths; do not cook a single batch through both alternatives."
+      ],
+      "rawExcerpt": "Lasagna Bolognese | Daniel Gritzer | Serious Eats\nSource timing:prep15min cook65min total80min; yield8servings,9-by-13-inch dish.\nINGREDIENTS\n4 tablespoons unsalted butter (2 ounces; 60 g), plus more for greasing baking dish\n4 tablespoons all-purpose flour (1.25 ounces; 35 g)\n3 cups (700 ml) whole milk\nKosher salt and freshly ground black pepper\nKosher salt and freshly ground black pepper\nPinch freshly grated nutmeg\n2 pounds (900 g) fresh homemade plain egg or spinach pasta or store-bought fresh lasagna noodles, or 2 (450 g) boxes dry lasagna noodles (see note)\nVegetable oil, for greasing pasta\n1 1/2 quarts (1.5 L) warm ragù bolognese\n3 ounces (85 g) Parmigiano-Reggiano cheese\nIn a pot of salted boiling water (instructions)\ntransfer immediately to a large ice bath (instructions)\nIf Using No-Boil Pasta: Soak in warm water for 30 minutes (instructions)\nMETHOD (all operational details reexpressed, not untouched HTML)\n1. Use a small saucepan on medium-high heat to melt the butter, stopping it from browning. Whisk in flour to make a paste, and stir about 1 minute until the uncooked flour smell disappears. Add milk while whisking continuously, either pouring a thin steady stream or adding a few tablespoons per addition. Whisk into the corners as well, keeping the mixture uniform. It first thickens substantially, then becomes thin when the milk has all been incorporated.\n2. Continue stirring while heating until the sauce starts simmering and thickens a little. Turn heat down to low, and cook with stirring for about 3 minutes, stopping when a thin coating stays on the back of a wooden spoon.\n3. Add salt and black pepper, then whisk in nutmeg. Whisk away any small lumps; stubborn larger lumps can be removed with an immersion or countertop blender. Either use the white sauce immediately or cover its surface directly with plastic wrap and hold it warm. Alternatively refrigerate in a sealed container for several days and reheat very gently on the stovetop or in the microwave.\n4. For homemade fresh pasta only, use the linked Serious Eats fresh-pasta dough recipe through its step 10, making twice that recipe to obtain 2 pounds of sheets. Cut long sheets into rectangles around 8 inches long. Having extra sheets avoids running short during assembly. Store-bought fresh or dry lasagna sheets are already allowed in the ingredient list and do not require making fresh dough.\n5. For fresh or ordinary dry sheets, prepare a pot of salted boiling water. Cook in batches if needed until al dente; commercial sheets usually require about 1 minute less than their package direction. Lift them out with a spider or mesh strainer and immediately move them into a large ice-water bath.\n6. Drain the chilled sheets well, and coat each side lightly with vegetable oil so they do not stick together. They can be held up to 3 hours; for holding, spread them on a parchment-lined baking tray and separate sheet layers with plastic wrap.\n7. As an alternative only for no-boil sheets, soak them in warm water for 30 minutes to partially hydrate, then drain using paper towels or kitchen towels. This alternative does not also require boiling and ice-bathing the same sheets.\n8. With the 1.5 L warm ragù already prepared, heat the oven to 375°F (190°C). Butter a 9-by-13-inch baking dish. Cover its base with a thin even coating of ragù, then lay on pasta sheets. Small overlaps are fine; cut oversized sheets to avoid unnecessary double-thickness areas.\n9. Spread another very thin coating of ragù over the sheets, leaving the pasta visible through the sauce in a few places. Drizzle on a little béchamel, then scatter grated Parmigiano-Reggiano. Continue alternating pasta, ragù, béchamel and grated cheese until the dish is filled, approximately 6 layers. Finish with a pasta layer covered evenly with all remaining béchamel, and grate a generous final covering of cheese over it.\n10. Bake about 35 minutes, stopping when the sauce bubbles and the top is browned. A rimmed baking tray beneath the dish can catch overflow. Rest the lasagna for 10 minutes after baking before cutting and serving.",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 1,
+        "mappedStepImages": 4,
+        "stepImageCoverage": 0.4,
+        "ingredientCount": 13,
+        "executableStepCount": 10,
+        "notes": [
+          "Prepared meat sauce is explicitly represented by a distinct linkedrecipe instead of mixing its steps into lasagna."
+        ]
+      },
+      "media": {
+        "recipePageUrl": "https://www.seriouseats.com/lasagna-bolognese-al-forno-recipe",
+        "mediaPageUrl": null,
+        "sourceName": "Serious Eats",
+        "author": "Daniel Gritzer; photographs Vicky Wasik",
+        "rightsNotice": "Serious Eats; photographs credited to Vicky Wasik.",
+        "reuseLicense": null,
+        "repositoryCopyAuthorized": true,
+        "hero": {
+          "role": "hero",
+          "originalUrl": "https://www.seriouseats.com/thmb/kog6qJ8iuNbyhyyTn2EyA-5Z19c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2016__11__20161118-lasagne-bolognese-vicky-wasik-22-3edfa22e77c64a27817cb27bfa5fee3e.jpg",
+          "repositoryPath": "assets/dishes/sources/west-012-serious-eats/hero.webp",
+          "httpStatus": 200,
+          "contentType": "image/webp",
+          "sha256": "5650a643a4f3533469c44b8415e006b8fe266c2819a5f3c8e52b7a678d65bd3f",
+          "bytes": 73480
+        },
+        "steps": [
+          {
+            "role": "step",
+            "stepOrder": 1,
+            "sourceStepOrder": 1,
+            "originalUrl": "https://www.seriouseats.com/thmb/Ecv1y4jteVR_cips3cd-3yFz9m8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2016__09__20160901-bechamel-sauce-vicky-wasik-11-cdb54a7a215542a9bea561d384e67bc1.jpg",
+            "repositoryPath": "assets/dishes/sources/west-012-serious-eats/step-1.webp",
+            "adjacentText": "The Best Way to Prepare Besciamella for Lasagna; whisking béchamel in a saucepan. This article photo maps to white-sauce preparation, not a fabricated separate meat-sauce step.",
+            "pageOrder": 1,
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "sha256": "7591bf55d649fb81f6f143c38ec9a0c4b8f65286b3c33570202fe82304f95381",
+            "bytes": 45812
+          },
+          {
+            "role": "step",
+            "stepOrder": 5,
+            "sourceStepOrder": 5,
+            "originalUrl": "https://www.seriouseats.com/thmb/q10Imnq7aFha7ks8EDfREJNUE4s=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2016__11__20161118-lasagne-bolognese-vicky-wasik-pasta-collage-034a983deb0642a59ea8e12c0ff28804.jpg",
+            "repositoryPath": "assets/dishes/sources/west-012-serious-eats/step-5.webp",
+            "adjacentText": "Photo collage of cooking and chilling lasagna noodles; recipe steps 5 and 6: cook in salted boiling water, transfer to ice bath, drain and oil sheets.",
+            "pageOrder": 2,
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "sha256": "f4df1a56005240c39cf986b89652c1267646532f1462357070ed0dc4dc22b395",
+            "bytes": 103330
+          },
+          {
+            "role": "step",
+            "stepOrder": 9,
+            "sourceStepOrder": 9,
+            "originalUrl": "https://www.seriouseats.com/thmb/fVPbxARHb0JyD-2IUfeZEl1BPhw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2016__11__20161118-lasagne-bolognese-vicky-wasik-assembly-collage-8fe6ff78c00049448b5505458f94aebe.jpg",
+            "repositoryPath": "assets/dishes/sources/west-012-serious-eats/step-9.webp",
+            "adjacentText": "Photo collage of lasagna bolognese being assembled in layers; follows recipe step 9 layering ragù, béchamel and Parmigiano.",
+            "pageOrder": 3,
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "sha256": "b463357c2d17c3ecbe589e97be3092ce8ac5ba1161e0eeefbf84f6a168fc924d",
+            "bytes": 130516
+          },
+          {
+            "role": "step",
+            "stepOrder": 10,
+            "sourceStepOrder": 10,
+            "originalUrl": "https://www.seriouseats.com/thmb/e1-c68vJZl2Dbqw5iM6wGqKVyYE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2016__11__20161118-lasagne-bolognese-vicky-wasik-top-collage-e5a3bd2486aa4947844350f20ce9a999.jpg",
+            "repositoryPath": "assets/dishes/sources/west-012-serious-eats/step-10.webp",
+            "adjacentText": "Photo collage of lasagna bolognese before and after baking; accompanying text instructs baking at 375°F (190°C) about 35 minutes and resting at least 10 minutes.",
+            "pageOrder": 4,
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "sha256": "53ab42393606eef72c314b728411dcedae7b4035186e89b6a1dd3e54770e3d79",
+            "bytes": 98530
+          }
+        ]
+      }
+    }
+  ],
+  "ragEvidence": [
+    {
+      "chunkId": "d6553437-2e0c-4868-9818-89824d20f1b6",
+      "documentId": "59f561e7-5520-4137-ac4e-c657cadcae71",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：千层面\n7. As an alternative only for no-boil sheets, soak them in warm water for 30 minutes to partially hydrate, then drain using paper towels or kitchen towels. This alternative does not also require boiling and ice-bathing the same sheets.（30 minutes）\n8. With the 1.5 L warm ragù already prepared, heat the oven to 375°F (190°C). Butter a 9-by-13-inch baking dish. Cover its base with a thin even coating of ragù, then lay on pasta sheets. Small overlaps are fine; cut oversized sheets to avoid unnecessary double-thickness areas.【375°F (190°C)】\n9. Spread another very thin coating of ragù over the sheets, leaving the pasta visible through the sauce in a few places. Drizzle on a little béchamel, then scatter grated Parmigiano-Reggiano. Continue alternating pasta, ragù, béchamel and grated cheese until the dish is filled, approximately 6 layers. Finish with a pasta layer covered evenly with all remaining béchamel, and grate a generous final covering of cheese over it.",
+      "similarity": 0.303424408929814
+    },
+    {
+      "chunkId": "2d892b03-c4e3-47e7-a3fc-3092630e1f5b",
+      "documentId": "59f561e7-5520-4137-ac4e-c657cadcae71",
+      "sourceName": "Serious Eats",
+      "chunkType": "technique",
+      "content": "菜名：千层面\n- Source prep15min, cook65min, total80min; 8servings in a9-by-13-inch dish. Source's80min starts with ready warm ragù, excludes independent225min component preparation.\n- Keep sauce layers thin; approximately6layers; no ricotta/mozzarella or other source-variant additions.\n- Fresh pasta optional machine setting6or7; sheets cut approximately8inches; store-bought pasta explicitly valid.\n- about 1 minute before milk is added\n- medium-high\n- about 3 minutes\n- low\n- about 1 minute less than package directions for commercial sheets\n- boiling\n- holding optional up to 3 hours\n- 30 minutes\n- 375°F (190°C)\n- about 35 minutes bake + 10 minutes rest\n- 375°F (190°C)",
+      "similarity": 0.301808306628713
+    },
+    {
+      "chunkId": "48cb5416-e66a-431c-8c2f-06c3750d396d",
+      "documentId": "59f561e7-5520-4137-ac4e-c657cadcae71",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：千层面\n4. For homemade fresh pasta only, use the linked Serious Eats fresh-pasta dough recipe through its step 10, making twice that recipe to obtain 2 pounds of sheets. Cut long sheets into rectangles around 8 inches long. Having extra sheets avoids running short during assembly. Store-bought fresh or dry lasagna sheets are already allowed in the ingredient list and do not require making fresh dough.\n5. For fresh or ordinary dry sheets, prepare a pot of salted boiling water. Cook in batches if needed until al dente; commercial sheets usually require about 1 minute less than their package direction. Lift them out with a spider or mesh strainer and immediately move them into a large ice-water bath.（about 1 minute less than package directions for commercial sheets）【boiling】\n6. Drain the chilled sheets well, and coat each side lightly with vegetable oil so they do not stick together. They can be held up to 3 hours; for holding, spread them on a parchment-lined baking tray and separate sheet layers with plastic wrap.（holding optional up to 3 hours）",
+      "similarity": 0.293963441072805
+    },
+    {
+      "chunkId": "f750e2a9-7914-437d-a8b9-0ef501ba060e",
+      "documentId": "59f561e7-5520-4137-ac4e-c657cadcae71",
+      "sourceName": "Serious Eats",
+      "chunkType": "summary",
+      "content": "菜名：千层面\n菜系：意大利\n简介：Lasagna Bolognese | Daniel Gritzer | Serious Eats Source timing:prep15min cook65min total80min; yield8servings,9-by-13-inch dish. INGREDIENTS 4 tablespoons unsalted butter (2 ounces; 60 g), plus more for greasing baking dish 4 tablespoons all-purpose flour (1.25 ounces; 35 g) 3 cups (700 ml) whole milk Kosher salt and freshly ground black pepper Kosher salt and freshly ground black pepper Pinch freshly grated nutmeg 2 pounds (900 g) fresh homemade plain egg or spinach pasta or store-bought fresh lasagna noodles, or 2 (450 g) boxes dry lasagna noodles (see note) Vegetable oil, for greasing pasta 1 1/2 quarts (1.5 L) warm ragù bolognese 3 ounces (85 g) Parmigiano-Reggiano cheese In a pot of salted boiling water (instructions) transfer immediately to a large ice bath (instructions) If Using No-Boil Pasta: Soak in warm water for 30 minutes (instructions) METHOD (all operational details reexpressed, not untouched HTML) 1. Use a small saucepan on medium-high heat to melt the butter, stopping it from browning. Whisk in flour to make a paste, and stir about 1 minute until the uncooked flour smell disappears. Add milk while whisking continuously, either pouring a thin steady stream or adding a few tablespoons per addition. Whisk into the corners as well, keeping the mixture uniform. It first thickens substantially, then becomes thin when the milk has all been incorporated. 2. Continue stirring while heating until the sauce starts simmering and thickens a little. Turn heat down to low, and cook with stirring for about 3 minutes, stopping when a thin coating stays on the back of a wooden spoon. 3. Add salt and black pepper, then whisk in nutmeg. Whisk away any small lumps; stubborn larger lumps can be removed with an immersion or countertop blender. Either use the white sauce immediately or cover its surface directly with plastic wrap and hold it warm. Alternatively refrigerate in a sealed container for several days and reheat very gently on the stovetop or in the microwave. 4. For homemade fresh pasta only, use the linked Serious Eats fresh-pasta dough recipe through its step 10, making twice that recipe to obtain 2 pounds of sheets. Cut long sheets into rectangles around 8 inches long. Having extra sheets avoids running short during assembly. Store-bought fresh or dry lasagna sheets are already allowed in the ingredient list and do not require making fresh dough. 5. For fresh or ordinary dry sheets, prepare a pot of salted boiling water. Cook in batches if needed until al dente; commercial sheets usually require about 1 minute less than their package direction. Lift them out with a spider or mesh strainer and immediately move them into a large ice-water bath. 6. Drain the chilled sheets well, and coat each side lightly with vegetable oil so they do not stick together. They can be held up to 3 hours; for holding, spread them on a parchment-lined baking tray and separate sheet layers with plastic wrap. 7. As an alternative only for no-boil sheets, soak them in warm water for 30 minutes to partially hydrate, then drain using paper towels or kitchen towels. This alternative does not also require boiling and ice-bathing the same sheets. 8. With the 1.5 L warm ragù already prepared, heat the oven to 375°F (190°C). Butter a 9-by-13-inch baking dish. Cover its base with a thin even coating of ragù, then lay on pasta sheets. Small overlaps are fine; cut oversized sheets to avoid unnecessary double-thickness areas. 9. Spread another very thin coating of ragù over the sheets, leaving the pasta visible through the sauce in a few places. Drizzle on a little béchamel, then scatter grated Parmigiano-Reggiano. Continue alternating pasta, ragù, béchamel and grated cheese until the dish is filled, approximately 6 layers. Finish with a pasta layer covered evenly with all remaining béchamel, and grate a generous final covering of cheese over it. 10. Bake about 35 minutes, stopping when the sauce bubbles and the top is browned. A rimmed baking tray beneath the dish can catch overflow. Rest the lasagna for 10 minutes after baking before cutting and serving.",
+      "similarity": 0.273815163189625
+    },
+    {
+      "chunkId": "e00c1103-349a-4814-abae-90a46837644c",
+      "documentId": "59f561e7-5520-4137-ac4e-c657cadcae71",
+      "sourceName": "Serious Eats",
+      "chunkType": "ingredients",
+      "content": "菜名：千层面\n- 4 tablespoons unsalted butter (2 ounces; 60 g), plus more for greasing baking dish\n- 4 tablespoons all-purpose flour (1.25 ounces; 35 g)\n- 3 cups (700 ml) whole milk\n- Kosher salt and freshly ground black pepper\n- Kosher salt and freshly ground black pepper\n- Pinch freshly grated nutmeg\n- 2 pounds (900 g) fresh homemade plain egg or spinach pasta or store-bought fresh lasagna noodles, or 2 (450 g) boxes dry lasagna noodles (see note)\n- Vegetable oil, for greasing pasta\n- 1 1/2 quarts (1.5 L) warm ragù bolognese\n- 3 ounces (85 g) Parmigiano-Reggiano cheese\n- In a pot of salted boiling water (instructions)\n- transfer immediately to a large ice bath (instructions)\n- If Using No-Boil Pasta: Soak in warm water for 30 minutes (instructions)",
+      "similarity": 0.260626427512574
+    },
+    {
+      "chunkId": "7e54f538-4384-436c-b52a-b108d37dde0a",
+      "documentId": "59f561e7-5520-4137-ac4e-c657cadcae71",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：千层面\n1. Use a small saucepan on medium-high heat to melt the butter, stopping it from browning. Whisk in flour to make a paste, and stir about 1 minute until the uncooked flour smell disappears. Add milk while whisking continuously, either pouring a thin steady stream or adding a few tablespoons per addition. Whisk into the corners as well, keeping the mixture uniform. It first thickens substantially, then becomes thin when the milk has all been incorporated.（about 1 minute before milk is added）【medium-high】\n2. Continue stirring while heating until the sauce starts simmering and thickens a little. Turn heat down to low, and cook with stirring for about 3 minutes, stopping when a thin coating stays on the back of a wooden spoon.（about 3 minutes）【low】\n3. Add salt and black pepper, then whisk in nutmeg. Whisk away any small lumps; stubborn larger lumps can be removed with an immersion or countertop blender. Either use the white sauce immediately or cover its surface directly with plastic wrap and hold it warm. Alternatively refrigerate in a sealed container for several days and reheat very gently on the stovetop or in the microwave.",
+      "similarity": 0.249128952570495
+    },
+    {
+      "chunkId": "c906bbf8-8f91-4b86-9421-8e81f59bb4f9",
+      "documentId": "59f561e7-5520-4137-ac4e-c657cadcae71",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：千层面\n10. Bake about 35 minutes, stopping when the sauce bubbles and the top is browned. A rimmed baking tray beneath the dish can catch overflow. Rest the lasagna for 10 minutes after baking before cutting and serving.（about 35 minutes bake + 10 minutes rest）【375°F (190°C)】",
+      "similarity": 0.240543788752525
+    },
+    {
+      "chunkId": "a2e3e7e4-b419-4d0b-9f34-f727114449d8",
+      "documentId": "59f561e7-5520-4137-ac4e-c657cadcae71",
+      "sourceName": "Serious Eats",
+      "chunkType": "tips",
+      "content": "菜名：千层面\n- Fresh pasta 2pounds/dry two boxes is surplus insurance; source says you likely will not need all of it.\n- Keep béchamel loose before baking; it thickens in oven.\n- Preserve choice of fresh/dry versus no-boil pasta paths; do not cook a single batch through both alternatives.",
+      "similarity": 0.234365790150511
+    }
+  ],
+  "notes": [
+    "Existing Serious Eats document a78ae6f6-c799-4978-a9f6-1fae11d8d11c contains compressed10steps; this evidence restores every executable procedural detail and original measurement wording. New normalization/media+dependency metadata awaiting parent ingestion, existing ID not claimed as already updated.",
+    "BBC complete alternative and failures are retained in historicaldecision; user now selects Serious Eats, not source-count optimization.",
+    "Direct recipe fetch returned402, web reader accessible; no access-control bypass. Media16URL status check acrossthree manifests passed200.",
+    "Only4semantic mappings selected: béchamel preparation source step1; boil/chill collage source step5 (also documents6); assemblycollage9; before/afterbake10. Other complete textualsteps remain noimage.",
+    "Lasagna article contains ragùprocesscollage but it was not borrowed into independentwest-031; sourcehero-onlyauthorization applies onlythatrecipe."
+  ]
+}

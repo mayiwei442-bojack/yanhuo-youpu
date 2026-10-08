@@ -1,0 +1,61 @@
+{
+  "runId": "2026-10-08-howtocook-cn-038",
+  "recipeId": "cn-038",
+  "recipeName": "腊味煲仔饭",
+  "category": "chinese",
+  "status": "done",
+  "startedAt": "2026-10-08T07:12:46.996Z",
+  "completedAt": "2026-10-08T07:51:09.246Z",
+  "branch": "howtocook",
+  "branchAuthorization": "user_explicit_2026-10-08",
+  "commit": "1f8675fc207bfce0c467a38e42c63be99dd93c38",
+  "steps": {
+    "research": {
+      "status": "done",
+      "attempts": 1
+    },
+    "ingestion": {
+      "status": "done",
+      "attempts": 1
+    },
+    "edit": {
+      "status": "done",
+      "attempts": 1
+    },
+    "validator": {
+      "status": "done",
+      "attempts": 1
+    },
+    "review": {
+      "status": "done",
+      "attempts": 2,
+      "details": {
+        "correctionsPath": "workflow/howtocook/2026-10-08/review-corrections.json",
+        "finalStatus": "PASS"
+      }
+    },
+    "build": {
+      "status": "done",
+      "attempts": 1
+    },
+    "gitPush": {
+      "status": "done",
+      "attempts": 1
+    }
+  },
+  "sources": [
+    {
+      "name": "HowToCook",
+      "url": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/staple/%E5%BE%AE%E6%B3%A2%E7%82%89%E8%85%8A%E8%82%A0%E7%85%B2%E4%BB%94%E9%A5%AD/%E5%BE%AE%E6%B3%A2%E7%82%89%E8%85%8A%E8%82%A0%E7%85%B2%E4%BB%94%E9%A5%AD.md",
+      "status": "success",
+      "documentId": "1beb2ded-016f-4a48-b328-0dc7a7b96951"
+    }
+  ],
+  "errors": [],
+  "evidencePackageHash": "29a6766ce9ee81cb8d63f7c85399a83886b8f43bc16f7adfb234b2d1ec948050",
+  "reviewPath": "workflow/howtocook/2026-10-08/cn-038.review.json",
+  "validationPath": "workflow/howtocook/2026-10-08/cn-038.validation.json",
+  "sourceLimitations": [
+    "原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。"
+  ]
+}

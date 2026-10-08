@@ -1,0 +1,286 @@
+{
+  "recipeId": "cn-033",
+  "record": {
+    "name": "酸辣土豆丝",
+    "en": "Hot and Sour Shredded Potatoes",
+    "region": "家常菜",
+    "ingredients": "土豆240克（丝越细越长更好）；大蒜4瓣（蒜末分为两等份）；青椒0.5个；红椒0.5个；干辣椒3个；葱1根（葱花分两次用）；生抽5毫升；陈醋10毫升；盐2克；食用油10—15毫升；清水适量（清洗及焯土豆丝用，原文未注明用量）",
+    "steps": "1）土豆去皮、切丝（或用刨丝器）。2）切好的土豆丝用清水清洗，去除多余的淀粉，然后对土豆丝焯水 10 秒。沥干，备用。3）葱切成葱花；大蒜拍碎切成蒜末（分为两等份备用）；干辣椒切小段；青红椒切丝。4）热锅，小火热油，下入一半的葱花（葱白部分）、一半的蒜末和干辣椒爆香。5）加入青红椒翻炒几下，加入土豆丝翻炒至变色。6）加 5ml 生抽，10ml 陈醋，倒入剩下的一半蒜末和 2g 盐快速翻炒均匀。7）出锅前撒上剩余的葱花，翻匀即可装盘。",
+    "img": "43-suanla-tudousi.png",
+    "source": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/vegetable_dish/%E9%85%B8%E8%BE%A3%E5%9C%9F%E8%B1%86%E4%B8%9D.md",
+    "timing": {
+      "totalMinutes": 20
+    },
+    "howtocook": {
+      "commit": "a2d45c6984dff9ee941da0e7c452f7965965d962",
+      "path": "dishes/vegetable_dish/酸辣土豆丝.md",
+      "sha256": "c6bf903ae1c79e1089f32bffb79a14dd4d2bea58d1a2f90330f164b0b4f3f3cb",
+      "rawMarkdown": "# 酸辣土豆丝的做法\n\n酸辣开胃的经典家常菜，口感脆爽，色泽鲜亮，属于大众喜爱的快手小炒。土豆提供碳水化合物和钾元素，辣椒富含维生素 C，有助于增进食欲。操作步骤简单明了，对新手十分友好，从备料到出锅大约只需 20 分钟。\n\n预估烹饪难度：★★\n\n预估卡路里：374 大卡\n\n## 必备原料和工具\n\n- 土豆\n- 大蒜\n- 青椒\n- 红椒\n- 干辣椒\n- 葱\n- 生抽\n- 陈醋\n- 盐\n\n## 计算\n\n每份：\n\n- 土豆 240g（越细越长更好）\n- 大蒜 4 瓣\n- 青椒 0.5 个\n- 红椒 0.5 个\n- 干辣椒 3 个\n- 葱 1 根\n- 生抽 5ml\n- 陈醋 10ml\n- 盐 2g\n- 食用油 10-15ml\n\n## 操作\n\n1. 土豆去皮、切丝（或用刨丝器）。\n2. 切好的土豆丝用清水清洗，去除多余的淀粉，然后对土豆丝焯水 10 秒。沥干，备用。\n3. 葱切成葱花；大蒜拍碎切成蒜末（分为两等份备用）；干辣椒切小段；青红椒切丝。\n4. 热锅，小火热油，下入一半的葱花（葱白部分）、一半的蒜末和干辣椒爆香。\n5. 加入青红椒翻炒几下，加入土豆丝翻炒至变色。\n6. 加 5ml 生抽，10ml 陈醋，倒入剩下的一半蒜末和 2g 盐快速翻炒均匀。\n7. 出锅前撒上剩余的葱花，翻匀即可装盘。\n\n## 附加内容\n\n- 清洗土豆丝淀粉一定要去干净，不然会全黏在一起\n- 加入蒜末、盐后应尽快出锅，保留蒜香以及避免破坏口感。\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+      "sections": [
+        {
+          "title": "酸辣土豆丝的做法",
+          "markdown": "\n酸辣开胃的经典家常菜，口感脆爽，色泽鲜亮，属于大众喜爱的快手小炒。土豆提供碳水化合物和钾元素，辣椒富含维生素 C，有助于增进食欲。操作步骤简单明了，对新手十分友好，从备料到出锅大约只需 20 分钟。\n\n预估烹饪难度：★★\n\n预估卡路里：374 大卡\n\n",
+          "level": 1
+        },
+        {
+          "title": "必备原料和工具",
+          "markdown": "\n- 土豆\n- 大蒜\n- 青椒\n- 红椒\n- 干辣椒\n- 葱\n- 生抽\n- 陈醋\n- 盐\n\n",
+          "level": 2
+        },
+        {
+          "title": "计算",
+          "markdown": "\n每份：\n\n- 土豆 240g（越细越长更好）\n- 大蒜 4 瓣\n- 青椒 0.5 个\n- 红椒 0.5 个\n- 干辣椒 3 个\n- 葱 1 根\n- 生抽 5ml\n- 陈醋 10ml\n- 盐 2g\n- 食用油 10-15ml\n\n",
+          "level": 2
+        },
+        {
+          "title": "操作",
+          "markdown": "\n1. 土豆去皮、切丝（或用刨丝器）。\n2. 切好的土豆丝用清水清洗，去除多余的淀粉，然后对土豆丝焯水 10 秒。沥干，备用。\n3. 葱切成葱花；大蒜拍碎切成蒜末（分为两等份备用）；干辣椒切小段；青红椒切丝。\n4. 热锅，小火热油，下入一半的葱花（葱白部分）、一半的蒜末和干辣椒爆香。\n5. 加入青红椒翻炒几下，加入土豆丝翻炒至变色。\n6. 加 5ml 生抽，10ml 陈醋，倒入剩下的一半蒜末和 2g 盐快速翻炒均匀。\n7. 出锅前撒上剩余的葱花，翻匀即可装盘。\n\n",
+          "level": 2
+        },
+        {
+          "title": "附加内容",
+          "markdown": "\n- 清洗土豆丝淀粉一定要去干净，不然会全黏在一起\n- 加入蒜末、盐后应尽快出锅，保留蒜香以及避免破坏口感。\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+          "level": 2
+        }
+      ],
+      "images": []
+    },
+    "sourceLimitations": [
+      "原文从备料到出锅大约20分钟，总用时20分钟为约值；每份未注明食客人数，不作推测。",
+      "清洗及焯土豆丝的清水原文未注明用量；炒制仅有小火热油及翻炒至变色的指示，不补充其他火力或时长。",
+      "保留原文蒜末分两等份和葱花分次加入的顺序：爆香用一半蒜末及一半葱花（葱白部分），调味加剩余蒜末，出锅前加剩余葱花。",
+      "上游无图片，保留的原有展示图不属于本次 HowToCook 来源图片。"
+    ]
+  },
+  "generated": {
+    "id": "cn-033",
+    "name": "酸辣土豆丝",
+    "en": "Hot and Sour Shredded Potatoes",
+    "cuisine": "家常菜",
+    "category": "中餐",
+    "isHeritageFlavor": false,
+    "heritageStatus": null,
+    "ingredients": [
+      {
+        "id": "ingredient-01",
+        "name": "土豆",
+        "label": "土豆240克（丝越细越长更好）",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-02",
+        "name": "大蒜",
+        "label": "大蒜4瓣（蒜末分为两等份）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-03",
+        "name": "青椒",
+        "label": "青椒0.5个",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-04",
+        "name": "红椒",
+        "label": "红椒0.5个",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-05",
+        "name": "干辣椒",
+        "label": "干辣椒3个",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-06",
+        "name": "葱",
+        "label": "葱1根（葱花分两次用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-07",
+        "name": "生抽",
+        "label": "生抽5毫升",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-08",
+        "name": "陈醋",
+        "label": "陈醋10毫升",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-09",
+        "name": "盐",
+        "label": "盐2克",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-10",
+        "name": "食用油",
+        "label": "食用油10—15毫升",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-11",
+        "name": "清水",
+        "label": "清水适量（清洗及焯土豆丝用，原文未注明用量）",
+        "isCore": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-01",
+        "instruction": "土豆去皮、切丝（或用刨丝器）。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-02",
+        "instruction": "切好的土豆丝用清水清洗，去除多余的淀粉，然后对土豆丝焯水 10 秒。沥干，备用。",
+        "duration": 10,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-03",
+        "instruction": "葱切成葱花；大蒜拍碎切成蒜末（分为两等份备用）；干辣椒切小段；青红椒切丝。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-04",
+        "instruction": "热锅，小火热油，下入一半的葱花（葱白部分）、一半的蒜末和干辣椒爆香。",
+        "duration": null,
+        "heat": "low",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "注意热油飞溅"
+      },
+      {
+        "id": "step-05",
+        "instruction": "加入青红椒翻炒几下，加入土豆丝翻炒至变色。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-06",
+        "instruction": "加 5ml 生抽，10ml 陈醋，倒入剩下的一半蒜末和 2g 盐快速翻炒均匀。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-07",
+        "instruction": "出锅前撒上剩余的葱花，翻匀即可装盘。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      }
+    ],
+    "howtocook": {
+      "commit": "a2d45c6984dff9ee941da0e7c452f7965965d962",
+      "path": "dishes/vegetable_dish/酸辣土豆丝.md",
+      "sha256": "c6bf903ae1c79e1089f32bffb79a14dd4d2bea58d1a2f90330f164b0b4f3f3cb",
+      "rawMarkdown": "# 酸辣土豆丝的做法\n\n酸辣开胃的经典家常菜，口感脆爽，色泽鲜亮，属于大众喜爱的快手小炒。土豆提供碳水化合物和钾元素，辣椒富含维生素 C，有助于增进食欲。操作步骤简单明了，对新手十分友好，从备料到出锅大约只需 20 分钟。\n\n预估烹饪难度：★★\n\n预估卡路里：374 大卡\n\n## 必备原料和工具\n\n- 土豆\n- 大蒜\n- 青椒\n- 红椒\n- 干辣椒\n- 葱\n- 生抽\n- 陈醋\n- 盐\n\n## 计算\n\n每份：\n\n- 土豆 240g（越细越长更好）\n- 大蒜 4 瓣\n- 青椒 0.5 个\n- 红椒 0.5 个\n- 干辣椒 3 个\n- 葱 1 根\n- 生抽 5ml\n- 陈醋 10ml\n- 盐 2g\n- 食用油 10-15ml\n\n## 操作\n\n1. 土豆去皮、切丝（或用刨丝器）。\n2. 切好的土豆丝用清水清洗，去除多余的淀粉，然后对土豆丝焯水 10 秒。沥干，备用。\n3. 葱切成葱花；大蒜拍碎切成蒜末（分为两等份备用）；干辣椒切小段；青红椒切丝。\n4. 热锅，小火热油，下入一半的葱花（葱白部分）、一半的蒜末和干辣椒爆香。\n5. 加入青红椒翻炒几下，加入土豆丝翻炒至变色。\n6. 加 5ml 生抽，10ml 陈醋，倒入剩下的一半蒜末和 2g 盐快速翻炒均匀。\n7. 出锅前撒上剩余的葱花，翻匀即可装盘。\n\n## 附加内容\n\n- 清洗土豆丝淀粉一定要去干净，不然会全黏在一起\n- 加入蒜末、盐后应尽快出锅，保留蒜香以及避免破坏口感。\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+      "sections": [
+        {
+          "title": "酸辣土豆丝的做法",
+          "markdown": "\n酸辣开胃的经典家常菜，口感脆爽，色泽鲜亮，属于大众喜爱的快手小炒。土豆提供碳水化合物和钾元素，辣椒富含维生素 C，有助于增进食欲。操作步骤简单明了，对新手十分友好，从备料到出锅大约只需 20 分钟。\n\n预估烹饪难度：★★\n\n预估卡路里：374 大卡\n\n",
+          "level": 1
+        },
+        {
+          "title": "必备原料和工具",
+          "markdown": "\n- 土豆\n- 大蒜\n- 青椒\n- 红椒\n- 干辣椒\n- 葱\n- 生抽\n- 陈醋\n- 盐\n\n",
+          "level": 2
+        },
+        {
+          "title": "计算",
+          "markdown": "\n每份：\n\n- 土豆 240g（越细越长更好）\n- 大蒜 4 瓣\n- 青椒 0.5 个\n- 红椒 0.5 个\n- 干辣椒 3 个\n- 葱 1 根\n- 生抽 5ml\n- 陈醋 10ml\n- 盐 2g\n- 食用油 10-15ml\n\n",
+          "level": 2
+        },
+        {
+          "title": "操作",
+          "markdown": "\n1. 土豆去皮、切丝（或用刨丝器）。\n2. 切好的土豆丝用清水清洗，去除多余的淀粉，然后对土豆丝焯水 10 秒。沥干，备用。\n3. 葱切成葱花；大蒜拍碎切成蒜末（分为两等份备用）；干辣椒切小段；青红椒切丝。\n4. 热锅，小火热油，下入一半的葱花（葱白部分）、一半的蒜末和干辣椒爆香。\n5. 加入青红椒翻炒几下，加入土豆丝翻炒至变色。\n6. 加 5ml 生抽，10ml 陈醋，倒入剩下的一半蒜末和 2g 盐快速翻炒均匀。\n7. 出锅前撒上剩余的葱花，翻匀即可装盘。\n\n",
+          "level": 2
+        },
+        {
+          "title": "附加内容",
+          "markdown": "\n- 清洗土豆丝淀粉一定要去干净，不然会全黏在一起\n- 加入蒜末、盐后应尽快出锅，保留蒜香以及避免破坏口感。\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+          "level": 2
+        }
+      ],
+      "images": [],
+      "difficultyStars": "★★"
+    },
+    "sourceLimitations": [
+      "原文从备料到出锅大约20分钟，总用时20分钟为约值；每份未注明食客人数，不作推测。",
+      "清洗及焯土豆丝的清水原文未注明用量；炒制仅有小火热油及翻炒至变色的指示，不补充其他火力或时长。",
+      "保留原文蒜末分两等份和葱花分次加入的顺序：爆香用一半蒜末及一半葱花（葱白部分），调味加剩余蒜末，出锅前加剩余葱花。",
+      "上游无图片，保留的原有展示图不属于本次 HowToCook 来源图片。"
+    ],
+    "imageThumb": "assets/dishes/thumbnails/43-suanla-tudousi.jpg",
+    "imageFull": "assets/dishes/ai/43-suanla-tudousi.png",
+    "source": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/vegetable_dish/%E9%85%B8%E8%BE%A3%E5%9C%9F%E8%B1%86%E4%B8%9D.md",
+    "time": 20,
+    "timeBasis": "source",
+    "difficulty": "简单",
+    "defaultServings": null,
+    "servingsBasis": "unspecified",
+    "allergens": [
+      "soy"
+    ],
+    "flags": {
+      "containsPork": false,
+      "containsBeef": false,
+      "containsAlcohol": false,
+      "spicy": true,
+      "vegetarian": true
+    },
+    "demoEnriched": true
+  },
+  "renderedIngredientRows": [
+    "土豆240克（丝越细越长更好）",
+    "大蒜4瓣（蒜末分为两等份）",
+    "青椒0.5个",
+    "红椒0.5个",
+    "干辣椒3个",
+    "葱1根（葱花分两次用）",
+    "生抽5毫升",
+    "陈醋10毫升",
+    "盐2克",
+    "食用油10—15毫升",
+    "清水适量（清洗及焯土豆丝用，原文未注明用量）"
+  ],
+  "renderedSteps": [
+    "土豆去皮、切丝（或用刨丝器）。",
+    "切好的土豆丝用清水清洗，去除多余的淀粉，然后对土豆丝焯水 10 秒。沥干，备用。",
+    "葱切成葱花；大蒜拍碎切成蒜末（分为两等份备用）；干辣椒切小段；青红椒切丝。",
+    "热锅，小火热油，下入一半的葱花（葱白部分）、一半的蒜末和干辣椒爆香。",
+    "加入青红椒翻炒几下，加入土豆丝翻炒至变色。",
+    "加 5ml 生抽，10ml 陈醋，倒入剩下的一半蒜末和 2g 盐快速翻炒均匀。",
+    "出锅前撒上剩余的葱花，翻匀即可装盘。"
+  ]
+}

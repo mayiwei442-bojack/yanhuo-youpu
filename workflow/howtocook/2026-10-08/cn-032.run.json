@@ -1,0 +1,61 @@
+{
+  "runId": "2026-10-08-howtocook-cn-032",
+  "recipeId": "cn-032",
+  "recipeName": "虎皮青椒",
+  "category": "chinese",
+  "status": "done",
+  "startedAt": "2026-10-08T07:12:46.996Z",
+  "completedAt": "2026-10-08T07:51:09.246Z",
+  "branch": "howtocook",
+  "branchAuthorization": "user_explicit_2026-10-08",
+  "commit": "1f8675fc207bfce0c467a38e42c63be99dd93c38",
+  "steps": {
+    "research": {
+      "status": "done",
+      "attempts": 1
+    },
+    "ingestion": {
+      "status": "done",
+      "attempts": 1
+    },
+    "edit": {
+      "status": "done",
+      "attempts": 1
+    },
+    "validator": {
+      "status": "done",
+      "attempts": 1
+    },
+    "review": {
+      "status": "done",
+      "attempts": 2,
+      "details": {
+        "correctionsPath": "workflow/howtocook/2026-10-08/review-corrections.json",
+        "finalStatus": "PASS"
+      }
+    },
+    "build": {
+      "status": "done",
+      "attempts": 1
+    },
+    "gitPush": {
+      "status": "done",
+      "attempts": 1
+    }
+  },
+  "sources": [
+    {
+      "name": "HowToCook",
+      "url": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/vegetable_dish/%E8%99%8E%E7%9A%AE%E9%9D%92%E6%A4%92/%E8%99%8E%E7%9A%AE%E9%9D%92%E6%A4%92.md",
+      "status": "success",
+      "documentId": "d2b5aa5a-0a68-42b7-8b4c-b5a4f420134a"
+    }
+  ],
+  "errors": [],
+  "evidencePackageHash": "ffe3c8308efc25dc34517ed01769602747077e6521125ec2efc64c7422a7941b",
+  "reviewPath": "workflow/howtocook/2026-10-08/cn-032.review.json",
+  "validationPath": "workflow/howtocook/2026-10-08/cn-032.validation.json",
+  "sourceLimitations": [
+    "原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。"
+  ]
+}

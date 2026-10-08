@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "水/冷水食材身份已规范，计量说明留在标签。首步和面用粉200克与防粘粉分清，第13步补工具介词；四阶段25步、1人约20只、约3小时与缺项披露通过，四项独立复审通过。",
+  "evidencePackageHash": "567523b91c614f21aff3e9dc8bb6ceff36e6001ac4829601d48a6653db870540",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

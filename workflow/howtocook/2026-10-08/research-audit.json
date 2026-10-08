@@ -1,0 +1,316 @@
+{
+  "commit": "a2d45c6984dff9ee941da0e7c452f7965965d962",
+  "matched": 24,
+  "skipped": 44,
+  "embeddingModel": "voyage-4",
+  "dimension": 1024,
+  "chunkCount": 121,
+  "allSchemaValid": true,
+  "allIngested": true,
+  "allRetrieved": true,
+  "recipes": [
+    {
+      "recipeId": "cn-014",
+      "documentId": "60a04e20-23c1-407b-a88e-59d36b3a2796",
+      "chunkCount": 5,
+      "semanticCount": 5,
+      "hybridCount": 5,
+      "supersededDocumentIds": [
+        "34ac612b-0dc1-4c3e-9e1d-8e8b647b7ae0"
+      ],
+      "excludedFromSemantic": true,
+      "excludedFromHybrid": true,
+      "evidenceSha256": "dc141b72b2c2f08c8a04f593ab72428c8daf5a1493302b70f612c65838630d3d",
+      "evidenceSchemaValid": true
+    },
+    {
+      "recipeId": "cn-017",
+      "documentId": "c8991fdc-cd72-436d-90fe-538e4fe50f97",
+      "chunkCount": 5,
+      "semanticCount": 5,
+      "hybridCount": 5,
+      "supersededDocumentIds": [
+        "8d1817f2-8548-4f76-95b4-a5dc20806811",
+        "c80d93dc-e9b1-48b5-a8ec-3cf2cdcbb828"
+      ],
+      "excludedFromSemantic": true,
+      "excludedFromHybrid": true,
+      "evidenceSha256": "e10f698a38f2b6ed9471fc7fb94a0165204dd8d06f87cd8b1b82fc73f5fe79e6",
+      "evidenceSchemaValid": true
+    },
+    {
+      "recipeId": "cn-021",
+      "documentId": "9719b586-9a9e-4793-8a48-9af003999c5b",
+      "chunkCount": 5,
+      "semanticCount": 5,
+      "hybridCount": 5,
+      "supersededDocumentIds": [
+        "28c4bd94-cccd-4adb-96e8-c870fd904bd4",
+        "d2021f78-c184-4903-adc4-abd74ce4c1eb"
+      ],
+      "excludedFromSemantic": true,
+      "excludedFromHybrid": true,
+      "evidenceSha256": "292262aa28c22578e6808209c10618d5b152b8b7fec46a9fb6b4c77e3b71299d",
+      "evidenceSchemaValid": true
+    },
+    {
+      "recipeId": "cn-030",
+      "documentId": "5b5ce493-18f1-45da-a20e-ee36d7a89025",
+      "chunkCount": 5,
+      "semanticCount": 5,
+      "hybridCount": 5,
+      "supersededDocumentIds": [
+        "841ad0a4-5894-432b-9e42-55d4e1ccd0b7",
+        "a6680e61-8520-4b14-8a23-ed33df14fdb0"
+      ],
+      "excludedFromSemantic": true,
+      "excludedFromHybrid": true,
+      "evidenceSha256": "bc2d34f810f116e6bdee42055ea1b6548f2d6787b7c66b06e1670445fbd8593c",
+      "evidenceSchemaValid": true
+    },
+    {
+      "recipeId": "cn-032",
+      "documentId": "d2b5aa5a-0a68-42b7-8b4c-b5a4f420134a",
+      "chunkCount": 5,
+      "semanticCount": 5,
+      "hybridCount": 5,
+      "supersededDocumentIds": [],
+      "excludedFromSemantic": true,
+      "excludedFromHybrid": true,
+      "evidenceSha256": "ffe3c8308efc25dc34517ed01769602747077e6521125ec2efc64c7422a7941b",
+      "evidenceSchemaValid": true
+    },
+    {
+      "recipeId": "cn-033",
+      "documentId": "13a4b348-354c-445e-ab7a-fe15ef3b4759",
+      "chunkCount": 5,
+      "semanticCount": 5,
+      "hybridCount": 5,
+      "supersededDocumentIds": [],
+      "excludedFromSemantic": true,
+      "excludedFromHybrid": true,
+      "evidenceSha256": "468d41476c810a861916788418da575499d9f0a5c41a0f4af8d0b746a8942495",
+      "evidenceSchemaValid": true
+    },
+    {
+      "recipeId": "cn-034",
+      "documentId": "ded84796-7eb5-4229-943e-ef5e68ca248e",
+      "chunkCount": 5,
+      "semanticCount": 5,
+      "hybridCount": 5,
+      "supersededDocumentIds": [],
+      "excludedFromSemantic": true,
+      "excludedFromHybrid": true,
+      "evidenceSha256": "663901dff427f49e6fa4ca3ae96b4b052dadfb136041a61d9cab0f88e3bd31c1",
+      "evidenceSchemaValid": true
+    },
+    {
+      "recipeId": "cn-038",
+      "documentId": "1beb2ded-016f-4a48-b328-0dc7a7b96951",
+      "chunkCount": 5,
+      "semanticCount": 5,
+      "hybridCount": 5,
+      "supersededDocumentIds": [],
+      "excludedFromSemantic": true,
+      "excludedFromHybrid": true,
+      "evidenceSha256": "29a6766ce9ee81cb8d63f7c85399a83886b8f43bc16f7adfb234b2d1ec948050",
+      "evidenceSchemaValid": true
+    },
+    {
+      "recipeId": "cn-041",
+      "documentId": "575a3c45-12c1-4f06-82df-2b2b183a1883",
+      "chunkCount": 5,
+      "semanticCount": 5,
+      "hybridCount": 5,
+      "supersededDocumentIds": [
+        "8326631d-aac3-4ee4-8a87-ada13c89ddd2"
+      ],
+      "excludedFromSemantic": true,
+      "excludedFromHybrid": true,
+      "evidenceSha256": "6d038caf9a2bcf76e294f4ba96315e3b03bc50fe6a414b3f01abfc20ff79979c",
+      "evidenceSchemaValid": true
+    },
+    {
+      "recipeId": "cn-042",
+      "documentId": "26dd90e2-3f46-4ee2-adac-1e1555a39b80",
+      "chunkCount": 5,
+      "semanticCount": 5,
+      "hybridCount": 5,
+      "supersededDocumentIds": [],
+      "excludedFromSemantic": true,
+      "excludedFromHybrid": true,
+      "evidenceSha256": "641dcb52c20110ca8957a12676b8380c0464733db81b3016d74d3877088a581d",
+      "evidenceSchemaValid": true
+    },
+    {
+      "recipeId": "cn-045",
+      "documentId": "6a326ea0-56f9-4fc5-af0d-401a8e6266d8",
+      "chunkCount": 5,
+      "semanticCount": 5,
+      "hybridCount": 5,
+      "supersededDocumentIds": [],
+      "excludedFromSemantic": true,
+      "excludedFromHybrid": true,
+      "evidenceSha256": "567523b91c614f21aff3e9dc8bb6ceff36e6001ac4829601d48a6653db870540",
+      "evidenceSchemaValid": true
+    },
+    {
+      "recipeId": "cn-046",
+      "documentId": "02823834-484e-480a-843e-35c5b10c8c62",
+      "chunkCount": 5,
+      "semanticCount": 5,
+      "hybridCount": 5,
+      "supersededDocumentIds": [
+        "7d62c0ff-54ab-4f83-afe6-a789e42e492e"
+      ],
+      "excludedFromSemantic": true,
+      "excludedFromHybrid": true,
+      "evidenceSha256": "9995e4e6cf43b9068897f82ea7cc33ba5223fea0924837ff6467cb4d1d69390c",
+      "evidenceSchemaValid": true
+    },
+    {
+      "recipeId": "cn-047",
+      "documentId": "55fce09c-0d6d-4b98-90ba-68ff7737e0fb",
+      "chunkCount": 5,
+      "semanticCount": 5,
+      "hybridCount": 5,
+      "supersededDocumentIds": [],
+      "excludedFromSemantic": true,
+      "excludedFromHybrid": true,
+      "evidenceSha256": "287bb6348aac6118625f8a5d628f5507224a91f4e23bc513c818727f6850e38f",
+      "evidenceSchemaValid": true
+    },
+    {
+      "recipeId": "cn-048",
+      "documentId": "52aa33ed-5e85-405c-ba2d-ab80ffdd535c",
+      "chunkCount": 5,
+      "semanticCount": 5,
+      "hybridCount": 5,
+      "supersededDocumentIds": [],
+      "excludedFromSemantic": true,
+      "excludedFromHybrid": true,
+      "evidenceSha256": "c0691a88db433e4d860892f41de15f217c5ac8d9cb450a6395daef5c43a24075",
+      "evidenceSchemaValid": true
+    },
+    {
+      "recipeId": "cn-052",
+      "documentId": "231fe5d0-427d-4d09-bc7b-d80b10b92c7f",
+      "chunkCount": 5,
+      "semanticCount": 5,
+      "hybridCount": 5,
+      "supersededDocumentIds": [],
+      "excludedFromSemantic": true,
+      "excludedFromHybrid": true,
+      "evidenceSha256": "7c22b83d7abda27ada2cd612068e413648ab190721ade4cb923bc38d2d90af99",
+      "evidenceSchemaValid": true
+    },
+    {
+      "recipeId": "cn-055",
+      "documentId": "1bea4fff-eeb7-4070-b2b7-ea02d945a0d6",
+      "chunkCount": 5,
+      "semanticCount": 5,
+      "hybridCount": 5,
+      "supersededDocumentIds": [],
+      "excludedFromSemantic": true,
+      "excludedFromHybrid": true,
+      "evidenceSha256": "1ccaf912f782847ecbba1c7ace644760108719136de5ad25a167f65a1cfd944f",
+      "evidenceSchemaValid": true
+    },
+    {
+      "recipeId": "cn-056",
+      "documentId": "ccc935f0-7827-461c-8e8a-434fae092cdf",
+      "chunkCount": 5,
+      "semanticCount": 5,
+      "hybridCount": 5,
+      "supersededDocumentIds": [],
+      "excludedFromSemantic": true,
+      "excludedFromHybrid": true,
+      "evidenceSha256": "8f09f62533f4a29185f27d47377edcf29051f430d361806fcff7b300a3d57546",
+      "evidenceSchemaValid": true
+    },
+    {
+      "recipeId": "cn-057",
+      "documentId": "0151a446-1cf6-419a-aa9f-a144a5126ba7",
+      "chunkCount": 5,
+      "semanticCount": 5,
+      "hybridCount": 5,
+      "supersededDocumentIds": [],
+      "excludedFromSemantic": true,
+      "excludedFromHybrid": true,
+      "evidenceSha256": "49e56496fe089419ae34326cddd2a32b93a8800efe61965a008f8efdbedd7a97",
+      "evidenceSchemaValid": true
+    },
+    {
+      "recipeId": "cn-058",
+      "documentId": "b089f530-1fda-4adf-8d78-df84b24113c0",
+      "chunkCount": 5,
+      "semanticCount": 5,
+      "hybridCount": 5,
+      "supersededDocumentIds": [],
+      "excludedFromSemantic": true,
+      "excludedFromHybrid": true,
+      "evidenceSha256": "9acd9abf7dd8e6c4746883a8187b25c4a64801aa264a057646059c87af99ff36",
+      "evidenceSchemaValid": true
+    },
+    {
+      "recipeId": "cn-059",
+      "documentId": "e71bce53-1ce0-438a-b2f3-a9dcc9d12998",
+      "chunkCount": 5,
+      "semanticCount": 5,
+      "hybridCount": 5,
+      "supersededDocumentIds": [],
+      "excludedFromSemantic": true,
+      "excludedFromHybrid": true,
+      "evidenceSha256": "f3965eb18b7aefb4b02c42bc2bfec0f8fa3c90b0bf2df5f7133c0477f4a7005a",
+      "evidenceSchemaValid": true
+    },
+    {
+      "recipeId": "cn-060",
+      "documentId": "5f0c49d0-41a8-4e90-8e2c-a71b48a2e160",
+      "chunkCount": 5,
+      "semanticCount": 5,
+      "hybridCount": 5,
+      "supersededDocumentIds": [],
+      "excludedFromSemantic": true,
+      "excludedFromHybrid": true,
+      "evidenceSha256": "9947995f6317aea83769360b38bee8c3c2bb36e58e232e35f62f48f9bfc56cc5",
+      "evidenceSchemaValid": true
+    },
+    {
+      "recipeId": "west-001",
+      "documentId": "5b47be81-a205-43f4-9c8e-d8410aefd59a",
+      "chunkCount": 5,
+      "semanticCount": 5,
+      "hybridCount": 5,
+      "supersededDocumentIds": [],
+      "excludedFromSemantic": true,
+      "excludedFromHybrid": true,
+      "evidenceSha256": "440457d44f92ebad3e9b9980fb05eb8954744c1e235ed4ca4a0502e4e303dee8",
+      "evidenceSchemaValid": true
+    },
+    {
+      "recipeId": "west-003",
+      "documentId": "846ed124-1e89-4e3f-9282-3f0dc0df13fa",
+      "chunkCount": 6,
+      "semanticCount": 6,
+      "hybridCount": 6,
+      "supersededDocumentIds": [],
+      "excludedFromSemantic": true,
+      "excludedFromHybrid": true,
+      "evidenceSha256": "9c75ce75e3ebce51e82027940d30dc2d040ced87e81831862bb316f0953028cf",
+      "evidenceSchemaValid": true
+    },
+    {
+      "recipeId": "west-010",
+      "documentId": "d911693b-0400-4b60-a49d-1053077523b9",
+      "chunkCount": 5,
+      "semanticCount": 5,
+      "hybridCount": 5,
+      "supersededDocumentIds": [],
+      "excludedFromSemantic": true,
+      "excludedFromHybrid": true,
+      "evidenceSha256": "aa939650e457e5eff789cd58bb676bdf6354594ca84869ba58c242359736b0b5",
+      "evidenceSchemaValid": true
+    }
+  ]
+}

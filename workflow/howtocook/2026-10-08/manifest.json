@@ -1,0 +1,653 @@
+{
+  "commit": "a2d45c6984dff9ee941da0e7c452f7965965d962",
+  "treeTruncated": false,
+  "recipes": [
+    {
+      "recipeId": "cn-012",
+      "recipeName": "羊肉泡馍",
+      "category": "chinese",
+      "status": "absent",
+      "path": null,
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "cn-013",
+      "recipeName": "胡辣汤",
+      "category": "chinese",
+      "status": "absent",
+      "path": null,
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "cn-014",
+      "recipeName": "柳州螺蛳粉",
+      "category": "chinese",
+      "status": "matched",
+      "path": "dishes/staple/螺蛳粉.md",
+      "candidates": [
+        "dishes/staple/螺蛳粉.md"
+      ],
+      "matchReason": "正文明确广西柳州；原版为袋装螺蛳粉，不是自制螺蛳汤。"
+    },
+    {
+      "recipeId": "cn-015",
+      "recipeName": "兰州清汤牛肉面",
+      "category": "chinese",
+      "status": "absent",
+      "path": null,
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "cn-017",
+      "recipeName": "水煮牛肉",
+      "category": "chinese",
+      "status": "matched",
+      "path": "dishes/meat_dish/水煮牛肉/水煮牛肉.md",
+      "candidates": [
+        "dishes/meat_dish/水煮牛肉/水煮牛肉.md"
+      ]
+    },
+    {
+      "recipeId": "cn-018",
+      "recipeName": "酸菜鱼",
+      "category": "chinese",
+      "status": "absent",
+      "path": null,
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "cn-019",
+      "recipeName": "东坡肉",
+      "category": "chinese",
+      "status": "absent",
+      "path": null,
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "cn-020",
+      "recipeName": "白切鸡",
+      "category": "chinese",
+      "status": "absent",
+      "path": null,
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "cn-021",
+      "recipeName": "口水鸡",
+      "category": "chinese",
+      "status": "matched",
+      "path": "dishes/meat_dish/口水鸡/口水鸡.md",
+      "candidates": [
+        "dishes/meat_dish/口水鸡/口水鸡.md"
+      ]
+    },
+    {
+      "recipeId": "cn-022",
+      "recipeName": "北京烤鸭",
+      "category": "chinese",
+      "status": "absent",
+      "path": null,
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "cn-023",
+      "recipeName": "小鸡炖蘑菇",
+      "category": "chinese",
+      "status": "absent",
+      "path": null,
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "cn-025",
+      "recipeName": "西湖醋鱼",
+      "category": "chinese",
+      "status": "absent",
+      "path": null,
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "cn-026",
+      "recipeName": "龙井虾仁",
+      "category": "chinese",
+      "status": "absent",
+      "path": null,
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "cn-028",
+      "recipeName": "清炒虾仁",
+      "category": "chinese",
+      "status": "absent",
+      "path": null,
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "cn-030",
+      "recipeName": "蚂蚁上树",
+      "category": "chinese",
+      "status": "matched",
+      "path": "dishes/meat_dish/蚂蚁上树.md",
+      "candidates": [
+        "dishes/meat_dish/蚂蚁上树.md"
+      ]
+    },
+    {
+      "recipeId": "cn-031",
+      "recipeName": "家常豆腐",
+      "category": "chinese",
+      "status": "absent",
+      "path": null,
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "cn-032",
+      "recipeName": "虎皮青椒",
+      "category": "chinese",
+      "status": "matched",
+      "path": "dishes/vegetable_dish/虎皮青椒/虎皮青椒.md",
+      "candidates": [
+        "dishes/vegetable_dish/虎皮青椒/虎皮青椒.md"
+      ]
+    },
+    {
+      "recipeId": "cn-033",
+      "recipeName": "酸辣土豆丝",
+      "category": "chinese",
+      "status": "matched",
+      "path": "dishes/vegetable_dish/酸辣土豆丝.md",
+      "candidates": [
+        "dishes/vegetable_dish/酸辣土豆丝.md"
+      ]
+    },
+    {
+      "recipeId": "cn-034",
+      "recipeName": "韭菜炒鸡蛋",
+      "category": "chinese",
+      "status": "matched",
+      "path": "dishes/vegetable_dish/韭菜炒蛋/韭菜炒蛋.md",
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。",
+      "matchReason": "韭菜炒蛋正文明确鸡蛋，与韭菜炒鸡蛋同菜。"
+    },
+    {
+      "recipeId": "cn-035",
+      "recipeName": "冬瓜排骨汤",
+      "category": "chinese",
+      "status": "absent",
+      "path": null,
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "cn-037",
+      "recipeName": "佛跳墙",
+      "category": "chinese",
+      "status": "absent",
+      "path": null,
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "cn-038",
+      "recipeName": "腊味煲仔饭",
+      "category": "chinese",
+      "status": "matched",
+      "path": "dishes/staple/微波炉腊肠煲仔饭/微波炉腊肠煲仔饭.md",
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。",
+      "matchReason": "原文为微波炉腊肠煲仔饭版腊味饭，保留原题与工具。"
+    },
+    {
+      "recipeId": "cn-039",
+      "recipeName": "海南鸡饭",
+      "category": "chinese",
+      "status": "absent",
+      "path": null,
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "cn-040",
+      "recipeName": "担担面",
+      "category": "chinese",
+      "status": "absent",
+      "path": null,
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "cn-041",
+      "recipeName": "炸酱面",
+      "category": "chinese",
+      "status": "matched",
+      "path": "dishes/staple/炸酱面.md",
+      "candidates": [
+        "dishes/staple/炸酱面.md"
+      ]
+    },
+    {
+      "recipeId": "cn-042",
+      "recipeName": "热干面",
+      "category": "chinese",
+      "status": "matched",
+      "path": "dishes/staple/热干面.md",
+      "candidates": [
+        "dishes/staple/热干面.md"
+      ]
+    },
+    {
+      "recipeId": "cn-043",
+      "recipeName": "重庆小面",
+      "category": "chinese",
+      "status": "absent",
+      "path": null,
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "cn-044",
+      "recipeName": "小笼包",
+      "category": "chinese",
+      "status": "absent",
+      "path": null,
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "cn-045",
+      "recipeName": "韭菜猪肉饺子",
+      "category": "chinese",
+      "status": "matched",
+      "path": "dishes/staple/手工水饺.md",
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。",
+      "matchReason": "手工水饺正文明确韭菜和猪肉馅，对应韭菜猪肉饺子。"
+    },
+    {
+      "recipeId": "cn-046",
+      "recipeName": "馄饨",
+      "category": "chinese",
+      "status": "matched",
+      "path": "dishes/semi-finished/速冻馄饨.md",
+      "candidates": [
+        "dishes/semi-finished/速冻馄饨.md"
+      ],
+      "skipReason": "近名菜谱做法不同，不替代指定菜谱。",
+      "matchReason": "原文为电饭煲煮速冻馄饨版本，不包含自制馄饨皮馅步骤。"
+    },
+    {
+      "recipeId": "cn-047",
+      "recipeName": "葱油拌面",
+      "category": "chinese",
+      "status": "matched",
+      "path": "dishes/staple/葱油拌面.md",
+      "candidates": [
+        "dishes/condiment/葱油.md",
+        "dishes/staple/葱油拌面.md"
+      ]
+    },
+    {
+      "recipeId": "cn-048",
+      "recipeName": "炒河粉",
+      "category": "chinese",
+      "status": "matched",
+      "path": "dishes/staple/炒河粉.md",
+      "candidates": [
+        "dishes/staple/炒河粉.md"
+      ]
+    },
+    {
+      "recipeId": "cn-049",
+      "recipeName": "肉夹馍",
+      "category": "chinese",
+      "status": "absent",
+      "path": null,
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "cn-050",
+      "recipeName": "煎饼果子",
+      "category": "chinese",
+      "status": "absent",
+      "path": null,
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "cn-051",
+      "recipeName": "叉烧",
+      "category": "chinese",
+      "status": "absent",
+      "path": null,
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "cn-052",
+      "recipeName": "梅菜扣肉",
+      "category": "chinese",
+      "status": "matched",
+      "path": "dishes/meat_dish/梅菜扣肉/梅菜扣肉.md",
+      "candidates": [
+        "dishes/meat_dish/梅菜扣肉/梅菜扣肉.md"
+      ]
+    },
+    {
+      "recipeId": "cn-053",
+      "recipeName": "盐焗鸡",
+      "category": "chinese",
+      "status": "absent",
+      "path": null,
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "cn-055",
+      "recipeName": "干锅花菜",
+      "category": "chinese",
+      "status": "matched",
+      "path": "dishes/vegetable_dish/干锅花菜/干锅花菜.md",
+      "candidates": [
+        "dishes/vegetable_dish/干锅花菜/干锅花菜.md"
+      ]
+    },
+    {
+      "recipeId": "cn-056",
+      "recipeName": "上汤娃娃菜",
+      "category": "chinese",
+      "status": "matched",
+      "path": "dishes/vegetable_dish/上汤娃娃菜/上汤娃娃菜.md",
+      "candidates": [
+        "dishes/vegetable_dish/上汤娃娃菜/上汤娃娃菜.md"
+      ]
+    },
+    {
+      "recipeId": "cn-057",
+      "recipeName": "红烧茄子",
+      "category": "chinese",
+      "status": "matched",
+      "path": "dishes/vegetable_dish/红烧茄子.md",
+      "candidates": [
+        "dishes/vegetable_dish/红烧茄子.md"
+      ]
+    },
+    {
+      "recipeId": "cn-058",
+      "recipeName": "番茄牛腩",
+      "category": "chinese",
+      "status": "matched",
+      "path": "dishes/meat_dish/西红柿牛腩/西红柿牛腩.md",
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。",
+      "matchReason": "西红柿与番茄同义，同菜。"
+    },
+    {
+      "recipeId": "cn-059",
+      "recipeName": "紫菜蛋花汤",
+      "category": "chinese",
+      "status": "matched",
+      "path": "dishes/soup/紫菜蛋花汤.md",
+      "candidates": [
+        "dishes/soup/紫菜蛋花汤.md"
+      ]
+    },
+    {
+      "recipeId": "cn-060",
+      "recipeName": "银耳莲子羹",
+      "category": "chinese",
+      "status": "matched",
+      "path": "dishes/soup/银耳莲子粥/银耳莲子粥.md",
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。",
+      "matchReason": "原名银耳莲子粥，材料不含米或谷物，实际为银耳莲子甜羹；保留原题。"
+    },
+    {
+      "recipeId": "west-001",
+      "recipeName": "意大利肉酱面",
+      "category": "western",
+      "status": "matched",
+      "path": "dishes/staple/意式肉酱面/意式肉酱面.md",
+      "candidates": [
+        "dishes/staple/意式肉酱面/意式肉酱面.md"
+      ],
+      "matchReason": "意式即意大利式；原版使用成品意大利面酱加肉末。"
+    },
+    {
+      "recipeId": "west-002",
+      "recipeName": "玛格丽特披萨",
+      "category": "western",
+      "status": "absent",
+      "path": null,
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "west-003",
+      "recipeName": "香煎牛排",
+      "category": "western",
+      "status": "matched",
+      "path": "dishes/meat_dish/牛排/牛排.md",
+      "candidates": [
+        "dishes/meat_dish/牛排/牛排.md"
+      ],
+      "matchReason": "正文明确为西式煎牛排，操作为平底锅煎制。"
+    },
+    {
+      "recipeId": "west-005",
+      "recipeName": "芝士汉堡",
+      "category": "western",
+      "status": "absent",
+      "path": null,
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "west-007",
+      "recipeName": "炸鱼薯条",
+      "category": "western",
+      "status": "absent",
+      "path": null,
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "west-008",
+      "recipeName": "西班牙海鲜饭",
+      "category": "western",
+      "status": "absent",
+      "path": null,
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "west-009",
+      "recipeName": "德式烤香肠",
+      "category": "western",
+      "status": "absent",
+      "path": null,
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "west-010",
+      "recipeName": "香草烤鸡",
+      "category": "western",
+      "status": "matched",
+      "path": "dishes/meat_dish/意式烤鸡.md",
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。",
+      "matchReason": "鸡腿肉配欧芹香草的意式烤鸡，对应香草烤鸡；保留上游原名与具体配方。"
+    },
+    {
+      "recipeId": "west-013",
+      "recipeName": "奶油宽面",
+      "category": "western",
+      "status": "absent",
+      "path": null,
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "west-014",
+      "recipeName": "蘑菇烩饭",
+      "category": "western",
+      "status": "absent",
+      "path": null,
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "west-015",
+      "recipeName": "帕玛森鸡排",
+      "category": "western",
+      "status": "absent",
+      "path": null,
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "west-016",
+      "recipeName": "惠灵顿牛排",
+      "category": "western",
+      "status": "ambiguous",
+      "path": null,
+      "candidates": [
+        "dishes/meat_dish/牛排/牛排.md"
+      ],
+      "skipReason": "近名菜谱做法不同，不替代指定菜谱。"
+    },
+    {
+      "recipeId": "west-017",
+      "recipeName": "红酒炖鸡",
+      "category": "western",
+      "status": "absent",
+      "path": null,
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "west-018",
+      "recipeName": "普罗旺斯炖菜",
+      "category": "western",
+      "status": "absent",
+      "path": null,
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "west-019",
+      "recipeName": "马赛鱼汤",
+      "category": "western",
+      "status": "absent",
+      "path": null,
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "west-021",
+      "recipeName": "法式红酒炖牛肉",
+      "category": "western",
+      "status": "absent",
+      "path": null,
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "west-022",
+      "recipeName": "希腊穆萨卡",
+      "category": "western",
+      "status": "absent",
+      "path": null,
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "west-023",
+      "recipeName": "希腊沙拉",
+      "category": "western",
+      "status": "absent",
+      "path": null,
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "west-024",
+      "recipeName": "香煎鸡肉炸排",
+      "category": "western",
+      "status": "absent",
+      "path": null,
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "west-025",
+      "recipeName": "瑞典肉丸",
+      "category": "western",
+      "status": "absent",
+      "path": null,
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "west-026",
+      "recipeName": "匈牙利牛肉汤",
+      "category": "western",
+      "status": "absent",
+      "path": null,
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "west-027",
+      "recipeName": "炸鱼塔可",
+      "category": "western",
+      "status": "absent",
+      "path": null,
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "west-028",
+      "recipeName": "鸡肉芝士薄饼",
+      "category": "western",
+      "status": "absent",
+      "path": null,
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "west-029",
+      "recipeName": "班尼迪克蛋",
+      "category": "western",
+      "status": "absent",
+      "path": null,
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "west-030",
+      "recipeName": "酪乳煎饼",
+      "category": "western",
+      "status": "absent",
+      "path": null,
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。"
+    }
+  ],
+  "matchedCount": 24,
+  "skippedCount": 44,
+  "finalizedAt": "2026-10-08T07:23:11.815106+00:00"
+}

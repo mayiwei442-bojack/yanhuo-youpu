@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "可选荷包蛋egg过敏原补齐，可选属性与用量不改；具体来源版本、操作、计时、份数及披露通过，独立四项语言复审通过。",
+  "evidencePackageHash": "9995e4e6cf43b9068897f82ea7cc33ba5223fea0924837ff6467cb4d1d69390c",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "cn-006 重审通过：15分钟准备、60分钟烹饪、75分钟总计有同源支持；7个食材行和5个步骤通过对抗语言及结构审查，containsAlcohol=true。",
+  "evidencePackageHash": "6b33c650ba10f53a5b3e0628ac7a51b1c5f385264e598bc7dc4d4f854a8a7b80",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "recipeId": "cn-038",
+  "recipeName": "腊味煲仔饭",
+  "category": "chinese",
+  "createdAt": "2026-10-08T07:19:16.258364+00:00",
+  "sources": [
+    {
+      "sourceName": "HowToCook",
+      "sourceType": "website",
+      "url": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/staple/%E5%BE%AE%E6%B3%A2%E7%82%89%E8%85%8A%E8%82%A0%E7%85%B2%E4%BB%94%E9%A5%AD/%E5%BE%AE%E6%B3%A2%E7%82%89%E8%85%8A%E8%82%A0%E7%85%B2%E4%BB%94%E9%A5%AD.md",
+      "documentId": "1beb2ded-016f-4a48-b328-0dc7a7b96951",
+      "retrievalMethod": "GitHub immutable raw Markdown via configured local HTTP proxy; no access-control bypass",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "米",
+          "raw": "米 200 ml",
+          "amount": null,
+          "sourceSection": "必备原料和工具"
+        },
+        {
+          "name": "腊肠",
+          "raw": "腊肠 1 根",
+          "amount": null,
+          "sourceSection": "必备原料和工具"
+        },
+        {
+          "name": "鸡蛋",
+          "raw": "鸡蛋 1 个",
+          "amount": null,
+          "sourceSection": "必备原料和工具"
+        },
+        {
+          "name": "红萝卜",
+          "raw": "红萝卜 1 个",
+          "amount": null,
+          "sourceSection": "必备原料和工具"
+        },
+        {
+          "name": "盐",
+          "raw": "盐",
+          "amount": null,
+          "sourceSection": "必备原料和工具"
+        },
+        {
+          "name": "油",
+          "raw": "油 15 ml",
+          "amount": null,
+          "sourceSection": "必备原料和工具"
+        },
+        {
+          "name": "生抽",
+          "raw": "生抽 10 ml",
+          "amount": null,
+          "sourceSection": "必备原料和工具"
+        },
+        {
+          "name": "香葱",
+          "raw": "香葱 1 颗",
+          "amount": null,
+          "sourceSection": "必备原料和工具"
+        },
+        {
+          "name": "青菜",
+          "raw": "这是一道简单快手的粤式风味主食，米饭吸足腊肠油脂后油润咸香，搭配脆嫩青菜和胡萝卜，口感层次丰富。富含碳水化合物、蛋白质和多种维生素，营养均衡。烹饪用微波炉操作，对新手十分友好，预计全程仅需 15 分钟即可享用。",
+          "amount": null,
+          "sourceSection": "操作/附加内容"
+        },
+        {
+          "name": "水",
+          "raw": "这是一道简单快手的粤式风味主食，米饭吸足腊肠油脂后油润咸香，搭配脆嫩青菜和胡萝卜，口感层次丰富。富含碳水化合物、蛋白质和多种维生素，营养均衡。烹饪用微波炉操作，对新手十分友好，预计全程仅需 15 分钟即可享用。",
+          "amount": null,
+          "sourceSection": "操作/附加内容"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "将米淘洗干净后倒入 `饭碗` 内，加入 400ml 的水，**盖上盖**",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 1
+        },
+        {
+          "order": 2,
+          "instruction": "放入微波炉，高火，`6` 分钟，煮饭途中准备原料\n\n  - 切好腊肠\n  - 洗好青菜\n  - 切好红萝卜片\n  - 切好葱花\n  - `青菜碗` 中放入青菜、红萝卜片，倒入 10 ml 油，放入 5 g 盐\n  - `小碗` 中倒入 10 ml 生抽、5 ml 油",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 2
+        },
+        {
+          "order": 3,
+          "instruction": "6 分钟后，用毛巾或隔热手套取出碗，可以看见米饭已经八分熟",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 3
+        },
+        {
+          "order": 4,
+          "instruction": "在米饭上摆入切片的腊肠，继续高火 `2` 分钟",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 4
+        },
+        {
+          "order": 5,
+          "instruction": "取出腊肠饭，放入 `青菜碗`，高火 `4-5` 分钟",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 5
+        },
+        {
+          "order": 6,
+          "instruction": "在腊肠饭上摆好青菜，磕入鸡蛋，看个人喜好继续高火 `40-60` 秒",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 6
+        },
+        {
+          "order": 7,
+          "instruction": "取出腊肠饭，此时已经基本完成。",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 7
+        },
+        {
+          "order": 8,
+          "instruction": "将 `小碗` 放入，继续高火 `30` 秒",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 8
+        },
+        {
+          "order": 9,
+          "instruction": "在腊肠饭上淋上叮热的生抽，撒上葱花即可",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 9
+        },
+        {
+          "order": 10,
+          "instruction": "多余的青菜可以沾着酱油吃",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 10
+        }
+      ],
+      "technique": [
+        "1 人份。"
+      ],
+      "tips": [
+        "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+      ],
+      "rawExcerpt": "# 微波炉腊肠煲仔饭的做法\n\n![微波炉腊肠煲仔饭](微波炉腊肠煲仔饭.png)\n\n这是一道简单快手的粤式风味主食，米饭吸足腊肠油脂后油润咸香，搭配脆嫩青菜和胡萝卜，口感层次丰富。富含碳水化合物、蛋白质和多种维生素，营养均衡。烹饪用微波炉操作，对新手十分友好，预计全程仅需 15 分钟即可享用。\n\n预估烹饪难度：★★\n\n预估卡路里：1039 大卡\n\n## 必备原料和工具\n\n- 工具\n  - 微波炉\n  - 2 个大碗（推荐微波炉专用碗）\n  - 1 个小碗\n- 原料\n  - 米 200 ml\n  - 腊肠 1 根\n  - 鸡蛋 1 个\n  - 红萝卜 1 个\n  - 盐\n  - 油 15 ml\n  - 生抽 10 ml\n  - 香葱 1 颗\n\n## 计算\n\n1 人份。\n\n## 操作\n\n1. 将米淘洗干净后倒入 `饭碗` 内，加入 400ml 的水，**盖上盖**\n2. 放入微波炉，高火，`6` 分钟，煮饭途中准备原料\n\n  - 切好腊肠\n  - 洗好青菜\n  - 切好红萝卜片\n  - 切好葱花\n  - `青菜碗` 中放入青菜、红萝卜片，倒入 10 ml 油，放入 5 g 盐\n  - `小碗` 中倒入 10 ml 生抽、5 ml 油\n\n3. 6 分钟后，用毛巾或隔热手套取出碗，可以看见米饭已经八分熟\n4. 在米饭上摆入切片的腊肠，继续高火 `2` 分钟\n5. 取出腊肠饭，放入 `青菜碗`，高火 `4-5` 分钟\n6. 在腊肠饭上摆好青菜，磕入鸡蛋，看个人喜好继续高火 `40-60` 秒\n7. 取出腊肠饭，此时已经基本完成。\n8. 将 `小碗` 放入，继续高火 `30` 秒\n9. 在腊肠饭上淋上叮热的生抽，撒上葱花即可\n10. 多余的青菜可以沾着酱油吃\n\n## 附加内容\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n"
+    }
+  ],
+  "sourceMode": "single_source",
+  "singleSourceReason": "User explicitly directed exclusive HowToCook source and exact upstream transcription.",
+  "selectedSourceUrl": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/staple/%E5%BE%AE%E6%B3%A2%E7%82%89%E8%85%8A%E8%82%A0%E7%85%B2%E4%BB%94%E9%A5%AD/%E5%BE%AE%E6%B3%A2%E7%82%89%E8%85%8A%E8%82%A0%E7%85%B2%E4%BB%94%E9%A5%AD.md",
+  "selectionReason": "原文为微波炉腊肠煲仔饭版腊味饭，保留原题与工具。",
+  "ragEvidence": [
+    {
+      "chunkId": "43d9418a-e25d-4148-8519-729051837e10",
+      "documentId": "1beb2ded-016f-4a48-b328-0dc7a7b96951",
+      "sourceName": "HowToCook",
+      "chunkType": "tips",
+      "content": "菜名：腊味煲仔饭\n- 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。",
+      "similarity": 0.721149346862714
+    },
+    {
+      "chunkId": "3ecd937c-78bd-4816-a860-043b02259d89",
+      "documentId": "1beb2ded-016f-4a48-b328-0dc7a7b96951",
+      "sourceName": "HowToCook",
+      "chunkType": "technique",
+      "content": "菜名：腊味煲仔饭\n- 1 人份。",
+      "similarity": 0.665943384170532
+    },
+    {
+      "chunkId": "c48aa7e7-ced6-459e-9cb9-5b43e23de415",
+      "documentId": "1beb2ded-016f-4a48-b328-0dc7a7b96951",
+      "sourceName": "HowToCook",
+      "chunkType": "summary",
+      "content": "菜名：腊味煲仔饭\n别名：微波炉腊肠煲仔饭\n简介：# 微波炉腊肠煲仔饭的做法 ![微波炉腊肠煲仔饭](微波炉腊肠煲仔饭.png) 这是一道简单快手的粤式风味主食，米饭吸足腊肠油脂后油润咸香，搭配脆嫩青菜和胡萝卜，口感层次丰富。富含碳水化合物、蛋白质和多种维生素，营养均衡。烹饪用微波炉操作，对新手十分友好，预计全程仅需 15 分钟即可享用。 预估烹饪难度：★★ 预估卡路里：1039 大卡",
+      "similarity": 0.655687212944031
+    },
+    {
+      "chunkId": "dacf807c-1985-461f-a525-beba276b5ec8",
+      "documentId": "1beb2ded-016f-4a48-b328-0dc7a7b96951",
+      "sourceName": "HowToCook",
+      "chunkType": "ingredients",
+      "content": "菜名：腊味煲仔饭\n- 米 200 ml\n- 腊肠 1 根\n- 鸡蛋 1 个\n- 红萝卜 1 个\n- 盐\n- 油 15 ml\n- 生抽 10 ml\n- 香葱 1 颗\n- 这是一道简单快手的粤式风味主食，米饭吸足腊肠油脂后油润咸香，搭配脆嫩青菜和胡萝卜，口感层次丰富。富含碳水化合物、蛋白质和多种维生素，营养均衡。烹饪用微波炉操作，对新手十分友好，预计全程仅需 15 分钟即可享用。\n- 这是一道简单快手的粤式风味主食，米饭吸足腊肠油脂后油润咸香，搭配脆嫩青菜和胡萝卜，口感层次丰富。富含碳水化合物、蛋白质和多种维生素，营养均衡。烹饪用微波炉操作，对新手十分友好，预计全程仅需 15 分钟即可享用。",
+      "similarity": 0.630665797909075
+    },
+    {
+      "chunkId": "09adfd40-c9d3-4232-963c-83540d354f72",
+      "documentId": "1beb2ded-016f-4a48-b328-0dc7a7b96951",
+      "sourceName": "HowToCook",
+      "chunkType": "steps",
+      "content": "菜名：腊味煲仔饭\n1. 将米淘洗干净后倒入 `饭碗` 内，加入 400ml 的水，**盖上盖**\n2. 放入微波炉，高火，`6` 分钟，煮饭途中准备原料 - 切好腊肠 - 洗好青菜 - 切好红萝卜片 - 切好葱花 - `青菜碗` 中放入青菜、红萝卜片，倒入 10 ml 油，放入 5 g 盐 - `小碗` 中倒入 10 ml 生抽、5 ml 油\n3. 6 分钟后，用毛巾或隔热手套取出碗，可以看见米饭已经八分熟\n4. 在米饭上摆入切片的腊肠，继续高火 `2` 分钟\n5. 取出腊肠饭，放入 `青菜碗`，高火 `4-5` 分钟\n6. 在腊肠饭上摆好青菜，磕入鸡蛋，看个人喜好继续高火 `40-60` 秒\n7. 取出腊肠饭，此时已经基本完成。\n8. 将 `小碗` 放入，继续高火 `30` 秒\n9. 在腊肠饭上淋上叮热的生抽，撒上葱花即可\n10. 多余的青菜可以沾着酱油吃",
+      "similarity": 0.629928312901956
+    }
+  ],
+  "notes": [
+    "用户明确要求仅用 HowToCook，原文完整转录；complete=true 表示上游文档完整抓取，不表示烹饪参数无遗漏。",
+    "Source limitations: 原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。",
+    "GitHub commit a2d45c6984dff9ee941da0e7c452f7965965d962; path dishes/staple/微波炉腊肠煲仔饭/微波炉腊肠煲仔饭.md",
+    "媒体按原文位置保留；未要求映射的照片不伪称步骤图。",
+    "Existing exact-name knowledge-base documents checked before source fetching: 0"
+  ]
+}
