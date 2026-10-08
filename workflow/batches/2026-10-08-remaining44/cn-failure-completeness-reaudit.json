@@ -1,0 +1,27 @@
+{
+  "reviewedAt": "2026-10-08T12:41:18.329553+00:00",
+  "rule": "A short paragraph or packet convenience preparation is not grounds for rejection; method-only ingredients are extracted from the same source.",
+  "reversed": [
+    "cn-013"
+  ],
+  "clarified": [
+    "cn-018",
+    "cn-028"
+  ],
+  "remainingFailureCategories": {
+    "cn-012": "access / no complete matching source found",
+    "cn-018": "fulltext access / no complete matching source found",
+    "cn-022": "materially different duck-breast preparation",
+    "cn-023": "materially different regional recipe",
+    "cn-025": "access / no complete matching source found",
+    "cn-026": "429/403 / no complete matching source found",
+    "cn-028": "all main ingredient quantities absent and fulltext unavailable on recheck",
+    "cn-037": "access / no complete matching source found",
+    "cn-043": "403 / materially different noodle results",
+    "cn-050": "materially different frozen-scallion-pancake approximation / travel story without formula"
+  },
+  "qualificationConflict": [
+    "cn-015"
+  ],
+  "scope": "Cached failure evidence plus permitted ordinary English/pinyin alias searches; no frozen evidence changes."
+}

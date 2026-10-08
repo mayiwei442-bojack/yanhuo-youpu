@@ -1,0 +1,47 @@
+{
+  "recipeId": "west-027",
+  "bookCandidates": [],
+  "bookInventoryCount": 84,
+  "excludedHistory": [],
+  "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/beer-battered-fish-tacos",
+  "sourceMode": "multi_source",
+  "candidates": [
+    {
+      "sourceName": "BBC Good Food",
+      "url": "https://www.bbcgoodfood.com/recipes/beer-battered-fish-tacos",
+      "documentId": "5f01ee84-d58b-48b2-b9d7-acf5d10b5629",
+      "qualifies": true,
+      "ingredientCoverage": "complete",
+      "stepCoverage": "complete",
+      "internalCoherence": "coherent",
+      "heroImages": 1,
+      "mappedStepImages": 0,
+      "stepImageCoverage": 0,
+      "ingredientCount": 22,
+      "executableStepCount": 6,
+      "notes": [
+        "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented."
+      ]
+    },
+    {
+      "sourceName": "Serious Eats",
+      "url": "https://www.seriouseats.com/crispy-fried-fish-tacos-recipe",
+      "documentId": "c4ca8acd-5cf6-4d86-906f-deef06be087d",
+      "qualifies": true,
+      "ingredientCoverage": "complete",
+      "stepCoverage": "complete",
+      "internalCoherence": "coherent",
+      "heroImages": 0,
+      "mappedStepImages": 0,
+      "stepImageCoverage": 0,
+      "ingredientCount": 15,
+      "executableStepCount": 5,
+      "notes": [
+        "Page images and step adjacencies visible in web.open; original binary URLs not returned by failed web.click. No verified downloadable media available, no invented image mappings.",
+        "Source quantities with mixed units retained verbatim; no vessel capacity inferred."
+      ]
+    }
+  ],
+  "selectionReason": "Selected exactly one whole BBC recipe: full coherent ingredients/method match the target; verified usable hero (no source step photos available). Other sources have no verified usable media URLs under ordinary access. Under the required completeness/coherence then usable-image/coverage ranking, this source leads; its ingredients, operations, tips and media are kept together without supplementation.",
+  "ingestionVerified": true
+}

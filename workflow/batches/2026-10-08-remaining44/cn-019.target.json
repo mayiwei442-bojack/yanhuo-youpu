@@ -1,0 +1,282 @@
+{
+  "canonical": {
+    "id": "cn-019",
+    "category": "chinese",
+    "index": 18,
+    "record": {
+      "name": "东坡肉",
+      "en": "Dongpo Pork",
+      "region": "浙菜",
+      "ingredients": "五花肉整块900克；葱3把，洗净后纵向切成两半；姜8片；绍兴酒2杯；生抽2/3杯；老抽2又1/2汤匙；冰糖约113.4—141.7克（原文4—5盎司，按喜好的甜度选用）；清水适量（仅用于焯水，原文未给用量）",
+      "steps": "1）将整块五花肉洗净，放入沸水中焯1分钟后沥干，以去除杂质并便于切成大小一致的块。切成约7.6×7.6厘米的方块；喜欢小块的，也可切成约5.1×5.1厘米，放在一旁备用。2）优先选用中号砂锅，也可用中号普通锅（原文为4夸脱）。将洗净并纵向切成两半的葱，在锅底铺成厚实、均匀的一层，完全覆盖锅底；再将姜片均匀铺在葱上。葱层可防止炖煮时粘锅。3）将五花肉块皮朝下，摆在姜片和葱层上。4）倒入2杯绍兴酒、2/3杯生抽和2又1/2汤匙老抽，加入约113.4—141.7克冰糖。炖肉时不要加水或高汤。5）盖上锅盖，以中高火加热；锅中液体一沸腾，立即转小火，微沸炖90分钟，期间不必搅动。之后的步骤6与步骤7是两条替代路线，只选一条继续。6）继续原锅炖煮的路线：将肉块翻成皮朝上，盖上锅盖，以最低火力再微沸炖90分钟。保持最低火力时，锅中应有足够液体完成炖煮，不需要另外添加液体；完成后直接进行步骤8。7）改用蒸制的路线：将已炖90分钟的肉块移到耐热盘中，保持皮朝上，淋上一些锅中的炖汁，再放入蒸锅蒸90分钟。这条路线替代步骤6，不在原锅再炖90分钟后继续蒸。8）两条路线均以肉质软嫩为完成状态。将肉块移到盘中；需要更浓的酱汁时，将炖汁放入小锅，提高火力加热收浓，再淋在肉上。剩余酱汁可用来拌米饭或面条。",
+      "img": "29-dongpo-rou.png",
+      "source": "https://thewoksoflife.com/braised-pork-belly-dong-po-rou/",
+      "media": {
+        "sourceName": "The Woks of Life",
+        "recipePageUrl": "https://thewoksoflife.com/braised-pork-belly-dong-po-rou/",
+        "mediaPageUrl": "https://thewoksoflife.com/braised-pork-belly-dong-po-rou/",
+        "author": "Judy",
+        "rightsNotice": "All Rights Reserved © The Woks of Life",
+        "reuseLicense": null,
+        "repositoryCopyAuthorization": "user_confirmed_2026-10-08_remaining44",
+        "hero": {
+          "path": "assets/dishes/sources/cn-019-woks-dongpo/hero.jpg",
+          "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/10/braised-pork-belly-6.jpg",
+          "sha256": "33d662c93bb7959bb6fb6344e20b217f0108108d5ceb11972b623e934f2e357b",
+          "httpStatus": 200,
+          "contentType": "image/jpeg"
+        },
+        "steps": [
+          {
+            "stepOrder": 2,
+            "sourceStepOrder": 2,
+            "path": "assets/dishes/sources/cn-019-woks-dongpo/step-2-1.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/10/braised-pork-belly-1.jpg",
+            "sha256": "db541980739c100bb19f15d06f7cb9bf2d321b6cb38f3bd00e7e0bb8ca5f9646",
+            "httpStatus": 200,
+            "contentType": "image/jpeg"
+          },
+          {
+            "stepOrder": 3,
+            "sourceStepOrder": 3,
+            "path": "assets/dishes/sources/cn-019-woks-dongpo/step-3-7.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/10/braised-pork-belly-7.jpg",
+            "sha256": "da630c82ab8006a66569923e9a5f657bde062e781ded70d4002820f20d7b4392",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          },
+          {
+            "stepOrder": 4,
+            "sourceStepOrder": 3,
+            "path": "assets/dishes/sources/cn-019-woks-dongpo/step-3-8.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/10/braised-pork-belly-8.jpg",
+            "sha256": "800663d39be2d03607af22b6f4a823e382fe18fcefe2a1594b8344730278b8dc",
+            "httpStatus": 200,
+            "contentType": "image/jpeg"
+          },
+          {
+            "stepOrder": 6,
+            "sourceStepOrder": 5,
+            "path": "assets/dishes/sources/cn-019-woks-dongpo/step-5-9.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/10/braised-pork-belly-9.jpg",
+            "sha256": "24b1b26ba9f95e0c810f3b47169477e6d8ac2bdc83dcc932ff8c27071ba0e212",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          },
+          {
+            "stepOrder": 7,
+            "sourceStepOrder": 5,
+            "path": "assets/dishes/sources/cn-019-woks-dongpo/step-5-10.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/10/braised-pork-belly-10.jpg",
+            "sha256": "00301b5d2d95ee52e71f793ebfec025b421fd05e36e3031757004623cf1b8f81",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          }
+        ]
+      },
+      "timing": {
+        "totalMinutes": 230,
+        "prepMinutes": 20,
+        "cookMinutes": 210,
+        "stepDurations": [
+          null,
+          null,
+          null,
+          null,
+          5400,
+          null,
+          null,
+          null
+        ]
+      },
+      "servings": 8,
+      "sourceLimitations": [
+        "原文步骤为先炖90分钟，再选择炖90分钟或蒸90分钟，两段合计180分钟；原文另标烹饪时间210分钟、总时间230分钟，此处分别保留，不以步骤时长重算总时间。",
+        "原文未量化焯水用水，杯和汤匙也未规定容量；保留原单位，不推算毫升。"
+      ]
+    }
+  },
+  "generated": {
+    "id": "cn-019",
+    "name": "东坡肉",
+    "en": "Dongpo Pork",
+    "cuisine": "浙菜",
+    "category": "中餐",
+    "isHeritageFlavor": false,
+    "heritageStatus": null,
+    "ingredients": [
+      {
+        "id": "ingredient-01",
+        "name": "五花肉整块",
+        "label": "五花肉整块900克",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-02",
+        "name": "葱",
+        "label": "葱3把，洗净后纵向切成两半",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-03",
+        "name": "姜",
+        "label": "姜8片",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-04",
+        "name": "绍兴酒",
+        "label": "绍兴酒2杯",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-05",
+        "name": "生抽",
+        "label": "生抽2/3杯",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-06",
+        "name": "老抽",
+        "label": "老抽2又1/2汤匙",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-07",
+        "name": "冰糖",
+        "label": "冰糖约113.4—141.7克（原文4—5盎司，按喜好的甜度选用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-08",
+        "name": "清水",
+        "label": "清水适量（仅用于焯水，原文未给用量）",
+        "isCore": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-01",
+        "instruction": "将整块五花肉洗净，放入沸水中焯1分钟后沥干，以去除杂质并便于切成大小一致的块。切成约7.6×7.6厘米的方块；喜欢小块的，也可切成约5.1×5.1厘米，放在一旁备用。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-02",
+        "instruction": "优先选用中号砂锅，也可用中号普通锅（原文为4夸脱）。将洗净并纵向切成两半的葱，在锅底铺成厚实、均匀的一层，完全覆盖锅底；再将姜片均匀铺在葱上。葱层可防止炖煮时粘锅。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-019-woks-dongpo/step-2-1.jpg",
+        "imageSource": "https://thewoksoflife.com/braised-pork-belly-dong-po-rou/"
+      },
+      {
+        "id": "step-03",
+        "instruction": "将五花肉块皮朝下，摆在姜片和葱层上。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-019-woks-dongpo/step-3-7.jpg",
+        "imageSource": "https://thewoksoflife.com/braised-pork-belly-dong-po-rou/"
+      },
+      {
+        "id": "step-04",
+        "instruction": "倒入2杯绍兴酒、2/3杯生抽和2又1/2汤匙老抽，加入约113.4—141.7克冰糖。炖肉时不要加水或高汤。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-019-woks-dongpo/step-3-8.jpg",
+        "imageSource": "https://thewoksoflife.com/braised-pork-belly-dong-po-rou/"
+      },
+      {
+        "id": "step-05",
+        "instruction": "盖上锅盖，以中高火加热；锅中液体一沸腾，立即转小火，微沸炖90分钟，期间不必搅动。之后的步骤6与步骤7是两条替代路线，只选一条继续。",
+        "duration": 5400,
+        "heat": null,
+        "timerRequired": true,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-06",
+        "instruction": "继续原锅炖煮的路线：将肉块翻成皮朝上，盖上锅盖，以最低火力再微沸炖90分钟。保持最低火力时，锅中应有足够液体完成炖煮，不需要另外添加液体；完成后直接进行步骤8。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-019-woks-dongpo/step-5-9.jpg",
+        "imageSource": "https://thewoksoflife.com/braised-pork-belly-dong-po-rou/"
+      },
+      {
+        "id": "step-07",
+        "instruction": "改用蒸制的路线：将已炖90分钟的肉块移到耐热盘中，保持皮朝上，淋上一些锅中的炖汁，再放入蒸锅蒸90分钟。这条路线替代步骤6，不在原锅再炖90分钟后继续蒸。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-019-woks-dongpo/step-5-10.jpg",
+        "imageSource": "https://thewoksoflife.com/braised-pork-belly-dong-po-rou/"
+      },
+      {
+        "id": "step-08",
+        "instruction": "两条路线均以肉质软嫩为完成状态。将肉块移到盘中；需要更浓的酱汁时，将炖汁放入小锅，提高火力加热收浓，再淋在肉上。剩余酱汁可用来拌米饭或面条。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      }
+    ],
+    "sourceLimitations": [
+      "原文步骤为先炖90分钟，再选择炖90分钟或蒸90分钟，两段合计180分钟；原文另标烹饪时间210分钟、总时间230分钟，此处分别保留，不以步骤时长重算总时间。",
+      "原文未量化焯水用水，杯和汤匙也未规定容量；保留原单位，不推算毫升。"
+    ],
+    "imageThumb": "assets/dishes/sources/cn-019-woks-dongpo/hero.jpg",
+    "imageFull": "assets/dishes/sources/cn-019-woks-dongpo/hero.jpg",
+    "source": "https://thewoksoflife.com/braised-pork-belly-dong-po-rou/",
+    "media": {
+      "sourceName": "The Woks of Life",
+      "recipePageUrl": "https://thewoksoflife.com/braised-pork-belly-dong-po-rou/",
+      "mediaPageUrl": "https://thewoksoflife.com/braised-pork-belly-dong-po-rou/",
+      "author": "Judy",
+      "rightsNotice": "All Rights Reserved © The Woks of Life",
+      "reuseLicense": null,
+      "repositoryCopyAuthorization": "user_confirmed_2026-10-08_remaining44"
+    },
+    "time": 230,
+    "timeBasis": "source",
+    "difficulty": "进阶",
+    "defaultServings": 8,
+    "servingsBasis": "source",
+    "allergens": [
+      "soy"
+    ],
+    "flags": {
+      "containsPork": true,
+      "containsBeef": false,
+      "containsAlcohol": true,
+      "spicy": false,
+      "vegetarian": false
+    },
+    "demoEnriched": true
+  }
+}

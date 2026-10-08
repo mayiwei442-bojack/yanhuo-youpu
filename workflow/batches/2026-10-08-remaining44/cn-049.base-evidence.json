@@ -1,0 +1,280 @@
+{
+  "recipeId": "cn-049",
+  "recipeName": "肉夹馍",
+  "category": "chinese",
+  "createdAt": "2026-10-08T12:08:59.213973+00:00",
+  "sources": [
+    {
+      "sourceName": "The Woks of Life",
+      "sourceType": "website",
+      "url": "https://thewoksoflife.com/chinese-hamburgers-rou-jia-mo/",
+      "documentId": "d45ed17d-216f-4704-9a67-6d247f9705e5",
+      "retrievalMethod": "Normal web browser fetch complete recipe card plus relevant operational narrative",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "pork belly",
+          "amount": "2 pounds",
+          "raw": "2 pounds pork belly",
+          "sourceGroup": "For the meat:"
+        },
+        {
+          "name": "water",
+          "amount": "3 cups",
+          "raw": "3 cups water",
+          "sourceGroup": "For the meat:"
+        },
+        {
+          "name": "Shaoxing wine",
+          "amount": "¼ cup",
+          "raw": "¼ cup Shaoxing wine",
+          "sourceGroup": "For the meat:"
+        },
+        {
+          "name": "rock sugar (or 1 tablespoon granulated sugar)",
+          "amount": "12 grams",
+          "raw": "12 grams rock sugar (or 1 tablespoon granulated sugar)",
+          "sourceGroup": "For the meat:"
+        },
+        {
+          "name": "light soy sauce",
+          "amount": "2 tablespoons",
+          "raw": "2 tablespoons light soy sauce",
+          "sourceGroup": "For the meat:"
+        },
+        {
+          "name": "dark soy sauce",
+          "amount": "1 tablespoon",
+          "raw": "1 tablespoon dark soy sauce",
+          "sourceGroup": "For the meat:"
+        },
+        {
+          "name": "scallions (cut in half)",
+          "amount": "4",
+          "raw": "4 scallions (cut in half)",
+          "sourceGroup": "For the meat:"
+        },
+        {
+          "name": "ginger",
+          "amount": "3 slices",
+          "raw": "3 slices ginger",
+          "sourceGroup": "For the meat:"
+        },
+        {
+          "name": "star anise",
+          "amount": "2",
+          "raw": "2 star anise",
+          "sourceGroup": "For the meat:"
+        },
+        {
+          "name": "cinnamon stick",
+          "amount": "1",
+          "raw": "1 cinnamon stick",
+          "sourceGroup": "For the meat:"
+        },
+        {
+          "name": "black cardamom pod",
+          "amount": "1",
+          "raw": "1 black cardamom pod",
+          "sourceGroup": "For the meat:"
+        },
+        {
+          "name": "galangal (or sand ginger)",
+          "amount": "2 pieces",
+          "raw": "2 pieces galangal (or sand ginger)",
+          "sourceGroup": "For the meat:"
+        },
+        {
+          "name": "Sichuan peppercorns",
+          "amount": "1 teaspoon",
+          "raw": "1 teaspoon Sichuan peppercorns",
+          "sourceGroup": "For the meat:"
+        },
+        {
+          "name": "bay leaves",
+          "amount": "3",
+          "raw": "3 bay leaves",
+          "sourceGroup": "For the meat:"
+        },
+        {
+          "name": "Salt (to taste)",
+          "amount": null,
+          "raw": "Salt (to taste)",
+          "sourceGroup": "For the meat:"
+        },
+        {
+          "name": "chopped cilantro",
+          "amount": "1 cup",
+          "raw": "1 cup chopped cilantro",
+          "sourceGroup": "For the meat:"
+        },
+        {
+          "name": "all-purpose flour (by weight, each cup is equivalent to 150 grams)",
+          "amount": "3½ cups",
+          "raw": "3½ cups all-purpose flour (by weight, each cup is equivalent to 150 grams)",
+          "sourceGroup": "For the buns:"
+        },
+        {
+          "name": "active dry yeast (about 8 grams)",
+          "amount": "2 teaspoons",
+          "raw": "2 teaspoons active dry yeast (about 8 grams)",
+          "sourceGroup": "For the buns:"
+        },
+        {
+          "name": "salt",
+          "amount": "¾ teaspoon",
+          "raw": "¾ teaspoon salt",
+          "sourceGroup": "For the buns:"
+        },
+        {
+          "name": "to 1¼ cups warm water (depending on humidity)",
+          "amount": "1",
+          "raw": "1 to 1¼ cups warm water (depending on humidity)",
+          "sourceGroup": "For the buns:"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Keep the pork belly whole, or cut it into large, 4- to 5-inch chunks. Place the pork belly in a medium pot, and fill it with just enough water to cover it. Bring the water to a boil. Once the pork has gone opaque and appears cooked on the outside, shut off the heat, remove the pork from the pot, and rinse it clean under running water. Dump out the water and clean the pot.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "Put the pork belly back in the clean pot, and add 3 cups of water, the Shaoxing wine, rock sugar, light soy sauce, dark soy sauce, scallions, ginger, star anise, cinnamon, black cardamom, galangal, Sichuan peppercorns, and bay leaves. Bring everything to a boil, then immediately turn down the heat to low and simmer for 90 minutes to 2 hours, until fork tender. To test it, stick a fork into the meat. It’s done if you can pull the fork out easily.\nDo not use high heat when simmering to avoid drying out the sauce. Add salt to taste.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "While the pork is simmering, make the buns. To a mixing bowl, add the flour, yeast, and salt. Slowly add the warm water, mixing and kneading until it forms a smooth dough ball. Once a dough ball is formed, knead it for another 10 minutes to build up the gluten in the dough–this will make the buns chewier. You can also use an electric mixer with the dough hook attachment for this. The dough should feel soft and easy to work with.\nCover the dough, and let it proof at room temperature for about an hour until it doubles in size.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "After proofing, knead the dough for about 5 minutes to get rid of any air bubbles. Divide the dough into 12 equal pieces. Cover the dough balls with a kitchen towel to prevent them from drying out while you’re shaping the buns.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 5,
+          "instruction": "To shape the buns, take each dough ball and roll it out into a cigar-like shape. Next, roll it out into a longer and narrower strip, and fold it in half lengthwise. Roll it up into a bundle, with the loose end tucked underneath. Turn it on its side so the swirls are facing up, and press it down with your palm. Now roll it out into a disc about 4 inches in diameter. Repeat these steps for all of the dough balls. Cover the shaped buns with a dry kitchen towel, and let rest for 20 minutes before cooking.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 6,
+          "instruction": "Pre-heat a flat-bottomed pan or cast-iron skillet over medium heat. Place the buns in the pan about an inch apart (no oil is necessary). Cover the lid, and let the buns cook for 2 minutes on each side. The heat shouldn’t be too high, or your buns may burn. After cooking the buns for 2 minutes on each side, remove the lid, and cook each side for another minute or so until the entire bun is golden brown.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 7,
+          "instruction": "To serve, take out the pork, coarsely chop it, and transfer it to a bowl. Mix in the chopped cilantro, and add the sauce from the meat to your desired consistency. Think Asian sloppy joe–you could go really saucy or have a drier sandwich. Toss everything together, slice open a bun, load the meat inside, and serve.",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [
+        "Serves: 12",
+        "Prep: 2 hrs",
+        "Cook: 30 mins",
+        "Total: 2 hrs 30 mins"
+      ],
+      "tips": [],
+      "rawExcerpt": "## Recipe\n\nImage\n\nPrint\n\n4.91 from 40 votes\n\n### Chinese Hamburger, Rou Jia Mo 肉夹馍\n\nChinese Hamburger, Rou Jia Mo (肉夹馍) means “meat in a bun,” which sort of makes it similar to what we’d think of as a hamburger, or maybe a Chinese sloppy joe. So there’s the meat filling of shredded pork belly with spices and fresh herbs sandwiched between a homemade pan baked bun.\n\nby: Judy\n\nServes: 12\n\nPrep: 2 hrs\n\nCook: 30 mins\n\nTotal: 2 hrs 30 mins\n\n#### Ingredients\n##### For the meat:\n* [Input]2 pounds pork belly\n* [Input]3 cups water\n* [Input]¼ cup Shaoxing wine\n* [Input]12 grams rock sugar (or 1 tablespoon granulated sugar)\n* [Input]2 tablespoons light soy sauce\n* [Input]1 tablespoon dark soy sauce\n* [Input]4 scallions (cut in half)\n* [Input]3 slices ginger\n* [Input]2 star anise\n* [Input]1 cinnamon stick\n* [Input]1 black cardamom pod\n* [Input]2 pieces galangal (or sand ginger)\n* [Input]1 teaspoon Sichuan peppercorns\n* [Input]3 bay leaves\n* [Input]Salt (to taste)\n* [Input]1 cup chopped cilantro\n##### For the buns:\n\n* [Input]3½ cups all-purpose flour (by weight, each cup is equivalent to 150 grams)\n* [Input]2 teaspoons active dry yeast (about 8 grams)\n* [Input]¾ teaspoon salt\n* [Input]1 to 1¼ cups warm water (depending on humidity)\n#### Instructions\n\n* Keep the pork belly whole, or cut it into large, 4- to 5-inch chunks. Place the pork belly in a medium pot, and fill it with just enough water to cover it. Bring the water to a boil. Once the pork has gone opaque and appears cooked on the outside, shut off the heat, remove the pork from the pot, and rinse it clean under running water. Dump out the water and clean the pot.\n* Put the pork belly back in the clean pot, and add 3 cups of water, the Shaoxing wine, rock sugar, light soy sauce, dark soy sauce, scallions, ginger, star anise, cinnamon, black cardamom, galangal, Sichuan peppercorns, and bay leaves. Bring everything to a boil, then immediately turn down the heat to low and simmer for 90 minutes to 2 hours, until fork tender. To test it, stick a fork into the meat. It’s done if you can pull the fork out easily.\nDo not use high heat when simmering to avoid drying out the sauce. Add salt to taste.\n* While the pork is simmering, make the buns. To a mixing bowl, add the flour, yeast, and salt. Slowly add the warm water, mixing and kneading until it forms a smooth dough ball. Once a dough ball is formed, knead it for another 10 minutes to build up the gluten in the dough–this will make the buns chewier. You can also use an electric mixer with the dough hook attachment for this. The dough should feel soft and easy to work with.\nCover the dough, and let it proof at room temperature for about an hour until it doubles in size.\n* After proofing, knead the dough for about 5 minutes to get rid of any air bubbles. Divide the dough into 12 equal pieces. Cover the dough balls with a kitchen towel to prevent them from drying out while you’re shaping the buns.\n* To shape the buns, take each dough ball and roll it out into a cigar-like shape. Next, roll it out into a longer and narrower strip, and fold it in half lengthwise. Roll it up into a bundle, with the loose end tucked underneath. Turn it on its side so the swirls are facing up, and press it down with your palm. Now roll it out into a disc about 4 inches in diameter. Repeat these steps for all of the dough balls. Cover the shaped buns with a dry kitchen towel, and let rest for 20 minutes before cooking.\n* Pre-heat a flat-bottomed pan or cast-iron skillet over medium heat. Place the buns in the pan about an inch apart (no oil is necessary). Cover the lid, and let the buns cook for 2 minutes on each side. The heat shouldn’t be too high, or your buns may burn. After cooking the buns for 2 minutes on each side, remove the lid, and cook each side for another minute or so until the entire bun is golden brown.\n* To serve, take out the pork, coarsely chop it, and transfer it to a bowl. Mix in the chopped cilantro, and add the sauce from the meat to your desired consistency. Think Asian sloppy joe–you could go really saucy or have a drier sandwich. Toss everything together, slice open a bun, load the meat inside, and serve.\n\nOperational narrative\n## From the Cuisine of Shaanxi Province\n\nMany have not heard much about Shaanxi province in China , but you may have heard of its capital city, Xi’An, where you can find the legendary terracotta warriors.\n\nFor those of us who have visited Xi’an, we’ve had the chance to sample the amazing food there firsthand: Biang Noodles , Yang Rou Pao Mo (羊肉泡馍), Rou Jia Mo (肉夹馍), and many others.\nA few years ago, we visited Muslim Street, i.e., Xi’An’s street food heaven . I’m still drooling over the photos of all the delicious snacks we gorged ourselves on.\n## What Is Rou Jia Mo?\n\nThe direct translation for Rou Jia Mo (肉夹馍) is “meat in a bun,” which sort of makes it similar to what we’d think of as a hamburger, or maybe a Chinese sloppy joe. So there’s the meat, and there’s the bun. Let’s talk about both.\n\nAfter a bit of research, the meat filling is what’s called La Zhi Rou, 腊汁肉,which dates back over two thousand years! Pretty mind boggling that the Chinese were noshing on this delectable pork belly thousands of years ago.\nI’m not sure though if La Zhi Rou was eaten as is, perhaps with rice, or in a bun, which led me to ponder the question: who was the original sandwich creator? The Chinese Earl of Sandwich, if you will.\n\nThe bun, aka “mo, 馍,” (the Northerners’ word for mantou, 馒头) is the Northern provinces’ main source of starch, rather than rice. Some “mo” are steamed and others are baked. In this case, the mo is baked in a wok or pan with the lid on.\nIn case you’re wondering, in China, Northerners and Southerners each have their own diet, their own customs, and their own words in many cases. For example, Northerners call their father “Da, 大” or Die,爹” and it’s “Ba, 爸” for the Southerners. Fun facts!\n## Expanding Perceptions of Chinese Cuisine In America\n\nThat said, I’ve witnessed the transformation of Chinese cuisine in America over the past thirty years. Chinese food is no longer limited to takeout and the formerly dominant Cantonese cuisine, which so many people simply recognized as “Chinese food.”\n\nNow dishes from Sichuan (川菜)Shanghai (浙菜), Hunan (湘菜) and Shaanxi (秦菜) are represented under a much broader, and more accurate representation of what Chinese food is.\nOne of the stars of Shaanxi cuisine, Rou Jia Mo (Chinese hamburger), seems to be gaining momentum in the Western culinary world. All I know for sure is that more choices means more to eat, and I couldn’t be happier about that!\n\n\n## Recipe Notes\n\nA few side notes before we get started:\n* I’d encourage you to try cooking the meat the day before you’re looking to serve it, in order to let the sauce soak in overnight and intensify the flavors. Heat it up the next day before serving.\n* Don’t overcook the pork belly. If it’s too soft, you won’t get that “sink your teeth into it” experience!\n* If you like it spicy, chop one or two raw jalapeno peppers finely, and mix in with the meat mixture. You could get really crazy and use pickled banana peppers too!\n* If you have leftover buns, store them in a zip-lock bag to prevent them from drying out.\n* And if you only want to make the meat filling and use a hamburger bun or a Kaiser roll instead, you wouldn’t hurt my feelings in the least. :)\n## Rou Jia Mo: Recipe Instructions\n\nKeep the pork belly whole, or cut it into large, 4- to 5-inch chunks. Place the pork belly in a medium pot, and fill it with just enough water to cover it. Bring the water to a boil.\n\nOnce the pork has gone opaque and appears cooked on the outside, shut off the heat, remove the pork from the pot, and rinse it clean under running water. Dump out the water and clean the pot.\nPut the pork belly back in the clean pot, and add 3 cups of water, the Shaoxing wine , rock sugar , light soy sauce , dark soy sauce , scallions , ginger , star anise , cinnamon stick , black cardamom pod (tsaoko), galangal or sand ginger , Sichuan peppercorns , and bay leaves .\nBring everything to a boil, then immediately turn down the heat to low and simmer for 90 minutes to 2 hours, until fork tender. To test it, stick a fork into the meat. It’s done if you can pull the fork out easily. Do not use high heat when simmering to avoid drying out the sauce. Add salt to taste.\nWhile the pork is simmering, make the buns for your Chinese hamburgers. To a mixing bowl, add the flour, yeast, and salt. Slowly add the warm water, mixing and kneading until it forms a smooth dough ball. Once a dough ball is formed, knead it for another 10 minutes to build up the gluten in the dough–this will make the buns chewier.\nYou can also use an electric mixer with the dough hook attachment for this. The dough should feel soft and easy to work with. Cover the dough, and let it proof at room temperature for about an hour until it doubles in size.\n\n\nAfter proofing, knead the dough for about 5 minutes to get rid of any air bubbles. Divide the dough into 12 equal pieces. Cover the dough balls with a kitchen towel to prevent them from drying out while you’re shaping the buns.\n\nTo shape the buns, take each dough ball and roll it out into a cigar-like shape. Next, roll it out into a longer and narrower strip…\n\n\n\nAnd fold it in half lengthwise.\n\n\nRoll it up into a bundle, with the loose end tucked underneath.\n\n\n\nTurn it on its side, so that the swirls are facing up.\n\n\n\nPress it down with your palm.\n\n\nNow roll it out into a disc about 4 inches in diameter. Repeat these steps for all of the dough balls. Cover the shaped buns with a dry kitchen towel, and let rest for 20 minutes before cooking.\n\n\nPre-heat a flat-bottomed pan or cast-iron skillet over medium heat. Place the buns in the pan about an inch apart (no oil is necessary). Cover the lid, and let the buns cook for 2 minutes on each side. The heat shouldn’t be too high, or your buns may burn. No one likes burned buns. After cooking the buns for 2 minutes on each side, remove the lid, and cook each side for another minute or so until the entire bun is golden brown.\n\n\nContinue in batches until the buns are all cooked.\n\n\n\nTo serve, take out the pork, coarsely chop it, and transfer it to a bowl. Mix in the chopped cilantro , and add the sauce from the meat to your desired consistency.\n\n\n\n\nThink Asian sloppy joe–you could go really saucy or have a drier sandwich. Toss everything together, slice open a bun, load the meat inside…\n\n\n\nAnd it’s time to sink your teeth into this scrumptious little bundle of porky goodness, Rou Jia Mo Chinese Hamburger.\n\n\n\n\nLooking for more authentic recipes? Subscribe to our email list and be sure to follow us on Pinterest , Facebook , Instagram , and Youtube!",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 0,
+        "mappedStepImages": 0,
+        "stepImageCoverage": 0,
+        "ingredientCount": 20,
+        "executableStepCount": 7,
+        "notes": [
+          "Media verification pending parent import. Source quantities retained without vessel-unit conversion."
+        ]
+      }
+    }
+  ],
+  "sourceMode": "single_source",
+  "singleSourceReason": "已读取数据库全部84份书籍菜谱并按名称、别名和正文核对，本菜无完全匹配书籍信源。已检索配置豆果来源，其他候选如有见notes；保留可访问完整Woks整份配方。",
+  "selectedSourceUrl": "https://thewoksoflife.com/chinese-hamburgers-rou-jia-mo/",
+  "selectionReason": "此完整且内部自洽的名称匹配信源可保留所有原料用量和操作；图片核验待完成，未混入其他来源。",
+  "ragEvidence": [
+    {
+      "chunkId": "a68abb38-1fa3-457a-80fd-ac77c0afa53e",
+      "documentId": "d45ed17d-216f-4704-9a67-6d247f9705e5",
+      "sourceName": "The Woks of Life",
+      "chunkType": "summary",
+      "content": "菜名：肉夹馍\n菜系：中餐\n简介：完整单一信源：https://thewoksoflife.com/chinese-hamburgers-rou-jia-mo/",
+      "similarity": 0.736709506903951
+    },
+    {
+      "chunkId": "28565fcd-c792-411e-85f9-aaa9e88727f0",
+      "documentId": "d45ed17d-216f-4704-9a67-6d247f9705e5",
+      "sourceName": "The Woks of Life",
+      "chunkType": "tips",
+      "content": "菜名：肉夹馍\n- 原文未提供额外提示。",
+      "similarity": 0.700608730316162
+    },
+    {
+      "chunkId": "bb3c368a-5baa-4804-9790-5ca9530789c0",
+      "documentId": "d45ed17d-216f-4704-9a67-6d247f9705e5",
+      "sourceName": "The Woks of Life",
+      "chunkType": "steps",
+      "content": "菜名：肉夹馍\n5. To shape the buns, take each dough ball and roll it out into a cigar-like shape. Next, roll it out into a longer and narrower strip, and fold it in half lengthwise. Roll it up into a bundle, with the loose end tucked underneath. Turn it on its side so the swirls are facing up, and press it down with your palm. Now roll it out into a disc about 4 inches in diameter. Repeat these steps for all of the dough balls. Cover the shaped buns with a dry kitchen towel, and let rest for 20 minutes before cooking.\n6. Pre-heat a flat-bottomed pan or cast-iron skillet over medium heat. Place the buns in the pan about an inch apart (no oil is necessary). Cover the lid, and let the buns cook for 2 minutes on each side. The heat shouldn’t be too high, or your buns may burn. After cooking the buns for 2 minutes on each side, remove the lid, and cook each side for another minute or so until the entire bun is golden brown.",
+      "similarity": 0.698254066809771
+    },
+    {
+      "chunkId": "4d6ea4ce-1c22-4bce-8b09-3d5a992db2ef",
+      "documentId": "d45ed17d-216f-4704-9a67-6d247f9705e5",
+      "sourceName": "The Woks of Life",
+      "chunkType": "steps",
+      "content": "菜名：肉夹馍\n7. To serve, take out the pork, coarsely chop it, and transfer it to a bowl. Mix in the chopped cilantro, and add the sauce from the meat to your desired consistency. Think Asian sloppy joe–you could go really saucy or have a drier sandwich. Toss everything together, slice open a bun, load the meat inside, and serve.",
+      "similarity": 0.695555588470566
+    },
+    {
+      "chunkId": "adeb437a-2050-4393-9d9b-2d78b8bf3018",
+      "documentId": "d45ed17d-216f-4704-9a67-6d247f9705e5",
+      "sourceName": "The Woks of Life",
+      "chunkType": "steps",
+      "content": "菜名：肉夹馍\n3. While the pork is simmering, make the buns. To a mixing bowl, add the flour, yeast, and salt. Slowly add the warm water, mixing and kneading until it forms a smooth dough ball. Once a dough ball is formed, knead it for another 10 minutes to build up the gluten in the dough–this will make the buns chewier. You can also use an electric mixer with the dough hook attachment for this. The dough should feel soft and easy to work with. Cover the dough, and let it proof at room temperature for about an hour until it doubles in size.\n4. After proofing, knead the dough for about 5 minutes to get rid of any air bubbles. Divide the dough into 12 equal pieces. Cover the dough balls with a kitchen towel to prevent them from drying out while you’re shaping the buns.",
+      "similarity": 0.664810538125983
+    },
+    {
+      "chunkId": "be84d86b-4011-4fdc-8e15-fdef06ff82e8",
+      "documentId": "d45ed17d-216f-4704-9a67-6d247f9705e5",
+      "sourceName": "The Woks of Life",
+      "chunkType": "ingredients",
+      "content": "菜名：肉夹馍\n- 2 pounds pork belly\n- 3 cups water\n- ¼ cup Shaoxing wine\n- 12 grams rock sugar (or 1 tablespoon granulated sugar)\n- 2 tablespoons light soy sauce\n- 1 tablespoon dark soy sauce\n- 4 scallions (cut in half)\n- 3 slices ginger\n- 2 star anise\n- 1 cinnamon stick\n- 1 black cardamom pod\n- 2 pieces galangal (or sand ginger)\n- 1 teaspoon Sichuan peppercorns\n- 3 bay leaves\n- Salt (to taste)\n- 1 cup chopped cilantro\n- 3½ cups all-purpose flour (by weight, each cup is equivalent to 150 grams)\n- 2 teaspoons active dry yeast (about 8 grams)\n- ¾ teaspoon salt\n- 1 to 1¼ cups warm water (depending on humidity)",
+      "similarity": 0.662652035793542
+    },
+    {
+      "chunkId": "e1e6a39a-1f4c-434b-a8f1-fb50b15d5372",
+      "documentId": "d45ed17d-216f-4704-9a67-6d247f9705e5",
+      "sourceName": "The Woks of Life",
+      "chunkType": "steps",
+      "content": "菜名：肉夹馍\n1. Keep the pork belly whole, or cut it into large, 4- to 5-inch chunks. Place the pork belly in a medium pot, and fill it with just enough water to cover it. Bring the water to a boil. Once the pork has gone opaque and appears cooked on the outside, shut off the heat, remove the pork from the pot, and rinse it clean under running water. Dump out the water and clean the pot.\n2. Put the pork belly back in the clean pot, and add 3 cups of water, the Shaoxing wine, rock sugar, light soy sauce, dark soy sauce, scallions, ginger, star anise, cinnamon, black cardamom, galangal, Sichuan peppercorns, and bay leaves. Bring everything to a boil, then immediately turn down the heat to low and simmer for 90 minutes to 2 hours, until fork tender. To test it, stick a fork into the meat. It’s done if you can pull the fork out easily. Do not use high heat when simmering to avoid drying out the sauce. Add salt to taste.",
+      "similarity": 0.652825355529785
+    },
+    {
+      "chunkId": "6ea58a0c-dbee-45cc-8123-e5c24ae2211f",
+      "documentId": "d45ed17d-216f-4704-9a67-6d247f9705e5",
+      "sourceName": "The Woks of Life",
+      "chunkType": "technique",
+      "content": "菜名：肉夹馍\n- Serves: 12\n- Prep: 2 hrs\n- Cook: 30 mins\n- Total: 2 hrs 30 mins",
+      "similarity": 0.609660387039185
+    }
+  ],
+  "notes": [
+    "Database book comparison audit: cn-book-inventory.json.",
+    "完整来源步骤及正文操作细节保留在rawExcerpt；Editor必须核对正文补充细节，不能只用压缩后的概述。",
+    "Photos pending verification; never claim downloaded before media-import result.",
+    "Unselected source images: [{\"originalUrl\": \"https://thewoksoflife.com/wp-content/uploads/2017/02/rou-jia-mo-8.jpg\", \"role\": \"finished_dish\", \"reason\": \"重复成品图，未伪作过程图。\"}]"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "recipeId": "west-019",
+  "bookCandidates": [],
+  "bookInventoryCount": 84,
+  "excludedHistory": [],
+  "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/bouillabaisse",
+  "sourceMode": "multi_source",
+  "candidates": [
+    {
+      "sourceName": "BBC Good Food",
+      "url": "https://www.bbcgoodfood.com/recipes/bouillabaisse",
+      "documentId": "0e1996bd-a908-4482-aaa6-4760db1ad1bf",
+      "qualifies": true,
+      "ingredientCoverage": "complete",
+      "stepCoverage": "complete",
+      "internalCoherence": "coherent",
+      "heroImages": 1,
+      "mappedStepImages": 0,
+      "stepImageCoverage": 0,
+      "ingredientCount": 31,
+      "executableStepCount": 6,
+      "notes": [
+        "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented.",
+        "Source ingredient listing includes both1 leek described by white/green parts and a second1 leek row; do not silently merge or delete. Ingredient fish examples and method ordering examples differ (snapper appears in method while ingredient examples list gurnard/red mullet); retain source generic mixedfish and disclose examples as alternatives."
+      ]
+    },
+    {
+      "sourceName": "Serious Eats",
+      "url": "https://www.seriouseats.com/bouillabaisse-marseillaise-fish-stew-recipe",
+      "documentId": "fa8bcb83-d3d0-41c1-a021-18f3fd8b21cf",
+      "qualifies": true,
+      "ingredientCoverage": "complete",
+      "stepCoverage": "complete",
+      "internalCoherence": "coherent",
+      "heroImages": 0,
+      "mappedStepImages": 0,
+      "stepImageCoverage": 0,
+      "ingredientCount": 30,
+      "executableStepCount": 11,
+      "notes": [
+        "Page images and step adjacencies visible in web.open; original binary URLs not returned by failed web.click. No verified downloadable media available, no invented image mappings.",
+        "Source quantities with mixed units retained verbatim; no vessel capacity inferred."
+      ]
+    }
+  ],
+  "selectionReason": "Selected exactly one whole BBC recipe: full coherent ingredients/method match the target; verified usable hero (no source step photos available). Other sources have no verified usable media URLs under ordinary access. Under the required completeness/coherence then usable-image/coverage ranking, this source leads; its ingredients, operations, tips and media are kept together without supplementation.",
+  "ingestionVerified": true
+}

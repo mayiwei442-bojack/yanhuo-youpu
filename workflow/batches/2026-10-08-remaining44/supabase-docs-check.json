@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-10-08",
+  "skill": "supabase:supabase",
+  "changelog": {
+    "url": "https://supabase.com/changelog.md",
+    "retrievalMethod": "normalPowerShellInvokeWebRequest",
+    "status": 200,
+    "latestEntries": [
+      "2026-10-06 Scoped personal access tokens generally available",
+      "2026-10-05 Organization invites No access role",
+      "2026-10-05 Framework adapters in @supabase/server deprecated"
+    ],
+    "assessment": "No changes to Supabase platform features, schema, authentication or libraries; use existing server-side DataAPI client only."
+  },
+  "documentation": {
+    "url": "https://supabase.com/docs/reference/javascript/select",
+    "retrievalMethod": "normalwebfetch",
+    "status": 200,
+    "topic": "Existing database rowselect andfilter semantics checked; client is repositoryRESTwrapper."
+  }
+}

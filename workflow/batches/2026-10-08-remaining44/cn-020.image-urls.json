@@ -1,0 +1,86 @@
+[
+  {
+    "linkId": 32,
+    "stepOrder": "hero",
+    "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-18.jpg",
+    "fetchResult": " (https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-18.jpg)\nciteturn75view0 "
+  },
+  {
+    "linkId": 46,
+    "stepOrder": 1,
+    "originalUrl": null,
+    "fetchResult": "\nInternal Error ()\nciteturn75view1 [wordlim: 200] Source: click({\"ref_id\":\"turn57view0\",\"id\":46}); Total lines: 1\nL0: Failed to fetch https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-2.jpg: TimeoutError\n"
+  },
+  {
+    "linkId": 47,
+    "stepOrder": 1,
+    "originalUrl": null,
+    "fetchResult": "\nInternal Error ()\nciteturn75view2 [wordlim: 200] Source: click({\"ref_id\":\"turn57view0\",\"id\":47}); Total lines: 1\nL0: Failed to fetch https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken.jpg: TimeoutError\n"
+  },
+  {
+    "linkId": 48,
+    "stepOrder": 2,
+    "originalUrl": null,
+    "fetchResult": "\nInternal Error ()\nciteturn75view3 [wordlim: 200] Source: click({\"ref_id\":\"turn57view0\",\"id\":48}); Total lines: 1\nL0: Failed to fetch https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-3.jpg: TimeoutError\n"
+  },
+  {
+    "linkId": 49,
+    "stepOrder": 3,
+    "originalUrl": null,
+    "fetchResult": "\nInternal Error ()\nciteturn75view4 [wordlim: 200] Source: click({\"ref_id\":\"turn57view0\",\"id\":49}); Total lines: 1\nL0: Failed to fetch https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-7.jpg: TimeoutError\n"
+  },
+  {
+    "linkId": 50,
+    "stepOrder": 3,
+    "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-8.jpg",
+    "fetchResult": "\n (https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-8.jpg)\nciteturn75view5 "
+  },
+  {
+    "linkId": 51,
+    "stepOrder": 3,
+    "originalUrl": null,
+    "fetchResult": "\nInternal Error ()\nciteturn75view6 [wordlim: 200] Source: click({\"ref_id\":\"turn57view0\",\"id\":51}); Total lines: 1\nL0: Failed to fetch https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-9.jpg: TimeoutError\n"
+  },
+  {
+    "linkId": 52,
+    "stepOrder": 5,
+    "originalUrl": null,
+    "fetchResult": "\nInternal Error ()\nciteturn75view7 [wordlim: 200] Source: click({\"ref_id\":\"turn57view0\",\"id\":52}); Total lines: 1\nL0: Failed to fetch https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-10.jpg: TimeoutError\n"
+  },
+  {
+    "linkId": 53,
+    "stepOrder": 6,
+    "originalUrl": null,
+    "fetchResult": "Internal Error ()\nciteturn76view0 [wordlim: 200] Source: click({\"ref_id\":\"turn57view0\",\"id\":53}); Total lines: 1\nL0: Failed to fetch https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-11.jpg: TimeoutError\n"
+  },
+  {
+    "linkId": 54,
+    "stepOrder": 6,
+    "originalUrl": null,
+    "fetchResult": "\nInternal Error ()\nciteturn76view1 [wordlim: 200] Source: click({\"ref_id\":\"turn57view0\",\"id\":54}); Total lines: 1\nL0: Failed to fetch https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-12.jpg: TimeoutError\n"
+  },
+  {
+    "linkId": 55,
+    "stepOrder": 6,
+    "originalUrl": null,
+    "fetchResult": "\nInternal Error ()\nciteturn76view2 [wordlim: 200] Source: click({\"ref_id\":\"turn57view0\",\"id\":55}); Total lines: 1\nL0: Failed to fetch https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-13.jpg: TimeoutError\n"
+  },
+  {
+    "linkId": 56,
+    "stepOrder": 8,
+    "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-14.jpg",
+    "fetchResult": "\n (https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-14.jpg)\nciteturn76view3 "
+  },
+  {
+    "linkId": 58,
+    "stepOrder": 9,
+    "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-19.jpg",
+    "fetchResult": "\n (https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-19.jpg)\nciteturn76view4 "
+  },
+  {
+    "linkId": 61,
+    "stepOrder": "finished",
+    "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-16.jpg",
+    "fetchResult": "\n (https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-16.jpg)\nciteturn76view5 "
+  }
+]

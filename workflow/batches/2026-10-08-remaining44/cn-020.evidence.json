@@ -1,0 +1,383 @@
+{
+  "recipeId": "cn-020",
+  "recipeName": "白切鸡",
+  "category": "chinese",
+  "createdAt": "2026-10-08T12:08:59.203077+00:00",
+  "sources": [
+    {
+      "sourceName": "The Woks of Life",
+      "sourceType": "website",
+      "url": "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/",
+      "documentId": "2be1111d-2cd1-42dd-b183-990a063573e7",
+      "retrievalMethod": "Normal web browser fetch complete recipe card plus relevant operational narrative",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "whole chicken (ideally organic free-range; optional head and feet still on; at room temperature)",
+          "amount": "3-4 pound",
+          "raw": "3-4 pound whole chicken (ideally organic free-range; optional head and feet still on; at room temperature)",
+          "sourceGroup": "For the chicken:"
+        },
+        {
+          "name": "scallions",
+          "amount": "2",
+          "raw": "2 scallions",
+          "sourceGroup": "For the chicken:"
+        },
+        {
+          "name": "ginger",
+          "amount": "5 slices",
+          "raw": "5 slices ginger",
+          "sourceGroup": "For the chicken:"
+        },
+        {
+          "name": "scallions (finely minced, white and light green parts only)",
+          "amount": "3 tablespoons",
+          "raw": "3 tablespoons scallions (finely minced, white and light green parts only)",
+          "sourceGroup": "For the sauce:"
+        },
+        {
+          "name": "ginger (finely minced)",
+          "amount": "2 tablespoons",
+          "raw": "2 tablespoons ginger (finely minced)",
+          "sourceGroup": "For the sauce:"
+        },
+        {
+          "name": "oil",
+          "amount": "3 tablespoons",
+          "raw": "3 tablespoons oil",
+          "sourceGroup": "For the sauce:"
+        },
+        {
+          "name": "salt (to taste)",
+          "amount": null,
+          "raw": "salt (to taste)",
+          "sourceGroup": "For the sauce:"
+        },
+        {
+          "name": "soy sauce (optional)",
+          "amount": null,
+          "raw": "soy sauce (optional)",
+          "sourceGroup": "For the sauce:"
+        },
+        {
+          "name": "water",
+          "amount": "enough to submerge chicken; about18cups for4poundchicken",
+          "raw": "about 18 cups of water to submerge a 4 pound chicken in a deep stock pot"
+        },
+        {
+          "name": "ice water",
+          "amount": null,
+          "raw": "a large bowl of ice water"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Make sure your chicken is at room temperature (trying to poach a cold chicken right out of the refrigerator will result in uneven cooking or undercooking). Clean the chicken by rinsing it under cold water, paying special attention to the cavity. Any giblets should already be removed but there may still be organs on the inside that should be removed or sometimes stray feathers that need to be plucked.\nExperts recommend that it's not necessary to wash your chicken before cutting and cooking but in this case for a whole chicken (especially if you get it from a live poultry place or even from Asian markets), it's a step that shouldn't be skipped, in my opinion.  When washing and prepping the whole chicken, be very careful about splashing water and contaminating surfaces with unwanted bacteria. Be careful not to break or trim away any of the skin on the chicken, as you don’t want the meat exposed to the boiling water as it cooks.\nThis will ensure a moist, silky texture in the final product.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "Fill a large stock pot with water, just enough to submerge the chicken completely. You can determine this by putting the entire chicken in the pot, filling it with water until the chicken is submerged, and then removing the chicken. Do not turn on the heat while the chicken is still in the pot! This method of ensuring you have just enough water to submerge the chicken (and avoiding any extra) will ensure you have a more flavorful stock to save at the end.\nWe used about 18 cups of water to submerge a 4 pound chicken in a deep stock pot.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "Once you have your water properly measured into the pot, add 2 scallions and 5 slices of ginger, and bring it to a boil. Once boiling, slowly lower the chicken into the pot, legs down and head up. It’s ok if the breast is peeking out of the water a bit. The water will cool down and stop boiling when you add the chicken, so bring it up to a boil once again, and do not walk away from the pot.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "Once the water boils again, IMMEDIATELY lift the chicken out of the water very carefully. You can carefully hook two wooden spoons under the wings to lift the chicken up. The goal is to empty any colder water that may be trapped inside the cavity. Once you’ve released that water, lower the chicken back into the pot, and bring to a boil again.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 5,
+          "instruction": "When the water is JUST starting to boil, turn the heat down. Keep it at barely a simmer. There should be very little movement in the water, but it also shouldn’t be still. Cover the pot, and keep the heat around the lowest setting so the liquid continues to simmer slowly. Cook for about 35-40 minutes, roughly 10-11 minutes per pound. Depending on the size of your chicken, it may take more or less time to cook it through.\nYou can check to make sure the water is bubbling slowly/gently and not boiling too vigorously, but try to avoid uncovering the pot while it’s cooking.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 6,
+          "instruction": "Poke a chopstick or skewer into the thigh to check for doneness. If the juices run clear, it's done. Carefully lift the chicken out of the pot and transfer it to a large bowl of ice water. Cool completely.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 7,
+          "instruction": "While the chicken is cooling, make the sauce. You have the option to make two versions—one with just scallions, ginger, oil and salt, and one with soy sauce. The plain version is more traditional, as it really lets the flavors of chicken, ginger, and scallion shine through. Judy loves to add soy sauce, and it’s also a tasty option! Start with the plain version, and then scoop some of it out into another bowl and add soy sauce. Try both and see which your loved ones like best!",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 8,
+          "instruction": "When the chicken is out of the ice water, you can brush it lightly with oil or some of the fat floating atop the poaching liquid to give it that enticing, shiny look!",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 9,
+          "instruction": "To serve, carve your chicken into pieces that you can easily grab with chopsticks. For directions on the traditional way to cut up see chicken, see our post on  How to Cut a Whole Poached Chicken, Chinese Style .\n\nServe with your sauce(s) and some steamed rice.\n\nNOTE: Don’t forget to save the chicken stock and freeze it for later! You can also use it in place of water to cook rice!",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [
+        "Serves: 6",
+        "Prep: 20 mins",
+        "Cook: 50 mins",
+        "Total: 1 hr 10 mins"
+      ],
+      "tips": [],
+      "rawExcerpt": "## Recipe\n\nImage: Chinese Poached Chicken, thewoksoflife.com\n\nPrint\n\n4.83 from 57 votes\n\n### Cantonese Poached Chicken (Bai Qie Ji)\n\nAuthentic Chinese Poached Chicken (白切鸡 – bai qie ji), or \"white cut chicken,\" is a special dish. It is both deceptively simple and delicious, served with minced ginger, scallions, oil, and salt.\n\nby: Bill\n\nServes: 6\n\nPrep: 20 mins\n\nCook: 50 mins\n\nTotal: 1 hr 10 mins\n\n#### Ingredients\n##### For the chicken:\n\n* [Input]3-4 pound whole chicken (ideally organic free-range; optional head and feet still on; at room temperature)\n* [Input]2 scallions\n* [Input]5 slices ginger\n\n##### For the sauce:\n\n* [Input]3 tablespoons scallions (finely minced, white and light green parts only)\n* [Input]2 tablespoons ginger (finely minced)\n* [Input]3 tablespoons oil\n* [Input]salt (to taste)\n* [Input]soy sauce (optional)\n#### Instructions\n* Make sure your chicken is at room temperature (trying to poach a cold chicken right out of the refrigerator will result in uneven cooking or undercooking). Clean the chicken by rinsing it under cold water, paying special attention to the cavity. Any giblets should already be removed but there may still be organs on the inside that should be removed or sometimes stray feathers that need to be plucked.\nExperts recommend that it's not necessary to wash your chicken before cutting and cooking but in this case for a whole chicken (especially if you get it from a live poultry place or even from Asian markets), it's a step that shouldn't be skipped, in my opinion.  When washing and prepping the whole chicken, be very careful about splashing water and contaminating surfaces with unwanted bacteria. Be careful not to break or trim away any of the skin on the chicken, as you don’t want the meat exposed to the boiling water as it cooks.\nThis will ensure a moist, silky texture in the final product.\n* Fill a large stock pot with water, just enough to submerge the chicken completely. You can determine this by putting the entire chicken in the pot, filling it with water until the chicken is submerged, and then removing the chicken. Do not turn on the heat while the chicken is still in the pot! This method of ensuring you have just enough water to submerge the chicken (and avoiding any extra) will ensure you have a more flavorful stock to save at the end.\nWe used about 18 cups of water to submerge a 4 pound chicken in a deep stock pot.\n* Once you have your water properly measured into the pot, add 2 scallions and 5 slices of ginger, and bring it to a boil. Once boiling, slowly lower the chicken into the pot, legs down and head up. It’s ok if the breast is peeking out of the water a bit. The water will cool down and stop boiling when you add the chicken, so bring it up to a boil once again, and do not walk away from the pot.\n* Once the water boils again, IMMEDIATELY lift the chicken out of the water very carefully. You can carefully hook two wooden spoons under the wings to lift the chicken up. The goal is to empty any colder water that may be trapped inside the cavity. Once you’ve released that water, lower the chicken back into the pot, and bring to a boil again.\n* When the water is JUST starting to boil, turn the heat down. Keep it at barely a simmer. There should be very little movement in the water, but it also shouldn’t be still. Cover the pot, and keep the heat around the lowest setting so the liquid continues to simmer slowly. Cook for about 35-40 minutes, roughly 10-11 minutes per pound. Depending on the size of your chicken, it may take more or less time to cook it through.\nYou can check to make sure the water is bubbling slowly/gently and not boiling too vigorously, but try to avoid uncovering the pot while it’s cooking.\n* Poke a chopstick or skewer into the thigh to check for doneness. If the juices run clear, it's done. Carefully lift the chicken out of the pot and transfer it to a large bowl of ice water. Cool completely.\n* While the chicken is cooling, make the sauce. You have the option to make two versions—one with just scallions, ginger, oil and salt, and one with soy sauce. The plain version is more traditional, as it really lets the flavors of chicken, ginger, and scallion shine through. Judy loves to add soy sauce, and it’s also a tasty option! Start with the plain version, and then scoop some of it out into another bowl and add soy sauce. Try both and see which your loved ones like best!\n* When the chicken is out of the ice water, you can brush it lightly with oil or some of the fat floating atop the poaching liquid to give it that enticing, shiny look!\n\n* To serve, carve your chicken into pieces that you can easily grab with chopsticks. For directions on the traditional way to cut up see chicken, see our post on  How to Cut a Whole Poached Chicken, Chinese Style .\n\nServe with your sauce(s) and some steamed rice.\n#### Tips & Notes:\n\nNOTE: Don’t forget to save the chicken stock and freeze it for later! You can also use it in place of water to cook rice!\n\nOperational narrative\n## A Classic Chinese Poached Chicken Recipe\n\nMy parents made this poached chicken for years, and I’ve been eating it since I was a kid. The poached, always whole chicken was a welcome sight during Chinese New Year, Qing Ming (清明), birthdays, or even just a mahjong party when my parents invited friends over for a friendly game!\n\nJudy and I continued the same tradition for Sarah and Kaitlin, and I’m certain they will do the same for their children.\nIt couldn’t be healthier or simpler: you slowly poach a whole (ideally free-range) chicken and flavor it with fresh scallions and ginger. After cooling, simply carve and serve with salted ginger scallion oil (and maybe a little soy sauce).\n\n\nThe next time you visit any Chinatown and walk by a restaurant with hanging roast duck , soy sauce chickens , and char siu in the window, look for the whole white cut chickens. That said, while restaurants offer it on the menu, this classic Cantonese poached chicken dish is most commonly cooked and eaten at home. If you’re Cantonese, there is zero chance that you never had bak chit gai!\n\nIf you’re looking for other classic chicken recipes, check these out:\n* Hainanese chicken\n* Soy Sauce chicken\n* Drunken Chicken\n\n\n\nCheck out our guide to cooking a whole chicken—everything you need to know to make a classic bai qie ji or baak chit gai—white cut chicken! Bill walks you through every step of the way!\n## Why is it called White Cut Chicken?\n\nThe Chinese name for the dish (白切鸡 – bak chit gai in Cantonese or bai qie ji in Mandarin) translates to white cut chicken. It’s named as such because it’s poached in water and results in what is technically a very plain dish, like a pure, blank piece of paper.\nIn fact, anything cooked in water with little or no seasoning is prefaced with the word “white” in Chinese. Another example of this is boiled fresh shrimp , which is usually called “white boiled shrimp” in Cantonese or bak churk ha.\n\n\n## How To Cook Bai Qie Ji The Traditional Way\n\nWhite cut chicken is a whole poached chicken. As in…really whole! Head, feet, and all. It’s a Chinese New Year tradition to serve an entire chicken, as it represents prosperity, togetherness, and completeness. For that reason, this Cantonese dish is often present on Chinese New Year dinner tables!\nThe best chicken to poach for this white cut chicken recipe is a high quality, smaller, free-range chicken. In my opinion, the best place to go is your local Chinese grocery store because the texture (tender but not mushy) of the chickens sold their are much better than you find in supermarkets. Smaller chickens will yield more tender, evenly cooked results than the mega chickens at your standard grocery store. Give one a try, and you’ll see what I mean!\nIf you don’t have access to a Chinese grocery store, the next best thing is to use a free-range (preferably organic) chicken from your local supermarket.\n## Do I have to use a whole chicken?\n\nLuckily for you, we have a few shortcuts on the blog. Judy’s shredded Poached Chicken with Ginger Scallion Sauce is a delicious option, and if you’re looking for white meat, try Kaitlin’s Soy-Glazed Chicken Breast with Ginger Scallion Sauce .\n\nBoth recipes have flavors similar to a piece of white cut chicken dipped in ginger scallion oil and soy sauce.\nBut if you’re up for the traditional recipe, let’s try your hand at making this home-style Chinese chicken dish. And if you’re in the midst of planning for your next Chinese New Year celebration dinner , Gung Hei Fat Choy!\n## Cantonese Poached Chicken: Recipe Instructions\nMake sure your chicken is at room temperature (trying to poach a cold chicken right out of the refrigerator will result in uneven cooking or undercooking). Clean the chicken by rinsing it under cold water, paying special attention to the cavity. Any giblets should already be removed but there may still be organs on the inside that should be removed or sometimes stray feathers that need to be plucked.\nExperts recommend that it’s not necessary to wash your chicken before cutting and cooking but in this case for a whole chicken (especially if you get it from a live poultry place or even from Asian markets), it’s a step that shouldn’t be skipped, in my opinion.  When washing and prepping the whole chicken, be very careful about splashing water and contaminating surfaces with unwanted bacteria.\n\n\nBe careful not to break or trim away any of the skin on the chicken, as you don’t want the meat exposed to the boiling water as it cooks. This will ensure a moist, silky texture in the final product.\n\n\nFill a large stock pot with water, just enough to submerge the chicken completely. You can determine this by putting the entire chicken in the pot, filling it with water until the chicken is submerged, and then removing the chicken. Do not turn on the heat while the chicken is still in the pot!\nThis method of ensuring you have just enough water to submerge the chicken (and avoiding any extra) will ensure you have a more flavorful stock to save at the end. We used about 18 cups of water to submerge a 4 pound chicken in a deep stock pot.\n\n\n\nOnce you have your water properly measured into the pot, add 2 scallions and 5 slices of ginger, and bring it to a boil.\n\n\nOnce boiling, slowly lower the chicken into the pot, legs down and head up.\n\n\n\nIt’s ok if the breast is peeking out of the water a bit. The water will cool down and stop boiling when you add the chicken, so bring it up to a boil once again, and do not walk away from the pot.\n\n\nOnce the water boils again, IMMEDIATELY lift the chicken out of the water very carefully. You can carefully hook two wooden spoons under the wings to lift the chicken up. The goal is to empty any colder water that may be trapped inside the cavity. Once you’ve released that water, lower the chicken back into the pot, and bring to a boil again.\nWhen the water is JUST starting to boil, turn the heat down. Keep it at barely a simmer. There should be very little movement in the water, but it also shouldn’t be still. Cover the pot, and keep the heat around the lowest setting so the liquid continues to simmer slowly. Cook for about 35-40 minutes, roughly 10-11 minutes per pound. Depending on the size of your chicken, it may take more or less time to cook it through.\nYou can check to make sure the water is bubbling slowly/gently and not boiling too vigorously, but try to avoid uncovering the pot while it’s cooking.\n\n\nPoke a chopstick or skewer into the thigh to check for doneness. If the juices run clear, it’s done.\n\n\n\nCarefully lift the chicken out of the pot (a sturdy meat fork or wooden spoon in the cavity is the best method).\n\n\nAnd transfer it to a large bowl of ice water. This cools it off quickly to give the chicken skin a “crunchy” texture. Texture is a big thing for Chinese diners, and so is chicken skin! Wait until cooled completely.\n\n\nWhile the chicken is cooling, make the sauce. You have the option to make two versions—one with just scallions, ginger, oil and salt, and one with soy sauce. The plain version is more traditional, as it really lets the flavors of chicken, ginger, and scallion shine through. Judy loves to add soy sauce, and it’s also a tasty option! Start with the plain version, and then scoop some of it out into another bowl and add soy sauce. Try both and see which your loved ones like best!\nWhen the chicken is out of the ice water, you can brush it lightly with oil or some of the fat floating atop the poaching liquid to give it that enticing, shiny look!\n\n\n\nTo serve, carve your chicken into pieces that you can easily grab with chopsticks. For directions on the traditional way to cut up see chicken, see our post on  How to Cut a Whole Poached Chicken, Chinese Style .\n\n\nServe with your sauce(s) and some steamed rice. Get our recipe for raw ginger scallion oil , which is the most traditional, or try the cooked version of the oil (with or without chilies).\n\nImage\n\nAlso, don’t forget to save the light chicken stock and freeze it for later. You can also use it in place of water to cook rice!\nIn a couple days, we’ll post a full tutorial on how to carve a whole chicken Chinese-style, so stay tuned! (Update: HERE IT IS: How to Carve a Whole Chicken Chinese-Style !)\n\n\n\nLooking for more authentic recipes? Subscribe to our email list and be sure to follow us on Pinterest , Facebook , Instagram , and Youtube!",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 1,
+        "mappedStepImages": 12,
+        "stepImageCoverage": 0.7777777777777778,
+        "ingredientCount": 10,
+        "executableStepCount": 9,
+        "notes": [
+          "No invented metric conversions; quantities only fromsourcecard or narrative."
+        ]
+      },
+      "media": {
+        "recipePageUrl": "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/",
+        "mediaPageUrl": "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/",
+        "sourceName": "The Woks of Life",
+        "author": "Bill",
+        "rightsNotice": "All Rights Reserved © The Woks of Life",
+        "reuseLicense": null,
+        "repositoryCopyAuthorized": true,
+        "hero": {
+          "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-18.jpg",
+          "repositoryPath": "assets/dishes/sources/cn-020-woks/hero.jpg",
+          "adjacentText": "白切鸡成品",
+          "pageOrder": 0,
+          "sha256": "5b2c559d3b0d9de95e26cdc2971c44c68b265a8a37b76bed84d6acd058691321",
+          "httpStatus": 200,
+          "contentType": "image/webp",
+          "bytes": 75074
+        },
+        "steps": [
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-2.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-020-woks/step-1-1.jpg",
+            "adjacentText": "Make sure your chicken is at room temperature (trying to poach a cold chicken right out of the refrigerator will result in uneven cooking or undercooking). Clean the chicken by rinsing it under cold water, paying special attention to the cavity. Any giblets should already be removed but there may still be organs on the inside that should be removed or sometimes stray feathers that need to be plucked.\nExperts recommend that it's not necessary to wash your chicken before cutting and cooking but in this case for a whole chicken (especially if you get it from a live poultry place or even from Asian markets), it's a step that shouldn't be skipped, in my opinion.  When washing and prepping the whole chicken, be very careful about splashing water and contaminating surfaces with unwanted bacteria. Be careful not to break or trim away any of the skin on the chicken, as you don’t want the meat exposed to the boiling water as it cooks.\nThis will ensure a moist, silky texture in the final product.",
+            "pageOrder": 1,
+            "stepOrder": 1,
+            "sha256": "1b8e29e155145a262f0d6cfda82512042dbe9b5e65e0e2c268cda9eebd5a3d03",
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "bytes": 26852
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-020-woks/step-1-2.jpg",
+            "adjacentText": "Make sure your chicken is at room temperature (trying to poach a cold chicken right out of the refrigerator will result in uneven cooking or undercooking). Clean the chicken by rinsing it under cold water, paying special attention to the cavity. Any giblets should already be removed but there may still be organs on the inside that should be removed or sometimes stray feathers that need to be plucked.\nExperts recommend that it's not necessary to wash your chicken before cutting and cooking but in this case for a whole chicken (especially if you get it from a live poultry place or even from Asian markets), it's a step that shouldn't be skipped, in my opinion.  When washing and prepping the whole chicken, be very careful about splashing water and contaminating surfaces with unwanted bacteria. Be careful not to break or trim away any of the skin on the chicken, as you don’t want the meat exposed to the boiling water as it cooks.\nThis will ensure a moist, silky texture in the final product.",
+            "pageOrder": 2,
+            "stepOrder": 1,
+            "sha256": "ce1f336fa1705603a156d6a87826fadb3bc130ef22b73a1a73590cdd9722f640",
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "bytes": 28212
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-3.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-020-woks/step-2-3.jpg",
+            "adjacentText": "Fill a large stock pot with water, just enough to submerge the chicken completely. You can determine this by putting the entire chicken in the pot, filling it with water until the chicken is submerged, and then removing the chicken. Do not turn on the heat while the chicken is still in the pot! This method of ensuring you have just enough water to submerge the chicken (and avoiding any extra) will ensure you have a more flavorful stock to save at the end.\nWe used about 18 cups of water to submerge a 4 pound chicken in a deep stock pot.",
+            "pageOrder": 3,
+            "stepOrder": 2,
+            "sha256": "305c9f32746a338e289ba7460538a44e3f46b054ea2228ad249e8d7a9c8dbd0c",
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "bytes": 26884
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-7.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-020-woks/step-3-4.jpg",
+            "adjacentText": "Once you have your water properly measured into the pot, add 2 scallions and 5 slices of ginger, and bring it to a boil. Once boiling, slowly lower the chicken into the pot, legs down and head up. It’s ok if the breast is peeking out of the water a bit. The water will cool down and stop boiling when you add the chicken, so bring it up to a boil once again, and do not walk away from the pot.",
+            "pageOrder": 4,
+            "stepOrder": 3,
+            "sha256": "5e4d66df34f457b2a694865dc2b1dc82df368cb0dee04e1cb3fde70689467713",
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "bytes": 23188
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-8.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-020-woks/step-3-5.jpg",
+            "adjacentText": "Once you have your water properly measured into the pot, add 2 scallions and 5 slices of ginger, and bring it to a boil. Once boiling, slowly lower the chicken into the pot, legs down and head up. It’s ok if the breast is peeking out of the water a bit. The water will cool down and stop boiling when you add the chicken, so bring it up to a boil once again, and do not walk away from the pot.",
+            "pageOrder": 5,
+            "stepOrder": 3,
+            "sha256": "7b0cc1e6d604ac2bb6b7200f53c233adac31a7dfcf4e470eb8746c467c8ba048",
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "bytes": 49244
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-9.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-020-woks/step-3-6.jpg",
+            "adjacentText": "Once you have your water properly measured into the pot, add 2 scallions and 5 slices of ginger, and bring it to a boil. Once boiling, slowly lower the chicken into the pot, legs down and head up. It’s ok if the breast is peeking out of the water a bit. The water will cool down and stop boiling when you add the chicken, so bring it up to a boil once again, and do not walk away from the pot.",
+            "pageOrder": 6,
+            "stepOrder": 3,
+            "sha256": "23ea4445f1cd93d77a14d1ffa07a2ca7d5ace0f80d97030e7aa164ffe8315a40",
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "bytes": 18842
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-10.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-020-woks/step-5-7.jpg",
+            "adjacentText": "When the water is JUST starting to boil, turn the heat down. Keep it at barely a simmer. There should be very little movement in the water, but it also shouldn’t be still. Cover the pot, and keep the heat around the lowest setting so the liquid continues to simmer slowly. Cook for about 35-40 minutes, roughly 10-11 minutes per pound. Depending on the size of your chicken, it may take more or less time to cook it through.\nYou can check to make sure the water is bubbling slowly/gently and not boiling too vigorously, but try to avoid uncovering the pot while it’s cooking.",
+            "pageOrder": 7,
+            "stepOrder": 5,
+            "sha256": "da4a664c9809c9345a16a59bd522227822197949d6e22207c197562226d3deb7",
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "bytes": 34742
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-11.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-020-woks/step-6-8.jpg",
+            "adjacentText": "Poke a chopstick or skewer into the thigh to check for doneness. If the juices run clear, it's done. Carefully lift the chicken out of the pot and transfer it to a large bowl of ice water. Cool completely.",
+            "pageOrder": 8,
+            "stepOrder": 6,
+            "sha256": "2d827907f25b215185ce5f468319f34e2afcc11bea60f00d72b21fffabb5f615",
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "bytes": 25400
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-12.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-020-woks/step-6-9.jpg",
+            "adjacentText": "Poke a chopstick or skewer into the thigh to check for doneness. If the juices run clear, it's done. Carefully lift the chicken out of the pot and transfer it to a large bowl of ice water. Cool completely.",
+            "pageOrder": 9,
+            "stepOrder": 6,
+            "sha256": "cbf6a9c6796a6de9b05a68b8107442a12cf88225551dd8943071fd18d22430c4",
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "bytes": 53952
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-13.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-020-woks/step-6-10.jpg",
+            "adjacentText": "Poke a chopstick or skewer into the thigh to check for doneness. If the juices run clear, it's done. Carefully lift the chicken out of the pot and transfer it to a large bowl of ice water. Cool completely.",
+            "pageOrder": 10,
+            "stepOrder": 6,
+            "sha256": "c3e98462bce9a1aba8bb549535042acb48ff14738762a1da83c9ea4aacaf166a",
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "bytes": 34564
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-14.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-020-woks/step-8-11.jpg",
+            "adjacentText": "When the chicken is out of the ice water, you can brush it lightly with oil or some of the fat floating atop the poaching liquid to give it that enticing, shiny look!",
+            "pageOrder": 11,
+            "stepOrder": 8,
+            "sha256": "28a31e32ded15baa3648ad0a813a2f42af5b165cc8d9c424d820a6aaf051d601",
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "bytes": 19458
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-19.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-020-woks/step-9-12.jpg",
+            "adjacentText": "To serve, carve your chicken into pieces that you can easily grab with chopsticks. For directions on the traditional way to cut up see chicken, see our post on  How to Cut a Whole Poached Chicken, Chinese Style .\n\nServe with your sauce(s) and some steamed rice.\n#### Tips & Notes:\n\nNOTE: Don’t forget to save the chicken stock and freeze it for later! You can also use it in place of water to cook rice!",
+            "pageOrder": 12,
+            "stepOrder": 9,
+            "sha256": "6886338b4efb2c5f1ee89b69b8f0764803ab35df2368af6064be5ef2b7ea888b",
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "bytes": 70214
+          }
+        ]
+      }
+    }
+  ],
+  "sourceMode": "single_source",
+  "singleSourceReason": "已读取数据库全部84份书籍菜谱并按名称、别名和正文核对，本菜无完全匹配书籍信源。已检索配置豆果来源，其他候选如有见notes；保留可访问完整Woks整份配方。",
+  "selectedSourceUrl": "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/",
+  "selectionReason": "完整性和内部自洽优先；唯一名称匹配完整候选，来源成品图及对应过程图均已验证。整份采用此来源原料、操作、提示和图片，不跨来源补充。",
+  "ragEvidence": [
+    {
+      "chunkId": "8a7528c9-60b2-4079-a96f-08c2f0dd861b",
+      "documentId": "2be1111d-2cd1-42dd-b183-990a063573e7",
+      "sourceName": "The Woks of Life",
+      "chunkType": "steps",
+      "content": "菜名：白切鸡\n1. Make sure your chicken is at room temperature (trying to poach a cold chicken right out of the refrigerator will result in uneven cooking or undercooking). Clean the chicken by rinsing it under cold water, paying special attention to the cavity. Any giblets should already be removed but there may still be organs on the inside that should be removed or sometimes stray feathers that need to be plucked. Experts recommend that it's not necessary to wash your chicken before cutting and cooking but in this case for a whole chicken (especially if you get it from a live poultry place or even from Asian markets), it's a step that shouldn't be skipped, in my opinion. When washing and prepping the whole chicken, be very careful about splashing water and contaminating surfaces with unwanted bacteria. Be careful not to break or trim away any of the skin on the chicken, as you don’t want the meat exposed to the boiling water as it cooks. This will ensure a moist, silky texture in the final product.",
+      "similarity": 0.666688779989234
+    },
+    {
+      "chunkId": "158d9e0f-9bec-45ed-a058-cc7e3db7ce36",
+      "documentId": "2be1111d-2cd1-42dd-b183-990a063573e7",
+      "sourceName": "The Woks of Life",
+      "chunkType": "summary",
+      "content": "菜名：白切鸡\n菜系：中餐\n简介：完整单一信源：https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/",
+      "similarity": 0.644234774491322
+    },
+    {
+      "chunkId": "9e2270da-2b69-4a4d-856b-37320133d072",
+      "documentId": "2be1111d-2cd1-42dd-b183-990a063573e7",
+      "sourceName": "The Woks of Life",
+      "chunkType": "ingredients",
+      "content": "菜名：白切鸡\n- 3-4 pound whole chicken (ideally organic free-range; optional head and feet still on; at room temperature)\n- 2 scallions\n- 5 slices ginger\n- 3 tablespoons scallions (finely minced, white and light green parts only)\n- 2 tablespoons ginger (finely minced)\n- 3 tablespoons oil\n- salt (to taste)\n- soy sauce (optional)\n- about 18 cups of water to submerge a 4 pound chicken in a deep stock pot\n- a large bowl of ice water",
+      "similarity": 0.622944466402137
+    },
+    {
+      "chunkId": "9b452363-d6db-40ba-b7ec-fd1769f49cfc",
+      "documentId": "2be1111d-2cd1-42dd-b183-990a063573e7",
+      "sourceName": "The Woks of Life",
+      "chunkType": "tips",
+      "content": "菜名：白切鸡\n- 原文未提供额外提示。",
+      "similarity": 0.622204538184813
+    },
+    {
+      "chunkId": "7cd00c7a-3215-4326-b68d-cd6b1ce67bb3",
+      "documentId": "2be1111d-2cd1-42dd-b183-990a063573e7",
+      "sourceName": "The Woks of Life",
+      "chunkType": "steps",
+      "content": "菜名：白切鸡\n2. Fill a large stock pot with water, just enough to submerge the chicken completely. You can determine this by putting the entire chicken in the pot, filling it with water until the chicken is submerged, and then removing the chicken. Do not turn on the heat while the chicken is still in the pot! This method of ensuring you have just enough water to submerge the chicken (and avoiding any extra) will ensure you have a more flavorful stock to save at the end. We used about 18 cups of water to submerge a 4 pound chicken in a deep stock pot.\n3. Once you have your water properly measured into the pot, add 2 scallions and 5 slices of ginger, and bring it to a boil. Once boiling, slowly lower the chicken into the pot, legs down and head up. It’s ok if the breast is peeking out of the water a bit. The water will cool down and stop boiling when you add the chicken, so bring it up to a boil once again, and do not walk away from the pot.",
+      "similarity": 0.608587296096578
+    },
+    {
+      "chunkId": "3e8cd03d-b174-44af-85c7-8f31867c14e2",
+      "documentId": "2be1111d-2cd1-42dd-b183-990a063573e7",
+      "sourceName": "The Woks of Life",
+      "chunkType": "steps",
+      "content": "菜名：白切鸡\n4. Once the water boils again, IMMEDIATELY lift the chicken out of the water very carefully. You can carefully hook two wooden spoons under the wings to lift the chicken up. The goal is to empty any colder water that may be trapped inside the cavity. Once you’ve released that water, lower the chicken back into the pot, and bring to a boil again.\n5. When the water is JUST starting to boil, turn the heat down. Keep it at barely a simmer. There should be very little movement in the water, but it also shouldn’t be still. Cover the pot, and keep the heat around the lowest setting so the liquid continues to simmer slowly. Cook for about 35-40 minutes, roughly 10-11 minutes per pound. Depending on the size of your chicken, it may take more or less time to cook it through. You can check to make sure the water is bubbling slowly/gently and not boiling too vigorously, but try to avoid uncovering the pot while it’s cooking.\n6. Poke a chopstick or skewer into the thigh to check for doneness. If the juices run clear, it's done. Carefully lift the chicken out of the pot and transfer it to a large bowl of ice water. Cool completely.",
+      "similarity": 0.591876548770782
+    },
+    {
+      "chunkId": "99b8d278-b42c-438b-b580-af80a53c3683",
+      "documentId": "2be1111d-2cd1-42dd-b183-990a063573e7",
+      "sourceName": "The Woks of Life",
+      "chunkType": "steps",
+      "content": "菜名：白切鸡\n7. While the chicken is cooling, make the sauce. You have the option to make two versions—one with just scallions, ginger, oil and salt, and one with soy sauce. The plain version is more traditional, as it really lets the flavors of chicken, ginger, and scallion shine through. Judy loves to add soy sauce, and it’s also a tasty option! Start with the plain version, and then scoop some of it out into another bowl and add soy sauce. Try both and see which your loved ones like best!\n8. When the chicken is out of the ice water, you can brush it lightly with oil or some of the fat floating atop the poaching liquid to give it that enticing, shiny look!\n9. To serve, carve your chicken into pieces that you can easily grab with chopsticks. For directions on the traditional way to cut up see chicken, see our post on How to Cut a Whole Poached Chicken, Chinese Style . Serve with your sauce(s) and some steamed rice. NOTE: Don’t forget to save the chicken stock and freeze it for later! You can also use it in place of water to cook rice!",
+      "similarity": 0.575887433518838
+    },
+    {
+      "chunkId": "cab0ec22-d6f8-40c9-be5d-ce5b6a578930",
+      "documentId": "2be1111d-2cd1-42dd-b183-990a063573e7",
+      "sourceName": "The Woks of Life",
+      "chunkType": "technique",
+      "content": "菜名：白切鸡\n- Serves: 6\n- Prep: 20 mins\n- Cook: 50 mins\n- Total: 1 hr 10 mins",
+      "similarity": 0.52926020585837
+    }
+  ],
+  "notes": [
+    "Database book comparison audit: cn-book-inventory.json.",
+    "完整来源步骤及正文操作细节保留在rawExcerpt；Editor必须核对正文补充细节，不能只用压缩后的概述。",
+    "Unselectedsourceimageaudit:[{\"originalUrl\": \"https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-16.jpg\", \"role\": \"finished_dish\", \"reason\": \"重复成品图；保留单独图片审计，不伪作过程图。\"}]",
+    "源图已由既有WindowsHTTP标准传输验证并导入，参见本菜media-import.json。"
+  ]
+}

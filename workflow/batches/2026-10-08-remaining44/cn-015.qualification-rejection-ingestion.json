@@ -1,0 +1,92 @@
+{
+  "ok": true,
+  "completedAt": "2026-10-08T12:42:47.740Z",
+  "recipeId": "cn-015",
+  "documentId": "a4076148-4892-4817-9692-070337ba2939",
+  "reason": "Mandatory soup-bone roasting at 400 degrees lacks Fahrenheit/Celsius unit in accessible complete source; no explicit alternative, no unit inferred.",
+  "documentEvidenceStatus": "rejected",
+  "sourceComplete": false,
+  "chunkCount": 6,
+  "allChunksRejected": true,
+  "rawTextPreserved": true,
+  "contentHashPreserved": true,
+  "chunkContentAndVectorsPreserved": true,
+  "retrieval": {
+    "semanticRejectedMatches": 0,
+    "hybridRejectedMatches": 0
+  },
+  "priorDocumentMetadata": {
+    "location": null,
+    "mediaReferences": {
+      "hero": {
+        "bytes": 91374,
+        "sha256": "cdb8f76c434d8462513850fab6f4721480a4d27ac635c7e28331bad5d98f91a2",
+        "pageOrder": 0,
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/10/lanzhou-beef-noodle-soup-6.jpg",
+        "adjacentText": "兰州清汤牛肉面成品",
+        "repositoryPath": "assets/dishes/sources/cn-015-woks/hero.jpg"
+      },
+      "steps": [
+        {
+          "bytes": 68366,
+          "sha256": "3622be81e9b699f026403829e86e3c4d1e039104bda4435a9896c009e421c7bf",
+          "pageOrder": 4,
+          "stepOrder": 4,
+          "httpStatus": 200,
+          "contentType": "image/webp",
+          "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/10/lanzhou-beef-noodle-soup-1.jpg",
+          "adjacentText": "Let the oil cool for about5minutes, then add chili flakes; slowly toast in hot oil until fragrant and red; stir in salt and sugar. Image immediatelyfollows thischilioilcomponentinstruction.",
+          "repositoryPath": "assets/dishes/sources/cn-015-woks/step-4-chili-oil.jpg"
+        }
+      ],
+      "author": "Judy",
+      "sourceName": "The Woks of Life",
+      "mediaPageUrl": "https://thewoksoflife.com/lanzhou-beef-noodle-soup/",
+      "reuseLicense": null,
+      "rightsNotice": "All Rights Reserved © The Woks of Life",
+      "recipePageUrl": "https://thewoksoflife.com/lanzhou-beef-noodle-soup/",
+      "repositoryCopyAuthorized": true
+    },
+    "retrievalMethod": "Normal web browser fetch complete recipe card plus relevant operational narrative",
+    "selectedForRecipe": "cn-015",
+    "originalFilePreserved": false
+  },
+  "priorNormalizedMetadata": {
+    "sourceComplete": true,
+    "mediaReferences": {
+      "hero": {
+        "bytes": 91374,
+        "sha256": "cdb8f76c434d8462513850fab6f4721480a4d27ac635c7e28331bad5d98f91a2",
+        "pageOrder": 0,
+        "httpStatus": 200,
+        "contentType": "image/webp",
+        "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/10/lanzhou-beef-noodle-soup-6.jpg",
+        "adjacentText": "兰州清汤牛肉面成品",
+        "repositoryPath": "assets/dishes/sources/cn-015-woks/hero.jpg"
+      },
+      "steps": [
+        {
+          "bytes": 68366,
+          "sha256": "3622be81e9b699f026403829e86e3c4d1e039104bda4435a9896c009e421c7bf",
+          "pageOrder": 4,
+          "stepOrder": 4,
+          "httpStatus": 200,
+          "contentType": "image/webp",
+          "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/10/lanzhou-beef-noodle-soup-1.jpg",
+          "adjacentText": "Let the oil cool for about5minutes, then add chili flakes; slowly toast in hot oil until fragrant and red; stir in salt and sugar. Image immediatelyfollows thischilioilcomponentinstruction.",
+          "repositoryPath": "assets/dishes/sources/cn-015-woks/step-4-chili-oil.jpg"
+        }
+      ],
+      "author": "Judy",
+      "sourceName": "The Woks of Life",
+      "mediaPageUrl": "https://thewoksoflife.com/lanzhou-beef-noodle-soup/",
+      "reuseLicense": null,
+      "rightsNotice": "All Rights Reserved © The Woks of Life",
+      "recipePageUrl": "https://thewoksoflife.com/lanzhou-beef-noodle-soup/",
+      "repositoryCopyAuthorized": true
+    },
+    "projectRecipeId": "cn-015"
+  }
+}

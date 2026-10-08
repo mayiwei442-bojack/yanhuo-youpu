@@ -1,0 +1,254 @@
+{
+  "recipeId": "cn-039",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/hainan-chicken-rice-7.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/hero.jpg",
+      "sha256": "27cdcd6bda90b3816943311bbfa1c2201a7247fcbf3329e9a1429665aee30439",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 593970
+    },
+    {
+      "role": "step",
+      "stepOrder": 1,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-3.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-1-1.jpg",
+      "sha256": "f6d856153f95e03a10dccd48f7635b250f172f81e4d1f4c16b3b55e91161d720",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 116598
+    },
+    {
+      "role": "step",
+      "stepOrder": 2,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-4.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-2-2.jpg",
+      "sha256": "ca1968116aea5f7c1f15df25a48176ade4c56852f5aebd898ed670fc7fbc1c0e",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 122568
+    },
+    {
+      "role": "step",
+      "stepOrder": 2,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-5.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-2-3.jpg",
+      "sha256": "79d5a78d0e05a5e1edfe17d9774492b4e78c4d5fe192481e85228c9eea8af230",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 134206
+    },
+    {
+      "role": "step",
+      "stepOrder": 3,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-6.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-3-4.jpg",
+      "sha256": "c02291d088351434865c6e48b48ed935c404f13b441e531b4af5e9580729eee0",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 189134
+    },
+    {
+      "role": "step",
+      "stepOrder": 5,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-14.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-5-5.jpg",
+      "sha256": "ef709ee8778cdabb7873aa53ba786fef80b36fdb7b205004635a54b38b8654fc",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 145278
+    },
+    {
+      "role": "step",
+      "stepOrder": 5,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-21.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-5-6.jpg",
+      "sha256": "e71200279f9f109368ecda120f2606d9dbd88bfaec5291e4b87931df3511a8e6",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 177540
+    },
+    {
+      "role": "step",
+      "stepOrder": 5,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-22.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-5-7.jpg",
+      "sha256": "730842d712d821c1354fc07db221e70f522b9e0f0a94034a01ccef86857bc277",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 151384
+    },
+    {
+      "role": "step",
+      "stepOrder": 7,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-17.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-7-8.jpg",
+      "sha256": "ed5585edf203b7f7ea6598be10eecc3e81a213eb19f585baa6d1accfd2cabcc5",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 68112
+    },
+    {
+      "role": "step",
+      "stepOrder": 7,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-18.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-7-9.jpg",
+      "sha256": "c4d8ac24735e9b4837559c9f98604d249e19f65cf863f207ab8ab26c9b5dba04",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 118152
+    },
+    {
+      "role": "step",
+      "stepOrder": 7,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/hainan-chicken-rice-3.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-7-10.jpg",
+      "sha256": "77805f04502e5ce08d869a93f5d903a11d1b106218e45a815ee10833035db937",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 135118
+    },
+    {
+      "role": "step",
+      "stepOrder": 7,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/hainan-chicken-rice-4.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-7-11.jpg",
+      "sha256": "9bf858951ce53978a6d25a70e73b5e455367f99dfe1e53356ce7aa653cd92c7d",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 161346
+    },
+    {
+      "role": "step",
+      "stepOrder": 8,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-19.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-8-12.jpg",
+      "sha256": "3e554d90f4a7b7b27e88e98430d6bb042dfb748cf2338f0725d6202a23542afe",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 234350
+    },
+    {
+      "role": "step",
+      "stepOrder": 8,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-20.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-8-13.jpg",
+      "sha256": "7695753f9c1926c5960a3a13c1021a470930f1381491a164adb21aaf328c5bb2",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 57170
+    },
+    {
+      "role": "step",
+      "stepOrder": 8,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/chicken-flavored-rice-8.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-8-14.jpg",
+      "sha256": "e323188f92334830188762861768c20a79bba5b63c5219d3b4fd525be2c8ff1a",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 91960
+    },
+    {
+      "role": "step",
+      "stepOrder": 10,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-7.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-10-15.jpg",
+      "sha256": "c2bd8ea73a7fa704dc9176224e9378b168a2fa5981012c9813c86e3d8d7c7778",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 84794
+    },
+    {
+      "role": "step",
+      "stepOrder": 10,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-8.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-10-16.jpg",
+      "sha256": "bb63038c6b443c84d2a010ae42722f29c486a8d2ec67049e648bac49ef9e1aad",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 116110
+    },
+    {
+      "role": "step",
+      "stepOrder": 10,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-13.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-10-17.jpg",
+      "sha256": "eee1757d24c1b78483ff5c4404ab80207bbbb27c0f5d1794e2d6b456b99759bd",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 124652
+    },
+    {
+      "role": "step",
+      "stepOrder": 11,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-15.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-11-18.jpg",
+      "sha256": "54496d5fb92ddfa8a9021eebe46c87dbcc92eafb0d8e75510bf4232fbe3176ba",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 100362
+    },
+    {
+      "role": "step",
+      "stepOrder": 11,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-16.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-11-19.jpg",
+      "sha256": "c6a8d8143a600cfe1a866eba5b76b17a96f31be574dec8cebcc713b52abe636e",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 98626
+    },
+    {
+      "role": "step",
+      "stepOrder": 12,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-10.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-12-20.jpg",
+      "sha256": "a462925d259047a395481a29f34c02a8935bcad399bd8f488993edaac35afb81",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 169110
+    },
+    {
+      "role": "step",
+      "stepOrder": 12,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-11.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-12-21.jpg",
+      "sha256": "aea31e0ceabdf609f83983aa13c32617fb3ed3a007284acbd848c253d19a570b",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 63964
+    },
+    {
+      "role": "step",
+      "stepOrder": 12,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-12.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-12-22.jpg",
+      "sha256": "cda4142743c8fbda77fe9cd0294add5d2a25ac6be0c1eed1668afd0fd827ef0d",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 139250
+    },
+    {
+      "role": "step",
+      "stepOrder": 14,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/how-to-carve-whole-chicken-chinese-6.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-13-24.jpg",
+      "sha256": "23833880579e60308cbe827f0feeae031358990f9718681e8cf03f7b6d42d53f",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 57588
+    },
+    {
+      "role": "step",
+      "stepOrder": 14,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/10/whole-poached-chicken-carved.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-13-25.jpg",
+      "sha256": "451227e4179db0c1af13e5b1f5dfbfb71d861bcf07ab23de65c3b22be01dd5e9",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 636932
+    }
+  ]
+}

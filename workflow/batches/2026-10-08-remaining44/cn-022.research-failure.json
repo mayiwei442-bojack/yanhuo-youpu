@@ -1,0 +1,38 @@
+{
+  "recipeId": "cn-022",
+  "recipeName": "北京烤鸭",
+  "category": "chinese",
+  "status": "failed",
+  "failedStage": "research",
+  "createdAt": "2026-10-08T12:23:23.823012+00:00",
+  "reason": "Woks完整候选为鸭胸煎制的简化Peking Duck，明显区别整鸭北京烤鸭工艺；未擅自改成煎鸭胸。豆果检索无可读取完整匹配。",
+  "bookSearch": {
+    "auditFile": "cn-book-inventory.json",
+    "scannedDocuments": 84,
+    "usableDocuments": 79,
+    "exactOrAcceptableAliasMatches": 0,
+    "excludedStatuses": [
+      "superseded",
+      "rejected",
+      "invalid"
+    ],
+    "assessment": "No complete same-dish recipe in current database books; no book supplementation fabricated."
+  },
+  "attemptedSources": [
+    {
+      "source": "The Woks of Life",
+      "url": "https://thewoksoflife.com/easy-peking-duck-mandarin-pancakes/",
+      "result": "normalwebsuccess fullcard/body; 4duckbreasts skilletseared; materiallydifferentvariant, rejected"
+    },
+    {
+      "source": "豆果美食",
+      "query": "北京烤鸭的做法 豆果美食",
+      "result": "near names油烫鸭/芋泥香酥鸭 only; rejected"
+    }
+  ],
+  "evidencePackage": null,
+  "ingestion": {
+    "performed": false,
+    "reason": "No qualifying complete exactdishsource; do not ingest partial snippets or unrelated variants as this entity."
+  }
+}

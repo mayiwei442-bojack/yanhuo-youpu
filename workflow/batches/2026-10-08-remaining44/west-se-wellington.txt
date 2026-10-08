@@ -1,0 +1,279 @@
+The Ultimate Beef Wellington Recipe (https://www.seriouseats.com/the-ultimate-beef-wellington-recipe)
+citeturn93view0 [wordlim: 100] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.seriouseats.com/the-ultimate-beef-wellington-recipe","lineno":220}); Total lines: 361
+L56:   * High-heat searing of the tenderloin creates complex, savory flavors by inducing the Maillard reaction, adding depth to the beef's natural mildness.
+L59:   * Assembling the dish with prosciutto and phyllo dough mitigates moisture seepage, preserving the crispness of the puff pastry for an optimal flaky texture.
+L60: The cite11†prime rib might be the king of the holiday table, but if I had to nominate one roast for the triple threat of Dictator-For-Life, President, and First Tiger, it'd be the beef Wellington. Surely, there is no more decadent roast in the history of the post-Roman canon.
+L61: The origin of the dish is not exactly known, and there's not much primary research I can add to the wealth of theories that aren't already aptly covered by the cite12†Wikipedia article†en.wikipedia.org on the subject (tl;dr it might be named after the 1st Duke of Wellington, it might be a patriotic English name for a French dish, it might be named after a pair of shoes, or it may be cite13†from the land†en.wikipedia.org of Hobbits and cite14†Nelwyns†starwars.fandom.com ).
+L62: But we're not after pedagogical discussions of origin or etymology. We're interested in one thing, and one thing only: deliciousness.
+L63: There's no doubt that beef Wellington is delicious. How can it not be? The exterior is a light, crisp, buttery crust, glazed a deep, shiny golden brown, twinkling with crystals of sea salt. You slice through it to reveal layers of some of the finest ingredients in the Western world: slivers of prosciutto, a duxelles of wild mushrooms bound with cream, and finally foie gras, all encasing a core of medium-rare, buttery-soft beef tenderloin.
+L64: As the be-all-end-all to decadent roasts and as an absolute classic, is there really much we can do by way of improving the recipe? What exactly is there left to explore?
+L65: 
+L66: Well not all recipes need overhauls. Sometimes, a few tweaks here and there to bring out the best in each ingredient is all it takes. Let's go through the Wellington from the outside in.
+L67: ## Choosing Your Ingredients
+L68: ### The Beef
+L69: 
+L70: What can we do with the beef? After all, tenderloin is tenderloin, right? Well, that's pretty much true. Of all the cuts on the cow, the tenderloin is perhaps the one that is least affected by grading and the varying levels of marbling (intramuscular fat) that come with it.
+L71: 
+L72: cite15†Image: Seasoning a tied beef tenderloin with salt and pepper for beef Wellington. cite15†Image: Seasoning a tied beef tenderloin with salt and pepper for beef Wellington. L73: 
+L74: Serious Eats / J. Kenji López-Alt
+L75: See, with a rich cut like a ribeye or a flatiron steak, the flavor, juiciness, and tenderness are linked closely to its USDA grade. Prime beef will have more fat, be more tender, and (at least to most palates) be more tasty. Choice or Select meat, on the other hand, will be less juicy, tougher, and less flavorful.
+L76: A tenderloin, on the other hand, is a very lean cut no matter which steer it comes from. A tenderloin from a Prime-graded steer will not have significantly more fat than that from a Select-graded steer, thus the variance in quality in tenderloin is not that wide. That's OK. Tenderloin is emphatically not about fat and flavor. It's about tenderness. As one of the least utilized muscles on the steer, the tenderloin, or psoas major, remains small, underdeveloped, and tender throughout the steers life.
+L77: This translates to a buttery tenderness on the plate.
+L78: It also translates to blandness. There's no two ways about it. A tenderloin is a bland cut. That's one of the reasons that beef Wellington exists—take a bland but tender cut of beef, and try and pack as much flavor and fat around it as possible.
+L79: The start of this process is to sear it. Browning develops tons of new flavorful compounds that don't exist naturally in beef, giving it complexity and meaty depth. Tying the tenderloin at regular intervals with twine will help it keep a nice round shape as it sears, which improves both the appearance of the final dish, as well as leading to more even cooking.
+L80: How else can we add flavor? Well, we'll get to the mushrooms and foie gras, but for now I'm going to employ an idea I got from Gordon Ramsay's version of Wellington: mustard.
+L81: I'm not a fan of the famously angry chef, but when he's right, he's right, and mustard adds another dimension to the flavor of the final dish—acidity, lightness, and heat—that enhances and draws attention to its overtly rich primary flavors in a way that I find particularly appealing. I cut my mustard with a ton of horseradish to increase its bite.
+L82: ### The Duxelles
+L83: 
+L84: Let's move on to the mushrooms. Duxelles is one of the oldest common preparations in the modern French cookbook—the original recipe goes back to the early 17th century. At its simplest, it consists of finely chopped mushrooms cooked down in butter with shallots into a thick, flavor-packed mass. It fills tarts and stuffs chickens, and in the case of a Wellington, completely surrounds the beef.
+L85: cite16†Image: Shiitake, button, and portobello mushrooms on a cutting board next to a chef's knife. cite16†Image: Shiitake, button, and portobello mushrooms on a cutting board next to a chef's knife. L86: 
+L87: Serious Eats / J. Kenji López-Alt
+L88: Again, at this stage, we're all about adding complexity and luxury to what is already a pretty luxuriously complex dish. How do we do it? Let's start by using a variety of mushrooms. As any mycophile or cite17†plumber from Brooklyn with a fetish for royalty†en.wikipedia.org can tell you, the variations of flavor in the mushroom kingdom are vast. Why settle for just one?
+L89: At a very minimum, I like to use three: button mushrooms, shiitake, and portobello. All are easily found in any supermarket, and all bring a little something to the party. If you want to get extra fancy, go ahead and use oysters, chanterelles, morels, lobster, giant powderpuff, mousseron, or whatever else strikes your fancy. If you've got it in the budget, some chopped truffles stirred into the duxelles at the very end would not be unwelcome in this dish.
+L90: With the exception of using a food processor to chop the 'shrooms, our duxelles starts just like the classic. Mushrooms cooked in butter until they give up their moisture, then a handful of chopped shallots and chopped thyme that get cooked until soft.
+L91: 
+L92: cite18†Image: Adding Cognac to saute pan with minced mushrooms to make duxelles for beef Wellington. cite18†Image: Adding Cognac to saute pan with minced mushrooms to make duxelles for beef Wellington. L93: 
+L94: Serious Eats / J. Kenji López-Alt
+L95: We're already using tenderloin, mushrooms, and foie gras, why not throw in a bit more luxury? Some booze will do nicely.
+L96: 
+L97: I deglaze the pan with Cognac, though any high-proof, dry, barrel-aged spirit will do. Armagnac, applejack, bourbon, Scotch, even a dark rum, if that's what you'd like.
+L98: After adding some heavy cream (which reduces down and binds the mushrooms into a thick paste—the better to adhere to the meat with—I add a dash of soy sauce. Soy sauce, with its high levels of glutamic acid, is a natural umami-bomb. It makes things taste meatier, more savory. It makes the mushrooms taste more like mushrooms, if you will, and the tenderloin more like an entire steer and all of its flavor compressed down into a single tenderloin-sized package.
+L99: ### The Foie Gras
+L100: 
+L101: Traditional Beef Wellington recipes call for a pâté—often a foie gras pâté—of some sort to be smothered over the beef to add fat and flavor as it bakes. How can we improve upon this?
+L102: 
+L103: cite19†Image: Seared foie gras draining on a paper towel before being sliced and wrapped into beef Wellington. cite19†Image: Seared foie gras draining on a paper towel before being sliced and wrapped into beef Wellington. L104: 
+L105: Serious Eats / J. Kenji López-Alt
+L106: How about instead of using a pâté, we use real pieces of fresh seared foie gras? I sear off a few ounces of foie gras in a hot skillet, slice the slabs in half lengthwise, then layer them over the beef. As the dish bakes, the foie fat slowly renders, basting the beef in its juices so that when you slice into the finished Wellington, it oozes more juice than even a fatty prime rib roast.
+L107: 
+L108: And that rendered fat in the skillet you seared the foie gras in? Don't waste it! Into the mushroom duxelles it goes.
+L109: With all our elements in place, it's time to move on to the assembly phase.
+L110: ## Assembling Your Beef Wellington
+L111: 
+L112: For all its steps and ingredients, a beef Wellington is really not a difficult dish technique-wise. There are only two real major problems that arise when you bake it. The first is keeping the puff pastry from turning soggy. What with all the fatty ingredients—the foie gras, the duxelles— there are plenty of juices that are trying to escape from within their puff pastry enclosure. These juices need to be contained to prevent the pastry from leaking.
+L113: The second problem is one of timing. Puff pastry takes at least half an hour to 40 minutes to properly brown and puff—more than enough time for a tenderloin to overcook.
+L114: 
+L115: Let's start with tackling the first problem: moisture.
+L116: ### The Moisture Barrier
+L117: 
+L118: There are a few common solutions to the problem, but I don't find either of them to be particularly attractive. The first is to wrap the beef in shingled layers of a raw cured ham (generally prosciutto). From a flavor standpoint, this idea is top notch. The ham melds very nicely into the foie and duxelles, and it does make wrapping the beef relatively simple. Thin sliced ham is like nature's Velcro in that way.
+L119: The problem is that it doesn't really prevent moisture from leaking out. Indeed, as it cooks, it renders its own moisture, actually adding to the problem.
+L120: 
+L121: The other method is to make a thin crêpe, then using that crêpe to wrap the whole shebang. Again, the problem here is that it doesn't work all that well—the crêpe dissolves, turns soggy, and on top of that, who wants to bother making a crêpe when you're already committed to multiple hours in the kitchen?
+L122: I suggest a much simpler, more effective, and time-saving alternative: prosciutto and a sheet of phyllo dough.
+L123: 
+L124: cite20†Image: Laying sheets of prosciutto on top of phyllo dough on plastic wrap before adding foie gras and beef tenderloin for beef Wellington. cite20†Image: Laying sheets of prosciutto on top of phyllo dough on plastic wrap before adding foie gras and beef tenderloin for beef Wellington. L125: 
+L126: Serious Eats / J. Kenji López-Alt
+L127: It's pretty much custom made for the job. Phyllo dough is ultra-thin (thus doesn't distract us with any unwanted flavors or textures), but quite strong, designed to wrap moist fillings without leaking. It's also available inexpensively in any supermarket.
+L128: 
+L129: I use a single sheet of phyllo, shingle on my prosciutto, spread my duxelles over that, and we're good to go.
+L130: ### Wrapping
+L131: 
+L132: So long as the duxelles has cooled to a paste-like consistency, wrapping is relatively easy. The trick is to use a double layer of plastic wrap to help you out, exactly the same way you'd use a bamboo mat to make cite21†makizushi (sushi rolls) . Indeed, the process is pretty much identical. The phyllo and ham layer is the nori, the duxelles is the rice, and the beef and foie gras are the fish and vegetables. It's only the scale that's different.
+L133: cite22†Image: Wrapping beef tenderloin in duxelles, prosciutto, and phyllo dough to make beef Wellington. cite22†Image: Wrapping beef tenderloin in duxelles, prosciutto, and phyllo dough to make beef Wellington. L134: 
+L135: Serious Eats / J. Kenji López-Alt
+L136: 
+L137: I place the beef along the lower edge of the mushroom-covered phyllo/ham, shingle the foie on top, then roll.
+L138: Once rolled, I re-wrap the whole thing as tightly as I possibly can in clingfilm, using several layers and twisting the ends. This step is absolutely vital, as it's what will determine the shape of the Wellington in its final form.
+L139: This is where we now address the second problem—not overcooking the meat while finishing off the pastry properly. To solve this problem, it's a simple as making sure that the beef is completely chilled before it gets wrapped. At this stage, the whole roll should go back into the fridge for at least half an hour, and up to a couple days, to get it thoroughly chilled.
+L140: ### The Pastry
+L141: 
+L142: If you want to be a true food hero, you could cite23†make your own puff pastry (you overachiever, you). But I don't find it necessary when there are cite24†some excellent frozen puff pastry brands on the market.
+L143: Puff pastry (like pie dough) happens to be one of the foods that freezes best, losing none of its flavor or puffing ability during its stay in the freezer. The key to finding a good brand is to check the ingredients—the only fat in there should be butter, and there should be no artificial or natural flavorings of any kind. Butter provides enough flavor on its own, thanks.
+L144: 
+L145: I use cite25†Dufour brand†dufourpastrykitchens.com puff pastry, which is pretty widely available.
+L146: cite26†Image: Brushing puff pastry sheet with egg wash before rolling up beef tenderloin to make beef Wellington. cite26†Image: Brushing puff pastry sheet with egg wash before rolling up beef tenderloin to make beef Wellington. L147: 
+L148: Serious Eats / J. Kenji López-Alt
+L149: Once the beef is chilled, it'll hold its shape very well, making wrapping it a snap. I roll out my puff pastry dough so that it extends a couple inches beyond either end of the beef roll, then brush it with egg wash. The key here is to make sure that the foie gras ends up on top and that the puff pastry seam ends up on bottom.
+L150: You can do this by laying the beef roll along the very bottom edge of the pastry with the foie on top, or by laying it in the position seen above with the foie on the bottom. Roll the pastry away from you until the seams meet, then trim off excess with a knife.
+L151: If you've ever wrapped a present before, you know how to seal puff pastry dough. I start by folding in the sides, then folding down the top flap before using a knife to cite27†trim off the bottom flap . After repeating on both sides, I flip the whole thing over and tuck the flaps over, pressing them down so they adhere. The whole thing gets flipped back over again, then placed in the refrigerator for its final chill before baking.
+L152: Again, it can be stored in the fridge at this stage for a couple of days, making beef Wellington one of the more party-friendly dishes I know.
+L153: cite28†Image: Fully wrapped beef Wellington brushed with egg wash, scored, and sprinkled with salt. cite28†Image: Fully wrapped beef Wellington brushed with egg wash, scored, and sprinkled with salt. L154: 
+L155: Serious Eats / J. Kenji López-Alt
+L156: 
+L157: Just before it goes in the oven, I paint it with more egg wash (this will help give it a glossy sheen and deeper color), score it with a paring knife (for looks!), and sprinkle it with plenty of coarse crunchy sea salt to add some pretzel-like crunch to the pastry.
+L158: ## Baking and Carving
+L159: 
+L160: There's nothing worse than undercooked puff pastry—gummy and bland—to get good results, you must use a relatively high heat. This initial blast of high heat causes the moisture in the layers of butter within the pastry to suddenly expand, forcing the layers of pastry apart, and giving it its light, flaky texture.
+L161: You may think that what with our overcooked beef problem, high heat is not the way to go, but in fact, using higher heat will help cook the meat slower than a more moderate heat. How so?
+L162: Vapor makes a great insulator. That's why wooden houses have spaces within their walls, or how a Thermos manages to conserve its temperature so well. By causing the puff pastry to quickly expand, you introduce plenty of air space within its structure, which will in turn give it better insulative properties, allowing the beef within to cook more gently.
+L163: At 425°F (218°C), a chilled tenderloin will take between 30 and 40 minutes to reach an internal temperature of 110 to 120°F (43 to 49°C) for rare to medium-rare, and you are using a cite29†thermometer , aren't you? This is precisely how long you need to properly brown your puff pastry. Serendipity? I think not. Try careful planning and sound science!
+L164: 
+L165: cite30†Image: Slicing perfectly cooked beef Wellington on a wooden cutting board. cite30†Image: Slicing perfectly cooked beef Wellington on a wooden cutting board. L166: Serious Eats / J. Kenji López-Alt
+L167: 
+L168: As with any roast, you should let it rest a bit after coming out of the oven in order to help it cite31†retain its juices better when you slice it. And believe me, there will be juices. Precious juices.
+L169: Complex, beefy, buttery, oozing with juices, and packed with flavor, it's hard to get more decadent than this, my friends. But after all, isn't overindulgence, decadence, and a desire to shove everything you see into your gut before New Year's resolutions roll around the whole point of the holidays?
+L170: 
+L171: Well, that and family and friends. Don't forget about them.
+L172: ### December 2012
+L173: 
+L174: Prep Time:
+L175: 
+L176: 40 mins
+L177: 
+L178: Cook Time:
+L179: 
+L180: 1 hr 30 mins
+L181: 
+L182: Chilling Time:
+L183: 
+L184: 1 hr 30 mins
+L185: 
+L186: Total Time:
+L187: 
+L188: 3 hrs 40 mins
+L189: 
+L190: Servings:
+L191: 
+L192: 6 to 8 servings
+L193: 
+L194: Yield:
+L195: 
+L196: Serves 6 to 8
+L197: 
+L198: [Button: Jump to Nutrition Facts]
+L199: 
+L200: Keep Screen Awake
+L201: ## Ingredients
+L202: 
+L203:   * 1 center-cut beef tenderloin, trimmed of silverskin and fat, about 2 pounds (see note)
+L204: 
+L205:   * Kosher salt and freshly ground black pepper
+L206: 
+L207:   * 2 tablespoons plus 1/2 teaspoon vegetable or canola oil, divided
+L208: 
+L209:   * 2 tablespoons prepared horseradish
+L210: 
+L211:   * 1 tablespoon Dijon, spicy brown, or hot English mustard
+L212: 
+L213:   * 1 pound mushrooms (button, cremini, shiitake, portabello, or a mix) cleaned, trimmed, and roughly chopped
+L214: 
+L215:   * 4 tablespoons unsalted butter
+L216:   * 2 medium shallots, finely diced (about 1/2 cup)
+L217: 
+L218:   * 2 teaspoons finely minced fresh thyme leaves
+L219: 
+L220:   * 1/2 cup Cognac or other brandy or barrel-aged spirit, such as bourbon
+L221: 
+L222:   * 1/2 cup heavy cream
+L223: 
+L224:   * 2 teaspoons soy sauce
+L225: 
+L226:   * 4 ounces fresh foie gras (about 2 1/2-inch slabs, see note)
+L227: 
+L228:   * 1 sheet phyllo dough
+L229: 
+L230:   * 1/4 pound prosciutto, sliced paper thin
+L231: 
+L232:   * Flour, for dusting
+L233: 
+L234:   * 14 ounces frozen or cite23†homemade puff pastry, thawed (see note)
+L235: 
+L236:   * 1 egg, beaten
+L237:   * Coarse sea salt, such as Maldon or fleur de sel
+L238: 
+L239:   * 1 bunch finely minced chives
+L240: ## Directions
+L241: 
+L242:   1. Using butcher's twine, tie tenderloin at 1-inch intervals. Trim ends of twine. Season liberally with salt and pepper.
+L243: 
+L244: cite32†Image: Trimmed beef tenderloin, wrapped in twine on a wooden cutting board. cite32†Image: Trimmed beef tenderloin, wrapped in twine on a wooden cutting board. L245: 
+L246: Serious Eats / Diana Chistruga
+L247:   2. Heat 2 tablespoons oil in a cast iron or stainless steel skillet over high heat until smoking. Add tenderloin and cook without moving until well-browned on first side, about 2 minutes. Rotate tenderloin and continue cooking until browned on all sides, about 10 minutes total. Transfer to a large plate.
+L248: 
+L249: cite33†Image: Beef tenderloin being browned in a cast iron skillet. cite33†Image: Beef tenderloin being browned in a cast iron skillet. L250: 
+L251: Serious Eats / Diana Chistruga
+L252:   3. Combine horseradish, mustard, and 1 teaspoon black pepper in a small bowl. When tenderloin is cool enough to handle, cut off and discard twine, then rub on all surfaces with horseradish/mustard mixture. Place in refrigerator, uncovered.
+L253: 
+L254: cite34†Image: Seared beef tenderloin on a wooden cutting board being smeared with horseradish, mustard, and black pepper mixture. cite34†Image: Seared beef tenderloin on a wooden cutting board being smeared with horseradish, mustard, and black pepper mixture. L255: Serious Eats / Diana Chistruga
+L256: 
+L257:   4. Place half the mushrooms in the bowl of a food processor and pulse until very finely chopped, scraping down sides and redistributing mushrooms with spatula as necessary, about 10 short pulses. Transfer to a bowl. Repeat with remaining mushrooms.
+L258: 
+L259: cite35†Image: Finely chopped mushrooms in a glass bowl. cite35†Image: Finely chopped mushrooms in a glass bowl. L260: 
+L261: Serious Eats / Diana Chistruga
+L262:   5. Heat butter in a 12-inch skillet over medium-high heat until melted. Add mushrooms and cook, stirring occasionally, until mushrooms have exuded all their liquid and start to sizzle, about 8 minutes. Continue cooking until mushrooms begin to brown and leave browned bits stuck to bottom of pan, about 4 minutes longer. Add shallots and thyme and cook, stirring frequently, until softened, about 2 minutes.
+L263: cite36†Image: A collage showing the finely chopped mushrooms being sautÃ©ed with butter, shallots, and herbs. cite36†Image: A collage showing the finely chopped mushrooms being sautÃ©ed with butter, shallots, and herbs. L264: 
+L265: Serious Eats / Diana Chistruga
+L266:   6. Add brandy. Scrape bottom of skillet with a silicone spatula or wooden spoon to release browned bits. Continue to cook until brandy is nearly dry, about 4 minutes. Add heavy cream and soy sauce and continue to cook, stirring frequently until mixture is thick and collects in one large mass when you shake the skillet. Season to taste with salt and pepper. Transfer to a bowl and place in the refrigerator.
+L267: cite37†Image: A collage showing the sautÃ©ed mushrooms being further cooked with brandy, heavy cream, and soy sauce. cite37†Image: A collage showing the sautÃ©ed mushrooms being further cooked with brandy, heavy cream, and soy sauce. L268: 
+L269: Serious Eats / Diana Chistruga
+L270:   7. Season foie gras liberally with salt and pepper. Heat remaining half teaspoon oil in a small cast iron or stainless steel skillet over high heat until smoking. Add foie gras and cook without moving until well browned on first side, about 30 seconds. Carefully flip with a small offset spatula and brown second side, about 30 seconds longer. Transfer foie gras to a paper towel-lined plate. Pour rendered fat into mushroom mixture, stir to combine, and return to refrigerator.
+L271: Use a sharp knife to split each piece of cooked foie gras in half horizontally. Transfer to a plate and place in refrigerator. Allow all ingredients to chill for at least 30 minutes.
+L272: cite38†Image: A collage showing the foie gras being seared and the fat being poured off and then mixed with the mushrooms. cite38†Image: A collage showing the foie gras being seared and the fat being poured off and then mixed with the mushrooms. L273: 
+L274: Serious Eats / Diana Chistruga
+L275:   8. Lay a double layer of plastic wrap about 2 feet long and 1 foot wide on a cutting board. Lay phyllo dough on top of plastic wrap. Shingle prosciutto on top of phyllo to create a thin, even, overlapping layer, leaving a 2-inch border along the bottom and top of the phyllo dough. Spread mushroom mixture evenly over ham layer.
+L276: cite39†Image: A collage showing the parchment paper being placed on plastic wrap and then shingled with slices prosciutto, which is then spread with the mushroom duxelles. cite39†Image: A collage showing the parchment paper being placed on plastic wrap and then shingled with slices prosciutto, which is then spread with the mushroom duxelles. L277: 
+L278: Serious Eats / Diana Chistruga
+L279:   9. Place tenderloin along the very bottom edge of the ham/mushroom layer. Place sliced foie gras evenly over top of tenderloin (see note). Carefully roll tenderloin in mushroom, ham, and phyllo, using the plastic wrap to help tighten it as you roll. Once beef is completely rolled up, re-wrap with more plastic wrap, twisting the ends to make sure roll is very tight. Return to refrigerator for at least 30 minutes.
+L280: cite40†Image: A collage showing the mustard-rubbed tenderloin being layered with seared foie gras, being placed on the duxelles-spread prosciutto, and being rolled into a log. cite40†Image: A collage showing the mustard-rubbed tenderloin being layered with seared foie gras, being placed on the duxelles-spread prosciutto, and being rolled into a log. L281: 
+L282: Serious Eats / Diana Chistruga
+L283:   10. Dust board or countertop lightly with flour. Spread puff pastry on board and, using a rolling pin, roll it into a rectangle at least 4 inches wider than the beef roll on its shorter side.
+L284: 
+L285: cite41†Image: Puff pastry rolled out on a wooden cutting board. cite41†Image: Puff pastry rolled out on a wooden cutting board. L286: 
+L287: Serious Eats / Diana Chistruga
+L288:   11. Unwrap beef roll and place along very bottom edge of puff pastry with the foie gras side facing up. Brush 6 inches of puff pastry just above beef roll with beaten egg. Carefully roll the beef in the puff pastry until it is completely wrapped. You should end up with the foie gras-side facing up again, with the puff pastry seam meeting on the bottom. Trim pastry with a sharp knife.
+L289: cite42†Image: A collage showing the chilled beef being rolled in puff pastry, which is then trimmed with a knife. cite42†Image: A collage showing the chilled beef being rolled in puff pastry, which is then trimmed with a knife. L290: 
+L291: Serious Eats / Diana Chistruga
+L292: 
+L293:   12. Fold sides of puff pastry protruding from either end of the beef roll towards the center, then fold the top flaps down. Trim off the bottom flaps carefully.
+L294: cite43†Image: A collage showing the excess puff pastry at the end of the beef wellington being trimmed. cite43†Image: A collage showing the excess puff pastry at the end of the beef wellington being trimmed. L295: 
+L296: Serious Eats / Diana Chistruga
+L297: 
+L298:   13. Roll entire beef roll over so that the bottom is facing up, then fold up the end flaps to seal completely. Roll beef back right-side up. Transfer to a plate and chill for at least 30 minutes.
+L299: cite44†Image: The ends of the puff pastry being flattened against the seam on the beef wellington. cite44†Image: The ends of the puff pastry being flattened against the seam on the beef wellington. L300: 
+L301: Serious Eats / Diana Chistruga
+L302:   14. Adjust oven rack to center position and preheat oven to 425°F (218°C). Transfer Wellington to a foil-lined baking sheet and brush all over with beaten egg. Use a sharp paring knife to score a decorative pattern in the pastry. Sprinkle liberally with coarse sea salt. Bake until pastry is golden brown and center of roast registers 110°F (43°C) for rare or 120°F (49°C) for medium-rare on an instant-read thermometer, 35 to 45 minutes. Remove from oven and allow to rest for ten minutes.
+L303: cite45†Image: A collage showing the pastry-wrapped beef wellington being washed with egg, sprinkled with salt, and then how it looks after baking and resting. cite45†Image: A collage showing the pastry-wrapped beef wellington being washed with egg, sprinkled with salt, and then how it looks after baking and resting. L304: 
+L305: Serious Eats / Diana Chistruga
+L306:   15. Use a thin metal spatula to loosen Wellington from foil, then carefully transfer to a carving board. Slice off the ends with a sharp knife. Carve Wellington, sprinkle cut surfaces with chives and more coarse salt, and serve.
+L307: 
+L308: cite46†Image: A white oval ceramic plate holding five slices of Beef Wellington which are sprinkled with chopped chives. cite46†Image: A white oval ceramic plate holding five slices of Beef Wellington which are sprinkled with chopped chives. L309: 
+L310: Serious Eats / Diana Chistruga
+L311: ## Special Equipment
+L312: 
+L313: Butcher's twine, cite29†instant-read thermometer , cite47†rimmed baking sheet , cite48†serrated knife L314: ## Notes
+L315: 
+L316: A center-cut beef tenderloin is also known as a Châteubriand. For best results, use a high-quality all-butter puff pastry, such as Dufour. Alternatively, make your own cite23†using this recipe . Foie gras pâté can be used in place of the fresh foie gras. If using pâté, skip step 7. In step 9, spread foie gras pâté on top of tenderloin in place of sliced fresh foie gras.
+L317: 
+L318: Save
+L319: 
+L320: Rate
+L321: 
+L322: Print [Input]
+L323: ## Nutrition Facts (per serving)
+L324: 
+L325: 1029  | Calories
+L326: 75g  | Fat
+L327: 48g  | Carbs
+L328: 34g  | Protein
+L329: 
+L330: Show Full Nutrition Label Hide Full Nutrition Label
+L331: 
+L332: Nutrition Facts
+L333: ---
+L334: Servings Per Recipe 6 to 8
+L335: ---
+L336: Calories 1029
+L337: ---
+L338: % Daily Value *
+L339: Total Carbohydrate 48g  | 17%
+L340: Dietary Fiber 3g  | 12%
+L341: Total Sugars 4g
+L342: Protein 34g  | 68%
+L343: Total Fat 75g  | 96%
+L344: Saturated Fat 26g  | 129%
+L345: Cholesterol 166mg  | 55%
+L346: Vitamin C 7mg  | 8%
+L347: Sodium 1182mg  | 51%
+L348: Calcium 59mg  | 5%
+L349: Iron 7mg  | 38%
+L350: Potassium 800mg  | 17%
+L351: * Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs.
+L352: 
+L353: Loading shell for RecipesUgcThreaded1 Vue component in Globe.
+L354: ## Related Articles
+L355: cite49†Gordon Ramsay's Last Supper, Roast Beef and Yorkshire Pudding Recipe | Cook the Book 1 hr 50 mins cite50†Tri-Tip Beef Roast With Shallot Jus Recipe 9 hrs 30 mins cite51†Red Wine-Marinated, Roasted Beef Tenderloin With Herb-Horseradish Cream 5 hrs cite52†Slow-Roasted Beef Tenderloin 14 hrs 35 mins cite53†Perfect Prime Rib With Red Wine Jus Recipe 5 hrs 45 mins cite54†Garlic- and Herb-Roasted Pork Loin With Crackling and Spiced Apple Chutney 14 hrs 20 mins cite11†Roasted and Reverse Seared Prime Rib 5 hrs 20 mins cite55†Classic, Savory Shepherd's Pie (With Beef and/or Lamb) 2 hrs 25 mins L356: cite56†Sheet-Pan Skirt Steak Fajitas Recipe 3 hrs 40 mins cite57†All-Belly Porchetta 1 day 4 hrs 55 mins cite58†Lomo al Trapo (Colombian-Style Cloth-Wrapped Grilled Beef Tenderloin) 1 hr 15 mins cite59†Osso Buco (Italian Braised Veal Shanks) Recipe 3 hrs 45 mins cite60†Roast Beef Hash 1 hr 30 mins cite61†Chicken and Leek Pie Recipe 2 hrs 55 mins cite62†Rich and Flavorful Guinness Beef Stew With Potatoes 2 hrs 40 mins cite63†The Ultimate Beef Stroganoff Recipe 55 mins L357: 
+L358: Newsletter Sign Up
+L359: 
+L360: Newsletter Sign Up
+

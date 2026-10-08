@@ -1,0 +1,77 @@
+{
+  "ingredients": [
+    {
+      "name": "plain flour",
+      "raw": "50g plain flour",
+      "amount": null
+    },
+    {
+      "name": "cornflour",
+      "raw": "50g cornflour",
+      "amount": null
+    },
+    {
+      "name": "baking powder",
+      "raw": "1 tsp baking powder",
+      "amount": null
+    },
+    {
+      "name": "turmeric",
+      "raw": "turmeric",
+      "amount": null
+    },
+    {
+      "name": "lager beer",
+      "raw": "75ml lager beer",
+      "amount": null
+    },
+    {
+      "name": "sparkling water",
+      "raw": "75ml sparkling water",
+      "amount": null
+    },
+    {
+      "name": "about 1 litre sunflower oil for frying",
+      "raw": "about 1 litre sunflower oil for frying",
+      "amount": null
+    },
+    {
+      "name": "fillet sustainable cod, hake or haddock halved",
+      "raw": "400g fillet sustainable cod, hake or haddock halved",
+      "amount": null
+    },
+    {
+      "name": "potatoes Maris Piper or Desiree, peeled and sliced into thick chips",
+      "raw": "750g potatoes Maris Piper or Desiree, peeled and sliced into thick chips",
+      "amount": null
+    },
+    {
+      "name": "plain flour",
+      "raw": "2 tbsp plain flour",
+      "amount": null
+    },
+    {
+      "name": "sunflower oil",
+      "raw": "2 tbsp sunflower oil",
+      "amount": null
+    },
+    {
+      "name": "water",
+      "raw": "water for boiling potatoes (amount unspecified)",
+      "amount": null
+    },
+    {
+      "name": "salt",
+      "raw": "salt for chips and fried fish (amount unspecified)",
+      "amount": null
+    },
+    {
+      "name": "tomato sauce",
+      "raw": "Homemade tomato sauce to serve (amount unspecified; source permits prepared component)",
+      "amount": null
+    }
+  ],
+  "notes": [
+    "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented."
+  ]
+}

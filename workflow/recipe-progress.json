@@ -80,15 +80,15 @@
     {
       "id": "cn-012",
       "name": "羊肉泡馍",
-      "status": "pending",
-      "lastRunId": null,
-      "completedAt": null
+      "status": "failed",
+      "lastRunId": "2026-10-08-remaining44-cn-012",
+      "completedAt": "2026-10-08T12:48:15.022Z"
     },
     {
       "id": "cn-013",
       "name": "胡辣汤",
-      "status": "pending",
-      "lastRunId": null,
+      "status": "in_progress",
+      "lastRunId": "2026-10-08-remaining44-cn-013",
       "completedAt": null
     },
     {
@@ -101,9 +101,9 @@
     {
       "id": "cn-015",
       "name": "兰州清汤牛肉面",
-      "status": "pending",
-      "lastRunId": null,
-      "completedAt": null
+      "status": "failed",
+      "lastRunId": "2026-10-08-remaining44-cn-015",
+      "completedAt": "2026-10-08T12:48:15.120Z"
     },
     {
       "id": "cn-016",
@@ -122,22 +122,22 @@
     {
       "id": "cn-018",
       "name": "酸菜鱼",
-      "status": "pending",
-      "lastRunId": null,
-      "completedAt": null
+      "status": "failed",
+      "lastRunId": "2026-10-08-remaining44-cn-018",
+      "completedAt": "2026-10-08T12:48:15.220Z"
     },
     {
       "id": "cn-019",
       "name": "东坡肉",
-      "status": "pending",
-      "lastRunId": null,
+      "status": "in_progress",
+      "lastRunId": "2026-10-08-remaining44-cn-019",
       "completedAt": null
     },
     {
       "id": "cn-020",
       "name": "白切鸡",
-      "status": "pending",
-      "lastRunId": null,
+      "status": "in_progress",
+      "lastRunId": "2026-10-08-remaining44-cn-020",
       "completedAt": null
     },
     {
@@ -150,16 +150,16 @@
     {
       "id": "cn-022",
       "name": "北京烤鸭",
-      "status": "pending",
-      "lastRunId": null,
-      "completedAt": null
+      "status": "failed",
+      "lastRunId": "2026-10-08-remaining44-cn-022",
+      "completedAt": "2026-10-08T12:48:15.315Z"
     },
     {
       "id": "cn-023",
       "name": "小鸡炖蘑菇",
-      "status": "pending",
-      "lastRunId": null,
-      "completedAt": null
+      "status": "failed",
+      "lastRunId": "2026-10-08-remaining44-cn-023",
+      "completedAt": "2026-10-08T12:48:15.408Z"
     },
     {
       "id": "cn-024",
@@ -171,16 +171,16 @@
     {
       "id": "cn-025",
       "name": "西湖醋鱼",
-      "status": "pending",
-      "lastRunId": null,
-      "completedAt": null
+      "status": "failed",
+      "lastRunId": "2026-10-08-remaining44-cn-025",
+      "completedAt": "2026-10-08T12:48:15.508Z"
     },
     {
       "id": "cn-026",
       "name": "龙井虾仁",
-      "status": "pending",
-      "lastRunId": null,
-      "completedAt": null
+      "status": "failed",
+      "lastRunId": "2026-10-08-remaining44-cn-026",
+      "completedAt": "2026-10-08T12:48:15.604Z"
     },
     {
       "id": "cn-027",
@@ -192,9 +192,9 @@
     {
       "id": "cn-028",
       "name": "清炒虾仁",
-      "status": "pending",
-      "lastRunId": null,
-      "completedAt": null
+      "status": "failed",
+      "lastRunId": "2026-10-08-remaining44-cn-028",
+      "completedAt": "2026-10-08T12:48:15.707Z"
     },
     {
       "id": "cn-029",
@@ -213,8 +213,8 @@
     {
       "id": "cn-031",
       "name": "家常豆腐",
-      "status": "pending",
-      "lastRunId": null,
+      "status": "in_progress",
+      "lastRunId": "2026-10-08-remaining44-cn-031",
       "completedAt": null
     },
     {
@@ -241,8 +241,8 @@
     {
       "id": "cn-035",
       "name": "冬瓜排骨汤",
-      "status": "pending",
-      "lastRunId": null,
+      "status": "in_progress",
+      "lastRunId": "2026-10-08-remaining44-cn-035",
       "completedAt": null
     },
     {
@@ -255,9 +255,9 @@
     {
       "id": "cn-037",
       "name": "佛跳墙",
-      "status": "pending",
-      "lastRunId": null,
-      "completedAt": null
+      "status": "failed",
+      "lastRunId": "2026-10-08-remaining44-cn-037",
+      "completedAt": "2026-10-08T12:48:15.812Z"
     },
     {
       "id": "cn-038",
@@ -269,15 +269,15 @@
     {
       "id": "cn-039",
       "name": "海南鸡饭",
-      "status": "pending",
-      "lastRunId": null,
+      "status": "in_progress",
+      "lastRunId": "2026-10-08-remaining44-cn-039",
       "completedAt": null
     },
     {
       "id": "cn-040",
       "name": "担担面",
-      "status": "pending",
-      "lastRunId": null,
+      "status": "in_progress",
+      "lastRunId": "2026-10-08-remaining44-cn-040",
       "completedAt": null
     },
     {
@@ -297,15 +297,15 @@
     {
       "id": "cn-043",
       "name": "重庆小面",
-      "status": "pending",
-      "lastRunId": null,
-      "completedAt": null
+      "status": "failed",
+      "lastRunId": "2026-10-08-remaining44-cn-043",
+      "completedAt": "2026-10-08T12:48:15.908Z"
     },
     {
       "id": "cn-044",
       "name": "小笼包",
-      "status": "pending",
-      "lastRunId": null,
+      "status": "in_progress",
+      "lastRunId": "2026-10-08-remaining44-cn-044",
       "completedAt": null
     },
     {
@@ -339,22 +339,22 @@
     {
       "id": "cn-049",
       "name": "肉夹馍",
-      "status": "pending",
-      "lastRunId": null,
+      "status": "in_progress",
+      "lastRunId": "2026-10-08-remaining44-cn-049",
       "completedAt": null
     },
     {
       "id": "cn-050",
       "name": "煎饼果子",
-      "status": "pending",
-      "lastRunId": null,
-      "completedAt": null
+      "status": "failed",
+      "lastRunId": "2026-10-08-remaining44-cn-050",
+      "completedAt": "2026-10-08T12:48:16.001Z"
     },
     {
       "id": "cn-051",
       "name": "叉烧",
-      "status": "pending",
-      "lastRunId": null,
+      "status": "in_progress",
+      "lastRunId": "2026-10-08-remaining44-cn-051",
       "completedAt": null
     },
     {
@@ -367,8 +367,8 @@
     {
       "id": "cn-053",
       "name": "盐焗鸡",
-      "status": "pending",
-      "lastRunId": null,
+      "status": "in_progress",
+      "lastRunId": "2026-10-08-remaining44-cn-053",
       "completedAt": null
     },
     {
@@ -432,8 +432,8 @@
     {
       "id": "west-002",
       "name": "玛格丽特披萨",
-      "status": "pending",
-      "lastRunId": null,
+      "status": "in_progress",
+      "lastRunId": "2026-10-08-remaining44-west-002",
       "completedAt": null
     },
     {
@@ -453,8 +453,8 @@
     {
       "id": "west-005",
       "name": "芝士汉堡",
-      "status": "pending",
-      "lastRunId": null,
+      "status": "in_progress",
+      "lastRunId": "2026-10-08-remaining44-west-005",
       "completedAt": null
     },
     {
@@ -467,22 +467,22 @@
     {
       "id": "west-007",
       "name": "炸鱼薯条",
-      "status": "pending",
-      "lastRunId": null,
+      "status": "in_progress",
+      "lastRunId": "2026-10-08-remaining44-west-007",
       "completedAt": null
     },
     {
       "id": "west-008",
       "name": "西班牙海鲜饭",
-      "status": "pending",
-      "lastRunId": null,
+      "status": "in_progress",
+      "lastRunId": "2026-10-08-remaining44-west-008",
       "completedAt": null
     },
     {
       "id": "west-009",
       "name": "德式烤香肠",
-      "status": "pending",
-      "lastRunId": null,
+      "status": "in_progress",
+      "lastRunId": "2026-10-08-remaining44-west-009",
       "completedAt": null
     },
     {
@@ -509,50 +509,50 @@
     {
       "id": "west-013",
       "name": "奶油宽面",
-      "status": "pending",
-      "lastRunId": null,
+      "status": "in_progress",
+      "lastRunId": "2026-10-08-remaining44-west-013",
       "completedAt": null
     },
     {
       "id": "west-014",
       "name": "蘑菇烩饭",
-      "status": "pending",
-      "lastRunId": null,
+      "status": "in_progress",
+      "lastRunId": "2026-10-08-remaining44-west-014",
       "completedAt": null
     },
     {
       "id": "west-015",
       "name": "帕玛森鸡排",
-      "status": "pending",
-      "lastRunId": null,
+      "status": "in_progress",
+      "lastRunId": "2026-10-08-remaining44-west-015",
       "completedAt": null
     },
     {
       "id": "west-016",
       "name": "惠灵顿牛排",
-      "status": "pending",
-      "lastRunId": null,
+      "status": "in_progress",
+      "lastRunId": "2026-10-08-remaining44-west-016",
       "completedAt": null
     },
     {
       "id": "west-017",
       "name": "红酒炖鸡",
-      "status": "pending",
-      "lastRunId": null,
+      "status": "in_progress",
+      "lastRunId": "2026-10-08-remaining44-west-017",
       "completedAt": null
     },
     {
       "id": "west-018",
       "name": "普罗旺斯炖菜",
-      "status": "pending",
-      "lastRunId": null,
+      "status": "in_progress",
+      "lastRunId": "2026-10-08-remaining44-west-018",
       "completedAt": null
     },
     {
       "id": "west-019",
       "name": "马赛鱼汤",
-      "status": "pending",
-      "lastRunId": null,
+      "status": "in_progress",
+      "lastRunId": "2026-10-08-remaining44-west-019",
       "completedAt": null
     },
     {
@@ -565,71 +565,71 @@
     {
       "id": "west-021",
       "name": "法式红酒炖牛肉",
-      "status": "pending",
-      "lastRunId": null,
+      "status": "in_progress",
+      "lastRunId": "2026-10-08-remaining44-west-021",
       "completedAt": null
     },
     {
       "id": "west-022",
       "name": "希腊穆萨卡",
-      "status": "pending",
-      "lastRunId": null,
+      "status": "in_progress",
+      "lastRunId": "2026-10-08-remaining44-west-022",
       "completedAt": null
     },
     {
       "id": "west-023",
       "name": "希腊沙拉",
-      "status": "pending",
-      "lastRunId": null,
+      "status": "in_progress",
+      "lastRunId": "2026-10-08-remaining44-west-023",
       "completedAt": null
     },
     {
       "id": "west-024",
       "name": "香煎鸡肉炸排",
-      "status": "pending",
-      "lastRunId": null,
+      "status": "in_progress",
+      "lastRunId": "2026-10-08-remaining44-west-024",
       "completedAt": null
     },
     {
       "id": "west-025",
       "name": "瑞典肉丸",
-      "status": "pending",
-      "lastRunId": null,
+      "status": "in_progress",
+      "lastRunId": "2026-10-08-remaining44-west-025",
       "completedAt": null
     },
     {
       "id": "west-026",
       "name": "匈牙利牛肉汤",
-      "status": "pending",
-      "lastRunId": null,
+      "status": "in_progress",
+      "lastRunId": "2026-10-08-remaining44-west-026",
       "completedAt": null
     },
     {
       "id": "west-027",
       "name": "炸鱼塔可",
-      "status": "pending",
-      "lastRunId": null,
+      "status": "in_progress",
+      "lastRunId": "2026-10-08-remaining44-west-027",
       "completedAt": null
     },
     {
       "id": "west-028",
       "name": "鸡肉芝士薄饼",
-      "status": "pending",
-      "lastRunId": null,
+      "status": "in_progress",
+      "lastRunId": "2026-10-08-remaining44-west-028",
       "completedAt": null
     },
     {
       "id": "west-029",
       "name": "班尼迪克蛋",
-      "status": "pending",
-      "lastRunId": null,
+      "status": "in_progress",
+      "lastRunId": "2026-10-08-remaining44-west-029",
       "completedAt": null
     },
     {
       "id": "west-030",
       "name": "酪乳煎饼",
-      "status": "pending",
-      "lastRunId": null,
+      "status": "in_progress",
+      "lastRunId": "2026-10-08-remaining44-west-030",
       "completedAt": null
     },
     {

@@ -1,0 +1,71 @@
+{
+  "runId": "2026-10-08-remaining44-west-017",
+  "recipeId": "west-017",
+  "recipeName": "红酒炖鸡",
+  "category": "western",
+  "status": "in_progress",
+  "startedAt": "2026-10-08T11:56:52.318Z",
+  "completedAt": null,
+  "steps": {
+    "research": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "evidencePath": "workflow/batches/2026-10-08-remaining44/west-017.base-evidence.json",
+        "evidencePackageHash": "960bbf8f12fa9475241029e4c535de89765b364596b58e44bc506240ee2fcb35",
+        "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/coq-au-vin",
+        "sourceMode": "multi_source",
+        "publicationGate": "Final image/evidence acceptance pending"
+      }
+    },
+    "ingestion": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "selectedDocumentId": "c49fed11-a89a-4f40-bcae-0021fde52d6a",
+        "documentIds": [
+          "c49fed11-a89a-4f40-bcae-0021fde52d6a",
+          "76783447-425d-4e83-8edc-da9f76a25f5d"
+        ],
+        "ragEvidence": 13
+      }
+    },
+    "edit": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "validator": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "review": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "build": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "gitPush": {
+      "status": "pending",
+      "attempts": 0
+    }
+  },
+  "sources": [
+    {
+      "name": "BBC Good Food",
+      "url": "https://www.bbcgoodfood.com/recipes/coq-au-vin",
+      "status": "success",
+      "failureReason": null
+    },
+    {
+      "name": "Serious Eats",
+      "url": "https://www.seriouseats.com/coq-au-vin-chicken-red-wine-braise-recipe",
+      "status": "success",
+      "failureReason": null
+    }
+  ],
+  "errors": [],
+  "branch": "codex/recipe-automation",
+  "commit": null
+}

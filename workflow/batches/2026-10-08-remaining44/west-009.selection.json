@@ -1,0 +1,30 @@
+{
+  "recipeId": "west-009",
+  "bookCandidates": [],
+  "bookInventoryCount": 84,
+  "excludedHistory": [],
+  "selectedSourceUrl": "https://www.seriouseats.com/grilled-bratwurst-with-beer-mustard-and-sauerkraut-recipe",
+  "sourceMode": "single_source",
+  "candidates": [
+    {
+      "sourceName": "Serious Eats",
+      "url": "https://www.seriouseats.com/grilled-bratwurst-with-beer-mustard-and-sauerkraut-recipe",
+      "documentId": "29fa3b16-9237-46cd-8135-71280c566512",
+      "qualifies": true,
+      "ingredientCoverage": "complete",
+      "stepCoverage": "complete",
+      "internalCoherence": "coherent",
+      "heroImages": 0,
+      "mappedStepImages": 0,
+      "stepImageCoverage": 0,
+      "ingredientCount": 7,
+      "executableStepCount": 4,
+      "notes": [
+        "Page images and step adjacencies visible in web.open; original binary URLs not returned by failed web.click. No verified downloadable media available, no invented image mappings.",
+        "Source quantities with mixed units retained verbatim; no vessel capacity inferred."
+      ]
+    }
+  ],
+  "selectionReason": "Selected the sole complete exact matching Serious Eats bratwurst source; BBC search returned no matching recipe and current database book contains none. Original photo URLs could not be verified, so source text is available but publication awaits explicit media policy decision.",
+  "ingestionVerified": true
+}

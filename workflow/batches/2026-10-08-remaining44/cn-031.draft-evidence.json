@@ -1,0 +1,145 @@
+{
+  "recipeId": "cn-031",
+  "recipeName": "家常豆腐",
+  "category": "chinese",
+  "createdAt": "2026-10-08T12:08:59.204077+00:00",
+  "sources": [
+    {
+      "sourceName": "The Woks of Life",
+      "sourceType": "website",
+      "url": "https://thewoksoflife.com/home-style-tofu-stir-fry/",
+      "documentId": "pending-ingestion",
+      "retrievalMethod": "Normal web browser fetch complete recipe card plus relevant operational narrative",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "neutral oil (divided)",
+          "amount": "2 tablespoons",
+          "raw": "2 tablespoons neutral oil (divided)",
+          "sourceGroup": ""
+        },
+        {
+          "name": "firm tofu (pat dry, cut in half lengthwise and sliced into 1/4-inch/0.6cm slices)",
+          "amount": "1 pound",
+          "raw": "1 pound firm tofu (pat dry, cut in half lengthwise and sliced into 1/4-inch/0.6cm slices)",
+          "sourceGroup": ""
+        },
+        {
+          "name": "garlic (smashed and chopped)",
+          "amount": "2 cloves",
+          "raw": "2 cloves garlic (smashed and chopped)",
+          "sourceGroup": ""
+        },
+        {
+          "name": "red chili pepper (deseeded and thinly sliced)",
+          "amount": "1",
+          "raw": "1 red chili pepper (deseeded and thinly sliced)",
+          "sourceGroup": ""
+        },
+        {
+          "name": "scallions (cut into 1-inch/2.5cm pieces, with the white parts separated from the green parts)",
+          "amount": "3",
+          "raw": "3 scallions (cut into 1-inch/2.5cm pieces, with the white parts separated from the green parts)",
+          "sourceGroup": ""
+        },
+        {
+          "name": ". ground pork (or ground chicken)",
+          "amount": "4 oz",
+          "raw": "4 oz. ground pork (or ground chicken)",
+          "sourceGroup": ""
+        },
+        {
+          "name": "light soy sauce",
+          "amount": "2 tablespoons",
+          "raw": "2 tablespoons light soy sauce",
+          "sourceGroup": ""
+        },
+        {
+          "name": "oyster sauce (or vegetarian oyster sauce)",
+          "amount": "2 teaspoons",
+          "raw": "2 teaspoons oyster sauce (or vegetarian oyster sauce)",
+          "sourceGroup": ""
+        },
+        {
+          "name": "Shaoxing wine",
+          "amount": "1 teaspoon",
+          "raw": "1 teaspoon Shaoxing wine",
+          "sourceGroup": ""
+        },
+        {
+          "name": "sugar",
+          "amount": "1/4 teaspoon",
+          "raw": "1/4 teaspoon sugar",
+          "sourceGroup": ""
+        },
+        {
+          "name": "water",
+          "amount": "1/4 cup",
+          "raw": "1/4 cup water",
+          "sourceGroup": ""
+        },
+        {
+          "name": "Salt (to taste)",
+          "amount": null,
+          "raw": "Salt (to taste)",
+          "sourceGroup": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Heat a flat-bottomed cast iron pan over medium high heat until lightly smoking. Add 1 tablespoon of oil, and tilt the pan so the oil coats the bottom of the pan. Add the tofu and pan fry on both sides—3-5 minutes on each side until golden brown. Turn off the heat and set aside. If using non-stick, just heat until the pan is hot (do not heat a non-stick pan until smoking). Pat tofu dry before slicing.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "Heat the second tablespoon of oil in a wok over medium heat. Cook the garlic, chili, and the white parts of the scallions for about a minute. Next add the ground pork (or chicken) and stir fry for a minute until meat is cooked through.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "Add the light soy sauce, oyster sauce, Shaoxing wine, sugar and water. Stir and bring to a boil. Finally, add the pan-fried tofu and the green parts of the scallions. Turn up the heat, and quickly stir-fry everything together. Add salt to taste and serve.",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [
+        "Serves: 4",
+        "Prep: 15 mins",
+        "Cook: 15 mins",
+        "Total: 30 mins"
+      ],
+      "tips": [],
+      "rawExcerpt": "## Recipe\n\nImage: Home Style Tofu Recipe\n\nPrint\n\n4.98 from 44 votes\n\n### Home-Style Tofu Stir-fry\n\nThis tofu stir-fry recipe has been in our weekly rotation for years. It comes together in just a few minutes, and can easily be made vegetarian or vegan!\n\nby: Judy\n\nServes: 4\n\nPrep: 15 mins\n\nCook: 15 mins\n\nTotal: 30 mins\n#### Ingredients\n* [Input]2 tablespoons neutral oil (divided)\n* [Input]1 pound firm tofu (pat dry, cut in half lengthwise and sliced into 1/4-inch/0.6cm slices)\n* [Input]2 cloves garlic (smashed and chopped)\n* [Input]1 red chili pepper (deseeded and thinly sliced)\n* [Input]3 scallions (cut into 1-inch/2.5cm pieces, with the white parts separated from the green parts)\n* [Input]4 oz. ground pork (or ground chicken)\n* [Input]2 tablespoons light soy sauce\n* [Input]2 teaspoons oyster sauce (or vegetarian oyster sauce)\n* [Input]1 teaspoon Shaoxing wine\n* [Input]1/4 teaspoon sugar\n* [Input]1/4 cup water\n* [Input]Salt (to taste)\n[Button: US Customary][Button: Metric]\n#### Instructions\n\n* Heat a flat-bottomed cast iron pan over medium high heat until lightly smoking. Add 1 tablespoon of oil, and tilt the pan so the oil coats the bottom of the pan. Add the tofu and pan fry on both sides—3-5 minutes on each side until golden brown. Turn off the heat and set aside.\n* Heat the second tablespoon of oil in a wok over medium heat. Cook the garlic, chili, and the white parts of the scallions for about a minute. Next add the ground pork (or chicken) and stir fry for a minute until meat is cooked through.\n\n* Add the light soy sauce, oyster sauce, Shaoxing wine, sugar and water. Stir and bring to a boil. Finally, add the pan-fried tofu and the green parts of the scallions. Turn up the heat, and quickly stir-fry everything together. Add salt to taste and serve.\n\nOperational narrative\n## Our Love of Tofu\n\nLike many Asians, I don’t think I can go a week without eating tofu, and I know Sarah is the same—that girl loves the stuff. This home style tofu stir-fry is my go-to recipe to satisfy any tofu craving.\n\nIt’s called home style tofu for very good reason (at least in our house), because we’ve been making it for many, many years now.\nAny home style tofu recipe will be that chef or that family’s spin on the dish. It can vary widely. Sarah actually developed quite a different home style tofu recipe for our cookbook , with wood ears, peppers, and more sauce. It’s also very tasty—check out our book on page 249 for that recipe.\n\nImage\n### NOte:\n\nThis version does have pork in it, but you can also substitute ground chicken. For all you vegetarians and vegans out there as well, don’t pass on this dish! It’s easy to replace the pork with diced mushrooms or bell peppers to make this into a tasty vegetarian/vegan dish. The cooking process and spices are the same.\n## Pan-frying Tofu\n\nBy the way, since we pan-fry the tofu slices first in this recipe, I’ll take this opportunity to share another cooking tip on pan-frying. You can use a nonstick pan, but I prefer using a cast iron skillet or a wok.\nI think I have thrown out no less than a dozen non-stick pans over the years, once they get scratched up and beyond safe use. This was our standard rigamarole until one day, I watched an episode of Pioneer Woman and listened to her talking about her cast-iron pan; long story short, we’ve been hooked ever since. How right was she?! When used correctly, a cast iron pan works so much better than non-stick—not to mention it lasts a lifetime or two.\nHere is my quick tip: when pan-frying, I first heat up my cast-iron pan till it starts to lightly smoke (by the way, this method does not apply to a non-stick pan, which cannot be heated too high), add the oil (the hot pan heats the oil very quickly at this point), add the tofu, lower the heat to medium, and let cook for about 3 minutes before flipping and frying the other side.\nThis cooking method works really well in a wok , too! To read more about why this method works, check out my post on How to Keep Food from Sticking to a Wok or Pan .\n\nWe use firm tofu here, which is easier than soft tofu to pan-fry. Pat it dry with a paper towel or clean kitchen towel before slicing. If you prefer soft tofu, however, you can also follow Sarah’s crispy tofu method, which doesn’t require deep-frying.\n\n\nFor more complete information on different types of tofu, check out our latest Chinese ingredients Tofu and Bean Curd page where you’ll find more information on the tofu used in this recipe and more!\n\n\n## Homestyle Tofu Recipe Instructions:\n\nHeat a flat-bottomed cast iron pan over medium-high heat until lightly smoking. (If using non-stick, just heat until the pan is hot.)\n\nAdd 1 tablespoon of neutral oil (such as vegetable oil, canola oil, or avocado oil), and tilt the pan so the oil coats the bottom of the pan. Add the firm tofu and pan-fry on both sides—3-5 minutes on each side until golden brown. Turn off the heat and set aside.\n\n\nHeat the second tablespoon of oil in a wok over medium heat. Cook the garlic , red chili pepper , and the white parts of the scallions for about a minute.\n\n\n\nNext add the ground pork (or chicken) and stir fry for a minute until meat is cooked through.\n\n\nAdd the light soy sauce (生抽) , oyster sauce (or vegetarian oyster sauce ), Shaoxing wine , sugar and water. Stir and bring to a boil.\n\n\n\nFinally, add in the pan-fried tofu and the green parts of the scallions. Turn up the heat, and quickly stir-fry everything together. Add salt to taste and serve.\n\n\n\nHow easy was that! We hope you add this homestyle tofu stir fry dish to your rotation!\n\n\nLooking for more authentic recipes? Subscribe to our email list and be sure to follow us on Pinterest , Facebook , Instagram , and Youtube!",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 0,
+        "mappedStepImages": 0,
+        "stepImageCoverage": 0,
+        "ingredientCount": 12,
+        "executableStepCount": 3,
+        "notes": [
+          "Media verification pending parent import. Source quantities retained without vessel-unit conversion.",
+          "No invented metric conversions; quantities only fromsourcecard or narrative."
+        ]
+      }
+    }
+  ],
+  "sourceMode": "single_source",
+  "singleSourceReason": "已读取数据库全部84份书籍菜谱并按名称、别名和正文核对，本菜无完全匹配书籍信源。已检索配置豆果来源，其他候选如有见notes；保留可访问完整Woks整份配方。",
+  "selectedSourceUrl": "https://thewoksoflife.com/home-style-tofu-stir-fry/",
+  "selectionReason": "此完整且内部自洽的名称匹配信源可保留所有原料用量和操作；图片核验待完成，未混入其他来源。",
+  "ragEvidence": [],
+  "notes": [
+    "Database book comparison audit: cn-book-inventory.json.",
+    "完整来源步骤及正文操作细节保留在rawExcerpt；Editor必须核对正文补充细节，不能只用压缩后的概述。",
+    "Photos pending verification; never claim downloaded before media-import result.",
+    "书籍近名候选家常烩豆腐（documentId e.g.cn-031.book-candidate.json）为腐乳/八角/肉桂炖煮白豆腐，Woks是煎炸豆腐炒肉末；工艺和菜品名称不同，因此书籍作为近名拒绝，未混入。",
+    "Unselectedsourceimageaudit:[{\"originalUrl\": \"https://thewoksoflife.com/wp-content/uploads/2023/07/homestyle-tofu-11.jpg\", \"role\": \"finished_dish\", \"reason\": \"重复成品图；保留单独图片审计，不伪作过程图。\"}, {\"originalUrl\": \"https://thewoksoflife.com/wp-content/uploads/2023/07/homestyle-tofu-9.jpg\", \"role\": \"finished_dish\", \"reason\": \"重复成品图；保留单独图片审计，不伪作过程图。\"}]"
+  ]
+}

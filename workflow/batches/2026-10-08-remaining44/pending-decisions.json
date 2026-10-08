@@ -1,0 +1,11 @@
+{
+  "missingSourceImages": {
+    "status": "awaiting_user_response",
+    "scope": "Only the 44 recipe IDs in this batch manifest",
+    "exampleRecipeId": "west-002",
+    "exampleSourceUrl": "https://www.bbcgoodfood.com/recipes/pizza-margherita-4-easy-steps",
+    "question": "May this batch publish an otherwise complete best-source recipe when the source has no step image or no image, with limitations recorded and no borrowed images?",
+    "currentRule": "Require one source hero and at least one accurately mapped source step image; no exception accepted yet.",
+    "independentWorkContinues": "Research, book comparison, ingestion, and recipes satisfying the existing media rule."
+  }
+}

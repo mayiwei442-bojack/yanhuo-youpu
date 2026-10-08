@@ -1,0 +1,426 @@
+{
+  "canonical": {
+    "id": "cn-053",
+    "category": "chinese",
+    "index": 52,
+    "record": {
+      "name": "盐焗鸡",
+      "en": "Salt-baked Chicken",
+      "region": "客家菜",
+      "ingredients": "整鸡1只约1350克；绍兴酒2汤匙；沙姜粉1½汤匙（不能用普通姜粉替代或省略）；白胡椒粉½茶匙；粗海盐2茶匙（抹鸡用）；粗海盐约1361克（原文3磅，炒热包埋用）；姜4片；食用油1汤匙；清水适量（冲洗鸡用）；葱花适量（最后撒入，来源未给用量）",
+      "steps": "1）准备带盖炒锅或荷兰锅。来源提醒中式砂锅在此做法中很可能开裂，作者的耐热砂锅也曾开裂。用流动冷水冲洗整鸡，甩去多余的水，再用厨房纸或干净抹布擦干。来源建议可选有机或放养鸡，其肉质更细滑、紧实。2）将2汤匙绍兴酒刷遍鸡身和腹腔。把1½汤匙沙姜粉、½茶匙白胡椒粉和2茶匙粗海盐混合，均匀揉抹在鸡身和腹腔内。沙姜粉与普通姜粉不同，这份配方不能替换或省略沙姜粉。3）把鸡放在网架上，网架下放托盘接滴液。尽量让鸡直立，使腹腔内液体流出，可以用饮水杯支撑。鸡不加盖，放入冰箱冷藏腌制过夜，目的是让鸡皮干燥。4）第二天，在烹调前提前至少1—2小时将鸡从冰箱取出，使其回到室温。5）将4片姜放入鸡腹腔，把1汤匙食用油刷在鸡皮上，再用厨房棉绳绑好两只鸡腿。6）先用一大张烘焙纸包住整鸡，再用第二张烘焙纸包一层，第二层纸的开口留在鸡胸一侧，包好后放在一旁。7）将包埋用的约1361克粗海盐放入干净、干燥的炒锅，不加油，以中火翻炒约15分钟，直到盐变成浅棕色。热盐温度很高，注意防烫，不要过于用力翻炒。来源提示，包埋盐的重量应与鸡相同，例如约1814克的鸡应配约1814克盐。8）在炒锅或荷兰锅底部均匀铺约1.3厘米厚的热盐，将纸包鸡放在锅中央，鸡胸朝上。9）把剩余热盐铺到鸡的周围和上方，确保纸包鸡被热盐完全覆盖。10）盖上锅盖，以中火焗35分钟。11）关火后仍盖着锅盖，把锅留在炉上静置30—40分钟，直到盐摸起来温热。12）确认盐已降至温热后，用木勺或锅铲小心将纸包鸡从盐中取出。虽然已经关火静置30—40分钟，鸡仍然很烫，取出时务必小心。13）小心拆开烘焙纸，让鸡稍微冷却，直到不会烫得无法用手处理。14）这道菜通常将鸡肉拆骨后撕开食用，也可以不拆骨。若拆骨，将鸡肉从骨架上取下并装盘，鸡骨和骨架保留，可另作高汤或汤底。15）把拆鸡过程中流出的鸡汁全部淋回装盘的鸡肉上，最后撒上葱花。16）烹调后的盐要等完全冷却再处理。丢弃受热或沾到鸡汁而变色、变褐的盐，把其余干净的盐收好，留待下次使用。",
+      "img": "83-yanju-ji.png",
+      "source": "https://thewoksoflife.com/salt-baked-chicken/",
+      "media": {
+        "sourceName": "The Woks of Life",
+        "recipePageUrl": "https://thewoksoflife.com/salt-baked-chicken/",
+        "mediaPageUrl": "https://thewoksoflife.com/salt-baked-chicken/",
+        "author": "Judy",
+        "rightsNotice": "All Rights Reserved © The Woks of Life",
+        "reuseLicense": null,
+        "repositoryCopyAuthorization": "user_confirmed_2026-10-08_remaining44",
+        "hero": {
+          "path": "assets/dishes/sources/cn-053-woks/hero.jpg",
+          "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-3.jpg",
+          "sha256": "3fbb33a8cf2ba59ad918ddf24b4d597ae4a46774f8d87a47a5dff9aae9fabc0d",
+          "httpStatus": 200,
+          "contentType": "image/jpeg"
+        },
+        "steps": [
+          {
+            "stepOrder": 5,
+            "sourceStepOrder": 4,
+            "path": "assets/dishes/sources/cn-053-woks/step-1-2.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken.jpg",
+            "sha256": "670fda2ac678cbcc61546aa959e8984ae960f47808b0aebada14383255621b04",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          },
+          {
+            "stepOrder": 6,
+            "sourceStepOrder": 4,
+            "path": "assets/dishes/sources/cn-053-woks/step-2-3.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-9.jpg",
+            "sha256": "e53dd05a424b254cf8fe835aaa95994a1536afa3ed34546c3e43c33611cc0dd2",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          },
+          {
+            "stepOrder": 7,
+            "sourceStepOrder": 5,
+            "path": "assets/dishes/sources/cn-053-woks/step-3-4.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-8.jpg",
+            "sha256": "ce548fcead07ba85e34b8b0e8298e4feb635c81f3e5a4a01c173205d014f53d0",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          },
+          {
+            "stepOrder": 8,
+            "sourceStepOrder": 5,
+            "path": "assets/dishes/sources/cn-053-woks/step-4-5.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-10.jpg",
+            "sha256": "c76f47dc385d6de061cf7eeb589e9fa5a906157d792a5e8c5bfdcce37ccd6a5e",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          },
+          {
+            "stepOrder": 9,
+            "sourceStepOrder": 5,
+            "path": "assets/dishes/sources/cn-053-woks/step-4-6.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-11.jpg",
+            "sha256": "f450d2cc88c438c6386bdf8bd002f7e10847659c6ae256507de3284e782dc2db",
+            "httpStatus": 200,
+            "contentType": "image/jpeg"
+          },
+          {
+            "stepOrder": 10,
+            "sourceStepOrder": 5,
+            "path": "assets/dishes/sources/cn-053-woks/step-5-7.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-12.jpg",
+            "sha256": "bfe9691ba4d74f1603adccee1132c5726f9ddf5592a6f518febd0229b410e6cf",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          },
+          {
+            "stepOrder": 12,
+            "sourceStepOrder": 6,
+            "path": "assets/dishes/sources/cn-053-woks/step-5-8.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-13.jpg",
+            "sha256": "c49c46d859199a9faf4b2cbd72313c573fa2c1b452321079f56fce27a480d1a8",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          },
+          {
+            "stepOrder": 13,
+            "sourceStepOrder": 6,
+            "path": "assets/dishes/sources/cn-053-woks/step-5-10.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-15.jpg",
+            "sha256": "cc0335a8d434c6fcff7adb4309d420495522c49a5770ac5db2cc66945b6a448b",
+            "httpStatus": 200,
+            "contentType": "image/jpeg"
+          },
+          {
+            "stepOrder": 14,
+            "sourceStepOrder": 7,
+            "path": "assets/dishes/sources/cn-053-woks/step-6-12.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-2.jpg",
+            "sha256": "ad16c1cddd8fe0333f82110ecca547e5b87fc9bffbb5bfbaacac80f2f3bb4a7d",
+            "httpStatus": 200,
+            "contentType": "image/jpeg"
+          }
+        ]
+      },
+      "timing": {
+        "totalMinutes": 210,
+        "prepMinutes": 120,
+        "cookMinutes": 90,
+        "stepDurations": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          2100,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "servings": 6,
+      "sourceLimitations": [
+        "来源配方卡注明准备120分钟、烹调90分钟、总时长210分钟，正文同时要求不加盖冷藏腌制过夜。来源没有解释过夜阶段如何计入卡片总时长，210分钟不能视为覆盖过夜冷藏的完整等待时间。",
+        "来源将整鸡约3磅同时标为1.35千克，包埋盐另写3磅，并提示盐与鸡等重。保留鸡的来源公制约1350克，盐按3磅换算约1361克，不把来源的近似换算差异改成新的精确配比。",
+        "来源未给最后撒入的葱花及冲洗清水用量，保留适量。回温1—2小时、关火静置30—40分钟及冷藏过夜均不转换为固定步骤倒计时。"
+      ]
+    }
+  },
+  "generated": {
+    "id": "cn-053",
+    "name": "盐焗鸡",
+    "en": "Salt-baked Chicken",
+    "cuisine": "客家菜",
+    "category": "中餐",
+    "isHeritageFlavor": false,
+    "heritageStatus": null,
+    "ingredients": [
+      {
+        "id": "ingredient-01",
+        "name": "整鸡",
+        "label": "整鸡1只约1350克",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-02",
+        "name": "绍兴酒",
+        "label": "绍兴酒2汤匙",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-03",
+        "name": "沙姜粉",
+        "label": "沙姜粉1½汤匙（不能用普通姜粉替代或省略）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-04",
+        "name": "白胡椒粉",
+        "label": "白胡椒粉½茶匙",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-05",
+        "name": "粗海盐",
+        "label": "粗海盐2茶匙（抹鸡用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-06",
+        "name": "粗海盐",
+        "label": "粗海盐约1361克（原文3磅，炒热包埋用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-07",
+        "name": "姜",
+        "label": "姜4片",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-08",
+        "name": "食用油",
+        "label": "食用油1汤匙",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-09",
+        "name": "清水",
+        "label": "清水适量（冲洗鸡用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-10",
+        "name": "葱花",
+        "label": "葱花适量（最后撒入，来源未给用量）",
+        "isCore": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-01",
+        "instruction": "准备带盖炒锅或荷兰锅。来源提醒中式砂锅在此做法中很可能开裂，作者的耐热砂锅也曾开裂。用流动冷水冲洗整鸡，甩去多余的水，再用厨房纸或干净抹布擦干。来源建议可选有机或放养鸡，其肉质更细滑、紧实。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-02",
+        "instruction": "将2汤匙绍兴酒刷遍鸡身和腹腔。把1½汤匙沙姜粉、½茶匙白胡椒粉和2茶匙粗海盐混合，均匀揉抹在鸡身和腹腔内。沙姜粉与普通姜粉不同，这份配方不能替换或省略沙姜粉。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-03",
+        "instruction": "把鸡放在网架上，网架下放托盘接滴液。尽量让鸡直立，使腹腔内液体流出，可以用饮水杯支撑。鸡不加盖，放入冰箱冷藏腌制过夜，目的是让鸡皮干燥。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-04",
+        "instruction": "第二天，在烹调前提前至少1—2小时将鸡从冰箱取出，使其回到室温。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-05",
+        "instruction": "将4片姜放入鸡腹腔，把1汤匙食用油刷在鸡皮上，再用厨房棉绳绑好两只鸡腿。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-053-woks/step-1-2.jpg",
+        "imageSource": "https://thewoksoflife.com/salt-baked-chicken/"
+      },
+      {
+        "id": "step-06",
+        "instruction": "先用一大张烘焙纸包住整鸡，再用第二张烘焙纸包一层，第二层纸的开口留在鸡胸一侧，包好后放在一旁。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-053-woks/step-2-3.jpg",
+        "imageSource": "https://thewoksoflife.com/salt-baked-chicken/"
+      },
+      {
+        "id": "step-07",
+        "instruction": "将包埋用的约1361克粗海盐放入干净、干燥的炒锅，不加油，以中火翻炒约15分钟，直到盐变成浅棕色。热盐温度很高，注意防烫，不要过于用力翻炒。来源提示，包埋盐的重量应与鸡相同，例如约1814克的鸡应配约1814克盐。",
+        "duration": null,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-053-woks/step-3-4.jpg",
+        "imageSource": "https://thewoksoflife.com/salt-baked-chicken/"
+      },
+      {
+        "id": "step-08",
+        "instruction": "在炒锅或荷兰锅底部均匀铺约1.3厘米厚的热盐，将纸包鸡放在锅中央，鸡胸朝上。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-053-woks/step-4-5.jpg",
+        "imageSource": "https://thewoksoflife.com/salt-baked-chicken/"
+      },
+      {
+        "id": "step-09",
+        "instruction": "把剩余热盐铺到鸡的周围和上方，确保纸包鸡被热盐完全覆盖。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-053-woks/step-4-6.jpg",
+        "imageSource": "https://thewoksoflife.com/salt-baked-chicken/"
+      },
+      {
+        "id": "step-10",
+        "instruction": "盖上锅盖，以中火焗35分钟。",
+        "duration": 2100,
+        "heat": "medium",
+        "timerRequired": true,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-053-woks/step-5-7.jpg",
+        "imageSource": "https://thewoksoflife.com/salt-baked-chicken/"
+      },
+      {
+        "id": "step-11",
+        "instruction": "关火后仍盖着锅盖，把锅留在炉上静置30—40分钟，直到盐摸起来温热。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-12",
+        "instruction": "确认盐已降至温热后，用木勺或锅铲小心将纸包鸡从盐中取出。虽然已经关火静置30—40分钟，鸡仍然很烫，取出时务必小心。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-053-woks/step-5-8.jpg",
+        "imageSource": "https://thewoksoflife.com/salt-baked-chicken/"
+      },
+      {
+        "id": "step-13",
+        "instruction": "小心拆开烘焙纸，让鸡稍微冷却，直到不会烫得无法用手处理。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-053-woks/step-5-10.jpg",
+        "imageSource": "https://thewoksoflife.com/salt-baked-chicken/"
+      },
+      {
+        "id": "step-14",
+        "instruction": "这道菜通常将鸡肉拆骨后撕开食用，也可以不拆骨。若拆骨，将鸡肉从骨架上取下并装盘，鸡骨和骨架保留，可另作高汤或汤底。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-053-woks/step-6-12.jpg",
+        "imageSource": "https://thewoksoflife.com/salt-baked-chicken/"
+      },
+      {
+        "id": "step-15",
+        "instruction": "把拆鸡过程中流出的鸡汁全部淋回装盘的鸡肉上，最后撒上葱花。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-16",
+        "instruction": "烹调后的盐要等完全冷却再处理。丢弃受热或沾到鸡汁而变色、变褐的盐，把其余干净的盐收好，留待下次使用。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      }
+    ],
+    "sourceLimitations": [
+      "来源配方卡注明准备120分钟、烹调90分钟、总时长210分钟，正文同时要求不加盖冷藏腌制过夜。来源没有解释过夜阶段如何计入卡片总时长，210分钟不能视为覆盖过夜冷藏的完整等待时间。",
+      "来源将整鸡约3磅同时标为1.35千克，包埋盐另写3磅，并提示盐与鸡等重。保留鸡的来源公制约1350克，盐按3磅换算约1361克，不把来源的近似换算差异改成新的精确配比。",
+      "来源未给最后撒入的葱花及冲洗清水用量，保留适量。回温1—2小时、关火静置30—40分钟及冷藏过夜均不转换为固定步骤倒计时。"
+    ],
+    "imageThumb": "assets/dishes/sources/cn-053-woks/hero.jpg",
+    "imageFull": "assets/dishes/sources/cn-053-woks/hero.jpg",
+    "source": "https://thewoksoflife.com/salt-baked-chicken/",
+    "media": {
+      "sourceName": "The Woks of Life",
+      "recipePageUrl": "https://thewoksoflife.com/salt-baked-chicken/",
+      "mediaPageUrl": "https://thewoksoflife.com/salt-baked-chicken/",
+      "author": "Judy",
+      "rightsNotice": "All Rights Reserved © The Woks of Life",
+      "reuseLicense": null,
+      "repositoryCopyAuthorization": "user_confirmed_2026-10-08_remaining44"
+    },
+    "time": 210,
+    "timeBasis": "source",
+    "difficulty": "进阶",
+    "defaultServings": 6,
+    "servingsBasis": "source",
+    "allergens": [],
+    "flags": {
+      "containsPork": false,
+      "containsBeef": false,
+      "containsAlcohol": true,
+      "spicy": false,
+      "vegetarian": false
+    },
+    "demoEnriched": true
+  }
+}

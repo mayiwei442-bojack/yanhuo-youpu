@@ -1,0 +1,486 @@
+{
+  "recipeId": "west-021",
+  "recipeName": "法式红酒炖牛肉",
+  "category": "western",
+  "createdAt": "2026-10-08T12:12:30.859Z",
+  "sources": [
+    {
+      "sourceName": "BBC Good Food",
+      "sourceType": "website",
+      "url": "https://www.bbcgoodfood.com/recipes/beef-bourguignon",
+      "documentId": "4e882fb4-43e9-4577-bdae-8a9a158c37be",
+      "retrievalMethod": "ordinary HTTPS GET; complete accessible page JSON-LD and DOM independently inspected",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "braising steak cut into large chunks",
+          "raw": "1.6kg braising steak cut into large chunks",
+          "amount": null
+        },
+        {
+          "name": "bay leaves",
+          "raw": "3 bay leaves",
+          "amount": null
+        },
+        {
+          "name": "small bunch thyme",
+          "raw": "small bunch thyme",
+          "amount": null
+        },
+        {
+          "name": "bottles cheap  red wine",
+          "raw": "2 bottles cheap  red wine",
+          "amount": null
+        },
+        {
+          "name": "oil",
+          "raw": "2 tbsp oil",
+          "amount": null
+        },
+        {
+          "name": "arge or 6 normal  carrots cut into large chunks",
+          "raw": "3 large or 6 normal  carrots cut into large chunks",
+          "amount": null
+        },
+        {
+          "name": "onions roughly chopped",
+          "raw": "2 onions roughly chopped",
+          "amount": null
+        },
+        {
+          "name": "plain flour",
+          "raw": "3 tbsp plain flour",
+          "amount": null
+        },
+        {
+          "name": "tomato purée",
+          "raw": "1 tbsp tomato purée",
+          "amount": null
+        },
+        {
+          "name": "small knob butter",
+          "raw": "small knob butter",
+          "amount": null
+        },
+        {
+          "name": "bacon lardons",
+          "raw": "300g bacon lardons",
+          "amount": null
+        },
+        {
+          "name": "pearl onions or small shallots, peeled",
+          "raw": "500g pearl onions or small shallots, peeled",
+          "amount": null
+        },
+        {
+          "name": "mushrooms halved",
+          "raw": "400g mushrooms halved",
+          "amount": null
+        },
+        {
+          "name": "chopped parsley",
+          "raw": "chopped parsley",
+          "amount": null
+        },
+        {
+          "name": "pepper",
+          "raw": "some pepper for overnight marinade (step1)",
+          "amount": null
+        },
+        {
+          "name": "seasoning",
+          "raw": "Season stew (step6; unspecified type and amount)",
+          "amount": null
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Tip 1.6kg braising steak, cut into large chunks, into a large bowl with 3 bay leaves, a small bunch of thyme, 2 bottles of red wine and some pepper, then cover and leave in the fridge overnight.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "Heat the oven to 200C/180C fan/gas 6.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "Place a colander over another large bowl and strain the marinated meat, keeping the wine.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "Heat 1 tbsp oil in a large frying pan, then brown the meat in batches, transferring to a plate once browned. When all the meat is browned, pour a little wine into the now-empty frying pan and bubble to release any caramelised bits from the pan.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 5,
+          "instruction": "Heat 1 tbsp oil in a large casserole and fry 3 large or 6 normal carrots, cut into large chunks, and 2 roughly chopped onions until they start to colour. Stir in 3 tbsp plain flour for 1 min, then add 1 tbsp tomato purée.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 6,
+          "instruction": "Add the beef and any juices, the wine from the frying pan and the rest of the wine and herbs. Season and bring to a simmer. Give everything a good stir, then cover.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 7,
+          "instruction": "Transfer to the oven and bake for 2 hrs until the meat is really tender. Cool. Will freeze for up to 3 months.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 8,
+          "instruction": "To serve, defrost completely overnight in the fridge if frozen, then place on a low heat to warm through.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 9,
+          "instruction": "Meanwhile, heat a small knob of butter in a frying pan and add 300g bacon lardons and 500g peeled pearl onions or small shallots. Sizzle for about 10 mins until the bacon starts to crisp and the onions soften and colour.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 10,
+          "instruction": "Add 400g halved mushrooms and fry for another 5 mins, then stir everything into the stew and heat for 10 mins more. Serve scattered with chopped parsley.",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [],
+      "tips": [],
+      "rawExcerpt": "{\n  \"@context\": \"https://schema.org\",\n  \"@id\": \"https://www.bbcgoodfood.com/recipes/beef-bourguignon#Recipe\",\n  \"@type\": \"Recipe\",\n  \"description\": \"The secret to this rich beef casserole is to use all wine and no stock. Our ultimate beef bourguignon recipe is an instant comforting classic, full of satisfying flavours.\",\n  \"image\": [\n    {\n      \"@type\": \"ImageObject\",\n      \"url\": \"https://images.immediate.co.uk/production/volatile/sites/30/2010/10/beef-bourguignon-f3bd4cb.jpg?resize=768,698\",\n      \"width\": 768,\n      \"height\": 698\n    },\n    {\n      \"@type\": \"ImageObject\",\n      \"url\": \"https://images.immediate.co.uk/production/volatile/sites/30/2010/10/beef-bourguignon-f3bd4cb.jpg?resize=1366,1242\",\n      \"width\": 1366,\n      \"height\": 1242\n    }\n  ],\n  \"mainEntityOfPage\": {\n    \"@type\": \"WebPage\",\n    \"@id\": \"https://www.bbcgoodfood.com/recipes/beef-bourguignon\"\n  },\n  \"name\": \"Beef bourguignon\",\n  \"url\": \"https://www.bbcgoodfood.com/recipes/beef-bourguignon\",\n  \"author\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Barney Desmazery\",\n      \"url\": \"https://www.bbcgoodfood.com/author/barneydesmazery\"\n    }\n  ],\n  \"dateModified\": \"2026-07-13T10:55:11+01:00\",\n  \"datePublished\": \"2021-07-14T15:20:41+01:00\",\n  \"headline\": \"Beef bourguignon\",\n  \"keywords\": \"Barney Desmazery, Beef bourguignon, Beef casserole, Beef in red wine sauce, Braising steak, Braising steaks, Freezable, Freeze ahead recipes, Make ahead, Red wine, Rich beef stew, Thyme, Tomato purée, Wine\",\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Good Food\",\n    \"url\": \"https://www.bbcgoodfood.com\",\n    \"logo\": {\n      \"@type\": \"ImageObject\",\n      \"height\": 325,\n      \"url\": \"https://images.immediate.co.uk/production/volatile/sites/30/2026/02/goodfood.logo-f37096c.png?resize=1312,325\",\n      \"width\": 1312\n    }\n  },\n  \"cookTime\": \"PT3H30M\",\n  \"nutrition\": {\n    \"@type\": \"NutritionInformation\",\n    \"calories\": \"861 calories\",\n    \"fatContent\": \"36 grams fat\",\n    \"saturatedFatContent\": \"12 grams saturated fat\",\n    \"carbohydrateContent\": \"19 grams carbohydrates\",\n    \"sugarContent\": \"9 grams sugar\",\n    \"fiberContent\": \"6 grams fiber\",\n    \"proteinContent\": \"67 grams protein\",\n    \"sodiumContent\": \"1.72 milligram of sodium\"\n  },\n  \"prepTime\": \"PT45M\",\n  \"recipeCategory\": \"Dinner, Main course\",\n  \"recipeCuisine\": \"French\",\n  \"recipeIngredient\": [\n    \"1.6kg braising steak cut into large chunks\",\n    \"3 bay leaves\",\n    \"small bunch thyme\",\n    \"2 bottles cheap  red wine\",\n    \"2 tbsp oil\",\n    \"3 large or 6 normal  carrots cut into large chunks\",\n    \"2 onions roughly chopped\",\n    \"3 tbsp plain flour\",\n    \"1 tbsp tomato purée\",\n    \"small knob butter\",\n    \"300g bacon lardons\",\n    \"500g pearl onions or small shallots, peeled\",\n    \"400g mushrooms halved\",\n    \"chopped parsley\"\n  ],\n  \"recipeInstructions\": [\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Tip 1.6kg braising steak, cut into large chunks, into a large bowl with 3 bay leaves, a small bunch of thyme, 2 bottles of red wine and some pepper, then cover and leave in the fridge overnight.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Heat the oven to 200C/180C fan/gas 6.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Place a colander over another large bowl and strain the marinated meat, keeping the wine.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Heat 1 tbsp oil in a large frying pan, then brown the meat in batches, transferring to a plate once browned. When all the meat is browned, pour a little wine into the now-empty frying pan and bubble to release any caramelised bits from the pan.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Heat 1 tbsp oil in a large casserole and fry 3 large or 6 normal carrots, cut into large chunks, and 2 roughly chopped onions until they start to colour. Stir in 3 tbsp plain flour for 1 min, then add 1 tbsp tomato purée.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Add the beef and any juices, the wine from the frying pan and the rest of the wine and herbs. Season and bring to a simmer. Give everything a good stir, then cover.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Transfer to the oven and bake for 2 hrs until the meat is really tender. Cool. Will freeze for up to 3 months.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"To serve, defrost completely overnight in the fridge if frozen, then place on a low heat to warm through.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Meanwhile, heat a small knob of butter in a frying pan and add 300g bacon lardons and 500g peeled pearl onions or small shallots. Sizzle for about 10 mins until the bacon starts to crisp and the onions soften and colour.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Add 400g halved mushrooms and fry for another 5 mins, then stir everything into the stew and heat for 10 mins more. Serve scattered with chopped parsley.\"\n    }\n  ],\n  \"recipeYield\": 6,\n  \"totalTime\": \"PT4H15M\"\n}",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 1,
+        "mappedStepImages": 0,
+        "stepImageCoverage": 0,
+        "ingredientCount": 16,
+        "executableStepCount": 10,
+        "notes": [
+          "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented."
+        ]
+      }
+    },
+    {
+      "sourceName": "Serious Eats",
+      "sourceType": "website",
+      "url": "https://www.seriouseats.com/beef-bourguignon-red-wine-stew-recipe",
+      "documentId": "7d633798-006a-4be9-9ad8-79cca8539077",
+      "retrievalMethod": "normal web.open full accessible page; merged overlapping line ranges; direct requests460 and browser402 retained as transport history",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "2 cups (500 ml) homemade chicken stock or store-bought low-sodium broth",
+          "raw": "2 cups (500 ml) homemade chicken stock or store-bought low-sodium broth",
+          "amount": null
+        },
+        {
+          "name": "4 packets unflavored powdered gelatin (3 tablespoons plus 1 teaspoon; 30 g)",
+          "raw": "4 packets unflavored powdered gelatin (3 tablespoons plus 1 teaspoon; 30 g)",
+          "amount": null
+        },
+        {
+          "name": "2 tablespoons (30 ml) vegetable oil, plus more as needed",
+          "raw": "2 tablespoons (30 ml) vegetable oil, plus more as needed",
+          "amount": null
+        },
+        {
+          "name": "3 pounds (1.25 kg) whole boneless beef chuck roast, cut crosswise into 3 steaks",
+          "raw": "3 pounds (1.25 kg) whole boneless beef chuck roast, cut crosswise into 3 steaks",
+          "amount": null
+        },
+        {
+          "name": "4 teaspoons (12 g) Diamond Crystal kosher salt, divided; for table salt, use half as much by volume or the same weight",
+          "raw": "4 teaspoons (12 g) Diamond Crystal kosher salt, divided; for table salt, use half as much by volume or the same weight",
+          "amount": null
+        },
+        {
+          "name": "1 teaspoon freshly ground black pepper",
+          "raw": "1 teaspoon freshly ground black pepper",
+          "amount": null
+        },
+        {
+          "name": "1 1/4 pounds carrots (600 g; about 3 large), 1/2 pound (250 g) peeled and split lengthwise, 3/4 pound (350 g) cut into large dice (about 1 1/2 cups)",
+          "raw": "1 1/4 pounds carrots (600 g; about 3 large), 1/2 pound (250 g) peeled and split lengthwise, 3/4 pound (350 g) cut into large dice (about 1 1/2 cups)",
+          "amount": null
+        },
+        {
+          "name": "1 medium yellow onion (8 ounces; 227 g), peeled and split in half through the root",
+          "raw": "1 medium yellow onion (8 ounces; 227 g), peeled and split in half through the root",
+          "amount": null
+        },
+        {
+          "name": "4 medium cloves garlic, lightly crushed",
+          "raw": "4 medium cloves garlic, lightly crushed",
+          "amount": null
+        },
+        {
+          "name": "1/4 cup (60 ml) cognac or brandy (optional)",
+          "raw": "1/4 cup (60 ml) cognac or brandy (optional)",
+          "amount": null
+        },
+        {
+          "name": "3 cups (750 ml) dry red wine",
+          "raw": "3 cups (750 ml) dry red wine",
+          "amount": null
+        },
+        {
+          "name": "1 tablespoon (15 ml) fish sauce",
+          "raw": "1 tablespoon (15 ml) fish sauce",
+          "amount": null
+        },
+        {
+          "name": "1 tablespoon (15 ml) soy sauce",
+          "raw": "1 tablespoon (15 ml) soy sauce",
+          "amount": null
+        },
+        {
+          "name": "1 bouquet garni (about 4 sprigs thyme, 3 sprigs parsley, and 1 bay leaf, tied together with kitchen twine)",
+          "raw": "1 bouquet garni (about 4 sprigs thyme, 3 sprigs parsley, and 1 bay leaf, tied together with kitchen twine)",
+          "amount": null
+        },
+        {
+          "name": "5 tablespoons all-purpose flour (1.4 ounces; 40 g)",
+          "raw": "5 tablespoons all-purpose flour (1.4 ounces; 40 g)",
+          "amount": null
+        },
+        {
+          "name": "1/4 pound (110 g) slab bacon or salt pork, cut into 1-inch-long by 1/4-inch-thick sticks (about 1 cup)",
+          "raw": "1/4 pound (110 g) slab bacon or salt pork, cut into 1-inch-long by 1/4-inch-thick sticks (about 1 cup)",
+          "amount": null
+        },
+        {
+          "name": "1 pound cremini mushrooms (450 g), woody stems trimmed if necessary and caps quartered",
+          "raw": "1 pound cremini mushrooms (450 g), woody stems trimmed if necessary and caps quartered",
+          "amount": null
+        },
+        {
+          "name": "8 ounces white and/or red pearl onions (225 g), peeled",
+          "raw": "8 ounces white and/or red pearl onions (225 g), peeled",
+          "amount": null
+        },
+        {
+          "name": "Minced flat-leaf parsley leaves and tender stems, for garnish",
+          "raw": "Minced flat-leaf parsley leaves and tender stems, for garnish",
+          "amount": null
+        },
+        {
+          "name": "water",
+          "raw": "boiling water to optionally blanch smoked bacon2minutes (source note)",
+          "amount": null
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Preheat oven to 325°F (160°C). Pour chicken stock into a medium bowl and sprinkle gelatin evenly all over surface, allowing each packet's worth of gelatin to soak up stock before sprinkling next one on. Set aside.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "In a large Dutch oven, heat oil over medium-high heat until shimmering. Season beef all over with 3 teaspoons of salt and 1 teaspoon of pepper and add to Dutch oven. Cook, turning occasionally, until beef is well browned on 2 sides, about 10 minutes. Transfer beef to a rimmed baking sheet.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "Lower heat to medium; add split carrots, halved onion, and garlic to Dutch oven and cook, turning occasionally, until lightly browned, about 4 minutes.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "Add brandy, if using, and boil until alcohol has nearly cooked off, about 2 minutes. (If not using brandy, proceed with next step.)",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 5,
+          "instruction": "Scrape chicken stock and  gelatin mixture into Dutch oven. Add red wine, fish sauce, soy sauce, and bouquet garni and bring to a simmer over medium high, then lower heat to medium to maintain simmer. Meanwhile, cut beef into 2-inch chunks and transfer to a large mixing bowl. Add flour and stir until beef is evenly coated in a floury paste. Add beef and any accumulated juices to Dutch oven. Bring back to a simmer then transfer to oven, partially cover with a lid, and cook until beef starts to become tender, about 2 hours.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 6,
+          "instruction": "Meanwhile, in a large nonstick skillet, cook bacon lardons over medium-high heat, stirring occasionally, until fat has rendered and lardons are lightly browned and crisp, 4 to 6 minutes. Using a slotted spoon, transfer lardons to a plate.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 7,
+          "instruction": "Add mushrooms to skillet and cook over medium-high heat, stirring occasionally, until mushrooms have released their liquid and browned, about 10 minutes; add oil as needed if pan becomes too dry. Add diced carrots and pearl onions and continue to cook, stirring occasionally, until lightly browned, about 5 minutes.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 8,
+          "instruction": "Remove stew from oven. Using tongs, fish out and discard large pieces of carrot and onion. Discard bouquet garni. Using a ladle, skim off and discard accumulated fat on surface. Add reserved lardons and sautéed carrots, onions, and mushrooms to stew, return to oven, and continue to cook, uncovered, until beef is fork tender, pearl onions are soft but still hold their shape, and sauce is nappe, about 1 hour.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 9,
+          "instruction": "Remove stew from oven. If serving right away, skim off any additional fat from surface. Season to taste with salt and pepper. Allow to cool slightly before serving, then serve topped with parsley. If making ahead, cool down stew, then chill in refrigerator; remove solid fat cap from surface once fully chilled. Reheat stew on the stovetop or in a low oven.",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [],
+      "tips": [
+        "If you're using smoked bacon and you want to decrease the smokiness of it slightly, blanch the lardons in boiling water for two minutes, then drain and use as directed."
+      ],
+      "rawExcerpt": "iframe†www.googletagmanager.com\n\nSerious Eats\n\nSave\n\nRate\n\n* Search [Input: What are you looking for?]\n\n* Newsletters\n* Sweepstakes\n* Serious Eats\n# Boeuf Bourguignon (Beef Stew With Red Wine, Mushrooms, and Bacon)\n\n4.5\n\n(14)\n\n64 Reviews\n\nArguably the world's greatest beef stew.\n\nBy\n\nDaniel Gritzer\n\nImage: Daniel Gritzer Image: Daniel Gritzer\n\nDaniel Gritzer\nDaniel is the editorial director of Serious Eats, where he leads the site's editorial strategy and oversees everything from recipe development to articles on food science, cooking techniques, and more. He's a former food editor at Food & Wine and has cooked in New York City restaurants.\n\nSerious Eats' Editorial Guidelines\n\nUpdated on September 28, 2025\n\nClose\nImage: A bowl of beef bourguignon with big chunks of juicy beef, plump carrots, mushrooms and more. Image: A bowl of beef bourguignon with big chunks of juicy beef, plump carrots, mushrooms and more.\n\nCredit:\n\nSerious Eats / Fred Hardy\n\nIn This Recipe\n\nView All\n\nIn This Article\n\n* Choosing the Right Cut of Beef\n\n* Should You Marinate the Beef?\n\n* The Best Method for Cooking Vegetables in the Stew\n\n* How Good Does the Wine Need to Be?\n\n* Adding the Final Ingredients\n* Make Ahead and Storage\n\nJump to recipe\n* Opting for beef chuck roll, which is rich in collagen, ensures a tender and gelatinous texture, making the stew moist and richly flavored as it cooks.\n* Browning beef only on two sides before cubing it minimizes the loss of moisture, resulting in succulently tender meat throughout the stew.\n* Adding dry red wine with a touch of fish sauce and soy sauce contributes to a complex, savory depth, effectively elevating the stew's flavor without overpowering it with sweetness.\n* Cooking large aromatic vegetable pieces initially captures their essence, while replacing them with fresh vegetables preserves textural diversity and flavor integrity in the final dish.\nIf several of my cookbooks are to be believed, boeuf Bourguignon is not exactly a Burgundian dish. Sure, cooks have been making boeuf Bourguignon—or boeuf à la Bourguignonne, or even beef Burgundy, as it's sometimes called—in Burgundy for generations now, but so have cooks all over France and around the world.\n\nWhat's this all about?\nIt has to do with the French way of naming certain foods. In the case of boeuf Bourguignon, what the name communicates is not that it's a classic Burgundian dish, but that the beef is prepared with classic Burgundian flavors, namely, a red wine sauce with mushrooms and small onions. I could serve tofu with the same sauce and accompaniments and call it tofu Bourguignon, and it'd be just as accurate as the name of the beef stew, even if I was the first person to ever make it.\nMaybe the great cooks of Burgundy were the first ones to whip up this beloved stew, or maybe someone else did it in the style of those great cooks and attached their adjective appropriately.\nAll of this is ultimately just a technicality, one that doesn't matter much in the scope of things. Some technicalities, though, do matter. In particular, the technicalities of how we make what is arguably the world's greatest beef stew.\n\nLet's start with the beef.\n## Choosing the Right Cut of Beef\n\nImage: Beef chuck, raw and cooked. Image: Beef chuck, raw and cooked.\n\nBeef chuck, raw and cooked.\n\nSerious Eats / Vicky Wasik\nBefore you start cooking your stew, you want an appropriate cut of beef. More specifically, you want one that's rich in connective tissue made of collagen (some good marbled fat in the mix doesn't hurt either). Meat that has lots of collagen in it starts off tough as heck—it tends to come from the strongest parts of an animal's body—but, as it cooks, it very slowly transforms into meltingly soft and moist gelatin.\nIt's that gelatin that makes the meat still seem moist even after the muscle fibers have inevitably dried out from long cooking. Try stewing a lean, tender cut of beef, like filet mignon, for a couple of hours and you'll end up with scraps of meat that would compete with jerky in toughness and dryness.\nA boneless chuck roll, which comes from the cow's incredibly strong shoulder, is perfect for stewing, and it tends to be pretty cheap, so it's what I call for here. You have other options, though, so feel free to peruse my list of top stewing beef cuts for more ideas .\nTo prep the beef, most recipes tell you to dice it into small pieces first, then brown them on all sides. That browning helps develop flavor, but it also dries out the surface of the beef cubes. Even after they've spent a couple of hours submerged in stewing liquids, you can still detect the toughness of their browned exteriors.\nTo mitigate this, we take a slightly different approach with our stews on Serious Eats. We start by slicing the beef into about three large steaks or slabs, and then we brown only the two largest sides of each.\nOnly after the beef is browned do we cut it up into stew-size cubes. How big is stew size? Well, for some folks, it's about an inch. The problem there is that, while one-inch cubes will give you spoon-size bites, they'll also dry out a lot faster than larger pieces. We want moist and tender meat, so we size our cubes up to somewhere between one and a half and two inches.\nThe final stew will have meat that may require being cut with a knife (or, more likely, the side of your fork, if your stew is cooked right), but we're okay with that.\n## Should You Marinate the Beef?\n\nA lot of beef stew recipes, including ones for boeuf Bourguignon, say that for the best flavor, you should marinate the beef first. I've been running marination tests with beef stews for the past couple of weeks, and I haven't found this advice to be true.\nMarinades don't actually penetrate deeply into meat, getting not much further than the first couple of millimeters in from the surface, even after many hours. That shallow penetration is enough to make a marinade worthwhile in quicker-cooking applications, like when grilling meats. It even helps the chicken in my coq au vin recipe , in which the breast meat is braised quickly, just long enough to cook it through.\nBut with stew, the meat spends enough time in the pot with the stewing liquid that it ends up taking on as much flavor as meat that was marinated first. In none of my tests could I tell a difference between beef that had been marinated in red wine for as much as 24 hours and beef that first encountered the wine in the Dutch oven.\n## The Best Method for Cooking Vegetables in the Stew\n\nOnce the beef is browned, the next step is to brown the aromatics. A lot of stews simplify this by having you brown the diced vegetables you'll be serving, then cook them in the stew. This is, to be sure, the easiest way to do it, but the price you pay is overcooked vegetables with little flavor left to them (because it's all come out into the stewing liquid).\nA better way: brown large pieces of aromatic vegetables, like halved carrots, onions, and crushed cloves of garlic, and cook those in the stew along with an herb bundle tied together with cooking twine.\n\nLater, when those vegetables are verging on mush, just pluck them out and replace them with a fresh set of diced ones that you'll actually be serving, which I'll explain below.\nImage: A collage: picking up herb and onion from the pot of boeuf bourguignon.  Image: A collage: picking up herb and onion from the pot of boeuf bourguignon.\n\nSerious Eats / Vicky Wasik\n\nIn my recipe, once the large aromatics are browned, I deglaze the pot with a splash of brandy. That's an optional ingredient—use it if you have it, but don't skip the recipe if you don't. The flavor gain is subtle, not nearly reaching deal-breaker status.\nFor the other liquids, I use a small amount of chicken stock with unflavored gelatin bloomed in it, and plenty of dry red wine. A small dose each of both fish sauce and soy sauce adds some complexity and deeper savoriness, but rest assured, you won't taste them.\nThe gelatin helps give body to the stew's sauce, and a little thickness. Also helping to thicken the stewing liquid ever so slightly is a modest amount of flour, which I toss with the beef chunks right before adding them back to the pot. Combine that with the reduction that occurs when the dish is in the oven at 300°F (150°C) with the lid partly open, and we get a finished stew with a viscosity and body that's pleasing but not thick.\nA lot of stews, including many that come out of a can, are loaded with starches like flour to thicken them up to the point of being like gravy. I see the appeal in that, but the problem is that flour dulls the flavor of a stew, and the more you add, the duller it gets. Exactly where the perfect balance point between thickness and flavor is a personal decision, but I'm happy with a more liquid stew that also has a more pronounced, complex taste.\n## How Good Does the Wine Need to Be?\n\nSide note on the wine: Last year I did a series of tests on cooking with wine , red and white, to find out how important the quality of it is. What I found was that it matters very little. In fact, even the oft-repeated instruction to \"only cook with wine that you'd be willing to drink\" isn't entirely true: A lot of flaws in a wine, along with pretty much all of the nuance that makes a good wine good, are erased with cooking.\nThere are really only two important rules. First, don't cook with a \"cooking wine\" (typically very inexpensive wine with salt and preservatives added to it), or, worse, a wine product that is not actually wine. They're vile, and your food—especially a dish like this that has so much wine in it—will taste vile, too.\nSecond, use a dry wine unless the recipe specifically calls for an off-dry one. Dryness in wine refers to its sweetness, i.e., the actual amount of sugar in it, not how \"fruity\" the wine tastes. In most recipes, boeuf Bourguignon being one of them, a dry wine is essential. Any sugar in it will do very strange things to the flavor of the stew.\nBeyond that, you have a ton of latitude. Of course, you could choose a lighter red in a recipe like this, to emulate the lightness of a Burgundian Pinot Noir, but you honestly don't have to. Any dry red wine will work; the differences will be noticeable, but none of them will be bad. Whatever you do, do not waste your coin on a pricey bottle of Burgundy unless it's to drink alongside this stew, okay?\n## Adding the Final Ingredients\n\nImage: Adding chunks of bacon into boeuf Bourguignon.  Image: Adding chunks of bacon into boeuf Bourguignon.\n\nSerious Eats / Vicky Wasik\n\nWhile the stew is in the oven, I get my garnishes ready. I use the classic boeuf Bourguignon combination of lardons, mushrooms, and pearl onions, plus carrot for color and flavor.\nIn France, the lardons are made from salted pork, but in the States, bacon is more common. I happen to love the smoky flavor of bacon in this stew, though it's important to keep it from overpowering everything else. The best way to tame the smoke of your bacon is to blanch it for a couple of minutes first. It's an optional step, but useful if you don't want a very bacon-centric stew.\nOf course, to cut lardons into proper sticks, you'll need a slab of bacon—thick-sliced bacon can work in a pinch, but the results will have a very different texture from the meatier lardon pieces.\nImage: A collage: browning bacon and sauteing pearl onions and carrot in bacon fat.  Image: A collage: browning bacon and sauteing pearl onions and carrot in bacon fat.\n\nSerious Eats / Vicky Wasik\nI fry them over moderate heat to render their fat and crisp and brown them slightly, then remove the lardons with a slotted spoon. I then add the mushrooms and cook them in the rendered pork fat. It'll take at least 10 minutes, if not more, to properly brown the mushrooms. When they're browned, I add the carrots and pearl onions, sautéing them just long enough to lightly brown them as well.\nAfter the stew has been cooking for about an hour and a half, I take it out of the oven, discard the stewing aromatics, and then add these instead, allowing them to finish cooking in the stew, which takes about a half hour longer.\n\nThe finished stew is filled with tender chunks of meat and mushroom, along with plump onions and carrots and a deeply rich red-wine base. It's what Burgundy might taste like...if Burgundy had a land made of mushroom, pork, and onion, and rivers flowing with vin rouge.\nImage: Close up view of boeuf Bourguignon in a pot ready to serve.  Image: Close up view of boeuf Bourguignon in a pot ready to serve.\n\nSerious Eats / Vicky Wasik\n### January 2016\n\nThis recipe was cross-tested in 2023; the oven temperature was raised slightly and the cooking time extended to ensure best results.\n\nPrep Time:\n\n10 mins\n\nCook Time:\n\n3 hrs 30 mins\n\nResting Time::\n\n15 mins\n\nTotal Time:\n\n3 hrs 55 mins\n\nServings:\n\n4 to 6 servings\n\nYield:\n\n9 cups\n\n[Button: Jump to Nutrition Facts]\n\nKeep Screen Awake\n## Ingredients\n\n* 2 cups (500 ml) homemade chicken stock or store-bought low-sodium broth\n\n* 4 packets unflavored powdered gelatin (3 tablespoons plus 1 teaspoon; 30 g)\n\n* 2 tablespoons (30 ml) vegetable oil, plus more as needed\n\n* 3 pounds (1.25 kg) whole boneless beef chuck roast, cut crosswise into 3 steaks\n\n* 4 teaspoons (12 g) Diamond Crystal kosher salt, divided; for table salt, use half as much by volume or the same weight\n\n* 1 teaspoon freshly ground black pepper\n* 1 1/4 pounds carrots (600 g; about 3 large), 1/2 pound (250 g) peeled and split lengthwise, 3/4 pound (350 g) cut into large dice (about 1 1/2 cups)\n\n* 1 medium yellow onion (8 ounces; 227 g), peeled and split in half through the root\n\n* 4 medium cloves garlic, lightly crushed\n\n* 1/4 cup (60 ml) cognac or brandy (optional)\n\n* 3 cups (750 ml) dry red wine\n\n* 1 tablespoon (15 ml) fish sauce\n\n* 1 tablespoon (15 ml) soy sauce\n* 1 bouquet garni (about 4 sprigs thyme, 3 sprigs parsley, and 1 bay leaf, tied together with kitchen twine)\n\n* 5 tablespoons all-purpose flour (1.4 ounces; 40 g)\n\n* 1/4 pound (110 g) slab bacon or salt pork, cut into 1-inch-long by 1/4-inch-thick sticks (about 1 cup)\n\n* 1 pound cremini mushrooms (450 g), woody stems trimmed if necessary and caps quartered\n\n* 8 ounces white and/or red pearl onions (225 g), peeled\n\n* Minced flat-leaf parsley leaves and tender stems, for garnish\n## Directions\n\n1. Preheat oven to 325°F (160°C). Pour chicken stock into a medium bowl and sprinkle gelatin evenly all over surface, allowing each packet's worth of gelatin to soak up stock before sprinkling next one on. Set aside.\n2. In a large Dutch oven, heat oil over medium-high heat until shimmering. Season beef all over with 3 teaspoons of salt and 1 teaspoon of pepper and add to Dutch oven. Cook, turning occasionally, until beef is well browned on 2 sides, about 10 minutes. Transfer beef to a rimmed baking sheet.\n\nImage: Browning beef in a Dutch oven for boeuf Bourguignon.  Image: Browning beef in a Dutch oven for boeuf Bourguignon.\n3. Lower heat to medium; add split carrots, halved onion, and garlic to Dutch oven and cook, turning occasionally, until lightly browned, about 4 minutes.\n\nImage: Browning carrots, garlic, and onion for boeuf Bourguignon.  Image: Browning carrots, garlic, and onion for boeuf Bourguignon.\n\n4. Add brandy, if using, and boil until alcohol has nearly cooked off, about 2 minutes. (If not using brandy, proceed with next step.)\n5. Scrape chicken stock and  gelatin mixture into Dutch oven. Add red wine, fish sauce, soy sauce, and bouquet garni and bring to a simmer over medium high, then lower heat to medium to maintain simmer. Meanwhile, cut beef into 2-inch chunks and transfer to a large mixing bowl. Add flour and stir until beef is evenly coated in a floury paste. Add beef and any accumulated juices to Dutch oven.\nBring back to a simmer then transfer to oven, partially cover with a lid, and cook until beef starts to become tender, about 2 hours.\nImage: A collage: adding brandy, chicken stock, red wine, fish sauce, and soy sauce into a pot of boeuf Bourguignon.  Image: A collage: adding brandy, chicken stock, red wine, fish sauce, and soy sauce into a pot of boeuf Bourguignon.\n\n6. Meanwhile, in a large nonstick skillet, cook bacon lardons over medium-high heat, stirring occasionally, until fat has rendered and lardons are lightly browned and crisp, 4 to 6 minutes. Using a slotted spoon, transfer lardons to a plate.\n7. Add mushrooms to skillet and cook over medium-high heat, stirring occasionally, until mushrooms have released their liquid and browned, about 10 minutes; add oil as needed if pan becomes too dry. Add diced carrots and pearl onions and continue to cook, stirring occasionally, until lightly browned, about 5 minutes.\n8. Remove stew from oven. Using tongs, fish out and discard large pieces of carrot and onion. Discard bouquet garni. Using a ladle, skim off and discard accumulated fat on surface. Add reserved lardons and sautéed carrots, onions, and mushrooms to stew, return to oven, and continue to cook, uncovered, until beef is fork tender, pearl onions are soft but still hold their shape, and sauce is nappe, about 1 hour.\nImage: Adding saute vegetable and aromatics into boeuf Bourguignon pot.  Image: Adding saute vegetable and aromatics into boeuf Bourguignon pot.\n9. Remove stew from oven. If serving right away, skim off any additional fat from surface. Season to taste with salt and pepper. Allow to cool slightly before serving, then serve topped with parsley. If making ahead, cool down stew, then chill in refrigerator; remove solid fat cap from surface once fully chilled. Reheat stew on the stovetop or in a low oven.\n## Special Equipment\n\nDutch oven , rimmed baking sheet\n\n## Notes\n\nIf you're using smoked bacon and you want to decrease the smokiness of it slightly, blanch the lardons in boiling water for two minutes, then drain and use as directed.\n\n## Make Ahead and Storage\n\nThe stew can be refrigerated in an airtight container for up to 5 days.\n\n## Read More\n\n* What Are the Best Cuts of Beef for Stew?\n* The Truth About Cooking With Wine\n\nSave\n\nRate\n\nPrint [Input]\n## Nutrition Facts (per serving)\n\n957  | Calories\n54g  | Fat\n29g  | Carbs\n67g  | Protein\n\nShow Full Nutrition Label Hide Full Nutrition Label\n\nNutrition Facts\n---\nServings Per Recipe 4 to 6\n---\nCalories 957\n---\n% Daily Value *\nTotal Carbohydrate 29g  | 11%\nDietary Fiber 5g  | 18%\nTotal Sugars 9g\nProtein 67g  | 134%\nTotal Fat 54g  | 70%\nSaturated Fat 21g  | 103%\nCholesterol 204mg  | 68%\nVitamin C 10mg  | 11%\nSodium 2156mg  | 94%\nCalcium 136mg  | 10%\nIron 7mg  | 41%\nPotassium 1686mg  | 36%\n* Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs.\n\nLoading shell for RecipesUgcThreaded1 Vue component in Globe.\n## Related Articles\nClassic Pot-au-Feu (French Boiled Beef and Vegetables) Recipe 4 hrs 45 mins Les Halles's Boeuf Bourguignon Recipe 2 hrs 55 mins French in a Flash: Boeuf aux Carottes Recipe 3 hrs 35 mins Braised Short Ribs From 'Daniel' 4 hrs 15 mins Braised Chinese-Style Short Ribs With Soy, Orange, and 5-Spice Powder Recipe 3 hrs 45 mins All-American Beef Stew 3 hrs 15 mins Bollito Misto (Italian Feast of Mixed Boiled Meats) Recipe 1 hr 50 mins Pressure Cooker Pot-au-Feu (French Boiled Beef and Vegetables) Recipe 50 mins\nGoulash (Hungarian Beef and Paprika Stew) 3 hrs 5 mins Daube de Boeuf à la Gasconne (Gascogne-Style Beef Stew) 3 hrs 50 mins Choucroute Garnie à l'Alsacienne (Alsatian Braised Sauerkraut With Mixed Meats and Sausages) Recipe 3 hrs 45 mins Osso Buco (Italian Braised Veal Shanks) Recipe 3 hrs 45 mins Red Wine-Braised Beef Shanks 4 hrs 25 mins Red Wine–Braised Beef Short Ribs 4 hrs 55 mins The Ultimate Beef Stroganoff Recipe 55 mins Pressure Cooker Red Wine–Braised Beef Short Ribs Recipe 3 hrs 40 mins\nNewsletter Sign Up\n\nNewsletter Sign Up\n## We Care About Your Privacy\n\nWe and our 100 partners store and/or access information on a device, such as unique IDs in cookies to process personal data. You may accept or manage your choices by clicking below, including your right to object where legitimate interest is used, or at any time in the privacy policy page. These choices will be signaled to our partners and will not affect browsing data.\n### We and our partners process data to provide:\nStore and/or access information on a device. Use limited data to select advertising. Create profiles for personalised advertising. Use profiles to select personalised advertising. Create profiles to personalise content. Use profiles to select personalised content. Measure advertising performance. Measure content performance. Understand audiences through statistics or combinations of data from different sources. Develop and improve services. Use limited data to select content.\n[Button: List of Partners (vendors) ]\n[Button: Accept All] [Button: Reject All] [Button: Show Purposes]",
+      "selectionAssessment": {
+        "qualifies": false,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "conflicted",
+        "heroImages": 0,
+        "mappedStepImages": 0,
+        "stepImageCoverage": 0,
+        "ingredientCount": 20,
+        "executableStepCount": 9,
+        "notes": [
+          "Page images and step adjacencies visible in web.open; original binary URLs not returned by failed web.click. No verified downloadable media available, no invented image mappings.",
+          "Source quantities with mixed units retained verbatim; no vessel capacity inferred.",
+          "Recipecard3pounds/1.25kg beef quantities are source inconsistency; preserve both raw, prefer explicitly chosen source quantity rather than invent equivalence. Article older300F/2hours differs from cross-tested card325F plus2+1hours; use current card while documenting old article variance."
+        ]
+      }
+    }
+  ],
+  "sourceMode": "single_source",
+  "singleSourceReason": "Exact-name and alias KB query first; all84actual book records checked, no matching Western recipe. Enabled BBC and Serious Eats alternatives attempted; only one independent complete coherent source remains eligible. Other inaccessible, materially different, or internally conflicting variants are retained in audit and never used to supplement it.",
+  "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/beef-bourguignon",
+  "selectionReason": "Selected exactly one whole BBC recipe: full coherent ingredients/method match the target; verified usable hero (no source step photos available). Other sources have no verified usable media URLs under ordinary access. Under the required completeness/coherence then usable-image/coverage ranking, this source leads; its ingredients, operations, tips and media are kept together without supplementation.",
+  "ragEvidence": [
+    {
+      "chunkId": "43c76435-0d6e-4253-8cfc-c16216f340e2",
+      "documentId": "4e882fb4-43e9-4577-bdae-8a9a158c37be",
+      "sourceName": "BBC Good Food",
+      "chunkType": "ingredients",
+      "content": "菜名：法式红酒炖牛肉\n- 1.6kg braising steak cut into large chunks\n- 3 bay leaves\n- small bunch thyme\n- 2 bottles cheap red wine\n- 2 tbsp oil\n- 3 large or 6 normal carrots cut into large chunks\n- 2 onions roughly chopped\n- 3 tbsp plain flour\n- 1 tbsp tomato purée\n- small knob butter\n- 300g bacon lardons\n- 500g pearl onions or small shallots, peeled\n- 400g mushrooms halved\n- chopped parsley\n- some pepper for overnight marinade (step1)\n- Season stew (step6; unspecified type and amount)",
+      "similarity": 0.757459833773386
+    },
+    {
+      "chunkId": "250b3edd-4654-425e-9ab5-cd1b0bb4079b",
+      "documentId": "4e882fb4-43e9-4577-bdae-8a9a158c37be",
+      "sourceName": "BBC Good Food",
+      "chunkType": "technique",
+      "content": "菜名：法式红酒炖牛肉\n- 原文未明确说明技法。",
+      "similarity": 0.745786234485294
+    },
+    {
+      "chunkId": "884aa6f0-92fe-478d-b358-ef247d249f6c",
+      "documentId": "4e882fb4-43e9-4577-bdae-8a9a158c37be",
+      "sourceName": "BBC Good Food",
+      "chunkType": "summary",
+      "content": "菜名：法式红酒炖牛肉\n别名：Beef bourguignon\n菜系：French\n简介：The secret to this rich beef casserole is to use all wine and no stock. Our ultimate beef bourguignon recipe is an instant comforting classic, full of satisfying flavours.",
+      "similarity": 0.743259639351411
+    },
+    {
+      "chunkId": "11254a88-162c-4abf-baa9-3c82caf7739a",
+      "documentId": "4e882fb4-43e9-4577-bdae-8a9a158c37be",
+      "sourceName": "BBC Good Food",
+      "chunkType": "steps",
+      "content": "菜名：法式红酒炖牛肉\n1. Tip 1.6kg braising steak, cut into large chunks, into a large bowl with 3 bay leaves, a small bunch of thyme, 2 bottles of red wine and some pepper, then cover and leave in the fridge overnight.\n2. Heat the oven to 200C/180C fan/gas 6.\n3. Place a colander over another large bowl and strain the marinated meat, keeping the wine.\n4. Heat 1 tbsp oil in a large frying pan, then brown the meat in batches, transferring to a plate once browned. When all the meat is browned, pour a little wine into the now-empty frying pan and bubble to release any caramelised bits from the pan.\n5. Heat 1 tbsp oil in a large casserole and fry 3 large or 6 normal carrots, cut into large chunks, and 2 roughly chopped onions until they start to colour. Stir in 3 tbsp plain flour for 1 min, then add 1 tbsp tomato purée.\n6. Add the beef and any juices, the wine from the frying pan and the rest of the wine and herbs. Season and bring to a simmer. Give everything a good stir, then cover.\n7. Transfer to the oven and bake for 2 hrs until the meat is really tender. Cool. Will freeze for up to 3 months.\n8. To serve, defrost completely overnight in the fridge if frozen, then place on a low heat to warm through.",
+      "similarity": 0.742252067193267
+    },
+    {
+      "chunkId": "e0b83ad9-3a7e-43da-aa28-5739d8d399e4",
+      "documentId": "4e882fb4-43e9-4577-bdae-8a9a158c37be",
+      "sourceName": "BBC Good Food",
+      "chunkType": "tips",
+      "content": "菜名：法式红酒炖牛肉\n- 原文未提供额外提示。",
+      "similarity": 0.733985650422756
+    },
+    {
+      "chunkId": "4691b75e-c66b-4d76-ba59-a24c1124a079",
+      "documentId": "4e882fb4-43e9-4577-bdae-8a9a158c37be",
+      "sourceName": "BBC Good Food",
+      "chunkType": "steps",
+      "content": "菜名：法式红酒炖牛肉\n9. Meanwhile, heat a small knob of butter in a frying pan and add 300g bacon lardons and 500g peeled pearl onions or small shallots. Sizzle for about 10 mins until the bacon starts to crisp and the onions soften and colour.\n10. Add 400g halved mushrooms and fry for another 5 mins, then stir everything into the stew and heat for 10 mins more. Serve scattered with chopped parsley.",
+      "similarity": 0.713135753496199
+    },
+    {
+      "chunkId": "7b1c898b-22f8-42a8-9a82-8c5ee4311ce6",
+      "documentId": "7d633798-006a-4be9-9ad8-79cca8539077",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：法式红酒炖牛肉\n8. Remove stew from oven. Using tongs, fish out and discard large pieces of carrot and onion. Discard bouquet garni. Using a ladle, skim off and discard accumulated fat on surface. Add reserved lardons and sautéed carrots, onions, and mushrooms to stew, return to oven, and continue to cook, uncovered, until beef is fork tender, pearl onions are soft but still hold their shape, and sauce is nappe, about 1 hour.\n9. Remove stew from oven. If serving right away, skim off any additional fat from surface. Season to taste with salt and pepper. Allow to cool slightly before serving, then serve topped with parsley. If making ahead, cool down stew, then chill in refrigerator; remove solid fat cap from surface once fully chilled. Reheat stew on the stovetop or in a low oven.",
+      "similarity": 0.768189696289337
+    },
+    {
+      "chunkId": "371153ea-3e1d-42f8-8118-67e8c023a356",
+      "documentId": "7d633798-006a-4be9-9ad8-79cca8539077",
+      "sourceName": "Serious Eats",
+      "chunkType": "ingredients",
+      "content": "菜名：法式红酒炖牛肉\n- 2 cups (500 ml) homemade chicken stock or store-bought low-sodium broth\n- 4 packets unflavored powdered gelatin (3 tablespoons plus 1 teaspoon; 30 g)\n- 2 tablespoons (30 ml) vegetable oil, plus more as needed\n- 3 pounds (1.25 kg) whole boneless beef chuck roast, cut crosswise into 3 steaks\n- 4 teaspoons (12 g) Diamond Crystal kosher salt, divided; for table salt, use half as much by volume or the same weight\n- 1 teaspoon freshly ground black pepper\n- 1 1/4 pounds carrots (600 g; about 3 large), 1/2 pound (250 g) peeled and split lengthwise, 3/4 pound (350 g) cut into large dice (about 1 1/2 cups)\n- 1 medium yellow onion (8 ounces; 227 g), peeled and split in half through the root\n- 4 medium cloves garlic, lightly crushed\n- 1/4 cup (60 ml) cognac or brandy (optional)\n- 3 cups (750 ml) dry red wine\n- 1 tablespoon (15 ml) fish sauce\n- 1 tablespoon (15 ml) soy sauce\n- 1 bouquet garni (about 4 sprigs thyme, 3 sprigs parsley, and 1 bay leaf, tied together with kitchen twine)\n- 5 tablespoons all-purpose flour (1.4 ounces; 40 g)\n- 1/4 pound (110 g) slab bacon or salt pork, cut into 1-inch-long by 1/4-inch-thick sticks (about 1 cup)\n- 1 pound cremini mushrooms (450 g), woody stems trimmed if necessary and caps quartered\n- 8 ounces white and/or red pearl onions (225 g), peeled\n- Minced flat-leaf parsley leaves and tender stems, for garnish\n- boiling water to optionally blanch smoked bacon2minutes (source note)",
+      "similarity": 0.764078809971882
+    },
+    {
+      "chunkId": "05652a8d-4d62-4897-9631-459b8990a7fd",
+      "documentId": "7d633798-006a-4be9-9ad8-79cca8539077",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：法式红酒炖牛肉\n1. Preheat oven to 325°F (160°C). Pour chicken stock into a medium bowl and sprinkle gelatin evenly all over surface, allowing each packet's worth of gelatin to soak up stock before sprinkling next one on. Set aside.\n2. In a large Dutch oven, heat oil over medium-high heat until shimmering. Season beef all over with 3 teaspoons of salt and 1 teaspoon of pepper and add to Dutch oven. Cook, turning occasionally, until beef is well browned on 2 sides, about 10 minutes. Transfer beef to a rimmed baking sheet.\n3. Lower heat to medium; add split carrots, halved onion, and garlic to Dutch oven and cook, turning occasionally, until lightly browned, about 4 minutes.\n4. Add brandy, if using, and boil until alcohol has nearly cooked off, about 2 minutes. (If not using brandy, proceed with next step.)",
+      "similarity": 0.759883954531912
+    },
+    {
+      "chunkId": "b54fc783-6ca2-44d1-b0c6-980448a26f14",
+      "documentId": "7d633798-006a-4be9-9ad8-79cca8539077",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：法式红酒炖牛肉\n5. Scrape chicken stock and gelatin mixture into Dutch oven. Add red wine, fish sauce, soy sauce, and bouquet garni and bring to a simmer over medium high, then lower heat to medium to maintain simmer. Meanwhile, cut beef into 2-inch chunks and transfer to a large mixing bowl. Add flour and stir until beef is evenly coated in a floury paste. Add beef and any accumulated juices to Dutch oven. Bring back to a simmer then transfer to oven, partially cover with a lid, and cook until beef starts to become tender, about 2 hours.\n6. Meanwhile, in a large nonstick skillet, cook bacon lardons over medium-high heat, stirring occasionally, until fat has rendered and lardons are lightly browned and crisp, 4 to 6 minutes. Using a slotted spoon, transfer lardons to a plate.\n7. Add mushrooms to skillet and cook over medium-high heat, stirring occasionally, until mushrooms have released their liquid and browned, about 10 minutes; add oil as needed if pan becomes too dry. Add diced carrots and pearl onions and continue to cook, stirring occasionally, until lightly browned, about 5 minutes.",
+      "similarity": 0.759466767311102
+    },
+    {
+      "chunkId": "7aae26e3-3131-4241-af05-55388648d3af",
+      "documentId": "7d633798-006a-4be9-9ad8-79cca8539077",
+      "sourceName": "Serious Eats",
+      "chunkType": "technique",
+      "content": "菜名：法式红酒炖牛肉\n- 原文未明确说明技法。",
+      "similarity": 0.745786234485294
+    },
+    {
+      "chunkId": "377235ec-924d-446b-abec-014487d59f56",
+      "documentId": "7d633798-006a-4be9-9ad8-79cca8539077",
+      "sourceName": "Serious Eats",
+      "chunkType": "summary",
+      "content": "菜名：法式红酒炖牛肉\n别名：Boeuf Bourguignon (Beef Stew With Red Wine, Mushrooms, and Bacon)\n简介：Boeuf Bourguignon (Beef Stew With Red Wine, Mushrooms, and Bacon)",
+      "similarity": 0.722910361116508
+    },
+    {
+      "chunkId": "ef1a7aa6-4679-4ad8-a7c1-3201bb599f1f",
+      "documentId": "7d633798-006a-4be9-9ad8-79cca8539077",
+      "sourceName": "Serious Eats",
+      "chunkType": "tips",
+      "content": "菜名：法式红酒炖牛肉\n- If you're using smoked bacon and you want to decrease the smokiness of it slightly, blanch the lardons in boiling water for two minutes, then drain and use as directed.",
+      "similarity": 0.68667016188262
+    }
+  ],
+  "notes": [
+    "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented.",
+    "BBC source original yield: 6",
+    "BBC original totalTime: PT4H15M",
+    "BBC original cookTime: PT3H30M",
+    "BBC original prepTime: PT45M",
+    "Alternative attempts: [{\"url\":\"https://www.bbcgoodfood.com/recipes/beef-bourguignon\",\"status\":200,\"bytes\":641724}]",
+    "Current book inventory and22target audit: west-kb-audit.json. Invalid/superseded/rejected history excluded.",
+    "Serious Eats direct Python460/normalPowerShell402/normalChrome402; normalweb.open successfully retrieved the complete recipes included here. All successful complete matching sources ingested separately before selection; no access-control bypass.",
+    "Alternative enabled-site searches and complete observed source text are archived in west-alternative-search.json and west-se-*.txt.",
+    "Selected source has no verified cooking-stage photos; do not fabricate or relabel a finished-dish photo. Parent must resolve manual-run image exception before publishing."
+  ]
+}

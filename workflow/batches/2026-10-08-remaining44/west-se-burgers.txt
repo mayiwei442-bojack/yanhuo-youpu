@@ -1,0 +1,133 @@
+Ultra Crispy Burgers Recipe (https://www.seriouseats.com/ultra-crispy-burgers-recipe)
+citeturn103view0 [wordlim: 100] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.seriouseats.com/ultra-crispy-burgers-recipe","lineno":null}); Total lines: 144
+L0: cite0†iframe†www.googletagmanager.com L1: 
+L2: cite1†Serious Eats L3: 
+L4: Save
+L5: 
+L6: Rate
+L7: 
+L8:   * Search [Input: What are you looking for?]
+L9: 
+L10:   * cite2†Newsletters L11:   * cite3†Sweepstakes L12:   * cite1†Serious Eats L13: # Ultra Crispy Burgers Recipe
+L14: 
+L15: 4.8
+L16: 
+L17: (4)
+L18: 
+L19: 24 Reviews
+L20: 
+L21: By
+L22: 
+L23: cite4†J. Kenji López-Alt L24: 
+L25: cite5†Image: Kenji Lopez Alt cite5†Image: Kenji Lopez Alt L26: 
+L27: cite4†J. Kenji López-Alt L28: 
+L29: Kenji is the former culinary director for Serious Eats and a current culinary consultant for the site. He is also a New York Times food columnist and the author of The Food Lab: Better Home Cooking Through Science.
+L30: 
+L31: cite6†Serious Eats' Editorial Guidelines L32: 
+L33: Updated on March 19, 2025
+L34: 
+L35: Close
+L36: cite7†Image: a crispy cheeseburger cite7†Image: a crispy cheeseburger L37: 
+L38: Credit:
+L39: 
+L40: Serious Eats / J. Kenji Lopez-Alt
+L41: 
+L42: Jump to recipe
+L43: 
+L44: Crispy, meet burger: cite8†Check out the delicious details here. L45: 
+L46: Prep Time:
+L47: 
+L48: 15 mins
+L49: 
+L50: Cook Time:
+L51: 
+L52: 10 mins
+L53: 
+L54: Freeze:
+L55: 
+L56: 10 mins
+L57: 
+L58: Total Time:
+L59: 
+L60: 35 mins
+L61: 
+L62: Servings:
+L63: 
+L64: 4 burgers
+L65: 
+L66: Yield:
+L67: 
+L68: 4 burgers
+L69: 
+L70: [Button: Jump to Nutrition Facts]
+L71: 
+L72: Keep Screen Awake
+L73: ## Ingredients
+L74: 
+L75:   * 6 ounces beef sirloin, trimmed of gristle, and cut into 1-inch cubes
+L76: 
+L77:   * 5 ounces beef brisket, trimmed of gristle, and cut into 1-inch cubes
+L78: 
+L79:   * 12 ounces oxtail, fat and meat carefully removed from bone and trimmed of silverskin, bones discarded or reserved for another use (about 5 ounces of combined meat and fat)
+L80: 
+L81:   * Kosher salt and freshly ground black pepper
+L82: 
+L83:   * 1/2 teaspoon vegetable oil
+L84: 
+L85:   * 4 slices American cheese
+L86: 
+L87:   * 4 soft white burger buns, lightly toasted
+L88:   * Pickles chips and sliced onions (optional)
+L89: ## Directions
+L90: 
+L91:   1. Place feed shaft, blade, and 1/4-inch die of meat grinder in freezer until well-chilled. Meanwhile, place meat chunks on rimmed baking sheet, leaving space between each piece and place in freezer for 10 minutes until meat is firm, but not frozen.
+L92: 
+L93:   2. Combine meat in large bowl and toss to combine. Grind meat directly onto parchment or foil-lined rimmed baking sheet.
+L94:   3. Without picking the meat up, divide it into four piles on baking sheet and gently press piles into patties approximately 4-inches wide and 1/2-inch thick. Patties should remain loose and have ragged edges. Season generously with salt and pepper. Using wide spatula, carefully flip patties over (some may fall apart - just push them together again).
+L95: Season second side with salt and pepper and refrigerate until ready to use (can be stored on sheet tray covered with plastic wrap in refrigerator for up to 1 day).
+L96:   4. Heat vegetable oil in heavy-bottomed 8-inch sauté pan over high heat until smoking. Carefully transfer patty to skillet and cook without moving until dark crust forms, about 2 1/2 minutes (open your window, disarm your fire alarm, and be prepared for splatters). Using spatula, carefully flip patty and top with cheese. Continue to cook for one to two minutes longer until desired doneness is reached (patty will be at least medium, but will still remain juicy even until well-done)
+L97:   5. Meanwhile, place pickles and onions on burger bun bottom if desired. Top with cooked patty, close buns, and eat immediately. Repeat with remaining burgers, discarding all but 1 teaspoon fat from skillet between burgers.
+L98: ### This Recipe Appears In
+L99: 
+L100:   * cite8†The Burger Lab: The World's Best Burger for a Single Man (or Woman) L101: 
+L102: Save
+L103: 
+L104: Rate
+L105: 
+L106: Print [Input]
+L107: ## Nutrition Facts (per serving)
+L108: 
+L109: 839  | Calories
+L110: 46g  | Fat
+L111: 31g  | Carbs
+L112: 73g  | Protein
+L113: 
+L114: Show Full Nutrition Label Hide Full Nutrition Label
+L115: 
+L116: Nutrition Facts
+L117: ---
+L118: Servings Per Recipe 4
+L119: ---
+L120: Calories 839
+L121: ---
+L122: % Daily Value *
+L123: Total Carbohydrate 31g  | 11%
+L124: Dietary Fiber 1g  | 4%
+L125: Total Sugars 5g
+L126: Protein 73g  | 146%
+L127: Total Fat 46g  | 59%
+L128: Saturated Fat 20g  | 98%
+L129: Cholesterol 236mg  | 79%
+L130: Vitamin C 1mg  | 1%
+L131: Sodium 952mg  | 41%
+L132: Calcium 409mg  | 31%
+L133: Iron 9mg  | 47%
+L134: Potassium 853mg  | 18%
+L135: * Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs.
+L136: 
+L137: Loading shell for RecipesUgcThreaded1 Vue component in Globe.
+L138: ## Related Articles
+L139: cite9†The Ultimate Smash Cheeseburger 10 mins cite10†The Fake Shack (or the Shack Burger at Home) 40 mins cite11†Mornay and Mushroom Duxelles Burger With Crispy Shallots Recipe 55 mins cite12†Classic Smashed Burgers 15 mins cite13†Oklahoma-Style Onion Burgers Recipe 25 mins cite14†Hot and Smoky Cheeseburgers With Bacon and Pickled Cherry Pepper Relish Recipe 45 mins cite15†In-N-Out's Double-Double, Animal Style Recipe 1 hr 5 mins cite16†Cemita Burger With Refried Beans, Chipotle Mayo, Avocado, and Oaxacan Cheese Recipe 30 mins L140: cite17†Ultra-Smashed Brunch Burgers With Quick Jalapeño Hollandaise Recipe 35 mins cite18†The In-N-Out/Telway/White Manna Ultimate Animal-Style Slider Mashup Recipe 25 mins cite19†Insanity Burger From 'Jamie Oliver's Comfort Food' 45 mins cite20†Ramen Burger Recipe 20 mins cite21†A Better Big Mac Recipe 30 mins cite22†Maitre d'Hotel Butter Burger With Garlic Confit and Seared Romaine Recipe 30 mins cite23†(More) Ultimate(est) Perfect Sliders Recipe 45 mins cite24†Burger Toppings Week: Japanese Miso-Eggplant Burger With Fresh Pickles L141: Newsletter Sign Up
+L142: 
+L143: Newsletter Sign Up
+

@@ -1,0 +1,285 @@
+Swedish Meatballs With Rich Gravy Recipe (https://www.seriouseats.com/the-best-swedish-meatballs-recipe)
+citeturn110view0 [wordlim: 100] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.seriouseats.com/the-best-swedish-meatballs-recipe","lineno":230}); Total lines: 322
+L0: cite0†iframe†www.googletagmanager.com L1: 
+L2: cite1†Serious Eats L3: 
+L4: Save
+L5: 
+L6: Rate
+L7: 
+L8:   * Search [Input: What are you looking for?]
+L9: 
+L10:   * cite2†Newsletters L11:   * cite3†Sweepstakes L12:   * cite1†Serious Eats L13: # Swedish Meatballs With Rich Gravy
+L14: 
+L15: 4.8
+L16: 
+L17: (15)
+L18: 
+L19: 55 Reviews
+L20: 
+L21: Juicy and tender fried meatballs smothered in a luxurious, well-seasoned gravy.
+L22: 
+L23: By
+L24: 
+L25: cite4†Daniel Gritzer L26: 
+L27: cite5†Image: Daniel Gritzer cite5†Image: Daniel Gritzer L28: 
+L29: cite4†Daniel Gritzer L30: Daniel is the editorial director of Serious Eats, where he leads the site's editorial strategy and oversees everything from recipe development to articles on food science, cooking techniques, and more. He's a former food editor at Food & Wine and has cooked in New York City restaurants.
+L31: 
+L32: cite6†Serious Eats' Editorial Guidelines L33: 
+L34: Updated on September 28, 2025
+L35: 
+L36: cite7†Image†cdn.jwplayer.com cite7†Image†cdn.jwplayer.com L37: 
+L38: How to Make Swedish Meatballs
+L39: 
+L40: 2:44
+L41: 
+L42: In This Recipe
+L43: 
+L44: View All
+L45: 
+L46: In This Article
+L47:   * cite8†What Is a Swedish Meatball? L48: 
+L49:   * cite9†Choosing and Mixing Your Meat L50: 
+L51:   * cite10†How to Make the Panade (Wet Bread Mixture) L52: 
+L53:   * cite11†How to Prep the Onions L54: 
+L55:   * cite12†Cooking Your Meatballs L56: 
+L57:   * cite13†How to Make the Gravy L58: 
+L59:   * cite14†Finishing the Dish L60: 
+L61:   * cite15†Special Equipment L62: 
+L63: Jump to recipe
+L64:   * Using a 2:1 ratio of beef to pork ensures meatballs that are both springy and tender, ideal for serving with toothpicks or as part of a meal.
+L65:   * Adding fresh bread soaked in milk enhances the meatballs' juiciness and tenderness, providing a lighter texture compared to denser alternatives like dry breadcrumbs or pastina.
+L66:   * Simmering the fried meatballs in the soy sauce and cider vinegar-enhanced gravy ensures full flavor integration and complete cooking, making each bite consistently warm and delicious.
+L67: ## What Is a Swedish Meatball?
+L68: 
+L69: That might sound like a stupid question, because most of us have a pretty clear idea: They tend to be small, flavored with warm spices, coated in gravy, and sometimes stabbed with toothpicks. You know, plus lingonberries and IKEA and stuff.
+L70: 
+L71: cite16†Image: A plate with gravy-covered Swedish meatballs. cite16†Image: A plate with gravy-covered Swedish meatballs. L72: 
+L73: Tender, juicy, and toothpick-able. .
+L74: 
+L75: Serious Eats / Vicky Wasik
+L76: But, as I began working on this recipe (which, as is usual for us, included researching existing recipes), I found a definition hard to nail down. Many seem to think that allspice is mandatory, but some people online who claimed to be Swedish decried allspice as categorically un-Swedish (one commenter said he adds it only during the Christmas holiday season).
+L77: Allspice is in cite17†this recipe on Sweden's official website†sweden.se —but it says that the gravy isn't required and, in fact, should be skipped if the meatballs are going to be part of a traditional smorgasbord. And that's just the beginning of the variations I came across.
+L78: So many possibilities, though, just meant that I had plenty of freedom to come up with a recipe that delivered what I wanted in my Swedish meatballs, whether it adhered to someone else's idea of what's correct or not. What I ended up with were meatballs that are springy enough to be speared by a toothpick. They're also very delicately spiced, since I, frankly, don't want my meat tasting like mulled wine and gingerbread. And yeah, there's gravy.
+L79: cite18†Image: A plate with gravy-covered Swedish meatballs and mashed potatoes. cite18†Image: A plate with gravy-covered Swedish meatballs and mashed potatoes. L80: 
+L81: Serious Eats / Vicky Wasik
+L82: 
+L83: To get there, I tapped deep into my one-quarter-Swedish roots, which, seeing as I'm generations removed from any family member who was actually from Sweden, basically means I did my best cite19†Swedish chef†www.youtube.com impersonation.
+L84: 
+L85: Here's-a orn-it all-a breakee-borksen down.*
+L86: 
+L87: *"Here's how it all breaks down."
+L88: ## Da Meetsy Beetsy Bop (The Meat)
+L89: 
+L90: Beef and pork are the most common meats in Swedish meatballs, though some folks throw veal in there, too. Veal can be pricey, so I skipped it. It's easy to just default to a 50-50 blend of beef and pork, but I wanted to make a more deliberate choice, so I mixed up different ratios of ground beef chuck and pork shoulder (with about 20% fat in each) for a side-by-side comparison.
+L91: What I found was that the more beef I used, the springier the meatball ended up, but an all-beef ball crossed the line by becoming too tight. A 50-50 blend is good, but my favorite was a 2:1 ratio of beef to pork: It made meatballs that were springy and flavorful, but still tender and juicy.
+L92: One question that may come up is why I wanted a springy meatball in the first place. The answer is practical: Springy meatballs are easier than loose ones to spear and keep speared on toothpicks. Obviously, there's no law that says Swedish meatballs have to be eaten from toothpicks, but I just can't separate Swedish meatballs from their glory years as 1960s cocktail-party finger food. Toothpick-able-ness is critical.
+L93: This question of springiness led to my other meat decision: how to mix it. cite20†Hamburgers , for instance, are often very minimally handled, for a loose texture. Sausage meat, on the other end of the spectrum, is usually worked heavily to bind the meat proteins, creating a tighter, more resilient texture. There are many meatballs in the world that require minimal mixing—just enough to distribute salt and flavorings, but not so much that the meatballs end up with a sausage-like texture.
+L94: cite21†Image: Meat mixing in a stand mixer for Swedish meatballs. cite21†Image: Meat mixing in a stand mixer for Swedish meatballs. L95: 
+L96: Serious Eats / Vicky Wasik
+L97: 
+L98: In my research, I found one Swedish meatball recipe, from a 1965 cookbook, that advised minimal hand mixing, but most of the more current recipes I found use more aggressive mixing methods. Clearly, the Swedish meatballs of today lean more toward the springy-sausage end of the spectrum. And I'm fine with that. Like I said: toothpicks!
+L99: To get that more emulsified, springy texture, I tried mixing the meat and seasonings both in a cite22†food processor and in a stand mixer—long enough to beat the crap out of the mixture, but not so long that friction would heat it up and melt the fat, which can lead to texture problems down the line.
+L100: Between the two, the food processor whips up a more homogeneous final mixture than the stand mixer, which makes sense given that it's beating the meat with blades. But interestingly, once the meatballs were cooked, the differences were very subtle. So subtle, in fact, that I'd say you can use whichever machine you have at your disposal, with near-equal results.
+L101: ## Dee Panadee Bloopen (The Panade)
+L102: 
+L103: Contrary to what the name suggests, meatballs aren't just about the meat. Equally important are the ingredients the meat is mixed with. Chief among those other ingredients is the panade, a wet bread mixture. Call it filler if you want, but when it comes to meatballs, you want to filler 'em up: Once mixed with the meat, the wet bread adds lightness, tenderness, and moisture. Remove that panade, and you'll end up with a denser, heavier meatball.
+L104: The question I had was what kind of bread—or other starch—makes the best panade. To find out, I mixed up various batches. One I made from fresh, crust-free white bread soaked in milk; one from dried bread crumbs soaked in milk; and one made from pasta (pastina, to be specific) cooked in water until very mushy.
+L105: The pastina thing was just a hunch I had. My thought was that maybe pasta, which is designed to absorb water and swell with moisture, might do an even better job than wet bread. It didn't hurt that I could already imagine the headline: "The Best Meatballs Are Made by Putting the Pasta IN Them."
+L106: Sadly, it didn't work. Though they were thoroughly overcooked and aggressively beaten into the meat with the stand mixer, those little pasta stars didn't break down one bit. I ended up with star-studded meatballs. Maybe good for a tongue-in-cheek July 4th celebration; not good for anything else.
+L107: 
+L108: Between the other two, the fresh bread made the juiciest, most tender meatballs. Bread crumbs, on the other hand, even when fully soaked in milk, produced denser, drier meatballs.
+L109: 
+L110: Fresh it is!
+L111: ## Nomy-Nomy Nomions (Onions)
+L112: 
+L113: I was certain from the start that I'd cook my onions first, to deepen their flavor and add more sweetness to the meatballs. But then the other day, while making a test batch at home, I looked out my window and saw a hawk tearing apart a pigeon in the back garden (yes, there's wildlife even in New York City).
+L114: 
+L115: Distracted by the sight, I dumped my onions into the mixer raw. It was serendipitous: I ended up loving the crunchy bits of onion in the cooked meatballs.
+L116: I figured there was no reason this had to be an either/or situation, so I decided to get the deep, sweet flavor and the crunch by cooking half the onion and using the other half raw.
+L117: In my tests, I minced and grated the onion, and both methods work. Mincing creates bits of onion that are more discrete, while grating mushes them up a little more. But one word of warning with the grated onion: The grater breaks open a lot more of the cells in the onion, releasing more onion juice. As the onion juices mingle in the air, they can quickly undergo chemical reactions that produce an unpleasant bitter flavor, which I tasted in both the raw onion and the sautéed onion.
+L118: Once the onion was fully cooked into the meatballs, I found that the bitter flavor wasn't noticeable, but it's something to keep in mind, since it's possible that bitter flavor may sometimes come through. Just to be on the safe side, I'll be more inclined to mince from now on.
+L119: ## Kookin' Cookin' (Cooking the Meatballs)
+L120: 
+L121: cite23†Image: Swedish meatballs frying in a cast iron skillet.  cite23†Image: Swedish meatballs frying in a cast iron skillet.  L122: 
+L123: Serious Eats / Vicky Wasik
+L124: 
+L125: There are a few different ways to cook meatballs. You can roast them in the oven, brown them in a pan, or fry them (and some meatballs aren't browned at all, but poached in their sauce instead). I tried all three of those browning methods.
+L126: For Swedish meatballs, I found oven-roasting to be a poor choice. Since the meatballs tend to be on the small side, they didn't brown sufficiently in the time it took to cook them through.
+L127: The tougher decision was between searing them in a pan and frying them. Searing is appealing because it leaves browned bits on the bottom of the pan, which can then be used to make a more deeply flavored gravy. But searing has some downsides. First, it's very difficult to get even color all over a spherical meatball when pan-searing, since the point of contact with the pan is so small. Roll them around all you want—the meatballs are almost guaranteed to end up looking more branded than browned.
+L128: Second, the meatballs are very soft when raw, and they have a tendency to deform when pan-seared, flattening on the seared sides and losing their spherical shape.
+L129: Frying, meanwhile, browns the meatballs much more evenly all over, and because the meatballs float in the oil, they don't flatten against the pan as they cook.
+L130: 
+L131: cite24†Image: Top down view of a golden brown Swedish meatballs on a cooling rack. cite24†Image: Top down view of a golden brown Swedish meatballs on a cooling rack. L132: 
+L133: Serious Eats / Vicky Wasik
+L134: In the end, I decided that more perfectly round, evenly browned meatballs were preferable to ones that looked like a three-year-old made them, even if it meant losing the ability to deglaze the pan for the gravy.
+L135: ## Graybee Daybee (The Gravy)
+L136: 
+L137: Just because I didn't have a pan to deglaze didn't mean I was going to make a bland gravy. With a couple very simple tricks, this version hits all the right notes, while letting the meatballs remain the rightful stars.
+L138: 
+L139: I start by making a roux, cooking flour and butter together until the raw flour smell is gone.
+L140: 
+L141: cite25†Image: Whisking roux in a saucepan for Swedish meatball gravy. cite25†Image: Whisking roux in a saucepan for Swedish meatball gravy. L142: 
+L143: Serious Eats / Vicky Wasik
+L144: Then I whisk in cite26†chicken stock . You can use beef broth if you have it, but chicken tends to be the workhorse I keep on hand, since it's so much more versatile. Just like most gravies, this is essentially a velouté—a classic French sauce made by thickening stock with a roux (béchamel, by comparison, uses milk instead of stock).
+L145: A gravy made with just stock and roux is a little one-dimensional, so I sneak in some flavor and depth with a splash of soy sauce. It's just enough to make the sauce taste rich and meaty, but not so much that you'll feel like you ordered Swedish meatballs and ended up with Chinese takeout.
+L146: 
+L147: cite27†Image: Adding a teaspoon of soy sauce to Swedish meatball gravy. cite27†Image: Adding a teaspoon of soy sauce to Swedish meatball gravy. L148: 
+L149: Serious Eats / Vicky Wasik
+L150: As a last flavor-enhancing step, I add a small amount of cider vinegar. A little acidity will improve just about any sauce, and I liked the idea of cider vinegar here, since it plays off the spice notes in the meatballs.
+L151: 
+L152: cite28†Image: Whisking a teaspoon of cider vinegar into gravy for Swedish meatballs. cite28†Image: Whisking a teaspoon of cider vinegar into gravy for Swedish meatballs. L153: 
+L154: Serious Eats / Vicky Wasik
+L155: ## Finsky Finishy (Finishing Up)
+L156: 
+L157: cite29†Image: Adding cooked Swedish meatballs into a pot of rich gravy. cite29†Image: Adding cooked Swedish meatballs into a pot of rich gravy. L158: 
+L159: Serious Eats / Vicky Wasik
+L160: 
+L161: To finish the dish, I add the fried meatballs to the gravy and toss them to coat. I let them simmer in there for several minutes, to heat the meatballs through and ensure that any that didn't fully cook during the frying step are done before serving.
+L162: 
+L163: Then I spoon them onto plates.
+L164: cite30†Image: Pouring rich gravy over homemade Swedish meatballs. cite30†Image: Pouring rich gravy over homemade Swedish meatballs. L165: 
+L166: Serious Eats / Vicky Wasik
+L167: 
+L168: A little parsley adds color and a dose of freshness. Some buttered boiled potatoes and lingonberry jam are all that's needed to complete it.
+L169: 
+L170: cite31†Image: A plate of gravy-covered Swedish meatballs, mashed potatoes, and lingonberry jam.  cite31†Image: A plate of gravy-covered Swedish meatballs, mashed potatoes, and lingonberry jam.  L171: Serious Eats / Vicky Wasik
+L172: ### December 2014
+L173: 
+L174: Prep Time:
+L175: 
+L176: 20 mins
+L177: 
+L178: Cook Time:
+L179: 
+L180: 30 mins
+L181: 
+L182: Total Time:
+L183: 
+L184: 50 mins
+L185: 
+L186: Servings:
+L187: 
+L188: 4 to 6 servings
+L189: 
+L190: Yield:
+L191: 
+L192: Makes 40 to 50 meatballs, serving 4 to 6 as a main course or 10 to 12 as an appetizer
+L193: 
+L194: [Button: Jump to Nutrition Facts]
+L195: 
+L196: Keep Screen Awake
+L197: ## Ingredients
+L198: 
+L199:   * 3 ounces (80 g) fresh white bread, crusts removed, bread cut into 1/2-inch pieces (about 1 3/4 unpacked cups)
+L200: 
+L201:   * 1/2 cup (120 ml) milk
+L202: 
+L203:   * 5 tablespoons (75 g) unsalted butter, divided
+L204: 
+L205:   * 1 medium onion, minced or grated, divided (see notes)
+L206: 
+L207:   * 1 pound 4 ounces (560 g) ground beef chuck (about 20% fat)
+L208: 
+L209:   * 12 ounces (340 g) ground pork (about 25% fat)
+L210: 
+L211:   * 4 teaspoons (18 g) kosher salt, plus more for seasoning
+L212: 
+L213:   * 2 large eggs
+L214:   * 1/4 teaspoon ground white pepper, plus more for seasoning
+L215: 
+L216:   * 1/8 teaspoon ground allspice
+L217: 
+L218:   * Canola or vegetable oil, for frying
+L219: 
+L220:   * 3 tablespoons (45 g) flour
+L221: 
+L222:   * 2 cups (480 ml) cite32†homemade chicken stock or store-bought low-sodium chicken broth
+L223: 
+L224:   * 1 teaspoon (5 ml) soy sauce
+L225: 
+L226:   * 1/2 teaspoon apple cider vinegar
+L227: 
+L228:   * Minced flat-leaf parsley, to garnish
+L229: 
+L230:   * Buttered boiled Yukon Gold potatoes and lingonberry jam, for serving (optional)
+L231: ## Directions
+L232: 
+L233:   1. In a medium bowl, combine bread with milk, tossing to coat. Let stand until bread is completely softened and most of the milk has been absorbed, about 10 minutes.
+L234: 
+L235: cite33†Image: Pouring milk over bread cubes for making Swedish meatballs. cite33†Image: Pouring milk over bread cubes for making Swedish meatballs. L236: 
+L237: Serious Eats / Vicky Wasik
+L238:   2. Meanwhile, in a small skillet, melt 2 tablespoons (30g) butter over medium-high heat. Add half of minced onion and cook, stirring, until onion is golden and tender, about 7 minutes.
+L239: 
+L240: cite34†Image: Sauteeing minced onions for Swedish meatballs. cite34†Image: Sauteeing minced onions for Swedish meatballs. L241: 
+L242: Serious Eats / Vicky Wasik
+L243:   3. In a stand mixer fitted with the paddle attachment, or in a food processor, combine ground beef, ground pork, soaked bread and any remaining milk, cooked onion, remaining raw onion, 4 teaspoons salt, eggs, white pepper, and allspice. Starting on low speed and increasing to medium-high, beat mixture until ingredients are thoroughly combined, about 30 seconds to 1 minute.
+L244: cite35†Image: Raw ground beef, pork, salt, eggs, and minced onion in a stand mixer for Swedish meatballs. cite35†Image: Raw ground beef, pork, salt, eggs, and minced onion in a stand mixer for Swedish meatballs. L245: 
+L246: Serious Eats / Vicky Wasik
+L247: 
+L248:   4. Line a baking sheet with parchment paper. Dipping your hands in water as needed to prevent meatball mixture from sticking, roll roughly tablespoon-sized portions of meatball mixture into balls slightly smaller than golf-ball size. Transfer to lined baking sheet.
+L249: cite36†Image: Rolling a raw meat mixture between palms to form a Swedish meatballs. cite36†Image: Rolling a raw meat mixture between palms to form a Swedish meatballs. L250: 
+L251: Serious Eats / Vicky Wasik
+L252: 
+L253:   5. Set a rack over a clean baking sheet and heat oven to 200°F (90°C). Heat about 1/2 inch oil in a wide skillet to 350°F (177°C). Working in batches, lower meatballs into oil and fry, turning until well browned all over, about 2 minutes. Transfer browned meatballs to rack and keep warm in the oven.
+L254: cite37†Image: Swedish meatballs frying in oil. cite37†Image: Swedish meatballs frying in oil. L255: 
+L256: Serious Eats / Vicky Wasik
+L257: 
+L258:   6. In a medium saucepan, melt remaining 3 tablespoons (45g) butter over medium-high heat until foamy. Whisk in flour and cook, whisking, until raw flour smell is gone, about 3 minutes. Whisk in chicken stock, bring to a boil, lower heat to a simmer, and cook until thickened, about 3 minutes. Whisk in soy sauce and cider vinegar. Season with salt and white pepper.
+L259: cite38†Image: Whisking gravy for Swedish meatballs. cite38†Image: Whisking gravy for Swedish meatballs. L260: 
+L261: Serious Eats / Vicky Wasik
+L262: 
+L263:   7. Add meatballs to gravy and stir to coat. Simmer until meatballs are heated through. Serve right away with buttered potatoes and lingonberry jam, or speared with toothpicks as an hors d'oeuvre.
+L264: 
+L265: cite39†Image: Golden brown Swedish meatballs being mixed into gravy. cite39†Image: Golden brown Swedish meatballs being mixed into gravy. L266: 
+L267: Serious Eats / Vicky Wasik
+L268: cite40†Image: Plate of gravy-coated Swedish meatballs garnished with chopped parsley, boiled potatoes, and lingonberry jam cite40†Image: Plate of gravy-coated Swedish meatballs garnished with chopped parsley, boiled potatoes, and lingonberry jam L269: 
+L270: Serious Eats / Vicky Wasik
+L271: ## Special Equipment
+L272: 
+L273: cite41†Stand mixer or cite22†food processor , wide skillet, cite42†rimmed baking sheet , cite43†wire rack , cite44†probe or cite45†instant-read thermometer L274: 
+L275: ## Notes
+L276: 
+L277: Mincing the onion will produce fine pieces for a more textured result, while grating will produce softer bits of onion that blend into the mix. Grating, however, can create bitter flavor in the onion. Once fully cooked, those bitter flavors tend to dissipate, but it is a risk worth considering.
+L278: 
+L279: Save
+L280: 
+L281: Rate
+L282: 
+L283: Print [Input]
+L284: ## Nutrition Facts (per serving)
+L285: 
+L286: 1552  | Calories
+L287: 108g  | Fat
+L288: 16g  | Carbs
+L289: 122g  | Protein
+L290: 
+L291: Show Full Nutrition Label Hide Full Nutrition Label
+L292: 
+L293: Nutrition Facts
+L294: ---
+L295: Servings Per Recipe 4 to 6
+L296: ---
+L297: Calories 1552
+L298: ---
+L299: % Daily Value *
+L300: Total Carbohydrate 16g  | 6%
+L301: Dietary Fiber 1g  | 3%
+L302: Total Sugars 3g
+L303: Protein 122g  | 244%
+L304: Total Fat 108g  | 138%
+L305: Saturated Fat 39g  | 195%
+L306: Cholesterol 476mg  | 159%
+L307: Vitamin C 2mg  | 3%
+L308: Sodium 1718mg  | 75%
+L309: Calcium 184mg  | 14%
+L310: Iron 13mg  | 70%
+L311: Potassium 1808mg  | 38%
+L312: * Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs.
+L313: 
+L314: Loading shell for RecipesUgcThreaded1 Vue component in Globe.
+L315: ## Related Articles
+L316: cite46†The Best Italian-American Meatballs 1 hr 45 mins cite47†Keftedes Recipe | Grilling 30 mins cite48†Super-Simple Friday Night Meatballs Recipe 1 hr 50 mins cite49†Frankies' Meatballs Recipe | Cook the Book 1 hr 15 mins cite50†Grilled Italian-Style Meatballs With Pecorino and Parmesan 30 mins cite51†Tri-Tip Beef Roast With Shallot Jus Recipe 9 hrs 30 mins cite52†Gordon Ramsay's Last Supper, Roast Beef and Yorkshire Pudding Recipe | Cook the Book 1 hr 50 mins cite53†Barbecue Meatballs Recipe 50 mins L317: cite54†The Ultimate Beef Wellington Recipe 3 hrs 40 mins cite55†Osso Buco (Italian Braised Veal Shanks) Recipe 3 hrs 45 mins cite56†Easy Air-Fryer Meatballs with Sweet-and-Sour Pomegranate Glaze 40 mins cite57†Meatballs al Forno Recipe | Cook the Book 3 hrs 30 mins cite58†Grilled Sunday Gravy Recipe 4 hrs cite59†MOINK Balls Recipe 55 mins cite60†Bifteki Recipe 50 mins cite61†Classic, Savory Shepherd's Pie (With Beef and/or Lamb) 2 hrs 25 mins L318: 
+L319: Newsletter Sign Up
+L320: 
+L321: Newsletter Sign Up
+

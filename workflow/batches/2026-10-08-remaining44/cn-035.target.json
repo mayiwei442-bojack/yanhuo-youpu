@@ -1,0 +1,332 @@
+{
+  "canonical": {
+    "id": "cn-035",
+    "category": "chinese",
+    "index": 34,
+    "record": {
+      "name": "冬瓜排骨汤",
+      "en": "Winter Melon Pork Rib Soup",
+      "region": "粤式家常",
+      "ingredients": "猪排骨或肋排软骨段约907克（原文2磅，切约2.5—5厘米段，选带肉的）；姜5片，约0.3厘米厚，拍松；清水9杯（煲汤用），另备适量（浸泡、焯水及冲洗排骨和冬瓜用）；冬瓜约680克（原文1又1/2磅）；海盐1又1/4茶匙，另备适量按口味调整；白胡椒粉适量；香菜和/或葱共1把，切碎；生抽适量（配排骨蘸食，原文未给用量）；热米饭适量（配食，原文未给用量）",
+      "steps": "1）将切成约2.5—5厘米段的排骨放入一碗冷水中浸泡1小时，去除血水和杂质，然后沥干。时间紧时可以省略浸泡，但下一步焯水仍需进行。2）排骨放入大汤锅，加清水至没过排骨。烧开后微沸煮1分钟，关火，沥去焯水，用流动水冲洗排骨，并将汤锅洗净。这一步有助于保持汤清、味道干净。3）将焯洗好的排骨、5片拍松的姜和9杯清水重新放入汤锅，烧开后立即转中小火。4）盖上锅盖，保持轻微微沸煲90分钟。期间不时检查，确保汤只是轻轻冒泡，不要大滚，以保持清淡的味道和清澈的汤色。5）煲排骨时准备冬瓜：削去厚皮，冲洗干净。6）将冬瓜切成约0.6厘米厚、适合入口的小片。7）排骨煲足90分钟后，用汤勺撇去汤面多余浮油，加入切好的冬瓜和1又1/4茶匙海盐。8）盖上锅盖，再保持微沸煲15分钟，至冬瓜刚熟；不要煮过头，冬瓜应仍有些口感。9）加入适量白胡椒粉，并按口味补充海盐；最后加入切碎的葱和/或香菜。10）排骨应已炖得软嫩，盛出汤，配热米饭食用；另配一小碟生抽，供排骨蘸食。",
+      "img": "45-donggua-paigu-tang.png",
+      "source": "https://thewoksoflife.com/winter-melon-soup-pork-ribs/",
+      "media": {
+        "sourceName": "The Woks of Life",
+        "recipePageUrl": "https://thewoksoflife.com/winter-melon-soup-pork-ribs/",
+        "mediaPageUrl": "https://thewoksoflife.com/winter-melon-soup-pork-ribs/",
+        "author": "Judy",
+        "rightsNotice": "All Rights Reserved © The Woks of Life",
+        "reuseLicense": null,
+        "repositoryCopyAuthorization": "user_confirmed_2026-10-08_remaining44",
+        "hero": {
+          "path": "assets/dishes/sources/cn-035-woks/hero.jpg",
+          "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/pork-winter-melon-soup-9.jpg",
+          "sha256": "6b0c1510bef93e25a96386609c32d3b59097976ca8f1a76ee28ef006df688c1a",
+          "httpStatus": 200,
+          "contentType": "image/webp"
+        },
+        "steps": [
+          {
+            "stepOrder": 2,
+            "sourceStepOrder": 2,
+            "path": "assets/dishes/sources/cn-035-woks/step-2-1.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/pork-winter-melon-soup.jpg",
+            "sha256": "ba9c1b664f344c5e701010156d8193b0283325c1f2645e84b34d727c7790d7e5",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          },
+          {
+            "stepOrder": 3,
+            "sourceStepOrder": 3,
+            "path": "assets/dishes/sources/cn-035-woks/step-3-2.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/pork-winter-melon-soup-2.jpg",
+            "sha256": "7c1b59f8cbb0a3b53f6337831e4aad8da0d041eac3cc4864eb99e5a15f114c19",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          },
+          {
+            "stepOrder": 5,
+            "sourceStepOrder": 4,
+            "path": "assets/dishes/sources/cn-035-woks/step-4-3.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/pork-winter-melon-soup-3.jpg",
+            "sha256": "93589a62008d6e9bf54c34d2ed688e190b592ddbc26c961e94250456a58e3cc7",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          },
+          {
+            "stepOrder": 6,
+            "sourceStepOrder": 4,
+            "path": "assets/dishes/sources/cn-035-woks/step-4-4.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/pork-winter-melon-soup-4.jpg",
+            "sha256": "99df28d43e6892bdfd874d0dcf071f2f01222e012ab7730fb967c8dac1a95b48",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          },
+          {
+            "stepOrder": 7,
+            "sourceStepOrder": 5,
+            "path": "assets/dishes/sources/cn-035-woks/step-5-5.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/pork-winter-melon-soup-5.jpg",
+            "sha256": "87f39f7e9adde2ce8e5384fbddc62fd60600f6b5d45a16d2dd00ce200ad0a22a",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          },
+          {
+            "stepOrder": 8,
+            "sourceStepOrder": 5,
+            "path": "assets/dishes/sources/cn-035-woks/step-5-6.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/pork-winter-melon-soup-6.jpg",
+            "sha256": "603f12097226d961a489538dcdf822193736674ede7d7416b9d74a6f76254503",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          },
+          {
+            "stepOrder": 9,
+            "sourceStepOrder": 6,
+            "path": "assets/dishes/sources/cn-035-woks/step-6-7.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/pork-winter-melon-soup-7.jpg",
+            "sha256": "3c5efbab46d637de854d433f2145cc2c06d081c79b3ace4fe9f003eb593af9bf",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          }
+        ]
+      },
+      "timing": {
+        "totalMinutes": 205,
+        "prepMinutes": 70,
+        "cookMinutes": 135,
+        "stepDurations": [
+          null,
+          null,
+          null,
+          5400,
+          null,
+          null,
+          null,
+          900,
+          null,
+          null
+        ]
+      },
+      "servings": 8,
+      "sourceLimitations": [
+        "原文未规定杯和茶匙的容量，也未量化浸泡、焯水和冲洗用水、生抽及配食米饭；保留原单位和适量，不推算毫升。",
+        "原文总时间205分钟、准备70分钟、烹饪135分钟单独保留，不以局部微沸步骤的时间相加替代总时间。"
+      ]
+    }
+  },
+  "generated": {
+    "id": "cn-035",
+    "name": "冬瓜排骨汤",
+    "en": "Winter Melon Pork Rib Soup",
+    "cuisine": "粤式家常",
+    "category": "中餐",
+    "isHeritageFlavor": false,
+    "heritageStatus": null,
+    "ingredients": [
+      {
+        "id": "ingredient-01",
+        "name": "猪排骨或肋排软骨段",
+        "label": "猪排骨或肋排软骨段约907克（原文2磅，切约2.5—5厘米段，选带肉的）",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-02",
+        "name": "姜",
+        "label": "姜5片，约0.3厘米厚，拍松",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-03",
+        "name": "清水",
+        "label": "清水9杯（煲汤用），另备适量（浸泡、焯水及冲洗排骨和冬瓜用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-04",
+        "name": "冬瓜",
+        "label": "冬瓜约680克（原文1又1/2磅）",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-05",
+        "name": "海盐",
+        "label": "海盐1又1/4茶匙，另备适量按口味调整",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-06",
+        "name": "白胡椒粉",
+        "label": "白胡椒粉适量",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-07",
+        "name": "香菜和/或葱",
+        "label": "香菜和/或葱共1把，切碎",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-08",
+        "name": "生抽",
+        "label": "生抽适量（配排骨蘸食，原文未给用量）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-09",
+        "name": "热米饭",
+        "label": "热米饭适量（配食，原文未给用量）",
+        "isCore": true
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-01",
+        "instruction": "将切成约2.5—5厘米段的排骨放入一碗冷水中浸泡1小时，去除血水和杂质，然后沥干。时间紧时可以省略浸泡，但下一步焯水仍需进行。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-02",
+        "instruction": "排骨放入大汤锅，加清水至没过排骨。烧开后微沸煮1分钟，关火，沥去焯水，用流动水冲洗排骨，并将汤锅洗净。这一步有助于保持汤清、味道干净。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-035-woks/step-2-1.jpg",
+        "imageSource": "https://thewoksoflife.com/winter-melon-soup-pork-ribs/"
+      },
+      {
+        "id": "step-03",
+        "instruction": "将焯洗好的排骨、5片拍松的姜和9杯清水重新放入汤锅，烧开后立即转中小火。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-035-woks/step-3-2.jpg",
+        "imageSource": "https://thewoksoflife.com/winter-melon-soup-pork-ribs/"
+      },
+      {
+        "id": "step-04",
+        "instruction": "盖上锅盖，保持轻微微沸煲90分钟。期间不时检查，确保汤只是轻轻冒泡，不要大滚，以保持清淡的味道和清澈的汤色。",
+        "duration": 5400,
+        "heat": null,
+        "timerRequired": true,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-05",
+        "instruction": "煲排骨时准备冬瓜：削去厚皮，冲洗干净。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-035-woks/step-4-3.jpg",
+        "imageSource": "https://thewoksoflife.com/winter-melon-soup-pork-ribs/"
+      },
+      {
+        "id": "step-06",
+        "instruction": "将冬瓜切成约0.6厘米厚、适合入口的小片。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-035-woks/step-4-4.jpg",
+        "imageSource": "https://thewoksoflife.com/winter-melon-soup-pork-ribs/"
+      },
+      {
+        "id": "step-07",
+        "instruction": "排骨煲足90分钟后，用汤勺撇去汤面多余浮油，加入切好的冬瓜和1又1/4茶匙海盐。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-035-woks/step-5-5.jpg",
+        "imageSource": "https://thewoksoflife.com/winter-melon-soup-pork-ribs/"
+      },
+      {
+        "id": "step-08",
+        "instruction": "盖上锅盖，再保持微沸煲15分钟，至冬瓜刚熟；不要煮过头，冬瓜应仍有些口感。",
+        "duration": 900,
+        "heat": null,
+        "timerRequired": true,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-035-woks/step-5-6.jpg",
+        "imageSource": "https://thewoksoflife.com/winter-melon-soup-pork-ribs/"
+      },
+      {
+        "id": "step-09",
+        "instruction": "加入适量白胡椒粉，并按口味补充海盐；最后加入切碎的葱和/或香菜。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-035-woks/step-6-7.jpg",
+        "imageSource": "https://thewoksoflife.com/winter-melon-soup-pork-ribs/"
+      },
+      {
+        "id": "step-10",
+        "instruction": "排骨应已炖得软嫩，盛出汤，配热米饭食用；另配一小碟生抽，供排骨蘸食。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": ""
+      }
+    ],
+    "sourceLimitations": [
+      "原文未规定杯和茶匙的容量，也未量化浸泡、焯水和冲洗用水、生抽及配食米饭；保留原单位和适量，不推算毫升。",
+      "原文总时间205分钟、准备70分钟、烹饪135分钟单独保留，不以局部微沸步骤的时间相加替代总时间。"
+    ],
+    "imageThumb": "assets/dishes/sources/cn-035-woks/hero.jpg",
+    "imageFull": "assets/dishes/sources/cn-035-woks/hero.jpg",
+    "source": "https://thewoksoflife.com/winter-melon-soup-pork-ribs/",
+    "media": {
+      "sourceName": "The Woks of Life",
+      "recipePageUrl": "https://thewoksoflife.com/winter-melon-soup-pork-ribs/",
+      "mediaPageUrl": "https://thewoksoflife.com/winter-melon-soup-pork-ribs/",
+      "author": "Judy",
+      "rightsNotice": "All Rights Reserved © The Woks of Life",
+      "reuseLicense": null,
+      "repositoryCopyAuthorization": "user_confirmed_2026-10-08_remaining44"
+    },
+    "time": 205,
+    "timeBasis": "source",
+    "difficulty": "进阶",
+    "defaultServings": 8,
+    "servingsBasis": "source",
+    "allergens": [
+      "soy"
+    ],
+    "flags": {
+      "containsPork": true,
+      "containsBeef": false,
+      "containsAlcohol": false,
+      "spicy": false,
+      "vegetarian": false
+    },
+    "demoEnriched": true
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "ingredients": [
+    {
+      "name": "rapeseed oil",
+      "raw": "1 tbsp rapeseed oil",
+      "amount": null
+    },
+    {
+      "name": "arge onion halved and sliced",
+      "raw": "1 large onion halved and sliced",
+      "amount": null
+    },
+    {
+      "name": "arlic cloves sliced",
+      "raw": "3 garlic cloves sliced",
+      "amount": null
+    },
+    {
+      "name": "extra lean stewing beef finely diced",
+      "raw": "200g extra lean stewing beef finely diced",
+      "amount": null
+    },
+    {
+      "name": "caraway seeds",
+      "raw": "1 tsp caraway seeds",
+      "amount": null
+    },
+    {
+      "name": "smoked paprika",
+      "raw": "2 tsp smoked paprika",
+      "amount": null
+    },
+    {
+      "name": "can chopped tomatoes",
+      "raw": "400g can chopped tomatoes",
+      "amount": null
+    },
+    {
+      "name": "beef stock",
+      "raw": "600ml beef stock",
+      "amount": null
+    },
+    {
+      "name": "medium sweet potato peeled and diced",
+      "raw": "1 medium sweet potato peeled and diced",
+      "amount": null
+    },
+    {
+      "name": "reen pepper deseeded and diced",
+      "raw": "1 green pepper deseeded and diced",
+      "amount": null
+    },
+    {
+      "name": "pot natural bio yogurt",
+      "raw": "150g pot natural bio yogurt",
+      "amount": null
+    },
+    {
+      "name": "good handful parsley chopped",
+      "raw": "good handful parsley chopped",
+      "amount": null
+    }
+  ],
+  "notes": [
+    "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented."
+  ]
+}

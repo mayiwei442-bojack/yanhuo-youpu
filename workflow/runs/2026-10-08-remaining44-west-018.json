@@ -1,0 +1,71 @@
+{
+  "runId": "2026-10-08-remaining44-west-018",
+  "recipeId": "west-018",
+  "recipeName": "普罗旺斯炖菜",
+  "category": "western",
+  "status": "in_progress",
+  "startedAt": "2026-10-08T11:56:52.318Z",
+  "completedAt": null,
+  "steps": {
+    "research": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "evidencePath": "workflow/batches/2026-10-08-remaining44/west-018.base-evidence.json",
+        "evidencePackageHash": "a1d8bd21ac709c455d8113e56abe4ae8af902683dcc03ccc5342658ba644869e",
+        "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/ratatouille",
+        "sourceMode": "multi_source",
+        "publicationGate": "Final image/evidence acceptance pending"
+      }
+    },
+    "ingestion": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "selectedDocumentId": "c8b51089-81ed-46f3-bc25-dcfbf2cfe9a8",
+        "documentIds": [
+          "c8b51089-81ed-46f3-bc25-dcfbf2cfe9a8",
+          "a35278cc-04a9-4567-adbc-1c95fd3a9c67"
+        ],
+        "ragEvidence": 12
+      }
+    },
+    "edit": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "validator": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "review": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "build": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "gitPush": {
+      "status": "pending",
+      "attempts": 0
+    }
+  },
+  "sources": [
+    {
+      "name": "BBC Good Food",
+      "url": "https://www.bbcgoodfood.com/recipes/ratatouille",
+      "status": "success",
+      "failureReason": null
+    },
+    {
+      "name": "Serious Eats",
+      "url": "https://www.seriouseats.com/ratatouille-provence-vegetable-stew-recipe",
+      "status": "success",
+      "failureReason": null
+    }
+  ],
+  "errors": [],
+  "branch": "codex/recipe-automation",
+  "commit": null
+}

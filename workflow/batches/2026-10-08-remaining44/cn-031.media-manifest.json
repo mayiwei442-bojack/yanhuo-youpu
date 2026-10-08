@@ -1,0 +1,71 @@
+{
+  "recipeId": "cn-031",
+  "sourceUrl": "https://thewoksoflife.com/home-style-tofu-stir-fry/",
+  "referer": "https://thewoksoflife.com/home-style-tofu-stir-fry/",
+  "authorization": "user_confirmed_2026-09-16",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/homestyle-tofu-10.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-031-woks/hero.jpg",
+      "adjacentText": "家常豆腐成品",
+      "pageOrder": 0
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/homestyle-tofu-2.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-031-woks/step-1-1.jpg",
+      "adjacentText": "Heat a flat-bottomed cast iron pan over medium high heat until lightly smoking. Add 1 tablespoon of oil, and tilt the pan so the oil coats the bottom of the pan. Add the tofu and pan fry on both sides—3-5 minutes on each side until golden brown. Turn off the heat and set aside.",
+      "pageOrder": 1,
+      "stepOrder": 1
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/homestyle-tofu-3.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-031-woks/step-1-2.jpg",
+      "adjacentText": "Heat a flat-bottomed cast iron pan over medium high heat until lightly smoking. Add 1 tablespoon of oil, and tilt the pan so the oil coats the bottom of the pan. Add the tofu and pan fry on both sides—3-5 minutes on each side until golden brown. Turn off the heat and set aside.",
+      "pageOrder": 2,
+      "stepOrder": 1
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/homestyle-tofu-4.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-031-woks/step-1-3.jpg",
+      "adjacentText": "Heat a flat-bottomed cast iron pan over medium high heat until lightly smoking. Add 1 tablespoon of oil, and tilt the pan so the oil coats the bottom of the pan. Add the tofu and pan fry on both sides—3-5 minutes on each side until golden brown. Turn off the heat and set aside.",
+      "pageOrder": 3,
+      "stepOrder": 1
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/homestyle-tofu-5.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-031-woks/step-2-4.jpg",
+      "adjacentText": "Heat the second tablespoon of oil in a wok over medium heat. Cook the garlic, chili, and the white parts of the scallions for about a minute. Next add the ground pork (or chicken) and stir fry for a minute until meat is cooked through.",
+      "pageOrder": 4,
+      "stepOrder": 2
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/homestyle-tofu-6.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-031-woks/step-2-5.jpg",
+      "adjacentText": "Heat the second tablespoon of oil in a wok over medium heat. Cook the garlic, chili, and the white parts of the scallions for about a minute. Next add the ground pork (or chicken) and stir fry for a minute until meat is cooked through.",
+      "pageOrder": 5,
+      "stepOrder": 2
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/homestyle-tofu-7.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-031-woks/step-3-6.jpg",
+      "adjacentText": "Add the light soy sauce, oyster sauce, Shaoxing wine, sugar and water. Stir and bring to a boil. Finally, add the pan-fried tofu and the green parts of the scallions. Turn up the heat, and quickly stir-fry everything together. Add salt to taste and serve.",
+      "pageOrder": 6,
+      "stepOrder": 3
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/homestyle-tofu-8.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-031-woks/step-3-7.jpg",
+      "adjacentText": "Add the light soy sauce, oyster sauce, Shaoxing wine, sugar and water. Stir and bring to a boil. Finally, add the pan-fried tofu and the green parts of the scallions. Turn up the heat, and quickly stir-fry everything together. Add salt to taste and serve.",
+      "pageOrder": 7,
+      "stepOrder": 3
+    }
+  ]
+}

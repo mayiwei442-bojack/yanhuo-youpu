@@ -1,0 +1,65 @@
+{
+  "recipeId": "west-013",
+  "bookCandidates": [],
+  "bookInventoryCount": 84,
+  "excludedHistory": [],
+  "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/fettucine-alfredo",
+  "sourceMode": "multi_source",
+  "candidates": [
+    {
+      "sourceName": "BBC Good Food",
+      "url": "https://www.bbcgoodfood.com/recipes/fettucine-alfredo",
+      "documentId": "285a92a5-e04a-4e85-8db7-0151b4f6eeaa",
+      "qualifies": true,
+      "ingredientCoverage": "complete",
+      "stepCoverage": "complete",
+      "internalCoherence": "coherent",
+      "heroImages": 1,
+      "mappedStepImages": 0,
+      "stepImageCoverage": 0,
+      "ingredientCount": 10,
+      "executableStepCount": 4,
+      "notes": [
+        "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented."
+      ]
+    },
+    {
+      "sourceName": "Serious Eats",
+      "url": "https://www.seriouseats.com/fettuccine-alfredo-sauce-italian-pasta-recipe",
+      "documentId": "104da4b6-7b98-4f42-ba24-ff89a0723102",
+      "qualifies": true,
+      "ingredientCoverage": "complete",
+      "stepCoverage": "complete",
+      "internalCoherence": "coherent",
+      "heroImages": 0,
+      "mappedStepImages": 0,
+      "stepImageCoverage": 0,
+      "ingredientCount": 5,
+      "executableStepCount": 2,
+      "notes": [
+        "Page images and step adjacencies visible in web.open; original binary URLs not returned by failed web.click. No verified downloadable media available, no invented image mappings.",
+        "Source quantities with mixed units retained verbatim; no vessel capacity inferred."
+      ]
+    },
+    {
+      "sourceName": "Serious Eats",
+      "url": "https://www.seriouseats.com/lighter-fettuccine-alfredo-recipe",
+      "documentId": "4ad2d3fc-c330-40c9-9330-a92f82714cca",
+      "qualifies": true,
+      "ingredientCoverage": "complete",
+      "stepCoverage": "complete",
+      "internalCoherence": "coherent",
+      "heroImages": 0,
+      "mappedStepImages": 0,
+      "stepImageCoverage": 0,
+      "ingredientCount": 12,
+      "executableStepCount": 3,
+      "notes": [
+        "Page images and step adjacencies visible in web.open; original binary URLs not returned by failed web.click. No verified downloadable media available, no invented image mappings.",
+        "Source quantities with mixed units retained verbatim; no vessel capacity inferred."
+      ]
+    }
+  ],
+  "selectionReason": "Selected exactly one whole BBC recipe: full coherent ingredients/method match the target; verified usable hero (no source step photos available). Other sources have no verified usable media URLs under ordinary access. Under the required completeness/coherence then usable-image/coverage ranking, this source leads; its ingredients, operations, tips and media are kept together without supplementation.",
+  "ingestionVerified": true
+}

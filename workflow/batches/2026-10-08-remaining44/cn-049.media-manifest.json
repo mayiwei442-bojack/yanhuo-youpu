@@ -1,0 +1,15 @@
+{
+  "recipeId": "cn-049",
+  "sourceUrl": "https://thewoksoflife.com/chinese-hamburgers-rou-jia-mo/",
+  "referer": "https://thewoksoflife.com/chinese-hamburgers-rou-jia-mo/",
+  "authorization": "user_confirmed_2026-09-16",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/02/rou-jia-mo-6.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-049-woks/hero.jpg",
+      "adjacentText": "肉夹馍成品",
+      "pageOrder": 0
+    }
+  ]
+}

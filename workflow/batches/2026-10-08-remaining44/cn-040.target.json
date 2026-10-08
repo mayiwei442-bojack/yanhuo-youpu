@@ -1,0 +1,542 @@
+{
+  "canonical": {
+    "id": "cn-040",
+    "category": "chinese",
+    "index": 39,
+    "record": {
+      "name": "担担面",
+      "en": "Dan Dan Noodles",
+      "region": "川菜",
+      "ingredients": "花椒粒2汤匙（辣椒油用）；桂皮1段，约2.5厘米长（辣椒油用）；八角2个（辣椒油用）；食用油1杯（辣椒油用）；红辣椒碎1/4杯（辣椒油用，也可将整根干红辣椒去籽后打碎取用）；食用油3茶匙（炒肉末及芽菜用，分1茶匙与2茶匙使用）；猪肉末约227克（原文8盎司）；甜面酱2茶匙（或海鲜酱）；绍兴酒2茶匙；老抽1茶匙；五香粉1/2茶匙（肉末用）；碎米芽菜1/3杯；芝麻酱2汤匙（原文sesame paste/tahini，碗汁用）；酱油3汤匙（碗汁用）；白糖2茶匙（碗汁用）；五香粉1/4茶匙（碗汁用）；花椒粉1/2茶匙（碗汁用，可按口味另加少许）；自制辣椒油1/2杯（取自本配方制成的辣椒油，碗汁用）；大蒜2瓣，切极细末（碗汁用）；热煮面水1/4杯（碗汁用），另备少许按需调稀；中等粗细白面条约454克（原文1磅，鲜面或干面均可）；绿叶菜1小把（菠菜、小白菜或菜心）；花生碎适量（可选，原文未给用量）；葱花适量（可选，原文未给用量）；清水适量（煮面与焯青菜用，原文未给用量）",
+      "steps": "1）先做辣椒油：小锅中加入2汤匙花椒粒、1段约2.5厘米长的桂皮、2个八角和1杯食用油，以中小火缓慢加热至约163℃（原文325℉），然后关火。2）关火后等待6—7分钟，用漏勺捞出花椒、桂皮和八角。3）加入1/4杯红辣椒碎，让辣椒碎在热油中浸出香味，应闻到近似爆米花的香气。喜欢较温和辣味时，原文可将整根干红辣椒去籽后，用料理机打成碎片，按同样用量做辣椒油。4）让辣椒油冷却。本配方会做出多于拌面所需的辣椒油，取其中1/2杯用于碗汁，剩余部分可装玻璃罐冷藏，留作其他菜使用。5）做肉末：炒锅置中火，加热1茶匙食用油，加入约227克猪肉末，炒至上色。6）加入2茶匙甜面酱或海鲜酱、2茶匙绍兴酒、1茶匙老抽和1/2茶匙五香粉，炒至锅中液体全部蒸发，盛出备用。7）炒锅中加入剩余2茶匙食用油，以中火加热，加入1/3杯碎米芽菜，炒几分钟后盛出备用。8）做碗汁：将2汤匙芝麻酱、3汤匙酱油、2茶匙白糖、1/4茶匙五香粉、1/2茶匙花椒粉、1/2杯自制辣椒油和2瓣切极细末的大蒜混合；热煮面水待下一阶段取得后再加。花椒粉可用整粒花椒在研钵中磨成。9）按面条包装说明，用清水将约454克白面条煮熟并沥干；留好热煮面水，供调碗汁和焯青菜使用。鲜面条或干面条都可使用。10）用煮面水将绿叶菜焯熟，捞出沥干。11）向第八步的碗汁加入1/4杯热煮面水，混合均匀。尝味后按喜好调整，可再加少许热水调稀，或再加少许花椒粉。12）将碗汁分到6个碗中；若想每份更大，原文也可分成4碗。13）各碗加入煮熟沥干的面条。14）在面条上放入焯好沥干的绿叶菜。15）上面铺炒好的猪肉末和碎米芽菜。16）按喜好撒适量花生碎和葱花。17）将面条、碗汁、青菜和肉末芽菜拌匀后食用。",
+      "img": "50-dandan-mian.png",
+      "source": "https://thewoksoflife.com/dan-dan-noodles/",
+      "media": {
+        "sourceName": "The Woks of Life",
+        "recipePageUrl": "https://thewoksoflife.com/dan-dan-noodles/",
+        "mediaPageUrl": "https://thewoksoflife.com/dan-dan-noodles/",
+        "author": "Judy",
+        "rightsNotice": "All Rights Reserved © The Woks of Life",
+        "reuseLicense": null,
+        "repositoryCopyAuthorization": "user_confirmed_2026-10-08_remaining44",
+        "hero": {
+          "path": "assets/dishes/sources/cn-040-woks/hero.jpg",
+          "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-12.jpg",
+          "sha256": "89bb97be22ff4a39645c25e2a6b96edd1f12e4cac71095a7bdc859667b2bcbce",
+          "httpStatus": 200,
+          "contentType": "image/webp"
+        },
+        "steps": [
+          {
+            "stepOrder": 1,
+            "sourceStepOrder": 1,
+            "path": "assets/dishes/sources/cn-040-woks/step-2-3.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-5.jpg",
+            "sha256": "43283d928fc98adc04d4e6fc381495ea41bf06ac83d852a4d07a9dd568a7d989",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          },
+          {
+            "stepOrder": 3,
+            "sourceStepOrder": 1,
+            "path": "assets/dishes/sources/cn-040-woks/step-1-1.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2020/07/chili-oil-recipe-17.jpg",
+            "sha256": "cc5a1cae7ff0258df5add806c80b2ca4bf72512ac13b675674bbfe704742a50d",
+            "httpStatus": 200,
+            "contentType": "image/jpeg"
+          },
+          {
+            "stepOrder": 5,
+            "sourceStepOrder": 2,
+            "path": "assets/dishes/sources/cn-040-woks/step-3-5.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-3.jpg",
+            "sha256": "a16cd55c34c45b0170c208cdbf0e6783d8a1787a74248f775487d0dd9e9a8f30",
+            "httpStatus": 200,
+            "contentType": "image/jpeg"
+          },
+          {
+            "stepOrder": 7,
+            "sourceStepOrder": 2,
+            "path": "assets/dishes/sources/cn-040-woks/step-3-6.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-1.jpg",
+            "sha256": "b547579c5de7855b80ddfa79c68415d33e0e17141ae755aa41aa18170fbce3d1",
+            "httpStatus": 200,
+            "contentType": "image/jpeg"
+          },
+          {
+            "stepOrder": 11,
+            "sourceStepOrder": 3,
+            "path": "assets/dishes/sources/cn-040-woks/step-4-7.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-7.jpg",
+            "sha256": "a348208c8254381eb6176c9a76a3cf99a9b76e871004580b30544db916b1f44d",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          },
+          {
+            "stepOrder": 13,
+            "sourceStepOrder": 5,
+            "path": "assets/dishes/sources/cn-040-woks/step-5-8.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-8.jpg",
+            "sha256": "e581fb8401e196c220779dac71e2e8626fece5f2740afda673274356d9d45fc2",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          },
+          {
+            "stepOrder": 14,
+            "sourceStepOrder": 5,
+            "path": "assets/dishes/sources/cn-040-woks/step-5-9.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-9.jpg",
+            "sha256": "3975048e96a476949faaca35d722ce63fe8ecca4ef93e7ac1c25c0acc7dc853b",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          },
+          {
+            "stepOrder": 15,
+            "sourceStepOrder": 5,
+            "path": "assets/dishes/sources/cn-040-woks/step-5-10.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-10.jpg",
+            "sha256": "e0bb6d5d81d3ebaeba5d890ed14c4af831eab9e51d6472f1feb9f888611a5b39",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          },
+          {
+            "stepOrder": 16,
+            "sourceStepOrder": 5,
+            "path": "assets/dishes/sources/cn-040-woks/step-5-12.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-11.jpg",
+            "sha256": "bba0b95611dcf7b9143fa587f0f54032ba71c0027822d8ed253072b735974224",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          },
+          {
+            "stepOrder": 17,
+            "sourceStepOrder": 6,
+            "path": "assets/dishes/sources/cn-040-woks/step-6-14.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-13.jpg",
+            "sha256": "0b03bf94c7e188ece6a36d66adfab48016545e71a9b33e0b5ec5fae1772d130e",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          }
+        ]
+      },
+      "timing": {
+        "totalMinutes": 90,
+        "cookMinutes": 90,
+        "stepDurations": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "servings": 6,
+      "sourceLimitations": [
+        "原文未规定杯、汤匙和茶匙容量，保留原单位，不换算毫升；煮面、焯菜用水和可选花生碎、葱花未量化，保留适量。",
+        "来源标为6份，也允许分为4大碗；此处份数按来源默认6份。制成辣椒油有剩余，碗汁仅取其中1/2杯，不将全部辣椒油倒入面中。",
+        "桂皮原料卡列1段，正文明确约1英寸长，换算约2.5厘米；油温原文325华氏度，换算约163摄氏度。等待6—7分钟为范围，不生成固定倒计时。"
+      ]
+    }
+  },
+  "generated": {
+    "id": "cn-040",
+    "name": "担担面",
+    "en": "Dan Dan Noodles",
+    "cuisine": "川菜",
+    "category": "中餐",
+    "isHeritageFlavor": false,
+    "heritageStatus": null,
+    "ingredients": [
+      {
+        "id": "ingredient-01",
+        "name": "花椒粒",
+        "label": "花椒粒2汤匙（辣椒油用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-02",
+        "name": "桂皮",
+        "label": "桂皮1段，约2.5厘米长（辣椒油用）",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-03",
+        "name": "八角",
+        "label": "八角2个（辣椒油用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-04",
+        "name": "食用油",
+        "label": "食用油1杯（辣椒油用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-05",
+        "name": "红辣椒碎",
+        "label": "红辣椒碎1/4杯（辣椒油用，也可将整根干红辣椒去籽后打碎取用）",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-06",
+        "name": "食用油",
+        "label": "食用油3茶匙（炒肉末及芽菜用，分1茶匙与2茶匙使用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-07",
+        "name": "猪肉末",
+        "label": "猪肉末约227克（原文8盎司）",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-08",
+        "name": "甜面酱",
+        "label": "甜面酱2茶匙（或海鲜酱）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-09",
+        "name": "绍兴酒",
+        "label": "绍兴酒2茶匙",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-10",
+        "name": "老抽",
+        "label": "老抽1茶匙",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-11",
+        "name": "五香粉",
+        "label": "五香粉1/2茶匙（肉末用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-12",
+        "name": "碎米芽菜",
+        "label": "碎米芽菜1/3杯",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-13",
+        "name": "芝麻酱",
+        "label": "芝麻酱2汤匙（原文sesame paste/tahini，碗汁用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-14",
+        "name": "酱油",
+        "label": "酱油3汤匙（碗汁用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-15",
+        "name": "白糖",
+        "label": "白糖2茶匙（碗汁用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-16",
+        "name": "五香粉",
+        "label": "五香粉1/4茶匙（碗汁用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-17",
+        "name": "花椒粉",
+        "label": "花椒粉1/2茶匙（碗汁用，可按口味另加少许）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-18",
+        "name": "自制辣椒油",
+        "label": "自制辣椒油1/2杯（取自本配方制成的辣椒油，碗汁用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-19",
+        "name": "大蒜",
+        "label": "大蒜2瓣，切极细末（碗汁用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-20",
+        "name": "热煮面水",
+        "label": "热煮面水1/4杯（碗汁用），另备少许按需调稀",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-21",
+        "name": "中等粗细白面条",
+        "label": "中等粗细白面条约454克（原文1磅，鲜面或干面均可）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-22",
+        "name": "绿叶菜",
+        "label": "绿叶菜1小把（菠菜、小白菜或菜心）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-23",
+        "name": "花生碎",
+        "label": "花生碎适量（可选，原文未给用量）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-24",
+        "name": "葱花",
+        "label": "葱花适量（可选，原文未给用量）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-25",
+        "name": "清水",
+        "label": "清水适量（煮面与焯青菜用，原文未给用量）",
+        "isCore": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-01",
+        "instruction": "先做辣椒油：小锅中加入2汤匙花椒粒、1段约2.5厘米长的桂皮、2个八角和1杯食用油，以中小火缓慢加热至约163℃（原文325℉），然后关火。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-040-woks/step-2-3.jpg",
+        "imageSource": "https://thewoksoflife.com/dan-dan-noodles/"
+      },
+      {
+        "id": "step-02",
+        "instruction": "关火后等待6—7分钟，用漏勺捞出花椒、桂皮和八角。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-03",
+        "instruction": "加入1/4杯红辣椒碎，让辣椒碎在热油中浸出香味，应闻到近似爆米花的香气。喜欢较温和辣味时，原文可将整根干红辣椒去籽后，用料理机打成碎片，按同样用量做辣椒油。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "注意热油飞溅",
+        "image": "assets/dishes/sources/cn-040-woks/step-1-1.jpg",
+        "imageSource": "https://thewoksoflife.com/dan-dan-noodles/"
+      },
+      {
+        "id": "step-04",
+        "instruction": "让辣椒油冷却。本配方会做出多于拌面所需的辣椒油，取其中1/2杯用于碗汁，剩余部分可装玻璃罐冷藏，留作其他菜使用。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-05",
+        "instruction": "做肉末：炒锅置中火，加热1茶匙食用油，加入约227克猪肉末，炒至上色。",
+        "duration": null,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-040-woks/step-3-5.jpg",
+        "imageSource": "https://thewoksoflife.com/dan-dan-noodles/"
+      },
+      {
+        "id": "step-06",
+        "instruction": "加入2茶匙甜面酱或海鲜酱、2茶匙绍兴酒、1茶匙老抽和1/2茶匙五香粉，炒至锅中液体全部蒸发，盛出备用。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-07",
+        "instruction": "炒锅中加入剩余2茶匙食用油，以中火加热，加入1/3杯碎米芽菜，炒几分钟后盛出备用。",
+        "duration": null,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-040-woks/step-3-6.jpg",
+        "imageSource": "https://thewoksoflife.com/dan-dan-noodles/"
+      },
+      {
+        "id": "step-08",
+        "instruction": "做碗汁：将2汤匙芝麻酱、3汤匙酱油、2茶匙白糖、1/4茶匙五香粉、1/2茶匙花椒粉、1/2杯自制辣椒油和2瓣切极细末的大蒜混合；热煮面水待下一阶段取得后再加。花椒粉可用整粒花椒在研钵中磨成。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-09",
+        "instruction": "按面条包装说明，用清水将约454克白面条煮熟并沥干；留好热煮面水，供调碗汁和焯青菜使用。鲜面条或干面条都可使用。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-10",
+        "instruction": "用煮面水将绿叶菜焯熟，捞出沥干。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-11",
+        "instruction": "向第八步的碗汁加入1/4杯热煮面水，混合均匀。尝味后按喜好调整，可再加少许热水调稀，或再加少许花椒粉。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-040-woks/step-4-7.jpg",
+        "imageSource": "https://thewoksoflife.com/dan-dan-noodles/"
+      },
+      {
+        "id": "step-12",
+        "instruction": "将碗汁分到6个碗中；若想每份更大，原文也可分成4碗。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-13",
+        "instruction": "各碗加入煮熟沥干的面条。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-040-woks/step-5-8.jpg",
+        "imageSource": "https://thewoksoflife.com/dan-dan-noodles/"
+      },
+      {
+        "id": "step-14",
+        "instruction": "在面条上放入焯好沥干的绿叶菜。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-040-woks/step-5-9.jpg",
+        "imageSource": "https://thewoksoflife.com/dan-dan-noodles/"
+      },
+      {
+        "id": "step-15",
+        "instruction": "上面铺炒好的猪肉末和碎米芽菜。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-040-woks/step-5-10.jpg",
+        "imageSource": "https://thewoksoflife.com/dan-dan-noodles/"
+      },
+      {
+        "id": "step-16",
+        "instruction": "按喜好撒适量花生碎和葱花。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-040-woks/step-5-12.jpg",
+        "imageSource": "https://thewoksoflife.com/dan-dan-noodles/"
+      },
+      {
+        "id": "step-17",
+        "instruction": "将面条、碗汁、青菜和肉末芽菜拌匀后食用。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "stir",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-040-woks/step-6-14.jpg",
+        "imageSource": "https://thewoksoflife.com/dan-dan-noodles/"
+      }
+    ],
+    "sourceLimitations": [
+      "原文未规定杯、汤匙和茶匙容量，保留原单位，不换算毫升；煮面、焯菜用水和可选花生碎、葱花未量化，保留适量。",
+      "来源标为6份，也允许分为4大碗；此处份数按来源默认6份。制成辣椒油有剩余，碗汁仅取其中1/2杯，不将全部辣椒油倒入面中。",
+      "桂皮原料卡列1段，正文明确约1英寸长，换算约2.5厘米；油温原文325华氏度，换算约163摄氏度。等待6—7分钟为范围，不生成固定倒计时。"
+    ],
+    "imageThumb": "assets/dishes/sources/cn-040-woks/hero.jpg",
+    "imageFull": "assets/dishes/sources/cn-040-woks/hero.jpg",
+    "source": "https://thewoksoflife.com/dan-dan-noodles/",
+    "media": {
+      "sourceName": "The Woks of Life",
+      "recipePageUrl": "https://thewoksoflife.com/dan-dan-noodles/",
+      "mediaPageUrl": "https://thewoksoflife.com/dan-dan-noodles/",
+      "author": "Judy",
+      "rightsNotice": "All Rights Reserved © The Woks of Life",
+      "reuseLicense": null,
+      "repositoryCopyAuthorization": "user_confirmed_2026-10-08_remaining44"
+    },
+    "time": 90,
+    "timeBasis": "source",
+    "difficulty": "进阶",
+    "defaultServings": 6,
+    "servingsBasis": "source",
+    "allergens": [
+      "peanut",
+      "wheat",
+      "soy",
+      "sesame"
+    ],
+    "flags": {
+      "containsPork": true,
+      "containsBeef": false,
+      "containsAlcohol": true,
+      "spicy": true,
+      "vegetarian": false
+    },
+    "demoEnriched": true
+  }
+}

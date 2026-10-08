@@ -1,0 +1,78 @@
+{
+  "runId": "2026-10-08-remaining44-cn-012",
+  "recipeId": "cn-012",
+  "recipeName": "羊肉泡馍",
+  "category": "chinese",
+  "status": "failed",
+  "startedAt": "2026-10-08T11:56:52.318Z",
+  "completedAt": "2026-10-08T12:48:15.022Z",
+  "steps": {
+    "research": {
+      "status": "failed",
+      "attempts": 1,
+      "details": {
+        "resultPath": "workflow/batches/2026-10-08-remaining44/cn-012.research-failure.json",
+        "bookSearch": {
+          "auditFile": "cn-book-inventory.json",
+          "scannedDocuments": 84,
+          "usableDocuments": 79,
+          "exactOrAcceptableAliasMatches": 0,
+          "excludedStatuses": [
+            "superseded",
+            "rejected",
+            "invalid"
+          ],
+          "assessment": "No complete same-dish recipe in current database books; no book supplementation fabricated."
+        }
+      }
+    },
+    "ingestion": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "edit": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "validator": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "review": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "build": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "gitPush": {
+      "status": "pending",
+      "attempts": 0
+    }
+  },
+  "sources": [
+    {
+      "name": "豆果美食",
+      "url": "https://m.douguo.com/caipu/羊肉泡馍",
+      "status": "failed",
+      "failureReason": "normalwebfetch inaccessible; no bypass"
+    },
+    {
+      "name": "The Woks of Life",
+      "url": null,
+      "status": "failed",
+      "failureReason": "only lamb noodle soup /roujiamo near recipes, not exact dish"
+    }
+  ],
+  "errors": [
+    {
+      "step": "research",
+      "code": "NO_QUALIFYING_COMPLETE_SOURCE",
+      "message": "在两项启用网站限定检索未得到羊肉泡馍完整配方；豆果题名目录页不可访问，不能用羊汤或水盆羊肉替代。",
+      "at": "2026-10-08T12:48:15.022Z"
+    }
+  ],
+  "branch": "codex/recipe-automation",
+  "commit": null
+}

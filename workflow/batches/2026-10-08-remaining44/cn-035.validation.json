@@ -1,0 +1,75 @@
+{
+  "ok": true,
+  "targetId": "cn-035",
+  "checks": [
+    {
+      "name": "unique_ids",
+      "passed": true
+    },
+    {
+      "name": "target_exists_once",
+      "passed": true
+    },
+    {
+      "name": "required_fields",
+      "passed": true
+    },
+    {
+      "name": "target_name",
+      "passed": true
+    },
+    {
+      "name": "target_ingredients",
+      "passed": true,
+      "count": 9
+    },
+    {
+      "name": "target_steps",
+      "passed": true,
+      "count": 10
+    },
+    {
+      "name": "stable_target_fields",
+      "passed": true,
+      "allowedChanges": []
+    },
+    {
+      "name": "target_changed",
+      "passed": false,
+      "required": false
+    },
+    {
+      "name": "target_only_diff",
+      "passed": true,
+      "changed": []
+    },
+    {
+      "name": "generated_target_exists",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "commands": [
+    {
+      "command": "D:\\node.exe tools/build_html_demo_data.mjs",
+      "passed": true,
+      "status": 0,
+      "stdout": "Generated 91 recipes.",
+      "stderr": ""
+    },
+    {
+      "command": "D:\\node.exe tools/test_html_demo.mjs",
+      "passed": true,
+      "status": 0,
+      "stdout": "{\n  \"ok\": true,\n  \"recipes\": 91,\n  \"pantryItems\": 35,\n  \"verifiedMedia\": [\n    {\n      \"id\": \"cn-001\",\n      \"steps\": 6,\n      \"stepImages\": 6\n    },\n    {\n      \"id\": \"cn-002\",\n      \"steps\": 7,\n      \"stepImages\": 6\n    },\n    {\n      \"id\": \"cn-003\",\n      \"steps\": 6,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"cn-004\",\n      \"steps\": 7,\n      \"stepImages\": 5\n    },\n    {\n      \"id\": \"cn-005\",\n      \"steps\": 11,\n      \"stepImages\": 11\n    },\n    {\n      \"id\": \"cn-006\",\n      \"steps\": 5,\n      \"stepImages\": 3\n    },\n    {\n      \"id\": \"cn-007\",\n      \"steps\": 19,\n      \"stepImages\": 19\n    },\n    {\n      \"id\": \"cn-008\",\n      \"steps\": 9,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"cn-009\",\n      \"steps\": 8,\n      \"stepImages\": 8\n    },\n    {\n      \"id\": \"cn-010\",\n      \"steps\": 13,\n      \"stepImages\": 13\n    },\n    {\n      \"id\": \"cn-011\",\n      \"steps\": 9,\n      \"stepImages\": 9\n    },\n    {\n      \"id\": \"cn-019\",\n      \"steps\": 8,\n      \"stepImages\": 5\n    },\n    {\n      \"id\": \"cn-020\",\n      \"steps\": 14,\n      \"stepImages\": 12\n    },\n    {\n      \"id\": \"cn-024\",\n      \"steps\": 16,\n      \"stepImages\": 15\n    },\n    {\n      \"id\": \"cn-027\",\n      \"steps\": 17,\n      \"stepImages\": 17\n    },\n    {\n      \"id\": \"cn-029\",\n      \"steps\": 13,\n      \"stepImages\": 12\n    },\n    {\n      \"id\": \"cn-031\",\n      \"steps\": 8,\n      \"stepImages\": 7\n    },\n    {\n      \"id\": \"cn-035\",\n      \"steps\": 10,\n      \"stepImages\": 7\n    },\n    {\n      \"id\": \"cn-036\",\n      \"steps\": 4,\n      \"stepImages\": 3\n    },\n    {\n      \"id\": \"cn-039\",\n      \"steps\": 27,\n      \"stepImages\": 21\n    },\n    {\n      \"id\": \"cn-054\",\n      \"steps\": 11,\n      \"stepImages\": 9\n    },\n    {\n      \"id\": \"west-004\",\n      \"steps\": 4,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-006\",\n      \"steps\": 4,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-011\",\n      \"steps\": 5,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-012\",\n      \"steps\": 10,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-020\",\n      \"steps\": 8,\n      \"stepImages\": 5\n    },\n    {\n      \"id\": \"west-031\",\n      \"steps\": 6,\n      \"stepImages\": 0\n    }\n  ],\n  \"testedRoutes\": [\n    \"home\",\n    \"pantry\",\n    \"recommendations\",\n    \"recipe\",\n    \"game\",\n    \"cook\",\n    \"shopping\",\n    \"recipes\",\n    \"me\"\n  ],\n  \"browserErrors\": []\n}",
+      "stderr": ""
+    },
+    {
+      "command": "D:\\node.exe tools/build_vercel_output.mjs",
+      "passed": true,
+      "status": 0,
+      "stdout": "Vercel 静态构建完成：C:\\Users\\myw\\Documents\\recipe-automation\\dist\nVercel Build Output 已生成：C:\\Users\\myw\\Documents\\recipe-automation\\.vercel\\output",
+      "stderr": ""
+    }
+  ]
+}

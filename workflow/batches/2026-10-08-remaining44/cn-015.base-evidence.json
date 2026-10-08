@@ -1,0 +1,350 @@
+{
+  "recipeId": "cn-015",
+  "recipeName": "兰州清汤牛肉面",
+  "category": "chinese",
+  "createdAt": "2026-10-08T12:08:59.200814+00:00",
+  "sources": [
+    {
+      "sourceName": "The Woks of Life",
+      "sourceType": "website",
+      "url": "https://thewoksoflife.com/lanzhou-beef-noodle-soup/",
+      "documentId": "a4076148-4892-4817-9692-070337ba2939",
+      "retrievalMethod": "Normal web browser fetch complete recipe card plus relevant operational narrative",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "beef or pork soup bones",
+          "amount": "4 lbs",
+          "raw": "4 lbs beef or pork soup bones",
+          "sourceGroup": "You’ll need:"
+        },
+        {
+          "name": "1 kg beef shank",
+          "amount": "2 1/4 lbs",
+          "raw": "2 1/4 lbs 1 kg beef shank",
+          "sourceGroup": "You’ll need:"
+        },
+        {
+          "name": "of a whole roasting chicken (or a leftover roasted chicken carcass)",
+          "amount": "½",
+          "raw": "½ of a whole roasting chicken (or a leftover roasted chicken carcass)",
+          "sourceGroup": "You’ll need:"
+        },
+        {
+          "name": "water",
+          "amount": "10 cups",
+          "raw": "10 cups water",
+          "sourceGroup": "You’ll need:"
+        },
+        {
+          "name": "about 1 liter chicken stock",
+          "amount": "4 cups",
+          "raw": "4 cups about 1 liter chicken stock",
+          "sourceGroup": "You’ll need:"
+        },
+        {
+          "name": "Spice mix (see recipe below)",
+          "amount": null,
+          "raw": "Spice mix (see recipe below)",
+          "sourceGroup": "You’ll need:"
+        },
+        {
+          "name": "Salt (to taste; I added about a tablespoon)",
+          "amount": null,
+          "raw": "Salt (to taste; I added about a tablespoon)",
+          "sourceGroup": "You’ll need:"
+        },
+        {
+          "name": "of a small Chinese radish (quartered and thinly sliced)",
+          "amount": "1/2",
+          "raw": "1/2 of a small Chinese radish (quartered and thinly sliced)",
+          "sourceGroup": "You’ll need:"
+        },
+        {
+          "name": "fresh or dried white noodles (they can really be any thickness, as long as they are wheat-based noodles rather than rice noodles, and have a nice chew when cooked)",
+          "amount": "1 pound",
+          "raw": "1 pound fresh or dried white noodles (they can really be any thickness, as long as they are wheat-based noodles rather than rice noodles, and have a nice chew when cooked)",
+          "sourceGroup": "You’ll need:"
+        },
+        {
+          "name": "Hot chili oil (to taste, see recipe below)",
+          "amount": null,
+          "raw": "Hot chili oil (to taste, see recipe below)",
+          "sourceGroup": "You’ll need:"
+        },
+        {
+          "name": "scallion (chopped)",
+          "amount": null,
+          "raw": "scallion (chopped)",
+          "sourceGroup": "You’ll need:"
+        },
+        {
+          "name": "cilantro (chopped)",
+          "amount": null,
+          "raw": "cilantro (chopped)",
+          "sourceGroup": "You’ll need:"
+        },
+        {
+          "name": "star anise",
+          "amount": "7",
+          "raw": "7 star anise",
+          "sourceGroup": "For the spice mix:"
+        },
+        {
+          "name": "12 cloves",
+          "amount": null,
+          "raw": "12 cloves",
+          "sourceGroup": "For the spice mix:"
+        },
+        {
+          "name": "cinnamon stick",
+          "amount": "1",
+          "raw": "1 cinnamon stick",
+          "sourceGroup": "For the spice mix:"
+        },
+        {
+          "name": "bay leaves",
+          "amount": "5",
+          "raw": "5 bay leaves",
+          "sourceGroup": "For the spice mix:"
+        },
+        {
+          "name": "large slices of sand ginger",
+          "amount": "6",
+          "raw": "6 large slices of sand ginger",
+          "sourceGroup": "For the spice mix:"
+        },
+        {
+          "name": "fennel seeds",
+          "amount": "1 1/2 teaspoons",
+          "raw": "1 1/2 teaspoons fennel seeds",
+          "sourceGroup": "For the spice mix:"
+        },
+        {
+          "name": "cumin seeds",
+          "amount": "1 teaspoon",
+          "raw": "1 teaspoon cumin seeds",
+          "sourceGroup": "For the spice mix:"
+        },
+        {
+          "name": "Sichuan peppercorns",
+          "amount": "2 teaspoons",
+          "raw": "2 teaspoons Sichuan peppercorns",
+          "sourceGroup": "For the spice mix:"
+        },
+        {
+          "name": "white peppercorns",
+          "amount": "1 1/2 teaspoons",
+          "raw": "1 1/2 teaspoons white peppercorns",
+          "sourceGroup": "For the spice mix:"
+        },
+        {
+          "name": "licorice root slices (optional but very much recommended)",
+          "amount": "5",
+          "raw": "5 licorice root slices (optional but very much recommended)",
+          "sourceGroup": "For the spice mix:"
+        },
+        {
+          "name": "dried orange peel",
+          "amount": "3 pieces",
+          "raw": "3 pieces dried orange peel",
+          "sourceGroup": "For the spice mix:"
+        },
+        {
+          "name": "black cardamom",
+          "amount": "1",
+          "raw": "1 black cardamom",
+          "sourceGroup": "For the spice mix:"
+        },
+        {
+          "name": "oil",
+          "amount": "3/4 cup",
+          "raw": "3/4 cup oil",
+          "sourceGroup": "For the hot chili oil:"
+        },
+        {
+          "name": "star anise",
+          "amount": "2",
+          "raw": "2 star anise",
+          "sourceGroup": "For the hot chili oil:"
+        },
+        {
+          "name": "of a small cinnamon stick",
+          "amount": "1/2",
+          "raw": "1/2 of a small cinnamon stick",
+          "sourceGroup": "For the hot chili oil:"
+        },
+        {
+          "name": "Sichuan peppercorns",
+          "amount": "½ teaspoon",
+          "raw": "½ teaspoon Sichuan peppercorns",
+          "sourceGroup": "For the hot chili oil:"
+        },
+        {
+          "name": "crushed red pepper flakes (just the regular kind you'd sprinkle on your pizza)",
+          "amount": "3 tablespoons",
+          "raw": "3 tablespoons crushed red pepper flakes (just the regular kind you'd sprinkle on your pizza)",
+          "sourceGroup": "For the hot chili oil:"
+        },
+        {
+          "name": "salt",
+          "amount": "1 teaspoon",
+          "raw": "1 teaspoon salt",
+          "sourceGroup": "For the hot chili oil:"
+        },
+        {
+          "name": "sugar",
+          "amount": "1/4 teaspoon",
+          "raw": "1/4 teaspoon sugar",
+          "sourceGroup": "For the hot chili oil:"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Rinse the soup bones and pat dry. Roast them on a baking sheet at 400 degrees for 45 minutes. Bring a large pot of water to a boil, and add the beef shank and the chicken (or chicken carcass) to the pot. Bring everything to a boil again. Once boiling, remove the shank and the chicken, discard the water, and clean the pot. This process gets rid of any impurities, and will give your broth a cleaner flavor.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "Put the beef shank and chicken back into the pot along with the roasted bones, 10 more cups of water, and 4 cups chicken stock. Make the spice mix by combining all ingredients and tying them tightly in cheese cloth with a bit of kitchen string. Add this to the pot as well and season with salt. Bring everything to a boil.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "Once boiling, turn down the heat to low and let everything simmer for about 2 hours. After 2 hours have elapsed, remove the beef shank and set aside. Add the sliced radish and continue simmering for another hour. After that, use tongs to pick out and discard the spice pouch, chicken, and soup bones. Taste the broth for salt and adjust the seasoning if needed. The soup base is ready.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "While all that is happening, you can take the time to make your chili oil. In a small pot, add the oil, star anise, cinnamon, and Sichuan peppercorns. Place the pot over very low heat and let everything toast together slowly for 15 minutes. Take care not to burn the spices. Use a slotted spoon to remove the spices, and turn off the heat. Let the oil cool for about 5 minutes, and then add the chili flakes.\nSlowly toast these in the hot oil until very fragrant (it should almost smell like popcorn), and very red. Stir in the salt and sugar.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 5,
+          "instruction": "Once the broth and chili oil are done, cook the noodles in a separate pot according to the package instructions. Divide the noodles among 6 bowls. Slice the cooled beef shank into thin slices, and fan them out over the noodles. To finish, add a big ladle of broth and radishes, a spoonful of hot chili oil, and a handful each (don’t be shy) of chopped scallion and cilantro.",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [
+        "Serves: 6 servings",
+        "Prep: 30 mins",
+        "Cook: 5 hrs",
+        "Total: 5 hrs 30 mins"
+      ],
+      "tips": [],
+      "rawExcerpt": "## Recipe\n\nImage: Lanzhou beef noodle soup\n\nPrint\n\n4.83 from 23 votes\n\n### Lanzhou Beef Noodle Soup\n\nConsisting of a flavorful broth, shaved beef, tender radishes, herbs, chili oil, and chewy noodles, Lanzhou Beef Noodle Soup (兰州拉面, lanzhou lamian) has the majority vote for favorite bowl of noodles among 1.4 billion very culinarily-conscious citizens.\n\nby: Judy\n\nServes: 6 servings\n\nPrep: 30 mins\n\nCook: 5 hrs\n\nTotal: 5 hrs 30 mins\n\n#### Ingredients\n##### You’ll need:\n* [Input]4 lbs beef or pork soup bones\n* [Input]2 1/4 lbs 1 kg beef shank\n* [Input]½ of a whole roasting chicken (or a leftover roasted chicken carcass)\n* [Input]10 cups water\n* [Input]4 cups about 1 liter chicken stock\n* [Input]Spice mix (see recipe below)\n* [Input]Salt (to taste; I added about a tablespoon)\n* [Input]1/2 of a small Chinese radish (quartered and thinly sliced)\n* [Input]1 pound fresh or dried white noodles (they can really be any thickness, as long as they are wheat-based noodles rather than rice noodles, and have a nice chew when cooked)\n* [Input]Hot chili oil (to taste, see recipe below)\n* [Input]scallion (chopped)\n* [Input]cilantro (chopped)\n##### For the spice mix:\n* [Input]7 star anise\n* [Input]12 cloves\n* [Input]1 cinnamon stick\n* [Input]5 bay leaves\n* [Input]6 large slices of sand ginger\n* [Input]1 1/2 teaspoons fennel seeds\n* [Input]1 teaspoon cumin seeds\n* [Input]2 teaspoons Sichuan peppercorns\n* [Input]1 1/2 teaspoons white peppercorns\n* [Input]5 licorice root slices (optional but very much recommended)\n* [Input]3 pieces dried orange peel\n* [Input]1 black cardamom\n##### For the hot chili oil:\n\n* [Input]3/4 cup oil\n* [Input]2 star anise\n* [Input]1/2 of a small cinnamon stick\n* [Input]½ teaspoon Sichuan peppercorns\n* [Input]3 tablespoons crushed red pepper flakes (just the regular kind you'd sprinkle on your pizza)\n* [Input]1 teaspoon salt\n* [Input]1/4 teaspoon sugar\n#### Instructions\n\n* Rinse the soup bones and pat dry. Roast them on a baking sheet at 400 degrees for 45 minutes. Bring a large pot of water to a boil, and add the beef shank and the chicken (or chicken carcass) to the pot. Bring everything to a boil again. Once boiling, remove the shank and the chicken, discard the water, and clean the pot. This process gets rid of any impurities, and will give your broth a cleaner flavor.\n* Put the beef shank and chicken back into the pot along with the roasted bones, 10 more cups of water, and 4 cups chicken stock. Make the spice mix by combining all ingredients and tying them tightly in cheese cloth with a bit of kitchen string. Add this to the pot as well and season with salt. Bring everything to a boil.\n* Once boiling, turn down the heat to low and let everything simmer for about 2 hours. After 2 hours have elapsed, remove the beef shank and set aside. Add the sliced radish and continue simmering for another hour. After that, use tongs to pick out and discard the spice pouch, chicken, and soup bones. Taste the broth for salt and adjust the seasoning if needed. The soup base is ready.\n* While all that is happening, you can take the time to make your chili oil. In a small pot, add the oil, star anise, cinnamon, and Sichuan peppercorns. Place the pot over very low heat and let everything toast together slowly for 15 minutes. Take care not to burn the spices. Use a slotted spoon to remove the spices, and turn off the heat. Let the oil cool for about 5 minutes, and then add the chili flakes.\nSlowly toast these in the hot oil until very fragrant (it should almost smell like popcorn), and very red. Stir in the salt and sugar.\n* Once the broth and chili oil are done, cook the noodles in a separate pot according to the package instructions. Divide the noodles among 6 bowls. Slice the cooled beef shank into thin slices, and fan them out over the noodles. To finish, add a big ladle of broth and radishes, a spoonful of hot chili oil, and a handful each (don’t be shy) of chopped scallion and cilantro.\n\nOperational narrative\n## Lanzhou Beef Noodle Soup: Recipe Instructions\n\nRinse the soup bones and pat dry. Roast them on a baking sheet at 400 degrees for 45 minutes. Bring a large pot of water to a boil, and add the beef shank and the chicken (or chicken carcass) to the pot.\n\nBring everything to a boil again. Once boiling, remove the shank and the chicken, discard the water, and clean the pot. This process gets rid of any impurities, and will give your broth a cleaner flavor.\nPut the beef shank and chicken back into the pot along with the roasted bones, 10 more cups of water, and 4 cups chicken stock .\n\nMake the spice mix by combining all ingredients and tying them tightly in cheese cloth with a bit of kitchen string.\n\nFor the Lanzhou beef noodle soup spice mix:\n* 7 star anise\n* 12 cloves\n* 1 cinnamon stick\n* 5 bay leaves\n* 6 large slices of sand ginger\n* 1 1/2 teaspoons fennel seeds\n* 1 teaspoon cumin seeds\n* 2 teaspoons Sichuan peppercorns\n* 1 1/2 teaspoons white peppercorns\n* 5 licorice root slices (optional but very much recommended)\n* 3 pieces dried orange peel\n* 1 black cardamom\n(Check our our Chinese Dry spices and condiments page to see more detailed descriptions and pictures of these and other  spices we use in our recipes.)\n\nAdd the spice packet to the pot as well and season with salt. Bring everything to a boil.\n\nOnce boiling, turn down the heat to low and let everything simmer for about 2 hours. After 2 hours have elapsed, remove the beef shank and set aside. Add the sliced Chinese radish and continue simmering for another hour.\nAfter that, use tongs to pick out and discard the spice pouch, chicken, and soup bones. Taste the broth for salt and adjust the seasoning if needed. The soup base is ready.\n\nWhile all that is happening, you can take the time to make your chili oil. In a small pot, add the oil, star anise , cinnamon stick , and Sichuan peppercorns.\nPlace the pot over very low heat and let everything toast together slowly for 15 minutes. Take care not to burn the spices. Use a slotted spoon to remove the spices, and turn off the heat.\n\nLet the oil cool for about 5 minutes, and then add the chili flakes . Slowly toast these in the hot oil until very fragrant (it should almost smell like popcorn), and very red. Stir in the salt and sugar.\n\nIf you’ve already made chili oil using Kaitlin’s chili oil recipe , you can skip this step.\n\n\nOnce the broth and chili oil are done, cook the fresh or dried white noodles in a separate pot according to the package instructions.\n\nDivide the noodles among 6 bowls. Slice the cooled beef shank into thin slices, and fan them out over the noodles.\n\nTo finish, add a big ladle of broth and radishes, a spoonful of hot chili oil, and a handful each (don’t be shy) of chopped scallion and cilantro .\n\n\nYou’re ready to enjoy this famous bowl of Lanzhou beef noodle soup like the best of them! Slurping is very much encouraged.\n\n\n\n\n\nWant more noodle soup recipes? Try our Shanghai Pork and Pickled Greens Noodle Soup , and find out why Sarah would eat it, even on the verge of heat stroke!\nLooking for more authentic recipes? Subscribe to our email list and be sure to follow us on Pinterest , Facebook , Instagram , and Youtube!",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 1,
+        "mappedStepImages": 1,
+        "stepImageCoverage": 0.2,
+        "ingredientCount": 31,
+        "executableStepCount": 5,
+        "notes": []
+      },
+      "media": {
+        "recipePageUrl": "https://thewoksoflife.com/lanzhou-beef-noodle-soup/",
+        "mediaPageUrl": "https://thewoksoflife.com/lanzhou-beef-noodle-soup/",
+        "sourceName": "The Woks of Life",
+        "author": "Judy",
+        "rightsNotice": "All Rights Reserved © The Woks of Life",
+        "reuseLicense": null,
+        "repositoryCopyAuthorized": true,
+        "hero": {
+          "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/10/lanzhou-beef-noodle-soup-6.jpg",
+          "repositoryPath": "assets/dishes/sources/cn-015-woks/hero.jpg",
+          "adjacentText": "兰州清汤牛肉面成品",
+          "pageOrder": 0,
+          "sha256": "cdb8f76c434d8462513850fab6f4721480a4d27ac635c7e28331bad5d98f91a2",
+          "httpStatus": 200,
+          "contentType": "image/webp",
+          "bytes": 91374
+        },
+        "steps": [
+          {
+            "stepOrder": 4,
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/10/lanzhou-beef-noodle-soup-1.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-015-woks/step-4-chili-oil.jpg",
+            "pageOrder": 4,
+            "adjacentText": "Let the oil cool for about5minutes, then add chili flakes; slowly toast in hot oil until fragrant and red; stir in salt and sugar. Image immediatelyfollows thischilioilcomponentinstruction.",
+            "sha256": "3622be81e9b699f026403829e86e3c4d1e039104bda4435a9896c009e421c7bf",
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "bytes": 68366
+          }
+        ]
+      }
+    }
+  ],
+  "sourceMode": "single_source",
+  "singleSourceReason": "已读取数据库全部84份书籍菜谱并按名称、别名和正文核对，本菜无完全匹配书籍信源。已检索配置豆果来源，其他候选如有见notes；保留可访问完整Woks整份配方。",
+  "selectedSourceUrl": "https://thewoksoflife.com/lanzhou-beef-noodle-soup/",
+  "selectionReason": "完整性和内部自洽优先；唯一名称匹配完整候选，来源成品图及对应过程图均已验证。整份采用此来源原料、操作、提示和图片，不跨来源补充。",
+  "ragEvidence": [
+    {
+      "chunkId": "3dd576e1-777a-4ced-bf39-81c55c56b700",
+      "documentId": "a4076148-4892-4817-9692-070337ba2939",
+      "sourceName": "The Woks of Life",
+      "chunkType": "summary",
+      "content": "菜名：兰州清汤牛肉面\n菜系：中餐\n简介：完整单一信源：https://thewoksoflife.com/lanzhou-beef-noodle-soup/",
+      "similarity": 0.737182378768926
+    },
+    {
+      "chunkId": "b94b7923-8b2c-408f-9f9a-0c7fefd37edc",
+      "documentId": "a4076148-4892-4817-9692-070337ba2939",
+      "sourceName": "The Woks of Life",
+      "chunkType": "tips",
+      "content": "菜名：兰州清汤牛肉面\n- 原文未提供额外提示。",
+      "similarity": 0.711378259144919
+    },
+    {
+      "chunkId": "e5912cd6-b6aa-4b8b-a66e-2df2d9db3510",
+      "documentId": "a4076148-4892-4817-9692-070337ba2939",
+      "sourceName": "The Woks of Life",
+      "chunkType": "steps",
+      "content": "菜名：兰州清汤牛肉面\n4. While all that is happening, you can take the time to make your chili oil. In a small pot, add the oil, star anise, cinnamon, and Sichuan peppercorns. Place the pot over very low heat and let everything toast together slowly for 15 minutes. Take care not to burn the spices. Use a slotted spoon to remove the spices, and turn off the heat. Let the oil cool for about 5 minutes, and then add the chili flakes. Slowly toast these in the hot oil until very fragrant (it should almost smell like popcorn), and very red. Stir in the salt and sugar.\n5. Once the broth and chili oil are done, cook the noodles in a separate pot according to the package instructions. Divide the noodles among 6 bowls. Slice the cooled beef shank into thin slices, and fan them out over the noodles. To finish, add a big ladle of broth and radishes, a spoonful of hot chili oil, and a handful each (don’t be shy) of chopped scallion and cilantro.",
+      "similarity": 0.707775038944188
+    },
+    {
+      "chunkId": "0eda4f67-88d9-4d42-b736-897015907f02",
+      "documentId": "a4076148-4892-4817-9692-070337ba2939",
+      "sourceName": "The Woks of Life",
+      "chunkType": "ingredients",
+      "content": "菜名：兰州清汤牛肉面\n- 4 lbs beef or pork soup bones\n- 2 1/4 lbs 1 kg beef shank\n- ½ of a whole roasting chicken (or a leftover roasted chicken carcass)\n- 10 cups water\n- 4 cups about 1 liter chicken stock\n- Spice mix (see recipe below)\n- Salt (to taste; I added about a tablespoon)\n- 1/2 of a small Chinese radish (quartered and thinly sliced)\n- 1 pound fresh or dried white noodles (they can really be any thickness, as long as they are wheat-based noodles rather than rice noodles, and have a nice chew when cooked)\n- Hot chili oil (to taste, see recipe below)\n- scallion (chopped)\n- cilantro (chopped)\n- 7 star anise\n- 12 cloves\n- 1 cinnamon stick\n- 5 bay leaves\n- 6 large slices of sand ginger\n- 1 1/2 teaspoons fennel seeds\n- 1 teaspoon cumin seeds\n- 2 teaspoons Sichuan peppercorns\n- 1 1/2 teaspoons white peppercorns\n- 5 licorice root slices (optional but very much recommended)\n- 3 pieces dried orange peel\n- 1 black cardamom\n- 3/4 cup oil\n- 2 star anise\n- 1/2 of a small cinnamon stick\n- ½ teaspoon Sichuan peppercorns\n- 3 tablespoons crushed red pepper flakes (just the regular kind you'd sprinkle on your pizza)\n- 1 teaspoon salt\n- 1/4 teaspoon sugar",
+      "similarity": 0.699506223201757
+    },
+    {
+      "chunkId": "6c8d9c9d-a53f-4495-8f9f-2df32f6bfff7",
+      "documentId": "a4076148-4892-4817-9692-070337ba2939",
+      "sourceName": "The Woks of Life",
+      "chunkType": "steps",
+      "content": "菜名：兰州清汤牛肉面\n1. Rinse the soup bones and pat dry. Roast them on a baking sheet at 400 degrees for 45 minutes. Bring a large pot of water to a boil, and add the beef shank and the chicken (or chicken carcass) to the pot. Bring everything to a boil again. Once boiling, remove the shank and the chicken, discard the water, and clean the pot. This process gets rid of any impurities, and will give your broth a cleaner flavor.\n2. Put the beef shank and chicken back into the pot along with the roasted bones, 10 more cups of water, and 4 cups chicken stock. Make the spice mix by combining all ingredients and tying them tightly in cheese cloth with a bit of kitchen string. Add this to the pot as well and season with salt. Bring everything to a boil.\n3. Once boiling, turn down the heat to low and let everything simmer for about 2 hours. After 2 hours have elapsed, remove the beef shank and set aside. Add the sliced radish and continue simmering for another hour. After that, use tongs to pick out and discard the spice pouch, chicken, and soup bones. Taste the broth for salt and adjust the seasoning if needed. The soup base is ready.",
+      "similarity": 0.690413713455205
+    },
+    {
+      "chunkId": "00341f96-1525-40eb-b592-8cc3cefae7d6",
+      "documentId": "a4076148-4892-4817-9692-070337ba2939",
+      "sourceName": "The Woks of Life",
+      "chunkType": "technique",
+      "content": "菜名：兰州清汤牛肉面\n- Serves: 6 servings\n- Prep: 30 mins\n- Cook: 5 hrs\n- Total: 5 hrs 30 mins",
+      "similarity": 0.621378175266656
+    }
+  ],
+  "notes": [
+    "Database book comparison audit: cn-book-inventory.json.",
+    "完整来源步骤及正文操作细节保留在rawExcerpt；Editor必须核对正文补充细节，不能只用压缩后的概述。",
+    "Unselected source images: [{\"originalUrl\": \"https://thewoksoflife.com/wp-content/uploads/2014/10/lanzhou-beef-noodle-soup-4.jpg\", \"role\": \"finished_dish\", \"reason\": \"重复成品图，未伪作过程图。\"}, {\"originalUrl\": \"https://thewoksoflife.com/wp-content/uploads/2014/10/lanzhou-beef-noodle-soup-1.jpg\", \"role\": \"finished_dish\", \"reason\": \"重复成品图，未伪作过程图。\"}, {\"originalUrl\": \"https://thewoksoflife.com/wp-content/uploads/2014/10/lanzhou-beef-noodle-soup-2.jpg\", \"role\": \"finished_dish\", \"reason\": \"重复成品图，未伪作过程图。\"}, {\"originalUrl\": \"https://thewoksoflife.com/wp-content/uploads/2014/10/lanzhou-beef-noodle-soup-3.jpg\", \"role\": \"finished_dish\", \"reason\": \"重复成品图，未伪作过程图。\"}, {\"originalUrl\": \"https://thewoksoflife.com/wp-content/uploads/2014/10/lanzhou-beef-noodle-soup-5.jpg\", \"role\": \"finished_dish\", \"reason\": \"重复成品图，未伪作过程图。\"}]",
+    "Researcher personallyviewed work/remaining44/cn-015-image-53.jpg: bowl of preparedchilioil, semantically exact intermediatecomponentresult forsourcecardstep4, not finishednoodles; adjacentbodylines88-94. Othernoodlebowlphotosnotmappedtoprocess.",
+    "Sourceoveninstruction says400degrees without explicitF/C; do notsilentlyinvent temperatureunit. Preserve limitationforeditor/reviewer decision.",
+    "源图已由既有WindowsHTTP标准传输验证并导入，参见本菜media-import.json。"
+  ]
+}

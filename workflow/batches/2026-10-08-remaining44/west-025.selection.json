@@ -1,0 +1,48 @@
+{
+  "recipeId": "west-025",
+  "bookCandidates": [],
+  "bookInventoryCount": 84,
+  "excludedHistory": [],
+  "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/classic-swedish-meatballs",
+  "sourceMode": "multi_source",
+  "candidates": [
+    {
+      "sourceName": "BBC Good Food",
+      "url": "https://www.bbcgoodfood.com/recipes/classic-swedish-meatballs",
+      "documentId": "3e95f7a2-389f-41aa-b675-7347986de84d",
+      "qualifies": true,
+      "ingredientCoverage": "complete",
+      "stepCoverage": "complete",
+      "internalCoherence": "coherent",
+      "heroImages": 1,
+      "mappedStepImages": 0,
+      "stepImageCoverage": 0,
+      "ingredientCount": 12,
+      "executableStepCount": 5,
+      "notes": [
+        "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented.",
+        "Source says heat meatballs through in gravy without explicit internal temperature or final time; preserve doneness wording and disclose omission."
+      ]
+    },
+    {
+      "sourceName": "Serious Eats",
+      "url": "https://www.seriouseats.com/the-best-swedish-meatballs-recipe",
+      "documentId": "1679c443-d4d6-43a2-bc1f-6e106542f4b1",
+      "qualifies": true,
+      "ingredientCoverage": "complete",
+      "stepCoverage": "complete",
+      "internalCoherence": "coherent",
+      "heroImages": 0,
+      "mappedStepImages": 0,
+      "stepImageCoverage": 0,
+      "ingredientCount": 18,
+      "executableStepCount": 7,
+      "notes": [
+        "Page images and step adjacencies visible in web.open; original binary URLs not returned by failed web.click. No verified downloadable media available, no invented image mappings.",
+        "Source quantities with mixed units retained verbatim; no vessel capacity inferred."
+      ]
+    }
+  ],
+  "selectionReason": "Selected exactly one whole BBC recipe: full coherent ingredients/method match the target; verified usable hero (no source step photos available). Other sources have no verified usable media URLs under ordinary access. Under the required completeness/coherence then usable-image/coverage ranking, this source leads; its ingredients, operations, tips and media are kept together without supplementation.",
+  "ingestionVerified": true
+}

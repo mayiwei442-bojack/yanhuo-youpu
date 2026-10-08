@@ -1,0 +1,92 @@
+[
+  {
+    "linkId": 32,
+    "stepOrder": "hero",
+    "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-3.jpg",
+    "fetchResult": " (https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-3.jpg)\nciteturn128view0 "
+  },
+  {
+    "linkId": 38,
+    "stepOrder": "unclassified",
+    "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-6.jpg",
+    "fetchResult": "\n (https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-6.jpg)\nciteturn128view1 "
+  },
+  {
+    "linkId": 42,
+    "stepOrder": 1,
+    "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken.jpg",
+    "fetchResult": "\n (https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken.jpg)\nciteturn128view2 "
+  },
+  {
+    "linkId": 43,
+    "stepOrder": 2,
+    "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-9.jpg",
+    "fetchResult": "\nInternal Error ()\nciteturn128view3 [wordlim: 200] Source: click({\"ref_id\":\"turn74view0\",\"id\":43}); Total lines: 1\nL0: Failed to fetch https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-9.jpg: TimeoutError\n"
+  },
+  {
+    "linkId": 45,
+    "stepOrder": 3,
+    "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-8.jpg",
+    "fetchResult": "\nInternal Error ()\nciteturn128view4 [wordlim: 200] Source: click({\"ref_id\":\"turn74view0\",\"id\":45}); Total lines: 1\nL0: Failed to fetch https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-8.jpg: TimeoutError\n"
+  },
+  {
+    "linkId": 47,
+    "stepOrder": 4,
+    "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-10.jpg",
+    "fetchResult": "\nInternal Error ()\nciteturn128view5 [wordlim: 200] Source: click({\"ref_id\":\"turn74view0\",\"id\":47}); Total lines: 1\nL0: Failed to fetch https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-10.jpg: TimeoutError\n"
+  },
+  {
+    "linkId": 48,
+    "stepOrder": 4,
+    "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-11.jpg",
+    "fetchResult": "\nInternal Error ()\nciteturn128view6 [wordlim: 200] Source: click({\"ref_id\":\"turn74view0\",\"id\":48}); Total lines: 1\nL0: Failed to fetch https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-11.jpg: TimeoutError\n"
+  },
+  {
+    "linkId": 49,
+    "stepOrder": 5,
+    "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-12.jpg",
+    "fetchResult": "\n (https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-12.jpg)\nciteturn128view7 "
+  },
+  {
+    "linkId": 50,
+    "stepOrder": 5,
+    "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-13.jpg",
+    "fetchResult": "\nInternal Error ()\nciteturn128view8 [wordlim: 200] Source: click({\"ref_id\":\"turn74view0\",\"id\":50}); Total lines: 1\nL0: Failed to fetch https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-13.jpg: TimeoutError\n"
+  },
+  {
+    "linkId": 51,
+    "stepOrder": 5,
+    "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-14.jpg",
+    "fetchResult": "\n (https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-14.jpg)\nciteturn128view9 "
+  },
+  {
+    "linkId": 52,
+    "stepOrder": 5,
+    "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-15.jpg",
+    "fetchResult": "\n (https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-15.jpg)\nciteturn128view10 "
+  },
+  {
+    "linkId": 53,
+    "stepOrder": 5,
+    "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-7.jpg",
+    "fetchResult": "\n (https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-7.jpg)\nciteturn128view11 "
+  },
+  {
+    "linkId": 54,
+    "stepOrder": 6,
+    "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-2.jpg",
+    "fetchResult": " (https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-2.jpg)\nciteturn129view0 "
+  },
+  {
+    "linkId": 55,
+    "stepOrder": 6,
+    "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-5.jpg",
+    "fetchResult": "\n (https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-5.jpg)\nciteturn129view1 "
+  },
+  {
+    "linkId": 56,
+    "stepOrder": 7,
+    "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-4.jpg",
+    "fetchResult": "\n (https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-4.jpg)\nciteturn129view2 "
+  }
+]

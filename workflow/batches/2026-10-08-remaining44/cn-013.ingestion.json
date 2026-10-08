@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "completedAt": "2026-10-08T12:37:46.887Z",
+  "documents": [
+    {
+      "documentId": "64811085-e1d5-4a9b-a1fc-ddb00b282459",
+      "url": "https://www.douguo.com/cookbook/3300061.html",
+      "deduplicated": false,
+      "embedded": true,
+      "chunkCount": 5,
+      "model": "voyage-4",
+      "dimension": 1024,
+      "semanticCount": 5,
+      "hybridCount": 5
+    }
+  ]
+}

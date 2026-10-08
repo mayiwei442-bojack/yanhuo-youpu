@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "completedAt": "2026-10-08T12:12:17.526Z",
+  "documents": [
+    {
+      "documentId": "3ef0f122-545b-407b-af57-d247126d1390",
+      "url": "https://thewoksoflife.com/home-style-tofu-stir-fry/",
+      "deduplicated": false,
+      "embedded": true,
+      "chunkCount": 5,
+      "model": "voyage-4",
+      "dimension": 1024,
+      "semanticCount": 5,
+      "hybridCount": 5
+    }
+  ]
+}

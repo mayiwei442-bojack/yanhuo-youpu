@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "completedAt": "2026-10-08T12:16:25.748Z",
+  "documents": [
+    {
+      "documentId": "6d4bc2d5-d6db-4913-b97f-a04179a32c3b",
+      "url": "https://thewoksoflife.com/steamed-shanghai-soup-dumplings-xiaolongbao/",
+      "deduplicated": false,
+      "embedded": true,
+      "chunkCount": 8,
+      "model": "voyage-4",
+      "dimension": 1024,
+      "semanticCount": 8,
+      "hybridCount": 8
+    }
+  ]
+}

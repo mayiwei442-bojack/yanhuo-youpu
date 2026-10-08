@@ -1,0 +1,191 @@
+{
+  "recipeId": "west-007",
+  "recipeName": "炸鱼薯条",
+  "category": "western",
+  "createdAt": "2026-10-08T12:10:01.878Z",
+  "sources": [
+    {
+      "sourceName": "BBC Good Food",
+      "sourceType": "website",
+      "url": "https://www.bbcgoodfood.com/recipes/golden-beer-battered-fish-chips",
+      "documentId": "b17de88d-e534-485b-a5dd-eb55f7ceaae9",
+      "retrievalMethod": "ordinary HTTPS GET; complete accessible page JSON-LD and DOM independently inspected",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "plain flour",
+          "raw": "50g plain flour",
+          "amount": null
+        },
+        {
+          "name": "cornflour",
+          "raw": "50g cornflour",
+          "amount": null
+        },
+        {
+          "name": "baking powder",
+          "raw": "1 tsp baking powder",
+          "amount": null
+        },
+        {
+          "name": "turmeric",
+          "raw": "turmeric",
+          "amount": null
+        },
+        {
+          "name": "lager beer",
+          "raw": "75ml lager beer",
+          "amount": null
+        },
+        {
+          "name": "sparkling water",
+          "raw": "75ml sparkling water",
+          "amount": null
+        },
+        {
+          "name": "about 1 litre sunflower oil for frying",
+          "raw": "about 1 litre sunflower oil for frying",
+          "amount": null
+        },
+        {
+          "name": "fillet sustainable cod, hake or haddock halved",
+          "raw": "400g fillet sustainable cod, hake or haddock halved",
+          "amount": null
+        },
+        {
+          "name": "potatoes Maris Piper or Desiree, peeled and sliced into thick chips",
+          "raw": "750g potatoes Maris Piper or Desiree, peeled and sliced into thick chips",
+          "amount": null
+        },
+        {
+          "name": "plain flour",
+          "raw": "2 tbsp plain flour",
+          "amount": null
+        },
+        {
+          "name": "sunflower oil",
+          "raw": "2 tbsp sunflower oil",
+          "amount": null
+        },
+        {
+          "name": "water",
+          "raw": "water for boiling potatoes (amount unspecified)",
+          "amount": null
+        },
+        {
+          "name": "salt",
+          "raw": "salt for chips and fried fish (amount unspecified)",
+          "amount": null
+        },
+        {
+          "name": "tomato sauce",
+          "raw": "Homemade tomato sauce to serve (amount unspecified; source permits prepared component)",
+          "amount": null
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Combine the flour, cornflour, baking powder and turmeric in a large bowl, season, then spoon 1 tbsp onto a plate and set aside. Gradually pour the beer and water into the bowl, stirring with a wooden spoon until you have a smooth, lump-free batter. Leave to rest for 30 mins while you prepare the chips.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "Heat oven to 200C/fan 180C/gas 6. Boil a large pan of water, then add the chipped potatoes and boil for 2-3 mins until the outsides are just tender but not soft. drain well, then tip onto a large baking tray with the flour, oil and some salt. Gently toss together until all the potatoes are evenly coated and the flour is no longer dusty. Roast for 30 mins, turning occasionally, until the chips are golden and crisp.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "To cook the fish, heat the 1 litre oil in a deep saucepan until a drop of batter sizzles and crisps up straight away. Pat the fish dry with kitchen paper, then toss it in the reserved turmeric flour mix. Shake off any excess, then dip into the batter. Carefully lower each fillet into the hot oil and fry for 6-8 mins – depending on the thickness of the fish – until golden and crisp. Using a large slotted spoon, lift out the fish, drain on kitchen paper, then sprinkle with salt. Serve with the hot chips and Homemade tomato sauce (see 'goes well with').",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [],
+      "tips": [],
+      "rawExcerpt": "{\n  \"@context\": \"https://schema.org\",\n  \"@id\": \"https://www.bbcgoodfood.com/recipes/golden-beer-battered-fish-chips#Recipe\",\n  \"@type\": \"Recipe\",\n  \"description\": \"Cooking cod, hake or haddock in a super-crispy fish batter made from sparkling water steams the fish so it's really moist\",\n  \"image\": [\n    {\n      \"@type\": \"ImageObject\",\n      \"url\": \"https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1081511_12-860e65b.jpg?resize=440,400\",\n      \"width\": 440,\n      \"height\": 400\n    }\n  ],\n  \"mainEntityOfPage\": {\n    \"@type\": \"WebPage\",\n    \"@id\": \"https://www.bbcgoodfood.com/recipes/golden-beer-battered-fish-chips\"\n  },\n  \"name\": \"Golden beer-battered fish with chips\",\n  \"url\": \"https://www.bbcgoodfood.com/recipes/golden-beer-battered-fish-chips\",\n  \"author\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sarah Cook\",\n      \"url\": \"https://www.bbcgoodfood.com/author/sarahcook\"\n    }\n  ],\n  \"dateModified\": \"2026-08-31T20:42:19+01:00\",\n  \"datePublished\": \"2012-09-21T05:13:32+01:00\",\n  \"headline\": \"Golden beer-battered fish with chips\",\n  \"keywords\": \"Batter, Battered fish, Beach, Beer, Beer batter, Chips, Classic, Fish and chips, Fish n chips, French fries, Fried fish, Good Food, Potato, Potatoes, Summer, Takeaway\",\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Good Food\",\n    \"url\": \"https://www.bbcgoodfood.com\",\n    \"logo\": {\n      \"@type\": \"ImageObject\",\n      \"height\": 325,\n      \"url\": \"https://images.immediate.co.uk/production/volatile/sites/30/2026/02/goodfood.logo-f37096c.png?resize=1312,325\",\n      \"width\": 1312\n    }\n  },\n  \"cookTime\": \"PT40M\",\n  \"nutrition\": {\n    \"@type\": \"NutritionInformation\",\n    \"calories\": \"892 calories\",\n    \"fatContent\": \"33 grams fat\",\n    \"saturatedFatContent\": \"4 grams saturated fat\",\n    \"carbohydrateContent\": \"97 grams carbohydrates\",\n    \"sugarContent\": \"3 grams sugar\",\n    \"fiberContent\": \"6 grams fiber\",\n    \"proteinContent\": \"45 grams protein\",\n    \"sodiumContent\": \"0.89 milligram of sodium\"\n  },\n  \"prepTime\": \"PT15M\",\n  \"recipeCategory\": \"Main course\",\n  \"recipeCuisine\": \"British\",\n  \"recipeIngredient\": [\n    \"50g plain flour\",\n    \"50g cornflour\",\n    \"1 tsp baking powder\",\n    \"turmeric\",\n    \"75ml lager beer\",\n    \"75ml sparkling water\",\n    \"about 1 litre sunflower oil for frying\",\n    \"400g fillet sustainable cod, hake or haddock halved\",\n    \"750g potatoes Maris Piper or Desiree, peeled and sliced into thick chips\",\n    \"2 tbsp plain flour\",\n    \"2 tbsp sunflower oil\"\n  ],\n  \"recipeInstructions\": [\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Combine the flour, cornflour, baking powder and turmeric in a large bowl, season, then spoon 1 tbsp onto a plate and set aside. Gradually pour the beer and water into the bowl, stirring with a wooden spoon until you have a smooth, lump-free batter. Leave to rest for 30 mins while you prepare the chips.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Heat oven to 200C/fan 180C/gas 6. Boil a large pan of water, then add the chipped potatoes and boil for 2-3 mins until the outsides are just tender but not soft. drain well, then tip onto a large baking tray with the flour, oil and some salt. Gently toss together until all the potatoes are evenly coated and the flour is no longer dusty. Roast for 30 mins, turning occasionally, until the chips are golden and crisp.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"To cook the fish, heat the 1 litre oil in a deep saucepan until a drop of batter sizzles and crisps up straight away. Pat the fish dry with kitchen paper, then toss it in the reserved turmeric flour mix. Shake off any excess, then dip into the batter. Carefully lower each fillet into the hot oil and fry for 6-8 mins – depending on the thickness of the fish – until golden and crisp. Using a large slotted spoon, lift out the fish, drain on kitchen paper, then sprinkle with salt. Serve with the hot chips and Homemade tomato sauce (see 'goes well with').\"\n    }\n  ],\n  \"recipeYield\": 2,\n  \"totalTime\": \"PT1H25M\"\n}",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 1,
+        "mappedStepImages": 0,
+        "stepImageCoverage": 0,
+        "ingredientCount": 14,
+        "executableStepCount": 3,
+        "notes": [
+          "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented."
+        ]
+      }
+    }
+  ],
+  "sourceMode": "single_source",
+  "singleSourceReason": "Exact-name and alias KB query first; all84actual book records checked, no matching Western recipe. Enabled BBC and Serious Eats alternatives attempted; only one independent complete coherent source remains eligible. Other inaccessible, materially different, or internally conflicting variants are retained in audit and never used to supplement it.",
+  "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/golden-beer-battered-fish-chips",
+  "selectionReason": "Selected exactly one whole BBC recipe: full coherent ingredients/method match the target; verified usable hero (no source step photos available). Other sources have no verified usable media URLs under ordinary access. Under the required completeness/coherence then usable-image/coverage ranking, this source leads; its ingredients, operations, tips and media are kept together without supplementation.",
+  "ragEvidence": [
+    {
+      "chunkId": "0c49a3f8-14e2-44a5-8286-5ca4bbbc8cf2",
+      "documentId": "b17de88d-e534-485b-a5dd-eb55f7ceaae9",
+      "sourceName": "BBC Good Food",
+      "chunkType": "summary",
+      "content": "菜名：炸鱼薯条\n别名：Golden beer-battered fish with chips\n菜系：British\n简介：Cooking cod, hake or haddock in a super-crispy fish batter made from sparkling water steams the fish so it's really moist",
+      "similarity": 0.736411772263401
+    },
+    {
+      "chunkId": "0bff64a6-1a90-4360-932a-b1eb35e84787",
+      "documentId": "b17de88d-e534-485b-a5dd-eb55f7ceaae9",
+      "sourceName": "BBC Good Food",
+      "chunkType": "tips",
+      "content": "菜名：炸鱼薯条\n- 原文未提供额外提示。",
+      "similarity": 0.715791421187437
+    },
+    {
+      "chunkId": "8fd47928-f811-4551-9809-39ea6b3ea6f3",
+      "documentId": "b17de88d-e534-485b-a5dd-eb55f7ceaae9",
+      "sourceName": "BBC Good Food",
+      "chunkType": "steps",
+      "content": "菜名：炸鱼薯条\n1. Combine the flour, cornflour, baking powder and turmeric in a large bowl, season, then spoon 1 tbsp onto a plate and set aside. Gradually pour the beer and water into the bowl, stirring with a wooden spoon until you have a smooth, lump-free batter. Leave to rest for 30 mins while you prepare the chips.\n2. Heat oven to 200C/fan 180C/gas 6. Boil a large pan of water, then add the chipped potatoes and boil for 2-3 mins until the outsides are just tender but not soft. drain well, then tip onto a large baking tray with the flour, oil and some salt. Gently toss together until all the potatoes are evenly coated and the flour is no longer dusty. Roast for 30 mins, turning occasionally, until the chips are golden and crisp.",
+      "similarity": 0.714348018169403
+    },
+    {
+      "chunkId": "d8521a8a-3eff-4396-a6e8-721bb597a542",
+      "documentId": "b17de88d-e534-485b-a5dd-eb55f7ceaae9",
+      "sourceName": "BBC Good Food",
+      "chunkType": "steps",
+      "content": "菜名：炸鱼薯条\n3. To cook the fish, heat the 1 litre oil in a deep saucepan until a drop of batter sizzles and crisps up straight away. Pat the fish dry with kitchen paper, then toss it in the reserved turmeric flour mix. Shake off any excess, then dip into the batter. Carefully lower each fillet into the hot oil and fry for 6-8 mins – depending on the thickness of the fish – until golden and crisp. Using a large slotted spoon, lift out the fish, drain on kitchen paper, then sprinkle with salt. Serve with the hot chips and Homemade tomato sauce (see 'goes well with').",
+      "similarity": 0.713972351371418
+    },
+    {
+      "chunkId": "2df4cc98-c69a-4068-9e1b-8b256caad826",
+      "documentId": "b17de88d-e534-485b-a5dd-eb55f7ceaae9",
+      "sourceName": "BBC Good Food",
+      "chunkType": "technique",
+      "content": "菜名：炸鱼薯条\n- 原文未明确说明技法。",
+      "similarity": 0.711103081703186
+    },
+    {
+      "chunkId": "dd8d31a5-1c30-4549-ae9c-990abaf132ac",
+      "documentId": "b17de88d-e534-485b-a5dd-eb55f7ceaae9",
+      "sourceName": "BBC Good Food",
+      "chunkType": "ingredients",
+      "content": "菜名：炸鱼薯条\n- 50g plain flour\n- 50g cornflour\n- 1 tsp baking powder\n- turmeric\n- 75ml lager beer\n- 75ml sparkling water\n- about 1 litre sunflower oil for frying\n- 400g fillet sustainable cod, hake or haddock halved\n- 750g potatoes Maris Piper or Desiree, peeled and sliced into thick chips\n- 2 tbsp plain flour\n- 2 tbsp sunflower oil\n- water for boiling potatoes (amount unspecified)\n- salt for chips and fried fish (amount unspecified)\n- Homemade tomato sauce to serve (amount unspecified; source permits prepared component)",
+      "similarity": 0.697383958257202
+    }
+  ],
+  "notes": [
+    "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented.",
+    "BBC source original yield: 2",
+    "BBC original totalTime: PT1H25M",
+    "BBC original cookTime: PT40M",
+    "BBC original prepTime: PT15M",
+    "Alternative attempts: [{\"url\":\"https://www.bbcgoodfood.com/recipes/golden-beer-battered-fish-chips\",\"status\":200,\"bytes\":580040}]",
+    "Current book inventory and22target audit: west-kb-audit.json. Invalid/superseded/rejected history excluded.",
+    "Serious Eats direct Python460/normalPowerShell402/normalChrome402; normalweb.open successfully retrieved the complete recipes included here. All successful complete matching sources ingested separately before selection; no access-control bypass.",
+    "Alternative enabled-site searches and complete observed source text are archived in west-alternative-search.json and west-se-*.txt.",
+    "Selected source has no verified cooking-stage photos; do not fabricate or relabel a finished-dish photo. Parent must resolve manual-run image exception before publishing."
+  ]
+}

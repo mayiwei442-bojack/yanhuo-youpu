@@ -1,0 +1,29 @@
+{
+  "recipeId": "west-002",
+  "bookCandidates": [],
+  "bookInventoryCount": 84,
+  "excludedHistory": [],
+  "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/pizza-margherita-4-easy-steps",
+  "sourceMode": "single_source",
+  "candidates": [
+    {
+      "sourceName": "BBC Good Food",
+      "url": "https://www.bbcgoodfood.com/recipes/pizza-margherita-4-easy-steps",
+      "documentId": "0b549380-3644-497d-bf63-eebb94610fbe",
+      "qualifies": true,
+      "ingredientCoverage": "complete",
+      "stepCoverage": "complete",
+      "internalCoherence": "coherent",
+      "heroImages": 1,
+      "mappedStepImages": 0,
+      "stepImageCoverage": 0,
+      "ingredientCount": 12,
+      "executableStepCount": 4,
+      "notes": [
+        "Warm water is specified in method step1 but absent from recipeIngredient; extracted explicitly from method. Extra dusting flour and drizzling oil have no fixed amount. Sauce and assembled pizza are seasoned to taste; source does not identify every seasoning separately. Vessel tsp/tbsp/handful not converted into metric volume."
+      ]
+    }
+  ],
+  "selectionReason": "Selected exactly one whole BBC recipe: full coherent ingredients/method match the target; verified usable hero (no source step photos available). Other sources have no verified usable media URLs under ordinary access. Under the required completeness/coherence then usable-image/coverage ranking, this source leads; its ingredients, operations, tips and media are kept together without supplementation.",
+  "ingestionVerified": true
+}

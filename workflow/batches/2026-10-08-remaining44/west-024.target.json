@@ -1,0 +1,324 @@
+{
+  "canonical": {
+    "id": "west-024",
+    "category": "western",
+    "index": 23,
+    "record": {
+      "name": "香煎鸡肉炸排",
+      "en": "Chicken Schnitzel",
+      "region": "奥地利/德国",
+      "ingredients": "小块鸡胸肉4块（来源未给重量）；帕尔马干酪碎3汤匙；面粉100克；大号鸡蛋1个（打散）；干面包糠75克（来源使用日式面包糠）；食用油75毫升（来源为植物油）；白卷心菜300克（切丝）；大号胡萝卜1根（去皮、擦丝）；小葱6根（斜切）；红皮苹果1个（擦丝）；原味酸奶150克；柠檬汁½个柠檬的量；英式芥末酱2茶匙；调味料少许（用于凉拌菜和面粉，来源未指定种类及具体用量）",
+      "steps": "1）先做凉拌卷心菜：将300克切丝白卷心菜、1根去皮擦丝的大号胡萝卜、6根斜切小葱、1个擦丝红皮苹果、150克原味酸奶、½个柠檬挤出的汁和2茶匙英式芥末酱放入大碗，混合均匀。加入少许调味料调味，放在一旁备用。2）在操作台上铺一层保鲜膜，放上4块小块鸡胸肉，再盖一层保鲜膜。用擀面杖将鸡胸肉敲薄至0.2—0.3厘米厚。3）把100克面粉放在一个盘子里，加入少许调味料调味。将1个打散的大号鸡蛋倒入另一个盘子。4）把鸡胸肉放入面粉中，使表面裹上面粉，再放入蛋液中裹上蛋液。5）将75克干面包糠和3汤匙帕尔马干酪碎放入浅碗，混合均匀。把裹过面粉和蛋液的鸡胸肉放入其中翻裹，使表面完全覆盖面包糠。放到盘中；如果不马上煎炸，先放入冰箱冷藏，等准备烹调时再取出。6）在大煎锅中倒入75毫升食用油，以较大的火力加热。油热后放入鸡排，每次煎炸两块。7）每面煎炸2—3分钟，直到两面完全呈金黄色，再取出放在厨房纸上沥去多余油脂。煎炸剩余鸡排时，可把已炸好的鸡排放在低温烤箱中保温。全部煎好后搭配凉拌卷心菜食用。",
+      "img": "69-chicken-schnitzel.png",
+      "source": "https://www.bbcgoodfood.com/recipes/chicken-schnitzel-coleslaw",
+      "media": {
+        "sourceName": "BBC Good Food",
+        "recipePageUrl": "https://www.bbcgoodfood.com/recipes/chicken-schnitzel-coleslaw",
+        "mediaPageUrl": "https://www.bbcgoodfood.com/recipes/chicken-schnitzel-coleslaw",
+        "author": "Good Food team",
+        "rightsNotice": "Copyright Good Food/Immediate; source attribution retained; no open reuse license stated.",
+        "reuseLicense": null,
+        "repositoryCopyAuthorization": "user_confirmed_2026-10-08_remaining44",
+        "hero": {
+          "path": "assets/dishes/sources/west-024-bbc-good-food/hero.jpg",
+          "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2014/09/Chicken-schnitzel-with-coleslaw-b53b41f.jpg?resize=768,698",
+          "sha256": "613879267ac5b5b1eaf82652c82e2de3e4bbef260dfc0c461b310e024976316c",
+          "httpStatus": 200,
+          "contentType": "image/jpeg"
+        },
+        "steps": [
+          {
+            "stepOrder": 2,
+            "sourceStepOrder": 2,
+            "path": "assets/dishes/sources/west-024-bbc-good-food/step-2.jpg",
+            "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2025/02/1-Flattened-chicken-780c12c.jpg",
+            "sha256": "39c630d16b36b11bdef9e1fc1d1647467ee9b6137be59903ddcdcea8aa706675",
+            "httpStatus": 200,
+            "contentType": "image/jpeg"
+          },
+          {
+            "stepOrder": 3,
+            "sourceStepOrder": 3,
+            "path": "assets/dishes/sources/west-024-bbc-good-food/step-3.jpg",
+            "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2025/02/2.-Flour-and-egg-b3da00a.jpg",
+            "sha256": "02782fa8e2441283ccfa24ed504a99bbbbaddc4c85091eaf033dda042702cdf6",
+            "httpStatus": 200,
+            "contentType": "image/jpeg"
+          },
+          {
+            "stepOrder": 4,
+            "sourceStepOrder": 4,
+            "path": "assets/dishes/sources/west-024-bbc-good-food/step-4.jpg",
+            "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2025/02/4.-Flouring-chicken-b47a30d.jpg",
+            "sha256": "cf9a2c5f461695b3a663f2bb495ee3f757329ed529f9ad60abc56e952a07a48d",
+            "httpStatus": 200,
+            "contentType": "image/jpeg"
+          },
+          {
+            "stepOrder": 5,
+            "sourceStepOrder": 5,
+            "path": "assets/dishes/sources/west-024-bbc-good-food/step-5.jpg",
+            "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2025/02/6.-Chicken-in-panko-05ff6b9.jpg",
+            "sha256": "4466fde67b6e351c8bde60f2078f67c77f204c840212180ddcee34f0d561aa62",
+            "httpStatus": 200,
+            "contentType": "image/jpeg"
+          },
+          {
+            "stepOrder": 6,
+            "sourceStepOrder": 6,
+            "path": "assets/dishes/sources/west-024-bbc-good-food/step-6.jpg",
+            "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2025/02/8.-Chicken-cooking-f8bfdec.jpg",
+            "sha256": "c36cd4f494a5ef731d834cf5ff53bbd1d5301c471b2d686a871c7a2f89d69270",
+            "httpStatus": 200,
+            "contentType": "image/jpeg"
+          },
+          {
+            "stepOrder": 7,
+            "sourceStepOrder": 7,
+            "path": "assets/dishes/sources/west-024-bbc-good-food/step-7.jpg",
+            "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2025/02/11.-Finished-golden-chicken-4f1c806.jpg",
+            "sha256": "1b5df2bab4dfb996e84bc2481da825e2d046b361a654ae9c6d52cbb96de04897",
+            "httpStatus": 200,
+            "contentType": "image/jpeg"
+          }
+        ]
+      },
+      "timing": {
+        "totalMinutes": 40,
+        "prepMinutes": 30,
+        "cookMinutes": 10,
+        "stepDurations": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "servings": 4,
+      "sourceLimitations": [
+        "来源仅写凉拌菜及面粉需要调味，没有说明调味料种类及具体用量，保留泛称，不补入盐或黑胡椒。",
+        "来源鸡胸肉用量为4块小鸡胸，未给重量。每面煎炸2—3分钟为范围时间，不设置固定倒计时。",
+        "来源用较大火力加热油，并以两面完全金黄为煎炸判断，未给油温或鸡肉内部温度。保温仅写低温烤箱，未给温度和时长。",
+        "来源允许裹好涂层的鸡排在不立即煎炸时冷藏等待，未指定冷藏时长。配方卡明确总时长40分钟，没有说明另行冷藏等待如何计入。"
+      ]
+    }
+  },
+  "generated": {
+    "id": "west-024",
+    "name": "香煎鸡肉炸排",
+    "en": "Chicken Schnitzel",
+    "cuisine": "奥地利/德国",
+    "category": "西餐",
+    "isHeritageFlavor": false,
+    "heritageStatus": null,
+    "ingredients": [
+      {
+        "id": "ingredient-01",
+        "name": "小块鸡胸肉",
+        "label": "小块鸡胸肉4块（来源未给重量）",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-02",
+        "name": "帕尔马干酪碎",
+        "label": "帕尔马干酪碎3汤匙",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-03",
+        "name": "面粉",
+        "label": "面粉100克",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-04",
+        "name": "大号鸡蛋",
+        "label": "大号鸡蛋1个（打散）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-05",
+        "name": "干面包糠",
+        "label": "干面包糠75克（来源使用日式面包糠）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-06",
+        "name": "食用油",
+        "label": "食用油75毫升（来源为植物油）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-07",
+        "name": "白卷心菜",
+        "label": "白卷心菜300克（切丝）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-08",
+        "name": "大号胡萝卜",
+        "label": "大号胡萝卜1根（去皮、擦丝）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-09",
+        "name": "小葱",
+        "label": "小葱6根（斜切）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-10",
+        "name": "红皮苹果",
+        "label": "红皮苹果1个（擦丝）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-11",
+        "name": "原味酸奶",
+        "label": "原味酸奶150克",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-12",
+        "name": "柠檬汁",
+        "label": "柠檬汁½个柠檬的量",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-13",
+        "name": "英式芥末酱",
+        "label": "英式芥末酱2茶匙",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-14",
+        "name": "调味料",
+        "label": "调味料少许（用于凉拌菜和面粉，来源未指定种类及具体用量）",
+        "isCore": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-01",
+        "instruction": "先做凉拌卷心菜：将300克切丝白卷心菜、1根去皮擦丝的大号胡萝卜、6根斜切小葱、1个擦丝红皮苹果、150克原味酸奶、½个柠檬挤出的汁和2茶匙英式芥末酱放入大碗，混合均匀。加入少许调味料调味，放在一旁备用。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-02",
+        "instruction": "在操作台上铺一层保鲜膜，放上4块小块鸡胸肉，再盖一层保鲜膜。用擀面杖将鸡胸肉敲薄至0.2—0.3厘米厚。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/west-024-bbc-good-food/step-2.jpg",
+        "imageSource": "https://www.bbcgoodfood.com/recipes/chicken-schnitzel-coleslaw"
+      },
+      {
+        "id": "step-03",
+        "instruction": "把100克面粉放在一个盘子里，加入少许调味料调味。将1个打散的大号鸡蛋倒入另一个盘子。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/west-024-bbc-good-food/step-3.jpg",
+        "imageSource": "https://www.bbcgoodfood.com/recipes/chicken-schnitzel-coleslaw"
+      },
+      {
+        "id": "step-04",
+        "instruction": "把鸡胸肉放入面粉中，使表面裹上面粉，再放入蛋液中裹上蛋液。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/west-024-bbc-good-food/step-4.jpg",
+        "imageSource": "https://www.bbcgoodfood.com/recipes/chicken-schnitzel-coleslaw"
+      },
+      {
+        "id": "step-05",
+        "instruction": "将75克干面包糠和3汤匙帕尔马干酪碎放入浅碗，混合均匀。把裹过面粉和蛋液的鸡胸肉放入其中翻裹，使表面完全覆盖面包糠。放到盘中；如果不马上煎炸，先放入冰箱冷藏，等准备烹调时再取出。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "注意热油飞溅",
+        "image": "assets/dishes/sources/west-024-bbc-good-food/step-5.jpg",
+        "imageSource": "https://www.bbcgoodfood.com/recipes/chicken-schnitzel-coleslaw"
+      },
+      {
+        "id": "step-06",
+        "instruction": "在大煎锅中倒入75毫升食用油，以较大的火力加热。油热后放入鸡排，每次煎炸两块。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "注意热油飞溅",
+        "image": "assets/dishes/sources/west-024-bbc-good-food/step-6.jpg",
+        "imageSource": "https://www.bbcgoodfood.com/recipes/chicken-schnitzel-coleslaw"
+      },
+      {
+        "id": "step-07",
+        "instruction": "每面煎炸2—3分钟，直到两面完全呈金黄色，再取出放在厨房纸上沥去多余油脂。煎炸剩余鸡排时，可把已炸好的鸡排放在低温烤箱中保温。全部煎好后搭配凉拌卷心菜食用。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": "注意热油飞溅",
+        "image": "assets/dishes/sources/west-024-bbc-good-food/step-7.jpg",
+        "imageSource": "https://www.bbcgoodfood.com/recipes/chicken-schnitzel-coleslaw"
+      }
+    ],
+    "sourceLimitations": [
+      "来源仅写凉拌菜及面粉需要调味，没有说明调味料种类及具体用量，保留泛称，不补入盐或黑胡椒。",
+      "来源鸡胸肉用量为4块小鸡胸，未给重量。每面煎炸2—3分钟为范围时间，不设置固定倒计时。",
+      "来源用较大火力加热油，并以两面完全金黄为煎炸判断，未给油温或鸡肉内部温度。保温仅写低温烤箱，未给温度和时长。",
+      "来源允许裹好涂层的鸡排在不立即煎炸时冷藏等待，未指定冷藏时长。配方卡明确总时长40分钟，没有说明另行冷藏等待如何计入。"
+    ],
+    "imageThumb": "assets/dishes/sources/west-024-bbc-good-food/hero.jpg",
+    "imageFull": "assets/dishes/sources/west-024-bbc-good-food/hero.jpg",
+    "source": "https://www.bbcgoodfood.com/recipes/chicken-schnitzel-coleslaw",
+    "media": {
+      "sourceName": "BBC Good Food",
+      "recipePageUrl": "https://www.bbcgoodfood.com/recipes/chicken-schnitzel-coleslaw",
+      "mediaPageUrl": "https://www.bbcgoodfood.com/recipes/chicken-schnitzel-coleslaw",
+      "author": "Good Food team",
+      "rightsNotice": "Copyright Good Food/Immediate; source attribution retained; no open reuse license stated.",
+      "reuseLicense": null,
+      "repositoryCopyAuthorization": "user_confirmed_2026-10-08_remaining44"
+    },
+    "time": 40,
+    "timeBasis": "source",
+    "difficulty": "适中",
+    "defaultServings": 4,
+    "servingsBasis": "source",
+    "allergens": [
+      "dairy",
+      "egg",
+      "wheat"
+    ],
+    "flags": {
+      "containsPork": false,
+      "containsBeef": false,
+      "containsAlcohol": false,
+      "spicy": false,
+      "vegetarian": false
+    },
+    "demoEnriched": true
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "recipeId": "cn-037",
+  "recipeName": "佛跳墙",
+  "category": "chinese",
+  "status": "failed",
+  "failedStage": "research",
+  "createdAt": "2026-10-08T12:23:23.825138+00:00",
+  "reason": "配置两项网站未获得佛跳墙完整配方；豆果目录不可读；不以菌菇汤等近名来源补齐。",
+  "bookSearch": {
+    "auditFile": "cn-book-inventory.json",
+    "scannedDocuments": 84,
+    "usableDocuments": 79,
+    "exactOrAcceptableAliasMatches": 0,
+    "excludedStatuses": [
+      "superseded",
+      "rejected",
+      "invalid"
+    ],
+    "assessment": "No complete same-dish recipe in current database books; no book supplementation fabricated."
+  },
+  "attemptedSources": [
+    {
+      "source": "豆果美食",
+      "url": "https://m.douguo.com/caipu/佛跳墙",
+      "result": "normalweb inaccessible"
+    },
+    {
+      "source": "The Woks of Life",
+      "query": "buddha jumps wall site:thewoksoflife.com",
+      "result": "only cuisineoverview andmushroomnoodlesoup; no exact complete recipe"
+    }
+  ],
+  "evidencePackage": null,
+  "ingestion": {
+    "performed": false,
+    "reason": "No qualifying complete exactdishsource; do not ingest partial snippets or unrelated variants as this entity."
+  }
+}

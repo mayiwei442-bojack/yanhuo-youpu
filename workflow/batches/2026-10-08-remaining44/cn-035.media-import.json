@@ -1,0 +1,84 @@
+{
+  "recipeId": "cn-035",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/pork-winter-melon-soup-9.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-035-woks/hero.jpg",
+      "sha256": "6b0c1510bef93e25a96386609c32d3b59097976ca8f1a76ee28ef006df688c1a",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 126540
+    },
+    {
+      "role": "step",
+      "stepOrder": 2,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/pork-winter-melon-soup.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-035-woks/step-2-1.jpg",
+      "sha256": "ba9c1b664f344c5e701010156d8193b0283325c1f2645e84b34d727c7790d7e5",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 77238
+    },
+    {
+      "role": "step",
+      "stepOrder": 3,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/pork-winter-melon-soup-2.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-035-woks/step-3-2.jpg",
+      "sha256": "7c1b59f8cbb0a3b53f6337831e4aad8da0d041eac3cc4864eb99e5a15f114c19",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 78752
+    },
+    {
+      "role": "step",
+      "stepOrder": 4,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/pork-winter-melon-soup-3.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-035-woks/step-4-3.jpg",
+      "sha256": "93589a62008d6e9bf54c34d2ed688e190b592ddbc26c961e94250456a58e3cc7",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 103260
+    },
+    {
+      "role": "step",
+      "stepOrder": 4,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/pork-winter-melon-soup-4.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-035-woks/step-4-4.jpg",
+      "sha256": "99df28d43e6892bdfd874d0dcf071f2f01222e012ab7730fb967c8dac1a95b48",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 34212
+    },
+    {
+      "role": "step",
+      "stepOrder": 5,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/pork-winter-melon-soup-5.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-035-woks/step-5-5.jpg",
+      "sha256": "87f39f7e9adde2ce8e5384fbddc62fd60600f6b5d45a16d2dd00ce200ad0a22a",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 73974
+    },
+    {
+      "role": "step",
+      "stepOrder": 5,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/pork-winter-melon-soup-6.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-035-woks/step-5-6.jpg",
+      "sha256": "603f12097226d961a489538dcdf822193736674ede7d7416b9d74a6f76254503",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 74058
+    },
+    {
+      "role": "step",
+      "stepOrder": 6,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/pork-winter-melon-soup-7.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-035-woks/step-6-7.jpg",
+      "sha256": "3c5efbab46d637de854d433f2145cc2c06d081c79b3ace4fe9f003eb593af9bf",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 70088
+    }
+  ]
+}

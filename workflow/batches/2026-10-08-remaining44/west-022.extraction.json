@@ -1,0 +1,118 @@
+{
+  "ingredients": [
+    {
+      "name": "olive oil",
+      "raw": "6 tbsp olive oil",
+      "amount": null
+    },
+    {
+      "name": "medium aubergines cut into 5mm rounds",
+      "raw": "3 medium aubergines cut into 5mm rounds",
+      "amount": null
+    },
+    {
+      "name": "lamb mince",
+      "raw": "800g lamb mince",
+      "amount": null
+    },
+    {
+      "name": "onion finely chopped",
+      "raw": "1 onion finely chopped",
+      "amount": null
+    },
+    {
+      "name": "fat garlic cloves crushed",
+      "raw": "2 fat garlic cloves crushed",
+      "amount": null
+    },
+    {
+      "name": "heaped tsp dried oregano",
+      "raw": "3 heaped tsp dried oregano",
+      "amount": null
+    },
+    {
+      "name": "ground cinnamon",
+      "raw": "2 tsp ground cinnamon",
+      "amount": null
+    },
+    {
+      "name": "bay leaves",
+      "raw": "2 bay leaves",
+      "amount": null
+    },
+    {
+      "name": "red wine",
+      "raw": "200ml red wine",
+      "amount": null
+    },
+    {
+      "name": "can chopped tomatoes",
+      "raw": "400g can chopped tomatoes",
+      "amount": null
+    },
+    {
+      "name": "tomato purée",
+      "raw": "2 tbsp tomato purée",
+      "amount": null
+    },
+    {
+      "name": "light brown soft sugar",
+      "raw": "½ tbsp light brown soft sugar",
+      "amount": null
+    },
+    {
+      "name": "Maris Piper potatoes peeled and sliced into 5mm rounds",
+      "raw": "550g Maris Piper potatoes peeled and sliced into 5mm rounds",
+      "amount": null
+    },
+    {
+      "name": "unsalted butter",
+      "raw": "40g unsalted butter",
+      "amount": null
+    },
+    {
+      "name": "plain flour",
+      "raw": "40g plain flour",
+      "amount": null
+    },
+    {
+      "name": "whole milk",
+      "raw": "450ml whole milk",
+      "amount": null
+    },
+    {
+      "name": "parmesan finely grated",
+      "raw": "40g parmesan finely grated",
+      "amount": null
+    },
+    {
+      "name": "whole nutmeg for grating",
+      "raw": "whole nutmeg for grating",
+      "amount": null
+    },
+    {
+      "name": "arge egg plus 1 yolk, lightly beaten",
+      "raw": "1 large egg plus 1 yolk, lightly beaten",
+      "amount": null
+    },
+    {
+      "name": "water",
+      "raw": "200ml water for lamb sauce (step2); salted water to boil potato (step3)",
+      "amount": null
+    },
+    {
+      "name": "salt",
+      "raw": "pinch salt for onion; lightly salted water for potato (steps2/3)",
+      "amount": null
+    },
+    {
+      "name": "seasoning",
+      "raw": "Season lamb sauce and bechamel (steps2/4; unspecified seasoning)",
+      "amount": null
+    }
+  ],
+  "notes": [
+    "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented.",
+    "Oven source gives200C/180fan/gas4, internally inconsistent gas equivalence; retain200C conventional/180C fan and disclose gas4 conflict, never silently correct."
+  ]
+}

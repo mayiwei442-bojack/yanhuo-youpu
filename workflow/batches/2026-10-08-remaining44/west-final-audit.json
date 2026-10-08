@@ -1,0 +1,1276 @@
+{
+  "createdAt": "2026-10-08T12:18:15.817Z",
+  "ok": true,
+  "recipeCount": 22,
+  "documentCount": 36,
+  "chunkCount": 218,
+  "schemaValidation": "22evidence packages independently checked against evidence-package.schema.json by Python jsonschema",
+  "rejectedVariants": [
+    {
+      "recipeId": "west-013",
+      "url": "https://www.bbcgoodfood.com/recipes/creamy-mushroom-pasta",
+      "reason": "Creamy mushroom tagliatelle materially adds mushroom and white-wine sauce to plain Alfredo target; replaced with exact fettucine-alfredo before selection."
+    },
+    {
+      "recipeId": "west-026",
+      "url": "https://www.bbcgoodfood.com/recipes/beef-goulash",
+      "reason": "Thick stewed beef, not requested soup; exact beef-goulash-soup selected."
+    },
+    {
+      "recipeId": "west-026",
+      "url": "https://www.seriouseats.com/hungarian-goulash-beef-paprika-stew-recipe",
+      "reason": "Article explicitly distinguishes rich Hungarian-American stew from Hungarian brothy soup; materially different target variant rejected."
+    },
+    {
+      "recipeId": "west-027",
+      "url": "https://www.bbcgoodfood.com/recipes/fish-tacos",
+      "reason": "Pan-fried seasoned fish without crispy batter differs from requested fried fish taco variant; whole beer-battered-fish-tacos selected."
+    },
+    {
+      "recipeId": "west-025",
+      "url": "https://www.bbcgoodfood.com/recipes/swedish-meatballs",
+      "reason": "Explicitly healthy reformulated yogurt/low-fat version, with separate spring greens. Standard classic-swedish-meatballs whole recipe used for requested unqualified classic."
+    }
+  ],
+  "packages": [
+    {
+      "recipeId": "west-002",
+      "recipeName": "玛格丽特披萨",
+      "exactKbDocumentsBeforeResearch": 0,
+      "bookDocumentsExamined": 84,
+      "matchingCurrentBookDocumentIds": [],
+      "excludedHistory": [],
+      "sources": [
+        {
+          "name": "BBC Good Food",
+          "url": "https://www.bbcgoodfood.com/recipes/pizza-margherita-4-easy-steps",
+          "documentId": "0b549380-3644-497d-bf63-eebb94610fbe",
+          "complete": true,
+          "qualifies": true,
+          "ingredientCoverage": "complete",
+          "stepCoverage": "complete",
+          "internalCoherence": "coherent",
+          "heroImages": 1,
+          "mappedStepImages": 0,
+          "stepImageCoverage": 0,
+          "ingredientCount": 12,
+          "executableStepCount": 4,
+          "notes": [
+            "Warm water is specified in method step1 but absent from recipeIngredient; extracted explicitly from method. Extra dusting flour and drizzling oil have no fixed amount. Sauce and assembled pizza are seasoned to taste; source does not identify every seasoning separately. Vessel tsp/tbsp/handful not converted into metric volume."
+          ]
+        }
+      ],
+      "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/pizza-margherita-4-easy-steps"
+    },
+    {
+      "recipeId": "west-005",
+      "recipeName": "芝士汉堡",
+      "exactKbDocumentsBeforeResearch": 0,
+      "bookDocumentsExamined": 84,
+      "matchingCurrentBookDocumentIds": [],
+      "excludedHistory": [],
+      "sources": [
+        {
+          "name": "BBC Good Food",
+          "url": "https://www.bbcgoodfood.com/recipes/cheeseburgers",
+          "documentId": "ef51a7d5-65e7-4c2c-abc1-783bdcf65a01",
+          "complete": true,
+          "qualifies": true,
+          "ingredientCoverage": "complete",
+          "stepCoverage": "complete",
+          "internalCoherence": "coherent",
+          "heroImages": 1,
+          "mappedStepImages": 0,
+          "stepImageCoverage": 0,
+          "ingredientCount": 13,
+          "executableStepCount": 3,
+          "notes": [
+            "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented."
+          ]
+        },
+        {
+          "name": "Serious Eats",
+          "url": "https://www.seriouseats.com/ultra-crispy-burgers-recipe",
+          "documentId": "2ea4e999-7e04-4390-a544-e915356f6c9c",
+          "complete": true,
+          "qualifies": true,
+          "ingredientCoverage": "complete",
+          "stepCoverage": "complete",
+          "internalCoherence": "coherent",
+          "heroImages": 0,
+          "mappedStepImages": 0,
+          "stepImageCoverage": 0,
+          "ingredientCount": 8,
+          "executableStepCount": 5,
+          "notes": [
+            "Page images and step adjacencies visible in web.open; original binary URLs not returned by failed web.click. No verified downloadable media available, no invented image mappings.",
+            "Source quantities with mixed units retained verbatim; no vessel capacity inferred."
+          ]
+        }
+      ],
+      "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/cheeseburgers"
+    },
+    {
+      "recipeId": "west-007",
+      "recipeName": "炸鱼薯条",
+      "exactKbDocumentsBeforeResearch": 0,
+      "bookDocumentsExamined": 84,
+      "matchingCurrentBookDocumentIds": [],
+      "excludedHistory": [],
+      "sources": [
+        {
+          "name": "BBC Good Food",
+          "url": "https://www.bbcgoodfood.com/recipes/golden-beer-battered-fish-chips",
+          "documentId": "b17de88d-e534-485b-a5dd-eb55f7ceaae9",
+          "complete": true,
+          "qualifies": true,
+          "ingredientCoverage": "complete",
+          "stepCoverage": "complete",
+          "internalCoherence": "coherent",
+          "heroImages": 1,
+          "mappedStepImages": 0,
+          "stepImageCoverage": 0,
+          "ingredientCount": 14,
+          "executableStepCount": 3,
+          "notes": [
+            "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented."
+          ]
+        }
+      ],
+      "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/golden-beer-battered-fish-chips"
+    },
+    {
+      "recipeId": "west-008",
+      "recipeName": "西班牙海鲜饭",
+      "exactKbDocumentsBeforeResearch": 0,
+      "bookDocumentsExamined": 84,
+      "matchingCurrentBookDocumentIds": [],
+      "excludedHistory": [],
+      "sources": [
+        {
+          "name": "BBC Good Food",
+          "url": "https://www.bbcgoodfood.com/recipes/seafood-paella",
+          "documentId": "4d7a1ee5-9fe3-4d6b-9a06-bb51a2dd5b8e",
+          "complete": true,
+          "qualifies": true,
+          "ingredientCoverage": "complete",
+          "stepCoverage": "complete",
+          "internalCoherence": "coherent",
+          "heroImages": 1,
+          "mappedStepImages": 0,
+          "stepImageCoverage": 0,
+          "ingredientCount": 21,
+          "executableStepCount": 5,
+          "notes": [
+            "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented.",
+            "Source uses two separate olive oil, onion, tomato and garlic allocations: main paella versus homemade prawn stock; preserve both groups and quantities."
+          ]
+        }
+      ],
+      "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/seafood-paella"
+    },
+    {
+      "recipeId": "west-009",
+      "recipeName": "德式烤香肠",
+      "exactKbDocumentsBeforeResearch": 0,
+      "bookDocumentsExamined": 84,
+      "matchingCurrentBookDocumentIds": [],
+      "excludedHistory": [],
+      "sources": [
+        {
+          "name": "Serious Eats",
+          "url": "https://www.seriouseats.com/grilled-bratwurst-with-beer-mustard-and-sauerkraut-recipe",
+          "documentId": "29fa3b16-9237-46cd-8135-71280c566512",
+          "complete": true,
+          "qualifies": true,
+          "ingredientCoverage": "complete",
+          "stepCoverage": "complete",
+          "internalCoherence": "coherent",
+          "heroImages": 0,
+          "mappedStepImages": 0,
+          "stepImageCoverage": 0,
+          "ingredientCount": 7,
+          "executableStepCount": 4,
+          "notes": [
+            "Page images and step adjacencies visible in web.open; original binary URLs not returned by failed web.click. No verified downloadable media available, no invented image mappings.",
+            "Source quantities with mixed units retained verbatim; no vessel capacity inferred."
+          ]
+        }
+      ],
+      "selectedSourceUrl": "https://www.seriouseats.com/grilled-bratwurst-with-beer-mustard-and-sauerkraut-recipe"
+    },
+    {
+      "recipeId": "west-013",
+      "recipeName": "奶油宽面",
+      "exactKbDocumentsBeforeResearch": 0,
+      "bookDocumentsExamined": 84,
+      "matchingCurrentBookDocumentIds": [],
+      "excludedHistory": [],
+      "sources": [
+        {
+          "name": "BBC Good Food",
+          "url": "https://www.bbcgoodfood.com/recipes/fettucine-alfredo",
+          "documentId": "285a92a5-e04a-4e85-8db7-0151b4f6eeaa",
+          "complete": true,
+          "qualifies": true,
+          "ingredientCoverage": "complete",
+          "stepCoverage": "complete",
+          "internalCoherence": "coherent",
+          "heroImages": 1,
+          "mappedStepImages": 0,
+          "stepImageCoverage": 0,
+          "ingredientCount": 10,
+          "executableStepCount": 4,
+          "notes": [
+            "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented."
+          ]
+        },
+        {
+          "name": "Serious Eats",
+          "url": "https://www.seriouseats.com/fettuccine-alfredo-sauce-italian-pasta-recipe",
+          "documentId": "104da4b6-7b98-4f42-ba24-ff89a0723102",
+          "complete": true,
+          "qualifies": true,
+          "ingredientCoverage": "complete",
+          "stepCoverage": "complete",
+          "internalCoherence": "coherent",
+          "heroImages": 0,
+          "mappedStepImages": 0,
+          "stepImageCoverage": 0,
+          "ingredientCount": 5,
+          "executableStepCount": 2,
+          "notes": [
+            "Page images and step adjacencies visible in web.open; original binary URLs not returned by failed web.click. No verified downloadable media available, no invented image mappings.",
+            "Source quantities with mixed units retained verbatim; no vessel capacity inferred."
+          ]
+        },
+        {
+          "name": "Serious Eats",
+          "url": "https://www.seriouseats.com/lighter-fettuccine-alfredo-recipe",
+          "documentId": "4ad2d3fc-c330-40c9-9330-a92f82714cca",
+          "complete": true,
+          "qualifies": true,
+          "ingredientCoverage": "complete",
+          "stepCoverage": "complete",
+          "internalCoherence": "coherent",
+          "heroImages": 0,
+          "mappedStepImages": 0,
+          "stepImageCoverage": 0,
+          "ingredientCount": 12,
+          "executableStepCount": 3,
+          "notes": [
+            "Page images and step adjacencies visible in web.open; original binary URLs not returned by failed web.click. No verified downloadable media available, no invented image mappings.",
+            "Source quantities with mixed units retained verbatim; no vessel capacity inferred."
+          ]
+        }
+      ],
+      "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/fettucine-alfredo"
+    },
+    {
+      "recipeId": "west-014",
+      "recipeName": "蘑菇烩饭",
+      "exactKbDocumentsBeforeResearch": 0,
+      "bookDocumentsExamined": 84,
+      "matchingCurrentBookDocumentIds": [],
+      "excludedHistory": [],
+      "sources": [
+        {
+          "name": "BBC Good Food",
+          "url": "https://www.bbcgoodfood.com/recipes/mushroom-risotto",
+          "documentId": "a32460d0-637d-4400-b924-2b83638166db",
+          "complete": true,
+          "qualifies": true,
+          "ingredientCoverage": "complete",
+          "stepCoverage": "complete",
+          "internalCoherence": "coherent",
+          "heroImages": 1,
+          "mappedStepImages": 0,
+          "stepImageCoverage": 0,
+          "ingredientCount": 14,
+          "executableStepCount": 9,
+          "notes": [
+            "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented."
+          ]
+        },
+        {
+          "name": "Serious Eats",
+          "url": "https://www.seriouseats.com/pressure-cooker-mushroom-risotto-recipe",
+          "documentId": "6a83f371-b7f8-44a3-a4d7-d5fe6cb45a5d",
+          "complete": true,
+          "qualifies": true,
+          "ingredientCoverage": "complete",
+          "stepCoverage": "complete",
+          "internalCoherence": "coherent",
+          "heroImages": 0,
+          "mappedStepImages": 0,
+          "stepImageCoverage": 0,
+          "ingredientCount": 15,
+          "executableStepCount": 6,
+          "notes": [
+            "Page images and step adjacencies visible in web.open; original binary URLs not returned by failed web.click. No verified downloadable media available, no invented image mappings.",
+            "Source quantities with mixed units retained verbatim; no vessel capacity inferred."
+          ]
+        }
+      ],
+      "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/mushroom-risotto"
+    },
+    {
+      "recipeId": "west-015",
+      "recipeName": "帕玛森鸡排",
+      "exactKbDocumentsBeforeResearch": 0,
+      "bookDocumentsExamined": 84,
+      "matchingCurrentBookDocumentIds": [],
+      "excludedHistory": [],
+      "sources": [
+        {
+          "name": "BBC Good Food",
+          "url": "https://www.bbcgoodfood.com/recipes/chicken-parmigiana",
+          "documentId": "e3137c6d-c73d-445d-9aa0-41e3d51a21cc",
+          "complete": true,
+          "qualifies": true,
+          "ingredientCoverage": "complete",
+          "stepCoverage": "complete",
+          "internalCoherence": "coherent",
+          "heroImages": 1,
+          "mappedStepImages": 0,
+          "stepImageCoverage": 0,
+          "ingredientCount": 13,
+          "executableStepCount": 7,
+          "notes": [
+            "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented."
+          ]
+        },
+        {
+          "name": "Serious Eats",
+          "url": "https://www.seriouseats.com/the-best-chicken-parmesan-recipe",
+          "documentId": "457ca423-d4ad-460e-97de-5a10ca5464bf",
+          "complete": true,
+          "qualifies": false,
+          "ingredientCoverage": "complete",
+          "stepCoverage": "complete",
+          "internalCoherence": "conflicted",
+          "heroImages": 0,
+          "mappedStepImages": 0,
+          "stepImageCoverage": 0,
+          "ingredientCount": 12,
+          "executableStepCount": 11,
+          "notes": [
+            "Page images and step adjacencies visible in web.open; original binary URLs not returned by failed web.click. No verified downloadable media available, no invented image mappings.",
+            "Source quantities with mixed units retained verbatim; no vessel capacity inferred.",
+            "Source lists5ounces Parmesan but method reserves remaining1tablespoon after4ounces breading; source allocation mismatch retained, do not silently invent a corrected remainder. Prepared tomato sauce permitted by source notes."
+          ]
+        }
+      ],
+      "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/chicken-parmigiana"
+    },
+    {
+      "recipeId": "west-016",
+      "recipeName": "惠灵顿牛排",
+      "exactKbDocumentsBeforeResearch": 0,
+      "bookDocumentsExamined": 84,
+      "matchingCurrentBookDocumentIds": [],
+      "excludedHistory": [],
+      "sources": [
+        {
+          "name": "BBC Good Food",
+          "url": "https://www.bbcgoodfood.com/recipes/beef-wellington",
+          "documentId": "3131ae41-b095-414d-9e1d-4f7a23a1529a",
+          "complete": true,
+          "qualifies": true,
+          "ingredientCoverage": "complete",
+          "stepCoverage": "complete",
+          "internalCoherence": "coherent",
+          "heroImages": 1,
+          "mappedStepImages": 0,
+          "stepImageCoverage": 0,
+          "ingredientCount": 13,
+          "executableStepCount": 19,
+          "notes": [
+            "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented.",
+            "Initial beef roast220C/fan200C/gas7 and final pastry200C/fan180C/gas6 are different stages; preserve both."
+          ]
+        },
+        {
+          "name": "Serious Eats",
+          "url": "https://www.seriouseats.com/the-ultimate-beef-wellington-recipe",
+          "documentId": "e5f01590-1ad2-46c5-a2b2-f9ee07211b7e",
+          "complete": true,
+          "qualifies": true,
+          "ingredientCoverage": "complete",
+          "stepCoverage": "complete",
+          "internalCoherence": "coherent",
+          "heroImages": 0,
+          "mappedStepImages": 0,
+          "stepImageCoverage": 0,
+          "ingredientCount": 20,
+          "executableStepCount": 15,
+          "notes": [
+            "Page images and step adjacencies visible in web.open; original binary URLs not returned by failed web.click. No verified downloadable media available, no invented image mappings.",
+            "Source quantities with mixed units retained verbatim; no vessel capacity inferred."
+          ]
+        }
+      ],
+      "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/beef-wellington"
+    },
+    {
+      "recipeId": "west-017",
+      "recipeName": "红酒炖鸡",
+      "exactKbDocumentsBeforeResearch": 0,
+      "bookDocumentsExamined": 84,
+      "matchingCurrentBookDocumentIds": [],
+      "excludedHistory": [],
+      "sources": [
+        {
+          "name": "BBC Good Food",
+          "url": "https://www.bbcgoodfood.com/recipes/coq-au-vin",
+          "documentId": "c49fed11-a89a-4f40-bcae-0021fde52d6a",
+          "complete": true,
+          "qualifies": true,
+          "ingredientCoverage": "complete",
+          "stepCoverage": "complete",
+          "internalCoherence": "coherent",
+          "heroImages": 1,
+          "mappedStepImages": 0,
+          "stepImageCoverage": 0,
+          "ingredientCount": 20,
+          "executableStepCount": 13,
+          "notes": [
+            "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented."
+          ]
+        },
+        {
+          "name": "Serious Eats",
+          "url": "https://www.seriouseats.com/coq-au-vin-chicken-red-wine-braise-recipe",
+          "documentId": "76783447-425d-4e83-8edc-da9f76a25f5d",
+          "complete": true,
+          "qualifies": true,
+          "ingredientCoverage": "complete",
+          "stepCoverage": "complete",
+          "internalCoherence": "coherent",
+          "heroImages": 0,
+          "mappedStepImages": 0,
+          "stepImageCoverage": 0,
+          "ingredientCount": 13,
+          "executableStepCount": 9,
+          "notes": [
+            "Page images and step adjacencies visible in web.open; original binary URLs not returned by failed web.click. No verified downloadable media available, no invented image mappings.",
+            "Source quantities with mixed units retained verbatim; no vessel capacity inferred."
+          ]
+        }
+      ],
+      "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/coq-au-vin"
+    },
+    {
+      "recipeId": "west-018",
+      "recipeName": "普罗旺斯炖菜",
+      "exactKbDocumentsBeforeResearch": 0,
+      "bookDocumentsExamined": 84,
+      "matchingCurrentBookDocumentIds": [],
+      "excludedHistory": [],
+      "sources": [
+        {
+          "name": "BBC Good Food",
+          "url": "https://www.bbcgoodfood.com/recipes/ratatouille",
+          "documentId": "c8b51089-81ed-46f3-bc25-dcfbf2cfe9a8",
+          "complete": true,
+          "qualifies": true,
+          "ingredientCoverage": "complete",
+          "stepCoverage": "complete",
+          "internalCoherence": "coherent",
+          "heroImages": 1,
+          "mappedStepImages": 0,
+          "stepImageCoverage": 0,
+          "ingredientCount": 13,
+          "executableStepCount": 8,
+          "notes": [
+            "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented."
+          ]
+        },
+        {
+          "name": "Serious Eats",
+          "url": "https://www.seriouseats.com/ratatouille-provence-vegetable-stew-recipe",
+          "documentId": "a35278cc-04a9-4567-adbc-1c95fd3a9c67",
+          "complete": true,
+          "qualifies": true,
+          "ingredientCoverage": "complete",
+          "stepCoverage": "complete",
+          "internalCoherence": "coherent",
+          "heroImages": 0,
+          "mappedStepImages": 0,
+          "stepImageCoverage": 0,
+          "ingredientCount": 10,
+          "executableStepCount": 6,
+          "notes": [
+            "Page images and step adjacencies visible in web.open; original binary URLs not returned by failed web.click. No verified downloadable media available, no invented image mappings.",
+            "Source quantities with mixed units retained verbatim; no vessel capacity inferred."
+          ]
+        }
+      ],
+      "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/ratatouille"
+    },
+    {
+      "recipeId": "west-019",
+      "recipeName": "马赛鱼汤",
+      "exactKbDocumentsBeforeResearch": 0,
+      "bookDocumentsExamined": 84,
+      "matchingCurrentBookDocumentIds": [],
+      "excludedHistory": [],
+      "sources": [
+        {
+          "name": "BBC Good Food",
+          "url": "https://www.bbcgoodfood.com/recipes/bouillabaisse",
+          "documentId": "0e1996bd-a908-4482-aaa6-4760db1ad1bf",
+          "complete": true,
+          "qualifies": true,
+          "ingredientCoverage": "complete",
+          "stepCoverage": "complete",
+          "internalCoherence": "coherent",
+          "heroImages": 1,
+          "mappedStepImages": 0,
+          "stepImageCoverage": 0,
+          "ingredientCount": 31,
+          "executableStepCount": 6,
+          "notes": [
+            "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented.",
+            "Source ingredient listing includes both1 leek described by white/green parts and a second1 leek row; do not silently merge or delete. Ingredient fish examples and method ordering examples differ (snapper appears in method while ingredient examples list gurnard/red mullet); retain source generic mixedfish and disclose examples as alternatives."
+          ]
+        },
+        {
+          "name": "Serious Eats",
+          "url": "https://www.seriouseats.com/bouillabaisse-marseillaise-fish-stew-recipe",
+          "documentId": "fa8bcb83-d3d0-41c1-a021-18f3fd8b21cf",
+          "complete": true,
+          "qualifies": true,
+          "ingredientCoverage": "complete",
+          "stepCoverage": "complete",
+          "internalCoherence": "coherent",
+          "heroImages": 0,
+          "mappedStepImages": 0,
+          "stepImageCoverage": 0,
+          "ingredientCount": 30,
+          "executableStepCount": 11,
+          "notes": [
+            "Page images and step adjacencies visible in web.open; original binary URLs not returned by failed web.click. No verified downloadable media available, no invented image mappings.",
+            "Source quantities with mixed units retained verbatim; no vessel capacity inferred."
+          ]
+        }
+      ],
+      "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/bouillabaisse"
+    },
+    {
+      "recipeId": "west-021",
+      "recipeName": "法式红酒炖牛肉",
+      "exactKbDocumentsBeforeResearch": 0,
+      "bookDocumentsExamined": 84,
+      "matchingCurrentBookDocumentIds": [],
+      "excludedHistory": [],
+      "sources": [
+        {
+          "name": "BBC Good Food",
+          "url": "https://www.bbcgoodfood.com/recipes/beef-bourguignon",
+          "documentId": "4e882fb4-43e9-4577-bdae-8a9a158c37be",
+          "complete": true,
+          "qualifies": true,
+          "ingredientCoverage": "complete",
+          "stepCoverage": "complete",
+          "internalCoherence": "coherent",
+          "heroImages": 1,
+          "mappedStepImages": 0,
+          "stepImageCoverage": 0,
+          "ingredientCount": 16,
+          "executableStepCount": 10,
+          "notes": [
+            "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented."
+          ]
+        },
+        {
+          "name": "Serious Eats",
+          "url": "https://www.seriouseats.com/beef-bourguignon-red-wine-stew-recipe",
+          "documentId": "7d633798-006a-4be9-9ad8-79cca8539077",
+          "complete": true,
+          "qualifies": false,
+          "ingredientCoverage": "complete",
+          "stepCoverage": "complete",
+          "internalCoherence": "conflicted",
+          "heroImages": 0,
+          "mappedStepImages": 0,
+          "stepImageCoverage": 0,
+          "ingredientCount": 20,
+          "executableStepCount": 9,
+          "notes": [
+            "Page images and step adjacencies visible in web.open; original binary URLs not returned by failed web.click. No verified downloadable media available, no invented image mappings.",
+            "Source quantities with mixed units retained verbatim; no vessel capacity inferred.",
+            "Recipecard3pounds/1.25kg beef quantities are source inconsistency; preserve both raw, prefer explicitly chosen source quantity rather than invent equivalence. Article older300F/2hours differs from cross-tested card325F plus2+1hours; use current card while documenting old article variance."
+          ]
+        }
+      ],
+      "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/beef-bourguignon"
+    },
+    {
+      "recipeId": "west-022",
+      "recipeName": "希腊穆萨卡",
+      "exactKbDocumentsBeforeResearch": 0,
+      "bookDocumentsExamined": 84,
+      "matchingCurrentBookDocumentIds": [],
+      "excludedHistory": [],
+      "sources": [
+        {
+          "name": "BBC Good Food",
+          "url": "https://www.bbcgoodfood.com/recipes/moussaka",
+          "documentId": "53cdcee1-2c01-47c9-97f0-fbbfc2747e75",
+          "complete": true,
+          "qualifies": true,
+          "ingredientCoverage": "complete",
+          "stepCoverage": "complete",
+          "internalCoherence": "coherent",
+          "heroImages": 1,
+          "mappedStepImages": 0,
+          "stepImageCoverage": 0,
+          "ingredientCount": 22,
+          "executableStepCount": 5,
+          "notes": [
+            "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented.",
+            "Oven source gives200C/180fan/gas4, internally inconsistent gas equivalence; retain200C conventional/180C fan and disclose gas4 conflict, never silently correct."
+          ]
+        }
+      ],
+      "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/moussaka"
+    },
+    {
+      "recipeId": "west-023",
+      "recipeName": "希腊沙拉",
+      "exactKbDocumentsBeforeResearch": 0,
+      "bookDocumentsExamined": 84,
+      "matchingCurrentBookDocumentIds": [],
+      "excludedHistory": [],
+      "sources": [
+        {
+          "name": "BBC Good Food",
+          "url": "https://www.bbcgoodfood.com/recipes/greek-salad",
+          "documentId": "736060f3-bc3f-4a0e-ba77-bce2fb6ba84e",
+          "complete": true,
+          "qualifies": true,
+          "ingredientCoverage": "complete",
+          "stepCoverage": "complete",
+          "internalCoherence": "coherent",
+          "heroImages": 1,
+          "mappedStepImages": 0,
+          "stepImageCoverage": 0,
+          "ingredientCount": 9,
+          "executableStepCount": 2,
+          "notes": [
+            "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented."
+          ]
+        }
+      ],
+      "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/greek-salad"
+    },
+    {
+      "recipeId": "west-024",
+      "recipeName": "香煎鸡肉炸排",
+      "exactKbDocumentsBeforeResearch": 0,
+      "bookDocumentsExamined": 84,
+      "matchingCurrentBookDocumentIds": [],
+      "excludedHistory": [],
+      "sources": [
+        {
+          "name": "BBC Good Food",
+          "url": "https://www.bbcgoodfood.com/recipes/chicken-schnitzel-coleslaw",
+          "documentId": "997dbfb5-d24d-4157-9f02-67d8b6161c0b",
+          "complete": true,
+          "qualifies": true,
+          "ingredientCoverage": "complete",
+          "stepCoverage": "complete",
+          "internalCoherence": "coherent",
+          "heroImages": 1,
+          "mappedStepImages": 6,
+          "stepImageCoverage": 0.8571428571428571,
+          "ingredientCount": 14,
+          "executableStepCount": 7,
+          "notes": [
+            "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented."
+          ]
+        },
+        {
+          "name": "Serious Eats",
+          "url": "https://www.seriouseats.com/chicken-schnitzel-recipe",
+          "documentId": "ad0ee351-7f32-4ae7-b850-0d08b3957211",
+          "complete": true,
+          "qualifies": true,
+          "ingredientCoverage": "complete",
+          "stepCoverage": "complete",
+          "internalCoherence": "coherent",
+          "heroImages": 0,
+          "mappedStepImages": 0,
+          "stepImageCoverage": 0,
+          "ingredientCount": 9,
+          "executableStepCount": 5,
+          "notes": [
+            "Page images and step adjacencies visible in web.open; original binary URLs not returned by failed web.click. No verified downloadable media available, no invented image mappings.",
+            "Source quantities with mixed units retained verbatim; no vessel capacity inferred."
+          ]
+        }
+      ],
+      "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/chicken-schnitzel-coleslaw"
+    },
+    {
+      "recipeId": "west-025",
+      "recipeName": "瑞典肉丸",
+      "exactKbDocumentsBeforeResearch": 0,
+      "bookDocumentsExamined": 84,
+      "matchingCurrentBookDocumentIds": [],
+      "excludedHistory": [],
+      "sources": [
+        {
+          "name": "BBC Good Food",
+          "url": "https://www.bbcgoodfood.com/recipes/classic-swedish-meatballs",
+          "documentId": "3e95f7a2-389f-41aa-b675-7347986de84d",
+          "complete": true,
+          "qualifies": true,
+          "ingredientCoverage": "complete",
+          "stepCoverage": "complete",
+          "internalCoherence": "coherent",
+          "heroImages": 1,
+          "mappedStepImages": 0,
+          "stepImageCoverage": 0,
+          "ingredientCount": 12,
+          "executableStepCount": 5,
+          "notes": [
+            "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented.",
+            "Source says heat meatballs through in gravy without explicit internal temperature or final time; preserve doneness wording and disclose omission."
+          ]
+        },
+        {
+          "name": "Serious Eats",
+          "url": "https://www.seriouseats.com/the-best-swedish-meatballs-recipe",
+          "documentId": "1679c443-d4d6-43a2-bc1f-6e106542f4b1",
+          "complete": true,
+          "qualifies": true,
+          "ingredientCoverage": "complete",
+          "stepCoverage": "complete",
+          "internalCoherence": "coherent",
+          "heroImages": 0,
+          "mappedStepImages": 0,
+          "stepImageCoverage": 0,
+          "ingredientCount": 18,
+          "executableStepCount": 7,
+          "notes": [
+            "Page images and step adjacencies visible in web.open; original binary URLs not returned by failed web.click. No verified downloadable media available, no invented image mappings.",
+            "Source quantities with mixed units retained verbatim; no vessel capacity inferred."
+          ]
+        }
+      ],
+      "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/classic-swedish-meatballs"
+    },
+    {
+      "recipeId": "west-026",
+      "recipeName": "匈牙利牛肉汤",
+      "exactKbDocumentsBeforeResearch": 0,
+      "bookDocumentsExamined": 84,
+      "matchingCurrentBookDocumentIds": [],
+      "excludedHistory": [],
+      "sources": [
+        {
+          "name": "BBC Good Food",
+          "url": "https://www.bbcgoodfood.com/recipes/beef-goulash-soup",
+          "documentId": "78419c8b-cac5-4313-9273-1d5fc594a696",
+          "complete": true,
+          "qualifies": true,
+          "ingredientCoverage": "complete",
+          "stepCoverage": "complete",
+          "internalCoherence": "coherent",
+          "heroImages": 1,
+          "mappedStepImages": 0,
+          "stepImageCoverage": 0,
+          "ingredientCount": 12,
+          "executableStepCount": 3,
+          "notes": [
+            "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented."
+          ]
+        }
+      ],
+      "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/beef-goulash-soup"
+    },
+    {
+      "recipeId": "west-027",
+      "recipeName": "炸鱼塔可",
+      "exactKbDocumentsBeforeResearch": 0,
+      "bookDocumentsExamined": 84,
+      "matchingCurrentBookDocumentIds": [],
+      "excludedHistory": [],
+      "sources": [
+        {
+          "name": "BBC Good Food",
+          "url": "https://www.bbcgoodfood.com/recipes/beer-battered-fish-tacos",
+          "documentId": "5f01ee84-d58b-48b2-b9d7-acf5d10b5629",
+          "complete": true,
+          "qualifies": true,
+          "ingredientCoverage": "complete",
+          "stepCoverage": "complete",
+          "internalCoherence": "coherent",
+          "heroImages": 1,
+          "mappedStepImages": 0,
+          "stepImageCoverage": 0,
+          "ingredientCount": 22,
+          "executableStepCount": 6,
+          "notes": [
+            "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented."
+          ]
+        },
+        {
+          "name": "Serious Eats",
+          "url": "https://www.seriouseats.com/crispy-fried-fish-tacos-recipe",
+          "documentId": "c4ca8acd-5cf6-4d86-906f-deef06be087d",
+          "complete": true,
+          "qualifies": true,
+          "ingredientCoverage": "complete",
+          "stepCoverage": "complete",
+          "internalCoherence": "coherent",
+          "heroImages": 0,
+          "mappedStepImages": 0,
+          "stepImageCoverage": 0,
+          "ingredientCount": 15,
+          "executableStepCount": 5,
+          "notes": [
+            "Page images and step adjacencies visible in web.open; original binary URLs not returned by failed web.click. No verified downloadable media available, no invented image mappings.",
+            "Source quantities with mixed units retained verbatim; no vessel capacity inferred."
+          ]
+        }
+      ],
+      "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/beer-battered-fish-tacos"
+    },
+    {
+      "recipeId": "west-028",
+      "recipeName": "鸡肉芝士薄饼",
+      "exactKbDocumentsBeforeResearch": 0,
+      "bookDocumentsExamined": 84,
+      "matchingCurrentBookDocumentIds": [],
+      "excludedHistory": [],
+      "sources": [
+        {
+          "name": "BBC Good Food",
+          "url": "https://www.bbcgoodfood.com/recipes/chicken-quesadillas",
+          "documentId": "9e9d892c-09f7-42fb-9ee3-691ff26a665c",
+          "complete": true,
+          "qualifies": true,
+          "ingredientCoverage": "complete",
+          "stepCoverage": "complete",
+          "internalCoherence": "coherent",
+          "heroImages": 1,
+          "mappedStepImages": 0,
+          "stepImageCoverage": 0,
+          "ingredientCount": 8,
+          "executableStepCount": 2,
+          "notes": [
+            "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented."
+          ]
+        }
+      ],
+      "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/chicken-quesadillas"
+    },
+    {
+      "recipeId": "west-029",
+      "recipeName": "班尼迪克蛋",
+      "exactKbDocumentsBeforeResearch": 0,
+      "bookDocumentsExamined": 84,
+      "matchingCurrentBookDocumentIds": [],
+      "excludedHistory": [],
+      "sources": [
+        {
+          "name": "BBC Good Food",
+          "url": "https://www.bbcgoodfood.com/recipes/eggs-benedict",
+          "documentId": "2edf80e5-bddc-42fb-ae3c-5fbf8804856c",
+          "complete": true,
+          "qualifies": true,
+          "ingredientCoverage": "complete",
+          "stepCoverage": "complete",
+          "internalCoherence": "coherent",
+          "heroImages": 1,
+          "mappedStepImages": 0,
+          "stepImageCoverage": 0,
+          "ingredientCount": 11,
+          "executableStepCount": 7,
+          "notes": [
+            "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented."
+          ]
+        }
+      ],
+      "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/eggs-benedict"
+    },
+    {
+      "recipeId": "west-030",
+      "recipeName": "酪乳煎饼",
+      "exactKbDocumentsBeforeResearch": 0,
+      "bookDocumentsExamined": 84,
+      "matchingCurrentBookDocumentIds": [],
+      "excludedHistory": [],
+      "sources": [
+        {
+          "name": "BBC Good Food",
+          "url": "https://www.bbcgoodfood.com/recipes/buttermilk-pancakes-maple-apples-pecans",
+          "documentId": "7417b13e-b1bd-4ded-8dba-4675e86126cd",
+          "complete": true,
+          "qualifies": true,
+          "ingredientCoverage": "complete",
+          "stepCoverage": "complete",
+          "internalCoherence": "coherent",
+          "heroImages": 1,
+          "mappedStepImages": 0,
+          "stepImageCoverage": 0,
+          "ingredientCount": 12,
+          "executableStepCount": 4,
+          "notes": [
+            "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented."
+          ]
+        },
+        {
+          "name": "Serious Eats",
+          "url": "https://www.seriouseats.com/light-and-fluffy-pancakes-recipe",
+          "documentId": "2be9e3f1-3a2a-45c1-996b-a495d7ebcc3f",
+          "complete": true,
+          "qualifies": true,
+          "ingredientCoverage": "complete",
+          "stepCoverage": "complete",
+          "internalCoherence": "coherent",
+          "heroImages": 0,
+          "mappedStepImages": 0,
+          "stepImageCoverage": 0,
+          "ingredientCount": 11,
+          "executableStepCount": 3,
+          "notes": [
+            "Page images and step adjacencies visible in web.open; original binary URLs not returned by failed web.click. No verified downloadable media available, no invented image mappings.",
+            "Source quantities with mixed units retained verbatim; no vessel capacity inferred."
+          ]
+        }
+      ],
+      "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/buttermilk-pancakes-maple-apples-pecans"
+    }
+  ],
+  "ingestions": [
+    {
+      "artifact": "west-002.ingestion.json",
+      "documentId": "0b549380-3644-497d-bf63-eebb94610fbe",
+      "chunkCount": 6,
+      "semanticHits": 6,
+      "hybridHits": 6,
+      "embeddingModel": "voyage-4",
+      "dimension": 1024
+    },
+    {
+      "artifact": "west-005.ingestion.json",
+      "documentId": "ef51a7d5-65e7-4c2c-abc1-783bdcf65a01",
+      "chunkCount": 5,
+      "semanticHits": 5,
+      "hybridHits": 5,
+      "embeddingModel": "voyage-4",
+      "dimension": 1024
+    },
+    {
+      "artifact": "west-005.se-ultra-crispy-burgers-recipe.ingestion.json",
+      "documentId": "2ea4e999-7e04-4390-a544-e915356f6c9c",
+      "chunkCount": 6,
+      "semanticHits": 6,
+      "hybridHits": 6,
+      "embeddingModel": "voyage-4",
+      "dimension": 1024
+    },
+    {
+      "artifact": "west-007.ingestion.json",
+      "documentId": "b17de88d-e534-485b-a5dd-eb55f7ceaae9",
+      "chunkCount": 6,
+      "semanticHits": 6,
+      "hybridHits": 6,
+      "embeddingModel": "voyage-4",
+      "dimension": 1024
+    },
+    {
+      "artifact": "west-008.ingestion.json",
+      "documentId": "4d7a1ee5-9fe3-4d6b-9a06-bb51a2dd5b8e",
+      "chunkCount": 6,
+      "semanticHits": 6,
+      "hybridHits": 6,
+      "embeddingModel": "voyage-4",
+      "dimension": 1024
+    },
+    {
+      "artifact": "west-009.se-grilled-bratwurst-with-beer-mustard-and-sauerkraut-recipe.ingestion.json",
+      "documentId": "29fa3b16-9237-46cd-8135-71280c566512",
+      "chunkCount": 6,
+      "semanticHits": 6,
+      "hybridHits": 6,
+      "embeddingModel": "voyage-4",
+      "dimension": 1024
+    },
+    {
+      "artifact": "west-013.ingestion.json",
+      "documentId": "285a92a5-e04a-4e85-8db7-0151b4f6eeaa",
+      "chunkCount": 5,
+      "semanticHits": 5,
+      "hybridHits": 5,
+      "embeddingModel": "voyage-4",
+      "dimension": 1024
+    },
+    {
+      "artifact": "west-013.se-fettuccine-alfredo-sauce-italian-pasta-recipe.ingestion.json",
+      "documentId": "104da4b6-7b98-4f42-ba24-ff89a0723102",
+      "chunkCount": 5,
+      "semanticHits": 5,
+      "hybridHits": 5,
+      "embeddingModel": "voyage-4",
+      "dimension": 1024
+    },
+    {
+      "artifact": "west-013.se-lighter-fettuccine-alfredo-recipe.ingestion.json",
+      "documentId": "4ad2d3fc-c330-40c9-9330-a92f82714cca",
+      "chunkCount": 6,
+      "semanticHits": 6,
+      "hybridHits": 6,
+      "embeddingModel": "voyage-4",
+      "dimension": 1024
+    },
+    {
+      "artifact": "west-014.ingestion.json",
+      "documentId": "a32460d0-637d-4400-b924-2b83638166db",
+      "chunkCount": 6,
+      "semanticHits": 6,
+      "hybridHits": 6,
+      "embeddingModel": "voyage-4",
+      "dimension": 1024
+    },
+    {
+      "artifact": "west-014.se-pressure-cooker-mushroom-risotto-recipe.ingestion.json",
+      "documentId": "6a83f371-b7f8-44a3-a4d7-d5fe6cb45a5d",
+      "chunkCount": 7,
+      "semanticHits": 7,
+      "hybridHits": 7,
+      "embeddingModel": "voyage-4",
+      "dimension": 1024
+    },
+    {
+      "artifact": "west-015.ingestion.json",
+      "documentId": "e3137c6d-c73d-445d-9aa0-41e3d51a21cc",
+      "chunkCount": 5,
+      "semanticHits": 5,
+      "hybridHits": 5,
+      "embeddingModel": "voyage-4",
+      "dimension": 1024
+    },
+    {
+      "artifact": "west-015.se-the-best-chicken-parmesan-recipe.ingestion.json",
+      "documentId": "457ca423-d4ad-460e-97de-5a10ca5464bf",
+      "chunkCount": 8,
+      "semanticHits": 8,
+      "hybridHits": 8,
+      "embeddingModel": "voyage-4",
+      "dimension": 1024
+    },
+    {
+      "artifact": "west-016.ingestion.json",
+      "documentId": "3131ae41-b095-414d-9e1d-4f7a23a1529a",
+      "chunkCount": 7,
+      "semanticHits": 7,
+      "hybridHits": 7,
+      "embeddingModel": "voyage-4",
+      "dimension": 1024
+    },
+    {
+      "artifact": "west-016.se-the-ultimate-beef-wellington-recipe.ingestion.json",
+      "documentId": "e5f01590-1ad2-46c5-a2b2-f9ee07211b7e",
+      "chunkCount": 9,
+      "semanticHits": 9,
+      "hybridHits": 9,
+      "embeddingModel": "voyage-4",
+      "dimension": 1024
+    },
+    {
+      "artifact": "west-017.ingestion.json",
+      "documentId": "c49fed11-a89a-4f40-bcae-0021fde52d6a",
+      "chunkCount": 6,
+      "semanticHits": 6,
+      "hybridHits": 6,
+      "embeddingModel": "voyage-4",
+      "dimension": 1024
+    },
+    {
+      "artifact": "west-017.se-coq-au-vin-chicken-red-wine-braise-recipe.ingestion.json",
+      "documentId": "76783447-425d-4e83-8edc-da9f76a25f5d",
+      "chunkCount": 7,
+      "semanticHits": 7,
+      "hybridHits": 7,
+      "embeddingModel": "voyage-4",
+      "dimension": 1024
+    },
+    {
+      "artifact": "west-018.ingestion.json",
+      "documentId": "c8b51089-81ed-46f3-bc25-dcfbf2cfe9a8",
+      "chunkCount": 6,
+      "semanticHits": 6,
+      "hybridHits": 6,
+      "embeddingModel": "voyage-4",
+      "dimension": 1024
+    },
+    {
+      "artifact": "west-018.se-ratatouille-provence-vegetable-stew-recipe.ingestion.json",
+      "documentId": "a35278cc-04a9-4567-adbc-1c95fd3a9c67",
+      "chunkCount": 6,
+      "semanticHits": 6,
+      "hybridHits": 6,
+      "embeddingModel": "voyage-4",
+      "dimension": 1024
+    },
+    {
+      "artifact": "west-019.ingestion.json",
+      "documentId": "0e1996bd-a908-4482-aaa6-4760db1ad1bf",
+      "chunkCount": 7,
+      "semanticHits": 7,
+      "hybridHits": 7,
+      "embeddingModel": "voyage-4",
+      "dimension": 1024
+    },
+    {
+      "artifact": "west-019.se-bouillabaisse-marseillaise-fish-stew-recipe.ingestion.json",
+      "documentId": "fa8bcb83-d3d0-41c1-a021-18f3fd8b21cf",
+      "chunkCount": 8,
+      "semanticHits": 8,
+      "hybridHits": 8,
+      "embeddingModel": "voyage-4",
+      "dimension": 1024
+    },
+    {
+      "artifact": "west-021.ingestion.json",
+      "documentId": "4e882fb4-43e9-4577-bdae-8a9a158c37be",
+      "chunkCount": 6,
+      "semanticHits": 6,
+      "hybridHits": 6,
+      "embeddingModel": "voyage-4",
+      "dimension": 1024
+    },
+    {
+      "artifact": "west-021.se-beef-bourguignon-red-wine-stew-recipe.ingestion.json",
+      "documentId": "7d633798-006a-4be9-9ad8-79cca8539077",
+      "chunkCount": 7,
+      "semanticHits": 7,
+      "hybridHits": 7,
+      "embeddingModel": "voyage-4",
+      "dimension": 1024
+    },
+    {
+      "artifact": "west-022.ingestion.json",
+      "documentId": "53cdcee1-2c01-47c9-97f0-fbbfc2747e75",
+      "chunkCount": 6,
+      "semanticHits": 6,
+      "hybridHits": 6,
+      "embeddingModel": "voyage-4",
+      "dimension": 1024
+    },
+    {
+      "artifact": "west-023.ingestion.json",
+      "documentId": "736060f3-bc3f-4a0e-ba77-bce2fb6ba84e",
+      "chunkCount": 5,
+      "semanticHits": 5,
+      "hybridHits": 5,
+      "embeddingModel": "voyage-4",
+      "dimension": 1024
+    },
+    {
+      "artifact": "west-024.ingestion.json",
+      "documentId": "997dbfb5-d24d-4157-9f02-67d8b6161c0b",
+      "chunkCount": 5,
+      "semanticHits": 5,
+      "hybridHits": 5,
+      "embeddingModel": "voyage-4",
+      "dimension": 1024
+    },
+    {
+      "artifact": "west-024.se-chicken-schnitzel-recipe.ingestion.json",
+      "documentId": "ad0ee351-7f32-4ae7-b850-0d08b3957211",
+      "chunkCount": 7,
+      "semanticHits": 7,
+      "hybridHits": 7,
+      "embeddingModel": "voyage-4",
+      "dimension": 1024
+    },
+    {
+      "artifact": "west-025.ingestion.json",
+      "documentId": "3e95f7a2-389f-41aa-b675-7347986de84d",
+      "chunkCount": 5,
+      "semanticHits": 5,
+      "hybridHits": 5,
+      "embeddingModel": "voyage-4",
+      "dimension": 1024
+    },
+    {
+      "artifact": "west-025.se-the-best-swedish-meatballs-recipe.ingestion.json",
+      "documentId": "1679c443-d4d6-43a2-bc1f-6e106542f4b1",
+      "chunkCount": 6,
+      "semanticHits": 6,
+      "hybridHits": 6,
+      "embeddingModel": "voyage-4",
+      "dimension": 1024
+    },
+    {
+      "artifact": "west-026.ingestion.json",
+      "documentId": "78419c8b-cac5-4313-9273-1d5fc594a696",
+      "chunkCount": 5,
+      "semanticHits": 5,
+      "hybridHits": 5,
+      "embeddingModel": "voyage-4",
+      "dimension": 1024
+    },
+    {
+      "artifact": "west-027.ingestion.json",
+      "documentId": "5f01ee84-d58b-48b2-b9d7-acf5d10b5629",
+      "chunkCount": 6,
+      "semanticHits": 6,
+      "hybridHits": 6,
+      "embeddingModel": "voyage-4",
+      "dimension": 1024
+    },
+    {
+      "artifact": "west-027.se-crispy-fried-fish-tacos-recipe.ingestion.json",
+      "documentId": "c4ca8acd-5cf6-4d86-906f-deef06be087d",
+      "chunkCount": 5,
+      "semanticHits": 5,
+      "hybridHits": 5,
+      "embeddingModel": "voyage-4",
+      "dimension": 1024
+    },
+    {
+      "artifact": "west-028.ingestion.json",
+      "documentId": "9e9d892c-09f7-42fb-9ee3-691ff26a665c",
+      "chunkCount": 5,
+      "semanticHits": 5,
+      "hybridHits": 5,
+      "embeddingModel": "voyage-4",
+      "dimension": 1024
+    },
+    {
+      "artifact": "west-029.ingestion.json",
+      "documentId": "2edf80e5-bddc-42fb-ae3c-5fbf8804856c",
+      "chunkCount": 6,
+      "semanticHits": 6,
+      "hybridHits": 6,
+      "embeddingModel": "voyage-4",
+      "dimension": 1024
+    },
+    {
+      "artifact": "west-030.ingestion.json",
+      "documentId": "7417b13e-b1bd-4ded-8dba-4675e86126cd",
+      "chunkCount": 5,
+      "semanticHits": 5,
+      "hybridHits": 5,
+      "embeddingModel": "voyage-4",
+      "dimension": 1024
+    },
+    {
+      "artifact": "west-030.se-light-and-fluffy-pancakes-recipe.ingestion.json",
+      "documentId": "2be9e3f1-3a2a-45c1-996b-a495d7ebcc3f",
+      "chunkCount": 6,
+      "semanticHits": 6,
+      "hybridHits": 6,
+      "embeddingModel": "voyage-4",
+      "dimension": 1024
+    }
+  ],
+  "mediaPublicationGate": "Only west-024 has verified hero and mapped cooking-stage photographs. Remaining21need parent user decision before publication. All sources retain original missing/ambiguous quantities; no invented parameter or source mixing."
+}

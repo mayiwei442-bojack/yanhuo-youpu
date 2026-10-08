@@ -1,0 +1,152 @@
+{
+  "recipeId": "west-023",
+  "recipeName": "希腊沙拉",
+  "category": "western",
+  "createdAt": "2026-10-08T12:13:02.840Z",
+  "sources": [
+    {
+      "sourceName": "BBC Good Food",
+      "sourceType": "website",
+      "url": "https://www.bbcgoodfood.com/recipes/greek-salad",
+      "documentId": "736060f3-bc3f-4a0e-ba77-bce2fb6ba84e",
+      "retrievalMethod": "ordinary HTTPS GET; complete accessible page JSON-LD and DOM independently inspected",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "arge  vine tomatoes cut into irregular wedges",
+          "raw": "4 large  vine tomatoes cut into irregular wedges",
+          "amount": null
+        },
+        {
+          "name": "cucumber peeled, deseeded, then roughly chopped",
+          "raw": "1 cucumber peeled, deseeded, then roughly chopped",
+          "amount": null
+        },
+        {
+          "name": "a red onion thinly sliced",
+          "raw": "½ a red onion thinly sliced",
+          "amount": null
+        },
+        {
+          "name": "Kalamata olives",
+          "raw": "16 Kalamata olives",
+          "amount": null
+        },
+        {
+          "name": "dried oregano",
+          "raw": "1 tsp dried oregano",
+          "amount": null
+        },
+        {
+          "name": "feta cheese cut into chunks (barrel matured feta is the best)",
+          "raw": "85g feta cheese cut into chunks (barrel matured feta is the best)",
+          "amount": null
+        },
+        {
+          "name": "Greek extra virgin olive oil",
+          "raw": "4 tbsp Greek extra virgin olive oil",
+          "amount": null
+        },
+        {
+          "name": "seasoning",
+          "raw": "Lightly season (step2; unspecified type and amount)",
+          "amount": null
+        },
+        {
+          "name": "crusty bread",
+          "raw": "crusty bread to serve (step2; amount unspecified)",
+          "amount": null
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Place 4 large vine tomatoes, cut into wedges, 1 peeled, deseeded and chopped cucumber, ½ a thinly sliced red onion, 16 Kalamata olives, 1 tsp dried oregano, 85g feta cheese chunks and 4 tbsp Greek extra virgin olive oil in a large bowl.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "Lightly season, then serve with crusty bread to mop up all of the juices.",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [],
+      "tips": [],
+      "rawExcerpt": "{\n  \"@context\": \"https://schema.org\",\n  \"@id\": \"https://www.bbcgoodfood.com/recipes/greek-salad#Recipe\",\n  \"@type\": \"Recipe\",\n  \"description\": \"Make a fresh and colourful Greek salad in no time. It's great with grilled meats at a barbecue, or on its own as a veggie main\",\n  \"image\": [\n    {\n      \"@type\": \"ImageObject\",\n      \"url\": \"https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1201727_11-4026b8d.jpg?resize=440,400\",\n      \"width\": 440,\n      \"height\": 400\n    }\n  ],\n  \"mainEntityOfPage\": {\n    \"@type\": \"WebPage\",\n    \"@id\": \"https://www.bbcgoodfood.com/recipes/greek-salad\"\n  },\n  \"name\": \"Greek salad\",\n  \"url\": \"https://www.bbcgoodfood.com/recipes/greek-salad\",\n  \"author\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Barney Desmazery\",\n      \"url\": \"https://www.bbcgoodfood.com/author/barneydesmazery\"\n    }\n  ],\n  \"dateModified\": \"2026-08-11T12:48:00+01:00\",\n  \"datePublished\": \"2013-01-24T02:56:24+00:00\",\n  \"headline\": \"Greek salad\",\n  \"keywords\": \"Cucumber, Cucumbers, Feta, Feta cheese, Fetta, Good Food, Greek salad, Healthy food, Mediterranean, Olive, Olive oil, Olives, Oregano, Red onion, Red onions, Salad recipes, Summer, Summer salads, Vine tomato, Vine tomatoes\",\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Good Food\",\n    \"url\": \"https://www.bbcgoodfood.com\",\n    \"logo\": {\n      \"@type\": \"ImageObject\",\n      \"height\": 325,\n      \"url\": \"https://images.immediate.co.uk/production/volatile/sites/30/2026/02/goodfood.logo-f37096c.png?resize=1312,325\",\n      \"width\": 1312\n    }\n  },\n  \"nutrition\": {\n    \"@type\": \"NutritionInformation\",\n    \"calories\": \"211 calories\",\n    \"fatContent\": \"17 grams fat\",\n    \"saturatedFatContent\": \"5 grams saturated fat\",\n    \"carbohydrateContent\": \"8 grams carbohydrates\",\n    \"sugarContent\": \"7 grams sugar\",\n    \"fiberContent\": \"3 grams fiber\",\n    \"proteinContent\": \"5 grams protein\",\n    \"sodiumContent\": \"0.98 milligram of sodium\"\n  },\n  \"prepTime\": \"PT15M\",\n  \"recipeCategory\": \"Dinner, Lunch, Main course, Side dish\",\n  \"recipeCuisine\": \"Greek\",\n  \"recipeIngredient\": [\n    \"4 large  vine tomatoes cut into irregular wedges\",\n    \"1 cucumber peeled, deseeded, then roughly chopped\",\n    \"½ a red onion thinly sliced\",\n    \"16 Kalamata olives\",\n    \"1 tsp dried oregano\",\n    \"85g feta cheese cut into chunks (barrel matured feta is the best)\",\n    \"4 tbsp Greek extra virgin olive oil\"\n  ],\n  \"recipeInstructions\": [\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Place 4 large vine tomatoes, cut into wedges, 1 peeled, deseeded and chopped cucumber, ½ a thinly sliced red onion, 16 Kalamata olives, 1 tsp dried oregano, 85g feta cheese chunks and 4 tbsp Greek extra virgin olive oil in a large bowl.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Lightly season, then serve with crusty bread to mop up all of the juices.\"\n    }\n  ],\n  \"recipeYield\": \"Serves 4 as a side - easily doubled for main course\",\n  \"suitableForDiet\": \"https://schema.org/GlutenFreeDiet, https://schema.org/VegetarianDiet\",\n  \"totalTime\": \"PT15M\"\n}",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 1,
+        "mappedStepImages": 0,
+        "stepImageCoverage": 0,
+        "ingredientCount": 9,
+        "executableStepCount": 2,
+        "notes": [
+          "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented."
+        ]
+      }
+    }
+  ],
+  "sourceMode": "single_source",
+  "singleSourceReason": "Exact-name and alias KB query first; all84actual book records checked, no matching Western recipe. Enabled BBC and Serious Eats alternatives attempted; only one independent complete coherent source remains eligible. Other inaccessible, materially different, or internally conflicting variants are retained in audit and never used to supplement it.",
+  "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/greek-salad",
+  "selectionReason": "Selected exactly one whole BBC recipe: full coherent ingredients/method match the target; verified usable hero (no source step photos available). Other sources have no verified usable media URLs under ordinary access. Under the required completeness/coherence then usable-image/coverage ranking, this source leads; its ingredients, operations, tips and media are kept together without supplementation.",
+  "ragEvidence": [
+    {
+      "chunkId": "cacb3452-69c3-4b7b-a10c-52ba886d5188",
+      "documentId": "736060f3-bc3f-4a0e-ba77-bce2fb6ba84e",
+      "sourceName": "BBC Good Food",
+      "chunkType": "summary",
+      "content": "菜名：希腊沙拉\n别名：Greek salad\n菜系：Greek\n简介：Make a fresh and colourful Greek salad in no time. It's great with grilled meats at a barbecue, or on its own as a veggie main",
+      "similarity": 0.728958622875297
+    },
+    {
+      "chunkId": "ffc2ffb8-37ab-4ddb-b90f-60e86b2f8f54",
+      "documentId": "736060f3-bc3f-4a0e-ba77-bce2fb6ba84e",
+      "sourceName": "BBC Good Food",
+      "chunkType": "ingredients",
+      "content": "菜名：希腊沙拉\n- 4 large vine tomatoes cut into irregular wedges\n- 1 cucumber peeled, deseeded, then roughly chopped\n- ½ a red onion thinly sliced\n- 16 Kalamata olives\n- 1 tsp dried oregano\n- 85g feta cheese cut into chunks (barrel matured feta is the best)\n- 4 tbsp Greek extra virgin olive oil\n- Lightly season (step2; unspecified type and amount)\n- crusty bread to serve (step2; amount unspecified)",
+      "similarity": 0.693238056512111
+    },
+    {
+      "chunkId": "ad54eecb-70b6-4c99-9226-624d94faf0a3",
+      "documentId": "736060f3-bc3f-4a0e-ba77-bce2fb6ba84e",
+      "sourceName": "BBC Good Food",
+      "chunkType": "steps",
+      "content": "菜名：希腊沙拉\n1. Place 4 large vine tomatoes, cut into wedges, 1 peeled, deseeded and chopped cucumber, ½ a thinly sliced red onion, 16 Kalamata olives, 1 tsp dried oregano, 85g feta cheese chunks and 4 tbsp Greek extra virgin olive oil in a large bowl.\n2. Lightly season, then serve with crusty bread to mop up all of the juices.",
+      "similarity": 0.685893215430592
+    },
+    {
+      "chunkId": "317f9055-aaaf-432f-bf8b-c19647f0c056",
+      "documentId": "736060f3-bc3f-4a0e-ba77-bce2fb6ba84e",
+      "sourceName": "BBC Good Food",
+      "chunkType": "tips",
+      "content": "菜名：希腊沙拉\n- 原文未提供额外提示。",
+      "similarity": 0.678776462151024
+    },
+    {
+      "chunkId": "4600cd6c-4b38-4bb6-a1b6-ed96ffafd749",
+      "documentId": "736060f3-bc3f-4a0e-ba77-bce2fb6ba84e",
+      "sourceName": "BBC Good Food",
+      "chunkType": "technique",
+      "content": "菜名：希腊沙拉\n- 原文未明确说明技法。",
+      "similarity": 0.669627527307646
+    }
+  ],
+  "notes": [
+    "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented.",
+    "BBC source original yield: Serves 4 as a side - easily doubled for main course",
+    "BBC original totalTime: PT15M",
+    "BBC original cookTime: unspecified",
+    "BBC original prepTime: PT15M",
+    "Alternative attempts: [{\"url\":\"https://www.bbcgoodfood.com/recipes/greek-salad\",\"status\":200,\"bytes\":560319}]",
+    "Current book inventory and22target audit: west-kb-audit.json. Invalid/superseded/rejected history excluded.",
+    "Serious Eats direct Python460/normalPowerShell402/normalChrome402; normalweb.open successfully retrieved the complete recipes included here. All successful complete matching sources ingested separately before selection; no access-control bypass.",
+    "Alternative enabled-site searches and complete observed source text are archived in west-alternative-search.json and west-se-*.txt.",
+    "Selected source has no verified cooking-stage photos; do not fabricate or relabel a finished-dish photo. Parent must resolve manual-run image exception before publishing."
+  ]
+}

@@ -1,0 +1,368 @@
+Soup Dumpling Recipe (Xiaolongbao - 小笼包) - The Woks of Life (https://thewoksoflife.com/steamed-shanghai-soup-dumplings-xiaolongbao/)
+citeturn71view0 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://thewoksoflife.com/steamed-shanghai-soup-dumplings-xiaolongbao/","lineno":null}); Total lines: 471
+L0: My Saved Recipes
+L1: 
+L2: [Input: Search...][Button: Search]
+L3:   * cite0†Recipes L4:     * cite1†Recipe Index L5:     * cite2†Recipe Filter L6:     * cite3†View all By Date L7:     * cite4†Our Cookbook: NOW AVAILABLE! L8:     * cite5†Videos†www.youtube.com L9:   * cite6†How-To L10:     * cite7†Cooking MethodsAll how-to cooking methods L11:     * cite8†Cooking ToolsAll Cooking tools including hand and electrics L12:     * cite9†ShopOur favorite cooking tools, kitchen appliances, and more! L13:     * cite10†Wok Guide L14:     * cite11†Garden/FarmWe share our learnings from our new Woks of Life HQ/farm (where we moved in Fall of 2021) on how to grow Chinese vegetables, fruits, and other produce, as well as farm updates: our chickens, ducks, goats, alpacas, and resident llama! L15:     * cite12†CultureCulture related posts L16:   * cite13†Ingredients L17:     * cite13†Chinese Ingredients Glossary L18:     * cite14†Sauces, Wines, Vinegars & Oils L19:     * cite15†Spices & Seasonings L20:     * cite16†Dried, Cured & Pickled Ingredients L21:     * cite17†Noodles & Wrappers L22:     * cite18†Rice, Grains, Flours & Starches L23:     * cite19†Tofu, Bean Curd & Seitan L24:     * cite20†Vegetables & Fungi L25:     * cite21†Fresh Herbs & Aromatics L26:   * Life & Travel
+L27:     * cite22†Life L28:     * cite23†Travel L29:   * cite24†Contact L30:     * cite25†Work with Us L31:     * cite26†Press L32:     * cite24†Send Us A Message L33:   * cite27†About Us L34: # Soup Dumplings (Xiaolongbao – 小笼包)
+L35: 
+L36: cite28†Image: Judy L37: 
+L38: by:
+L39: 
+L40: cite29†Judy L41: 
+L42: cite30†510 Comments L43: 
+L44: cite31†Jump to Recipe L45: 
+L46: Updated: 9/25/2024
+L47: 
+L48: cite32†Image: Steamed Shanghai Soup Dumplings (Xiaolongbao), by thewoksoflife.com L49: 
+L50: Chinese Soup Dumplings, or xiaolongbao (xiǎo lóng bāo – 小笼包), are perhaps the most perfect single bite of food ever conceived by man. Ever wonder how they get the soup into the dumpling? We have the soup dumpling recipe that reveals the secret!
+L51: If you’ve never tried soup dumplings and don’t have any Chinese restaurants near you that serve them, we have good news. You can make soup dumplings at home.
+L52: ## What Are Soup Dumplings?
+L53: 
+L54: Chinese soup dumplings, xiǎo lóng bāo, tāng bāo (汤包), or “soupy buns” (as it is delightfully translated on some menus), are a steamed dumpling consisting of a paper thin wrapper enveloping a seasoned pork filling and hot, flavorful soup.
+L55: This tantalizing, dreamy snack is probably the most famous dish to come out of the cite33†Jiangnan region†en.wikipedia.org of China. It is often associated with the city of Shanghai (the largest city in the region by population, and also the largest city in all of China!), which is why soup dumplings are often called “Shanghai Soup Dumplings.”
+L56: 
+L57: cite34†Image: xiaolongbao in bamboo steamer for soup dumpling recipe L58: 
+L59: Here’s how the translation of the word xiǎo lóng bāo breaks down:
+L60:   * xiǎo lóng (小笼) means “small basket,” referring to the bamboo steamer basket that these dumplings get cooked in, though it could also be translated to “cage” or “coop.”
+L61:   * bāo (包) translates to “dumpling” or “bun,” though it can also be translated to “bag,” “bundle, “or “packet.”
+L62: 
+L63: The other word for soup dumplings in Chinese, tāng bāo (汤包), is much simpler! Tāng means “soup” and bāo means “dumpling.” Easy!
+L64: 
+L65: cite35†Image L66: ### Funny story (feel free to skip ahead)
+L67: 
+L68: Hey everyone, Sarah here. Having lived in China for a couple years, I’ve chuckled at quite a few Chinese –> English menu translations in my day. One of the funniest, though, was a Suzhou-Style Soup Dumpling. In Chinese, it read: 苏式小笼包. In English? “Soviet-Style Cage Bag.”
+L69: 
+L70: As you can tell from the alternative translations of those individual words above, it’s very easy to end up with these kooky translations, especially if you’re relying on translation apps!
+L71: Each xiaolongbao is pleated with many folds. (Some, like the famed soup dumpling restaurant cite36†Din Tai Fung†dintaifungusa.com , say that 18 folds is the perfect number!) Once steamed, the delicate dumplings are dipped in a mixture of cite37†Chinese black vinegar and julienned ginger for the perfectly balanced bite.
+L72: Soup dumplings are traditionally made with a plain pork filling, while some versions contain a mixture of pork and crab. New and modern versions may also contain other types of meat, seafood, or vegetarian fillings. We’ve now seen black truffle soup dumplings, duck soup dumplings, and spicy beef soup dumplings!
+L73: ## How Do They Get the Soup into the Soup Dumpling?
+L74: 
+L75: That, my friends, is the million dollar question!
+L76: 
+L77: The secret to getting the soup into a Chinese soup dumpling is to create a rich pork aspic using collagen/gelatin-rich pork skin and neck bones. The aspic is basically the soup in solid form, allowing you to fold it into the filling.
+L78: 
+L79: Once steamed, the gelatinous aspic returns to its liquid form, creating those rivers of hot soup that you can slurp out the sides of the dumpling!
+L80: ## Developing This Recipe
+L81: 
+L82: Perfecting this technique is not easy, and I will say that this was not an easy recipe to create. Having eaten these in restaurants in Beijing, cite38†Shanghai , and around the world, our standards are high.
+L83: 
+L84: We tested and tried many versions to get each element correct, from the dough, to the filling, to the soup. Now, every time we walk into a xiao long bao restaurant, we’re amazed by the speed and ease with which those cooks prepare these delicate dumplings.
+L85: But I’m so excited about this recipe and to finally be able to share it with everyone. It’s a family favorite (Sarah has a particular obsession with them), and well worth a little patience in the kitchen.
+L86: 
+L87: I still feel I have so much to tell you about these Shanghai soup dumplings. But as Confucius said, “I hear and I forget; I see and I remember; I do and I understand.” Try this soup dumpling recipe, and I will let you come to your own conclusions.
+L88: Follow the recipe’s steps as closely as possible, and you will be overjoyed with the result!
+L89: 
+L90: cite35†Image L91: ### Bamboo steamers
+L92: 
+L93: If you don’t have a bamboo steamer, try your Asian grocer or click cite39†here†www.amazon.com to get one on Amazon (note, this is an affiliate link, so any purchases from Amazon using this link will help support The Woks of Life).
+L94: 
+L95: If you’re not familiar with using one, check out our cite40†full bamboo steamer guide .
+L96: Other recipes where you will find the investment in the steamer basket useful is in our cite41†dim sum collection . For other kitchen tools we use and recommend, take a look at our cite42†cooking tools page .
+L97: 
+L98: cite43†Image: Shanghai Steamed Soup Dumplings (Xiaolongbao), by thewoksoflife.com L99: ## Soup Dumpling Recipe Instructions
+L100: 
+L101: Below, you will find step-by-step detailed instructions with photos. For the full printable recipe card in condensed form, with all the measurements, scroll down to the bottom of this post.
+L102: ### Step 1: The Aspic
+L103: 
+L104: The first thing to make is the aspic, or meat gelatin, which will create the soup in the xiaolongbao.
+L105: 
+L106: You’ll make a pork soup with bones and skin. (Don’t freak out at this! The Chinese—as well as all of the world’s great food cultures—have learned to utilize every part of an animal and leave nothing behind to waste!). This soup will become a smooth, firm aspic once you chill it.
+L107: You can use the skin from a skin-on pork shoulder (also known as a picnic shoulder) and buy pork neck bones or ham bones. If they’re not readily available in your local market, ask the butcher.
+L108: 
+L109: You’ll need:
+L110: 
+L111:   * ½ lb pork skin (225g), cut into 1-inch strips
+L112:   * 1 lb (450g) pork neck bones (you want neck bones that still have meat on them!)
+L113:   * water
+L114:   * 2 slices cite44†ginger L115:   * 1 cite21†scallion , cut into 3 pieces
+L116:   * 1 tablespoon cite45†shaoxing wine or (dry cooking sherry)
+L117: 
+L118: cite35†Image L119: ### Tip:
+L120: 
+L121: You won’t need powdered gelatin here. The gelatin will come from the bones and skin. That said, if you want to add it to ensure the aspic sets, you can add 1 envelope (2 1/2 teaspoons) of gelatin powder.
+L122: 
+L123: In a small pot, add the pork skin and pork bones and cover with cold water. Bring to a rolling boil, and immediately drain and rinse off the bones and the skin. This gets rid of any impurities.
+L124: Rinse out the pot and put everything back in. Add 4 cups (950 ml) of water along with the ginger, scallion and wine. Bring the pot to a boil and then reduce the heat to low. Cover and simmer for 2 hours.
+L125: 
+L126: After 2 hours, turn off the heat, allow the soup to cool, and strain the liquid into a bowl.
+L127: 
+L128: cite35†Image L129: ### An Aside:
+L130: 
+L131: As to the leftovers in the pot, you can discard them, or go the Chinese route, which would be to drizzle some light soy sauce over everything and start grazing).
+L132: 
+L133: Once the liquid is completely cooled, cover and refrigerate overnight.
+L134: 
+L135: This is what you’ll have the next day. Meat jello!
+L136: 
+L137: cite46†Image: Pork aspic, by thewoksoflife.com L138: ### Step 2: The Dough
+L139: 
+L140: This step is easy! You’ll need:
+L141: 
+L142:   * 1 cup all-purpose flour (130g)
+L143:   * 6 tablespoons warm water (90 ml)
+L144: 
+L145: In a mixing bowl, add the flour and warm water 1 tablespoon at a time. Work and knead the dough for 15-20 minutes. The dough should be very soft and smooth. Cover with a cloth and let it rest for 30 minutes.
+L146: 
+L147: cite35†Image L148: 
+L149: ### Can i use storebought dumpling wrappers?
+L150: 
+L151: While we wish you could, no. Store-bought dumpling wrappers aren’t pliable and elastic enough for these.
+L152: ### Step 3: The Filling
+L153: 
+L154: Okay, time to make the delicious xiaolongbao filling. You’ll need:
+L155: 
+L156:   * 1 pound (450g) ground pork (70% lean 30% fat)
+L157:   * 2 tablespoons cite45†shaoxing wine (or dry cooking sherry)
+L158:   * 3/4 teaspoon salt
+L159:   * 1/2 teaspoon cite47†sesame oil L160:   * 3/4 teaspoon sugar
+L161:   * 3 teaspoons cite14†soy sauce L162:   * 3 tablespoons water
+L163:   * A pinch of ground cite48†white-pepper L164:   * 1 tablespoon minced cite44†ginger L165:   * 1 heaping cup of your aspic, diced into ½-inch pieces
+L166: Take your ground pork and put it in the food processor. Pulse for 30-60 seconds until the pork resembles a paste. In a mixing bowl, add the pork and all the rest of the ingredients except the aspic.
+L167: 
+L168: cite49†Image: Mixing ground pork dumpling filling, by thewoksoflife.com L169: 
+L170: Using a pair of chopsticks, whip everything together thoroughly, for about 2 minutes. You want everything to be extremely well-combined. The pork should look like a light, airy paste. Gently fold in the diced aspic, and do not over-mix.
+L171: cite50†Image: Mixing pork and aspic to make filling, by thewoksoflife.com L172: 
+L173: Cover and transfer the filling to the refrigerator until ready to make the dumplings. If you’re ready now, you can put it in the freezer for 15 minutes to allow it to firm up and make assembling the buns easier.
+L174: ### Step 4: Assembly
+L175: 
+L176: Lightly dust a clean work surface with flour and roll the dough into a long cylinder/cigar, about 1 inch (2.5cm) in diameter. Cut the dough into small equal pieces weighing about 11 grams each (the dough chunks should be a size resembling that of gnocchi).
+L177: 
+L178: cite51†Image: Dumpling wrapper dough cut into small pieces, by thewoksoflife.com L179: Roll out each piece of dough into a thin, round disc about 3 – 3 ¼ inches (8cm) in diameter. Keep everything under a damp cloth. A cite52†Chinese rolling pin†amzn.to , which is only about 11 inches long and 1-inch thick, is ideal for this delicate work.
+L180: Prepare your cite53†bamboo steamer . You can line it with cheese cloth, napa cabbage leaves, or these lovely cite54†bamboo steamer discs†amzn.to , which can be found in some Chinese restaurant supply stores (if using these, you must brush the discs with oil first!).
+L181: 
+L182: cite55†Image: Single soup dumpling with many folds, by thewoksoflife.com cite56†Image: Xiaolongbao in bamboo steamer before cooking L183: When all that is prepared, take out the filling. You’ll be making each bun one at a time. Place about 1 tablespoon of filling in the middle of your dumpling skin. Pleat with as many folds as you can muster: 12-18 folds should do it.
+L184: Watch the video in our cite57†Carrot Ginger Pork Bun post . The technique is very similar. Basically, as you fold, you’re constantly using your thumb to push the filling into the resulting little “bag” that you’re creating with the dough. For this one, you’re just making more folds.
+L185: 
+L186: The xiaolongbao skin is very elastic, which is how you can get it so thin!
+L187: 
+L188: cite58†Image: Pork and aspic filling on thin dumpling wrapper, by thewoksoflife.com L189: Make sure the top is sealed. If the filling ever gets too wet or hard to handle, put it in the freezer for another 15 minutes and start again.
+L190: 
+L191: Place the buns in the lined cite53†steamer basket , about 2 inches (5cm) apart.
+L192: 
+L193: cite59†Image: Soup dumplings in steamer before cooking, by thewoksoflife.com L194: ### Step 5: Steaming
+L195: 
+L196: In a cite60†metal steamer pot or wok, boil water. If using a wok, put the water at a level so that when you put the bamboo steamer into the wok, the water rises about ½ inch up the bottom of the bamboo base. You never want the water to touch the dumplings inside, though, so make sure not to fill it too high!
+L197: Make sure not to fill it too low either, because if all the water evaporates, you could end up burning your bamboo steamer. S ee our post on cite61†how to set up a steamer if you’re not familiar with steaming foods in Chinese cooking.
+L198: 
+L199: Once the water is boiling, put the bamboo steamer in the wok or steamer pot, cover with the bamboo steamer lid, and steam over high heat for 8 minutes. Immediately remove the bamboo steamer from the pot and serve.
+L200: 
+L201: cite62†Image: steamed soup dumplings in bamboo steamer L202: ### Step 6: Eating!
+L203: 
+L204: Ok, so there is definitely a proper way to enjoy xiaolongbao. Put away the soy sauce, because it has no place on the table right now. What you want is cite37†Chinese black vinegar .
+L205: 
+L206: Pour some out into a small, round dish or bowl, and top with some very thinly julienned ginger. You can also dilute the vinegar with a tiny splash of water to make the flavor a little more delicate.
+L207: Take out your two utensils—chopsticks and a Chinese soup spoon (a fork would just butcher these and the soup would dribble out all over the table. It would be a tragedy of Shakespearean proportions).
+L208: 
+L209: Carefully, slowly peel the xiaolongbao off of the steamer basket and dip it into the vinegar.
+L210: 
+L211: cite63†Image: Chinese soup dumpling AKA xiaolongbao and vinegar, by thewoksoflife.com cite64†Image: soup dumpling in black vinegar with ginger L212: 
+L213: Gently transfer the dumpling to your cite65†soup spoon …
+L214: cite66†Image: Dipping xiaolongbao into black vinegar and ginger, by thewoksoflife.com L215: 
+L216: …and take a tiny bite out of the skin on the side of the soup dumpling to make a little hole. Proceed to slurp the soup out of the bun (Carefully. It’s HOT). Then, with a little more vinegar, finish the whole thing off in one bite.
+L217: 
+L218: Repeat as needed until all of the Shanghai Soup Dumplings are gone!
+L219: 
+L220: cite35†Image L221: ### MAKE-AHEAD & Freezer INSTRUCTIONS
+L222: 
+L223: If you’re looking to make these xialongbao ahead, it is best to prepare the filling in advance and refrigerate until you’re ready to assemble (this can be done up to 1 day in advance).
+L224: 
+L225: These dumplings work best when cooked fresh. You can freeze them, but allowing them to sit and freeze can create weaknesses in the very thin wrapper, which lead to the dumplings bursting open during cooking. (This is why frozen soup dumplings often have much thicker wrappers.)
+L226: However, if you are set on freezing them, here’s how:
+L227: 
+L228: To freeze, place on a baking sheet lined with parchment paper, spaced 1/2 inch apart so they are not touching. Cover with plastic (we use two clean plastic grocery bags.) Transfer to the freezer (make sure the tray is sitting flat and not slanted, or the dumplings may end up sliding into each other. Leave overnight, until frozen solid. The next day, transfer to an airtight container for longer term storage.
+L229: To cook from frozen, there is no need to thaw beforehand. Just put the frozen dumplings into your steamer basket, and extend the steaming time to 10 minutes!
+L230: 
+L231: Looking for more authentic recipes? Subscribe to our email list and be sure to follow us on cite67†Pinterest†www.pinterest.com , cite68†Facebook†www.facebook.com , cite69†Instagram†instagram.com , and cite70†Youtube!†www.youtube.com L232: ## Recipe
+L233: 
+L234: cite71†Image: Shanghai soup dumpling L235: 
+L236: cite72†Print L237: 
+L238: 4.85 from 52 votes
+L239: 
+L240: ### Soup Dumplings (Xiaolongbao – 小笼包)
+L241: 
+L242: Shanghai Soup Dumplings, or xiaolongbao (小笼包)—perhaps the most perfect single bite of food ever conceived by man—do not require much introduction. Paper-thin wrappers envelop perfectly seasoned pork filling and rivers of hot, flavorful soup. If you want to make more of these, you can multiply this recipe as needed!
+L243: 
+L244: by: Judy
+L245: 
+L246: Serves: 6
+L247: 
+L248: Prep: 1 d
+L249: 
+L250: Cook: 30 mins
+L251: 
+L252: Total: 1 d 30 mins
+L253: #### Ingredients
+L254: 
+L255: ##### For the aspic:
+L256: 
+L257:   * [Input]½ pound pork skin (cut into 1-inch strips)
+L258:   * [Input]1 pound pork neck bones (you want neck bones that still have meat on them!)
+L259:   * [Input]water
+L260:   * [Input]2 slices cite44†ginger L261:   * [Input]1 cite21†scallion (cut into 3 pieces)
+L262:   * [Input]1 tablespoon cite73†shaoxing wine (or dry cooking sherry)
+L263: 
+L264: ##### For the dough:
+L265: 
+L266:   * [Input]1 cup all-purpose flour
+L267:   * [Input]6 tablespoons warm water
+L268: ##### For the filling:
+L269: 
+L270:   * [Input]1 pound cite74†ground pork (70% lean 30% fat)
+L271:   * [Input]2 tablespoons cite73†shaoxing wine (or dry cooking sherry)
+L272:   * [Input]3/4 teaspoon cite75†salt L273:   * [Input]1/2 teaspoon cite76†sesame oil L274:   * [Input]3/4 teaspoon sugar
+L275:   * [Input]3 teaspoons cite77†soy sauce L276:   * [Input]3 tablespoons water
+L277:   * [Input]1/8 teaspoon cite78†white-pepper L278:   * [Input]1 tablespoon cite44†ginger (minced)
+L279:   * [Input]1 heaping cup aspic (diced into ½-inch/1cm pieces)
+L280: ##### To serve:
+L281: 
+L282:   * [Input]cite37†Chinese black vinegar L283:   * [Input]cite44†fresh ginger (julienned)
+L284: 
+L285: [Button: US Customary][Button: Metric]
+L286: 
+L287: #### Instructions
+L288: ##### The Aspic:
+L289: 
+L290:   * In a small pot, add the pork skin and pork bones and cover with cold water. Bring to a rolling boil, and immediately drain and rinse off the bones and the skin. This gets rid of any impurities. Rinse out the pot and put everything back in. Add 4 cups (950 ml) water, ginger, scallion and wine. Bring the pot to a boil and then reduce the heat to low. Cover and simmer for 2 hours.
+L291:   * After 2 hours, turn off the heat, allow the soup to cool, and strain the liquid into a bowl. Once the liquid is completely cooled, cover and refrigerate overnight.
+L292: ##### The Dough:
+L293: 
+L294:   * In a mixing bowl, add the flour and the warm water 1 tablespoon at a time. Work and knead the dough for 15-20 minutes. The dough should be very soft and smooth. Cover with a cloth and let it rest for 30 minutes.
+L295: ##### The Filling:
+L296:   * Take your ground pork and put it in the food processor. Pulse for 30-60 seconds until the pork resembles paste. In a mixing bowl, add the pork and the rest of the ingredients except the aspic. Whip everything together thoroughly, for about 2 minutes. You want everything to be extremely well combined, and the pork should look like a light, airy paste. Gently fold in the diced aspic, and do not over-mix. Cover and transfer the filling to the refrigerator until ready to make the dumplings.
+L297: If you’re ready now, you can put it in the freezer for 15 minutes to allow it to firm up and make assembling the buns easier.
+L298: ##### Assembly:
+L299: 
+L300:   * Lightly dust a clean work surface with flour and roll the dough into a long cylinder/cigar, about an inch in diameter. Cut the dough into small equal pieces weighing about 11 grams each (the dough chunks should be a size resembling that of gnocchi). Roll out each piece into a round disc about 3 – 3 ¼ inches (8cm) in diameter. Keep everything under a damp cloth.
+L301:   * Prepare your bamboo steamer. You can line it with cheese cloth, napa cabbage leaves, or these lovely bamboo steamer discs, which can be found in some Chinese restaurant supply stores (if using these, you must brush the discs with oil first!).
+L302:   * When all that is prepared, take out the filling. You’ll be making each bun one at a time. Place about 1 tablespoon of filling in the middle of your dumpling skin. Pleat with as many folds as you can muster: 12-20 folds should do it. Make sure the top is sealed. If the filling ever gets too wet or hard to handle, put it in the freezer for another 15 minutes and start again.
+L303: 
+L304:   * Place the buns in the lined steamer basket, about 2 inches (5cm) apart.
+L305: ##### Steaming:
+L306: 
+L307:   * In a metal steamer pot or wok, boil water. If using a wok, put the water at a level so that when you put the bamboo steamer into the wok, the water rises about ½ inch up the bottom of the bamboo base. You never want the water to touch the dumplings inside, though, so make sure not to fill it too high!
+L308:   * Once the water is boiling, put the bamboo steamer in the wok or steamer pot, cover with the bamboo steamer lid, and steam over high heat for 8 minutes. Immediately remove the bamboo steamer from the pot and serve.
+L309: ##### Eating:
+L310: 
+L311:   * Ok, so there is definitely a proper way to enjoy these dumplings. Put away the soy sauce because it has no place on the table right now. What you want is Chinese black vinegar. Pour some out into a small, round dish or bowl, and top with some very thin matchsticks of ginger.
+L312: 
+L313:   * Take out your two utensils—chopsticks and a Chinese soup spoon (a fork would just butcher these and the soup would dribble out all over the table. It would be a tragedy of Shakespearean proportions).
+L314:   * Carefully, slowly peel the xiaolongbao off of the steamer basket and dip it into the vinegar. Gently transfer the dumpling to your soupspoon and take a tiny bite out of the skin on the side of the bun to make a little hole. Proceed to slurp the soup out of the bun (Carefully. It’s HOT). Then, with a little more vinegar, finish the whole thing off in one bite.
+L315: #### Tips & Notes:
+L316: 
+L317: Makes 18-20 dumplings, about 3 pieces per serving.
+L318: 
+L319: It’s not really a good idea to freeze these, as they’re so delicate.
+L320: #### Nutrition Facts
+L321: 
+L322: Calories: 294 kcal (15%) Carbohydrates: 17 g (6%) Protein: 15 g (30%) Fat: 17 g (26%) Saturated Fat: 6 g (30%) Cholesterol: 54 mg (18%) Sodium: 503 mg (21%) Potassium: 246 mg (7%) Fiber: 1 g (4%) Sugar: 1 g (1%) Vitamin A: 20 IU Vitamin C: 1 mg (1%) Calcium: 14 mg (1%) Iron: 2 mg (11%)
+L323: 
+L324: Nutritional Info Disclaimer Hide Disclaimer
+L325: TheWoksofLife.com is written and produced for informational purposes only. While we do our best to provide nutritional information as a general guideline to our readers, we are not certified nutritionists, and the values provided should be considered estimates. Factors such as brands purchased, natural variations in fresh ingredients, etc. will change the nutritional information in any recipe. Various online calculators also provide different results, depending on their sources.
+L326: To obtain accurate nutritional information for a recipe, use your preferred nutrition calculator to determine nutritional information with the actual ingredients and quantities used.
+L327: Did You Make This?Tag us on Instagram cite79†@thewoksoflife†www.instagram.com and be sure to follow us on social for more!
+L328: 
+L329: cite79†@thewoksoflife†www.instagram.com L330: 
+L331: Note: This xiaolongbao recipe was originally published on September 1, 2014. We have since updated it with clearer instructions, high-res images, nutrition information, metric measurements, and more, as of October 2019. Though the instructions have been made clearer, the recipe remains the same as it was five years ago. Enjoy!
+L332: 
+L333: cite80†Image: Judy L334: About
+L335: 
+L336: Judy
+L337: Judy Leung is the matriarch of The Woks of Life family, working on the blog alongside husband Bill and daughters Sarah and Kaitlin. Born in Shanghai, China, she immigrated to the United States at sixteen. Fluent in both English and three Chinese dialects, she also plays the important role of researcher and menu translator! Drawing from over four decades of cooking experience and travel, Judy aims to bring Chinese culinary traditions to readers and preserve recipes that might otherwise be lost to time.
+L338: Her expertise spans from Shanghainese cooking and everyday homestyle dishes to a variety of regional foodways, showcasing the depth and breadth of Chinese cuisine for a global audience. Over the last decade, she’s helped transform The Woks of Life into what Saveur Magazine has deemed “the internet’s most popular Chinese cooking blog,” co-written a New York Times bestselling cookbook, and become convinced that we will never run out of recipes to share!
+L339: cite81†Image: guest L340: 
+L341: Label
+L342: 
+L343: Rate this recipe: Rate this recipe: [Input]
+L344: [Input]
+L345: [Input]
+L346: [Input]
+L347: [Input]
+L348: [Input]
+L349: 
+L350: [Input: Name*] Name*
+L351: 
+L352: [Input: Email*] Email*
+L353: 
+L354: [Input]
+L355: 
+L356: [Input]
+L357: 
+L358: [Input]
+L359: 
+L360: cite81†Image: guest L361: 
+L362: Label
+L363: 
+L364: Rate this recipe: Rate this recipe: [Input]
+L365: [Input]
+L366: [Input]
+L367: [Input]
+L368: [Input]
+L369: [Input]
+L370: 
+L371: [Input: Name*] Name*
+L372: 
+L373: [Input: Email*] Email*
+L374: 
+L375: [Input]
+L376: 
+L377: [Input]
+L378: 
+L379: [Input]
+L380: 
+L381: 510 Comments
+L382: 
+L383: Newest
+L384: 
+L385: Oldest Most Voted
+L386: 
+L387: [Button: Load More Comments ]
+L388: 
+L389: cite82†Image: Sarah, Kaitlin, Judy, and Bill cooking together L390: ## Welcome!
+L391: 
+L392: We’re Sarah, Kaitlin, Judy, and Bill– a family of four cooks sharing our home-cooked and restaurant-style recipes.
+L393: 
+L394: cite27†Our Story L395: 
+L396: cite83†Image L397: 
+L398: sign up for our newsletter and receive:
+L399: ## our Top 25 recipes eBook
+L400: 
+L401: Our email newsletter delivers our new recipes and latest updates. It’s always free and you can unsubscribe any time.
+L402: 
+L403: [Input: First Name]
+L404: 
+L405: [Input: Your email address]
+L406: 
+L407: [Input]
+L408: 
+L409: Leave this field empty if you're human: [Input][Input][Input][Input]
+L410: 
+L411: cite10†Wok Guide L412: 
+L413: cite13†Ingredients 101 L414: 
+L415: cite84†Cooking Tools L416: 
+L417: cite85†Kitchen Wisdom L418: 
+L419: cite86†＊ Surprise Me! ＊ L420: 
+L421: cite87†Image L422: ## Save Your Favorite Woks of Life Recipes!
+L423: 
+L424: Create an account to save your favorite dishes & get email udpates!
+L425: 
+L426: cite88†Sign Me Up L427: 
+L428: * * *
+L429: 
+L430: Sign Up For Email Updates & Receive Our
+L431: ## Top 25 Recipes Ebook!
+L432: 
+L433: [Input: First Name]
+L434: 
+L435: [Input: Your email address]
+L436: 
+L437: [Input]
+L438: 
+L439: Leave this field empty if you're human: [Input][Input][Input][Input]
+L440: 
+L441: “
+L442: 
+L443: “I am proud to say that your genealogy has been the sole tutorial for my Asian-inspired culinary adventures for years; probably since you began. Time and again, my worldwide web pursuits for solid recipes that I know my family will eat has landed me back here.”
+L444: 
+L445: Beth, Community Member Since 2013
+

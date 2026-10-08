@@ -1,0 +1,234 @@
+{
+  "recipeId": "west-015",
+  "documentId": "457ca423-d4ad-460e-97de-5a10ca5464bf",
+  "chunks": 8,
+  "embeddingModel": "voyage-4",
+  "dimension": 1024,
+  "semantic": 8,
+  "hybrid": 8,
+  "source": {
+    "sourceName": "Serious Eats",
+    "sourceType": "website",
+    "url": "https://www.seriouseats.com/the-best-chicken-parmesan-recipe",
+    "documentId": "457ca423-d4ad-460e-97de-5a10ca5464bf",
+    "retrievalMethod": "normal web.open full accessible page; merged overlapping line ranges; direct requests460 and browser402 retained as transport history",
+    "complete": true,
+    "ingredients": [
+      {
+        "name": "3 boneless skinless chicken breast halves",
+        "raw": "3 boneless skinless chicken breast halves",
+        "amount": null
+      },
+      {
+        "name": "1 3/4 cups buttermilk, divided",
+        "raw": "1 3/4 cups buttermilk, divided",
+        "amount": null
+      },
+      {
+        "name": "2 medium cloves garlic, minced (about 2 teaspoons)",
+        "raw": "2 medium cloves garlic, minced (about 2 teaspoons)",
+        "amount": null
+      },
+      {
+        "name": "Kosher salt and freshly ground black pepper",
+        "raw": "Kosher salt and freshly ground black pepper",
+        "amount": null
+      },
+      {
+        "name": "1/2 loaf crusty Italian bread, crust removed, sliced into 1/2-inch slices",
+        "raw": "1/2 loaf crusty Italian bread, crust removed, sliced into 1/2-inch slices",
+        "amount": null
+      },
+      {
+        "name": "5 ounces grated Parmesan cheese, plus more for serving",
+        "raw": "5 ounces grated Parmesan cheese, plus more for serving",
+        "amount": null
+      },
+      {
+        "name": "1 1/2 cups all purpose flour",
+        "raw": "1 1/2 cups all purpose flour",
+        "amount": null
+      },
+      {
+        "name": "2 large eggs",
+        "raw": "2 large eggs",
+        "amount": null
+      },
+      {
+        "name": "1 quart Italian-American red sauce (see notes)",
+        "raw": "1 quart Italian-American red sauce (see notes)",
+        "amount": null
+      },
+      {
+        "name": "1/2 cup vegetable or canola oil",
+        "raw": "1/2 cup vegetable or canola oil",
+        "amount": null
+      },
+      {
+        "name": "10 ounces fresh mozzarella cheese, cut into 1/2-inch chunks",
+        "raw": "10 ounces fresh mozzarella cheese, cut into 1/2-inch chunks",
+        "amount": null
+      },
+      {
+        "name": "2 tablespoons minced fresh parsley, basil, or a mix",
+        "raw": "2 tablespoons minced fresh parsley, basil, or a mix",
+        "amount": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "With a sharp chef's knife, split chicken breasts in half horizontally. Working one piece at a time, place inside a plastic zipper-lock bag and pound with a meat pounder or the bottom of a skillet to an even 1/4-inch thickness. Transfer to a large bowl.",
+        "duration": null,
+        "heat": null
+      },
+      {
+        "order": 2,
+        "instruction": "Add 1 1/2 cups buttermilk and minced garlic to bowl. Season with 2 tablespoons kosher salt and 1 teaspoon freshly ground black pepper. Turn chicken with hands until salt, pepper, and garlic are evenly incorporated and all the chicken is coated in buttermilk mixture. Transfer to a large zipper-lock bag, press out the air, and seal. Refrigerate for at least 4 hours and up to overnight (see note).",
+        "duration": null,
+        "heat": null
+      },
+      {
+        "order": 3,
+        "instruction": "Meanwhile, place bread slices on a rack set in a rimmed baking sheet. Leave out on counter for at least 4 hours and up to overnight until mostly dried.",
+        "duration": null,
+        "heat": null
+      },
+      {
+        "order": 4,
+        "instruction": "The next day, break bread into rough pieces (leave the wire rack in the rimmed baking sheet) and combine with 4 ounces Parmesan cheese in the food processor. Season with black pepper. Process until bread is finely ground, about 20 seconds. Transfer mixture to a large shallow bowl or pie plate.",
+        "duration": null,
+        "heat": null
+      },
+      {
+        "order": 5,
+        "instruction": "Place flour in a second shallow bowl or pie plate. Whisk eggs, 2 tablespoons buttermilk, and 1 tablespoon of the flour in a third pie plate. Drizzle remaining 2 tablespoons buttermilk over the bread crumb/Parmesan mixture and incorporate with your fingertips. The mixture should be mealy, but hold together in clumps if you squeeze it together with your hands.",
+        "duration": null,
+        "heat": null
+      },
+      {
+        "order": 6,
+        "instruction": "Working one piece of chicken at a time, remove from the bag and add to flour. Turn to coat, shake off excess, and add to egg mixture. Turn to coat, letting excess drip off, and add to bread crumb mixture. Turn to coat, piling crumbs on top and pressing down firmly so a thick layer adheres. Transfer coated chicken to the wire rack and repeat with remaining chicken breasts.",
+        "duration": null,
+        "heat": null
+      },
+      {
+        "order": 7,
+        "instruction": "Preheat oven to 425°F. Place sauce in a medium saucepan and heat over low heat, stirring occasionally, until barely simmering. Remove from heat and set aside.",
+        "duration": null,
+        "heat": null
+      },
+      {
+        "order": 8,
+        "instruction": "Heat oil in a large non-stick or cast iron skillet over medium-high heat until it registers 375 to 400°F on an instant read or deep-frying thermometer. Working in batches, carefully add chicken by lowering the cutlets away from you into the oil. Add as many cutlets as will fit in one layer (2 to 3).",
+        "duration": null,
+        "heat": null
+      },
+      {
+        "order": 9,
+        "instruction": "Cook, swirling pan gently and using a thin flexible metal spatula to loosen chicken if it sticks, until chicken is golden-brown and crisp on bottom side, about 2 minutes. Using a thin metal spatula and a fork, carefully flip chicken and cook until golden brown on second side. Transfer chicken to a paper-towel lined plate to drain and repeat with remaining chicken.",
+        "duration": null,
+        "heat": null
+      },
+      {
+        "order": 10,
+        "instruction": "Spoon 1/3 of sauce onto the bottom of a casserole or oven-safe serving dish. Shingle chicken pieces on top of sauce. Top with more sauce, forming a line down the center. Combine mozzarella and remaining 1 tablespoon Parmesan cheese in a large bowl and toss to coat. Lay cheese mixture over chicken in a straight line down the center.",
+        "duration": null,
+        "heat": null
+      },
+      {
+        "order": 11,
+        "instruction": "Transfer to the oven and cook until cheese is melted and bubbly, about 20 minutes. Remove from oven and immediately grate fresh Parmesan on top. Allow to rest for 3 minutes, top with chopped herbs, and serve immediately.",
+        "duration": null,
+        "heat": null
+      }
+    ],
+    "technique": [],
+    "tips": [
+      "For best results, let the chicken brine in the buttermilk for at least 4 hours. If pressed for time, you can cut the brining time down to 1 hour and still get good results. You can use our All-Day Red Sauce or our Quick and Easy Red Sauce for this recipe, or a jar of your favorite tomato sauce (we recommend Rao's). For the mozzarella, I recommend the fresh variety available in cryovack containers, not the water-packed variety (which tends to be too moist)."
+    ],
+    "rawExcerpt": "iframe†www.googletagmanager.com\n\nSerious Eats\n\nSave\n\nRate\n\n* Search [Input: What are you looking for?]\n\n* Newsletters\n* Sweepstakes\n* Serious Eats\n# The Best Chicken Parmesan\n\n4.8\n\n(12)\n\n48 Reviews\n\nClassic Italian-American chicken parmesan made even better with a buttermilk brine for tender chicken, a flavorful breading, and slow-cooked red sauce.\n\nBy\n\nJ. Kenji López-Alt\n\nImage: Kenji Lopez Alt Image: Kenji Lopez Alt\n\nJ. Kenji López-Alt\nKenji is the former culinary director for Serious Eats and a current culinary consultant for the site. He is also a New York Times food columnist and the author of The Food Lab: Better Home Cooking Through Science.\n\nSerious Eats' Editorial Guidelines\n\nUpdated on December 13, 2025\n\nClose\n\nImage: Chicken Parmesan on a white plate.  Image: Chicken Parmesan on a white plate.\n\nCredit:\n\nSerious Eats / J. Kenji Lopez-Alt\n\nIn This Recipe\n\nView All\n\nIn This Article\n* Crumby Flavor: A Breading With Extra Crunch\n\n* Frying at the Right Temperature Is Key\n\n* Choosing the Best Cheese and Sauce\n\n* Assembling and Baking Your Chicken Parm\n\n* A Buttermilk Brine Tenderizes and Flavors Your Chicken\n\nJump to recipe\n### Heading\n\n* A garlic-spiked buttermilk brine boosts flavor, tenderness, and moisture in the chicken cutlets.\n* Mixing fresh bread crumbs with Parmesan cheese adds extra flavor to the breading.\n* A splash of buttermilk in the bread crumb/cheese mix gives it body, creating even crispier fried cutlets.\n* Cubed mozzarella combined with grated Parmesan melts beautifully and combats the blandness of plain mozzarella.\nEditor's Note: Chicken Parmesan and Chicken Parmigiana are the same dish. We use “Parmesan” throughout this recipe to reflect the dish’s American origin.\nI can count the number of times I've had truly bad chicken parm on one hand, and all of those situations involved alcohol, steam tables, and friends with loose morals (or, at the very least, questionable taste). Like pizza, if you order chicken parm—even at the chainiest of chain restaurants—you're going to get something pretty good. It's pretty hard to mess up a fried breaded chicken cutlet smothered with red sauce and melted mozzarella and Parmesan cheese.\nThe dish originates from Melanzane alla Parmigiana , the classic Italian dish of eggplant sautéed in olive oil and layered with tomato sauce and mozzarella cheese. Though the name means \"eggplant in the style of Parma,\" a Northern Italian city, the dish originates in Southern Italy where eggplants, tomatoes, and olive oil are plentiful. In fact, real classic eggplant parm is made solely with mozzarella cheese—it doesn't necessarily have Parmesan at all.\nChicken made its appearance when Italian immigrants brought the dish to the U.S., a country where meat was both plentiful and cheap. Very quickly, the sautéed eggplant was replaced wholesale with breaded chicken cutlets (or veal cutlets, or even pork, as the case may be). Some time later, Parmesan cheese started becoming a standard addition (perhaps because the name seemed to imply it, but more likely because it just tastes better with it), and an Italian-American classic was born.\nSince then, as often happens when things go mainstream, chicken parm has gone from being a beloved and once-a-year comfort food to an institutionalized, mass-produced, inoffensive staple.\n\nMy goal here is to fix that by bringing chicken parm back to its roots, optimizing every step, and creating a recipe that celebrates the dish in all of its cheesy, crispy, sauce-smothered, American glory.\n## Crumby Flavor: A Breading With Extra Crunch\n\nLet's start with the easiest bit. What's the blandest part of the chicken parm? Anyone?\n\nThat's right, the breading. The role of the breading in a chicken parm is twofold: first, it adds crunchy textures. Secondly (and no less importantly), it helps insulate the chicken as it cooks, mitigating the drying effect of frying.\nImage: Breading set-up for chicken parmesan: a plate of skinless, boneless chicken breasts, a bowl of flour, a bowl of egg wash, and a bowl of breadcrumbs. Image: Breading set-up for chicken parmesan: a plate of skinless, boneless chicken breasts, a bowl of flour, a bowl of egg wash, and a bowl of breadcrumbs.\nThe first step to better breading is using better bread. I tried using canned bread crumbs, panko-style breadcrumbs, and crumbs made from a loaf of fresh high quality Italian bread, and crumbs made from bread that I first dehydrated in the oven partially. I applied all of them with the standard breading process:\n\nImage: Dredging chicken breast in flour Image: Dredging chicken breast in flour\nFirst a quick dredge in flour (this gives the eggs a dry, rough surface to cling to—think of it as primer for your paint)...\n\nImage: Dipping flour-coated chicken breast in beaten egg Image: Dipping flour-coated chicken breast in beaten egg\n\n...followed by a dip in beaten eggs...\n\nImage: Coating egg-dipped chicken breast into bread crumbs Image: Coating egg-dipped chicken breast into bread crumbs\n...then a trip to the bread crumbs. I always like to pile bread crumbs on top and press them down hard to make sure they adhere well.\n\nImage: Trimming crust off loaf of bread Image: Trimming crust off loaf of bread\nThe fresh bread was the best—it had the most unique structure with tons of craggy crusty bits—but it also was the most difficult to cook. Because of its high moisture content, it ended up sticking to the bottom of the skillet, requiring a bit of careful prying to flip the chicken without leaving the crust behind.\n\nImage: Crustless dehydrated craggy bits of bread in food processor bowl Image: Crustless dehydrated craggy bits of bread in food processor bowl\nBread crumbs made from bread that I'd dehydrated in a low oven for half an hour were much easier to work with, though they weren't nearly as craggy. To solve this issue and get the best of both worlds, I decided to employ a trick I started using with my Chick-Fil-A clone recipe .\n\nImage: Adding buttermilk into bowl of dry bread crumbs Image: Adding buttermilk into bowl of dry bread crumbs\nBy adding a bit of buttermilk to the dry breadcrumb mixture and working it in with my fingertips, I created a breading that came preloaded with large, chunky nubs—the kind of chunky nubs that turn into extra-crispy bits as the chicken fries.\n\nCheck out this out:\n\nImage: Breaded chicken breast laid out on a rack set over a rimmed baking sheet Image: Breaded chicken breast laid out on a rack set over a rimmed baking sheet\nThat's texture just waiting to happen. In order to further enhance the coating, I also added just a touch of flour and buttermilk to the egg wash, adding more flavor and creating a thicker, more substantial layer for the crumbs to stick to.\nAs a final (and not minor) flavor boost, I decided to add some Parmesan cheese to my breading mixture. I added more and more until I finally settled on a mixture of about 1/3 Parmesan and 2/3 bread—any more and the mixture would become too cheesy and begin to melt off the chicken as soon as it hit the oil.\n## Frying at the Right Temperature Is Key\n\nImage: Lowering breaded chicken breast into skillet of hot oil Image: Lowering breaded chicken breast into skillet of hot oil\nFor the frying process, the goal is to get an even golden-brown crust on both surfaces. The absolute best way to do this is to actually deep-fry the chicken so that it's cooking from all sides quickly and simultaneously. It's not a particularly practical method at home, however, so we'll stick with the more traditional shallow-frying in a skillet.\nThe most important part of frying the chicken is to make sure your oil is at the right temperature. Too cold and your chicken will end up overcooking before it has a chance to fully brown and crisp (or worse, your coating will slip off the chicken if it doesn't seal up fast enough).\n\nToo hot, and you end up with this, which, aside from looking a little bit like India, also has some problems.\nImage: Breaded chicken breast with bits of burnt crust Image: Breaded chicken breast with bits of burnt crust\n\nThe coating is burnt in spots, but almost completely raw in others. No good.\nTo make sure you're frying right, you should aim for a temperature of between 375 to 400°F to start. You can check this either with a totally awesome infrared thermometer like this, with a good instant read thermometer , or the old fashioned way: a little cube of bread dropped in should sizzle rapidly and brown in about 10 seconds. If it doesn't sizzle, wait longer. Browning too fast? Let the oil cool a bit.\nImage: Checking oil temperature with inferred thermometer Image: Checking oil temperature with inferred thermometer\n\nOnce the chicken is added, it'll drop down to around 325°F, and you should adjust the heat to maintain that temperature.\nI like to fry in cast iron (nothing will help your seasoning more!), but a standard stainless steel or even a nonstick skillet will work fine. When adding the chicken to the pan, make sure to lay it into the pan from the tip down, slowly draping it away from you. Want to know the definition of pain? Try adding the chicken really fast, draping it towards you and watch as your body is showered with drops of hot oil.\n\nBonus macho points if you do this naked.\nImage: Using spatula and fork to gently flip over golden brown underside fried chicken breast in hot oil Image: Using spatula and fork to gently flip over golden brown underside fried chicken breast in hot oil\nPlace as many pieces of chicken as will fit in a single layer (I could fit three in my 12-inch cast iron skillet, sometimes only two if they were especially large) and let them cook without moving for about 30 seconds, then start swirling the pan, using a flexible slotted spatula to gently pry off any bits that are sticking to the bottom.\nIt's also good practice to lift the chicken slightly, allowing the oil underneath to redistribute and cook more evenly. Once they've turned golden brown on the bottom, use a fork in one hand to lift the cutlet, gently flipping it and catching it with your spatula to prevent it from splashing down into the hot oil.\nImage: Finished fried chicken breasts laid on paper towel beside more chicken breasts deep-frying in cast iron skillet Image: Finished fried chicken breasts laid on paper towel beside more chicken breasts deep-frying in cast iron skillet\n\nAs the chicken finishes cooking, lay it on a paper towel-lined plate to drain.\n## Choosing the Best Cheese and Sauce\n\nImage: Pot of thick red tomato sauce Image: Pot of thick red tomato sauce\n\nThere's no real question as to what sauce we're going to use here. I spent a good deal of time developing this All-Day Stovetop Italian-American Red Sauce , and it's the best darn sauce I've ever had. If we're going into chicken parm, we're going in it to win it. (Though fine, if you want it a little quicker, you can use Daniel's awesome 40-minute red sauce .)\nAs for the cheese, I always figured that the higher the quality of the mozzarella, the better. But is this really the case?\n\nImage: Collage comparing imported buffalo-milk mozzarella, locally-made water-packed mozzarella, national brand of \"fresh\" mozzarella, and low-moisture mozzarella Image: Collage comparing imported buffalo-milk mozzarella, locally-made water-packed mozzarella, national brand of \"fresh\" mozzarella, and low-moisture mozzarella\nThe mozzarella candidates included: 1 - imported Italian buffalo milk mozzarella; 2 - locally-made, water-packed mozzarella; 3 - \"fresh mozzarella\" packed in cryovac-style packaging; 4 - low-moisture mozzarella.\nI tried four different cheeses: an honest-to-goodness imported buffalo milk mozzarella from Italy, a high quality water-packed mozzarella made locally, a nationally-available ball of \"fresh mozzarella\" packed in a cryovac-style package, and a chunk of low-moisture mozzarella (the stuff we know as \"pizza cheese\" 'round here).\nSurprisingly, the buffalo mozz wasn't the best. Rather than melting into a gooey layer like you want in a good chicken parm, it instead gave off a ton of moisture while simultaneously turning a little rubbery. The fresh local mozzarella suffered the same fate, though to a lesser degree. Of the two packaged mozzarellas, it was a toss up. The fresh mozzarella has the advantage of having a nice fresh milk flavor, while the aged mozzarella melts a little more easily into stretchy, gooey strands.\nIt's really up to you.\nImage: Combining cubes of mozzarella with grated Parmesan in a bowl Image: Combining cubes of mozzarella with grated Parmesan in a bowl\n\nIn any case, cutting the cheese into cubes as opposed to grating it gives it superior melting properties, creating nice cheesy, gooey pockets. Tossing the mozzarella with some grated Parmesan also adds flavor without detracting from its melt-ability.\n## Assembling and Baking Your Chicken Parm\n\nWith the chicken fried, the sauce made, and the cheese tossed, assembly is pretty straightforward. You can work in a casserole dish, individual oven-safe serving dishes, or a large oven-safe platter.\n\nImage: Laying down red sauce to build chicken parmesan Image: Laying down red sauce to build chicken parmesan\n\nI first laid down a thick layer of sauce...\nImage: Laying down fried chicken breasts over red sauce Image: Laying down fried chicken breasts over red sauce\n\n...then topped it with the chicken...\n\nImage: Spooning red sauce over fried chicken breasts Image: Spooning red sauce over fried chicken breasts\n...followed by more sauce, and a thick spread of cheese over the top. I intentionally left the edges of the chicken uncovered. Like a good pizza, I want there to be some amount of soft, sauce-soaked breading, but I also want to make sure that there are crispy edges sticking out as well for textural contrast.\n\nAfter baking it in a 425°F oven until the cheese melted, I tasted it.\n\nImage: Serving up chicken parmesan Image: Serving up chicken parmesan\nThe sauce, cheese, and crust were spot-on, but the chicken itself was still frustratingly dry. What's up with that?\n## Try a Little Tenderness: A Buttermilk Brine Tenderizes and Flavors Your Chicken\n\nQuick fact #1: Chicken breast is pretty much the driest cut out meat out there, period. With very little fat and almost no connective tissue, it's the kind of meat that turns to tough, chalky sawdust when even slightly overcooked.\nQuick fact #2: Frying is one of the most violent ways you can cook food. It heats very rapidly and unforgivingly, making it more likely for the food to dry out than with a more delicate method like steaming or sous-vide cooking.\n\nOn top of that, a chicken breast is unevenly shaped. There are thick areas and thin areas, which leads to uneven cooking—by the time the thick areas are cooked through, the thin areas are hopelessly overcooked. How do we solve these problems?\nWell, let's start with the first trick that the classic method utilizes: pounding. Pounding not only tenderizes by breaking down some of the tougher connections between muscle fibers, but it also evens out those thick and thin spots.\n\nWe start by splitting a chicken breast half in half horizontally with a very sharp knife.\n\nImage: Pounding chicken breast in resealable plastic bag with heavy bottom frying pan Image: Pounding chicken breast in resealable plastic bag with heavy bottom frying pan\nWe then place that chicken breast half in a zipper-lock bag and pound it out to an even thickness.\n\nWith classic chicken parm, you'd jump straight from this step to the breading and frying stages. But I wondered what would happen if I were to add a brining step here. When you soak chicken in a salty solution, that salt will dissolve some of its muscle proteins—mainly myosin—which in turn allows it to retain more moisture as it cooks.\nThe brine certainly helped, but then it occurred to me: how is a breaded chicken cutlet used for chicken parm all that different from, say, Southern-style fried chicken? Aside from its breading (chicken parm uses breadcrumbs, Southern-fried uses a flour dredging), it has the same problems of dryness and toughness that need to be dealt with. What if I were to adapt a Southern-style buttermilk soak? I was already adding a touch of buttermilk to my breadcrumb mixture, so it was an easy leap to make.\nI pounded out a batch of chicken breasts and added them to a buttermilk brine seasoned with lots of salt, pepper, and garlic, then transferred the mixture to a zipper lock bag and let it rest overnight. Buttermilk, with its mild acidity not only improves the flavor of chicken, but also further tenderizes it.\n\nThe next day, I breaded and fried the cutlets just as I did with the standard chicken breast.\nThe results were pretty astounding. Here was chicken breast that even after being fried and baked in the oven, still maintained all the juiciness of the best Southern-style fried chicken, with a smooth, tender texture and not a hint of stringiness or graininess.\n\nImage: Taking a fork to a plate of chicken parmesan Image: Taking a fork to a plate of chicken parmesan\nOn top of that, the buttermilk only served to enhance the cheesiness I'd built in with the Parmesan-spiked crust and the two types of melted cheese topping it.\n\nImage: A forkful of chicken parmesan Image: A forkful of chicken parmesan\n\nA quick sprinkle of chopped fresh parsley leaves and some more grated Parmesan added just as it came out of the oven was all the dish needed.\nCrispy, crunchy, moist, and flavor-packed, this is everything you could wish for in a good chicken Parmesan, and all it took was a little inspiration from down South to pull it off.\n\nThe next question is, what happens if we go full Southern, skip the breading entirely, and add our sauce and cheese to a classic flour-dredged, Southern-fried chicken breast? Why, with a recipe like that, one could perhaps—dare I say it—rule the world?\n### September 2014\n\nPrep Time:\n\n20 mins\n\nCook Time:\n\n40 mins\n\nMarinating Time:\n\n4 hrs\n\nTotal Time:\n\n5 hrs\n\nServings:\n\n4 to 6 servings\n\nYield:\n\nServes 4 to 6\n\n[Button: Jump to Nutrition Facts]\n\nKeep Screen Awake\n## Ingredients\n\n* 3 boneless skinless chicken breast halves\n\n* 1 3/4 cups buttermilk, divided\n\n* 2 medium cloves garlic, minced (about 2 teaspoons)\n\n* Kosher salt and freshly ground black pepper\n\n* 1/2 loaf crusty Italian bread, crust removed, sliced into 1/2-inch slices\n\n* 5 ounces grated Parmesan cheese, plus more for serving\n\n* 1 1/2 cups all purpose flour\n\n* 2 large eggs\n\n* 1 quart Italian-American red sauce (see notes)\n\n* 1/2 cup vegetable or canola oil\n* 10 ounces fresh mozzarella cheese, cut into 1/2-inch chunks\n\n* 2 tablespoons minced fresh parsley, basil, or a mix\n## Directions\n\n1. With a sharp chef's knife, split chicken breasts in half horizontally. Working one piece at a time, place inside a plastic zipper-lock bag and pound with a meat pounder or the bottom of a skillet to an even 1/4-inch thickness. Transfer to a large bowl.\n\nImage: Splitting chicken breast horizontally in half Image: Splitting chicken breast horizontally in half\n2. Add 1 1/2 cups buttermilk and minced garlic to bowl. Season with 2 tablespoons kosher salt and 1 teaspoon freshly ground black pepper. Turn chicken with hands until salt, pepper, and garlic are evenly incorporated and all the chicken is coated in buttermilk mixture. Transfer to a large zipper-lock bag, press out the air, and seal. Refrigerate for at least 4 hours and up to overnight (see note).\nImage: Adding flattened chicken breast to seasoned buttermilk brine Image: Adding flattened chicken breast to seasoned buttermilk brine\n\n3. Meanwhile, place bread slices on a rack set in a rimmed baking sheet. Leave out on counter for at least 4 hours and up to overnight until mostly dried.\n4. The next day, break bread into rough pieces (leave the wire rack in the rimmed baking sheet) and combine with 4 ounces Parmesan cheese in the food processor. Season with black pepper. Process until bread is finely ground, about 20 seconds. Transfer mixture to a large shallow bowl or pie plate.\n\nImage: Chunks of crustless bread in food processor bowl Image: Chunks of crustless bread in food processor bowl\n5. Place flour in a second shallow bowl or pie plate. Whisk eggs, 2 tablespoons buttermilk, and 1 tablespoon of the flour in a third pie plate. Drizzle remaining 2 tablespoons buttermilk over the bread crumb/Parmesan mixture and incorporate with your fingertips. The mixture should be mealy, but hold together in clumps if you squeeze it together with your hands.\n\nImage: Handful of bread crumbs moistened with buttermilk Image: Handful of bread crumbs moistened with buttermilk\n6. Working one piece of chicken at a time, remove from the bag and add to flour. Turn to coat, shake off excess, and add to egg mixture. Turn to coat, letting excess drip off, and add to bread crumb mixture. Turn to coat, piling crumbs on top and pressing down firmly so a thick layer adheres. Transfer coated chicken to the wire rack and repeat with remaining chicken breasts.\n\nImage: Hand-breading chicken breast Image: Hand-breading chicken breast\n7. Preheat oven to 425°F. Place sauce in a medium saucepan and heat over low heat, stirring occasionally, until barely simmering. Remove from heat and set aside.\n\n8. Heat oil in a large non-stick or cast iron skillet over medium-high heat until it registers 375 to 400°F on an instant read or deep-frying thermometer. Working in batches, carefully add chicken by lowering the cutlets away from you into the oil. Add as many cutlets as will fit in one layer (2 to 3).\nImage: Lowering breaded chicken breast into cast iron skillet of hot oil Image: Lowering breaded chicken breast into cast iron skillet of hot oil\n9. Cook, swirling pan gently and using a thin flexible metal spatula to loosen chicken if it sticks, until chicken is golden-brown and crisp on bottom side, about 2 minutes. Using a thin metal spatula and a fork, carefully flip chicken and cook until golden brown on second side. Transfer chicken to a paper-towel lined plate to drain and repeat with remaining chicken.\n\nImage: Deep-frying breaded chicken breasts in cast iron skillet Image: Deep-frying breaded chicken breasts in cast iron skillet\n10. Spoon 1/3 of sauce onto the bottom of a casserole or oven-safe serving dish. Shingle chicken pieces on top of sauce. Top with more sauce, forming a line down the center. Combine mozzarella and remaining 1 tablespoon Parmesan cheese in a large bowl and toss to coat. Lay cheese mixture over chicken in a straight line down the center.\nImage: Mozzarella and parmesan cheeses layered over red sauce down the center of shingled fried chicken breasts  Image: Mozzarella and parmesan cheeses layered over red sauce down the center of shingled fried chicken breasts\n\n11. Transfer to the oven and cook until cheese is melted and bubbly, about 20 minutes. Remove from oven and immediately grate fresh Parmesan on top. Allow to rest for 3 minutes, top with chopped herbs, and serve immediately.\nImage: Transferring chicken parmesan onto dinner plate Image: Transferring chicken parmesan onto dinner plate\n## Notes\n\nFor best results, let the chicken brine in the buttermilk for at least 4 hours. If pressed for time, you can cut the brining time down to 1 hour and still get good results. You can use our All-Day Red Sauce or our Quick and Easy Red Sauce for this recipe, or a jar of your favorite tomato sauce (we recommend Rao's). For the mozzarella, I recommend the fresh variety available in cryovack containers, not the water-packed variety (which tends to be too moist).\n## Special Equipment\n\nFood processor\n\nSave\n\nRate\n\nPrint [Input]\n## Nutrition Facts (per serving)\n\n694  | Calories\n35g  | Fat\n44g  | Carbs\n51g  | Protein\n\nShow Full Nutrition Label Hide Full Nutrition Label\n\nNutrition Facts\n---\nServings Per Recipe 4 to 6\n---\nCalories 694\n---\n% Daily Value *\nTotal Carbohydrate 44g  | 16%\nDietary Fiber 4g  | 14%\nTotal Sugars 9g\nProtein 51g  | 101%\nTotal Fat 35g  | 44%\nSaturated Fat 14g  | 70%\nCholesterol 161mg  | 54%\nVitamin C 20mg  | 23%\nSodium 1611mg  | 70%\nCalcium 623mg  | 48%\nIron 4mg  | 22%\nPotassium 848mg  | 18%\n* Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs.\n\nLoading shell for RecipesUgcThreaded1 Vue component in Globe.\n## Related Articles\nThe Ultimate Chicken Burrito Bowl Recipe 3 hrs 25 mins Mushroom Duxelles-Stuffed Chicken Paprikash Recipe 1 hr 30 mins Chicken Piccata (Fried Chicken Cutlets With Lemon-Butter Pan Sauce) 45 mins Katsudon (Japanese Chicken or Pork Cutlet and Egg Rice Bowl) Recipe 20 mins Chettinad Chicken Curry with Okra Recipe 55 mins Chicken and Penne in Vodka Cream Sauce Recipe 1 hr 5 mins Stir-Fried Velvet Chicken with Snap Peas and Lemon-Ginger Sauce | The Food Lab Easy Stir-Fried Chicken With Ginger and Scallions Recipe 45 mins\nStir-Fried Velvet Chicken with Snap Peas and Lemon-Ginger Sauce Recipe 35 mins Chinese Velveting 101: Stir-Fried Chicken With Mushrooms and Oyster Sauce Sesame Chicken and Eggplant 50 mins Tomatillo Chicken Quesadillas Recipe 40 mins Stir-Fried Chicken With Mushrooms and Oyster Sauce Recipe 55 mins Creole-Style Red Jambalaya With Chicken, Sausage, and Shrimp Recipe 1 hr 45 mins Easy Pan-Roasted Chicken Breasts With White Wine and Fines Herbes Pan Sauce Recipe 30 mins Crispy Braised Chicken With White Beans and Chile Verde | The Food Lab\nNewsletter Sign Up\n\nNewsletter Sign Up",
+    "selectionAssessment": {
+      "qualifies": true,
+      "ingredientCoverage": "complete",
+      "stepCoverage": "complete",
+      "internalCoherence": "coherent",
+      "heroImages": 0,
+      "mappedStepImages": 0,
+      "stepImageCoverage": 0,
+      "ingredientCount": 12,
+      "executableStepCount": 11,
+      "notes": [
+        "Page images and step adjacencies visible in web.open; original binary URLs not returned by failed web.click. No verified downloadable media available, no invented image mappings.",
+        "Source quantities with mixed units retained verbatim; no vessel capacity inferred.",
+        "Source lists5ounces Parmesan but method reserves remaining1tablespoon after4ounces breading; source allocation mismatch retained, do not silently invent a corrected remainder. Prepared tomato sauce permitted by source notes."
+      ]
+    }
+  },
+  "ragEvidence": [
+    {
+      "chunkId": "4da4f974-5a3c-4138-9740-91b95c889a3f",
+      "documentId": "457ca423-d4ad-460e-97de-5a10ca5464bf",
+      "sourceName": "Serious Eats",
+      "chunkType": "summary",
+      "content": "菜名：帕玛森鸡排\n别名：The Best Chicken Parmesan\n简介：The Best Chicken Parmesan",
+      "similarity": 0.676273166274451
+    },
+    {
+      "chunkId": "3adfbc34-c7e5-4d7f-8e9e-2502a25284de",
+      "documentId": "457ca423-d4ad-460e-97de-5a10ca5464bf",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：帕玛森鸡排\n8. Heat oil in a large non-stick or cast iron skillet over medium-high heat until it registers 375 to 400°F on an instant read or deep-frying thermometer. Working in batches, carefully add chicken by lowering the cutlets away from you into the oil. Add as many cutlets as will fit in one layer (2 to 3).\n9. Cook, swirling pan gently and using a thin flexible metal spatula to loosen chicken if it sticks, until chicken is golden-brown and crisp on bottom side, about 2 minutes. Using a thin metal spatula and a fork, carefully flip chicken and cook until golden brown on second side. Transfer chicken to a paper-towel lined plate to drain and repeat with remaining chicken.\n10. Spoon 1/3 of sauce onto the bottom of a casserole or oven-safe serving dish. Shingle chicken pieces on top of sauce. Top with more sauce, forming a line down the center. Combine mozzarella and remaining 1 tablespoon Parmesan cheese in a large bowl and toss to coat. Lay cheese mixture over chicken in a straight line down the center.",
+      "similarity": 0.674156685893437
+    },
+    {
+      "chunkId": "6e6c4adf-5f29-44eb-addf-0fda4a7135c9",
+      "documentId": "457ca423-d4ad-460e-97de-5a10ca5464bf",
+      "sourceName": "Serious Eats",
+      "chunkType": "technique",
+      "content": "菜名：帕玛森鸡排\n- 原文未明确说明技法。",
+      "similarity": 0.667072276262278
+    },
+    {
+      "chunkId": "b00b3369-274f-4ca2-a02b-ac3f7da2261a",
+      "documentId": "457ca423-d4ad-460e-97de-5a10ca5464bf",
+      "sourceName": "Serious Eats",
+      "chunkType": "tips",
+      "content": "菜名：帕玛森鸡排\n- For best results, let the chicken brine in the buttermilk for at least 4 hours. If pressed for time, you can cut the brining time down to 1 hour and still get good results. You can use our All-Day Red Sauce or our Quick and Easy Red Sauce for this recipe, or a jar of your favorite tomato sauce (we recommend Rao's). For the mozzarella, I recommend the fresh variety available in cryovack containers, not the water-packed variety (which tends to be too moist).",
+      "similarity": 0.653870521831857
+    },
+    {
+      "chunkId": "531d2d7a-0a69-43bd-a25e-566e7f997cc2",
+      "documentId": "457ca423-d4ad-460e-97de-5a10ca5464bf",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：帕玛森鸡排\n1. With a sharp chef's knife, split chicken breasts in half horizontally. Working one piece at a time, place inside a plastic zipper-lock bag and pound with a meat pounder or the bottom of a skillet to an even 1/4-inch thickness. Transfer to a large bowl.\n2. Add 1 1/2 cups buttermilk and minced garlic to bowl. Season with 2 tablespoons kosher salt and 1 teaspoon freshly ground black pepper. Turn chicken with hands until salt, pepper, and garlic are evenly incorporated and all the chicken is coated in buttermilk mixture. Transfer to a large zipper-lock bag, press out the air, and seal. Refrigerate for at least 4 hours and up to overnight (see note).\n3. Meanwhile, place bread slices on a rack set in a rimmed baking sheet. Leave out on counter for at least 4 hours and up to overnight until mostly dried.\n4. The next day, break bread into rough pieces (leave the wire rack in the rimmed baking sheet) and combine with 4 ounces Parmesan cheese in the food processor. Season with black pepper. Process until bread is finely ground, about 20 seconds. Transfer mixture to a large shallow bowl or pie plate.",
+      "similarity": 0.653558154510205
+    },
+    {
+      "chunkId": "b2de1aec-6f0b-4a4b-8264-5aaaa36aaff7",
+      "documentId": "457ca423-d4ad-460e-97de-5a10ca5464bf",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：帕玛森鸡排\n5. Place flour in a second shallow bowl or pie plate. Whisk eggs, 2 tablespoons buttermilk, and 1 tablespoon of the flour in a third pie plate. Drizzle remaining 2 tablespoons buttermilk over the bread crumb/Parmesan mixture and incorporate with your fingertips. The mixture should be mealy, but hold together in clumps if you squeeze it together with your hands.\n6. Working one piece of chicken at a time, remove from the bag and add to flour. Turn to coat, shake off excess, and add to egg mixture. Turn to coat, letting excess drip off, and add to bread crumb mixture. Turn to coat, piling crumbs on top and pressing down firmly so a thick layer adheres. Transfer coated chicken to the wire rack and repeat with remaining chicken breasts.\n7. Preheat oven to 425°F. Place sauce in a medium saucepan and heat over low heat, stirring occasionally, until barely simmering. Remove from heat and set aside.",
+      "similarity": 0.652907152560567
+    },
+    {
+      "chunkId": "70cb694f-be4b-4a32-8b9b-69ffb3c5d4f5",
+      "documentId": "457ca423-d4ad-460e-97de-5a10ca5464bf",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：帕玛森鸡排\n11. Transfer to the oven and cook until cheese is melted and bubbly, about 20 minutes. Remove from oven and immediately grate fresh Parmesan on top. Allow to rest for 3 minutes, top with chopped herbs, and serve immediately.",
+      "similarity": 0.630709726533584
+    },
+    {
+      "chunkId": "7084e951-c11d-461a-a9bb-0a780fe02aec",
+      "documentId": "457ca423-d4ad-460e-97de-5a10ca5464bf",
+      "sourceName": "Serious Eats",
+      "chunkType": "ingredients",
+      "content": "菜名：帕玛森鸡排\n- 3 boneless skinless chicken breast halves\n- 1 3/4 cups buttermilk, divided\n- 2 medium cloves garlic, minced (about 2 teaspoons)\n- Kosher salt and freshly ground black pepper\n- 1/2 loaf crusty Italian bread, crust removed, sliced into 1/2-inch slices\n- 5 ounces grated Parmesan cheese, plus more for serving\n- 1 1/2 cups all purpose flour\n- 2 large eggs\n- 1 quart Italian-American red sauce (see notes)\n- 1/2 cup vegetable or canola oil\n- 10 ounces fresh mozzarella cheese, cut into 1/2-inch chunks\n- 2 tablespoons minced fresh parsley, basil, or a mix",
+      "similarity": 0.624179381852728
+    }
+  ]
+}

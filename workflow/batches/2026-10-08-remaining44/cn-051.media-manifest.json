@@ -1,0 +1,87 @@
+{
+  "recipeId": "cn-051",
+  "sourceUrl": "https://thewoksoflife.com/chinese-bbq-pork-cha-siu/",
+  "referer": "https://thewoksoflife.com/chinese-bbq-pork-cha-siu/",
+  "authorization": "user_confirmed_2026-09-16",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/04/char-siu-recipe-15.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-051-woks/hero.jpg",
+      "adjacentText": "叉烧成品",
+      "pageOrder": 0
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/04/char-siu-recipe.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-051-woks/step-2-1.jpg",
+      "adjacentText": "Combine the sugar, salt, five spice powder, white pepper, sesame oil, wine, soy sauce, hoisin sauce, molasses, food coloring (if using), and garlic in a bowl to make the marinade (i.e. the BBQ sauce).",
+      "pageOrder": 1,
+      "stepOrder": 2
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/04/char-siu-recipe-2.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-051-woks/step-3-2.jpg",
+      "adjacentText": "Reserve about 2 tablespoons of marinade and set it aside. Rub the pork with the rest of the marinade in a large bowl or baking dish. Cover and refrigerate overnight, or at least 8 hours. Cover and store the reserved marinade in the fridge as well.",
+      "pageOrder": 2,
+      "stepOrder": 3
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/04/char-siu-recipe-4.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-051-woks/step-5-3.jpg",
+      "adjacentText": "Line a sheet pan with foil and place a metal rack on top. Using the metal rack keeps the pork off of the pan and allows it to roast more evenly, like it does in commercial ovens described above. Place the pork on the rack, leaving as much space as possible between pieces. Pour 1 ½ cups water into the pan below the rack. This prevents any drippings from burning or smoking.",
+      "pageOrder": 3,
+      "stepOrder": 5
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/04/char-siu-recipe-5.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-051-woks/step-6-4.jpg",
+      "adjacentText": "Transfer the pork to your preheated oven. Roast for 25 minutes, keeping the oven setting at 475 F for the first 10 minutes of roasting, and then reduce your oven temperature to 375 F (190 C).\n\nAfter 25 minutes, flip the pork. If the bottom of the pan is dry, add another cup of water. Turn the pan 180 degrees to ensure even roasting. Roast another 15 minutes. Throughout the roasting time, check your char siu often (every 10 minutes) and reduce the oven temperature if it looks like it is burning!",
+      "pageOrder": 4,
+      "stepOrder": 6
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/04/char-siu-recipe-6.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-051-woks/step-7-5.jpg",
+      "adjacentText": "Meanwhile, combine the reserved marinade with the maltose or honey (maltose is very viscous––you can heat it up in the microwave to make it easier to work with) and 1 tablespoon hot water. This will be the sauce you’ll use for basting the pork.",
+      "pageOrder": 5,
+      "stepOrder": 7
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/04/char-siu-recipe-7.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-051-woks/step-8-6.jpg",
+      "adjacentText": "After 40 minutes of total roasting time, baste the pork, flip it, and baste the other side as well. Roast for a final 10 minutes.",
+      "pageOrder": 6,
+      "stepOrder": 8
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/04/char-siu-recipe-8.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-051-woks/step-8-7.jpg",
+      "adjacentText": "After 40 minutes of total roasting time, baste the pork, flip it, and baste the other side as well. Roast for a final 10 minutes.",
+      "pageOrder": 7,
+      "stepOrder": 8
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/04/char-siu-recipe-11.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-051-woks/step-10-8.jpg",
+      "adjacentText": "Remove from the oven and baste with the last bit of reserved BBQ sauce. Let the meat rest for 10 minutes before slicing, and enjoy!\n#### Tips & Notes:\n\nNote: Prep time does not include overnight marinating time.",
+      "pageOrder": 8,
+      "stepOrder": 10
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/04/char-siu-recipe-13.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-051-woks/step-10-9.jpg",
+      "adjacentText": "Remove from the oven and baste with the last bit of reserved BBQ sauce. Let the meat rest for 10 minutes before slicing, and enjoy!\n#### Tips & Notes:\n\nNote: Prep time does not include overnight marinating time.",
+      "pageOrder": 9,
+      "stepOrder": 10
+    }
+  ]
+}

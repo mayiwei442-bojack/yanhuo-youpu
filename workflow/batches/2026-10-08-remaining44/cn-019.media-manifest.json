@@ -1,0 +1,71 @@
+{
+  "recipeId": "cn-019",
+  "sourceUrl": "https://thewoksoflife.com/braised-pork-belly-dong-po-rou/",
+  "referer": "https://thewoksoflife.com/braised-pork-belly-dong-po-rou/",
+  "authorization": "user_confirmed_2026-09-16",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/10/braised-pork-belly-6.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-019-woks-dongpo/hero.jpg",
+      "adjacentText": "finished Dongpo pork belly",
+      "pageOrder": 6
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/10/braised-pork-belly-1.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-019-woks-dongpo/step-2-1.jpg",
+      "adjacentText": "In a medium clay pot (preferably) or a medium (4-quart) regular pot, lay the scallions on the bottom in a thick, even layer. The scallions should cover the entire bottom of the pot. Space the ginger slices evenly over the scallions.",
+      "pageOrder": 1,
+      "stepOrder": 2
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/10/braised-pork-belly-7.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-019-woks-dongpo/step-3-7.jpg",
+      "adjacentText": "Lay pork skin side down",
+      "pageOrder": 7,
+      "stepOrder": 3
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/10/braised-pork-belly-8.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-019-woks-dongpo/step-3-8.jpg",
+      "adjacentText": "Add wine, soy sauces and rock sugar",
+      "pageOrder": 8,
+      "stepOrder": 3
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/10/braised-pork-belly-9.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-019-woks-dongpo/step-5-9.jpg",
+      "adjacentText": "Turn pork skin side up for simmering alternative",
+      "pageOrder": 9,
+      "stepOrder": 5
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/10/braised-pork-belly-10.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-019-woks-dongpo/step-5-10.jpg",
+      "adjacentText": "Transfer to steamer alternative",
+      "pageOrder": 10,
+      "stepOrder": 5
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/10/braised-pork-belly-11.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-019-woks-dongpo/step-5-11.jpg",
+      "adjacentText": "Steaming alternative",
+      "pageOrder": 11,
+      "stepOrder": 5
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/10/braised-pork-belly-12.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-019-woks-dongpo/step-5-12.jpg",
+      "adjacentText": "Steaming alternative",
+      "pageOrder": 12,
+      "stepOrder": 5
+    }
+  ]
+}

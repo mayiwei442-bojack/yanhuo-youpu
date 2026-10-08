@@ -1,0 +1,8 @@
+{
+  "status":"PASS",
+  "issues":[],
+  "summary":"cn-020：白切鸡保留单一完整 Woks 来源的量水、两次提鸡换水、极轻微微沸、大小与时间范围、清汁判断、冰水完全冷却和生拌姜葱蘸料顺序；总时长70分钟与6人份有据，范围阶段不生成固定计时。11条食材及14步逐项审读，单位与未量化用量未臆造，食材名称及可选酱油过敏原合理，图片与对应源步骤一致。独立检查了食材语义、步骤语法、标点括号及分隔后的渲染结构，未发现实质问题。",
+  "evidencePackageHash":"0da88982a7c56ac9ddc8a994e33b4b27084389fa8b9f30e47ca219444822920f",
+  "validatorPassed":true,
+  "adversarialReview":{"ingredientSemantics":true,"stepGrammar":true,"punctuation":true,"renderedStructure":true}
+}

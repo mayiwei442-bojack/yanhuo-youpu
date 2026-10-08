@@ -1,0 +1,123 @@
+{
+  "recipeId": "cn-013",
+  "recipeName": "胡辣汤",
+  "category": "chinese",
+  "createdAt": "2026-10-08T12:37:28.215793+00:00",
+  "sources": [
+    {
+      "sourceName": "豆果美食",
+      "sourceType": "website",
+      "url": "https://www.douguo.com/cookbook/3300061.html",
+      "documentId": "pending-ingestion",
+      "retrievalMethod": "Initial normal HTTP200 page retrieval plus cached complete ingredienttable andsinglefullmethodparagraph; re-audit usescachedcontentonly, no new fetch",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "胡辣汤粉料",
+          "amount": "1包",
+          "raw": "胡辣汤粉料 1包"
+        },
+        {
+          "name": "胡辣汤蔬菜包",
+          "amount": "1包",
+          "raw": "胡辣汤蔬菜包 1包"
+        },
+        {
+          "name": "木耳",
+          "amount": "8-10朵",
+          "raw": "木耳 8-10朵"
+        },
+        {
+          "name": "红薯粉条",
+          "amount": "100克",
+          "raw": "红薯粉条 100克"
+        },
+        {
+          "name": "水",
+          "amount": "煮汤大概1000克左右，调粉另用水但未给量",
+          "raw": "再拿出个锅接水大概1000克左右；粉料包加入水调成糊状"
+        },
+        {
+          "name": "油包",
+          "amount": null,
+          "raw": "再把菜料包和油包都下到锅里煮沸"
+        },
+        {
+          "name": "醋",
+          "amount": "点",
+          "raw": "吃的时候加点醋和香油更提味啊！"
+        },
+        {
+          "name": "香油",
+          "amount": "点",
+          "raw": "吃的时候加点醋和香油更提味啊！"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "把红薯粉条煮熟捞出；木耳按原文所需准备为泡发状态。",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "另拿锅接水大概1000克左右，放入煮好的粉条和泡发的木耳。",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "再把菜料包和油包都下到锅里煮沸。",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "粉料包加入水调成糊状，下到煮沸的锅里，再煮到粘稠。",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 5,
+          "instruction": "吃的时候加点醋和香油。",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [],
+      "tips": [],
+      "rawExcerpt": "方中山胡辣汤\n作者：新雨妈妈0205\n河南省\n用料\n胡辣汤粉料1包；胡辣汤蔬菜包1包；木耳8-10朵；红薯粉条100克\n做法\n把粉条煮熟捞出，再拿出个锅接水大概1000克左右，放入煮好的粉条和泡发的木耳，再把菜料包和油包都下到锅里煮沸，粉料包加入水调成糊状，下到煮沸的锅里，再煮到粘稠就好了，吃的时候加点醋和香油更提味啊！",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 0,
+        "mappedStepImages": 0,
+        "stepImageCoverage": 0,
+        "ingredientCount": 8,
+        "executableStepCount": 5,
+        "notes": [
+          "原文单段包含多个完整操作，按自然操作边界拆为5步，没有因段落数少而拒绝。",
+          "粉料/蔬菜包属来源明确方便料包版本，并非地域不符。",
+          "油包、水、醋、香油均来自做法；原表漏列可从同一来源做法提取，不是跨来源补充。",
+          "油包数量、调粉用水量、木耳泡发时长、各段火候/时间、总用时/份数原文未给，保留未知。",
+          "尚未取得可核验语义的过程图；不可拿成品汤照片充当过程图。"
+        ]
+      }
+    }
+  ],
+  "sourceMode": "single_source",
+  "singleSourceReason": "数据库79份现行书籍菜谱中无胡辣汤完整配方；Woks中英文别名检索无完整匹配；另一豆果河南正宗候选是课程广告。这个同菜名、同河南地域的完整料包版本可执行且自洽。",
+  "selectedSourceUrl": "https://www.douguo.com/cookbook/3300061.html",
+  "selectionReason": "唯一完整可核验的同菜配方，按整份来源保留料包、主料数量、约1000克汤用水、调粉成糊和煮稠的操作判据。未混入其他版本配料。短段落和便利配方本身不是拒绝依据；照片例外仍需独立处理。",
+  "ragEvidence": [],
+  "notes": [
+    "Databasebooks fullinventory audit:cn-book-inventory.json; 84scanned,79currentdocuments, no same-dishbook.",
+    "Thispackage supersedes research rejection assessment only; no previous database document for thissourceexists to supersede.",
+    "Recipeversion:方中山胡辣汤料包版（河南），不冒充从香料和牛肉高汤起做的版本。",
+    "Sourceomissions preserved:油包数量/类型未给，调粉水量未给，具体火候和时长/总时长/份数未给；只用原文煮熟、煮沸、成糊、粘稠作为操作判据。",
+    "完整文本可用；现行发布流程的来源照片要求仍待核验或用户授权，未据此宣称可发布。"
+  ]
+}

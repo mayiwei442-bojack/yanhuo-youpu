@@ -1,0 +1,71 @@
+{
+  "runId": "2026-10-08-remaining44-west-014",
+  "recipeId": "west-014",
+  "recipeName": "蘑菇烩饭",
+  "category": "western",
+  "status": "in_progress",
+  "startedAt": "2026-10-08T11:56:52.318Z",
+  "completedAt": null,
+  "steps": {
+    "research": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "evidencePath": "workflow/batches/2026-10-08-remaining44/west-014.base-evidence.json",
+        "evidencePackageHash": "f4cb392ea1a11b55fa86a15d038d3e2b647a843c14257dbb66f09043c5296cce",
+        "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/mushroom-risotto",
+        "sourceMode": "multi_source",
+        "publicationGate": "Final image/evidence acceptance pending"
+      }
+    },
+    "ingestion": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "selectedDocumentId": "a32460d0-637d-4400-b924-2b83638166db",
+        "documentIds": [
+          "a32460d0-637d-4400-b924-2b83638166db",
+          "6a83f371-b7f8-44a3-a4d7-d5fe6cb45a5d"
+        ],
+        "ragEvidence": 13
+      }
+    },
+    "edit": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "validator": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "review": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "build": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "gitPush": {
+      "status": "pending",
+      "attempts": 0
+    }
+  },
+  "sources": [
+    {
+      "name": "BBC Good Food",
+      "url": "https://www.bbcgoodfood.com/recipes/mushroom-risotto",
+      "status": "success",
+      "failureReason": null
+    },
+    {
+      "name": "Serious Eats",
+      "url": "https://www.seriouseats.com/pressure-cooker-mushroom-risotto-recipe",
+      "status": "success",
+      "failureReason": null
+    }
+  ],
+  "errors": [],
+  "branch": "codex/recipe-automation",
+  "commit": null
+}

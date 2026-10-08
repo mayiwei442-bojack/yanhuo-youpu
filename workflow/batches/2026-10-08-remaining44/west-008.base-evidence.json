@@ -1,0 +1,240 @@
+{
+  "recipeId": "west-008",
+  "recipeName": "西班牙海鲜饭",
+  "category": "western",
+  "createdAt": "2026-10-08T12:10:18.087Z",
+  "sources": [
+    {
+      "sourceName": "BBC Good Food",
+      "sourceType": "website",
+      "url": "https://www.bbcgoodfood.com/recipes/seafood-paella",
+      "documentId": "4d7a1ee5-9fe3-4d6b-9a06-bb51a2dd5b8e",
+      "retrievalMethod": "ordinary HTTPS GET; complete accessible page JSON-LD and DOM independently inspected",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "raw shell-on king prawns",
+          "raw": "20-24 raw shell-on king prawns",
+          "amount": null
+        },
+        {
+          "name": "olive oil",
+          "raw": "2 tbsp olive oil",
+          "amount": null
+        },
+        {
+          "name": "monkfish cut into chunks",
+          "raw": "500g monkfish cut into chunks",
+          "amount": null
+        },
+        {
+          "name": "arge onion finely chopped",
+          "raw": "1 large onion finely chopped",
+          "amount": null
+        },
+        {
+          "name": "paella rice",
+          "raw": "500g paella rice",
+          "amount": null
+        },
+        {
+          "name": "arlic cloves sliced",
+          "raw": "4 garlic cloves sliced",
+          "amount": null
+        },
+        {
+          "name": "smoked paprika",
+          "raw": "2 tsp smoked paprika",
+          "amount": null
+        },
+        {
+          "name": "cayenne pepper (optional)",
+          "raw": "1 tsp cayenne pepper (optional)",
+          "amount": null
+        },
+        {
+          "name": "pinch of saffron",
+          "raw": "pinch of saffron",
+          "amount": null
+        },
+        {
+          "name": "x 400g can chopped tomatoes (save the rest for the stock, below)",
+          "raw": "½ x 400g can chopped tomatoes (save the rest for the stock, below)",
+          "amount": null
+        },
+        {
+          "name": "mussels cleaned",
+          "raw": "500g mussels cleaned",
+          "amount": null
+        },
+        {
+          "name": "frozen peas",
+          "raw": "100g frozen peas",
+          "amount": null
+        },
+        {
+          "name": "frozen baby broad beans",
+          "raw": "100g frozen baby broad beans",
+          "amount": null
+        },
+        {
+          "name": "handful  parsley leaves, roughly chopped",
+          "raw": "handful  parsley leaves, roughly chopped",
+          "amount": null
+        },
+        {
+          "name": "olive oil",
+          "raw": "1 tbsp olive oil",
+          "amount": null
+        },
+        {
+          "name": "onion roughly chopped",
+          "raw": "1 onion roughly chopped",
+          "amount": null
+        },
+        {
+          "name": "x 400g can  chopped tomatoes",
+          "raw": "½ x 400g can  chopped tomatoes",
+          "amount": null
+        },
+        {
+          "name": "arlic cloves roughly chopped",
+          "raw": "6 garlic cloves roughly chopped",
+          "amount": null
+        },
+        {
+          "name": "chicken stock cube",
+          "raw": "1 chicken stock cube",
+          "amount": null
+        },
+        {
+          "name": "star anise",
+          "raw": "1 star anise",
+          "amount": null
+        },
+        {
+          "name": "water",
+          "raw": "2 litres water for stock (method step2)",
+          "amount": null
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Peel and de-vein the prawns, reserving the heads and shells. Return the prawns to the fridge.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "To make the stock, heat the oil in a large pan over a medium-high heat and add the onion, tomatoes, garlic, and reserved prawn shells and heads. Cook for 3-4 mins, then pour in 2 litres of water and add the stock cube and star anise. Bring to a boil, then simmer for 30 mins. Leave to cool slightly, then whizz in batches in a blender or food processor. Strain through a fine sieve.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "Heat the oil in a large paella pan or an extra-large frying pan. Brown the monkfish for a few mins each side, then remove and set aside. Add the onion and fry for 4-5 mins until softened.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "Stir in the rice and cook for 30 secs to toast. Add the garlic, paprika, cayenne (if using) and saffron, cook for another 30 secs, then stir in the tomatoes and 1.5 litres of the fish stock. Bring to the boil, then turn down to a simmer and cook, stirring, for about 10 mins (the rice should still be al dente). Return the monkfish to the pan with the prawns, mussels, peas and broad beans.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 5,
+          "instruction": "Cover the pan with a large baking tray, or foil, and cook on a low heat for another 10-15 mins until the mussels are open and the prawns are cooked through. Scatter over the parsley before serving.",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [],
+      "tips": [],
+      "rawExcerpt": "{\n  \"@context\": \"https://schema.org\",\n  \"@id\": \"https://www.bbcgoodfood.com/recipes/seafood-paella#Recipe\",\n  \"@type\": \"Recipe\",\n  \"description\": \"This impressive Spanish one pot, with monkfish, king prawns and mussels, is perfect for feeding a crowd at a dinner party\",\n  \"image\": [\n    {\n      \"@type\": \"ImageObject\",\n      \"url\": \"https://images.immediate.co.uk/production/volatile/sites/30/2020/08/seafood-paella-d41fe46.jpg?resize=440,400\",\n      \"width\": 440,\n      \"height\": 400\n    }\n  ],\n  \"mainEntityOfPage\": {\n    \"@type\": \"WebPage\",\n    \"@id\": \"https://www.bbcgoodfood.com/recipes/seafood-paella\"\n  },\n  \"name\": \"Seafood paella\",\n  \"url\": \"https://www.bbcgoodfood.com/recipes/seafood-paella\",\n  \"author\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Katy Greenwood\",\n      \"url\": \"https://www.bbcgoodfood.com/author/katygreenwood\"\n    }\n  ],\n  \"dateModified\": \"2022-11-08T14:35:48+00:00\",\n  \"datePublished\": \"2014-12-03T12:17:34+00:00\",\n  \"headline\": \"Seafood paella\",\n  \"keywords\": \"1 of 5-a-day, 400 kcal or less, Dinner party recipe, Katy Greenwood, Mains, monkfish recipe, One-pot, Over an hour, Rice one pot, Seafood rice, Winter\",\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Good Food\",\n    \"url\": \"https://www.bbcgoodfood.com\",\n    \"logo\": {\n      \"@type\": \"ImageObject\",\n      \"height\": 325,\n      \"url\": \"https://images.immediate.co.uk/production/volatile/sites/30/2026/02/goodfood.logo-f37096c.png?resize=1312,325\",\n      \"width\": 1312\n    }\n  },\n  \"cookTime\": \"PT1H10M\",\n  \"nutrition\": {\n    \"@type\": \"NutritionInformation\",\n    \"calories\": \"384 calories\",\n    \"fatContent\": \"6 grams fat\",\n    \"saturatedFatContent\": \"1 grams saturated fat\",\n    \"carbohydrateContent\": \"54 grams carbohydrates\",\n    \"sugarContent\": \"5 grams sugar\",\n    \"fiberContent\": \"5 grams fiber\",\n    \"proteinContent\": \"26 grams protein\",\n    \"sodiumContent\": \"1.5 milligram of sodium\"\n  },\n  \"prepTime\": \"PT40M\",\n  \"recipeCategory\": \"Dinner, Main course\",\n  \"recipeCuisine\": \"Spanish\",\n  \"recipeIngredient\": [\n    \"20-24 raw shell-on king prawns\",\n    \"2 tbsp olive oil\",\n    \"500g monkfish cut into chunks\",\n    \"1 large onion finely chopped\",\n    \"500g paella rice\",\n    \"4 garlic cloves sliced\",\n    \"2 tsp smoked paprika\",\n    \"1 tsp cayenne pepper (optional)\",\n    \"pinch of saffron\",\n    \"½ x 400g can chopped tomatoes (save the rest for the stock, below)\",\n    \"500g mussels cleaned\",\n    \"100g frozen peas\",\n    \"100g frozen baby broad beans\",\n    \"handful  parsley leaves, roughly chopped\",\n    \"1 tbsp olive oil\",\n    \"1 onion roughly chopped\",\n    \"½ x 400g can  chopped tomatoes\",\n    \"6 garlic cloves roughly chopped\",\n    \"1 chicken stock cube\",\n    \"1 star anise\"\n  ],\n  \"recipeInstructions\": [\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Peel and de-vein the prawns, reserving the heads and shells. Return the prawns to the fridge.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"To make the stock, heat the oil in a large pan over a medium-high heat and add the onion, tomatoes, garlic, and reserved prawn shells and heads. Cook for 3-4 mins, then pour in 2 litres of water and add the stock cube and star anise. Bring to a boil, then simmer for 30 mins. Leave to cool slightly, then whizz in batches in a blender or food processor. Strain through a fine sieve.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Heat the oil in a large paella pan or an extra-large frying pan. Brown the monkfish for a few mins each side, then remove and set aside. Add the onion and fry for 4-5 mins until softened.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Stir in the rice and cook for 30 secs to toast. Add the garlic, paprika, cayenne (if using) and saffron, cook for another 30 secs, then stir in the tomatoes and 1.5 litres of the fish stock. Bring to the boil, then turn down to a simmer and cook, stirring, for about 10 mins (the rice should still be al dente). Return the monkfish to the pan with the prawns, mussels, peas and broad beans.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Cover the pan with a large baking tray, or foil, and cook on a low heat for another 10-15 mins until the mussels are open and the prawns are cooked through. Scatter over the parsley before serving.\"\n    }\n  ],\n  \"recipeYield\": 8,\n  \"totalTime\": \"PT1H50M\"\n}",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 1,
+        "mappedStepImages": 0,
+        "stepImageCoverage": 0,
+        "ingredientCount": 21,
+        "executableStepCount": 5,
+        "notes": [
+          "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented.",
+          "Source uses two separate olive oil, onion, tomato and garlic allocations: main paella versus homemade prawn stock; preserve both groups and quantities."
+        ]
+      }
+    }
+  ],
+  "sourceMode": "single_source",
+  "singleSourceReason": "Exact-name and alias KB query first; all84actual book records checked, no matching Western recipe. Enabled BBC and Serious Eats alternatives attempted; only one independent complete coherent source remains eligible. Other inaccessible, materially different, or internally conflicting variants are retained in audit and never used to supplement it.",
+  "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/seafood-paella",
+  "selectionReason": "Selected exactly one whole BBC recipe: full coherent ingredients/method match the target; verified usable hero (no source step photos available). Other sources have no verified usable media URLs under ordinary access. Under the required completeness/coherence then usable-image/coverage ranking, this source leads; its ingredients, operations, tips and media are kept together without supplementation.",
+  "ragEvidence": [
+    {
+      "chunkId": "3b361946-d95a-428b-aeed-a4f79089f740",
+      "documentId": "4d7a1ee5-9fe3-4d6b-9a06-bb51a2dd5b8e",
+      "sourceName": "BBC Good Food",
+      "chunkType": "tips",
+      "content": "菜名：西班牙海鲜饭\n- 原文未提供额外提示。",
+      "similarity": 0.72504679709952
+    },
+    {
+      "chunkId": "ce933891-d8a6-462d-a975-a1db9ff13683",
+      "documentId": "4d7a1ee5-9fe3-4d6b-9a06-bb51a2dd5b8e",
+      "sourceName": "BBC Good Food",
+      "chunkType": "summary",
+      "content": "菜名：西班牙海鲜饭\n别名：Seafood paella\n菜系：Spanish\n简介：This impressive Spanish one pot, with monkfish, king prawns and mussels, is perfect for feeding a crowd at a dinner party",
+      "similarity": 0.722604036331177
+    },
+    {
+      "chunkId": "d550270f-fe5a-4402-85f9-da0c37ba183a",
+      "documentId": "4d7a1ee5-9fe3-4d6b-9a06-bb51a2dd5b8e",
+      "sourceName": "BBC Good Food",
+      "chunkType": "technique",
+      "content": "菜名：西班牙海鲜饭\n- 原文未明确说明技法。",
+      "similarity": 0.705166879758261
+    },
+    {
+      "chunkId": "c27ab555-d1d0-4f66-a5c4-01ed1e377303",
+      "documentId": "4d7a1ee5-9fe3-4d6b-9a06-bb51a2dd5b8e",
+      "sourceName": "BBC Good Food",
+      "chunkType": "ingredients",
+      "content": "菜名：西班牙海鲜饭\n- 20-24 raw shell-on king prawns\n- 2 tbsp olive oil\n- 500g monkfish cut into chunks\n- 1 large onion finely chopped\n- 500g paella rice\n- 4 garlic cloves sliced\n- 2 tsp smoked paprika\n- 1 tsp cayenne pepper (optional)\n- pinch of saffron\n- ½ x 400g can chopped tomatoes (save the rest for the stock, below)\n- 500g mussels cleaned\n- 100g frozen peas\n- 100g frozen baby broad beans\n- handful parsley leaves, roughly chopped\n- 1 tbsp olive oil\n- 1 onion roughly chopped\n- ½ x 400g can chopped tomatoes\n- 6 garlic cloves roughly chopped\n- 1 chicken stock cube\n- 1 star anise\n- 2 litres water for stock (method step2)",
+      "similarity": 0.681602896595263
+    },
+    {
+      "chunkId": "d6145b06-e7cf-4d83-be09-3eafcef3c31a",
+      "documentId": "4d7a1ee5-9fe3-4d6b-9a06-bb51a2dd5b8e",
+      "sourceName": "BBC Good Food",
+      "chunkType": "steps",
+      "content": "菜名：西班牙海鲜饭\n1. Peel and de-vein the prawns, reserving the heads and shells. Return the prawns to the fridge.\n2. To make the stock, heat the oil in a large pan over a medium-high heat and add the onion, tomatoes, garlic, and reserved prawn shells and heads. Cook for 3-4 mins, then pour in 2 litres of water and add the stock cube and star anise. Bring to a boil, then simmer for 30 mins. Leave to cool slightly, then whizz in batches in a blender or food processor. Strain through a fine sieve.\n3. Heat the oil in a large paella pan or an extra-large frying pan. Brown the monkfish for a few mins each side, then remove and set aside. Add the onion and fry for 4-5 mins until softened.\n4. Stir in the rice and cook for 30 secs to toast. Add the garlic, paprika, cayenne (if using) and saffron, cook for another 30 secs, then stir in the tomatoes and 1.5 litres of the fish stock. Bring to the boil, then turn down to a simmer and cook, stirring, for about 10 mins (the rice should still be al dente). Return the monkfish to the pan with the prawns, mussels, peas and broad beans.",
+      "similarity": 0.677481870501154
+    },
+    {
+      "chunkId": "074d8358-9515-457d-8112-ce9a3e367a7c",
+      "documentId": "4d7a1ee5-9fe3-4d6b-9a06-bb51a2dd5b8e",
+      "sourceName": "BBC Good Food",
+      "chunkType": "steps",
+      "content": "菜名：西班牙海鲜饭\n5. Cover the pan with a large baking tray, or foil, and cook on a low heat for another 10-15 mins until the mussels are open and the prawns are cooked through. Scatter over the parsley before serving.",
+      "similarity": 0.651911079883575
+    }
+  ],
+  "notes": [
+    "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented.",
+    "Source uses two separate olive oil, onion, tomato and garlic allocations: main paella versus homemade prawn stock; preserve both groups and quantities.",
+    "BBC source original yield: 8",
+    "BBC original totalTime: PT1H50M",
+    "BBC original cookTime: PT1H10M",
+    "BBC original prepTime: PT40M",
+    "Alternative attempts: [{\"url\":\"https://www.bbcgoodfood.com/recipes/seafood-paella\",\"status\":200,\"bytes\":586799}]",
+    "Current book inventory and22target audit: west-kb-audit.json. Invalid/superseded/rejected history excluded.",
+    "Serious Eats direct Python460/normalPowerShell402/normalChrome402; normalweb.open successfully retrieved the complete recipes included here. All successful complete matching sources ingested separately before selection; no access-control bypass.",
+    "Alternative enabled-site searches and complete observed source text are archived in west-alternative-search.json and west-se-*.txt.",
+    "Selected source has no verified cooking-stage photos; do not fabricate or relabel a finished-dish photo. Parent must resolve manual-run image exception before publishing."
+  ]
+}

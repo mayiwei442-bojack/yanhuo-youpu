@@ -1,0 +1,72 @@
+{
+  "ingredients": [
+    {
+      "name": "beef mince (ideally 15-20% fat)",
+      "raw": "450g beef mince (ideally 15-20% fat)",
+      "amount": null
+    },
+    {
+      "name": "Worcestershire sauce",
+      "raw": "2 tbsp Worcestershire sauce",
+      "amount": null
+    },
+    {
+      "name": "cheddar or Red Leicester slices",
+      "raw": "8 cheddar or Red Leicester slices",
+      "amount": null
+    },
+    {
+      "name": "chipotle paste",
+      "raw": "1 tbsp chipotle paste",
+      "amount": null
+    },
+    {
+      "name": "tomato ketchup",
+      "raw": "5 tbsp tomato ketchup",
+      "amount": null
+    },
+    {
+      "name": "mayonnaise",
+      "raw": "2 tbsp mayonnaise",
+      "amount": null
+    },
+    {
+      "name": "arge soft brioche buns (available in Marks & Spencer and Waitrose) or burger buns, halved",
+      "raw": "4 large soft brioche buns (available in Marks & Spencer and Waitrose) or burger buns, halved",
+      "amount": null
+    },
+    {
+      "name": "thick leaves iceberg lettuces",
+      "raw": "4 thick leaves iceberg lettuces",
+      "amount": null
+    },
+    {
+      "name": "thick slices beefsteak tomatoes",
+      "raw": "4 thick slices beefsteak tomatoes",
+      "amount": null
+    },
+    {
+      "name": "very thin slices red onions",
+      "raw": "4 very thin slices red onions",
+      "amount": null
+    },
+    {
+      "name": "Bread & butter pickles (see Goes well with) or 2 gherkins thinly sliced",
+      "raw": "16 Bread & butter pickles (see Goes well with) or 2 gherkins thinly sliced",
+      "amount": null
+    },
+    {
+      "name": "salt",
+      "raw": "1 generous tsp salt (method step1)",
+      "amount": null
+    },
+    {
+      "name": "black pepper",
+      "raw": "black pepper (method step1; amount unspecified)",
+      "amount": null
+    }
+  ],
+  "notes": [
+    "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented."
+  ]
+}

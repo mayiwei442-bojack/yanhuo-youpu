@@ -1,0 +1,145 @@
+{
+  "id": "71de09c8-840c-4e88-8221-c669168169d3",
+  "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+  "recipe_entity_id": "a5b0269b-a958-4b92-83af-f9c49b30ab9b",
+  "source_type": "book",
+  "recipe_name": "家常烩豆腐",
+  "url": null,
+  "book_title": "贝太厨房:从小爱吃的菜2",
+  "page_start": null,
+  "page_end": null,
+  "raw_text": "家常烩豆腐\n\r\n\r\n准备：5分钟　 \r\n烹饪：30分钟\n\r\n豆腐有无数种吃法，在这道烩豆腐里，本来清淡的豆腐吸收了各种香料以及腐乳的味道，吃起来格外过瘾。\n\r\n用料：\n\r\n北豆腐　　　　　400g\n\r\n玫瑰腐乳　　　　1块\n\r\n腐乳汁　　　　　15ml\n\r\n八角　　　　　　1个\n\r\n葱花　　　　　　5g\n\r\n香油　　　　　　10ml\n\r\n酱油　　　　　　10ml\n\r\n香菜　　　　　　5g\n\r\n油　　　　　　　30ml\n\r\n做法：\n\r\n1.北豆腐切成0.8cm见方的块，放入滚水中汆烫1分钟，捞出沥净水分。香菜洗净切碎。\n\r\n2.取一只碗，放入腐乳汁、腐乳、酱油和香油，搅拌均匀，调成味汁。\n\r\n3.中火烧热锅中的油至7成热，放入葱花和八角爆香，加入500m1水，大火煮开后继续煮5分钟，放入汆烫过的豆腐，倒入调好的味汁，大火煮开后转中小火，继续炖煮15分钟。\n\r\n4.出锅前加香菜碎。\n\r\n家传小诀窍：\n\r\n北方有句俗语“千滚豆腐，万滚鱼”，豆腐越炖口感越嫩也越入味，所以想要豆腐好吃，一定要多炖一些时间。",
+  "normalized_json": {
+    "tips": [
+      {
+        "text": "北方有句俗语“千滚豆腐，万滚鱼”，豆腐越炖口感越嫩也越入味，所以想要豆腐好吃，一定要多炖一些时间。",
+        "evidence": "explicit"
+      }
+    ],
+    "steps": [
+      {
+        "heat": null,
+        "order": 1,
+        "duration": null,
+        "evidence": "explicit",
+        "instruction": "北豆腐切成0.8cm见方的块，放入滚水中汆烫1分钟，捞出沥净水分。香菜洗净切碎。"
+      },
+      {
+        "heat": null,
+        "order": 2,
+        "duration": null,
+        "evidence": "explicit",
+        "instruction": "取一只碗，放入腐乳汁、腐乳、酱油和香油，搅拌均匀，调成味汁。"
+      },
+      {
+        "heat": null,
+        "order": 3,
+        "duration": null,
+        "evidence": "explicit",
+        "instruction": "中火烧热锅中的油至7成热，放入葱花和八角爆香，加入500m1水，大火煮开后继续煮5分钟，放入汆烫过的豆腐，倒入调好的味汁，大火煮开后转中小火，继续炖煮15分钟。"
+      },
+      {
+        "heat": null,
+        "order": 4,
+        "duration": null,
+        "evidence": "explicit",
+        "instruction": "出锅前加香菜碎。"
+      }
+    ],
+    "source": {
+      "url": null,
+      "name": "贝太厨房:从小爱吃的菜2",
+      "type": "book",
+      "author": "《贝太厨房》工作室",
+      "pageEnd": null,
+      "location": "text00101.html#subid67",
+      "bookTitle": "贝太厨房:从小爱吃的菜2",
+      "pageStart": null,
+      "retrievedAt": "2026-08-30T10:19:45.411Z",
+      "retrievalMethod": "EPUB XHTML section"
+    },
+    "aliases": [],
+    "cuisine": null,
+    "summary": "豆腐有无数种吃法，在这道烩豆腐里，本来清淡的豆腐吸收了各种香料以及腐乳的味道，吃起来格外过瘾。",
+    "category": "chinese",
+    "metadata": {
+      "epubLocation": "text00101.html#subid67",
+      "fixedPageNumbersAvailable": false
+    },
+    "technique": [
+      {
+        "text": "准备：5分钟",
+        "evidence": "explicit"
+      },
+      {
+        "text": "烹饪：30分钟",
+        "evidence": "explicit"
+      }
+    ],
+    "recipeName": "家常烩豆腐",
+    "ingredients": [
+      {
+        "raw": "北豆腐 400g",
+        "name": "北豆腐",
+        "amount": "400g",
+        "evidence": "explicit"
+      },
+      {
+        "raw": "玫瑰腐乳 1块",
+        "name": "玫瑰腐乳",
+        "amount": "1块",
+        "evidence": "explicit"
+      },
+      {
+        "raw": "腐乳汁 15ml",
+        "name": "腐乳汁",
+        "amount": "15ml",
+        "evidence": "explicit"
+      },
+      {
+        "raw": "八角 1个",
+        "name": "八角",
+        "amount": "1个",
+        "evidence": "explicit"
+      },
+      {
+        "raw": "葱花 5g",
+        "name": "葱花",
+        "amount": "5g",
+        "evidence": "explicit"
+      },
+      {
+        "raw": "香油 10ml",
+        "name": "香油",
+        "amount": "10ml",
+        "evidence": "explicit"
+      },
+      {
+        "raw": "酱油 10ml",
+        "name": "酱油",
+        "amount": "10ml",
+        "evidence": "explicit"
+      },
+      {
+        "raw": "香菜 5g",
+        "name": "香菜",
+        "amount": "5g",
+        "evidence": "explicit"
+      },
+      {
+        "raw": "油 30ml",
+        "name": "油",
+        "amount": "30ml",
+        "evidence": "explicit"
+      }
+    ]
+  },
+  "content_hash": "417113375275ac34c50f6c0fd713272dfb57efe332890ddd49a62c3c22433551",
+  "retrieved_at": "2026-08-30T10:19:45.411+00:00",
+  "ingested_at": "2026-08-30T10:22:16.675993+00:00",
+  "metadata": {
+    "location": "text00101.html#subid67",
+    "retrievalMethod": "EPUB XHTML section",
+    "originalFilePreserved": true
+  }
+}

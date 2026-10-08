@@ -7,6 +7,9 @@ import { isAuthorizedHeroOnly } from "./source-policy.mjs";
 
 const recipes = [...chinese, ...western];
 const refreshed = recipes.filter((recipe) => recipe.media);
+const remaining44RecipeIds = new Set([
+  "cn-019", "cn-020", "cn-031", "cn-035", "cn-039", "cn-040", "cn-044", "cn-051", "cn-053", "west-024"
+]);
 
 async function assertLocalImage(recipeName, label, mediaItem) {
   assert.match(mediaItem?.path || "", /^assets\/dishes\/sources\//u, `${recipeName}: ${label} 不是受管仓库路径`);
@@ -28,7 +31,11 @@ for (const recipe of refreshed) {
   const stepCount = recipe.steps.split(/(?<!\d)(?=\d+[）)])/u).map((part) => part.trim()).filter(Boolean).length;
   assert.equal(recipe.media.recipePageUrl, recipe.source, `${recipe.name}: 媒体菜谱 URL 与正文主信源不一致`);
   const recipeId = `${chinese.includes(recipe) ? "cn" : "west"}-${String((chinese.includes(recipe) ? chinese : western).indexOf(recipe) + 1).padStart(3, "0")}`;
-  const authorization = ["cn-011", "west-012", "west-031"].includes(recipeId) ? "user_confirmed_2026-10-07" : "user_confirmed_2026-09-16";
+  const authorization = remaining44RecipeIds.has(recipeId)
+    ? "user_confirmed_2026-10-08_remaining44"
+    : ["cn-011", "west-012", "west-031"].includes(recipeId)
+      ? "user_confirmed_2026-10-07"
+      : "user_confirmed_2026-09-16";
   assert.equal(recipe.media.repositoryCopyAuthorization, authorization, `${recipe.name}: 缺少对应批次用户授权记录`);
   const heroOnly = isAuthorizedHeroOnly({ recipeId, sourceUrl: recipe.source, authorization: recipe.media.heroOnlyAuthorization });
   assert(Array.isArray(recipe.media.steps) && (recipe.media.steps.length >= 1 || heroOnly), `${recipe.name}: 没有本地步骤图或明确授权例外`);

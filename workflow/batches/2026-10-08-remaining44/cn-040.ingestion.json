@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "completedAt": "2026-10-08T12:16:15.447Z",
+  "documents": [
+    {
+      "documentId": "72ce298f-8af6-4c11-860b-dd60f9445054",
+      "url": "https://thewoksoflife.com/dan-dan-noodles/",
+      "deduplicated": false,
+      "embedded": true,
+      "chunkCount": 6,
+      "model": "voyage-4",
+      "dimension": 1024,
+      "semanticCount": 6,
+      "hybridCount": 6
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "recipeId": "cn-035",
+  "recipeName": "冬瓜排骨汤",
+  "category": "chinese",
+  "createdAt": "2026-10-08T12:08:59.206247+00:00",
+  "sources": [
+    {
+      "sourceName": "The Woks of Life",
+      "sourceType": "website",
+      "url": "https://thewoksoflife.com/winter-melon-soup-pork-ribs/",
+      "documentId": "fc8be572-9638-48b4-8fb1-b416a9893e56",
+      "retrievalMethod": "Normal web browser fetch complete recipe card plus relevant operational narrative",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "pork ribs or pork rib tips (cut into 1-2-inch/2.5-5cm pieces)",
+          "amount": "2 pounds",
+          "raw": "2 pounds pork ribs or pork rib tips (cut into 1-2-inch/2.5-5cm pieces)",
+          "sourceGroup": ""
+        },
+        {
+          "name": "ginger (⅛-inch thick and smashed)",
+          "amount": "5 slices",
+          "raw": "5 slices ginger (⅛-inch thick and smashed)",
+          "sourceGroup": ""
+        },
+        {
+          "name": "water (plus more for soaking and blanching the ribs)",
+          "amount": "9 cups",
+          "raw": "9 cups water (plus more for soaking and blanching the ribs)",
+          "sourceGroup": ""
+        },
+        {
+          "name": "winter melon",
+          "amount": "1 1/2 pounds",
+          "raw": "1 1/2 pounds winter melon",
+          "sourceGroup": ""
+        },
+        {
+          "name": "sea salt (plus more to taste)",
+          "amount": "1 1/4 teaspoon",
+          "raw": "1 1/4 teaspoon sea salt (plus more to taste)",
+          "sourceGroup": ""
+        },
+        {
+          "name": "white pepper (to taste)",
+          "amount": null,
+          "raw": "white pepper (to taste)",
+          "sourceGroup": ""
+        },
+        {
+          "name": "handful cilantro and/or scallions (chopped)",
+          "amount": "1",
+          "raw": "1 handful cilantro and/or scallions (chopped)",
+          "sourceGroup": ""
+        },
+        {
+          "name": "light soy sauce (to serve with the ribs)",
+          "amount": null,
+          "raw": "light soy sauce (to serve with the ribs)",
+          "sourceGroup": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Soak the ribs in a bowl of cold water for 1 hour to get rid of blood and impurities. Drain. If you are strapped for time, this step isn’t strictly necessary, as you’ll be blanching them also in the next step.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "Add the ribs to a large soup pot along with enough water to cover. Bring to a boil. Simmer for 1 minute, and turn off the heat. Drain and rinse the ribs under running water, and clean your soup pot. This step is important––it keeps your broth clear and clean-tasting.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "Put the blanched pork ribs, smashed ginger slices, and 9 cups of water back in the soup pot. Bring to a boil, and immediately reduce the heat down to medium-low. Cover and simmer for 90 minutes. Cantonese soups require low heat for a delicate flavor and clear broth. Check on the soup periodically to make sure it is lightly simmering, but not boiling.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "Meanwhile, prepare the winter melon: trim off the thick skin, rinse it clean, and cut it into ¼-inch thick (6mm) bite-size pieces.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 5,
+          "instruction": "After 90 minutes, use a ladle to skim off the excess grease floating at the top of the soup, then add the winter melon and salt. Cover and simmer for another 15 minutes, until the winter melon is just cooked through (don’t overcook it—it should still have some bite to it).",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 6,
+          "instruction": "Add the white pepper and adjust the salt to taste as well. Finally, add the scallions and/or cilantro.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 7,
+          "instruction": "After cooking in the soup for so long, the ribs are melt-in-your-mouth tender and perfect with a little soy sauce! Serve the soup with a hot bowl of rice and a small dish of light soy sauce as a dipping sauce for the pork ribs.\n\nNutrition info does not include light soy sauce served with the ribs.",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [
+        "Serves: 8",
+        "Prep: 1 hr 10 mins",
+        "Cook: 2 hrs 15 mins",
+        "Total: 3 hrs 25 mins"
+      ],
+      "tips": [],
+      "rawExcerpt": "## Recipe\n\nImage: Winter Melon Soup with Pork Bones\n\nPrint\n\n5 from 3 votes\n\n### Winter Melon Soup with Pork Ribs\n\nWinter melon soup with pork ribs is a popular home-cooked Chinese dish and one of the most popular ways to cook winter melon.\n\nby: Judy\n\nServes: 8\n\nPrep: 1 hr 10 mins\n\nCook: 2 hrs 15 mins\n\nTotal: 3 hrs 25 mins\n#### Ingredients\n\n* [Input]2 pounds pork ribs or pork rib tips (cut into 1-2-inch/2.5-5cm pieces)\n* [Input]5 slices ginger (⅛-inch thick and smashed)\n* [Input]9 cups water (plus more for soaking and blanching the ribs)\n* [Input]1 1/2 pounds winter melon\n* [Input]1 1/4 teaspoon sea salt (plus more to taste)\n* [Input]white pepper (to taste)\n* [Input]1 handful cilantro and/or scallions (chopped)\n* [Input]light soy sauce (to serve with the ribs)\n[Button: US Customary][Button: Metric]\n#### Instructions\n\n* Soak the ribs in a bowl of cold water for 1 hour to get rid of blood and impurities. Drain. If you are strapped for time, this step isn’t strictly necessary, as you’ll be blanching them also in the next step.\n\n* Add the ribs to a large soup pot along with enough water to cover. Bring to a boil. Simmer for 1 minute, and turn off the heat. Drain and rinse the ribs under running water, and clean your soup pot. This step is important––it keeps your broth clear and clean-tasting.\n* Put the blanched pork ribs, smashed ginger slices, and 9 cups of water back in the soup pot. Bring to a boil, and immediately reduce the heat down to medium-low. Cover and simmer for 90 minutes. Cantonese soups require low heat for a delicate flavor and clear broth. Check on the soup periodically to make sure it is lightly simmering, but not boiling.\n\n* Meanwhile, prepare the winter melon: trim off the thick skin, rinse it clean, and cut it into ¼-inch thick (6mm) bite-size pieces.\n* After 90 minutes, use a ladle to skim off the excess grease floating at the top of the soup, then add the winter melon and salt. Cover and simmer for another 15 minutes, until the winter melon is just cooked through (don’t overcook it—it should still have some bite to it).\n\n* Add the white pepper and adjust the salt to taste as well. Finally, add the scallions and/or cilantro.\n* After cooking in the soup for so long, the ribs are melt-in-your-mouth tender and perfect with a little soy sauce! Serve the soup with a hot bowl of rice and a small dish of light soy sauce as a dipping sauce for the pork ribs.\n#### Tips & Notes:\n\nNutrition info does not include light soy sauce served with the ribs.\n\nOperational narrative\n## What is Winter Melon?\n\nWinter melon is a large, mild melon used for both savory and sweet applications. It’s related to the cucumber, but has a softer texture. It’s a decent source of vitamin C and antioxidants too.\n\nWinter melons are high in soluble fiber, so it helps aid digestion and enhance gut health. It also helps to fight inflammation and lower cholesterol for better heart health.\nAccording to Traditional Chinese Medicine, it has cooling properties, promoting yin. With its cooling constitution, winter melon is known among TCM practitioners as an ingredient that rehydrates and clears away excess internal heat.\nYou may also see it referred to as wax gourd or ash gourd. It does have waxy skin with a glaucous look to it (like that gray-white bloom on the outside of an unwashed grape). When shopping for winter melon at the Chinese grocery store, look for a whole, firm melon that feels heavy for its size.\n\n\nSometimes, you can also buy winter melon that the store cuts into pieces and wraps in plastic, as they can be quite large. Just make sure the flesh is bright white and firm, since the melon doesn’t last as long once cut open.\n## How to Use Winter Melon\n\nIn Chinese cooking, winter melon may also be braised or used in desserts like winter melon candy, mooncake filling, and the filling for the well-known wife cake (老婆饼 – lǎopó bǐng in Mandarin or lo po baeng in Cantonese), a flaky pastry of sesame seeds and candied winter melon. (For those of you waiting on a recipe for wife cakes, we’re working on it!)\nYou can also eat winter melon raw, however. So I might add it to salads (I would thinly slice them into matchsticks) or even into smoothies. I know my girls will look at me funny for that one, but I would add them to my own smoothies!\n\nImage\n### Buying Pork Ribs For Soup\n\nFor this soup, much of the pork flavor comes from the meat itself. Find meaty pork ribs on the bone. You can also use rib tips (the cartilaginous parts of the rib that butchers cut away to make St. Louis ribs).\n## Winter Melon Soup Recipe Instructions\n\nSoak the ribs in a bowl of cold water for 1 hour to get rid of blood and impurities. Drain. If you don’t have time, this step isn’t strictly necessary, as you’ll be blanching them also in the next step.\nAdd the ribs to a large soup pot along with enough water to cover. Bring to a boil. Simmer for 1 minute, and turn off the heat. Drain and rinse the ribs under running water, and clean your soup pot. This step is important––it keeps your broth clear and clean-tasting.\n\n\n\nPut the blanched pork ribs, smashed ginger slices, and 9 cups of water back in the soup pot.\n\n\nBring to a boil, and immediately reduce the heat down to medium-low. Cover and simmer for 90 minutes. Cantonese soups require low heat for a delicate flavor and clear broth. Check on the soup periodically to make sure it is lightly simmering, but not boiling.\n\nMeanwhile, prepare the winter melon. Trim off the thick skin, rinse it clean, and cut it into ¼-inch thick (6mm) bite-size pieces.\n\n\nAfter 90 minutes, use a ladle to skim off the excess grease floating at the top of the soup. Then add the winter melon and salt.\n\n\n\nCover and simmer for another 15 minutes, until the winter melon is just cooked through. (Don’t overcook it—it should still have some bite to it.)\n\n\n\nAdd the white pepper and adjust the salt to taste as well. Finally, add the scallions and/or cilantro.\n\n\nAfter cooking in the soup for so long, the ribs are melt-in-your-mouth tender and perfect with a little soy sauce! Serve the soup with a hot bowl of rice and a small dish of light soy sauce as a dipping sauce for the pork ribs.\n\nImage Image: winter melon soup with pork ribs\n\nIf you like this recipe and are looking for more ways to use winter melon, also check out our Winter Melon Meatball Soup with Glass Noodles !\nLooking for more authentic recipes? Subscribe to our email list and be sure to follow us on Pinterest , Facebook , Instagram , and Youtube!",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 1,
+        "mappedStepImages": 7,
+        "stepImageCoverage": 0.7142857142857143,
+        "ingredientCount": 8,
+        "executableStepCount": 7,
+        "notes": [
+          "No invented metric conversions; quantities only fromsourcecard or narrative."
+        ]
+      },
+      "media": {
+        "recipePageUrl": "https://thewoksoflife.com/winter-melon-soup-pork-ribs/",
+        "mediaPageUrl": "https://thewoksoflife.com/winter-melon-soup-pork-ribs/",
+        "sourceName": "The Woks of Life",
+        "author": "Judy",
+        "rightsNotice": "All Rights Reserved © The Woks of Life",
+        "reuseLicense": null,
+        "repositoryCopyAuthorized": true,
+        "hero": {
+          "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/pork-winter-melon-soup-9.jpg",
+          "repositoryPath": "assets/dishes/sources/cn-035-woks/hero.jpg",
+          "adjacentText": "冬瓜排骨汤成品",
+          "pageOrder": 0,
+          "sha256": "6b0c1510bef93e25a96386609c32d3b59097976ca8f1a76ee28ef006df688c1a",
+          "httpStatus": 200,
+          "contentType": "image/webp",
+          "bytes": 126540
+        },
+        "steps": [
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/pork-winter-melon-soup.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-035-woks/step-2-1.jpg",
+            "adjacentText": "Add the ribs to a large soup pot along with enough water to cover. Bring to a boil. Simmer for 1 minute, and turn off the heat. Drain and rinse the ribs under running water, and clean your soup pot. This step is important––it keeps your broth clear and clean-tasting.",
+            "pageOrder": 1,
+            "stepOrder": 2,
+            "sha256": "ba9c1b664f344c5e701010156d8193b0283325c1f2645e84b34d727c7790d7e5",
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "bytes": 77238
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/pork-winter-melon-soup-2.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-035-woks/step-3-2.jpg",
+            "adjacentText": "Put the blanched pork ribs, smashed ginger slices, and 9 cups of water back in the soup pot. Bring to a boil, and immediately reduce the heat down to medium-low. Cover and simmer for 90 minutes. Cantonese soups require low heat for a delicate flavor and clear broth. Check on the soup periodically to make sure it is lightly simmering, but not boiling.",
+            "pageOrder": 2,
+            "stepOrder": 3,
+            "sha256": "7c1b59f8cbb0a3b53f6337831e4aad8da0d041eac3cc4864eb99e5a15f114c19",
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "bytes": 78752
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/pork-winter-melon-soup-3.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-035-woks/step-4-3.jpg",
+            "adjacentText": "Meanwhile, prepare the winter melon: trim off the thick skin, rinse it clean, and cut it into ¼-inch thick (6mm) bite-size pieces.",
+            "pageOrder": 3,
+            "stepOrder": 4,
+            "sha256": "93589a62008d6e9bf54c34d2ed688e190b592ddbc26c961e94250456a58e3cc7",
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "bytes": 103260
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/pork-winter-melon-soup-4.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-035-woks/step-4-4.jpg",
+            "adjacentText": "Meanwhile, prepare the winter melon: trim off the thick skin, rinse it clean, and cut it into ¼-inch thick (6mm) bite-size pieces.",
+            "pageOrder": 4,
+            "stepOrder": 4,
+            "sha256": "99df28d43e6892bdfd874d0dcf071f2f01222e012ab7730fb967c8dac1a95b48",
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "bytes": 34212
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/pork-winter-melon-soup-5.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-035-woks/step-5-5.jpg",
+            "adjacentText": "After 90 minutes, use a ladle to skim off the excess grease floating at the top of the soup, then add the winter melon and salt. Cover and simmer for another 15 minutes, until the winter melon is just cooked through (don’t overcook it—it should still have some bite to it).",
+            "pageOrder": 5,
+            "stepOrder": 5,
+            "sha256": "87f39f7e9adde2ce8e5384fbddc62fd60600f6b5d45a16d2dd00ce200ad0a22a",
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "bytes": 73974
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/pork-winter-melon-soup-6.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-035-woks/step-5-6.jpg",
+            "adjacentText": "After 90 minutes, use a ladle to skim off the excess grease floating at the top of the soup, then add the winter melon and salt. Cover and simmer for another 15 minutes, until the winter melon is just cooked through (don’t overcook it—it should still have some bite to it).",
+            "pageOrder": 6,
+            "stepOrder": 5,
+            "sha256": "603f12097226d961a489538dcdf822193736674ede7d7416b9d74a6f76254503",
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "bytes": 74058
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/pork-winter-melon-soup-7.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-035-woks/step-6-7.jpg",
+            "adjacentText": "Add the white pepper and adjust the salt to taste as well. Finally, add the scallions and/or cilantro.",
+            "pageOrder": 7,
+            "stepOrder": 6,
+            "sha256": "3c5efbab46d637de854d433f2145cc2c06d081c79b3ace4fe9f003eb593af9bf",
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "bytes": 70088
+          }
+        ]
+      }
+    }
+  ],
+  "sourceMode": "single_source",
+  "singleSourceReason": "已读取数据库全部84份书籍菜谱并按名称、别名和正文核对，本菜无完全匹配书籍信源。已检索配置豆果来源，其他候选如有见notes；保留可访问完整Woks整份配方。",
+  "selectedSourceUrl": "https://thewoksoflife.com/winter-melon-soup-pork-ribs/",
+  "selectionReason": "完整性和内部自洽优先；唯一名称匹配完整候选，来源成品图及对应过程图均已验证。整份采用此来源原料、操作、提示和图片，不跨来源补充。",
+  "ragEvidence": [
+    {
+      "chunkId": "fe130c45-ac91-4db1-9af3-21b8c39fdb81",
+      "documentId": "fc8be572-9638-48b4-8fb1-b416a9893e56",
+      "sourceName": "The Woks of Life",
+      "chunkType": "summary",
+      "content": "菜名：冬瓜排骨汤\n菜系：中餐\n简介：完整单一信源：https://thewoksoflife.com/winter-melon-soup-pork-ribs/",
+      "similarity": 0.759900876274784
+    },
+    {
+      "chunkId": "77f52adb-6600-44fa-96e9-a3e0d0ba82b0",
+      "documentId": "fc8be572-9638-48b4-8fb1-b416a9893e56",
+      "sourceName": "The Woks of Life",
+      "chunkType": "ingredients",
+      "content": "菜名：冬瓜排骨汤\n- 2 pounds pork ribs or pork rib tips (cut into 1-2-inch/2.5-5cm pieces)\n- 5 slices ginger (⅛-inch thick and smashed)\n- 9 cups water (plus more for soaking and blanching the ribs)\n- 1 1/2 pounds winter melon\n- 1 1/4 teaspoon sea salt (plus more to taste)\n- white pepper (to taste)\n- 1 handful cilantro and/or scallions (chopped)\n- light soy sauce (to serve with the ribs)",
+      "similarity": 0.735523029298963
+    },
+    {
+      "chunkId": "e0b9c261-b7fc-4170-9e43-aa6d06fd2965",
+      "documentId": "fc8be572-9638-48b4-8fb1-b416a9893e56",
+      "sourceName": "The Woks of Life",
+      "chunkType": "steps",
+      "content": "菜名：冬瓜排骨汤\n1. Soak the ribs in a bowl of cold water for 1 hour to get rid of blood and impurities. Drain. If you are strapped for time, this step isn’t strictly necessary, as you’ll be blanching them also in the next step.\n2. Add the ribs to a large soup pot along with enough water to cover. Bring to a boil. Simmer for 1 minute, and turn off the heat. Drain and rinse the ribs under running water, and clean your soup pot. This step is important––it keeps your broth clear and clean-tasting.\n3. Put the blanched pork ribs, smashed ginger slices, and 9 cups of water back in the soup pot. Bring to a boil, and immediately reduce the heat down to medium-low. Cover and simmer for 90 minutes. Cantonese soups require low heat for a delicate flavor and clear broth. Check on the soup periodically to make sure it is lightly simmering, but not boiling.\n4. Meanwhile, prepare the winter melon: trim off the thick skin, rinse it clean, and cut it into ¼-inch thick (6mm) bite-size pieces.",
+      "similarity": 0.734856389011633
+    },
+    {
+      "chunkId": "c9e5494d-0d48-4a18-9239-630dd6b9d966",
+      "documentId": "fc8be572-9638-48b4-8fb1-b416a9893e56",
+      "sourceName": "The Woks of Life",
+      "chunkType": "steps",
+      "content": "菜名：冬瓜排骨汤\n5. After 90 minutes, use a ladle to skim off the excess grease floating at the top of the soup, then add the winter melon and salt. Cover and simmer for another 15 minutes, until the winter melon is just cooked through (don’t overcook it—it should still have some bite to it).\n6. Add the white pepper and adjust the salt to taste as well. Finally, add the scallions and/or cilantro.\n7. After cooking in the soup for so long, the ribs are melt-in-your-mouth tender and perfect with a little soy sauce! Serve the soup with a hot bowl of rice and a small dish of light soy sauce as a dipping sauce for the pork ribs. Nutrition info does not include light soy sauce served with the ribs.",
+      "similarity": 0.730398811984101
+    },
+    {
+      "chunkId": "e4d40f28-f575-41b2-a73f-d16b49f97299",
+      "documentId": "fc8be572-9638-48b4-8fb1-b416a9893e56",
+      "sourceName": "The Woks of Life",
+      "chunkType": "tips",
+      "content": "菜名：冬瓜排骨汤\n- 原文未提供额外提示。",
+      "similarity": 0.725855773018817
+    },
+    {
+      "chunkId": "4825bd33-1a6c-4321-b33c-46a45a4d0f1d",
+      "documentId": "fc8be572-9638-48b4-8fb1-b416a9893e56",
+      "sourceName": "The Woks of Life",
+      "chunkType": "technique",
+      "content": "菜名：冬瓜排骨汤\n- Serves: 8\n- Prep: 1 hr 10 mins\n- Cook: 2 hrs 15 mins\n- Total: 3 hrs 25 mins",
+      "similarity": 0.640835006261915
+    }
+  ],
+  "notes": [
+    "Database book comparison audit: cn-book-inventory.json.",
+    "完整来源步骤及正文操作细节保留在rawExcerpt；Editor必须核对正文补充细节，不能只用压缩后的概述。",
+    "Unselectedsourceimageaudit:[{\"originalUrl\": \"https://thewoksoflife.com/wp-content/uploads/2023/07/pork-winter-melon-soup-8.jpg\", \"role\": \"finished_dish\", \"reason\": \"重复成品图；保留单独图片审计，不伪作过程图。\"}]",
+    "源图已由既有WindowsHTTP标准传输验证并导入，参见本菜media-import.json。"
+  ]
+}

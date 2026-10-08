@@ -1,0 +1,65 @@
+{
+  "runId": "2026-10-08-remaining44-west-026",
+  "recipeId": "west-026",
+  "recipeName": "匈牙利牛肉汤",
+  "category": "western",
+  "status": "in_progress",
+  "startedAt": "2026-10-08T11:56:52.318Z",
+  "completedAt": null,
+  "steps": {
+    "research": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "evidencePath": "workflow/batches/2026-10-08-remaining44/west-026.base-evidence.json",
+        "evidencePackageHash": "5e68e1586d66854a3a96c909f0178479a22379943820026789cb3e192d668350",
+        "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/beef-goulash-soup",
+        "sourceMode": "single_source",
+        "singleSourceReason": "Exact-name and alias KB query first; all84actual book records checked, no matching Western recipe. Enabled BBC and Serious Eats alternatives attempted; only one independent complete coherent source remains eligible. Other inaccessible, materially different, or internally conflicting variants are retained in audit and never used to supplement it.",
+        "publicationGate": "Final image/evidence acceptance pending"
+      }
+    },
+    "ingestion": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "selectedDocumentId": "78419c8b-cac5-4313-9273-1d5fc594a696",
+        "documentIds": [
+          "78419c8b-cac5-4313-9273-1d5fc594a696"
+        ],
+        "ragEvidence": 5
+      }
+    },
+    "edit": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "validator": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "review": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "build": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "gitPush": {
+      "status": "pending",
+      "attempts": 0
+    }
+  },
+  "sources": [
+    {
+      "name": "BBC Good Food",
+      "url": "https://www.bbcgoodfood.com/recipes/beef-goulash-soup",
+      "status": "success",
+      "failureReason": null
+    }
+  ],
+  "errors": [],
+  "branch": "codex/recipe-automation",
+  "commit": null
+}

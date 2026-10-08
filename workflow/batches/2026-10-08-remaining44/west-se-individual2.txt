@@ -1,0 +1,134 @@
+Grilled Bratwurst With Beer, Mustard, and Sauerkraut Recipe (https://www.seriouseats.com/grilled-bratwurst-with-beer-mustard-and-sauerkraut-recipe)
+citeturn48view0 [wordlim: 100] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.seriouseats.com/grilled-bratwurst-with-beer-mustard-and-sauerkraut-recipe","lineno":null}); Total lines: 147
+L0: cite0†iframe†www.googletagmanager.com L1: 
+L2: cite1†Serious Eats L3: 
+L4: Save
+L5: 
+L6: Rate
+L7: 
+L8:   * Search [Input: What are you looking for?]
+L9: 
+L10:   * cite2†Newsletters L11:   * cite3†Sweepstakes L12:   * cite1†Serious Eats L13: # Grilled Bratwurst With Beer, Mustard, and Sauerkraut Recipe
+L14: 
+L15: 5.0
+L16: 
+L17: (2)
+L18: 
+L19: 25 Reviews
+L20: 
+L21: Make perfect grilled bratwurst by simmering them in a flavorful sauerkraut bath first.
+L22: 
+L23: By
+L24: 
+L25: cite4†J. Kenji López-Alt L26: 
+L27: cite5†Image: Kenji Lopez Alt cite5†Image: Kenji Lopez Alt L28: 
+L29: cite4†J. Kenji López-Alt L30: 
+L31: Kenji is the former culinary director for Serious Eats and a current culinary consultant for the site. He is also a New York Times food columnist and the author of The Food Lab: Better Home Cooking Through Science.
+L32: cite6†Serious Eats' Editorial Guidelines L33: 
+L34: Updated on May 24, 2019
+L35: 
+L36: cite7†Image†cdn.jwplayer.com cite7†Image†cdn.jwplayer.com L37: 
+L38: How to Grill Sausages and Hot Dogs the Right Way
+L39: 
+L40: 2:33
+L41: 
+L42: Jump to recipe
+L43:   * Poaching the sausages in a flavorful mixture of beer, sauerkraut, and mustard cooks them through from edge to edge.
+L44:   * Simmering the sausages in a pan set directly on the grill helps to imbue them with smoky flavor as they cook.
+L45:   * Finishing the sausages on the hot side of the grill gets their exteriors nicely crisp and charred.
+L46: The key to perfectly cooked pork bratwurst on the grill is to start them in a flavorful bath of sauerkraut, beer, and mustard. Slowly simmer the sausages so they're infused with flavor and cook evenly, then finish them off on the hot side to crisp and char.
+L47: 
+L48: cite8†Image: 20170418-cooking-sausage-hot-dog-3.jpg cite8†Image: 20170418-cooking-sausage-hot-dog-3.jpg L49: 
+L50: Photograph and video: J. Kenji López-Alt
+L51: 
+L52: Cook Time:
+L53: 
+L54: 1 hr
+L55: 
+L56: Total Time:
+L57: 
+L58: 1 hr
+L59: 
+L60: Servings:
+L61: 
+L62: 4 servings
+L63: 
+L64: Yield:
+L65: 
+L66: Serves 4
+L67: [Button: Jump to Nutrition Facts]
+L68: 
+L69: Keep Screen Awake
+L70: ## Ingredients
+L71: 
+L72:   * 12 ounces (350ml) beer (almost any beer will do)
+L73: 
+L74:   * 3 tablespoons (45ml) whole grain mustard
+L75: 
+L76:   * 1 (1-pound; 450g) package sauerkraut, with juices
+L77: 
+L78:   * 6 thyme sprigs or 3 bay leaves (optional)
+L79: 
+L80:   * 2 pounds (900 g) bratwurst sausages
+L81: 
+L82:   * Buns and mustard, for serving
+L83: ## Directions
+L84: 
+L85:   1. cite9†Light 1 chimney full of charcoal. When all charcoal is lit and covered with gray ash, pour out and arrange coals on one side of charcoal grate. Set cooking grate in place, cover grill, and allow to preheat for 5 minutes. Alternatively, set half the burners on a gas grill to the highest heat setting, cover, and preheat for 10 minutes. cite10†Clean and cite10†oil grilling grate.
+L86:   2. Combine beer, mustard, and sauerkraut in a 10-inch square-disposable aluminum pan. (Alternatively, construct a tray out of a double layer of heavy-duty aluminum foil, 10 inches square, with sides about 2 inches high.) Stir until mustard is broken up and mixture is homogeneous. Add thyme sprigs or bay leaves (if using). Nestle sausages into sauerkraut.
+L87:   3. Place tray on hot side of grill and cook until simmering, about 4 minutes. Slide to cooler side of grill. Cover grill, with vents over bratwurst. Cook with all vents open until bratwurst register 140 to 145°F (60 to 63°C) on an instant-read thermometer, about 20 minutes, turning once in the middle.
+L88:   4. Remove lid. Using tongs, remove bratwurst from sauerkraut and place directly on cooking grate over hot side of grill. Cook, turning occasionally, until well browned and crisp, about 3 minutes total. Return to sauerkraut. Toast buns over hot side of grill, if desired. Serve bratwurst with buns, mustard, and sauerkraut from pan.
+L89: ## Special equipment
+L90: 
+L91: cite11†Grill , 10-inch square disposable aluminum pan, cite12†instant-read thermometer L92: 
+L93: ### This Recipe Appears In
+L94: 
+L95:   * cite13†The Food Lab: The Best Way to Grill Sausages L96:   * cite14†Serious Entertaining: A Beer-Infused Dinner Menu L97: 
+L98: Save
+L99: 
+L100: Rate
+L101: 
+L102: Print [Input]
+L103: ## Nutrition Facts (per serving)
+L104: 
+L105: 997  | Calories
+L106: 69g  | Fat
+L107: 48g  | Carbs
+L108: 39g  | Protein
+L109: 
+L110: Show Full Nutrition Label Hide Full Nutrition Label
+L111: 
+L112: Nutrition Facts
+L113: ---
+L114: Servings Per Recipe 4
+L115: ---
+L116: Calories 997
+L117: ---
+L118: % Daily Value *
+L119: Total Carbohydrate 48g  | 17%
+L120: Dietary Fiber 5g  | 18%
+L121: Total Sugars 6g
+L122: Protein 39g  | 78%
+L123: Total Fat 69g  | 88%
+L124: Saturated Fat 23g  | 116%
+L125: Cholesterol 167mg  | 56%
+L126: Vitamin C 18mg  | 19%
+L127: Sodium 3108mg  | 135%
+L128: Calcium 220mg  | 17%
+L129: Iron 5mg  | 29%
+L130: Potassium 1100mg  | 23%
+L131: * Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs.
+L132: 
+L133: Loading shell for RecipesUgcThreaded1 Vue component in Globe.
+L134: ## Related Articles
+L135: cite15†Grilled Italian Sausage With Sweet-and-Sour Peppers and Onions Recipe 1 hr 10 mins cite16†Grilled Hot Dogs With Sauerkraut Recipe 45 mins cite17†Pork Souvlaki With Pita and Tzatziki 2 hrs 50 mins cite18†Orange and Leek Loukaniko (Greek Sausage) Recipe 2 days 4 hrs 25 mins cite19†Adobo-Marinated Grilled Pork Chops Recipe 8 hrs 45 mins cite20†Lechon Liempo (Filipino-Style Roasted Pork Belly) Recipe 3 hrs 20 mins cite21†Low-and-Slow Pulled Pork (Smoked Pork Shoulder) 20 hrs 30 mins cite22†Choucroute Garnie à l'Alsacienne (Alsatian Braised Sauerkraut With Mixed Meats and Sausages) Recipe 3 hrs 45 mins L136: cite23†Cheesy, Gooey Croques Monsieurs 35 mins cite24†Thit Heo Nuong Xa (Vietnamese Grilled Lemongrass Pork Chops) 55 mins cite25†Green Chorizo Recipe 1 hr 20 mins cite26†Turkey Weisswurst (White German-Style Sausage With Lemon, Nutmeg, and Parsley) Recipe 12 hrs 10 mins cite27†Homemade Tacos Al Pastor 11 hrs 20 mins cite28†Vietnamese Grilled Pork Chops With Chilled Rice Noodles Recipe 1 hr 15 mins cite29†Green Chorizo | Grilling cite30†Grilled Mexican Chorizo With Spicy Tomato-Caper Sauce Recipe 40 mins L137: Newsletter Sign Up
+L138: 
+L139: Newsletter Sign Up
+L140: ## We Care About Your Privacy
+L141: 
+L142: We and our 100 partners store and/or access information on a device, such as unique IDs in cookies to process personal data. You may accept or manage your choices by clicking below, including your right to object where legitimate interest is used, or at any time in the privacy policy page. These choices will be signaled to our partners and will not affect browsing data.
+L143: ### We and our partners process data to provide:
+L144: Store and/or access information on a device. Use limited data to select advertising. Create profiles for personalised advertising. Use profiles to select personalised advertising. Create profiles to personalise content. Use profiles to select personalised content. Measure advertising performance. Measure content performance. Understand audiences through statistics or combinations of data from different sources. Develop and improve services. Use limited data to select content.
+L145: [Button: List of Partners (vendors) ]
+L146: [Button: Accept All] [Button: Reject All] [Button: Show Purposes]
+

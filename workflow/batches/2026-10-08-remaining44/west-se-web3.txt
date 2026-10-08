@@ -1,0 +1,330 @@
+The Best Chicken Parmesan Recipe (https://www.seriouseats.com/the-best-chicken-parmesan-recipe)
+citeturn28view0 [wordlim: 100] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.seriouseats.com/the-best-chicken-parmesan-recipe","lineno":null}); Total lines: 322
+L0: cite0†iframe†www.googletagmanager.com L1: 
+L2: cite1†Serious Eats L3: 
+L4: Save
+L5: 
+L6: Rate
+L7: 
+L8:   * Search [Input: What are you looking for?]
+L9: 
+L10:   * cite2†Newsletters L11:   * cite3†Sweepstakes L12:   * cite1†Serious Eats L13: # The Best Chicken Parmesan
+L14: 
+L15: 4.8
+L16: 
+L17: (12)
+L18: 
+L19: 48 Reviews
+L20: 
+L21: Classic Italian-American chicken parmesan made even better with a buttermilk brine for tender chicken, a flavorful breading, and slow-cooked red sauce.
+L22: 
+L23: By
+L24: 
+L25: cite4†J. Kenji López-Alt L26: 
+L27: cite5†Image: Kenji Lopez Alt cite5†Image: Kenji Lopez Alt L28: 
+L29: cite4†J. Kenji López-Alt L30: Kenji is the former culinary director for Serious Eats and a current culinary consultant for the site. He is also a New York Times food columnist and the author of The Food Lab: Better Home Cooking Through Science.
+L31: 
+L32: cite6†Serious Eats' Editorial Guidelines L33: 
+L34: Updated on December 13, 2025
+L35: 
+L36: Close
+L37: 
+L38: cite7†Image: Chicken Parmesan on a white plate.  cite7†Image: Chicken Parmesan on a white plate.  L39: 
+L40: Credit:
+L41: 
+L42: Serious Eats / J. Kenji Lopez-Alt
+L43: 
+L44: In This Recipe
+L45: 
+L46: View All
+L47: 
+L48: In This Article
+L49:   * cite8†Crumby Flavor: A Breading With Extra Crunch L50: 
+L51:   * cite9†Frying at the Right Temperature Is Key L52: 
+L53:   * cite10†Choosing the Best Cheese and Sauce L54: 
+L55:   * cite11†Assembling and Baking Your Chicken Parm L56: 
+L57:   * cite12†A Buttermilk Brine Tenderizes and Flavors Your Chicken L58: 
+L59: Jump to recipe
+L60: ### Heading
+L61: 
+L62:   * A garlic-spiked buttermilk brine boosts flavor, tenderness, and moisture in the chicken cutlets.
+L63:   * Mixing fresh bread crumbs with Parmesan cheese adds extra flavor to the breading.
+L64:   * A splash of buttermilk in the bread crumb/cheese mix gives it body, creating even crispier fried cutlets.
+L65:   * Cubed mozzarella combined with grated Parmesan melts beautifully and combats the blandness of plain mozzarella.
+L66: Editor's Note: Chicken Parmesan and Chicken Parmigiana are the same dish. We use “Parmesan” throughout this recipe to reflect the dish’s American origin.
+L67: I can count the number of times I've had truly bad chicken parm on one hand, and all of those situations involved alcohol, steam tables, and friends with loose morals (or, at the very least, questionable taste). Like pizza, if you order chicken parm—even at the chainiest of chain restaurants—you're going to get something pretty good. It's pretty hard to mess up a fried breaded chicken cutlet smothered with red sauce and melted mozzarella and Parmesan cheese.
+L68: The dish originates from cite13†Melanzane alla Parmigiana , the classic Italian dish of eggplant sautéed in olive oil and layered with tomato sauce and mozzarella cheese. Though the name means "eggplant in the style of Parma," a Northern Italian city, the dish originates in Southern Italy where eggplants, tomatoes, and olive oil are plentiful. In fact, real classic eggplant parm is made solely with mozzarella cheese—it doesn't necessarily have Parmesan at all.
+L69: Chicken made its appearance when Italian immigrants brought the dish to the U.S., a country where meat was both plentiful and cheap. Very quickly, the sautéed eggplant was replaced wholesale with breaded chicken cutlets (or veal cutlets, or even pork, as the case may be). Some time later, Parmesan cheese started becoming a standard addition (perhaps because the name seemed to imply it, but more likely because it just tastes better with it), and an Italian-American classic was born.
+L70: Since then, as often happens when things go mainstream, chicken parm has gone from being a beloved and once-a-year comfort food to an institutionalized, mass-produced, inoffensive staple.
+L71: 
+L72: My goal here is to fix that by bringing chicken parm back to its roots, optimizing every step, and creating a recipe that celebrates the dish in all of its cheesy, crispy, sauce-smothered, American glory.
+L73: ## Crumby Flavor: A Breading With Extra Crunch
+L74: 
+L75: Let's start with the easiest bit. What's the blandest part of the chicken parm? Anyone?
+L76: 
+L77: That's right, the breading. The role of the breading in a chicken parm is twofold: first, it adds crunchy textures. Secondly (and no less importantly), it helps insulate the chicken as it cooks, mitigating the drying effect of frying.
+L78: cite14†Image: Breading set-up for chicken parmesan: a plate of skinless, boneless chicken breasts, a bowl of flour, a bowl of egg wash, and a bowl of breadcrumbs. cite14†Image: Breading set-up for chicken parmesan: a plate of skinless, boneless chicken breasts, a bowl of flour, a bowl of egg wash, and a bowl of breadcrumbs. L79: The first step to better breading is using better bread. I tried using canned bread crumbs, panko-style breadcrumbs, and crumbs made from a loaf of fresh high quality Italian bread, and crumbs made from bread that I first dehydrated in the oven partially. I applied all of them with the standard breading process:
+L80: 
+L81: cite15†Image: Dredging chicken breast in flour cite15†Image: Dredging chicken breast in flour L82: First a quick dredge in flour (this gives the eggs a dry, rough surface to cling to—think of it as primer for your paint)...
+L83: 
+L84: cite16†Image: Dipping flour-coated chicken breast in beaten egg cite16†Image: Dipping flour-coated chicken breast in beaten egg L85: 
+L86: ...followed by a dip in beaten eggs...
+L87: 
+L88: cite17†Image: Coating egg-dipped chicken breast into bread crumbs cite17†Image: Coating egg-dipped chicken breast into bread crumbs L89: ...then a trip to the bread crumbs. I always like to pile bread crumbs on top and press them down hard to make sure they adhere well.
+L90: 
+L91: cite18†Image: Trimming crust off loaf of bread cite18†Image: Trimming crust off loaf of bread L92: The fresh bread was the best—it had the most unique structure with tons of craggy crusty bits—but it also was the most difficult to cook. Because of its high moisture content, it ended up sticking to the bottom of the skillet, requiring a bit of careful prying to flip the chicken without leaving the crust behind.
+L93: 
+L94: cite19†Image: Crustless dehydrated craggy bits of bread in food processor bowl cite19†Image: Crustless dehydrated craggy bits of bread in food processor bowl L95: Bread crumbs made from bread that I'd dehydrated in a low oven for half an hour were much easier to work with, though they weren't nearly as craggy. To solve this issue and get the best of both worlds, I decided to employ a trick I started using with my cite20†Chick-Fil-A clone recipe .
+L96: 
+L97: cite21†Image: Adding buttermilk into bowl of dry bread crumbs cite21†Image: Adding buttermilk into bowl of dry bread crumbs L98: By adding a bit of buttermilk to the dry breadcrumb mixture and working it in with my fingertips, I created a breading that came preloaded with large, chunky nubs—the kind of chunky nubs that turn into extra-crispy bits as the chicken fries.
+L99: 
+L100: Check out this out:
+L101: 
+L102: cite22†Image: Breaded chicken breast laid out on a rack set over a rimmed baking sheet cite22†Image: Breaded chicken breast laid out on a rack set over a rimmed baking sheet L103: That's texture just waiting to happen. In order to further enhance the coating, I also added just a touch of flour and buttermilk to the egg wash, adding more flavor and creating a thicker, more substantial layer for the crumbs to stick to.
+L104: As a final (and not minor) flavor boost, I decided to add some Parmesan cheese to my breading mixture. I added more and more until I finally settled on a mixture of about 1/3 Parmesan and 2/3 bread—any more and the mixture would become too cheesy and begin to melt off the chicken as soon as it hit the oil.
+L105: ## Frying at the Right Temperature Is Key
+L106: 
+L107: cite23†Image: Lowering breaded chicken breast into skillet of hot oil cite23†Image: Lowering breaded chicken breast into skillet of hot oil L108: For the frying process, the goal is to get an even golden-brown crust on both surfaces. The absolute best way to do this is to actually deep-fry the chicken so that it's cooking from all sides quickly and simultaneously. It's not a particularly practical method at home, however, so we'll stick with the more traditional shallow-frying in a skillet.
+L109: The most important part of frying the chicken is to make sure your oil is at the right temperature. Too cold and your chicken will end up overcooking before it has a chance to fully brown and crisp (or worse, your coating will slip off the chicken if it doesn't seal up fast enough).
+L110: 
+L111: Too hot, and you end up with this, which, aside from looking a little bit like India, also has some problems.
+L112: cite24†Image: Breaded chicken breast with bits of burnt crust cite24†Image: Breaded chicken breast with bits of burnt crust L113: 
+L114: The coating is burnt in spots, but almost completely raw in others. No good.
+L115: To make sure you're frying right, you should aim for a temperature of between 375 to 400°F to start. You can check this either with a totally awesome infrared thermometer like this, with a cite25†good instant read thermometer , or the old fashioned way: a little cube of bread dropped in should sizzle rapidly and brown in about 10 seconds. If it doesn't sizzle, wait longer. Browning too fast? Let the oil cool a bit.
+L116: cite26†Image: Checking oil temperature with inferred thermometer cite26†Image: Checking oil temperature with inferred thermometer L117: 
+L118: Once the chicken is added, it'll drop down to around 325°F, and you should adjust the heat to maintain that temperature.
+L119: I like to fry in cite27†cast iron (nothing will help your seasoning more!), but a standard cite28†stainless steel or even a nonstick skillet will work fine. When adding the chicken to the pan, make sure to lay it into the pan from the tip down, slowly draping it away from you. Want to know the definition of pain? Try adding the chicken really fast, draping it towards you and watch as your body is showered with drops of hot oil.
+L120: 
+L121: Bonus macho points if you do this naked.
+L122: cite29†Image: Using spatula and fork to gently flip over golden brown underside fried chicken breast in hot oil cite29†Image: Using spatula and fork to gently flip over golden brown underside fried chicken breast in hot oil L123: Place as many pieces of chicken as will fit in a single layer (I could fit three in my 12-inch cast iron skillet, sometimes only two if they were especially large) and let them cook without moving for about 30 seconds, then start swirling the pan, using a flexible slotted spatula to gently pry off any bits that are sticking to the bottom.
+L124: It's also good practice to lift the chicken slightly, allowing the oil underneath to redistribute and cook more evenly. Once they've turned golden brown on the bottom, use a fork in one hand to lift the cutlet, gently flipping it and catching it with your spatula to prevent it from splashing down into the hot oil.
+L125: cite30†Image: Finished fried chicken breasts laid on paper towel beside more chicken breasts deep-frying in cast iron skillet cite30†Image: Finished fried chicken breasts laid on paper towel beside more chicken breasts deep-frying in cast iron skillet L126: 
+L127: As the chicken finishes cooking, lay it on a paper towel-lined plate to drain.
+L128: ## Choosing the Best Cheese and Sauce
+L129: 
+L130: cite31†Image: Pot of thick red tomato sauce cite31†Image: Pot of thick red tomato sauce L131: 
+L132: There's no real question as to what sauce we're going to use here. I spent a good deal of time developing this cite32†All-Day Stovetop Italian-American Red Sauce , and it's the best darn sauce I've ever had. If we're going into chicken parm, we're going in it to win it. (Though fine, if you want it a little quicker, you can cite33†use Daniel's awesome 40-minute red sauce .)
+L133: As for the cheese, I always figured that the higher the quality of the mozzarella, the better. But is this really the case?
+L134: 
+L135: cite34†Image: Collage comparing imported buffalo-milk mozzarella, locally-made water-packed mozzarella, national brand of "fresh" mozzarella, and low-moisture mozzarella cite34†Image: Collage comparing imported buffalo-milk mozzarella, locally-made water-packed mozzarella, national brand of "fresh" mozzarella, and low-moisture mozzarella L136: The mozzarella candidates included: 1 - imported Italian buffalo milk mozzarella; 2 - locally-made, water-packed mozzarella; 3 - "fresh mozzarella" packed in cryovac-style packaging; 4 - low-moisture mozzarella.
+L137: I tried four different cheeses: an honest-to-goodness imported buffalo milk mozzarella from Italy, a high quality water-packed mozzarella made locally, a nationally-available ball of "fresh mozzarella" packed in a cryovac-style package, and a chunk of low-moisture mozzarella (the stuff we know as "pizza cheese" 'round here).
+L138: Surprisingly, the buffalo mozz wasn't the best. Rather than melting into a gooey layer like you want in a good chicken parm, it instead gave off a ton of moisture while simultaneously turning a little rubbery. The fresh local mozzarella suffered the same fate, though to a lesser degree. Of the two packaged mozzarellas, it was a toss up. The fresh mozzarella has the advantage of having a nice fresh milk flavor, while the aged mozzarella melts a little more easily into stretchy, gooey strands.
+L139: It's really up to you.
+L140: cite35†Image: Combining cubes of mozzarella with grated Parmesan in a bowl cite35†Image: Combining cubes of mozzarella with grated Parmesan in a bowl L141: 
+L142: In any case, cutting the cheese into cubes as opposed to grating it gives it superior melting properties, creating nice cheesy, gooey pockets. Tossing the mozzarella with some grated Parmesan also adds flavor without detracting from its melt-ability.
+L143: ## Assembling and Baking Your Chicken Parm
+L144: 
+L145: With the chicken fried, the sauce made, and the cheese tossed, assembly is pretty straightforward. You can work in a casserole dish, individual oven-safe serving dishes, or a large oven-safe platter.
+L146: 
+L147: cite36†Image: Laying down red sauce to build chicken parmesan cite36†Image: Laying down red sauce to build chicken parmesan L148: 
+L149: I first laid down a thick layer of sauce...
+L150: cite37†Image: Laying down fried chicken breasts over red sauce cite37†Image: Laying down fried chicken breasts over red sauce L151: 
+L152: ...then topped it with the chicken...
+L153: 
+L154: cite38†Image: Spooning red sauce over fried chicken breasts cite38†Image: Spooning red sauce over fried chicken breasts L155: ...followed by more sauce, and a thick spread of cheese over the top. I intentionally left the edges of the chicken uncovered. Like a good pizza, I want there to be some amount of soft, sauce-soaked breading, but I also want to make sure that there are crispy edges sticking out as well for textural contrast.
+L156: 
+L157: After baking it in a 425°F oven until the cheese melted, I tasted it.
+L158: 
+L159: cite39†Image: Serving up chicken parmesan cite39†Image: Serving up chicken parmesan L160: The sauce, cheese, and crust were spot-on, but the chicken itself was still frustratingly dry. What's up with that?
+L161: ## Try a Little Tenderness: A Buttermilk Brine Tenderizes and Flavors Your Chicken
+L162: 
+L163: Quick fact #1: Chicken breast is pretty much the driest cut out meat out there, period. With very little fat and almost no connective tissue, it's the kind of meat that turns to tough, chalky sawdust when even slightly overcooked.
+L164: Quick fact #2: Frying is one of the most violent ways you can cook food. It heats very rapidly and unforgivingly, making it more likely for the food to dry out than with a more delicate method like steaming or sous-vide cooking.
+L165: 
+L166: On top of that, a chicken breast is unevenly shaped. There are thick areas and thin areas, which leads to uneven cooking—by the time the thick areas are cooked through, the thin areas are hopelessly overcooked. How do we solve these problems?
+L167: Well, let's start with the first trick that the classic method utilizes: pounding. Pounding not only tenderizes by breaking down some of the tougher connections between muscle fibers, but it also evens out those thick and thin spots.
+L168: 
+L169: We start by splitting a chicken breast half in half horizontally with a very sharp knife.
+L170: 
+L171: cite40†Image: Pounding chicken breast in resealable plastic bag with heavy bottom frying pan cite40†Image: Pounding chicken breast in resealable plastic bag with heavy bottom frying pan L172: We then place that chicken breast half in a zipper-lock bag and pound it out to an even thickness.
+L173: 
+L174: With classic chicken parm, you'd jump straight from this step to the breading and frying stages. But I wondered what would happen if I were to add a brining step here. When you soak chicken in a salty solution, that salt will dissolve some of its muscle proteins—mainly myosin—which in turn allows it to retain more moisture as it cooks.
+L175: The brine certainly helped, but then it occurred to me: how is a breaded chicken cutlet used for chicken parm all that different from, say, Southern-style fried chicken? Aside from its breading (chicken parm uses breadcrumbs, Southern-fried uses a flour dredging), it has the same problems of dryness and toughness that need to be dealt with. What if I were to adapt a Southern-style buttermilk soak? I was already adding a touch of buttermilk to my breadcrumb mixture, so it was an easy leap to make.
+L176: I pounded out a batch of chicken breasts and added them to a buttermilk brine seasoned with lots of salt, pepper, and garlic, then transferred the mixture to a zipper lock bag and let it rest overnight. Buttermilk, with its mild acidity not only improves the flavor of chicken, but also further tenderizes it.
+L177: 
+L178: The next day, I breaded and fried the cutlets just as I did with the standard chicken breast.
+L179: The results were pretty astounding. Here was chicken breast that even after being fried and baked in the oven, still maintained all the juiciness of the best Southern-style fried chicken, with a smooth, tender texture and not a hint of stringiness or graininess.
+L180: 
+L181: cite41†Image: Taking a fork to a plate of chicken parmesan cite41†Image: Taking a fork to a plate of chicken parmesan L182: On top of that, the buttermilk only served to enhance the cheesiness I'd built in with the Parmesan-spiked crust and the two types of melted cheese topping it.
+L183: 
+L184: cite42†Image: A forkful of chicken parmesan cite42†Image: A forkful of chicken parmesan L185: 
+L186: A quick sprinkle of chopped fresh parsley leaves and some more grated Parmesan added just as it came out of the oven was all the dish needed.
+L187: Crispy, crunchy, moist, and flavor-packed, this is everything you could wish for in a good chicken Parmesan, and all it took was a little inspiration from down South to pull it off.
+L188: 
+L189: The next question is, what happens if we go full Southern, skip the breading entirely, and add our sauce and cheese to a classic flour-dredged, Southern-fried chicken breast? Why, with a recipe like that, one could perhaps—dare I say it—rule the world?
+L190: ### September 2014
+L191: 
+L192: Prep Time:
+L193: 
+L194: 20 mins
+L195: 
+L196: Cook Time:
+L197: 
+L198: 40 mins
+L199: 
+L200: Marinating Time:
+L201: 
+L202: 4 hrs
+L203: 
+L204: Total Time:
+L205: 
+L206: 5 hrs
+L207: 
+L208: Servings:
+L209: 
+L210: 4 to 6 servings
+L211: 
+L212: Yield:
+L213: 
+L214: Serves 4 to 6
+L215: 
+L216: [Button: Jump to Nutrition Facts]
+L217: 
+L218: Keep Screen Awake
+L219: ## Ingredients
+L220: 
+L221:   * 3 boneless skinless chicken breast halves
+L222: 
+L223:   * 1 3/4 cups buttermilk, divided
+L224: 
+L225:   * 2 medium cloves garlic, minced (about 2 teaspoons)
+L226: 
+L227:   * Kosher salt and freshly ground black pepper
+L228: 
+L229:   * 1/2 loaf crusty Italian bread, crust removed, sliced into 1/2-inch slices
+L230: 
+L231:   * 5 ounces grated Parmesan cheese, plus more for serving
+L232: 
+L233:   * 1 1/2 cups all purpose flour
+L234: 
+L235:   * 2 large eggs
+L236: 
+L237:   * 1 quart cite32†Italian-American red sauce (see notes)
+L238: 
+L239:   * 1/2 cup vegetable or canola oil
+L240:   * 10 ounces fresh mozzarella cheese, cut into 1/2-inch chunks
+L241: 
+L242:   * 2 tablespoons minced fresh parsley, basil, or a mix
+L243: ## Directions
+L244: 
+L245:   1. With a sharp chef's knife, split chicken breasts in half horizontally. Working one piece at a time, place inside a plastic zipper-lock bag and pound with a meat pounder or the bottom of a skillet to an even 1/4-inch thickness. Transfer to a large bowl.
+L246: 
+L247: cite43†Image: Splitting chicken breast horizontally in half cite43†Image: Splitting chicken breast horizontally in half L248:   2. Add 1 1/2 cups buttermilk and minced garlic to bowl. Season with 2 tablespoons kosher salt and 1 teaspoon freshly ground black pepper. Turn chicken with hands until salt, pepper, and garlic are evenly incorporated and all the chicken is coated in buttermilk mixture. Transfer to a large zipper-lock bag, press out the air, and seal. Refrigerate for at least 4 hours and up to overnight (see note).
+L249: cite44†Image: Adding flattened chicken breast to seasoned buttermilk brine cite44†Image: Adding flattened chicken breast to seasoned buttermilk brine L250: 
+L251:   3. Meanwhile, place bread slices on a rack set in a rimmed baking sheet. Leave out on counter for at least 4 hours and up to overnight until mostly dried.
+L252:   4. The next day, break bread into rough pieces (leave the wire rack in the rimmed baking sheet) and combine with 4 ounces Parmesan cheese in the food processor. Season with black pepper. Process until bread is finely ground, about 20 seconds. Transfer mixture to a large shallow bowl or pie plate.
+L253: 
+L254: cite45†Image: Chunks of crustless bread in food processor bowl cite45†Image: Chunks of crustless bread in food processor bowl L255:   5. Place flour in a second shallow bowl or pie plate. Whisk eggs, 2 tablespoons buttermilk, and 1 tablespoon of the flour in a third pie plate. Drizzle remaining 2 tablespoons buttermilk over the bread crumb/Parmesan mixture and incorporate with your fingertips. The mixture should be mealy, but hold together in clumps if you squeeze it together with your hands.
+L256: 
+L257: cite46†Image: Handful of bread crumbs moistened with buttermilk cite46†Image: Handful of bread crumbs moistened with buttermilk L258:   6. Working one piece of chicken at a time, remove from the bag and add to flour. Turn to coat, shake off excess, and add to egg mixture. Turn to coat, letting excess drip off, and add to bread crumb mixture. Turn to coat, piling crumbs on top and pressing down firmly so a thick layer adheres. Transfer coated chicken to the wire rack and repeat with remaining chicken breasts.
+L259: 
+L260: cite47†Image: Hand-breading chicken breast cite47†Image: Hand-breading chicken breast L261:   7. Preheat oven to 425°F. Place sauce in a medium saucepan and heat over low heat, stirring occasionally, until barely simmering. Remove from heat and set aside.
+L262: 
+L263:   8. Heat oil in a large non-stick or cast iron skillet over medium-high heat until it registers 375 to 400°F on an instant read or deep-frying thermometer. Working in batches, carefully add chicken by lowering the cutlets away from you into the oil. Add as many cutlets as will fit in one layer (2 to 3).
+L264: cite48†Image: Lowering breaded chicken breast into cast iron skillet of hot oil cite48†Image: Lowering breaded chicken breast into cast iron skillet of hot oil L265:   9. Cook, swirling pan gently and using a thin flexible metal spatula to loosen chicken if it sticks, until chicken is golden-brown and crisp on bottom side, about 2 minutes. Using a thin metal spatula and a fork, carefully flip chicken and cook until golden brown on second side. Transfer chicken to a paper-towel lined plate to drain and repeat with remaining chicken.
+L266: 
+L267: cite49†Image: Deep-frying breaded chicken breasts in cast iron skillet cite49†Image: Deep-frying breaded chicken breasts in cast iron skillet L268:   10. Spoon 1/3 of sauce onto the bottom of a casserole or oven-safe serving dish. Shingle chicken pieces on top of sauce. Top with more sauce, forming a line down the center. Combine mozzarella and remaining 1 tablespoon Parmesan cheese in a large bowl and toss to coat. Lay cheese mixture over chicken in a straight line down the center.
+L269: cite50†Image: Mozzarella and parmesan cheeses layered over red sauce down the center of shingled fried chicken breasts  cite50†Image: Mozzarella and parmesan cheeses layered over red sauce down the center of shingled fried chicken breasts  L270: 
+L271:   11. Transfer to the oven and cook until cheese is melted and bubbly, about 20 minutes. Remove from oven and immediately grate fresh Parmesan on top. Allow to rest for 3 minutes, top with chopped herbs, and serve immediately.
+L272: cite51†Image: Transferring chicken parmesan onto dinner plate cite51†Image: Transferring chicken parmesan onto dinner plate L273: ## Notes
+L274: 
+L275: For best results, let the chicken brine in the buttermilk for at least 4 hours. If pressed for time, you can cut the brining time down to 1 hour and still get good results. You can use our cite32†All-Day Red Sauce or our cite33†Quick and Easy Red Sauce for this recipe, or a jar of your favorite tomato sauce (we recommend Rao's). For the mozzarella, I recommend the fresh variety available in cryovack containers, not the water-packed variety (which tends to be too moist).
+L276: ## Special Equipment
+L277: 
+L278: cite52†Food processor L279: 
+L280: Save
+L281: 
+L282: Rate
+L283: 
+L284: Print [Input]
+L285: ## Nutrition Facts (per serving)
+L286: 
+L287: 694  | Calories
+L288: 35g  | Fat
+L289: 44g  | Carbs
+L290: 51g  | Protein
+L291: 
+L292: Show Full Nutrition Label Hide Full Nutrition Label
+L293: 
+L294: Nutrition Facts
+L295: ---
+L296: Servings Per Recipe 4 to 6
+L297: ---
+L298: Calories 694
+L299: ---
+L300: % Daily Value *
+L301: Total Carbohydrate 44g  | 16%
+L302: Dietary Fiber 4g  | 14%
+L303: Total Sugars 9g
+L304: Protein 51g  | 101%
+L305: Total Fat 35g  | 44%
+L306: Saturated Fat 14g  | 70%
+L307: Cholesterol 161mg  | 54%
+L308: Vitamin C 20mg  | 23%
+L309: Sodium 1611mg  | 70%
+L310: Calcium 623mg  | 48%
+L311: Iron 4mg  | 22%
+L312: Potassium 848mg  | 18%
+L313: * Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs.
+L314: 
+L315: Loading shell for RecipesUgcThreaded1 Vue component in Globe.
+L316: ## Related Articles
+L317: cite53†The Ultimate Chicken Burrito Bowl Recipe 3 hrs 25 mins cite54†Mushroom Duxelles-Stuffed Chicken Paprikash Recipe 1 hr 30 mins cite55†Chicken Piccata (Fried Chicken Cutlets With Lemon-Butter Pan Sauce) 45 mins cite56†Katsudon (Japanese Chicken or Pork Cutlet and Egg Rice Bowl) Recipe 20 mins cite57†Chettinad Chicken Curry with Okra Recipe 55 mins cite58†Chicken and Penne in Vodka Cream Sauce Recipe 1 hr 5 mins cite59†Stir-Fried Velvet Chicken with Snap Peas and Lemon-Ginger Sauce | The Food Lab cite60†Easy Stir-Fried Chicken With Ginger and Scallions Recipe 45 mins L318: cite61†Stir-Fried Velvet Chicken with Snap Peas and Lemon-Ginger Sauce Recipe 35 mins cite62†Chinese Velveting 101: Stir-Fried Chicken With Mushrooms and Oyster Sauce cite63†Sesame Chicken and Eggplant 50 mins cite64†Tomatillo Chicken Quesadillas Recipe 40 mins cite65†Stir-Fried Chicken With Mushrooms and Oyster Sauce Recipe 55 mins cite66†Creole-Style Red Jambalaya With Chicken, Sausage, and Shrimp Recipe 1 hr 45 mins cite67†Easy Pan-Roasted Chicken Breasts With White Wine and Fines Herbes Pan Sauce Recipe 30 mins cite68†Crispy Braised Chicken With White Beans and Chile Verde | The Food Lab L319: Newsletter Sign Up
+L320: 
+L321: Newsletter Sign Up
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn28view1 [wordlim: 200] Source: open({"ref_id":"https://www.seriouseats.com/beef-wellington-recipe","lineno":null}); Total lines: 1
+L0: URL https://www.seriouseats.com/beef-wellington-recipe is not accessible via this tool.
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn28view2 [wordlim: 200] Source: open({"ref_id":"https://www.seriouseats.com/traditional-french-coq-au-vin-recipe","lineno":null}); Total lines: 1
+L0: URL https://www.seriouseats.com/traditional-french-coq-au-vin-recipe is not accessible via this tool.
+--------------------------------------------------------------------------------
+Provençal Ratatouille Recipe (https://www.seriouseats.com/ratatouille-provence-vegetable-stew-recipe)
+citeturn28view3 [wordlim: 100] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.seriouseats.com/ratatouille-provence-vegetable-stew-recipe","lineno":null}); Total lines: 312
+L0: cite0†iframe†www.googletagmanager.com L1: 
+L2: cite1†Serious Eats L3: 
+L4: Save
+L5: 
+L6: Rate
+L7: 
+L8:   * Search [Input: What are you looking for?]
+L9: 
+L10:   * cite2†Newsletters L11:   * cite3†Sweepstakes L12:   * cite1†Serious Eats L13: # Provençal Ratatouille Recipe
+L14: 
+L15: 4.8
+L16: 
+L17: (4)
+L18: 
+L19: 6 Reviews
+L20: 
+L21: This classic Provençal stew allows ripe, late-summer produce to shine.
+L22: 
+L23: By
+L24: 
+L25: cite4†Daniel Gritzer L26: 
+L27: cite5†Image: Daniel Gritzer cite5†Image: Daniel Gritzer L28: 
+L29: cite4†Daniel Gritzer L30: 
+L31: Daniel is the editorial director of Serious Eats, where he leads the site's editorial strategy and oversees everything from recipe development to articles on food science, cooking techniques, and more. He's a former food editor at Food & Wine and has cooked in New York City restaurants.
+L32: cite6†Serious Eats' Editorial Guidelines L33: 
+L34: Updated on March 3, 2025
+L35: 
+L36: Close
+L37: 
+L38: cite7†Image: A bowl of colorful Provençal ratatouille. cite7†Image: A bowl of colorful Provençal ratatouille. L39: 
+L40: Credit:
+L41: 
+L42: Serious Eats / Vicky Wasik
+L43: 
+L44: In This Recipe
+L45: 
+L46: View All
+L47: 
+L48: In This Article
+L49: 
+L50:   * cite8†What Is Ratatouille? L51: 
+L52:   * cite9†What's the Best Size to Cut the Vegetables L53: 
+L54:   * cite10†Should You Salt the Eggplant and Squash? L55: 
+L56:   * cite11†Are One-Pot or Individually Cooked Vegetables Better? L57: 
+L58:   * cite12†What Kind of Tomato Is Best? L59:   * cite13†Ratatouille: Step by Step 

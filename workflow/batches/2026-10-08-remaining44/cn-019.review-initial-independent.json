@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "CN019独立复核通过：完整保留Woks单一来源的8项原料、先炖90分钟再二选一炖或蒸90分钟及禁止加水炖煮的要求；尺寸重量换算正确，杯与汤匙未推算容量，总时间230分钟及步骤合计差异已披露。生成份数8、时间与计时器一致，所有运行图片为本地且同源，抽查蒸制路线耐热容器图符合移装语义。另逐行检查8项配料及8步中文句法、标点、括号、分隔和连续编号，未发现实质问题。",
+  "evidencePackageHash": "651e42fa1f078f0aae2b228c31ef3dbb2aa0c547d12fdc477a0571207836ece4",
+  "validatorPassed": true,
+  "adversarialReview": {"ingredientSemantics": true, "stepGrammar": true, "punctuation": true, "renderedStructure": true}
+}

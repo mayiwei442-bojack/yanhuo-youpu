@@ -1,0 +1,73 @@
+{
+  "ingredients": [
+    {
+      "name": "a good beef fillet (preferably Aberdeen Angus) of around 1kg/2lb 4oz",
+      "raw": "a good beef fillet (preferably Aberdeen Angus) of around 1kg/2lb 4oz",
+      "amount": null
+    },
+    {
+      "name": "olive oil",
+      "raw": "3 tbsp olive oil",
+      "amount": null
+    },
+    {
+      "name": "chestnut mushroom include some wild ones if you like",
+      "raw": "250g/9oz chestnut mushroom include some wild ones if you like",
+      "amount": null
+    },
+    {
+      "name": "butter",
+      "raw": "50g/2oz butter",
+      "amount": null
+    },
+    {
+      "name": "arge sprig fresh thyme",
+      "raw": "1 large sprig fresh thyme",
+      "amount": null
+    },
+    {
+      "name": "fl oz dry white wine",
+      "raw": "100ml/3.5 fl oz dry white wine",
+      "amount": null
+    },
+    {
+      "name": "slices prosciutto",
+      "raw": "12 slices prosciutto",
+      "amount": null
+    },
+    {
+      "name": "b 2oz pack puff pastry thawed if frozen",
+      "raw": "500g/1lb 2oz pack puff pastry thawed if frozen",
+      "amount": null
+    },
+    {
+      "name": "a little flour for dusting",
+      "raw": "a little flour for dusting",
+      "amount": null
+    },
+    {
+      "name": "egg yolks beaten with 1 tsp water",
+      "raw": "2 egg yolks beaten with 1 tsp water",
+      "amount": null
+    },
+    {
+      "name": "pepper",
+      "raw": "pepper for beef (step2; amount unspecified)",
+      "amount": null
+    },
+    {
+      "name": "seasoning",
+      "raw": "Season mushroom mixture (step5; seasoning type and quantity unspecified)",
+      "amount": null
+    },
+    {
+      "name": "water",
+      "raw": "1 tsp water with egg yolks (step14)",
+      "amount": null
+    }
+  ],
+  "notes": [
+    "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented.",
+    "Initial beef roast220C/fan200C/gas7 and final pastry200C/fan180C/gas6 are different stages; preserve both."
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "recipeId": "cn-026",
+  "recipeName": "龙井虾仁",
+  "category": "chinese",
+  "status": "failed",
+  "failedStage": "research",
+  "createdAt": "2026-10-08T12:23:23.824131+00:00",
+  "reason": "唯一找到的豆果龙井虾仁候选抓取HTTP429/403；未绕过访问控制，不能把索引摘要冒充全文。Woks无对应完整菜谱。",
+  "bookSearch": {
+    "auditFile": "cn-book-inventory.json",
+    "scannedDocuments": 84,
+    "usableDocuments": 79,
+    "exactOrAcceptableAliasMatches": 0,
+    "excludedStatuses": [
+      "superseded",
+      "rejected",
+      "invalid"
+    ],
+    "assessment": "No complete same-dish recipe in current database books; no book supplementation fabricated."
+  },
+  "attemptedSources": [
+    {
+      "source": "豆果美食",
+      "url": "https://www.douguo.com/cookbook/1443891.html",
+      "result": "PythonHTTP429; normalweb403; no bypass"
+    },
+    {
+      "source": "The Woks of Life",
+      "query": "shrimp longjing tea site:thewoksoflife.com",
+      "result": "no exact complete recipe"
+    },
+    {
+      "source": "The Woks of Life",
+      "aliasCoverageAudit": "cn-alias-coverage-audit.json",
+      "result": "Lobster/noodle/cashew-shrimp and cuisine guide mentions are not a complete Dragon Well tea shrimp recipe."
+    }
+  ],
+  "evidencePackage": null,
+  "ingestion": {
+    "performed": false,
+    "reason": "No qualifying complete exactdishsource; do not ingest partial snippets or unrelated variants as this entity."
+  },
+  "aliasRecheckedAt": "2026-10-08T12:41:18.329553+00:00"
+}

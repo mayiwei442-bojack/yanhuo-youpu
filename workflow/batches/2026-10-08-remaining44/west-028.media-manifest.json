@@ -1,0 +1,16 @@
+{
+  "recipeId": "west-028",
+  "authorization": "user_confirmed_2026-09-16",
+  "sourceUrl": "https://www.bbcgoodfood.com/recipes/chicken-quesadillas",
+  "recipePageUrl": "https://www.bbcgoodfood.com/recipes/chicken-quesadillas",
+  "referer": "https://www.bbcgoodfood.com/recipes/chicken-quesadillas",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2009/02/Chicken-quesadilla-4b5a699.jpg?resize=768,845",
+      "repositoryPath": "assets/dishes/sources/west-028-bbc-good-food/hero.jpg",
+      "httpStatus": 200,
+      "contentType": "image/jpeg"
+    }
+  ]
+}

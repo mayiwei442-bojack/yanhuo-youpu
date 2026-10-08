@@ -1,0 +1,87 @@
+{
+  "ingredients": [
+    {
+      "name": "braising steak cut into large chunks",
+      "raw": "1.6kg braising steak cut into large chunks",
+      "amount": null
+    },
+    {
+      "name": "bay leaves",
+      "raw": "3 bay leaves",
+      "amount": null
+    },
+    {
+      "name": "small bunch thyme",
+      "raw": "small bunch thyme",
+      "amount": null
+    },
+    {
+      "name": "bottles cheap  red wine",
+      "raw": "2 bottles cheap  red wine",
+      "amount": null
+    },
+    {
+      "name": "oil",
+      "raw": "2 tbsp oil",
+      "amount": null
+    },
+    {
+      "name": "arge or 6 normal  carrots cut into large chunks",
+      "raw": "3 large or 6 normal  carrots cut into large chunks",
+      "amount": null
+    },
+    {
+      "name": "onions roughly chopped",
+      "raw": "2 onions roughly chopped",
+      "amount": null
+    },
+    {
+      "name": "plain flour",
+      "raw": "3 tbsp plain flour",
+      "amount": null
+    },
+    {
+      "name": "tomato purée",
+      "raw": "1 tbsp tomato purée",
+      "amount": null
+    },
+    {
+      "name": "small knob butter",
+      "raw": "small knob butter",
+      "amount": null
+    },
+    {
+      "name": "bacon lardons",
+      "raw": "300g bacon lardons",
+      "amount": null
+    },
+    {
+      "name": "pearl onions or small shallots, peeled",
+      "raw": "500g pearl onions or small shallots, peeled",
+      "amount": null
+    },
+    {
+      "name": "mushrooms halved",
+      "raw": "400g mushrooms halved",
+      "amount": null
+    },
+    {
+      "name": "chopped parsley",
+      "raw": "chopped parsley",
+      "amount": null
+    },
+    {
+      "name": "pepper",
+      "raw": "some pepper for overnight marinade (step1)",
+      "amount": null
+    },
+    {
+      "name": "seasoning",
+      "raw": "Season stew (step6; unspecified type and amount)",
+      "amount": null
+    }
+  ],
+  "notes": [
+    "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented."
+  ]
+}

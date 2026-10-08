@@ -1,0 +1,387 @@
+Internal Error ()
+citeturn36view0 [wordlim: 200] Source: open({"ref_id":"https://www.seriouseats.com/moussaka-recipe","lineno":null}); Total lines: 1
+L0: URL https://www.seriouseats.com/moussaka-recipe is not accessible via this tool.
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn36view1 [wordlim: 200] Source: open({"ref_id":"https://www.seriouseats.com/greek-salad-horiatiki-recipe","lineno":null}); Total lines: 1
+L0: URL https://www.seriouseats.com/greek-salad-horiatiki-recipe is not accessible via this tool.
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn36view2 [wordlim: 200] Source: open({"ref_id":"https://www.seriouseats.com/swedish-meatballs-recipe","lineno":null}); Total lines: 1
+L0: URL https://www.seriouseats.com/swedish-meatballs-recipe is not accessible via this tool.
+--------------------------------------------------------------------------------
+Goulash (Hungarian Beef and Paprika Stew) Recipe (https://www.seriouseats.com/hungarian-goulash-beef-paprika-stew-recipe)
+citeturn36view3 [wordlim: 100] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.seriouseats.com/hungarian-goulash-beef-paprika-stew-recipe","lineno":null}); Total lines: 242
+L0: cite0†iframe†www.googletagmanager.com L1: 
+L2: cite1†Serious Eats L3: 
+L4: Save
+L5: 
+L6: Rate
+L7: 
+L8:   * Search [Input: What are you looking for?]
+L9: 
+L10:   * cite2†Newsletters L11:   * cite3†Sweepstakes L12:   * cite1†Serious Eats L13: # Goulash (Hungarian Beef and Paprika Stew)
+L14: 
+L15: 4.2
+L16: 
+L17: (8)
+L18: 
+L19: 44 Reviews
+L20: 
+L21: This old-fashioned goulash is loaded with vegetables and beef for a hearty winter meal.
+L22: 
+L23: By
+L24: 
+L25: cite4†J. Kenji López-Alt L26: 
+L27: cite5†Image: Kenji Lopez Alt cite5†Image: Kenji Lopez Alt L28: 
+L29: cite4†J. Kenji López-Alt L30: 
+L31: Kenji is the former culinary director for Serious Eats and a current culinary consultant for the site. He is also a New York Times food columnist and the author of The Food Lab: Better Home Cooking Through Science.
+L32: cite6†Serious Eats' Editorial Guidelines L33: 
+L34: Updated on December 10, 2025
+L35: 
+L36: Close
+L37: 
+L38: cite7†Image: A white serving bowl of goulash sits next to a Dutch oven. cite7†Image: A white serving bowl of goulash sits next to a Dutch oven. L39: 
+L40: Credit:
+L41: 
+L42: Serious Eats / J. Kenji López-Alt
+L43: 
+L44: In This Recipe
+L45: 
+L46: View All
+L47: 
+L48: In This Article
+L49: 
+L50:   * cite8†Beef Stew 2.0 L51: 
+L52:   * cite9†Making Goulash L53: 
+L54: Jump to recipe
+L55:   * Searing the beef as whole steaks before cubing adds rich, browned flavor while keeping the meat tender.
+L56:   * Relying on gelatin instead of flour makes the stew rich and silky without muddying flavors.
+L57:   * Adding the vegetables in two batches ensures the best flavor and texture.
+L58:   * Baking the stew with the lid slightly ajar helps the flavors develop evenly and the meat stay juicy.
+L59: I'm a fan of goulash in all its forms, and there are many. There's the American dish of ground beef, tomato sauce, peppers, and pasta—a dish that I knew as cite10†American chop suey while growing up in the Northeast. Then there's the classic Hungarian version, with small cubes of beef or pork in a brothy, soup-like stew flavored with paprika.
+L60: But in the winter months, the version I'm after is the rich, hearty, rib-sticking Hungarian-American version, made with big chunks of beef, carrots, and potatoes in a stew flavored with onions, garlic, peppers, and plenty of great paprika.
+L61: ## Beef Stew 2.0
+L62: 
+L63: Once you realize that, technique-wise, there's not a huge difference between goulash and beef stew, it's a pretty straightforward preparation. I go deep into cite11†the new rules of beef stew in this article , but here's a quick summary of the most important techniques:
+L64:   * Sear your meat before cutting it into cubes. Searing beef that's been cut into steaks (we like to use boneless chuck, for its flavor and plentiful connective tissue) allows it to brown more efficiently, giving the stew more flavor while also ensuring that the beef stays very tender.
+L65:   * Keep your thickeners to a minimum. Stews loaded down with flour taste muddy and muted. We use only a small amount of flour and rely instead on powdered gelatin to add body and richness to store-bought stock.
+L66:   * If using store-bought stock, go with chicken, not beef. Store-bought beef broth tastes nothing like real beef—its main flavoring agents are yeast extracts and other enhancers. Chicken stock has a more natural flavor that picks up the flavor of the beef well as it braises.
+L67:   * Use two sets of vegetables. We add one set of vegetables to the stew at the very beginning to flavor it as it cooks. We then discard those spent vegetables and add a fresh set to the pot toward the end of cooking. This delivers maximum flavor while ensuring that the vegetables are perfectly cooked (and not turning to mush).
+L68:   * Use umami bombs. Adding a few glutamic acid– and inosinic acid-rich ingredients to your stew can beef up its flavor significantly.
+L69:   * Cook it in the oven, keep the lid cracked, and don't overcook it! The oven provides a more even temperature, with all-around heat to help the stew develop more flavor as its surface undergoes the Maillard browning reaction. Keeping the lid cracked will enhance this effect, while also ensuring that the stew stays a little bit cooler during the cooking process (thus preventing the cite12†meat from drying out too much ). And however you cook it, make sure to stop as soon as the beef is done.
+L70: Even in a stew pot, beef will dry out and turn stringy or mushy if cooked too long.
+L71: ## Making Goulash
+L72: With those basic rules in mind, the rest is merely a matter of adjusting flavoring. To start, I sear the beef in a Dutch oven with a little oil, then add diced carrots to the pot, cooking them until lightly browned. I set aside both the beef and the carrots for later. Next, I add thinly sliced onions and red peppers to the pot, sautéing them until they've softened.
+L73: I considered using Hungarian peppers for this, but they can be pretty difficult to find (feel free to use them in place of the bell peppers if you can!). In one cite13†Cook's Illustrated recipe†www.cooksillustrated.com (paywall), the author suggests using a can of roasted red peppers that have been puréed. It's an interesting idea, and the stew tastes good, but roasted red peppers have a very distinct flavor that comes through even with all the other flavorings I add down the line.
+L74: Fresh peppers are the way to go.
+L75: I also add a couple of celery sticks and carrot sticks (both will get fished out later on).
+L76: Next up, the paprika. From my testing for cite14†chicken paprikash , that other Hungarian classic, I knew that the quality of the paprika would be of utmost importance to a dish like this, where there are really no other major flavoring elements. Many recipes I've found for goulash call for a meager few tablespoons of paprika. Tasting the dish when it's made with your typical supermarket-grade paprika makes me understand why: It's not a flavor you want a lot of.
+L77: Really great paprika, on the other hand, you want a lot of. I use a full half cup for my stew. If you have a local spice importer, buy your spices there fresh. If not, you can order them online from Penzeys, the best source I've found for real Hungarian paprika.
+L78: After the paprika goes in, I add a quart of chicken stock into which I've dissolved an ounce of gelatin. Next are my umami bombs: in this case, soy sauce and fish sauce (though Marmite or anchovies would also be great). Bay leaves and thyme also hit the pot.
+L79: Now back to that beef. Once it's rested a bit, I cut it into cubes for the stew. Meat for goulash is typically cut quite small—as small as half-inch cubes—but I prefer to use larger chunks, as I find it easier to manage their texture as they cook. (Plus, there's something very satisfying about breaking into a spoon-tender chunk of beef in a bowl of stew.) I toss the cubed beef with a little bit of flour, then into the Dutch oven it goes, along with any accumulated juices.
+L80: With all my ingredients added, I set the stew in a 300°F (150°C) oven to cook, with the lid of the pot slightly ajar. An hour and a half in, I fish out the spent carrots and celery stalks and replace them with the sautéed diced carrots I've set aside, along with some cubed Yukon Gold potatoes. Once those vegetables have softened (with a little luck, that happens exactly as the meat achieves ideal tenderness), I remove the pot from the oven.
+L81: cite15†Image: A Dutch oven of long-simmered goulash with wooden spoon cite15†Image: A Dutch oven of long-simmered goulash with wooden spoon L82: 
+L83: Serious Eats / J. Kenji López-Alt
+L84: 
+L85: I prefer my stews to be rich, but not stodgy—I want them to flow on the plate with plenty of brothy liquid—but, if you like your stews a little thicker, you can get there by rapidly reducing the stew on the stovetop right at the end of cooking. In any case, you'll want to skim off any excess fat that's accumulated on the surface.
+L86: cite16†Image: A white bowl of goulash positioned next to the Dutch oven it was served from. cite16†Image: A white bowl of goulash positioned next to the Dutch oven it was served from. L87: 
+L88: Serious Eats / J. Kenji López-Alt
+L89: 
+L90: A splash of cider vinegar helps brighten up the flavor, as does a sprinkle of parsley.
+L91: 
+L92: cite17†Image: A pot of Hungarian goulash beside a serving in a white bowl with a spoon cite17†Image: A pot of Hungarian goulash beside a serving in a white bowl with a spoon L93: 
+L94: Serious Eats / J. Kenji López-Alt
+L95: Comfort is served.
+L96: ### February 2016
+L97: 
+L98: This recipe originally called for an oven temperature of 275°F, which has worked for us through dozens of rounds of testing in multiple kitchens and ovens. But based on reader feedback, it has become clear that some home ovens are too unreliable at such a low temperature, leading to greatly prolonged cooking times. To address this, we've increased the oven temperature to 300°F.
+L99: 
+L100: Prep Time:
+L101: 
+L102: 5 mins
+L103: 
+L104: Cook Time:
+L105: 
+L106: 3 hrs
+L107: 
+L108: Total Time:
+L109: 
+L110: 3 hrs 5 mins
+L111: 
+L112: Servings:
+L113: 
+L114: 6 servings
+L115: 
+L116: Yield:
+L117: 
+L118: Serves 6
+L119: [Button: Jump to Nutrition Facts]
+L120: 
+L121: Keep Screen Awake
+L122: ## Ingredients
+L123: 
+L124:   * 4 cups (950 ml) cite18†homemade or store-bought low-sodium chicken stock
+L125: 
+L126:   * 4 packets powdered unflavored gelatin (1 ounce; 30 g)
+L127: 
+L128:   * 2 tablespoons (30 ml) vegetable oil
+L129: 
+L130:   * 3 pounds (1.25 kg) whole boneless beef chuck roast, cut into 3 steaks
+L131: 
+L132:   * Kosher salt and freshly ground black pepper
+L133: 
+L134:   * 4 medium carrots (10 ounces; 275 g), 2 split lengthwise, 2 cut into bite-size pieces
+L135: 
+L136:   * 2 small stalks celery (3 ounces; 85 g)
+L137: 
+L138:   * 1 large yellow onion, thinly sliced (10 ounces; 275 g)
+L139:   * 2 red bell peppers, thinly sliced (8 ounces; 225 g)
+L140: 
+L141:   * 4 cloves garlic, thinly sliced
+L142: 
+L143:   * 1/2 cup sweet Hungarian paprika (about 2 ounces; 55 g)
+L144: 
+L145:   * 1 tablespoon (15 ml) soy sauce
+L146: 
+L147:   * 1 tablespoon (15 ml) Asian fish sauce
+L148: 
+L149:   * 2 bay leaves
+L150: 
+L151:   * 4 sprigs thyme
+L152: 
+L153:   * 2 tablespoons flour (about 3/4 ounce; 20 g)
+L154: 
+L155:   * 1 pound (450 g) Yukon Gold potatoes, peeled and cubed
+L156: 
+L157:   * 1 to 2 tablespoons (15 to 30 ml) apple cider vinegar
+L158: 
+L159:   * Chopped fresh parsley leaves, for serving
+L160: ## Directions
+L161: 
+L162:   1. Sprinkle gelatin over chicken stock and set aside. Adjust oven rack to lower position and preheat oven to 300°F (150°C). In a large Dutch oven, heat oil over medium-high heat until shimmering. Season beef all over with salt and pepper and add to Dutch oven. Cook, turning occasionally, until beef is well browned on 2 sides, about 10 minutes. Transfer beef to a rimmed baking sheet or large plate and set aside.
+L163:   2. Add diced carrots to Dutch oven and cook, stirring, until well browned on all sides, about 4 minutes, lowering heat as necessary to prevent scorching. Season to taste with salt and pepper, then transfer to a bowl and set aside. Add split carrot, celery stalks, onion, peppers, and garlic and cook until onion and peppers are softened and lightly browned, about 8 minutes.
+L164: cite19†Image: A collage: Browning beef in a Dutch oven, followed by carrot, bell peppers, onion. and celery stalks.  cite19†Image: A collage: Browning beef in a Dutch oven, followed by carrot, bell peppers, onion. and celery stalks.  L165: 
+L166: Serious Eats / J. Kenji López-Alt
+L167: 
+L168:   3. Add paprika and cook, stirring, until fragrant, about 30 seconds. Add chicken stock/gelatin mixture, followed by soy sauce, fish sauce, bay leaves, and thyme.
+L169: cite20†Image: A collage: adding paprika in a Dutch oven, followed by chicken stock, soy sauce, and bay leaves.  cite20†Image: A collage: adding paprika in a Dutch oven, followed by chicken stock, soy sauce, and bay leaves.  L170: 
+L171: Serious Eats / J. Kenji López-Alt
+L172:   4. Cut seared steaks into 1 1/2- to 2-inch chunks and transfer to a large bowl. Toss with flour. Add beef and any juices accumulated in the tray or plate to the Dutch oven. Stir to combine and return to a simmer over medium heat. Transfer to oven, cover with lid partially open, and cook until beef is starting to become tender, about 1 1/2 hours. Liquid should remain at a slow, steady simmer throughout. Adjust oven temperature if necessary during cooking.
+L173: cite21†Image: Adding cut pieces of seared beef into the stew liquid for goulash.  cite21†Image: Adding cut pieces of seared beef into the stew liquid for goulash.  L174: 
+L175: Serious Eats / J. Kenji López-Alt
+L176:   5. Remove stew from oven. Using tongs, fish out and discard carrot, celery, thyme, and bay leaves. Add potatoes and reserved sautéed carrots to stew, return to oven, and continue to cook, partially covered, until beef, potatoes, and carrots are tender and broth has thickened, 45 minutes to 1 hour. Using a ladle, skim off any excess fat from the surface of the stew and discard.
+L177: cite22†Image: A collage: A Dutch oven of goulash out of the oven, removing celery stalks and bay leaves, adding potato and carrot into the pot, and skimming the fat from the surface of the stew.  cite22†Image: A collage: A Dutch oven of goulash out of the oven, removing celery stalks and bay leaves, adding potato and carrot into the pot, and skimming the fat from the surface of the stew.  L178: 
+L179: Serious Eats / J. Kenji López-Alt
+L180:   6. Remove stew from oven. If necessary, place over a burner and simmer for up to 15 minutes to reduce to desired consistency. Add 1 to 2 tablespoons vinegar (to taste). Season to taste with salt and pepper if necessary. Serve immediately, sprinkled with parsley. Alternatively, let cool overnight or refrigerate for up to 5 days and reheat to serve.
+L181: ## Special Equipment
+L182: 
+L183: cite23†Dutch oven L184: 
+L185: ## Read More
+L186: 
+L187:   * cite24†What Are the Best Cuts of Beef for Stew? L188:   * cite25†Stew Science: What's the Best Way to Brown Beef? L189:   * cite26†Stew Science: Is It Really Better the Next Day? L190:   * cite14†The Best Chicken Paprikash L191: 
+L192: Save
+L193: 
+L194: Rate
+L195: 
+L196: Print [Input]
+L197: ## Nutrition Facts (per serving)
+L198: 
+L199: 606  | Calories
+L200: 32g  | Fat
+L201: 34g  | Carbs
+L202: 49g  | Protein
+L203: 
+L204: Show Full Nutrition Label Hide Full Nutrition Label
+L205: 
+L206: Nutrition Facts
+L207: ---
+L208: Servings Per Recipe 6
+L209: ---
+L210: Calories 606
+L211: ---
+L212: % Daily Value *
+L213: Total Carbohydrate 34g  | 12%
+L214: Dietary Fiber 7g  | 25%
+L215: Total Sugars 7g
+L216: Protein 49g  | 99%
+L217: Total Fat 32g  | 41%
+L218: Saturated Fat 12g  | 59%
+L219: Cholesterol 141mg  | 47%
+L220: Vitamin C 77mg  | 86%
+L221: Sodium 1857mg  | 81%
+L222: Calcium 106mg  | 8%
+L223: Iron 8mg  | 43%
+L224: Potassium 1505mg  | 32%
+L225: * Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs.
+L226: 
+L227: Loading shell for RecipesUgcThreaded1 Vue component in Globe.
+L228: ## Related Articles
+L229: 
+L230: cite27†Bigos (Polish Hunter's Stew) 2 hrs 30 mins cite11†All-American Beef Stew 3 hrs 15 mins cite28†Boeuf Bourguignon (Beef Stew With Red Wine, Mushrooms, and Bacon) 3 hrs 55 mins cite29†Pressure Cooker Beef and Vegetable Stew Recipe 1 hr 20 mins cite14†The Best Chicken Paprikash Recipe 1 hr 5 mins cite30†Jamaican Beef Stew With Rice Recipe 1 hr 50 mins cite31†Better Than Chipotle Beef Barbacoa 4 hrs 45 mins cite32†Ropa Vieja Recipe 2 hrs 10 mins L231: cite33†Classic Pot-au-Feu (French Boiled Beef and Vegetables) Recipe 4 hrs 45 mins cite34†Chicken Paprikash Recipe 1 hr 30 mins cite35†Perfect Pot Roast 4 hrs 15 mins cite36†Osso Buco (Italian Braised Veal Shanks) Recipe 3 hrs 45 mins cite37†Austro-Hungarian Sauerkraut Goulash (Szegediner Gulasch) 3 hrs cite38†Bollito Misto (Italian Feast of Mixed Boiled Meats) Recipe 1 hr 50 mins cite39†Pressure Cooker Pot-au-Feu (French Boiled Beef and Vegetables) Recipe 50 mins cite40†Kapusniak (Polish Potato, Kielbasa, and Cabbage Soup) 30 mins L232: Newsletter Sign Up
+L233: 
+L234: Newsletter Sign Up
+L235: ## We Care About Your Privacy
+L236: 
+L237: We and our 100 partners store and/or access information on a device, such as unique IDs in cookies to process personal data. You may accept or manage your choices by clicking below, including your right to object where legitimate interest is used, or at any time in the privacy policy page. These choices will be signaled to our partners and will not affect browsing data.
+L238: ### We and our partners process data to provide:
+L239: Store and/or access information on a device. Use limited data to select advertising. Create profiles for personalised advertising. Use profiles to select personalised advertising. Create profiles to personalise content. Use profiles to select personalised content. Measure advertising performance. Measure content performance. Understand audiences through statistics or combinations of data from different sources. Develop and improve services. Use limited data to select content.
+L240: [Button: List of Partners (vendors) ]
+L241: [Button: Accept All] [Button: Reject All] [Button: Show Purposes]
+--------------------------------------------------------------------------------
+Crunchy Fried Fish Tacos Recipe (https://www.seriouseats.com/crispy-fried-fish-tacos-recipe)
+citeturn36view4 [wordlim: 100] Crawled: 2 days ago; Content type: text/html; Source: open({"ref_id":"https://www.seriouseats.com/crispy-fried-fish-tacos-recipe","lineno":null}); Total lines: 194
+L0: cite0†iframe†www.googletagmanager.com L1: 
+L2: cite1†Serious Eats L3: 
+L4: Save
+L5: 
+L6: Rate
+L7: 
+L8:   * Search [Input: What are you looking for?]
+L9: 
+L10:   * cite2†Newsletters L11:   * cite3†Sweepstakes L12:   * cite1†Serious Eats L13: # Crunchy Fried Fish Tacos Recipe
+L14: 
+L15: 4.4
+L16: 
+L17: (8)
+L18: 
+L19: 24 Reviews
+L20: 
+L21: Double stacks of corn tortillas filled with beer-battered fish, crisp shredded cabbage, and pickled onions are topped with spicy mayo, cilantro, and lime.
+L22: 
+L23: By
+L24: 
+L25: cite4†J. Kenji López-Alt L26: 
+L27: cite5†Image: Kenji Lopez Alt cite5†Image: Kenji Lopez Alt L28: 
+L29: cite4†J. Kenji López-Alt L30: Kenji is the former culinary director for Serious Eats and a current culinary consultant for the site. He is also a New York Times food columnist and the author of The Food Lab: Better Home Cooking Through Science.
+L31: 
+L32: cite6†Serious Eats' Editorial Guidelines L33: 
+L34: Updated on June 12, 2024
+L35: 
+L36: Close
+L37: 
+L38: cite7†Image: Overhead view of crunchy fish taco cite7†Image: Overhead view of crunchy fish taco L39: 
+L40: Credit:
+L41: 
+L42: Serious Eats / Jen Causey
+L43: 
+L44: Jump to recipe
+L45:   * Using cake flour in the batter and dredge keeps gluten development to a minimum, resulting in a light, tender coating.
+L46:   * Coating the fish in a thick batter and then dredging it in seasoned flour maximizes crispiness.
+L47:   * The acidity of pickled red onions balances the richness of the fried fish and spicy mayonnaise.
+L48: The fishing season can be simultaneously great and not-so-great. The great part is the amount of time I’ve been able to get out on the water. This is due to a combination of falling in with some seriously fishing-obsessed buddies and a freshly reinvigorated love of charter boat fishing on school nights. The not-so-great part is that most of the fish we’ve caught are what serious fishermen commonly refer to as garbage fish.
+L49: Any night out on the water with good friends and a couple of cold beers is bound to be fun, but there are only so many cocktail blues, sea robins, and sand sharks you can catch before you begin to long for a striper on the end of your line.
+L50: 
+L51: cite8†Image: Side view of crunchy fish taco cite8†Image: Side view of crunchy fish taco L52: 
+L53: Serious Eats / Jen Causey
+L54: Don’t get me wrong: Blues can be a lot of fun to catch and they’ll put up a heck of a fight on a spinner from time to time, but I’ve never been a fan of them as eating fish. The meat is dark, gray, oily, and strongly flavored. Sure, if you’ve got a cold smoking cabinet they can make a fine addition to your Jewish breakfast spread, but as a fresh meat, it’s not for everybody.
+L55: “The deep crust you could develop in a cast iron skillet with hot butter and the intense aroma of the spices worked perfectly to cover up the textural and flavor-based flaws inherent to even the freshest blue fish.”
+L56: When I was younger, my family’s typical method for dealing with a glut of blues was to blacken them. cite9†Paul Prudhomme†www.magicseasoningblends.com , the grandaddy of popular American Cajun cuisine, was still on television, and his blackening blends were the hot commodity in the dried spice section of the supermarket.
+L57: The deep crust you could develop in a cast iron skillet with hot butter and the intense aroma of the spices worked perfectly to cover up the textural and flavor-based flaws inherent to even the freshest blue fish.*
+L58: *I know there are some folks out there who love the flavor of fresh blues. To me you are like Rush fans: We will never, ever see eye to eye.
+L59: 
+L60: It’s still a fine method, but recently I’ve taken to an even better one: fried fish tacos. If there’s any cooking method in the world that can make all foods taste great, it’s deep frying.
+L61: 
+L62: cite10†Image: A platter of fried fish tacos served with lime wedges. cite10†Image: A platter of fried fish tacos served with lime wedges. L63: 
+L64: Serious Eats / J. Kenji López-Alt
+L65: Frying fish for tacos can be as simple as dipping it in a thin beer- or egg-based batter and throwing it in a wok or Dutch oven filled with hot oil (some recipes even skip the batter entirely, going for a simple dredge in a dry flour mix), but fish cooked in that manner doesn’t reach the height of crispness and has a tendency to soften rather quickly.
+L66: 
+L67: “I can’t help but associate the flavor of blue fish with blackening spices, so I like to mix in a good deal of chile powder and black pepper.”
+L68: Instead, I like to employ a two-stage battering process. First, I dip the seasoned fish into a seasoned batter made with cake flour (its lower protein content helps keep the batter light and crisp), beer (which adds lightening bubbles and flavor), and egg, then I transfer it back to a dry flour mixture and toss it before deep frying it in peanut oil. I can’t help but associate the flavor of blue fish with blackening spices, so I like to mix in a good deal of chile powder and black pepper.
+L69: If all goes well (and there’s no reason it shouldn’t!), the wet batter will drip off the fish into the dry mix, creating little pockets of doughy flour that stick to the exterior of the fish, adding tons of nooks and crannies to make the whole thing extra crisp. And best of all, those nooks and crannies stay crisp even after you’ve taken the time to tuck them into soft, charred corn tortillas stacked with shredded cabbage and spicy mayonnaise.
+L70: In California, fish tacos are typically topped with chopped fresh tomatoes for their brightness and acidity. When I made these tacos, truly great tomatoes had yet to hit the markets in New York, so I opted for some quick cite11†pickled red onions instead. They take minutes to make and I have a near-constant supply of them in every refrigerator I am likely to be in close proximity to.
+L71: Crunchy, bright, and fresh, it’s truly transformative, converting one of my least favorite fishes into something that I actually crave.
+L72: ### August 2013
+L73: 
+L74: Prep Time:
+L75: 
+L76: 5 mins
+L77: 
+L78: Cook Time:
+L79: 
+L80: 20 mins
+L81: 
+L82: Total Time:
+L83: 
+L84: 25 mins
+L85: 
+L86: Servings:
+L87: 
+L88: 3 to 4 servings
+L89: 
+L90: Yield:
+L91: 
+L92: Serves 2 to 4
+L93: 
+L94: [Button: Jump to Nutrition Facts]
+L95: 
+L96: Keep Screen Awake
+L97: ## Ingredients
+L98: 
+L99:   * 1 1/2 cups cake flour
+L100: 
+L101:   * 2 tablespoons paprika
+L102: 
+L103:   * 2 teaspoons black pepper
+L104: 
+L105:   * Kosher salt
+L106: 
+L107:   * 3/4 cup beer (plus more as necessary)
+L108: 
+L109:   * 1 egg
+L110: 
+L111:   * 3/4 cup mayonnaise (see note)
+L112: 
+L113:   * 2 tablespoons sriracha or other chile sauce (see note)
+L114: 
+L115:   * 2 quarts peanut oil
+L116: 
+L117:   * 1 pound white fish (such as cod, hake, or halibut), cut into eight 2-ounce fingers
+L118: 
+L119:   * 16 corn tortillas, cite12†warmed L120: 
+L121:   * 1 small head of cabbage, finely shredded
+L122: 
+L123:   * 1 recipe cite11†pickled red onions L124:   * 1/2 cup finely chopped fresh cilantro
+L125: 
+L126:   * 2 limes, cut into wedges
+L127: ## Directions
+L128: 
+L129:   1. Combine flour, paprika, black pepper, and salt and whisk to combine. Transfer half of mixture to a large bowl and set aside. Add beer and egg to remaining mixture and whisk until a smooth batter is formed. Batter should have the consistency of thick paint (add up to 1/2 cup more beer as necessary until proper consistency is reached). Set aside.
+L130: 
+L131:   2. Combine mayonnaise and hot sauce in a medium bowl and whisk until homogenous. Set aside.
+L132:   3. Heat oil in a deep fryer, Dutch oven, or large wok to 350°F (175°C). Transfer fish pieces to bowl with batter and turn to coat thoroughly. Working one piece at a time, lift fish, let excess batter drip off, then transfer to bowl with remaining flour mixture. Toss to coat thoroughly. Lift carefully with tongs or dry fingers and slowly lower into hot oil. Repeat with remaining fish.
+L133:   4. Fry, turning occasionally, until golden brown on all sides, about 3 minutes total. Transfer to a paper towel-lined plate and season with salt.
+L134: 
+L135:   5. Divide tortillas into 8 double stacks. Top each with shredded cabbage, 1 piece of fish, pickled red onions, chile mayo, and cilantro. Serve with lime wedges.
+L136: ## Special Equipment
+L137: 
+L138: cite13†Dutch oven , cite14†wok , or cite15†deep fryer ; cite16†instant-read thermometer L139: 
+L140: ## Notes
+L141: 
+L142: I like to use mayonnaise for my sauce, but you can substitute sour cream or Mexican crema if you are mayo-averse.
+L143: 
+L144: I like the neutral chile and garlic flavor of an Asian-style chile sauce in this recipe. If you prefer the more vinegary tang of an American-style hot sauce or the smokiness of canned chipotles in adobo sauce, they can be substituted for the Asian chile sauce to taste.
+L145: ## Read More
+L146: 
+L147:   * cite17†Whole Grilled Fish Tacos L148:   * cite18†Grilled Tilapia Tacos L149:   * cite19†Chili-Rubbed Mahimahi Tacos With Grilled-Mango Salsa Recipe L150: 
+L151: Save
+L152: 
+L153: Rate
+L154: 
+L155: Print [Input]
+L156: ## Nutrition Facts (per serving)
+L157: 
+L158: 4771  | Calories
+L159: 469g  | Fat
+L160: 115g  | Carbs
+L161: 43g  | Protein
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn36view5 [wordlim: 200] Source: open({"ref_id":"https://www.seriouseats.com/chicken-quesadillas-recipe","lineno":null}); Total lines: 1
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn36view6 [wordlim: 200] Source: open({"ref_id":"https://www.seriouseats.com/eggs-benedict-hollandaise-sauce-recipe","lineno":null}); Total lines: 1
+--------------------------------------------------------------------------------
+Light and Fluffy Buttermilk Pancakes Recipe (https://www.seriouseats.com/light-and-fluffy-pancakes-recipe)
+citeturn36view7 [wordlim: 100] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.seriouseats.com/light-and-fluffy-pancakes-recipe","lineno":null}); Total lines: 297
+

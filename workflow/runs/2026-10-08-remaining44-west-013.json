@@ -1,0 +1,78 @@
+{
+  "runId": "2026-10-08-remaining44-west-013",
+  "recipeId": "west-013",
+  "recipeName": "奶油宽面",
+  "category": "western",
+  "status": "in_progress",
+  "startedAt": "2026-10-08T11:56:52.318Z",
+  "completedAt": null,
+  "steps": {
+    "research": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "evidencePath": "workflow/batches/2026-10-08-remaining44/west-013.base-evidence.json",
+        "evidencePackageHash": "aab9ab976075b489d38cbd3e9a7c0d2ffd9b7fbfda0456deebfba197ec8bba50",
+        "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/fettucine-alfredo",
+        "sourceMode": "multi_source",
+        "publicationGate": "Final image/evidence acceptance pending"
+      }
+    },
+    "ingestion": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "selectedDocumentId": "285a92a5-e04a-4e85-8db7-0151b4f6eeaa",
+        "documentIds": [
+          "285a92a5-e04a-4e85-8db7-0151b4f6eeaa",
+          "104da4b6-7b98-4f42-ba24-ff89a0723102",
+          "4ad2d3fc-c330-40c9-9330-a92f82714cca"
+        ],
+        "ragEvidence": 16
+      }
+    },
+    "edit": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "validator": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "review": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "build": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "gitPush": {
+      "status": "pending",
+      "attempts": 0
+    }
+  },
+  "sources": [
+    {
+      "name": "BBC Good Food",
+      "url": "https://www.bbcgoodfood.com/recipes/fettucine-alfredo",
+      "status": "success",
+      "failureReason": null
+    },
+    {
+      "name": "Serious Eats",
+      "url": "https://www.seriouseats.com/fettuccine-alfredo-sauce-italian-pasta-recipe",
+      "status": "success",
+      "failureReason": null
+    },
+    {
+      "name": "Serious Eats",
+      "url": "https://www.seriouseats.com/lighter-fettuccine-alfredo-recipe",
+      "status": "success",
+      "failureReason": null
+    }
+  ],
+  "errors": [],
+  "branch": "codex/recipe-automation",
+  "commit": null
+}

@@ -1,0 +1,444 @@
+{
+  "recipeId": "cn-040",
+  "recipeName": "担担面",
+  "category": "chinese",
+  "createdAt": "2026-10-08T12:08:59.210648+00:00",
+  "sources": [
+    {
+      "sourceName": "The Woks of Life",
+      "sourceType": "website",
+      "url": "https://thewoksoflife.com/dan-dan-noodles/",
+      "documentId": "72ce298f-8af6-4c11-860b-dd60f9445054",
+      "retrievalMethod": "Normal web browser fetch complete recipe card plus relevant operational narrative",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "Sichuan peppercorns",
+          "amount": "2 tablespoons",
+          "raw": "2 tablespoons Sichuan peppercorns",
+          "sourceGroup": "For the Chili Oil:"
+        },
+        {
+          "name": "cinnamon stick",
+          "amount": "1",
+          "raw": "1 cinnamon stick",
+          "sourceGroup": "For the Chili Oil:"
+        },
+        {
+          "name": "star anise",
+          "amount": "2",
+          "raw": "2 star anise",
+          "sourceGroup": "For the Chili Oil:"
+        },
+        {
+          "name": "oil",
+          "amount": "1 cup",
+          "raw": "1 cup oil",
+          "sourceGroup": "For the Chili Oil:"
+        },
+        {
+          "name": "crushed red pepper flakes",
+          "amount": "1/4 cup",
+          "raw": "1/4 cup crushed red pepper flakes",
+          "sourceGroup": "For the Chili Oil:"
+        },
+        {
+          "name": "oil",
+          "amount": "3 teaspoons",
+          "raw": "3 teaspoons oil",
+          "sourceGroup": "For the Meat and Sui Mi Ya Cai:"
+        },
+        {
+          "name": ". ground pork",
+          "amount": "8 oz",
+          "raw": "8 oz. ground pork",
+          "sourceGroup": "For the Meat and Sui Mi Ya Cai:"
+        },
+        {
+          "name": "sweet bean sauce or hoisin sauce",
+          "amount": "2 teaspoons",
+          "raw": "2 teaspoons sweet bean sauce or hoisin sauce",
+          "sourceGroup": "For the Meat and Sui Mi Ya Cai:"
+        },
+        {
+          "name": "shaoxing wine",
+          "amount": "2 teaspoons",
+          "raw": "2 teaspoons shaoxing wine",
+          "sourceGroup": "For the Meat and Sui Mi Ya Cai:"
+        },
+        {
+          "name": "dark soy sauce",
+          "amount": "1 teaspoon",
+          "raw": "1 teaspoon dark soy sauce",
+          "sourceGroup": "For the Meat and Sui Mi Ya Cai:"
+        },
+        {
+          "name": "five spice powder",
+          "amount": "1/2 teaspoon",
+          "raw": "1/2 teaspoon five spice powder",
+          "sourceGroup": "For the Meat and Sui Mi Ya Cai:"
+        },
+        {
+          "name": "sui mi ya cai",
+          "amount": "1/3 cup",
+          "raw": "1/3 cup sui mi ya cai",
+          "sourceGroup": "For the Meat and Sui Mi Ya Cai:"
+        },
+        {
+          "name": "sesame paste tahini",
+          "amount": "2 tablespoons",
+          "raw": "2 tablespoons sesame paste tahini",
+          "sourceGroup": "For the sauce:"
+        },
+        {
+          "name": "soy sauce",
+          "amount": "3 tablespoons",
+          "raw": "3 tablespoons soy sauce",
+          "sourceGroup": "For the sauce:"
+        },
+        {
+          "name": "sugar",
+          "amount": "2 teaspoons",
+          "raw": "2 teaspoons sugar",
+          "sourceGroup": "For the sauce:"
+        },
+        {
+          "name": "five spice powder",
+          "amount": "1/4 teaspoon",
+          "raw": "1/4 teaspoon five spice powder",
+          "sourceGroup": "For the sauce:"
+        },
+        {
+          "name": "Sichuan peppercorn powder (we ground whole Sichuan peppercorns in a mortar and pestle)",
+          "amount": "1/2 teaspoon",
+          "raw": "1/2 teaspoon Sichuan peppercorn powder (we ground whole Sichuan peppercorns in a mortar and pestle)",
+          "sourceGroup": "For the sauce:"
+        },
+        {
+          "name": "of your prepared chili oil (scary, but yes!)",
+          "amount": "1/2 cup",
+          "raw": "1/2 cup of your prepared chili oil (scary, but yes!)",
+          "sourceGroup": "For the sauce:"
+        },
+        {
+          "name": "garlic (very finely minced)",
+          "amount": "2 cloves",
+          "raw": "2 cloves garlic (very finely minced)",
+          "sourceGroup": "For the sauce:"
+        },
+        {
+          "name": "hot cooking water from the noodles",
+          "amount": "¼ cup",
+          "raw": "¼ cup hot cooking water from the noodles",
+          "sourceGroup": "For the sauce:"
+        },
+        {
+          "name": "fresh or dried white noodles (medium thickness)",
+          "amount": "1 pound",
+          "raw": "1 pound fresh or dried white noodles (medium thickness)",
+          "sourceGroup": "For the Noodles & Veg:"
+        },
+        {
+          "name": "small bunch leafy greens (spinach, bok choy, or choy sum)",
+          "amount": "1",
+          "raw": "1 small bunch leafy greens (spinach, bok choy, or choy sum)",
+          "sourceGroup": "For the Noodles & Veg:"
+        },
+        {
+          "name": "chopped peanuts",
+          "amount": null,
+          "raw": "chopped peanuts",
+          "sourceGroup": "For the Noodles & Veg:"
+        },
+        {
+          "name": "chopped scallion (optional)",
+          "amount": null,
+          "raw": "chopped scallion (optional)",
+          "sourceGroup": "For the Noodles & Veg:"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "To make the chili oil: In a small pot, add the Sichuan peppercorns, cinnamon stick, star anise, and oil. Over medium low heat, slowly heat to 325 degrees, and then turn off the heat. Wait 6 – 7 minutes, then remove the peppercorns, cinnamon stick, and star anise with a slotted spoon. Add the crushed red pepper flakes and allow them to steep in the hot oil. It should start smelling fragrant, almost like popcorn. Allow the oil to cool.\nThis makes more chili oil than you’ll need, but you’ll be glad to have it on hand for use in other dishes. Store in a glass jar and keep refrigerated.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "To make the meat mixture: In a wok, heat a teaspoon of oil over medium heat, and brown the ground pork. Add the sweet bean sauce, shaoxing wine, dark soy sauce, and five spice powder. Cook until all the liquid is evaporated. Set aside. Heat the other 2 teaspoons of oil in the wok over medium heat, and sautee the sui mi ya cai (pickled vegetables) for a few minutes. Set aside.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "To make the sauce: Mix together all the sauce ingredients. Taste and adjust seasoning if you like. You can loosen it with more hot water, add more Sichuan peppercorn powder, etc.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "To prepare the noodles and veggies: Cook the noodles according to package directions and drain. Blanch the greens in the noodle water, and drain.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 5,
+          "instruction": "Divide the sauce among six bowls (or four if you want larger servings), followed by the noodles and the leafy greens. Add the cooked pork and sui mi ya cai over the top. Sprinkle with chopped peanuts (optional) and scallions.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 6,
+          "instruction": "Mix everything together and enjoy!",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [
+        "Serves: 6",
+        "Cook: 1 hr 30 mins",
+        "Total: 1 hr 30 mins"
+      ],
+      "tips": [],
+      "rawExcerpt": "## Recipe\n\nImage: Dan Dan Noodles\n\nPrint\n\n4.94 from 208 votes\n\n### Dan Dan Noodles\n\nA Dan Dan Noodles recipe that's tried, true, and authentic. With this recipe, you can try out this spicy, numbing Sichuan classic at home!\n\nby: Judy\n\nServes: 6\n\nCook: 1 hr 30 mins\n\nTotal: 1 hr 30 mins\n\n#### Ingredients\n##### For the Chili Oil:\n\n* [Input]2 tablespoons Sichuan peppercorns\n* [Input]1 cinnamon stick\n* [Input]2 star anise\n* [Input]1 cup oil\n* [Input]1/4 cup crushed red pepper flakes\n##### For the Meat and Sui Mi Ya Cai:\n\n* [Input]3 teaspoons oil\n* [Input]8 oz. ground pork\n* [Input]2 teaspoons sweet bean sauce or hoisin sauce\n* [Input]2 teaspoons shaoxing wine\n* [Input]1 teaspoon dark soy sauce\n* [Input]1/2 teaspoon five spice powder\n* [Input]1/3 cup sui mi ya cai\n##### For the sauce:\n\n* [Input]2 tablespoons sesame paste tahini\n* [Input]3 tablespoons soy sauce\n* [Input]2 teaspoons sugar\n* [Input]1/4 teaspoon five spice powder\n* [Input]1/2 teaspoon Sichuan peppercorn powder (we ground whole Sichuan peppercorns in a mortar and pestle)\n* [Input]1/2 cup of your prepared chili oil (scary, but yes!)\n* [Input]2 cloves garlic (very finely minced)\n* [Input]¼ cup hot cooking water from the noodles\n##### For the Noodles & Veg:\n\n* [Input]1 pound fresh or dried white noodles (medium thickness)\n* [Input]1 small bunch leafy greens (spinach, bok choy, or choy sum)\n* [Input]chopped peanuts\n* [Input]chopped scallion (optional)\n\n[Button: US Customary][Button: Metric]\n#### Instructions\n* To make the chili oil: In a small pot, add the Sichuan peppercorns, cinnamon stick, star anise, and oil. Over medium low heat, slowly heat to 325 degrees, and then turn off the heat. Wait 6 – 7 minutes, then remove the peppercorns, cinnamon stick, and star anise with a slotted spoon. Add the crushed red pepper flakes and allow them to steep in the hot oil. It should start smelling fragrant, almost like popcorn. Allow the oil to cool.\nThis makes more chili oil than you’ll need, but you’ll be glad to have it on hand for use in other dishes. Store in a glass jar and keep refrigerated.\n* To make the meat mixture: In a wok, heat a teaspoon of oil over medium heat, and brown the ground pork. Add the sweet bean sauce, shaoxing wine, dark soy sauce, and five spice powder. Cook until all the liquid is evaporated. Set aside. Heat the other 2 teaspoons of oil in the wok over medium heat, and sautee the sui mi ya cai (pickled vegetables) for a few minutes. Set aside.\n* To make the sauce: Mix together all the sauce ingredients. Taste and adjust seasoning if you like. You can loosen it with more hot water, add more Sichuan peppercorn powder, etc.\n\n* To prepare the noodles and veggies: Cook the noodles according to package directions and drain. Blanch the greens in the noodle water, and drain.\n* Divide the sauce among six bowls (or four if you want larger servings), followed by the noodles and the leafy greens. Add the cooked pork and sui mi ya cai over the top. Sprinkle with chopped peanuts (optional) and scallions.\n\n* Mix everything together and enjoy!\n\nOperational narrative\n## A Source for Sichuan INgredients\n\nIf you can’t find sui mi ya cai at your local Chinese grocery, or you don’t have a grocer near you, check out The Mala Market . They have a curated collection of spices, dry goods, pickles, and sauces, and they also sell sui mi ya cai !\n\n\n### Part 1: Dan Dan Noodles – The Chili Oil\n\n* 2 tablespoons Sichuan peppercorns\n* 1 inch-long piece of Chinese cinnamon (gui-pi)\n* 2 star anise\n* 1 cup oil\n* 1/4 cup crushed red pepper flakes\n\nIn a small pot, add the Sichuan peppercorns, cinnamon stick, star anise, and oil. Over medium low heat, slowly heat to 325 degrees Fahrenheit, and then turn off the heat. Wait 6-7 minutes, then remove the peppercorns, cinnamon stick, and star anise with a slotted spoon.\nAdd the crushed red pepper flakes and allow them to steep in the hot oil. It should start smelling fragrant, almost like popcorn. Allow the oil to cool. This makes more chili oil than you’ll need, but you’ll be glad to have it on hand for use in other dishes. Store in a glass jar and keep refrigerated.\n\n\nTip: the crushed red pepper flakes are quite spicy, so if you want a milder chili oil, buy whole dried red chilies from any Asian market , de-seed them, and then use a food processor to chop them into flakes to make the oil. You can also check out Kaitlin’s post for How to Make Chili oil if you want to make a larger batch to keep around!\n### Part 2: Dan Dan Noodles – The Meat Mixture\n\n* 3 teaspoons oil\n* 8 oz. ground pork\n* 2 teaspoons sweet bean sauce or hoisin sauce\n* 2 teaspoons shaoxing wine\n* 1 teaspoon dark soy sauce\n* 1/2 teaspoon five spice powder\n* 1/3 cup sui mi ya cai\n\nIn a wok , heat a teaspoon of oil over medium heat, and brown the ground pork.\nAdd the sweet bean sauce, shaoxing wine, dark soy sauce, and five spice powder. Cook until all the liquid is evaporated. Set aside. Heat the other 2 teaspoons of oil in the wok over medium heat, and sautee the sui mi ya ci (pickled vegetables) for a few minutes. Set aside.\n\n\n### Part 3: Dan Dan Noodles – The Sauce\n\nMakes enough Dan Dan Noodles sauce for 1 lb. noodles\n\n* 2 tablespoons sesame paste (tahini)\n* 3 tablespoons soy sauce\n* 2 teaspoons sugar\n* 1/4 teaspoon five spice powder\n* 1/2 teaspoon Sichuan peppercorn powder (we ground whole Sichuan peppercorns in a mortar and pestle)\n* 1/2 cup of your prepared chili oil (scary, but yes!)\n* 2 cloves garlic , very finely minced\n* ¼ cup hot cooking water from the noodles\nMix together all the ingredients. Taste and adjust seasoning if you like. You can loosen it with more hot water, add more Sichuan peppercorn powder, etc.\n### Part 4: Dan Dan Noodles – Noodles, Vegetables, and Assembly\n\n* 1 lb fresh or dried white noodles , medium thickness\n* 1 small bunch leafy greens (spinach, bok choy, or choy sum)\n* chopped peanuts\n* chopped scallion (optional)\nCook the noodles according to package directions and drain. We used fresh noodles, but dry noodles are great too. I actually might prefer the dried, because they’re a bit less starchy. (Now would be the time to add some of the noodle cooking water to your sauce). Blanch the greens in the noodle water, and drain. To assemble, divide the sauce among six bowls (or four if you want larger servings)…\n\n\n\nAdd the noodles to the bowl…\n\n\nAnd the Chinese leafy greens .\n\n\n\nAdd the cooked pork and sui mi ya cai over the top.\n\n\n\nSprinkle with chopped peanuts and scallions over your Dan Dan Noodles if you like, and mix everything together. Enjoy!\n\n\nWarning! This Dan Dan Noodles dish is not for spicy food novices. But for those of you who love heat and/or Sichuan cuisine, you’re in for a treat!\n\n\nLooking for more authentic recipes? Subscribe to our email list and be sure to follow us on Pinterest , Facebook , Instagram , and Youtube!",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 1,
+        "mappedStepImages": 14,
+        "stepImageCoverage": 1.0,
+        "ingredientCount": 24,
+        "executableStepCount": 6,
+        "notes": []
+      },
+      "media": {
+        "recipePageUrl": "https://thewoksoflife.com/dan-dan-noodles/",
+        "mediaPageUrl": "https://thewoksoflife.com/dan-dan-noodles/",
+        "sourceName": "The Woks of Life",
+        "author": "Judy",
+        "rightsNotice": "All Rights Reserved © The Woks of Life",
+        "reuseLicense": null,
+        "repositoryCopyAuthorized": true,
+        "hero": {
+          "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-12.jpg",
+          "repositoryPath": "assets/dishes/sources/cn-040-woks/hero.jpg",
+          "adjacentText": "担担面成品",
+          "pageOrder": 0,
+          "sha256": "89bb97be22ff4a39645c25e2a6b96edd1f12e4cac71095a7bdc859667b2bcbce",
+          "httpStatus": 200,
+          "contentType": "image/webp",
+          "bytes": 274178
+        },
+        "steps": [
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2020/07/chili-oil-recipe-17.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-040-woks/step-1-1.jpg",
+            "adjacentText": "To make the chili oil: In a small pot, add the Sichuan peppercorns, cinnamon stick, star anise, and oil. Over medium low heat, slowly heat to 325 degrees, and then turn off the heat. Wait 6 – 7 minutes, then remove the peppercorns, cinnamon stick, and star anise with a slotted spoon. Add the crushed red pepper flakes and allow them to steep in the hot oil. It should start smelling fragrant, almost like popcorn. Allow the oil to cool.\nThis makes more chili oil than you’ll need, but you’ll be glad to have it on hand for use in other dishes. Store in a glass jar and keep refrigerated.",
+            "pageOrder": 1,
+            "stepOrder": 1,
+            "sha256": "cc5a1cae7ff0258df5add806c80b2ca4bf72512ac13b675674bbfe704742a50d",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "bytes": 68264
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2026/04/dan-dan-noodles-4-edited-1.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-040-woks/step-1-2.jpg",
+            "adjacentText": "To make the chili oil: In a small pot, add the Sichuan peppercorns, cinnamon stick, star anise, and oil. Over medium low heat, slowly heat to 325 degrees, and then turn off the heat. Wait 6 – 7 minutes, then remove the peppercorns, cinnamon stick, and star anise with a slotted spoon. Add the crushed red pepper flakes and allow them to steep in the hot oil. It should start smelling fragrant, almost like popcorn. Allow the oil to cool.\nThis makes more chili oil than you’ll need, but you’ll be glad to have it on hand for use in other dishes. Store in a glass jar and keep refrigerated.",
+            "pageOrder": 2,
+            "stepOrder": 1,
+            "sha256": "abc821d17a602113c8b8fda06577b5697b6a1d4f2a1a0697c9508c9338492722",
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "bytes": 67920
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-5.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-040-woks/step-2-3.jpg",
+            "adjacentText": "To make the chili oil: In a small pot, add the Sichuan peppercorns, cinnamon stick, star anise, and oil. Over medium low heat, slowly heat to 325 degrees, and then turn off the heat. Wait 6 – 7 minutes, then remove the peppercorns, cinnamon stick, and star anise with a slotted spoon. Add the crushed red pepper flakes and allow them to steep in the hot oil. It should start smelling fragrant, almost like popcorn. Allow the oil to cool.\nThis makes more chili oil than you’ll need, but you’ll be glad to have it on hand for use in other dishes. Store in a glass jar and keep refrigerated.",
+            "pageOrder": 3,
+            "stepOrder": 1,
+            "sha256": "43283d928fc98adc04d4e6fc381495ea41bf06ac83d852a4d07a9dd568a7d989",
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "bytes": 275768
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-6.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-040-woks/step-2-4.jpg",
+            "adjacentText": "To make the chili oil: In a small pot, add the Sichuan peppercorns, cinnamon stick, star anise, and oil. Over medium low heat, slowly heat to 325 degrees, and then turn off the heat. Wait 6 – 7 minutes, then remove the peppercorns, cinnamon stick, and star anise with a slotted spoon. Add the crushed red pepper flakes and allow them to steep in the hot oil. It should start smelling fragrant, almost like popcorn. Allow the oil to cool.\nThis makes more chili oil than you’ll need, but you’ll be glad to have it on hand for use in other dishes. Store in a glass jar and keep refrigerated.",
+            "pageOrder": 4,
+            "stepOrder": 1,
+            "sha256": "1e44fa9b0bb9ea71a83e67c6db991ba82764ad17041087ccff10e7fb0febfc56",
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "bytes": 303138
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-3.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-040-woks/step-3-5.jpg",
+            "adjacentText": "To make the meat mixture: In a wok, heat a teaspoon of oil over medium heat, and brown the ground pork. Add the sweet bean sauce, shaoxing wine, dark soy sauce, and five spice powder. Cook until all the liquid is evaporated. Set aside. Heat the other 2 teaspoons of oil in the wok over medium heat, and sautee the sui mi ya cai (pickled vegetables) for a few minutes. Set aside.",
+            "pageOrder": 5,
+            "stepOrder": 2,
+            "sha256": "a16cd55c34c45b0170c208cdbf0e6783d8a1787a74248f775487d0dd9e9a8f30",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "bytes": 44515
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-1.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-040-woks/step-3-6.jpg",
+            "adjacentText": "To make the meat mixture: In a wok, heat a teaspoon of oil over medium heat, and brown the ground pork. Add the sweet bean sauce, shaoxing wine, dark soy sauce, and five spice powder. Cook until all the liquid is evaporated. Set aside. Heat the other 2 teaspoons of oil in the wok over medium heat, and sautee the sui mi ya cai (pickled vegetables) for a few minutes. Set aside.",
+            "pageOrder": 6,
+            "stepOrder": 2,
+            "sha256": "b547579c5de7855b80ddfa79c68415d33e0e17141ae755aa41aa18170fbce3d1",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "bytes": 39004
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-7.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-040-woks/step-4-7.jpg",
+            "adjacentText": "To make the sauce: Mix together all the sauce ingredients. Taste and adjust seasoning if you like. You can loosen it with more hot water, add more Sichuan peppercorn powder, etc.",
+            "pageOrder": 7,
+            "stepOrder": 3,
+            "sha256": "a348208c8254381eb6176c9a76a3cf99a9b76e871004580b30544db916b1f44d",
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "bytes": 171304
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-8.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-040-woks/step-5-8.jpg",
+            "adjacentText": "Divide the sauce among six bowls (or four if you want larger servings), followed by the noodles and the leafy greens. Add the cooked pork and sui mi ya cai over the top. Sprinkle with chopped peanuts (optional) and scallions.",
+            "pageOrder": 8,
+            "stepOrder": 5,
+            "sha256": "e581fb8401e196c220779dac71e2e8626fece5f2740afda673274356d9d45fc2",
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "bytes": 207614
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-9.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-040-woks/step-5-9.jpg",
+            "adjacentText": "Divide the sauce among six bowls (or four if you want larger servings), followed by the noodles and the leafy greens. Add the cooked pork and sui mi ya cai over the top. Sprinkle with chopped peanuts (optional) and scallions.",
+            "pageOrder": 9,
+            "stepOrder": 5,
+            "sha256": "3975048e96a476949faaca35d722ce63fe8ecca4ef93e7ac1c25c0acc7dc853b",
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "bytes": 275584
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-10.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-040-woks/step-5-10.jpg",
+            "adjacentText": "Divide the sauce among six bowls (or four if you want larger servings), followed by the noodles and the leafy greens. Add the cooked pork and sui mi ya cai over the top. Sprinkle with chopped peanuts (optional) and scallions.",
+            "pageOrder": 10,
+            "stepOrder": 5,
+            "sha256": "e0bb6d5d81d3ebaeba5d890ed14c4af831eab9e51d6472f1feb9f888611a5b39",
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "bytes": 263794
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-11.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-040-woks/step-5-12.jpg",
+            "adjacentText": "Divide the sauce among six bowls (or four if you want larger servings), followed by the noodles and the leafy greens. Add the cooked pork and sui mi ya cai over the top. Sprinkle with chopped peanuts (optional) and scallions.",
+            "pageOrder": 12,
+            "stepOrder": 5,
+            "sha256": "bba0b95611dcf7b9143fa587f0f54032ba71c0027822d8ed253072b735974224",
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "bytes": 289720
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-14.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-040-woks/step-6-13.jpg",
+            "adjacentText": "Mix everything together and enjoy!",
+            "pageOrder": 13,
+            "stepOrder": 6,
+            "sha256": "214a0d5a73e319aa0c9aa4a5e6817f628aa4d8a937582ff49724acc24d631145",
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "bytes": 206568
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-13.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-040-woks/step-6-14.jpg",
+            "adjacentText": "Mix everything together and enjoy!",
+            "pageOrder": 14,
+            "stepOrder": 6,
+            "sha256": "0b03bf94c7e188ece6a36d66adfab48016545e71a9b33e0b5ec5fae1772d130e",
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "bytes": 408412
+          }
+        ]
+      }
+    }
+  ],
+  "sourceMode": "single_source",
+  "singleSourceReason": "已读取数据库全部84份书籍菜谱并按名称、别名和正文核对，本菜无完全匹配书籍信源。已检索配置豆果来源，其他候选如有见notes；保留可访问完整Woks整份配方。",
+  "selectedSourceUrl": "https://thewoksoflife.com/dan-dan-noodles/",
+  "selectionReason": "完整性和内部自洽优先；唯一名称匹配完整候选，来源成品图及对应过程图均已验证。整份采用此来源原料、操作、提示和图片，不跨来源补充。",
+  "ragEvidence": [
+    {
+      "chunkId": "cd141940-a05f-4155-af7a-8768e96366ab",
+      "documentId": "72ce298f-8af6-4c11-860b-dd60f9445054",
+      "sourceName": "The Woks of Life",
+      "chunkType": "technique",
+      "content": "菜名：担担面\n- Serves: 6\n- Cook: 1 hr 30 mins\n- Total: 1 hr 30 mins",
+      "similarity": 0.323894749647692
+    },
+    {
+      "chunkId": "914f8dac-4a88-4001-b907-1c57d33b240c",
+      "documentId": "72ce298f-8af6-4c11-860b-dd60f9445054",
+      "sourceName": "The Woks of Life",
+      "chunkType": "summary",
+      "content": "菜名：担担面\n菜系：中餐\n简介：完整单一信源：https://thewoksoflife.com/dan-dan-noodles/",
+      "similarity": 0.323164264967188
+    },
+    {
+      "chunkId": "af2f6536-8cd6-4dcc-817a-2f8e769b3f28",
+      "documentId": "72ce298f-8af6-4c11-860b-dd60f9445054",
+      "sourceName": "The Woks of Life",
+      "chunkType": "tips",
+      "content": "菜名：担担面\n- 原文未提供额外提示。",
+      "similarity": 0.302095752829567
+    },
+    {
+      "chunkId": "47c16b44-b1c5-4798-8348-70b0db9ab676",
+      "documentId": "72ce298f-8af6-4c11-860b-dd60f9445054",
+      "sourceName": "The Woks of Life",
+      "chunkType": "steps",
+      "content": "菜名：担担面\n4. To prepare the noodles and veggies: Cook the noodles according to package directions and drain. Blanch the greens in the noodle water, and drain.\n5. Divide the sauce among six bowls (or four if you want larger servings), followed by the noodles and the leafy greens. Add the cooked pork and sui mi ya cai over the top. Sprinkle with chopped peanuts (optional) and scallions.\n6. Mix everything together and enjoy!",
+      "similarity": 0.284817874431612
+    },
+    {
+      "chunkId": "abb9bc63-6933-4ba9-8d89-ff973c90d8c4",
+      "documentId": "72ce298f-8af6-4c11-860b-dd60f9445054",
+      "sourceName": "The Woks of Life",
+      "chunkType": "ingredients",
+      "content": "菜名：担担面\n- 2 tablespoons Sichuan peppercorns\n- 1 cinnamon stick\n- 2 star anise\n- 1 cup oil\n- 1/4 cup crushed red pepper flakes\n- 3 teaspoons oil\n- 8 oz. ground pork\n- 2 teaspoons sweet bean sauce or hoisin sauce\n- 2 teaspoons shaoxing wine\n- 1 teaspoon dark soy sauce\n- 1/2 teaspoon five spice powder\n- 1/3 cup sui mi ya cai\n- 2 tablespoons sesame paste tahini\n- 3 tablespoons soy sauce\n- 2 teaspoons sugar\n- 1/4 teaspoon five spice powder\n- 1/2 teaspoon Sichuan peppercorn powder (we ground whole Sichuan peppercorns in a mortar and pestle)\n- 1/2 cup of your prepared chili oil (scary, but yes!)\n- 2 cloves garlic (very finely minced)\n- ¼ cup hot cooking water from the noodles\n- 1 pound fresh or dried white noodles (medium thickness)\n- 1 small bunch leafy greens (spinach, bok choy, or choy sum)\n- chopped peanuts\n- chopped scallion (optional)",
+      "similarity": 0.267766682175793
+    },
+    {
+      "chunkId": "22ad4875-4426-4861-b55c-e8d1cf5ebf66",
+      "documentId": "72ce298f-8af6-4c11-860b-dd60f9445054",
+      "sourceName": "The Woks of Life",
+      "chunkType": "steps",
+      "content": "菜名：担担面\n1. To make the chili oil: In a small pot, add the Sichuan peppercorns, cinnamon stick, star anise, and oil. Over medium low heat, slowly heat to 325 degrees, and then turn off the heat. Wait 6 – 7 minutes, then remove the peppercorns, cinnamon stick, and star anise with a slotted spoon. Add the crushed red pepper flakes and allow them to steep in the hot oil. It should start smelling fragrant, almost like popcorn. Allow the oil to cool. This makes more chili oil than you’ll need, but you’ll be glad to have it on hand for use in other dishes. Store in a glass jar and keep refrigerated.\n2. To make the meat mixture: In a wok, heat a teaspoon of oil over medium heat, and brown the ground pork. Add the sweet bean sauce, shaoxing wine, dark soy sauce, and five spice powder. Cook until all the liquid is evaporated. Set aside. Heat the other 2 teaspoons of oil in the wok over medium heat, and sautee the sui mi ya cai (pickled vegetables) for a few minutes. Set aside.\n3. To make the sauce: Mix together all the sauce ingredients. Taste and adjust seasoning if you like. You can loosen it with more hot water, add more Sichuan peppercorn powder, etc.",
+      "similarity": 0.257914483547212
+    }
+  ],
+  "notes": [
+    "Database book comparison audit: cn-book-inventory.json.",
+    "完整来源步骤及正文操作细节保留在rawExcerpt；Editor必须核对正文补充细节，不能只用压缩后的概述。",
+    "Unselected source images: []",
+    "源图已由既有WindowsHTTP标准传输验证并导入，参见本菜media-import.json。",
+    "Media mapping re-audit: five source-step assignments corrected after local pixel inspection and fullbody review; unrelated Ningbo-peanuts link image excluded. Repository filenames retain historic download names; authoritative stepOrder is corrected. See cn-040.media-mapping-reaudit.json."
+  ]
+}

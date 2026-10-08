@@ -1,0 +1,179 @@
+{
+  "recipeId": "west-018",
+  "documentId": "a35278cc-04a9-4567-adbc-1c95fd3a9c67",
+  "chunks": 6,
+  "embeddingModel": "voyage-4",
+  "dimension": 1024,
+  "semantic": 6,
+  "hybrid": 6,
+  "source": {
+    "sourceName": "Serious Eats",
+    "sourceType": "website",
+    "url": "https://www.seriouseats.com/ratatouille-provence-vegetable-stew-recipe",
+    "documentId": "a35278cc-04a9-4567-adbc-1c95fd3a9c67",
+    "retrievalMethod": "normal web.open full accessible page; merged overlapping line ranges; direct requests460 and browser402 retained as transport history",
+    "complete": true,
+    "ingredients": [
+      {
+        "name": "3 cups 1/4-inch diced summer squash, such as zucchini and yellow squash (about 4 small or 2 medium squash)",
+        "raw": "3 cups 1/4-inch diced summer squash, such as zucchini and yellow squash (about 4 small or 2 medium squash)",
+        "amount": null
+      },
+      {
+        "name": "3 cups 1/4-inch diced Italian eggplant (about 1 medium eggplant)",
+        "raw": "3 cups 1/4-inch diced Italian eggplant (about 1 medium eggplant)",
+        "amount": null
+      },
+      {
+        "name": "Kosher salt and freshly ground black pepper",
+        "raw": "Kosher salt and freshly ground black pepper",
+        "amount": null
+      },
+      {
+        "name": "3/4 cup (12 tablespoons) extra-virgin olive oil, divided, plus more as needed",
+        "raw": "3/4 cup (12 tablespoons) extra-virgin olive oil, divided, plus more as needed",
+        "amount": null
+      },
+      {
+        "name": "3 cups 1/4-inch diced yellow onion (about 3 medium onions)",
+        "raw": "3 cups 1/4-inch diced yellow onion (about 3 medium onions)",
+        "amount": null
+      },
+      {
+        "name": "6 medium cloves garlic, minced (about 2 tablespoons)",
+        "raw": "6 medium cloves garlic, minced (about 2 tablespoons)",
+        "amount": null
+      },
+      {
+        "name": "3 cups 1/4-inch diced red and yellow bell pepper (about 4 large peppers)",
+        "raw": "3 cups 1/4-inch diced red and yellow bell pepper (about 4 large peppers)",
+        "amount": null
+      },
+      {
+        "name": "2 cups puréed canned whole tomatoes, with their juices, from 1 (28-ounce) can (see notes)",
+        "raw": "2 cups puréed canned whole tomatoes, with their juices, from 1 (28-ounce) can (see notes)",
+        "amount": null
+      },
+      {
+        "name": "1 bouquet garni (herb bundle), made from fresh herbs such as thyme, parsley, and basil, tied together with butcher's twine (see notes)",
+        "raw": "1 bouquet garni (herb bundle), made from fresh herbs such as thyme, parsley, and basil, tied together with butcher's twine (see notes)",
+        "amount": null
+      },
+      {
+        "name": "Chopped fresh parsley leaves and tender stems, for garnish (optional)",
+        "raw": "Chopped fresh parsley leaves and tender stems, for garnish (optional)",
+        "amount": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Place summer squash in a wire mesh strainer set over a bowl; place eggplant in a second wire mesh strainer and set over a second bowl. Toss both with a liberal amount of kosher salt and let stand to drain at least 15 minutes and up to 1 hour. Discard any liquid that collects in the bowls.",
+        "duration": null,
+        "heat": null
+      },
+      {
+        "order": 2,
+        "instruction": "In a large skillet, heat 3 tablespoons olive oil over medium-high heat until shimmering. Add onion and garlic, season with salt, and cook, stirring, until softened, about 6 minutes. Scrape onion and garlic onto a rimmed baking sheet and spread in an even layer to cool for 3 minutes. Transfer onion and garlic to a large pot.",
+        "duration": null,
+        "heat": null
+      },
+      {
+        "order": 3,
+        "instruction": "Meanwhile, add 3 more tablespoons olive oil to skillet and heat over medium-high heat until shimmering. Add bell pepper, season with salt, and cook, stirring, until softened, about 7 minutes. Scrape bell pepper onto the rimmed baking sheet in an even layer to cool for 3 minutes. Transfer bell pepper to pot with onion.",
+        "duration": null,
+        "heat": null
+      },
+      {
+        "order": 4,
+        "instruction": "Add 3 more tablespoons olive oil to skillet and heat over medium-high heat until shimmering. Add summer squash and cook, stirring, until softened, about 4 minutes. Scrape onto rimmed baking sheet in an even layer to cool for 3 minutes. Transfer to pot with onion and bell pepper.",
+        "duration": null,
+        "heat": null
+      },
+      {
+        "order": 5,
+        "instruction": "Add remaining 3 tablespoons olive oil to skillet and heat over medium-high heat until shimmering. Add eggplant and cook, stirring, until softened, about 4 minutes; add more olive oil as needed if skillet dries out while cooking eggplant. Scrape eggplant into pot with other vegetables and stir to combine.",
+        "duration": null,
+        "heat": null
+      },
+      {
+        "order": 6,
+        "instruction": "Set pot of vegetables over medium-high heat and stir in tomato purée and herb bundle; heat until ratatouille is gently bubbling, then lower heat to medium and cook, stirring, until tomato purée coats vegetables in a thick sauce, about 15 minutes. Discard herb bundle. Season with salt, stir in chopped parsley (if using), and drizzle with a small amount of fresh extra-virgin olive oil. Serve right away, or chill and serve either reheated, slightly chilled, or at room temperature. Puréed tomatoes more fully pervade and flavor the dish.",
+        "duration": null,
+        "heat": null
+      }
+    ],
+    "technique": [],
+    "tips": [
+      "Canned whole tomatoes often provide some of the best quality you can get, but feel free to use a purée made from cooked fresh ones if they're good enough. You can also peel, seed, and dice fresh tomatoes and use them in place of the purée; they will hold their shape more in the finished ratatouille, and their flavor will be more subdued.",
+      "Herbs are optional and can include all sorts beyond the ones suggested below; oregano, marjoram, and savory are also good options.",
+      "You can speed up steps 2 through 5 by cooking the vegetables individually in multiple skillets at once, then transferring them to a pot to finish cooking together."
+    ],
+    "rawExcerpt": "iframe†www.googletagmanager.com\n\nSerious Eats\n\nSave\n\nRate\n\n* Search [Input: What are you looking for?]\n\n* Newsletters\n* Sweepstakes\n* Serious Eats\n# Provençal Ratatouille Recipe\n\n4.8\n\n(4)\n\n6 Reviews\n\nThis classic Provençal stew allows ripe, late-summer produce to shine.\n\nBy\n\nDaniel Gritzer\n\nImage: Daniel Gritzer Image: Daniel Gritzer\n\nDaniel Gritzer\n\nDaniel is the editorial director of Serious Eats, where he leads the site's editorial strategy and oversees everything from recipe development to articles on food science, cooking techniques, and more. He's a former food editor at Food & Wine and has cooked in New York City restaurants.\nSerious Eats' Editorial Guidelines\n\nUpdated on March 3, 2025\n\nClose\n\nImage: A bowl of colorful Provençal ratatouille. Image: A bowl of colorful Provençal ratatouille.\n\nCredit:\n\nSerious Eats / Vicky Wasik\n\nIn This Recipe\n\nView All\n\nIn This Article\n\n* What Is Ratatouille?\n\n* What's the Best Size to Cut the Vegetables\n\n* Should You Salt the Eggplant and Squash?\n\n* Are One-Pot or Individually Cooked Vegetables Better?\n\n* What Kind of Tomato Is Best?\n* Ratatouille: Step by Step\nImage: Diced squash being sautéed in a skillet. The author is tossing the vegetables in the pan by deftly flicking the pan so that the pieces of squash are launched into the air. Image: Diced squash being sautéed in a skillet. The author is tossing the vegetables in the pan by deftly flicking the pan so that the pieces of squash are launched into the air.\nCooking each vegetable separately helps maintain their shapes and individual flavors in the final dish—but the differences aren't as drastic as you might expect.\n\nSerious Eats / Vicky Wasik\nIf you have a good sense of the relative cooking times of your vegetables, it's also possible to do a hybrid of the two methods. In that case, what you'd do is add each vegetable to the pot in a sequence based on roughly how long they need to cook, starting with the onion and garlic, then adding the bell peppers soon after, followed by the squash and eggplant, and finally the tomato.\nIt's not as accurate as cooking them individually, but it's still a little more tailored to each vegetable's need than the one-pot method.\nA few things worth noting: First, I didn't test larger vegetable pieces, and it's possible that you'd see a bigger difference between one-pot and separately cooked versions in that case. I'm just wedded to using smaller pieces, so it wasn't a question I cared to explore, but it's worth considering if you cut your vegetables larger.\nSecond, while the individually cooked approach requires more of your attention, don't assume that it also requires more of your time. Sautéing each vegetable one after another certainly stretches the process out, but if you're comfortable juggling multiple pans at once, you'll actually reduce your total cooking time compared to the one-pot approach.\nThird, some of you may be wondering whether there are any browned bits on the bottom of the skillet that would be worth collecting by deglazing and then adding to the final pot of ratatouille. To find out, I deglazed my pan with water after sautéing each of the vegetables, let it reduce down to just a few tablespoons, and tasted it. Turns out, it tastes like very little. Skip it.\n## Fresh Diced Tomato Versus Tomato Purée\n\nImage: Two ramekins holding batches of ratatouille made with fresh tomatoes and puréed tomatoes, respectively. The fresh-tomato batch is not nearly as red or as saucy. Image: Two ramekins holding batches of ratatouille made with fresh tomatoes and puréed tomatoes, respectively. The fresh-tomato batch is not nearly as red or as saucy.\n\nFresh diced tomato, at left; pureed tomatoes, at right.\n\nSerious Eats / Vicky Wasik\nThe last big question for me concerned the tomatoes. It's the peak of summer, so you have your pick of fresh, seasonal tomatoes to use, which you can dice and cook into the dish. Alternatively, you can make a purée of cooked tomatoes, either from fresh or by crushing or blending canned ones and adding that to the pot.\nI tried it both ways, and the results are striking. You can immediately see the difference—despite plenty of cooking, the diced fresh tomato maintained its shape to the end, while the puréed tomatoes acted as a sauce, coating everything in a red sheen and helping to bind it all together. As you can imagine, the tomato flavor is more pervasive when added as purée, since it glazes every other vegetable in the dish.\nOnce again, this comes down to personal preference: If you want a more lusty, tomato-tinged ratatouille, the purée, whether from canned or fresh tomatoes, is a no-brainer. If you want the other vegetables, like the eggplant, to shine through more, go with diced fresh tomatoes. I prefer the purée, so that's what I've called for in my recipe.\n## Ratatouille: Step by Step\n\nI start by salting the eggplant and squash and letting them stand in a strainer set over a bowl for between 15 and 30 minutes.\n\nWhether doing the individually cooked or the one-pot approach, I then sweat onion and garlic in olive oil. For the one-pot approach, the next step is to combine everything else in the pot and let it cook until done.\n\nImage: Onions and garlic being sautéed in a skillet. Image: Onions and garlic being sautéed in a skillet.\nSerious Eats / Vicky Wasik\n\nFor the individually cooked approach, as each vegetable finishes cooking, I transfer it to a baking sheet to cool slightly. Spreading the pieces in a thin, even layer allows them to cool more evenly.\n\nImage: Sautéed summer squash being cooled on a rimmed baking sheet. Image: Sautéed summer squash being cooled on a rimmed baking sheet.\n\nSerious Eats / Vicky Wasik\nI repeat this with the remaining ingredients. As each finishes, I scrape whatever is currently on the baking sheet into a pot and spread the next vegetable on the sheet to cool a little.\n\nImage: Author transferring cooked bell pepper to a rimmed baking sheet to cool. Image: Author transferring cooked bell pepper to a rimmed baking sheet to cool.\n\nSerious Eats / Vicky Wasik\n\nOnce everything is in the pot, I set it over low heat and add the tomato.\nImage: Author stirring the cooked, diced vegetables in a saucepan with a spatula. Image: Author stirring the cooked, diced vegetables in a saucepan with a spatula.\n\nSerious Eats / Vicky Wasik\n\nI also add herbs at this point; here, it's a bundle of basil, parsley, and thyme.\nImage: Close-up of a bundle of thyme and basil sprigs tied with a length of twine. The bundle has been added to the saucepan to flavor ratatouille. Image: Close-up of a bundle of thyme and basil sprigs tied with a length of twine. The bundle has been added to the saucepan to flavor ratatouille.\n\nSerious Eats / Vicky Wasik\nHerb garnishes are up to you, too. In these photos, I've stirred in some chopped parsley, but you could use basil, another herb, or just leave it out altogether. I'll often also stir in a bit more fresh olive oil for flavor at the end.\n\nImage: Close-up of the finished ratatouille, flecked with chopped parsley. Image: Close-up of the finished ratatouille, flecked with chopped parsley.\n\nSerious Eats / Vicky Wasik\nWhen it's all done, there actually is one point on which I maintain my religious feelings: As good as ratatouille is hot, it's so, so much better when eaten slightly chilled or at room temperature the next day.\n### August 2015\n\nPrep Time:\n\n5 mins\n\nCook Time:\n\n40 mins\n\nDraining and Cooling Time:\n\n25 mins\n\nTotal Time:\n\n1 hr 10 mins\n\nServings:\n\n4 to 6 servings\n\nYield:\n\n2 quarts\n\n[Button: Jump to Nutrition Facts]\n\nKeep Screen Awake\n## Ingredients\n\n* 3 cups 1/4-inch diced summer squash, such as zucchini and yellow squash (about 4 small or 2 medium squash)\n\n* 3 cups 1/4-inch diced Italian eggplant (about 1 medium eggplant)\n\n* Kosher salt and freshly ground black pepper\n\n* 3/4 cup (12 tablespoons) extra-virgin olive oil, divided, plus more as needed\n\n* 3 cups 1/4-inch diced yellow onion (about 3 medium onions)\n\n* 6 medium cloves garlic, minced (about 2 tablespoons)\n* 3 cups 1/4-inch diced red and yellow bell pepper (about 4 large peppers)\n\n* 2 cups puréed canned whole tomatoes, with their juices, from 1 (28-ounce) can (see notes)\n\n* 1 bouquet garni (herb bundle), made from fresh herbs such as thyme, parsley, and basil, tied together with butcher's twine (see notes)\n\n* Chopped fresh parsley leaves and tender stems, for garnish (optional)\n## Directions\n\n1. Place summer squash in a wire mesh strainer set over a bowl; place eggplant in a second wire mesh strainer and set over a second bowl. Toss both with a liberal amount of kosher salt and let stand to drain at least 15 minutes and up to 1 hour. Discard any liquid that collects in the bowls.\n\nImage: Author sprinkling salt over a fine mesh strainer containing diced summer squash. Image: Author sprinkling salt over a fine mesh strainer containing diced summer squash.\nSerious Eats / Vicky Wasik\n\n2. In a large skillet, heat 3 tablespoons olive oil over medium-high heat until shimmering. Add onion and garlic, season with salt, and cook, stirring, until softened, about 6 minutes. Scrape onion and garlic onto a rimmed baking sheet and spread in an even layer to cool for 3 minutes. Transfer onion and garlic to a large pot.\n\nImage: Onion and garlic, cooling on a rimmed baking sheet. Image: Onion and garlic, cooling on a rimmed baking sheet.\nSerious Eats / Vicky Wasik\n\n3. Meanwhile, add 3 more tablespoons olive oil to skillet and heat over medium-high heat until shimmering. Add bell pepper, season with salt, and cook, stirring, until softened, about 7 minutes. Scrape bell pepper onto the rimmed baking sheet in an even layer to cool for 3 minutes. Transfer bell pepper to pot with onion.\n\nImage: Author sprinkling salt over diced bell pepper as it cooks. Image: Author sprinkling salt over diced bell pepper as it cooks.\nSerious Eats / Vicky Wasik\n\n4. Add 3 more tablespoons olive oil to skillet and heat over medium-high heat until shimmering. Add summer squash and cook, stirring, until softened, about 4 minutes. Scrape onto rimmed baking sheet in an even layer to cool for 3 minutes. Transfer to pot with onion and bell pepper.\nImage: Cooked, cooled summer squash being transferred from the rimmed baking sheet to a saucepan. Image: Cooked, cooled summer squash being transferred from the rimmed baking sheet to a saucepan.\n\nSerious Eats / Vicky Wasik\n5. Add remaining 3 tablespoons olive oil to skillet and heat over medium-high heat until shimmering. Add eggplant and cook, stirring, until softened, about 4 minutes; add more olive oil as needed if skillet dries out while cooking eggplant. Scrape eggplant into pot with other vegetables and stir to combine.\n\nImage: Diced eggplant is added to the skillet. Image: Diced eggplant is added to the skillet.\n\nSerious Eats / Vicky Wasik\n6. Set pot of vegetables over medium-high heat and stir in tomato purée and herb bundle; heat until ratatouille is gently bubbling, then lower heat to medium and cook, stirring, until tomato purée coats vegetables in a thick sauce, about 15 minutes. Discard herb bundle. Season with salt, stir in chopped parsley (if using), and drizzle with a small amount of fresh extra-virgin olive oil. Serve right away, or chill and serve either reheated, slightly chilled, or at room temperature.\nImage: Author pouring tomato purée into saucepan of ratatouille. Image: Author pouring tomato purée into saucepan of ratatouille.\n\nPuréed tomatoes more fully pervade and flavor the dish.\n\nSerious Eats / Vicky Wasik\n## Special Equipment\n\n2 wire mesh strainers , rimmed baking sheet\n## Notes\n\nCanned whole tomatoes often provide some of the best quality you can get, but feel free to use a purée made from cooked fresh ones if they're good enough. You can also peel, seed, and dice fresh tomatoes and use them in place of the purée; they will hold their shape more in the finished ratatouille, and their flavor will be more subdued.\n\nHerbs are optional and can include all sorts beyond the ones suggested below; oregano, marjoram, and savory are also good options.\nYou can speed up steps 2 through 5 by cooking the vegetables individually in multiple skillets at once, then transferring them to a pot to finish cooking together.\n## Read More\n\n* Provençal Tian (Eggplant, Zucchini, Squash, and Tomato Casserole)\n* Grilled Ratatouille\n* Summer Ratatouille with Pasta\n\nSave\n\nRate\n\nPrint [Input]\n## Nutrition Facts (per serving)\n\n387  | Calories\n28g  | Fat\n35g  | Carbs\n5g  | Protein\n\nShow Full Nutrition Label Hide Full Nutrition Label\n\nNutrition Facts\n---\nServings Per Recipe 4 to 6\n---\nCalories 387\n---\n% Daily Value *\nTotal Carbohydrate 35g  | 13%\nDietary Fiber 9g  | 31%\nTotal Sugars 14g\nProtein 5g  | 10%\nTotal Fat 28g  | 36%\nSaturated Fat 4g  | 20%\nCholesterol 0mg  | 0%\nVitamin C 77mg  | 85%\nSodium 450mg  | 20%\nCalcium 74mg  | 6%\nIron 3mg  | 16%\nPotassium 897mg  | 19%\n* Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs.\n\nLoading shell for RecipesUgcThreaded1 Vue component in Globe.\n## Related Articles\nHaricots Verts Amandine (French-Style Green Beans With Almonds) 20 mins French in a Flash: Haricots Verts du Sud Recipe 40 mins French-Style Brown Butter New Potatoes Recipe 50 mins French in a Flash: Parsnip Purée with Olive Oil and Sage Recipe 30 mins How to Make Catalan-Style Ash-Roasted Vegetables (Escalivada) Potatoes Sarladaises Recipe 30 mins Artichokes à la Barigoule (French Braised Artichokes With White Wine) 1 hr Charred Eggplant and Tomatoes with Harissa and Mint Recipe 30 mins\nProvençal Tian (Eggplant, Zucchini, Squash, and Tomato Casserole) Recipe 1 hr 10 mins French in a Flash: Roasted Ratatouille Lasagna Napoleons Pommes Aligot (Cheesy Mashed Potatoes) 50 mins Charred Asparagus With Miso Béarnaise Sauce Recipe 40 mins Erdäpfelsalat (Austrian-Style Potato Salad) 1 hr 5 mins Creamed Leeks 15 mins Grilled Broccoli Rabe 1 hr 5 mins French Lentils with Sausage, Wilted Arugula, & Dijon Mustard Recipe 1 hr\n\nNewsletter Sign Up\nNewsletter Sign Up",
+    "selectionAssessment": {
+      "qualifies": true,
+      "ingredientCoverage": "complete",
+      "stepCoverage": "complete",
+      "internalCoherence": "coherent",
+      "heroImages": 0,
+      "mappedStepImages": 0,
+      "stepImageCoverage": 0,
+      "ingredientCount": 10,
+      "executableStepCount": 6,
+      "notes": [
+        "Page images and step adjacencies visible in web.open; original binary URLs not returned by failed web.click. No verified downloadable media available, no invented image mappings.",
+        "Source quantities with mixed units retained verbatim; no vessel capacity inferred."
+      ]
+    }
+  },
+  "ragEvidence": [
+    {
+      "chunkId": "1f4e868b-4d8e-4f27-8d20-32ed54f49591",
+      "documentId": "a35278cc-04a9-4567-adbc-1c95fd3a9c67",
+      "sourceName": "Serious Eats",
+      "chunkType": "technique",
+      "content": "菜名：普罗旺斯炖菜\n- 原文未明确说明技法。",
+      "similarity": 0.735230765796625
+    },
+    {
+      "chunkId": "a44b6119-88bd-42f0-a773-ed8914c25c40",
+      "documentId": "a35278cc-04a9-4567-adbc-1c95fd3a9c67",
+      "sourceName": "Serious Eats",
+      "chunkType": "summary",
+      "content": "菜名：普罗旺斯炖菜\n别名：Provençal Ratatouille Recipe\n简介：Provençal Ratatouille Recipe",
+      "similarity": 0.726054272832104
+    },
+    {
+      "chunkId": "18347f18-644f-443c-9cd7-3dc75bb3518a",
+      "documentId": "a35278cc-04a9-4567-adbc-1c95fd3a9c67",
+      "sourceName": "Serious Eats",
+      "chunkType": "tips",
+      "content": "菜名：普罗旺斯炖菜\n- Canned whole tomatoes often provide some of the best quality you can get, but feel free to use a purée made from cooked fresh ones if they're good enough. You can also peel, seed, and dice fresh tomatoes and use them in place of the purée; they will hold their shape more in the finished ratatouille, and their flavor will be more subdued.\n- Herbs are optional and can include all sorts beyond the ones suggested below; oregano, marjoram, and savory are also good options.\n- You can speed up steps 2 through 5 by cooking the vegetables individually in multiple skillets at once, then transferring them to a pot to finish cooking together.",
+      "similarity": 0.71409629495387
+    },
+    {
+      "chunkId": "5ce987a5-eba2-4d7a-8f46-1d1b97bc8a73",
+      "documentId": "a35278cc-04a9-4567-adbc-1c95fd3a9c67",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：普罗旺斯炖菜\n1. Place summer squash in a wire mesh strainer set over a bowl; place eggplant in a second wire mesh strainer and set over a second bowl. Toss both with a liberal amount of kosher salt and let stand to drain at least 15 minutes and up to 1 hour. Discard any liquid that collects in the bowls.\n2. In a large skillet, heat 3 tablespoons olive oil over medium-high heat until shimmering. Add onion and garlic, season with salt, and cook, stirring, until softened, about 6 minutes. Scrape onion and garlic onto a rimmed baking sheet and spread in an even layer to cool for 3 minutes. Transfer onion and garlic to a large pot.\n3. Meanwhile, add 3 more tablespoons olive oil to skillet and heat over medium-high heat until shimmering. Add bell pepper, season with salt, and cook, stirring, until softened, about 7 minutes. Scrape bell pepper onto the rimmed baking sheet in an even layer to cool for 3 minutes. Transfer bell pepper to pot with onion.",
+      "similarity": 0.693359735014415
+    },
+    {
+      "chunkId": "15933f28-e8bf-4862-98bb-9ef28d17818e",
+      "documentId": "a35278cc-04a9-4567-adbc-1c95fd3a9c67",
+      "sourceName": "Serious Eats",
+      "chunkType": "ingredients",
+      "content": "菜名：普罗旺斯炖菜\n- 3 cups 1/4-inch diced summer squash, such as zucchini and yellow squash (about 4 small or 2 medium squash)\n- 3 cups 1/4-inch diced Italian eggplant (about 1 medium eggplant)\n- Kosher salt and freshly ground black pepper\n- 3/4 cup (12 tablespoons) extra-virgin olive oil, divided, plus more as needed\n- 3 cups 1/4-inch diced yellow onion (about 3 medium onions)\n- 6 medium cloves garlic, minced (about 2 tablespoons)\n- 3 cups 1/4-inch diced red and yellow bell pepper (about 4 large peppers)\n- 2 cups puréed canned whole tomatoes, with their juices, from 1 (28-ounce) can (see notes)\n- 1 bouquet garni (herb bundle), made from fresh herbs such as thyme, parsley, and basil, tied together with butcher's twine (see notes)\n- Chopped fresh parsley leaves and tender stems, for garnish (optional)",
+      "similarity": 0.692067068342392
+    },
+    {
+      "chunkId": "ae6a9000-e4b7-45cc-812c-d5497422ba1b",
+      "documentId": "a35278cc-04a9-4567-adbc-1c95fd3a9c67",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：普罗旺斯炖菜\n4. Add 3 more tablespoons olive oil to skillet and heat over medium-high heat until shimmering. Add summer squash and cook, stirring, until softened, about 4 minutes. Scrape onto rimmed baking sheet in an even layer to cool for 3 minutes. Transfer to pot with onion and bell pepper.\n5. Add remaining 3 tablespoons olive oil to skillet and heat over medium-high heat until shimmering. Add eggplant and cook, stirring, until softened, about 4 minutes; add more olive oil as needed if skillet dries out while cooking eggplant. Scrape eggplant into pot with other vegetables and stir to combine.\n6. Set pot of vegetables over medium-high heat and stir in tomato purée and herb bundle; heat until ratatouille is gently bubbling, then lower heat to medium and cook, stirring, until tomato purée coats vegetables in a thick sauce, about 15 minutes. Discard herb bundle. Season with salt, stir in chopped parsley (if using), and drizzle with a small amount of fresh extra-virgin olive oil. Serve right away, or chill and serve either reheated, slightly chilled, or at room temperature. Puréed tomatoes more fully pervade and flavor the dish.",
+      "similarity": 0.667400201183564
+    }
+  ]
+}

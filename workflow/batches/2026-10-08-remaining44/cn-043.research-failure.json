@@ -1,0 +1,44 @@
+{
+  "recipeId": "cn-043",
+  "recipeName": "重庆小面",
+  "category": "chinese",
+  "status": "failed",
+  "failedStage": "research",
+  "createdAt": "2026-10-08T12:23:23.825138+00:00",
+  "reason": "豆果重庆小面候选页面抓取403；Woks结果为酸辣粉或上海面条，不匹配。",
+  "bookSearch": {
+    "auditFile": "cn-book-inventory.json",
+    "scannedDocuments": 84,
+    "usableDocuments": 79,
+    "exactOrAcceptableAliasMatches": 0,
+    "excludedStatuses": [
+      "superseded",
+      "rejected",
+      "invalid"
+    ],
+    "assessment": "No complete same-dish recipe in current database books; no book supplementation fabricated."
+  },
+  "attemptedSources": [
+    {
+      "source": "豆果美食",
+      "url": "https://www.douguo.com/cookbook/2490028.html",
+      "result": "normalweb403"
+    },
+    {
+      "source": "The Woks of Life",
+      "query": "chongqing xiao mian site:thewoksoflife.com",
+      "result": "no exact complete recipe; suanlafen/stirfriedShanghai rejected"
+    },
+    {
+      "source": "The Woks of Life",
+      "aliasCoverageAudit": "cn-alias-coverage-audit.json",
+      "result": "Results are suan la fen/glass noodles, Shanghai scallion noodles, travel guides and glossary; none is complete matching Chongqing xiao mian."
+    }
+  ],
+  "evidencePackage": null,
+  "ingestion": {
+    "performed": false,
+    "reason": "No qualifying complete exactdishsource; do not ingest partial snippets or unrelated variants as this entity."
+  },
+  "aliasRecheckedAt": "2026-10-08T12:41:18.329553+00:00"
+}

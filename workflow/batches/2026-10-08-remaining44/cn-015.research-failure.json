@@ -1,0 +1,13 @@
+{
+  "recipeId": "cn-015",
+  "recipeName": "兰州清汤牛肉面",
+  "category": "chinese",
+  "status": "failed",
+  "failedStage": "research",
+  "reason": "Mandatory soup-bone roasting at 400 degrees lacks Fahrenheit/Celsius unit in accessible complete source; no explicit alternative, no unit inferred.",
+  "qualificationAudit": "cn-015.qualification-reaudit.json",
+  "ingestionAudit": "cn-015.qualification-rejection-ingestion.json",
+  "priorFrozenEvidenceRetained": "cn-015.evidence.json",
+  "databaseDocumentId": "a4076148-4892-4817-9692-070337ba2939",
+  "normalRetrievalExcludesRejected": true
+}

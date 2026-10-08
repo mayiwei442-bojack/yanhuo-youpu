@@ -1,0 +1,28 @@
+import json,re,pathlib,datetime
+b=pathlib.Path('workflow/batches/2026-10-08-remaining44'); now=datetime.datetime.now(datetime.timezone.utc).isoformat()
+def save(n,j): (b/n).write_text(json.dumps(j,ensure_ascii=False,indent=2),encoding='utf-8')
+save('cn-015.qualification-reaudit.json',{'recipeId':'cn-015','reviewedAt':now,'status':'qualification_conflict','sourceUrl':'https://thewoksoflife.com/lanzhou-beef-noodle-soup/','criticalOmission':'Mandatory soup-bone roasting temperature is 400 degrees without Fahrenheit/Celsius. No unit inferred.','sourceProof':{'cachedFile':'cn-015.web-extract.txt','bodyLine':61,'cardLine':171,'literal':'Roast them on a baking sheet at 400 degrees for 45 minutes.'},'explicitAlternative':False,'alternativeAssessment':'Leftover roasted chicken carcass replaces chicken component only; source still requires roasting soup bones.','unitSearch':{'patterns':['Fahrenheit','Celsius','°F','°C'],'matches':0,'scope':'cached complete webpage text/body/card'},'jsonLd':'not present in cached text; raw HTML unavailable from previous ordinary 403; not claimed checked','frozenFilesModified':False,'databaseModified':False,'recommendation':'Hold editing/publication until source-supported unit or explicitly authorized incomplete-source exception; parent decides invalidation of existing document.'})
+coverage={
+'cn-018': [('suan cai yu fish soup pickled mustard greens','cn-alias-0.txt'),('"suan cai yu"','cn-alias--suan-cai-yu-.txt')],
+'cn-026': [('long jing shrimp dragon well tea shrimp','cn-alias-1.txt'),('"Longjing shrimp"','cn-alias--Longjing-shrimp-.txt')],
+'cn-028': [('velvet shrimp crystal shrimp','cn-alias-2.txt'),('"crystal shrimp"','cn-alias--crystal-shrimp-.txt')],
+'cn-023': [('chicken mushroom stew dongbei','cn-alias-3.txt')],
+'cn-043': [('"Chongqing noodles"','cn-alias--Chongqing-noodles-.txt'),('"xiao mian"','cn-alias--xiao-mian-.txt')]}
+rows=[]
+for id, qs in coverage.items():
+ entries=[]
+ for q,fn in qs:
+  txt=(b/fn).read_text(encoding='utf-8'); results=[]
+  for title,url in re.findall(r'^([^\n]+)\((https://thewoksoflife\.com/[^\s)]+)\)\s*$',txt,re.M): results.append({'title':title.strip(),'url':url})
+  entries.append({'query':q+' site:thewoksoflife.com','domainRestriction':'thewoksoflife.com','retrievalMethod':'normal web search; no access bypass','rawAuditFile':fn,'results':results,'matchedFullRecipe':False})
+ assessment={'cn-018':'Mustard-green glossary, squid with mustard greens and mackerel are different dishes; exact quoted pinyin search returned no result.','cn-026':'Lobster/noodle/cashew-shrimp and cuisine guide mentions are not a complete Dragon Well tea shrimp recipe.','cn-028':'Shrimp velveting is a preparation technique; har gow is dumpling; Shanghai cuisine guide describes crystal shrimp but provides neither ingredient quantities nor cooking method.','cn-023':'Accessible Chinese Braised Chicken with Mushrooms uses chicken wings, shiitake and wood ear, inspired by Shanghai Jade Temple; distinct from Northeast chicken/hazel-mushroom stew.','cn-043':'Results are suan la fen/glass noodles, Shanghai scallion noodles, travel guides and glossary; none is complete matching Chongqing xiao mian.'}[id]
+ row={'recipeId':id,'queries':entries,'assessment':assessment,'conclusion':'No accessible complete matching recipe found in these alias searches; not a claim that no such page exists.'}
+ if id=='cn-028': row['guideInspection']={'url':'https://thewoksoflife.com/shanghai-cuisine/','retrievalMethod':'normal web open full page','lines':'207-211','heading':'Stir-fried River Shrimp (Qing Chao He Xia, 清炒河虾)','aliasMention':'水晶虾仁 / Crystal Shrimp','recipeLinkObserved':False,'completeIngredients':False,'completeMethod':False}
+ rows.append(row)
+ j=json.loads((b/f'{id}.research-failure.json').read_text(encoding='utf-8')); j['attemptedSources'].append({'source':'The Woks of Life','aliasCoverageAudit':'cn-alias-coverage-audit.json','result':assessment}); j['aliasRecheckedAt']=now
+ if id=='cn-018': j['reason']='豆果候选正常抓取超时，未取得可认证全文；不是因料包或原料表漏项而拒绝。Woks中文、拼音与英文别名检索仅得不同菜品或词汇页，未找到可访问的完整同菜配方。'
+ if id=='cn-028': j['reason']='豆果候选可读时虾仁等所有主料均无用量，无法从同一来源还原主料比例；后续正常全文访问403。做法中原料表漏项本身可提取，并非独立拒绝理由。Woks别名结果为技术指南、其他菜与无配方的水晶虾仁介绍，未取得完整同菜信源。'
+ save(f'{id}.research-failure.json',j)
+save('cn-alias-coverage-audit.json',{'reviewedAt':now,'enabledSource':'The Woks of Life','entries':rows,'frozenEvidenceModified':False})
+j=json.loads((b/'cn-013.research-failure.json').read_text(encoding='utf-8'));j['ingestion']=json.loads((b/'cn-013.ingestion.json').read_text(encoding='utf-8'));save('cn-013.research-failure.json',j)
+save('cn-failure-completeness-reaudit.json',{'reviewedAt':now,'rule':'A short paragraph or packet convenience preparation is not grounds for rejection; method-only ingredients are extracted from the same source.','reversed':['cn-013'],'clarified':['cn-018','cn-028'],'remainingFailureCategories':{'cn-012':'access / no complete matching source found','cn-018':'fulltext access / no complete matching source found','cn-022':'materially different duck-breast preparation','cn-023':'materially different regional recipe','cn-025':'access / no complete matching source found','cn-026':'429/403 / no complete matching source found','cn-028':'all main ingredient quantities absent and fulltext unavailable on recheck','cn-037':'access / no complete matching source found','cn-043':'403 / materially different noodle results','cn-050':'materially different frozen-scallion-pancake approximation / travel story without formula'},'qualificationConflict':['cn-015'],'scope':'Cached failure evidence plus permitted ordinary English/pinyin alias searches; no frozen evidence changes.'})

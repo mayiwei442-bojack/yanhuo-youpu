@@ -1,0 +1,32 @@
+import {readFile,writeFile,readdir} from 'node:fs/promises';
+import {createConfiguredSupabaseClient,loadRagEnv} from '../../../src/rag/supabase-client.mjs';
+import {createWindowsHttpFetch} from '../../../src/rag/windows-http.mjs';
+import {createConfiguredEmbeddingProvider} from '../../../src/rag/embedding-provider.mjs';
+import {ingestDocument} from '../../../src/rag/ingest-document.mjs';
+import {retrieve} from '../../../src/rag/retrieve.mjs';
+import {hybridSearch} from '../../../src/rag/hybrid-search.mjs';
+await loadRagEnv();const fetchImpl=createWindowsHttpFetch(),client=await createConfiguredSupabaseClient({fetchImpl}),embeddingProvider=createConfiguredEmbeddingProvider({fetchImpl});
+const dir=new URL('./',import.meta.url),read=async f=>JSON.parse(await readFile(new URL(f,dir),'utf8')),kb=await read('west-kb-audit.json');
+const files=(await readdir(dir)).filter(f=>/^west-\d{3}\.se-.*\.json$/.test(f)&&!f.endsWith('.ingestion.json')&&!f.includes('.failed.json'));
+for(const file of files){try{
+if(await read(file.replace('.json','.ingestion.json')).catch(()=>null))continue;
+const c=await read(file),r=c.recipe,id=file.slice(0,8),target=kb.targets.find(t=>t.recipeId===id),ingredients=r.recipeIngredient.map(raw=>({name:raw,raw,amount:null}));
+if(id==='west-009')ingredients.push({name:'oil',raw:'oil grilling grate (method step1; type and amount unspecified)',amount:null});
+if(id==='west-030')ingredients.push({name:'butter or oil',raw:'small amount of butter or oil to grease griddle (method step3)',amount:null});
+if(id==='west-013')ingredients.push({name:'water',raw:'water for boiling pasta, and reserved pasta cooking water as directed (method)',amount:null});
+if(id==='west-021')ingredients.push({name:'water',raw:'boiling water to optionally blanch smoked bacon2minutes (source note)',amount:null});
+if(id==='west-025')ingredients.push({name:'water',raw:'water to wet hands when forming meatballs (step4; quantity unspecified)',amount:null});
+const steps=r.recipeInstructions.map((s,i)=>({order:i+1,instruction:s.text,duration:null,heat:null}));
+const notes=[c.mediaNote,'Source quantities with mixed units retained verbatim; no vessel capacity inferred.'];
+if(id==='west-015')notes.push('Source lists5ounces Parmesan but method reserves remaining1tablespoon after4ounces breading; source allocation mismatch retained, do not silently invent a corrected remainder. Prepared tomato sauce permitted by source notes.');
+if(id==='west-021')notes.push('Recipecard3pounds/1.25kg beef quantities are source inconsistency; preserve both raw, prefer explicitly chosen source quantity rather than invent equivalence. Article older300F/2hours differs from cross-tested card325F plus2+1hours; use current card while documenting old article variance.');
+const normalizedRecipe={recipeName:target.recipeName,aliases:[r.name],category:'western',summary:r.description,ingredients,steps,technique:[],tips:c.tips??[],source:{type:'website',name:'Serious Eats',url:c.url,retrievalMethod:c.retrievalMethod},metadata:{projectRecipeId:id,sourceComplete:true,sourceYield:r.recipeYield,sourceTotalTime:r.totalTime,sourcePrepTime:r.prepTime,sourceCookTime:r.cookTime,extractionNotes:notes}};
+const result=await ingestDocument({normalizedRecipe,rawText:c.rawText,client,embeddingProvider});
+await client.update('kb_documents',{metadata:{...result.document.metadata,...normalizedRecipe.metadata}},{id:result.document.id});
+const options={query:target.recipeName,client,embeddingProvider,recipeEntityId:result.entity.id,limit:100,maxPerSource:100},semantic=await retrieve(options),hybrid=await hybridSearch(options);
+if(!semantic.some(x=>x.document_id===result.document.id)||!hybrid.some(x=>x.document_id===result.document.id))throw Error('Retrieval missing document');
+const source={sourceName:'Serious Eats',sourceType:'website',url:c.url,documentId:result.document.id,retrievalMethod:c.retrievalMethod,complete:true,ingredients,steps,technique:[],tips:c.tips??[],rawExcerpt:c.rawText,selectionAssessment:{qualifies:true,ingredientCoverage:'complete',stepCoverage:'complete',internalCoherence:'coherent',heroImages:0,mappedStepImages:0,stepImageCoverage:0,ingredientCount:ingredients.length,executableStepCount:steps.length,notes}};
+const ragEvidence=semantic.filter(x=>x.document_id===result.document.id).map(x=>({chunkId:x.id,documentId:x.document_id,sourceName:'Serious Eats',chunkType:x.chunk_type,content:x.content,similarity:x.similarity??null}));
+await writeFile(new URL(file.replace('.json','.ingestion.json'),dir),JSON.stringify({recipeId:id,documentId:result.document.id,chunks:result.chunks.length,embeddingModel:embeddingProvider.model,dimension:embeddingProvider.dimension,semantic:ragEvidence.length,hybrid:hybrid.filter(x=>x.document_id===result.document.id).length,source,ragEvidence},null,2)+'\n');
+console.log(JSON.stringify({id,url:c.url,documentId:result.document.id,chunks:result.chunks.length}));
+}catch(e){console.log(JSON.stringify({file,error:e.message}));await writeFile(new URL(file+'.failed.json',dir),JSON.stringify({file,error:e.message},null,2)+'\n');}}

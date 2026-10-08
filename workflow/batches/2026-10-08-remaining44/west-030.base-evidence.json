@@ -1,0 +1,331 @@
+{
+  "recipeId": "west-030",
+  "recipeName": "酪乳煎饼",
+  "category": "western",
+  "createdAt": "2026-10-08T12:14:40.069Z",
+  "sources": [
+    {
+      "sourceName": "BBC Good Food",
+      "sourceType": "website",
+      "url": "https://www.bbcgoodfood.com/recipes/buttermilk-pancakes-maple-apples-pecans",
+      "documentId": "7417b13e-b1bd-4ded-8dba-4675e86126cd",
+      "retrievalMethod": "ordinary HTTPS GET; complete accessible page JSON-LD and DOM independently inspected",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "eating apples such as Golden Delicious or Pink Lady",
+          "raw": "3 eating apples such as Golden Delicious or Pink Lady",
+          "amount": null
+        },
+        {
+          "name": "butter",
+          "raw": "25g butter",
+          "amount": null
+        },
+        {
+          "name": "pecan halves, halved lengthways",
+          "raw": "85g/3oz pecan halves, halved lengthways",
+          "amount": null
+        },
+        {
+          "name": "maple syrup",
+          "raw": "175ml maple syrup",
+          "amount": null
+        },
+        {
+          "name": "plain flour",
+          "raw": "100g plain flour",
+          "amount": null
+        },
+        {
+          "name": "baking powder",
+          "raw": "2 tsp baking powder",
+          "amount": null
+        },
+        {
+          "name": "bicarbonate of soda",
+          "raw": "½ tsp bicarbonate of soda",
+          "amount": null
+        },
+        {
+          "name": "golden caster sugar",
+          "raw": "1 tbsp golden caster sugar",
+          "amount": null
+        },
+        {
+          "name": "arge eggs separated",
+          "raw": "2 large eggs separated",
+          "amount": null
+        },
+        {
+          "name": "tub buttermilk",
+          "raw": "284ml tub buttermilk",
+          "amount": null
+        },
+        {
+          "name": "butter melted, plus extra",
+          "raw": "25g butter melted, plus extra",
+          "amount": null
+        },
+        {
+          "name": "salt",
+          "raw": "pinch salt for pancake batter (step2)",
+          "amount": null
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Make the topping. Peel, core and quarter the apples, then slice each quarter into four. Heat the butter in a large frying pan. Cook the apples until golden, but still firm. Stir in the pecans and maple syrup. Heat gently for 2-3 minutes. Remove from the heat and keep warm.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "For the pancakes, sift the flour, baking powder, bicarbonate of soda, sugar and a pinch of salt into a bowl. Whisk the egg whites until stiff. Mix together the egg yolks, buttermilk and melted butter and whisk into the flour mixture until the batter is thick and smooth. Carefully fold the egg whites into the batter until evenly mixed.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "Heat a large frying pan, preferably non-stick, and brush lightly with melted butter. Drop 2 or 3 large spoonfuls of batter into the pan to make pancakes about 10cm in diameter. When the surface has dulled slightly and bubbles appear, after about 3-4 minutes, carefully flip the pancakes over and cook on the other side until browned.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "To serve, place a spoonful of the apple mixture on a pancake, top with a second pancake and spoon over more of the topping. Repeat to make three more pancake stacks.",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [],
+      "tips": [],
+      "rawExcerpt": "{\n  \"@context\": \"https://schema.org\",\n  \"@id\": \"https://www.bbcgoodfood.com/recipes/buttermilk-pancakes-maple-apples-pecans#Recipe\",\n  \"@type\": \"Recipe\",\n  \"description\": \"Look no further than this buttermilk pancake recipe on Pancake Day. Serve these fluffy American-style buttermilk pancakes with an apple and pecan topping\",\n  \"image\": [\n    {\n      \"@type\": \"ImageObject\",\n      \"url\": \"https://images.immediate.co.uk/production/volatile/sites/30/2020/08/buttermilk-pancakes-25ae556.jpg?resize=400,400\",\n      \"width\": 400,\n      \"height\": 400\n    }\n  ],\n  \"mainEntityOfPage\": {\n    \"@type\": \"WebPage\",\n    \"@id\": \"https://www.bbcgoodfood.com/recipes/buttermilk-pancakes-maple-apples-pecans\"\n  },\n  \"name\": \"Buttermilk pancakes\",\n  \"url\": \"https://www.bbcgoodfood.com/recipes/buttermilk-pancakes-maple-apples-pecans\",\n  \"author\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Good Food team\",\n      \"url\": \"https://www.bbcgoodfood.com/author/goodfood\"\n    }\n  ],\n  \"dateModified\": \"2026-01-12T13:53:16+00:00\",\n  \"datePublished\": \"2008-01-30T08:37:58+00:00\",\n  \"headline\": \"Buttermilk pancakes\",\n  \"keywords\": \"Apple, Apples, Baking powder, Bicarbonate of soda, Buttermilk, Good Food, Maple syrup, Pancakes, Pecan, Pecans\",\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Good Food\",\n    \"url\": \"https://www.bbcgoodfood.com\",\n    \"logo\": {\n      \"@type\": \"ImageObject\",\n      \"height\": 325,\n      \"url\": \"https://images.immediate.co.uk/production/volatile/sites/30/2026/02/goodfood.logo-f37096c.png?resize=1312,325\",\n      \"width\": 1312\n    }\n  },\n  \"nutrition\": {\n    \"@type\": \"NutritionInformation\",\n    \"calories\": \"612 calories\",\n    \"fatContent\": \"34 grams fat\",\n    \"saturatedFatContent\": \"11 grams saturated fat\",\n    \"carbohydrateContent\": \"68 grams carbohydrates\",\n    \"sugarContent\": \"4 grams sugar\",\n    \"fiberContent\": \"3 grams fiber\",\n    \"proteinContent\": \"11 grams protein\",\n    \"sodiumContent\": \"1.8 milligram of sodium\"\n  },\n  \"recipeCategory\": \"Breakfast, Brunch, Treat\",\n  \"recipeCuisine\": \"American\",\n  \"recipeIngredient\": [\n    \"3 eating apples such as Golden Delicious or Pink Lady\",\n    \"25g butter\",\n    \"85g/3oz pecan halves, halved lengthways\",\n    \"175ml maple syrup\",\n    \"100g plain flour\",\n    \"2 tsp baking powder\",\n    \"½ tsp bicarbonate of soda\",\n    \"1 tbsp golden caster sugar\",\n    \"2 large eggs separated\",\n    \"284ml tub buttermilk\",\n    \"25g butter melted, plus extra\"\n  ],\n  \"recipeInstructions\": [\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Make the topping. Peel, core and quarter the apples, then slice each quarter into four. Heat the butter in a large frying pan. Cook the apples until golden, but still firm. Stir in the pecans and maple syrup. Heat gently for 2-3 minutes. Remove from the heat and keep warm.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"For the pancakes, sift the flour, baking powder, bicarbonate of soda, sugar and a pinch of salt into a bowl. Whisk the egg whites until stiff. Mix together the egg yolks, buttermilk and melted butter and whisk into the flour mixture until the batter is thick and smooth. Carefully fold the egg whites into the batter until evenly mixed.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Heat a large frying pan, preferably non-stick, and brush lightly with melted butter. Drop 2 or 3 large spoonfuls of batter into the pan to make pancakes about 10cm in diameter. When the surface has dulled slightly and bubbles appear, after about 3-4 minutes, carefully flip the pancakes over and cook on the other side until browned.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"To serve, place a spoonful of the apple mixture on a pancake, top with a second pancake and spoon over more of the topping. Repeat to make three more pancake stacks.\"\n    }\n  ],\n  \"recipeYield\": 4,\n  \"totalTime\": \"PT50M\"\n}",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 1,
+        "mappedStepImages": 0,
+        "stepImageCoverage": 0,
+        "ingredientCount": 12,
+        "executableStepCount": 4,
+        "notes": [
+          "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented."
+        ]
+      }
+    },
+    {
+      "sourceName": "Serious Eats",
+      "sourceType": "website",
+      "url": "https://www.seriouseats.com/light-and-fluffy-pancakes-recipe",
+      "documentId": "2be9e3f1-3a2a-45c1-996b-a495d7ebcc3f",
+      "retrievalMethod": "normal web.open full accessible page; merged overlapping line ranges; direct requests460 and browser402 retained as transport history",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "10 ounces (about 2 cups) all-purpose flour",
+          "raw": "10 ounces (about 2 cups) all-purpose flour",
+          "amount": null
+        },
+        {
+          "name": "1 teaspoon baking powder",
+          "raw": "1 teaspoon baking powder",
+          "amount": null
+        },
+        {
+          "name": "1/2 teaspoon baking soda",
+          "raw": "1/2 teaspoon baking soda",
+          "amount": null
+        },
+        {
+          "name": "1 teaspoon kosher salt",
+          "raw": "1 teaspoon kosher salt",
+          "amount": null
+        },
+        {
+          "name": "1 tablespoon sugar",
+          "raw": "1 tablespoon sugar",
+          "amount": null
+        },
+        {
+          "name": "2 large eggs, separated",
+          "raw": "2 large eggs, separated",
+          "amount": null
+        },
+        {
+          "name": "1 1/2 cups (about 12 ounces) buttermilk",
+          "raw": "1 1/2 cups (about 12 ounces) buttermilk",
+          "amount": null
+        },
+        {
+          "name": "1 cup (about 8 ounces) sour cream (see notes)",
+          "raw": "1 cup (about 8 ounces) sour cream (see notes)",
+          "amount": null
+        },
+        {
+          "name": "4 tablespoons unsalted butter, melted, plus more for serving",
+          "raw": "4 tablespoons unsalted butter, melted, plus more for serving",
+          "amount": null
+        },
+        {
+          "name": "Warm maple syrup",
+          "raw": "Warm maple syrup",
+          "amount": null
+        },
+        {
+          "name": "butter or oil",
+          "raw": "small amount of butter or oil to grease griddle (method step3)",
+          "amount": null
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "For the Dry Pancake Mix: Combine flour, baking powder, baking soda, salt, and sugar in a medium bowl and whisk until homogenous. Transfer to an airtight container. The mix will stay good for 3 months. (See note.)",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "For each Batch of Pancakes: Place one batch of dry mix in a large bowl. In a medium clean bowl, whisk the egg whites until stiff peaks form. In a large bowl, whisk the egg yolks, buttermilk, and sour cream until homogenous. Slowly drizzle in the melted butter while whisking. Carefully fold in the egg whites with a rubber spatula until just combined. Pour the mixture over the dry mix and fold until just combined (there should still be plenty of lumps).",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "Heat a large heavy-bottomed nonstick skillet over medium heat for 5 minutes (or use an electric griddle). Add a small amount of butter or oil to the griddle and spread with a paper towel until no visible butter or oil remains. Use a 1⁄4-cup dry measure to place 4 pancakes in the skillet and cook until bubbles start to appear on top and the bottoms are golden brown, about 2 minutes. Carefully flip the pancakes and cook on the second side until golden brown and completely set, about 2 minutes longer. Serve the pancakes immediately, or keep warm on a wire rack set on a rimmed baking sheet in a warm oven while you cook the remaining 3 batches. Serve with warm maple syrup and butter.",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [],
+      "tips": [
+        "Pancake dry mix can be scaled up as many times as you’d like. Each batch of pancakes takes 11 ounces of dry mix to make (about 2 cups plus 2 tablespoons). The sour cream can be replaced with more buttermilk."
+      ],
+      "rawExcerpt": "iframe†www.googletagmanager.com\n\nSerious Eats\n\nSave\n\nRate\n\n* Search [Input: What are you looking for?]\n\n* Newsletters\n* Sweepstakes\n* Serious Eats\n# Light and Fluffy Buttermilk Pancakes\n\n4.8\n\n(41)\n\n118 Reviews\n\nClassic buttery flavor and golden brown, crisp tops and bottoms, but with a lighter texture.\n\nBy\n\nJ. Kenji López-Alt\n\nImage: Kenji Lopez Alt Image: Kenji Lopez Alt\n\nJ. Kenji López-Alt\n\nKenji is the former culinary director for Serious Eats and a current culinary consultant for the site. He is also a New York Times food columnist and the author of The Food Lab: Better Home Cooking Through Science.\nSerious Eats' Editorial Guidelines\n\nUpdated on September 20, 2025\n\nImage†cdn.jwplayer.com Image†cdn.jwplayer.com\n\nHow to Make Light and Fluffy Buttermilk Pancakes\n\n1:18\n\nIn This Recipe\n\nView All\n\nIn This Article\n\n* The Science Behind the Best Buttermilk Pancakes\n\n* The Maillard Reaction and Pancakes\n\n* How Baking Powder Works\n\n* An Egg White Meringue Makes the Fluffiest Pancakes\n\n* What Gives Pancakes Flavor\n\n* How Double-Acting Baking Powder Works\n* Buttermilk and Its Substitute\n\n* Substituting Baking Soda for Baking Powder\n\nJump to recipe\n\n* Using baking soda effectively accelerates the Maillard reaction that provides golden color and flavor, and also adding double-acting baking powder ensures a consistent rise, creating light and airy pancakes.\n\n* Incorporating whipped egg whites infuses the batter with extra air, leading to pancakes with elevated lightness and superior fluffiness.\n* Adding sour cream enhances tanginess without disrupting the batter’s consistency, enriching the flavor and maintaining a tender crumb.\n\n* Immediately cooking the batter preserves the bubbles for maximum rise and optimum pancake texture.\nI’ve been asked many times whether the material in The Food Lab: Better Home Cooking Through Science is 100% new, or whether it’s just a collection of content from my existing articles. The answer is that it’s a mix. Roughly 75% of it is brand new material. Of the remaining 25%, at least another half is material that has been upgraded and tweaked since first being published on the site.\nImage: Plate of extra light and fluffy buttermilk pancakes topped with pat of butter and drizzled with maple syrup displayed against a grey speckled background Image: Plate of extra light and fluffy buttermilk pancakes topped with pat of butter and drizzled with maple syrup displayed against a grey speckled background\n\nSerious Eats / Mateja Zvirotic Andrijanic\nI am a firm believer that any job in which you stop learning is not a job worth keeping. It’s what’s driven me through every career choice I’ve made, and what has kept me at Serious Eats. Not a day goes by here in which I don’t learn something new about cooking, whether it’s debunking a long-held belief, coming up with a new technique, or developing my skills in the classics.\nOf course, there’s a corollary to this: The more you learn, the more you realize that your old work can do with some fine-tuning or upgrades. Longtime readers of The Food Lab may remember a pancake recipe I developed about five years ago. That recipe was good (good enough that it’s one of my few perfect five-star-rated recipes), but it wasn’t perfect.\nIn fact, it’s never gonna be perfect, but the more I learn, the better it’ll get, and in the process of revisiting that recipe for my book, I ended up making a few changes: modifying the ratio of ingredients a touch; adding a step to get even lighter, fluffier results; and landing on an altogether better recipe that leads to better pancakes.\n\nHere now, is the fully updated version as it appears in my book, along with plenty of science and an updated recipe.\n## The Science Behind the Best Buttermilk Pancakes\n\nThey may be golden brown, crisp on the edges, and light and fluffy in the center, but when you get right down to it, classic American pancakes are not all that different from any leavened bread.\nApart from its starch content, bread is basically just a ball of protein filled with gas. Very much like liquid, two proteins naturally present in wheat, glutenin and gliadin, link together to form the resilient, stretchy protein matrix known as gluten. In leavened breads, air bubbles are formed in this matrix and expand, creating the familiar hole structure inside a loaf of bread (or a good pizza crust, for that matter).\nWith traditional or “slow” breads, that leavening agent is a living fungus called yeast. As the yeast consumes sugars present in the flour, it releases carbon dioxide gas, forming thousands of teeny-tiny air pockets inside the dough and causing it to rise. Once you pop that dough into the oven, those air pockets heat up and further expand, and a phenomenon known as oven spring takes place.\nFinally, as the gluten and starches get hot enough, they set into a semisolid form, giving structure to the bread and turning it from wet and stretchy to dry and spongy.\nThe only problem with yeast? It takes a long, long time to work. Enter baking soda . Unrestricted by the protracted time frames of biological organisms, it relies instead on the quick chemical reaction between an acid and a base.\n\nImage: Closeup of whisk in bowl of thick pancake batter Image: Closeup of whisk in bowl of thick pancake batter\n\nSerious Eats / J. Kenji López-Alt\nBaking soda is pure sodium bicarbonate—an alkaline (a.k.a. basic) powder. When dissolved in liquid and combined with an acid, it rapidly reacts, breaking down into sodium, water, and carbon dioxide. Just as with yeasted breads, this carbon dioxide expands upon baking, leavening the gluten protein matrix. This type of chemically leavened bread is referred to as a quick bread, a broad category that includes everything from scones and biscuits to banana or zucchini bread and even pancakes.\nOf course, for baking soda to work , a recipe needs to include a significant acidic ingredient. That’s why you see so many classic recipes for buttermilk pancakes and buttermilk biscuits or cake recipes that contain vinegar. The buttermilk is not just a flavoring agent—it provides the necessary acid to react with the baking soda and leaven the bread.\nAround the middle of the 19th century, someone realized that rather than relying on the home cook to add an acidic ingredient to react with the baking soda, it’d be much simpler to add a powdered acid directly to the baking soda itself, and baking powder was born. Composed of baking soda, a powdered acid, and a starch (to absorb moisture and prevent the acid or base from reacting prematurely), baking powder was marketed as the all-in-one solution for busy housewives. In its dry state, it’s totally inert.\nBut once you add a liquid, the powdered acid and base dissolve and react with each other, creating bubbles of carbon dioxide, without the need for an external acid source.\nNeat, right? But hold on—there’s more.\n## Side Effects: The Maillard Reaction and Pancakes\nThe most interesting side effect of using baking soda in a recipe is that it affects browning in a major way. The Maillard reaction , named after Louise Camille Maillard, who first described its processes in the early 20th century, is the set of reactions responsible for that beautiful brown crust on your steak and the deep color of a good loaf of bread. Aside from cosmetics, the reaction also produces hundreds of aromatic compounds that add an inimitable savoriness and complexity to foods.\nAs it turns out, the reaction occurs better in alkaline environments, which means that once you’ve added enough baking soda to neutralize the acid in a batter or dough, any extra you add will work to increase browning. So I made five batches of pancakes using identical batters consisting of flour, baking powder, egg, buttermilk, melted butter, salt, and sugar and varying amounts of baking soda, starting with none and increasing it by one-eighth-teaspoon increments, up to a full half teaspoon per batch.\nEach pancake was cooked on a preheated griddle for exactly one and a half minutes per side. The results very clearly demonstrate the browning effect of baking soda.\nImage: A black plate with five overlapping pancakes of varying shades of brown Image: A black plate with five overlapping pancakes of varying shades of brown\n\nSerious Eats / J. Kenji López-Alt\nThe pancake all the way on the left is inordinately acidic, due to the unneutralized buttermilk. It cooked up pale and bland. It was also underrisen, with a flat, dense texture. The one all the way around on the bottom, with a full half teaspoon of baking soda in the batter, had the opposite problem. It browned far too quickly, lending it an acrid burnt flavor tinged with the soapy chemical aftertaste of unneutralized baking soda.\nInterestingly enough, this pancake was also flat and dense—the large amount of baking soda reacted too violently when mixed into the batter. The carbon dioxide bubbles inflated too rapidly and, like an overfilled balloon, the pancake “popped,” becoming dense and flaccid as it cooked.\nThis browning phenomenon isn’t just limited to pancakes, of course. For example, cookie recipes routinely include baking soda to aid browning, even when there isn’t an acid for it to react with.\n## Double Bubble: How Baking Powder Works\n\nImage: Closeup of pancake batter forming small air bubbles as it cooks Image: Closeup of pancake batter forming small air bubbles as it cooks\n\nSerious Eats / J. Kenji López-Alt\nIf there’s one major drawback with chemically leavened breads, it’s that they need to be cooked pretty much immediately after the batter is mixed. Unlike a yeasted bread dough, which is low in moisture and kneaded until a tough, elastic gluten network forms to trap the massive amounts of carbon dioxide produced, a quick bread must be made with an extremely moist batter—baking powder simply doesn’t produce enough gas to effectively leaven a thicker dough.\nBatters have relatively little gluten formation, meaning that they aren’t all that great at trapping and holding bubbles. Once you mix a batter, your baking soda or baking powder immediately begins producing gas, and that gas almost immediately begins trying to escape into the air. When working with quick breads, those who aren’t into the whole brevity thing may run into difficulties.\nCook your pancakes immediately after mixing, and you get a light, tall, fluffy interior. Let the batter sit for half an hour, and you get a dense, gummy interior with few bubbles. But wait a minute, there are still some bubbles in there, right? Where did those come from?\n\nImage: A closeup cross-section of a fluffy cooked pancake Image: A closeup cross-section of a fluffy cooked pancake\n\nSerious Eats / J. Kenji López-Alt\nWell, pretty much all baking powders are referred to as “double-acting.” Just as the name indicates, it produces gas in two distinct phases. The first occurs as soon as you mix it with water; the second occurs only when it is heated. This second rise in the skillet makes for extra-light and fluffy pancakes.\n## An Egg White Meringue Makes the Fluffiest Pancakes\n\nSo what if baking soda just isn’t doing enough for you? How do you get your pancakes to stand even taller and lighter? I like to use a meringue—egg whites that have been whipped vigorously until they form a semisolid foam. Here’s how it works:\n* Foam: In the early phases of beating, the proteins in the egg whites—mostly globulin and ovotransferrin—begin to unfold. Like nerds at a Star Wars convention, they tend to gather together and bond in small groups. The whites start to incorporate a few bubbles and resemble sea foam.\n* Soft peaks: As the whites are beaten, the groups of bonded egg proteins become more and more interconnected, eventually creating a continuous network of proteins that reinforce the walls of the bubbles you’re creating. The whites begin to form soft peaks.\n* Stiff peaks: As you continue to beat, the reinforced bubbles are broken into smaller and smaller bubbles, becoming so small that they are nearly invisible to the naked eye and thus the whites appear smooth and white, like shaving cream. When pulled into peaks, they remain stiff and solid.\n* Breaking down and weeping: Keep going past the stiff-peak stage, and the proteins begin to bond so tightly with each other that they squeeze the moisture right out of the bubbles, resulting in a meringue that weeps and breaks. Acidic ingredients like cream of tartar or a touch of lemon juice can prevent egg white proteins from bonding too tightly, allowing you to form a foam that stays stable no matter how hard you beat it.\nAdd sugar and vanilla to the whites at the soft-peak stage, whip to stiff peaks, drop by the spoonful onto baking sheets, and bake at a low temperature, and you’ve got yourself classic meringue cookies. If you instead drizzle in a cooked sugar syrup toward the end of whipping, you’ll end up with what’s called an Italian meringue, a meringue that stays soft and supple even when browned—the kind of thing you’d want to top a lemon meringue pie with.\nImage: Closeup cross-section of fluffy pancake with a golden brown top Image: Closeup cross-section of fluffy pancake with a golden brown top\n\nSerious Eats / J. Kenji López-Alt\n\nHere the use for meringue is much more simple: all you’re going to do is fold it into the pancake batter. The extra air that the egg whites have incorporated expands as the pancakes cook, making them featherlight.\nImage: Closeup cross-section of dense pancake with a golden brown top Image: Closeup cross-section of dense pancake with a golden brown top\n\nSerious Eats / J. Kenji López-Alt\n## What Gives Pancakes Flavor\n\nImage: Golden brown buttermilk pancakes in a skillet Image: Golden brown buttermilk pancakes in a skillet\n\nSerious Eats / J. Kenji López-Alt\nAs far as flavoring buttermilk pancakes goes, there are a few givens: Dairy fat, in the form of melted butter or milk, is essential. Not only does it add richness and flavor to the mix, but by coating the flour and limiting gluten development, it also ensures that your pancakes remain tender. Eggs help set the pancakes as they cook, as well as provide some extra lift. Buttermilk is obviously part of the equation, but I like my pancakes extra-tangy, and straight-up buttermilk just doesn’t cut it for me.\nIncreasing the quantity doesn’t work—that just ends up throwing the liquid-to-solid ratio out of whack. Instead, I replace part of the buttermilk with a good amount of sour cream. It’s both less moist than buttermilk and more sour, which allows me to add acidity without watering down the batter. If you don’t have sour cream on hand, don’t worry—the pancakes will still taste just fine with straight-up buttermilk.\n## Double-Acting Baking Powder: How Does It Work (And Is Yours Fresh?)\n\nDouble-acting baking powder (the type sold in any supermarket) is designed to produce bubbles in two distinct phases: when it gets wet and then when it gets heated. You can see this for yourself.\n\nMaterials:\n\n* 1 teaspoon baking powder\n* 1 tablespoon water\n\nProcedure:\n1. Combine the baking powder and water in a small bowl. You’ll notice that the baking powder immediately starts bubbling and fizzing (if it doesn’t, throw out your baking powder and buy a new can). This is the first reaction. After 30 seconds or so, all action will cease, and you’ll end up with a still pool of chalky-looking liquid.\n2. Now microwave that liquid for about 15 seconds to bring it up to 180°F (82°C). A second, vigorous batch of bubbling should occur. You may also notice the liquid thicken slightly.\nResults and Analysis:\nWhen the baking powder first gets wet, a reaction occurs between the sodium bicarbonate and one of the powdered acids, typically potassium bitartrate (a.k.a. cream of tartar), producing the first batch of bubbles. The second phase of the double act occurs only at higher temperatures (around 170°–180°F), when a second powdered acid (typically sodium aluminum sulfate) reacts with the remaining sodium bicarbonate, producing another round of bubbles.\nThe thickening action is a side effect of the starch used to keep the baking powder dry—it absorbs water and gelatinizes, thickening your liquid as it heats. Now isn’t that way cooler than that baking soda volcano you built for your fourth-grade science fair?\n## What Is Buttermilk and What’s the Best Substitute?\nTrue buttermilk is the liquid whey left after cream has been churned to create butter. Traditionally this whey was allowed to ferment into a slightly thickened, sour liquid that would keep longer than fresh milk.\nThese days, though, buttermilk is made from regular milk by dosing it with Streptococcus lactis, a bacterium that consumes lactose, the main sugar in milk, and produces lactic acid, which adds tartness to the buttermilk, as well as causes casein, the primary protein in milk, to curdle, thickening, or clabbering, the milk.\nIn some recipes, it’s possible to substitute artificially clabbered milk—milk to which an acid like vinegar or lemon juice has been added to thicken it—for buttermilk, but you’ll always be left with a telltale flavor from the added acid. Much better is to substitute another soured dairy product. When I have no buttermilk on hand, I’ll use yogurt, sour cream, or even crème fraîche diluted with milk.\nDairy Produced   | To Substitute for 1 Cup of Buttermilk\nYogurt (full-fat or skim)  | 2/3 cup yogurt whisked together with 1/3 cup milk\nSour Cream  | 1/2 cup sour cream whisked together with 1/2 cup milk\nCrème Fraîche  | 1/2 cup crème fraîche whisked together with 1/2 cup milk\n## Substituting Baking Soda for Baking Powder\nBaking soda is sodium bicarbonate. It reacts with liquid acids immediately upon contact to produce carbon dioxide. Carbon dioxide gets trapped within batters and expands upon baking, leavening your pancakes and other quick breads. Because baking soda reacts immediately, quick breads made with it must be baked or cooked right after mixing. And because of its alkalinity, baking soda can also hasten browning reactions, adding color (and thus flavor) to things like pancakes, cookies, and muffins.\nBaking powder is sodium bicarbonate mixed with one or more of the powdered acids and a starch. It does not require another acid to activate it. As mentioned earlier, most baking powders are “double-acting,” meaning they produce carbon dioxide once upon coming in contact with moisture and then again when heated. Because of this, baking powder-leavened goods are generally lighter and fluffier than those made with baking soda alone.\nThis doesn’t mean, however, that you can let a baking powder batter just sit around, expecting the second batch of bubbles to do all the leavening—the initial reaction is vitally important to the texture of your baked goods, and so these batters should be baked right away too.\nDon’t have baking powder on hand? It’s quite simple to substitute with your own homemade mixture of baking soda, cornstarch, and cream of tartar. For every teaspoon of baking powder, use a quarter teaspoon of baking soda, half a teaspoon of cream of tartar, and a quarter teaspoon of cornstarch. But do bear in mind that your homemade mixture will not be double-acting, requiring you to be extra quick about getting your pancakes onto the griddle or your zucchini bread in the oven after mixing the batter.\n### June 21, 2010\n\nPrep Time:\n\n15 mins\n\nCook Time:\n\n20 mins\n\nTotal Time:\n\n35 mins\n\nServings:\n\n4 to 6 servings\n\nYield:\n\n16 pancakes\n\n[Button: Jump to Nutrition Facts]\n\nKeep Screen Awake\n## Ingredients\n\nBasic Dry Pancake Mix:\n\n* 10 ounces (about 2 cups) all-purpose flour\n\n* 1 teaspoon baking powder\n\n* 1/2 teaspoon baking soda\n\n* 1 teaspoon kosher salt\n\n* 1 tablespoon sugar\n\nFor Each Batch of Pancakes\n\n* 2 large eggs, separated\n\n* 1 1/2 cups (about 12 ounces) buttermilk\n\n* 1 cup (about 8 ounces) sour cream (see notes)\n\n* 4 tablespoons unsalted butter, melted, plus more for serving\n\n* Warm maple syrup\n## Directions\n\n1. For the Dry Pancake Mix: Combine flour, baking powder, baking soda, salt, and sugar in a medium bowl and whisk until homogenous. Transfer to an airtight container. The mix will stay good for 3 months. (See note.)\n\nImage: The dry pancake ingredients mixed together in a ceramic bowl with whisk Image: The dry pancake ingredients mixed together in a ceramic bowl with whisk\n\nSerious Eats / Mateja Zvirotic Andrijanic\n2. For each Batch of Pancakes: Place one batch of dry mix in a large bowl. In a medium clean bowl, whisk the egg whites until stiff peaks form. In a large bowl, whisk the egg yolks, buttermilk, and sour cream until homogenous. Slowly drizzle in the melted butter while whisking. Carefully fold in the egg whites with a rubber spatula until just combined. Pour the mixture over the dry mix and fold until just combined (there should still be plenty of lumps).\nImage: Collage showing whipped egg whites, the wet ingredients, the egg whites after they're folded into the mixture, and then the lumpy batter Image: Collage showing whipped egg whites, the wet ingredients, the egg whites after they're folded into the mixture, and then the lumpy batter\n\nSerious Eats / Mateja Zvirotic Andrijanic\n3. Heat a large heavy-bottomed nonstick skillet over medium heat for 5 minutes (or use an electric griddle). Add a small amount of butter or oil to the griddle and spread with a paper towel until no visible butter or oil remains. Use a 1⁄4-cup dry measure to place 4 pancakes in the skillet and cook until bubbles start to appear on top and the bottoms are golden brown, about 2 minutes. Carefully flip the pancakes and cook on the second side until golden brown and completely set, about 2 minutes longer.\nServe the pancakes immediately, or keep warm on a wire rack set on a rimmed baking sheet in a warm oven while you cook the remaining 3 batches. Serve with warm maple syrup and butter.\nImage: Collage showing stages of pancakes being cooked in a pan, then cooked pancakes in a tall stack topped with butter and drizzled with maple syrup Image: Collage showing stages of pancakes being cooked in a pan, then cooked pancakes in a tall stack topped with butter and drizzled with maple syrup\n\nSerious Eats / Mateja Zvirotic Andrijanic\n## Notes\n\nPancake dry mix can be scaled up as many times as you’d like. Each batch of pancakes takes 11 ounces of dry mix to make (about 2 cups plus 2 tablespoons). The sour cream can be replaced with more buttermilk.\n\n## Read More\n\n* Oatmeal and Brown Butter Pancakes\n* Fluffy Vegan Oatmeal Pancakes Recipe (With Aquafaba)\n* Easy Homemade Pancake Mix\n\nSave\n\nRate\n\nPrint [Input]\n## Nutrition Facts (per serving)\n\n407  | Calories\n18g  | Fat\n52g  | Carbs\n10g  | Protein\n\nShow Full Nutrition Label Hide Full Nutrition Label\n\nNutrition Facts\n---\nServings Per Recipe 4 to 6\n---\nCalories 407\n---\n% Daily Value *\nTotal Carbohydrate 52g  | 19%\nDietary Fiber 1g  | 5%\nTotal Sugars 15g\nProtein 10g  | 20%\nTotal Fat 18g  | 23%\nSaturated Fat 10g  | 48%\nCholesterol 107mg  | 36%\nVitamin C 1mg  | 1%\nSodium 551mg  | 24%\nCalcium 187mg  | 14%\nIron 3mg  | 15%\nPotassium 245mg  | 5%\n* Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs.\n\nLoading shell for RecipesUgcThreaded1 Vue component in Globe.\n## Related Articles\n\nOatmeal and Brown Butter Pancakes Recipe 45 mins Baking With Dorie: Pumpkin-Pie Pancakes Recipe 25 mins Buttermilk Vanilla Waffles Recipe 30 mins Vegan Pancakes Made With Aquafaba Recipe 45 mins Light and Thin Pancakes From Homemade Pancake Mix Recipe 30 mins Thick and Fluffy Pancakes From Homemade Pancake Mix Recipe 10 mins Savory Bacon-Cheddar Pancakes With Corn and Jalapeño Recipe 45 mins Super-Simple Tangy Buttermilk Coleslaw Recipe 35 mins\nNew England-Style Ice Cream Recipe 10 hrs 45 mins Blackberry Ice Cream 9 hrs 15 mins Bold and Bracing Coffee Ice Cream Recipe 8 hrs 40 mins Sweet Potato Pancakes Made With Leftover Mashed Sweet Potatoes Recipe 15 mins No-Churn Vanilla Ice Cream Pie 8 hrs 30 mins Extra-Crispy Fried Chicken With Caramelized Honey and Spice Recipe 14 mins Upgraded Grasshopper Ice Cream Pie 8 hrs 10 mins Buttermilk Ice Cream Recipe 5 hrs 45 mins\n\nNewsletter Sign Up\n\nNewsletter Sign Up",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 0,
+        "mappedStepImages": 0,
+        "stepImageCoverage": 0,
+        "ingredientCount": 11,
+        "executableStepCount": 3,
+        "notes": [
+          "Page images and step adjacencies visible in web.open; original binary URLs not returned by failed web.click. No verified downloadable media available, no invented image mappings.",
+          "Source quantities with mixed units retained verbatim; no vessel capacity inferred."
+        ]
+      }
+    }
+  ],
+  "sourceMode": "multi_source",
+  "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/buttermilk-pancakes-maple-apples-pecans",
+  "selectionReason": "Selected exactly one whole BBC recipe: full coherent ingredients/method match the target; verified usable hero (no source step photos available). Other sources have no verified usable media URLs under ordinary access. Under the required completeness/coherence then usable-image/coverage ranking, this source leads; its ingredients, operations, tips and media are kept together without supplementation.",
+  "ragEvidence": [
+    {
+      "chunkId": "95f1f554-181c-420f-b19e-c6be2e7ca006",
+      "documentId": "7417b13e-b1bd-4ded-8dba-4675e86126cd",
+      "sourceName": "BBC Good Food",
+      "chunkType": "technique",
+      "content": "菜名：酪乳煎饼\n- 原文未明确说明技法。",
+      "similarity": 0.68566200904107
+    },
+    {
+      "chunkId": "4510df36-0537-4ff2-b9fd-98b7b95c915b",
+      "documentId": "7417b13e-b1bd-4ded-8dba-4675e86126cd",
+      "sourceName": "BBC Good Food",
+      "chunkType": "tips",
+      "content": "菜名：酪乳煎饼\n- 原文未提供额外提示。",
+      "similarity": 0.68313296537799
+    },
+    {
+      "chunkId": "48757062-1b8a-4fc4-a39d-f02ebf12d7c2",
+      "documentId": "7417b13e-b1bd-4ded-8dba-4675e86126cd",
+      "sourceName": "BBC Good Food",
+      "chunkType": "summary",
+      "content": "菜名：酪乳煎饼\n别名：Buttermilk pancakes\n菜系：American\n简介：Look no further than this buttermilk pancake recipe on Pancake Day. Serve these fluffy American-style buttermilk pancakes with an apple and pecan topping",
+      "similarity": 0.6523775665535
+    },
+    {
+      "chunkId": "65be20bd-4161-4bb1-bee3-2c7727350046",
+      "documentId": "7417b13e-b1bd-4ded-8dba-4675e86126cd",
+      "sourceName": "BBC Good Food",
+      "chunkType": "ingredients",
+      "content": "菜名：酪乳煎饼\n- 3 eating apples such as Golden Delicious or Pink Lady\n- 25g butter\n- 85g/3oz pecan halves, halved lengthways\n- 175ml maple syrup\n- 100g plain flour\n- 2 tsp baking powder\n- ½ tsp bicarbonate of soda\n- 1 tbsp golden caster sugar\n- 2 large eggs separated\n- 284ml tub buttermilk\n- 25g butter melted, plus extra\n- pinch salt for pancake batter (step2)",
+      "similarity": 0.625376127637857
+    },
+    {
+      "chunkId": "3031c0d4-d62b-4e52-9953-fe3f458d35d4",
+      "documentId": "7417b13e-b1bd-4ded-8dba-4675e86126cd",
+      "sourceName": "BBC Good Food",
+      "chunkType": "steps",
+      "content": "菜名：酪乳煎饼\n1. Make the topping. Peel, core and quarter the apples, then slice each quarter into four. Heat the butter in a large frying pan. Cook the apples until golden, but still firm. Stir in the pecans and maple syrup. Heat gently for 2-3 minutes. Remove from the heat and keep warm.\n2. For the pancakes, sift the flour, baking powder, bicarbonate of soda, sugar and a pinch of salt into a bowl. Whisk the egg whites until stiff. Mix together the egg yolks, buttermilk and melted butter and whisk into the flour mixture until the batter is thick and smooth. Carefully fold the egg whites into the batter until evenly mixed.\n3. Heat a large frying pan, preferably non-stick, and brush lightly with melted butter. Drop 2 or 3 large spoonfuls of batter into the pan to make pancakes about 10cm in diameter. When the surface has dulled slightly and bubbles appear, after about 3-4 minutes, carefully flip the pancakes over and cook on the other side until browned.\n4. To serve, place a spoonful of the apple mixture on a pancake, top with a second pancake and spoon over more of the topping. Repeat to make three more pancake stacks.",
+      "similarity": 0.615610081422636
+    },
+    {
+      "chunkId": "988a6b60-040b-4549-97cd-d931a220230a",
+      "documentId": "2be9e3f1-3a2a-45c1-996b-a495d7ebcc3f",
+      "sourceName": "Serious Eats",
+      "chunkType": "summary",
+      "content": "菜名：酪乳煎饼\n别名：Light and Fluffy Buttermilk Pancakes\n简介：Light and Fluffy Buttermilk Pancakes",
+      "similarity": 0.713118787427065
+    },
+    {
+      "chunkId": "b6fe4c74-0e8d-46a7-a9d4-51da245ecfaa",
+      "documentId": "2be9e3f1-3a2a-45c1-996b-a495d7ebcc3f",
+      "sourceName": "Serious Eats",
+      "chunkType": "technique",
+      "content": "菜名：酪乳煎饼\n- 原文未明确说明技法。",
+      "similarity": 0.685402216202219
+    },
+    {
+      "chunkId": "2e066f38-eae3-41ec-8bd8-c7dea607ecf5",
+      "documentId": "2be9e3f1-3a2a-45c1-996b-a495d7ebcc3f",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：酪乳煎饼\n3. Heat a large heavy-bottomed nonstick skillet over medium heat for 5 minutes (or use an electric griddle). Add a small amount of butter or oil to the griddle and spread with a paper towel until no visible butter or oil remains. Use a 1⁄4-cup dry measure to place 4 pancakes in the skillet and cook until bubbles start to appear on top and the bottoms are golden brown, about 2 minutes. Carefully flip the pancakes and cook on the second side until golden brown and completely set, about 2 minutes longer. Serve the pancakes immediately, or keep warm on a wire rack set on a rimmed baking sheet in a warm oven while you cook the remaining 3 batches. Serve with warm maple syrup and butter.",
+      "similarity": 0.684541446647266
+    },
+    {
+      "chunkId": "0dccf38b-9c4a-4c6a-9cda-2af265811d0c",
+      "documentId": "2be9e3f1-3a2a-45c1-996b-a495d7ebcc3f",
+      "sourceName": "Serious Eats",
+      "chunkType": "ingredients",
+      "content": "菜名：酪乳煎饼\n- 10 ounces (about 2 cups) all-purpose flour\n- 1 teaspoon baking powder\n- 1/2 teaspoon baking soda\n- 1 teaspoon kosher salt\n- 1 tablespoon sugar\n- 2 large eggs, separated\n- 1 1/2 cups (about 12 ounces) buttermilk\n- 1 cup (about 8 ounces) sour cream (see notes)\n- 4 tablespoons unsalted butter, melted, plus more for serving\n- Warm maple syrup\n- small amount of butter or oil to grease griddle (method step3)",
+      "similarity": 0.679150263096387
+    },
+    {
+      "chunkId": "ff50bda5-2090-45eb-b8c4-d8277a89acb6",
+      "documentId": "2be9e3f1-3a2a-45c1-996b-a495d7ebcc3f",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：酪乳煎饼\n1. For the Dry Pancake Mix: Combine flour, baking powder, baking soda, salt, and sugar in a medium bowl and whisk until homogenous. Transfer to an airtight container. The mix will stay good for 3 months. (See note.)\n2. For each Batch of Pancakes: Place one batch of dry mix in a large bowl. In a medium clean bowl, whisk the egg whites until stiff peaks form. In a large bowl, whisk the egg yolks, buttermilk, and sour cream until homogenous. Slowly drizzle in the melted butter while whisking. Carefully fold in the egg whites with a rubber spatula until just combined. Pour the mixture over the dry mix and fold until just combined (there should still be plenty of lumps).",
+      "similarity": 0.666461368395727
+    },
+    {
+      "chunkId": "f8c93f2c-6bf0-410f-b05f-db268c9b6357",
+      "documentId": "2be9e3f1-3a2a-45c1-996b-a495d7ebcc3f",
+      "sourceName": "Serious Eats",
+      "chunkType": "tips",
+      "content": "菜名：酪乳煎饼\n- Pancake dry mix can be scaled up as many times as you’d like. Each batch of pancakes takes 11 ounces of dry mix to make (about 2 cups plus 2 tablespoons). The sour cream can be replaced with more buttermilk.",
+      "similarity": 0.663732945656742
+    }
+  ],
+  "notes": [
+    "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented.",
+    "BBC source original yield: 4",
+    "BBC original totalTime: PT50M",
+    "BBC original cookTime: unspecified",
+    "BBC original prepTime: unspecified",
+    "Alternative attempts: [{\"url\":\"https://www.bbcgoodfood.com/recipes/buttermilk-pancakes-maple-apples-pecans\",\"status\":200,\"bytes\":532749}]",
+    "Current book inventory and22target audit: west-kb-audit.json. Invalid/superseded/rejected history excluded.",
+    "Serious Eats direct Python460/normalPowerShell402/normalChrome402; normalweb.open successfully retrieved the complete recipes included here. All successful complete matching sources ingested separately before selection; no access-control bypass.",
+    "Alternative enabled-site searches and complete observed source text are archived in west-alternative-search.json and west-se-*.txt.",
+    "Selected source has no verified cooking-stage photos; do not fabricate or relabel a finished-dish photo. Parent must resolve manual-run image exception before publishing."
+  ]
+}

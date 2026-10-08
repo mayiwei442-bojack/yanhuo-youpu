@@ -1,0 +1,327 @@
+{
+  "canonical": {
+    "id": "cn-031",
+    "category": "chinese",
+    "index": 30,
+    "record": {
+      "name": "家常豆腐",
+      "en": "Home-style Tofu",
+      "region": "川菜",
+      "ingredients": "食用油2汤匙（分两次使用）；硬豆腐约454克（原文1磅，擦干后纵向切成两半，再切约0.6厘米厚片）；大蒜2瓣，拍碎切末；红辣椒1个，去籽切薄片；葱3根，切约2.5厘米段，葱白与葱绿分开；猪肉末约113克（原文4盎司，或用等量鸡肉末）；生抽2汤匙；蚝油2茶匙（或素蚝油）；绍兴酒1茶匙；白糖1/4茶匙；清水1/4杯；盐适量",
+      "steps": "1）用厨房纸或干净的厨房布将硬豆腐擦干，纵向切成两半，再切约0.6厘米厚片。大蒜拍碎切末，红辣椒去籽切薄片，葱切约2.5厘米段，将葱白与葱绿分开放好。2）平底铸铁锅置中高火，预热至轻微冒烟；若用不粘锅，只需加热至锅热，不要将不粘锅烧至冒烟。3）加入1汤匙食用油，倾斜锅身，让油均匀覆盖锅底。放入豆腐片，调至中火煎第一面约3—5分钟，至金黄色。4）将豆腐翻面，另一面也煎约3—5分钟至金黄色；两面煎好后关火，将豆腐放在一旁备用。5）炒锅中加入剩余1汤匙食用油，以中火加热；放入蒜末、红辣椒片和葱白，炒约1分钟。6）加入约113克猪肉末或鸡肉末，翻炒约1分钟，至肉末熟透。7）加入2汤匙生抽、2茶匙蚝油或素蚝油、1茶匙绍兴酒、1/4茶匙白糖和1/4杯清水，搅匀并煮至沸腾。8）最后加入煎好的豆腐和葱绿，提高火力，快速将全部食材翻炒均匀；按口味加适量盐，出锅食用。",
+      "img": "41-jiachang-doufu.png",
+      "source": "https://thewoksoflife.com/home-style-tofu-stir-fry/",
+      "media": {
+        "sourceName": "The Woks of Life",
+        "recipePageUrl": "https://thewoksoflife.com/home-style-tofu-stir-fry/",
+        "mediaPageUrl": "https://thewoksoflife.com/home-style-tofu-stir-fry/",
+        "author": "Judy",
+        "rightsNotice": "All Rights Reserved © The Woks of Life",
+        "reuseLicense": null,
+        "repositoryCopyAuthorization": "user_confirmed_2026-10-08_remaining44",
+        "hero": {
+          "path": "assets/dishes/sources/cn-031-woks/hero.jpg",
+          "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/homestyle-tofu-10.jpg",
+          "sha256": "6f8dd5a197914784660f59d10ac61e364cbc7c54502ddfca82ec65c380515bfe",
+          "httpStatus": 200,
+          "contentType": "image/webp"
+        },
+        "steps": [
+          {
+            "stepOrder": 1,
+            "sourceStepOrder": 1,
+            "path": "assets/dishes/sources/cn-031-woks/step-1-1.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/homestyle-tofu-2.jpg",
+            "sha256": "950c3ad8d67da411a6776e4ad44dd4de38af0129cdc4197c81ece0f8ba0a7c7e",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          },
+          {
+            "stepOrder": 3,
+            "sourceStepOrder": 1,
+            "path": "assets/dishes/sources/cn-031-woks/step-1-2.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/homestyle-tofu-3.jpg",
+            "sha256": "45e84c49b78da01dd90020b458bd2f41735301264c130c1d557255abe3222dbb",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          },
+          {
+            "stepOrder": 4,
+            "sourceStepOrder": 1,
+            "path": "assets/dishes/sources/cn-031-woks/step-1-3.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/homestyle-tofu-4.jpg",
+            "sha256": "9c3cfe8329dd5bc6cb088cecbffb3aee783f9df07ac52dcf4f1ca750b0ffa6e3",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          },
+          {
+            "stepOrder": 5,
+            "sourceStepOrder": 2,
+            "path": "assets/dishes/sources/cn-031-woks/step-2-4.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/homestyle-tofu-5.jpg",
+            "sha256": "e98f4fd7a7cac3a787ae150211d8c4018144a7a17ffd3ab9489c1f79ab69a729",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          },
+          {
+            "stepOrder": 6,
+            "sourceStepOrder": 2,
+            "path": "assets/dishes/sources/cn-031-woks/step-2-5.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/homestyle-tofu-6.jpg",
+            "sha256": "ddee6f6a675a441eede315c75186043996b24087a465dce1b671fa95501753e3",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          },
+          {
+            "stepOrder": 7,
+            "sourceStepOrder": 3,
+            "path": "assets/dishes/sources/cn-031-woks/step-3-6.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/homestyle-tofu-7.jpg",
+            "sha256": "4d0f05eedeb44663a536075b8550112be604d72a7c62f4f87f75d62ffd4b499f",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          },
+          {
+            "stepOrder": 8,
+            "sourceStepOrder": 3,
+            "path": "assets/dishes/sources/cn-031-woks/step-3-7.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/homestyle-tofu-8.jpg",
+            "sha256": "e228eb7cd9fc9ee272447ddbbe86f1ce5fcd2785ab31ad2d6908fc6472bc2595",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          }
+        ]
+      },
+      "timing": {
+        "totalMinutes": 30,
+        "prepMinutes": 15,
+        "cookMinutes": 15,
+        "stepDurations": [
+          null,
+          null,
+          null,
+          null,
+          60,
+          60,
+          null,
+          null
+        ]
+      },
+      "servings": 4,
+      "sourceLimitations": [
+        "原文未规定杯、汤匙和茶匙的容量，保留原单位，不换算毫升；煎豆腐每面3—5分钟为范围，不生成固定倒计时。"
+      ]
+    }
+  },
+  "generated": {
+    "id": "cn-031",
+    "name": "家常豆腐",
+    "en": "Home-style Tofu",
+    "cuisine": "川菜",
+    "category": "中餐",
+    "isHeritageFlavor": false,
+    "heritageStatus": null,
+    "ingredients": [
+      {
+        "id": "ingredient-01",
+        "name": "食用油",
+        "label": "食用油2汤匙（分两次使用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-02",
+        "name": "硬豆腐",
+        "label": "硬豆腐约454克（原文1磅，擦干后纵向切成两半，再切约0.6厘米厚片）",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-03",
+        "name": "大蒜",
+        "label": "大蒜2瓣，拍碎切末",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-04",
+        "name": "红辣椒",
+        "label": "红辣椒1个，去籽切薄片",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-05",
+        "name": "葱",
+        "label": "葱3根，切约2.5厘米段，葱白与葱绿分开",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-06",
+        "name": "猪肉末",
+        "label": "猪肉末约113克（原文4盎司，或用等量鸡肉末）",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-07",
+        "name": "生抽",
+        "label": "生抽2汤匙",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-08",
+        "name": "蚝油",
+        "label": "蚝油2茶匙（或素蚝油）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-09",
+        "name": "绍兴酒",
+        "label": "绍兴酒1茶匙",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-10",
+        "name": "白糖",
+        "label": "白糖1/4茶匙",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-11",
+        "name": "清水",
+        "label": "清水1/4杯",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-12",
+        "name": "盐",
+        "label": "盐适量",
+        "isCore": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-01",
+        "instruction": "用厨房纸或干净的厨房布将硬豆腐擦干，纵向切成两半，再切约0.6厘米厚片。大蒜拍碎切末，红辣椒去籽切薄片，葱切约2.5厘米段，将葱白与葱绿分开放好。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-031-woks/step-1-1.jpg",
+        "imageSource": "https://thewoksoflife.com/home-style-tofu-stir-fry/"
+      },
+      {
+        "id": "step-02",
+        "instruction": "平底铸铁锅置中高火，预热至轻微冒烟；若用不粘锅，只需加热至锅热，不要将不粘锅烧至冒烟。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-03",
+        "instruction": "加入1汤匙食用油，倾斜锅身，让油均匀覆盖锅底。放入豆腐片，调至中火煎第一面约3—5分钟，至金黄色。",
+        "duration": null,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-031-woks/step-1-2.jpg",
+        "imageSource": "https://thewoksoflife.com/home-style-tofu-stir-fry/"
+      },
+      {
+        "id": "step-04",
+        "instruction": "将豆腐翻面，另一面也煎约3—5分钟至金黄色；两面煎好后关火，将豆腐放在一旁备用。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-031-woks/step-1-3.jpg",
+        "imageSource": "https://thewoksoflife.com/home-style-tofu-stir-fry/"
+      },
+      {
+        "id": "step-05",
+        "instruction": "炒锅中加入剩余1汤匙食用油，以中火加热；放入蒜末、红辣椒片和葱白，炒约1分钟。",
+        "duration": 60,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-031-woks/step-2-4.jpg",
+        "imageSource": "https://thewoksoflife.com/home-style-tofu-stir-fry/"
+      },
+      {
+        "id": "step-06",
+        "instruction": "加入约113克猪肉末或鸡肉末，翻炒约1分钟，至肉末熟透。",
+        "duration": 60,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-031-woks/step-2-5.jpg",
+        "imageSource": "https://thewoksoflife.com/home-style-tofu-stir-fry/"
+      },
+      {
+        "id": "step-07",
+        "instruction": "加入2汤匙生抽、2茶匙蚝油或素蚝油、1茶匙绍兴酒、1/4茶匙白糖和1/4杯清水，搅匀并煮至沸腾。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-031-woks/step-3-6.jpg",
+        "imageSource": "https://thewoksoflife.com/home-style-tofu-stir-fry/"
+      },
+      {
+        "id": "step-08",
+        "instruction": "最后加入煎好的豆腐和葱绿，提高火力，快速将全部食材翻炒均匀；按口味加适量盐，出锅食用。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-031-woks/step-3-7.jpg",
+        "imageSource": "https://thewoksoflife.com/home-style-tofu-stir-fry/"
+      }
+    ],
+    "sourceLimitations": [
+      "原文未规定杯、汤匙和茶匙的容量，保留原单位，不换算毫升；煎豆腐每面3—5分钟为范围，不生成固定倒计时。"
+    ],
+    "imageThumb": "assets/dishes/sources/cn-031-woks/hero.jpg",
+    "imageFull": "assets/dishes/sources/cn-031-woks/hero.jpg",
+    "source": "https://thewoksoflife.com/home-style-tofu-stir-fry/",
+    "media": {
+      "sourceName": "The Woks of Life",
+      "recipePageUrl": "https://thewoksoflife.com/home-style-tofu-stir-fry/",
+      "mediaPageUrl": "https://thewoksoflife.com/home-style-tofu-stir-fry/",
+      "author": "Judy",
+      "rightsNotice": "All Rights Reserved © The Woks of Life",
+      "reuseLicense": null,
+      "repositoryCopyAuthorization": "user_confirmed_2026-10-08_remaining44"
+    },
+    "time": 30,
+    "timeBasis": "source",
+    "difficulty": "适中",
+    "defaultServings": 4,
+    "servingsBasis": "source",
+    "allergens": [
+      "shellfish",
+      "soy"
+    ],
+    "flags": {
+      "containsPork": true,
+      "containsBeef": false,
+      "containsAlcohol": true,
+      "spicy": true,
+      "vegetarian": false
+    },
+    "demoEnriched": true
+  }
+}

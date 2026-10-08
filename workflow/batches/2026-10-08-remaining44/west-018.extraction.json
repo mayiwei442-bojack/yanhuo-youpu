@@ -1,0 +1,72 @@
+{
+  "ingredients": [
+    {
+      "name": "arge aubergines",
+      "raw": "2 large aubergines",
+      "amount": null
+    },
+    {
+      "name": "small courgettes",
+      "raw": "4 small courgettes",
+      "amount": null
+    },
+    {
+      "name": "red or yellow peppers",
+      "raw": "2 red or yellow peppers",
+      "amount": null
+    },
+    {
+      "name": "arge ripe tomatoes",
+      "raw": "4 large ripe tomatoes",
+      "amount": null
+    },
+    {
+      "name": "olive oil",
+      "raw": "5 tbsp olive oil",
+      "amount": null
+    },
+    {
+      "name": "supermarket pack or small bunch basil",
+      "raw": "supermarket pack or small bunch basil",
+      "amount": null
+    },
+    {
+      "name": "medium onion peeled and thinly sliced",
+      "raw": "1 medium onion peeled and thinly sliced",
+      "amount": null
+    },
+    {
+      "name": "arlic cloves peeled and crushed",
+      "raw": "3 garlic cloves peeled and crushed",
+      "amount": null
+    },
+    {
+      "name": "red wine vinegar",
+      "raw": "1 tbsp red wine vinegar",
+      "amount": null
+    },
+    {
+      "name": "sugar (any kind)",
+      "raw": "1 tsp sugar (any kind)",
+      "amount": null
+    },
+    {
+      "name": "water",
+      "raw": "boiling then cold water to peel tomatoes (step3; amount unspecified)",
+      "amount": null
+    },
+    {
+      "name": "salt",
+      "raw": "some salt (step8)",
+      "amount": null
+    },
+    {
+      "name": "pepper",
+      "raw": "some pepper (step8)",
+      "amount": null
+    }
+  ],
+  "notes": [
+    "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented."
+  ]
+}

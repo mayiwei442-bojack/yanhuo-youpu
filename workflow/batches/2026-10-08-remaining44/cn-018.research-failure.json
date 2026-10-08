@@ -1,0 +1,44 @@
+{
+  "recipeId": "cn-018",
+  "recipeName": "酸菜鱼",
+  "category": "chinese",
+  "status": "failed",
+  "failedStage": "research",
+  "createdAt": "2026-10-08T12:23:23.822006+00:00",
+  "reason": "豆果候选正常抓取超时，未取得可认证全文；不是因料包或原料表漏项而拒绝。Woks中文、拼音与英文别名检索仅得不同菜品或词汇页，未找到可访问的完整同菜配方。",
+  "bookSearch": {
+    "auditFile": "cn-book-inventory.json",
+    "scannedDocuments": 84,
+    "usableDocuments": 79,
+    "exactOrAcceptableAliasMatches": 0,
+    "excludedStatuses": [
+      "superseded",
+      "rejected",
+      "invalid"
+    ],
+    "assessment": "No complete same-dish recipe in current database books; no book supplementation fabricated."
+  },
+  "attemptedSources": [
+    {
+      "source": "豆果美食",
+      "url": "https://www.douguo.com/cookbook/3052707.html",
+      "result": "normalwebtimeout; no fulltext evidence accepted"
+    },
+    {
+      "source": "The Woks of Life",
+      "query": "suan cai yu recipe site:thewoksoflife.com",
+      "result": "near matches squid/mustard greens and shuizhu fish, rejected dishidentity"
+    },
+    {
+      "source": "The Woks of Life",
+      "aliasCoverageAudit": "cn-alias-coverage-audit.json",
+      "result": "Mustard-green glossary, squid with mustard greens and mackerel are different dishes; exact quoted pinyin search returned no result."
+    }
+  ],
+  "evidencePackage": null,
+  "ingestion": {
+    "performed": false,
+    "reason": "No qualifying complete exactdishsource; do not ingest partial snippets or unrelated variants as this entity."
+  },
+  "aliasRecheckedAt": "2026-10-08T12:41:18.329553+00:00"
+}

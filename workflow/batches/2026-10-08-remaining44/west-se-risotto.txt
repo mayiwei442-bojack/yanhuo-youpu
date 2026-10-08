@@ -1,0 +1,214 @@
+Mushroom Risotto Recipe (https://www.seriouseats.com/pressure-cooker-mushroom-risotto-recipe)
+citeturn95view0 [wordlim: 100] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.seriouseats.com/pressure-cooker-mushroom-risotto-recipe","lineno":220}); Total lines: 240
+L0: cite0†iframe†www.googletagmanager.com L1: 
+L2: cite1†Serious Eats L3: 
+L4: Save
+L5: 
+L6: Rate
+L7: 
+L8:   * Search [Input: What are you looking for?]
+L9: 
+L10:   * cite2†Newsletters L11:   * cite3†Sweepstakes L12:   * cite1†Serious Eats L13: # Pressure Cooker Mushroom Risotto Recipe
+L14: 
+L15: 4.7
+L16: 
+L17: (21)
+L18: 
+L19: 51 Reviews
+L20: 
+L21: Creamy, intensely flavored mushroom risotto that's ready in less time
+L22: 
+L23: By
+L24: 
+L25: cite4†J. Kenji López-Alt L26: 
+L27: cite5†Image: Kenji Lopez Alt cite5†Image: Kenji Lopez Alt L28: 
+L29: cite4†J. Kenji López-Alt L30: 
+L31: Kenji is the former culinary director for Serious Eats and a current culinary consultant for the site. He is also a New York Times food columnist and the author of The Food Lab: Better Home Cooking Through Science.
+L32: 
+L33: cite6†Serious Eats' Editorial Guidelines L34: Updated on January 11, 2026
+L35: 
+L36: cite7†Image†cdn.jwplayer.com cite7†Image†cdn.jwplayer.com L37: 
+L38: How to Make Fast, Easy Mushroom Risotto in Your Pressure Cooker
+L39: 
+L40: 2:42
+L41: 
+L42: In This Recipe
+L43: 
+L44: View All
+L45: 
+L46: In This Article
+L47: 
+L48:   * cite8†How to Get the Most Intense Mushroom Flavor for Your Mushroom Risotto L49: 
+L50:   * cite9†Finishing Your Mushroom Risotto L51: 
+L52: Jump to recipe
+L53:   * Get intense mushroom flavor by combining well-browned fresh mushrooms, dried porcini, and stock infused with mushroom trimmings.
+L54:   * The pressure cooker turns out creamy risotto in just minutes, no stirring required.
+L55:   * A touch of soy sauce and miso deepens the mushrooms’ savory character.
+L56:   * Finishing with fresh herbs and grated Parmesan, and serving on hot plates, keeps the risotto creamy and adds a fresh, savory lift.
+L57: Here are some facts: Despite its reputation for being difficult, risotto is really, really easy to make, even using the traditional stand-and-stir, add-the-broth-a-cup-at-a-time method, a technique that I am convinced was invented by Italian grandmothers who wanted to keep the pesky little bambini occupied for 45 minutes at a stretch.
+L58: In reality, no such stirring is necessary; you can cite10†cook risotto in a wide pot at a full boil , giving it just a few cursory stirs at the beginning and end, and it'll come out just as creamy and delicious as if you'd hovered over it the entire time.
+L59: cite11†Image: Finished and garnished mushroom risotto in a bowl with cheese and herbs on the periphery. cite11†Image: Finished and garnished mushroom risotto in a bowl with cheese and herbs on the periphery. L60: 
+L61: Serious Eats / Mariel De La Cruz
+L62: The technique was first popularized by cite12†Modernist Cuisine†modernistcuisine.com , but we were skeptics until we tried it for ourselves, with cite13†Daniel's recipe for Pressure Cooker Butternut Squash Risotto . His recipe takes a bit of time because it requires you to make a squash purée, but the actual rice cooks in broth, from raw to al dente, in five minutes flat. Five minutes to cook risotto!
+L63: Since then, I've become a complete convert, to the point where the only way I'll ever cook risotto another way is if I find myself banished to a remote Italian island with nothing but a pot and a wooden spoon.
+L64: For this version, my goal was to get intensely savory mushroom flavor, while making sure that you don't have to dirty any extra pots or pans or spend hours developing flavors. I like this kind of recipe development: It turns the whole thing into a game of optimization and efficiency, with the goal of drawing out as much flavor as possible, as quickly as possible.
+L65: And if you have yourself a cite14†pressure cooker ? Well, then, you're seriously in luck (or, more precisely, you're the type who makes their own luck). The pressure cooker is the fastest, easiest, most reliable, and best way to cook risotto, taking your rice from raw to dinner-ready in minutes.
+L66: 
+L67: cite15†Image: A pile of wild and farmed mushrooms prepped for risotto cite15†Image: A pile of wild and farmed mushrooms prepped for risotto L68: 
+L69: Serious Eats / J. Kenji López-Alt
+L70: ## How to Get the Most Intense Mushroom Flavor for Your Mushroom Risotto
+L71: 
+L72: Using a ton of mushrooms in my risotto was a given—I use a full pound and a half of mushrooms, going with a mixture of whatever looks best at the market. (This time of year in California, it's wild chanterelles along with farm-raised shiitakes, oysters, and creminis.)
+L73: Many recipes for mushroom risotto will have you simply cook mushrooms in the pan, add the rice and the broth, and cook. This gives you rice that tastes like, well, rice, with chunks of mushrooms in it. To get mushroom flavor directly into the rice, my first thought was to infuse the broth (I used homemade cite16†vegetable stock , though cite17†homemade or store-bought low-sodium chicken stock would work as well) with extra flavors by heating up some dried porcini mushrooms in it.
+L74: cite18†Image: Dried porcini mushrooms soaking in broth for mushroom risotto cite18†Image: Dried porcini mushrooms soaking in broth for mushroom risotto L75: 
+L76: Serious Eats / J. Kenji López-Alt
+L77: The fastest way I know to do this is to microwave the dried mushrooms with the stock until it comes to a simmer. This simultaneously softens the mushrooms to the point where you can chop them with a knife to incorporate them into the risotto, while also adding a ton of flavor to the broth. (As a bonus, heating the broth now means you don't have to wait long for it to come to a boil when you add it to the pressure cooker later on.)
+L78: As I strained the reconstituted porcini out of the broth, I looked over at the small bowl of mushroom trimmings I'd collected as I cite19†cleaned my fresh mushrooms earlier. They were too tough to eat, but they still had plenty of good flavor in them, so I added them directly to the hot porcini broth to steep while I continued preparing the rest of the recipe, creating a sort of mushroom tea to layer on more flavor.
+L79: Next up, I sautéed my fresh mushrooms in my pressure cooker. I generally cook my risotto with a mixture of extra-virgin olive oil and butter for flavor and richness, but I found that my butter burned if I added it right from the start. Instead, I decided to cook my mushrooms in pure oil, sautéing them until they release all of their moisture and start to brown significantly. When you do this, you'll see the mushrooms drop in volume by a good 80% or so.
+L80: This is all good news in the flavor-intensification department.
+L81: Once the mushrooms were cooked, I added diced onions and garlic, sweated until just softened but not browned. I almost always finish off my sautéed mushrooms with a splash of soy sauce, an ingredient that boosts their umami flavor, making them taste extra mushroom-y. It works well here, too.
+L82: When the base flavors were all in place, I added the rice and toasted it until it was just barely translucent, before adding a splash of dry white wine and letting it reduce to cook off any raw alcohol aroma. With a classic risotto, this step is not quite as necessary—even if you add your stock right after adding the wine, a prolonged cook on the stovetop will drive off most of the alcohol.
+L83: With a pressure cooker, however, very limited evaporation takes place, so if you have funky or alcoholic aromas in the pot when you snap on the lid, those aromas are gonna stay there when you serve it. Make sure it smells good before the lid goes on!
+L84: cite20†Image: A spoon in a container of pale brown miso cite20†Image: A spoon in a container of pale brown miso L85: 
+L86: Serious Eats / J. Kenji López-Alt
+L87: 
+L88: In Daniel's squash risotto, he stirs in a scoop of miso paste to intensify the flavor. I took a cue from him and incorporated the same trick here.
+L89: With standard risotto, you use stock and rice in a ratio of about four to one. With pressure cooker risotto, due to the minimal evaporation, it's more like two to one. This may well be the only disadvantage of pressure cooker risotto—with no reduction, you don't get any intensification of broth flavors as it cooks down, which is to say that the broth had better be darned tasty before it goes in the pot! Luckily, the double mushroom infusion accomplishes this.
+L90: Once the hot broth goes in, it takes only five minutes at low pressure (followed by a rapid chill, either by running a stovetop pressure cooker under water or by using the steam release on an electric cooker) for the rice to be cooked perfectly al dente. When you first open the cooker, it'll look watery, but give it a few strong stirs and it'll come out as creamy as you could hope for.
+L91: ## Finishing Your Mushroom Risotto
+L92: 
+L93: cite21†Image: A shallow white bowl filled with creamy mushroom risotto cite21†Image: A shallow white bowl filled with creamy mushroom risotto L94: 
+L95: Serious Eats / J. Kenji López-Alt
+L96: Those five minutes of cook time give you the perfect opportunity to quickly chop up some herbs (I like classic French fines herbes: parsley, tarragon, chervil, and chives) and throw some bowls into the toaster oven to heat up. Serving in anything but a hot, hot bowl or plate is the only true cardinal sin when it comes to risotto. A hot plate is the only way to ensure that the rice stays light and creamy the whole time you're eating it.
+L97: I like to finish off my risotto with lots of grated Parmesan cheese, and, though traditionalists may scoff, I also like adding a splash of heavy cream at the end to mellow out the flavors. I find that it brings a luxurious smoothness to the whole affair.
+L98: 
+L99: cite22†Image: A spoonful held up from a bowl of creamy mushroom risotto cite22†Image: A spoonful held up from a bowl of creamy mushroom risotto L100: 
+L101: Serious Eats / J. Kenji López-Alt
+L102: All told, even with the double infusion and thorough browning steps, the whole dish comes together in under an hour, thanks to the rapid cooking of the pressure cooker. Think of all the mischief the bambini could get into with so much free time!
+L103: ### December 2014
+L104: 
+L105: Prep Time:
+L106: 
+L107: 5 mins
+L108: 
+L109: Cook Time:
+L110: 
+L111: 40 mins
+L112: 
+L113: Total Time:
+L114: 
+L115: 45 mins
+L116: 
+L117: Servings:
+L118: 
+L119: 4 to 6 servings
+L120: 
+L121: Yield:
+L122: 
+L123: Serves 4 to 6
+L124: 
+L125: [Button: Jump to Nutrition Facts]
+L126: 
+L127: Keep Screen Awake
+L128: ## Ingredients
+L129: 
+L130:   * 1 quart (950 ml) homemade or store-bought low-sodium cite17†chicken stock or cite16†vegetable stock L131: 
+L132:   * 1 ounce (30 g) dried porcini mushrooms (optional)
+L133: 
+L134:   * 4 tablespoons (60 ml) extra-virgin olive oil
+L135: 
+L136:   * 4 tablespoons (50 g) unsalted butter
+L137: 
+L138:   * 1 1/2 pounds (700 g) mixed mushrooms, such as shiitake, cremini, oyster, and chanterelle, trimmed and thinly sliced, stems reserved
+L139: 
+L140:   * Kosher salt and freshly ground black pepper
+L141:   * 1 medium yellow onion, finely chopped (about 6 ounces; 170 g)
+L142: 
+L143:   * 2 medium cloves garlic, finely minced
+L144: 
+L145:   * 1 1/2 cups (about 300 g) risotto rice, such as arborio or vialone nano
+L146: 
+L147:   * 2 teaspoons (10 ml) soy sauce
+L148: 
+L149:   * 1 tablespoon (15 ml) light miso paste
+L150: 
+L151:   * 3/4 cup (175 ml) dry white wine
+L152: 
+L153:   * 1/4 cup (60 ml) heavy cream (optional; see note)
+L154: 
+L155:   * 1 ounce (30 g) finely grated Parmigiano-Reggiano cheese, plus more for serving
+L156:   * Handful finely minced mixed fresh herbs, such as parsley, chervil, tarragon, and/or chives
+L157: ## Directions
+L158:   1. Place chicken stock and dried mushrooms (if using) in a microwave-safe container and microwave on high power until simmering, about 5 minutes. Remove from microwave. Using a slotted spoon, transfer porcini to a cutting board and roughly chop. Add fresh mushroom scraps to container with porcini-infused stock and set aside.
+L159: Alternatively, heat stock and dried mushrooms (if using) in a small saucepan until simmering, then remove from heat, transfer porcini to a cutting board and roughly chop; add fresh mushroom scraps to saucepan and set aside to infuse.
+L160: cite23†Image: Mushrooms and stock in a dutch oven on a wooden counter. cite23†Image: Mushrooms and stock in a dutch oven on a wooden counter. L161: 
+L162: Serious Eats / Mariel De La Cruz
+L163: 
+L164:   2. Heat olive oil and butter in the base of a pressure cooker over high heat, swirling, until foaming subsides. Add fresh mushrooms, season with salt and pepper, and cook, stirring occasionally, until excess moisture has evaporated and mushrooms are well browned, about 8 minutes.
+L165: cite24†Image: The browned mushrooms inside of the pressure cooker. cite24†Image: The browned mushrooms inside of the pressure cooker. L166: 
+L167: Serious Eats / Mariel De La Cruz
+L168:   3. Add onion, garlic, and chopped porcini (if using) and cook, stirring frequently, until onions are softened and aromatic, about 4 minutes. Add rice and cook, stirring, until rice is evenly coated in oil and toasted but not browned, 3 to 4 minutes. (Rice grains should start to look like tiny ice cubes: translucent around the edges and cloudy in the center.) Stir in soy sauce and miso paste until evenly incorporated.
+L169: cite25†Image: A two-image collage showing the pressure cooker after the rice and sautÃ©d onions have been added. cite25†Image: A two-image collage showing the pressure cooker after the rice and sautÃ©d onions have been added. L170: 
+L171: Serious Eats / Mariel De La Cruz
+L172: 
+L173:   4. Add wine and cook, stirring, until raw alcohol smell has cooked off and wine has almost fully evaporated, about 2 minutes.
+L174: cite26†Image: The pressure cooker containing all of the cooked ingredients, with wine being poured in. cite26†Image: The pressure cooker containing all of the cooked ingredients, with wine being poured in. L175: 
+L176: Serious Eats / Mariel De La Cruz
+L177:   5. Pour stock into pot through a fine-mesh strainer, discarding mushroom stems. Scrape any grains of rice or pieces of onion from side of pressure cooker so that they are fully submerged. Close pressure cooker and bring up to low pressure (10 psi on most units). Cook at low pressure for 5 minutes, then depressurize cooker, either by running it under cold water if it is not electric or using the steam-release valve if it is electric.
+L178: cite27†Image: Mushroom stock being poured into the pressure cooker through a fine mesh sieve, with the sieve catching the solid pieces of mushroom. cite27†Image: Mushroom stock being poured into the pressure cooker through a fine mesh sieve, with the sieve catching the solid pieces of mushroom. L179: 
+L180: Serious Eats / Mariel De La Cruz
+L181:   6. Open pressure cooker and stir to combine rice and cooking liquid; a creamy consistency should begin to develop. Stir in cream (if using), cheese, and herbs. If risotto is too soupy, cook for a few minutes longer, stirring, until it begins to thicken more. If it is too thick, stir in some hot water. It should flow slowly when you drag a trail through it with a spoon. Season to taste with salt and pepper and serve immediately on hot plates, passing extra cheese at the table.
+L182: cite28†Image: A two-image collage showing the cooked risotto being stirred in the pressure cooker, and then the risotto plated and garnished. cite28†Image: A two-image collage showing the cooked risotto being stirred in the pressure cooker, and then the risotto plated and garnished. L183: 
+L184: Serious Eats / Mariel De La Cruz
+L185: ## Special Equipment
+L186: 
+L187: cite14†Electric pressure cooker or countertop pressure cooker , microwave
+L188: ## Notes
+L189: 
+L190: I like to add a splash of heavy cream to my risotto just before serving—it adds a velvety creaminess and smooths out all the flavors. Some folks prefer the stronger flavor of cream-free risotto. Taste before adding the cream if you are unsure.
+L191: To Cook Without a Pressure Cooker: Follow recipe through the end of step 4, using a large Dutch oven instead of a pressure cooker. Strain the broth through a fine-mesh strainer into the Dutch oven and add 2 more cups of broth. Bring to a boil, reduce to a simmer, and cook, stirring occasionally, until most of the liquid is absorbed and the rice is almost cooked through, about 30 minutes. Stir in 1 to 2 more cups of broth to adjust consistency and continue with step 6.
+L192: ## Read More
+L193: 
+L194:   * cite10†Perfect Risotto Recipe L195:   * cite29†12 Easy Risotto Recipes L196: 
+L197: Save
+L198: 
+L199: Rate
+L200: 
+L201: Print [Input]
+L202: ## Nutrition Facts (per serving)
+L203: 
+L204: 320  | Calories
+L205: 18g  | Fat
+L206: 26g  | Carbs
+L207: 7g  | Protein
+L208: 
+L209: Show Full Nutrition Label Hide Full Nutrition Label
+L210: 
+L211: Nutrition Facts
+L212: ---
+L213: Servings Per Recipe 4 to 6
+L214: ---
+L215: Calories 320
+L216: ---
+L217: % Daily Value *
+L218: Total Carbohydrate 26g  | 9%
+L219: Dietary Fiber 1g  | 4%
+L220: Total Sugars 4g
+L221: Protein 7g  | 13%
+L222: Total Fat 18g  | 23%
+L223: Saturated Fat 6g  | 32%
+L224: Cholesterol 22mg  | 7%
+L225: Vitamin C 3mg  | 3%
+L226: Sodium 961mg  | 42%
+L227: Calcium 82mg  | 6%
+L228: Iron 2mg  | 9%
+L229: Potassium 629mg  | 13%
+L230: * Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs.
+L231: 
+L232: Loading shell for RecipesUgcThreaded1 Vue component in Globe.
+L233: ## Related Articles
+L234: cite30†Mushroom and Asparagus Risotto Recipe 1 hr 5 mins cite13†Pressure Cooker Butternut Squash Risotto With Frizzled Sage and Brown Butter 1 hr 20 mins cite31†Tater Tot Casserole (Hotdish) Recipe 3 hrs 15 mins cite32†Mushroom Risotto Recipe 1 hr 5 mins cite33†Chicken Cacciatore With Mushrooms, Tomato, and Onion Recipe 1 hr 20 mins cite34†Pressure Cooker Ground Beef and Bean Chili Recipe 1 hr cite35†Pressure Cooker Corn Risotto 30 mins cite36†Pressure Cooker Red Wine–Braised Beef Short Ribs Recipe 3 hrs 40 mins L235: cite37†Vegan Seitan and Mushroom Ragù Bolognese Recipe 1 hr 5 mins cite38†Pressure Cooker Chunky Beef and Bean Chili Recipe 1 hr 15 mins cite39†Chicken Marsala 45 mins cite40†Thanksgiving Stuffed Roast Pumpkins 2 hrs 55 mins cite41†Veneto-Style Radicchio Risotto With Walnuts and Blue Cheese Recipe 45 mins cite42†Pressure Cooker Beef Barley Soup Recipe 1 hr 20 mins cite43†Easy Roasted Mushrooms 55 mins cite44†Quick and Easy Creamy Mushroom Soup 45 mins L236: 
+L237: Newsletter Sign Up
+L238: 
+L239: Newsletter Sign Up
+

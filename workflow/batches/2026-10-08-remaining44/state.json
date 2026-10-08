@@ -1,0 +1,3291 @@
+{
+  "updatedAt": "2026-10-08T17:36:00.554Z",
+  "branch": "codex/recipe-automation",
+  "recipes": [
+    {
+      "recipeId": "cn-012",
+      "name": "羊肉泡馍",
+      "status": "failed",
+      "steps": {
+        "research": {
+          "status": "failed",
+          "attempts": 1,
+          "details": {
+            "resultPath": "workflow/batches/2026-10-08-remaining44/cn-012.research-failure.json",
+            "bookSearch": {
+              "auditFile": "cn-book-inventory.json",
+              "scannedDocuments": 84,
+              "usableDocuments": 79,
+              "exactOrAcceptableAliasMatches": 0,
+              "excludedStatuses": [
+                "superseded",
+                "rejected",
+                "invalid"
+              ],
+              "assessment": "No complete same-dish recipe in current database books; no book supplementation fabricated."
+            }
+          }
+        },
+        "ingestion": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "edit": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "validator": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "review": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "build": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "gitPush": {
+          "status": "pending",
+          "attempts": 0
+        }
+      },
+      "errors": [
+        {
+          "step": "research",
+          "code": "NO_QUALIFYING_COMPLETE_SOURCE",
+          "message": "在两项启用网站限定检索未得到羊肉泡馍完整配方；豆果题名目录页不可访问，不能用羊汤或水盆羊肉替代。",
+          "at": "2026-10-08T12:48:15.022Z"
+        }
+      ]
+    },
+    {
+      "recipeId": "cn-013",
+      "name": "胡辣汤",
+      "status": "in_progress",
+      "steps": {
+        "research": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "evidencePath": "workflow/batches/2026-10-08-remaining44/cn-013.base-evidence.json",
+            "evidencePackageHash": "b5be37dc575ed83fdf5bb98096b7f193e32b36d6c70a467f5f4fd369793ddb80",
+            "selectedSourceUrl": "https://www.douguo.com/cookbook/3300061.html",
+            "sourceMode": "single_source",
+            "singleSourceReason": "数据库79份现行书籍菜谱中无胡辣汤完整配方；Woks中英文别名检索无完整匹配；另一豆果河南正宗候选是课程广告。这个同菜名、同河南地域的完整料包版本可执行且自洽。",
+            "publicationGate": "Final image/evidence acceptance pending"
+          }
+        },
+        "ingestion": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "selectedDocumentId": "64811085-e1d5-4a9b-a1fc-ddb00b282459",
+            "documentIds": [
+              "64811085-e1d5-4a9b-a1fc-ddb00b282459"
+            ],
+            "ragEvidence": 5
+          }
+        },
+        "edit": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "validator": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "review": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "build": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "gitPush": {
+          "status": "pending",
+          "attempts": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "recipeId": "cn-015",
+      "name": "兰州清汤牛肉面",
+      "status": "failed",
+      "steps": {
+        "research": {
+          "status": "failed",
+          "attempts": 1,
+          "details": {
+            "resultPath": "workflow/batches/2026-10-08-remaining44/cn-015.research-failure.json"
+          }
+        },
+        "ingestion": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "selectedDocumentId": "a4076148-4892-4817-9692-070337ba2939",
+            "documentIds": [
+              "a4076148-4892-4817-9692-070337ba2939"
+            ],
+            "ragEvidence": 6
+          }
+        },
+        "edit": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "validator": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "review": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "build": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "gitPush": {
+          "status": "pending",
+          "attempts": 0
+        }
+      },
+      "errors": [
+        {
+          "step": "research",
+          "code": "NO_QUALIFYING_COMPLETE_SOURCE",
+          "message": "Mandatory soup-bone roasting at 400 degrees lacks Fahrenheit/Celsius unit in accessible complete source; no explicit alternative, no unit inferred.",
+          "at": "2026-10-08T12:48:15.120Z"
+        }
+      ]
+    },
+    {
+      "recipeId": "cn-018",
+      "name": "酸菜鱼",
+      "status": "failed",
+      "steps": {
+        "research": {
+          "status": "failed",
+          "attempts": 1,
+          "details": {
+            "resultPath": "workflow/batches/2026-10-08-remaining44/cn-018.research-failure.json",
+            "bookSearch": {
+              "auditFile": "cn-book-inventory.json",
+              "scannedDocuments": 84,
+              "usableDocuments": 79,
+              "exactOrAcceptableAliasMatches": 0,
+              "excludedStatuses": [
+                "superseded",
+                "rejected",
+                "invalid"
+              ],
+              "assessment": "No complete same-dish recipe in current database books; no book supplementation fabricated."
+            }
+          }
+        },
+        "ingestion": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "edit": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "validator": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "review": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "build": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "gitPush": {
+          "status": "pending",
+          "attempts": 0
+        }
+      },
+      "errors": [
+        {
+          "step": "research",
+          "code": "NO_QUALIFYING_COMPLETE_SOURCE",
+          "message": "豆果候选正常抓取超时，未取得可认证全文；不是因料包或原料表漏项而拒绝。Woks中文、拼音与英文别名检索仅得不同菜品或词汇页，未找到可访问的完整同菜配方。",
+          "at": "2026-10-08T12:48:15.220Z"
+        }
+      ]
+    },
+    {
+      "recipeId": "cn-019",
+      "name": "东坡肉",
+      "status": "in_progress",
+      "steps": {
+        "research": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "evidencePath": "workflow/batches/2026-10-08-remaining44/cn-019.evidence.json",
+            "evidencePackageHash": "651e42fa1f078f0aae2b228c31ef3dbb2aa0c547d12fdc477a0571207836ece4",
+            "selectedSourceUrl": "https://thewoksoflife.com/braised-pork-belly-dong-po-rou/",
+            "sourceMode": "single_source",
+            "singleSourceReason": "读取数据库全部84份书籍文档并核对题名和正文，无东坡肉/东坡焖肉完整菜谱。豆果限定域检索未返回对应页面。Woks完整原料、方法和成品及过程图可用，单来源继续。"
+          }
+        },
+        "ingestion": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "selectedDocumentId": "0ff9202a-963e-4b37-a713-4d7d344dd8ab",
+            "documentIds": [
+              "0ff9202a-963e-4b37-a713-4d7d344dd8ab"
+            ],
+            "ragEvidence": 6
+          }
+        },
+        "edit": {
+          "status": "done",
+          "attempts": 1,
+          "details": {}
+        },
+        "validator": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "ok": true,
+            "targetId": "cn-019",
+            "checks": [
+              {
+                "name": "unique_ids",
+                "passed": true
+              },
+              {
+                "name": "target_exists_once",
+                "passed": true
+              },
+              {
+                "name": "required_fields",
+                "passed": true
+              },
+              {
+                "name": "target_name",
+                "passed": true
+              },
+              {
+                "name": "target_ingredients",
+                "passed": true,
+                "count": 8
+              },
+              {
+                "name": "target_steps",
+                "passed": true,
+                "count": 8
+              },
+              {
+                "name": "stable_target_fields",
+                "passed": true,
+                "allowedChanges": [
+                  "source"
+                ]
+              },
+              {
+                "name": "target_changed",
+                "passed": true,
+                "required": true
+              },
+              {
+                "name": "target_only_diff",
+                "passed": true,
+                "changed": []
+              },
+              {
+                "name": "generated_target_exists",
+                "passed": true
+              }
+            ],
+            "errors": [],
+            "commands": [
+              {
+                "command": "D:\\node.exe tools/build_html_demo_data.mjs",
+                "passed": true,
+                "status": 0,
+                "stdout": "Generated 91 recipes.",
+                "stderr": ""
+              },
+              {
+                "command": "D:\\node.exe tools/test_html_demo.mjs",
+                "passed": true,
+                "status": 0,
+                "stdout": "{\n  \"ok\": true,\n  \"recipes\": 91,\n  \"pantryItems\": 35,\n  \"verifiedMedia\": [\n    {\n      \"id\": \"cn-001\",\n      \"steps\": 6,\n      \"stepImages\": 6\n    },\n    {\n      \"id\": \"cn-002\",\n      \"steps\": 7,\n      \"stepImages\": 6\n    },\n    {\n      \"id\": \"cn-003\",\n      \"steps\": 6,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"cn-004\",\n      \"steps\": 7,\n      \"stepImages\": 5\n    },\n    {\n      \"id\": \"cn-005\",\n      \"steps\": 11,\n      \"stepImages\": 11\n    },\n    {\n      \"id\": \"cn-006\",\n      \"steps\": 5,\n      \"stepImages\": 3\n    },\n    {\n      \"id\": \"cn-007\",\n      \"steps\": 19,\n      \"stepImages\": 19\n    },\n    {\n      \"id\": \"cn-008\",\n      \"steps\": 9,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"cn-009\",\n      \"steps\": 8,\n      \"stepImages\": 8\n    },\n    {\n      \"id\": \"cn-010\",\n      \"steps\": 13,\n      \"stepImages\": 13\n    },\n    {\n      \"id\": \"cn-011\",\n      \"steps\": 9,\n      \"stepImages\": 9\n    },\n    {\n      \"id\": \"cn-019\",\n      \"steps\": 8,\n      \"stepImages\": 5\n    },\n    {\n      \"id\": \"cn-024\",\n      \"steps\": 16,\n      \"stepImages\": 15\n    },\n    {\n      \"id\": \"cn-027\",\n      \"steps\": 17,\n      \"stepImages\": 17\n    },\n    {\n      \"id\": \"cn-029\",\n      \"steps\": 13,\n      \"stepImages\": 12\n    },\n    {\n      \"id\": \"cn-036\",\n      \"steps\": 4,\n      \"stepImages\": 3\n    },\n    {\n      \"id\": \"cn-054\",\n      \"steps\": 11,\n      \"stepImages\": 9\n    },\n    {\n      \"id\": \"west-004\",\n      \"steps\": 4,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-006\",\n      \"steps\": 4,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-011\",\n      \"steps\": 5,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-012\",\n      \"steps\": 10,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-020\",\n      \"steps\": 8,\n      \"stepImages\": 5\n    },\n    {\n      \"id\": \"west-031\",\n      \"steps\": 6,\n      \"stepImages\": 0\n    }\n  ],\n  \"testedRoutes\": [\n    \"home\",\n    \"pantry\",\n    \"recommendations\",\n    \"recipe\",\n    \"game\",\n    \"cook\",\n    \"shopping\",\n    \"recipes\",\n    \"me\"\n  ],\n  \"browserErrors\": []\n}",
+                "stderr": ""
+              },
+              {
+                "command": "D:\\node.exe tools/build_vercel_output.mjs",
+                "passed": true,
+                "status": 0,
+                "stdout": "Vercel 静态构建完成：C:\\Users\\myw\\Documents\\recipe-automation\\dist\nVercel Build Output 已生成：C:\\Users\\myw\\Documents\\recipe-automation\\.vercel\\output",
+                "stderr": ""
+              }
+            ]
+          }
+        },
+        "review": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "status": "PASS",
+            "issues": [],
+            "summary": "独立核对冻结证据、8行原料、8个生成步骤、份数、时间及全部发布图片。整份采用同一来源；两条后续90分钟路线明确互斥，不额外加水。230分钟总时间与原文步骤时长差异已披露，倒计时未覆盖可选路线。图片像素、映射、文件哈希和出处一致；第7步图片对应移入小砂锅的操作。逐行对抗检查未发现原料归属、语法、括号、标点或分隔符缺陷。确定性验证通过。",
+            "evidencePackageHash": "651e42fa1f078f0aae2b228c31ef3dbb2aa0c547d12fdc477a0571207836ece4",
+            "validatorPassed": true,
+            "adversarialReview": {
+              "ingredientSemantics": true,
+              "stepGrammar": true,
+              "punctuation": true,
+              "renderedStructure": true
+            }
+          }
+        },
+        "build": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "ok": true,
+            "exitCode": 0,
+            "command": "npm run test:workflow:deterministic",
+            "completedAt": "2026-10-08T17:35:47.0041510Z",
+            "includesTestAI": false
+          }
+        },
+        "gitPush": {
+          "status": "pending",
+          "attempts": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "recipeId": "cn-020",
+      "name": "白切鸡",
+      "status": "in_progress",
+      "steps": {
+        "research": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "evidencePath": "workflow/batches/2026-10-08-remaining44/cn-020.evidence.json",
+            "evidencePackageHash": "0da88982a7c56ac9ddc8a994e33b4b27084389fa8b9f30e47ca219444822920f",
+            "selectedSourceUrl": "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/",
+            "sourceMode": "single_source",
+            "singleSourceReason": "已读取数据库全部84份书籍菜谱并按名称、别名和正文核对，本菜无完全匹配书籍信源。已检索配置豆果来源，其他候选如有见notes；保留可访问完整Woks整份配方。"
+          }
+        },
+        "ingestion": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "selectedDocumentId": "2be1111d-2cd1-42dd-b183-990a063573e7",
+            "documentIds": [
+              "2be1111d-2cd1-42dd-b183-990a063573e7"
+            ],
+            "ragEvidence": 8
+          }
+        },
+        "edit": {
+          "status": "done",
+          "attempts": 1,
+          "details": {}
+        },
+        "validator": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "ok": true,
+            "targetId": "cn-020",
+            "checks": [
+              {
+                "name": "unique_ids",
+                "passed": true
+              },
+              {
+                "name": "target_exists_once",
+                "passed": true
+              },
+              {
+                "name": "required_fields",
+                "passed": true
+              },
+              {
+                "name": "target_name",
+                "passed": true
+              },
+              {
+                "name": "target_ingredients",
+                "passed": true,
+                "count": 11
+              },
+              {
+                "name": "target_steps",
+                "passed": true,
+                "count": 14
+              },
+              {
+                "name": "stable_target_fields",
+                "passed": true,
+                "allowedChanges": [
+                  "source"
+                ]
+              },
+              {
+                "name": "target_changed",
+                "passed": true,
+                "required": true
+              },
+              {
+                "name": "target_only_diff",
+                "passed": true,
+                "changed": []
+              },
+              {
+                "name": "generated_target_exists",
+                "passed": true
+              }
+            ],
+            "errors": [],
+            "commands": [
+              {
+                "command": "D:\\node.exe tools/build_html_demo_data.mjs",
+                "passed": true,
+                "status": 0,
+                "stdout": "Generated 91 recipes.",
+                "stderr": ""
+              },
+              {
+                "command": "D:\\node.exe tools/test_html_demo.mjs",
+                "passed": true,
+                "status": 0,
+                "stdout": "{\n  \"ok\": true,\n  \"recipes\": 91,\n  \"pantryItems\": 35,\n  \"verifiedMedia\": [\n    {\n      \"id\": \"cn-001\",\n      \"steps\": 6,\n      \"stepImages\": 6\n    },\n    {\n      \"id\": \"cn-002\",\n      \"steps\": 7,\n      \"stepImages\": 6\n    },\n    {\n      \"id\": \"cn-003\",\n      \"steps\": 6,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"cn-004\",\n      \"steps\": 7,\n      \"stepImages\": 5\n    },\n    {\n      \"id\": \"cn-005\",\n      \"steps\": 11,\n      \"stepImages\": 11\n    },\n    {\n      \"id\": \"cn-006\",\n      \"steps\": 5,\n      \"stepImages\": 3\n    },\n    {\n      \"id\": \"cn-007\",\n      \"steps\": 19,\n      \"stepImages\": 19\n    },\n    {\n      \"id\": \"cn-008\",\n      \"steps\": 9,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"cn-009\",\n      \"steps\": 8,\n      \"stepImages\": 8\n    },\n    {\n      \"id\": \"cn-010\",\n      \"steps\": 13,\n      \"stepImages\": 13\n    },\n    {\n      \"id\": \"cn-011\",\n      \"steps\": 9,\n      \"stepImages\": 9\n    },\n    {\n      \"id\": \"cn-019\",\n      \"steps\": 8,\n      \"stepImages\": 5\n    },\n    {\n      \"id\": \"cn-020\",\n      \"steps\": 14,\n      \"stepImages\": 12\n    },\n    {\n      \"id\": \"cn-024\",\n      \"steps\": 16,\n      \"stepImages\": 15\n    },\n    {\n      \"id\": \"cn-027\",\n      \"steps\": 17,\n      \"stepImages\": 17\n    },\n    {\n      \"id\": \"cn-029\",\n      \"steps\": 13,\n      \"stepImages\": 12\n    },\n    {\n      \"id\": \"cn-036\",\n      \"steps\": 4,\n      \"stepImages\": 3\n    },\n    {\n      \"id\": \"cn-054\",\n      \"steps\": 11,\n      \"stepImages\": 9\n    },\n    {\n      \"id\": \"west-004\",\n      \"steps\": 4,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-006\",\n      \"steps\": 4,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-011\",\n      \"steps\": 5,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-012\",\n      \"steps\": 10,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-020\",\n      \"steps\": 8,\n      \"stepImages\": 5\n    },\n    {\n      \"id\": \"west-031\",\n      \"steps\": 6,\n      \"stepImages\": 0\n    }\n  ],\n  \"testedRoutes\": [\n    \"home\",\n    \"pantry\",\n    \"recommendations\",\n    \"recipe\",\n    \"game\",\n    \"cook\",\n    \"shopping\",\n    \"recipes\",\n    \"me\"\n  ],\n  \"browserErrors\": []\n}",
+                "stderr": ""
+              },
+              {
+                "command": "D:\\node.exe tools/build_vercel_output.mjs",
+                "passed": true,
+                "status": 0,
+                "stdout": "Vercel 静态构建完成：C:\\Users\\myw\\Documents\\recipe-automation\\dist\nVercel Build Output 已生成：C:\\Users\\myw\\Documents\\recipe-automation\\.vercel\\output",
+                "stderr": ""
+              }
+            ]
+          }
+        },
+        "review": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "status": "PASS",
+            "issues": [],
+            "summary": "独立核对冻结证据、11行原料、14个生成步骤、6人份、70分钟总时间及全部发布图片。煮鸡与蘸料用量明确分开，未指定油种或换算杯容量；量水不开火、提鸡排冷水、微沸35—40分钟、熟度判断及完全冰水冷却均保留。可选酱油与刷皮油有原料归属，范围时间未生成固定倒计时。图片像素、分步映射、文件哈希和出处一致。逐行对抗检查未发现孤立说明、括号或分隔符破坏及不可执行步骤。确定性验证通过。",
+            "evidencePackageHash": "0da88982a7c56ac9ddc8a994e33b4b27084389fa8b9f30e47ca219444822920f",
+            "validatorPassed": true,
+            "adversarialReview": {
+              "ingredientSemantics": true,
+              "stepGrammar": true,
+              "punctuation": true,
+              "renderedStructure": true
+            }
+          }
+        },
+        "build": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "ok": true,
+            "exitCode": 0,
+            "command": "npm run test:workflow:deterministic",
+            "completedAt": "2026-10-08T17:35:47.0041510Z",
+            "includesTestAI": false
+          }
+        },
+        "gitPush": {
+          "status": "pending",
+          "attempts": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "recipeId": "cn-022",
+      "name": "北京烤鸭",
+      "status": "failed",
+      "steps": {
+        "research": {
+          "status": "failed",
+          "attempts": 1,
+          "details": {
+            "resultPath": "workflow/batches/2026-10-08-remaining44/cn-022.research-failure.json",
+            "bookSearch": {
+              "auditFile": "cn-book-inventory.json",
+              "scannedDocuments": 84,
+              "usableDocuments": 79,
+              "exactOrAcceptableAliasMatches": 0,
+              "excludedStatuses": [
+                "superseded",
+                "rejected",
+                "invalid"
+              ],
+              "assessment": "No complete same-dish recipe in current database books; no book supplementation fabricated."
+            }
+          }
+        },
+        "ingestion": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "edit": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "validator": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "review": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "build": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "gitPush": {
+          "status": "pending",
+          "attempts": 0
+        }
+      },
+      "errors": [
+        {
+          "step": "research",
+          "code": "NO_QUALIFYING_COMPLETE_SOURCE",
+          "message": "Woks完整候选为鸭胸煎制的简化Peking Duck，明显区别整鸭北京烤鸭工艺；未擅自改成煎鸭胸。豆果检索无可读取完整匹配。",
+          "at": "2026-10-08T12:48:15.315Z"
+        }
+      ]
+    },
+    {
+      "recipeId": "cn-023",
+      "name": "小鸡炖蘑菇",
+      "status": "failed",
+      "steps": {
+        "research": {
+          "status": "failed",
+          "attempts": 1,
+          "details": {
+            "resultPath": "workflow/batches/2026-10-08-remaining44/cn-023.research-failure.json",
+            "bookSearch": {
+              "auditFile": "cn-book-inventory.json",
+              "scannedDocuments": 84,
+              "usableDocuments": 79,
+              "exactOrAcceptableAliasMatches": 0,
+              "excludedStatuses": [
+                "superseded",
+                "rejected",
+                "invalid"
+              ],
+              "assessment": "No complete same-dish recipe in current database books; no book supplementation fabricated."
+            }
+          }
+        },
+        "ingestion": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "edit": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "validator": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "review": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "build": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "gitPush": {
+          "status": "pending",
+          "attempts": 0
+        }
+      },
+      "errors": [
+        {
+          "step": "research",
+          "code": "NO_QUALIFYING_COMPLETE_SOURCE",
+          "message": "Woks上海双菇鸡翅炖菜属于不同地区和配方变体；未用它替代东北小鸡炖蘑菇。豆果目录页不可读。",
+          "at": "2026-10-08T12:48:15.408Z"
+        }
+      ]
+    },
+    {
+      "recipeId": "cn-025",
+      "name": "西湖醋鱼",
+      "status": "failed",
+      "steps": {
+        "research": {
+          "status": "failed",
+          "attempts": 1,
+          "details": {
+            "resultPath": "workflow/batches/2026-10-08-remaining44/cn-025.research-failure.json",
+            "bookSearch": {
+              "auditFile": "cn-book-inventory.json",
+              "scannedDocuments": 84,
+              "usableDocuments": 79,
+              "exactOrAcceptableAliasMatches": 0,
+              "excludedStatuses": [
+                "superseded",
+                "rejected",
+                "invalid"
+              ],
+              "assessment": "No complete same-dish recipe in current database books; no book supplementation fabricated."
+            }
+          }
+        },
+        "ingestion": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "edit": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "validator": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "review": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "build": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "gitPush": {
+          "status": "pending",
+          "attempts": 0
+        }
+      },
+      "errors": [
+        {
+          "step": "research",
+          "code": "NO_QUALIFYING_COMPLETE_SOURCE",
+          "message": "启用来源检索无可核验西湖醋鱼完整配方；豆果目录不可访问，不以普通糖醋鱼替代。",
+          "at": "2026-10-08T12:48:15.508Z"
+        }
+      ]
+    },
+    {
+      "recipeId": "cn-026",
+      "name": "龙井虾仁",
+      "status": "failed",
+      "steps": {
+        "research": {
+          "status": "failed",
+          "attempts": 1,
+          "details": {
+            "resultPath": "workflow/batches/2026-10-08-remaining44/cn-026.research-failure.json",
+            "bookSearch": {
+              "auditFile": "cn-book-inventory.json",
+              "scannedDocuments": 84,
+              "usableDocuments": 79,
+              "exactOrAcceptableAliasMatches": 0,
+              "excludedStatuses": [
+                "superseded",
+                "rejected",
+                "invalid"
+              ],
+              "assessment": "No complete same-dish recipe in current database books; no book supplementation fabricated."
+            }
+          }
+        },
+        "ingestion": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "edit": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "validator": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "review": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "build": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "gitPush": {
+          "status": "pending",
+          "attempts": 0
+        }
+      },
+      "errors": [
+        {
+          "step": "research",
+          "code": "NO_QUALIFYING_COMPLETE_SOURCE",
+          "message": "唯一找到的豆果龙井虾仁候选抓取HTTP429/403；未绕过访问控制，不能把索引摘要冒充全文。Woks无对应完整菜谱。",
+          "at": "2026-10-08T12:48:15.604Z"
+        }
+      ]
+    },
+    {
+      "recipeId": "cn-028",
+      "name": "清炒虾仁",
+      "status": "failed",
+      "steps": {
+        "research": {
+          "status": "failed",
+          "attempts": 1,
+          "details": {
+            "resultPath": "workflow/batches/2026-10-08-remaining44/cn-028.research-failure.json",
+            "bookSearch": {
+              "auditFile": "cn-book-inventory.json",
+              "scannedDocuments": 84,
+              "usableDocuments": 79,
+              "exactOrAcceptableAliasMatches": 0,
+              "excludedStatuses": [
+                "superseded",
+                "rejected",
+                "invalid"
+              ],
+              "assessment": "No complete same-dish recipe in current database books; no book supplementation fabricated."
+            }
+          }
+        },
+        "ingestion": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "edit": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "validator": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "review": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "build": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "gitPush": {
+          "status": "pending",
+          "attempts": 0
+        }
+      },
+      "errors": [
+        {
+          "step": "research",
+          "code": "NO_QUALIFYING_COMPLETE_SOURCE",
+          "message": "豆果候选可读时虾仁等所有主料均无用量，无法从同一来源还原主料比例；后续正常全文访问403。做法中原料表漏项本身可提取，并非独立拒绝理由。Woks别名结果为技术指南、其他菜与无配方的水晶虾仁介绍，未取得完整同菜信源。",
+          "at": "2026-10-08T12:48:15.707Z"
+        }
+      ]
+    },
+    {
+      "recipeId": "cn-031",
+      "name": "家常豆腐",
+      "status": "in_progress",
+      "steps": {
+        "research": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "evidencePath": "workflow/batches/2026-10-08-remaining44/cn-031.evidence.json",
+            "evidencePackageHash": "008ee7fe0f3aedd18354679412b2d87a575dfcf6279af751b62099b202f57777",
+            "selectedSourceUrl": "https://thewoksoflife.com/home-style-tofu-stir-fry/",
+            "sourceMode": "single_source",
+            "singleSourceReason": "已读取数据库全部84份书籍菜谱并按名称、别名和正文核对，本菜无完全匹配书籍信源。已检索配置豆果来源，其他候选如有见notes；保留可访问完整Woks整份配方。"
+          }
+        },
+        "ingestion": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "selectedDocumentId": "3ef0f122-545b-407b-af57-d247126d1390",
+            "documentIds": [
+              "3ef0f122-545b-407b-af57-d247126d1390"
+            ],
+            "ragEvidence": 5
+          }
+        },
+        "edit": {
+          "status": "done",
+          "attempts": 1,
+          "details": {}
+        },
+        "validator": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "ok": true,
+            "targetId": "cn-031",
+            "checks": [
+              {
+                "name": "unique_ids",
+                "passed": true
+              },
+              {
+                "name": "target_exists_once",
+                "passed": true
+              },
+              {
+                "name": "required_fields",
+                "passed": true
+              },
+              {
+                "name": "target_name",
+                "passed": true
+              },
+              {
+                "name": "target_ingredients",
+                "passed": true,
+                "count": 12
+              },
+              {
+                "name": "target_steps",
+                "passed": true,
+                "count": 8
+              },
+              {
+                "name": "stable_target_fields",
+                "passed": true,
+                "allowedChanges": []
+              },
+              {
+                "name": "target_changed",
+                "passed": false,
+                "required": false
+              },
+              {
+                "name": "target_only_diff",
+                "passed": true,
+                "changed": []
+              },
+              {
+                "name": "generated_target_exists",
+                "passed": true
+              }
+            ],
+            "errors": [],
+            "commands": [
+              {
+                "command": "D:\\node.exe tools/build_html_demo_data.mjs",
+                "passed": true,
+                "status": 0,
+                "stdout": "Generated 91 recipes.",
+                "stderr": ""
+              },
+              {
+                "command": "D:\\node.exe tools/test_html_demo.mjs",
+                "passed": true,
+                "status": 0,
+                "stdout": "{\n  \"ok\": true,\n  \"recipes\": 91,\n  \"pantryItems\": 35,\n  \"verifiedMedia\": [\n    {\n      \"id\": \"cn-001\",\n      \"steps\": 6,\n      \"stepImages\": 6\n    },\n    {\n      \"id\": \"cn-002\",\n      \"steps\": 7,\n      \"stepImages\": 6\n    },\n    {\n      \"id\": \"cn-003\",\n      \"steps\": 6,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"cn-004\",\n      \"steps\": 7,\n      \"stepImages\": 5\n    },\n    {\n      \"id\": \"cn-005\",\n      \"steps\": 11,\n      \"stepImages\": 11\n    },\n    {\n      \"id\": \"cn-006\",\n      \"steps\": 5,\n      \"stepImages\": 3\n    },\n    {\n      \"id\": \"cn-007\",\n      \"steps\": 19,\n      \"stepImages\": 19\n    },\n    {\n      \"id\": \"cn-008\",\n      \"steps\": 9,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"cn-009\",\n      \"steps\": 8,\n      \"stepImages\": 8\n    },\n    {\n      \"id\": \"cn-010\",\n      \"steps\": 13,\n      \"stepImages\": 13\n    },\n    {\n      \"id\": \"cn-011\",\n      \"steps\": 9,\n      \"stepImages\": 9\n    },\n    {\n      \"id\": \"cn-019\",\n      \"steps\": 8,\n      \"stepImages\": 5\n    },\n    {\n      \"id\": \"cn-020\",\n      \"steps\": 14,\n      \"stepImages\": 12\n    },\n    {\n      \"id\": \"cn-024\",\n      \"steps\": 16,\n      \"stepImages\": 15\n    },\n    {\n      \"id\": \"cn-027\",\n      \"steps\": 17,\n      \"stepImages\": 17\n    },\n    {\n      \"id\": \"cn-029\",\n      \"steps\": 13,\n      \"stepImages\": 12\n    },\n    {\n      \"id\": \"cn-031\",\n      \"steps\": 8,\n      \"stepImages\": 7\n    },\n    {\n      \"id\": \"cn-035\",\n      \"steps\": 10,\n      \"stepImages\": 7\n    },\n    {\n      \"id\": \"cn-036\",\n      \"steps\": 4,\n      \"stepImages\": 3\n    },\n    {\n      \"id\": \"cn-054\",\n      \"steps\": 11,\n      \"stepImages\": 9\n    },\n    {\n      \"id\": \"west-004\",\n      \"steps\": 4,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-006\",\n      \"steps\": 4,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-011\",\n      \"steps\": 5,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-012\",\n      \"steps\": 10,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-020\",\n      \"steps\": 8,\n      \"stepImages\": 5\n    },\n    {\n      \"id\": \"west-031\",\n      \"steps\": 6,\n      \"stepImages\": 0\n    }\n  ],\n  \"testedRoutes\": [\n    \"home\",\n    \"pantry\",\n    \"recommendations\",\n    \"recipe\",\n    \"game\",\n    \"cook\",\n    \"shopping\",\n    \"recipes\",\n    \"me\"\n  ],\n  \"browserErrors\": []\n}",
+                "stderr": ""
+              },
+              {
+                "command": "D:\\node.exe tools/build_vercel_output.mjs",
+                "passed": true,
+                "status": 0,
+                "stdout": "Vercel 静态构建完成：C:\\Users\\myw\\Documents\\recipe-automation\\dist\nVercel Build Output 已生成：C:\\Users\\myw\\Documents\\recipe-automation\\.vercel\\output",
+                "stderr": ""
+              }
+            ]
+          }
+        },
+        "review": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "status": "PASS",
+            "issues": [],
+            "summary": "cn-031整份采用同一Woks信源，未混入近名书籍配方。原料、单位、分油量、葱白葱绿加入次序、中火煎制、每面3—5分钟范围、肉末熟透及沸腾判据均保留；30分钟总时长与4人份有原文依据。生成控件未将范围或相对火力伪作固定参数，shellfish与soy标签覆盖基础配方。已核对本地成品图和全部7张过程图，图片与步骤对应；12行原料及8个连续步骤语义、语法、标点、括号和分隔结构检查通过。确定性校验及其浏览器、构建结果通过。",
+            "evidencePackageHash": "008ee7fe0f3aedd18354679412b2d87a575dfcf6279af751b62099b202f57777",
+            "validatorPassed": true,
+            "adversarialReview": {
+              "ingredientSemantics": true,
+              "stepGrammar": true,
+              "punctuation": true,
+              "renderedStructure": true
+            }
+          }
+        },
+        "build": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "ok": true,
+            "exitCode": 0,
+            "command": "npm run test:workflow:deterministic",
+            "completedAt": "2026-10-08T17:35:47.0041510Z",
+            "includesTestAI": false
+          }
+        },
+        "gitPush": {
+          "status": "pending",
+          "attempts": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "recipeId": "cn-035",
+      "name": "冬瓜排骨汤",
+      "status": "in_progress",
+      "steps": {
+        "research": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "evidencePath": "workflow/batches/2026-10-08-remaining44/cn-035.evidence.json",
+            "evidencePackageHash": "75d7bbb56a94182f96621f0ff91b4b482efb95946e9f010b1914c5684b6fc80b",
+            "selectedSourceUrl": "https://thewoksoflife.com/winter-melon-soup-pork-ribs/",
+            "sourceMode": "single_source",
+            "singleSourceReason": "已读取数据库全部84份书籍菜谱并按名称、别名和正文核对，本菜无完全匹配书籍信源。已检索配置豆果来源，其他候选如有见notes；保留可访问完整Woks整份配方。"
+          }
+        },
+        "ingestion": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "selectedDocumentId": "fc8be572-9638-48b4-8fb1-b416a9893e56",
+            "documentIds": [
+              "fc8be572-9638-48b4-8fb1-b416a9893e56"
+            ],
+            "ragEvidence": 6
+          }
+        },
+        "edit": {
+          "status": "done",
+          "attempts": 1,
+          "details": {}
+        },
+        "validator": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "ok": true,
+            "targetId": "cn-035",
+            "checks": [
+              {
+                "name": "unique_ids",
+                "passed": true
+              },
+              {
+                "name": "target_exists_once",
+                "passed": true
+              },
+              {
+                "name": "required_fields",
+                "passed": true
+              },
+              {
+                "name": "target_name",
+                "passed": true
+              },
+              {
+                "name": "target_ingredients",
+                "passed": true,
+                "count": 9
+              },
+              {
+                "name": "target_steps",
+                "passed": true,
+                "count": 10
+              },
+              {
+                "name": "stable_target_fields",
+                "passed": true,
+                "allowedChanges": []
+              },
+              {
+                "name": "target_changed",
+                "passed": false,
+                "required": false
+              },
+              {
+                "name": "target_only_diff",
+                "passed": true,
+                "changed": []
+              },
+              {
+                "name": "generated_target_exists",
+                "passed": true
+              }
+            ],
+            "errors": [],
+            "commands": [
+              {
+                "command": "D:\\node.exe tools/build_html_demo_data.mjs",
+                "passed": true,
+                "status": 0,
+                "stdout": "Generated 91 recipes.",
+                "stderr": ""
+              },
+              {
+                "command": "D:\\node.exe tools/test_html_demo.mjs",
+                "passed": true,
+                "status": 0,
+                "stdout": "{\n  \"ok\": true,\n  \"recipes\": 91,\n  \"pantryItems\": 35,\n  \"verifiedMedia\": [\n    {\n      \"id\": \"cn-001\",\n      \"steps\": 6,\n      \"stepImages\": 6\n    },\n    {\n      \"id\": \"cn-002\",\n      \"steps\": 7,\n      \"stepImages\": 6\n    },\n    {\n      \"id\": \"cn-003\",\n      \"steps\": 6,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"cn-004\",\n      \"steps\": 7,\n      \"stepImages\": 5\n    },\n    {\n      \"id\": \"cn-005\",\n      \"steps\": 11,\n      \"stepImages\": 11\n    },\n    {\n      \"id\": \"cn-006\",\n      \"steps\": 5,\n      \"stepImages\": 3\n    },\n    {\n      \"id\": \"cn-007\",\n      \"steps\": 19,\n      \"stepImages\": 19\n    },\n    {\n      \"id\": \"cn-008\",\n      \"steps\": 9,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"cn-009\",\n      \"steps\": 8,\n      \"stepImages\": 8\n    },\n    {\n      \"id\": \"cn-010\",\n      \"steps\": 13,\n      \"stepImages\": 13\n    },\n    {\n      \"id\": \"cn-011\",\n      \"steps\": 9,\n      \"stepImages\": 9\n    },\n    {\n      \"id\": \"cn-019\",\n      \"steps\": 8,\n      \"stepImages\": 5\n    },\n    {\n      \"id\": \"cn-020\",\n      \"steps\": 14,\n      \"stepImages\": 12\n    },\n    {\n      \"id\": \"cn-024\",\n      \"steps\": 16,\n      \"stepImages\": 15\n    },\n    {\n      \"id\": \"cn-027\",\n      \"steps\": 17,\n      \"stepImages\": 17\n    },\n    {\n      \"id\": \"cn-029\",\n      \"steps\": 13,\n      \"stepImages\": 12\n    },\n    {\n      \"id\": \"cn-031\",\n      \"steps\": 8,\n      \"stepImages\": 7\n    },\n    {\n      \"id\": \"cn-035\",\n      \"steps\": 10,\n      \"stepImages\": 7\n    },\n    {\n      \"id\": \"cn-036\",\n      \"steps\": 4,\n      \"stepImages\": 3\n    },\n    {\n      \"id\": \"cn-039\",\n      \"steps\": 27,\n      \"stepImages\": 21\n    },\n    {\n      \"id\": \"cn-054\",\n      \"steps\": 11,\n      \"stepImages\": 9\n    },\n    {\n      \"id\": \"west-004\",\n      \"steps\": 4,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-006\",\n      \"steps\": 4,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-011\",\n      \"steps\": 5,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-012\",\n      \"steps\": 10,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-020\",\n      \"steps\": 8,\n      \"stepImages\": 5\n    },\n    {\n      \"id\": \"west-031\",\n      \"steps\": 6,\n      \"stepImages\": 0\n    }\n  ],\n  \"testedRoutes\": [\n    \"home\",\n    \"pantry\",\n    \"recommendations\",\n    \"recipe\",\n    \"game\",\n    \"cook\",\n    \"shopping\",\n    \"recipes\",\n    \"me\"\n  ],\n  \"browserErrors\": []\n}",
+                "stderr": ""
+              },
+              {
+                "command": "D:\\node.exe tools/build_vercel_output.mjs",
+                "passed": true,
+                "status": 0,
+                "stdout": "Vercel 静态构建完成：C:\\Users\\myw\\Documents\\recipe-automation\\dist\nVercel Build Output 已生成：C:\\Users\\myw\\Documents\\recipe-automation\\.vercel\\output",
+                "stderr": ""
+              }
+            ]
+          }
+        },
+        "review": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "status": "PASS",
+            "issues": [],
+            "summary": "cn-035复审通过：生成食材名称已清理为‘香菜和/或葱’，显示用量仍准确保留合计1把。已重新核对9行原料、10个步骤和元数据，单一信源、分阶段用水、浸泡及焯洗、90分钟及15分钟微沸、冬瓜熟度、205分钟总时间及8人份均有依据。此前实际查看的成品图及7张过程图映射正确，本次逐张核验本地文件哈希与冻结证据一致。独立食材语义、步骤语法、标点及渲染结构检查通过，更新后的确定性、浏览器及构建校验通过。",
+            "evidencePackageHash": "75d7bbb56a94182f96621f0ff91b4b482efb95946e9f010b1914c5684b6fc80b",
+            "validatorPassed": true,
+            "adversarialReview": {
+              "ingredientSemantics": true,
+              "stepGrammar": true,
+              "punctuation": true,
+              "renderedStructure": true
+            }
+          }
+        },
+        "build": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "ok": true,
+            "exitCode": 0,
+            "command": "npm run test:workflow:deterministic",
+            "completedAt": "2026-10-08T17:35:47.0041510Z",
+            "includesTestAI": false
+          }
+        },
+        "gitPush": {
+          "status": "pending",
+          "attempts": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "recipeId": "cn-037",
+      "name": "佛跳墙",
+      "status": "failed",
+      "steps": {
+        "research": {
+          "status": "failed",
+          "attempts": 1,
+          "details": {
+            "resultPath": "workflow/batches/2026-10-08-remaining44/cn-037.research-failure.json",
+            "bookSearch": {
+              "auditFile": "cn-book-inventory.json",
+              "scannedDocuments": 84,
+              "usableDocuments": 79,
+              "exactOrAcceptableAliasMatches": 0,
+              "excludedStatuses": [
+                "superseded",
+                "rejected",
+                "invalid"
+              ],
+              "assessment": "No complete same-dish recipe in current database books; no book supplementation fabricated."
+            }
+          }
+        },
+        "ingestion": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "edit": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "validator": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "review": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "build": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "gitPush": {
+          "status": "pending",
+          "attempts": 0
+        }
+      },
+      "errors": [
+        {
+          "step": "research",
+          "code": "NO_QUALIFYING_COMPLETE_SOURCE",
+          "message": "配置两项网站未获得佛跳墙完整配方；豆果目录不可读；不以菌菇汤等近名来源补齐。",
+          "at": "2026-10-08T12:48:15.812Z"
+        }
+      ]
+    },
+    {
+      "recipeId": "cn-039",
+      "name": "海南鸡饭",
+      "status": "in_progress",
+      "steps": {
+        "research": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "evidencePath": "workflow/batches/2026-10-08-remaining44/cn-039.evidence.json",
+            "evidencePackageHash": "63db4fafee7338deb0b1ac63cbc013168a98b58935b40dbab94aaf7d8d624898",
+            "selectedSourceUrl": "https://thewoksoflife.com/hainanese-chicken-rice/",
+            "sourceMode": "single_source",
+            "singleSourceReason": "已读取数据库全部84份书籍菜谱并按名称、别名和正文核对，本菜无完全匹配书籍信源。已检索配置豆果来源，其他候选如有见notes；保留可访问完整Woks整份配方。"
+          }
+        },
+        "ingestion": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "selectedDocumentId": "e9ce4921-06d9-457d-b816-2eb881079e56",
+            "documentIds": [
+              "e9ce4921-06d9-457d-b816-2eb881079e56"
+            ],
+            "ragEvidence": 9
+          }
+        },
+        "edit": {
+          "status": "done",
+          "attempts": 1,
+          "details": {}
+        },
+        "validator": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "ok": true,
+            "targetId": "cn-039",
+            "checks": [
+              {
+                "name": "unique_ids",
+                "passed": true
+              },
+              {
+                "name": "target_exists_once",
+                "passed": true
+              },
+              {
+                "name": "required_fields",
+                "passed": true
+              },
+              {
+                "name": "target_name",
+                "passed": true
+              },
+              {
+                "name": "target_ingredients",
+                "passed": true,
+                "count": 31
+              },
+              {
+                "name": "target_steps",
+                "passed": true,
+                "count": 27
+              },
+              {
+                "name": "stable_target_fields",
+                "passed": true,
+                "allowedChanges": [
+                  "source"
+                ]
+              },
+              {
+                "name": "target_changed",
+                "passed": true,
+                "required": true
+              },
+              {
+                "name": "target_only_diff",
+                "passed": true,
+                "changed": []
+              },
+              {
+                "name": "generated_target_exists",
+                "passed": true
+              }
+            ],
+            "errors": [],
+            "commands": [
+              {
+                "command": "D:\\node.exe tools/build_html_demo_data.mjs",
+                "passed": true,
+                "status": 0,
+                "stdout": "Generated 91 recipes.",
+                "stderr": ""
+              },
+              {
+                "command": "D:\\node.exe tools/test_html_demo.mjs",
+                "passed": true,
+                "status": 0,
+                "stdout": "{\n  \"ok\": true,\n  \"recipes\": 91,\n  \"pantryItems\": 35,\n  \"verifiedMedia\": [\n    {\n      \"id\": \"cn-001\",\n      \"steps\": 6,\n      \"stepImages\": 6\n    },\n    {\n      \"id\": \"cn-002\",\n      \"steps\": 7,\n      \"stepImages\": 6\n    },\n    {\n      \"id\": \"cn-003\",\n      \"steps\": 6,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"cn-004\",\n      \"steps\": 7,\n      \"stepImages\": 5\n    },\n    {\n      \"id\": \"cn-005\",\n      \"steps\": 11,\n      \"stepImages\": 11\n    },\n    {\n      \"id\": \"cn-006\",\n      \"steps\": 5,\n      \"stepImages\": 3\n    },\n    {\n      \"id\": \"cn-007\",\n      \"steps\": 19,\n      \"stepImages\": 19\n    },\n    {\n      \"id\": \"cn-008\",\n      \"steps\": 9,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"cn-009\",\n      \"steps\": 8,\n      \"stepImages\": 8\n    },\n    {\n      \"id\": \"cn-010\",\n      \"steps\": 13,\n      \"stepImages\": 13\n    },\n    {\n      \"id\": \"cn-011\",\n      \"steps\": 9,\n      \"stepImages\": 9\n    },\n    {\n      \"id\": \"cn-019\",\n      \"steps\": 8,\n      \"stepImages\": 5\n    },\n    {\n      \"id\": \"cn-020\",\n      \"steps\": 14,\n      \"stepImages\": 12\n    },\n    {\n      \"id\": \"cn-024\",\n      \"steps\": 16,\n      \"stepImages\": 15\n    },\n    {\n      \"id\": \"cn-027\",\n      \"steps\": 17,\n      \"stepImages\": 17\n    },\n    {\n      \"id\": \"cn-029\",\n      \"steps\": 13,\n      \"stepImages\": 12\n    },\n    {\n      \"id\": \"cn-031\",\n      \"steps\": 8,\n      \"stepImages\": 7\n    },\n    {\n      \"id\": \"cn-035\",\n      \"steps\": 10,\n      \"stepImages\": 7\n    },\n    {\n      \"id\": \"cn-036\",\n      \"steps\": 4,\n      \"stepImages\": 3\n    },\n    {\n      \"id\": \"cn-039\",\n      \"steps\": 27,\n      \"stepImages\": 20\n    },\n    {\n      \"id\": \"cn-054\",\n      \"steps\": 11,\n      \"stepImages\": 9\n    },\n    {\n      \"id\": \"west-004\",\n      \"steps\": 4,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-006\",\n      \"steps\": 4,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-011\",\n      \"steps\": 5,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-012\",\n      \"steps\": 10,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-020\",\n      \"steps\": 8,\n      \"stepImages\": 5\n    },\n    {\n      \"id\": \"west-031\",\n      \"steps\": 6,\n      \"stepImages\": 0\n    }\n  ],\n  \"testedRoutes\": [\n    \"home\",\n    \"pantry\",\n    \"recommendations\",\n    \"recipe\",\n    \"game\",\n    \"cook\",\n    \"shopping\",\n    \"recipes\",\n    \"me\"\n  ],\n  \"browserErrors\": []\n}",
+                "stderr": ""
+              },
+              {
+                "command": "D:\\node.exe tools/build_vercel_output.mjs",
+                "passed": true,
+                "status": 0,
+                "stdout": "Vercel 静态构建完成：C:\\Users\\myw\\Documents\\recipe-automation\\dist\nVercel Build Output 已生成：C:\\Users\\myw\\Documents\\recipe-automation\\.vercel\\output",
+                "stderr": ""
+              }
+            ]
+          }
+        },
+        "review": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "status": "PASS",
+            "issues": [],
+            "summary": "cn-039复审通过。实际图像确认第十八步对应料理机研磨，第十九步对应油锅煎炒，第二十步保持纯文字，前次两处错配已修复。其余已查看的本地图片本次哈希均与冻结证据一致，全部20张运行时过程图及成品图使用本地资源。重新核对31行原料、27个步骤、三款酱汁及二选一煮饭路线，无外部配方混入、虚构单位容量、固定范围计时或无依据火力。来源同页油量、蒜量及总时间差异均有原文依据并明确披露，未造成关键工艺缺失。四项独立语言检查及更新后的确定性、浏览器和构建校验通过。",
+            "evidencePackageHash": "63db4fafee7338deb0b1ac63cbc013168a98b58935b40dbab94aaf7d8d624898",
+            "validatorPassed": true,
+            "adversarialReview": {
+              "ingredientSemantics": true,
+              "stepGrammar": true,
+              "punctuation": true,
+              "renderedStructure": true
+            }
+          }
+        },
+        "build": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "ok": true,
+            "exitCode": 0,
+            "command": "npm run test:workflow:deterministic",
+            "completedAt": "2026-10-08T17:35:47.0041510Z",
+            "includesTestAI": false
+          }
+        },
+        "gitPush": {
+          "status": "pending",
+          "attempts": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "recipeId": "cn-040",
+      "name": "担担面",
+      "status": "in_progress",
+      "steps": {
+        "research": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "evidencePath": "workflow/batches/2026-10-08-remaining44/cn-040.evidence.json",
+            "evidencePackageHash": "989f849965b863c7780ca15d17f3edd43b71ac25026d7759db29b5f16aac35ab",
+            "selectedSourceUrl": "https://thewoksoflife.com/dan-dan-noodles/",
+            "sourceMode": "single_source",
+            "singleSourceReason": "已读取数据库全部84份书籍菜谱并按名称、别名和正文核对，本菜无完全匹配书籍信源。已检索配置豆果来源，其他候选如有见notes；保留可访问完整Woks整份配方。"
+          }
+        },
+        "ingestion": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "selectedDocumentId": "72ce298f-8af6-4c11-860b-dd60f9445054",
+            "documentIds": [
+              "72ce298f-8af6-4c11-860b-dd60f9445054"
+            ],
+            "ragEvidence": 6
+          }
+        },
+        "edit": {
+          "status": "done",
+          "attempts": 1,
+          "details": {}
+        },
+        "validator": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "ok": true,
+            "targetId": "cn-040",
+            "checks": [
+              {
+                "name": "unique_ids",
+                "passed": true
+              },
+              {
+                "name": "target_exists_once",
+                "passed": true
+              },
+              {
+                "name": "required_fields",
+                "passed": true
+              },
+              {
+                "name": "target_name",
+                "passed": true
+              },
+              {
+                "name": "target_ingredients",
+                "passed": true,
+                "count": 25
+              },
+              {
+                "name": "target_steps",
+                "passed": true,
+                "count": 17
+              },
+              {
+                "name": "stable_target_fields",
+                "passed": true,
+                "allowedChanges": [
+                  "source"
+                ]
+              },
+              {
+                "name": "target_changed",
+                "passed": true,
+                "required": true
+              },
+              {
+                "name": "target_only_diff",
+                "passed": true,
+                "changed": []
+              },
+              {
+                "name": "generated_target_exists",
+                "passed": true
+              }
+            ],
+            "errors": [],
+            "commands": [
+              {
+                "command": "D:\\node.exe tools/build_html_demo_data.mjs",
+                "passed": true,
+                "status": 0,
+                "stdout": "Generated 91 recipes.",
+                "stderr": ""
+              },
+              {
+                "command": "D:\\node.exe tools/test_html_demo.mjs",
+                "passed": true,
+                "status": 0,
+                "stdout": "{\n  \"ok\": true,\n  \"recipes\": 91,\n  \"pantryItems\": 35,\n  \"verifiedMedia\": [\n    {\n      \"id\": \"cn-001\",\n      \"steps\": 6,\n      \"stepImages\": 6\n    },\n    {\n      \"id\": \"cn-002\",\n      \"steps\": 7,\n      \"stepImages\": 6\n    },\n    {\n      \"id\": \"cn-003\",\n      \"steps\": 6,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"cn-004\",\n      \"steps\": 7,\n      \"stepImages\": 5\n    },\n    {\n      \"id\": \"cn-005\",\n      \"steps\": 11,\n      \"stepImages\": 11\n    },\n    {\n      \"id\": \"cn-006\",\n      \"steps\": 5,\n      \"stepImages\": 3\n    },\n    {\n      \"id\": \"cn-007\",\n      \"steps\": 19,\n      \"stepImages\": 19\n    },\n    {\n      \"id\": \"cn-008\",\n      \"steps\": 9,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"cn-009\",\n      \"steps\": 8,\n      \"stepImages\": 8\n    },\n    {\n      \"id\": \"cn-010\",\n      \"steps\": 13,\n      \"stepImages\": 13\n    },\n    {\n      \"id\": \"cn-011\",\n      \"steps\": 9,\n      \"stepImages\": 9\n    },\n    {\n      \"id\": \"cn-019\",\n      \"steps\": 8,\n      \"stepImages\": 5\n    },\n    {\n      \"id\": \"cn-020\",\n      \"steps\": 14,\n      \"stepImages\": 12\n    },\n    {\n      \"id\": \"cn-024\",\n      \"steps\": 16,\n      \"stepImages\": 15\n    },\n    {\n      \"id\": \"cn-027\",\n      \"steps\": 17,\n      \"stepImages\": 17\n    },\n    {\n      \"id\": \"cn-029\",\n      \"steps\": 13,\n      \"stepImages\": 12\n    },\n    {\n      \"id\": \"cn-031\",\n      \"steps\": 8,\n      \"stepImages\": 7\n    },\n    {\n      \"id\": \"cn-035\",\n      \"steps\": 10,\n      \"stepImages\": 7\n    },\n    {\n      \"id\": \"cn-036\",\n      \"steps\": 4,\n      \"stepImages\": 3\n    },\n    {\n      \"id\": \"cn-039\",\n      \"steps\": 27,\n      \"stepImages\": 20\n    },\n    {\n      \"id\": \"cn-040\",\n      \"steps\": 17,\n      \"stepImages\": 10\n    },\n    {\n      \"id\": \"cn-054\",\n      \"steps\": 11,\n      \"stepImages\": 9\n    },\n    {\n      \"id\": \"west-004\",\n      \"steps\": 4,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-006\",\n      \"steps\": 4,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-011\",\n      \"steps\": 5,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-012\",\n      \"steps\": 10,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-020\",\n      \"steps\": 8,\n      \"stepImages\": 5\n    },\n    {\n      \"id\": \"west-031\",\n      \"steps\": 6,\n      \"stepImages\": 0\n    }\n  ],\n  \"testedRoutes\": [\n    \"home\",\n    \"pantry\",\n    \"recommendations\",\n    \"recipe\",\n    \"game\",\n    \"cook\",\n    \"shopping\",\n    \"recipes\",\n    \"me\"\n  ],\n  \"browserErrors\": []\n}",
+                "stderr": ""
+              },
+              {
+                "command": "D:\\node.exe tools/build_vercel_output.mjs",
+                "passed": true,
+                "status": 0,
+                "stdout": "Vercel 静态构建完成：C:\\Users\\myw\\Documents\\recipe-automation\\dist\nVercel Build Output 已生成：C:\\Users\\myw\\Documents\\recipe-automation\\.vercel\\output",
+                "stderr": ""
+              }
+            ]
+          }
+        },
+        "review": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "status": "PASS",
+            "issues": [],
+            "summary": "cn-040单源完整配方、25行原料及17个连续步骤通过审查。325℉换算约163℃正确；先关火等待6—7分钟再去香料、浸辣椒的顺序保留，范围没有固定计时。制油整份与碗汁取用1/2杯、炒肉及芽菜分用1与2茶匙油均清楚；热煮面水在取得后再加入，六份与四大碗选择明确。90分钟总时间、份数及花生、小麦、大豆、芝麻标签有依据。已实际查看成品图及全部10张运行时过程图，操作与映射对应，核验本地文件哈希与冻结证据一致。食材身份、步骤语法、标点括号、分隔及渲染结构检查通过，确定性、浏览器与构建校验通过。",
+            "evidencePackageHash": "989f849965b863c7780ca15d17f3edd43b71ac25026d7759db29b5f16aac35ab",
+            "validatorPassed": true,
+            "adversarialReview": {
+              "ingredientSemantics": true,
+              "stepGrammar": true,
+              "punctuation": true,
+              "renderedStructure": true
+            }
+          }
+        },
+        "build": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "ok": true,
+            "exitCode": 0,
+            "command": "npm run test:workflow:deterministic",
+            "completedAt": "2026-10-08T17:35:47.0041510Z",
+            "includesTestAI": false
+          }
+        },
+        "gitPush": {
+          "status": "pending",
+          "attempts": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "recipeId": "cn-043",
+      "name": "重庆小面",
+      "status": "failed",
+      "steps": {
+        "research": {
+          "status": "failed",
+          "attempts": 1,
+          "details": {
+            "resultPath": "workflow/batches/2026-10-08-remaining44/cn-043.research-failure.json",
+            "bookSearch": {
+              "auditFile": "cn-book-inventory.json",
+              "scannedDocuments": 84,
+              "usableDocuments": 79,
+              "exactOrAcceptableAliasMatches": 0,
+              "excludedStatuses": [
+                "superseded",
+                "rejected",
+                "invalid"
+              ],
+              "assessment": "No complete same-dish recipe in current database books; no book supplementation fabricated."
+            }
+          }
+        },
+        "ingestion": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "edit": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "validator": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "review": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "build": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "gitPush": {
+          "status": "pending",
+          "attempts": 0
+        }
+      },
+      "errors": [
+        {
+          "step": "research",
+          "code": "NO_QUALIFYING_COMPLETE_SOURCE",
+          "message": "豆果重庆小面候选页面抓取403；Woks结果为酸辣粉或上海面条，不匹配。",
+          "at": "2026-10-08T12:48:15.908Z"
+        }
+      ]
+    },
+    {
+      "recipeId": "cn-044",
+      "name": "小笼包",
+      "status": "in_progress",
+      "steps": {
+        "research": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "evidencePath": "workflow/batches/2026-10-08-remaining44/cn-044.evidence.json",
+            "evidencePackageHash": "dc926fb2447140f8089251ec3588bd0ee56d0e093225567194dce2b2d530266a",
+            "selectedSourceUrl": "https://thewoksoflife.com/steamed-shanghai-soup-dumplings-xiaolongbao/",
+            "sourceMode": "single_source",
+            "singleSourceReason": "已读取数据库全部84份书籍菜谱并按名称、别名和正文核对，本菜无完全匹配书籍信源。已检索配置豆果来源，其他候选如有见notes；保留可访问完整Woks整份配方。"
+          }
+        },
+        "ingestion": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "selectedDocumentId": "6d4bc2d5-d6db-4913-b97f-a04179a32c3b",
+            "documentIds": [
+              "6d4bc2d5-d6db-4913-b97f-a04179a32c3b"
+            ],
+            "ragEvidence": 8
+          }
+        },
+        "edit": {
+          "status": "done",
+          "attempts": 1,
+          "details": {}
+        },
+        "validator": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "ok": true,
+            "targetId": "cn-044",
+            "checks": [
+              {
+                "name": "unique_ids",
+                "passed": true
+              },
+              {
+                "name": "target_exists_once",
+                "passed": true
+              },
+              {
+                "name": "required_fields",
+                "passed": true
+              },
+              {
+                "name": "target_name",
+                "passed": true
+              },
+              {
+                "name": "target_ingredients",
+                "passed": true,
+                "count": 23
+              },
+              {
+                "name": "target_steps",
+                "passed": true,
+                "count": 27
+              },
+              {
+                "name": "stable_target_fields",
+                "passed": true,
+                "allowedChanges": [
+                  "source"
+                ]
+              },
+              {
+                "name": "target_changed",
+                "passed": true,
+                "required": true
+              },
+              {
+                "name": "target_only_diff",
+                "passed": true,
+                "changed": []
+              },
+              {
+                "name": "generated_target_exists",
+                "passed": true
+              }
+            ],
+            "errors": [],
+            "commands": [
+              {
+                "command": "D:\\node.exe tools/build_html_demo_data.mjs",
+                "passed": true,
+                "status": 0,
+                "stdout": "Generated 91 recipes.",
+                "stderr": ""
+              },
+              {
+                "command": "D:\\node.exe tools/test_html_demo.mjs",
+                "passed": true,
+                "status": 0,
+                "stdout": "{\n  \"ok\": true,\n  \"recipes\": 91,\n  \"pantryItems\": 35,\n  \"verifiedMedia\": [\n    {\n      \"id\": \"cn-001\",\n      \"steps\": 6,\n      \"stepImages\": 6\n    },\n    {\n      \"id\": \"cn-002\",\n      \"steps\": 7,\n      \"stepImages\": 6\n    },\n    {\n      \"id\": \"cn-003\",\n      \"steps\": 6,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"cn-004\",\n      \"steps\": 7,\n      \"stepImages\": 5\n    },\n    {\n      \"id\": \"cn-005\",\n      \"steps\": 11,\n      \"stepImages\": 11\n    },\n    {\n      \"id\": \"cn-006\",\n      \"steps\": 5,\n      \"stepImages\": 3\n    },\n    {\n      \"id\": \"cn-007\",\n      \"steps\": 19,\n      \"stepImages\": 19\n    },\n    {\n      \"id\": \"cn-008\",\n      \"steps\": 9,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"cn-009\",\n      \"steps\": 8,\n      \"stepImages\": 8\n    },\n    {\n      \"id\": \"cn-010\",\n      \"steps\": 13,\n      \"stepImages\": 13\n    },\n    {\n      \"id\": \"cn-011\",\n      \"steps\": 9,\n      \"stepImages\": 9\n    },\n    {\n      \"id\": \"cn-019\",\n      \"steps\": 8,\n      \"stepImages\": 5\n    },\n    {\n      \"id\": \"cn-020\",\n      \"steps\": 14,\n      \"stepImages\": 12\n    },\n    {\n      \"id\": \"cn-024\",\n      \"steps\": 16,\n      \"stepImages\": 15\n    },\n    {\n      \"id\": \"cn-027\",\n      \"steps\": 17,\n      \"stepImages\": 17\n    },\n    {\n      \"id\": \"cn-029\",\n      \"steps\": 13,\n      \"stepImages\": 12\n    },\n    {\n      \"id\": \"cn-031\",\n      \"steps\": 8,\n      \"stepImages\": 7\n    },\n    {\n      \"id\": \"cn-035\",\n      \"steps\": 10,\n      \"stepImages\": 7\n    },\n    {\n      \"id\": \"cn-036\",\n      \"steps\": 4,\n      \"stepImages\": 3\n    },\n    {\n      \"id\": \"cn-039\",\n      \"steps\": 27,\n      \"stepImages\": 20\n    },\n    {\n      \"id\": \"cn-040\",\n      \"steps\": 17,\n      \"stepImages\": 10\n    },\n    {\n      \"id\": \"cn-044\",\n      \"steps\": 27,\n      \"stepImages\": 9\n    },\n    {\n      \"id\": \"cn-051\",\n      \"steps\": 17,\n      \"stepImages\": 8\n    },\n    {\n      \"id\": \"cn-054\",\n      \"steps\": 11,\n      \"stepImages\": 9\n    },\n    {\n      \"id\": \"west-004\",\n      \"steps\": 4,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-006\",\n      \"steps\": 4,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-011\",\n      \"steps\": 5,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-012\",\n      \"steps\": 10,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-020\",\n      \"steps\": 8,\n      \"stepImages\": 5\n    },\n    {\n      \"id\": \"west-031\",\n      \"steps\": 6,\n      \"stepImages\": 0\n    }\n  ],\n  \"testedRoutes\": [\n    \"home\",\n    \"pantry\",\n    \"recommendations\",\n    \"recipe\",\n    \"game\",\n    \"cook\",\n    \"shopping\",\n    \"recipes\",\n    \"me\"\n  ],\n  \"browserErrors\": []\n}",
+                "stderr": ""
+              },
+              {
+                "command": "D:\\node.exe tools/build_vercel_output.mjs",
+                "passed": true,
+                "status": 0,
+                "stdout": "Vercel 静态构建完成：C:\\Users\\myw\\Documents\\recipe-automation\\dist\nVercel Build Output 已生成：C:\\Users\\myw\\Documents\\recipe-automation\\.vercel\\output",
+                "stderr": ""
+              }
+            ]
+          }
+        },
+        "review": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "status": "PASS",
+            "issues": [],
+            "summary": "第二十二步已保持纯文字，step-13-12.jpg 不再映射至任何发布步骤。重新核对全部23项原料、27个生成步骤、单一来源完整配方、皮冻制作及鲜包和冷冻蒸制路线；用量、时间、计时控制、6份产量和过敏原符合证据，来源内部差异已披露。独立查看主图及9张步骤图片，映射语义正确，本地文件均非空且哈希匹配。分隔后的原料行及全部步骤通过独立对抗性语言和结构检查；确定性验证通过。",
+            "evidencePackageHash": "dc926fb2447140f8089251ec3588bd0ee56d0e093225567194dce2b2d530266a",
+            "validatorPassed": true,
+            "adversarialReview": {
+              "ingredientSemantics": true,
+              "stepGrammar": true,
+              "punctuation": true,
+              "renderedStructure": true
+            }
+          }
+        },
+        "build": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "ok": true,
+            "exitCode": 0,
+            "command": "npm run test:workflow:deterministic",
+            "completedAt": "2026-10-08T17:35:47.0041510Z",
+            "includesTestAI": false
+          }
+        },
+        "gitPush": {
+          "status": "pending",
+          "attempts": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "recipeId": "cn-049",
+      "name": "肉夹馍",
+      "status": "in_progress",
+      "steps": {
+        "research": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "evidencePath": "workflow/batches/2026-10-08-remaining44/cn-049.base-evidence.json",
+            "evidencePackageHash": "4be8c4899c3aed9f08d3708e99bb80af4ee5ab94ba29e2b786781734453d4c86",
+            "selectedSourceUrl": "https://thewoksoflife.com/chinese-hamburgers-rou-jia-mo/",
+            "sourceMode": "single_source",
+            "singleSourceReason": "已读取数据库全部84份书籍菜谱并按名称、别名和正文核对，本菜无完全匹配书籍信源。已检索配置豆果来源，其他候选如有见notes；保留可访问完整Woks整份配方。",
+            "publicationGate": "Final image/evidence acceptance pending"
+          }
+        },
+        "ingestion": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "selectedDocumentId": "d45ed17d-216f-4704-9a67-6d247f9705e5",
+            "documentIds": [
+              "d45ed17d-216f-4704-9a67-6d247f9705e5"
+            ],
+            "ragEvidence": 8
+          }
+        },
+        "edit": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "validator": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "review": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "build": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "gitPush": {
+          "status": "pending",
+          "attempts": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "recipeId": "cn-050",
+      "name": "煎饼果子",
+      "status": "failed",
+      "steps": {
+        "research": {
+          "status": "failed",
+          "attempts": 1,
+          "details": {
+            "resultPath": "workflow/batches/2026-10-08-remaining44/cn-050.research-failure.json",
+            "bookSearch": {
+              "auditFile": "cn-book-inventory.json",
+              "scannedDocuments": 84,
+              "usableDocuments": 79,
+              "exactOrAcceptableAliasMatches": 0,
+              "excludedStatuses": [
+                "superseded",
+                "rejected",
+                "invalid"
+              ],
+              "assessment": "No complete same-dish recipe in current database books; no book supplementation fabricated."
+            }
+          }
+        },
+        "ingestion": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "edit": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "validator": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "review": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "build": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "gitPush": {
+          "status": "pending",
+          "attempts": 0
+        }
+      },
+      "errors": [
+        {
+          "step": "research",
+          "code": "NO_QUALIFYING_COMPLETE_SOURCE",
+          "message": "Woks鸡蛋饼正文明确区分煎饼与鸡蛋饼；其链接JianBingApproximation用速冻葱油饼代替面糊并省略果子，属于不同变体；另一个链接只是游记无配方。豆果目录不可读。",
+          "at": "2026-10-08T12:48:16.001Z"
+        }
+      ]
+    },
+    {
+      "recipeId": "cn-051",
+      "name": "叉烧",
+      "status": "in_progress",
+      "steps": {
+        "research": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "evidencePath": "workflow/batches/2026-10-08-remaining44/cn-051.evidence.json",
+            "evidencePackageHash": "1fbc38e5fad60225486e4f14f9413a566eab155fe05af40894422faa50331164",
+            "selectedSourceUrl": "https://thewoksoflife.com/chinese-bbq-pork-cha-siu/",
+            "sourceMode": "single_source",
+            "singleSourceReason": "已读取数据库全部84份书籍菜谱并按名称、别名和正文核对，本菜无完全匹配书籍信源。已检索配置豆果来源，其他候选如有见notes；保留可访问完整Woks整份配方。"
+          }
+        },
+        "ingestion": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "selectedDocumentId": "16f8f429-96c0-467c-ac52-22297c424ccb",
+            "documentIds": [
+              "16f8f429-96c0-467c-ac52-22297c424ccb"
+            ],
+            "ragEvidence": 8
+          }
+        },
+        "edit": {
+          "status": "done",
+          "attempts": 1,
+          "details": {}
+        },
+        "validator": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "ok": true,
+            "targetId": "cn-051",
+            "checks": [
+              {
+                "name": "unique_ids",
+                "passed": true
+              },
+              {
+                "name": "target_exists_once",
+                "passed": true
+              },
+              {
+                "name": "required_fields",
+                "passed": true
+              },
+              {
+                "name": "target_name",
+                "passed": true
+              },
+              {
+                "name": "target_ingredients",
+                "passed": true,
+                "count": 17
+              },
+              {
+                "name": "target_steps",
+                "passed": true,
+                "count": 17
+              },
+              {
+                "name": "stable_target_fields",
+                "passed": true,
+                "allowedChanges": [
+                  "source"
+                ]
+              },
+              {
+                "name": "target_changed",
+                "passed": true,
+                "required": true
+              },
+              {
+                "name": "target_only_diff",
+                "passed": true,
+                "changed": []
+              },
+              {
+                "name": "generated_target_exists",
+                "passed": true
+              }
+            ],
+            "errors": [],
+            "commands": [
+              {
+                "command": "D:\\node.exe tools/build_html_demo_data.mjs",
+                "passed": true,
+                "status": 0,
+                "stdout": "Generated 91 recipes.",
+                "stderr": ""
+              },
+              {
+                "command": "D:\\node.exe tools/test_html_demo.mjs",
+                "passed": true,
+                "status": 0,
+                "stdout": "{\n  \"ok\": true,\n  \"recipes\": 91,\n  \"pantryItems\": 35,\n  \"verifiedMedia\": [\n    {\n      \"id\": \"cn-001\",\n      \"steps\": 6,\n      \"stepImages\": 6\n    },\n    {\n      \"id\": \"cn-002\",\n      \"steps\": 7,\n      \"stepImages\": 6\n    },\n    {\n      \"id\": \"cn-003\",\n      \"steps\": 6,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"cn-004\",\n      \"steps\": 7,\n      \"stepImages\": 5\n    },\n    {\n      \"id\": \"cn-005\",\n      \"steps\": 11,\n      \"stepImages\": 11\n    },\n    {\n      \"id\": \"cn-006\",\n      \"steps\": 5,\n      \"stepImages\": 3\n    },\n    {\n      \"id\": \"cn-007\",\n      \"steps\": 19,\n      \"stepImages\": 19\n    },\n    {\n      \"id\": \"cn-008\",\n      \"steps\": 9,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"cn-009\",\n      \"steps\": 8,\n      \"stepImages\": 8\n    },\n    {\n      \"id\": \"cn-010\",\n      \"steps\": 13,\n      \"stepImages\": 13\n    },\n    {\n      \"id\": \"cn-011\",\n      \"steps\": 9,\n      \"stepImages\": 9\n    },\n    {\n      \"id\": \"cn-019\",\n      \"steps\": 8,\n      \"stepImages\": 5\n    },\n    {\n      \"id\": \"cn-020\",\n      \"steps\": 14,\n      \"stepImages\": 12\n    },\n    {\n      \"id\": \"cn-024\",\n      \"steps\": 16,\n      \"stepImages\": 15\n    },\n    {\n      \"id\": \"cn-027\",\n      \"steps\": 17,\n      \"stepImages\": 17\n    },\n    {\n      \"id\": \"cn-029\",\n      \"steps\": 13,\n      \"stepImages\": 12\n    },\n    {\n      \"id\": \"cn-031\",\n      \"steps\": 8,\n      \"stepImages\": 7\n    },\n    {\n      \"id\": \"cn-035\",\n      \"steps\": 10,\n      \"stepImages\": 7\n    },\n    {\n      \"id\": \"cn-036\",\n      \"steps\": 4,\n      \"stepImages\": 3\n    },\n    {\n      \"id\": \"cn-039\",\n      \"steps\": 27,\n      \"stepImages\": 20\n    },\n    {\n      \"id\": \"cn-040\",\n      \"steps\": 17,\n      \"stepImages\": 10\n    },\n    {\n      \"id\": \"cn-044\",\n      \"steps\": 27,\n      \"stepImages\": 10\n    },\n    {\n      \"id\": \"cn-051\",\n      \"steps\": 17,\n      \"stepImages\": 8\n    },\n    {\n      \"id\": \"cn-054\",\n      \"steps\": 11,\n      \"stepImages\": 9\n    },\n    {\n      \"id\": \"west-004\",\n      \"steps\": 4,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-006\",\n      \"steps\": 4,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-011\",\n      \"steps\": 5,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-012\",\n      \"steps\": 10,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-020\",\n      \"steps\": 8,\n      \"stepImages\": 5\n    },\n    {\n      \"id\": \"west-031\",\n      \"steps\": 6,\n      \"stepImages\": 0\n    }\n  ],\n  \"testedRoutes\": [\n    \"home\",\n    \"pantry\",\n    \"recommendations\",\n    \"recipe\",\n    \"game\",\n    \"cook\",\n    \"shopping\",\n    \"recipes\",\n    \"me\"\n  ],\n  \"browserErrors\": []\n}",
+                "stderr": ""
+              },
+              {
+                "command": "D:\\node.exe tools/build_vercel_output.mjs",
+                "passed": true,
+                "status": 0,
+                "stdout": "Vercel 静态构建完成：C:\\Users\\myw\\Documents\\recipe-automation\\dist\nVercel Build Output 已生成：C:\\Users\\myw\\Documents\\recipe-automation\\.vercel\\output",
+                "stderr": ""
+              }
+            ]
+          }
+        },
+        "review": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "status": "PASS",
+            "issues": [],
+            "summary": "已独立核对冻结证据、17行生成原料、17个生成步骤、8人份、时间及全部发布图片。整份采用同一来源，预留腌酱与生肉腌酱分开，双方冷藏过夜或至少8小时；烤盘初始1又1/2杯水及干盘补1杯水均保留。首阶段共25分钟内先246℃烤10分钟再降190℃，之后15分钟、累计40分钟刷两面酱再烤10分钟，顺序正确。来源两项内部温度说明分别披露，出炉仍静置10分钟；60分钟来源总时间及其不含腌制的边界明确，未自行重算。倒计时仅用于明确的最后烤10分钟和静置10分钟。图片像素、步骤映射、本地文件哈希及来源一致。逐行对抗检查通过，未发现孤立说明、原料归属歧义、括号失衡、分隔符破坏或语法缺陷。确定性验证及构建通过。",
+            "evidencePackageHash": "1fbc38e5fad60225486e4f14f9413a566eab155fe05af40894422faa50331164",
+            "validatorPassed": true,
+            "adversarialReview": {
+              "ingredientSemantics": true,
+              "stepGrammar": true,
+              "punctuation": true,
+              "renderedStructure": true
+            }
+          }
+        },
+        "build": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "ok": true,
+            "exitCode": 0,
+            "command": "npm run test:workflow:deterministic",
+            "completedAt": "2026-10-08T17:35:47.0041510Z",
+            "includesTestAI": false
+          }
+        },
+        "gitPush": {
+          "status": "pending",
+          "attempts": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "recipeId": "cn-053",
+      "name": "盐焗鸡",
+      "status": "in_progress",
+      "steps": {
+        "research": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "evidencePath": "workflow/batches/2026-10-08-remaining44/cn-053.evidence.json",
+            "evidencePackageHash": "ce57a7bb25f28cf24cf541ff345b7c2e72fbdddb14212f6aef1e2902c3d80228",
+            "selectedSourceUrl": "https://thewoksoflife.com/salt-baked-chicken/",
+            "sourceMode": "single_source",
+            "singleSourceReason": "已读取数据库全部84份书籍菜谱并按名称、别名和正文核对，本菜无完全匹配书籍信源。已检索配置豆果来源，其他候选如有见notes；保留可访问完整Woks整份配方。"
+          }
+        },
+        "ingestion": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "selectedDocumentId": "2a659456-2a0f-4e3e-b07f-569cf91e2e15",
+            "documentIds": [
+              "2a659456-2a0f-4e3e-b07f-569cf91e2e15"
+            ],
+            "ragEvidence": 7
+          }
+        },
+        "edit": {
+          "status": "done",
+          "attempts": 1,
+          "details": {}
+        },
+        "validator": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "ok": true,
+            "targetId": "cn-053",
+            "checks": [
+              {
+                "name": "unique_ids",
+                "passed": true
+              },
+              {
+                "name": "target_exists_once",
+                "passed": true
+              },
+              {
+                "name": "required_fields",
+                "passed": true
+              },
+              {
+                "name": "target_name",
+                "passed": true
+              },
+              {
+                "name": "target_ingredients",
+                "passed": true,
+                "count": 10
+              },
+              {
+                "name": "target_steps",
+                "passed": true,
+                "count": 16
+              },
+              {
+                "name": "stable_target_fields",
+                "passed": true,
+                "allowedChanges": [
+                  "source"
+                ]
+              },
+              {
+                "name": "target_changed",
+                "passed": true,
+                "required": true
+              },
+              {
+                "name": "target_only_diff",
+                "passed": true,
+                "changed": []
+              },
+              {
+                "name": "generated_target_exists",
+                "passed": true
+              }
+            ],
+            "errors": [],
+            "commands": [
+              {
+                "command": "D:\\node.exe tools/build_html_demo_data.mjs",
+                "passed": true,
+                "status": 0,
+                "stdout": "Generated 91 recipes.",
+                "stderr": ""
+              },
+              {
+                "command": "D:\\node.exe tools/test_html_demo.mjs",
+                "passed": true,
+                "status": 0,
+                "stdout": "{\n  \"ok\": true,\n  \"recipes\": 91,\n  \"pantryItems\": 35,\n  \"verifiedMedia\": [\n    {\n      \"id\": \"cn-001\",\n      \"steps\": 6,\n      \"stepImages\": 6\n    },\n    {\n      \"id\": \"cn-002\",\n      \"steps\": 7,\n      \"stepImages\": 6\n    },\n    {\n      \"id\": \"cn-003\",\n      \"steps\": 6,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"cn-004\",\n      \"steps\": 7,\n      \"stepImages\": 5\n    },\n    {\n      \"id\": \"cn-005\",\n      \"steps\": 11,\n      \"stepImages\": 11\n    },\n    {\n      \"id\": \"cn-006\",\n      \"steps\": 5,\n      \"stepImages\": 3\n    },\n    {\n      \"id\": \"cn-007\",\n      \"steps\": 19,\n      \"stepImages\": 19\n    },\n    {\n      \"id\": \"cn-008\",\n      \"steps\": 9,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"cn-009\",\n      \"steps\": 8,\n      \"stepImages\": 8\n    },\n    {\n      \"id\": \"cn-010\",\n      \"steps\": 13,\n      \"stepImages\": 13\n    },\n    {\n      \"id\": \"cn-011\",\n      \"steps\": 9,\n      \"stepImages\": 9\n    },\n    {\n      \"id\": \"cn-019\",\n      \"steps\": 8,\n      \"stepImages\": 5\n    },\n    {\n      \"id\": \"cn-020\",\n      \"steps\": 14,\n      \"stepImages\": 12\n    },\n    {\n      \"id\": \"cn-024\",\n      \"steps\": 16,\n      \"stepImages\": 15\n    },\n    {\n      \"id\": \"cn-027\",\n      \"steps\": 17,\n      \"stepImages\": 17\n    },\n    {\n      \"id\": \"cn-029\",\n      \"steps\": 13,\n      \"stepImages\": 12\n    },\n    {\n      \"id\": \"cn-031\",\n      \"steps\": 8,\n      \"stepImages\": 7\n    },\n    {\n      \"id\": \"cn-035\",\n      \"steps\": 10,\n      \"stepImages\": 7\n    },\n    {\n      \"id\": \"cn-036\",\n      \"steps\": 4,\n      \"stepImages\": 3\n    },\n    {\n      \"id\": \"cn-039\",\n      \"steps\": 27,\n      \"stepImages\": 20\n    },\n    {\n      \"id\": \"cn-040\",\n      \"steps\": 17,\n      \"stepImages\": 10\n    },\n    {\n      \"id\": \"cn-044\",\n      \"steps\": 27,\n      \"stepImages\": 9\n    },\n    {\n      \"id\": \"cn-051\",\n      \"steps\": 17,\n      \"stepImages\": 8\n    },\n    {\n      \"id\": \"cn-053\",\n      \"steps\": 16,\n      \"stepImages\": 9\n    },\n    {\n      \"id\": \"cn-054\",\n      \"steps\": 11,\n      \"stepImages\": 9\n    },\n    {\n      \"id\": \"west-004\",\n      \"steps\": 4,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-006\",\n      \"steps\": 4,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-011\",\n      \"steps\": 5,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-012\",\n      \"steps\": 10,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-020\",\n      \"steps\": 8,\n      \"stepImages\": 5\n    },\n    {\n      \"id\": \"west-024\",\n      \"steps\": 7,\n      \"stepImages\": 6\n    },\n    {\n      \"id\": \"west-031\",\n      \"steps\": 6,\n      \"stepImages\": 0\n    }\n  ],\n  \"testedRoutes\": [\n    \"home\",\n    \"pantry\",\n    \"recommendations\",\n    \"recipe\",\n    \"game\",\n    \"cook\",\n    \"shopping\",\n    \"recipes\",\n    \"me\"\n  ],\n  \"browserErrors\": []\n}",
+                "stderr": ""
+              },
+              {
+                "command": "D:\\node.exe tools/build_vercel_output.mjs",
+                "passed": true,
+                "status": 0,
+                "stdout": "Vercel 静态构建完成：C:\\Users\\myw\\Documents\\recipe-automation\\dist\nVercel Build Output 已生成：C:\\Users\\myw\\Documents\\recipe-automation\\.vercel\\output",
+                "stderr": ""
+              }
+            ]
+          }
+        },
+        "review": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "status": "PASS",
+            "issues": [],
+            "summary": "白胡椒粉的生成名称已修正，用量½茶匙仍完整保留在标签中。复核全部10项原料和16个步骤，单一来源配方、盐的分用、无油炒盐、焗制及余温静置、6份产量和计时控制均符合证据；重量近似差异及210分钟不覆盖过夜腌制的限制已披露。13项来源媒体文件均非空且哈希匹配，9张运行时步骤图映射正确，剩盐回收图未用作烹调步骤图。媒体更正同步审计记录与冻结证据一致。原料语义、步骤语法、标点和渲染结构检查通过，retry2确定性验证通过。",
+            "evidencePackageHash": "ce57a7bb25f28cf24cf541ff345b7c2e72fbdddb14212f6aef1e2902c3d80228",
+            "validatorPassed": true,
+            "adversarialReview": {
+              "ingredientSemantics": true,
+              "stepGrammar": true,
+              "punctuation": true,
+              "renderedStructure": true
+            }
+          }
+        },
+        "build": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "ok": true,
+            "exitCode": 0,
+            "command": "npm run test:workflow:deterministic",
+            "completedAt": "2026-10-08T17:35:47.0041510Z",
+            "includesTestAI": false
+          }
+        },
+        "gitPush": {
+          "status": "pending",
+          "attempts": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "recipeId": "west-002",
+      "name": "玛格丽特披萨",
+      "status": "in_progress",
+      "steps": {
+        "research": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "evidencePath": "workflow/batches/2026-10-08-remaining44/west-002.base-evidence.json",
+            "evidencePackageHash": "72040f87626762457de3c46a2eb2dc14cbf2159b7418c0c7abdcdfbf235a372f",
+            "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/pizza-margherita-4-easy-steps",
+            "sourceMode": "single_source",
+            "singleSourceReason": "Exact-name and alias KB query first; all84actual book records checked, no matching Western recipe. Enabled BBC and Serious Eats alternatives attempted; only one independent complete coherent source remains eligible. Other inaccessible, materially different, or internally conflicting variants are retained in audit and never used to supplement it.",
+            "publicationGate": "Final image/evidence acceptance pending"
+          }
+        },
+        "ingestion": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "selectedDocumentId": "0b549380-3644-497d-bf63-eebb94610fbe",
+            "documentIds": [
+              "0b549380-3644-497d-bf63-eebb94610fbe"
+            ],
+            "ragEvidence": 6
+          }
+        },
+        "edit": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "validator": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "review": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "build": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "gitPush": {
+          "status": "pending",
+          "attempts": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "recipeId": "west-005",
+      "name": "芝士汉堡",
+      "status": "in_progress",
+      "steps": {
+        "research": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "evidencePath": "workflow/batches/2026-10-08-remaining44/west-005.base-evidence.json",
+            "evidencePackageHash": "becf390beaa95237edebba7a66af0402d0d1eb0788bd923337ae34cdcdfb370f",
+            "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/cheeseburgers",
+            "sourceMode": "multi_source",
+            "publicationGate": "Final image/evidence acceptance pending"
+          }
+        },
+        "ingestion": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "selectedDocumentId": "ef51a7d5-65e7-4c2c-abc1-783bdcf65a01",
+            "documentIds": [
+              "ef51a7d5-65e7-4c2c-abc1-783bdcf65a01",
+              "2ea4e999-7e04-4390-a544-e915356f6c9c"
+            ],
+            "ragEvidence": 11
+          }
+        },
+        "edit": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "validator": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "review": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "build": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "gitPush": {
+          "status": "pending",
+          "attempts": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "recipeId": "west-007",
+      "name": "炸鱼薯条",
+      "status": "in_progress",
+      "steps": {
+        "research": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "evidencePath": "workflow/batches/2026-10-08-remaining44/west-007.base-evidence.json",
+            "evidencePackageHash": "c827cfee3dcc7c33eb80dd34d233054e2101347cac900e7b6ca45884e7ef406a",
+            "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/golden-beer-battered-fish-chips",
+            "sourceMode": "single_source",
+            "singleSourceReason": "Exact-name and alias KB query first; all84actual book records checked, no matching Western recipe. Enabled BBC and Serious Eats alternatives attempted; only one independent complete coherent source remains eligible. Other inaccessible, materially different, or internally conflicting variants are retained in audit and never used to supplement it.",
+            "publicationGate": "Final image/evidence acceptance pending"
+          }
+        },
+        "ingestion": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "selectedDocumentId": "b17de88d-e534-485b-a5dd-eb55f7ceaae9",
+            "documentIds": [
+              "b17de88d-e534-485b-a5dd-eb55f7ceaae9"
+            ],
+            "ragEvidence": 6
+          }
+        },
+        "edit": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "validator": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "review": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "build": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "gitPush": {
+          "status": "pending",
+          "attempts": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "recipeId": "west-008",
+      "name": "西班牙海鲜饭",
+      "status": "in_progress",
+      "steps": {
+        "research": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "evidencePath": "workflow/batches/2026-10-08-remaining44/west-008.base-evidence.json",
+            "evidencePackageHash": "7e639be81961b1ce97020e953c210cbd75481cedec30f2871ab78cd6b1eae747",
+            "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/seafood-paella",
+            "sourceMode": "single_source",
+            "singleSourceReason": "Exact-name and alias KB query first; all84actual book records checked, no matching Western recipe. Enabled BBC and Serious Eats alternatives attempted; only one independent complete coherent source remains eligible. Other inaccessible, materially different, or internally conflicting variants are retained in audit and never used to supplement it.",
+            "publicationGate": "Final image/evidence acceptance pending"
+          }
+        },
+        "ingestion": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "selectedDocumentId": "4d7a1ee5-9fe3-4d6b-9a06-bb51a2dd5b8e",
+            "documentIds": [
+              "4d7a1ee5-9fe3-4d6b-9a06-bb51a2dd5b8e"
+            ],
+            "ragEvidence": 6
+          }
+        },
+        "edit": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "validator": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "review": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "build": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "gitPush": {
+          "status": "pending",
+          "attempts": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "recipeId": "west-009",
+      "name": "德式烤香肠",
+      "status": "in_progress",
+      "steps": {
+        "research": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "evidencePath": "workflow/batches/2026-10-08-remaining44/west-009.base-evidence.json",
+            "evidencePackageHash": "300e61e0212296b27d86a35b0c8a325e515596138648fca4c5ef6f4787a11199",
+            "selectedSourceUrl": "https://www.seriouseats.com/grilled-bratwurst-with-beer-mustard-and-sauerkraut-recipe",
+            "sourceMode": "single_source",
+            "singleSourceReason": "Exact-name and alias KB query first; all84actual book records checked, no matching Western recipe. Enabled BBC and Serious Eats alternatives attempted; only one independent complete coherent source remains eligible. Other inaccessible, materially different, or internally conflicting variants are retained in audit and never used to supplement it.",
+            "publicationGate": "Final image/evidence acceptance pending"
+          }
+        },
+        "ingestion": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "selectedDocumentId": "29fa3b16-9237-46cd-8135-71280c566512",
+            "documentIds": [
+              "29fa3b16-9237-46cd-8135-71280c566512"
+            ],
+            "ragEvidence": 6
+          }
+        },
+        "edit": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "validator": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "review": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "build": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "gitPush": {
+          "status": "pending",
+          "attempts": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "recipeId": "west-013",
+      "name": "奶油宽面",
+      "status": "in_progress",
+      "steps": {
+        "research": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "evidencePath": "workflow/batches/2026-10-08-remaining44/west-013.base-evidence.json",
+            "evidencePackageHash": "aab9ab976075b489d38cbd3e9a7c0d2ffd9b7fbfda0456deebfba197ec8bba50",
+            "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/fettucine-alfredo",
+            "sourceMode": "multi_source",
+            "publicationGate": "Final image/evidence acceptance pending"
+          }
+        },
+        "ingestion": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "selectedDocumentId": "285a92a5-e04a-4e85-8db7-0151b4f6eeaa",
+            "documentIds": [
+              "285a92a5-e04a-4e85-8db7-0151b4f6eeaa",
+              "104da4b6-7b98-4f42-ba24-ff89a0723102",
+              "4ad2d3fc-c330-40c9-9330-a92f82714cca"
+            ],
+            "ragEvidence": 16
+          }
+        },
+        "edit": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "validator": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "review": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "build": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "gitPush": {
+          "status": "pending",
+          "attempts": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "recipeId": "west-014",
+      "name": "蘑菇烩饭",
+      "status": "in_progress",
+      "steps": {
+        "research": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "evidencePath": "workflow/batches/2026-10-08-remaining44/west-014.base-evidence.json",
+            "evidencePackageHash": "f4cb392ea1a11b55fa86a15d038d3e2b647a843c14257dbb66f09043c5296cce",
+            "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/mushroom-risotto",
+            "sourceMode": "multi_source",
+            "publicationGate": "Final image/evidence acceptance pending"
+          }
+        },
+        "ingestion": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "selectedDocumentId": "a32460d0-637d-4400-b924-2b83638166db",
+            "documentIds": [
+              "a32460d0-637d-4400-b924-2b83638166db",
+              "6a83f371-b7f8-44a3-a4d7-d5fe6cb45a5d"
+            ],
+            "ragEvidence": 13
+          }
+        },
+        "edit": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "validator": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "review": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "build": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "gitPush": {
+          "status": "pending",
+          "attempts": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "recipeId": "west-015",
+      "name": "帕玛森鸡排",
+      "status": "in_progress",
+      "steps": {
+        "research": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "evidencePath": "workflow/batches/2026-10-08-remaining44/west-015.base-evidence.json",
+            "evidencePackageHash": "2abc4c88be2232ae408f06c0b23d69a21711e49788a1d388f5e3b67b8a177f95",
+            "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/chicken-parmigiana",
+            "sourceMode": "single_source",
+            "singleSourceReason": "Exact-name and alias KB query first; all84actual book records checked, no matching Western recipe. Enabled BBC and Serious Eats alternatives attempted; only one independent complete coherent source remains eligible. Other inaccessible, materially different, or internally conflicting variants are retained in audit and never used to supplement it.",
+            "publicationGate": "Final image/evidence acceptance pending"
+          }
+        },
+        "ingestion": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "selectedDocumentId": "e3137c6d-c73d-445d-9aa0-41e3d51a21cc",
+            "documentIds": [
+              "e3137c6d-c73d-445d-9aa0-41e3d51a21cc",
+              "457ca423-d4ad-460e-97de-5a10ca5464bf"
+            ],
+            "ragEvidence": 13
+          }
+        },
+        "edit": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "validator": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "review": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "build": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "gitPush": {
+          "status": "pending",
+          "attempts": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "recipeId": "west-016",
+      "name": "惠灵顿牛排",
+      "status": "in_progress",
+      "steps": {
+        "research": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "evidencePath": "workflow/batches/2026-10-08-remaining44/west-016.base-evidence.json",
+            "evidencePackageHash": "b56221437c0469a54c081fb351c834d6050b2b4d58f7ef5dd894bd081bb6eba2",
+            "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/beef-wellington",
+            "sourceMode": "multi_source",
+            "publicationGate": "Final image/evidence acceptance pending"
+          }
+        },
+        "ingestion": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "selectedDocumentId": "3131ae41-b095-414d-9e1d-4f7a23a1529a",
+            "documentIds": [
+              "3131ae41-b095-414d-9e1d-4f7a23a1529a",
+              "e5f01590-1ad2-46c5-a2b2-f9ee07211b7e"
+            ],
+            "ragEvidence": 16
+          }
+        },
+        "edit": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "validator": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "review": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "build": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "gitPush": {
+          "status": "pending",
+          "attempts": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "recipeId": "west-017",
+      "name": "红酒炖鸡",
+      "status": "in_progress",
+      "steps": {
+        "research": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "evidencePath": "workflow/batches/2026-10-08-remaining44/west-017.base-evidence.json",
+            "evidencePackageHash": "960bbf8f12fa9475241029e4c535de89765b364596b58e44bc506240ee2fcb35",
+            "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/coq-au-vin",
+            "sourceMode": "multi_source",
+            "publicationGate": "Final image/evidence acceptance pending"
+          }
+        },
+        "ingestion": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "selectedDocumentId": "c49fed11-a89a-4f40-bcae-0021fde52d6a",
+            "documentIds": [
+              "c49fed11-a89a-4f40-bcae-0021fde52d6a",
+              "76783447-425d-4e83-8edc-da9f76a25f5d"
+            ],
+            "ragEvidence": 13
+          }
+        },
+        "edit": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "validator": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "review": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "build": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "gitPush": {
+          "status": "pending",
+          "attempts": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "recipeId": "west-018",
+      "name": "普罗旺斯炖菜",
+      "status": "in_progress",
+      "steps": {
+        "research": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "evidencePath": "workflow/batches/2026-10-08-remaining44/west-018.base-evidence.json",
+            "evidencePackageHash": "a1d8bd21ac709c455d8113e56abe4ae8af902683dcc03ccc5342658ba644869e",
+            "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/ratatouille",
+            "sourceMode": "multi_source",
+            "publicationGate": "Final image/evidence acceptance pending"
+          }
+        },
+        "ingestion": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "selectedDocumentId": "c8b51089-81ed-46f3-bc25-dcfbf2cfe9a8",
+            "documentIds": [
+              "c8b51089-81ed-46f3-bc25-dcfbf2cfe9a8",
+              "a35278cc-04a9-4567-adbc-1c95fd3a9c67"
+            ],
+            "ragEvidence": 12
+          }
+        },
+        "edit": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "validator": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "review": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "build": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "gitPush": {
+          "status": "pending",
+          "attempts": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "recipeId": "west-019",
+      "name": "马赛鱼汤",
+      "status": "in_progress",
+      "steps": {
+        "research": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "evidencePath": "workflow/batches/2026-10-08-remaining44/west-019.base-evidence.json",
+            "evidencePackageHash": "eb8c010a2b99dad0597f2beec01c9551fea889d7025e13ee5b9166bc2131078f",
+            "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/bouillabaisse",
+            "sourceMode": "multi_source",
+            "publicationGate": "Final image/evidence acceptance pending"
+          }
+        },
+        "ingestion": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "selectedDocumentId": "0e1996bd-a908-4482-aaa6-4760db1ad1bf",
+            "documentIds": [
+              "0e1996bd-a908-4482-aaa6-4760db1ad1bf",
+              "fa8bcb83-d3d0-41c1-a021-18f3fd8b21cf"
+            ],
+            "ragEvidence": 15
+          }
+        },
+        "edit": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "validator": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "review": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "build": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "gitPush": {
+          "status": "pending",
+          "attempts": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "recipeId": "west-021",
+      "name": "法式红酒炖牛肉",
+      "status": "in_progress",
+      "steps": {
+        "research": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "evidencePath": "workflow/batches/2026-10-08-remaining44/west-021.base-evidence.json",
+            "evidencePackageHash": "70529b126976788c9491ed040f24ff235afbd8a966d428964018efb084518fc9",
+            "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/beef-bourguignon",
+            "sourceMode": "single_source",
+            "singleSourceReason": "Exact-name and alias KB query first; all84actual book records checked, no matching Western recipe. Enabled BBC and Serious Eats alternatives attempted; only one independent complete coherent source remains eligible. Other inaccessible, materially different, or internally conflicting variants are retained in audit and never used to supplement it.",
+            "publicationGate": "Final image/evidence acceptance pending"
+          }
+        },
+        "ingestion": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "selectedDocumentId": "4e882fb4-43e9-4577-bdae-8a9a158c37be",
+            "documentIds": [
+              "4e882fb4-43e9-4577-bdae-8a9a158c37be",
+              "7d633798-006a-4be9-9ad8-79cca8539077"
+            ],
+            "ragEvidence": 13
+          }
+        },
+        "edit": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "validator": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "review": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "build": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "gitPush": {
+          "status": "pending",
+          "attempts": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "recipeId": "west-022",
+      "name": "希腊穆萨卡",
+      "status": "in_progress",
+      "steps": {
+        "research": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "evidencePath": "workflow/batches/2026-10-08-remaining44/west-022.base-evidence.json",
+            "evidencePackageHash": "3957ed4465920ab2d92f8c81acadf798830bdae24d2052e6a378aaa151adf3a3",
+            "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/moussaka",
+            "sourceMode": "single_source",
+            "singleSourceReason": "Exact-name and alias KB query first; all84actual book records checked, no matching Western recipe. Enabled BBC and Serious Eats alternatives attempted; only one independent complete coherent source remains eligible. Other inaccessible, materially different, or internally conflicting variants are retained in audit and never used to supplement it.",
+            "publicationGate": "Final image/evidence acceptance pending"
+          }
+        },
+        "ingestion": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "selectedDocumentId": "53cdcee1-2c01-47c9-97f0-fbbfc2747e75",
+            "documentIds": [
+              "53cdcee1-2c01-47c9-97f0-fbbfc2747e75"
+            ],
+            "ragEvidence": 6
+          }
+        },
+        "edit": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "validator": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "review": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "build": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "gitPush": {
+          "status": "pending",
+          "attempts": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "recipeId": "west-023",
+      "name": "希腊沙拉",
+      "status": "in_progress",
+      "steps": {
+        "research": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "evidencePath": "workflow/batches/2026-10-08-remaining44/west-023.base-evidence.json",
+            "evidencePackageHash": "fd3bebc0ce5f10b307dd05b95b549245c998c08b86f10631400c4b4c2d34375a",
+            "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/greek-salad",
+            "sourceMode": "single_source",
+            "singleSourceReason": "Exact-name and alias KB query first; all84actual book records checked, no matching Western recipe. Enabled BBC and Serious Eats alternatives attempted; only one independent complete coherent source remains eligible. Other inaccessible, materially different, or internally conflicting variants are retained in audit and never used to supplement it.",
+            "publicationGate": "Final image/evidence acceptance pending"
+          }
+        },
+        "ingestion": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "selectedDocumentId": "736060f3-bc3f-4a0e-ba77-bce2fb6ba84e",
+            "documentIds": [
+              "736060f3-bc3f-4a0e-ba77-bce2fb6ba84e"
+            ],
+            "ragEvidence": 5
+          }
+        },
+        "edit": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "validator": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "review": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "build": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "gitPush": {
+          "status": "pending",
+          "attempts": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "recipeId": "west-024",
+      "name": "香煎鸡肉炸排",
+      "status": "in_progress",
+      "steps": {
+        "research": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "evidencePath": "workflow/batches/2026-10-08-remaining44/west-024.evidence.json",
+            "evidencePackageHash": "21905e20ba84a1a8a73c8e81b4be5935613d646ab36ea94a4a30df03ce71a85e",
+            "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/chicken-schnitzel-coleslaw",
+            "sourceMode": "multi_source"
+          }
+        },
+        "ingestion": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "selectedDocumentId": "997dbfb5-d24d-4157-9f02-67d8b6161c0b",
+            "documentIds": [
+              "997dbfb5-d24d-4157-9f02-67d8b6161c0b",
+              "ad0ee351-7f32-4ae7-b850-0d08b3957211"
+            ],
+            "ragEvidence": 12
+          }
+        },
+        "edit": {
+          "status": "done",
+          "attempts": 1,
+          "details": {}
+        },
+        "validator": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "ok": true,
+            "targetId": "west-024",
+            "checks": [
+              {
+                "name": "unique_ids",
+                "passed": true
+              },
+              {
+                "name": "target_exists_once",
+                "passed": true
+              },
+              {
+                "name": "required_fields",
+                "passed": true
+              },
+              {
+                "name": "target_name",
+                "passed": true
+              },
+              {
+                "name": "target_ingredients",
+                "passed": true,
+                "count": 14
+              },
+              {
+                "name": "target_steps",
+                "passed": true,
+                "count": 7
+              },
+              {
+                "name": "stable_target_fields",
+                "passed": true,
+                "allowedChanges": [
+                  "source"
+                ]
+              },
+              {
+                "name": "target_changed",
+                "passed": true,
+                "required": true
+              },
+              {
+                "name": "target_only_diff",
+                "passed": true,
+                "changed": []
+              },
+              {
+                "name": "generated_target_exists",
+                "passed": true
+              }
+            ],
+            "errors": [],
+            "commands": [
+              {
+                "command": "D:\\node.exe tools/build_html_demo_data.mjs",
+                "passed": true,
+                "status": 0,
+                "stdout": "Generated 91 recipes.",
+                "stderr": ""
+              },
+              {
+                "command": "D:\\node.exe tools/test_html_demo.mjs",
+                "passed": true,
+                "status": 0,
+                "stdout": "{\n  \"ok\": true,\n  \"recipes\": 91,\n  \"pantryItems\": 35,\n  \"verifiedMedia\": [\n    {\n      \"id\": \"cn-001\",\n      \"steps\": 6,\n      \"stepImages\": 6\n    },\n    {\n      \"id\": \"cn-002\",\n      \"steps\": 7,\n      \"stepImages\": 6\n    },\n    {\n      \"id\": \"cn-003\",\n      \"steps\": 6,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"cn-004\",\n      \"steps\": 7,\n      \"stepImages\": 5\n    },\n    {\n      \"id\": \"cn-005\",\n      \"steps\": 11,\n      \"stepImages\": 11\n    },\n    {\n      \"id\": \"cn-006\",\n      \"steps\": 5,\n      \"stepImages\": 3\n    },\n    {\n      \"id\": \"cn-007\",\n      \"steps\": 19,\n      \"stepImages\": 19\n    },\n    {\n      \"id\": \"cn-008\",\n      \"steps\": 9,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"cn-009\",\n      \"steps\": 8,\n      \"stepImages\": 8\n    },\n    {\n      \"id\": \"cn-010\",\n      \"steps\": 13,\n      \"stepImages\": 13\n    },\n    {\n      \"id\": \"cn-011\",\n      \"steps\": 9,\n      \"stepImages\": 9\n    },\n    {\n      \"id\": \"cn-019\",\n      \"steps\": 8,\n      \"stepImages\": 5\n    },\n    {\n      \"id\": \"cn-020\",\n      \"steps\": 14,\n      \"stepImages\": 12\n    },\n    {\n      \"id\": \"cn-024\",\n      \"steps\": 16,\n      \"stepImages\": 15\n    },\n    {\n      \"id\": \"cn-027\",\n      \"steps\": 17,\n      \"stepImages\": 17\n    },\n    {\n      \"id\": \"cn-029\",\n      \"steps\": 13,\n      \"stepImages\": 12\n    },\n    {\n      \"id\": \"cn-031\",\n      \"steps\": 8,\n      \"stepImages\": 7\n    },\n    {\n      \"id\": \"cn-035\",\n      \"steps\": 10,\n      \"stepImages\": 7\n    },\n    {\n      \"id\": \"cn-036\",\n      \"steps\": 4,\n      \"stepImages\": 3\n    },\n    {\n      \"id\": \"cn-039\",\n      \"steps\": 27,\n      \"stepImages\": 20\n    },\n    {\n      \"id\": \"cn-040\",\n      \"steps\": 17,\n      \"stepImages\": 10\n    },\n    {\n      \"id\": \"cn-044\",\n      \"steps\": 27,\n      \"stepImages\": 9\n    },\n    {\n      \"id\": \"cn-051\",\n      \"steps\": 17,\n      \"stepImages\": 8\n    },\n    {\n      \"id\": \"cn-053\",\n      \"steps\": 16,\n      \"stepImages\": 9\n    },\n    {\n      \"id\": \"cn-054\",\n      \"steps\": 11,\n      \"stepImages\": 9\n    },\n    {\n      \"id\": \"west-004\",\n      \"steps\": 4,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-006\",\n      \"steps\": 4,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-011\",\n      \"steps\": 5,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-012\",\n      \"steps\": 10,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-020\",\n      \"steps\": 8,\n      \"stepImages\": 5\n    },\n    {\n      \"id\": \"west-024\",\n      \"steps\": 7,\n      \"stepImages\": 6\n    },\n    {\n      \"id\": \"west-031\",\n      \"steps\": 6,\n      \"stepImages\": 0\n    }\n  ],\n  \"testedRoutes\": [\n    \"home\",\n    \"pantry\",\n    \"recommendations\",\n    \"recipe\",\n    \"game\",\n    \"cook\",\n    \"shopping\",\n    \"recipes\",\n    \"me\"\n  ],\n  \"browserErrors\": []\n}",
+                "stderr": ""
+              },
+              {
+                "command": "D:\\node.exe tools/build_vercel_output.mjs",
+                "passed": true,
+                "status": 0,
+                "stdout": "Vercel 静态构建完成：C:\\Users\\myw\\Documents\\recipe-automation\\dist\nVercel Build Output 已生成：C:\\Users\\myw\\Documents\\recipe-automation\\.vercel\\output",
+                "stderr": ""
+              }
+            ]
+          }
+        },
+        "review": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "status": "PASS",
+            "issues": [],
+            "summary": "独立核对冻结证据、14行生成原料、7个生成步骤及全部发布图片。BBC完整配方按完整性、自洽性及可验证图片覆盖优先选中，未混入Serious Eats配料或操作。4人份、准备30分钟、烹饪10分钟、总计40分钟均与来源一致。鸡胸未虚构重量，未增加卷心菜浸泡时间或具体调味料；敲薄厚度、裹粉与蛋液及面包糠顺序、每批两块和每面2—3分钟均保留。未捏造油温、内部温度、冷藏或烤箱保温时长，范围时间未生成固定倒计时。全部图片实际动作与对应步骤匹配，本地资产哈希及出处一致。逐行对抗语言和渲染结构检查通过，确定性验证与构建通过。",
+            "evidencePackageHash": "21905e20ba84a1a8a73c8e81b4be5935613d646ab36ea94a4a30df03ce71a85e",
+            "validatorPassed": true,
+            "adversarialReview": {
+              "ingredientSemantics": true,
+              "stepGrammar": true,
+              "punctuation": true,
+              "renderedStructure": true
+            }
+          }
+        },
+        "build": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "ok": true,
+            "exitCode": 0,
+            "command": "npm run test:workflow:deterministic",
+            "completedAt": "2026-10-08T17:35:47.0041510Z",
+            "includesTestAI": false
+          }
+        },
+        "gitPush": {
+          "status": "pending",
+          "attempts": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "recipeId": "west-025",
+      "name": "瑞典肉丸",
+      "status": "in_progress",
+      "steps": {
+        "research": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "evidencePath": "workflow/batches/2026-10-08-remaining44/west-025.base-evidence.json",
+            "evidencePackageHash": "a6a645fc79286726a033e874ac60e03e837fced2395e4a20808976f0a99ce15f",
+            "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/classic-swedish-meatballs",
+            "sourceMode": "multi_source",
+            "publicationGate": "Final image/evidence acceptance pending"
+          }
+        },
+        "ingestion": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "selectedDocumentId": "3e95f7a2-389f-41aa-b675-7347986de84d",
+            "documentIds": [
+              "3e95f7a2-389f-41aa-b675-7347986de84d",
+              "1679c443-d4d6-43a2-bc1f-6e106542f4b1"
+            ],
+            "ragEvidence": 11
+          }
+        },
+        "edit": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "validator": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "review": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "build": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "gitPush": {
+          "status": "pending",
+          "attempts": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "recipeId": "west-026",
+      "name": "匈牙利牛肉汤",
+      "status": "in_progress",
+      "steps": {
+        "research": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "evidencePath": "workflow/batches/2026-10-08-remaining44/west-026.base-evidence.json",
+            "evidencePackageHash": "5e68e1586d66854a3a96c909f0178479a22379943820026789cb3e192d668350",
+            "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/beef-goulash-soup",
+            "sourceMode": "single_source",
+            "singleSourceReason": "Exact-name and alias KB query first; all84actual book records checked, no matching Western recipe. Enabled BBC and Serious Eats alternatives attempted; only one independent complete coherent source remains eligible. Other inaccessible, materially different, or internally conflicting variants are retained in audit and never used to supplement it.",
+            "publicationGate": "Final image/evidence acceptance pending"
+          }
+        },
+        "ingestion": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "selectedDocumentId": "78419c8b-cac5-4313-9273-1d5fc594a696",
+            "documentIds": [
+              "78419c8b-cac5-4313-9273-1d5fc594a696"
+            ],
+            "ragEvidence": 5
+          }
+        },
+        "edit": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "validator": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "review": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "build": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "gitPush": {
+          "status": "pending",
+          "attempts": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "recipeId": "west-027",
+      "name": "炸鱼塔可",
+      "status": "in_progress",
+      "steps": {
+        "research": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "evidencePath": "workflow/batches/2026-10-08-remaining44/west-027.base-evidence.json",
+            "evidencePackageHash": "5e5544835805346baed5f7d93922cdfb63c74a04f785c126fce85200048a353a",
+            "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/beer-battered-fish-tacos",
+            "sourceMode": "multi_source",
+            "publicationGate": "Final image/evidence acceptance pending"
+          }
+        },
+        "ingestion": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "selectedDocumentId": "5f01ee84-d58b-48b2-b9d7-acf5d10b5629",
+            "documentIds": [
+              "5f01ee84-d58b-48b2-b9d7-acf5d10b5629",
+              "c4ca8acd-5cf6-4d86-906f-deef06be087d"
+            ],
+            "ragEvidence": 11
+          }
+        },
+        "edit": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "validator": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "review": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "build": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "gitPush": {
+          "status": "pending",
+          "attempts": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "recipeId": "west-028",
+      "name": "鸡肉芝士薄饼",
+      "status": "in_progress",
+      "steps": {
+        "research": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "evidencePath": "workflow/batches/2026-10-08-remaining44/west-028.base-evidence.json",
+            "evidencePackageHash": "e22897e407d18911e1a1b2578c7fc45b9178b1f51fcceaf0ce1885248a984659",
+            "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/chicken-quesadillas",
+            "sourceMode": "single_source",
+            "singleSourceReason": "Exact-name and alias KB query first; all84actual book records checked, no matching Western recipe. Enabled BBC and Serious Eats alternatives attempted; only one independent complete coherent source remains eligible. Other inaccessible, materially different, or internally conflicting variants are retained in audit and never used to supplement it.",
+            "publicationGate": "Final image/evidence acceptance pending"
+          }
+        },
+        "ingestion": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "selectedDocumentId": "9e9d892c-09f7-42fb-9ee3-691ff26a665c",
+            "documentIds": [
+              "9e9d892c-09f7-42fb-9ee3-691ff26a665c"
+            ],
+            "ragEvidence": 5
+          }
+        },
+        "edit": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "validator": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "review": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "build": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "gitPush": {
+          "status": "pending",
+          "attempts": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "recipeId": "west-029",
+      "name": "班尼迪克蛋",
+      "status": "in_progress",
+      "steps": {
+        "research": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "evidencePath": "workflow/batches/2026-10-08-remaining44/west-029.base-evidence.json",
+            "evidencePackageHash": "3dd8b60f48d02c625f1331f0f4abd2540da704385b4c32db028298bdca858e8f",
+            "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/eggs-benedict",
+            "sourceMode": "single_source",
+            "singleSourceReason": "Exact-name and alias KB query first; all84actual book records checked, no matching Western recipe. Enabled BBC and Serious Eats alternatives attempted; only one independent complete coherent source remains eligible. Other inaccessible, materially different, or internally conflicting variants are retained in audit and never used to supplement it.",
+            "publicationGate": "Final image/evidence acceptance pending"
+          }
+        },
+        "ingestion": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "selectedDocumentId": "2edf80e5-bddc-42fb-ae3c-5fbf8804856c",
+            "documentIds": [
+              "2edf80e5-bddc-42fb-ae3c-5fbf8804856c"
+            ],
+            "ragEvidence": 6
+          }
+        },
+        "edit": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "validator": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "review": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "build": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "gitPush": {
+          "status": "pending",
+          "attempts": 0
+        }
+      },
+      "errors": []
+    },
+    {
+      "recipeId": "west-030",
+      "name": "酪乳煎饼",
+      "status": "in_progress",
+      "steps": {
+        "research": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "evidencePath": "workflow/batches/2026-10-08-remaining44/west-030.base-evidence.json",
+            "evidencePackageHash": "3e1b2df6acd7726eb45b51fbd063a4337278f6ea0a08ced7319cadd64a241cf8",
+            "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/buttermilk-pancakes-maple-apples-pecans",
+            "sourceMode": "multi_source",
+            "publicationGate": "Final image/evidence acceptance pending"
+          }
+        },
+        "ingestion": {
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "selectedDocumentId": "7417b13e-b1bd-4ded-8dba-4675e86126cd",
+            "documentIds": [
+              "7417b13e-b1bd-4ded-8dba-4675e86126cd",
+              "2be9e3f1-3a2a-45c1-996b-a495d7ebcc3f"
+            ],
+            "ragEvidence": 11
+          }
+        },
+        "edit": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "validator": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "review": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "build": {
+          "status": "pending",
+          "attempts": 0
+        },
+        "gitPush": {
+          "status": "pending",
+          "attempts": 0
+        }
+      },
+      "errors": []
+    }
+  ]
+}

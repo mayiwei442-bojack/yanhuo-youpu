@@ -1,0 +1,16 @@
+{
+  "recipePageUrl": "https://www.bbcgoodfood.com/recipes/pizza-margherita-4-easy-steps",
+  "mediaPageUrl": "https://www.bbcgoodfood.com/recipes/pizza-margherita-4-easy-steps",
+  "sourceName": "BBC Good Food",
+  "author": "Good Food team",
+  "rightsNotice": "Copyright Good Food/Immediate; source attribution retained; no open reuse license stated.",
+  "reuseLicense": null,
+  "repositoryCopyAuthorized": true,
+  "hero": {
+    "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-51643_11-2f4a2cc.jpg?resize=440,400",
+    "repositoryPath": "assets/dishes/sources/west-002-bbc-good-food/hero.jpg",
+    "httpStatus": 200,
+    "contentType": "image/jpeg"
+  },
+  "steps": []
+}

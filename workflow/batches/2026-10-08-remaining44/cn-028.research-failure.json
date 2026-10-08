@@ -1,0 +1,44 @@
+{
+  "recipeId": "cn-028",
+  "recipeName": "清炒虾仁",
+  "category": "chinese",
+  "status": "failed",
+  "failedStage": "research",
+  "createdAt": "2026-10-08T12:23:23.824131+00:00",
+  "reason": "豆果候选可读时虾仁等所有主料均无用量，无法从同一来源还原主料比例；后续正常全文访问403。做法中原料表漏项本身可提取，并非独立拒绝理由。Woks别名结果为技术指南、其他菜与无配方的水晶虾仁介绍，未取得完整同菜信源。",
+  "bookSearch": {
+    "auditFile": "cn-book-inventory.json",
+    "scannedDocuments": 84,
+    "usableDocuments": 79,
+    "exactOrAcceptableAliasMatches": 0,
+    "excludedStatuses": [
+      "superseded",
+      "rejected",
+      "invalid"
+    ],
+    "assessment": "No complete same-dish recipe in current database books; no book supplementation fabricated."
+  },
+  "attemptedSources": [
+    {
+      "source": "豆果美食",
+      "url": "https://www.douguo.com/cookbook/1336292.html",
+      "result": "initialPython200 extracted3unquantifiedmainitems/4steps; ingredientomissions; subsequentnormalweb403"
+    },
+    {
+      "source": "The Woks of Life",
+      "query": "qing chao xia ren site:thewoksoflife.com",
+      "result": "near names/oil-friedwhole shrimp/Cashewshrimp only; rejected"
+    },
+    {
+      "source": "The Woks of Life",
+      "aliasCoverageAudit": "cn-alias-coverage-audit.json",
+      "result": "Shrimp velveting is a preparation technique; har gow is dumpling; Shanghai cuisine guide describes crystal shrimp but provides neither ingredient quantities nor cooking method."
+    }
+  ],
+  "evidencePackage": null,
+  "ingestion": {
+    "performed": false,
+    "reason": "No qualifying complete exactdishsource; do not ingest partial snippets or unrelated variants as this entity."
+  },
+  "aliasRecheckedAt": "2026-10-08T12:41:18.329553+00:00"
+}

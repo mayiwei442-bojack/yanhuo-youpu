@@ -1,0 +1,15 @@
+[
+  {
+    "status": "failed",
+    "errors": [
+      {
+        "step": "research",
+        "code": "NO_QUALIFYING_COMPLETE_SOURCE",
+        "message": "可得豆果方中山胡辣汤仅一段方便料包做法；河南正宗胡辣汤候选是课程宣传，不含完整可执行工艺。无合格完整单一来源。",
+        "at": "2026-10-08T12:24:21.754Z"
+      }
+    ],
+    "completedAt": "2026-10-08T12:24:21.754Z",
+    "resumedAt": "2026-10-08T12:45:58.714Z"
+  }
+]

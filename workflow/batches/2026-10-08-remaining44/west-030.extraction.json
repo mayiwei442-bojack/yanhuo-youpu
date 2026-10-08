@@ -1,0 +1,67 @@
+{
+  "ingredients": [
+    {
+      "name": "eating apples such as Golden Delicious or Pink Lady",
+      "raw": "3 eating apples such as Golden Delicious or Pink Lady",
+      "amount": null
+    },
+    {
+      "name": "butter",
+      "raw": "25g butter",
+      "amount": null
+    },
+    {
+      "name": "pecan halves, halved lengthways",
+      "raw": "85g/3oz pecan halves, halved lengthways",
+      "amount": null
+    },
+    {
+      "name": "maple syrup",
+      "raw": "175ml maple syrup",
+      "amount": null
+    },
+    {
+      "name": "plain flour",
+      "raw": "100g plain flour",
+      "amount": null
+    },
+    {
+      "name": "baking powder",
+      "raw": "2 tsp baking powder",
+      "amount": null
+    },
+    {
+      "name": "bicarbonate of soda",
+      "raw": "½ tsp bicarbonate of soda",
+      "amount": null
+    },
+    {
+      "name": "golden caster sugar",
+      "raw": "1 tbsp golden caster sugar",
+      "amount": null
+    },
+    {
+      "name": "arge eggs separated",
+      "raw": "2 large eggs separated",
+      "amount": null
+    },
+    {
+      "name": "tub buttermilk",
+      "raw": "284ml tub buttermilk",
+      "amount": null
+    },
+    {
+      "name": "butter melted, plus extra",
+      "raw": "25g butter melted, plus extra",
+      "amount": null
+    },
+    {
+      "name": "salt",
+      "raw": "pinch salt for pancake batter (step2)",
+      "amount": null
+    }
+  ],
+  "notes": [
+    "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented."
+  ]
+}

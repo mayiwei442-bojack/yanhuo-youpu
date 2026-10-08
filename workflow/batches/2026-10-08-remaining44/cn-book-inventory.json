@@ -1,0 +1,1033 @@
+{
+  "queriedAt": "2026-10-08T11:59:04.972Z",
+  "documents": [
+    {
+      "id": "8754d01b-f4c1-4476-b27c-aaa16d38a0d4",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "蒜蓉粉丝蒸扇贝",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "3d75eb05eee991021e0f7dfa8c6f6becb48bc20ab0eb6537d7559bf1a5b5917e",
+      "metadata": {
+        "location": "text00059.html#subid38",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "36eb5007-72ce-4284-8cca-a4c056e0dcef",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "锅包肉",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "da6e0bee4f61aaf18b4525ada8df4988053061d27c08ef202b3e46be5a70c26f",
+      "metadata": {
+        "reason": "Normalization omitted method water, oil consumption and explicit heat",
+        "location": "text00035.html#subid21",
+        "evidenceStatus": "superseded",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true,
+        "replacementDocumentId": "6d91098c-47e2-46d8-a69a-888665007aec"
+      }
+    },
+    {
+      "id": "8a1c03a6-9b19-40e8-92a9-8620656b4e08",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "肉丝炒拉皮",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "3ad40b6262c1c3a4ae70ce887228876c3c787f1cc3c368e92a3d8b12b02e18a7",
+      "metadata": {
+        "location": "text00012.html#subid5",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "ea4f852f-37df-4285-ac9d-bff1aec25dc5",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "豉汁蒸排骨",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "156e2ceb3cf5491e99c7f94cd41371ff2529510d4d2233c36f93e0a3eac0629f",
+      "metadata": {
+        "location": "text00025.html#subid15",
+        "evidenceReason": "方法水、生油字面及可选原料遗漏",
+        "evidenceStatus": "superseded",
+        "evidenceAuditAt": "2026-10-06T06:08:52.339Z",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true,
+        "replacementDocumentId": "920e9b45-971f-4e7d-9455-8932515370a5"
+      }
+    },
+    {
+      "id": "db2baa77-0423-4fae-a283-9a8aff8fad4e",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "糖醋鱼",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "c8c17ba93d9bb580c8870731a922c6b5979084a2b0c7a0f32ff2f8a5554b5cee",
+      "metadata": {
+        "location": "text00068.html#subid44",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "c9b40c55-81e8-4331-b4c7-bde9807f5d09",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "黑木耳炒大白菜",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "ececd74b06cce6916a342ccc5c1727df5033a483891fb28e46e741e96a1393de",
+      "metadata": {
+        "location": "text00010.html#subid4",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "4ce9d762-6568-48b0-8ca8-0ce78966848c",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "啤酒鸭",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "9845c1fced5f5cb6d4874de6b708304e7f8bb584d083dfc01ee4809f5caa8236",
+      "metadata": {
+        "location": "text00056.html#subid35",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "2098d2f1-0c1b-4e3c-b2bd-1377072e5923",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "栗子焖鸡",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "a39fc5b8232deec84fbacc0599f5b9c0e434c8b7181ad7a7baaa4d29af6ac347",
+      "metadata": {
+        "location": "text00051.html#subid33",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "bf62fae3-d0ac-432c-a365-dff2452dd656",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "雪菜黄豆炒肉末",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "17dc963f761e587a34573611988958665394169fb315b84de59f3f43a9bb8f4f",
+      "metadata": {
+        "location": "text00007.html#subid1",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "0035c0bf-233f-4fe1-9227-ba4d03624bb0",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "香芹海米熏干",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "0bf819b6344c6a5803ac75d25911307190b221d3b25ba5597f26e34fcca3b1cc",
+      "metadata": {
+        "location": "text00007.html#subid2",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "904bca51-2ca1-436c-83ca-efd217dd9206",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "蒜蓉蒸丝瓜",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "5cf2d7e0d26bdda04395f8a4ce97f3ea5f29895cc4e2ccd01af33f71feefb5b4",
+      "metadata": {
+        "location": "text00010.html#subid3",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "74795b8b-7eeb-4fa4-9de3-91a100d985c5",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "油焖茭白",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "5c3e89c71b076ab3c506d1867927cae09f6c36170e4c0196b9a93ba68218bb69",
+      "metadata": {
+        "location": "text00015.html#subid6",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "0fcfeed7-0f5c-4eb0-8ec5-117d0f5f8bd1",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "虎皮尖椒",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "fce9314e2d4a91730ec8e57f57a8a5fa61cdbb1c4fda03aac9d6a5be0b35a3f9",
+      "metadata": {
+        "location": "text00015.html#subid7",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "da7416ef-4ca3-4cb2-a14e-748d67814909",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "葱油莴笋丝",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "0a92a898d924deb05c67d14cb236141cec349b347f8638f66a3c1e0970413352",
+      "metadata": {
+        "location": "text00015.html#subid8",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "1cda094f-6cf5-48c6-89e2-0c68d502101e",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "蓑衣黄瓜",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "b1eb7c95ce846c4e2511f05cf4a1c4fdbc799365b9b306b4083d5d9b2c890999",
+      "metadata": {
+        "location": "text00018.html#subid10",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "fb89804f-4ee1-4f1f-958f-65cbbe3addc5",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "炝炒藕片",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "f109086ee7ab9c2e670f3db382a3d717659b1e9d945408e3997dc1ba32b55017",
+      "metadata": {
+        "location": "text00018.html#subid11",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "2549987e-8a2f-4001-b897-dc6464d0b971",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "蒸茄泥",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "40ec445eaf270d78dd13e5b097390582e9251d952c44ba916b9317f18645ca81",
+      "metadata": {
+        "location": "text00020.html#subid12",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "d42702c9-ac5c-4858-a8d9-8b2f2cc67c3a",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "椒丝腐乳空心菜",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "8e7fec9984d90e6fd872bef9f4036969efca0083604db744b3dc5861b5b644ab",
+      "metadata": {
+        "location": "text00020.html#subid13",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "988b10c6-5568-4627-9b6e-d09841ab4884",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "芋头牛肉丝",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "dc7790b05d4a78ce7ee999ec4b61eb240478cc3157d6ddde2921a1025409e7fc",
+      "metadata": {
+        "location": "text00022.html#subid14",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "7d40db4c-29c8-42db-874d-9a9bb19f49cf",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "菠萝咕噜排骨",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "21abcb1393ad5c5f158e0da0daac38f68be097504b2190bab911a919b957e831",
+      "metadata": {
+        "location": "text00027.html#subid16",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "1bf3459a-30e1-422c-b1e9-b23a76b987a0",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "上海炸猪排",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "f6b9cf59924f80b50daf328258a6c17e323ad69c701693422518738e3f6421d6",
+      "metadata": {
+        "location": "text00030.html#subid17",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "a780fd61-c462-4715-9d32-e1be541abcf8",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "梅菜肉丸",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "d5609cb9e8d15402b41384671653cfb41c95903022c34899c1727d60e5ecdbc2",
+      "metadata": {
+        "location": "text00030.html#subid18",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "a13a3164-0a8a-4261-8429-ccc6142b42c9",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "冬菇马蹄蒸肉饼",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "b23e730e9f53eea7e8d895f3e2a6b5e0814c257be984c7baff3dd9242805d225",
+      "metadata": {
+        "location": "text00033.html#subid19",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "1ea87369-a103-4fc1-af8b-eecf6cfc5e0f",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "芋头扣肉",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "4d98c716c5d3a3692e37be61abf03640f5efc5386dc2d540efd87ec3b61a4a07",
+      "metadata": {
+        "location": "text00035.html#subid20",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "d6f84369-f739-4078-ad61-8308e77ec9a2",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "干炸里脊",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "2132d8de970bb39d7ce44db496f1c9b2b6625cdd88c1afc0abe2e7e8ffa3334a",
+      "metadata": {
+        "location": "text00038.html#subid22",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "244ad657-a167-4059-b1a4-bd7751611a67",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "百叶结烧肉",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "8b0d40024808fd4bc80571e430293e804d86f41962f226a6899495ca2a6233e0",
+      "metadata": {
+        "location": "text00038.html#subid23",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "82849b6c-fdf7-4288-859a-6f01025dfbac",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "麻油鸡",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "87acc71657e13352f503a6a7962596ee4d41b0f01a5433171df8ecb346497513",
+      "metadata": {
+        "location": "text00040.html#subid24",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "27eec002-5519-4009-b49c-8281abe0e98d",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "卤牛腱",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "88c48759cc5eb50ce912ffe15005f111237249ca0ece9c6b862b4f91cfa30e8a",
+      "metadata": {
+        "location": "text00040.html#subid25",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "85535ccc-1dbc-4d30-b470-d7445167d54e",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "台式三杯鸡",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "d4ab3e5ec02e0190b5335f5d6df46ad6db560327ade8f5460c4085ba4e38c531",
+      "metadata": {
+        "location": "text00040.html#subid26",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "779bee8f-5b91-499b-8611-52ea0d2e34aa",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "酱猪手",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "0a490bac32996fa0bf4aaa50e6b602487b7ad306803a1005a7b4955636d0d3ea",
+      "metadata": {
+        "location": "text00043.html#subid27",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "42c43160-1ade-45d3-8db0-a8bb21a8232d",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "南煎猪肝",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "fe7e1a8ec602c3f425ba7f1e02d5ef1d69880aadc66a629a7de4edaab5d1071c",
+      "metadata": {
+        "location": "text00043.html#subid28",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "1c4d80f1-06be-49d9-8bcc-cdbe5a602bc3",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "熘肝尖",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "c51717ab0ce829f4cd8f7c15e636979ac352b95433eebe6288a1049469c754c3",
+      "metadata": {
+        "location": "text00046.html#subid29",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "a3c9eb96-6e67-4591-80c9-7ba923eb6f39",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "大蒜烧肚条",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "b4c74b845f9d78bac599b74b454db1d7005d94d362e9802ace75737fc60795a9",
+      "metadata": {
+        "location": "text00046.html#subid30",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "24b75efe-f7d2-4d3f-a179-58bdde99f43b",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "辣子鸡",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "057333b3a8c67f2ff4088bc02fc94da2c021b6cd748e341c7926b980459b452f",
+      "metadata": {
+        "location": "text00048.html#subid31",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "89de30e7-235e-4f53-b932-b5f665bd1648",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "大盘鸡",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "5ab71a0b17d5469f88a9f7f4f74ab120556a99677656398d858258b141ae76e1",
+      "metadata": {
+        "location": "text00051.html#subid32",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "d0e4e989-92c4-46de-9435-e73a0101c251",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "老鸭煲",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "489c5526a28a62e637c4415f9a7ccbec7883dec602b81a081e2b5534906f24c5",
+      "metadata": {
+        "location": "text00054.html#subid34",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "cc9bd29d-63ca-47c5-8fd9-0994a76bcaf7",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "炒田螺",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "b6eb073522ce8055798b3cdd862f2ceab17ea335dfefa9cfd8fa2ffe4f4cf84d",
+      "metadata": {
+        "location": "text00059.html#subid36",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "748c46cc-dcbb-4e71-895a-d810d4692889",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "红烧带鱼",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "9f891f570dc498c8f6611940c7cb4c31aab0c8e0dcf9c46518a55978521aa1d9",
+      "metadata": {
+        "location": "text00059.html#subid37",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "121fac36-0b4c-487d-950d-affd04453a7a",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "墨鱼干炒肉丝",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "8e808810e36af3f5f97eaadd2b4e18d34cacc29d5a5fc4b711c7f36a442e6878",
+      "metadata": {
+        "location": "text00062.html#subid39",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "96ba13ce-2d84-4727-87d6-e8e2ba3fe4b4",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "蚵仔煎",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "fd3e010936116bd0094216e18068e87bff2a89dd57adf44b08cd1c1c3f2d5702",
+      "metadata": {
+        "location": "text00062.html#subid40",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "c20da61b-4d3f-43d7-a7b8-5d777dbf5cbb",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "酱爆鱿鱼",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "2b08ece59dd93027b9a297bade9270660f6face514e066f1ca8542c44db6936c",
+      "metadata": {
+        "location": "text00064.html#subid41",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "1f72e14e-6ffa-4af3-bda6-29d660521f1a",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "焖酥鱼",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "ff27a7f67a7ef877b47203831a6956a963c34547d83ffe4b57c531cb7ec3fc61",
+      "metadata": {
+        "location": "text00066.html#subid42",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "0c1a825c-215a-46d6-85f4-759580fe8c3e",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "油焖大虾",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "1c0b361bd5a43ed6ae0c2df1ae30d943c322d9c7a9e884e94e3d57f0a78dc2d4",
+      "metadata": {
+        "location": "text00066.html#subid43",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "93a433f5-fa1d-4b18-a291-aa7c1284d861",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "萝卜丝炒牛肉",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "19880547ca3dd0a97e323a136b1ab8719a1c423535d4b036924bd25541647662",
+      "metadata": {
+        "location": "text00071.html#subid45",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "26e4f118-9b35-4636-95e4-1d66df1e07cb",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "萝卜炖牛腩",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "238b2a4de5faf56fb78f46450b9ad86547be895a063a8dbe59d588c4dd8f7475",
+      "metadata": {
+        "location": "text00074.html#subid47",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "1f1312bd-d0e7-4f00-9bb3-3449c55f9658",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "榄菜肉末四季豆",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "9c6a3b32f79c05bd04544f682e7303c7fe5bc40a7520558790aef47d8f0334c5",
+      "metadata": {
+        "location": "text00076.html#subid48",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "80ec2b78-5323-4f15-9cd3-e59a3d3e14c1",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "云腿蚕豆",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "033024a2c9b3e8c99a66e2bb7d93fbb2d4a286292cd06f909719551e55c8d565",
+      "metadata": {
+        "location": "text00076.html#subid49",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "c9e6bada-f1e4-4ab7-a181-c07c7aba3c2d",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "客家酿苦瓜",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "4b681113f3001c7b91eabba36a9727b057c683780a21269f5be460f12f60f52c",
+      "metadata": {
+        "location": "text00078.html#subid50",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "7cf5f358-67ef-4018-a131-a060e65d14e0",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "笋丁毛豆香干炒肉",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "449c54eed718040f3e8368d71afaba4281ce68eec9e6c5fd89065d44456aa8d1",
+      "metadata": {
+        "location": "text00078.html#subid51",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "5995983d-b783-4bcf-add1-41941b011a8f",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "炸藕夹",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "c8c5bee5c99702aee3177758e8fce70c5faeaa1196c83eeaaa0f2d216cb7ac11",
+      "metadata": {
+        "location": "text00081.html#subid52",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "2b3db582-3738-4916-ace9-b65e3fe9e14d",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "腌笃鲜",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "3394f3c130dd0e1c5d5c1ab2dac89f0c186fa2ae0a6ca7e226a49131511ff1bb",
+      "metadata": {
+        "location": "text00081.html#subid53",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "f4b60b1c-453e-438f-9347-7462ff3fba11",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "黄豆肉皮冻",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "b36b32b3c462508bb5b382984ae723e5618dc5f43a92578578580e65923c1b34",
+      "metadata": {
+        "location": "text00083.html#subid54",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "1e75474d-7e1c-4b32-a968-f0b5ce41416c",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "酸菜白肉",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "f5556bb79968b481b799e2050f3045b1fe71dff628136edf88d018c5cd404cdb",
+      "metadata": {
+        "location": "text00086.html#subid55",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "b0b83970-4cc6-40bb-bb29-4034a02dff72",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "腐竹炒肉片",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "3946b401b755518b72ac3d0bde92ffd9037a77b331e8d1e8fb865b156571d8a5",
+      "metadata": {
+        "location": "text00086.html#subid56",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "77330a89-ae94-4cb0-a255-9c44f71b4a9c",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "萝卜干炒腊肉",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "a9cd19d31a2870c1bb35eb8d7c33e8da090a6556960b95d6f77613aaffe2afe6",
+      "metadata": {
+        "location": "text00086.html#subid57",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "f0878068-4aa3-431f-93b7-6db76fc4c5a3",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "酥肉青菜汤",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "ac995e4f4e7062630170c3e89cab7226b2774f2122f46bfcec9928792967057a",
+      "metadata": {
+        "location": "text00086.html#subid58",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "7bde59d0-1491-4f0d-8dee-25a2dccdfee3",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "凉拌鸡丝",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "cf33436ee408b75c26d8f1cf0060f68cbd1c5020274782cd1cdedac74673e6a2",
+      "metadata": {
+        "location": "text00089.html#subid59",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "24bb5fd5-f6f9-4c88-8730-56403f63499d",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "干炸响铃",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "c802203292471bbb93fb08a2f308036d1b85bcd70970e89882435c4f9a94a171",
+      "metadata": {
+        "location": "text00092.html#subid60",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "a3e1b791-7fe0-4675-8d9b-ec6a9dcbb901",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "茶叶蛋",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "89b93f684bb701907e8f70d12fd418f8bf547dc34668d54f032416252eec4734",
+      "metadata": {
+        "location": "text00094.html#subid61",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "b2f9ae93-fe3a-41c4-b4d4-f3076dde4811",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "小葱炒鸡蛋",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "dc09465f74efaa4eb5af321b6e447ced0f75af6eefcc9d248371a98483cb0ebf",
+      "metadata": {
+        "location": "text00094.html#subid62",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "ee98a5ad-42f3-4ecd-bb9f-c20a86592163",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "银鱼炒蛋",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "cc5b100b1a7e2c14f7598c6b2229bcb8cd04f598af47ebd3dabcdd854fba98b3",
+      "metadata": {
+        "location": "text00096.html#subid63",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "b195d9ae-11a2-467c-9457-d4cca90cb791",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "大煮干丝",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "717b47c8bc3a960818b217b93abf6d3a5ac60edb5aff790745495e5f428553b3",
+      "metadata": {
+        "location": "text00096.html#subid64",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "b5afb37e-46e6-43f2-a0c9-761be47232c2",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "蛋饺",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "6187676dec8d546e39f727f18d5ca14c40d60292460b1694b0afe75e45c954c3",
+      "metadata": {
+        "location": "text00099.html#subid65",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "3490a1e7-9efe-4359-94ce-5b7207e5c103",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "烤麸",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "9190f996fa228227ddf2a801d74e72580d60b5d0857cbf93c786f1ac784be65d",
+      "metadata": {
+        "location": "text00101.html#subid66",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "71de09c8-840c-4e88-8221-c669168169d3",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "家常烩豆腐",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "417113375275ac34c50f6c0fd713272dfb57efe332890ddd49a62c3c22433551",
+      "metadata": {
+        "location": "text00101.html#subid67",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "26f3ed28-a978-4ed4-bb9f-58d7acd540fb",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "烧椒皮蛋",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "f18a24ac5e4d4d1046d61b987cb5143e8990f188874ab5a42132d7984e5b9453",
+      "metadata": {
+        "location": "text00101.html#subid68",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "06f38292-b2eb-4a38-b50c-7e8a23b66acf",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "赛螃蟹",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "e0f35d0a2c97808429af5c30eeec7b69e1829a238990e20ec6bce46709b670b0",
+      "metadata": {
+        "location": "text00103.html#subid69",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "d4c37702-29df-4c8e-aa4f-302b7f50bdcd",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "鸭血豆腐",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "01578833f8392e207dfa64cdd6d4490c48dfec214e3644cab183a4cafbe8f009",
+      "metadata": {
+        "location": "text00103.html#subid70",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "8743d211-849a-48f5-8857-ae05f7c351bb",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "菜脯蛋",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "59d7cc53eb63f1c345d442b9919df2a8436d6c4271bbf353cb74fb93579b7191",
+      "metadata": {
+        "location": "text00105.html#subid71",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "e1b5e9af-cada-4c32-8ee1-d59b726f86bb",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "落汤钱",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "cc731f704b710c2a440292ac65022e0b5fe912c41086cf501b911d618cf79309",
+      "metadata": {
+        "location": "text00110.html#subid72",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "9a8ac3b8-6bed-4de5-bcd2-153a10ec20e8",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "宁波炒年糕",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "0fd40a84eaf44b6cd9d8302b2da0505700e58ead61b71710a6d14f4557247e3a",
+      "metadata": {
+        "location": "text00110.html#subid73",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "3dfc4c36-18c2-4c23-9b8d-634e2ba265ed",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "韭菜盒子",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "25d4b572f01dca6d86766aa1a527bab8e4149ede8af880e3b020ed3667482109",
+      "metadata": {
+        "location": "text00113.html#subid74",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "3f3418ae-5819-4829-8630-500cb56187a6",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "扬州炒饭",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "54dd3eeaf6062dd5556bb4196f6e3061c02da38ef40bb383220de140296e541a",
+      "metadata": {
+        "location": "text00113.html#subid75",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "86cff800-3d34-414d-a5d2-3ec273959424",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "卤肉饭",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "f6dd639295174a63c7307a4df02da92427d9fb08c651dc7184d27a3b42195bb6",
+      "metadata": {
+        "location": "text00116.html#subid76",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "02970def-7a20-495d-963d-8e0767a2a75a",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "糊塌子",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "3befcc1192d5277348f785906a23210e3405c83e6be4bfbe8f1587b61eedc35d",
+      "metadata": {
+        "location": "text00116.html#subid77",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "ed8d3a40-d4b9-4163-b6b5-dba310b77d16",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "鸭血粉丝汤",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "85589c52eec4ac3a4cd154de46f839bd274616f4466d0e9f593866b56ffb0115",
+      "metadata": {
+        "location": "text00116.html#subid78",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "61ad7c76-5e48-4cb3-beac-f0be18c8d4bf",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "酸辣汤",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "2e206a8243b6468c0fbf0e8a90781b36c05a7ecb018539a00b50628fa7212a2a",
+      "metadata": {
+        "location": "text00116.html#subid79",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "adb8e5a4-05e3-4af3-8805-ce9f6c328a1b",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "鱼肉馄饨",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "bcb7fe777100991d38e308fccae21a73c5c897316463d2e4ac250ddd16f31214",
+      "metadata": {
+        "location": "text00119.html#subid80",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "0ccf6dd7-83ed-4601-a184-f2b9ac406a86",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "地三鲜",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "ef34da6bb551effdaacbcfbee391544715ef57627b7231cea6cb1f66b60d8daf",
+      "metadata": {
+        "location": "text00015.html#subid9",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "6b53a2db-bd73-4522-9332-0f058f1f679b",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "地三鲜",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "f5578d423555edd21af87b425f6614b29b2fb4a51cd93ad820f1111dfdefa8dd",
+      "metadata": {
+        "location": "text00015.html#subid9",
+        "evidenceStatus": "superseded",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true,
+        "replacementDocumentId": "0ccf6dd7-83ed-4601-a184-f2b9ac406a86"
+      }
+    },
+    {
+      "id": "6d91098c-47e2-46d8-a69a-888665007aec",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "锅包肉",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "cbf1a860caeed2b667cdbc3aaf4a1ab6ca0cb5db3c0580793bdd73ed1c4c6109",
+      "metadata": {
+        "location": "text00035.html#subid21",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "43434ec5-101c-4bf4-bf07-84a12a27bf07",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "莲藕排骨汤",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "6a2d4226e87de17c3d813310091da5adc6660cfdc1fa87f22e5cecece06d1e8a",
+      "metadata": {
+        "location": "text00074.html#subid46",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    },
+    {
+      "id": "d7fff61a-ba12-4324-b6fe-6f1b9967cc9c",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "莲藕排骨汤",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "2350b101588a2ded4bcc5eadaba061b4c958441ca4f40477c433f9b28067e69c",
+      "metadata": {
+        "location": "text00074.html#subid46",
+        "correctedAt": "2026-10-06T00:28:03.228Z",
+        "evidenceStatus": "superseded",
+        "retrievalMethod": "EPUB XHTML section",
+        "correctionReason": "历史EPUB规范化漏方法水及烹饪1小时，实际原EPUB同location核验修正。",
+        "originalFilePreserved": true,
+        "replacementDocumentId": "43434ec5-101c-4bf4-bf07-84a12a27bf07"
+      }
+    },
+    {
+      "id": "920e9b45-971f-4e7d-9455-8932515370a5",
+      "source_id": "78e1b835-4629-40f1-bbb5-b655eabc9974",
+      "recipe_name": "豉汁蒸排骨",
+      "book_title": "贝太厨房:从小爱吃的菜2",
+      "content_hash": "f0248c083a3c5426acadd5452eee83f73fb398cd9ba38c23ba814c1a9a1c8688",
+      "metadata": {
+        "location": "text00025.html#subid15",
+        "evidenceReason": "原书生抽/生油歧义真实存在不能改字",
+        "evidenceStatus": "rejected",
+        "evidenceAuditAt": "2026-10-06T06:08:54.142Z",
+        "retrievalMethod": "EPUB XHTML section",
+        "originalFilePreserved": true
+      }
+    }
+  ],
+  "scanStatement": "已读取84份数据库书籍文档的题名、raw_text和normalized_json；排除invalid/superseded/rejected。近名家常烩豆腐单独保留用于cn-031变体核对；其余21无相同菜品完整菜谱。完整书籍文本保留于ignoredwork，不重复出版。",
+  "scannedCount": 84,
+  "usableCount": 79,
+  "excludedCount": 5
+}

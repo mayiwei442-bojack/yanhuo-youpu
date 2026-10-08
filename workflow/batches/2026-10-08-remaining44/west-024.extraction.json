@@ -1,0 +1,77 @@
+{
+  "ingredients": [
+    {
+      "name": "small chicken breasts",
+      "raw": "4 small chicken breasts",
+      "amount": null
+    },
+    {
+      "name": "grated parmesan",
+      "raw": "3 tbsp grated parmesan",
+      "amount": null
+    },
+    {
+      "name": "flour",
+      "raw": "100g flour",
+      "amount": null
+    },
+    {
+      "name": "arge egg beaten",
+      "raw": "1 large egg beaten",
+      "amount": null
+    },
+    {
+      "name": "dried breadcrumbs (we used panko)",
+      "raw": "75g dried breadcrumbs (we used panko)",
+      "amount": null
+    },
+    {
+      "name": "vegetable oil",
+      "raw": "75ml vegetable oil",
+      "amount": null
+    },
+    {
+      "name": "white cabbage shredded",
+      "raw": "300g white cabbage shredded",
+      "amount": null
+    },
+    {
+      "name": "arge carrot peeled and grated",
+      "raw": "1 large carrot peeled and grated",
+      "amount": null
+    },
+    {
+      "name": "spring onions sliced diagonally",
+      "raw": "6 spring onions sliced diagonally",
+      "amount": null
+    },
+    {
+      "name": "red-skinned apple grated",
+      "raw": "1 red-skinned apple grated",
+      "amount": null
+    },
+    {
+      "name": "pot natural yogurt",
+      "raw": "150g pot natural yogurt",
+      "amount": null
+    },
+    {
+      "name": "juice ½ lemon",
+      "raw": "juice ½ lemon",
+      "amount": null
+    },
+    {
+      "name": "English mustard",
+      "raw": "2 tsp English mustard",
+      "amount": null
+    },
+    {
+      "name": "seasoning",
+      "raw": "season coleslaw and flour (steps1/3; seasoning unspecified)",
+      "amount": null
+    }
+  ],
+  "notes": [
+    "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented."
+  ]
+}

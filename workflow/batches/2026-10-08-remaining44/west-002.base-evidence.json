@@ -1,0 +1,187 @@
+{
+  "recipeId": "west-002",
+  "recipeName": "玛格丽特披萨",
+  "category": "western",
+  "createdAt": "2026-10-08T12:02:03.489Z",
+  "sources": [
+    {
+      "sourceName": "BBC Good Food",
+      "sourceType": "website",
+      "url": "https://www.bbcgoodfood.com/recipes/pizza-margherita-4-easy-steps",
+      "documentId": "0b549380-3644-497d-bf63-eebb94610fbe",
+      "retrievalMethod": "ordinary HTTPS GET; complete accessible page JSON-LD and DOM independently inspected",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "strong bread flour",
+          "raw": "300g strong bread flour",
+          "amount": "300g"
+        },
+        {
+          "name": "instant yeast",
+          "raw": "1 tsp instant yeast (from a sachet or a tub)",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "salt",
+          "raw": "1 tsp salt",
+          "amount": "1 tsp"
+        },
+        {
+          "name": "olive oil",
+          "raw": "1 tbsp olive oil plus extra for drizzling",
+          "amount": "1 tbsp plus extra"
+        },
+        {
+          "name": "passata",
+          "raw": "100ml passata",
+          "amount": "100ml"
+        },
+        {
+          "name": "fresh basil or dried basil",
+          "raw": "handful fresh basil or 1 tsp dried",
+          "amount": "handful or 1 tsp"
+        },
+        {
+          "name": "garlic",
+          "raw": "1 garlic clove crushed",
+          "amount": "1 clove"
+        },
+        {
+          "name": "mozzarella",
+          "raw": "125g ball mozzarella sliced",
+          "amount": "125g"
+        },
+        {
+          "name": "parmesan or vegetarian alternative",
+          "raw": "handful grated or shaved parmesan (or vegetarian alternative)",
+          "amount": "handful"
+        },
+        {
+          "name": "cherry tomatoes",
+          "raw": "handful of cherry tomatoes halved",
+          "amount": "handful"
+        },
+        {
+          "name": "basil leaves",
+          "raw": "handful of basil leaves (optional)",
+          "amount": "handful optional"
+        },
+        {
+          "name": "warm water",
+          "raw": "200ml warm water (method step1)",
+          "amount": "200ml"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Make the base: Put the flour into a large bowl, then stir in the yeast and salt. Make a well, pour in 200ml warm water and the olive oil and bring together with a wooden spoon until you have a soft, fairly wet dough. Turn onto a lightly floured surface and knead for 5 mins until smooth. Cover with a tea towel and set aside. You can leave the dough to rise if you like, but it’s not essential for a thin crust.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "Make the sauce: Mix the passata, basil and crushed garlic together, then season to taste. Leave to stand at room temperature while you get on with shaping the base.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "Roll out the dough: if you’ve let the dough rise, give it a quick knead, then split into two balls. On a floured surface, roll out the dough into large rounds, about 25cm across, using a rolling pin. The dough needs to be very thin as it will rise in the oven. Lift the rounds onto two floured baking sheets.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "Top and bake: heat the oven to 240C/220C fan/gas 8. Put another baking sheet or an upturned baking tray in the oven on the top shelf. Smooth sauce over bases with the back of a spoon. Scatter with cheese and tomatoes, drizzle with olive oil and season. Put one pizza, still on its baking sheet, on top of the preheated sheet or tray. Bake for 8-10 mins until crisp. Serve with a little more olive oil, and basil leaves if using. Repeat step for remaining pizza.",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [],
+      "tips": [],
+      "rawExcerpt": "{\n  \"@context\": \"https://schema.org\",\n  \"@id\": \"https://www.bbcgoodfood.com/recipes/pizza-margherita-4-easy-steps#Recipe\",\n  \"@type\": \"Recipe\",\n  \"description\": \"Even a novice cook can master the art of perfect pizza with our step-by-step guide. This homemade pizza recipe features a simple pizza dough and toppings.\",\n  \"image\": [\n    {\n      \"@type\": \"ImageObject\",\n      \"url\": \"https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-51643_11-2f4a2cc.jpg?resize=440,400\",\n      \"width\": 440,\n      \"height\": 400\n    }\n  ],\n  \"mainEntityOfPage\": {\n    \"@type\": \"WebPage\",\n    \"@id\": \"https://www.bbcgoodfood.com/recipes/pizza-margherita-4-easy-steps\"\n  },\n  \"name\": \"Pizza Margherita in 4 easy steps\",\n  \"url\": \"https://www.bbcgoodfood.com/recipes/pizza-margherita-4-easy-steps\",\n  \"author\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Good Food team\",\n      \"url\": \"https://www.bbcgoodfood.com/author/goodfood\"\n    }\n  ],\n  \"dateModified\": \"2026-07-29T16:16:06+01:00\",\n  \"datePublished\": \"2009-09-30T09:48:16+01:00\",\n  \"headline\": \"Pizza Margherita in 4 easy steps\",\n  \"keywords\": \"Basil, Beginners, Bread, Cherry tomato, Cherry tomatoes, Dough, Easy, Good Food, Italy, Kids cooking, Make ahead, Margherita, Mozzarella, Passata, Pizza, Step-by-step, Strong bread flour, Yeast\",\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Good Food\",\n    \"url\": \"https://www.bbcgoodfood.com\",\n    \"logo\": {\n      \"@type\": \"ImageObject\",\n      \"height\": 325,\n      \"url\": \"https://images.immediate.co.uk/production/volatile/sites/30/2026/02/goodfood.logo-f37096c.png?resize=1312,325\",\n      \"width\": 1312\n    }\n  },\n  \"cookTime\": \"PT10M\",\n  \"nutrition\": {\n    \"@type\": \"NutritionInformation\",\n    \"calories\": \"431 calories\",\n    \"fatContent\": \"15 grams fat\",\n    \"saturatedFatContent\": \"7 grams saturated fat\",\n    \"carbohydrateContent\": \"59 grams carbohydrates\",\n    \"sugarContent\": \"2 grams sugar\",\n    \"fiberContent\": \"3 grams fiber\",\n    \"proteinContent\": \"19 grams protein\",\n    \"sodiumContent\": \"1.9 milligram of sodium\"\n  },\n  \"recipeCategory\": \"Buffet, Dinner, Main course, Snack, Supper\",\n  \"recipeCuisine\": \"Italian\",\n  \"recipeIngredient\": [\n    \"300g strong bread flour\",\n    \"1 tsp instant yeast (from a sachet or a tub)\",\n    \"1 tsp salt\",\n    \"1 tbsp olive oil plus extra for drizzling\",\n    \"100ml passata\",\n    \"handful fresh basil or 1 tsp dried\",\n    \"1 garlic clove crushed\",\n    \"125g ball mozzarella sliced\",\n    \"handful grated or shaved parmesan (or vegetarian alternative)\",\n    \"handful of cherry tomatoes halved\",\n    \"handful of basil leaves (optional)\"\n  ],\n  \"recipeInstructions\": [\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Make the base: Put the flour into a large bowl, then stir in the yeast and salt. Make a well, pour in 200ml warm water and the olive oil and bring together with a wooden spoon until you have a soft, fairly wet dough. Turn onto a lightly floured surface and knead for 5 mins until smooth. Cover with a tea towel and set aside. You can leave the dough to rise if you like, but it’s not essential for a thin crust.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Make the sauce: Mix the passata, basil and crushed garlic together, then season to taste. Leave to stand at room temperature while you get on with shaping the base.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Roll out the dough: if you’ve let the dough rise, give it a quick knead, then split into two balls. On a floured surface, roll out the dough into large rounds, about 25cm across, using a rolling pin. The dough needs to be very thin as it will rise in the oven. Lift the rounds onto two floured baking sheets.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Top and bake: heat the oven to 240C/220C fan/gas 8. Put another baking sheet or an upturned baking tray in the oven on the top shelf. Smooth sauce over bases with the back of a spoon. Scatter with cheese and tomatoes, drizzle with olive oil and season. Put one pizza, still on its baking sheet, on top of the preheated sheet or tray. Bake for 8-10 mins until crisp. Serve with a little more olive oil, and basil leaves if using. Repeat step for remaining pizza.\"\n    }\n  ],\n  \"recipeYield\": \"Makes 2 pizzas, serves 4\",\n  \"suitableForDiet\": \"https://schema.org/VegetarianDiet\",\n  \"totalTime\": \"PT35M\"\n}",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 1,
+        "mappedStepImages": 0,
+        "stepImageCoverage": 0,
+        "ingredientCount": 12,
+        "executableStepCount": 4,
+        "notes": [
+          "Warm water is specified in method step1 but absent from recipeIngredient; extracted explicitly from method. Extra dusting flour and drizzling oil have no fixed amount. Sauce and assembled pizza are seasoned to taste; source does not identify every seasoning separately. Vessel tsp/tbsp/handful not converted into metric volume."
+        ]
+      }
+    }
+  ],
+  "sourceMode": "single_source",
+  "singleSourceReason": "Exact-name and alias KB query first; all84actual book records checked, no matching Western recipe. Enabled BBC and Serious Eats alternatives attempted; only one independent complete coherent source remains eligible. Other inaccessible, materially different, or internally conflicting variants are retained in audit and never used to supplement it.",
+  "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/pizza-margherita-4-easy-steps",
+  "selectionReason": "Selected exactly one whole BBC recipe: full coherent ingredients/method match the target; verified usable hero (no source step photos available). Other sources have no verified usable media URLs under ordinary access. Under the required completeness/coherence then usable-image/coverage ranking, this source leads; its ingredients, operations, tips and media are kept together without supplementation.",
+  "ragEvidence": [
+    {
+      "chunkId": "0bdb8b96-17a2-4cac-8af7-e93f015b526a",
+      "documentId": "0b549380-3644-497d-bf63-eebb94610fbe",
+      "sourceName": "BBC Good Food",
+      "chunkType": "tips",
+      "content": "菜名：玛格丽特披萨\n- 原文未提供额外提示。",
+      "similarity": 0.683560888979488
+    },
+    {
+      "chunkId": "6e1581e2-1801-442f-840c-7b610fdd8e74",
+      "documentId": "0b549380-3644-497d-bf63-eebb94610fbe",
+      "sourceName": "BBC Good Food",
+      "chunkType": "technique",
+      "content": "菜名：玛格丽特披萨\n- 原文未明确说明技法。",
+      "similarity": 0.660442371977639
+    },
+    {
+      "chunkId": "39d6d579-a65b-4a86-a1c5-05f6855c8898",
+      "documentId": "0b549380-3644-497d-bf63-eebb94610fbe",
+      "sourceName": "BBC Good Food",
+      "chunkType": "summary",
+      "content": "菜名：玛格丽特披萨\n别名：Pizza Margherita in 4 easy steps\n菜系：Italian\n简介：Even a novice cook can master the art of perfect pizza with our step-by-step guide. This homemade pizza recipe features a simple pizza dough and toppings.",
+      "similarity": 0.645956176037334
+    },
+    {
+      "chunkId": "c64a4cbf-48ee-4726-9f15-f506a7a6b32f",
+      "documentId": "0b549380-3644-497d-bf63-eebb94610fbe",
+      "sourceName": "BBC Good Food",
+      "chunkType": "steps",
+      "content": "菜名：玛格丽特披萨\n4. Top and bake: heat the oven to 240C/220C fan/gas 8. Put another baking sheet or an upturned baking tray in the oven on the top shelf. Smooth sauce over bases with the back of a spoon. Scatter with cheese and tomatoes, drizzle with olive oil and season. Put one pizza, still on its baking sheet, on top of the preheated sheet or tray. Bake for 8-10 mins until crisp. Serve with a little more olive oil, and basil leaves if using. Repeat step for remaining pizza.",
+      "similarity": 0.625982839643444
+    },
+    {
+      "chunkId": "169c5015-77be-405f-8dfc-474bca5ab71e",
+      "documentId": "0b549380-3644-497d-bf63-eebb94610fbe",
+      "sourceName": "BBC Good Food",
+      "chunkType": "ingredients",
+      "content": "菜名：玛格丽特披萨\n- 300g strong bread flour\n- 1 tsp instant yeast (from a sachet or a tub)\n- 1 tsp salt\n- 1 tbsp olive oil plus extra for drizzling\n- 100ml passata\n- handful fresh basil or 1 tsp dried\n- 1 garlic clove crushed\n- 125g ball mozzarella sliced\n- handful grated or shaved parmesan (or vegetarian alternative)\n- handful of cherry tomatoes halved\n- handful of basil leaves (optional)\n- 200ml warm water (method step1)",
+      "similarity": 0.602001291453802
+    },
+    {
+      "chunkId": "eee4cf1b-fc22-43e7-baaa-2885fe2b2770",
+      "documentId": "0b549380-3644-497d-bf63-eebb94610fbe",
+      "sourceName": "BBC Good Food",
+      "chunkType": "steps",
+      "content": "菜名：玛格丽特披萨\n1. Make the base: Put the flour into a large bowl, then stir in the yeast and salt. Make a well, pour in 200ml warm water and the olive oil and bring together with a wooden spoon until you have a soft, fairly wet dough. Turn onto a lightly floured surface and knead for 5 mins until smooth. Cover with a tea towel and set aside. You can leave the dough to rise if you like, but it’s not essential for a thin crust.\n2. Make the sauce: Mix the passata, basil and crushed garlic together, then season to taste. Leave to stand at room temperature while you get on with shaping the base.\n3. Roll out the dough: if you’ve let the dough rise, give it a quick knead, then split into two balls. On a floured surface, roll out the dough into large rounds, about 25cm across, using a rolling pin. The dough needs to be very thin as it will rise in the oven. Lift the rounds onto two floured baking sheets.",
+      "similarity": 0.582401258277858
+    }
+  ],
+  "notes": [
+    "Warm water is specified in method step1 but absent from recipeIngredient; extracted explicitly from method. Extra dusting flour and drizzling oil have no fixed amount. Sauce and assembled pizza are seasoned to taste; source does not identify every seasoning separately. Vessel tsp/tbsp/handful not converted into metric volume.",
+    "BBC source original yield: Makes 2 pizzas, serves 4",
+    "BBC original totalTime: PT35M",
+    "BBC original cookTime: PT10M",
+    "BBC original prepTime: unspecified",
+    "Alternative attempts: [{\"url\":\"https://www.bbcgoodfood.com/recipes/pizza-margherita-4-easy-steps\",\"status\":200,\"bytes\":586531}]",
+    "Current book inventory and22target audit: west-kb-audit.json. Invalid/superseded/rejected history excluded.",
+    "Serious Eats direct Python460/normalPowerShell402/normalChrome402; normalweb.open successfully retrieved the complete recipes included here. All successful complete matching sources ingested separately before selection; no access-control bypass.",
+    "Alternative enabled-site searches and complete observed source text are archived in west-alternative-search.json and west-se-*.txt.",
+    "Selected source has no verified cooking-stage photos; do not fabricate or relabel a finished-dish photo. Parent must resolve manual-run image exception before publishing."
+  ]
+}

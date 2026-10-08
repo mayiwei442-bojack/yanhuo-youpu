@@ -1,0 +1,163 @@
+{
+  "ingredients": [
+    {
+      "name": "eek green top left whole, white finely sliced",
+      "raw": "1 leek green top left whole, white finely sliced",
+      "amount": null
+    },
+    {
+      "name": "small bunch fresh thyme",
+      "raw": "small bunch fresh thyme",
+      "amount": null
+    },
+    {
+      "name": "bay leaves",
+      "raw": "3 bay leaves",
+      "amount": null
+    },
+    {
+      "name": "bunch parsley stalks whole, leaves roughly chopped",
+      "raw": "bunch parsley stalks whole, leaves roughly chopped",
+      "amount": null
+    },
+    {
+      "name": "strips of orange peel",
+      "raw": "2 strips of orange peel",
+      "amount": null
+    },
+    {
+      "name": "mild red chilli",
+      "raw": "1 mild red chilli",
+      "amount": null
+    },
+    {
+      "name": "olive oil",
+      "raw": "4 tbsp olive oil",
+      "amount": null
+    },
+    {
+      "name": "onions chopped",
+      "raw": "2 onions chopped",
+      "amount": null
+    },
+    {
+      "name": "eek",
+      "raw": "1 leek",
+      "amount": null
+    },
+    {
+      "name": "fennel fronds picked and reserved, fennel chopped",
+      "raw": "1 fennel fronds picked and reserved, fennel chopped",
+      "amount": null
+    },
+    {
+      "name": "arlic cloves minced",
+      "raw": "4 garlic cloves minced",
+      "amount": null
+    },
+    {
+      "name": "tomato purée",
+      "raw": "1 tbsp tomato purée",
+      "amount": null
+    },
+    {
+      "name": "star anise",
+      "raw": "1 star anise",
+      "amount": null
+    },
+    {
+      "name": "Pernod optional, if you have it",
+      "raw": "2 tbsp Pernod optional, if you have it",
+      "amount": null
+    },
+    {
+      "name": "arge, ripe tomatoes chopped",
+      "raw": "4 large, ripe tomatoes chopped",
+      "amount": null
+    },
+    {
+      "name": "large pinch (⅓ tsp)  saffron strands",
+      "raw": "large pinch (⅓ tsp)  saffron strands",
+      "amount": null
+    },
+    {
+      "name": "fish stock",
+      "raw": "1 ½l fish stock",
+      "amount": null
+    },
+    {
+      "name": "potato one peeled piece",
+      "raw": "100g potato one peeled piece",
+      "amount": null
+    },
+    {
+      "name": "of filleted mixed Mediterranean fish each fillet cut into large chunks. (We used a mix of red and grey mullet, monkfish, John Dory and gurnard)",
+      "raw": "1kg of filleted mixed Mediterranean fish each fillet cut into large chunks. (We used a mix of red and grey mullet, monkfish, John Dory and gurnard)",
+      "amount": null
+    },
+    {
+      "name": "mussels optional",
+      "raw": "300g mussels optional",
+      "amount": null
+    },
+    {
+      "name": "arlic cloves",
+      "raw": "2 garlic cloves",
+      "amount": null
+    },
+    {
+      "name": "small chunk of red chilli (optional)",
+      "raw": "1 small chunk of red chilli (optional)",
+      "amount": null
+    },
+    {
+      "name": "small pinch saffron",
+      "raw": "small pinch saffron",
+      "amount": null
+    },
+    {
+      "name": "piece of potato cooked in the broth, (see above)",
+      "raw": "1 piece of potato cooked in the broth, (see above)",
+      "amount": null
+    },
+    {
+      "name": "egg yolk",
+      "raw": "1 egg yolk",
+      "amount": null
+    },
+    {
+      "name": "olive oil",
+      "raw": "100ml olive oil",
+      "amount": null
+    },
+    {
+      "name": "lemon juice",
+      "raw": "1 tbsp lemon juice",
+      "amount": null
+    },
+    {
+      "name": "baguette thinly sliced",
+      "raw": "½ baguette thinly sliced",
+      "amount": null
+    },
+    {
+      "name": "olive oil",
+      "raw": "1 tbsp olive oil",
+      "amount": null
+    },
+    {
+      "name": "salt",
+      "raw": "salt for broth and pinch for rouille (steps3/4)",
+      "amount": null
+    },
+    {
+      "name": "pepper",
+      "raw": "pepper for broth (step3; unspecified amount)",
+      "amount": null
+    }
+  ],
+  "notes": [
+    "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented.",
+    "Source ingredient listing includes both1 leek described by white/green parts and a second1 leek row; do not silently merge or delete. Ingredient fish examples and method ordering examples differ (snapper appears in method while ingredient examples list gurnard/red mullet); retain source generic mixedfish and disclose examples as alternatives."
+  ]
+}

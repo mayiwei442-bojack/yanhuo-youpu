@@ -1,0 +1,144 @@
+{
+  "recipeId": "cn-053",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-3.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-053-woks/hero.jpg",
+      "sha256": "3fbb33a8cf2ba59ad918ddf24b4d597ae4a46774f8d87a47a5dff9aae9fabc0d",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 104265
+    },
+    {
+      "role": "step",
+      "stepOrder": 1,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-053-woks/step-1-2.jpg",
+      "sha256": "670fda2ac678cbcc61546aa959e8984ae960f47808b0aebada14383255621b04",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 34860
+    },
+    {
+      "role": "step",
+      "stepOrder": 2,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-9.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-053-woks/step-2-3.jpg",
+      "sha256": "e53dd05a424b254cf8fe835aaa95994a1536afa3ed34546c3e43c33611cc0dd2",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 21518
+    },
+    {
+      "role": "step",
+      "stepOrder": 3,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-8.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-053-woks/step-3-4.jpg",
+      "sha256": "ce548fcead07ba85e34b8b0e8298e4feb635c81f3e5a4a01c173205d014f53d0",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 26246
+    },
+    {
+      "role": "step",
+      "stepOrder": 4,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-10.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-053-woks/step-4-5.jpg",
+      "sha256": "c76f47dc385d6de061cf7eeb589e9fa5a906157d792a5e8c5bfdcce37ccd6a5e",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 30902
+    },
+    {
+      "role": "step",
+      "stepOrder": 4,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-11.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-053-woks/step-4-6.jpg",
+      "sha256": "f450d2cc88c438c6386bdf8bd002f7e10847659c6ae256507de3284e782dc2db",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 36978
+    },
+    {
+      "role": "step",
+      "stepOrder": 5,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-12.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-053-woks/step-5-7.jpg",
+      "sha256": "bfe9691ba4d74f1603adccee1132c5726f9ddf5592a6f518febd0229b410e6cf",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 44164
+    },
+    {
+      "role": "step",
+      "stepOrder": 5,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-13.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-053-woks/step-5-8.jpg",
+      "sha256": "c49c46d859199a9faf4b2cbd72313c573fa2c1b452321079f56fce27a480d1a8",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 31968
+    },
+    {
+      "role": "step",
+      "stepOrder": 5,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-14.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-053-woks/step-5-9.jpg",
+      "sha256": "6de57734028d7873a5833a5d07fabb8b3887610d1d41c8e5cda1bae1fc7c4545",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 36664
+    },
+    {
+      "role": "step",
+      "stepOrder": 5,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-15.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-053-woks/step-5-10.jpg",
+      "sha256": "cc0335a8d434c6fcff7adb4309d420495522c49a5770ac5db2cc66945b6a448b",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 48527
+    },
+    {
+      "role": "step",
+      "stepOrder": 5,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-7.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-053-woks/step-5-11.jpg",
+      "sha256": "96a1fda18c6ffe85b6201c92a3f971eda76fd005f511c69489e333f6834f88aa",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 39679
+    },
+    {
+      "role": "step",
+      "stepOrder": 6,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-2.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-053-woks/step-6-12.jpg",
+      "sha256": "ad16c1cddd8fe0333f82110ecca547e5b87fc9bffbb5bfbaacac80f2f3bb4a7d",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 107286
+    },
+    {
+      "role": "step",
+      "stepOrder": 6,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-5.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-053-woks/step-6-13.jpg",
+      "sha256": "19e8aee452fab13eb7fa668d572d12efb85c45cfd3c8e5b8b950fcb84cee1491",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 83204
+    },
+    {
+      "role": "step",
+      "stepOrder": 7,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-4.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-053-woks/step-7-14.jpg",
+      "sha256": "f517622524f015e11260e6d8b6885b21024d38e08db197e4f1b2f0751acfa19f",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 99918
+    }
+  ]
+}

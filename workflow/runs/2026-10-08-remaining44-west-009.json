@@ -1,0 +1,65 @@
+{
+  "runId": "2026-10-08-remaining44-west-009",
+  "recipeId": "west-009",
+  "recipeName": "德式烤香肠",
+  "category": "western",
+  "status": "in_progress",
+  "startedAt": "2026-10-08T11:56:52.318Z",
+  "completedAt": null,
+  "steps": {
+    "research": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "evidencePath": "workflow/batches/2026-10-08-remaining44/west-009.base-evidence.json",
+        "evidencePackageHash": "300e61e0212296b27d86a35b0c8a325e515596138648fca4c5ef6f4787a11199",
+        "selectedSourceUrl": "https://www.seriouseats.com/grilled-bratwurst-with-beer-mustard-and-sauerkraut-recipe",
+        "sourceMode": "single_source",
+        "singleSourceReason": "Exact-name and alias KB query first; all84actual book records checked, no matching Western recipe. Enabled BBC and Serious Eats alternatives attempted; only one independent complete coherent source remains eligible. Other inaccessible, materially different, or internally conflicting variants are retained in audit and never used to supplement it.",
+        "publicationGate": "Final image/evidence acceptance pending"
+      }
+    },
+    "ingestion": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "selectedDocumentId": "29fa3b16-9237-46cd-8135-71280c566512",
+        "documentIds": [
+          "29fa3b16-9237-46cd-8135-71280c566512"
+        ],
+        "ragEvidence": 6
+      }
+    },
+    "edit": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "validator": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "review": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "build": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "gitPush": {
+      "status": "pending",
+      "attempts": 0
+    }
+  },
+  "sources": [
+    {
+      "name": "Serious Eats",
+      "url": "https://www.seriouseats.com/grilled-bratwurst-with-beer-mustard-and-sauerkraut-recipe",
+      "status": "success",
+      "failureReason": null
+    }
+  ],
+  "errors": [],
+  "branch": "codex/recipe-automation",
+  "commit": null
+}

@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "completedAt": "2026-10-08T12:18:06.637Z",
+  "documents": [
+    {
+      "documentId": "2a659456-2a0f-4e3e-b07f-569cf91e2e15",
+      "url": "https://thewoksoflife.com/salt-baked-chicken/",
+      "deduplicated": false,
+      "embedded": true,
+      "chunkCount": 7,
+      "model": "voyage-4",
+      "dimension": 1024,
+      "semanticCount": 7,
+      "hybridCount": 7
+    }
+  ]
+}

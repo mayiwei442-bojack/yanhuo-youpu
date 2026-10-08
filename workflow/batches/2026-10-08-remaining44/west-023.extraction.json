@@ -1,0 +1,52 @@
+{
+  "ingredients": [
+    {
+      "name": "arge  vine tomatoes cut into irregular wedges",
+      "raw": "4 large  vine tomatoes cut into irregular wedges",
+      "amount": null
+    },
+    {
+      "name": "cucumber peeled, deseeded, then roughly chopped",
+      "raw": "1 cucumber peeled, deseeded, then roughly chopped",
+      "amount": null
+    },
+    {
+      "name": "a red onion thinly sliced",
+      "raw": "½ a red onion thinly sliced",
+      "amount": null
+    },
+    {
+      "name": "Kalamata olives",
+      "raw": "16 Kalamata olives",
+      "amount": null
+    },
+    {
+      "name": "dried oregano",
+      "raw": "1 tsp dried oregano",
+      "amount": null
+    },
+    {
+      "name": "feta cheese cut into chunks (barrel matured feta is the best)",
+      "raw": "85g feta cheese cut into chunks (barrel matured feta is the best)",
+      "amount": null
+    },
+    {
+      "name": "Greek extra virgin olive oil",
+      "raw": "4 tbsp Greek extra virgin olive oil",
+      "amount": null
+    },
+    {
+      "name": "seasoning",
+      "raw": "Lightly season (step2; unspecified type and amount)",
+      "amount": null
+    },
+    {
+      "name": "crusty bread",
+      "raw": "crusty bread to serve (step2; amount unspecified)",
+      "amount": null
+    }
+  ],
+  "notes": [
+    "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented."
+  ]
+}

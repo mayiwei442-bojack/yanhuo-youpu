@@ -1,0 +1,137 @@
+{
+  "recipeId": "cn-053",
+  "recipeName": "盐焗鸡",
+  "category": "chinese",
+  "createdAt": "2026-10-08T12:08:59.218105+00:00",
+  "sources": [
+    {
+      "sourceName": "The Woks of Life",
+      "sourceType": "website",
+      "url": "https://thewoksoflife.com/salt-baked-chicken/",
+      "documentId": "pending-ingestion",
+      "retrievalMethod": "Normal web browser fetch complete recipe card plus relevant operational narrative",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "A whole chicken (about 3 pounds, 1.35 kg)",
+          "amount": null,
+          "raw": "A whole chicken (about 3 pounds, 1.35 kg)",
+          "sourceGroup": ""
+        },
+        {
+          "name": "Shaoxing wine",
+          "amount": "2 tablespoons",
+          "raw": "2 tablespoons Shaoxing wine",
+          "sourceGroup": ""
+        },
+        {
+          "name": "sand ginger powder",
+          "amount": "1½ tablespoons",
+          "raw": "1½ tablespoons sand ginger powder",
+          "sourceGroup": ""
+        },
+        {
+          "name": "ground white pepper",
+          "amount": "½ teaspoon",
+          "raw": "½ teaspoon ground white pepper",
+          "sourceGroup": ""
+        },
+        {
+          "name": "coarse sea salt (plus 3 pounds; yes, you read that right)",
+          "amount": "2 teaspoons",
+          "raw": "2 teaspoons coarse sea salt (plus 3 pounds; yes, you read that right)",
+          "sourceGroup": ""
+        },
+        {
+          "name": "ginger",
+          "amount": "4 slices",
+          "raw": "4 slices ginger",
+          "sourceGroup": ""
+        },
+        {
+          "name": "oil",
+          "amount": "1 tablespoon",
+          "raw": "1 tablespoon oil",
+          "sourceGroup": ""
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Rinse the chicken under cold running water. Shake off the excess water and pat the chicken dry with paper towels or a clean dish cloth.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "Brush the Shaoxing wine all over the chicken, including the cavity. Next, combine the sand ginger powder, ground white pepper, and 2 teaspoons salt. Rub the mixture all over the chicken, including the cavity.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "Now set the chicken on a wire rack, and place it over a tray to catch any drippings. It’s best if you can sit the chicken upright so the liquid in its cavity can drip out. You can use a drinking glass to prop it up. Leave the chicken uncovered and let marinate overnight in the refrigerator. The objective is to dry out the chicken skin.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "The next day, take the chicken out of the refrigerator for at least one to two hours before cooking, so the chicken can come up to room temperature. Insert the ginger slices into the cavity and brush the chicken skin with oil. Next, tie up the drumsticks with kitchen twine. Finally, wrap the chicken with a large piece of parchment paper, then wrap it again with a second piece of parchment with the opening on the breast side. Set the chicken aside.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 5,
+          "instruction": "Now “stir-fry” the rest of the salt in a clean dry wok for about 15 minutes, using medium heat until the salt turns light brown. The salt gets very hot, so be careful not to burn yourself or stir too vigorously. Next, fill a wok or Dutch oven with about a ½-inch of hot salt spread evenly across the bottom. Position the chicken with the breast side up in the center of the pot. Next, add the rest of the hot salt onto the chicken to make sure it’s completely covered.\nTop your vessel of choice with the lid, and cook over medium heat for 35 minutes. Then turn off the heat, and let it sit on the stove, covered, for another 30 to 40 minutes until the salt is warm to the touch.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 6,
+          "instruction": "Once the salt is warm to the touch, use a wooden spoon or a spatula to carefully lift the chicken out of the salt. Be very careful–the chicken is still very hot despite sitting with the heat off for 30-40 minutes. Carefully unwrap the parchment paper, and let it cool slightly until it’s not too hot to handle.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 7,
+          "instruction": "As for how to serve the chicken, this dish is usually served with the meat deboned and pulled apart. You don’t have to follow these steps, but your diners (in our case, Sarah) will appreciate your effort! Plus, the chicken bone and carcass do make a lovely broth. As you pull the meat off the chicken, there will be a lot of juice–do yourself and your diners a favor by pouring the juice over the chicken after it’s plated! For the finishing touch, sprinkle with chopped scallion.",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [
+        "Serves: 6",
+        "Prep: 2 hrs",
+        "Cook: 1 hr 30 mins",
+        "Total: 3 hrs 30 mins"
+      ],
+      "tips": [],
+      "rawExcerpt": "## Recipe\n\nImage\n\nPrint\n\n4.80 from 25 votes\n\n### Salt Baked Chicken, A Hakka Favorite (盐焗鸡)\n\nSalt Baked Chicken is a signature Hakka (客家) dish, and this is the best tasting original and authentic version of the famous Hakka Salt Baked Chicken recipe.\n\nby: Judy\n\nServes: 6\n\nPrep: 2 hrs\n\nCook: 1 hr 30 mins\n\nTotal: 3 hrs 30 mins\n#### Ingredients\n\n* [Input]A whole chicken (about 3 pounds, 1.35 kg)\n* [Input]2 tablespoons Shaoxing wine\n* [Input]1½ tablespoons sand ginger powder\n* [Input]½ teaspoon ground white pepper\n* [Input]2 teaspoons coarse sea salt (plus 3 pounds; yes, you read that right)\n* [Input]4 slices ginger\n* [Input]1 tablespoon oil\n#### Instructions\n\n* Rinse the chicken under cold running water. Shake off the excess water and pat the chicken dry with paper towels or a clean dish cloth.\n\n* Brush the Shaoxing wine all over the chicken, including the cavity. Next, combine the sand ginger powder, ground white pepper, and 2 teaspoons salt. Rub the mixture all over the chicken, including the cavity.\n* Now set the chicken on a wire rack, and place it over a tray to catch any drippings. It’s best if you can sit the chicken upright so the liquid in its cavity can drip out. You can use a drinking glass to prop it up. Leave the chicken uncovered and let marinate overnight in the refrigerator. The objective is to dry out the chicken skin.\n* The next day, take the chicken out of the refrigerator for at least one to two hours before cooking, so the chicken can come up to room temperature. Insert the ginger slices into the cavity and brush the chicken skin with oil. Next, tie up the drumsticks with kitchen twine. Finally, wrap the chicken with a large piece of parchment paper, then wrap it again with a second piece of parchment with the opening on the breast side. Set the chicken aside.\n* Now “stir-fry” the rest of the salt in a clean dry wok for about 15 minutes, using medium heat until the salt turns light brown. The salt gets very hot, so be careful not to burn yourself or stir too vigorously. Next, fill a wok or Dutch oven with about a ½-inch of hot salt spread evenly across the bottom. Position the chicken with the breast side up in the center of the pot. Next, add the rest of the hot salt onto the chicken to make sure it’s completely covered.\nTop your vessel of choice with the lid, and cook over medium heat for 35 minutes. Then turn off the heat, and let it sit on the stove, covered, for another 30 to 40 minutes until the salt is warm to the touch.\n* Once the salt is warm to the touch, use a wooden spoon or a spatula to carefully lift the chicken out of the salt. Be very careful–the chicken is still very hot despite sitting with the heat off for 30-40 minutes. Carefully unwrap the parchment paper, and let it cool slightly until it’s not too hot to handle.\n* As for how to serve the chicken, this dish is usually served with the meat deboned and pulled apart. You don’t have to follow these steps, but your diners (in our case, Sarah) will appreciate your effort! Plus, the chicken bone and carcass do make a lovely broth. As you pull the meat off the chicken, there will be a lot of juice–do yourself and your diners a favor by pouring the juice over the chicken after it’s plated! For the finishing touch, sprinkle with chopped scallion.\n\nOperational narrative\n## Origins of Salt Baked Chicken\n\nThis is the real deal, true blue recipe for Salt Baked Chicken. As for the origin of the dish, there are a few folk tales out there that people will tell you, but I like this one the best:\n\nAs the story goes, a reliable salt merchant was gifted with a live chicken after a job well done. Due to the many days it would take for him to journey home, he decided to dress the chicken and wrap it with salt to preserve its freshness.\nBut while traveling, he could not resist, and decided to roast it in salt due to his lack of cooking equipment. He was so delighted with the taste that he told his wife about his newfound creation upon arriving home.\n\nHis wife then carefully followed the steps and re-created it, and that’s how Salt Baked Chicken was born. It’s not a very progressive story, and who can say if it’s fact or fiction (or maybe historical fiction?) but I do hope that you’ve enjoyed this little bit of poultry drama.\n## A Traditional Recipe\n\nThis recipe is how Salt Baked Chicken is traditionally made. In stores you can find a pre-prepared salt baked powder seasoning packet that many people like to use pictured below.\n\nI don’t like it, because it’s loaded with MSG , and this chicken ABSOLUTELY does not need it! I say put in the little extra bit of elbow grease for the real thing! Plus, with the help of salt and sand ginger powder (沙姜粉, sha-jiang-fen) , the true essence of the chicken really comes through.\nAnd I’m not at all exaggerating when I say that we, the Woks of Life, all think that it is the tastiest chicken we’ve ever had–as in compared to all the chicken we have collectively ever eaten (which is a lot). It’s an enormous bill of approval, because we’ve posted many pretty delicious chicken recipes over the years, but this Salt Baked Chicken still outshines them all.\n## A Note on Cookware\n\nSo now I know you are excited, but before we start, let me talk briefly about what cookware you should use for this recipe. A Chinese clay pot is the more traditional choice, but it will very likely crack during cooking.\nI used my heat-tempered clay pot thinking that it would be safe, but after using it to test this recipe a few times, it’s now cracked! This dish is featured on the Chinese TV documentary series, A Bite of China. I t’s like Planet Earth, but instead of animals, it’s about the many forms of Chinese home-cooking.\nIt’s spectacular cinematography and immensely enjoyable entertainment, and I encourage you all to watch—with English subtitles of course (episodes can be found on YouTube). There’s one episode that features a local Hakka man making this chicken just in a regular wok with a lid.\nHe cooks the salt in the wok first, makes a well in the middle of the hot salt, puts the wrapped chicken in, then piles the salt around the chicken and over the top, and simply covers it with the wok lid. Next time I make this, I will be following his method, so I don’t have to keep replacing my clay pot!\n## Key Ingredient: Sand Ginger Powder\n\nOne last note. Sand ginger powder (沙姜粉, sha-jiang-fen) is not the same as ginger powder. For this recipe, sand ginger powder is just as important as the salt. It cannot be substituted or omitted.\n\nWhich makes me wonder, if the folktale of how this recipe was created is true, did the merchant have the sand ginger powder with him, or was it added by another smart person in the years after? Poultry drama season 2 might be in order…\n\n## Cooking Tips\n1. You should have the same amount of coarse sea salt by weight as the weight of your chicken. If you are cooking a 4-pound chicken, then you will need 4 pounds of salt.\n2. After cooking, once the salt is cooled, discard any of the dis-colored salt (you’ll know because it’s been browned either by heat or exposure to the juices from the chicken). Save the rest, and reuse it for next time.\n3. After de-boning the chicken, the chicken bones make a wonderful stock or soup base. Do not discard them, please!!! You’ll be missing out on half the value of the recipe, trust me.\n4. Added on 5/10/2017: One of our readers made a good point to use organic chicken. Compared to a 30-day chicken, organic or pastured chickens have a silkier and firmer texture.\n## Salt Baked Chicken: Recipe Instructions\n\nRinse the chicken under cold running water. Shake off the excess water and pat the chicken dry with paper towels or a clean dish cloth.\n\nBrush the Shaoxing wine all over the chicken, including the cavity. Next, combine the sand ginger powder , ground white pepper , and 2 teaspoons salt. Rub the mixture all over the chicken, including the cavity.\nNow set the chicken on a wire rack, and place it over a tray to catch any drippings. It’s best if you can sit the chicken upright so the liquid in its cavity can drip out. You can use a drinking glass to prop it up. Leave the chicken uncovered and let marinate overnight in the refrigerator. The objective is to dry out the chicken skin.\nThe next day, take the chicken out of the refrigerator for at least one to two hours before cooking, so the chicken can come up to room temperature. Insert the ginger slices into the cavity and brush the chicken skin with oil. Next, tie up the drumsticks with kitchen twine.\n\n\nFinally, wrap the chicken with a large piece of parchment paper, then wrap it again with a second piece of parchment with the opening on the breast side. Set the chicken aside.\n\n\n\nNow “stir-fry” the rest of the salt in a clean dry wok for about 15 minutes, using medium heat until the salt turns light brown. The salt gets very hot, so be careful not to burn yourself or stir too vigorously.\n\n\nNext, fill a wok or Dutch oven with about a ½-inch of hot salt spread evenly across the bottom. Position the chicken with the breast side up in the center of the pot.\n\n\n\nNext, add the rest of the hot salt onto the chicken to make sure it’s completely covered.\n\n\nTop your vessel of choice with the lid, and cook over medium heat for 35 minutes. Then turn off the heat, and let it sit on the stove, covered, for another 30 to 40 minutes until the salt is warm to the touch.\n\n\n\nOnce the salt is warm to the touch, use a wooden spoon or a spatula to carefully lift the chicken out of the salt. Be very careful–the chicken is still very hot despite sitting with the heat off for 30-40 minutes.\n\n\nCarefully unwrap the parchment paper, and let it cool slightly until it’s not too hot to handle.\n\n\n\n\n\n\nAs for how to serve the chicken, this dish is usually served with the meat deboned and pulled apart. You don’t have to follow these steps, but your diners (in our case, Sarah) will appreciate your effort! Plus, the chicken bone and carcass do make a lovely broth.\n\n\n\nAs you pull the meat off the chicken, there will be a lot of juice–do yourself and your diners a favor by pouring the juice over the chicken after it’s plated!\n\n\n\n\nIf you like this Salt Baked Chicken dish and are interested in more Hakka dishes, we have two other recipes for you to try: Hakka Style Stuffed Tofu and Mei Cai Kou Rou Steamed Pork Belly with Preserved Mustard Greens!\nLooking for more authentic recipes? Subscribe to our email list and be sure to follow us on Pinterest , Facebook , Instagram , and Youtube!",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 0,
+        "mappedStepImages": 0,
+        "stepImageCoverage": 0,
+        "ingredientCount": 7,
+        "executableStepCount": 7,
+        "notes": [
+          "Media verification pending parent import. Source quantities retained without vessel-unit conversion."
+        ]
+      }
+    }
+  ],
+  "sourceMode": "single_source",
+  "singleSourceReason": "已读取数据库全部84份书籍菜谱并按名称、别名和正文核对，本菜无完全匹配书籍信源。已检索配置豆果来源，其他候选如有见notes；保留可访问完整Woks整份配方。",
+  "selectedSourceUrl": "https://thewoksoflife.com/salt-baked-chicken/",
+  "selectionReason": "此完整且内部自洽的名称匹配信源可保留所有原料用量和操作；图片核验待完成，未混入其他来源。",
+  "ragEvidence": [],
+  "notes": [
+    "Database book comparison audit: cn-book-inventory.json.",
+    "完整来源步骤及正文操作细节保留在rawExcerpt；Editor必须核对正文补充细节，不能只用压缩后的概述。",
+    "Photos pending verification; never claim downloaded before media-import result.",
+    "Unselected source images: [{\"originalUrl\": \"https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-6.jpg\", \"role\": \"finished_dish\", \"reason\": \"重复成品图，未伪作过程图。\"}]"
+  ]
+}

@@ -1,0 +1,339 @@
+Roman-Style Fettuccine With Alfredo Sauce Recipe (https://www.seriouseats.com/fettuccine-alfredo-sauce-italian-pasta-recipe)
+citeturn26view0 [wordlim: 100] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.seriouseats.com/fettuccine-alfredo-sauce-italian-pasta-recipe","lineno":null}); Total lines: 201
+L0: cite0†iframe†www.googletagmanager.com L1: 
+L2: cite1†Serious Eats L3: 
+L4: Save
+L5: 
+L6: Rate
+L7: 
+L8:   * Search [Input: What are you looking for?]
+L9: 
+L10:   * cite2†Newsletters L11:   * cite3†Sweepstakes L12:   * cite1†Serious Eats L13: # Roman-Style Fettuccine With Alfredo Sauce Recipe
+L14: 
+L15: 4.0
+L16: 
+L17: (10)
+L18: 
+L19: 46 Reviews
+L20: 
+L21: How to make the real-deal Roman fettuccine Alfredo.
+L22: 
+L23: By
+L24: 
+L25: cite4†Daniel Gritzer L26: 
+L27: cite5†Image: Daniel Gritzer cite5†Image: Daniel Gritzer L28: 
+L29: cite4†Daniel Gritzer L30: Daniel is the editorial director of Serious Eats, where he leads the site's editorial strategy and oversees everything from recipe development to articles on food science, cooking techniques, and more. He's a former food editor at Food & Wine and has cooked in New York City restaurants.
+L31: 
+L32: cite6†Serious Eats' Editorial Guidelines L33: 
+L34: Updated on December 17, 2025
+L35: 
+L36: cite7†Image†cdn.jwplayer.com cite7†Image†cdn.jwplayer.com L37: 
+L38: Roman-Style Fettuccine With Alfredo Sauce
+L39: 
+L40: 4:38
+L41: 
+L42: In This Recipe
+L43: 
+L44: View All
+L45: 
+L46: In This Article
+L47:   * cite8†Fettucine Alfredo Origins L48: 
+L49:   * cite9†Simplicity Is Key L50: 
+L51:   * cite10†Making Roman-Style Fettucine Alfredo L52: 
+L53: Jump to recipe
+L54:   * Boiling the pasta in less water concentrates the starches, and using that starchy water to emulsify the sauce keeps it light and clean—no cream needed.
+L55:   * Adjusting the butter-to-cheese ratio from the original recipe delivers a sauce that’s rich and satisfying without tipping into heavy.
+L56:   * Finely grating the cheese helps it melt quickly and evenly, so the sauce stays smooth.
+L57:   * Choosing a younger Parmigiano-Reggiano or Grana Padano brings a sweeter, more buttery flavor that balances the sauce nicely.
+L58: When I was growing up in Brooklyn, my family would sometimes go to Marco Polo restaurant, where my sister would invariably order the fettuccine Alfredo and I invariably would not. There was almost no food that I found to be too rich, but that platter of cheese-loaded, cream-soaked pasta crossed the line. I thought it was disgusting.
+L59: 
+L60: cite11†Image: Overhead shot of fettuccine alfredo plated. cite11†Image: Overhead shot of fettuccine alfredo plated. L61: 
+L62: Serious Eats / Vicky Wasik
+L63: But during those same years I'd also sometimes go to my friend John's house, where his Italian-American mom would feed us well. One of the dishes she often made was pastina, those tiny little dried-pasta stars that cook up into a porridge-like consistency, in a butter and Parmesan sauce. I loved it so much, and to this day it's one of those few comfort foods that instantly transports me back to my childhood.
+L64: Now here's what's weird: Both those dishes were pasta in Alfredo sauce. One I hated and one I loved.
+L65: ## Fettucine Alfredo Origins
+L66: 
+L67: I didn't know it at the time, but the butter-cheese sauce at John's house was even more of a true Alfredo sauce than the extra thick and creamy one at Marco Polo, at least according to the original Roman version. And we know what the original Roman version was because it's a modern invention with a well-documented history.
+L68: Okay, it's not technically correct to say that it's a modern invention, in that pasta with butter and Parmesan is nearly as old as pasta, butter, and Parmesan themselves. But the dish we today call fettuccine Alfredo was created by a Roman named Alfredo shortly after the turn of the twentieth century, who went on to become the talk of the town, a favorite of the Hollywood jet set, and a key player in a long-running rivalry with his former head waiter as to who really owned the rights to the recipe.
+L69: None of that is particularly important.
+L70: What is important is the recipe itself, and, according to David Downie in his excellent Cooking the Roman Way, it contains absolutely no cream, black pepper, or other ingredients beyond pasta, cheese, butter, and salt. (Downie knew the grandson of the original Alfredo, and learned the recipe from him, so we can be pretty confident that he's got his facts right.)
+L71: cite12†Image: Cubes of butter mixing with grated Parmigiano-Reggiano cheese on a wooden cutting board.  cite12†Image: Cubes of butter mixing with grated Parmigiano-Reggiano cheese on a wooden cutting board.  L72: 
+L73: Serious Eats / Vicky Wasik
+L74: Even without the cream and other ingredients, though, that original recipe is still a doozy: For a single pound of fresh pasta, Alfredo added two-thirds of a cup of butter and more than a quarter-pound of cheese. That's overkill by just about any standard, and so my mission here is a simple one. I want to offer a slightly modified version of the original that creates a similarly creamy, cheesy, buttery sauce without it being quite so grotesque in its proportions.
+L75: ## Simplicity Is Key
+L76: Astute Serious Eats readers will, at this point, probably remember that this isn't the first time we've lightened fettuccine Alfredo on the site. Kenji tackled it a couple years ago cite13†with his recipe . But there's a key difference: Kenji was tinkering with the even heavier, creamier version that is more common at Italian restaurants in the United States. That's the one Marco Polo in Brooklyn used to serve (the one that my sister adored). If she were cooking, it's Kenji's recipe that she'd want to make.
+L77: But she's not, and, as I told you, I never liked that one in the first place. No, to me, the original's simplicity wins out. With no cream to dull the cheese and butter flavor, and no additional ingredients like pepper and herbs to distract, the focus is squarely on that interplay of sweet Parmesan and rich butterfat. That's the magic right there.
+L78: In fact, that flavor profile is so important that you want to make sure you don't get a piece of Parmigiano-Reggiano that's been aged too long—it's a more delicate young parm that makes the dish, not a spicy old one. The cheese should be aged for no more than 18 months (Grana Padano, which tends to be aged less than Parmigiano-Reggiano, is another really good choice here.)
+L79: Of course, my mission is also a much simpler one than Kenji's. Without the extra thick cream sauce he was trying to lighten, all I had to do was tweak a couple basic ratios to turn my version of fettuccine Alfredo into slightly less of a gut-bomb. Don't worry, it's still plenty enough of a gut bomb.
+L80: cite14†Image: An unwrapped stick of butter on a wooden cutting board. A bowl of grated Parmigiano-Reggiano cheese is on the background.  cite14†Image: An unwrapped stick of butter on a wooden cutting board. A bowl of grated Parmigiano-Reggiano cheese is on the background.  L81: 
+L82: Serious Eats / Vicky Wasik
+L83: Where the original recipe uses more than a stick of butter for a pound of pasta, mine dials it down to a single stick. And where the original calls for more than five ounces of cheese, mine cuts that back to a mere four ounces. (See what I mean? I'm hardly giving you the diet version here.)
+L84: ## Making Roman-Style Fettucine Alfredo
+L85: 
+L86: Making it is incredibly easy. In a large, heatproof bowl, you'll want to combine the grated cheese and diced butter. For emulsified cheese sauces like this, it's best to grate the cheese on the small holes of a box grater: The tiny bits of box-grated cheese melt into the sauce better and more evenly than larger flakes from something like a Microplane parm shaver.
+L87: Then, cook the pasta—preferably fresh egg noodles—in salted boiling water. No need for a large pot here, you want the water as starch-rich as it can get. Finally, transfer the pasta to the bowl of cheese and butter, add about a half cup of that starchy pasta water, and toss well until the butter melts and a creamy, emulsified sauce forms and coats each noodle in a satiny glaze.
+L88: The starchy pasta water is essential to helping to hold that emulsion and preventing the sauce from separating in a greasy, broken mess. If it's too dry, just add another splash or two of pasta water.
+L89: cite15†Image: Plated fettuccine alfredo dusted with grated Parmigiano-Reggiano cheese. cite15†Image: Plated fettuccine alfredo dusted with grated Parmigiano-Reggiano cheese. L90: 
+L91: Serious Eats / Vicky Wasik
+L92: 
+L93: Then transfer it to plates and top with more grated cheese. This is a fettuccine Alfredo that trims the excess but still leaves the indulgence firmly in place. If only I'd known this was an option when I was a kid.
+L94: cite16†Image: Lifting twirled strains of fettuccine alfredo with a fork. cite16†Image: Lifting twirled strains of fettuccine alfredo with a fork. L95: 
+L96: Serious Eats / Vicky Wasik
+L97: ### April 2017
+L98: 
+L99: Prep Time:
+L100: 
+L101: 5 mins
+L102: 
+L103: Cook Time:
+L104: 
+L105: 10 mins
+L106: 
+L107: Total Time:
+L108: 
+L109: 15 mins
+L110: 
+L111: Servings:
+L112: 
+L113: 3 to 4 servings
+L114: 
+L115: Yield:
+L116: 
+L117: Serves 3 to 4
+L118: 
+L119: [Button: Jump to Nutrition Facts]
+L120: 
+L121: Keep Screen Awake
+L122: 
+L123: ## Ingredients
+L124: 
+L125:   * 1 stick unsalted butter (115 g), diced
+L126: 
+L127:   * 4 ounces Parmigiano-Reggiano cheese (115 g), grated on the fine holes of a box grater, plus more for serving (see note)
+L128: 
+L129:   * Kosher salt
+L130: 
+L131:   * 1 pound fresh fettuccine pasta
+L132: ## Directions
+L133: 
+L134:   1. In a large heatproof bowl, combine butter and cheese. In a medium pot of salted boiling water, cook pasta until al dente. Using tongs, a strainer, or a spider, transfer pasta to bowl with cheese and butter.
+L135: 
+L136: cite17†Image: Taking cooked pasta out of boiling water with tongs. cite17†Image: Taking cooked pasta out of boiling water with tongs. L137: 
+L138: Serious Eats / J. Kenji López-Alt
+L139:   2. Add 1/2 cup hot pasta-cooking water, then, using tongs, toss repeatedly until butter is melted and a creamy, emulsified sauce forms. If pasta seems too dry, add a splash or two of additional pasta water until desired consistency is reached. Season with salt, if necessary. Serve, sprinkling more cheese on top at the table.
+L140: cite18†Image: Tossing together hot pasta, butter, and grate Parmigiano-Reggiano cheese with tongs. cite18†Image: Tossing together hot pasta, butter, and grate Parmigiano-Reggiano cheese with tongs. L141: 
+L142: Serious Eats / Vicky Wasik
+L143: ## Special Equipment
+L144: 
+L145: cite19†Strainer , cite20†spider skimmer , or cite21†tongs L146: 
+L147: ## Notes
+L148: 
+L149: Look for a young Parmigiano-Reggiano, preferably aged for less than 18 months (a younger cheese will be sweeter and less spicy, which works well in this dish). Alternatively, Grana Padano makes a good substitution as it's a very similar cheese to Parmesan, but typically aged less.
+L150: ## Read More
+L151: 
+L152:   * cite22†Homemade Fresh Pasta L153:   * cite23†Gluten-Free Fresh Pasta L154:   * cite24†Cacio e Pepe (Spaghetti with Black Pepper & Pecorino Romano) L155:   * cite25†Gricia, Amatriciana, Carbonara: The Origins of Rome's Pasta L156:   * cite26†Pasta al Limone L157:   * cite27†Pasta Burro e Alici (Pasta With Creamy Anchovy-Butter Sauce) L158: 
+L159: Save
+L160: 
+L161: Rate
+L162: 
+L163: Print [Input]
+L164: ## Nutrition Facts (per serving)
+L165: 
+L166: 498  | Calories
+L167: 32g  | Fat
+L168: 38g  | Carbs
+L169: 14g  | Protein
+L170: 
+L171: Show Full Nutrition Label Hide Full Nutrition Label
+L172: 
+L173: Nutrition Facts
+L174: ---
+L175: Servings Per Recipe 3 to 4
+L176: ---
+L177: Calories 498
+L178: ---
+L179: % Daily Value *
+L180: Total Carbohydrate 38g  | 14%
+L181: Dietary Fiber 1g  | 5%
+L182: Total Sugars 1g
+L183: Protein 14g  | 29%
+L184: Total Fat 32g  | 41%
+L185: Saturated Fat 19g  | 95%
+L186: Cholesterol 87mg  | 29%
+L187: Vitamin C 0mg  | 0%
+L188: Sodium 684mg  | 30%
+L189: Calcium 264mg  | 20%
+L190: Iron 2mg  | 9%
+L191: Potassium 162mg  | 3%
+L192: * Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs.
+L193: 
+L194: Loading shell for RecipesUgcThreaded1 Vue component in Globe.
+L195: ## Related Articles
+L196: cite28†Spaghetti With Carbonara Sauce Recipe 30 mins cite29†Homemade Butternut Squash and Blue Cheese Ravioli With Sage Brown Butter Sauce Recipe 2 hrs 30 mins cite30†Easy Skillet Baked Ziti With Sausage and Ricotta Recipe 40 mins cite31†Rigatoni Con Pesce Spada (Pasta With Swordfish, Tomato, and Eggplant) 35 mins cite32†Roman Semolina Gnocchi (Gnocchi alla Romana) Recipe 1 hr 35 mins cite33†Creamy Sea Urchin (Uni) Pasta Recipe 25 mins cite34†Pesto Pasta With Potatoes and Green Beans 15 mins cite35†Spaghetti Alle Vongole in Bianco (Spaghetti With White Clam Sauce) 1 hr 30 mins L197: cite36†Fast and Easy Pasta With Blistered Cherry Tomato Sauce Recipe 25 mins cite37†Pasta Ai Quattro Formaggi (Creamy Four-Cheese Pasta) Recipe 30 mins cite38†Penne With Hot-as-You-Dare Arrabbiata Sauce Recipe 25 mins cite39†Pasta Alla Norma (Sicilian Pasta With Eggplant, Tomatoes, and Ricotta Salata) Recipe 40 mins cite40†Perfect Cacio e Pepe 20 mins cite41†Dinner Tonight: Pasta e Broccoli Recipe 35 mins cite42†Penne With Melted-Vegetable Sauce Recipe 35 mins cite43†Spaghetti con la Colatura di Alici (Pasta With Colatura) Recipe 30 mins L198: Newsletter Sign Up
+L199: 
+L200: Newsletter Sign Up
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn26view1 [wordlim: 200] Source: open({"ref_id":"https://www.seriouseats.com/the-food-lab-buttermilk-pancakes-recipe","lineno":null}); Total lines: 1
+L0: URL https://www.seriouseats.com/the-food-lab-buttermilk-pancakes-recipe is not accessible via this tool.
+--------------------------------------------------------------------------------
+Chicken Schnitzel Recipe (https://www.seriouseats.com/chicken-schnitzel-recipe)
+citeturn26view2 [wordlim: 100] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.seriouseats.com/chicken-schnitzel-recipe","lineno":null}); Total lines: 238
+L0: cite0†iframe†www.googletagmanager.com L1: 
+L2: cite1†Serious Eats L3: 
+L4: Save
+L5: 
+L6: Rate
+L7: 
+L8:   * Search [Input: What are you looking for?]
+L9: 
+L10:   * cite2†Newsletters L11:   * cite3†Sweepstakes L12:   * cite1†Serious Eats L13: # Chicken Schnitzel Recipe
+L14: 
+L15: 30 Reviews
+L16: 
+L17: Juicy and tender, with a golden, crunchy exterior that is almost impossible to resist.
+L18: 
+L19: By
+L20: 
+L21: cite4†Joshua Bousel L22: 
+L23: cite5†Image: a photo of Joshua Bousel, a Contributing Writer at Serious Eats cite5†Image: a photo of Joshua Bousel, a Contributing Writer at Serious Eats L24: 
+L25: cite4†Joshua Bousel L26: Joshua Bousel is a Serious Eats old-timer, having started sharing his passion for grilling and barbecue recipes on the site back in 2008. He continues to develop grilling and barbecue recipes on his own site, The Meatwave, out of his home base of Durham, North Carolina.
+L27: 
+L28: cite6†Serious Eats' Editorial Guidelines L29: 
+L30: Updated on December 15, 2025
+L31: 
+L32: Close
+L33: cite7†Image: A golden brown fried chicken schnitzel cutlet with a lemon wedge on a gold and white ceramic plate on a teal-colored textured background. cite7†Image: A golden brown fried chicken schnitzel cutlet with a lemon wedge on a gold and white ceramic plate on a teal-colored textured background. L34: 
+L35: Credit:
+L36: 
+L37: Serious Eats / Mateja Zvirotic Andrijanic
+L38: 
+L39: In This Recipe
+L40: 
+L41: View All
+L42: 
+L43: In This Article
+L44: 
+L45:   * cite8†To Brine or Not to Brine L46: 
+L47:   * cite9†For the Best Chicken Schnitzel, Pounding Thin Is Key L48:   * cite10†Making the Breadcrumbs L49: 
+L50:   * cite11†The Breading Process L51: 
+L52:   * cite12†The Advantages of Pan-Frying L53: 
+L54:   * cite13†Draining Excess Oil and Keeping Warm L55: 
+L56:   * cite14†Glorious Schnitzel L57: 
+L58: Jump to recipe
+L59:   * Quickly brining the chicken breast before cooking ensures the lean cut will stay maximally juicy and tender.
+L60:   * Pounding the chicken to a uniform 1/4-inch thickness ensures even cooking and creates more surface area for maximum crunch.
+L61:   * Homemade breadcrumbs, made from toasted white bread processed to a medium-fine consistency, make a coating that's just the right thickness and sticks well to the chicken.
+L62: If there's one dish I would say defines me most, it isn't grilled at all: it's chicken schnitzel. As a child, my mother cooked it regularly, and, like most kids, breaded and fried boneless chicken was something I looked forward to with immense eagerness. When I left for college, schnitzel was one of the first things I learned to cook really well, making it from time to time for friends and filling the dormitory halls with the unmistakable scent of frying chicken.
+L63: After we graduated, my old classmates and I started a semi-regular Shabbat tradition. We'd get together on Friday nights and I'd find myself in the kitchen cooking chicken schnitzel for crowds of twelve or more. As I slowly creep up toward middle age, I've found schnitzel is really the only food that has remained a constant over the years. It's something I will likely carry with me forever.
+L64: Over all that time of cooking and eating schnitzel, I've refined my method to what I think is perfect—I still order schnitzel at restaurants, but it's rarely as satisfying as the version I make at home. There's nothing revolutionary in my recipe, but a great schnitzel comes down to some small details that make all the difference.
+L65: ## To Brine or Not to Brine
+L66: 
+L67: For the uninitiated, chicken schnitzel is merely a chicken breast pounded thin, breaded, and fried. It's one of those foods that you can't help but love, which is probably why it's so prolific—versions of the recipe can be found in cultures around the world.
+L68: It all starts with a lowly chicken breast around half a pound in weight; much larger than that, and the schnitzel can be hard to manage. Skinless, boneless chicken breast suffers from a lack of fat, which is why it often ends up so dry. But in the case of schnitzel, frying it just right is generally enough to make sure it stays juicy. For most of my schnitzel-making career, I never brined the breasts because I thought the results were already good enough.
+L69: Then one day I decided to host a family Shabbat, and I wanted to prove that I was worthy of passing down our schnitzel tradition. To ensure everything was perfect, I took out moisture insurance by brining my chicken breasts for thirty minutes beforehand.
+L70: The result was remarkable: Not only did I satisfy a clan that knows its schnitzel, but I one-upped every schnitzel I had ever made beforehand. My prior schnitzels had been juicy, but these were juicier. My old schnitzels were tender, but these were more plump with an even better, finer texture.
+L71: From that day forth, I've always brined my chicken for the absolute best schnitzel, and since brining takes about the same amount of time as prepping the rest of the ingredients, it hasn't really added time to the process at all.
+L72: ## Flat Is Beautiful: For the Best Chicken Schnitzel, Pounding Thin Is Key
+L73: 
+L74: After the chicken is brined, it's time to get it into the right shape. This requires pounding the breasts to a uniform thickness, which guarantees that the chicken cooks evenly and provides a lot of surface area for the breading, maximizing the flavor and crunch that makes schnitzel so good.
+L75: Most recipes call for pounding the chicken between two pieces of plastic wrap, parchment, or wax paper. I've suffered too many chicken splatters using that method, so I've employed what seems to be a more fail-safe method—a Ziploc bag. A thicker, sealed bag won't break like plastic wrap or wax paper sometimes do, and the juices won't go flying all around your kitchen, which, in my book, is definitely worth the slightly higher cost.
+L76: To get started, I remove the tender (if there is one)—the tender will often dangle and make breading and cooking a pain, so I just fry it separately—and seal a chicken breast in a bag. Then I take my trusty rolling pin and go to town on the cutlet, smacking it until it's about 1/4-inch thick, making sure to work my way around the breast so that it's evenly flattened. I've yet to invest in a meat pounder since my rolling pin, or a heavy pan, performs this task just fine.
+L77: ## Making the Breadcrumbs
+L78: 
+L79: cite15†Image: Slices of toasted white bread resting on a pulled out oven rack. cite15†Image: Slices of toasted white bread resting on a pulled out oven rack. L80: 
+L81: Serious Eats
+L82: The one schnitzel factor I've experimented with most is the breadcrumbs. I quickly ditched store-bought crumbs, which often taste stale or cardboard-like, and switched to homemade. This opened a Pandora's box of options, though, so finding the one that would deliver the proper amount of coating—you don't want it too thick or too thin—and the right flavor required a lot of trial and error.
+L83: I've made breadcrumbs with fresh bread, but it doesn't stick well and can coat unevenly. Super-stale bread quickly turns into powder in the food processor; darkly toasted bread can taste burnt once fried; and fancy bread doesn't add enough flavor to justify the cost. What I've settled on is decent-quality white bread (something I almost always have on-hand), which I toast to a medium-golden brown, and then grind in a food processor into medium-fine crumbs.
+L84: The toasting dries out the bread just enough for it to break down in a food processor, but leaves enough moisture that the breadcrumbs retain some heft. (A blender can work too, but a food processor produces more uniform crumbs.) The result is breadcrumbs that stick well and produce a coating that isn't too skimpy or thick.
+L85: ## The Breading Process
+L86: 
+L87: cite16†Image: Dishes of breadcrumbs, beaten egg, and flour resting side-by-side on a countertop. cite16†Image: Dishes of breadcrumbs, beaten egg, and flour resting side-by-side on a countertop. L88: 
+L89: Serious Eats
+L90: With the chicken brined and pounded and the crumbs ready, it's time for the breading process. I start with a coating of flour, giving the chicken a dry surface so the beaten egg adheres to the meat. I let excess egg wash drain off by holding the chicken over the bowl, and then transfer the cutlet to the breadcrumbs.
+L91: I pat down the breadcrumbs to make sure they stick well. Then I let the chicken rest on a wire rack set on a sheet pan—this allows the breading to dry out a bit, ensuring the coating remains on the chicken during frying.
+L92: ## Fry Time
+L93: 
+L94: In an ideal world, I'd deep-fry my schnitzel because it browns the most evenly that way, but that would mean a large Dutch oven with about two quarts of oil—such a big undertaking, I'd probably never go to the trouble. So I've become proficient at pan-frying, which actually has some advantages over deep-frying.
+L95: The most obvious is that it requires a lot less oil: I fill a 12-inch cast iron skillet with about 2 cups of canola or peanut oil, both of which have a neutral flavor and can withstand high heat. Plus, the shallow oil means the schnitzel comes in direct contact with the bottom of the pan, which browns the breadcrumbs faster and helps ensure the thin chicken cutlet and coating are done at the same time.
+L96: Contact with the pan, though, can be a bit of a curse as well: Since the slightly uneven surface of the chicken may not touch the bottom of the pan evenly, some portions of the schnitzel can brown faster than others. To combat uneven browning, I regularly look under the cutlet and flip it every time I notice the breading browning too much or too fast. This means it's not just one flip halfway through cooking, but multiple flips based on appearance.
+L97: I fry the chicken in 375°F oil until it reaches a deep golden brown. At this cooking temperature, I've never had the chicken come out undercooked once the coating is properly browned, but if you're a stickler for temperature, you can test the doneness using an instant-read thermometer, which should register between 150 and 160°F when inserted into the middle of the meat.
+L98: ## Draining
+L99: 
+L100: cite17†Image: Draining a just-fried chicken schnitzel on paper towels. cite17†Image: Draining a just-fried chicken schnitzel on paper towels. L101: 
+L102: Serious Eats
+L103: 
+L104: Once the chicken is done, it's time to drain the excess oil so the schnitzel is beautifully crunchy, without any greasiness or sogginess. A paper towel-lined plate does this best, with a flip of the schnitzel after a minute or two to get the oil wicked away from both sides.
+L105: If I'm cooking more than three or four schnitzels, I'll set a wire rack on a sheet pan in a warm oven, and I'll transfer the cutlets to it after they've drained. This not only keeps the chicken warm while I continue cooking the rest, but the rack allows air to flow around the entire schnitzel so the bottom doesn't become soggy.
+L106: ## Glorious Schnitzel
+L107: 
+L108: cite18†Image: Chicken schnitzel on a white plate with a lemon wedge and a serving of tomato cucumber salad.  cite18†Image: Chicken schnitzel on a white plate with a lemon wedge and a serving of tomato cucumber salad.  L109: 
+L110: Serious Eats
+L111: This may sound like a lot of work, but I can usually churn out a batch of four schnitzels in about an hour, which works well for me as a weeknight meal. Once you have the process down, it's not that much of a hassle, and the results are glorious—juicy, tender chicken with a golden, crunchy exterior that is almost impossible to resist.
+L112: With schnitzel this good, it's no mystery it has stood the test of time and has remained the most-cooked dish in my home. A Friday dinner just doesn't feel complete without a plate loaded with schnitzel, a wedge of lemon, and a light salad by its side.
+L113: ### April 2014
+L114: 
+L115: Prep Time:
+L116: 
+L117: 15 mins
+L118: 
+L119: Cook Time:
+L120: 
+L121: 25 mins
+L122: 
+L123: Brining Time:
+L124: 
+L125: 30 mins
+L126: 
+L127: Total Time:
+L128: 
+L129: 1 hr 10 mins
+L130: 
+L131: Servings:
+L132: 
+L133: 4 servings
+L134: 
+L135: Yield:
+L136: 
+L137: Serves 4
+L138: 
+L139: [Button: Jump to Nutrition Facts]
+L140: 
+L141: Keep Screen Awake
+L142: ## Ingredients
+L143: 
+L144:   * 2 quarts plus 2 tablespoons cold water, divided
+L145: 
+L146:   * 1/3 cup kosher salt
+L147: 
+L148:   * 4 boneless skinless chicken breast halves, tenders removed, about 8 ounces each
+L149: 
+L150:   * 12 slices white bread
+L151: 
+L152:   * 1 cup all-purpose flour
+L153: 
+L154:   * 2 large eggs
+L155: 
+L156:   * 2 cups canola oil, peanut oil, or melted cite19†homemade or store-bought clarified butter
+L157: 
+L158:   * 1 tablespoon finely minced parsley, for garnish
+L159: 
+L160:   * 1 medium lemon, sliced into 4 wedges
+L161: ## Directions
+L162: 
+L163:   1. Whisk together 2 quarts of water and salt in a large bowl until salt is dissolved. Place the chicken breast halves in brine and refrigerate for 30 minutes.
+L164: 
+L165: cite20†Image: Chicken breast halves submerged in brine inside of a white ceramic bowl on a teal background. cite20†Image: Chicken breast halves submerged in brine inside of a white ceramic bowl on a teal background. L166: 
+L167: Serious Eats / Mateja Zvirotic Andrijanic
+L168:   2. Meanwhile, toast bread until golden brown. Tear toasted bread into large pieces, transfer to a food processor, and pulse until bread is broken down into medium-fine crumbs. Transfer breadcrumbs to a large shallow dish.
+L169: cite21†Image: A vertical two-image collage. The top image shows four slices of toasted bread on a plate, while the bottom photo shows a food processor filled with breadcrumbs made from the processed toasted bread. cite21†Image: A vertical two-image collage. The top image shows four slices of toasted bread on a plate, while the bottom photo shows a food processor filled with breadcrumbs made from the processed toasted bread. L170: 
+L171: Serious Eats / Mateja Zvirotic Andrijanic
+L172:   3. Remove chicken from brine and pat dry with paper towels. Place one chicken breast half in a resealable plastic bag. Using a meat pounder, rolling pin, or small skillet, pound chicken breast into an even thickness about 1/4-inch in height. Repeat with remaining 3 breasts.
+L173: cite22†Image: Chicken breast inside of a sealed zipper-lock bag, pounded to an even one-quarter inch thickness, with a metal meat pounder next to the bag. The bag and hammer are both on a wooden background. cite22†Image: Chicken breast inside of a sealed zipper-lock bag, pounded to an even one-quarter inch thickness, with a metal meat pounder next to the bag. The bag and hammer are both on a wooden background. L174: 
+L175: Serious Eats / Mateja Zvirotic Andrijanic
+L176:   4. Set wire rack on a sheet pan. Place flour in a large shallow dish. Place eggs in another large shallow dish and beat with remaining 2 tablespoons water until uniform in color. Coat one chicken cutlet in flour, shaking off any excess. Transfer chicken cutlet to egg wash and coat evenly, letting any excess run off. Transfer to bread crumbs and coat evenly, pressing lightly to ensure bread crumbs adhere. Place chicken on a wire rack. Repeat with remaining 3 chicken breast halves.
+L177: 【23†Image: A horizontal, four-image collage showing the steps required to bread the chicken. The top left photo shows the pounded chicken cutlets dredged in flour. The top right image shows the dredged chicken cutlet being submerged in beaten eggs in a shallow bowl. The bottom left image shows a dredged-and-egg-coated cutlet in a shallow bowl of fine breadcrumbs.
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn26view3 [wordlim: 200] Source: open({"ref_id":"https://www.seriouseats.com/grilled-beer-simmered-bratwurst-recipe","lineno":null}); Total lines: 1
+

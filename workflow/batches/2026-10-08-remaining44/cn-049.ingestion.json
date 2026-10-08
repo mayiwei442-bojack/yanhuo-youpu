@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "completedAt": "2026-10-08T12:20:48.207Z",
+  "documents": [
+    {
+      "documentId": "d45ed17d-216f-4704-9a67-6d247f9705e5",
+      "url": "https://thewoksoflife.com/chinese-hamburgers-rou-jia-mo/",
+      "deduplicated": false,
+      "embedded": true,
+      "chunkCount": 8,
+      "model": "voyage-4",
+      "dimension": 1024,
+      "semanticCount": 8,
+      "hybridCount": 8
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "recipeId": "cn-013",
+  "reviewedAt": "2026-10-08T12:37:28.216705+00:00",
+  "priorFailureReversed": true,
+  "reason": "单段落可拆完整操作，料包不是拒绝条件；所有原料表漏项均可从同一做法原文提取并保留未知数量。",
+  "ingredientCount": 8,
+  "logicalStepCount": 5,
+  "regionalMatch": "河南胡辣汤",
+  "textComplete": true,
+  "mediaQualification": "hero_only_waiting_user_acceptance",
+  "sourceUrl": "https://www.douguo.com/cookbook/3300061.html",
+  "cachedSource": "cn-013.cached-source.txt",
+  "mediaAudit": "cn-013.media-candidate-audit.json",
+  "mappedStepImageCount": 0
+}

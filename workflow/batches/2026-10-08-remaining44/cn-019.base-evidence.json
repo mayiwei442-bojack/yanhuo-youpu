@@ -1,0 +1,283 @@
+{
+  "recipeId": "cn-019",
+  "recipeName": "东坡肉",
+  "category": "chinese",
+  "createdAt": "2026-10-08T12:03:18.591956+00:00",
+  "sources": [
+    {
+      "sourceName": "The Woks of Life",
+      "sourceType": "website",
+      "url": "https://thewoksoflife.com/braised-pork-belly-dong-po-rou/",
+      "documentId": "0ff9202a-963e-4b37-a713-4d7d344dd8ab",
+      "retrievalMethod": "Normal web browser fetch, complete recipe card and instructional body; direct HTTP403 recorded without bypass",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "pork belly",
+          "amount": "2 pound slab (900g)",
+          "raw": "2 pound slab (900g) pork belly"
+        },
+        {
+          "name": "scallions",
+          "amount": "3 bunches, washed and cut in half lengthwise",
+          "raw": "3 bunches, washed and cut in half lengthwise scallions"
+        },
+        {
+          "name": "ginger",
+          "amount": "8 slices",
+          "raw": "8 slices ginger"
+        },
+        {
+          "name": "Shaoxing wine",
+          "amount": "2 cups",
+          "raw": "2 cups Shaoxing wine"
+        },
+        {
+          "name": "light soy sauce",
+          "amount": "2/3 cup",
+          "raw": "2/3 cup light soy sauce"
+        },
+        {
+          "name": "dark soy sauce",
+          "amount": "2 1/2 tablespoons",
+          "raw": "2 1/2 tablespoons dark soy sauce"
+        },
+        {
+          "name": "rock sugar",
+          "amount": "4–5 oz, depending on desired sweetness",
+          "raw": "4–5 oz, depending on desired sweetness rock sugar"
+        },
+        {
+          "name": "water",
+          "amount": "for blanching; source gives no quantity",
+          "raw": "for blanching; source gives no quantity water"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Wash the pork belly as a whole piece. Blanch it whole in boiling water for one minute and drain. This process gets rid of any impurities and also allows you to more easily cut the pork belly into same-size pieces. Cut the pork into 3 x 3 inch pieces. You can also make them 2 x 2 inches if you like them smaller. Set aside.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "In a medium clay pot (preferably) or a medium (4-quart) regular pot, lay the scallions on the bottom in a thick, even layer. The scallions should cover the entire bottom of the pot. Space the ginger slices evenly over the scallions.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "Next lay the pork belly skin-side down on top of the ginger and scallions. Pour over the Shaoxing wine, light soy sauce, and dark soy sauce. Add the rock sugar to the pot as well.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "Now cover the pot and place it over medium high heat. Once the liquid in the pot comes to a boil, immediately turn down the heat to low and simmer for 90 minutes. No need to stir.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 5,
+          "instruction": "After 90 minutes, you have 2 choices: (1) Turn the pork belly skin-side up in the pot, cover, and let simmer for another 90 minutes. With the heat at the lowest setting, there should be plenty of liquid in the pot to cook the pork through the entire process—no need to add additional liquid. (2) Transfer the pork to a heat-proof plate, skin-side up (I used the small clay pots you see in the photos). Drizzle with some of the braising liquid, and place in a steamer for another 90 minutes.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 6,
+          "instruction": "Both methods should yield tender, delicious results! When serving, transfer the pork pieces to a plate. At this point, you can heat the braising liquid in a saucepan to reduce the sauce and drizzle it over the pork.",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [
+        "Serves: 8",
+        "Prep: 20 mins",
+        "Cook: 3 hrs 30 mins",
+        "Total: 3 hrs 50 mins"
+      ],
+      "tips": [
+        "There is no need to stir while the pork is simmering; the scallions on the bottom of the pot prevent the meat from sticking.",
+        "Do not add water or stock to the braise.",
+        "Choose either simmering in the same pot or transferring to a steamer halfway through; these are alternatives, not consecutive stages.",
+        "Thicken any extra sauce by turning up the heat and reducing the liquid. Leftover sauce is good with rice or noodles."
+      ],
+      "rawExcerpt": "Braised Pork Belly Dong Po Rou\nJudy\nServes: 8\nPrep: 20 mins\nCook: 3 hrs 30 mins\nTotal: 3 hrs 50 mins\nIngredients\n2 pound slab (900g) pork belly\n3 bunches, washed and cut in half lengthwise scallions\n8 slices ginger\n2 cups Shaoxing wine\n2/3 cup light soy sauce\n2 1/2 tablespoons dark soy sauce\n4–5 oz, depending on desired sweetness rock sugar\nInstructions\nWash the pork belly as a whole piece. Blanch it whole in boiling water for one minute and drain. This process gets rid of any impurities and also allows you to more easily cut the pork belly into same-size pieces. Cut the pork into 3 x 3 inch pieces. You can also make them 2 x 2 inches if you like them smaller. Set aside.\nIn a medium clay pot (preferably) or a medium (4-quart) regular pot, lay the scallions on the bottom in a thick, even layer. The scallions should cover the entire bottom of the pot. Space the ginger slices evenly over the scallions.\nNext lay the pork belly skin-side down on top of the ginger and scallions. Pour over the Shaoxing wine, light soy sauce, and dark soy sauce. Add the rock sugar to the pot as well.\nNow cover the pot and place it over medium high heat. Once the liquid in the pot comes to a boil, immediately turn down the heat to low and simmer for 90 minutes. No need to stir.\nAfter 90 minutes, you have 2 choices: (1) Turn the pork belly skin-side up in the pot, cover, and let simmer for another 90 minutes. With the heat at the lowest setting, there should be plenty of liquid in the pot to cook the pork through the entire process—no need to add additional liquid. (2) Transfer the pork to a heat-proof plate, skin-side up (I used the small clay pots you see in the photos). Drizzle with some of the braising liquid, and place in a steamer for another 90 minutes.\nBoth methods should yield tender, delicious results! When serving, transfer the pork pieces to a plate. At this point, you can heat the braising liquid in a saucepan to reduce the sauce and drizzle it over the pork.\nNotes\nThere is no need to stir while the pork is simmering; the scallions on the bottom of the pot prevent the meat from sticking.\nDo not add water or stock to the braise.\nChoose either simmering in the same pot or transferring to a steamer halfway through; these are alternatives, not consecutive stages.\nThicken any extra sauce by turning up the heat and reducing the liquid. Leftover sauce is good with rice or noodles.",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 1,
+        "mappedStepImages": 7,
+        "stepImageCoverage": 0.5,
+        "ingredientCount": 8,
+        "executableStepCount": 6,
+        "notes": [
+          "焯水用水来自步骤；原文未量化。杯和汤匙原样保留，未换算毫升。两种后90分钟工艺必须作为二选一。"
+        ]
+      },
+      "media": {
+        "recipePageUrl": "https://thewoksoflife.com/braised-pork-belly-dong-po-rou/",
+        "mediaPageUrl": "https://thewoksoflife.com/braised-pork-belly-dong-po-rou/",
+        "sourceName": "The Woks of Life",
+        "author": "Judy",
+        "rightsNotice": "All Rights Reserved © The Woks of Life",
+        "reuseLicense": null,
+        "repositoryCopyAuthorized": true,
+        "hero": {
+          "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/10/braised-pork-belly-6.jpg",
+          "repositoryPath": "assets/dishes/sources/cn-019-woks-dongpo/hero.jpg",
+          "adjacentText": "finished Dongpo pork belly",
+          "pageOrder": 6,
+          "sha256": "33d662c93bb7959bb6fb6344e20b217f0108108d5ceb11972b623e934f2e357b",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "bytes": 78501
+        },
+        "steps": [
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/10/braised-pork-belly-1.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-019-woks-dongpo/step-2-1.jpg",
+            "adjacentText": "In a medium clay pot (preferably) or a medium (4-quart) regular pot, lay the scallions on the bottom in a thick, even layer. The scallions should cover the entire bottom of the pot. Space the ginger slices evenly over the scallions.",
+            "pageOrder": 1,
+            "stepOrder": 2,
+            "sha256": "db541980739c100bb19f15d06f7cb9bf2d321b6cb38f3bd00e7e0bb8ca5f9646",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "bytes": 67402
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/10/braised-pork-belly-7.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-019-woks-dongpo/step-3-7.jpg",
+            "adjacentText": "Lay pork skin side down",
+            "pageOrder": 7,
+            "stepOrder": 3,
+            "sha256": "da630c82ab8006a66569923e9a5f657bde062e781ded70d4002820f20d7b4392",
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "bytes": 68430
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/10/braised-pork-belly-8.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-019-woks-dongpo/step-3-8.jpg",
+            "adjacentText": "Add wine, soy sauces and rock sugar",
+            "pageOrder": 8,
+            "stepOrder": 3,
+            "sha256": "800663d39be2d03607af22b6f4a823e382fe18fcefe2a1594b8344730278b8dc",
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "bytes": 81166
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/10/braised-pork-belly-9.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-019-woks-dongpo/step-5-9.jpg",
+            "adjacentText": "Turn pork skin side up for simmering alternative",
+            "pageOrder": 9,
+            "stepOrder": 5,
+            "sha256": "24b1b26ba9f95e0c810f3b47169477e6d8ac2bdc83dcc932ff8c27071ba0e212",
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "bytes": 32198
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/10/braised-pork-belly-10.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-019-woks-dongpo/step-5-10.jpg",
+            "adjacentText": "Transfer to steamer alternative",
+            "pageOrder": 10,
+            "stepOrder": 5,
+            "sha256": "00301b5d2d95ee52e71f793ebfec025b421fd05e36e3031757004623cf1b8f81",
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "bytes": 46686
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/10/braised-pork-belly-11.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-019-woks-dongpo/step-5-11.jpg",
+            "adjacentText": "Steaming alternative",
+            "pageOrder": 11,
+            "stepOrder": 5,
+            "sha256": "0b6035f9d117e1a79bdf330b65339d425c11fdc8fb512634e3c07906765b1e90",
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "bytes": 50580
+          },
+          {
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/10/braised-pork-belly-12.jpg",
+            "repositoryPath": "assets/dishes/sources/cn-019-woks-dongpo/step-5-12.jpg",
+            "adjacentText": "Steaming alternative",
+            "pageOrder": 12,
+            "stepOrder": 5,
+            "sha256": "b32a05ae476c6ec3d21a59a845913910926c2061648e81c18fe14cc2c1aff93b",
+            "httpStatus": 200,
+            "contentType": "image/webp",
+            "bytes": 25894
+          }
+        ]
+      }
+    }
+  ],
+  "sourceMode": "single_source",
+  "singleSourceReason": "读取数据库全部84份书籍文档并核对题名和正文，无东坡肉/东坡焖肉完整菜谱。豆果限定域检索未返回对应页面。Woks完整原料、方法和成品及过程图可用，单来源继续。",
+  "selectedSourceUrl": "https://thewoksoflife.com/braised-pork-belly-dong-po-rou/",
+  "selectionReason": "唯一可核验完整且自洽的整份信源，明确绍兴酒炖煮、不加水；有对应过程图。保留该版本所有配料用量及两种替代工艺，不混入其他来源。",
+  "ragEvidence": [
+    {
+      "chunkId": "4615fd9a-69af-4118-9e44-761122860691",
+      "documentId": "0ff9202a-963e-4b37-a713-4d7d344dd8ab",
+      "sourceName": "The Woks of Life",
+      "chunkType": "summary",
+      "content": "菜名：东坡肉\n菜系：中餐\n简介：完整单一信源：https://thewoksoflife.com/braised-pork-belly-dong-po-rou/",
+      "similarity": 0.701653122901917
+    },
+    {
+      "chunkId": "db1b79c1-872f-49c8-b58f-8c2f1a0dee68",
+      "documentId": "0ff9202a-963e-4b37-a713-4d7d344dd8ab",
+      "sourceName": "The Woks of Life",
+      "chunkType": "ingredients",
+      "content": "菜名：东坡肉\n- 2 pound slab (900g) pork belly\n- 3 bunches, washed and cut in half lengthwise scallions\n- 8 slices ginger\n- 2 cups Shaoxing wine\n- 2/3 cup light soy sauce\n- 2 1/2 tablespoons dark soy sauce\n- 4–5 oz, depending on desired sweetness rock sugar\n- for blanching; source gives no quantity water",
+      "similarity": 0.667071322624167
+    },
+    {
+      "chunkId": "f90d7fa9-1eb6-4c18-b413-b72e0276a759",
+      "documentId": "0ff9202a-963e-4b37-a713-4d7d344dd8ab",
+      "sourceName": "The Woks of Life",
+      "chunkType": "tips",
+      "content": "菜名：东坡肉\n- There is no need to stir while the pork is simmering; the scallions on the bottom of the pot prevent the meat from sticking.\n- Do not add water or stock to the braise.\n- Choose either simmering in the same pot or transferring to a steamer halfway through; these are alternatives, not consecutive stages.\n- Thicken any extra sauce by turning up the heat and reducing the liquid. Leftover sauce is good with rice or noodles.",
+      "similarity": 0.662308692932129
+    },
+    {
+      "chunkId": "8c7e590f-c120-45fb-a4df-718765e92746",
+      "documentId": "0ff9202a-963e-4b37-a713-4d7d344dd8ab",
+      "sourceName": "The Woks of Life",
+      "chunkType": "steps",
+      "content": "菜名：东坡肉\n1. Wash the pork belly as a whole piece. Blanch it whole in boiling water for one minute and drain. This process gets rid of any impurities and also allows you to more easily cut the pork belly into same-size pieces. Cut the pork into 3 x 3 inch pieces. You can also make them 2 x 2 inches if you like them smaller. Set aside.\n2. In a medium clay pot (preferably) or a medium (4-quart) regular pot, lay the scallions on the bottom in a thick, even layer. The scallions should cover the entire bottom of the pot. Space the ginger slices evenly over the scallions.\n3. Next lay the pork belly skin-side down on top of the ginger and scallions. Pour over the Shaoxing wine, light soy sauce, and dark soy sauce. Add the rock sugar to the pot as well.\n4. Now cover the pot and place it over medium high heat. Once the liquid in the pot comes to a boil, immediately turn down the heat to low and simmer for 90 minutes. No need to stir.",
+      "similarity": 0.655161818554294
+    },
+    {
+      "chunkId": "a8528b4d-3443-4156-9fac-6a246d479d75",
+      "documentId": "0ff9202a-963e-4b37-a713-4d7d344dd8ab",
+      "sourceName": "The Woks of Life",
+      "chunkType": "steps",
+      "content": "菜名：东坡肉\n5. After 90 minutes, you have 2 choices: (1) Turn the pork belly skin-side up in the pot, cover, and let simmer for another 90 minutes. With the heat at the lowest setting, there should be plenty of liquid in the pot to cook the pork through the entire process—no need to add additional liquid. (2) Transfer the pork to a heat-proof plate, skin-side up (I used the small clay pots you see in the photos). Drizzle with some of the braising liquid, and place in a steamer for another 90 minutes.\n6. Both methods should yield tender, delicious results! When serving, transfer the pork pieces to a plate. At this point, you can heat the braising liquid in a saucepan to reduce the sauce and drizzle it over the pork.",
+      "similarity": 0.635720431804657
+    },
+    {
+      "chunkId": "d2e2a435-a015-4657-80e0-df3a3ae7b88b",
+      "documentId": "0ff9202a-963e-4b37-a713-4d7d344dd8ab",
+      "sourceName": "The Woks of Life",
+      "chunkType": "technique",
+      "content": "菜名：东坡肉\n- Serves: 8\n- Prep: 20 mins\n- Cook: 3 hrs 30 mins\n- Total: 3 hrs 50 mins",
+      "similarity": 0.603628539822786
+    }
+  ],
+  "notes": [
+    "源图由既有WindowsHTTP标准传输全部验证200并下载，参见cn-019.media-import.json；PythonHTTP403作为失败历史保留。",
+    "Book search audit: cn-book-inventory.json contains all84actual database bookdocuments; no exactoralias Dongpo recipe.",
+    "原文炖煮分支合计180分钟，但来源Cook字段210分钟、Total230分钟；保留原始总时间并明确该差异，不以步骤相加重算。",
+    "原文未定义cup/tablespoon容量，不转换为ml。",
+    "Attempt: directWoksrequests403; normalwebfetchHTTPsuccess; no accesscontrols bypassed.",
+    "Attempt: Douguo name search returned no matching complete page."
+  ]
+}

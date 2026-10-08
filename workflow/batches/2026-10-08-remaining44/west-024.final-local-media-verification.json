@@ -1,0 +1,63 @@
+{
+  "recipeId": "west-024",
+  "source": "Independent local-file SHA256 readback following full two-copy database media readback in final-database-verification.json",
+  "images": [
+    {
+      "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/hero.jpg",
+      "sha256": "613879267ac5b5b1eaf82652c82e2de3e4bbef260dfc0c461b310e024976316c",
+      "stepOrder": null,
+      "localFileExists": true,
+      "localFileSha256": "613879267ac5b5b1eaf82652c82e2de3e4bbef260dfc0c461b310e024976316c",
+      "localFileHashMatches": true
+    },
+    {
+      "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-2.jpg",
+      "sha256": "39c630d16b36b11bdef9e1fc1d1647467ee9b6137be59903ddcdcea8aa706675",
+      "stepOrder": 2,
+      "localFileExists": true,
+      "localFileSha256": "39c630d16b36b11bdef9e1fc1d1647467ee9b6137be59903ddcdcea8aa706675",
+      "localFileHashMatches": true
+    },
+    {
+      "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-3.jpg",
+      "sha256": "02782fa8e2441283ccfa24ed504a99bbbbaddc4c85091eaf033dda042702cdf6",
+      "stepOrder": 3,
+      "localFileExists": true,
+      "localFileSha256": "02782fa8e2441283ccfa24ed504a99bbbbaddc4c85091eaf033dda042702cdf6",
+      "localFileHashMatches": true
+    },
+    {
+      "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-4.jpg",
+      "sha256": "cf9a2c5f461695b3a663f2bb495ee3f757329ed529f9ad60abc56e952a07a48d",
+      "stepOrder": 4,
+      "localFileExists": true,
+      "localFileSha256": "cf9a2c5f461695b3a663f2bb495ee3f757329ed529f9ad60abc56e952a07a48d",
+      "localFileHashMatches": true
+    },
+    {
+      "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-5.jpg",
+      "sha256": "4466fde67b6e351c8bde60f2078f67c77f204c840212180ddcee34f0d561aa62",
+      "stepOrder": 5,
+      "localFileExists": true,
+      "localFileSha256": "4466fde67b6e351c8bde60f2078f67c77f204c840212180ddcee34f0d561aa62",
+      "localFileHashMatches": true
+    },
+    {
+      "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-6.jpg",
+      "sha256": "c36cd4f494a5ef731d834cf5ff53bbd1d5301c471b2d686a871c7a2f89d69270",
+      "stepOrder": 6,
+      "localFileExists": true,
+      "localFileSha256": "c36cd4f494a5ef731d834cf5ff53bbd1d5301c471b2d686a871c7a2f89d69270",
+      "localFileHashMatches": true
+    },
+    {
+      "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-7.jpg",
+      "sha256": "1b5df2bab4dfb996e84bc2481da825e2d046b361a654ae9c6d52cbb96de04897",
+      "stepOrder": 7,
+      "localFileExists": true,
+      "localFileSha256": "1b5df2bab4dfb996e84bc2481da825e2d046b361a654ae9c6d52cbb96de04897",
+      "localFileHashMatches": true
+    }
+  ],
+  "ok": true
+}

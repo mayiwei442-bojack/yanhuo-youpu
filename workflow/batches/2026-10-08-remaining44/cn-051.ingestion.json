@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "completedAt": "2026-10-08T12:17:56.251Z",
+  "documents": [
+    {
+      "documentId": "16f8f429-96c0-467c-ac52-22297c424ccb",
+      "url": "https://thewoksoflife.com/chinese-bbq-pork-cha-siu/",
+      "deduplicated": false,
+      "embedded": true,
+      "chunkCount": 8,
+      "model": "voyage-4",
+      "dimension": 1024,
+      "semanticCount": 8,
+      "hybridCount": 8
+    }
+  ]
+}

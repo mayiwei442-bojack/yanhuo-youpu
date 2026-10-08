@@ -1,0 +1,168 @@
+{
+  "runId": "2026-10-08-remaining44-west-024",
+  "recipeId": "west-024",
+  "recipeName": "香煎鸡肉炸排",
+  "category": "western",
+  "status": "in_progress",
+  "startedAt": "2026-10-08T11:56:52.318Z",
+  "completedAt": null,
+  "steps": {
+    "research": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "evidencePath": "workflow/batches/2026-10-08-remaining44/west-024.evidence.json",
+        "evidencePackageHash": "21905e20ba84a1a8a73c8e81b4be5935613d646ab36ea94a4a30df03ce71a85e",
+        "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/chicken-schnitzel-coleslaw",
+        "sourceMode": "multi_source"
+      }
+    },
+    "ingestion": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "selectedDocumentId": "997dbfb5-d24d-4157-9f02-67d8b6161c0b",
+        "documentIds": [
+          "997dbfb5-d24d-4157-9f02-67d8b6161c0b",
+          "ad0ee351-7f32-4ae7-b850-0d08b3957211"
+        ],
+        "ragEvidence": 12
+      }
+    },
+    "edit": {
+      "status": "done",
+      "attempts": 1,
+      "details": {}
+    },
+    "validator": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "ok": true,
+        "targetId": "west-024",
+        "checks": [
+          {
+            "name": "unique_ids",
+            "passed": true
+          },
+          {
+            "name": "target_exists_once",
+            "passed": true
+          },
+          {
+            "name": "required_fields",
+            "passed": true
+          },
+          {
+            "name": "target_name",
+            "passed": true
+          },
+          {
+            "name": "target_ingredients",
+            "passed": true,
+            "count": 14
+          },
+          {
+            "name": "target_steps",
+            "passed": true,
+            "count": 7
+          },
+          {
+            "name": "stable_target_fields",
+            "passed": true,
+            "allowedChanges": [
+              "source"
+            ]
+          },
+          {
+            "name": "target_changed",
+            "passed": true,
+            "required": true
+          },
+          {
+            "name": "target_only_diff",
+            "passed": true,
+            "changed": []
+          },
+          {
+            "name": "generated_target_exists",
+            "passed": true
+          }
+        ],
+        "errors": [],
+        "commands": [
+          {
+            "command": "D:\\node.exe tools/build_html_demo_data.mjs",
+            "passed": true,
+            "status": 0,
+            "stdout": "Generated 91 recipes.",
+            "stderr": ""
+          },
+          {
+            "command": "D:\\node.exe tools/test_html_demo.mjs",
+            "passed": true,
+            "status": 0,
+            "stdout": "{\n  \"ok\": true,\n  \"recipes\": 91,\n  \"pantryItems\": 35,\n  \"verifiedMedia\": [\n    {\n      \"id\": \"cn-001\",\n      \"steps\": 6,\n      \"stepImages\": 6\n    },\n    {\n      \"id\": \"cn-002\",\n      \"steps\": 7,\n      \"stepImages\": 6\n    },\n    {\n      \"id\": \"cn-003\",\n      \"steps\": 6,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"cn-004\",\n      \"steps\": 7,\n      \"stepImages\": 5\n    },\n    {\n      \"id\": \"cn-005\",\n      \"steps\": 11,\n      \"stepImages\": 11\n    },\n    {\n      \"id\": \"cn-006\",\n      \"steps\": 5,\n      \"stepImages\": 3\n    },\n    {\n      \"id\": \"cn-007\",\n      \"steps\": 19,\n      \"stepImages\": 19\n    },\n    {\n      \"id\": \"cn-008\",\n      \"steps\": 9,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"cn-009\",\n      \"steps\": 8,\n      \"stepImages\": 8\n    },\n    {\n      \"id\": \"cn-010\",\n      \"steps\": 13,\n      \"stepImages\": 13\n    },\n    {\n      \"id\": \"cn-011\",\n      \"steps\": 9,\n      \"stepImages\": 9\n    },\n    {\n      \"id\": \"cn-019\",\n      \"steps\": 8,\n      \"stepImages\": 5\n    },\n    {\n      \"id\": \"cn-020\",\n      \"steps\": 14,\n      \"stepImages\": 12\n    },\n    {\n      \"id\": \"cn-024\",\n      \"steps\": 16,\n      \"stepImages\": 15\n    },\n    {\n      \"id\": \"cn-027\",\n      \"steps\": 17,\n      \"stepImages\": 17\n    },\n    {\n      \"id\": \"cn-029\",\n      \"steps\": 13,\n      \"stepImages\": 12\n    },\n    {\n      \"id\": \"cn-031\",\n      \"steps\": 8,\n      \"stepImages\": 7\n    },\n    {\n      \"id\": \"cn-035\",\n      \"steps\": 10,\n      \"stepImages\": 7\n    },\n    {\n      \"id\": \"cn-036\",\n      \"steps\": 4,\n      \"stepImages\": 3\n    },\n    {\n      \"id\": \"cn-039\",\n      \"steps\": 27,\n      \"stepImages\": 20\n    },\n    {\n      \"id\": \"cn-040\",\n      \"steps\": 17,\n      \"stepImages\": 10\n    },\n    {\n      \"id\": \"cn-044\",\n      \"steps\": 27,\n      \"stepImages\": 9\n    },\n    {\n      \"id\": \"cn-051\",\n      \"steps\": 17,\n      \"stepImages\": 8\n    },\n    {\n      \"id\": \"cn-053\",\n      \"steps\": 16,\n      \"stepImages\": 9\n    },\n    {\n      \"id\": \"cn-054\",\n      \"steps\": 11,\n      \"stepImages\": 9\n    },\n    {\n      \"id\": \"west-004\",\n      \"steps\": 4,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-006\",\n      \"steps\": 4,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-011\",\n      \"steps\": 5,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-012\",\n      \"steps\": 10,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-020\",\n      \"steps\": 8,\n      \"stepImages\": 5\n    },\n    {\n      \"id\": \"west-024\",\n      \"steps\": 7,\n      \"stepImages\": 6\n    },\n    {\n      \"id\": \"west-031\",\n      \"steps\": 6,\n      \"stepImages\": 0\n    }\n  ],\n  \"testedRoutes\": [\n    \"home\",\n    \"pantry\",\n    \"recommendations\",\n    \"recipe\",\n    \"game\",\n    \"cook\",\n    \"shopping\",\n    \"recipes\",\n    \"me\"\n  ],\n  \"browserErrors\": []\n}",
+            "stderr": ""
+          },
+          {
+            "command": "D:\\node.exe tools/build_vercel_output.mjs",
+            "passed": true,
+            "status": 0,
+            "stdout": "Vercel 静态构建完成：C:\\Users\\myw\\Documents\\recipe-automation\\dist\nVercel Build Output 已生成：C:\\Users\\myw\\Documents\\recipe-automation\\.vercel\\output",
+            "stderr": ""
+          }
+        ]
+      }
+    },
+    "review": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "status": "PASS",
+        "issues": [],
+        "summary": "独立核对冻结证据、14行生成原料、7个生成步骤及全部发布图片。BBC完整配方按完整性、自洽性及可验证图片覆盖优先选中，未混入Serious Eats配料或操作。4人份、准备30分钟、烹饪10分钟、总计40分钟均与来源一致。鸡胸未虚构重量，未增加卷心菜浸泡时间或具体调味料；敲薄厚度、裹粉与蛋液及面包糠顺序、每批两块和每面2—3分钟均保留。未捏造油温、内部温度、冷藏或烤箱保温时长，范围时间未生成固定倒计时。全部图片实际动作与对应步骤匹配，本地资产哈希及出处一致。逐行对抗语言和渲染结构检查通过，确定性验证与构建通过。",
+        "evidencePackageHash": "21905e20ba84a1a8a73c8e81b4be5935613d646ab36ea94a4a30df03ce71a85e",
+        "validatorPassed": true,
+        "adversarialReview": {
+          "ingredientSemantics": true,
+          "stepGrammar": true,
+          "punctuation": true,
+          "renderedStructure": true
+        }
+      }
+    },
+    "build": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "ok": true,
+        "exitCode": 0,
+        "command": "npm run test:workflow:deterministic",
+        "completedAt": "2026-10-08T17:35:47.0041510Z",
+        "includesTestAI": false
+      }
+    },
+    "gitPush": {
+      "status": "pending",
+      "attempts": 0
+    }
+  },
+  "sources": [
+    {
+      "name": "BBC Good Food",
+      "url": "https://www.bbcgoodfood.com/recipes/chicken-schnitzel-coleslaw",
+      "status": "success",
+      "failureReason": null
+    },
+    {
+      "name": "Serious Eats",
+      "url": "https://www.seriouseats.com/chicken-schnitzel-recipe",
+      "status": "success",
+      "failureReason": null
+    }
+  ],
+  "errors": [],
+  "branch": "codex/recipe-automation",
+  "commit": null
+}

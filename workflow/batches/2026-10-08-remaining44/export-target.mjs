@@ -1,0 +1,11 @@
+import {readFile,writeFile} from 'node:fs/promises';
+import vm from 'node:vm';
+import {createRecipeCatalog} from '../../../tools/workflow/recipe-state.mjs';
+const id=process.argv[2];
+const canonical=createRecipeCatalog().find(r=>r.id===id);
+if(!canonical)throw Error('Unknown recipe '+id);
+const context={window:{}};
+vm.runInNewContext(await readFile(new URL('../../../data/recipes.js',import.meta.url),'utf8'),context);
+const generated=context.window.YANHUO_RECIPES.find(r=>r.id===id);
+await writeFile(new URL(`${id}.target.json`,import.meta.url),JSON.stringify({canonical,generated},null,2)+'\n');
+console.log(JSON.stringify({id,steps:generated.steps.length,ingredients:generated.ingredients.length}));

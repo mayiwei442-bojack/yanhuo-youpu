@@ -623,8 +623,239 @@ export const chinese = [
   ),
   c("水煮牛肉", "Sichuan Boiled Beef", "川菜", "牛里脊300克；豆芽200克；莴笋150克；郫县豆瓣25克；干辣椒12个；花椒2茶匙；蒜末20克；高汤500毫升；淀粉10克", "1）牛肉切薄片，用盐、淀粉和少量油腌10分钟，蔬菜焯熟垫碗。2）炒香豆瓣，加高汤煮开，逐片下牛肉至刚熟。3）连汤倒入碗，铺辣椒花椒蒜末，浇热油。", "27-shuizhu-niurou.png"),
   c("酸菜鱼", "Fish with Pickled Mustard Greens", "川渝", "黑鱼片400克；酸菜250克；泡椒20克；姜蒜各15克；高汤700毫升；蛋清半个；淀粉10克；花椒和干辣椒适量", "1）鱼片加盐、蛋清和淀粉上浆，鱼骨煎香。2）炒香酸菜、泡椒和姜蒜，加高汤及鱼骨煮10分钟。3）捞出底料，滑入鱼片至变白，倒碗后以辣椒花椒热油激香。", "28-suancai-yu.png"),
-  c("东坡肉", "Dongpo Pork", "浙菜", "方块五花肉800克；绍兴酒250毫升；生抽60毫升；老抽15毫升；冰糖50克；葱100克；姜40克", "1）五花肉焯水，切大方块并扎绳定形。2）砂锅垫葱姜，肉皮向下，加酒、酱油和冰糖。3）小火焖90分钟，翻面再焖30分钟，蒸20分钟更酥软。", "29-dongpo-rou.png"),
-  c("白切鸡", "Cantonese Poached Chicken", "粤菜", "嫩鸡1只约1000克；姜40克；葱40克；盐10克；料酒20毫升；芝麻油10毫升；蘸料适量", "1）大锅水加姜葱烧至微沸，提鸡三浸三提。2）鸡完全浸入，保持微沸约25分钟，关火焖15分钟。3）立即冰镇，擦干抹芝麻油，斩件配姜葱蘸料。", "30-baiqie-ji.png"),
+  c("东坡肉", "Dongpo Pork", "浙菜", "五花肉整块900克；葱3把，洗净后纵向切成两半；姜8片；绍兴酒2杯；生抽2/3杯；老抽2又1/2汤匙；冰糖约113.4—141.7克（原文4—5盎司，按喜好的甜度选用）；清水适量（仅用于焯水，原文未给用量）", "1）将整块五花肉洗净，放入沸水中焯1分钟后沥干，以去除杂质并便于切成大小一致的块。切成约7.6×7.6厘米的方块；喜欢小块的，也可切成约5.1×5.1厘米，放在一旁备用。2）优先选用中号砂锅，也可用中号普通锅（原文为4夸脱）。将洗净并纵向切成两半的葱，在锅底铺成厚实、均匀的一层，完全覆盖锅底；再将姜片均匀铺在葱上。葱层可防止炖煮时粘锅。3）将五花肉块皮朝下，摆在姜片和葱层上。4）倒入2杯绍兴酒、2/3杯生抽和2又1/2汤匙老抽，加入约113.4—141.7克冰糖。炖肉时不要加水或高汤。5）盖上锅盖，以中高火加热；锅中液体一沸腾，立即转小火，微沸炖90分钟，期间不必搅动。之后的步骤6与步骤7是两条替代路线，只选一条继续。6）继续原锅炖煮的路线：将肉块翻成皮朝上，盖上锅盖，以最低火力再微沸炖90分钟。保持最低火力时，锅中应有足够液体完成炖煮，不需要另外添加液体；完成后直接进行步骤8。7）改用蒸制的路线：将已炖90分钟的肉块移到耐热盘中，保持皮朝上，淋上一些锅中的炖汁，再放入蒸锅蒸90分钟。这条路线替代步骤6，不在原锅再炖90分钟后继续蒸。8）两条路线均以肉质软嫩为完成状态。将肉块移到盘中；需要更浓的酱汁时，将炖汁放入小锅，提高火力加热收浓，再淋在肉上。剩余酱汁可用来拌米饭或面条。", "29-dongpo-rou.png", "https://thewoksoflife.com/braised-pork-belly-dong-po-rou/", {
+  "sourceName": "The Woks of Life",
+  "recipePageUrl": "https://thewoksoflife.com/braised-pork-belly-dong-po-rou/",
+  "mediaPageUrl": "https://thewoksoflife.com/braised-pork-belly-dong-po-rou/",
+  "author": "Judy",
+  "rightsNotice": "All Rights Reserved © The Woks of Life",
+  "reuseLicense": null,
+  "repositoryCopyAuthorization": "user_confirmed_2026-10-08_remaining44",
+  "hero": {
+    "path": "assets/dishes/sources/cn-019-woks-dongpo/hero.jpg",
+    "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/10/braised-pork-belly-6.jpg",
+    "sha256": "33d662c93bb7959bb6fb6344e20b217f0108108d5ceb11972b623e934f2e357b",
+    "httpStatus": 200,
+    "contentType": "image/jpeg"
+  },
+  "steps": [
+    {
+      "stepOrder": 2,
+      "sourceStepOrder": 2,
+      "path": "assets/dishes/sources/cn-019-woks-dongpo/step-2-1.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/10/braised-pork-belly-1.jpg",
+      "sha256": "db541980739c100bb19f15d06f7cb9bf2d321b6cb38f3bd00e7e0bb8ca5f9646",
+      "httpStatus": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "stepOrder": 3,
+      "sourceStepOrder": 3,
+      "path": "assets/dishes/sources/cn-019-woks-dongpo/step-3-7.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/10/braised-pork-belly-7.jpg",
+      "sha256": "da630c82ab8006a66569923e9a5f657bde062e781ded70d4002820f20d7b4392",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 4,
+      "sourceStepOrder": 3,
+      "path": "assets/dishes/sources/cn-019-woks-dongpo/step-3-8.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/10/braised-pork-belly-8.jpg",
+      "sha256": "800663d39be2d03607af22b6f4a823e382fe18fcefe2a1594b8344730278b8dc",
+      "httpStatus": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "stepOrder": 6,
+      "sourceStepOrder": 5,
+      "path": "assets/dishes/sources/cn-019-woks-dongpo/step-5-9.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/10/braised-pork-belly-9.jpg",
+      "sha256": "24b1b26ba9f95e0c810f3b47169477e6d8ac2bdc83dcc932ff8c27071ba0e212",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 7,
+      "sourceStepOrder": 5,
+      "path": "assets/dishes/sources/cn-019-woks-dongpo/step-5-10.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/10/braised-pork-belly-10.jpg",
+      "sha256": "00301b5d2d95ee52e71f793ebfec025b421fd05e36e3031757004623cf1b8f81",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    }
+  ]
+}, {
+  "totalMinutes": 230,
+  "prepMinutes": 20,
+  "cookMinutes": 210,
+  "stepDurations": [
+    null,
+    null,
+    null,
+    null,
+    5400,
+    null,
+    null,
+    null
+  ]
+}, 8, {
+  "sourceLimitations": [
+    "原文步骤为先炖90分钟，再选择炖90分钟或蒸90分钟，两段合计180分钟；原文另标烹饪时间210分钟、总时间230分钟，此处分别保留，不以步骤时长重算总时间。",
+    "原文未量化焯水用水，杯和汤匙也未规定容量；保留原单位，不推算毫升。"
+  ]
+}),
+  c("白切鸡", "Cantonese Poached Chicken", "粤菜", "整鸡1只，约1361—1814克（原文3—4磅，室温，优先选有机散养鸡，可带头和脚）；葱2根（煮鸡用）；姜5片（煮鸡用）；葱末3汤匙（蘸料用，仅取葱白和浅绿色部分）；姜末2汤匙（蘸料用）；食用油3汤匙（蘸料用），另备少许（可选刷鸡皮用，也可用煮鸡汤表面的鸡油）；盐适量（蘸料用）；酱油适量（可选蘸料用，原文未给用量）；清水适量（洗鸡与煮鸡用，煮鸡时以刚好没过整鸡为准，约1814克的鸡在深汤锅中约用18杯）；冰水1大碗（用于完全冷却整鸡，原文未给具体容量）；熟米饭适量（配食用，原文未给用量）", "1）确认整鸡已回到室温；不要直接将刚从冰箱取出的冷鸡下锅，以免受热不均或未熟。用冷水冲洗整鸡，尤其注意鸡腹内侧。2）检查并去掉残余内脏，拔净零散羽毛；处理和冲洗时小心，避免水花飞溅而污染周围表面。保留完整鸡皮，不要破坏或剪去鸡皮，以免鸡肉直接接触沸水。3）先不开火，将整鸡放入大汤锅，加清水至刚好完全没过鸡身，再取出整鸡，留下量好的水。量水时鸡还在锅中，不要开火。原文在深汤锅中为约1814克的鸡用了约18杯水，以实际刚好浸没为准，避免多加水使汤味变淡。4）在量好的水中加入2根葱和5片姜，加热至沸腾。5）水沸后，将整鸡缓缓放入锅中，鸡腿朝下、鸡头一端朝上；鸡胸略微露出水面也可以。6）整鸡下锅后，水温会下降而停止沸腾，继续加热至再次沸腾，其间留在锅边看管。7）水一再次沸腾，立即小心提起整鸡；可将两把木勺钩在鸡翅下方提起，让鸡腹内滞留的较冷水排出。排净后将鸡重新放回锅中，再次加热至将沸。8）水刚开始沸腾时立即调低火力，保持极轻微的微沸：水面仅有少许动静，不能完全静止，也不要剧烈翻滚。盖上锅盖，以接近最低的火力煮约35—40分钟；原文估计每磅约需10—11分钟，实际时间依鸡的大小增减。可检查水是否缓缓冒泡，但尽量不要在煮鸡时揭盖。9）用筷子或竹签刺入鸡腿检查；按原文，以流出的汁水清澈作为熟度判断。10）确认煮熟后小心将整鸡提起；原文建议将结实的肉叉或木勺伸入鸡腹帮助提起。11）将整鸡移入一大碗冰水中，等到完全冷却，使鸡皮迅速冷却并形成较脆的口感。12）鸡冷却时做蘸料：将3汤匙葱末、2汤匙姜末、3汤匙食用油和适量盐混合，先做不加酱油的版本。喜欢酱油口味时，可分出一部分蘸料到另一个碗中，加入适量酱油，作为另一款可选蘸料。13）整鸡完全冷却后，从冰水中取出；可在鸡皮上薄薄刷少许食用油，或取煮鸡汤表面的少许鸡油刷上，使鸡皮有光泽。14）将鸡切成便于用筷子夹取的块，配姜葱蘸料和熟米饭食用。保留煮鸡汤，可冷冻留作以后使用，也可代替清水煮饭。", "30-baiqie-ji.png", "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/", {
+  "sourceName": "The Woks of Life",
+  "recipePageUrl": "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/",
+  "mediaPageUrl": "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/",
+  "author": "Bill",
+  "rightsNotice": "All Rights Reserved © The Woks of Life",
+  "reuseLicense": null,
+  "repositoryCopyAuthorization": "user_confirmed_2026-10-08_remaining44",
+  "hero": {
+    "path": "assets/dishes/sources/cn-020-woks/hero.jpg",
+    "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-18.jpg",
+    "sha256": "5b2c559d3b0d9de95e26cdc2971c44c68b265a8a37b76bed84d6acd058691321",
+    "httpStatus": 200,
+    "contentType": "image/webp"
+  },
+  "steps": [
+    {
+      "stepOrder": 1,
+      "sourceStepOrder": 1,
+      "path": "assets/dishes/sources/cn-020-woks/step-1-1.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-2.jpg",
+      "sha256": "1b8e29e155145a262f0d6cfda82512042dbe9b5e65e0e2c268cda9eebd5a3d03",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 2,
+      "sourceStepOrder": 1,
+      "path": "assets/dishes/sources/cn-020-woks/step-1-2.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken.jpg",
+      "sha256": "ce1f336fa1705603a156d6a87826fadb3bc130ef22b73a1a73590cdd9722f640",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 3,
+      "sourceStepOrder": 2,
+      "path": "assets/dishes/sources/cn-020-woks/step-2-3.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-3.jpg",
+      "sha256": "305c9f32746a338e289ba7460538a44e3f46b054ea2228ad249e8d7a9c8dbd0c",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 4,
+      "sourceStepOrder": 3,
+      "path": "assets/dishes/sources/cn-020-woks/step-3-4.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-7.jpg",
+      "sha256": "5e4d66df34f457b2a694865dc2b1dc82df368cb0dee04e1cb3fde70689467713",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 5,
+      "sourceStepOrder": 3,
+      "path": "assets/dishes/sources/cn-020-woks/step-3-5.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-8.jpg",
+      "sha256": "7b0cc1e6d604ac2bb6b7200f53c233adac31a7dfcf4e470eb8746c467c8ba048",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 6,
+      "sourceStepOrder": 3,
+      "path": "assets/dishes/sources/cn-020-woks/step-3-6.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-9.jpg",
+      "sha256": "23ea4445f1cd93d77a14d1ffa07a2ca7d5ace0f80d97030e7aa164ffe8315a40",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 8,
+      "sourceStepOrder": 5,
+      "path": "assets/dishes/sources/cn-020-woks/step-5-7.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-10.jpg",
+      "sha256": "da4a664c9809c9345a16a59bd522227822197949d6e22207c197562226d3deb7",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 9,
+      "sourceStepOrder": 6,
+      "path": "assets/dishes/sources/cn-020-woks/step-6-8.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-11.jpg",
+      "sha256": "2d827907f25b215185ce5f468319f34e2afcc11bea60f00d72b21fffabb5f615",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 10,
+      "sourceStepOrder": 6,
+      "path": "assets/dishes/sources/cn-020-woks/step-6-9.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-12.jpg",
+      "sha256": "cbf6a9c6796a6de9b05a68b8107442a12cf88225551dd8943071fd18d22430c4",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 11,
+      "sourceStepOrder": 6,
+      "path": "assets/dishes/sources/cn-020-woks/step-6-10.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-13.jpg",
+      "sha256": "c3e98462bce9a1aba8bb549535042acb48ff14738762a1da83c9ea4aacaf166a",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 13,
+      "sourceStepOrder": 8,
+      "path": "assets/dishes/sources/cn-020-woks/step-8-11.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-14.jpg",
+      "sha256": "28a31e32ded15baa3648ad0a813a2f42af5b165cc8d9c424d820a6aaf051d601",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 14,
+      "sourceStepOrder": 9,
+      "path": "assets/dishes/sources/cn-020-woks/step-9-12.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-19.jpg",
+      "sha256": "6886338b4efb2c5f1ee89b69b8f0764803ab35df2368af6064be5ef2b7ea888b",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    }
+  ]
+}, {
+  "totalMinutes": 70,
+  "prepMinutes": 20,
+  "cookMinutes": 50,
+  "stepDurations": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}, 6, {
+  "sourceLimitations": [
+    "原文以鸡腿流出清澈汁水判断熟度，未提供鸡肉内部温度；35—40分钟是范围，需按鸡的大小判断，不生成固定倒计时。",
+    "原文未量化酱油、刷皮用油、冰水及配食米饭的用量，杯和汤匙也未定义容量；保留适量及原单位，不推算毫升。"
+  ]
+}),
   c("口水鸡", "Sichuan Mouthwatering Chicken", "川菜", "鸡腿2只约500克；姜葱适量；花生碎30克；辣椒油50毫升；生抽25毫升；香醋15毫升；糖5克；花椒粉2克；蒜末15克", "1）鸡腿加姜葱煮至熟，冰镇后斩块。2）辣椒油、生抽、醋、糖、花椒粉和蒜末调成料汁。3）浇在鸡块上，撒花生碎和葱花。", "31-koushui-ji.png"),
   c("北京烤鸭", "Peking Duck", "京菜", "净鸭1只约1800克；麦芽糖30克；白醋15毫升；开水适量；荷叶饼20张；葱丝、黄瓜和甜面酱适量", "1）鸭皮淋开水收紧，刷麦芽糖醋水，通风冷藏风干一夜。2）烤箱200℃烤约60分钟，中途翻面，至皮脆肉熟。3）片鸭皮肉，配荷叶饼、葱丝、黄瓜和甜面酱。", "32-beijing-kaoya.png", CN_HOME),
   c("小鸡炖蘑菇", "Chicken Stew with Mushrooms", "东北菜", "鸡块700克；干榛蘑80克；粉条100克；葱姜适量；生抽25毫升；料酒20毫升；八角1个；盐适量", "1）榛蘑和粉条分别泡发，鸡块焯水。2）炒香葱姜八角，下鸡块、生抽和料酒翻炒。3）加热水与蘑菇炖40分钟，下粉条再煮10分钟调盐。", "33-xiaoji-dun-mogu.png"),
@@ -1119,11 +1350,210 @@ export const chinese = [
     "repositoryCopyAuthorization": "user_confirmed_2026-09-16"
   }),
   c("蚂蚁上树", "Minced Pork with Glass Noodles", "川菜", "红薯粉条150克；猪肉末150克；郫县豆瓣15克；姜蒜末适量；生抽15毫升；高汤300毫升；葱花适量", "1）粉条泡软剪短。2）炒散肉末，加入豆瓣和姜蒜炒出红油。3）加高汤和生抽，下粉条焖至吸汁，撒葱花。", "40-mayi-shangshu.png"),
-  c("家常豆腐", "Home-style Tofu", "川菜", "北豆腐450克；猪肉片100克；木耳50克；青红椒各60克；豆瓣酱15克；生抽15毫升；蒜末10克；淀粉5克", "1）豆腐切片煎至两面金黄。2）炒熟肉片，加入豆瓣和蒜末，再下木耳青红椒。3）倒入豆腐和少量水焖3分钟，以淀粉水薄芡。", "41-jiachang-doufu.png"),
+  c("家常豆腐", "Home-style Tofu", "川菜", "食用油2汤匙（分两次使用）；硬豆腐约454克（原文1磅，擦干后纵向切成两半，再切约0.6厘米厚片）；大蒜2瓣，拍碎切末；红辣椒1个，去籽切薄片；葱3根，切约2.5厘米段，葱白与葱绿分开；猪肉末约113克（原文4盎司，或用等量鸡肉末）；生抽2汤匙；蚝油2茶匙（或素蚝油）；绍兴酒1茶匙；白糖1/4茶匙；清水1/4杯；盐适量", "1）用厨房纸或干净的厨房布将硬豆腐擦干，纵向切成两半，再切约0.6厘米厚片。大蒜拍碎切末，红辣椒去籽切薄片，葱切约2.5厘米段，将葱白与葱绿分开放好。2）平底铸铁锅置中高火，预热至轻微冒烟；若用不粘锅，只需加热至锅热，不要将不粘锅烧至冒烟。3）加入1汤匙食用油，倾斜锅身，让油均匀覆盖锅底。放入豆腐片，调至中火煎第一面约3—5分钟，至金黄色。4）将豆腐翻面，另一面也煎约3—5分钟至金黄色；两面煎好后关火，将豆腐放在一旁备用。5）炒锅中加入剩余1汤匙食用油，以中火加热；放入蒜末、红辣椒片和葱白，炒约1分钟。6）加入约113克猪肉末或鸡肉末，翻炒约1分钟，至肉末熟透。7）加入2汤匙生抽、2茶匙蚝油或素蚝油、1茶匙绍兴酒、1/4茶匙白糖和1/4杯清水，搅匀并煮至沸腾。8）最后加入煎好的豆腐和葱绿，提高火力，快速将全部食材翻炒均匀；按口味加适量盐，出锅食用。", "41-jiachang-doufu.png", "https://thewoksoflife.com/home-style-tofu-stir-fry/", {
+  "sourceName": "The Woks of Life",
+  "recipePageUrl": "https://thewoksoflife.com/home-style-tofu-stir-fry/",
+  "mediaPageUrl": "https://thewoksoflife.com/home-style-tofu-stir-fry/",
+  "author": "Judy",
+  "rightsNotice": "All Rights Reserved © The Woks of Life",
+  "reuseLicense": null,
+  "repositoryCopyAuthorization": "user_confirmed_2026-10-08_remaining44",
+  "hero": {
+    "path": "assets/dishes/sources/cn-031-woks/hero.jpg",
+    "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/homestyle-tofu-10.jpg",
+    "sha256": "6f8dd5a197914784660f59d10ac61e364cbc7c54502ddfca82ec65c380515bfe",
+    "httpStatus": 200,
+    "contentType": "image/webp"
+  },
+  "steps": [
+    {
+      "stepOrder": 1,
+      "sourceStepOrder": 1,
+      "path": "assets/dishes/sources/cn-031-woks/step-1-1.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/homestyle-tofu-2.jpg",
+      "sha256": "950c3ad8d67da411a6776e4ad44dd4de38af0129cdc4197c81ece0f8ba0a7c7e",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 3,
+      "sourceStepOrder": 1,
+      "path": "assets/dishes/sources/cn-031-woks/step-1-2.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/homestyle-tofu-3.jpg",
+      "sha256": "45e84c49b78da01dd90020b458bd2f41735301264c130c1d557255abe3222dbb",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 4,
+      "sourceStepOrder": 1,
+      "path": "assets/dishes/sources/cn-031-woks/step-1-3.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/homestyle-tofu-4.jpg",
+      "sha256": "9c3cfe8329dd5bc6cb088cecbffb3aee783f9df07ac52dcf4f1ca750b0ffa6e3",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 5,
+      "sourceStepOrder": 2,
+      "path": "assets/dishes/sources/cn-031-woks/step-2-4.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/homestyle-tofu-5.jpg",
+      "sha256": "e98f4fd7a7cac3a787ae150211d8c4018144a7a17ffd3ab9489c1f79ab69a729",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 6,
+      "sourceStepOrder": 2,
+      "path": "assets/dishes/sources/cn-031-woks/step-2-5.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/homestyle-tofu-6.jpg",
+      "sha256": "ddee6f6a675a441eede315c75186043996b24087a465dce1b671fa95501753e3",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 7,
+      "sourceStepOrder": 3,
+      "path": "assets/dishes/sources/cn-031-woks/step-3-6.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/homestyle-tofu-7.jpg",
+      "sha256": "4d0f05eedeb44663a536075b8550112be604d72a7c62f4f87f75d62ffd4b499f",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 8,
+      "sourceStepOrder": 3,
+      "path": "assets/dishes/sources/cn-031-woks/step-3-7.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/homestyle-tofu-8.jpg",
+      "sha256": "e228eb7cd9fc9ee272447ddbbe86f1ce5fcd2785ab31ad2d6908fc6472bc2595",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    }
+  ]
+}, {
+  "totalMinutes": 30,
+  "prepMinutes": 15,
+  "cookMinutes": 15,
+  "stepDurations": [
+    null,
+    null,
+    null,
+    null,
+    60,
+    60,
+    null,
+    null
+  ]
+}, 4, {
+  "sourceLimitations": [
+    "原文未规定杯、汤匙和茶匙的容量，保留原单位，不换算毫升；煎豆腐每面3—5分钟为范围，不生成固定倒计时。"
+  ]
+}),
   c("虎皮青椒", "Blistered Green Peppers", "川菜", "薄皮青椒400克；蒜末15克；生抽20毫升；香醋15毫升；糖5克；盐2克；食用油15毫升", "1）青椒去蒂去籽，擦干。2）干锅或少油中火按压煎至表面起虎皮。3）加蒜末、生抽、醋、糖和盐，翻炒收汁。", "42-hupi-qingjiao.png"),
   c("酸辣土豆丝", "Hot and Sour Shredded Potatoes", "家常菜", "土豆400克；青红椒各40克；干辣椒4个；蒜末10克；米醋25毫升；盐3克；食用油20毫升", "1）土豆切细丝，多次冲水去淀粉并沥干。2）热油爆香干辣椒蒜末，大火下土豆丝。3）沿锅边烹醋，加青红椒和盐，炒至断生仍脆。", "43-suanla-tudousi.png"),
   c("韭菜炒鸡蛋", "Chive and Egg Stir-fry", "家常菜", "韭菜250克；鸡蛋4个；盐4克；白胡椒少许；食用油25毫升", "1）韭菜切段，鸡蛋加盐打散。2）热油炒鸡蛋至蓬松，盛出。3）原锅大火炒韭菜梗再下叶，回锅鸡蛋，调盐迅速出锅。", "44-jiucai-chaodan.png"),
-  c("冬瓜排骨汤", "Winter Melon Pork Rib Soup", "粤式家常", "排骨500克；冬瓜500克；姜20克；葱1根；料酒15毫升；盐适量；白胡椒少许", "1）排骨冷水焯去血沫。2）排骨加姜、葱和足量清水，小火炖50分钟。3）冬瓜切厚块入锅再煮20分钟，以盐和白胡椒调味。", "45-donggua-paigu-tang.png"),
+  c("冬瓜排骨汤", "Winter Melon Pork Rib Soup", "粤式家常", "猪排骨或肋排软骨段约907克（原文2磅，切约2.5—5厘米段，选带肉的）；姜5片，约0.3厘米厚，拍松；清水9杯（煲汤用），另备适量（浸泡、焯水及冲洗排骨和冬瓜用）；冬瓜约680克（原文1又1/2磅）；海盐1又1/4茶匙，另备适量按口味调整；白胡椒粉适量；香菜和/或葱共1把，切碎；生抽适量（配排骨蘸食，原文未给用量）；热米饭适量（配食，原文未给用量）", "1）将切成约2.5—5厘米段的排骨放入一碗冷水中浸泡1小时，去除血水和杂质，然后沥干。时间紧时可以省略浸泡，但下一步焯水仍需进行。2）排骨放入大汤锅，加清水至没过排骨。烧开后微沸煮1分钟，关火，沥去焯水，用流动水冲洗排骨，并将汤锅洗净。这一步有助于保持汤清、味道干净。3）将焯洗好的排骨、5片拍松的姜和9杯清水重新放入汤锅，烧开后立即转中小火。4）盖上锅盖，保持轻微微沸煲90分钟。期间不时检查，确保汤只是轻轻冒泡，不要大滚，以保持清淡的味道和清澈的汤色。5）煲排骨时准备冬瓜：削去厚皮，冲洗干净。6）将冬瓜切成约0.6厘米厚、适合入口的小片。7）排骨煲足90分钟后，用汤勺撇去汤面多余浮油，加入切好的冬瓜和1又1/4茶匙海盐。8）盖上锅盖，再保持微沸煲15分钟，至冬瓜刚熟；不要煮过头，冬瓜应仍有些口感。9）加入适量白胡椒粉，并按口味补充海盐；最后加入切碎的葱和/或香菜。10）排骨应已炖得软嫩，盛出汤，配热米饭食用；另配一小碟生抽，供排骨蘸食。", "45-donggua-paigu-tang.png", "https://thewoksoflife.com/winter-melon-soup-pork-ribs/", {
+  "sourceName": "The Woks of Life",
+  "recipePageUrl": "https://thewoksoflife.com/winter-melon-soup-pork-ribs/",
+  "mediaPageUrl": "https://thewoksoflife.com/winter-melon-soup-pork-ribs/",
+  "author": "Judy",
+  "rightsNotice": "All Rights Reserved © The Woks of Life",
+  "reuseLicense": null,
+  "repositoryCopyAuthorization": "user_confirmed_2026-10-08_remaining44",
+  "hero": {
+    "path": "assets/dishes/sources/cn-035-woks/hero.jpg",
+    "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/pork-winter-melon-soup-9.jpg",
+    "sha256": "6b0c1510bef93e25a96386609c32d3b59097976ca8f1a76ee28ef006df688c1a",
+    "httpStatus": 200,
+    "contentType": "image/webp"
+  },
+  "steps": [
+    {
+      "stepOrder": 2,
+      "sourceStepOrder": 2,
+      "path": "assets/dishes/sources/cn-035-woks/step-2-1.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/pork-winter-melon-soup.jpg",
+      "sha256": "ba9c1b664f344c5e701010156d8193b0283325c1f2645e84b34d727c7790d7e5",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 3,
+      "sourceStepOrder": 3,
+      "path": "assets/dishes/sources/cn-035-woks/step-3-2.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/pork-winter-melon-soup-2.jpg",
+      "sha256": "7c1b59f8cbb0a3b53f6337831e4aad8da0d041eac3cc4864eb99e5a15f114c19",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 5,
+      "sourceStepOrder": 4,
+      "path": "assets/dishes/sources/cn-035-woks/step-4-3.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/pork-winter-melon-soup-3.jpg",
+      "sha256": "93589a62008d6e9bf54c34d2ed688e190b592ddbc26c961e94250456a58e3cc7",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 6,
+      "sourceStepOrder": 4,
+      "path": "assets/dishes/sources/cn-035-woks/step-4-4.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/pork-winter-melon-soup-4.jpg",
+      "sha256": "99df28d43e6892bdfd874d0dcf071f2f01222e012ab7730fb967c8dac1a95b48",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 7,
+      "sourceStepOrder": 5,
+      "path": "assets/dishes/sources/cn-035-woks/step-5-5.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/pork-winter-melon-soup-5.jpg",
+      "sha256": "87f39f7e9adde2ce8e5384fbddc62fd60600f6b5d45a16d2dd00ce200ad0a22a",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 8,
+      "sourceStepOrder": 5,
+      "path": "assets/dishes/sources/cn-035-woks/step-5-6.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/pork-winter-melon-soup-6.jpg",
+      "sha256": "603f12097226d961a489538dcdf822193736674ede7d7416b9d74a6f76254503",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 9,
+      "sourceStepOrder": 6,
+      "path": "assets/dishes/sources/cn-035-woks/step-6-7.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/pork-winter-melon-soup-7.jpg",
+      "sha256": "3c5efbab46d637de854d433f2145cc2c06d081c79b3ace4fe9f003eb593af9bf",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    }
+  ]
+}, {
+  "totalMinutes": 205,
+  "prepMinutes": 70,
+  "cookMinutes": 135,
+  "stepDurations": [
+    null,
+    null,
+    null,
+    5400,
+    null,
+    null,
+    null,
+    900,
+    null,
+    null
+  ]
+}, 8, {
+  "sourceLimitations": [
+    "原文未规定杯和茶匙的容量，也未量化浸泡、焯水和冲洗用水、生抽及配食米饭；保留原单位和适量，不推算毫升。",
+    "原文总时间205分钟、准备70分钟、烹饪135分钟单独保留，不以局部微沸步骤的时间相加替代总时间。"
+  ]
+}),
   c("莲藕排骨汤", "Lotus Root Pork Rib Soup", "湖北", "排骨适量；莲藕一根；葱一段；姜2片；盐适量；清水适量（用于焯水、清洗和煮汤）；葱花适量；料酒适量（用量未注明）", "1）排骨冷水入锅，加入料酒焯水去腥，再洗干净备用。2）将莲藕和排骨放入高压锅，加入葱段和姜片。3）加入适量清水，将食材煮熟。4）加入葱花和适量盐调味，即可饮用。", "46-lianou-paigu-tang.png", "https://www.douguo.com/cookbook/3356395.html", {
     "recipePageUrl": "https://www.douguo.com/cookbook/3356395.html",
     "mediaPageUrl": "https://www.douguo.com/cookbook/3356395.html",
@@ -1196,21 +1626,777 @@ export const chinese = [
   }),
   c("佛跳墙", "Buddha Jumps Over the Wall", "闽菜", "泡发海参150克；鲍鱼6只；花胶100克；干贝50克；鸡块300克；排骨300克；香菇6朵；绍兴酒80毫升；高汤1200毫升", "1）各类干货提前泡发处理，鸡块和排骨焯水。2）食材分层装入炖盅，加绍兴酒和高汤。3）密封后隔水小火炖3小时，最后按咸度调味。", "47-fotiaoqiang.png", CN_HOME),
   c("腊味煲仔饭", "Claypot Rice with Chinese Sausage", "粤菜", "大米300克；广式腊肠2根；腊肉100克；青菜150克；姜丝10克；生抽20毫升；蚝油10克；糖3克；芝麻油5毫升", "1）大米浸30分钟，砂锅加水煮至表面见孔。2）铺腊肠、腊肉和姜丝，小火焖12分钟，沿锅边淋少量油。3）关火焖10分钟，放焯青菜，淋酱汁拌匀。", "48-lawei-baozai-fan.png"),
-  c("海南鸡饭", "Hainanese Chicken Rice", "海南/东南亚", "嫩鸡半只约700克；大米300克；鸡汤适量；姜蒜各20克；斑斓叶可选；黄瓜100克；辣椒姜蓉蘸料适量", "1）鸡以姜葱微沸浸煮至熟，冰镇斩件，鸡汤留用。2）鸡油炒香米和姜蒜，用鸡汤煮成饭。3）鸡肉配鸡油饭、黄瓜及辣椒姜蓉蘸料。", "49-hainan-jifan.png", CN_HOME),
-  c("担担面", "Dan Dan Noodles", "川菜", "鲜面条300克；猪肉末150克；芽菜50克；芝麻酱30克；辣椒油30毫升；生抽20毫升；香醋10毫升；花椒粉2克；青菜100克", "1）肉末炒酥，加芽菜炒香。2）碗中调入芝麻酱、辣椒油、生抽、醋、花椒粉和少量面汤。3）面条和青菜煮熟入碗，铺肉臊拌匀。", "50-dandan-mian.png"),
+  c("海南鸡饭", "Hainanese Chicken Rice", "海南/东南亚", "整鸡1只，约1500克（原文3—3又1/2磅/1.5千克，优先选带头脚的整鸡或有机鸡）；盐1汤匙（擦鸡用）；清水12—14杯（煮鸡用），另备适量用于清洗、淘米与冰浴；姜4—5片（煮鸡用）；整根葱2根（煮鸡用）；冰块适量（冰浴用）；鸡脂肪约56.7克（原文2盎司，从鸡腹内取出，炒饭用）；食用油1茶匙（炒饭用）；大蒜4瓣，切末（炒饭用）；生白米3美制杯，优先选茉莉香米，洗净沥干；煮鸡原汤适量（电饭锅路线加到内胆4杯刻度，普通锅路线用4杯）；盐2茶匙（鸡油饭用）；姜约10.2厘米长一块，粗切（姜蒜酱用）；大蒜2瓣（姜蒜酱用）；食用油3汤匙（姜蒜酱用）；盐1撮（姜蒜酱用，按口味调整）；煮鸡原汤少许（姜蒜酱太稠时调整用，可选）；清水1/4杯（甜酱油用）；冰糖约35.4克（原文1.25盎司，约2大块，或用白砂糖2又1/2汤匙，甜酱油用）；老抽1/4杯（甜酱油用）；新鲜红辣椒3个（选中等辣度，辣椒酱用）；姜约3.8厘米长一块（辣椒酱用）；大蒜2瓣（辣椒酱用）；芝麻油1/4茶匙（辣椒酱用）；盐1/2茶匙（辣椒酱用）；白糖1/4茶匙（辣椒酱用）；新鲜青柠汁15毫升（原文明示1汤匙/15毫升，约半个青柠的汁，辣椒酱用）；米醋1/2茶匙（或白醋，辣椒酱用）；煮鸡原汤约2汤匙（辣椒酱用，按所需稠度调整）；盐适量（配餐鸡汤调味，可选）；味精1撮（配餐鸡汤调味，可选）", "1）将整鸡洗净，取出并留好鸡腹后部的脂肪。将鸡移到盘中，用厨房纸擦干，以1汤匙盐轻轻擦遍鸡身，放在一旁备用。2）大汤锅中加入12—14杯清水、4—5片姜和2根整葱，烧至沸腾。3）小心将整鸡放入沸水中，鸡胸朝上；调整水位，使鸡胸刚刚露出水面，避免白肉煮得干柴。4）水再次烧开时，小心提起整鸡，倒出鸡腹内滞留的较冷水，再将鸡放回锅中。5）再次加热至水刚开始沸腾，立即调低火力，盖上锅盖，以接近最低的火力保持极轻微的微沸：水应稍有动静，不能完全静止，也不要大滚。煮约30—35分钟，原文估计每磅约10—11分钟，实际依鸡的大小增减；超过3又1/2磅的鸡可能需约40—50分钟。期间可检查微沸状态，但尽量避免揭盖。6）鸡将煮好时准备一大盆冰水。将牙签插入鸡腿最厚处直至触骨，按原文以流出清澈汁水判断熟度。7）确认鸡煮熟后，小心提起，沥去鸡腹内的水，放入冰水中，不要弄破鸡皮。8）冰浴15分钟，至整鸡完全冷却后充分沥干，盖上透明保鲜膜，留待切块上桌。9）喜欢更浓的鸡汤时，可让锅中煮鸡原汤不加盖继续微沸收浓，留作煮饭。10）鸡冷却时做鸡油饭：炒锅或大平底锅置中火，加入留好的约56.7克鸡脂肪和1茶匙食用油，煸1—2分钟，或至析出约1汤匙鸡油。11）加入4瓣切末的大蒜，短暂炒香，注意不要炒焦。12）加入洗净沥干的3美制杯生白米，持续翻炒约2分钟。13）关火。接下来电饭锅路线（第十四至十五步）与普通锅路线（第十六至十七步）二选一，不要先用电饭锅煮完再放到普通锅中煮。14）电饭锅路线：将炒好的米盛入电饭锅，剩余的鸡脂肪块可留在炒锅中，也可一起加入米中。15）电饭锅路线：加入煮鸡原汤至内胆的4杯刻度，拌入2茶匙盐，盖上锅盖并启动煮饭。原文3美制杯生米等于4电饭锅量杯，1电饭锅量杯等于3/4美制杯；米饭煮好后直接制作或完成三款酱汁。喜欢多做饭时，原文可用4美制杯生米，蒜量不变，并将鸡汤加到内胆5杯刻度。16）普通锅路线：将炒好的米转入中号或大号锅，加入4杯煮鸡原汤和2茶匙盐，快速拌匀，浸泡20分钟。17）普通锅路线：盖上锅盖，烧开后立即转最低火力，加盖煮15分钟，至液体被米吸收、米粒软熟；留意火候以免煮焦。18）煮饭或煮鸡期间可准备三款酱汁。先做姜蒜酱：用料理机将约10.2厘米长、粗切的姜和2瓣大蒜打成细末。19）小锅中加热3汤匙食用油，放入姜蒜末，轻轻煎炒至出香、略微焦糖化，刚好熟透、没有生姜和生蒜的辛辣生味即可。20）加入1撮盐并按口味调整，盛入酱碟。若姜蒜酱炒得太久、稠得像膏，立即离火，加入少许热的煮鸡原汤搅拌，调回酱汁稠度。21）做甜酱油：小锅中加入1/4杯清水和约35.4克冰糖（或2又1/2汤匙白砂糖），以中火加热，不断搅拌，至糖溶化、液体变稠成为糖浆。22）加入1/4杯老抽，搅拌均匀，盛入酱碟。23）做辣椒酱：将3个鲜红辣椒、约3.8厘米长的姜和2瓣大蒜放入料理机打碎，期间将杯壁食材刮下1—2次，使质地均匀；也可用研钵和杵研磨。24）加入1/4茶匙芝麻油、1/2茶匙盐、1/4茶匙白糖、15毫升新鲜青柠汁和1/2茶匙米醋或白醋，点动2—3次拌匀。25）将辣椒酱转入小碗，每次加入1汤匙煮鸡原汤，调至喜欢的酱汁稠度，原文配料约用2汤匙；喜欢较稠的酱时少加汤。26）将冷却的整鸡切块。27）鸡肉配鸡油饭和姜蒜酱、甜酱油、辣椒酱上桌。也可配一碗加热的煮鸡原汤，以适量盐调味，并可加1撮味精。", "49-hainan-jifan.png", "https://thewoksoflife.com/hainanese-chicken-rice/", {
+  "sourceName": "The Woks of Life",
+  "recipePageUrl": "https://thewoksoflife.com/hainanese-chicken-rice/",
+  "mediaPageUrl": "https://thewoksoflife.com/hainanese-chicken-rice/",
+  "author": "Judy",
+  "rightsNotice": "All Rights Reserved © The Woks of Life",
+  "reuseLicense": null,
+  "repositoryCopyAuthorization": "user_confirmed_2026-10-08_remaining44",
+  "hero": {
+    "path": "assets/dishes/sources/cn-039-woks/hero.jpg",
+    "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/hainan-chicken-rice-7.jpg",
+    "sha256": "27cdcd6bda90b3816943311bbfa1c2201a7247fcbf3329e9a1429665aee30439",
+    "httpStatus": 200,
+    "contentType": "image/webp"
+  },
+  "steps": [
+    {
+      "stepOrder": 1,
+      "sourceStepOrder": 1,
+      "path": "assets/dishes/sources/cn-039-woks/step-1-1.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-3.jpg",
+      "sha256": "f6d856153f95e03a10dccd48f7635b250f172f81e4d1f4c16b3b55e91161d720",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 2,
+      "sourceStepOrder": 2,
+      "path": "assets/dishes/sources/cn-039-woks/step-2-2.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-4.jpg",
+      "sha256": "ca1968116aea5f7c1f15df25a48176ade4c56852f5aebd898ed670fc7fbc1c0e",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 3,
+      "sourceStepOrder": 2,
+      "path": "assets/dishes/sources/cn-039-woks/step-2-3.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-5.jpg",
+      "sha256": "79d5a78d0e05a5e1edfe17d9774492b4e78c4d5fe192481e85228c9eea8af230",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 4,
+      "sourceStepOrder": 3,
+      "path": "assets/dishes/sources/cn-039-woks/step-3-4.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-6.jpg",
+      "sha256": "c02291d088351434865c6e48b48ed935c404f13b441e531b4af5e9580729eee0",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 6,
+      "sourceStepOrder": 5,
+      "path": "assets/dishes/sources/cn-039-woks/step-5-5.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-14.jpg",
+      "sha256": "ef709ee8778cdabb7873aa53ba786fef80b36fdb7b205004635a54b38b8654fc",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 7,
+      "sourceStepOrder": 5,
+      "path": "assets/dishes/sources/cn-039-woks/step-5-6.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-21.jpg",
+      "sha256": "e71200279f9f109368ecda120f2606d9dbd88bfaec5291e4b87931df3511a8e6",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 8,
+      "sourceStepOrder": 5,
+      "path": "assets/dishes/sources/cn-039-woks/step-5-7.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-22.jpg",
+      "sha256": "730842d712d821c1354fc07db221e70f522b9e0f0a94034a01ccef86857bc277",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 10,
+      "sourceStepOrder": 7,
+      "path": "assets/dishes/sources/cn-039-woks/step-7-8.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-17.jpg",
+      "sha256": "ed5585edf203b7f7ea6598be10eecc3e81a213eb19f585baa6d1accfd2cabcc5",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 11,
+      "sourceStepOrder": 7,
+      "path": "assets/dishes/sources/cn-039-woks/step-7-9.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-18.jpg",
+      "sha256": "c4d8ac24735e9b4837559c9f98604d249e19f65cf863f207ab8ab26c9b5dba04",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 12,
+      "sourceStepOrder": 7,
+      "path": "assets/dishes/sources/cn-039-woks/step-7-10.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/hainan-chicken-rice-3.jpg",
+      "sha256": "77805f04502e5ce08d869a93f5d903a11d1b106218e45a815ee10833035db937",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 14,
+      "sourceStepOrder": 8,
+      "path": "assets/dishes/sources/cn-039-woks/step-8-12.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-19.jpg",
+      "sha256": "3e554d90f4a7b7b27e88e98430d6bb042dfb748cf2338f0725d6202a23542afe",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 15,
+      "sourceStepOrder": 8,
+      "path": "assets/dishes/sources/cn-039-woks/step-8-13.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-20.jpg",
+      "sha256": "7695753f9c1926c5960a3a13c1021a470930f1381491a164adb21aaf328c5bb2",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 18,
+      "sourceStepOrder": 10,
+      "path": "assets/dishes/sources/cn-039-woks/step-10-15.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-7.jpg",
+      "sha256": "c2bd8ea73a7fa704dc9176224e9378b168a2fa5981012c9813c86e3d8d7c7778",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 19,
+      "sourceStepOrder": 10,
+      "path": "assets/dishes/sources/cn-039-woks/step-10-17.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-13.jpg",
+      "sha256": "eee1757d24c1b78483ff5c4404ab80207bbbb27c0f5d1794e2d6b456b99759bd",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 21,
+      "sourceStepOrder": 11,
+      "path": "assets/dishes/sources/cn-039-woks/step-11-18.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-15.jpg",
+      "sha256": "54496d5fb92ddfa8a9021eebe46c87dbcc92eafb0d8e75510bf4232fbe3176ba",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 22,
+      "sourceStepOrder": 11,
+      "path": "assets/dishes/sources/cn-039-woks/step-11-19.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-16.jpg",
+      "sha256": "c6a8d8143a600cfe1a866eba5b76b17a96f31be574dec8cebcc713b52abe636e",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 23,
+      "sourceStepOrder": 12,
+      "path": "assets/dishes/sources/cn-039-woks/step-12-20.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-10.jpg",
+      "sha256": "a462925d259047a395481a29f34c02a8935bcad399bd8f488993edaac35afb81",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 24,
+      "sourceStepOrder": 12,
+      "path": "assets/dishes/sources/cn-039-woks/step-12-21.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-11.jpg",
+      "sha256": "aea31e0ceabdf609f83983aa13c32617fb3ed3a007284acbd848c253d19a570b",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 26,
+      "sourceStepOrder": 14,
+      "path": "assets/dishes/sources/cn-039-woks/step-13-24.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/how-to-carve-whole-chicken-chinese-6.jpg",
+      "sha256": "23833880579e60308cbe827f0feeae031358990f9718681e8cf03f7b6d42d53f",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 27,
+      "sourceStepOrder": 14,
+      "path": "assets/dishes/sources/cn-039-woks/step-13-25.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/10/whole-poached-chicken-carved.jpg",
+      "sha256": "451227e4179db0c1af13e5b1f5dfbfb71d861bcf07ab23de65c3b22be01dd5e9",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    }
+  ]
+}, {
+  "totalMinutes": 155,
+  "prepMinutes": 30,
+  "cookMinutes": 150,
+  "stepDurations": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    900,
+    null,
+    null,
+    null,
+    120,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}, 6, {
+  "sourceLimitations": [
+    "原文标准备30分钟、烹饪150分钟、总时间155分钟，三项数值存在不一致，此处分别保留，不自行重算。",
+    "炒饭食用油在原料表和正文均为1茶匙，但配方卡步骤写1/2茶匙；此处采用原料表与正文的1茶匙，不另补油。姜蒜酱蒜量在配方卡原料表为2瓣、正文列表为1瓣，此处采用配方卡的2瓣。",
+    "除原文明示青柠汁1汤匙等于15毫升及电饭锅量杯与美制杯的关系外，不为杯、汤匙或茶匙假设容量；冰水、洗米用水及部分鸡汤用量由用途决定，原文未量化。",
+    "原文以鸡腿流出清澈汁水判断熟度，未给内部温度；煮鸡时长为范围，普通锅与电饭锅路线为替代工艺，不相加。"
+  ]
+}),
+  c("担担面", "Dan Dan Noodles", "川菜", "花椒粒2汤匙（辣椒油用）；桂皮1段，约2.5厘米长（辣椒油用）；八角2个（辣椒油用）；食用油1杯（辣椒油用）；红辣椒碎1/4杯（辣椒油用，也可将整根干红辣椒去籽后打碎取用）；食用油3茶匙（炒肉末及芽菜用，分1茶匙与2茶匙使用）；猪肉末约227克（原文8盎司）；甜面酱2茶匙（或海鲜酱）；绍兴酒2茶匙；老抽1茶匙；五香粉1/2茶匙（肉末用）；碎米芽菜1/3杯；芝麻酱2汤匙（原文sesame paste/tahini，碗汁用）；酱油3汤匙（碗汁用）；白糖2茶匙（碗汁用）；五香粉1/4茶匙（碗汁用）；花椒粉1/2茶匙（碗汁用，可按口味另加少许）；自制辣椒油1/2杯（取自本配方制成的辣椒油，碗汁用）；大蒜2瓣，切极细末（碗汁用）；热煮面水1/4杯（碗汁用），另备少许按需调稀；中等粗细白面条约454克（原文1磅，鲜面或干面均可）；绿叶菜1小把（菠菜、小白菜或菜心）；花生碎适量（可选，原文未给用量）；葱花适量（可选，原文未给用量）；清水适量（煮面与焯青菜用，原文未给用量）", "1）先做辣椒油：小锅中加入2汤匙花椒粒、1段约2.5厘米长的桂皮、2个八角和1杯食用油，以中小火缓慢加热至约163℃（原文325℉），然后关火。2）关火后等待6—7分钟，用漏勺捞出花椒、桂皮和八角。3）加入1/4杯红辣椒碎，让辣椒碎在热油中浸出香味，应闻到近似爆米花的香气。喜欢较温和辣味时，原文可将整根干红辣椒去籽后，用料理机打成碎片，按同样用量做辣椒油。4）让辣椒油冷却。本配方会做出多于拌面所需的辣椒油，取其中1/2杯用于碗汁，剩余部分可装玻璃罐冷藏，留作其他菜使用。5）做肉末：炒锅置中火，加热1茶匙食用油，加入约227克猪肉末，炒至上色。6）加入2茶匙甜面酱或海鲜酱、2茶匙绍兴酒、1茶匙老抽和1/2茶匙五香粉，炒至锅中液体全部蒸发，盛出备用。7）炒锅中加入剩余2茶匙食用油，以中火加热，加入1/3杯碎米芽菜，炒几分钟后盛出备用。8）做碗汁：将2汤匙芝麻酱、3汤匙酱油、2茶匙白糖、1/4茶匙五香粉、1/2茶匙花椒粉、1/2杯自制辣椒油和2瓣切极细末的大蒜混合；热煮面水待下一阶段取得后再加。花椒粉可用整粒花椒在研钵中磨成。9）按面条包装说明，用清水将约454克白面条煮熟并沥干；留好热煮面水，供调碗汁和焯青菜使用。鲜面条或干面条都可使用。10）用煮面水将绿叶菜焯熟，捞出沥干。11）向第八步的碗汁加入1/4杯热煮面水，混合均匀。尝味后按喜好调整，可再加少许热水调稀，或再加少许花椒粉。12）将碗汁分到6个碗中；若想每份更大，原文也可分成4碗。13）各碗加入煮熟沥干的面条。14）在面条上放入焯好沥干的绿叶菜。15）上面铺炒好的猪肉末和碎米芽菜。16）按喜好撒适量花生碎和葱花。17）将面条、碗汁、青菜和肉末芽菜拌匀后食用。", "50-dandan-mian.png", "https://thewoksoflife.com/dan-dan-noodles/", {
+  "sourceName": "The Woks of Life",
+  "recipePageUrl": "https://thewoksoflife.com/dan-dan-noodles/",
+  "mediaPageUrl": "https://thewoksoflife.com/dan-dan-noodles/",
+  "author": "Judy",
+  "rightsNotice": "All Rights Reserved © The Woks of Life",
+  "reuseLicense": null,
+  "repositoryCopyAuthorization": "user_confirmed_2026-10-08_remaining44",
+  "hero": {
+    "path": "assets/dishes/sources/cn-040-woks/hero.jpg",
+    "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-12.jpg",
+    "sha256": "89bb97be22ff4a39645c25e2a6b96edd1f12e4cac71095a7bdc859667b2bcbce",
+    "httpStatus": 200,
+    "contentType": "image/webp"
+  },
+  "steps": [
+    {
+      "stepOrder": 1,
+      "sourceStepOrder": 1,
+      "path": "assets/dishes/sources/cn-040-woks/step-2-3.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-5.jpg",
+      "sha256": "43283d928fc98adc04d4e6fc381495ea41bf06ac83d852a4d07a9dd568a7d989",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 3,
+      "sourceStepOrder": 1,
+      "path": "assets/dishes/sources/cn-040-woks/step-1-1.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2020/07/chili-oil-recipe-17.jpg",
+      "sha256": "cc5a1cae7ff0258df5add806c80b2ca4bf72512ac13b675674bbfe704742a50d",
+      "httpStatus": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "stepOrder": 5,
+      "sourceStepOrder": 2,
+      "path": "assets/dishes/sources/cn-040-woks/step-3-5.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-3.jpg",
+      "sha256": "a16cd55c34c45b0170c208cdbf0e6783d8a1787a74248f775487d0dd9e9a8f30",
+      "httpStatus": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "stepOrder": 7,
+      "sourceStepOrder": 2,
+      "path": "assets/dishes/sources/cn-040-woks/step-3-6.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-1.jpg",
+      "sha256": "b547579c5de7855b80ddfa79c68415d33e0e17141ae755aa41aa18170fbce3d1",
+      "httpStatus": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "stepOrder": 11,
+      "sourceStepOrder": 3,
+      "path": "assets/dishes/sources/cn-040-woks/step-4-7.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-7.jpg",
+      "sha256": "a348208c8254381eb6176c9a76a3cf99a9b76e871004580b30544db916b1f44d",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 13,
+      "sourceStepOrder": 5,
+      "path": "assets/dishes/sources/cn-040-woks/step-5-8.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-8.jpg",
+      "sha256": "e581fb8401e196c220779dac71e2e8626fece5f2740afda673274356d9d45fc2",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 14,
+      "sourceStepOrder": 5,
+      "path": "assets/dishes/sources/cn-040-woks/step-5-9.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-9.jpg",
+      "sha256": "3975048e96a476949faaca35d722ce63fe8ecca4ef93e7ac1c25c0acc7dc853b",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 15,
+      "sourceStepOrder": 5,
+      "path": "assets/dishes/sources/cn-040-woks/step-5-10.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-10.jpg",
+      "sha256": "e0bb6d5d81d3ebaeba5d890ed14c4af831eab9e51d6472f1feb9f888611a5b39",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 16,
+      "sourceStepOrder": 5,
+      "path": "assets/dishes/sources/cn-040-woks/step-5-12.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-11.jpg",
+      "sha256": "bba0b95611dcf7b9143fa587f0f54032ba71c0027822d8ed253072b735974224",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 17,
+      "sourceStepOrder": 6,
+      "path": "assets/dishes/sources/cn-040-woks/step-6-14.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-13.jpg",
+      "sha256": "0b03bf94c7e188ece6a36d66adfab48016545e71a9b33e0b5ec5fae1772d130e",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    }
+  ]
+}, {
+  "totalMinutes": 90,
+  "cookMinutes": 90,
+  "stepDurations": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}, 6, {
+  "sourceLimitations": [
+    "原文未规定杯、汤匙和茶匙容量，保留原单位，不换算毫升；煮面、焯菜用水和可选花生碎、葱花未量化，保留适量。",
+    "来源标为6份，也允许分为4大碗；此处份数按来源默认6份。制成辣椒油有剩余，碗汁仅取其中1/2杯，不将全部辣椒油倒入面中。",
+    "桂皮原料卡列1段，正文明确约1英寸长，换算约2.5厘米；油温原文325华氏度，换算约163摄氏度。等待6—7分钟为范围，不生成固定倒计时。"
+  ]
+}),
   c("炸酱面", "Beijing Zhajiang Noodles", "京菜", "鲜面条300克；五花肉丁180克；干黄酱50克；甜面酱30克；葱姜适量；黄瓜和豆芽等菜码200克", "1）黄酱以水调开，与甜面酱混合。2）炒香肉丁和葱姜，倒酱小火炸10分钟至油酱分离。3）面条煮熟，放菜码和炸酱拌食。", "51-zhajiang-mian.png"),
   c("热干面", "Wuhan Hot Dry Noodles", "湖北", "碱水面300克；芝麻酱50克；芝麻油15毫升；生抽15毫升；香醋8毫升；萝卜丁30克；葱花和辣椒油适量", "1）碱水面煮至八成熟，拌少量油摊凉。2）食用时复烫30秒沥干。3）加入调稀的芝麻酱、生抽、醋、萝卜丁、葱花和辣椒油，趁热拌匀。", "52-regan-mian.png", CN_HOME),
   c("重庆小面", "Chongqing Spicy Noodles", "重庆", "鲜面条300克；青菜100克；辣椒油30毫升；生抽20毫升；香醋10毫升；花椒粉2克；蒜水20毫升；猪油5克；花生碎适量", "1）碗中放辣椒油、生抽、醋、花椒粉、蒜水和猪油，冲入热汤。2）面条和青菜煮熟。3）捞入调料碗，撒花生碎和葱花。", "53-chongqing-xiaomian.png", CN_HOME),
-  c("小笼包", "Soup Dumplings", "江南", "中筋面粉250克；温水130毫升；猪肉馅300克；皮冻180克；葱姜水80毫升；生抽15毫升；糖5克；盐4克", "1）面粉加水揉成光滑面团，醒30分钟。2）肉馅分次打入葱姜水调味，拌入切碎皮冻。3）擀薄皮包馅捏褶，水开大火蒸8分钟。", "54-xiaolongbao.png", CN_HOME),
+  c("小笼包", "Soup Dumplings", "江南", "猪皮225克，切约2.5厘米条（皮冻用，原文明示公制量）；带肉猪颈骨450克（皮冻用，原文明示公制量）；清水950毫升（皮冻用，原文明示4杯/950毫升），另备适量用于焯洗、蒸制和可选调稀蘸醋；姜2片（皮冻用）；葱1根，切3段（皮冻用）；绍兴酒1汤匙（皮冻用，或干雪莉料酒）；中筋面粉130克（面团用，原文明示1杯/130克），另备少许撒案板防粘；温水90毫升（面团用，原文明示6汤匙/90毫升）；猪肉末450克（原文明示公制量，七成瘦、三成肥）；绍兴酒2汤匙（肉馅用，或干雪莉料酒）；盐3/4茶匙（肉馅用）；芝麻油1/2茶匙（肉馅用）；白糖3/4茶匙（肉馅用）；酱油3茶匙（肉馅用）；清水3汤匙（肉馅用）；白胡椒粉1/8茶匙（肉馅用）；姜末1汤匙（肉馅用）；自制皮冻1满杯，切约1厘米丁（取自本配方制成的皮冻，肉馅用）；中国黑醋适量（蘸食用）；鲜姜丝适量（蘸食用，切极细丝）；大白菜叶适量（可选垫蒸笼，也可用纱布或蒸笼垫片）；食用油少许（选择蒸笼垫片时刷垫片用）；生抽少许（可选拌煮皮冻后剩余骨肉用）", "1）先做皮冻：将225克猪皮切成约2.5厘米条，备好450克带肉猪颈骨，姜2片、葱1根切成3段。2）小锅放入猪皮和猪骨，加冷水没过食材；烧至大滚后立即倒掉水，将猪皮和骨头冲洗干净，并将锅冲洗干净，以去除杂质。3）将猪皮和骨头重新放回锅中，加950毫升清水、2片姜、3段葱和1汤匙绍兴酒或干雪莉料酒。烧开后转小火，盖上锅盖微沸炖2小时。4）炖满2小时后关火，待汤稍凉，将液体滤入碗中。锅中剩余骨肉可丢弃，或按原文淋少许生抽另行食用。5）等滤出的汤完全冷却后，盖好并冷藏过夜，使其凝成皮冻。6）做面团：碗中放130克中筋面粉，将90毫升温水分次加入，每次加1汤匙，边加边和面；揉15—20分钟，至面团非常柔软、光滑。7）用布盖好面团，静置30分钟。原文不建议用市售饺子皮代替，其柔韧性和弹性不够。8）做肉馅：将450克七成瘦、三成肥的猪肉末放入料理机，点动30—60秒，至呈肉泥状。9）将肉泥放入碗中，加入2汤匙绍兴酒或干雪莉料酒、3/4茶匙盐、1/2茶匙芝麻油、3/4茶匙白糖、3茶匙酱油、3汤匙清水、1/8茶匙白胡椒粉和1汤匙姜末。用筷子充分搅打约2分钟，至所有材料极均匀地混合、肉馅呈轻盈的糊状。10）取自制皮冻1满杯，切约1厘米丁，轻轻拌入肉馅，不要过度搅拌。11）将肉馅盖好，冷藏至准备包制。若马上开始包，可先冷冻15分钟，使馅稍变硬、便于操作。12）干净案板上撒少许面粉，将面团搓成直径约2.5厘米的长条，切成大小一致、每个约11克的小剂子。13）将每个剂子擀成薄圆皮，直径约8厘米；面团和面皮随时用湿布盖住，防止变干。14）准备竹蒸笼，可铺纱布、大白菜叶或蒸笼垫片；选用垫片时，先刷少许食用油。15）取出肉馅，每次包一个：在一张面皮中央放约1汤匙馅。16）沿边捏褶并收紧封口，配方卡建议12—20个褶；捏褶时不断用拇指将馅往面皮形成的小袋中推。顶部必须封严。若馅太湿、不易操作，可再冷冻15分钟后继续包。17）将包好的小笼包放入铺好衬垫的蒸笼，相邻间隔约5厘米。18）在金属蒸锅或炒锅中烧水。若使用炒锅，放上竹蒸笼后，水位应上升至竹底边缘约1.3厘米处，绝不能接触包子；也不要加水太少，以免蒸干而烧坏竹蒸笼。19）水烧开后放上竹蒸笼，盖好竹笼盖，以大火蒸8分钟，随即将蒸笼移离锅，上桌食用。20）蘸料用中国黑醋，倒入小碟，加入极细姜丝；也可加一点点清水调得温和些。按原文，此处不用酱油作蘸料。21）用筷子小心、缓慢地将小笼包与笼底分开，蘸少许姜丝醋。22）轻轻将小笼包移到中式汤勺上，托稳包子。23）在包子侧面轻咬一个小孔，留意汤汁很烫，小心吸出汤汁，再蘸少许醋，将包子吃下。本配方约做18—20个，来源默认6份，每份约3个。24）提前准备时，肉馅可提前最多1天做好并冷藏，待要包时再取出。原文建议现包现蒸，薄皮在冷冻过程中可能产生弱处，蒸时易破。25）若选择冷冻保存，将包子放在铺烘焙纸的烤盘上，彼此间隔约1.3厘米、互不接触；盖好保鲜膜或干净塑料袋，烤盘保持水平放入冷冻室，冷冻过夜至完全冻硬。26）第二天将冻硬的包子转入密闭容器保存。27）选择冷冻包子时，不需提前解冻，直接放入蒸笼，将大火蒸制时间延长为10分钟；这条路线替代鲜包子的8分钟蒸制，不连续叠加。", "54-xiaolongbao.png", "https://thewoksoflife.com/steamed-shanghai-soup-dumplings-xiaolongbao/", {
+  "sourceName": "The Woks of Life",
+  "recipePageUrl": "https://thewoksoflife.com/steamed-shanghai-soup-dumplings-xiaolongbao/",
+  "mediaPageUrl": "https://thewoksoflife.com/steamed-shanghai-soup-dumplings-xiaolongbao/",
+  "author": "Judy",
+  "rightsNotice": "All Rights Reserved © The Woks of Life",
+  "reuseLicense": null,
+  "repositoryCopyAuthorization": "user_confirmed_2026-10-08_remaining44",
+  "hero": {
+    "path": "assets/dishes/sources/cn-044-woks/hero.jpg",
+    "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/08/shanghai-soup-dumpling-12.jpg",
+    "sha256": "5842046aa7f07c672471fe003829d37f6b0ae08fcb91b8c9db4245f00ebc4c8f",
+    "httpStatus": 200,
+    "contentType": "image/webp"
+  },
+  "steps": [
+    {
+      "stepOrder": 5,
+      "sourceStepOrder": 2,
+      "path": "assets/dishes/sources/cn-044-woks/step-2-1.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/08/shanghai-soup-dumpling-08.jpg",
+      "sha256": "5a24daa9b0fb7dd010afb20cd2eb6e6973807d9b7c5d9a2b4ffb204ca51c4477",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 9,
+      "sourceStepOrder": 4,
+      "path": "assets/dishes/sources/cn-044-woks/step-4-2.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/08/shanghai-soup-dumpling-07.jpg",
+      "sha256": "249c65ce5cd8e10a1a3bbff836397f7f1c29a5f186d12ec531764b9f41a46999",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 10,
+      "sourceStepOrder": 4,
+      "path": "assets/dishes/sources/cn-044-woks/step-4-3.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/08/shanghai-soup-dumpling-09.jpg",
+      "sha256": "3e5e2e338c0ea68072399db6dd9dc44120cb4e7c3271fdb118c05f0f7d200680",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 12,
+      "sourceStepOrder": 5,
+      "path": "assets/dishes/sources/cn-044-woks/step-5-4.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/08/shanghai-soup-dumpling-10.jpg",
+      "sha256": "45f5a5cc642d07c491abbf4ddedf4f6af4555c05fe286eca90a6f93d3fdf03cf",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 16,
+      "sourceStepOrder": 7,
+      "path": "assets/dishes/sources/cn-044-woks/step-7-5.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/08/shanghai-soup-dumpling-01.jpg",
+      "sha256": "06d91687da324a3a572f09c2a14c42de3c1e283a3266d2f519936c69b2e7434e",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 15,
+      "sourceStepOrder": 7,
+      "path": "assets/dishes/sources/cn-044-woks/step-7-7.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/08/shanghai-soup-dumpling-02.jpg",
+      "sha256": "b3b591fbce90d033837dd6f0ded4ec9c3db00d08c1267d300ba5fdfcd7693ed0",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 17,
+      "sourceStepOrder": 8,
+      "path": "assets/dishes/sources/cn-044-woks/step-8-8.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/08/shanghai-soup-dumpling-03.jpg",
+      "sha256": "6a2dd6f777b86a65670dc8f7e5459a10e8ff30822927b0fee152513d011bc9d7",
+      "httpStatus": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "stepOrder": 19,
+      "sourceStepOrder": 10,
+      "path": "assets/dishes/sources/cn-044-woks/step-10-9.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/09/soup-dumpling-recipe-7.jpg",
+      "sha256": "295d444ab3e56ddb28c30364b01d89a726359cfdfee9c38ada81be835f2296ab",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 21,
+      "sourceStepOrder": 13,
+      "path": "assets/dishes/sources/cn-044-woks/step-13-10.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/08/shanghai-soup-dumpling-05.jpg",
+      "sha256": "4e2a95fa73ea23c4bde4e80ffdce4b12a46c777dff8b657323fa6e83ff792e82",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    }
+  ]
+}, {
+  "totalMinutes": 1470,
+  "prepMinutes": 1440,
+  "cookMinutes": 30,
+  "stepDurations": [
+    null,
+    null,
+    7200,
+    null,
+    null,
+    null,
+    1800,
+    null,
+    120,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    480,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}, 6, {
+  "sourceLimitations": [
+    "来源标准备1天、烹饪30分钟、总时间1天30分钟，但另要求皮冻小火炖2小时及冷藏过夜；分别保留来源数值，不自行重算总时间或推测冷藏时长。",
+    "面粉130克、温水90毫升、皮冻汤水950毫升和猪皮225克、猪骨及肉末450克均为正文明确公制数值；其他杯匙未统一定义容量，不外推公制。",
+    "白胡椒粉配方卡列1/8茶匙、正文列1撮，此处采用配方卡；包子褶数配方卡为12—20、正文为12—18，此处保留配方卡范围。皮冻丁配方卡同时写1/2英寸与1厘米，此处保留其公制1厘米。",
+    "正文另列可选吉利丁粉1包（2又1/2茶匙）以帮助皮冻凝固，但未说明添加操作；本版采用骨皮自身凝固的原配方，不加入吉利丁粉，也不补写添加方法。",
+    "焯洗、蒸制用水、垫笼白菜叶和刷垫片用油等未给定量，按用途保留适量或少许；冷冻包子10分钟蒸制与鲜包子8分钟为替代路线。"
+  ]
+}),
   c("韭菜猪肉饺子", "Pork and Chive Dumplings", "北方家常", "饺子皮40张；猪肉馅400克；韭菜300克；葱姜水80毫升；生抽20毫升；芝麻油10毫升；盐5克", "1）肉馅分次搅入葱姜水、生抽和盐至上劲。2）韭菜切末拌芝麻油，再与肉馅混合。3）包入饺子皮，沸水下锅，点水两次煮至鼓起熟透。", "55-jiucai-zhurou-jiaozi.png"),
   c("馄饨", "Pork Wontons", "江南家常", "馄饨皮30张；猪肉馅250克；虾仁100克；葱姜水60毫升；生抽15毫升；紫菜5克；虾皮10克；高汤700毫升", "1）肉馅与虾仁碎调味，分次搅入葱姜水。2）包成馄饨，沸水煮至浮起后再煮2分钟。3）碗中放紫菜虾皮，冲高汤，捞入馄饨。", "76-huntun.png"),
   c("葱油拌面", "Scallion Oil Noodles", "上海", "鲜面条300克；小葱120克；食用油80毫升；生抽35毫升；老抽8毫升；糖15克", "1）葱切段擦干，冷油下锅小火炸至焦黄捞出。2）油中加生抽、老抽和糖，小火煮至起泡。3）面条煮熟沥干，拌葱油汁并放回酥葱。", "77-congyou-ban-mian.png"),
   c("炒河粉", "Beef Chow Fun", "粤菜", "鲜河粉400克；牛肉180克；豆芽150克；韭黄80克；生抽20毫升；老抽8毫升；蚝油10克；淀粉5克", "1）牛肉切片用生抽和淀粉腌10分钟，滑炒至七成熟盛出。2）大火把河粉煎炒出香气。3）加牛肉、豆芽、韭黄和调味料，快速翻匀避免碎断。", "78-chao-hefen.png"),
   c("肉夹馍", "Roujiamo", "陕西", "白吉馍4个；带皮猪肉600克；冰糖20克；生抽30毫升；料酒30毫升；八角桂皮香叶适量；青椒可选", "1）猪肉焯水，与香料、酱油、冰糖和热水小火卤90分钟。2）肉剁碎并拌少量卤汁。3）白吉馍烤热剖开，夹入肉末和可选青椒。", "79-roujiamo.png", CN_HOME),
   c("煎饼果子", "Jianbing Guozi", "天津", "绿豆面100克；中筋面粉50克；水260毫升；鸡蛋4个；薄脆4片；甜面酱30克；葱花香菜适量；芝麻和辣酱适量", "1）两种面粉加水调成流动面糊。2）薄摊在平底锅，打蛋摊开，撒芝麻葱香菜后翻面。3）刷酱，放薄脆折起即可。", "80-jianbing-guozi.png", CN_HOME),
-  c("叉烧", "Cantonese Char Siu", "粤菜", "梅花肉600克；叉烧酱60克；生抽20毫升；蜂蜜25克；料酒15毫升；蒜末10克", "1）猪肉切粗条，以叉烧酱、生抽、料酒和蒜末冷藏腌一夜。2）200℃烤30–35分钟，中途翻面并刷腌汁。3）最后刷蜂蜜，升温烤至焦亮，静置后切片。", "81-chashao.png"),
+  c("叉烧", "Cantonese Char Siu", "粤菜", "去骨猪肩肉约1361克（原文3磅，选带适当脂肪的）；白砂糖1/4杯；盐2茶匙；五香粉1/2茶匙；白胡椒粉1/4茶匙；芝麻油1/2茶匙；绍兴酒1汤匙（可选，或干雪莉料酒）；酱油1汤匙；海鲜酱1汤匙；糖蜜2茶匙；红色食用色素1/8茶匙（可选）；大蒜3瓣，切极细末；麦芽糖或蜂蜜2汤匙（刷酱用）；热水1汤匙（刷酱用）；清水1又1/2杯（烤盘用），另备1杯（烤盘干时添加）；熟白米饭或糙米饭适量（可选配食，原文未给用量）；绿叶菜适量（可选配食，原文未给用量）", "1）将去骨猪肩肉切成长条或大块，厚约5.1—7.6厘米。不要切去多余脂肪，烤制时脂肪会析出并增加风味。2）碗中混合1/4杯白砂糖、2茶匙盐、1/2茶匙五香粉、1/4茶匙白胡椒粉、1/2茶匙芝麻油、可选的1汤匙绍兴酒或干雪莉料酒、1汤匙酱油、1汤匙海鲜酱、2茶匙糖蜜、可选的1/8茶匙红色食用色素和3瓣蒜末，调成腌酱。3）先留出约2汤匙未接触生肉的腌酱，单独放好。将猪肉放在大碗或烤盘中，用剩余腌酱涂抹均匀。4）将猪肉盖好，冷藏过夜，或至少8小时；留出的腌酱也盖好并冷藏。5）将烤箱架放在烤箱上方三分之一处，以普通烘烤模式预热至246℃（原文475℉）。若只有热风烤箱，它预热和烤熟都会更快；可用烤箱温度计复核实际温度。全程每10分钟检查一次叉烧，根据状态调整温度。6）烤盘铺锡纸，上面架金属烤架，让肉离开盘底。将肉放在烤架上，肉块间尽量留出空隙；在下方烤盘倒入1又1/2杯清水，避免滴下的汁液焦煳或冒烟。7）将猪肉送入预热好的烤箱，开始第一阶段共25分钟的烤制：前10分钟保持246℃，随后降至190℃（原文375℉），继续烤到本阶段满25分钟。8）第一阶段烤满25分钟后，将猪肉翻面，烤盘转180度，以便受热均匀；若盘底干了，再加1杯清水。再烤15分钟。继续每10分钟查看一次，若有烤焦迹象则调低温度。9）烤肉期间做刷酱：将预留的约2汤匙腌酱、2汤匙麦芽糖或蜂蜜及1汤匙热水混匀。麦芽糖很黏，可先用微波炉加热，使其容易拌开。10）累计烤40分钟后，在猪肉朝上的一面刷酱。11）将猪肉翻面，另一面也刷酱。12）将刷好两面的猪肉再烤10分钟。13）此时累计烤50分钟，肉应已熟透，表面焦糖化。可用肉温计检查，原文给出的内部温度是约71℃（160℉）；同页更新注释另引145℉、约63℃并静置3分钟的要求，保留该说明，出炉后仍按本配方静置10分钟。14）若表面上色仍未达到喜好，可开启烤箱上火炙烤模式再烤几分钟，使外层更焦脆、颜色更深。此时留在烤箱旁密切观察，甜酱容易焦煳。15）从烤箱取出猪肉，将剩余的刷酱最后再刷一遍，静置10分钟。16）静置后切片食用。17）可配熟白米饭或糙米饭和绿叶菜；暂时不用的熟叉烧可冷冻，留作其他菜使用。", "81-chashao.png", "https://thewoksoflife.com/chinese-bbq-pork-cha-siu/", {
+  "sourceName": "The Woks of Life",
+  "recipePageUrl": "https://thewoksoflife.com/chinese-bbq-pork-cha-siu/",
+  "mediaPageUrl": "https://thewoksoflife.com/chinese-bbq-pork-cha-siu/",
+  "author": "Bill",
+  "rightsNotice": "All Rights Reserved © The Woks of Life",
+  "reuseLicense": null,
+  "repositoryCopyAuthorization": "user_confirmed_2026-10-08_remaining44",
+  "hero": {
+    "path": "assets/dishes/sources/cn-051-woks/hero.jpg",
+    "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/04/char-siu-recipe-15.jpg",
+    "sha256": "4e38a1a9e1293535710b4656c030d9843a2151a46f653b7ecbbc77d160c00e5c",
+    "httpStatus": 200,
+    "contentType": "image/webp"
+  },
+  "steps": [
+    {
+      "stepOrder": 2,
+      "sourceStepOrder": 2,
+      "path": "assets/dishes/sources/cn-051-woks/step-2-1.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/04/char-siu-recipe.jpg",
+      "sha256": "2782b70f96fa0fc1f85834d6875d0718fea22d2ae2c27a58df9715d3510f8b39",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 3,
+      "sourceStepOrder": 3,
+      "path": "assets/dishes/sources/cn-051-woks/step-3-2.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/04/char-siu-recipe-2.jpg",
+      "sha256": "fb2f319dc928a6ca4b8c7a506432826de465927b2c29fa157d0b124882c7b6f9",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 6,
+      "sourceStepOrder": 5,
+      "path": "assets/dishes/sources/cn-051-woks/step-5-3.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/04/char-siu-recipe-4.jpg",
+      "sha256": "df5388e819d35aa600916620a87ad03d47c19844f29684946ef46acefbf34d5c",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 7,
+      "sourceStepOrder": 6,
+      "path": "assets/dishes/sources/cn-051-woks/step-6-4.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/04/char-siu-recipe-5.jpg",
+      "sha256": "8faaf2f071bef637a5709260cfdecf09d60a5db093182d00fa9c25b24c9ca12e",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 9,
+      "sourceStepOrder": 7,
+      "path": "assets/dishes/sources/cn-051-woks/step-7-5.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/04/char-siu-recipe-6.jpg",
+      "sha256": "15083b9b07f138d5b800d4e1253bd641ac57183ad479da1db3d7ea88a66d84eb",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 10,
+      "sourceStepOrder": 8,
+      "path": "assets/dishes/sources/cn-051-woks/step-8-6.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/04/char-siu-recipe-7.jpg",
+      "sha256": "c4f5e27cb7457df8a9c7ccbe643336044694c6d60be32880aa8dab46a5335b44",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 11,
+      "sourceStepOrder": 8,
+      "path": "assets/dishes/sources/cn-051-woks/step-8-7.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/04/char-siu-recipe-8.jpg",
+      "sha256": "6d4c78dc1ef12dec12223c4419087a4f8a05b5a0a3cc1c046989389087558001",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 16,
+      "sourceStepOrder": 10,
+      "path": "assets/dishes/sources/cn-051-woks/step-10-8.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/04/char-siu-recipe-11.jpg",
+      "sha256": "1c55ab3c136b58008ff784c989e27ffb3ced3ab18406a7032f972f6bcad6e41b",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    }
+  ]
+}, {
+  "totalMinutes": 60,
+  "prepMinutes": 10,
+  "cookMinutes": 50,
+  "stepDurations": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    600,
+    null,
+    null,
+    600,
+    null,
+    null
+  ]
+}, 8, {
+  "sourceLimitations": [
+    "来源总时间60分钟、准备10分钟、烹饪50分钟不包含冷藏腌制过夜或至少8小时；来源另要求出炉静置10分钟，此处原样保留，不自行重算总时间。",
+    "杯、汤匙和茶匙未规定容量，保留原单位，不换算毫升；猪肉重量与切块厚度仅作物理单位换算。",
+    "来源同时保留内部温度160华氏度，以及更新注释145华氏度并静置3分钟；正文如实呈现，未把这两项合并为一个新标准。",
+    "每10分钟检查是检查间隔，第一阶段25分钟内含两档烤温；这两类信息不生成单一倒计时。"
+  ]
+}),
   c("梅菜扣肉", "Pork Belly with Preserved Mustard Greens", "客家菜", "五花肉700克；梅干菜150克；生抽30毫升；老抽10毫升；糖10克；姜蒜适量；料酒20毫升", "1）五花肉煮至七成熟，抹老抽，肉皮向下煎至起泡，切片。2）梅干菜泡洗后与姜蒜炒香调味。3）肉片皮朝下码碗，铺梅菜，蒸90分钟后倒扣。", "82-meicai-kourou.png"),
-  c("盐焗鸡", "Salt-baked Chicken", "客家菜", "三黄鸡1只约1000克；粗盐1500克；沙姜粉10克；盐8克；葱姜适量；烘焙纸2张", "1）鸡擦干，以沙姜粉和盐抹匀腌2小时。2）腹中塞葱姜，用纸严密包裹。3）锅中粗盐炒热，埋入鸡，小火焗45分钟，关火焖20分钟。", "83-yanju-ji.png", CN_HOME),
+  c("盐焗鸡", "Salt-baked Chicken", "客家菜", "整鸡1只约1350克；绍兴酒2汤匙；沙姜粉1½汤匙（不能用普通姜粉替代或省略）；白胡椒粉½茶匙；粗海盐2茶匙（抹鸡用）；粗海盐约1361克（原文3磅，炒热包埋用）；姜4片；食用油1汤匙；清水适量（冲洗鸡用）；葱花适量（最后撒入，来源未给用量）", "1）准备带盖炒锅或荷兰锅。来源提醒中式砂锅在此做法中很可能开裂，作者的耐热砂锅也曾开裂。用流动冷水冲洗整鸡，甩去多余的水，再用厨房纸或干净抹布擦干。来源建议可选有机或放养鸡，其肉质更细滑、紧实。2）将2汤匙绍兴酒刷遍鸡身和腹腔。把1½汤匙沙姜粉、½茶匙白胡椒粉和2茶匙粗海盐混合，均匀揉抹在鸡身和腹腔内。沙姜粉与普通姜粉不同，这份配方不能替换或省略沙姜粉。3）把鸡放在网架上，网架下放托盘接滴液。尽量让鸡直立，使腹腔内液体流出，可以用饮水杯支撑。鸡不加盖，放入冰箱冷藏腌制过夜，目的是让鸡皮干燥。4）第二天，在烹调前提前至少1—2小时将鸡从冰箱取出，使其回到室温。5）将4片姜放入鸡腹腔，把1汤匙食用油刷在鸡皮上，再用厨房棉绳绑好两只鸡腿。6）先用一大张烘焙纸包住整鸡，再用第二张烘焙纸包一层，第二层纸的开口留在鸡胸一侧，包好后放在一旁。7）将包埋用的约1361克粗海盐放入干净、干燥的炒锅，不加油，以中火翻炒约15分钟，直到盐变成浅棕色。热盐温度很高，注意防烫，不要过于用力翻炒。来源提示，包埋盐的重量应与鸡相同，例如约1814克的鸡应配约1814克盐。8）在炒锅或荷兰锅底部均匀铺约1.3厘米厚的热盐，将纸包鸡放在锅中央，鸡胸朝上。9）把剩余热盐铺到鸡的周围和上方，确保纸包鸡被热盐完全覆盖。10）盖上锅盖，以中火焗35分钟。11）关火后仍盖着锅盖，把锅留在炉上静置30—40分钟，直到盐摸起来温热。12）确认盐已降至温热后，用木勺或锅铲小心将纸包鸡从盐中取出。虽然已经关火静置30—40分钟，鸡仍然很烫，取出时务必小心。13）小心拆开烘焙纸，让鸡稍微冷却，直到不会烫得无法用手处理。14）这道菜通常将鸡肉拆骨后撕开食用，也可以不拆骨。若拆骨，将鸡肉从骨架上取下并装盘，鸡骨和骨架保留，可另作高汤或汤底。15）把拆鸡过程中流出的鸡汁全部淋回装盘的鸡肉上，最后撒上葱花。16）烹调后的盐要等完全冷却再处理。丢弃受热或沾到鸡汁而变色、变褐的盐，把其余干净的盐收好，留待下次使用。", "83-yanju-ji.png", "https://thewoksoflife.com/salt-baked-chicken/", {
+  "sourceName": "The Woks of Life",
+  "recipePageUrl": "https://thewoksoflife.com/salt-baked-chicken/",
+  "mediaPageUrl": "https://thewoksoflife.com/salt-baked-chicken/",
+  "author": "Judy",
+  "rightsNotice": "All Rights Reserved © The Woks of Life",
+  "reuseLicense": null,
+  "repositoryCopyAuthorization": "user_confirmed_2026-10-08_remaining44",
+  "hero": {
+    "path": "assets/dishes/sources/cn-053-woks/hero.jpg",
+    "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-3.jpg",
+    "sha256": "3fbb33a8cf2ba59ad918ddf24b4d597ae4a46774f8d87a47a5dff9aae9fabc0d",
+    "httpStatus": 200,
+    "contentType": "image/jpeg"
+  },
+  "steps": [
+    {
+      "stepOrder": 5,
+      "sourceStepOrder": 4,
+      "path": "assets/dishes/sources/cn-053-woks/step-1-2.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken.jpg",
+      "sha256": "670fda2ac678cbcc61546aa959e8984ae960f47808b0aebada14383255621b04",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 6,
+      "sourceStepOrder": 4,
+      "path": "assets/dishes/sources/cn-053-woks/step-2-3.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-9.jpg",
+      "sha256": "e53dd05a424b254cf8fe835aaa95994a1536afa3ed34546c3e43c33611cc0dd2",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 7,
+      "sourceStepOrder": 5,
+      "path": "assets/dishes/sources/cn-053-woks/step-3-4.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-8.jpg",
+      "sha256": "ce548fcead07ba85e34b8b0e8298e4feb635c81f3e5a4a01c173205d014f53d0",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 8,
+      "sourceStepOrder": 5,
+      "path": "assets/dishes/sources/cn-053-woks/step-4-5.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-10.jpg",
+      "sha256": "c76f47dc385d6de061cf7eeb589e9fa5a906157d792a5e8c5bfdcce37ccd6a5e",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 9,
+      "sourceStepOrder": 5,
+      "path": "assets/dishes/sources/cn-053-woks/step-4-6.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-11.jpg",
+      "sha256": "f450d2cc88c438c6386bdf8bd002f7e10847659c6ae256507de3284e782dc2db",
+      "httpStatus": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "stepOrder": 10,
+      "sourceStepOrder": 5,
+      "path": "assets/dishes/sources/cn-053-woks/step-5-7.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-12.jpg",
+      "sha256": "bfe9691ba4d74f1603adccee1132c5726f9ddf5592a6f518febd0229b410e6cf",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 12,
+      "sourceStepOrder": 6,
+      "path": "assets/dishes/sources/cn-053-woks/step-5-8.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-13.jpg",
+      "sha256": "c49c46d859199a9faf4b2cbd72313c573fa2c1b452321079f56fce27a480d1a8",
+      "httpStatus": 200,
+      "contentType": "image/webp"
+    },
+    {
+      "stepOrder": 13,
+      "sourceStepOrder": 6,
+      "path": "assets/dishes/sources/cn-053-woks/step-5-10.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-15.jpg",
+      "sha256": "cc0335a8d434c6fcff7adb4309d420495522c49a5770ac5db2cc66945b6a448b",
+      "httpStatus": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "stepOrder": 14,
+      "sourceStepOrder": 7,
+      "path": "assets/dishes/sources/cn-053-woks/step-6-12.jpg",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-2.jpg",
+      "sha256": "ad16c1cddd8fe0333f82110ecca547e5b87fc9bffbb5bfbaacac80f2f3bb4a7d",
+      "httpStatus": 200,
+      "contentType": "image/jpeg"
+    }
+  ]
+}, {
+  "totalMinutes": 210,
+  "prepMinutes": 120,
+  "cookMinutes": 90,
+  "stepDurations": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    2100,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}, 6, {
+  "sourceLimitations": [
+    "来源配方卡注明准备120分钟、烹调90分钟、总时长210分钟，正文同时要求不加盖冷藏腌制过夜。来源没有解释过夜阶段如何计入卡片总时长，210分钟不能视为覆盖过夜冷藏的完整等待时间。",
+    "来源将整鸡约3磅同时标为1.35千克，包埋盐另写3磅，并提示盐与鸡等重。保留鸡的来源公制约1350克，盐按3磅换算约1361克，不把来源的近似换算差异改成新的精确配比。",
+    "来源未给最后撒入的葱花及冲洗清水用量，保留适量。回温1—2小时、关火静置30—40分钟及冷藏过夜均不转换为固定步骤倒计时。"
+  ]
+}),
   c("豉汁蒸排骨", "Steamed Pork Ribs with Black Bean", "粤菜", "排骨500克；陈皮5克（不喜欢可不放）；豆豉50克；高汤50克（制汁与腌制时分次使用，各次用量未注明）；葱花10克；青红椒末适量；花生油55克（爆香、腌制与淋热油时分次使用，各次用量未注明）；酱油15克（制汁用10克，拌排骨用5克）；蚝油15克（制汁用10克，拌排骨用5克）；生粉15克；姜末10克；蒜末10克；糖15克；味精10克；水（泡陈皮与蒸锅用，用量未注明）", "1）排骨去除背部脊骨和腩尾软骨部分，切成约3厘米的段备用。青红椒切粒，姜和蒜切末。陈皮用水泡软后切丝备用（不喜欢陈皮可不放）。2）将50克豆豉切碎。3）料理锅加热，不加油，放入切碎的豆豉干煸。4）加入陈皮丝，继续煸炒至出香味（不放陈皮时省略此步）。5）加入10克蒜末、10克姜末和爆香用的花生油，继续爆香约30秒。6）从50克高汤中取少许加入锅中，再加入15克糖和10克味精，煮至酱汁黏稠。7）加入10克酱油和10克蚝油，煮至混合均匀，盛出豆豉汁。8）将豆豉汁加入排骨，充分翻拌均匀，再加入剩余的5克酱油和5克蚝油补味。9）加入少量高汤、15克生粉和腌制用的花生油，充分搅拌均匀，腌制20分钟备用。高汤与花生油各次用量原文未注明，花生油需留出最后淋热油的部分。10）将腌制好的排骨放入蒸锅，蒸锅中加水，待水开上汽后大火蒸25分钟，出锅。11）撒入10克葱花和适量青红椒末，将预留的花生油加热后淋在排骨上。", "84-chizhi-zheng-paigu.png", "https://www.douguo.com/cookbook/3316845.html", {
     sourceName: "豆果美食",
     recipePageUrl: "https://www.douguo.com/cookbook/3316845.html",
@@ -1432,7 +2618,98 @@ export const western = [
   w("法式红酒炖牛肉", "Beef Bourguignon", "法国", "牛肩肉700克；红酒500毫升；牛高汤300毫升；培根100克；胡萝卜200克；珍珠洋葱150克；蘑菇200克；番茄膏20克；百里香适量", "1）牛肉擦干分批煎上色，培根煎香。2）炒蔬菜和番茄膏，倒红酒刮锅，加入牛肉、高汤和香草。3）盖锅小火炖2小时，最后加入煎蘑菇和珍珠洋葱。", "66-beef-bourguignon.png"),
   w("希腊穆萨卡", "Moussaka", "希腊", "茄子600克；羊或牛肉末400克；番茄300克；洋葱100克；肉桂少许；白酱400克；帕玛森50克；橄榄油适量", "1）茄子切片刷油烤软。2）洋葱肉末炒香，加番茄和少量肉桂炖浓。3）烤盘交替铺茄子与肉酱，顶层抹白酱撒芝士，190℃烤40分钟。", "67-moussaka.png"),
   w("希腊沙拉", "Greek Salad", "希腊", "番茄350克；黄瓜200克；红洋葱80克；卡拉马塔橄榄80克；菲达芝士150克；橄榄油25毫升；红酒醋10毫升；牛至2克", "1）番茄黄瓜切大块，洋葱切薄片。2）与橄榄、橄榄油、醋和牛至轻拌。3）顶部放整块或大块菲达，略撒黑胡椒。", "68-greek-salad.png"),
-  w("香煎鸡肉炸排", "Chicken Schnitzel", "奥地利/德国", "鸡胸肉2块约400克；面粉60克；鸡蛋1个；面包糠120克；盐和黑胡椒；食用油适量；柠檬1个", "1）鸡胸横剖拍至约6毫米厚，调盐胡椒。2）依次裹面粉、蛋液和面包糠。3）浅油煎炸每面2–3分钟至金黄熟透，配柠檬。", "69-chicken-schnitzel.png"),
+  w("香煎鸡肉炸排", "Chicken Schnitzel", "奥地利/德国", "小块鸡胸肉4块（来源未给重量）；帕尔马干酪碎3汤匙；面粉100克；大号鸡蛋1个（打散）；干面包糠75克（来源使用日式面包糠）；食用油75毫升（来源为植物油）；白卷心菜300克（切丝）；大号胡萝卜1根（去皮、擦丝）；小葱6根（斜切）；红皮苹果1个（擦丝）；原味酸奶150克；柠檬汁½个柠檬的量；英式芥末酱2茶匙；调味料少许（用于凉拌菜和面粉，来源未指定种类及具体用量）", "1）先做凉拌卷心菜：将300克切丝白卷心菜、1根去皮擦丝的大号胡萝卜、6根斜切小葱、1个擦丝红皮苹果、150克原味酸奶、½个柠檬挤出的汁和2茶匙英式芥末酱放入大碗，混合均匀。加入少许调味料调味，放在一旁备用。2）在操作台上铺一层保鲜膜，放上4块小块鸡胸肉，再盖一层保鲜膜。用擀面杖将鸡胸肉敲薄至0.2—0.3厘米厚。3）把100克面粉放在一个盘子里，加入少许调味料调味。将1个打散的大号鸡蛋倒入另一个盘子。4）把鸡胸肉放入面粉中，使表面裹上面粉，再放入蛋液中裹上蛋液。5）将75克干面包糠和3汤匙帕尔马干酪碎放入浅碗，混合均匀。把裹过面粉和蛋液的鸡胸肉放入其中翻裹，使表面完全覆盖面包糠。放到盘中；如果不马上煎炸，先放入冰箱冷藏，等准备烹调时再取出。6）在大煎锅中倒入75毫升食用油，以较大的火力加热。油热后放入鸡排，每次煎炸两块。7）每面煎炸2—3分钟，直到两面完全呈金黄色，再取出放在厨房纸上沥去多余油脂。煎炸剩余鸡排时，可把已炸好的鸡排放在低温烤箱中保温。全部煎好后搭配凉拌卷心菜食用。", "69-chicken-schnitzel.png", "https://www.bbcgoodfood.com/recipes/chicken-schnitzel-coleslaw", {
+  "sourceName": "BBC Good Food",
+  "recipePageUrl": "https://www.bbcgoodfood.com/recipes/chicken-schnitzel-coleslaw",
+  "mediaPageUrl": "https://www.bbcgoodfood.com/recipes/chicken-schnitzel-coleslaw",
+  "author": "Good Food team",
+  "rightsNotice": "Copyright Good Food/Immediate; source attribution retained; no open reuse license stated.",
+  "reuseLicense": null,
+  "repositoryCopyAuthorization": "user_confirmed_2026-10-08_remaining44",
+  "hero": {
+    "path": "assets/dishes/sources/west-024-bbc-good-food/hero.jpg",
+    "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2014/09/Chicken-schnitzel-with-coleslaw-b53b41f.jpg?resize=768,698",
+    "sha256": "613879267ac5b5b1eaf82652c82e2de3e4bbef260dfc0c461b310e024976316c",
+    "httpStatus": 200,
+    "contentType": "image/jpeg"
+  },
+  "steps": [
+    {
+      "stepOrder": 2,
+      "sourceStepOrder": 2,
+      "path": "assets/dishes/sources/west-024-bbc-good-food/step-2.jpg",
+      "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2025/02/1-Flattened-chicken-780c12c.jpg",
+      "sha256": "39c630d16b36b11bdef9e1fc1d1647467ee9b6137be59903ddcdcea8aa706675",
+      "httpStatus": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "stepOrder": 3,
+      "sourceStepOrder": 3,
+      "path": "assets/dishes/sources/west-024-bbc-good-food/step-3.jpg",
+      "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2025/02/2.-Flour-and-egg-b3da00a.jpg",
+      "sha256": "02782fa8e2441283ccfa24ed504a99bbbbaddc4c85091eaf033dda042702cdf6",
+      "httpStatus": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "stepOrder": 4,
+      "sourceStepOrder": 4,
+      "path": "assets/dishes/sources/west-024-bbc-good-food/step-4.jpg",
+      "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2025/02/4.-Flouring-chicken-b47a30d.jpg",
+      "sha256": "cf9a2c5f461695b3a663f2bb495ee3f757329ed529f9ad60abc56e952a07a48d",
+      "httpStatus": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "stepOrder": 5,
+      "sourceStepOrder": 5,
+      "path": "assets/dishes/sources/west-024-bbc-good-food/step-5.jpg",
+      "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2025/02/6.-Chicken-in-panko-05ff6b9.jpg",
+      "sha256": "4466fde67b6e351c8bde60f2078f67c77f204c840212180ddcee34f0d561aa62",
+      "httpStatus": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "stepOrder": 6,
+      "sourceStepOrder": 6,
+      "path": "assets/dishes/sources/west-024-bbc-good-food/step-6.jpg",
+      "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2025/02/8.-Chicken-cooking-f8bfdec.jpg",
+      "sha256": "c36cd4f494a5ef731d834cf5ff53bbd1d5301c471b2d686a871c7a2f89d69270",
+      "httpStatus": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "stepOrder": 7,
+      "sourceStepOrder": 7,
+      "path": "assets/dishes/sources/west-024-bbc-good-food/step-7.jpg",
+      "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2025/02/11.-Finished-golden-chicken-4f1c806.jpg",
+      "sha256": "1b5df2bab4dfb996e84bc2481da825e2d046b361a654ae9c6d52cbb96de04897",
+      "httpStatus": 200,
+      "contentType": "image/jpeg"
+    }
+  ]
+}, {
+  "totalMinutes": 40,
+  "prepMinutes": 30,
+  "cookMinutes": 10,
+  "stepDurations": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}, 4, {
+  "sourceLimitations": [
+    "来源仅写凉拌菜及面粉需要调味，没有说明调味料种类及具体用量，保留泛称，不补入盐或黑胡椒。",
+    "来源鸡胸肉用量为4块小鸡胸，未给重量。每面煎炸2—3分钟为范围时间，不设置固定倒计时。",
+    "来源用较大火力加热油，并以两面完全金黄为煎炸判断，未给油温或鸡肉内部温度。保温仅写低温烤箱，未给温度和时长。",
+    "来源允许裹好涂层的鸡排在不立即煎炸时冷藏等待，未指定冷藏时长。配方卡明确总时长40分钟，没有说明另行冷藏等待如何计入。"
+  ]
+}),
   w("瑞典肉丸", "Swedish Meatballs", "瑞典", "牛猪混合肉馅400克；洋葱80克；面包糠50克；牛奶80毫升；鸡蛋1个；黄油25克；面粉20克；牛高汤300毫升；淡奶油120毫升", "1）肉馅与炒软洋葱、泡牛奶的面包糠和鸡蛋拌匀，搓丸煎熟。2）原锅黄油炒面粉，逐渐加入高汤和奶油煮成酱。3）肉丸回锅煨5分钟，配薯泥和越橘酱。", "70-swedish-meatballs.png"),
   w("匈牙利牛肉汤", "Hungarian Goulash", "匈牙利", "牛肩肉600克；洋葱250克；土豆300克；胡萝卜180克；甜椒粉20克；番茄200克；牛高汤800毫升；葛缕子1茶匙", "1）洋葱慢炒至金黄，离火拌入甜椒粉避免焦苦。2）加入牛肉、番茄、高汤和葛缕子，小火炖60分钟。3）下土豆胡萝卜再煮30分钟至软。", "71-hungarian-goulash.png"),
   w("炸鱼塔可", "Fish Tacos", "墨西哥/美国", "白肉鱼350克；小玉米饼8张；面粉80克；啤酒100毫升；卷心菜180克；番茄莎莎120克；青柠2个；酸奶油60克", "1）面粉和冰啤酒调糊，鱼条蘸糊炸至金黄熟透。2）玉米饼加热，酸奶油与青柠汁调酱。3）饼中放卷心菜、炸鱼、莎莎和青柠酱。", "72-fish-tacos.png"),

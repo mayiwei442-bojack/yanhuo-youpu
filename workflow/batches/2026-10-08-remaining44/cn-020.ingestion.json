@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "completedAt": "2026-10-08T12:10:49.154Z",
+  "documents": [
+    {
+      "documentId": "2be1111d-2cd1-42dd-b183-990a063573e7",
+      "url": "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/",
+      "deduplicated": false,
+      "embedded": true,
+      "chunkCount": 8,
+      "model": "voyage-4",
+      "dimension": 1024,
+      "semanticCount": 8,
+      "hybridCount": 8
+    }
+  ]
+}

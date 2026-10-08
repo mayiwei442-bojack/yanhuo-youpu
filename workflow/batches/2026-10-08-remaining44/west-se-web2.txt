@@ -1,0 +1,323 @@
+Internal Error ()
+citeturn27view0 [wordlim: 200] Source: open({"ref_id":"https://www.seriouseats.com/the-food-lab-how-to-make-best-buttermilk-pancakes","lineno":null}); Total lines: 1
+L0: URL https://www.seriouseats.com/the-food-lab-how-to-make-best-buttermilk-pancakes is not accessible via this tool.
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn27view1 [wordlim: 200] Source: open({"ref_id":"https://www.seriouseats.com/the-best-buttermilk-pancakes-recipe","lineno":null}); Total lines: 1
+L0: URL https://www.seriouseats.com/the-best-buttermilk-pancakes-recipe is not accessible via this tool.
+--------------------------------------------------------------------------------
+Lighter Fettuccine Alfredo Recipe (https://www.seriouseats.com/lighter-fettuccine-alfredo-recipe)
+citeturn27view2 [wordlim: 100] Crawled: 2 days ago; Content type: text/html; Source: click({"ref_id":"turn26view0","id":13}); Total lines: 262
+L0: cite0†iframe†www.googletagmanager.com L1: 
+L2: cite1†Serious Eats L3: 
+L4: Save
+L5: 
+L6: Rate
+L7: 
+L8:   * Search [Input: What are you looking for?]
+L9: 
+L10:   * cite2†Newsletters L11:   * cite3†Sweepstakes L12:   * cite1†Serious Eats L13: # Lighter Fettuccine Alfredo Recipe
+L14: 
+L15: 4.1
+L16: 
+L17: (11)
+L18: 
+L19: 86 Reviews
+L20: 
+L21: A luxurious pasta in Alfredo sauce that won't weigh you down.
+L22: 
+L23: By
+L24: 
+L25: cite4†J. Kenji López-Alt L26: 
+L27: cite5†Image: Kenji Lopez Alt cite5†Image: Kenji Lopez Alt L28: 
+L29: cite4†J. Kenji López-Alt L30: 
+L31: Kenji is the former culinary director for Serious Eats and a current culinary consultant for the site. He is also a New York Times food columnist and the author of The Food Lab: Better Home Cooking Through Science.
+L32: 
+L33: cite6†Serious Eats' Editorial Guidelines L34: Updated on September 20, 2022
+L35: 
+L36: cite7†Image†cdn.jwplayer.com cite7†Image†cdn.jwplayer.com L37: 
+L38: Quick and Easy Fettuccine Alfredo
+L39: 
+L40: 2:38
+L41: 
+L42: In This Recipe
+L43: 
+L44: View All
+L45: 
+L46: In This Article
+L47: 
+L48:   * cite8†The Cheese L49: 
+L50:   * cite9†The Sauce L51: 
+L52:   * cite10†Putting It Together L53: 
+L54: Jump to recipe
+L55:   * By cooking the pasta in a smaller amount of water, we create a concentrated starchy pasta water that helps to thicken and emulsify the sauce.
+L56:   * We remove most of the cream in this recipe, instead using the thickening power of a single egg and a touch of cornstarch to create a rich, creamy sauce with a lighter, brighter flavor.
+L57:   * Our sauce gets cooked directly in the same pan as the fettuccine, making cleanup a snap.
+L58: I'd always figured fettuccine Alfredo was about as authentically Italian as an Ellio's frozen pizza; something concocted by cite11†the Olive Garden's chefs at their Tuscan cooking academy†www.cnn.com , perhaps. But it turns out that the dish has quite a lengthy history in Rome.
+L59: Ever since the 15th century, Romans have been eating pasta with a simple, light cheese sauce, made directly in the pot with the pasta. Fettuccine alla romana, made by tossing fresh fettuccine with Parmesan cheese, is Alfredo's most direct ancestor. Spaghetti cite12†cacio e pepe —a late-night drunk-food staple for Romans, made by tossing spaghetti with Pecorino Romano, black pepper, and a touch of pasta water—is a very close cousin.
+L60: cite13†Image: Fettuccine Alfredo on a serving plate.  cite13†Image: Fettuccine Alfredo on a serving plate.  L61: 
+L62: It may sound impossible, but this fettuccine Alfredo is both creamy and light. . Photographs and video: J. Kenji López-Alt
+L63: According to cite14†this 1981 New York Times article on the dish†www.nytimes.com , the modern version—what we know in the States as fettuccine Alfredo—was invented by Alfredo di Lelio (yes, Alfredo was a real man!), who first put it on the menu at his Trattoria Alfredo sometime around 1914. His version of fettuccine alla romana added extra butter to the mix, though it wasn't until it reached the New World (and perhaps corporate mega-chain kitchens) that it became commonly known as fettuccine Alfredo.
+L64: His extra-buttery version remains a far more popular dish stateside than it is in Italy, though you'll still find it on tourist menus near the big sights in Rome.
+L65: These days, most plates of fettuccine Alfredo come in all-you-can-eat portions, smothered in a heavily thickened, cream- and starch-fortified sauce flavored with dusty-tasting domestic faux-parmesan cheese (perhaps with a side of endless breadsticks). Even recipes for the dish at home are made with an astonishing amount of butter and cream—cite15†a full cup of cream and a full stick of butter for a pound of pasta is not uncommon.†www.foodnetwork.com L66: Now, don't get me wrong—I'm not a health nut or a calorie counter. But let's face it: The feeling you get after downing a bowl of creamy, cheesy fettuccine Alfredo ain't the best. Wouldn't it be great to have a quick and easy version that's just as good as these cream-packed renditions, but has a cleaner flavor and doesn't leave you in a food coma?
+L67: The idea is to build a dish that bridges the gap between fettuccine alla romana, with its light cheese-and-pasta-water sauce, and hardcore Little Italy–style fettuccine Alfredo, with its gut-busting creaminess. After swimming in cheese sauce for a weekend, I came up with a recipe that really works (and in under 20 minutes, no less!). Here's how.
+L68: ## The Cheese
+L69: 
+L70: cite16†Image: Grating Parmigiano Reggiano on a box grater. cite16†Image: Grating Parmigiano Reggiano on a box grater. L71: 
+L72: Serious Eats / J. Kenji López-Alt
+L73: First things first: You want to use real, honest-to-goodness Parmigiano Reggiano for this dish. The flavor of the dish comes from the cheese, so you're shooting yourself in the foot if you reach for that green can. Pre-grated stuff from a good-quality cheesemonger or a good supermarket is fine, so long as it's true imported Parmigiano Reggiano. (Look for those words specifically, not just generic "parmesan.")
+L74: cite17†Image: A box grater, just grated cheese, and a chunk of cheese. cite17†Image: A box grater, just grated cheese, and a chunk of cheese. L75: 
+L76: Serious Eats / J. Kenji López-Alt
+L77: 
+L78: I tried incorporating the cheese a number of ways, including shredded and Microplaned, but the best approach was to grate it on the rasp-y side of a box grater. You know, the side that has little holes that look like they were punched through with a tiny screwdriver? The knuckle-grater side? Yeah, that one.
+L79: I settled on five ounces of cheese per one pound of pasta.
+L80: ## The Sauce
+L81: 
+L82: Now, today's gut-buster renditions of Alfredo sauce are made by combining melted butter with heavy cream and cheese, then tossing it all together with the pasta. The question is, how do you get a similarly thick and rich texture without as much dairy fat?
+L83: I tried a few different methods, including making a besciamella out of milk instead of cream (too much effort for what should be an easy dish), using half-and-half in place of cream (it made the dish taste weaker without actually tasting much lighter), and using various other dairy products (crème fraîche made for a wonderful dish—not too different from the cite18†one-pot tuna noodle casserole I made—but it didn't taste like Alfredo to me).
+L84: cite19†Image: Whisking alfredo sauce. cite19†Image: Whisking alfredo sauce. L85: 
+L86: Serious Eats / J. Kenji López-Alt
+L87: In the end, I pulled a page from a standard cacio e pepe recipe: using plenty of starchy pasta water to help emulsify and thicken a sauce made mostly of melted cheese. By using about a cup and a half of pasta water, I was able to make a sauce that tasted rich and creamy with only about two tablespoons of actual heavy cream and butter in it (and, okay, I also added a couple of tablespoons of extra-virgin olive oil to bump up the flavor).
+L88: To help it thicken and cling to the pasta better, I also whisked in a single egg. It's by no means a traditional ingredient, but it makes a huge difference in the texture of the sauce, without altering its flavor much.
+L89: I did find that in order to get enough starch in the water, I had to cook my pasta in a much smaller volume of water than is normally recommended for pasta—about two quarts for a pound of pasta—but, as it turns out, cite20†pasta comes out perfectly fine in a smaller volume of water , and the reward is extra-starchy pasta water.
+L90: 
+L91: Still, a little insurance doesn't hurt.
+L92: 
+L93: cite21†Image: An open container of cornstarch. cite21†Image: An open container of cornstarch. L94: 
+L95: Serious Eats / J. Kenji López-Alt
+L96: A small pinch of pure cornstarch ensures that your sauce will thicken properly, even if your pasta water doesn't quite cut it. (This is good, as the amount of excess starch the pasta gives up to the pot can vary from brand to brand.)
+L97: 
+L98: The best part of this sauce is that it requires no advance cooking. You simply whisk the ingredients together and set 'em aside while you cook the pasta.
+L99: The last question left to answer about the sauce was which extra flavorings to add. Black pepper—and a ton of it—is a no-brainer. I can't imagine a cheesy pasta dish without black pepper in it, whether it's cacio e pepe, carbonara, or Alfredo. And forget the whole "would you like fresh pepper on that?" thing with the ultra-long pepper mill at the restaurant: You want the pepper built right into your sauce.
+L100: What about garlic? It's not part of the original recipe, but when I cite22†posed the question to the Twittersphere†twitter.com , the overwhelming response was yes to garlic flavor. In the interest of keeping the recipe streamlined, I found that when I added the garlic directly to the butter, then tossed it with the cooked pasta before adding the sauce, the residual heat from the pasta heated the garlic enough to get rid of its raw bite, while still providing plenty of flavor to the bowl.
+L101: cite23†Image: Grating garlic on a microplane. cite23†Image: Grating garlic on a microplane. L102: 
+L103: Serious Eats / J. Kenji López-Alt
+L104: ## Putting It Together
+L105: 
+L106: cite24†Image: A tangle of uncooked fresh fettucine. cite24†Image: A tangle of uncooked fresh fettucine. L107: 
+L108: Serious Eats / J. Kenji López-Alt
+L109: 
+L110: Finally, we get to the actual pasta. Fettuccine Alfredo is supposed to be made with fresh fettuccine, and that's how I prefer it, though you can use dried pasta if you wish.
+L111: The key is to make sure that the noodles aren't overcooked when you boil them, as they'll continue to cook a bit once they hit the hot sauce. For fresh noodles, about 45 seconds in the water is good enough.
+L112: 
+L113: cite25†Image: Adding fresh pasta to boiling water. cite25†Image: Adding fresh pasta to boiling water. L114: 
+L115: Serious Eats / J. Kenji López-Alt
+L116: 
+L117: For dried noodles, you want to go for a minute or two less than the package directions indicate.
+L118: There we go—all set. Drain the noodles either by fishing them out with a set of tongs, or, better, by pouring them into a colander set in a large bowl. That way, the starchy pasta water gets saved.
+L119: 
+L120: cite26†Image: Adding butter to just cooked pasta. cite26†Image: Adding butter to just cooked pasta. L121: 
+L122: Serious Eats / J. Kenji López-Alt
+L123: Set aside a couple of cups of pasta water (dump the rest), transfer the noodles to the bowl along with the butter and garlic, then toss it until the butter is melted. This will keep the noodles from sticking together while you finish the sauce.
+L124: 
+L125: cite27†Image: Whisking warm pasta water into cheese mixture. cite27†Image: Whisking warm pasta water into cheese mixture. L126: 
+L127: Serious Eats / J. Kenji López-Alt
+L128: 
+L129: Working quickly, whisk some of the hot pasta water into the bowl with the sauce mixture.
+L130: cite28†Image: Whisking lightened alfredo sauce. cite28†Image: Whisking lightened alfredo sauce. L131: 
+L132: Serious Eats / J. Kenji López-Alt
+L133: 
+L134: It'll end up kind of soupy-looking—starches don't fully hydrate and thicken until they've been heated. So scrape this mixture into the now-empty pasta pot, and heat it on the stovetop, stirring constantly, until it turns thick and rich. It should take only a moment.
+L135: 
+L136: cite29†Image: Stirring pasta into Alfredo sauce. cite29†Image: Stirring pasta into Alfredo sauce. L137: Serious Eats / J. Kenji López-Alt
+L138: 
+L139: Once that's done, add the pasta to the sauce, and turn gently to coat.
+L140: 
+L141: cite30†Image: Stirring pasta and Alfredo sauce with a wooden spoon. cite30†Image: Stirring pasta and Alfredo sauce with a wooden spoon. L142: 
+L143: Serious Eats / J. Kenji López-Alt
+L144: 
+L145: If you, like me, end up taking too much time by doing silly things like taking photos, the sauce will over-thicken, and you'll need to thin it out with a bit of pasta water.
+L146: Now we get to the absolute most important part when it comes to fettuccine Alfredo: Serve it immediately, and serve it hot, preferably in pre-warmed bowls. Cheese sauce does not get better as it sits around.
+L147: 
+L148: I like to top mine with chopped chives, some extra cheese, a bit of lemon zest, and some olive oil. (I sometimes work that lemon zest into the sauce as well, hint hint.)
+L149: 
+L150: Oh, and in case you were wondering, this noodle party is, unfortunately, BYOB.*
+L151: 
+L152: *Bring-Your-Own-Breadsticks.
+L153: ### September 2014
+L154: 
+L155: Prep Time:
+L156: 
+L157: 5 mins
+L158: 
+L159: Cook Time:
+L160: 
+L161: 30 mins
+L162: 
+L163: Total Time:
+L164: 
+L165: 35 mins
+L166: 
+L167: Servings:
+L168: 
+L169: 4 servings
+L170: 
+L171: Yield:
+L172: 
+L173: Serves 4
+L174: 
+L175: [Button: Jump to Nutrition Facts]
+L176: 
+L177: Keep Screen Awake
+L178: ## Ingredients
+L179: 
+L180:   * 5 ounces (140 g) grated Parmigiano Reggiano cheese, plus more for sprinkling
+L181: 
+L182:   * 2 tablespoons (30 ml) heavy cream
+L183: 
+L184:   * 1 large egg
+L185: 
+L186:   * 1 teaspoon (3 g) cornstarch
+L187: 
+L188:   * 2 tablespoons (30 ml) extra-virgin olive oil, plus more for serving
+L189: 
+L190:   * 1/2 teaspoon grated lemon zest (optional)
+L191: 
+L192:   * Kosher salt and freshly ground black pepper
+L193: 
+L194:   * 1 pound (450 g) fresh fettuccine, or 12 ounces (340 g) dried fettuccine
+L195: 
+L196:   * 1 teaspoon minced garlic (about 1 medium clove)
+L197:   * 2 tablespoons (30 g) unsalted butter
+L198: 
+L199:   * Minced fresh parsley or chives
+L200: ## Directions
+L201: 
+L202:   1. Combine cheese, heavy cream, egg, cornstarch, olive oil, and lemon zest (if using) in a large bowl. Season lightly with salt and heavily with black pepper and whisk to combine. Set aside.
+L203: 
+L204: cite31†Image: Whisking together cheese, cream, eggs, black pepper and more as the base for a lighter fettucine Alfredo sauce. cite31†Image: Whisking together cheese, cream, eggs, black pepper and more as the base for a lighter fettucine Alfredo sauce. L205: 
+L206: Serious Eats / J. Kenji López-Alt
+L207:   2. Bring a large pot of cite32†salted water to a boil over high heat. Add pasta and cook, stirring frequently to prevent sticking, until cooked but still very firm (not quite al dente), about 45 seconds for fresh pasta or 1-2 minutes less than package directions indicate for dried pasta. Drain pasta into a colander set over a large bowl. Transfer 2 cups (480ml) of cooking water to a liquid measuring cup and discard the rest. Transfer pasta to the now-empty bowl. Add garlic and butter and toss to coat.
+L208: cite33†Image: Using tongs to move cooked pasta from boiling water to a bowl. cite33†Image: Using tongs to move cooked pasta from boiling water to a bowl. L209: 
+L210: Serious Eats / J. Kenji López-Alt
+L211:   3. Whisking constantly, slowly add 1 1/2 cups of pasta cooking water to bowl with cheese mixture. Transfer cheese mixture to the now-empty pasta cooking pot, scraping the bottom to make sure you get everything. Cook over medium-high heat, stirring constantly with a rubber spatula, until mixture comes to a boil and thickens, about 45 seconds. Season sauce to taste with more salt and pepper as desired. Transfer pasta to sauce mixture and turn to coat.
+L212: Just before serving, stir in more pasta water to thin sauce out as necessary. Serve immediately, sprinkle with minced herbs, black pepper, and cheese, and drizzle with additional olive oil.
+L213: cite34†Image: Using tongs to lift fettucine with sauce out of cooking pot. cite34†Image: Using tongs to lift fettucine with sauce out of cooking pot. L214: 
+L215: Serious Eats / J. Kenji López-Alt
+L216: ## Special Equipment
+L217: 
+L218: Whisk, silicone spatula
+L219: 
+L220: Save
+L221: 
+L222: Rate
+L223: 
+L224: Print [Input]
+L225: ## Nutrition Facts (per serving)
+L226: 
+L227: 479  | Calories
+L228: 27g  | Fat
+L229: 41g  | Carbs
+L230: 18g  | Protein
+L231: 
+L232: Show Full Nutrition Label Hide Full Nutrition Label
+L233: 
+L234: Nutrition Facts
+L235: ---
+L236: Servings Per Recipe 4
+L237: ---
+L238: Calories 479
+L239: ---
+L240: % Daily Value *
+L241: Total Carbohydrate 41g  | 15%
+L242: Dietary Fiber 2g  | 6%
+L243: Total Sugars 2g
+L244: Protein 18g  | 36%
+L245: Total Fat 27g  | 35%
+L246: Saturated Fat 12g  | 62%
+L247: Cholesterol 101mg  | 34%
+L248: Vitamin C 2mg  | 2%
+L249: Sodium 806mg  | 35%
+L250: Calcium 327mg  | 25%
+L251: Iron 2mg  | 11%
+L252: Potassium 202mg  | 4%
+L253: * Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs.
+L254: 
+L255: Loading shell for RecipesUgcThreaded1 Vue component in Globe.
+L256: ## Related Articles
+L257: cite35†Roman-Style Fettuccine With Alfredo Sauce Recipe 15 mins cite36†Uovo in Raviolo (Runny Egg Yolk Ravioli) Recipe 1 hr 5 mins cite37†Pasta al Limone 25 mins cite38†Spaghetti With Carbonara Sauce Recipe 30 mins cite39†Homemade Butternut Squash and Blue Cheese Ravioli With Sage Brown Butter Sauce Recipe 2 hrs 30 mins cite40†Perfect (Almost) No-Stir Risotto 45 mins cite41†Roman Semolina Gnocchi (Gnocchi alla Romana) Recipe 1 hr 35 mins cite42†Rigatoni Con Pesce Spada (Pasta With Swordfish, Tomato, and Eggplant) 35 mins L258: cite43†Spinach and Ricotta Manicotti 1 hr 35 mins cite44†Pesto alla Trapanese (Sicilian Pesto With Almonds and Tomatoes) Recipe 20 mins cite45†Veneto-Style Radicchio Risotto With Walnuts and Blue Cheese Recipe 45 mins cite46†Easy Skillet Baked Ziti With Sausage and Ricotta Recipe 40 mins cite47†Pasta With Butternut Squash and Sage Brown Butter 25 mins cite48†Homemade Ricotta Ravioli 1 hr 10 mins cite49†Lasagna Napoletana (Lasagna With Sausage, Smoked Cheese, and Meatballs) Recipe 6 hrs 40 mins cite50†Light and Tender Potato Gnocchi With Sage-Butter Sauce Recipe 1 hr 40 mins L259: Newsletter Sign Up
+L260: 
+L261: Newsletter Sign Up
+--------------------------------------------------------------------------------
+The Burger Lab: The World's Best Burger for a Single Man (or Woman) (https://www.seriouseats.com/the-burger-lab-the-worlds-best-burger-for-a-single-man-or-woman)
+citeturn27view3 [wordlim: 100] Crawled: today; Content type: text/html; Source: click({"ref_id":"turn24view1","id":8}); Total lines: 132
+L0: cite0†iframe†www.googletagmanager.com L1: 
+L2: cite1†Serious Eats L3: 
+L4:   * Search [Input: What are you looking for?]
+L5: 
+L6:   * cite2†Newsletters L7:   * cite3†Sweepstakes L8:   * # The Burger Lab: The World's Best Burger for a Single Man (or Woman)
+L9: 
+L10: By
+L11: 
+L12: cite4†J. Kenji López-Alt L13: 
+L14: cite5†Image: Kenji Lopez Alt cite5†Image: Kenji Lopez Alt L15: 
+L16: cite4†J. Kenji López-Alt L17: Kenji is the former culinary director for Serious Eats and a current culinary consultant for the site. He is also a New York Times food columnist and the author of The Food Lab: Better Home Cooking Through Science.
+L18: 
+L19: cite6†Serious Eats' Editorial Guidelines L20: 
+L21: Updated on August 9, 2018
+L22: 
+L23: Close
+L24: 
+L25: cite7†Image: Kenji's Burger Joy cite7†Image: Kenji's Burger Joy L26: My pick for "Last Burger on Earth" is easy: the original with American cheese from Happy Kenji's Burger Joy (that's the name of Kenji's fictitious burger joint). When Kenji was tirelessly working on perfecting his burger recipe, I did some of the best burger eating of my days. His is essentially a terrific version of a classic roadside burger stand burger—thin, juicy, and loosely packed with the maximum amount of browned crust from the griddle.
+L27: Whenever he had a burger making night, I made sure I was there to help taste them. I like to think I contributed to their excellence in some small way. In that process, I learned all about cite8†the difference grinding meat makes (haven't bought pre-ground since) and the cite8†cuts and ratios that give a good burger the right amount of fattiness and depth of flavor. Those burgers define my ideal burger. —cite9†Meredith Smith , editor of cite10†Slice L28: cite8†The Burger Lab: The World's Best Burger for a Single Man (or Woman) » L29: 
+L30: [Photograph: Kenij Lopez-Alt]
+L31: 
+L32: .
+L33: 
+L34: It's 7:30 pm and I'm sitting nervously at a Lower East Side bar, waiting for my wife to show up so we can head to dinner. I'm gulping my IPA, hoping the bitter hops will cover up the salty aroma of deceit and disloyalty that lingers on my breath. Of course, I have no appetite, but I'll order my food and eat with relish to throw her off the trail.
+L35: She arrives and I quickly push a pre-ordered beer towards her, hoping it'll obfuscate her powers of detection, which—to her credit and my frustration—are formidable. What did I do today, she asks.
+L36: 
+L37: "Nothing much. The usual. Writing, bath, writing while bathing, the occasional cat stroke. You know."
+L38: 
+L39: Her eyes darken with a flash of suspicion.
+L40: 
+L41: Does she know?
+L42: I hold my breath as she leans in to give me a quick kiss, knowing full well that it's just a test. A quick biological breathalyzer hidden within a loving gesture. The slightest exhale will give me away.
+L43: 
+L44: Too late. She's caught a whiff of that unmistakable perfume—she knows. The gig is up. I look towards the ground, prepared to take full responsibility for what I've done, for my repeated indiscretions.
+L45: 
+L46: "Were you cooking burgers again?"
+L47: 
+L48: I love my wife, but burgers are my mistress.
+L49: ### Life Under Ground
+L50: 
+L51: I've calculated it, and in the past two-and-a-half years, I've cooked well over 1,100 burgers. That's an average of 1.2 burgers a day. cite11†Fat burgers, cite12†thin burgers. Burgers stuffed with cite13†burger juice . cite14†Smashed burgers. cite15†Sliders . cite16†Fancy-pants burgers. Cheese-stuffed burgers. Burgers that cite17†rip off other burgers .
+L52: It got to the point where my wife forced us to move apartments because the smell of burgers permeated the walls, the sofa, the furniture (OK, more space and lower rent probably also factored into our move). She simply can't stomach them anymore.
+L53: 
+L54: "For a little while I was doing well. Until I discovered her."
+L55: I've promised repeatedly not to cook them until she's gone for at least a day. I've promised to brush my teeth and shower before meeting her to get rid of the lingering odor of sizzling ground meat. For a little while I was doing well. Until I discovered her. The one burger that I can't resist.
+L56: I'm a sucker for crisp, brown, salty crust, and up until recently, I thought the burger at the cite18†Shake Shack†www.shakeshack.com was about as crispety-crunchety as they come— but then I discovered this one. It wasn't an organized discovery like most of my recipes are. It was a happy coincidence of inspiration, circumstance, and sizzling beef fat. It was instant, powerful, and unshakable infatuation at first bite.
+L57: Today, I'm going to share the recipe and technique with you. This is the ultimate burger for single men.
+L58: It's not a big, fat backyard behemoth whose real goal is to prove your manhood to fellow backyard grillers. It's more like a thin, small (four ounces), classic diner-style burger on crack. Don't cook it for company (the recipe only works for one burger at a time anyway). Don't cook it unless you are prepared to have your apartment smelling like a burger joint for days. Don't cook it if you want anything less than the crispiest, beefiest, saltiest, greasiest, gooiest burger experience you've ever had.
+L59: This is a burger can make you, like me, break your vows.
+L60: ### The Grind
+L61: 
+L62: Like most of my favorite burgers, the grind here is of utmost importance. For the ultimate experience, go with the oxtail and brisket-enhanced cite19†Blue Label Burger Blend . When feeling lazy, I sometimes use 100% short rib or 100% well-marbled ground chuck, but having at least 25% fat content is essential, for reasons that will soon become apparent.
+L63: 
+L64: "Just push the beef together until it forms ragged piles that barely cling together."
+L65: Forming the patties is the most crucial step in the whole process. Using a thoroughly-chilled meat grinder or food processor and cubes of beef that have been placed in the freezer for 15 minutes prior to grinding, grind the meat directly onto a parchment paper or foil-lined baking sheet. Then—and this is key—form the beef into four-ounce patties without picking it up. That's right. Just push the beef together until it forms ragged piles that barely cling together.
+L66: Why would you want to do a thing like that? Well, it's got to do with the structure of meat. When ground, beef proteins are very sticky—particularly to each other. Given the chance, they'll cling to each other like Japanese school girls to Hello Kitty bento boxes, and the more you work them, the tighter they cling. Take a look at the photo below:
+L67: 
+L68: cite20†Image: crisp burger - 1.jpg cite20†Image: crisp burger - 1.jpg L69: 
+L70: "The goal here is to keep the meat as loose as possible."
+L71: The burger on the left was formed by gently coaxing the meat into a pile. The patty on the right was formed by lifting the meat in my hands and gently shaping it into a patty. As gently as I could, really. Despite the gentle touch, the difference is readily apparent. The goal here is to keep the meat as loose as possible. This offers a myriad of benefits, which will make themselves clearer as we work our way through the technique.
+L72: Salt and pepper the patties generously on one side, then carefully flip with a wide spatula (remember, don't ever pick up the patties with your bare hands!), and season the second side before slipping it (via a spatula) into a ripping-hot small skillet.
+L73: N.B. This is the main reason that this recipe absolutely cannot be made with store-bought ground beef. Store-bought ground beef is ground too finely and already pressed together before you take it out of the package. You've shot yourself in the foot before you've even started.
+L74: ### Burgers and Fractals
+L75: Have you ever seen that neat trick with cite21†Mandelbrot fractals†vimeo.com ? The one where you look at a coastline from far away and measure it, which gives you a certain perimeter. As you zoom closer and closer, you realize there are tiny inlets or curves in the beach that weren't visible from far away. When measured again, these bumps actually add length to the total perimeter.
+L76: This is a phenomenon known as the Richardson Effect, and basically states that the more precisely you measure a coastline, the longer the measurement gets. And the more bumpy or irregular the surface is, the more this effect is pronounced.
+L77: cite22†Image: Screen shot 2010-05-13 at 12.37.01 PM.png cite22†Image: Screen shot 2010-05-13 at 12.37.01 PM.png L78: 
+L79: Wikipedia
+L80: 
+L81: Well, the same applies to hamburgers. While at first it may seem the two burgers above have the exact same mass, pretty much the same volume, and must therefore have the same surface area, because of the highly bumpy and irregular surface of the loose-packed patty, it's surface area is actually much much greater than the hand-formed patty.
+L82: cite23†Image: crisp burger - 03.jpg cite23†Image: crisp burger - 03.jpg L83: 
+L84: But there's a problem! In order to brown and crisp properly, those raged bits need to be exposed to temperatures well in excess of 400°F. And what's more, they need to be evenly exposed to that heat, lest the outermost raged edges burn before the rest can follow suit.
+L85: 
+L86: "That's why smashed-style burger joints like the Shake Shack do what they do"
+L87: On a normal griddle or large saute pan, this is an impossible task. The rendering beef fat leaks out of the patties and drains away. Only the bits in direct contact with the surface will crisp up properly. That's why smashed-style burger joints like the Shake Shack do what they do: Even though smashing the bottom of the patty into a flat plane reduces surface area for crisping, they need to do it in order maximize griddle contact.
+L88: At home, we fortunately have more options. One of the side effects of cooking burgers for myself is that I often want to cook just one, so I whip out the small, eight-inch skillet. It was a happy discovery one day when I noticed that when cooking a burger with a high fat content, a good 1/8th to 1/4 inch of rendered beef fat collects at the bottom of the pan, essentially deep-frying the entire lower half of the patty in its own fat.
+L89: 
+L90: cite24†Image: crisp burger - 04.jpg cite24†Image: crisp burger - 04.jpg L91: Couple this with the super-loosely-packed ground beef, and you've got prime breeding grounds for crispy, crunchy, deep brown beef bits—the best parts of the burger.
+L92: ### The Cheese and the Bun
+L93: 
+

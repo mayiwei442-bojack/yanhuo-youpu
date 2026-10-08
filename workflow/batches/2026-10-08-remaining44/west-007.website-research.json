@@ -1,0 +1,166 @@
+{
+  "recipeId": "west-007",
+  "attempts": [
+    {
+      "url": "https://www.bbcgoodfood.com/recipes/golden-beer-battered-fish-chips",
+      "status": 200,
+      "bytes": 580040
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://www.bbcgoodfood.com/recipes/golden-beer-battered-fish-chips",
+      "recipe": {
+        "@context": "https://schema.org",
+        "@id": "https://www.bbcgoodfood.com/recipes/golden-beer-battered-fish-chips#Recipe",
+        "@type": "Recipe",
+        "description": "Cooking cod, hake or haddock in a super-crispy fish batter made from sparkling water steams the fish so it's really moist",
+        "image": [
+          {
+            "@type": "ImageObject",
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1081511_12-860e65b.jpg?resize=440,400",
+            "width": 440,
+            "height": 400
+          }
+        ],
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.bbcgoodfood.com/recipes/golden-beer-battered-fish-chips"
+        },
+        "name": "Golden beer-battered fish with chips",
+        "url": "https://www.bbcgoodfood.com/recipes/golden-beer-battered-fish-chips",
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Sarah Cook",
+            "url": "https://www.bbcgoodfood.com/author/sarahcook"
+          }
+        ],
+        "dateModified": "2026-08-31T20:42:19+01:00",
+        "datePublished": "2012-09-21T05:13:32+01:00",
+        "headline": "Golden beer-battered fish with chips",
+        "keywords": "Batter, Battered fish, Beach, Beer, Beer batter, Chips, Classic, Fish and chips, Fish n chips, French fries, Fried fish, Good Food, Potato, Potatoes, Summer, Takeaway",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Good Food",
+          "url": "https://www.bbcgoodfood.com",
+          "logo": {
+            "@type": "ImageObject",
+            "height": 325,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2026/02/goodfood.logo-f37096c.png?resize=1312,325",
+            "width": 1312
+          }
+        },
+        "cookTime": "PT40M",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "892 calories",
+          "fatContent": "33 grams fat",
+          "saturatedFatContent": "4 grams saturated fat",
+          "carbohydrateContent": "97 grams carbohydrates",
+          "sugarContent": "3 grams sugar",
+          "fiberContent": "6 grams fiber",
+          "proteinContent": "45 grams protein",
+          "sodiumContent": "0.89 milligram of sodium"
+        },
+        "prepTime": "PT15M",
+        "recipeCategory": "Main course",
+        "recipeCuisine": "British",
+        "recipeIngredient": [
+          "50g plain flour",
+          "50g cornflour",
+          "1 tsp baking powder",
+          "turmeric",
+          "75ml lager beer",
+          "75ml sparkling water",
+          "about 1 litre sunflower oil for frying",
+          "400g fillet sustainable cod, hake or haddock halved",
+          "750g potatoes Maris Piper or Desiree, peeled and sliced into thick chips",
+          "2 tbsp plain flour",
+          "2 tbsp sunflower oil"
+        ],
+        "recipeInstructions": [
+          {
+            "@type": "HowToStep",
+            "text": "Combine the flour, cornflour, baking powder and turmeric in a large bowl, season, then spoon 1 tbsp onto a plate and set aside. Gradually pour the beer and water into the bowl, stirring with a wooden spoon until you have a smooth, lump-free batter. Leave to rest for 30 mins while you prepare the chips."
+          },
+          {
+            "@type": "HowToStep",
+            "text": "Heat oven to 200C/fan 180C/gas 6. Boil a large pan of water, then add the chipped potatoes and boil for 2-3 mins until the outsides are just tender but not soft. drain well, then tip onto a large baking tray with the flour, oil and some salt. Gently toss together until all the potatoes are evenly coated and the flour is no longer dusty. Roast for 30 mins, turning occasionally, until the chips are golden and crisp."
+          },
+          {
+            "@type": "HowToStep",
+            "text": "To cook the fish, heat the 1 litre oil in a deep saucepan until a drop of batter sizzles and crisps up straight away. Pat the fish dry with kitchen paper, then toss it in the reserved turmeric flour mix. Shake off any excess, then dip into the batter. Carefully lower each fillet into the hot oil and fry for 6-8 mins – depending on the thickness of the fish – until golden and crisp. Using a large slotted spoon, lift out the fish, drain on kitchen paper, then sprinkle with salt. Serve with the hot chips and Homemade tomato sauce (see 'goes well with')."
+          }
+        ],
+        "recipeYield": 2,
+        "totalTime": "PT1H25M"
+      },
+      "images": [
+        {
+          "alt": "Good Food logo in black",
+          "src": "https://images.immediate.co.uk/production/volatile/sites/30/2026/02/goodfood.logo-f37096c.png?quality=90&resize=120,30",
+          "parentText": ""
+        },
+        {
+          "alt": "Good Food logo in black",
+          "src": "https://images.immediate.co.uk/production/volatile/sites/30/2026/02/goodfood.logo-f37096c.png?quality=90&resize=600,149",
+          "parentText": ""
+        },
+        {
+          "alt": "",
+          "src": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1081511_12-860e65b.jpg?quality=90&resize=500,454",
+          "parentText": ""
+        },
+        {
+          "alt": "Homemade tomato sauce",
+          "src": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-12093_12-cd42d17.jpg?quality=90&resize=93,84",
+          "parentText": ""
+        },
+        {
+          "alt": "Watercress mayonnaise",
+          "src": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1244452_8-3ea2d87.jpg?quality=90&resize=93,84",
+          "parentText": ""
+        },
+        {
+          "alt": "Sarah Cook",
+          "src": "https://images.immediate.co.uk/production/volatile/sites/30/2012/02/Sarah-Cook-50f3b83.png?quality=90&resize=358,325",
+          "parentText": ""
+        },
+        {
+          "alt": "Good Good Trust Campaign",
+          "src": "https://images.immediate.co.uk/production/volatile/sites/30/2026/08/SM00387GF-TrustGF-brandsite-footer-promo-880x800-c729250.jpg?quality=90&resize=880,880",
+          "parentText": ""
+        },
+        {
+          "alt": "",
+          "src": "https://images.immediate.co.uk/production/volatile/sites/30/2026/03/Good-Food-App-Footer-Prepped-Not-Processed-01ed405.png?quality=90&resize=93,84",
+          "parentText": ""
+        },
+        {
+          "alt": "",
+          "src": "https://images.immediate.co.uk/production/volatile/sites/30/2026/09/footer-promo-880x800-1550004.png?quality=90&resize=93,84",
+          "parentText": ""
+        },
+        {
+          "alt": "Good Food Podcast with Samuel Goldsmith cover",
+          "src": "https://images.immediate.co.uk/production/volatile/sites/30/2024/12/Screenshot-2025-01-07-at-09.14.23-cf184bf.png?quality=90&resize=93,84",
+          "parentText": ""
+        },
+        {
+          "alt": "Good Food logo in white colour",
+          "src": "https://images.immediate.co.uk/production/volatile/sites/30/2026/03/GF-logo-white-01-5a856e9.png?quality=90&resize=220,51",
+          "parentText": ""
+        },
+        {
+          "alt": "Immediate company logo in white",
+          "src": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/ImmediateLogoRGBWhite-204b567.png?quality=90&resize=3873,767",
+          "parentText": ""
+        }
+      ],
+      "pageText": "Golden beer-battered fish with chips recipe | Good Food\nSkip to main content\nSubscribe\nSustainability\nGood Food Shows\nDownload our app\nNewsletters\nRecipes\nBack to\nMain menu\nNew and trending\nBack to\nRecipes\n7 day health reset\nSausage pastas\nCreamy soups\nQuick family dinners\nNewsletter recipes\nBack to\nRecipes\nFast midweek meals\nBatch cooking ideas\nSign up today\nWhatsApp feed\nWhat to cook\nBack to\nRecipes\nQuick and easy\nEveryday recipes\nFamily recipes\nOne-pots\nSlow cooker recipes\nTraybakes\nAir fryer recipes\nBatch cooking\nAll inspiration\nOccasion recipes\nBack to\nRecipes\nBack to school\nHalloween\nBonfire night\nMeal type\nBack to\nRecipes\nBreakfast\nLunch\nDinner\nBrowse all meal types\nDiet type\nBack to\nRecipes\nVegan\nVegetarian\nBrowse all diet types\nExplore\nBack to\nRecipes\nIngredients\nCuisines\nChef recipes\nExplore more\nHealth\nBack to\nMain menu\nHealth hub\nSubscribe\nBack to\nHealth\nNutracheck\nFree health newsletter\nFitness\nBack to\nHealth\nProtein 101\nMarathon meal plans\nYour health\nBack to\nHealth\nWomen's health\nImprove digestion\nHealthy eating\nBack to\nHealth\nVitamins and minerals\nWhat to eat\nWellbeing\nBack to\nHealth\nSleep better\nEat for energy\nWhat to buy\nBack to\nMain menu\nTrending\nBack to\nWhat to buy\nBest induction pans\nBest stand mixers\nBest kettles\nBest coffee machines\nHow we test\nMore reviews\nBack to\nWhat to buy\nBest pan sets\nBest knife sets\nBest frying pans\nBest collagen supplement\nBest coffee beans\nCoffee pod machines\nAll things coffee\nTaste tests\nDrinks reviews\nGift guides\nBudget\nBack to\nMain menu\nBatch cooking\nBack to\nBudget\nBudget batch cooking\nHealthy batch cooking\nVeggie batch cooking\nLeftovers ideas\nBack to\nBudget\nLeftover chicken recipes\nLeftover rice recipes\nLeftover potato recipes\nZero-waste\nBack to\nBudget\nFridge raid recipes\n5 waste-free meals\nPlanet-friendly cooking\nBudget meal plans\nBack to\nBudget\nStudent meal plan\nQuick family meal plan\n5-ingredient meal plan\nFreezable feasts\nBack to\nBudget\nFreezable family dinners\nFreezer-friendly pasta\nHealthy freezable meals\nCheap eats\nBack to\nBudget\nQuick budget dinners\nThrifty family feasts\nCheap and healthy\nBaking\nBack to\nMain menu\nCakes\nBack to\nBaking\nSummer cakes\nHealthy cakes\nBirthday cakes\nChocolate cakes\nCheesecakes\nBakes\nBack to\nBaking\nCookies\nBrownies\nScones\nBread\nBack to\nBaking\nSourdough\nFocaccia\nSubscribe\nSubscribe\nSustainability\nGood Food Shows\nDownload our app\nNewsletters\nSearch\nClear\nHome\nRecipes\nGolden beer-battered fish with chips\nGolden beer-battered fish with chips\nSarah Cook\nSave recipe\nServes 2\nMore effort\nPrep:\n15 mins\nCook:\n40 mins\nPlus 30 minutes resting\nA star rating of 4 out of 5.\n77 ratings\nRate\nloading...\nCooking cod, hake or haddock in a super-crispy fish batter made from sparkling water steams the fish so it's really moist\nDairy-free\nEgg-free\nNut-free\nPrint\nAd\nSkip to ingredients\nAlternatives\nComplete the dish\nLoading...\nShowing items 1 to 3 of 3\nHomemade tomato sauce\nA star rating of 4.5 out of 5.\n24 ratings\nWatercress mayonnaise\nA star rating of 5 out of 5.\n1 rating\nLooking for something with more kick? Try out the\nmasala fish\nrecipe.\nTest Kitchen tips for the perfect beer-battered fish and chips:\nMake sure the oil is fully up to temperature before adding the fish. If it's too cool, the batter will absorb the oil rather than turning light and crisp, so it's worth waiting those extra few minutes.\nPatting the fish dry before dipping it into the turmeric flour and batter is a small step that makes a big difference. We find the batter clings much more evenly, giving a crisp coating all over.\nOur favourite way to serve battered fish is with chunky chips, mushy peas and\nhomemade tartare sauce\n, with plenty of lemon wedges on the side. A splash of malt vinegar over the chips is a must.\nIf you have any leftover batter, we suggest using it is to coat onion rings or slices of courgette (or even courgette flowers) before frying. It's a great way to make the most of it and gives you an extra side to serve with the fish.\nIngredients\nNutrition\nUnits:\nMetric\nUS\nFor the fish\n50g\nplain flour\n50g\ncornflour\n1 tsp\nbaking powder\nturmeric\n75ml\nlager beer\n75ml\nsparkling water\nabout 1 litre\nsunflower oil\nfor frying\n400g fillet sustainable cod, hake or\nhaddock\nhalved\nFor the chips\n750g\npotatoes\nMaris Piper or Desiree, peeled and sliced into thick chips\n2 tbsp\nplain flour\n2 tbsp\nsunflower oil\nKeep the screen awake with cook mode on the\nGood Food app.\nNutrition: per serving\nkcal\n892\nfat\n33\ng\nsaturates\n4\ng\ncarbs\n97\ng\nsugars\n3\ng\nlow\nfibre\n6\ng\nhigh\nprotein\n45\ng\nhigh\nsalt\n0.89\ng\nlow\nAd\nMethod\nstep 1\nCombine the flour, cornflour, baking powder and turmeric in a large bowl, season, then spoon 1 tbsp onto a plate and set aside. Gradually pour the beer and water into the bowl, stirring with a wooden spoon until you have a smooth, lump-free batter. Leave to rest for 30 mins while you prepare the chips.\nstep 2\nHeat oven to 200C/fan 180C/gas 6. Boil a large pan of water, then add the chipped potatoes and boil for 2-3 mins until the outsides are just tender but not soft. drain well, then tip onto a large baking tray with the flour, oil and some salt. Gently toss together until all the potatoes are evenly coated and the flour is no longer dusty. Roast for 30 mins, turning occasionally, until the chips are golden and crisp.\nstep 3\nTo cook the fish, heat the 1 litre oil in a deep saucepan until a drop of batter sizzles and crisps up straight away. Pat the fish dry with kitchen paper, then toss it in the reserved turmeric flour mix. Shake off any excess, then dip into the batter. Carefully lower each fillet into the hot oil and fry for 6-8 mins – depending on the thickness of the fish – until golden and crisp. Using a large slotted spoon, lift out the fish, drain on kitchen paper, then sprinkle with salt. Serve with the hot chips and Homemade tomato sauce (see 'goes well with').\nSarah Cook\nSarah is a food writer, recipe developer and stylist, and former Food Editor at BBC Good Food magazine. She has developed and edited recipes for magazines, cookbooks and commercial projects, and previously taught food styling at Leiths School of Food & Wine. Sarah now works independently, writing and editing cookbooks, developing recipes and styling food.\nSee more of Sarah's recipes\n.\nRecipe from Good Food magazine,\nSeptember 2008\nAd\nComments, questions and tips\nRate this recipe\nWhat is your star rating out of 5?\n1 star out of 5\n2 stars out of 5\n3 stars out of 5\n4 stars out of 5\n5 stars out of 5\nChoose the type of message you'd like to post\nChoose the type of message you'd like to post\nComment\nQuestion\nTip\nOverall rating\nA star rating of 4 out of 5.\n77 ratings\nAd\nAd\nGet 3 months of Good Food All Access\nGet\n3 months of Good Food All Access for just £6\n. F\nind triple-tested recipes that take the stress out of deciding what to cook, spend less time planning, and more time enjoying the season.\nSubscribe now\nLoading...\nAd\nLoading...\nLoading...\nExplore our recipe app\nSubscribe now and get access to exclusive recipes, meal plans, podcasts and more.\nTry today\nAll Access subscription: Magazine & App\nGood Food magazine and our award winning app in one premium subscription. Subscribe now for our Christmas issue\nSubscribe today\nPodcast\nOur food team shares tips, techniques and their all-time favourite recipes in our lively weekly podcast.\nMore\nVisit us on Facebook\nVisit us on Twitter\nVisit us on Instagram\nVisit us on Pinterest\nVisit us on Youtube\nVisit us on Tiktok\nVisit us on Rss\nAbout us\nContact Us\nPrivacy Queries\nPrivacy Policy\nTerms & Conditions\nCookies Policy\nComplaints escalation\nAdvertise\nAccessibility\nSustainability\nAI Policy\nManage Privacy Settings\nThis website is owned and published by Immediate Media Company Limited. The domain name is used under licence from BBC Studios Distribution Limited.\n©\nImmediate 2026\nNutracheck.co.uk\nOliveMagazine.com\nGoodFoodShow.com\nRadioTimes.com\nHistoryExtra.com\nGardenersWorld.com\nMadeForMums.com\nBarbecue\nDietary needs\nHealthy eating\nSeasonal\nBread, pastry & cakes\nDinner ideas\nNuts & seeds\nSoups\nBreakfast\nDinner party\nPoultry\nSpecial occasions\nCasserole & slow cooker\nDrinks\nPulses & grains\nSweet treats\nCheese\nEaster\nQuick & easy budget meals\nVegan\nChristmas\nFamily friendly\nRed meat & game\nVegetables\nCuisine\nFish & seafood\nReligious events\nVegetarian\nDesserts\nFruit\nSalads\nUS recipes",
+      "encoding": "utf-8",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "queries": [
+      {
+        "recipeId": "west-002",
+        "query": "pizza margherita"
+      },
+      {
+        "recipeId": "west-007",
+        "query": "fish and chips"
+      },
+      {
+        "recipeId": "west-008",
+        "query": "seafood paella"
+      }
+    ],
+    "result": "Empty search results\nNo results were found for the provided queries"
+  },
+  {
+    "queries": [
+      {
+        "recipeId": "west-019",
+        "query": "bouillabaisse"
+      },
+      {
+        "recipeId": "west-022",
+        "query": "moussaka"
+      },
+      {
+        "recipeId": "west-023",
+        "query": "Greek salad"
+      }
+    ],
+    "result": "Empty search results\nNo results were found for the provided queries"
+  },
+  {
+    "queries": [
+      {
+        "recipeId": "west-025",
+        "query": "Swedish meatballs"
+      },
+      {
+        "recipeId": "west-028",
+        "query": "chicken quesadilla"
+      },
+      {
+        "recipeId": "west-029",
+        "query": "eggs Benedict"
+      }
+    ],
+    "result": "Empty search results\nNo results were found for the provided queries"
+  }
+]

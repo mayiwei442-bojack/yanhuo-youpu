@@ -1,0 +1,76 @@
+{
+  "recipeId": "west-024",
+  "authorization": "user_confirmed_2026-09-16",
+  "sourceUrl": "https://www.bbcgoodfood.com/recipes/chicken-schnitzel-coleslaw",
+  "recipePageUrl": "https://www.bbcgoodfood.com/recipes/chicken-schnitzel-coleslaw",
+  "referer": "https://www.bbcgoodfood.com/recipes/chicken-schnitzel-coleslaw",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2014/09/Chicken-schnitzel-with-coleslaw-b53b41f.jpg?resize=768,698",
+      "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/hero.jpg",
+      "httpStatus": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 2,
+      "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2025/02/1-Flattened-chicken-780c12c.jpg",
+      "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-2.jpg",
+      "adjacentText": "Place a layer of cling film on your work surface and pop the chicken fillets on top. Cover with another piece of cling film and, using a rolling pin, bash the chicken until it is 2-3mm thick.",
+      "pageOrder": 2,
+      "httpStatus": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 3,
+      "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2025/02/2.-Flour-and-egg-b3da00a.jpg",
+      "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-3.jpg",
+      "adjacentText": "Put the flour on a plate and season, then put the egg on another plate.",
+      "pageOrder": 3,
+      "httpStatus": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 4,
+      "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2025/02/4.-Flouring-chicken-b47a30d.jpg",
+      "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-4.jpg",
+      "adjacentText": "Dip the chicken in the flour to coat, then into the egg.",
+      "pageOrder": 4,
+      "httpStatus": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 5,
+      "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2025/02/6.-Chicken-in-panko-05ff6b9.jpg",
+      "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-5.jpg",
+      "adjacentText": "Mix together the breadcrumbs and Parmesan in a shallow bowl, then toss the chicken in the mixture to completely coat in the crumbs. Put the chicken on a plate and chill in the fridge until ready to eat if you’re not cooking them straight away.",
+      "pageOrder": 5,
+      "httpStatus": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 6,
+      "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2025/02/8.-Chicken-cooking-f8bfdec.jpg",
+      "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-6.jpg",
+      "adjacentText": "Heat the oil in a large frying pan over a fairly high heat and cook the chicken schnitzels two at a time.",
+      "pageOrder": 6,
+      "httpStatus": 200,
+      "contentType": "image/jpeg"
+    },
+    {
+      "role": "step",
+      "stepOrder": 7,
+      "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2025/02/11.-Finished-golden-chicken-4f1c806.jpg",
+      "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-7.jpg",
+      "adjacentText": "Sizzle them for 2-3 mins each side until completely golden, then lift out onto kitchen paper to drain. You can keep them warm in a low oven while you cook the rest. Serve with the coleslaw.",
+      "pageOrder": 7,
+      "httpStatus": 200,
+      "contentType": "image/jpeg"
+    }
+  ]
+}

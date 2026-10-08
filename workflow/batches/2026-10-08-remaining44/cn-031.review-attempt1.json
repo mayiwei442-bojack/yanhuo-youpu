@@ -1,0 +1,8 @@
+{
+  "status":"FAIL",
+  "issues":[{"field":"generated.allergens","message":"基础配方使用蚝油2茶匙，素蚝油只是可选替代；生成结果仅列soy，遗漏基础蚝油对应的shellfish。请修复生成过敏原识别后重新生成并验证，不能通过删掉源配方蚝油或将素蚝油设为唯一用料规避。"}],
+  "summary":"cn-031：单一完整来源的食材、分两次用油、豆腐擦干/厚度、铸铁锅与不粘锅预热区别、煎时中火、每面3—5分钟及金黄判断、葱白葱绿分开投入、肉末熟透、先煮沸调味液再加入豆腐均忠实保留。30分钟与4人份有据，图片对应正确；12条食材和8步的语义、语法、标点及分隔渲染审查通过。当前失败项为蚝油基础配方的贝类过敏原漏标。",
+  "evidencePackageHash":"008ee7fe0f3aedd18354679412b2d87a575dfcf6279af751b62099b202f57777",
+  "validatorPassed":true,
+  "adversarialReview":{"ingredientSemantics":true,"stepGrammar":true,"punctuation":true,"renderedStructure":true}
+}

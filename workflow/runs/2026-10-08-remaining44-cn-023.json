@@ -1,0 +1,84 @@
+{
+  "runId": "2026-10-08-remaining44-cn-023",
+  "recipeId": "cn-023",
+  "recipeName": "小鸡炖蘑菇",
+  "category": "chinese",
+  "status": "failed",
+  "startedAt": "2026-10-08T11:56:52.318Z",
+  "completedAt": "2026-10-08T12:48:15.408Z",
+  "steps": {
+    "research": {
+      "status": "failed",
+      "attempts": 1,
+      "details": {
+        "resultPath": "workflow/batches/2026-10-08-remaining44/cn-023.research-failure.json",
+        "bookSearch": {
+          "auditFile": "cn-book-inventory.json",
+          "scannedDocuments": 84,
+          "usableDocuments": 79,
+          "exactOrAcceptableAliasMatches": 0,
+          "excludedStatuses": [
+            "superseded",
+            "rejected",
+            "invalid"
+          ],
+          "assessment": "No complete same-dish recipe in current database books; no book supplementation fabricated."
+        }
+      }
+    },
+    "ingestion": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "edit": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "validator": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "review": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "build": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "gitPush": {
+      "status": "pending",
+      "attempts": 0
+    }
+  },
+  "sources": [
+    {
+      "name": "The Woks of Life",
+      "url": "https://thewoksoflife.com/chinese-braised-chicken-with-mushrooms/",
+      "status": "failed",
+      "failureReason": "normalwebsuccess; ShanghaiJadeTempleinspired chickenwings/driedshiitake/woodear, notNortheasternhazelmushroomchicken, rejectedvariant"
+    },
+    {
+      "name": "豆果美食",
+      "url": "https://m.douguo.com/caipu/小鸡炖蘑菇",
+      "status": "failed",
+      "failureReason": "normalweb inaccessible"
+    },
+    {
+      "name": "The Woks of Life",
+      "url": null,
+      "status": "failed",
+      "failureReason": "Accessible Chinese Braised Chicken with Mushrooms uses chicken wings, shiitake and wood ear, inspired by Shanghai Jade Temple; distinct from Northeast chicken/hazel-mushroom stew."
+    }
+  ],
+  "errors": [
+    {
+      "step": "research",
+      "code": "NO_QUALIFYING_COMPLETE_SOURCE",
+      "message": "Woks上海双菇鸡翅炖菜属于不同地区和配方变体；未用它替代东北小鸡炖蘑菇。豆果目录页不可读。",
+      "at": "2026-10-08T12:48:15.408Z"
+    }
+  ],
+  "branch": "codex/recipe-automation",
+  "commit": null
+}

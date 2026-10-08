@@ -1,0 +1,67 @@
+{
+  "runId": "2026-10-08-remaining44-cn-015",
+  "recipeId": "cn-015",
+  "recipeName": "兰州清汤牛肉面",
+  "category": "chinese",
+  "status": "failed",
+  "startedAt": "2026-10-08T11:56:52.318Z",
+  "completedAt": "2026-10-08T12:48:15.120Z",
+  "steps": {
+    "research": {
+      "status": "failed",
+      "attempts": 1,
+      "details": {
+        "resultPath": "workflow/batches/2026-10-08-remaining44/cn-015.research-failure.json"
+      }
+    },
+    "ingestion": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "selectedDocumentId": "a4076148-4892-4817-9692-070337ba2939",
+        "documentIds": [
+          "a4076148-4892-4817-9692-070337ba2939"
+        ],
+        "ragEvidence": 6
+      }
+    },
+    "edit": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "validator": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "review": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "build": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "gitPush": {
+      "status": "pending",
+      "attempts": 0
+    }
+  },
+  "sources": [
+    {
+      "name": "The Woks of Life",
+      "url": "https://thewoksoflife.com/lanzhou-beef-noodle-soup/",
+      "status": "failed",
+      "failureReason": "Mandatory soup-bone roasting at 400 degrees lacks Fahrenheit/Celsius unit in accessible complete source; no explicit alternative, no unit inferred."
+    }
+  ],
+  "errors": [
+    {
+      "step": "research",
+      "code": "NO_QUALIFYING_COMPLETE_SOURCE",
+      "message": "Mandatory soup-bone roasting at 400 degrees lacks Fahrenheit/Celsius unit in accessible complete source; no explicit alternative, no unit inferred.",
+      "at": "2026-10-08T12:48:15.120Z"
+    }
+  ],
+  "branch": "codex/recipe-automation",
+  "commit": null
+}

@@ -1,0 +1,344 @@
+Chicken Schnitzel Recipe (https://www.seriouseats.com/chicken-schnitzel-recipe)
+citeturn29view0 [wordlim: 100] Crawled: today; Content type: text/html; Source: open({"ref_id":"turn26view2","lineno":140}); Total lines: 238
+L72: ## Flat Is Beautiful: For the Best Chicken Schnitzel, Pounding Thin Is Key
+L73: 
+L74: After the chicken is brined, it's time to get it into the right shape. This requires pounding the breasts to a uniform thickness, which guarantees that the chicken cooks evenly and provides a lot of surface area for the breading, maximizing the flavor and crunch that makes schnitzel so good.
+L75: Most recipes call for pounding the chicken between two pieces of plastic wrap, parchment, or wax paper. I've suffered too many chicken splatters using that method, so I've employed what seems to be a more fail-safe method—a Ziploc bag. A thicker, sealed bag won't break like plastic wrap or wax paper sometimes do, and the juices won't go flying all around your kitchen, which, in my book, is definitely worth the slightly higher cost.
+L76: To get started, I remove the tender (if there is one)—the tender will often dangle and make breading and cooking a pain, so I just fry it separately—and seal a chicken breast in a bag. Then I take my trusty rolling pin and go to town on the cutlet, smacking it until it's about 1/4-inch thick, making sure to work my way around the breast so that it's evenly flattened. I've yet to invest in a meat pounder since my rolling pin, or a heavy pan, performs this task just fine.
+L77: ## Making the Breadcrumbs
+L78: 
+L79: cite15†Image: Slices of toasted white bread resting on a pulled out oven rack. cite15†Image: Slices of toasted white bread resting on a pulled out oven rack. L80: 
+L81: Serious Eats
+L82: The one schnitzel factor I've experimented with most is the breadcrumbs. I quickly ditched store-bought crumbs, which often taste stale or cardboard-like, and switched to homemade. This opened a Pandora's box of options, though, so finding the one that would deliver the proper amount of coating—you don't want it too thick or too thin—and the right flavor required a lot of trial and error.
+L83: I've made breadcrumbs with fresh bread, but it doesn't stick well and can coat unevenly. Super-stale bread quickly turns into powder in the food processor; darkly toasted bread can taste burnt once fried; and fancy bread doesn't add enough flavor to justify the cost. What I've settled on is decent-quality white bread (something I almost always have on-hand), which I toast to a medium-golden brown, and then grind in a food processor into medium-fine crumbs.
+L84: The toasting dries out the bread just enough for it to break down in a food processor, but leaves enough moisture that the breadcrumbs retain some heft. (A blender can work too, but a food processor produces more uniform crumbs.) The result is breadcrumbs that stick well and produce a coating that isn't too skimpy or thick.
+L85: ## The Breading Process
+L86: 
+L87: cite16†Image: Dishes of breadcrumbs, beaten egg, and flour resting side-by-side on a countertop. cite16†Image: Dishes of breadcrumbs, beaten egg, and flour resting side-by-side on a countertop. L88: 
+L89: Serious Eats
+L90: With the chicken brined and pounded and the crumbs ready, it's time for the breading process. I start with a coating of flour, giving the chicken a dry surface so the beaten egg adheres to the meat. I let excess egg wash drain off by holding the chicken over the bowl, and then transfer the cutlet to the breadcrumbs.
+L91: I pat down the breadcrumbs to make sure they stick well. Then I let the chicken rest on a wire rack set on a sheet pan—this allows the breading to dry out a bit, ensuring the coating remains on the chicken during frying.
+L92: ## Fry Time
+L93: 
+L94: In an ideal world, I'd deep-fry my schnitzel because it browns the most evenly that way, but that would mean a large Dutch oven with about two quarts of oil—such a big undertaking, I'd probably never go to the trouble. So I've become proficient at pan-frying, which actually has some advantages over deep-frying.
+L95: The most obvious is that it requires a lot less oil: I fill a 12-inch cast iron skillet with about 2 cups of canola or peanut oil, both of which have a neutral flavor and can withstand high heat. Plus, the shallow oil means the schnitzel comes in direct contact with the bottom of the pan, which browns the breadcrumbs faster and helps ensure the thin chicken cutlet and coating are done at the same time.
+L96: Contact with the pan, though, can be a bit of a curse as well: Since the slightly uneven surface of the chicken may not touch the bottom of the pan evenly, some portions of the schnitzel can brown faster than others. To combat uneven browning, I regularly look under the cutlet and flip it every time I notice the breading browning too much or too fast. This means it's not just one flip halfway through cooking, but multiple flips based on appearance.
+L97: I fry the chicken in 375°F oil until it reaches a deep golden brown. At this cooking temperature, I've never had the chicken come out undercooked once the coating is properly browned, but if you're a stickler for temperature, you can test the doneness using an instant-read thermometer, which should register between 150 and 160°F when inserted into the middle of the meat.
+L98: ## Draining
+L99: 
+L100: cite17†Image: Draining a just-fried chicken schnitzel on paper towels. cite17†Image: Draining a just-fried chicken schnitzel on paper towels. L101: 
+L102: Serious Eats
+L103: 
+L104: Once the chicken is done, it's time to drain the excess oil so the schnitzel is beautifully crunchy, without any greasiness or sogginess. A paper towel-lined plate does this best, with a flip of the schnitzel after a minute or two to get the oil wicked away from both sides.
+L105: If I'm cooking more than three or four schnitzels, I'll set a wire rack on a sheet pan in a warm oven, and I'll transfer the cutlets to it after they've drained. This not only keeps the chicken warm while I continue cooking the rest, but the rack allows air to flow around the entire schnitzel so the bottom doesn't become soggy.
+L106: ## Glorious Schnitzel
+L107: 
+L108: cite18†Image: Chicken schnitzel on a white plate with a lemon wedge and a serving of tomato cucumber salad.  cite18†Image: Chicken schnitzel on a white plate with a lemon wedge and a serving of tomato cucumber salad.  L109: 
+L110: Serious Eats
+L111: This may sound like a lot of work, but I can usually churn out a batch of four schnitzels in about an hour, which works well for me as a weeknight meal. Once you have the process down, it's not that much of a hassle, and the results are glorious—juicy, tender chicken with a golden, crunchy exterior that is almost impossible to resist.
+L112: With schnitzel this good, it's no mystery it has stood the test of time and has remained the most-cooked dish in my home. A Friday dinner just doesn't feel complete without a plate loaded with schnitzel, a wedge of lemon, and a light salad by its side.
+L113: ### April 2014
+L114: 
+L115: Prep Time:
+L116: 
+L117: 15 mins
+L118: 
+L119: Cook Time:
+L120: 
+L121: 25 mins
+L122: 
+L123: Brining Time:
+L124: 
+L125: 30 mins
+L126: 
+L127: Total Time:
+L128: 
+L129: 1 hr 10 mins
+L130: 
+L131: Servings:
+L132: 
+L133: 4 servings
+L134: 
+L135: Yield:
+L136: 
+L137: Serves 4
+L138: 
+L139: [Button: Jump to Nutrition Facts]
+L140: 
+L141: Keep Screen Awake
+L142: ## Ingredients
+L143: 
+L144:   * 2 quarts plus 2 tablespoons cold water, divided
+L145: 
+L146:   * 1/3 cup kosher salt
+L147: 
+L148:   * 4 boneless skinless chicken breast halves, tenders removed, about 8 ounces each
+L149: 
+L150:   * 12 slices white bread
+L151: 
+L152:   * 1 cup all-purpose flour
+L153: 
+L154:   * 2 large eggs
+L155: 
+L156:   * 2 cups canola oil, peanut oil, or melted cite19†homemade or store-bought clarified butter
+L157: 
+L158:   * 1 tablespoon finely minced parsley, for garnish
+L159: 
+L160:   * 1 medium lemon, sliced into 4 wedges
+L161: ## Directions
+L162: 
+L163:   1. Whisk together 2 quarts of water and salt in a large bowl until salt is dissolved. Place the chicken breast halves in brine and refrigerate for 30 minutes.
+L164: 
+L165: cite20†Image: Chicken breast halves submerged in brine inside of a white ceramic bowl on a teal background. cite20†Image: Chicken breast halves submerged in brine inside of a white ceramic bowl on a teal background. L166: 
+L167: Serious Eats / Mateja Zvirotic Andrijanic
+L168:   2. Meanwhile, toast bread until golden brown. Tear toasted bread into large pieces, transfer to a food processor, and pulse until bread is broken down into medium-fine crumbs. Transfer breadcrumbs to a large shallow dish.
+L169: cite21†Image: A vertical two-image collage. The top image shows four slices of toasted bread on a plate, while the bottom photo shows a food processor filled with breadcrumbs made from the processed toasted bread. cite21†Image: A vertical two-image collage. The top image shows four slices of toasted bread on a plate, while the bottom photo shows a food processor filled with breadcrumbs made from the processed toasted bread. L170: 
+L171: Serious Eats / Mateja Zvirotic Andrijanic
+L172:   3. Remove chicken from brine and pat dry with paper towels. Place one chicken breast half in a resealable plastic bag. Using a meat pounder, rolling pin, or small skillet, pound chicken breast into an even thickness about 1/4-inch in height. Repeat with remaining 3 breasts.
+L173: cite22†Image: Chicken breast inside of a sealed zipper-lock bag, pounded to an even one-quarter inch thickness, with a metal meat pounder next to the bag. The bag and hammer are both on a wooden background. cite22†Image: Chicken breast inside of a sealed zipper-lock bag, pounded to an even one-quarter inch thickness, with a metal meat pounder next to the bag. The bag and hammer are both on a wooden background. L174: 
+L175: Serious Eats / Mateja Zvirotic Andrijanic
+L176:   4. Set wire rack on a sheet pan. Place flour in a large shallow dish. Place eggs in another large shallow dish and beat with remaining 2 tablespoons water until uniform in color. Coat one chicken cutlet in flour, shaking off any excess. Transfer chicken cutlet to egg wash and coat evenly, letting any excess run off. Transfer to bread crumbs and coat evenly, pressing lightly to ensure bread crumbs adhere. Place chicken on a wire rack. Repeat with remaining 3 chicken breast halves.
+L177: cite23†Image: A horizontal, four-image collage showing the steps required to bread the chicken. The top left photo shows the pounded chicken cutlets dredged in flour. The top right image shows the dredged chicken cutlet being submerged in beaten eggs in a shallow bowl. The bottom left image shows a dredged-and-egg-coated cutlet in a shallow bowl of fine breadcrumbs.
+L178: The bottom right image shows four chicken cutlets which have been dredged, dipped in egg, and then dipped in breadcrumbs, resting on a wire rack set inside of a quarter sheet pan. cite23†Image: A horizontal, four-image collage showing the steps required to bread the chicken. The top left photo shows the pounded chicken cutlets dredged in flour. The top right image shows the dredged chicken cutlet being submerged in beaten eggs in a shallow bowl.
+L179: The bottom left image shows a dredged-and-egg-coated cutlet in a shallow bowl of fine breadcrumbs. The bottom right image shows four chicken cutlets which have been dredged, dipped in egg, and then dipped in breadcrumbs, resting on a wire rack set inside of a quarter sheet pan. L180: Serious Eats / Mateja Zvirotic Andrijanic
+L181: 
+L182:   5. Heat oil in a 12-inch skillet to 375°F. Place one chicken cutlet in oil and fry until golden brown on both sides, about 2 minutes per side, flipping as needed if bread crumbs begin to darken too much. Transfer schnitzel to paper towel-lined plate. Repeat with remaining three chicken breast halves. Garnish with parsley and serve immediately with lemon wedges.
+L183: cite24†Image: A vertical two-image collage showing the breaded chicken cutlets being cooked. The top image shows a cutlet being fried in a pan of hot oil, with the frying evidenced by the cutlet being surrounded by many fine bubbles. The bottom image shows the golden brown, fully cooked cutlet resting on a white paper towel. cite24†Image: A vertical two-image collage showing the breaded chicken cutlets being cooked.
+L184: The top image shows a cutlet being fried in a pan of hot oil, with the frying evidenced by the cutlet being surrounded by many fine bubbles. The bottom image shows the golden brown, fully cooked cutlet resting on a white paper towel. L185: Serious Eats / Mateja Zvirotic Andrijanic
+L186: ## Special Equipment
+L187: 
+L188: cite25†Food processor L189: 
+L190: ## Notes
+L191: 
+L192: The tenders removed from each breast can be breaded and fried separately. After draining on paper towels, schnitzel can be held in a warm oven on a wire rack set on sheet pan.
+L193: 
+L194: Save
+L195: 
+L196: Rate
+L197: 
+L198: Print [Input]
+L199: ## Nutrition Facts (per serving)
+L200: 
+L201: 779  | Calories
+L202: 31g  | Fat
+L203: 42g  | Carbs
+L204: 80g  | Protein
+L205: 
+L206: Show Full Nutrition Label Hide Full Nutrition Label
+L207: 
+L208: Nutrition Facts
+L209: ---
+L210: Servings Per Recipe 4
+L211: ---
+L212: Calories 779
+L213: ---
+L214: % Daily Value *
+L215: Total Carbohydrate 42g  | 15%
+L216: Dietary Fiber 3g  | 9%
+L217: Total Sugars 4g
+L218: Protein 80g  | 160%
+L219: Total Fat 31g  | 39%
+L220: Saturated Fat 5g  | 24%
+L221: Cholesterol 286mg  | 95%
+L222: Vitamin C 17mg  | 19%
+L223: Sodium 1459mg  | 63%
+L224: Calcium 151mg  | 12%
+L225: Iron 6mg  | 32%
+L226: Potassium 747mg  | 16%
+L227: * Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs.
+L228: 
+L229: Loading shell for RecipesUgcThreaded1 Vue component in Globe.
+L230: ## Related Articles
+L231: 
+L232: cite26†Lemon-Marinated Tuscan-Jewish Fried Chicken 2 hrs cite27†Gluten-Free Fried Chicken Strips Recipe 1 hr cite28†Chicken Pepper Fry Recipe 1 hr 10 mins cite29†Chinese-American Orange Chicken Recipe 35 mins cite30†Maryland Fried Chicken With White Gravy Recipe 40 mins cite31†Japanese-Style Fried Chicken Thighs (Gluten-Free Karaage) Recipe 12 hrs 26 mins cite32†The Best Fried Chicken Recipe Ever? 17 hrs 25 mins cite33†Northern Fried Chicken Recipe | Cook the Book 50 mins L233: cite34†Refried Popeye's (A.K.A.
+L234: Extra Crispy Popeye's Fried Chicken) Recipe 8 hrs 15 mins cite35†Buttermilk-Thyme Chicken Tenders with Cranberry Mustard and Sweet Potato Fries Recipe 1 hr 50 mins cite36†Green Chile Fried Chicken Recipe 12 hrs 40 mins cite37†Chicken Piccata (Fried Chicken Cutlets With Lemon-Butter Pan Sauce) 45 mins cite38†Easy Breaded Fried Chicken Cutlets Recipe 40 mins cite39†Homemade Chick-fil-A Sandwiches Recipe 6 hrs 35 mins cite40†Popeyes-Style Chicken Tenders From 'Fried & True' 8 hrs 50 mins cite41†Chicken-Fried Chicken With Cream Gravy Recipe 4 hrs 55 mins L235: Newsletter Sign Up
+L236: 
+L237: Newsletter Sign Up
+--------------------------------------------------------------------------------
+Provençal Ratatouille Recipe (https://www.seriouseats.com/ratatouille-provence-vegetable-stew-recipe)
+citeturn29view1 [wordlim: 100] Crawled: today; Content type: text/html; Source: open({"ref_id":"turn28view3","lineno":200}); Total lines: 311
+L119: cite27†Image: Diced squash being sautéed in a skillet. The author is tossing the vegetables in the pan by deftly flicking the pan so that the pieces of squash are launched into the air. cite27†Image: Diced squash being sautéed in a skillet. The author is tossing the vegetables in the pan by deftly flicking the pan so that the pieces of squash are launched into the air. L120: Cooking each vegetable separately helps maintain their shapes and individual flavors in the final dish—but the differences aren't as drastic as you might expect.
+L121: 
+L122: Serious Eats / Vicky Wasik
+L123: If you have a good sense of the relative cooking times of your vegetables, it's also possible to do a hybrid of the two methods. In that case, what you'd do is add each vegetable to the pot in a sequence based on roughly how long they need to cook, starting with the onion and garlic, then adding the bell peppers soon after, followed by the squash and eggplant, and finally the tomato.
+L124: It's not as accurate as cooking them individually, but it's still a little more tailored to each vegetable's need than the one-pot method.
+L125: A few things worth noting: First, I didn't test larger vegetable pieces, and it's possible that you'd see a bigger difference between one-pot and separately cooked versions in that case. I'm just wedded to using smaller pieces, so it wasn't a question I cared to explore, but it's worth considering if you cut your vegetables larger.
+L126: Second, while the individually cooked approach requires more of your attention, don't assume that it also requires more of your time. Sautéing each vegetable one after another certainly stretches the process out, but if you're comfortable juggling multiple pans at once, you'll actually reduce your total cooking time compared to the one-pot approach.
+L127: Third, some of you may be wondering whether there are any browned bits on the bottom of the skillet that would be worth collecting by deglazing and then adding to the final pot of ratatouille. To find out, I deglazed my pan with water after sautéing each of the vegetables, let it reduce down to just a few tablespoons, and tasted it. Turns out, it tastes like very little. Skip it.
+L128: ## Fresh Diced Tomato Versus Tomato Purée
+L129: 
+L130: cite28†Image: Two ramekins holding batches of ratatouille made with fresh tomatoes and puréed tomatoes, respectively. The fresh-tomato batch is not nearly as red or as saucy. cite28†Image: Two ramekins holding batches of ratatouille made with fresh tomatoes and puréed tomatoes, respectively. The fresh-tomato batch is not nearly as red or as saucy. L131: 
+L132: Fresh diced tomato, at left; pureed tomatoes, at right.
+L133: 
+L134: Serious Eats / Vicky Wasik
+L135: The last big question for me concerned the tomatoes. It's the peak of summer, so you have your pick of fresh, seasonal tomatoes to use, which you can dice and cook into the dish. Alternatively, you can make a purée of cooked tomatoes, either from fresh or by crushing or blending canned ones and adding that to the pot.
+L136: I tried it both ways, and the results are striking. You can immediately see the difference—despite plenty of cooking, the diced fresh tomato maintained its shape to the end, while the puréed tomatoes acted as a sauce, coating everything in a red sheen and helping to bind it all together. As you can imagine, the tomato flavor is more pervasive when added as purée, since it glazes every other vegetable in the dish.
+L137: Once again, this comes down to personal preference: If you want a more lusty, tomato-tinged ratatouille, the purée, whether from canned or fresh tomatoes, is a no-brainer. If you want the other vegetables, like the eggplant, to shine through more, go with diced fresh tomatoes. I prefer the purée, so that's what I've called for in my recipe.
+L138: ## Ratatouille: Step by Step
+L139: 
+L140: I start by salting the eggplant and squash and letting them stand in a strainer set over a bowl for between 15 and 30 minutes.
+L141: 
+L142: Whether doing the individually cooked or the one-pot approach, I then sweat onion and garlic in olive oil. For the one-pot approach, the next step is to combine everything else in the pot and let it cook until done.
+L143: 
+L144: cite29†Image: Onions and garlic being sautéed in a skillet. cite29†Image: Onions and garlic being sautéed in a skillet. L145: Serious Eats / Vicky Wasik
+L146: 
+L147: For the individually cooked approach, as each vegetable finishes cooking, I transfer it to a baking sheet to cool slightly. Spreading the pieces in a thin, even layer allows them to cool more evenly.
+L148: 
+L149: cite30†Image: Sautéed summer squash being cooled on a rimmed baking sheet. cite30†Image: Sautéed summer squash being cooled on a rimmed baking sheet. L150: 
+L151: Serious Eats / Vicky Wasik
+L152: I repeat this with the remaining ingredients. As each finishes, I scrape whatever is currently on the baking sheet into a pot and spread the next vegetable on the sheet to cool a little.
+L153: 
+L154: cite31†Image: Author transferring cooked bell pepper to a rimmed baking sheet to cool. cite31†Image: Author transferring cooked bell pepper to a rimmed baking sheet to cool. L155: 
+L156: Serious Eats / Vicky Wasik
+L157: 
+L158: Once everything is in the pot, I set it over low heat and add the tomato.
+L159: cite32†Image: Author stirring the cooked, diced vegetables in a saucepan with a spatula. cite32†Image: Author stirring the cooked, diced vegetables in a saucepan with a spatula. L160: 
+L161: Serious Eats / Vicky Wasik
+L162: 
+L163: I also add herbs at this point; here, it's a bundle of basil, parsley, and thyme.
+L164: cite33†Image: Close-up of a bundle of thyme and basil sprigs tied with a length of twine. The bundle has been added to the saucepan to flavor ratatouille. cite33†Image: Close-up of a bundle of thyme and basil sprigs tied with a length of twine. The bundle has been added to the saucepan to flavor ratatouille. L165: 
+L166: Serious Eats / Vicky Wasik
+L167: Herb garnishes are up to you, too. In these photos, I've stirred in some chopped parsley, but you could use basil, another herb, or just leave it out altogether. I'll often also stir in a bit more fresh olive oil for flavor at the end.
+L168: 
+L169: cite34†Image: Close-up of the finished ratatouille, flecked with chopped parsley. cite34†Image: Close-up of the finished ratatouille, flecked with chopped parsley. L170: 
+L171: Serious Eats / Vicky Wasik
+L172: When it's all done, there actually is one point on which I maintain my religious feelings: As good as ratatouille is hot, it's so, so much better when eaten slightly chilled or at room temperature the next day.
+L173: ### August 2015
+L174: 
+L175: Prep Time:
+L176: 
+L177: 5 mins
+L178: 
+L179: Cook Time:
+L180: 
+L181: 40 mins
+L182: 
+L183: Draining and Cooling Time:
+L184: 
+L185: 25 mins
+L186: 
+L187: Total Time:
+L188: 
+L189: 1 hr 10 mins
+L190: 
+L191: Servings:
+L192: 
+L193: 4 to 6 servings
+L194: 
+L195: Yield:
+L196: 
+L197: 2 quarts
+L198: 
+L199: [Button: Jump to Nutrition Facts]
+L200: 
+L201: Keep Screen Awake
+L202: ## Ingredients
+L203: 
+L204:   * 3 cups 1/4-inch diced summer squash, such as zucchini and yellow squash (about 4 small or 2 medium squash)
+L205: 
+L206:   * 3 cups 1/4-inch diced Italian eggplant (about 1 medium eggplant)
+L207: 
+L208:   * Kosher salt and freshly ground black pepper
+L209: 
+L210:   * 3/4 cup (12 tablespoons) extra-virgin olive oil, divided, plus more as needed
+L211: 
+L212:   * 3 cups 1/4-inch diced yellow onion (about 3 medium onions)
+L213: 
+L214:   * 6 medium cloves garlic, minced (about 2 tablespoons)
+L215:   * 3 cups 1/4-inch diced red and yellow bell pepper (about 4 large peppers)
+L216: 
+L217:   * 2 cups puréed canned whole tomatoes, with their juices, from 1 (28-ounce) can (see notes)
+L218: 
+L219:   * 1 bouquet garni (herb bundle), made from fresh herbs such as thyme, parsley, and basil, tied together with butcher's twine (see notes)
+L220: 
+L221:   * Chopped fresh parsley leaves and tender stems, for garnish (optional)
+L222: ## Directions
+L223: 
+L224:   1. Place summer squash in a wire mesh strainer set over a bowl; place eggplant in a second wire mesh strainer and set over a second bowl. Toss both with a liberal amount of kosher salt and let stand to drain at least 15 minutes and up to 1 hour. Discard any liquid that collects in the bowls.
+L225: 
+L226: cite35†Image: Author sprinkling salt over a fine mesh strainer containing diced summer squash. cite35†Image: Author sprinkling salt over a fine mesh strainer containing diced summer squash. L227: Serious Eats / Vicky Wasik
+L228: 
+L229:   2. In a large skillet, heat 3 tablespoons olive oil over medium-high heat until shimmering. Add onion and garlic, season with salt, and cook, stirring, until softened, about 6 minutes. Scrape onion and garlic onto a rimmed baking sheet and spread in an even layer to cool for 3 minutes. Transfer onion and garlic to a large pot.
+L230: 
+L231: cite36†Image: Onion and garlic, cooling on a rimmed baking sheet. cite36†Image: Onion and garlic, cooling on a rimmed baking sheet. L232: Serious Eats / Vicky Wasik
+L233: 
+L234:   3. Meanwhile, add 3 more tablespoons olive oil to skillet and heat over medium-high heat until shimmering. Add bell pepper, season with salt, and cook, stirring, until softened, about 7 minutes. Scrape bell pepper onto the rimmed baking sheet in an even layer to cool for 3 minutes. Transfer bell pepper to pot with onion.
+L235: 
+L236: cite37†Image: Author sprinkling salt over diced bell pepper as it cooks. cite37†Image: Author sprinkling salt over diced bell pepper as it cooks. L237: Serious Eats / Vicky Wasik
+L238: 
+L239:   4. Add 3 more tablespoons olive oil to skillet and heat over medium-high heat until shimmering. Add summer squash and cook, stirring, until softened, about 4 minutes. Scrape onto rimmed baking sheet in an even layer to cool for 3 minutes. Transfer to pot with onion and bell pepper.
+L240: cite38†Image: Cooked, cooled summer squash being transferred from the rimmed baking sheet to a saucepan. cite38†Image: Cooked, cooled summer squash being transferred from the rimmed baking sheet to a saucepan. L241: 
+L242: Serious Eats / Vicky Wasik
+L243:   5. Add remaining 3 tablespoons olive oil to skillet and heat over medium-high heat until shimmering. Add eggplant and cook, stirring, until softened, about 4 minutes; add more olive oil as needed if skillet dries out while cooking eggplant. Scrape eggplant into pot with other vegetables and stir to combine.
+L244: 
+L245: cite39†Image: Diced eggplant is added to the skillet. cite39†Image: Diced eggplant is added to the skillet. L246: 
+L247: Serious Eats / Vicky Wasik
+L248:   6. Set pot of vegetables over medium-high heat and stir in tomato purée and herb bundle; heat until ratatouille is gently bubbling, then lower heat to medium and cook, stirring, until tomato purée coats vegetables in a thick sauce, about 15 minutes. Discard herb bundle. Season with salt, stir in chopped parsley (if using), and drizzle with a small amount of fresh extra-virgin olive oil. Serve right away, or chill and serve either reheated, slightly chilled, or at room temperature.
+L249: cite40†Image: Author pouring tomato purée into saucepan of ratatouille. cite40†Image: Author pouring tomato purée into saucepan of ratatouille. L250: 
+L251: Puréed tomatoes more fully pervade and flavor the dish.
+L252: 
+L253: Serious Eats / Vicky Wasik
+L254: ## Special Equipment
+L255: 
+L256: 2 cite41†wire mesh strainers , cite42†rimmed baking sheet L257: ## Notes
+L258: 
+L259: Canned whole tomatoes often provide some of the best quality you can get, but feel free to use a purée made from cooked fresh ones if they're good enough. You can also peel, seed, and dice fresh tomatoes and use them in place of the purée; they will hold their shape more in the finished ratatouille, and their flavor will be more subdued.
+L260: 
+L261: Herbs are optional and can include all sorts beyond the ones suggested below; oregano, marjoram, and savory are also good options.
+L262: You can speed up steps 2 through 5 by cooking the vegetables individually in multiple skillets at once, then transferring them to a pot to finish cooking together.
+L263: ## Read More
+L264: 
+L265:   * cite43†Provençal Tian (Eggplant, Zucchini, Squash, and Tomato Casserole) L266:   * cite44†Grilled Ratatouille L267:   * cite45†Summer Ratatouille with Pasta L268: 
+L269: Save
+L270: 
+L271: Rate
+L272: 
+L273: Print [Input]
+L274: ## Nutrition Facts (per serving)
+L275: 
+L276: 387  | Calories
+L277: 28g  | Fat
+L278: 35g  | Carbs
+L279: 5g  | Protein
+L280: 
+L281: Show Full Nutrition Label Hide Full Nutrition Label
+L282: 
+L283: Nutrition Facts
+L284: ---
+L285: Servings Per Recipe 4 to 6
+L286: ---
+L287: Calories 387
+L288: ---
+L289: % Daily Value *
+L290: Total Carbohydrate 35g  | 13%
+L291: Dietary Fiber 9g  | 31%
+L292: Total Sugars 14g
+L293: Protein 5g  | 10%
+L294: Total Fat 28g  | 36%
+L295: Saturated Fat 4g  | 20%
+L296: Cholesterol 0mg  | 0%
+L297: Vitamin C 77mg  | 85%
+L298: Sodium 450mg  | 20%
+L299: Calcium 74mg  | 6%
+L300: Iron 3mg  | 16%
+L301: Potassium 897mg  | 19%
+L302: * Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs.
+L303: 
+L304: Loading shell for RecipesUgcThreaded1 Vue component in Globe.
+L305: ## Related Articles
+L306: cite46†Haricots Verts Amandine (French-Style Green Beans With Almonds) 20 mins cite47†French in a Flash: Haricots Verts du Sud Recipe 40 mins cite48†French-Style Brown Butter New Potatoes Recipe 50 mins cite49†French in a Flash: Parsnip Purée with Olive Oil and Sage Recipe 30 mins cite50†How to Make Catalan-Style Ash-Roasted Vegetables (Escalivada) cite51†Potatoes Sarladaises Recipe 30 mins cite52†Artichokes à la Barigoule (French Braised Artichokes With White Wine) 1 hr cite53†Charred Eggplant and Tomatoes with Harissa and Mint Recipe 30 mins L307: cite43†Provençal Tian (Eggplant, Zucchini, Squash, and Tomato Casserole) Recipe 1 hr 10 mins cite54†French in a Flash: Roasted Ratatouille Lasagna Napoleons cite55†Pommes Aligot (Cheesy Mashed Potatoes) 50 mins cite56†Charred Asparagus With Miso Béarnaise Sauce Recipe 40 mins cite57†Erdäpfelsalat (Austrian-Style Potato Salad) 1 hr 5 mins cite58†Creamed Leeks 15 mins cite59†Grilled Broccoli Rabe 1 hr 5 mins cite60†French Lentils with Sausage, Wilted Arugula, & Dijon Mustard Recipe 1 hr L308: 
+L309: Newsletter Sign Up
+L310: Newsletter Sign Up
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn29view2 [wordlim: 200] Source: click({"ref_id":"turn27view2","id":13}); Total lines: 1
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn29view3 [wordlim: 200] Source: click({"ref_id":"turn27view2","id":31}); Total lines: 1
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn29view4 [wordlim: 200] Source: click({"ref_id":"turn27view2","id":33}); Total lines: 1
+--------------------------------------------------------------------------------
+Internal Error ()
+citeturn29view5 [wordlim: 200] Source: click({"ref_id":"turn27view2","id":34}); Total lines: 1
+

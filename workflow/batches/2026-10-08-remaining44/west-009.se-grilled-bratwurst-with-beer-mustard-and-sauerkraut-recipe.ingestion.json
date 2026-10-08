@@ -1,0 +1,148 @@
+{
+  "recipeId": "west-009",
+  "documentId": "29fa3b16-9237-46cd-8135-71280c566512",
+  "chunks": 6,
+  "embeddingModel": "voyage-4",
+  "dimension": 1024,
+  "semantic": 6,
+  "hybrid": 6,
+  "source": {
+    "sourceName": "Serious Eats",
+    "sourceType": "website",
+    "url": "https://www.seriouseats.com/grilled-bratwurst-with-beer-mustard-and-sauerkraut-recipe",
+    "documentId": "29fa3b16-9237-46cd-8135-71280c566512",
+    "retrievalMethod": "normal web.open full accessible page; merged overlapping line ranges; direct requests460 and browser402 retained as transport history",
+    "complete": true,
+    "ingredients": [
+      {
+        "name": "12 ounces (350ml) beer (almost any beer will do)",
+        "raw": "12 ounces (350ml) beer (almost any beer will do)",
+        "amount": null
+      },
+      {
+        "name": "3 tablespoons (45ml) whole grain mustard",
+        "raw": "3 tablespoons (45ml) whole grain mustard",
+        "amount": null
+      },
+      {
+        "name": "1 (1-pound; 450g) package sauerkraut, with juices",
+        "raw": "1 (1-pound; 450g) package sauerkraut, with juices",
+        "amount": null
+      },
+      {
+        "name": "6 thyme sprigs or 3 bay leaves (optional)",
+        "raw": "6 thyme sprigs or 3 bay leaves (optional)",
+        "amount": null
+      },
+      {
+        "name": "2 pounds (900 g) bratwurst sausages",
+        "raw": "2 pounds (900 g) bratwurst sausages",
+        "amount": null
+      },
+      {
+        "name": "Buns and mustard, for serving",
+        "raw": "Buns and mustard, for serving",
+        "amount": null
+      },
+      {
+        "name": "oil",
+        "raw": "oil grilling grate (method step1; type and amount unspecified)",
+        "amount": null
+      }
+    ],
+    "steps": [
+      {
+        "order": 1,
+        "instruction": "Light 1 chimney full of charcoal. When all charcoal is lit and covered with gray ash, pour out and arrange coals on one side of charcoal grate. Set cooking grate in place, cover grill, and allow to preheat for 5 minutes. Alternatively, set half the burners on a gas grill to the highest heat setting, cover, and preheat for 10 minutes. Clean and oil grilling grate.",
+        "duration": null,
+        "heat": null
+      },
+      {
+        "order": 2,
+        "instruction": "Combine beer, mustard, and sauerkraut in a 10-inch square-disposable aluminum pan. (Alternatively, construct a tray out of a double layer of heavy-duty aluminum foil, 10 inches square, with sides about 2 inches high.) Stir until mustard is broken up and mixture is homogeneous. Add thyme sprigs or bay leaves (if using). Nestle sausages into sauerkraut.",
+        "duration": null,
+        "heat": null
+      },
+      {
+        "order": 3,
+        "instruction": "Place tray on hot side of grill and cook until simmering, about 4 minutes. Slide to cooler side of grill. Cover grill, with vents over bratwurst. Cook with all vents open until bratwurst register 140 to 145°F (60 to 63°C) on an instant-read thermometer, about 20 minutes, turning once in the middle.",
+        "duration": null,
+        "heat": null
+      },
+      {
+        "order": 4,
+        "instruction": "Remove lid. Using tongs, remove bratwurst from sauerkraut and place directly on cooking grate over hot side of grill. Cook, turning occasionally, until well browned and crisp, about 3 minutes total. Return to sauerkraut. Toast buns over hot side of grill, if desired. Serve bratwurst with buns, mustard, and sauerkraut from pan.",
+        "duration": null,
+        "heat": null
+      }
+    ],
+    "technique": [],
+    "tips": [],
+    "rawExcerpt": "iframe†www.googletagmanager.com\n\nSerious Eats\n\nSave\n\nRate\n\n* Search [Input: What are you looking for?]\n\n* Newsletters\n* Sweepstakes\n* Serious Eats\n# Grilled Bratwurst With Beer, Mustard, and Sauerkraut Recipe\n\n5.0\n\n(2)\n\n25 Reviews\n\nMake perfect grilled bratwurst by simmering them in a flavorful sauerkraut bath first.\n\nBy\n\nJ. Kenji López-Alt\n\nImage: Kenji Lopez Alt Image: Kenji Lopez Alt\n\nJ. Kenji López-Alt\n\nKenji is the former culinary director for Serious Eats and a current culinary consultant for the site. He is also a New York Times food columnist and the author of The Food Lab: Better Home Cooking Through Science.\nSerious Eats' Editorial Guidelines\n\nUpdated on May 24, 2019\n\nImage†cdn.jwplayer.com Image†cdn.jwplayer.com\n\nHow to Grill Sausages and Hot Dogs the Right Way\n\n2:33\n\nJump to recipe\n* Poaching the sausages in a flavorful mixture of beer, sauerkraut, and mustard cooks them through from edge to edge.\n* Simmering the sausages in a pan set directly on the grill helps to imbue them with smoky flavor as they cook.\n* Finishing the sausages on the hot side of the grill gets their exteriors nicely crisp and charred.\nThe key to perfectly cooked pork bratwurst on the grill is to start them in a flavorful bath of sauerkraut, beer, and mustard. Slowly simmer the sausages so they're infused with flavor and cook evenly, then finish them off on the hot side to crisp and char.\n\nImage: 20170418-cooking-sausage-hot-dog-3.jpg Image: 20170418-cooking-sausage-hot-dog-3.jpg\n\nPhotograph and video: J. Kenji López-Alt\n\nCook Time:\n\n1 hr\n\nTotal Time:\n\n1 hr\n\nServings:\n\n4 servings\n\nYield:\n\nServes 4\n[Button: Jump to Nutrition Facts]\n\nKeep Screen Awake\n## Ingredients\n\n* 12 ounces (350ml) beer (almost any beer will do)\n\n* 3 tablespoons (45ml) whole grain mustard\n\n* 1 (1-pound; 450g) package sauerkraut, with juices\n\n* 6 thyme sprigs or 3 bay leaves (optional)\n\n* 2 pounds (900 g) bratwurst sausages\n\n* Buns and mustard, for serving\n## Directions\n\n1. Light 1 chimney full of charcoal. When all charcoal is lit and covered with gray ash, pour out and arrange coals on one side of charcoal grate. Set cooking grate in place, cover grill, and allow to preheat for 5 minutes. Alternatively, set half the burners on a gas grill to the highest heat setting, cover, and preheat for 10 minutes. Clean and oil grilling grate.\n2. Combine beer, mustard, and sauerkraut in a 10-inch square-disposable aluminum pan. (Alternatively, construct a tray out of a double layer of heavy-duty aluminum foil, 10 inches square, with sides about 2 inches high.) Stir until mustard is broken up and mixture is homogeneous. Add thyme sprigs or bay leaves (if using). Nestle sausages into sauerkraut.\n3. Place tray on hot side of grill and cook until simmering, about 4 minutes. Slide to cooler side of grill. Cover grill, with vents over bratwurst. Cook with all vents open until bratwurst register 140 to 145°F (60 to 63°C) on an instant-read thermometer, about 20 minutes, turning once in the middle.\n4. Remove lid. Using tongs, remove bratwurst from sauerkraut and place directly on cooking grate over hot side of grill. Cook, turning occasionally, until well browned and crisp, about 3 minutes total. Return to sauerkraut. Toast buns over hot side of grill, if desired. Serve bratwurst with buns, mustard, and sauerkraut from pan.\n## Special equipment\n\nGrill , 10-inch square disposable aluminum pan, instant-read thermometer\n\n### This Recipe Appears In\n\n* The Food Lab: The Best Way to Grill Sausages\n* Serious Entertaining: A Beer-Infused Dinner Menu\n\nSave\n\nRate\n\nPrint [Input]\n## Nutrition Facts (per serving)\n\n997  | Calories\n69g  | Fat\n48g  | Carbs\n39g  | Protein\n\nShow Full Nutrition Label Hide Full Nutrition Label\n\nNutrition Facts\n---\nServings Per Recipe 4\n---\nCalories 997\n---\n% Daily Value *\nTotal Carbohydrate 48g  | 17%\nDietary Fiber 5g  | 18%\nTotal Sugars 6g\nProtein 39g  | 78%\nTotal Fat 69g  | 88%\nSaturated Fat 23g  | 116%\nCholesterol 167mg  | 56%\nVitamin C 18mg  | 19%\nSodium 3108mg  | 135%\nCalcium 220mg  | 17%\nIron 5mg  | 29%\nPotassium 1100mg  | 23%\n* Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs.\n\nLoading shell for RecipesUgcThreaded1 Vue component in Globe.\n## Related Articles\nGrilled Italian Sausage With Sweet-and-Sour Peppers and Onions Recipe 1 hr 10 mins Grilled Hot Dogs With Sauerkraut Recipe 45 mins Pork Souvlaki With Pita and Tzatziki 2 hrs 50 mins Orange and Leek Loukaniko (Greek Sausage) Recipe 2 days 4 hrs 25 mins Adobo-Marinated Grilled Pork Chops Recipe 8 hrs 45 mins Lechon Liempo (Filipino-Style Roasted Pork Belly) Recipe 3 hrs 20 mins Low-and-Slow Pulled Pork (Smoked Pork Shoulder) 20 hrs 30 mins Choucroute Garnie à l'Alsacienne (Alsatian Braised Sauerkraut With Mixed Meats and Sausages) Recipe 3 hrs 45 mins\nCheesy, Gooey Croques Monsieurs 35 mins Thit Heo Nuong Xa (Vietnamese Grilled Lemongrass Pork Chops) 55 mins Green Chorizo Recipe 1 hr 20 mins Turkey Weisswurst (White German-Style Sausage With Lemon, Nutmeg, and Parsley) Recipe 12 hrs 10 mins Homemade Tacos Al Pastor 11 hrs 20 mins Vietnamese Grilled Pork Chops With Chilled Rice Noodles Recipe 1 hr 15 mins Green Chorizo | Grilling Grilled Mexican Chorizo With Spicy Tomato-Caper Sauce Recipe 40 mins\nNewsletter Sign Up\n\nNewsletter Sign Up\n## We Care About Your Privacy\n\nWe and our 100 partners store and/or access information on a device, such as unique IDs in cookies to process personal data. You may accept or manage your choices by clicking below, including your right to object where legitimate interest is used, or at any time in the privacy policy page. These choices will be signaled to our partners and will not affect browsing data.\n### We and our partners process data to provide:\nStore and/or access information on a device. Use limited data to select advertising. Create profiles for personalised advertising. Use profiles to select personalised advertising. Create profiles to personalise content. Use profiles to select personalised content. Measure advertising performance. Measure content performance. Understand audiences through statistics or combinations of data from different sources. Develop and improve services. Use limited data to select content.\n[Button: List of Partners (vendors) ]\n[Button: Accept All] [Button: Reject All] [Button: Show Purposes]",
+    "selectionAssessment": {
+      "qualifies": true,
+      "ingredientCoverage": "complete",
+      "stepCoverage": "complete",
+      "internalCoherence": "coherent",
+      "heroImages": 0,
+      "mappedStepImages": 0,
+      "stepImageCoverage": 0,
+      "ingredientCount": 7,
+      "executableStepCount": 4,
+      "notes": [
+        "Page images and step adjacencies visible in web.open; original binary URLs not returned by failed web.click. No verified downloadable media available, no invented image mappings.",
+        "Source quantities with mixed units retained verbatim; no vessel capacity inferred."
+      ]
+    }
+  },
+  "ragEvidence": [
+    {
+      "chunkId": "83e7722c-8179-4a64-bd86-c512aea68db9",
+      "documentId": "29fa3b16-9237-46cd-8135-71280c566512",
+      "sourceName": "Serious Eats",
+      "chunkType": "technique",
+      "content": "菜名：德式烤香肠\n- 原文未明确说明技法。",
+      "similarity": 0.725150725995026
+    },
+    {
+      "chunkId": "e5c5cbe3-d5e8-4894-b475-e2ebfe0d6eed",
+      "documentId": "29fa3b16-9237-46cd-8135-71280c566512",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：德式烤香肠\n1. Light 1 chimney full of charcoal. When all charcoal is lit and covered with gray ash, pour out and arrange coals on one side of charcoal grate. Set cooking grate in place, cover grill, and allow to preheat for 5 minutes. Alternatively, set half the burners on a gas grill to the highest heat setting, cover, and preheat for 10 minutes. Clean and oil grilling grate.\n2. Combine beer, mustard, and sauerkraut in a 10-inch square-disposable aluminum pan. (Alternatively, construct a tray out of a double layer of heavy-duty aluminum foil, 10 inches square, with sides about 2 inches high.) Stir until mustard is broken up and mixture is homogeneous. Add thyme sprigs or bay leaves (if using). Nestle sausages into sauerkraut.\n3. Place tray on hot side of grill and cook until simmering, about 4 minutes. Slide to cooler side of grill. Cover grill, with vents over bratwurst. Cook with all vents open until bratwurst register 140 to 145°F (60 to 63°C) on an instant-read thermometer, about 20 minutes, turning once in the middle.",
+      "similarity": 0.721342942754714
+    },
+    {
+      "chunkId": "e37ee1ce-3c43-43ae-8933-2e4044f476b4",
+      "documentId": "29fa3b16-9237-46cd-8135-71280c566512",
+      "sourceName": "Serious Eats",
+      "chunkType": "tips",
+      "content": "菜名：德式烤香肠\n- 原文未提供额外提示。",
+      "similarity": 0.718266908967517
+    },
+    {
+      "chunkId": "cea5d8db-da3c-4fb8-9656-a0c3b88bd155",
+      "documentId": "29fa3b16-9237-46cd-8135-71280c566512",
+      "sourceName": "Serious Eats",
+      "chunkType": "summary",
+      "content": "菜名：德式烤香肠\n别名：Grilled Bratwurst With Beer, Mustard, and Sauerkraut Recipe\n简介：Grilled Bratwurst With Beer, Mustard, and Sauerkraut Recipe",
+      "similarity": 0.717251415498436
+    },
+    {
+      "chunkId": "e1b11544-e1b0-46cd-9840-52c860c82576",
+      "documentId": "29fa3b16-9237-46cd-8135-71280c566512",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：德式烤香肠\n4. Remove lid. Using tongs, remove bratwurst from sauerkraut and place directly on cooking grate over hot side of grill. Cook, turning occasionally, until well browned and crisp, about 3 minutes total. Return to sauerkraut. Toast buns over hot side of grill, if desired. Serve bratwurst with buns, mustard, and sauerkraut from pan.",
+      "similarity": 0.705440577378229
+    },
+    {
+      "chunkId": "13b468f1-193c-4f54-a794-409d7b144ff8",
+      "documentId": "29fa3b16-9237-46cd-8135-71280c566512",
+      "sourceName": "Serious Eats",
+      "chunkType": "ingredients",
+      "content": "菜名：德式烤香肠\n- 12 ounces (350ml) beer (almost any beer will do)\n- 3 tablespoons (45ml) whole grain mustard\n- 1 (1-pound; 450g) package sauerkraut, with juices\n- 6 thyme sprigs or 3 bay leaves (optional)\n- 2 pounds (900 g) bratwurst sausages\n- Buns and mustard, for serving\n- oil grilling grate (method step1; type and amount unspecified)",
+      "similarity": 0.680591365116578
+    }
+  ]
+}

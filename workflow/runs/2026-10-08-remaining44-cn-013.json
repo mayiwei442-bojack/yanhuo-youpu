@@ -1,0 +1,65 @@
+{
+  "runId": "2026-10-08-remaining44-cn-013",
+  "recipeId": "cn-013",
+  "recipeName": "胡辣汤",
+  "category": "chinese",
+  "status": "in_progress",
+  "startedAt": "2026-10-08T11:56:52.318Z",
+  "completedAt": null,
+  "steps": {
+    "research": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "evidencePath": "workflow/batches/2026-10-08-remaining44/cn-013.base-evidence.json",
+        "evidencePackageHash": "b5be37dc575ed83fdf5bb98096b7f193e32b36d6c70a467f5f4fd369793ddb80",
+        "selectedSourceUrl": "https://www.douguo.com/cookbook/3300061.html",
+        "sourceMode": "single_source",
+        "singleSourceReason": "数据库79份现行书籍菜谱中无胡辣汤完整配方；Woks中英文别名检索无完整匹配；另一豆果河南正宗候选是课程广告。这个同菜名、同河南地域的完整料包版本可执行且自洽。",
+        "publicationGate": "Final image/evidence acceptance pending"
+      }
+    },
+    "ingestion": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "selectedDocumentId": "64811085-e1d5-4a9b-a1fc-ddb00b282459",
+        "documentIds": [
+          "64811085-e1d5-4a9b-a1fc-ddb00b282459"
+        ],
+        "ragEvidence": 5
+      }
+    },
+    "edit": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "validator": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "review": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "build": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "gitPush": {
+      "status": "pending",
+      "attempts": 0
+    }
+  },
+  "sources": [
+    {
+      "name": "豆果美食",
+      "url": "https://www.douguo.com/cookbook/3300061.html",
+      "status": "success",
+      "failureReason": null
+    }
+  ],
+  "errors": [],
+  "branch": "codex/recipe-automation",
+  "commit": null
+}

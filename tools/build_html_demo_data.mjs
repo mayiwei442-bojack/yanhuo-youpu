@@ -3,7 +3,7 @@ import { chinese, western } from "./recipe_data.mjs";
 import { isAuthorizedHeroOnly } from "./workflow/source-policy.mjs";
 import { stepDuration, stepHeat, recipeTotalMinutes, sourceStepDurations } from "./recipe-step-metadata.mjs";
 import { cleanIngredientName } from "./recipe-ingredient-metadata.mjs";
-import { applyComponentDietaryMetadata } from "./recipe-component-metadata.mjs";
+import { applyComponentDietaryMetadata, detectIngredientAllergens } from "./recipe-component-metadata.mjs";
 
 const HERITAGE_FLAVORS = new Set([
   "桂林米粉",
@@ -54,20 +54,6 @@ function splitSteps(text) {
       safetyNote: /炸|热油/u.test(instruction) ? "注意热油飞溅" : ""
     };
   });
-}
-
-function detectAllergens(text) {
-  const rules = [
-    ["peanut", /花生/u],
-    ["dairy", /牛奶|奶油|黄油|芝士|奶酪|干酪|马苏里拉|帕玛森|酪乳|白酱/u],
-    ["egg", /鸡蛋|蛋黄|蛋液|蛋白/u],
-    ["fish", /鱼(?!香)|鳕|鲈|凤尾鱼|三文鱼|鱼汤/u],
-    ["shellfish", /虾|蟹|贝|蛤|青口|贻贝|鱿鱼/u],
-    ["wheat", /面粉|面包|意大利面|面条|面片|馄饨|饺子|馍|馒头|薄饼|松饼|披萨|汉堡|酥皮|面包糠/u],
-    ["soy", /豆腐|豆浆|腐竹|黄豆|豆皮|豆豉|豆瓣酱|生抽|老抽|酱油/u],
-    ["sesame", /芝麻|香油/u]
-  ];
-  return rules.filter(([, pattern]) => pattern.test(text)).map(([id]) => id);
 }
 
 function buildRecipe(recipe, index, type) {
@@ -158,7 +144,7 @@ function buildRecipe(recipe, index, type) {
     difficulty,
     defaultServings: recipe.servings ?? (media ? null : /整鸡|600克|700克|800克/u.test(recipe.ingredients) ? 4 : 2),
     servingsBasis: recipe.servings != null ? "source" : media ? "unspecified" : "estimated",
-    allergens: detectAllergens(recipe.ingredients),
+    allergens: detectIngredientAllergens(recipe.ingredients),
     flags: {
       containsPork: /猪|五花肉|培根|火腿|香肠|叉烧|排骨|腊肠|腊味/u.test(recipe.ingredients),
       containsBeef: /牛肉|牛排|牛里脊|牛肩|牛高汤|牛骨/u.test(recipe.ingredients),

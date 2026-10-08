@@ -1,0 +1,134 @@
+{
+  "recipeId": "cn-044",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/08/shanghai-soup-dumpling-12.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-044-woks/hero.jpg",
+      "sha256": "5842046aa7f07c672471fe003829d37f6b0ae08fcb91b8c9db4245f00ebc4c8f",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 292250
+    },
+    {
+      "role": "step",
+      "stepOrder": 2,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/08/shanghai-soup-dumpling-08.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-044-woks/step-2-1.jpg",
+      "sha256": "5a24daa9b0fb7dd010afb20cd2eb6e6973807d9b7c5d9a2b4ffb204ca51c4477",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 131310
+    },
+    {
+      "role": "step",
+      "stepOrder": 4,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/08/shanghai-soup-dumpling-07.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-044-woks/step-4-2.jpg",
+      "sha256": "249c65ce5cd8e10a1a3bbff836397f7f1c29a5f186d12ec531764b9f41a46999",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 299672
+    },
+    {
+      "role": "step",
+      "stepOrder": 4,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/08/shanghai-soup-dumpling-09.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-044-woks/step-4-3.jpg",
+      "sha256": "3e5e2e338c0ea68072399db6dd9dc44120cb4e7c3271fdb118c05f0f7d200680",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 235428
+    },
+    {
+      "role": "step",
+      "stepOrder": 5,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/08/shanghai-soup-dumpling-10.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-044-woks/step-5-4.jpg",
+      "sha256": "45f5a5cc642d07c491abbf4ddedf4f6af4555c05fe286eca90a6f93d3fdf03cf",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 137286
+    },
+    {
+      "role": "step",
+      "stepOrder": 7,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/08/shanghai-soup-dumpling-01.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-044-woks/step-7-5.jpg",
+      "sha256": "06d91687da324a3a572f09c2a14c42de3c1e283a3266d2f519936c69b2e7434e",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 345752
+    },
+    {
+      "role": "step",
+      "stepOrder": 8,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/08/shanghai-soup-dumpling-11.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-044-woks/step-8-6.jpg",
+      "sha256": "2d09aa07f69ef8bc0261611ea31dbe2d8c30f1c9f9aa84e0cd87674256828cf4",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 281676
+    },
+    {
+      "role": "step",
+      "stepOrder": 7,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/08/shanghai-soup-dumpling-02.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-044-woks/step-7-7.jpg",
+      "sha256": "b3b591fbce90d033837dd6f0ded4ec9c3db00d08c1267d300ba5fdfcd7693ed0",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 452636
+    },
+    {
+      "role": "step",
+      "stepOrder": 8,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/08/shanghai-soup-dumpling-03.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-044-woks/step-8-8.jpg",
+      "sha256": "6a2dd6f777b86a65670dc8f7e5459a10e8ff30822927b0fee152513d011bc9d7",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 2298781
+    },
+    {
+      "role": "step",
+      "stepOrder": 10,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/09/soup-dumpling-recipe-7.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-044-woks/step-10-9.jpg",
+      "sha256": "295d444ab3e56ddb28c30364b01d89a726359cfdfee9c38ada81be835f2296ab",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 366328
+    },
+    {
+      "role": "step",
+      "stepOrder": 13,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/08/shanghai-soup-dumpling-05.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-044-woks/step-13-10.jpg",
+      "sha256": "4e2a95fa73ea23c4bde4e80ffdce4b12a46c777dff8b657323fa6e83ff792e82",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 481478
+    },
+    {
+      "role": "step",
+      "stepOrder": 13,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/09/soup-dumpling-recipe-6.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-044-woks/step-13-11.jpg",
+      "sha256": "eb4ea1709462c218adf2057a4bd002c5e88aba612990ecd81dc0803d0287cd8d",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 397086
+    },
+    {
+      "role": "step",
+      "stepOrder": 13,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/08/shanghai-soup-dumpling-06.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-044-woks/step-13-12.jpg",
+      "sha256": "79597d9f23034fe640c2848916b8f5e0def9ba085f366eea7170a98a114b47be",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 314686
+    }
+  ]
+}

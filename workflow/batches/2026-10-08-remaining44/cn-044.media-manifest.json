@@ -1,0 +1,111 @@
+{
+  "recipeId": "cn-044",
+  "sourceUrl": "https://thewoksoflife.com/steamed-shanghai-soup-dumplings-xiaolongbao/",
+  "referer": "https://thewoksoflife.com/steamed-shanghai-soup-dumplings-xiaolongbao/",
+  "authorization": "user_confirmed_2026-09-16",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/08/shanghai-soup-dumpling-12.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-044-woks/hero.jpg",
+      "adjacentText": "小笼包成品",
+      "pageOrder": 0
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/08/shanghai-soup-dumpling-08.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-044-woks/step-2-1.jpg",
+      "adjacentText": "After 2 hours, turn off the heat, allow the soup to cool, and strain the liquid into a bowl. Once the liquid is completely cooled, cover and refrigerate overnight.\n##### The Dough:",
+      "pageOrder": 1,
+      "stepOrder": 2
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/08/shanghai-soup-dumpling-07.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-044-woks/step-4-2.jpg",
+      "adjacentText": "Take your ground pork and put it in the food processor. Pulse for 30-60 seconds until the pork resembles paste. In a mixing bowl, add the pork and the rest of the ingredients except the aspic. Whip everything together thoroughly, for about 2 minutes. You want everything to be extremely well combined, and the pork should look like a light, airy paste. Gently fold in the diced aspic, and do not over-mix. Cover and transfer the filling to the refrigerator until ready to make the dumplings.\nIf you’re ready now, you can put it in the freezer for 15 minutes to allow it to firm up and make assembling the buns easier.\n##### Assembly:",
+      "pageOrder": 2,
+      "stepOrder": 4
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/08/shanghai-soup-dumpling-09.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-044-woks/step-4-3.jpg",
+      "adjacentText": "Take your ground pork and put it in the food processor. Pulse for 30-60 seconds until the pork resembles paste. In a mixing bowl, add the pork and the rest of the ingredients except the aspic. Whip everything together thoroughly, for about 2 minutes. You want everything to be extremely well combined, and the pork should look like a light, airy paste. Gently fold in the diced aspic, and do not over-mix. Cover and transfer the filling to the refrigerator until ready to make the dumplings.\nIf you’re ready now, you can put it in the freezer for 15 minutes to allow it to firm up and make assembling the buns easier.\n##### Assembly:",
+      "pageOrder": 3,
+      "stepOrder": 4
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/08/shanghai-soup-dumpling-10.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-044-woks/step-5-4.jpg",
+      "adjacentText": "Lightly dust a clean work surface with flour and roll the dough into a long cylinder/cigar, about an inch in diameter. Cut the dough into small equal pieces weighing about 11 grams each (the dough chunks should be a size resembling that of gnocchi). Roll out each piece into a round disc about 3 – 3 ¼ inches (8cm) in diameter. Keep everything under a damp cloth.",
+      "pageOrder": 4,
+      "stepOrder": 5
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/08/shanghai-soup-dumpling-01.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-044-woks/step-7-5.jpg",
+      "adjacentText": "When all that is prepared, take out the filling. You’ll be making each bun one at a time. Place about 1 tablespoon of filling in the middle of your dumpling skin. Pleat with as many folds as you can muster: 12-20 folds should do it. Make sure the top is sealed. If the filling ever gets too wet or hard to handle, put it in the freezer for another 15 minutes and start again.",
+      "pageOrder": 5,
+      "stepOrder": 7
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/08/shanghai-soup-dumpling-11.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-044-woks/step-8-6.jpg",
+      "adjacentText": "Place the buns in the lined steamer basket, about 2 inches (5cm) apart.\n##### Steaming:",
+      "pageOrder": 6,
+      "stepOrder": 8
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/08/shanghai-soup-dumpling-02.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-044-woks/step-7-7.jpg",
+      "adjacentText": "When all that is prepared, take out the filling. You’ll be making each bun one at a time. Place about 1 tablespoon of filling in the middle of your dumpling skin. Pleat with as many folds as you can muster: 12-20 folds should do it. Make sure the top is sealed. If the filling ever gets too wet or hard to handle, put it in the freezer for another 15 minutes and start again.",
+      "pageOrder": 7,
+      "stepOrder": 7
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/08/shanghai-soup-dumpling-03.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-044-woks/step-8-8.jpg",
+      "adjacentText": "Place the buns in the lined steamer basket, about 2 inches (5cm) apart.\n##### Steaming:",
+      "pageOrder": 8,
+      "stepOrder": 8
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/09/soup-dumpling-recipe-7.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-044-woks/step-10-9.jpg",
+      "adjacentText": "Once the water is boiling, put the bamboo steamer in the wok or steamer pot, cover with the bamboo steamer lid, and steam over high heat for 8 minutes. Immediately remove the bamboo steamer from the pot and serve.\n##### Eating:",
+      "pageOrder": 9,
+      "stepOrder": 10
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/08/shanghai-soup-dumpling-05.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-044-woks/step-13-10.jpg",
+      "adjacentText": "Carefully, slowly peel the xiaolongbao off of the steamer basket and dip it into the vinegar. Gently transfer the dumpling to your soupspoon and take a tiny bite out of the skin on the side of the bun to make a little hole. Proceed to slurp the soup out of the bun (Carefully. It’s HOT). Then, with a little more vinegar, finish the whole thing off in one bite.\n#### Tips & Notes:\n\nMakes 18-20 dumplings, about 3 pieces per serving.\n\nIt’s not really a good idea to freeze these, as they’re so delicate.",
+      "pageOrder": 10,
+      "stepOrder": 13
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/09/soup-dumpling-recipe-6.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-044-woks/step-13-11.jpg",
+      "adjacentText": "Carefully, slowly peel the xiaolongbao off of the steamer basket and dip it into the vinegar. Gently transfer the dumpling to your soupspoon and take a tiny bite out of the skin on the side of the bun to make a little hole. Proceed to slurp the soup out of the bun (Carefully. It’s HOT). Then, with a little more vinegar, finish the whole thing off in one bite.\n#### Tips & Notes:\n\nMakes 18-20 dumplings, about 3 pieces per serving.\n\nIt’s not really a good idea to freeze these, as they’re so delicate.",
+      "pageOrder": 11,
+      "stepOrder": 13
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/08/shanghai-soup-dumpling-06.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-044-woks/step-13-12.jpg",
+      "adjacentText": "Carefully, slowly peel the xiaolongbao off of the steamer basket and dip it into the vinegar. Gently transfer the dumpling to your soupspoon and take a tiny bite out of the skin on the side of the bun to make a little hole. Proceed to slurp the soup out of the bun (Carefully. It’s HOT). Then, with a little more vinegar, finish the whole thing off in one bite.\n#### Tips & Notes:\n\nMakes 18-20 dumplings, about 3 pieces per serving.\n\nIt’s not really a good idea to freeze these, as they’re so delicate.",
+      "pageOrder": 12,
+      "stepOrder": 13
+    }
+  ]
+}

@@ -1,0 +1,426 @@
+{
+  "recipeId": "west-014",
+  "recipeName": "蘑菇烩饭",
+  "category": "western",
+  "createdAt": "2026-10-08T12:10:51.174Z",
+  "sources": [
+    {
+      "sourceName": "BBC Good Food",
+      "sourceType": "website",
+      "url": "https://www.bbcgoodfood.com/recipes/mushroom-risotto",
+      "documentId": "a32460d0-637d-4400-b924-2b83638166db",
+      "retrievalMethod": "ordinary HTTPS GET; complete accessible page JSON-LD and DOM independently inspected",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "dried porcini mushrooms",
+          "raw": "50g dried porcini mushrooms",
+          "amount": null
+        },
+        {
+          "name": "vegetable stock cube",
+          "raw": "1 vegetable stock cube",
+          "amount": null
+        },
+        {
+          "name": "olive oil",
+          "raw": "2 tbsp olive oil",
+          "amount": null
+        },
+        {
+          "name": "onion finely chopped",
+          "raw": "1 onion finely chopped",
+          "amount": null
+        },
+        {
+          "name": "arlic cloves finely chopped",
+          "raw": "2 garlic cloves finely chopped",
+          "amount": null
+        },
+        {
+          "name": "pack chestnut mushrooms chopped",
+          "raw": "250g pack chestnut mushrooms chopped",
+          "amount": null
+        },
+        {
+          "name": "risotto rice such as arborio",
+          "raw": "300g risotto rice such as arborio",
+          "amount": null
+        },
+        {
+          "name": "x 175ml glass white wine",
+          "raw": "1 x 175ml glass white wine",
+          "amount": null
+        },
+        {
+          "name": "butter",
+          "raw": "25g butter",
+          "amount": null
+        },
+        {
+          "name": "handful parsley leaves, chopped",
+          "raw": "handful parsley leaves, chopped",
+          "amount": null
+        },
+        {
+          "name": "parmesan or Grana Padano, freshly grated",
+          "raw": "50g parmesan or Grana Padano, freshly grated",
+          "amount": null
+        },
+        {
+          "name": "water",
+          "raw": "1 litre boiling water for soaking mushrooms; splash more if rice undercooked",
+          "amount": null
+        },
+        {
+          "name": "salt",
+          "raw": "salt (method step4; amount unspecified)",
+          "amount": null
+        },
+        {
+          "name": "pepper",
+          "raw": "pepper (method step4; amount unspecified)",
+          "amount": null
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Put 50g dried porcini mushrooms into a large bowl and pour over 1 litre boiling water. Soak for 20 mins, then drain into a bowl, discarding the last few tbsp of liquid left in the bowl.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "Crumble 1 vegetable stock cube into the mushroom liquid, then squeeze the mushrooms gently to remove any liquid.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "Heat 2 tbsp olive oil in a shallow saucepan or deep frying pan over a medium flame. Add 1 finely chopped onion and 2 finely chopped garlic cloves, then fry for about 5 mins until soft.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "Stir in 250g chopped chestnut mushrooms and the dried mushrooms, season with salt and pepper and continue to cook for 8 mins until the fresh mushrooms have softened.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 5,
+          "instruction": "Tip 300g risotto rice into the pan and cook for 1 min. Pour over a 175ml glass of white wine and let it bubble to nothing so the alcohol evaporates.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 6,
+          "instruction": "Keep the pan over a medium heat and pour in a quarter of the mushroom stock. Simmer the rice, stirring often, until the rice has absorbed all the liquid.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 7,
+          "instruction": "Add about the same amount of stock again and continue to simmer and stir - it should start to become creamy, plump and tender. By the time the final quarter of stock is added, the rice should be almost cooked.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 8,
+          "instruction": "Continue stirring until the rice is cooked. If the rice is still undercooked, add a splash of water. Take the pan off the heat, add 25g butter and scatter over 25g grated parmesan or Grana Padano cheese and half a handful of chopped parsley leaves.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 9,
+          "instruction": "Cover and leave for a few mins so that the rice can take up any excess liquid as it cools a bit. Give the risotto a final stir, spoon into bowls and scatter with the remaining 25g grated cheese and the remaining chopped parsley leaves.",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [],
+      "tips": [],
+      "rawExcerpt": "{\n  \"@context\": \"https://schema.org\",\n  \"@id\": \"https://www.bbcgoodfood.com/recipes/mushroom-risotto#Recipe\",\n  \"@type\": \"Recipe\",\n  \"description\": \"Barney guides you through a step-by-step guide to making a mushroom risotto - you might even find it relaxing!\",\n  \"image\": [\n    {\n      \"@type\": \"ImageObject\",\n      \"url\": \"https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-52074_11-ca58d45.jpg?resize=440,400\",\n      \"width\": 440,\n      \"height\": 400\n    }\n  ],\n  \"mainEntityOfPage\": {\n    \"@type\": \"WebPage\",\n    \"@id\": \"https://www.bbcgoodfood.com/recipes/mushroom-risotto\"\n  },\n  \"name\": \"Mushroom risotto\",\n  \"url\": \"https://www.bbcgoodfood.com/recipes/mushroom-risotto\",\n  \"author\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Barney Desmazery\",\n      \"url\": \"https://www.bbcgoodfood.com/author/barneydesmazery\"\n    }\n  ],\n  \"dateModified\": \"2025-02-07T17:15:00+00:00\",\n  \"datePublished\": \"2020-10-05T12:05:24+01:00\",\n  \"headline\": \"Mushroom risotto\",\n  \"keywords\": \"Beginners, Chestnut mushroom, Chestnut mushrooms, Dried porcini, Good Food, Hob, No oven cooking, Rice dishes, Vegetable stock, Veggie, Wine\",\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Good Food\",\n    \"url\": \"https://www.bbcgoodfood.com\",\n    \"logo\": {\n      \"@type\": \"ImageObject\",\n      \"height\": 325,\n      \"url\": \"https://images.immediate.co.uk/production/volatile/sites/30/2026/02/goodfood.logo-f37096c.png?resize=1312,325\",\n      \"width\": 1312\n    }\n  },\n  \"cookTime\": \"PT25M\",\n  \"nutrition\": {\n    \"@type\": \"NutritionInformation\",\n    \"calories\": \"445 calories\",\n    \"fatContent\": \"17 grams fat\",\n    \"saturatedFatContent\": \"7.7 grams saturated fat\",\n    \"carbohydrateContent\": \"63 grams carbohydrates\",\n    \"sugarContent\": \"3 grams sugar\",\n    \"fiberContent\": \"4 grams fiber\",\n    \"proteinContent\": \"15 grams protein\",\n    \"sodiumContent\": \"1.45 milligram of sodium\"\n  },\n  \"prepTime\": \"PT5M\",\n  \"recipeCategory\": \"Dinner, Lunch, Main course, Starter, Supper\",\n  \"recipeCuisine\": \"Italian\",\n  \"recipeIngredient\": [\n    \"50g dried porcini mushrooms\",\n    \"1 vegetable stock cube\",\n    \"2 tbsp olive oil\",\n    \"1 onion finely chopped\",\n    \"2 garlic cloves finely chopped\",\n    \"250g pack chestnut mushrooms chopped\",\n    \"300g risotto rice such as arborio\",\n    \"1 x 175ml glass white wine\",\n    \"25g butter\",\n    \"handful parsley leaves, chopped\",\n    \"50g parmesan or Grana Padano, freshly grated\"\n  ],\n  \"recipeInstructions\": [\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Put 50g dried porcini mushrooms into a large bowl and pour over 1 litre boiling water. Soak for 20 mins, then drain into a bowl, discarding the last few tbsp of liquid left in the bowl.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Crumble 1 vegetable stock cube into the mushroom liquid, then squeeze the mushrooms gently to remove any liquid.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Heat 2 tbsp olive oil in a shallow saucepan or deep frying pan over a medium flame. Add 1 finely chopped onion and 2 finely chopped garlic cloves, then fry for about 5 mins until soft.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Stir in 250g chopped chestnut mushrooms and the dried mushrooms, season with salt and pepper and continue to cook for 8 mins until the fresh mushrooms have softened.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Tip 300g risotto rice into the pan and cook for 1 min. Pour over a 175ml glass of white wine and let it bubble to nothing so the alcohol evaporates.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Keep the pan over a medium heat and pour in a quarter of the mushroom stock. Simmer the rice, stirring often, until the rice has absorbed all the liquid.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Add about the same amount of stock again and continue to simmer and stir - it should start to become creamy, plump and tender. By the time the final quarter of stock is added, the rice should be almost cooked.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Continue stirring until the rice is cooked. If the rice is still undercooked, add a splash of water. Take the pan off the heat, add 25g butter and scatter over 25g grated parmesan or Grana Padano cheese and half a handful of chopped parsley leaves.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Cover and leave for a few mins so that the rice can take up any excess liquid as it cools a bit. Give the risotto a final stir, spoon into bowls and scatter with the remaining 25g grated cheese and the remaining chopped parsley leaves.\"\n    }\n  ],\n  \"recipeYield\": 4,\n  \"totalTime\": \"PT30M\"\n}",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 1,
+        "mappedStepImages": 0,
+        "stepImageCoverage": 0,
+        "ingredientCount": 14,
+        "executableStepCount": 9,
+        "notes": [
+          "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented."
+        ]
+      }
+    },
+    {
+      "sourceName": "Serious Eats",
+      "sourceType": "website",
+      "url": "https://www.seriouseats.com/pressure-cooker-mushroom-risotto-recipe",
+      "documentId": "6a83f371-b7f8-44a3-a4d7-d5fe6cb45a5d",
+      "retrievalMethod": "normal web.open full accessible page; merged overlapping line ranges; direct requests460 and browser402 retained as transport history",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "1 quart (950 ml) homemade or store-bought low-sodium chicken stock or vegetable stock",
+          "raw": "1 quart (950 ml) homemade or store-bought low-sodium chicken stock or vegetable stock",
+          "amount": null
+        },
+        {
+          "name": "1 ounce (30 g) dried porcini mushrooms (optional)",
+          "raw": "1 ounce (30 g) dried porcini mushrooms (optional)",
+          "amount": null
+        },
+        {
+          "name": "4 tablespoons (60 ml) extra-virgin olive oil",
+          "raw": "4 tablespoons (60 ml) extra-virgin olive oil",
+          "amount": null
+        },
+        {
+          "name": "4 tablespoons (50 g) unsalted butter",
+          "raw": "4 tablespoons (50 g) unsalted butter",
+          "amount": null
+        },
+        {
+          "name": "1 1/2 pounds (700 g) mixed mushrooms, such as shiitake, cremini, oyster, and chanterelle, trimmed and thinly sliced, stems reserved",
+          "raw": "1 1/2 pounds (700 g) mixed mushrooms, such as shiitake, cremini, oyster, and chanterelle, trimmed and thinly sliced, stems reserved",
+          "amount": null
+        },
+        {
+          "name": "Kosher salt and freshly ground black pepper",
+          "raw": "Kosher salt and freshly ground black pepper",
+          "amount": null
+        },
+        {
+          "name": "1 medium yellow onion, finely chopped (about 6 ounces; 170 g)",
+          "raw": "1 medium yellow onion, finely chopped (about 6 ounces; 170 g)",
+          "amount": null
+        },
+        {
+          "name": "2 medium cloves garlic, finely minced",
+          "raw": "2 medium cloves garlic, finely minced",
+          "amount": null
+        },
+        {
+          "name": "1 1/2 cups (about 300 g) risotto rice, such as arborio or vialone nano",
+          "raw": "1 1/2 cups (about 300 g) risotto rice, such as arborio or vialone nano",
+          "amount": null
+        },
+        {
+          "name": "2 teaspoons (10 ml) soy sauce",
+          "raw": "2 teaspoons (10 ml) soy sauce",
+          "amount": null
+        },
+        {
+          "name": "1 tablespoon (15 ml) light miso paste",
+          "raw": "1 tablespoon (15 ml) light miso paste",
+          "amount": null
+        },
+        {
+          "name": "3/4 cup (175 ml) dry white wine",
+          "raw": "3/4 cup (175 ml) dry white wine",
+          "amount": null
+        },
+        {
+          "name": "1/4 cup (60 ml) heavy cream (optional; see note)",
+          "raw": "1/4 cup (60 ml) heavy cream (optional; see note)",
+          "amount": null
+        },
+        {
+          "name": "1 ounce (30 g) finely grated Parmigiano-Reggiano cheese, plus more for serving",
+          "raw": "1 ounce (30 g) finely grated Parmigiano-Reggiano cheese, plus more for serving",
+          "amount": null
+        },
+        {
+          "name": "Handful finely minced mixed fresh herbs, such as parsley, chervil, tarragon, and/or chives",
+          "raw": "Handful finely minced mixed fresh herbs, such as parsley, chervil, tarragon, and/or chives",
+          "amount": null
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Place chicken stock and dried mushrooms (if using) in a microwave-safe container and microwave on high power until simmering, about 5 minutes. Remove from microwave. Using a slotted spoon, transfer porcini to a cutting board and roughly chop. Add fresh mushroom scraps to container with porcini-infused stock and set aside. Alternatively, heat stock and dried mushrooms (if using) in a small saucepan until simmering, then remove from heat, transfer porcini to a cutting board and roughly chop; add fresh mushroom scraps to saucepan and set aside to infuse.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "Heat olive oil and butter in the base of a pressure cooker over high heat, swirling, until foaming subsides. Add fresh mushrooms, season with salt and pepper, and cook, stirring occasionally, until excess moisture has evaporated and mushrooms are well browned, about 8 minutes.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "Add onion, garlic, and chopped porcini (if using) and cook, stirring frequently, until onions are softened and aromatic, about 4 minutes. Add rice and cook, stirring, until rice is evenly coated in oil and toasted but not browned, 3 to 4 minutes. (Rice grains should start to look like tiny ice cubes: translucent around the edges and cloudy in the center.) Stir in soy sauce and miso paste until evenly incorporated.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "Add wine and cook, stirring, until raw alcohol smell has cooked off and wine has almost fully evaporated, about 2 minutes.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 5,
+          "instruction": "Pour stock into pot through a fine-mesh strainer, discarding mushroom stems. Scrape any grains of rice or pieces of onion from side of pressure cooker so that they are fully submerged. Close pressure cooker and bring up to low pressure (10 psi on most units). Cook at low pressure for 5 minutes, then depressurize cooker, either by running it under cold water if it is not electric or using the steam-release valve if it is electric.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 6,
+          "instruction": "Open pressure cooker and stir to combine rice and cooking liquid; a creamy consistency should begin to develop. Stir in cream (if using), cheese, and herbs. If risotto is too soupy, cook for a few minutes longer, stirring, until it begins to thicken more. If it is too thick, stir in some hot water. It should flow slowly when you drag a trail through it with a spoon. Season to taste with salt and pepper and serve immediately on hot plates, passing extra cheese at the table.",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [],
+      "tips": [
+        "I like to add a splash of heavy cream to my risotto just before serving—it adds a velvety creaminess and smooths out all the flavors. Some folks prefer the stronger flavor of cream-free risotto. Taste before adding the cream if you are unsure.",
+        "To Cook Without a Pressure Cooker: Follow recipe through the end of step 4, using a large Dutch oven instead of a pressure cooker. Strain the broth through a fine-mesh strainer into the Dutch oven and add 2 more cups of broth. Bring to a boil, reduce to a simmer, and cook, stirring occasionally, until most of the liquid is absorbed and the rice is almost cooked through, about 30 minutes. Stir in 1 to 2 more cups of broth to adjust consistency and continue with step 6."
+      ],
+      "rawExcerpt": "iframe†www.googletagmanager.com\n\nSerious Eats\n\nSave\n\nRate\n\n* Search [Input: What are you looking for?]\n\n* Newsletters\n* Sweepstakes\n* Serious Eats\n# Pressure Cooker Mushroom Risotto Recipe\n\n4.7\n\n(21)\n\n51 Reviews\n\nCreamy, intensely flavored mushroom risotto that's ready in less time\n\nBy\n\nJ. Kenji López-Alt\n\nImage: Kenji Lopez Alt Image: Kenji Lopez Alt\n\nJ. Kenji López-Alt\n\nKenji is the former culinary director for Serious Eats and a current culinary consultant for the site. He is also a New York Times food columnist and the author of The Food Lab: Better Home Cooking Through Science.\n\nSerious Eats' Editorial Guidelines\nUpdated on January 11, 2026\n\nImage†cdn.jwplayer.com Image†cdn.jwplayer.com\n\nHow to Make Fast, Easy Mushroom Risotto in Your Pressure Cooker\n\n2:42\n\nIn This Recipe\n\nView All\n\nIn This Article\n\n* How to Get the Most Intense Mushroom Flavor for Your Mushroom Risotto\n\n* Finishing Your Mushroom Risotto\n\nJump to recipe\n* Get intense mushroom flavor by combining well-browned fresh mushrooms, dried porcini, and stock infused with mushroom trimmings.\n* The pressure cooker turns out creamy risotto in just minutes, no stirring required.\n* A touch of soy sauce and miso deepens the mushrooms’ savory character.\n* Finishing with fresh herbs and grated Parmesan, and serving on hot plates, keeps the risotto creamy and adds a fresh, savory lift.\nHere are some facts: Despite its reputation for being difficult, risotto is really, really easy to make, even using the traditional stand-and-stir, add-the-broth-a-cup-at-a-time method, a technique that I am convinced was invented by Italian grandmothers who wanted to keep the pesky little bambini occupied for 45 minutes at a stretch.\nIn reality, no such stirring is necessary; you can cook risotto in a wide pot at a full boil , giving it just a few cursory stirs at the beginning and end, and it'll come out just as creamy and delicious as if you'd hovered over it the entire time.\nImage: Finished and garnished mushroom risotto in a bowl with cheese and herbs on the periphery. Image: Finished and garnished mushroom risotto in a bowl with cheese and herbs on the periphery.\n\nSerious Eats / Mariel De La Cruz\nThe technique was first popularized by Modernist Cuisine†modernistcuisine.com , but we were skeptics until we tried it for ourselves, with Daniel's recipe for Pressure Cooker Butternut Squash Risotto . His recipe takes a bit of time because it requires you to make a squash purée, but the actual rice cooks in broth, from raw to al dente, in five minutes flat. Five minutes to cook risotto!\nSince then, I've become a complete convert, to the point where the only way I'll ever cook risotto another way is if I find myself banished to a remote Italian island with nothing but a pot and a wooden spoon.\nFor this version, my goal was to get intensely savory mushroom flavor, while making sure that you don't have to dirty any extra pots or pans or spend hours developing flavors. I like this kind of recipe development: It turns the whole thing into a game of optimization and efficiency, with the goal of drawing out as much flavor as possible, as quickly as possible.\nAnd if you have yourself a pressure cooker ? Well, then, you're seriously in luck (or, more precisely, you're the type who makes their own luck). The pressure cooker is the fastest, easiest, most reliable, and best way to cook risotto, taking your rice from raw to dinner-ready in minutes.\n\nImage: A pile of wild and farmed mushrooms prepped for risotto Image: A pile of wild and farmed mushrooms prepped for risotto\n\nSerious Eats / J. Kenji López-Alt\n## How to Get the Most Intense Mushroom Flavor for Your Mushroom Risotto\n\nUsing a ton of mushrooms in my risotto was a given—I use a full pound and a half of mushrooms, going with a mixture of whatever looks best at the market. (This time of year in California, it's wild chanterelles along with farm-raised shiitakes, oysters, and creminis.)\nMany recipes for mushroom risotto will have you simply cook mushrooms in the pan, add the rice and the broth, and cook. This gives you rice that tastes like, well, rice, with chunks of mushrooms in it. To get mushroom flavor directly into the rice, my first thought was to infuse the broth (I used homemade vegetable stock , though homemade or store-bought low-sodium chicken stock would work as well) with extra flavors by heating up some dried porcini mushrooms in it.\nImage: Dried porcini mushrooms soaking in broth for mushroom risotto Image: Dried porcini mushrooms soaking in broth for mushroom risotto\n\nSerious Eats / J. Kenji López-Alt\nThe fastest way I know to do this is to microwave the dried mushrooms with the stock until it comes to a simmer. This simultaneously softens the mushrooms to the point where you can chop them with a knife to incorporate them into the risotto, while also adding a ton of flavor to the broth. (As a bonus, heating the broth now means you don't have to wait long for it to come to a boil when you add it to the pressure cooker later on.)\nAs I strained the reconstituted porcini out of the broth, I looked over at the small bowl of mushroom trimmings I'd collected as I cleaned my fresh mushrooms earlier. They were too tough to eat, but they still had plenty of good flavor in them, so I added them directly to the hot porcini broth to steep while I continued preparing the rest of the recipe, creating a sort of mushroom tea to layer on more flavor.\nNext up, I sautéed my fresh mushrooms in my pressure cooker. I generally cook my risotto with a mixture of extra-virgin olive oil and butter for flavor and richness, but I found that my butter burned if I added it right from the start. Instead, I decided to cook my mushrooms in pure oil, sautéing them until they release all of their moisture and start to brown significantly. When you do this, you'll see the mushrooms drop in volume by a good 80% or so.\nThis is all good news in the flavor-intensification department.\nOnce the mushrooms were cooked, I added diced onions and garlic, sweated until just softened but not browned. I almost always finish off my sautéed mushrooms with a splash of soy sauce, an ingredient that boosts their umami flavor, making them taste extra mushroom-y. It works well here, too.\nWhen the base flavors were all in place, I added the rice and toasted it until it was just barely translucent, before adding a splash of dry white wine and letting it reduce to cook off any raw alcohol aroma. With a classic risotto, this step is not quite as necessary—even if you add your stock right after adding the wine, a prolonged cook on the stovetop will drive off most of the alcohol.\nWith a pressure cooker, however, very limited evaporation takes place, so if you have funky or alcoholic aromas in the pot when you snap on the lid, those aromas are gonna stay there when you serve it. Make sure it smells good before the lid goes on!\nImage: A spoon in a container of pale brown miso Image: A spoon in a container of pale brown miso\n\nSerious Eats / J. Kenji López-Alt\n\nIn Daniel's squash risotto, he stirs in a scoop of miso paste to intensify the flavor. I took a cue from him and incorporated the same trick here.\nWith standard risotto, you use stock and rice in a ratio of about four to one. With pressure cooker risotto, due to the minimal evaporation, it's more like two to one. This may well be the only disadvantage of pressure cooker risotto—with no reduction, you don't get any intensification of broth flavors as it cooks down, which is to say that the broth had better be darned tasty before it goes in the pot! Luckily, the double mushroom infusion accomplishes this.\nOnce the hot broth goes in, it takes only five minutes at low pressure (followed by a rapid chill, either by running a stovetop pressure cooker under water or by using the steam release on an electric cooker) for the rice to be cooked perfectly al dente. When you first open the cooker, it'll look watery, but give it a few strong stirs and it'll come out as creamy as you could hope for.\n## Finishing Your Mushroom Risotto\n\nImage: A shallow white bowl filled with creamy mushroom risotto Image: A shallow white bowl filled with creamy mushroom risotto\n\nSerious Eats / J. Kenji López-Alt\nThose five minutes of cook time give you the perfect opportunity to quickly chop up some herbs (I like classic French fines herbes: parsley, tarragon, chervil, and chives) and throw some bowls into the toaster oven to heat up. Serving in anything but a hot, hot bowl or plate is the only true cardinal sin when it comes to risotto. A hot plate is the only way to ensure that the rice stays light and creamy the whole time you're eating it.\nI like to finish off my risotto with lots of grated Parmesan cheese, and, though traditionalists may scoff, I also like adding a splash of heavy cream at the end to mellow out the flavors. I find that it brings a luxurious smoothness to the whole affair.\n\nImage: A spoonful held up from a bowl of creamy mushroom risotto Image: A spoonful held up from a bowl of creamy mushroom risotto\n\nSerious Eats / J. Kenji López-Alt\nAll told, even with the double infusion and thorough browning steps, the whole dish comes together in under an hour, thanks to the rapid cooking of the pressure cooker. Think of all the mischief the bambini could get into with so much free time!\n### December 2014\n\nPrep Time:\n\n5 mins\n\nCook Time:\n\n40 mins\n\nTotal Time:\n\n45 mins\n\nServings:\n\n4 to 6 servings\n\nYield:\n\nServes 4 to 6\n\n[Button: Jump to Nutrition Facts]\n\nKeep Screen Awake\n## Ingredients\n\n* 1 quart (950 ml) homemade or store-bought low-sodium chicken stock or vegetable stock\n\n* 1 ounce (30 g) dried porcini mushrooms (optional)\n\n* 4 tablespoons (60 ml) extra-virgin olive oil\n\n* 4 tablespoons (50 g) unsalted butter\n\n* 1 1/2 pounds (700 g) mixed mushrooms, such as shiitake, cremini, oyster, and chanterelle, trimmed and thinly sliced, stems reserved\n\n* Kosher salt and freshly ground black pepper\n* 1 medium yellow onion, finely chopped (about 6 ounces; 170 g)\n\n* 2 medium cloves garlic, finely minced\n\n* 1 1/2 cups (about 300 g) risotto rice, such as arborio or vialone nano\n\n* 2 teaspoons (10 ml) soy sauce\n\n* 1 tablespoon (15 ml) light miso paste\n\n* 3/4 cup (175 ml) dry white wine\n\n* 1/4 cup (60 ml) heavy cream (optional; see note)\n\n* 1 ounce (30 g) finely grated Parmigiano-Reggiano cheese, plus more for serving\n* Handful finely minced mixed fresh herbs, such as parsley, chervil, tarragon, and/or chives\n## Directions\n1. Place chicken stock and dried mushrooms (if using) in a microwave-safe container and microwave on high power until simmering, about 5 minutes. Remove from microwave. Using a slotted spoon, transfer porcini to a cutting board and roughly chop. Add fresh mushroom scraps to container with porcini-infused stock and set aside.\nAlternatively, heat stock and dried mushrooms (if using) in a small saucepan until simmering, then remove from heat, transfer porcini to a cutting board and roughly chop; add fresh mushroom scraps to saucepan and set aside to infuse.\nImage: Mushrooms and stock in a dutch oven on a wooden counter. Image: Mushrooms and stock in a dutch oven on a wooden counter.\n\nSerious Eats / Mariel De La Cruz\n\n2. Heat olive oil and butter in the base of a pressure cooker over high heat, swirling, until foaming subsides. Add fresh mushrooms, season with salt and pepper, and cook, stirring occasionally, until excess moisture has evaporated and mushrooms are well browned, about 8 minutes.\nImage: The browned mushrooms inside of the pressure cooker. Image: The browned mushrooms inside of the pressure cooker.\n\nSerious Eats / Mariel De La Cruz\n3. Add onion, garlic, and chopped porcini (if using) and cook, stirring frequently, until onions are softened and aromatic, about 4 minutes. Add rice and cook, stirring, until rice is evenly coated in oil and toasted but not browned, 3 to 4 minutes. (Rice grains should start to look like tiny ice cubes: translucent around the edges and cloudy in the center.) Stir in soy sauce and miso paste until evenly incorporated.\nImage: A two-image collage showing the pressure cooker after the rice and sautÃ©d onions have been added. Image: A two-image collage showing the pressure cooker after the rice and sautÃ©d onions have been added.\n\nSerious Eats / Mariel De La Cruz\n\n4. Add wine and cook, stirring, until raw alcohol smell has cooked off and wine has almost fully evaporated, about 2 minutes.\nImage: The pressure cooker containing all of the cooked ingredients, with wine being poured in. Image: The pressure cooker containing all of the cooked ingredients, with wine being poured in.\n\nSerious Eats / Mariel De La Cruz\n5. Pour stock into pot through a fine-mesh strainer, discarding mushroom stems. Scrape any grains of rice or pieces of onion from side of pressure cooker so that they are fully submerged. Close pressure cooker and bring up to low pressure (10 psi on most units). Cook at low pressure for 5 minutes, then depressurize cooker, either by running it under cold water if it is not electric or using the steam-release valve if it is electric.\nImage: Mushroom stock being poured into the pressure cooker through a fine mesh sieve, with the sieve catching the solid pieces of mushroom. Image: Mushroom stock being poured into the pressure cooker through a fine mesh sieve, with the sieve catching the solid pieces of mushroom.\n\nSerious Eats / Mariel De La Cruz\n6. Open pressure cooker and stir to combine rice and cooking liquid; a creamy consistency should begin to develop. Stir in cream (if using), cheese, and herbs. If risotto is too soupy, cook for a few minutes longer, stirring, until it begins to thicken more. If it is too thick, stir in some hot water. It should flow slowly when you drag a trail through it with a spoon. Season to taste with salt and pepper and serve immediately on hot plates, passing extra cheese at the table.\nImage: A two-image collage showing the cooked risotto being stirred in the pressure cooker, and then the risotto plated and garnished. Image: A two-image collage showing the cooked risotto being stirred in the pressure cooker, and then the risotto plated and garnished.\n\nSerious Eats / Mariel De La Cruz\n## Special Equipment\n\nElectric pressure cooker or countertop pressure cooker , microwave\n## Notes\n\nI like to add a splash of heavy cream to my risotto just before serving—it adds a velvety creaminess and smooths out all the flavors. Some folks prefer the stronger flavor of cream-free risotto. Taste before adding the cream if you are unsure.\nTo Cook Without a Pressure Cooker: Follow recipe through the end of step 4, using a large Dutch oven instead of a pressure cooker. Strain the broth through a fine-mesh strainer into the Dutch oven and add 2 more cups of broth. Bring to a boil, reduce to a simmer, and cook, stirring occasionally, until most of the liquid is absorbed and the rice is almost cooked through, about 30 minutes. Stir in 1 to 2 more cups of broth to adjust consistency and continue with step 6.\n## Read More\n\n* Perfect Risotto Recipe\n* 12 Easy Risotto Recipes\n\nSave\n\nRate\n\nPrint [Input]\n## Nutrition Facts (per serving)\n\n320  | Calories\n18g  | Fat\n26g  | Carbs\n7g  | Protein\n\nShow Full Nutrition Label Hide Full Nutrition Label\n\nNutrition Facts\n---\nServings Per Recipe 4 to 6\n---\nCalories 320\n---\n% Daily Value *\nTotal Carbohydrate 26g  | 9%\nDietary Fiber 1g  | 4%\nTotal Sugars 4g\nProtein 7g  | 13%\nTotal Fat 18g  | 23%\nSaturated Fat 6g  | 32%\nCholesterol 22mg  | 7%\nVitamin C 3mg  | 3%\nSodium 961mg  | 42%\nCalcium 82mg  | 6%\nIron 2mg  | 9%\nPotassium 629mg  | 13%\n* Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs.\n\nLoading shell for RecipesUgcThreaded1 Vue component in Globe.\n## Related Articles\nMushroom and Asparagus Risotto Recipe 1 hr 5 mins Pressure Cooker Butternut Squash Risotto With Frizzled Sage and Brown Butter 1 hr 20 mins Tater Tot Casserole (Hotdish) Recipe 3 hrs 15 mins Mushroom Risotto Recipe 1 hr 5 mins Chicken Cacciatore With Mushrooms, Tomato, and Onion Recipe 1 hr 20 mins Pressure Cooker Ground Beef and Bean Chili Recipe 1 hr Pressure Cooker Corn Risotto 30 mins Pressure Cooker Red Wine–Braised Beef Short Ribs Recipe 3 hrs 40 mins\nVegan Seitan and Mushroom Ragù Bolognese Recipe 1 hr 5 mins Pressure Cooker Chunky Beef and Bean Chili Recipe 1 hr 15 mins Chicken Marsala 45 mins Thanksgiving Stuffed Roast Pumpkins 2 hrs 55 mins Veneto-Style Radicchio Risotto With Walnuts and Blue Cheese Recipe 45 mins Pressure Cooker Beef Barley Soup Recipe 1 hr 20 mins Easy Roasted Mushrooms 55 mins Quick and Easy Creamy Mushroom Soup 45 mins\n\nNewsletter Sign Up\n\nNewsletter Sign Up",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 0,
+        "mappedStepImages": 0,
+        "stepImageCoverage": 0,
+        "ingredientCount": 15,
+        "executableStepCount": 6,
+        "notes": [
+          "Page images and step adjacencies visible in web.open; original binary URLs not returned by failed web.click. No verified downloadable media available, no invented image mappings.",
+          "Source quantities with mixed units retained verbatim; no vessel capacity inferred."
+        ]
+      }
+    }
+  ],
+  "sourceMode": "multi_source",
+  "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/mushroom-risotto",
+  "selectionReason": "Selected exactly one whole BBC recipe: full coherent ingredients/method match the target; verified usable hero (no source step photos available). Other sources have no verified usable media URLs under ordinary access. Under the required completeness/coherence then usable-image/coverage ranking, this source leads; its ingredients, operations, tips and media are kept together without supplementation.",
+  "ragEvidence": [
+    {
+      "chunkId": "6247b76a-a0e5-4e4b-82d6-f2744cb6b90b",
+      "documentId": "a32460d0-637d-4400-b924-2b83638166db",
+      "sourceName": "BBC Good Food",
+      "chunkType": "tips",
+      "content": "菜名：蘑菇烩饭\n- 原文未提供额外提示。",
+      "similarity": 0.7302915179382
+    },
+    {
+      "chunkId": "dc048b1a-9e1c-464f-a9eb-c58db266e489",
+      "documentId": "a32460d0-637d-4400-b924-2b83638166db",
+      "sourceName": "BBC Good Food",
+      "chunkType": "technique",
+      "content": "菜名：蘑菇烩饭\n- 原文未明确说明技法。",
+      "similarity": 0.722682519118937
+    },
+    {
+      "chunkId": "0d0c6266-5d64-499b-b0a5-31f4e443bb52",
+      "documentId": "a32460d0-637d-4400-b924-2b83638166db",
+      "sourceName": "BBC Good Food",
+      "chunkType": "steps",
+      "content": "菜名：蘑菇烩饭\n1. Put 50g dried porcini mushrooms into a large bowl and pour over 1 litre boiling water. Soak for 20 mins, then drain into a bowl, discarding the last few tbsp of liquid left in the bowl.\n2. Crumble 1 vegetable stock cube into the mushroom liquid, then squeeze the mushrooms gently to remove any liquid.\n3. Heat 2 tbsp olive oil in a shallow saucepan or deep frying pan over a medium flame. Add 1 finely chopped onion and 2 finely chopped garlic cloves, then fry for about 5 mins until soft.\n4. Stir in 250g chopped chestnut mushrooms and the dried mushrooms, season with salt and pepper and continue to cook for 8 mins until the fresh mushrooms have softened.\n5. Tip 300g risotto rice into the pan and cook for 1 min. Pour over a 175ml glass of white wine and let it bubble to nothing so the alcohol evaporates.\n6. Keep the pan over a medium heat and pour in a quarter of the mushroom stock. Simmer the rice, stirring often, until the rice has absorbed all the liquid.\n7. Add about the same amount of stock again and continue to simmer and stir - it should start to become creamy, plump and tender. By the time the final quarter of stock is added, the rice should be almost cooked.",
+      "similarity": 0.721236608065266
+    },
+    {
+      "chunkId": "95fcd617-9043-4b94-984d-b22897ec92c3",
+      "documentId": "a32460d0-637d-4400-b924-2b83638166db",
+      "sourceName": "BBC Good Food",
+      "chunkType": "summary",
+      "content": "菜名：蘑菇烩饭\n别名：Mushroom risotto\n菜系：Italian\n简介：Barney guides you through a step-by-step guide to making a mushroom risotto - you might even find it relaxing!",
+      "similarity": 0.696717899842138
+    },
+    {
+      "chunkId": "fc408e4b-4e66-466e-bec6-25fb271f6a89",
+      "documentId": "a32460d0-637d-4400-b924-2b83638166db",
+      "sourceName": "BBC Good Food",
+      "chunkType": "steps",
+      "content": "菜名：蘑菇烩饭\n8. Continue stirring until the rice is cooked. If the rice is still undercooked, add a splash of water. Take the pan off the heat, add 25g butter and scatter over 25g grated parmesan or Grana Padano cheese and half a handful of chopped parsley leaves.\n9. Cover and leave for a few mins so that the rice can take up any excess liquid as it cools a bit. Give the risotto a final stir, spoon into bowls and scatter with the remaining 25g grated cheese and the remaining chopped parsley leaves.",
+      "similarity": 0.688422482515723
+    },
+    {
+      "chunkId": "9c7c621e-4491-4606-9687-74c694bc4a49",
+      "documentId": "a32460d0-637d-4400-b924-2b83638166db",
+      "sourceName": "BBC Good Food",
+      "chunkType": "ingredients",
+      "content": "菜名：蘑菇烩饭\n- 50g dried porcini mushrooms\n- 1 vegetable stock cube\n- 2 tbsp olive oil\n- 1 onion finely chopped\n- 2 garlic cloves finely chopped\n- 250g pack chestnut mushrooms chopped\n- 300g risotto rice such as arborio\n- 1 x 175ml glass white wine\n- 25g butter\n- handful parsley leaves, chopped\n- 50g parmesan or Grana Padano, freshly grated\n- 1 litre boiling water for soaking mushrooms; splash more if rice undercooked\n- salt (method step4; amount unspecified)\n- pepper (method step4; amount unspecified)",
+      "similarity": 0.687763411536015
+    },
+    {
+      "chunkId": "226a55fe-68e8-4845-8a7f-177f0decefc7",
+      "documentId": "6a83f371-b7f8-44a3-a4d7-d5fe6cb45a5d",
+      "sourceName": "Serious Eats",
+      "chunkType": "summary",
+      "content": "菜名：蘑菇烩饭\n别名：Pressure Cooker Mushroom Risotto Recipe\n简介：Pressure Cooker Mushroom Risotto Recipe",
+      "similarity": 0.733369664348981
+    },
+    {
+      "chunkId": "36f6fbe4-a3d5-4148-93ee-b8de3951ab33",
+      "documentId": "6a83f371-b7f8-44a3-a4d7-d5fe6cb45a5d",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：蘑菇烩饭\n6. Open pressure cooker and stir to combine rice and cooking liquid; a creamy consistency should begin to develop. Stir in cream (if using), cheese, and herbs. If risotto is too soupy, cook for a few minutes longer, stirring, until it begins to thicken more. If it is too thick, stir in some hot water. It should flow slowly when you drag a trail through it with a spoon. Season to taste with salt and pepper and serve immediately on hot plates, passing extra cheese at the table.",
+      "similarity": 0.728252096668012
+    },
+    {
+      "chunkId": "5d1693b1-a488-4440-8ea2-73b704224c2e",
+      "documentId": "6a83f371-b7f8-44a3-a4d7-d5fe6cb45a5d",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：蘑菇烩饭\n1. Place chicken stock and dried mushrooms (if using) in a microwave-safe container and microwave on high power until simmering, about 5 minutes. Remove from microwave. Using a slotted spoon, transfer porcini to a cutting board and roughly chop. Add fresh mushroom scraps to container with porcini-infused stock and set aside. Alternatively, heat stock and dried mushrooms (if using) in a small saucepan until simmering, then remove from heat, transfer porcini to a cutting board and roughly chop; add fresh mushroom scraps to saucepan and set aside to infuse.\n2. Heat olive oil and butter in the base of a pressure cooker over high heat, swirling, until foaming subsides. Add fresh mushrooms, season with salt and pepper, and cook, stirring occasionally, until excess moisture has evaporated and mushrooms are well browned, about 8 minutes.",
+      "similarity": 0.724530474869582
+    },
+    {
+      "chunkId": "474e1ded-7bb8-4864-84ea-a98421419110",
+      "documentId": "6a83f371-b7f8-44a3-a4d7-d5fe6cb45a5d",
+      "sourceName": "Serious Eats",
+      "chunkType": "technique",
+      "content": "菜名：蘑菇烩饭\n- 原文未明确说明技法。",
+      "similarity": 0.723440072638991
+    },
+    {
+      "chunkId": "6f35053e-a419-4751-bf26-0f26d15923ab",
+      "documentId": "6a83f371-b7f8-44a3-a4d7-d5fe6cb45a5d",
+      "sourceName": "Serious Eats",
+      "chunkType": "tips",
+      "content": "菜名：蘑菇烩饭\n- I like to add a splash of heavy cream to my risotto just before serving—it adds a velvety creaminess and smooths out all the flavors. Some folks prefer the stronger flavor of cream-free risotto. Taste before adding the cream if you are unsure.\n- To Cook Without a Pressure Cooker: Follow recipe through the end of step 4, using a large Dutch oven instead of a pressure cooker. Strain the broth through a fine-mesh strainer into the Dutch oven and add 2 more cups of broth. Bring to a boil, reduce to a simmer, and cook, stirring occasionally, until most of the liquid is absorbed and the rice is almost cooked through, about 30 minutes. Stir in 1 to 2 more cups of broth to adjust consistency and continue with step 6.",
+      "similarity": 0.720508840144739
+    },
+    {
+      "chunkId": "d255ada2-981b-4ca8-8530-74cf6b9000ef",
+      "documentId": "6a83f371-b7f8-44a3-a4d7-d5fe6cb45a5d",
+      "sourceName": "Serious Eats",
+      "chunkType": "ingredients",
+      "content": "菜名：蘑菇烩饭\n- 1 quart (950 ml) homemade or store-bought low-sodium chicken stock or vegetable stock\n- 1 ounce (30 g) dried porcini mushrooms (optional)\n- 4 tablespoons (60 ml) extra-virgin olive oil\n- 4 tablespoons (50 g) unsalted butter\n- 1 1/2 pounds (700 g) mixed mushrooms, such as shiitake, cremini, oyster, and chanterelle, trimmed and thinly sliced, stems reserved\n- Kosher salt and freshly ground black pepper\n- 1 medium yellow onion, finely chopped (about 6 ounces; 170 g)\n- 2 medium cloves garlic, finely minced\n- 1 1/2 cups (about 300 g) risotto rice, such as arborio or vialone nano\n- 2 teaspoons (10 ml) soy sauce\n- 1 tablespoon (15 ml) light miso paste\n- 3/4 cup (175 ml) dry white wine\n- 1/4 cup (60 ml) heavy cream (optional; see note)\n- 1 ounce (30 g) finely grated Parmigiano-Reggiano cheese, plus more for serving\n- Handful finely minced mixed fresh herbs, such as parsley, chervil, tarragon, and/or chives",
+      "similarity": 0.709541103528175
+    },
+    {
+      "chunkId": "17e7a68e-2228-4940-85b1-4fc9b06dd637",
+      "documentId": "6a83f371-b7f8-44a3-a4d7-d5fe6cb45a5d",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：蘑菇烩饭\n3. Add onion, garlic, and chopped porcini (if using) and cook, stirring frequently, until onions are softened and aromatic, about 4 minutes. Add rice and cook, stirring, until rice is evenly coated in oil and toasted but not browned, 3 to 4 minutes. (Rice grains should start to look like tiny ice cubes: translucent around the edges and cloudy in the center.) Stir in soy sauce and miso paste until evenly incorporated.\n4. Add wine and cook, stirring, until raw alcohol smell has cooked off and wine has almost fully evaporated, about 2 minutes.\n5. Pour stock into pot through a fine-mesh strainer, discarding mushroom stems. Scrape any grains of rice or pieces of onion from side of pressure cooker so that they are fully submerged. Close pressure cooker and bring up to low pressure (10 psi on most units). Cook at low pressure for 5 minutes, then depressurize cooker, either by running it under cold water if it is not electric or using the steam-release valve if it is electric.",
+      "similarity": 0.706575113143021
+    }
+  ],
+  "notes": [
+    "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented.",
+    "BBC source original yield: 4",
+    "BBC original totalTime: PT30M",
+    "BBC original cookTime: PT25M",
+    "BBC original prepTime: PT5M",
+    "Alternative attempts: [{\"url\":\"https://www.bbcgoodfood.com/recipes/mushroom-risotto\",\"status\":200,\"bytes\":591922}]",
+    "Current book inventory and22target audit: west-kb-audit.json. Invalid/superseded/rejected history excluded.",
+    "Serious Eats direct Python460/normalPowerShell402/normalChrome402; normalweb.open successfully retrieved the complete recipes included here. All successful complete matching sources ingested separately before selection; no access-control bypass.",
+    "Alternative enabled-site searches and complete observed source text are archived in west-alternative-search.json and west-se-*.txt.",
+    "Selected source has no verified cooking-stage photos; do not fabricate or relabel a finished-dish photo. Parent must resolve manual-run image exception before publishing."
+  ]
+}

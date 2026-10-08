@@ -1,0 +1,62 @@
+{
+  "ingredients": [
+    {
+      "name": "white wine vinegar",
+      "raw": "3 tbsp white wine vinegar",
+      "amount": null
+    },
+    {
+      "name": "eggs",
+      "raw": "4 eggs",
+      "amount": null
+    },
+    {
+      "name": "toasting muffins",
+      "raw": "2 toasting muffins",
+      "amount": null
+    },
+    {
+      "name": "parma ham",
+      "raw": "4 parma ham",
+      "amount": null
+    },
+    {
+      "name": "butter",
+      "raw": "125g butter",
+      "amount": null
+    },
+    {
+      "name": "egg yolks",
+      "raw": "2 egg yolks",
+      "amount": null
+    },
+    {
+      "name": "white wine vinegar or tarragon vinegar",
+      "raw": "½ tsp white wine vinegar or tarragon vinegar",
+      "amount": null
+    },
+    {
+      "name": "squeeze of lemon juice",
+      "raw": "squeeze of lemon juice",
+      "amount": null
+    },
+    {
+      "name": "pinch of cayenne pepper",
+      "raw": "pinch of cayenne pepper",
+      "amount": null
+    },
+    {
+      "name": "water",
+      "raw": "at least2 litres poaching water; splash ice-cold water for hollandaise; splash to loosen if needed",
+      "amount": null
+    },
+    {
+      "name": "salt",
+      "raw": "pinch salt for hollandaise (method)",
+      "amount": null
+    }
+  ],
+  "notes": [
+    "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented."
+  ]
+}

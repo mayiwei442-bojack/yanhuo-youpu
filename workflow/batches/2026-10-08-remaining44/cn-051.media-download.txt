@@ -1,0 +1,104 @@
+{
+  "recipeId": "cn-051",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/04/char-siu-recipe-15.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-051-woks/hero.jpg",
+      "sha256": "4e38a1a9e1293535710b4656c030d9843a2151a46f653b7ecbbc77d160c00e5c",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 359510
+    },
+    {
+      "role": "step",
+      "stepOrder": 2,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/04/char-siu-recipe.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-051-woks/step-2-1.jpg",
+      "sha256": "2782b70f96fa0fc1f85834d6875d0718fea22d2ae2c27a58df9715d3510f8b39",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 112628
+    },
+    {
+      "role": "step",
+      "stepOrder": 3,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/04/char-siu-recipe-2.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-051-woks/step-3-2.jpg",
+      "sha256": "fb2f319dc928a6ca4b8c7a506432826de465927b2c29fa157d0b124882c7b6f9",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 276458
+    },
+    {
+      "role": "step",
+      "stepOrder": 5,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/04/char-siu-recipe-4.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-051-woks/step-5-3.jpg",
+      "sha256": "df5388e819d35aa600916620a87ad03d47c19844f29684946ef46acefbf34d5c",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 757032
+    },
+    {
+      "role": "step",
+      "stepOrder": 6,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/04/char-siu-recipe-5.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-051-woks/step-6-4.jpg",
+      "sha256": "8faaf2f071bef637a5709260cfdecf09d60a5db093182d00fa9c25b24c9ca12e",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 209920
+    },
+    {
+      "role": "step",
+      "stepOrder": 7,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/04/char-siu-recipe-6.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-051-woks/step-7-5.jpg",
+      "sha256": "15083b9b07f138d5b800d4e1253bd641ac57183ad479da1db3d7ea88a66d84eb",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 68636
+    },
+    {
+      "role": "step",
+      "stepOrder": 8,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/04/char-siu-recipe-7.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-051-woks/step-8-6.jpg",
+      "sha256": "c4f5e27cb7457df8a9c7ccbe643336044694c6d60be32880aa8dab46a5335b44",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 258032
+    },
+    {
+      "role": "step",
+      "stepOrder": 8,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/04/char-siu-recipe-8.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-051-woks/step-8-7.jpg",
+      "sha256": "6d4c78dc1ef12dec12223c4419087a4f8a05b5a0a3cc1c046989389087558001",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 181784
+    },
+    {
+      "role": "step",
+      "stepOrder": 10,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/04/char-siu-recipe-11.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-051-woks/step-10-8.jpg",
+      "sha256": "1c55ab3c136b58008ff784c989e27ffb3ced3ab18406a7032f972f6bcad6e41b",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 328012
+    },
+    {
+      "role": "step",
+      "stepOrder": 10,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/04/char-siu-recipe-13.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-051-woks/step-10-9.jpg",
+      "sha256": "ba676a0f232c239449faac1cbcf668997e84f0e8a63343c75e340efa4a41442f",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 488246
+    }
+  ]
+}

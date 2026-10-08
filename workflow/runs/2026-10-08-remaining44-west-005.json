@@ -1,0 +1,71 @@
+{
+  "runId": "2026-10-08-remaining44-west-005",
+  "recipeId": "west-005",
+  "recipeName": "芝士汉堡",
+  "category": "western",
+  "status": "in_progress",
+  "startedAt": "2026-10-08T11:56:52.318Z",
+  "completedAt": null,
+  "steps": {
+    "research": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "evidencePath": "workflow/batches/2026-10-08-remaining44/west-005.base-evidence.json",
+        "evidencePackageHash": "becf390beaa95237edebba7a66af0402d0d1eb0788bd923337ae34cdcdfb370f",
+        "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/cheeseburgers",
+        "sourceMode": "multi_source",
+        "publicationGate": "Final image/evidence acceptance pending"
+      }
+    },
+    "ingestion": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "selectedDocumentId": "ef51a7d5-65e7-4c2c-abc1-783bdcf65a01",
+        "documentIds": [
+          "ef51a7d5-65e7-4c2c-abc1-783bdcf65a01",
+          "2ea4e999-7e04-4390-a544-e915356f6c9c"
+        ],
+        "ragEvidence": 11
+      }
+    },
+    "edit": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "validator": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "review": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "build": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "gitPush": {
+      "status": "pending",
+      "attempts": 0
+    }
+  },
+  "sources": [
+    {
+      "name": "BBC Good Food",
+      "url": "https://www.bbcgoodfood.com/recipes/cheeseburgers",
+      "status": "success",
+      "failureReason": null
+    },
+    {
+      "name": "Serious Eats",
+      "url": "https://www.seriouseats.com/ultra-crispy-burgers-recipe",
+      "status": "success",
+      "failureReason": null
+    }
+  ],
+  "errors": [],
+  "branch": "codex/recipe-automation",
+  "commit": null
+}

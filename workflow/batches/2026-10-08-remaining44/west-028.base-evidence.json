@@ -1,0 +1,147 @@
+{
+  "recipeId": "west-028",
+  "recipeName": "鸡肉芝士薄饼",
+  "category": "western",
+  "createdAt": "2026-10-08T12:14:07.129Z",
+  "sources": [
+    {
+      "sourceName": "BBC Good Food",
+      "sourceType": "website",
+      "url": "https://www.bbcgoodfood.com/recipes/chicken-quesadillas",
+      "documentId": "9e9d892c-09f7-42fb-9ee3-691ff26a665c",
+      "retrievalMethod": "ordinary HTTPS GET; complete accessible page JSON-LD and DOM independently inspected",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "hot salsa from a jar",
+          "raw": "4 tbsp hot salsa from a jar",
+          "amount": null
+        },
+        {
+          "name": "arge flour tortillas seeded or plain",
+          "raw": "2 large flour tortillas seeded or plain",
+          "amount": null
+        },
+        {
+          "name": "can kidney beans drained and roughly mashed",
+          "raw": "215g can kidney beans drained and roughly mashed",
+          "amount": null
+        },
+        {
+          "name": "spring onion chopped",
+          "raw": "1 spring onion chopped",
+          "amount": null
+        },
+        {
+          "name": "leftover roast chicken shredded (use the last of the meat on the carcass)",
+          "raw": "50g leftover roast chicken shredded (use the last of the meat on the carcass)",
+          "amount": null
+        },
+        {
+          "name": "grated mature cheddar",
+          "raw": "85g grated mature cheddar",
+          "amount": null
+        },
+        {
+          "name": "a 20g pack coriander leaves chopped (optional)",
+          "raw": "½ a 20g pack coriander leaves chopped (optional)",
+          "amount": null
+        },
+        {
+          "name": "oil for brushing",
+          "raw": "oil for brushing",
+          "amount": null
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Spread 2 tbsp salsa onto each tortilla, then evenly top one of them with the beans, spring onion, chicken and cheddar. Scatter with coriander, if you have it. Sandwich with the other tortilla, then brush with oil.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "Heat a large non-stick frying pan, then cook the tortilla, oil-side down, for 4 mins. Carefully turn over with a palette knife (or by turning it out onto a plate, sliding it back into the pan), then cook for 2 mins on the other side until golden. Serve cut into wedges.",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [],
+      "tips": [],
+      "rawExcerpt": "{\n  \"@context\": \"https://schema.org\",\n  \"@id\": \"https://www.bbcgoodfood.com/recipes/chicken-quesadillas#Recipe\",\n  \"@type\": \"Recipe\",\n  \"description\": \"These easy, budget-friendly chicken quesadillas make a quick lunch for two or a simple party snack and are a great way to use up leftover roast chicken\",\n  \"image\": [\n    {\n      \"@type\": \"ImageObject\",\n      \"url\": \"https://images.immediate.co.uk/production/volatile/sites/30/2009/02/Chicken-quesadilla-4b5a699.jpg?resize=768,845\",\n      \"width\": 768,\n      \"height\": 845\n    },\n    {\n      \"@type\": \"ImageObject\",\n      \"url\": \"https://images.immediate.co.uk/production/volatile/sites/30/2009/02/Chicken-quesadilla-4b5a699.jpg?resize=1366,1502\",\n      \"width\": 1366,\n      \"height\": 1502\n    }\n  ],\n  \"mainEntityOfPage\": {\n    \"@type\": \"WebPage\",\n    \"@id\": \"https://www.bbcgoodfood.com/recipes/chicken-quesadillas\"\n  },\n  \"name\": \"Chicken quesadillas\",\n  \"url\": \"https://www.bbcgoodfood.com/recipes/chicken-quesadillas\",\n  \"author\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Sara Buenfeld\",\n      \"url\": \"https://www.bbcgoodfood.com/author/sarabuenfeld\"\n    }\n  ],\n  \"dateModified\": \"2025-10-01T10:31:08+01:00\",\n  \"datePublished\": \"2009-02-19T04:01:03+00:00\",\n  \"headline\": \"Chicken quesadillas\",\n  \"keywords\": \"Chicken, Coriander, Cutting waste, Easy snacks, How to use up leftover chicken, Kidney bean, Kidney beans, Leftover roast chicken recipes, Mature cheddar, Quesadillas, Quick, Salsa, Sara Buenfeld, Spring onion, Spring onions, Tortilla, Tortillas\",\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Good Food\",\n    \"url\": \"https://www.bbcgoodfood.com\",\n    \"logo\": {\n      \"@type\": \"ImageObject\",\n      \"height\": 325,\n      \"url\": \"https://images.immediate.co.uk/production/volatile/sites/30/2026/02/goodfood.logo-f37096c.png?resize=1312,325\",\n      \"width\": 1312\n    }\n  },\n  \"cookTime\": \"PT6M\",\n  \"nutrition\": {\n    \"@type\": \"NutritionInformation\",\n    \"calories\": \"460 calories\",\n    \"fatContent\": \"24 grams fat\",\n    \"saturatedFatContent\": \"11 grams saturated fat\",\n    \"carbohydrateContent\": \"33 grams carbohydrates\",\n    \"sugarContent\": \"3 grams sugar\",\n    \"fiberContent\": \"7 grams fiber\",\n    \"proteinContent\": \"26 grams protein\",\n    \"sodiumContent\": \"1.84 milligram of sodium\"\n  },\n  \"prepTime\": \"PT10M\",\n  \"recipeCuisine\": \"Mexican\",\n  \"recipeIngredient\": [\n    \"4 tbsp hot salsa from a jar\",\n    \"2 large flour tortillas seeded or plain\",\n    \"215g can kidney beans drained and roughly mashed\",\n    \"1 spring onion chopped\",\n    \"50g leftover roast chicken shredded (use the last of the meat on the carcass)\",\n    \"85g grated mature cheddar\",\n    \"½ a 20g pack coriander leaves chopped (optional)\",\n    \"oil for brushing\"\n  ],\n  \"recipeInstructions\": [\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Spread 2 tbsp salsa onto each tortilla, then evenly top one of them with the beans, spring onion, chicken and cheddar. Scatter with coriander, if you have it. Sandwich with the other tortilla, then brush with oil.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Heat a large non-stick frying pan, then cook the tortilla, oil-side down, for 4 mins. Carefully turn over with a palette knife (or by turning it out onto a plate, sliding it back into the pan), then cook for 2 mins on the other side until golden. Serve cut into wedges.\"\n    }\n  ],\n  \"recipeYield\": 2,\n  \"totalTime\": \"PT16M\"\n}",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 1,
+        "mappedStepImages": 0,
+        "stepImageCoverage": 0,
+        "ingredientCount": 8,
+        "executableStepCount": 2,
+        "notes": [
+          "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented."
+        ]
+      }
+    }
+  ],
+  "sourceMode": "single_source",
+  "singleSourceReason": "Exact-name and alias KB query first; all84actual book records checked, no matching Western recipe. Enabled BBC and Serious Eats alternatives attempted; only one independent complete coherent source remains eligible. Other inaccessible, materially different, or internally conflicting variants are retained in audit and never used to supplement it.",
+  "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/chicken-quesadillas",
+  "selectionReason": "Selected exactly one whole BBC recipe: full coherent ingredients/method match the target; verified usable hero (no source step photos available). Other sources have no verified usable media URLs under ordinary access. Under the required completeness/coherence then usable-image/coverage ranking, this source leads; its ingredients, operations, tips and media are kept together without supplementation.",
+  "ragEvidence": [
+    {
+      "chunkId": "ac4d835e-b289-4bd3-86cd-cbec6512eee4",
+      "documentId": "9e9d892c-09f7-42fb-9ee3-691ff26a665c",
+      "sourceName": "BBC Good Food",
+      "chunkType": "tips",
+      "content": "菜名：鸡肉芝士薄饼\n- 原文未提供额外提示。",
+      "similarity": 0.76051949027297
+    },
+    {
+      "chunkId": "332e9d7a-f5e6-4198-b9cf-06e6e8effcbb",
+      "documentId": "9e9d892c-09f7-42fb-9ee3-691ff26a665c",
+      "sourceName": "BBC Good Food",
+      "chunkType": "technique",
+      "content": "菜名：鸡肉芝士薄饼\n- 原文未明确说明技法。",
+      "similarity": 0.748157143592834
+    },
+    {
+      "chunkId": "0f8876d7-d7c7-447f-ada1-0ca7ad51e53c",
+      "documentId": "9e9d892c-09f7-42fb-9ee3-691ff26a665c",
+      "sourceName": "BBC Good Food",
+      "chunkType": "summary",
+      "content": "菜名：鸡肉芝士薄饼\n别名：Chicken quesadillas\n菜系：Mexican\n简介：These easy, budget-friendly chicken quesadillas make a quick lunch for two or a simple party snack and are a great way to use up leftover roast chicken",
+      "similarity": 0.714300274848938
+    },
+    {
+      "chunkId": "cdd89001-39f3-45e3-b64f-03134d92c660",
+      "documentId": "9e9d892c-09f7-42fb-9ee3-691ff26a665c",
+      "sourceName": "BBC Good Food",
+      "chunkType": "steps",
+      "content": "菜名：鸡肉芝士薄饼\n1. Spread 2 tbsp salsa onto each tortilla, then evenly top one of them with the beans, spring onion, chicken and cheddar. Scatter with coriander, if you have it. Sandwich with the other tortilla, then brush with oil.\n2. Heat a large non-stick frying pan, then cook the tortilla, oil-side down, for 4 mins. Carefully turn over with a palette knife (or by turning it out onto a plate, sliding it back into the pan), then cook for 2 mins on the other side until golden. Serve cut into wedges.",
+      "similarity": 0.70294451713562
+    },
+    {
+      "chunkId": "e65e8bcd-270e-4475-afe4-d37b9196278e",
+      "documentId": "9e9d892c-09f7-42fb-9ee3-691ff26a665c",
+      "sourceName": "BBC Good Food",
+      "chunkType": "ingredients",
+      "content": "菜名：鸡肉芝士薄饼\n- 4 tbsp hot salsa from a jar\n- 2 large flour tortillas seeded or plain\n- 215g can kidney beans drained and roughly mashed\n- 1 spring onion chopped\n- 50g leftover roast chicken shredded (use the last of the meat on the carcass)\n- 85g grated mature cheddar\n- ½ a 20g pack coriander leaves chopped (optional)\n- oil for brushing",
+      "similarity": 0.689440488815308
+    }
+  ],
+  "notes": [
+    "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented.",
+    "BBC source original yield: 2",
+    "BBC original totalTime: PT16M",
+    "BBC original cookTime: PT6M",
+    "BBC original prepTime: PT10M",
+    "Alternative attempts: [{\"url\":\"https://www.bbcgoodfood.com/recipes/chicken-quesadillas\",\"status\":200,\"bytes\":549632}]",
+    "Current book inventory and22target audit: west-kb-audit.json. Invalid/superseded/rejected history excluded.",
+    "Serious Eats direct Python460/normalPowerShell402/normalChrome402; normalweb.open successfully retrieved the complete recipes included here. All successful complete matching sources ingested separately before selection; no access-control bypass.",
+    "Alternative enabled-site searches and complete observed source text are archived in west-alternative-search.json and west-se-*.txt.",
+    "Selected source has no verified cooking-stage photos; do not fabricate or relabel a finished-dish photo. Parent must resolve manual-run image exception before publishing."
+  ]
+}

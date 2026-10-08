@@ -1,0 +1,450 @@
+{
+  "recipeId": "west-024",
+  "recipeName": "香煎鸡肉炸排",
+  "category": "western",
+  "createdAt": "2026-10-08T12:08:35.927Z",
+  "sources": [
+    {
+      "sourceName": "BBC Good Food",
+      "sourceType": "website",
+      "url": "https://www.bbcgoodfood.com/recipes/chicken-schnitzel-coleslaw",
+      "documentId": "997dbfb5-d24d-4157-9f02-67d8b6161c0b",
+      "retrievalMethod": "ordinary HTTPS GET; complete accessible page JSON-LD and DOM independently inspected",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "small chicken breasts",
+          "raw": "4 small chicken breasts",
+          "amount": null
+        },
+        {
+          "name": "grated parmesan",
+          "raw": "3 tbsp grated parmesan",
+          "amount": null
+        },
+        {
+          "name": "flour",
+          "raw": "100g flour",
+          "amount": null
+        },
+        {
+          "name": "arge egg beaten",
+          "raw": "1 large egg beaten",
+          "amount": null
+        },
+        {
+          "name": "dried breadcrumbs (we used panko)",
+          "raw": "75g dried breadcrumbs (we used panko)",
+          "amount": null
+        },
+        {
+          "name": "vegetable oil",
+          "raw": "75ml vegetable oil",
+          "amount": null
+        },
+        {
+          "name": "white cabbage shredded",
+          "raw": "300g white cabbage shredded",
+          "amount": null
+        },
+        {
+          "name": "arge carrot peeled and grated",
+          "raw": "1 large carrot peeled and grated",
+          "amount": null
+        },
+        {
+          "name": "spring onions sliced diagonally",
+          "raw": "6 spring onions sliced diagonally",
+          "amount": null
+        },
+        {
+          "name": "red-skinned apple grated",
+          "raw": "1 red-skinned apple grated",
+          "amount": null
+        },
+        {
+          "name": "pot natural yogurt",
+          "raw": "150g pot natural yogurt",
+          "amount": null
+        },
+        {
+          "name": "juice ½ lemon",
+          "raw": "juice ½ lemon",
+          "amount": null
+        },
+        {
+          "name": "English mustard",
+          "raw": "2 tsp English mustard",
+          "amount": null
+        },
+        {
+          "name": "seasoning",
+          "raw": "season coleslaw and flour (steps1/3; seasoning unspecified)",
+          "amount": null
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "For the coleslaw, mix all the ingredients in a large bowl. Season a little and set aside.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "Place a layer of cling film on your work surface and pop the chicken fillets on top. Cover with another piece of cling film and, using a rolling pin, bash the chicken until it is 2-3mm thick.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "Put the flour on a plate and season, then put the egg on another plate.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "Dip the chicken in the flour to coat, then into the egg.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 5,
+          "instruction": "Mix together the breadcrumbs and Parmesan in a shallow bowl, then toss the chicken in the mixture to completely coat in the crumbs. Put the chicken on a plate and chill in the fridge until ready to eat if you’re not cooking them straight away.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 6,
+          "instruction": "Heat the oil in a large frying pan over a fairly high heat and cook the chicken schnitzels two at a time.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 7,
+          "instruction": "Sizzle them for 2-3 mins each side until completely golden, then lift out onto kitchen paper to drain. You can keep them warm in a low oven while you cook the rest. Serve with the coleslaw.",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [],
+      "tips": [],
+      "rawExcerpt": "{\n  \"@context\": \"https://schema.org\",\n  \"@id\": \"https://www.bbcgoodfood.com/recipes/chicken-schnitzel-coleslaw#Recipe\",\n  \"@type\": \"Recipe\",\n  \"description\": \"Try our chicken schnitzel recipe for a quick dinner. Chicken breasts are tenderised, coated in breadcrumbs and fried until golden in this tasty German-inspired dish\",\n  \"image\": [\n    {\n      \"@type\": \"ImageObject\",\n      \"url\": \"https://images.immediate.co.uk/production/volatile/sites/30/2014/09/Chicken-schnitzel-with-coleslaw-b53b41f.jpg?resize=768,698\",\n      \"width\": 768,\n      \"height\": 698\n    },\n    {\n      \"@type\": \"ImageObject\",\n      \"url\": \"https://images.immediate.co.uk/production/volatile/sites/30/2014/09/Chicken-schnitzel-with-coleslaw-b53b41f.jpg?resize=1000,909\",\n      \"width\": 1000,\n      \"height\": 909\n    }\n  ],\n  \"mainEntityOfPage\": {\n    \"@type\": \"WebPage\",\n    \"@id\": \"https://www.bbcgoodfood.com/recipes/chicken-schnitzel-coleslaw\"\n  },\n  \"name\": \"Chicken schnitzel with coleslaw\",\n  \"url\": \"https://www.bbcgoodfood.com/recipes/chicken-schnitzel-coleslaw\",\n  \"author\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Good Food team\",\n      \"url\": \"https://www.bbcgoodfood.com/author/goodfood\"\n    }\n  ],\n  \"dateModified\": \"2025-06-30T12:03:21+01:00\",\n  \"datePublished\": \"2025-06-30T12:03:21+01:00\",\n  \"headline\": \"Chicken schnitzel with coleslaw\",\n  \"keywords\": \"25th birthday, Autumn, Calcium, Cooking with kids, easy chicken dinner, Family friendly, German recipe, healthy chicken breast recipe, healthy chicken dinner, healthy chicken schnitzel, kid's cooking recipe\",\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Good Food\",\n    \"url\": \"https://www.bbcgoodfood.com\",\n    \"logo\": {\n      \"@type\": \"ImageObject\",\n      \"height\": 325,\n      \"url\": \"https://images.immediate.co.uk/production/volatile/sites/30/2026/02/goodfood.logo-f37096c.png?resize=1312,325\",\n      \"width\": 1312\n    }\n  },\n  \"cookTime\": \"PT10M\",\n  \"nutrition\": {\n    \"@type\": \"NutritionInformation\",\n    \"calories\": \"430 calories\",\n    \"fatContent\": \"19 grams fat\",\n    \"saturatedFatContent\": \"5 grams saturated fat\",\n    \"carbohydrateContent\": \"26 grams carbohydrates\",\n    \"sugarContent\": \"13 grams sugar\",\n    \"fiberContent\": \"5 grams fiber\",\n    \"proteinContent\": \"36 grams protein\",\n    \"sodiumContent\": \"1.1 milligram of sodium\"\n  },\n  \"prepTime\": \"PT30M\",\n  \"recipeCategory\": \"Dinner, Main course\",\n  \"recipeCuisine\": \"British\",\n  \"recipeIngredient\": [\n    \"4 small chicken breasts\",\n    \"3 tbsp grated parmesan\",\n    \"100g flour\",\n    \"1 large egg beaten\",\n    \"75g dried breadcrumbs (we used panko)\",\n    \"75ml vegetable oil\",\n    \"300g white cabbage shredded\",\n    \"1 large carrot peeled and grated\",\n    \"6 spring onions sliced diagonally\",\n    \"1 red-skinned apple grated\",\n    \"150g pot natural yogurt\",\n    \"juice ½ lemon\",\n    \"2 tsp English mustard\"\n  ],\n  \"recipeInstructions\": [\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"For the coleslaw, mix all the ingredients in a large bowl. Season a little and set aside.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Place a layer of cling film on your work surface and pop the chicken fillets on top. Cover with another piece of cling film and, using a rolling pin, bash the chicken until it is 2-3mm thick.\",\n      \"image\": {\n        \"@type\": \"ImageObject\",\n        \"url\": \"https://images.immediate.co.uk/production/volatile/sites/30/2025/02/1-Flattened-chicken-780c12c.jpg\",\n        \"width\": 1000,\n        \"height\": 667\n      }\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Put the flour on a plate and season, then put the egg on another plate.\",\n      \"image\": {\n        \"@type\": \"ImageObject\",\n        \"url\": \"https://images.immediate.co.uk/production/volatile/sites/30/2025/02/2.-Flour-and-egg-b3da00a.jpg\",\n        \"width\": 1000,\n        \"height\": 667\n      }\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Dip the chicken in the flour to coat, then into the egg.\",\n      \"image\": {\n        \"@type\": \"ImageObject\",\n        \"url\": \"https://images.immediate.co.uk/production/volatile/sites/30/2025/02/4.-Flouring-chicken-b47a30d.jpg\",\n        \"width\": 1000,\n        \"height\": 667\n      }\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Mix together the breadcrumbs and Parmesan in a shallow bowl, then toss the chicken in the mixture to completely coat in the crumbs. Put the chicken on a plate and chill in the fridge until ready to eat if you’re not cooking them straight away.\",\n      \"image\": {\n        \"@type\": \"ImageObject\",\n        \"url\": \"https://images.immediate.co.uk/production/volatile/sites/30/2025/02/6.-Chicken-in-panko-05ff6b9.jpg\",\n        \"width\": 1000,\n        \"height\": 667\n      }\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Heat the oil in a large frying pan over a fairly high heat and cook the chicken schnitzels two at a time.\",\n      \"image\": {\n        \"@type\": \"ImageObject\",\n        \"url\": \"https://images.immediate.co.uk/production/volatile/sites/30/2025/02/8.-Chicken-cooking-f8bfdec.jpg\",\n        \"width\": 921,\n        \"height\": 614\n      }\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Sizzle them for 2-3 mins each side until completely golden, then lift out onto kitchen paper to drain. You can keep them warm in a low oven while you cook the rest. Serve with the coleslaw.\",\n      \"image\": {\n        \"@type\": \"ImageObject\",\n        \"url\": \"https://images.immediate.co.uk/production/volatile/sites/30/2025/02/11.-Finished-golden-chicken-4f1c806.jpg\",\n        \"width\": 1000,\n        \"height\": 667\n      }\n    }\n  ],\n  \"recipeYield\": 4,\n  \"totalTime\": \"PT40M\"\n}",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 1,
+        "mappedStepImages": 6,
+        "stepImageCoverage": 0.8571428571428571,
+        "ingredientCount": 14,
+        "executableStepCount": 7,
+        "notes": [
+          "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented."
+        ]
+      },
+      "media": {
+        "recipePageUrl": "https://www.bbcgoodfood.com/recipes/chicken-schnitzel-coleslaw",
+        "mediaPageUrl": "https://www.bbcgoodfood.com/recipes/chicken-schnitzel-coleslaw",
+        "sourceName": "BBC Good Food",
+        "author": "Good Food team",
+        "rightsNotice": "Copyright Good Food/Immediate; source attribution retained; no open reuse license stated.",
+        "reuseLicense": null,
+        "repositoryCopyAuthorized": true,
+        "hero": {
+          "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2014/09/Chicken-schnitzel-with-coleslaw-b53b41f.jpg?resize=768,698",
+          "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/hero.jpg",
+          "httpStatus": 200,
+          "contentType": "image/jpeg",
+          "sha256": "613879267ac5b5b1eaf82652c82e2de3e4bbef260dfc0c461b310e024976316c"
+        },
+        "steps": [
+          {
+            "stepOrder": 2,
+            "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2025/02/1-Flattened-chicken-780c12c.jpg",
+            "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-2.jpg",
+            "adjacentText": "Place a layer of cling film on your work surface and pop the chicken fillets on top. Cover with another piece of cling film and, using a rolling pin, bash the chicken until it is 2-3mm thick.",
+            "pageOrder": 2,
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "sha256": "39c630d16b36b11bdef9e1fc1d1647467ee9b6137be59903ddcdcea8aa706675"
+          },
+          {
+            "stepOrder": 3,
+            "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2025/02/2.-Flour-and-egg-b3da00a.jpg",
+            "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-3.jpg",
+            "adjacentText": "Put the flour on a plate and season, then put the egg on another plate.",
+            "pageOrder": 3,
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "sha256": "02782fa8e2441283ccfa24ed504a99bbbbaddc4c85091eaf033dda042702cdf6"
+          },
+          {
+            "stepOrder": 4,
+            "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2025/02/4.-Flouring-chicken-b47a30d.jpg",
+            "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-4.jpg",
+            "adjacentText": "Dip the chicken in the flour to coat, then into the egg.",
+            "pageOrder": 4,
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "sha256": "cf9a2c5f461695b3a663f2bb495ee3f757329ed529f9ad60abc56e952a07a48d"
+          },
+          {
+            "stepOrder": 5,
+            "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2025/02/6.-Chicken-in-panko-05ff6b9.jpg",
+            "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-5.jpg",
+            "adjacentText": "Mix together the breadcrumbs and Parmesan in a shallow bowl, then toss the chicken in the mixture to completely coat in the crumbs. Put the chicken on a plate and chill in the fridge until ready to eat if you’re not cooking them straight away.",
+            "pageOrder": 5,
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "sha256": "4466fde67b6e351c8bde60f2078f67c77f204c840212180ddcee34f0d561aa62"
+          },
+          {
+            "stepOrder": 6,
+            "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2025/02/8.-Chicken-cooking-f8bfdec.jpg",
+            "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-6.jpg",
+            "adjacentText": "Heat the oil in a large frying pan over a fairly high heat and cook the chicken schnitzels two at a time.",
+            "pageOrder": 6,
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "sha256": "c36cd4f494a5ef731d834cf5ff53bbd1d5301c471b2d686a871c7a2f89d69270"
+          },
+          {
+            "stepOrder": 7,
+            "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2025/02/11.-Finished-golden-chicken-4f1c806.jpg",
+            "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-7.jpg",
+            "adjacentText": "Sizzle them for 2-3 mins each side until completely golden, then lift out onto kitchen paper to drain. You can keep them warm in a low oven while you cook the rest. Serve with the coleslaw.",
+            "pageOrder": 7,
+            "httpStatus": 200,
+            "contentType": "image/jpeg",
+            "sha256": "1b5df2bab4dfb996e84bc2481da825e2d046b361a654ae9c6d52cbb96de04897"
+          }
+        ]
+      }
+    },
+    {
+      "sourceName": "Serious Eats",
+      "sourceType": "website",
+      "url": "https://www.seriouseats.com/chicken-schnitzel-recipe",
+      "documentId": "ad0ee351-7f32-4ae7-b850-0d08b3957211",
+      "retrievalMethod": "normal web.open full accessible page; merged overlapping line ranges; direct requests460 and browser402 retained as transport history",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "2 quarts plus 2 tablespoons cold water, divided",
+          "raw": "2 quarts plus 2 tablespoons cold water, divided",
+          "amount": null
+        },
+        {
+          "name": "1/3 cup kosher salt",
+          "raw": "1/3 cup kosher salt",
+          "amount": null
+        },
+        {
+          "name": "4 boneless skinless chicken breast halves, tenders removed, about 8 ounces each",
+          "raw": "4 boneless skinless chicken breast halves, tenders removed, about 8 ounces each",
+          "amount": null
+        },
+        {
+          "name": "12 slices white bread",
+          "raw": "12 slices white bread",
+          "amount": null
+        },
+        {
+          "name": "1 cup all-purpose flour",
+          "raw": "1 cup all-purpose flour",
+          "amount": null
+        },
+        {
+          "name": "2 large eggs",
+          "raw": "2 large eggs",
+          "amount": null
+        },
+        {
+          "name": "2 cups canola oil, peanut oil, or melted homemade or store-bought clarified butter",
+          "raw": "2 cups canola oil, peanut oil, or melted homemade or store-bought clarified butter",
+          "amount": null
+        },
+        {
+          "name": "1 tablespoon finely minced parsley, for garnish",
+          "raw": "1 tablespoon finely minced parsley, for garnish",
+          "amount": null
+        },
+        {
+          "name": "1 medium lemon, sliced into 4 wedges",
+          "raw": "1 medium lemon, sliced into 4 wedges",
+          "amount": null
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Whisk together 2 quarts of water and salt in a large bowl until salt is dissolved. Place the chicken breast halves in brine and refrigerate for 30 minutes.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "Meanwhile, toast bread until golden brown. Tear toasted bread into large pieces, transfer to a food processor, and pulse until bread is broken down into medium-fine crumbs. Transfer breadcrumbs to a large shallow dish.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "Remove chicken from brine and pat dry with paper towels. Place one chicken breast half in a resealable plastic bag. Using a meat pounder, rolling pin, or small skillet, pound chicken breast into an even thickness about 1/4-inch in height. Repeat with remaining 3 breasts.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "Set wire rack on a sheet pan. Place flour in a large shallow dish. Place eggs in another large shallow dish and beat with remaining 2 tablespoons water until uniform in color. Coat one chicken cutlet in flour, shaking off any excess. Transfer chicken cutlet to egg wash and coat evenly, letting any excess run off. Transfer to bread crumbs and coat evenly, pressing lightly to ensure bread crumbs adhere. Place chicken on a wire rack. Repeat with remaining 3 chicken breast halves. The bottom left image shows a dredged-and-egg-coated cutlet in a shallow bowl of fine breadcrumbs. The bottom right image shows four chicken cutlets which have been dredged, dipped in egg, and then dipped in breadcrumbs, resting on a wire rack set inside of a quarter sheet pan.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 5,
+          "instruction": "Heat oil in a 12-inch skillet to 375°F. Place one chicken cutlet in oil and fry until golden brown on both sides, about 2 minutes per side, flipping as needed if bread crumbs begin to darken too much. Transfer schnitzel to paper towel-lined plate. Repeat with remaining three chicken breast halves. Garnish with parsley and serve immediately with lemon wedges. The top image shows a cutlet being fried in a pan of hot oil, with the frying evidenced by the cutlet being surrounded by many fine bubbles. The bottom image shows the golden brown, fully cooked cutlet resting on a white paper towel.",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [],
+      "tips": [
+        "The tenders removed from each breast can be breaded and fried separately. After draining on paper towels, schnitzel can be held in a warm oven on a wire rack set on sheet pan.",
+        "Save",
+        "Rate",
+        "Print [Input]"
+      ],
+      "rawExcerpt": "iframe†www.googletagmanager.com\n\nSerious Eats\n\nSave\n\nRate\n\n* Search [Input: What are you looking for?]\n\n* Newsletters\n* Sweepstakes\n* Serious Eats\n# Chicken Schnitzel Recipe\n\n30 Reviews\n\nJuicy and tender, with a golden, crunchy exterior that is almost impossible to resist.\n\nBy\n\nJoshua Bousel\n\nImage: a photo of Joshua Bousel, a Contributing Writer at Serious Eats Image: a photo of Joshua Bousel, a Contributing Writer at Serious Eats\n\nJoshua Bousel\nJoshua Bousel is a Serious Eats old-timer, having started sharing his passion for grilling and barbecue recipes on the site back in 2008. He continues to develop grilling and barbecue recipes on his own site, The Meatwave, out of his home base of Durham, North Carolina.\n\nSerious Eats' Editorial Guidelines\n\nUpdated on December 15, 2025\n\nClose\nImage: A golden brown fried chicken schnitzel cutlet with a lemon wedge on a gold and white ceramic plate on a teal-colored textured background. Image: A golden brown fried chicken schnitzel cutlet with a lemon wedge on a gold and white ceramic plate on a teal-colored textured background.\n\nCredit:\n\nSerious Eats / Mateja Zvirotic Andrijanic\n\nIn This Recipe\n\nView All\n\nIn This Article\n\n* To Brine or Not to Brine\n\n* For the Best Chicken Schnitzel, Pounding Thin Is Key\n* Making the Breadcrumbs\n\n* The Breading Process\n\n* The Advantages of Pan-Frying\n\n* Draining Excess Oil and Keeping Warm\n\n* Glorious Schnitzel\n\nJump to recipe\n* Quickly brining the chicken breast before cooking ensures the lean cut will stay maximally juicy and tender.\n* Pounding the chicken to a uniform 1/4-inch thickness ensures even cooking and creates more surface area for maximum crunch.\n* Homemade breadcrumbs, made from toasted white bread processed to a medium-fine consistency, make a coating that's just the right thickness and sticks well to the chicken.\nIf there's one dish I would say defines me most, it isn't grilled at all: it's chicken schnitzel. As a child, my mother cooked it regularly, and, like most kids, breaded and fried boneless chicken was something I looked forward to with immense eagerness. When I left for college, schnitzel was one of the first things I learned to cook really well, making it from time to time for friends and filling the dormitory halls with the unmistakable scent of frying chicken.\nAfter we graduated, my old classmates and I started a semi-regular Shabbat tradition. We'd get together on Friday nights and I'd find myself in the kitchen cooking chicken schnitzel for crowds of twelve or more. As I slowly creep up toward middle age, I've found schnitzel is really the only food that has remained a constant over the years. It's something I will likely carry with me forever.\nOver all that time of cooking and eating schnitzel, I've refined my method to what I think is perfect—I still order schnitzel at restaurants, but it's rarely as satisfying as the version I make at home. There's nothing revolutionary in my recipe, but a great schnitzel comes down to some small details that make all the difference.\n## To Brine or Not to Brine\n\nFor the uninitiated, chicken schnitzel is merely a chicken breast pounded thin, breaded, and fried. It's one of those foods that you can't help but love, which is probably why it's so prolific—versions of the recipe can be found in cultures around the world.\nIt all starts with a lowly chicken breast around half a pound in weight; much larger than that, and the schnitzel can be hard to manage. Skinless, boneless chicken breast suffers from a lack of fat, which is why it often ends up so dry. But in the case of schnitzel, frying it just right is generally enough to make sure it stays juicy. For most of my schnitzel-making career, I never brined the breasts because I thought the results were already good enough.\nThen one day I decided to host a family Shabbat, and I wanted to prove that I was worthy of passing down our schnitzel tradition. To ensure everything was perfect, I took out moisture insurance by brining my chicken breasts for thirty minutes beforehand.\nThe result was remarkable: Not only did I satisfy a clan that knows its schnitzel, but I one-upped every schnitzel I had ever made beforehand. My prior schnitzels had been juicy, but these were juicier. My old schnitzels were tender, but these were more plump with an even better, finer texture.\nFrom that day forth, I've always brined my chicken for the absolute best schnitzel, and since brining takes about the same amount of time as prepping the rest of the ingredients, it hasn't really added time to the process at all.\n## Flat Is Beautiful: For the Best Chicken Schnitzel, Pounding Thin Is Key\n\nAfter the chicken is brined, it's time to get it into the right shape. This requires pounding the breasts to a uniform thickness, which guarantees that the chicken cooks evenly and provides a lot of surface area for the breading, maximizing the flavor and crunch that makes schnitzel so good.\nMost recipes call for pounding the chicken between two pieces of plastic wrap, parchment, or wax paper. I've suffered too many chicken splatters using that method, so I've employed what seems to be a more fail-safe method—a Ziploc bag. A thicker, sealed bag won't break like plastic wrap or wax paper sometimes do, and the juices won't go flying all around your kitchen, which, in my book, is definitely worth the slightly higher cost.\nTo get started, I remove the tender (if there is one)—the tender will often dangle and make breading and cooking a pain, so I just fry it separately—and seal a chicken breast in a bag. Then I take my trusty rolling pin and go to town on the cutlet, smacking it until it's about 1/4-inch thick, making sure to work my way around the breast so that it's evenly flattened. I've yet to invest in a meat pounder since my rolling pin, or a heavy pan, performs this task just fine.\n## Making the Breadcrumbs\n\nImage: Slices of toasted white bread resting on a pulled out oven rack. Image: Slices of toasted white bread resting on a pulled out oven rack.\n\nSerious Eats\nThe one schnitzel factor I've experimented with most is the breadcrumbs. I quickly ditched store-bought crumbs, which often taste stale or cardboard-like, and switched to homemade. This opened a Pandora's box of options, though, so finding the one that would deliver the proper amount of coating—you don't want it too thick or too thin—and the right flavor required a lot of trial and error.\nI've made breadcrumbs with fresh bread, but it doesn't stick well and can coat unevenly. Super-stale bread quickly turns into powder in the food processor; darkly toasted bread can taste burnt once fried; and fancy bread doesn't add enough flavor to justify the cost. What I've settled on is decent-quality white bread (something I almost always have on-hand), which I toast to a medium-golden brown, and then grind in a food processor into medium-fine crumbs.\nThe toasting dries out the bread just enough for it to break down in a food processor, but leaves enough moisture that the breadcrumbs retain some heft. (A blender can work too, but a food processor produces more uniform crumbs.) The result is breadcrumbs that stick well and produce a coating that isn't too skimpy or thick.\n## The Breading Process\n\nImage: Dishes of breadcrumbs, beaten egg, and flour resting side-by-side on a countertop. Image: Dishes of breadcrumbs, beaten egg, and flour resting side-by-side on a countertop.\n\nSerious Eats\nWith the chicken brined and pounded and the crumbs ready, it's time for the breading process. I start with a coating of flour, giving the chicken a dry surface so the beaten egg adheres to the meat. I let excess egg wash drain off by holding the chicken over the bowl, and then transfer the cutlet to the breadcrumbs.\nI pat down the breadcrumbs to make sure they stick well. Then I let the chicken rest on a wire rack set on a sheet pan—this allows the breading to dry out a bit, ensuring the coating remains on the chicken during frying.\n## Fry Time\n\nIn an ideal world, I'd deep-fry my schnitzel because it browns the most evenly that way, but that would mean a large Dutch oven with about two quarts of oil—such a big undertaking, I'd probably never go to the trouble. So I've become proficient at pan-frying, which actually has some advantages over deep-frying.\nThe most obvious is that it requires a lot less oil: I fill a 12-inch cast iron skillet with about 2 cups of canola or peanut oil, both of which have a neutral flavor and can withstand high heat. Plus, the shallow oil means the schnitzel comes in direct contact with the bottom of the pan, which browns the breadcrumbs faster and helps ensure the thin chicken cutlet and coating are done at the same time.\nContact with the pan, though, can be a bit of a curse as well: Since the slightly uneven surface of the chicken may not touch the bottom of the pan evenly, some portions of the schnitzel can brown faster than others. To combat uneven browning, I regularly look under the cutlet and flip it every time I notice the breading browning too much or too fast. This means it's not just one flip halfway through cooking, but multiple flips based on appearance.\nI fry the chicken in 375°F oil until it reaches a deep golden brown. At this cooking temperature, I've never had the chicken come out undercooked once the coating is properly browned, but if you're a stickler for temperature, you can test the doneness using an instant-read thermometer, which should register between 150 and 160°F when inserted into the middle of the meat.\n## Draining\n\nImage: Draining a just-fried chicken schnitzel on paper towels. Image: Draining a just-fried chicken schnitzel on paper towels.\n\nSerious Eats\n\nOnce the chicken is done, it's time to drain the excess oil so the schnitzel is beautifully crunchy, without any greasiness or sogginess. A paper towel-lined plate does this best, with a flip of the schnitzel after a minute or two to get the oil wicked away from both sides.\nIf I'm cooking more than three or four schnitzels, I'll set a wire rack on a sheet pan in a warm oven, and I'll transfer the cutlets to it after they've drained. This not only keeps the chicken warm while I continue cooking the rest, but the rack allows air to flow around the entire schnitzel so the bottom doesn't become soggy.\n## Glorious Schnitzel\n\nImage: Chicken schnitzel on a white plate with a lemon wedge and a serving of tomato cucumber salad.  Image: Chicken schnitzel on a white plate with a lemon wedge and a serving of tomato cucumber salad.\n\nSerious Eats\nThis may sound like a lot of work, but I can usually churn out a batch of four schnitzels in about an hour, which works well for me as a weeknight meal. Once you have the process down, it's not that much of a hassle, and the results are glorious—juicy, tender chicken with a golden, crunchy exterior that is almost impossible to resist.\nWith schnitzel this good, it's no mystery it has stood the test of time and has remained the most-cooked dish in my home. A Friday dinner just doesn't feel complete without a plate loaded with schnitzel, a wedge of lemon, and a light salad by its side.\n### April 2014\n\nPrep Time:\n\n15 mins\n\nCook Time:\n\n25 mins\n\nBrining Time:\n\n30 mins\n\nTotal Time:\n\n1 hr 10 mins\n\nServings:\n\n4 servings\n\nYield:\n\nServes 4\n\n[Button: Jump to Nutrition Facts]\n\nKeep Screen Awake\n## Ingredients\n\n* 2 quarts plus 2 tablespoons cold water, divided\n\n* 1/3 cup kosher salt\n\n* 4 boneless skinless chicken breast halves, tenders removed, about 8 ounces each\n\n* 12 slices white bread\n\n* 1 cup all-purpose flour\n\n* 2 large eggs\n\n* 2 cups canola oil, peanut oil, or melted homemade or store-bought clarified butter\n\n* 1 tablespoon finely minced parsley, for garnish\n\n* 1 medium lemon, sliced into 4 wedges\n## Directions\n\n1. Whisk together 2 quarts of water and salt in a large bowl until salt is dissolved. Place the chicken breast halves in brine and refrigerate for 30 minutes.\n\nImage: Chicken breast halves submerged in brine inside of a white ceramic bowl on a teal background. Image: Chicken breast halves submerged in brine inside of a white ceramic bowl on a teal background.\n\nSerious Eats / Mateja Zvirotic Andrijanic\n2. Meanwhile, toast bread until golden brown. Tear toasted bread into large pieces, transfer to a food processor, and pulse until bread is broken down into medium-fine crumbs. Transfer breadcrumbs to a large shallow dish.\nImage: A vertical two-image collage. The top image shows four slices of toasted bread on a plate, while the bottom photo shows a food processor filled with breadcrumbs made from the processed toasted bread. Image: A vertical two-image collage. The top image shows four slices of toasted bread on a plate, while the bottom photo shows a food processor filled with breadcrumbs made from the processed toasted bread.\n\nSerious Eats / Mateja Zvirotic Andrijanic\n3. Remove chicken from brine and pat dry with paper towels. Place one chicken breast half in a resealable plastic bag. Using a meat pounder, rolling pin, or small skillet, pound chicken breast into an even thickness about 1/4-inch in height. Repeat with remaining 3 breasts.\nImage: Chicken breast inside of a sealed zipper-lock bag, pounded to an even one-quarter inch thickness, with a metal meat pounder next to the bag. The bag and hammer are both on a wooden background. Image: Chicken breast inside of a sealed zipper-lock bag, pounded to an even one-quarter inch thickness, with a metal meat pounder next to the bag. The bag and hammer are both on a wooden background.\n\nSerious Eats / Mateja Zvirotic Andrijanic\n4. Set wire rack on a sheet pan. Place flour in a large shallow dish. Place eggs in another large shallow dish and beat with remaining 2 tablespoons water until uniform in color. Coat one chicken cutlet in flour, shaking off any excess. Transfer chicken cutlet to egg wash and coat evenly, letting any excess run off. Transfer to bread crumbs and coat evenly, pressing lightly to ensure bread crumbs adhere. Place chicken on a wire rack. Repeat with remaining 3 chicken breast halves.\ncite23†Image: A horizontal, four-image collage showing the steps required to bread the chicken. The top left photo shows the pounded chicken cutlets dredged in flour. The top right image shows the dredged chicken cutlet being submerged in beaten eggs in a shallow bowl. The bottom left image shows a dredged-and-egg-coated cutlet in a shallow bowl of fine breadcrumbs.\nThe bottom right image shows four chicken cutlets which have been dredged, dipped in egg, and then dipped in breadcrumbs, resting on a wire rack set inside of a quarter sheet pan. cite23†Image: A horizontal, four-image collage showing the steps required to bread the chicken. The top left photo shows the pounded chicken cutlets dredged in flour. The top right image shows the dredged chicken cutlet being submerged in beaten eggs in a shallow bowl.\nThe bottom left image shows a dredged-and-egg-coated cutlet in a shallow bowl of fine breadcrumbs. The bottom right image shows four chicken cutlets which have been dredged, dipped in egg, and then dipped in breadcrumbs, resting on a wire rack set inside of a quarter sheet pan.\nSerious Eats / Mateja Zvirotic Andrijanic\n\n5. Heat oil in a 12-inch skillet to 375°F. Place one chicken cutlet in oil and fry until golden brown on both sides, about 2 minutes per side, flipping as needed if bread crumbs begin to darken too much. Transfer schnitzel to paper towel-lined plate. Repeat with remaining three chicken breast halves. Garnish with parsley and serve immediately with lemon wedges.\nImage: A vertical two-image collage showing the breaded chicken cutlets being cooked. The top image shows a cutlet being fried in a pan of hot oil, with the frying evidenced by the cutlet being surrounded by many fine bubbles. The bottom image shows the golden brown, fully cooked cutlet resting on a white paper towel. cite24†Image: A vertical two-image collage showing the breaded chicken cutlets being cooked.\nThe top image shows a cutlet being fried in a pan of hot oil, with the frying evidenced by the cutlet being surrounded by many fine bubbles. The bottom image shows the golden brown, fully cooked cutlet resting on a white paper towel.\nSerious Eats / Mateja Zvirotic Andrijanic\n## Special Equipment\n\nFood processor\n\n## Notes\n\nThe tenders removed from each breast can be breaded and fried separately. After draining on paper towels, schnitzel can be held in a warm oven on a wire rack set on sheet pan.\n\nSave\n\nRate\n\nPrint [Input]\n## Nutrition Facts (per serving)\n\n779  | Calories\n31g  | Fat\n42g  | Carbs\n80g  | Protein\n\nShow Full Nutrition Label Hide Full Nutrition Label\n\nNutrition Facts\n---\nServings Per Recipe 4\n---\nCalories 779\n---\n% Daily Value *\nTotal Carbohydrate 42g  | 15%\nDietary Fiber 3g  | 9%\nTotal Sugars 4g\nProtein 80g  | 160%\nTotal Fat 31g  | 39%\nSaturated Fat 5g  | 24%\nCholesterol 286mg  | 95%\nVitamin C 17mg  | 19%\nSodium 1459mg  | 63%\nCalcium 151mg  | 12%\nIron 6mg  | 32%\nPotassium 747mg  | 16%\n* Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs.\n\nLoading shell for RecipesUgcThreaded1 Vue component in Globe.\n## Related Articles\n\nLemon-Marinated Tuscan-Jewish Fried Chicken 2 hrs Gluten-Free Fried Chicken Strips Recipe 1 hr Chicken Pepper Fry Recipe 1 hr 10 mins Chinese-American Orange Chicken Recipe 35 mins Maryland Fried Chicken With White Gravy Recipe 40 mins Japanese-Style Fried Chicken Thighs (Gluten-Free Karaage) Recipe 12 hrs 26 mins The Best Fried Chicken Recipe Ever? 17 hrs 25 mins Northern Fried Chicken Recipe | Cook the Book 50 mins\ncite34†Refried Popeye's (A.K.A.\nExtra Crispy Popeye's Fried Chicken) Recipe 8 hrs 15 mins Buttermilk-Thyme Chicken Tenders with Cranberry Mustard and Sweet Potato Fries Recipe 1 hr 50 mins Green Chile Fried Chicken Recipe 12 hrs 40 mins Chicken Piccata (Fried Chicken Cutlets With Lemon-Butter Pan Sauce) 45 mins Easy Breaded Fried Chicken Cutlets Recipe 40 mins Homemade Chick-fil-A Sandwiches Recipe 6 hrs 35 mins Popeyes-Style Chicken Tenders From 'Fried & True' 8 hrs 50 mins Chicken-Fried Chicken With Cream Gravy Recipe 4 hrs 55 mins\nNewsletter Sign Up\n\nNewsletter Sign Up",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 0,
+        "mappedStepImages": 0,
+        "stepImageCoverage": 0,
+        "ingredientCount": 9,
+        "executableStepCount": 5,
+        "notes": [
+          "Page images and step adjacencies visible in web.open; original binary URLs not returned by failed web.click. No verified downloadable media available, no invented image mappings.",
+          "Source quantities with mixed units retained verbatim; no vessel capacity inferred."
+        ]
+      }
+    }
+  ],
+  "sourceMode": "multi_source",
+  "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/chicken-schnitzel-coleslaw",
+  "selectionReason": "Selected exactly one whole BBC recipe: full coherent ingredients/method match the target; verified usable hero and6semantically mapped step images. Other sources have no verified usable media URLs under ordinary access. Under the required completeness/coherence then usable-image/coverage ranking, this source leads; its ingredients, operations, tips and media are kept together without supplementation.",
+  "ragEvidence": [
+    {
+      "chunkId": "8dcee86b-3671-4ea7-8746-3aa35f2c014c",
+      "documentId": "997dbfb5-d24d-4157-9f02-67d8b6161c0b",
+      "sourceName": "BBC Good Food",
+      "chunkType": "tips",
+      "content": "菜名：香煎鸡肉炸排\n- 原文未提供额外提示。",
+      "similarity": 0.710375105097882
+    },
+    {
+      "chunkId": "4de2c2f5-47de-4da3-9408-0f49aeb2229f",
+      "documentId": "997dbfb5-d24d-4157-9f02-67d8b6161c0b",
+      "sourceName": "BBC Good Food",
+      "chunkType": "technique",
+      "content": "菜名：香煎鸡肉炸排\n- 原文未明确说明技法。",
+      "similarity": 0.70379626750946
+    },
+    {
+      "chunkId": "8a0084f9-1b50-44b8-badf-76147113631a",
+      "documentId": "997dbfb5-d24d-4157-9f02-67d8b6161c0b",
+      "sourceName": "BBC Good Food",
+      "chunkType": "steps",
+      "content": "菜名：香煎鸡肉炸排\n1. For the coleslaw, mix all the ingredients in a large bowl. Season a little and set aside.\n2. Place a layer of cling film on your work surface and pop the chicken fillets on top. Cover with another piece of cling film and, using a rolling pin, bash the chicken until it is 2-3mm thick.\n3. Put the flour on a plate and season, then put the egg on another plate.\n4. Dip the chicken in the flour to coat, then into the egg.\n5. Mix together the breadcrumbs and Parmesan in a shallow bowl, then toss the chicken in the mixture to completely coat in the crumbs. Put the chicken on a plate and chill in the fridge until ready to eat if you’re not cooking them straight away.\n6. Heat the oil in a large frying pan over a fairly high heat and cook the chicken schnitzels two at a time.\n7. Sizzle them for 2-3 mins each side until completely golden, then lift out onto kitchen paper to drain. You can keep them warm in a low oven while you cook the rest. Serve with the coleslaw.",
+      "similarity": 0.675199250888781
+    },
+    {
+      "chunkId": "63669afa-29fe-4905-b77e-bff85a6ab684",
+      "documentId": "997dbfb5-d24d-4157-9f02-67d8b6161c0b",
+      "sourceName": "BBC Good Food",
+      "chunkType": "summary",
+      "content": "菜名：香煎鸡肉炸排\n别名：Chicken schnitzel with coleslaw\n菜系：British\n简介：Try our chicken schnitzel recipe for a quick dinner. Chicken breasts are tenderised, coated in breadcrumbs and fried until golden in this tasty German-inspired dish",
+      "similarity": 0.669457097931418
+    },
+    {
+      "chunkId": "a63b6b9d-cca8-4b1b-a328-89e226655bbc",
+      "documentId": "997dbfb5-d24d-4157-9f02-67d8b6161c0b",
+      "sourceName": "BBC Good Food",
+      "chunkType": "ingredients",
+      "content": "菜名：香煎鸡肉炸排\n- 4 small chicken breasts\n- 3 tbsp grated parmesan\n- 100g flour\n- 1 large egg beaten\n- 75g dried breadcrumbs (we used panko)\n- 75ml vegetable oil\n- 300g white cabbage shredded\n- 1 large carrot peeled and grated\n- 6 spring onions sliced diagonally\n- 1 red-skinned apple grated\n- 150g pot natural yogurt\n- juice ½ lemon\n- 2 tsp English mustard\n- season coleslaw and flour (steps1/3; seasoning unspecified)",
+      "similarity": 0.660581131594811
+    },
+    {
+      "chunkId": "739540e9-c2f8-4e25-aac7-76bfa5843105",
+      "documentId": "ad0ee351-7f32-4ae7-b850-0d08b3957211",
+      "sourceName": "Serious Eats",
+      "chunkType": "tips",
+      "content": "菜名：香煎鸡肉炸排\n- The tenders removed from each breast can be breaded and fried separately. After draining on paper towels, schnitzel can be held in a warm oven on a wire rack set on sheet pan.\n- Save\n- Rate\n- Print [Input]",
+      "similarity": 0.736735328241309
+    },
+    {
+      "chunkId": "6c8a6183-cd66-4e4b-8c49-dfc5e0885386",
+      "documentId": "ad0ee351-7f32-4ae7-b850-0d08b3957211",
+      "sourceName": "Serious Eats",
+      "chunkType": "summary",
+      "content": "菜名：香煎鸡肉炸排\n别名：Chicken Schnitzel Recipe\n简介：Chicken Schnitzel Recipe",
+      "similarity": 0.713403063213644
+    },
+    {
+      "chunkId": "38f842fc-94bf-4829-aab1-709525674fad",
+      "documentId": "ad0ee351-7f32-4ae7-b850-0d08b3957211",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：香煎鸡肉炸排\n5. Heat oil in a 12-inch skillet to 375°F. Place one chicken cutlet in oil and fry until golden brown on both sides, about 2 minutes per side, flipping as needed if bread crumbs begin to darken too much. Transfer schnitzel to paper towel-lined plate. Repeat with remaining three chicken breast halves. Garnish with parsley and serve immediately with lemon wedges. The top image shows a cutlet being fried in a pan of hot oil, with the frying evidenced by the cutlet being surrounded by many fine bubbles. The bottom image shows the golden brown, fully cooked cutlet resting on a white paper towel.",
+      "similarity": 0.713119328022003
+    },
+    {
+      "chunkId": "87280f4b-e15c-46bd-a6e6-2a0d35a4345c",
+      "documentId": "ad0ee351-7f32-4ae7-b850-0d08b3957211",
+      "sourceName": "Serious Eats",
+      "chunkType": "technique",
+      "content": "菜名：香煎鸡肉炸排\n- 原文未明确说明技法。",
+      "similarity": 0.703765690326691
+    },
+    {
+      "chunkId": "d8b33169-59e1-49b7-8a8a-89d0691cd141",
+      "documentId": "ad0ee351-7f32-4ae7-b850-0d08b3957211",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：香煎鸡肉炸排\n4. Set wire rack on a sheet pan. Place flour in a large shallow dish. Place eggs in another large shallow dish and beat with remaining 2 tablespoons water until uniform in color. Coat one chicken cutlet in flour, shaking off any excess. Transfer chicken cutlet to egg wash and coat evenly, letting any excess run off. Transfer to bread crumbs and coat evenly, pressing lightly to ensure bread crumbs adhere. Place chicken on a wire rack. Repeat with remaining 3 chicken breast halves. The bottom left image shows a dredged-and-egg-coated cutlet in a shallow bowl of fine breadcrumbs. The bottom right image shows four chicken cutlets which have been dredged, dipped in egg, and then dipped in breadcrumbs, resting on a wire rack set inside of a quarter sheet pan.",
+      "similarity": 0.694932061735866
+    },
+    {
+      "chunkId": "a4275dba-fe3e-4710-b65f-27825fc73158",
+      "documentId": "ad0ee351-7f32-4ae7-b850-0d08b3957211",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：香煎鸡肉炸排\n1. Whisk together 2 quarts of water and salt in a large bowl until salt is dissolved. Place the chicken breast halves in brine and refrigerate for 30 minutes.\n2. Meanwhile, toast bread until golden brown. Tear toasted bread into large pieces, transfer to a food processor, and pulse until bread is broken down into medium-fine crumbs. Transfer breadcrumbs to a large shallow dish.\n3. Remove chicken from brine and pat dry with paper towels. Place one chicken breast half in a resealable plastic bag. Using a meat pounder, rolling pin, or small skillet, pound chicken breast into an even thickness about 1/4-inch in height. Repeat with remaining 3 breasts.",
+      "similarity": 0.684202333813976
+    },
+    {
+      "chunkId": "504bbfc9-fd2e-4000-a695-3dfc698bae7f",
+      "documentId": "ad0ee351-7f32-4ae7-b850-0d08b3957211",
+      "sourceName": "Serious Eats",
+      "chunkType": "ingredients",
+      "content": "菜名：香煎鸡肉炸排\n- 2 quarts plus 2 tablespoons cold water, divided\n- 1/3 cup kosher salt\n- 4 boneless skinless chicken breast halves, tenders removed, about 8 ounces each\n- 12 slices white bread\n- 1 cup all-purpose flour\n- 2 large eggs\n- 2 cups canola oil, peanut oil, or melted homemade or store-bought clarified butter\n- 1 tablespoon finely minced parsley, for garnish\n- 1 medium lemon, sliced into 4 wedges",
+      "similarity": 0.670637071487644
+    }
+  ],
+  "notes": [
+    "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented.",
+    "BBC source original yield: 4",
+    "BBC original totalTime: PT40M",
+    "BBC original cookTime: PT10M",
+    "BBC original prepTime: PT30M",
+    "Alternative attempts: [{\"url\":\"https://www.bbcgoodfood.com/recipes/chicken-schnitzel-coleslaw\",\"status\":200,\"bytes\":618129}]",
+    "Current book inventory and22target audit: west-kb-audit.json. Invalid/superseded/rejected history excluded.",
+    "Serious Eats direct Python460/normalPowerShell402/normalChrome402; normalweb.open successfully retrieved the complete recipes included here. All successful complete matching sources ingested separately before selection; no access-control bypass.",
+    "Alternative enabled-site searches and complete observed source text are archived in west-alternative-search.json and west-se-*.txt.",
+    "Selected source provides actual cooking-stage photos, not relabelled hero images."
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "recipeId": "west-014",
+  "authorization": "user_confirmed_2026-09-16",
+  "sourceUrl": "https://www.bbcgoodfood.com/recipes/mushroom-risotto",
+  "recipePageUrl": "https://www.bbcgoodfood.com/recipes/mushroom-risotto",
+  "referer": "https://www.bbcgoodfood.com/recipes/mushroom-risotto",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-52074_11-ca58d45.jpg?resize=440,400",
+      "repositoryPath": "assets/dishes/sources/west-014-bbc-good-food/hero.jpg",
+      "httpStatus": 200,
+      "contentType": "image/jpeg"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "recipeId": "cn-019",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/10/braised-pork-belly-6.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-019-woks-dongpo/hero.jpg",
+      "sha256": "33d662c93bb7959bb6fb6344e20b217f0108108d5ceb11972b623e934f2e357b",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 78501
+    },
+    {
+      "role": "step",
+      "stepOrder": 2,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/10/braised-pork-belly-1.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-019-woks-dongpo/step-2-1.jpg",
+      "sha256": "db541980739c100bb19f15d06f7cb9bf2d321b6cb38f3bd00e7e0bb8ca5f9646",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 67402
+    },
+    {
+      "role": "step",
+      "stepOrder": 3,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/10/braised-pork-belly-7.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-019-woks-dongpo/step-3-7.jpg",
+      "sha256": "da630c82ab8006a66569923e9a5f657bde062e781ded70d4002820f20d7b4392",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 68430
+    },
+    {
+      "role": "step",
+      "stepOrder": 3,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/10/braised-pork-belly-8.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-019-woks-dongpo/step-3-8.jpg",
+      "sha256": "800663d39be2d03607af22b6f4a823e382fe18fcefe2a1594b8344730278b8dc",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 81166
+    },
+    {
+      "role": "step",
+      "stepOrder": 5,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/10/braised-pork-belly-9.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-019-woks-dongpo/step-5-9.jpg",
+      "sha256": "24b1b26ba9f95e0c810f3b47169477e6d8ac2bdc83dcc932ff8c27071ba0e212",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 32198
+    },
+    {
+      "role": "step",
+      "stepOrder": 5,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/10/braised-pork-belly-10.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-019-woks-dongpo/step-5-10.jpg",
+      "sha256": "00301b5d2d95ee52e71f793ebfec025b421fd05e36e3031757004623cf1b8f81",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 46686
+    },
+    {
+      "role": "step",
+      "stepOrder": 5,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/10/braised-pork-belly-11.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-019-woks-dongpo/step-5-11.jpg",
+      "sha256": "0b6035f9d117e1a79bdf330b65339d425c11fdc8fb512634e3c07906765b1e90",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 50580
+    },
+    {
+      "role": "step",
+      "stepOrder": 5,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2015/10/braised-pork-belly-12.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-019-woks-dongpo/step-5-12.jpg",
+      "sha256": "b32a05ae476c6ec3d21a59a845913910926c2061648e81c18fe14cc2c1aff93b",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 25894
+    }
+  ]
+}

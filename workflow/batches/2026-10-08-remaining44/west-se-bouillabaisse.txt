@@ -1,0 +1,301 @@
+Real Bouillabaisse (Bouillabaisse Marseillaise) Recipe (https://www.seriouseats.com/bouillabaisse-marseillaise-fish-stew-recipe)
+citeturn112view0 [wordlim: 100] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.seriouseats.com/bouillabaisse-marseillaise-fish-stew-recipe","lineno":230}); Total lines: 342
+L0: cite0†iframe†www.googletagmanager.com L1: 
+L2: cite1†Serious Eats L3: 
+L4: Save
+L5: 
+L6: Rate
+L7: 
+L8:   * Search [Input: What are you looking for?]
+L9: 
+L10:   * cite2†Newsletters L11:   * cite3†Sweepstakes L12:   * cite1†Serious Eats L13: # Real Bouillabaisse (Bouillabaisse Marseillaise)
+L14: 
+L15: 1.5
+L16: 
+L17: (2)
+L18: 
+L19: 9 Reviews
+L20: 
+L21: This bouillabaisse recipe will allow you to make a fish stew that's much closer to the classic Provençal version, no matter where you live.
+L22: 
+L23: By
+L24: 
+L25: cite4†Daniel Gritzer L26: 
+L27: cite5†Image: Daniel Gritzer cite5†Image: Daniel Gritzer L28: 
+L29: cite4†Daniel Gritzer L30: Daniel is the editorial director of Serious Eats, where he leads the site's editorial strategy and oversees everything from recipe development to articles on food science, cooking techniques, and more. He's a former food editor at Food & Wine and has cooked in New York City restaurants.
+L31: 
+L32: cite6†Serious Eats' Editorial Guidelines L33: 
+L34: Updated on December 17, 2025
+L35: 
+L36: Close
+L37: cite7†Image: Overhead view of a bowl of bouillabaisse, topped with mussels, pieces of fish, and rouille-slathered toast.  cite7†Image: Overhead view of a bowl of bouillabaisse, topped with mussels, pieces of fish, and rouille-slathered toast.  L38: 
+L39: Credit:
+L40: 
+L41: Serious Eats / Liz Clayman
+L42: 
+L43: In This Recipe
+L44: 
+L45: View All
+L46: 
+L47: In This Article
+L48: 
+L49:   * cite8†What Is Bouillabaisse? L50: 
+L51:   * cite9†What Kind of Fish Should Go Into Bouillabaisse? L52: 
+L53:   * cite10†How to Make Bouillabaisse, Step-By-Step L54: 
+L55:   * cite11†How to Serve Bouillabaisse L56: Jump to recipe
+L57:   * Using a mix of mostly finfish, including some oily varieties, and fewer shellfish stays true to traditional bouillabaisse and gives the broth its deep, robust flavor.
+L58:   * Letting the soup boil briskly emulsifies fish fat into the broth, resulting in a creamy, full-bodied texture rather than a clear stock.
+L59:   * Saffron, fennel, and a touch of orange zest perfume the broth with the warm, aromatic notes that define classic Marseille bouillabaisse.
+L60:   * Blending the cooked broth—including the fish bones and aromatics—in a blender (rather than a traditional food mill) creates a thicker, more full-bodied soup and makes it easy to strain out the solids.
+L61: The bowl of bouillabaisse lands on a table in a tony New York restaurant. A rusty saffron broth swirls around fat scallops, blushing-pink shrimp, jet-black mussels, and clamshells the cold color of slate. Topping it off is a hunk of lobster tail and the tender claw meat, deftly removed from the shell in one piece.
+L62: 
+L63: It's fragrant, beautiful, and undeniably delicious. But it's just not bouillabaisse.
+L64: Now, I'm not one to insist on strict rules of authenticity. It sets an impossible bar, one that often denies the variations over time and place that are the real—and much more complicated and messy—story of our food. There isn't one true way to make anything, and why would we want that anyway? It's stifling.
+L65: But I'm also not one to ignore what authenticity can help to preserve, which is the spirit and defining characteristics of a dish. Just as there isn't only one true way to make a recipe, there isn't an endless number of acceptable ways, either. A hamburger cannot be frog's legs stuffed into a baguette, coq au vin can't be made without the vin (cite12†although it's often made without the coq ), and bouillabaisse isn't a seafood soup consisting primarily of shellfish.
+L66: No, bouillabaisse is a fish soup before it is anything else. It can contain shellfish, but it doesn't have to. That's not what's most important. Forget the lobster, forget the shrimp, the scallops, the bivalves. Or don't forget them, and make a shellfish soup—but then, don't call it bouillabaisse. Maybe call it cite13†cioppino , a bouillabaisse-like stew from San Francisco that's chock-full of shellfish. There's nothing wrong with that.
+L67: 
+L68: If you want to make bouillabaisse, though, read on.
+L69: ## What Is Bouillabaisse?
+L70: 
+L71: Bouillabaisse (pronounced "BOO-ya-bess") is a rustic fish stew from the Provençal port city of Marseille. The most famous version is a grand feast, featuring an array of fish intended to feed a crowd.
+L72: 
+L73: Aside from the variety of fish, it's defined by a handful of key ingredients and flavors: floral saffron, sweet and anise-y fennel, and a subtle note of orange zest.
+L74: 
+L75: cite14†Image: Peeling the zest from an orange. cite14†Image: Peeling the zest from an orange. L76: Serious Eats / Liz Clayman
+L77: 
+L78: It's nearly always served with rounds of baguette croutons topped with rouille, a thick and pungent cite15†aioli -like sauce made with garlic, bread (or sometimes potato), olive oil, red chile pepper, and, if you like, more saffron.
+L79: The word bouillabaisse itself likely comes from the words for "to boil" and "to lower," which, respectively, describe the vigorous boil the soup is initially brought to, which helps emulsify fats and oil into the broth, and the lowering of the heat to more gently simmer the soup until it's done.
+L80: ## What Kind of Fish Should Go Into Bouillabaisse?
+L81: 
+L82: cite16†Image: The ingredients used for bouillabaisse: mixed fish, fennel, onion, garlic, tomato, orange, saffron, and more. cite16†Image: The ingredients used for bouillabaisse: mixed fish, fennel, onion, garlic, tomato, orange, saffron, and more. L83: 
+L84: Serious Eats / Liz Clayman
+L85: There are many potential answers to this question. If you're from Marseille, in the south of France, where bouillabaisse originated, you may reel off a list of whole fish that are required for a true bouillabaisse: scorpion fish, conger eel, monkfish, sea bass, sea bream, red mullet, John Dory, whiting, and more. Mussels, crabs, and spiny lobsters are acceptable, but not required, additions.
+L86: A true Marseille-style bouillabaisse will include several of these fish, and many recipes encourage a minimum of seven types—a combination of smaller and less expensive rockfish that are used to make the broth, and others, more prized for their flesh, that are poached in the broth later on.
+L87: If we stick to this definition of bouillabaisse, one that's limited to a very local menu of fresh catch, we'd have to conclude that bouillabaisse can't be made far outside the confines of Marseille, since those of us who live elsewhere don't have access to most of those fish. I'd argue this is too strict of an authenticity test. Then again, I don't live in Marseille.
+L88: What I'd advocate instead is approaching the recipe in a way that honors the spirit of bouillabaisse, though it might not be a faithful roster of all the Mediterranean fish it's meant to include. After all, bouillabaisse began as a way for poor fishermen and their families to use the less desirable fish that didn't sell at the market on a given day. We should take that as inspiration by using whatever fish we're able to find where we live.
+L89: Exactly what this looks like will depend on where you are. In New York City, I was able to cobble together a fairly decent selection of fish: whole red mullets, whole red snapper, monkfish (fillets only), whole daurade (also sold as dorado, a type of sea bream), whole branzino (a type of sea bass), and farm-raised whole Dover sole (a gelatinous flatfish, to stand in for the more traditional John Dory).
+L90: In other locations, the options will be different. In some places, you may not have anywhere near that variety of fish available, and you'll simply have to do the best you can with what you can find. Ideally, your selection will include a range of fish—some lean and delicate (like whiting or snapper); some oily (like daurade or another sea bream, such as porgy); some gelatinous (like John Dory, turbot, or Dover sole); and some firm (like monkfish).
+L91: If you want to toss in some shellfish, like mussels, that's good, too. Just make sure they don't end up taking over the soup.
+L92: If the only types of whole fish your local market offers are snapper and branzino, that's okay—you can still make it work. Your bouillabaisse may not have the same depth and variety of the full shebang, but it'll still be very good.
+L93: Besides, there's history to support a varied approach: With just a little digging into some of my old Provençal cookbooks, I found recipes for several types of bouillabaisse, as well as related soups, like aigo-sau and bourride, that use everything from cuttlefish with their ink (to make a black bouillabaisse from cite17†Martigues†en.wikipedia.org ) to darker and oilier fish, like mackerel and fresh sardines.
+L94: ## How to Make Bouillabaisse, Step-By-Step
+L95: Making bouillabaisse is somewhat similar to making a fish stock, like cite18†fumet , in that we cook the fish with aromatics to make a flavorful broth. But the similarities with fumet end there, since the idea with bouillabaisse is to make a creamy, cloudy, dare I say murky broth, not a clean and clear one. This means that unlike with a fumet, for which we cook the fish at the barest simmer to produce a clear stock, bouillabaisse is intentionally boiled hard.
+L96: We want to emulsify the fish fats into the broth, for a creamier, more complex texture and flavor.
+L97: And speaking of those fats, that's another area where bouillabaisse differs from a fish stock. In a classic fish stock, we tend to use lean, white-fleshed fish for their delicate, pristine flavor. In bouillabaisse, we use a variety of fish, including oilier ones, because we want their darker, richer flavor.
+L98: The broth in a bouillabaisse isn't meant to be refined. It should be a little rough around the edges, with a texture that isn't perfectly smooth and a flavor that is all depth and complexity, not lightness and clarity.
+L99: ### Step 1: Sauté the Aromatics
+L100: 
+L101: I start the broth by sautéing the aromatics in olive oil. For this recipe, I use a combination of onion, garlic, fennel, and leek, plus cayenne pepper, saffron, a strip of orange zest, thyme sprigs, and some fennel seeds, to further underscore the fennel flavor.
+L102: ### Step 2: Add Tomato, Then Fish
+L103: 
+L104: cite19†Image: Fish in the pot for making the soup base in bouillabaisse. cite19†Image: Fish in the pot for making the soup base in bouillabaisse. L105: 
+L106: Serious Eats / Liz Clayman
+L107: 
+L108: When the aromatics have softened, I stir in tomato paste, which adds a sweeter, more complex tomato flavor and a deeper, rusty color to the broth. I also add some diced tomato for a fresher flavor.
+L109: 
+L110: cite20†Image: Filleting a snapper cite20†Image: Filleting a snapper L111: 
+L112: Serious Eats / Liz Clayman
+L113: When the aromatics have softened, I layer in the fish for the broth base. Here, I'm using a combination of whole red mullet and the bones and head of a red snapper that I've already filleted—snapper bones are great as a base for the broth, but the flesh can be put to better use. I save the fillets for later, when I'll poach them in the broth.
+L114: If you can't find rockfish, like red mullet, just ask your fishmonger for a good selection of fresh bones and heads from fish that have been butchered. Snapper, monkfish, bass, and more can work here.
+L115: ### Step 3: Deglaze With Alcohol
+L116: 
+L117: Next, I wet the pot with some white wine and, optionally, a splash of an anise liqueur (like Pernod or pastis), then let the alcohol cook off.
+L118: ### Step 4: Add Water and Bring to a Rolling Boil
+L119: 
+L120: Now it's time to add enough water to cover the solid ingredients. Many bouillabaisse recipes call for the water to already be boiling when you cover the solids with it. That certainly saves some time, since you can bring the water to a boil while you're cooking the aromatics, and it's what I call for here, but it's not strictly necessary.
+L121: cite21†Image: Close up view of vigorously boiling fish stock for bouillabaisse. cite21†Image: Close up view of vigorously boiling fish stock for bouillabaisse. L122: 
+L123: Serious Eats / Liz Clayman
+L124: 
+L125: I let the soup boil hard for several minutes. The goal is for it to grow cloudy and for the fat and liquid to emulsify.
+L126: ###
+L127: Step 5: Lower the Heat and Simmer
+L128: 
+L129: After the vigorous boil, you can lower the heat and continue simmering the soup until the broth is saturated with fish flavor, about 45 minutes or so.
+L130: ### Step 6: Meanwhile, Make the Rouille
+L131: 
+L132: cite22†Image: Close up view of rouille being pounded in a mortar and pestle. cite22†Image: Close up view of rouille being pounded in a mortar and pestle. L133: 
+L134: Serious Eats / Liz Clayman
+L135: 
+L136: Rouille is the spicy, garlicky, flavorful mayonnaise-like spread that's classically served with bouillabaisse (though, if you prefer, you can also use cite15†aioli ). It's spread on toasts that are then served with the soup.
+L137: You have plenty of time to make the rouille while the broth is simmering. I like doing this with a cite23†mortar and pestle , but you can use a cite24†food processor or cite25†blender , too.
+L138: 
+L139: I start by blending garlic, an egg yolk, some stale bread or panko bread crumbs, cayenne pepper, and saffron to make a paste, then drizzle in olive oil to form a mayonnaise-like emulsion. A few spoonfuls of the hot broth from the pot help bring it all together.
+L140: ### Step 7: Blend and Strain the Soup
+L141: 
+L142: When the soup is done, it's time to strain it. The traditional way to do this is with a food mill, working all the fish bones, flesh, and aromatic vegetables on the fine disk; you want a lot of the solid matter to pass through to help make a thicker broth, while removing all the large bones and scales and anything else that you wouldn't want in the soup. The problem is that most of us at home don't have a food mill that's large and strong enough to handle this task.
+L143: It's far easier to use a blender, though, and process the soup in batches, bones and all. Then you can work the resulting purée through a fine-mesh strainer to remove the larger bits.
+L144: 
+L145: What you're left with should be creamy and cloudy, with good, rich body courtesy of the natural gelatin in the fish bones, along with some of the solids that passed through the food mill or strainer.
+L146: ### Step 8: Poach the Remaining Fish in the Broth
+L147: 
+L148: cite26†Image: Poaching fish in the bouillabaisse broth. cite26†Image: Poaching fish in the bouillabaisse broth. L149: 
+L150: Serious Eats / Liz Clayman
+L151: Now it's time to finish the bouillabaisse. Return the broth to a clean pot and poach all your remaining fish, whether whole or filleted, in it. Larger fish should go in first, since they'll take the longest, and smaller fish or fish fillets should go in last. Since fitting all this into the broth at once can be difficult, you can break this up into batches, too, cooking a couple of the larger fish first, then removing them and cooking the smaller pieces of fish after that.
+L152: cite27†Image: Removing a poached whole fish from the pot of bouillabaisse. cite27†Image: Removing a poached whole fish from the pot of bouillabaisse. L153: 
+L154: Serious Eats / Liz Clayman
+L155: 
+L156: If you're going to add mussels or other shellfish, cook them at the end, just until they pop open or are fully cooked through.
+L157: ## How to Serve Bouillabaisse
+L158: 
+L159: cite28†Image: A table full of a bouillabaisse feast. cite28†Image: A table full of a bouillabaisse feast. L160: 
+L161: Serious Eats / Liz Clayman
+L162: 
+L163: The classic way to serve bouillabaisse is not preassembled in a soup bowl and then brought to the table. That's the kind of thing chefs like to do in fancy restaurants, but it's not how this dish is meant to work.
+L164: Instead, pile up all your cooked fish on a platter, and set that on the table. Bring the broth to the table in a separate pot or soup tureen.
+L165: 
+L166: It's up to the diners to decide how to eat it.
+L167: 
+L168: cite29†Image: Ladling the soup into a bowl for bouillabaisse. cite29†Image: Ladling the soup into a bowl for bouillabaisse. L169: 
+L170: Serious Eats / Liz Clayman
+L171: They can eat the soup alone, spreading rouille on baguette toasts and floating them in the broth, followed by the fish. Or they can load up the soup with pieces of fish and eat it all together.
+L172: 
+L173: cite30†Image: A top down view of a bowl of bouillabaisse, topped with mussels, pieces of fish, and rouille.  cite30†Image: A top down view of a bowl of bouillabaisse, topped with mussels, pieces of fish, and rouille.  L174: 
+L175: Serious Eats / Liz Clayman
+L176: Then again, who am I to say how to serve this? You've gone through all this trouble to re-create the spirit of bouillabaisse marseillaise at home, so eat it however you want. I think the authenticity police can sit this part of the conversation out.
+L177: 
+L178: cite31†Image: Close up of a serving of bouillabaisse at the table. cite31†Image: Close up of a serving of bouillabaisse at the table. L179: 
+L180: Serious Eats / Liz Clayman
+L181: ### September 2018
+L182: 
+L183: This recipe was cross-tested in 2022 to guarantee best results.
+L184: 
+L185: Prep Time:
+L186: 
+L187: 30 mins
+L188: 
+L189: Cook Time:
+L190: 
+L191: 2 hrs 50 mins
+L192: 
+L193: Total Time:
+L194: 
+L195: 3 hrs 20 mins
+L196: 
+L197: Servings:
+L198: 
+L199: 6 to 8 servings
+L200: 
+L201: Yield:
+L202: 
+L203: Serves 6 to 8
+L204: 
+L205: Keep Screen Awake
+L206: ## Ingredients
+L207: 
+L208: For the Broth:
+L209: 
+L210:   * 1/2 cup (120 ml) extra-virgin olive oil
+L211: 
+L212:   *  1 large yellow onion (12 ounces; 340 g), cite32†diced L213: 
+L214:   * 1 large leek (1 pound; 450 g), washed of any grit and cite33†diced L215: 
+L216:   * 1 medium fennel bulb (8 ounces; 225 g), cite34†cored and diced L217: 
+L218:   * 5 medium cloves garlic, crushed
+L219: 
+L220:   * 1/2 teaspoon whole fennel seeds
+L221: 
+L222:   * 2 large pinches saffron threads
+L223: 
+L224:   * One (2-inch) strip zest from 1 orange
+L225: 
+L226:   * Large pinch cayenne pepper or other red chile powder
+L227: 
+L228:   * 2 sprigs thyme
+L229:   * 2 tablespoons (30ml) tomato paste
+L230: 
+L231:   * 6 plum tomatoes (1 1/4 pounds; 565 g), cite35†cored, seeded, and diced  L232: 
+L233:   * 2 pounds (900 g) whole fish or fish bones and heads (see note)
+L234: 
+L235:   * 2 cups (475 ml) dry white wine
+L236: 
+L237:   * 1/4 cup (60 ml) Pernod or pastis (optional)
+L238: 
+L239:   * 2 quarts (1.9 L) boiling water, or more as needed
+L240: 
+L241:   * 2 sprigs fresh flat-leaf parsley
+L242: 
+L243:   * 1 bay leaf
+L244: 
+L245:   * Kosher or sea salt and freshly ground black pepper
+L246: 
+L247: For the Rouille:
+L248: 
+L249:   * 2 medium cloves garlic
+L250:   * 1/4 cup crumbled stale bread or panko bread crumbs (1/2 ounce; 15 g)
+L251: 
+L252:   * Large pinch cayenne pepper or other red chile powder
+L253: 
+L254:   * Pinch saffron threads
+L255: 
+L256:   * 1 large egg yolk
+L257: 
+L258:   * Kosher or sea salt
+L259: 
+L260:   * 1/2 cup (120 ml) extra-virgin olive oil
+L261: 
+L262: To Finish:
+L263: 
+L264:   * 3 to 5 pounds (1.3 to 2.25 kg) mixed whole and/or filleted fish (1.3 to 2.25 kg; see note)
+L265: 
+L266:   * 1 pound (453 g) mussels and/or crabs (optional; see note)
+L267: 
+L268:   * Kosher or sea salt
+L269: 
+L270:   * Baguette toasts, for serving
+L271: ## Directions
+L272: 
+L273:   1. For the Broth: In a 7-quart Dutch oven, heat olive oil over medium heat until shimmering. Add onion, leek, fennel, garlic, fennel seeds, saffron, orange zest, cayenne pepper, and thyme sprigs. Cook, stirring occasionally, until vegetables have softened, about 10 minutes; lower heat if necessary to prevent browning.
+L274: 
+L275: cite36†Image: Aromatics sweating in a large Dutch oven.  cite36†Image: Aromatics sweating in a large Dutch oven.  L276: 
+L277: Serious Eats / Liz Clayman
+L278:   2. Stir in tomato paste and cook, stirring, for 2 minutes. Add diced tomatoes and cook, stirring, until tomatoes begin to soften, about 3 minutes longer. Layer in whole fish and/or fish bones and heads, stirring to mix.
+L279: 
+L280: cite37†Image: A collage: stirring in tomato paste for bouillabaisse base and adding diced tomatoes.  cite37†Image: A collage: stirring in tomato paste for bouillabaisse base and adding diced tomatoes.  L281: 
+L282: Serious Eats / Liz Clayman
+L283:   3. Add white wine and Pernod or pastis (if using), stirring to scrape up any bits from the bottom of the pot. Bring to a boil over medium-high heat, then boil until raw alcohol smell has cooked off, about 3 minutes.
+L284:   4. Add enough boiling water to fully cover all ingredients in the pot. Add parsley and bay leaf, increase heat to high, and bring broth to a vigorous boil. Allow to boil rapidly for 5 minutes. Lower heat to a simmer and continue to cook until broth is flavorful, about 45 minutes. Season with salt and pepper.
+L285: 
+L286: cite38†Image: Fish bones and parsley added to the bouillabaisse base.  cite38†Image: Fish bones and parsley added to the bouillabaisse base.  L287: 
+L288: Serious Eats / Liz Clayman
+L289:   5. Meanwhile, Make the Rouille: Using a cite23†mortar and pestle , a cite39†blender , or a cite24†food processor , process garlic, bread, cayenne pepper, saffron, and egg yolk to a paste. Work in 2 tablespoons (30ml) liquid from fish broth pot to thin paste slightly. (This can also help a blender or food processor work the mixture more effectively.) Season with salt.
+L290: cite40†Image: A 9-image collage of making rouille with a mortar and pestle: pounding garlic, cayenne pepper, bread crumbs, egg yolk, fish stock and olive oil into a thick paste.  cite40†Image: A 9-image collage of making rouille with a mortar and pestle: pounding garlic, cayenne pepper, bread crumbs, egg yolk, fish stock and olive oil into a thick paste.  L291: 
+L292: Serious Eats / Liz Clayman
+L293:   6. While pounding with the pestle, or with the blender or processor running at its lowest speed, drizzle in the olive oil. If the mixture seems too thick at any point, add fish broth, 1 tablespoon (15ml) at a time, until a thick, mayonnaise-like consistency is reached. Refrigerate the rouille until ready to use, up to 3 days.
+L294:   7.     1. To Finish: Working in batches, transfer broth and all ingredients, including fish bones, to a blender. Remove top vent from blender lid, cover with a folded clean kitchen towel, and turn blender on at lowest speed. (Keeping the blender fully sealed and turning it on at high speed immediately can be dangerous with hot liquids, so please don't do that.) Gradually increase speed to high, then blend until as smooth as possible.
+L295: (This may take some time and will depend on your blender, but feel free to let it run for a minute or longer.)
+L296: cite41†Image: A 4-image collage: transferring bouillabaisse broth to a blender and blended until smooth, and straining through a fine-mesh strainer. cite41†Image: A 4-image collage: transferring bouillabaisse broth to a blender and blended until smooth, and straining through a fine-mesh strainer. L297: 
+L298: Serious Eats / Liz Clayman
+L299:   8. Transfer blended soup to a fine-mesh strainer set over a clean pot and, using a wooden spoon, work the broth through the strainer, scraping and pressing, until only bones and very dry fibrous material are left. Repeat with remaining broth and bones. Season strained broth with salt and pepper.
+L300: Alternatively, you can work the broth and all the bones and solids through the fine disk of a food mill, but this will only work with a high-quality, commercial-grade food mill (see the "Special Equipment" section for a link).
+L301:   9. Return broth to heat and bring to a very gentle simmer over medium. Working in batches if necessary, season the whole and filleted fish and fully submerge in broth. Poach until just cooked through, starting with the larger whole fish that will take the longest to cook and finishing with the fillets; feel free to check doneness by cutting into the thickest part of each fish or fillet. As each is done, transfer it to a serving platter and keep warm.
+L302: cite42†Image: Adding fish fillet into pot of bouillabaisse.  cite42†Image: Adding fish fillet into pot of bouillabaisse.  L303: 
+L304: Serious Eats / Liz Clayman
+L305: 
+L306:   10. If using mussels or crabs, add to gently simmering broth and cook until mussels have just opened or crabs are cooked through. (This will depend on the size of your crabs; ask your fishmonger for advice if you need it.) Transfer to the serving platter.
+L307: cite43†Image: Picking up mussels from bouillabaisse pot.  cite43†Image: Picking up mussels from bouillabaisse pot.  L308: 
+L309: Serious Eats / Liz Clayman
+L310: 
+L311:   11. Bring the platter of fish to the table along with the broth in the soup pot or a tureen. Guests can eat the soup and fish separately, or together in the same bowl. The soup is best served with baguette toasts smeared with the rouille.
+L312: cite44†Image: Top down view of bouillabaisse feast on the table: two bowls have been portioned and a large platter of fish fillets and mussels.  cite44†Image: Top down view of bouillabaisse feast on the table: two bowls have been portioned and a large platter of fish fillets and mussels.  L313: 
+L314: Serious Eats / Liz Clayman
+L315: ## Special Equipment
+L316: 
+L317: cite45†Large Dutch oven , cite25†blender or commercial cite46†food mill , cite23†mortar and pestle (or cite24†food processor ), cite47†fine-mesh strainer L318: ## Notes
+L319: 
+L320: For the Broth: If you can find inexpensive whole rockfish, such as red mullet, or other whole fish, such as monkfish or conger eel, you can use any combination of them to make the soup base. If the fish are large, cut them into sections before adding to the pot. Otherwise, use a selection of fish bones and heads from your fishmonger; many types of fish can work for this, including red snapper, sea bass, and more.
+L321: For the Poaching Fish: Select the best variety of fish you can find in your area—whole when possible, fillets when not. If you use only fillets, you will need about 3 pounds total; if you use only whole fish, you will need about 5 pounds total; if you use a combination, about 4 pounds total will work.
+L322: This can include a variety of delicate, firm, oily, and lean fish, such as daurade or porgy (both types of sea bream), branzino (or another type of sea bass), snapper, monkfish, whiting, turbot, John Dory, and Dover sole. You can also add some shellfish, such as mussels and/or crabs, but make sure the shellfish do not take over the soup.
+L323: ## Read More
+L324: 
+L325:   * cite48†How to Shop for Sustainable Seafood L326:   * cite15†Two-Minute Aioli Recipe L327:   * cite49†Mussels With Fennel-Saffron Broth L328: 
+L329: Save
+L330: 
+L331: Rate
+L332: 
+L333: Print [Input]
+L334: 
+L335: Loading shell for RecipesUgcThreaded1 Vue component in Globe.
+L336: ## Related Articles
+L337: cite50†Creamy Mussels with Sauce Roquefort Recipe 10 mins cite51†Crispy Cod Cooked 'Unilaterally' with Creamed Leeks Recipe 30 mins cite52†One-Skillet Crispy Salmon with Mustardy Lentils Recipe 55 mins cite53†French in a Flash: Crispy Salmon with Lentils du Puy and Two-Mustard Crème Fraîche Recipe 55 mins cite54†French in a Flash: Cod en Papillote Recipe 20 mins cite55†Seared Tuna with Niçoise Vegetables and Garlic Butter Recipe 45 mins cite56†Boeuf Bourguignon (Beef Stew With Red Wine, Mushrooms, and Bacon) 3 hrs 55 mins cite57†Baked Scallops with Endive Recipe 25 mins L338: cite58†Shrimp Étouffée Recipe 2 hrs 5 mins cite59†Classic Pot-au-Feu (French Boiled Beef and Vegetables) Recipe 4 hrs 45 mins cite60†New England Clam Chowder 50 mins cite61†Choucroute Garnie à l'Alsacienne (Alsatian Braised Sauerkraut With Mixed Meats and Sausages) Recipe 3 hrs 45 mins cite12†Coq au Vin (Chicken Braised in Red Wine) 3 hrs cite62†Pressure Cooker Pot-au-Feu (French Boiled Beef and Vegetables) Recipe 50 mins cite63†Dinner in 20: Just Add Noodles for Easy One-Pot Thai Curry Mussels cite64†Les Halles's Boeuf Bourguignon Recipe 2 hrs 55 mins L339: Newsletter Sign Up
+L340: 
+L341: Newsletter Sign Up
+

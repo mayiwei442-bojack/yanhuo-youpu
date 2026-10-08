@@ -1,0 +1,302 @@
+Coq au Vin (Chicken Braised in Red Wine) Recipe (https://www.seriouseats.com/coq-au-vin-chicken-red-wine-braise-recipe)
+citeturn94view0 [wordlim: 100] Crawled: today; Content type: text/html; Source: open({"ref_id":"https://www.seriouseats.com/coq-au-vin-chicken-red-wine-braise-recipe","lineno":220}); Total lines: 347
+L0: cite0†iframe†www.googletagmanager.com L1: 
+L2: cite1†Serious Eats L3: 
+L4: Save
+L5: 
+L6: Rate
+L7: 
+L8:   * Search [Input: What are you looking for?]
+L9: 
+L10:   * cite2†Newsletters L13: # Coq au Vin (Chicken Braised in Red Wine)
+L14: 
+L15: 4.6
+L16: 
+L17: (8)
+L18: 
+L19: 39 Reviews
+L20: 
+L21: Tender chicken layered with the rich aroma of wine, earthy mushrooms, and sweet onions.
+L22: 
+L23: By
+L24: 
+L25: cite4†Daniel Gritzer L26: 
+L27: cite5†Image: Daniel Gritzer cite5†Image: Daniel Gritzer L28: 
+L29: cite4†Daniel Gritzer L30: Daniel is the editorial director of Serious Eats, where he leads the site's editorial strategy and oversees everything from recipe development to articles on food science, cooking techniques, and more. He's a former food editor at Food & Wine and has cooked in New York City restaurants.
+L31: 
+L32: cite6†Serious Eats' Editorial Guidelines L33: 
+L34: Updated on September 17, 2025
+L35: 
+L36: Close
+L37: cite7†Image: A white, blue-rimmed plate holding a large serving of Coq au Vin. On the lefthand side of the image is a round platter holding more of the Coq au Vin. cite7†Image: A white, blue-rimmed plate holding a large serving of Coq au Vin. On the lefthand side of the image is a round platter holding more of the Coq au Vin. L38: 
+L39: Credit:
+L40: 
+L41: Serious Eats / Julia Hartbeck
+L42: 
+L43: In This Recipe
+L44: 
+L45: View All
+L46: 
+L47: In This Article
+L48: 
+L49:   * cite8†Adapting for Younger Poultry L50: 
+L51:   * cite9†Marination Times, Compared L52: 
+L53:   * cite10†Wines to Consider L54:   * cite11†Considering the Garnish L55: 
+L56:   * cite12†Getting Saucy L57: 
+L58:   * cite13†Bringing It All Together L59: 
+L60: Jump to recipe
+L61:   * Briefly marinating the chicken in wine infuses it with flavor.
+L62:   * The choice of wine is flexible, allowing for personal preference without compromising the sauce's complexity.
+L63:   * Adding the chicken breasts to the pot at the end of cooking ensures they stay juicy and tender.
+L64:   * Using a gelatin-rich stock and reducing the braising liquid until lightly viscous and glossy produces a flavorful sauce with body.
+L65: There's a problem with coq au vin, the classic Burgundian dish of chicken braised in red wine, and the problem is that it's supposed to be made with a coq. That'd be cock in English, though it probably sounds a little less crude if we call it a rooster, and as most of you reading this know, finding a rooster for dinner is pretty difficult these days.
+L66: Traditionally made by slowly cooking a rooster in red Burgundy wine with mushrooms, lardons (little sticks of cured pork belly, though you can use bacon), and pearl onions, it's one of the great braises of the world. Layered with the rich aroma of the wine, earthy mushrooms, and sweet onions, it's a perfect cold-weather dish, both nourishing and deeply comforting. Scratch that, it's a perfect dish year-round.
+L67: I once had the good fortune to cook and eat a proper coq au vin, and it shed some light on how this dish can so easily go wrong when translated to the roasting hens most of us have far more access to. I was working on a farm in the Southwest of France several years ago, and went to feed the chickens one day with one of the farmers. As soon as we entered their enclosure, I spotted a rooster hopping on just one foot, the other one tucked up awkwardly under it.
+L68: I pointed it out to Claudette, the farmer, and she picked him up to inspect his foot. It was broken. She clucked her tongue in disappointment, then concluded, in the matter-of-fact way farmers who deal regularly with the lives and deaths of their animals do, that it looked like we'd be having rooster for dinner soon. A few minutes later, both the injured rooster and one of his unfortunate buddies were hanging upside down with their throats slit, draining blood into a pail below.
+L69: As I saw them dangling there, I realized I had two things that would get me closer to a true coq au vin than I'd ever been before—the dead roosters, and the farm's wood-fired oven, which was used throughout the week to bake bread. Actually, make that three things: There was also the farm's impressive wine cellar, hidden under a trap door in one of the barns and filled with some of the best Bordeaux and Burgundy I've ever been lucky enough to try.
+L70: cite14†Image: Two plucked roosters placed on a prep table, their heads dangling off the edge. cite14†Image: Two plucked roosters placed on a prep table, their heads dangling off the edge. L71: 
+L72: Serious Eats / Daniel Gritzer
+L73: 
+L74: Claudette taught me how to dress the birds, and then, after a day or two resting them beyond the stiffness of rigor mortis, I loaded a Dutch oven with all the ingredients and slid it into the masonry oven, where it slowly cooked in the residual heat all through the night.
+L75: The next day, when we sat down to dinner, those damn birds were still tough as rubber.
+L76: And that gets us to the challenge of coq au vin. The dish was designed as a long, slow braise, necessary to transform inedibly chewy rooster meat into something you had at least a shot at masticating. But the hens most of us get today—and use in those roosters steads—are already so tender that the last thing they need is several hours of cooking. The white meat in particular becomes horribly dry and mealy after not much more than 30 minutes.
+L77: cite15†Image: Two breasts from a batch of coq au vin are cut open to reveal their interior. The one on the left looks significantly moister than the one on the right. cite15†Image: Two breasts from a batch of coq au vin are cut open to reveal their interior. The one on the left looks significantly moister than the one on the right. L78: 
+L79: Serious Eats / Daniel Gritzer
+L80: Just look at this photo above: To the left is chicken breast that cooked for about 20 minutes; to the right, chicken breast that cooked for about 45 minutes. Now, consider that some coq au vin recipes tell you to braise the chicken for four hours!
+L81: 
+L82: That gets us to the first question: How do we get the flavor of a long-cooked braise without ruining the chicken?
+L83: ## Cookin' Round the Cluck
+L84: One solution to this long-braising versus quick-cooking conundrum would just be to tell you to only buy dark meat and braise that. There's no question that chicken legs do very well with long cooking, and on some level I suppose it's a legitimate option. But I can't shake the feeling that using only dark meat goes against the very spirit of this dish—it's supposed to be a whole bird.
+L85: This is rustic, farmhouse cooking, and as much as I would love to have a tree that bears chicken legs as fruit, that's just not how it works.
+L86: The first part of the answer is simple: Don't cook the breast any more than is necessary. In my version, that means I start by browning all the chicken in a Dutch oven. Then I braise the legs for about 45 minutes to an hour, which is more than enough time to give them a long-cooked texture. I add the breasts back to the pot only for the last 20 minutes or so, just long enough to cook them through while keeping them juicy.
+L87: But that only partially answers the question. So far, we have nicely cooked chicken breast that's still juicy, and we have legs that taste truly braised. The missing part is how to make the breast taste like it's spent some time mingling with all those tasty red-wine braising juices.
+L88: ## Marination Marathon
+L89: 
+L90: A lot of coq au vin recipes say to marinate the rooster or chicken in wine before braising. In the case of the rooster, this makes sense on a tenderizing level, since acids in the wine can help denature proteins, effectively tenderizing the meat without using heat.
+L91: That tenderizing effect is less important with already-tender roasting hens, but there's still a benefit to marination: It lets all the meat, including the breast, exchange flavors with the red wine, so that even a quick-cooking cut like the breast will seem like it's actually part of the braise and not a pan-roasted interloper.
+L92: What I wanted to find out was what the minimum marinating time was. I ran several test batches, marinating some chicken in red wine overnight, some for several hours, some just as long as it took me to prep all the other ingredients (about 25 minutes), and some not at all.
+L93: The chicken that wasn't marinated at all was the most disappointing; even after braising for over an hour, it ended up tasting like plain chicken in a red wine sauce, not nearly enough integration of flavors. The good news, though, was that even the shortest marinating time had great effect, the chicken turning irreversibly purple from the red wine, and absorbing some great flavor.
+L94: If you have the time to go for a full overnight marinade, that's fine, but what's important is that you don't have to. Instead, just pack those chicken parts into a zipper-lock bag, add the wine, and let it stand, turning occasionally, while you cut lardons, quarter mushrooms, dice carrots, and prep pearl onions. Once you've done all that, the chicken will be ready to rock.
+L95: cite16†Image: Quartered onions, peeled pearl onions, and lardon prepped and ready to go. cite16†Image: Quartered onions, peeled pearl onions, and lardon prepped and ready to go. L96: 
+L97: Serious Eats / Daniel Gritzer
+L98: ## Wine Time
+L99: 
+L100: cite17†Image: Author pouring red wine into a liquid measuring cup. cite17†Image: Author pouring red wine into a liquid measuring cup. L101: 
+L102: Serious Eats / Daniel Gritzer
+L103: 
+L104: The next big decision is which wine to use. Or at least, a lot of people would like to make you feel like it should be a big decision. They insist that true coq au vin, the Burgundian version that is most famous, must be made with red Burgundy wine, which is Pinot Noir with a really big price tag.
+L105: I'm here to tell you that it doesn't matter nearly as much as those people say. Sure, different wines will produce slightly different sauces, but the differences are subtle—in the course of my life, I've made this dish with everything from actual Burgundy to fancy Bordeaux, crappy kitchen wine*, boxed wine, big-bodied Cabernet Sauvignon, and light Beaujolais.
+L106: 
+L107: *Crappy, but still real wine, not "cooking" wine or wine "product", which you should never use.
+L108: Once you factor in the chicken juices and stock, the mushrooms and pork, the onions and thyme, all of them simmering together, then finished with butter, I guarantee you, you won't taste the sauce and say, "Hm, this Romanée-Conti doesn't smell quite as much like violets as the one I drank last night."
+L109: If you want to stay true to the dish, sure you can use a less expensive Burgundy, or, better yet, a Beaujolais, which comes from the same region but is made with Gamay, a different grape. But really, any red wine will work (in fact, whites will too—there's a well-known version of this dish made with Riesling). For more on cooking with wines, read about cite18†some of my other tests and observations here .
+L110: ## Considering the Garnish
+L111: 
+L112: Coq au vin is traditionally served with mushrooms, lardons, and pearl onions. There are a couple ways to approach this. There's the more precious restaurant version, where you braise the chicken in the wine with aromatics like onion and garlic, then strain those aromatics out and garnish the dish with beautiful little versions of each garnish that have been cooked separately.
+L113: Cooking the garnishes separately makes for a prettier presentation, which is important in a restaurant setting, but it's just a little too fussy for the kind of simple, gutsy home cooking this dish is supposed to capture.
+L114: 
+L115: I tried a couple different approaches to see if I could win any presentation points without adding lots of steps to the dish.
+L116: In one batch, I browned everything, from the chicken through to the mushrooms, in batches in the Dutch oven, then added the wine and stock and braised it (minus the breasts, of course, which waited until the end) all together.
+L117: In another batch, I browned the chicken, then braised the legs in the wine and stock with some thyme and bay leaves. While the legs were in the oven, I pan-roasted the mushrooms, pearl onions, and carrots* until nicely browned and just shy of being fully cooked. Then, when the chicken was done, I added the garnishes and simmered them for about 10 minutes while the liquids reduced.
+L118: *A note on carrots: I looked at a lot of coq au vin recipes. Some include carrots, some don't. Julia Child doesn't, but legendary French chef Paul Bocuse does. I'm throwing my hat in Bocuse's ring; how can carrots possibly hurt this dish?
+L119: 
+L120: cite19†Image: Diced carrot and pearl onions getting sautéed in a skillet. cite19†Image: Diced carrot and pearl onions getting sautéed in a skillet. L121: 
+L122: Cooking the garnishes separately makes them more attractive, but is it best for flavor?.
+L123: 
+L124: Serious Eats / Daniel Gritzer
+L125: Tasting them side-by-side, there was no contest: The batch that was braised with everything together was vastly more flavorful and rich than the one where I held the garnishes until the end.
+L126: 
+L127: cite20†Image: Overhead shot of finished coq au vin with chicken removed. All of the vegetables have been added to the braise. cite20†Image: Overhead shot of finished coq au vin with chicken removed. All of the vegetables have been added to the braise. L128: Cooking everything together leads to the most flavorful, delicious braising liquid, even if it is a little less pretty.
+L129: 
+L130: Serious Eats / Daniel Gritzer
+L131: 
+L132: Simple enough, I say—screw presentation if it means better flavor!
+L133: ## Getting Saucy
+L134: 
+L135: Okay, so we've got our tender and juicy braised chicken, we have the most flavorful braising liquid. There's just one big question left: How do we thicken the sauce?
+L136: 
+L137: Classically, we'd do it by whisking beurre manié (a mixture of butter and flour) into the braising juices. But flour can dull flavor and give the sauce a slight gravy quality.
+L138: I used to work in a French restaurant where we'd use a cite21†high-powered blender to pulverize aromatics like onion in the braising liquids into the sauce: The blender was so powerful, it would rupture the cell walls of the aromatics, the cellulose thickening the silky sauce. This won't work with regular home blenders, which will create a chunky, gritty sauce using that method.
+L139: The best bet for a clean, flavorful sauce at home, I concluded, was reduction, combined with plenty of gelatin in the chicken stock. There are two ways to make a gelatin-rich stock. One is to make a cite22†really good homemade version , adding chicken feet to the pot along with other collagen-rich chicken parts. The other is to supplement either thin homemade stock or store-bought broth with powdered gelatin.
+L140: Either way, as you reduce it down, the sauce will take on a slightly sticky, viscous quality. Whisk in some butter to finish it, and you'll wonder why anyone bothers with the flour at all.
+L141: One warning though: You have to be very careful with salt when reducing as heavily as required here. Even very reasonable-seeming amounts of salt added earlier on can concentrate into an unbearably salty final sauce once it's been reduced. For this reason, aside from salting the chicken, I'd recommend not adding any other salt to the dish until it has finished reducing.
+L142: ## Bringing It All Together
+L143: 
+L144: Here's a quick overview of the process:
+L145: 
+L146: While the chicken marinates, prep all the other ingredients. Then cook the lardons (either salt pork or slab bacon) in a Dutch oven until browned and their fat has rendered. Remove the lardons with a slotted spoon and brown the chicken in the rendered pork fat, then set the browned chicken aside.
+L147: cite23†Image: Browned chicken quarters are removed to a wire rack set on a rimmed baking sheet. cite23†Image: Browned chicken quarters are removed to a wire rack set on a rimmed baking sheet. L148: 
+L149: Serious Eats / Daniel Gritzer
+L150: 
+L151: Pour off all but a few tablespoons of the fat in the pot and add the mushrooms, cooking until browned. This takes longer than most recipes say—they have to dump their water first before they begin to brown. Expect it to take at least 10 minutes.
+L152: cite24†Image: Quartered mushrooms are browned in the Dutch oven. cite24†Image: Quartered mushrooms are browned in the Dutch oven. L153: 
+L154: Serious Eats / Daniel Gritzer
+L155: 
+L156: Right when the water dumped by the mushrooms has cooked off, add the pearl onions and let them brown lightly, too.
+L157: 
+L158: cite25†Image: Pearl onions have been added to the pot to brown. cite25†Image: Pearl onions have been added to the pot to brown. L159: 
+L160: Serious Eats / Daniel Gritzer
+L161: Get those carrots in there and give them a good little cook. You don't have to brown everything heavily here; the mushrooms should brown the most, and then the onions and carrots can just be lightly browned. Then add the wine and stock and bring to a simmer, stirring up all the browned bits. Nestle the chicken legs into the pot, leaving them exposed on top so that the skin can crisp more as they braise. Add the chicken breasts for the last 20 minutes or so, until just cooked through.
+L162: Remove the chicken from the pot once more, and simmer until liquid is lightly viscous, then whisk in unsalted butter. The gelatin will help the butter emulsify into the sauce without breaking.
+L163: 
+L164: Then add the chicken back to the pot, spooning the juices all over and serve.
+L165: 
+L166: cite26†Image: Close-up of coq au vin. The browned, wine-tinged chicken is glistening with the braising liquid. cite26†Image: Close-up of coq au vin. The browned, wine-tinged chicken is glistening with the braising liquid. L167: Serious Eats / Daniel Gritzer
+L168: 
+L169: Like most braises, this dish tastes even better the next day. In that case, you should let the whole Dutch oven stand for one hour at room temperature after it comes out of the oven and before whisking in the butter. Transfer it to the fridge for up to four days, then reheat gently and continue with the recipe.
+L170: cite27†Image: Overhead shot of finished coq au vin on the table, ready to serve from the Dutch oven. A serving bowl of parsley-flecked red potatoes flank the chicken. cite27†Image: Overhead shot of finished coq au vin on the table, ready to serve from the Dutch oven. A serving bowl of parsley-flecked red potatoes flank the chicken. L171: 
+L172: Serious Eats / Daniel Gritzer
+L173: 
+L174: Coq au vin is great with buttered potatoes, pasta, or rice.
+L175: cite28†Image: A plate of potatoes and coq au vin being drizzled with the braising liquid. cite28†Image: A plate of potatoes and coq au vin being drizzled with the braising liquid. L176: 
+L177: Serious Eats / Daniel Gritzer
+L178: 
+L179: You know, earlier on, I said I had sacrificed presentation in the name of flavor. Looking at this, I'm not sure I sacrificed presentation at all.
+L180: 
+L181: cite29†Image: Finished, plated coq au vin, sprinkled with parsley. cite29†Image: Finished, plated coq au vin, sprinkled with parsley. L182: Serious Eats / Daniel Gritzer
+L183: 
+L184: Tell me that doesn't look good. Yeah, I'm being a little cocky, and I'm proud of it.
+L185: 
+L186: cite30†Image: A plate of coq au vin. Author is prodding a chicken leg with a fork, shredding it easily. cite30†Image: A plate of coq au vin. Author is prodding a chicken leg with a fork, shredding it easily. L187: 
+L188: Serious Eats / Daniel Gritzer
+L189: ### February 2015
+L190: 
+L191: This recipe was cross-tested in 2024 and lightly updated to guarantee best results.
+L192: 
+L193: Prep Time:
+L194: 
+L195: 20 mins
+L196: 
+L197: Cook Time:
+L198: 
+L199: 2 hrs 40 mins
+L200: 
+L201: Total Time:
+L202: 
+L203: 3 hrs
+L204: 
+L205: Servings:
+L206: 
+L207: 4 to 6 servings
+L208: 
+L209: Yield:
+L210: 
+L211: Serves 4 to 6
+L212: 
+L213: [Button: Jump to Nutrition Facts]
+L214: 
+L215: Keep Screen Awake
+L216: ## Ingredients
+L217: 
+L218:   * 2 whole small chickens (about 3 pounds; 1.4 kg each, see notes), each chicken cite31†cut into 4 pieces, backbones reserved for stock L219: 
+L220:   * 2 cups (475 ml) cite18†dry red wine L221: 
+L222:   * 8 ounces (225 g) pearl onions (see notes)
+L223: 
+L224:   * 1/4 pound (113 g) slab bacon or salt pork, cut into 1- by 1/4- by 1/4-inch sticks
+L225: 
+L226:   * Kosher salt and freshly ground black pepper
+L227: 
+L228:   * 8 ounces (225 g) button or cremini mushrooms, woody stems trimmed if necessary, quartered
+L229:   * 3 medium carrots (10 ounces; 280 g total), diced (about 1 1/2 cups)
+L230: 
+L231:   * 4 medium cloves garlic, crushed
+L232: 
+L233:   * 2 sprigs thyme
+L234: 
+L235:   * 2 bay leaves
+L236: 
+L237:   * 2 cups (475 ml) gelatinous cite22†homemade chicken stock (see notes) or low-sodium chicken broth
+L238: 
+L239:   * 3 tablespoons (40 g) cold unsalted butter, cubed
+L240: 
+L241:   * 1/4 cup minced flat-leaf parsley
+L242: ## Directions
+L243: 
+L244:   1. Preheat oven to 350°F (180°C). Add chicken to a 1-gallon zipper-lock bag. Pour in wine and seal bag, pressing out air. Let stand while you prepare the remaining ingredients.
+L245: 
+L246: cite32†Image: Chicken pieces marinating in red wine inside of a zipper-lock bag. cite32†Image: Chicken pieces marinating in red wine inside of a zipper-lock bag. L247: 
+L248: Serious Eats / Julia Hartbeck
+L249:   2. Using a paring knife, trim off the ends of each onion and score a light "X" into one cut side. Bring a small pot of water to a boil over high heat. Add onions and cook until outer layers are soft, about 1 1/2 minutes. Drain onions and run under cool water until cold enough to handle. Peel onions with your fingers and discard peels.
+L250: cite33†Image: A two-image collage. The top image shows the onions being cooked inside of a small saucepan. The bottom image shows the peeled onions on the lefthand side of a cutting board. The righthand side of the cutting board is covered with the onion peels. cite33†Image: A two-image collage. The top image shows the onions being cooked inside of a small saucepan. The bottom image shows the peeled onions on the lefthand side of a cutting board.
+L251: The righthand side of the cutting board is covered with the onion peels. L252: Serious Eats / Julia Hartbeck
+L253: 
+L254:   3. In a large Dutch oven or rondeau, cook bacon over medium-high heat, stirring and reducing heat as necessary to prevent scorching, until browned and fat has rendered, about 10 minutes. Remove from heat and, using a slotted spoon, transfer bacon to a paper towel-lined plate. Reserve drippings in Dutch oven.
+L255: 
+L256: cite34†Image: Browned bacon with rendered fat inside a large Dutch oven. cite34†Image: Browned bacon with rendered fat inside a large Dutch oven. L257: Serious Eats / Julia Hartbeck
+L258: 
+L259:   4. Remove chicken from zipper-lock bag, reserving wine, and pat dry. Season with salt and pepper. Return Dutch oven with rendered bacon fat to medium-high heat and, working in batches, add chicken, skin side down, and cook until browned, about 7 minutes. Turn and brown other side, about 5 minutes, reducing heat as needed if bottom of Dutch oven is getting too dark. Transfer browned chicken to a wire rack set over a rimmed baking sheet. Reserve at room temperature.
+L260: cite35†Image: A two-image collage. The top image shows the seasoned, marinated chicken, skin-side down inside of the Dutch oven holding the rendered bacon fat. The bottom image shows the browned chicken, skin-side up inside of the Dutch oven. cite35†Image: A two-image collage. The top image shows the seasoned, marinated chicken, skin-side down inside of the Dutch oven holding the rendered bacon fat. The bottom image shows the browned chicken, skin-side up inside of the Dutch oven. L261: Serious Eats / Julia Hartbeck
+L262: 
+L263:   5. Once all chicken is browned, add mushrooms to Dutch oven and cook over medium-high heat, stirring frequently, until browned, 10 to 12 minutes. Add pearl onions, carrots, and garlic and cook, stirring, until lightly browned, 5 to 8 minutes. Add bacon, wine, thyme, and bay leaves and bring to a simmer, stirring up any browned bits.
+L264: cite36†Image: A two-image collage. The top image shows the Dutch oven holding browned onions, diced carrots, diced mushrooms, and garlic. The bottom image shows wine, thyme, and bay leaves added to the Dutch oven. There is a wooden spoon in both images. cite36†Image: A two-image collage. The top image shows the Dutch oven holding browned onions, diced carrots, diced mushrooms, and garlic. The bottom image shows wine, thyme, and bay leaves added to the Dutch oven. There is a wooden spoon in both images. L265: Serious Eats / Julia Hartbeck
+L266: 
+L267:   6. Stir in stock. Add chicken legs skin side up, nestling them into the Dutch oven so that they are partially submerged but top of skin is above the liquid. Pour in any accumulated juices from chicken. Transfer to oven and cook, uncovered, for 1 hour.
+L268: cite37†Image: Stock stirred in and chicken legs added to Dutch oven, skin side up. The chicken is partially submerged. cite37†Image: Stock stirred in and chicken legs added to Dutch oven, skin side up. The chicken is partially submerged. L269: 
+L270: Serious Eats / Julia Hartbeck
+L271: 
+L272:   7. Add chicken breasts, nestling them skin side up amongst the legs, and return to the oven. Cook until breasts are just cooked through (they should register 145 to 150°F/63°C to 66°C on an instant-read thermometer), 20 to 25 minutes.
+L273: cite38†Image: Chicken breasts added to Dutch oven, nestled, skin side up, amongst the legs. cite38†Image: Chicken breasts added to Dutch oven, nestled, skin side up, amongst the legs. L274: 
+L275: Serious Eats / Julia Hartbeck
+L276:   8. Transfer chicken breasts and legs to a clean rack set over a rimmed backing sheet. Set Dutch oven over medium-low heat and simmer, stirring occasionally, until sauce is lightly viscous, looks slightly glossy, and tastes rich, 15 to 18 minutes. Whisk in butter, then season with salt (if necessary) and pepper. Stir in half of parsley.
+L277: cite39†Image: A two-image collage. The top image shows the sauce and vegetables simmering in the Dutch oven after the chicken has been removed. The bottom image shows the sauce, slightly reduced, with the butter and half of the chopped parsley stirred in. cite39†Image: A two-image collage. The top image shows the sauce and vegetables simmering in the Dutch oven after the chicken has been removed. The bottom image shows the sauce, slightly reduced, with the butter and half of the chopped parsley stirred in. L278: Serious Eats / Julia Hartbeck
+L279: 
+L280:   9. Return chicken to pot, spooning sauce on top. Garnish with remaining parsley. Serve right away with buttered potatoes, pasta, or rice.
+L281: 
+L282: cite40†Image: A serving of Coq au Vin, sprinkled with parsley, on a white, blue-rimmed plate. cite40†Image: A serving of Coq au Vin, sprinkled with parsley, on a white, blue-rimmed plate. L283: 
+L284: Serious Eats / Julia Hartbeck
+L285: ## Special Equipment
+L286: 
+L287: Large cite41†Dutch oven or cite42†rondeau L288: ## Notes
+L289: 
+L290: If you can't find small 3-pound chickens, use one 4-pound chicken plus 1 pound of chicken legs.
+L291: 
+L292: Frozen pearl onions can be used in place of fresh; to use frozen onions, cook direct from frozen, skipping Step 2.
+L293: The chicken stock should have enough gelatin in it that it sets like jello when chilled. If it is thinner than that, you will need to add gelatin. Pour the stock into a large bowl and sprinkle with two packets of unflavored gelatin. Let the gelatin fully hydrate. The stock will have a grainy appearance but will smooth out once added to the recipe.
+L294: ## Make-Ahead and Storage
+L295: 
+L296: This braise can be made ahead and tastes even better the next day: Complete the recipe through Step 7, then let cool at room temperature for one hour before transferring the Dutch oven to refrigerator; reheat gently in 350°F oven before proceeding with Step 8.
+L297: 
+L298: ## Read More
+L299: 
+L300:   * cite43†Why I Only Buy Whole Chickens (and You Can, Too!) L301:   * cite31†How to Break Down a Chicken L302:   * cite44†Grilled Coq au Vin L303:   * cite45†Coq au Riesling L304: 
+L305: Save
+L306: 
+L307: Rate
+L308: 
+L309: Print [Input]
+L310: ## Nutrition Facts (per serving)
+L311: 
+L312: 1394  | Calories
+L313: 83g  | Fat
+L314: 12g  | Carbs
+L315: 128g  | Protein
+L316: 
+L317: Show Full Nutrition Label Hide Full Nutrition Label
+L318: 
+L319: Nutrition Facts
+L320: ---
+L321: Servings Per Recipe 4 to 6
+L322: ---
+L323: Calories 1394
+L324: ---
+L325: % Daily Value *
+L326: Total Carbohydrate 12g  | 4%
+L327: Dietary Fiber 2g  | 6%
+L328: Total Sugars 4g
+L329: Protein 128g  | 257%
+L330: Total Fat 83g  | 107%
+L331: Saturated Fat 27g  | 133%
+L332: Cholesterol 431mg  | 144%
+L333: Vitamin C 7mg  | 8%
+L334: Sodium 1319mg  | 57%
+L335: Calcium 113mg  | 9%
+L336: Iron 7mg  | 39%
+L337: Potassium 1509mg  | 32%
+L338: * Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs.
+L339: 
+L340: Loading shell for RecipesUgcThreaded1 Vue component in Globe.
+L341: ## Related Articles
+L342: cite45†French in a Flash (Classic): Coq au Riesling Recipe 1 hr 25 mins cite46†Chicken Cacciatore With Mushrooms, Tomato, and Onion Recipe 1 hr 20 mins cite47†Chicken Scarpariello (Braised Chicken With Sausage and Peppers) 1 hr 10 mins cite48†Lavender, Lemon, and Honey Spatchcocked Roast Chicken Recipe 1 hr 5 mins cite49†Roast Chicken With Soubise (Onion Sauce) 1 hr 20 mins cite50†Pressure Cooker Thai Green Chicken Curry With Eggplant and Kabocha Squash Recipe 35 mins cite51†Boeuf Bourguignon (Beef Stew With Red Wine, Mushrooms, and Bacon) 3 hrs 55 mins cite52†Chicken Cacciatore With Red Peppers, Tomato, and Onion 1 hr 15 mins L343: cite53†Creamy Braised Chicken With Bacon and White Wine (Blanquette de Poulet) 1 hr 25 mins cite54†Fall-Apart Lamb Shanks Braised with Mustard and Mint Recipe 2 hrs 15 mins cite55†Easy Pan-Roasted Chicken Breasts With White Wine and Fines Herbes Pan Sauce Recipe 30 mins cite56†Chicken Marsala 45 mins cite57†Crispy Braised Chicken Thighs With Cabbage and Bacon 1 hr 15 mins cite58†Bollito Misto (Italian Feast of Mixed Boiled Meats) Recipe 1 hr 50 mins cite59†Braised Chicken with Black Bean Sauce Recipe 50 mins cite60†Choucroute Garnie à l'Alsacienne (Alsatian Braised Sauerkraut With Mixed Meats and Sausages) Recipe 3 hrs 45 mins L344: Newsletter Sign Up
+L345: 
+L346: Newsletter Sign Up
+

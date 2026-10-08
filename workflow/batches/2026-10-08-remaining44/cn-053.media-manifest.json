@@ -1,0 +1,111 @@
+{
+  "recipeId": "cn-053",
+  "sourceUrl": "https://thewoksoflife.com/salt-baked-chicken/",
+  "referer": "https://thewoksoflife.com/salt-baked-chicken/",
+  "authorization": "user_confirmed_2026-09-16",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-3.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-053-woks/hero.jpg",
+      "adjacentText": "盐焗鸡成品",
+      "pageOrder": 0
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-053-woks/step-1-2.jpg",
+      "adjacentText": "The next day, take the chicken out of the refrigerator for at least one to two hours before cooking, so the chicken can come up to room temperature. Insert the ginger slices into the cavity and brush the chicken skin with oil. Next, tie up the drumsticks with kitchen twine. Finally, wrap the chicken with a large piece of parchment paper, then wrap it again with a second piece of parchment with the opening on the breast side. Set the chicken aside.",
+      "pageOrder": 2,
+      "stepOrder": 4
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-9.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-053-woks/step-2-3.jpg",
+      "adjacentText": "The next day, take the chicken out of the refrigerator for at least one to two hours before cooking, so the chicken can come up to room temperature. Insert the ginger slices into the cavity and brush the chicken skin with oil. Next, tie up the drumsticks with kitchen twine. Finally, wrap the chicken with a large piece of parchment paper, then wrap it again with a second piece of parchment with the opening on the breast side. Set the chicken aside.",
+      "pageOrder": 3,
+      "stepOrder": 4
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-8.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-053-woks/step-3-4.jpg",
+      "adjacentText": "Now “stir-fry” the rest of the salt in a clean dry wok for about 15 minutes, using medium heat until the salt turns light brown. The salt gets very hot, so be careful not to burn yourself or stir too vigorously. Next, fill a wok or Dutch oven with about a ½-inch of hot salt spread evenly across the bottom. Position the chicken with the breast side up in the center of the pot. Next, add the rest of the hot salt onto the chicken to make sure it’s completely covered.\nTop your vessel of choice with the lid, and cook over medium heat for 35 minutes. Then turn off the heat, and let it sit on the stove, covered, for another 30 to 40 minutes until the salt is warm to the touch.",
+      "pageOrder": 4,
+      "stepOrder": 5
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-10.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-053-woks/step-4-5.jpg",
+      "adjacentText": "Now “stir-fry” the rest of the salt in a clean dry wok for about 15 minutes, using medium heat until the salt turns light brown. The salt gets very hot, so be careful not to burn yourself or stir too vigorously. Next, fill a wok or Dutch oven with about a ½-inch of hot salt spread evenly across the bottom. Position the chicken with the breast side up in the center of the pot. Next, add the rest of the hot salt onto the chicken to make sure it’s completely covered.\nTop your vessel of choice with the lid, and cook over medium heat for 35 minutes. Then turn off the heat, and let it sit on the stove, covered, for another 30 to 40 minutes until the salt is warm to the touch.",
+      "pageOrder": 5,
+      "stepOrder": 5
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-11.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-053-woks/step-4-6.jpg",
+      "adjacentText": "Now “stir-fry” the rest of the salt in a clean dry wok for about 15 minutes, using medium heat until the salt turns light brown. The salt gets very hot, so be careful not to burn yourself or stir too vigorously. Next, fill a wok or Dutch oven with about a ½-inch of hot salt spread evenly across the bottom. Position the chicken with the breast side up in the center of the pot. Next, add the rest of the hot salt onto the chicken to make sure it’s completely covered.\nTop your vessel of choice with the lid, and cook over medium heat for 35 minutes. Then turn off the heat, and let it sit on the stove, covered, for another 30 to 40 minutes until the salt is warm to the touch.",
+      "pageOrder": 6,
+      "stepOrder": 5
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-12.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-053-woks/step-5-7.jpg",
+      "adjacentText": "Now “stir-fry” the rest of the salt in a clean dry wok for about 15 minutes, using medium heat until the salt turns light brown. The salt gets very hot, so be careful not to burn yourself or stir too vigorously. Next, fill a wok or Dutch oven with about a ½-inch of hot salt spread evenly across the bottom. Position the chicken with the breast side up in the center of the pot. Next, add the rest of the hot salt onto the chicken to make sure it’s completely covered.\nTop your vessel of choice with the lid, and cook over medium heat for 35 minutes. Then turn off the heat, and let it sit on the stove, covered, for another 30 to 40 minutes until the salt is warm to the touch.",
+      "pageOrder": 7,
+      "stepOrder": 5
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-13.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-053-woks/step-5-8.jpg",
+      "adjacentText": "Once the salt is warm to the touch, use a wooden spoon or a spatula to carefully lift the chicken out of the salt. Be very careful–the chicken is still very hot despite sitting with the heat off for 30-40 minutes. Carefully unwrap the parchment paper, and let it cool slightly until it’s not too hot to handle.",
+      "pageOrder": 8,
+      "stepOrder": 6
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-14.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-053-woks/step-5-9.jpg",
+      "adjacentText": "Once the salt is warm to the touch, use a wooden spoon or a spatula to carefully lift the chicken out of the salt. Be very careful–the chicken is still very hot despite sitting with the heat off for 30-40 minutes. Carefully unwrap the parchment paper, and let it cool slightly until it’s not too hot to handle.",
+      "pageOrder": 9,
+      "stepOrder": 6
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-15.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-053-woks/step-5-10.jpg",
+      "adjacentText": "Once the salt is warm to the touch, use a wooden spoon or a spatula to carefully lift the chicken out of the salt. Be very careful–the chicken is still very hot despite sitting with the heat off for 30-40 minutes. Carefully unwrap the parchment paper, and let it cool slightly until it’s not too hot to handle.",
+      "pageOrder": 10,
+      "stepOrder": 6
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-2.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-053-woks/step-6-12.jpg",
+      "adjacentText": "As for how to serve the chicken, this dish is usually served with the meat deboned and pulled apart. You don’t have to follow these steps, but your diners (in our case, Sarah) will appreciate your effort! Plus, the chicken bone and carcass do make a lovely broth. As you pull the meat off the chicken, there will be a lot of juice–do yourself and your diners a favor by pouring the juice over the chicken after it’s plated! For the finishing touch, sprinkle with chopped scallion.",
+      "pageOrder": 12,
+      "stepOrder": 7
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-5.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-053-woks/step-6-13.jpg",
+      "adjacentText": "As for how to serve the chicken, this dish is usually served with the meat deboned and pulled apart. You don’t have to follow these steps, but your diners (in our case, Sarah) will appreciate your effort! Plus, the chicken bone and carcass do make a lovely broth. As you pull the meat off the chicken, there will be a lot of juice–do yourself and your diners a favor by pouring the juice over the chicken after it’s plated! For the finishing touch, sprinkle with chopped scallion.",
+      "pageOrder": 13,
+      "stepOrder": 7
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2017/04/salt-baked-chicken-4.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-053-woks/step-7-14.jpg",
+      "adjacentText": "As for how to serve the chicken, this dish is usually served with the meat deboned and pulled apart. You don’t have to follow these steps, but your diners (in our case, Sarah) will appreciate your effort! Plus, the chicken bone and carcass do make a lovely broth. As you pull the meat off the chicken, there will be a lot of juice–do yourself and your diners a favor by pouring the juice over the chicken after it’s plated! For the finishing touch, sprinkle with chopped scallion.",
+      "pageOrder": 14,
+      "stepOrder": 7
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "verifiedAt": "2026-10-08T12:24:10.271Z",
+  "documents": [
+    {
+      "recipeId": "cn-019",
+      "documentId": "0ff9202a-963e-4b37-a713-4d7d344dd8ab",
+      "normalizedAuthor": null,
+      "mediaMetadataAuthor": null,
+      "expectedAuthor": "Judy",
+      "assessment": "No incorrect author stored; null when not known at ingestion."
+    },
+    {
+      "recipeId": "cn-020",
+      "documentId": "2be1111d-2cd1-42dd-b183-990a063573e7",
+      "normalizedAuthor": null,
+      "mediaMetadataAuthor": null,
+      "expectedAuthor": "Bill",
+      "assessment": "No incorrect author stored; null when not known at ingestion."
+    },
+    {
+      "recipeId": "cn-031",
+      "documentId": "3ef0f122-545b-407b-af57-d247126d1390",
+      "normalizedAuthor": null,
+      "mediaMetadataAuthor": null,
+      "expectedAuthor": "Judy",
+      "assessment": "No incorrect author stored; null when not known at ingestion."
+    },
+    {
+      "recipeId": "cn-035",
+      "documentId": "fc8be572-9638-48b4-8fb1-b416a9893e56",
+      "normalizedAuthor": null,
+      "mediaMetadataAuthor": null,
+      "expectedAuthor": "Judy",
+      "assessment": "No incorrect author stored; null when not known at ingestion."
+    },
+    {
+      "recipeId": "cn-039",
+      "documentId": "e9ce4921-06d9-457d-b816-2eb881079e56",
+      "normalizedAuthor": null,
+      "mediaMetadataAuthor": null,
+      "expectedAuthor": "Judy",
+      "assessment": "No incorrect author stored; null when not known at ingestion."
+    },
+    {
+      "recipeId": "cn-040",
+      "documentId": "72ce298f-8af6-4c11-860b-dd60f9445054",
+      "normalizedAuthor": null,
+      "mediaMetadataAuthor": null,
+      "expectedAuthor": "Judy",
+      "assessment": "No incorrect author stored; null when not known at ingestion."
+    },
+    {
+      "recipeId": "cn-044",
+      "documentId": "6d4bc2d5-d6db-4913-b97f-a04179a32c3b",
+      "normalizedAuthor": null,
+      "mediaMetadataAuthor": null,
+      "expectedAuthor": "Judy",
+      "assessment": "No incorrect author stored; null when not known at ingestion."
+    },
+    {
+      "recipeId": "cn-051",
+      "documentId": "16f8f429-96c0-467c-ac52-22297c424ccb",
+      "normalizedAuthor": null,
+      "mediaMetadataAuthor": null,
+      "expectedAuthor": "Bill",
+      "assessment": "No incorrect author stored; null when not known at ingestion."
+    },
+    {
+      "recipeId": "cn-053",
+      "documentId": "2a659456-2a0f-4e3e-b07f-569cf91e2e15",
+      "normalizedAuthor": null,
+      "mediaMetadataAuthor": null,
+      "expectedAuthor": "Judy",
+      "assessment": "No incorrect author stored; null when not known at ingestion."
+    }
+  ]
+}

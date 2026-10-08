@@ -2260,6 +2260,7 @@ window.YANHUO_RECIPES = [
     "defaultServings": null,
     "servingsBasis": "unspecified",
     "allergens": [
+      "shellfish",
       "soy"
     ],
     "flags": {
@@ -3386,87 +3387,166 @@ window.YANHUO_RECIPES = [
     "ingredients": [
       {
         "id": "ingredient-01",
-        "name": "方块五花肉",
-        "label": "方块五花肉800克",
+        "name": "五花肉整块",
+        "label": "五花肉整块900克",
         "isCore": true
       },
       {
         "id": "ingredient-02",
-        "name": "绍兴酒",
-        "label": "绍兴酒250毫升",
-        "isCore": true
+        "name": "葱",
+        "label": "葱3把，洗净后纵向切成两半",
+        "isCore": false
       },
       {
         "id": "ingredient-03",
-        "name": "生抽",
-        "label": "生抽60毫升",
+        "name": "姜",
+        "label": "姜8片",
         "isCore": false
       },
       {
         "id": "ingredient-04",
-        "name": "老抽",
-        "label": "老抽15毫升",
-        "isCore": false
+        "name": "绍兴酒",
+        "label": "绍兴酒2杯",
+        "isCore": true
       },
       {
         "id": "ingredient-05",
-        "name": "冰糖",
-        "label": "冰糖50克",
+        "name": "生抽",
+        "label": "生抽2/3杯",
         "isCore": false
       },
       {
         "id": "ingredient-06",
-        "name": "葱",
-        "label": "葱100克",
+        "name": "老抽",
+        "label": "老抽2又1/2汤匙",
         "isCore": false
       },
       {
         "id": "ingredient-07",
-        "name": "姜",
-        "label": "姜40克",
+        "name": "冰糖",
+        "label": "冰糖约113.4—141.7克（原文4—5盎司，按喜好的甜度选用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-08",
+        "name": "清水",
+        "label": "清水适量（仅用于焯水，原文未给用量）",
         "isCore": false
       }
     ],
     "steps": [
       {
         "id": "step-01",
-        "instruction": "五花肉焯水，切大方块并扎绳定形。",
+        "instruction": "将整块五花肉洗净，放入沸水中焯1分钟后沥干，以去除杂质并便于切成大小一致的块。切成约7.6×7.6厘米的方块；喜欢小块的，也可切成约5.1×5.1厘米，放在一旁备用。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
-        "gameAction": "confirm",
+        "gameAction": "add",
         "safetyNote": ""
       },
       {
         "id": "step-02",
-        "instruction": "砂锅垫葱姜，肉皮向下，加酒、酱油和冰糖。",
+        "instruction": "优先选用中号砂锅，也可用中号普通锅（原文为4夸脱）。将洗净并纵向切成两半的葱，在锅底铺成厚实、均匀的一层，完全覆盖锅底；再将姜片均匀铺在葱上。葱层可防止炖煮时粘锅。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-019-woks-dongpo/step-2-1.jpg",
+        "imageSource": "https://thewoksoflife.com/braised-pork-belly-dong-po-rou/"
+      },
+      {
+        "id": "step-03",
+        "instruction": "将五花肉块皮朝下，摆在姜片和葱层上。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "confirm",
-        "safetyNote": ""
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-019-woks-dongpo/step-3-7.jpg",
+        "imageSource": "https://thewoksoflife.com/braised-pork-belly-dong-po-rou/"
       },
       {
-        "id": "step-03",
-        "instruction": "小火焖90分钟，翻面再焖30分钟，蒸20分钟更酥软。",
+        "id": "step-04",
+        "instruction": "倒入2杯绍兴酒、2/3杯生抽和2又1/2汤匙老抽，加入约113.4—141.7克冰糖。炖肉时不要加水或高汤。",
         "duration": null,
-        "heat": "low",
+        "heat": null,
         "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-019-woks-dongpo/step-3-8.jpg",
+        "imageSource": "https://thewoksoflife.com/braised-pork-belly-dong-po-rou/"
+      },
+      {
+        "id": "step-05",
+        "instruction": "盖上锅盖，以中高火加热；锅中液体一沸腾，立即转小火，微沸炖90分钟，期间不必搅动。之后的步骤6与步骤7是两条替代路线，只选一条继续。",
+        "duration": 5400,
+        "heat": null,
+        "timerRequired": true,
         "ingredientsUsed": [],
         "gameAction": "wait",
         "safetyNote": ""
+      },
+      {
+        "id": "step-06",
+        "instruction": "继续原锅炖煮的路线：将肉块翻成皮朝上，盖上锅盖，以最低火力再微沸炖90分钟。保持最低火力时，锅中应有足够液体完成炖煮，不需要另外添加液体；完成后直接进行步骤8。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-019-woks-dongpo/step-5-9.jpg",
+        "imageSource": "https://thewoksoflife.com/braised-pork-belly-dong-po-rou/"
+      },
+      {
+        "id": "step-07",
+        "instruction": "改用蒸制的路线：将已炖90分钟的肉块移到耐热盘中，保持皮朝上，淋上一些锅中的炖汁，再放入蒸锅蒸90分钟。这条路线替代步骤6，不在原锅再炖90分钟后继续蒸。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-019-woks-dongpo/step-5-10.jpg",
+        "imageSource": "https://thewoksoflife.com/braised-pork-belly-dong-po-rou/"
+      },
+      {
+        "id": "step-08",
+        "instruction": "两条路线均以肉质软嫩为完成状态。将肉块移到盘中；需要更浓的酱汁时，将炖汁放入小锅，提高火力加热收浓，再淋在肉上。剩余酱汁可用来拌米饭或面条。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
       }
     ],
-    "imageThumb": "assets/dishes/thumbnails/29-dongpo-rou.jpg",
-    "imageFull": "assets/dishes/ai/29-dongpo-rou.png",
-    "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
-    "time": 140,
-    "timeBasis": "estimated",
+    "sourceLimitations": [
+      "原文步骤为先炖90分钟，再选择炖90分钟或蒸90分钟，两段合计180分钟；原文另标烹饪时间210分钟、总时间230分钟，此处分别保留，不以步骤时长重算总时间。",
+      "原文未量化焯水用水，杯和汤匙也未规定容量；保留原单位，不推算毫升。"
+    ],
+    "imageThumb": "assets/dishes/sources/cn-019-woks-dongpo/hero.jpg",
+    "imageFull": "assets/dishes/sources/cn-019-woks-dongpo/hero.jpg",
+    "source": "https://thewoksoflife.com/braised-pork-belly-dong-po-rou/",
+    "media": {
+      "sourceName": "The Woks of Life",
+      "recipePageUrl": "https://thewoksoflife.com/braised-pork-belly-dong-po-rou/",
+      "mediaPageUrl": "https://thewoksoflife.com/braised-pork-belly-dong-po-rou/",
+      "author": "Judy",
+      "rightsNotice": "All Rights Reserved © The Woks of Life",
+      "reuseLicense": null,
+      "repositoryCopyAuthorization": "user_confirmed_2026-10-08_remaining44"
+    },
+    "time": 230,
+    "timeBasis": "source",
     "difficulty": "进阶",
-    "defaultServings": 4,
-    "servingsBasis": "estimated",
+    "defaultServings": 8,
+    "servingsBasis": "source",
     "allergens": [
       "soy"
     ],
@@ -3490,51 +3570,147 @@ window.YANHUO_RECIPES = [
     "ingredients": [
       {
         "id": "ingredient-01",
-        "name": "嫩鸡",
-        "label": "嫩鸡1只约1000克",
+        "name": "整鸡",
+        "label": "整鸡1只，约1361—1814克（原文3—4磅，室温，优先选有机散养鸡，可带头和脚）",
         "isCore": true
       },
       {
         "id": "ingredient-02",
-        "name": "姜",
-        "label": "姜40克",
+        "name": "葱",
+        "label": "葱2根（煮鸡用）",
         "isCore": false
       },
       {
         "id": "ingredient-03",
-        "name": "葱",
-        "label": "葱40克",
+        "name": "姜",
+        "label": "姜5片（煮鸡用）",
         "isCore": false
       },
       {
         "id": "ingredient-04",
-        "name": "盐",
-        "label": "盐10克",
+        "name": "葱末",
+        "label": "葱末3汤匙（蘸料用，仅取葱白和浅绿色部分）",
         "isCore": false
       },
       {
         "id": "ingredient-05",
-        "name": "料酒",
-        "label": "料酒20毫升",
+        "name": "姜末",
+        "label": "姜末2汤匙（蘸料用）",
         "isCore": false
       },
       {
         "id": "ingredient-06",
-        "name": "芝麻油",
-        "label": "芝麻油10毫升",
+        "name": "食用油",
+        "label": "食用油3汤匙（蘸料用），另备少许（可选刷鸡皮用，也可用煮鸡汤表面的鸡油）",
         "isCore": false
       },
       {
         "id": "ingredient-07",
-        "name": "蘸料",
-        "label": "蘸料适量",
+        "name": "盐",
+        "label": "盐适量（蘸料用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-08",
+        "name": "酱油",
+        "label": "酱油适量（可选蘸料用，原文未给用量）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-09",
+        "name": "清水",
+        "label": "清水适量（洗鸡与煮鸡用，煮鸡时以刚好没过整鸡为准，约1814克的鸡在深汤锅中约用18杯）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-10",
+        "name": "冰水",
+        "label": "冰水1大碗（用于完全冷却整鸡，原文未给具体容量）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-11",
+        "name": "熟米饭",
+        "label": "熟米饭适量（配食用，原文未给用量）",
         "isCore": true
       }
     ],
     "steps": [
       {
         "id": "step-01",
-        "instruction": "大锅水加姜葱烧至微沸，提鸡三浸三提。",
+        "instruction": "确认整鸡已回到室温；不要直接将刚从冰箱取出的冷鸡下锅，以免受热不均或未熟。用冷水冲洗整鸡，尤其注意鸡腹内侧。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-020-woks/step-1-1.jpg",
+        "imageSource": "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/"
+      },
+      {
+        "id": "step-02",
+        "instruction": "检查并去掉残余内脏，拔净零散羽毛；处理和冲洗时小心，避免水花飞溅而污染周围表面。保留完整鸡皮，不要破坏或剪去鸡皮，以免鸡肉直接接触沸水。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-020-woks/step-1-2.jpg",
+        "imageSource": "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/"
+      },
+      {
+        "id": "step-03",
+        "instruction": "先不开火，将整鸡放入大汤锅，加清水至刚好完全没过鸡身，再取出整鸡，留下量好的水。量水时鸡还在锅中，不要开火。原文在深汤锅中为约1814克的鸡用了约18杯水，以实际刚好浸没为准，避免多加水使汤味变淡。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-020-woks/step-2-3.jpg",
+        "imageSource": "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/"
+      },
+      {
+        "id": "step-04",
+        "instruction": "在量好的水中加入2根葱和5片姜，加热至沸腾。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-020-woks/step-3-4.jpg",
+        "imageSource": "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/"
+      },
+      {
+        "id": "step-05",
+        "instruction": "水沸后，将整鸡缓缓放入锅中，鸡腿朝下、鸡头一端朝上；鸡胸略微露出水面也可以。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-020-woks/step-3-5.jpg",
+        "imageSource": "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/"
+      },
+      {
+        "id": "step-06",
+        "instruction": "整鸡下锅后，水温会下降而停止沸腾，继续加热至再次沸腾，其间留在锅边看管。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-020-woks/step-3-6.jpg",
+        "imageSource": "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/"
+      },
+      {
+        "id": "step-07",
+        "instruction": "水一再次沸腾，立即小心提起整鸡；可将两把木勺钩在鸡翅下方提起，让鸡腹内滞留的较冷水排出。排净后将鸡重新放回锅中，再次加热至将沸。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
@@ -3543,41 +3719,116 @@ window.YANHUO_RECIPES = [
         "safetyNote": ""
       },
       {
-        "id": "step-02",
-        "instruction": "鸡完全浸入，保持微沸约25分钟，关火焖15分钟。",
+        "id": "step-08",
+        "instruction": "水刚开始沸腾时立即调低火力，保持极轻微的微沸：水面仅有少许动静，不能完全静止，也不要剧烈翻滚。盖上锅盖，以接近最低的火力煮约35—40分钟；原文估计每磅约需10—11分钟，实际时间依鸡的大小增减。可检查水是否缓缓冒泡，但尽量不要在煮鸡时揭盖。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "wait",
-        "safetyNote": ""
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-020-woks/step-5-7.jpg",
+        "imageSource": "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/"
       },
       {
-        "id": "step-03",
-        "instruction": "立即冰镇，擦干抹芝麻油，斩件配姜葱蘸料。",
+        "id": "step-09",
+        "instruction": "用筷子或竹签刺入鸡腿检查；按原文，以流出的汁水清澈作为熟度判断。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-020-woks/step-6-8.jpg",
+        "imageSource": "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/"
+      },
+      {
+        "id": "step-10",
+        "instruction": "确认煮熟后小心将整鸡提起；原文建议将结实的肉叉或木勺伸入鸡腹帮助提起。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-020-woks/step-6-9.jpg",
+        "imageSource": "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/"
+      },
+      {
+        "id": "step-11",
+        "instruction": "将整鸡移入一大碗冰水中，等到完全冷却，使鸡皮迅速冷却并形成较脆的口感。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-020-woks/step-6-10.jpg",
+        "imageSource": "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/"
+      },
+      {
+        "id": "step-12",
+        "instruction": "鸡冷却时做蘸料：将3汤匙葱末、2汤匙姜末、3汤匙食用油和适量盐混合，先做不加酱油的版本。喜欢酱油口味时，可分出一部分蘸料到另一个碗中，加入适量酱油，作为另一款可选蘸料。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
         "safetyNote": ""
+      },
+      {
+        "id": "step-13",
+        "instruction": "整鸡完全冷却后，从冰水中取出；可在鸡皮上薄薄刷少许食用油，或取煮鸡汤表面的少许鸡油刷上，使鸡皮有光泽。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-020-woks/step-8-11.jpg",
+        "imageSource": "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/"
+      },
+      {
+        "id": "step-14",
+        "instruction": "将鸡切成便于用筷子夹取的块，配姜葱蘸料和熟米饭食用。保留煮鸡汤，可冷冻留作以后使用，也可代替清水煮饭。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-020-woks/step-9-12.jpg",
+        "imageSource": "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/"
       }
     ],
-    "imageThumb": "assets/dishes/thumbnails/30-baiqie-ji.jpg",
-    "imageFull": "assets/dishes/ai/30-baiqie-ji.png",
-    "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
-    "time": 40,
-    "timeBasis": "estimated",
-    "difficulty": "适中",
-    "defaultServings": 2,
-    "servingsBasis": "estimated",
+    "sourceLimitations": [
+      "原文以鸡腿流出清澈汁水判断熟度，未提供鸡肉内部温度；35—40分钟是范围，需按鸡的大小判断，不生成固定倒计时。",
+      "原文未量化酱油、刷皮用油、冰水及配食米饭的用量，杯和汤匙也未定义容量；保留适量及原单位，不推算毫升。"
+    ],
+    "imageThumb": "assets/dishes/sources/cn-020-woks/hero.jpg",
+    "imageFull": "assets/dishes/sources/cn-020-woks/hero.jpg",
+    "source": "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/",
+    "media": {
+      "sourceName": "The Woks of Life",
+      "recipePageUrl": "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/",
+      "mediaPageUrl": "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/",
+      "author": "Bill",
+      "rightsNotice": "All Rights Reserved © The Woks of Life",
+      "reuseLicense": null,
+      "repositoryCopyAuthorization": "user_confirmed_2026-10-08_remaining44"
+    },
+    "time": 70,
+    "timeBasis": "source",
+    "difficulty": "进阶",
+    "defaultServings": 6,
+    "servingsBasis": "source",
     "allergens": [
-      "sesame"
+      "soy"
     ],
     "flags": {
       "containsPork": false,
       "containsBeef": false,
-      "containsAlcohol": true,
+      "containsAlcohol": false,
       "spicy": false,
       "vegetarian": false
     },
@@ -5247,57 +5498,93 @@ window.YANHUO_RECIPES = [
     "ingredients": [
       {
         "id": "ingredient-01",
-        "name": "北豆腐",
-        "label": "北豆腐450克",
-        "isCore": true
+        "name": "食用油",
+        "label": "食用油2汤匙（分两次使用）",
+        "isCore": false
       },
       {
         "id": "ingredient-02",
-        "name": "猪肉片",
-        "label": "猪肉片100克",
+        "name": "硬豆腐",
+        "label": "硬豆腐约454克（原文1磅，擦干后纵向切成两半，再切约0.6厘米厚片）",
         "isCore": true
       },
       {
         "id": "ingredient-03",
-        "name": "木耳",
-        "label": "木耳50克",
-        "isCore": true
-      },
-      {
-        "id": "ingredient-04",
-        "name": "青红椒各",
-        "label": "青红椒各60克",
+        "name": "大蒜",
+        "label": "大蒜2瓣，拍碎切末",
         "isCore": false
       },
       {
+        "id": "ingredient-04",
+        "name": "红辣椒",
+        "label": "红辣椒1个，去籽切薄片",
+        "isCore": true
+      },
+      {
         "id": "ingredient-05",
-        "name": "豆瓣酱",
-        "label": "豆瓣酱15克",
+        "name": "葱",
+        "label": "葱3根，切约2.5厘米段，葱白与葱绿分开",
         "isCore": false
       },
       {
         "id": "ingredient-06",
-        "name": "生抽",
-        "label": "生抽15毫升",
-        "isCore": false
+        "name": "猪肉末",
+        "label": "猪肉末约113克（原文4盎司，或用等量鸡肉末）",
+        "isCore": true
       },
       {
         "id": "ingredient-07",
-        "name": "蒜末",
-        "label": "蒜末10克",
+        "name": "生抽",
+        "label": "生抽2汤匙",
         "isCore": false
       },
       {
         "id": "ingredient-08",
-        "name": "淀粉",
-        "label": "淀粉5克",
+        "name": "蚝油",
+        "label": "蚝油2茶匙（或素蚝油）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-09",
+        "name": "绍兴酒",
+        "label": "绍兴酒1茶匙",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-10",
+        "name": "白糖",
+        "label": "白糖1/4茶匙",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-11",
+        "name": "清水",
+        "label": "清水1/4杯",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-12",
+        "name": "盐",
+        "label": "盐适量",
         "isCore": false
       }
     ],
     "steps": [
       {
         "id": "step-01",
-        "instruction": "豆腐切片煎至两面金黄。",
+        "instruction": "用厨房纸或干净的厨房布将硬豆腐擦干，纵向切成两半，再切约0.6厘米厚片。大蒜拍碎切末，红辣椒去籽切薄片，葱切约2.5厘米段，将葱白与葱绿分开放好。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-031-woks/step-1-1.jpg",
+        "imageSource": "https://thewoksoflife.com/home-style-tofu-stir-fry/"
+      },
+      {
+        "id": "step-02",
+        "instruction": "平底铸铁锅置中高火，预热至轻微冒烟；若用不粘锅，只需加热至锅热，不要将不粘锅烧至冒烟。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
@@ -5306,42 +5593,107 @@ window.YANHUO_RECIPES = [
         "safetyNote": ""
       },
       {
-        "id": "step-02",
-        "instruction": "炒熟肉片，加入豆瓣和蒜末，再下木耳青红椒。",
+        "id": "step-03",
+        "instruction": "加入1汤匙食用油，倾斜锅身，让油均匀覆盖锅底。放入豆腐片，调至中火煎第一面约3—5分钟，至金黄色。",
         "duration": null,
-        "heat": null,
+        "heat": "medium",
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "add",
-        "safetyNote": ""
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-031-woks/step-1-2.jpg",
+        "imageSource": "https://thewoksoflife.com/home-style-tofu-stir-fry/"
       },
       {
-        "id": "step-03",
-        "instruction": "倒入豆腐和少量水焖3分钟，以淀粉水薄芡。",
+        "id": "step-04",
+        "instruction": "将豆腐翻面，另一面也煎约3—5分钟至金黄色；两面煎好后关火，将豆腐放在一旁备用。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-031-woks/step-1-3.jpg",
+        "imageSource": "https://thewoksoflife.com/home-style-tofu-stir-fry/"
+      },
+      {
+        "id": "step-05",
+        "instruction": "炒锅中加入剩余1汤匙食用油，以中火加热；放入蒜末、红辣椒片和葱白，炒约1分钟。",
+        "duration": 60,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-031-woks/step-2-4.jpg",
+        "imageSource": "https://thewoksoflife.com/home-style-tofu-stir-fry/"
+      },
+      {
+        "id": "step-06",
+        "instruction": "加入约113克猪肉末或鸡肉末，翻炒约1分钟，至肉末熟透。",
+        "duration": 60,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-031-woks/step-2-5.jpg",
+        "imageSource": "https://thewoksoflife.com/home-style-tofu-stir-fry/"
+      },
+      {
+        "id": "step-07",
+        "instruction": "加入2汤匙生抽、2茶匙蚝油或素蚝油、1茶匙绍兴酒、1/4茶匙白糖和1/4杯清水，搅匀并煮至沸腾。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "add",
-        "safetyNote": ""
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-031-woks/step-3-6.jpg",
+        "imageSource": "https://thewoksoflife.com/home-style-tofu-stir-fry/"
+      },
+      {
+        "id": "step-08",
+        "instruction": "最后加入煎好的豆腐和葱绿，提高火力，快速将全部食材翻炒均匀；按口味加适量盐，出锅食用。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-031-woks/step-3-7.jpg",
+        "imageSource": "https://thewoksoflife.com/home-style-tofu-stir-fry/"
       }
     ],
-    "imageThumb": "assets/dishes/thumbnails/41-jiachang-doufu.jpg",
-    "imageFull": "assets/dishes/ai/41-jiachang-doufu.png",
-    "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
-    "time": 15,
-    "timeBasis": "estimated",
-    "difficulty": "简单",
-    "defaultServings": 2,
-    "servingsBasis": "estimated",
+    "sourceLimitations": [
+      "原文未规定杯、汤匙和茶匙的容量，保留原单位，不换算毫升；煎豆腐每面3—5分钟为范围，不生成固定倒计时。"
+    ],
+    "imageThumb": "assets/dishes/sources/cn-031-woks/hero.jpg",
+    "imageFull": "assets/dishes/sources/cn-031-woks/hero.jpg",
+    "source": "https://thewoksoflife.com/home-style-tofu-stir-fry/",
+    "media": {
+      "sourceName": "The Woks of Life",
+      "recipePageUrl": "https://thewoksoflife.com/home-style-tofu-stir-fry/",
+      "mediaPageUrl": "https://thewoksoflife.com/home-style-tofu-stir-fry/",
+      "author": "Judy",
+      "rightsNotice": "All Rights Reserved © The Woks of Life",
+      "reuseLicense": null,
+      "repositoryCopyAuthorization": "user_confirmed_2026-10-08_remaining44"
+    },
+    "time": 30,
+    "timeBasis": "source",
+    "difficulty": "适中",
+    "defaultServings": 4,
+    "servingsBasis": "source",
     "allergens": [
+      "shellfish",
       "soy"
     ],
     "flags": {
       "containsPork": true,
       "containsBeef": false,
-      "containsAlcohol": false,
-      "spicy": false,
+      "containsAlcohol": true,
+      "spicy": true,
       "vegetarian": false
     },
     "demoEnriched": true
@@ -5655,92 +6007,203 @@ window.YANHUO_RECIPES = [
     "ingredients": [
       {
         "id": "ingredient-01",
-        "name": "排骨",
-        "label": "排骨500克",
+        "name": "猪排骨或肋排软骨段",
+        "label": "猪排骨或肋排软骨段约907克（原文2磅，切约2.5—5厘米段，选带肉的）",
         "isCore": true
       },
       {
         "id": "ingredient-02",
-        "name": "冬瓜",
-        "label": "冬瓜500克",
-        "isCore": true
+        "name": "姜",
+        "label": "姜5片，约0.3厘米厚，拍松",
+        "isCore": false
       },
       {
         "id": "ingredient-03",
-        "name": "姜",
-        "label": "姜20克",
+        "name": "清水",
+        "label": "清水9杯（煲汤用），另备适量（浸泡、焯水及冲洗排骨和冬瓜用）",
         "isCore": false
       },
       {
         "id": "ingredient-04",
-        "name": "葱",
-        "label": "葱1根",
-        "isCore": false
+        "name": "冬瓜",
+        "label": "冬瓜约680克（原文1又1/2磅）",
+        "isCore": true
       },
       {
         "id": "ingredient-05",
-        "name": "料酒",
-        "label": "料酒15毫升",
+        "name": "海盐",
+        "label": "海盐1又1/4茶匙，另备适量按口味调整",
         "isCore": false
       },
       {
         "id": "ingredient-06",
-        "name": "盐",
-        "label": "盐适量",
+        "name": "白胡椒粉",
+        "label": "白胡椒粉适量",
         "isCore": false
       },
       {
         "id": "ingredient-07",
-        "name": "白胡椒",
-        "label": "白胡椒少许",
+        "name": "香菜和/或葱",
+        "label": "香菜和/或葱共1把，切碎",
         "isCore": false
+      },
+      {
+        "id": "ingredient-08",
+        "name": "生抽",
+        "label": "生抽适量（配排骨蘸食，原文未给用量）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-09",
+        "name": "热米饭",
+        "label": "热米饭适量（配食，原文未给用量）",
+        "isCore": true
       }
     ],
     "steps": [
       {
         "id": "step-01",
-        "instruction": "排骨冷水焯去血沫。",
+        "instruction": "将切成约2.5—5厘米段的排骨放入一碗冷水中浸泡1小时，去除血水和杂质，然后沥干。时间紧时可以省略浸泡，但下一步焯水仍需进行。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-02",
+        "instruction": "排骨放入大汤锅，加清水至没过排骨。烧开后微沸煮1分钟，关火，沥去焯水，用流动水冲洗排骨，并将汤锅洗净。这一步有助于保持汤清、味道干净。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-035-woks/step-2-1.jpg",
+        "imageSource": "https://thewoksoflife.com/winter-melon-soup-pork-ribs/"
+      },
+      {
+        "id": "step-03",
+        "instruction": "将焯洗好的排骨、5片拍松的姜和9杯清水重新放入汤锅，烧开后立即转中小火。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-035-woks/step-3-2.jpg",
+        "imageSource": "https://thewoksoflife.com/winter-melon-soup-pork-ribs/"
+      },
+      {
+        "id": "step-04",
+        "instruction": "盖上锅盖，保持轻微微沸煲90分钟。期间不时检查，确保汤只是轻轻冒泡，不要大滚，以保持清淡的味道和清澈的汤色。",
+        "duration": 5400,
+        "heat": null,
+        "timerRequired": true,
         "ingredientsUsed": [],
         "gameAction": "confirm",
         "safetyNote": ""
       },
       {
-        "id": "step-02",
-        "instruction": "排骨加姜、葱和足量清水，小火炖50分钟。",
-        "duration": 3000,
-        "heat": "low",
+        "id": "step-05",
+        "instruction": "煲排骨时准备冬瓜：削去厚皮，冲洗干净。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-035-woks/step-4-3.jpg",
+        "imageSource": "https://thewoksoflife.com/winter-melon-soup-pork-ribs/"
+      },
+      {
+        "id": "step-06",
+        "instruction": "将冬瓜切成约0.6厘米厚、适合入口的小片。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-035-woks/step-4-4.jpg",
+        "imageSource": "https://thewoksoflife.com/winter-melon-soup-pork-ribs/"
+      },
+      {
+        "id": "step-07",
+        "instruction": "排骨煲足90分钟后，用汤勺撇去汤面多余浮油，加入切好的冬瓜和1又1/4茶匙海盐。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-035-woks/step-5-5.jpg",
+        "imageSource": "https://thewoksoflife.com/winter-melon-soup-pork-ribs/"
+      },
+      {
+        "id": "step-08",
+        "instruction": "盖上锅盖，再保持微沸煲15分钟，至冬瓜刚熟；不要煮过头，冬瓜应仍有些口感。",
+        "duration": 900,
+        "heat": null,
         "timerRequired": true,
         "ingredientsUsed": [],
         "gameAction": "wait",
-        "safetyNote": ""
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-035-woks/step-5-6.jpg",
+        "imageSource": "https://thewoksoflife.com/winter-melon-soup-pork-ribs/"
       },
       {
-        "id": "step-03",
-        "instruction": "冬瓜切厚块入锅再煮20分钟，以盐和白胡椒调味。",
-        "duration": 1200,
+        "id": "step-09",
+        "instruction": "加入适量白胡椒粉，并按口味补充海盐；最后加入切碎的葱和/或香菜。",
+        "duration": null,
         "heat": null,
-        "timerRequired": true,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-035-woks/step-6-7.jpg",
+        "imageSource": "https://thewoksoflife.com/winter-melon-soup-pork-ribs/"
+      },
+      {
+        "id": "step-10",
+        "instruction": "排骨应已炖得软嫩，盛出汤，配热米饭食用；另配一小碟生抽，供排骨蘸食。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "wait",
         "safetyNote": ""
       }
     ],
-    "imageThumb": "assets/dishes/thumbnails/45-donggua-paigu-tang.jpg",
-    "imageFull": "assets/dishes/ai/45-donggua-paigu-tang.png",
-    "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
-    "time": 70,
-    "timeBasis": "estimated",
+    "sourceLimitations": [
+      "原文未规定杯和茶匙的容量，也未量化浸泡、焯水和冲洗用水、生抽及配食米饭；保留原单位和适量，不推算毫升。",
+      "原文总时间205分钟、准备70分钟、烹饪135分钟单独保留，不以局部微沸步骤的时间相加替代总时间。"
+    ],
+    "imageThumb": "assets/dishes/sources/cn-035-woks/hero.jpg",
+    "imageFull": "assets/dishes/sources/cn-035-woks/hero.jpg",
+    "source": "https://thewoksoflife.com/winter-melon-soup-pork-ribs/",
+    "media": {
+      "sourceName": "The Woks of Life",
+      "recipePageUrl": "https://thewoksoflife.com/winter-melon-soup-pork-ribs/",
+      "mediaPageUrl": "https://thewoksoflife.com/winter-melon-soup-pork-ribs/",
+      "author": "Judy",
+      "rightsNotice": "All Rights Reserved © The Woks of Life",
+      "reuseLicense": null,
+      "repositoryCopyAuthorization": "user_confirmed_2026-10-08_remaining44"
+    },
+    "time": 205,
+    "timeBasis": "source",
     "difficulty": "进阶",
-    "defaultServings": 2,
-    "servingsBasis": "estimated",
-    "allergens": [],
+    "defaultServings": 8,
+    "servingsBasis": "source",
+    "allergens": [
+      "soy"
+    ],
     "flags": {
       "containsPork": true,
       "containsBeef": false,
-      "containsAlcohol": true,
+      "containsAlcohol": false,
       "spicy": false,
       "vegetarian": false
     },
@@ -6101,6 +6564,7 @@ window.YANHUO_RECIPES = [
     "defaultServings": 2,
     "servingsBasis": "estimated",
     "allergens": [
+      "shellfish",
       "soy",
       "sesame"
     ],
@@ -6124,88 +6588,530 @@ window.YANHUO_RECIPES = [
     "ingredients": [
       {
         "id": "ingredient-01",
-        "name": "嫩鸡半只",
-        "label": "嫩鸡半只约700克",
+        "name": "整鸡",
+        "label": "整鸡1只，约1500克（原文3—3又1/2磅/1.5千克，优先选带头脚的整鸡或有机鸡）",
         "isCore": true
       },
       {
         "id": "ingredient-02",
-        "name": "大米",
-        "label": "大米300克",
-        "isCore": true
+        "name": "盐",
+        "label": "盐1汤匙（擦鸡用）",
+        "isCore": false
       },
       {
         "id": "ingredient-03",
-        "name": "鸡汤",
-        "label": "鸡汤适量",
+        "name": "清水",
+        "label": "清水12—14杯（煮鸡用），另备适量用于清洗、淘米与冰浴",
         "isCore": false
       },
       {
         "id": "ingredient-04",
-        "name": "姜蒜各",
-        "label": "姜蒜各20克",
+        "name": "姜",
+        "label": "姜4—5片（煮鸡用）",
         "isCore": false
       },
       {
         "id": "ingredient-05",
-        "name": "斑斓叶可选",
-        "label": "斑斓叶可选",
-        "isCore": true
-      },
-      {
-        "id": "ingredient-06",
-        "name": "黄瓜",
-        "label": "黄瓜100克",
+        "name": "整根葱",
+        "label": "整根葱2根（煮鸡用）",
         "isCore": false
       },
       {
+        "id": "ingredient-06",
+        "name": "冰块",
+        "label": "冰块适量（冰浴用）",
+        "isCore": true
+      },
+      {
         "id": "ingredient-07",
-        "name": "辣椒姜蓉蘸料",
-        "label": "辣椒姜蓉蘸料适量",
+        "name": "鸡脂肪",
+        "label": "鸡脂肪约56.7克（原文2盎司，从鸡腹内取出，炒饭用）",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-08",
+        "name": "食用油",
+        "label": "食用油1茶匙（炒饭用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-09",
+        "name": "大蒜",
+        "label": "大蒜4瓣，切末（炒饭用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-10",
+        "name": "生白米",
+        "label": "生白米3美制杯，优先选茉莉香米，洗净沥干",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-11",
+        "name": "煮鸡原汤",
+        "label": "煮鸡原汤适量（电饭锅路线加到内胆4杯刻度，普通锅路线用4杯）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-12",
+        "name": "盐",
+        "label": "盐2茶匙（鸡油饭用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-13",
+        "name": "姜",
+        "label": "姜约10.2厘米长一块，粗切（姜蒜酱用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-14",
+        "name": "大蒜",
+        "label": "大蒜2瓣（姜蒜酱用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-15",
+        "name": "食用油",
+        "label": "食用油3汤匙（姜蒜酱用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-16",
+        "name": "盐",
+        "label": "盐1撮（姜蒜酱用，按口味调整）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-17",
+        "name": "煮鸡原汤",
+        "label": "煮鸡原汤少许（姜蒜酱太稠时调整用，可选）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-18",
+        "name": "清水",
+        "label": "清水1/4杯（甜酱油用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-19",
+        "name": "冰糖",
+        "label": "冰糖约35.4克（原文1.25盎司，约2大块，或用白砂糖2又1/2汤匙，甜酱油用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-20",
+        "name": "老抽",
+        "label": "老抽1/4杯（甜酱油用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-21",
+        "name": "新鲜红辣椒",
+        "label": "新鲜红辣椒3个（选中等辣度，辣椒酱用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-22",
+        "name": "姜",
+        "label": "姜约3.8厘米长一块（辣椒酱用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-23",
+        "name": "大蒜",
+        "label": "大蒜2瓣（辣椒酱用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-24",
+        "name": "芝麻油",
+        "label": "芝麻油1/4茶匙（辣椒酱用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-25",
+        "name": "盐",
+        "label": "盐1/2茶匙（辣椒酱用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-26",
+        "name": "白糖",
+        "label": "白糖1/4茶匙（辣椒酱用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-27",
+        "name": "新鲜青柠汁",
+        "label": "新鲜青柠汁15毫升（原文明示1汤匙/15毫升，约半个青柠的汁，辣椒酱用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-28",
+        "name": "米醋",
+        "label": "米醋1/2茶匙（或白醋，辣椒酱用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-29",
+        "name": "煮鸡原汤",
+        "label": "煮鸡原汤约2汤匙（辣椒酱用，按所需稠度调整）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-30",
+        "name": "盐",
+        "label": "盐适量（配餐鸡汤调味，可选）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-31",
+        "name": "味精",
+        "label": "味精1撮（配餐鸡汤调味，可选）",
         "isCore": false
       }
     ],
     "steps": [
       {
         "id": "step-01",
-        "instruction": "鸡以姜葱微沸浸煮至熟，冰镇斩件，鸡汤留用。",
-        "duration": null,
-        "heat": null,
-        "timerRequired": false,
-        "ingredientsUsed": [],
-        "gameAction": "wait",
-        "safetyNote": ""
-      },
-      {
-        "id": "step-02",
-        "instruction": "鸡油炒香米和姜蒜，用鸡汤煮成饭。",
-        "duration": null,
-        "heat": null,
-        "timerRequired": false,
-        "ingredientsUsed": [],
-        "gameAction": "wait",
-        "safetyNote": ""
-      },
-      {
-        "id": "step-03",
-        "instruction": "鸡肉配鸡油饭、黄瓜及辣椒姜蓉蘸料。",
+        "instruction": "将整鸡洗净，取出并留好鸡腹后部的脂肪。将鸡移到盘中，用厨房纸擦干，以1汤匙盐轻轻擦遍鸡身，放在一旁备用。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-039-woks/step-1-1.jpg",
+        "imageSource": "https://thewoksoflife.com/hainanese-chicken-rice/"
+      },
+      {
+        "id": "step-02",
+        "instruction": "大汤锅中加入12—14杯清水、4—5片姜和2根整葱，烧至沸腾。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-039-woks/step-2-2.jpg",
+        "imageSource": "https://thewoksoflife.com/hainanese-chicken-rice/"
+      },
+      {
+        "id": "step-03",
+        "instruction": "小心将整鸡放入沸水中，鸡胸朝上；调整水位，使鸡胸刚刚露出水面，避免白肉煮得干柴。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-039-woks/step-2-3.jpg",
+        "imageSource": "https://thewoksoflife.com/hainanese-chicken-rice/"
+      },
+      {
+        "id": "step-04",
+        "instruction": "水再次烧开时，小心提起整鸡，倒出鸡腹内滞留的较冷水，再将鸡放回锅中。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-039-woks/step-3-4.jpg",
+        "imageSource": "https://thewoksoflife.com/hainanese-chicken-rice/"
+      },
+      {
+        "id": "step-05",
+        "instruction": "再次加热至水刚开始沸腾，立即调低火力，盖上锅盖，以接近最低的火力保持极轻微的微沸：水应稍有动静，不能完全静止，也不要大滚。煮约30—35分钟，原文估计每磅约10—11分钟，实际依鸡的大小增减；超过3又1/2磅的鸡可能需约40—50分钟。期间可检查微沸状态，但尽量避免揭盖。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
         "safetyNote": ""
+      },
+      {
+        "id": "step-06",
+        "instruction": "鸡将煮好时准备一大盆冰水。将牙签插入鸡腿最厚处直至触骨，按原文以流出清澈汁水判断熟度。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-039-woks/step-5-5.jpg",
+        "imageSource": "https://thewoksoflife.com/hainanese-chicken-rice/"
+      },
+      {
+        "id": "step-07",
+        "instruction": "确认鸡煮熟后，小心提起，沥去鸡腹内的水，放入冰水中，不要弄破鸡皮。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-039-woks/step-5-6.jpg",
+        "imageSource": "https://thewoksoflife.com/hainanese-chicken-rice/"
+      },
+      {
+        "id": "step-08",
+        "instruction": "冰浴15分钟，至整鸡完全冷却后充分沥干，盖上透明保鲜膜，留待切块上桌。",
+        "duration": 900,
+        "heat": null,
+        "timerRequired": true,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-039-woks/step-5-7.jpg",
+        "imageSource": "https://thewoksoflife.com/hainanese-chicken-rice/"
+      },
+      {
+        "id": "step-09",
+        "instruction": "喜欢更浓的鸡汤时，可让锅中煮鸡原汤不加盖继续微沸收浓，留作煮饭。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-10",
+        "instruction": "鸡冷却时做鸡油饭：炒锅或大平底锅置中火，加入留好的约56.7克鸡脂肪和1茶匙食用油，煸1—2分钟，或至析出约1汤匙鸡油。",
+        "duration": null,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-039-woks/step-7-8.jpg",
+        "imageSource": "https://thewoksoflife.com/hainanese-chicken-rice/"
+      },
+      {
+        "id": "step-11",
+        "instruction": "加入4瓣切末的大蒜，短暂炒香，注意不要炒焦。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-039-woks/step-7-9.jpg",
+        "imageSource": "https://thewoksoflife.com/hainanese-chicken-rice/"
+      },
+      {
+        "id": "step-12",
+        "instruction": "加入洗净沥干的3美制杯生白米，持续翻炒约2分钟。",
+        "duration": 120,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-039-woks/step-7-10.jpg",
+        "imageSource": "https://thewoksoflife.com/hainanese-chicken-rice/"
+      },
+      {
+        "id": "step-13",
+        "instruction": "关火。接下来电饭锅路线（第十四至十五步）与普通锅路线（第十六至十七步）二选一，不要先用电饭锅煮完再放到普通锅中煮。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-14",
+        "instruction": "电饭锅路线：将炒好的米盛入电饭锅，剩余的鸡脂肪块可留在炒锅中，也可一起加入米中。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-039-woks/step-8-12.jpg",
+        "imageSource": "https://thewoksoflife.com/hainanese-chicken-rice/"
+      },
+      {
+        "id": "step-15",
+        "instruction": "电饭锅路线：加入煮鸡原汤至内胆的4杯刻度，拌入2茶匙盐，盖上锅盖并启动煮饭。原文3美制杯生米等于4电饭锅量杯，1电饭锅量杯等于3/4美制杯；米饭煮好后直接制作或完成三款酱汁。喜欢多做饭时，原文可用4美制杯生米，蒜量不变，并将鸡汤加到内胆5杯刻度。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-039-woks/step-8-13.jpg",
+        "imageSource": "https://thewoksoflife.com/hainanese-chicken-rice/"
+      },
+      {
+        "id": "step-16",
+        "instruction": "普通锅路线：将炒好的米转入中号或大号锅，加入4杯煮鸡原汤和2茶匙盐，快速拌匀，浸泡20分钟。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-17",
+        "instruction": "普通锅路线：盖上锅盖，烧开后立即转最低火力，加盖煮15分钟，至液体被米吸收、米粒软熟；留意火候以免煮焦。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-18",
+        "instruction": "煮饭或煮鸡期间可准备三款酱汁。先做姜蒜酱：用料理机将约10.2厘米长、粗切的姜和2瓣大蒜打成细末。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-039-woks/step-10-15.jpg",
+        "imageSource": "https://thewoksoflife.com/hainanese-chicken-rice/"
+      },
+      {
+        "id": "step-19",
+        "instruction": "小锅中加热3汤匙食用油，放入姜蒜末，轻轻煎炒至出香、略微焦糖化，刚好熟透、没有生姜和生蒜的辛辣生味即可。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-039-woks/step-10-17.jpg",
+        "imageSource": "https://thewoksoflife.com/hainanese-chicken-rice/"
+      },
+      {
+        "id": "step-20",
+        "instruction": "加入1撮盐并按口味调整，盛入酱碟。若姜蒜酱炒得太久、稠得像膏，立即离火，加入少许热的煮鸡原汤搅拌，调回酱汁稠度。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-21",
+        "instruction": "做甜酱油：小锅中加入1/4杯清水和约35.4克冰糖（或2又1/2汤匙白砂糖），以中火加热，不断搅拌，至糖溶化、液体变稠成为糖浆。",
+        "duration": null,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-039-woks/step-11-18.jpg",
+        "imageSource": "https://thewoksoflife.com/hainanese-chicken-rice/"
+      },
+      {
+        "id": "step-22",
+        "instruction": "加入1/4杯老抽，搅拌均匀，盛入酱碟。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-039-woks/step-11-19.jpg",
+        "imageSource": "https://thewoksoflife.com/hainanese-chicken-rice/"
+      },
+      {
+        "id": "step-23",
+        "instruction": "做辣椒酱：将3个鲜红辣椒、约3.8厘米长的姜和2瓣大蒜放入料理机打碎，期间将杯壁食材刮下1—2次，使质地均匀；也可用研钵和杵研磨。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-039-woks/step-12-20.jpg",
+        "imageSource": "https://thewoksoflife.com/hainanese-chicken-rice/"
+      },
+      {
+        "id": "step-24",
+        "instruction": "加入1/4茶匙芝麻油、1/2茶匙盐、1/4茶匙白糖、15毫升新鲜青柠汁和1/2茶匙米醋或白醋，点动2—3次拌匀。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-039-woks/step-12-21.jpg",
+        "imageSource": "https://thewoksoflife.com/hainanese-chicken-rice/"
+      },
+      {
+        "id": "step-25",
+        "instruction": "将辣椒酱转入小碗，每次加入1汤匙煮鸡原汤，调至喜欢的酱汁稠度，原文配料约用2汤匙；喜欢较稠的酱时少加汤。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-26",
+        "instruction": "将冷却的整鸡切块。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-039-woks/step-13-24.jpg",
+        "imageSource": "https://thewoksoflife.com/hainanese-chicken-rice/"
+      },
+      {
+        "id": "step-27",
+        "instruction": "鸡肉配鸡油饭和姜蒜酱、甜酱油、辣椒酱上桌。也可配一碗加热的煮鸡原汤，以适量盐调味，并可加1撮味精。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-039-woks/step-13-25.jpg",
+        "imageSource": "https://thewoksoflife.com/hainanese-chicken-rice/"
       }
     ],
-    "imageThumb": "assets/dishes/thumbnails/49-hainan-jifan.jpg",
-    "imageFull": "assets/dishes/ai/49-hainan-jifan.png",
-    "source": "https://thewoksoflife.com/",
-    "time": 35,
-    "timeBasis": "estimated",
-    "difficulty": "适中",
-    "defaultServings": 4,
-    "servingsBasis": "estimated",
-    "allergens": [],
+    "sourceLimitations": [
+      "原文标准备30分钟、烹饪150分钟、总时间155分钟，三项数值存在不一致，此处分别保留，不自行重算。",
+      "炒饭食用油在原料表和正文均为1茶匙，但配方卡步骤写1/2茶匙；此处采用原料表与正文的1茶匙，不另补油。姜蒜酱蒜量在配方卡原料表为2瓣、正文列表为1瓣，此处采用配方卡的2瓣。",
+      "除原文明示青柠汁1汤匙等于15毫升及电饭锅量杯与美制杯的关系外，不为杯、汤匙或茶匙假设容量；冰水、洗米用水及部分鸡汤用量由用途决定，原文未量化。",
+      "原文以鸡腿流出清澈汁水判断熟度，未给内部温度；煮鸡时长为范围，普通锅与电饭锅路线为替代工艺，不相加。"
+    ],
+    "imageThumb": "assets/dishes/sources/cn-039-woks/hero.jpg",
+    "imageFull": "assets/dishes/sources/cn-039-woks/hero.jpg",
+    "source": "https://thewoksoflife.com/hainanese-chicken-rice/",
+    "media": {
+      "sourceName": "The Woks of Life",
+      "recipePageUrl": "https://thewoksoflife.com/hainanese-chicken-rice/",
+      "mediaPageUrl": "https://thewoksoflife.com/hainanese-chicken-rice/",
+      "author": "Judy",
+      "rightsNotice": "All Rights Reserved © The Woks of Life",
+      "reuseLicense": null,
+      "repositoryCopyAuthorization": "user_confirmed_2026-10-08_remaining44"
+    },
+    "time": 155,
+    "timeBasis": "source",
+    "difficulty": "进阶",
+    "defaultServings": 6,
+    "servingsBasis": "source",
+    "allergens": [
+      "soy",
+      "sesame"
+    ],
     "flags": {
       "containsPork": false,
       "containsBeef": false,
@@ -6226,73 +7132,171 @@ window.YANHUO_RECIPES = [
     "ingredients": [
       {
         "id": "ingredient-01",
-        "name": "鲜面条",
-        "label": "鲜面条300克",
-        "isCore": true
+        "name": "花椒粒",
+        "label": "花椒粒2汤匙（辣椒油用）",
+        "isCore": false
       },
       {
         "id": "ingredient-02",
-        "name": "猪肉末",
-        "label": "猪肉末150克",
+        "name": "桂皮",
+        "label": "桂皮1段，约2.5厘米长（辣椒油用）",
         "isCore": true
       },
       {
         "id": "ingredient-03",
-        "name": "芽菜",
-        "label": "芽菜50克",
-        "isCore": true
+        "name": "八角",
+        "label": "八角2个（辣椒油用）",
+        "isCore": false
       },
       {
         "id": "ingredient-04",
-        "name": "芝麻酱",
-        "label": "芝麻酱30克",
+        "name": "食用油",
+        "label": "食用油1杯（辣椒油用）",
         "isCore": false
       },
       {
         "id": "ingredient-05",
-        "name": "辣椒油",
-        "label": "辣椒油30毫升",
-        "isCore": false
+        "name": "红辣椒碎",
+        "label": "红辣椒碎1/4杯（辣椒油用，也可将整根干红辣椒去籽后打碎取用）",
+        "isCore": true
       },
       {
         "id": "ingredient-06",
-        "name": "生抽",
-        "label": "生抽20毫升",
+        "name": "食用油",
+        "label": "食用油3茶匙（炒肉末及芽菜用，分1茶匙与2茶匙使用）",
         "isCore": false
       },
       {
         "id": "ingredient-07",
-        "name": "香醋",
-        "label": "香醋10毫升",
-        "isCore": false
+        "name": "猪肉末",
+        "label": "猪肉末约227克（原文8盎司）",
+        "isCore": true
       },
       {
         "id": "ingredient-08",
-        "name": "花椒粉",
-        "label": "花椒粉2克",
+        "name": "甜面酱",
+        "label": "甜面酱2茶匙（或海鲜酱）",
         "isCore": false
       },
       {
         "id": "ingredient-09",
-        "name": "青菜",
-        "label": "青菜100克",
+        "name": "绍兴酒",
+        "label": "绍兴酒2茶匙",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-10",
+        "name": "老抽",
+        "label": "老抽1茶匙",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-11",
+        "name": "五香粉",
+        "label": "五香粉1/2茶匙（肉末用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-12",
+        "name": "碎米芽菜",
+        "label": "碎米芽菜1/3杯",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-13",
+        "name": "芝麻酱",
+        "label": "芝麻酱2汤匙（原文sesame paste/tahini，碗汁用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-14",
+        "name": "酱油",
+        "label": "酱油3汤匙（碗汁用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-15",
+        "name": "白糖",
+        "label": "白糖2茶匙（碗汁用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-16",
+        "name": "五香粉",
+        "label": "五香粉1/4茶匙（碗汁用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-17",
+        "name": "花椒粉",
+        "label": "花椒粉1/2茶匙（碗汁用，可按口味另加少许）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-18",
+        "name": "自制辣椒油",
+        "label": "自制辣椒油1/2杯（取自本配方制成的辣椒油，碗汁用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-19",
+        "name": "大蒜",
+        "label": "大蒜2瓣，切极细末（碗汁用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-20",
+        "name": "热煮面水",
+        "label": "热煮面水1/4杯（碗汁用），另备少许按需调稀",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-21",
+        "name": "中等粗细白面条",
+        "label": "中等粗细白面条约454克（原文1磅，鲜面或干面均可）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-22",
+        "name": "绿叶菜",
+        "label": "绿叶菜1小把（菠菜、小白菜或菜心）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-23",
+        "name": "花生碎",
+        "label": "花生碎适量（可选，原文未给用量）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-24",
+        "name": "葱花",
+        "label": "葱花适量（可选，原文未给用量）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-25",
+        "name": "清水",
+        "label": "清水适量（煮面与焯青菜用，原文未给用量）",
         "isCore": false
       }
     ],
     "steps": [
       {
         "id": "step-01",
-        "instruction": "肉末炒酥，加芽菜炒香。",
+        "instruction": "先做辣椒油：小锅中加入2汤匙花椒粒、1段约2.5厘米长的桂皮、2个八角和1杯食用油，以中小火缓慢加热至约163℃（原文325℉），然后关火。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
-        "gameAction": "confirm",
-        "safetyNote": ""
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-040-woks/step-2-3.jpg",
+        "imageSource": "https://thewoksoflife.com/dan-dan-noodles/"
       },
       {
         "id": "step-02",
-        "instruction": "碗中调入芝麻酱、辣椒油、生抽、醋、花椒粉和少量面汤。",
+        "instruction": "关火后等待6—7分钟，用漏勺捞出花椒、桂皮和八角。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
@@ -6302,24 +7306,197 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "step-03",
-        "instruction": "面条和青菜煮熟入碗，铺肉臊拌匀。",
+        "instruction": "加入1/4杯红辣椒碎，让辣椒碎在热油中浸出香味，应闻到近似爆米花的香气。喜欢较温和辣味时，原文可将整根干红辣椒去籽后，用料理机打成碎片，按同样用量做辣椒油。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "注意热油飞溅",
+        "image": "assets/dishes/sources/cn-040-woks/step-1-1.jpg",
+        "imageSource": "https://thewoksoflife.com/dan-dan-noodles/"
+      },
+      {
+        "id": "step-04",
+        "instruction": "让辣椒油冷却。本配方会做出多于拌面所需的辣椒油，取其中1/2杯用于碗汁，剩余部分可装玻璃罐冷藏，留作其他菜使用。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-05",
+        "instruction": "做肉末：炒锅置中火，加热1茶匙食用油，加入约227克猪肉末，炒至上色。",
+        "duration": null,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-040-woks/step-3-5.jpg",
+        "imageSource": "https://thewoksoflife.com/dan-dan-noodles/"
+      },
+      {
+        "id": "step-06",
+        "instruction": "加入2茶匙甜面酱或海鲜酱、2茶匙绍兴酒、1茶匙老抽和1/2茶匙五香粉，炒至锅中液体全部蒸发，盛出备用。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-07",
+        "instruction": "炒锅中加入剩余2茶匙食用油，以中火加热，加入1/3杯碎米芽菜，炒几分钟后盛出备用。",
+        "duration": null,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-040-woks/step-3-6.jpg",
+        "imageSource": "https://thewoksoflife.com/dan-dan-noodles/"
+      },
+      {
+        "id": "step-08",
+        "instruction": "做碗汁：将2汤匙芝麻酱、3汤匙酱油、2茶匙白糖、1/4茶匙五香粉、1/2茶匙花椒粉、1/2杯自制辣椒油和2瓣切极细末的大蒜混合；热煮面水待下一阶段取得后再加。花椒粉可用整粒花椒在研钵中磨成。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-09",
+        "instruction": "按面条包装说明，用清水将约454克白面条煮熟并沥干；留好热煮面水，供调碗汁和焯青菜使用。鲜面条或干面条都可使用。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-10",
+        "instruction": "用煮面水将绿叶菜焯熟，捞出沥干。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-11",
+        "instruction": "向第八步的碗汁加入1/4杯热煮面水，混合均匀。尝味后按喜好调整，可再加少许热水调稀，或再加少许花椒粉。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-040-woks/step-4-7.jpg",
+        "imageSource": "https://thewoksoflife.com/dan-dan-noodles/"
+      },
+      {
+        "id": "step-12",
+        "instruction": "将碗汁分到6个碗中；若想每份更大，原文也可分成4碗。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-13",
+        "instruction": "各碗加入煮熟沥干的面条。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-040-woks/step-5-8.jpg",
+        "imageSource": "https://thewoksoflife.com/dan-dan-noodles/"
+      },
+      {
+        "id": "step-14",
+        "instruction": "在面条上放入焯好沥干的绿叶菜。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-040-woks/step-5-9.jpg",
+        "imageSource": "https://thewoksoflife.com/dan-dan-noodles/"
+      },
+      {
+        "id": "step-15",
+        "instruction": "上面铺炒好的猪肉末和碎米芽菜。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-040-woks/step-5-10.jpg",
+        "imageSource": "https://thewoksoflife.com/dan-dan-noodles/"
+      },
+      {
+        "id": "step-16",
+        "instruction": "按喜好撒适量花生碎和葱花。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-040-woks/step-5-12.jpg",
+        "imageSource": "https://thewoksoflife.com/dan-dan-noodles/"
+      },
+      {
+        "id": "step-17",
+        "instruction": "将面条、碗汁、青菜和肉末芽菜拌匀后食用。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "stir",
-        "safetyNote": ""
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-040-woks/step-6-14.jpg",
+        "imageSource": "https://thewoksoflife.com/dan-dan-noodles/"
       }
     ],
-    "imageThumb": "assets/dishes/thumbnails/50-dandan-mian.jpg",
-    "imageFull": "assets/dishes/ai/50-dandan-mian.png",
-    "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
-    "time": 35,
-    "timeBasis": "estimated",
-    "difficulty": "适中",
-    "defaultServings": 2,
-    "servingsBasis": "estimated",
+    "sourceLimitations": [
+      "原文未规定杯、汤匙和茶匙容量，保留原单位，不换算毫升；煮面、焯菜用水和可选花生碎、葱花未量化，保留适量。",
+      "来源标为6份，也允许分为4大碗；此处份数按来源默认6份。制成辣椒油有剩余，碗汁仅取其中1/2杯，不将全部辣椒油倒入面中。",
+      "桂皮原料卡列1段，正文明确约1英寸长，换算约2.5厘米；油温原文325华氏度，换算约163摄氏度。等待6—7分钟为范围，不生成固定倒计时。"
+    ],
+    "imageThumb": "assets/dishes/sources/cn-040-woks/hero.jpg",
+    "imageFull": "assets/dishes/sources/cn-040-woks/hero.jpg",
+    "source": "https://thewoksoflife.com/dan-dan-noodles/",
+    "media": {
+      "sourceName": "The Woks of Life",
+      "recipePageUrl": "https://thewoksoflife.com/dan-dan-noodles/",
+      "mediaPageUrl": "https://thewoksoflife.com/dan-dan-noodles/",
+      "author": "Judy",
+      "rightsNotice": "All Rights Reserved © The Woks of Life",
+      "reuseLicense": null,
+      "repositoryCopyAuthorization": "user_confirmed_2026-10-08_remaining44"
+    },
+    "time": 90,
+    "timeBasis": "source",
+    "difficulty": "进阶",
+    "defaultServings": 6,
+    "servingsBasis": "source",
     "allergens": [
+      "peanut",
       "wheat",
       "soy",
       "sesame"
@@ -6327,7 +7504,7 @@ window.YANHUO_RECIPES = [
     "flags": {
       "containsPork": true,
       "containsBeef": false,
-      "containsAlcohol": false,
+      "containsAlcohol": true,
       "spicy": true,
       "vegetarian": false
     },
@@ -6665,67 +7842,147 @@ window.YANHUO_RECIPES = [
     "ingredients": [
       {
         "id": "ingredient-01",
-        "name": "中筋面粉",
-        "label": "中筋面粉250克",
+        "name": "猪皮",
+        "label": "猪皮225克，切约2.5厘米条（皮冻用，原文明示公制量）",
         "isCore": true
       },
       {
         "id": "ingredient-02",
-        "name": "温水",
-        "label": "温水130毫升",
-        "isCore": false
+        "name": "带肉猪颈骨",
+        "label": "带肉猪颈骨450克（皮冻用，原文明示公制量）",
+        "isCore": true
       },
       {
         "id": "ingredient-03",
-        "name": "猪肉馅",
-        "label": "猪肉馅300克",
-        "isCore": true
+        "name": "清水",
+        "label": "清水950毫升（皮冻用，原文明示4杯/950毫升），另备适量用于焯洗、蒸制和可选调稀蘸醋",
+        "isCore": false
       },
       {
         "id": "ingredient-04",
-        "name": "皮冻",
-        "label": "皮冻180克",
-        "isCore": true
+        "name": "姜",
+        "label": "姜2片（皮冻用）",
+        "isCore": false
       },
       {
         "id": "ingredient-05",
-        "name": "葱姜水",
-        "label": "葱姜水80毫升",
+        "name": "葱",
+        "label": "葱1根，切3段（皮冻用）",
         "isCore": false
       },
       {
         "id": "ingredient-06",
-        "name": "生抽",
-        "label": "生抽15毫升",
-        "isCore": false
+        "name": "绍兴酒",
+        "label": "绍兴酒1汤匙（皮冻用，或干雪莉料酒）",
+        "isCore": true
       },
       {
         "id": "ingredient-07",
-        "name": "糖",
-        "label": "糖5克",
+        "name": "中筋面粉",
+        "label": "中筋面粉130克（面团用，原文明示1杯/130克），另备少许撒案板防粘",
         "isCore": false
       },
       {
         "id": "ingredient-08",
+        "name": "温水",
+        "label": "温水90毫升（面团用，原文明示6汤匙/90毫升）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-09",
+        "name": "猪肉末",
+        "label": "猪肉末450克（原文明示公制量，七成瘦、三成肥）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-10",
+        "name": "绍兴酒",
+        "label": "绍兴酒2汤匙（肉馅用，或干雪莉料酒）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-11",
         "name": "盐",
-        "label": "盐4克",
+        "label": "盐3/4茶匙（肉馅用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-12",
+        "name": "芝麻油",
+        "label": "芝麻油1/2茶匙（肉馅用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-13",
+        "name": "白糖",
+        "label": "白糖3/4茶匙（肉馅用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-14",
+        "name": "酱油",
+        "label": "酱油3茶匙（肉馅用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-15",
+        "name": "清水",
+        "label": "清水3汤匙（肉馅用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-16",
+        "name": "白胡椒粉",
+        "label": "白胡椒粉1/8茶匙（肉馅用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-17",
+        "name": "姜末",
+        "label": "姜末1汤匙（肉馅用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-18",
+        "name": "自制皮冻",
+        "label": "自制皮冻1满杯，切约1厘米丁（取自本配方制成的皮冻，肉馅用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-19",
+        "name": "中国黑醋",
+        "label": "中国黑醋适量（蘸食用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-20",
+        "name": "鲜姜丝",
+        "label": "鲜姜丝适量（蘸食用，切极细丝）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-21",
+        "name": "大白菜叶",
+        "label": "大白菜叶适量（可选垫蒸笼，也可用纱布或蒸笼垫片）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-22",
+        "name": "食用油",
+        "label": "食用油少许（选择蒸笼垫片时刷垫片用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-23",
+        "name": "生抽",
+        "label": "生抽少许（可选拌煮皮冻后剩余骨肉用）",
         "isCore": false
       }
     ],
     "steps": [
       {
         "id": "step-01",
-        "instruction": "面粉加水揉成光滑面团，醒30分钟。",
-        "duration": 1800,
-        "heat": null,
-        "timerRequired": true,
-        "ingredientsUsed": [],
-        "gameAction": "confirm",
-        "safetyNote": ""
-      },
-      {
-        "id": "step-02",
-        "instruction": "肉馅分次打入葱姜水调味，拌入切碎皮冻。",
+        "instruction": "先做皮冻：将225克猪皮切成约2.5厘米条，备好450克带肉猪颈骨，姜2片、葱1根切成3段。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
@@ -6734,32 +7991,317 @@ window.YANHUO_RECIPES = [
         "safetyNote": ""
       },
       {
+        "id": "step-02",
+        "instruction": "小锅放入猪皮和猪骨，加冷水没过食材；烧至大滚后立即倒掉水，将猪皮和骨头冲洗干净，并将锅冲洗干净，以去除杂质。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
         "id": "step-03",
-        "instruction": "擀薄皮包馅捏褶，水开大火蒸8分钟。",
+        "instruction": "将猪皮和骨头重新放回锅中，加950毫升清水、2片姜、3段葱和1汤匙绍兴酒或干雪莉料酒。烧开后转小火，盖上锅盖微沸炖2小时。",
+        "duration": 7200,
+        "heat": "low",
+        "timerRequired": true,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-04",
+        "instruction": "炖满2小时后关火，待汤稍凉，将液体滤入碗中。锅中剩余骨肉可丢弃，或按原文淋少许生抽另行食用。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-05",
+        "instruction": "等滤出的汤完全冷却后，盖好并冷藏过夜，使其凝成皮冻。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-044-woks/step-2-1.jpg",
+        "imageSource": "https://thewoksoflife.com/steamed-shanghai-soup-dumplings-xiaolongbao/"
+      },
+      {
+        "id": "step-06",
+        "instruction": "做面团：碗中放130克中筋面粉，将90毫升温水分次加入，每次加1汤匙，边加边和面；揉15—20分钟，至面团非常柔软、光滑。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-07",
+        "instruction": "用布盖好面团，静置30分钟。原文不建议用市售饺子皮代替，其柔韧性和弹性不够。",
+        "duration": 1800,
+        "heat": null,
+        "timerRequired": true,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-08",
+        "instruction": "做肉馅：将450克七成瘦、三成肥的猪肉末放入料理机，点动30—60秒，至呈肉泥状。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-09",
+        "instruction": "将肉泥放入碗中，加入2汤匙绍兴酒或干雪莉料酒、3/4茶匙盐、1/2茶匙芝麻油、3/4茶匙白糖、3茶匙酱油、3汤匙清水、1/8茶匙白胡椒粉和1汤匙姜末。用筷子充分搅打约2分钟，至所有材料极均匀地混合、肉馅呈轻盈的糊状。",
+        "duration": 120,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-044-woks/step-4-2.jpg",
+        "imageSource": "https://thewoksoflife.com/steamed-shanghai-soup-dumplings-xiaolongbao/"
+      },
+      {
+        "id": "step-10",
+        "instruction": "取自制皮冻1满杯，切约1厘米丁，轻轻拌入肉馅，不要过度搅拌。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "stir",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-044-woks/step-4-3.jpg",
+        "imageSource": "https://thewoksoflife.com/steamed-shanghai-soup-dumplings-xiaolongbao/"
+      },
+      {
+        "id": "step-11",
+        "instruction": "将肉馅盖好，冷藏至准备包制。若马上开始包，可先冷冻15分钟，使馅稍变硬、便于操作。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-12",
+        "instruction": "干净案板上撒少许面粉，将面团搓成直径约2.5厘米的长条，切成大小一致、每个约11克的小剂子。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-044-woks/step-5-4.jpg",
+        "imageSource": "https://thewoksoflife.com/steamed-shanghai-soup-dumplings-xiaolongbao/"
+      },
+      {
+        "id": "step-13",
+        "instruction": "将每个剂子擀成薄圆皮，直径约8厘米；面团和面皮随时用湿布盖住，防止变干。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-14",
+        "instruction": "准备竹蒸笼，可铺纱布、大白菜叶或蒸笼垫片；选用垫片时，先刷少许食用油。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-15",
+        "instruction": "取出肉馅，每次包一个：在一张面皮中央放约1汤匙馅。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-044-woks/step-7-7.jpg",
+        "imageSource": "https://thewoksoflife.com/steamed-shanghai-soup-dumplings-xiaolongbao/"
+      },
+      {
+        "id": "step-16",
+        "instruction": "沿边捏褶并收紧封口，配方卡建议12—20个褶；捏褶时不断用拇指将馅往面皮形成的小袋中推。顶部必须封严。若馅太湿、不易操作，可再冷冻15分钟后继续包。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-044-woks/step-7-5.jpg",
+        "imageSource": "https://thewoksoflife.com/steamed-shanghai-soup-dumplings-xiaolongbao/"
+      },
+      {
+        "id": "step-17",
+        "instruction": "将包好的小笼包放入铺好衬垫的蒸笼，相邻间隔约5厘米。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-044-woks/step-8-8.jpg",
+        "imageSource": "https://thewoksoflife.com/steamed-shanghai-soup-dumplings-xiaolongbao/"
+      },
+      {
+        "id": "step-18",
+        "instruction": "在金属蒸锅或炒锅中烧水。若使用炒锅，放上竹蒸笼后，水位应上升至竹底边缘约1.3厘米处，绝不能接触包子；也不要加水太少，以免蒸干而烧坏竹蒸笼。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-19",
+        "instruction": "水烧开后放上竹蒸笼，盖好竹笼盖，以大火蒸8分钟，随即将蒸笼移离锅，上桌食用。",
         "duration": 480,
         "heat": "high",
         "timerRequired": true,
         "ingredientsUsed": [],
         "gameAction": "wait",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-044-woks/step-10-9.jpg",
+        "imageSource": "https://thewoksoflife.com/steamed-shanghai-soup-dumplings-xiaolongbao/"
+      },
+      {
+        "id": "step-20",
+        "instruction": "蘸料用中国黑醋，倒入小碟，加入极细姜丝；也可加一点点清水调得温和些。按原文，此处不用酱油作蘸料。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-21",
+        "instruction": "用筷子小心、缓慢地将小笼包与笼底分开，蘸少许姜丝醋。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-044-woks/step-13-10.jpg",
+        "imageSource": "https://thewoksoflife.com/steamed-shanghai-soup-dumplings-xiaolongbao/"
+      },
+      {
+        "id": "step-22",
+        "instruction": "轻轻将小笼包移到中式汤勺上，托稳包子。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-23",
+        "instruction": "在包子侧面轻咬一个小孔，留意汤汁很烫，小心吸出汤汁，再蘸少许醋，将包子吃下。本配方约做18—20个，来源默认6份，每份约3个。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-24",
+        "instruction": "提前准备时，肉馅可提前最多1天做好并冷藏，待要包时再取出。原文建议现包现蒸，薄皮在冷冻过程中可能产生弱处，蒸时易破。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-25",
+        "instruction": "若选择冷冻保存，将包子放在铺烘焙纸的烤盘上，彼此间隔约1.3厘米、互不接触；盖好保鲜膜或干净塑料袋，烤盘保持水平放入冷冻室，冷冻过夜至完全冻硬。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-26",
+        "instruction": "第二天将冻硬的包子转入密闭容器保存。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-27",
+        "instruction": "选择冷冻包子时，不需提前解冻，直接放入蒸笼，将大火蒸制时间延长为10分钟；这条路线替代鲜包子的8分钟蒸制，不连续叠加。",
+        "duration": null,
+        "heat": "high",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
         "safetyNote": ""
       }
     ],
-    "imageThumb": "assets/dishes/thumbnails/54-xiaolongbao.jpg",
-    "imageFull": "assets/dishes/ai/54-xiaolongbao.png",
-    "source": "https://thewoksoflife.com/",
-    "time": 40,
-    "timeBasis": "estimated",
+    "sourceLimitations": [
+      "来源标准备1天、烹饪30分钟、总时间1天30分钟，但另要求皮冻小火炖2小时及冷藏过夜；分别保留来源数值，不自行重算总时间或推测冷藏时长。",
+      "面粉130克、温水90毫升、皮冻汤水950毫升和猪皮225克、猪骨及肉末450克均为正文明确公制数值；其他杯匙未统一定义容量，不外推公制。",
+      "白胡椒粉配方卡列1/8茶匙、正文列1撮，此处采用配方卡；包子褶数配方卡为12—20、正文为12—18，此处保留配方卡范围。皮冻丁配方卡同时写1/2英寸与1厘米，此处保留其公制1厘米。",
+      "正文另列可选吉利丁粉1包（2又1/2茶匙）以帮助皮冻凝固，但未说明添加操作；本版采用骨皮自身凝固的原配方，不加入吉利丁粉，也不补写添加方法。",
+      "焯洗、蒸制用水、垫笼白菜叶和刷垫片用油等未给定量，按用途保留适量或少许；冷冻包子10分钟蒸制与鲜包子8分钟为替代路线。"
+    ],
+    "imageThumb": "assets/dishes/sources/cn-044-woks/hero.jpg",
+    "imageFull": "assets/dishes/sources/cn-044-woks/hero.jpg",
+    "source": "https://thewoksoflife.com/steamed-shanghai-soup-dumplings-xiaolongbao/",
+    "media": {
+      "sourceName": "The Woks of Life",
+      "recipePageUrl": "https://thewoksoflife.com/steamed-shanghai-soup-dumplings-xiaolongbao/",
+      "mediaPageUrl": "https://thewoksoflife.com/steamed-shanghai-soup-dumplings-xiaolongbao/",
+      "author": "Judy",
+      "rightsNotice": "All Rights Reserved © The Woks of Life",
+      "reuseLicense": null,
+      "repositoryCopyAuthorization": "user_confirmed_2026-10-08_remaining44"
+    },
+    "time": 1470,
+    "timeBasis": "source",
     "difficulty": "进阶",
-    "defaultServings": 2,
-    "servingsBasis": "estimated",
+    "defaultServings": 6,
+    "servingsBasis": "source",
     "allergens": [
       "wheat",
-      "soy"
+      "soy",
+      "sesame"
     ],
     "flags": {
       "containsPork": true,
       "containsBeef": false,
-      "containsAlcohol": false,
+      "containsAlcohol": true,
       "spicy": false,
       "vegetarian": false
     },
@@ -7181,6 +8723,7 @@ window.YANHUO_RECIPES = [
     "defaultServings": 2,
     "servingsBasis": "estimated",
     "allergens": [
+      "shellfish",
       "soy"
     ],
     "flags": {
@@ -7420,45 +8963,145 @@ window.YANHUO_RECIPES = [
     "ingredients": [
       {
         "id": "ingredient-01",
-        "name": "梅花肉",
-        "label": "梅花肉600克",
+        "name": "去骨猪肩肉",
+        "label": "去骨猪肩肉约1361克（原文3磅，选带适当脂肪的）",
         "isCore": true
       },
       {
         "id": "ingredient-02",
-        "name": "叉烧酱",
-        "label": "叉烧酱60克",
-        "isCore": true
+        "name": "白砂糖",
+        "label": "白砂糖1/4杯",
+        "isCore": false
       },
       {
         "id": "ingredient-03",
-        "name": "生抽",
-        "label": "生抽20毫升",
+        "name": "盐",
+        "label": "盐2茶匙",
         "isCore": false
       },
       {
         "id": "ingredient-04",
-        "name": "蜂蜜",
-        "label": "蜂蜜25克",
+        "name": "五香粉",
+        "label": "五香粉1/2茶匙",
         "isCore": true
       },
       {
         "id": "ingredient-05",
-        "name": "料酒",
-        "label": "料酒15毫升",
+        "name": "白胡椒粉",
+        "label": "白胡椒粉1/4茶匙",
         "isCore": false
       },
       {
         "id": "ingredient-06",
-        "name": "蒜末",
-        "label": "蒜末10克",
+        "name": "芝麻油",
+        "label": "芝麻油1/2茶匙",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-07",
+        "name": "绍兴酒",
+        "label": "绍兴酒1汤匙（可选，或干雪莉料酒）",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-08",
+        "name": "酱油",
+        "label": "酱油1汤匙",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-09",
+        "name": "海鲜酱",
+        "label": "海鲜酱1汤匙",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-10",
+        "name": "糖蜜",
+        "label": "糖蜜2茶匙",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-11",
+        "name": "红色食用色素",
+        "label": "红色食用色素1/8茶匙（可选）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-12",
+        "name": "大蒜",
+        "label": "大蒜3瓣，切极细末",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-13",
+        "name": "麦芽糖或蜂蜜",
+        "label": "麦芽糖或蜂蜜2汤匙（刷酱用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-14",
+        "name": "热水",
+        "label": "热水1汤匙（刷酱用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-15",
+        "name": "清水",
+        "label": "清水1又1/2杯（烤盘用），另备1杯（烤盘干时添加）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-16",
+        "name": "熟白米饭或糙米饭",
+        "label": "熟白米饭或糙米饭适量（可选配食，原文未给用量）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-17",
+        "name": "绿叶菜",
+        "label": "绿叶菜适量（可选配食，原文未给用量）",
         "isCore": false
       }
     ],
     "steps": [
       {
         "id": "step-01",
-        "instruction": "猪肉切粗条，以叉烧酱、生抽、料酒和蒜末冷藏腌一夜。",
+        "instruction": "将去骨猪肩肉切成长条或大块，厚约5.1—7.6厘米。不要切去多余脂肪，烤制时脂肪会析出并增加风味。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-02",
+        "instruction": "碗中混合1/4杯白砂糖、2茶匙盐、1/2茶匙五香粉、1/4茶匙白胡椒粉、1/2茶匙芝麻油、可选的1汤匙绍兴酒或干雪莉料酒、1汤匙酱油、1汤匙海鲜酱、2茶匙糖蜜、可选的1/8茶匙红色食用色素和3瓣蒜末，调成腌酱。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-051-woks/step-2-1.jpg",
+        "imageSource": "https://thewoksoflife.com/chinese-bbq-pork-cha-siu/"
+      },
+      {
+        "id": "step-03",
+        "instruction": "先留出约2汤匙未接触生肉的腌酱，单独放好。将猪肉放在大碗或烤盘中，用剩余腌酱涂抹均匀。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-051-woks/step-3-2.jpg",
+        "imageSource": "https://thewoksoflife.com/chinese-bbq-pork-cha-siu/"
+      },
+      {
+        "id": "step-04",
+        "instruction": "将猪肉盖好，冷藏过夜，或至少8小时；留出的腌酱也盖好并冷藏。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
@@ -7467,9 +9110,89 @@ window.YANHUO_RECIPES = [
         "safetyNote": ""
       },
       {
-        "id": "step-02",
-        "instruction": "200℃烤30–35分钟，中途翻面并刷腌汁。",
-        "duration": 2100,
+        "id": "step-05",
+        "instruction": "将烤箱架放在烤箱上方三分之一处，以普通烘烤模式预热至246℃（原文475℉）。若只有热风烤箱，它预热和烤熟都会更快；可用烤箱温度计复核实际温度。全程每10分钟检查一次叉烧，根据状态调整温度。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-06",
+        "instruction": "烤盘铺锡纸，上面架金属烤架，让肉离开盘底。将肉放在烤架上，肉块间尽量留出空隙；在下方烤盘倒入1又1/2杯清水，避免滴下的汁液焦煳或冒烟。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-051-woks/step-5-3.jpg",
+        "imageSource": "https://thewoksoflife.com/chinese-bbq-pork-cha-siu/"
+      },
+      {
+        "id": "step-07",
+        "instruction": "将猪肉送入预热好的烤箱，开始第一阶段共25分钟的烤制：前10分钟保持246℃，随后降至190℃（原文375℉），继续烤到本阶段满25分钟。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-051-woks/step-6-4.jpg",
+        "imageSource": "https://thewoksoflife.com/chinese-bbq-pork-cha-siu/"
+      },
+      {
+        "id": "step-08",
+        "instruction": "第一阶段烤满25分钟后，将猪肉翻面，烤盘转180度，以便受热均匀；若盘底干了，再加1杯清水。再烤15分钟。继续每10分钟查看一次，若有烤焦迹象则调低温度。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-09",
+        "instruction": "烤肉期间做刷酱：将预留的约2汤匙腌酱、2汤匙麦芽糖或蜂蜜及1汤匙热水混匀。麦芽糖很黏，可先用微波炉加热，使其容易拌开。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-051-woks/step-7-5.jpg",
+        "imageSource": "https://thewoksoflife.com/chinese-bbq-pork-cha-siu/"
+      },
+      {
+        "id": "step-10",
+        "instruction": "累计烤40分钟后，在猪肉朝上的一面刷酱。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-051-woks/step-8-6.jpg",
+        "imageSource": "https://thewoksoflife.com/chinese-bbq-pork-cha-siu/"
+      },
+      {
+        "id": "step-11",
+        "instruction": "将猪肉翻面，另一面也刷酱。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-051-woks/step-8-7.jpg",
+        "imageSource": "https://thewoksoflife.com/chinese-bbq-pork-cha-siu/"
+      },
+      {
+        "id": "step-12",
+        "instruction": "将刷好两面的猪肉再烤10分钟。",
+        "duration": 600,
         "heat": null,
         "timerRequired": true,
         "ingredientsUsed": [],
@@ -7477,26 +9200,84 @@ window.YANHUO_RECIPES = [
         "safetyNote": ""
       },
       {
-        "id": "step-03",
-        "instruction": "最后刷蜂蜜，升温烤至焦亮，静置后切片。",
+        "id": "step-13",
+        "instruction": "此时累计烤50分钟，肉应已熟透，表面焦糖化。可用肉温计检查，原文给出的内部温度是约71℃（160℉）；同页更新注释另引145℉、约63℃并静置3分钟的要求，保留该说明，出炉后仍按本配方静置10分钟。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "wait",
         "safetyNote": ""
+      },
+      {
+        "id": "step-14",
+        "instruction": "若表面上色仍未达到喜好，可开启烤箱上火炙烤模式再烤几分钟，使外层更焦脆、颜色更深。此时留在烤箱旁密切观察，甜酱容易焦煳。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-15",
+        "instruction": "从烤箱取出猪肉，将剩余的刷酱最后再刷一遍，静置10分钟。",
+        "duration": 600,
+        "heat": null,
+        "timerRequired": true,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-16",
+        "instruction": "静置后切片食用。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-051-woks/step-10-8.jpg",
+        "imageSource": "https://thewoksoflife.com/chinese-bbq-pork-cha-siu/"
+      },
+      {
+        "id": "step-17",
+        "instruction": "可配熟白米饭或糙米饭和绿叶菜；暂时不用的熟叉烧可冷冻，留作其他菜使用。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
       }
     ],
-    "imageThumb": "assets/dishes/thumbnails/81-chashao.jpg",
-    "imageFull": "assets/dishes/ai/81-chashao.png",
-    "source": "https://thewoksoflife.com/category/recipes/chinese-take-out/",
-    "time": 35,
-    "timeBasis": "estimated",
+    "sourceLimitations": [
+      "来源总时间60分钟、准备10分钟、烹饪50分钟不包含冷藏腌制过夜或至少8小时；来源另要求出炉静置10分钟，此处原样保留，不自行重算总时间。",
+      "杯、汤匙和茶匙未规定容量，保留原单位，不换算毫升；猪肉重量与切块厚度仅作物理单位换算。",
+      "来源同时保留内部温度160华氏度，以及更新注释145华氏度并静置3分钟；正文如实呈现，未把这两项合并为一个新标准。",
+      "每10分钟检查是检查间隔，第一阶段25分钟内含两档烤温；这两类信息不生成单一倒计时。"
+    ],
+    "imageThumb": "assets/dishes/sources/cn-051-woks/hero.jpg",
+    "imageFull": "assets/dishes/sources/cn-051-woks/hero.jpg",
+    "source": "https://thewoksoflife.com/chinese-bbq-pork-cha-siu/",
+    "media": {
+      "sourceName": "The Woks of Life",
+      "recipePageUrl": "https://thewoksoflife.com/chinese-bbq-pork-cha-siu/",
+      "mediaPageUrl": "https://thewoksoflife.com/chinese-bbq-pork-cha-siu/",
+      "author": "Bill",
+      "rightsNotice": "All Rights Reserved © The Woks of Life",
+      "reuseLicense": null,
+      "repositoryCopyAuthorization": "user_confirmed_2026-10-08_remaining44"
+    },
+    "time": 60,
+    "timeBasis": "source",
     "difficulty": "适中",
-    "defaultServings": 4,
-    "servingsBasis": "estimated",
+    "defaultServings": 8,
+    "servingsBasis": "source",
     "allergens": [
-      "soy"
+      "soy",
+      "sesame"
     ],
     "flags": {
       "containsPork": true,
@@ -7622,55 +9403,79 @@ window.YANHUO_RECIPES = [
     "ingredients": [
       {
         "id": "ingredient-01",
-        "name": "三黄鸡",
-        "label": "三黄鸡1只约1000克",
+        "name": "整鸡",
+        "label": "整鸡1只约1350克",
         "isCore": true
       },
       {
         "id": "ingredient-02",
-        "name": "粗盐",
-        "label": "粗盐1500克",
-        "isCore": false
+        "name": "绍兴酒",
+        "label": "绍兴酒2汤匙",
+        "isCore": true
       },
       {
         "id": "ingredient-03",
         "name": "沙姜粉",
-        "label": "沙姜粉10克",
+        "label": "沙姜粉1½汤匙（不能用普通姜粉替代或省略）",
         "isCore": false
       },
       {
         "id": "ingredient-04",
-        "name": "盐",
-        "label": "盐8克",
+        "name": "白胡椒粉",
+        "label": "白胡椒粉½茶匙",
         "isCore": false
       },
       {
         "id": "ingredient-05",
-        "name": "葱姜",
-        "label": "葱姜适量",
+        "name": "粗海盐",
+        "label": "粗海盐2茶匙（抹鸡用）",
         "isCore": false
       },
       {
         "id": "ingredient-06",
-        "name": "烘焙纸",
-        "label": "烘焙纸2张",
-        "isCore": true
+        "name": "粗海盐",
+        "label": "粗海盐约1361克（原文3磅，炒热包埋用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-07",
+        "name": "姜",
+        "label": "姜4片",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-08",
+        "name": "食用油",
+        "label": "食用油1汤匙",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-09",
+        "name": "清水",
+        "label": "清水适量（冲洗鸡用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-10",
+        "name": "葱花",
+        "label": "葱花适量（最后撒入，来源未给用量）",
+        "isCore": false
       }
     ],
     "steps": [
       {
         "id": "step-01",
-        "instruction": "鸡擦干，以沙姜粉和盐抹匀腌2小时。",
-        "duration": 7200,
+        "instruction": "准备带盖炒锅或荷兰锅。来源提醒中式砂锅在此做法中很可能开裂，作者的耐热砂锅也曾开裂。用流动冷水冲洗整鸡，甩去多余的水，再用厨房纸或干净抹布擦干。来源建议可选有机或放养鸡，其肉质更细滑、紧实。",
+        "duration": null,
         "heat": null,
-        "timerRequired": true,
+        "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "confirm",
         "safetyNote": ""
       },
       {
         "id": "step-02",
-        "instruction": "腹中塞葱姜，用纸严密包裹。",
+        "instruction": "将2汤匙绍兴酒刷遍鸡身和腹腔。把1½汤匙沙姜粉、½茶匙白胡椒粉和2茶匙粗海盐混合，均匀揉抹在鸡身和腹腔内。沙姜粉与普通姜粉不同，这份配方不能替换或省略沙姜粉。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
@@ -7680,28 +9485,190 @@ window.YANHUO_RECIPES = [
       },
       {
         "id": "step-03",
-        "instruction": "锅中粗盐炒热，埋入鸡，小火焗45分钟，关火焖20分钟。",
+        "instruction": "把鸡放在网架上，网架下放托盘接滴液。尽量让鸡直立，使腹腔内液体流出，可以用饮水杯支撑。鸡不加盖，放入冰箱冷藏腌制过夜，目的是让鸡皮干燥。",
         "duration": null,
-        "heat": "low",
+        "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
-        "gameAction": "wait",
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-04",
+        "instruction": "第二天，在烹调前提前至少1—2小时将鸡从冰箱取出，使其回到室温。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-05",
+        "instruction": "将4片姜放入鸡腹腔，把1汤匙食用油刷在鸡皮上，再用厨房棉绳绑好两只鸡腿。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-053-woks/step-1-2.jpg",
+        "imageSource": "https://thewoksoflife.com/salt-baked-chicken/"
+      },
+      {
+        "id": "step-06",
+        "instruction": "先用一大张烘焙纸包住整鸡，再用第二张烘焙纸包一层，第二层纸的开口留在鸡胸一侧，包好后放在一旁。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-053-woks/step-2-3.jpg",
+        "imageSource": "https://thewoksoflife.com/salt-baked-chicken/"
+      },
+      {
+        "id": "step-07",
+        "instruction": "将包埋用的约1361克粗海盐放入干净、干燥的炒锅，不加油，以中火翻炒约15分钟，直到盐变成浅棕色。热盐温度很高，注意防烫，不要过于用力翻炒。来源提示，包埋盐的重量应与鸡相同，例如约1814克的鸡应配约1814克盐。",
+        "duration": null,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-053-woks/step-3-4.jpg",
+        "imageSource": "https://thewoksoflife.com/salt-baked-chicken/"
+      },
+      {
+        "id": "step-08",
+        "instruction": "在炒锅或荷兰锅底部均匀铺约1.3厘米厚的热盐，将纸包鸡放在锅中央，鸡胸朝上。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-053-woks/step-4-5.jpg",
+        "imageSource": "https://thewoksoflife.com/salt-baked-chicken/"
+      },
+      {
+        "id": "step-09",
+        "instruction": "把剩余热盐铺到鸡的周围和上方，确保纸包鸡被热盐完全覆盖。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-053-woks/step-4-6.jpg",
+        "imageSource": "https://thewoksoflife.com/salt-baked-chicken/"
+      },
+      {
+        "id": "step-10",
+        "instruction": "盖上锅盖，以中火焗35分钟。",
+        "duration": 2100,
+        "heat": "medium",
+        "timerRequired": true,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-053-woks/step-5-7.jpg",
+        "imageSource": "https://thewoksoflife.com/salt-baked-chicken/"
+      },
+      {
+        "id": "step-11",
+        "instruction": "关火后仍盖着锅盖，把锅留在炉上静置30—40分钟，直到盐摸起来温热。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-12",
+        "instruction": "确认盐已降至温热后，用木勺或锅铲小心将纸包鸡从盐中取出。虽然已经关火静置30—40分钟，鸡仍然很烫，取出时务必小心。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-053-woks/step-5-8.jpg",
+        "imageSource": "https://thewoksoflife.com/salt-baked-chicken/"
+      },
+      {
+        "id": "step-13",
+        "instruction": "小心拆开烘焙纸，让鸡稍微冷却，直到不会烫得无法用手处理。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-053-woks/step-5-10.jpg",
+        "imageSource": "https://thewoksoflife.com/salt-baked-chicken/"
+      },
+      {
+        "id": "step-14",
+        "instruction": "这道菜通常将鸡肉拆骨后撕开食用，也可以不拆骨。若拆骨，将鸡肉从骨架上取下并装盘，鸡骨和骨架保留，可另作高汤或汤底。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-053-woks/step-6-12.jpg",
+        "imageSource": "https://thewoksoflife.com/salt-baked-chicken/"
+      },
+      {
+        "id": "step-15",
+        "instruction": "把拆鸡过程中流出的鸡汁全部淋回装盘的鸡肉上，最后撒上葱花。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-16",
+        "instruction": "烹调后的盐要等完全冷却再处理。丢弃受热或沾到鸡汁而变色、变褐的盐，把其余干净的盐收好，留待下次使用。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
         "safetyNote": ""
       }
     ],
-    "imageThumb": "assets/dishes/thumbnails/83-yanju-ji.jpg",
-    "imageFull": "assets/dishes/ai/83-yanju-ji.png",
-    "source": "https://thewoksoflife.com/",
-    "time": 180,
-    "timeBasis": "estimated",
+    "sourceLimitations": [
+      "来源配方卡注明准备120分钟、烹调90分钟、总时长210分钟，正文同时要求不加盖冷藏腌制过夜。来源没有解释过夜阶段如何计入卡片总时长，210分钟不能视为覆盖过夜冷藏的完整等待时间。",
+      "来源将整鸡约3磅同时标为1.35千克，包埋盐另写3磅，并提示盐与鸡等重。保留鸡的来源公制约1350克，盐按3磅换算约1361克，不把来源的近似换算差异改成新的精确配比。",
+      "来源未给最后撒入的葱花及冲洗清水用量，保留适量。回温1—2小时、关火静置30—40分钟及冷藏过夜均不转换为固定步骤倒计时。"
+    ],
+    "imageThumb": "assets/dishes/sources/cn-053-woks/hero.jpg",
+    "imageFull": "assets/dishes/sources/cn-053-woks/hero.jpg",
+    "source": "https://thewoksoflife.com/salt-baked-chicken/",
+    "media": {
+      "sourceName": "The Woks of Life",
+      "recipePageUrl": "https://thewoksoflife.com/salt-baked-chicken/",
+      "mediaPageUrl": "https://thewoksoflife.com/salt-baked-chicken/",
+      "author": "Judy",
+      "rightsNotice": "All Rights Reserved © The Woks of Life",
+      "reuseLicense": null,
+      "repositoryCopyAuthorization": "user_confirmed_2026-10-08_remaining44"
+    },
+    "time": 210,
+    "timeBasis": "source",
     "difficulty": "进阶",
-    "defaultServings": 2,
-    "servingsBasis": "estimated",
+    "defaultServings": 6,
+    "servingsBasis": "source",
     "allergens": [],
     "flags": {
       "containsPork": false,
       "containsBeef": false,
-      "containsAlcohol": false,
+      "containsAlcohol": true,
       "spicy": false,
       "vegetarian": false
     },
@@ -7956,6 +9923,7 @@ window.YANHUO_RECIPES = [
     "servingsBasis": "unspecified",
     "allergens": [
       "peanut",
+      "shellfish",
       "soy"
     ],
     "flags": {
@@ -11603,88 +13571,198 @@ window.YANHUO_RECIPES = [
     "ingredients": [
       {
         "id": "ingredient-01",
-        "name": "鸡胸肉",
-        "label": "鸡胸肉2块约400克",
+        "name": "小块鸡胸肉",
+        "label": "小块鸡胸肉4块（来源未给重量）",
         "isCore": true
       },
       {
         "id": "ingredient-02",
-        "name": "面粉",
-        "label": "面粉60克",
+        "name": "帕尔马干酪碎",
+        "label": "帕尔马干酪碎3汤匙",
         "isCore": true
       },
       {
         "id": "ingredient-03",
-        "name": "鸡蛋",
-        "label": "鸡蛋1个",
+        "name": "面粉",
+        "label": "面粉100克",
         "isCore": true
       },
       {
         "id": "ingredient-04",
-        "name": "面包糠",
-        "label": "面包糠120克",
+        "name": "大号鸡蛋",
+        "label": "大号鸡蛋1个（打散）",
         "isCore": false
       },
       {
         "id": "ingredient-05",
-        "name": "盐和黑胡椒",
-        "label": "盐和黑胡椒",
+        "name": "干面包糠",
+        "label": "干面包糠75克（来源使用日式面包糠）",
         "isCore": false
       },
       {
         "id": "ingredient-06",
         "name": "食用油",
-        "label": "食用油适量",
+        "label": "食用油75毫升（来源为植物油）",
         "isCore": false
       },
       {
         "id": "ingredient-07",
-        "name": "柠檬",
-        "label": "柠檬1个",
+        "name": "白卷心菜",
+        "label": "白卷心菜300克（切丝）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-08",
+        "name": "大号胡萝卜",
+        "label": "大号胡萝卜1根（去皮、擦丝）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-09",
+        "name": "小葱",
+        "label": "小葱6根（斜切）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-10",
+        "name": "红皮苹果",
+        "label": "红皮苹果1个（擦丝）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-11",
+        "name": "原味酸奶",
+        "label": "原味酸奶150克",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-12",
+        "name": "柠檬汁",
+        "label": "柠檬汁½个柠檬的量",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-13",
+        "name": "英式芥末酱",
+        "label": "英式芥末酱2茶匙",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-14",
+        "name": "调味料",
+        "label": "调味料少许（用于凉拌菜和面粉，来源未指定种类及具体用量）",
         "isCore": false
       }
     ],
     "steps": [
       {
         "id": "step-01",
-        "instruction": "鸡胸横剖拍至约6毫米厚，调盐胡椒。",
+        "instruction": "先做凉拌卷心菜：将300克切丝白卷心菜、1根去皮擦丝的大号胡萝卜、6根斜切小葱、1个擦丝红皮苹果、150克原味酸奶、½个柠檬挤出的汁和2茶匙英式芥末酱放入大碗，混合均匀。加入少许调味料调味，放在一旁备用。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
-        "gameAction": "confirm",
+        "gameAction": "add",
         "safetyNote": ""
       },
       {
         "id": "step-02",
-        "instruction": "依次裹面粉、蛋液和面包糠。",
+        "instruction": "在操作台上铺一层保鲜膜，放上4块小块鸡胸肉，再盖一层保鲜膜。用擀面杖将鸡胸肉敲薄至0.2—0.3厘米厚。",
         "duration": null,
         "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
         "gameAction": "confirm",
-        "safetyNote": ""
+        "safetyNote": "",
+        "image": "assets/dishes/sources/west-024-bbc-good-food/step-2.jpg",
+        "imageSource": "https://www.bbcgoodfood.com/recipes/chicken-schnitzel-coleslaw"
       },
       {
         "id": "step-03",
-        "instruction": "浅油煎炸每面2–3分钟至金黄熟透，配柠檬。",
-        "duration": 180,
+        "instruction": "把100克面粉放在一个盘子里，加入少许调味料调味。将1个打散的大号鸡蛋倒入另一个盘子。",
+        "duration": null,
         "heat": null,
         "timerRequired": false,
         "ingredientsUsed": [],
-        "gameAction": "confirm",
-        "safetyNote": "注意热油飞溅"
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/west-024-bbc-good-food/step-3.jpg",
+        "imageSource": "https://www.bbcgoodfood.com/recipes/chicken-schnitzel-coleslaw"
+      },
+      {
+        "id": "step-04",
+        "instruction": "把鸡胸肉放入面粉中，使表面裹上面粉，再放入蛋液中裹上蛋液。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/west-024-bbc-good-food/step-4.jpg",
+        "imageSource": "https://www.bbcgoodfood.com/recipes/chicken-schnitzel-coleslaw"
+      },
+      {
+        "id": "step-05",
+        "instruction": "将75克干面包糠和3汤匙帕尔马干酪碎放入浅碗，混合均匀。把裹过面粉和蛋液的鸡胸肉放入其中翻裹，使表面完全覆盖面包糠。放到盘中；如果不马上煎炸，先放入冰箱冷藏，等准备烹调时再取出。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "注意热油飞溅",
+        "image": "assets/dishes/sources/west-024-bbc-good-food/step-5.jpg",
+        "imageSource": "https://www.bbcgoodfood.com/recipes/chicken-schnitzel-coleslaw"
+      },
+      {
+        "id": "step-06",
+        "instruction": "在大煎锅中倒入75毫升食用油，以较大的火力加热。油热后放入鸡排，每次煎炸两块。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "注意热油飞溅",
+        "image": "assets/dishes/sources/west-024-bbc-good-food/step-6.jpg",
+        "imageSource": "https://www.bbcgoodfood.com/recipes/chicken-schnitzel-coleslaw"
+      },
+      {
+        "id": "step-07",
+        "instruction": "每面煎炸2—3分钟，直到两面完全呈金黄色，再取出放在厨房纸上沥去多余油脂。煎炸剩余鸡排时，可把已炸好的鸡排放在低温烤箱中保温。全部煎好后搭配凉拌卷心菜食用。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": "注意热油飞溅",
+        "image": "assets/dishes/sources/west-024-bbc-good-food/step-7.jpg",
+        "imageSource": "https://www.bbcgoodfood.com/recipes/chicken-schnitzel-coleslaw"
       }
     ],
-    "imageThumb": "assets/dishes/thumbnails/69-chicken-schnitzel.jpg",
-    "imageFull": "assets/dishes/ai/69-chicken-schnitzel.png",
-    "source": "https://www.bbcgoodfood.com/recipes/category/cuisine-collections?page=2",
-    "time": 15,
-    "timeBasis": "estimated",
-    "difficulty": "简单",
-    "defaultServings": 2,
-    "servingsBasis": "estimated",
+    "sourceLimitations": [
+      "来源仅写凉拌菜及面粉需要调味，没有说明调味料种类及具体用量，保留泛称，不补入盐或黑胡椒。",
+      "来源鸡胸肉用量为4块小鸡胸，未给重量。每面煎炸2—3分钟为范围时间，不设置固定倒计时。",
+      "来源用较大火力加热油，并以两面完全金黄为煎炸判断，未给油温或鸡肉内部温度。保温仅写低温烤箱，未给温度和时长。",
+      "来源允许裹好涂层的鸡排在不立即煎炸时冷藏等待，未指定冷藏时长。配方卡明确总时长40分钟，没有说明另行冷藏等待如何计入。"
+    ],
+    "imageThumb": "assets/dishes/sources/west-024-bbc-good-food/hero.jpg",
+    "imageFull": "assets/dishes/sources/west-024-bbc-good-food/hero.jpg",
+    "source": "https://www.bbcgoodfood.com/recipes/chicken-schnitzel-coleslaw",
+    "media": {
+      "sourceName": "BBC Good Food",
+      "recipePageUrl": "https://www.bbcgoodfood.com/recipes/chicken-schnitzel-coleslaw",
+      "mediaPageUrl": "https://www.bbcgoodfood.com/recipes/chicken-schnitzel-coleslaw",
+      "author": "Good Food team",
+      "rightsNotice": "Copyright Good Food/Immediate; source attribution retained; no open reuse license stated.",
+      "reuseLicense": null,
+      "repositoryCopyAuthorization": "user_confirmed_2026-10-08_remaining44"
+    },
+    "time": 40,
+    "timeBasis": "source",
+    "difficulty": "适中",
+    "defaultServings": 4,
+    "servingsBasis": "source",
     "allergens": [
+      "dairy",
       "egg",
       "wheat"
     ],

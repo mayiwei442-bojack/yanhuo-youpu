@@ -1,0 +1,337 @@
+{
+  "ok": true,
+  "checkedAt": "2026-10-08T17:36:00.782Z",
+  "requested": 44,
+  "accepted": 10,
+  "failed": 11,
+  "awaitingPhotoDecision": 23,
+  "results": [
+    {
+      "recipeId": "cn-012",
+      "status": "failed",
+      "errors": [
+        {
+          "step": "research",
+          "code": "NO_QUALIFYING_COMPLETE_SOURCE",
+          "message": "在两项启用网站限定检索未得到羊肉泡馍完整配方；豆果题名目录页不可访问，不能用羊汤或水盆羊肉替代。",
+          "at": "2026-10-08T12:48:15.022Z"
+        }
+      ]
+    },
+    {
+      "recipeId": "cn-013",
+      "status": "awaiting_photo_decision",
+      "gate": "Final image/evidence acceptance pending"
+    },
+    {
+      "recipeId": "cn-015",
+      "status": "failed",
+      "errors": [
+        {
+          "step": "research",
+          "code": "NO_QUALIFYING_COMPLETE_SOURCE",
+          "message": "Mandatory soup-bone roasting at 400 degrees lacks Fahrenheit/Celsius unit in accessible complete source; no explicit alternative, no unit inferred.",
+          "at": "2026-10-08T12:48:15.120Z"
+        }
+      ]
+    },
+    {
+      "recipeId": "cn-018",
+      "status": "failed",
+      "errors": [
+        {
+          "step": "research",
+          "code": "NO_QUALIFYING_COMPLETE_SOURCE",
+          "message": "豆果候选正常抓取超时，未取得可认证全文；不是因料包或原料表漏项而拒绝。Woks中文、拼音与英文别名检索仅得不同菜品或词汇页，未找到可访问的完整同菜配方。",
+          "at": "2026-10-08T12:48:15.220Z"
+        }
+      ]
+    },
+    {
+      "recipeId": "cn-019",
+      "status": "accepted",
+      "sourceType": "website",
+      "source": "https://thewoksoflife.com/braised-pork-belly-dong-po-rou/",
+      "documentId": "0ff9202a-963e-4b37-a713-4d7d344dd8ab",
+      "images": 6
+    },
+    {
+      "recipeId": "cn-020",
+      "status": "accepted",
+      "sourceType": "website",
+      "source": "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/",
+      "documentId": "2be1111d-2cd1-42dd-b183-990a063573e7",
+      "images": 13
+    },
+    {
+      "recipeId": "cn-022",
+      "status": "failed",
+      "errors": [
+        {
+          "step": "research",
+          "code": "NO_QUALIFYING_COMPLETE_SOURCE",
+          "message": "Woks完整候选为鸭胸煎制的简化Peking Duck，明显区别整鸭北京烤鸭工艺；未擅自改成煎鸭胸。豆果检索无可读取完整匹配。",
+          "at": "2026-10-08T12:48:15.315Z"
+        }
+      ]
+    },
+    {
+      "recipeId": "cn-023",
+      "status": "failed",
+      "errors": [
+        {
+          "step": "research",
+          "code": "NO_QUALIFYING_COMPLETE_SOURCE",
+          "message": "Woks上海双菇鸡翅炖菜属于不同地区和配方变体；未用它替代东北小鸡炖蘑菇。豆果目录页不可读。",
+          "at": "2026-10-08T12:48:15.408Z"
+        }
+      ]
+    },
+    {
+      "recipeId": "cn-025",
+      "status": "failed",
+      "errors": [
+        {
+          "step": "research",
+          "code": "NO_QUALIFYING_COMPLETE_SOURCE",
+          "message": "启用来源检索无可核验西湖醋鱼完整配方；豆果目录不可访问，不以普通糖醋鱼替代。",
+          "at": "2026-10-08T12:48:15.508Z"
+        }
+      ]
+    },
+    {
+      "recipeId": "cn-026",
+      "status": "failed",
+      "errors": [
+        {
+          "step": "research",
+          "code": "NO_QUALIFYING_COMPLETE_SOURCE",
+          "message": "唯一找到的豆果龙井虾仁候选抓取HTTP429/403；未绕过访问控制，不能把索引摘要冒充全文。Woks无对应完整菜谱。",
+          "at": "2026-10-08T12:48:15.604Z"
+        }
+      ]
+    },
+    {
+      "recipeId": "cn-028",
+      "status": "failed",
+      "errors": [
+        {
+          "step": "research",
+          "code": "NO_QUALIFYING_COMPLETE_SOURCE",
+          "message": "豆果候选可读时虾仁等所有主料均无用量，无法从同一来源还原主料比例；后续正常全文访问403。做法中原料表漏项本身可提取，并非独立拒绝理由。Woks别名结果为技术指南、其他菜与无配方的水晶虾仁介绍，未取得完整同菜信源。",
+          "at": "2026-10-08T12:48:15.707Z"
+        }
+      ]
+    },
+    {
+      "recipeId": "cn-031",
+      "status": "accepted",
+      "sourceType": "website",
+      "source": "https://thewoksoflife.com/home-style-tofu-stir-fry/",
+      "documentId": "3ef0f122-545b-407b-af57-d247126d1390",
+      "images": 8
+    },
+    {
+      "recipeId": "cn-035",
+      "status": "accepted",
+      "sourceType": "website",
+      "source": "https://thewoksoflife.com/winter-melon-soup-pork-ribs/",
+      "documentId": "fc8be572-9638-48b4-8fb1-b416a9893e56",
+      "images": 8
+    },
+    {
+      "recipeId": "cn-037",
+      "status": "failed",
+      "errors": [
+        {
+          "step": "research",
+          "code": "NO_QUALIFYING_COMPLETE_SOURCE",
+          "message": "配置两项网站未获得佛跳墙完整配方；豆果目录不可读；不以菌菇汤等近名来源补齐。",
+          "at": "2026-10-08T12:48:15.812Z"
+        }
+      ]
+    },
+    {
+      "recipeId": "cn-039",
+      "status": "accepted",
+      "sourceType": "website",
+      "source": "https://thewoksoflife.com/hainanese-chicken-rice/",
+      "documentId": "e9ce4921-06d9-457d-b816-2eb881079e56",
+      "images": 21
+    },
+    {
+      "recipeId": "cn-040",
+      "status": "accepted",
+      "sourceType": "website",
+      "source": "https://thewoksoflife.com/dan-dan-noodles/",
+      "documentId": "72ce298f-8af6-4c11-860b-dd60f9445054",
+      "images": 11
+    },
+    {
+      "recipeId": "cn-043",
+      "status": "failed",
+      "errors": [
+        {
+          "step": "research",
+          "code": "NO_QUALIFYING_COMPLETE_SOURCE",
+          "message": "豆果重庆小面候选页面抓取403；Woks结果为酸辣粉或上海面条，不匹配。",
+          "at": "2026-10-08T12:48:15.908Z"
+        }
+      ]
+    },
+    {
+      "recipeId": "cn-044",
+      "status": "accepted",
+      "sourceType": "website",
+      "source": "https://thewoksoflife.com/steamed-shanghai-soup-dumplings-xiaolongbao/",
+      "documentId": "6d4bc2d5-d6db-4913-b97f-a04179a32c3b",
+      "images": 10
+    },
+    {
+      "recipeId": "cn-049",
+      "status": "awaiting_photo_decision",
+      "gate": "Final image/evidence acceptance pending"
+    },
+    {
+      "recipeId": "cn-050",
+      "status": "failed",
+      "errors": [
+        {
+          "step": "research",
+          "code": "NO_QUALIFYING_COMPLETE_SOURCE",
+          "message": "Woks鸡蛋饼正文明确区分煎饼与鸡蛋饼；其链接JianBingApproximation用速冻葱油饼代替面糊并省略果子，属于不同变体；另一个链接只是游记无配方。豆果目录不可读。",
+          "at": "2026-10-08T12:48:16.001Z"
+        }
+      ]
+    },
+    {
+      "recipeId": "cn-051",
+      "status": "accepted",
+      "sourceType": "website",
+      "source": "https://thewoksoflife.com/chinese-bbq-pork-cha-siu/",
+      "documentId": "16f8f429-96c0-467c-ac52-22297c424ccb",
+      "images": 9
+    },
+    {
+      "recipeId": "cn-053",
+      "status": "accepted",
+      "sourceType": "website",
+      "source": "https://thewoksoflife.com/salt-baked-chicken/",
+      "documentId": "2a659456-2a0f-4e3e-b07f-569cf91e2e15",
+      "images": 10
+    },
+    {
+      "recipeId": "west-002",
+      "status": "awaiting_photo_decision",
+      "gate": "Final image/evidence acceptance pending"
+    },
+    {
+      "recipeId": "west-005",
+      "status": "awaiting_photo_decision",
+      "gate": "Final image/evidence acceptance pending"
+    },
+    {
+      "recipeId": "west-007",
+      "status": "awaiting_photo_decision",
+      "gate": "Final image/evidence acceptance pending"
+    },
+    {
+      "recipeId": "west-008",
+      "status": "awaiting_photo_decision",
+      "gate": "Final image/evidence acceptance pending"
+    },
+    {
+      "recipeId": "west-009",
+      "status": "awaiting_photo_decision",
+      "gate": "Final image/evidence acceptance pending"
+    },
+    {
+      "recipeId": "west-013",
+      "status": "awaiting_photo_decision",
+      "gate": "Final image/evidence acceptance pending"
+    },
+    {
+      "recipeId": "west-014",
+      "status": "awaiting_photo_decision",
+      "gate": "Final image/evidence acceptance pending"
+    },
+    {
+      "recipeId": "west-015",
+      "status": "awaiting_photo_decision",
+      "gate": "Final image/evidence acceptance pending"
+    },
+    {
+      "recipeId": "west-016",
+      "status": "awaiting_photo_decision",
+      "gate": "Final image/evidence acceptance pending"
+    },
+    {
+      "recipeId": "west-017",
+      "status": "awaiting_photo_decision",
+      "gate": "Final image/evidence acceptance pending"
+    },
+    {
+      "recipeId": "west-018",
+      "status": "awaiting_photo_decision",
+      "gate": "Final image/evidence acceptance pending"
+    },
+    {
+      "recipeId": "west-019",
+      "status": "awaiting_photo_decision",
+      "gate": "Final image/evidence acceptance pending"
+    },
+    {
+      "recipeId": "west-021",
+      "status": "awaiting_photo_decision",
+      "gate": "Final image/evidence acceptance pending"
+    },
+    {
+      "recipeId": "west-022",
+      "status": "awaiting_photo_decision",
+      "gate": "Final image/evidence acceptance pending"
+    },
+    {
+      "recipeId": "west-023",
+      "status": "awaiting_photo_decision",
+      "gate": "Final image/evidence acceptance pending"
+    },
+    {
+      "recipeId": "west-024",
+      "status": "accepted",
+      "sourceType": "website",
+      "source": "https://www.bbcgoodfood.com/recipes/chicken-schnitzel-coleslaw",
+      "documentId": "997dbfb5-d24d-4157-9f02-67d8b6161c0b",
+      "images": 7
+    },
+    {
+      "recipeId": "west-025",
+      "status": "awaiting_photo_decision",
+      "gate": "Final image/evidence acceptance pending"
+    },
+    {
+      "recipeId": "west-026",
+      "status": "awaiting_photo_decision",
+      "gate": "Final image/evidence acceptance pending"
+    },
+    {
+      "recipeId": "west-027",
+      "status": "awaiting_photo_decision",
+      "gate": "Final image/evidence acceptance pending"
+    },
+    {
+      "recipeId": "west-028",
+      "status": "awaiting_photo_decision",
+      "gate": "Final image/evidence acceptance pending"
+    },
+    {
+      "recipeId": "west-029",
+      "status": "awaiting_photo_decision",
+      "gate": "Final image/evidence acceptance pending"
+    },
+    {
+      "recipeId": "west-030",
+      "status": "awaiting_photo_decision",
+      "gate": "Final image/evidence acceptance pending"
+    }
+  ]
+}

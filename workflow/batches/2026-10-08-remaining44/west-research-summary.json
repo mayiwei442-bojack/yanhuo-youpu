@@ -1,0 +1,181 @@
+{
+  "createdAt": "2026-10-08T12:16:53.922Z",
+  "targets": [
+    {
+      "recipeId": "west-002",
+      "status": "researched",
+      "sources": 1,
+      "selected": "BBC Good Food",
+      "documentId": "0b549380-3644-497d-bf63-eebb94610fbe",
+      "stepPhotos": 0
+    },
+    {
+      "recipeId": "west-005",
+      "status": "researched",
+      "sources": 2,
+      "selected": "BBC Good Food",
+      "documentId": "ef51a7d5-65e7-4c2c-abc1-783bdcf65a01",
+      "stepPhotos": 0
+    },
+    {
+      "recipeId": "west-007",
+      "status": "researched",
+      "sources": 1,
+      "selected": "BBC Good Food",
+      "documentId": "b17de88d-e534-485b-a5dd-eb55f7ceaae9",
+      "stepPhotos": 0
+    },
+    {
+      "recipeId": "west-008",
+      "status": "researched",
+      "sources": 1,
+      "selected": "BBC Good Food",
+      "documentId": "4d7a1ee5-9fe3-4d6b-9a06-bb51a2dd5b8e",
+      "stepPhotos": 0
+    },
+    {
+      "recipeId": "west-009",
+      "status": "researched",
+      "sources": 1,
+      "selected": "Serious Eats",
+      "documentId": "29fa3b16-9237-46cd-8135-71280c566512",
+      "stepPhotos": 0
+    },
+    {
+      "recipeId": "west-013",
+      "status": "researched",
+      "sources": 3,
+      "selected": "BBC Good Food",
+      "documentId": "285a92a5-e04a-4e85-8db7-0151b4f6eeaa",
+      "stepPhotos": 0
+    },
+    {
+      "recipeId": "west-014",
+      "status": "researched",
+      "sources": 2,
+      "selected": "BBC Good Food",
+      "documentId": "a32460d0-637d-4400-b924-2b83638166db",
+      "stepPhotos": 0
+    },
+    {
+      "recipeId": "west-015",
+      "status": "researched",
+      "sources": 2,
+      "selected": "BBC Good Food",
+      "documentId": "e3137c6d-c73d-445d-9aa0-41e3d51a21cc",
+      "stepPhotos": 0
+    },
+    {
+      "recipeId": "west-016",
+      "status": "researched",
+      "sources": 2,
+      "selected": "BBC Good Food",
+      "documentId": "3131ae41-b095-414d-9e1d-4f7a23a1529a",
+      "stepPhotos": 0
+    },
+    {
+      "recipeId": "west-017",
+      "status": "researched",
+      "sources": 2,
+      "selected": "BBC Good Food",
+      "documentId": "c49fed11-a89a-4f40-bcae-0021fde52d6a",
+      "stepPhotos": 0
+    },
+    {
+      "recipeId": "west-018",
+      "status": "researched",
+      "sources": 2,
+      "selected": "BBC Good Food",
+      "documentId": "c8b51089-81ed-46f3-bc25-dcfbf2cfe9a8",
+      "stepPhotos": 0
+    },
+    {
+      "recipeId": "west-019",
+      "status": "researched",
+      "sources": 2,
+      "selected": "BBC Good Food",
+      "documentId": "0e1996bd-a908-4482-aaa6-4760db1ad1bf",
+      "stepPhotos": 0
+    },
+    {
+      "recipeId": "west-021",
+      "status": "researched",
+      "sources": 2,
+      "selected": "BBC Good Food",
+      "documentId": "4e882fb4-43e9-4577-bdae-8a9a158c37be",
+      "stepPhotos": 0
+    },
+    {
+      "recipeId": "west-022",
+      "status": "researched",
+      "sources": 1,
+      "selected": "BBC Good Food",
+      "documentId": "53cdcee1-2c01-47c9-97f0-fbbfc2747e75",
+      "stepPhotos": 0
+    },
+    {
+      "recipeId": "west-023",
+      "status": "researched",
+      "sources": 1,
+      "selected": "BBC Good Food",
+      "documentId": "736060f3-bc3f-4a0e-ba77-bce2fb6ba84e",
+      "stepPhotos": 0
+    },
+    {
+      "recipeId": "west-024",
+      "status": "researched",
+      "sources": 2,
+      "selected": "BBC Good Food",
+      "documentId": "997dbfb5-d24d-4157-9f02-67d8b6161c0b",
+      "stepPhotos": 6
+    },
+    {
+      "recipeId": "west-025",
+      "status": "researched",
+      "sources": 2,
+      "selected": "BBC Good Food",
+      "documentId": "3e95f7a2-389f-41aa-b675-7347986de84d",
+      "stepPhotos": 0
+    },
+    {
+      "recipeId": "west-026",
+      "status": "researched",
+      "sources": 1,
+      "selected": "BBC Good Food",
+      "documentId": "78419c8b-cac5-4313-9273-1d5fc594a696",
+      "stepPhotos": 0
+    },
+    {
+      "recipeId": "west-027",
+      "status": "researched",
+      "sources": 2,
+      "selected": "BBC Good Food",
+      "documentId": "5f01ee84-d58b-48b2-b9d7-acf5d10b5629",
+      "stepPhotos": 0
+    },
+    {
+      "recipeId": "west-028",
+      "status": "researched",
+      "sources": 1,
+      "selected": "BBC Good Food",
+      "documentId": "9e9d892c-09f7-42fb-9ee3-691ff26a665c",
+      "stepPhotos": 0
+    },
+    {
+      "recipeId": "west-029",
+      "status": "researched",
+      "sources": 1,
+      "selected": "BBC Good Food",
+      "documentId": "2edf80e5-bddc-42fb-ae3c-5fbf8804856c",
+      "stepPhotos": 0
+    },
+    {
+      "recipeId": "west-030",
+      "status": "researched",
+      "sources": 2,
+      "selected": "BBC Good Food",
+      "documentId": "7417b13e-b1bd-4ded-8dba-4675e86126cd",
+      "stepPhotos": 0
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "recipeId": "cn-015",
+  "reviewedAt": "2026-10-08T12:41:18.329553+00:00",
+  "status": "qualification_conflict",
+  "sourceUrl": "https://thewoksoflife.com/lanzhou-beef-noodle-soup/",
+  "criticalOmission": "Mandatory soup-bone roasting temperature is 400 degrees without Fahrenheit/Celsius. No unit inferred.",
+  "sourceProof": {
+    "cachedFile": "cn-015.web-extract.txt",
+    "bodyLine": 61,
+    "cardLine": 171,
+    "literal": "Roast them on a baking sheet at 400 degrees for 45 minutes."
+  },
+  "explicitAlternative": false,
+  "alternativeAssessment": "Leftover roasted chicken carcass replaces chicken component only; source still requires roasting soup bones.",
+  "unitSearch": {
+    "patterns": [
+      "Fahrenheit",
+      "Celsius",
+      "°F",
+      "°C"
+    ],
+    "matches": 0,
+    "scope": "cached complete webpage text/body/card"
+  },
+  "jsonLd": "not present in cached text; raw HTML unavailable from previous ordinary 403; not claimed checked",
+  "frozenFilesModified": false,
+  "databaseModified": false,
+  "recommendation": "Hold editing/publication until source-supported unit or explicitly authorized incomplete-source exception; parent decides invalidation of existing document."
+}

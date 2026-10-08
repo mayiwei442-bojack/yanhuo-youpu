@@ -1,0 +1,65 @@
+{
+  "runId": "2026-10-08-remaining44-west-002",
+  "recipeId": "west-002",
+  "recipeName": "玛格丽特披萨",
+  "category": "western",
+  "status": "in_progress",
+  "startedAt": "2026-10-08T11:56:52.318Z",
+  "completedAt": null,
+  "steps": {
+    "research": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "evidencePath": "workflow/batches/2026-10-08-remaining44/west-002.base-evidence.json",
+        "evidencePackageHash": "72040f87626762457de3c46a2eb2dc14cbf2159b7418c0c7abdcdfbf235a372f",
+        "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/pizza-margherita-4-easy-steps",
+        "sourceMode": "single_source",
+        "singleSourceReason": "Exact-name and alias KB query first; all84actual book records checked, no matching Western recipe. Enabled BBC and Serious Eats alternatives attempted; only one independent complete coherent source remains eligible. Other inaccessible, materially different, or internally conflicting variants are retained in audit and never used to supplement it.",
+        "publicationGate": "Final image/evidence acceptance pending"
+      }
+    },
+    "ingestion": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "selectedDocumentId": "0b549380-3644-497d-bf63-eebb94610fbe",
+        "documentIds": [
+          "0b549380-3644-497d-bf63-eebb94610fbe"
+        ],
+        "ragEvidence": 6
+      }
+    },
+    "edit": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "validator": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "review": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "build": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "gitPush": {
+      "status": "pending",
+      "attempts": 0
+    }
+  },
+  "sources": [
+    {
+      "name": "BBC Good Food",
+      "url": "https://www.bbcgoodfood.com/recipes/pizza-margherita-4-easy-steps",
+      "status": "success",
+      "failureReason": null
+    }
+  ],
+  "errors": [],
+  "branch": "codex/recipe-automation",
+  "commit": null
+}

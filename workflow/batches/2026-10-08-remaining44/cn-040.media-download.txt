@@ -1,0 +1,154 @@
+{
+  "recipeId": "cn-040",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-12.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-040-woks/hero.jpg",
+      "sha256": "89bb97be22ff4a39645c25e2a6b96edd1f12e4cac71095a7bdc859667b2bcbce",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 274178
+    },
+    {
+      "role": "step",
+      "stepOrder": 1,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2020/07/chili-oil-recipe-17.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-040-woks/step-1-1.jpg",
+      "sha256": "cc5a1cae7ff0258df5add806c80b2ca4bf72512ac13b675674bbfe704742a50d",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 68264
+    },
+    {
+      "role": "step",
+      "stepOrder": 1,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2026/04/dan-dan-noodles-4-edited-1.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-040-woks/step-1-2.jpg",
+      "sha256": "abc821d17a602113c8b8fda06577b5697b6a1d4f2a1a0697c9508c9338492722",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 67920
+    },
+    {
+      "role": "step",
+      "stepOrder": 2,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-5.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-040-woks/step-2-3.jpg",
+      "sha256": "43283d928fc98adc04d4e6fc381495ea41bf06ac83d852a4d07a9dd568a7d989",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 275768
+    },
+    {
+      "role": "step",
+      "stepOrder": 2,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-6.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-040-woks/step-2-4.jpg",
+      "sha256": "1e44fa9b0bb9ea71a83e67c6db991ba82764ad17041087ccff10e7fb0febfc56",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 303138
+    },
+    {
+      "role": "step",
+      "stepOrder": 3,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-3.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-040-woks/step-3-5.jpg",
+      "sha256": "a16cd55c34c45b0170c208cdbf0e6783d8a1787a74248f775487d0dd9e9a8f30",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 44515
+    },
+    {
+      "role": "step",
+      "stepOrder": 3,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-1.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-040-woks/step-3-6.jpg",
+      "sha256": "b547579c5de7855b80ddfa79c68415d33e0e17141ae755aa41aa18170fbce3d1",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 39004
+    },
+    {
+      "role": "step",
+      "stepOrder": 4,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-7.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-040-woks/step-4-7.jpg",
+      "sha256": "a348208c8254381eb6176c9a76a3cf99a9b76e871004580b30544db916b1f44d",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 171304
+    },
+    {
+      "role": "step",
+      "stepOrder": 5,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-8.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-040-woks/step-5-8.jpg",
+      "sha256": "e581fb8401e196c220779dac71e2e8626fece5f2740afda673274356d9d45fc2",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 207614
+    },
+    {
+      "role": "step",
+      "stepOrder": 5,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-9.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-040-woks/step-5-9.jpg",
+      "sha256": "3975048e96a476949faaca35d722ce63fe8ecca4ef93e7ac1c25c0acc7dc853b",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 275584
+    },
+    {
+      "role": "step",
+      "stepOrder": 5,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-10.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-040-woks/step-5-10.jpg",
+      "sha256": "e0bb6d5d81d3ebaeba5d890ed14c4af831eab9e51d6472f1feb9f888611a5b39",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 263794
+    },
+    {
+      "role": "step",
+      "stepOrder": 5,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/ningbo-peanuts-seaweed-7.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-040-woks/step-5-11.jpg",
+      "sha256": "15fd17aaf8e5a9d2ee868a5efc37c41a405c3fab25b396180190ce5d19f42db7",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 158356
+    },
+    {
+      "role": "step",
+      "stepOrder": 5,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-11.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-040-woks/step-5-12.jpg",
+      "sha256": "bba0b95611dcf7b9143fa587f0f54032ba71c0027822d8ed253072b735974224",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 289720
+    },
+    {
+      "role": "step",
+      "stepOrder": 6,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-14.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-040-woks/step-6-13.jpg",
+      "sha256": "214a0d5a73e319aa0c9aa4a5e6817f628aa4d8a937582ff49724acc24d631145",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 206568
+    },
+    {
+      "role": "step",
+      "stepOrder": 6,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/11/dan-dan-noodles-13.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-040-woks/step-6-14.jpg",
+      "sha256": "0b03bf94c7e188ece6a36d66adfab48016545e71a9b33e0b5ec5fae1772d130e",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 408412
+    }
+  ]
+}

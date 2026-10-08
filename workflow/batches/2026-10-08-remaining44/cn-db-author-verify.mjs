@@ -1,0 +1,5 @@
+import {readFile,writeFile} from 'node:fs/promises';
+import {createConfiguredSupabaseClient} from '../../../src/rag/supabase-client.mjs';import {createWindowsHttpFetch} from '../../../src/rag/windows-http.mjs';
+const c=await createConfiguredSupabaseClient({fetchImpl:createWindowsHttpFetch()});const out=[];
+for(const id of ['cn-019','cn-020','cn-031','cn-035','cn-039','cn-040','cn-044','cn-051','cn-053']){const e=JSON.parse(await readFile(new URL(`./${id}.base-evidence.json`,import.meta.url)));const s=e.sources[0];const d=(await c.select('kb_documents',{filters:{id:s.documentId},limit:1}))[0];out.push({recipeId:id,documentId:d.id,normalizedAuthor:d.normalized_json.source.author??null,mediaMetadataAuthor:d.normalized_json.metadata?.mediaReferences?.author??null,expectedAuthor:s.media?.author,assessment:(!d.normalized_json.source.author||d.normalized_json.source.author===s.media?.author)?'No incorrect author stored; null when not known at ingestion.':'ERROR_AUTHOR_MISMATCH'});}
+await writeFile(new URL('./cn-db-author-verification.json',import.meta.url),JSON.stringify({verifiedAt:new Date().toISOString(),documents:out},null,2));console.log(out);

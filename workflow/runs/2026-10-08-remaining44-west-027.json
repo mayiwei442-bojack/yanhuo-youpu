@@ -1,0 +1,71 @@
+{
+  "runId": "2026-10-08-remaining44-west-027",
+  "recipeId": "west-027",
+  "recipeName": "炸鱼塔可",
+  "category": "western",
+  "status": "in_progress",
+  "startedAt": "2026-10-08T11:56:52.318Z",
+  "completedAt": null,
+  "steps": {
+    "research": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "evidencePath": "workflow/batches/2026-10-08-remaining44/west-027.base-evidence.json",
+        "evidencePackageHash": "5e5544835805346baed5f7d93922cdfb63c74a04f785c126fce85200048a353a",
+        "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/beer-battered-fish-tacos",
+        "sourceMode": "multi_source",
+        "publicationGate": "Final image/evidence acceptance pending"
+      }
+    },
+    "ingestion": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "selectedDocumentId": "5f01ee84-d58b-48b2-b9d7-acf5d10b5629",
+        "documentIds": [
+          "5f01ee84-d58b-48b2-b9d7-acf5d10b5629",
+          "c4ca8acd-5cf6-4d86-906f-deef06be087d"
+        ],
+        "ragEvidence": 11
+      }
+    },
+    "edit": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "validator": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "review": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "build": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "gitPush": {
+      "status": "pending",
+      "attempts": 0
+    }
+  },
+  "sources": [
+    {
+      "name": "BBC Good Food",
+      "url": "https://www.bbcgoodfood.com/recipes/beer-battered-fish-tacos",
+      "status": "success",
+      "failureReason": null
+    },
+    {
+      "name": "Serious Eats",
+      "url": "https://www.seriouseats.com/crispy-fried-fish-tacos-recipe",
+      "status": "success",
+      "failureReason": null
+    }
+  ],
+  "errors": [],
+  "branch": "codex/recipe-automation",
+  "commit": null
+}

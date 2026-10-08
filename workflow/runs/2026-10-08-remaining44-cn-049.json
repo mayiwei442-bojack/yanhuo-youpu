@@ -1,0 +1,65 @@
+{
+  "runId": "2026-10-08-remaining44-cn-049",
+  "recipeId": "cn-049",
+  "recipeName": "肉夹馍",
+  "category": "chinese",
+  "status": "in_progress",
+  "startedAt": "2026-10-08T11:56:52.318Z",
+  "completedAt": null,
+  "steps": {
+    "research": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "evidencePath": "workflow/batches/2026-10-08-remaining44/cn-049.base-evidence.json",
+        "evidencePackageHash": "4be8c4899c3aed9f08d3708e99bb80af4ee5ab94ba29e2b786781734453d4c86",
+        "selectedSourceUrl": "https://thewoksoflife.com/chinese-hamburgers-rou-jia-mo/",
+        "sourceMode": "single_source",
+        "singleSourceReason": "已读取数据库全部84份书籍菜谱并按名称、别名和正文核对，本菜无完全匹配书籍信源。已检索配置豆果来源，其他候选如有见notes；保留可访问完整Woks整份配方。",
+        "publicationGate": "Final image/evidence acceptance pending"
+      }
+    },
+    "ingestion": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "selectedDocumentId": "d45ed17d-216f-4704-9a67-6d247f9705e5",
+        "documentIds": [
+          "d45ed17d-216f-4704-9a67-6d247f9705e5"
+        ],
+        "ragEvidence": 8
+      }
+    },
+    "edit": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "validator": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "review": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "build": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "gitPush": {
+      "status": "pending",
+      "attempts": 0
+    }
+  },
+  "sources": [
+    {
+      "name": "The Woks of Life",
+      "url": "https://thewoksoflife.com/chinese-hamburgers-rou-jia-mo/",
+      "status": "success",
+      "failureReason": null
+    }
+  ],
+  "errors": [],
+  "branch": "codex/recipe-automation",
+  "commit": null
+}

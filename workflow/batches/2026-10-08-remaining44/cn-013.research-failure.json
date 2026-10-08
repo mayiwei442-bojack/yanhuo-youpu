@@ -1,0 +1,57 @@
+{
+  "recipeId": "cn-013",
+  "recipeName": "胡辣汤",
+  "category": "chinese",
+  "status": "research_complete_text_media_pending",
+  "failedStage": null,
+  "createdAt": "2026-10-08T12:23:23.822006+00:00",
+  "reason": "原先文本不完整判断已撤回；完整同来源料包版可执行，等待照片核验/授权。",
+  "bookSearch": {
+    "auditFile": "cn-book-inventory.json",
+    "scannedDocuments": 84,
+    "usableDocuments": 79,
+    "exactOrAcceptableAliasMatches": 0,
+    "excludedStatuses": [
+      "superseded",
+      "rejected",
+      "invalid"
+    ],
+    "assessment": "No complete same-dish recipe in current database books; no book supplementation fabricated."
+  },
+  "attemptedSources": [
+    {
+      "source": "豆果美食",
+      "url": "https://www.douguo.com/cookbook/3300061.html",
+      "result": "HTTP200; 4listeditems,1paragraph method; incomplete/oilpack andseasonings omittedfromlist"
+    },
+    {
+      "source": "豆果美食",
+      "url": "https://www.douguo.com/cookbook/2472236.html",
+      "result": "normalwebinaccessible; searchindexedcontentpromotespaidcourse, notfullmethod"
+    },
+    {
+      "source": "The Woks of Life",
+      "query": "hu la tang site:thewoksoflife.com",
+      "result": "no exact complete recipe"
+    }
+  ],
+  "evidencePackage": "cn-013.base-evidence.json",
+  "ingestion": {
+    "ok": true,
+    "completedAt": "2026-10-08T12:37:46.887Z",
+    "documents": [
+      {
+        "documentId": "64811085-e1d5-4a9b-a1fc-ddb00b282459",
+        "url": "https://www.douguo.com/cookbook/3300061.html",
+        "deduplicated": false,
+        "embedded": true,
+        "chunkCount": 5,
+        "model": "voyage-4",
+        "dimension": 1024,
+        "semanticCount": 5,
+        "hybridCount": 5
+      }
+    ]
+  },
+  "assessmentSupersededBy": "cn-013.completeness-reaudit.json"
+}

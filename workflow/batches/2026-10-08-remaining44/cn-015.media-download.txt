@@ -1,0 +1,24 @@
+{
+  "recipeId": "cn-015",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/10/lanzhou-beef-noodle-soup-6.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-015-woks/hero.jpg",
+      "sha256": "cdb8f76c434d8462513850fab6f4721480a4d27ac635c7e28331bad5d98f91a2",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 91374
+    },
+    {
+      "role": "step",
+      "stepOrder": 4,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/10/lanzhou-beef-noodle-soup-1.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-015-woks/step-4-chili-oil.jpg",
+      "sha256": "3622be81e9b699f026403829e86e3c4d1e039104bda4435a9896c009e421c7bf",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 68366
+    }
+  ]
+}

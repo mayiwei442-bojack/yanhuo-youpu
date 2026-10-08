@@ -1,0 +1,165 @@
+{
+  "recipeId": "west-002",
+  "attempts": [
+    {
+      "url": "https://www.bbcgoodfood.com/recipes/pizza-margherita-4-easy-steps",
+      "status": 200,
+      "bytes": 586531
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://www.bbcgoodfood.com/recipes/pizza-margherita-4-easy-steps",
+      "recipe": {
+        "@context": "https://schema.org",
+        "@id": "https://www.bbcgoodfood.com/recipes/pizza-margherita-4-easy-steps#Recipe",
+        "@type": "Recipe",
+        "description": "Even a novice cook can master the art of perfect pizza with our step-by-step guide. This homemade pizza recipe features a simple pizza dough and toppings.",
+        "image": [
+          {
+            "@type": "ImageObject",
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-51643_11-2f4a2cc.jpg?resize=440,400",
+            "width": 440,
+            "height": 400
+          }
+        ],
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.bbcgoodfood.com/recipes/pizza-margherita-4-easy-steps"
+        },
+        "name": "Pizza Margherita in 4 easy steps",
+        "url": "https://www.bbcgoodfood.com/recipes/pizza-margherita-4-easy-steps",
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Good Food team",
+            "url": "https://www.bbcgoodfood.com/author/goodfood"
+          }
+        ],
+        "dateModified": "2026-07-29T16:16:06+01:00",
+        "datePublished": "2009-09-30T09:48:16+01:00",
+        "headline": "Pizza Margherita in 4 easy steps",
+        "keywords": "Basil, Beginners, Bread, Cherry tomato, Cherry tomatoes, Dough, Easy, Good Food, Italy, Kids cooking, Make ahead, Margherita, Mozzarella, Passata, Pizza, Step-by-step, Strong bread flour, Yeast",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Good Food",
+          "url": "https://www.bbcgoodfood.com",
+          "logo": {
+            "@type": "ImageObject",
+            "height": 325,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2026/02/goodfood.logo-f37096c.png?resize=1312,325",
+            "width": 1312
+          }
+        },
+        "cookTime": "PT10M",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "431 calories",
+          "fatContent": "15 grams fat",
+          "saturatedFatContent": "7 grams saturated fat",
+          "carbohydrateContent": "59 grams carbohydrates",
+          "sugarContent": "2 grams sugar",
+          "fiberContent": "3 grams fiber",
+          "proteinContent": "19 grams protein",
+          "sodiumContent": "1.9 milligram of sodium"
+        },
+        "recipeCategory": "Buffet, Dinner, Main course, Snack, Supper",
+        "recipeCuisine": "Italian",
+        "recipeIngredient": [
+          "300g strong bread flour",
+          "1 tsp instant yeast (from a sachet or a tub)",
+          "1 tsp salt",
+          "1 tbsp olive oil plus extra for drizzling",
+          "100ml passata",
+          "handful fresh basil or 1 tsp dried",
+          "1 garlic clove crushed",
+          "125g ball mozzarella sliced",
+          "handful grated or shaved parmesan (or vegetarian alternative)",
+          "handful of cherry tomatoes halved",
+          "handful of basil leaves (optional)"
+        ],
+        "recipeInstructions": [
+          {
+            "@type": "HowToStep",
+            "text": "Make the base: Put the flour into a large bowl, then stir in the yeast and salt. Make a well, pour in 200ml warm water and the olive oil and bring together with a wooden spoon until you have a soft, fairly wet dough. Turn onto a lightly floured surface and knead for 5 mins until smooth. Cover with a tea towel and set aside. You can leave the dough to rise if you like, but it’s not essential for a thin crust."
+          },
+          {
+            "@type": "HowToStep",
+            "text": "Make the sauce: Mix the passata, basil and crushed garlic together, then season to taste. Leave to stand at room temperature while you get on with shaping the base."
+          },
+          {
+            "@type": "HowToStep",
+            "text": "Roll out the dough: if you’ve let the dough rise, give it a quick knead, then split into two balls. On a floured surface, roll out the dough into large rounds, about 25cm across, using a rolling pin. The dough needs to be very thin as it will rise in the oven. Lift the rounds onto two floured baking sheets."
+          },
+          {
+            "@type": "HowToStep",
+            "text": "Top and bake: heat the oven to 240C/220C fan/gas 8. Put another baking sheet or an upturned baking tray in the oven on the top shelf. Smooth sauce over bases with the back of a spoon. Scatter with cheese and tomatoes, drizzle with olive oil and season. Put one pizza, still on its baking sheet, on top of the preheated sheet or tray. Bake for 8-10 mins until crisp. Serve with a little more olive oil, and basil leaves if using. Repeat step for remaining pizza."
+          }
+        ],
+        "recipeYield": "Makes 2 pizzas, serves 4",
+        "suitableForDiet": "https://schema.org/VegetarianDiet",
+        "totalTime": "PT35M"
+      },
+      "images": [
+        {
+          "alt": "Good Food logo in black",
+          "src": "https://images.immediate.co.uk/production/volatile/sites/30/2026/02/goodfood.logo-f37096c.png?quality=90&resize=120,30",
+          "parentText": ""
+        },
+        {
+          "alt": "Good Food logo in black",
+          "src": "https://images.immediate.co.uk/production/volatile/sites/30/2026/02/goodfood.logo-f37096c.png?quality=90&resize=600,149",
+          "parentText": ""
+        },
+        {
+          "alt": "",
+          "src": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-51643_11-2f4a2cc.jpg?quality=90&resize=500,454",
+          "parentText": ""
+        },
+        {
+          "alt": "Buffalo cauliflower served with ranch dip and celery sticks",
+          "src": "https://images.immediate.co.uk/production/volatile/sites/30/2020/10/Buffalo-cauliflower-7825216.jpg?quality=90&resize=93,84",
+          "parentText": ""
+        },
+        {
+          "alt": "Cheesy garlic bread",
+          "src": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-424648_11-de85439.jpg?quality=90&resize=93,84",
+          "parentText": ""
+        },
+        {
+          "alt": "Good Good Trust Campaign",
+          "src": "https://images.immediate.co.uk/production/volatile/sites/30/2026/08/SM00387GF-TrustGF-brandsite-footer-promo-880x800-c729250.jpg?quality=90&resize=880,880",
+          "parentText": ""
+        },
+        {
+          "alt": "",
+          "src": "https://images.immediate.co.uk/production/volatile/sites/30/2026/03/Good-Food-App-Footer-Prepped-Not-Processed-01ed405.png?quality=90&resize=93,84",
+          "parentText": ""
+        },
+        {
+          "alt": "",
+          "src": "https://images.immediate.co.uk/production/volatile/sites/30/2026/09/footer-promo-880x800-1550004.png?quality=90&resize=93,84",
+          "parentText": ""
+        },
+        {
+          "alt": "Good Food Podcast with Samuel Goldsmith cover",
+          "src": "https://images.immediate.co.uk/production/volatile/sites/30/2024/12/Screenshot-2025-01-07-at-09.14.23-cf184bf.png?quality=90&resize=93,84",
+          "parentText": ""
+        },
+        {
+          "alt": "Good Food logo in white colour",
+          "src": "https://images.immediate.co.uk/production/volatile/sites/30/2026/03/GF-logo-white-01-5a856e9.png?quality=90&resize=220,51",
+          "parentText": ""
+        },
+        {
+          "alt": "Immediate company logo in white",
+          "src": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/ImmediateLogoRGBWhite-204b567.png?quality=90&resize=3873,767",
+          "parentText": ""
+        }
+      ],
+      "pageText": "Pizza Margherita in 4 easy steps recipe | Good Food\nSkip to main content\nSubscribe\nSustainability\nGood Food Shows\nDownload our app\nNewsletters\nRecipes\nBack to\nMain menu\nNew and trending\nBack to\nRecipes\n7 day health reset\nSausage pastas\nCreamy soups\nQuick family dinners\nNewsletter recipes\nBack to\nRecipes\nFast midweek meals\nBatch cooking ideas\nSign up today\nWhatsApp feed\nWhat to cook\nBack to\nRecipes\nQuick and easy\nEveryday recipes\nFamily recipes\nOne-pots\nSlow cooker recipes\nTraybakes\nAir fryer recipes\nBatch cooking\nAll inspiration\nOccasion recipes\nBack to\nRecipes\nBack to school\nHalloween\nBonfire night\nMeal type\nBack to\nRecipes\nBreakfast\nLunch\nDinner\nBrowse all meal types\nDiet type\nBack to\nRecipes\nVegan\nVegetarian\nBrowse all diet types\nExplore\nBack to\nRecipes\nIngredients\nCuisines\nChef recipes\nExplore more\nHealth\nBack to\nMain menu\nHealth hub\nSubscribe\nBack to\nHealth\nNutracheck\nFree health newsletter\nFitness\nBack to\nHealth\nProtein 101\nMarathon meal plans\nYour health\nBack to\nHealth\nWomen's health\nImprove digestion\nHealthy eating\nBack to\nHealth\nVitamins and minerals\nWhat to eat\nWellbeing\nBack to\nHealth\nSleep better\nEat for energy\nWhat to buy\nBack to\nMain menu\nTrending\nBack to\nWhat to buy\nBest induction pans\nBest stand mixers\nBest kettles\nBest coffee machines\nHow we test\nMore reviews\nBack to\nWhat to buy\nBest pan sets\nBest knife sets\nBest frying pans\nBest collagen supplement\nBest coffee beans\nCoffee pod machines\nAll things coffee\nTaste tests\nDrinks reviews\nGift guides\nBudget\nBack to\nMain menu\nBatch cooking\nBack to\nBudget\nBudget batch cooking\nHealthy batch cooking\nVeggie batch cooking\nLeftovers ideas\nBack to\nBudget\nLeftover chicken recipes\nLeftover rice recipes\nLeftover potato recipes\nZero-waste\nBack to\nBudget\nFridge raid recipes\n5 waste-free meals\nPlanet-friendly cooking\nBudget meal plans\nBack to\nBudget\nStudent meal plan\nQuick family meal plan\n5-ingredient meal plan\nFreezable feasts\nBack to\nBudget\nFreezable family dinners\nFreezer-friendly pasta\nHealthy freezable meals\nCheap eats\nBack to\nBudget\nQuick budget dinners\nThrifty family feasts\nCheap and healthy\nBaking\nBack to\nMain menu\nCakes\nBack to\nBaking\nSummer cakes\nHealthy cakes\nBirthday cakes\nChocolate cakes\nCheesecakes\nBakes\nBack to\nBaking\nCookies\nBrownies\nScones\nBread\nBack to\nBaking\nSourdough\nFocaccia\nSubscribe\nSubscribe\nSustainability\nGood Food Shows\nDownload our app\nNewsletters\nSearch\nClear\nHome\nRecipes\nPizza Margherita in 4 easy steps\nPizza Margherita in 4 easy steps\nGood Food team\nSave recipe\nMakes 2 pizzas, serves 4\nEasy\nPrep:\n25 mins\nCook:\n10 mins\nA star rating of 4.7 out of 5.\n569 ratings\nRate\nloading...\nEven a novice cook can master the art of perfect pizza with our step-by-step guide. This homemade pizza recipe features a simple pizza dough and toppings.\nEasily doubled\nEasily halved\nFreezable (uncooked pizzas)\nEgg-free\nLow sugar\nNut-free\nVegetarian\nPrint\nAd\nSkip to ingredients\nAlternatives\nComplete the dish\nLoading...\nShowing items 1 to 3 of 3\nBuffalo cauliflower wings\nA star rating of 4.4 out of 5.\n52 ratings\nCheesy garlic bread\nA star rating of 4.8 out of 5.\n114 ratings\nTry this homemade pizza recipe, then check out more of our easy\npizza recipes\n, including our quick and easy\nair fryer pizza\n.\nIngredients\nNutrition\nUnits:\nMetric\nUS\nFor the base\n300g\nstrong bread flour\n1 tsp\ninstant yeast\n(from a sachet or a tub)\n1 tsp\nsalt\n1 tbsp\nolive oil\nplus extra for drizzling\nFor the tomato sauce\n100ml\npassata\nhandful\nfresh basil\nor 1 tsp dried\n1\ngarlic clove\ncrushed\nFor the topping\n125g\nball mozzarella\nsliced\nhandful\ngrated or shaved parmesan\n(or vegetarian alternative)\nhandful of\ncherry tomatoes\nhalved\nTo finish\nhandful of\nbasil leaves (optional)\nKeep the screen awake with cook mode on the\nGood Food app.\nNutrition: per serving\nkcal\n431\nfat\n15\ng\nsaturates\n7\ng\ncarbs\n59\ng\nsugars\n2\ng\nlow\nfibre\n3\ng\nprotein\n19\ng\nsalt\n1.9\ng\nAd\nMethod\nstep 1\nMake the base: Put the flour into a\nlarge bowl\n, then stir in the yeast and salt. Make a well, pour in 200ml warm water and the olive oil and bring together with a wooden spoon until you have a soft, fairly wet dough. Turn onto a lightly floured surface and knead for 5 mins until smooth. Cover with a tea towel and set aside. You can leave the dough to rise if you like, but it’s not essential for a thin crust.\nstep 2\nMake the sauce: Mix the passata, basil and crushed garlic together, then season to taste. Leave to stand at room temperature while you get on with shaping the base.\nstep 3\nRoll out\nthe dough: if you’ve let the dough rise, give it a quick knead, then split into two balls. On a floured surface, roll out the dough into large rounds, about 25cm across, using a rolling pin. The dough needs to be very thin as it will rise in the oven. Lift the rounds onto two floured baking sheets.\nstep 4\nTop and bake: heat the oven to 240C/220C fan/gas 8. Put another baking sheet or an upturned baking tray in the oven on the top shelf. Smooth sauce over bases with the back of a spoon. Scatter with cheese and tomatoes, drizzle with olive oil and season. Put one pizza, still on its baking sheet, on top of the preheated sheet or tray. Bake for 8-10 mins until crisp. Serve with a little more olive oil, and basil leaves if using. Repeat step for remaining pizza.\nRECIPE TIPS\nTROUBLESHOOTING\nIf the dough is too wet: add a bit more flour and work it in. If dough is too stretchy to roll out: leave it to rest for 10 mins or so, then try again. You need far more pressure when rolling dough than when rolling out pastry. If the base isn’t cooked: baking the pizza on top of a preheated sheet or tray should prevent this. However, it could be too thick or have too much topping. If the topping is cooked before the base, cover with foil and give it another 5 mins.\nCHOOSE YOUR TOPPINGS\nFancy a bit more topping? Here's some suggestions. Olives, ham and chargrilled artichokes; Spicy sausage, chilli or jalapeños and\r\nsliced tomato; Spinach, garlic, gorgonzola cheese and a whole egg cracked on top; Creamy mascarpone, pesto, roasted red peppers and sliced mushrooms. Or if you're not sure what you fancy – why not do half and half? Also try our\ncheesy courgette pizza\n.\nCALZONE\nPile sauce and toppings onto one half of the dough circle, brush the edge with a little water, then fold and pinch to make a pasty shape. Bake until golden as before.\nGARLIC & ROSEMARY BREAD\nLeave the dough a bit thicker, brush with oil and stud with rosemary sprigs. Bake for 15 mins or until risen and golden. Brush with garlic butter.\nRecipe from Good Food magazine,\nSeptember 2007\nAd\nComments, questions and tips\nRate this recipe\nWhat is your star rating out of 5?\n1 star out of 5\n2 stars out of 5\n3 stars out of 5\n4 stars out of 5\n5 stars out of 5\nChoose the type of message you'd like to post\nChoose the type of message you'd like to post\nComment\nQuestion\nTip\nOverall rating\nA star rating of 4.7 out of 5.\n569 ratings\nAd\nAd\nGet 3 months of Good Food All Access\nGet\n3 months of Good Food All Access for just £6\n. F\nind triple-tested recipes that take the stress out of deciding what to cook, spend less time planning, and more time enjoying the season.\nSubscribe now\nLoading...\nAd\nLoading...\nLoading...\nExplore our recipe app\nSubscribe now and get access to exclusive recipes, meal plans, podcasts and more.\nTry today\nAll Access subscription: Magazine & App\nGood Food magazine and our award winning app in one premium subscription. Subscribe now for our Christmas issue\nSubscribe today\nPodcast\nOur food team shares tips, techniques and their all-time favourite recipes in our lively weekly podcast.\nMore\nVisit us on Facebook\nVisit us on Twitter\nVisit us on Instagram\nVisit us on Pinterest\nVisit us on Youtube\nVisit us on Tiktok\nVisit us on Rss\nAbout us\nContact Us\nPrivacy Queries\nPrivacy Policy\nTerms & Conditions\nCookies Policy\nComplaints escalation\nAdvertise\nAccessibility\nSustainability\nAI Policy\nManage Privacy Settings\nThis website is owned and published by Immediate Media Company Limited. The domain name is used under licence from BBC Studios Distribution Limited.\n©\nImmediate 2026\nNutracheck.co.uk\nOliveMagazine.com\nGoodFoodShow.com\nRadioTimes.com\nHistoryExtra.com\nGardenersWorld.com\nMadeForMums.com\nBarbecue\nDietary needs\nHealthy eating\nSeasonal\nBread, pastry & cakes\nDinner ideas\nNuts & seeds\nSoups\nBreakfast\nDinner party\nPoultry\nSpecial occasions\nCasserole & slow cooker\nDrinks\nPulses & grains\nSweet treats\nCheese\nEaster\nQuick & easy budget meals\nVegan\nChristmas\nFamily friendly\nRed meat & game\nVegetables\nCuisine\nFish & seafood\nReligious events\nVegetarian\nDesserts\nFruit\nSalads\nUS recipes",
+      "encoding": "utf-8",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "recipeId": "west-017",
+  "documentId": "c49fed11-a89a-4f40-bcae-0021fde52d6a",
+  "entityId": "e4091960-35dc-4cdf-b8c8-580ffbade0a6",
+  "chunks": 6,
+  "deduplicated": false,
+  "embedded": true,
+  "semantic": 6,
+  "hybrid": 6,
+  "embeddingModel": "voyage-4",
+  "dimension": 1024
+}

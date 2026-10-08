@@ -1,0 +1,245 @@
+{
+  "recipeId": "west-022",
+  "recipeName": "希腊穆萨卡",
+  "category": "western",
+  "createdAt": "2026-10-08T12:12:47.086Z",
+  "sources": [
+    {
+      "sourceName": "BBC Good Food",
+      "sourceType": "website",
+      "url": "https://www.bbcgoodfood.com/recipes/moussaka",
+      "documentId": "53cdcee1-2c01-47c9-97f0-fbbfc2747e75",
+      "retrievalMethod": "ordinary HTTPS GET; complete accessible page JSON-LD and DOM independently inspected",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "olive oil",
+          "raw": "6 tbsp olive oil",
+          "amount": null
+        },
+        {
+          "name": "medium aubergines cut into 5mm rounds",
+          "raw": "3 medium aubergines cut into 5mm rounds",
+          "amount": null
+        },
+        {
+          "name": "lamb mince",
+          "raw": "800g lamb mince",
+          "amount": null
+        },
+        {
+          "name": "onion finely chopped",
+          "raw": "1 onion finely chopped",
+          "amount": null
+        },
+        {
+          "name": "fat garlic cloves crushed",
+          "raw": "2 fat garlic cloves crushed",
+          "amount": null
+        },
+        {
+          "name": "heaped tsp dried oregano",
+          "raw": "3 heaped tsp dried oregano",
+          "amount": null
+        },
+        {
+          "name": "ground cinnamon",
+          "raw": "2 tsp ground cinnamon",
+          "amount": null
+        },
+        {
+          "name": "bay leaves",
+          "raw": "2 bay leaves",
+          "amount": null
+        },
+        {
+          "name": "red wine",
+          "raw": "200ml red wine",
+          "amount": null
+        },
+        {
+          "name": "can chopped tomatoes",
+          "raw": "400g can chopped tomatoes",
+          "amount": null
+        },
+        {
+          "name": "tomato purée",
+          "raw": "2 tbsp tomato purée",
+          "amount": null
+        },
+        {
+          "name": "light brown soft sugar",
+          "raw": "½ tbsp light brown soft sugar",
+          "amount": null
+        },
+        {
+          "name": "Maris Piper potatoes peeled and sliced into 5mm rounds",
+          "raw": "550g Maris Piper potatoes peeled and sliced into 5mm rounds",
+          "amount": null
+        },
+        {
+          "name": "unsalted butter",
+          "raw": "40g unsalted butter",
+          "amount": null
+        },
+        {
+          "name": "plain flour",
+          "raw": "40g plain flour",
+          "amount": null
+        },
+        {
+          "name": "whole milk",
+          "raw": "450ml whole milk",
+          "amount": null
+        },
+        {
+          "name": "parmesan finely grated",
+          "raw": "40g parmesan finely grated",
+          "amount": null
+        },
+        {
+          "name": "whole nutmeg for grating",
+          "raw": "whole nutmeg for grating",
+          "amount": null
+        },
+        {
+          "name": "arge egg plus 1 yolk, lightly beaten",
+          "raw": "1 large egg plus 1 yolk, lightly beaten",
+          "amount": null
+        },
+        {
+          "name": "water",
+          "raw": "200ml water for lamb sauce (step2); salted water to boil potato (step3)",
+          "amount": null
+        },
+        {
+          "name": "salt",
+          "raw": "pinch salt for onion; lightly salted water for potato (steps2/3)",
+          "amount": null
+        },
+        {
+          "name": "seasoning",
+          "raw": "Season lamb sauce and bechamel (steps2/4; unspecified seasoning)",
+          "amount": null
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Heat a frying pan over a high heat. Drizzle 4 tbsp of the oil over the slices of aubergine and fry them in several batches for 5-7 mins or until golden brown and beginning to soften. If they look a little dry during cooking, add a dash more olive oil. Set aside on a plate lined with kitchen paper.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "Heat 1 tbsp of the oil in a large flameproof casserole dish or saucepan over a medium-high heat. Add the mince and fry for 8-10 mins until a deep golden brown, regularly stirring and breaking up with a wooden spoon. Tip into a bowl and set aside. Add the remaining oil to the casserole. Tip in the onion along with a pinch of salt and fry gently for 10-12 mins or until softened and turning translucent. Add the garlic, oregano, cinnamon and bay cooking for a further min. Return the lamb to the pan and pour in the red wine, bring to a bubble and reduce the wine by half. Stir through the tomatoes, tomato purée and brown sugar, along with 200ml water. Season. Lower the heat and simmer gently, uncovered, for 20 mins, stirring occasionally until the sauce has thickened.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "Heat oven to 200C/180 fan/gas 4. Bring a large pan of lightly salted water to the boil. Add the potato slices and cook for 6 mins, drain in a colander and leave to steam dry for 10 mins.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "Melt the butter in a small saucepan, stir in the flour and cook over a medium heat for 1 min. Remove from the heat and whisk in the milk, pouring in a bit at a time, until smooth. Return to the heat and bring to a simmer, cooking for 3 mins. Remove from the heat and whisk through the parmesan, a little grated nutmeg and some seasoning, and finally the whole egg as well as the yolk.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 5,
+          "instruction": "Take a large rectangular ovenproof dish. Spoon a third of the meat into the dish and spread out evenly, followed by half the aubergine and half the potato, then the rest of the meat and another layer of aubergines, followed by potatoes. Finish with the béchamel, smoothing the top over with a palette knife. Put in the centre of the oven and cook for 50 mins or until deep golden brown. If it browns too much during cooking, cover the dish. Set aside for 10 mins to cool before serving.",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [],
+      "tips": [],
+      "rawExcerpt": "{\n  \"@context\": \"https://schema.org\",\n  \"@id\": \"https://www.bbcgoodfood.com/recipes/moussaka#Recipe\",\n  \"@type\": \"Recipe\",\n  \"description\": \"Make our easy moussaka for an instant crowd pleaser. This classic Greek dish of layered thinly sliced potato, aubergine and lamb is topped with a creamy béchamel sauce.\",\n  \"image\": [\n    {\n      \"@type\": \"ImageObject\",\n      \"url\": \"https://images.immediate.co.uk/production/volatile/sites/30/2020/08/moussaka-f787650.jpg?resize=440,400\",\n      \"width\": 440,\n      \"height\": 400\n    }\n  ],\n  \"mainEntityOfPage\": {\n    \"@type\": \"WebPage\",\n    \"@id\": \"https://www.bbcgoodfood.com/recipes/moussaka\"\n  },\n  \"name\": \"Moussaka\",\n  \"url\": \"https://www.bbcgoodfood.com/recipes/moussaka\",\n  \"author\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Esther Clark\",\n      \"url\": \"https://www.bbcgoodfood.com/author/estherclark\"\n    }\n  ],\n  \"dateModified\": \"2026-07-03T14:46:02+01:00\",\n  \"datePublished\": \"2019-01-25T16:11:56+00:00\",\n  \"headline\": \"Moussaka\",\n  \"keywords\": \"2 of 5-a-day, Aubergine, Dinner, Esther Clark, Family, Greek, Lamb, lamb dish, Moussaka\",\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Good Food\",\n    \"url\": \"https://www.bbcgoodfood.com\",\n    \"logo\": {\n      \"@type\": \"ImageObject\",\n      \"height\": 325,\n      \"url\": \"https://images.immediate.co.uk/production/volatile/sites/30/2026/02/goodfood.logo-f37096c.png?resize=1312,325\",\n      \"width\": 1312\n    }\n  },\n  \"cookTime\": \"PT2H15M\",\n  \"nutrition\": {\n    \"@type\": \"NutritionInformation\",\n    \"calories\": \"516 calories\",\n    \"fatContent\": \"31 grams fat\",\n    \"saturatedFatContent\": \"13 grams saturated fat\",\n    \"carbohydrateContent\": \"24 grams carbohydrates\",\n    \"sugarContent\": \"10 grams sugar\",\n    \"fiberContent\": \"6 grams fiber\",\n    \"proteinContent\": \"28 grams protein\",\n    \"sodiumContent\": \"0.37 milligram of sodium\"\n  },\n  \"prepTime\": \"PT30M\",\n  \"recipeCategory\": \"Dinner, Main course\",\n  \"recipeCuisine\": \"Greek\",\n  \"recipeIngredient\": [\n    \"6 tbsp olive oil\",\n    \"3 medium aubergines cut into 5mm rounds\",\n    \"800g lamb mince\",\n    \"1 onion finely chopped\",\n    \"2 fat garlic cloves crushed\",\n    \"3 heaped tsp dried oregano\",\n    \"2 tsp ground cinnamon\",\n    \"2 bay leaves\",\n    \"200ml red wine\",\n    \"400g can chopped tomatoes\",\n    \"2 tbsp tomato purée\",\n    \"½ tbsp light brown soft sugar\",\n    \"550g Maris Piper potatoes peeled and sliced into 5mm rounds\",\n    \"40g unsalted butter\",\n    \"40g plain flour\",\n    \"450ml whole milk\",\n    \"40g parmesan finely grated\",\n    \"whole nutmeg for grating\",\n    \"1 large egg plus 1 yolk, lightly beaten\"\n  ],\n  \"recipeInstructions\": [\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Heat a frying pan over a high heat. Drizzle 4 tbsp of the oil over the slices of aubergine and fry them in several batches for 5-7 mins or until golden brown and beginning to soften. If they look a little dry during cooking, add a dash more olive oil. Set aside on a plate lined with kitchen paper.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Heat 1 tbsp of the oil in a large flameproof casserole dish or saucepan over a medium-high heat. Add the mince and fry for 8-10 mins until a deep golden brown, regularly stirring and breaking up with a wooden spoon. Tip into a bowl and set aside. Add the remaining oil to the casserole. Tip in the onion along with a pinch of salt and fry gently for 10-12 mins or until softened and turning translucent. Add the garlic, oregano, cinnamon and bay cooking for a further min. Return the lamb to the pan and pour in the red wine, bring to a bubble and reduce the wine by half. Stir through the tomatoes, tomato purée and brown sugar, along with 200ml water. Season. Lower the heat and simmer gently, uncovered, for 20 mins, stirring occasionally until the sauce has thickened.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Heat oven to 200C/180 fan/gas 4. Bring a large pan of lightly salted water to the boil. Add the potato slices and cook for 6 mins, drain in a colander and leave to steam dry for 10 mins.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Melt the butter in a small saucepan, stir in the flour and cook over a medium heat for 1 min. Remove from the heat and whisk in the milk, pouring in a bit at a time, until smooth. Return to the heat and bring to a simmer, cooking for 3 mins. Remove from the heat and whisk through the parmesan, a little grated nutmeg and some seasoning, and finally the whole egg as well as the yolk.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Take a large rectangular ovenproof dish. Spoon a third of the meat into the dish and spread out evenly, followed by half the aubergine and half the potato, then the rest of the meat and another layer of aubergines, followed by potatoes. Finish with the béchamel, smoothing the top over with a palette knife. Put in the centre of the oven and cook for 50 mins or until deep golden brown. If it browns too much during cooking, cover the dish. Set aside for 10 mins to cool before serving.\"\n    }\n  ],\n  \"recipeYield\": 8,\n  \"totalTime\": \"PT2H45M\"\n}",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 1,
+        "mappedStepImages": 0,
+        "stepImageCoverage": 0,
+        "ingredientCount": 22,
+        "executableStepCount": 5,
+        "notes": [
+          "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented.",
+          "Oven source gives200C/180fan/gas4, internally inconsistent gas equivalence; retain200C conventional/180C fan and disclose gas4 conflict, never silently correct."
+        ]
+      }
+    }
+  ],
+  "sourceMode": "single_source",
+  "singleSourceReason": "Exact-name and alias KB query first; all84actual book records checked, no matching Western recipe. Enabled BBC and Serious Eats alternatives attempted; only one independent complete coherent source remains eligible. Other inaccessible, materially different, or internally conflicting variants are retained in audit and never used to supplement it.",
+  "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/moussaka",
+  "selectionReason": "Selected exactly one whole BBC recipe: full coherent ingredients/method match the target; verified usable hero (no source step photos available). Other sources have no verified usable media URLs under ordinary access. Under the required completeness/coherence then usable-image/coverage ranking, this source leads; its ingredients, operations, tips and media are kept together without supplementation.",
+  "ragEvidence": [
+    {
+      "chunkId": "fdcf04fb-ccb3-4541-a988-c1e637368ec5",
+      "documentId": "53cdcee1-2c01-47c9-97f0-fbbfc2747e75",
+      "sourceName": "BBC Good Food",
+      "chunkType": "summary",
+      "content": "菜名：希腊穆萨卡\n别名：Moussaka\n菜系：Greek\n简介：Make our easy moussaka for an instant crowd pleaser. This classic Greek dish of layered thinly sliced potato, aubergine and lamb is topped with a creamy béchamel sauce.",
+      "similarity": 0.703045606613159
+    },
+    {
+      "chunkId": "28d885f6-01f5-4054-95f9-54da96486515",
+      "documentId": "53cdcee1-2c01-47c9-97f0-fbbfc2747e75",
+      "sourceName": "BBC Good Food",
+      "chunkType": "tips",
+      "content": "菜名：希腊穆萨卡\n- 原文未提供额外提示。",
+      "similarity": 0.682710249262439
+    },
+    {
+      "chunkId": "0f8d7604-821f-40fd-a50b-ebb7183c8e1f",
+      "documentId": "53cdcee1-2c01-47c9-97f0-fbbfc2747e75",
+      "sourceName": "BBC Good Food",
+      "chunkType": "technique",
+      "content": "菜名：希腊穆萨卡\n- 原文未明确说明技法。",
+      "similarity": 0.6740443110466
+    },
+    {
+      "chunkId": "10c16ce9-9fd6-4516-a557-5da9dd7b0930",
+      "documentId": "53cdcee1-2c01-47c9-97f0-fbbfc2747e75",
+      "sourceName": "BBC Good Food",
+      "chunkType": "ingredients",
+      "content": "菜名：希腊穆萨卡\n- 6 tbsp olive oil\n- 3 medium aubergines cut into 5mm rounds\n- 800g lamb mince\n- 1 onion finely chopped\n- 2 fat garlic cloves crushed\n- 3 heaped tsp dried oregano\n- 2 tsp ground cinnamon\n- 2 bay leaves\n- 200ml red wine\n- 400g can chopped tomatoes\n- 2 tbsp tomato purée\n- ½ tbsp light brown soft sugar\n- 550g Maris Piper potatoes peeled and sliced into 5mm rounds\n- 40g unsalted butter\n- 40g plain flour\n- 450ml whole milk\n- 40g parmesan finely grated\n- whole nutmeg for grating\n- 1 large egg plus 1 yolk, lightly beaten\n- 200ml water for lamb sauce (step2); salted water to boil potato (step3)\n- pinch salt for onion; lightly salted water for potato (steps2/3)\n- Season lamb sauce and bechamel (steps2/4; unspecified seasoning)",
+      "similarity": 0.640686511993408
+    },
+    {
+      "chunkId": "135b207c-a208-4430-bfdd-3276b137a90a",
+      "documentId": "53cdcee1-2c01-47c9-97f0-fbbfc2747e75",
+      "sourceName": "BBC Good Food",
+      "chunkType": "steps",
+      "content": "菜名：希腊穆萨卡\n3. Heat oven to 200C/180 fan/gas 4. Bring a large pan of lightly salted water to the boil. Add the potato slices and cook for 6 mins, drain in a colander and leave to steam dry for 10 mins.\n4. Melt the butter in a small saucepan, stir in the flour and cook over a medium heat for 1 min. Remove from the heat and whisk in the milk, pouring in a bit at a time, until smooth. Return to the heat and bring to a simmer, cooking for 3 mins. Remove from the heat and whisk through the parmesan, a little grated nutmeg and some seasoning, and finally the whole egg as well as the yolk.\n5. Take a large rectangular ovenproof dish. Spoon a third of the meat into the dish and spread out evenly, followed by half the aubergine and half the potato, then the rest of the meat and another layer of aubergines, followed by potatoes. Finish with the béchamel, smoothing the top over with a palette knife. Put in the centre of the oven and cook for 50 mins or until deep golden brown. If it browns too much during cooking, cover the dish. Set aside for 10 mins to cool before serving.",
+      "similarity": 0.634326598982419
+    },
+    {
+      "chunkId": "84b86c26-20b2-4712-974d-88f7ea3e3977",
+      "documentId": "53cdcee1-2c01-47c9-97f0-fbbfc2747e75",
+      "sourceName": "BBC Good Food",
+      "chunkType": "steps",
+      "content": "菜名：希腊穆萨卡\n1. Heat a frying pan over a high heat. Drizzle 4 tbsp of the oil over the slices of aubergine and fry them in several batches for 5-7 mins or until golden brown and beginning to soften. If they look a little dry during cooking, add a dash more olive oil. Set aside on a plate lined with kitchen paper.\n2. Heat 1 tbsp of the oil in a large flameproof casserole dish or saucepan over a medium-high heat. Add the mince and fry for 8-10 mins until a deep golden brown, regularly stirring and breaking up with a wooden spoon. Tip into a bowl and set aside. Add the remaining oil to the casserole. Tip in the onion along with a pinch of salt and fry gently for 10-12 mins or until softened and turning translucent. Add the garlic, oregano, cinnamon and bay cooking for a further min. Return the lamb to the pan and pour in the red wine, bring to a bubble and reduce the wine by half. Stir through the tomatoes, tomato purée and brown sugar, along with 200ml water. Season. Lower the heat and simmer gently, uncovered, for 20 mins, stirring occasionally until the sauce has thickened.",
+      "similarity": 0.622477568535661
+    }
+  ],
+  "notes": [
+    "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented.",
+    "Oven source gives200C/180fan/gas4, internally inconsistent gas equivalence; retain200C conventional/180C fan and disclose gas4 conflict, never silently correct.",
+    "BBC source original yield: 8",
+    "BBC original totalTime: PT2H45M",
+    "BBC original cookTime: PT2H15M",
+    "BBC original prepTime: PT30M",
+    "Alternative attempts: [{\"url\":\"https://www.bbcgoodfood.com/recipes/moussaka\",\"status\":200,\"bytes\":596293}]",
+    "Current book inventory and22target audit: west-kb-audit.json. Invalid/superseded/rejected history excluded.",
+    "Serious Eats direct Python460/normalPowerShell402/normalChrome402; normalweb.open successfully retrieved the complete recipes included here. All successful complete matching sources ingested separately before selection; no access-control bypass.",
+    "Alternative enabled-site searches and complete observed source text are archived in west-alternative-search.json and west-se-*.txt.",
+    "Selected source has no verified cooking-stage photos; do not fabricate or relabel a finished-dish photo. Parent must resolve manual-run image exception before publishing."
+  ]
+}

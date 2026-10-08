@@ -1,0 +1,43 @@
+{
+  "recipeId": "cn-013",
+  "recipeName": "胡辣汤",
+  "category": "chinese",
+  "status": "failed",
+  "failedStage": "research",
+  "createdAt": "2026-10-08T12:23:23.822006+00:00",
+  "reason": "可得豆果方中山胡辣汤仅一段方便料包做法；河南正宗胡辣汤候选是课程宣传，不含完整可执行工艺。无合格完整单一来源。",
+  "bookSearch": {
+    "auditFile": "cn-book-inventory.json",
+    "scannedDocuments": 84,
+    "usableDocuments": 79,
+    "exactOrAcceptableAliasMatches": 0,
+    "excludedStatuses": [
+      "superseded",
+      "rejected",
+      "invalid"
+    ],
+    "assessment": "No complete same-dish recipe in current database books; no book supplementation fabricated."
+  },
+  "attemptedSources": [
+    {
+      "source": "豆果美食",
+      "url": "https://www.douguo.com/cookbook/3300061.html",
+      "result": "HTTP200; 4listeditems,1paragraph method; incomplete/oilpack andseasonings omittedfromlist"
+    },
+    {
+      "source": "豆果美食",
+      "url": "https://www.douguo.com/cookbook/2472236.html",
+      "result": "normalwebinaccessible; searchindexedcontentpromotespaidcourse, notfullmethod"
+    },
+    {
+      "source": "The Woks of Life",
+      "query": "hu la tang site:thewoksoflife.com",
+      "result": "no exact complete recipe"
+    }
+  ],
+  "evidencePackage": null,
+  "ingestion": {
+    "performed": false,
+    "reason": "No qualifying complete exactdishsource; do not ingest partial snippets or unrelated variants as this entity."
+  }
+}

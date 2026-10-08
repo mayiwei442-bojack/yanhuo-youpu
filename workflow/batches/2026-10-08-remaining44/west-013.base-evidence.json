@@ -1,0 +1,433 @@
+{
+  "recipeId": "west-013",
+  "recipeName": "奶油宽面",
+  "category": "western",
+  "createdAt": "2026-10-08T12:10:33.959Z",
+  "sources": [
+    {
+      "sourceName": "BBC Good Food",
+      "sourceType": "website",
+      "url": "https://www.bbcgoodfood.com/recipes/fettucine-alfredo",
+      "documentId": "285a92a5-e04a-4e85-8db7-0151b4f6eeaa",
+      "retrievalMethod": "ordinary HTTPS GET; complete accessible page JSON-LD and DOM independently inspected",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "tub clotted cream",
+          "raw": "227g tub clotted cream",
+          "amount": null
+        },
+        {
+          "name": "butter (about 2 tbsp)",
+          "raw": "25g butter (about 2 tbsp)",
+          "amount": null
+        },
+        {
+          "name": "cornflour",
+          "raw": "1 tsp cornflour",
+          "amount": null
+        },
+        {
+          "name": "parmesan grated",
+          "raw": "100g parmesan grated",
+          "amount": null
+        },
+        {
+          "name": "freshly grated nutmeg",
+          "raw": "freshly grated nutmeg",
+          "amount": null
+        },
+        {
+          "name": "fresh fettuccine or tagliatelle",
+          "raw": "250g fresh fettuccine or tagliatelle",
+          "amount": null
+        },
+        {
+          "name": "snipped chives or chopped parsley, to serve (optional)",
+          "raw": "snipped chives or chopped parsley, to serve (optional)",
+          "amount": null
+        },
+        {
+          "name": "salt",
+          "raw": "2 tsp salt for pasta (method step3)",
+          "amount": null
+        },
+        {
+          "name": "black pepper",
+          "raw": "good grinding of black pepper (method step2)",
+          "amount": null
+        },
+        {
+          "name": "water",
+          "raw": "boiling pasta water (amount unspecified); retain3 tbsp for sauce",
+          "amount": null
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "In a medium saucepan, stir the clotted cream, butter and cornflour over a low-ish heat and bring to a low simmer. Turn off the heat and keep warm.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "Meanwhile, put the cheese and nutmeg in a small bowl and add a good grinding of black pepper, then stir everything together (don’t add any salt at this stage).",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "Put the pasta in another pan with 2 tsp salt, pour over some boiling water and cook following pack instructions (usually 3-4 mins). When cooked, scoop some of the cooking water into a heatproof jug or mug and drain the pasta, but not too thoroughly.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "Add the pasta to the pan with the clotted cream mixture, then sprinkle over the cheese and gently fold everything together over a low heat using a rubber spatula. When combined, splash in 3 tbsp of the cooking water. At first, the pasta will look wet and sloppy: keep stirring until the water is absorbed and the sauce is glossy. Check the seasoning before transferring to heated bowls. Sprinkle over some chives or parsley, then serve immediately.",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [],
+      "tips": [],
+      "rawExcerpt": "{\n  \"@context\": \"https://schema.org\",\n  \"@id\": \"https://www.bbcgoodfood.com/recipes/fettucine-alfredo#Recipe\",\n  \"@type\": \"Recipe\",\n  \"description\": \"Hankering for a comforting bowl of pasta in creamy sauce? This sumptuous Italian dish is for you. It takes just 25 minutes so it's an easy midweek meal\",\n  \"image\": [\n    {\n      \"@type\": \"ImageObject\",\n      \"url\": \"https://images.immediate.co.uk/production/volatile/sites/30/2020/08/fettucine-alfredo-96d7406.jpg?resize=440,400\",\n      \"width\": 440,\n      \"height\": 400\n    }\n  ],\n  \"mainEntityOfPage\": {\n    \"@type\": \"WebPage\",\n    \"@id\": \"https://www.bbcgoodfood.com/recipes/fettucine-alfredo\"\n  },\n  \"name\": \"Fettuccine alfredo\",\n  \"url\": \"https://www.bbcgoodfood.com/recipes/fettucine-alfredo\",\n  \"author\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Orlando Murrin\",\n      \"url\": \"https://www.bbcgoodfood.com/author/orlandomurrin\"\n    }\n  ],\n  \"dateModified\": \"2022-11-08T14:02:21+00:00\",\n  \"datePublished\": \"2017-10-10T07:54:40+01:00\",\n  \"headline\": \"Fettuccine alfredo\",\n  \"keywords\": \"alfredo, Cheese, Comfort Food, Cream, Fettucine, Italian, Orlando Murrin, Pasta, Pasta sauce\",\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Good Food\",\n    \"url\": \"https://www.bbcgoodfood.com\",\n    \"logo\": {\n      \"@type\": \"ImageObject\",\n      \"height\": 325,\n      \"url\": \"https://images.immediate.co.uk/production/volatile/sites/30/2026/02/goodfood.logo-f37096c.png?resize=1312,325\",\n      \"width\": 1312\n    }\n  },\n  \"cookTime\": \"PT10M\",\n  \"nutrition\": {\n    \"@type\": \"NutritionInformation\",\n    \"calories\": \"898 calories\",\n    \"fatContent\": \"67 grams fat\",\n    \"saturatedFatContent\": \"41 grams saturated fat\",\n    \"carbohydrateContent\": \"49 grams carbohydrates\",\n    \"sugarContent\": \"4 grams sugar\",\n    \"fiberContent\": \"3 grams fiber\",\n    \"proteinContent\": \"23 grams protein\",\n    \"sodiumContent\": \"0.8 milligram of sodium\"\n  },\n  \"prepTime\": \"PT15M\",\n  \"recipeCategory\": \"Dinner, Lunch, Main course, Supper\",\n  \"recipeCuisine\": \"Italian\",\n  \"recipeIngredient\": [\n    \"227g tub clotted cream\",\n    \"25g butter (about 2 tbsp)\",\n    \"1 tsp cornflour\",\n    \"100g parmesan grated\",\n    \"freshly grated nutmeg\",\n    \"250g fresh fettuccine or tagliatelle\",\n    \"snipped chives or chopped parsley, to serve (optional)\"\n  ],\n  \"recipeInstructions\": [\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"In a medium saucepan, stir the clotted cream, butter and cornflour over a low-ish heat and bring to a low simmer. Turn off the heat and keep warm.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Meanwhile, put the cheese and nutmeg in a small bowl and add a good grinding of black pepper, then stir everything together (don’t add any salt at this stage).\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Put the pasta in another pan with 2 tsp salt, pour over some boiling water and cook following pack instructions (usually 3-4 mins). When cooked, scoop some of the cooking water into a heatproof jug or mug and drain the pasta, but not too thoroughly.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Add the pasta to the pan with the clotted cream mixture, then sprinkle over the cheese and gently fold everything together over a low heat using a rubber spatula. When combined, splash in 3 tbsp of the cooking water. At first, the pasta will look wet and sloppy: keep stirring until the water is absorbed and the sauce is glossy. Check the seasoning before transferring to heated bowls. Sprinkle over some chives or parsley, then serve immediately.\"\n    }\n  ],\n  \"recipeYield\": 3,\n  \"suitableForDiet\": \"https://schema.org/VegetarianDiet\",\n  \"totalTime\": \"PT25M\"\n}",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 1,
+        "mappedStepImages": 0,
+        "stepImageCoverage": 0,
+        "ingredientCount": 10,
+        "executableStepCount": 4,
+        "notes": [
+          "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented."
+        ]
+      }
+    },
+    {
+      "sourceName": "Serious Eats",
+      "sourceType": "website",
+      "url": "https://www.seriouseats.com/fettuccine-alfredo-sauce-italian-pasta-recipe",
+      "documentId": "104da4b6-7b98-4f42-ba24-ff89a0723102",
+      "retrievalMethod": "normal web.open full accessible page; merged overlapping line ranges; direct requests460 and browser402 retained as transport history",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "1 stick unsalted butter (115 g), diced",
+          "raw": "1 stick unsalted butter (115 g), diced",
+          "amount": null
+        },
+        {
+          "name": "4 ounces Parmigiano-Reggiano cheese (115 g), grated on the fine holes of a box grater, plus more for serving (see note)",
+          "raw": "4 ounces Parmigiano-Reggiano cheese (115 g), grated on the fine holes of a box grater, plus more for serving (see note)",
+          "amount": null
+        },
+        {
+          "name": "Kosher salt",
+          "raw": "Kosher salt",
+          "amount": null
+        },
+        {
+          "name": "1 pound fresh fettuccine pasta",
+          "raw": "1 pound fresh fettuccine pasta",
+          "amount": null
+        },
+        {
+          "name": "water",
+          "raw": "water for boiling pasta, and reserved pasta cooking water as directed (method)",
+          "amount": null
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "In a large heatproof bowl, combine butter and cheese. In a medium pot of salted boiling water, cook pasta until al dente. Using tongs, a strainer, or a spider, transfer pasta to bowl with cheese and butter.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "Add 1/2 cup hot pasta-cooking water, then, using tongs, toss repeatedly until butter is melted and a creamy, emulsified sauce forms. If pasta seems too dry, add a splash or two of additional pasta water until desired consistency is reached. Season with salt, if necessary. Serve, sprinkling more cheese on top at the table.",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [],
+      "tips": [
+        "Look for a young Parmigiano-Reggiano, preferably aged for less than 18 months (a younger cheese will be sweeter and less spicy, which works well in this dish). Alternatively, Grana Padano makes a good substitution as it's a very similar cheese to Parmesan, but typically aged less."
+      ],
+      "rawExcerpt": "iframe†www.googletagmanager.com\n\nSerious Eats\n\nSave\n\nRate\n\n* Search [Input: What are you looking for?]\n\n* Newsletters\n* Sweepstakes\n* Serious Eats\n# Roman-Style Fettuccine With Alfredo Sauce Recipe\n\n4.0\n\n(10)\n\n46 Reviews\n\nHow to make the real-deal Roman fettuccine Alfredo.\n\nBy\n\nDaniel Gritzer\n\nImage: Daniel Gritzer Image: Daniel Gritzer\n\nDaniel Gritzer\nDaniel is the editorial director of Serious Eats, where he leads the site's editorial strategy and oversees everything from recipe development to articles on food science, cooking techniques, and more. He's a former food editor at Food & Wine and has cooked in New York City restaurants.\n\nSerious Eats' Editorial Guidelines\n\nUpdated on December 17, 2025\n\nImage†cdn.jwplayer.com Image†cdn.jwplayer.com\n\nRoman-Style Fettuccine With Alfredo Sauce\n\n4:38\n\nIn This Recipe\n\nView All\n\nIn This Article\n* Fettucine Alfredo Origins\n\n* Simplicity Is Key\n\n* Making Roman-Style Fettucine Alfredo\n\nJump to recipe\n* Boiling the pasta in less water concentrates the starches, and using that starchy water to emulsify the sauce keeps it light and clean—no cream needed.\n* Adjusting the butter-to-cheese ratio from the original recipe delivers a sauce that’s rich and satisfying without tipping into heavy.\n* Finely grating the cheese helps it melt quickly and evenly, so the sauce stays smooth.\n* Choosing a younger Parmigiano-Reggiano or Grana Padano brings a sweeter, more buttery flavor that balances the sauce nicely.\nWhen I was growing up in Brooklyn, my family would sometimes go to Marco Polo restaurant, where my sister would invariably order the fettuccine Alfredo and I invariably would not. There was almost no food that I found to be too rich, but that platter of cheese-loaded, cream-soaked pasta crossed the line. I thought it was disgusting.\n\nImage: Overhead shot of fettuccine alfredo plated. Image: Overhead shot of fettuccine alfredo plated.\n\nSerious Eats / Vicky Wasik\nBut during those same years I'd also sometimes go to my friend John's house, where his Italian-American mom would feed us well. One of the dishes she often made was pastina, those tiny little dried-pasta stars that cook up into a porridge-like consistency, in a butter and Parmesan sauce. I loved it so much, and to this day it's one of those few comfort foods that instantly transports me back to my childhood.\nNow here's what's weird: Both those dishes were pasta in Alfredo sauce. One I hated and one I loved.\n## Fettucine Alfredo Origins\n\nI didn't know it at the time, but the butter-cheese sauce at John's house was even more of a true Alfredo sauce than the extra thick and creamy one at Marco Polo, at least according to the original Roman version. And we know what the original Roman version was because it's a modern invention with a well-documented history.\nOkay, it's not technically correct to say that it's a modern invention, in that pasta with butter and Parmesan is nearly as old as pasta, butter, and Parmesan themselves. But the dish we today call fettuccine Alfredo was created by a Roman named Alfredo shortly after the turn of the twentieth century, who went on to become the talk of the town, a favorite of the Hollywood jet set, and a key player in a long-running rivalry with his former head waiter as to who really owned the rights to the recipe.\nNone of that is particularly important.\nWhat is important is the recipe itself, and, according to David Downie in his excellent Cooking the Roman Way, it contains absolutely no cream, black pepper, or other ingredients beyond pasta, cheese, butter, and salt. (Downie knew the grandson of the original Alfredo, and learned the recipe from him, so we can be pretty confident that he's got his facts right.)\nImage: Cubes of butter mixing with grated Parmigiano-Reggiano cheese on a wooden cutting board.  Image: Cubes of butter mixing with grated Parmigiano-Reggiano cheese on a wooden cutting board.\n\nSerious Eats / Vicky Wasik\nEven without the cream and other ingredients, though, that original recipe is still a doozy: For a single pound of fresh pasta, Alfredo added two-thirds of a cup of butter and more than a quarter-pound of cheese. That's overkill by just about any standard, and so my mission here is a simple one. I want to offer a slightly modified version of the original that creates a similarly creamy, cheesy, buttery sauce without it being quite so grotesque in its proportions.\n## Simplicity Is Key\nAstute Serious Eats readers will, at this point, probably remember that this isn't the first time we've lightened fettuccine Alfredo on the site. Kenji tackled it a couple years ago with his recipe . But there's a key difference: Kenji was tinkering with the even heavier, creamier version that is more common at Italian restaurants in the United States. That's the one Marco Polo in Brooklyn used to serve (the one that my sister adored). If she were cooking, it's Kenji's recipe that she'd want to make.\nBut she's not, and, as I told you, I never liked that one in the first place. No, to me, the original's simplicity wins out. With no cream to dull the cheese and butter flavor, and no additional ingredients like pepper and herbs to distract, the focus is squarely on that interplay of sweet Parmesan and rich butterfat. That's the magic right there.\nIn fact, that flavor profile is so important that you want to make sure you don't get a piece of Parmigiano-Reggiano that's been aged too long—it's a more delicate young parm that makes the dish, not a spicy old one. The cheese should be aged for no more than 18 months (Grana Padano, which tends to be aged less than Parmigiano-Reggiano, is another really good choice here.)\nOf course, my mission is also a much simpler one than Kenji's. Without the extra thick cream sauce he was trying to lighten, all I had to do was tweak a couple basic ratios to turn my version of fettuccine Alfredo into slightly less of a gut-bomb. Don't worry, it's still plenty enough of a gut bomb.\nImage: An unwrapped stick of butter on a wooden cutting board. A bowl of grated Parmigiano-Reggiano cheese is on the background.  Image: An unwrapped stick of butter on a wooden cutting board. A bowl of grated Parmigiano-Reggiano cheese is on the background.\n\nSerious Eats / Vicky Wasik\nWhere the original recipe uses more than a stick of butter for a pound of pasta, mine dials it down to a single stick. And where the original calls for more than five ounces of cheese, mine cuts that back to a mere four ounces. (See what I mean? I'm hardly giving you the diet version here.)\n## Making Roman-Style Fettucine Alfredo\n\nMaking it is incredibly easy. In a large, heatproof bowl, you'll want to combine the grated cheese and diced butter. For emulsified cheese sauces like this, it's best to grate the cheese on the small holes of a box grater: The tiny bits of box-grated cheese melt into the sauce better and more evenly than larger flakes from something like a Microplane parm shaver.\nThen, cook the pasta—preferably fresh egg noodles—in salted boiling water. No need for a large pot here, you want the water as starch-rich as it can get. Finally, transfer the pasta to the bowl of cheese and butter, add about a half cup of that starchy pasta water, and toss well until the butter melts and a creamy, emulsified sauce forms and coats each noodle in a satiny glaze.\nThe starchy pasta water is essential to helping to hold that emulsion and preventing the sauce from separating in a greasy, broken mess. If it's too dry, just add another splash or two of pasta water.\nImage: Plated fettuccine alfredo dusted with grated Parmigiano-Reggiano cheese. Image: Plated fettuccine alfredo dusted with grated Parmigiano-Reggiano cheese.\n\nSerious Eats / Vicky Wasik\n\nThen transfer it to plates and top with more grated cheese. This is a fettuccine Alfredo that trims the excess but still leaves the indulgence firmly in place. If only I'd known this was an option when I was a kid.\nImage: Lifting twirled strains of fettuccine alfredo with a fork. Image: Lifting twirled strains of fettuccine alfredo with a fork.\n\nSerious Eats / Vicky Wasik\n### April 2017\n\nPrep Time:\n\n5 mins\n\nCook Time:\n\n10 mins\n\nTotal Time:\n\n15 mins\n\nServings:\n\n3 to 4 servings\n\nYield:\n\nServes 3 to 4\n\n[Button: Jump to Nutrition Facts]\n\nKeep Screen Awake\n\n## Ingredients\n\n* 1 stick unsalted butter (115 g), diced\n\n* 4 ounces Parmigiano-Reggiano cheese (115 g), grated on the fine holes of a box grater, plus more for serving (see note)\n\n* Kosher salt\n\n* 1 pound fresh fettuccine pasta\n## Directions\n\n1. In a large heatproof bowl, combine butter and cheese. In a medium pot of salted boiling water, cook pasta until al dente. Using tongs, a strainer, or a spider, transfer pasta to bowl with cheese and butter.\n\nImage: Taking cooked pasta out of boiling water with tongs. Image: Taking cooked pasta out of boiling water with tongs.\n\nSerious Eats / J. Kenji López-Alt\n2. Add 1/2 cup hot pasta-cooking water, then, using tongs, toss repeatedly until butter is melted and a creamy, emulsified sauce forms. If pasta seems too dry, add a splash or two of additional pasta water until desired consistency is reached. Season with salt, if necessary. Serve, sprinkling more cheese on top at the table.\nImage: Tossing together hot pasta, butter, and grate Parmigiano-Reggiano cheese with tongs. Image: Tossing together hot pasta, butter, and grate Parmigiano-Reggiano cheese with tongs.\n\nSerious Eats / Vicky Wasik\n## Special Equipment\n\nStrainer , spider skimmer , or tongs\n\n## Notes\n\nLook for a young Parmigiano-Reggiano, preferably aged for less than 18 months (a younger cheese will be sweeter and less spicy, which works well in this dish). Alternatively, Grana Padano makes a good substitution as it's a very similar cheese to Parmesan, but typically aged less.\n## Read More\n\n* Homemade Fresh Pasta\n* Gluten-Free Fresh Pasta\n* Cacio e Pepe (Spaghetti with Black Pepper & Pecorino Romano)\n* Gricia, Amatriciana, Carbonara: The Origins of Rome's Pasta\n* Pasta al Limone\n* Pasta Burro e Alici (Pasta With Creamy Anchovy-Butter Sauce)\n\nSave\n\nRate\n\nPrint [Input]\n## Nutrition Facts (per serving)\n\n498  | Calories\n32g  | Fat\n38g  | Carbs\n14g  | Protein\n\nShow Full Nutrition Label Hide Full Nutrition Label\n\nNutrition Facts\n---\nServings Per Recipe 3 to 4\n---\nCalories 498\n---\n% Daily Value *\nTotal Carbohydrate 38g  | 14%\nDietary Fiber 1g  | 5%\nTotal Sugars 1g\nProtein 14g  | 29%\nTotal Fat 32g  | 41%\nSaturated Fat 19g  | 95%\nCholesterol 87mg  | 29%\nVitamin C 0mg  | 0%\nSodium 684mg  | 30%\nCalcium 264mg  | 20%\nIron 2mg  | 9%\nPotassium 162mg  | 3%\n* Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs.\n\nLoading shell for RecipesUgcThreaded1 Vue component in Globe.\n## Related Articles\nSpaghetti With Carbonara Sauce Recipe 30 mins Homemade Butternut Squash and Blue Cheese Ravioli With Sage Brown Butter Sauce Recipe 2 hrs 30 mins Easy Skillet Baked Ziti With Sausage and Ricotta Recipe 40 mins Rigatoni Con Pesce Spada (Pasta With Swordfish, Tomato, and Eggplant) 35 mins Roman Semolina Gnocchi (Gnocchi alla Romana) Recipe 1 hr 35 mins Creamy Sea Urchin (Uni) Pasta Recipe 25 mins Pesto Pasta With Potatoes and Green Beans 15 mins Spaghetti Alle Vongole in Bianco (Spaghetti With White Clam Sauce) 1 hr 30 mins\nFast and Easy Pasta With Blistered Cherry Tomato Sauce Recipe 25 mins Pasta Ai Quattro Formaggi (Creamy Four-Cheese Pasta) Recipe 30 mins Penne With Hot-as-You-Dare Arrabbiata Sauce Recipe 25 mins Pasta Alla Norma (Sicilian Pasta With Eggplant, Tomatoes, and Ricotta Salata) Recipe 40 mins Perfect Cacio e Pepe 20 mins Dinner Tonight: Pasta e Broccoli Recipe 35 mins Penne With Melted-Vegetable Sauce Recipe 35 mins Spaghetti con la Colatura di Alici (Pasta With Colatura) Recipe 30 mins\nNewsletter Sign Up\n\nNewsletter Sign Up",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 0,
+        "mappedStepImages": 0,
+        "stepImageCoverage": 0,
+        "ingredientCount": 5,
+        "executableStepCount": 2,
+        "notes": [
+          "Page images and step adjacencies visible in web.open; original binary URLs not returned by failed web.click. No verified downloadable media available, no invented image mappings.",
+          "Source quantities with mixed units retained verbatim; no vessel capacity inferred."
+        ]
+      }
+    },
+    {
+      "sourceName": "Serious Eats",
+      "sourceType": "website",
+      "url": "https://www.seriouseats.com/lighter-fettuccine-alfredo-recipe",
+      "documentId": "4ad2d3fc-c330-40c9-9330-a92f82714cca",
+      "retrievalMethod": "normal web.open full accessible page; merged overlapping line ranges; direct requests460 and browser402 retained as transport history",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "5 ounces (140 g) grated Parmigiano Reggiano cheese, plus more for sprinkling",
+          "raw": "5 ounces (140 g) grated Parmigiano Reggiano cheese, plus more for sprinkling",
+          "amount": null
+        },
+        {
+          "name": "2 tablespoons (30 ml) heavy cream",
+          "raw": "2 tablespoons (30 ml) heavy cream",
+          "amount": null
+        },
+        {
+          "name": "1 large egg",
+          "raw": "1 large egg",
+          "amount": null
+        },
+        {
+          "name": "1 teaspoon (3 g) cornstarch",
+          "raw": "1 teaspoon (3 g) cornstarch",
+          "amount": null
+        },
+        {
+          "name": "2 tablespoons (30 ml) extra-virgin olive oil, plus more for serving",
+          "raw": "2 tablespoons (30 ml) extra-virgin olive oil, plus more for serving",
+          "amount": null
+        },
+        {
+          "name": "1/2 teaspoon grated lemon zest (optional)",
+          "raw": "1/2 teaspoon grated lemon zest (optional)",
+          "amount": null
+        },
+        {
+          "name": "Kosher salt and freshly ground black pepper",
+          "raw": "Kosher salt and freshly ground black pepper",
+          "amount": null
+        },
+        {
+          "name": "1 pound (450 g) fresh fettuccine, or 12 ounces (340 g) dried fettuccine",
+          "raw": "1 pound (450 g) fresh fettuccine, or 12 ounces (340 g) dried fettuccine",
+          "amount": null
+        },
+        {
+          "name": "1 teaspoon minced garlic (about 1 medium clove)",
+          "raw": "1 teaspoon minced garlic (about 1 medium clove)",
+          "amount": null
+        },
+        {
+          "name": "2 tablespoons (30 g) unsalted butter",
+          "raw": "2 tablespoons (30 g) unsalted butter",
+          "amount": null
+        },
+        {
+          "name": "Minced fresh parsley or chives",
+          "raw": "Minced fresh parsley or chives",
+          "amount": null
+        },
+        {
+          "name": "water",
+          "raw": "water for boiling pasta, and reserved pasta cooking water as directed (method)",
+          "amount": null
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Combine cheese, heavy cream, egg, cornstarch, olive oil, and lemon zest (if using) in a large bowl. Season lightly with salt and heavily with black pepper and whisk to combine. Set aside.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "Bring a large pot of salted water to a boil over high heat. Add pasta and cook, stirring frequently to prevent sticking, until cooked but still very firm (not quite al dente), about 45 seconds for fresh pasta or 1-2 minutes less than package directions indicate for dried pasta. Drain pasta into a colander set over a large bowl. Transfer 2 cups (480ml) of cooking water to a liquid measuring cup and discard the rest. Transfer pasta to the now-empty bowl. Add garlic and butter and toss to coat.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "Whisking constantly, slowly add 1 1/2 cups of pasta cooking water to bowl with cheese mixture. Transfer cheese mixture to the now-empty pasta cooking pot, scraping the bottom to make sure you get everything. Cook over medium-high heat, stirring constantly with a rubber spatula, until mixture comes to a boil and thickens, about 45 seconds. Season sauce to taste with more salt and pepper as desired. Transfer pasta to sauce mixture and turn to coat. Just before serving, stir in more pasta water to thin sauce out as necessary. Serve immediately, sprinkle with minced herbs, black pepper, and cheese, and drizzle with additional olive oil.",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [],
+      "tips": [],
+      "rawExcerpt": "iframe†www.googletagmanager.com\n\nSerious Eats\n\nSave\n\nRate\n\n* Search [Input: What are you looking for?]\n\n* Newsletters\n* Sweepstakes\n* Serious Eats\n# Lighter Fettuccine Alfredo Recipe\n\n4.1\n\n(11)\n\n86 Reviews\n\nA luxurious pasta in Alfredo sauce that won't weigh you down.\n\nBy\n\nJ. Kenji López-Alt\n\nImage: Kenji Lopez Alt Image: Kenji Lopez Alt\n\nJ. Kenji López-Alt\n\nKenji is the former culinary director for Serious Eats and a current culinary consultant for the site. He is also a New York Times food columnist and the author of The Food Lab: Better Home Cooking Through Science.\n\nSerious Eats' Editorial Guidelines\nUpdated on September 20, 2022\n\nImage†cdn.jwplayer.com Image†cdn.jwplayer.com\n\nQuick and Easy Fettuccine Alfredo\n\n2:38\n\nIn This Recipe\n\nView All\n\nIn This Article\n\n* The Cheese\n\n* The Sauce\n\n* Putting It Together\n\nJump to recipe\n* By cooking the pasta in a smaller amount of water, we create a concentrated starchy pasta water that helps to thicken and emulsify the sauce.\n* We remove most of the cream in this recipe, instead using the thickening power of a single egg and a touch of cornstarch to create a rich, creamy sauce with a lighter, brighter flavor.\n* Our sauce gets cooked directly in the same pan as the fettuccine, making cleanup a snap.\nI'd always figured fettuccine Alfredo was about as authentically Italian as an Ellio's frozen pizza; something concocted by the Olive Garden's chefs at their Tuscan cooking academy†www.cnn.com , perhaps. But it turns out that the dish has quite a lengthy history in Rome.\nEver since the 15th century, Romans have been eating pasta with a simple, light cheese sauce, made directly in the pot with the pasta. Fettuccine alla romana, made by tossing fresh fettuccine with Parmesan cheese, is Alfredo's most direct ancestor. Spaghetti cacio e pepe —a late-night drunk-food staple for Romans, made by tossing spaghetti with Pecorino Romano, black pepper, and a touch of pasta water—is a very close cousin.\nImage: Fettuccine Alfredo on a serving plate.  Image: Fettuccine Alfredo on a serving plate.\n\nIt may sound impossible, but this fettuccine Alfredo is both creamy and light. . Photographs and video: J. Kenji López-Alt\nAccording to this 1981 New York Times article on the dish†www.nytimes.com , the modern version—what we know in the States as fettuccine Alfredo—was invented by Alfredo di Lelio (yes, Alfredo was a real man!), who first put it on the menu at his Trattoria Alfredo sometime around 1914. His version of fettuccine alla romana added extra butter to the mix, though it wasn't until it reached the New World (and perhaps corporate mega-chain kitchens) that it became commonly known as fettuccine Alfredo.\nHis extra-buttery version remains a far more popular dish stateside than it is in Italy, though you'll still find it on tourist menus near the big sights in Rome.\nThese days, most plates of fettuccine Alfredo come in all-you-can-eat portions, smothered in a heavily thickened, cream- and starch-fortified sauce flavored with dusty-tasting domestic faux-parmesan cheese (perhaps with a side of endless breadsticks). Even recipes for the dish at home are made with an astonishing amount of butter and cream—a full cup of cream and a full stick of butter for a pound of pasta is not uncommon.†www.foodnetwork.com\nNow, don't get me wrong—I'm not a health nut or a calorie counter. But let's face it: The feeling you get after downing a bowl of creamy, cheesy fettuccine Alfredo ain't the best. Wouldn't it be great to have a quick and easy version that's just as good as these cream-packed renditions, but has a cleaner flavor and doesn't leave you in a food coma?\nThe idea is to build a dish that bridges the gap between fettuccine alla romana, with its light cheese-and-pasta-water sauce, and hardcore Little Italy–style fettuccine Alfredo, with its gut-busting creaminess. After swimming in cheese sauce for a weekend, I came up with a recipe that really works (and in under 20 minutes, no less!). Here's how.\n## The Cheese\n\nImage: Grating Parmigiano Reggiano on a box grater. Image: Grating Parmigiano Reggiano on a box grater.\n\nSerious Eats / J. Kenji López-Alt\nFirst things first: You want to use real, honest-to-goodness Parmigiano Reggiano for this dish. The flavor of the dish comes from the cheese, so you're shooting yourself in the foot if you reach for that green can. Pre-grated stuff from a good-quality cheesemonger or a good supermarket is fine, so long as it's true imported Parmigiano Reggiano. (Look for those words specifically, not just generic \"parmesan.\")\nImage: A box grater, just grated cheese, and a chunk of cheese. Image: A box grater, just grated cheese, and a chunk of cheese.\n\nSerious Eats / J. Kenji López-Alt\n\nI tried incorporating the cheese a number of ways, including shredded and Microplaned, but the best approach was to grate it on the rasp-y side of a box grater. You know, the side that has little holes that look like they were punched through with a tiny screwdriver? The knuckle-grater side? Yeah, that one.\nI settled on five ounces of cheese per one pound of pasta.\n## The Sauce\n\nNow, today's gut-buster renditions of Alfredo sauce are made by combining melted butter with heavy cream and cheese, then tossing it all together with the pasta. The question is, how do you get a similarly thick and rich texture without as much dairy fat?\nI tried a few different methods, including making a besciamella out of milk instead of cream (too much effort for what should be an easy dish), using half-and-half in place of cream (it made the dish taste weaker without actually tasting much lighter), and using various other dairy products (crème fraîche made for a wonderful dish—not too different from the one-pot tuna noodle casserole I made—but it didn't taste like Alfredo to me).\nImage: Whisking alfredo sauce. Image: Whisking alfredo sauce.\n\nSerious Eats / J. Kenji López-Alt\nIn the end, I pulled a page from a standard cacio e pepe recipe: using plenty of starchy pasta water to help emulsify and thicken a sauce made mostly of melted cheese. By using about a cup and a half of pasta water, I was able to make a sauce that tasted rich and creamy with only about two tablespoons of actual heavy cream and butter in it (and, okay, I also added a couple of tablespoons of extra-virgin olive oil to bump up the flavor).\nTo help it thicken and cling to the pasta better, I also whisked in a single egg. It's by no means a traditional ingredient, but it makes a huge difference in the texture of the sauce, without altering its flavor much.\nI did find that in order to get enough starch in the water, I had to cook my pasta in a much smaller volume of water than is normally recommended for pasta—about two quarts for a pound of pasta—but, as it turns out, pasta comes out perfectly fine in a smaller volume of water , and the reward is extra-starchy pasta water.\n\nStill, a little insurance doesn't hurt.\n\nImage: An open container of cornstarch. Image: An open container of cornstarch.\n\nSerious Eats / J. Kenji López-Alt\nA small pinch of pure cornstarch ensures that your sauce will thicken properly, even if your pasta water doesn't quite cut it. (This is good, as the amount of excess starch the pasta gives up to the pot can vary from brand to brand.)\n\nThe best part of this sauce is that it requires no advance cooking. You simply whisk the ingredients together and set 'em aside while you cook the pasta.\nThe last question left to answer about the sauce was which extra flavorings to add. Black pepper—and a ton of it—is a no-brainer. I can't imagine a cheesy pasta dish without black pepper in it, whether it's cacio e pepe, carbonara, or Alfredo. And forget the whole \"would you like fresh pepper on that?\" thing with the ultra-long pepper mill at the restaurant: You want the pepper built right into your sauce.\nWhat about garlic? It's not part of the original recipe, but when I posed the question to the Twittersphere†twitter.com , the overwhelming response was yes to garlic flavor. In the interest of keeping the recipe streamlined, I found that when I added the garlic directly to the butter, then tossed it with the cooked pasta before adding the sauce, the residual heat from the pasta heated the garlic enough to get rid of its raw bite, while still providing plenty of flavor to the bowl.\nImage: Grating garlic on a microplane. Image: Grating garlic on a microplane.\n\nSerious Eats / J. Kenji López-Alt\n## Putting It Together\n\nImage: A tangle of uncooked fresh fettucine. Image: A tangle of uncooked fresh fettucine.\n\nSerious Eats / J. Kenji López-Alt\n\nFinally, we get to the actual pasta. Fettuccine Alfredo is supposed to be made with fresh fettuccine, and that's how I prefer it, though you can use dried pasta if you wish.\nThe key is to make sure that the noodles aren't overcooked when you boil them, as they'll continue to cook a bit once they hit the hot sauce. For fresh noodles, about 45 seconds in the water is good enough.\n\nImage: Adding fresh pasta to boiling water. Image: Adding fresh pasta to boiling water.\n\nSerious Eats / J. Kenji López-Alt\n\nFor dried noodles, you want to go for a minute or two less than the package directions indicate.\nThere we go—all set. Drain the noodles either by fishing them out with a set of tongs, or, better, by pouring them into a colander set in a large bowl. That way, the starchy pasta water gets saved.\n\nImage: Adding butter to just cooked pasta. Image: Adding butter to just cooked pasta.\n\nSerious Eats / J. Kenji López-Alt\nSet aside a couple of cups of pasta water (dump the rest), transfer the noodles to the bowl along with the butter and garlic, then toss it until the butter is melted. This will keep the noodles from sticking together while you finish the sauce.\n\nImage: Whisking warm pasta water into cheese mixture. Image: Whisking warm pasta water into cheese mixture.\n\nSerious Eats / J. Kenji López-Alt\n\nWorking quickly, whisk some of the hot pasta water into the bowl with the sauce mixture.\nImage: Whisking lightened alfredo sauce. Image: Whisking lightened alfredo sauce.\n\nSerious Eats / J. Kenji López-Alt\n\nIt'll end up kind of soupy-looking—starches don't fully hydrate and thicken until they've been heated. So scrape this mixture into the now-empty pasta pot, and heat it on the stovetop, stirring constantly, until it turns thick and rich. It should take only a moment.\n\nImage: Stirring pasta into Alfredo sauce. Image: Stirring pasta into Alfredo sauce.\nSerious Eats / J. Kenji López-Alt\n\nOnce that's done, add the pasta to the sauce, and turn gently to coat.\n\nImage: Stirring pasta and Alfredo sauce with a wooden spoon. Image: Stirring pasta and Alfredo sauce with a wooden spoon.\n\nSerious Eats / J. Kenji López-Alt\n\nIf you, like me, end up taking too much time by doing silly things like taking photos, the sauce will over-thicken, and you'll need to thin it out with a bit of pasta water.\nNow we get to the absolute most important part when it comes to fettuccine Alfredo: Serve it immediately, and serve it hot, preferably in pre-warmed bowls. Cheese sauce does not get better as it sits around.\n\nI like to top mine with chopped chives, some extra cheese, a bit of lemon zest, and some olive oil. (I sometimes work that lemon zest into the sauce as well, hint hint.)\n\nOh, and in case you were wondering, this noodle party is, unfortunately, BYOB.*\n\n*Bring-Your-Own-Breadsticks.\n### September 2014\n\nPrep Time:\n\n5 mins\n\nCook Time:\n\n30 mins\n\nTotal Time:\n\n35 mins\n\nServings:\n\n4 servings\n\nYield:\n\nServes 4\n\n[Button: Jump to Nutrition Facts]\n\nKeep Screen Awake\n## Ingredients\n\n* 5 ounces (140 g) grated Parmigiano Reggiano cheese, plus more for sprinkling\n\n* 2 tablespoons (30 ml) heavy cream\n\n* 1 large egg\n\n* 1 teaspoon (3 g) cornstarch\n\n* 2 tablespoons (30 ml) extra-virgin olive oil, plus more for serving\n\n* 1/2 teaspoon grated lemon zest (optional)\n\n* Kosher salt and freshly ground black pepper\n\n* 1 pound (450 g) fresh fettuccine, or 12 ounces (340 g) dried fettuccine\n\n* 1 teaspoon minced garlic (about 1 medium clove)\n* 2 tablespoons (30 g) unsalted butter\n\n* Minced fresh parsley or chives\n## Directions\n\n1. Combine cheese, heavy cream, egg, cornstarch, olive oil, and lemon zest (if using) in a large bowl. Season lightly with salt and heavily with black pepper and whisk to combine. Set aside.\n\nImage: Whisking together cheese, cream, eggs, black pepper and more as the base for a lighter fettucine Alfredo sauce. Image: Whisking together cheese, cream, eggs, black pepper and more as the base for a lighter fettucine Alfredo sauce.\n\nSerious Eats / J. Kenji López-Alt\n2. Bring a large pot of salted water to a boil over high heat. Add pasta and cook, stirring frequently to prevent sticking, until cooked but still very firm (not quite al dente), about 45 seconds for fresh pasta or 1-2 minutes less than package directions indicate for dried pasta. Drain pasta into a colander set over a large bowl. Transfer 2 cups (480ml) of cooking water to a liquid measuring cup and discard the rest. Transfer pasta to the now-empty bowl. Add garlic and butter and toss to coat.\nImage: Using tongs to move cooked pasta from boiling water to a bowl. Image: Using tongs to move cooked pasta from boiling water to a bowl.\n\nSerious Eats / J. Kenji López-Alt\n3. Whisking constantly, slowly add 1 1/2 cups of pasta cooking water to bowl with cheese mixture. Transfer cheese mixture to the now-empty pasta cooking pot, scraping the bottom to make sure you get everything. Cook over medium-high heat, stirring constantly with a rubber spatula, until mixture comes to a boil and thickens, about 45 seconds. Season sauce to taste with more salt and pepper as desired. Transfer pasta to sauce mixture and turn to coat.\nJust before serving, stir in more pasta water to thin sauce out as necessary. Serve immediately, sprinkle with minced herbs, black pepper, and cheese, and drizzle with additional olive oil.\nImage: Using tongs to lift fettucine with sauce out of cooking pot. Image: Using tongs to lift fettucine with sauce out of cooking pot.\n\nSerious Eats / J. Kenji López-Alt\n## Special Equipment\n\nWhisk, silicone spatula\n\nSave\n\nRate\n\nPrint [Input]\n## Nutrition Facts (per serving)\n\n479  | Calories\n27g  | Fat\n41g  | Carbs\n18g  | Protein\n\nShow Full Nutrition Label Hide Full Nutrition Label\n\nNutrition Facts\n---\nServings Per Recipe 4\n---\nCalories 479\n---\n% Daily Value *\nTotal Carbohydrate 41g  | 15%\nDietary Fiber 2g  | 6%\nTotal Sugars 2g\nProtein 18g  | 36%\nTotal Fat 27g  | 35%\nSaturated Fat 12g  | 62%\nCholesterol 101mg  | 34%\nVitamin C 2mg  | 2%\nSodium 806mg  | 35%\nCalcium 327mg  | 25%\nIron 2mg  | 11%\nPotassium 202mg  | 4%\n* Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs.\n\nLoading shell for RecipesUgcThreaded1 Vue component in Globe.\n## Related Articles\nRoman-Style Fettuccine With Alfredo Sauce Recipe 15 mins Uovo in Raviolo (Runny Egg Yolk Ravioli) Recipe 1 hr 5 mins Pasta al Limone 25 mins Spaghetti With Carbonara Sauce Recipe 30 mins Homemade Butternut Squash and Blue Cheese Ravioli With Sage Brown Butter Sauce Recipe 2 hrs 30 mins Perfect (Almost) No-Stir Risotto 45 mins Roman Semolina Gnocchi (Gnocchi alla Romana) Recipe 1 hr 35 mins Rigatoni Con Pesce Spada (Pasta With Swordfish, Tomato, and Eggplant) 35 mins\nSpinach and Ricotta Manicotti 1 hr 35 mins Pesto alla Trapanese (Sicilian Pesto With Almonds and Tomatoes) Recipe 20 mins Veneto-Style Radicchio Risotto With Walnuts and Blue Cheese Recipe 45 mins Easy Skillet Baked Ziti With Sausage and Ricotta Recipe 40 mins Pasta With Butternut Squash and Sage Brown Butter 25 mins Homemade Ricotta Ravioli 1 hr 10 mins Lasagna Napoletana (Lasagna With Sausage, Smoked Cheese, and Meatballs) Recipe 6 hrs 40 mins Light and Tender Potato Gnocchi With Sage-Butter Sauce Recipe 1 hr 40 mins\nNewsletter Sign Up\n\nNewsletter Sign Up",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 0,
+        "mappedStepImages": 0,
+        "stepImageCoverage": 0,
+        "ingredientCount": 12,
+        "executableStepCount": 3,
+        "notes": [
+          "Page images and step adjacencies visible in web.open; original binary URLs not returned by failed web.click. No verified downloadable media available, no invented image mappings.",
+          "Source quantities with mixed units retained verbatim; no vessel capacity inferred."
+        ]
+      }
+    }
+  ],
+  "sourceMode": "multi_source",
+  "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/fettucine-alfredo",
+  "selectionReason": "Selected exactly one whole BBC recipe: full coherent ingredients/method match the target; verified usable hero (no source step photos available). Other sources have no verified usable media URLs under ordinary access. Under the required completeness/coherence then usable-image/coverage ranking, this source leads; its ingredients, operations, tips and media are kept together without supplementation.",
+  "ragEvidence": [
+    {
+      "chunkId": "732f6da8-468a-4a94-b3c1-89f198f65e9f",
+      "documentId": "285a92a5-e04a-4e85-8db7-0151b4f6eeaa",
+      "sourceName": "BBC Good Food",
+      "chunkType": "tips",
+      "content": "菜名：奶油宽面\n- 原文未提供额外提示。",
+      "similarity": 0.598513233395798
+    },
+    {
+      "chunkId": "f52f2f53-131b-4935-8485-9ac691cdf240",
+      "documentId": "285a92a5-e04a-4e85-8db7-0151b4f6eeaa",
+      "sourceName": "BBC Good Food",
+      "chunkType": "technique",
+      "content": "菜名：奶油宽面\n- 原文未明确说明技法。",
+      "similarity": 0.575968112940807
+    },
+    {
+      "chunkId": "572bf23e-0c36-4776-8fc5-0a066c8cd49c",
+      "documentId": "285a92a5-e04a-4e85-8db7-0151b4f6eeaa",
+      "sourceName": "BBC Good Food",
+      "chunkType": "ingredients",
+      "content": "菜名：奶油宽面\n- 227g tub clotted cream\n- 25g butter (about 2 tbsp)\n- 1 tsp cornflour\n- 100g parmesan grated\n- freshly grated nutmeg\n- 250g fresh fettuccine or tagliatelle\n- snipped chives or chopped parsley, to serve (optional)\n- 2 tsp salt for pasta (method step3)\n- good grinding of black pepper (method step2)\n- boiling pasta water (amount unspecified); retain3 tbsp for sauce",
+      "similarity": 0.465178068301451
+    },
+    {
+      "chunkId": "b4f25661-b988-428b-b962-3d4766a5c0e8",
+      "documentId": "285a92a5-e04a-4e85-8db7-0151b4f6eeaa",
+      "sourceName": "BBC Good Food",
+      "chunkType": "steps",
+      "content": "菜名：奶油宽面\n1. In a medium saucepan, stir the clotted cream, butter and cornflour over a low-ish heat and bring to a low simmer. Turn off the heat and keep warm.\n2. Meanwhile, put the cheese and nutmeg in a small bowl and add a good grinding of black pepper, then stir everything together (don’t add any salt at this stage).\n3. Put the pasta in another pan with 2 tsp salt, pour over some boiling water and cook following pack instructions (usually 3-4 mins). When cooked, scoop some of the cooking water into a heatproof jug or mug and drain the pasta, but not too thoroughly.\n4. Add the pasta to the pan with the clotted cream mixture, then sprinkle over the cheese and gently fold everything together over a low heat using a rubber spatula. When combined, splash in 3 tbsp of the cooking water. At first, the pasta will look wet and sloppy: keep stirring until the water is absorbed and the sauce is glossy. Check the seasoning before transferring to heated bowls. Sprinkle over some chives or parsley, then serve immediately.",
+      "similarity": 0.457079757947864
+    },
+    {
+      "chunkId": "9926363d-c761-4d41-b2d2-1643712649ce",
+      "documentId": "285a92a5-e04a-4e85-8db7-0151b4f6eeaa",
+      "sourceName": "BBC Good Food",
+      "chunkType": "summary",
+      "content": "菜名：奶油宽面\n别名：Fettuccine alfredo\n菜系：Italian\n简介：Hankering for a comforting bowl of pasta in creamy sauce? This sumptuous Italian dish is for you. It takes just 25 minutes so it's an easy midweek meal",
+      "similarity": 0.441611283017553
+    },
+    {
+      "chunkId": "77483419-335f-4c0b-bc44-8a6bc3a0fb49",
+      "documentId": "104da4b6-7b98-4f42-ba24-ff89a0723102",
+      "sourceName": "Serious Eats",
+      "chunkType": "technique",
+      "content": "菜名：奶油宽面\n- 原文未明确说明技法。",
+      "similarity": 0.576033353805558
+    },
+    {
+      "chunkId": "148333dd-0b0f-4f06-8f58-9a2184237795",
+      "documentId": "104da4b6-7b98-4f42-ba24-ff89a0723102",
+      "sourceName": "Serious Eats",
+      "chunkType": "tips",
+      "content": "菜名：奶油宽面\n- Look for a young Parmigiano-Reggiano, preferably aged for less than 18 months (a younger cheese will be sweeter and less spicy, which works well in this dish). Alternatively, Grana Padano makes a good substitution as it's a very similar cheese to Parmesan, but typically aged less.",
+      "similarity": 0.528949085348739
+    },
+    {
+      "chunkId": "7b481ce5-248f-42a1-b203-645370dd0edb",
+      "documentId": "104da4b6-7b98-4f42-ba24-ff89a0723102",
+      "sourceName": "Serious Eats",
+      "chunkType": "summary",
+      "content": "菜名：奶油宽面\n别名：Roman-Style Fettuccine With Alfredo Sauce Recipe\n简介：Roman-Style Fettuccine With Alfredo Sauce Recipe",
+      "similarity": 0.475980100152508
+    },
+    {
+      "chunkId": "e1c47071-21bf-4d52-9097-dc5e50a4f860",
+      "documentId": "104da4b6-7b98-4f42-ba24-ff89a0723102",
+      "sourceName": "Serious Eats",
+      "chunkType": "ingredients",
+      "content": "菜名：奶油宽面\n- 1 stick unsalted butter (115 g), diced\n- 4 ounces Parmigiano-Reggiano cheese (115 g), grated on the fine holes of a box grater, plus more for serving (see note)\n- Kosher salt\n- 1 pound fresh fettuccine pasta\n- water for boiling pasta, and reserved pasta cooking water as directed (method)",
+      "similarity": 0.458188051961431
+    },
+    {
+      "chunkId": "6171e741-533e-457f-90cf-b122049cfe25",
+      "documentId": "104da4b6-7b98-4f42-ba24-ff89a0723102",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：奶油宽面\n1. In a large heatproof bowl, combine butter and cheese. In a medium pot of salted boiling water, cook pasta until al dente. Using tongs, a strainer, or a spider, transfer pasta to bowl with cheese and butter.\n2. Add 1/2 cup hot pasta-cooking water, then, using tongs, toss repeatedly until butter is melted and a creamy, emulsified sauce forms. If pasta seems too dry, add a splash or two of additional pasta water until desired consistency is reached. Season with salt, if necessary. Serve, sprinkling more cheese on top at the table.",
+      "similarity": 0.444018238069804
+    },
+    {
+      "chunkId": "9cbb2ff8-58ac-4292-938d-f301b92243e0",
+      "documentId": "4ad2d3fc-c330-40c9-9330-a92f82714cca",
+      "sourceName": "Serious Eats",
+      "chunkType": "tips",
+      "content": "菜名：奶油宽面\n- 原文未提供额外提示。",
+      "similarity": 0.5999749898836
+    },
+    {
+      "chunkId": "c8891d88-66cf-4e50-8f2a-ff92cd1dc834",
+      "documentId": "4ad2d3fc-c330-40c9-9330-a92f82714cca",
+      "sourceName": "Serious Eats",
+      "chunkType": "technique",
+      "content": "菜名：奶油宽面\n- 原文未明确说明技法。",
+      "similarity": 0.57694164377104
+    },
+    {
+      "chunkId": "2b526105-b7d3-4721-b940-4871daf0b21d",
+      "documentId": "4ad2d3fc-c330-40c9-9330-a92f82714cca",
+      "sourceName": "Serious Eats",
+      "chunkType": "summary",
+      "content": "菜名：奶油宽面\n别名：Lighter Fettuccine Alfredo Recipe\n简介：Lighter Fettuccine Alfredo Recipe",
+      "similarity": 0.495353102407052
+    },
+    {
+      "chunkId": "4999afbd-1cc4-42df-b0c8-496dfe1d84e3",
+      "documentId": "4ad2d3fc-c330-40c9-9330-a92f82714cca",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：奶油宽面\n1. Combine cheese, heavy cream, egg, cornstarch, olive oil, and lemon zest (if using) in a large bowl. Season lightly with salt and heavily with black pepper and whisk to combine. Set aside.\n2. Bring a large pot of salted water to a boil over high heat. Add pasta and cook, stirring frequently to prevent sticking, until cooked but still very firm (not quite al dente), about 45 seconds for fresh pasta or 1-2 minutes less than package directions indicate for dried pasta. Drain pasta into a colander set over a large bowl. Transfer 2 cups (480ml) of cooking water to a liquid measuring cup and discard the rest. Transfer pasta to the now-empty bowl. Add garlic and butter and toss to coat.",
+      "similarity": 0.441932224265605
+    },
+    {
+      "chunkId": "914c4da6-8020-49b4-a7ea-472fa8af2398",
+      "documentId": "4ad2d3fc-c330-40c9-9330-a92f82714cca",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：奶油宽面\n3. Whisking constantly, slowly add 1 1/2 cups of pasta cooking water to bowl with cheese mixture. Transfer cheese mixture to the now-empty pasta cooking pot, scraping the bottom to make sure you get everything. Cook over medium-high heat, stirring constantly with a rubber spatula, until mixture comes to a boil and thickens, about 45 seconds. Season sauce to taste with more salt and pepper as desired. Transfer pasta to sauce mixture and turn to coat. Just before serving, stir in more pasta water to thin sauce out as necessary. Serve immediately, sprinkle with minced herbs, black pepper, and cheese, and drizzle with additional olive oil.",
+      "similarity": 0.441502444923219
+    },
+    {
+      "chunkId": "a116eb5d-17c2-4fec-9339-e703be4dd7ed",
+      "documentId": "4ad2d3fc-c330-40c9-9330-a92f82714cca",
+      "sourceName": "Serious Eats",
+      "chunkType": "ingredients",
+      "content": "菜名：奶油宽面\n- 5 ounces (140 g) grated Parmigiano Reggiano cheese, plus more for sprinkling\n- 2 tablespoons (30 ml) heavy cream\n- 1 large egg\n- 1 teaspoon (3 g) cornstarch\n- 2 tablespoons (30 ml) extra-virgin olive oil, plus more for serving\n- 1/2 teaspoon grated lemon zest (optional)\n- Kosher salt and freshly ground black pepper\n- 1 pound (450 g) fresh fettuccine, or 12 ounces (340 g) dried fettuccine\n- 1 teaspoon minced garlic (about 1 medium clove)\n- 2 tablespoons (30 g) unsalted butter\n- Minced fresh parsley or chives\n- water for boiling pasta, and reserved pasta cooking water as directed (method)",
+      "similarity": 0.42712359317367
+    }
+  ],
+  "notes": [
+    "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented.",
+    "BBC source original yield: 3",
+    "BBC original totalTime: PT25M",
+    "BBC original cookTime: PT10M",
+    "BBC original prepTime: PT15M",
+    "Alternative attempts: [{\"url\":\"https://www.bbcgoodfood.com/recipes/fettucine-alfredo\",\"status\":200,\"bytes\":571055}]",
+    "Current book inventory and22target audit: west-kb-audit.json. Invalid/superseded/rejected history excluded.",
+    "Serious Eats direct Python460/normalPowerShell402/normalChrome402; normalweb.open successfully retrieved the complete recipes included here. All successful complete matching sources ingested separately before selection; no access-control bypass.",
+    "Alternative enabled-site searches and complete observed source text are archived in west-alternative-search.json and west-se-*.txt.",
+    "Selected source has no verified cooking-stage photos; do not fabricate or relabel a finished-dish photo. Parent must resolve manual-run image exception before publishing."
+  ]
+}

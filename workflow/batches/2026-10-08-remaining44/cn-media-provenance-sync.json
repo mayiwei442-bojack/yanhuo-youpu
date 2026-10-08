@@ -1,0 +1,808 @@
+{
+  "startedAt": "2026-10-08T12:30:07.392Z",
+  "operation": "Verified frozen source media metadata enrichment only; no raw content, source author, content hash, chunks or embeddings updated.",
+  "documents": [
+    {
+      "recipeId": "cn-015",
+      "documentId": "a4076148-4892-4817-9692-070337ba2939",
+      "author": "Judy",
+      "imageCount": 2,
+      "heroSha256": "cdb8f76c434d8462513850fab6f4721480a4d27ac635c7e28331bad5d98f91a2",
+      "images": [
+        {
+          "repositoryPath": "assets/dishes/sources/cn-015-woks/hero.jpg",
+          "sha256": "cdb8f76c434d8462513850fab6f4721480a4d27ac635c7e28331bad5d98f91a2"
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-015-woks/step-4-chili-oil.jpg",
+          "sha256": "3622be81e9b699f026403829e86e3c4d1e039104bda4435a9896c009e421c7bf",
+          "stepOrder": 4
+        }
+      ],
+      "fullMediaMetadataHash": "2d39c0c9e0c346a5ae027d0a6971cee6448a233c891c0cd06486e658800523d7",
+      "contentInvariantHash": "f85f2b625e04130baa4e042e1ffe02fc02a54d2dc5b774102fff2671b49bb1db",
+      "contentHashUnchanged": true,
+      "sourceAuthorUnchanged": true,
+      "documentEvidenceStatusPreserved": true,
+      "chunkCount": 6,
+      "chunkVectorMetadataHash": "14fefeefa643021b17cff7abdf483086ba8304d780e83c5b0e60e538da91e441",
+      "chunksAndVectorsUnchanged": true,
+      "retrieval": {
+        "semanticCount": 6,
+        "hybridCount": 6,
+        "excludedEvidenceReturned": 0
+      },
+      "verified": true
+    },
+    {
+      "recipeId": "cn-019",
+      "documentId": "0ff9202a-963e-4b37-a713-4d7d344dd8ab",
+      "author": "Judy",
+      "imageCount": 8,
+      "heroSha256": "33d662c93bb7959bb6fb6344e20b217f0108108d5ceb11972b623e934f2e357b",
+      "images": [
+        {
+          "repositoryPath": "assets/dishes/sources/cn-019-woks-dongpo/hero.jpg",
+          "sha256": "33d662c93bb7959bb6fb6344e20b217f0108108d5ceb11972b623e934f2e357b"
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-019-woks-dongpo/step-2-1.jpg",
+          "sha256": "db541980739c100bb19f15d06f7cb9bf2d321b6cb38f3bd00e7e0bb8ca5f9646",
+          "stepOrder": 2
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-019-woks-dongpo/step-3-7.jpg",
+          "sha256": "da630c82ab8006a66569923e9a5f657bde062e781ded70d4002820f20d7b4392",
+          "stepOrder": 3
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-019-woks-dongpo/step-3-8.jpg",
+          "sha256": "800663d39be2d03607af22b6f4a823e382fe18fcefe2a1594b8344730278b8dc",
+          "stepOrder": 3
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-019-woks-dongpo/step-5-9.jpg",
+          "sha256": "24b1b26ba9f95e0c810f3b47169477e6d8ac2bdc83dcc932ff8c27071ba0e212",
+          "stepOrder": 5
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-019-woks-dongpo/step-5-10.jpg",
+          "sha256": "00301b5d2d95ee52e71f793ebfec025b421fd05e36e3031757004623cf1b8f81",
+          "stepOrder": 5
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-019-woks-dongpo/step-5-11.jpg",
+          "sha256": "0b6035f9d117e1a79bdf330b65339d425c11fdc8fb512634e3c07906765b1e90",
+          "stepOrder": 5
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-019-woks-dongpo/step-5-12.jpg",
+          "sha256": "b32a05ae476c6ec3d21a59a845913910926c2061648e81c18fe14cc2c1aff93b",
+          "stepOrder": 5
+        }
+      ],
+      "fullMediaMetadataHash": "160cf94f0407687bd27971af74b72f601463506725956bc7598043b10d655749",
+      "contentInvariantHash": "90c45e1f05e89e6de4b20c816785a303e7fca161dbd2e561432eff2437593107",
+      "contentHashUnchanged": true,
+      "sourceAuthorUnchanged": true,
+      "documentEvidenceStatusPreserved": true,
+      "chunkCount": 6,
+      "chunkVectorMetadataHash": "445c1fa52b5e0bdfb9d29be5ae432f4297053c0d50bce003cd75cad3f44ff139",
+      "chunksAndVectorsUnchanged": true,
+      "retrieval": {
+        "semanticCount": 6,
+        "hybridCount": 6,
+        "excludedEvidenceReturned": 0
+      },
+      "verified": true
+    },
+    {
+      "recipeId": "cn-020",
+      "documentId": "2be1111d-2cd1-42dd-b183-990a063573e7",
+      "author": "Bill",
+      "imageCount": 13,
+      "heroSha256": "5b2c559d3b0d9de95e26cdc2971c44c68b265a8a37b76bed84d6acd058691321",
+      "images": [
+        {
+          "repositoryPath": "assets/dishes/sources/cn-020-woks/hero.jpg",
+          "sha256": "5b2c559d3b0d9de95e26cdc2971c44c68b265a8a37b76bed84d6acd058691321"
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-020-woks/step-1-1.jpg",
+          "sha256": "1b8e29e155145a262f0d6cfda82512042dbe9b5e65e0e2c268cda9eebd5a3d03",
+          "stepOrder": 1
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-020-woks/step-1-2.jpg",
+          "sha256": "ce1f336fa1705603a156d6a87826fadb3bc130ef22b73a1a73590cdd9722f640",
+          "stepOrder": 1
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-020-woks/step-2-3.jpg",
+          "sha256": "305c9f32746a338e289ba7460538a44e3f46b054ea2228ad249e8d7a9c8dbd0c",
+          "stepOrder": 2
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-020-woks/step-3-4.jpg",
+          "sha256": "5e4d66df34f457b2a694865dc2b1dc82df368cb0dee04e1cb3fde70689467713",
+          "stepOrder": 3
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-020-woks/step-3-5.jpg",
+          "sha256": "7b0cc1e6d604ac2bb6b7200f53c233adac31a7dfcf4e470eb8746c467c8ba048",
+          "stepOrder": 3
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-020-woks/step-3-6.jpg",
+          "sha256": "23ea4445f1cd93d77a14d1ffa07a2ca7d5ace0f80d97030e7aa164ffe8315a40",
+          "stepOrder": 3
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-020-woks/step-5-7.jpg",
+          "sha256": "da4a664c9809c9345a16a59bd522227822197949d6e22207c197562226d3deb7",
+          "stepOrder": 5
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-020-woks/step-6-8.jpg",
+          "sha256": "2d827907f25b215185ce5f468319f34e2afcc11bea60f00d72b21fffabb5f615",
+          "stepOrder": 6
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-020-woks/step-6-9.jpg",
+          "sha256": "cbf6a9c6796a6de9b05a68b8107442a12cf88225551dd8943071fd18d22430c4",
+          "stepOrder": 6
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-020-woks/step-6-10.jpg",
+          "sha256": "c3e98462bce9a1aba8bb549535042acb48ff14738762a1da83c9ea4aacaf166a",
+          "stepOrder": 6
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-020-woks/step-8-11.jpg",
+          "sha256": "28a31e32ded15baa3648ad0a813a2f42af5b165cc8d9c424d820a6aaf051d601",
+          "stepOrder": 8
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-020-woks/step-9-12.jpg",
+          "sha256": "6886338b4efb2c5f1ee89b69b8f0764803ab35df2368af6064be5ef2b7ea888b",
+          "stepOrder": 9
+        }
+      ],
+      "fullMediaMetadataHash": "ccbd4e76efbbc1cb4ee6ab81dac6b3afdbb99aa4e43bc1c41db1fffadb7924ff",
+      "contentInvariantHash": "b82644007ae4d4287f14c95a954b329b4fda0bffb2521265220bbbdd803daf94",
+      "contentHashUnchanged": true,
+      "sourceAuthorUnchanged": true,
+      "documentEvidenceStatusPreserved": true,
+      "chunkCount": 8,
+      "chunkVectorMetadataHash": "ea7766a1ea6f4741453b9e52bb647dd103b5fdc50007a5de43108a4eae04b012",
+      "chunksAndVectorsUnchanged": true,
+      "retrieval": {
+        "semanticCount": 8,
+        "hybridCount": 8,
+        "excludedEvidenceReturned": 0
+      },
+      "verified": true
+    },
+    {
+      "recipeId": "cn-031",
+      "documentId": "3ef0f122-545b-407b-af57-d247126d1390",
+      "author": "Judy",
+      "imageCount": 8,
+      "heroSha256": "6f8dd5a197914784660f59d10ac61e364cbc7c54502ddfca82ec65c380515bfe",
+      "images": [
+        {
+          "repositoryPath": "assets/dishes/sources/cn-031-woks/hero.jpg",
+          "sha256": "6f8dd5a197914784660f59d10ac61e364cbc7c54502ddfca82ec65c380515bfe"
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-031-woks/step-1-1.jpg",
+          "sha256": "950c3ad8d67da411a6776e4ad44dd4de38af0129cdc4197c81ece0f8ba0a7c7e",
+          "stepOrder": 1
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-031-woks/step-1-2.jpg",
+          "sha256": "45e84c49b78da01dd90020b458bd2f41735301264c130c1d557255abe3222dbb",
+          "stepOrder": 1
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-031-woks/step-1-3.jpg",
+          "sha256": "9c3cfe8329dd5bc6cb088cecbffb3aee783f9df07ac52dcf4f1ca750b0ffa6e3",
+          "stepOrder": 1
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-031-woks/step-2-4.jpg",
+          "sha256": "e98f4fd7a7cac3a787ae150211d8c4018144a7a17ffd3ab9489c1f79ab69a729",
+          "stepOrder": 2
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-031-woks/step-2-5.jpg",
+          "sha256": "ddee6f6a675a441eede315c75186043996b24087a465dce1b671fa95501753e3",
+          "stepOrder": 2
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-031-woks/step-3-6.jpg",
+          "sha256": "4d0f05eedeb44663a536075b8550112be604d72a7c62f4f87f75d62ffd4b499f",
+          "stepOrder": 3
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-031-woks/step-3-7.jpg",
+          "sha256": "e228eb7cd9fc9ee272447ddbbe86f1ce5fcd2785ab31ad2d6908fc6472bc2595",
+          "stepOrder": 3
+        }
+      ],
+      "fullMediaMetadataHash": "fefb7d47a6ec6bba45f8001dd07bbd99c3df26101d34bf105aad44531740e74a",
+      "contentInvariantHash": "852cc9b45922fc8ff42472a20857814f557e5ab2206c962381987b371fbe5d0f",
+      "contentHashUnchanged": true,
+      "sourceAuthorUnchanged": true,
+      "documentEvidenceStatusPreserved": true,
+      "chunkCount": 5,
+      "chunkVectorMetadataHash": "933767f36bf0e0ef20d3f5cc40220d5bb2ef0dac9d6b0826da6ad424ec7c7b9e",
+      "chunksAndVectorsUnchanged": true,
+      "retrieval": {
+        "semanticCount": 5,
+        "hybridCount": 5,
+        "excludedEvidenceReturned": 0
+      },
+      "verified": true
+    },
+    {
+      "recipeId": "cn-035",
+      "documentId": "fc8be572-9638-48b4-8fb1-b416a9893e56",
+      "author": "Judy",
+      "imageCount": 8,
+      "heroSha256": "6b0c1510bef93e25a96386609c32d3b59097976ca8f1a76ee28ef006df688c1a",
+      "images": [
+        {
+          "repositoryPath": "assets/dishes/sources/cn-035-woks/hero.jpg",
+          "sha256": "6b0c1510bef93e25a96386609c32d3b59097976ca8f1a76ee28ef006df688c1a"
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-035-woks/step-2-1.jpg",
+          "sha256": "ba9c1b664f344c5e701010156d8193b0283325c1f2645e84b34d727c7790d7e5",
+          "stepOrder": 2
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-035-woks/step-3-2.jpg",
+          "sha256": "7c1b59f8cbb0a3b53f6337831e4aad8da0d041eac3cc4864eb99e5a15f114c19",
+          "stepOrder": 3
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-035-woks/step-4-3.jpg",
+          "sha256": "93589a62008d6e9bf54c34d2ed688e190b592ddbc26c961e94250456a58e3cc7",
+          "stepOrder": 4
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-035-woks/step-4-4.jpg",
+          "sha256": "99df28d43e6892bdfd874d0dcf071f2f01222e012ab7730fb967c8dac1a95b48",
+          "stepOrder": 4
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-035-woks/step-5-5.jpg",
+          "sha256": "87f39f7e9adde2ce8e5384fbddc62fd60600f6b5d45a16d2dd00ce200ad0a22a",
+          "stepOrder": 5
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-035-woks/step-5-6.jpg",
+          "sha256": "603f12097226d961a489538dcdf822193736674ede7d7416b9d74a6f76254503",
+          "stepOrder": 5
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-035-woks/step-6-7.jpg",
+          "sha256": "3c5efbab46d637de854d433f2145cc2c06d081c79b3ace4fe9f003eb593af9bf",
+          "stepOrder": 6
+        }
+      ],
+      "fullMediaMetadataHash": "0a7d9ec2b81d843a4ab91924f9e65193c411c43f5edf751b44da2aaacd3c237c",
+      "contentInvariantHash": "0a84afee3a3aebeda32a844c7fd6374e4d29c816bb9f96f509bb2a55fd22a8e7",
+      "contentHashUnchanged": true,
+      "sourceAuthorUnchanged": true,
+      "documentEvidenceStatusPreserved": true,
+      "chunkCount": 6,
+      "chunkVectorMetadataHash": "58fddfaaa89b59aa8beacbd37921e9822dfea70889aa8314687f5de7673b3dd4",
+      "chunksAndVectorsUnchanged": true,
+      "retrieval": {
+        "semanticCount": 6,
+        "hybridCount": 6,
+        "excludedEvidenceReturned": 0
+      },
+      "verified": true
+    },
+    {
+      "recipeId": "cn-039",
+      "documentId": "e9ce4921-06d9-457d-b816-2eb881079e56",
+      "author": "Judy",
+      "imageCount": 25,
+      "heroSha256": "27cdcd6bda90b3816943311bbfa1c2201a7247fcbf3329e9a1429665aee30439",
+      "images": [
+        {
+          "repositoryPath": "assets/dishes/sources/cn-039-woks/hero.jpg",
+          "sha256": "27cdcd6bda90b3816943311bbfa1c2201a7247fcbf3329e9a1429665aee30439"
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-039-woks/step-1-1.jpg",
+          "sha256": "f6d856153f95e03a10dccd48f7635b250f172f81e4d1f4c16b3b55e91161d720",
+          "stepOrder": 1
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-039-woks/step-2-2.jpg",
+          "sha256": "ca1968116aea5f7c1f15df25a48176ade4c56852f5aebd898ed670fc7fbc1c0e",
+          "stepOrder": 2
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-039-woks/step-2-3.jpg",
+          "sha256": "79d5a78d0e05a5e1edfe17d9774492b4e78c4d5fe192481e85228c9eea8af230",
+          "stepOrder": 2
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-039-woks/step-3-4.jpg",
+          "sha256": "c02291d088351434865c6e48b48ed935c404f13b441e531b4af5e9580729eee0",
+          "stepOrder": 3
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-039-woks/step-5-5.jpg",
+          "sha256": "ef709ee8778cdabb7873aa53ba786fef80b36fdb7b205004635a54b38b8654fc",
+          "stepOrder": 5
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-039-woks/step-5-6.jpg",
+          "sha256": "e71200279f9f109368ecda120f2606d9dbd88bfaec5291e4b87931df3511a8e6",
+          "stepOrder": 5
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-039-woks/step-5-7.jpg",
+          "sha256": "730842d712d821c1354fc07db221e70f522b9e0f0a94034a01ccef86857bc277",
+          "stepOrder": 5
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-039-woks/step-7-8.jpg",
+          "sha256": "ed5585edf203b7f7ea6598be10eecc3e81a213eb19f585baa6d1accfd2cabcc5",
+          "stepOrder": 7
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-039-woks/step-7-9.jpg",
+          "sha256": "c4d8ac24735e9b4837559c9f98604d249e19f65cf863f207ab8ab26c9b5dba04",
+          "stepOrder": 7
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-039-woks/step-7-10.jpg",
+          "sha256": "77805f04502e5ce08d869a93f5d903a11d1b106218e45a815ee10833035db937",
+          "stepOrder": 7
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-039-woks/step-7-11.jpg",
+          "sha256": "9bf858951ce53978a6d25a70e73b5e455367f99dfe1e53356ce7aa653cd92c7d",
+          "stepOrder": 7
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-039-woks/step-8-12.jpg",
+          "sha256": "3e554d90f4a7b7b27e88e98430d6bb042dfb748cf2338f0725d6202a23542afe",
+          "stepOrder": 8
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-039-woks/step-8-13.jpg",
+          "sha256": "7695753f9c1926c5960a3a13c1021a470930f1381491a164adb21aaf328c5bb2",
+          "stepOrder": 8
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-039-woks/step-8-14.jpg",
+          "sha256": "e323188f92334830188762861768c20a79bba5b63c5219d3b4fd525be2c8ff1a",
+          "stepOrder": 8
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-039-woks/step-10-15.jpg",
+          "sha256": "c2bd8ea73a7fa704dc9176224e9378b168a2fa5981012c9813c86e3d8d7c7778",
+          "stepOrder": 10
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-039-woks/step-10-16.jpg",
+          "sha256": "bb63038c6b443c84d2a010ae42722f29c486a8d2ec67049e648bac49ef9e1aad",
+          "stepOrder": 10
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-039-woks/step-10-17.jpg",
+          "sha256": "eee1757d24c1b78483ff5c4404ab80207bbbb27c0f5d1794e2d6b456b99759bd",
+          "stepOrder": 10
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-039-woks/step-11-18.jpg",
+          "sha256": "54496d5fb92ddfa8a9021eebe46c87dbcc92eafb0d8e75510bf4232fbe3176ba",
+          "stepOrder": 11
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-039-woks/step-11-19.jpg",
+          "sha256": "c6a8d8143a600cfe1a866eba5b76b17a96f31be574dec8cebcc713b52abe636e",
+          "stepOrder": 11
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-039-woks/step-12-20.jpg",
+          "sha256": "a462925d259047a395481a29f34c02a8935bcad399bd8f488993edaac35afb81",
+          "stepOrder": 12
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-039-woks/step-12-21.jpg",
+          "sha256": "aea31e0ceabdf609f83983aa13c32617fb3ed3a007284acbd848c253d19a570b",
+          "stepOrder": 12
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-039-woks/step-12-22.jpg",
+          "sha256": "cda4142743c8fbda77fe9cd0294add5d2a25ac6be0c1eed1668afd0fd827ef0d",
+          "stepOrder": 12
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-039-woks/step-13-24.jpg",
+          "sha256": "23833880579e60308cbe827f0feeae031358990f9718681e8cf03f7b6d42d53f",
+          "stepOrder": 14
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-039-woks/step-13-25.jpg",
+          "sha256": "451227e4179db0c1af13e5b1f5dfbfb71d861bcf07ab23de65c3b22be01dd5e9",
+          "stepOrder": 14
+        }
+      ],
+      "fullMediaMetadataHash": "c1d24de685abf49414491dc5c3ca8939a32c2ee55acc886674eda6992b726304",
+      "contentInvariantHash": "f1dc892f4ea0763687fd09389af59d43683f31abd9d466a2f54ef82f610790ce",
+      "contentHashUnchanged": true,
+      "sourceAuthorUnchanged": true,
+      "documentEvidenceStatusPreserved": true,
+      "chunkCount": 9,
+      "chunkVectorMetadataHash": "ce36052a645ec097310072c84f8ee53f1987d39e6f0a32533db909b7561a6f6a",
+      "chunksAndVectorsUnchanged": true,
+      "retrieval": {
+        "semanticCount": 9,
+        "hybridCount": 9,
+        "excludedEvidenceReturned": 0
+      },
+      "verified": true
+    },
+    {
+      "recipeId": "cn-040",
+      "documentId": "72ce298f-8af6-4c11-860b-dd60f9445054",
+      "author": "Judy",
+      "imageCount": 15,
+      "heroSha256": "89bb97be22ff4a39645c25e2a6b96edd1f12e4cac71095a7bdc859667b2bcbce",
+      "images": [
+        {
+          "repositoryPath": "assets/dishes/sources/cn-040-woks/hero.jpg",
+          "sha256": "89bb97be22ff4a39645c25e2a6b96edd1f12e4cac71095a7bdc859667b2bcbce"
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-040-woks/step-1-1.jpg",
+          "sha256": "cc5a1cae7ff0258df5add806c80b2ca4bf72512ac13b675674bbfe704742a50d",
+          "stepOrder": 1
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-040-woks/step-1-2.jpg",
+          "sha256": "abc821d17a602113c8b8fda06577b5697b6a1d4f2a1a0697c9508c9338492722",
+          "stepOrder": 1
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-040-woks/step-2-3.jpg",
+          "sha256": "43283d928fc98adc04d4e6fc381495ea41bf06ac83d852a4d07a9dd568a7d989",
+          "stepOrder": 2
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-040-woks/step-2-4.jpg",
+          "sha256": "1e44fa9b0bb9ea71a83e67c6db991ba82764ad17041087ccff10e7fb0febfc56",
+          "stepOrder": 2
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-040-woks/step-3-5.jpg",
+          "sha256": "a16cd55c34c45b0170c208cdbf0e6783d8a1787a74248f775487d0dd9e9a8f30",
+          "stepOrder": 3
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-040-woks/step-3-6.jpg",
+          "sha256": "b547579c5de7855b80ddfa79c68415d33e0e17141ae755aa41aa18170fbce3d1",
+          "stepOrder": 3
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-040-woks/step-4-7.jpg",
+          "sha256": "a348208c8254381eb6176c9a76a3cf99a9b76e871004580b30544db916b1f44d",
+          "stepOrder": 4
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-040-woks/step-5-8.jpg",
+          "sha256": "e581fb8401e196c220779dac71e2e8626fece5f2740afda673274356d9d45fc2",
+          "stepOrder": 5
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-040-woks/step-5-9.jpg",
+          "sha256": "3975048e96a476949faaca35d722ce63fe8ecca4ef93e7ac1c25c0acc7dc853b",
+          "stepOrder": 5
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-040-woks/step-5-10.jpg",
+          "sha256": "e0bb6d5d81d3ebaeba5d890ed14c4af831eab9e51d6472f1feb9f888611a5b39",
+          "stepOrder": 5
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-040-woks/step-5-11.jpg",
+          "sha256": "15fd17aaf8e5a9d2ee868a5efc37c41a405c3fab25b396180190ce5d19f42db7",
+          "stepOrder": 5
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-040-woks/step-5-12.jpg",
+          "sha256": "bba0b95611dcf7b9143fa587f0f54032ba71c0027822d8ed253072b735974224",
+          "stepOrder": 5
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-040-woks/step-6-13.jpg",
+          "sha256": "214a0d5a73e319aa0c9aa4a5e6817f628aa4d8a937582ff49724acc24d631145",
+          "stepOrder": 6
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-040-woks/step-6-14.jpg",
+          "sha256": "0b03bf94c7e188ece6a36d66adfab48016545e71a9b33e0b5ec5fae1772d130e",
+          "stepOrder": 6
+        }
+      ],
+      "fullMediaMetadataHash": "0b145948f068dfb7b2c897e3b217b96ea6459e6e63189d3a3ba98386721ee342",
+      "contentInvariantHash": "a7366d8f4c27919700f7c6e64492a0cff658df068e943bd6476d77f116feeae1",
+      "contentHashUnchanged": true,
+      "sourceAuthorUnchanged": true,
+      "documentEvidenceStatusPreserved": true,
+      "chunkCount": 6,
+      "chunkVectorMetadataHash": "2475ea7d3c638cf5abcb82d4c0c8d076faaadc4635ef1ed3d7d10bd588468b31",
+      "chunksAndVectorsUnchanged": true,
+      "retrieval": {
+        "semanticCount": 6,
+        "hybridCount": 6,
+        "excludedEvidenceReturned": 0
+      },
+      "verified": true
+    },
+    {
+      "recipeId": "cn-044",
+      "documentId": "6d4bc2d5-d6db-4913-b97f-a04179a32c3b",
+      "author": "Judy",
+      "imageCount": 13,
+      "heroSha256": "5842046aa7f07c672471fe003829d37f6b0ae08fcb91b8c9db4245f00ebc4c8f",
+      "images": [
+        {
+          "repositoryPath": "assets/dishes/sources/cn-044-woks/hero.jpg",
+          "sha256": "5842046aa7f07c672471fe003829d37f6b0ae08fcb91b8c9db4245f00ebc4c8f"
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-044-woks/step-2-1.jpg",
+          "sha256": "5a24daa9b0fb7dd010afb20cd2eb6e6973807d9b7c5d9a2b4ffb204ca51c4477",
+          "stepOrder": 2
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-044-woks/step-4-2.jpg",
+          "sha256": "249c65ce5cd8e10a1a3bbff836397f7f1c29a5f186d12ec531764b9f41a46999",
+          "stepOrder": 4
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-044-woks/step-4-3.jpg",
+          "sha256": "3e5e2e338c0ea68072399db6dd9dc44120cb4e7c3271fdb118c05f0f7d200680",
+          "stepOrder": 4
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-044-woks/step-5-4.jpg",
+          "sha256": "45f5a5cc642d07c491abbf4ddedf4f6af4555c05fe286eca90a6f93d3fdf03cf",
+          "stepOrder": 5
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-044-woks/step-7-5.jpg",
+          "sha256": "06d91687da324a3a572f09c2a14c42de3c1e283a3266d2f519936c69b2e7434e",
+          "stepOrder": 7
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-044-woks/step-8-6.jpg",
+          "sha256": "2d09aa07f69ef8bc0261611ea31dbe2d8c30f1c9f9aa84e0cd87674256828cf4",
+          "stepOrder": 8
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-044-woks/step-7-7.jpg",
+          "sha256": "b3b591fbce90d033837dd6f0ded4ec9c3db00d08c1267d300ba5fdfcd7693ed0",
+          "stepOrder": 7
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-044-woks/step-8-8.jpg",
+          "sha256": "6a2dd6f777b86a65670dc8f7e5459a10e8ff30822927b0fee152513d011bc9d7",
+          "stepOrder": 8
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-044-woks/step-10-9.jpg",
+          "sha256": "295d444ab3e56ddb28c30364b01d89a726359cfdfee9c38ada81be835f2296ab",
+          "stepOrder": 10
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-044-woks/step-13-10.jpg",
+          "sha256": "4e2a95fa73ea23c4bde4e80ffdce4b12a46c777dff8b657323fa6e83ff792e82",
+          "stepOrder": 13
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-044-woks/step-13-11.jpg",
+          "sha256": "eb4ea1709462c218adf2057a4bd002c5e88aba612990ecd81dc0803d0287cd8d",
+          "stepOrder": 13
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-044-woks/step-13-12.jpg",
+          "sha256": "79597d9f23034fe640c2848916b8f5e0def9ba085f366eea7170a98a114b47be",
+          "stepOrder": 13
+        }
+      ],
+      "fullMediaMetadataHash": "6b1e9bfe8f9f8291ac49fb82d4e52bb9fa102336e0c4a9469ad98fc3bb141c85",
+      "contentInvariantHash": "1561f5136b5f34f248b02927886c9ae4de0fe171b406939017d111aa04e1263e",
+      "contentHashUnchanged": true,
+      "sourceAuthorUnchanged": true,
+      "documentEvidenceStatusPreserved": true,
+      "chunkCount": 8,
+      "chunkVectorMetadataHash": "93bd4499c2feb4253b6565b0846149a3cf11d5af7d46d159c5ad712abaafcf05",
+      "chunksAndVectorsUnchanged": true,
+      "retrieval": {
+        "semanticCount": 8,
+        "hybridCount": 8,
+        "excludedEvidenceReturned": 0
+      },
+      "verified": true
+    },
+    {
+      "recipeId": "cn-051",
+      "documentId": "16f8f429-96c0-467c-ac52-22297c424ccb",
+      "author": "Bill",
+      "imageCount": 10,
+      "heroSha256": "4e38a1a9e1293535710b4656c030d9843a2151a46f653b7ecbbc77d160c00e5c",
+      "images": [
+        {
+          "repositoryPath": "assets/dishes/sources/cn-051-woks/hero.jpg",
+          "sha256": "4e38a1a9e1293535710b4656c030d9843a2151a46f653b7ecbbc77d160c00e5c"
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-051-woks/step-2-1.jpg",
+          "sha256": "2782b70f96fa0fc1f85834d6875d0718fea22d2ae2c27a58df9715d3510f8b39",
+          "stepOrder": 2
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-051-woks/step-3-2.jpg",
+          "sha256": "fb2f319dc928a6ca4b8c7a506432826de465927b2c29fa157d0b124882c7b6f9",
+          "stepOrder": 3
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-051-woks/step-5-3.jpg",
+          "sha256": "df5388e819d35aa600916620a87ad03d47c19844f29684946ef46acefbf34d5c",
+          "stepOrder": 5
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-051-woks/step-6-4.jpg",
+          "sha256": "8faaf2f071bef637a5709260cfdecf09d60a5db093182d00fa9c25b24c9ca12e",
+          "stepOrder": 6
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-051-woks/step-7-5.jpg",
+          "sha256": "15083b9b07f138d5b800d4e1253bd641ac57183ad479da1db3d7ea88a66d84eb",
+          "stepOrder": 7
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-051-woks/step-8-6.jpg",
+          "sha256": "c4f5e27cb7457df8a9c7ccbe643336044694c6d60be32880aa8dab46a5335b44",
+          "stepOrder": 8
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-051-woks/step-8-7.jpg",
+          "sha256": "6d4c78dc1ef12dec12223c4419087a4f8a05b5a0a3cc1c046989389087558001",
+          "stepOrder": 8
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-051-woks/step-10-8.jpg",
+          "sha256": "1c55ab3c136b58008ff784c989e27ffb3ced3ab18406a7032f972f6bcad6e41b",
+          "stepOrder": 10
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-051-woks/step-10-9.jpg",
+          "sha256": "ba676a0f232c239449faac1cbcf668997e84f0e8a63343c75e340efa4a41442f",
+          "stepOrder": 10
+        }
+      ],
+      "fullMediaMetadataHash": "febfb925103595dbb10fb50bf31179f8f9b8a990720b74c81353447ecbe79cfc",
+      "contentInvariantHash": "54b8732f1b438f6ee3b775efac9496c2f4b1dc6ad05fb1f6d6bf6762c9bcbc77",
+      "contentHashUnchanged": true,
+      "sourceAuthorUnchanged": true,
+      "documentEvidenceStatusPreserved": true,
+      "chunkCount": 8,
+      "chunkVectorMetadataHash": "ad2686e775ab83bc55858f98e30a62fd7f2dd6b36d98f9b73e85c06f90ef1b05",
+      "chunksAndVectorsUnchanged": true,
+      "retrieval": {
+        "semanticCount": 8,
+        "hybridCount": 8,
+        "excludedEvidenceReturned": 0
+      },
+      "verified": true
+    },
+    {
+      "recipeId": "cn-053",
+      "documentId": "2a659456-2a0f-4e3e-b07f-569cf91e2e15",
+      "author": "Judy",
+      "imageCount": 14,
+      "heroSha256": "3fbb33a8cf2ba59ad918ddf24b4d597ae4a46774f8d87a47a5dff9aae9fabc0d",
+      "images": [
+        {
+          "repositoryPath": "assets/dishes/sources/cn-053-woks/hero.jpg",
+          "sha256": "3fbb33a8cf2ba59ad918ddf24b4d597ae4a46774f8d87a47a5dff9aae9fabc0d"
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-053-woks/step-1-2.jpg",
+          "sha256": "670fda2ac678cbcc61546aa959e8984ae960f47808b0aebada14383255621b04",
+          "stepOrder": 1
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-053-woks/step-2-3.jpg",
+          "sha256": "e53dd05a424b254cf8fe835aaa95994a1536afa3ed34546c3e43c33611cc0dd2",
+          "stepOrder": 2
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-053-woks/step-3-4.jpg",
+          "sha256": "ce548fcead07ba85e34b8b0e8298e4feb635c81f3e5a4a01c173205d014f53d0",
+          "stepOrder": 3
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-053-woks/step-4-5.jpg",
+          "sha256": "c76f47dc385d6de061cf7eeb589e9fa5a906157d792a5e8c5bfdcce37ccd6a5e",
+          "stepOrder": 4
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-053-woks/step-4-6.jpg",
+          "sha256": "f450d2cc88c438c6386bdf8bd002f7e10847659c6ae256507de3284e782dc2db",
+          "stepOrder": 4
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-053-woks/step-5-7.jpg",
+          "sha256": "bfe9691ba4d74f1603adccee1132c5726f9ddf5592a6f518febd0229b410e6cf",
+          "stepOrder": 5
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-053-woks/step-5-8.jpg",
+          "sha256": "c49c46d859199a9faf4b2cbd72313c573fa2c1b452321079f56fce27a480d1a8",
+          "stepOrder": 5
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-053-woks/step-5-9.jpg",
+          "sha256": "6de57734028d7873a5833a5d07fabb8b3887610d1d41c8e5cda1bae1fc7c4545",
+          "stepOrder": 5
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-053-woks/step-5-10.jpg",
+          "sha256": "cc0335a8d434c6fcff7adb4309d420495522c49a5770ac5db2cc66945b6a448b",
+          "stepOrder": 5
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-053-woks/step-5-11.jpg",
+          "sha256": "96a1fda18c6ffe85b6201c92a3f971eda76fd005f511c69489e333f6834f88aa",
+          "stepOrder": 5
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-053-woks/step-6-12.jpg",
+          "sha256": "ad16c1cddd8fe0333f82110ecca547e5b87fc9bffbb5bfbaacac80f2f3bb4a7d",
+          "stepOrder": 6
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-053-woks/step-6-13.jpg",
+          "sha256": "19e8aee452fab13eb7fa668d572d12efb85c45cfd3c8e5b8b950fcb84cee1491",
+          "stepOrder": 6
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-053-woks/step-7-14.jpg",
+          "sha256": "f517622524f015e11260e6d8b6885b21024d38e08db197e4f1b2f0751acfa19f",
+          "stepOrder": 7
+        }
+      ],
+      "fullMediaMetadataHash": "1dbacf6fdd1635d2c896a57232442d8975300c0162190cb98c898642f32f034c",
+      "contentInvariantHash": "c47a6e1aa405ee6aec1b7ba4c3d18d61da662f35b4553ada57781d2b4f950174",
+      "contentHashUnchanged": true,
+      "sourceAuthorUnchanged": true,
+      "documentEvidenceStatusPreserved": true,
+      "chunkCount": 7,
+      "chunkVectorMetadataHash": "37f0f83a36ae724f666a447e91cdcff58ca4a97042daca2abba2e6fd1ad173ec",
+      "chunksAndVectorsUnchanged": true,
+      "retrieval": {
+        "semanticCount": 7,
+        "hybridCount": 7,
+        "excludedEvidenceReturned": 0
+      },
+      "verified": true
+    }
+  ],
+  "completedAt": "2026-10-08T12:32:05.558Z",
+  "ok": true
+}

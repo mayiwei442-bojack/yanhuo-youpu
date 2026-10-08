@@ -1,0 +1,74 @@
+{
+  "recipeId": "west-024",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2014/09/Chicken-schnitzel-with-coleslaw-b53b41f.jpg?resize=768,698",
+      "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/hero.jpg",
+      "sha256": "613879267ac5b5b1eaf82652c82e2de3e4bbef260dfc0c461b310e024976316c",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 166797
+    },
+    {
+      "role": "step",
+      "stepOrder": 2,
+      "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2025/02/1-Flattened-chicken-780c12c.jpg",
+      "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-2.jpg",
+      "sha256": "39c630d16b36b11bdef9e1fc1d1647467ee9b6137be59903ddcdcea8aa706675",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 103885
+    },
+    {
+      "role": "step",
+      "stepOrder": 3,
+      "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2025/02/2.-Flour-and-egg-b3da00a.jpg",
+      "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-3.jpg",
+      "sha256": "02782fa8e2441283ccfa24ed504a99bbbbaddc4c85091eaf033dda042702cdf6",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 116826
+    },
+    {
+      "role": "step",
+      "stepOrder": 4,
+      "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2025/02/4.-Flouring-chicken-b47a30d.jpg",
+      "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-4.jpg",
+      "sha256": "cf9a2c5f461695b3a663f2bb495ee3f757329ed529f9ad60abc56e952a07a48d",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 74055
+    },
+    {
+      "role": "step",
+      "stepOrder": 5,
+      "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2025/02/6.-Chicken-in-panko-05ff6b9.jpg",
+      "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-5.jpg",
+      "sha256": "4466fde67b6e351c8bde60f2078f67c77f204c840212180ddcee34f0d561aa62",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 96630
+    },
+    {
+      "role": "step",
+      "stepOrder": 6,
+      "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2025/02/8.-Chicken-cooking-f8bfdec.jpg",
+      "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-6.jpg",
+      "sha256": "c36cd4f494a5ef731d834cf5ff53bbd1d5301c471b2d686a871c7a2f89d69270",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 136312
+    },
+    {
+      "role": "step",
+      "stepOrder": 7,
+      "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2025/02/11.-Finished-golden-chicken-4f1c806.jpg",
+      "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-7.jpg",
+      "sha256": "1b5df2bab4dfb996e84bc2481da825e2d046b361a654ae9c6d52cbb96de04897",
+      "httpStatus": 200,
+      "contentType": "image/jpeg",
+      "bytes": 130343
+    }
+  ]
+}

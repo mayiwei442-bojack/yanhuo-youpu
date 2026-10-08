@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "completedAt": "2026-10-08T12:20:38.505Z",
+  "documents": [
+    {
+      "documentId": "a4076148-4892-4817-9692-070337ba2939",
+      "url": "https://thewoksoflife.com/lanzhou-beef-noodle-soup/",
+      "deduplicated": false,
+      "embedded": true,
+      "chunkCount": 6,
+      "model": "voyage-4",
+      "dimension": 1024,
+      "semanticCount": 6,
+      "hybridCount": 6
+    }
+  ]
+}

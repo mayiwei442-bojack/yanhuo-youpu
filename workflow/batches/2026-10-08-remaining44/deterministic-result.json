@@ -1,0 +1,7 @@
+{
+  "ok": true,
+  "exitCode": 0,
+  "command": "npm run test:workflow:deterministic",
+  "completedAt": "2026-10-08T17:35:47.0041510Z",
+  "includesTestAI": false
+}

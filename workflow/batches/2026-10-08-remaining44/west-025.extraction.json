@@ -1,0 +1,68 @@
+{
+  "ingredients": [
+    {
+      "name": "lean pork mince",
+      "raw": "400g lean pork mince",
+      "amount": null
+    },
+    {
+      "name": "egg beaten",
+      "raw": "1 egg beaten",
+      "amount": null
+    },
+    {
+      "name": "small onion finely chopped or grated",
+      "raw": "1 small onion finely chopped or grated",
+      "amount": null
+    },
+    {
+      "name": "fresh white breadcrumbs",
+      "raw": "85g fresh white breadcrumbs",
+      "amount": null
+    },
+    {
+      "name": "finely chopped dill plus extra to serve",
+      "raw": "1 tbsp finely chopped dill plus extra to serve",
+      "amount": null
+    },
+    {
+      "name": "each olive oil and butter",
+      "raw": "1tbsp each olive oil and butter",
+      "amount": null
+    },
+    {
+      "name": "plain flour",
+      "raw": "2 tbsp plain flour",
+      "amount": null
+    },
+    {
+      "name": "hot beef stock (from a cube is fine)",
+      "raw": "400ml hot beef stock (from a cube is fine)",
+      "amount": null
+    },
+    {
+      "name": "seasoning",
+      "raw": "seasoning (step1; unspecified type and amount)",
+      "amount": null
+    },
+    {
+      "name": "cranberry jelly",
+      "raw": "cranberry jelly to serve (step5; amount unspecified)",
+      "amount": null
+    },
+    {
+      "name": "greens",
+      "raw": "greens to serve (step5; amount unspecified)",
+      "amount": null
+    },
+    {
+      "name": "mash",
+      "raw": "mash to serve (step5; amount unspecified)",
+      "amount": null
+    }
+  ],
+  "notes": [
+    "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented.",
+    "Source says heat meatballs through in gravy without explicit internal temperature or final time; preserve doneness wording and disclose omission."
+  ]
+}

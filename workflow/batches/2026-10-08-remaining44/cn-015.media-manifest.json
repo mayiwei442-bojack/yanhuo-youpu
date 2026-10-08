@@ -1,0 +1,23 @@
+{
+  "recipeId": "cn-015",
+  "sourceUrl": "https://thewoksoflife.com/lanzhou-beef-noodle-soup/",
+  "referer": "https://thewoksoflife.com/lanzhou-beef-noodle-soup/",
+  "authorization": "user_confirmed_2026-09-16",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/10/lanzhou-beef-noodle-soup-6.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-015-woks/hero.jpg",
+      "adjacentText": "兰州清汤牛肉面成品",
+      "pageOrder": 0
+    },
+    {
+      "role": "step",
+      "stepOrder": 4,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2014/10/lanzhou-beef-noodle-soup-1.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-015-woks/step-4-chili-oil.jpg",
+      "pageOrder": 4,
+      "adjacentText": "Let the oil cool for about5minutes, then add chili flakes; slowly toast in hot oil until fragrant and red; stir in salt and sugar. Image immediatelyfollows thischilioilcomponentinstruction."
+    }
+  ]
+}

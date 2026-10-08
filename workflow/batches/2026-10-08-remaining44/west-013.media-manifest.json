@@ -1,0 +1,16 @@
+{
+  "recipeId": "west-013",
+  "authorization": "user_confirmed_2026-09-16",
+  "sourceUrl": "https://www.bbcgoodfood.com/recipes/fettucine-alfredo",
+  "recipePageUrl": "https://www.bbcgoodfood.com/recipes/fettucine-alfredo",
+  "referer": "https://www.bbcgoodfood.com/recipes/fettucine-alfredo",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/fettucine-alfredo-96d7406.jpg?resize=440,400",
+      "repositoryPath": "assets/dishes/sources/west-013-bbc-good-food/hero.jpg",
+      "httpStatus": 200,
+      "contentType": "image/jpeg"
+    }
+  ]
+}

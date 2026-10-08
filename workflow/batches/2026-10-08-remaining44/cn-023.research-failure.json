@@ -1,0 +1,44 @@
+{
+  "recipeId": "cn-023",
+  "recipeName": "小鸡炖蘑菇",
+  "category": "chinese",
+  "status": "failed",
+  "failedStage": "research",
+  "createdAt": "2026-10-08T12:23:23.823625+00:00",
+  "reason": "Woks上海双菇鸡翅炖菜属于不同地区和配方变体；未用它替代东北小鸡炖蘑菇。豆果目录页不可读。",
+  "bookSearch": {
+    "auditFile": "cn-book-inventory.json",
+    "scannedDocuments": 84,
+    "usableDocuments": 79,
+    "exactOrAcceptableAliasMatches": 0,
+    "excludedStatuses": [
+      "superseded",
+      "rejected",
+      "invalid"
+    ],
+    "assessment": "No complete same-dish recipe in current database books; no book supplementation fabricated."
+  },
+  "attemptedSources": [
+    {
+      "source": "The Woks of Life",
+      "url": "https://thewoksoflife.com/chinese-braised-chicken-with-mushrooms/",
+      "result": "normalwebsuccess; ShanghaiJadeTempleinspired chickenwings/driedshiitake/woodear, notNortheasternhazelmushroomchicken, rejectedvariant"
+    },
+    {
+      "source": "豆果美食",
+      "url": "https://m.douguo.com/caipu/小鸡炖蘑菇",
+      "result": "normalweb inaccessible"
+    },
+    {
+      "source": "The Woks of Life",
+      "aliasCoverageAudit": "cn-alias-coverage-audit.json",
+      "result": "Accessible Chinese Braised Chicken with Mushrooms uses chicken wings, shiitake and wood ear, inspired by Shanghai Jade Temple; distinct from Northeast chicken/hazel-mushroom stew."
+    }
+  ],
+  "evidencePackage": null,
+  "ingestion": {
+    "performed": false,
+    "reason": "No qualifying complete exactdishsource; do not ingest partial snippets or unrelated variants as this entity."
+  },
+  "aliasRecheckedAt": "2026-10-08T12:41:18.329553+00:00"
+}

@@ -1,0 +1,443 @@
+{
+  "canonical": {
+    "id": "cn-020",
+    "category": "chinese",
+    "index": 19,
+    "record": {
+      "name": "白切鸡",
+      "en": "Cantonese Poached Chicken",
+      "region": "粤菜",
+      "ingredients": "整鸡1只，约1361—1814克（原文3—4磅，室温，优先选有机散养鸡，可带头和脚）；葱2根（煮鸡用）；姜5片（煮鸡用）；葱末3汤匙（蘸料用，仅取葱白和浅绿色部分）；姜末2汤匙（蘸料用）；食用油3汤匙（蘸料用），另备少许（可选刷鸡皮用，也可用煮鸡汤表面的鸡油）；盐适量（蘸料用）；酱油适量（可选蘸料用，原文未给用量）；清水适量（洗鸡与煮鸡用，煮鸡时以刚好没过整鸡为准，约1814克的鸡在深汤锅中约用18杯）；冰水1大碗（用于完全冷却整鸡，原文未给具体容量）；熟米饭适量（配食用，原文未给用量）",
+      "steps": "1）确认整鸡已回到室温；不要直接将刚从冰箱取出的冷鸡下锅，以免受热不均或未熟。用冷水冲洗整鸡，尤其注意鸡腹内侧。2）检查并去掉残余内脏，拔净零散羽毛；处理和冲洗时小心，避免水花飞溅而污染周围表面。保留完整鸡皮，不要破坏或剪去鸡皮，以免鸡肉直接接触沸水。3）先不开火，将整鸡放入大汤锅，加清水至刚好完全没过鸡身，再取出整鸡，留下量好的水。量水时鸡还在锅中，不要开火。原文在深汤锅中为约1814克的鸡用了约18杯水，以实际刚好浸没为准，避免多加水使汤味变淡。4）在量好的水中加入2根葱和5片姜，加热至沸腾。5）水沸后，将整鸡缓缓放入锅中，鸡腿朝下、鸡头一端朝上；鸡胸略微露出水面也可以。6）整鸡下锅后，水温会下降而停止沸腾，继续加热至再次沸腾，其间留在锅边看管。7）水一再次沸腾，立即小心提起整鸡；可将两把木勺钩在鸡翅下方提起，让鸡腹内滞留的较冷水排出。排净后将鸡重新放回锅中，再次加热至将沸。8）水刚开始沸腾时立即调低火力，保持极轻微的微沸：水面仅有少许动静，不能完全静止，也不要剧烈翻滚。盖上锅盖，以接近最低的火力煮约35—40分钟；原文估计每磅约需10—11分钟，实际时间依鸡的大小增减。可检查水是否缓缓冒泡，但尽量不要在煮鸡时揭盖。9）用筷子或竹签刺入鸡腿检查；按原文，以流出的汁水清澈作为熟度判断。10）确认煮熟后小心将整鸡提起；原文建议将结实的肉叉或木勺伸入鸡腹帮助提起。11）将整鸡移入一大碗冰水中，等到完全冷却，使鸡皮迅速冷却并形成较脆的口感。12）鸡冷却时做蘸料：将3汤匙葱末、2汤匙姜末、3汤匙食用油和适量盐混合，先做不加酱油的版本。喜欢酱油口味时，可分出一部分蘸料到另一个碗中，加入适量酱油，作为另一款可选蘸料。13）整鸡完全冷却后，从冰水中取出；可在鸡皮上薄薄刷少许食用油，或取煮鸡汤表面的少许鸡油刷上，使鸡皮有光泽。14）将鸡切成便于用筷子夹取的块，配姜葱蘸料和熟米饭食用。保留煮鸡汤，可冷冻留作以后使用，也可代替清水煮饭。",
+      "img": "30-baiqie-ji.png",
+      "source": "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/",
+      "media": {
+        "sourceName": "The Woks of Life",
+        "recipePageUrl": "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/",
+        "mediaPageUrl": "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/",
+        "author": "Bill",
+        "rightsNotice": "All Rights Reserved © The Woks of Life",
+        "reuseLicense": null,
+        "repositoryCopyAuthorization": "user_confirmed_2026-10-08_remaining44",
+        "hero": {
+          "path": "assets/dishes/sources/cn-020-woks/hero.jpg",
+          "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-18.jpg",
+          "sha256": "5b2c559d3b0d9de95e26cdc2971c44c68b265a8a37b76bed84d6acd058691321",
+          "httpStatus": 200,
+          "contentType": "image/webp"
+        },
+        "steps": [
+          {
+            "stepOrder": 1,
+            "sourceStepOrder": 1,
+            "path": "assets/dishes/sources/cn-020-woks/step-1-1.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-2.jpg",
+            "sha256": "1b8e29e155145a262f0d6cfda82512042dbe9b5e65e0e2c268cda9eebd5a3d03",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          },
+          {
+            "stepOrder": 2,
+            "sourceStepOrder": 1,
+            "path": "assets/dishes/sources/cn-020-woks/step-1-2.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken.jpg",
+            "sha256": "ce1f336fa1705603a156d6a87826fadb3bc130ef22b73a1a73590cdd9722f640",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          },
+          {
+            "stepOrder": 3,
+            "sourceStepOrder": 2,
+            "path": "assets/dishes/sources/cn-020-woks/step-2-3.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-3.jpg",
+            "sha256": "305c9f32746a338e289ba7460538a44e3f46b054ea2228ad249e8d7a9c8dbd0c",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          },
+          {
+            "stepOrder": 4,
+            "sourceStepOrder": 3,
+            "path": "assets/dishes/sources/cn-020-woks/step-3-4.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-7.jpg",
+            "sha256": "5e4d66df34f457b2a694865dc2b1dc82df368cb0dee04e1cb3fde70689467713",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          },
+          {
+            "stepOrder": 5,
+            "sourceStepOrder": 3,
+            "path": "assets/dishes/sources/cn-020-woks/step-3-5.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-8.jpg",
+            "sha256": "7b0cc1e6d604ac2bb6b7200f53c233adac31a7dfcf4e470eb8746c467c8ba048",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          },
+          {
+            "stepOrder": 6,
+            "sourceStepOrder": 3,
+            "path": "assets/dishes/sources/cn-020-woks/step-3-6.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-9.jpg",
+            "sha256": "23ea4445f1cd93d77a14d1ffa07a2ca7d5ace0f80d97030e7aa164ffe8315a40",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          },
+          {
+            "stepOrder": 8,
+            "sourceStepOrder": 5,
+            "path": "assets/dishes/sources/cn-020-woks/step-5-7.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-10.jpg",
+            "sha256": "da4a664c9809c9345a16a59bd522227822197949d6e22207c197562226d3deb7",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          },
+          {
+            "stepOrder": 9,
+            "sourceStepOrder": 6,
+            "path": "assets/dishes/sources/cn-020-woks/step-6-8.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-11.jpg",
+            "sha256": "2d827907f25b215185ce5f468319f34e2afcc11bea60f00d72b21fffabb5f615",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          },
+          {
+            "stepOrder": 10,
+            "sourceStepOrder": 6,
+            "path": "assets/dishes/sources/cn-020-woks/step-6-9.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-12.jpg",
+            "sha256": "cbf6a9c6796a6de9b05a68b8107442a12cf88225551dd8943071fd18d22430c4",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          },
+          {
+            "stepOrder": 11,
+            "sourceStepOrder": 6,
+            "path": "assets/dishes/sources/cn-020-woks/step-6-10.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-13.jpg",
+            "sha256": "c3e98462bce9a1aba8bb549535042acb48ff14738762a1da83c9ea4aacaf166a",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          },
+          {
+            "stepOrder": 13,
+            "sourceStepOrder": 8,
+            "path": "assets/dishes/sources/cn-020-woks/step-8-11.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-14.jpg",
+            "sha256": "28a31e32ded15baa3648ad0a813a2f42af5b165cc8d9c424d820a6aaf051d601",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          },
+          {
+            "stepOrder": 14,
+            "sourceStepOrder": 9,
+            "path": "assets/dishes/sources/cn-020-woks/step-9-12.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-19.jpg",
+            "sha256": "6886338b4efb2c5f1ee89b69b8f0764803ab35df2368af6064be5ef2b7ea888b",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          }
+        ]
+      },
+      "timing": {
+        "totalMinutes": 70,
+        "prepMinutes": 20,
+        "cookMinutes": 50,
+        "stepDurations": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "servings": 6,
+      "sourceLimitations": [
+        "原文以鸡腿流出清澈汁水判断熟度，未提供鸡肉内部温度；35—40分钟是范围，需按鸡的大小判断，不生成固定倒计时。",
+        "原文未量化酱油、刷皮用油、冰水及配食米饭的用量，杯和汤匙也未定义容量；保留适量及原单位，不推算毫升。"
+      ]
+    }
+  },
+  "generated": {
+    "id": "cn-020",
+    "name": "白切鸡",
+    "en": "Cantonese Poached Chicken",
+    "cuisine": "粤菜",
+    "category": "中餐",
+    "isHeritageFlavor": false,
+    "heritageStatus": null,
+    "ingredients": [
+      {
+        "id": "ingredient-01",
+        "name": "整鸡",
+        "label": "整鸡1只，约1361—1814克（原文3—4磅，室温，优先选有机散养鸡，可带头和脚）",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-02",
+        "name": "葱",
+        "label": "葱2根（煮鸡用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-03",
+        "name": "姜",
+        "label": "姜5片（煮鸡用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-04",
+        "name": "葱末",
+        "label": "葱末3汤匙（蘸料用，仅取葱白和浅绿色部分）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-05",
+        "name": "姜末",
+        "label": "姜末2汤匙（蘸料用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-06",
+        "name": "食用油",
+        "label": "食用油3汤匙（蘸料用），另备少许（可选刷鸡皮用，也可用煮鸡汤表面的鸡油）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-07",
+        "name": "盐",
+        "label": "盐适量（蘸料用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-08",
+        "name": "酱油",
+        "label": "酱油适量（可选蘸料用，原文未给用量）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-09",
+        "name": "清水",
+        "label": "清水适量（洗鸡与煮鸡用，煮鸡时以刚好没过整鸡为准，约1814克的鸡在深汤锅中约用18杯）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-10",
+        "name": "冰水",
+        "label": "冰水1大碗（用于完全冷却整鸡，原文未给具体容量）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-11",
+        "name": "熟米饭",
+        "label": "熟米饭适量（配食用，原文未给用量）",
+        "isCore": true
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-01",
+        "instruction": "确认整鸡已回到室温；不要直接将刚从冰箱取出的冷鸡下锅，以免受热不均或未熟。用冷水冲洗整鸡，尤其注意鸡腹内侧。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-020-woks/step-1-1.jpg",
+        "imageSource": "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/"
+      },
+      {
+        "id": "step-02",
+        "instruction": "检查并去掉残余内脏，拔净零散羽毛；处理和冲洗时小心，避免水花飞溅而污染周围表面。保留完整鸡皮，不要破坏或剪去鸡皮，以免鸡肉直接接触沸水。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-020-woks/step-1-2.jpg",
+        "imageSource": "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/"
+      },
+      {
+        "id": "step-03",
+        "instruction": "先不开火，将整鸡放入大汤锅，加清水至刚好完全没过鸡身，再取出整鸡，留下量好的水。量水时鸡还在锅中，不要开火。原文在深汤锅中为约1814克的鸡用了约18杯水，以实际刚好浸没为准，避免多加水使汤味变淡。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-020-woks/step-2-3.jpg",
+        "imageSource": "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/"
+      },
+      {
+        "id": "step-04",
+        "instruction": "在量好的水中加入2根葱和5片姜，加热至沸腾。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-020-woks/step-3-4.jpg",
+        "imageSource": "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/"
+      },
+      {
+        "id": "step-05",
+        "instruction": "水沸后，将整鸡缓缓放入锅中，鸡腿朝下、鸡头一端朝上；鸡胸略微露出水面也可以。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-020-woks/step-3-5.jpg",
+        "imageSource": "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/"
+      },
+      {
+        "id": "step-06",
+        "instruction": "整鸡下锅后，水温会下降而停止沸腾，继续加热至再次沸腾，其间留在锅边看管。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-020-woks/step-3-6.jpg",
+        "imageSource": "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/"
+      },
+      {
+        "id": "step-07",
+        "instruction": "水一再次沸腾，立即小心提起整鸡；可将两把木勺钩在鸡翅下方提起，让鸡腹内滞留的较冷水排出。排净后将鸡重新放回锅中，再次加热至将沸。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-08",
+        "instruction": "水刚开始沸腾时立即调低火力，保持极轻微的微沸：水面仅有少许动静，不能完全静止，也不要剧烈翻滚。盖上锅盖，以接近最低的火力煮约35—40分钟；原文估计每磅约需10—11分钟，实际时间依鸡的大小增减。可检查水是否缓缓冒泡，但尽量不要在煮鸡时揭盖。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-020-woks/step-5-7.jpg",
+        "imageSource": "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/"
+      },
+      {
+        "id": "step-09",
+        "instruction": "用筷子或竹签刺入鸡腿检查；按原文，以流出的汁水清澈作为熟度判断。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-020-woks/step-6-8.jpg",
+        "imageSource": "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/"
+      },
+      {
+        "id": "step-10",
+        "instruction": "确认煮熟后小心将整鸡提起；原文建议将结实的肉叉或木勺伸入鸡腹帮助提起。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-020-woks/step-6-9.jpg",
+        "imageSource": "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/"
+      },
+      {
+        "id": "step-11",
+        "instruction": "将整鸡移入一大碗冰水中，等到完全冷却，使鸡皮迅速冷却并形成较脆的口感。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-020-woks/step-6-10.jpg",
+        "imageSource": "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/"
+      },
+      {
+        "id": "step-12",
+        "instruction": "鸡冷却时做蘸料：将3汤匙葱末、2汤匙姜末、3汤匙食用油和适量盐混合，先做不加酱油的版本。喜欢酱油口味时，可分出一部分蘸料到另一个碗中，加入适量酱油，作为另一款可选蘸料。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-13",
+        "instruction": "整鸡完全冷却后，从冰水中取出；可在鸡皮上薄薄刷少许食用油，或取煮鸡汤表面的少许鸡油刷上，使鸡皮有光泽。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-020-woks/step-8-11.jpg",
+        "imageSource": "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/"
+      },
+      {
+        "id": "step-14",
+        "instruction": "将鸡切成便于用筷子夹取的块，配姜葱蘸料和熟米饭食用。保留煮鸡汤，可冷冻留作以后使用，也可代替清水煮饭。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-020-woks/step-9-12.jpg",
+        "imageSource": "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/"
+      }
+    ],
+    "sourceLimitations": [
+      "原文以鸡腿流出清澈汁水判断熟度，未提供鸡肉内部温度；35—40分钟是范围，需按鸡的大小判断，不生成固定倒计时。",
+      "原文未量化酱油、刷皮用油、冰水及配食米饭的用量，杯和汤匙也未定义容量；保留适量及原单位，不推算毫升。"
+    ],
+    "imageThumb": "assets/dishes/sources/cn-020-woks/hero.jpg",
+    "imageFull": "assets/dishes/sources/cn-020-woks/hero.jpg",
+    "source": "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/",
+    "media": {
+      "sourceName": "The Woks of Life",
+      "recipePageUrl": "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/",
+      "mediaPageUrl": "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/",
+      "author": "Bill",
+      "rightsNotice": "All Rights Reserved © The Woks of Life",
+      "reuseLicense": null,
+      "repositoryCopyAuthorization": "user_confirmed_2026-10-08_remaining44"
+    },
+    "time": 70,
+    "timeBasis": "source",
+    "difficulty": "进阶",
+    "defaultServings": 6,
+    "servingsBasis": "source",
+    "allergens": [
+      "soy"
+    ],
+    "flags": {
+      "containsPork": false,
+      "containsBeef": false,
+      "containsAlcohol": false,
+      "spicy": false,
+      "vegetarian": false
+    },
+    "demoEnriched": true
+  }
+}

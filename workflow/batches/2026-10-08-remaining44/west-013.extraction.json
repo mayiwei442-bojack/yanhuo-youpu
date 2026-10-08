@@ -1,0 +1,57 @@
+{
+  "ingredients": [
+    {
+      "name": "tub clotted cream",
+      "raw": "227g tub clotted cream",
+      "amount": null
+    },
+    {
+      "name": "butter (about 2 tbsp)",
+      "raw": "25g butter (about 2 tbsp)",
+      "amount": null
+    },
+    {
+      "name": "cornflour",
+      "raw": "1 tsp cornflour",
+      "amount": null
+    },
+    {
+      "name": "parmesan grated",
+      "raw": "100g parmesan grated",
+      "amount": null
+    },
+    {
+      "name": "freshly grated nutmeg",
+      "raw": "freshly grated nutmeg",
+      "amount": null
+    },
+    {
+      "name": "fresh fettuccine or tagliatelle",
+      "raw": "250g fresh fettuccine or tagliatelle",
+      "amount": null
+    },
+    {
+      "name": "snipped chives or chopped parsley, to serve (optional)",
+      "raw": "snipped chives or chopped parsley, to serve (optional)",
+      "amount": null
+    },
+    {
+      "name": "salt",
+      "raw": "2 tsp salt for pasta (method step3)",
+      "amount": null
+    },
+    {
+      "name": "black pepper",
+      "raw": "good grinding of black pepper (method step2)",
+      "amount": null
+    },
+    {
+      "name": "water",
+      "raw": "boiling pasta water (amount unspecified); retain3 tbsp for sauce",
+      "amount": null
+    }
+  ],
+  "notes": [
+    "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented."
+  ]
+}

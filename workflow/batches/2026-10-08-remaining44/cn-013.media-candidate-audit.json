@@ -1,0 +1,44 @@
+{
+  "recipeId": "cn-013",
+  "sourceUrl": "https://www.douguo.com/cookbook/3300061.html",
+  "reviewedAt": "2026-10-08T12:47:06.367767+00:00",
+  "independentPixelInspection": true,
+  "finishedDishAvailable": true,
+  "mappedStepImageCount": 0,
+  "stepCoverageRatio": 0,
+  "mediaQualification": "hero_only_waiting_user_acceptance",
+  "reason": "方法段中的图片位置不能证明其为步骤照片；实际像素只有成品汤、饼和鸡蛋，不能映射至煮粉条、加料、调粉或煮稠操作。配菜照片不用于补充配方原料。",
+  "candidates": [
+    {
+      "observedPageRole": "hero",
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/b/2/8/690x390_b2a9440e99af532cbef07bd594654368.jpeg",
+      "localInspectionPath": "work/remaining44/cn-013-hero.jpg",
+      "httpStatus": 200,
+      "httpVerification": "Parent ordinary HTTP download report; researcher independently inspected downloaded pixels",
+      "contentType": "image/jpeg",
+      "bytes": 137140,
+      "sha256": "840a93db5e9fb90f696561a8741c66a5edc2947f949d4a93e5ffde78221cb831",
+      "visualClassification": "finished_dish",
+      "usableAsStepImage": false,
+      "stepOrder": null,
+      "pixelDescription": "盛好的胡辣汤与芝麻饼、鸡蛋同桌摆盘；无烹饪操作或中间组件过程。图片包含菜名叠字。"
+    },
+    {
+      "observedPageRole": "step",
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/b/6/a/800_b699852bab9807416beefe4b153422aa.jpeg",
+      "localInspectionPath": "work/remaining44/cn-013-step.jpg",
+      "httpStatus": 200,
+      "httpVerification": "Parent ordinary HTTP download report; researcher independently inspected downloaded pixels",
+      "contentType": "image/jpeg",
+      "bytes": 200556,
+      "sha256": "681f82559893cd5d83b171e87b54278f4b7e72232dc65e8f15230a44c17ddbdf",
+      "visualClassification": "finished_dish",
+      "usableAsStepImage": false,
+      "stepOrder": null,
+      "pixelDescription": "盛好的胡辣汤与芝麻饼、鸡蛋同桌摆盘；无烹饪操作或中间组件过程。方法段配图仍为完整成品摆盘。"
+    }
+  ],
+  "frozenEvidenceModified": false,
+  "canonicalModified": false,
+  "databaseModified": false
+}

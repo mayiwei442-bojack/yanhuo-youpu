@@ -1,0 +1,38 @@
+{
+  "recipeId": "cn-012",
+  "recipeName": "羊肉泡馍",
+  "category": "chinese",
+  "status": "failed",
+  "failedStage": "research",
+  "createdAt": "2026-10-08T12:23:23.821471+00:00",
+  "reason": "在两项启用网站限定检索未得到羊肉泡馍完整配方；豆果题名目录页不可访问，不能用羊汤或水盆羊肉替代。",
+  "bookSearch": {
+    "auditFile": "cn-book-inventory.json",
+    "scannedDocuments": 84,
+    "usableDocuments": 79,
+    "exactOrAcceptableAliasMatches": 0,
+    "excludedStatuses": [
+      "superseded",
+      "rejected",
+      "invalid"
+    ],
+    "assessment": "No complete same-dish recipe in current database books; no book supplementation fabricated."
+  },
+  "attemptedSources": [
+    {
+      "source": "豆果美食",
+      "url": "https://m.douguo.com/caipu/羊肉泡馍",
+      "result": "normalwebfetch inaccessible; no bypass"
+    },
+    {
+      "source": "The Woks of Life",
+      "query": "yang rou pao mo site:thewoksoflife.com",
+      "result": "only lamb noodle soup /roujiamo near recipes, not exact dish"
+    }
+  ],
+  "evidencePackage": null,
+  "ingestion": {
+    "performed": false,
+    "reason": "No qualifying complete exactdishsource; do not ingest partial snippets or unrelated variants as this entity."
+  }
+}

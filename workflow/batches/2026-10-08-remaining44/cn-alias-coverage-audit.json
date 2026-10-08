@@ -1,0 +1,396 @@
+{
+  "reviewedAt": "2026-10-08T12:41:18.329553+00:00",
+  "enabledSource": "The Woks of Life",
+  "entries": [
+    {
+      "recipeId": "cn-018",
+      "queries": [
+        {
+          "query": "suan cai yu fish soup pickled mustard greens site:thewoksoflife.com",
+          "domainRestriction": "thewoksoflife.com",
+          "retrievalMethod": "normal web search; no access bypass",
+          "rawAuditFile": "cn-alias-0.txt",
+          "results": [
+            {
+              "title": "Dried, Cured & Pickled Ingredients - The Woks of Life",
+              "url": "https://thewoksoflife.com/chinese-ingredients-glossary/chinese-dried-preserved-ingredients/"
+            },
+            {
+              "title": "Squid Stir-Fry with Pickled Mustard Greens - The Woks of Life",
+              "url": "https://thewoksoflife.com/squid-stir-fry-pickled-mustard-greens/"
+            },
+            {
+              "title": "Mackerel Recipe (Easy Pan-fry Method!) - The Woks of Life",
+              "url": "https://thewoksoflife.com/mackerel-recipe-pan-fried/"
+            },
+            {
+              "title": "Pickled Mustard Greens (Haam Choy) - The Woks of Life",
+              "url": "https://thewoksoflife.com/pickled-mustard-greens-haam-choy/"
+            },
+            {
+              "title": "Chinese Mustard Greens (芥菜) - The Woks of Life",
+              "url": "https://thewoksoflife.com/chinese-mustard-greens-2/"
+            },
+            {
+              "title": "String Bean Stir-Fry with Pork & Zha cai - The Woks of Life",
+              "url": "https://thewoksoflife.com/string-bean-stir-fry-pork-zha-cai/"
+            },
+            {
+              "title": "Noodle Soup with Pork and Pickled Greens - The Woks of Life",
+              "url": "https://thewoksoflife.com/noodle-soup-pork-pickled-greens/"
+            },
+            {
+              "title": "Cantonese Mustard Green Soup with Pork Bones - The Woks of Life",
+              "url": "https://thewoksoflife.com/cantonese-mustard-green-soup-pork-bones/"
+            },
+            {
+              "title": "Northern Chinese Sour Cabbage Stew - The Woks of Life",
+              "url": "https://thewoksoflife.com/northern-chinese-sour-cabbage-stew/"
+            },
+            {
+              "title": "Suan La Fen (Chongqing Hot & Sour Noodle Soup) - The Woks of Life",
+              "url": "https://thewoksoflife.com/suan-la-fen-hot-sour-sweet-potato-glass-noodle-soup/"
+            },
+            {
+              "title": "Chinese Vegetables: Leafy Greens - The Woks of Life",
+              "url": "https://thewoksoflife.com/chinese-ingredients-glossary/chinese-vegetables-asian-leafy-greens/"
+            },
+            {
+              "title": "Yunnan Rice Noodle Soup (云南小锅米线) - The Woks of Life",
+              "url": "https://thewoksoflife.com/yunnan-rice-noodle-soup/"
+            },
+            {
+              "title": "For the ch",
+              "url": "https://thewoksoflife.com/wp-content/uploads/2019/04/TheWoksofLife-Top25Recipes-eBook.pdf"
+            },
+            {
+              "title": "TOP 25 RECIPES",
+              "url": "https://thewoksoflife.com/wp-content/uploads/2022/02/TheWoksofLife-Top25Recipes_compressed.pdf"
+            }
+          ],
+          "matchedFullRecipe": false
+        },
+        {
+          "query": "\"suan cai yu\" site:thewoksoflife.com",
+          "domainRestriction": "thewoksoflife.com",
+          "retrievalMethod": "normal web search; no access bypass",
+          "rawAuditFile": "cn-alias--suan-cai-yu-.txt",
+          "results": [],
+          "matchedFullRecipe": false
+        }
+      ],
+      "assessment": "Mustard-green glossary, squid with mustard greens and mackerel are different dishes; exact quoted pinyin search returned no result.",
+      "conclusion": "No accessible complete matching recipe found in these alias searches; not a claim that no such page exists."
+    },
+    {
+      "recipeId": "cn-026",
+      "queries": [
+        {
+          "query": "long jing shrimp dragon well tea shrimp site:thewoksoflife.com",
+          "domainRestriction": "thewoksoflife.com",
+          "retrievalMethod": "normal web search; no access bypass",
+          "rawAuditFile": "cn-alias-1.txt",
+          "results": [
+            {
+              "title": "Lobster Noodles (Yee Mein / E-Fu Noodles) - The Woks of Life",
+              "url": "https://thewoksoflife.com/lobster-noodles-e-fu-yee-mein/"
+            },
+            {
+              "title": "Cashew Shrimp Stir-fry - The Woks of Life",
+              "url": "https://thewoksoflife.com/cashew-shrimp-stir-fry/"
+            },
+            {
+              "title": "Dried, Cured & Pickled Ingredients - The Woks of Life",
+              "url": "https://thewoksoflife.com/chinese-ingredients-glossary/chinese-dried-preserved-ingredients/"
+            },
+            {
+              "title": "Tamarind Iced Tea: Summer Drink Recipe! - The Woks of Life",
+              "url": "https://thewoksoflife.com/tamarind-iced-tea/"
+            },
+            {
+              "title": "Shrimp Paste & Shrimp Sauce - Asian Ingredients - The Woks of Life",
+              "url": "https://thewoksoflife.com/shrimp-paste-sauce/"
+            },
+            {
+              "title": "How to Prepare Shrimp for Cooking - The Woks of Life",
+              "url": "https://thewoksoflife.com/how-to-prepare-shrimp/"
+            },
+            {
+              "title": "Shanghai Shrimp Stir-fry - You Bao Xia (油爆虾) - The Woks of Life",
+              "url": "https://thewoksoflife.com/shrimp-stir-fry-shanghai/"
+            },
+            {
+              "title": "Fantail Shrimp: Retro Chinese Takeout Recipe! - The Woks of Life",
+              "url": "https://thewoksoflife.com/fantail-shrimp/"
+            },
+            {
+              "title": "Savory Tang Yuan (Traditional Recipe!) - The Woks of Life",
+              "url": "https://thewoksoflife.com/savory-tang-yuan/"
+            },
+            {
+              "title": "Tom Yum Soup Recipe (Tom Yum Goong) - The Woks of Life",
+              "url": "https://thewoksoflife.com/tom-yum-soup/"
+            },
+            {
+              "title": "Butterfly Shrimp w/ Bacon: Chinese Restaurant Recipe - The Woks of Life",
+              "url": "https://thewoksoflife.com/butterfly-shrimp-bacon/"
+            },
+            {
+              "title": "Cantonese Cha Guo Savory Rice Cakes - The Woks of Life",
+              "url": "https://thewoksoflife.com/cha-guo-cantonese/"
+            },
+            {
+              "title": "TOP 25 RECIPES",
+              "url": "https://thewoksoflife.com/wp-content/uploads/2022/02/TheWoksofLife-Top25Recipes_compressed.pdf"
+            },
+            {
+              "title": "Regular-Menu-WoksofLife-Shopping",
+              "url": "https://thewoksoflife.com/wp-content/uploads/2022/01/Regular-Menu-WoksofLife-Shopping.pdf"
+            }
+          ],
+          "matchedFullRecipe": false
+        },
+        {
+          "query": "\"Longjing shrimp\" site:thewoksoflife.com",
+          "domainRestriction": "thewoksoflife.com",
+          "retrievalMethod": "normal web search; no access bypass",
+          "rawAuditFile": "cn-alias--Longjing-shrimp-.txt",
+          "results": [
+            {
+              "title": "8 Chinese Cuisines & How They Differ - The Woks of Life",
+              "url": "https://thewoksoflife.com/8-chinese-cuisines/"
+            },
+            {
+              "title": "How to Make a Chinese Meal (Menu Planning & More!) - The Woks of Life",
+              "url": "https://thewoksoflife.com/how-to-make-a-chinese-meal/"
+            }
+          ],
+          "matchedFullRecipe": false
+        }
+      ],
+      "assessment": "Lobster/noodle/cashew-shrimp and cuisine guide mentions are not a complete Dragon Well tea shrimp recipe.",
+      "conclusion": "No accessible complete matching recipe found in these alias searches; not a claim that no such page exists."
+    },
+    {
+      "recipeId": "cn-028",
+      "queries": [
+        {
+          "query": "velvet shrimp crystal shrimp site:thewoksoflife.com",
+          "domainRestriction": "thewoksoflife.com",
+          "retrievalMethod": "normal web search; no access bypass",
+          "rawAuditFile": "cn-alias-2.txt",
+          "results": [
+            {
+              "title": "How to Prepare Shrimp for Cooking - The Woks of Life",
+              "url": "https://thewoksoflife.com/how-to-prepare-shrimp/"
+            },
+            {
+              "title": "Drunken Noodles (Pad Kee Mao) - The Woks of Life",
+              "url": "https://thewoksoflife.com/2016/03/drunken-noodles-pad-kee-mao/"
+            },
+            {
+              "title": "Chow Har Kew (Stir-fried Crispy Shrimp with Vegetables) - The Woks of Life",
+              "url": "https://thewoksoflife.com/chow-har-kew-stir-fried-crispy-shrimp/"
+            },
+            {
+              "title": "Our Favorite Chinatown Classics - The Woks of Life",
+              "url": "https://thewoksoflife.com/our-favorite-chinatown-classics/"
+            },
+            {
+              "title": "Sizzling Rice Soup: Classic Recipe - The Woks of Life",
+              "url": "https://thewoksoflife.com/sizzling-rice-soup/"
+            },
+            {
+              "title": "Garlic Fried Rice - The Woks of Life",
+              "url": "https://thewoksoflife.com/garlic-fried-rice/"
+            },
+            {
+              "title": "Home - The Woks of Life",
+              "url": "https://thewoksoflife.com/?wordfence_syncAttackData=1790462627.9346"
+            },
+            {
+              "title": "Shrimp and Eggs, Cantonese-Style - The Woks of Life",
+              "url": "https://thewoksoflife.com/shrimp-and-eggs/"
+            },
+            {
+              "title": "All Posts - Page 78 of 99 - The Woks of Life",
+              "url": "https://thewoksoflife.com/blog/page/78/"
+            },
+            {
+              "title": "Shrimp Clay Pot with Garlic - The Woks of Life",
+              "url": "https://thewoksoflife.com/shrimp-clay-pot-chinese/"
+            },
+            {
+              "title": "Fantail Shrimp: Retro Chinese Takeout Recipe! - The Woks of Life",
+              "url": "https://thewoksoflife.com/fantail-shrimp/"
+            },
+            {
+              "title": "Butterfly Shrimp w/ Bacon: Chinese Restaurant Recipe - The Woks of Life",
+              "url": "https://thewoksoflife.com/butterfly-shrimp-bacon/"
+            }
+          ],
+          "matchedFullRecipe": false
+        },
+        {
+          "query": "\"crystal shrimp\" site:thewoksoflife.com",
+          "domainRestriction": "thewoksoflife.com",
+          "retrievalMethod": "normal web search; no access bypass",
+          "rawAuditFile": "cn-alias--crystal-shrimp-.txt",
+          "results": [
+            {
+              "title": "Good Eats in Shanghai: A Culinary Tour of Shanghai Cuisine - The Woks of Life",
+              "url": "https://thewoksoflife.com/shanghai-cuisine/"
+            },
+            {
+              "title": "Har Gow (Dim Sum Shrimp Dumplings) | The Woks of Life",
+              "url": "https://thewoksoflife.com/har-gow/"
+            },
+            {
+              "title": "Our Favorite Chinatown Classics - The Woks of Life",
+              "url": "https://thewoksoflife.com/our-favorite-chinatown-classics/"
+            },
+            {
+              "title": "All Posts - Page 78 of 99 - The Woks of Life",
+              "url": "https://thewoksoflife.com/blog/page/78/"
+            }
+          ],
+          "matchedFullRecipe": false
+        }
+      ],
+      "assessment": "Shrimp velveting is a preparation technique; har gow is dumpling; Shanghai cuisine guide describes crystal shrimp but provides neither ingredient quantities nor cooking method.",
+      "conclusion": "No accessible complete matching recipe found in these alias searches; not a claim that no such page exists.",
+      "guideInspection": {
+        "url": "https://thewoksoflife.com/shanghai-cuisine/",
+        "retrievalMethod": "normal web open full page",
+        "lines": "207-211",
+        "heading": "Stir-fried River Shrimp (Qing Chao He Xia, 清炒河虾)",
+        "aliasMention": "水晶虾仁 / Crystal Shrimp",
+        "recipeLinkObserved": false,
+        "completeIngredients": false,
+        "completeMethod": false
+      }
+    },
+    {
+      "recipeId": "cn-023",
+      "queries": [
+        {
+          "query": "chicken mushroom stew dongbei site:thewoksoflife.com",
+          "domainRestriction": "thewoksoflife.com",
+          "retrievalMethod": "normal web search; no access bypass",
+          "rawAuditFile": "cn-alias-3.txt",
+          "results": [
+            {
+              "title": "Chinese Braised Chicken with Mushrooms - The Woks of Life",
+              "url": "https://thewoksoflife.com/chinese-braised-chicken-with-mushrooms/"
+            },
+            {
+              "title": "Chinese Chicken Mushroom Soup - The Woks of Life",
+              "url": "https://thewoksoflife.com/chinese-chicken-mushroom-soup/"
+            },
+            {
+              "title": "Chicken and Mushroom Clay Pot Rice - The Woks of Life",
+              "url": "https://thewoksoflife.com/chicken-mushroom-clay-pot-rice/"
+            },
+            {
+              "title": "Udon Noodle Soup with Chicken & Mushrooms - The Woks of Life",
+              "url": "https://thewoksoflife.com/udon-noodle-soup-chicken-mushrooms/"
+            },
+            {
+              "title": "Braised Chicken with Chestnuts - 栗子焖鸡 - The Woks of Life",
+              "url": "https://thewoksoflife.com/chinese-chicken-chestnuts/"
+            },
+            {
+              "title": "Steamed Chicken (Jing Waat Gai) - The Woks of Life",
+              "url": "https://thewoksoflife.com/steamed-chicken-mushrooms-dried-lily-flowers/"
+            },
+            {
+              "title": "Cantonese Steamed Chicken & Chinese Sausage - The Woks of Life",
+              "url": "https://thewoksoflife.com/cantonese-steamed-chicken-chinese-sausage/"
+            },
+            {
+              "title": "Chicken & Soft Tofu Casserole (鸡粒豆腐煲) - The Woks of Life",
+              "url": "https://thewoksoflife.com/chicken-soft-tofu-casserole/"
+            },
+            {
+              "title": "Moo Goo Gai Pan: Mushroom and Chicken Stir Fry - The Woks of Life",
+              "url": "https://thewoksoflife.com/moo-goo-gai-pan/"
+            },
+            {
+              "title": "Low Sodium Chinese Food & Cooking - The Woks of Life",
+              "url": "https://thewoksoflife.com/low-sodium-chinese-food-cooking/"
+            },
+            {
+              "title": "Roast Chicken on Wild Mushroom Sticky Rice \"Risotto\" - The Woks of Life",
+              "url": "https://thewoksoflife.com/roast-chicken-wild-mushroom-sticky-rice-risotto/"
+            },
+            {
+              "title": "Traditional Chinese Soups To Warm Your Soul - The Woks of Life",
+              "url": "https://thewoksoflife.com/traditional-chinese-soup/"
+            },
+            {
+              "title": "TOP 25 RECIPES",
+              "url": "https://thewoksoflife.com/wp-content/uploads/2022/02/TheWoksofLife-Top25Recipes_compressed.pdf"
+            }
+          ],
+          "matchedFullRecipe": false
+        }
+      ],
+      "assessment": "Accessible Chinese Braised Chicken with Mushrooms uses chicken wings, shiitake and wood ear, inspired by Shanghai Jade Temple; distinct from Northeast chicken/hazel-mushroom stew.",
+      "conclusion": "No accessible complete matching recipe found in these alias searches; not a claim that no such page exists."
+    },
+    {
+      "recipeId": "cn-043",
+      "queries": [
+        {
+          "query": "\"Chongqing noodles\" site:thewoksoflife.com",
+          "domainRestriction": "thewoksoflife.com",
+          "retrievalMethod": "normal web search; no access bypass",
+          "rawAuditFile": "cn-alias--Chongqing-noodles-.txt",
+          "results": [
+            {
+              "title": "Suan La Fen (Chongqing Hot & Sour Noodle Soup) - The Woks of Life",
+              "url": "https://thewoksoflife.com/suan-la-fen-hot-sour-sweet-potato-glass-noodle-soup/"
+            },
+            {
+              "title": "Chinese Vegetarian Recipes - The Woks of Life",
+              "url": "https://thewoksoflife.com/chinese-vegetarian-recipes/"
+            },
+            {
+              "title": "Dried Chili Peppers - The Woks of Life",
+              "url": "https://thewoksoflife.com/dried-chili-peppers/"
+            }
+          ],
+          "matchedFullRecipe": false
+        },
+        {
+          "query": "\"xiao mian\" site:thewoksoflife.com",
+          "domainRestriction": "thewoksoflife.com",
+          "retrievalMethod": "normal web search; no access bypass",
+          "rawAuditFile": "cn-alias--xiao-mian-.txt",
+          "results": [
+            {
+              "title": "Shanghai Scallion Oil Noodles (Cong You Ban Mian) - The Woks of Life",
+              "url": "https://thewoksoflife.com/soy-scallion-noodles-cong-ban-mian/"
+            },
+            {
+              "title": "Good Eats in Shanghai: A Culinary Tour of Shanghai Cuisine - The Woks of Life",
+              "url": "https://thewoksoflife.com/shanghai-cuisine/"
+            },
+            {
+              "title": "The Shanghai Breakfast Club: How to Eat Like a Local - The Woks of Life",
+              "url": "https://thewoksoflife.com/shanghai-breakfast-eat-like-local/"
+            },
+            {
+              "title": "Chinese Vegetables: Leafy Greens - The Woks of Life",
+              "url": "https://thewoksoflife.com/chinese-ingredients-glossary/chinese-vegetables-asian-leafy-greens/"
+            }
+          ],
+          "matchedFullRecipe": false
+        }
+      ],
+      "assessment": "Results are suan la fen/glass noodles, Shanghai scallion noodles, travel guides and glossary; none is complete matching Chongqing xiao mian.",
+      "conclusion": "No accessible complete matching recipe found in these alias searches; not a claim that no such page exists."
+    }
+  ],
+  "frozenEvidenceModified": false
+}

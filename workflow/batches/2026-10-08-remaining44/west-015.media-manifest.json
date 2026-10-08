@@ -1,0 +1,16 @@
+{
+  "recipeId": "west-015",
+  "authorization": "user_confirmed_2026-09-16",
+  "sourceUrl": "https://www.bbcgoodfood.com/recipes/chicken-parmigiana",
+  "recipePageUrl": "https://www.bbcgoodfood.com/recipes/chicken-parmigiana",
+  "referer": "https://www.bbcgoodfood.com/recipes/chicken-parmigiana",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1035699_10-55c1b84.jpg?resize=440,400",
+      "repositoryPath": "assets/dishes/sources/west-015-bbc-good-food/hero.jpg",
+      "httpStatus": 200,
+      "contentType": "image/jpeg"
+    }
+  ]
+}

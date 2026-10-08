@@ -1,0 +1,74 @@
+[
+  {
+    "recipeId": "cn-020",
+    "author": "Bill",
+    "evidence": "complete source recipe card byline",
+    "databaseAtInitialIngest": "author null; author unknown at initial normalization, no false named author persisted",
+    "sourceBylineLine": 155,
+    "rawSourceByline": "L155: by: Bill",
+    "sourceExtractFile": "cn-020.web-extract.txt"
+  },
+  {
+    "recipeId": "cn-031",
+    "author": "Judy",
+    "evidence": "complete source recipe card byline",
+    "databaseAtInitialIngest": "author null; author unknown at initial normalization, no false named author persisted",
+    "sourceBylineLine": 114,
+    "rawSourceByline": "L114: by: Judy",
+    "sourceExtractFile": "cn-031.web-extract.txt"
+  },
+  {
+    "recipeId": "cn-035",
+    "author": "Judy",
+    "evidence": "complete source recipe card byline",
+    "databaseAtInitialIngest": "author null; author unknown at initial normalization, no false named author persisted",
+    "sourceBylineLine": 115,
+    "rawSourceByline": "L115: by: Judy",
+    "sourceExtractFile": "cn-035.web-extract.txt"
+  },
+  {
+    "recipeId": "cn-039",
+    "author": "Judy",
+    "evidence": "complete source recipe card byline",
+    "databaseAtInitialIngest": "author null; author unknown at initial normalization, no false named author persisted",
+    "sourceBylineLine": 243,
+    "rawSourceByline": "L243: by: Judy",
+    "sourceExtractFile": "cn-039.web-extract.txt"
+  },
+  {
+    "recipeId": "cn-040",
+    "author": "Judy",
+    "evidence": "complete source recipe card byline",
+    "databaseAtInitialIngest": "author null; author unknown at initial normalization, no false named author persisted",
+    "sourceBylineLine": 153,
+    "rawSourceByline": "L153: by: Judy",
+    "sourceExtractFile": "cn-040.web-extract.txt"
+  },
+  {
+    "recipeId": "cn-044",
+    "author": "Judy",
+    "evidence": "complete source recipe card byline",
+    "databaseAtInitialIngest": "author null; author unknown at initial normalization, no false named author persisted",
+    "sourceBylineLine": 244,
+    "rawSourceByline": "L244: by: Judy",
+    "sourceExtractFile": "cn-044.web-extract.txt"
+  },
+  {
+    "recipeId": "cn-051",
+    "author": "Bill",
+    "evidence": "complete source recipe card byline",
+    "databaseAtInitialIngest": "author null; author unknown at initial normalization, no false named author persisted",
+    "sourceBylineLine": 149,
+    "rawSourceByline": "L149: by: Bill",
+    "sourceExtractFile": "cn-051.web-extract.txt"
+  },
+  {
+    "recipeId": "cn-053",
+    "author": "Judy",
+    "evidence": "complete source recipe card byline",
+    "databaseAtInitialIngest": "author null; author unknown at initial normalization, no false named author persisted",
+    "sourceBylineLine": 142,
+    "rawSourceByline": "L142: by: Judy",
+    "sourceExtractFile": "cn-053.web-extract.txt"
+  }
+]

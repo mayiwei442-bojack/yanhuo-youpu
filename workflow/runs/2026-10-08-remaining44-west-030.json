@@ -1,0 +1,71 @@
+{
+  "runId": "2026-10-08-remaining44-west-030",
+  "recipeId": "west-030",
+  "recipeName": "酪乳煎饼",
+  "category": "western",
+  "status": "in_progress",
+  "startedAt": "2026-10-08T11:56:52.318Z",
+  "completedAt": null,
+  "steps": {
+    "research": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "evidencePath": "workflow/batches/2026-10-08-remaining44/west-030.base-evidence.json",
+        "evidencePackageHash": "3e1b2df6acd7726eb45b51fbd063a4337278f6ea0a08ced7319cadd64a241cf8",
+        "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/buttermilk-pancakes-maple-apples-pecans",
+        "sourceMode": "multi_source",
+        "publicationGate": "Final image/evidence acceptance pending"
+      }
+    },
+    "ingestion": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "selectedDocumentId": "7417b13e-b1bd-4ded-8dba-4675e86126cd",
+        "documentIds": [
+          "7417b13e-b1bd-4ded-8dba-4675e86126cd",
+          "2be9e3f1-3a2a-45c1-996b-a495d7ebcc3f"
+        ],
+        "ragEvidence": 11
+      }
+    },
+    "edit": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "validator": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "review": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "build": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "gitPush": {
+      "status": "pending",
+      "attempts": 0
+    }
+  },
+  "sources": [
+    {
+      "name": "BBC Good Food",
+      "url": "https://www.bbcgoodfood.com/recipes/buttermilk-pancakes-maple-apples-pecans",
+      "status": "success",
+      "failureReason": null
+    },
+    {
+      "name": "Serious Eats",
+      "url": "https://www.seriouseats.com/light-and-fluffy-pancakes-recipe",
+      "status": "success",
+      "failureReason": null
+    }
+  ],
+  "errors": [],
+  "branch": "codex/recipe-automation",
+  "commit": null
+}

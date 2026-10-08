@@ -1,0 +1,473 @@
+{
+  "canonical": {
+    "id": "cn-051",
+    "category": "chinese",
+    "index": 50,
+    "record": {
+      "name": "叉烧",
+      "en": "Cantonese Char Siu",
+      "region": "粤菜",
+      "ingredients": "去骨猪肩肉约1361克（原文3磅，选带适当脂肪的）；白砂糖1/4杯；盐2茶匙；五香粉1/2茶匙；白胡椒粉1/4茶匙；芝麻油1/2茶匙；绍兴酒1汤匙（可选，或干雪莉料酒）；酱油1汤匙；海鲜酱1汤匙；糖蜜2茶匙；红色食用色素1/8茶匙（可选）；大蒜3瓣，切极细末；麦芽糖或蜂蜜2汤匙（刷酱用）；热水1汤匙（刷酱用）；清水1又1/2杯（烤盘用），另备1杯（烤盘干时添加）；熟白米饭或糙米饭适量（可选配食，原文未给用量）；绿叶菜适量（可选配食，原文未给用量）",
+      "steps": "1）将去骨猪肩肉切成长条或大块，厚约5.1—7.6厘米。不要切去多余脂肪，烤制时脂肪会析出并增加风味。2）碗中混合1/4杯白砂糖、2茶匙盐、1/2茶匙五香粉、1/4茶匙白胡椒粉、1/2茶匙芝麻油、可选的1汤匙绍兴酒或干雪莉料酒、1汤匙酱油、1汤匙海鲜酱、2茶匙糖蜜、可选的1/8茶匙红色食用色素和3瓣蒜末，调成腌酱。3）先留出约2汤匙未接触生肉的腌酱，单独放好。将猪肉放在大碗或烤盘中，用剩余腌酱涂抹均匀。4）将猪肉盖好，冷藏过夜，或至少8小时；留出的腌酱也盖好并冷藏。5）将烤箱架放在烤箱上方三分之一处，以普通烘烤模式预热至246℃（原文475℉）。若只有热风烤箱，它预热和烤熟都会更快；可用烤箱温度计复核实际温度。全程每10分钟检查一次叉烧，根据状态调整温度。6）烤盘铺锡纸，上面架金属烤架，让肉离开盘底。将肉放在烤架上，肉块间尽量留出空隙；在下方烤盘倒入1又1/2杯清水，避免滴下的汁液焦煳或冒烟。7）将猪肉送入预热好的烤箱，开始第一阶段共25分钟的烤制：前10分钟保持246℃，随后降至190℃（原文375℉），继续烤到本阶段满25分钟。8）第一阶段烤满25分钟后，将猪肉翻面，烤盘转180度，以便受热均匀；若盘底干了，再加1杯清水。再烤15分钟。继续每10分钟查看一次，若有烤焦迹象则调低温度。9）烤肉期间做刷酱：将预留的约2汤匙腌酱、2汤匙麦芽糖或蜂蜜及1汤匙热水混匀。麦芽糖很黏，可先用微波炉加热，使其容易拌开。10）累计烤40分钟后，在猪肉朝上的一面刷酱。11）将猪肉翻面，另一面也刷酱。12）将刷好两面的猪肉再烤10分钟。13）此时累计烤50分钟，肉应已熟透，表面焦糖化。可用肉温计检查，原文给出的内部温度是约71℃（160℉）；同页更新注释另引145℉、约63℃并静置3分钟的要求，保留该说明，出炉后仍按本配方静置10分钟。14）若表面上色仍未达到喜好，可开启烤箱上火炙烤模式再烤几分钟，使外层更焦脆、颜色更深。此时留在烤箱旁密切观察，甜酱容易焦煳。15）从烤箱取出猪肉，将剩余的刷酱最后再刷一遍，静置10分钟。16）静置后切片食用。17）可配熟白米饭或糙米饭和绿叶菜；暂时不用的熟叉烧可冷冻，留作其他菜使用。",
+      "img": "81-chashao.png",
+      "source": "https://thewoksoflife.com/chinese-bbq-pork-cha-siu/",
+      "media": {
+        "sourceName": "The Woks of Life",
+        "recipePageUrl": "https://thewoksoflife.com/chinese-bbq-pork-cha-siu/",
+        "mediaPageUrl": "https://thewoksoflife.com/chinese-bbq-pork-cha-siu/",
+        "author": "Bill",
+        "rightsNotice": "All Rights Reserved © The Woks of Life",
+        "reuseLicense": null,
+        "repositoryCopyAuthorization": "user_confirmed_2026-10-08_remaining44",
+        "hero": {
+          "path": "assets/dishes/sources/cn-051-woks/hero.jpg",
+          "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/04/char-siu-recipe-15.jpg",
+          "sha256": "4e38a1a9e1293535710b4656c030d9843a2151a46f653b7ecbbc77d160c00e5c",
+          "httpStatus": 200,
+          "contentType": "image/webp"
+        },
+        "steps": [
+          {
+            "stepOrder": 2,
+            "sourceStepOrder": 2,
+            "path": "assets/dishes/sources/cn-051-woks/step-2-1.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/04/char-siu-recipe.jpg",
+            "sha256": "2782b70f96fa0fc1f85834d6875d0718fea22d2ae2c27a58df9715d3510f8b39",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          },
+          {
+            "stepOrder": 3,
+            "sourceStepOrder": 3,
+            "path": "assets/dishes/sources/cn-051-woks/step-3-2.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/04/char-siu-recipe-2.jpg",
+            "sha256": "fb2f319dc928a6ca4b8c7a506432826de465927b2c29fa157d0b124882c7b6f9",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          },
+          {
+            "stepOrder": 6,
+            "sourceStepOrder": 5,
+            "path": "assets/dishes/sources/cn-051-woks/step-5-3.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/04/char-siu-recipe-4.jpg",
+            "sha256": "df5388e819d35aa600916620a87ad03d47c19844f29684946ef46acefbf34d5c",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          },
+          {
+            "stepOrder": 7,
+            "sourceStepOrder": 6,
+            "path": "assets/dishes/sources/cn-051-woks/step-6-4.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/04/char-siu-recipe-5.jpg",
+            "sha256": "8faaf2f071bef637a5709260cfdecf09d60a5db093182d00fa9c25b24c9ca12e",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          },
+          {
+            "stepOrder": 9,
+            "sourceStepOrder": 7,
+            "path": "assets/dishes/sources/cn-051-woks/step-7-5.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/04/char-siu-recipe-6.jpg",
+            "sha256": "15083b9b07f138d5b800d4e1253bd641ac57183ad479da1db3d7ea88a66d84eb",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          },
+          {
+            "stepOrder": 10,
+            "sourceStepOrder": 8,
+            "path": "assets/dishes/sources/cn-051-woks/step-8-6.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/04/char-siu-recipe-7.jpg",
+            "sha256": "c4f5e27cb7457df8a9c7ccbe643336044694c6d60be32880aa8dab46a5335b44",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          },
+          {
+            "stepOrder": 11,
+            "sourceStepOrder": 8,
+            "path": "assets/dishes/sources/cn-051-woks/step-8-7.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/04/char-siu-recipe-8.jpg",
+            "sha256": "6d4c78dc1ef12dec12223c4419087a4f8a05b5a0a3cc1c046989389087558001",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          },
+          {
+            "stepOrder": 16,
+            "sourceStepOrder": 10,
+            "path": "assets/dishes/sources/cn-051-woks/step-10-8.jpg",
+            "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/04/char-siu-recipe-11.jpg",
+            "sha256": "1c55ab3c136b58008ff784c989e27ffb3ced3ab18406a7032f972f6bcad6e41b",
+            "httpStatus": 200,
+            "contentType": "image/webp"
+          }
+        ]
+      },
+      "timing": {
+        "totalMinutes": 60,
+        "prepMinutes": 10,
+        "cookMinutes": 50,
+        "stepDurations": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          600,
+          null,
+          null,
+          600,
+          null,
+          null
+        ]
+      },
+      "servings": 8,
+      "sourceLimitations": [
+        "来源总时间60分钟、准备10分钟、烹饪50分钟不包含冷藏腌制过夜或至少8小时；来源另要求出炉静置10分钟，此处原样保留，不自行重算总时间。",
+        "杯、汤匙和茶匙未规定容量，保留原单位，不换算毫升；猪肉重量与切块厚度仅作物理单位换算。",
+        "来源同时保留内部温度160华氏度，以及更新注释145华氏度并静置3分钟；正文如实呈现，未把这两项合并为一个新标准。",
+        "每10分钟检查是检查间隔，第一阶段25分钟内含两档烤温；这两类信息不生成单一倒计时。"
+      ]
+    }
+  },
+  "generated": {
+    "id": "cn-051",
+    "name": "叉烧",
+    "en": "Cantonese Char Siu",
+    "cuisine": "粤菜",
+    "category": "中餐",
+    "isHeritageFlavor": false,
+    "heritageStatus": null,
+    "ingredients": [
+      {
+        "id": "ingredient-01",
+        "name": "去骨猪肩肉",
+        "label": "去骨猪肩肉约1361克（原文3磅，选带适当脂肪的）",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-02",
+        "name": "白砂糖",
+        "label": "白砂糖1/4杯",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-03",
+        "name": "盐",
+        "label": "盐2茶匙",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-04",
+        "name": "五香粉",
+        "label": "五香粉1/2茶匙",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-05",
+        "name": "白胡椒粉",
+        "label": "白胡椒粉1/4茶匙",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-06",
+        "name": "芝麻油",
+        "label": "芝麻油1/2茶匙",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-07",
+        "name": "绍兴酒",
+        "label": "绍兴酒1汤匙（可选，或干雪莉料酒）",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-08",
+        "name": "酱油",
+        "label": "酱油1汤匙",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-09",
+        "name": "海鲜酱",
+        "label": "海鲜酱1汤匙",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-10",
+        "name": "糖蜜",
+        "label": "糖蜜2茶匙",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-11",
+        "name": "红色食用色素",
+        "label": "红色食用色素1/8茶匙（可选）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-12",
+        "name": "大蒜",
+        "label": "大蒜3瓣，切极细末",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-13",
+        "name": "麦芽糖或蜂蜜",
+        "label": "麦芽糖或蜂蜜2汤匙（刷酱用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-14",
+        "name": "热水",
+        "label": "热水1汤匙（刷酱用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-15",
+        "name": "清水",
+        "label": "清水1又1/2杯（烤盘用），另备1杯（烤盘干时添加）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-16",
+        "name": "熟白米饭或糙米饭",
+        "label": "熟白米饭或糙米饭适量（可选配食，原文未给用量）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-17",
+        "name": "绿叶菜",
+        "label": "绿叶菜适量（可选配食，原文未给用量）",
+        "isCore": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-01",
+        "instruction": "将去骨猪肩肉切成长条或大块，厚约5.1—7.6厘米。不要切去多余脂肪，烤制时脂肪会析出并增加风味。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-02",
+        "instruction": "碗中混合1/4杯白砂糖、2茶匙盐、1/2茶匙五香粉、1/4茶匙白胡椒粉、1/2茶匙芝麻油、可选的1汤匙绍兴酒或干雪莉料酒、1汤匙酱油、1汤匙海鲜酱、2茶匙糖蜜、可选的1/8茶匙红色食用色素和3瓣蒜末，调成腌酱。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-051-woks/step-2-1.jpg",
+        "imageSource": "https://thewoksoflife.com/chinese-bbq-pork-cha-siu/"
+      },
+      {
+        "id": "step-03",
+        "instruction": "先留出约2汤匙未接触生肉的腌酱，单独放好。将猪肉放在大碗或烤盘中，用剩余腌酱涂抹均匀。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-051-woks/step-3-2.jpg",
+        "imageSource": "https://thewoksoflife.com/chinese-bbq-pork-cha-siu/"
+      },
+      {
+        "id": "step-04",
+        "instruction": "将猪肉盖好，冷藏过夜，或至少8小时；留出的腌酱也盖好并冷藏。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-05",
+        "instruction": "将烤箱架放在烤箱上方三分之一处，以普通烘烤模式预热至246℃（原文475℉）。若只有热风烤箱，它预热和烤熟都会更快；可用烤箱温度计复核实际温度。全程每10分钟检查一次叉烧，根据状态调整温度。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-06",
+        "instruction": "烤盘铺锡纸，上面架金属烤架，让肉离开盘底。将肉放在烤架上，肉块间尽量留出空隙；在下方烤盘倒入1又1/2杯清水，避免滴下的汁液焦煳或冒烟。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-051-woks/step-5-3.jpg",
+        "imageSource": "https://thewoksoflife.com/chinese-bbq-pork-cha-siu/"
+      },
+      {
+        "id": "step-07",
+        "instruction": "将猪肉送入预热好的烤箱，开始第一阶段共25分钟的烤制：前10分钟保持246℃，随后降至190℃（原文375℉），继续烤到本阶段满25分钟。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-051-woks/step-6-4.jpg",
+        "imageSource": "https://thewoksoflife.com/chinese-bbq-pork-cha-siu/"
+      },
+      {
+        "id": "step-08",
+        "instruction": "第一阶段烤满25分钟后，将猪肉翻面，烤盘转180度，以便受热均匀；若盘底干了，再加1杯清水。再烤15分钟。继续每10分钟查看一次，若有烤焦迹象则调低温度。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-09",
+        "instruction": "烤肉期间做刷酱：将预留的约2汤匙腌酱、2汤匙麦芽糖或蜂蜜及1汤匙热水混匀。麦芽糖很黏，可先用微波炉加热，使其容易拌开。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-051-woks/step-7-5.jpg",
+        "imageSource": "https://thewoksoflife.com/chinese-bbq-pork-cha-siu/"
+      },
+      {
+        "id": "step-10",
+        "instruction": "累计烤40分钟后，在猪肉朝上的一面刷酱。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-051-woks/step-8-6.jpg",
+        "imageSource": "https://thewoksoflife.com/chinese-bbq-pork-cha-siu/"
+      },
+      {
+        "id": "step-11",
+        "instruction": "将猪肉翻面，另一面也刷酱。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-051-woks/step-8-7.jpg",
+        "imageSource": "https://thewoksoflife.com/chinese-bbq-pork-cha-siu/"
+      },
+      {
+        "id": "step-12",
+        "instruction": "将刷好两面的猪肉再烤10分钟。",
+        "duration": 600,
+        "heat": null,
+        "timerRequired": true,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-13",
+        "instruction": "此时累计烤50分钟，肉应已熟透，表面焦糖化。可用肉温计检查，原文给出的内部温度是约71℃（160℉）；同页更新注释另引145℉、约63℃并静置3分钟的要求，保留该说明，出炉后仍按本配方静置10分钟。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-14",
+        "instruction": "若表面上色仍未达到喜好，可开启烤箱上火炙烤模式再烤几分钟，使外层更焦脆、颜色更深。此时留在烤箱旁密切观察，甜酱容易焦煳。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-15",
+        "instruction": "从烤箱取出猪肉，将剩余的刷酱最后再刷一遍，静置10分钟。",
+        "duration": 600,
+        "heat": null,
+        "timerRequired": true,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-16",
+        "instruction": "静置后切片食用。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": "",
+        "image": "assets/dishes/sources/cn-051-woks/step-10-8.jpg",
+        "imageSource": "https://thewoksoflife.com/chinese-bbq-pork-cha-siu/"
+      },
+      {
+        "id": "step-17",
+        "instruction": "可配熟白米饭或糙米饭和绿叶菜；暂时不用的熟叉烧可冷冻，留作其他菜使用。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      }
+    ],
+    "sourceLimitations": [
+      "来源总时间60分钟、准备10分钟、烹饪50分钟不包含冷藏腌制过夜或至少8小时；来源另要求出炉静置10分钟，此处原样保留，不自行重算总时间。",
+      "杯、汤匙和茶匙未规定容量，保留原单位，不换算毫升；猪肉重量与切块厚度仅作物理单位换算。",
+      "来源同时保留内部温度160华氏度，以及更新注释145华氏度并静置3分钟；正文如实呈现，未把这两项合并为一个新标准。",
+      "每10分钟检查是检查间隔，第一阶段25分钟内含两档烤温；这两类信息不生成单一倒计时。"
+    ],
+    "imageThumb": "assets/dishes/sources/cn-051-woks/hero.jpg",
+    "imageFull": "assets/dishes/sources/cn-051-woks/hero.jpg",
+    "source": "https://thewoksoflife.com/chinese-bbq-pork-cha-siu/",
+    "media": {
+      "sourceName": "The Woks of Life",
+      "recipePageUrl": "https://thewoksoflife.com/chinese-bbq-pork-cha-siu/",
+      "mediaPageUrl": "https://thewoksoflife.com/chinese-bbq-pork-cha-siu/",
+      "author": "Bill",
+      "rightsNotice": "All Rights Reserved © The Woks of Life",
+      "reuseLicense": null,
+      "repositoryCopyAuthorization": "user_confirmed_2026-10-08_remaining44"
+    },
+    "time": 60,
+    "timeBasis": "source",
+    "difficulty": "适中",
+    "defaultServings": 8,
+    "servingsBasis": "source",
+    "allergens": [
+      "soy",
+      "sesame"
+    ],
+    "flags": {
+      "containsPork": true,
+      "containsBeef": false,
+      "containsAlcohol": true,
+      "spicy": false,
+      "vegetarian": false
+    },
+    "demoEnriched": true
+  }
+}

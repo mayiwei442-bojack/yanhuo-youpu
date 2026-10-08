@@ -1,0 +1,71 @@
+{
+  "runId": "2026-10-08-remaining44-west-016",
+  "recipeId": "west-016",
+  "recipeName": "惠灵顿牛排",
+  "category": "western",
+  "status": "in_progress",
+  "startedAt": "2026-10-08T11:56:52.318Z",
+  "completedAt": null,
+  "steps": {
+    "research": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "evidencePath": "workflow/batches/2026-10-08-remaining44/west-016.base-evidence.json",
+        "evidencePackageHash": "b56221437c0469a54c081fb351c834d6050b2b4d58f7ef5dd894bd081bb6eba2",
+        "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/beef-wellington",
+        "sourceMode": "multi_source",
+        "publicationGate": "Final image/evidence acceptance pending"
+      }
+    },
+    "ingestion": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "selectedDocumentId": "3131ae41-b095-414d-9e1d-4f7a23a1529a",
+        "documentIds": [
+          "3131ae41-b095-414d-9e1d-4f7a23a1529a",
+          "e5f01590-1ad2-46c5-a2b2-f9ee07211b7e"
+        ],
+        "ragEvidence": 16
+      }
+    },
+    "edit": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "validator": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "review": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "build": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "gitPush": {
+      "status": "pending",
+      "attempts": 0
+    }
+  },
+  "sources": [
+    {
+      "name": "BBC Good Food",
+      "url": "https://www.bbcgoodfood.com/recipes/beef-wellington",
+      "status": "success",
+      "failureReason": null
+    },
+    {
+      "name": "Serious Eats",
+      "url": "https://www.seriouseats.com/the-ultimate-beef-wellington-recipe",
+      "status": "success",
+      "failureReason": null
+    }
+  ],
+  "errors": [],
+  "branch": "codex/recipe-automation",
+  "commit": null
+}

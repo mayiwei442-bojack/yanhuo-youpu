@@ -1,0 +1,588 @@
+{
+  "recipeId": "west-016",
+  "recipeName": "惠灵顿牛排",
+  "category": "western",
+  "createdAt": "2026-10-08T12:11:25.415Z",
+  "sources": [
+    {
+      "sourceName": "BBC Good Food",
+      "sourceType": "website",
+      "url": "https://www.bbcgoodfood.com/recipes/beef-wellington",
+      "documentId": "3131ae41-b095-414d-9e1d-4f7a23a1529a",
+      "retrievalMethod": "ordinary HTTPS GET; complete accessible page JSON-LD and DOM independently inspected",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "a good beef fillet (preferably Aberdeen Angus) of around 1kg/2lb 4oz",
+          "raw": "a good beef fillet (preferably Aberdeen Angus) of around 1kg/2lb 4oz",
+          "amount": null
+        },
+        {
+          "name": "olive oil",
+          "raw": "3 tbsp olive oil",
+          "amount": null
+        },
+        {
+          "name": "chestnut mushroom include some wild ones if you like",
+          "raw": "250g/9oz chestnut mushroom include some wild ones if you like",
+          "amount": null
+        },
+        {
+          "name": "butter",
+          "raw": "50g/2oz butter",
+          "amount": null
+        },
+        {
+          "name": "arge sprig fresh thyme",
+          "raw": "1 large sprig fresh thyme",
+          "amount": null
+        },
+        {
+          "name": "fl oz dry white wine",
+          "raw": "100ml/3.5 fl oz dry white wine",
+          "amount": null
+        },
+        {
+          "name": "slices prosciutto",
+          "raw": "12 slices prosciutto",
+          "amount": null
+        },
+        {
+          "name": "b 2oz pack puff pastry thawed if frozen",
+          "raw": "500g/1lb 2oz pack puff pastry thawed if frozen",
+          "amount": null
+        },
+        {
+          "name": "a little flour for dusting",
+          "raw": "a little flour for dusting",
+          "amount": null
+        },
+        {
+          "name": "egg yolks beaten with 1 tsp water",
+          "raw": "2 egg yolks beaten with 1 tsp water",
+          "amount": null
+        },
+        {
+          "name": "pepper",
+          "raw": "pepper for beef (step2; amount unspecified)",
+          "amount": null
+        },
+        {
+          "name": "seasoning",
+          "raw": "Season mushroom mixture (step5; seasoning type and quantity unspecified)",
+          "amount": null
+        },
+        {
+          "name": "water",
+          "raw": "1 tsp water with egg yolks (step14)",
+          "amount": null
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Heat oven to 220C/fan 200C/gas 7.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "Sit the 1kg beef fillet on a roasting tray, brush with 1 tbsp olive oil and season with pepper, then roast for 15 mins for medium-rare or 20 mins for medium. When the beef is cooked to your liking, remove from the oven to cool, then chill in the fridge for about 20 mins.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "While the beef is cooling, chop 250g chestnut (and wild, if you like) mushrooms as finely as possible so they have the texture of coarse breadcrumbs. You can use a food processor to do this, but make sure you pulse-chop the mushrooms so they don’t become a slurry.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "Heat 2 tbsp of the olive oil and 50g butter in a large pan and fry the mushrooms on a medium heat, with 1 large sprig fresh thyme, for about 10 mins stirring often, until you have a softened mixture.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 5,
+          "instruction": "Season the mushroom mixture, pour over 100ml dry white wine and cook for about 10 mins until all the wine has been absorbed. The mixture should hold its shape when stirred.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 6,
+          "instruction": "Remove the mushroom duxelle from the pan to cool and discard the thyme.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 7,
+          "instruction": "Overlap two pieces of cling film over a large chopping board. Lay 12 slices prosciutto on the cling film, slightly overlapping, in a double row.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 8,
+          "instruction": "Spread half the duxelles over the prosciutto, then sit the fillet on it and spread the remaining duxelles over.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 9,
+          "instruction": "Use the cling film’s edges to draw the prosciutto around the fillet, then roll it into a sausage shape, twisting the ends of cling film to tighten it as you go.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 10,
+          "instruction": "Chill the fillet while you roll out the pastry.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 11,
+          "instruction": "Dust your work surface with a little flour. Roll out a third of the 500g pack of puff pastry to a 18 x 30cm strip and place on a non-stick baking sheet.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 12,
+          "instruction": "Roll out the remainder of the 500g pack of puff pastry to about 28 x 36cm.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 13,
+          "instruction": "Unravel the fillet from the cling film and sit it in the centre of the smaller strip of pastry.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 14,
+          "instruction": "Beat the 2 egg yolks with 1 tsp water and brush the pastry’s edges, and the top and sides of the wrapped fillet.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 15,
+          "instruction": "Using a rolling pin, carefully lift and drape the larger piece of pastry over the fillet, pressing well into the sides.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 16,
+          "instruction": "Trim the joins to about a 4cm rim. Seal the rim with the edge of a fork or spoon handle.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 17,
+          "instruction": "Glaze all over with more egg yolk and, using the back of a knife, mark the beef Wellington with long diagonal lines taking care not to cut into the pastry.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 18,
+          "instruction": "Chill for at least 30 mins and up to 24 hrs. Heat oven to 200C/fan 180C/gas 6.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 19,
+          "instruction": "Brush the Wellington with a little more egg yolk and cook until golden and crisp – 20-25 mins for medium-rare beef, 30 mins for medium. Allow to stand for 10 mins before serving in thick slices.",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [],
+      "tips": [],
+      "rawExcerpt": "{\n  \"@context\": \"https://schema.org\",\n  \"@id\": \"https://www.bbcgoodfood.com/recipes/beef-wellington#Recipe\",\n  \"@type\": \"Recipe\",\n  \"description\": \"Gordon Ramsay's version of the classic steak dish – a showstopping centrepiece on a special occasion\",\n  \"image\": [\n    {\n      \"@type\": \"ImageObject\",\n      \"url\": \"https://images.immediate.co.uk/production/volatile/sites/30/2012/09/Beef-wellington-d4f3320.jpg?resize=768,698\",\n      \"width\": 768,\n      \"height\": 698\n    },\n    {\n      \"@type\": \"ImageObject\",\n      \"url\": \"https://images.immediate.co.uk/production/volatile/sites/30/2012/09/Beef-wellington-d4f3320.jpg?resize=1366,1242\",\n      \"width\": 1366,\n      \"height\": 1242\n    }\n  ],\n  \"mainEntityOfPage\": {\n    \"@type\": \"WebPage\",\n    \"@id\": \"https://www.bbcgoodfood.com/recipes/beef-wellington\"\n  },\n  \"name\": \"Beef wellington\",\n  \"url\": \"https://www.bbcgoodfood.com/recipes/beef-wellington\",\n  \"author\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Gordon Ramsay\",\n      \"url\": \"https://www.bbcgoodfood.com/author/gordonramsay\"\n    }\n  ],\n  \"dateModified\": \"2024-12-08T13:49:03+00:00\",\n  \"datePublished\": \"2012-09-20T01:27:34+01:00\",\n  \"headline\": \"Beef wellington\",\n  \"keywords\": \"BBC Good Food, Beef fillet, Beef fillets, Beef Wellington, Chestnut mushroom, Chestnut mushrooms, Gordon, Gordon ramsay, Gordon ramsey, Prosciutto, Puff pastry, Roast, Step-by-step, Valentines Day, Valentines dinner, Valentines main, Wellington\",\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Good Food\",\n    \"url\": \"https://www.bbcgoodfood.com\",\n    \"logo\": {\n      \"@type\": \"ImageObject\",\n      \"height\": 325,\n      \"url\": \"https://images.immediate.co.uk/production/volatile/sites/30/2026/02/goodfood.logo-f37096c.png?resize=1312,325\",\n      \"width\": 1312\n    }\n  },\n  \"nutrition\": {\n    \"@type\": \"NutritionInformation\",\n    \"calories\": \"779 calories\",\n    \"fatContent\": \"52 grams fat\",\n    \"saturatedFatContent\": \"23 grams saturated fat\",\n    \"carbohydrateContent\": \"27 grams carbohydrates\",\n    \"sugarContent\": \"1 grams sugar\",\n    \"fiberContent\": \"3 grams fiber\",\n    \"proteinContent\": \"46 grams protein\",\n    \"sodiumContent\": \"1.75 milligram of sodium\"\n  },\n  \"recipeCategory\": \"Dinner\",\n  \"recipeCuisine\": \"British\",\n  \"recipeIngredient\": [\n    \"a good beef fillet (preferably Aberdeen Angus) of around 1kg/2lb 4oz\",\n    \"3 tbsp olive oil\",\n    \"250g/9oz chestnut mushroom include some wild ones if you like\",\n    \"50g/2oz butter\",\n    \"1 large sprig fresh thyme\",\n    \"100ml/3.5 fl oz dry white wine\",\n    \"12 slices prosciutto\",\n    \"500g/1lb 2oz pack puff pastry thawed if frozen\",\n    \"a little flour for dusting\",\n    \"2 egg yolks beaten with 1 tsp water\"\n  ],\n  \"recipeInstructions\": [\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Heat oven to 220C/fan 200C/gas 7.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Sit the 1kg beef fillet on a roasting tray, brush with 1 tbsp olive oil and season with pepper, then roast for 15 mins for medium-rare or 20 mins for medium. When the beef is cooked to your liking, remove from the oven to cool, then chill in the fridge for about 20 mins.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"While the beef is cooling, chop 250g chestnut (and wild, if you like) mushrooms as finely as possible so they have the texture of coarse breadcrumbs. You can use a food processor to do this, but make sure you pulse-chop the mushrooms so they don’t become a slurry.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Heat 2 tbsp of the olive oil and 50g butter in a large pan and fry the mushrooms on a medium heat, with 1 large sprig fresh thyme, for about 10 mins stirring often, until you have a softened mixture.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Season the mushroom mixture, pour over 100ml dry white wine and cook for about 10 mins until all the wine has been absorbed. The mixture should hold its shape when stirred.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Remove the mushroom duxelle from the pan to cool and discard the thyme.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Overlap two pieces of cling film over a large chopping board. Lay 12 slices prosciutto on the cling film, slightly overlapping, in a double row.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Spread half the duxelles over the prosciutto, then sit the fillet on it and spread the remaining duxelles over.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Use the cling film’s edges to draw the prosciutto around the fillet, then roll it into a sausage shape, twisting the ends of cling film to tighten it as you go.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Chill the fillet while you roll out the pastry.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Dust your work surface with a little flour. Roll out a third of the 500g pack of puff pastry to a 18 x 30cm strip and place on a non-stick baking sheet.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Roll out the remainder of the 500g pack of puff pastry to about 28 x 36cm.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Unravel the fillet from the cling film and sit it in the centre of the smaller strip of pastry.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Beat the 2 egg yolks with 1 tsp water and brush the pastry’s edges, and the top and sides of the wrapped fillet.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Using a rolling pin, carefully lift and drape the larger piece of pastry over the fillet, pressing well into the sides.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Trim the joins to about a 4cm rim. Seal the rim with the edge of a fork or spoon handle.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Glaze all over with more egg yolk and, using the back of a knife, mark the beef Wellington with long diagonal lines taking care not to cut into the pastry.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Chill for at least 30 mins and up to 24 hrs. Heat oven to 200C/fan 180C/gas 6.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Brush the Wellington with a little more egg yolk and cook until golden and crisp – 20-25 mins for medium-rare beef, 30 mins for medium. Allow to stand for 10 mins before serving in thick slices.\"\n    }\n  ],\n  \"recipeYield\": 6,\n  \"totalTime\": \"PT2H30M\"\n}",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 1,
+        "mappedStepImages": 0,
+        "stepImageCoverage": 0,
+        "ingredientCount": 13,
+        "executableStepCount": 19,
+        "notes": [
+          "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented.",
+          "Initial beef roast220C/fan200C/gas7 and final pastry200C/fan180C/gas6 are different stages; preserve both."
+        ]
+      }
+    },
+    {
+      "sourceName": "Serious Eats",
+      "sourceType": "website",
+      "url": "https://www.seriouseats.com/the-ultimate-beef-wellington-recipe",
+      "documentId": "e5f01590-1ad2-46c5-a2b2-f9ee07211b7e",
+      "retrievalMethod": "normal web.open full accessible page; merged overlapping line ranges; direct requests460 and browser402 retained as transport history",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "1 center-cut beef tenderloin, trimmed of silverskin and fat, about 2 pounds (see note)",
+          "raw": "1 center-cut beef tenderloin, trimmed of silverskin and fat, about 2 pounds (see note)",
+          "amount": null
+        },
+        {
+          "name": "Kosher salt and freshly ground black pepper",
+          "raw": "Kosher salt and freshly ground black pepper",
+          "amount": null
+        },
+        {
+          "name": "2 tablespoons plus 1/2 teaspoon vegetable or canola oil, divided",
+          "raw": "2 tablespoons plus 1/2 teaspoon vegetable or canola oil, divided",
+          "amount": null
+        },
+        {
+          "name": "2 tablespoons prepared horseradish",
+          "raw": "2 tablespoons prepared horseradish",
+          "amount": null
+        },
+        {
+          "name": "1 tablespoon Dijon, spicy brown, or hot English mustard",
+          "raw": "1 tablespoon Dijon, spicy brown, or hot English mustard",
+          "amount": null
+        },
+        {
+          "name": "1 pound mushrooms (button, cremini, shiitake, portabello, or a mix) cleaned, trimmed, and roughly chopped",
+          "raw": "1 pound mushrooms (button, cremini, shiitake, portabello, or a mix) cleaned, trimmed, and roughly chopped",
+          "amount": null
+        },
+        {
+          "name": "4 tablespoons unsalted butter",
+          "raw": "4 tablespoons unsalted butter",
+          "amount": null
+        },
+        {
+          "name": "2 medium shallots, finely diced (about 1/2 cup)",
+          "raw": "2 medium shallots, finely diced (about 1/2 cup)",
+          "amount": null
+        },
+        {
+          "name": "2 teaspoons finely minced fresh thyme leaves",
+          "raw": "2 teaspoons finely minced fresh thyme leaves",
+          "amount": null
+        },
+        {
+          "name": "1/2 cup Cognac or other brandy or barrel-aged spirit, such as bourbon",
+          "raw": "1/2 cup Cognac or other brandy or barrel-aged spirit, such as bourbon",
+          "amount": null
+        },
+        {
+          "name": "1/2 cup heavy cream",
+          "raw": "1/2 cup heavy cream",
+          "amount": null
+        },
+        {
+          "name": "2 teaspoons soy sauce",
+          "raw": "2 teaspoons soy sauce",
+          "amount": null
+        },
+        {
+          "name": "4 ounces fresh foie gras (about 2 1/2-inch slabs, see note)",
+          "raw": "4 ounces fresh foie gras (about 2 1/2-inch slabs, see note)",
+          "amount": null
+        },
+        {
+          "name": "1 sheet phyllo dough",
+          "raw": "1 sheet phyllo dough",
+          "amount": null
+        },
+        {
+          "name": "1/4 pound prosciutto, sliced paper thin",
+          "raw": "1/4 pound prosciutto, sliced paper thin",
+          "amount": null
+        },
+        {
+          "name": "Flour, for dusting",
+          "raw": "Flour, for dusting",
+          "amount": null
+        },
+        {
+          "name": "14 ounces frozen or homemade puff pastry, thawed (see note)",
+          "raw": "14 ounces frozen or homemade puff pastry, thawed (see note)",
+          "amount": null
+        },
+        {
+          "name": "1 egg, beaten",
+          "raw": "1 egg, beaten",
+          "amount": null
+        },
+        {
+          "name": "Coarse sea salt, such as Maldon or fleur de sel",
+          "raw": "Coarse sea salt, such as Maldon or fleur de sel",
+          "amount": null
+        },
+        {
+          "name": "1 bunch finely minced chives",
+          "raw": "1 bunch finely minced chives",
+          "amount": null
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Using butcher's twine, tie tenderloin at 1-inch intervals. Trim ends of twine. Season liberally with salt and pepper.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "Heat 2 tablespoons oil in a cast iron or stainless steel skillet over high heat until smoking. Add tenderloin and cook without moving until well-browned on first side, about 2 minutes. Rotate tenderloin and continue cooking until browned on all sides, about 10 minutes total. Transfer to a large plate.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "Combine horseradish, mustard, and 1 teaspoon black pepper in a small bowl. When tenderloin is cool enough to handle, cut off and discard twine, then rub on all surfaces with horseradish/mustard mixture. Place in refrigerator, uncovered.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "Place half the mushrooms in the bowl of a food processor and pulse until very finely chopped, scraping down sides and redistributing mushrooms with spatula as necessary, about 10 short pulses. Transfer to a bowl. Repeat with remaining mushrooms.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 5,
+          "instruction": "Heat butter in a 12-inch skillet over medium-high heat until melted. Add mushrooms and cook, stirring occasionally, until mushrooms have exuded all their liquid and start to sizzle, about 8 minutes. Continue cooking until mushrooms begin to brown and leave browned bits stuck to bottom of pan, about 4 minutes longer. Add shallots and thyme and cook, stirring frequently, until softened, about 2 minutes.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 6,
+          "instruction": "Add brandy. Scrape bottom of skillet with a silicone spatula or wooden spoon to release browned bits. Continue to cook until brandy is nearly dry, about 4 minutes. Add heavy cream and soy sauce and continue to cook, stirring frequently until mixture is thick and collects in one large mass when you shake the skillet. Season to taste with salt and pepper. Transfer to a bowl and place in the refrigerator.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 7,
+          "instruction": "Season foie gras liberally with salt and pepper. Heat remaining half teaspoon oil in a small cast iron or stainless steel skillet over high heat until smoking. Add foie gras and cook without moving until well browned on first side, about 30 seconds. Carefully flip with a small offset spatula and brown second side, about 30 seconds longer. Transfer foie gras to a paper towel-lined plate. Pour rendered fat into mushroom mixture, stir to combine, and return to refrigerator. Use a sharp knife to split each piece of cooked foie gras in half horizontally. Transfer to a plate and place in refrigerator. Allow all ingredients to chill for at least 30 minutes.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 8,
+          "instruction": "Lay a double layer of plastic wrap about 2 feet long and 1 foot wide on a cutting board. Lay phyllo dough on top of plastic wrap. Shingle prosciutto on top of phyllo to create a thin, even, overlapping layer, leaving a 2-inch border along the bottom and top of the phyllo dough. Spread mushroom mixture evenly over ham layer.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 9,
+          "instruction": "Place tenderloin along the very bottom edge of the ham/mushroom layer. Place sliced foie gras evenly over top of tenderloin (see note). Carefully roll tenderloin in mushroom, ham, and phyllo, using the plastic wrap to help tighten it as you roll. Once beef is completely rolled up, re-wrap with more plastic wrap, twisting the ends to make sure roll is very tight. Return to refrigerator for at least 30 minutes.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 10,
+          "instruction": "Dust board or countertop lightly with flour. Spread puff pastry on board and, using a rolling pin, roll it into a rectangle at least 4 inches wider than the beef roll on its shorter side.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 11,
+          "instruction": "Unwrap beef roll and place along very bottom edge of puff pastry with the foie gras side facing up. Brush 6 inches of puff pastry just above beef roll with beaten egg. Carefully roll the beef in the puff pastry until it is completely wrapped. You should end up with the foie gras-side facing up again, with the puff pastry seam meeting on the bottom. Trim pastry with a sharp knife.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 12,
+          "instruction": "Fold sides of puff pastry protruding from either end of the beef roll towards the center, then fold the top flaps down. Trim off the bottom flaps carefully.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 13,
+          "instruction": "Roll entire beef roll over so that the bottom is facing up, then fold up the end flaps to seal completely. Roll beef back right-side up. Transfer to a plate and chill for at least 30 minutes.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 14,
+          "instruction": "Adjust oven rack to center position and preheat oven to 425°F (218°C). Transfer Wellington to a foil-lined baking sheet and brush all over with beaten egg. Use a sharp paring knife to score a decorative pattern in the pastry. Sprinkle liberally with coarse sea salt. Bake until pastry is golden brown and center of roast registers 110°F (43°C) for rare or 120°F (49°C) for medium-rare on an instant-read thermometer, 35 to 45 minutes. Remove from oven and allow to rest for ten minutes.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 15,
+          "instruction": "Use a thin metal spatula to loosen Wellington from foil, then carefully transfer to a carving board. Slice off the ends with a sharp knife. Carve Wellington, sprinkle cut surfaces with chives and more coarse salt, and serve.",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [],
+      "tips": [
+        "A center-cut beef tenderloin is also known as a Châteubriand. For best results, use a high-quality all-butter puff pastry, such as Dufour. Alternatively, make your own using this recipe . Foie gras pâté can be used in place of the fresh foie gras. If using pâté, skip step 7. In step 9, spread foie gras pâté on top of tenderloin in place of sliced fresh foie gras.",
+        "Save",
+        "Rate",
+        "Print [Input]"
+      ],
+      "rawExcerpt": "iframe†www.googletagmanager.com\n\nSerious Eats\n\nSave\n\nRate\n\n* Search [Input: What are you looking for?]\n\n* Newsletters\n* Sweepstakes\n* Serious Eats\n# The Ultimate Beef Wellington Recipe\n\n4.6\n\n(19)\n\n75 Reviews\n\nBeef tenderloin, a rich mushroom duxelles, foie gras, and prosciutto, all wrapped in a buttery puff pastry crust.\n\nBy\n\nJ. Kenji López-Alt\n\nImage: Kenji Lopez Alt Image: Kenji Lopez Alt\n\nJ. Kenji López-Alt\n\nKenji is the former culinary director for Serious Eats and a current culinary consultant for the site. He is also a New York Times food columnist and the author of The Food Lab: Better Home Cooking Through Science.\nSerious Eats' Editorial Guidelines\n\nUpdated on September 28, 2025\n\nClose\n\nImage: Beef Wellington on an oval white ceramic plate, with two slices of Wellington on the right hand side of the plate. Image: Beef Wellington on an oval white ceramic plate, with two slices of Wellington on the right hand side of the plate.\n\nCredit:\n\nSerious Eats / Diana Chistruga\n\nIn This Recipe\n\nView All\n\nIn This Article\n\n* Choosing the Best Ingredients\n\n* How to Assemble Your Beef Wellington\n* How to Bake and Carve Your Beef Wellington\n\nJump to recipe\n* High-heat searing of the tenderloin creates complex, savory flavors by inducing the Maillard reaction, adding depth to the beef's natural mildness.\n* Using a diverse mix of mushrooms in the duxelles enhances the flavor spectrum, leveraging each variety's unique earthy notes to enrich the dish.\n* Adding Fresh foie gras, seared and layered into the Wellington, provides a luscious basting effect that keeps the tenderloin moist and imparts a buttery richness with every bite.\n* Assembling the dish with prosciutto and phyllo dough mitigates moisture seepage, preserving the crispness of the puff pastry for an optimal flaky texture.\nThe prime rib might be the king of the holiday table, but if I had to nominate one roast for the triple threat of Dictator-For-Life, President, and First Tiger, it'd be the beef Wellington. Surely, there is no more decadent roast in the history of the post-Roman canon.\nThe origin of the dish is not exactly known, and there's not much primary research I can add to the wealth of theories that aren't already aptly covered by the Wikipedia article†en.wikipedia.org on the subject (tl;dr it might be named after the 1st Duke of Wellington, it might be a patriotic English name for a French dish, it might be named after a pair of shoes, or it may be from the land†en.wikipedia.org of Hobbits and Nelwyns†starwars.fandom.com ).\nBut we're not after pedagogical discussions of origin or etymology. We're interested in one thing, and one thing only: deliciousness.\nThere's no doubt that beef Wellington is delicious. How can it not be? The exterior is a light, crisp, buttery crust, glazed a deep, shiny golden brown, twinkling with crystals of sea salt. You slice through it to reveal layers of some of the finest ingredients in the Western world: slivers of prosciutto, a duxelles of wild mushrooms bound with cream, and finally foie gras, all encasing a core of medium-rare, buttery-soft beef tenderloin.\nAs the be-all-end-all to decadent roasts and as an absolute classic, is there really much we can do by way of improving the recipe? What exactly is there left to explore?\n\nWell not all recipes need overhauls. Sometimes, a few tweaks here and there to bring out the best in each ingredient is all it takes. Let's go through the Wellington from the outside in.\n## Choosing Your Ingredients\n### The Beef\n\nWhat can we do with the beef? After all, tenderloin is tenderloin, right? Well, that's pretty much true. Of all the cuts on the cow, the tenderloin is perhaps the one that is least affected by grading and the varying levels of marbling (intramuscular fat) that come with it.\n\nImage: Seasoning a tied beef tenderloin with salt and pepper for beef Wellington. Image: Seasoning a tied beef tenderloin with salt and pepper for beef Wellington.\n\nSerious Eats / J. Kenji López-Alt\nSee, with a rich cut like a ribeye or a flatiron steak, the flavor, juiciness, and tenderness are linked closely to its USDA grade. Prime beef will have more fat, be more tender, and (at least to most palates) be more tasty. Choice or Select meat, on the other hand, will be less juicy, tougher, and less flavorful.\nA tenderloin, on the other hand, is a very lean cut no matter which steer it comes from. A tenderloin from a Prime-graded steer will not have significantly more fat than that from a Select-graded steer, thus the variance in quality in tenderloin is not that wide. That's OK. Tenderloin is emphatically not about fat and flavor. It's about tenderness. As one of the least utilized muscles on the steer, the tenderloin, or psoas major, remains small, underdeveloped, and tender throughout the steers life.\nThis translates to a buttery tenderness on the plate.\nIt also translates to blandness. There's no two ways about it. A tenderloin is a bland cut. That's one of the reasons that beef Wellington exists—take a bland but tender cut of beef, and try and pack as much flavor and fat around it as possible.\nThe start of this process is to sear it. Browning develops tons of new flavorful compounds that don't exist naturally in beef, giving it complexity and meaty depth. Tying the tenderloin at regular intervals with twine will help it keep a nice round shape as it sears, which improves both the appearance of the final dish, as well as leading to more even cooking.\nHow else can we add flavor? Well, we'll get to the mushrooms and foie gras, but for now I'm going to employ an idea I got from Gordon Ramsay's version of Wellington: mustard.\nI'm not a fan of the famously angry chef, but when he's right, he's right, and mustard adds another dimension to the flavor of the final dish—acidity, lightness, and heat—that enhances and draws attention to its overtly rich primary flavors in a way that I find particularly appealing. I cut my mustard with a ton of horseradish to increase its bite.\n### The Duxelles\n\nLet's move on to the mushrooms. Duxelles is one of the oldest common preparations in the modern French cookbook—the original recipe goes back to the early 17th century. At its simplest, it consists of finely chopped mushrooms cooked down in butter with shallots into a thick, flavor-packed mass. It fills tarts and stuffs chickens, and in the case of a Wellington, completely surrounds the beef.\nImage: Shiitake, button, and portobello mushrooms on a cutting board next to a chef's knife. Image: Shiitake, button, and portobello mushrooms on a cutting board next to a chef's knife.\n\nSerious Eats / J. Kenji López-Alt\nAgain, at this stage, we're all about adding complexity and luxury to what is already a pretty luxuriously complex dish. How do we do it? Let's start by using a variety of mushrooms. As any mycophile or plumber from Brooklyn with a fetish for royalty†en.wikipedia.org can tell you, the variations of flavor in the mushroom kingdom are vast. Why settle for just one?\nAt a very minimum, I like to use three: button mushrooms, shiitake, and portobello. All are easily found in any supermarket, and all bring a little something to the party. If you want to get extra fancy, go ahead and use oysters, chanterelles, morels, lobster, giant powderpuff, mousseron, or whatever else strikes your fancy. If you've got it in the budget, some chopped truffles stirred into the duxelles at the very end would not be unwelcome in this dish.\nWith the exception of using a food processor to chop the 'shrooms, our duxelles starts just like the classic. Mushrooms cooked in butter until they give up their moisture, then a handful of chopped shallots and chopped thyme that get cooked until soft.\n\nImage: Adding Cognac to saute pan with minced mushrooms to make duxelles for beef Wellington. Image: Adding Cognac to saute pan with minced mushrooms to make duxelles for beef Wellington.\n\nSerious Eats / J. Kenji López-Alt\nWe're already using tenderloin, mushrooms, and foie gras, why not throw in a bit more luxury? Some booze will do nicely.\n\nI deglaze the pan with Cognac, though any high-proof, dry, barrel-aged spirit will do. Armagnac, applejack, bourbon, Scotch, even a dark rum, if that's what you'd like.\nAfter adding some heavy cream (which reduces down and binds the mushrooms into a thick paste—the better to adhere to the meat with—I add a dash of soy sauce. Soy sauce, with its high levels of glutamic acid, is a natural umami-bomb. It makes things taste meatier, more savory. It makes the mushrooms taste more like mushrooms, if you will, and the tenderloin more like an entire steer and all of its flavor compressed down into a single tenderloin-sized package.\n### The Foie Gras\n\nTraditional Beef Wellington recipes call for a pâté—often a foie gras pâté—of some sort to be smothered over the beef to add fat and flavor as it bakes. How can we improve upon this?\n\nImage: Seared foie gras draining on a paper towel before being sliced and wrapped into beef Wellington. Image: Seared foie gras draining on a paper towel before being sliced and wrapped into beef Wellington.\n\nSerious Eats / J. Kenji López-Alt\nHow about instead of using a pâté, we use real pieces of fresh seared foie gras? I sear off a few ounces of foie gras in a hot skillet, slice the slabs in half lengthwise, then layer them over the beef. As the dish bakes, the foie fat slowly renders, basting the beef in its juices so that when you slice into the finished Wellington, it oozes more juice than even a fatty prime rib roast.\n\nAnd that rendered fat in the skillet you seared the foie gras in? Don't waste it! Into the mushroom duxelles it goes.\nWith all our elements in place, it's time to move on to the assembly phase.\n## Assembling Your Beef Wellington\n\nFor all its steps and ingredients, a beef Wellington is really not a difficult dish technique-wise. There are only two real major problems that arise when you bake it. The first is keeping the puff pastry from turning soggy. What with all the fatty ingredients—the foie gras, the duxelles— there are plenty of juices that are trying to escape from within their puff pastry enclosure. These juices need to be contained to prevent the pastry from leaking.\nThe second problem is one of timing. Puff pastry takes at least half an hour to 40 minutes to properly brown and puff—more than enough time for a tenderloin to overcook.\n\nLet's start with tackling the first problem: moisture.\n### The Moisture Barrier\n\nThere are a few common solutions to the problem, but I don't find either of them to be particularly attractive. The first is to wrap the beef in shingled layers of a raw cured ham (generally prosciutto). From a flavor standpoint, this idea is top notch. The ham melds very nicely into the foie and duxelles, and it does make wrapping the beef relatively simple. Thin sliced ham is like nature's Velcro in that way.\nThe problem is that it doesn't really prevent moisture from leaking out. Indeed, as it cooks, it renders its own moisture, actually adding to the problem.\n\nThe other method is to make a thin crêpe, then using that crêpe to wrap the whole shebang. Again, the problem here is that it doesn't work all that well—the crêpe dissolves, turns soggy, and on top of that, who wants to bother making a crêpe when you're already committed to multiple hours in the kitchen?\nI suggest a much simpler, more effective, and time-saving alternative: prosciutto and a sheet of phyllo dough.\n\nImage: Laying sheets of prosciutto on top of phyllo dough on plastic wrap before adding foie gras and beef tenderloin for beef Wellington. Image: Laying sheets of prosciutto on top of phyllo dough on plastic wrap before adding foie gras and beef tenderloin for beef Wellington.\n\nSerious Eats / J. Kenji López-Alt\nIt's pretty much custom made for the job. Phyllo dough is ultra-thin (thus doesn't distract us with any unwanted flavors or textures), but quite strong, designed to wrap moist fillings without leaking. It's also available inexpensively in any supermarket.\n\nI use a single sheet of phyllo, shingle on my prosciutto, spread my duxelles over that, and we're good to go.\n### Wrapping\n\nSo long as the duxelles has cooled to a paste-like consistency, wrapping is relatively easy. The trick is to use a double layer of plastic wrap to help you out, exactly the same way you'd use a bamboo mat to make makizushi (sushi rolls) . Indeed, the process is pretty much identical. The phyllo and ham layer is the nori, the duxelles is the rice, and the beef and foie gras are the fish and vegetables. It's only the scale that's different.\nImage: Wrapping beef tenderloin in duxelles, prosciutto, and phyllo dough to make beef Wellington. Image: Wrapping beef tenderloin in duxelles, prosciutto, and phyllo dough to make beef Wellington.\n\nSerious Eats / J. Kenji López-Alt\n\nI place the beef along the lower edge of the mushroom-covered phyllo/ham, shingle the foie on top, then roll.\nOnce rolled, I re-wrap the whole thing as tightly as I possibly can in clingfilm, using several layers and twisting the ends. This step is absolutely vital, as it's what will determine the shape of the Wellington in its final form.\nThis is where we now address the second problem—not overcooking the meat while finishing off the pastry properly. To solve this problem, it's a simple as making sure that the beef is completely chilled before it gets wrapped. At this stage, the whole roll should go back into the fridge for at least half an hour, and up to a couple days, to get it thoroughly chilled.\n### The Pastry\n\nIf you want to be a true food hero, you could make your own puff pastry (you overachiever, you). But I don't find it necessary when there are some excellent frozen puff pastry brands on the market.\nPuff pastry (like pie dough) happens to be one of the foods that freezes best, losing none of its flavor or puffing ability during its stay in the freezer. The key to finding a good brand is to check the ingredients—the only fat in there should be butter, and there should be no artificial or natural flavorings of any kind. Butter provides enough flavor on its own, thanks.\n\nI use Dufour brand†dufourpastrykitchens.com puff pastry, which is pretty widely available.\nImage: Brushing puff pastry sheet with egg wash before rolling up beef tenderloin to make beef Wellington. Image: Brushing puff pastry sheet with egg wash before rolling up beef tenderloin to make beef Wellington.\n\nSerious Eats / J. Kenji López-Alt\nOnce the beef is chilled, it'll hold its shape very well, making wrapping it a snap. I roll out my puff pastry dough so that it extends a couple inches beyond either end of the beef roll, then brush it with egg wash. The key here is to make sure that the foie gras ends up on top and that the puff pastry seam ends up on bottom.\nYou can do this by laying the beef roll along the very bottom edge of the pastry with the foie on top, or by laying it in the position seen above with the foie on the bottom. Roll the pastry away from you until the seams meet, then trim off excess with a knife.\nIf you've ever wrapped a present before, you know how to seal puff pastry dough. I start by folding in the sides, then folding down the top flap before using a knife to trim off the bottom flap . After repeating on both sides, I flip the whole thing over and tuck the flaps over, pressing them down so they adhere. The whole thing gets flipped back over again, then placed in the refrigerator for its final chill before baking.\nAgain, it can be stored in the fridge at this stage for a couple of days, making beef Wellington one of the more party-friendly dishes I know.\nImage: Fully wrapped beef Wellington brushed with egg wash, scored, and sprinkled with salt. Image: Fully wrapped beef Wellington brushed with egg wash, scored, and sprinkled with salt.\n\nSerious Eats / J. Kenji López-Alt\n\nJust before it goes in the oven, I paint it with more egg wash (this will help give it a glossy sheen and deeper color), score it with a paring knife (for looks!), and sprinkle it with plenty of coarse crunchy sea salt to add some pretzel-like crunch to the pastry.\n## Baking and Carving\n\nThere's nothing worse than undercooked puff pastry—gummy and bland—to get good results, you must use a relatively high heat. This initial blast of high heat causes the moisture in the layers of butter within the pastry to suddenly expand, forcing the layers of pastry apart, and giving it its light, flaky texture.\nYou may think that what with our overcooked beef problem, high heat is not the way to go, but in fact, using higher heat will help cook the meat slower than a more moderate heat. How so?\nVapor makes a great insulator. That's why wooden houses have spaces within their walls, or how a Thermos manages to conserve its temperature so well. By causing the puff pastry to quickly expand, you introduce plenty of air space within its structure, which will in turn give it better insulative properties, allowing the beef within to cook more gently.\nAt 425°F (218°C), a chilled tenderloin will take between 30 and 40 minutes to reach an internal temperature of 110 to 120°F (43 to 49°C) for rare to medium-rare, and you are using a thermometer , aren't you? This is precisely how long you need to properly brown your puff pastry. Serendipity? I think not. Try careful planning and sound science!\n\nImage: Slicing perfectly cooked beef Wellington on a wooden cutting board. Image: Slicing perfectly cooked beef Wellington on a wooden cutting board.\nSerious Eats / J. Kenji López-Alt\n\nAs with any roast, you should let it rest a bit after coming out of the oven in order to help it retain its juices better when you slice it. And believe me, there will be juices. Precious juices.\nComplex, beefy, buttery, oozing with juices, and packed with flavor, it's hard to get more decadent than this, my friends. But after all, isn't overindulgence, decadence, and a desire to shove everything you see into your gut before New Year's resolutions roll around the whole point of the holidays?\n\nWell, that and family and friends. Don't forget about them.\n### December 2012\n\nPrep Time:\n\n40 mins\n\nCook Time:\n\n1 hr 30 mins\n\nChilling Time:\n\n1 hr 30 mins\n\nTotal Time:\n\n3 hrs 40 mins\n\nServings:\n\n6 to 8 servings\n\nYield:\n\nServes 6 to 8\n\n[Button: Jump to Nutrition Facts]\n\nKeep Screen Awake\n## Ingredients\n\n* 1 center-cut beef tenderloin, trimmed of silverskin and fat, about 2 pounds (see note)\n\n* Kosher salt and freshly ground black pepper\n\n* 2 tablespoons plus 1/2 teaspoon vegetable or canola oil, divided\n\n* 2 tablespoons prepared horseradish\n\n* 1 tablespoon Dijon, spicy brown, or hot English mustard\n\n* 1 pound mushrooms (button, cremini, shiitake, portabello, or a mix) cleaned, trimmed, and roughly chopped\n\n* 4 tablespoons unsalted butter\n* 2 medium shallots, finely diced (about 1/2 cup)\n\n* 2 teaspoons finely minced fresh thyme leaves\n\n* 1/2 cup Cognac or other brandy or barrel-aged spirit, such as bourbon\n\n* 1/2 cup heavy cream\n\n* 2 teaspoons soy sauce\n\n* 4 ounces fresh foie gras (about 2 1/2-inch slabs, see note)\n\n* 1 sheet phyllo dough\n\n* 1/4 pound prosciutto, sliced paper thin\n\n* Flour, for dusting\n\n* 14 ounces frozen or homemade puff pastry, thawed (see note)\n\n* 1 egg, beaten\n* Coarse sea salt, such as Maldon or fleur de sel\n\n* 1 bunch finely minced chives\n## Directions\n\n1. Using butcher's twine, tie tenderloin at 1-inch intervals. Trim ends of twine. Season liberally with salt and pepper.\n\nImage: Trimmed beef tenderloin, wrapped in twine on a wooden cutting board. Image: Trimmed beef tenderloin, wrapped in twine on a wooden cutting board.\n\nSerious Eats / Diana Chistruga\n2. Heat 2 tablespoons oil in a cast iron or stainless steel skillet over high heat until smoking. Add tenderloin and cook without moving until well-browned on first side, about 2 minutes. Rotate tenderloin and continue cooking until browned on all sides, about 10 minutes total. Transfer to a large plate.\n\nImage: Beef tenderloin being browned in a cast iron skillet. Image: Beef tenderloin being browned in a cast iron skillet.\n\nSerious Eats / Diana Chistruga\n3. Combine horseradish, mustard, and 1 teaspoon black pepper in a small bowl. When tenderloin is cool enough to handle, cut off and discard twine, then rub on all surfaces with horseradish/mustard mixture. Place in refrigerator, uncovered.\n\nImage: Seared beef tenderloin on a wooden cutting board being smeared with horseradish, mustard, and black pepper mixture. Image: Seared beef tenderloin on a wooden cutting board being smeared with horseradish, mustard, and black pepper mixture.\nSerious Eats / Diana Chistruga\n\n4. Place half the mushrooms in the bowl of a food processor and pulse until very finely chopped, scraping down sides and redistributing mushrooms with spatula as necessary, about 10 short pulses. Transfer to a bowl. Repeat with remaining mushrooms.\n\nImage: Finely chopped mushrooms in a glass bowl. Image: Finely chopped mushrooms in a glass bowl.\n\nSerious Eats / Diana Chistruga\n5. Heat butter in a 12-inch skillet over medium-high heat until melted. Add mushrooms and cook, stirring occasionally, until mushrooms have exuded all their liquid and start to sizzle, about 8 minutes. Continue cooking until mushrooms begin to brown and leave browned bits stuck to bottom of pan, about 4 minutes longer. Add shallots and thyme and cook, stirring frequently, until softened, about 2 minutes.\nImage: A collage showing the finely chopped mushrooms being sautÃ©ed with butter, shallots, and herbs. Image: A collage showing the finely chopped mushrooms being sautÃ©ed with butter, shallots, and herbs.\n\nSerious Eats / Diana Chistruga\n6. Add brandy. Scrape bottom of skillet with a silicone spatula or wooden spoon to release browned bits. Continue to cook until brandy is nearly dry, about 4 minutes. Add heavy cream and soy sauce and continue to cook, stirring frequently until mixture is thick and collects in one large mass when you shake the skillet. Season to taste with salt and pepper. Transfer to a bowl and place in the refrigerator.\nImage: A collage showing the sautÃ©ed mushrooms being further cooked with brandy, heavy cream, and soy sauce. Image: A collage showing the sautÃ©ed mushrooms being further cooked with brandy, heavy cream, and soy sauce.\n\nSerious Eats / Diana Chistruga\n7. Season foie gras liberally with salt and pepper. Heat remaining half teaspoon oil in a small cast iron or stainless steel skillet over high heat until smoking. Add foie gras and cook without moving until well browned on first side, about 30 seconds. Carefully flip with a small offset spatula and brown second side, about 30 seconds longer. Transfer foie gras to a paper towel-lined plate. Pour rendered fat into mushroom mixture, stir to combine, and return to refrigerator.\nUse a sharp knife to split each piece of cooked foie gras in half horizontally. Transfer to a plate and place in refrigerator. Allow all ingredients to chill for at least 30 minutes.\nImage: A collage showing the foie gras being seared and the fat being poured off and then mixed with the mushrooms. Image: A collage showing the foie gras being seared and the fat being poured off and then mixed with the mushrooms.\n\nSerious Eats / Diana Chistruga\n8. Lay a double layer of plastic wrap about 2 feet long and 1 foot wide on a cutting board. Lay phyllo dough on top of plastic wrap. Shingle prosciutto on top of phyllo to create a thin, even, overlapping layer, leaving a 2-inch border along the bottom and top of the phyllo dough. Spread mushroom mixture evenly over ham layer.\nImage: A collage showing the parchment paper being placed on plastic wrap and then shingled with slices prosciutto, which is then spread with the mushroom duxelles. Image: A collage showing the parchment paper being placed on plastic wrap and then shingled with slices prosciutto, which is then spread with the mushroom duxelles.\n\nSerious Eats / Diana Chistruga\n9. Place tenderloin along the very bottom edge of the ham/mushroom layer. Place sliced foie gras evenly over top of tenderloin (see note). Carefully roll tenderloin in mushroom, ham, and phyllo, using the plastic wrap to help tighten it as you roll. Once beef is completely rolled up, re-wrap with more plastic wrap, twisting the ends to make sure roll is very tight. Return to refrigerator for at least 30 minutes.\nImage: A collage showing the mustard-rubbed tenderloin being layered with seared foie gras, being placed on the duxelles-spread prosciutto, and being rolled into a log. Image: A collage showing the mustard-rubbed tenderloin being layered with seared foie gras, being placed on the duxelles-spread prosciutto, and being rolled into a log.\n\nSerious Eats / Diana Chistruga\n10. Dust board or countertop lightly with flour. Spread puff pastry on board and, using a rolling pin, roll it into a rectangle at least 4 inches wider than the beef roll on its shorter side.\n\nImage: Puff pastry rolled out on a wooden cutting board. Image: Puff pastry rolled out on a wooden cutting board.\n\nSerious Eats / Diana Chistruga\n11. Unwrap beef roll and place along very bottom edge of puff pastry with the foie gras side facing up. Brush 6 inches of puff pastry just above beef roll with beaten egg. Carefully roll the beef in the puff pastry until it is completely wrapped. You should end up with the foie gras-side facing up again, with the puff pastry seam meeting on the bottom. Trim pastry with a sharp knife.\nImage: A collage showing the chilled beef being rolled in puff pastry, which is then trimmed with a knife. Image: A collage showing the chilled beef being rolled in puff pastry, which is then trimmed with a knife.\n\nSerious Eats / Diana Chistruga\n\n12. Fold sides of puff pastry protruding from either end of the beef roll towards the center, then fold the top flaps down. Trim off the bottom flaps carefully.\nImage: A collage showing the excess puff pastry at the end of the beef wellington being trimmed. Image: A collage showing the excess puff pastry at the end of the beef wellington being trimmed.\n\nSerious Eats / Diana Chistruga\n\n13. Roll entire beef roll over so that the bottom is facing up, then fold up the end flaps to seal completely. Roll beef back right-side up. Transfer to a plate and chill for at least 30 minutes.\nImage: The ends of the puff pastry being flattened against the seam on the beef wellington. Image: The ends of the puff pastry being flattened against the seam on the beef wellington.\n\nSerious Eats / Diana Chistruga\n14. Adjust oven rack to center position and preheat oven to 425°F (218°C). Transfer Wellington to a foil-lined baking sheet and brush all over with beaten egg. Use a sharp paring knife to score a decorative pattern in the pastry. Sprinkle liberally with coarse sea salt. Bake until pastry is golden brown and center of roast registers 110°F (43°C) for rare or 120°F (49°C) for medium-rare on an instant-read thermometer, 35 to 45 minutes. Remove from oven and allow to rest for ten minutes.\nImage: A collage showing the pastry-wrapped beef wellington being washed with egg, sprinkled with salt, and then how it looks after baking and resting. Image: A collage showing the pastry-wrapped beef wellington being washed with egg, sprinkled with salt, and then how it looks after baking and resting.\n\nSerious Eats / Diana Chistruga\n15. Use a thin metal spatula to loosen Wellington from foil, then carefully transfer to a carving board. Slice off the ends with a sharp knife. Carve Wellington, sprinkle cut surfaces with chives and more coarse salt, and serve.\n\nImage: A white oval ceramic plate holding five slices of Beef Wellington which are sprinkled with chopped chives. Image: A white oval ceramic plate holding five slices of Beef Wellington which are sprinkled with chopped chives.\n\nSerious Eats / Diana Chistruga\n## Special Equipment\n\nButcher's twine, instant-read thermometer , rimmed baking sheet , serrated knife\n## Notes\n\nA center-cut beef tenderloin is also known as a Châteubriand. For best results, use a high-quality all-butter puff pastry, such as Dufour. Alternatively, make your own using this recipe . Foie gras pâté can be used in place of the fresh foie gras. If using pâté, skip step 7. In step 9, spread foie gras pâté on top of tenderloin in place of sliced fresh foie gras.\n\nSave\n\nRate\n\nPrint [Input]\n## Nutrition Facts (per serving)\n\n1029  | Calories\n75g  | Fat\n48g  | Carbs\n34g  | Protein\n\nShow Full Nutrition Label Hide Full Nutrition Label\n\nNutrition Facts\n---\nServings Per Recipe 6 to 8\n---\nCalories 1029\n---\n% Daily Value *\nTotal Carbohydrate 48g  | 17%\nDietary Fiber 3g  | 12%\nTotal Sugars 4g\nProtein 34g  | 68%\nTotal Fat 75g  | 96%\nSaturated Fat 26g  | 129%\nCholesterol 166mg  | 55%\nVitamin C 7mg  | 8%\nSodium 1182mg  | 51%\nCalcium 59mg  | 5%\nIron 7mg  | 38%\nPotassium 800mg  | 17%\n* Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs.\n\nLoading shell for RecipesUgcThreaded1 Vue component in Globe.\n## Related Articles\nGordon Ramsay's Last Supper, Roast Beef and Yorkshire Pudding Recipe | Cook the Book 1 hr 50 mins Tri-Tip Beef Roast With Shallot Jus Recipe 9 hrs 30 mins Red Wine-Marinated, Roasted Beef Tenderloin With Herb-Horseradish Cream 5 hrs Slow-Roasted Beef Tenderloin 14 hrs 35 mins Perfect Prime Rib With Red Wine Jus Recipe 5 hrs 45 mins Garlic- and Herb-Roasted Pork Loin With Crackling and Spiced Apple Chutney 14 hrs 20 mins Roasted and Reverse Seared Prime Rib 5 hrs 20 mins Classic, Savory Shepherd's Pie (With Beef and/or Lamb) 2 hrs 25 mins\nSheet-Pan Skirt Steak Fajitas Recipe 3 hrs 40 mins All-Belly Porchetta 1 day 4 hrs 55 mins Lomo al Trapo (Colombian-Style Cloth-Wrapped Grilled Beef Tenderloin) 1 hr 15 mins Osso Buco (Italian Braised Veal Shanks) Recipe 3 hrs 45 mins Roast Beef Hash 1 hr 30 mins Chicken and Leek Pie Recipe 2 hrs 55 mins Rich and Flavorful Guinness Beef Stew With Potatoes 2 hrs 40 mins The Ultimate Beef Stroganoff Recipe 55 mins\n\nNewsletter Sign Up\n\nNewsletter Sign Up",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 0,
+        "mappedStepImages": 0,
+        "stepImageCoverage": 0,
+        "ingredientCount": 20,
+        "executableStepCount": 15,
+        "notes": [
+          "Page images and step adjacencies visible in web.open; original binary URLs not returned by failed web.click. No verified downloadable media available, no invented image mappings.",
+          "Source quantities with mixed units retained verbatim; no vessel capacity inferred."
+        ]
+      }
+    }
+  ],
+  "sourceMode": "multi_source",
+  "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/beef-wellington",
+  "selectionReason": "Selected exactly one whole BBC recipe: full coherent ingredients/method match the target; verified usable hero (no source step photos available). Other sources have no verified usable media URLs under ordinary access. Under the required completeness/coherence then usable-image/coverage ranking, this source leads; its ingredients, operations, tips and media are kept together without supplementation.",
+  "ragEvidence": [
+    {
+      "chunkId": "f01b67d8-49e4-4670-8193-84bf8e6a34cf",
+      "documentId": "3131ae41-b095-414d-9e1d-4f7a23a1529a",
+      "sourceName": "BBC Good Food",
+      "chunkType": "summary",
+      "content": "菜名：惠灵顿牛排\n别名：Beef wellington\n菜系：British\n简介：Gordon Ramsay's version of the classic steak dish – a showstopping centrepiece on a special occasion",
+      "similarity": 0.671852668744644
+    },
+    {
+      "chunkId": "6ab98c2f-bbf1-4d4c-983e-46888daecdba",
+      "documentId": "3131ae41-b095-414d-9e1d-4f7a23a1529a",
+      "sourceName": "BBC Good Food",
+      "chunkType": "steps",
+      "content": "菜名：惠灵顿牛排\n18. Chill for at least 30 mins and up to 24 hrs. Heat oven to 200C/fan 180C/gas 6.\n19. Brush the Wellington with a little more egg yolk and cook until golden and crisp – 20-25 mins for medium-rare beef, 30 mins for medium. Allow to stand for 10 mins before serving in thick slices.",
+      "similarity": 0.651753345236383
+    },
+    {
+      "chunkId": "834513d6-9074-4dd3-a058-5439b87c6dcf",
+      "documentId": "3131ae41-b095-414d-9e1d-4f7a23a1529a",
+      "sourceName": "BBC Good Food",
+      "chunkType": "tips",
+      "content": "菜名：惠灵顿牛排\n- 原文未提供额外提示。",
+      "similarity": 0.648980456469113
+    },
+    {
+      "chunkId": "ef211ac5-d178-4af5-9750-440f2099d0f7",
+      "documentId": "3131ae41-b095-414d-9e1d-4f7a23a1529a",
+      "sourceName": "BBC Good Food",
+      "chunkType": "technique",
+      "content": "菜名：惠灵顿牛排\n- 原文未明确说明技法。",
+      "similarity": 0.646733122674599
+    },
+    {
+      "chunkId": "d7b15880-c217-466c-9dfe-4038b2366859",
+      "documentId": "3131ae41-b095-414d-9e1d-4f7a23a1529a",
+      "sourceName": "BBC Good Food",
+      "chunkType": "ingredients",
+      "content": "菜名：惠灵顿牛排\n- a good beef fillet (preferably Aberdeen Angus) of around 1kg/2lb 4oz\n- 3 tbsp olive oil\n- 250g/9oz chestnut mushroom include some wild ones if you like\n- 50g/2oz butter\n- 1 large sprig fresh thyme\n- 100ml/3.5 fl oz dry white wine\n- 12 slices prosciutto\n- 500g/1lb 2oz pack puff pastry thawed if frozen\n- a little flour for dusting\n- 2 egg yolks beaten with 1 tsp water\n- pepper for beef (step2; amount unspecified)\n- Season mushroom mixture (step5; seasoning type and quantity unspecified)\n- 1 tsp water with egg yolks (step14)",
+      "similarity": 0.645712452615792
+    },
+    {
+      "chunkId": "72382ec5-d618-4649-ad44-c4caa8825d57",
+      "documentId": "3131ae41-b095-414d-9e1d-4f7a23a1529a",
+      "sourceName": "BBC Good Food",
+      "chunkType": "steps",
+      "content": "菜名：惠灵顿牛排\n1. Heat oven to 220C/fan 200C/gas 7.\n2. Sit the 1kg beef fillet on a roasting tray, brush with 1 tbsp olive oil and season with pepper, then roast for 15 mins for medium-rare or 20 mins for medium. When the beef is cooked to your liking, remove from the oven to cool, then chill in the fridge for about 20 mins.\n3. While the beef is cooling, chop 250g chestnut (and wild, if you like) mushrooms as finely as possible so they have the texture of coarse breadcrumbs. You can use a food processor to do this, but make sure you pulse-chop the mushrooms so they don’t become a slurry.\n4. Heat 2 tbsp of the olive oil and 50g butter in a large pan and fry the mushrooms on a medium heat, with 1 large sprig fresh thyme, for about 10 mins stirring often, until you have a softened mixture.\n5. Season the mushroom mixture, pour over 100ml dry white wine and cook for about 10 mins until all the wine has been absorbed. The mixture should hold its shape when stirred.\n6. Remove the mushroom duxelle from the pan to cool and discard the thyme.\n7. Overlap two pieces of cling film over a large chopping board. Lay 12 slices prosciutto on the cling film, slightly overlapping, in a double row.",
+      "similarity": 0.626240648403207
+    },
+    {
+      "chunkId": "fceeec53-c3a4-46b0-9161-73da4a5a9a65",
+      "documentId": "3131ae41-b095-414d-9e1d-4f7a23a1529a",
+      "sourceName": "BBC Good Food",
+      "chunkType": "steps",
+      "content": "菜名：惠灵顿牛排\n8. Spread half the duxelles over the prosciutto, then sit the fillet on it and spread the remaining duxelles over.\n9. Use the cling film’s edges to draw the prosciutto around the fillet, then roll it into a sausage shape, twisting the ends of cling film to tighten it as you go.\n10. Chill the fillet while you roll out the pastry.\n11. Dust your work surface with a little flour. Roll out a third of the 500g pack of puff pastry to a 18 x 30cm strip and place on a non-stick baking sheet.\n12. Roll out the remainder of the 500g pack of puff pastry to about 28 x 36cm.\n13. Unravel the fillet from the cling film and sit it in the centre of the smaller strip of pastry.\n14. Beat the 2 egg yolks with 1 tsp water and brush the pastry’s edges, and the top and sides of the wrapped fillet.\n15. Using a rolling pin, carefully lift and drape the larger piece of pastry over the fillet, pressing well into the sides.\n16. Trim the joins to about a 4cm rim. Seal the rim with the edge of a fork or spoon handle.\n17. Glaze all over with more egg yolk and, using the back of a knife, mark the beef Wellington with long diagonal lines taking care not to cut into the pastry.",
+      "similarity": 0.58612738599671
+    },
+    {
+      "chunkId": "62ffba28-5cd5-4fde-85d8-1cb7bbc7acfc",
+      "documentId": "e5f01590-1ad2-46c5-a2b2-f9ee07211b7e",
+      "sourceName": "Serious Eats",
+      "chunkType": "summary",
+      "content": "菜名：惠灵顿牛排\n别名：The Ultimate Beef Wellington Recipe\n简介：The Ultimate Beef Wellington Recipe",
+      "similarity": 0.674778382466936
+    },
+    {
+      "chunkId": "2df5646f-1f75-4ebc-998e-7e8de0883871",
+      "documentId": "e5f01590-1ad2-46c5-a2b2-f9ee07211b7e",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：惠灵顿牛排\n13. Roll entire beef roll over so that the bottom is facing up, then fold up the end flaps to seal completely. Roll beef back right-side up. Transfer to a plate and chill for at least 30 minutes.\n14. Adjust oven rack to center position and preheat oven to 425°F (218°C). Transfer Wellington to a foil-lined baking sheet and brush all over with beaten egg. Use a sharp paring knife to score a decorative pattern in the pastry. Sprinkle liberally with coarse sea salt. Bake until pastry is golden brown and center of roast registers 110°F (43°C) for rare or 120°F (49°C) for medium-rare on an instant-read thermometer, 35 to 45 minutes. Remove from oven and allow to rest for ten minutes.\n15. Use a thin metal spatula to loosen Wellington from foil, then carefully transfer to a carving board. Slice off the ends with a sharp knife. Carve Wellington, sprinkle cut surfaces with chives and more coarse salt, and serve.",
+      "similarity": 0.672422289848332
+    },
+    {
+      "chunkId": "f8e8d623-34af-4656-a839-f0848a3c2312",
+      "documentId": "e5f01590-1ad2-46c5-a2b2-f9ee07211b7e",
+      "sourceName": "Serious Eats",
+      "chunkType": "ingredients",
+      "content": "菜名：惠灵顿牛排\n- 1 center-cut beef tenderloin, trimmed of silverskin and fat, about 2 pounds (see note)\n- Kosher salt and freshly ground black pepper\n- 2 tablespoons plus 1/2 teaspoon vegetable or canola oil, divided\n- 2 tablespoons prepared horseradish\n- 1 tablespoon Dijon, spicy brown, or hot English mustard\n- 1 pound mushrooms (button, cremini, shiitake, portabello, or a mix) cleaned, trimmed, and roughly chopped\n- 4 tablespoons unsalted butter\n- 2 medium shallots, finely diced (about 1/2 cup)\n- 2 teaspoons finely minced fresh thyme leaves\n- 1/2 cup Cognac or other brandy or barrel-aged spirit, such as bourbon\n- 1/2 cup heavy cream\n- 2 teaspoons soy sauce\n- 4 ounces fresh foie gras (about 2 1/2-inch slabs, see note)\n- 1 sheet phyllo dough\n- 1/4 pound prosciutto, sliced paper thin\n- Flour, for dusting\n- 14 ounces frozen or homemade puff pastry, thawed (see note)\n- 1 egg, beaten\n- Coarse sea salt, such as Maldon or fleur de sel\n- 1 bunch finely minced chives",
+      "similarity": 0.651727834446898
+    },
+    {
+      "chunkId": "4950c446-18d1-4e31-b3ae-53e313215c27",
+      "documentId": "e5f01590-1ad2-46c5-a2b2-f9ee07211b7e",
+      "sourceName": "Serious Eats",
+      "chunkType": "technique",
+      "content": "菜名：惠灵顿牛排\n- 原文未明确说明技法。",
+      "similarity": 0.646469591242337
+    },
+    {
+      "chunkId": "e95c40f9-6488-4217-bf87-cc8d90dbc2be",
+      "documentId": "e5f01590-1ad2-46c5-a2b2-f9ee07211b7e",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：惠灵顿牛排\n5. Heat butter in a 12-inch skillet over medium-high heat until melted. Add mushrooms and cook, stirring occasionally, until mushrooms have exuded all their liquid and start to sizzle, about 8 minutes. Continue cooking until mushrooms begin to brown and leave browned bits stuck to bottom of pan, about 4 minutes longer. Add shallots and thyme and cook, stirring frequently, until softened, about 2 minutes.\n6. Add brandy. Scrape bottom of skillet with a silicone spatula or wooden spoon to release browned bits. Continue to cook until brandy is nearly dry, about 4 minutes. Add heavy cream and soy sauce and continue to cook, stirring frequently until mixture is thick and collects in one large mass when you shake the skillet. Season to taste with salt and pepper. Transfer to a bowl and place in the refrigerator.",
+      "similarity": 0.642283639771732
+    },
+    {
+      "chunkId": "b9bc1484-550b-48c9-9042-5597a4d7bf3d",
+      "documentId": "e5f01590-1ad2-46c5-a2b2-f9ee07211b7e",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：惠灵顿牛排\n1. Using butcher's twine, tie tenderloin at 1-inch intervals. Trim ends of twine. Season liberally with salt and pepper.\n2. Heat 2 tablespoons oil in a cast iron or stainless steel skillet over high heat until smoking. Add tenderloin and cook without moving until well-browned on first side, about 2 minutes. Rotate tenderloin and continue cooking until browned on all sides, about 10 minutes total. Transfer to a large plate.\n3. Combine horseradish, mustard, and 1 teaspoon black pepper in a small bowl. When tenderloin is cool enough to handle, cut off and discard twine, then rub on all surfaces with horseradish/mustard mixture. Place in refrigerator, uncovered.\n4. Place half the mushrooms in the bowl of a food processor and pulse until very finely chopped, scraping down sides and redistributing mushrooms with spatula as necessary, about 10 short pulses. Transfer to a bowl. Repeat with remaining mushrooms.",
+      "similarity": 0.637083790476106
+    },
+    {
+      "chunkId": "f21af8c1-1a90-44d5-81b4-5f47ae0435e2",
+      "documentId": "e5f01590-1ad2-46c5-a2b2-f9ee07211b7e",
+      "sourceName": "Serious Eats",
+      "chunkType": "tips",
+      "content": "菜名：惠灵顿牛排\n- A center-cut beef tenderloin is also known as a Châteubriand. For best results, use a high-quality all-butter puff pastry, such as Dufour. Alternatively, make your own using this recipe . Foie gras pâté can be used in place of the fresh foie gras. If using pâté, skip step 7. In step 9, spread foie gras pâté on top of tenderloin in place of sliced fresh foie gras.\n- Save\n- Rate\n- Print [Input]",
+      "similarity": 0.634715519266406
+    },
+    {
+      "chunkId": "10046fa3-befa-472c-b78d-66d5cd2d2efa",
+      "documentId": "e5f01590-1ad2-46c5-a2b2-f9ee07211b7e",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：惠灵顿牛排\n9. Place tenderloin along the very bottom edge of the ham/mushroom layer. Place sliced foie gras evenly over top of tenderloin (see note). Carefully roll tenderloin in mushroom, ham, and phyllo, using the plastic wrap to help tighten it as you roll. Once beef is completely rolled up, re-wrap with more plastic wrap, twisting the ends to make sure roll is very tight. Return to refrigerator for at least 30 minutes.\n10. Dust board or countertop lightly with flour. Spread puff pastry on board and, using a rolling pin, roll it into a rectangle at least 4 inches wider than the beef roll on its shorter side.\n11. Unwrap beef roll and place along very bottom edge of puff pastry with the foie gras side facing up. Brush 6 inches of puff pastry just above beef roll with beaten egg. Carefully roll the beef in the puff pastry until it is completely wrapped. You should end up with the foie gras-side facing up again, with the puff pastry seam meeting on the bottom. Trim pastry with a sharp knife.\n12. Fold sides of puff pastry protruding from either end of the beef roll towards the center, then fold the top flaps down. Trim off the bottom flaps carefully.",
+      "similarity": 0.597889459007351
+    },
+    {
+      "chunkId": "b1bfd4da-b842-449e-afde-c824e174900f",
+      "documentId": "e5f01590-1ad2-46c5-a2b2-f9ee07211b7e",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：惠灵顿牛排\n7. Season foie gras liberally with salt and pepper. Heat remaining half teaspoon oil in a small cast iron or stainless steel skillet over high heat until smoking. Add foie gras and cook without moving until well browned on first side, about 30 seconds. Carefully flip with a small offset spatula and brown second side, about 30 seconds longer. Transfer foie gras to a paper towel-lined plate. Pour rendered fat into mushroom mixture, stir to combine, and return to refrigerator. Use a sharp knife to split each piece of cooked foie gras in half horizontally. Transfer to a plate and place in refrigerator. Allow all ingredients to chill for at least 30 minutes.\n8. Lay a double layer of plastic wrap about 2 feet long and 1 foot wide on a cutting board. Lay phyllo dough on top of plastic wrap. Shingle prosciutto on top of phyllo to create a thin, even, overlapping layer, leaving a 2-inch border along the bottom and top of the phyllo dough. Spread mushroom mixture evenly over ham layer.",
+      "similarity": 0.583989083766941
+    }
+  ],
+  "notes": [
+    "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented.",
+    "Initial beef roast220C/fan200C/gas7 and final pastry200C/fan180C/gas6 are different stages; preserve both.",
+    "BBC source original yield: 6",
+    "BBC original totalTime: PT2H30M",
+    "BBC original cookTime: unspecified",
+    "BBC original prepTime: unspecified",
+    "Alternative attempts: [{\"url\":\"https://www.bbcgoodfood.com/recipes/beef-wellington\",\"status\":200,\"bytes\":604080}]",
+    "Current book inventory and22target audit: west-kb-audit.json. Invalid/superseded/rejected history excluded.",
+    "Serious Eats direct Python460/normalPowerShell402/normalChrome402; normalweb.open successfully retrieved the complete recipes included here. All successful complete matching sources ingested separately before selection; no access-control bypass.",
+    "Alternative enabled-site searches and complete observed source text are archived in west-alternative-search.json and west-se-*.txt.",
+    "Selected source has no verified cooking-stage photos; do not fabricate or relabel a finished-dish photo. Parent must resolve manual-run image exception before publishing."
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "recipeId": "cn-020",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-18.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-020-woks/hero.jpg",
+      "sha256": "5b2c559d3b0d9de95e26cdc2971c44c68b265a8a37b76bed84d6acd058691321",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 75074
+    },
+    {
+      "role": "step",
+      "stepOrder": 1,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-2.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-020-woks/step-1-1.jpg",
+      "sha256": "1b8e29e155145a262f0d6cfda82512042dbe9b5e65e0e2c268cda9eebd5a3d03",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 26852
+    },
+    {
+      "role": "step",
+      "stepOrder": 1,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-020-woks/step-1-2.jpg",
+      "sha256": "ce1f336fa1705603a156d6a87826fadb3bc130ef22b73a1a73590cdd9722f640",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 28212
+    },
+    {
+      "role": "step",
+      "stepOrder": 2,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-3.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-020-woks/step-2-3.jpg",
+      "sha256": "305c9f32746a338e289ba7460538a44e3f46b054ea2228ad249e8d7a9c8dbd0c",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 26884
+    },
+    {
+      "role": "step",
+      "stepOrder": 3,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-7.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-020-woks/step-3-4.jpg",
+      "sha256": "5e4d66df34f457b2a694865dc2b1dc82df368cb0dee04e1cb3fde70689467713",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 23188
+    },
+    {
+      "role": "step",
+      "stepOrder": 3,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-8.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-020-woks/step-3-5.jpg",
+      "sha256": "7b0cc1e6d604ac2bb6b7200f53c233adac31a7dfcf4e470eb8746c467c8ba048",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 49244
+    },
+    {
+      "role": "step",
+      "stepOrder": 3,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-9.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-020-woks/step-3-6.jpg",
+      "sha256": "23ea4445f1cd93d77a14d1ffa07a2ca7d5ace0f80d97030e7aa164ffe8315a40",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 18842
+    },
+    {
+      "role": "step",
+      "stepOrder": 5,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-10.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-020-woks/step-5-7.jpg",
+      "sha256": "da4a664c9809c9345a16a59bd522227822197949d6e22207c197562226d3deb7",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 34742
+    },
+    {
+      "role": "step",
+      "stepOrder": 6,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-11.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-020-woks/step-6-8.jpg",
+      "sha256": "2d827907f25b215185ce5f468319f34e2afcc11bea60f00d72b21fffabb5f615",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 25400
+    },
+    {
+      "role": "step",
+      "stepOrder": 6,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-12.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-020-woks/step-6-9.jpg",
+      "sha256": "cbf6a9c6796a6de9b05a68b8107442a12cf88225551dd8943071fd18d22430c4",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 53952
+    },
+    {
+      "role": "step",
+      "stepOrder": 6,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-13.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-020-woks/step-6-10.jpg",
+      "sha256": "c3e98462bce9a1aba8bb549535042acb48ff14738762a1da83c9ea4aacaf166a",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 34564
+    },
+    {
+      "role": "step",
+      "stepOrder": 8,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-14.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-020-woks/step-8-11.jpg",
+      "sha256": "28a31e32ded15baa3648ad0a813a2f42af5b165cc8d9c424d820a6aaf051d601",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 19458
+    },
+    {
+      "role": "step",
+      "stepOrder": 9,
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/white-cut-chicken-19.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-020-woks/step-9-12.jpg",
+      "sha256": "6886338b4efb2c5f1ee89b69b8f0764803ab35df2368af6064be5ef2b7ea888b",
+      "httpStatus": 200,
+      "contentType": "image/webp",
+      "bytes": 70214
+    }
+  ]
+}

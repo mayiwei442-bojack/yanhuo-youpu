@@ -1,0 +1,16 @@
+{
+  "recipeId": "west-018",
+  "authorization": "user_confirmed_2026-09-16",
+  "sourceUrl": "https://www.bbcgoodfood.com/recipes/ratatouille",
+  "recipePageUrl": "https://www.bbcgoodfood.com/recipes/ratatouille",
+  "referer": "https://www.bbcgoodfood.com/recipes/ratatouille",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2019/05/Ratatouille-ea27a5c.jpg?resize=440,400",
+      "repositoryPath": "assets/dishes/sources/west-018-bbc-good-food/hero.jpg",
+      "httpStatus": 200,
+      "contentType": "image/jpeg"
+    }
+  ]
+}

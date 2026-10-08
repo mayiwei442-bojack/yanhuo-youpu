@@ -1,0 +1,207 @@
+{
+  "recipeId": "cn-039",
+  "sourceUrl": "https://thewoksoflife.com/hainanese-chicken-rice/",
+  "referer": "https://thewoksoflife.com/hainanese-chicken-rice/",
+  "authorization": "user_confirmed_2026-09-16",
+  "items": [
+    {
+      "role": "hero",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/hainan-chicken-rice-7.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/hero.jpg",
+      "adjacentText": "海南鸡饭成品",
+      "pageOrder": 0
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-3.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-1-1.jpg",
+      "adjacentText": "Wash the chicken clean and remember to set aside the piece of chicken fat from the cavity. Transfer the chicken to a plate and pat dry with a paper towel. Lightly rub the chicken with the salt. This will give the chicken skin a nice sheen. Set it aside.",
+      "pageOrder": 1,
+      "stepOrder": 1
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-4.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-2-2.jpg",
+      "adjacentText": "Bring the water, along with the ginger and scallions, to a boil in a large stockpot. Carefully lower the chicken into the boiling water, positioning the chicken breast-side up. Now is a good time to adjust the water level so the chicken breast just pokes above the water (so you aren’t left with dry white meat).",
+      "pageOrder": 2,
+      "stepOrder": 2
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-5.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-2-3.jpg",
+      "adjacentText": "Bring the water, along with the ginger and scallions, to a boil in a large stockpot. Carefully lower the chicken into the boiling water, positioning the chicken breast-side up. Now is a good time to adjust the water level so the chicken breast just pokes above the water (so you aren’t left with dry white meat).",
+      "pageOrder": 3,
+      "stepOrder": 2
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-6.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-3-4.jpg",
+      "adjacentText": "Wait for the water to come back up to a boil. Once it does, carefully lift the chicken out of the water to pour out the colder water that is trapped in the cavity. Carefully lower the chicken back into the pot. Bring the water to a boil again. When it is JUST starting to boil again, turn the heat down. Keep it at barely a simmer. There should be very little movement in the water, but it also shouldn’t be still.\nCover the pot, and keep the heat around the lowest setting so the liquid continues to simmer slowly.",
+      "pageOrder": 4,
+      "stepOrder": 3
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-14.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-5-5.jpg",
+      "adjacentText": "When the timer (for the chicken) is almost up, prepare a large ice bath. To check if the chicken is done, stick a toothpick into the thickest part of the thigh until it touches the bone; if the juices run clear, it’s cooked through. Carefully lift the chicken out of the pot, drain the water from the cavity and lower it into the ice bath. Take care not to break the skin.\nAfter 15 minutes in the ice bath, the chicken should be cooled completely, drain and cover with clear plastic until ready to cut and serve.",
+      "pageOrder": 5,
+      "stepOrder": 5
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-21.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-5-6.jpg",
+      "adjacentText": "When the timer (for the chicken) is almost up, prepare a large ice bath. To check if the chicken is done, stick a toothpick into the thickest part of the thigh until it touches the bone; if the juices run clear, it’s cooked through. Carefully lift the chicken out of the pot, drain the water from the cavity and lower it into the ice bath. Take care not to break the skin.\nAfter 15 minutes in the ice bath, the chicken should be cooled completely, drain and cover with clear plastic until ready to cut and serve.",
+      "pageOrder": 6,
+      "stepOrder": 5
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-22.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-5-7.jpg",
+      "adjacentText": "When the timer (for the chicken) is almost up, prepare a large ice bath. To check if the chicken is done, stick a toothpick into the thickest part of the thigh until it touches the bone; if the juices run clear, it’s cooked through. Carefully lift the chicken out of the pot, drain the water from the cavity and lower it into the ice bath. Take care not to break the skin.\nAfter 15 minutes in the ice bath, the chicken should be cooled completely, drain and cover with clear plastic until ready to cut and serve.",
+      "pageOrder": 7,
+      "stepOrder": 5
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-17.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-7-8.jpg",
+      "adjacentText": "While the chicken is cooling, make the rice. Heat a wok or large skillet over medium heat. Add the chicken fat, along with 1/2 teaspoon of oil, and cook for 1-2 minutes, or until you have about 1 tablespoon of rendered fat. Stir in the minced garlic and fry briefly, making sure it doesn’t burn. Add the uncooked rice. Stir continuously for about two minutes.",
+      "pageOrder": 8,
+      "stepOrder": 7
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-18.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-7-9.jpg",
+      "adjacentText": "While the chicken is cooling, make the rice. Heat a wok or large skillet over medium heat. Add the chicken fat, along with 1/2 teaspoon of oil, and cook for 1-2 minutes, or until you have about 1 tablespoon of rendered fat. Stir in the minced garlic and fry briefly, making sure it doesn’t burn. Add the uncooked rice. Stir continuously for about two minutes.",
+      "pageOrder": 9,
+      "stepOrder": 7
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/hainan-chicken-rice-3.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-7-10.jpg",
+      "adjacentText": "While the chicken is cooling, make the rice. Heat a wok or large skillet over medium heat. Add the chicken fat, along with 1/2 teaspoon of oil, and cook for 1-2 minutes, or until you have about 1 tablespoon of rendered fat. Stir in the minced garlic and fry briefly, making sure it doesn’t burn. Add the uncooked rice. Stir continuously for about two minutes.",
+      "pageOrder": 10,
+      "stepOrder": 7
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/07/hainan-chicken-rice-4.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-7-11.jpg",
+      "adjacentText": "While the chicken is cooling, make the rice. Heat a wok or large skillet over medium heat. Add the chicken fat, along with 1/2 teaspoon of oil, and cook for 1-2 minutes, or until you have about 1 tablespoon of rendered fat. Stir in the minced garlic and fry briefly, making sure it doesn’t burn. Add the uncooked rice. Stir continuously for about two minutes.",
+      "pageOrder": 11,
+      "stepOrder": 7
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-19.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-8-12.jpg",
+      "adjacentText": "Turn off the heat. Scoop the rice into your rice cooker (leave the hunk of chicken fat behind or add it to the rice—your choice) and add the stock from poaching the chicken (instead of the usual water) until it reaches the '4' line (3 US cups = 4 rice cooker cups). Stir in the salt. Close the lid and press START.",
+      "pageOrder": 12,
+      "stepOrder": 8
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-20.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-8-13.jpg",
+      "adjacentText": "Turn off the heat. Scoop the rice into your rice cooker (leave the hunk of chicken fat behind or add it to the rice—your choice) and add the stock from poaching the chicken (instead of the usual water) until it reaches the '4' line (3 US cups = 4 rice cooker cups). Stir in the salt. Close the lid and press START.",
+      "pageOrder": 13,
+      "stepOrder": 8
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/chicken-flavored-rice-8.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-8-14.jpg",
+      "adjacentText": "Turn off the heat. Scoop the rice into your rice cooker (leave the hunk of chicken fat behind or add it to the rice—your choice) and add the stock from poaching the chicken (instead of the usual water) until it reaches the '4' line (3 US cups = 4 rice cooker cups). Stir in the salt. Close the lid and press START.",
+      "pageOrder": 14,
+      "stepOrder": 8
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-7.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-10-15.jpg",
+      "adjacentText": "Grind the ginger and garlic in a food processor until finely minced. Heat the oil in a small pot or saucepan. Gently fry the ginger and garlic until aromatic and just lightly caramelized. You want it to be just cooked so that it no longer has that spicy raw flavor of uncooked ginger and garlic. Add salt to taste and transfer to a sauce dish.\n##### To Make the Sweet Dark Soy Sauce:",
+      "pageOrder": 15,
+      "stepOrder": 10
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-8.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-10-16.jpg",
+      "adjacentText": "Grind the ginger and garlic in a food processor until finely minced. Heat the oil in a small pot or saucepan. Gently fry the ginger and garlic until aromatic and just lightly caramelized. You want it to be just cooked so that it no longer has that spicy raw flavor of uncooked ginger and garlic. Add salt to taste and transfer to a sauce dish.\n##### To Make the Sweet Dark Soy Sauce:",
+      "pageOrder": 16,
+      "stepOrder": 10
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-13.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-10-17.jpg",
+      "adjacentText": "Grind the ginger and garlic in a food processor until finely minced. Heat the oil in a small pot or saucepan. Gently fry the ginger and garlic until aromatic and just lightly caramelized. You want it to be just cooked so that it no longer has that spicy raw flavor of uncooked ginger and garlic. Add salt to taste and transfer to a sauce dish.\n##### To Make the Sweet Dark Soy Sauce:",
+      "pageOrder": 17,
+      "stepOrder": 10
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-15.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-11-18.jpg",
+      "adjacentText": "Heat the water and sugar in a small saucepan over medium heat. Stir constantly until the sugar dissolves and the liquid thickens into a simple syrup. Add the dark soy sauce, stirring to combine. Transfer to a sauce dish.\n##### To Make the Chili Sauce:",
+      "pageOrder": 18,
+      "stepOrder": 11
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-16.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-11-19.jpg",
+      "adjacentText": "Heat the water and sugar in a small saucepan over medium heat. Stir constantly until the sugar dissolves and the liquid thickens into a simple syrup. Add the dark soy sauce, stirring to combine. Transfer to a sauce dish.\n##### To Make the Chili Sauce:",
+      "pageOrder": 19,
+      "stepOrder": 11
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-10.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-12-20.jpg",
+      "adjacentText": "Grind the chilies, ginger, and garlic in a food processor until finely chopped. You will probably have to scrape down the sides of the food processor 1-2 times to ensure everything is ground up evenly. Add the sesame oil, salt, sugar, lime juice, and vinegar to the food processor. Pulse 2-3 times to combine. You can also do this in a mortar and pestle.",
+      "pageOrder": 20,
+      "stepOrder": 12
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-11.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-12-21.jpg",
+      "adjacentText": "Grind the chilies, ginger, and garlic in a food processor until finely chopped. You will probably have to scrape down the sides of the food processor 1-2 times to ensure everything is ground up evenly. Add the sesame oil, salt, sugar, lime juice, and vinegar to the food processor. Pulse 2-3 times to combine. You can also do this in a mortar and pestle.",
+      "pageOrder": 21,
+      "stepOrder": 12
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2024/08/hainan-chicken-rice-12.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-12-22.jpg",
+      "adjacentText": "Grind the chilies, ginger, and garlic in a food processor until finely chopped. You will probably have to scrape down the sides of the food processor 1-2 times to ensure everything is ground up evenly. Add the sesame oil, salt, sugar, lime juice, and vinegar to the food processor. Pulse 2-3 times to combine. You can also do this in a mortar and pestle.",
+      "pageOrder": 22,
+      "stepOrder": 12
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2019/11/how-to-carve-whole-chicken-chinese-6.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-13-24.jpg",
+      "adjacentText": "Carve the chicken and serve with the rice and sauces (source narrative).",
+      "pageOrder": 24,
+      "stepOrder": 14
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://thewoksoflife.com/wp-content/uploads/2023/10/whole-poached-chicken-carved.jpg",
+      "repositoryPath": "assets/dishes/sources/cn-039-woks/step-13-25.jpg",
+      "adjacentText": "Carve the chicken and serve with the rice and sauces (source narrative).",
+      "pageOrder": 25,
+      "stepOrder": 14
+    }
+  ]
+}

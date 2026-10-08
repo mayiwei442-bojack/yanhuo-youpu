@@ -1,0 +1,489 @@
+{
+  "recipeId": "west-017",
+  "recipeName": "红酒炖鸡",
+  "category": "western",
+  "createdAt": "2026-10-08T12:11:42.147Z",
+  "sources": [
+    {
+      "sourceName": "BBC Good Food",
+      "sourceType": "website",
+      "url": "https://www.bbcgoodfood.com/recipes/coq-au-vin",
+      "documentId": "c49fed11-a89a-4f40-bcae-0021fde52d6a",
+      "retrievalMethod": "ordinary HTTPS GET; complete accessible page JSON-LD and DOM independently inspected",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "olive oil",
+          "raw": "1½ tbsp olive oil",
+          "amount": null
+        },
+        {
+          "name": "rashers (100g) dry-cured, smoked back bacon fat trimmed, chopped",
+          "raw": "3 rashers (100g) dry-cured, smoked back bacon fat trimmed, chopped",
+          "amount": null
+        },
+        {
+          "name": "small shallots peeled",
+          "raw": "12 small shallots peeled",
+          "amount": null
+        },
+        {
+          "name": "free-range chicken legs (460g), skin removed",
+          "raw": "2 free-range chicken legs (460g), skin removed",
+          "amount": null
+        },
+        {
+          "name": "free-range chicken thighs with bone and skin (650g), skin removed",
+          "raw": "4 free-range chicken thighs with bone and skin (650g), skin removed",
+          "amount": null
+        },
+        {
+          "name": "free-range, skinless, boneless chicken breasts (280g)",
+          "raw": "2 free-range, skinless, boneless chicken breasts (280g)",
+          "amount": null
+        },
+        {
+          "name": "arlic cloves finely chopped",
+          "raw": "3 garlic cloves finely chopped",
+          "amount": null
+        },
+        {
+          "name": "brandy or Cognac",
+          "raw": "3 tbsp brandy or Cognac",
+          "amount": null
+        },
+        {
+          "name": "red wine",
+          "raw": "600ml red wine",
+          "amount": null
+        },
+        {
+          "name": "good-quality chicken stock",
+          "raw": "150ml good-quality chicken stock",
+          "amount": null
+        },
+        {
+          "name": "tomato purée",
+          "raw": "2 tsp tomato purée",
+          "amount": null
+        },
+        {
+          "name": "thyme sprigs 2 rosemary sprigs and 2 bay leaves, to make a bouquet garni",
+          "raw": "3 thyme sprigs 2 rosemary sprigs and 2 bay leaves, to make a bouquet garni",
+          "amount": null
+        },
+        {
+          "name": "small handful chopped flat-leaf parsley to garnish",
+          "raw": "small handful chopped flat-leaf parsley to garnish",
+          "amount": null
+        },
+        {
+          "name": "olive oil",
+          "raw": "1½ tbsp olive oil",
+          "amount": null
+        },
+        {
+          "name": "chestnut mushrooms halved if large",
+          "raw": "250g chestnut mushrooms halved if large",
+          "amount": null
+        },
+        {
+          "name": "plain flour",
+          "raw": "2 tbsp plain flour",
+          "amount": null
+        },
+        {
+          "name": "olive oil",
+          "raw": "1½ tsp olive oil",
+          "amount": null
+        },
+        {
+          "name": "softened butter",
+          "raw": "1 tsp softened butter",
+          "amount": null
+        },
+        {
+          "name": "salt",
+          "raw": "pinch of salt (step7)",
+          "amount": null
+        },
+        {
+          "name": "pepper",
+          "raw": "pepper (step7; amount unspecified)",
+          "amount": null
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Heat 1 tbsp olive oil in a large, heavy-based saucepan or flameproof dish. Tip in 3 trimmed and chopped smoked back bacon rashers and fry until crisp. Remove and drain on kitchen paper.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "Add 12 peeled shallots to the pan and fry, stirring or shaking the pan often, for 5-8 mins until well browned all over. Remove and set aside with the bacon.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "Take 2 chicken legs, 4 chicken thighs and 2 boneless chicken breasts, all with skin removed and pat dry with kitchen paper.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "Pour ½ tbsp olive oil into the pan, then fry half the chicken pieces, turning regularly, for 5-8 mins until well browned. Remove, then repeat with the remaining chicken. Remove and set aside.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 5,
+          "instruction": "Scatter in 3 finely chopped garlic cloves and fry briefly, then, with the heat medium-high, pour in 3 tbsp brandy or Cognac, stirring the bottom of the pan to deglaze. The alcohol should sizzle and start to evaporate so there is not much left.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 6,
+          "instruction": "Return the chicken legs and thighs to the pan along with any juices, then pour in a little of 600ml red wine, stirring the bottom of the pan again.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 7,
+          "instruction": "Stir in the rest of the wine, 150ml good-quality chicken stock and 2 tsp tomato purée. Drop in 3 thyme sprigs, 2 rosemary sprigs and 2 bay leaves to make a bouquet garni, season with pepper and a pinch of salt, then return the bacon and shallots to the pan.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 8,
+          "instruction": "Cover, lower the heat to a gentle simmer, add the chicken breasts and cook for 50 mins - 1hr.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 9,
+          "instruction": "Just before ready to serve, heat 1 ½ tbsp olive oil in a large non-stick frying pan. Add 250g chestnut mushrooms, halved if large, and fry over a high heat for a few mins until golden. Remove and keep warm.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 10,
+          "instruction": "Lift the chicken, shallots and bacon from the pan and transfer to a warmed serving dish. Remove the bouquet garni.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 11,
+          "instruction": "To make the thickener, mix 2 tbsp plain flour, 1 ½ tsp olive oil and 1 tsp softened butter in a small bowl using the back of a teaspoon.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 12,
+          "instruction": "Bring the wine mixture to a gentle boil, then gradually drop in small pieces of the thickener, whisking each piece in using a wire whisk. Simmer for 1-2 mins.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 13,
+          "instruction": "Scatter the mushrooms over the chicken, then pour over the wine sauce. Garnish with a handful of chopped flat-leaf parsley.",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [],
+      "tips": [],
+      "rawExcerpt": "{\n  \"@context\": \"https://schema.org\",\n  \"@id\": \"https://www.bbcgoodfood.com/recipes/coq-au-vin#Recipe\",\n  \"@type\": \"Recipe\",\n  \"description\": \"Try our coq au vin recipe. We've made this classic French chicken casserole a little lighter than the traditional version, but it still has a rich, deep flavour\",\n  \"image\": [\n    {\n      \"@type\": \"ImageObject\",\n      \"url\": \"https://images.immediate.co.uk/production/volatile/sites/30/2012/01/coq-au-vin-3740fe3.jpg?resize=768,698\",\n      \"width\": 768,\n      \"height\": 698\n    },\n    {\n      \"@type\": \"ImageObject\",\n      \"url\": \"https://images.immediate.co.uk/production/volatile/sites/30/2012/01/coq-au-vin-3740fe3.jpg?resize=1366,1242\",\n      \"width\": 1366,\n      \"height\": 1242\n    }\n  ],\n  \"mainEntityOfPage\": {\n    \"@type\": \"WebPage\",\n    \"@id\": \"https://www.bbcgoodfood.com/recipes/coq-au-vin\"\n  },\n  \"name\": \"Coq au vin\",\n  \"url\": \"https://www.bbcgoodfood.com/recipes/coq-au-vin\",\n  \"author\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Angela Nilsen\",\n      \"url\": \"https://www.bbcgoodfood.com/author/angelanilsen\"\n    }\n  ],\n  \"dateModified\": \"2026-07-07T10:41:24+01:00\",\n  \"datePublished\": \"2012-01-18T12:41:24+00:00\",\n  \"headline\": \"Coq au vin\",\n  \"keywords\": \"Angela Nilsen, Chicken casserole, Chicken stew, Cock au vin, Cock o van, Cockovan, Coq au van, Healthy dinner party, Healthy makeover, Indulgent, Make ahead, Make it healthier, Slow cooked, Ultimate makeover, Weekend\",\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Good Food\",\n    \"url\": \"https://www.bbcgoodfood.com\",\n    \"logo\": {\n      \"@type\": \"ImageObject\",\n      \"height\": 325,\n      \"url\": \"https://images.immediate.co.uk/production/volatile/sites/30/2026/02/goodfood.logo-f37096c.png?resize=1312,325\",\n      \"width\": 1312\n    }\n  },\n  \"cookTime\": \"PT1H20M\",\n  \"nutrition\": {\n    \"@type\": \"NutritionInformation\",\n    \"calories\": \"483 calories\",\n    \"fatContent\": \"21 grams fat\",\n    \"saturatedFatContent\": \"6 grams saturated fat\",\n    \"carbohydrateContent\": \"7 grams carbohydrates\",\n    \"sugarContent\": \"2 grams sugar\",\n    \"fiberContent\": \"2 grams fiber\",\n    \"proteinContent\": \"43 grams protein\",\n    \"sodiumContent\": \"0.9 milligram of sodium\"\n  },\n  \"prepTime\": \"PT25M\",\n  \"recipeCategory\": \"Dinner, Main course\",\n  \"recipeCuisine\": \"French\",\n  \"recipeIngredient\": [\n    \"1½ tbsp olive oil\",\n    \"3 rashers (100g) dry-cured, smoked back bacon fat trimmed, chopped\",\n    \"12 small shallots peeled\",\n    \"2 free-range chicken legs (460g), skin removed\",\n    \"4 free-range chicken thighs with bone and skin (650g), skin removed\",\n    \"2 free-range, skinless, boneless chicken breasts (280g)\",\n    \"3 garlic cloves finely chopped\",\n    \"3 tbsp brandy or Cognac\",\n    \"600ml red wine\",\n    \"150ml good-quality chicken stock\",\n    \"2 tsp tomato purée\",\n    \"3 thyme sprigs 2 rosemary sprigs and 2 bay leaves, to make a bouquet garni\",\n    \"small handful chopped flat-leaf parsley to garnish\",\n    \"1½ tbsp olive oil\",\n    \"250g chestnut mushrooms halved if large\",\n    \"2 tbsp plain flour\",\n    \"1½ tsp olive oil\",\n    \"1 tsp softened butter\"\n  ],\n  \"recipeInstructions\": [\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Heat 1 tbsp olive oil in a large, heavy-based saucepan or flameproof dish. Tip in 3 trimmed and chopped smoked back bacon rashers and fry until crisp. Remove and drain on kitchen paper.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Add 12 peeled shallots to the pan and fry, stirring or shaking the pan often, for 5-8 mins until well browned all over. Remove and set aside with the bacon.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Take 2 chicken legs, 4 chicken thighs and 2 boneless chicken breasts, all with skin removed and pat dry with kitchen paper.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Pour ½ tbsp olive oil into the pan, then fry half the chicken pieces, turning regularly, for 5-8 mins until well browned. Remove, then repeat with the remaining chicken. Remove and set aside.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Scatter in 3 finely chopped garlic cloves and fry briefly, then, with the heat medium-high, pour in 3 tbsp brandy or Cognac, stirring the bottom of the pan to deglaze. The alcohol should sizzle and start to evaporate so there is not much left.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Return the chicken legs and thighs to the pan along with any juices, then pour in a little of 600ml red wine, stirring the bottom of the pan again.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Stir in the rest of the wine, 150ml good-quality chicken stock and 2 tsp tomato purée. Drop in 3 thyme sprigs, 2 rosemary sprigs and 2 bay leaves to make a bouquet garni, season with pepper and a pinch of salt, then return the bacon and shallots to the pan.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Cover, lower the heat to a gentle simmer, add the chicken breasts and cook for 50 mins - 1hr.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Just before ready to serve, heat 1 ½ tbsp olive oil in a large non-stick frying pan. Add 250g chestnut mushrooms, halved if large, and fry over a high heat for a few mins until golden. Remove and keep warm.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Lift the chicken, shallots and bacon from the pan and transfer to a warmed serving dish. Remove the bouquet garni.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"To make the thickener, mix 2 tbsp plain flour, 1 ½ tsp olive oil and 1 tsp softened butter in a small bowl using the back of a teaspoon.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Bring the wine mixture to a gentle boil, then gradually drop in small pieces of the thickener, whisking each piece in using a wire whisk. Simmer for 1-2 mins.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Scatter the mushrooms over the chicken, then pour over the wine sauce. Garnish with a handful of chopped flat-leaf parsley.\"\n    }\n  ],\n  \"recipeYield\": 6,\n  \"totalTime\": \"PT1H45M\"\n}",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 1,
+        "mappedStepImages": 0,
+        "stepImageCoverage": 0,
+        "ingredientCount": 20,
+        "executableStepCount": 13,
+        "notes": [
+          "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented."
+        ]
+      }
+    },
+    {
+      "sourceName": "Serious Eats",
+      "sourceType": "website",
+      "url": "https://www.seriouseats.com/coq-au-vin-chicken-red-wine-braise-recipe",
+      "documentId": "76783447-425d-4e83-8edc-da9f76a25f5d",
+      "retrievalMethod": "normal web.open full accessible page; merged overlapping line ranges; direct requests460 and browser402 retained as transport history",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "2 whole small chickens (about 3 pounds; 1.4 kg each, see notes), each chicken cut into 4 pieces, backbones reserved for stock",
+          "raw": "2 whole small chickens (about 3 pounds; 1.4 kg each, see notes), each chicken cut into 4 pieces, backbones reserved for stock",
+          "amount": null
+        },
+        {
+          "name": "2 cups (475 ml) dry red wine",
+          "raw": "2 cups (475 ml) dry red wine",
+          "amount": null
+        },
+        {
+          "name": "8 ounces (225 g) pearl onions (see notes)",
+          "raw": "8 ounces (225 g) pearl onions (see notes)",
+          "amount": null
+        },
+        {
+          "name": "1/4 pound (113 g) slab bacon or salt pork, cut into 1- by 1/4- by 1/4-inch sticks",
+          "raw": "1/4 pound (113 g) slab bacon or salt pork, cut into 1- by 1/4- by 1/4-inch sticks",
+          "amount": null
+        },
+        {
+          "name": "Kosher salt and freshly ground black pepper",
+          "raw": "Kosher salt and freshly ground black pepper",
+          "amount": null
+        },
+        {
+          "name": "8 ounces (225 g) button or cremini mushrooms, woody stems trimmed if necessary, quartered",
+          "raw": "8 ounces (225 g) button or cremini mushrooms, woody stems trimmed if necessary, quartered",
+          "amount": null
+        },
+        {
+          "name": "3 medium carrots (10 ounces; 280 g total), diced (about 1 1/2 cups)",
+          "raw": "3 medium carrots (10 ounces; 280 g total), diced (about 1 1/2 cups)",
+          "amount": null
+        },
+        {
+          "name": "4 medium cloves garlic, crushed",
+          "raw": "4 medium cloves garlic, crushed",
+          "amount": null
+        },
+        {
+          "name": "2 sprigs thyme",
+          "raw": "2 sprigs thyme",
+          "amount": null
+        },
+        {
+          "name": "2 bay leaves",
+          "raw": "2 bay leaves",
+          "amount": null
+        },
+        {
+          "name": "2 cups (475 ml) gelatinous homemade chicken stock (see notes) or low-sodium chicken broth",
+          "raw": "2 cups (475 ml) gelatinous homemade chicken stock (see notes) or low-sodium chicken broth",
+          "amount": null
+        },
+        {
+          "name": "3 tablespoons (40 g) cold unsalted butter, cubed",
+          "raw": "3 tablespoons (40 g) cold unsalted butter, cubed",
+          "amount": null
+        },
+        {
+          "name": "1/4 cup minced flat-leaf parsley",
+          "raw": "1/4 cup minced flat-leaf parsley",
+          "amount": null
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Preheat oven to 350°F (180°C). Add chicken to a 1-gallon zipper-lock bag. Pour in wine and seal bag, pressing out air. Let stand while you prepare the remaining ingredients.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "Using a paring knife, trim off the ends of each onion and score a light \"X\" into one cut side. Bring a small pot of water to a boil over high heat. Add onions and cook until outer layers are soft, about 1 1/2 minutes. Drain onions and run under cool water until cold enough to handle. Peel onions with your fingers and discard peels. The righthand side of the cutting board is covered with the onion peels.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "In a large Dutch oven or rondeau, cook bacon over medium-high heat, stirring and reducing heat as necessary to prevent scorching, until browned and fat has rendered, about 10 minutes. Remove from heat and, using a slotted spoon, transfer bacon to a paper towel-lined plate. Reserve drippings in Dutch oven.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "Remove chicken from zipper-lock bag, reserving wine, and pat dry. Season with salt and pepper. Return Dutch oven with rendered bacon fat to medium-high heat and, working in batches, add chicken, skin side down, and cook until browned, about 7 minutes. Turn and brown other side, about 5 minutes, reducing heat as needed if bottom of Dutch oven is getting too dark. Transfer browned chicken to a wire rack set over a rimmed baking sheet. Reserve at room temperature.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 5,
+          "instruction": "Once all chicken is browned, add mushrooms to Dutch oven and cook over medium-high heat, stirring frequently, until browned, 10 to 12 minutes. Add pearl onions, carrots, and garlic and cook, stirring, until lightly browned, 5 to 8 minutes. Add bacon, wine, thyme, and bay leaves and bring to a simmer, stirring up any browned bits.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 6,
+          "instruction": "Stir in stock. Add chicken legs skin side up, nestling them into the Dutch oven so that they are partially submerged but top of skin is above the liquid. Pour in any accumulated juices from chicken. Transfer to oven and cook, uncovered, for 1 hour.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 7,
+          "instruction": "Add chicken breasts, nestling them skin side up amongst the legs, and return to the oven. Cook until breasts are just cooked through (they should register 145 to 150°F/63°C to 66°C on an instant-read thermometer), 20 to 25 minutes.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 8,
+          "instruction": "Transfer chicken breasts and legs to a clean rack set over a rimmed backing sheet. Set Dutch oven over medium-low heat and simmer, stirring occasionally, until sauce is lightly viscous, looks slightly glossy, and tastes rich, 15 to 18 minutes. Whisk in butter, then season with salt (if necessary) and pepper. Stir in half of parsley.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 9,
+          "instruction": "Return chicken to pot, spooning sauce on top. Garnish with remaining parsley. Serve right away with buttered potatoes, pasta, or rice.",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [],
+      "tips": [
+        "If you can't find small 3-pound chickens, use one 4-pound chicken plus 1 pound of chicken legs.",
+        "Frozen pearl onions can be used in place of fresh; to use frozen onions, cook direct from frozen, skipping Step 2.",
+        "The chicken stock should have enough gelatin in it that it sets like jello when chilled. If it is thinner than that, you will need to add gelatin. Pour the stock into a large bowl and sprinkle with two packets of unflavored gelatin. Let the gelatin fully hydrate. The stock will have a grainy appearance but will smooth out once added to the recipe."
+      ],
+      "rawExcerpt": "iframe†www.googletagmanager.com\n\nSerious Eats\n\nSave\n\nRate\n\n* Search [Input: What are you looking for?]\n\n* Newsletters\n# Coq au Vin (Chicken Braised in Red Wine)\n\n4.6\n\n(8)\n\n39 Reviews\n\nTender chicken layered with the rich aroma of wine, earthy mushrooms, and sweet onions.\n\nBy\n\nDaniel Gritzer\n\nImage: Daniel Gritzer Image: Daniel Gritzer\n\nDaniel Gritzer\nDaniel is the editorial director of Serious Eats, where he leads the site's editorial strategy and oversees everything from recipe development to articles on food science, cooking techniques, and more. He's a former food editor at Food & Wine and has cooked in New York City restaurants.\n\nSerious Eats' Editorial Guidelines\n\nUpdated on September 17, 2025\n\nClose\nImage: A white, blue-rimmed plate holding a large serving of Coq au Vin. On the lefthand side of the image is a round platter holding more of the Coq au Vin. Image: A white, blue-rimmed plate holding a large serving of Coq au Vin. On the lefthand side of the image is a round platter holding more of the Coq au Vin.\n\nCredit:\n\nSerious Eats / Julia Hartbeck\n\nIn This Recipe\n\nView All\n\nIn This Article\n\n* Adapting for Younger Poultry\n\n* Marination Times, Compared\n\n* Wines to Consider\n* Considering the Garnish\n\n* Getting Saucy\n\n* Bringing It All Together\n\nJump to recipe\n* Briefly marinating the chicken in wine infuses it with flavor.\n* The choice of wine is flexible, allowing for personal preference without compromising the sauce's complexity.\n* Adding the chicken breasts to the pot at the end of cooking ensures they stay juicy and tender.\n* Using a gelatin-rich stock and reducing the braising liquid until lightly viscous and glossy produces a flavorful sauce with body.\nThere's a problem with coq au vin, the classic Burgundian dish of chicken braised in red wine, and the problem is that it's supposed to be made with a coq. That'd be cock in English, though it probably sounds a little less crude if we call it a rooster, and as most of you reading this know, finding a rooster for dinner is pretty difficult these days.\nTraditionally made by slowly cooking a rooster in red Burgundy wine with mushrooms, lardons (little sticks of cured pork belly, though you can use bacon), and pearl onions, it's one of the great braises of the world. Layered with the rich aroma of the wine, earthy mushrooms, and sweet onions, it's a perfect cold-weather dish, both nourishing and deeply comforting. Scratch that, it's a perfect dish year-round.\nI once had the good fortune to cook and eat a proper coq au vin, and it shed some light on how this dish can so easily go wrong when translated to the roasting hens most of us have far more access to. I was working on a farm in the Southwest of France several years ago, and went to feed the chickens one day with one of the farmers. As soon as we entered their enclosure, I spotted a rooster hopping on just one foot, the other one tucked up awkwardly under it.\nI pointed it out to Claudette, the farmer, and she picked him up to inspect his foot. It was broken. She clucked her tongue in disappointment, then concluded, in the matter-of-fact way farmers who deal regularly with the lives and deaths of their animals do, that it looked like we'd be having rooster for dinner soon. A few minutes later, both the injured rooster and one of his unfortunate buddies were hanging upside down with their throats slit, draining blood into a pail below.\nAs I saw them dangling there, I realized I had two things that would get me closer to a true coq au vin than I'd ever been before—the dead roosters, and the farm's wood-fired oven, which was used throughout the week to bake bread. Actually, make that three things: There was also the farm's impressive wine cellar, hidden under a trap door in one of the barns and filled with some of the best Bordeaux and Burgundy I've ever been lucky enough to try.\nImage: Two plucked roosters placed on a prep table, their heads dangling off the edge. Image: Two plucked roosters placed on a prep table, their heads dangling off the edge.\n\nSerious Eats / Daniel Gritzer\n\nClaudette taught me how to dress the birds, and then, after a day or two resting them beyond the stiffness of rigor mortis, I loaded a Dutch oven with all the ingredients and slid it into the masonry oven, where it slowly cooked in the residual heat all through the night.\nThe next day, when we sat down to dinner, those damn birds were still tough as rubber.\nAnd that gets us to the challenge of coq au vin. The dish was designed as a long, slow braise, necessary to transform inedibly chewy rooster meat into something you had at least a shot at masticating. But the hens most of us get today—and use in those roosters steads—are already so tender that the last thing they need is several hours of cooking. The white meat in particular becomes horribly dry and mealy after not much more than 30 minutes.\nImage: Two breasts from a batch of coq au vin are cut open to reveal their interior. The one on the left looks significantly moister than the one on the right. Image: Two breasts from a batch of coq au vin are cut open to reveal their interior. The one on the left looks significantly moister than the one on the right.\n\nSerious Eats / Daniel Gritzer\nJust look at this photo above: To the left is chicken breast that cooked for about 20 minutes; to the right, chicken breast that cooked for about 45 minutes. Now, consider that some coq au vin recipes tell you to braise the chicken for four hours!\n\nThat gets us to the first question: How do we get the flavor of a long-cooked braise without ruining the chicken?\n## Cookin' Round the Cluck\nOne solution to this long-braising versus quick-cooking conundrum would just be to tell you to only buy dark meat and braise that. There's no question that chicken legs do very well with long cooking, and on some level I suppose it's a legitimate option. But I can't shake the feeling that using only dark meat goes against the very spirit of this dish—it's supposed to be a whole bird.\nThis is rustic, farmhouse cooking, and as much as I would love to have a tree that bears chicken legs as fruit, that's just not how it works.\nThe first part of the answer is simple: Don't cook the breast any more than is necessary. In my version, that means I start by browning all the chicken in a Dutch oven. Then I braise the legs for about 45 minutes to an hour, which is more than enough time to give them a long-cooked texture. I add the breasts back to the pot only for the last 20 minutes or so, just long enough to cook them through while keeping them juicy.\nBut that only partially answers the question. So far, we have nicely cooked chicken breast that's still juicy, and we have legs that taste truly braised. The missing part is how to make the breast taste like it's spent some time mingling with all those tasty red-wine braising juices.\n## Marination Marathon\n\nA lot of coq au vin recipes say to marinate the rooster or chicken in wine before braising. In the case of the rooster, this makes sense on a tenderizing level, since acids in the wine can help denature proteins, effectively tenderizing the meat without using heat.\nThat tenderizing effect is less important with already-tender roasting hens, but there's still a benefit to marination: It lets all the meat, including the breast, exchange flavors with the red wine, so that even a quick-cooking cut like the breast will seem like it's actually part of the braise and not a pan-roasted interloper.\nWhat I wanted to find out was what the minimum marinating time was. I ran several test batches, marinating some chicken in red wine overnight, some for several hours, some just as long as it took me to prep all the other ingredients (about 25 minutes), and some not at all.\nThe chicken that wasn't marinated at all was the most disappointing; even after braising for over an hour, it ended up tasting like plain chicken in a red wine sauce, not nearly enough integration of flavors. The good news, though, was that even the shortest marinating time had great effect, the chicken turning irreversibly purple from the red wine, and absorbing some great flavor.\nIf you have the time to go for a full overnight marinade, that's fine, but what's important is that you don't have to. Instead, just pack those chicken parts into a zipper-lock bag, add the wine, and let it stand, turning occasionally, while you cut lardons, quarter mushrooms, dice carrots, and prep pearl onions. Once you've done all that, the chicken will be ready to rock.\nImage: Quartered onions, peeled pearl onions, and lardon prepped and ready to go. Image: Quartered onions, peeled pearl onions, and lardon prepped and ready to go.\n\nSerious Eats / Daniel Gritzer\n## Wine Time\n\nImage: Author pouring red wine into a liquid measuring cup. Image: Author pouring red wine into a liquid measuring cup.\n\nSerious Eats / Daniel Gritzer\n\nThe next big decision is which wine to use. Or at least, a lot of people would like to make you feel like it should be a big decision. They insist that true coq au vin, the Burgundian version that is most famous, must be made with red Burgundy wine, which is Pinot Noir with a really big price tag.\nI'm here to tell you that it doesn't matter nearly as much as those people say. Sure, different wines will produce slightly different sauces, but the differences are subtle—in the course of my life, I've made this dish with everything from actual Burgundy to fancy Bordeaux, crappy kitchen wine*, boxed wine, big-bodied Cabernet Sauvignon, and light Beaujolais.\n\n*Crappy, but still real wine, not \"cooking\" wine or wine \"product\", which you should never use.\nOnce you factor in the chicken juices and stock, the mushrooms and pork, the onions and thyme, all of them simmering together, then finished with butter, I guarantee you, you won't taste the sauce and say, \"Hm, this Romanée-Conti doesn't smell quite as much like violets as the one I drank last night.\"\nIf you want to stay true to the dish, sure you can use a less expensive Burgundy, or, better yet, a Beaujolais, which comes from the same region but is made with Gamay, a different grape. But really, any red wine will work (in fact, whites will too—there's a well-known version of this dish made with Riesling). For more on cooking with wines, read about some of my other tests and observations here .\n## Considering the Garnish\n\nCoq au vin is traditionally served with mushrooms, lardons, and pearl onions. There are a couple ways to approach this. There's the more precious restaurant version, where you braise the chicken in the wine with aromatics like onion and garlic, then strain those aromatics out and garnish the dish with beautiful little versions of each garnish that have been cooked separately.\nCooking the garnishes separately makes for a prettier presentation, which is important in a restaurant setting, but it's just a little too fussy for the kind of simple, gutsy home cooking this dish is supposed to capture.\n\nI tried a couple different approaches to see if I could win any presentation points without adding lots of steps to the dish.\nIn one batch, I browned everything, from the chicken through to the mushrooms, in batches in the Dutch oven, then added the wine and stock and braised it (minus the breasts, of course, which waited until the end) all together.\nIn another batch, I browned the chicken, then braised the legs in the wine and stock with some thyme and bay leaves. While the legs were in the oven, I pan-roasted the mushrooms, pearl onions, and carrots* until nicely browned and just shy of being fully cooked. Then, when the chicken was done, I added the garnishes and simmered them for about 10 minutes while the liquids reduced.\n*A note on carrots: I looked at a lot of coq au vin recipes. Some include carrots, some don't. Julia Child doesn't, but legendary French chef Paul Bocuse does. I'm throwing my hat in Bocuse's ring; how can carrots possibly hurt this dish?\n\nImage: Diced carrot and pearl onions getting sautéed in a skillet. Image: Diced carrot and pearl onions getting sautéed in a skillet.\n\nCooking the garnishes separately makes them more attractive, but is it best for flavor?.\n\nSerious Eats / Daniel Gritzer\nTasting them side-by-side, there was no contest: The batch that was braised with everything together was vastly more flavorful and rich than the one where I held the garnishes until the end.\n\nImage: Overhead shot of finished coq au vin with chicken removed. All of the vegetables have been added to the braise. Image: Overhead shot of finished coq au vin with chicken removed. All of the vegetables have been added to the braise.\nCooking everything together leads to the most flavorful, delicious braising liquid, even if it is a little less pretty.\n\nSerious Eats / Daniel Gritzer\n\nSimple enough, I say—screw presentation if it means better flavor!\n## Getting Saucy\n\nOkay, so we've got our tender and juicy braised chicken, we have the most flavorful braising liquid. There's just one big question left: How do we thicken the sauce?\n\nClassically, we'd do it by whisking beurre manié (a mixture of butter and flour) into the braising juices. But flour can dull flavor and give the sauce a slight gravy quality.\nI used to work in a French restaurant where we'd use a high-powered blender to pulverize aromatics like onion in the braising liquids into the sauce: The blender was so powerful, it would rupture the cell walls of the aromatics, the cellulose thickening the silky sauce. This won't work with regular home blenders, which will create a chunky, gritty sauce using that method.\nThe best bet for a clean, flavorful sauce at home, I concluded, was reduction, combined with plenty of gelatin in the chicken stock. There are two ways to make a gelatin-rich stock. One is to make a really good homemade version , adding chicken feet to the pot along with other collagen-rich chicken parts. The other is to supplement either thin homemade stock or store-bought broth with powdered gelatin.\nEither way, as you reduce it down, the sauce will take on a slightly sticky, viscous quality. Whisk in some butter to finish it, and you'll wonder why anyone bothers with the flour at all.\nOne warning though: You have to be very careful with salt when reducing as heavily as required here. Even very reasonable-seeming amounts of salt added earlier on can concentrate into an unbearably salty final sauce once it's been reduced. For this reason, aside from salting the chicken, I'd recommend not adding any other salt to the dish until it has finished reducing.\n## Bringing It All Together\n\nHere's a quick overview of the process:\n\nWhile the chicken marinates, prep all the other ingredients. Then cook the lardons (either salt pork or slab bacon) in a Dutch oven until browned and their fat has rendered. Remove the lardons with a slotted spoon and brown the chicken in the rendered pork fat, then set the browned chicken aside.\nImage: Browned chicken quarters are removed to a wire rack set on a rimmed baking sheet. Image: Browned chicken quarters are removed to a wire rack set on a rimmed baking sheet.\n\nSerious Eats / Daniel Gritzer\n\nPour off all but a few tablespoons of the fat in the pot and add the mushrooms, cooking until browned. This takes longer than most recipes say—they have to dump their water first before they begin to brown. Expect it to take at least 10 minutes.\nImage: Quartered mushrooms are browned in the Dutch oven. Image: Quartered mushrooms are browned in the Dutch oven.\n\nSerious Eats / Daniel Gritzer\n\nRight when the water dumped by the mushrooms has cooked off, add the pearl onions and let them brown lightly, too.\n\nImage: Pearl onions have been added to the pot to brown. Image: Pearl onions have been added to the pot to brown.\n\nSerious Eats / Daniel Gritzer\nGet those carrots in there and give them a good little cook. You don't have to brown everything heavily here; the mushrooms should brown the most, and then the onions and carrots can just be lightly browned. Then add the wine and stock and bring to a simmer, stirring up all the browned bits. Nestle the chicken legs into the pot, leaving them exposed on top so that the skin can crisp more as they braise. Add the chicken breasts for the last 20 minutes or so, until just cooked through.\nRemove the chicken from the pot once more, and simmer until liquid is lightly viscous, then whisk in unsalted butter. The gelatin will help the butter emulsify into the sauce without breaking.\n\nThen add the chicken back to the pot, spooning the juices all over and serve.\n\nImage: Close-up of coq au vin. The browned, wine-tinged chicken is glistening with the braising liquid. Image: Close-up of coq au vin. The browned, wine-tinged chicken is glistening with the braising liquid.\nSerious Eats / Daniel Gritzer\n\nLike most braises, this dish tastes even better the next day. In that case, you should let the whole Dutch oven stand for one hour at room temperature after it comes out of the oven and before whisking in the butter. Transfer it to the fridge for up to four days, then reheat gently and continue with the recipe.\nImage: Overhead shot of finished coq au vin on the table, ready to serve from the Dutch oven. A serving bowl of parsley-flecked red potatoes flank the chicken. Image: Overhead shot of finished coq au vin on the table, ready to serve from the Dutch oven. A serving bowl of parsley-flecked red potatoes flank the chicken.\n\nSerious Eats / Daniel Gritzer\n\nCoq au vin is great with buttered potatoes, pasta, or rice.\nImage: A plate of potatoes and coq au vin being drizzled with the braising liquid. Image: A plate of potatoes and coq au vin being drizzled with the braising liquid.\n\nSerious Eats / Daniel Gritzer\n\nYou know, earlier on, I said I had sacrificed presentation in the name of flavor. Looking at this, I'm not sure I sacrificed presentation at all.\n\nImage: Finished, plated coq au vin, sprinkled with parsley. Image: Finished, plated coq au vin, sprinkled with parsley.\nSerious Eats / Daniel Gritzer\n\nTell me that doesn't look good. Yeah, I'm being a little cocky, and I'm proud of it.\n\nImage: A plate of coq au vin. Author is prodding a chicken leg with a fork, shredding it easily. Image: A plate of coq au vin. Author is prodding a chicken leg with a fork, shredding it easily.\n\nSerious Eats / Daniel Gritzer\n### February 2015\n\nThis recipe was cross-tested in 2024 and lightly updated to guarantee best results.\n\nPrep Time:\n\n20 mins\n\nCook Time:\n\n2 hrs 40 mins\n\nTotal Time:\n\n3 hrs\n\nServings:\n\n4 to 6 servings\n\nYield:\n\nServes 4 to 6\n\n[Button: Jump to Nutrition Facts]\n\nKeep Screen Awake\n## Ingredients\n\n* 2 whole small chickens (about 3 pounds; 1.4 kg each, see notes), each chicken cut into 4 pieces, backbones reserved for stock\n\n* 2 cups (475 ml) dry red wine\n\n* 8 ounces (225 g) pearl onions (see notes)\n\n* 1/4 pound (113 g) slab bacon or salt pork, cut into 1- by 1/4- by 1/4-inch sticks\n\n* Kosher salt and freshly ground black pepper\n\n* 8 ounces (225 g) button or cremini mushrooms, woody stems trimmed if necessary, quartered\n* 3 medium carrots (10 ounces; 280 g total), diced (about 1 1/2 cups)\n\n* 4 medium cloves garlic, crushed\n\n* 2 sprigs thyme\n\n* 2 bay leaves\n\n* 2 cups (475 ml) gelatinous homemade chicken stock (see notes) or low-sodium chicken broth\n\n* 3 tablespoons (40 g) cold unsalted butter, cubed\n\n* 1/4 cup minced flat-leaf parsley\n## Directions\n\n1. Preheat oven to 350°F (180°C). Add chicken to a 1-gallon zipper-lock bag. Pour in wine and seal bag, pressing out air. Let stand while you prepare the remaining ingredients.\n\nImage: Chicken pieces marinating in red wine inside of a zipper-lock bag. Image: Chicken pieces marinating in red wine inside of a zipper-lock bag.\n\nSerious Eats / Julia Hartbeck\n2. Using a paring knife, trim off the ends of each onion and score a light \"X\" into one cut side. Bring a small pot of water to a boil over high heat. Add onions and cook until outer layers are soft, about 1 1/2 minutes. Drain onions and run under cool water until cold enough to handle. Peel onions with your fingers and discard peels.\nImage: A two-image collage. The top image shows the onions being cooked inside of a small saucepan. The bottom image shows the peeled onions on the lefthand side of a cutting board. The righthand side of the cutting board is covered with the onion peels. cite33†Image: A two-image collage. The top image shows the onions being cooked inside of a small saucepan. The bottom image shows the peeled onions on the lefthand side of a cutting board.\nThe righthand side of the cutting board is covered with the onion peels.\nSerious Eats / Julia Hartbeck\n\n3. In a large Dutch oven or rondeau, cook bacon over medium-high heat, stirring and reducing heat as necessary to prevent scorching, until browned and fat has rendered, about 10 minutes. Remove from heat and, using a slotted spoon, transfer bacon to a paper towel-lined plate. Reserve drippings in Dutch oven.\n\nImage: Browned bacon with rendered fat inside a large Dutch oven. Image: Browned bacon with rendered fat inside a large Dutch oven.\nSerious Eats / Julia Hartbeck\n\n4. Remove chicken from zipper-lock bag, reserving wine, and pat dry. Season with salt and pepper. Return Dutch oven with rendered bacon fat to medium-high heat and, working in batches, add chicken, skin side down, and cook until browned, about 7 minutes. Turn and brown other side, about 5 minutes, reducing heat as needed if bottom of Dutch oven is getting too dark. Transfer browned chicken to a wire rack set over a rimmed baking sheet. Reserve at room temperature.\nImage: A two-image collage. The top image shows the seasoned, marinated chicken, skin-side down inside of the Dutch oven holding the rendered bacon fat. The bottom image shows the browned chicken, skin-side up inside of the Dutch oven. Image: A two-image collage. The top image shows the seasoned, marinated chicken, skin-side down inside of the Dutch oven holding the rendered bacon fat. The bottom image shows the browned chicken, skin-side up inside of the Dutch oven.\nSerious Eats / Julia Hartbeck\n\n5. Once all chicken is browned, add mushrooms to Dutch oven and cook over medium-high heat, stirring frequently, until browned, 10 to 12 minutes. Add pearl onions, carrots, and garlic and cook, stirring, until lightly browned, 5 to 8 minutes. Add bacon, wine, thyme, and bay leaves and bring to a simmer, stirring up any browned bits.\nImage: A two-image collage. The top image shows the Dutch oven holding browned onions, diced carrots, diced mushrooms, and garlic. The bottom image shows wine, thyme, and bay leaves added to the Dutch oven. There is a wooden spoon in both images. Image: A two-image collage. The top image shows the Dutch oven holding browned onions, diced carrots, diced mushrooms, and garlic. The bottom image shows wine, thyme, and bay leaves added to the Dutch oven. There is a wooden spoon in both images.\nSerious Eats / Julia Hartbeck\n\n6. Stir in stock. Add chicken legs skin side up, nestling them into the Dutch oven so that they are partially submerged but top of skin is above the liquid. Pour in any accumulated juices from chicken. Transfer to oven and cook, uncovered, for 1 hour.\nImage: Stock stirred in and chicken legs added to Dutch oven, skin side up. The chicken is partially submerged. Image: Stock stirred in and chicken legs added to Dutch oven, skin side up. The chicken is partially submerged.\n\nSerious Eats / Julia Hartbeck\n\n7. Add chicken breasts, nestling them skin side up amongst the legs, and return to the oven. Cook until breasts are just cooked through (they should register 145 to 150°F/63°C to 66°C on an instant-read thermometer), 20 to 25 minutes.\nImage: Chicken breasts added to Dutch oven, nestled, skin side up, amongst the legs. Image: Chicken breasts added to Dutch oven, nestled, skin side up, amongst the legs.\n\nSerious Eats / Julia Hartbeck\n8. Transfer chicken breasts and legs to a clean rack set over a rimmed backing sheet. Set Dutch oven over medium-low heat and simmer, stirring occasionally, until sauce is lightly viscous, looks slightly glossy, and tastes rich, 15 to 18 minutes. Whisk in butter, then season with salt (if necessary) and pepper. Stir in half of parsley.\nImage: A two-image collage. The top image shows the sauce and vegetables simmering in the Dutch oven after the chicken has been removed. The bottom image shows the sauce, slightly reduced, with the butter and half of the chopped parsley stirred in. Image: A two-image collage. The top image shows the sauce and vegetables simmering in the Dutch oven after the chicken has been removed. The bottom image shows the sauce, slightly reduced, with the butter and half of the chopped parsley stirred in.\nSerious Eats / Julia Hartbeck\n\n9. Return chicken to pot, spooning sauce on top. Garnish with remaining parsley. Serve right away with buttered potatoes, pasta, or rice.\n\nImage: A serving of Coq au Vin, sprinkled with parsley, on a white, blue-rimmed plate. Image: A serving of Coq au Vin, sprinkled with parsley, on a white, blue-rimmed plate.\n\nSerious Eats / Julia Hartbeck\n## Special Equipment\n\nLarge Dutch oven or rondeau\n## Notes\n\nIf you can't find small 3-pound chickens, use one 4-pound chicken plus 1 pound of chicken legs.\n\nFrozen pearl onions can be used in place of fresh; to use frozen onions, cook direct from frozen, skipping Step 2.\nThe chicken stock should have enough gelatin in it that it sets like jello when chilled. If it is thinner than that, you will need to add gelatin. Pour the stock into a large bowl and sprinkle with two packets of unflavored gelatin. Let the gelatin fully hydrate. The stock will have a grainy appearance but will smooth out once added to the recipe.\n## Make-Ahead and Storage\n\nThis braise can be made ahead and tastes even better the next day: Complete the recipe through Step 7, then let cool at room temperature for one hour before transferring the Dutch oven to refrigerator; reheat gently in 350°F oven before proceeding with Step 8.\n\n## Read More\n\n* Why I Only Buy Whole Chickens (and You Can, Too!)\n* How to Break Down a Chicken\n* Grilled Coq au Vin\n* Coq au Riesling\n\nSave\n\nRate\n\nPrint [Input]\n## Nutrition Facts (per serving)\n\n1394  | Calories\n83g  | Fat\n12g  | Carbs\n128g  | Protein\n\nShow Full Nutrition Label Hide Full Nutrition Label\n\nNutrition Facts\n---\nServings Per Recipe 4 to 6\n---\nCalories 1394\n---\n% Daily Value *\nTotal Carbohydrate 12g  | 4%\nDietary Fiber 2g  | 6%\nTotal Sugars 4g\nProtein 128g  | 257%\nTotal Fat 83g  | 107%\nSaturated Fat 27g  | 133%\nCholesterol 431mg  | 144%\nVitamin C 7mg  | 8%\nSodium 1319mg  | 57%\nCalcium 113mg  | 9%\nIron 7mg  | 39%\nPotassium 1509mg  | 32%\n* Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs.\n\nLoading shell for RecipesUgcThreaded1 Vue component in Globe.\n## Related Articles\nFrench in a Flash (Classic): Coq au Riesling Recipe 1 hr 25 mins Chicken Cacciatore With Mushrooms, Tomato, and Onion Recipe 1 hr 20 mins Chicken Scarpariello (Braised Chicken With Sausage and Peppers) 1 hr 10 mins Lavender, Lemon, and Honey Spatchcocked Roast Chicken Recipe 1 hr 5 mins Roast Chicken With Soubise (Onion Sauce) 1 hr 20 mins Pressure Cooker Thai Green Chicken Curry With Eggplant and Kabocha Squash Recipe 35 mins Boeuf Bourguignon (Beef Stew With Red Wine, Mushrooms, and Bacon) 3 hrs 55 mins Chicken Cacciatore With Red Peppers, Tomato, and Onion 1 hr 15 mins\nCreamy Braised Chicken With Bacon and White Wine (Blanquette de Poulet) 1 hr 25 mins Fall-Apart Lamb Shanks Braised with Mustard and Mint Recipe 2 hrs 15 mins Easy Pan-Roasted Chicken Breasts With White Wine and Fines Herbes Pan Sauce Recipe 30 mins Chicken Marsala 45 mins Crispy Braised Chicken Thighs With Cabbage and Bacon 1 hr 15 mins Bollito Misto (Italian Feast of Mixed Boiled Meats) Recipe 1 hr 50 mins Braised Chicken with Black Bean Sauce Recipe 50 mins Choucroute Garnie à l'Alsacienne (Alsatian Braised Sauerkraut With Mixed Meats and Sausages) Recipe 3 hrs 45 mins\nNewsletter Sign Up\n\nNewsletter Sign Up",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 0,
+        "mappedStepImages": 0,
+        "stepImageCoverage": 0,
+        "ingredientCount": 13,
+        "executableStepCount": 9,
+        "notes": [
+          "Page images and step adjacencies visible in web.open; original binary URLs not returned by failed web.click. No verified downloadable media available, no invented image mappings.",
+          "Source quantities with mixed units retained verbatim; no vessel capacity inferred."
+        ]
+      }
+    }
+  ],
+  "sourceMode": "multi_source",
+  "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/coq-au-vin",
+  "selectionReason": "Selected exactly one whole BBC recipe: full coherent ingredients/method match the target; verified usable hero (no source step photos available). Other sources have no verified usable media URLs under ordinary access. Under the required completeness/coherence then usable-image/coverage ranking, this source leads; its ingredients, operations, tips and media are kept together without supplementation.",
+  "ragEvidence": [
+    {
+      "chunkId": "b0b21801-9b35-43fa-9ca8-e0800db11f9b",
+      "documentId": "c49fed11-a89a-4f40-bcae-0021fde52d6a",
+      "sourceName": "BBC Good Food",
+      "chunkType": "ingredients",
+      "content": "菜名：红酒炖鸡\n- 1½ tbsp olive oil\n- 3 rashers (100g) dry-cured, smoked back bacon fat trimmed, chopped\n- 12 small shallots peeled\n- 2 free-range chicken legs (460g), skin removed\n- 4 free-range chicken thighs with bone and skin (650g), skin removed\n- 2 free-range, skinless, boneless chicken breasts (280g)\n- 3 garlic cloves finely chopped\n- 3 tbsp brandy or Cognac\n- 600ml red wine\n- 150ml good-quality chicken stock\n- 2 tsp tomato purée\n- 3 thyme sprigs 2 rosemary sprigs and 2 bay leaves, to make a bouquet garni\n- small handful chopped flat-leaf parsley to garnish\n- 1½ tbsp olive oil\n- 250g chestnut mushrooms halved if large\n- 2 tbsp plain flour\n- 1½ tsp olive oil\n- 1 tsp softened butter\n- pinch of salt (step7)\n- pepper (step7; amount unspecified)",
+      "similarity": 0.688192902070926
+    },
+    {
+      "chunkId": "0e6436ab-76b9-4788-bb9a-f5b16aebd1c1",
+      "documentId": "c49fed11-a89a-4f40-bcae-0021fde52d6a",
+      "sourceName": "BBC Good Food",
+      "chunkType": "technique",
+      "content": "菜名：红酒炖鸡\n- 原文未明确说明技法。",
+      "similarity": 0.67309111299297
+    },
+    {
+      "chunkId": "02b41563-2a21-4510-941f-7d4945b6848a",
+      "documentId": "c49fed11-a89a-4f40-bcae-0021fde52d6a",
+      "sourceName": "BBC Good Food",
+      "chunkType": "steps",
+      "content": "菜名：红酒炖鸡\n1. Heat 1 tbsp olive oil in a large, heavy-based saucepan or flameproof dish. Tip in 3 trimmed and chopped smoked back bacon rashers and fry until crisp. Remove and drain on kitchen paper.\n2. Add 12 peeled shallots to the pan and fry, stirring or shaking the pan often, for 5-8 mins until well browned all over. Remove and set aside with the bacon.\n3. Take 2 chicken legs, 4 chicken thighs and 2 boneless chicken breasts, all with skin removed and pat dry with kitchen paper.\n4. Pour ½ tbsp olive oil into the pan, then fry half the chicken pieces, turning regularly, for 5-8 mins until well browned. Remove, then repeat with the remaining chicken. Remove and set aside.\n5. Scatter in 3 finely chopped garlic cloves and fry briefly, then, with the heat medium-high, pour in 3 tbsp brandy or Cognac, stirring the bottom of the pan to deglaze. The alcohol should sizzle and start to evaporate so there is not much left.\n6. Return the chicken legs and thighs to the pan along with any juices, then pour in a little of 600ml red wine, stirring the bottom of the pan again.",
+      "similarity": 0.67238211682875
+    },
+    {
+      "chunkId": "f3760f55-a193-41ba-8530-798852ac782b",
+      "documentId": "c49fed11-a89a-4f40-bcae-0021fde52d6a",
+      "sourceName": "BBC Good Food",
+      "chunkType": "tips",
+      "content": "菜名：红酒炖鸡\n- 原文未提供额外提示。",
+      "similarity": 0.669867078653996
+    },
+    {
+      "chunkId": "f129a515-e31d-460e-8ebd-691cb7e5f6a1",
+      "documentId": "c49fed11-a89a-4f40-bcae-0021fde52d6a",
+      "sourceName": "BBC Good Food",
+      "chunkType": "steps",
+      "content": "菜名：红酒炖鸡\n7. Stir in the rest of the wine, 150ml good-quality chicken stock and 2 tsp tomato purée. Drop in 3 thyme sprigs, 2 rosemary sprigs and 2 bay leaves to make a bouquet garni, season with pepper and a pinch of salt, then return the bacon and shallots to the pan.\n8. Cover, lower the heat to a gentle simmer, add the chicken breasts and cook for 50 mins - 1hr.\n9. Just before ready to serve, heat 1 ½ tbsp olive oil in a large non-stick frying pan. Add 250g chestnut mushrooms, halved if large, and fry over a high heat for a few mins until golden. Remove and keep warm.\n10. Lift the chicken, shallots and bacon from the pan and transfer to a warmed serving dish. Remove the bouquet garni.\n11. To make the thickener, mix 2 tbsp plain flour, 1 ½ tsp olive oil and 1 tsp softened butter in a small bowl using the back of a teaspoon.\n12. Bring the wine mixture to a gentle boil, then gradually drop in small pieces of the thickener, whisking each piece in using a wire whisk. Simmer for 1-2 mins.\n13. Scatter the mushrooms over the chicken, then pour over the wine sauce. Garnish with a handful of chopped flat-leaf parsley.",
+      "similarity": 0.651245991848531
+    },
+    {
+      "chunkId": "6592791d-1267-4e6f-891c-d849c0a770cc",
+      "documentId": "c49fed11-a89a-4f40-bcae-0021fde52d6a",
+      "sourceName": "BBC Good Food",
+      "chunkType": "summary",
+      "content": "菜名：红酒炖鸡\n别名：Coq au vin\n菜系：French\n简介：Try our coq au vin recipe. We've made this classic French chicken casserole a little lighter than the traditional version, but it still has a rich, deep flavour",
+      "similarity": 0.646743674479237
+    },
+    {
+      "chunkId": "f2f33361-0092-4d65-a5d8-81caa30e8936",
+      "documentId": "76783447-425d-4e83-8edc-da9f76a25f5d",
+      "sourceName": "Serious Eats",
+      "chunkType": "ingredients",
+      "content": "菜名：红酒炖鸡\n- 2 whole small chickens (about 3 pounds; 1.4 kg each, see notes), each chicken cut into 4 pieces, backbones reserved for stock\n- 2 cups (475 ml) dry red wine\n- 8 ounces (225 g) pearl onions (see notes)\n- 1/4 pound (113 g) slab bacon or salt pork, cut into 1- by 1/4- by 1/4-inch sticks\n- Kosher salt and freshly ground black pepper\n- 8 ounces (225 g) button or cremini mushrooms, woody stems trimmed if necessary, quartered\n- 3 medium carrots (10 ounces; 280 g total), diced (about 1 1/2 cups)\n- 4 medium cloves garlic, crushed\n- 2 sprigs thyme\n- 2 bay leaves\n- 2 cups (475 ml) gelatinous homemade chicken stock (see notes) or low-sodium chicken broth\n- 3 tablespoons (40 g) cold unsalted butter, cubed\n- 1/4 cup minced flat-leaf parsley",
+      "similarity": 0.694614016367676
+    },
+    {
+      "chunkId": "2b606e75-f16d-4a30-8a86-59ff5336de8e",
+      "documentId": "76783447-425d-4e83-8edc-da9f76a25f5d",
+      "sourceName": "Serious Eats",
+      "chunkType": "tips",
+      "content": "菜名：红酒炖鸡\n- If you can't find small 3-pound chickens, use one 4-pound chicken plus 1 pound of chicken legs.\n- Frozen pearl onions can be used in place of fresh; to use frozen onions, cook direct from frozen, skipping Step 2.\n- The chicken stock should have enough gelatin in it that it sets like jello when chilled. If it is thinner than that, you will need to add gelatin. Pour the stock into a large bowl and sprinkle with two packets of unflavored gelatin. Let the gelatin fully hydrate. The stock will have a grainy appearance but will smooth out once added to the recipe.",
+      "similarity": 0.687529943886989
+    },
+    {
+      "chunkId": "dfa900ab-d756-4576-8103-f2b7bc9aeb76",
+      "documentId": "76783447-425d-4e83-8edc-da9f76a25f5d",
+      "sourceName": "Serious Eats",
+      "chunkType": "summary",
+      "content": "菜名：红酒炖鸡\n别名：Coq au Vin (Chicken Braised in Red Wine)\n简介：Coq au Vin (Chicken Braised in Red Wine)",
+      "similarity": 0.680281560437774
+    },
+    {
+      "chunkId": "d56a14db-6b62-4195-935b-abb04a577f19",
+      "documentId": "76783447-425d-4e83-8edc-da9f76a25f5d",
+      "sourceName": "Serious Eats",
+      "chunkType": "technique",
+      "content": "菜名：红酒炖鸡\n- 原文未明确说明技法。",
+      "similarity": 0.673530440558559
+    },
+    {
+      "chunkId": "f3517250-5240-4762-9bb6-c7002d80d455",
+      "documentId": "76783447-425d-4e83-8edc-da9f76a25f5d",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：红酒炖鸡\n4. Remove chicken from zipper-lock bag, reserving wine, and pat dry. Season with salt and pepper. Return Dutch oven with rendered bacon fat to medium-high heat and, working in batches, add chicken, skin side down, and cook until browned, about 7 minutes. Turn and brown other side, about 5 minutes, reducing heat as needed if bottom of Dutch oven is getting too dark. Transfer browned chicken to a wire rack set over a rimmed baking sheet. Reserve at room temperature.\n5. Once all chicken is browned, add mushrooms to Dutch oven and cook over medium-high heat, stirring frequently, until browned, 10 to 12 minutes. Add pearl onions, carrots, and garlic and cook, stirring, until lightly browned, 5 to 8 minutes. Add bacon, wine, thyme, and bay leaves and bring to a simmer, stirring up any browned bits.\n6. Stir in stock. Add chicken legs skin side up, nestling them into the Dutch oven so that they are partially submerged but top of skin is above the liquid. Pour in any accumulated juices from chicken. Transfer to oven and cook, uncovered, for 1 hour.",
+      "similarity": 0.668524603159703
+    },
+    {
+      "chunkId": "d1b84569-5fea-423d-8b87-13ebff4105c0",
+      "documentId": "76783447-425d-4e83-8edc-da9f76a25f5d",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：红酒炖鸡\n1. Preheat oven to 350°F (180°C). Add chicken to a 1-gallon zipper-lock bag. Pour in wine and seal bag, pressing out air. Let stand while you prepare the remaining ingredients.\n2. Using a paring knife, trim off the ends of each onion and score a light \"X\" into one cut side. Bring a small pot of water to a boil over high heat. Add onions and cook until outer layers are soft, about 1 1/2 minutes. Drain onions and run under cool water until cold enough to handle. Peel onions with your fingers and discard peels. The righthand side of the cutting board is covered with the onion peels.\n3. In a large Dutch oven or rondeau, cook bacon over medium-high heat, stirring and reducing heat as necessary to prevent scorching, until browned and fat has rendered, about 10 minutes. Remove from heat and, using a slotted spoon, transfer bacon to a paper towel-lined plate. Reserve drippings in Dutch oven.",
+      "similarity": 0.666952848434453
+    },
+    {
+      "chunkId": "6009b208-f76b-48c8-88c8-5cef49aa9568",
+      "documentId": "76783447-425d-4e83-8edc-da9f76a25f5d",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：红酒炖鸡\n7. Add chicken breasts, nestling them skin side up amongst the legs, and return to the oven. Cook until breasts are just cooked through (they should register 145 to 150°F/63°C to 66°C on an instant-read thermometer), 20 to 25 minutes.\n8. Transfer chicken breasts and legs to a clean rack set over a rimmed backing sheet. Set Dutch oven over medium-low heat and simmer, stirring occasionally, until sauce is lightly viscous, looks slightly glossy, and tastes rich, 15 to 18 minutes. Whisk in butter, then season with salt (if necessary) and pepper. Stir in half of parsley.\n9. Return chicken to pot, spooning sauce on top. Garnish with remaining parsley. Serve right away with buttered potatoes, pasta, or rice.",
+      "similarity": 0.649256624170635
+    }
+  ],
+  "notes": [
+    "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented.",
+    "BBC source original yield: 6",
+    "BBC original totalTime: PT1H45M",
+    "BBC original cookTime: PT1H20M",
+    "BBC original prepTime: PT25M",
+    "Alternative attempts: [{\"url\":\"https://www.bbcgoodfood.com/recipes/coq-au-vin\",\"status\":200,\"bytes\":607077}]",
+    "Current book inventory and22target audit: west-kb-audit.json. Invalid/superseded/rejected history excluded.",
+    "Serious Eats direct Python460/normalPowerShell402/normalChrome402; normalweb.open successfully retrieved the complete recipes included here. All successful complete matching sources ingested separately before selection; no access-control bypass.",
+    "Alternative enabled-site searches and complete observed source text are archived in west-alternative-search.json and west-se-*.txt.",
+    "Selected source has no verified cooking-stage photos; do not fabricate or relabel a finished-dish photo. Parent must resolve manual-run image exception before publishing."
+  ]
+}

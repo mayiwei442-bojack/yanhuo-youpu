@@ -1,0 +1,90 @@
+{
+  "runId": "2026-10-08-remaining44-cn-050",
+  "recipeId": "cn-050",
+  "recipeName": "煎饼果子",
+  "category": "chinese",
+  "status": "failed",
+  "startedAt": "2026-10-08T11:56:52.318Z",
+  "completedAt": "2026-10-08T12:48:16.001Z",
+  "steps": {
+    "research": {
+      "status": "failed",
+      "attempts": 1,
+      "details": {
+        "resultPath": "workflow/batches/2026-10-08-remaining44/cn-050.research-failure.json",
+        "bookSearch": {
+          "auditFile": "cn-book-inventory.json",
+          "scannedDocuments": 84,
+          "usableDocuments": 79,
+          "exactOrAcceptableAliasMatches": 0,
+          "excludedStatuses": [
+            "superseded",
+            "rejected",
+            "invalid"
+          ],
+          "assessment": "No complete same-dish recipe in current database books; no book supplementation fabricated."
+        }
+      }
+    },
+    "ingestion": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "edit": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "validator": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "review": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "build": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "gitPush": {
+      "status": "pending",
+      "attempts": 0
+    }
+  },
+  "sources": [
+    {
+      "name": "豆果美食",
+      "url": "https://m.douguo.com/caipu/煎饼果子",
+      "status": "failed",
+      "failureReason": "normalweb inaccessible"
+    },
+    {
+      "name": "The Woks of Life",
+      "url": "https://thewoksoflife.com/chinese-breakfast-jidan-bing/",
+      "status": "failed",
+      "failureReason": "normalwebsuccess; explicitlynotJianBing inbodylines75-80"
+    },
+    {
+      "name": "The Woks of Life",
+      "url": "https://thewoksoflife.com/jian-bing-approximation/",
+      "status": "failed",
+      "failureReason": "normalwebsuccess; frozen scallionpancake replacesbatter, nofriedfilling inrecipe; rejectmateriallydifferentapproximation"
+    },
+    {
+      "name": "The Woks of Life",
+      "url": "https://thewoksoflife.com/the-jian-bing-experience/",
+      "status": "failed",
+      "failureReason": "normalwebsuccess; travelstory noquantifiedrecipe"
+    }
+  ],
+  "errors": [
+    {
+      "step": "research",
+      "code": "NO_QUALIFYING_COMPLETE_SOURCE",
+      "message": "Woks鸡蛋饼正文明确区分煎饼与鸡蛋饼；其链接JianBingApproximation用速冻葱油饼代替面糊并省略果子，属于不同变体；另一个链接只是游记无配方。豆果目录不可读。",
+      "at": "2026-10-08T12:48:16.001Z"
+    }
+  ],
+  "branch": "codex/recipe-automation",
+  "commit": null
+}

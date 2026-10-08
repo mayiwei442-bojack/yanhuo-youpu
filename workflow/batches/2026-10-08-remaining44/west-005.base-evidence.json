@@ -1,0 +1,325 @@
+{
+  "recipeId": "west-005",
+  "recipeName": "芝士汉堡",
+  "category": "western",
+  "createdAt": "2026-10-08T12:09:44.462Z",
+  "sources": [
+    {
+      "sourceName": "BBC Good Food",
+      "sourceType": "website",
+      "url": "https://www.bbcgoodfood.com/recipes/cheeseburgers",
+      "documentId": "ef51a7d5-65e7-4c2c-abc1-783bdcf65a01",
+      "retrievalMethod": "ordinary HTTPS GET; complete accessible page JSON-LD and DOM independently inspected",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "beef mince (ideally 15-20% fat)",
+          "raw": "450g beef mince (ideally 15-20% fat)",
+          "amount": null
+        },
+        {
+          "name": "Worcestershire sauce",
+          "raw": "2 tbsp Worcestershire sauce",
+          "amount": null
+        },
+        {
+          "name": "cheddar or Red Leicester slices",
+          "raw": "8 cheddar or Red Leicester slices",
+          "amount": null
+        },
+        {
+          "name": "chipotle paste",
+          "raw": "1 tbsp chipotle paste",
+          "amount": null
+        },
+        {
+          "name": "tomato ketchup",
+          "raw": "5 tbsp tomato ketchup",
+          "amount": null
+        },
+        {
+          "name": "mayonnaise",
+          "raw": "2 tbsp mayonnaise",
+          "amount": null
+        },
+        {
+          "name": "arge soft brioche buns (available in Marks & Spencer and Waitrose) or burger buns, halved",
+          "raw": "4 large soft brioche buns (available in Marks & Spencer and Waitrose) or burger buns, halved",
+          "amount": null
+        },
+        {
+          "name": "thick leaves iceberg lettuces",
+          "raw": "4 thick leaves iceberg lettuces",
+          "amount": null
+        },
+        {
+          "name": "thick slices beefsteak tomatoes",
+          "raw": "4 thick slices beefsteak tomatoes",
+          "amount": null
+        },
+        {
+          "name": "very thin slices red onions",
+          "raw": "4 very thin slices red onions",
+          "amount": null
+        },
+        {
+          "name": "Bread & butter pickles (see Goes well with) or 2 gherkins thinly sliced",
+          "raw": "16 Bread & butter pickles (see Goes well with) or 2 gherkins thinly sliced",
+          "amount": null
+        },
+        {
+          "name": "salt",
+          "raw": "1 generous tsp salt (method step1)",
+          "amount": null
+        },
+        {
+          "name": "black pepper",
+          "raw": "black pepper (method step1; amount unspecified)",
+          "amount": null
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Put the meat and Worcestershire sauce in a bowl and season with black pepper and 1 generous tsp salt. Mix together well, then shape the meat into 4 thin, flat burgers. Chill until needed. Can be made a day ahead. Combine the chipotle paste, ketchup and mayonnaise in a bowl to make a sauce.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "Heat a gas or charcoal barbecue to high (or you can use a griddle pan on the hob). Cook the burgers over direct heat for 2 mins each side or until grill marks appear. Top each with 2 slices of cheese and cook for another 30 secs or until melted, then remove from the heat. Toast the buns for a few seconds on the cut-side.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "Spread a little of the spicy sauce on the base of each bun and top with lettuce, tomato, a burger patty, onion and pickles. Top with the bun lid and devour immediately.",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [],
+      "tips": [],
+      "rawExcerpt": "{\n  \"@context\": \"https://schema.org\",\n  \"@id\": \"https://www.bbcgoodfood.com/recipes/cheeseburgers#Recipe\",\n  \"@type\": \"Recipe\",\n  \"description\": \"These diner-style cheeseburgers have gooey melted cheese and all the fixings - the ultimate American beef burgers for a barbecue feast\",\n  \"image\": [\n    {\n      \"@type\": \"ImageObject\",\n      \"url\": \"https://images.immediate.co.uk/production/volatile/sites/30/2020/08/cheeseburgers-7860fc6.jpg?resize=768,698\",\n      \"width\": 768,\n      \"height\": 698\n    },\n    {\n      \"@type\": \"ImageObject\",\n      \"url\": \"https://images.immediate.co.uk/production/volatile/sites/30/2020/08/cheeseburgers-7860fc6.jpg?resize=1366,1242\",\n      \"width\": 1366,\n      \"height\": 1242\n    }\n  ],\n  \"mainEntityOfPage\": {\n    \"@type\": \"WebPage\",\n    \"@id\": \"https://www.bbcgoodfood.com/recipes/cheeseburgers\"\n  },\n  \"name\": \"Best cheeseburgers\",\n  \"url\": \"https://www.bbcgoodfood.com/recipes/cheeseburgers\",\n  \"author\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Jennifer Joyce\",\n      \"url\": \"https://www.bbcgoodfood.com/author/jenniferjoyce\"\n    }\n  ],\n  \"dateModified\": \"2022-11-08T14:32:00+00:00\",\n  \"datePublished\": \"2015-07-15T15:40:01+01:00\",\n  \"headline\": \"Best cheeseburgers\",\n  \"keywords\": \"1 of 5-a-day, 10-30 minutes, 4 servings, 800 kcal or less, American burger, Barbecue, beef burger recipe, Calcium, Folate, Indulgent, Jennifer Joyce, slider, Summer\",\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Good Food\",\n    \"url\": \"https://www.bbcgoodfood.com\",\n    \"logo\": {\n      \"@type\": \"ImageObject\",\n      \"height\": 325,\n      \"url\": \"https://images.immediate.co.uk/production/volatile/sites/30/2026/02/goodfood.logo-f37096c.png?resize=1312,325\",\n      \"width\": 1312\n    }\n  },\n  \"cookTime\": \"PT10M\",\n  \"nutrition\": {\n    \"@type\": \"NutritionInformation\",\n    \"calories\": \"723 calories\",\n    \"fatContent\": \"44 grams fat\",\n    \"saturatedFatContent\": \"18 grams saturated fat\",\n    \"carbohydrateContent\": \"44 grams carbohydrates\",\n    \"sugarContent\": \"19 grams sugar\",\n    \"fiberContent\": \"3 grams fiber\",\n    \"proteinContent\": \"36 grams protein\",\n    \"sodiumContent\": \"4.7 milligram of sodium\"\n  },\n  \"prepTime\": \"PT10M\",\n  \"recipeCategory\": \"Dinner, Lunch, Main course, Supper, Treat\",\n  \"recipeCuisine\": \"American\",\n  \"recipeIngredient\": [\n    \"450g beef mince (ideally 15-20% fat)\",\n    \"2 tbsp Worcestershire sauce\",\n    \"8 cheddar or Red Leicester slices\",\n    \"1 tbsp chipotle paste\",\n    \"5 tbsp tomato ketchup\",\n    \"2 tbsp mayonnaise\",\n    \"4 large soft brioche buns (available in Marks &amp; Spencer and Waitrose) or burger buns, halved\",\n    \"4 thick leaves iceberg lettuces\",\n    \"4 thick slices beefsteak tomatoes\",\n    \"4 very thin slices red onions\",\n    \"16 Bread &amp; butter pickles (see Goes well with) or 2 gherkins thinly sliced\"\n  ],\n  \"recipeInstructions\": [\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Put the meat and Worcestershire sauce in a bowl and season with black pepper and 1 generous tsp salt. Mix together well, then shape the meat into 4 thin, flat burgers. Chill until needed. Can be made a day ahead. Combine the chipotle paste, ketchup and mayonnaise in a bowl to make a sauce.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Heat a gas or charcoal barbecue to high (or you can use a griddle pan on the hob). Cook the burgers over direct heat for 2 mins each side or until grill marks appear. Top each with 2 slices of cheese and cook for another 30 secs or until melted, then remove from the heat. Toast the buns for a few seconds on the cut-side.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Spread a little of the spicy sauce on the base of each bun and top with lettuce, tomato, a burger patty, onion and pickles. Top with the bun lid and devour immediately.\"\n    }\n  ],\n  \"recipeYield\": \"Makes 4\",\n  \"totalTime\": \"PT20M\"\n}",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 1,
+        "mappedStepImages": 0,
+        "stepImageCoverage": 0,
+        "ingredientCount": 13,
+        "executableStepCount": 3,
+        "notes": [
+          "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented."
+        ]
+      }
+    },
+    {
+      "sourceName": "Serious Eats",
+      "sourceType": "website",
+      "url": "https://www.seriouseats.com/ultra-crispy-burgers-recipe",
+      "documentId": "2ea4e999-7e04-4390-a544-e915356f6c9c",
+      "retrievalMethod": "normal web.open full accessible page; merged overlapping line ranges; direct requests460 and browser402 retained as transport history",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "6 ounces beef sirloin, trimmed of gristle, and cut into 1-inch cubes",
+          "raw": "6 ounces beef sirloin, trimmed of gristle, and cut into 1-inch cubes",
+          "amount": null
+        },
+        {
+          "name": "5 ounces beef brisket, trimmed of gristle, and cut into 1-inch cubes",
+          "raw": "5 ounces beef brisket, trimmed of gristle, and cut into 1-inch cubes",
+          "amount": null
+        },
+        {
+          "name": "12 ounces oxtail, fat and meat carefully removed from bone and trimmed of silverskin, bones discarded or reserved for another use (about 5 ounces of combined meat and fat)",
+          "raw": "12 ounces oxtail, fat and meat carefully removed from bone and trimmed of silverskin, bones discarded or reserved for another use (about 5 ounces of combined meat and fat)",
+          "amount": null
+        },
+        {
+          "name": "Kosher salt and freshly ground black pepper",
+          "raw": "Kosher salt and freshly ground black pepper",
+          "amount": null
+        },
+        {
+          "name": "1/2 teaspoon vegetable oil",
+          "raw": "1/2 teaspoon vegetable oil",
+          "amount": null
+        },
+        {
+          "name": "4 slices American cheese",
+          "raw": "4 slices American cheese",
+          "amount": null
+        },
+        {
+          "name": "4 soft white burger buns, lightly toasted",
+          "raw": "4 soft white burger buns, lightly toasted",
+          "amount": null
+        },
+        {
+          "name": "Pickles chips and sliced onions (optional)",
+          "raw": "Pickles chips and sliced onions (optional)",
+          "amount": null
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Place feed shaft, blade, and 1/4-inch die of meat grinder in freezer until well-chilled. Meanwhile, place meat chunks on rimmed baking sheet, leaving space between each piece and place in freezer for 10 minutes until meat is firm, but not frozen.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "Combine meat in large bowl and toss to combine. Grind meat directly onto parchment or foil-lined rimmed baking sheet.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "Without picking the meat up, divide it into four piles on baking sheet and gently press piles into patties approximately 4-inches wide and 1/2-inch thick. Patties should remain loose and have ragged edges. Season generously with salt and pepper. Using wide spatula, carefully flip patties over (some may fall apart - just push them together again). Season second side with salt and pepper and refrigerate until ready to use (can be stored on sheet tray covered with plastic wrap in refrigerator for up to 1 day).",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "Heat vegetable oil in heavy-bottomed 8-inch sauté pan over high heat until smoking. Carefully transfer patty to skillet and cook without moving until dark crust forms, about 2 1/2 minutes (open your window, disarm your fire alarm, and be prepared for splatters). Using spatula, carefully flip patty and top with cheese. Continue to cook for one to two minutes longer until desired doneness is reached (patty will be at least medium, but will still remain juicy even until well-done)",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 5,
+          "instruction": "Meanwhile, place pickles and onions on burger bun bottom if desired. Top with cooked patty, close buns, and eat immediately. Repeat with remaining burgers, discarding all but 1 teaspoon fat from skillet between burgers. ### This Recipe Appears In * The Burger Lab: The World's Best Burger for a Single Man (or Woman) Save Rate Print [Input]",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [],
+      "tips": [],
+      "rawExcerpt": "iframe†www.googletagmanager.com\n\nSerious Eats\n\nSave\n\nRate\n\n* Search [Input: What are you looking for?]\n\n* Newsletters\n* Sweepstakes\n* Serious Eats\n# Ultra Crispy Burgers Recipe\n\n4.8\n\n(4)\n\n24 Reviews\n\nBy\n\nJ. Kenji López-Alt\n\nImage: Kenji Lopez Alt Image: Kenji Lopez Alt\n\nJ. Kenji López-Alt\n\nKenji is the former culinary director for Serious Eats and a current culinary consultant for the site. He is also a New York Times food columnist and the author of The Food Lab: Better Home Cooking Through Science.\n\nSerious Eats' Editorial Guidelines\n\nUpdated on March 19, 2025\n\nClose\nImage: a crispy cheeseburger Image: a crispy cheeseburger\n\nCredit:\n\nSerious Eats / J. Kenji Lopez-Alt\n\nJump to recipe\n\nCrispy, meet burger: Check out the delicious details here.\n\nPrep Time:\n\n15 mins\n\nCook Time:\n\n10 mins\n\nFreeze:\n\n10 mins\n\nTotal Time:\n\n35 mins\n\nServings:\n\n4 burgers\n\nYield:\n\n4 burgers\n\n[Button: Jump to Nutrition Facts]\n\nKeep Screen Awake\n## Ingredients\n\n* 6 ounces beef sirloin, trimmed of gristle, and cut into 1-inch cubes\n\n* 5 ounces beef brisket, trimmed of gristle, and cut into 1-inch cubes\n\n* 12 ounces oxtail, fat and meat carefully removed from bone and trimmed of silverskin, bones discarded or reserved for another use (about 5 ounces of combined meat and fat)\n\n* Kosher salt and freshly ground black pepper\n\n* 1/2 teaspoon vegetable oil\n\n* 4 slices American cheese\n\n* 4 soft white burger buns, lightly toasted\n* Pickles chips and sliced onions (optional)\n## Directions\n\n1. Place feed shaft, blade, and 1/4-inch die of meat grinder in freezer until well-chilled. Meanwhile, place meat chunks on rimmed baking sheet, leaving space between each piece and place in freezer for 10 minutes until meat is firm, but not frozen.\n\n2. Combine meat in large bowl and toss to combine. Grind meat directly onto parchment or foil-lined rimmed baking sheet.\n3. Without picking the meat up, divide it into four piles on baking sheet and gently press piles into patties approximately 4-inches wide and 1/2-inch thick. Patties should remain loose and have ragged edges. Season generously with salt and pepper. Using wide spatula, carefully flip patties over (some may fall apart - just push them together again).\nSeason second side with salt and pepper and refrigerate until ready to use (can be stored on sheet tray covered with plastic wrap in refrigerator for up to 1 day).\n4. Heat vegetable oil in heavy-bottomed 8-inch sauté pan over high heat until smoking. Carefully transfer patty to skillet and cook without moving until dark crust forms, about 2 1/2 minutes (open your window, disarm your fire alarm, and be prepared for splatters). Using spatula, carefully flip patty and top with cheese. Continue to cook for one to two minutes longer until desired doneness is reached (patty will be at least medium, but will still remain juicy even until well-done)\n5. Meanwhile, place pickles and onions on burger bun bottom if desired. Top with cooked patty, close buns, and eat immediately. Repeat with remaining burgers, discarding all but 1 teaspoon fat from skillet between burgers.\n### This Recipe Appears In\n\n* The Burger Lab: The World's Best Burger for a Single Man (or Woman)\n\nSave\n\nRate\n\nPrint [Input]\n## Nutrition Facts (per serving)\n\n839  | Calories\n46g  | Fat\n31g  | Carbs\n73g  | Protein\n\nShow Full Nutrition Label Hide Full Nutrition Label\n\nNutrition Facts\n---\nServings Per Recipe 4\n---\nCalories 839\n---\n% Daily Value *\nTotal Carbohydrate 31g  | 11%\nDietary Fiber 1g  | 4%\nTotal Sugars 5g\nProtein 73g  | 146%\nTotal Fat 46g  | 59%\nSaturated Fat 20g  | 98%\nCholesterol 236mg  | 79%\nVitamin C 1mg  | 1%\nSodium 952mg  | 41%\nCalcium 409mg  | 31%\nIron 9mg  | 47%\nPotassium 853mg  | 18%\n* Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs.\n\nLoading shell for RecipesUgcThreaded1 Vue component in Globe.\n## Related Articles\nThe Ultimate Smash Cheeseburger 10 mins The Fake Shack (or the Shack Burger at Home) 40 mins Mornay and Mushroom Duxelles Burger With Crispy Shallots Recipe 55 mins Classic Smashed Burgers 15 mins Oklahoma-Style Onion Burgers Recipe 25 mins Hot and Smoky Cheeseburgers With Bacon and Pickled Cherry Pepper Relish Recipe 45 mins In-N-Out's Double-Double, Animal Style Recipe 1 hr 5 mins Cemita Burger With Refried Beans, Chipotle Mayo, Avocado, and Oaxacan Cheese Recipe 30 mins\nUltra-Smashed Brunch Burgers With Quick Jalapeño Hollandaise Recipe 35 mins The In-N-Out/Telway/White Manna Ultimate Animal-Style Slider Mashup Recipe 25 mins Insanity Burger From 'Jamie Oliver's Comfort Food' 45 mins Ramen Burger Recipe 20 mins A Better Big Mac Recipe 30 mins Maitre d'Hotel Butter Burger With Garlic Confit and Seared Romaine Recipe 30 mins (More) Ultimate(est) Perfect Sliders Recipe 45 mins Burger Toppings Week: Japanese Miso-Eggplant Burger With Fresh Pickles\nNewsletter Sign Up\n\nNewsletter Sign Up",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 0,
+        "mappedStepImages": 0,
+        "stepImageCoverage": 0,
+        "ingredientCount": 8,
+        "executableStepCount": 5,
+        "notes": [
+          "Page images and step adjacencies visible in web.open; original binary URLs not returned by failed web.click. No verified downloadable media available, no invented image mappings.",
+          "Source quantities with mixed units retained verbatim; no vessel capacity inferred."
+        ]
+      }
+    }
+  ],
+  "sourceMode": "multi_source",
+  "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/cheeseburgers",
+  "selectionReason": "Selected exactly one whole BBC recipe: full coherent ingredients/method match the target; verified usable hero (no source step photos available). Other sources have no verified usable media URLs under ordinary access. Under the required completeness/coherence then usable-image/coverage ranking, this source leads; its ingredients, operations, tips and media are kept together without supplementation.",
+  "ragEvidence": [
+    {
+      "chunkId": "b8bc32cb-aae8-4569-b8da-e4ffd256872a",
+      "documentId": "ef51a7d5-65e7-4c2c-abc1-783bdcf65a01",
+      "sourceName": "BBC Good Food",
+      "chunkType": "summary",
+      "content": "菜名：芝士汉堡\n别名：Best cheeseburgers\n菜系：American\n简介：These diner-style cheeseburgers have gooey melted cheese and all the fixings - the ultimate American beef burgers for a barbecue feast",
+      "similarity": 0.718501887276825
+    },
+    {
+      "chunkId": "cd9f5039-634d-410a-b6eb-0e9fa3f9cb8d",
+      "documentId": "ef51a7d5-65e7-4c2c-abc1-783bdcf65a01",
+      "sourceName": "BBC Good Food",
+      "chunkType": "tips",
+      "content": "菜名：芝士汉堡\n- 原文未提供额外提示。",
+      "similarity": 0.715472757816315
+    },
+    {
+      "chunkId": "3b20ac99-fe4d-44be-b037-73b000649546",
+      "documentId": "ef51a7d5-65e7-4c2c-abc1-783bdcf65a01",
+      "sourceName": "BBC Good Food",
+      "chunkType": "technique",
+      "content": "菜名：芝士汉堡\n- 原文未明确说明技法。",
+      "similarity": 0.70027418731009
+    },
+    {
+      "chunkId": "670f259c-443e-4200-ba37-c37111f15d37",
+      "documentId": "ef51a7d5-65e7-4c2c-abc1-783bdcf65a01",
+      "sourceName": "BBC Good Food",
+      "chunkType": "steps",
+      "content": "菜名：芝士汉堡\n1. Put the meat and Worcestershire sauce in a bowl and season with black pepper and 1 generous tsp salt. Mix together well, then shape the meat into 4 thin, flat burgers. Chill until needed. Can be made a day ahead. Combine the chipotle paste, ketchup and mayonnaise in a bowl to make a sauce.\n2. Heat a gas or charcoal barbecue to high (or you can use a griddle pan on the hob). Cook the burgers over direct heat for 2 mins each side or until grill marks appear. Top each with 2 slices of cheese and cook for another 30 secs or until melted, then remove from the heat. Toast the buns for a few seconds on the cut-side.\n3. Spread a little of the spicy sauce on the base of each bun and top with lettuce, tomato, a burger patty, onion and pickles. Top with the bun lid and devour immediately.",
+      "similarity": 0.695162734245144
+    },
+    {
+      "chunkId": "07f91f30-c3ce-41ed-ae49-77b45891a660",
+      "documentId": "ef51a7d5-65e7-4c2c-abc1-783bdcf65a01",
+      "sourceName": "BBC Good Food",
+      "chunkType": "ingredients",
+      "content": "菜名：芝士汉堡\n- 450g beef mince (ideally 15-20% fat)\n- 2 tbsp Worcestershire sauce\n- 8 cheddar or Red Leicester slices\n- 1 tbsp chipotle paste\n- 5 tbsp tomato ketchup\n- 2 tbsp mayonnaise\n- 4 large soft brioche buns (available in Marks & Spencer and Waitrose) or burger buns, halved\n- 4 thick leaves iceberg lettuces\n- 4 thick slices beefsteak tomatoes\n- 4 very thin slices red onions\n- 16 Bread & butter pickles (see Goes well with) or 2 gherkins thinly sliced\n- 1 generous tsp salt (method step1)\n- black pepper (method step1; amount unspecified)",
+      "similarity": 0.689003188073446
+    },
+    {
+      "chunkId": "44fd0755-348d-4c38-a6a4-a4e6b4678a0c",
+      "documentId": "2ea4e999-7e04-4390-a544-e915356f6c9c",
+      "sourceName": "Serious Eats",
+      "chunkType": "summary",
+      "content": "菜名：芝士汉堡\n别名：Ultra Crispy Burgers Recipe\n简介：Ultra Crispy Burgers Recipe",
+      "similarity": 0.73430362530904
+    },
+    {
+      "chunkId": "0e26eccb-9d86-4c46-b17f-72fadbb9b168",
+      "documentId": "2ea4e999-7e04-4390-a544-e915356f6c9c",
+      "sourceName": "Serious Eats",
+      "chunkType": "tips",
+      "content": "菜名：芝士汉堡\n- 原文未提供额外提示。",
+      "similarity": 0.716394126415253
+    },
+    {
+      "chunkId": "2bbf04aa-85ae-49ac-89a9-53d089917fc2",
+      "documentId": "2ea4e999-7e04-4390-a544-e915356f6c9c",
+      "sourceName": "Serious Eats",
+      "chunkType": "technique",
+      "content": "菜名：芝士汉堡\n- 原文未明确说明技法。",
+      "similarity": 0.700159031143248
+    },
+    {
+      "chunkId": "f22f29a1-c914-4727-899d-8501052e4b04",
+      "documentId": "2ea4e999-7e04-4390-a544-e915356f6c9c",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：芝士汉堡\n1. Place feed shaft, blade, and 1/4-inch die of meat grinder in freezer until well-chilled. Meanwhile, place meat chunks on rimmed baking sheet, leaving space between each piece and place in freezer for 10 minutes until meat is firm, but not frozen.\n2. Combine meat in large bowl and toss to combine. Grind meat directly onto parchment or foil-lined rimmed baking sheet.\n3. Without picking the meat up, divide it into four piles on baking sheet and gently press piles into patties approximately 4-inches wide and 1/2-inch thick. Patties should remain loose and have ragged edges. Season generously with salt and pepper. Using wide spatula, carefully flip patties over (some may fall apart - just push them together again). Season second side with salt and pepper and refrigerate until ready to use (can be stored on sheet tray covered with plastic wrap in refrigerator for up to 1 day).",
+      "similarity": 0.688943903979297
+    },
+    {
+      "chunkId": "8babf94a-d8ee-4d77-9ff8-1462e804d025",
+      "documentId": "2ea4e999-7e04-4390-a544-e915356f6c9c",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：芝士汉堡\n4. Heat vegetable oil in heavy-bottomed 8-inch sauté pan over high heat until smoking. Carefully transfer patty to skillet and cook without moving until dark crust forms, about 2 1/2 minutes (open your window, disarm your fire alarm, and be prepared for splatters). Using spatula, carefully flip patty and top with cheese. Continue to cook for one to two minutes longer until desired doneness is reached (patty will be at least medium, but will still remain juicy even until well-done)\n5. Meanwhile, place pickles and onions on burger bun bottom if desired. Top with cooked patty, close buns, and eat immediately. Repeat with remaining burgers, discarding all but 1 teaspoon fat from skillet between burgers. ### This Recipe Appears In * The Burger Lab: The World's Best Burger for a Single Man (or Woman) Save Rate Print [Input]",
+      "similarity": 0.684887826442719
+    },
+    {
+      "chunkId": "86d252e8-d8de-4e22-8379-72e6618b98ce",
+      "documentId": "2ea4e999-7e04-4390-a544-e915356f6c9c",
+      "sourceName": "Serious Eats",
+      "chunkType": "ingredients",
+      "content": "菜名：芝士汉堡\n- 6 ounces beef sirloin, trimmed of gristle, and cut into 1-inch cubes\n- 5 ounces beef brisket, trimmed of gristle, and cut into 1-inch cubes\n- 12 ounces oxtail, fat and meat carefully removed from bone and trimmed of silverskin, bones discarded or reserved for another use (about 5 ounces of combined meat and fat)\n- Kosher salt and freshly ground black pepper\n- 1/2 teaspoon vegetable oil\n- 4 slices American cheese\n- 4 soft white burger buns, lightly toasted\n- Pickles chips and sliced onions (optional)",
+      "similarity": 0.674610833800486
+    }
+  ],
+  "notes": [
+    "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented.",
+    "BBC source original yield: Makes 4",
+    "BBC original totalTime: PT20M",
+    "BBC original cookTime: PT10M",
+    "BBC original prepTime: PT10M",
+    "Alternative attempts: [{\"url\":\"https://www.bbcgoodfood.com/recipes/cheeseburger\",\"status\":404,\"bytes\":427587},{\"url\":\"https://www.bbcgoodfood.com/recipes/classic-burger\",\"status\":404,\"bytes\":427589},{\"url\":\"https://www.bbcgoodfood.com/recipes/cheeseburgers\",\"status\":200,\"bytes\":566150}]",
+    "Current book inventory and22target audit: west-kb-audit.json. Invalid/superseded/rejected history excluded.",
+    "Serious Eats direct Python460/normalPowerShell402/normalChrome402; normalweb.open successfully retrieved the complete recipes included here. All successful complete matching sources ingested separately before selection; no access-control bypass.",
+    "Alternative enabled-site searches and complete observed source text are archived in west-alternative-search.json and west-se-*.txt.",
+    "Selected source has no verified cooking-stage photos; do not fabricate or relabel a finished-dish photo. Parent must resolve manual-run image exception before publishing."
+  ]
+}

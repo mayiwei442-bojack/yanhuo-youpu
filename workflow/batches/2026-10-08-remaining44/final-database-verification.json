@@ -1,0 +1,2939 @@
+{
+  "startedAt": "2026-10-08T17:06:34.368Z",
+  "scope": "44-recipe remaining44 manifest; selected current evidence and every separately retained candidate; Supabase GET/read and normal retrieval RPC only. No website fetch or DB mutation.",
+  "manifestRecipeCount": 44,
+  "evidenceRecipeCount": 33,
+  "frozenEvidenceCount": 10,
+  "baseEvidenceAwaitingPhotosCount": 23,
+  "documents": [
+    {
+      "documentId": "64811085-e1d5-4a9b-a1fc-ddb00b282459",
+      "recipeIds": [
+        "cn-013"
+      ],
+      "recipeName": "胡辣汤",
+      "sourceUrl": "https://www.douguo.com/cookbook/3300061.html",
+      "sourceAuthor": null,
+      "sourceAuthorDisclosure": "Unknown in original content identity; known source byline is separately traceable in mediaReferences, no unsupported source.author rewrite.",
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "1090c5da90970efbcb10080012962cffd4f2283827564e86ca6a664b6a5b2263",
+      "chunkCount": 5,
+      "embeddingDimensionCounts": {
+        "1024": 5
+      },
+      "selectedForRecipe": null,
+      "projectRecipeId": "cn-013",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "878e7199df0318f70ac576e05dd2eb2f6354a2c84f7ec0eef57e0f86844c69a6",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": []
+    },
+    {
+      "documentId": "0ff9202a-963e-4b37-a713-4d7d344dd8ab",
+      "recipeIds": [
+        "cn-019"
+      ],
+      "recipeName": "东坡肉",
+      "sourceUrl": "https://thewoksoflife.com/braised-pork-belly-dong-po-rou/",
+      "sourceAuthor": null,
+      "sourceAuthorDisclosure": "Unknown in original content identity; known source byline is separately traceable in mediaReferences, no unsupported source.author rewrite.",
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "031a3329a4344b4f68dad4cbe42344cfdab1c350edf07a1572fc2acae93b5af1",
+      "chunkCount": 6,
+      "embeddingDimensionCounts": {
+        "1024": 6
+      },
+      "selectedForRecipe": "cn-019",
+      "projectRecipeId": "cn-019",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "22568880bb6a806a0014c6d42f46e048747637f89ccc72b3997a8f25444fd3c7",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": [
+        {
+          "recipeId": "cn-019",
+          "author": "Judy",
+          "bothMetadataCopiesEqualFrozenEvidence": true,
+          "imageCount": 8,
+          "fullMediaHash": "160cf94f0407687bd27971af74b72f601463506725956bc7598043b10d655749"
+        }
+      ]
+    },
+    {
+      "documentId": "2be1111d-2cd1-42dd-b183-990a063573e7",
+      "recipeIds": [
+        "cn-020"
+      ],
+      "recipeName": "白切鸡",
+      "sourceUrl": "https://thewoksoflife.com/cantonese-poached-chicken-w-ginger-scallion-oil-bai-qie-ji/",
+      "sourceAuthor": null,
+      "sourceAuthorDisclosure": "Unknown in original content identity; known source byline is separately traceable in mediaReferences, no unsupported source.author rewrite.",
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "eb32558ffdd839cf43d39a2dfe599e173000125b2021866a9541a17e1ba09be3",
+      "chunkCount": 8,
+      "embeddingDimensionCounts": {
+        "1024": 8
+      },
+      "selectedForRecipe": "cn-020",
+      "projectRecipeId": "cn-020",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "6081afb6a7b851c2d3404d3174a386fe9c17c94ef8928b10516451e04a83fb60",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": [
+        {
+          "recipeId": "cn-020",
+          "author": "Bill",
+          "bothMetadataCopiesEqualFrozenEvidence": true,
+          "imageCount": 13,
+          "fullMediaHash": "ccbd4e76efbbc1cb4ee6ab81dac6b3afdbb99aa4e43bc1c41db1fffadb7924ff"
+        }
+      ]
+    },
+    {
+      "documentId": "3ef0f122-545b-407b-af57-d247126d1390",
+      "recipeIds": [
+        "cn-031"
+      ],
+      "recipeName": "家常豆腐",
+      "sourceUrl": "https://thewoksoflife.com/home-style-tofu-stir-fry/",
+      "sourceAuthor": null,
+      "sourceAuthorDisclosure": "Unknown in original content identity; known source byline is separately traceable in mediaReferences, no unsupported source.author rewrite.",
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "a13e05e91f10921fe5ddb8308d91dfe3ae7edd228fae40dadc3063474a2c1f8c",
+      "chunkCount": 5,
+      "embeddingDimensionCounts": {
+        "1024": 5
+      },
+      "selectedForRecipe": "cn-031",
+      "projectRecipeId": "cn-031",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "46bbc29752e2c25556019130ed31f28475e996bffbebff01f3c89199984c6295",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": [
+        {
+          "recipeId": "cn-031",
+          "author": "Judy",
+          "bothMetadataCopiesEqualFrozenEvidence": true,
+          "imageCount": 8,
+          "fullMediaHash": "fefb7d47a6ec6bba45f8001dd07bbd99c3df26101d34bf105aad44531740e74a"
+        }
+      ]
+    },
+    {
+      "documentId": "fc8be572-9638-48b4-8fb1-b416a9893e56",
+      "recipeIds": [
+        "cn-035"
+      ],
+      "recipeName": "冬瓜排骨汤",
+      "sourceUrl": "https://thewoksoflife.com/winter-melon-soup-pork-ribs/",
+      "sourceAuthor": null,
+      "sourceAuthorDisclosure": "Unknown in original content identity; known source byline is separately traceable in mediaReferences, no unsupported source.author rewrite.",
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "30751875be216c9a346f2e595e443454cf6e964758568d1f0724dc3cc39bb18f",
+      "chunkCount": 6,
+      "embeddingDimensionCounts": {
+        "1024": 6
+      },
+      "selectedForRecipe": "cn-035",
+      "projectRecipeId": "cn-035",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "143a8c67e4f2cc9745b937614d89650fb5438072029a3f36f53c3ffc812057d1",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": [
+        {
+          "recipeId": "cn-035",
+          "author": "Judy",
+          "bothMetadataCopiesEqualFrozenEvidence": true,
+          "imageCount": 8,
+          "fullMediaHash": "0a7d9ec2b81d843a4ab91924f9e65193c411c43f5edf751b44da2aaacd3c237c"
+        }
+      ]
+    },
+    {
+      "documentId": "e9ce4921-06d9-457d-b816-2eb881079e56",
+      "recipeIds": [
+        "cn-039"
+      ],
+      "recipeName": "海南鸡饭",
+      "sourceUrl": "https://thewoksoflife.com/hainanese-chicken-rice/",
+      "sourceAuthor": null,
+      "sourceAuthorDisclosure": "Unknown in original content identity; known source byline is separately traceable in mediaReferences, no unsupported source.author rewrite.",
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "5b4b5a75eb3deb49e96ac4be5e3b80ac1480eeacceb0a7e13c78f23d5f4fa2a7",
+      "chunkCount": 9,
+      "embeddingDimensionCounts": {
+        "1024": 9
+      },
+      "selectedForRecipe": "cn-039",
+      "projectRecipeId": "cn-039",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "4ec4a63f5e21de5e451d38751d950f6a476cf8c81a641239906f322e08bbefe1",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": [
+        {
+          "recipeId": "cn-039",
+          "author": "Judy",
+          "bothMetadataCopiesEqualFrozenEvidence": true,
+          "imageCount": 25,
+          "fullMediaHash": "c1d24de685abf49414491dc5c3ca8939a32c2ee55acc886674eda6992b726304"
+        }
+      ]
+    },
+    {
+      "documentId": "72ce298f-8af6-4c11-860b-dd60f9445054",
+      "recipeIds": [
+        "cn-040"
+      ],
+      "recipeName": "担担面",
+      "sourceUrl": "https://thewoksoflife.com/dan-dan-noodles/",
+      "sourceAuthor": null,
+      "sourceAuthorDisclosure": "Unknown in original content identity; known source byline is separately traceable in mediaReferences, no unsupported source.author rewrite.",
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "c9d9e07c69df7dcce5cb4dbbf4bbfdaed07825c80e2b18fd931285b53ef238e0",
+      "chunkCount": 6,
+      "embeddingDimensionCounts": {
+        "1024": 6
+      },
+      "selectedForRecipe": "cn-040",
+      "projectRecipeId": "cn-040",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "f5a248bc0b5806e809a777dfcac1f618e0eb61122fce92dc1e0726b3c22fbaeb",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": [
+        {
+          "recipeId": "cn-040",
+          "author": "Judy",
+          "bothMetadataCopiesEqualFrozenEvidence": true,
+          "imageCount": 14,
+          "fullMediaHash": "a460b54488310ad722e915491936ea751be4e545286bf51fc90cce6d314232b6"
+        }
+      ]
+    },
+    {
+      "documentId": "6d4bc2d5-d6db-4913-b97f-a04179a32c3b",
+      "recipeIds": [
+        "cn-044"
+      ],
+      "recipeName": "小笼包",
+      "sourceUrl": "https://thewoksoflife.com/steamed-shanghai-soup-dumplings-xiaolongbao/",
+      "sourceAuthor": null,
+      "sourceAuthorDisclosure": "Unknown in original content identity; known source byline is separately traceable in mediaReferences, no unsupported source.author rewrite.",
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "274cb978a62e83f8f686264cefc7b35978aab0176a4a50550724a84f59fafb79",
+      "chunkCount": 8,
+      "embeddingDimensionCounts": {
+        "1024": 8
+      },
+      "selectedForRecipe": "cn-044",
+      "projectRecipeId": "cn-044",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "1f44fa86b42856527925cf041ca8143c3e0057e159f9f4117ddf0af23aed0326",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": [
+        {
+          "recipeId": "cn-044",
+          "author": "Judy",
+          "bothMetadataCopiesEqualFrozenEvidence": true,
+          "imageCount": 13,
+          "fullMediaHash": "6b1e9bfe8f9f8291ac49fb82d4e52bb9fa102336e0c4a9469ad98fc3bb141c85"
+        }
+      ]
+    },
+    {
+      "documentId": "d45ed17d-216f-4704-9a67-6d247f9705e5",
+      "recipeIds": [
+        "cn-049"
+      ],
+      "recipeName": "肉夹馍",
+      "sourceUrl": "https://thewoksoflife.com/chinese-hamburgers-rou-jia-mo/",
+      "sourceAuthor": null,
+      "sourceAuthorDisclosure": "Unknown in original content identity; known source byline is separately traceable in mediaReferences, no unsupported source.author rewrite.",
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "c2f122f0722eb9edacc59c115eb7af9f8c464363d1e85a48d0b940638b5261fc",
+      "chunkCount": 8,
+      "embeddingDimensionCounts": {
+        "1024": 8
+      },
+      "selectedForRecipe": null,
+      "projectRecipeId": "cn-049",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "99dccd3b6e372810735caa302259d4a954f556bb9cfef91a1ad806fc2b72beb0",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": []
+    },
+    {
+      "documentId": "16f8f429-96c0-467c-ac52-22297c424ccb",
+      "recipeIds": [
+        "cn-051"
+      ],
+      "recipeName": "叉烧",
+      "sourceUrl": "https://thewoksoflife.com/chinese-bbq-pork-cha-siu/",
+      "sourceAuthor": null,
+      "sourceAuthorDisclosure": "Unknown in original content identity; known source byline is separately traceable in mediaReferences, no unsupported source.author rewrite.",
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "44e097b601e21918718afea5c6c60e62a57c6c2354c4bdc6305eb735caaf8574",
+      "chunkCount": 8,
+      "embeddingDimensionCounts": {
+        "1024": 8
+      },
+      "selectedForRecipe": "cn-051",
+      "projectRecipeId": "cn-051",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "1cd1f46a8d06ffbf95833118240c3d6991c283c29f0c6090ab231d1ba9d676c6",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": [
+        {
+          "recipeId": "cn-051",
+          "author": "Bill",
+          "bothMetadataCopiesEqualFrozenEvidence": true,
+          "imageCount": 10,
+          "fullMediaHash": "febfb925103595dbb10fb50bf31179f8f9b8a990720b74c81353447ecbe79cfc"
+        }
+      ]
+    },
+    {
+      "documentId": "2a659456-2a0f-4e3e-b07f-569cf91e2e15",
+      "recipeIds": [
+        "cn-053"
+      ],
+      "recipeName": "盐焗鸡",
+      "sourceUrl": "https://thewoksoflife.com/salt-baked-chicken/",
+      "sourceAuthor": null,
+      "sourceAuthorDisclosure": "Unknown in original content identity; known source byline is separately traceable in mediaReferences, no unsupported source.author rewrite.",
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "02c700a313075511c52898490bfcd521912fab7141a69fcfdb8d0eb7203f4ece",
+      "chunkCount": 7,
+      "embeddingDimensionCounts": {
+        "1024": 7
+      },
+      "selectedForRecipe": "cn-053",
+      "projectRecipeId": "cn-053",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "3280a5d52dda21b864d78c00e4ab095bcb0f396a1c4e6316ff993b2add44daa5",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": [
+        {
+          "recipeId": "cn-053",
+          "author": "Judy",
+          "bothMetadataCopiesEqualFrozenEvidence": true,
+          "imageCount": 13,
+          "fullMediaHash": "38bf95e4a962eaa489f0a38f2052ddd93c6b06bc545215711076a04ff7d0fd06",
+          "replacementEvidenceHash": "ce57a7bb25f28cf24cf541ff345b7c2e72fbdddb14212f6aef1e2902c3d80228",
+          "verificationAudit": "cn-053.media-provenance-correction-sync.json"
+        }
+      ]
+    },
+    {
+      "documentId": "0b549380-3644-497d-bf63-eebb94610fbe",
+      "recipeIds": [
+        "west-002"
+      ],
+      "recipeName": "玛格丽特披萨",
+      "sourceUrl": "https://www.bbcgoodfood.com/recipes/pizza-margherita-4-easy-steps",
+      "sourceAuthor": "Good Food team",
+      "sourceAuthorDisclosure": null,
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "36d2f8aa99caf947f27f289f04b47226af39d15bdac806cab5c4df5b2ad01a17",
+      "chunkCount": 6,
+      "embeddingDimensionCounts": {
+        "1024": 6
+      },
+      "selectedForRecipe": null,
+      "projectRecipeId": "west-002",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "d4e4ddaf77eea435b2dde6fc9bd616300748a1edc2fc8237d949e64964445dc0",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": []
+    },
+    {
+      "documentId": "ef51a7d5-65e7-4c2c-abc1-783bdcf65a01",
+      "recipeIds": [
+        "west-005"
+      ],
+      "recipeName": "芝士汉堡",
+      "sourceUrl": "https://www.bbcgoodfood.com/recipes/cheeseburgers",
+      "sourceAuthor": "Jennifer Joyce",
+      "sourceAuthorDisclosure": null,
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "d4a17036013644f0e3273335c53769edafeaa12257c0ffbb6c2e28a42155d483",
+      "chunkCount": 5,
+      "embeddingDimensionCounts": {
+        "1024": 5
+      },
+      "selectedForRecipe": null,
+      "projectRecipeId": "west-005",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "c30fb4048f06e3744dc884e4ce8490e6a15ff11c81327257dd34caa081015be6",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": []
+    },
+    {
+      "documentId": "2ea4e999-7e04-4390-a544-e915356f6c9c",
+      "recipeIds": [
+        "west-005"
+      ],
+      "recipeName": "芝士汉堡",
+      "sourceUrl": "https://www.seriouseats.com/ultra-crispy-burgers-recipe",
+      "sourceAuthor": null,
+      "sourceAuthorDisclosure": "Unknown in original content identity; known source byline is separately traceable in mediaReferences, no unsupported source.author rewrite.",
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "e17ea90a23cf8cfb7736ac9a5caf637c1516eaeab8f8296e28360d8d60d34d4f",
+      "chunkCount": 6,
+      "embeddingDimensionCounts": {
+        "1024": 6
+      },
+      "selectedForRecipe": null,
+      "projectRecipeId": "west-005",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "f77658e1f149a0168ad3e821f052e07e53095b89d78185d4d5f8d467fafa9f8e",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": []
+    },
+    {
+      "documentId": "b17de88d-e534-485b-a5dd-eb55f7ceaae9",
+      "recipeIds": [
+        "west-007"
+      ],
+      "recipeName": "炸鱼薯条",
+      "sourceUrl": "https://www.bbcgoodfood.com/recipes/golden-beer-battered-fish-chips",
+      "sourceAuthor": "Sarah Cook",
+      "sourceAuthorDisclosure": null,
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "b040100704ec033720fc88197e9f2ef7784a13d5c74100af02229f0de256bf86",
+      "chunkCount": 6,
+      "embeddingDimensionCounts": {
+        "1024": 6
+      },
+      "selectedForRecipe": null,
+      "projectRecipeId": "west-007",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "2649fac8712e959331e898d94eebfc77c66d5279593dcc3e158a7acaf8b00feb",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": []
+    },
+    {
+      "documentId": "4d7a1ee5-9fe3-4d6b-9a06-bb51a2dd5b8e",
+      "recipeIds": [
+        "west-008"
+      ],
+      "recipeName": "西班牙海鲜饭",
+      "sourceUrl": "https://www.bbcgoodfood.com/recipes/seafood-paella",
+      "sourceAuthor": "Katy Greenwood",
+      "sourceAuthorDisclosure": null,
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "673dfd41a9e63fe359681e44c6a3f6148c44457050f287836540e87e8bfb9c42",
+      "chunkCount": 6,
+      "embeddingDimensionCounts": {
+        "1024": 6
+      },
+      "selectedForRecipe": null,
+      "projectRecipeId": "west-008",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "c9551d25cb70695776a18ff038352947af536164459f2376ec7d5229c2d24be1",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": []
+    },
+    {
+      "documentId": "29fa3b16-9237-46cd-8135-71280c566512",
+      "recipeIds": [
+        "west-009"
+      ],
+      "recipeName": "德式烤香肠",
+      "sourceUrl": "https://www.seriouseats.com/grilled-bratwurst-with-beer-mustard-and-sauerkraut-recipe",
+      "sourceAuthor": null,
+      "sourceAuthorDisclosure": "Unknown in original content identity; known source byline is separately traceable in mediaReferences, no unsupported source.author rewrite.",
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "15cda3822b0a69d45d618c79f3818a87a5e479a1ce5e4a7c233a9e054371f3c0",
+      "chunkCount": 6,
+      "embeddingDimensionCounts": {
+        "1024": 6
+      },
+      "selectedForRecipe": null,
+      "projectRecipeId": "west-009",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "a435744ac63be2bf008a6ed45d0173a9e49a27f469a17fb271861dd6784932a5",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": []
+    },
+    {
+      "documentId": "285a92a5-e04a-4e85-8db7-0151b4f6eeaa",
+      "recipeIds": [
+        "west-013"
+      ],
+      "recipeName": "奶油宽面",
+      "sourceUrl": "https://www.bbcgoodfood.com/recipes/fettucine-alfredo",
+      "sourceAuthor": "Orlando Murrin",
+      "sourceAuthorDisclosure": null,
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "cf2aa0f5c67dd0aab14acbd3102a43c3efa1ba0be0617debfcaf153cb2777c5f",
+      "chunkCount": 5,
+      "embeddingDimensionCounts": {
+        "1024": 5
+      },
+      "selectedForRecipe": null,
+      "projectRecipeId": "west-013",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "3b8dbf9d73f8f594a4ab69212befc1cc6e3a7aa01cd662c255a7c083d155dcfa",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": []
+    },
+    {
+      "documentId": "104da4b6-7b98-4f42-ba24-ff89a0723102",
+      "recipeIds": [
+        "west-013"
+      ],
+      "recipeName": "奶油宽面",
+      "sourceUrl": "https://www.seriouseats.com/fettuccine-alfredo-sauce-italian-pasta-recipe",
+      "sourceAuthor": null,
+      "sourceAuthorDisclosure": "Unknown in original content identity; known source byline is separately traceable in mediaReferences, no unsupported source.author rewrite.",
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "ad70104b34c6e2b6c2db332edac8d4df9a3c919abe9ee45148fa75136c59c04d",
+      "chunkCount": 5,
+      "embeddingDimensionCounts": {
+        "1024": 5
+      },
+      "selectedForRecipe": null,
+      "projectRecipeId": "west-013",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "42d4989d0e62bc2365725d3483ab812b0a6df252ef4f9abcca2b34032b48c9c8",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": []
+    },
+    {
+      "documentId": "4ad2d3fc-c330-40c9-9330-a92f82714cca",
+      "recipeIds": [
+        "west-013"
+      ],
+      "recipeName": "奶油宽面",
+      "sourceUrl": "https://www.seriouseats.com/lighter-fettuccine-alfredo-recipe",
+      "sourceAuthor": null,
+      "sourceAuthorDisclosure": "Unknown in original content identity; known source byline is separately traceable in mediaReferences, no unsupported source.author rewrite.",
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "a9982c2ed6f74c1b20e194bf2fa6148ca60dab938a6be2cf8bdf2340802ba59c",
+      "chunkCount": 6,
+      "embeddingDimensionCounts": {
+        "1024": 6
+      },
+      "selectedForRecipe": null,
+      "projectRecipeId": "west-013",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "5048a32fc8ee80fae279057b91eb6c5452c08ba17f5093f790a3650349ed9b4b",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": []
+    },
+    {
+      "documentId": "a32460d0-637d-4400-b924-2b83638166db",
+      "recipeIds": [
+        "west-014"
+      ],
+      "recipeName": "蘑菇烩饭",
+      "sourceUrl": "https://www.bbcgoodfood.com/recipes/mushroom-risotto",
+      "sourceAuthor": "Barney Desmazery",
+      "sourceAuthorDisclosure": null,
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "10bc8f89a58880d47d760b71f44bf3e1da91611a34a3d2648f4f6e71364c0ccd",
+      "chunkCount": 6,
+      "embeddingDimensionCounts": {
+        "1024": 6
+      },
+      "selectedForRecipe": null,
+      "projectRecipeId": "west-014",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "2ef785f0324ff410f1e8c814a56bf213142e426269ddb8dfdf186fc48574a51c",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": []
+    },
+    {
+      "documentId": "6a83f371-b7f8-44a3-a4d7-d5fe6cb45a5d",
+      "recipeIds": [
+        "west-014"
+      ],
+      "recipeName": "蘑菇烩饭",
+      "sourceUrl": "https://www.seriouseats.com/pressure-cooker-mushroom-risotto-recipe",
+      "sourceAuthor": null,
+      "sourceAuthorDisclosure": "Unknown in original content identity; known source byline is separately traceable in mediaReferences, no unsupported source.author rewrite.",
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "c459f6140e2d7b98b1a1d2b12cef68a14f4f7bdbda31809ec55684991698387f",
+      "chunkCount": 7,
+      "embeddingDimensionCounts": {
+        "1024": 7
+      },
+      "selectedForRecipe": null,
+      "projectRecipeId": "west-014",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "b82c8ee129031cf39d61c6b5c5bfead0b8ce01e0de258d1fcfa087b1f41f9f23",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": []
+    },
+    {
+      "documentId": "e3137c6d-c73d-445d-9aa0-41e3d51a21cc",
+      "recipeIds": [
+        "west-015"
+      ],
+      "recipeName": "帕玛森鸡排",
+      "sourceUrl": "https://www.bbcgoodfood.com/recipes/chicken-parmigiana",
+      "sourceAuthor": "Lucy Netherton",
+      "sourceAuthorDisclosure": null,
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "55b19f2e5a055c93dd26f5032e39dd7151373f27918fc63c3716d18a1fb861d9",
+      "chunkCount": 5,
+      "embeddingDimensionCounts": {
+        "1024": 5
+      },
+      "selectedForRecipe": null,
+      "projectRecipeId": "west-015",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "3ae9b91b112c3b37f310afafa04e6ebdb83ff600c3297763338757dcddb05b9d",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": []
+    },
+    {
+      "documentId": "457ca423-d4ad-460e-97de-5a10ca5464bf",
+      "recipeIds": [
+        "west-015"
+      ],
+      "recipeName": "帕玛森鸡排",
+      "sourceUrl": "https://www.seriouseats.com/the-best-chicken-parmesan-recipe",
+      "sourceAuthor": null,
+      "sourceAuthorDisclosure": "Unknown in original content identity; known source byline is separately traceable in mediaReferences, no unsupported source.author rewrite.",
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "77394d2ea848c19ed091e223d2c9cc34ebc7e1ff325f8061d53d18894ba10779",
+      "chunkCount": 8,
+      "embeddingDimensionCounts": {
+        "1024": 8
+      },
+      "selectedForRecipe": null,
+      "projectRecipeId": "west-015",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "17354603afe8b6040c669e488873b4d1a9db155d88fab0d1953f364a324f1241",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": []
+    },
+    {
+      "documentId": "3131ae41-b095-414d-9e1d-4f7a23a1529a",
+      "recipeIds": [
+        "west-016"
+      ],
+      "recipeName": "惠灵顿牛排",
+      "sourceUrl": "https://www.bbcgoodfood.com/recipes/beef-wellington",
+      "sourceAuthor": "Gordon Ramsay",
+      "sourceAuthorDisclosure": null,
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "ad58c426bff9bcb8f88b5489ea2d72d7a07bb3d330a0bf90556614f3f40770c0",
+      "chunkCount": 7,
+      "embeddingDimensionCounts": {
+        "1024": 7
+      },
+      "selectedForRecipe": null,
+      "projectRecipeId": "west-016",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "9ec2c5eeb7c34a90fff5c942fd8b567238fbda422eec6f9cbbed329b5d40b074",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": []
+    },
+    {
+      "documentId": "e5f01590-1ad2-46c5-a2b2-f9ee07211b7e",
+      "recipeIds": [
+        "west-016"
+      ],
+      "recipeName": "惠灵顿牛排",
+      "sourceUrl": "https://www.seriouseats.com/the-ultimate-beef-wellington-recipe",
+      "sourceAuthor": null,
+      "sourceAuthorDisclosure": "Unknown in original content identity; known source byline is separately traceable in mediaReferences, no unsupported source.author rewrite.",
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "ec4eacde5ecdacb499ffbb9eaddec367e426bfdbf981ebccb94f944c04e4c91a",
+      "chunkCount": 9,
+      "embeddingDimensionCounts": {
+        "1024": 9
+      },
+      "selectedForRecipe": null,
+      "projectRecipeId": "west-016",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "f2d710f7f9db46464ae3aaab165dbcaf5c4ba85a31e2d29b3ccfd45818800a35",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": []
+    },
+    {
+      "documentId": "c49fed11-a89a-4f40-bcae-0021fde52d6a",
+      "recipeIds": [
+        "west-017"
+      ],
+      "recipeName": "红酒炖鸡",
+      "sourceUrl": "https://www.bbcgoodfood.com/recipes/coq-au-vin",
+      "sourceAuthor": "Angela Nilsen",
+      "sourceAuthorDisclosure": null,
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "054b04c49253c1dfc84733bb42a4b6d529eb042cccb5152d142c4dd6785b0164",
+      "chunkCount": 6,
+      "embeddingDimensionCounts": {
+        "1024": 6
+      },
+      "selectedForRecipe": null,
+      "projectRecipeId": "west-017",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "1604dbd78eeb02eb2170ec3cd42710c27ef9c27037d18cbeb29841629a741e2b",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": []
+    },
+    {
+      "documentId": "76783447-425d-4e83-8edc-da9f76a25f5d",
+      "recipeIds": [
+        "west-017"
+      ],
+      "recipeName": "红酒炖鸡",
+      "sourceUrl": "https://www.seriouseats.com/coq-au-vin-chicken-red-wine-braise-recipe",
+      "sourceAuthor": null,
+      "sourceAuthorDisclosure": "Unknown in original content identity; known source byline is separately traceable in mediaReferences, no unsupported source.author rewrite.",
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "d20c040a3d01d7fc1b13523b08be9b1822762e8b225a5218211b7937a902bb49",
+      "chunkCount": 7,
+      "embeddingDimensionCounts": {
+        "1024": 7
+      },
+      "selectedForRecipe": null,
+      "projectRecipeId": "west-017",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "e81842872d28da319b1add76329d482d92e5b0ba6c8aec02f6cfdc8acb477b21",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": []
+    },
+    {
+      "documentId": "c8b51089-81ed-46f3-bc25-dcfbf2cfe9a8",
+      "recipeIds": [
+        "west-018"
+      ],
+      "recipeName": "普罗旺斯炖菜",
+      "sourceUrl": "https://www.bbcgoodfood.com/recipes/ratatouille",
+      "sourceAuthor": "Good Food team",
+      "sourceAuthorDisclosure": null,
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "8ac0a19def44515d6cc6c1ae3c2f7f21f0e3023effc10f9548706832094c8036",
+      "chunkCount": 6,
+      "embeddingDimensionCounts": {
+        "1024": 6
+      },
+      "selectedForRecipe": null,
+      "projectRecipeId": "west-018",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "65f15c199a2e471c8fd080524166437a5b7c8d40607ad0c9b01875363c292822",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": []
+    },
+    {
+      "documentId": "a35278cc-04a9-4567-adbc-1c95fd3a9c67",
+      "recipeIds": [
+        "west-018"
+      ],
+      "recipeName": "普罗旺斯炖菜",
+      "sourceUrl": "https://www.seriouseats.com/ratatouille-provence-vegetable-stew-recipe",
+      "sourceAuthor": null,
+      "sourceAuthorDisclosure": "Unknown in original content identity; known source byline is separately traceable in mediaReferences, no unsupported source.author rewrite.",
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "0510d193daba128fb074a75c4864b40770f75c982622c3b1bd59957a3da7a451",
+      "chunkCount": 6,
+      "embeddingDimensionCounts": {
+        "1024": 6
+      },
+      "selectedForRecipe": null,
+      "projectRecipeId": "west-018",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "bfe4d0b1f4f2d8e1205d9aa5f095a6e6cefa7422f44858ba4abcb4f2f2be5a9c",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": []
+    },
+    {
+      "documentId": "0e1996bd-a908-4482-aaa6-4760db1ad1bf",
+      "recipeIds": [
+        "west-019"
+      ],
+      "recipeName": "马赛鱼汤",
+      "sourceUrl": "https://www.bbcgoodfood.com/recipes/bouillabaisse",
+      "sourceAuthor": "Barney Desmazery",
+      "sourceAuthorDisclosure": null,
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "81ec4ea164475349254aa75b96580d724abe7cc221e4b8732cd014395d91e0a8",
+      "chunkCount": 7,
+      "embeddingDimensionCounts": {
+        "1024": 7
+      },
+      "selectedForRecipe": null,
+      "projectRecipeId": "west-019",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "1f1c6e0f2d412efe142451fd657bd3ad16461934aa1376250ccf4fe3710a3b9a",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": []
+    },
+    {
+      "documentId": "fa8bcb83-d3d0-41c1-a021-18f3fd8b21cf",
+      "recipeIds": [
+        "west-019"
+      ],
+      "recipeName": "马赛鱼汤",
+      "sourceUrl": "https://www.seriouseats.com/bouillabaisse-marseillaise-fish-stew-recipe",
+      "sourceAuthor": null,
+      "sourceAuthorDisclosure": "Unknown in original content identity; known source byline is separately traceable in mediaReferences, no unsupported source.author rewrite.",
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "f445408b6e00ecb7e5e4159cb31ea0da58b75962986062003d1d55e5ec8c0847",
+      "chunkCount": 8,
+      "embeddingDimensionCounts": {
+        "1024": 8
+      },
+      "selectedForRecipe": null,
+      "projectRecipeId": "west-019",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "a240d8ad17f2852e042c602fb94cc39387c304106fa5a44bacb7373a2526aff1",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": []
+    },
+    {
+      "documentId": "4e882fb4-43e9-4577-bdae-8a9a158c37be",
+      "recipeIds": [
+        "west-021"
+      ],
+      "recipeName": "法式红酒炖牛肉",
+      "sourceUrl": "https://www.bbcgoodfood.com/recipes/beef-bourguignon",
+      "sourceAuthor": "Barney Desmazery",
+      "sourceAuthorDisclosure": null,
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "44197934974539473bb3af6e23d603acd982f5a01ca6a5a1ca6983c56bab39cb",
+      "chunkCount": 6,
+      "embeddingDimensionCounts": {
+        "1024": 6
+      },
+      "selectedForRecipe": null,
+      "projectRecipeId": "west-021",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "5dad59bbaf83446197355451402420b312f6a431d70e281294899b53e255155c",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": []
+    },
+    {
+      "documentId": "7d633798-006a-4be9-9ad8-79cca8539077",
+      "recipeIds": [
+        "west-021"
+      ],
+      "recipeName": "法式红酒炖牛肉",
+      "sourceUrl": "https://www.seriouseats.com/beef-bourguignon-red-wine-stew-recipe",
+      "sourceAuthor": null,
+      "sourceAuthorDisclosure": "Unknown in original content identity; known source byline is separately traceable in mediaReferences, no unsupported source.author rewrite.",
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "d9b6f7ec89e8d59b34ed34096545c84abe5be8f97d2a52f07163b15ddf1be1a8",
+      "chunkCount": 7,
+      "embeddingDimensionCounts": {
+        "1024": 7
+      },
+      "selectedForRecipe": null,
+      "projectRecipeId": "west-021",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "fd93c8e39b069a55500f010420be0906c7fcef31bd1674bd6d7cce5538cdf784",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": []
+    },
+    {
+      "documentId": "53cdcee1-2c01-47c9-97f0-fbbfc2747e75",
+      "recipeIds": [
+        "west-022"
+      ],
+      "recipeName": "希腊穆萨卡",
+      "sourceUrl": "https://www.bbcgoodfood.com/recipes/moussaka",
+      "sourceAuthor": "Esther Clark",
+      "sourceAuthorDisclosure": null,
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "fe7cc78ca8767eabfa6d89720f360b108101b3b24a708548c6c59dbf2074ca9d",
+      "chunkCount": 6,
+      "embeddingDimensionCounts": {
+        "1024": 6
+      },
+      "selectedForRecipe": null,
+      "projectRecipeId": "west-022",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "36e3ad479a2a15934068e27cfb31c6475d3df47116c513d73f6c4d0f7ba177da",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": []
+    },
+    {
+      "documentId": "736060f3-bc3f-4a0e-ba77-bce2fb6ba84e",
+      "recipeIds": [
+        "west-023"
+      ],
+      "recipeName": "希腊沙拉",
+      "sourceUrl": "https://www.bbcgoodfood.com/recipes/greek-salad",
+      "sourceAuthor": "Barney Desmazery",
+      "sourceAuthorDisclosure": null,
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "638b6ede03af0cbfa4ad1d43f3ad1499679dd008698c1f6a8f2702ec0fc373bb",
+      "chunkCount": 5,
+      "embeddingDimensionCounts": {
+        "1024": 5
+      },
+      "selectedForRecipe": null,
+      "projectRecipeId": "west-023",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "c93e98cfbb4ead6660b0f785473b3185b9168842d9874a10d2200967c5e61a5c",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": []
+    },
+    {
+      "documentId": "997dbfb5-d24d-4157-9f02-67d8b6161c0b",
+      "recipeIds": [
+        "west-024"
+      ],
+      "recipeName": "香煎鸡肉炸排",
+      "sourceUrl": "https://www.bbcgoodfood.com/recipes/chicken-schnitzel-coleslaw",
+      "sourceAuthor": "Good Food team",
+      "sourceAuthorDisclosure": null,
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "b0f514c84e304f34d26824600b952279752126b41e35aec57c3eaea13cd6ee7a",
+      "chunkCount": 5,
+      "embeddingDimensionCounts": {
+        "1024": 5
+      },
+      "selectedForRecipe": "west-024",
+      "projectRecipeId": "west-024",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "bef721c4fdaa4d15255c11667c19c01d76967f48edae6e35cf9b9d1345cd9309",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": [
+        {
+          "recipeId": "west-024",
+          "author": "Good Food team",
+          "bothMetadataCopiesEqualFrozenEvidence": true,
+          "imageCount": 7,
+          "fullMediaHash": "4eee7c559cef6e6cd1377642080932aa6b576366ea337bc70611ffc136a69cea"
+        }
+      ]
+    },
+    {
+      "documentId": "ad0ee351-7f32-4ae7-b850-0d08b3957211",
+      "recipeIds": [
+        "west-024"
+      ],
+      "recipeName": "香煎鸡肉炸排",
+      "sourceUrl": "https://www.seriouseats.com/chicken-schnitzel-recipe",
+      "sourceAuthor": null,
+      "sourceAuthorDisclosure": "Unknown in original content identity; known source byline is separately traceable in mediaReferences, no unsupported source.author rewrite.",
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "8faa86a11e31b6d0481bd333d661585b44368d22ca7c4d49ec338bfe31d09d55",
+      "chunkCount": 7,
+      "embeddingDimensionCounts": {
+        "1024": 7
+      },
+      "selectedForRecipe": null,
+      "projectRecipeId": "west-024",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "1910e6dd65294795cfe59a8296883e61326c5d82acd04a2796f0d003ea3e48b3",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": []
+    },
+    {
+      "documentId": "3e95f7a2-389f-41aa-b675-7347986de84d",
+      "recipeIds": [
+        "west-025"
+      ],
+      "recipeName": "瑞典肉丸",
+      "sourceUrl": "https://www.bbcgoodfood.com/recipes/classic-swedish-meatballs",
+      "sourceAuthor": "Lulu Grimes",
+      "sourceAuthorDisclosure": null,
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "93bd14ee1e156e26215aa3dcd2302898143b1528ccd60202e4b2722c7a927d26",
+      "chunkCount": 5,
+      "embeddingDimensionCounts": {
+        "1024": 5
+      },
+      "selectedForRecipe": null,
+      "projectRecipeId": "west-025",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "69b1bab29b27e6e478a6796b91180f0a6abdde48c46a49b2ac6c3324177391f1",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": []
+    },
+    {
+      "documentId": "1679c443-d4d6-43a2-bc1f-6e106542f4b1",
+      "recipeIds": [
+        "west-025"
+      ],
+      "recipeName": "瑞典肉丸",
+      "sourceUrl": "https://www.seriouseats.com/the-best-swedish-meatballs-recipe",
+      "sourceAuthor": null,
+      "sourceAuthorDisclosure": "Unknown in original content identity; known source byline is separately traceable in mediaReferences, no unsupported source.author rewrite.",
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "61f308ff1d9103d2032858ca5668a14b1ba1cc58e1949b03c3504c526dd3ebe7",
+      "chunkCount": 6,
+      "embeddingDimensionCounts": {
+        "1024": 6
+      },
+      "selectedForRecipe": null,
+      "projectRecipeId": "west-025",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "85668768534edbc8412eadbcf54d9929131d4319ec1d5a30a2fc57a31627a773",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": []
+    },
+    {
+      "documentId": "78419c8b-cac5-4313-9273-1d5fc594a696",
+      "recipeIds": [
+        "west-026"
+      ],
+      "recipeName": "匈牙利牛肉汤",
+      "sourceUrl": "https://www.bbcgoodfood.com/recipes/beef-goulash-soup",
+      "sourceAuthor": "Sara Buenfeld",
+      "sourceAuthorDisclosure": null,
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "b64432846dd7eae30e81f767b2668f15c0eb892cfec1932d04943561afae0744",
+      "chunkCount": 5,
+      "embeddingDimensionCounts": {
+        "1024": 5
+      },
+      "selectedForRecipe": null,
+      "projectRecipeId": "west-026",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "ac950f3b9830b3b4155b64acae4a7243d6cd0e35209dbb8ba5c6e83ffc527aa6",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": []
+    },
+    {
+      "documentId": "5f01ee84-d58b-48b2-b9d7-acf5d10b5629",
+      "recipeIds": [
+        "west-027"
+      ],
+      "recipeName": "炸鱼塔可",
+      "sourceUrl": "https://www.bbcgoodfood.com/recipes/beer-battered-fish-tacos",
+      "sourceAuthor": "Esther Clark",
+      "sourceAuthorDisclosure": null,
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "da64eeee30ec97fec9abdf6a8ff36ecdb0ab9621bbffe81960e3cb8ee69fae76",
+      "chunkCount": 6,
+      "embeddingDimensionCounts": {
+        "1024": 6
+      },
+      "selectedForRecipe": null,
+      "projectRecipeId": "west-027",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "5b9392d5f85b29904f82174d753a44ac875f64f522844f591bf9d6c7d7d95ee2",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": []
+    },
+    {
+      "documentId": "c4ca8acd-5cf6-4d86-906f-deef06be087d",
+      "recipeIds": [
+        "west-027"
+      ],
+      "recipeName": "炸鱼塔可",
+      "sourceUrl": "https://www.seriouseats.com/crispy-fried-fish-tacos-recipe",
+      "sourceAuthor": null,
+      "sourceAuthorDisclosure": "Unknown in original content identity; known source byline is separately traceable in mediaReferences, no unsupported source.author rewrite.",
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "ea44937aac22927ea9dfb3e0653838ef3d3e7e9dd1fb1b5af0a415330e0b5e97",
+      "chunkCount": 5,
+      "embeddingDimensionCounts": {
+        "1024": 5
+      },
+      "selectedForRecipe": null,
+      "projectRecipeId": "west-027",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "9732be4ad865a00936a7d4193b36e6413f40e76bbc71b7adfc6a164b0a9f65a4",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": []
+    },
+    {
+      "documentId": "9e9d892c-09f7-42fb-9ee3-691ff26a665c",
+      "recipeIds": [
+        "west-028"
+      ],
+      "recipeName": "鸡肉芝士薄饼",
+      "sourceUrl": "https://www.bbcgoodfood.com/recipes/chicken-quesadillas",
+      "sourceAuthor": "Sara Buenfeld",
+      "sourceAuthorDisclosure": null,
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "11f826c1177ab2254b5e69bcc2bb86cdec55ca445a45ea7228884764ded75a39",
+      "chunkCount": 5,
+      "embeddingDimensionCounts": {
+        "1024": 5
+      },
+      "selectedForRecipe": null,
+      "projectRecipeId": "west-028",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "142507ad601e4992fd192193f1971a1f92bb301dbebeee9f779ed9e481b73c3e",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": []
+    },
+    {
+      "documentId": "2edf80e5-bddc-42fb-ae3c-5fbf8804856c",
+      "recipeIds": [
+        "west-029"
+      ],
+      "recipeName": "班尼迪克蛋",
+      "sourceUrl": "https://www.bbcgoodfood.com/recipes/eggs-benedict",
+      "sourceAuthor": "Gordon Ramsay",
+      "sourceAuthorDisclosure": null,
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "fe545f61aab0fb91a014012c551cc07908431adf4c72c0dd44f29421296a09ee",
+      "chunkCount": 6,
+      "embeddingDimensionCounts": {
+        "1024": 6
+      },
+      "selectedForRecipe": null,
+      "projectRecipeId": "west-029",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "ae43ba5cf2203d20beb98488a38a8e9681aa8403e222c853112060e6fa1e7766",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": []
+    },
+    {
+      "documentId": "7417b13e-b1bd-4ded-8dba-4675e86126cd",
+      "recipeIds": [
+        "west-030"
+      ],
+      "recipeName": "酪乳煎饼",
+      "sourceUrl": "https://www.bbcgoodfood.com/recipes/buttermilk-pancakes-maple-apples-pecans",
+      "sourceAuthor": "Good Food team",
+      "sourceAuthorDisclosure": null,
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "e2609abe7b34ac16d2d12450fa1bfa183ab109b3ee9a8bc6cf0f3dbefd91221b",
+      "chunkCount": 5,
+      "embeddingDimensionCounts": {
+        "1024": 5
+      },
+      "selectedForRecipe": null,
+      "projectRecipeId": "west-030",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "51327c67bc55238c2f7bde2dfccd15a89e7743a92593daab8790e352feda1340",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": []
+    },
+    {
+      "documentId": "2be9e3f1-3a2a-45c1-996b-a495d7ebcc3f",
+      "recipeIds": [
+        "west-030"
+      ],
+      "recipeName": "酪乳煎饼",
+      "sourceUrl": "https://www.seriouseats.com/light-and-fluffy-pancakes-recipe",
+      "sourceAuthor": null,
+      "sourceAuthorDisclosure": "Unknown in original content identity; known source byline is separately traceable in mediaReferences, no unsupported source.author rewrite.",
+      "sourceComplete": true,
+      "evidenceStatus": "unmarked_current",
+      "contentHash": "1677633ad2f2dab1596748992a71b76ac389f44f717929fc445dfccc3c67cffa",
+      "chunkCount": 6,
+      "embeddingDimensionCounts": {
+        "1024": 6
+      },
+      "selectedForRecipe": null,
+      "projectRecipeId": "west-030",
+      "selectedForRecipeRequiredOnlyIfSelectedMediaSynchronized": true,
+      "rawTextPresent": true,
+      "rawTextSha256": "37cc092d7c94aac79bc5e127849f02d76e0274a2481b8a0c97da880853f98e6f",
+      "checks": {
+        "currentDocument": true,
+        "allChunksCurrent": true,
+        "sourceComplete": true,
+        "contentHashRecomputedMatches": true,
+        "allEmbeddings1024": true,
+        "urlAndEntityMatch": true,
+        "evidenceIngredientsMatch": true,
+        "evidenceStepsMatch": true,
+        "recipeOwnership": true
+      },
+      "mediaChecks": []
+    }
+  ],
+  "recipes": [
+    {
+      "recipeId": "cn-013",
+      "recipeName": "胡辣汤",
+      "evidenceFile": "cn-013.base-evidence.json",
+      "selectedDocumentId": "64811085-e1d5-4a9b-a1fc-ddb00b282459",
+      "candidateDocumentIds": [
+        "64811085-e1d5-4a9b-a1fc-ddb00b282459"
+      ],
+      "retrieval": {
+        "semanticCount": 5,
+        "hybridCount": 5,
+        "semanticSelectedCount": 5,
+        "hybridSelectedCount": 5,
+        "candidates": [
+          {
+            "documentId": "64811085-e1d5-4a9b-a1fc-ddb00b282459",
+            "semanticCount": 5,
+            "hybridCount": 5
+          }
+        ],
+        "invalidReturnedCount": 0,
+        "passed": true
+      }
+    },
+    {
+      "recipeId": "cn-019",
+      "recipeName": "东坡肉",
+      "evidenceFile": "cn-019.evidence.json",
+      "selectedDocumentId": "0ff9202a-963e-4b37-a713-4d7d344dd8ab",
+      "candidateDocumentIds": [
+        "0ff9202a-963e-4b37-a713-4d7d344dd8ab"
+      ],
+      "retrieval": {
+        "semanticCount": 6,
+        "hybridCount": 6,
+        "semanticSelectedCount": 6,
+        "hybridSelectedCount": 6,
+        "candidates": [
+          {
+            "documentId": "0ff9202a-963e-4b37-a713-4d7d344dd8ab",
+            "semanticCount": 6,
+            "hybridCount": 6
+          }
+        ],
+        "invalidReturnedCount": 0,
+        "passed": true
+      }
+    },
+    {
+      "recipeId": "cn-020",
+      "recipeName": "白切鸡",
+      "evidenceFile": "cn-020.evidence.json",
+      "selectedDocumentId": "2be1111d-2cd1-42dd-b183-990a063573e7",
+      "candidateDocumentIds": [
+        "2be1111d-2cd1-42dd-b183-990a063573e7"
+      ],
+      "retrieval": {
+        "semanticCount": 8,
+        "hybridCount": 8,
+        "semanticSelectedCount": 8,
+        "hybridSelectedCount": 8,
+        "candidates": [
+          {
+            "documentId": "2be1111d-2cd1-42dd-b183-990a063573e7",
+            "semanticCount": 8,
+            "hybridCount": 8
+          }
+        ],
+        "invalidReturnedCount": 0,
+        "passed": true
+      }
+    },
+    {
+      "recipeId": "cn-031",
+      "recipeName": "家常豆腐",
+      "evidenceFile": "cn-031.evidence.json",
+      "selectedDocumentId": "3ef0f122-545b-407b-af57-d247126d1390",
+      "candidateDocumentIds": [
+        "3ef0f122-545b-407b-af57-d247126d1390"
+      ],
+      "retrieval": {
+        "semanticCount": 5,
+        "hybridCount": 5,
+        "semanticSelectedCount": 5,
+        "hybridSelectedCount": 5,
+        "candidates": [
+          {
+            "documentId": "3ef0f122-545b-407b-af57-d247126d1390",
+            "semanticCount": 5,
+            "hybridCount": 5
+          }
+        ],
+        "invalidReturnedCount": 0,
+        "passed": true
+      }
+    },
+    {
+      "recipeId": "cn-035",
+      "recipeName": "冬瓜排骨汤",
+      "evidenceFile": "cn-035.evidence.json",
+      "selectedDocumentId": "fc8be572-9638-48b4-8fb1-b416a9893e56",
+      "candidateDocumentIds": [
+        "fc8be572-9638-48b4-8fb1-b416a9893e56"
+      ],
+      "retrieval": {
+        "semanticCount": 6,
+        "hybridCount": 6,
+        "semanticSelectedCount": 6,
+        "hybridSelectedCount": 6,
+        "candidates": [
+          {
+            "documentId": "fc8be572-9638-48b4-8fb1-b416a9893e56",
+            "semanticCount": 6,
+            "hybridCount": 6
+          }
+        ],
+        "invalidReturnedCount": 0,
+        "passed": true
+      }
+    },
+    {
+      "recipeId": "cn-039",
+      "recipeName": "海南鸡饭",
+      "evidenceFile": "cn-039.evidence.json",
+      "selectedDocumentId": "e9ce4921-06d9-457d-b816-2eb881079e56",
+      "candidateDocumentIds": [
+        "e9ce4921-06d9-457d-b816-2eb881079e56"
+      ],
+      "retrieval": {
+        "semanticCount": 9,
+        "hybridCount": 9,
+        "semanticSelectedCount": 9,
+        "hybridSelectedCount": 9,
+        "candidates": [
+          {
+            "documentId": "e9ce4921-06d9-457d-b816-2eb881079e56",
+            "semanticCount": 9,
+            "hybridCount": 9
+          }
+        ],
+        "invalidReturnedCount": 0,
+        "passed": true
+      }
+    },
+    {
+      "recipeId": "cn-040",
+      "recipeName": "担担面",
+      "evidenceFile": "cn-040.evidence.json",
+      "selectedDocumentId": "72ce298f-8af6-4c11-860b-dd60f9445054",
+      "candidateDocumentIds": [
+        "72ce298f-8af6-4c11-860b-dd60f9445054"
+      ],
+      "retrieval": {
+        "semanticCount": 6,
+        "hybridCount": 6,
+        "semanticSelectedCount": 6,
+        "hybridSelectedCount": 6,
+        "candidates": [
+          {
+            "documentId": "72ce298f-8af6-4c11-860b-dd60f9445054",
+            "semanticCount": 6,
+            "hybridCount": 6
+          }
+        ],
+        "invalidReturnedCount": 0,
+        "passed": true
+      }
+    },
+    {
+      "recipeId": "cn-044",
+      "recipeName": "小笼包",
+      "evidenceFile": "cn-044.evidence.json",
+      "selectedDocumentId": "6d4bc2d5-d6db-4913-b97f-a04179a32c3b",
+      "candidateDocumentIds": [
+        "6d4bc2d5-d6db-4913-b97f-a04179a32c3b"
+      ],
+      "retrieval": {
+        "semanticCount": 8,
+        "hybridCount": 8,
+        "semanticSelectedCount": 8,
+        "hybridSelectedCount": 8,
+        "candidates": [
+          {
+            "documentId": "6d4bc2d5-d6db-4913-b97f-a04179a32c3b",
+            "semanticCount": 8,
+            "hybridCount": 8
+          }
+        ],
+        "invalidReturnedCount": 0,
+        "passed": true
+      }
+    },
+    {
+      "recipeId": "cn-049",
+      "recipeName": "肉夹馍",
+      "evidenceFile": "cn-049.base-evidence.json",
+      "selectedDocumentId": "d45ed17d-216f-4704-9a67-6d247f9705e5",
+      "candidateDocumentIds": [
+        "d45ed17d-216f-4704-9a67-6d247f9705e5"
+      ],
+      "retrieval": {
+        "semanticCount": 8,
+        "hybridCount": 8,
+        "semanticSelectedCount": 8,
+        "hybridSelectedCount": 8,
+        "candidates": [
+          {
+            "documentId": "d45ed17d-216f-4704-9a67-6d247f9705e5",
+            "semanticCount": 8,
+            "hybridCount": 8
+          }
+        ],
+        "invalidReturnedCount": 0,
+        "passed": true
+      }
+    },
+    {
+      "recipeId": "cn-051",
+      "recipeName": "叉烧",
+      "evidenceFile": "cn-051.evidence.json",
+      "selectedDocumentId": "16f8f429-96c0-467c-ac52-22297c424ccb",
+      "candidateDocumentIds": [
+        "16f8f429-96c0-467c-ac52-22297c424ccb"
+      ],
+      "retrieval": {
+        "semanticCount": 8,
+        "hybridCount": 8,
+        "semanticSelectedCount": 8,
+        "hybridSelectedCount": 8,
+        "candidates": [
+          {
+            "documentId": "16f8f429-96c0-467c-ac52-22297c424ccb",
+            "semanticCount": 8,
+            "hybridCount": 8
+          }
+        ],
+        "invalidReturnedCount": 0,
+        "passed": true
+      }
+    },
+    {
+      "recipeId": "cn-053",
+      "recipeName": "盐焗鸡",
+      "evidenceFile": "cn-053.evidence.json",
+      "selectedDocumentId": "2a659456-2a0f-4e3e-b07f-569cf91e2e15",
+      "candidateDocumentIds": [
+        "2a659456-2a0f-4e3e-b07f-569cf91e2e15"
+      ],
+      "retrieval": {
+        "semanticCount": 7,
+        "hybridCount": 7,
+        "semanticSelectedCount": 7,
+        "hybridSelectedCount": 7,
+        "candidates": [
+          {
+            "documentId": "2a659456-2a0f-4e3e-b07f-569cf91e2e15",
+            "semanticCount": 7,
+            "hybridCount": 7
+          }
+        ],
+        "invalidReturnedCount": 0,
+        "passed": true
+      }
+    },
+    {
+      "recipeId": "west-002",
+      "recipeName": "玛格丽特披萨",
+      "evidenceFile": "west-002.base-evidence.json",
+      "selectedDocumentId": "0b549380-3644-497d-bf63-eebb94610fbe",
+      "candidateDocumentIds": [
+        "0b549380-3644-497d-bf63-eebb94610fbe"
+      ],
+      "retrieval": {
+        "semanticCount": 6,
+        "hybridCount": 6,
+        "semanticSelectedCount": 6,
+        "hybridSelectedCount": 6,
+        "candidates": [
+          {
+            "documentId": "0b549380-3644-497d-bf63-eebb94610fbe",
+            "semanticCount": 6,
+            "hybridCount": 6
+          }
+        ],
+        "invalidReturnedCount": 0,
+        "passed": true
+      }
+    },
+    {
+      "recipeId": "west-005",
+      "recipeName": "芝士汉堡",
+      "evidenceFile": "west-005.base-evidence.json",
+      "selectedDocumentId": "ef51a7d5-65e7-4c2c-abc1-783bdcf65a01",
+      "candidateDocumentIds": [
+        "ef51a7d5-65e7-4c2c-abc1-783bdcf65a01",
+        "2ea4e999-7e04-4390-a544-e915356f6c9c"
+      ],
+      "retrieval": {
+        "semanticCount": 11,
+        "hybridCount": 11,
+        "semanticSelectedCount": 5,
+        "hybridSelectedCount": 5,
+        "candidates": [
+          {
+            "documentId": "ef51a7d5-65e7-4c2c-abc1-783bdcf65a01",
+            "semanticCount": 5,
+            "hybridCount": 5
+          },
+          {
+            "documentId": "2ea4e999-7e04-4390-a544-e915356f6c9c",
+            "semanticCount": 6,
+            "hybridCount": 6
+          }
+        ],
+        "invalidReturnedCount": 0,
+        "passed": true
+      }
+    },
+    {
+      "recipeId": "west-007",
+      "recipeName": "炸鱼薯条",
+      "evidenceFile": "west-007.base-evidence.json",
+      "selectedDocumentId": "b17de88d-e534-485b-a5dd-eb55f7ceaae9",
+      "candidateDocumentIds": [
+        "b17de88d-e534-485b-a5dd-eb55f7ceaae9"
+      ],
+      "retrieval": {
+        "semanticCount": 6,
+        "hybridCount": 6,
+        "semanticSelectedCount": 6,
+        "hybridSelectedCount": 6,
+        "candidates": [
+          {
+            "documentId": "b17de88d-e534-485b-a5dd-eb55f7ceaae9",
+            "semanticCount": 6,
+            "hybridCount": 6
+          }
+        ],
+        "invalidReturnedCount": 0,
+        "passed": true
+      }
+    },
+    {
+      "recipeId": "west-008",
+      "recipeName": "西班牙海鲜饭",
+      "evidenceFile": "west-008.base-evidence.json",
+      "selectedDocumentId": "4d7a1ee5-9fe3-4d6b-9a06-bb51a2dd5b8e",
+      "candidateDocumentIds": [
+        "4d7a1ee5-9fe3-4d6b-9a06-bb51a2dd5b8e"
+      ],
+      "retrieval": {
+        "semanticCount": 6,
+        "hybridCount": 6,
+        "semanticSelectedCount": 6,
+        "hybridSelectedCount": 6,
+        "candidates": [
+          {
+            "documentId": "4d7a1ee5-9fe3-4d6b-9a06-bb51a2dd5b8e",
+            "semanticCount": 6,
+            "hybridCount": 6
+          }
+        ],
+        "invalidReturnedCount": 0,
+        "passed": true
+      }
+    },
+    {
+      "recipeId": "west-009",
+      "recipeName": "德式烤香肠",
+      "evidenceFile": "west-009.base-evidence.json",
+      "selectedDocumentId": "29fa3b16-9237-46cd-8135-71280c566512",
+      "candidateDocumentIds": [
+        "29fa3b16-9237-46cd-8135-71280c566512"
+      ],
+      "retrieval": {
+        "semanticCount": 6,
+        "hybridCount": 6,
+        "semanticSelectedCount": 6,
+        "hybridSelectedCount": 6,
+        "candidates": [
+          {
+            "documentId": "29fa3b16-9237-46cd-8135-71280c566512",
+            "semanticCount": 6,
+            "hybridCount": 6
+          }
+        ],
+        "invalidReturnedCount": 0,
+        "passed": true
+      }
+    },
+    {
+      "recipeId": "west-013",
+      "recipeName": "奶油宽面",
+      "evidenceFile": "west-013.base-evidence.json",
+      "selectedDocumentId": "285a92a5-e04a-4e85-8db7-0151b4f6eeaa",
+      "candidateDocumentIds": [
+        "285a92a5-e04a-4e85-8db7-0151b4f6eeaa",
+        "104da4b6-7b98-4f42-ba24-ff89a0723102",
+        "4ad2d3fc-c330-40c9-9330-a92f82714cca"
+      ],
+      "retrieval": {
+        "semanticCount": 16,
+        "hybridCount": 16,
+        "semanticSelectedCount": 5,
+        "hybridSelectedCount": 5,
+        "candidates": [
+          {
+            "documentId": "285a92a5-e04a-4e85-8db7-0151b4f6eeaa",
+            "semanticCount": 5,
+            "hybridCount": 5
+          },
+          {
+            "documentId": "104da4b6-7b98-4f42-ba24-ff89a0723102",
+            "semanticCount": 5,
+            "hybridCount": 5
+          },
+          {
+            "documentId": "4ad2d3fc-c330-40c9-9330-a92f82714cca",
+            "semanticCount": 6,
+            "hybridCount": 6
+          }
+        ],
+        "invalidReturnedCount": 0,
+        "passed": true
+      }
+    },
+    {
+      "recipeId": "west-014",
+      "recipeName": "蘑菇烩饭",
+      "evidenceFile": "west-014.base-evidence.json",
+      "selectedDocumentId": "a32460d0-637d-4400-b924-2b83638166db",
+      "candidateDocumentIds": [
+        "a32460d0-637d-4400-b924-2b83638166db",
+        "6a83f371-b7f8-44a3-a4d7-d5fe6cb45a5d"
+      ],
+      "retrieval": {
+        "semanticCount": 13,
+        "hybridCount": 13,
+        "semanticSelectedCount": 6,
+        "hybridSelectedCount": 6,
+        "candidates": [
+          {
+            "documentId": "a32460d0-637d-4400-b924-2b83638166db",
+            "semanticCount": 6,
+            "hybridCount": 6
+          },
+          {
+            "documentId": "6a83f371-b7f8-44a3-a4d7-d5fe6cb45a5d",
+            "semanticCount": 7,
+            "hybridCount": 7
+          }
+        ],
+        "invalidReturnedCount": 0,
+        "passed": true
+      }
+    },
+    {
+      "recipeId": "west-015",
+      "recipeName": "帕玛森鸡排",
+      "evidenceFile": "west-015.base-evidence.json",
+      "selectedDocumentId": "e3137c6d-c73d-445d-9aa0-41e3d51a21cc",
+      "candidateDocumentIds": [
+        "e3137c6d-c73d-445d-9aa0-41e3d51a21cc",
+        "457ca423-d4ad-460e-97de-5a10ca5464bf"
+      ],
+      "retrieval": {
+        "semanticCount": 13,
+        "hybridCount": 13,
+        "semanticSelectedCount": 5,
+        "hybridSelectedCount": 5,
+        "candidates": [
+          {
+            "documentId": "e3137c6d-c73d-445d-9aa0-41e3d51a21cc",
+            "semanticCount": 5,
+            "hybridCount": 5
+          },
+          {
+            "documentId": "457ca423-d4ad-460e-97de-5a10ca5464bf",
+            "semanticCount": 8,
+            "hybridCount": 8
+          }
+        ],
+        "invalidReturnedCount": 0,
+        "passed": true
+      }
+    },
+    {
+      "recipeId": "west-016",
+      "recipeName": "惠灵顿牛排",
+      "evidenceFile": "west-016.base-evidence.json",
+      "selectedDocumentId": "3131ae41-b095-414d-9e1d-4f7a23a1529a",
+      "candidateDocumentIds": [
+        "3131ae41-b095-414d-9e1d-4f7a23a1529a",
+        "e5f01590-1ad2-46c5-a2b2-f9ee07211b7e"
+      ],
+      "retrieval": {
+        "semanticCount": 16,
+        "hybridCount": 16,
+        "semanticSelectedCount": 7,
+        "hybridSelectedCount": 7,
+        "candidates": [
+          {
+            "documentId": "3131ae41-b095-414d-9e1d-4f7a23a1529a",
+            "semanticCount": 7,
+            "hybridCount": 7
+          },
+          {
+            "documentId": "e5f01590-1ad2-46c5-a2b2-f9ee07211b7e",
+            "semanticCount": 9,
+            "hybridCount": 9
+          }
+        ],
+        "invalidReturnedCount": 0,
+        "passed": true
+      }
+    },
+    {
+      "recipeId": "west-017",
+      "recipeName": "红酒炖鸡",
+      "evidenceFile": "west-017.base-evidence.json",
+      "selectedDocumentId": "c49fed11-a89a-4f40-bcae-0021fde52d6a",
+      "candidateDocumentIds": [
+        "c49fed11-a89a-4f40-bcae-0021fde52d6a",
+        "76783447-425d-4e83-8edc-da9f76a25f5d"
+      ],
+      "retrieval": {
+        "semanticCount": 13,
+        "hybridCount": 13,
+        "semanticSelectedCount": 6,
+        "hybridSelectedCount": 6,
+        "candidates": [
+          {
+            "documentId": "c49fed11-a89a-4f40-bcae-0021fde52d6a",
+            "semanticCount": 6,
+            "hybridCount": 6
+          },
+          {
+            "documentId": "76783447-425d-4e83-8edc-da9f76a25f5d",
+            "semanticCount": 7,
+            "hybridCount": 7
+          }
+        ],
+        "invalidReturnedCount": 0,
+        "passed": true
+      }
+    },
+    {
+      "recipeId": "west-018",
+      "recipeName": "普罗旺斯炖菜",
+      "evidenceFile": "west-018.base-evidence.json",
+      "selectedDocumentId": "c8b51089-81ed-46f3-bc25-dcfbf2cfe9a8",
+      "candidateDocumentIds": [
+        "c8b51089-81ed-46f3-bc25-dcfbf2cfe9a8",
+        "a35278cc-04a9-4567-adbc-1c95fd3a9c67"
+      ],
+      "retrieval": {
+        "semanticCount": 12,
+        "hybridCount": 12,
+        "semanticSelectedCount": 6,
+        "hybridSelectedCount": 6,
+        "candidates": [
+          {
+            "documentId": "c8b51089-81ed-46f3-bc25-dcfbf2cfe9a8",
+            "semanticCount": 6,
+            "hybridCount": 6
+          },
+          {
+            "documentId": "a35278cc-04a9-4567-adbc-1c95fd3a9c67",
+            "semanticCount": 6,
+            "hybridCount": 6
+          }
+        ],
+        "invalidReturnedCount": 0,
+        "passed": true
+      }
+    },
+    {
+      "recipeId": "west-019",
+      "recipeName": "马赛鱼汤",
+      "evidenceFile": "west-019.base-evidence.json",
+      "selectedDocumentId": "0e1996bd-a908-4482-aaa6-4760db1ad1bf",
+      "candidateDocumentIds": [
+        "0e1996bd-a908-4482-aaa6-4760db1ad1bf",
+        "fa8bcb83-d3d0-41c1-a021-18f3fd8b21cf"
+      ],
+      "retrieval": {
+        "semanticCount": 15,
+        "hybridCount": 15,
+        "semanticSelectedCount": 7,
+        "hybridSelectedCount": 7,
+        "candidates": [
+          {
+            "documentId": "0e1996bd-a908-4482-aaa6-4760db1ad1bf",
+            "semanticCount": 7,
+            "hybridCount": 7
+          },
+          {
+            "documentId": "fa8bcb83-d3d0-41c1-a021-18f3fd8b21cf",
+            "semanticCount": 8,
+            "hybridCount": 8
+          }
+        ],
+        "invalidReturnedCount": 0,
+        "passed": true
+      }
+    },
+    {
+      "recipeId": "west-021",
+      "recipeName": "法式红酒炖牛肉",
+      "evidenceFile": "west-021.base-evidence.json",
+      "selectedDocumentId": "4e882fb4-43e9-4577-bdae-8a9a158c37be",
+      "candidateDocumentIds": [
+        "4e882fb4-43e9-4577-bdae-8a9a158c37be",
+        "7d633798-006a-4be9-9ad8-79cca8539077"
+      ],
+      "retrieval": {
+        "semanticCount": 13,
+        "hybridCount": 13,
+        "semanticSelectedCount": 6,
+        "hybridSelectedCount": 6,
+        "candidates": [
+          {
+            "documentId": "4e882fb4-43e9-4577-bdae-8a9a158c37be",
+            "semanticCount": 6,
+            "hybridCount": 6
+          },
+          {
+            "documentId": "7d633798-006a-4be9-9ad8-79cca8539077",
+            "semanticCount": 7,
+            "hybridCount": 7
+          }
+        ],
+        "invalidReturnedCount": 0,
+        "passed": true
+      }
+    },
+    {
+      "recipeId": "west-022",
+      "recipeName": "希腊穆萨卡",
+      "evidenceFile": "west-022.base-evidence.json",
+      "selectedDocumentId": "53cdcee1-2c01-47c9-97f0-fbbfc2747e75",
+      "candidateDocumentIds": [
+        "53cdcee1-2c01-47c9-97f0-fbbfc2747e75"
+      ],
+      "retrieval": {
+        "semanticCount": 6,
+        "hybridCount": 6,
+        "semanticSelectedCount": 6,
+        "hybridSelectedCount": 6,
+        "candidates": [
+          {
+            "documentId": "53cdcee1-2c01-47c9-97f0-fbbfc2747e75",
+            "semanticCount": 6,
+            "hybridCount": 6
+          }
+        ],
+        "invalidReturnedCount": 0,
+        "passed": true
+      }
+    },
+    {
+      "recipeId": "west-023",
+      "recipeName": "希腊沙拉",
+      "evidenceFile": "west-023.base-evidence.json",
+      "selectedDocumentId": "736060f3-bc3f-4a0e-ba77-bce2fb6ba84e",
+      "candidateDocumentIds": [
+        "736060f3-bc3f-4a0e-ba77-bce2fb6ba84e"
+      ],
+      "retrieval": {
+        "semanticCount": 5,
+        "hybridCount": 5,
+        "semanticSelectedCount": 5,
+        "hybridSelectedCount": 5,
+        "candidates": [
+          {
+            "documentId": "736060f3-bc3f-4a0e-ba77-bce2fb6ba84e",
+            "semanticCount": 5,
+            "hybridCount": 5
+          }
+        ],
+        "invalidReturnedCount": 0,
+        "passed": true
+      }
+    },
+    {
+      "recipeId": "west-024",
+      "recipeName": "香煎鸡肉炸排",
+      "evidenceFile": "west-024.evidence.json",
+      "selectedDocumentId": "997dbfb5-d24d-4157-9f02-67d8b6161c0b",
+      "candidateDocumentIds": [
+        "997dbfb5-d24d-4157-9f02-67d8b6161c0b",
+        "ad0ee351-7f32-4ae7-b850-0d08b3957211"
+      ],
+      "retrieval": {
+        "semanticCount": 12,
+        "hybridCount": 12,
+        "semanticSelectedCount": 5,
+        "hybridSelectedCount": 5,
+        "candidates": [
+          {
+            "documentId": "997dbfb5-d24d-4157-9f02-67d8b6161c0b",
+            "semanticCount": 5,
+            "hybridCount": 5
+          },
+          {
+            "documentId": "ad0ee351-7f32-4ae7-b850-0d08b3957211",
+            "semanticCount": 7,
+            "hybridCount": 7
+          }
+        ],
+        "invalidReturnedCount": 0,
+        "passed": true
+      }
+    },
+    {
+      "recipeId": "west-025",
+      "recipeName": "瑞典肉丸",
+      "evidenceFile": "west-025.base-evidence.json",
+      "selectedDocumentId": "3e95f7a2-389f-41aa-b675-7347986de84d",
+      "candidateDocumentIds": [
+        "3e95f7a2-389f-41aa-b675-7347986de84d",
+        "1679c443-d4d6-43a2-bc1f-6e106542f4b1"
+      ],
+      "retrieval": {
+        "semanticCount": 11,
+        "hybridCount": 11,
+        "semanticSelectedCount": 5,
+        "hybridSelectedCount": 5,
+        "candidates": [
+          {
+            "documentId": "3e95f7a2-389f-41aa-b675-7347986de84d",
+            "semanticCount": 5,
+            "hybridCount": 5
+          },
+          {
+            "documentId": "1679c443-d4d6-43a2-bc1f-6e106542f4b1",
+            "semanticCount": 6,
+            "hybridCount": 6
+          }
+        ],
+        "invalidReturnedCount": 0,
+        "passed": true
+      }
+    },
+    {
+      "recipeId": "west-026",
+      "recipeName": "匈牙利牛肉汤",
+      "evidenceFile": "west-026.base-evidence.json",
+      "selectedDocumentId": "78419c8b-cac5-4313-9273-1d5fc594a696",
+      "candidateDocumentIds": [
+        "78419c8b-cac5-4313-9273-1d5fc594a696"
+      ],
+      "retrieval": {
+        "semanticCount": 5,
+        "hybridCount": 5,
+        "semanticSelectedCount": 5,
+        "hybridSelectedCount": 5,
+        "candidates": [
+          {
+            "documentId": "78419c8b-cac5-4313-9273-1d5fc594a696",
+            "semanticCount": 5,
+            "hybridCount": 5
+          }
+        ],
+        "invalidReturnedCount": 0,
+        "passed": true
+      }
+    },
+    {
+      "recipeId": "west-027",
+      "recipeName": "炸鱼塔可",
+      "evidenceFile": "west-027.base-evidence.json",
+      "selectedDocumentId": "5f01ee84-d58b-48b2-b9d7-acf5d10b5629",
+      "candidateDocumentIds": [
+        "5f01ee84-d58b-48b2-b9d7-acf5d10b5629",
+        "c4ca8acd-5cf6-4d86-906f-deef06be087d"
+      ],
+      "retrieval": {
+        "semanticCount": 11,
+        "hybridCount": 11,
+        "semanticSelectedCount": 6,
+        "hybridSelectedCount": 6,
+        "candidates": [
+          {
+            "documentId": "5f01ee84-d58b-48b2-b9d7-acf5d10b5629",
+            "semanticCount": 6,
+            "hybridCount": 6
+          },
+          {
+            "documentId": "c4ca8acd-5cf6-4d86-906f-deef06be087d",
+            "semanticCount": 5,
+            "hybridCount": 5
+          }
+        ],
+        "invalidReturnedCount": 0,
+        "passed": true
+      }
+    },
+    {
+      "recipeId": "west-028",
+      "recipeName": "鸡肉芝士薄饼",
+      "evidenceFile": "west-028.base-evidence.json",
+      "selectedDocumentId": "9e9d892c-09f7-42fb-9ee3-691ff26a665c",
+      "candidateDocumentIds": [
+        "9e9d892c-09f7-42fb-9ee3-691ff26a665c"
+      ],
+      "retrieval": {
+        "semanticCount": 5,
+        "hybridCount": 5,
+        "semanticSelectedCount": 5,
+        "hybridSelectedCount": 5,
+        "candidates": [
+          {
+            "documentId": "9e9d892c-09f7-42fb-9ee3-691ff26a665c",
+            "semanticCount": 5,
+            "hybridCount": 5
+          }
+        ],
+        "invalidReturnedCount": 0,
+        "passed": true
+      }
+    },
+    {
+      "recipeId": "west-029",
+      "recipeName": "班尼迪克蛋",
+      "evidenceFile": "west-029.base-evidence.json",
+      "selectedDocumentId": "2edf80e5-bddc-42fb-ae3c-5fbf8804856c",
+      "candidateDocumentIds": [
+        "2edf80e5-bddc-42fb-ae3c-5fbf8804856c"
+      ],
+      "retrieval": {
+        "semanticCount": 6,
+        "hybridCount": 6,
+        "semanticSelectedCount": 6,
+        "hybridSelectedCount": 6,
+        "candidates": [
+          {
+            "documentId": "2edf80e5-bddc-42fb-ae3c-5fbf8804856c",
+            "semanticCount": 6,
+            "hybridCount": 6
+          }
+        ],
+        "invalidReturnedCount": 0,
+        "passed": true
+      }
+    },
+    {
+      "recipeId": "west-030",
+      "recipeName": "酪乳煎饼",
+      "evidenceFile": "west-030.base-evidence.json",
+      "selectedDocumentId": "7417b13e-b1bd-4ded-8dba-4675e86126cd",
+      "candidateDocumentIds": [
+        "7417b13e-b1bd-4ded-8dba-4675e86126cd",
+        "2be9e3f1-3a2a-45c1-996b-a495d7ebcc3f"
+      ],
+      "retrieval": {
+        "semanticCount": 11,
+        "hybridCount": 11,
+        "semanticSelectedCount": 5,
+        "hybridSelectedCount": 5,
+        "candidates": [
+          {
+            "documentId": "7417b13e-b1bd-4ded-8dba-4675e86126cd",
+            "semanticCount": 5,
+            "hybridCount": 5
+          },
+          {
+            "documentId": "2be9e3f1-3a2a-45c1-996b-a495d7ebcc3f",
+            "semanticCount": 6,
+            "hybridCount": 6
+          }
+        ],
+        "invalidReturnedCount": 0,
+        "passed": true
+      }
+    }
+  ],
+  "errors": [],
+  "notes": [
+    "CN044 media review correction was reported concurrently near the end of verification. Media comparisons describe the initial readback snapshot against then-current frozen evidence; any subsequent media correction must retain its separate parent-owned provenance audit. This audit never mutated DB metadata."
+  ],
+  "rejectedAudit": {
+    "recipeId": "cn-015",
+    "documentId": "a4076148-4892-4817-9692-070337ba2939",
+    "documentRejected": true,
+    "sourceCompleteFalse": true,
+    "chunkCount": 6,
+    "allChunksRejected": true,
+    "normalRetrievalExclusion": {
+      "auditFile": "cn-015.qualification-rejection-ingestion.json",
+      "auditCompletedAt": "2026-10-08T12:42:47.740Z",
+      "semanticRejectedMatches": 0,
+      "hybridRejectedMatches": 0
+    },
+    "rawRetained": true
+  },
+  "west024IndependentMediaAudit": {
+    "documentId": "997dbfb5-d24d-4157-9f02-67d8b6161c0b",
+    "evidenceFile": "west-024.evidence.json",
+    "evidenceFileSha256": "21905e20ba84a1a8a73c8e81b4be5935613d646ab36ea94a4a30df03ce71a85e",
+    "expectedImageCount": 7,
+    "images": [
+      {
+        "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/hero.jpg",
+        "sha256": "613879267ac5b5b1eaf82652c82e2de3e4bbef260dfc0c461b310e024976316c",
+        "stepOrder": null
+      },
+      {
+        "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-2.jpg",
+        "sha256": "39c630d16b36b11bdef9e1fc1d1647467ee9b6137be59903ddcdcea8aa706675",
+        "stepOrder": 2
+      },
+      {
+        "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-3.jpg",
+        "sha256": "02782fa8e2441283ccfa24ed504a99bbbbaddc4c85091eaf033dda042702cdf6",
+        "stepOrder": 3
+      },
+      {
+        "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-4.jpg",
+        "sha256": "cf9a2c5f461695b3a663f2bb495ee3f757329ed529f9ad60abc56e952a07a48d",
+        "stepOrder": 4
+      },
+      {
+        "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-5.jpg",
+        "sha256": "4466fde67b6e351c8bde60f2078f67c77f204c840212180ddcee34f0d561aa62",
+        "stepOrder": 5
+      },
+      {
+        "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-6.jpg",
+        "sha256": "c36cd4f494a5ef731d834cf5ff53bbd1d5301c471b2d686a871c7a2f89d69270",
+        "stepOrder": 6
+      },
+      {
+        "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-7.jpg",
+        "sha256": "1b5df2bab4dfb996e84bc2481da825e2d046b361a654ae9c6d52cbb96de04897",
+        "stepOrder": 7
+      }
+    ],
+    "metadataMediaImages": [
+      {
+        "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/hero.jpg",
+        "sha256": "613879267ac5b5b1eaf82652c82e2de3e4bbef260dfc0c461b310e024976316c",
+        "stepOrder": null
+      },
+      {
+        "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-2.jpg",
+        "sha256": "39c630d16b36b11bdef9e1fc1d1647467ee9b6137be59903ddcdcea8aa706675",
+        "stepOrder": 2
+      },
+      {
+        "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-3.jpg",
+        "sha256": "02782fa8e2441283ccfa24ed504a99bbbbaddc4c85091eaf033dda042702cdf6",
+        "stepOrder": 3
+      },
+      {
+        "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-4.jpg",
+        "sha256": "cf9a2c5f461695b3a663f2bb495ee3f757329ed529f9ad60abc56e952a07a48d",
+        "stepOrder": 4
+      },
+      {
+        "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-5.jpg",
+        "sha256": "4466fde67b6e351c8bde60f2078f67c77f204c840212180ddcee34f0d561aa62",
+        "stepOrder": 5
+      },
+      {
+        "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-6.jpg",
+        "sha256": "c36cd4f494a5ef731d834cf5ff53bbd1d5301c471b2d686a871c7a2f89d69270",
+        "stepOrder": 6
+      },
+      {
+        "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-7.jpg",
+        "sha256": "1b5df2bab4dfb996e84bc2481da825e2d046b361a654ae9c6d52cbb96de04897",
+        "stepOrder": 7
+      }
+    ],
+    "normalizedMetadataMediaImages": [
+      {
+        "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/hero.jpg",
+        "sha256": "613879267ac5b5b1eaf82652c82e2de3e4bbef260dfc0c461b310e024976316c",
+        "stepOrder": null
+      },
+      {
+        "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-2.jpg",
+        "sha256": "39c630d16b36b11bdef9e1fc1d1647467ee9b6137be59903ddcdcea8aa706675",
+        "stepOrder": 2
+      },
+      {
+        "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-3.jpg",
+        "sha256": "02782fa8e2441283ccfa24ed504a99bbbbaddc4c85091eaf033dda042702cdf6",
+        "stepOrder": 3
+      },
+      {
+        "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-4.jpg",
+        "sha256": "cf9a2c5f461695b3a663f2bb495ee3f757329ed529f9ad60abc56e952a07a48d",
+        "stepOrder": 4
+      },
+      {
+        "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-5.jpg",
+        "sha256": "4466fde67b6e351c8bde60f2078f67c77f204c840212180ddcee34f0d561aa62",
+        "stepOrder": 5
+      },
+      {
+        "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-6.jpg",
+        "sha256": "c36cd4f494a5ef731d834cf5ff53bbd1d5301c471b2d686a871c7a2f89d69270",
+        "stepOrder": 6
+      },
+      {
+        "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-7.jpg",
+        "sha256": "1b5df2bab4dfb996e84bc2481da825e2d046b361a654ae9c6d52cbb96de04897",
+        "stepOrder": 7
+      }
+    ],
+    "metadataMatches": true,
+    "normalizedMetadataMatches": true,
+    "fullMediaBothCopiesMatch": true,
+    "independentLocalFileVerification": {
+      "recipeId": "west-024",
+      "source": "Independent local-file SHA256 readback following full two-copy database media readback in final-database-verification.json",
+      "images": [
+        {
+          "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/hero.jpg",
+          "sha256": "613879267ac5b5b1eaf82652c82e2de3e4bbef260dfc0c461b310e024976316c",
+          "stepOrder": null,
+          "localFileExists": true,
+          "localFileSha256": "613879267ac5b5b1eaf82652c82e2de3e4bbef260dfc0c461b310e024976316c",
+          "localFileHashMatches": true
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-2.jpg",
+          "sha256": "39c630d16b36b11bdef9e1fc1d1647467ee9b6137be59903ddcdcea8aa706675",
+          "stepOrder": 2,
+          "localFileExists": true,
+          "localFileSha256": "39c630d16b36b11bdef9e1fc1d1647467ee9b6137be59903ddcdcea8aa706675",
+          "localFileHashMatches": true
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-3.jpg",
+          "sha256": "02782fa8e2441283ccfa24ed504a99bbbbaddc4c85091eaf033dda042702cdf6",
+          "stepOrder": 3,
+          "localFileExists": true,
+          "localFileSha256": "02782fa8e2441283ccfa24ed504a99bbbbaddc4c85091eaf033dda042702cdf6",
+          "localFileHashMatches": true
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-4.jpg",
+          "sha256": "cf9a2c5f461695b3a663f2bb495ee3f757329ed529f9ad60abc56e952a07a48d",
+          "stepOrder": 4,
+          "localFileExists": true,
+          "localFileSha256": "cf9a2c5f461695b3a663f2bb495ee3f757329ed529f9ad60abc56e952a07a48d",
+          "localFileHashMatches": true
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-5.jpg",
+          "sha256": "4466fde67b6e351c8bde60f2078f67c77f204c840212180ddcee34f0d561aa62",
+          "stepOrder": 5,
+          "localFileExists": true,
+          "localFileSha256": "4466fde67b6e351c8bde60f2078f67c77f204c840212180ddcee34f0d561aa62",
+          "localFileHashMatches": true
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-6.jpg",
+          "sha256": "c36cd4f494a5ef731d834cf5ff53bbd1d5301c471b2d686a871c7a2f89d69270",
+          "stepOrder": 6,
+          "localFileExists": true,
+          "localFileSha256": "c36cd4f494a5ef731d834cf5ff53bbd1d5301c471b2d686a871c7a2f89d69270",
+          "localFileHashMatches": true
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/west-024-bbc-good-food/step-7.jpg",
+          "sha256": "1b5df2bab4dfb996e84bc2481da825e2d046b361a654ae9c6d52cbb96de04897",
+          "stepOrder": 7,
+          "localFileExists": true,
+          "localFileSha256": "1b5df2bab4dfb996e84bc2481da825e2d046b361a654ae9c6d52cbb96de04897",
+          "localFileHashMatches": true
+        }
+      ],
+      "ok": true
+    }
+  },
+  "counts": {
+    "cumulativeInScopeImportedDocuments": 48,
+    "cumulativeInScopeImportedChunks": 300,
+    "currentQualifiedUsableCandidateDocuments": 47,
+    "currentQualifiedUsableCandidateChunks": 294,
+    "rejectedDocuments": 1,
+    "rejectedChunks": 6,
+    "embeddingDimensionCounts": {
+      "1024": 294
+    },
+    "expectedTotalsMatch": true
+  },
+  "publicationBoundary": {
+    "databaseIngestionIsFormalPublication": false,
+    "frozenEvidenceRecipeCount": 10,
+    "awaitingPhotoAcceptanceRecipeCount": 23,
+    "statement": "Database source ingestion and valid evidence do not assert Reviewer PASS, canonical publication, commit, push, or done status. Formal publication is orchestrator-owned."
+  },
+  "completedAt": "2026-10-08T17:10:18.269Z",
+  "ok": true,
+  "allCurrentCandidatesNormallyRetrievable": true,
+  "candidateRetrievalMissing": [],
+  "authorAttributionSummary": {
+    "sourceAuthorKnownDocumentCount": 21,
+    "sourceAuthorNullDocumentCount": 26,
+    "sourceAuthorNullDocumentIds": [
+      "64811085-e1d5-4a9b-a1fc-ddb00b282459",
+      "0ff9202a-963e-4b37-a713-4d7d344dd8ab",
+      "2be1111d-2cd1-42dd-b183-990a063573e7",
+      "3ef0f122-545b-407b-af57-d247126d1390",
+      "fc8be572-9638-48b4-8fb1-b416a9893e56",
+      "e9ce4921-06d9-457d-b816-2eb881079e56",
+      "72ce298f-8af6-4c11-860b-dd60f9445054",
+      "6d4bc2d5-d6db-4913-b97f-a04179a32c3b",
+      "d45ed17d-216f-4704-9a67-6d247f9705e5",
+      "16f8f429-96c0-467c-ac52-22297c424ccb",
+      "2a659456-2a0f-4e3e-b07f-569cf91e2e15",
+      "2ea4e999-7e04-4390-a544-e915356f6c9c",
+      "29fa3b16-9237-46cd-8135-71280c566512",
+      "104da4b6-7b98-4f42-ba24-ff89a0723102",
+      "4ad2d3fc-c330-40c9-9330-a92f82714cca",
+      "6a83f371-b7f8-44a3-a4d7-d5fe6cb45a5d",
+      "457ca423-d4ad-460e-97de-5a10ca5464bf",
+      "e5f01590-1ad2-46c5-a2b2-f9ee07211b7e",
+      "76783447-425d-4e83-8edc-da9f76a25f5d",
+      "a35278cc-04a9-4567-adbc-1c95fd3a9c67",
+      "fa8bcb83-d3d0-41c1-a021-18f3fd8b21cf",
+      "7d633798-006a-4be9-9ad8-79cca8539077",
+      "ad0ee351-7f32-4ae7-b850-0d08b3957211",
+      "1679c443-d4d6-43a2-bc1f-6e106542f4b1",
+      "c4ca8acd-5cf6-4d86-906f-deef06be087d",
+      "2be9e3f1-3a2a-45c1-996b-a495d7ebcc3f"
+    ],
+    "documentsWithIndependentlyVerifiedMediaAttribution": 10,
+    "distinction": "source.author belongs to original hashed content identity. Null means not stored in that field, not an invented author. Independently traced original bylines/images are carried in verified mediaReferences where available; this audit makes no source.author rewrite and does not equate separate media attribution with populated source.author."
+  },
+  "embeddingVerification": {
+    "model": "voyage-4",
+    "modelBasis": "Existing per-source ingestion audits; no content re-embedding performed",
+    "dimensionBasis": "Actual readback embedding lengths, only aggregated dimensions retained; no vector values in artifact",
+    "currentDimensionCounts": {
+      "1024": 294
+    }
+  },
+  "finalizedAt": "2026-10-08T17:23:00.575539+00:00",
+  "mediaSupersessionChecks": [
+    {
+      "recipeId": "cn-053",
+      "verifiedAt": "2026-10-08T17:22:13.103Z",
+      "replacementEvidenceHash": "ce57a7bb25f28cf24cf541ff345b7c2e72fbdddb14212f6aef1e2902c3d80228",
+      "previousMediaChecks": [
+        {
+          "recipeId": "cn-053",
+          "author": "Judy",
+          "bothMetadataCopiesEqualFrozenEvidence": true,
+          "imageCount": 14,
+          "fullMediaHash": "1dbacf6fdd1635d2c896a57232442d8975300c0162190cb98c898642f32f034c"
+        }
+      ],
+      "previousMapEvidenceStatus": "superseded",
+      "previousMapHistoryAudit": "cn-053.media-provenance-correction-sync.json",
+      "databaseHistoryPreserved": true,
+      "currentSelectedMediaImageCount": 13,
+      "currentImages": [
+        {
+          "repositoryPath": "assets/dishes/sources/cn-053-woks/hero.jpg",
+          "sha256": "3fbb33a8cf2ba59ad918ddf24b4d597ae4a46774f8d87a47a5dff9aae9fabc0d",
+          "stepOrder": null
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-053-woks/step-1-2.jpg",
+          "sha256": "670fda2ac678cbcc61546aa959e8984ae960f47808b0aebada14383255621b04",
+          "stepOrder": 4
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-053-woks/step-2-3.jpg",
+          "sha256": "e53dd05a424b254cf8fe835aaa95994a1536afa3ed34546c3e43c33611cc0dd2",
+          "stepOrder": 4
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-053-woks/step-3-4.jpg",
+          "sha256": "ce548fcead07ba85e34b8b0e8298e4feb635c81f3e5a4a01c173205d014f53d0",
+          "stepOrder": 5
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-053-woks/step-4-5.jpg",
+          "sha256": "c76f47dc385d6de061cf7eeb589e9fa5a906157d792a5e8c5bfdcce37ccd6a5e",
+          "stepOrder": 5
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-053-woks/step-4-6.jpg",
+          "sha256": "f450d2cc88c438c6386bdf8bd002f7e10847659c6ae256507de3284e782dc2db",
+          "stepOrder": 5
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-053-woks/step-5-7.jpg",
+          "sha256": "bfe9691ba4d74f1603adccee1132c5726f9ddf5592a6f518febd0229b410e6cf",
+          "stepOrder": 5
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-053-woks/step-5-8.jpg",
+          "sha256": "c49c46d859199a9faf4b2cbd72313c573fa2c1b452321079f56fce27a480d1a8",
+          "stepOrder": 6
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-053-woks/step-5-9.jpg",
+          "sha256": "6de57734028d7873a5833a5d07fabb8b3887610d1d41c8e5cda1bae1fc7c4545",
+          "stepOrder": 6
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-053-woks/step-5-10.jpg",
+          "sha256": "cc0335a8d434c6fcff7adb4309d420495522c49a5770ac5db2cc66945b6a448b",
+          "stepOrder": 6
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-053-woks/step-6-12.jpg",
+          "sha256": "ad16c1cddd8fe0333f82110ecca547e5b87fc9bffbb5bfbaacac80f2f3bb4a7d",
+          "stepOrder": 7
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-053-woks/step-6-13.jpg",
+          "sha256": "19e8aee452fab13eb7fa668d572d12efb85c45cfd3c8e5b8b950fcb84cee1491",
+          "stepOrder": 7
+        },
+        {
+          "repositoryPath": "assets/dishes/sources/cn-053-woks/step-7-14.jpg",
+          "sha256": "f517622524f015e11260e6d8b6885b21024d38e08db197e4f1b2f0751acfa19f",
+          "stepOrder": 7
+        }
+      ],
+      "assertions": {
+        "documentContentHashUnchanged": "02c700a313075511c52898490bfcd521912fab7141a69fcfdb8d0eb7203f4ece",
+        "rawTextUnchanged": true,
+        "chunkCountUnchanged": 7,
+        "chunkContentAndEmbeddingsUnchanged": true,
+        "embeddingDimensionsUnchanged": {
+          "1024": 7
+        },
+        "sourceAuthorUnchanged": null,
+        "normalRetrievalVerified": true
+      }
+    }
+  ],
+  "currentSelectedMediaSummary": {
+    "synchronizedSelectedDocuments": 10,
+    "selectedImageCount": 119,
+    "cn053CurrentSelectedImageCount": 13,
+    "statement": "CN053 supersession check supersedes its original readback media snapshot; rejected leftover-salt tip image is retained only as local audit, not selected cooking media."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "completedAt": "2026-10-08T12:14:19.152Z",
+  "documents": [
+    {
+      "documentId": "e9ce4921-06d9-457d-b816-2eb881079e56",
+      "url": "https://thewoksoflife.com/hainanese-chicken-rice/",
+      "deduplicated": false,
+      "embedded": true,
+      "chunkCount": 9,
+      "model": "voyage-4",
+      "dimension": 1024,
+      "semanticCount": 9,
+      "hybridCount": 9
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "recipeId": "cn-028",
+  "recipeName": "清炒虾仁",
+  "url": "https://www.douguo.com/cookbook/1336292.html",
+  "httpStatus": 200,
+  "title": "清炒虾仁",
+  "ingredients": [
+    {
+      "name": "水晶虾仁",
+      "amount": null,
+      "raw": "水晶虾仁"
+    },
+    {
+      "name": "胡萝卜",
+      "amount": null,
+      "raw": "胡萝卜"
+    },
+    {
+      "name": "黄瓜",
+      "amount": null,
+      "raw": "黄瓜"
+    }
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "instruction": "虾仁洗净，放入料酒腌制，撒生粉拌匀",
+      "duration": null,
+      "heat": null
+    },
+    {
+      "order": 2,
+      "instruction": "胡萝卜和黄瓜切丁",
+      "duration": null,
+      "heat": null
+    },
+    {
+      "order": 3,
+      "instruction": "热锅放油，放入虾仁翻炒，变色乘出",
+      "duration": null,
+      "heat": null
+    },
+    {
+      "order": 4,
+      "instruction": "再放油，放入切好的胡萝卜丁和黄瓜丁翻炒，再倒入虾仁翻炒。放鸡精和盐调味。出盘。",
+      "duration": null,
+      "heat": null
+    }
+  ],
+  "images": [
+    {
+      "role": "step",
+      "originalUrl": "https://i1.douguo.com/static/img/cookno.jpg",
+      "stepOrder": 1,
+      "adjacentText": "虾仁洗净，放入料酒腌制，撒生粉拌匀"
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://i1.douguo.com/static/img/cookno.jpg",
+      "stepOrder": 2,
+      "adjacentText": "胡萝卜和黄瓜切丁"
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://i1.douguo.com/static/img/cookno.jpg",
+      "stepOrder": 3,
+      "adjacentText": "热锅放油，放入虾仁翻炒，变色乘出"
+    },
+    {
+      "role": "step",
+      "originalUrl": "https://cp1.douguo.com/upload/caiku/d/f/2/800_dfde6d95ba0134d176a0e4a6aa198b52.jpg",
+      "stepOrder": 4,
+      "adjacentText": "再放油，放入切好的胡萝卜丁和黄瓜丁翻炒，再倒入虾仁翻炒。放鸡精和盐调味。出盘。"
+    }
+  ],
+  "hero": "https://cp1.douguo.com/upload/caiku/6/1/0/690x390_6177c27a8a1a74ed3d865e85ec0944e0.jpg",
+  "author": "小羽化化",
+  "tips": "清炒虾仁的烹饪技巧 做菜好吃都有技巧，我的每道菜都有小妙招，大家搜索“豆果”可以直接查看我的菜谱！",
+  "rawExcerpt": "{\"title\": \"清炒虾仁\", \"ingredients\": [{\"name\": \"水晶虾仁\", \"amount\": null, \"raw\": \"水晶虾仁\"}, {\"name\": \"胡萝卜\", \"amount\": null, \"raw\": \"胡萝卜\"}, {\"name\": \"黄瓜\", \"amount\": null, \"raw\": \"黄瓜\"}], \"steps\": [{\"order\": 1, \"instruction\": \"虾仁洗净，放入料酒腌制，撒生粉拌匀\", \"duration\": null, \"heat\": null}, {\"order\": 2, \"instruction\": \"胡萝卜和黄瓜切丁\", \"duration\": null, \"heat\": null}, {\"order\": 3, \"instruction\": \"热锅放油，放入虾仁翻炒，变色乘出\", \"duration\": null, \"heat\": null}, {\"order\": 4, \"instruction\": \"再放油，放入切好的胡萝卜丁和黄瓜丁翻炒，再倒入虾仁翻炒。放鸡精和盐调味。出盘。\", \"duration\": null, \"heat\": null}], \"tips\": \"清炒虾仁的烹饪技巧 做菜好吃都有技巧，我的每道菜都有小妙招，大家搜索“豆果”可以直接查看我的菜谱！\"}"
+}

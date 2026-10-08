@@ -1,0 +1,71 @@
+{
+  "runId": "2026-10-08-remaining44-west-019",
+  "recipeId": "west-019",
+  "recipeName": "马赛鱼汤",
+  "category": "western",
+  "status": "in_progress",
+  "startedAt": "2026-10-08T11:56:52.318Z",
+  "completedAt": null,
+  "steps": {
+    "research": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "evidencePath": "workflow/batches/2026-10-08-remaining44/west-019.base-evidence.json",
+        "evidencePackageHash": "eb8c010a2b99dad0597f2beec01c9551fea889d7025e13ee5b9166bc2131078f",
+        "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/bouillabaisse",
+        "sourceMode": "multi_source",
+        "publicationGate": "Final image/evidence acceptance pending"
+      }
+    },
+    "ingestion": {
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "selectedDocumentId": "0e1996bd-a908-4482-aaa6-4760db1ad1bf",
+        "documentIds": [
+          "0e1996bd-a908-4482-aaa6-4760db1ad1bf",
+          "fa8bcb83-d3d0-41c1-a021-18f3fd8b21cf"
+        ],
+        "ragEvidence": 15
+      }
+    },
+    "edit": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "validator": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "review": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "build": {
+      "status": "pending",
+      "attempts": 0
+    },
+    "gitPush": {
+      "status": "pending",
+      "attempts": 0
+    }
+  },
+  "sources": [
+    {
+      "name": "BBC Good Food",
+      "url": "https://www.bbcgoodfood.com/recipes/bouillabaisse",
+      "status": "success",
+      "failureReason": null
+    },
+    {
+      "name": "Serious Eats",
+      "url": "https://www.seriouseats.com/bouillabaisse-marseillaise-fish-stew-recipe",
+      "status": "success",
+      "failureReason": null
+    }
+  ],
+  "errors": [],
+  "branch": "codex/recipe-automation",
+  "commit": null
+}

@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "completedAt": "2026-10-08T12:12:26.127Z",
+  "documents": [
+    {
+      "documentId": "fc8be572-9638-48b4-8fb1-b416a9893e56",
+      "url": "https://thewoksoflife.com/winter-melon-soup-pork-ribs/",
+      "deduplicated": false,
+      "embedded": true,
+      "chunkCount": 6,
+      "model": "voyage-4",
+      "dimension": 1024,
+      "semanticCount": 6,
+      "hybridCount": 6
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "recipeId": "west-009",
+  "attempts": [
+    {
+      "url": "https://www.bbcgoodfood.com/recipes/bratwurst",
+      "status": 404,
+      "bytes": 427584
+    },
+    {
+      "url": "https://www.bbcgoodfood.com/recipes/bratwurst-with-potato-cakes",
+      "status": 404,
+      "bytes": 427602
+    },
+    {
+      "url": "https://www.bbcgoodfood.com/recipes/bratwurst-potatoes",
+      "status": 404,
+      "bytes": 427593
+    }
+  ],
+  "candidates": []
+}

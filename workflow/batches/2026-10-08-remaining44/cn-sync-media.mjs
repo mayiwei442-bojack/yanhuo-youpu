@@ -1,0 +1,34 @@
+import {readFile,writeFile} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+import {createConfiguredSupabaseClient,loadRagEnv} from '../../../src/rag/supabase-client.mjs';
+import {createWindowsHttpFetch} from '../../../src/rag/windows-http.mjs';
+import {createConfiguredEmbeddingProvider} from '../../../src/rag/embedding-provider.mjs';
+import {retrieve} from '../../../src/rag/retrieve.mjs';
+import {hybridSearch} from '../../../src/rag/hybrid-search.mjs';
+await loadRagEnv();const fetchImpl=createWindowsHttpFetch();const client=await createConfiguredSupabaseClient({fetchImpl});const embeddingProvider=createConfiguredEmbeddingProvider({fetchImpl});
+const stable=v=>Array.isArray(v)?v.map(stable):v&&typeof v==='object'?Object.fromEntries(Object.keys(v).sort().map(k=>[k,stable(v[k])])):v;
+const hash=v=>createHash('sha256').update(JSON.stringify(stable(v))).digest('hex');
+const invariant=d=>({raw_text:d.raw_text,content_hash:d.content_hash,source:d.normalized_json.source,ingredients:d.normalized_json.ingredients,steps:d.normalized_json.steps,technique:d.normalized_json.technique,tips:d.normalized_json.tips,evidenceStatus:d.metadata?.evidenceStatus??null});
+const chunkSnapshot=async documentId=>(await client.select('kb_chunks',{columns:'id,content_hash,embedding,metadata',filters:{document_id:documentId},order:'id.asc',limit:1000}));
+const dir=new URL('./',import.meta.url);const audit={startedAt:new Date().toISOString(),operation:'Verified frozen source media metadata enrichment only; no raw content, source author, content hash, chunks or embeddings updated.',documents:[]};
+for(const id of ['cn-015','cn-019','cn-020','cn-031','cn-035','cn-039','cn-040','cn-044','cn-051','cn-053']){
+ const e=JSON.parse(await readFile(new URL(`${id}.evidence.json`,dir),'utf8')),s=e.sources.find(x=>x.url===e.selectedSourceUrl);
+ if(!s?.media)throw Error(`${id}: no frozen verified media`);
+ const images=[s.media.hero,...s.media.steps];if(images.some(i=>i.httpStatus!==200||!i.sha256))throw Error(`${id}: missing verified image hashes`);
+ const d=(await client.select('kb_documents',{filters:{id:s.documentId},limit:1}))[0];if(!d)throw Error(`${id}: document absent`);
+ if(['invalid','rejected','superseded'].includes(d.metadata?.evidenceStatus))throw Error(`${id}: document is excluded audit history`);
+ const beforeChunks=await chunkSnapshot(d.id),beforeHash=hash(invariant(d));
+ const metadata={...d.metadata,mediaReferences:s.media,selectedForRecipe:id};const normalized_json={...d.normalized_json,metadata:{...d.normalized_json.metadata,mediaReferences:s.media}};
+ await client.update('kb_documents',{metadata,normalized_json},{id:d.id});
+ const check=(await client.select('kb_documents',{filters:{id:d.id},limit:1}))[0];const afterChunks=await chunkSnapshot(d.id);
+ if(hash(invariant(check))!==beforeHash)throw Error(`${id}: content invariant changed`);
+ if(hash(beforeChunks)!==hash(afterChunks))throw Error(`${id}: chunks/vectors/status changed`);
+ for(const media of [check.metadata.mediaReferences,check.normalized_json.metadata.mediaReferences])if(hash(media)!==hash(s.media))throw Error(`${id}: full media readback mismatch`);
+ const semantic=await retrieve({query:e.recipeName,recipeEntityId:d.recipe_entity_id,client,embeddingProvider,limit:40,maxPerSource:40});
+ const hybrid=await hybridSearch({query:e.recipeName,recipeEntityId:d.recipe_entity_id,client,embeddingProvider,limit:40,maxPerSource:40});
+ const excludedReturned=[...semantic,...hybrid].filter(c=>['invalid','rejected','superseded'].includes(c.metadata?.evidenceStatus));if(excludedReturned.length)throw Error(`${id}: excluded chunks returned`);
+ const semanticCount=semantic.filter(c=>c.document_id===d.id).length,hybridCount=hybrid.filter(c=>c.document_id===d.id).length;if(!semanticCount||!hybridCount)throw Error(`${id}: current document not retrievable`);
+ audit.documents.push({recipeId:id,documentId:d.id,author:s.media.author,imageCount:images.length,heroSha256:s.media.hero.sha256,images:images.map(i=>({repositoryPath:i.repositoryPath,sha256:i.sha256,...(i.stepOrder?{stepOrder:i.stepOrder}:{})})),fullMediaMetadataHash:hash(s.media),contentInvariantHash:beforeHash,contentHashUnchanged:check.content_hash===d.content_hash,sourceAuthorUnchanged:check.normalized_json.source.author===d.normalized_json.source.author,documentEvidenceStatusPreserved:check.metadata.evidenceStatus===d.metadata.evidenceStatus,chunkCount:beforeChunks.length,chunkVectorMetadataHash:hash(beforeChunks),chunksAndVectorsUnchanged:true,retrieval:{semanticCount,hybridCount,excludedEvidenceReturned:0},verified:true});
+ await writeFile(new URL('cn-media-provenance-sync.json',dir),JSON.stringify(audit,null,2)+'\n');console.log(id,'verified',images.length,'images',beforeChunks.length,'unchangedchunks');
+}
+audit.completedAt=new Date().toISOString();audit.ok=true;await writeFile(new URL('cn-media-provenance-sync.json',dir),JSON.stringify(audit,null,2)+'\n');console.log('ALL10 provenance syncPASS');

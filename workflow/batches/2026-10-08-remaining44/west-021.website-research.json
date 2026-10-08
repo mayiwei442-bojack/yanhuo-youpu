@@ -1,0 +1,203 @@
+{
+  "recipeId": "west-021",
+  "attempts": [
+    {
+      "url": "https://www.bbcgoodfood.com/recipes/beef-bourguignon",
+      "status": 200,
+      "bytes": 641724
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://www.bbcgoodfood.com/recipes/beef-bourguignon",
+      "recipe": {
+        "@context": "https://schema.org",
+        "@id": "https://www.bbcgoodfood.com/recipes/beef-bourguignon#Recipe",
+        "@type": "Recipe",
+        "description": "The secret to this rich beef casserole is to use all wine and no stock. Our ultimate beef bourguignon recipe is an instant comforting classic, full of satisfying flavours.",
+        "image": [
+          {
+            "@type": "ImageObject",
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2010/10/beef-bourguignon-f3bd4cb.jpg?resize=768,698",
+            "width": 768,
+            "height": 698
+          },
+          {
+            "@type": "ImageObject",
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2010/10/beef-bourguignon-f3bd4cb.jpg?resize=1366,1242",
+            "width": 1366,
+            "height": 1242
+          }
+        ],
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://www.bbcgoodfood.com/recipes/beef-bourguignon"
+        },
+        "name": "Beef bourguignon",
+        "url": "https://www.bbcgoodfood.com/recipes/beef-bourguignon",
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Barney Desmazery",
+            "url": "https://www.bbcgoodfood.com/author/barneydesmazery"
+          }
+        ],
+        "dateModified": "2026-07-13T10:55:11+01:00",
+        "datePublished": "2021-07-14T15:20:41+01:00",
+        "headline": "Beef bourguignon",
+        "keywords": "Barney Desmazery, Beef bourguignon, Beef casserole, Beef in red wine sauce, Braising steak, Braising steaks, Freezable, Freeze ahead recipes, Make ahead, Red wine, Rich beef stew, Thyme, Tomato purée, Wine",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Good Food",
+          "url": "https://www.bbcgoodfood.com",
+          "logo": {
+            "@type": "ImageObject",
+            "height": 325,
+            "url": "https://images.immediate.co.uk/production/volatile/sites/30/2026/02/goodfood.logo-f37096c.png?resize=1312,325",
+            "width": 1312
+          }
+        },
+        "cookTime": "PT3H30M",
+        "nutrition": {
+          "@type": "NutritionInformation",
+          "calories": "861 calories",
+          "fatContent": "36 grams fat",
+          "saturatedFatContent": "12 grams saturated fat",
+          "carbohydrateContent": "19 grams carbohydrates",
+          "sugarContent": "9 grams sugar",
+          "fiberContent": "6 grams fiber",
+          "proteinContent": "67 grams protein",
+          "sodiumContent": "1.72 milligram of sodium"
+        },
+        "prepTime": "PT45M",
+        "recipeCategory": "Dinner, Main course",
+        "recipeCuisine": "French",
+        "recipeIngredient": [
+          "1.6kg braising steak cut into large chunks",
+          "3 bay leaves",
+          "small bunch thyme",
+          "2 bottles cheap  red wine",
+          "2 tbsp oil",
+          "3 large or 6 normal  carrots cut into large chunks",
+          "2 onions roughly chopped",
+          "3 tbsp plain flour",
+          "1 tbsp tomato purée",
+          "small knob butter",
+          "300g bacon lardons",
+          "500g pearl onions or small shallots, peeled",
+          "400g mushrooms halved",
+          "chopped parsley"
+        ],
+        "recipeInstructions": [
+          {
+            "@type": "HowToStep",
+            "text": "Tip 1.6kg braising steak, cut into large chunks, into a large bowl with 3 bay leaves, a small bunch of thyme, 2 bottles of red wine and some pepper, then cover and leave in the fridge overnight."
+          },
+          {
+            "@type": "HowToStep",
+            "text": "Heat the oven to 200C/180C fan/gas 6."
+          },
+          {
+            "@type": "HowToStep",
+            "text": "Place a colander over another large bowl and strain the marinated meat, keeping the wine."
+          },
+          {
+            "@type": "HowToStep",
+            "text": "Heat 1 tbsp oil in a large frying pan, then brown the meat in batches, transferring to a plate once browned. When all the meat is browned, pour a little wine into the now-empty frying pan and bubble to release any caramelised bits from the pan."
+          },
+          {
+            "@type": "HowToStep",
+            "text": "Heat 1 tbsp oil in a large casserole and fry 3 large or 6 normal carrots, cut into large chunks, and 2 roughly chopped onions until they start to colour. Stir in 3 tbsp plain flour for 1 min, then add 1 tbsp tomato purée."
+          },
+          {
+            "@type": "HowToStep",
+            "text": "Add the beef and any juices, the wine from the frying pan and the rest of the wine and herbs. Season and bring to a simmer. Give everything a good stir, then cover."
+          },
+          {
+            "@type": "HowToStep",
+            "text": "Transfer to the oven and bake for 2 hrs until the meat is really tender. Cool. Will freeze for up to 3 months."
+          },
+          {
+            "@type": "HowToStep",
+            "text": "To serve, defrost completely overnight in the fridge if frozen, then place on a low heat to warm through."
+          },
+          {
+            "@type": "HowToStep",
+            "text": "Meanwhile, heat a small knob of butter in a frying pan and add 300g bacon lardons and 500g peeled pearl onions or small shallots. Sizzle for about 10 mins until the bacon starts to crisp and the onions soften and colour."
+          },
+          {
+            "@type": "HowToStep",
+            "text": "Add 400g halved mushrooms and fry for another 5 mins, then stir everything into the stew and heat for 10 mins more. Serve scattered with chopped parsley."
+          }
+        ],
+        "recipeYield": 6,
+        "totalTime": "PT4H15M"
+      },
+      "images": [
+        {
+          "alt": "Good Food logo in black",
+          "src": "https://images.immediate.co.uk/production/volatile/sites/30/2026/02/goodfood.logo-f37096c.png?quality=90&resize=120,30",
+          "parentText": ""
+        },
+        {
+          "alt": "Good Food logo in black",
+          "src": "https://images.immediate.co.uk/production/volatile/sites/30/2026/02/goodfood.logo-f37096c.png?quality=90&resize=600,149",
+          "parentText": ""
+        },
+        {
+          "alt": "",
+          "src": "https://images.immediate.co.uk/production/volatile/sites/30/2010/10/beef-bourguignon-f3bd4cb.jpg?quality=90&resize=500,454",
+          "parentText": ""
+        },
+        {
+          "alt": "Gratin dauphinoise in dish",
+          "src": "https://images.immediate.co.uk/production/volatile/sites/30/2010/06/ultimate-gratin-dauphinois-939cddd.jpg?quality=90&resize=93,84",
+          "parentText": ""
+        },
+        {
+          "alt": "Creamed spinach in a gold serving bowl",
+          "src": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/creamed_spinach-dad1f50.jpg?quality=90&resize=93,84",
+          "parentText": ""
+        },
+        {
+          "alt": "Garlic mashed potatoes in a bowl with a spoon",
+          "src": "https://images.immediate.co.uk/production/volatile/sites/30/2022/11/Garlic-mash-799f2a4.jpg?quality=90&resize=93,84",
+          "parentText": ""
+        },
+        {
+          "alt": "Good Good Trust Campaign",
+          "src": "https://images.immediate.co.uk/production/volatile/sites/30/2026/08/SM00387GF-TrustGF-brandsite-footer-promo-880x800-c729250.jpg?quality=90&resize=880,880",
+          "parentText": ""
+        },
+        {
+          "alt": "",
+          "src": "https://images.immediate.co.uk/production/volatile/sites/30/2026/03/Good-Food-App-Footer-Prepped-Not-Processed-01ed405.png?quality=90&resize=93,84",
+          "parentText": ""
+        },
+        {
+          "alt": "",
+          "src": "https://images.immediate.co.uk/production/volatile/sites/30/2026/09/footer-promo-880x800-1550004.png?quality=90&resize=93,84",
+          "parentText": ""
+        },
+        {
+          "alt": "Good Food Podcast with Samuel Goldsmith cover",
+          "src": "https://images.immediate.co.uk/production/volatile/sites/30/2024/12/Screenshot-2025-01-07-at-09.14.23-cf184bf.png?quality=90&resize=93,84",
+          "parentText": ""
+        },
+        {
+          "alt": "Good Food logo in white colour",
+          "src": "https://images.immediate.co.uk/production/volatile/sites/30/2026/03/GF-logo-white-01-5a856e9.png?quality=90&resize=220,51",
+          "parentText": ""
+        },
+        {
+          "alt": "Immediate company logo in white",
+          "src": "https://images.immediate.co.uk/production/volatile/sites/30/2024/03/ImmediateLogoRGBWhite-204b567.png?quality=90&resize=3873,767",
+          "parentText": ""
+        }
+      ],
+      "pageText": "Beef Bourguignon Recipe | Good Food\nSkip to main content\nSubscribe\nSustainability\nGood Food Shows\nDownload our app\nNewsletters\nRecipes\nBack to\nMain menu\nNew and trending\nBack to\nRecipes\n7 day health reset\nSausage pastas\nCreamy soups\nQuick family dinners\nNewsletter recipes\nBack to\nRecipes\nFast midweek meals\nBatch cooking ideas\nSign up today\nWhatsApp feed\nWhat to cook\nBack to\nRecipes\nQuick and easy\nEveryday recipes\nFamily recipes\nOne-pots\nSlow cooker recipes\nTraybakes\nAir fryer recipes\nBatch cooking\nAll inspiration\nOccasion recipes\nBack to\nRecipes\nBack to school\nHalloween\nBonfire night\nMeal type\nBack to\nRecipes\nBreakfast\nLunch\nDinner\nBrowse all meal types\nDiet type\nBack to\nRecipes\nVegan\nVegetarian\nBrowse all diet types\nExplore\nBack to\nRecipes\nIngredients\nCuisines\nChef recipes\nExplore more\nHealth\nBack to\nMain menu\nHealth hub\nSubscribe\nBack to\nHealth\nNutracheck\nFree health newsletter\nFitness\nBack to\nHealth\nProtein 101\nMarathon meal plans\nYour health\nBack to\nHealth\nWomen's health\nImprove digestion\nHealthy eating\nBack to\nHealth\nVitamins and minerals\nWhat to eat\nWellbeing\nBack to\nHealth\nSleep better\nEat for energy\nWhat to buy\nBack to\nMain menu\nTrending\nBack to\nWhat to buy\nBest induction pans\nBest stand mixers\nBest kettles\nBest coffee machines\nHow we test\nMore reviews\nBack to\nWhat to buy\nBest pan sets\nBest knife sets\nBest frying pans\nBest collagen supplement\nBest coffee beans\nCoffee pod machines\nAll things coffee\nTaste tests\nDrinks reviews\nGift guides\nBudget\nBack to\nMain menu\nBatch cooking\nBack to\nBudget\nBudget batch cooking\nHealthy batch cooking\nVeggie batch cooking\nLeftovers ideas\nBack to\nBudget\nLeftover chicken recipes\nLeftover rice recipes\nLeftover potato recipes\nZero-waste\nBack to\nBudget\nFridge raid recipes\n5 waste-free meals\nPlanet-friendly cooking\nBudget meal plans\nBack to\nBudget\nStudent meal plan\nQuick family meal plan\n5-ingredient meal plan\nFreezable feasts\nBack to\nBudget\nFreezable family dinners\nFreezer-friendly pasta\nHealthy freezable meals\nCheap eats\nBack to\nBudget\nQuick budget dinners\nThrifty family feasts\nCheap and healthy\nBaking\nBack to\nMain menu\nCakes\nBack to\nBaking\nSummer cakes\nHealthy cakes\nBirthday cakes\nChocolate cakes\nCheesecakes\nBakes\nBack to\nBaking\nCookies\nBrownies\nScones\nBread\nBack to\nBaking\nSourdough\nFocaccia\nSubscribe\nSubscribe\nSustainability\nGood Food Shows\nDownload our app\nNewsletters\nSearch\nClear\nHome\nRecipes\nBeef bourguignon\nBeef bourguignon\nBarney Desmazery\nSave recipe\nServes 6\nEasy\nPrep:\n45 mins\nCook:\n3 hrs and 30 mins\nPlus overnight marinating\nA star rating of 4.5 out of 5.\n121 ratings\nRate\nloading...\nThe secret to this rich beef casserole is to use all wine and no stock. Our ultimate beef bourguignon recipe is an instant comforting classic, full of satisfying flavours.\nFreezable\nEgg-free\nHigh-fibre\nHigh-protein\nLow sugar\nNut-free\nPrint\nAd\nSkip to ingredients\nAlternatives\nComplete the dish\nLoading...\nShowing items 1 to 3 of 3\nUltimate gratin dauphinois\nA star rating of 4.3 out of 5.\n81 ratings\nCreamed spinach\nA star rating of 4.6 out of 5.\n102 ratings\nGarlic mashed potatoes\nA star rating of 4.8 out of 5.\n5 ratings\nIngredients\nNutrition\nUnits:\nMetric\nUS\n1.6kg\nbraising steak\ncut into large chunks\n3\nbay leaves\nsmall bunch\nthyme\n2 bottles cheap\nred wine\n2 tbsp\noil\n3 large or 6 normal\ncarrots\ncut into large chunks\n2\nonions\nroughly chopped\n3 tbsp\nplain flour\n1 tbsp\ntomato purée\nTo serve\nsmall knob\nbutter\n300g\nbacon lardons\n500g\npearl onions\nor small shallots, peeled\n400g\nmushrooms\nhalved\nchopped\nparsley\nKeep the screen awake with cook mode on the\nGood Food app.\nNutrition: per serving\nkcal\n861\nfat\n36\ng\nsaturates\n12\ng\ncarbs\n19\ng\nsugars\n9\ng\nlow\nfibre\n6\ng\nhigh\nprotein\n67\ng\nhigh\nsalt\n1.72\ng\nAd\nMethod\nstep 1\nTip 1.6kg braising steak, cut into large chunks, into a\nlarge bowl\nwith 3 bay leaves, a small bunch of thyme, 2 bottles of red wine and some pepper, then cover and leave in the fridge overnight.\nstep 2\nHeat the oven to 200C/180C fan/gas 6.\nstep 3\nPlace a\ncolander\nover another large bowl and strain the marinated meat, keeping the wine.\nstep 4\nHeat 1 tbsp oil in a large\nfrying pan\n, then brown the meat in batches, transferring to a plate once browned. When all the meat is browned, pour a little wine into the now-empty frying pan and bubble to release any caramelised bits from the pan.\nstep 5\nHeat 1 tbsp oil in a large\ncasserole\nand fry 3 large or 6 normal carrots, cut into large chunks, and 2 roughly chopped onions until they start to colour. Stir in 3 tbsp plain flour for 1 min, then add 1 tbsp tomato purée.\nstep 6\nAdd the beef and any juices, the wine from the frying pan and the rest of the wine and herbs. Season and bring to a simmer. Give everything a good stir, then cover.\nstep 7\nTransfer to the oven and bake for 2 hrs until the meat is really tender. Cool.\nWill freeze for up to 3 months.\nstep 8\nTo serve, defrost completely overnight in the fridge if frozen, then place on a low heat to warm through.\nstep 9\nMeanwhile, heat a small knob of butter in a frying pan and add 300g bacon lardons and 500g peeled pearl onions or small shallots. Sizzle for about 10 mins until the bacon starts to crisp and the onions soften and colour.\nstep 10\nAdd 400g halved mushrooms and fry for another 5 mins, then stir everything into the stew and heat for 10 mins more. Serve scattered with chopped parsley.\nWhat is beef bourguignon?\nA traditional French dish of slow cooked beef in a red wine sauce, with small onions, button mushrooms and bacon lardons. It's traditionally named from the Burgundy region in France, where it originated. It’s cooked until the meat is falling apart, and the wine-rich gravy thickens slightly to coat the meat. It’s a comforting, slow cooked dish perfect for mash potato, soft polenta or simply some crusty bread for mopping up the gravy.\nWhich cut of beef is best?\nBraising steak is the classic cut of meat for bourguignon. Often sold as braising or stewing steak, it can come from many parts of the animal, but all the hard working muscles like shin, chuck, and blade that need a low and slow approach to break down the tough muscle fibres. It has a decent marbling of fat in the meat, and it needs quite a lot of cooking to become tender. As it does, the fat melts into the sauce creating a deeply flavoured gravy, and keeps the meat succulent, basting it as it melts. You can buy pre-diced braising steak but it’s often cut into very small pieces, so buying steaks or a joint of braising steak and cutting it yourself will give you more texture as the meat falls apart when cooked, and won’t dry out during slow cooking.\nChuck beef/braising steak, does it need to have fat?\nThe meat does need a good marbling of fat to keep it moist when cooking, but you can remove any larger, tougher pieces of surface fat before cooking, and remove any sinew as this won’t break down.\nHow to cook beef bourguignon\nShould you leave the beef to marinade overnight?\nMarinating the beef in red wine does two things; the acid in the wine starts to breakdown the proteins in the meat, allowing more of the flavours to penetrate the beef, and it also flavours the wine with more beefy flavours in return, with more time for the herbs and meat to infuse, creating a more complex and flavourful bourguignon. If you don’t have time, it isn’t a compulsory step, as the oven and slow cooking does a lot of the work in terms of melding flavours, but it does add an extra layer of richness and complexity.\nWhy is the slow stewing important? Does it make the meat more tender?\nSlow cooking is an important step of bourguignon as it tenderises the meat, and reduces the wine into a lovely gravy as the alcohol evaporates. Slow cooking also melts that important layer of fat in the beef to enrich the sauce.\nIs flour important?\nDusting the beef in flour before searing, or adding flour to the softened vegetables at the start of cooking is a really important step in the bourguignon, which often has lots of liquid. Usually a least a bottle of red wine, and sometimes extra beef stock to cover the meat. This flour thickens the sauce to create a glossy gravy that covers the meat, this is especially important as the stew is simmered covered, often in the oven, which means your meat doesn’t dry out, but you also won’t have a watery gravy when it’s done. It’s sometimes added as a dusting over the meat before searing which creates a golden crust over the beef, or it can be stirred into the softened vegetables as they’re frying if the meat is marinated beforehand.\nDo I need to fry everything off before slow cooking?\nSearing the chunks of beef before slow-cooking adds extra flavour and colour, creating a richer, darker sauce due to the caramelised sugars. You only need to sear the outside of the meat before braising – you don’t need to cook all the way through. Cooking the meat in batches helps create caramelisation – overcrowding the pan will mean there's more meat juice in the pan, which will stop the meat from browning.\nWhat happens if the sauce is too thick or thin after stewing for 2 hrs?\nIf your sauce is too thick:\nAdd a splash of hot beef stock or water to the pan. Bring back to a simmer over the hob, if you need to, until you get the desired consistency.\nIt’s best to check your bourguignon halfway through cooking to make sure the meat is still covered by liquid, as it could dry out the meat if not submerged.\nIf the lid doesn’t have a very good seal, you can always cover the dish with foil before putting on the lid – this will help prevent evaporation during cooking.\nIf your sauce is too thin:\nYou can enrich it using a ‘beurre manie,’ which is a thick paste of equal quantities of softened butter and plain flour (you’ll only need 2-3 tsp of each). Mash to a paste in a small bowl, then add to the gravy in small knobs while stirring constantly over a low heat. This will thicken and enrich the sauce, creating a shiny, glossy gravy. This is a classic French technique for thickening gravies, soups, sauces and casseroles.\nIf you don’t want to add more fat to the dish, you can combine cornflour with a little cold water to make a thin paste, and add this sparingly to the sauce. It will thicken very quickly when stirring over the heat, so only add a little at a time, and cook for a few minutes to cook out the raw cornflour before serving.\nWhy don’t you add the mushrooms and onions with the beef?\nDue to the long cooking time, the onions and mushrooms would overcook and become mushy before the meat becomes tender.\nCan you overcook beef bourguignon?\nAlthough this is a sturdy dish that can withstand hours of cooking, depending on the cut and size of the meat pieces, it is possible to overcook it as all the melting fat renders out of the meat, leaving it quite dry to bite into. It’s best to check a piece of the meat after two hours, making sure the meat falls apart and is tender. Keep cooking up until this point, but it won’t improve the flavour or texture if you cook it for longer.\nWhich wine is best for beef bourguignon?\nA lot of traditional chefs believe you can taste the quality of the wine used in the final dish, so they only use wine that’s good enough to serve on the table along with the food. However, this recipe would work with any red wine that suits your budget – preferably French to keep to its classic roots. A full bodied, rich red wine made from pinot noir grapes is the classic wine made in the Burgundy region so would be excellent in this dish.\nWhat is beef bourguignon served with?\nMashed potatoes is the classic side dish for beef bourguignon, although a chunk of crusty bread would be a welcome lighter alternative. Try other mashes like celeriac, carrot and swede or butterbean mash if you fancy a change.\nYou can also serve with soft polenta, made by whisking fine polenta or cornmeal into vegetable or chicken stock, and beating until soft and dollops of the spoon, like mash, enriched with butter and sometimes cheese.\nDoes it freeze well?\nBeef bourguignon is a great freezer filler as it reheats well, and like lots of slow cooked casseroles and stews, many think that reheating these dishes improves the flavour as the ingredients have had longer to meld and marinate.\nMore beef bourguignon recipes\nIf you fancy putting your slow cooker to good use, try our\nslow cooker beef bourguignon\nfor a no-oven alternative.\nMake our\nbeef bourguignon cottage pie\nfor a twist on a British family favourite.\nOr try our best-ever\nnext level beef bourguignon\n, lightly spiced with star anise, and strained sauce for all the flavour and smoothness of a restaurant-style gravy.\nCheck out more of our\nbeef bourguignon recipes\n.\nRecipe from Good Food magazine,\nNovember 2010\nAd\nComments, questions and tips\nRate this recipe\nWhat is your star rating out of 5?\n1 star out of 5\n2 stars out of 5\n3 stars out of 5\n4 stars out of 5\n5 stars out of 5\nChoose the type of message you'd like to post\nChoose the type of message you'd like to post\nComment\nQuestion\nTip\nOverall rating\nA star rating of 4.5 out of 5.\n121 ratings\nAd\nAd\nGet 3 months of Good Food All Access\nGet\n3 months of Good Food All Access for just £6\n. F\nind triple-tested recipes that take the stress out of deciding what to cook, spend less time planning, and more time enjoying the season.\nSubscribe now\nLoading...\nAd\nLoading...\nLoading...\nExplore our recipe app\nSubscribe now and get access to exclusive recipes, meal plans, podcasts and more.\nTry today\nAll Access subscription: Magazine & App\nGood Food magazine and our award winning app in one premium subscription. Subscribe now for our Christmas issue\nSubscribe today\nPodcast\nOur food team shares tips, techniques and their all-time favourite recipes in our lively weekly podcast.\nMore\nVisit us on Facebook\nVisit us on Twitter\nVisit us on Instagram\nVisit us on Pinterest\nVisit us on Youtube\nVisit us on Tiktok\nVisit us on Rss\nAbout us\nContact Us\nPrivacy Queries\nPrivacy Policy\nTerms & Conditions\nCookies Policy\nComplaints escalation\nAdvertise\nAccessibility\nSustainability\nAI Policy\nManage Privacy Settings\nThis website is owned and published by Immediate Media Company Limited. The domain name is used under licence from BBC Studios Distribution Limited.\n©\nImmediate 2026\nNutracheck.co.uk\nOliveMagazine.com\nGoodFoodShow.com\nRadioTimes.com\nHistoryExtra.com\nGardenersWorld.com\nMadeForMums.com\nBarbecue\nDietary needs\nHealthy eating\nSeasonal\nBread, pastry & cakes\nDinner ideas\nNuts & seeds\nSoups\nBreakfast\nDinner party\nPoultry\nSpecial occasions\nCasserole & slow cooker\nDrinks\nPulses & grains\nSweet treats\nCheese\nEaster\nQuick & easy budget meals\nVegan\nChristmas\nFamily friendly\nRed meat & game\nVegetables\nCuisine\nFish & seafood\nReligious events\nVegetarian\nDesserts\nFruit\nSalads\nUS recipes",
+      "encoding": "utf-8",
+      "status": 200
+    }
+  ]
+}

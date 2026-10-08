@@ -1,0 +1,16 @@
+{
+  "recipePageUrl": "https://www.bbcgoodfood.com/recipes/beef-wellington",
+  "mediaPageUrl": "https://www.bbcgoodfood.com/recipes/beef-wellington",
+  "sourceName": "BBC Good Food",
+  "author": "Gordon Ramsay",
+  "rightsNotice": "Copyright Good Food/Immediate; source attribution retained; no open reuse license stated.",
+  "reuseLicense": null,
+  "repositoryCopyAuthorized": true,
+  "hero": {
+    "originalUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2012/09/Beef-wellington-d4f3320.jpg?resize=768,698",
+    "repositoryPath": "assets/dishes/sources/west-016-bbc-good-food/hero.jpg",
+    "httpStatus": 200,
+    "contentType": "image/jpeg"
+  },
+  "steps": []
+}

@@ -1,0 +1,426 @@
+{
+  "recipeId": "west-027",
+  "recipeName": "炸鱼塔可",
+  "category": "western",
+  "createdAt": "2026-10-08T12:13:51.097Z",
+  "sources": [
+    {
+      "sourceName": "BBC Good Food",
+      "sourceType": "website",
+      "url": "https://www.bbcgoodfood.com/recipes/beer-battered-fish-tacos",
+      "documentId": "5f01ee84-d58b-48b2-b9d7-acf5d10b5629",
+      "retrievalMethod": "ordinary HTTPS GET; complete accessible page JSON-LD and DOM independently inspected",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "plain flour",
+          "raw": "150g plain flour",
+          "amount": null
+        },
+        {
+          "name": "cornflour",
+          "raw": "75g cornflour",
+          "amount": null
+        },
+        {
+          "name": "fine sea salt",
+          "raw": "½ tsp fine sea salt",
+          "amount": null
+        },
+        {
+          "name": "cold beer",
+          "raw": "230ml cold beer",
+          "amount": null
+        },
+        {
+          "name": "vegetable oil for deep-frying",
+          "raw": "vegetable oil for deep-frying",
+          "amount": null
+        },
+        {
+          "name": "skinless and boneless cod loins, cut in to 3cm pieces",
+          "raw": "4 skinless and boneless cod loins, cut in to 3cm pieces",
+          "amount": null
+        },
+        {
+          "name": "small soft corn tortillas",
+          "raw": "8 small soft corn tortillas",
+          "amount": null
+        },
+        {
+          "name": "Little Gem lettuces shredded",
+          "raw": "2 Little Gem lettuces shredded",
+          "amount": null
+        },
+        {
+          "name": "hot sauce to serve (optional)",
+          "raw": "hot sauce to serve (optional)",
+          "amount": null
+        },
+        {
+          "name": "white wine vinegar",
+          "raw": "150ml white wine vinegar",
+          "amount": null
+        },
+        {
+          "name": "coriander seeds crushed",
+          "raw": "1 tsp coriander seeds crushed",
+          "amount": null
+        },
+        {
+          "name": "peppercorns",
+          "raw": "1 tsp peppercorns",
+          "amount": null
+        },
+        {
+          "name": "caster sugar",
+          "raw": "2 tbsp caster sugar",
+          "amount": null
+        },
+        {
+          "name": "arge red onion finely sliced",
+          "raw": "1 large red onion finely sliced",
+          "amount": null
+        },
+        {
+          "name": "mayonnaise",
+          "raw": "150g mayonnaise",
+          "amount": null
+        },
+        {
+          "name": "small bunch of dill finely chopped",
+          "raw": "½ small bunch of dill finely chopped",
+          "amount": null
+        },
+        {
+          "name": "small bunch of basil finely chopped",
+          "raw": "½ small bunch of basil finely chopped",
+          "amount": null
+        },
+        {
+          "name": "Dijon mustard",
+          "raw": "½ tsp Dijon mustard",
+          "amount": null
+        },
+        {
+          "name": "capers chopped",
+          "raw": "1 tsp capers chopped",
+          "amount": null
+        },
+        {
+          "name": "water",
+          "raw": "150ml water for pickled onions (step1)",
+          "amount": null
+        },
+        {
+          "name": "salt",
+          "raw": "1 tsp salt for pickled onions (step1; in addition to batter salt)",
+          "amount": null
+        },
+        {
+          "name": "bread",
+          "raw": "small cube of bread to test oil if no thermometer (step4; optional)",
+          "amount": null
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "First, make the pickled onions. Put the vinegar in a pan with 150ml water, the coriander seeds, peppercorns, sugar and 1 tsp salt over a medium heat, stirring until the sugar has dissolved. Scoop the onions into a bowl and carefully pour over the hot pickling liquid. Leave to cool for 15 mins, then cover and chill for at least 1 hr. Will keep chilled for up to two days.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "For the tartare sauce, mix together all the ingredients, then cover and chill. Will keep chilled for up to two days.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "Sift the flour and cornflour into a bowl, then stir through the salt. Make a well in the centre and whisk in the cold beer to make a smooth batter. Cover and chill for 30 mins.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "Heat the oil in a deep, heavy-based pan, no more than two-thirds full, until the oil reaches 190C on a cooking thermometer. If you don’t have a thermometer, check the oil is ready by dropping a small cube of bread into the oil – it should turn brown in about 10 seconds.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 5,
+          "instruction": "Dip each piece of cod into the batter to fully coat, then gently shake off the excess. Fry the fish in batches for 4 mins per batch, then remove using a slotted spoon and drain on kitchen paper.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 6,
+          "instruction": "Warm your tortillas in a low oven or in a dry frying pan. Spread over the tartare sauce, then add the fish and top with the pickled onions and shredded lettuce, plus a dash of hot sauce, if you like. Best enjoyed with a cold beer.",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [],
+      "tips": [],
+      "rawExcerpt": "{\n  \"@context\": \"https://schema.org\",\n  \"@id\": \"https://www.bbcgoodfood.com/recipes/beer-battered-fish-tacos#Recipe\",\n  \"@type\": \"Recipe\",\n  \"description\": \"Pile chunks of battered cod, herby tartare and pink pickled onions into tortilla wraps to make these moreish tacos. They serve four, but won't last long!\",\n  \"image\": [\n    {\n      \"@type\": \"ImageObject\",\n      \"url\": \"https://images.immediate.co.uk/production/volatile/sites/30/2020/12/Beer-battered-fish_tacos-cb8cf13.jpg?resize=768,713\",\n      \"width\": 768,\n      \"height\": 713\n    },\n    {\n      \"@type\": \"ImageObject\",\n      \"url\": \"https://images.immediate.co.uk/production/volatile/sites/30/2020/12/Beer-battered-fish_tacos-cb8cf13.jpg?resize=900,836\",\n      \"width\": 900,\n      \"height\": 836\n    }\n  ],\n  \"mainEntityOfPage\": {\n    \"@type\": \"WebPage\",\n    \"@id\": \"https://www.bbcgoodfood.com/recipes/beer-battered-fish-tacos\"\n  },\n  \"name\": \"Beer-battered fish tacos\",\n  \"url\": \"https://www.bbcgoodfood.com/recipes/beer-battered-fish-tacos\",\n  \"author\": [\n    {\n      \"@type\": \"Person\",\n      \"name\": \"Esther Clark\",\n      \"url\": \"https://www.bbcgoodfood.com/author/estherclark\"\n    }\n  ],\n  \"dateModified\": \"2024-12-08T13:50:52+00:00\",\n  \"datePublished\": \"2021-01-04T12:15:50+00:00\",\n  \"headline\": \"Beer-battered fish tacos\",\n  \"keywords\": \"Battered fish, Cod, Folate, Pickled onions, Tacos, Tartare sauce, Tortilla\",\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Good Food\",\n    \"url\": \"https://www.bbcgoodfood.com\",\n    \"logo\": {\n      \"@type\": \"ImageObject\",\n      \"height\": 325,\n      \"url\": \"https://images.immediate.co.uk/production/volatile/sites/30/2026/02/goodfood.logo-f37096c.png?resize=1312,325\",\n      \"width\": 1312\n    }\n  },\n  \"cookTime\": \"PT30M\",\n  \"nutrition\": {\n    \"@type\": \"NutritionInformation\",\n    \"calories\": \"841 calories\",\n    \"fatContent\": \"41 grams fat\",\n    \"saturatedFatContent\": \"3 grams saturated fat\",\n    \"carbohydrateContent\": \"76 grams carbohydrates\",\n    \"sugarContent\": \"12 grams sugar\",\n    \"fiberContent\": \"8 grams fiber\",\n    \"proteinContent\": \"34 grams protein\",\n    \"sodiumContent\": \"1.8 milligram of sodium\"\n  },\n  \"prepTime\": \"PT35M\",\n  \"recipeCategory\": \"Dinner, Lunch, Supper\",\n  \"recipeIngredient\": [\n    \"150g plain flour\",\n    \"75g cornflour\",\n    \"½ tsp fine sea salt\",\n    \"230ml cold beer\",\n    \"vegetable oil for deep-frying\",\n    \"4 skinless and boneless cod loins, cut in to 3cm pieces\",\n    \"8 small soft corn tortillas\",\n    \"2 Little Gem lettuces shredded\",\n    \"hot sauce to serve (optional)\",\n    \"150ml white wine vinegar\",\n    \"1 tsp coriander seeds crushed\",\n    \"1 tsp peppercorns\",\n    \"2 tbsp caster sugar\",\n    \"1 large red onion finely sliced\",\n    \"150g mayonnaise\",\n    \"½ small bunch of dill finely chopped\",\n    \"½ small bunch of basil finely chopped\",\n    \"½ tsp Dijon mustard\",\n    \"1 tsp capers chopped\"\n  ],\n  \"recipeInstructions\": [\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"First, make the pickled onions. Put the vinegar in a pan with 150ml water, the coriander seeds, peppercorns, sugar and 1 tsp salt over a medium heat, stirring until the sugar has dissolved. Scoop the onions into a bowl and carefully pour over the hot pickling liquid. Leave to cool for 15 mins, then cover and chill for at least 1 hr. Will keep chilled for up to two days.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"For the tartare sauce, mix together all the ingredients, then cover and chill. Will keep chilled for up to two days.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Sift the flour and cornflour into a bowl, then stir through the salt. Make a well in the centre and whisk in the cold beer to make a smooth batter. Cover and chill for 30 mins.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Heat the oil in a deep, heavy-based pan, no more than two-thirds full, until the oil reaches 190C on a cooking thermometer. If you don’t have a thermometer, check the oil is ready by dropping a small cube of bread into the oil – it should turn brown in about 10 seconds.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Dip each piece of cod into the batter to fully coat, then gently shake off the excess. Fry the fish in batches for 4 mins per batch, then remove using a slotted spoon and drain on kitchen paper.\"\n    },\n    {\n      \"@type\": \"HowToStep\",\n      \"text\": \"Warm your tortillas in a low oven or in a dry frying pan. Spread over the tartare sauce, then add the fish and top with the pickled onions and shredded lettuce, plus a dash of hot sauce, if you like. Best enjoyed with a cold beer.\"\n    }\n  ],\n  \"recipeYield\": 4,\n  \"totalTime\": \"PT1H5M\"\n}",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 1,
+        "mappedStepImages": 0,
+        "stepImageCoverage": 0,
+        "ingredientCount": 22,
+        "executableStepCount": 6,
+        "notes": [
+          "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented."
+        ]
+      }
+    },
+    {
+      "sourceName": "Serious Eats",
+      "sourceType": "website",
+      "url": "https://www.seriouseats.com/crispy-fried-fish-tacos-recipe",
+      "documentId": "c4ca8acd-5cf6-4d86-906f-deef06be087d",
+      "retrievalMethod": "normal web.open full accessible page; merged overlapping line ranges; direct requests460 and browser402 retained as transport history",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "1 1/2 cups cake flour",
+          "raw": "1 1/2 cups cake flour",
+          "amount": null
+        },
+        {
+          "name": "2 tablespoons paprika",
+          "raw": "2 tablespoons paprika",
+          "amount": null
+        },
+        {
+          "name": "2 teaspoons black pepper",
+          "raw": "2 teaspoons black pepper",
+          "amount": null
+        },
+        {
+          "name": "Kosher salt",
+          "raw": "Kosher salt",
+          "amount": null
+        },
+        {
+          "name": "3/4 cup beer (plus more as necessary)",
+          "raw": "3/4 cup beer (plus more as necessary)",
+          "amount": null
+        },
+        {
+          "name": "1 egg",
+          "raw": "1 egg",
+          "amount": null
+        },
+        {
+          "name": "3/4 cup mayonnaise (see note)",
+          "raw": "3/4 cup mayonnaise (see note)",
+          "amount": null
+        },
+        {
+          "name": "2 tablespoons sriracha or other chile sauce (see note)",
+          "raw": "2 tablespoons sriracha or other chile sauce (see note)",
+          "amount": null
+        },
+        {
+          "name": "2 quarts peanut oil",
+          "raw": "2 quarts peanut oil",
+          "amount": null
+        },
+        {
+          "name": "1 pound white fish (such as cod, hake, or halibut), cut into eight 2-ounce fingers",
+          "raw": "1 pound white fish (such as cod, hake, or halibut), cut into eight 2-ounce fingers",
+          "amount": null
+        },
+        {
+          "name": "16 corn tortillas, warmed",
+          "raw": "16 corn tortillas, warmed",
+          "amount": null
+        },
+        {
+          "name": "1 small head of cabbage, finely shredded",
+          "raw": "1 small head of cabbage, finely shredded",
+          "amount": null
+        },
+        {
+          "name": "1 recipe pickled red onions",
+          "raw": "1 recipe pickled red onions",
+          "amount": null
+        },
+        {
+          "name": "1/2 cup finely chopped fresh cilantro",
+          "raw": "1/2 cup finely chopped fresh cilantro",
+          "amount": null
+        },
+        {
+          "name": "2 limes, cut into wedges",
+          "raw": "2 limes, cut into wedges",
+          "amount": null
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "Combine flour, paprika, black pepper, and salt and whisk to combine. Transfer half of mixture to a large bowl and set aside. Add beer and egg to remaining mixture and whisk until a smooth batter is formed. Batter should have the consistency of thick paint (add up to 1/2 cup more beer as necessary until proper consistency is reached). Set aside.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 2,
+          "instruction": "Combine mayonnaise and hot sauce in a medium bowl and whisk until homogenous. Set aside.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 3,
+          "instruction": "Heat oil in a deep fryer, Dutch oven, or large wok to 350°F (175°C). Transfer fish pieces to bowl with batter and turn to coat thoroughly. Working one piece at a time, lift fish, let excess batter drip off, then transfer to bowl with remaining flour mixture. Toss to coat thoroughly. Lift carefully with tongs or dry fingers and slowly lower into hot oil. Repeat with remaining fish.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 4,
+          "instruction": "Fry, turning occasionally, until golden brown on all sides, about 3 minutes total. Transfer to a paper towel-lined plate and season with salt.",
+          "duration": null,
+          "heat": null
+        },
+        {
+          "order": 5,
+          "instruction": "Divide tortillas into 8 double stacks. Top each with shredded cabbage, 1 piece of fish, pickled red onions, chile mayo, and cilantro. Serve with lime wedges.",
+          "duration": null,
+          "heat": null
+        }
+      ],
+      "technique": [],
+      "tips": [
+        "I like to use mayonnaise for my sauce, but you can substitute sour cream or Mexican crema if you are mayo-averse.",
+        "I like the neutral chile and garlic flavor of an Asian-style chile sauce in this recipe. If you prefer the more vinegary tang of an American-style hot sauce or the smokiness of canned chipotles in adobo sauce, they can be substituted for the Asian chile sauce to taste."
+      ],
+      "rawExcerpt": "iframe†www.googletagmanager.com\n\nSerious Eats\n\nSave\n\nRate\n\n* Search [Input: What are you looking for?]\n\n* Newsletters\n* Sweepstakes\n* Serious Eats\n# Crunchy Fried Fish Tacos Recipe\n\n4.4\n\n(8)\n\n24 Reviews\n\nDouble stacks of corn tortillas filled with beer-battered fish, crisp shredded cabbage, and pickled onions are topped with spicy mayo, cilantro, and lime.\n\nBy\n\nJ. Kenji López-Alt\n\nImage: Kenji Lopez Alt Image: Kenji Lopez Alt\n\nJ. Kenji López-Alt\nKenji is the former culinary director for Serious Eats and a current culinary consultant for the site. He is also a New York Times food columnist and the author of The Food Lab: Better Home Cooking Through Science.\n\nSerious Eats' Editorial Guidelines\n\nUpdated on June 12, 2024\n\nClose\n\nImage: Overhead view of crunchy fish taco Image: Overhead view of crunchy fish taco\n\nCredit:\n\nSerious Eats / Jen Causey\n\nJump to recipe\n* Using cake flour in the batter and dredge keeps gluten development to a minimum, resulting in a light, tender coating.\n* Coating the fish in a thick batter and then dredging it in seasoned flour maximizes crispiness.\n* The acidity of pickled red onions balances the richness of the fried fish and spicy mayonnaise.\nThe fishing season can be simultaneously great and not-so-great. The great part is the amount of time I’ve been able to get out on the water. This is due to a combination of falling in with some seriously fishing-obsessed buddies and a freshly reinvigorated love of charter boat fishing on school nights. The not-so-great part is that most of the fish we’ve caught are what serious fishermen commonly refer to as garbage fish.\nAny night out on the water with good friends and a couple of cold beers is bound to be fun, but there are only so many cocktail blues, sea robins, and sand sharks you can catch before you begin to long for a striper on the end of your line.\n\nImage: Side view of crunchy fish taco Image: Side view of crunchy fish taco\n\nSerious Eats / Jen Causey\nDon’t get me wrong: Blues can be a lot of fun to catch and they’ll put up a heck of a fight on a spinner from time to time, but I’ve never been a fan of them as eating fish. The meat is dark, gray, oily, and strongly flavored. Sure, if you’ve got a cold smoking cabinet they can make a fine addition to your Jewish breakfast spread, but as a fresh meat, it’s not for everybody.\n“The deep crust you could develop in a cast iron skillet with hot butter and the intense aroma of the spices worked perfectly to cover up the textural and flavor-based flaws inherent to even the freshest blue fish.”\nWhen I was younger, my family’s typical method for dealing with a glut of blues was to blacken them. Paul Prudhomme†www.magicseasoningblends.com , the grandaddy of popular American Cajun cuisine, was still on television, and his blackening blends were the hot commodity in the dried spice section of the supermarket.\nThe deep crust you could develop in a cast iron skillet with hot butter and the intense aroma of the spices worked perfectly to cover up the textural and flavor-based flaws inherent to even the freshest blue fish.*\n*I know there are some folks out there who love the flavor of fresh blues. To me you are like Rush fans: We will never, ever see eye to eye.\n\nIt’s still a fine method, but recently I’ve taken to an even better one: fried fish tacos. If there’s any cooking method in the world that can make all foods taste great, it’s deep frying.\n\nImage: A platter of fried fish tacos served with lime wedges. Image: A platter of fried fish tacos served with lime wedges.\n\nSerious Eats / J. Kenji López-Alt\nFrying fish for tacos can be as simple as dipping it in a thin beer- or egg-based batter and throwing it in a wok or Dutch oven filled with hot oil (some recipes even skip the batter entirely, going for a simple dredge in a dry flour mix), but fish cooked in that manner doesn’t reach the height of crispness and has a tendency to soften rather quickly.\n\n“I can’t help but associate the flavor of blue fish with blackening spices, so I like to mix in a good deal of chile powder and black pepper.”\nInstead, I like to employ a two-stage battering process. First, I dip the seasoned fish into a seasoned batter made with cake flour (its lower protein content helps keep the batter light and crisp), beer (which adds lightening bubbles and flavor), and egg, then I transfer it back to a dry flour mixture and toss it before deep frying it in peanut oil. I can’t help but associate the flavor of blue fish with blackening spices, so I like to mix in a good deal of chile powder and black pepper.\nIf all goes well (and there’s no reason it shouldn’t!), the wet batter will drip off the fish into the dry mix, creating little pockets of doughy flour that stick to the exterior of the fish, adding tons of nooks and crannies to make the whole thing extra crisp. And best of all, those nooks and crannies stay crisp even after you’ve taken the time to tuck them into soft, charred corn tortillas stacked with shredded cabbage and spicy mayonnaise.\nIn California, fish tacos are typically topped with chopped fresh tomatoes for their brightness and acidity. When I made these tacos, truly great tomatoes had yet to hit the markets in New York, so I opted for some quick pickled red onions instead. They take minutes to make and I have a near-constant supply of them in every refrigerator I am likely to be in close proximity to.\nCrunchy, bright, and fresh, it’s truly transformative, converting one of my least favorite fishes into something that I actually crave.\n### August 2013\n\nPrep Time:\n\n5 mins\n\nCook Time:\n\n20 mins\n\nTotal Time:\n\n25 mins\n\nServings:\n\n3 to 4 servings\n\nYield:\n\nServes 2 to 4\n\n[Button: Jump to Nutrition Facts]\n\nKeep Screen Awake\n## Ingredients\n\n* 1 1/2 cups cake flour\n\n* 2 tablespoons paprika\n\n* 2 teaspoons black pepper\n\n* Kosher salt\n\n* 3/4 cup beer (plus more as necessary)\n\n* 1 egg\n\n* 3/4 cup mayonnaise (see note)\n\n* 2 tablespoons sriracha or other chile sauce (see note)\n\n* 2 quarts peanut oil\n\n* 1 pound white fish (such as cod, hake, or halibut), cut into eight 2-ounce fingers\n\n* 16 corn tortillas, warmed\n\n* 1 small head of cabbage, finely shredded\n\n* 1 recipe pickled red onions\n* 1/2 cup finely chopped fresh cilantro\n\n* 2 limes, cut into wedges\n## Directions\n\n1. Combine flour, paprika, black pepper, and salt and whisk to combine. Transfer half of mixture to a large bowl and set aside. Add beer and egg to remaining mixture and whisk until a smooth batter is formed. Batter should have the consistency of thick paint (add up to 1/2 cup more beer as necessary until proper consistency is reached). Set aside.\n\n2. Combine mayonnaise and hot sauce in a medium bowl and whisk until homogenous. Set aside.\n3. Heat oil in a deep fryer, Dutch oven, or large wok to 350°F (175°C). Transfer fish pieces to bowl with batter and turn to coat thoroughly. Working one piece at a time, lift fish, let excess batter drip off, then transfer to bowl with remaining flour mixture. Toss to coat thoroughly. Lift carefully with tongs or dry fingers and slowly lower into hot oil. Repeat with remaining fish.\n4. Fry, turning occasionally, until golden brown on all sides, about 3 minutes total. Transfer to a paper towel-lined plate and season with salt.\n\n5. Divide tortillas into 8 double stacks. Top each with shredded cabbage, 1 piece of fish, pickled red onions, chile mayo, and cilantro. Serve with lime wedges.\n## Special Equipment\n\nDutch oven , wok , or deep fryer ; instant-read thermometer\n\n## Notes\n\nI like to use mayonnaise for my sauce, but you can substitute sour cream or Mexican crema if you are mayo-averse.\n\nI like the neutral chile and garlic flavor of an Asian-style chile sauce in this recipe. If you prefer the more vinegary tang of an American-style hot sauce or the smokiness of canned chipotles in adobo sauce, they can be substituted for the Asian chile sauce to taste.\n## Read More\n\n* Whole Grilled Fish Tacos\n* Grilled Tilapia Tacos\n* Chili-Rubbed Mahimahi Tacos With Grilled-Mango Salsa Recipe\n\nSave\n\nRate\n\nPrint [Input]\n## Nutrition Facts (per serving)\n\n4771  | Calories\n469g  | Fat\n115g  | Carbs\n43g  | Protein",
+      "selectionAssessment": {
+        "qualifies": true,
+        "ingredientCoverage": "complete",
+        "stepCoverage": "complete",
+        "internalCoherence": "coherent",
+        "heroImages": 0,
+        "mappedStepImages": 0,
+        "stepImageCoverage": 0,
+        "ingredientCount": 15,
+        "executableStepCount": 5,
+        "notes": [
+          "Page images and step adjacencies visible in web.open; original binary URLs not returned by failed web.click. No verified downloadable media available, no invented image mappings.",
+          "Source quantities with mixed units retained verbatim; no vessel capacity inferred."
+        ]
+      }
+    }
+  ],
+  "sourceMode": "multi_source",
+  "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/beer-battered-fish-tacos",
+  "selectionReason": "Selected exactly one whole BBC recipe: full coherent ingredients/method match the target; verified usable hero (no source step photos available). Other sources have no verified usable media URLs under ordinary access. Under the required completeness/coherence then usable-image/coverage ranking, this source leads; its ingredients, operations, tips and media are kept together without supplementation.",
+  "ragEvidence": [
+    {
+      "chunkId": "c9c7e78a-2e59-4737-bcac-6e86d8f162ca",
+      "documentId": "5f01ee84-d58b-48b2-b9d7-acf5d10b5629",
+      "sourceName": "BBC Good Food",
+      "chunkType": "tips",
+      "content": "菜名：炸鱼塔可\n- 原文未提供额外提示。",
+      "similarity": 0.645637689140831
+    },
+    {
+      "chunkId": "1effe20a-991d-4bec-900d-448ed2d0d94a",
+      "documentId": "5f01ee84-d58b-48b2-b9d7-acf5d10b5629",
+      "sourceName": "BBC Good Food",
+      "chunkType": "technique",
+      "content": "菜名：炸鱼塔可\n- 原文未明确说明技法。",
+      "similarity": 0.642545461654663
+    },
+    {
+      "chunkId": "34e3e365-222e-4a3c-9bab-d8ee97f6cac6",
+      "documentId": "5f01ee84-d58b-48b2-b9d7-acf5d10b5629",
+      "sourceName": "BBC Good Food",
+      "chunkType": "summary",
+      "content": "菜名：炸鱼塔可\n别名：Beer-battered fish tacos\n简介：Pile chunks of battered cod, herby tartare and pink pickled onions into tortilla wraps to make these moreish tacos. They serve four, but won't last long!",
+      "similarity": 0.617700159549713
+    },
+    {
+      "chunkId": "f011fa4f-d44d-48b6-bc04-bce704ea2dd5",
+      "documentId": "5f01ee84-d58b-48b2-b9d7-acf5d10b5629",
+      "sourceName": "BBC Good Food",
+      "chunkType": "steps",
+      "content": "菜名：炸鱼塔可\n6. Warm your tortillas in a low oven or in a dry frying pan. Spread over the tartare sauce, then add the fish and top with the pickled onions and shredded lettuce, plus a dash of hot sauce, if you like. Best enjoyed with a cold beer.",
+      "similarity": 0.607482612133026
+    },
+    {
+      "chunkId": "63b35aa5-2d02-482e-8b07-3dd56da072f5",
+      "documentId": "5f01ee84-d58b-48b2-b9d7-acf5d10b5629",
+      "sourceName": "BBC Good Food",
+      "chunkType": "steps",
+      "content": "菜名：炸鱼塔可\n1. First, make the pickled onions. Put the vinegar in a pan with 150ml water, the coriander seeds, peppercorns, sugar and 1 tsp salt over a medium heat, stirring until the sugar has dissolved. Scoop the onions into a bowl and carefully pour over the hot pickling liquid. Leave to cool for 15 mins, then cover and chill for at least 1 hr. Will keep chilled for up to two days.\n2. For the tartare sauce, mix together all the ingredients, then cover and chill. Will keep chilled for up to two days.\n3. Sift the flour and cornflour into a bowl, then stir through the salt. Make a well in the centre and whisk in the cold beer to make a smooth batter. Cover and chill for 30 mins.\n4. Heat the oil in a deep, heavy-based pan, no more than two-thirds full, until the oil reaches 190C on a cooking thermometer. If you don’t have a thermometer, check the oil is ready by dropping a small cube of bread into the oil – it should turn brown in about 10 seconds.\n5. Dip each piece of cod into the batter to fully coat, then gently shake off the excess. Fry the fish in batches for 4 mins per batch, then remove using a slotted spoon and drain on kitchen paper.",
+      "similarity": 0.554467217757321
+    },
+    {
+      "chunkId": "601b8c59-df6b-4579-8bbe-bc6e36402e3b",
+      "documentId": "5f01ee84-d58b-48b2-b9d7-acf5d10b5629",
+      "sourceName": "BBC Good Food",
+      "chunkType": "ingredients",
+      "content": "菜名：炸鱼塔可\n- 150g plain flour\n- 75g cornflour\n- ½ tsp fine sea salt\n- 230ml cold beer\n- vegetable oil for deep-frying\n- 4 skinless and boneless cod loins, cut in to 3cm pieces\n- 8 small soft corn tortillas\n- 2 Little Gem lettuces shredded\n- hot sauce to serve (optional)\n- 150ml white wine vinegar\n- 1 tsp coriander seeds crushed\n- 1 tsp peppercorns\n- 2 tbsp caster sugar\n- 1 large red onion finely sliced\n- 150g mayonnaise\n- ½ small bunch of dill finely chopped\n- ½ small bunch of basil finely chopped\n- ½ tsp Dijon mustard\n- 1 tsp capers chopped\n- 150ml water for pickled onions (step1)\n- 1 tsp salt for pickled onions (step1; in addition to batter salt)\n- small cube of bread to test oil if no thermometer (step4; optional)",
+      "similarity": 0.553506314754486
+    },
+    {
+      "chunkId": "0b54b23c-b73f-47f4-a924-6e9363773ace",
+      "documentId": "c4ca8acd-5cf6-4d86-906f-deef06be087d",
+      "sourceName": "Serious Eats",
+      "chunkType": "technique",
+      "content": "菜名：炸鱼塔可\n- 原文未明确说明技法。",
+      "similarity": 0.642249422341521
+    },
+    {
+      "chunkId": "838d34b8-6cf9-4d1c-b46d-f64a97c204ff",
+      "documentId": "c4ca8acd-5cf6-4d86-906f-deef06be087d",
+      "sourceName": "Serious Eats",
+      "chunkType": "summary",
+      "content": "菜名：炸鱼塔可\n别名：Crunchy Fried Fish Tacos Recipe\n简介：Crunchy Fried Fish Tacos Recipe",
+      "similarity": 0.63166356086731
+    },
+    {
+      "chunkId": "c16d247f-44c7-4dac-af04-acf69ed0a1f4",
+      "documentId": "c4ca8acd-5cf6-4d86-906f-deef06be087d",
+      "sourceName": "Serious Eats",
+      "chunkType": "steps",
+      "content": "菜名：炸鱼塔可\n1. Combine flour, paprika, black pepper, and salt and whisk to combine. Transfer half of mixture to a large bowl and set aside. Add beer and egg to remaining mixture and whisk until a smooth batter is formed. Batter should have the consistency of thick paint (add up to 1/2 cup more beer as necessary until proper consistency is reached). Set aside.\n2. Combine mayonnaise and hot sauce in a medium bowl and whisk until homogenous. Set aside.\n3. Heat oil in a deep fryer, Dutch oven, or large wok to 350°F (175°C). Transfer fish pieces to bowl with batter and turn to coat thoroughly. Working one piece at a time, lift fish, let excess batter drip off, then transfer to bowl with remaining flour mixture. Toss to coat thoroughly. Lift carefully with tongs or dry fingers and slowly lower into hot oil. Repeat with remaining fish.\n4. Fry, turning occasionally, until golden brown on all sides, about 3 minutes total. Transfer to a paper towel-lined plate and season with salt.\n5. Divide tortillas into 8 double stacks. Top each with shredded cabbage, 1 piece of fish, pickled red onions, chile mayo, and cilantro. Serve with lime wedges.",
+      "similarity": 0.621285185660702
+    },
+    {
+      "chunkId": "0db2963e-e9d2-479f-b096-0a5e05e14c9d",
+      "documentId": "c4ca8acd-5cf6-4d86-906f-deef06be087d",
+      "sourceName": "Serious Eats",
+      "chunkType": "tips",
+      "content": "菜名：炸鱼塔可\n- I like to use mayonnaise for my sauce, but you can substitute sour cream or Mexican crema if you are mayo-averse.\n- I like the neutral chile and garlic flavor of an Asian-style chile sauce in this recipe. If you prefer the more vinegary tang of an American-style hot sauce or the smokiness of canned chipotles in adobo sauce, they can be substituted for the Asian chile sauce to taste.",
+      "similarity": 0.600010716914493
+    },
+    {
+      "chunkId": "4052d968-6f41-408a-9854-ec14df5db73d",
+      "documentId": "c4ca8acd-5cf6-4d86-906f-deef06be087d",
+      "sourceName": "Serious Eats",
+      "chunkType": "ingredients",
+      "content": "菜名：炸鱼塔可\n- 1 1/2 cups cake flour\n- 2 tablespoons paprika\n- 2 teaspoons black pepper\n- Kosher salt\n- 3/4 cup beer (plus more as necessary)\n- 1 egg\n- 3/4 cup mayonnaise (see note)\n- 2 tablespoons sriracha or other chile sauce (see note)\n- 2 quarts peanut oil\n- 1 pound white fish (such as cod, hake, or halibut), cut into eight 2-ounce fingers\n- 16 corn tortillas, warmed\n- 1 small head of cabbage, finely shredded\n- 1 recipe pickled red onions\n- 1/2 cup finely chopped fresh cilantro\n- 2 limes, cut into wedges",
+      "similarity": 0.588654483040901
+    }
+  ],
+  "notes": [
+    "Full accessible recipe ingredients and all method text preserved; method-only food/water/seasoning extracted separately. Unspecified source quantities remain unspecified. No vessel unit capacity invented.",
+    "BBC source original yield: 4",
+    "BBC original totalTime: PT1H5M",
+    "BBC original cookTime: PT30M",
+    "BBC original prepTime: PT35M",
+    "Alternative attempts: [{\"url\":\"https://www.bbcgoodfood.com/recipes/beer-battered-fish-tacos\",\"status\":200,\"bytes\":574107}]",
+    "Current book inventory and22target audit: west-kb-audit.json. Invalid/superseded/rejected history excluded.",
+    "Serious Eats direct Python460/normalPowerShell402/normalChrome402; normalweb.open successfully retrieved the complete recipes included here. All successful complete matching sources ingested separately before selection; no access-control bypass.",
+    "Alternative enabled-site searches and complete observed source text are archived in west-alternative-search.json and west-se-*.txt.",
+    "Selected source has no verified cooking-stage photos; do not fabricate or relabel a finished-dish photo. Parent must resolve manual-run image exception before publishing."
+  ]
+}

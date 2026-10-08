@@ -13,6 +13,10 @@ assert.equal(cleanIngredientName("四季豆300克"), "四季豆");
 assert.equal(cleanIngredientName("八角2颗"), "八角");
 assert.equal(cleanIngredientName("三文鱼200克"), "三文鱼");
 assert.equal(cleanIngredientName("现磨肉豆蔻粉一撮"), "现磨肉豆蔻粉");
+assert.equal(cleanIngredientName("香菜和/或葱共1把（切碎）"), "香菜和/或葱");
+assert.equal(cleanIngredientName("清水合计9杯（另备焯水用水）"), "清水");
+assert.equal(cleanIngredientName("白胡椒粉½茶匙"), "白胡椒粉");
+assert.equal(cleanIngredientName("沙姜粉1½汤匙（不能用普通姜粉替代或省略）"), "沙姜粉");
 
 const refreshedRecipes = [...chinese, ...western].filter((recipe) => recipe.media);
 const repeatedPunctuation = /，，|。。|；；|、、|，。|；。|。；/u;
