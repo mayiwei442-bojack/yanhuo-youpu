@@ -94,9 +94,9 @@
     {
       "id": "cn-014",
       "name": "柳州螺蛳粉",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-howtocook-cn-014",
-      "completedAt": null
+      "completedAt": "2026-10-08T07:51:09.246Z"
     },
     {
       "id": "cn-015",
@@ -115,9 +115,9 @@
     {
       "id": "cn-017",
       "name": "水煮牛肉",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-howtocook-cn-017",
-      "completedAt": null
+      "completedAt": "2026-10-08T07:51:09.246Z"
     },
     {
       "id": "cn-018",
@@ -143,9 +143,9 @@
     {
       "id": "cn-021",
       "name": "口水鸡",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-howtocook-cn-021",
-      "completedAt": null
+      "completedAt": "2026-10-08T07:51:09.246Z"
     },
     {
       "id": "cn-022",
@@ -206,9 +206,9 @@
     {
       "id": "cn-030",
       "name": "蚂蚁上树",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-howtocook-cn-030",
-      "completedAt": null
+      "completedAt": "2026-10-08T07:51:09.246Z"
     },
     {
       "id": "cn-031",
@@ -220,23 +220,23 @@
     {
       "id": "cn-032",
       "name": "虎皮青椒",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-howtocook-cn-032",
-      "completedAt": null
+      "completedAt": "2026-10-08T07:51:09.246Z"
     },
     {
       "id": "cn-033",
       "name": "酸辣土豆丝",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-howtocook-cn-033",
-      "completedAt": null
+      "completedAt": "2026-10-08T07:51:09.246Z"
     },
     {
       "id": "cn-034",
       "name": "韭菜炒鸡蛋",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-howtocook-cn-034",
-      "completedAt": null
+      "completedAt": "2026-10-08T07:51:09.246Z"
     },
     {
       "id": "cn-035",
@@ -262,9 +262,9 @@
     {
       "id": "cn-038",
       "name": "腊味煲仔饭",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-howtocook-cn-038",
-      "completedAt": null
+      "completedAt": "2026-10-08T07:51:09.246Z"
     },
     {
       "id": "cn-039",
@@ -283,16 +283,16 @@
     {
       "id": "cn-041",
       "name": "炸酱面",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-howtocook-cn-041",
-      "completedAt": null
+      "completedAt": "2026-10-08T07:51:09.246Z"
     },
     {
       "id": "cn-042",
       "name": "热干面",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-howtocook-cn-042",
-      "completedAt": null
+      "completedAt": "2026-10-08T07:51:09.246Z"
     },
     {
       "id": "cn-043",
@@ -311,30 +311,30 @@
     {
       "id": "cn-045",
       "name": "韭菜猪肉饺子",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-howtocook-cn-045",
-      "completedAt": null
+      "completedAt": "2026-10-08T07:51:09.246Z"
     },
     {
       "id": "cn-046",
       "name": "馄饨",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-howtocook-cn-046",
-      "completedAt": null
+      "completedAt": "2026-10-08T07:51:09.246Z"
     },
     {
       "id": "cn-047",
       "name": "葱油拌面",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-howtocook-cn-047",
-      "completedAt": null
+      "completedAt": "2026-10-08T07:51:09.246Z"
     },
     {
       "id": "cn-048",
       "name": "炒河粉",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-howtocook-cn-048",
-      "completedAt": null
+      "completedAt": "2026-10-08T07:51:09.246Z"
     },
     {
       "id": "cn-049",
@@ -360,9 +360,9 @@
     {
       "id": "cn-052",
       "name": "梅菜扣肉",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-howtocook-cn-052",
-      "completedAt": null
+      "completedAt": "2026-10-08T07:51:09.246Z"
     },
     {
       "id": "cn-053",
@@ -381,53 +381,53 @@
     {
       "id": "cn-055",
       "name": "干锅花菜",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-howtocook-cn-055",
-      "completedAt": null
+      "completedAt": "2026-10-08T07:51:09.246Z"
     },
     {
       "id": "cn-056",
       "name": "上汤娃娃菜",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-howtocook-cn-056",
-      "completedAt": null
+      "completedAt": "2026-10-08T07:51:09.246Z"
     },
     {
       "id": "cn-057",
       "name": "红烧茄子",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-howtocook-cn-057",
-      "completedAt": null
+      "completedAt": "2026-10-08T07:51:09.246Z"
     },
     {
       "id": "cn-058",
       "name": "番茄牛腩",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-howtocook-cn-058",
-      "completedAt": null
+      "completedAt": "2026-10-08T07:51:09.246Z"
     },
     {
       "id": "cn-059",
       "name": "紫菜蛋花汤",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-howtocook-cn-059",
-      "completedAt": null
+      "completedAt": "2026-10-08T07:51:09.246Z"
     },
     {
       "id": "cn-060",
       "name": "银耳莲子羹",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-howtocook-cn-060",
-      "completedAt": null
+      "completedAt": "2026-10-08T07:51:09.246Z"
     }
   ],
   "western": [
     {
       "id": "west-001",
       "name": "意大利肉酱面",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-howtocook-west-001",
-      "completedAt": null
+      "completedAt": "2026-10-08T07:51:09.246Z"
     },
     {
       "id": "west-002",
@@ -439,9 +439,9 @@
     {
       "id": "west-003",
       "name": "香煎牛排",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-howtocook-west-003",
-      "completedAt": null
+      "completedAt": "2026-10-08T07:51:09.246Z"
     },
     {
       "id": "west-004",
@@ -488,9 +488,9 @@
     {
       "id": "west-010",
       "name": "香草烤鸡",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-howtocook-west-010",
-      "completedAt": null
+      "completedAt": "2026-10-08T07:51:09.246Z"
     },
     {
       "id": "west-011",

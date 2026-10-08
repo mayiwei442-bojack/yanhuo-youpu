@@ -1,7 +1,7 @@
 # HowToCook 菜谱迁移报告
 
 分支：[howtocook](https://github.com/mayiwei442-bojack/yanhuo-youpu/tree/howtocook)。上游固定版本：`a2d45c6984dff9ee941da0e7c452f7965965d962`。
-状态：审查通过，等待最终测试与提交推送。
+状态：已提交并推送，完成提交 1f8675fc207bfce0c467a38e42c63be99dd93c38。
 
 请求 68 道；匹配迁移 24 道（中餐 21 道、西餐 3 道）；跳过 44 道。已完成 24 道独立 Reviewer PASS；24 道来源写入现有知识库，共 121 chunks（Voyage voyage-4 / 1024 维），语义和混合检索均命中。26 张上游原图已校验并复制到本地。
 

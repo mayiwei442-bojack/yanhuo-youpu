@@ -3,12 +3,12 @@
   "recipeId": "cn-014",
   "recipeName": "柳州螺蛳粉",
   "category": "chinese",
-  "status": "in_progress",
+  "status": "done",
   "startedAt": "2026-10-08T07:12:46.996Z",
-  "completedAt": null,
+  "completedAt": "2026-10-08T07:51:09.246Z",
   "branch": "howtocook",
   "branchAuthorization": "user_explicit_2026-10-08",
-  "commit": null,
+  "commit": "1f8675fc207bfce0c467a38e42c63be99dd93c38",
   "steps": {
     "research": {
       "status": "done",
@@ -39,7 +39,7 @@
       "attempts": 1
     },
     "gitPush": {
-      "status": "pending",
+      "status": "done",
       "attempts": 1
     }
   },
