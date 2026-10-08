@@ -1,0 +1,253 @@
+{
+  "recipeId": "cn-014",
+  "record": {
+    "name": "柳州螺蛳粉",
+    "en": "Liuzhou Luosifen",
+    "region": "广西",
+    "ingredients": "袋装螺蛳粉1包（含米粉、螺蛳肉包，螺蛳肉包可能放在配料包中，以及汤料包、酸笋包、花生包、豆皮包、木耳包等配料包和醋包、辣椒油等调味包）；水1L",
+    "steps": "1）锅中加水，将水烧开。2）下米粉，煮 3-5 分钟，期间用筷子搅拌，防止米粉粘在一起。3）下汤料包，按个人口味添加。4）下一部分配料包，如木耳，花生，螺蛳（这部分配料需要煮一会才入味）。5）下调味包，按个人口味添加。6）搅拌后捞出，放入碗中。7）下剩下的配料包，如酸笋，豆皮（这部分配料不适合被汤泡太久）。8）享用美食。",
+    "img": "14-liuzhou-luosifen.png",
+    "source": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/staple/%E8%9E%BA%E8%9B%B3%E7%B2%89.md",
+    "servings": 1,
+    "howtocook": {
+      "commit": "a2d45c6984dff9ee941da0e7c452f7965965d962",
+      "path": "dishes/staple/螺蛳粉.md",
+      "sha256": "0e7baf84512c8dfde0ace61363835589ba32468fa27fef46c35593418d38a0da",
+      "rawMarkdown": "# 螺蛳粉的做法\n\n螺蛳粉是广西柳州的特色小吃，汤鲜味浓，酸辣爽口，米粉软滑筋道。口味上融合了螺蛳汤的鲜美、酸笋的独特发酵风味和辣椒油的刺激，层次分明。作为主食，米粉提供充足碳水化合物，螺蛳肉包和配料带来一定蛋白质，酸笋则有助于开胃促消化。这道菜所需操作简单，只需按顺序煮熟米粉和调味即可，对新手非常友好。从烧水到出锅，最快约十分钟就能端上餐桌，适合快手解决一餐。\n\n预估烹饪难度：★\n\n预估卡路里：1109 大卡\n\n## 必备原料和工具\n\n> 出于家常菜考虑，从螺蛳，酸笋等工序开始制作螺蛳粉并不现实，因此本食谱基于袋装螺蛳粉实现。\n\n### 原料\n\n- 袋装螺蛳粉一包，其中应该包含：\n  - 米粉\n  - 螺蛳肉包（可能放在配料包中）\n  - 汤料包\n  - 酸笋包、花生包、豆皮包、木耳包等配料包\n  - 醋包、辣椒油等调味包\n\n### 工具\n\n- 煮锅\n\n- 电磁炉/灶台\n\n- 筷子一双\n\n## 计算\n\n- 根据个人经验，一包袋装螺蛳粉足够一人一餐食（虽然看着很大包）\n- 水 1L\n\n## 操作\n\n1. 锅中加水，将水烧开\n2. 下米粉，煮 3-5 分钟，期间用筷子搅拌，防止米粉粘在一起\n3. 下汤料包，按个人口味添加\n4. 下一部分配料包，如木耳，花生，螺蛳（这部分配料需要煮一会才入味）\n5. 下调味包，按个人口味添加\n6. 搅拌后捞出，放入碗中\n7. 下剩下的配料包，如酸笋，豆皮（这部分配料不适合被汤泡太久）\n8. 享用美食\n\n## 附加内容\n\n- 如果想要更有嚼劲的粉，可以缩短第二步煮粉的时间\n- 如果想在螺蛳粉中添加炸蛋，请参考炸蛋的教程\n- 配料的选择请依照个人口味\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+      "sections": [
+        {
+          "title": "螺蛳粉的做法",
+          "markdown": "\n螺蛳粉是广西柳州的特色小吃，汤鲜味浓，酸辣爽口，米粉软滑筋道。口味上融合了螺蛳汤的鲜美、酸笋的独特发酵风味和辣椒油的刺激，层次分明。作为主食，米粉提供充足碳水化合物，螺蛳肉包和配料带来一定蛋白质，酸笋则有助于开胃促消化。这道菜所需操作简单，只需按顺序煮熟米粉和调味即可，对新手非常友好。从烧水到出锅，最快约十分钟就能端上餐桌，适合快手解决一餐。\n\n预估烹饪难度：★\n\n预估卡路里：1109 大卡\n\n",
+          "level": 1
+        },
+        {
+          "title": "必备原料和工具",
+          "markdown": "\n> 出于家常菜考虑，从螺蛳，酸笋等工序开始制作螺蛳粉并不现实，因此本食谱基于袋装螺蛳粉实现。\n\n",
+          "level": 2
+        },
+        {
+          "title": "原料",
+          "markdown": "\n- 袋装螺蛳粉一包，其中应该包含：\n  - 米粉\n  - 螺蛳肉包（可能放在配料包中）\n  - 汤料包\n  - 酸笋包、花生包、豆皮包、木耳包等配料包\n  - 醋包、辣椒油等调味包\n\n",
+          "level": 3
+        },
+        {
+          "title": "工具",
+          "markdown": "\n- 煮锅\n\n- 电磁炉/灶台\n\n- 筷子一双\n\n",
+          "level": 3
+        },
+        {
+          "title": "计算",
+          "markdown": "\n- 根据个人经验，一包袋装螺蛳粉足够一人一餐食（虽然看着很大包）\n- 水 1L\n\n",
+          "level": 2
+        },
+        {
+          "title": "操作",
+          "markdown": "\n1. 锅中加水，将水烧开\n2. 下米粉，煮 3-5 分钟，期间用筷子搅拌，防止米粉粘在一起\n3. 下汤料包，按个人口味添加\n4. 下一部分配料包，如木耳，花生，螺蛳（这部分配料需要煮一会才入味）\n5. 下调味包，按个人口味添加\n6. 搅拌后捞出，放入碗中\n7. 下剩下的配料包，如酸笋，豆皮（这部分配料不适合被汤泡太久）\n8. 享用美食\n\n",
+          "level": 2
+        },
+        {
+          "title": "附加内容",
+          "markdown": "\n- 如果想要更有嚼劲的粉，可以缩短第二步煮粉的时间\n- 如果想在螺蛳粉中添加炸蛋，请参考炸蛋的教程\n- 配料的选择请依照个人口味\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+          "level": 2
+        }
+      ],
+      "images": []
+    },
+    "sourceLimitations": [
+      "上游为一包袋装螺蛳粉的一人份做法，未提供从螺蛳汤起制作的配方，也未量化包内各配料。",
+      "原文仅写最快约十分钟，并非明确的全程总用时；配料煮一会的时长、火力未注明，均不补造。",
+      "上游无图片，保留的原有展示图不属于本次 HowToCook 来源图片。",
+      "炸蛋仅作为可选附加内容提及并指向另一个教程，本菜谱未提供其做法。"
+    ]
+  },
+  "generated": {
+    "id": "cn-014",
+    "name": "柳州螺蛳粉",
+    "en": "Liuzhou Luosifen",
+    "cuisine": "广西",
+    "category": "地域风味",
+    "isHeritageFlavor": true,
+    "heritageStatus": "pending-verification",
+    "ingredients": [
+      {
+        "id": "ingredient-01",
+        "name": "袋装螺蛳粉",
+        "label": "袋装螺蛳粉1包（含米粉、螺蛳肉包，螺蛳肉包可能放在配料包中，以及汤料包、酸笋包、花生包、豆皮包、木耳包等配料包和醋包、辣椒油等调味包）",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-02",
+        "name": "水",
+        "label": "水1L",
+        "isCore": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-01",
+        "instruction": "锅中加水，将水烧开。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-02",
+        "instruction": "下米粉，煮 3-5 分钟，期间用筷子搅拌，防止米粉粘在一起。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "stir",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-03",
+        "instruction": "下汤料包，按个人口味添加。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-04",
+        "instruction": "下一部分配料包，如木耳，花生，螺蛳（这部分配料需要煮一会才入味）。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-05",
+        "instruction": "下调味包，按个人口味添加。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-06",
+        "instruction": "搅拌后捞出，放入碗中。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-07",
+        "instruction": "下剩下的配料包，如酸笋，豆皮（这部分配料不适合被汤泡太久）。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-08",
+        "instruction": "享用美食。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      }
+    ],
+    "howtocook": {
+      "commit": "a2d45c6984dff9ee941da0e7c452f7965965d962",
+      "path": "dishes/staple/螺蛳粉.md",
+      "sha256": "0e7baf84512c8dfde0ace61363835589ba32468fa27fef46c35593418d38a0da",
+      "rawMarkdown": "# 螺蛳粉的做法\n\n螺蛳粉是广西柳州的特色小吃，汤鲜味浓，酸辣爽口，米粉软滑筋道。口味上融合了螺蛳汤的鲜美、酸笋的独特发酵风味和辣椒油的刺激，层次分明。作为主食，米粉提供充足碳水化合物，螺蛳肉包和配料带来一定蛋白质，酸笋则有助于开胃促消化。这道菜所需操作简单，只需按顺序煮熟米粉和调味即可，对新手非常友好。从烧水到出锅，最快约十分钟就能端上餐桌，适合快手解决一餐。\n\n预估烹饪难度：★\n\n预估卡路里：1109 大卡\n\n## 必备原料和工具\n\n> 出于家常菜考虑，从螺蛳，酸笋等工序开始制作螺蛳粉并不现实，因此本食谱基于袋装螺蛳粉实现。\n\n### 原料\n\n- 袋装螺蛳粉一包，其中应该包含：\n  - 米粉\n  - 螺蛳肉包（可能放在配料包中）\n  - 汤料包\n  - 酸笋包、花生包、豆皮包、木耳包等配料包\n  - 醋包、辣椒油等调味包\n\n### 工具\n\n- 煮锅\n\n- 电磁炉/灶台\n\n- 筷子一双\n\n## 计算\n\n- 根据个人经验，一包袋装螺蛳粉足够一人一餐食（虽然看着很大包）\n- 水 1L\n\n## 操作\n\n1. 锅中加水，将水烧开\n2. 下米粉，煮 3-5 分钟，期间用筷子搅拌，防止米粉粘在一起\n3. 下汤料包，按个人口味添加\n4. 下一部分配料包，如木耳，花生，螺蛳（这部分配料需要煮一会才入味）\n5. 下调味包，按个人口味添加\n6. 搅拌后捞出，放入碗中\n7. 下剩下的配料包，如酸笋，豆皮（这部分配料不适合被汤泡太久）\n8. 享用美食\n\n## 附加内容\n\n- 如果想要更有嚼劲的粉，可以缩短第二步煮粉的时间\n- 如果想在螺蛳粉中添加炸蛋，请参考炸蛋的教程\n- 配料的选择请依照个人口味\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+      "sections": [
+        {
+          "title": "螺蛳粉的做法",
+          "markdown": "\n螺蛳粉是广西柳州的特色小吃，汤鲜味浓，酸辣爽口，米粉软滑筋道。口味上融合了螺蛳汤的鲜美、酸笋的独特发酵风味和辣椒油的刺激，层次分明。作为主食，米粉提供充足碳水化合物，螺蛳肉包和配料带来一定蛋白质，酸笋则有助于开胃促消化。这道菜所需操作简单，只需按顺序煮熟米粉和调味即可，对新手非常友好。从烧水到出锅，最快约十分钟就能端上餐桌，适合快手解决一餐。\n\n预估烹饪难度：★\n\n预估卡路里：1109 大卡\n\n",
+          "level": 1
+        },
+        {
+          "title": "必备原料和工具",
+          "markdown": "\n> 出于家常菜考虑，从螺蛳，酸笋等工序开始制作螺蛳粉并不现实，因此本食谱基于袋装螺蛳粉实现。\n\n",
+          "level": 2
+        },
+        {
+          "title": "原料",
+          "markdown": "\n- 袋装螺蛳粉一包，其中应该包含：\n  - 米粉\n  - 螺蛳肉包（可能放在配料包中）\n  - 汤料包\n  - 酸笋包、花生包、豆皮包、木耳包等配料包\n  - 醋包、辣椒油等调味包\n\n",
+          "level": 3
+        },
+        {
+          "title": "工具",
+          "markdown": "\n- 煮锅\n\n- 电磁炉/灶台\n\n- 筷子一双\n\n",
+          "level": 3
+        },
+        {
+          "title": "计算",
+          "markdown": "\n- 根据个人经验，一包袋装螺蛳粉足够一人一餐食（虽然看着很大包）\n- 水 1L\n\n",
+          "level": 2
+        },
+        {
+          "title": "操作",
+          "markdown": "\n1. 锅中加水，将水烧开\n2. 下米粉，煮 3-5 分钟，期间用筷子搅拌，防止米粉粘在一起\n3. 下汤料包，按个人口味添加\n4. 下一部分配料包，如木耳，花生，螺蛳（这部分配料需要煮一会才入味）\n5. 下调味包，按个人口味添加\n6. 搅拌后捞出，放入碗中\n7. 下剩下的配料包，如酸笋，豆皮（这部分配料不适合被汤泡太久）\n8. 享用美食\n\n",
+          "level": 2
+        },
+        {
+          "title": "附加内容",
+          "markdown": "\n- 如果想要更有嚼劲的粉，可以缩短第二步煮粉的时间\n- 如果想在螺蛳粉中添加炸蛋，请参考炸蛋的教程\n- 配料的选择请依照个人口味\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+          "level": 2
+        }
+      ],
+      "images": [],
+      "difficultyStars": "★"
+    },
+    "sourceLimitations": [
+      "上游为一包袋装螺蛳粉的一人份做法，未提供从螺蛳汤起制作的配方，也未量化包内各配料。",
+      "原文仅写最快约十分钟，并非明确的全程总用时；配料煮一会的时长、火力未注明，均不补造。",
+      "上游无图片，保留的原有展示图不属于本次 HowToCook 来源图片。",
+      "炸蛋仅作为可选附加内容提及并指向另一个教程，本菜谱未提供其做法。"
+    ],
+    "imageThumb": "assets/dishes/thumbnails/14-liuzhou-luosifen.jpg",
+    "imageFull": "assets/dishes/ai/14-liuzhou-luosifen.png",
+    "source": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/staple/%E8%9E%BA%E8%9B%B3%E7%B2%89.md",
+    "time": null,
+    "timeBasis": "unspecified",
+    "difficulty": "简单",
+    "defaultServings": 1,
+    "servingsBasis": "source",
+    "allergens": [
+      "peanut",
+      "soy"
+    ],
+    "flags": {
+      "containsPork": false,
+      "containsBeef": false,
+      "containsAlcohol": false,
+      "spicy": true,
+      "vegetarian": false
+    },
+    "demoEnriched": true
+  },
+  "renderedIngredientRows": [
+    "袋装螺蛳粉1包（含米粉、螺蛳肉包，螺蛳肉包可能放在配料包中，以及汤料包、酸笋包、花生包、豆皮包、木耳包等配料包和醋包、辣椒油等调味包）",
+    "水1L"
+  ],
+  "renderedSteps": [
+    "锅中加水，将水烧开。",
+    "下米粉，煮 3-5 分钟，期间用筷子搅拌，防止米粉粘在一起。",
+    "下汤料包，按个人口味添加。",
+    "下一部分配料包，如木耳，花生，螺蛳（这部分配料需要煮一会才入味）。",
+    "下调味包，按个人口味添加。",
+    "搅拌后捞出，放入碗中。",
+    "下剩下的配料包，如酸笋，豆皮（这部分配料不适合被汤泡太久）。",
+    "享用美食。"
+  ]
+}

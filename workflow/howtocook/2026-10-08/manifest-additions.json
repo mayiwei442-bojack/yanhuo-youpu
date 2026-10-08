@@ -1,0 +1,78 @@
+{
+  "commit": "a2d45c6984dff9ee941da0e7c452f7965965d962",
+  "treeTruncated": false,
+  "recipes": [
+    {
+      "recipeId": "cn-034",
+      "recipeName": "韭菜炒鸡蛋",
+      "category": "chinese",
+      "status": "matched",
+      "path": "dishes/vegetable_dish/韭菜炒蛋/韭菜炒蛋.md",
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。",
+      "matchReason": "韭菜炒蛋正文明确鸡蛋，与韭菜炒鸡蛋同菜。"
+    },
+    {
+      "recipeId": "cn-038",
+      "recipeName": "腊味煲仔饭",
+      "category": "chinese",
+      "status": "matched",
+      "path": "dishes/staple/微波炉腊肠煲仔饭/微波炉腊肠煲仔饭.md",
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。",
+      "matchReason": "原文为微波炉腊肠煲仔饭版腊味饭，保留原题与工具。"
+    },
+    {
+      "recipeId": "cn-045",
+      "recipeName": "韭菜猪肉饺子",
+      "category": "chinese",
+      "status": "matched",
+      "path": "dishes/staple/手工水饺.md",
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。",
+      "matchReason": "手工水饺正文明确韭菜和猪肉馅，对应韭菜猪肉饺子。"
+    },
+    {
+      "recipeId": "cn-046",
+      "recipeName": "馄饨",
+      "category": "chinese",
+      "status": "matched",
+      "path": "dishes/semi-finished/速冻馄饨.md",
+      "candidates": [
+        "dishes/semi-finished/速冻馄饨.md"
+      ],
+      "skipReason": "近名菜谱做法不同，不替代指定菜谱。",
+      "matchReason": "原文为电饭煲煮速冻馄饨版本，不包含自制馄饨皮馅步骤。"
+    },
+    {
+      "recipeId": "cn-058",
+      "recipeName": "番茄牛腩",
+      "category": "chinese",
+      "status": "matched",
+      "path": "dishes/meat_dish/西红柿牛腩/西红柿牛腩.md",
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。",
+      "matchReason": "西红柿与番茄同义，同菜。"
+    },
+    {
+      "recipeId": "cn-060",
+      "recipeName": "银耳莲子羹",
+      "category": "chinese",
+      "status": "matched",
+      "path": "dishes/soup/银耳莲子粥/银耳莲子粥.md",
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。",
+      "matchReason": "原名银耳莲子粥，材料不含米或谷物，实际为银耳莲子甜羹；保留原题。"
+    },
+    {
+      "recipeId": "west-010",
+      "recipeName": "香草烤鸡",
+      "category": "western",
+      "status": "matched",
+      "path": "dishes/meat_dish/意式烤鸡.md",
+      "candidates": [],
+      "skipReason": "锁定上游完整目录中无对应菜谱。",
+      "matchReason": "鸡腿肉配欧芹香草的意式烤鸡，对应香草烤鸡；保留上游原名与具体配方。"
+    }
+  ]
+}

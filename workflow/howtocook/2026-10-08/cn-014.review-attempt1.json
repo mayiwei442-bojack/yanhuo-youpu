@@ -1,0 +1,22 @@
+{
+  "status": "FAIL",
+  "issues": [
+    {
+      "field": "generated.difficulty",
+      "message": "Upstream one-star difficulty rendered as medium"
+    },
+    {
+      "field": "generated.steps[1].duration",
+      "message": "Source 3-5 minute range collapsed to fixed 300-second timer"
+    }
+  ],
+  "summary": "Evidence and independent adversarial language review passed; fix source difficulty and range timer metadata.",
+  "evidencePackageHash": "dc141b72b2c2f08c8a04f593ab72428c8daf5a1493302b70f612c65838630d3d",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

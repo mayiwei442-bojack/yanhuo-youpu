@@ -1,0 +1,63 @@
+{
+  "runId": "2026-10-08-howtocook-cn-041",
+  "recipeId": "cn-041",
+  "recipeName": "炸酱面",
+  "category": "chinese",
+  "status": "in_progress",
+  "startedAt": "2026-10-08T07:12:46.996Z",
+  "completedAt": null,
+  "branch": "howtocook",
+  "branchAuthorization": "user_explicit_2026-10-08",
+  "commit": null,
+  "steps": {
+    "research": {
+      "status": "done",
+      "attempts": 1
+    },
+    "ingestion": {
+      "status": "done",
+      "attempts": 1
+    },
+    "edit": {
+      "status": "done",
+      "attempts": 1
+    },
+    "validator": {
+      "status": "done",
+      "attempts": 1
+    },
+    "review": {
+      "status": "done",
+      "attempts": 2,
+      "details": {
+        "correctionsPath": "workflow/howtocook/2026-10-08/review-corrections.json",
+        "finalStatus": "PASS"
+      }
+    },
+    "build": {
+      "status": "done",
+      "attempts": 1
+    },
+    "gitPush": {
+      "status": "pending",
+      "attempts": 1
+    }
+  },
+  "sources": [
+    {
+      "name": "HowToCook",
+      "url": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/staple/%E7%82%B8%E9%85%B1%E9%9D%A2.md",
+      "status": "success",
+      "documentId": "575a3c45-12c1-4f06-82df-2b2b183a1883"
+    }
+  ],
+  "errors": [],
+  "evidencePackageHash": "6d038caf9a2bcf76e294f4ba96315e3b03bc50fe6a414b3f01abfc20ff79979c",
+  "reviewPath": "workflow/howtocook/2026-10-08/cn-041.review.json",
+  "validationPath": "workflow/howtocook/2026-10-08/cn-041.validation.json",
+  "sourceLimitations": [
+    "必备表列蒜，但计算和操作使用葱；蒜未说明用量及加入时点。",
+    "本上游菜谱无图片，按用户要求不补造图片。",
+    "原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。"
+  ]
+}

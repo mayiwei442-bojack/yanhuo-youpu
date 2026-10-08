@@ -1,0 +1,58 @@
+{
+  "runId": "2026-10-08-howtocook-cn-033",
+  "recipeId": "cn-033",
+  "recipeName": "酸辣土豆丝",
+  "category": "chinese",
+  "status": "in_progress",
+  "startedAt": "2026-10-08T07:12:46.996Z",
+  "completedAt": null,
+  "branch": "howtocook",
+  "branchAuthorization": "user_explicit_2026-10-08",
+  "commit": null,
+  "steps": {
+    "research": {
+      "status": "done",
+      "attempts": 1
+    },
+    "ingestion": {
+      "status": "done",
+      "attempts": 1
+    },
+    "edit": {
+      "status": "done",
+      "attempts": 1
+    },
+    "validator": {
+      "status": "done",
+      "attempts": 1
+    },
+    "review": {
+      "status": "done",
+      "attempts": 1
+    },
+    "build": {
+      "status": "done",
+      "attempts": 1
+    },
+    "gitPush": {
+      "status": "pending",
+      "attempts": 1
+    }
+  },
+  "sources": [
+    {
+      "name": "HowToCook",
+      "url": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/vegetable_dish/%E9%85%B8%E8%BE%A3%E5%9C%9F%E8%B1%86%E4%B8%9D.md",
+      "status": "success",
+      "documentId": "13a4b348-354c-445e-ab7a-fe15ef3b4759"
+    }
+  ],
+  "errors": [],
+  "evidencePackageHash": "468d41476c810a861916788418da575499d9f0a5c41a0f4af8d0b746a8942495",
+  "reviewPath": "workflow/howtocook/2026-10-08/cn-033.review.json",
+  "validationPath": "workflow/howtocook/2026-10-08/cn-033.validation.json",
+  "sourceLimitations": [
+    "本上游菜谱无图片，按用户要求不补造图片。",
+    "原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。"
+  ]
+}

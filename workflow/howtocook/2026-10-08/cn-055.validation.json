@@ -1,0 +1,103 @@
+{
+  "ok": true,
+  "targetId": "cn-055",
+  "checks": [
+    {
+      "name": "unique_ids",
+      "passed": true
+    },
+    {
+      "name": "target_exists_once",
+      "passed": true
+    },
+    {
+      "name": "required_fields",
+      "passed": true
+    },
+    {
+      "name": "target_name",
+      "passed": true
+    },
+    {
+      "name": "target_ingredients",
+      "passed": true,
+      "count": 14
+    },
+    {
+      "name": "target_steps",
+      "passed": true,
+      "count": 9
+    },
+    {
+      "name": "stable_target_fields",
+      "passed": true,
+      "allowedChanges": [
+        "source"
+      ]
+    },
+    {
+      "name": "target_changed",
+      "passed": true,
+      "required": true
+    },
+    {
+      "name": "target_only_diff",
+      "passed": true,
+      "changed": []
+    },
+    {
+      "name": "selected_pinned_source",
+      "passed": true
+    },
+    {
+      "name": "exact_complete_upstream_markdown",
+      "passed": true
+    },
+    {
+      "name": "upstream_content_sha256",
+      "passed": true
+    },
+    {
+      "name": "ingested_source_document",
+      "passed": true
+    },
+    {
+      "name": "ingredient_brackets_and_rows",
+      "passed": true
+    },
+    {
+      "name": "step_brackets",
+      "passed": true
+    },
+    {
+      "name": "local_image_assets/dishes/howtocook/cn-055/1.jpg",
+      "passed": true
+    },
+    {
+      "name": "batch_scope_only",
+      "passed": true
+    },
+    {
+      "name": "generated_original_preserved",
+      "passed": true
+    },
+    {
+      "name": "generated_steps_match_canonical",
+      "passed": true
+    },
+    {
+      "name": "generated_ingredient_labels_match",
+      "passed": true
+    },
+    {
+      "name": "unknown_time_not_invented",
+      "passed": true
+    },
+    {
+      "name": "unknown_yield_not_invented",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "evidencePackageHash": "1ccaf912f782847ecbba1c7ace644760108719136de5ad25a167f65a1cfd944f"
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "第1步尺寸短语补全且生成展示一致。完整原文、用量、炖制替代路线、安全提醒、范围时长和90分钟约值保持，未知人数/源缺项披露；独立四项语言复审通过。",
+  "evidencePackageHash": "9acd9abf7dd8e6c4746883a8187b25c4a64801aa264a057646059c87af99ff36",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

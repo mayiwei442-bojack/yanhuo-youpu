@@ -1,0 +1,658 @@
+{
+  "branch": "howtocook",
+  "upstreamCommit": "a2d45c6984dff9ee941da0e7c452f7965965d962",
+  "startedAt": "2026-10-08T07:12:46.996Z",
+  "status": "in_progress",
+  "recipes": [
+    {
+      "recipeId": "cn-012",
+      "recipeName": "羊肉泡馍",
+      "status": "skipped",
+      "reason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "cn-013",
+      "recipeName": "胡辣汤",
+      "status": "skipped",
+      "reason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "cn-014",
+      "recipeName": "柳州螺蛳粉",
+      "status": "in_progress",
+      "steps": {
+        "research": "done",
+        "ingestion": "done",
+        "edit": "done",
+        "validator": "done",
+        "review": "done",
+        "build": "done",
+        "gitPush": "pending"
+      },
+      "documentId": "60a04e20-23c1-407b-a88e-59d36b3a2796",
+      "evidencePackageHash": "dc141b72b2c2f08c8a04f593ab72428c8daf5a1493302b70f612c65838630d3d"
+    },
+    {
+      "recipeId": "cn-015",
+      "recipeName": "兰州清汤牛肉面",
+      "status": "skipped",
+      "reason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "cn-017",
+      "recipeName": "水煮牛肉",
+      "status": "in_progress",
+      "steps": {
+        "research": "done",
+        "ingestion": "done",
+        "edit": "done",
+        "validator": "done",
+        "review": "done",
+        "build": "done",
+        "gitPush": "pending"
+      },
+      "documentId": "c8991fdc-cd72-436d-90fe-538e4fe50f97",
+      "evidencePackageHash": "e10f698a38f2b6ed9471fc7fb94a0165204dd8d06f87cd8b1b82fc73f5fe79e6"
+    },
+    {
+      "recipeId": "cn-018",
+      "recipeName": "酸菜鱼",
+      "status": "skipped",
+      "reason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "cn-019",
+      "recipeName": "东坡肉",
+      "status": "skipped",
+      "reason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "cn-020",
+      "recipeName": "白切鸡",
+      "status": "skipped",
+      "reason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "cn-021",
+      "recipeName": "口水鸡",
+      "status": "in_progress",
+      "steps": {
+        "research": "done",
+        "ingestion": "done",
+        "edit": "done",
+        "validator": "done",
+        "review": "done",
+        "build": "done",
+        "gitPush": "pending"
+      },
+      "documentId": "9719b586-9a9e-4793-8a48-9af003999c5b",
+      "evidencePackageHash": "292262aa28c22578e6808209c10618d5b152b8b7fec46a9fb6b4c77e3b71299d"
+    },
+    {
+      "recipeId": "cn-022",
+      "recipeName": "北京烤鸭",
+      "status": "skipped",
+      "reason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "cn-023",
+      "recipeName": "小鸡炖蘑菇",
+      "status": "skipped",
+      "reason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "cn-025",
+      "recipeName": "西湖醋鱼",
+      "status": "skipped",
+      "reason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "cn-026",
+      "recipeName": "龙井虾仁",
+      "status": "skipped",
+      "reason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "cn-028",
+      "recipeName": "清炒虾仁",
+      "status": "skipped",
+      "reason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "cn-030",
+      "recipeName": "蚂蚁上树",
+      "status": "in_progress",
+      "steps": {
+        "research": "done",
+        "ingestion": "done",
+        "edit": "done",
+        "validator": "done",
+        "review": "done",
+        "build": "done",
+        "gitPush": "pending"
+      },
+      "documentId": "5b5ce493-18f1-45da-a20e-ee36d7a89025",
+      "evidencePackageHash": "bc2d34f810f116e6bdee42055ea1b6548f2d6787b7c66b06e1670445fbd8593c"
+    },
+    {
+      "recipeId": "cn-031",
+      "recipeName": "家常豆腐",
+      "status": "skipped",
+      "reason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "cn-032",
+      "recipeName": "虎皮青椒",
+      "status": "in_progress",
+      "steps": {
+        "research": "done",
+        "ingestion": "done",
+        "edit": "done",
+        "validator": "done",
+        "review": "done",
+        "build": "done",
+        "gitPush": "pending"
+      },
+      "documentId": "d2b5aa5a-0a68-42b7-8b4c-b5a4f420134a",
+      "evidencePackageHash": "ffe3c8308efc25dc34517ed01769602747077e6521125ec2efc64c7422a7941b"
+    },
+    {
+      "recipeId": "cn-033",
+      "recipeName": "酸辣土豆丝",
+      "status": "in_progress",
+      "steps": {
+        "research": "done",
+        "ingestion": "done",
+        "edit": "done",
+        "validator": "done",
+        "review": "done",
+        "build": "done",
+        "gitPush": "pending"
+      },
+      "documentId": "13a4b348-354c-445e-ab7a-fe15ef3b4759",
+      "evidencePackageHash": "468d41476c810a861916788418da575499d9f0a5c41a0f4af8d0b746a8942495"
+    },
+    {
+      "recipeId": "cn-034",
+      "recipeName": "韭菜炒鸡蛋",
+      "status": "in_progress",
+      "steps": {
+        "research": "done",
+        "ingestion": "done",
+        "edit": "done",
+        "validator": "done",
+        "review": "done",
+        "build": "done",
+        "gitPush": "pending"
+      },
+      "documentId": "ded84796-7eb5-4229-943e-ef5e68ca248e",
+      "evidencePackageHash": "663901dff427f49e6fa4ca3ae96b4b052dadfb136041a61d9cab0f88e3bd31c1"
+    },
+    {
+      "recipeId": "cn-035",
+      "recipeName": "冬瓜排骨汤",
+      "status": "skipped",
+      "reason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "cn-037",
+      "recipeName": "佛跳墙",
+      "status": "skipped",
+      "reason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "cn-038",
+      "recipeName": "腊味煲仔饭",
+      "status": "in_progress",
+      "steps": {
+        "research": "done",
+        "ingestion": "done",
+        "edit": "done",
+        "validator": "done",
+        "review": "done",
+        "build": "done",
+        "gitPush": "pending"
+      },
+      "documentId": "1beb2ded-016f-4a48-b328-0dc7a7b96951",
+      "evidencePackageHash": "29a6766ce9ee81cb8d63f7c85399a83886b8f43bc16f7adfb234b2d1ec948050"
+    },
+    {
+      "recipeId": "cn-039",
+      "recipeName": "海南鸡饭",
+      "status": "skipped",
+      "reason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "cn-040",
+      "recipeName": "担担面",
+      "status": "skipped",
+      "reason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "cn-041",
+      "recipeName": "炸酱面",
+      "status": "in_progress",
+      "steps": {
+        "research": "done",
+        "ingestion": "done",
+        "edit": "done",
+        "validator": "done",
+        "review": "done",
+        "build": "done",
+        "gitPush": "pending"
+      },
+      "documentId": "575a3c45-12c1-4f06-82df-2b2b183a1883",
+      "evidencePackageHash": "6d038caf9a2bcf76e294f4ba96315e3b03bc50fe6a414b3f01abfc20ff79979c"
+    },
+    {
+      "recipeId": "cn-042",
+      "recipeName": "热干面",
+      "status": "in_progress",
+      "steps": {
+        "research": "done",
+        "ingestion": "done",
+        "edit": "done",
+        "validator": "done",
+        "review": "done",
+        "build": "done",
+        "gitPush": "pending"
+      },
+      "documentId": "26dd90e2-3f46-4ee2-adac-1e1555a39b80",
+      "evidencePackageHash": "641dcb52c20110ca8957a12676b8380c0464733db81b3016d74d3877088a581d"
+    },
+    {
+      "recipeId": "cn-043",
+      "recipeName": "重庆小面",
+      "status": "skipped",
+      "reason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "cn-044",
+      "recipeName": "小笼包",
+      "status": "skipped",
+      "reason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "cn-045",
+      "recipeName": "韭菜猪肉饺子",
+      "status": "in_progress",
+      "steps": {
+        "research": "done",
+        "ingestion": "done",
+        "edit": "done",
+        "validator": "done",
+        "review": "done",
+        "build": "done",
+        "gitPush": "pending"
+      },
+      "documentId": "6a326ea0-56f9-4fc5-af0d-401a8e6266d8",
+      "evidencePackageHash": "567523b91c614f21aff3e9dc8bb6ceff36e6001ac4829601d48a6653db870540"
+    },
+    {
+      "recipeId": "cn-046",
+      "recipeName": "馄饨",
+      "status": "in_progress",
+      "steps": {
+        "research": "done",
+        "ingestion": "done",
+        "edit": "done",
+        "validator": "done",
+        "review": "done",
+        "build": "done",
+        "gitPush": "pending"
+      },
+      "documentId": "02823834-484e-480a-843e-35c5b10c8c62",
+      "evidencePackageHash": "9995e4e6cf43b9068897f82ea7cc33ba5223fea0924837ff6467cb4d1d69390c"
+    },
+    {
+      "recipeId": "cn-047",
+      "recipeName": "葱油拌面",
+      "status": "in_progress",
+      "steps": {
+        "research": "done",
+        "ingestion": "done",
+        "edit": "done",
+        "validator": "done",
+        "review": "done",
+        "build": "done",
+        "gitPush": "pending"
+      },
+      "documentId": "55fce09c-0d6d-4b98-90ba-68ff7737e0fb",
+      "evidencePackageHash": "287bb6348aac6118625f8a5d628f5507224a91f4e23bc513c818727f6850e38f"
+    },
+    {
+      "recipeId": "cn-048",
+      "recipeName": "炒河粉",
+      "status": "in_progress",
+      "steps": {
+        "research": "done",
+        "ingestion": "done",
+        "edit": "done",
+        "validator": "done",
+        "review": "done",
+        "build": "done",
+        "gitPush": "pending"
+      },
+      "documentId": "52aa33ed-5e85-405c-ba2d-ab80ffdd535c",
+      "evidencePackageHash": "c0691a88db433e4d860892f41de15f217c5ac8d9cb450a6395daef5c43a24075"
+    },
+    {
+      "recipeId": "cn-049",
+      "recipeName": "肉夹馍",
+      "status": "skipped",
+      "reason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "cn-050",
+      "recipeName": "煎饼果子",
+      "status": "skipped",
+      "reason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "cn-051",
+      "recipeName": "叉烧",
+      "status": "skipped",
+      "reason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "cn-052",
+      "recipeName": "梅菜扣肉",
+      "status": "in_progress",
+      "steps": {
+        "research": "done",
+        "ingestion": "done",
+        "edit": "done",
+        "validator": "done",
+        "review": "done",
+        "build": "done",
+        "gitPush": "pending"
+      },
+      "documentId": "231fe5d0-427d-4d09-bc7b-d80b10b92c7f",
+      "evidencePackageHash": "7c22b83d7abda27ada2cd612068e413648ab190721ade4cb923bc38d2d90af99"
+    },
+    {
+      "recipeId": "cn-053",
+      "recipeName": "盐焗鸡",
+      "status": "skipped",
+      "reason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "cn-055",
+      "recipeName": "干锅花菜",
+      "status": "in_progress",
+      "steps": {
+        "research": "done",
+        "ingestion": "done",
+        "edit": "done",
+        "validator": "done",
+        "review": "done",
+        "build": "done",
+        "gitPush": "pending"
+      },
+      "documentId": "1bea4fff-eeb7-4070-b2b7-ea02d945a0d6",
+      "evidencePackageHash": "1ccaf912f782847ecbba1c7ace644760108719136de5ad25a167f65a1cfd944f"
+    },
+    {
+      "recipeId": "cn-056",
+      "recipeName": "上汤娃娃菜",
+      "status": "in_progress",
+      "steps": {
+        "research": "done",
+        "ingestion": "done",
+        "edit": "done",
+        "validator": "done",
+        "review": "done",
+        "build": "done",
+        "gitPush": "pending"
+      },
+      "documentId": "ccc935f0-7827-461c-8e8a-434fae092cdf",
+      "evidencePackageHash": "8f09f62533f4a29185f27d47377edcf29051f430d361806fcff7b300a3d57546"
+    },
+    {
+      "recipeId": "cn-057",
+      "recipeName": "红烧茄子",
+      "status": "in_progress",
+      "steps": {
+        "research": "done",
+        "ingestion": "done",
+        "edit": "done",
+        "validator": "done",
+        "review": "done",
+        "build": "done",
+        "gitPush": "pending"
+      },
+      "documentId": "0151a446-1cf6-419a-aa9f-a144a5126ba7",
+      "evidencePackageHash": "49e56496fe089419ae34326cddd2a32b93a8800efe61965a008f8efdbedd7a97"
+    },
+    {
+      "recipeId": "cn-058",
+      "recipeName": "番茄牛腩",
+      "status": "in_progress",
+      "steps": {
+        "research": "done",
+        "ingestion": "done",
+        "edit": "done",
+        "validator": "done",
+        "review": "done",
+        "build": "done",
+        "gitPush": "pending"
+      },
+      "documentId": "b089f530-1fda-4adf-8d78-df84b24113c0",
+      "evidencePackageHash": "9acd9abf7dd8e6c4746883a8187b25c4a64801aa264a057646059c87af99ff36"
+    },
+    {
+      "recipeId": "cn-059",
+      "recipeName": "紫菜蛋花汤",
+      "status": "in_progress",
+      "steps": {
+        "research": "done",
+        "ingestion": "done",
+        "edit": "done",
+        "validator": "done",
+        "review": "done",
+        "build": "done",
+        "gitPush": "pending"
+      },
+      "documentId": "e71bce53-1ce0-438a-b2f3-a9dcc9d12998",
+      "evidencePackageHash": "f3965eb18b7aefb4b02c42bc2bfec0f8fa3c90b0bf2df5f7133c0477f4a7005a"
+    },
+    {
+      "recipeId": "cn-060",
+      "recipeName": "银耳莲子羹",
+      "status": "in_progress",
+      "steps": {
+        "research": "done",
+        "ingestion": "done",
+        "edit": "done",
+        "validator": "done",
+        "review": "done",
+        "build": "done",
+        "gitPush": "pending"
+      },
+      "documentId": "5f0c49d0-41a8-4e90-8e2c-a71b48a2e160",
+      "evidencePackageHash": "9947995f6317aea83769360b38bee8c3c2bb36e58e232e35f62f48f9bfc56cc5"
+    },
+    {
+      "recipeId": "west-001",
+      "recipeName": "意大利肉酱面",
+      "status": "in_progress",
+      "steps": {
+        "research": "done",
+        "ingestion": "done",
+        "edit": "done",
+        "validator": "done",
+        "review": "done",
+        "build": "done",
+        "gitPush": "pending"
+      },
+      "documentId": "5b47be81-a205-43f4-9c8e-d8410aefd59a",
+      "evidencePackageHash": "440457d44f92ebad3e9b9980fb05eb8954744c1e235ed4ca4a0502e4e303dee8"
+    },
+    {
+      "recipeId": "west-002",
+      "recipeName": "玛格丽特披萨",
+      "status": "skipped",
+      "reason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "west-003",
+      "recipeName": "香煎牛排",
+      "status": "in_progress",
+      "steps": {
+        "research": "done",
+        "ingestion": "done",
+        "edit": "done",
+        "validator": "done",
+        "review": "done",
+        "build": "done",
+        "gitPush": "pending"
+      },
+      "documentId": "846ed124-1e89-4e3f-9282-3f0dc0df13fa",
+      "evidencePackageHash": "9c75ce75e3ebce51e82027940d30dc2d040ced87e81831862bb316f0953028cf"
+    },
+    {
+      "recipeId": "west-005",
+      "recipeName": "芝士汉堡",
+      "status": "skipped",
+      "reason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "west-007",
+      "recipeName": "炸鱼薯条",
+      "status": "skipped",
+      "reason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "west-008",
+      "recipeName": "西班牙海鲜饭",
+      "status": "skipped",
+      "reason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "west-009",
+      "recipeName": "德式烤香肠",
+      "status": "skipped",
+      "reason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "west-010",
+      "recipeName": "香草烤鸡",
+      "status": "in_progress",
+      "steps": {
+        "research": "done",
+        "ingestion": "done",
+        "edit": "done",
+        "validator": "done",
+        "review": "done",
+        "build": "done",
+        "gitPush": "pending"
+      },
+      "documentId": "d911693b-0400-4b60-a49d-1053077523b9",
+      "evidencePackageHash": "aa939650e457e5eff789cd58bb676bdf6354594ca84869ba58c242359736b0b5"
+    },
+    {
+      "recipeId": "west-013",
+      "recipeName": "奶油宽面",
+      "status": "skipped",
+      "reason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "west-014",
+      "recipeName": "蘑菇烩饭",
+      "status": "skipped",
+      "reason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "west-015",
+      "recipeName": "帕玛森鸡排",
+      "status": "skipped",
+      "reason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "west-016",
+      "recipeName": "惠灵顿牛排",
+      "status": "skipped",
+      "reason": "近名菜谱做法不同，不替代指定菜谱。"
+    },
+    {
+      "recipeId": "west-017",
+      "recipeName": "红酒炖鸡",
+      "status": "skipped",
+      "reason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "west-018",
+      "recipeName": "普罗旺斯炖菜",
+      "status": "skipped",
+      "reason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "west-019",
+      "recipeName": "马赛鱼汤",
+      "status": "skipped",
+      "reason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "west-021",
+      "recipeName": "法式红酒炖牛肉",
+      "status": "skipped",
+      "reason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "west-022",
+      "recipeName": "希腊穆萨卡",
+      "status": "skipped",
+      "reason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "west-023",
+      "recipeName": "希腊沙拉",
+      "status": "skipped",
+      "reason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "west-024",
+      "recipeName": "香煎鸡肉炸排",
+      "status": "skipped",
+      "reason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "west-025",
+      "recipeName": "瑞典肉丸",
+      "status": "skipped",
+      "reason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "west-026",
+      "recipeName": "匈牙利牛肉汤",
+      "status": "skipped",
+      "reason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "west-027",
+      "recipeName": "炸鱼塔可",
+      "status": "skipped",
+      "reason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "west-028",
+      "recipeName": "鸡肉芝士薄饼",
+      "status": "skipped",
+      "reason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "west-029",
+      "recipeName": "班尼迪克蛋",
+      "status": "skipped",
+      "reason": "锁定上游完整目录中无对应菜谱。"
+    },
+    {
+      "recipeId": "west-030",
+      "recipeName": "酪乳煎饼",
+      "status": "skipped",
+      "reason": "锁定上游完整目录中无对应菜谱。"
+    }
+  ],
+  "updatedAt": "2026-10-08T07:50:44.470Z",
+  "publicationCommit": null
+}

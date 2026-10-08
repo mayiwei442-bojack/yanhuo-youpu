@@ -1,0 +1,58 @@
+{
+  "runId": "2026-10-08-howtocook-cn-055",
+  "recipeId": "cn-055",
+  "recipeName": "干锅花菜",
+  "category": "chinese",
+  "status": "in_progress",
+  "startedAt": "2026-10-08T07:12:46.996Z",
+  "completedAt": null,
+  "branch": "howtocook",
+  "branchAuthorization": "user_explicit_2026-10-08",
+  "commit": null,
+  "steps": {
+    "research": {
+      "status": "done",
+      "attempts": 1
+    },
+    "ingestion": {
+      "status": "done",
+      "attempts": 1
+    },
+    "edit": {
+      "status": "done",
+      "attempts": 1
+    },
+    "validator": {
+      "status": "done",
+      "attempts": 1
+    },
+    "review": {
+      "status": "done",
+      "attempts": 1
+    },
+    "build": {
+      "status": "done",
+      "attempts": 1
+    },
+    "gitPush": {
+      "status": "pending",
+      "attempts": 1
+    }
+  },
+  "sources": [
+    {
+      "name": "HowToCook",
+      "url": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/vegetable_dish/%E5%B9%B2%E9%94%85%E8%8A%B1%E8%8F%9C/%E5%B9%B2%E9%94%85%E8%8A%B1%E8%8F%9C.md",
+      "status": "success",
+      "documentId": "1bea4fff-eeb7-4070-b2b7-ea02d945a0d6"
+    }
+  ],
+  "errors": [],
+  "evidencePackageHash": "1ccaf912f782847ecbba1c7ace644760108719136de5ad25a167f65a1cfd944f",
+  "reviewPath": "workflow/howtocook/2026-10-08/cn-055.review.json",
+  "validationPath": "workflow/howtocook/2026-10-08/cn-055.validation.json",
+  "sourceLimitations": [
+    "操作混用大蒜白色、大葱白、大蒜叶，必备表仅列蒜；不擅自统一。",
+    "原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。"
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "recipeId": "cn-052",
+  "recipeName": "梅菜扣肉",
+  "category": "chinese",
+  "createdAt": "2026-10-08T07:14:35.262630+00:00",
+  "sources": [
+    {
+      "sourceName": "HowToCook",
+      "sourceType": "website",
+      "url": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/meat_dish/%E6%A2%85%E8%8F%9C%E6%89%A3%E8%82%89/%E6%A2%85%E8%8F%9C%E6%89%A3%E8%82%89.md",
+      "documentId": "231fe5d0-427d-4d09-bc7b-d80b10b92c7f",
+      "retrievalMethod": "GitHub immutable raw Markdown via configured local HTTP proxy; no access-control bypass",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "五花肉",
+          "raw": "五花肉 200 g",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "梅菜",
+          "raw": "梅菜 30 g",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "五香粉",
+          "raw": "五香粉 2 g",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "食用油",
+          "raw": "食用油 300 ml",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "白砂糖",
+          "raw": "白砂糖 5 g",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "老抽",
+          "raw": "老抽  30 ml",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "生抽",
+          "raw": "生抽  20 ml",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "小米椒",
+          "raw": "小米椒  1 个",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "蒜末",
+          "raw": "蒜末 10 g",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "食用盐",
+          "raw": "食用盐 2 g",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "鸡精",
+          "raw": "鸡精 2 g",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "清水",
+          "raw": "梅菜放到清水中，浸泡 1 小时",
+          "amount": null,
+          "sourceSection": "操作/附加内容"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "梅菜放到清水中，浸泡 1 小时",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 1
+        },
+        {
+          "order": 2,
+          "instruction": "锅中倒入 50 ml 食用油，将整个五花肉猪皮朝下，放到锅中 1 分钟 ，取出挂掉猪皮 【可选】",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 2
+        },
+        {
+          "order": 3,
+          "instruction": "锅中加入开水，放入五花肉，大火煮 20 分钟 （筷子可以插进五花肉），取出五花肉",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 3
+        },
+        {
+          "order": 4,
+          "instruction": "在五花肉表面涂抹均匀老抽、五香粉、白砂糖，放置 15 分钟",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 4
+        },
+        {
+          "order": 5,
+          "instruction": "起锅烧油，加入五花肉，中火油炸直至两面金黄色（3-5 分钟）",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 5
+        },
+        {
+          "order": 6,
+          "instruction": "起锅烧油，倒入梅菜，加上小米椒、蒜蓉、鸡精、食用盐后翻炒，直至炒干梅干菜水分",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 6
+        },
+        {
+          "order": 7,
+          "instruction": "五花肉切片（后端 0.5-1 cm）,放在大碗中，散上梅干菜",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 7
+        },
+        {
+          "order": 8,
+          "instruction": "中火蒸 45 分钟",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 8
+        },
+        {
+          "order": 9,
+          "instruction": "拿个盘子倒盖在五花肉大碗中，将五花肉倒在盘子中\n\n![梅菜扣肉-预览图-1](./1.jpeg)\n![梅菜扣肉-预览图-2](./2.jpeg)\n![梅菜扣肉-预览图-3](./3.jpeg)\n![梅菜扣肉-预览图-4](./4.jpeg)",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 9
+        }
+      ],
+      "technique": [
+        "每份：\n\n* 五花肉 200 g\n* 梅菜 30 g\n* 五香粉 2 g\n* 食用油 300 ml\n* 白砂糖 5 g\n* 老抽  30 ml\n* 生抽  20 ml\n* 小米椒  1 个\n* 蒜末 10 g\n* 食用盐 2 g\n* 鸡精 2 g"
+      ],
+      "tips": [
+        "* 制作过程中发现，脆皮五花肉真香 Orz~\n* 不喜欢吃甜的可以去掉白砂糖，不影响主流程\n* 倒数第二个步骤，可以根据个人喜好调整时间\n* 炒干梅干菜的作用是为了后续吸油（盲猜）\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+      ],
+      "rawExcerpt": "# 梅菜扣肉的做法\n\n这是一道客家传统名菜，成菜酱红油亮、汤汁黏稠，扣肉肥而不腻、软烂醇香。五花肉富含优质蛋白和脂肪酸，搭配梅干菜能提供膳食纤维。整体工序稍多，需要掌握煮、炸、蒸的火候，对新手有一定挑战。从备料到出锅，连同浸泡梅菜的时间在内，大约需要 2.5 小时。\n\n预估烹饪难度：★★★★\n\n预估卡路里：3756 大卡\n\n## 必备原料和工具\n\n* 五花肉\n* 梅菜\n* 五香粉\n* 食用油\n* 白砂糖\n* 老抽\n* 生抽\n* 小米椒\n* 蒜末\n* 食用盐\n* 鸡精\n\n## 计算\n\n每份：\n\n* 五花肉 200 g\n* 梅菜 30 g\n* 五香粉 2 g\n* 食用油 300 ml\n* 白砂糖 5 g\n* 老抽  30 ml\n* 生抽  20 ml\n* 小米椒  1 个\n* 蒜末 10 g\n* 食用盐 2 g\n* 鸡精 2 g\n\n## 操作\n\n1. 梅菜放到清水中，浸泡 1 小时\n2. 锅中倒入 50 ml 食用油，将整个五花肉猪皮朝下，放到锅中 1 分钟 ，取出挂掉猪皮 【可选】\n3. 锅中加入开水，放入五花肉，大火煮 20 分钟 （筷子可以插进五花肉），取出五花肉\n4. 在五花肉表面涂抹均匀老抽、五香粉、白砂糖，放置 15 分钟\n5. 起锅烧油，加入五花肉，中火油炸直至两面金黄色（3-5 分钟）\n6. 起锅烧油，倒入梅菜，加上小米椒、蒜蓉、鸡精、食用盐后翻炒，直至炒干梅干菜水分\n7. 五花肉切片（后端 0.5-1 cm）,放在大碗中，散上梅干菜\n8. 中火蒸 45 分钟\n9. 拿个盘子倒盖在五花肉大碗中，将五花肉倒在盘子中\n\n![梅菜扣肉-预览图-1](./1.jpeg)\n![梅菜扣肉-预览图-2](./2.jpeg)\n![梅菜扣肉-预览图-3](./3.jpeg)\n![梅菜扣肉-预览图-4](./4.jpeg)\n\n## 附加内容\n\n* 制作过程中发现，脆皮五花肉真香 Orz~\n* 不喜欢吃甜的可以去掉白砂糖，不影响主流程\n* 倒数第二个步骤，可以根据个人喜好调整时间\n* 炒干梅干菜的作用是为了后续吸油（盲猜）\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n"
+    }
+  ],
+  "sourceMode": "single_source",
+  "singleSourceReason": "User explicitly directed exclusive HowToCook source and exact upstream transcription.",
+  "selectedSourceUrl": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/meat_dish/%E6%A2%85%E8%8F%9C%E6%89%A3%E8%82%89/%E6%A2%85%E8%8F%9C%E6%89%A3%E8%82%89.md",
+  "selectionReason": "上游菜谱文件名与指定菜名完全一致。",
+  "ragEvidence": [
+    {
+      "chunkId": "c034d45d-a395-42ff-b7b8-cba857e02403",
+      "documentId": "231fe5d0-427d-4d09-bc7b-d80b10b92c7f",
+      "sourceName": "HowToCook",
+      "chunkType": "tips",
+      "content": "菜名：梅菜扣肉\n- * 制作过程中发现，脆皮五花肉真香 Orz~ * 不喜欢吃甜的可以去掉白砂糖，不影响主流程 * 倒数第二个步骤，可以根据个人喜好调整时间 * 炒干梅干菜的作用是为了后续吸油（盲猜） 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。",
+      "similarity": 0.697089775963102
+    },
+    {
+      "chunkId": "77c708a7-1573-45ef-90c5-8839b4596c06",
+      "documentId": "231fe5d0-427d-4d09-bc7b-d80b10b92c7f",
+      "sourceName": "HowToCook",
+      "chunkType": "steps",
+      "content": "菜名：梅菜扣肉\n1. 梅菜放到清水中，浸泡 1 小时\n2. 锅中倒入 50 ml 食用油，将整个五花肉猪皮朝下，放到锅中 1 分钟 ，取出挂掉猪皮 【可选】\n3. 锅中加入开水，放入五花肉，大火煮 20 分钟 （筷子可以插进五花肉），取出五花肉\n4. 在五花肉表面涂抹均匀老抽、五香粉、白砂糖，放置 15 分钟\n5. 起锅烧油，加入五花肉，中火油炸直至两面金黄色（3-5 分钟）\n6. 起锅烧油，倒入梅菜，加上小米椒、蒜蓉、鸡精、食用盐后翻炒，直至炒干梅干菜水分\n7. 五花肉切片（后端 0.5-1 cm）,放在大碗中，散上梅干菜\n8. 中火蒸 45 分钟\n9. 拿个盘子倒盖在五花肉大碗中，将五花肉倒在盘子中 ![梅菜扣肉-预览图-1](./1.jpeg) ![梅菜扣肉-预览图-2](./2.jpeg) ![梅菜扣肉-预览图-3](./3.jpeg) ![梅菜扣肉-预览图-4](./4.jpeg)",
+      "similarity": 0.694417756463157
+    },
+    {
+      "chunkId": "48edbfc4-e42d-4f71-86c3-a8672cd83d36",
+      "documentId": "231fe5d0-427d-4d09-bc7b-d80b10b92c7f",
+      "sourceName": "HowToCook",
+      "chunkType": "technique",
+      "content": "菜名：梅菜扣肉\n- 每份： * 五花肉 200 g * 梅菜 30 g * 五香粉 2 g * 食用油 300 ml * 白砂糖 5 g * 老抽 30 ml * 生抽 20 ml * 小米椒 1 个 * 蒜末 10 g * 食用盐 2 g * 鸡精 2 g",
+      "similarity": 0.687896408093409
+    },
+    {
+      "chunkId": "f07b1adf-0323-47fa-bc6e-2f309373e17e",
+      "documentId": "231fe5d0-427d-4d09-bc7b-d80b10b92c7f",
+      "sourceName": "HowToCook",
+      "chunkType": "ingredients",
+      "content": "菜名：梅菜扣肉\n- 五花肉 200 g\n- 梅菜 30 g\n- 五香粉 2 g\n- 食用油 300 ml\n- 白砂糖 5 g\n- 老抽 30 ml\n- 生抽 20 ml\n- 小米椒 1 个\n- 蒜末 10 g\n- 食用盐 2 g\n- 鸡精 2 g\n- 梅菜放到清水中，浸泡 1 小时",
+      "similarity": 0.68633359670639
+    },
+    {
+      "chunkId": "dc077793-0c99-49d8-aed8-f17a89126a90",
+      "documentId": "231fe5d0-427d-4d09-bc7b-d80b10b92c7f",
+      "sourceName": "HowToCook",
+      "chunkType": "summary",
+      "content": "菜名：梅菜扣肉\n简介：# 梅菜扣肉的做法 这是一道客家传统名菜，成菜酱红油亮、汤汁黏稠，扣肉肥而不腻、软烂醇香。五花肉富含优质蛋白和脂肪酸，搭配梅干菜能提供膳食纤维。整体工序稍多，需要掌握煮、炸、蒸的火候，对新手有一定挑战。从备料到出锅，连同浸泡梅菜的时间在内，大约需要 2.5 小时。 预估烹饪难度：★★★★ 预估卡路里：3756 大卡",
+      "similarity": 0.668568531445445
+    }
+  ],
+  "notes": [
+    "用户明确要求仅用 HowToCook，原文完整转录；complete=true 表示上游文档完整抓取，不表示烹饪参数无遗漏。",
+    "Source limitations: 原文包含挂掉猪皮、后端、散上等用字；保留未经纠错的原文。 原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。",
+    "GitHub commit a2d45c6984dff9ee941da0e7c452f7965965d962; path dishes/meat_dish/梅菜扣肉/梅菜扣肉.md",
+    "媒体按原文位置保留；未要求映射的照片不伪称步骤图。",
+    "Existing exact-name knowledge-base documents checked before source fetching: 0"
+  ]
+}

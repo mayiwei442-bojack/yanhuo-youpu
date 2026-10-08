@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "第四步固定火力清空，保留约1小时后加料再转小火顺序。7步、1人、约210分钟及糖分次用量忠实；干湿量和总时长差异披露，独立四项复审通过。",
+  "evidencePackageHash": "9947995f6317aea83769360b38bee8c3c2bb36e58e232e35f62f48f9bfc56cc5",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

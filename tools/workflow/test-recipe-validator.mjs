@@ -7,6 +7,7 @@ const elevenSteps = Array.from({ length: 11 }, (_, index) => `${index + 1}）操
 assert.equal(splitRecipeSteps(elevenSteps).length, 11);
 assert.equal(splitRecipeSteps(elevenSteps)[9], "10）操作10。");
 assert.equal(splitRecipeSteps(elevenSteps)[10], "11）操作11。");
+assert.deepEqual(splitRecipeSteps("1）加入（面粉 / 20）克盐。2）加入（份数 * 5）g油。"), ["1）加入（面粉 / 20）克盐。", "2）加入（份数 * 5）g油。"]);
 const beforeSnapshot = createRecipeSnapshot(original);
 const validEdit = structuredClone(original);
 validEdit.find((item) => item.id === "cn-001").record.ingredients += "；白胡椒少许";

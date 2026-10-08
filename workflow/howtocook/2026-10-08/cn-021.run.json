@@ -1,0 +1,62 @@
+{
+  "runId": "2026-10-08-howtocook-cn-021",
+  "recipeId": "cn-021",
+  "recipeName": "口水鸡",
+  "category": "chinese",
+  "status": "in_progress",
+  "startedAt": "2026-10-08T07:12:46.996Z",
+  "completedAt": null,
+  "branch": "howtocook",
+  "branchAuthorization": "user_explicit_2026-10-08",
+  "commit": null,
+  "steps": {
+    "research": {
+      "status": "done",
+      "attempts": 1
+    },
+    "ingestion": {
+      "status": "done",
+      "attempts": 1
+    },
+    "edit": {
+      "status": "done",
+      "attempts": 1
+    },
+    "validator": {
+      "status": "done",
+      "attempts": 1
+    },
+    "review": {
+      "status": "done",
+      "attempts": 2,
+      "details": {
+        "correctionsPath": "workflow/howtocook/2026-10-08/review-corrections.json",
+        "finalStatus": "PASS"
+      }
+    },
+    "build": {
+      "status": "done",
+      "attempts": 1
+    },
+    "gitPush": {
+      "status": "pending",
+      "attempts": 1
+    }
+  },
+  "sources": [
+    {
+      "name": "HowToCook",
+      "url": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/meat_dish/%E5%8F%A3%E6%B0%B4%E9%B8%A1/%E5%8F%A3%E6%B0%B4%E9%B8%A1.md",
+      "status": "success",
+      "documentId": "9719b586-9a9e-4793-8a48-9af003999c5b"
+    }
+  ],
+  "errors": [],
+  "evidencePackageHash": "292262aa28c22578e6808209c10618d5b152b8b7fec46a9fb6b4c77e3b71299d",
+  "reviewPath": "workflow/howtocook/2026-10-08/cn-021.review.json",
+  "validationPath": "workflow/howtocook/2026-10-08/cn-021.validation.json",
+  "sourceLimitations": [
+    "操作使用盐、香油但原料/计算未列用量；计算有食用油、花椒粉、香菜但必备表缺列；原必备表重复花椒。",
+    "原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。"
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "recipeId": "cn-047",
+  "recipeName": "葱油拌面",
+  "category": "chinese",
+  "createdAt": "2026-10-08T07:14:35.262630+00:00",
+  "sources": [
+    {
+      "sourceName": "HowToCook",
+      "sourceType": "website",
+      "url": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/staple/%E8%91%B1%E6%B2%B9%E6%8B%8C%E9%9D%A2.md",
+      "documentId": "55fce09c-0d6d-4b98-90ba-68ff7737e0fb",
+      "retrievalMethod": "GitHub immutable raw Markdown via configured local HTTP proxy; no access-control bypass",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "小葱",
+          "raw": "小葱 100 g",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "食用油",
+          "raw": "食用油 100 ml",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "生抽",
+          "raw": "生抽 60 ml",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "老抽",
+          "raw": "老抽 20 ml",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "白糖",
+          "raw": "白糖 15 g",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "干面条",
+          "raw": "干面条 80 g （约相当于 150 g 湿面条）",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "葱油酱汁",
+          "raw": "葱油酱汁可以一次制作多份的量，分次使用。以下提供制作葱油酱汁的基础量，以及每份面条所需的葱油酱汁量。",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "饮用水",
+          "raw": "锅中加入 1000 ml 饮用水，大火烧开。",
+          "amount": null,
+          "sourceSection": "操作/附加内容"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "将 小葱 洗净，切成长段（约 5-7 cm）。葱白和葱绿可以分开。",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 1
+        },
+        {
+          "order": 2,
+          "instruction": "锅中加入 100 ml 食用油，中火烧热。先放入葱白段，煸炒至微黄。",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 2
+        },
+        {
+          "order": 3,
+          "instruction": "加入葱绿段，转小火，继续煸炒。",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 3
+        },
+        {
+          "order": 4,
+          "instruction": "保持小火，耐心煸炒约 **15-20 分钟**，直至葱段变得焦黄酥脆。",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 4
+        },
+        {
+          "order": 5,
+          "instruction": "将焦黄的葱段捞出（葱油保留在锅中）。",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 5
+        },
+        {
+          "order": 6,
+          "instruction": "在锅中的葱油中，加入 60 ml 生抽，20 ml 老抽，15 g 白糖。小火加热并搅拌，约 **1 分钟**，至糖溶解，酱汁混合均匀。立即关火。将制作好的葱油酱汁倒入容器中，放凉后密封保存。\n\n### 煮面条 （按份操作）",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 6
+        },
+        {
+          "order": 7,
+          "instruction": "取 80 g 干面条。",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 1
+        },
+        {
+          "order": 8,
+          "instruction": "锅中加入 1000 ml 饮用水，大火烧开。",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 2
+        },
+        {
+          "order": 9,
+          "instruction": "放入 面条，根据面条包装说明，煮至熟透（通常 **3-8 分钟**，以包装说明为准）。",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 3
+        },
+        {
+          "order": 10,
+          "instruction": "将 煮好的 面条 捞出，沥干水分，放入碗中。\n\n### 混合拌面 （按份操作）",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 4
+        },
+        {
+          "order": 11,
+          "instruction": "在装有 面条 的碗中，加入 15 ml 之前做好的 葱油酱汁。",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 1
+        },
+        {
+          "order": 12,
+          "instruction": "可以加入之前炸好的葱段（可选）。",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 2
+        },
+        {
+          "order": 13,
+          "instruction": "用 筷子 快速搅拌均匀，即可食用。",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 3
+        }
+      ],
+      "technique": [
+        "葱油酱汁可以一次制作多份的量，分次使用。以下提供制作葱油酱汁的基础量，以及每份面条所需的葱油酱汁量。\n\n葱油酱汁基础量 （约够 3-4 份使用）：\n\n- 小葱 100 g\n- 食用油 100 ml\n- 生抽 60 ml\n- 老抽 20 ml\n- 白糖 15 g\n\n每份面条：\n\n- 干面条 80 g （约相当于 150 g 湿面条）\n- 葱油酱汁 15 ml"
+      ],
+      "tips": [
+        "- 炸葱油时，火一定要小，要有耐心，才能将葱的香味充分炸出。\n- 制作好的葱油酱汁可以冷藏保存一段时间，下次吃面时直接取用。\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+      ],
+      "rawExcerpt": "# 葱油拌面的做法\n\n葱油拌面是一道经典的上海家常面点，以独特的葱油香味著称，做法简单快捷。富含碳水化合物和脂肪，能快速补充能量。一般初学者只需 20 分钟即可完成，非常适合作为日常快手晚餐。\n\n预估烹饪难度：★★\n\n预估卡路里：355 大卡\n\n## 必备原料和工具\n\n- 干面条\n- 小葱\n- 生抽\n- 老抽\n- 白糖\n\n## 计算\n\n葱油酱汁可以一次制作多份的量，分次使用。以下提供制作葱油酱汁的基础量，以及每份面条所需的葱油酱汁量。\n\n葱油酱汁基础量 （约够 3-4 份使用）：\n\n- 小葱 100 g\n- 食用油 100 ml\n- 生抽 60 ml\n- 老抽 20 ml\n- 白糖 15 g\n\n每份面条：\n\n- 干面条 80 g （约相当于 150 g 湿面条）\n- 葱油酱汁 15 ml\n\n## 操作\n\n### 制作葱油酱汁\n\n1. 将 小葱 洗净，切成长段（约 5-7 cm）。葱白和葱绿可以分开。\n2. 锅中加入 100 ml 食用油，中火烧热。先放入葱白段，煸炒至微黄。\n3. 加入葱绿段，转小火，继续煸炒。\n4. 保持小火，耐心煸炒约 **15-20 分钟**，直至葱段变得焦黄酥脆。\n5. 将焦黄的葱段捞出（葱油保留在锅中）。\n6. 在锅中的葱油中，加入 60 ml 生抽，20 ml 老抽，15 g 白糖。小火加热并搅拌，约 **1 分钟**，至糖溶解，酱汁混合均匀。立即关火。将制作好的葱油酱汁倒入容器中，放凉后密封保存。\n\n### 煮面条 （按份操作）\n\n1. 取 80 g 干面条。\n2. 锅中加入 1000 ml 饮用水，大火烧开。\n3. 放入 面条，根据面条包装说明，煮至熟透（通常 **3-8 分钟**，以包装说明为准）。\n4. 将 煮好的 面条 捞出，沥干水分，放入碗中。\n\n### 混合拌面 （按份操作）\n\n1. 在装有 面条 的碗中，加入 15 ml 之前做好的 葱油酱汁。\n2. 可以加入之前炸好的葱段（可选）。\n3. 用 筷子 快速搅拌均匀，即可食用。\n\n## 附加内容\n\n- 炸葱油时，火一定要小，要有耐心，才能将葱的香味充分炸出。\n- 制作好的葱油酱汁可以冷藏保存一段时间，下次吃面时直接取用。\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n"
+    }
+  ],
+  "sourceMode": "single_source",
+  "singleSourceReason": "User explicitly directed exclusive HowToCook source and exact upstream transcription.",
+  "selectedSourceUrl": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/staple/%E8%91%B1%E6%B2%B9%E6%8B%8C%E9%9D%A2.md",
+  "selectionReason": "上游菜谱文件名与指定菜名完全一致。",
+  "ragEvidence": [
+    {
+      "chunkId": "8884e446-2c58-4194-8204-89a150eba3a7",
+      "documentId": "55fce09c-0d6d-4b98-90ba-68ff7737e0fb",
+      "sourceName": "HowToCook",
+      "chunkType": "steps",
+      "content": "菜名：葱油拌面\n1. 将 小葱 洗净，切成长段（约 5-7 cm）。葱白和葱绿可以分开。\n2. 锅中加入 100 ml 食用油，中火烧热。先放入葱白段，煸炒至微黄。\n3. 加入葱绿段，转小火，继续煸炒。\n4. 保持小火，耐心煸炒约 **15-20 分钟**，直至葱段变得焦黄酥脆。\n5. 将焦黄的葱段捞出（葱油保留在锅中）。\n6. 在锅中的葱油中，加入 60 ml 生抽，20 ml 老抽，15 g 白糖。小火加热并搅拌，约 **1 分钟**，至糖溶解，酱汁混合均匀。立即关火。将制作好的葱油酱汁倒入容器中，放凉后密封保存。 ### 煮面条 （按份操作）\n7. 取 80 g 干面条。\n8. 锅中加入 1000 ml 饮用水，大火烧开。\n9. 放入 面条，根据面条包装说明，煮至熟透（通常 **3-8 分钟**，以包装说明为准）。\n10. 将 煮好的 面条 捞出，沥干水分，放入碗中。 ### 混合拌面 （按份操作）\n11. 在装有 面条 的碗中，加入 15 ml 之前做好的 葱油酱汁。\n12. 可以加入之前炸好的葱段（可选）。\n13. 用 筷子 快速搅拌均匀，即可食用。",
+      "similarity": 0.72942046698454
+    },
+    {
+      "chunkId": "3c28d7f3-fef6-407b-921f-36f8c0b9fa7b",
+      "documentId": "55fce09c-0d6d-4b98-90ba-68ff7737e0fb",
+      "sourceName": "HowToCook",
+      "chunkType": "tips",
+      "content": "菜名：葱油拌面\n- - 炸葱油时，火一定要小，要有耐心，才能将葱的香味充分炸出。 - 制作好的葱油酱汁可以冷藏保存一段时间，下次吃面时直接取用。 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。",
+      "similarity": 0.727805256843567
+    },
+    {
+      "chunkId": "c9e3231d-9597-4320-9bec-2ce036dc36c1",
+      "documentId": "55fce09c-0d6d-4b98-90ba-68ff7737e0fb",
+      "sourceName": "HowToCook",
+      "chunkType": "ingredients",
+      "content": "菜名：葱油拌面\n- 小葱 100 g\n- 食用油 100 ml\n- 生抽 60 ml\n- 老抽 20 ml\n- 白糖 15 g\n- 干面条 80 g （约相当于 150 g 湿面条）\n- 葱油酱汁可以一次制作多份的量，分次使用。以下提供制作葱油酱汁的基础量，以及每份面条所需的葱油酱汁量。\n- 锅中加入 1000 ml 饮用水，大火烧开。",
+      "similarity": 0.692529958041309
+    },
+    {
+      "chunkId": "8a627cbb-ffa2-4dee-a43d-ad45272befaf",
+      "documentId": "55fce09c-0d6d-4b98-90ba-68ff7737e0fb",
+      "sourceName": "HowToCook",
+      "chunkType": "technique",
+      "content": "菜名：葱油拌面\n- 葱油酱汁可以一次制作多份的量，分次使用。以下提供制作葱油酱汁的基础量，以及每份面条所需的葱油酱汁量。 葱油酱汁基础量 （约够 3-4 份使用）： - 小葱 100 g - 食用油 100 ml - 生抽 60 ml - 老抽 20 ml - 白糖 15 g 每份面条： - 干面条 80 g （约相当于 150 g 湿面条） - 葱油酱汁 15 ml",
+      "similarity": 0.684123834494467
+    },
+    {
+      "chunkId": "c8c73fe1-b638-46d1-ab42-8da080d72b21",
+      "documentId": "55fce09c-0d6d-4b98-90ba-68ff7737e0fb",
+      "sourceName": "HowToCook",
+      "chunkType": "summary",
+      "content": "菜名：葱油拌面\n简介：# 葱油拌面的做法 葱油拌面是一道经典的上海家常面点，以独特的葱油香味著称，做法简单快捷。富含碳水化合物和脂肪，能快速补充能量。一般初学者只需 20 分钟即可完成，非常适合作为日常快手晚餐。 预估烹饪难度：★★ 预估卡路里：355 大卡",
+      "similarity": 0.651323138295695
+    }
+  ],
+  "notes": [
+    "用户明确要求仅用 HowToCook，原文完整转录；complete=true 表示上游文档完整抓取，不表示烹饪参数无遗漏。",
+    "Source limitations: 本上游菜谱无图片，按用户要求不补造图片。 原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。",
+    "GitHub commit a2d45c6984dff9ee941da0e7c452f7965965d962; path dishes/staple/葱油拌面.md",
+    "媒体按原文位置保留；未要求映射的照片不伪称步骤图。",
+    "Existing exact-name knowledge-base documents checked before source fetching: 0"
+  ]
+}

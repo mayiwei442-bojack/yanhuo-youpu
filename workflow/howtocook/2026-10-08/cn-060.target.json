@@ -1,0 +1,279 @@
+{
+  "recipeId": "cn-060",
+  "record": {
+    "name": "银耳莲子羹",
+    "en": "Tremella and Lotus Seed Sweet Soup",
+    "region": "中式甜汤",
+    "ingredients": "银耳60克（原文未注明干湿重量）；去心莲子20克；红枣6克；枸杞5—6克（可选）；冰糖10—20克（分两次各5—10克加入）；水600毫升（熬煮用）；清水适量（浸泡及清洗用，原文未注明用量）",
+    "steps": "1）把银耳、莲子用清水浸泡 2 个小时，红枣浸泡 10 - 20 分钟，枸杞洗净，备用。2）在锅中倒入 600ml 水，烧开后依次放入银耳、莲子、红枣。3）等待水再次烧开后，盖上锅盖，转至中火继续熬。4）熬到大约 1 小时后，放入 5g - 10g 冰糖和 5g - 6g 枸杞，转至小火熬。5）小火继续熬 30 分钟，此时银耳开始呈现粘稠状态。银耳呈现粘稠状态时，用勺子及时搅拌，防止糊在锅底。6）再次放入 5g - 10g 冰糖，用勺子搅拌 5 - 10 分钟。7）关火，用勺子盛出。",
+    "img": "90-yiner-lianzi-geng.png",
+    "source": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/soup/%E9%93%B6%E8%80%B3%E8%8E%B2%E5%AD%90%E7%B2%A5/%E9%93%B6%E8%80%B3%E8%8E%B2%E5%AD%90%E7%B2%A5.md",
+    "timing": {
+      "totalMinutes": 210
+    },
+    "servings": 1,
+    "howtocook": {
+      "commit": "a2d45c6984dff9ee941da0e7c452f7965965d962",
+      "path": "dishes/soup/银耳莲子粥/银耳莲子粥.md",
+      "sha256": "26b2d70247e989e283a21319280f9f2e38bab15b21be2019127717cf6235d404",
+      "rawMarkdown": "# 银耳莲子粥的做法\n\n![银耳莲子粥](./银耳莲子粥.png)\n\n银耳莲子粥清甜润滑，银耳软糯、莲子绵密，是常见的滋补粥品。富含天然胶质、膳食纤维及多种微量元素，有助养心安神。制作需经历浸泡和慢熬，对新手的耐心是个考验，全程大约需要 3.5 小时。\n\n预估烹饪难度：★★★★\n\n预估卡路里：282 大卡\n\n## 必备原料和工具\n\n- 银耳\n- 去心莲子\n- 红枣\n- 枸杞（可选）\n- 冰糖\n\n## 计算\n\n按照 1 人的份量：\n\n- 银耳 60g\n- 去心莲子 20g\n- 红枣 6g\n- 枸杞 5-6g\n- 冰糖 10-20g\n\n## 操作\n\n1. 把银耳、莲子用清水浸泡 2 个小时，红枣浸泡 10 - 20 分钟，枸杞洗净，备用\n2. 在锅中倒入 600ml 水，烧开后依次放入银耳、莲子、红枣\n3. 等待水再次烧开后，盖上锅盖，转至中火继续熬\n4. 熬到大约 1 小时后，放入 5g - 10g 冰糖和 5g - 6g 枸杞，转至小火熬\n5. 小火继续熬 30 分钟，此时银耳开始呈现粘稠状态\n6. 再次放入 5g - 10g 冰糖，用勺子搅拌 5 - 10 分钟\n7. 关火，用勺子盛出\n\n## 附加内容\n\n- 当银耳呈现粘稠状态时，需要用勺子及时搅拌，防止银耳糊在锅底\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+      "sections": [
+        {
+          "title": "银耳莲子粥的做法",
+          "markdown": "\n![银耳莲子粥](./银耳莲子粥.png)\n\n银耳莲子粥清甜润滑，银耳软糯、莲子绵密，是常见的滋补粥品。富含天然胶质、膳食纤维及多种微量元素，有助养心安神。制作需经历浸泡和慢熬，对新手的耐心是个考验，全程大约需要 3.5 小时。\n\n预估烹饪难度：★★★★\n\n预估卡路里：282 大卡\n\n",
+          "level": 1
+        },
+        {
+          "title": "必备原料和工具",
+          "markdown": "\n- 银耳\n- 去心莲子\n- 红枣\n- 枸杞（可选）\n- 冰糖\n\n",
+          "level": 2
+        },
+        {
+          "title": "计算",
+          "markdown": "\n按照 1 人的份量：\n\n- 银耳 60g\n- 去心莲子 20g\n- 红枣 6g\n- 枸杞 5-6g\n- 冰糖 10-20g\n\n",
+          "level": 2
+        },
+        {
+          "title": "操作",
+          "markdown": "\n1. 把银耳、莲子用清水浸泡 2 个小时，红枣浸泡 10 - 20 分钟，枸杞洗净，备用\n2. 在锅中倒入 600ml 水，烧开后依次放入银耳、莲子、红枣\n3. 等待水再次烧开后，盖上锅盖，转至中火继续熬\n4. 熬到大约 1 小时后，放入 5g - 10g 冰糖和 5g - 6g 枸杞，转至小火熬\n5. 小火继续熬 30 分钟，此时银耳开始呈现粘稠状态\n6. 再次放入 5g - 10g 冰糖，用勺子搅拌 5 - 10 分钟\n7. 关火，用勺子盛出\n\n",
+          "level": 2
+        },
+        {
+          "title": "附加内容",
+          "markdown": "\n- 当银耳呈现粘稠状态时，需要用勺子及时搅拌，防止银耳糊在锅底\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+          "level": 2
+        }
+      ],
+      "images": [
+        {
+          "originalReference": "./银耳莲子粥.png",
+          "originalUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/soup/%E9%93%B6%E8%80%B3%E8%8E%B2%E5%AD%90%E7%B2%A5/%E9%93%B6%E8%80%B3%E8%8E%B2%E5%AD%90%E7%B2%A5.png",
+          "path": "assets/dishes/howtocook/cn-060/1.png",
+          "alt": "银耳莲子粥",
+          "pageOrder": 1,
+          "adjacentText": "# 银耳莲子粥的做法\n\n![银耳莲子粥](./银耳莲子粥.png)\n\n银耳莲子粥清甜润滑，银耳软糯、莲子绵密，是常见的滋补粥品。富含天然胶质、膳食纤维及多种微量元素，有助养心安神。制作需经历浸泡和慢熬，对新手的耐心是个考验，全程大约需要 3.5 小时。\n\n预估烹饪难度：★★★★\n\n预估卡路里：282 大卡\n\n## 必备原料和工具\n\n- 银耳\n- 去心莲子\n- 红枣\n- 枸杞（可选）\n- 冰糖\n\n## 计算\n\n按照 1 人的"
+        }
+      ]
+    },
+    "sourceLimitations": [
+      "上游名银耳莲子粥，配方未含米谷，按该银耳莲子甜汤做法对应本记录银耳莲子羹，保留本记录名称及原文标题。",
+      "原文按照1人份量、全程大约3.5小时，保留1人份及总用时210分钟约值。",
+      "冰糖来源明确总量10—20克，分两次各5—10克加入；不沿用旧记录50克冰糖。",
+      "银耳60克原文未注明干重或泡发后重量，不擅加干银耳身份或换算；去心莲子20克原文未注明是否干品。",
+      "枸杞可选，按来源5—6克；浸泡银耳、莲子、红枣及清洗枸杞的水未量化，另有熬煮用水600毫升。",
+      "原分段浸泡、熬煮及搅拌时长可能使实际总时长超过简介约3.5小时，保留各原参数，不自行改算总用时。"
+    ]
+  },
+  "generated": {
+    "id": "cn-060",
+    "name": "银耳莲子羹",
+    "en": "Tremella and Lotus Seed Sweet Soup",
+    "cuisine": "中式甜汤",
+    "category": "中餐",
+    "isHeritageFlavor": false,
+    "heritageStatus": null,
+    "ingredients": [
+      {
+        "id": "ingredient-01",
+        "name": "银耳",
+        "label": "银耳60克（原文未注明干湿重量）",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-02",
+        "name": "去心莲子",
+        "label": "去心莲子20克",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-03",
+        "name": "红枣",
+        "label": "红枣6克",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-04",
+        "name": "枸杞",
+        "label": "枸杞5—6克（可选）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-05",
+        "name": "冰糖",
+        "label": "冰糖10—20克（分两次各5—10克加入）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-06",
+        "name": "水",
+        "label": "水600毫升（熬煮用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-07",
+        "name": "清水",
+        "label": "清水适量（浸泡及清洗用，原文未注明用量）",
+        "isCore": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-01",
+        "instruction": "把银耳、莲子用清水浸泡 2 个小时，红枣浸泡 10 - 20 分钟，枸杞洗净，备用。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-02",
+        "instruction": "在锅中倒入 600ml 水，烧开后依次放入银耳、莲子、红枣。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-03",
+        "instruction": "等待水再次烧开后，盖上锅盖，转至中火继续熬。",
+        "duration": null,
+        "heat": "medium",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-04",
+        "instruction": "熬到大约 1 小时后，放入 5g - 10g 冰糖和 5g - 6g 枸杞，转至小火熬。",
+        "duration": 3600,
+        "heat": null,
+        "timerRequired": true,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-05",
+        "instruction": "小火继续熬 30 分钟，此时银耳开始呈现粘稠状态。银耳呈现粘稠状态时，用勺子及时搅拌，防止糊在锅底。",
+        "duration": 1800,
+        "heat": "low",
+        "timerRequired": true,
+        "ingredientsUsed": [],
+        "gameAction": "stir",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-06",
+        "instruction": "再次放入 5g - 10g 冰糖，用勺子搅拌 5 - 10 分钟。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-07",
+        "instruction": "关火，用勺子盛出。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      }
+    ],
+    "howtocook": {
+      "commit": "a2d45c6984dff9ee941da0e7c452f7965965d962",
+      "path": "dishes/soup/银耳莲子粥/银耳莲子粥.md",
+      "sha256": "26b2d70247e989e283a21319280f9f2e38bab15b21be2019127717cf6235d404",
+      "rawMarkdown": "# 银耳莲子粥的做法\n\n![银耳莲子粥](./银耳莲子粥.png)\n\n银耳莲子粥清甜润滑，银耳软糯、莲子绵密，是常见的滋补粥品。富含天然胶质、膳食纤维及多种微量元素，有助养心安神。制作需经历浸泡和慢熬，对新手的耐心是个考验，全程大约需要 3.5 小时。\n\n预估烹饪难度：★★★★\n\n预估卡路里：282 大卡\n\n## 必备原料和工具\n\n- 银耳\n- 去心莲子\n- 红枣\n- 枸杞（可选）\n- 冰糖\n\n## 计算\n\n按照 1 人的份量：\n\n- 银耳 60g\n- 去心莲子 20g\n- 红枣 6g\n- 枸杞 5-6g\n- 冰糖 10-20g\n\n## 操作\n\n1. 把银耳、莲子用清水浸泡 2 个小时，红枣浸泡 10 - 20 分钟，枸杞洗净，备用\n2. 在锅中倒入 600ml 水，烧开后依次放入银耳、莲子、红枣\n3. 等待水再次烧开后，盖上锅盖，转至中火继续熬\n4. 熬到大约 1 小时后，放入 5g - 10g 冰糖和 5g - 6g 枸杞，转至小火熬\n5. 小火继续熬 30 分钟，此时银耳开始呈现粘稠状态\n6. 再次放入 5g - 10g 冰糖，用勺子搅拌 5 - 10 分钟\n7. 关火，用勺子盛出\n\n## 附加内容\n\n- 当银耳呈现粘稠状态时，需要用勺子及时搅拌，防止银耳糊在锅底\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+      "sections": [
+        {
+          "title": "银耳莲子粥的做法",
+          "markdown": "\n![银耳莲子粥](./银耳莲子粥.png)\n\n银耳莲子粥清甜润滑，银耳软糯、莲子绵密，是常见的滋补粥品。富含天然胶质、膳食纤维及多种微量元素，有助养心安神。制作需经历浸泡和慢熬，对新手的耐心是个考验，全程大约需要 3.5 小时。\n\n预估烹饪难度：★★★★\n\n预估卡路里：282 大卡\n\n",
+          "level": 1
+        },
+        {
+          "title": "必备原料和工具",
+          "markdown": "\n- 银耳\n- 去心莲子\n- 红枣\n- 枸杞（可选）\n- 冰糖\n\n",
+          "level": 2
+        },
+        {
+          "title": "计算",
+          "markdown": "\n按照 1 人的份量：\n\n- 银耳 60g\n- 去心莲子 20g\n- 红枣 6g\n- 枸杞 5-6g\n- 冰糖 10-20g\n\n",
+          "level": 2
+        },
+        {
+          "title": "操作",
+          "markdown": "\n1. 把银耳、莲子用清水浸泡 2 个小时，红枣浸泡 10 - 20 分钟，枸杞洗净，备用\n2. 在锅中倒入 600ml 水，烧开后依次放入银耳、莲子、红枣\n3. 等待水再次烧开后，盖上锅盖，转至中火继续熬\n4. 熬到大约 1 小时后，放入 5g - 10g 冰糖和 5g - 6g 枸杞，转至小火熬\n5. 小火继续熬 30 分钟，此时银耳开始呈现粘稠状态\n6. 再次放入 5g - 10g 冰糖，用勺子搅拌 5 - 10 分钟\n7. 关火，用勺子盛出\n\n",
+          "level": 2
+        },
+        {
+          "title": "附加内容",
+          "markdown": "\n- 当银耳呈现粘稠状态时，需要用勺子及时搅拌，防止银耳糊在锅底\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+          "level": 2
+        }
+      ],
+      "images": [
+        {
+          "originalReference": "./银耳莲子粥.png",
+          "originalUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/soup/%E9%93%B6%E8%80%B3%E8%8E%B2%E5%AD%90%E7%B2%A5/%E9%93%B6%E8%80%B3%E8%8E%B2%E5%AD%90%E7%B2%A5.png",
+          "path": "assets/dishes/howtocook/cn-060/1.png",
+          "alt": "银耳莲子粥",
+          "pageOrder": 1,
+          "adjacentText": "# 银耳莲子粥的做法\n\n![银耳莲子粥](./银耳莲子粥.png)\n\n银耳莲子粥清甜润滑，银耳软糯、莲子绵密，是常见的滋补粥品。富含天然胶质、膳食纤维及多种微量元素，有助养心安神。制作需经历浸泡和慢熬，对新手的耐心是个考验，全程大约需要 3.5 小时。\n\n预估烹饪难度：★★★★\n\n预估卡路里：282 大卡\n\n## 必备原料和工具\n\n- 银耳\n- 去心莲子\n- 红枣\n- 枸杞（可选）\n- 冰糖\n\n## 计算\n\n按照 1 人的"
+        }
+      ],
+      "difficultyStars": "★★★★"
+    },
+    "sourceLimitations": [
+      "上游名银耳莲子粥，配方未含米谷，按该银耳莲子甜汤做法对应本记录银耳莲子羹，保留本记录名称及原文标题。",
+      "原文按照1人份量、全程大约3.5小时，保留1人份及总用时210分钟约值。",
+      "冰糖来源明确总量10—20克，分两次各5—10克加入；不沿用旧记录50克冰糖。",
+      "银耳60克原文未注明干重或泡发后重量，不擅加干银耳身份或换算；去心莲子20克原文未注明是否干品。",
+      "枸杞可选，按来源5—6克；浸泡银耳、莲子、红枣及清洗枸杞的水未量化，另有熬煮用水600毫升。",
+      "原分段浸泡、熬煮及搅拌时长可能使实际总时长超过简介约3.5小时，保留各原参数，不自行改算总用时。"
+    ],
+    "imageThumb": "assets/dishes/thumbnails/90-yiner-lianzi-geng.jpg",
+    "imageFull": "assets/dishes/ai/90-yiner-lianzi-geng.png",
+    "source": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/soup/%E9%93%B6%E8%80%B3%E8%8E%B2%E5%AD%90%E7%B2%A5/%E9%93%B6%E8%80%B3%E8%8E%B2%E5%AD%90%E7%B2%A5.md",
+    "time": 210,
+    "timeBasis": "source",
+    "difficulty": "进阶",
+    "defaultServings": 1,
+    "servingsBasis": "source",
+    "allergens": [],
+    "flags": {
+      "containsPork": false,
+      "containsBeef": false,
+      "containsAlcohol": false,
+      "spicy": false,
+      "vegetarian": true
+    },
+    "demoEnriched": true
+  },
+  "renderedIngredientRows": [
+    "银耳60克（原文未注明干湿重量）",
+    "去心莲子20克",
+    "红枣6克",
+    "枸杞5—6克（可选）",
+    "冰糖10—20克（分两次各5—10克加入）",
+    "水600毫升（熬煮用）",
+    "清水适量（浸泡及清洗用，原文未注明用量）"
+  ],
+  "renderedSteps": [
+    "把银耳、莲子用清水浸泡 2 个小时，红枣浸泡 10 - 20 分钟，枸杞洗净，备用。",
+    "在锅中倒入 600ml 水，烧开后依次放入银耳、莲子、红枣。",
+    "等待水再次烧开后，盖上锅盖，转至中火继续熬。",
+    "熬到大约 1 小时后，放入 5g - 10g 冰糖和 5g - 6g 枸杞，转至小火熬。",
+    "小火继续熬 30 分钟，此时银耳开始呈现粘稠状态。银耳呈现粘稠状态时，用勺子及时搅拌，防止糊在锅底。",
+    "再次放入 5g - 10g 冰糖，用勺子搅拌 5 - 10 分钟。",
+    "关火，用勺子盛出。"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "commands": [
+    "npm run test:workflow:deterministic",
+    "node tools/test_howtocook.mjs"
+  ],
+  "isolatedStagedSnapshot": true,
+  "aiTestsRun": false,
+  "completedAt": "2026-10-08T07:50:44.395Z",
+  "logs": [
+    "snapshot-deterministic.txt",
+    "snapshot-howtocook.txt"
+  ]
+}

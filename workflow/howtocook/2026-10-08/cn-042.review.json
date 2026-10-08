@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "补齐wheat过敏原，6步和原用量无改，未知总时长/人数保留。独立四项语言复审通过。",
+  "evidencePackageHash": "641dcb52c20110ca8957a12676b8380c0464733db81b3016d74d3877088a581d",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

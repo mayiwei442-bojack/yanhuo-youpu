@@ -1,0 +1,60 @@
+{
+  "runId": "2026-10-08-howtocook-cn-030",
+  "recipeId": "cn-030",
+  "recipeName": "蚂蚁上树",
+  "category": "chinese",
+  "status": "in_progress",
+  "startedAt": "2026-10-08T07:12:46.996Z",
+  "completedAt": null,
+  "branch": "howtocook",
+  "branchAuthorization": "user_explicit_2026-10-08",
+  "commit": null,
+  "steps": {
+    "research": {
+      "status": "done",
+      "attempts": 1
+    },
+    "ingestion": {
+      "status": "done",
+      "attempts": 1
+    },
+    "edit": {
+      "status": "done",
+      "attempts": 1
+    },
+    "validator": {
+      "status": "done",
+      "attempts": 1
+    },
+    "review": {
+      "status": "done",
+      "attempts": 1
+    },
+    "build": {
+      "status": "done",
+      "attempts": 1
+    },
+    "gitPush": {
+      "status": "pending",
+      "attempts": 1
+    }
+  },
+  "sources": [
+    {
+      "name": "HowToCook",
+      "url": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/meat_dish/%E8%9A%82%E8%9A%81%E4%B8%8A%E6%A0%91.md",
+      "status": "success",
+      "documentId": "5b5ce493-18f1-45da-a20e-ee36d7a89025"
+    }
+  ],
+  "errors": [],
+  "evidencePackageHash": "bc2d34f810f116e6bdee42055ea1b6548f2d6787b7c66b06e1670445fbd8593c",
+  "reviewPath": "workflow/howtocook/2026-10-08/cn-030.review.json",
+  "validationPath": "workflow/howtocook/2026-10-08/cn-030.validation.json",
+  "sourceLimitations": [
+    "小葱为可选未定量；附加内容提及可选白胡椒粉0.5g。",
+    "引言全程约20分钟，但操作单列泡粉20分钟及后续煮5分钟；保留原文不校正总时长。",
+    "本上游菜谱无图片，按用户要求不补造图片。",
+    "原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。"
+  ]
+}

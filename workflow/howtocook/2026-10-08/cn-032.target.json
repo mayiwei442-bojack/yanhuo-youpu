@@ -1,0 +1,305 @@
+{
+  "recipeId": "cn-032",
+  "record": {
+    "name": "虎皮青椒",
+    "en": "Blistered Green Peppers",
+    "region": "川菜",
+    "ingredients": "青椒5个（长度10—15厘米最合适）；大蒜2—3瓣；食用油20毫升；白糖15克；生抽15毫升；香醋15毫升；盐4克；自来水适量（冲洗用，原文未注明用量）",
+    "steps": "1）去掉青椒蒂，用自来水冲洗干净。2）青椒切长片，平均一个青椒纵向切成 3-4 片即可。3）大蒜去皮，切成碎末，体积在 2mm x 2mm x 2mm 即可。4）调料 1：拿一个小碗倒入 20ml 油，将大蒜末放入其中。5）调料 2：白糖、生抽、醋、盐全部倒入砵（碗）等容器，搅拌。6）将 调料 1 倒入锅中，开火加热 5 成放入青椒，青椒片不要叠在一起，单独成片放置锅中。7）用锅铲不停的按压青椒，合适的时候翻面。8）翻炒约 2 分钟，待青椒表皮出现褶皱时，倒入 调料 2。9）加大火候继续翻炒 30秒 后即可出锅盛入盘中。",
+    "img": "42-hupi-qingjiao.png",
+    "source": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/vegetable_dish/%E8%99%8E%E7%9A%AE%E9%9D%92%E6%A4%92/%E8%99%8E%E7%9A%AE%E9%9D%92%E6%A4%92.md",
+    "timing": {
+      "totalMinutes": 15
+    },
+    "howtocook": {
+      "commit": "a2d45c6984dff9ee941da0e7c452f7965965d962",
+      "path": "dishes/vegetable_dish/虎皮青椒/虎皮青椒.md",
+      "sha256": "b49f516f967eb74688024ba32c332ee3893ad85ab0706de61ed87d6cd33e71da",
+      "rawMarkdown": "\n# 虎皮青椒的做法\n\n虎皮青椒是一道家常小菜，外皮微焦起皱，口感软嫩带脆，咸鲜中透着酸甜，十分开胃下饭。青椒富含维生素 C 和膳食纤维，有助于增强免疫力、促进消化。制作过程简单明了，只需掌握按压和火候，对新手也比较友好，一般约 15 分钟就能完成。\n\n预估烹饪难度：★★★\n\n预估卡路里：341 大卡\n\n## 必备原料和工具\n\n- 青椒\n- 大蒜\n- 白糖（灵魂）\n- 醋\n- 生抽\n- 盐\n- 砵或者有一定深度的碗\n\n## 计算\n\n每份：\n\n- 青椒 5 个，长度在 10-15cm 的最为合适\n- 大蒜 2-3 瓣\n- 油 20ml\n- 白糖 15g\n- 生抽 15ml\n- 香醋 15ml\n- 盐 4g\n\n## 操作\n\n1. 去掉青椒蒂，用自来水冲洗干净。\n2. 青椒切长片，平均一个青椒纵向切成 3-4 片即可。\n3. 大蒜去皮，切成碎末，体积在 2mm x 2mm x 2mm 即可。\n4. `调料 1`：拿一个小碗倒入 20ml 油，将大蒜末放入其中。\n5. `调料 2`：白糖、生抽、醋、盐全部倒入砵（碗）等容器，搅拌。\n6. 将 `调料 1` 倒入锅中，开火加热 5 成放入青椒，青椒片不要叠在一起，单独成片放置锅中。\n7. 用锅铲不停的按压青椒，合适的时候翻面。\n8. 翻炒约 2 分钟，待青椒表皮出现褶皱时，倒入 `调料 2`。\n9. 加大火候继续翻炒 30s 后即可出锅盛入盘中。\n\n## 附加内容\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n\n![虎皮青椒](./虎皮青椒.jpg)\n",
+      "sections": [
+        {
+          "title": "虎皮青椒的做法",
+          "markdown": "\n虎皮青椒是一道家常小菜，外皮微焦起皱，口感软嫩带脆，咸鲜中透着酸甜，十分开胃下饭。青椒富含维生素 C 和膳食纤维，有助于增强免疫力、促进消化。制作过程简单明了，只需掌握按压和火候，对新手也比较友好，一般约 15 分钟就能完成。\n\n预估烹饪难度：★★★\n\n预估卡路里：341 大卡\n\n",
+          "level": 1
+        },
+        {
+          "title": "必备原料和工具",
+          "markdown": "\n- 青椒\n- 大蒜\n- 白糖（灵魂）\n- 醋\n- 生抽\n- 盐\n- 砵或者有一定深度的碗\n\n",
+          "level": 2
+        },
+        {
+          "title": "计算",
+          "markdown": "\n每份：\n\n- 青椒 5 个，长度在 10-15cm 的最为合适\n- 大蒜 2-3 瓣\n- 油 20ml\n- 白糖 15g\n- 生抽 15ml\n- 香醋 15ml\n- 盐 4g\n\n",
+          "level": 2
+        },
+        {
+          "title": "操作",
+          "markdown": "\n1. 去掉青椒蒂，用自来水冲洗干净。\n2. 青椒切长片，平均一个青椒纵向切成 3-4 片即可。\n3. 大蒜去皮，切成碎末，体积在 2mm x 2mm x 2mm 即可。\n4. `调料 1`：拿一个小碗倒入 20ml 油，将大蒜末放入其中。\n5. `调料 2`：白糖、生抽、醋、盐全部倒入砵（碗）等容器，搅拌。\n6. 将 `调料 1` 倒入锅中，开火加热 5 成放入青椒，青椒片不要叠在一起，单独成片放置锅中。\n7. 用锅铲不停的按压青椒，合适的时候翻面。\n8. 翻炒约 2 分钟，待青椒表皮出现褶皱时，倒入 `调料 2`。\n9. 加大火候继续翻炒 30s 后即可出锅盛入盘中。\n\n",
+          "level": 2
+        },
+        {
+          "title": "附加内容",
+          "markdown": "\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n\n![虎皮青椒](./虎皮青椒.jpg)\n",
+          "level": 2
+        }
+      ],
+      "images": [
+        {
+          "originalReference": "./虎皮青椒.jpg",
+          "originalUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/vegetable_dish/%E8%99%8E%E7%9A%AE%E9%9D%92%E6%A4%92/%E8%99%8E%E7%9A%AE%E9%9D%92%E6%A4%92.jpg",
+          "path": "assets/dishes/howtocook/cn-032/1.jpg",
+          "alt": "虎皮青椒",
+          "pageOrder": 1,
+          "adjacentText": "热 5 成放入青椒，青椒片不要叠在一起，单独成片放置锅中。\n7. 用锅铲不停的按压青椒，合适的时候翻面。\n8. 翻炒约 2 分钟，待青椒表皮出现褶皱时，倒入 `调料 2`。\n9. 加大火候继续翻炒 30s 后即可出锅盛入盘中。\n\n## 附加内容\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n\n![虎皮青椒](./虎皮青椒.jpg)\n"
+        }
+      ]
+    },
+    "sourceLimitations": [
+      "原文一般约15分钟完成，总用时15分钟为约值；每份未注明供几人食用，不推测人数。",
+      "原文油未限定种类，规范食材写为食用油；自来水用于冲洗，未注明用量。",
+      "原文开火加热5成未给出温度数值，合适的时候翻面未给出明确判定或时长，不补造参数。",
+      "完整保留调料1为油与蒜末、调料2为白糖、生抽、醋、盐的定义及使用顺序。"
+    ]
+  },
+  "generated": {
+    "id": "cn-032",
+    "name": "虎皮青椒",
+    "en": "Blistered Green Peppers",
+    "cuisine": "川菜",
+    "category": "中餐",
+    "isHeritageFlavor": false,
+    "heritageStatus": null,
+    "ingredients": [
+      {
+        "id": "ingredient-01",
+        "name": "青椒",
+        "label": "青椒5个（长度10—15厘米最合适）",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-02",
+        "name": "大蒜",
+        "label": "大蒜2—3瓣",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-03",
+        "name": "食用油",
+        "label": "食用油20毫升",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-04",
+        "name": "白糖",
+        "label": "白糖15克",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-05",
+        "name": "生抽",
+        "label": "生抽15毫升",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-06",
+        "name": "香醋",
+        "label": "香醋15毫升",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-07",
+        "name": "盐",
+        "label": "盐4克",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-08",
+        "name": "自来水",
+        "label": "自来水适量（冲洗用，原文未注明用量）",
+        "isCore": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-01",
+        "instruction": "去掉青椒蒂，用自来水冲洗干净。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-02",
+        "instruction": "青椒切长片，平均一个青椒纵向切成 3-4 片即可。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-03",
+        "instruction": "大蒜去皮，切成碎末，体积在 2mm x 2mm x 2mm 即可。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-04",
+        "instruction": "调料 1：拿一个小碗倒入 20ml 油，将大蒜末放入其中。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-05",
+        "instruction": "调料 2：白糖、生抽、醋、盐全部倒入砵（碗）等容器，搅拌。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-06",
+        "instruction": "将 调料 1 倒入锅中，开火加热 5 成放入青椒，青椒片不要叠在一起，单独成片放置锅中。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-07",
+        "instruction": "用锅铲不停的按压青椒，合适的时候翻面。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-08",
+        "instruction": "翻炒约 2 分钟，待青椒表皮出现褶皱时，倒入 调料 2。",
+        "duration": 120,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-09",
+        "instruction": "加大火候继续翻炒 30秒 后即可出锅盛入盘中。",
+        "duration": 30,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "stir",
+        "safetyNote": ""
+      }
+    ],
+    "howtocook": {
+      "commit": "a2d45c6984dff9ee941da0e7c452f7965965d962",
+      "path": "dishes/vegetable_dish/虎皮青椒/虎皮青椒.md",
+      "sha256": "b49f516f967eb74688024ba32c332ee3893ad85ab0706de61ed87d6cd33e71da",
+      "rawMarkdown": "\n# 虎皮青椒的做法\n\n虎皮青椒是一道家常小菜，外皮微焦起皱，口感软嫩带脆，咸鲜中透着酸甜，十分开胃下饭。青椒富含维生素 C 和膳食纤维，有助于增强免疫力、促进消化。制作过程简单明了，只需掌握按压和火候，对新手也比较友好，一般约 15 分钟就能完成。\n\n预估烹饪难度：★★★\n\n预估卡路里：341 大卡\n\n## 必备原料和工具\n\n- 青椒\n- 大蒜\n- 白糖（灵魂）\n- 醋\n- 生抽\n- 盐\n- 砵或者有一定深度的碗\n\n## 计算\n\n每份：\n\n- 青椒 5 个，长度在 10-15cm 的最为合适\n- 大蒜 2-3 瓣\n- 油 20ml\n- 白糖 15g\n- 生抽 15ml\n- 香醋 15ml\n- 盐 4g\n\n## 操作\n\n1. 去掉青椒蒂，用自来水冲洗干净。\n2. 青椒切长片，平均一个青椒纵向切成 3-4 片即可。\n3. 大蒜去皮，切成碎末，体积在 2mm x 2mm x 2mm 即可。\n4. `调料 1`：拿一个小碗倒入 20ml 油，将大蒜末放入其中。\n5. `调料 2`：白糖、生抽、醋、盐全部倒入砵（碗）等容器，搅拌。\n6. 将 `调料 1` 倒入锅中，开火加热 5 成放入青椒，青椒片不要叠在一起，单独成片放置锅中。\n7. 用锅铲不停的按压青椒，合适的时候翻面。\n8. 翻炒约 2 分钟，待青椒表皮出现褶皱时，倒入 `调料 2`。\n9. 加大火候继续翻炒 30s 后即可出锅盛入盘中。\n\n## 附加内容\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n\n![虎皮青椒](./虎皮青椒.jpg)\n",
+      "sections": [
+        {
+          "title": "虎皮青椒的做法",
+          "markdown": "\n虎皮青椒是一道家常小菜，外皮微焦起皱，口感软嫩带脆，咸鲜中透着酸甜，十分开胃下饭。青椒富含维生素 C 和膳食纤维，有助于增强免疫力、促进消化。制作过程简单明了，只需掌握按压和火候，对新手也比较友好，一般约 15 分钟就能完成。\n\n预估烹饪难度：★★★\n\n预估卡路里：341 大卡\n\n",
+          "level": 1
+        },
+        {
+          "title": "必备原料和工具",
+          "markdown": "\n- 青椒\n- 大蒜\n- 白糖（灵魂）\n- 醋\n- 生抽\n- 盐\n- 砵或者有一定深度的碗\n\n",
+          "level": 2
+        },
+        {
+          "title": "计算",
+          "markdown": "\n每份：\n\n- 青椒 5 个，长度在 10-15cm 的最为合适\n- 大蒜 2-3 瓣\n- 油 20ml\n- 白糖 15g\n- 生抽 15ml\n- 香醋 15ml\n- 盐 4g\n\n",
+          "level": 2
+        },
+        {
+          "title": "操作",
+          "markdown": "\n1. 去掉青椒蒂，用自来水冲洗干净。\n2. 青椒切长片，平均一个青椒纵向切成 3-4 片即可。\n3. 大蒜去皮，切成碎末，体积在 2mm x 2mm x 2mm 即可。\n4. `调料 1`：拿一个小碗倒入 20ml 油，将大蒜末放入其中。\n5. `调料 2`：白糖、生抽、醋、盐全部倒入砵（碗）等容器，搅拌。\n6. 将 `调料 1` 倒入锅中，开火加热 5 成放入青椒，青椒片不要叠在一起，单独成片放置锅中。\n7. 用锅铲不停的按压青椒，合适的时候翻面。\n8. 翻炒约 2 分钟，待青椒表皮出现褶皱时，倒入 `调料 2`。\n9. 加大火候继续翻炒 30s 后即可出锅盛入盘中。\n\n",
+          "level": 2
+        },
+        {
+          "title": "附加内容",
+          "markdown": "\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n\n![虎皮青椒](./虎皮青椒.jpg)\n",
+          "level": 2
+        }
+      ],
+      "images": [
+        {
+          "originalReference": "./虎皮青椒.jpg",
+          "originalUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/vegetable_dish/%E8%99%8E%E7%9A%AE%E9%9D%92%E6%A4%92/%E8%99%8E%E7%9A%AE%E9%9D%92%E6%A4%92.jpg",
+          "path": "assets/dishes/howtocook/cn-032/1.jpg",
+          "alt": "虎皮青椒",
+          "pageOrder": 1,
+          "adjacentText": "热 5 成放入青椒，青椒片不要叠在一起，单独成片放置锅中。\n7. 用锅铲不停的按压青椒，合适的时候翻面。\n8. 翻炒约 2 分钟，待青椒表皮出现褶皱时，倒入 `调料 2`。\n9. 加大火候继续翻炒 30s 后即可出锅盛入盘中。\n\n## 附加内容\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n\n![虎皮青椒](./虎皮青椒.jpg)\n"
+        }
+      ],
+      "difficultyStars": "★★★"
+    },
+    "sourceLimitations": [
+      "原文一般约15分钟完成，总用时15分钟为约值；每份未注明供几人食用，不推测人数。",
+      "原文油未限定种类，规范食材写为食用油；自来水用于冲洗，未注明用量。",
+      "原文开火加热5成未给出温度数值，合适的时候翻面未给出明确判定或时长，不补造参数。",
+      "完整保留调料1为油与蒜末、调料2为白糖、生抽、醋、盐的定义及使用顺序。"
+    ],
+    "imageThumb": "assets/dishes/thumbnails/42-hupi-qingjiao.jpg",
+    "imageFull": "assets/dishes/ai/42-hupi-qingjiao.png",
+    "source": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/vegetable_dish/%E8%99%8E%E7%9A%AE%E9%9D%92%E6%A4%92/%E8%99%8E%E7%9A%AE%E9%9D%92%E6%A4%92.md",
+    "time": 15,
+    "timeBasis": "source",
+    "difficulty": "适中",
+    "defaultServings": null,
+    "servingsBasis": "unspecified",
+    "allergens": [
+      "soy"
+    ],
+    "flags": {
+      "containsPork": false,
+      "containsBeef": false,
+      "containsAlcohol": false,
+      "spicy": false,
+      "vegetarian": true
+    },
+    "demoEnriched": true
+  },
+  "renderedIngredientRows": [
+    "青椒5个（长度10—15厘米最合适）",
+    "大蒜2—3瓣",
+    "食用油20毫升",
+    "白糖15克",
+    "生抽15毫升",
+    "香醋15毫升",
+    "盐4克",
+    "自来水适量（冲洗用，原文未注明用量）"
+  ],
+  "renderedSteps": [
+    "去掉青椒蒂，用自来水冲洗干净。",
+    "青椒切长片，平均一个青椒纵向切成 3-4 片即可。",
+    "大蒜去皮，切成碎末，体积在 2mm x 2mm x 2mm 即可。",
+    "调料 1：拿一个小碗倒入 20ml 油，将大蒜末放入其中。",
+    "调料 2：白糖、生抽、醋、盐全部倒入砵（碗）等容器，搅拌。",
+    "将 调料 1 倒入锅中，开火加热 5 成放入青椒，青椒片不要叠在一起，单独成片放置锅中。",
+    "用锅铲不停的按压青椒，合适的时候翻面。",
+    "翻炒约 2 分钟，待青椒表皮出现褶皱时，倒入 调料 2。",
+    "加大火候继续翻炒 30秒 后即可出锅盛入盘中。"
+  ]
+}

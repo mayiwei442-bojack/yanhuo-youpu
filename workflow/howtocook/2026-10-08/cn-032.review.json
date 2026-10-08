@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "Relative heat preserved without fixed heat; quantities, sequence, source time and independent language review passed.",
+  "evidencePackageHash": "ffe3c8308efc25dc34517ed01769602747077e6521125ec2efc64c7422a7941b",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

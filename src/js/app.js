@@ -678,6 +678,7 @@
             <span class="match-ring">${Math.round(match.coverage * 100)}%</span>
           </div>
 
+          ${recipe.howtocook ? window.renderHowToCook(recipe.howtocook) : ""}
           ${recipe.sourceLimitations?.length ? `<section class="safety-card recipe-source-notes"><h3>菜谱说明</h3><ul>${recipe.sourceLimitations.map((note) => `<li>${esc(note)}</li>`).join("")}</ul></section>` : ""}
           <div class="section-head">
             <h2>准备食材</h2>

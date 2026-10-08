@@ -1,0 +1,18 @@
+{
+  "status": "FAIL",
+  "issues": [
+    {
+      "field": "generated.steps[8].heat",
+      "message": "Relative instruction 加大火候 was incorrectly fixed as high heat"
+    }
+  ],
+  "summary": "Evidence, cooking route, quantities and adversarial language checks passed; generated relative heat needs correction.",
+  "evidencePackageHash": "ffe3c8308efc25dc34517ed01769602747077e6521125ec2efc64c7422a7941b",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

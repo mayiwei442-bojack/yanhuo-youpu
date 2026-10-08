@@ -1,0 +1,62 @@
+{
+  "runId": "2026-10-08-howtocook-cn-045",
+  "recipeId": "cn-045",
+  "recipeName": "韭菜猪肉饺子",
+  "category": "chinese",
+  "status": "in_progress",
+  "startedAt": "2026-10-08T07:12:46.996Z",
+  "completedAt": null,
+  "branch": "howtocook",
+  "branchAuthorization": "user_explicit_2026-10-08",
+  "commit": null,
+  "steps": {
+    "research": {
+      "status": "done",
+      "attempts": 1
+    },
+    "ingestion": {
+      "status": "done",
+      "attempts": 1
+    },
+    "edit": {
+      "status": "done",
+      "attempts": 1
+    },
+    "validator": {
+      "status": "done",
+      "attempts": 1
+    },
+    "review": {
+      "status": "done",
+      "attempts": 2,
+      "details": {
+        "correctionsPath": "workflow/howtocook/2026-10-08/review-corrections.json",
+        "finalStatus": "PASS"
+      }
+    },
+    "build": {
+      "status": "done",
+      "attempts": 1
+    },
+    "gitPush": {
+      "status": "pending",
+      "attempts": 1
+    }
+  },
+  "sources": [
+    {
+      "name": "HowToCook",
+      "url": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/staple/%E6%89%8B%E5%B7%A5%E6%B0%B4%E9%A5%BA.md",
+      "status": "success",
+      "documentId": "6a326ea0-56f9-4fc5-af0d-401a8e6266d8"
+    }
+  ],
+  "errors": [],
+  "evidencePackageHash": "567523b91c614f21aff3e9dc8bb6ceff36e6001ac4829601d48a6653db870540",
+  "reviewPath": "workflow/howtocook/2026-10-08/cn-045.review.json",
+  "validationPath": "workflow/howtocook/2026-10-08/cn-045.validation.json",
+  "sourceLimitations": [
+    "本上游菜谱无图片，按用户要求不补造图片。",
+    "原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。"
+  ]
+}

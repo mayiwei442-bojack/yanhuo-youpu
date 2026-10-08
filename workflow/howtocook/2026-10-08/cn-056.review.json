@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "补齐蚝油shellfish风险标签，原文、10步、原图位置、人数范围和20分钟约值保持；缺项披露与独立四项语言复审通过。",
+  "evidencePackageHash": "8f09f62533f4a29185f27d47377edcf29051f430d361806fcff7b300a3d57546",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

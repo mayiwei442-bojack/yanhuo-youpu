@@ -1,0 +1,306 @@
+{
+  "recipeId": "cn-042",
+  "record": {
+    "name": "热干面",
+    "en": "Wuhan Hot Dry Noodles",
+    "region": "湖北",
+    "ingredients": "热干面特有的碱水面250克；小葱10克；酸豆角20克；肉末30克（原文未注明熟制状态及预烹制方法）；蒜水30毫升；肉汤汁30毫升；萝卜干50克；芝麻酱40毫升；辣椒油0—10毫升（按口味可选）；胡椒粉0—10克；酱油5毫升；食盐3克；鸡精0—3克；水90毫升（稀释芝麻酱用）；水适量（煮面用，原文未注明用量）",
+    "steps": "1）水煮沸，并加入碱水面，焯烫 25 秒钟捞起。2）撒上食盐、鸡精和胡椒粉。3）芝麻酱用 90ml 水稀释，搅匀，然后加入。4）加入 5ml 酱油，加入 30ml 肉汤汁和蒜水。5）加入萝卜干，肉末，酸豆角，葱花。6）拌均匀后开吃。",
+    "img": "52-regan-mian.png",
+    "source": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/staple/%E7%83%AD%E5%B9%B2%E9%9D%A2.md",
+    "howtocook": {
+      "commit": "a2d45c6984dff9ee941da0e7c452f7965965d962",
+      "path": "dishes/staple/热干面.md",
+      "sha256": "de82449d41b2bab191c727d0415590f39558918b79a8eaa4a0ddcbaff44c403e",
+      "rawMarkdown": "# 热干面的做法\n\n热干面是武汉最具代表性的小吃之一，属于鄂菜系。碱水面条筋道爽滑，裹满浓稠的芝麻酱，搭配酸豆角、萝卜干和肉末，咸香微辣，滋味醇厚。主要提供碳水化合物和蛋白质，芝麻酱也富含钙质。制作简单快捷，新手也能轻松上手，从煮面到拌好大约只需十几分钟。\n\n预估烹饪难度：★★★\n\n预估卡路里：1341 大卡\n\n## 必备原料和工具\n\n* 热干面特有的碱水面\n* 小葱\n* 酸豆角\n* 肉末\n* 蒜水\n* 肉汤汁\n* 萝卜干\n* 芝麻酱\n* 辣椒油\n* 胡椒粉\n* 酱油\n* 食盐\n* 鸡精\n\n## 计算\n\n每份：\n\n* 热干面特有的碱水面 (250g)\n* 小葱 (10g)\n* 酸豆角 (20g)\n* 肉末 (30g)\n* 蒜水 (30ml)\n* 肉汤汁 (30ml)\n* 萝卜干 (50g)\n* 芝麻酱 (40ml)\n* 辣椒油 (0-10ml)\n* 胡椒粉(0-10g)\n* 酱油(5ml)\n* 食盐(3g)\n* 鸡精(0-3g)\n\n## 操作\n\n1. 水煮沸，并加入碱水面，焯烫 25 秒钟捞起\n2. 撒上食盐、鸡精和胡椒粉\n3. 芝麻酱用 90ml 水稀释，搅匀，然后加入\n4. 加入 5ml 酱油，加入 30ml 肉汤汁和蒜水\n5. 加入萝卜干，肉末，酸豆角，葱花\n6. 拌均匀后开吃\n\n## 附加内容\n\n* 辣椒油看个人口味添加\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+      "sections": [
+        {
+          "title": "热干面的做法",
+          "markdown": "\n热干面是武汉最具代表性的小吃之一，属于鄂菜系。碱水面条筋道爽滑，裹满浓稠的芝麻酱，搭配酸豆角、萝卜干和肉末，咸香微辣，滋味醇厚。主要提供碳水化合物和蛋白质，芝麻酱也富含钙质。制作简单快捷，新手也能轻松上手，从煮面到拌好大约只需十几分钟。\n\n预估烹饪难度：★★★\n\n预估卡路里：1341 大卡\n\n",
+          "level": 1
+        },
+        {
+          "title": "必备原料和工具",
+          "markdown": "\n* 热干面特有的碱水面\n* 小葱\n* 酸豆角\n* 肉末\n* 蒜水\n* 肉汤汁\n* 萝卜干\n* 芝麻酱\n* 辣椒油\n* 胡椒粉\n* 酱油\n* 食盐\n* 鸡精\n\n",
+          "level": 2
+        },
+        {
+          "title": "计算",
+          "markdown": "\n每份：\n\n* 热干面特有的碱水面 (250g)\n* 小葱 (10g)\n* 酸豆角 (20g)\n* 肉末 (30g)\n* 蒜水 (30ml)\n* 肉汤汁 (30ml)\n* 萝卜干 (50g)\n* 芝麻酱 (40ml)\n* 辣椒油 (0-10ml)\n* 胡椒粉(0-10g)\n* 酱油(5ml)\n* 食盐(3g)\n* 鸡精(0-3g)\n\n",
+          "level": 2
+        },
+        {
+          "title": "操作",
+          "markdown": "\n1. 水煮沸，并加入碱水面，焯烫 25 秒钟捞起\n2. 撒上食盐、鸡精和胡椒粉\n3. 芝麻酱用 90ml 水稀释，搅匀，然后加入\n4. 加入 5ml 酱油，加入 30ml 肉汤汁和蒜水\n5. 加入萝卜干，肉末，酸豆角，葱花\n6. 拌均匀后开吃\n\n",
+          "level": 2
+        },
+        {
+          "title": "附加内容",
+          "markdown": "\n* 辣椒油看个人口味添加\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+          "level": 2
+        }
+      ],
+      "images": []
+    },
+    "sourceLimitations": [
+      "原文从煮面到拌好大约十几分钟，没有明确总分钟数，不设置总用时；每份未注明人数，不推测。",
+      "原文肉末30克未注明预先烹制方法或熟制状态，不擅自新增炒肉步骤；肉汤汁、蒜水未提供制作方法。",
+      "保留碱水面焯烫25秒的原操作，原文未说明面条是否预熟，不自行更改时长。",
+      "芝麻酱40毫升使用90毫升水稀释；另有煮面用水，原文未注明其用量。",
+      "蒜水与肉汤汁各30毫升依据计算清单保留；辣椒油0—10毫升按口味可选，附加原文完整保留。",
+      "上游无图片，保留的原有展示图不属于本次 HowToCook 来源图片。"
+    ]
+  },
+  "generated": {
+    "id": "cn-042",
+    "name": "热干面",
+    "en": "Wuhan Hot Dry Noodles",
+    "cuisine": "湖北",
+    "category": "中餐",
+    "isHeritageFlavor": false,
+    "heritageStatus": null,
+    "ingredients": [
+      {
+        "id": "ingredient-01",
+        "name": "热干面特有的碱水面",
+        "label": "热干面特有的碱水面250克",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-02",
+        "name": "小葱",
+        "label": "小葱10克",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-03",
+        "name": "酸豆角",
+        "label": "酸豆角20克",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-04",
+        "name": "肉末",
+        "label": "肉末30克（原文未注明熟制状态及预烹制方法）",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-05",
+        "name": "蒜水",
+        "label": "蒜水30毫升",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-06",
+        "name": "肉汤汁",
+        "label": "肉汤汁30毫升",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-07",
+        "name": "萝卜干",
+        "label": "萝卜干50克",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-08",
+        "name": "芝麻酱",
+        "label": "芝麻酱40毫升",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-09",
+        "name": "辣椒油",
+        "label": "辣椒油0—10毫升（按口味可选）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-10",
+        "name": "胡椒粉",
+        "label": "胡椒粉0—10克",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-11",
+        "name": "酱油",
+        "label": "酱油5毫升",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-12",
+        "name": "食盐",
+        "label": "食盐3克",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-13",
+        "name": "鸡精",
+        "label": "鸡精0—3克",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-14",
+        "name": "水",
+        "label": "水90毫升（稀释芝麻酱用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-15",
+        "name": "水",
+        "label": "水适量（煮面用，原文未注明用量）",
+        "isCore": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-01",
+        "instruction": "水煮沸，并加入碱水面，焯烫 25 秒钟捞起。",
+        "duration": 25,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-02",
+        "instruction": "撒上食盐、鸡精和胡椒粉。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-03",
+        "instruction": "芝麻酱用 90ml 水稀释，搅匀，然后加入。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-04",
+        "instruction": "加入 5ml 酱油，加入 30ml 肉汤汁和蒜水。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-05",
+        "instruction": "加入萝卜干，肉末，酸豆角，葱花。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-06",
+        "instruction": "拌均匀后开吃。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      }
+    ],
+    "howtocook": {
+      "commit": "a2d45c6984dff9ee941da0e7c452f7965965d962",
+      "path": "dishes/staple/热干面.md",
+      "sha256": "de82449d41b2bab191c727d0415590f39558918b79a8eaa4a0ddcbaff44c403e",
+      "rawMarkdown": "# 热干面的做法\n\n热干面是武汉最具代表性的小吃之一，属于鄂菜系。碱水面条筋道爽滑，裹满浓稠的芝麻酱，搭配酸豆角、萝卜干和肉末，咸香微辣，滋味醇厚。主要提供碳水化合物和蛋白质，芝麻酱也富含钙质。制作简单快捷，新手也能轻松上手，从煮面到拌好大约只需十几分钟。\n\n预估烹饪难度：★★★\n\n预估卡路里：1341 大卡\n\n## 必备原料和工具\n\n* 热干面特有的碱水面\n* 小葱\n* 酸豆角\n* 肉末\n* 蒜水\n* 肉汤汁\n* 萝卜干\n* 芝麻酱\n* 辣椒油\n* 胡椒粉\n* 酱油\n* 食盐\n* 鸡精\n\n## 计算\n\n每份：\n\n* 热干面特有的碱水面 (250g)\n* 小葱 (10g)\n* 酸豆角 (20g)\n* 肉末 (30g)\n* 蒜水 (30ml)\n* 肉汤汁 (30ml)\n* 萝卜干 (50g)\n* 芝麻酱 (40ml)\n* 辣椒油 (0-10ml)\n* 胡椒粉(0-10g)\n* 酱油(5ml)\n* 食盐(3g)\n* 鸡精(0-3g)\n\n## 操作\n\n1. 水煮沸，并加入碱水面，焯烫 25 秒钟捞起\n2. 撒上食盐、鸡精和胡椒粉\n3. 芝麻酱用 90ml 水稀释，搅匀，然后加入\n4. 加入 5ml 酱油，加入 30ml 肉汤汁和蒜水\n5. 加入萝卜干，肉末，酸豆角，葱花\n6. 拌均匀后开吃\n\n## 附加内容\n\n* 辣椒油看个人口味添加\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+      "sections": [
+        {
+          "title": "热干面的做法",
+          "markdown": "\n热干面是武汉最具代表性的小吃之一，属于鄂菜系。碱水面条筋道爽滑，裹满浓稠的芝麻酱，搭配酸豆角、萝卜干和肉末，咸香微辣，滋味醇厚。主要提供碳水化合物和蛋白质，芝麻酱也富含钙质。制作简单快捷，新手也能轻松上手，从煮面到拌好大约只需十几分钟。\n\n预估烹饪难度：★★★\n\n预估卡路里：1341 大卡\n\n",
+          "level": 1
+        },
+        {
+          "title": "必备原料和工具",
+          "markdown": "\n* 热干面特有的碱水面\n* 小葱\n* 酸豆角\n* 肉末\n* 蒜水\n* 肉汤汁\n* 萝卜干\n* 芝麻酱\n* 辣椒油\n* 胡椒粉\n* 酱油\n* 食盐\n* 鸡精\n\n",
+          "level": 2
+        },
+        {
+          "title": "计算",
+          "markdown": "\n每份：\n\n* 热干面特有的碱水面 (250g)\n* 小葱 (10g)\n* 酸豆角 (20g)\n* 肉末 (30g)\n* 蒜水 (30ml)\n* 肉汤汁 (30ml)\n* 萝卜干 (50g)\n* 芝麻酱 (40ml)\n* 辣椒油 (0-10ml)\n* 胡椒粉(0-10g)\n* 酱油(5ml)\n* 食盐(3g)\n* 鸡精(0-3g)\n\n",
+          "level": 2
+        },
+        {
+          "title": "操作",
+          "markdown": "\n1. 水煮沸，并加入碱水面，焯烫 25 秒钟捞起\n2. 撒上食盐、鸡精和胡椒粉\n3. 芝麻酱用 90ml 水稀释，搅匀，然后加入\n4. 加入 5ml 酱油，加入 30ml 肉汤汁和蒜水\n5. 加入萝卜干，肉末，酸豆角，葱花\n6. 拌均匀后开吃\n\n",
+          "level": 2
+        },
+        {
+          "title": "附加内容",
+          "markdown": "\n* 辣椒油看个人口味添加\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+          "level": 2
+        }
+      ],
+      "images": [],
+      "difficultyStars": "★★★"
+    },
+    "sourceLimitations": [
+      "原文从煮面到拌好大约十几分钟，没有明确总分钟数，不设置总用时；每份未注明人数，不推测。",
+      "原文肉末30克未注明预先烹制方法或熟制状态，不擅自新增炒肉步骤；肉汤汁、蒜水未提供制作方法。",
+      "保留碱水面焯烫25秒的原操作，原文未说明面条是否预熟，不自行更改时长。",
+      "芝麻酱40毫升使用90毫升水稀释；另有煮面用水，原文未注明其用量。",
+      "蒜水与肉汤汁各30毫升依据计算清单保留；辣椒油0—10毫升按口味可选，附加原文完整保留。",
+      "上游无图片，保留的原有展示图不属于本次 HowToCook 来源图片。"
+    ],
+    "imageThumb": "assets/dishes/thumbnails/52-regan-mian.jpg",
+    "imageFull": "assets/dishes/ai/52-regan-mian.png",
+    "source": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/staple/%E7%83%AD%E5%B9%B2%E9%9D%A2.md",
+    "time": null,
+    "timeBasis": "unspecified",
+    "difficulty": "适中",
+    "defaultServings": null,
+    "servingsBasis": "unspecified",
+    "allergens": [
+      "wheat",
+      "soy",
+      "sesame"
+    ],
+    "flags": {
+      "containsPork": false,
+      "containsBeef": false,
+      "containsAlcohol": false,
+      "spicy": true,
+      "vegetarian": false
+    },
+    "demoEnriched": true
+  },
+  "renderedIngredientRows": [
+    "热干面特有的碱水面250克",
+    "小葱10克",
+    "酸豆角20克",
+    "肉末30克（原文未注明熟制状态及预烹制方法）",
+    "蒜水30毫升",
+    "肉汤汁30毫升",
+    "萝卜干50克",
+    "芝麻酱40毫升",
+    "辣椒油0—10毫升（按口味可选）",
+    "胡椒粉0—10克",
+    "酱油5毫升",
+    "食盐3克",
+    "鸡精0—3克",
+    "水90毫升（稀释芝麻酱用）",
+    "水适量（煮面用，原文未注明用量）"
+  ],
+  "renderedSteps": [
+    "水煮沸，并加入碱水面，焯烫 25 秒钟捞起。",
+    "撒上食盐、鸡精和胡椒粉。",
+    "芝麻酱用 90ml 水稀释，搅匀，然后加入。",
+    "加入 5ml 酱油，加入 30ml 肉汤汁和蒜水。",
+    "加入萝卜干，肉末，酸豆角，葱花。",
+    "拌均匀后开吃。"
+  ]
+}

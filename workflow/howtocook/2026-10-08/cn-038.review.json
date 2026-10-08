@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "承接前一步的第三步重复计时已关闭。微波炉版本、1人份、预计15分钟、体积计量、油分配、10步和原图位置忠实保留；独立检查12食材行及10步骤四项语言与结构通过。",
+  "evidencePackageHash": "29a6766ce9ee81cb8d63f7c85399a83886b8f43bc16f7adfb234b2d1ec948050",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

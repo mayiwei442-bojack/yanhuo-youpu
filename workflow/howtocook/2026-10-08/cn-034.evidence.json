@@ -1,0 +1,167 @@
+{
+  "recipeId": "cn-034",
+  "recipeName": "韭菜炒鸡蛋",
+  "category": "chinese",
+  "createdAt": "2026-10-08T07:19:16.258364+00:00",
+  "sources": [
+    {
+      "sourceName": "HowToCook",
+      "sourceType": "website",
+      "url": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/vegetable_dish/%E9%9F%AD%E8%8F%9C%E7%82%92%E8%9B%8B/%E9%9F%AD%E8%8F%9C%E7%82%92%E8%9B%8B.md",
+      "documentId": "ded84796-7eb5-4229-943e-ef5e68ca248e",
+      "retrievalMethod": "GitHub immutable raw Markdown via configured local HTTP proxy; no access-control bypass",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "韭菜",
+          "raw": "韭菜 = 100g * 份数",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "鸡蛋",
+          "raw": "鸡蛋 = 2 个 * 份数",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "食用油",
+          "raw": "食用油 = 10ml * 份数",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "盐",
+          "raw": "盐 = 2g * 份数",
+          "amount": null,
+          "sourceSection": "计算"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "韭菜洗净，沥干水分",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 1
+        },
+        {
+          "order": 2,
+          "instruction": "韭菜切成约 3cm 长的小段，即为 `韭菜段`",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 2
+        },
+        {
+          "order": 3,
+          "instruction": "将鸡蛋打入碗中，搅匀，即为 `鸡蛋液`",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 3
+        },
+        {
+          "order": 4,
+          "instruction": "热锅，加入食用油",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 4
+        },
+        {
+          "order": 5,
+          "instruction": "油热后，倒入 `鸡蛋液`，快速翻炒至鸡蛋凝固成块，盛出备用，即为 `炒好的鸡蛋`",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 5
+        },
+        {
+          "order": 6,
+          "instruction": "锅中再加 5ml 食用油，放入 `韭菜段`，大火快速翻炒 30 秒",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 6
+        },
+        {
+          "order": 7,
+          "instruction": "向锅中加入 `炒好的鸡蛋`，翻炒均匀",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 7
+        },
+        {
+          "order": 8,
+          "instruction": "加入盐，翻炒均匀",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 8
+        },
+        {
+          "order": 9,
+          "instruction": "关火，盛盘",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 9
+        }
+      ],
+      "technique": [
+        "每次制作前需要确定计划做几份。一份正好够 1 个人食用\n\n总量：\n\n* 韭菜 = 100g * 份数\n* 鸡蛋 = 2 个 * 份数\n* 食用油 = 10ml * 份数\n* 盐 = 2g * 份数"
+      ],
+      "tips": [
+        "* 韭菜炒蛋讲究大火快炒，韭菜炒久了容易失去香气和脆嫩口感\n* 如果喜欢韭菜更软烂，可以适当延长翻炒时间\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+      ],
+      "rawExcerpt": "# 韭菜炒蛋的做法\n\n韭菜炒蛋是一道经典的家常菜，韭菜香气浓郁，鸡蛋嫩滑鲜美，简单易做，营养丰富。韭菜含有丰富的维生素和纤维素，鸡蛋提供优质蛋白质。这道菜制作简单，原材料易得，特别适合厨房新手入门，从头备菜到盛盘出锅大约只需 10 分钟。\n\n预估烹饪难度：★★\n\n预估卡路里：180 大卡\n\n## 必备原料和工具\n\n* 韭菜\n* 鸡蛋\n* 食用油\n* 盐\n\n## 计算\n\n每次制作前需要确定计划做几份。一份正好够 1 个人食用\n\n总量：\n\n* 韭菜 = 100g * 份数\n* 鸡蛋 = 2 个 * 份数\n* 食用油 = 10ml * 份数\n* 盐 = 2g * 份数\n\n## 操作\n\n1. 韭菜洗净，沥干水分\n2. 韭菜切成约 3cm 长的小段，即为 `韭菜段`\n3. 将鸡蛋打入碗中，搅匀，即为 `鸡蛋液`\n4. 热锅，加入食用油\n5. 油热后，倒入 `鸡蛋液`，快速翻炒至鸡蛋凝固成块，盛出备用，即为 `炒好的鸡蛋`\n6. 锅中再加 5ml 食用油，放入 `韭菜段`，大火快速翻炒 30 秒\n7. 向锅中加入 `炒好的鸡蛋`，翻炒均匀\n8. 加入盐，翻炒均匀\n9. 关火，盛盘\n\n## 附加内容\n\n* 韭菜炒蛋讲究大火快炒，韭菜炒久了容易失去香气和脆嫩口感\n* 如果喜欢韭菜更软烂，可以适当延长翻炒时间\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n"
+    }
+  ],
+  "sourceMode": "single_source",
+  "singleSourceReason": "User explicitly directed exclusive HowToCook source and exact upstream transcription.",
+  "selectedSourceUrl": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/vegetable_dish/%E9%9F%AD%E8%8F%9C%E7%82%92%E8%9B%8B/%E9%9F%AD%E8%8F%9C%E7%82%92%E8%9B%8B.md",
+  "selectionReason": "韭菜炒蛋正文明确鸡蛋，与韭菜炒鸡蛋同菜。",
+  "ragEvidence": [
+    {
+      "chunkId": "a69b6f4b-6280-4052-a07e-e45e9207c9ca",
+      "documentId": "ded84796-7eb5-4229-943e-ef5e68ca248e",
+      "sourceName": "HowToCook",
+      "chunkType": "tips",
+      "content": "菜名：韭菜炒鸡蛋\n- * 韭菜炒蛋讲究大火快炒，韭菜炒久了容易失去香气和脆嫩口感 * 如果喜欢韭菜更软烂，可以适当延长翻炒时间 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。",
+      "similarity": 0.735085904598236
+    },
+    {
+      "chunkId": "e743145a-db5f-4fc8-9d4c-208e87228d76",
+      "documentId": "ded84796-7eb5-4229-943e-ef5e68ca248e",
+      "sourceName": "HowToCook",
+      "chunkType": "summary",
+      "content": "菜名：韭菜炒鸡蛋\n别名：韭菜炒蛋\n简介：# 韭菜炒蛋的做法 韭菜炒蛋是一道经典的家常菜，韭菜香气浓郁，鸡蛋嫩滑鲜美，简单易做，营养丰富。韭菜含有丰富的维生素和纤维素，鸡蛋提供优质蛋白质。这道菜制作简单，原材料易得，特别适合厨房新手入门，从头备菜到盛盘出锅大约只需 10 分钟。 预估烹饪难度：★★ 预估卡路里：180 大卡",
+      "similarity": 0.695509573683428
+    },
+    {
+      "chunkId": "ad8d30ad-ed53-4907-b05c-e27280a96b39",
+      "documentId": "ded84796-7eb5-4229-943e-ef5e68ca248e",
+      "sourceName": "HowToCook",
+      "chunkType": "steps",
+      "content": "菜名：韭菜炒鸡蛋\n1. 韭菜洗净，沥干水分\n2. 韭菜切成约 3cm 长的小段，即为 `韭菜段`\n3. 将鸡蛋打入碗中，搅匀，即为 `鸡蛋液`\n4. 热锅，加入食用油\n5. 油热后，倒入 `鸡蛋液`，快速翻炒至鸡蛋凝固成块，盛出备用，即为 `炒好的鸡蛋`\n6. 锅中再加 5ml 食用油，放入 `韭菜段`，大火快速翻炒 30 秒\n7. 向锅中加入 `炒好的鸡蛋`，翻炒均匀\n8. 加入盐，翻炒均匀\n9. 关火，盛盘",
+      "similarity": 0.695089480134532
+    },
+    {
+      "chunkId": "141077ba-4f98-435b-820a-7684faed01d7",
+      "documentId": "ded84796-7eb5-4229-943e-ef5e68ca248e",
+      "sourceName": "HowToCook",
+      "chunkType": "ingredients",
+      "content": "菜名：韭菜炒鸡蛋\n- 韭菜 = 100g * 份数\n- 鸡蛋 = 2 个 * 份数\n- 食用油 = 10ml * 份数\n- 盐 = 2g * 份数",
+      "similarity": 0.668483257293701
+    },
+    {
+      "chunkId": "116ca5b6-6b84-42ee-b486-075410f3314e",
+      "documentId": "ded84796-7eb5-4229-943e-ef5e68ca248e",
+      "sourceName": "HowToCook",
+      "chunkType": "technique",
+      "content": "菜名：韭菜炒鸡蛋\n- 每次制作前需要确定计划做几份。一份正好够 1 个人食用 总量： * 韭菜 = 100g * 份数 * 鸡蛋 = 2 个 * 份数 * 食用油 = 10ml * 份数 * 盐 = 2g * 份数",
+      "similarity": 0.667274534756651
+    }
+  ],
+  "notes": [
+    "用户明确要求仅用 HowToCook，原文完整转录；complete=true 表示上游文档完整抓取，不表示烹饪参数无遗漏。",
+    "Source limitations: 本上游菜谱无图片，按用户要求不补造图片。 原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。",
+    "GitHub commit a2d45c6984dff9ee941da0e7c452f7965965d962; path dishes/vegetable_dish/韭菜炒蛋/韭菜炒蛋.md",
+    "媒体按原文位置保留；未要求映射的照片不伪称步骤图。",
+    "Existing exact-name knowledge-base documents checked before source fetching: 0"
+  ]
+}

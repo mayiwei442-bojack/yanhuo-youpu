@@ -1,0 +1,176 @@
+{
+  "recipeId": "cn-059",
+  "recipeName": "紫菜蛋花汤",
+  "category": "chinese",
+  "createdAt": "2026-10-08T07:14:35.262630+00:00",
+  "sources": [
+    {
+      "sourceName": "HowToCook",
+      "sourceType": "website",
+      "url": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/soup/%E7%B4%AB%E8%8F%9C%E8%9B%8B%E8%8A%B1%E6%B1%A4.md",
+      "documentId": "e71bce53-1ce0-438a-b2f3-a9dcc9d12998",
+      "retrievalMethod": "GitHub immutable raw Markdown via configured local HTTP proxy; no access-control bypass",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "紫菜",
+          "raw": "10g 的干紫菜（喜欢紫菜的可以多放些）",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "鸡蛋",
+          "raw": "两个鸡蛋",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "葱花",
+          "raw": "葱花",
+          "amount": null,
+          "sourceSection": "必备原料和工具"
+        },
+        {
+          "name": "水",
+          "raw": "水",
+          "amount": null,
+          "sourceSection": "必备原料和工具"
+        },
+        {
+          "name": "盐",
+          "raw": "盐 2 克",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "油",
+          "raw": "油",
+          "amount": null,
+          "sourceSection": "必备原料和工具"
+        },
+        {
+          "name": "虾仁",
+          "raw": "虾仁（个人口味，可加可不加）",
+          "amount": null,
+          "sourceSection": "必备原料和工具"
+        },
+        {
+          "name": "香油",
+          "raw": "关火，出锅前放入几滴香油，也有的会放入一点虾皮，味道也不错。",
+          "amount": null,
+          "sourceSection": "操作/附加内容"
+        },
+        {
+          "name": "虾皮",
+          "raw": "关火，出锅前放入几滴香油，也有的会放入一点虾皮，味道也不错。",
+          "amount": null,
+          "sourceSection": "操作/附加内容"
+        },
+        {
+          "name": "淀粉",
+          "raw": "如果喜欢浓稠口感，可加入 2g 淀粉.",
+          "amount": null,
+          "sourceSection": "操作/附加内容"
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "干紫菜用清水泡 15 分钟，捞起沥干水份备用。",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 1
+        },
+        {
+          "order": 2,
+          "instruction": "热锅，倒入 1.5 升清水、5ml 油、2g 盐。待水开后放入紫菜。",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 2
+        },
+        {
+          "order": 3,
+          "instruction": "紫菜烧开后 3 分钟，将打好的蛋液徐徐倒入锅内，30 秒既可起锅。",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 3
+        },
+        {
+          "order": 4,
+          "instruction": "撒上葱花，转小火 20 秒。",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 4
+        },
+        {
+          "order": 5,
+          "instruction": "关火，出锅前放入几滴香油，也有的会放入一点虾皮，味道也不错。",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 5
+        }
+      ],
+      "technique": [
+        "按照 1 人份的份量：\n\n* 10g 的干紫菜（喜欢紫菜的可以多放些）\n* 两个鸡蛋\n* 盐 2 克"
+      ],
+      "tips": [
+        "* 水开后，将火关小，将打好的蛋液围绕中间沸腾的水倒入。为了使蛋花比较嫩，锅盖盖上熄灭火等半分钟后再打开.\n* 如果喜欢浓稠口感，可加入 2g 淀粉.\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+      ],
+      "rawExcerpt": "# 紫菜蛋花汤的做法\n\n紫菜蛋花汤是一道清淡鲜美的家常汤品，属于中式简易汤菜。紫菜富含碘、钙和膳食纤维，鸡蛋提供优质蛋白质，二者搭配营养均衡。做法非常简单，对新手友好，从准备到出锅仅需约 20 分钟。\n\n预估烹饪难度：★★\n\n预估卡路里：217 大卡\n\n## 必备原料和工具\n\n* 鸡蛋\n* 紫菜\n* 葱花\n* 水\n* 盐\n* 油\n* 虾仁（个人口味，可加可不加）\n\n## 计算\n\n按照 1 人份的份量：\n\n* 10g 的干紫菜（喜欢紫菜的可以多放些）\n* 两个鸡蛋\n* 盐 2 克\n\n## 操作\n\n1. 干紫菜用清水泡 15 分钟，捞起沥干水份备用。\n2. 热锅，倒入 1.5 升清水、5ml 油、2g 盐。待水开后放入紫菜。\n3. 紫菜烧开后 3 分钟，将打好的蛋液徐徐倒入锅内，30 秒既可起锅。\n4. 撒上葱花，转小火 20 秒。\n5. 关火，出锅前放入几滴香油，也有的会放入一点虾皮，味道也不错。\n\n## 附加内容\n\n* 水开后，将火关小，将打好的蛋液围绕中间沸腾的水倒入。为了使蛋花比较嫩，锅盖盖上熄灭火等半分钟后再打开.\n* 如果喜欢浓稠口感，可加入 2g 淀粉.\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n"
+    }
+  ],
+  "sourceMode": "single_source",
+  "singleSourceReason": "User explicitly directed exclusive HowToCook source and exact upstream transcription.",
+  "selectedSourceUrl": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/soup/%E7%B4%AB%E8%8F%9C%E8%9B%8B%E8%8A%B1%E6%B1%A4.md",
+  "selectionReason": "上游菜谱文件名与指定菜名完全一致。",
+  "ragEvidence": [
+    {
+      "chunkId": "331b602c-f8df-4362-91fc-9656fd1b8105",
+      "documentId": "e71bce53-1ce0-438a-b2f3-a9dcc9d12998",
+      "sourceName": "HowToCook",
+      "chunkType": "tips",
+      "content": "菜名：紫菜蛋花汤\n- * 水开后，将火关小，将打好的蛋液围绕中间沸腾的水倒入。为了使蛋花比较嫩，锅盖盖上熄灭火等半分钟后再打开. * 如果喜欢浓稠口感，可加入 2g 淀粉. 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。",
+      "similarity": 0.760773227260903
+    },
+    {
+      "chunkId": "d8c42e7d-e1c3-4922-b4d9-1341c058325e",
+      "documentId": "e71bce53-1ce0-438a-b2f3-a9dcc9d12998",
+      "sourceName": "HowToCook",
+      "chunkType": "steps",
+      "content": "菜名：紫菜蛋花汤\n1. 干紫菜用清水泡 15 分钟，捞起沥干水份备用。\n2. 热锅，倒入 1.5 升清水、5ml 油、2g 盐。待水开后放入紫菜。\n3. 紫菜烧开后 3 分钟，将打好的蛋液徐徐倒入锅内，30 秒既可起锅。\n4. 撒上葱花，转小火 20 秒。\n5. 关火，出锅前放入几滴香油，也有的会放入一点虾皮，味道也不错。",
+      "similarity": 0.748400568962102
+    },
+    {
+      "chunkId": "c5c2d0ba-ea0c-4df9-8d22-6a29b43d43cb",
+      "documentId": "e71bce53-1ce0-438a-b2f3-a9dcc9d12998",
+      "sourceName": "HowToCook",
+      "chunkType": "ingredients",
+      "content": "菜名：紫菜蛋花汤\n- 10g 的干紫菜（喜欢紫菜的可以多放些）\n- 两个鸡蛋\n- 葱花\n- 水\n- 盐 2 克\n- 油\n- 虾仁（个人口味，可加可不加）\n- 关火，出锅前放入几滴香油，也有的会放入一点虾皮，味道也不错。\n- 关火，出锅前放入几滴香油，也有的会放入一点虾皮，味道也不错。\n- 如果喜欢浓稠口感，可加入 2g 淀粉.",
+      "similarity": 0.741221739272191
+    },
+    {
+      "chunkId": "96e6af72-8c47-4c53-ab5a-509018709a2b",
+      "documentId": "e71bce53-1ce0-438a-b2f3-a9dcc9d12998",
+      "sourceName": "HowToCook",
+      "chunkType": "summary",
+      "content": "菜名：紫菜蛋花汤\n简介：# 紫菜蛋花汤的做法 紫菜蛋花汤是一道清淡鲜美的家常汤品，属于中式简易汤菜。紫菜富含碘、钙和膳食纤维，鸡蛋提供优质蛋白质，二者搭配营养均衡。做法非常简单，对新手友好，从准备到出锅仅需约 20 分钟。 预估烹饪难度：★★ 预估卡路里：217 大卡",
+      "similarity": 0.723925514455172
+    },
+    {
+      "chunkId": "71dab904-d0c0-418f-aa1c-42dc712feb1a",
+      "documentId": "e71bce53-1ce0-438a-b2f3-a9dcc9d12998",
+      "sourceName": "HowToCook",
+      "chunkType": "technique",
+      "content": "菜名：紫菜蛋花汤\n- 按照 1 人份的份量： * 10g 的干紫菜（喜欢紫菜的可以多放些） * 两个鸡蛋 * 盐 2 克",
+      "similarity": 0.707631868578904
+    }
+  ],
+  "notes": [
+    "用户明确要求仅用 HowToCook，原文完整转录；complete=true 表示上游文档完整抓取，不表示烹饪参数无遗漏。",
+    "Source limitations: 葱花、香油、可选虾皮未定量，虾皮和香油未列必备；可选淀粉仅在附加内容出现。 本上游菜谱无图片，按用户要求不补造图片。 原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。",
+    "GitHub commit a2d45c6984dff9ee941da0e7c452f7965965d962; path dishes/soup/紫菜蛋花汤.md",
+    "媒体按原文位置保留；未要求映射的照片不伪称步骤图。",
+    "操作第3步称起锅后第4步仍转小火，时序存在矛盾，保留原文。",
+    "Existing exact-name knowledge-base documents checked before source fetching: 0"
+  ]
+}

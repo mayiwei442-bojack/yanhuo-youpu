@@ -1,6 +1,11 @@
 {
   "chinese": [
     {
+      "name": "HowToCook",
+      "baseUrl": "https://github.com/Anduin2017/HowToCook/",
+      "enabled": true
+    },
+    {
       "name": "The Woks of Life",
       "baseUrl": "https://thewoksoflife.com/",
       "enabled": true
@@ -12,6 +17,11 @@
     }
   ],
   "western": [
+    {
+      "name": "HowToCook (raw repository content)",
+      "baseUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/",
+      "enabled": true
+    },
     {
       "name": "Serious Eats",
       "baseUrl": "https://www.seriouseats.com/",

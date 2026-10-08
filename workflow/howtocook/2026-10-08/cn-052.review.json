@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "9步、用量、含浸泡约150分钟与可选步骤保留。生抽用法、油分配与人数缺项披露，4原图未伪配步骤；14食材行及9步独立四项审查通过。",
+  "evidencePackageHash": "7c22b83d7abda27ada2cd612068e413648ab190721ade4cb923bc38d2d90af99",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

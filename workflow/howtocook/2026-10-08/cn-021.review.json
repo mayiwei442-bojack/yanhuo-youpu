@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "第5步展示语法已修正，上游原文不变。来源、12步顺序、分量、90分钟约值、未知人数及原图记录通过；独立四项语言与结构复审通过。",
+  "evidencePackageHash": "292262aa28c22578e6808209c10618d5b152b8b7fec46a9fb6b4c77e3b71299d",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

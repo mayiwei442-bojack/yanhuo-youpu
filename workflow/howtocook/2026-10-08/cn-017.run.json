@@ -1,0 +1,62 @@
+{
+  "runId": "2026-10-08-howtocook-cn-017",
+  "recipeId": "cn-017",
+  "recipeName": "水煮牛肉",
+  "category": "chinese",
+  "status": "in_progress",
+  "startedAt": "2026-10-08T07:12:46.996Z",
+  "completedAt": null,
+  "branch": "howtocook",
+  "branchAuthorization": "user_explicit_2026-10-08",
+  "commit": null,
+  "steps": {
+    "research": {
+      "status": "done",
+      "attempts": 1
+    },
+    "ingestion": {
+      "status": "done",
+      "attempts": 1
+    },
+    "edit": {
+      "status": "done",
+      "attempts": 1
+    },
+    "validator": {
+      "status": "done",
+      "attempts": 1
+    },
+    "review": {
+      "status": "done",
+      "attempts": 2,
+      "details": {
+        "correctionsPath": "workflow/howtocook/2026-10-08/review-corrections.json",
+        "finalStatus": "PASS"
+      }
+    },
+    "build": {
+      "status": "done",
+      "attempts": 1
+    },
+    "gitPush": {
+      "status": "pending",
+      "attempts": 1
+    }
+  },
+  "sources": [
+    {
+      "name": "HowToCook",
+      "url": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/meat_dish/%E6%B0%B4%E7%85%AE%E7%89%9B%E8%82%89/%E6%B0%B4%E7%85%AE%E7%89%9B%E8%82%89.md",
+      "status": "success",
+      "documentId": "c8991fdc-cd72-436d-90fe-538e4fe50f97"
+    }
+  ],
+  "errors": [],
+  "evidencePackageHash": "e10f698a38f2b6ed9471fc7fb94a0165204dd8d06f87cd8b1b82fc73f5fe79e6",
+  "reviewPath": "workflow/howtocook/2026-10-08/cn-017.review.json",
+  "validationPath": "workflow/howtocook/2026-10-08/cn-017.validation.json",
+  "sourceLimitations": [
+    "原料/计算未列炒制及泼油的油类型、用量；操作另用开水但无定量。",
+    "原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。"
+  ]
+}

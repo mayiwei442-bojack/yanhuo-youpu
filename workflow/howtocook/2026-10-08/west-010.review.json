@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "欧芹鸡腿具体版本、每人量、约50分钟和三阶段6步忠实；180度、30-40分钟及全熟要求有来源，未补腌制时长或固定范围计时。可选蜂蜜/烤肉酱、缺图保留披露；独立四项审查通过。",
+  "evidencePackageHash": "aa939650e457e5eff789cd58bb676bdf6354594ca84869ba58c242359736b0b5",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

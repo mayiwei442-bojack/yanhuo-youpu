@@ -1,0 +1,147 @@
+{
+  "ok": true,
+  "targetId": "cn-017",
+  "checks": [
+    {
+      "name": "unique_ids",
+      "passed": true
+    },
+    {
+      "name": "target_exists_once",
+      "passed": true
+    },
+    {
+      "name": "required_fields",
+      "passed": true
+    },
+    {
+      "name": "target_name",
+      "passed": true
+    },
+    {
+      "name": "target_ingredients",
+      "passed": true,
+      "count": 14
+    },
+    {
+      "name": "target_steps",
+      "passed": true,
+      "count": 11
+    },
+    {
+      "name": "stable_target_fields",
+      "passed": true,
+      "allowedChanges": [
+        "source"
+      ]
+    },
+    {
+      "name": "target_changed",
+      "passed": true,
+      "required": true
+    },
+    {
+      "name": "target_only_diff",
+      "passed": true,
+      "changed": []
+    },
+    {
+      "name": "selected_pinned_source",
+      "passed": true
+    },
+    {
+      "name": "exact_complete_upstream_markdown",
+      "passed": true
+    },
+    {
+      "name": "upstream_content_sha256",
+      "passed": true
+    },
+    {
+      "name": "ingested_source_document",
+      "passed": true
+    },
+    {
+      "name": "ingredient_brackets_and_rows",
+      "passed": true
+    },
+    {
+      "name": "step_brackets",
+      "passed": true
+    },
+    {
+      "name": "local_image_assets/dishes/howtocook/cn-017/1.jpg",
+      "passed": true
+    },
+    {
+      "name": "local_image_assets/dishes/howtocook/cn-017/2.jpg",
+      "passed": true
+    },
+    {
+      "name": "local_image_assets/dishes/howtocook/cn-017/3.jpg",
+      "passed": true
+    },
+    {
+      "name": "local_image_assets/dishes/howtocook/cn-017/4.jpg",
+      "passed": true
+    },
+    {
+      "name": "local_image_assets/dishes/howtocook/cn-017/5.jpg",
+      "passed": true
+    },
+    {
+      "name": "local_image_assets/dishes/howtocook/cn-017/6.jpg",
+      "passed": true
+    },
+    {
+      "name": "local_image_assets/dishes/howtocook/cn-017/7.jpg",
+      "passed": true
+    },
+    {
+      "name": "local_image_assets/dishes/howtocook/cn-017/8.jpg",
+      "passed": true
+    },
+    {
+      "name": "local_image_assets/dishes/howtocook/cn-017/9.jpg",
+      "passed": true
+    },
+    {
+      "name": "local_image_assets/dishes/howtocook/cn-017/10.jpg",
+      "passed": true
+    },
+    {
+      "name": "local_image_assets/dishes/howtocook/cn-017/11.jpg",
+      "passed": true
+    },
+    {
+      "name": "local_image_assets/dishes/howtocook/cn-017/12.jpg",
+      "passed": true
+    },
+    {
+      "name": "batch_scope_only",
+      "passed": true
+    },
+    {
+      "name": "generated_original_preserved",
+      "passed": true
+    },
+    {
+      "name": "generated_steps_match_canonical",
+      "passed": true
+    },
+    {
+      "name": "generated_ingredient_labels_match",
+      "passed": true
+    },
+    {
+      "name": "unknown_time_not_invented",
+      "passed": true
+    },
+    {
+      "name": "unknown_yield_not_invented",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "evidencePackageHash": "e10f698a38f2b6ed9471fc7fb94a0165204dd8d06f87cd8b1b82fc73f5fe79e6"
+}

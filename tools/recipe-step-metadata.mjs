@@ -51,7 +51,7 @@ export function stepDuration(text) {
 
 export function stepHeat(text) {
   const matches = [...String(text).matchAll(/中高火|中低火|中小火|中大火|小火|低火|中火|大火|高火/gu)].filter((match) =>
-    !String(text).slice(match.index + match[0].length).startsWith("力") &&
+    !/^[力候]/u.test(String(text).slice(match.index + match[0].length)) &&
     !/(?:不要|避免|不可|不能|不宜|勿|禁止)[^，。；]{0,8}$/u.test(String(text).slice(Math.max(0, match.index - 12), match.index)));
   const values = new Set(matches.map((match) => ({ 小火: "low", 低火: "low", 中火: "medium", 大火: "high", 高火: "high" })[match[0]]));
   return values.size === 1 && !values.has(undefined) ? [...values][0] : null;

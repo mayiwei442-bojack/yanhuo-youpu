@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "面筋wheat已补齐。原文、公式、17步、计时及份数保持；缺项披露与独立四项语言复审通过。",
+  "evidencePackageHash": "c0691a88db433e4d860892f41de15f217c5ac8d9cb450a6395daef5c43a24075",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

@@ -24,7 +24,26 @@ export function createRecipeSnapshot(catalog = createRecipeCatalog()) {
 }
 
 export function splitRecipeSteps(text) {
-  return String(text || "").split(/(?<!\d)(?=\d+[）)])/u).map((part) => part.trim()).filter(Boolean);
+  const value = String(text || "");
+  const boundaries = [];
+  let depth = 0;
+  let expected = 1;
+  for (let index = 0; index < value.length; index += 1) {
+    if (depth === 0 && /\d/u.test(value[index])) {
+      const marker = value.slice(index).match(/^(\d+)[）)]/u);
+      if (marker && Number(marker[1]) === expected) {
+        boundaries.push(index);
+        expected += 1;
+        index += marker[0].length - 1;
+        continue;
+      }
+    }
+    if (value[index] === "（" || value[index] === "(") depth += 1;
+    if (value[index] === "）" || value[index] === ")") depth = Math.max(0, depth - 1);
+  }
+  if (!boundaries.length) return value.trim() ? [value.trim()] : [];
+  if (boundaries[0] !== 0 && value.slice(0, boundaries[0]).trim()) boundaries.unshift(0);
+  return boundaries.map((start, index) => value.slice(start, boundaries[index + 1] ?? value.length).trim()).filter(Boolean);
 }
 
 export function splitRecipeIngredients(text) {

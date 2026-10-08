@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "Source one-star difficulty mapped faithfully; 3-5 minute range retained with fixed timer disabled. Complete source, ingredients, yield, order and limitations verified. Independent adversarial review of two ingredient rows and eight steps passed.",
+  "evidencePackageHash": "dc141b72b2c2f08c8a04f593ab72428c8daf5a1493302b70f612c65838630d3d",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

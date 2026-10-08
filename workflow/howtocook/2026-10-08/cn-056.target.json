@@ -1,0 +1,372 @@
+{
+  "recipeId": "cn-056",
+  "record": {
+    "name": "上汤娃娃菜",
+    "en": "Baby Napa Cabbage in Superior Broth",
+    "region": "粤菜",
+    "ingredients": "娃娃菜700克；金针菇10克（按个人喜好可不放）；皮蛋1个（没有可不放）；午餐肉或火腿肠适量（原文未注明用量）；葱3克；蒜10克；姜10克；清水300克（原文另要求没过娃娃菜，两项指示均保留）；蚝油适量（原文未注明用量）；糖适量（原文未注明用量）；盐适量（原文未注明用量）；味精适量（原文未注明用量）；淀粉适量（原文未注明用量，步骤未使用）；食用油适量（热锅后倒出，再重新倒一点油，两次用量均未注明）；水适量（清洗及焯娃娃菜用，原文未注明用量）",
+    "steps": "1）娃娃菜洗净， 竖着切开切成段。2）葱 3g 切小段。蒜 10g 切片。姜 10g 切小片。3）皮蛋切成丁， 火腿肠或者午餐肉切成丁（1cm 大小的丁）。4）金针菇洗净撕开。5）烧热水，将娃娃菜放进去焯十秒钟，捞出。6）热锅凉油：加热锅后倒入油，过一遍就倒出来，重新倒入一点油。7）调至小火加入葱姜蒜，煎炒出香味即可。8）加入300克清水（水量没过娃娃菜即可），放入娃娃菜、金针菇、午餐肉。9）加入调味料蚝油、糖、盐、味精烧开。10）煮3分钟，煮开后开始装盘。盛出娃娃菜后，将皮蛋放在上面，再把汤汁浇上去即可。",
+    "img": "86-shangtang-wawacai.png",
+    "source": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/vegetable_dish/%E4%B8%8A%E6%B1%A4%E5%A8%83%E5%A8%83%E8%8F%9C/%E4%B8%8A%E6%B1%A4%E5%A8%83%E5%A8%83%E8%8F%9C.md",
+    "timing": {
+      "totalMinutes": 20
+    },
+    "howtocook": {
+      "commit": "a2d45c6984dff9ee941da0e7c452f7965965d962",
+      "path": "dishes/vegetable_dish/上汤娃娃菜/上汤娃娃菜.md",
+      "sha256": "3f78058f94d453648d94822db0384aafcb2b24736d8d6f4d60189fc6b21643db",
+      "rawMarkdown": "# 上汤娃娃菜的做法\n\n这道上汤娃娃菜清甜鲜美，口感软嫩，属于家常素菜，尤其适合减肥期间食用。娃娃菜富含维生素和膳食纤维，低脂低热量，搭配皮蛋和午餐肉增添风味又不会过多增加负担。制作难度适中，新手也能尝试，从备菜到出锅大约只需 20 分钟。\n\n预估烹饪难度：★★★\n\n预估卡路里：158 大卡\n\n## 必备原料和工具\n\n- 娃娃菜\n- 皮蛋\n- 午餐肉（火腿肠）\n- 葱\n- 姜\n- 蒜\n- 盐\n- 糖\n- 淀粉\n\n## 计算\n\n注意，这道菜仅有足够 2-4 人食用的版本。\n\n- 娃娃菜 700g\n- 金针菇 10g（看个人喜好, 不喜欢 see you tomorrow 的就不放 😂）\n- 皮蛋 一个（没有也可以不放）\n- 午餐肉（火腿肠都可以替代）\n\n## 操作\n\n1. 娃娃菜洗净, 竖着切开切成段。\n2. 葱 3g 切 小段。蒜 10g 切片。姜 10g 切小片。\n3. 皮蛋切成丁, 火腿肠或者午餐肉切成丁（1cm 大小的丁）\n4. 金针菇洗净撕开\n5. 烧热水娃娃菜放进去十秒钟出一下水捞出。\n6. 热锅凉油, 加热锅倒入油过一遍就倒出来, 重新倒入一点油。\n7. 调至小火加入葱姜蒜，煎炒出香味即可。\n8. 加入适 300g 清水（水量没过娃娃菜即可）, 放入娃娃菜, 金针菇, 午餐肉\n9. 加入调味料蚝油、糖、盐、味精烧开。\n10. 煮 3 分钟, 煮开后开始装盘, 盛出娃娃菜后皮蛋放在上面把汤汁浇上去就可以了\n11. ![上汤娃娃菜](./上汤娃娃菜.png)\n\n    拍照技术有限, 味道还是很不错的\n\n## 附加内容\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+      "sections": [
+        {
+          "title": "上汤娃娃菜的做法",
+          "markdown": "\n这道上汤娃娃菜清甜鲜美，口感软嫩，属于家常素菜，尤其适合减肥期间食用。娃娃菜富含维生素和膳食纤维，低脂低热量，搭配皮蛋和午餐肉增添风味又不会过多增加负担。制作难度适中，新手也能尝试，从备菜到出锅大约只需 20 分钟。\n\n预估烹饪难度：★★★\n\n预估卡路里：158 大卡\n\n",
+          "level": 1
+        },
+        {
+          "title": "必备原料和工具",
+          "markdown": "\n- 娃娃菜\n- 皮蛋\n- 午餐肉（火腿肠）\n- 葱\n- 姜\n- 蒜\n- 盐\n- 糖\n- 淀粉\n\n",
+          "level": 2
+        },
+        {
+          "title": "计算",
+          "markdown": "\n注意，这道菜仅有足够 2-4 人食用的版本。\n\n- 娃娃菜 700g\n- 金针菇 10g（看个人喜好, 不喜欢 see you tomorrow 的就不放 😂）\n- 皮蛋 一个（没有也可以不放）\n- 午餐肉（火腿肠都可以替代）\n\n",
+          "level": 2
+        },
+        {
+          "title": "操作",
+          "markdown": "\n1. 娃娃菜洗净, 竖着切开切成段。\n2. 葱 3g 切 小段。蒜 10g 切片。姜 10g 切小片。\n3. 皮蛋切成丁, 火腿肠或者午餐肉切成丁（1cm 大小的丁）\n4. 金针菇洗净撕开\n5. 烧热水娃娃菜放进去十秒钟出一下水捞出。\n6. 热锅凉油, 加热锅倒入油过一遍就倒出来, 重新倒入一点油。\n7. 调至小火加入葱姜蒜，煎炒出香味即可。\n8. 加入适 300g 清水（水量没过娃娃菜即可）, 放入娃娃菜, 金针菇, 午餐肉\n9. 加入调味料蚝油、糖、盐、味精烧开。\n10. 煮 3 分钟, 煮开后开始装盘, 盛出娃娃菜后皮蛋放在上面把汤汁浇上去就可以了\n11. ![上汤娃娃菜](./上汤娃娃菜.png)\n\n    拍照技术有限, 味道还是很不错的\n\n",
+          "level": 2
+        },
+        {
+          "title": "附加内容",
+          "markdown": "\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+          "level": 2
+        }
+      ],
+      "images": [
+        {
+          "originalReference": "./上汤娃娃菜.png",
+          "originalUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/vegetable_dish/%E4%B8%8A%E6%B1%A4%E5%A8%83%E5%A8%83%E8%8F%9C/%E4%B8%8A%E6%B1%A4%E5%A8%83%E5%A8%83%E8%8F%9C.png",
+          "path": "assets/dishes/howtocook/cn-056/1.png",
+          "alt": "上汤娃娃菜",
+          "pageOrder": 1,
+          "adjacentText": "进去十秒钟出一下水捞出。\n6. 热锅凉油, 加热锅倒入油过一遍就倒出来, 重新倒入一点油。\n7. 调至小火加入葱姜蒜，煎炒出香味即可。\n8. 加入适 300g 清水（水量没过娃娃菜即可）, 放入娃娃菜, 金针菇, 午餐肉\n9. 加入调味料蚝油、糖、盐、味精烧开。\n10. 煮 3 分钟, 煮开后开始装盘, 盛出娃娃菜后皮蛋放在上面把汤汁浇上去就可以了\n11. ![上汤娃娃菜](./上汤娃娃菜.png)\n\n    拍照技术有限, 味道还是很不错的\n\n## 附加内容\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n"
+        }
+      ]
+    },
+    "sourceLimitations": [
+      "原文仅有够2—4人食用的版本，不压缩为单一人数；从备菜到出锅大约20分钟，总用时20分钟为约值。",
+      "此做法含午餐肉或火腿肠及皮蛋，原简介称家常素菜不准确，原文仅原样存档，不据此将菜标为素食。",
+      "清水原文写300克，同时要求水量没过娃娃菜，两项指示可能不一致，均保留不改算。",
+      "午餐肉或火腿肠、蚝油、糖、盐、味精及两次用油未量化，不补造；热锅用油过一遍后倒出，再倒少量油的操作保留。",
+      "淀粉列在必备原料，但未定量且操作未使用，保留食材并披露，不新增勾芡。",
+      "原操作第11编号仅为图片及作者拍照说明，保存在完整原文及图片原位置，不作为可执行步骤。",
+      "金针菇和皮蛋按来源为可选；清洗和焯娃娃菜的水未注明用量。"
+    ]
+  },
+  "generated": {
+    "id": "cn-056",
+    "name": "上汤娃娃菜",
+    "en": "Baby Napa Cabbage in Superior Broth",
+    "cuisine": "粤菜",
+    "category": "中餐",
+    "isHeritageFlavor": false,
+    "heritageStatus": null,
+    "ingredients": [
+      {
+        "id": "ingredient-01",
+        "name": "娃娃菜",
+        "label": "娃娃菜700克",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-02",
+        "name": "金针菇",
+        "label": "金针菇10克（按个人喜好可不放）",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-03",
+        "name": "皮蛋",
+        "label": "皮蛋1个（没有可不放）",
+        "isCore": true
+      },
+      {
+        "id": "ingredient-04",
+        "name": "午餐肉或火腿肠",
+        "label": "午餐肉或火腿肠适量（原文未注明用量）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-05",
+        "name": "葱",
+        "label": "葱3克",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-06",
+        "name": "蒜",
+        "label": "蒜10克",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-07",
+        "name": "姜",
+        "label": "姜10克",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-08",
+        "name": "清水",
+        "label": "清水300克（原文另要求没过娃娃菜，两项指示均保留）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-09",
+        "name": "蚝油",
+        "label": "蚝油适量（原文未注明用量）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-10",
+        "name": "糖",
+        "label": "糖适量（原文未注明用量）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-11",
+        "name": "盐",
+        "label": "盐适量（原文未注明用量）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-12",
+        "name": "味精",
+        "label": "味精适量（原文未注明用量）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-13",
+        "name": "淀粉",
+        "label": "淀粉适量（原文未注明用量，步骤未使用）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-14",
+        "name": "食用油",
+        "label": "食用油适量（热锅后倒出，再重新倒一点油，两次用量均未注明）",
+        "isCore": false
+      },
+      {
+        "id": "ingredient-15",
+        "name": "水",
+        "label": "水适量（清洗及焯娃娃菜用，原文未注明用量）",
+        "isCore": false
+      }
+    ],
+    "steps": [
+      {
+        "id": "step-01",
+        "instruction": "娃娃菜洗净， 竖着切开切成段。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-02",
+        "instruction": "葱 3g 切小段。蒜 10g 切片。姜 10g 切小片。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-03",
+        "instruction": "皮蛋切成丁， 火腿肠或者午餐肉切成丁（1cm 大小的丁）。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-04",
+        "instruction": "金针菇洗净撕开。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-05",
+        "instruction": "烧热水，将娃娃菜放进去焯十秒钟，捞出。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "confirm",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-06",
+        "instruction": "热锅凉油：加热锅后倒入油，过一遍就倒出来，重新倒入一点油。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-07",
+        "instruction": "调至小火加入葱姜蒜，煎炒出香味即可。",
+        "duration": null,
+        "heat": "low",
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-08",
+        "instruction": "加入300克清水（水量没过娃娃菜即可），放入娃娃菜、金针菇、午餐肉。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-09",
+        "instruction": "加入调味料蚝油、糖、盐、味精烧开。",
+        "duration": null,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "add",
+        "safetyNote": ""
+      },
+      {
+        "id": "step-10",
+        "instruction": "煮3分钟，煮开后开始装盘。盛出娃娃菜后，将皮蛋放在上面，再把汤汁浇上去即可。",
+        "duration": 180,
+        "heat": null,
+        "timerRequired": false,
+        "ingredientsUsed": [],
+        "gameAction": "wait",
+        "safetyNote": ""
+      }
+    ],
+    "howtocook": {
+      "commit": "a2d45c6984dff9ee941da0e7c452f7965965d962",
+      "path": "dishes/vegetable_dish/上汤娃娃菜/上汤娃娃菜.md",
+      "sha256": "3f78058f94d453648d94822db0384aafcb2b24736d8d6f4d60189fc6b21643db",
+      "rawMarkdown": "# 上汤娃娃菜的做法\n\n这道上汤娃娃菜清甜鲜美，口感软嫩，属于家常素菜，尤其适合减肥期间食用。娃娃菜富含维生素和膳食纤维，低脂低热量，搭配皮蛋和午餐肉增添风味又不会过多增加负担。制作难度适中，新手也能尝试，从备菜到出锅大约只需 20 分钟。\n\n预估烹饪难度：★★★\n\n预估卡路里：158 大卡\n\n## 必备原料和工具\n\n- 娃娃菜\n- 皮蛋\n- 午餐肉（火腿肠）\n- 葱\n- 姜\n- 蒜\n- 盐\n- 糖\n- 淀粉\n\n## 计算\n\n注意，这道菜仅有足够 2-4 人食用的版本。\n\n- 娃娃菜 700g\n- 金针菇 10g（看个人喜好, 不喜欢 see you tomorrow 的就不放 😂）\n- 皮蛋 一个（没有也可以不放）\n- 午餐肉（火腿肠都可以替代）\n\n## 操作\n\n1. 娃娃菜洗净, 竖着切开切成段。\n2. 葱 3g 切 小段。蒜 10g 切片。姜 10g 切小片。\n3. 皮蛋切成丁, 火腿肠或者午餐肉切成丁（1cm 大小的丁）\n4. 金针菇洗净撕开\n5. 烧热水娃娃菜放进去十秒钟出一下水捞出。\n6. 热锅凉油, 加热锅倒入油过一遍就倒出来, 重新倒入一点油。\n7. 调至小火加入葱姜蒜，煎炒出香味即可。\n8. 加入适 300g 清水（水量没过娃娃菜即可）, 放入娃娃菜, 金针菇, 午餐肉\n9. 加入调味料蚝油、糖、盐、味精烧开。\n10. 煮 3 分钟, 煮开后开始装盘, 盛出娃娃菜后皮蛋放在上面把汤汁浇上去就可以了\n11. ![上汤娃娃菜](./上汤娃娃菜.png)\n\n    拍照技术有限, 味道还是很不错的\n\n## 附加内容\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+      "sections": [
+        {
+          "title": "上汤娃娃菜的做法",
+          "markdown": "\n这道上汤娃娃菜清甜鲜美，口感软嫩，属于家常素菜，尤其适合减肥期间食用。娃娃菜富含维生素和膳食纤维，低脂低热量，搭配皮蛋和午餐肉增添风味又不会过多增加负担。制作难度适中，新手也能尝试，从备菜到出锅大约只需 20 分钟。\n\n预估烹饪难度：★★★\n\n预估卡路里：158 大卡\n\n",
+          "level": 1
+        },
+        {
+          "title": "必备原料和工具",
+          "markdown": "\n- 娃娃菜\n- 皮蛋\n- 午餐肉（火腿肠）\n- 葱\n- 姜\n- 蒜\n- 盐\n- 糖\n- 淀粉\n\n",
+          "level": 2
+        },
+        {
+          "title": "计算",
+          "markdown": "\n注意，这道菜仅有足够 2-4 人食用的版本。\n\n- 娃娃菜 700g\n- 金针菇 10g（看个人喜好, 不喜欢 see you tomorrow 的就不放 😂）\n- 皮蛋 一个（没有也可以不放）\n- 午餐肉（火腿肠都可以替代）\n\n",
+          "level": 2
+        },
+        {
+          "title": "操作",
+          "markdown": "\n1. 娃娃菜洗净, 竖着切开切成段。\n2. 葱 3g 切 小段。蒜 10g 切片。姜 10g 切小片。\n3. 皮蛋切成丁, 火腿肠或者午餐肉切成丁（1cm 大小的丁）\n4. 金针菇洗净撕开\n5. 烧热水娃娃菜放进去十秒钟出一下水捞出。\n6. 热锅凉油, 加热锅倒入油过一遍就倒出来, 重新倒入一点油。\n7. 调至小火加入葱姜蒜，煎炒出香味即可。\n8. 加入适 300g 清水（水量没过娃娃菜即可）, 放入娃娃菜, 金针菇, 午餐肉\n9. 加入调味料蚝油、糖、盐、味精烧开。\n10. 煮 3 分钟, 煮开后开始装盘, 盛出娃娃菜后皮蛋放在上面把汤汁浇上去就可以了\n11. ![上汤娃娃菜](./上汤娃娃菜.png)\n\n    拍照技术有限, 味道还是很不错的\n\n",
+          "level": 2
+        },
+        {
+          "title": "附加内容",
+          "markdown": "\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n",
+          "level": 2
+        }
+      ],
+      "images": [
+        {
+          "originalReference": "./上汤娃娃菜.png",
+          "originalUrl": "https://raw.githubusercontent.com/Anduin2017/HowToCook/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/vegetable_dish/%E4%B8%8A%E6%B1%A4%E5%A8%83%E5%A8%83%E8%8F%9C/%E4%B8%8A%E6%B1%A4%E5%A8%83%E5%A8%83%E8%8F%9C.png",
+          "path": "assets/dishes/howtocook/cn-056/1.png",
+          "alt": "上汤娃娃菜",
+          "pageOrder": 1,
+          "adjacentText": "进去十秒钟出一下水捞出。\n6. 热锅凉油, 加热锅倒入油过一遍就倒出来, 重新倒入一点油。\n7. 调至小火加入葱姜蒜，煎炒出香味即可。\n8. 加入适 300g 清水（水量没过娃娃菜即可）, 放入娃娃菜, 金针菇, 午餐肉\n9. 加入调味料蚝油、糖、盐、味精烧开。\n10. 煮 3 分钟, 煮开后开始装盘, 盛出娃娃菜后皮蛋放在上面把汤汁浇上去就可以了\n11. ![上汤娃娃菜](./上汤娃娃菜.png)\n\n    拍照技术有限, 味道还是很不错的\n\n## 附加内容\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n"
+        }
+      ],
+      "difficultyStars": "★★★"
+    },
+    "sourceLimitations": [
+      "原文仅有够2—4人食用的版本，不压缩为单一人数；从备菜到出锅大约20分钟，总用时20分钟为约值。",
+      "此做法含午餐肉或火腿肠及皮蛋，原简介称家常素菜不准确，原文仅原样存档，不据此将菜标为素食。",
+      "清水原文写300克，同时要求水量没过娃娃菜，两项指示可能不一致，均保留不改算。",
+      "午餐肉或火腿肠、蚝油、糖、盐、味精及两次用油未量化，不补造；热锅用油过一遍后倒出，再倒少量油的操作保留。",
+      "淀粉列在必备原料，但未定量且操作未使用，保留食材并披露，不新增勾芡。",
+      "原操作第11编号仅为图片及作者拍照说明，保存在完整原文及图片原位置，不作为可执行步骤。",
+      "金针菇和皮蛋按来源为可选；清洗和焯娃娃菜的水未注明用量。"
+    ],
+    "imageThumb": "assets/dishes/thumbnails/86-shangtang-wawacai.jpg",
+    "imageFull": "assets/dishes/ai/86-shangtang-wawacai.png",
+    "source": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/vegetable_dish/%E4%B8%8A%E6%B1%A4%E5%A8%83%E5%A8%83%E8%8F%9C/%E4%B8%8A%E6%B1%A4%E5%A8%83%E5%A8%83%E8%8F%9C.md",
+    "time": 20,
+    "timeBasis": "source",
+    "difficulty": "适中",
+    "defaultServings": null,
+    "servingsBasis": "unspecified",
+    "allergens": [
+      "egg",
+      "shellfish"
+    ],
+    "flags": {
+      "containsPork": true,
+      "containsBeef": false,
+      "containsAlcohol": false,
+      "spicy": false,
+      "vegetarian": false
+    },
+    "demoEnriched": true
+  },
+  "renderedIngredientRows": [
+    "娃娃菜700克",
+    "金针菇10克（按个人喜好可不放）",
+    "皮蛋1个（没有可不放）",
+    "午餐肉或火腿肠适量（原文未注明用量）",
+    "葱3克",
+    "蒜10克",
+    "姜10克",
+    "清水300克（原文另要求没过娃娃菜，两项指示均保留）",
+    "蚝油适量（原文未注明用量）",
+    "糖适量（原文未注明用量）",
+    "盐适量（原文未注明用量）",
+    "味精适量（原文未注明用量）",
+    "淀粉适量（原文未注明用量，步骤未使用）",
+    "食用油适量（热锅后倒出，再重新倒一点油，两次用量均未注明）",
+    "水适量（清洗及焯娃娃菜用，原文未注明用量）"
+  ],
+  "renderedSteps": [
+    "娃娃菜洗净， 竖着切开切成段。",
+    "葱 3g 切小段。蒜 10g 切片。姜 10g 切小片。",
+    "皮蛋切成丁， 火腿肠或者午餐肉切成丁（1cm 大小的丁）。",
+    "金针菇洗净撕开。",
+    "烧热水，将娃娃菜放进去焯十秒钟，捞出。",
+    "热锅凉油：加热锅后倒入油，过一遍就倒出来，重新倒入一点油。",
+    "调至小火加入葱姜蒜，煎炒出香味即可。",
+    "加入300克清水（水量没过娃娃菜即可），放入娃娃菜、金针菇、午餐肉。",
+    "加入调味料蚝油、糖、盐、味精烧开。",
+    "煮3分钟，煮开后开始装盘。盛出娃娃菜后，将皮蛋放在上面，再把汤汁浇上去即可。"
+  ]
+}

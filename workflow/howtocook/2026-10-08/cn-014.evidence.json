@@ -1,0 +1,177 @@
+{
+  "recipeId": "cn-014",
+  "recipeName": "柳州螺蛳粉",
+  "category": "chinese",
+  "createdAt": "2026-10-08T07:14:35.262630+00:00",
+  "sources": [
+    {
+      "sourceName": "HowToCook",
+      "sourceType": "website",
+      "url": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/staple/%E8%9E%BA%E8%9B%B3%E7%B2%89.md",
+      "documentId": "60a04e20-23c1-407b-a88e-59d36b3a2796",
+      "retrievalMethod": "GitHub immutable raw Markdown via configured local HTTP proxy; no access-control bypass",
+      "complete": true,
+      "ingredients": [
+        {
+          "name": "袋装螺蛳粉",
+          "raw": "根据个人经验，一包袋装螺蛳粉足够一人一餐食（虽然看着很大包）",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "米粉",
+          "raw": "螺蛳粉是广西柳州的特色小吃，汤鲜味浓，酸辣爽口，米粉软滑筋道。口味上融合了螺蛳汤的鲜美、酸笋的独特发酵风味和辣椒油的刺激，层次分明。作为主食，米粉提供充足碳水化合物，螺蛳肉包和配料带来一定蛋白质，酸笋则有助于开胃促消化。这道菜所需操作简单，只需按顺序煮熟米粉和调味即可，对新手非常友好。从烧水到出锅，最快约十分钟就能端上餐桌，适合快手解决一餐。",
+          "amount": null,
+          "sourceSection": "操作/附加内容"
+        },
+        {
+          "name": "螺蛳肉包",
+          "raw": "螺蛳粉是广西柳州的特色小吃，汤鲜味浓，酸辣爽口，米粉软滑筋道。口味上融合了螺蛳汤的鲜美、酸笋的独特发酵风味和辣椒油的刺激，层次分明。作为主食，米粉提供充足碳水化合物，螺蛳肉包和配料带来一定蛋白质，酸笋则有助于开胃促消化。这道菜所需操作简单，只需按顺序煮熟米粉和调味即可，对新手非常友好。从烧水到出锅，最快约十分钟就能端上餐桌，适合快手解决一餐。",
+          "amount": null,
+          "sourceSection": "操作/附加内容"
+        },
+        {
+          "name": "汤料包",
+          "raw": "汤料包",
+          "amount": null,
+          "sourceSection": "操作/附加内容"
+        },
+        {
+          "name": "水",
+          "raw": "水 1L",
+          "amount": null,
+          "sourceSection": "计算"
+        },
+        {
+          "name": "酸笋包、花生包、豆皮包、木耳包等配料包",
+          "raw": "酸笋包、花生包、豆皮包、木耳包等配料包",
+          "amount": null
+        },
+        {
+          "name": "醋包、辣椒油等调味包",
+          "raw": "醋包、辣椒油等调味包",
+          "amount": null
+        }
+      ],
+      "steps": [
+        {
+          "order": 1,
+          "instruction": "锅中加水，将水烧开",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 1
+        },
+        {
+          "order": 2,
+          "instruction": "下米粉，煮 3-5 分钟，期间用筷子搅拌，防止米粉粘在一起",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 2
+        },
+        {
+          "order": 3,
+          "instruction": "下汤料包，按个人口味添加",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 3
+        },
+        {
+          "order": 4,
+          "instruction": "下一部分配料包，如木耳，花生，螺蛳（这部分配料需要煮一会才入味）",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 4
+        },
+        {
+          "order": 5,
+          "instruction": "下调味包，按个人口味添加",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 5
+        },
+        {
+          "order": 6,
+          "instruction": "搅拌后捞出，放入碗中",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 6
+        },
+        {
+          "order": 7,
+          "instruction": "下剩下的配料包，如酸笋，豆皮（这部分配料不适合被汤泡太久）",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 7
+        },
+        {
+          "order": 8,
+          "instruction": "享用美食",
+          "duration": null,
+          "heat": null,
+          "sourceOrder": 8
+        }
+      ],
+      "technique": [
+        "- 根据个人经验，一包袋装螺蛳粉足够一人一餐食（虽然看着很大包）\n- 水 1L"
+      ],
+      "tips": [
+        "- 如果想要更有嚼劲的粉，可以缩短第二步煮粉的时间\n- 如果想在螺蛳粉中添加炸蛋，请参考炸蛋的教程\n- 配料的选择请依照个人口味\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+      ],
+      "rawExcerpt": "# 螺蛳粉的做法\n\n螺蛳粉是广西柳州的特色小吃，汤鲜味浓，酸辣爽口，米粉软滑筋道。口味上融合了螺蛳汤的鲜美、酸笋的独特发酵风味和辣椒油的刺激，层次分明。作为主食，米粉提供充足碳水化合物，螺蛳肉包和配料带来一定蛋白质，酸笋则有助于开胃促消化。这道菜所需操作简单，只需按顺序煮熟米粉和调味即可，对新手非常友好。从烧水到出锅，最快约十分钟就能端上餐桌，适合快手解决一餐。\n\n预估烹饪难度：★\n\n预估卡路里：1109 大卡\n\n## 必备原料和工具\n\n> 出于家常菜考虑，从螺蛳，酸笋等工序开始制作螺蛳粉并不现实，因此本食谱基于袋装螺蛳粉实现。\n\n### 原料\n\n- 袋装螺蛳粉一包，其中应该包含：\n  - 米粉\n  - 螺蛳肉包（可能放在配料包中）\n  - 汤料包\n  - 酸笋包、花生包、豆皮包、木耳包等配料包\n  - 醋包、辣椒油等调味包\n\n### 工具\n\n- 煮锅\n\n- 电磁炉/灶台\n\n- 筷子一双\n\n## 计算\n\n- 根据个人经验，一包袋装螺蛳粉足够一人一餐食（虽然看着很大包）\n- 水 1L\n\n## 操作\n\n1. 锅中加水，将水烧开\n2. 下米粉，煮 3-5 分钟，期间用筷子搅拌，防止米粉粘在一起\n3. 下汤料包，按个人口味添加\n4. 下一部分配料包，如木耳，花生，螺蛳（这部分配料需要煮一会才入味）\n5. 下调味包，按个人口味添加\n6. 搅拌后捞出，放入碗中\n7. 下剩下的配料包，如酸笋，豆皮（这部分配料不适合被汤泡太久）\n8. 享用美食\n\n## 附加内容\n\n- 如果想要更有嚼劲的粉，可以缩短第二步煮粉的时间\n- 如果想在螺蛳粉中添加炸蛋，请参考炸蛋的教程\n- 配料的选择请依照个人口味\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n"
+    }
+  ],
+  "sourceMode": "single_source",
+  "singleSourceReason": "User explicitly directed exclusive HowToCook source and exact upstream transcription.",
+  "selectedSourceUrl": "https://github.com/Anduin2017/HowToCook/blob/a2d45c6984dff9ee941da0e7c452f7965965d962/dishes/staple/%E8%9E%BA%E8%9B%B3%E7%B2%89.md",
+  "selectionReason": "正文明确广西柳州；原版为袋装螺蛳粉，不是自制螺蛳汤。",
+  "ragEvidence": [
+    {
+      "chunkId": "cac2471a-84f3-4a28-967c-e2898908eb57",
+      "documentId": "60a04e20-23c1-407b-a88e-59d36b3a2796",
+      "sourceName": "HowToCook",
+      "chunkType": "tips",
+      "content": "菜名：柳州螺蛳粉\n- - 如果想要更有嚼劲的粉，可以缩短第二步煮粉的时间 - 如果想在螺蛳粉中添加炸蛋，请参考炸蛋的教程 - 配料的选择请依照个人口味 如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。",
+      "similarity": 0.694259586417045
+    },
+    {
+      "chunkId": "9d9b4709-8535-4be9-8e5b-cde15f172ae4",
+      "documentId": "60a04e20-23c1-407b-a88e-59d36b3a2796",
+      "sourceName": "HowToCook",
+      "chunkType": "steps",
+      "content": "菜名：柳州螺蛳粉\n1. 锅中加水，将水烧开\n2. 下米粉，煮 3-5 分钟，期间用筷子搅拌，防止米粉粘在一起\n3. 下汤料包，按个人口味添加\n4. 下一部分配料包，如木耳，花生，螺蛳（这部分配料需要煮一会才入味）\n5. 下调味包，按个人口味添加\n6. 搅拌后捞出，放入碗中\n7. 下剩下的配料包，如酸笋，豆皮（这部分配料不适合被汤泡太久）\n8. 享用美食",
+      "similarity": 0.647722838615435
+    },
+    {
+      "chunkId": "3d30abf7-711a-4358-b613-775f60b97e26",
+      "documentId": "60a04e20-23c1-407b-a88e-59d36b3a2796",
+      "sourceName": "HowToCook",
+      "chunkType": "summary",
+      "content": "菜名：柳州螺蛳粉\n别名：螺蛳粉\n简介：# 螺蛳粉的做法 螺蛳粉是广西柳州的特色小吃，汤鲜味浓，酸辣爽口，米粉软滑筋道。口味上融合了螺蛳汤的鲜美、酸笋的独特发酵风味和辣椒油的刺激，层次分明。作为主食，米粉提供充足碳水化合物，螺蛳肉包和配料带来一定蛋白质，酸笋则有助于开胃促消化。这道菜所需操作简单，只需按顺序煮熟米粉和调味即可，对新手非常友好。从烧水到出锅，最快约十分钟就能端上餐桌，适合快手解决一餐。 预估烹饪难度：★ 预估卡路里：1109 大卡",
+      "similarity": 0.638157663180622
+    },
+    {
+      "chunkId": "156e28d0-8372-4a6b-8c5e-dbe1ea56bda8",
+      "documentId": "60a04e20-23c1-407b-a88e-59d36b3a2796",
+      "sourceName": "HowToCook",
+      "chunkType": "technique",
+      "content": "菜名：柳州螺蛳粉\n- - 根据个人经验，一包袋装螺蛳粉足够一人一餐食（虽然看着很大包） - 水 1L",
+      "similarity": 0.634001826346193
+    },
+    {
+      "chunkId": "111db27c-ef82-4738-81f4-7c8735cc3705",
+      "documentId": "60a04e20-23c1-407b-a88e-59d36b3a2796",
+      "sourceName": "HowToCook",
+      "chunkType": "ingredients",
+      "content": "菜名：柳州螺蛳粉\n- 根据个人经验，一包袋装螺蛳粉足够一人一餐食（虽然看着很大包）\n- 螺蛳粉是广西柳州的特色小吃，汤鲜味浓，酸辣爽口，米粉软滑筋道。口味上融合了螺蛳汤的鲜美、酸笋的独特发酵风味和辣椒油的刺激，层次分明。作为主食，米粉提供充足碳水化合物，螺蛳肉包和配料带来一定蛋白质，酸笋则有助于开胃促消化。这道菜所需操作简单，只需按顺序煮熟米粉和调味即可，对新手非常友好。从烧水到出锅，最快约十分钟就能端上餐桌，适合快手解决一餐。\n- 螺蛳粉是广西柳州的特色小吃，汤鲜味浓，酸辣爽口，米粉软滑筋道。口味上融合了螺蛳汤的鲜美、酸笋的独特发酵风味和辣椒油的刺激，层次分明。作为主食，米粉提供充足碳水化合物，螺蛳肉包和配料带来一定蛋白质，酸笋则有助于开胃促消化。这道菜所需操作简单，只需按顺序煮熟米粉和调味即可，对新手非常友好。从烧水到出锅，最快约十分钟就能端上餐桌，适合快手解决一餐。\n- 汤料包\n- 水 1L\n- 酸笋包、花生包、豆皮包、木耳包等配料包\n- 醋包、辣椒油等调味包",
+      "similarity": 0.578268341267261
+    }
+  ],
+  "notes": [
+    "用户明确要求仅用 HowToCook，原文完整转录；complete=true 表示上游文档完整抓取，不表示烹饪参数无遗漏。",
+    "Source limitations: 正文明确广西柳州；原版为袋装螺蛳粉，不是自制螺蛳汤。 本上游菜谱无图片，按用户要求不补造图片。 原文用量、工具、操作及措辞按原样保留；未说明的参数不补造。",
+    "GitHub commit a2d45c6984dff9ee941da0e7c452f7965965d962; path dishes/staple/螺蛳粉.md",
+    "媒体按原文位置保留；未要求映射的照片不伪称步骤图。",
+    "Existing exact-name knowledge-base documents checked before source fetching: 0",
+    "Existing exact-name knowledge-base documents checked before source fetching: 0"
+  ]
+}

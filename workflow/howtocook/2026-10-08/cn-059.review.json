@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "完整原文、5步、1人份、20分钟约值及可选食材保持。起锅时序、虾仁加入时间等源缺项披露，egg/shellfish/sesame识别正确，独立四项语言审查通过。",
+  "evidencePackageHash": "f3965eb18b7aefb4b02c42bc2bfec0f8fa3c90b0bf2df5f7133c0477f4a7005a",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

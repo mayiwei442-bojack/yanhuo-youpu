@@ -1,0 +1,151 @@
+{
+  "ok": true,
+  "recipes": [
+    {
+      "recipeId": "cn-014",
+      "originalSections": 7,
+      "images": 0,
+      "passed": true
+    },
+    {
+      "recipeId": "cn-017",
+      "originalSections": 5,
+      "images": 12,
+      "passed": true
+    },
+    {
+      "recipeId": "cn-021",
+      "originalSections": 5,
+      "images": 1,
+      "passed": true
+    },
+    {
+      "recipeId": "cn-030",
+      "originalSections": 5,
+      "images": 0,
+      "passed": true
+    },
+    {
+      "recipeId": "cn-032",
+      "originalSections": 5,
+      "images": 1,
+      "passed": true
+    },
+    {
+      "recipeId": "cn-033",
+      "originalSections": 5,
+      "images": 0,
+      "passed": true
+    },
+    {
+      "recipeId": "cn-034",
+      "originalSections": 5,
+      "images": 0,
+      "passed": true
+    },
+    {
+      "recipeId": "cn-038",
+      "originalSections": 5,
+      "images": 1,
+      "passed": true
+    },
+    {
+      "recipeId": "cn-041",
+      "originalSections": 5,
+      "images": 0,
+      "passed": true
+    },
+    {
+      "recipeId": "cn-042",
+      "originalSections": 5,
+      "images": 0,
+      "passed": true
+    },
+    {
+      "recipeId": "cn-045",
+      "originalSections": 9,
+      "images": 0,
+      "passed": true
+    },
+    {
+      "recipeId": "cn-046",
+      "originalSections": 9,
+      "images": 0,
+      "passed": true
+    },
+    {
+      "recipeId": "cn-047",
+      "originalSections": 8,
+      "images": 0,
+      "passed": true
+    },
+    {
+      "recipeId": "cn-048",
+      "originalSections": 9,
+      "images": 0,
+      "passed": true
+    },
+    {
+      "recipeId": "cn-052",
+      "originalSections": 5,
+      "images": 4,
+      "passed": true
+    },
+    {
+      "recipeId": "cn-055",
+      "originalSections": 5,
+      "images": 1,
+      "passed": true
+    },
+    {
+      "recipeId": "cn-056",
+      "originalSections": 5,
+      "images": 1,
+      "passed": true
+    },
+    {
+      "recipeId": "cn-057",
+      "originalSections": 5,
+      "images": 0,
+      "passed": true
+    },
+    {
+      "recipeId": "cn-058",
+      "originalSections": 5,
+      "images": 0,
+      "passed": true
+    },
+    {
+      "recipeId": "cn-059",
+      "originalSections": 5,
+      "images": 0,
+      "passed": true
+    },
+    {
+      "recipeId": "cn-060",
+      "originalSections": 5,
+      "images": 1,
+      "passed": true
+    },
+    {
+      "recipeId": "west-001",
+      "originalSections": 5,
+      "images": 3,
+      "passed": true
+    },
+    {
+      "recipeId": "west-003",
+      "originalSections": 9,
+      "images": 1,
+      "passed": true
+    },
+    {
+      "recipeId": "west-010",
+      "originalSections": 8,
+      "images": 0,
+      "passed": true
+    }
+  ],
+  "sourceHtmlEscaped": true,
+  "unrelatedRecipesUnchanged": true
+}
