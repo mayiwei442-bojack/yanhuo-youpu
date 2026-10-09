@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "确认生成原料名称已分别修正为莳萝和罗勒，标签仍保留半小把用量。复核23项原料及12步仍整体忠于BBC来源，腌制、面糊冷藏、190℃油温、每批4分钟及装配顺序正确；65分钟、4份和来源限制披露完整，未补造未知数据。鱼、蛋、小麦、含酒和非素食标签合理。纯文字授权适用且无运行时图片引用。全部原料行与步骤的独立对抗语言结构审查通过，修订版确定性验证、浏览器及构建检查通过。",
+  "evidencePackageHash": "5e5544835805346baed5f7d93922cdfb63c74a04f785c126fce85200048a353a",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

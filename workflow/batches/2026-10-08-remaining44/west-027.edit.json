@@ -1,0 +1,11 @@
+{
+  "targetId": "west-027",
+  "changedFields": ["ingredients", "steps", "source", "timing", "servings", "textOnly", "vegetarian", "containsAlcohol", "sourceLimitations"],
+  "selectedSource": "BBC Good Food",
+  "selectionReason": "候选均完整自洽；BBC具已核验来源成品图，按规定排序胜出，整套采用、不混源。",
+  "evidencePath": "workflow/batches/2026-10-08-remaining44/west-027.base-evidence.json",
+  "evidenceHash": "5e5544835805346baed5f7d93922cdfb63c74a04f785c126fce85200048a353a",
+  "result": "23项原料、12步，4份；保留腌洋葱、塔塔酱、啤酒面糊、190℃油温及每批炸4分钟。来源总用时65分钟。",
+  "unresolvedConflicts": ["配方卡总时长与最低冷藏等待的关系未解释", "鱼重量、内部温度及饼皮加热参数未给", "部分成品配料未知，均已披露"],
+  "scopeCheck": "仅west-027变化；身份和img保留，textOnly:true，无运行时媒体，未修改其他文件。"
+}

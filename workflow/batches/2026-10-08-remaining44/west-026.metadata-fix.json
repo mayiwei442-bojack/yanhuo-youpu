@@ -1,0 +1,8 @@
+{
+  "targetId": "west-026",
+  "issueFromReview": "generated.allergens omitted dairy for source-listed plain live-culture yogurt",
+  "fix": "Extended dairy ingredient detection to include 酸奶 and added a generated-data regression assertion for west-026.",
+  "canonicalRecipeChanged": false,
+  "evidencePath": "workflow/batches/2026-10-08-remaining44/west-026.base-evidence.json",
+  "evidenceHash": "5e68e1586d66854a3a96c909f0178479a22379943820026789cb3e192d668350"
+}

@@ -1,0 +1,22 @@
+{
+  "status": "FAIL",
+  "issues": [
+    {
+      "field": "generated.steps[9].instruction",
+      "message": "第10步称“后面两步是替代路线，不要连续执行”，但第11步打汤过筛与第12步分批汆鱼是细腻版必须连续执行的两个阶段。该指引错误地阻止完整执行细腻路线。应明确乡村版执行第10步后跳至第13步，细腻版连续执行第11、12步后进入第13步。"
+    },
+    {
+      "field": "canonical.ingredients[8] / generated.steps[3].instruction",
+      "message": "另列的第二根韭葱没有可执行的处理或加入安排，编辑又明确表示未指定其加入方式，因此原料数量与操作无法对应。披露来源问题不能解决这一整根食材的归属，当前证据不足以确认所选配方完整自洽；应取得同源澄清或重新选择一套完整来源，不应自行补造。"
+    }
+  ],
+  "summary": "已核对31项原料、14步、120分钟、6份及生成元数据；过敏原、含酒、非素食和纯文字无图引用检查通过，确定性验证通过。鱼种举例差异及同一块土豆转用于蒜香酱处理合理，但第二根韭葱操作归属未解决，且路线跳转文字存在实质矛盾，不能通过。",
+  "evidencePackageHash": "eb8c010a2b99dad0597f2beec01c9551fea889d7025e13ee5b9166bc2131078f",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": false,
+    "stepGrammar": false,
+    "punctuation": true,
+    "renderedStructure": false
+  }
+}

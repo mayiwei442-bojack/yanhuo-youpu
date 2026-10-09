@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "29项原料和17步忠于BBC单源，分煎茄子、羊肉酱收浓、土豆煮制晾干、离火分次加奶及蛋、全部奶酪加入白酱、分层烘烤和静置顺序完整。165分钟、8份及计时控制符合证据。燃气4档的来源冲突已明确披露，执行指令保留200℃或热风180℃，未将矛盾档位作为等价建议；缺失火力和用量未补造。羊肉身份、乳制品、蛋、小麦、含酒和非素食标记正确。纯文字授权适用且无运行时图片引用。全部原料行及步骤的独立对抗语言结构审查通过，确定性验证通过。",
+  "evidencePackageHash": "3957ed4465920ab2d92f8c81acadf798830bdae24d2052e6a378aaa151adf3a3",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

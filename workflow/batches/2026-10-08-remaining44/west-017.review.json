@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "23项原料与13步完整采用BBC配方，未混源。橄榄油分用、分批煎鸡、鸡腿与鸡胸回锅阶段、酒液分次加入、另煎蘑菇及增稠收汁次序准确。105分钟、6份及来源时间范围保留，未补造固定计时、内部温度或酒精完全去除保证；重量状态和缺失信息已披露。乳制品、小麦、猪肉、含酒和非素食标记合理。纯文字授权适用，生成记录无运行时图片引用。全部原料行与步骤的独立对抗语言结构审查通过，确定性验证通过。",
+  "evidencePackageHash": "960bbf8f12fa9475241029e4c535de89765b364596b58e44bc506240ee2fcb35",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

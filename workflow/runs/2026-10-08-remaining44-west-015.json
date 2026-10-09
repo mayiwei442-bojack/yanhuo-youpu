@@ -16,7 +16,12 @@
         "selectedSourceUrl": "https://www.bbcgoodfood.com/recipes/chicken-parmigiana",
         "sourceMode": "single_source",
         "singleSourceReason": "Exact-name and alias KB query first; all84actual book records checked, no matching Western recipe. Enabled BBC and Serious Eats alternatives attempted; only one independent complete coherent source remains eligible. Other inaccessible, materially different, or internally conflicting variants are retained in audit and never used to supplement it.",
-        "publicationGate": "Final image/evidence acceptance pending"
+        "publicationGate": "User approved text-only recipe; image requirements waived for this recipe.",
+        "textOnlyAuthorization": {
+          "authorizationId": "user_explicit_2026-10-09_remaining44_text_only",
+          "authorizationPath": "workflow/batches/2026-10-08-remaining44/text-only-authorization.json",
+          "authorizationHash": "b5cf005e786f61724cf1e18cd541c5d3b4387388b23240125d906e22f03d01b0"
+        }
       }
     },
     "ingestion": {
@@ -32,20 +37,207 @@
       }
     },
     "edit": {
-      "status": "pending",
-      "attempts": 0
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "targetId": "west-015",
+        "changedFields": [
+          "ingredients",
+          "steps",
+          "source",
+          "timing",
+          "servings",
+          "textOnly",
+          "vegetarian",
+          "sourceLimitations"
+        ],
+        "evidencePath": "workflow/batches/2026-10-08-remaining44/west-015.base-evidence.json",
+        "evidenceHash": "2abc4c88be2232ae408f06c0b23d69a21711e49788a1d388f5e3b67b8a177f95",
+        "unresolvedConflicts": [
+          "鸡胸重量、硬币厚度数值及烧烤温度未给，未补造。",
+          "卡片时间与阶段时间的统筹关系、调味料及配餐细节未明确，已披露。"
+        ],
+        "scopeCheck": "仅west-015变化；30分钟、4份；乳制品、蛋、小麦标签检测通过；textOnly:true、vegetarian:false，无media，身份及img保持。"
+      }
     },
     "validator": {
-      "status": "pending",
-      "attempts": 0
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "ok": true,
+        "targetId": "west-015",
+        "checks": [
+          {
+            "name": "unique_ids",
+            "passed": true
+          },
+          {
+            "name": "target_exists_once",
+            "passed": true
+          },
+          {
+            "name": "required_fields",
+            "passed": true
+          },
+          {
+            "name": "target_name",
+            "passed": true
+          },
+          {
+            "name": "target_ingredients",
+            "passed": true,
+            "count": 13
+          },
+          {
+            "name": "target_steps",
+            "passed": true,
+            "count": 10
+          },
+          {
+            "name": "stable_target_fields",
+            "passed": true,
+            "allowedChanges": [
+              "source"
+            ]
+          },
+          {
+            "name": "target_changed",
+            "passed": true,
+            "required": true
+          },
+          {
+            "name": "target_only_diff",
+            "passed": true,
+            "changed": []
+          },
+          {
+            "name": "generated_target_exists",
+            "passed": true
+          }
+        ],
+        "errors": [],
+        "commands": [
+          {
+            "command": "D:\\node.exe tools/build_html_demo_data.mjs",
+            "passed": true,
+            "status": 0,
+            "stdout": "Generated 91 recipes.",
+            "stderr": ""
+          },
+          {
+            "command": "D:\\node.exe tools/test_html_demo.mjs",
+            "passed": true,
+            "status": 0,
+            "stdout": "{\n  \"ok\": true,\n  \"recipes\": 91,\n  \"pantryItems\": 35,\n  \"verifiedMedia\": [\n    {\n      \"id\": \"cn-001\",\n      \"steps\": 6,\n      \"stepImages\": 6\n    },\n    {\n      \"id\": \"cn-002\",\n      \"steps\": 7,\n      \"stepImages\": 6\n    },\n    {\n      \"id\": \"cn-003\",\n      \"steps\": 6,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"cn-004\",\n      \"steps\": 7,\n      \"stepImages\": 5\n    },\n    {\n      \"id\": \"cn-005\",\n      \"steps\": 11,\n      \"stepImages\": 11\n    },\n    {\n      \"id\": \"cn-006\",\n      \"steps\": 5,\n      \"stepImages\": 3\n    },\n    {\n      \"id\": \"cn-007\",\n      \"steps\": 19,\n      \"stepImages\": 19\n    },\n    {\n      \"id\": \"cn-008\",\n      \"steps\": 9,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"cn-009\",\n      \"steps\": 8,\n      \"stepImages\": 8\n    },\n    {\n      \"id\": \"cn-010\",\n      \"steps\": 13,\n      \"stepImages\": 13\n    },\n    {\n      \"id\": \"cn-011\",\n      \"steps\": 9,\n      \"stepImages\": 9\n    },\n    {\n      \"id\": \"cn-019\",\n      \"steps\": 8,\n      \"stepImages\": 5\n    },\n    {\n      \"id\": \"cn-020\",\n      \"steps\": 14,\n      \"stepImages\": 12\n    },\n    {\n      \"id\": \"cn-024\",\n      \"steps\": 16,\n      \"stepImages\": 15\n    },\n    {\n      \"id\": \"cn-027\",\n      \"steps\": 17,\n      \"stepImages\": 17\n    },\n    {\n      \"id\": \"cn-029\",\n      \"steps\": 13,\n      \"stepImages\": 12\n    },\n    {\n      \"id\": \"cn-031\",\n      \"steps\": 8,\n      \"stepImages\": 7\n    },\n    {\n      \"id\": \"cn-035\",\n      \"steps\": 10,\n      \"stepImages\": 7\n    },\n    {\n      \"id\": \"cn-036\",\n      \"steps\": 4,\n      \"stepImages\": 3\n    },\n    {\n      \"id\": \"cn-039\",\n      \"steps\": 27,\n      \"stepImages\": 20\n    },\n    {\n      \"id\": \"cn-040\",\n      \"steps\": 17,\n      \"stepImages\": 10\n    },\n    {\n      \"id\": \"cn-044\",\n      \"steps\": 27,\n      \"stepImages\": 9\n    },\n    {\n      \"id\": \"cn-051\",\n      \"steps\": 17,\n      \"stepImages\": 8\n    },\n    {\n      \"id\": \"cn-053\",\n      \"steps\": 16,\n      \"stepImages\": 9\n    },\n    {\n      \"id\": \"cn-054\",\n      \"steps\": 11,\n      \"stepImages\": 9\n    },\n    {\n      \"id\": \"west-004\",\n      \"steps\": 4,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-006\",\n      \"steps\": 4,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-011\",\n      \"steps\": 5,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-012\",\n      \"steps\": 10,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-020\",\n      \"steps\": 8,\n      \"stepImages\": 5\n    },\n    {\n      \"id\": \"west-024\",\n      \"steps\": 7,\n      \"stepImages\": 6\n    },\n    {\n      \"id\": \"west-031\",\n      \"steps\": 6,\n      \"stepImages\": 0\n    }\n  ],\n  \"testedRoutes\": [\n    \"home\",\n    \"pantry\",\n    \"recommendations\",\n    \"recipe\",\n    \"game\",\n    \"cook\",\n    \"shopping\",\n    \"recipes\",\n    \"me\"\n  ],\n  \"browserErrors\": []\n}",
+            "stderr": ""
+          },
+          {
+            "command": "D:\\node.exe tools/build_vercel_output.mjs",
+            "passed": true,
+            "status": 0,
+            "stdout": "Vercel 静态构建完成：C:\\Users\\myw\\Documents\\recipe-automation\\dist\nVercel Build Output 已生成：C:\\Users\\myw\\Documents\\recipe-automation\\.vercel\\output",
+            "stderr": ""
+          }
+        ]
+      }
     },
     "review": {
-      "status": "pending",
-      "attempts": 0
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "status": "PASS",
+        "issues": [],
+        "summary": "13项原料及10步完整采用BBC上火烧烤版本，未混入其他候选的腌制、面粉裹层或煎炸操作。干酪分用、蘸蛋裹糠、冷藏、两面烧烤及酱汁奶酪组装顺序准确。30分钟和4份保留来源值；鸡胸重量、硬币厚度数值、烧烤温度及阶段时间关系已明确披露，未补造。乳制品、鸡蛋、小麦过敏原和非素食标记正确。纯文字授权适用，生成记录无运行时图片引用。全部原料行及步骤的独立对抗语言和结构审查通过，确定性验证通过。",
+        "evidencePackageHash": "2abc4c88be2232ae408f06c0b23d69a21711e49788a1d388f5e3b67b8a177f95",
+        "validatorPassed": true,
+        "adversarialReview": {
+          "ingredientSemantics": true,
+          "stepGrammar": true,
+          "punctuation": true,
+          "renderedStructure": true
+        }
+      }
     },
     "build": {
-      "status": "pending",
-      "attempts": 0
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "ok": true,
+        "targetId": "west-015",
+        "checks": [
+          {
+            "name": "unique_ids",
+            "passed": true
+          },
+          {
+            "name": "target_exists_once",
+            "passed": true
+          },
+          {
+            "name": "required_fields",
+            "passed": true
+          },
+          {
+            "name": "target_name",
+            "passed": true
+          },
+          {
+            "name": "target_ingredients",
+            "passed": true,
+            "count": 13
+          },
+          {
+            "name": "target_steps",
+            "passed": true,
+            "count": 10
+          },
+          {
+            "name": "stable_target_fields",
+            "passed": true,
+            "allowedChanges": [
+              "source"
+            ]
+          },
+          {
+            "name": "target_changed",
+            "passed": true,
+            "required": true
+          },
+          {
+            "name": "target_only_diff",
+            "passed": true,
+            "changed": []
+          },
+          {
+            "name": "generated_target_exists",
+            "passed": true
+          }
+        ],
+        "errors": [],
+        "commands": [
+          {
+            "command": "D:\\node.exe tools/build_html_demo_data.mjs",
+            "passed": true,
+            "status": 0,
+            "stdout": "Generated 91 recipes.",
+            "stderr": ""
+          },
+          {
+            "command": "D:\\node.exe tools/test_html_demo.mjs",
+            "passed": true,
+            "status": 0,
+            "stdout": "{\n  \"ok\": true,\n  \"recipes\": 91,\n  \"pantryItems\": 35,\n  \"verifiedMedia\": [\n    {\n      \"id\": \"cn-001\",\n      \"steps\": 6,\n      \"stepImages\": 6\n    },\n    {\n      \"id\": \"cn-002\",\n      \"steps\": 7,\n      \"stepImages\": 6\n    },\n    {\n      \"id\": \"cn-003\",\n      \"steps\": 6,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"cn-004\",\n      \"steps\": 7,\n      \"stepImages\": 5\n    },\n    {\n      \"id\": \"cn-005\",\n      \"steps\": 11,\n      \"stepImages\": 11\n    },\n    {\n      \"id\": \"cn-006\",\n      \"steps\": 5,\n      \"stepImages\": 3\n    },\n    {\n      \"id\": \"cn-007\",\n      \"steps\": 19,\n      \"stepImages\": 19\n    },\n    {\n      \"id\": \"cn-008\",\n      \"steps\": 9,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"cn-009\",\n      \"steps\": 8,\n      \"stepImages\": 8\n    },\n    {\n      \"id\": \"cn-010\",\n      \"steps\": 13,\n      \"stepImages\": 13\n    },\n    {\n      \"id\": \"cn-011\",\n      \"steps\": 9,\n      \"stepImages\": 9\n    },\n    {\n      \"id\": \"cn-019\",\n      \"steps\": 8,\n      \"stepImages\": 5\n    },\n    {\n      \"id\": \"cn-020\",\n      \"steps\": 14,\n      \"stepImages\": 12\n    },\n    {\n      \"id\": \"cn-024\",\n      \"steps\": 16,\n      \"stepImages\": 15\n    },\n    {\n      \"id\": \"cn-027\",\n      \"steps\": 17,\n      \"stepImages\": 17\n    },\n    {\n      \"id\": \"cn-029\",\n      \"steps\": 13,\n      \"stepImages\": 12\n    },\n    {\n      \"id\": \"cn-031\",\n      \"steps\": 8,\n      \"stepImages\": 7\n    },\n    {\n      \"id\": \"cn-035\",\n      \"steps\": 10,\n      \"stepImages\": 7\n    },\n    {\n      \"id\": \"cn-036\",\n      \"steps\": 4,\n      \"stepImages\": 3\n    },\n    {\n      \"id\": \"cn-039\",\n      \"steps\": 27,\n      \"stepImages\": 20\n    },\n    {\n      \"id\": \"cn-040\",\n      \"steps\": 17,\n      \"stepImages\": 10\n    },\n    {\n      \"id\": \"cn-044\",\n      \"steps\": 27,\n      \"stepImages\": 9\n    },\n    {\n      \"id\": \"cn-051\",\n      \"steps\": 17,\n      \"stepImages\": 8\n    },\n    {\n      \"id\": \"cn-053\",\n      \"steps\": 16,\n      \"stepImages\": 9\n    },\n    {\n      \"id\": \"cn-054\",\n      \"steps\": 11,\n      \"stepImages\": 9\n    },\n    {\n      \"id\": \"west-004\",\n      \"steps\": 4,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-006\",\n      \"steps\": 4,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-011\",\n      \"steps\": 5,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-012\",\n      \"steps\": 10,\n      \"stepImages\": 4\n    },\n    {\n      \"id\": \"west-020\",\n      \"steps\": 8,\n      \"stepImages\": 5\n    },\n    {\n      \"id\": \"west-024\",\n      \"steps\": 7,\n      \"stepImages\": 6\n    },\n    {\n      \"id\": \"west-031\",\n      \"steps\": 6,\n      \"stepImages\": 0\n    }\n  ],\n  \"testedRoutes\": [\n    \"home\",\n    \"pantry\",\n    \"recommendations\",\n    \"recipe\",\n    \"game\",\n    \"cook\",\n    \"shopping\",\n    \"recipes\",\n    \"me\"\n  ],\n  \"browserErrors\": []\n}",
+            "stderr": ""
+          },
+          {
+            "command": "D:\\node.exe tools/build_vercel_output.mjs",
+            "passed": true,
+            "status": 0,
+            "stdout": "Vercel 静态构建完成：C:\\Users\\myw\\Documents\\recipe-automation\\dist\nVercel Build Output 已生成：C:\\Users\\myw\\Documents\\recipe-automation\\.vercel\\output",
+            "stderr": ""
+          }
+        ]
+      }
     },
     "gitPush": {
       "status": "pending",

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "证据哈希一致。盐的生成名称已修正为“盐”，标签及步骤完整保留满满1茶匙。伍斯特酱已标记鱼类风险，并明确要求核对实际产品配料表，未补造品牌或具体鱼类成分。重新核对全部13项原料和7个步骤，采用完整BBC单一配方，20分钟、4份、冷藏、烘烤顺序及来源熟度限制均保留。纯文字授权适用，textOnly为true，运行时无图片引用。四项对抗性检查、确定性验证、浏览器检查及构建通过。",
+  "evidencePackageHash": "becf390beaa95237edebba7a66af0402d0d1eb0788bd923337ae34cdcdfb370f",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

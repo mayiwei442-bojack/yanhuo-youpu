@@ -4,6 +4,8 @@ assert(detectIngredientAllergens("豆腐1块；蚝油2茶匙（可用素蚝油�
 assert(!detectIngredientAllergens("豆腐1块；素蚝油2茶匙").includes("shellfish"));
 assert(detectIngredientAllergens("豆腐1块；香菇蚝油2茶匙").includes("shellfish"));
 assert(detectIngredientAllergens("素蚝油2茶匙；虾仁200克").includes("shellfish"));
+assert(detectIngredientAllergens("碧根果85克").includes("tree-nut"));
+assert(!detectIngredientAllergens("花生85克").includes("tree-nut"));
 const item = (id, name, extra = {}) => ({ id, name, time: 80, allergens: [], flags: { containsPork: false, containsBeef: false, containsAlcohol: false, spicy: false, vegetarian: true }, ...extra });
 const sauce = item("west-031", "肉酱", { time: 225, allergens: ["fish", "dairy"], flags: { containsPork: true, containsBeef: true, containsAlcohol: true, spicy: false, vegetarian: false } });
 const lasagna = item("west-012", "千层面", { allergens: ["dairy", "wheat"], recipeLinks: [{ recipeId: sauce.id, name: sauce.name }] });

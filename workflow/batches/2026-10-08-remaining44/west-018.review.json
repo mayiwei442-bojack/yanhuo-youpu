@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "13项原料及13步完整采用BBC配方，未混源。蔬菜切配、番茄去皮、分煎回锅、罗勒分用及添加顺序准确；50分钟、4份和阶段计时忠于来源，未推算烹调时间或补造剩余油量分配。红葡萄酒醋译名和生成原料名称正确，containsAlcohol:false区分醋与含酒饮料，并披露不保证绝对零酒精；素食标记有证据。纯文字授权适用，生成记录无运行时图片引用。全部原料行和步骤的独立对抗语言结构审查通过，确定性验证通过。",
+  "evidencePackageHash": "a1d8bd21ac709c455d8113e56abe4ae8af902683dcc03ccc5342658ba644869e",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

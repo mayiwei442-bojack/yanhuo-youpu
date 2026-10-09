@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "确认生成spicy已修正为true，与来源必用hot salsa一致，未推断具体辣度或烹饪火力。8项原料和6步仍完整忠于同一BBC配方，两张饼夹馅、熟鸡肉与豆奶酪用量、刷油面4分钟及翻面2分钟准确。16分钟、2份和未知信息披露合理，乳制品、小麦及非素食标签正确。纯文字授权适用且无运行时图片引用。全部原料行和步骤的独立对抗语言结构审查通过，修订版确定性验证、浏览器及构建检查通过。",
+  "evidencePackageHash": "e22897e407d18911e1a1b2578c7fc45b9178b1f51fcceaf0ce1885248a984659",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

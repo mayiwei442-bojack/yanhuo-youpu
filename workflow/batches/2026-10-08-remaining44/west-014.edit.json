@@ -1,0 +1,9 @@
+{
+  "targetId": "west-014",
+  "changedFields": ["ingredients", "steps", "source", "timing", "servings", "textOnly", "vegetarian", "sourceLimitations"],
+  "evidencePath": "workflow/batches/2026-10-08-remaining44/west-014.base-evidence.json",
+  "evidenceHash": "f4cb392ea1a11b55fa86a15d038d3e2b647a843c14257dbb66f09043c5296cce",
+  "selectionReason": "候选均完整自洽；BBC具有已核验来源成品图，按规定排序采用其完整普通锅版本。",
+  "unresolvedConflicts": ["浸泡时间如何计入总时长未解释，已披露。", "高汤最终体积、部分阶段时间及成品组成未给，未补造。"],
+  "scopeCheck": "仅west-014变化；30分钟、4份；乳制品标签检测通过，textOnly:true、vegetarian:false，无media，身份及img保持。"
+}

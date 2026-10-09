@@ -1,0 +1,10 @@
+{
+  "targetId": "west-022",
+  "changedFields": ["ingredients", "steps", "source", "timing", "servings", "textOnly", "vegetarian", "containsAlcohol", "sourceLimitations"],
+  "selectedSource": "BBC Good Food，单一完整来源",
+  "evidencePath": "workflow/batches/2026-10-08-remaining44/west-022.base-evidence.json",
+  "evidenceHash": "3957ed4465920ab2d92f8c81acadf798830bdae24d2052e6a378aaa151adf3a3",
+  "result": "29项原料、17步；保留茄子分批煎、土豆煮沥、羊肉酱与白酱分层。奶酪全部拌入白酱。总用时165分钟，8份。",
+  "unresolvedConflicts": ["来源燃气4档与200℃/热风180℃对应冲突，已披露", "部分调味料、火力、容器尺寸和额外用油未量化，未补造"],
+  "scopeCheck": "快照比较仅west-022变化；身份和img保留，textOnly:true，无运行时媒体，未修改其他文件。"
+}

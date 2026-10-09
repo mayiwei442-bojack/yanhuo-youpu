@@ -1,0 +1,9 @@
+{
+  "targetId": "west-023",
+  "changedFields": ["ingredients", "steps", "source", "timing", "servings", "textOnly", "vegetarian", "sourceLimitations"],
+  "evidencePath": "workflow/batches/2026-10-08-remaining44/west-023.base-evidence.json",
+  "evidenceHash": "fd3bebc0ce5f10b307dd05b95b549245c998c08b86f10631400c4b4c2d34375a",
+  "result": "采用BBC整套配方，9项原料、4步；准备及总用时15分钟，作为配菜4份。不添加来源没有的甜椒、醋、沥水或整块奶酪摆放动作。",
+  "unresolvedConflicts": ["调味料种类和用量未注明", "奶酪及其他成品组成未说明，素食标记保守设为false", "来源无麸质标签与搭配面包冲突，已披露并保留小麦风险"],
+  "scopeCheck": "仅west-023改变；身份和img保留，textOnly:true，无运行时媒体，未修改其他文件。"
+}

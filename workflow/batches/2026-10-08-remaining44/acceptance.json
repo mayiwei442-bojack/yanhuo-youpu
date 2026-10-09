@@ -1,10 +1,12 @@
 {
   "ok": true,
-  "checkedAt": "2026-10-08T17:38:54.287Z",
+  "checkedAt": "2026-10-09T05:07:38.616Z",
   "requested": 44,
-  "accepted": 10,
+  "accepted": 33,
+  "imageBacked": 10,
+  "textOnly": 23,
   "failed": 11,
-  "awaitingPhotoDecision": 23,
+  "awaitingPhotoDecision": 0,
   "results": [
     {
       "recipeId": "cn-012",
@@ -20,8 +22,11 @@
     },
     {
       "recipeId": "cn-013",
-      "status": "awaiting_photo_decision",
-      "gate": "Final image/evidence acceptance pending"
+      "status": "accepted_text_only",
+      "sourceType": "website",
+      "source": "https://www.douguo.com/cookbook/3300061.html",
+      "documentId": "64811085-e1d5-4a9b-a1fc-ddb00b282459",
+      "images": 0
     },
     {
       "recipeId": "cn-015",
@@ -189,8 +194,11 @@
     },
     {
       "recipeId": "cn-049",
-      "status": "awaiting_photo_decision",
-      "gate": "Final image/evidence acceptance pending"
+      "status": "accepted_text_only",
+      "sourceType": "website",
+      "source": "https://thewoksoflife.com/chinese-hamburgers-rou-jia-mo/",
+      "documentId": "d45ed17d-216f-4704-9a67-6d247f9705e5",
+      "images": 0
     },
     {
       "recipeId": "cn-050",
@@ -222,78 +230,123 @@
     },
     {
       "recipeId": "west-002",
-      "status": "awaiting_photo_decision",
-      "gate": "Final image/evidence acceptance pending"
+      "status": "accepted_text_only",
+      "sourceType": "website",
+      "source": "https://www.bbcgoodfood.com/recipes/pizza-margherita-4-easy-steps",
+      "documentId": "0b549380-3644-497d-bf63-eebb94610fbe",
+      "images": 0
     },
     {
       "recipeId": "west-005",
-      "status": "awaiting_photo_decision",
-      "gate": "Final image/evidence acceptance pending"
+      "status": "accepted_text_only",
+      "sourceType": "website",
+      "source": "https://www.bbcgoodfood.com/recipes/cheeseburgers",
+      "documentId": "ef51a7d5-65e7-4c2c-abc1-783bdcf65a01",
+      "images": 0
     },
     {
       "recipeId": "west-007",
-      "status": "awaiting_photo_decision",
-      "gate": "Final image/evidence acceptance pending"
+      "status": "accepted_text_only",
+      "sourceType": "website",
+      "source": "https://www.bbcgoodfood.com/recipes/golden-beer-battered-fish-chips",
+      "documentId": "b17de88d-e534-485b-a5dd-eb55f7ceaae9",
+      "images": 0
     },
     {
       "recipeId": "west-008",
-      "status": "awaiting_photo_decision",
-      "gate": "Final image/evidence acceptance pending"
+      "status": "accepted_text_only",
+      "sourceType": "website",
+      "source": "https://www.bbcgoodfood.com/recipes/seafood-paella",
+      "documentId": "4d7a1ee5-9fe3-4d6b-9a06-bb51a2dd5b8e",
+      "images": 0
     },
     {
       "recipeId": "west-009",
-      "status": "awaiting_photo_decision",
-      "gate": "Final image/evidence acceptance pending"
+      "status": "accepted_text_only",
+      "sourceType": "website",
+      "source": "https://www.seriouseats.com/grilled-bratwurst-with-beer-mustard-and-sauerkraut-recipe",
+      "documentId": "29fa3b16-9237-46cd-8135-71280c566512",
+      "images": 0
     },
     {
       "recipeId": "west-013",
-      "status": "awaiting_photo_decision",
-      "gate": "Final image/evidence acceptance pending"
+      "status": "accepted_text_only",
+      "sourceType": "website",
+      "source": "https://www.bbcgoodfood.com/recipes/fettucine-alfredo",
+      "documentId": "285a92a5-e04a-4e85-8db7-0151b4f6eeaa",
+      "images": 0
     },
     {
       "recipeId": "west-014",
-      "status": "awaiting_photo_decision",
-      "gate": "Final image/evidence acceptance pending"
+      "status": "accepted_text_only",
+      "sourceType": "website",
+      "source": "https://www.bbcgoodfood.com/recipes/mushroom-risotto",
+      "documentId": "a32460d0-637d-4400-b924-2b83638166db",
+      "images": 0
     },
     {
       "recipeId": "west-015",
-      "status": "awaiting_photo_decision",
-      "gate": "Final image/evidence acceptance pending"
+      "status": "accepted_text_only",
+      "sourceType": "website",
+      "source": "https://www.bbcgoodfood.com/recipes/chicken-parmigiana",
+      "documentId": "e3137c6d-c73d-445d-9aa0-41e3d51a21cc",
+      "images": 0
     },
     {
       "recipeId": "west-016",
-      "status": "awaiting_photo_decision",
-      "gate": "Final image/evidence acceptance pending"
+      "status": "accepted_text_only",
+      "sourceType": "website",
+      "source": "https://www.bbcgoodfood.com/recipes/beef-wellington",
+      "documentId": "3131ae41-b095-414d-9e1d-4f7a23a1529a",
+      "images": 0
     },
     {
       "recipeId": "west-017",
-      "status": "awaiting_photo_decision",
-      "gate": "Final image/evidence acceptance pending"
+      "status": "accepted_text_only",
+      "sourceType": "website",
+      "source": "https://www.bbcgoodfood.com/recipes/coq-au-vin",
+      "documentId": "c49fed11-a89a-4f40-bcae-0021fde52d6a",
+      "images": 0
     },
     {
       "recipeId": "west-018",
-      "status": "awaiting_photo_decision",
-      "gate": "Final image/evidence acceptance pending"
+      "status": "accepted_text_only",
+      "sourceType": "website",
+      "source": "https://www.bbcgoodfood.com/recipes/ratatouille",
+      "documentId": "c8b51089-81ed-46f3-bc25-dcfbf2cfe9a8",
+      "images": 0
     },
     {
       "recipeId": "west-019",
-      "status": "awaiting_photo_decision",
-      "gate": "Final image/evidence acceptance pending"
+      "status": "accepted_text_only",
+      "sourceType": "website",
+      "source": "https://www.seriouseats.com/bouillabaisse-marseillaise-fish-stew-recipe",
+      "documentId": "fa8bcb83-d3d0-41c1-a021-18f3fd8b21cf",
+      "images": 0
     },
     {
       "recipeId": "west-021",
-      "status": "awaiting_photo_decision",
-      "gate": "Final image/evidence acceptance pending"
+      "status": "accepted_text_only",
+      "sourceType": "website",
+      "source": "https://www.bbcgoodfood.com/recipes/beef-bourguignon",
+      "documentId": "4e882fb4-43e9-4577-bdae-8a9a158c37be",
+      "images": 0
     },
     {
       "recipeId": "west-022",
-      "status": "awaiting_photo_decision",
-      "gate": "Final image/evidence acceptance pending"
+      "status": "accepted_text_only",
+      "sourceType": "website",
+      "source": "https://www.bbcgoodfood.com/recipes/moussaka",
+      "documentId": "53cdcee1-2c01-47c9-97f0-fbbfc2747e75",
+      "images": 0
     },
     {
       "recipeId": "west-023",
-      "status": "awaiting_photo_decision",
-      "gate": "Final image/evidence acceptance pending"
+      "status": "accepted_text_only",
+      "sourceType": "website",
+      "source": "https://www.bbcgoodfood.com/recipes/greek-salad",
+      "documentId": "736060f3-bc3f-4a0e-ba77-bce2fb6ba84e",
+      "images": 0
     },
     {
       "recipeId": "west-024",
@@ -305,33 +358,51 @@
     },
     {
       "recipeId": "west-025",
-      "status": "awaiting_photo_decision",
-      "gate": "Final image/evidence acceptance pending"
+      "status": "accepted_text_only",
+      "sourceType": "website",
+      "source": "https://www.bbcgoodfood.com/recipes/classic-swedish-meatballs",
+      "documentId": "3e95f7a2-389f-41aa-b675-7347986de84d",
+      "images": 0
     },
     {
       "recipeId": "west-026",
-      "status": "awaiting_photo_decision",
-      "gate": "Final image/evidence acceptance pending"
+      "status": "accepted_text_only",
+      "sourceType": "website",
+      "source": "https://www.bbcgoodfood.com/recipes/beef-goulash-soup",
+      "documentId": "78419c8b-cac5-4313-9273-1d5fc594a696",
+      "images": 0
     },
     {
       "recipeId": "west-027",
-      "status": "awaiting_photo_decision",
-      "gate": "Final image/evidence acceptance pending"
+      "status": "accepted_text_only",
+      "sourceType": "website",
+      "source": "https://www.bbcgoodfood.com/recipes/beer-battered-fish-tacos",
+      "documentId": "5f01ee84-d58b-48b2-b9d7-acf5d10b5629",
+      "images": 0
     },
     {
       "recipeId": "west-028",
-      "status": "awaiting_photo_decision",
-      "gate": "Final image/evidence acceptance pending"
+      "status": "accepted_text_only",
+      "sourceType": "website",
+      "source": "https://www.bbcgoodfood.com/recipes/chicken-quesadillas",
+      "documentId": "9e9d892c-09f7-42fb-9ee3-691ff26a665c",
+      "images": 0
     },
     {
       "recipeId": "west-029",
-      "status": "awaiting_photo_decision",
-      "gate": "Final image/evidence acceptance pending"
+      "status": "accepted_text_only",
+      "sourceType": "website",
+      "source": "https://www.bbcgoodfood.com/recipes/eggs-benedict",
+      "documentId": "2edf80e5-bddc-42fb-ae3c-5fbf8804856c",
+      "images": 0
     },
     {
       "recipeId": "west-030",
-      "status": "awaiting_photo_decision",
-      "gate": "Final image/evidence acceptance pending"
+      "status": "accepted_text_only",
+      "sourceType": "website",
+      "source": "https://www.bbcgoodfood.com/recipes/buttermilk-pancakes-maple-apples-pecans",
+      "documentId": "7417b13e-b1bd-4ded-8dba-4675e86126cd",
+      "images": 0
     }
   ]
 }

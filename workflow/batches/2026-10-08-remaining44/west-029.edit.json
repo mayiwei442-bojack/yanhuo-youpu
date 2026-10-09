@@ -1,0 +1,27 @@
+{
+  "targetId": "west-029",
+  "changedFields": [
+    "ingredients",
+    "steps",
+    "source",
+    "timing",
+    "servings",
+    "textOnly",
+    "vegetarian",
+    "containsAlcohol",
+    "sourceLimitations"
+  ],
+  "ingredientCount": 14,
+  "stepCount": 9,
+  "source": "https://www.bbcgoodfood.com/recipes/eggs-benedict",
+  "evidencePath": "workflow/batches/2026-10-08-remaining44/west-029.base-evidence.json",
+  "evidenceHash": "3dd8b60f48d02c625f1331f0f4abd2540da704385b4c32db028298bdca858e8f",
+  "result": "保留帕尔马火腿、自制荷兰酱及逐个水波蛋操作；总用时20分钟。产量4个半片松饼组合，非明确4人份。范围计时全部留null。",
+  "unresolvedLimitations": [
+    "烤松饼温度、部分水量和柠檬汁量未给",
+    "内部温度及保温参数未给",
+    "产品完整配料未知",
+    "醋名不标为含酒饮料，但不保证化学意义零酒精"
+  ],
+  "scopeCheck": "仅west-029改变；身份和legacy img保留，textOnly:true，无运行时媒体；未修改其他文件。"
+}

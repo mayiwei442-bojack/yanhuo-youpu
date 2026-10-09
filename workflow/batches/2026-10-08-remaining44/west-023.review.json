@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "9项原料及4步忠于BBC单源，未加入甜椒、醋、沥水或整块奶酪摆放等未见操作。原料用量、切配、轻度调味及配面包食用准确；15分钟和作为配菜的4份保留来源，未补造步骤时长或烹调时间。调味料及成品组成限制已披露，乳制品、小麦风险和保守非素食分类合理。纯文字授权适用，生成记录无运行时图片引用。全部原料行与步骤的独立对抗语言结构审查通过，确定性验证通过。",
+  "evidencePackageHash": "fd3bebc0ce5f10b307dd05b95b549245c998c08b86f10631400c4b4c2d34375a",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

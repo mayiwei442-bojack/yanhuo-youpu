@@ -1,0 +1,12 @@
+{
+  "targetId": "west-029",
+  "changedFields": [
+    "ingredients"
+  ],
+  "ingredientCount": 14,
+  "stepCount": 9,
+  "evidencePath": "workflow/batches/2026-10-08-remaining44/west-029.base-evidence.json",
+  "evidenceHash": "3dd8b60f48d02c625f1331f0f4abd2540da704385b4c32db028298bdca858e8f",
+  "fix": "仅将该原料改为“清水（至少2000毫升，水波蛋用）”；调用现有名称解析函数确认结果恰为“清水”。标签与步骤保留最低水量。",
+  "scopeCheck": "仅替换west-029的一项原料文本；其余字段、步骤及其他记录不变，未修改其他文件。"
+}

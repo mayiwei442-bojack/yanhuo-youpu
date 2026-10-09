@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "确认生成记录containsBeef已修正为true，原料名称仍为牛柳。完整复核14项原料和22步，均忠于同一BBC配方，未混源；两阶段温度、熟度分支、冷却包裹、蛋黄液分用及静置顺序正确。150分钟、6份和计时控制符合证据，缺失信息已披露。乳制品、鸡蛋、小麦及牛肉、猪肉、含酒、非素食标记正确。纯文字授权适用且无运行时图片引用。逐行原料和全部步骤的独立对抗语言结构审查通过，修订版确定性验证及浏览器构建检查通过。",
+  "evidencePackageHash": "b56221437c0469a54c081fb351c834d6050b2b4d58f7ef5dd894bd081bb6eba2",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

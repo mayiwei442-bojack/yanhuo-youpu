@@ -1,0 +1,8 @@
+{
+  "targetId": "west-009",
+  "changedFields": ["ingredients", "steps", "source", "timing", "servings", "textOnly", "vegetarian", "sourceLimitations"],
+  "evidencePath": "workflow/batches/2026-10-08-remaining44/west-009.base-evidence.json",
+  "evidenceHash": "300e61e0212296b27d86a35b0c8a325e515596138648fca4c5ef6f4787a11199",
+  "unresolvedConflicts": ["来源未给最终直接烤制后的内部温度，已区分60—63℃为前一阶段转段判据。", "部分配餐用量及成品组成未给，未补造。"],
+  "scopeCheck": "仅west-009变化；完整保留啤酒芥末酸菜路线，60分钟、4份；textOnly:true、vegetarian:false，无media，身份及img保持。"
+}

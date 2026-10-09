@@ -1,0 +1,8 @@
+{
+  "targetId": "west-005",
+  "changedFields": ["ingredients", "steps", "source", "timing", "servings", "textOnly", "vegetarian", "sourceLimitations"],
+  "evidencePath": "workflow/batches/2026-10-08-remaining44/west-005.base-evidence.json",
+  "evidenceHash": "becf390beaa95237edebba7a66af0402d0d1eb0788bd923337ae34cdcdfb370f",
+  "unresolvedConflicts": ["腌黄瓜数量16未注明单位，已保留说明。", "来源未给内部温度及成品调料组成，未补造熟度或过敏原保证。"],
+  "scopeCheck": "仅west-005变化；完整采用BBC单源，textOnly:true、vegetarian:false，无media，身份及img保持。"
+}

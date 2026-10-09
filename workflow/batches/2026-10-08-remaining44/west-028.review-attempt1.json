@@ -1,0 +1,18 @@
+{
+  "status": "FAIL",
+  "issues": [
+    {
+      "field": "generated.flags.spicy",
+      "message": "来源明确使用4汤匙hot salsa，编辑原料也保留为“罐装辣莎莎酱”，但生成spicy为false，与必用辣酱不一致。应生成spicy:true，不需推定具体辣度。"
+    }
+  ],
+  "summary": "8项原料及6步忠于BBC单源，两张饼夹馅、熟烤鸡肉、豆与奶酪、刷油面先煎4分钟及翻面2分钟操作准确；16分钟、2份和缺失信息披露合理。乳制品、小麦及非素食标记正确，纯文字无运行时图片检查通过。全部原料行和步骤的独立对抗语言结构审查及确定性验证通过；但辣味标记错误，需修复后复审。",
+  "evidencePackageHash": "e22897e407d18911e1a1b2578c7fc45b9178b1f51fcceaf0ce1885248a984659",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

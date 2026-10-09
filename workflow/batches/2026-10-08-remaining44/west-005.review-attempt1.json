@@ -1,0 +1,22 @@
+{
+  "status": "FAIL",
+  "issues": [
+    {
+      "field": "generated.ingredients[2].name",
+      "message": "生成食材名称为“盐满满”，将用量修饰语并入食材身份。名称应为“盐”，标签保留“满满1茶匙”的来源用量。"
+    },
+    {
+      "field": "generated.allergens / generated.sourceLimitations",
+      "message": "基础配方使用普通伍斯特酱，存在其常见鱼类成分的过敏原风险，但生成标签只有乳制品、蛋和小麦。来源没有指定无鱼版本，笼统说明成品组成未知不足以处理这一明确风险；请补充鱼类风险标记或明确的对应提示，不要据此补造具体配料。"
+    }
+  ],
+  "summary": "证据哈希一致。13项原料及7个步骤采用所选BBC完整配方，未混入Serious Eats的绞肉配比或煎制方法；20分钟、4个汉堡、冷藏和烘烤操作及来源熟度限制均已保留。纯文字授权覆盖该ID，textOnly为true且运行时无图片引用。确定性验证及构建通过；步骤语法、标点和分隔结构通过，但盐的生成名称及伍斯特酱过敏原风险处理需要修正。",
+  "evidencePackageHash": "becf390beaa95237edebba7a66af0402d0d1eb0788bd923337ae34cdcdfb370f",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": false,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

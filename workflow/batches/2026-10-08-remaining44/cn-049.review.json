@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "证据哈希一致。已逐项核对24项原料与16个生成步骤，炖肉、发面整形、无油分阶段烙馍、香菜卤汁夹料及可选替代均来自同一来源。面粉换算有来源依据，其余杯匙未擅自换算；150分钟总时长、12份、明确计时和范围时间处理正确，来源时间差异及隔夜储存说明缺失已披露。小麦、大豆、猪肉、酒及非素食标记符合基础配方。纯文字授权覆盖cn-049，textOnly为true，生成输出无运行时图片引用。全部原料行和步骤通过独立对抗性语言与结构检查；确定性验证、浏览器检查和构建通过。",
+  "evidencePackageHash": "4be8c4899c3aed9f08d3708e99bb80af4ee5ab94ba29e2b786781734453d4c86",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

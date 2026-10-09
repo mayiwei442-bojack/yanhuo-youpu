@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "已确认生成过敏原包含tree-nut，并通过详情页“树坚果”显示断言。14项原料和10步保持不变，完整采用同一BBC配方，没有混入其他候选；鸡蛋拆分、黄油分用、苹果配料、蛋白翻拌、煎制及双层装盘均与证据一致。50分钟、4份有来源依据，范围计时保持null，未补造缺失火力、温度或用量。纯文字授权适用，生成输出无运行时图片引用。重新逐行审查全部原料及步骤，语义、语法、标点、括号和分隔结构均通过；确定性生成、浏览器及构建验证通过。",
+  "evidencePackageHash": "3e1b2df6acd7726eb45b51fbd063a4337278f6ea0a08ced7319cadd64a241cf8",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "证据哈希一致。8项原料及8个步骤完整采用Serious Eats配方，啤酒芥末酸菜浴、冷热双区、预热替代路线、通风口位置、中途翻动及最终直接烤制顺序正确。来源公制用量、60分钟和4份均保留；60—63℃明确是转段判据，随后仍烤约3分钟，未宣称为最终安全温度。未指定配餐量、油种类或成品额外组成，限制已披露；猪肉、酒、小麦及非素食标记正确。纯文字授权适用，textOnly为true且运行时无图片引用。四项对抗性检查、确定性验证、浏览器检查及构建通过。",
+  "evidencePackageHash": "300e61e0212296b27d86a35b0c8a325e515596138648fca4c5ef6f4787a11199",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "17项原料及15步完整采用合格BBC来源，1600克牛肉、两瓶未定容量红酒、无高汤路线均准确。过夜冷藏腌制、保留酒液香草、分批煎肉、加盖烤炖、冷却复热及后加培根洋葱蘑菇顺序完整。255分钟、6份及步骤计时符合来源，过夜等待和卡片时间分配限制已披露，未补造用量、火力或时长。乳制品、小麦、牛肉、猪肉、含酒和非素食标记正确。纯文字授权适用且无运行时图片引用。全部原料行与步骤的独立对抗语言结构审查通过，确定性验证通过。",
+  "evidencePackageHash": "70529b126976788c9491ed040f24ff235afbd8a966d428964018efb084518fc9",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

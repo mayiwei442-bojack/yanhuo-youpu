@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "证据哈希一致。已逐行核对15项原料和9个生成步骤，面团比例、可选发酵、两张25厘米饼底、双烤盘预热、240℃或热风220℃及逐张烤8—10分钟均忠实于单一来源。35分钟总时长和4人份正确，分批烘烤的来源时间差异已披露；未擅自指定调味料或转换杯匙。小麦和乳制品过敏原正确，未保证未知替代品均符合素食。纯文字授权覆盖该ID，textOnly为true，生成输出无图片引用。四项对抗性检查及确定性验证、浏览器检查、构建均通过。",
+  "evidencePackageHash": "72040f87626762457de3c46a2eb2dc14cbf2159b7418c0c7abdcdfbf235a372f",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

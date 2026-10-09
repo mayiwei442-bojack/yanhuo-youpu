@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "确认生成allergens已包含dairy，准确反映150克原味活菌酸奶。复核12项原料和6步仍忠于同一BBC配方，75分钟、3份、计时及添加顺序正确，未混源或补造未知火力、炒肉时长及冷却条件。牛肉、非素食和其他标签合理，高汤组成限制已披露。纯文字授权适用且无运行时图片引用。全部原料行与步骤的独立对抗语言结构审查通过，修订版确定性验证、浏览器和构建检查通过。",
+  "evidencePackageHash": "5e68e1586d66854a3a96c909f0178479a22379943820026789cb3e192d668350",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

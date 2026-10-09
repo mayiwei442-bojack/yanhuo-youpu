@@ -1,0 +1,8 @@
+{
+  "targetId": "west-008",
+  "changedFields": ["ingredients", "steps", "source", "timing", "servings", "textOnly", "vegetarian", "sourceLimitations"],
+  "evidencePath": "workflow/batches/2026-10-08-remaining44/west-008.base-evidence.json",
+  "evidenceHash": "7e639be81961b1ce97020e953c210cbd75481cedec30f2871ab78cd6b1eae747",
+  "unresolvedConflicts": ["高汤最终产量、部分阶段时间及主锅火力未明确，已披露。", "鸡高汤块组成及额外海鲜处理条件未提供，未补造。"],
+  "scopeCheck": "仅west-008变化；21项原料、12步，110分钟、8份；鱼类及甲壳贝类标签检测通过，textOnly:true、vegetarian:false，无media，身份及img保持。"
+}

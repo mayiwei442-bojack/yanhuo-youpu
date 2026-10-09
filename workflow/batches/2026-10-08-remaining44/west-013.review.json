@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "完整采用BBC凝脂奶油配方，10项原料及7步均与冻结证据一致，未混入其他候选配方。25分钟、3份、分用煮面水及调味顺序准确；未量化用量和阶段时长已披露，计时保持空值。乳制品、小麦过敏原及保守非素食分类合理，鲜面鸡蛋风险有明确产品标签核对提示。纯文字授权适用，生成记录无运行时图片引用。逐行原料与全部步骤的独立对抗语言和结构审查通过，确定性验证通过。",
+  "evidencePackageHash": "aab9ab976075b489d38cbd3e9a7c0d2ffd9b7fbfda0456deebfba197ec8bba50",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

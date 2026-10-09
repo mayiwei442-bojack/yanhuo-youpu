@@ -66,6 +66,8 @@ function buildRecipe(recipe, index, type) {
   });
   if (recipe.servings != null && (!Number.isInteger(recipe.servings) || recipe.servings <= 0)) throw new Error(`${recipe.name} 的来源份数必须是正整数`);
   const media = recipe.media || null;
+  const textOnly = recipe.textOnly === true;
+  if (textOnly && media) throw new Error(`${recipe.name} 标记为纯文字菜谱时不能携带图片媒体`);
   if (media) {
     if (media.recipePageUrl !== recipe.source) {
       throw new Error(`${recipe.name} 的媒体菜谱 URL 与正文信源不一致`);
@@ -97,7 +99,8 @@ function buildRecipe(recipe, index, type) {
   ingredients.forEach((item) => {
     item.isCore = coreIds.has(item.id);
   });
-  const time = recipeTotalMinutes(combined, steps.length, recipe.timing, { requireSourceTotal: Boolean(media) });
+  const sourceBacked = Boolean(media || textOnly);
+  const time = recipeTotalMinutes(combined, steps.length, recipe.timing, { requireSourceTotal: sourceBacked });
   const difficulty = recipe.difficulty ?? (time >= 70 || /复炸|酥皮|乳化|分次|隔水|发酵/u.test(combined)
     ? "进阶"
     : time !== null && time <= 30 && ingredients.length <= 8
@@ -106,6 +109,7 @@ function buildRecipe(recipe, index, type) {
   const isHeritageFlavor = HERITAGE_FLAVORS.has(recipe.name);
   const id = `${type === "chinese" ? "cn" : "west"}-${String(index + 1).padStart(3, "0")}`;
   const vegetarianCheckText = recipe.ingredients.replace(/鸡蛋|蛋黄|蛋液|蛋白/gu, "");
+  const detectedVegetarian = !/鸡|鸭|鱼|虾|蟹|贝|猪|牛|羊|肉|培根|火腿|香肠|排骨|螺蛳|螺狮|螺丝|海鲜|高汤|鸡汤|鱼汤|牛高汤/u.test(vegetarianCheckText);
 
   return {
     id,
@@ -119,11 +123,12 @@ function buildRecipe(recipe, index, type) {
     steps,
     ...(recipe.recipeLinks?.length ? { recipeLinks: recipe.recipeLinks } : {}),
     ...(recipe.sourceLimitations?.length ? { sourceLimitations: recipe.sourceLimitations } : {}),
+    ...(textOnly ? { textOnly: true } : {}),
     ...(Array.isArray(recipe.relatedImages) && recipe.relatedImages.length
       ? { relatedImages: recipe.relatedImages }
       : {}),
-    imageThumb: media?.hero?.path || `assets/dishes/thumbnails/${recipe.img.replace(/\.png$/u, ".jpg")}`,
-    imageFull: media?.hero?.path || `assets/dishes/ai/${recipe.img}`,
+    imageThumb: textOnly ? null : media?.hero?.path || `assets/dishes/thumbnails/${recipe.img.replace(/\.png$/u, ".jpg")}`,
+    imageFull: textOnly ? null : media?.hero?.path || `assets/dishes/ai/${recipe.img}`,
     source: recipe.source,
     ...(media
       ? {
@@ -140,17 +145,21 @@ function buildRecipe(recipe, index, type) {
         }
       : {}),
     time,
-    timeBasis: recipe.timing ? "source" : media ? "unspecified" : "estimated",
+    timeBasis: recipe.timing ? "source" : sourceBacked ? "unspecified" : "estimated",
     difficulty,
-    defaultServings: recipe.servings ?? (media ? null : /整鸡|600克|700克|800克/u.test(recipe.ingredients) ? 4 : 2),
-    servingsBasis: recipe.servings != null ? "source" : media ? "unspecified" : "estimated",
+    defaultServings: recipe.servings ?? (sourceBacked ? null : /整鸡|600克|700克|800克/u.test(recipe.ingredients) ? 4 : 2),
+    servingsBasis: recipe.servings != null ? "source" : sourceBacked ? "unspecified" : "estimated",
     allergens: detectIngredientAllergens(recipe.ingredients),
     flags: {
       containsPork: /猪|五花肉|培根|火腿|香肠|叉烧|排骨|腊肠|腊味/u.test(recipe.ingredients),
-      containsBeef: /牛肉|牛排|牛里脊|牛肩|牛高汤|牛骨/u.test(recipe.ingredients),
-      containsAlcohol: /红酒|白酒|料酒|绍兴酒|啤酒|葡萄酒|雪莉酒|味美思|波特酒/u.test(recipe.ingredients),
-      spicy: /辣椒|辣椒粉|泡椒|胡辣|花椒/u.test(recipe.ingredients),
-      vegetarian: !/鸡|鸭|鱼|虾|蟹|贝|猪|牛|羊|肉|培根|火腿|香肠|排骨|螺蛳|螺狮|螺丝|海鲜|高汤|鸡汤|鱼汤|牛高汤/u.test(vegetarianCheckText)
+      containsBeef: typeof recipe.containsBeef === "boolean"
+        ? recipe.containsBeef
+        : /牛肉|牛排|牛里脊|牛肩|牛高汤|牛骨/u.test(recipe.ingredients),
+      containsAlcohol: typeof recipe.containsAlcohol === "boolean"
+        ? recipe.containsAlcohol
+        : /红酒|白酒|料酒|绍兴酒|啤酒|葡萄酒|雪莉酒|味美思|波特酒/u.test(recipe.ingredients),
+      spicy: /辣椒|辣椒粉|泡椒|胡辣|花椒|辣莎莎/u.test(recipe.ingredients),
+      vegetarian: typeof recipe.vegetarian === "boolean" ? recipe.vegetarian : detectedVegetarian
     },
     demoEnriched: true
   };

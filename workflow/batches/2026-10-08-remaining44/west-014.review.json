@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "完整采用BBC普通锅版本，15项原料和10步均与冻结证据一致，未混源。泡菇液留用与弃除、逐批加汤、干酪及欧芹分用、离火顺序和熟度判断均保留。30分钟及4份忠于来源，浸泡时间与总时长关系、高汤最终体积及未量化阶段已披露，未补造。乳制品、含酒和保守非素食标记合理。纯文字授权适用，生成输出无运行时图像引用。全部原料行及步骤的独立对抗语言和结构审查通过，确定性验证通过。",
+  "evidencePackageHash": "f4cb392ea1a11b55fa86a15d038d3e2b647a843c14257dbb66f09043c5296cce",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

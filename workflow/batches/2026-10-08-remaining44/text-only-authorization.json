@@ -1,0 +1,43 @@
+{
+  "authorizationId": "user_explicit_2026-10-09_remaining44_text_only",
+  "acceptedAt": "2026-10-09T02:51:46Z",
+  "userMessage": "缺少图片的就用纯文字菜谱就好了",
+  "scope": "Only the 23 recipes previously held at awaiting_photo_decision in this batch.",
+  "recipeIds": [
+    "cn-013",
+    "cn-049",
+    "west-002",
+    "west-005",
+    "west-007",
+    "west-008",
+    "west-009",
+    "west-013",
+    "west-014",
+    "west-015",
+    "west-016",
+    "west-017",
+    "west-018",
+    "west-019",
+    "west-021",
+    "west-022",
+    "west-023",
+    "west-025",
+    "west-026",
+    "west-027",
+    "west-028",
+    "west-029",
+    "west-030"
+  ],
+  "waivedRequirements": [
+    "finished-dish image",
+    "step images",
+    "local image import and image-to-step mapping"
+  ],
+  "requirementsRetained": [
+    "complete coherent textual source recipe",
+    "single-source fidelity and provenance",
+    "ingredient, quantity, time, heat, temperature, and safety accuracy",
+    "independent review, deterministic validation, build, commit, and branch push"
+  ],
+  "displayRequirement": "Render these records as text-only recipes. Do not use existing placeholder images, generated images, borrowed images, or source image URLs."
+}

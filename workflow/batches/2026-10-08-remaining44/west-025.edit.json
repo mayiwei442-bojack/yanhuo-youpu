@@ -1,0 +1,11 @@
+{
+  "targetId": "west-025",
+  "changedFields": ["ingredients", "steps", "source", "timing", "servings", "textOnly", "vegetarian", "containsBeef", "sourceLimitations"],
+  "selectedSource": "BBC Good Food",
+  "selectionReason": "候选均完整自洽；BBC具有已核验来源成品图，按规定排序选用其整套配方，不混源。",
+  "evidencePath": "workflow/batches/2026-10-08-remaining44/west-025.base-evidence.json",
+  "evidenceHash": "a6a645fc79286726a033e874ac60e03e837fced2395e4a20808976f0a99ce15f",
+  "result": "14项原料、8步，35分钟、4份。采用纯猪肉馅与牛肉高汤肉汁酱；无牛奶浸泡或奶油，搭配蔓越莓果冻。",
+  "unresolvedConflicts": ["煎制火力、最终热透时间和内部温度未提供", "调味料种类、配菜用量及配方未提供，均已披露"],
+  "scopeCheck": "仅west-025变化；身份和img保留，textOnly:true，无运行时媒体，未修改其他文件。"
+}

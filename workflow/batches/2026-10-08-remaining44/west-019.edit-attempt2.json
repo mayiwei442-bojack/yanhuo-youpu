@@ -1,0 +1,11 @@
+{
+  "targetId": "west-019",
+  "status": "已按另一完整单源重写，待复审",
+  "changedFields": ["ingredients", "steps", "source", "timing", "servings", "sourceLimitations"],
+  "selectedSource": "Serious Eats",
+  "selectionReason": "BBC未明确第二根韭葱的处理与加入方式，无法无推断地补齐。冻结包中的Serious Eats明确规定单根450克韭葱切丁后加入汤底，且完整覆盖熬汤、蒜香酱、过滤及汆鱼。完整性与自洽性优先，因此整套切换来源。",
+  "evidencePath": "workflow/batches/2026-10-08-remaining44/west-019.base-evidence.json",
+  "evidenceHash": "eb8c010a2b99dad0597f2beec01c9551fea889d7025e13ee5b9166bc2131078f",
+  "unresolvedConflicts": ["来源份数为6—8份，servings留null，正文保留范围。", "汆鱼和螃蟹未给固定时长或内部温度，保留来源熟度判断。", "法棍烤面包为搭配成品，来源未给烤制方法。", "鱼量范围及附注中的整鱼、鱼柳重量差异均已披露。"],
+  "scopeCheck": "与返修前快照比较，仅west-019改变。身份和img保留，textOnly:true，无运行时媒体；未修改其他文件。"
+}

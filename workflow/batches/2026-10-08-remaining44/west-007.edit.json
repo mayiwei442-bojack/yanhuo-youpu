@@ -1,0 +1,8 @@
+{
+  "targetId": "west-007",
+  "changedFields": ["ingredients", "steps", "source", "timing", "servings", "textOnly", "vegetarian", "sourceLimitations"],
+  "evidencePath": "workflow/batches/2026-10-08-remaining44/west-007.base-evidence.json",
+  "evidenceHash": "c827cfee3dcc7c33eb80dd34d233054e2101347cac900e7b6ca45884e7ef406a",
+  "unresolvedConflicts": ["来源时间字段与并行阶段的关系未解释，已保留原值并披露。", "部分调味用量、炸油温度及配餐番茄酱配方未提供，未补造。"],
+  "scopeCheck": "仅west-007变化；完整采用BBC单源，textOnly:true、vegetarian:false，无media，身份及img保持。"
+}

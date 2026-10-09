@@ -1,0 +1,17 @@
+{
+  "targetId": "cn-013",
+  "changedFields": [
+    "ingredients",
+    "steps",
+    "source",
+    "textOnly",
+    "sourceLimitations"
+  ],
+  "evidencePath": "workflow/batches/2026-10-08-remaining44/cn-013.base-evidence.json",
+  "evidenceHash": "b5be37dc575ed83fdf5bb98096b7f193e32b36d6c70a467f5f4fd369793ddb80",
+  "result": "按豆果美食来源完整河南料包版本编写9项原料和5个步骤，缺少图片的菜谱以textOnly标记发布。",
+  "unresolvedConflicts": [
+    "来源未给部分用量、火候、时间及份数，已披露，未补造。"
+  ],
+  "scopeCheck": "仅cn-013变化；textOnly:true，无运行时media，身份及img保持。"
+}

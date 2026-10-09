@@ -1,0 +1,9 @@
+{
+  "targetId": "west-017",
+  "changedFields": ["ingredients", "steps", "source", "timing", "servings", "textOnly", "vegetarian", "sourceLimitations"],
+  "evidencePath": "workflow/batches/2026-10-08-remaining44/west-017.base-evidence.json",
+  "evidenceHash": "960bbf8f12fa9475241029e4c535de89765b364596b58e44bc506240ee2fcb35",
+  "selectionReason": "两候选完整自洽；BBC具已核验来源成品图，按规定排序整体采用其配方。",
+  "unresolvedConflicts": ["鸡肉重量称量状态、部分火力与阶段时长未明确，已披露。", "未提供内部温度或酒精完全去除依据，未补造。"],
+  "scopeCheck": "仅west-017变化；13步、105分钟、6份；含酒及乳制品、小麦标签检测通过，textOnly:true、vegetarian:false，无media，身份及img保持。"
+}

@@ -1,0 +1,18 @@
+{
+  "status": "FAIL",
+  "issues": [
+    {
+      "field": "generated.allergens",
+      "message": "配方明确使用150克原味活菌酸奶，sourceLimitations也确认酸奶含乳制品，但生成allergens为空数组，遗漏dairy。应识别该酸奶原料并保留乳制品过敏原。"
+    }
+  ],
+  "summary": "12项原料和6步忠于BBC单源，200克牛肉、600毫升高汤、红薯、绿甜椒及上桌酸奶均准确；75分钟、3份和计时控制符合来源，缺失火力、时长和高汤组成已披露。牛肉、非素食及纯文字无运行时图片检查通过，全部原料行和步骤的对抗语言结构审查通过，确定性验证通过；但生成乳制品过敏原遗漏，需修复后复审。",
+  "evidencePackageHash": "5e68e1586d66854a3a96c909f0178479a22379943820026789cb3e192d668350",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

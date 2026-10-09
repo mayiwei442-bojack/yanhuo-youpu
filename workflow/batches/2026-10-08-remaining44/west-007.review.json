@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "证据哈希一致。全部15项原料和10个步骤符合所选完整BBC配方，干粉预留1汤匙、面糊比例、薯条先煮后烤、鱼柳擦干裹粉及油炸顺序均正确。200℃或热风180℃、明确阶段计时、范围时间、85分钟总时长和2份均保留来源依据；并行阶段、未知油温、调味料及预备番茄酱的限制已披露，未跨来源补写。鱼、小麦、酒及非素食标记正确。纯文字授权适用，textOnly为true，生成输出无运行时图片引用。四项对抗性检查、确定性验证、浏览器检查及构建通过。",
+  "evidencePackageHash": "c827cfee3dcc7c33eb80dd34d233054e2101347cac900e7b6ca45884e7ef406a",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

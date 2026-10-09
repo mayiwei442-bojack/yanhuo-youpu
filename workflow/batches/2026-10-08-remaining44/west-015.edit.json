@@ -1,0 +1,8 @@
+{
+  "targetId": "west-015",
+  "changedFields": ["ingredients", "steps", "source", "timing", "servings", "textOnly", "vegetarian", "sourceLimitations"],
+  "evidencePath": "workflow/batches/2026-10-08-remaining44/west-015.base-evidence.json",
+  "evidenceHash": "2abc4c88be2232ae408f06c0b23d69a21711e49788a1d388f5e3b67b8a177f95",
+  "unresolvedConflicts": ["鸡胸重量、硬币厚度数值及烧烤温度未给，未补造。", "卡片时间与阶段时间的统筹关系、调味料及配餐细节未明确，已披露。"],
+  "scopeCheck": "仅west-015变化；30分钟、4份；乳制品、蛋、小麦标签检测通过；textOnly:true、vegetarian:false，无media，身份及img保持。"
+}

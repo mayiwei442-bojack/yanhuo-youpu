@@ -1,0 +1,18 @@
+{
+  "status": "FAIL",
+  "issues": [
+    {
+      "field": "generated.allergens",
+      "message": "所选BBC配方明确含85克碧根果（美国山核桃），但生成的过敏原仅有dairy、egg、wheat，遗漏树坚果风险。sourceLimitations中的说明不能替代供过敏原显示和筛选使用的结构化标记；应补全碧根果对应的树坚果检测及显示支持。"
+    }
+  ],
+  "summary": "完整采用BBC单一配方，14项原料及10步与冻结证据一致，鸡蛋蛋白和蛋黄的数量归属、黄油分用、苹果配料与煎饼操作均正确。50分钟和4份有来源依据，范围计时保持null，缺失火力及第二面时间未补造。纯文字授权适用，生成输出无运行时图片引用；全部原料行及步骤通过独立对抗性语言和结构检查。因结构化过敏原遗漏碧根果的树坚果风险，暂不通过。",
+  "evidencePackageHash": "3e1b2df6acd7726eb45b51fbd063a4337278f6ea0a08ced7319cadd64a241cf8",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "确认生成原料名称已修正为清水，标签完整保留至少2000毫升。14项原料和9步的其余内容仍忠于同一BBC来源，荷兰酱、水波蛋及组装逻辑完整。20分钟和范围计时空值正确，四个半片松饼组合的产量明确区别于四人用量。蛋、乳制品、小麦、猪肉、辣味及非素食标签合理，醋未误标为含酒饮料。纯文字授权适用且无运行时图片引用。全部原料行和步骤的独立对抗语言结构审查及修订版确定性验证通过。",
+  "evidencePackageHash": "3dd8b60f48d02c625f1331f0f4abd2540da704385b4c32db028298bdca858e8f",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

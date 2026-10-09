@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "14项原料和8步完整采用BBC配方，纯猪肉馅、直接拌面包屑、牛肉高汤肉汁及蔓越莓果冻搭配均准确，未混入另一版本的牛奶浸泡、牛肉末或其他调料。35分钟、4份及2分钟面粉阶段计时符合来源；煎制火力、热透时间、内部温度和配菜限制已披露，未补造。猪肉、牛肉高汤、蛋、乳制品、小麦及非素食标记正确。纯文字授权适用，生成记录无运行时图片引用。全部原料行及步骤的独立对抗语言结构审查通过，确定性验证通过。",
+  "evidencePackageHash": "a6a645fc79286726a033e874ac60e03e837fced2395e4a20808976f0a99ce15f",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

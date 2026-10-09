@@ -1,0 +1,8 @@
+{
+  "targetId": "west-005",
+  "changedFields": ["ingredients", "sourceLimitations"],
+  "evidencePath": "workflow/batches/2026-10-08-remaining44/west-005.base-evidence.json",
+  "evidenceHash": "becf390beaa95237edebba7a66af0402d0d1eb0788bd923337ae34cdcdfb370f",
+  "unresolvedConflicts": ["伍斯特酱实际组成仍须核对产品配料表；鱼类标签为保守风险提示。"],
+  "scopeCheck": "仅west-005变化；食材名称验证为“盐”，来源满满1茶匙用量保留；过敏原检测包含fish；textOnly:true、无media，其余正文保持。"
+}

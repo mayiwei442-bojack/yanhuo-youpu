@@ -1,0 +1,25 @@
+{
+  "targetId": "west-030",
+  "changedFields": [
+    "ingredients",
+    "steps",
+    "source",
+    "timing",
+    "servings",
+    "textOnly",
+    "vegetarian",
+    "sourceLimitations"
+  ],
+  "ingredientCount": 14,
+  "stepCount": 10,
+  "source": "https://www.bbcgoodfood.com/recipes/buttermilk-pancakes-maple-apples-pecans",
+  "evidencePath": "workflow/batches/2026-10-08-remaining44/west-030.base-evidence.json",
+  "evidenceHash": "3e1b2df6acd7726eb45b51fbd063a4337278f6ea0a08ced7319cadd64a241cf8",
+  "result": "整套采用所选BBC版本，包含苹果、碧根果和枫糖浆配料。保留蛋白打发与翻拌、双层装盘；总用时50分钟，4份。范围计时全部留null。",
+  "unresolvedLimitations": [
+    "准备及烹饪时间未单列",
+    "煎锅火力、温度、第二面时间及刷锅黄油量未给",
+    "面糊勺容量未定义，均已披露"
+  ],
+  "scopeCheck": "仅west-030改变；身份和legacy img保留，textOnly:true，无运行时媒体；未修改其他文件。"
+}

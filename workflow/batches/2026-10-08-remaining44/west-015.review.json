@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "13项原料及10步完整采用BBC上火烧烤版本，未混入其他候选的腌制、面粉裹层或煎炸操作。干酪分用、蘸蛋裹糠、冷藏、两面烧烤及酱汁奶酪组装顺序准确。30分钟和4份保留来源值；鸡胸重量、硬币厚度数值、烧烤温度及阶段时间关系已明确披露，未补造。乳制品、鸡蛋、小麦过敏原和非素食标记正确。纯文字授权适用，生成记录无运行时图片引用。全部原料行及步骤的独立对抗语言和结构审查通过，确定性验证通过。",
+  "evidencePackageHash": "2abc4c88be2232ae408f06c0b23d69a21711e49788a1d388f5e3b67b8a177f95",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

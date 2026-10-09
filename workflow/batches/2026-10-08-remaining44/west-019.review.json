@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "修订版32项原料和16步完整采用冻结包中的Serious Eats配方，未混入BBC内容。单根450克韭葱明确用于汤底，熬汤鱼与汆煮鱼、蒜香酱取汤及分用调料对应清楚，路线连贯。热汤搅打安全要求、过滤、分批汆鱼及贝蟹熟度判断均保留。200分钟、准备30分钟、烹调170分钟吻合来源；6—8份保留正文，生成份数为空，未补造汆鱼时间或内部温度。蛋、鱼、贝蟹、小麦和含酒、非素食标记正确。纯文字授权适用且无运行时图片引用。全部原料行与步骤的独立对抗语言结构审查及修订版确定性验证通过。",
+  "evidencePackageHash": "eb8c010a2b99dad0597f2beec01c9551fea889d7025e13ee5b9166bc2131078f",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

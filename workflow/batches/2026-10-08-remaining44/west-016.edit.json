@@ -1,0 +1,9 @@
+{
+  "targetId": "west-016",
+  "changedFields": ["ingredients", "steps", "source", "timing", "servings", "textOnly", "vegetarian", "sourceLimitations"],
+  "evidencePath": "workflow/batches/2026-10-08-remaining44/west-016.base-evidence.json",
+  "evidenceHash": "b56221437c0469a54c081fb351c834d6050b2b4d58f7ef5dd894bd081bb6eba2",
+  "selectionReason": "两候选完整自洽；BBC有已核验来源成品图，按规定排序采用其完整配方。",
+  "unresolvedConflicts": ["来源未给内部熟度温度、准备与烹调时间字段，未补造。", "较长冷藏如何计入总时长及部分调味细节未解释，已披露。"],
+  "scopeCheck": "仅west-016变化；22步、150分钟、6份；乳制品、蛋、小麦标签检测通过，textOnly:true、vegetarian:false，无media，身份及img保持。"
+}

@@ -298,6 +298,7 @@ try {
   // Scroll lazy images before checking decoding, and walk all cooking steps.
   const mediaPage = await browser.newPage({ viewport: { width: 938, height: 945 } });
   const verifiedMedia = [];
+  let textOnlyRecipes = [];
   try {
     mediaPage.on("pageerror", (error) => errors.push(`media page: ${error.message}`));
     await mediaPage.goto(`${baseUrl}#/home`, { waitUntil: "load" });
@@ -364,6 +365,32 @@ try {
         assert(recipe.steps[0].duration === null && !recipe.steps[0].timerRequired, "8小时以上仍被当成固定完成计时");
         assert(recipe.flags.containsBeef, "牛骨没有触发含牛源提示");
       }
+      if (recipe.id === "cn-013") {
+        assert(recipe.flags.vegetarian === false, "成分未明的胡辣汤料包被错误归为蛋奶素");
+        assert(recipe.sourceLimitations?.some((note) => note.includes("料包") && note.includes("组成")), "胡辣汤未披露料包组成的不确定性");
+      }
+      if (recipe.id === "west-016") {
+        assert(recipe.flags.containsBeef === true, "明确含牛柳的惠灵顿牛排缺少牛肉标记");
+      }
+      if (recipe.id === "west-018") {
+        assert(recipe.flags.containsAlcohol === false, "仅含红葡萄酒醋的普罗旺斯炖菜被误标含酒");
+      }
+      if (recipe.id === "west-026") {
+        assert(recipe.allergens.includes("dairy"), "原味酸奶未触发乳制品过敏原");
+      }
+      if (recipe.id === "west-027") {
+        assert(recipe.ingredients[17].name === "莳萝" && recipe.ingredients[17].label.includes("半小把"), "炸鱼塔可的莳萝名称/半小把用量解析错误");
+        assert(recipe.ingredients[18].name === "罗勒" && recipe.ingredients[18].label.includes("半小把"), "炸鱼塔可的罗勒名称/半小把用量解析错误");
+      }
+      if (recipe.id === "west-028") {
+        assert(recipe.flags.spicy === true, "明确标注辣味的莎莎酱未触发辣味标记");
+      }
+      if (recipe.id === "west-029") {
+        assert(recipe.ingredients[1].name === "清水" && recipe.ingredients[1].label.includes("至少2000毫升"), "班尼迪克蛋的清水名称或至少2000毫升下限解析错误");
+      }
+      if (recipe.id === "west-030") {
+        assert(recipe.allergens.includes("tree-nut"), "碧根果未触发树坚果过敏原");
+      }
       if (recipe.id === "west-031") {
         assert(recipe.time === 225 && recipe.defaultServings === 16, "肉酱225分钟/16份被覆盖");
         assert(recipe.source === "https://www.seriouseats.com/basic-ragu-bolognese-recipe", "肉酱信源串用");
@@ -415,8 +442,37 @@ try {
       await mediaPage.waitForSelector(".cook-done");
       verifiedMedia.push({ id: recipe.id, steps: recipe.steps.length, stepImages: recipe.steps.filter((step) => step.image).length });
     }
+
+    textOnlyRecipes = await mediaPage.evaluate(() => window.YANHUO_RECIPES.filter((recipe) => recipe.textOnly));
+    assert(textOnlyRecipes.length <= 23, `纯文字菜谱数超过用户授权范围：${textOnlyRecipes.length}`);
+    assert(textOnlyRecipes.every((recipe) => recipe.imageFull === null && recipe.imageThumb === null && !recipe.media && recipe.steps.every((step) => !step.image)), "纯文字菜谱生成数据仍包含图片引用");
   } finally {
     await mediaPage.close();
+  }
+
+  if (textOnlyRecipes.length) {
+    const textOnlyPage = await browser.newPage({ viewport: { width: 390, height: 844 } });
+    textOnlyPage.on("pageerror", (error) => errors.push(`text-only page: ${error.message}`));
+    try {
+      const recipe = textOnlyRecipes[0];
+      await textOnlyPage.goto(`${baseUrl}#/recipes`, { waitUntil: "load" });
+      const cardSelector = `.recipe-card.text-only[data-id="${recipe.id}"]`;
+      await textOnlyPage.waitForSelector(cardSelector);
+      const card = textOnlyPage.locator(cardSelector);
+      assert(await card.locator("img").count() === 0, `${recipe.id} 卡片仍渲染图片`);
+      await textOnlyPage.goto(`${baseUrl}#/recipe/${recipe.id}`, { waitUntil: "load" });
+      await textOnlyPage.waitForSelector(".detail-page");
+      assert(await textOnlyPage.locator(".detail-hero > img, .step-preview-image").count() === 0, `${recipe.id} 详情仍渲染图片`);
+      assert((await textOnlyPage.locator(".fact-row .fact").nth(2).innerText()).includes("文字步骤"), `${recipe.id} 未标记为文字步骤`);
+      const buttermilk = textOnlyRecipes.find((item) => item.id === "west-030");
+      assert(buttermilk, "酪乳煎饼未使用纯文字授权");
+      await textOnlyPage.goto(`${baseUrl}#/recipe/west-030`, { waitUntil: "load" });
+      const buttermilkDetail = await textOnlyPage.locator(".detail-page").innerText();
+      assert(buttermilkDetail.includes("树坚果"), "酪乳煎饼详情未显示碧根果的树坚果提醒");
+      assert(await textOnlyPage.locator(".detail-hero > img, .step-preview-image").count() === 0, "酪乳煎饼详情仍渲染图片");
+    } finally {
+      await textOnlyPage.close();
+    }
   }
 
   await page.evaluate(() => {

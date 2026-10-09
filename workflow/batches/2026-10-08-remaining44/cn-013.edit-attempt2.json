@@ -1,0 +1,14 @@
+{
+  "targetId": "cn-013",
+  "changedFields": [
+    "vegetarian",
+    "sourceLimitations"
+  ],
+  "evidencePath": "workflow/batches/2026-10-08-remaining44/cn-013.base-evidence.json",
+  "evidenceHash": "b5be37dc575ed83fdf5bb98096b7f193e32b36d6c70a467f5f4fd369793ddb80",
+  "result": "新增保守vegetarian:false覆盖，并披露来源没有列出胡辣汤料包组成；其余菜谱内容保持。",
+  "unresolvedConflicts": [
+    "料包组成未知，无法确认素食属性；已披露并设置vegetarian:false。"
+  ],
+  "scopeCheck": "仅cn-013变化，textOnly:true及其余正文、来源保持。"
+}

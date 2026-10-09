@@ -1,0 +1,18 @@
+{
+  "status": "FAIL",
+  "issues": [
+    {
+      "field": "generated.ingredients[1].name",
+      "message": "生成名称为“清水至少”，将数量下限修饰语“至少”并入食材身份。名称应为“清水”，label须完整保留“至少2000毫升”的来源下限。"
+    }
+  ],
+  "summary": "14项原料及9步忠于BBC来源，荷兰酱、水波蛋与组装顺序完整，20分钟及所有范围计时留空正确。4表示四个半片松饼组合，正文明确区别于四人份；醋、蛋奶小麦、猪肉、辣味和非素食标记合理。纯文字无运行时图片检查及确定性验证通过。步骤语法、标点和结构审查通过，但生成水原料名称混入数量修饰语，需修复后复审。",
+  "evidencePackageHash": "3dd8b60f48d02c625f1331f0f4abd2540da704385b4c32db028298bdca858e8f",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": false,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

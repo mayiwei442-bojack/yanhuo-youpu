@@ -1,0 +1,21 @@
+{
+  "targetId": "cn-049",
+  "changedFields": [
+    "ingredients",
+    "steps",
+    "source",
+    "timing",
+    "servings",
+    "textOnly",
+    "vegetarian",
+    "sourceLimitations"
+  ],
+  "evidencePath": "workflow/batches/2026-10-08-remaining44/cn-049.base-evidence.json",
+  "evidenceHash": "4be8c4899c3aed9f08d3708e99bb80af4ee5ab94ba29e2b786781734453d4c86",
+  "result": "按The Woks of Life完整肉夹馍配方生成纯文字菜谱，并显式保守标记素食分类。",
+  "unresolvedConflicts": [
+    "来源卡片烹调时间与炖肉阶段时长不一致，已披露。",
+    "可选成品配料组成、部分用量及隔夜储存条件未注明，未补造。"
+  ],
+  "scopeCheck": "仅cn-049变化；textOnly:true，无media；身份及img保持，明确vegetarian:false。"
+}

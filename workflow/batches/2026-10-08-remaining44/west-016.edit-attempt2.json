@@ -1,0 +1,8 @@
+{
+  "targetId": "west-016",
+  "changedFields": ["containsBeef"],
+  "evidencePath": "workflow/batches/2026-10-08-remaining44/west-016.base-evidence.json",
+  "evidenceHash": "b56221437c0469a54c081fb351c834d6050b2b4d58f7ef5dd894bd081bb6eba2",
+  "unresolvedConflicts": [],
+  "scopeCheck": "仅west-016新增来源支持的containsBeef:true；原料、步骤及其余字段保持，textOnly:true。"
+}

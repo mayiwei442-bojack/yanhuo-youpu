@@ -1,0 +1,10 @@
+{
+  "targetId": "west-021",
+  "changedFields": ["ingredients", "steps", "source", "timing", "servings", "textOnly", "vegetarian", "containsBeef", "containsAlcohol", "sourceLimitations"],
+  "selectedSource": "BBC Good Food，唯一合格完整来源",
+  "evidencePath": "workflow/batches/2026-10-08-remaining44/west-021.base-evidence.json",
+  "evidenceHash": "70529b126976788c9491ed040f24ff235afbd8a966d428964018efb084518fc9",
+  "result": "17项原料、15步；1600克牛肉、2瓶红酒、不加高汤；保留过夜腌制、烤炖及后加入培根、洋葱、蘑菇的顺序。来源总时长255分钟，6份。",
+  "unresolvedConflicts": ["酒瓶容量未注明", "过夜时长未量化", "调味料种类及部分火候时间未注明", "配方卡与正文时间分配未解释，均已披露"],
+  "scopeCheck": "快照比较仅west-021变化；身份和img保持，textOnly:true，无媒体引用，未修改其他文件。"
+}

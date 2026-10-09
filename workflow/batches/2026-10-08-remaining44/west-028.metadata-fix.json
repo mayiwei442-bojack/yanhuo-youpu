@@ -1,0 +1,8 @@
+{
+  "targetId": "west-028",
+  "issueFromReview": "generated.flags.spicy omitted the source-listed hot salsa",
+  "fix": "Extended spicy detection to recognize the explicit label 辣莎莎 and added a generated-data regression assertion for west-028; kept the canonical recipe and frozen evidence unchanged.",
+  "canonicalRecipeChanged": false,
+  "evidencePath": "workflow/batches/2026-10-08-remaining44/west-028.base-evidence.json",
+  "evidenceHash": "e22897e407d18911e1a1b2578c7fc45b9178b1f51fcceaf0ce1885248a984659"
+}

@@ -1,0 +1,8 @@
+{
+  "targetId": "west-030",
+  "issueFromReview": "generated.allergens omitted the source-listed 85 g pecans",
+  "fix": "Extended ingredient allergen detection with a distinct tree-nut category for pecans and added unit, generated-data, UI-display and pure-text regression assertions. The canonical recipe, quantities and method are unchanged.",
+  "canonicalRecipeChanged": false,
+  "evidencePath": "workflow/batches/2026-10-08-remaining44/west-030.base-evidence.json",
+  "evidenceHash": "3e1b2df6acd7726eb45b51fbd063a4337278f6ea0a08ced7319cadd64a241cf8"
+}

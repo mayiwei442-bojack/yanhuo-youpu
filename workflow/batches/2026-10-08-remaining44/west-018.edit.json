@@ -1,0 +1,9 @@
+{
+  "targetId": "west-018",
+  "changedFields": ["ingredients", "steps", "source", "timing", "servings", "textOnly", "vegetarian", "containsAlcohol", "sourceLimitations"],
+  "evidencePath": "workflow/batches/2026-10-08-remaining44/west-018.base-evidence.json",
+  "evidenceHash": "a1d8bd21ac709c455d8113e56abe4ae8af902683dcc03ccc5342658ba644869e",
+  "selectionReason": "两候选完整自洽；BBC具有已核验来源成品图，按规定排序采用其完整配方。",
+  "unresolvedConflicts": ["来源总油量5汤匙的全部阶段分配未写明，已披露。", "未给烹调时间字段及部分细节，未补造；醋的残留酒精未知，不保证零酒精。"],
+  "scopeCheck": "仅west-018变化；50分钟、4份；textOnly:true、vegetarian:true、containsAlcohol:false，无media，身份及img保持。"
+}

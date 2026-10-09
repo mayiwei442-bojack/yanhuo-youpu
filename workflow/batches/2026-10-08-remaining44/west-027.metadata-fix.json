@@ -1,0 +1,8 @@
+{
+  "targetId": "west-027",
+  "issueFromReview": "Generated herb ingredient names included the quantity 半小把.",
+  "fix": "Ingredient parsing now recognizes 小把 as a unit; deterministic browser test verifies 莳萝 and 罗勒 names while retaining 半小把 in their labels.",
+  "canonicalRecipeChanged": false,
+  "evidencePath": "workflow/batches/2026-10-08-remaining44/west-027.base-evidence.json",
+  "evidenceHash": "5e5544835805346baed5f7d93922cdfb63c74a04f785c126fce85200048a353a"
+}

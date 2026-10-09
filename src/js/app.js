@@ -9,6 +9,7 @@
 
   const ALLERGENS = [
     { id: "peanut", label: "花生" },
+    { id: "tree-nut", label: "树坚果" },
     { id: "dairy", label: "乳制品" },
     { id: "egg", label: "蛋类" },
     { id: "fish", label: "鱼类" },
@@ -527,10 +528,10 @@
     const recipe = result.recipe;
     const label = result.group === "ready" ? "核心食材齐全" : result.group === "almost" ? `还差 ${result.missingCore.length} 样` : `${Math.round(result.coverage * 100)}% 覆盖`;
     return `
-      <article class="recommendation-card">
-        <div class="rec-image" role="button" tabindex="0" data-action="open-recipe" data-id="${recipe.id}">
+      <article class="recommendation-card ${recipe.textOnly ? "text-only" : ""}">
+        ${recipe.textOnly ? "" : `<div class="rec-image" role="button" tabindex="0" data-action="open-recipe" data-id="${recipe.id}">
           <img src="${recipe.imageThumb}" alt="${esc(recipe.name)}" loading="lazy">
-        </div>
+        </div>`}
         <div class="rec-copy">
           <div class="card-meta"><span>${esc(recipe.category)}</span><span>${label}</span></div>
           <h3>${esc(recipe.name)}</h3>
@@ -616,15 +617,16 @@
 
   function renderRecipeCard(recipe, match) {
     const saved = state.favorites.includes(recipe.id);
+    const favoriteButton = `<button class="favorite-button ${saved ? "saved" : ""}" type="button" data-action="toggle-favorite" data-id="${recipe.id}" aria-label="${saved ? "取消收藏" : "收藏"}${esc(recipe.name)}">${saved ? "♥" : "♡"}</button>`;
     const matchLine = match
       ? `<div class="match-line ${match.group === "ready" ? "" : "missing"}"><span class="match-dot"></span>${match.group === "ready" ? "核心食材齐全" : match.group === "almost" ? `还差 ${match.missingCore.length} 样核心食材` : `现有食材覆盖 ${Math.round(match.coverage * 100)}%`}</div>`
       : "";
     return `
-      <article class="recipe-card" role="button" tabindex="0" data-action="open-recipe" data-id="${recipe.id}">
-        <div class="recipe-card-media">
+      <article class="recipe-card ${recipe.textOnly ? "text-only" : ""}" role="button" tabindex="0" data-action="open-recipe" data-id="${recipe.id}">
+        ${recipe.textOnly ? favoriteButton : `<div class="recipe-card-media">
           <img src="${recipe.imageThumb}" alt="${esc(recipe.name)}" loading="lazy">
-          <button class="favorite-button ${saved ? "saved" : ""}" type="button" data-action="toggle-favorite" data-id="${recipe.id}" aria-label="${saved ? "取消收藏" : "收藏"}${esc(recipe.name)}">${saved ? "♥" : "♡"}</button>
-        </div>
+          ${favoriteButton}
+        </div>`}
         <div class="recipe-card-body">
           <div class="card-meta"><span>${esc(recipe.category)} · ${esc(recipe.cuisine)}</span>${recipe.time !== null ? `<span>${recipe.timeBasis === "estimated" ? "约 " : ""}${recipe.time} MIN</span>` : ""}</div>
           <h3>${esc(recipe.name)}</h3>
@@ -651,8 +653,8 @@
     const safetyClass = safety.blocked ? "danger" : safety.notes.length ? "warning" : "";
     return `
       <section class="detail-page">
-        <div class="detail-hero">
-          <img src="${recipe.imageFull}" data-fallback="${recipe.imageThumb}" alt="${esc(recipe.name)}">
+        <div class="detail-hero ${recipe.textOnly ? "text-only" : ""}">
+          ${recipe.textOnly ? "" : `<img src="${recipe.imageFull}" data-fallback="${recipe.imageThumb}" alt="${esc(recipe.name)}">`}
           <button class="back-button" type="button" data-action="back" aria-label="返回">←</button>
           <button class="favorite-button ${state.favorites.includes(id) ? "saved" : ""}" style="top:16px;right:16px" type="button" data-action="toggle-favorite" data-id="${id}" aria-label="收藏">${state.favorites.includes(id) ? "♥" : "♡"}</button>
           <div class="detail-title-block">
@@ -666,7 +668,7 @@
           <div class="fact-row">
             <div class="fact"><strong>${recipe.time !== null ? `${recipe.time} 分` : "未注明"}</strong><span>${recipe.timeBasis === "source" ? "来源总用时" : recipe.time !== null ? "预计用时" : "来源总用时"}</span></div>
             <div class="fact"><strong>${recipe.difficulty}</strong><span>烹饪难度</span></div>
-            <div class="fact"><strong>${recipe.steps.length} 步</strong><span>图文教程</span></div>
+            <div class="fact"><strong>${recipe.steps.length} 步</strong><span>${recipe.textOnly ? "文字步骤" : "图文教程"}</span></div>
           </div>
 
           <div class="match-panel">

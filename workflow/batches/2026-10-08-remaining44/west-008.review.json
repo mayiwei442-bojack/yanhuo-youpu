@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "证据哈希一致。已核对全部21项原料和12个生成步骤，高汤与海鲜饭两组油、洋葱、番茄及蒜的分用正确，虾头虾壳制汤、取1.5升高汤、炒米炒香料及海鲜豆类添加顺序符合单一来源。110分钟、8份及明确阶段计时正确；未知火力、范围时间、高汤产量和海鲜处理限制已披露，未补造条件。鱼类及甲壳贝类风险标记齐全，非素食分类正确。纯文字授权适用，textOnly为true且生成输出无运行时图片引用。四项对抗性检查、确定性验证、浏览器检查及构建通过。",
+  "evidencePackageHash": "7e639be81961b1ce97020e953c210cbd75481cedec30f2871ab78cd6b1eae747",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

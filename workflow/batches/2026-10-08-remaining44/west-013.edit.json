@@ -1,0 +1,9 @@
+{
+  "targetId": "west-013",
+  "changedFields": ["ingredients", "steps", "source", "timing", "servings", "textOnly", "vegetarian", "sourceLimitations"],
+  "evidencePath": "workflow/batches/2026-10-08-remaining44/west-013.base-evidence.json",
+  "evidenceHash": "aab9ab976075b489d38cbd3e9a7c0d2ffd9b7fbfda0456deebfba197ec8bba50",
+  "selectionReason": "三个候选均完整自洽；BBC具有已核验来源成品图，按规定排序优先，整体采用其凝脂奶油配方。",
+  "unresolvedConflicts": ["部分用量及阶段时间未给，已披露。", "干酪和鲜面组成未展开，素食保守覆盖，并提示核对鲜面鸡蛋等过敏原。"],
+  "scopeCheck": "仅west-013变化；25分钟、3份；textOnly:true，无media，身份及img保持。"
+}

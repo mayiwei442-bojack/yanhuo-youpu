@@ -11,5 +11,11 @@
     ],
     "completedAt": "2026-10-08T12:24:21.754Z",
     "resumedAt": "2026-10-08T12:45:58.714Z"
+  },
+  {
+    "status": "in_progress",
+    "errors": [],
+    "completedAt": null,
+    "resumedAt": "2026-10-09T02:52:49.687Z"
   }
 ]

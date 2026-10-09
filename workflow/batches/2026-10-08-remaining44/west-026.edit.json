@@ -1,0 +1,9 @@
+{
+  "targetId": "west-026",
+  "changedFields": ["ingredients", "steps", "source", "timing", "servings", "textOnly", "vegetarian", "containsBeef", "sourceLimitations"],
+  "evidencePath": "workflow/batches/2026-10-08-remaining44/west-026.base-evidence.json",
+  "evidenceHash": "5e68e1586d66854a3a96c909f0178479a22379943820026789cb3e192d668350",
+  "result": "采用BBC整套配方，12项原料、6步，75分钟、3份。保留200克牛肉、600毫升高汤、红薯、绿甜椒及上桌酸奶；非素食，含牛肉和乳制品。",
+  "unresolvedConflicts": ["部分火力、牛肉炒制时间及酸奶加入前冷却条件未量化", "高汤具体组成未提供，均已披露"],
+  "scopeCheck": "仅west-026变化；身份和img保留，textOnly:true，无运行时媒体，未修改其他文件。"
+}

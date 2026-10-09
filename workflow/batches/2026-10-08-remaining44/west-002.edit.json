@@ -1,0 +1,21 @@
+{
+  "targetId": "west-002",
+  "changedFields": [
+    "ingredients",
+    "steps",
+    "source",
+    "timing",
+    "servings",
+    "textOnly",
+    "vegetarian",
+    "sourceLimitations"
+  ],
+  "evidencePath": "workflow/batches/2026-10-08-remaining44/west-002.base-evidence.json",
+  "evidenceHash": "72040f87626762457de3c46a2eb2dc14cbf2159b7418c0c7abdcdfbf235a372f",
+  "result": "按BBC Good Food完整披萨配方改写为纯文字版本，并按证据约束时间、份数与分类。",
+  "unresolvedConflicts": [
+    "卡片烹调10分钟与两张逐张烘烤的关系未解释，已披露。",
+    "可选发酵条件、部分用量及调味料组成未给，未补造；素食属性保守覆盖。"
+  ],
+  "scopeCheck": "仅west-002变化；textOnly:true，无media；稳定身份及img保持。"
+}

@@ -1,0 +1,18 @@
+{
+  "status": "FAIL",
+  "issues": [
+    {
+      "field": "generated.flags.vegetarian",
+      "message": "生成数据将本菜标为 vegetarian:true，但所选来源没有提供胡辣汤粉料、蔬菜包和油包的具体组成，sourceLimitations 也明确承认这一点。证据不能确认料包不含肉类或动物成分，请消除未经证实的素食分类，并重新生成验证。"
+    }
+  ],
+  "summary": "证据哈希一致。9项原料及5个步骤忠实保留同一来源的料包版本、约1000克汤水、添加顺序和成熟判据，未补造火候、时长或份数；原料分隔、名称、步骤语法、标点及结构通过。用户授权覆盖cn-013，canonical与generated均为textOnly，运行时主图为空且步骤无图片。确定性验证通过，但未知料包组成被错误推断为素食，故本次审核不通过。",
+  "evidencePackageHash": "b5be37dc575ed83fdf5bb98096b7f193e32b36d6c70a467f5f4fd369793ddb80",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

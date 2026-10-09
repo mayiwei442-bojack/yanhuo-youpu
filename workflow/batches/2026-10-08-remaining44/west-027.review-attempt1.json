@@ -1,0 +1,22 @@
+{
+  "status": "FAIL",
+  "issues": [
+    {
+      "field": "generated.ingredients[17].name",
+      "message": "生成原料名称为“莳萝半小把”，将用量“半小把”并入食材身份。名称应为“莳萝”，用量保留在label中。"
+    },
+    {
+      "field": "generated.ingredients[18].name",
+      "message": "生成原料名称为“罗勒半小把”，将用量“半小把”并入食材身份。名称应为“罗勒”，用量保留在label中。"
+    }
+  ],
+  "summary": "23项原料和12步整体忠于BBC来源，腌洋葱、塔塔酱、啤酒面糊、190℃油温及每批4分钟操作完整，65分钟和4份及来源限制披露合理。鱼、蛋、小麦、含酒及非素食标签正确，纯文字无运行时图片检查通过，确定性验证通过。步骤语法、标点和结构审查通过，但两个生成原料名称混入用量，影响匹配与购物，需修复后复审。",
+  "evidencePackageHash": "5e5544835805346baed5f7d93922cdfb63c74a04f785c126fce85200048a353a",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": false,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}

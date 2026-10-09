@@ -1,0 +1,9 @@
+{
+  "targetId": "west-028",
+  "changedFields": ["ingredients", "steps", "source", "timing", "servings", "textOnly", "vegetarian", "sourceLimitations"],
+  "evidencePath": "workflow/batches/2026-10-08-remaining44/west-028.base-evidence.json",
+  "evidenceHash": "e22897e407d18911e1a1b2578c7fc45b9178b1f51fcceaf0ce1885248a984659",
+  "result": "BBC整套配方，8项原料、6步，16分钟、2份。两张面粉薄饼夹熟烤鸡肉、红腰豆及切达奶酪，刷油面先煎4分钟，翻面2分钟。",
+  "unresolvedConflicts": ["刷油量、煎锅火力及温度未给", "烤鸡制作方法、豆罐头沥干重量及成品详细配料未提供，均已披露"],
+  "scopeCheck": "仅west-028改变；身份和img保留，textOnly:true，无运行时媒体，未修改其他文件。"
+}

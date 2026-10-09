@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "summary": "证据哈希一致。素食推断已取消，canonical覆盖和生成标记均为false，并明确披露料包组成未知，未猜测具体动物成分。重新核对9项原料和5个步骤，数量、添加顺序及煮熟、煮沸、成糊、黏稠判据符合单一来源；未知火候、时长、总用时和份数保持为空。纯文字授权覆盖cn-013，textOnly为true，运行时无图片引用。原料语义、步骤语法、标点和渲染结构全部通过，确定性验证、浏览器检查及构建通过。",
+  "evidencePackageHash": "b5be37dc575ed83fdf5bb98096b7f193e32b36d6c70a467f5f4fd369793ddb80",
+  "validatorPassed": true,
+  "adversarialReview": {
+    "ingredientSemantics": true,
+    "stepGrammar": true,
+    "punctuation": true,
+    "renderedStructure": true
+  }
+}
