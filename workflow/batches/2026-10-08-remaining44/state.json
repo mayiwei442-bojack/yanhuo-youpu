@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T05:05:40.353Z",
+  "updatedAt": "2026-10-09T05:08:48.174Z",
   "branch": "codex/recipe-automation",
   "recipes": [
     {
@@ -63,7 +63,7 @@
     {
       "recipeId": "cn-013",
       "name": "胡辣汤",
-      "status": "in_progress",
+      "status": "done",
       "steps": {
         "research": {
           "status": "done",
@@ -224,8 +224,11 @@
           }
         },
         "gitPush": {
-          "status": "pending",
-          "attempts": 0
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "publishedCommit": "e3c39511400bf663b183a2575ab726e23a1c5915"
+          }
         }
       },
       "errors": []
@@ -1803,7 +1806,7 @@
     {
       "recipeId": "cn-049",
       "name": "肉夹馍",
-      "status": "in_progress",
+      "status": "done",
       "steps": {
         "research": {
           "status": "done",
@@ -2038,8 +2041,11 @@
           }
         },
         "gitPush": {
-          "status": "pending",
-          "attempts": 0
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "publishedCommit": "e3c39511400bf663b183a2575ab726e23a1c5915"
+          }
         }
       },
       "errors": []
@@ -2407,7 +2413,7 @@
     {
       "recipeId": "west-002",
       "name": "玛格丽特披萨",
-      "status": "in_progress",
+      "status": "done",
       "steps": {
         "research": {
           "status": "done",
@@ -2642,8 +2648,11 @@
           }
         },
         "gitPush": {
-          "status": "pending",
-          "attempts": 0
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "publishedCommit": "e3c39511400bf663b183a2575ab726e23a1c5915"
+          }
         }
       },
       "errors": []
@@ -2651,7 +2660,7 @@
     {
       "recipeId": "west-005",
       "name": "芝士汉堡",
-      "status": "in_progress",
+      "status": "done",
       "steps": {
         "research": {
           "status": "done",
@@ -2874,8 +2883,11 @@
           }
         },
         "gitPush": {
-          "status": "pending",
-          "attempts": 0
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "publishedCommit": "e3c39511400bf663b183a2575ab726e23a1c5915"
+          }
         }
       },
       "errors": []
@@ -2883,7 +2895,7 @@
     {
       "recipeId": "west-007",
       "name": "炸鱼薯条",
-      "status": "in_progress",
+      "status": "done",
       "steps": {
         "research": {
           "status": "done",
@@ -3117,8 +3129,11 @@
           }
         },
         "gitPush": {
-          "status": "pending",
-          "attempts": 0
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "publishedCommit": "e3c39511400bf663b183a2575ab726e23a1c5915"
+          }
         }
       },
       "errors": []
@@ -3126,7 +3141,7 @@
     {
       "recipeId": "west-008",
       "name": "西班牙海鲜饭",
-      "status": "in_progress",
+      "status": "done",
       "steps": {
         "research": {
           "status": "done",
@@ -3360,8 +3375,11 @@
           }
         },
         "gitPush": {
-          "status": "pending",
-          "attempts": 0
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "publishedCommit": "e3c39511400bf663b183a2575ab726e23a1c5915"
+          }
         }
       },
       "errors": []
@@ -3369,7 +3387,7 @@
     {
       "recipeId": "west-009",
       "name": "德式烤香肠",
-      "status": "in_progress",
+      "status": "done",
       "steps": {
         "research": {
           "status": "done",
@@ -3603,8 +3621,11 @@
           }
         },
         "gitPush": {
-          "status": "pending",
-          "attempts": 0
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "publishedCommit": "e3c39511400bf663b183a2575ab726e23a1c5915"
+          }
         }
       },
       "errors": []
@@ -3612,7 +3633,7 @@
     {
       "recipeId": "west-013",
       "name": "奶油宽面",
-      "status": "in_progress",
+      "status": "done",
       "steps": {
         "research": {
           "status": "done",
@@ -3848,8 +3869,11 @@
           }
         },
         "gitPush": {
-          "status": "pending",
-          "attempts": 0
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "publishedCommit": "e3c39511400bf663b183a2575ab726e23a1c5915"
+          }
         }
       },
       "errors": []
@@ -3857,7 +3881,7 @@
     {
       "recipeId": "west-014",
       "name": "蘑菇烩饭",
-      "status": "in_progress",
+      "status": "done",
       "steps": {
         "research": {
           "status": "done",
@@ -4092,8 +4116,11 @@
           }
         },
         "gitPush": {
-          "status": "pending",
-          "attempts": 0
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "publishedCommit": "e3c39511400bf663b183a2575ab726e23a1c5915"
+          }
         }
       },
       "errors": []
@@ -4101,7 +4128,7 @@
     {
       "recipeId": "west-015",
       "name": "帕玛森鸡排",
-      "status": "in_progress",
+      "status": "done",
       "steps": {
         "research": {
           "status": "done",
@@ -4336,8 +4363,11 @@
           }
         },
         "gitPush": {
-          "status": "pending",
-          "attempts": 0
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "publishedCommit": "e3c39511400bf663b183a2575ab726e23a1c5915"
+          }
         }
       },
       "errors": []
@@ -4345,7 +4375,7 @@
     {
       "recipeId": "west-016",
       "name": "惠灵顿牛排",
-      "status": "in_progress",
+      "status": "done",
       "steps": {
         "research": {
           "status": "done",
@@ -4565,8 +4595,11 @@
           }
         },
         "gitPush": {
-          "status": "pending",
-          "attempts": 0
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "publishedCommit": "e3c39511400bf663b183a2575ab726e23a1c5915"
+          }
         }
       },
       "errors": []
@@ -4574,7 +4607,7 @@
     {
       "recipeId": "west-017",
       "name": "红酒炖鸡",
-      "status": "in_progress",
+      "status": "done",
       "steps": {
         "research": {
           "status": "done",
@@ -4809,8 +4842,11 @@
           }
         },
         "gitPush": {
-          "status": "pending",
-          "attempts": 0
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "publishedCommit": "e3c39511400bf663b183a2575ab726e23a1c5915"
+          }
         }
       },
       "errors": []
@@ -4818,7 +4854,7 @@
     {
       "recipeId": "west-018",
       "name": "普罗旺斯炖菜",
-      "status": "in_progress",
+      "status": "done",
       "steps": {
         "research": {
           "status": "done",
@@ -5054,8 +5090,11 @@
           }
         },
         "gitPush": {
-          "status": "pending",
-          "attempts": 0
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "publishedCommit": "e3c39511400bf663b183a2575ab726e23a1c5915"
+          }
         }
       },
       "errors": []
@@ -5063,7 +5102,7 @@
     {
       "recipeId": "west-019",
       "name": "马赛鱼汤",
-      "status": "in_progress",
+      "status": "done",
       "steps": {
         "research": {
           "status": "done",
@@ -5302,8 +5341,11 @@
           }
         },
         "gitPush": {
-          "status": "pending",
-          "attempts": 0
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "publishedCommit": "e3c39511400bf663b183a2575ab726e23a1c5915"
+          }
         }
       },
       "errors": []
@@ -5311,7 +5353,7 @@
     {
       "recipeId": "west-021",
       "name": "法式红酒炖牛肉",
-      "status": "in_progress",
+      "status": "done",
       "steps": {
         "research": {
           "status": "done",
@@ -5552,8 +5594,11 @@
           }
         },
         "gitPush": {
-          "status": "pending",
-          "attempts": 0
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "publishedCommit": "e3c39511400bf663b183a2575ab726e23a1c5915"
+          }
         }
       },
       "errors": []
@@ -5561,7 +5606,7 @@
     {
       "recipeId": "west-022",
       "name": "希腊穆萨卡",
-      "status": "in_progress",
+      "status": "done",
       "steps": {
         "research": {
           "status": "done",
@@ -5798,8 +5843,11 @@
           }
         },
         "gitPush": {
-          "status": "pending",
-          "attempts": 0
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "publishedCommit": "e3c39511400bf663b183a2575ab726e23a1c5915"
+          }
         }
       },
       "errors": []
@@ -5807,7 +5855,7 @@
     {
       "recipeId": "west-023",
       "name": "希腊沙拉",
-      "status": "in_progress",
+      "status": "done",
       "steps": {
         "research": {
           "status": "done",
@@ -6043,8 +6091,11 @@
           }
         },
         "gitPush": {
-          "status": "pending",
-          "attempts": 0
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "publishedCommit": "e3c39511400bf663b183a2575ab726e23a1c5915"
+          }
         }
       },
       "errors": []
@@ -6203,7 +6254,7 @@
     {
       "recipeId": "west-025",
       "name": "瑞典肉丸",
-      "status": "in_progress",
+      "status": "done",
       "steps": {
         "research": {
           "status": "done",
@@ -6441,8 +6492,11 @@
           }
         },
         "gitPush": {
-          "status": "pending",
-          "attempts": 0
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "publishedCommit": "e3c39511400bf663b183a2575ab726e23a1c5915"
+          }
         }
       },
       "errors": []
@@ -6450,7 +6504,7 @@
     {
       "recipeId": "west-026",
       "name": "匈牙利牛肉汤",
-      "status": "in_progress",
+      "status": "done",
       "steps": {
         "research": {
           "status": "done",
@@ -6686,8 +6740,11 @@
           }
         },
         "gitPush": {
-          "status": "pending",
-          "attempts": 0
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "publishedCommit": "e3c39511400bf663b183a2575ab726e23a1c5915"
+          }
         }
       },
       "errors": []
@@ -6695,7 +6752,7 @@
     {
       "recipeId": "west-027",
       "name": "炸鱼塔可",
-      "status": "in_progress",
+      "status": "done",
       "steps": {
         "research": {
           "status": "done",
@@ -6934,8 +6991,11 @@
           }
         },
         "gitPush": {
-          "status": "pending",
-          "attempts": 0
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "publishedCommit": "e3c39511400bf663b183a2575ab726e23a1c5915"
+          }
         }
       },
       "errors": []
@@ -6943,7 +7003,7 @@
     {
       "recipeId": "west-028",
       "name": "鸡肉芝士薄饼",
-      "status": "in_progress",
+      "status": "done",
       "steps": {
         "research": {
           "status": "done",
@@ -7102,8 +7162,11 @@
           "details": {}
         },
         "gitPush": {
-          "status": "pending",
-          "attempts": 0
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "publishedCommit": "e3c39511400bf663b183a2575ab726e23a1c5915"
+          }
         }
       },
       "errors": []
@@ -7111,7 +7174,7 @@
     {
       "recipeId": "west-029",
       "name": "班尼迪克蛋",
-      "status": "in_progress",
+      "status": "done",
       "steps": {
         "research": {
           "status": "done",
@@ -7276,8 +7339,11 @@
           "details": {}
         },
         "gitPush": {
-          "status": "pending",
-          "attempts": 0
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "publishedCommit": "e3c39511400bf663b183a2575ab726e23a1c5915"
+          }
         }
       },
       "errors": []
@@ -7285,7 +7351,7 @@
     {
       "recipeId": "west-030",
       "name": "酪乳煎饼",
-      "status": "in_progress",
+      "status": "done",
       "steps": {
         "research": {
           "status": "done",
@@ -7448,8 +7514,11 @@
           "details": {}
         },
         "gitPush": {
-          "status": "pending",
-          "attempts": 0
+          "status": "done",
+          "attempts": 1,
+          "details": {
+            "publishedCommit": "e3c39511400bf663b183a2575ab726e23a1c5915"
+          }
         }
       },
       "errors": []

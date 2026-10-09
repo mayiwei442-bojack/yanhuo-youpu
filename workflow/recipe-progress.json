@@ -87,9 +87,9 @@
     {
       "id": "cn-013",
       "name": "胡辣汤",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-remaining44-cn-013",
-      "completedAt": null
+      "completedAt": "2026-10-09T05:08:45.740Z"
     },
     {
       "id": "cn-014",
@@ -339,9 +339,9 @@
     {
       "id": "cn-049",
       "name": "肉夹馍",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-remaining44-cn-049",
-      "completedAt": null
+      "completedAt": "2026-10-09T05:08:45.858Z"
     },
     {
       "id": "cn-050",
@@ -432,9 +432,9 @@
     {
       "id": "west-002",
       "name": "玛格丽特披萨",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-remaining44-west-002",
-      "completedAt": null
+      "completedAt": "2026-10-09T05:08:45.958Z"
     },
     {
       "id": "west-003",
@@ -453,9 +453,9 @@
     {
       "id": "west-005",
       "name": "芝士汉堡",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-remaining44-west-005",
-      "completedAt": null
+      "completedAt": "2026-10-09T05:08:46.058Z"
     },
     {
       "id": "west-006",
@@ -467,23 +467,23 @@
     {
       "id": "west-007",
       "name": "炸鱼薯条",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-remaining44-west-007",
-      "completedAt": null
+      "completedAt": "2026-10-09T05:08:46.159Z"
     },
     {
       "id": "west-008",
       "name": "西班牙海鲜饭",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-remaining44-west-008",
-      "completedAt": null
+      "completedAt": "2026-10-09T05:08:46.266Z"
     },
     {
       "id": "west-009",
       "name": "德式烤香肠",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-remaining44-west-009",
-      "completedAt": null
+      "completedAt": "2026-10-09T05:08:46.383Z"
     },
     {
       "id": "west-010",
@@ -509,51 +509,51 @@
     {
       "id": "west-013",
       "name": "奶油宽面",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-remaining44-west-013",
-      "completedAt": null
+      "completedAt": "2026-10-09T05:08:46.494Z"
     },
     {
       "id": "west-014",
       "name": "蘑菇烩饭",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-remaining44-west-014",
-      "completedAt": null
+      "completedAt": "2026-10-09T05:08:46.607Z"
     },
     {
       "id": "west-015",
       "name": "帕玛森鸡排",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-remaining44-west-015",
-      "completedAt": null
+      "completedAt": "2026-10-09T05:08:46.733Z"
     },
     {
       "id": "west-016",
       "name": "惠灵顿牛排",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-remaining44-west-016",
-      "completedAt": null
+      "completedAt": "2026-10-09T05:08:46.846Z"
     },
     {
       "id": "west-017",
       "name": "红酒炖鸡",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-remaining44-west-017",
-      "completedAt": null
+      "completedAt": "2026-10-09T05:08:46.983Z"
     },
     {
       "id": "west-018",
       "name": "普罗旺斯炖菜",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-remaining44-west-018",
-      "completedAt": null
+      "completedAt": "2026-10-09T05:08:47.107Z"
     },
     {
       "id": "west-019",
       "name": "马赛鱼汤",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-remaining44-west-019",
-      "completedAt": null
+      "completedAt": "2026-10-09T05:08:47.225Z"
     },
     {
       "id": "west-020",
@@ -565,23 +565,23 @@
     {
       "id": "west-021",
       "name": "法式红酒炖牛肉",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-remaining44-west-021",
-      "completedAt": null
+      "completedAt": "2026-10-09T05:08:47.340Z"
     },
     {
       "id": "west-022",
       "name": "希腊穆萨卡",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-remaining44-west-022",
-      "completedAt": null
+      "completedAt": "2026-10-09T05:08:47.455Z"
     },
     {
       "id": "west-023",
       "name": "希腊沙拉",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-remaining44-west-023",
-      "completedAt": null
+      "completedAt": "2026-10-09T05:08:47.565Z"
     },
     {
       "id": "west-024",
@@ -593,44 +593,44 @@
     {
       "id": "west-025",
       "name": "瑞典肉丸",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-remaining44-west-025",
-      "completedAt": null
+      "completedAt": "2026-10-09T05:08:47.662Z"
     },
     {
       "id": "west-026",
       "name": "匈牙利牛肉汤",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-remaining44-west-026",
-      "completedAt": null
+      "completedAt": "2026-10-09T05:08:47.767Z"
     },
     {
       "id": "west-027",
       "name": "炸鱼塔可",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-remaining44-west-027",
-      "completedAt": null
+      "completedAt": "2026-10-09T05:08:47.868Z"
     },
     {
       "id": "west-028",
       "name": "鸡肉芝士薄饼",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-remaining44-west-028",
-      "completedAt": null
+      "completedAt": "2026-10-09T05:08:47.966Z"
     },
     {
       "id": "west-029",
       "name": "班尼迪克蛋",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-remaining44-west-029",
-      "completedAt": null
+      "completedAt": "2026-10-09T05:08:48.064Z"
     },
     {
       "id": "west-030",
       "name": "酪乳煎饼",
-      "status": "in_progress",
+      "status": "done",
       "lastRunId": "2026-10-08-remaining44-west-030",
-      "completedAt": null
+      "completedAt": "2026-10-09T05:08:48.174Z"
     },
     {
       "id": "west-031",

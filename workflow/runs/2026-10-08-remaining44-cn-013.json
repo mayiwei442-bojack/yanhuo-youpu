@@ -3,9 +3,9 @@
   "recipeId": "cn-013",
   "recipeName": "胡辣汤",
   "category": "chinese",
-  "status": "in_progress",
+  "status": "done",
   "startedAt": "2026-10-08T11:56:52.318Z",
-  "completedAt": null,
+  "completedAt": "2026-10-09T05:08:45.740Z",
   "steps": {
     "research": {
       "status": "done",
@@ -166,8 +166,11 @@
       }
     },
     "gitPush": {
-      "status": "pending",
-      "attempts": 0
+      "status": "done",
+      "attempts": 1,
+      "details": {
+        "publishedCommit": "e3c39511400bf663b183a2575ab726e23a1c5915"
+      }
     }
   },
   "sources": [
@@ -180,5 +183,5 @@
   ],
   "errors": [],
   "branch": "codex/recipe-automation",
-  "commit": null
+  "commit": "e3c39511400bf663b183a2575ab726e23a1c5915"
 }
