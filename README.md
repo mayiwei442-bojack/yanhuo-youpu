@@ -22,6 +22,7 @@
 - 图文烹饪教程和无失败、无惩罚的新手小游戏。
 - 抖音搜索跳转、Web Share、本机 JSON 备份与恢复。
 - 服务端同源限制、请求限流、超时控制和输出校验。
+- 右下角圆形菜谱助手：通过现有 Voyage / Supabase RAG 查菜谱、按原料找菜、查询配料用量，交给 DeepSeek 整理回答并展示来源；支持连续追问。
 
 ### 需要后续服务
 
@@ -48,7 +49,7 @@ DeepSeek API 与通义千问 API 密钥都不能写进 HTML 或浏览器 JavaScr
 
 ```text
 DEEPSEEK_API_KEY=你的密钥
-DEEPSEEK_MODEL=deepseek-v4-flash
+DEEPSEEK_MODEL=deepseek-flash
 QWEN_API_KEY=你的阿里云百炼密钥
 QWEN_VISION_MODEL=qwen-vl-max
 ```
@@ -72,6 +73,12 @@ http://127.0.0.1:8787
 ```text
 http://127.0.0.1:8787/api/ai/status
 ```
+
+菜谱助手还需要在服务端配置 `SUPABASE_URL`、`SUPABASE_SECRET_KEY`（或 `SUPABASE_SERVICE_ROLE_KEY`）和 `EMBEDDING_API_KEY`。继续使用现有的 `voyage-4` / 1024 维设置；知识库项目须处于运行状态。本机启动按系统环境变量、`.env.local`、`.env` 的顺序读取配置。部署时在平台配置这些环境变量。
+
+助手接口为同源 `POST /api/ai/chat`，请求 `{ "message": "宫保鸡丁需要哪些原料？", "history": [] }`。最多保留最近 8 条上下文，每条问题不超过 1000 字。对话保存在当前页面内存中，刷新后清空。回答只引用当前检索到的有效资料，同一道菜使用一个来源版本；资料不足或查询失败时明确说明，不使用本地菜谱冒充 RAG 结果。
+
+`npm run test:assistant` 验证真实检索模块、证据过滤、错误边界及 Vercel 函数打包（上游服务使用 mock）；启动网站后执行 `npm run test:assistant:ui` 验证桌面和手机交互。真实联通仍需使用运行中的 Supabase、Voyage 和 DeepSeek 配置。
 
 ## 四、让其他设备正常使用
 

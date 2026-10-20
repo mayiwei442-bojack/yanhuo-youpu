@@ -3,19 +3,11 @@ import { readFile, stat } from "node:fs/promises";
 import { extname, join, normalize, relative } from "node:path";
 import { fileURLToPath } from "node:url";
 import { createAiService } from "./src/server/ai-service.mjs";
+import { loadRagEnv } from "./src/rag/supabase-client.mjs";
 
 const root = fileURLToPath(new URL(".", import.meta.url));
 
-try {
-  const envFile = await readFile(join(root, ".env"), "utf8");
-  envFile.split(/\r?\n/).forEach((line) => {
-    const match = line.match(/^\s*([A-Z_][A-Z0-9_]*)\s*=\s*(.*?)\s*$/i);
-    if (!match || match[1] in process.env) return;
-    process.env[match[1]] = match[2].replace(/^(['"])(.*)\1$/, "$2");
-  });
-} catch (error) {
-  if (error?.code !== "ENOENT") console.warn("未能读取 .env，继续使用系统环境变量");
-}
+await loadRagEnv({ cwd: root });
 
 const port = Number(process.env.PORT || 8787);
 const aiService = createAiService(process.env);
@@ -43,6 +35,7 @@ async function serveStatic(request, response) {
     || ["/server.mjs", "/package.json", "/vercel.json"].includes(pathname)
     || pathname.startsWith("/api/")
     || pathname.startsWith("/src/server/")
+    || pathname.startsWith("/src/rag/")
   ) {
     response.writeHead(404, aiService.securityHeaders("text/plain; charset=utf-8"));
     return response.end("Not found");

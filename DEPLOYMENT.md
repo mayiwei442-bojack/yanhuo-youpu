@@ -23,12 +23,16 @@ DeepSeek API / 通义千问视觉 API
 | 变量 | 示例 | 说明 |
 |---|---|---|
 | `DEEPSEEK_API_KEY` | `sk-...` | 必填，只放在部署平台的 Secret/Environment 设置中 |
-| `DEEPSEEK_MODEL` | `deepseek-v4-flash` | 默认模型，适合常规结构化任务 |
+| `DEEPSEEK_MODEL` | `deepseek-flash` | 默认模型，适合常规结构化任务；旧配置须使用账户模型列表中可用的名称 |
 | `QWEN_API_KEY` | `sk-...` | 拍照识别必填（阿里云百炼 DashScope 密钥）；不配置时照片识别明确不可用 |
 | `QWEN_VISION_MODEL` | `qwen-vl-max` | 视觉模型，默认即可 |
 | `PORT` | `8787` | 多数平台会自动注入 |
 | `AI_RATE_LIMIT_PER_MINUTE` | `30` | 单 IP 每分钟 AI 请求上限 |
 | `AI_TIMEOUT_MS` | `45000` | DeepSeek 与通义千问请求超时 |
+| `SUPABASE_URL` | `https://<project-ref>.supabase.co` | 菜谱助手使用的现有 RAG 项目，须处于运行状态 |
+| `SUPABASE_SECRET_KEY` | 服务端 Secret Key | 菜谱助手检索必需；也可使用 `SUPABASE_SERVICE_ROLE_KEY` |
+| `EMBEDDING_API_KEY` | Voyage API Key | 菜谱助手检索必需，只放服务端 |
+| `EMBEDDING_MODEL` / `EMBEDDING_DIM` | `voyage-4` / `1024` | 沿用现有 RAG 向量约定 |
 | `TRUST_PROXY` | `true` | 仅在可信反向代理平台上开启 |
 
 不要在部署环境设置自定义 `DEEPSEEK_BASE_URL` 或 `QWEN_VISION_BASE_URL`，除非你明确使用可信代理。生产环境默认使用 `https://api.deepseek.com` 和 `https://dashscope.aliyuncs.com/compatible-mode/v1`。

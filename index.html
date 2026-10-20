@@ -8,12 +8,14 @@
   <title>烟火有谱｜今天吃什么，家里有什么</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%23c64a2d'/%3E%3Cpath d='M17 21h30M21 31h22M25 41h14' stroke='%23fffaf0' stroke-width='6' stroke-linecap='round'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="src/styles/app.css">
+  <link rel="stylesheet" href="src/styles/assistant.css">
   <script src="data/recipes.js" defer></script>
   <script src="data/ingredients.js" defer></script>
   <script src="data/features.js" defer></script>
   <script src="src/js/future-services.js" defer></script>
   <script src="src/js/howtocook-renderer.js" defer></script>
   <script src="src/js/app.js" defer></script>
+  <script src="src/js/assistant.js" defer></script>
 </head>
 <body>
   <div class="paper-grain" aria-hidden="true"></div>
@@ -63,6 +65,36 @@
   </dialog>
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <button class="assistant-launcher" id="assistant-launcher" type="button" aria-label="打开菜谱 AI 助手" aria-expanded="false" aria-controls="assistant-panel" title="问问菜谱助手">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 9V7a5 5 0 0 1 10 0v2M6 9h12a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-3l-3 3-3-3H6a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2Z"/><path d="M9 13h.01M15 13h.01M10 16h4"/></svg>
+  </button>
+  <section class="assistant-panel" id="assistant-panel" role="dialog" aria-modal="false" aria-labelledby="assistant-title" hidden>
+    <header class="assistant-header">
+      <div><span class="assistant-eyebrow">烟火有谱 · AI</span><h2 id="assistant-title">菜谱助手</h2></div>
+      <button class="assistant-close" id="assistant-close" type="button" aria-label="收起菜谱助手">×</button>
+    </header>
+    <div class="assistant-messages" id="assistant-messages" role="log" aria-label="与菜谱助手的对话" aria-live="polite" aria-relevant="additions text">
+      <div class="assistant-welcome" id="assistant-welcome">
+        <span class="assistant-welcome-mark" aria-hidden="true">谱</span>
+        <h3>今天想做点什么？</h3>
+        <p>告诉我菜名，或手头的食材。<br>我会从菜谱知识库里帮你找。</p>
+        <div class="assistant-prompts">
+          <button type="button">鸡蛋和番茄能做什么？</button>
+          <button type="button">宫保鸡丁需要哪些原料？</button>
+          <button type="button">找几道简单的素菜</button>
+        </div>
+      </div>
+    </div>
+    <form class="assistant-form" id="assistant-form">
+      <label class="assistant-sr-only" for="assistant-input">输入菜名、原料或你的问题</label>
+      <div class="assistant-input-row">
+        <textarea id="assistant-input" rows="2" maxlength="1000" placeholder="问菜谱、查原料……" enterkeyhint="send" required></textarea>
+        <button class="assistant-send" id="assistant-send" type="submit" aria-label="发送问题" disabled><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5m-6 6 6-6 6 6"/></svg></button>
+      </div>
+      <p class="assistant-footnote">回答依据菜谱知识库，资料不足时会告诉你。</p>
+    </form>
+  </section>
 
   <noscript>
     <div class="noscript">请开启 JavaScript 以体验食材匹配、采购清单和图文烹饪功能。</div>

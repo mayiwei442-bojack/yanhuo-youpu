@@ -66,6 +66,10 @@ async function writeFunction(functionDir, handlerSource) {
   if (rewritten === handlerCode) throw new Error(`函数入口未按预期引用 ai-service：${functionDir}`);
   await writeFile(resolve(target, "index.mjs"), rewritten);
   await writeFile(resolve(target, "ai-service.mjs"), aiServiceCode);
+  await cp(resolve(projectRoot, "src/server/rag-assistant.mjs"), resolve(target, "rag-assistant.mjs"));
+  await cp(resolve(projectRoot, "src/rag"), resolve(target, "rag"), { recursive: true });
+  const assistantCode = await readFile(resolve(target, "rag-assistant.mjs"), "utf8");
+  await writeFile(resolve(target, "rag-assistant.mjs"), assistantCode.replaceAll('"../rag/', '"./rag/'));
   await writeFile(resolve(target, ".vc-config.json"), `${JSON.stringify({
     runtime: "nodejs24.x",
     handler: "index.mjs",

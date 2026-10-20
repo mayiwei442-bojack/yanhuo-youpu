@@ -1,4 +1,6 @@
-const DEFAULT_MODEL = "deepseek-v4-flash";
+import { answerRecipeQuestion, assistantConfigured, validateChatInput } from "./rag-assistant.mjs";
+
+const DEFAULT_MODEL = "deepseek-flash";
 const DEFAULT_BASE_URL = "https://api.deepseek.com";
 const DEFAULT_QWEN_VISION_MODEL = "qwen-vl-max";
 const DEFAULT_QWEN_VISION_BASE_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1";
@@ -35,7 +37,7 @@ function parseJsonValue(value) {
   }
 }
 
-export function createAiService(environment = process.env) {
+export function createAiService(environment = process.env, { fetchImpl = globalThis.fetch } = {}) {
   const deepseekApiKey = environment.DEEPSEEK_API_KEY || "";
   const deepseekModel = environment.DEEPSEEK_MODEL || DEFAULT_MODEL;
   const deepseekBaseUrl = String(environment.DEEPSEEK_BASE_URL || DEFAULT_BASE_URL).replace(/\/+$/, "");
@@ -87,7 +89,7 @@ export function createAiService(environment = process.env) {
     const internalCode = String(error?.code || "SERVER_ERROR");
     const status = Number(error?.status || 500);
     console.error(`[AI service error] ${internalCode}: ${String(error?.message || "unknown error")}`);
-    const safeError = ["INVALID_JSON", "BODY_TOO_LARGE"].includes(internalCode)
+    const safeError = ["INVALID_JSON", "BODY_TOO_LARGE", "INVALID_CHAT_INPUT", "RAG_UNAVAILABLE"].includes(internalCode)
       ? { code: internalCode, message: String(error?.message || "请求内容不正确") }
       : internalCode === "AI_TIMEOUT"
         ? { code: "AI_TIMEOUT", message: "智能服务响应时间较长，请稍后再试" }
@@ -249,14 +251,14 @@ export function createAiService(environment = process.env) {
     };
   }
 
-  async function callDeepSeek({ systemPrompt, userPrompt, maxTokens = 1200 }) {
+  async function callDeepSeek({ systemPrompt, userPrompt, maxTokens = 1200, timeoutMs = requestTimeoutMs }) {
     if (!deepseekApiKey) {
       throw Object.assign(new Error("服务端尚未设置 DEEPSEEK_API_KEY"), { code: "AI_NOT_CONFIGURED", status: 503 });
     }
     const controller = new AbortController();
-    const timer = setTimeout(() => controller.abort(), requestTimeoutMs);
+    const timer = setTimeout(() => controller.abort(), Math.min(timeoutMs, requestTimeoutMs));
     try {
-      const apiResponse = await fetch(`${deepseekBaseUrl}/chat/completions`, {
+      const apiResponse = await fetchImpl(`${deepseekBaseUrl}/chat/completions`, {
         method: "POST",
         headers: {
           Authorization: `Bearer ${deepseekApiKey}`,
@@ -408,13 +410,16 @@ export function createAiService(environment = process.env) {
     }
 
     const body = await readJson(request);
+    if (operation === "chat") validateChatInput(body);
     const catalog = cleanCatalog(body.ingredientCatalog);
     if (!catalog.length && ["parse-ingredients", "suggest-substitutions", "recognize-ingredient-photo"].includes(operation)) {
       return sendServiceError(response, "CATALOG_REQUIRED", "食材目录不能为空", 400, {}, rateHeaders);
     }
 
     let result;
-    if (operation === "recognize-ingredient-photo") {
+    if (operation === "chat") {
+      result = { data: await answerRecipeQuestion(body, { environment, callModel: callDeepSeek, fetchImpl }) };
+    } else if (operation === "recognize-ingredient-photo") {
       const imageDataUrl = String(body.imageDataUrl || "");
       if (!/^data:image\/(png|jpe?g|webp);base64,/.test(imageDataUrl)) {
         return sendServiceError(response, "INVALID_IMAGE", "请上传 PNG、JPEG 或 WebP 格式的照片", 400, {}, rateHeaders);
@@ -489,7 +494,7 @@ export function createAiService(environment = process.env) {
           ok: true,
           data: {
             configured: Boolean(deepseekApiKey),
-            capabilities: { text: Boolean(deepseekApiKey), vision: Boolean(qwenApiKey) }
+            capabilities: { text: Boolean(deepseekApiKey), vision: Boolean(qwenApiKey), assistant: assistantConfigured(environment) }
           },
           error: null,
           meta: { fallback: false }
