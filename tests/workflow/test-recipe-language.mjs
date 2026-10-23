@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
-import { chinese, western } from "../recipe_data.mjs";
-import { cleanIngredientName } from "../recipe-ingredient-metadata.mjs";
+import { chinese, western } from "../../tools/recipe_data.mjs";
+import { cleanIngredientName } from "../../tools/recipe-ingredient-metadata.mjs";
 
 assert.equal(cleanIngredientName("清水半碗"), "清水");
 assert.equal(cleanIngredientName("高汤一杯（可选）"), "高汤");

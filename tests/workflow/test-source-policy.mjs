@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { isAuthorizedHeroOnly, isAuthorizedIncomplete } from "./source-policy.mjs";
+import { isAuthorizedHeroOnly, isAuthorizedIncomplete } from "../../tools/workflow/source-policy.mjs";
 const approval = { recipeId: "west-031", sourceUrl: "https://www.seriouseats.com/basic-ragu-bolognese-recipe", authorization: "user_explicit_2026-10-07_west-031" };
 assert.equal(isAuthorizedHeroOnly(approval), true);
 for (const patch of [{ recipeId: "west-012" }, { sourceUrl: "https://example.com/" }, { authorization: "guessed" }]) assert.equal(isAuthorizedHeroOnly({ ...approval, ...patch }), false);

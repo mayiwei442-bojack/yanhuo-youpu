@@ -138,7 +138,7 @@ async function main() {
     if (!generatedCheck.passed) validation.errors.push("生成后的 data/recipes.js 中找不到目标菜谱");
   }
   if (validation.errors.length === 0 && process.argv.includes("--full")) {
-    commands.push(run(process.execPath, ["tools/test_html_demo.mjs"]));
+    commands.push(run(process.execPath, ["tests/test_html_demo.mjs"]));
     commands.push(run(process.execPath, ["tools/build_vercel_output.mjs"]));
   }
   validation.commands = commands;

@@ -1,7 +1,7 @@
 import { chromium } from "playwright-core";
 import { pathToFileURL } from "node:url";
 import { resolve } from "node:path";
-import { chinese, western } from "./recipe_data.mjs";
+import { chinese, western } from "../tools/recipe_data.mjs";
 
 const baseUrl = process.env.DEMO_URL || pathToFileURL(resolve(process.env.DEMO_ENTRY || "index.html")).href;
 const expectDeepSeek = process.env.EXPECT_DEEPSEEK === "1";

@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
-import { createRecipeCatalog, createRecipeSnapshot, splitRecipeSteps } from "./recipe-state.mjs";
-import { validateRecipeChange, validateRecipeAddition } from "./validate-recipe.mjs";
+import { createRecipeCatalog, createRecipeSnapshot, splitRecipeSteps } from "../../tools/workflow/recipe-state.mjs";
+import { validateRecipeChange, validateRecipeAddition } from "../../tools/workflow/validate-recipe.mjs";
 
 const original = createRecipeCatalog();
 const elevenSteps = Array.from({ length: 11 }, (_, index) => `${index + 1}）操作${index + 1}。`).join("");

@@ -61,7 +61,7 @@ for (const targetId of targetIds) {
 const commands = [];
 if (!errors.length) commands.push(run(process.execPath, ["tools/build_html_demo_data.mjs"]));
 if (!errors.length && commands.every((command) => command.passed) && process.argv.includes("--full")) {
-  commands.push(run(process.execPath, ["tools/test_html_demo.mjs"]));
+  commands.push(run(process.execPath, ["tests/test_html_demo.mjs"]));
   commands.push(run(process.execPath, ["tools/build_vercel_output.mjs"]));
 }
 for (const command of commands.filter((item) => !item.passed)) errors.push(`命令失败：${command.command}`);

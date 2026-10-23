@@ -6,6 +6,12 @@ Dockerfile
 .env
 .env.example
 docs/
+tests/
+workflow/
+.codex/
+tools/workflow/
+CODEX_RAG_SPEC.md
+AGENTS.md
 outputs/
 work/
 .agents/

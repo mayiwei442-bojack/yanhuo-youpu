@@ -9,6 +9,16 @@ outputs/
 dist/
 .vercel/
 node_modules/
+coverage/
+playwright-report/
+test-results/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.tmp
+*.bak
+*.orig
+*.rej
 
 # Historical demos and duplicate delivery bundles
 legacy/
@@ -26,5 +36,3 @@ desktop.ini
 .env.*
 !.env.example
 *.log
-.vercel
-.env*

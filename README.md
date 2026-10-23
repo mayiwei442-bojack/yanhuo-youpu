@@ -92,11 +92,12 @@ Vercel 适配已经在 `codex/vercel-deployment` 分支完成：公开网页会�
 
 ## 五、AI 接口设计
 
-文本能力默认模型：`deepseek-v4-flash`；照片识别默认模型：`qwen-vl-max`（阿里云百炼 OpenAI 兼容接口）。
+文本能力默认模型：`deepseek-flash`；照片识别默认模型：`qwen-vl-max`（阿里云百炼 OpenAI 兼容接口）。
 
 服务端接口：
 
 - `GET /api/ai/status`
+- `POST /api/ai/chat`：从 RAG 知识库找菜谱、查询配料用量，支持上下文追问并展示来源。
 - `POST /api/ai/parse-ingredients`
 - `POST /api/ai/explain-recommendation`
 - `POST /api/ai/suggest-substitutions`
@@ -134,12 +135,17 @@ data/
   features.js                     # 功能状态
 src/
   js/app.js                       # 页面和业务逻辑
+  js/assistant.js                 # 右下角菜谱助手
   js/future-services.js           # DeepSeek 与通义千问视觉前端服务适配器
   server/ai-service.mjs           # 本机与 Vercel 共用的 AI 服务逻辑
+  server/rag-assistant.mjs        # RAG 问答、有效证据筛选与来源校验
+  rag/                           # 知识库检索、入库和 Embedding 适配
   styles/app.css                  # 响应式视觉样式
-tools/build_vercel_output.mjs      # 生成只含公开网页资源的 dist
-tools/test_html_demo.mjs           # 浏览器自动化验收
-tools/test_vercel_functions.mjs    # Vercel 函数、构建与密钥边界验收
+tools/                            # 构建、canonical 数据和工作流工具
+tests/                            # 页面、助手、接口和构建验收
+  fixtures/                      # 测试使用的本地模拟服务器
+  workflow/                      # 菜谱与 RAG 工作流回归检查
+workflow/                         # 运行进度、来源证据、评审与验收记录
 docs/
   中西餐菜品数据库_图片已补全.xlsx   # 菜谱数据源与图片对应表
 ```
@@ -152,6 +158,8 @@ docs/
 - Trae、社区上传和阶段性开发交接包。
 - 旧报名页面、Zip 压缩包和浏览器验收截图。
 - `work/`、`.agents/`、`.qa_vibe_plan/` 等本地工作目录。
+
+正在使用的测试统一放在 `tests/`，命令见 [测试说明](tests/README.md)。`tools/` 只保留构建、数据和工作流工具。历史迁移的一次性执行脚本和未被页面使用的食材大图已清理；`workflow/` 中的来源证据、评审和运行记录用于追溯菜谱，继续保留。测试和历史工作流资料已加入 Vercel / Docker 忽略规则，公开构建仅包含页面运行文件。
 
 ## 九、验证
 

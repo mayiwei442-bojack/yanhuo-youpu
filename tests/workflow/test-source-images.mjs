@@ -2,8 +2,8 @@ import assert from "node:assert/strict";
 import { createHash } from "node:crypto";
 import { readFile, stat } from "node:fs/promises";
 import { resolve } from "node:path";
-import { chinese, western } from "../recipe_data.mjs";
-import { isAuthorizedHeroOnly } from "./source-policy.mjs";
+import { chinese, western } from "../../tools/recipe_data.mjs";
+import { isAuthorizedHeroOnly } from "../../tools/workflow/source-policy.mjs";
 
 const recipes = [...chinese, ...western];
 const refreshed = recipes.filter((recipe) => recipe.media);

@@ -44,7 +44,7 @@ async function stop(child) {
 }
 
 try {
-  start("tools/mock_deepseek_server.mjs", { MOCK_DEEPSEEK_PORT: String(mockPort) });
+  start("tests/fixtures/mock_deepseek_server.mjs", { MOCK_DEEPSEEK_PORT: String(mockPort) });
   await waitFor(`http://127.0.0.1:${mockPort}/healthz`);
 
   start("server.mjs", {
@@ -65,7 +65,7 @@ try {
   assert(status.data?.capabilities?.vision === false, "DeepSeek 文本接口不应声称支持照片");
   assert(!["provider", "model", "deepseek-v4-flash"].some((term) => JSON.stringify(status).includes(term)), "公开 AI 状态泄露了供应商或模型信息");
 
-  const browserTest = spawn(process.execPath, ["tools/test_html_demo.mjs"], {
+  const browserTest = spawn(process.execPath, ["tests/test_html_demo.mjs"], {
     cwd: process.cwd(),
     env: {
       ...process.env,

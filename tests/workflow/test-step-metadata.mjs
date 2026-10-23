@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { stepDuration, stepHeat, recipeTotalMinutes, sourceStepDurations } from "../recipe-step-metadata.mjs";
+import { stepDuration, stepHeat, recipeTotalMinutes, sourceStepDurations } from "../../tools/recipe-step-metadata.mjs";
 
 assert.equal(stepDuration("腌制半小时。"), 1800);
 assert.equal(stepDuration("静置0.5小时。"), 1800);

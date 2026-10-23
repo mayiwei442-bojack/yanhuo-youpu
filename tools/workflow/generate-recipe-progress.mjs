@@ -46,7 +46,7 @@ const output = `${JSON.stringify(progress, null, 2)}\n`;
 
 if (process.argv.includes("--check")) {
   const current = await readFile(outputUrl, "utf8").catch(() => "");
-  if (current !== output) {
+  if (current.replace(/\r\n/gu, "\n") !== output) {
     console.error("workflow/recipe-progress.json 与 tools/recipe_data.mjs 不一致，请运行 npm run rag:state:generate");
     process.exitCode = 1;
   } else {

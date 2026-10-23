@@ -88,7 +88,7 @@ async function fileExists(path) {
 }
 
 try {
-  mockServer = spawn(process.execPath, ["tools/mock_deepseek_server.mjs"], {
+  mockServer = spawn(process.execPath, ["tests/fixtures/mock_deepseek_server.mjs"], {
     cwd: process.cwd(),
     env: { ...process.env, MOCK_DEEPSEEK_PORT: String(mockPort) },
     stdio: ["ignore", "pipe", "pipe"],

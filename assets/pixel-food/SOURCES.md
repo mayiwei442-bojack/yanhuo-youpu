@@ -5,7 +5,7 @@
 - 上游仓库：[rakkarage/PixelFood](https://github.com/rakkarage/PixelFood)
 - 贴图来源目录：[PixelFood/Split](https://github.com/rakkarage/PixelFood/tree/main/PixelFood/Split)
 - `selected/`：共 35 张 16×16 透明底 PNG。其中 15 张来自 PixelFood 上游，另有 20 张为本项目补充生成。
-- `processed-large/`：20 张补充素材的放大版本，便于在产品界面中直接预览；原始 16×16 版本仍以 `selected/` 为准。
+- 正式页面统一使用 `selected/` 下的 16×16 贴图。
 - `LICENSE-MIT.txt`：仓库程序代码许可证。
 - `LICENSE-ART-CC0.txt`：**本目录 PNG 美术贴图的实际许可证**。美术为 CC0 1.0，无署名要求；保留两份许可证是为了完整保留上游说明。
 

@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { applyComponentDietaryMetadata } from "../recipe-component-metadata.mjs";
+import { applyComponentDietaryMetadata } from "../../tools/recipe-component-metadata.mjs";
 const item = (id, name, extra = {}) => ({ id, name, time: 80, allergens: [], flags: { containsPork: false, containsBeef: false, containsAlcohol: false, spicy: false, vegetarian: true }, ...extra });
 const sauce = item("west-031", "肉酱", { time: 225, allergens: ["fish", "dairy"], flags: { containsPork: true, containsBeef: true, containsAlcohol: true, spicy: false, vegetarian: false } });
 const lasagna = item("west-012", "千层面", { allergens: ["dairy", "wheat"], recipeLinks: [{ recipeId: sauce.id, name: sauce.name }] });

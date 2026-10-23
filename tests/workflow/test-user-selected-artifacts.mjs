@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { createHash } from "node:crypto";
 import { readFile } from "node:fs/promises";
-import { isAuthorizedHeroOnly, isAuthorizedIncomplete } from "./source-policy.mjs";
+import { isAuthorizedHeroOnly, isAuthorizedIncomplete } from "../../tools/workflow/source-policy.mjs";
 const json = async (path) => JSON.parse(await readFile(path, "utf8"));
 const cases = [
   ["cn-003", "2026-09-16-cn-003-source-images", "2026-10-07-cn-003-total-time", "2026-10-07-cn-003-total-time"],
